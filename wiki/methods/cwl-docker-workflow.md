@@ -19,6 +19,8 @@ A workflow management approach that combines Common Workflow Language (CWL) for 
 
 - The TCGA MC3 somatic calling pipeline was distributed as a CWL + Docker workflow at https://github.com/OpenGenomics/mc3, enabling reproducible execution of the seven-caller ensemble across DNAnexus and other cloud platforms [PMID:29596782](../papers/29596782.md)
 - Common Workflow Language (CWL) and Docker-containerized pipelines described as the emerging reproducible stack for cloud-based biomedical analysis; NCI cancer-genomics cloud pilots expose >200 CWL/WDL tools for TCGA reanalysis [PMID:29902176](../papers/29902176.md)
+- MSK-ACCESS bioinformatics pipeline executed using CWL (Common Workflow Language) with toil workflow engine and Docker containerization; enabled reproducible, scalable processing of 681 prospective plasma samples [PMID:34145282](../papers/34145282.md)
+- Used for pipeline execution of the MSK-ACCESS bioinformatics workflow in the cf-IMPACT/ACCESS tumor-fraction-guided cfDNA triage study [PMID:34059130](../papers/34059130.md)
 
 ## Notes
 
@@ -32,3 +34,9 @@ A workflow management approach that combines Common Workflow Language (CWL) for 
 - [PMID:29902176](../papers/29902176.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

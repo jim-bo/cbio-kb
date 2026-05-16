@@ -47,6 +47,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Recurrently mutated at 3.6% (3/83) in retinoblastoma ([RBL](../cancer_types/RBL.md)); only non-[RB1](../genes/RB1.md) genes with putative driver status in MSK-IMPACT profiling of 83 enucleated specimens. [PMID:33466343](../papers/33466343.md)
 - Promoter C228T/C250T mutations in 74% of primary GBMs with elevated TERT RNA; mutually exclusive with [ATRX](../genes/ATRX.md) mutations and co-occurs with [TP53](../genes/TP53.md) and [IDH1](../genes/IDH1.md) R132H in a CPTAC proteogenomic cohort of 99 treatment-naive GBMs. [PMID:33577785](../papers/33577785.md)
 - Promoter alterations enriched in cirrhotic iCCA patients (21% vs 4% non-cirrhotic); co-occurs with [TP53](../genes/TP53.md) mutations (τ=0.19, Q=0.002); univariate OS association dropped from multivariate models due to collinearity with TP53. [PMID:33765338](../papers/33765338.md)
+- Promoter hotspot C228T (c.-124C>T) in 9/60 metaplastic breast carcinomas (MBC) and gene amplification in 1/60; all alterations in triple-negative cases; mutually exclusive with TP53 mutations (CoMEt p<0.001); co-occurs with PIK3CA hotspots [PMID:33863915](../papers/33863915.md)
+- Included in the 30-gene CSCC driver-discovery set on the basis of prior literature reporting frequent promoter mutations; not directly interrogated in this exome-based meta-analysis [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -120,25 +122,31 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33029006](../papers/33029006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

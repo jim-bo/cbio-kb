@@ -9,7 +9,7 @@ cancer_types:
   - GBM
   - IHCH
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,9 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - CDKN2A alterations associated with worse OS in esophageal/GEJ adenocarcinoma: KM p<0.001; adjusted HR 1.65; multivariable HR 1.50 (95% CI 1.14–1.97, p=0.004) in the egc_mskcc_2020 cohort (n=487). CDKN2A deletions alone were not prognostic on univariable analysis [PMID:33795256](../papers/33795256.md).
 - CDKN2A focal alterations in 15% of intrahepatic cholangiocarcinoma (iCCA); homozygous deletions in 13%; strongest independent prognostic factor (HR 3.40 in resected cohort multivariate; HR 2.5 in whole cohort). Only deep (homozygous) deletions are prognostic; monoallelic alterations are not. Mutually exclusive with IDH1/2 mutations and FGFR2 fusions [PMID:33765338](../papers/33765338.md).
 - CDKN2A/CDKN2B show differential alteration patterns between IDH-WT and IDH-mutant GBM tumors in the CPTAC proteogenomic cohort (gbm_cptac_2021, n=99) [PMID:33577785](../papers/33577785.md).
+- Detected at varying frequencies across TERT-altered and TERT-WT metaplastic breast cancer groups in a 60-case MSKCC cohort [PMID:33863915](../papers/33863915.md)
+- Deletion (HR 3.3, 95% CI 1.1–9.5, P=0.030) independently predicts worse OS in node-positive (N1) intrahepatic cholangiocarcinoma; combined CDKN2A/B deletion (HR 5.0) part of the poor-prognosis composite (TP53 mut / KRAS mut / CDKN2A/B del): median OS 12.1 vs 30.9 months (P=0.002) [PMID:33963001](../papers/33963001.md)
+- Mutated/deleted in 34.9% of CSCC tumors including focal homozygous deletions; drives cell-cycle-checkpoint (Rb pathway) loss present in 38.6% of tumors [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +56,12 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

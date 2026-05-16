@@ -8,7 +8,7 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -37,6 +37,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - Gemcitabine/cisplatin (GC) was one of the two cisplatin-based neoadjuvant chemotherapy regimens (alongside MVAC) used in the 288 MSKCC MIBC patients; the differential pathologic response of primary vs secondary MIBC was observed across both NAC regimens [PMID:30290956](../papers/30290956.md).
 - In a UTUC PDX model (UCC03), gemcitabine alone significantly inhibited tumor growth (p=0.0065); UCC19 PDX (source patient had durable response, off therapy 15 months) was highly sensitive to Gem/Carbo (p<0.0001) and carried truncating RECQL4 F987* mutation as a candidate DDR biomarker of platinum/gemcitabine sensitivity [PMID:32332851](../papers/32332851.md)
 - Background chemotherapy in iCCA; HAIC with floxuridine (HR 0.45, P=0.003) improved OS independently of genomic profile in locally advanced, unresectable iCCA patients on systemic therapy [PMID:33765338](../papers/33765338.md)
+- In a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018), systemic chemotherapy alone (N=140) produced median OS of 11.2 months in node-positive disease vs 18–20 months for locoregional approaches; the authors note a high proportion of SYS patients did not receive gemcitabine-plus-platinum first-line (the current standard), which may further depress the SYS arm's survival [PMID:33963001](../papers/33963001.md).
 
 ## Resistance mechanisms
 
@@ -93,5 +94,6 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:32332851](../papers/32332851.md)
 
 - [PMID:33765338](../papers/33765338.md)
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); gemcitabine-platinum standard first-line for systemic chemotherapy arm; underuse of GC in SYS arm may partly explain inferior OS vs locoregional approaches in node-positive IHC.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

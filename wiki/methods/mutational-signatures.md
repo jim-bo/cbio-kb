@@ -49,6 +49,8 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Mutational signature decomposition applied to uterine sarcoma MSK-IMPACT samples with ≥10 SNVs; MMR-D signatures identified in two MSI-H uLMS outliers; aging signatures prevalent in uLMS [PMID:32299819](../papers/32299819.md)
 - AID/APOBEC Signatures 2+13 and aging/MMR-D signatures confirmed stable across PDX passages in UTUC models; Signature 2 lost in UCC30 PDX flagged as engraftment-driven genomic drift [PMID:32332851](../papers/32332851.md)
 - Computed for 268 LUAD tumors (44%) with ≥13.8 mut/Mb; SBS2 (SHR 2.07, p=0.021) and SBS13 (SHR 2.27, p=0.005) associated with increased postresection recurrence risk; APOBEC signatures increased with histologic-subtype invasiveness [PMID:32791233](../papers/32791233.md)
+- Five CSCC ([CSCC](../cancer_types/CSCC.md)) molecular subtypes resolved by mutational-signature analysis of 88 tumors: xeroderma pigmentosum (XP), sporadic, immunosuppressed without azathioprine, immunosuppressed on azathioprine (high COSMIC signature 32), and RDEB; XP tumors lacked canonical UV signature 7 due to trinucleotide-context differences [PMID:34272401](../papers/34272401.md)
+- Mutational signatures extracted from cf-WES data of 5 high-tumor-fraction cf-IMPACT-negative plasma samples; predominant tumor mutational signatures were recoverable from cfDNA WES at average mVAF 11% [PMID:34059130](../papers/34059130.md)
 
 ## Notes
 
@@ -153,3 +155,9 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:32791233](../papers/32791233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

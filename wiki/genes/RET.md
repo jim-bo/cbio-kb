@@ -29,6 +29,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - Second-most-frequent in-frame fusion partner in non-small-cell lung adenocarcinoma (12 tumors); KIF5B-RET seen in 8 tumors [PMID:32015526](../papers/32015526.md)
 - Chromoplexy-mediated fusions and enhancer-hijacking events involving RET observed in thyroid adenocarcinoma (PCAWG pan-cancer SV analysis) [PMID:32025007](../papers/32025007.md)
 - In-frame kinase fusions recurrent in [LUAD](../cancer_types/LUAD.md) proteogenomic cohort (CPTAC, n=110); RET rearrangements among most frequent oncogenic kinase fusions observed [PMID:32649874](../papers/32649874.md)
+- KIF5B-RET fusions detected in NSCLC via MSK-ACCESS cfDNA profiling [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -76,10 +77,13 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32015526](../papers/32015526.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

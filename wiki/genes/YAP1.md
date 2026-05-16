@@ -3,7 +3,7 @@ symbol: YAP1
 aliases: [YAP]
 cancer_types: [STAD]
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - YAP1 is not mutated but accumulates in nuclei of NF2-loss uRCC tumours (26% of cohort); shRNA knockdown of YAP1 in NF2-loss nccRCC lines ACHN and LB996-RCC reduces S- and G2/M-phase cells (P<0.001) and decreases soft-agar colony formation, validating functional dependency. [PMID:27713405](../papers/27713405.md)
 - Focally amplified (3%) in UPS/MFS and also amplified in 16% of DDLPS as an adipocyte-differentiation inhibitor; the YAP1/VGLL3 TEAD-cofactor target signature is strongly expressed (p=1e-24) in UPS/MFS, supporting a role for Hippo pathway activation in these sarcoma subtypes [PMID:29100075](../papers/29100075.md).
 - Hippo pathway effector; TEAD1 knockdown sensitivity in CCLE cell lines associated with integrin complexes (ITGB1), consistent with the YAP1/Hippo mechanosensing axis [PMID:31978347](../papers/31978347.md)
+- Focal amplification in 1.2% of CSCC tumors; Hippo-pathway effector observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -52,4 +53,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

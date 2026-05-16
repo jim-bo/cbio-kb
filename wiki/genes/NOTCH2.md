@@ -3,7 +3,7 @@ symbol: NOTCH2
 aliases: []
 cancer_types: [CSCC]
 tags: [tumor-suppressor, skin-cancer, Notch-pathway, loss-of-function]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -34,6 +34,8 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - Activating PEST-domain NOTCH2 mutations are a defining clonal event in C1 ABC-DLBCL (marginal-zone–like biology), co-occurring with truncating SPEN mutations; therapeutic hypothesis: NOTCH inhibition in C1 [PMID:29713087](../papers/29713087.md)
 - Lower-prevalence NOTCH-family mutations numerically enriched in R/M ACC; NOTCH2 mutations observed alongside NOTCH3 and NOTCH4 (NOTCH4 OR 6.59, P=0.067) in the R/M vs. primary comparison [PMID:31483290](../papers/31483290.md).
 - One of the most common co-mutations in TRK fusion-positive tumors in the MSK cohort; co-occurs with NOTCH1 and TERT promoter mutations as background mutations in the TRK fusion-positive context [PMID:31871300](../papers/31871300.md)
+- Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction) in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
+- Loss-of-function mutations in 36.1% of cutaneous squamous cell carcinomas in a meta-analysis of 88 QC-passed tumors; NOTCH-pathway inactivation identified as near-obligate in CSCC [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -89,10 +91,16 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

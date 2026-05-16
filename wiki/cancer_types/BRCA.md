@@ -66,6 +66,8 @@ OncoTree code for invasive breast carcinoma.
 - Synthetic iCARE modeling in women aged 50–75 with breast cancer showed that for the top 1% of CH+blood-count risk, adjuvant chemotherapy added ~9% absolute 10-year myeloid neoplasm risk — potentially exceeding the survival benefit of chemotherapy in some early-stage BRCA patients, raising the possibility of CH-guided therapy choice. [PMID:33106634](../papers/33106634.md)
 - NMF multi-omics clustering of 122 treatment-naive primary breast tumors resolved four subtypes (LumA-I, LumB-I, HER2-I, Basal-I); 2/17 ERBB2-amplified cases were pseudo-ERBB2+ with protein levels in the ERBB2-negative range; Rb protein/phosphoprotein status (not RB1 genotype alone) tracked CDK4/6 inhibitor sensitivity in TNBC [PMID:33212010](../papers/33212010.md)
 - WES of 3 juvenile papillomatosis (JP) breast lesions found clonal [PIK3CA](../genes/PIK3CA.md) hotspot mutations (H1047R, E542K) in 2/3 cases; JP, [DCIS](../cancer_types/DCIS.md), and [IDC](../cancer_types/IDC.md) components were clonally related in 1 case sharing PIK3CA E542K with APOBEC signature shift during progression [PMID:33263939](../papers/33263939.md)
+- cf-IMPACT targeted cfDNA profiling (410-gene panel) identified somatic mutations in breast cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; [PIK3CA](../genes/PIK3CA.md) OncoKB level 1 alterations identified in plasma of breast cancer patients, supporting [alpelisib](../drugs/alpelisib.md) eligibility; [ESR1](../genes/ESR1.md) p.E380Q (1.7% VAF) detected by MSK-ACCESS in a metastatic breast cancer patient whose tumor MSK-IMPACT and cf-IMPACT were both negative [PMID:34059130](../papers/34059130.md).
+- MSK-ACCESS (129-gene cfDNA assay) detected OncoKB level 1 actionable alterations in 37% of breast cancer samples profiled prospectively (n=617 patients, 31 tumor types); [ERBB2](../genes/ERBB2.md) and [NF1](../genes/NF1.md) were enriched in cfDNA relative to tissue in breast cancer; panel was designed to capture at least one non-synonymous mutation in 91% of breast cancers [PMID:34145282](../papers/34145282.md).
 
 ## Subtypes
 
@@ -87,6 +89,9 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:22722202](../papers/22722202.md)
 - [PMID:23000897](../papers/23000897.md)
 - [PMID:25470049](../papers/25470049.md)
+- [PMID:33863915](../papers/33863915.md)
+- [PMID:34059130](../papers/34059130.md)
+- [PMID:34145282](../papers/34145282.md)
 - [PMID:26095796](../papers/26095796.md)
 - [PMID:26437033](../papers/26437033.md)
 - [PMID:26451490](../papers/26451490.md)
@@ -172,5 +177,7 @@ OncoTree code for invasive breast carcinoma.
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md) — Krug et al. CPTAC proteogenomic analysis of 122 primary invasive breast tumors.
 - [PMID:33263939](../papers/33263939.md) — D'Alfonso et al. WES of juvenile papillomatosis with coexisting DCIS and IDC-NST.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

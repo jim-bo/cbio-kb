@@ -25,6 +25,7 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 - Identified as a novel recurrently mutated gene in metastatic colorectal cancer (mCRC) via MSK-IMPACT targeted sequencing of 1,152 patients [PMID:29316426](../papers/29316426.md)
 - Downstream effector of MAP3K1 in the JNK pathway; co-loss with PIK3CA alteration in TCGA did not enhance PIK3CA-GS readout in ER+/HER2- metastatic breast cancer [PMID:31552290](../papers/31552290.md).
 - MAP2K4 amplifications identified in 8% (6/80) of uterine leiomyosarcoma (uLMS) vs 19% (13/68) of non-uterine LMS (p=0.06); amplifications were most common in uterine sarcomas relative to the pan-cancer MSK-IMPACT cohort, suggesting MAP2K4 copy gain may be a relatively uterine-sarcoma-enriched event [PMID:32299819](../papers/32299819.md)
+- Classified as 'possible false positive / additional evidence needed' driver candidate in cutaneous squamous cell carcinoma meta-analysis (88 QC-passed tumors); flagged based on gene structure, expression, and annotation correctness [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -69,7 +70,10 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31552290](../papers/31552290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

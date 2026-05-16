@@ -48,6 +48,9 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied IMPACT410 (410-gene panel) to sequencing of cutaneous/unknown-primary melanoma at MSKCC; part of 696-patient cohort profiled across IMPACT341/410/468 versions [PMID:33509808](../papers/33509808.md)
 - IMPACT410 (410-gene panel) used to sequence 147 of 412 iCCA patients in bi-institutional study; all sequenced against matched normal tissue or blood [PMID:33765338](../papers/33765338.md)
 - IMPACT410 (410-gene panel) applied to 104 of 487 EAC/EGJ patients at MSK; all 16 recurrent driver genes covered across panel versions [PMID:33795256](../papers/33795256.md)
+- One of three MSK-IMPACT panel versions used to profile 17 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)); combined with WES (n=27) and Sanger (n=16) for comprehensive somatic mutation characterization [PMID:33863915](../papers/33863915.md)
+- Applied to 93 of 219 genomically profiled intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients at MSKCC (the most-used panel version in that cohort) [PMID:33963001](../papers/33963001.md)
+- Plasma version (cf-IMPACT) used to profile cfDNA from 118 metastatic solid tumor patients at MSKCC; 410-gene panel at ~631x depth; detected somatic mutations in 71/118 (60%) patients and OncoKB level 1–4 actionable variants in 25% [PMID:34059130](../papers/34059130.md)
 
 ## Notes
 
@@ -138,3 +141,12 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

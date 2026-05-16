@@ -29,6 +29,7 @@ Metaplastic Breast Cancer (MBC) is a rare and aggressive subtype of invasive bre
 - TNBC/MBC comprised 19.8% of the Korean SMC breast cohort; 87.5% of SMC TNBC carried TP53 mutations and 85% were HRD-positive (S3 signature score >0.2), significantly higher than 52% of TCGA TNBC (p=7e-4); elevated BRCA1/BRCA2 germline burden supports PARP inhibitor evaluation [PMID:29713003](../papers/29713003.md)
 - Phase Ib trial of buparlisib + letrozole enrolled 33 patients with ER+/HER2- metastatic breast cancer (MBC); PIK3CA activating mutations and MAP3K1 loss-of-function mutations each independently associated with clinical benefit; MAP3K1 mutations track with luminal A PAM50 subtype rather than acting as direct PI3K-sensitizers [PMID:31552290](../papers/31552290.md).
 - Alpelisib + aromatase inhibitor in 51 HR+ metastatic breast cancer patients (including HR+ [MBC](../cancer_types/MBC.md) and [BRCA](../cancer_types/BRCA.md)) achieved 52% CBR; PTEN loss-of-function alterations in 25% of paired-ctDNA patients and expanding ESR1 mutations (D538G, Y537S) constituted the dominant convergent resistance mechanisms to PI3Kα + endocrine therapy [PMID:32864625](../papers/32864625.md).
+- WES/MSK-IMPACT/Sanger sequencing of 60 primary metaplastic breast cancers (MBCs) identified [TERT](../genes/TERT.md) promoter hotspot C228T (15%) or amplification (2%) in 17% of tumors, exclusively in triple-negative cases; TERT alterations were mutually exclusive with [TP53](../genes/TP53.md) mutations (CoMEt p<0.001) and co-occurred with clonal [PIK3CA](../genes/PIK3CA.md) hotspot mutations (83% vs 13%, p=0.001); TERT alterations were absent in chondroid-predominant MBCs (0/25) but present in 10/35 other subtypes (p=0.005) [PMID:33863915](../papers/33863915.md).
 
 ## Subtypes
 
@@ -50,5 +51,6 @@ Metaplastic Breast Cancer (MBC) is a rare and aggressive subtype of invasive bre
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
+- [PMID:33863915](../papers/33863915.md) — da Silva et al., TERT alterations in 60 primary metaplastic breast cancers (MSKCC), mbc_msk_2021.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

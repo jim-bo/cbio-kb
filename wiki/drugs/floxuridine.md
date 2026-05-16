@@ -18,6 +18,7 @@ Floxuridine (FUDR) is a fluoropyrimidine antimetabolite closely related to 5-flu
 ## Evidence in the corpus
 
 - HAIC with floxuridine in locally advanced, unresectable iCCA was independently associated with improved [OS](../cancer_types/OS.md) (HR 0.45, 95% CI 0.27–0.77, P=0.003) after adjustment for genomic profile ([TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), [CDKN2A](../genes/CDKN2A.md) status), clinical stage, and other treatment covariates; effect was seen independent of tumor molecular subtype [PMID:33765338](../papers/33765338.md)
+- In a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018), 196 received HAIC with floxuridine via hepatic arterial infusion pump; for node-positive (N1) patients, HAIC produced equivalent OS to resection (18.1 vs 19.7 months, P=0.560) and both outperformed systemic chemotherapy alone (11.2 months, P=0.024); a composite high-risk genomic signature (TP53/KRAS mutation or CDKN2A/B deletion) identified a uniformly poor-prognosis N1 subgroup (median OS 12.1 vs 30.9 months, P=0.002) regardless of treatment modality [PMID:33963001](../papers/33963001.md).
 
 ## Resistance mechanisms
 
@@ -29,4 +30,6 @@ Floxuridine (FUDR) is a fluoropyrimidine antimetabolite closely related to 5-flu
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); HAIC with floxuridine equivalent to resection in N1 IHC (OS 18.1 vs 19.7 months); both superior to systemic chemotherapy alone (11.2 months, P=0.024).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

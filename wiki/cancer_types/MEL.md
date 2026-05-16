@@ -44,6 +44,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - In PCAWG, melanoma had 89 chromothripsis events across 66 tumors (61% of melanomas); 47/89 events affected genes recurrently altered in melanoma; chromosome-11 involvement including [CCND1](../genes/CCND1.md) seen in 21 cases; chromothripsis most frequent in sarcoma, glioblastoma, lung squamous, melanoma, and breast [PMID:32025007](../papers/32025007.md).
 - Single melanocytes from normal skin adjacent to melanoma lesions carried mutation burdens exceeding the median of melanoma itself (mean 7.9 mut/Mb across all sites); BRAF V600E was conspicuously absent from normal melanocytes, distinguishing the de-novo UV-driven path from the nevus-derived low-CSD path. [PMID:33029006](../papers/33029006.md)
 - 66 pretreatment BRAF V600E/K-mutant metastatic melanoma tumors; PTEN loss-of-function alterations enriched in poor BRAFi responders (P=.005) and associated with shorter PFS (HR 3.46) and OS (HR 3.10); BRAF V600E elevated mutant-allele fraction tracked with excellent response. [PMID:32913971](../papers/32913971.md)
+- cf-IMPACT targeted cfDNA panel (410 genes) was applied to metastatic solid tumors including melanoma patients at MSKCC; tumor fraction-guided triage strategy (cf-IMPACT + MSK-ACCESS + cf-WES) detected somatic mutations in 76% of the 118-patient pan-cancer cohort including melanoma [PMID:34059130](../papers/34059130.md).
 
 ## Subtypes
 
@@ -61,6 +62,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 ## Sources
 
 - [PMID:27634761](../papers/27634761.md)
+- [PMID:34059130](../papers/34059130.md)
 - [PMID:38895302](../papers/38895302.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)

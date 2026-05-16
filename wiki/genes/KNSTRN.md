@@ -3,8 +3,8 @@ symbol: KNSTRN
 aliases: []
 cancer_types: [CSCC]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # KNSTRN
@@ -16,6 +16,7 @@ KNSTRN (kinetochore-localized astrin/SPAG5 binding protein) encodes a kinetochor
 ## Alterations observed in the corpus
 
 - KNSTRN was cited as a recently described cSCC driver gene discussed in the context of metastatic cSCC genomic profiling (n=29 lymph-node metastases); it was not covered by the OncoPanelv2 (504-gene) capture reagent used in this study and thus could not be directly assessed. [PMID:25589618](../papers/25589618.md)
+- Classified as 'possible false positive / additional evidence needed' driver candidate in cutaneous squamous cell carcinoma meta-analysis (88 QC-passed tumors); KNSTRN S24F flagged as a single hotspot call requiring additional evidence [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ KNSTRN (kinetochore-localized astrin/SPAG5 binding protein) encodes a kinetochor
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

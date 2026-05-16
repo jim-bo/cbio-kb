@@ -27,6 +27,7 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - Fluoropyrimidine used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy regimen in HER2-positive metastatic esophagogastric cancer; capecitabine or 5-FU were the fluoropyrimidine options in NCT02954536 [PMID:32437664](../papers/32437664.md).
 - In the FUTURE umbrella trial, capecitabine was combined with pyrotinib (HER2 TKI) in arm A for LAR-subtype TNBC with ERBB2 somatic mutation; 2/2 evaluable patients achieved PR after 2 cycles; also noted in ≥75% of enrolled patients' prior therapy history [PMID:32719455](../papers/32719455.md).
 - Used as part of systemic chemotherapy in unresectable intrahepatic cholangiocarcinoma (iCCA); HAIC with floxuridine was independently associated with improved OS (HR 0.45, P=0.003) in the locally advanced subset treated with chemotherapy [PMID:33765338](../papers/33765338.md)
+- In a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018), capecitabine was used as an alternative first-line systemic chemotherapy agent; the primary regimen was gemcitabine/platinum (the current standard), with capecitabine and other agents used in a subset of the 140-patient systemic-chemotherapy-alone arm [PMID:33963001](../papers/33963001.md).
 
 ## Resistance mechanisms
 
@@ -54,5 +55,6 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - [PMID:32719455](../papers/32719455.md)
 
 - [PMID:33765338](../papers/33765338.md)
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); capecitabine as alternative systemic chemotherapy in IHC; gemcitabine-platinum the primary standard-of-care regimen.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

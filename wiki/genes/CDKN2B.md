@@ -7,7 +7,7 @@ cancer_types:
   - EAC
   - GBM
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -21,6 +21,7 @@ CDKN2B (p15/INK4B) is a CDK4/6 inhibitor and tumor suppressor located at chromos
 
 - CDKN2B alteration is a major contributor to Cell Cycle pathway enrichment in esophageal/GEJ adenocarcinoma (egc_mskcc_2020, n=487); grouped with CCNE1 and CCND1 [PMID:33795256](../papers/33795256.md).
 - CDKN2A/CDKN2B show differential alteration patterns between IDH-WT and IDH-mutant GBM tumors (gbm_cptac_2021, n=99) [PMID:33577785](../papers/33577785.md).
+- Deletion (HR 6.0, 95% CI 2.5–14.6, P<0.001) is the strongest independent predictor of worse OS among individual alterations in node-positive (N1) intrahepatic cholangiocarcinoma; median OS for CDKN2A/B-deleted N1 patients ~7 vs ~27 months for wild-type [PMID:33963001](../papers/33963001.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ CDKN2B (p15/INK4B) is a CDK4/6 inhibitor and tumor suppressor located at chromos
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

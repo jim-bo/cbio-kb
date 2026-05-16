@@ -5,7 +5,7 @@ drug_class: IDH1 inhibitor
 canonical_source: corpus
 unverified: false
 tags: [targeted_therapy, IDH1, cholangiocarcinoma]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 - In the Beat AML cohort genomic landscape analysis, [IDH1](../genes/IDH1.md)-mutant AML showed a broad drug-resistance signature in ex vivo profiling, providing context for selective IDH1 inhibitors such as ivosidenib as targeted therapy for a resistance-prone AML subgroup [PMID:30333627](../papers/30333627.md).
 - In MSKCC prospective NGS of 127 advanced HCC patients, [IDH1](../genes/IDH1.md) missense mutations (<1% frequency) were identified as potentially actionable, with selective IDH1 inhibitors such as ivosidenib flagged as candidate agents for this possible cholangiocarcinoma-like HCC molecular subset [PMID:30373752](../papers/30373752.md).
 - Ivosidenib (IDH1 inhibitor, approved in AML) is the canonical IDH inhibitor under glioma investigation; the glioma_mskcc_2019 cohort (355 IDH-mutant tumors with longitudinal context) provides the molecular substrate for evaluating IDH-inhibitor response in glioma. [PMID:31263031](../papers/31263031.md)
+- In a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018), 10/49 (20.4%) IDH1/2-mutant patients received ivosidenib or vorasidenib on clinical trial (8 HAIC, 2 resection); IDH1/2 mutations (IDH1 prevalence 18.7%) had no significant impact on survival in N1 disease (HR 0.73, P=0.429) [PMID:33963001](../papers/33963001.md).
 
 ## Resistance mechanisms
 
@@ -51,5 +52,6 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); 20.4% of IDH1/2-mutant patients received ivosidenib or vorasidenib on trial; IDH1/2 mutation had no OS impact in node-positive IHC.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

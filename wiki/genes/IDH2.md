@@ -46,6 +46,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - IDH2 mutations infrequent in pediatric HGG; wild-type IDH2 protein abundance positively associates with OS in H3-WT HGG; combined IDH1/IDH2 protein score gives HR 23.58 (95% CI 1.42–384.6) per 50% reduction in H3-WT pediatric HGG [PMID:33242424](../papers/33242424.md)
 - Analyzed jointly with IDH1 (IDH1/2mut) in an iCCA cohort (n=412); IDH2 not independently prognostic when analyzed separately; IDH1/2 mutations predictive for targeted therapies (e.g., ivosidenib) but not prognostic for untreated natural history [PMID:33765338](../papers/33765338.md)
+- IDH2 mutations present in intrahepatic cholangiocarcinoma profiled cohort; in N1-node patients IDH1/2 mutation had no significant survival effect (HR 0.73, 95% CI 0.3–1.6, P=0.429; median OS 27.7 vs 18.1 months, P=0.427) [PMID:33963001](../papers/33963001.md)
 
 ## Cancer types (linked)
 
@@ -151,5 +152,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -37,6 +37,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - Hotspot mutations in MAPK effectors including ERBB3 enriched in post-endocrine-therapy HR+ breast tumors [PMID:30205045](../papers/30205045.md)
 - Mutated in 9% of gallbladder carcinoma (GBCA) overall but absent in Chilean patients; population-specific alteration frequency [PMID:30427539](../papers/30427539.md)
 - Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed more often as a co-alteration alongside NF1 loss and BRAF Class 3 mutations than as a sole driver [PMID:33509808](../papers/33509808.md)
+- Mutated in 1.2% of CSCC tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -116,5 +117,8 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

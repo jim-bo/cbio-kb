@@ -5,7 +5,7 @@ drug_class: PI3Kalpha inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, pi3k-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,7 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 - In a PIK3CA-mutant ACC basket trial (NCT01928459), 6 patients received alpelisib: 1/6 achieved partial response and 5/6 had stable disease at 2 months; 5/6 had any tumor-volume reduction (mean 18.8%), and 4/6 had PR or SD lasting >6 months [PMID:31483290](../papers/31483290.md)
 - In a PDX panel of 121 ER+/HER2- breast cancer models, MAP3K1-altered PDXs were more sensitive to alpelisib (p=0.001); luminal A PAM50 subtype predicted response to alpelisib independently of genotype; PIK3CA+MAP3K1 co-alteration was associated with the highest clinical benefit rate (5/7, 71%) in a phase Ib buparlisib+letrozole trial, with relevance extended to alpelisib combinations [PMID:31552290](../papers/31552290.md)
 - Phase I/II trial (NCT01870505, n=51 HR+ MBC) of alpelisib + letrozole or exemestane showed CBR 52% (23/44), ORR 19% (6/31); benefit confined to PIK3CA-mutant tumors (CBR 57.5% vs 0% in PIK3CA-WT, p=0.025); PTEN loss (25% of paired ctDNA) and ESR1 mutations were recurrent resistance mechanisms; intermittent dosing (350 mg 5-on/2-off + exemestane) established as MTD [PMID:32864625](../papers/32864625.md).
+- In a tumor-fraction-guided cfDNA profiling study (N=118 metastatic solid tumors at MSKCC), [PIK3CA](../genes/PIK3CA.md) OncoKB level 1 alterations were identified in plasma of breast cancer patients via cf-IMPACT, supporting alpelisib eligibility; actionable variants were identified in 25% of the full cohort [PMID:34059130](../papers/34059130.md).
 
 ## Resistance mechanisms
 
@@ -46,8 +47,9 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
+- [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); PIK3CA OncoKB level 1 alterations in breast cancer plasma supporting alpelisib eligibility.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

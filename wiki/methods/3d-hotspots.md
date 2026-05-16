@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutation-annotation, hotspot-detection, structural-biology]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ processed_at: 2026-05-16
 ## Used by
 
 - Used alongside the 2D cancer-hotspots method to annotate driver mutations in 9,125 TCGA PanCanAtlas tumors across 33 cancer types; 3D structural hotspots contributed to identification of [CDKN2A](../genes/CDKN2A.md) promoter methylation (RESET) and pathway-level alteration calls [PMID:29625050](../papers/29625050.md).
+- Applied alongside [MutSig](../methods/mutsig.md), [LOFsigrank](../methods/lofsigrank.md), [dN/dS](../methods/dndscv.md), and [OncodriveFML](../methods/oncodrivefml.md) in a CSCC meta-analysis (88 tumors, 10 WES/WGS studies); 3D Hotspots overlap was used to rescue additional driver gene candidates beyond the 12 nominated by the four statistical discovery tools [PMID:34272401](../papers/34272401.md)
 
 ## Notes
 
@@ -27,4 +28,9 @@ processed_at: 2026-05-16
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -28,6 +28,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - In a CSF ctDNA glioma study (n=85 patients, all treated with prior systemic chemotherapy), bevacizumab was among the systemic agents in the prior-treatment landscape; patients exposed to alkylating agents (notably temozolomide) developed a hypermutator phenotype detectable in CSF with potential implications for immunotherapy candidacy [PMID:30675060](../papers/30675060.md).
 - Single-agent bevacizumab yielded a survival ratio >1.3 in only 23% (7/30) of GBM patient-derived xenografts tested in the Mayo PDX panel; no predictive biomarker was identified, consistent with modest clinical benefit [PMID:31852831](../papers/31852831.md).
 - Nominated as a therapeutic candidate for schwannomatosis-associated schwannomas ([SCHW](../cancer_types/SCHW.md)) exhibiting upregulated PIGF/VEGF/RAF pathways, particularly painful tumors; the authors propose bevacizumab for tumor and pain management pending clinical trials [PMID:33025139](../papers/33025139.md).
+- [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition ([temsirolimus](../drugs/temsirolimus.md) or [everolimus](../drugs/everolimus.md)) combined with liposomal doxorubicin and bevacizumab in PI3K-pathway-altered advanced triple-negative MBC [PMID:33863915](../papers/33863915.md).
 
 ## Resistance mechanisms
 
@@ -49,6 +50,9 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+- [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); PIK3CA enrichment in non-chondroid MBC supports mTOR inhibition + liposomal doxorubicin + bevacizumab in PI3K-pathway-altered triple-negative MBC.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24798001](../papers/24798001.md)

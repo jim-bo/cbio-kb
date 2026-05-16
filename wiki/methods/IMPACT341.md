@@ -47,6 +47,8 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied IMPACT341 (341-gene capture-based NGS panel) to 19 of 696 melanoma patients at MSKCC; median sequencing depth 709×; tumor purity cutoff ≥20% [PMID:33509808](../papers/33509808.md)
 - IMPACT341 (341-gene panel) used to sequence 40 of 412 iCCA patients at MSKCC/Erasmus MC; all sequenced against matched normal with >60% tumor content [PMID:33765338](../papers/33765338.md)
 - IMPACT341 (341-gene panel) applied to 45 of 487 lower esophageal/EGJ adenocarcinoma patients at MSK; all 16 recurrent driver genes covered on every panel version [PMID:33795256](../papers/33795256.md)
+- One of three MSK-IMPACT panel versions (alongside [IMPACT410](../methods/IMPACT410.md) and [IMPACT468](../methods/IMPACT468.md)) used to profile 17 of 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) for somatic mutations and CNAs [PMID:33863915](../papers/33863915.md)
+- Applied to 26 of 219 profiled intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients in the MSKCC HAIC vs resection vs SYS cohort (2000–2018); one of three panel versions used across the study period [PMID:33963001](../papers/33963001.md)
 
 ## Notes
 
@@ -136,3 +138,9 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

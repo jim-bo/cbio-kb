@@ -3,7 +3,7 @@ symbol: PBRM1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
@@ -43,6 +43,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - PBRM1 is a member of the SWI/SNF complex mutated in 19.5% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases jointly with ARID1A, ARID2, and BRD7 [PMID:31130341](../papers/31130341.md)
 - Subclonal alteration in a single RB1-wildtype retinoblastoma specimen (along with BIRC3); not recurrently mutated in the 83-tumor cohort [PMID:33466343](../papers/33466343.md)
 - Mutated in 12% of intrahepatic cholangiocarcinoma (iCCA) in a 412-patient retrospective cohort at MSKCC/Erasmus; not independently prognostic in this analysis [PMID:33765338](../papers/33765338.md)
+- Mutated in 12% of cutaneous squamous cell carcinomas (CSCC); SWI/SNF chromatin-remodeling subunit; nominated as novel CSCC driver in this meta-analysis of 88 tumors [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -105,22 +106,25 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

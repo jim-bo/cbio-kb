@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -92,6 +92,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Germline BRCA2 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm (fuzuloparib) and anti-VEGFR arm (apatinib) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
 - BRCA2 was referenced alongside BRCA1 as a DDR alteration in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
 - BRCA2 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes (BRCA1, MSH3, MSH6, PMS2, MLH3), with promoter hypomethylation of MMR genes; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
+- OncoKB level 1 alterations identified in plasma of prostate cancer patients by cf-IMPACT, supporting olaparib (PARP inhibitor) eligibility [PMID:34059130](../papers/34059130.md)
+- Copy-number deletion recovered via matched WBC sequencing and reclassified as germline (not somatic) in the MSK-ACCESS clinical cohort — illustrating matched-normal requirement for cfDNA germline/somatic disambiguation [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -296,3 +298,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

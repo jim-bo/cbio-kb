@@ -37,6 +37,9 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - Identified 735 actionable alterations across 30 genes in 604 resected LUAD tumors; RTK/RAS harbored 73% (536) of actionable alterations; 37% had level I evidence; LEP subtype had the highest fraction of level I targets (35%) [PMID:32791233](../papers/32791233.md)
 - OncoKB oncogenicity annotation used to restrict variant calls in 696 melanoma tumors to oncogenic alterations; informed the 9-group MAPK driver classifier [PMID:33509808](../papers/33509808.md)
 - OncoKB annotation used to classify oncogenic alterations in 412 iCCA tumors; VUS excluded; 12 canonical TCGA PanCancer Atlas signaling pathways evaluated [PMID:33765338](../papers/33765338.md)
+- Used to classify oncogenic driver calls for genomic-survival analysis in 219 intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients; IDH1/2 mutations, FGFR2 fusions, TP53/KRAS mutations, and CDKN2A/B deletions annotated as oncogenic or likely oncogenic to define the high-risk composite biomarker [PMID:33963001](../papers/33963001.md)
+- Applied to annotate somatic mutations detected by cf-IMPACT ([IMPACT410](../methods/IMPACT410.md)) and [MSK-ACCESS](../methods/ACCESS129.md) in 118 metastatic solid tumor patients; identified OncoKB level 1–4 actionable variants in 25% of patients by cf-IMPACT; level 1 actionable mutations detected in 41% of MSK-ACCESS samples [PMID:34059130](../papers/34059130.md)
+- Used to classify clinical actionability for variants reported by MSK-ACCESS in 681 prospective plasma samples; 41% (278/681) had OncoKB level 1–3B alterations; level-1 yield was 48% in bladder, 37% in breast, and 33% in NSCLC [PMID:34145282](../papers/34145282.md)
 
 ## Notes
 
@@ -94,3 +97,12 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

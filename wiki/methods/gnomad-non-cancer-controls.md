@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [population-database, germline, controls]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # gnomAD Non-Cancer Controls
@@ -18,6 +18,7 @@ The Genome Aggregation Database (gnomAD) non-cancer subset — a curated referen
 ## Used by
 
 - Used as the statistical comparator (n=74,023 healthy adults) for gene-level germline burden testing across 372 pediatric cancer patients; LP/PV frequencies in 25 HBOC genes in cases were compared against allele frequencies in this control set using logistic regression and Fisher's exact tests [PMID:29489754](../papers/29489754.md)
+- Used as a population filter (gnomAD allele frequency ≥0.5%) during plasma-only variant calling for MSK-ACCESS; combined with an in-house panel-of-normals filter to remove 14,508 germline and non-specific calls from 24,561 plasma-only variants before matched-WBC germline/CH removal [PMID:34145282](../papers/34145282.md)
 
 ## Notes
 
@@ -27,4 +28,7 @@ The Genome Aggregation Database (gnomAD) non-cancer subset — a curated referen
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29489754](../papers/29489754.md)
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

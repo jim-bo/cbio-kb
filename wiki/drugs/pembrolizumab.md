@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -56,6 +56,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Pembrolizumab (anti-PD-1) was cited as a comparator immunotherapy in the FUTURE umbrella trial context for refractory metastatic TNBC; historical ICI-monotherapy ORRs of 5–10% in this population provided the benchmark against which the 52.6% camrelizumab + nab-paclitaxel ORR was compared [PMID:32719455](../papers/32719455.md).
 - Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the study provides molecular context (pretreatment [PTEN](../genes/PTEN.md) loss as a BRAFi resistance biomarker) relevant to sequencing decisions between checkpoint immunotherapy and targeted therapy [PMID:32913971](../papers/32913971.md).
 - Used as frontline PD-1 monotherapy (alongside nivolumab; N=181 combined) in cutaneous/unknown-primary melanoma; TTF varied sharply by MAPK driver class — NRAS Q61 patients had the shortest TTF (4.2 mo) while NF1 patients had the longest (22 mo, p<0.0001) [PMID:33509808](../papers/33509808.md)
+- In a tumor-fraction-guided cfDNA profiling study (N=118 metastatic solid tumors at MSKCC), a metastatic castration-resistant prostate cancer patient with two failed tumor biopsies had MSI-High and high TMB called from cf-IMPACT alone; a later bone biopsy confirmed MSI status, leading to pembrolizumab therapy and a durable response (serum PSA dropped from 118 to <10, sustained >1 year) [PMID:34059130](../papers/34059130.md).
 
 ## Resistance mechanisms
 
@@ -164,5 +165,6 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:32913971](../papers/32913971.md)
 
 - [PMID:33509808](../papers/33509808.md)
+- [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); MSI-High called from cf-IMPACT alone in mCRPC patient with two failed biopsies; pembrolizumab produced durable PSA response (118→<10, >1 year).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

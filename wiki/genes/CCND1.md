@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - EAC
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -17,6 +17,7 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates CDK4 and CDK6 to 
 ## Alterations observed in the corpus
 
 - CCND1 amplification is a major contributor to Cell Cycle pathway enrichment in the perioperative intent to treat (PIT) cohort of esophageal/gastroesophageal junction adenocarcinomas (egc_mskcc_2020, n=487) [PMID:33795256](../papers/33795256.md).
+- Focal amplification detected in 6.0% of CSCC tumors; nominated as a driver gene candidate in the CSCC meta-analysis of 88 QC-passed WES/WGS tumors [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates CDK4 and CDK6 to 
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

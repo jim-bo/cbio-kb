@@ -10,7 +10,7 @@ tags:
   - snv
   - indel
   - ctdna
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,8 @@ VarDict is an open-source somatic variant caller designed for targeted sequencin
 ## Used by
 
 - Applied as the tumor-blind de novo somatic variant caller for plasma cfDNA in a 10-patient pediatric retinoblastoma cohort; used in conjunction with custom VAF and buffy-coat filters (VAF >0.5%, ≥10 mutant reads, VAF >2× matched buffy coat) to recover 7/13 expected somatic [RB1](../genes/RB1.md) mutations in 6/10 patients without reference to matched tumor data [PMID:32633890](../papers/32633890.md)
+- Used alongside [MuTect](../methods/mutect.md) for SNV/indel calling in cfDNA from 681 plasma samples in the MSK-ACCESS pipeline; variant calls from both callers integrated into the MSK-ACCESS bioinformatics workflow [PMID:34145282](../papers/34145282.md)
+- Part of the MSK-ACCESS bioinformatics pipeline applied to cfDNA from metastatic solid tumor patients in the tumor-fraction-guided cfDNA triage study [PMID:34059130](../papers/34059130.md)
 
 ## Notes
 
@@ -34,3 +36,9 @@ VarDict is an open-source somatic variant caller designed for targeted sequencin
 - [PMID:32633890](../papers/32633890.md) — Plasma cfDNA somatic RB1 variant detection in pediatric retinoblastoma; VarDict used for tumor-blind de novo calling.
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -49,6 +49,9 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - FACETS v0.5.14 applied to 74 matched retinoblastoma specimens for copy-number and clonality calling; 69 yielded evaluable arm-level CNA profiles [PMID:33466343](../papers/33466343.md)
 - FACETS allele-specific copy-number tool applied to 428 melanoma samples (of 696 total) with adequate quality; 92% had only clonal driver alterations [PMID:33509808](../papers/33509808.md)
 - FACETS used for copy-number purity/ploidy correction in 487 EAC/EGJ tumor samples sequenced with MSK-IMPACT [PMID:33795256](../papers/33795256.md)
+- Used to call copy-number alterations and LOH in WES and MSK-IMPACT data from 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)); TERT-altered MBCs had significantly lower fraction of genome altered (median 22%) than TERT-WT MBCs (median 54%; p=0.002) [PMID:33863915](../papers/33863915.md)
+- Used for tumor clonality estimation (CCF) in plasma cf-IMPACT samples from 118 metastatic solid tumor patients; tumor purity from FACETS did not differ between concordant and discordant plasma-tissue sample pairs (p=0.812) [PMID:34059130](../papers/34059130.md)
+- Applied for tumor purity estimation in the MSK-ACCESS clinical deployment pipeline; tumor purity did not significantly differ between concordant and tissue/plasma-discordant sample groups [PMID:34145282](../papers/34145282.md)
 
 ## Notes
 
@@ -140,3 +143,12 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

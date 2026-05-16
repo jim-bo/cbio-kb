@@ -131,6 +131,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAFV600E is the dominant oncogenic event in pediatric LGG; BRAFV600E LGG showed downregulated total BRAF protein abundance and upregulation of MAPK pathway substrates and AKT1/AKT2; a subset of craniopharyngioma lacking BRAFV600E shared the BRAFV600E LGG proteomic signature (C4 cluster), nominating MEK inhibition for these CP (CPTAC pediatric brain tumor proteogenomics, n=218 samples) [PMID:33242424](../papers/33242424.md)
 - In 696 melanomas profiled by MSK-IMPACT, BRAF V600E/K/R was present in 31% (N=216); non-V600 BRAF included 55 Class 2 and 30 Class 3 variants; Class 3 mutants co-altered in 97% vs. 38% for Class 2 (p=3.4e-08). A BRAF-AGK Class 2 fusion achieved durable complete metabolic response to PLX8394; BRAF V600 predicted shorter TTF on PD-1 monotherapy (median 7.5 months) vs. NF1-altered tumors (22 months). [PMID:33509808](../papers/33509808.md)
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, BRAF harbored activating mutations in 5% of tumors. [PMID:33765338](../papers/33765338.md)
+- Subclonal D594N hotspot in one TERT-altered metaplastic breast cancer (MBC); BRAF amplification in 2 TERT-WT MBCs; BRAF included in Sanger-sequencing panel for 16 MBCs [PMID:33863915](../papers/33863915.md)
+- Targetable driver mutations and amplifications recurrent in NSCLC detected by MSK-ACCESS; BRAF included in 10-gene orthogonal-truth cohort for MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -474,5 +476,11 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

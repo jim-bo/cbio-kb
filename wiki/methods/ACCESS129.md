@@ -5,8 +5,8 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, ctdna, liquid-biopsy, msk]
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 genePanelId: ACCESS129
 ---
 
@@ -24,6 +24,8 @@ Targeted (129 genes) sequencing of cfDNA via MSK-ACCESS on Illumina HiSeq sequen
 - [PMID:37769223](../papers/37769223.md) — MSK-ACCESS (129-gene panel, ~200,000x raw coverage with error suppression) used to profile cfDNA from 53 plasma samples of 51 advanced [HCC](../cancer_types/HCC.md) patients; detected genomic alterations in 90.6% of samples; complemented by matched tumor tissue profiled with MSK-IMPACT in 72.5% of patients [PMID:37769223](../papers/37769223.md).
 - [PMID:39147831](../papers/39147831.md) — MSK-ACCESS used to sequence plasma from 4,141 (discovery) and 1,426 (validation) patients across all cancer types; ctDNA detection was independently associated with VTE risk (HR 2.49); random survival forest model incorporating ACCESS ctDNA variables achieved c-index 0.74 for VTE prediction [PMID:39147831](../papers/39147831.md).
 - MSK-ACCESS liquid biopsy panel used for ctDNA profiling of patient 12 in a KRASG12C-mutant colorectal cancer cohort, detecting acquired [KRAS](../genes/KRAS.md) amplification (KRAS/Cen12 ratio 13.2 at progression vs 1.8 pretreatment) [PMID:36355783](../papers/36355783.md)
+- Used as the high-sensitivity rescue arm for cf-IMPACT-negative, low-tumor-fraction cfDNA samples; detected 19 high-confidence mutations in 14/29 (48%) eligible patients (median VAF 0.49%, range 0.05–3.64%), 7 of which were OncoKB-actionable; panel covers 129 cancer-associated genes at >12,000x target depth with UMI error correction [PMID:34059130](../papers/34059130.md)
+- Analytically validated on 70 cfDNA samples with 100 orthogonally confirmed variants; 92% de novo sensitivity at ≥0.5% VAF (95% CI 84–96.5%) and ≥99.7% specificity; background error rate reduced from 3.3×10^-4 to 1.7×10^-6 (duplex consensus); NYS-DOH approved 31 May 2019; 129 genes / 826 exons cover ≥84% of 25,000 MSK-IMPACT-sequenced solid tumors [PMID:34145282](../papers/34145282.md)
 
 ## Notes
 
@@ -31,14 +33,14 @@ Targeted (129 genes) sequencing of cfDNA via MSK-ACCESS on Illumina HiSeq sequen
 
 ## Sources
 
+- [PMID:34059130](../papers/34059130.md)
+- [PMID:34145282](../papers/34145282.md)
+- [PMID:36355783](../papers/36355783.md)
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:37682528](../papers/37682528.md)
-- [PMID:39289779](../papers/39289779.md)
-- `schema/ontology/gene_panels.json` (`genePanelId: ACCESS129`)
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:39289779](../papers/39289779.md)
+- `schema/ontology/gene_panels.json` (`genePanelId: ACCESS129`)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
-- [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

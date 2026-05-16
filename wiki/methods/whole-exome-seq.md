@@ -181,6 +181,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - WES (median 186× tumor / 126× normal) performed on 56 samples from 25 patients with synchronous DCIS/IDC-NST pairs plus 7 pure DCIS; median 37 non-synonymous somatic mutations per DCIS [PMID:32220886](../papers/32220886.md)
 - WES performed on UCC03 and UCC30 UTUC tumor/PDX pairs to confirm linear and branched clonal evolution; APOBEC signature stable across passages in UCC03 but Signature 2 lost in UCC30 PDX [PMID:32332851](../papers/32332851.md)
 - WES on Illumina HiSeq 4000 (minimum 150× on-target) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling (PCR-free WGS also performed at ≥15× tumor depth) [PMID:33577785](../papers/33577785.md)
+- Applied to 27 of 60 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC for whole-exome sequencing; combined with MSK-IMPACT (n=17) and Sanger sequencing (n=16) for comprehensive somatic profiling [PMID:33863915](../papers/33863915.md)
+- Primary platform for the CSCC meta-analysis reprocessing pipeline; WES data from 10 published studies yielding 88 QC-passed tumors (17 excluded for low purity, contamination, or sample mismatch); mean coverage 12.4x–498x across studies [PMID:34272401](../papers/34272401.md)
+- Applied to cf-IMPACT-negative plasma samples with high sWGS z-score (≥5) for unbiased cfDNA profiling in 5 of 118 metastatic solid tumor patients; cf-WES detected somatic mutations in all 5 (average 212 mutations, average mVAF 11%), 99% in regions outside the cf-IMPACT panel footprint [PMID:34059130](../papers/34059130.md)
 
 ## Notes
 
@@ -639,3 +642,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

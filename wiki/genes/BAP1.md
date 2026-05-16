@@ -46,6 +46,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - Mutated only in intrahepatic cholangiocarcinoma (IHC, 30/158 cases in chol_msk_2018); mutually exclusive with TP53, KRAS, and SMAD4 [PMID:29848569](../papers/29848569.md)
 - BAP1 mutated as part of the histone modification/DNA methylation pathway (with KMT2D, IDH1, EZH2) jointly altered in 35.6% of cHCC-ICC cases in a pan-Asia 133-case cohort [PMID:31130341](../papers/31130341.md)
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, BAP1 was mutated in 15% of tumors, making it one of the most frequently altered epigenetic regulators in intrahepatic cholangiocarcinoma. [PMID:33765338](../papers/33765338.md)
+- Altered in 13.2% of MSK-IMPACT-profiled intrahepatic cholangiocarcinoma (IHC) patients; fifth most prevalent driver gene in IHC in a 219-patient MSKCC cohort [PMID:33963001](../papers/33963001.md)
 
 ## Cancer types (linked)
 
@@ -138,5 +139,8 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

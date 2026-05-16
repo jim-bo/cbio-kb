@@ -64,6 +64,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC staining for AR, CD8, and FOXC1 used as subtype surrogates to classify 69 refractory metastatic TNBC patients into LAR/IM/BLIS/MES subtypes in the FUTURE umbrella trial; MMR status also assessed by IHC [PMID:32719455](../papers/32719455.md)
 - IHC with immunoreactivity score (IRS = intensity × proportion, 0–12) applied to 80-patient CRC tissue microarray; CGREF1 overexpressed (IRS ≥4) in 61.25% of CRC vs 0% of normal tissues (p=0.00001); MMR assessed by IHC [PMID:32888432](../papers/32888432.md)
 - IHC used to validate ATRX protein loss in 9 ATRX-mutant GBMs, immune subtypes (CD3, CD68, CD163, PD-1, PD-L1), and EGFR-related proteins (SOX9, GAB1); xCell-based immune subtypes confirmed by IHC on 99-tumor CPTAC GBM cohort [PMID:33577785](../papers/33577785.md)
+- Used for MMR protein testing (MLH1, MSH2, MSH6, PMS2) in 94 Nigerian CRC tumors; protein deficiency reached 21.3% (20/94), concordant with MSIsensor-based MSI-H rate of 28.1% [PMID:34819518](../papers/34819518.md)
+- Iterative-chromogen multiplexed IHC (MxIHC) used in the COLON MAP colorectal polyp atlas; proposed MUC5AC+/CDX2-low staining as a diagnostic biomarker for sessile serrated lesions [PMID:34910928](../papers/34910928.md)
 
 ## Notes
 
@@ -203,5 +205,11 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

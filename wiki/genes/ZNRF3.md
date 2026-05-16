@@ -1,9 +1,9 @@
 ---
 symbol: ZNRF3
 aliases: []
-cancer_types: [HCC, PRAD]
+cancer_types: [HCC, PRAD, COAD]
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ ZNRF3 is an E3 ubiquitin ligase that negatively regulates WNT/β-catenin signall
 - Newly highlighted as a recurrently mutated β-catenin pathway inhibitor in hepatocellular carcinoma (alongside [USP34](../genes/USP34.md) and [MACF1](../genes/MACF1.md)); part of the WNT/β-catenin pathway (54% altered) in [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 - Mutated in metastatic castration-resistant prostate cancer (mCRPC); WNT-pathway component mutually exclusive with [APC](../genes/APC.md) alterations; combined with [RNF43](../genes/RNF43.md), predicted to confer sensitivity to porcupine inhibitors; R-spondin antibodies may also be warranted. [PMID:26000489](../papers/26000489.md)
 - Deleted as part of the 22q11.21–q11.23 arm-level deletion in 77% of schwannomatosis cases, with coordinated expression loss; proposed as an additional contributor to schwannomatosis pathogenesis alongside NF2, SMARCB1, MAPK1, BCR, EWSR1, PATZ1, and MYH9 [PMID:33025139](../papers/33025139.md)
+- ZNRF3 mutated in 33% of MSI-H colorectal carcinomas (CRC) by WES in a multi-platform colorectal polyp-to-cancer progression study; identified as a WNT-pathway activation mechanism in the serrated (MSI-H) CRC pathway alongside RNF43 and TCF7L2 mutations [PMID:34910928](../papers/34910928.md)
 
 ## Cancer types (linked)
 
@@ -42,7 +43,7 @@ ZNRF3 is an E3 ubiquitin ligase that negatively regulates WNT/β-catenin signall
 - [PMID:25822088](../papers/25822088.md)
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:33025139](../papers/33025139.md)
+- [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

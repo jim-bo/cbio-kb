@@ -32,6 +32,7 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - Among the long-latency driver groups in LCINS (MRCA > a decade pre-diagnosis); identified among 25 recurrently mutated IntOGen driver genes in the 232-patient Sherlock-Lung WGS cohort of never smokers [PMID:34493867](../papers/34493867.md)
 - Altered in 48% of high-cellularity PDAC tumors (CNV-driven focal deletions > intragenic mutations); deletions raise phospho-NPM1 S70/S214 as a trans-proteomic effect [PMID:34534465](../papers/34534465.md)
 - CDKN2A (p16INK4A) is absent endogenously in MCF7 parental cells; ectopic p16 overexpression in T47D reduces abemaciclib and palbociclib potency; high CDKN2A mRNA correlates with poor palbociclib response in PRISM screen, consistent with the CDK6-INK4 resistance mechanism [PMID:34544752](../papers/34544752.md)
+- Deletion enriched in metastases in 5 tumor types in the MSK-MET cohort; in LUAD more frequent in skin (16% vs 60%, q=0.03) and liver (16% vs 27%, q=0.03) metastases but less frequent in lymph node mets (19% vs 12%, q=0.002); deletion frequency correlated with metastatic burden in bladder urothelial, LUAD, and papillary thyroid; mutations less frequent in primary PAAD of metastatic patients (17% vs 7%, q=0.02) [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -83,5 +84,8 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

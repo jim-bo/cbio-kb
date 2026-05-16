@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ancestry, population-genetics, genomics, supervised-learning, bioinformatics]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ ADMIXTURE is a software tool for maximum-likelihood estimation of individual anc
 ## Used by
 
 - Genetic ancestry in 2,069 MSK-IMPACT-profiled prostate cancer patients was inferred from 5,072 bi-allelic autosomal SNPs within MSK-IMPACT468 baits using supervised ADMIXTURE v1.3 with 1000 Genomes Project reference populations; ancestry proportions (AFR, EUR, EAS, NAM, SAS) tracked self-reported race; 100% vs 0% AFR ancestry was associated with +13 pp chr8q gain (95% CI 4–23), suggesting a germline or environmental component to this somatic event [PMID:34667026](../papers/34667026.md)
+- Used to determine genetically inferred ancestry (v1.3, against 1000 Genomes references) for 64 Nigerian CRC patients; 100% were confirmed West African ancestry [PMID:34819518](../papers/34819518.md)
 
 ## Notes
 
@@ -30,3 +31,6 @@ ADMIXTURE is a software tool for maximum-likelihood estimation of individual anc
 - [PMID:34667026](../papers/34667026.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

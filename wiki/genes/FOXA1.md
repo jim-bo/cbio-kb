@@ -38,6 +38,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - In metastatic castration-resistant prostate cancer (mCRPC), FOXA1 is recurrently altered and mutually exclusive with ERG fusions; it was not independently prognostic for overall survival or time on first-line ARSI in this 429-patient cohort [PMID:31061129](../papers/31061129.md).
 - Mutated more frequently in CDK12-biallelic prostate cancer vs CDK12-WT in a pan-cancer MSK-IMPACT cohort (N=26,743; 1,875 prostate cases) [PMID:32317181](../papers/32317181.md)
 - FOXA1 class-1 forkhead-domain mutations enriched in Asian-ancestry prostate cancer patients (21% Asian vs 8% White; adjusted difference +15 pp, 95% CI 6 to 26) in an MSK-IMPACT cohort of 2,069 prostate tumors; overall FOXA1 alteration rate 27% Asian vs 13% White. [PMID:34667026](../papers/34667026.md)
+- Mutations negatively correlated with metastatic burden in PRAD; enriched in lobular breast cancer liver metastases (3% primary vs 33% liver met, q=0.02), suggesting distinct roles in prostate vs breast cancer metastatic biology [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -110,5 +111,8 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

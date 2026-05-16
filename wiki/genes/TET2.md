@@ -22,6 +22,7 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 - TET2 mutation observed as an invasive-restricted private alteration in IDC-NST (not shared with synchronous DCIS), identified by whole-exome sequencing of synchronous DCIS and invasive breast cancer pairs [PMID:32220886](../papers/32220886.md)
 - Second most common clonal hematopoiesis gene in cancer patients; an epigenetic modifier whose CH prevalence was not strongly modulated by therapy exposure [PMID:33106634](../papers/33106634.md)
 - Transcriptionally upregulated in LZTR1-mutant schwannomatosis (SWNTS-SWN) tumors alongside TET1 as part of an active demethylation program; DNMT1 and DNMT3A expression unchanged [PMID:33025139](../papers/33025139.md)
+- Identified as an independent clone with IDH1 in patient 118725 (parallel evolution); also among transient-clone genes in pediatric therapy-related myeloid neoplasm surveillance [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33025139](../papers/33025139.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -166,6 +166,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Altered in ~13-17% of MSS EO-CRC tumors across age cohorts with no statistically significant age-cohort difference [PMID:34405229](../papers/34405229.md)
 - Driver/timing observation in LCINS LUAD: PIK3CA mutations occur after copy-number gain events, in contrast to RBM10 and KRAS mutations which precede gain [PMID:34493867](../papers/34493867.md)
 - PIK3CA alterations present in 30% of 733 HER2-amplified breast tumors (metastatic + primary); co-occurs with MAPK alterations (OR 1.20, p=0.42 — no mutual exclusivity); MAPK resistance signal is independent of PIK3CA/AKT1/PTEN status (multivariate HR 2.25, p=0.0043). [PMID:34795269](../papers/34795269.md)
+- PIK3CA mutations less frequent in primaries of HR+/HER2- ductal breast metastatic patients vs. non-metastatic (49% vs 38%, q=0.003); PI3K pathway alterations enriched in HR+/HER2- ductal breast bone metastases (44% vs 56%, q=0.003) in the MSK-MET pan-cancer cohort (25,775 patients) [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -369,5 +370,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

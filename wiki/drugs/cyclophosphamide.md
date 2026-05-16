@@ -5,7 +5,7 @@ drug_class: alkylating agent
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - Referenced as a component of high-dose conditioning regimens for allogeneic SCT — the treatment modality with the largest survival benefit in the WashU AML/MDS [decitabine](../drugs/decitabine.md) trial (N=116); allogeneic SCT vs no SCT was the dominant Cox survival predictor (P<0.001) independent of [TP53](../genes/TP53.md) status [PMID:27959731](../papers/27959731.md)
 - Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy with median follow-up 78.5 months; C5 (MYD88/CD79B/18q-BCL2) and C3 (BCL2-SV/EZH2/PTEN) subtypes had unfavorable PFS/OS [PMID:29713087](../papers/29713087.md)
 - Cyclophosphamide is an alkylating agent documented among therapies received by the 5,978 previously treated patients in a 24,146-patient MSK cohort; the study found cytotoxic chemotherapy class overall associated with clonal haematopoiesis (OR=1.2, p=2×10⁻³), though no gene-specific cyclophosphamide interaction was reported separately [PMID:33106634](../papers/33106634.md).
+- OncoMark hallmark-survival analysis (TCGA logistic regression) associated cyclophosphamide with the Activating Invasion and Metastasis (AIM) hallmark for disease-free survival and the Resisting Cell Death (RCD) hallmark for overall survival [PMID:35121966](../papers/35121966.md)
 
 ## Resistance mechanisms
 
@@ -48,5 +49,8 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35121966](../papers/35121966.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

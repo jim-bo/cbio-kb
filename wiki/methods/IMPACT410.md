@@ -51,6 +51,7 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - One of three MSK-IMPACT panel versions used to profile 17 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)); combined with WES (n=27) and Sanger (n=16) for comprehensive somatic mutation characterization [PMID:33863915](../papers/33863915.md)
 - Applied to 93 of 219 genomically profiled intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients at MSKCC (the most-used panel version in that cohort) [PMID:33963001](../papers/33963001.md)
 - Plasma version (cf-IMPACT) used to profile cfDNA from 118 metastatic solid tumor patients at MSKCC; 410-gene panel at ~631x depth; detected somatic mutations in 71/118 (60%) patients and OncoKB level 1–4 actionable variants in 25% [PMID:34059130](../papers/34059130.md)
+- Used as one of the MSK-IMPACT targeted sequencing panels (410-gene version) in the MSK-MET pan-cancer cohort of 25,775 patients [PMID:35120664](../papers/35120664.md)
 
 ## Notes
 
@@ -150,3 +151,6 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:34059130](../papers/34059130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

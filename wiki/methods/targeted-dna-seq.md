@@ -48,6 +48,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - MSK-IMPACT targeted NGS (341/410/468-gene panels) applied prospectively to 295 metastatic EGC patients; demonstrated that targeted capture at 744X mean depth enables reliable detection of mutations, CNAs, MSI status, and ERBB2 amplification levels relevant to treatment selection [PMID:29122777](../papers/29122777.md)
 - Used for retrospective discovery genomic analysis of 569 MSKCC MIBC tumors via WES or targeted exon capture, enabling comparison of primary vs secondary MIBC mutation profiles [PMID:30290956](../papers/30290956.md)
 - FUSCC 484-gene targeted NGS panel applied to tumor biopsies of 69 refractory metastatic TNBC patients for somatic and germline calling in the FUTURE umbrella trial [PMID:32719455](../papers/32719455.md)
+- Custom literature-derived targeted DNA sequencing panel at 500x coverage applied to 281 colorectal polyps in the Tennessee Colorectal Polyp Study; confirmed APC, KRAS, and BRAF mutation frequencies across adenoma and serrated polyp subtypes [PMID:34910928](../papers/34910928.md)
 
 ## Notes
 
@@ -141,5 +142,8 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

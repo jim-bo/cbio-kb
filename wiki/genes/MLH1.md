@@ -3,7 +3,7 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -54,6 +54,8 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Germline MLH1 loss defines a Lynch syndrome UTUC subset (UCC15); MSI-H Lynch-associated UTUC (n=4, including MLH1, MSH2, and MSH6 germline carriers) had TMB 20.3–157.2 mut/Mb and showed resistance to neoadjuvant gemcitabine/cisplatin (0/2 pathologic responses vs 10/17 in MSS patients), suggesting redirection to immune checkpoint blockade [PMID:32332851](../papers/32332851.md)
 - MLH1 — promoter hypomethylated in SWNTS-SWNs; transcriptionally upregulated MMR gene despite absence of 22q microsatellite instability; COSMIC signatures 6/15 present [PMID:33025139](../papers/33025139.md)
 - Germline Lynch syndrome mismatch-repair gene; pathogenic/likely pathogenic germline variants in MLH1 accounted for a portion of the 5.5% Lynch syndrome prevalence in early-onset colorectal cancer (EO-CRC) and 9 of 14 high-penetrance carriers [PMID:34405229](../papers/34405229.md).
+- MLH1 protein and gene expression in sessile serrated lesions (SSLs) is comparable to conventional adenomas and higher than mean MSI-H CRC level; SSLs in the COLON MAP/HTAN cohort had not yet acquired biallelic MMR loss or hypermutation at the SSL stage [PMID:34910928](../papers/34910928.md)
+- Germline pathogenic MLH1 variants in 2 MSI-H Nigerian CRC patients (Lynch syndrome) plus 1 in MSS; promoter hypermethylation in only 2/7 MSI-H methylation-profiled Nigerian tumors, indicating an alternative non-CIMP MSI mechanism predominates in this West African cohort (MSI-H rate 28.1% vs. 14.2% TCGA/8.5% MSKCC, P<0.001) [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -152,3 +154,9 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:34405229](../papers/34405229.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -30,6 +30,7 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - Most frequently altered RTK-RAS gene in lung cancers from never smokers (LCINS; 30.6% overall, 51.4% in mezzo-forte SCNA subtype); mutations occur before clonal copy gain; MRCA appears ~8 yr before clinical diagnosis; independently associated with poor overall survival [PMID:34493867](../papers/34493867.md)
 - EGFR alterations in 0.9% of metastatic and 1% of primary HER2+ breast tumors (n=733); low-frequency MAPK-pathway co-alteration context with NF1, KRAS, BRAF, MAP2K1 [PMID:34795269](../papers/34795269.md)
 - EGFR is a high-positive Δκ risk gene in HGSOC ICI-treated patients, flagged as a putative network driver of ICI-modulated robustness alongside EP300, SMAD2, PIK3R1, RB1, ESR1, ATXN1 [PMID:34819508](../papers/34819508.md)
+- Mutations enriched in LUAD patients with CNS/brain metastasis compared to primary tumors, supporting EGFR as a driver of brain-tropic metastatic spread in lung adenocarcinoma [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

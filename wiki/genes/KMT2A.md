@@ -34,6 +34,7 @@ processed_at: 2026-05-16
 - Detected as a somatic alteration in metastatic panNET (n=80 patients); KMT2A is among the chromatin-remodeling/histone methyltransferase genes recurrently altered in this cohort [PMID:30687805](../papers/30687805.md)
 - An AFF1-KMT2A fusion confers dependence on AFF1 in cancer cell lines, identified via cross-referencing with RNAi loss-of-function data in the CCLE cancer cell line encyclopedia [PMID:31068700](../papers/31068700.md).
 - Fusions detected in all MLL-ALL PDX models in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
+- Canonical breakpoint-region rearrangements in 6/17 pediatric neuroblastoma transformation patients; partners include ELL, AFF1, FRYL, GAS7, and novel PRDM10 and DDX6; associated with topoisomerase-II exposure and earlier transformation (median detection 15 months before clinical diagnosis) [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -106,5 +107,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

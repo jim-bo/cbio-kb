@@ -48,6 +48,9 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - In 430 MSS unresectable metastatic colorectal adenocarcinoma patients (including [COAD](../cancer_types/COAD.md) primaries) profiled by MSK-IMPACT, N-terminal APC mutations (5' of aa 1400) were associated with longer OS (HR 0.56, p<0.001) and PFS (HR 0.68, p<0.001) than C-terminal APC mutations, which co-occurred more frequently with KRAS (72% vs 46%), BRAF (13% vs 2%), PIK3CA (28% vs 11%), and PTEN (12% vs 3%) alterations [PMID:32730818](../papers/32730818.md).
 - TIMER 2.0 pan-cancer analysis confirmed CGREF1 significantly upregulated in [COAD](../cancer_types/COAD.md); IHC on an 80-patient CRC tissue microarray showed CGREF1 over-expression in 61.25% of CRC tissues, with high expression independently associated with shorter disease-free survival (HR 3.85, 95% CI 1.32–11.2, p=0.014) by multivariate Cox analysis [PMID:32888432](../papers/32888432.md).
 - MSK single-institution cohort (759 early-onset + 687 average-onset CRC) profiled by MSK-IMPACT found most common somatic alterations in microsatellite-stable COAD/READ were APC (79%), TP53 (82%), and KRAS (43%); left-sided tumors dominated in early-onset CRC (>80%); somatic and survival differences by age disappeared after sidedness adjustment [PMID:34405229](../papers/34405229.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; COAD is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- Nigerian CRC cohort (380 patients, 64 MSK-IMPACT): COAD tumors showed 28.1% MSI-H (vs. 8.5% MSKCC); MSS tumors had depleted APC (36.9% vs. 76.0%), lower WNT-pathway alteration (47.8% vs. 81.9%), and enriched RAS-pathway alteration (76.1% vs. 59.6%) [PMID:34819518](../papers/34819518.md)
+- COLON MAP / HTAN pre-cancer atlas (scRNA-seq, 62 polyps/tumors): conventional adenomas arise from APC-driven WNT expansion of LGR5+ stem cells; MSS CRCs carry APC (100%), KRAS (35%), TP53 (71%); MSI-H CRCs have fewer classical drivers but enrich non-APC WNT events (RNF43, TCF7L2) and BRAF V600E (53%) [PMID:34910928](../papers/34910928.md)
 
 ## Subtypes
 
@@ -69,69 +72,55 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583493](../papers/25583493.md)
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32888432](../papers/32888432.md)
 
 - [PMID:34405229](../papers/34405229.md)
+
+- [PMID:35120664](../papers/35120664.md)
+
+- [PMID:34819518](../papers/34819518.md)
+
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

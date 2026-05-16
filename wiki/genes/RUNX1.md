@@ -31,6 +31,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - ETV6-RUNX1 fusion present in 88% of ETV6-rearranged BCP-ALL PDX models (27% of total BCP-ALL models had ETV6 fusions) in the PPTC 261-model pediatric cancer genomic characterization [PMID:31693904](../papers/31693904.md).
 - RUNX1 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Classified as a CH-myeloid-PD gene in therapy-shaped clonal hematopoiesis; truncating, hotspot, or in-frame variants were classed as putative CH drivers in cancer patients with prior therapy exposure [PMID:33106634](../papers/33106634.md)
+- Observed as a transient molecular abnormality in the transformation cohort of pediatric neuroblastoma patients who developed therapy-related myeloid neoplasms [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -82,5 +83,8 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

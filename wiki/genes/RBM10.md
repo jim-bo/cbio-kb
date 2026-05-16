@@ -26,6 +26,7 @@ RBM10 (RNA Binding Motif Protein 10) is an RNA-binding protein that regulates al
 - Significantly more altered in pN-negative LUAD tumors (17% vs 8%, p=0.044); alteration enriched in node-negative disease, potentially reflecting a distinct tumor biology [PMID:34290393](../papers/34290393.md)
 - Driver/timing observation in LCINS LUAD: RBM10 mutations precede copy-number gain events; altered in ≥5% of PDAC tumors [PMID:34493867](../papers/34493867.md)
 - Altered in ≥5% of PDAC tumors in a proteogenomic study of treatment-naive resected pancreatic adenocarcinoma [PMID:34534465](../papers/34534465.md)
+- Mutations less frequent in LUAD CNS/brain metastasis, suggesting a negative association with brain-tropic LUAD [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ RBM10 (RNA Binding Motif Protein 10) is an RNA-binding protein that regulates al
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -21,6 +21,7 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 - FOXP3 is a transcription factor stabilizing regulatory T cell (Treg) suppressive function in NPC; targeted indirectly by IKZF2 degraders (PLX-4545, DKY709) to reprogram Tregs and restore anti-tumor immunity. [PMID:24952746](../papers/24952746.md)
 - Used as an IHC marker for Treg quantification (clone 236A/E7) in the nivolumab-treated melanoma cohort; contributed to immune-cell-population analyses of the tumor microenvironment [PMID:29033130](../papers/29033130.md)
 - Pre-treatment regulatory-T-cell (Treg) signature enriched in anti-PD-1 non-responders in recurrent GBM (p=0.037); post-treatment FOXP3 signature active in responders; IHC ruled out CD4+FOXP3+ Tregs as the source — signature traced to CD44+ tumor cells expressing a FOXP3-like immunosuppressive program [PMID:30742119](../papers/30742119.md)
+- Regulon activity elevated in adenoma-derived vs. normal colon CD4+ T cells, supporting Treg-dependent immunosuppression as a feature of the adenoma microenvironment during colorectal carcinogenesis [PMID:34910928](../papers/34910928.md)
 
 ## Cancer types (linked)
 
@@ -55,5 +56,8 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

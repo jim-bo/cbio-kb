@@ -3,7 +3,7 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -77,6 +77,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Q61 alterations in 29% of 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); usually a sole driver (only 29% co-altered); associated with shortest TTF on PD-1 monotherapy (4.2 months; p<0.0001 vs. NF1 22 months); NRAS Q61 co-altered in 29% vs. 70% for other RAS (p=7.9e-07) [PMID:33509808](../papers/33509808.md)
 - Activating mutations in 3% of 412 intrahepatic cholangiocarcinoma tumors ([ihch_msk_2021](../datasets/ihch_msk_2021.md)); contributes to RTK/RAS pathway alterations (48% of cohort); not independently prognostic in this series [PMID:33765338](../papers/33765338.md)
 - Clonal Q61L mutation in one TERT-altered metaplastic breast cancer (MT45), co-occurring with TP53 V173L/E204Vfs*4, in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
+- NRAS RAS-pathway mutations identified among therapy-related MDS/AL transformation drivers in pediatric neuroblastoma survivors; patient 118728 had multiple RAS-pathway hits including NRAS [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -172,3 +173,6 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:33863915](../papers/33863915.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

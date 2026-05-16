@@ -106,6 +106,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - SV breakpoint hotspot identified in lung cancer in never-smokers (LCINS) along with MDM2, TERT, CDKN2A, NKX2-1, and 6p21; contributes to the structural variant landscape of LCINS [PMID:34493867](../papers/34493867.md).
 - MYC appears in the negative Δκ<sub>risk</sub> gene list in a 45-patient HGSOC ICI cohort analyzed by geometric network curvature; cited as a canonical HGSOC oncogene commonly overexpressed via CNA-driven aneuploidy downstream of TP53 loss. [PMID:34819508](../papers/34819508.md)
 - MYC copy-number gains enriched in Black prostate cancer patients (chr8q gain in 49% of Black vs 37% of White tumors; adjusted Black–White difference +11 pp, 95% CI 4–18); chr8q gain is independently prognostic (HR 2.00 in Black men, HR 1.61 in White men), in an MSK-IMPACT cohort of 2,069 prostate tumors. [PMID:34667026](../papers/34667026.md)
+- MYC is over-expressed as part of the WNT/stem-cell transcriptional program in adenoma stem cells (ASCs) and MSS CRC cells in the COLON MAP/HTAN polyp atlas [PMID:34910928](../papers/34910928.md)
+- MYC amplification enriched in metastases in 4 tumor types in the MSK-MET pan-cancer cohort (25,775 patients); amplification frequency correlates with metastatic burden in LUAD and PRAD; more frequent in primaries of metastatic patients in PRAD (1% vs 4%, q=0.03), MSS COAD (1% vs 4%, q=0.03), and triple-negative ductal breast (3% vs 17%, q=0.03) [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -300,5 +302,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

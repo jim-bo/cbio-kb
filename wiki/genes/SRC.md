@@ -18,6 +18,7 @@ SRC encodes a non-receptor tyrosine kinase and is the prototypical member of the
 - SRC and SRC-family kinases LYN and YES1 are collectively altered (copy gain with high expression) in 29% (10/35) of oral squamous cell carcinoma (OSCC) tumors [PMID:23619168](../papers/23619168.md)
 - Identified as a univariate survival hit in MSS mCRC but did not retain significance in multivariate analysis alongside APC, BRAF, KRAS, and NRAS. [PMID:29316426](../papers/29316426.md)
 - Elevated SRC signaling observed in PDAC proteogenomic landscape (CPTAC 2021 cohort, n=140 treatment-naive resected tumors); part of the AKT1 and PAK1/PAK2 downstream signaling characterization in KRAS-driven PDAC [PMID:34534465](../papers/34534465.md)
+- Amplification less frequent in MSS COAD lung metastases (7% vs 3%, q<0.001) in a pan-cancer primary-vs-metastasis genomic study [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ SRC encodes a non-receptor tyrosine kinase and is the prototypical member of the
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -18,6 +18,7 @@ PMS1 (PMS1 Homolog 1, Mismatch Repair System Component) is a DNA mismatch repair
 - PMS1 is among MMR germline genes (with [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) where germline pathogenic/likely-pathogenic alleles were identified in a prospective glioma cohort; two cases with biallelic MMR loss exhibited Lynch-pattern MSI hypermutation; somatic MMR mutations were observed in 31/38 (82%) hypermutated recurrences [PMID:31263031](../papers/31263031.md)
 - PMS1 co-occurring with [MSH2](../genes/MSH2.md), [MSH5](../genes/MSH5.md), and [POLE](../genes/POLE.md) mutations in GBM PDX model IC-1621GBM consistent with Lynch/constitutional MMR-deficiency; tumor is ultrahypermutated at 124 Mut/Mb [PMID:31693904](../papers/31693904.md).
 - PMS1 is downregulated only at the protein level (not mRNA) in MSI endometrial carcinoma tumors due to loss of its MLH1 stabilization partner; identified in the CPTAC proteogenomic cohort of 95 EC tumors [PMID:32059776](../papers/32059776.md)
+- PMS1 included in the MMR oncoprint of MSI-H Nigerian CRC specimens in the ARGO cohort comparison study [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ PMS1 (PMS1 Homolog 1, Mismatch Repair System Component) is a DNA mismatch repair
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

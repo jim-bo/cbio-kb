@@ -37,6 +37,8 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - In the crc_apc_impact_2020 MSS mCRC cohort (n=430, MSK-IMPACT), [READ](../cancer_types/READ.md) primaries were included alongside colon primaries; N-terminal APC mutations (5' of aa 1400) were more common in left-sided colon/rectal primaries and carried better prognosis than C-terminal APC mutations, which were enriched in right-sided tumors [PMID:32730818](../papers/32730818.md).
 - TIMER 2.0 pan-cancer analysis confirmed CGREF1 significantly upregulated in [READ](../cancer_types/READ.md); high CGREF1 IHC expression across an 80-patient CRC tissue microarray (including rectal primaries) was an independent predictor of shorter disease-free survival and promoted liver metastasis via F-actin cytoskeletal remodeling in orthotopic CRC models [PMID:32888432](../papers/32888432.md).
 - MSK early-onset CRC cohort (n=1,446 total) found rectal adenocarcinoma accounted for 33.7% of early-onset CRC (age <50) vs 22.6% in average-onset (age ≥50; P<0.001), with left-sided and rectal disease predominating; after sidedness adjustment, somatic profiles and metastatic survival were equivalent between age groups [PMID:34405229](../papers/34405229.md)
+- ARGO Nigerian CRC cohort: Nigerian patients more likely rectal-primary (50.8% vs. 33.7%); among 380 Nigerian CRC patients, stage IV was 53.8% with peritoneal metastases more common (30.3% vs. 18.1%) and lung/liver metastases less frequent [PMID:34819518](../papers/34819518.md)
+- COLON MAP / HTAN colorectal atlas: CRC progression landscape characterized across adenoma subtypes and MSS/MSI-H CRCs; cytotoxic CD8+ T-cell immune microenvironment forms in serrated lesions before hypermutation, and persists into MSI-H CRC [PMID:34910928](../papers/34910928.md)
 
 ## Subtypes
 
@@ -52,49 +54,39 @@ No molecular subtyping data from the corpus specific to READ yet.
 
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:25164765](../papers/25164765.md)
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32888432](../papers/32888432.md)
 
 - [PMID:34405229](../papers/34405229.md)
+
+- [PMID:34819518](../papers/34819518.md)
+
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

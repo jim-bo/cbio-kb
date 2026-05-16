@@ -137,6 +137,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Mutated in 4-8% of MSS EO/AO CRC tumors; no statistically significant age-cohort difference remained after adjustment for MSI status and tumor sidedness (contrary to some prior reports); trended toward worse survival on multivariate analysis (HR=1.41, 95% CI 0.96-2.07, P=0.08). [PMID:34405229](../papers/34405229.md)
 - BRAF alteration rate modestly higher in Black men with prostate cancer vs White; targeted-therapy relevance noted by authors in the context of race-aware genomic reporting [PMID:34667026](../papers/34667026.md)
 - BRAF V600E in 0.3% of both primary and metastatic HER2+ breast tumors (n=733); expressed BRAF V600E in SKBR3 phenocopies NF1 loss, driving resistance to lapatinib and tucatinib with ~57-fold sensitization to trametinib [PMID:34795269](../papers/34795269.md)
+- V600E entirely absent (0/18) in Nigerian MSI-H colorectal tumors vs 25.8% in MSKCC MSI-H tumors (P=0.01), arguing against the serrated/sporadic CIMP-MLH1-methylation route as the major MSI driver in this West African cohort [PMID:34819518](../papers/34819518.md)
+- V600E in 89% of SSLs (8/9) and 67% of MVHPs (2/3) but 0% of GCHPs and 0% of conventional adenomas by WES; 53% of MSI-H CRCs vs 0% of MSS CRCs; drives gastric-type metaplasia (MUC5AC+, CDX2-low) from differentiated luminal cells in the serrated pathway [PMID:34910928](../papers/34910928.md)
+- Mutations less frequent in papillary thyroid bone-metastasis patients vs non-bone-met patients (73% vs 53%, q=0.02) in the MSK-MET pan-cancer cohort [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -498,5 +501,14 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

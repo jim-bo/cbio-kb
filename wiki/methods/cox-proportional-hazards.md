@@ -35,6 +35,7 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Used in multivariable survival analysis of 573 liver-limited intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients; Cox model demonstrated HAIC vs resection HR 2.09 (95% CI 1.6–2.8) in N0 disease but equivalent HR 0.81 (95% CI 0.5–1.3) in N1 disease; treatment × nodal-status interaction term was significant (P<0.001) [PMID:33963001](../papers/33963001.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 - Applied in the MSK early-onset colorectal cancer cohort (759 EO-CRC patients vs 687 AO-CRC) for somatic and germline profiling at Memorial Sloan Kettering Cancer Center [PMID:34405229](../papers/34405229.md)
+- Used as a baseline method in the OncoMark hallmark-classification study; standard baselines including logistic regression, random forest, XGBoost, and Cox models collapsed to near-zero hallmark probabilities on cancer samples, while the OncoMark MTL framework preserved discrimination [PMID:35121966](../papers/35121966.md)
 
 ## Notes
 
@@ -94,5 +95,8 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35121966](../papers/35121966.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

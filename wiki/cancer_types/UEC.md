@@ -4,7 +4,7 @@ oncotree_code: UEC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - Cross-histology analysis of 63 CCECs against 40 endometrioid carcinomas (UEC) showed: 82.5% of UEC had endometrioid-like molecular profiles (PTEN/KRAS/ARID1A/PIK3R1/PIK3CA mutations, MSI); POLE and MMR mutation signatures were enriched in endometrioid lineages per the four-subgroup TCGA UCEC framework referenced in this study. [PMID:28485815](../papers/28485815.md)
 - 75/189 advanced endometrial tumors were endometrioid carcinoma (FIGO grades 1–3); high-grade (grade 3) had worse PFS1 vs low-grade (12.7 vs 21.6 months, p=0.005); PTEN mutations more common in primary vs metastatic endometrioid (67% vs 34%, p=0.03); ESR1 LBD hotspot mutations in 5 patients (3/5 de novo, no prior endocrine therapy) [PMID:30068706](../papers/30068706.md)
 - CPTAC proteogenomic cohort (n=95 EC) included 83 endometrioid tumors; [CTNNB1](../genes/CTNNB1.md) exon-3 hotspot mutations (23 tumors) linked to constitutive Wnt activation and H2B hyperacetylation (K16/K20/K24); [POLE](../genes/POLE.md) P286R hotspot in 5/7 ultramutated tumors [PMID:32059776](../papers/32059776.md).
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; UEC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -50,10 +51,10 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 
 - [PMID:28485815](../papers/28485815.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

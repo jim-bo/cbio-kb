@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -87,6 +87,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Assessed at ≥2% alteration frequency in LUAD; no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
 - Loss (4% of HR+/HER2− breast cancer cohort) is the canonical CDK4/6i-resistance lesion (downstream of CDK4/6) and was a top hit in the PRISM screen for palbociclib insensitivity. [PMID:34544752](../papers/34544752.md)
 - High-positive Δκ<sub>risk</sub> gene flagged as a putative network driver of ICI-modulated robustness in HGSOC, based on CNA-derived network curvature analysis of 45 ICI-treated patients. [PMID:34819508](../papers/34819508.md)
+- Observed as a transient molecular abnormality in the transformation cohort of pediatric neuroblastoma patients who developed therapy-related myeloid neoplasms [PMID:35078859](../papers/35078859.md)
+- Loss more frequent in PRAD liver metastases (3% vs 10%, q<0.001) in a pan-cancer primary-vs-metastasis genomic comparison across 50 tumor types [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -179,3 +181,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

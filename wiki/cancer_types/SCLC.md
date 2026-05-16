@@ -5,7 +5,7 @@ main_type: Small Cell Lung Cancer
 parent: LNET
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Small Cell Lung Cancer (SCLC)
@@ -27,6 +27,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - Comprehensive genomic analysis of SCLC revealed near-universal [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md) loss, recurrent CREBBP/EP300 alterations, and NOTCH pathway mutations defining therapeutic vulnerabilities [PMID:26168399](../papers/26168399.md)
 - EZH2-mediated H3K27me3 spreading silences [SLFN11](../genes/SLFN11.md) in 4/10 chemoresistant PDX models; EZH2 inhibitor EPZ011989 (tazemetostat homolog) re-expresses SLFN11 and restores cisplatin/etoposide sensitivity in vivo [PMID:28196596](../papers/28196596.md)
 - In the MSK-IMPACT pan-cancer cohort, SCLC had one of the highest TP53 mutation rates at 85% of samples — ranking alongside HGSOC (98%) and esophageal adenocarcinoma (89%). [PMID:28481359](../papers/28481359.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; SCLC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -48,4 +49,6 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

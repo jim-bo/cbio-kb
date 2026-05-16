@@ -33,6 +33,7 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - Y62 phosphorylation (in EGFR-mutant [LUAD](../cancer_types/LUAD.md)) and Y546/Y584 phosphorylation (in ALK-fusion LUAD) identified by phosphoproteomics without changes in RNA or protein abundance; nominated as therapeutic target for EGFR-mutant and EML4-ALK-fusion LUAD [PMID:32649874](../papers/32649874.md)
 - Secondary RTK-RAS regulator contributing to NF1/BRAF Class 3 co-alteration patterns in melanoma; listed among backseat co-alterations in driver-stratified immunotherapy outcomes study [PMID:33509808](../papers/33509808.md)
 - Y62 phosphorylation activated by EGFR; Y546/Y584 by PDGFRA; forms complex with GAB1/GRB2 to activate RAS; identified as a convergent RTK signaling hub in GBM multi-omic profiling [PMID:33577785](../papers/33577785.md)
+- RAS-pathway mutation identified among transformation drivers in pediatric therapy-related myeloid neoplasms arising from neuroblastoma; patient 118728 had multiple RAS-pathway hits including PTPN11 [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -104,5 +105,8 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

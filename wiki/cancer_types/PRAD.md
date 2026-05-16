@@ -63,6 +63,7 @@ OncoTree code for prostate adenocarcinoma.
 - cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in prostate cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; [BRCA2](../genes/BRCA2.md) OncoKB level 1 alterations identified in plasma of PRAD patients supporting [olaparib](../drugs/olaparib.md) eligibility; sub-clonal [AR](../genes/AR.md) p.H875Y resistance allele detected by plasma cfDNA below the calling threshold of tumor MSK-IMPACT; an MSI-H mCRPC patient identified from cf-IMPACT received [pembrolizumab](../drugs/pembrolizumab.md) with durable PSA response [PMID:34059130](../papers/34059130.md).
 - MSK-ACCESS cfDNA panel prospectively profiled prostate cancer patients (part of the 28% NSCLC/PRAD/BLCA/PAAD/biliary group, n=617 patients total); [AR](../genes/AR.md) mutations enriched in cfDNA vs MSK-IMPACT in prostate cancer; OncoKB level 1 actionable alterations detected in 48% of BLCA, 37% of BRCA, and 33% of NSCLC samples; PRAD was the second most common cancer type in the cohort; matched WBC sequencing removed >10,000 germline/CH confounders [PMID:34145282](../papers/34145282.md).
 - MSK-IMPACT cohort of 2,069 prostate adenocarcinoma patients (1,841 White, 165 Black, 63 Asian; [prad_msk_stopsack_2021](../datasets/prad_msk_stopsack_2021.md)) revealed race-associated somatic differences: [AR](../genes/AR.md) alterations enriched in Black men (adjusted +5 pp vs White); [FOXA1](../genes/FOXA1.md) class-1 forkhead-domain mutations in 21% vs 8% of Asian vs White men; [TP53](../genes/TP53.md) less frequent in Black men (19% vs 30%; adjusted −10 pp); chr8q gain (enriched for [MYC](../genes/MYC.md)) in 49% Black vs 37% White (adjusted +11 pp), independently prognostic for death (HR 2.00 Black, 1.61 White); area-level income independently associated with chr8q gain, arguing against purely germline interpretation [PMID:34667026](../papers/34667026.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; PRAD is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -124,5 +125,7 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:32220891](../papers/32220891.md)
 - [PMID:32317181](../papers/32317181.md)
 - [PMID:34667026](../papers/34667026.md)
+
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

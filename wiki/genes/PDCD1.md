@@ -36,6 +36,7 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PDCD1 (PD-1) expression measured alongside CD274 (PD-L1) in 684 never-smoker lung adenocarcinomas; combined CD274+PDCD1 R²=0.093 for ICB response (TIDE score), much lower than subtype-augmented R²=0.25, demonstrating that transcriptomic subtype adds predictive value beyond immune checkpoint markers [PMID:32015526](../papers/32015526.md)
 - Recurrent homozygous deletions in uterine leiomyosarcoma (uLMS), the highest frequency across all cancer types in the 15,816-patient MSK-IMPACT cohort; IHC confirmed PD-1 protein loss in two informative cases; proposed as explanation for paucity of immune checkpoint inhibitor responses in published phase II uLMS trials [PMID:32299819](../papers/32299819.md)
 - PD-L1 / immune-infiltration scores co-vary with APOBEC3B/APOBEC3G protein levels in luminal breast cancer; APOBEC mutagenesis and SSBR defects identify immunotherapy-eligible ER+ BRCA subsets. [PMID:33212010](../papers/33212010.md)
+- PDCD1 (PD-1) expressed on dysfunctional CD4+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive adenoma microenvironment in colorectal precancer [PMID:34910928](../papers/34910928.md)
 
 ## Cancer types (linked)
 
@@ -119,5 +120,8 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

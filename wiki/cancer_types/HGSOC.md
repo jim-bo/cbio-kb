@@ -35,6 +35,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - In the MSK-IMPACT pan-cancer cohort, HGSOC had the highest TP53 mutation rate of any principal tumor type at 98%, consistent with its near-universal TP53 inactivation; HGSOC was included among 62 principal tumor types in the msk_impact_2017 dataset. [PMID:28481359](../papers/28481359.md)
 - [RAD51B](../genes/RAD51B.md) germline LOF variants enriched in ovarian cancer: 4/1,157 ovarian patients in the MSK-IMPACT cohort carried LOF alleles (0.35%); 6/13 total [RAD51B](../genes/RAD51B.md) carriers had biallelic inactivation with dominant Signature 3 and LST-high HRD phenotype; authors recommend [RAD51B](../genes/RAD51B.md) inclusion on clinical germline hereditary breast/ovarian cancer panels [PMID:34635660](../papers/34635660.md)
 - Ollivier–Ricci network curvature (κ<sub>G</sub>) of gene-level CNAs over a PPI scaffold stratified OS in 45 ICI-treated recurrent HGSOC patients (log-rank p=0.00047); low-curvature group median OS 7.4 months vs 20.3 months high-curvature; [TP53](../genes/TP53.md) ranked #1 by positive Δκ<sub>risk</sub> (0.209), consistent with near-universal TP53 inactivation; curvature was not prognostic in non-ICI HGSOC, suggesting ICI-predictive specificity; dataset [hgsoc_msk_2021](../datasets/hgsoc_msk_2021.md) [PMID:34819508](../papers/34819508.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; HGSOC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -64,5 +65,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [PMID:28481359](../papers/28481359.md)
 - [PMID:34635660](../papers/34635660.md)
 - [PMID:34819508](../papers/34819508.md)
+
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -185,6 +185,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Primary platform for the CSCC meta-analysis reprocessing pipeline; WES data from 10 published studies yielding 88 QC-passed tumors (17 excluded for low purity, contamination, or sample mismatch); mean coverage 12.4x–498x across studies [PMID:34272401](../papers/34272401.md)
 - Applied to cf-IMPACT-negative plasma samples with high sWGS z-score (≥5) for unbiased cfDNA profiling in 5 of 118 metastatic solid tumor patients; cf-WES detected somatic mutations in all 5 (average 212 mutations, average mVAF 11%), 99% in regions outside the cf-IMPACT panel footprint [PMID:34059130](../papers/34059130.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
+- WES performed on FFPE colorectal polyps and CRCs (BWA hg19, GATK4 Mutect2 paired) in the COLON MAP HTAN atlas; revealed APC mutations in 85% of tubular adenomas and BRAF-V600E in 89% of sessile serrated lesions [PMID:34910928](../papers/34910928.md)
 
 ## Notes
 
@@ -653,5 +654,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

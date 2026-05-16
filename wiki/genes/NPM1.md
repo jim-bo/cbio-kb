@@ -3,7 +3,7 @@ symbol: NPM1
 aliases: []
 cancer_types: [AML]
 tags: [AML-driver, co-mutation, epigenetic-subtype, intermediate-risk]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -20,6 +20,7 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 - Mutations in 28% (n=436) of AML; class-defining for the largest subgroup; favorable as monotherapy but outcome strongly modified by co-occurring FLT3, DNMT3A, IDH2, NRAS, PTPN11, and chromatin-spliceosome mutations; allogeneic transplant decisions should integrate co-mutation profiles [PMID:27276561](../papers/27276561.md)
 - 4-bp insertion mutations detected by internal PCR assay in the Beat AML cohort (aml_ohsu_2018); any NPM1 mutation sensitized cells to ibrutinib/entospletinib ex vivo; co-mutation with FLT3-ITD (regardless of DNMT3A status) defined a subset with strong BTK/SYK pathway sensitivity [PMID:30333627](../papers/30333627.md)
 - Phospho-NPM1 S70/S214 levels elevated in [PAAD](../cancer_types/PAAD.md) tumors harboring CDKN2A deletions (altered in 48%), suggesting a downstream phosphoproteomic consequence of CDKN2A loss [PMID:34534465](../papers/34534465.md).
+- NPM1 clonal hotspot mutation detected 36 months before therapy-related leukemia transformation in neuroblastoma patient 118725 (followed by IDH1 R132H acquisition 12 months later), demonstrating that serial bone marrow surveillance can detect pre-leukemic clones years before overt t-MDS/AL [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

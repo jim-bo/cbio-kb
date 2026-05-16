@@ -39,6 +39,7 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - ILC was under-represented in the Korean SMC breast cohort vs TCGA (3.7% vs 17.3%, p=2.9e-08); CDH1 mutation rate correspondingly lower in SMC (2.2%) than TCGA (11.5%) [PMID:29713003](../papers/29713003.md)
 - In 1,918 prospectively sequenced breast tumors, ILC-specific alterations included TBX3 N297 hotspot exclusive to lobular carcinomas and FOXA1 Forkhead-domain hotspots on wing 2 (lobular-specific); CDH1 mutations were associated with ovarian metastasis, reflecting lobular predisposition to ovarian spread; dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
 - ILC included in 122-sample primary invasive [BRCA](../cancer_types/BRCA.md) cohort profiled by integrated multi-omics (WES, RNA-seq, proteomics, phosphoproteomics); NMF subtypes and ERBB2 protein heterogeneity findings apply across IDC/ILC histologies [PMID:33212010](../papers/33212010.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; ILC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -59,15 +60,14 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 
 - [PMID:26451490](../papers/26451490.md) — Ciriello et al., *Comprehensive molecular portraits of invasive lobular breast cancer*, Cell 2015.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29713003](../papers/29713003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
 
 - [PMID:33212010](../papers/33212010.md) — Krug et al. CPTAC proteogenomic analysis of 122 primary invasive breast tumors.
+
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

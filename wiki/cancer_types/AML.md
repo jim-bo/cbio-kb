@@ -33,6 +33,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - Pan-cancer CCLE profiling (1,072 cell lines) identified phospho-SHP2 (pY542) as a biomarker of [ponatinib](../drugs/ponatinib.md) sensitivity in AML lines; 4/5 previously untested AML lines with high pSHP2 were ponatinib-sensitive, including lines carrying [FLT3](../genes/FLT3.md), [KIT](../genes/KIT.md), and [FGFR1](../genes/FGFR1.md) alterations [PMID:31068700](../papers/31068700.md).
 - AML (53% of hematologic malignancies in PM NSGCT cohort, n=15), nearly half of which were AMKL M7, arose from a shared germ-cell precursor with the paired GCT; canonical AML drivers (FLT3, DNMT3A, TET2, NPM1) were absent; median survival was 6.3 months (95% CI 4.6–25.2). [PMID:32897884](../papers/32897884.md)
 - In the MSK-IMPACT CH cohort (n=24,146), CH → therapy-related myeloid neoplasm (tMN/AML) progression was tracked in 35 paired pre-tMN/tMN samples; 19/32 (59%) already harbored leukemia-defining mutations at the CH stage; TP53-mutant tMNs co-occurred with complex karyotype in 12/13 evaluable cases. [PMID:33106634](../papers/33106634.md)
+- Serial bone-marrow sequencing of 52 high-risk NBL patients (HemePACT + FusionPlex Pan-Heme): AML was an endpoint for therapy-related myeloid neoplasm development after neuroblastoma therapy; 17 transformation cases included AML/MDS outcomes [PMID:35078859](../papers/35078859.md)
 
 ## Subtypes
 
@@ -50,41 +51,31 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 
 - [PMID:23634996](../papers/23634996.md) — TCGA Research Network. Genomic and epigenomic landscapes of adult de novo acute myeloid leukemia. *N Engl J Med* 2013.
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:27276561](../papers/27276561.md) — Papaemmanuil et al. 2016, NEJM. Genomic classification and prognosis in AML; 1540 patients, 111-gene panel, 11 genomic subgroups.
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:27959731](../papers/27959731.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29489754](../papers/29489754.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29902176](../papers/29902176.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30333627](../papers/30333627.md)
 
 - [PMID:31068700](../papers/31068700.md) — Ghandi et al. CCLE multi-omic profiling (Nature 2019).
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32897884](../papers/32897884.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
+
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

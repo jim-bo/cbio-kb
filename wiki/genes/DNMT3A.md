@@ -32,6 +32,7 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - DNMT3A — transcriptionally unchanged in SWNTS-SWNs vs NS-SWNs (demethylation machinery study: TET1/TET2 upregulated, DNMT1/DNMT3A unchanged), suggesting passive rather than active demethylation in schwannomatosis [PMID:33025139](../papers/33025139.md)
 - DNMT3A — most frequent clonal hematopoiesis (CH) gene in cancer patients; R882 hotspot has higher VAFs than non-hotspot variants; outcompetes DDR clones in untreated patients; therapy-driven CH enrichment weaker than for DDR genes [PMID:33106634](../papers/33106634.md)
 - Commonly mutated clonal hematopoiesis (CH) gene; recurrent CH-origin variant calls in DNMT3A were among mutations reclassified from somatic to germline/CH via matched WBC sequencing in the MSK-ACCESS liquid biopsy study [PMID:34145282](../papers/34145282.md)
+- Non-R882 oncogenic variant detected in the transient-clone cohort of pediatric neuroblastoma patients, associated with clonal hematopoiesis preceding therapy-related myeloid neoplasm [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -98,5 +99,8 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

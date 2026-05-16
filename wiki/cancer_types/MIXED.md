@@ -7,7 +7,7 @@ tags:
   - mixed-histology
   - breast
   - idc-ilc
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -30,6 +30,7 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 - CCLE multi-omic study (1,072 cancer cell lines) constitutes a pan-cancer ([MIXED](../cancer_types/MIXED.md)) resource; key findings include reciprocal LDHA/LDHB paralogue synthetic lethalities gated by promoter methylation, TERT promoter mutations in 16.7% of 503 lines, and MDM4 exon-6 inclusion as a biomarker for MDM2-inhibitor sensitivity [PMID:31068700](../papers/31068700.md).
 - Integrative genomic/transcriptomic study of 133 combined hepatocellular-intrahepatic cholangiocarcinoma (cHCC-ICC) cases classified by Allen-Lisa criteria; TP53 mutated in 49.2%, TERT promoter C228T in 22.9%, MYC amplified in 73%; Nestin (NES) IHC positive in 81.3% of cHCC-ICC and proposed as a diagnostic/prognostic biomarker (median OS 18.7 mo Nestin+ vs 46.6 mo Nestin-) [PMID:31130341](../papers/31130341.md).
 - CCLE proteomics profiled 375 cancer cell lines from 22 lineages including mixed tissue types; primary axis of proteome variation organized by coordinated pathway expression rather than tissue lineage or mutation burden [PMID:31978347](../papers/31978347.md).
+- OncoMark N-MTL hallmark classifier trained on 3.1M single cells from 14 tumor sites including hematologic/mixed histology; MIXED cancer types from 941 patients (Weizmann 3CA) used in training corpus; hallmark scores rise monotonically with AJCC stage across pan-cancer datasets [PMID:35121966](../papers/35121966.md)
 
 ## Subtypes
 
@@ -50,9 +51,9 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 - [PMID:31068700](../papers/31068700.md) — Ghandi et al. CCLE multi-omic profiling (Nature 2019).
 - [PMID:31130341](../papers/31130341.md) — Xue et al. cHCC-ICC pan-Asia genomic study (Cancer Cell 2019).
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35121966](../papers/35121966.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

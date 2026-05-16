@@ -88,6 +88,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 cited as established HR-pathway gene; biallelic BRCA1 loss defines the strongest HRD phenotype benchmark — biallelic RAD51B loss confers intermediate LST/Signature 3 scores between WT and biallelic BRCA1/BRCA2 loss [PMID:34635660](../papers/34635660.md)
 - No significant difference in BRCA1 alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) on MSK-IMPACT; BRCA1/2 mutation status did not differ by curvature group in the ICI cohort [PMID:34667026](../papers/34667026.md)
 - BRCA1 captured as a clinical covariate (10/45 HGSOC patients mutated); no association with curvature group (p=1.000); BRCA1 also appears in the top-50 positive Δκ risk list (rank 43, Δκ=0.003) [PMID:34819508](../papers/34819508.md)
+- Incidental high-penetrance germline mutation found in 1 MSI-H Nigerian colorectal cancer patient profiled by MSK-IMPACT (n=64 Nigerian tumors) [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -282,5 +283,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -39,6 +39,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - PMS1/PMS2 protein levels are downregulated in MSI endometrial tumors (MLH1 loss destabilizes them at the protein level, not transcript level) [PMID:32059776](../papers/32059776.md)
 - MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 - Germline Lynch syndrome mismatch-repair gene variant; PMS2 (with MLH1, MSH2, MSH6) germline P/LP variants accounted for 5.5% of all EO-CRCs and 9 of 14 high-penetrance carriers in EO-CRC [PMID:34405229](../papers/34405229.md)
+- PMS2 assayed by IHC as part of the MMR panel in 94 Nigerian CRC tumors in the ARGO cohort; MSI-H rate in this population was 28.1% vs. 14.2% TCGA and 8.5% MSKCC (P<0.001) [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -87,5 +88,8 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

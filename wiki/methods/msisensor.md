@@ -39,6 +39,7 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - MSIsensor used to estimate microsatellite instability in 83 retinoblastoma specimens; TMB uniformly low (0–3 mutations/Mb) [PMID:33466343](../papers/33466343.md)
 - MSIsensor (cutoff ≥10) used for MSI calling in 487 EAC/EGJ patients; 15/487 (3.1%) were MSI-high and excluded from survival analyses [PMID:33795256](../papers/33795256.md)
 - Applied to cfDNA plasma samples in the tumor-fraction-guided cfDNA triage study to assess MSI status; one CRPC patient with two failed tumor biopsies was found to be MSI-High by cf-IMPACT, confirmed by later bone biopsy, leading to pembrolizumab treatment and durable response [PMID:34059130](../papers/34059130.md)
+- Used to classify MSI status in 64 Nigerian CRC tumors; 28.1% (18/64) were MSI-H, significantly higher than TCGA (14.2%) and MSKCC (8.5%) reference cohorts (P<0.001) [PMID:34819518](../papers/34819518.md)
 
 ## Notes
 
@@ -102,3 +103,6 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - [PMID:34059130](../papers/34059130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

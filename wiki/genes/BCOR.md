@@ -41,6 +41,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR G943D shared across germ cell tumor, MDS, and post-allogeneic-transplant histiocytic sarcoma of one patient, supporting host (not donor) origin and shared clonal precursor in primary mediastinal NSGCT with subsequent hematologic malignancy [PMID:32897884](../papers/32897884.md)
 - In 83 enucleated retinoblastomas profiled by MSK-IMPACT, BCOR loss-of-function mutations were found in 19/83 (22.9%) specimens — the most common non-RB1 somatic alteration — and were nominally associated with worse metastasis-free survival (Kaplan-Meier p=0.03). [PMID:33466343](../papers/33466343.md)
 - Mutations identified in TERT-WT metaplastic breast cancers (MBC) in a 60-case MSKCC cohort; present only in the TERT-WT group (not statistically significant after multiple-testing correction) [PMID:33863915](../papers/33863915.md)
+- Transient clonal oncogenic mutation detected 2 years before transformation in pediatric neuroblastoma patient 118731 developing t-MDS (fell below detection at t-MDS diagnosis); also found in one control-cohort patient (who died of neuroblastoma) [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -124,5 +125,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

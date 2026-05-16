@@ -25,6 +25,7 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 - Used in 5/5 tested [COADREAD](../cancer_types/COADREAD.md) cases to confirm frameshifted splice product from the recurrent APC intronic splice-acceptor mutation chr5:112151184 A>G in MSS CRC [PMID:29316426](../papers/29316426.md)
 - ddPCR on a QX200 system used to validate selected variants from a multi-site breast cancer autopsy case; confirmed mutual exclusivity of ESR1 Y537 and ERBB2 driver mutations across metastatic sites at ~0.03% sensitivity [PMID:30205045](../papers/30205045.md)
 - Used for orthogonal validation of PIK3CA hotspot mutations (H1047R/L/Y, E545K, E542K, C420R, N345K) across 90 plasma specimens in the breast_alpelisib_2020 ctDNA cohort [PMID:32864625](../papers/32864625.md)
+- Used for TP53 hotspot backtracking (C135S, V172F, R175H, R213P, R249S, L257Q, G266R) across 28 additional bone marrow time points in the neuroblastoma t-MDS/AL surveillance cohort [PMID:35078859](../papers/35078859.md)
 
 ## Notes
 
@@ -42,5 +43,8 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

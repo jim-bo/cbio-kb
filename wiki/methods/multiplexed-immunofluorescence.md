@@ -22,6 +22,7 @@ Multiplexed immunofluorescence (mIF) enables simultaneous detection of multiple 
 - Applied to 100 [HGSOC](../cancer_types/HGSOC.md) multi-site biopsy samples; showed CD8+PD-1+ T cells within 30 um of PD-L1+ cancer cells common in HRD-Dup but rare/absent in FBI tumours; confirmed spatial immune-exclusion pattern in FBI [PMID:36517593](../papers/36517593.md)
 - Multiplexed immunofluorescence (MxIF) performed on 34 WU-RCC patients with a 19-marker ccRCC antibody panel for spatial proteomics validation of HiTME subtypes [PMID:22138691](../papers/22138691.md)
 - Used in GBM anti-PD-1 immunotherapy study (n=17 paired pre/post samples) via Opal/Vectra platform staining for CD3, CD8, CD68, HLA-DR, PD-L1, and SOX2 on FFPE specimens; revealed PTEN-mutant tumors had significantly more CD68+HLA-DR- macrophages (p=0.011) [PMID:30742119](../papers/30742119.md)
+- Used as Cell DIVE multiplexed immunofluorescence (MxIF) in the COLON MAP polyp atlas to map MUC5AC, OLFM4, SOX9, CDX2, and immune markers spatially; showed MUC5AC+ in 13/14 MSI-H CRCs vs. 0/17 MSS CRCs [PMID:34910928](../papers/34910928.md)
 
 ## Notes
 
@@ -41,5 +42,8 @@ Multiplexed immunofluorescence (mIF) enables simultaneous detection of multiple 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

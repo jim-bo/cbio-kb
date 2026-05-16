@@ -48,6 +48,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Novel mutation finding in HPV(+) vulvar squamous cell carcinomas identified by WES of 15 Korean vulvar SCC cases; not previously reported in HPV(+) vulvar SCC [PMID:29422544](../papers/29422544.md)
 - FBXW7 mutations in DLBCL cluster (CLUMPS 3D analysis) at the acceptor groove that impairs CCNE1 recognition, invoking the same tumor-suppressor mechanism described in other cancer types [PMID:29713087](../papers/29713087.md)
 - FBXW7 is recurrently mutated in 37 UTUC cases at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
+- Mutated in 3.8% of relapsed/metastatic adenoid cystic carcinoma cases as a Notch-pathway activator [PMID:31483290](../papers/31483290.md)
+- Among the top recurrently mutated genes in rectal cancer tumoroids and the 287-patient MSK RC cohort (rectal_msk_2019) [PMID:31591597](../papers/31591597.md)
 
 ## Cancer types (linked)
 
@@ -161,5 +163,11 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

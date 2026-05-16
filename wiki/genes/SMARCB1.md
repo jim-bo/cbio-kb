@@ -19,6 +19,7 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - Overexpression of [ASCL1](../genes/ASCL1.md) with 22q11.21 LOH including SMARCB1 was diagnostic of [ATRT](../cancer_types/ATRT.md) and prognostic for improved outcome in the same cohort. [PMID:28007021](../papers/28007021.md)
 - SMARCB1 (INI1) protein expression retained by IHC in an EWSR1::BEND2 fusion sarcoma of the urinary bladder, ruling out rhabdoid/INI1-deficient differential diagnoses [PMID:28199314](../papers/28199314.md).
 - Listed in the MSK-IMPACT panel gene set interrogated in metastatic panNET; part of the chromatin-remodeling factor set altered in 65% of patients in the panet_msk_2018 cohort [PMID:30687805](../papers/30687805.md)
+- Inactivating focal deletions, frameshifts, or nonsense mutations in SMARCB1 observed in all ATRT and extracranial MRT PDX models; also hemizygous deletions in 3 astrocytic tumors (consistent with 6.7–7.5% in pediatric HGG cohorts) in the PPTC 261-model study [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

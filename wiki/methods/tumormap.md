@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [visualization, dimensionality-reduction, pan-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ TumorMap is a web-based 2D visualization tool for exploring relationships betwee
 ## Used by
 
 - Used to generate 2D visualization of iCluster latent-variable distances across ~10,000 TCGA PanCancer Atlas tumors from 33 cancer types, enabling visual exploration of the 28 integrated molecular subtypes [PMID:29625048](../papers/29625048.md).
+- UCSC TumorMap used for expression-cluster visualization across 261 PPTC pediatric PDX models, enabling comparison of molecular subtype clustering to established adult-cancer signatures [PMID:31693904](../papers/31693904.md).
 
 ## Notes
 
@@ -29,3 +30,6 @@ TumorMap is a web-based 2D visualization tool for exploring relationships betwee
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

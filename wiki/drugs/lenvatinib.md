@@ -24,6 +24,7 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - High [FGFR3](../genes/FGFR3.md) expression/gain guided lenvatinib consideration in metastatic NEN patients (PN1, PN14, PN17, PN25) in the POG NEN WGTA cohort (n=28) [PMID:40328872](../papers/40328872.md)
 - First-line HCC: REFLECT trial — lenvatinib non-inferior to sorafenib, median OS 13.6 vs 12.3 months (HR 0.92, 95% CI 0.79–1.06); mRECIST ORR 24.1% (investigator) / 40.6% (masked review); approved as alternative first-line for Child–Pugh A, BCLC-C patients (except main portal vein thrombosis or >50% liver involvement) [PMID:24798001](../papers/24798001.md)
 - Lenvatinib (first-line TKI non-inferior to sorafenib in HCC) was discussed in the context of the broader first-line systemic therapy landscape for 127 advanced [HCC](../cancer_types/HCC.md) patients at MSKCC; [CTNNB1](../genes/CTNNB1.md)/WNT-pathway activating alterations (45% of cohort) were associated with innate resistance to immune checkpoint blockade but their effect on VEGFR-TKI response was not significant [PMID:30373752](../papers/30373752.md).
+- Cited in an integrated genomic analysis of 868 R/M adenoid cystic carcinoma (ACC) cases as a multikinase inhibitor with ORR of 16–27% in R/M ACC across prior phase II trials, supporting tyrosine-kinase inhibition in subsets of ACC patients pending predictive biomarkers [PMID:31483290](../papers/31483290.md)
 
 ## Resistance mechanisms
 
@@ -50,5 +51,8 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

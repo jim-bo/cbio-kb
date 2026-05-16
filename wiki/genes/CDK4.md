@@ -52,6 +52,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Elevated kinase activity in colon cancer tumors (COAD proteomic study); identified as a targetable therapeutic candidate — CDK4 inhibitors (palbociclib-class) approved; supports CDK4 inhibition in CIN-subtype COAD [PMID:31031003](../papers/31031003.md)
 - Amplification co-occurs with CCND1 amplification in CDK12 loss-of-function mCRPC tumors; RB1 mutation and CDK4 amplification represent alternative cell-cycle alterations with 1 patient showing CDK4 amplification later acquiring CDKN2A/B loss at recurrence and dying within 11-15 months [PMID:31061129](../papers/31061129.md)
 - Alternative cell-cycle alteration in glioma alongside RB1; one patient with CDK4 amplification later acquired CDKN2A/B loss at recurrence and died within 11-15 months, demonstrating cell-cycle pathway convergence during malignant progression [PMID:31263031](../papers/31263031.md)
+- CDK4 amplification in Rh-30 rhabdomyosarcoma PDX was not retained between paired diagnosis and relapse PDXs, highlighting passage/selection effects in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -167,5 +168,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

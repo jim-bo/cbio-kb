@@ -33,6 +33,7 @@ processed_at: 2026-05-16
 - Discussed as a known therapeutic-target gene in AML; KMT2A-rearranged disease is a candidate for DOT1L inhibitors; co-listed with TET2, BCL2, EZH2, KDM1A, and DOT1L as epigenetic targets in the Beat AML (aml_ohsu_2018) cohort [PMID:30333627](../papers/30333627.md)
 - Detected as a somatic alteration in metastatic panNET (n=80 patients); KMT2A is among the chromatin-remodeling/histone methyltransferase genes recurrently altered in this cohort [PMID:30687805](../papers/30687805.md)
 - An AFF1-KMT2A fusion confers dependence on AFF1 in cancer cell lines, identified via cross-referencing with RNAi loss-of-function data in the CCLE cancer cell line encyclopedia [PMID:31068700](../papers/31068700.md).
+- Fusions detected in all MLL-ALL PDX models in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -102,5 +103,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: PAX3
 aliases: []
 cancer_types: [ARMS, RMS]
 tags: [fusion, pediatric, sarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PAX3
@@ -19,6 +19,7 @@ PAX3 is a paired-box transcription factor. PAX3::[FOXO1](../genes/FOXO1.md) fusi
 - PAX3::[FOXO1](../genes/FOXO1.md) [ARMS](../cancer_types/ARMS.md) had worse prognosis and affected older children than [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md) (HR 3.45, P=.016) [PMID:37315267](../papers/37315267.md).
 - PAX3::[FOXO1](../genes/FOXO1.md) fusion — pathognomonic driver in FP-RMS; detected in 16/18 FP-RMS patients in a multi-institutional sequential genomic study (MSKCC + Institut Curie); detected in ctDNA at diagnosis in 100% of cases and at relapse in 86% of cases; fusion read counts quantified by UMIs correlate with disease burden and predict relapse [PMID:37730754](../papers/37730754.md).
 - Defining translocation partner in [ARMS](../cancer_types/ARMS.md) rhabdomyosarcoma: t(2;13) produces PAX3-FOXO1 fusion (n=35); alternative fusions PAX3-NCOA1 (RMS235, RMS2031) and PAX3-INO80D (RMS2046) identified in tumors classified as fusion-negative by RT-PCR [PMID:24436047](../papers/24436047.md)
+- PAX3-[FOXO1](../genes/FOXO1.md) fusion present in all Fusion+ ARMS PDX models in the PPTC cohort (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ PAX3 is a paired-box transcription factor. PAX3::[FOXO1](../genes/FOXO1.md) fusi
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

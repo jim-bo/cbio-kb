@@ -9,7 +9,7 @@ tags:
   - gene-expression
   - intrinsic-subtype
   - classifier
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ PAM50 is a 50-gene RT-PCR-based expression assay that classifies breast tumors i
 ## Used by
 
 - Applied to 1,980 METABRIC patients with copy-number and gene-expression data (Molecular Dataset subset of n=3,240 total) to assign intrinsic subtypes used alongside IntClust integrative subtypes in a multistate Markov model of breast cancer recurrence trajectories ([brca_metabric](../datasets/brca_metabric.md)) [PMID:30867590](../papers/30867590.md)
+- Custom NanoString PAM50 codeset on FFPE tissue from 14 buparlisib- and 12 alpelisib-trial tumors; luminal A classification showed a trend toward enrichment in clinical-benefit patients (p=0.07); luminal A predicted response to both PI3K inhibitors in 170/121 PDX models [PMID:31552290](../papers/31552290.md).
 
 ## Notes
 
@@ -32,3 +33,6 @@ PAM50 is a 50-gene RT-PCR-based expression assay that classifies breast tumors i
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -48,6 +48,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - MLH1 mutations found in 3 of 80 metastatic panNET patients (OncoKB Level 4); two of three post-alkylator hypermutated tumors acquired mismatch-repair gene mutations including MLH1, representing chemotherapy-induced MMR deficiency [PMID:30687805](../papers/30687805.md)
 - MLH1 promoter hypermethylation found in 17/65 (26%) MSI cancer cell lines in the CCLE; MLH1 hypermethylation is the dominant mechanism of MMR silencing in MSI lines without truncating MSH2 mutations. [PMID:31068700](../papers/31068700.md)
 - Significantly reduced transcript and protein expression (by IHC) in UTUC vs UCB in the absence of germline or somatic mutations; insufficient reduction to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
+- Germline variants detected in 15/90 (16.7%) of R/M adenoid cystic carcinoma cases at MSKCC; all tumors remained microsatellite-stable despite germline MMR variants [PMID:31483290](../papers/31483290.md).
 
 ## Cancer types (linked)
 
@@ -155,5 +156,8 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

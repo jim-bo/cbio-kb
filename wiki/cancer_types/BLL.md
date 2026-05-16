@@ -5,7 +5,7 @@ main_type: Leukemia
 parent: LEUK
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # B-Lymphoblastic Leukemia/Lymphoma (BLL)
@@ -25,6 +25,7 @@ B-Lymphoblastic Leukemia/Lymphoma (BLL) is an aggressive hematologic malignancy 
 - Both subtypes show activation of Ras and PI3K signaling (elevated pERK, pmTOR, pS6) [PMID:23334668](../papers/23334668.md).
 - DUX4/ERG B-ALL subtype identified in 141/1913 (7.6%) B-progenitor ALL cases (St. Jude/COG multi-center cohort); defined by IGH-DUX4 rearrangement (100%) and focal RAG-mediated ERG deletions (55.6%); expresses dominant-negative ERGalt isoform; associated with favorable outcome despite IKZF1 alterations in 36.7% of cases; transcriptome or genome sequencing required for reliable detection [PMID:27776115](../papers/27776115.md).
 - PIPseq cohort identified BCR-ABL1-like RNA-seq signature leading to NUP214-ABL1 fusion detection in a relapsed BLL patient (addition of dasatinib produced deep remission enabling curative bone-marrow transplant); also FOXP1-ABL1, SMARCC2-PDGFRB, JAK1 K1026E, STAT5B I704L, and NT5C2 D407Y pharmacogenomic variant conferring nucleoside-analog resistance [PMID:28007021](../papers/28007021.md)
+- In PPTC BCP-ALL PDX models (n=261 total cohort): homozygous CDKN2A/CDKN2B deletions in 45–48%; RAS-pathway mutations (KRAS 30%, NRAS 18%); JAK-STAT alterations in 15%; KMT2D altered in 15%; fusion transcripts in 78% (ETV6 27%, PAX5 18%, CRLF2 6%); Ph-like/Ph+ ALL subgroup also represented [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -48,3 +49,6 @@ B-Lymphoblastic Leukemia/Lymphoma (BLL) is an aggressive hematologic malignancy 
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

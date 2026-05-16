@@ -30,6 +30,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - JAK2 (9p24.1 locus) simultaneously perturbed by mutation, copy gain, and structural variants in DLBCL; co-locus with CD274/PDCD1LG2 as a candidate cancer gene in 304-patient WES cohort. [PMID:29713087](../papers/29713087.md)
 - Loss-of-function alteration in JAK/STAT pathway; rare in pre-treatment tumors in this pooled ICB cohort (193 patients across melanoma, NSCLC, bladder, HNSCC, and other cancer types), consistent with intrinsic rather than acquired resistance mechanisms [PMID:30150660](../papers/30150660.md)
 - JAK2 V617F variants are used as a clonal-hematopoiesis filter in glioma genomic profiling: JAK2 V617F calls are removed wherever observed to exclude CH-attributable variants from somatic and germline analyses [PMID:31263031](../papers/31263031.md).
+- JAK2 or JAK3 alterations in 15% of BCP-ALL models; JAK1 or JAK2 lesions in 24% of ETP-ALL/T-ALL models; JAK2 rearrangements in 55% (12/22) of Ph-like ALL models in the PPTC pediatric cancer PDX panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -89,5 +90,8 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

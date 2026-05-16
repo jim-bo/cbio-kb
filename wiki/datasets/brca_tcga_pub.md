@@ -20,7 +20,7 @@ tags:
   - multi-platform
   - intrinsic-subtypes
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # TCGA Breast Invasive Carcinoma (TCGA, Nature 2012)
@@ -55,6 +55,7 @@ Landmark multi-platform molecular characterization of 825 primary breast cancers
 - ~20% of Basal-like tumors carry germline and/or somatic BRCA1/BRCA2 variants, identifying a population potentially amenable to [olaparib](../drugs/olaparib.md) and platinum therapy [PMID:23000897](../papers/23000897.md).
 - Cross-species transcriptome concordance: 297 of 1,469 genes up-regulated in rat Pik3caH1047R/Tp53Indel tumors also enriched in TCGA [PIK3CA](../genes/PIK3CA.md)+[TP53](../genes/TP53.md) vs PIK3CA-only/WT-TP53 breast cancers (Fisher's p<1×10^-14) [PMID:26437033](../papers/26437033.md)
 - Used as the 772-sample primary breast cancer reference cohort (419 HR+/HER2−, 100 HR−/HER2−, 145 HER2+) for comparison against 216 metastatic breast cancers; APOBEC signatures (2+13) contributed 31.9% of mutations in HR+/HER2− primary samples vs 58.8% in HR+/HER2− metastatic tumors (p<2e-16) [PMID:28027327](../papers/28027327.md)
+- Used as a public reference cohort (n=959 RNA-seq) to show that PIK3CA + MAP3K1 co-altered tumors are significantly enriched for luminal A PAM50 subtype (p<0.0001), supporting the hypothesis that MAP3K1 loss is a surrogate for luminal A biology rather than a direct PI3K-sensitivity driver [PMID:31552290](../papers/31552290.md).
 
 ## Sources
 
@@ -67,3 +68,6 @@ Landmark multi-platform molecular characterization of 825 primary breast cancers
 - [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

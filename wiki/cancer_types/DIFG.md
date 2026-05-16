@@ -4,7 +4,7 @@ oncotree_code: DIFG
 main_type: Glioma
 parent: GLIOMA
 tags: [glioma, cns]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -36,6 +36,7 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - DIFG (glioma) was the clearest exception to the pan-cancer TMB–OS benefit: high TMB was not associated with improved overall survival in glioma patients treated with ICI, possibly due to temozolomide-induced subclonal mutations or CNS-specific immune biology. [PMID:30643254](../papers/30643254.md)
 - In 85 adult DIFG patients profiled by MSK-IMPACT CSF liquid biopsy, ctDNA was detected in 42/85 (49.4%) CSFs; positivity carried HR 4.16 (95% CI 2.15–8.05, p=2.43×10⁻⁵) for death and was concordant with truncal IDH1/TP53/ATRX/TERT/1p19q alterations in 100% of non-hypermutated cases. [PMID:30675060](../papers/30675060.md)
 - MSK prospective glioma cohort (923 patients / 1,004 tumors); 13% germline pathogenic-variant rate (DNA-repair-enriched); CDKN2A/B cell-cycle alterations are IDH-independent drivers of malignant progression (HR=2.6 at recurrence); alkylator-induced hypermutation more common in IDH-mutant (29% vs 12%, P=0.004) and MGMT-methylated (30% vs 10%, P=0.006) tumors [PMID:31263031](../papers/31263031.md).
+- DIFG/DMG PDX models in the PPTC cohort included histone H3-wild-type DIPG (n=2); both DIPG models expressed H3.3 at high levels (FPKM >50) but lacked canonical H3.1/H3.3 mutations [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -70,5 +71,8 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

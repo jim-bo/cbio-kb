@@ -67,6 +67,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM altered in 7% of mCRPC tumors; as part of the homologous-recombination repair gene set (with BRCA2, BRCA1), no association with survival or time on ARSI was detected in this 429-patient tumor cohort (composite P=0.495/0.611), contrasting with prior cfDNA-based findings [PMID:31061129](../papers/31061129.md)
 - ATM recurrently mutated in high-grade UTUC at a frequency not significantly different from TCGA UCB; identified among DNA-damage response genes in the genomic landscape of upper tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
 - ATM among clonal-hematopoiesis filter genes used to exclude CH-attributable variants from germline calls in the 923-patient glioma MSK-IMPACT cohort; somatic ATM mutations were scrutinized to avoid false-positive germline designation [PMID:31263031](../papers/31263031.md)
+- DNA damage repair gene enriched in recurrent/metastatic adenoid cystic carcinoma vs. primaries (OR 4.22, P=0.016) in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
+- ATM loss flags PDX models suitable for ATR inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -231,5 +233,11 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

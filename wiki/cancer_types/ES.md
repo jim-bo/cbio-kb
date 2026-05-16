@@ -32,6 +32,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - EWSR1::BEND2 in-frame fusion sarcoma of the bladder initially diagnosed as extraskeletal Ewing sarcoma based on CD99 positivity and EWSR1 FISH; RNA-seq identified BEND2 (not an ETS family gene) as partner — reclassifying to EWSR1-non-ETS undifferentiated sarcoma per WHO 2020 [PMID:28199314](../papers/28199314.md)
 - In the MSK-IMPACT pan-cancer cohort, EWSR1-FLI1 was detected in 25 Ewing sarcoma (ES) cases — the 4th most common rearrangement overall (after TMPRSS2-ERG n=151, EGFRvIII n=65, EML4-ALK n=38); ES was included among 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 - ES (Ewing sarcoma) was used as a 3D model test bed; A673 spheroids in anchored-droplet microfluidic chips yielded IC50 measurements for cisplatin + etoposide combinations consistent with 96-well plates, and synergy was greater when etoposide preceded cisplatin. [PMID:30643250](../papers/30643250.md)
+- Ewing sarcoma PDX models in PPTC cohort: EWSR1-FLI1 fusion in all RNA-seq-profiled models; TP53 mutations in 7/10 (70%); homozygous CDKN2A/B loss in 60% (mutually exclusive with STAG2 mutations 20%); CHLA-258 additionally harbored FLI1-RP11-9L18.2 [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -68,5 +69,8 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

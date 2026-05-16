@@ -21,6 +21,7 @@ Folinic acid; potentiates [fluorouracil](fluorouracil.md) thymidylate synthase i
 - Leucovorin is a component of FOLFIRINOX ([fluorouracil](../drugs/fluorouracil.md) + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + leucovorin), used in 38% of the curated 1,480-patient MSK PDAC cohort as first-line systemic therapy; chemotherapy backbone choice was not significantly associated with [OS](../cancer_types/OS.md) in 304 metastatic patients [PMID:39753968](../papers/39753968.md).
 - Mentioned in HCC comprehensive molecular landscape review as part of chemotherapy context for hepatocellular carcinoma systemic treatment [PMID:24798001](../papers/24798001.md)
 - Component of FOLFOX regimen (5-FU + leucovorin + oxaliplatin) used as alternative first-line chemotherapy in advanced cholangiocarcinoma (n=195 cohort); primary standard was gemcitabine/platinum [PMID:29848569](../papers/29848569.md)
+- Component of FOLFOX (5-FU + leucovorin + oxaliplatin) regimen used in ex vivo and in vivo rectal cancer tumoroid sensitivity assays; ex vivo FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md)
 
 ## Resistance mechanisms
 
@@ -41,5 +42,8 @@ Folinic acid; potentiates [fluorouracil](fluorouracil.md) thymidylate synthase i
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

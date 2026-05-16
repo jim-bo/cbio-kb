@@ -91,6 +91,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Activating hotspot mutations (S310, L755, D769) >2x enriched in post-endocrine-therapy HR+ breast cancer specimens (p=3x10^-5); 82% of post-progression ERBB2 mutations pre-existed in matched primaries; functional resistance driver [PMID:30205045](../papers/30205045.md)
 - Altered in 15% of secondary muscle-invasive bladder cancer (MIBC); highlighted as an actionable target for HER2-directed agents in the neoadjuvant setting [PMID:30290956](../papers/30290956.md)
 - Central to IHC stratification in METABRIC 20-year relapse analysis (ER+/HER2+, ER+/HER2−, ER−/HER2+, ER−/HER2−); IntClust5 (HER2-amplification enriched) has the highest overall relapse probability (0.65 at 20 years) across all integrative subtypes [PMID:30867590](../papers/30867590.md)
+- Patients were HER2-negative (HER2-) by eligibility criteria in the buparlisib + letrozole phase II trial for ER+/HER2- metastatic breast cancer [PMID:31552290](../papers/31552290.md)
 
 ## Cancer types (linked)
 
@@ -293,5 +294,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

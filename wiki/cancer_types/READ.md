@@ -33,6 +33,7 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for READ [PMID:29625055](../papers/29625055.md)
 - MSI-H detected in 5.7% of rectal adenocarcinoma cases by MANTIS WES caller; MSI prevalence lower than colon adenocarcinoma (19.7%), consistent with known biology [PMID:29850653](../papers/29850653.md)
+- 65 rectal adenocarcinoma (READ) tumoroids from 41 patients (77% derivation success rate) faithfully recapitulated mutation landscapes of APC, TP53, KRAS, FBXW7; 92% of oncogenic mutations preserved; ex vivo 5-FU/FOLFOX sensitivity correlated with patient PFS (Spearman r=0.86, p=0.024) across 7 patients with mature follow-up [PMID:31591597](../papers/31591597.md).
 
 ## Subtypes
 
@@ -81,5 +82,8 @@ No molecular subtyping data from the corpus specific to READ yet.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

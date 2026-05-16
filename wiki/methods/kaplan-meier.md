@@ -25,6 +25,7 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Kaplan-Meier OS analysis in 1,662 ICI-treated advanced cancer patients showed top-20%-by-histology TMB-high group HR 0.52 (95% CI 0.42–0.64); no OS benefit for high TMB in 5,371 non-ICI-treated patients (HR 1.12, p = 0.11) [PMID:30643254](../papers/30643254.md)
 - Used for survival analysis in 429 mCRPC patients; log-rank tests compared OS curves; Nestin-positive vs. Nestin-negative groups and PLC transcriptomic cluster comparisons were evaluated [PMID:31061129](../papers/31061129.md)
 - Applied in the pan-Asia cHCC-ICC study (133 cases); Nestin-positive (n=104) vs. Nestin-negative median OS was 18.7 mo vs. 46.6 mo (p<0.0001, log-rank); PLC transcriptomic clusters P1/P2 had significantly poorer prognosis than P3/P4 (p<0.0001) [PMID:31130341](../papers/31130341.md)
+- PFS analysis by Kaplan-Meier with log-rank testing stratified by PIK3CA and MAP3K1 genotype in 33 metastatic ER+/HER2- breast cancer patients; MAP3K1 alteration improved PFS (p=0.03), PIK3CA alteration improved PFS (p=0.009); co-alteration showed greatest benefit (p=0.02 trend test) [PMID:31552290](../papers/31552290.md).
 
 ## Notes
 
@@ -54,5 +55,8 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

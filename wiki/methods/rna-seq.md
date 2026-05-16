@@ -120,6 +120,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Deep RNA-seq applied across 1,019 of the 1,072 CCLE cancer cell lines as part of the multi-omic CCLE expansion; integrated with [shRNA / sgRNA](../methods/shrna-rnai-screen.md) dependency data to identify MDM4 exon-6 splicing as a predictor of nutlin-3a sensitivity [PMID:31068700](../papers/31068700.md)
 - Applied to 97 tumors / 77 cases from the pan-Asia cHCC-ICC cohort (133 cases); transcriptomic data used to define four PLC clusters (P1–P4, n=367 including TCGA reference) and identify Nestin as a prognostic biomarker [PMID:31130341](../papers/31130341.md)
 - Applied to 32 UTUC tumors (WCM n=17; BCM-MDA n=15) aligned with [STAR](../methods/star-aligner.md); used for luminal subtype calling, T-cell inflamed/depleted immune classifier, and outlier FGFR3 overexpression analysis [PMID:31278255](../papers/31278255.md)
+- TCGA PRAD bulk RNA-seq (limma voom differential expression on RSEM-normalized Firebrowse data) used to identify SLC16A1 and LDHA as significantly upregulated in prostate tumor vs. matched normal, pinning MCT1 as the rate-limiting driver of the hyperpolarized lactate signal [PMID:31564440](../papers/31564440.md).
+- Strand-specific poly-A+ RNA-seq on 244 PPTC PDX models; combined with deFuse, FusionCatcher, STAR-Fusion, and SOAPfuse for fusion calling; GSEA applied on Hallmark and TissGDB/TiGER gene sets to characterize pathway enrichment by histology [PMID:31693904](../papers/31693904.md).
+- TCGA breast cancer RNA-seq (brca_tcga_pub, n=959) used for PIK3CA/MAP3K1 luminal-correlate analysis and PIK3CA-GS scoring; PIK3CA + MAP3K1 co-mutated tumors showed significantly higher correlation to luminal A vs luminal B PAM50 centroid (p<0.0001) [PMID:31552290](../papers/31552290.md).
 
 ## Notes
 
@@ -412,5 +415,14 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

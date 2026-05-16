@@ -49,6 +49,7 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - CDKN2B mutated in 7% of gallbladder carcinoma; co-occurrence trend with CDKN2A due to chromosome 9 adjacency [PMID:30427539](../papers/30427539.md)
 - CDKN2B homozygous deletions are among the most frequently detected alterations in glioma CSF ctDNA; typically co-deleted with CDKN2A; detected with high concordance to matched tumour tissue in 85-patient MSK cohort [PMID:30675060](../papers/30675060.md)
 - Focal deletions (jointly with CDKN2A) are the dominant cell-cycle alteration in malignant-progression and contrast-enhancing 1p19q-intact IDH-mutant gliomas; CDKN2A/B alterations enriched in higher-grade IDH-WT disease; one patient with primary RB1 mutation later acquired CDKN2A/B loss at recurrence and died within 11-15 months [PMID:31263031](../papers/31263031.md)
+- Homozygous 9p deletions (co-deleted with CDKN2A) in 45–48% of BCP-ALL, 72–76% of T-ALL/ETP-ALL, 45% of Ph/Ph-like ALL, and 60% of Ewing sarcoma PDX models in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -141,5 +142,8 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

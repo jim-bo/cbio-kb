@@ -4,8 +4,8 @@ oncotree_code: DMG
 main_type: Gliomas, Glioneuronal Tumors, and Neuronal Tumors
 parent: PDIFHG
 tags: [pediatric, glioma, radiation, intra-tumoral-heterogeneity]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Diffuse Midline Glioma, H3 K27-Altered (DMG)
@@ -25,6 +25,7 @@ No corpus-specific gene-level variant frequencies are reported; KIDSROBIN target
 
 - DMG is noted for relatively low mutational burden, making it a genetically simple model for deep mechanistic study of RT response. [PMID:41941260](../papers/41941260.md)
 - ICGC PedBrain pilocytic astrocytoma WGS study found one [PAST](../cancer_types/PAST.md) case (ICGC_PA69) with the [FGFR1](../genes/FGFR1.md) + [H3-3A](../genes/H3-3A.md) K27M + [NF1](../genes/NF1.md) triple-mutation constellation classified as histologically ambiguous between PAST and diffuse midline glioma; H3-3A K27M co-occurred with FGFR1 activation in 3/48 pediatric [GB](../cancer_types/GB.md) samples from an independent cohort [PMID:23817572](../papers/23817572.md)
+- Two H3-wild-type DIPG PDX models in the PPTC cohort (n=261): IBs-W0128DIPG carried NRAS G13R, CIC C102Y, and KMT2C C988F variants; both expressed H3.3 at FPKM >50 without canonical K27M/G34R mutations [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -42,3 +43,6 @@ No molecular subtypes distinguished in the corpus beyond the H3 K27-altered defi
 - [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

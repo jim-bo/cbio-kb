@@ -4,8 +4,8 @@ oncotree_code: ATRT
 main_type: Embryonal Tumor
 parent: EMBT
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor (ATRT)
@@ -21,6 +21,7 @@ Atypical teratoid/rhabdoid tumor (ATRT) is a highly aggressive embryonal CNS tum
 ## Recurrent alterations
 
 - PIPseq cohort: [ASCL1](../genes/ASCL1.md) overexpression with 22q11.21 LOH including SMARCB1 identified as diagnostic of ATRT and prognostic for improved outcome (consistent with ATRT-TYR subtype); RNA-seq provided the expression-based subtype classification [PMID:28007021](../papers/28007021.md).
+- All ATRT PDX models in the PPTC cohort (n=261) carried inactivating alterations of SMARCB1 and/or SMARCA4; subtype breakdown: SHH (n=3) and MYC (n=3); hedgehog, TNFα, and p53 signaling enriched; relapse-derived PDXs had higher TMB [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Atypical teratoid/rhabdoid tumor (ATRT) is a highly aggressive embryonal CNS tum
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

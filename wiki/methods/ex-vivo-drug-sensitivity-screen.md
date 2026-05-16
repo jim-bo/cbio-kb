@@ -9,7 +9,7 @@ tags:
   - drug-screen
   - ex-vivo
   - pharmacogenomics
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ An ex vivo drug sensitivity screen tests primary patient tumor or bone marrow ce
 ## Used by
 
 - The Beat [AML](../cancer_types/AML.md) platform screened 409 of 672 primary AML specimens (363 patients) within 24 hours of sample isolation against a panel of 122 small-molecule inhibitors; AUC was computed per drug. Integration with matched whole-exome sequencing and RNA-seq data identified single-gene and combinatorial mutation-specific sensitivities (e.g. FLT3-ITD + [NPM1](../genes/NPM1.md) → ibrutinib/entospletinib; [BCOR](../genes/BCOR.md) + [RUNX1](../genes/RUNX1.md) → JAK inhibitors); 64/122 drugs were significantly more sensitive in de novo vs transformed AML cases (FDR<0.1) [PMID:30333627](../papers/30333627.md).
+- Ex vivo chemosensitivity screening of 65 rectal cancer tumoroids against 5-FU, FOLFOX, and ionizing radiation; ex vivo AUC correlated with patient PFS (Spearman r=0.86, p=0.024); radiation resistance ex vivo tracked with clinical non-response; tumoroids derived from as little as 2.8 mm biopsy [PMID:31591597](../papers/31591597.md).
 
 ## Notes
 
@@ -35,3 +36,6 @@ An ex vivo drug sensitivity screen tests primary patient tumor or bone marrow ce
 - [PMID:30333627](../papers/30333627.md) — Tyner et al. 2018, Beat AML multi-omics drug-sensitivity profiling ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)).
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

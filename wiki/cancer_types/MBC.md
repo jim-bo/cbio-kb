@@ -27,6 +27,7 @@ Metaplastic Breast Cancer (MBC) is a rare and aggressive subtype of invasive bre
 - In mouse mammary models, KrasG12D, PIK3CA-H1047R, and PIK3CA-H1047R+[TP53](../genes/TP53.md) Indel editing consistently produced ER-/PR- metaplastic tumors with squamous differentiation, while the same edits in rats yielded ER+ ductal carcinoma — illustrating species-dependent lineage plasticity and suggesting that the metaplastic phenotype is not driven exclusively by specific oncogene combinations but by species/cell-of-origin context [PMID:26437033](../papers/26437033.md).
 - Lenti-HrasQ61L intraductal delivery also produced ER-/PR- metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, reinforcing the context-dependency of metaplastic transdifferentiation [PMID:26437033](../papers/26437033.md).
 - TNBC/MBC comprised 19.8% of the Korean SMC breast cohort; 87.5% of SMC TNBC carried TP53 mutations and 85% were HRD-positive (S3 signature score >0.2), significantly higher than 52% of TCGA TNBC (p=7e-4); elevated BRCA1/BRCA2 germline burden supports PARP inhibitor evaluation [PMID:29713003](../papers/29713003.md)
+- Phase Ib trial of buparlisib + letrozole enrolled 33 patients with ER+/HER2- metastatic breast cancer (MBC); PIK3CA activating mutations and MAP3K1 loss-of-function mutations each independently associated with clinical benefit; MAP3K1 mutations track with luminal A PAM50 subtype rather than acting as direct PI3K-sensitizers [PMID:31552290](../papers/31552290.md).
 
 ## Subtypes
 
@@ -42,5 +43,8 @@ Metaplastic Breast Cancer (MBC) is a rare and aggressive subtype of invasive bre
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

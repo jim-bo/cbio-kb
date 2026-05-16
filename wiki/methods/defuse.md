@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [fusion-calling, rna-seq, bioinformatics]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # deFuse
@@ -22,6 +22,7 @@ deFuse is a computational tool for fusion gene discovery from RNA-seq data. It u
 - DeFuse used alongside FusionMap for fusion transcript detection in 25 TETs; identified 7 tumors with 1–16 fusions per case, including the known BRD4-NUTM1 fusion in the TY82 thymic carcinoma cell line [PMID:24974848](../papers/24974848.md)
 - deFuse used for fusion-gene detection in periampullary tumor RNA-seq data; identified two non-recurrent fusions — SLC45A3–ELK4 and a LINE–MET fusion — among 160 periampullary tumors [PMID:26804919](../papers/26804919.md)
 - Used alongside PRADA for fusion-gene discovery across 649 diffuse glioma RNA-seq profiles in the TCGA pan-glioma study; fusions combined with mutations and CNAs for pathway-level alteration mapping [PMID:26824661](../papers/26824661.md)
+- One of four fusion-calling algorithms combined (with FusionCatcher, STAR-Fusion, SOAPfuse) to generate 925 high-confidence fusions and 92 known oncogenic driver fusions across 261 pediatric PDX models in the PPTC dataset [PMID:31693904](../papers/31693904.md).
 
 ## Notes
 
@@ -43,3 +44,6 @@ deFuse is a computational tool for fusion gene discovery from RNA-seq data. It u
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

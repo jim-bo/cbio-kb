@@ -60,6 +60,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC identified as a germline pathogenic/likely-pathogenic carrier gene in metastatic panNET (80-patient MSK-IMPACT cohort); classified as low- or moderate-penetrance germline variant [PMID:30687805](../papers/30687805.md)
 - APC stop-gain and frameshift mutations identified in proteogenomic colon cancer cohort (n=110); reduced abundance of downstream phosphosite APC-T2451 observed in mutant tumors [PMID:31031003](../papers/31031003.md)
 - APC recurrently altered in mCRPC tumors but not significantly prognostic for survival or time on first-line ARSI in a 429-patient whole-exome/RNA-seq cohort [PMID:31061129](../papers/31061129.md)
+- Most frequently mutated gene in both the 65-tumoroid rectal cancer biorepository and the matched 287-patient MSK clinical cohort (rectal_msk_2019), consistent with canonical Wnt-pathway loss in rectal adenocarcinoma [PMID:31591597](../papers/31591597.md)
 
 ## Cancer types (linked)
 
@@ -200,5 +201,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -81,6 +81,10 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Applied as matched tumor-normal hybridization-capture NGS platform to sequence 96 samples from 80 metastatic panNET patients at MSK; somatic alterations detected in 95% of patients [PMID:30687805](../papers/30687805.md)
 - Used alongside MSK-HemePACT and whole-exome sequencing for genomic profiling of histiocytic neoplasm patients in the cobimetinib phase 2 trial (n=18); MAPK-pathway mutations identified in 83% of patients [PMID:30867592](../papers/30867592.md)
 - Used for prospective paired tumor-normal sequencing of 837 of 1,004 adult glioma tumors (923 patients) at MSKCC, July 2013–July 2017; detected SNVs, indels, CNVs, and fusions across cancer-associated coding exons in the [glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md) cohort [PMID:31263031](../papers/31263031.md)
+- Applied to 94 MSKCC R/M ACC cases (410- or 468-gene panels, median exon coverage >×600); identified NOTCH1 mutations in 26.3% of R/M cases and enabled multiregion ITH validation showing depth-downsampling to ×100 lost only 1/101 enriched mutations [PMID:31483290](../papers/31483290.md).
+- Prospective clinical 468-gene sequencing (IMPACT468) of 12 prostate cancer patients pre-radical prostatectomy; identified homozygous PTEN loss (n=2 ROIs) and TMPRSS2-ERG fusions; PTEN loss tracked with highest hyperpolarized lactate (P=0.059) [PMID:31564440](../papers/31564440.md).
+- IMPACT341 (341-gene) targeted NGS on pre-study FFPE biopsies or archival tissue from 33 ER+/HER2- metastatic breast cancer patients in a buparlisib + letrozole phase Ib trial; identified PIK3CA activating mutations and MAP3K1 loss-of-function mutations as independent clinical-benefit predictors [PMID:31552290](../papers/31552290.md).
+- Custom FDA-cleared tumor profiling panel (contemporaneous IMPACT468 gene list) used on 31 rectal cancer tumoroid lines; top mutated genes (APC, TP53, KRAS, FBXW7) mirrored those in matched 287-patient clinical MSK rectal-cancer cohort [PMID:31591597](../papers/31591597.md).
 
 ## Notes
 
@@ -231,5 +235,17 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

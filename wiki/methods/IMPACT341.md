@@ -41,6 +41,7 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - One of three MSK-IMPACT panel versions (341, 410, or 468 genes) used with matched germline normal sequencing to define somatic TMB in 1,662 ICI-treated advanced cancer patients; TMB-high on these panels was independently predictive of OS (HR 0.61, p = 1.3 × 10⁻⁷) [PMID:30643254](../papers/30643254.md)
 - Glioma tissue biopsies sequenced using IMPACT341, IMPACT410, or IMPACT468 for a benchmark cohort of 553 MSKCC glioma biopsies from 512 patients; results used to compare CSF ctDNA TMB (4.90 mut/Mb) against matched tissue (4.46 mut/Mb) [PMID:30675060](../papers/30675060.md)
 - Used for targeted tumor-normal sequencing of 96 panNET samples from 80 patients at MSK (17% of samples sequenced on IMPACT410, 59% on IMPACT468), achieving median depth 665.5× [PMID:30687805](../papers/30687805.md)
+- 341-gene MSK-IMPACT panel applied to pre-study biopsies from 33 ER+/HER2- metastatic breast cancer patients; PIK3CA + MAP3K1 co-alteration identified in 5/7 (71%) clinical-benefit patients vs. 11% in double-wild-type, the highest CBR observed [PMID:31552290](../papers/31552290.md).
 
 ## Notes
 
@@ -110,5 +111,8 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -34,6 +34,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Promoter mutations in 22.9% of cHCC-ICC cases (C228T hotspot); most recurrent HBV-integration site in cHCC-ICC; TERT gain/amplification in 19% of cHCC-ICC cases; intermediate promoter mutation rate flagged for validation in larger Chinese HCC/ICC cohorts [PMID:31130341](../papers/31130341.md)
 - Promoter mutations in 16.7% of 503 cancer cell lines (most common non-coding somatic alteration in the CCLE dataset) [PMID:31068700](../papers/31068700.md)
 - TERT promoter and canonical glioma subtype-defining lesions (alongside CIC, FUBP1, ATRX) show stable frequencies across primary vs. recurrent specimens in a 923-patient glioma cohort (MSK-IMPACT) [PMID:31263031](../papers/31263031.md)
+- TERT promoter mutations in 13.1% of recurrent/metastatic adenoid cystic carcinoma cases; mutually exclusive with NOTCH1 mutation (q=3.3×10⁻⁴) and MYB/MYBL1 fusions, defining a distinct molecular subgroup (MYBᵂᵀTERT⁺) with unique survival profile [PMID:31483290](../papers/31483290.md).
+- TERT rearrangements linked to chromosome 5 chromothripsis in neuroblastoma PDX models, associated with high breakpoint density; neuroblastoma chromothripsis on chromosomes 2, 5, 16, 17, and 19 linked to MYCN amplification, TERT rearrangement, and 17q gain [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -106,3 +108,9 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

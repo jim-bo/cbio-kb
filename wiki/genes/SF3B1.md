@@ -41,6 +41,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - SF3B1 K700E used as the empirical AC=16 cutoff for the 'Common in ExAC' filter in the TCGA MC3 mutation calling pipeline — highest ExAC count observed for a known clonal-hematopoiesis somatic event in the non-TCGA subset of ExAC v0.3.1 [PMID:29596782](../papers/29596782.md)
 - SF3B1 mutated in 1.1% of a 1,013-sample prostate cancer cohort; mutations cluster in C-terminal HEAT repeats. First significant nomination of splicing-factor mutations as a recurrent prostate-cancer alteration alongside U2AF1 [PMID:29610475](../papers/29610475.md)
 - Identified as a candidate novel glioma driver from a 3,130-sample meta-analysis integrated within a 923-patient MSK-IMPACT glioma genomic profiling cohort [PMID:31263031](../papers/31263031.md)
+- Subclonal SF3B1 mutation identified in a divergent metastatic cluster during multiregion sequencing of adenoid cystic carcinoma; implicated in metastasis in other tumor types [PMID:31483290](../papers/31483290.md).
 
 ## Cancer types (linked)
 
@@ -137,3 +138,6 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

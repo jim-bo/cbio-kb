@@ -57,6 +57,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Central histopathologic review of 444 mCRPC biopsies used to classify 88.8% as adenocarcinoma vs. 3.8% pure NEPC/SCLC; IHC also used to quantify neuroendocrine differentiation (NE features in 10.5% of post-ARSI tumors vs. 2.3% ARSI-naive) [PMID:31061129](../papers/31061129.md)
 - Nestin ([NES](../genes/NES.md)) IHC performed on 128 cHCC-ICC, 99 HCC, and 86 ICC cases; 81.3% (104/128) of cHCC-ICC cases were NES-positive vs. significantly lower rates in HCC and ICC (p<0.001 for both) [PMID:31130341](../papers/31130341.md)
 - MMR protein IHC (MLH1, PMS2, MSH2, MSH6) on 16 WCM UTUC vs. 14 stage-matched UCB cases using Leica Bond III stainer with HALO H-score; MMR H-scores significantly lower in UTUC (composite P=1.9×10⁻⁵) despite no MSI [PMID:31278255](../papers/31278255.md)
+- MCT1 (SLC16A1) IHC at 1:100 dilution on whole-mount prostatectomy step sections confirmed upregulation in tumor regions across all 12 prostate cancer patients; ROIs with >30% MCT1-positive cells had Lac_max 60% higher than low-MCT1 ROIs (0.38±0.3 vs. 0.23±0.04, P=0.028) [PMID:31564440](../papers/31564440.md).
+- H&E plus IHC on whole-mount step-section prostatectomies used to validate histopathology fidelity of 65 rectal cancer tumoroids against parental tumors; tumoroids retained morphology and oncogenic mutation profiles of source tissue [PMID:31591597](../papers/31591597.md).
 
 ## Notes
 
@@ -175,5 +177,11 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

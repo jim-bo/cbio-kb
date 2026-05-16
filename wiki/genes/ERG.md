@@ -34,6 +34,7 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - **TMPRSS2-ERG** is the most-recurrent intra-cancer fusion overall in the TCGA pan-cancer fusion landscape (38.2% of [PRAD](../cancer_types/PRAD.md) samples, 205 samples flagged druggable); the fusion yields modest neoantigen yield in only a small subset of carriers [PMID:29617662](../papers/29617662.md).
 - TMPRSS2-ERG fusions occur in 70% of early-onset prostate cancer (EOPC) tumors; ERG has the highest exclusion score in the PRESCIENT model and is the most frequent initiating event, often arising from APOBEC-associated SV breakpoints (292-case WGS cohort) [PMID:30537516](../papers/30537516.md)
 - ERG ETS-family fusions are mutually exclusive with ETV1, SPOP, and FOXA1 in mCRPC; co-occurs with PTEN alteration; not independently prognostic on ARSI in a 429-patient tumor biopsy cohort [PMID:31061129](../papers/31061129.md)
+- TMPRSS2-ERG gene fusion present in a subset of prostate cancer patients (called from MSK-IMPACT); did not correlate with hyperpolarized pyruvate lactate signal in a 12-patient cohort [PMID:31564440](../papers/31564440.md)
 
 ## Cancer types (linked)
 
@@ -100,5 +101,8 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

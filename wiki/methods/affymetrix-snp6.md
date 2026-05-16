@@ -67,6 +67,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Affymetrix SNP 6.0 arrays used for copy-number profiling of 10,522 TCGA pan-cancer samples; processed with ABSOLUTE to derive arm-level aneuploidy scores [PMID:29622463](../papers/29622463.md)
 - Used for somatic copy-number profiling of 9,125 TCGA PanCanAtlas tumors across 33 cancer types; processed with GISTIC 2.0 (confidence 0.95) to identify recurrent amplifications and deep deletions [PMID:29625050](../papers/29625050.md).
 - Used for somatic copy-number profiling of ~10,000 TCGA PanCancer Atlas tumors across 33 cancer types; processed with GISTIC 2.0 and ABSOLUTE for subclonal copy-number estimation [PMID:29625048](../papers/29625048.md).
+- Illumina HumanOmniExpress-24 SNP arrays run on 252 PPTC pediatric PDX models for segmentation and ancestry inference; identified high breakpoint density (chromothripsis) in 25% of models, with 97% of osteosarcomas exhibiting HBD [PMID:31693904](../papers/31693904.md).
 
 ## Notes
 
@@ -222,5 +223,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

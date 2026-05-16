@@ -24,6 +24,7 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 - The [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md) fusion is a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) 'fusion-only' tumors in a pan-cancer RNA-seq fusion analysis across TCGA. [PMID:29617662](../papers/29617662.md)
 - Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the authors caution that the same alteration class yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
 - BCR-ABL1 fusion detected in cancer cell lines; ponatinib sensitivity correlates with phospho-SHP2 (pY542) levels in AML/CML lines carrying BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
+- BCR-ABL1 fusion detected in all three Ph+ ALL patient-derived xenograft models in the PPTC PDX cohort (261 models across 37 pediatric cancer subtypes) [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -59,5 +60,8 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

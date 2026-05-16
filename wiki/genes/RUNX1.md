@@ -28,6 +28,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - Germline heterozygous splice-site c.806-2A>G in AML — diagnostic of familial platelet disorder; HLA-matched sibling and father carried the same variant, prompting selection of an unrelated donor for bone-marrow transplant [PMID:28007021](../papers/28007021.md)
 - RUNX1 deletion higher in esophageal adenocarcinoma (EAC) vs CIN gastric cancer in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 - RUNX1 mutations associated with PI3K/mTOR and VEGFR-multikinase sensitivity ex vivo in Beat AML (aml_ohsu_2018); co-mutation of RUNX1 + BCOR drove JAK-inhibitor (momelotinib, ruxolitinib, tofacitinib) sensitivity, implicating context-specific JAK-pathway dependence [PMID:30333627](../papers/30333627.md)
+- ETV6-RUNX1 fusion present in 88% of ETV6-rearranged BCP-ALL PDX models (27% of total BCP-ALL models had ETV6 fusions) in the PPTC 261-model pediatric cancer genomic characterization [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -84,5 +85,8 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

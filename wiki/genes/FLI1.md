@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # FLI1
@@ -24,6 +24,7 @@ FLI1 (Friend leukemia integration 1 transcription factor) is an ETS-family trans
 - FLI1 fusions (e.g., EWSR1-FLI1) are the canonical oncogenic driver in Ewing sarcoma, reported in this cohort study [PMID:28199314](../papers/28199314.md)
 - EWSR1-FLI1 fusion detected in n=25 Ewing sarcoma (ES) cases within the MSK-IMPACT pan-cancer cohort of 10,336 patients [PMID:28481359](../papers/28481359.md)
 - FLI1 catalogued in the TCGA pan-cancer fusion atlas (9,624 samples, 33 cancer types) as an ETS-family fusion partner; EWSR1-FLI1 is the canonical Ewing sarcoma (SARC) fusion. [PMID:29617662](../papers/29617662.md)
+- EWSR1-FLI1 canonical fusion confirmed in all RNA-seq-profiled Ewing sarcoma PDX models in the PPTC pediatric cancer PDX dataset; CHLA-258 additionally harbored an FLI1-RP11-9L18.2 fusion [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ FLI1 (Friend leukemia integration 1 transcription factor) is an ETS-family trans
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

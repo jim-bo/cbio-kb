@@ -131,6 +131,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN is among germline P/LP alleles tied to heritable cancer syndromes (with TP53, NF1, BRCA2, RB1) in glioma patients; identified in the longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
 - PTEN is frequently altered (32% within the PI3K-pathway oncoprint) in mCRPC; co-occurs with ERG; not independently prognostic on ARSI in this tumor cohort [PMID:31061129](../papers/31061129.md)
 - PTEN is a significantly mutated driver (dNdScv q<0.1) in combined hepatocellular-cholangiocarcinoma (cHCC-ICC) [PMID:31130341](../papers/31130341.md)
+- PTEN deletions/mutations associated with progressive disease (PD) at first scan in ER+/HER2- metastatic breast cancer patients treated with buparlisib + letrozole, except for a deep PTEN deletion in the single PR patient [PMID:31552290](../papers/31552290.md).
+- Copy-number loss (homozygous in 2 ROIs, heterozygous in 3 ROIs) called by FACETS from IMPACT468 in localized prostate adenocarcinoma; homozygous PTEN loss tracked with highest HP lactate signal (P=0.059), consistent with PI3K-pathway de-repression driving increased glycolytic flux [PMID:31564440](../papers/31564440.md).
 
 ## Cancer types (linked)
 
@@ -398,5 +400,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

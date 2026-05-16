@@ -76,6 +76,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 mutated in 9% of gallbladder carcinoma tumors across a three-region (Japan, Chile, USA) cohort; detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
 - NF1 loss-of-function mutations >2-fold enriched after endocrine therapy in HR+HER2- breast cancer (p=4e-4); typically acquired or selected under therapy (not detected in matched primaries); CRISPR knockout in MCF7 increased MAPK signaling and induced fulvestrant resistance reversible by ERK inhibition [PMID:30205045](../papers/30205045.md)
 - Germline pathogenic NF1 alleles tied to neurofibromatosis type 1 predisposition in glioma patients; somatic NF1 and PTPN11 alterations preferentially enriched in recurrent lower-grade IDH-WT tumors (P<0.05). [PMID:31263031](../papers/31263031.md)
+- NF1 altered in 9% of neuroblastoma PDX models (nonsense/frameshift); NF1 inactivation classifier (AUROC 0.77) flags additional pathway-inactive models beyond gene-level mutation; RAS-pathway activation also seen via NF1 T2335fs in Fusion− RMS model Rh-12 [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -177,5 +178,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -23,6 +23,7 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 - In 216 metastatic breast cancer patients (SAFIR01/02, SHIVA, MOSCATO trials), ESR1 mutations (found in 20/143 HR+/HER2- mBCs, 14%) were exclusively in patients who had received prior endocrine therapy including fulvestrant, and all ESR1 mutations occurred in the hormone-receptor domain mediating acquired endocrine resistance [PMID:28027327](../papers/28027327.md)
 - One endometrial patient with a de novo ESR1 ligand-binding-domain mutation achieved an 18-month ongoing response on bevacizumab + fulvestrant after progressing on letrozole; 3/5 ESR1-mutant cases arose in apparent absence of prior endocrine therapy [PMID:30068706](../papers/30068706.md)
 - In prospective MSK-IMPACT sequencing of 1,918 breast tumors (1,756 patients), MAPK-pathway-altered tumors had shorter PFS on fulvestrant (SERD) than on aromatase inhibitors (median 3.7 vs 4.8 mo, p=0.029); ESR1-mutant and transcription-factor-altered tumors had similar PFS to pan-wild-type on SERD, indicating fulvestrant is preferred over aromatase inhibitors for ESR1- and TF-class resistance but insufficient for MAPK-class resistance [PMID:30205045](../papers/30205045.md).
+- Referenced via the FERGI trial of pictilisib + fulvestrant (Krop et al. Lancet Oncol 2016) in which the PR+ (luminal A) breast cancer subset benefited preferentially, supporting luminal A subtype as a predictive biomarker for PI3K inhibitor + endocrine therapy combinations [PMID:31552290](../papers/31552290.md)
 
 ## Resistance mechanisms
 
@@ -44,5 +45,8 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

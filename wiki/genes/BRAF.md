@@ -115,6 +115,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600E (n=4 patients) and N486_T491delinsK in-frame indel (n=1, LCH) identified in histiocytic neoplasm cohort (n=18); N486_T491delinsK confirmed activating and cobimetinib-sensitive in Ba/F3, expanding actionable BRAF lesions beyond V600 [PMID:30867592](../papers/30867592.md)
 - BRAF mutations enriched in MSI-H/hypermutated colon tumors in proteogenomic cohort (n=110); classic colorectal cancer SMG alongside KRAS and POLE [PMID:31031003](../papers/31031003.md)
 - BRAF V600 mutations clonal and nearly exclusive to epithelioid IDH-WT GBMs or high-grade gliomas arising from lower-grade lesions (17/17); non-V600 class-3 alleles (G466, G469, L597) subclonal in conventional IDH-WT GBMs; allele class and clonality predict MAPK-inhibitor response — 4/7 BRAF V600E patients had partial/near-complete responses to RAF/MEK/ERK inhibitors (ongoing 9-41 months); CDKN2A homozygous deletion co-occurs with RAF-inhibitor resistance in one progressing patient [PMID:31263031](../papers/31263031.md)
+- BRAF V600E co-occurs with homozygous CDKN2A/CDKN2B 9p deletion in the NCH-MN-1 PDX model in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -412,5 +413,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

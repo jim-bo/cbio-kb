@@ -5,7 +5,7 @@ main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # Alveolar Rhabdomyosarcoma (ARMS)
@@ -28,6 +28,7 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 - [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) fusion detectable in ctDNA at diagnosis (100%) and relapse (86%), with fusion read counts correlating with disease burden [PMID:37730754](../papers/37730754.md).
 - Genomic analysis of 147 [RMS](../cancer_types/RMS.md) tumors reclassified ARMS by PAX-fusion status: PAX-fusion-positive (PFP) ARMS carry [PAX3](../genes/PAX3.md)- or [PAX7](../genes/PAX7.md)-[FOXO1](../genes/FOXO1.md) fusions with low somatic mutation burden (mean 6.4 non-synonymous mutations/tumor) and rely on amplifications ([MYCN](../genes/MYCN.md), [CDK4](../genes/CDK4.md), [MIR17HG](../genes/MIR17HG.md)); 7 fusion-negative ARMS clustered molecularly with [ERMS](../cancer_types/ERMS.md) [PMID:24436047](../papers/24436047.md).
 - PIPseq cohort: PAX7-FOXO1 fusion detected by RNA-seq in an alveolar RMS patient despite repeatedly negative FOXO1 break-apart FISH; the fusion was diagnostic and placed the patient in the high-risk prognostic group [PMID:28007021](../papers/28007021.md)
+- All Fusion+ ARMS PDX models in the PPTC cohort (n=261) carried PAX3-FOXO1; median patient age 16y for Fusion+ vs 5y for Fusion− RMS; MYCN and CDK4 focal amplifications also observed in this histology [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -48,3 +49,6 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

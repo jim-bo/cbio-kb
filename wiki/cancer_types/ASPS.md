@@ -4,8 +4,8 @@ oncotree_code: ASPS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Alveolar Soft Part Sarcoma (ASPS)
@@ -21,6 +21,7 @@ Alveolar soft part sarcoma (ASPS) is a rare, slow-growing but highly metastatic 
 ## Recurrent alterations
 
 - PIPseq cohort: ASPSCR1-TFE3 fusion identified by RNA-seq as diagnostic of alveolar soft part sarcoma in a pediatric patient [PMID:28007021](../papers/28007021.md).
+- Both ASPS PDX models in the PPTC cohort (n=261) harbored the canonical ASPSCR1-TFE3 fusion; CD274 (PD-L1) was intrinsically overexpressed in ASPS xenografts, flagged as a checkpoint-inhibitor target [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Alveolar soft part sarcoma (ASPS) is a rare, slow-growing but highly metastatic 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

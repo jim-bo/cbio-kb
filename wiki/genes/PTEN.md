@@ -3,7 +3,7 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -123,6 +123,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Focal 10q23.31 copy loss and truncating mutations define C3 GCB-DLBCL; N- and C-terminal mutations distinguished by roles in PI3K/AKT antagonism vs. genomic stability; dual PTEN inactivation mechanism in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
 - Significantly mutated in SMC Korean breast cancer cohort (3.2%, q=0.015); identified as a significantly mutated gene in 186 SMC tumors vs. TCGA comparator [PMID:29713003](../papers/29713003.md)
 - Zero responses among 4 patients with PTEN mutations receiving combination PD-1 + CTLA-4 immunotherapy in NSCLC; resistance association did not reach statistical significance due to small numbers [PMID:29657128](../papers/29657128.md)
+- PTEN recurrently altered in HR+HER2- metastatic breast cancer cohort with patterns consistent with primary disease; co-listed with CCND1 as a recurrently altered gene in this endocrine-therapy context [PMID:30205045](../papers/30205045.md)
+- PTEN truncating/homozygous deletion in 3.9% of advanced HCC in the MSK-IMPACT cohort; contributes to actionable PI3K-mTOR pathway alterations (~15% of sorafenib-evaluable patients) associated with worse sorafenib outcomes [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -366,5 +368,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -8,7 +8,7 @@ tags:
   - epigenetic
   - histone-methyltransferase
   - GCB
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -43,6 +43,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Preferentially mutated in GCB-DLBCL; EZH2 mutations associated with better survival in GCB-DLBCL in the comprehensive genetic and functional driver analysis (n=1,001 patients) [PMID:28985567](../papers/28985567.md)
 - Identified via cited preclinical work (Ler et al. 2017; Wu et al. 2016) as part of the BRD4–EZH2 chromatin-modification growth pathway whose inhibition is therapeutically tractable in KDM6A-loss bladder cancer; EZH2 inhibitors proposed alongside JQ1 for KDM6A-deficient MIBC [PMID:28988769](../papers/28988769.md)
 - EZH2 mutations are enriched in C3 GCB-DLBCL alongside KMT2D, CREBBP, and EP300; GSEA shows concordant upregulation of EZH2 targets in C3 tumors. EZH2-targeted epigenetic therapy is proposed as a rational strategy for C3 [PMID:29713087](../papers/29713087.md)
+- Discussed as a therapeutic-target gene in AML; LSD1/EZH2 inhibitors are a treatment strategy in the AML genomic landscape [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -118,4 +119,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

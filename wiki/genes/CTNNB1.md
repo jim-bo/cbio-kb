@@ -71,6 +71,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 mutations are mutually exclusive with TP53 across pan-cancer; in UCEC, CTNNB1 defines one of two mutually-exclusive somatic-interaction networks (CTNNB1-PTEN-CTCF vs TP53-PPP2R1A), and CTNNB1-enriched tumors cluster with the copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
 - CTNNB1 S45F activating hotspot mutation appeared in bladder organoid line SCBO-3.2 (recurrent tumor after BCG + mitomycin-C treatment) but was absent from the parental tumor and early passages, documenting a clonal-evolution event under intravesical therapy [PMID:29625057](../papers/29625057.md)
 - Mutated in 1/9 HCA (B-HCA subtype with aberrant nuclear β-catenin) and in 2/10 HCC; both HCC CTNNB1-mutant cases co-carried TERT promoter mutations, supporting CTNNB1 as the early oncogenic hit in the HCA-to-HCC transformation sequence [PMID:30052636](../papers/30052636.md)
+- CTNNB1 activating mutations in 35.7% of HCC; defines WNT-activated subset; associated with innate resistance to immune checkpoint blockade (all 10 WNT-altered ICI-treated patients had progressive disease vs. 53% disease control in non-WNT patients) [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -203,5 +204,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

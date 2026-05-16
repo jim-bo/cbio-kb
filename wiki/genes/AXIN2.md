@@ -3,8 +3,8 @@ symbol: AXIN2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # AXIN2
@@ -16,6 +16,7 @@ AXIN2 (Axis Inhibition Protein 2; also Conductin) is a scaffold protein in the b
 ## Alterations observed in the corpus
 
 - Recurrently mutated WNT-pathway component in pancreatic ductal adenocarcinoma (PDA); co-mutated with [AXIN1](../genes/AXIN1.md) and [APC](../genes/APC.md), nominating tankyrase inhibitors (XAV939) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
+- AXIN2 alterations reported at 0.05% in 344-patient HCC MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ AXIN2 (Axis Inhibition Protein 2; also Conductin) is a scaffold protein in the b
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

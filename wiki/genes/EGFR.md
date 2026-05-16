@@ -3,7 +3,7 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -89,6 +89,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR altered in 4% of tumors pan-cancer; mutated/amplified/fused in GBM (50%) and IDHwt LGG (52%); amplification co-occurs with EGFR mutation/fusion and with 4q12 (KIT/PDGFRA) amplification in glioma but is mutually exclusive with ERBB2 activation and with KRAS/BRAF mutation or NF1/RASA1 loss elsewhere [PMID:29625050](../papers/29625050.md)
 - EGFR detected as a less-common driver alteration in a bladder cancer patient-derived organoid biobank (16 lines from 16 patients profiled by MSK-IMPACT); organoid transcriptomes showed ERBB-signaling enrichment from exogenous EGF supplementation [PMID:29625057](../papers/29625057.md)
 - Clonal hotspot mutations enriched in immunotherapy non-responders (PD) across cancer types; tumors are subclonal-skewed, low-TMB, and over-represented in never-smokers in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
+- Focal amplifications detected in 12 post-endocrine-therapy HR+HER2- breast cancer patients (all prior tamoxifen-exposed; 8 also prior AI); 60% of post-progression amplifications were already present in matched primaries; MCF7 EGFR overexpression confers fulvestrant resistance reversible by erlotinib or gefitinib [PMID:30205045](../papers/30205045.md)
 
 ## Cancer types (linked)
 
@@ -261,16 +262,19 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

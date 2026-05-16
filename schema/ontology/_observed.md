@@ -87,6 +87,8 @@
 - method: msk-impact-panel — observed in PMID:39214094 — note: MSK-IMPACT targeted sequencing on 397/1360 resected PDAC patients for KRAS-allele cohort
 - drug: fluorouracil — observed in PMID:39214094 — note: 5-FU backbone of FOLFIRINOX (neo)adjuvant chemotherapy in resected PDAC
 - drug: irinotecan — observed in PMID:39214094 — note: FOLFIRINOX component in (neo)adjuvant PDAC chemotherapy
+- method: wgcna — observed in PMID:30333627 — note: Weighted Gene Co-expression Network Analysis; 14 co-expression modules across 451 Beat AML RNA-seq specimens; lasso regression linked mutation × cluster to drug sensitivity
+- method: ex-vivo-drug-sensitivity-screen — observed in PMID:30333627 — note: 122-compound ex vivo drug screen on 409 AML primary specimens within 24h of isolation; AUC-based sensitivity profiling (Beat AML platform)
 - drug: oxaliplatin — observed in PMID:39214094 — note: FOLFIRINOX component in (neo)adjuvant PDAC chemotherapy
 - drug: gsk-690693 — observed in PMID:22722202 — note: ATP-competitive pan-AKT inhibitor; inhibits MAGI3-AKT3 fusion kinase in triple-negative breast cancer
 - drug: mk-2206 — observed in PMID:22722202 — note: allosteric PH-domain AKT inhibitor; ineffective against MAGI3-AKT3 fusion (no PH domain)

@@ -9,7 +9,7 @@ tags:
   - lobular
   - e-cadherin-loss
   - pi3k-akt
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -37,6 +37,7 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - pAKT-S473 and pAKT-T308 levels are highest in ILC among all breast cancer subtypes, matching levels seen in HER2+ and Basal-like IDC, despite predominantly Luminal A classification [PMID:26451490](../papers/26451490.md).
 - WES of 216 metastatic breast carcinomas (SAFIR01/SAFIR02/SHIVA/MOSCATO trials) included ILC tumors within the HR+/HER2- subgroup; CDH1 identified as a significantly mutated driver in both metastatic and early breast cancer [PMID:28027327](../papers/28027327.md)
 - ILC was under-represented in the Korean SMC breast cohort vs TCGA (3.7% vs 17.3%, p=2.9e-08); CDH1 mutation rate correspondingly lower in SMC (2.2%) than TCGA (11.5%) [PMID:29713003](../papers/29713003.md)
+- In 1,918 prospectively sequenced breast tumors, ILC-specific alterations included TBX3 N297 hotspot exclusive to lobular carcinomas and FOXA1 Forkhead-domain hotspots on wing 2 (lobular-specific); CDH1 mutations were associated with ovarian metastasis, reflecting lobular predisposition to ovarian spread; dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
 
 ## Subtypes
 
@@ -64,3 +65,6 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

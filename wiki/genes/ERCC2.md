@@ -3,8 +3,8 @@ symbol: ERCC2
 aliases: [XPD]
 cancer_types: [BLCA]
 tags: [DNA-damage-response, DDR, cisplatin, urothelial, prognostic-biomarker]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # ERCC2
@@ -26,6 +26,7 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 - Rare in chemotherapy-progressing urothelial carcinoma, consistent with prior data that ERCC2 mutations mark cisplatin responders and are selected against in progressing tumors [PMID:27749842](../papers/27749842.md)
 - Most common DNA damage repair (DDR) gene alteration in NMIBC (17% of high-grade cases); missense mutations cluster in conserved helicase domains and associate with markedly elevated mutational burden [PMID:28583311](../papers/28583311.md)
 - Missense mutations in 9% of MIBC (n=40), preferentially in/around the helicase domain (suggested dominant-negative effect); defines the MSig4 mutational-signature cluster (24/39 ERCC2-mutant tumors; p=10⁻¹³); ERCC2-signature mutations highest in smokers with ERCC2 mutations (p=6.9×10⁻¹¹) [PMID:28988769](../papers/28988769.md)
+- Missense mutations clustering near/within conserved helicase domains; significantly enriched in primary versus secondary MIBC; associated with higher TMB; hypothesized NER-pathway defect heightens cisplatin sensitivity; candidate predictive biomarker for NAC response [PMID:30290956](../papers/30290956.md)
 
 ## Cancer types (linked)
 
@@ -76,3 +77,6 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

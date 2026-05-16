@@ -21,6 +21,8 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - V46Wfs frameshift mutation in 1/19 sequenced oligodendroglioma tumors; OncoKB Level 2B [PMID:28472509](../papers/28472509.md)
 - TSC1 nonsense mutation in bladder cancer organoid line SCBO-6 conferred sensitivity to mTOR inhibitor AZD8055, with an additive effect when combined with FGFR inhibitor JNJ-42756493 [PMID:29625057](../papers/29625057.md)
 - Rare level-2B actionable finding (n=3 TSC1/TSC2 combined) in a 189-patient prospective NGS cohort of advanced cholangiocarcinoma; identified as a potentially targetable mTOR-pathway alteration [PMID:29848569](../papers/29848569.md)
+- Inactivating alterations enriched in secondary MIBC (14% vs 5.5%, univariable p=0.007) in MSK-IMPACT-profiled bladder cancer cohort; did not survive FDR correction; finding hypothesis-generating only [PMID:30290956](../papers/30290956.md)
+- Truncating/inactivating alterations in <1% of advanced HCC (MSK-IMPACT cohort); together with TSC2 (~10.6%) defines mTOR negative-regulator loss as rationale for matched everolimus therapy; one TSC2 E95*-mutant patient had disease stabilization on everolimus after sorafenib progression [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +58,11 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

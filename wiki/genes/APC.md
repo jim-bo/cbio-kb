@@ -56,6 +56,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [APC](../genes/APC.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers (prad_p1000). [PMID:29610475](../papers/29610475.md)
 - APC- and KRAS-driven COAD/READ tumors share mRNA cluster 15 and RPPA cluster C8 but partition into distinct methylation clusters (10 vs 11), illustrating how the same oncogenic driver can yield different epigenomic states [PMID:29625049](../papers/29625049.md)
 - Mutated in 2/10 HCC (hepatocellular carcinoma) in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC); absent in the HCA subset, suggesting a late-stage event [PMID:30052636](../papers/30052636.md)
+- APC alterations observed in 5.2% of hepatocellular carcinoma tumors in a 344-patient MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -184,5 +185,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

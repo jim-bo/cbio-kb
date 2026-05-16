@@ -136,6 +136,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Single somatic mutation observed in 1/9 IMPACT341-sequenced hepatocellular adenomas (inflammatory I-HCA subtype), co-occurring with HGF, GNAS, FAT1, and KMT2D mutations in the same tumor [PMID:30052636](../papers/30052636.md)
 - Most common actionable alteration in metastatic endometrial cancer (35%, 66/189 patients, MSK cohort); enriched in high-grade histology (p=0.035) and mixed histology; 12 patients with PIK3CA alterations were matched to PI3K-pathway clinical trials [PMID:30068706](../papers/30068706.md)
 - Clonal hotspot mutations enriched in CR/PR responders in a pooled ICB cohort (193 patients); association was cancer-type dependent — responders with PIK3CA were predominantly melanoma, HNSCC, anal, or bladder; most PIK3CA-mutant PD patients were lung; APOBEC signatures may confound the association; FDR q=0.18 [PMID:30150660](../papers/30150660.md)
+- PIK3CA mutated in 12% of gallbladder carcinoma tumors across a three-region cohort; entirely absent in Japanese patients; trend toward worse OS (P-adj=0.09); detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
+- PIK3CA mutated in 36.4% of a 2,732-tumor combined HR+HER2- breast cancer cohort (699 tumors); 35 statistically significant hotspots identified, 12 newly significant; 5 novel hotspot variants induced elevated PI3K signaling in MCF10A functional assays [PMID:30205045](../papers/30205045.md)
+- PIK3CA oncogenic missense in <1% of advanced HCC; part of the PI3K-mTOR pathway actionability group (~15% of sorafenib-evaluable patients) associated with worse sorafenib outcomes (PFS HR 3.8, OS HR 2.5) [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -404,5 +407,14 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -30,6 +30,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used in 9 of 1,134 prospectively sequenced [COADREAD](../cancer_types/COADREAD.md) cases in the MSK-IMPACT CRC landscape study; latest panel expansion [PMID:29316426](../papers/29316426.md)
 - Applied to 20 of 240 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy in the MSK TMB study; panel was noted as the reference for 240-patient cohort TMB estimation [PMID:29337640](../papers/29337640.md)
 - Applied at ~500-fold coverage for targeted sequencing of 22 patient-derived bladder cancer organoid lines (SCBO-1 through SCBO-16) and matched parental tumors, enabling subclonal mutation detection; data deposited in cBioPortal as study bladder_columbia_msk_2018 [PMID:29625057](../papers/29625057.md).
+- Used for 518 of 1,918 breast tumors in prospective MSK sequencing study; 468-gene panel version [PMID:30205045](../papers/30205045.md)
+- Applied to 36 of 127 advanced HCC tumors in the MSK prospective HCC cohort (hcc_mskimpact_2018) [PMID:30373752](../papers/30373752.md)
 
 ## Notes
 
@@ -60,5 +62,11 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

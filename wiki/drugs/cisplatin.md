@@ -11,7 +11,7 @@ tags:
   - hnscc
   - standard-of-care
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # cisplatin
@@ -52,6 +52,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Adjuvant cisplatin/[carboplatin](../drugs/carboplatin.md) plus [vinorelbine](../drugs/vinorelbine.md) was the standard adjuvant chemotherapy backbone in the TRACERx NSCLC ctDNA study (NCT01888601, n=24 longitudinal patients). ctDNA clearance after adjuvant therapy correlated with sustained remission (CRUK0013, 688 days relapse-free), while rising ctDNA SNV burden during adjuvant therapy identified resistance in real time in patients who all recurred within 1 year. [PMID:28445469](../papers/28445469.md)
 - Luminal-papillary MIBC (35% of TCGA bladder cohort, FGFR3-enriched) shows preliminary low likelihood of response to cisplatin-based neoadjuvant chemotherapy, while basal-squamous MIBC is proposed as appropriate for cisplatin-based regimens; etoposide-cisplatin is proposed for the neuronal subtype [PMID:28988769](../papers/28988769.md)
 - In 295 metastatic EGC patients (MSK-IMPACT), HRD/LST scores did not predict PFS on first-line platinum-based chemotherapy (HR=0.99, P=0.947); MSI-H patients had significantly shorter PFS on cytotoxic therapy (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
+- Pietzak et al. compared cisplatin-based neoadjuvant chemotherapy (NAC) outcomes in 288 MIBC patients: pathologic response 26% in secondary MIBC vs 45% in primary MIBC (OR=0.4, p=0.02); NAC was associated with worse CSS in secondary MIBC (p=0.002), and enrichment of [ERCC2](../genes/ERCC2.md) missense mutations in primary MIBC (12% vs 1.3%, p=0.004) provides a genomic explanation for differential cisplatin sensitivity [PMID:30290956](../papers/30290956.md).
 
 ## Resistance mechanisms
 
@@ -136,3 +137,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

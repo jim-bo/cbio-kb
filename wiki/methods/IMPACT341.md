@@ -34,6 +34,10 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - 20 out of 195 cholangiocarcinoma patients in the chol_msk_2018 cohort were sequenced with the 341-gene IMPACT341 panel; paired germline DNA from blood used for somatic calling [PMID:29848569](../papers/29848569.md)
 - Used to sequence 9 HCA and 10 HCC tumors at MSK for the pilot miRNA/DNA profiling study (average ~735× coverage); panel covers 341 cancer-associated genes [PMID:30052636](../papers/30052636.md)
 - Applied to 70 of 197 advanced endometrial cancer tumors in the MSK prospective cohort; IMPACT341 plus IMPACT410 together profiled all 189 patients [PMID:30068706](../papers/30068706.md)
+- Used in prospective MSK-IMPACT sequencing of 1,918 breast tumors (432 samples on IMPACT341) to identify endocrine-resistance mechanisms in HR+ breast cancer [PMID:30205045](../papers/30205045.md)
+- One of three MSK-IMPACT panel generations (IMPACT300/341/410) used for prospective genomic validation of 94 MIBC tumors; FANCC data missing for 6 patients on the 300-gene panel [PMID:30290956](../papers/30290956.md)
+- Applied to 21 of 127 advanced HCC tumors in a prospective MSK cohort; TMB and MSI quantified per sample [PMID:30373752](../papers/30373752.md)
+- One of the MSK-IMPACT panel versions used to sequence 81 GBCA tumors across USA, Chile, and Japan; mutation burden normalized to 1.2 Mb panel size [PMID:30427539](../papers/30427539.md)
 
 ## Notes
 
@@ -82,5 +86,17 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

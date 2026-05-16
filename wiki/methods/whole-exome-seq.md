@@ -165,6 +165,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - WES performed as part of the TCGA pan-cancer cohort for somatic mutation profiling [PMID:29713003](../papers/29713003.md)
 - Tumor-normal WES used across 11,139 samples (39 cancer types, TCGA/TARGET/external cohorts) as the primary sequencing platform for pan-cancer MSI detection with MANTIS [PMID:29850653](../papers/29850653.md)
 - Tumor-normal WES (average 150× tumor / 119× germline) applied to 249 MSS tumors from seven ICB cohorts; uniform reanalysis with MuTect/Strelka/ABSOLUTE to assess genomic correlates of ICB response [PMID:30150660](../papers/30150660.md)
+- WES at median 358× coverage used for 30 matched primary/post-progression tumor pairs in breast cancer endocrine-resistance study; selected variants confirmed by ddPCR [PMID:30205045](../papers/30205045.md)
+- WES via Illumina Nextera and TCGA pipelines used for 412 MIBC tumors in retrospective discovery cohort; ERCC2-mutant tumors showed 14.7 vs 5.5 mutations/Mb [PMID:30290956](../papers/30290956.md)
+- Applied to 622 of 672 AML specimens (531 patients) on Illumina Nextera RapidCapture (37 Mb capture); 94% SNV / 82% indel validation rate confirmed in 96-specimen custom-capture library [PMID:30333627](../papers/30333627.md)
 
 ## Notes
 
@@ -573,5 +576,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

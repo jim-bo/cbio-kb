@@ -10,7 +10,7 @@ tags:
   - validation
   - subclonal
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Droplet Digital PCR (ddPCR)
@@ -23,6 +23,7 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 
 - Applied to validate subclonal/heterogeneity findings from whole-exome sequencing in grade II glioma paired initial/recurrent tumor cohort (n=23), confirming variant allele frequencies at low clonal abundance [PMID:24336570](../papers/24336570.md)
 - Used in 5/5 tested [COADREAD](../cancer_types/COADREAD.md) cases to confirm frameshifted splice product from the recurrent APC intronic splice-acceptor mutation chr5:112151184 A>G in MSS CRC [PMID:29316426](../papers/29316426.md)
+- ddPCR on a QX200 system used to validate selected variants from a multi-site breast cancer autopsy case; confirmed mutual exclusivity of ESR1 Y537 and ERBB2 driver mutations across metastatic sites at ~0.03% sensitivity [PMID:30205045](../papers/30205045.md)
 
 ## Notes
 
@@ -36,3 +37,6 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

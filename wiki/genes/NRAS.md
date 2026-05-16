@@ -63,6 +63,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - OncoKB Level 1 resistance marker for anti-EGFR antibodies (cetuximab/panitumumab) in mCRC; HR=2.59 for OS in multivariate analysis of MSS metastatic CRC (N=1,152) [PMID:29316426](../papers/29316426.md)
 - NRAS (with KRAS and HRAS) shows strong mutual exclusivity with BRAF V600 within Ras signaling across nearly all 33 TCGA tumor types; BRAF-mutant tumors in the C3 immune subtype have higher CD8 T-cell fractions than NRAS-mutant tumors [PMID:29625049](../papers/29625049.md)
 - NRAS hotspot mutations (n=4) classified as OncoKB level 3 actionable alterations in cholangiocarcinoma (n=195 MSK-IMPACT cohort) [PMID:29848569](../papers/29848569.md)
+- NRAS mutations predicted MAPK-inhibitor sensitivity ex vivo in the Beat AML cohort (aml_ohsu_2018); NRAS association with MAPK-inhibitor sensitivity was stronger than that of KRAS [PMID:30333627](../papers/30333627.md)
+- NRAS oncogenic missense mutations in <1% of advanced HCC in the MSK-IMPACT cohort; identified alongside HRAS and PIK3CA as low-frequency oncogenic alterations [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -217,5 +219,11 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

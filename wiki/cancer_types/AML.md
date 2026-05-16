@@ -4,7 +4,7 @@ oncotree_code: AML
 main_type: Leukemia
 parent: MNM
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - MC3 multi-center mutation calling project called somatic variants across 10,510 TCGA tumor/normal pairs including AML (LAML); AML recovered only 44% of legacy AWG calls because tumor-in-normal contamination in LAML skin 'normals' causes MC3's conservative filtering to misclassify somatic calls as germline [PMID:29596782](../papers/29596782.md)
 - Pan-cancer aneuploidy analysis (10,522 TCGA tumors) found AML has one of the lowest aneuploidy scores (mean 1.6 arm-level alterations) across 33 cancer types, consistent with a predominantly mutation-driven rather than CNA-driven disease [PMID:29622463](../papers/29622463.md)
 - AML resequencing on the Bionimbus Protected Data Cloud cited as exemplar of cloud-enabled somatic-variant discovery in adverse-risk primary AML (CUX1 haploinsufficiency study, Blood 2013); not a primary AML analysis [PMID:29902176](../papers/29902176.md)
+- Beat AML profiled 672 primary tumor specimens from 562 AML patients using whole-exome sequencing, RNA-seq, and ex vivo drug-sensitivity assays against 122 compounds; integrating these layers identified novel mutational events and mapped drug-response patterns to single and combinatorial mutational events (e.g., FLT3-ITD/NPM1 co-mutation sensitizes to ibrutinib and entospletinib; BCOR/RUNX1 co-mutation sensitizes to JAK inhibitors); dataset deposited as [aml_ohsu_2018](../datasets/aml_ohsu_2018.md) [PMID:30333627](../papers/30333627.md)
 
 ## Subtypes
 
@@ -71,3 +72,6 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - [PMID:29902176](../papers/29902176.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

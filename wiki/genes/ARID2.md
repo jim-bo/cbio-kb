@@ -47,6 +47,8 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - ARID2 cited as an essential PBAF-complex component whose loss (in mouse models) sensitizes tumor cells to T-cell-mediated killing, supporting a PBAF-wide immune-priming mechanism in ccRCC [PMID:29301960](../papers/29301960.md).
 - [ARID2](../genes/ARID2.md) is a SWI/SNF member altered in ~5% of 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)), enriched in ETS-fusion-negative tumors alongside [ARID1A](../genes/ARID1A.md), [ARID4A](../genes/ARID4A.md), and [SMARCA1](../genes/SMARCA1.md). [PMID:29610475](../papers/29610475.md)
 - PBAF SWI/SNF member; loss-of-function enriched in immunotherapy responders (CR/PR) across multiple histologies alongside PBRM1, in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
+- ARID2 SWI/SNF-complex loss-of-function more often acquired post-endocrine-therapy than pre-treatment in matched pairs of HR+HER2- breast cancer [PMID:30205045](../papers/30205045.md)
+- ARID2 mutated in 7% of gallbladder carcinoma overall but entirely absent in Chilean patients; co-occurrence trend with TERT noted [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -139,5 +141,11 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

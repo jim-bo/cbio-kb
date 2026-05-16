@@ -21,6 +21,8 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 - Endorsed as a precision option for IDH1-mutant iCCA based on the ClarIDHy phase III trial (PFS benefit); highlighted as the first targeted therapy approved for IDH1-mutant cholangiocarcinoma, with [IDH1](../genes/IDH1.md) mutations also epigenetically suppressing bile acid synthesis genes via 2-hydroxyglutarate accumulation [PMID:25608663](../papers/25608663.md)
 - IDH1/IDH2 mutations enriched in Fluke-Negative CCA Cluster 4 (31.6% vs 1.0%); ivosidenib (NCT02073994) nominated as therapeutic candidate for this subtype [PMID:28667006](../papers/28667006.md)
 - IDH1 inhibitor (AG-120) used as matched targeted therapy in 13 of 25 cholangiocarcinoma patients with IDH1 mutations; 64% of 25 biomarker-directed patients had evidence of response or clinical benefit; rationale cited for phase III ClarIDHy trial enrollment [PMID:29848569](../papers/29848569.md)
+- In the Beat AML cohort genomic landscape analysis, [IDH1](../genes/IDH1.md)-mutant AML showed a broad drug-resistance signature in ex vivo profiling, providing context for selective IDH1 inhibitors such as ivosidenib as targeted therapy for a resistance-prone AML subgroup [PMID:30333627](../papers/30333627.md).
+- In MSKCC prospective NGS of 127 advanced HCC patients, [IDH1](../genes/IDH1.md) missense mutations (<1% frequency) were identified as potentially actionable, with selective IDH1 inhibitors such as ivosidenib flagged as candidate agents for this possible cholangiocarcinoma-like HCC molecular subset [PMID:30373752](../papers/30373752.md).
 
 ## Resistance mechanisms
 
@@ -39,5 +41,11 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

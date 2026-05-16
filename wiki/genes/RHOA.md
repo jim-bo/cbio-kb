@@ -3,7 +3,7 @@ symbol: RHOA
 aliases: []
 cancer_types: [DSTAD, AITL, ATLL, PTCL, STAD, BL]
 tags: [rho-gtpase, diffuse-gastric-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 - Two distinct somatic mutations in 2/25 ACC tumors; first reported occurrence in ACC (RHOA hotspot mutations were previously known in angioimmunoblastic T-cell lymphoma) [PMID:26862087](../papers/26862087.md)
 - RHOA is a CRISPR-essential dependency in DLBCL associated with proliferation gene-expression signatures [PMID:28985567](../papers/28985567.md)
 - Mutations cluster at the ARHGEF-binding interface (CLUMPS/EMPRINT analysis), keeping RHOA inactive and de-repressing PI3K/Gα-mediated migration; enriched in C4 GCB-DLBCL tumors in a cohort of 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
+- RHOA L22R subclonal hotspot present in a treatment-naive primary HR+HER2- breast cancer but lost at post-progression biopsy, illustrating subclone replacement under endocrine therapy [PMID:30205045](../papers/30205045.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,8 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -72,6 +72,10 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Used to sequence 195 cholangiocarcinoma patients in the chol_msk_2018 cohort; 20 patients sequenced with 341-gene panel (IMPACT341) and 175 with 410-gene panel (IMPACT410); median coverage 759×; 47.6% of patients had actionable alterations at OncoKB level 3B or higher [PMID:29848569](../papers/29848569.md)
 - Panel used to identify HLA-restricted neoantigens and tumor mutational burden in the MSK IMPACT sequencing cohort [PMID:29657128](../papers/29657128.md)
 - Prospective MSK-IMPACT sequencing (341- or 410-gene versions) of 197 tumors from 189 advanced endometrial cancer patients; 67% carried ≥1 actionable alteration; panel enabled simultaneous MSI scoring, copy-number profiling, and germline assessment [PMID:30068706](../papers/30068706.md)
+- Hybrid-capture targeted sequencing assay (341/410/468 gene panels; mean coverage 771×) used to sequence 1,918 breast tumors prospectively at MSKCC [PMID:30205045](../papers/30205045.md)
+- Targeted exon capture assay spanning 300/341/410 cancer-associated genes used for prospective validation of 94 MIBC tumors; ERCC2-missense enrichment confirmed [PMID:30290956](../papers/30290956.md)
+- Hybridization-capture targeted NGS (341/410/468 genes, mean coverage 690×) used to profile 127 advanced HCC patients; OncoKB and MSIsensor applied post-sequencing [PMID:30373752](../papers/30373752.md)
+- Targeted DNA-sequencing assay (341–410 genes) applied to 81 GBCA tumors from three international centers [PMID:30427539](../papers/30427539.md)
 
 ## Notes
 
@@ -195,5 +199,17 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

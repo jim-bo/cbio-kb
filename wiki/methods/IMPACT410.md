@@ -35,6 +35,10 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used in 88 of 106 centrally sequenced SUMMIT basket-trial patients for ERBB2/ERBB3-mutant solid tumors (mean coverage 738×) [PMID:29420467](../papers/29420467.md)
 - 175 out of 195 cholangiocarcinoma patients in the chol_msk_2018 cohort were sequenced with the 410-gene IMPACT410 panel; median coverage 759×; standard DNA input 250 ng (50 ng minimum) [PMID:29848569](../papers/29848569.md)
 - Applied to 127 of 197 advanced endometrial cancer tumors in the MSK prospective cohort at average ~735× coverage; used alongside IMPACT341 to sequence all 189 patients [PMID:30068706](../papers/30068706.md)
+- Primary panel for 968 of 1,918 breast tumors in prospective MSK sequencing study linking endocrine-therapy exposure to ERBB2/NF1/MAPK resistance alterations [PMID:30205045](../papers/30205045.md)
+- One of three MSK-IMPACT panel generations (IMPACT300/341/410) used for prospective genomic validation of 94 MIBC tumors to identify ERCC2-missense enrichment in primary vs secondary MIBC [PMID:30290956](../papers/30290956.md)
+- Applied to 70 of 127 advanced HCC tumors; largest panel version in this study; MSI scored with MSIsensor [PMID:30373752](../papers/30373752.md)
+- One of the MSK-IMPACT panel versions used for 81 GBCA tumors; mutation burden normalized to 1.38 Mb panel size [PMID:30427539](../papers/30427539.md)
 
 ## Notes
 
@@ -84,5 +88,17 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

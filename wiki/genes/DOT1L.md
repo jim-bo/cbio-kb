@@ -3,8 +3,8 @@ symbol: DOT1L
 aliases: [KMT4]
 cancer_types: [STAD]
 tags: [hereditary-cancer, gastric-cancer, germline, histone-methyltransferase, epigenetics]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # DOT1L
@@ -17,6 +17,7 @@ DOT1L encodes a histone methyltransferase responsible for H3K79 methylation, a m
 
 - Germline missense p.Pro1146Leu identified in a CDH1-negative HDGC family; histone methyltransferase implicated in H3K79 methylation changes in familial gastric tumors [PMID:24816255](../papers/24816255.md)
 - Novel significantly mutated gene (SMG) in 3% of lung ADCs in a pan-lung TCGA cohort, enriched for truncating mutations; H3K79 methyltransferase [PMID:27158780](../papers/27158780.md)
+- Identified as a known therapeutic-target gene in the AML genomic landscape; DOT1L inhibitors are relevant for KMT2A-rearranged disease [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ _No conflicts in current corpus._
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

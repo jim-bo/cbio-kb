@@ -3,8 +3,8 @@ symbol: KMT2A
 aliases: [MLL, MLL1, ALL-1, HRX, TRX1]
 cancer_types: [BLLKMT2A, BLCA]
 tags: [epigenetic-regulator, histone-methyltransferase, fusion-gene]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # KMT2A
@@ -30,6 +30,7 @@ processed_at: 2026-05-15
 - Recurrently mutated in unclassified renal cell carcinoma (uRCC, n=62 MSKCC cohort); KMT2A/C/D combined account for 16% of cases in the chromatin-modulator group; KMT2A-mutated cases cluster in the chromatin/DNA-damage regulator subgroup associated with intermediate clinical outcome. [PMID:27713405](../papers/27713405.md)
 - KMT2A–AFF1 (MLL-AFF1) fusion identified in pediatric AML as a DOT1L-inhibitor target in comprehensive clinical genomic sequencing [PMID:28007021](../papers/28007021.md).
 - Newly recognized SMG in MIBC (n=412, TCGA BLCA 2017), mutated in 11%; part of the pervasive chromatin-modifier mutation cluster with predominantly inactivating mutations. [PMID:28988769](../papers/28988769.md)
+- Discussed as a known therapeutic-target gene in AML; KMT2A-rearranged disease is a candidate for DOT1L inhibitors; co-listed with TET2, BCL2, EZH2, KDM1A, and DOT1L as epigenetic targets in the Beat AML (aml_ohsu_2018) cohort [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -92,3 +93,6 @@ processed_at: 2026-05-15
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

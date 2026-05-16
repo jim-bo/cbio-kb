@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PRAD, THPA]
 tags: [ubiquitin-ligase, tumor-suppressor, prostate, thyroid-cancer]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # SPOP
@@ -27,6 +27,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - Mutated in 14.3% of clear-cell endometrial carcinoma (CCEC; n=63) in a cross-histology endometrial sequencing study [PMID:28485815](../papers/28485815.md)
 - Enriched in earlier prostate cancer disease states (12% locoregional vs 5% mCRPC); paired with FOXA1, defines a possibly androgen-deprivation-sensitive subset (functional validation pending) [PMID:28825054](../papers/28825054.md)
 - Established prostate cancer driver confirmed in a 1,013-sample cohort; mutually exclusive with CUL3 mutations; both function in the BTB-CUL3-RBX1 E3 ubiquitin ligase complex. Metastasis-vs-primary enrichment quantified [PMID:29610475](../papers/29610475.md)
+- SPOP E78K mutations identified in 3 HR+HER2- patients post-AI therapy; affect a MATH-domain region distinct from prostate-cancer SPOP hotspots; analogous to ER-stabilizing loss-of-function alleles in endometrial cancer, suggesting an estrogen-receptor-stabilizing mechanism of endocrine resistance [PMID:30205045](../papers/30205045.md)
 
 ## Cancer types (linked)
 
@@ -82,3 +83,6 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

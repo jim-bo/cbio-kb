@@ -55,6 +55,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 is mutually exclusive with RB1 and CDKN2A loss but is co-amplified with CDK4 due to genomic proximity; 78% of dedifferentiated liposarcomas carry CDK4+MDM2 co-amplification, nominating CDK4+MDM2 inhibitor combination therapy [PMID:29625050](../papers/29625050.md)
 - MDM2 amplification in 4% of cholangiocarcinoma (n=195 MSK-IMPACT cohort); associated with shorter PFS on first-line chemotherapy (n=7, p=0.026) [PMID:29848569](../papers/29848569.md)
 - 12q focal amplification (co-amplified with CDK4) enriched in PD patients in a pooled ICB cohort (193 patients); 12q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
+- MDM2 mutated in 6% of gallbladder carcinoma tumors in a three-region cohort; located in the same TP53/ATM pathway; detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -181,5 +182,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [annotation, variant-effect, functional-annotation]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # VEP (Variant Effect Predictor)
@@ -18,6 +18,7 @@ VEP (Variant Effect Predictor), developed by Ensembl, annotates genetic variants
 ## Used by
 
 - Invoked as part of the vcf2maf annotation step in the TCGA MC3 pipeline for functional consequence annotation of ~22.5M somatic variants across 10,510 TCGA tumor/normal pairs [PMID:29596782](../papers/29596782.md)
+- VEP v83 used to annotate somatic variants from whole-exome sequencing of 622 AML specimens in the Beat AML study [PMID:30333627](../papers/30333627.md)
 
 ## Notes
 
@@ -27,3 +28,6 @@ VEP (Variant Effect Predictor), developed by Ensembl, annotates genetic variants
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

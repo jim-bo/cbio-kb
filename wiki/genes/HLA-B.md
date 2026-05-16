@@ -3,8 +3,8 @@ symbol: HLA-B
 aliases: []
 cancer_types: [NSCLC, LUAD]
 tags: [antigen-presentation, immune-escape]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # HLA-B
@@ -20,6 +20,7 @@ HLA-B encodes an MHC class I heavy chain that presents peptides to CD8 T cells; 
 - MHC class I alteration enriched in MSI gastric adenocarcinoma (STAD) tumours (TCGA); consistent with antigen-presentation escape mechanism; co-altered with B2M [PMID:25079317](../papers/25079317.md)
 - Somatic HLA class I (HLA-A/B/C) mutations identified in 11% of colorectal cancer cases; mutations enriched at TCR-binding and peptide-contact residues; consistent with immune-escape selection in TIL-rich tumors [PMID:26997480](../papers/26997480.md)
 - Implicated in MHC-I antigen presentation loss alongside B2M deletion in TCGA pan-lung cancer cohort (lung ADC and SqCC) [PMID:27158780](../papers/27158780.md)
+- Loss detected in 2.7% of advanced HCC in a multi-institutional matched tumor-normal sequencing cohort [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ HLA-B encodes an MHC class I heavy chain that presents peptides to CD8 T cells; 
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

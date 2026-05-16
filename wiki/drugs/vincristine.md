@@ -22,6 +22,7 @@ Vinca alkaloid microtubule inhibitor; the "O" (Oncovin) in CHOP.
 - Component of ISG/SSG IV protocol (vincristine, doxorubicin, ifosfamide, etoposide) for EWSR1::BEND2 urinary-bladder sarcoma; intravesical disease cleared but pelvic and lung metastases did not respond; regimen reflects ESMO-recommended Ewing-like chemotherapy approach for EWSR1-non-ETS fusion sarcomas [PMID:28199314](../papers/28199314.md).
 - Component of PCV (procarbazine/lomustine/vincristine) induction regimen used as the historical comparator arm in a phase II trial (NCT00588523) for 1p/19q-codeleted [anaplastic oligodendroglioma (ODG3)](../cancer_types/ODG3.md); in an exploratory cross-trial comparison, single-agent TMZ induction was non-inferior to PCV induction with the same HDC-ASCT backbone (HR 3.38 favoring TMZ for OS, P=0.005). [PMID:28472509](../papers/28472509.md)
 - Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy; C0/C1/C4 clusters had favorable PFS/OS while C2/C3/C5 had unfavorable outcomes on R-CHOP [PMID:29713087](../papers/29713087.md)
+- One patient (P19) in the Kothari et al. retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA RB1 signal despite 1596× coverage [PMID:32633890](../papers/32633890.md).
 
 ## Resistance mechanisms
 
@@ -42,5 +43,8 @@ Vinca alkaloid microtubule inhibitor; the "O" (Oncovin) in CHOP.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32633890](../papers/32633890.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

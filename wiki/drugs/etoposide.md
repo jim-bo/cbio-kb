@@ -26,6 +26,7 @@ Podophyllotoxin-derivative topoisomerase II inhibitor; included in CHOEP/EPOCH v
 - Component of ISG/SSG IV protocol (vincristine, doxorubicin, ifosfamide, etoposide) given to a patient with EWSR1::BEND2 bladder sarcoma; intravesical tumor resolved after 2 months but pelvic and pulmonary metastases did not respond [PMID:28199314](../papers/28199314.md).
 - Etoposide-cisplatin regimens (as used for neuroendocrine tumors) are proposed for MIBC neuronal subtype (5% of cohort; worst survival, TP53+RB1 co-mutation in 50%, often lacking histopathologic NE features) in neoadjuvant or metastatic settings [PMID:28988769](../papers/28988769.md)
 - In a 3D cell culture review, anchored-droplet microfluidic chips demonstrated IC50 measurements for cisplatin + etoposide combinations on Ewing sarcoma (A673) spheroids consistent with conventional 96-well plates; synergy was greater when etoposide was applied before cisplatin, supporting sequencing optimization in 3D drug screening [PMID:30643250](../papers/30643250.md).
+- One patient (P19) in the Kothari et al. retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA RB1 signal despite 1596× coverage [PMID:32633890](../papers/32633890.md).
 
 ## Resistance mechanisms
 
@@ -61,5 +62,8 @@ Podophyllotoxin-derivative topoisomerase II inhibitor; included in CHOEP/EPOCH v
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32633890](../papers/32633890.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

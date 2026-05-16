@@ -102,6 +102,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Focally amplified in glioblastoma chromothripsis events in the PCAWG pan-cancer cohort (n=2,658 donors) [PMID:32025007](../papers/32025007.md)
 - Cited as a basal-marker gene in the BASE47-defined basal/squamous cluster in a UTUC PDX study (119 MSK-IMPACT-sequenced patients) [PMID:32220886](../papers/32220886.md)
 - EGFR cited as a basal-marker gene in the BASE47-defined basal/squamous cluster in the UTUC PDX cohort (N=119) [PMID:32332851](../papers/32332851.md)
+- Activating mutations enriched in multi-omics cluster C4 (terminal respiratory unit), female sex, Chinese nationality; EGFR-mutant LUAD shows outlier PTPN11/Shp2 Y62 phosphorylation without RNA/protein change — first report in primary treatment-naïve LUAD; EGFR protein/phosphosite abundance elevated [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -324,5 +325,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

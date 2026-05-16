@@ -35,6 +35,7 @@ processed_at: 2026-05-16
 - Focal amplification in 20% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases; one of the most recurrent copy-number gains alongside MYC (73%), MET (24%), and CCNE1 (24%) [PMID:31130341](../papers/31130341.md)
 - Focal gain co-acquired with CDKN2A loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma (along with CDK4 and CCND2); the aneuploidy + cell-cycle alteration subgroup has significantly shorter survival (log-rank P < 0.0001) [PMID:31748746](../papers/31748746.md)
 - CDK6 amplification in 1% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside CDK4 amplification (8%) and RB1 loss/mutation (16%) [PMID:31852831](../papers/31852831.md)
+- Discussed as a prior-literature CDK4/6 inhibitor resistance candidate; not enriched in resistant vs sensitive HR+/HER2- breast cancer biopsies in this 59-biopsy cohort [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -93,5 +94,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

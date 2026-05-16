@@ -140,6 +140,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Enriched in metastatic vs. primary uLMS samples (p=0.046; uLMS subset p=0.04); alterations in 80 uterine leiomyosarcoma patients profiled by MSK-IMPACT [PMID:32299819](../papers/32299819.md)
 - Low-frequency alteration (2%) in upper-tract urothelial carcinoma (UTUC); identified in MSK-IMPACT profiling of UTUC cohort and matched PDX models [PMID:32332851](../papers/32332851.md)
 - PI3K-pathway alteration in metastatic castration-sensitive prostate cancer (mCSPC, n=424 patients, MSK-IMPACT); not prognostic in multivariable models for castration resistance (HR 1.27, 95% CI 0.94–1.73) or OS (HR 0.95, 95% CI 0.58–1.56), consistent with mCRPC findings [PMID:32220891](../papers/32220891.md)
+- Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- MBC biopsies in this cohort [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -434,5 +435,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

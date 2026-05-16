@@ -27,6 +27,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - Adjuvant [cisplatin](../drugs/cisplatin.md)/carboplatin plus [vinorelbine](../drugs/vinorelbine.md) was the standard adjuvant backbone in the TRACERx NSCLC ctDNA study (NCT01888601, n=24 longitudinal patients); ctDNA clearance after adjuvant therapy correlated with sustained remission while rising ctDNA burden identified platinum-resistance in real time. [PMID:28445469](../papers/28445469.md)
 - In a 3D cell culture review, carboplatin was among the conventional chemotherapy agents whose IC50 values typically rise 3–5-fold in cancer spheroids vs. monolayers, illustrating that 3D models better recapitulate clinical chemotherapy resistance [PMID:30643250](../papers/30643250.md).
 - In a UTUC PDX model (UCC03), gemcitabine/carboplatin combination showed significant tumor growth inhibition (p=0.0177) and gemcitabine alone was significant (p=0.0065), but carboplatin alone was not (p=0.138); response mirrored the source patient's partial response to Gem/Carbo [PMID:32332851](../papers/32332851.md)
+- One patient (P19) in the Kothari et al. retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA RB1 signal despite 1596× coverage [PMID:32633890](../papers/32633890.md).
 
 ## Resistance mechanisms
 
@@ -58,3 +59,6 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32633890](../papers/32633890.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

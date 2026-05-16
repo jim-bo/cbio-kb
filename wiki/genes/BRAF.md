@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -122,6 +122,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Low RNA-protein correlation for BRAF observed across CCLE 375 cancer cell lines; BRAF mutation associated with broad changes in cell-motility and adhesion-protein levels [PMID:31978347](../papers/31978347.md)
 - Driver in 162 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
 - Two activating mutations identified in uterine leiomyosarcoma (uLMS): V600E (patient progressed within 4 weeks on a first-generation BRAF inhibitor) and K601E (class-2 dimer-dependent; patient achieved 4 months stable disease on a pan-RAF inhibitor); consistent with prior characterization of K601E as resistant to first-generation BRAF inhibitors [PMID:32299819](../papers/32299819.md)
+- Outlier BRAF hyperphosphorylation identified in TP53-mutant LUAD tumors by proteogenomic analysis; nominated as a driver-specific druggable kinase target [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -440,5 +441,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

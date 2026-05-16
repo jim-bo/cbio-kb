@@ -26,6 +26,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - Component of FOLFOX regimen and gemcitabine/platinum standard first-line chemotherapy (80% of 158 advanced cholangiocarcinoma patients); also appears as the platinum component of gemcitabine/platinum; median PFS 8.8 months [PMID:29848569](../papers/29848569.md)
 - Oxaliplatin-based regimens were among the cytotoxic chemotherapy options used in the 80-patient metastatic panNET cohort; the study noted that cytotoxic chemotherapy exposure (especially alkylators) was associated with hypermutation and grade progression [PMID:30687805](../papers/30687805.md)
 - Component of FOLFOX (5-FU + leucovorin + oxaliplatin) regimen used in ex vivo and in vivo rectal cancer tumoroid sensitivity assays; ex vivo FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md)
+- Platinum agent used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy in NCT02954536; 37 HER2-positive metastatic esophagogastric cancer patients achieved 91% ORR and 27.2-month median OS [PMID:32437664](../papers/32437664.md).
 
 ## Resistance mechanisms
 
@@ -54,5 +55,8 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32437664](../papers/32437664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

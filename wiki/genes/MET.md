@@ -58,6 +58,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Actionable amplification detected in one NSCLC case by cfDNA CNV calling; detection limited by low ctDNA fraction (<10%) [PMID:31768066](../papers/31768066.md)
 - Amplification in 2 GBM PDX; copy number gains in both IDH-mutant lines (GBM164, GBM196), consistent with secondary-glioblastoma literature; PTPRZ1–MET fusion detected in GBM PDX as a potentially targetable alteration [PMID:31852831](../papers/31852831.md)
 - MET exon 14 skipping was searched for but not enriched in the chaotic subtype of never-smoker lung adenocarcinoma (NS-LUAD) [PMID:32015526](../papers/32015526.md)
+- Overexpressed in EGFR-mutant LUAD tumors as part of the EGFR-driven proteogenomic signature in the CPTAC cohort (n=110) [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -198,5 +199,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

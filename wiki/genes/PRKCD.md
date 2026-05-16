@@ -3,8 +3,8 @@ symbol: PRKCD
 aliases: []
 cancer_types: [PCNSL]
 tags: [PCNSL-specific, biallelic-inactivation, kinase, NF-kB]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PRKCD
@@ -16,6 +16,7 @@ PRKCD (Protein Kinase C Delta) encodes a serine/threonine kinase involved in apo
 ## Alterations observed in the corpus
 
 - In primary central nervous system lymphoma ([PCNSL](../cancer_types/PCNSL.md)), PRKCD undergoes biallelic inactivation: splice-donor mutations (plus p.W608S missense in one case) co-occurring with monoallelic deletion of PRKCD in 2/10 WES cases; focal monoallelic deletions (<1 Mb) in an additional 3/18 aCGH cases. This pattern of biallelic inactivation is not reported in nodal DLBCL (COSMIC lists only 1/1,058 hematologic samples with PRKCD alteration). [PMID:25991819](../papers/25991819.md)
+- Hyperphosphorylated in KRAS-mutant LUAD tumors (CPTAC n=110); nominated as a druggable outlier kinase in KRAS-mutant LUAD with FDA-approved inhibitors; PRKCD is one of the driver-specific outlier kinases identified without corresponding CNA/RNA/protein changes [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ PRKCD (Protein Kinase C Delta) encodes a serine/threonine kinase involved in apo
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

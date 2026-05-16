@@ -67,6 +67,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - CheckMate-012 cohort: advanced NSCLC was 79% non-squamous (predominantly LUAD); high TMB (>158 nonsynonymous mutations) associated with ORR 51% vs 13% (OR 6.97, p=0.0005) and PFS median 17.1 vs 3.7 months (HR 0.41, p=0.0024) with nivolumab + ipilimumab; TMB independent of PD-L1 expression [PMID:29657128](../papers/29657128.md)
 - Lung adenocarcinoma (n=6, 7.9%) was among TRK fusion-positive tumor types in the MSK prospective cohort (n=26,312); driver-negative lung cancers are recommended for reflex RNA fusion testing given large NTRK2/3 introns that cause ~26% of fusions to be missed by DNA-only assays [PMID:31871300](../papers/31871300.md)
 - In 684 never-smoker lung adenocarcinomas (NS-LUAD; Sherlock-Lung + TCGA), NMF identified three transcriptomic subtypes — *steady* (HR=0.43, p=1.3×10⁻⁵), *proliferative* ([TP53](../genes/TP53.md)-enriched), and *chaotic* (EMT/fibroblast-enriched, HR=1.5 at 5y, p=0.031); a 60-gene signature validated in GIS cohort (n=110, c-index=0.682) [PMID:32015526](../papers/32015526.md).
+- CPTAC proteogenomic profiling of 110 treatment-naive LUAD tumors identified four multi-omics NMF subgroups; EGFR-mutant and ALK-fusion tumors showed outlier PTPN11/Shp2 phosphorylation nominating Shp2 inhibitors, and KRAS-mutant tumors showed outlier SOS1 S1161 phosphorylation; STK11 mutation strongly associated with immune-cold phenotype and neutrophil-degranulation protein signature [PMID:32649874](../papers/32649874.md)
 
 ## Subtypes
 
@@ -160,5 +161,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

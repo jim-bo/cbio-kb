@@ -56,6 +56,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Focal gain co-acquired with CDKN2A loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma (along with CDK6 and CCND2); this aneuploidy + cell-cycle alteration subgroup has significantly shorter survival (log-rank P < 0.0001), supporting potential use of CDK inhibitors at recurrence [PMID:31748746](../papers/31748746.md)
 - CDK4 amplification in 8% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside RB1 loss/mutation (16%) and CDK6 amplification (1%); MDM2 amplification (10%) often co-occurs in the same pathway context [PMID:31852831](../papers/31852831.md)
 - Kinase-activity inference flags CDK4 activation in CNV-high vs CNV-low endometrioid endometrial carcinoma; multiple FDA-approved CDK4/6 inhibitors are available as candidate therapeutics [PMID:32059776](../papers/32059776.md)
+- CDK4 protein abundance elevated in RB1-mutant LUAD, suggesting potential CDK4/6-inhibitor resistance mechanism [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -183,5 +184,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - Rho-pathway
   - salivary-gland
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ARHGEF5
@@ -19,6 +19,7 @@ ARHGEF5 (Rho Guanine Nucleotide Exchange Factor 5) encodes a Dbl-family GEF that
 ## Alterations observed in the corpus
 
 - Somatic Rho-GEF mutation identified in adenoid cystic carcinoma (ACYC), part of a broader Rho-pathway disruption alongside RHOA mutations present in 2 tumours [PMID:26862087](../papers/26862087.md)
+- Protein and Y1370 phosphosite elevated in never-smoker LUAD patients, peaking in ALK-fusion tumors; nominated as therapeutic target via auto-inhibitory peptides acting on Rho-GTPase activation [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ ARHGEF5 (Rho Guanine Nucleotide Exchange Factor 5) encodes a Dbl-family GEF that
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

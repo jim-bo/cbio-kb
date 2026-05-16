@@ -34,6 +34,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - Cited as an established endocrine-therapy resistance mechanism in ER+/HER2- metastatic breast cancer; trial context for buparlisib + letrozole in endocrine-refractory disease [PMID:31552290](../papers/31552290.md)
 - ESR1 late/subclonal mutations in metastatic breast cancer (MBC) detected in cfDNA as variants of uncertain somatic origin (VUSo) not captured by single tissue biopsy, illustrating cfDNA's advantage for sampling ITH [PMID:31768066](../papers/31768066.md)
 - ESR1 Y537S ligand-binding domain mutation in a metastatic LGESS patient on long-term aromatase inhibitor therapy; switching to fulvestrant produced tumor regression [PMID:32299819](../papers/32299819.md)
+- Mutations in 14/41 (34.1%) resistant vs 3/18 (16.7%) sensitive HR+/HER2- MBC biopsies; sensitive-tumor ESR1 mutants occurred exclusively in fulvestrant-treated patients, consistent with endocrine but not CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -108,5 +109,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

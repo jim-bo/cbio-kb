@@ -29,6 +29,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - 12% mutated newly recognized SMG in MIBC; also subject to epigenetic silencing in a mutually exclusive subset of tumors, suggesting both genetic and epigenetic inactivation mechanisms [PMID:28988769](../papers/28988769.md)
 - Altered in 40% (6/15) of vulvar squamous cell carcinomas irrespective of HPV status — the highest-frequency alteration alongside PIK3CA in this first genome-wide WES characterization of vulvar SCC [PMID:29422544](../papers/29422544.md)
 - Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC) [PMID:30052636](../papers/30052636.md)
+- Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- MBC biopsies in this cohort [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -86,5 +87,8 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

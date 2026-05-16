@@ -5,8 +5,8 @@ drug_class: CDK4/6 inhibitor
 canonical_source: corpus
 unverified: true
 tags: [HCC, CDK4/6]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ribociclib
@@ -18,6 +18,7 @@ Ribociclib is a CDK4/6 inhibitor that blocks G1-to-S cell cycle progression. It 
 ## Evidence in the corpus
 
 - Mentioned in comprehensive HCC molecular landscape review as a CDK4/6 inhibitor under evaluation in the context of RB1 LOF (4%) and homozygous deletion (5%) and CDKN2A deletions in HCC [PMID:24798001](../papers/24798001.md).
+- CDK4/6 inhibitor; included among the CDK4/6 inhibitor class (with palbociclib and abemaciclib) studied for resistance mechanisms in HR+/HER2- metastatic breast cancer by Wander et al.; 84.5% of the 58-patient cohort received palbociclib, with ribociclib and abemaciclib as alternatives [PMID:32404308](../papers/32404308.md).
 
 ## Resistance mechanisms
 
@@ -28,3 +29,6 @@ Ribociclib is a CDK4/6 inhibitor that blocks G1-to-S cell cycle progression. It 
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

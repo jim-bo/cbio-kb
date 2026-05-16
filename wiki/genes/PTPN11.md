@@ -3,7 +3,7 @@ symbol: PTPN11
 aliases: [SHP2]
 cancer_types: [LCH, ECD]
 tags: [ras-pathway]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -30,6 +30,7 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - PTPN11 (SHP2) pY542 phosphoprotein level is a dependency biomarker; phospho-level explains ponatinib sensitivity in AML and CML lines harboring FLT3, PDGFRA, FGFR1, KIT, or BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
 - PTPN11 is preferentially altered in recurrent lower-grade IDH-WT gliomas that started as grade II/III (P<0.05), alongside NF1 [PMID:31263031](../papers/31263031.md)
 - Altered in 9% of neuroblastoma PDX models (nonsense/frameshift mutations) in the PPTC genomic characterization study of 261 pediatric cancer PDX models [PMID:31693904](../papers/31693904.md).
+- Y62 phosphorylation (in EGFR-mutant [LUAD](../cancer_types/LUAD.md)) and Y546/Y584 phosphorylation (in ALK-fusion LUAD) identified by phosphoproteomics without changes in RNA or protein abundance; nominated as therapeutic target for EGFR-mutant and EML4-ALK-fusion LUAD [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -92,5 +93,8 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

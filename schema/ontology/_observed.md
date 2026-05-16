@@ -155,6 +155,9 @@
 - method: cbct-delta-radiomics — observed in PMID:41941260 — note: Cone-Beam CT daily-fraction delta radiomics standardized across ROBIN CBCT WG
 - method: sequenza — observed in PMID:29422544 — note: R/Bioconductor allele-specific CNA and LOH inference tool; used on 15 Korean vulvar SCC WES pairs alongside Nexus Copy Number
 - method: nexus-copy-number — observed in PMID:29422544 — note: BioDiscovery Nexus v7.5 ngCGH/RankSegmentation for CNA calling on 15 Korean vulvar SCC WES pairs; commercial platform
+- method: nmf-clustering — observed in PMID:32015526 — note: non-negative matrix factorization transcriptomic subtyping (Brunet algorithm, R NMF package); identified 3 NS-LUAD subtypes (steady, proliferative, chaotic) from 684 RNA-seq profiles
+- method: sfyncs — observed in PMID:32015526 — note: SFyNCS v0.15 RNA-seq fusion detection tool; used alongside STAR-Fusion in Sherlock-Lung NS-LUAD study; 11,947 fusions detected across 638/684 tumors
+- method: tide — observed in PMID:32015526 — note: Tumor Immune Dysfunction and Exclusion (TIDE) algorithm for computational prediction of immune checkpoint blockade response from tumor expression data
 - method: polysolver — observed in PMID:27149842 — note: HLA class I typing and somatic HLA mutation calling from WES; 11% of 619 CRCs had HLA mutations enriched in TIL-high tumors
 - method: netmhcpan — observed in PMID:26997480 — note: pan-allele MHC class I binding affinity predictor; used for neoepitope prediction in melanoma (v2.8) and CRC (v2.4) WES cohorts
 - drug: tazemetostat — observed in PMID:28196596 — note: EZH2 inhibitor (structurally related to tool compound EPZ011989); proposed combination with cisplatin/etoposide or irinotecan in SCLC to prevent SLFN11 silencing

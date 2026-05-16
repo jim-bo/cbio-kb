@@ -3,8 +3,8 @@ symbol: MKI67
 aliases: [Ki-67]
 cancer_types: [ODG, NBL, HNSC]
 tags: [proliferation-marker, immunohistochemistry, flow-cytometry, single-cell]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MKI67
@@ -20,6 +20,7 @@ MKI67 (marker of proliferation Ki-67) is a nuclear protein expressed exclusively
 - In HNSCC reirradiation plus [nivolumab](../drugs/nivolumab.md), MKI67 (Ki-67) co-expression with PD-1 on peripheral blood [CD4](../genes/CD4.md)+ T cells defined an early proliferative response marker; a surge in PD-1+Ki-67+[CD4](../genes/CD4.md)+ T cells (≥1.5-fold from baseline after cycle 1) trended with **worse** PFS — inverting expectations from lung cancer and melanoma where such surges correlate with benefit [PMID:38780927](../papers/38780927.md).
 - MKI67 (Ki-67) expression was measured in breast cancer samples undergoing whole-exome and RNA-seq profiling in a study that identified [SF3B1](../genes/SF3B1.md) somatic mutations and splicing dysregulation [PMID:22158541](../papers/22158541.md)
 - Used as a cell-cycle (Ki67) marker by dual IHC in a mouse VHL-knockout model; VKO cells show increased Ki67 positivity vs ConKO (p=0.049), an effect absent when both HIFa isoforms are co-deleted [PMID:23797736](../papers/23797736.md)
+- MKI67 (Ki-67) expression is low in the steady NS-LUAD subtype and high in the proliferative subtype, anchoring the proliferation axis of the three-subtype NMF classification across 684 never-smoker lung adenocarcinomas [PMID:32015526](../papers/32015526.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ MKI67 (marker of proliferation Ki-67) is a nuclear protein expressed exclusively
 - [PMID:23797736](../papers/23797736.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

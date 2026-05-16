@@ -40,6 +40,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2 gene fusions detected in 14% of intrahepatic cholangiocarcinoma (IHC) patients in a prospective MSK-IMPACT cohort (n=195); fusion partners include BICC1 and KIAA1217; exclusive to IHC subtype and targeted by infigratinib and pan-FGFR inhibitors. [PMID:29848569](../papers/29848569.md)
 - FGFR2 fusions noted as therapeutically relevant; n=2 patients enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
 - FGFR2-related fusion events occur in 6.5% of 133 pan-Asia cHCC-ICC cases and may identify a subset targetable by FGFR inhibitors [PMID:31130341](../papers/31130341.md)
+- FGFR2 is among cancer-associated genes inside significant copy-number-loss peaks (GISTIC2.0) in driverless tumor cases in the PCAWG pan-cancer WGS cohort [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -129,5 +130,8 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

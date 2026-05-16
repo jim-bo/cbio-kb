@@ -23,6 +23,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - SWI/SNF subunit mutated collectively with ARID1A and ARID2 in 33% of WNT medulloblastomas; provides rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
 - BRG1 (SMARCA4) knockout in A704 ccRCC cells phenocopies several BAF180-null (PBRM1-null) transcriptional changes, including immune and cytokine signaling enrichment, supporting a PBAF-complex-wide immune-priming mechanism. [PMID:29301960](../papers/29301960.md)
 - Inactivating focal deletions, frameshifts, or nonsense mutations in SMARCA4 observed in all ATRT and extracranial MRT PDX models in the PPTC 261-model study; three astrocytic tumors also carried SMARCB1 hemizygous deletions [PMID:31693904](../papers/31693904.md).
+- Hyperphosphorylated in CNV-high endometrial tumors; noted as targetable by FDA-approved drugs [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

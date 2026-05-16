@@ -13,8 +13,8 @@ tags:
   - aml
   - mds
   - epigenetic-therapy
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # decitabine
@@ -33,6 +33,7 @@ Decitabine (5-aza-2'-deoxycytidine) is a cytosine nucleoside analog that is inco
 - **Pharmacology and methylation are not predictive**: steady-state plasma decitabine on day 4 of cycle 1 did not correlate with response; reduction in CpG methylcytosine from day 0 to day 10 was similar between responders and non-responders (P=0.19 by ANOVA) [PMID:27959731](../papers/27959731.md)
 - **Allogeneic SCT had the largest survival effect**: Cox stepwise regression — SCT vs no SCT, P<0.001; benefit not adversely affected by [TP53](../genes/TP53.md) status; decitabine proposed as bridge to transplant in TP53-mutant ultra-high-risk AML/MDS [PMID:27959731](../papers/27959731.md)
 - Combined with [panobinostat](../drugs/panobinostat.md) (10 mg three times weekly) in 3 patients in the 5-day decitabine extension cohort at WashU [PMID:27959731](../papers/27959731.md)
+- DNMT1 is hyperphosphorylated in DDR-high endometrioid and serous EC tumors in the CPTAC cohort (n=95); decitabine (along with azacitidine) is proposed as a candidate FDA-approved DNMT inhibitor for elevated-DNA-damage EC beyond traditional PARP inhibitors [PMID:32059776](../papers/32059776.md)
 
 ## Resistance mechanisms
 
@@ -47,5 +48,6 @@ Decitabine (5-aza-2'-deoxycytidine) is a cytosine nucleoside analog that is inco
 ## Sources
 
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU single-arm prospective trial of 10-day decitabine in AML/MDS (N=116); TP53 mutation as positive predictor of response; incomplete mutation clearance; SCT as dominant survival predictor.
+- [PMID:32059776](../papers/32059776.md) — Dou et al. 2020, *Cell*. CPTAC proteogenomic characterization of 95 EC tumors; DNMT1 hyperphosphorylation in DDR-high tumors; decitabine proposed as therapeutic candidate.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

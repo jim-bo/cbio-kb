@@ -13,8 +13,8 @@ tags:
   - aml
   - mds
   - epigenetic-therapy
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # azacitidine
@@ -29,6 +29,7 @@ Azacitidine (5-azacytidine, Vidaza) is a pyrimidine nucleoside analog hypomethyl
 - [TP53](../genes/TP53.md)-mutant [AML](../cancer_types/AML.md) and [MDS](../cancer_types/MDS.md) are recognized as the population most likely to respond to HMAs including azacitidine, consistent with the 100% blast-clearance rate seen with 10-day decitabine in TP53-mutant patients; azacitidine's TP53-predictive value is inferred by analogy [PMID:27959731](../papers/27959731.md)
 - 5-Azacitidine (DNA methylation inhibitor) did NOT re-express SLFN11 in SCLC PDX cells, in contrast to EZH2 inhibitor EPZ011989; this implicates histone rather than DNA methylation as the dominant SLFN11 silencing mechanism in SCLC chemoresistance [PMID:28196596](../papers/28196596.md).
 - 1 KDM5C-frameshift UMD patient derived 6-month stable disease on off-label azacitidine in 860-patient MSK-IMPACT LUAD cohort [PMID:28336552](../papers/28336552.md).
+- DNMT1 is hyperphosphorylated in DDR-high endometrioid and serous EC tumors in the CPTAC cohort (n=95); the authors propose FDA-approved DNMT inhibitor azacitidine as a candidate therapeutic in elevated-DNA-damage EC beyond traditional PARP inhibitors [PMID:32059776](../papers/32059776.md)
 
 ## Resistance mechanisms
 
@@ -42,11 +43,8 @@ Azacitidine (5-azacytidine, Vidaza) is a pyrimidine nucleoside analog hypomethyl
 ## Sources
 
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU 10-day decitabine AML/MDS trial; azacitidine referenced as parallel HMA comparator; TP53-mutant AML as HMA-responsive population.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
+- [PMID:32059776](../papers/32059776.md) — Dou et al. 2020, *Cell*. CPTAC proteogenomic characterization of 95 EC tumors; DNMT1 hyperphosphorylation in DDR-high tumors; azacitidine proposed as therapeutic candidate.
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -135,6 +135,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Copy-number loss (homozygous in 2 ROIs, heterozygous in 3 ROIs) called by FACETS from IMPACT468 in localized prostate adenocarcinoma; homozygous PTEN loss tracked with highest HP lactate signal (P=0.059), consistent with PI3K-pathway de-repression driving increased glycolytic flux [PMID:31564440](../papers/31564440.md).
 - Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
 - Alteration in 48% of GBM PDX (n=84); GBM168 patient carried a private PTEN alteration not detected in the matched PDX, illustrating divergence during engraftment [PMID:31852831](../papers/31852831.md)
+- Pan-cancer PCAWG driver in 269 tumors [PMID:32025007](../papers/32025007.md)
+- Mutated in 92% of MSI endometrial tumors (FDR = 0) in the CPTAC EC multi-omic cohort [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -414,5 +416,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

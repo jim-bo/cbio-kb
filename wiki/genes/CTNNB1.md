@@ -76,6 +76,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 mutation frequency is paradoxically low at 6% in 133 cHCC-ICC cases vs HCC reference cohorts; enriched in P4 transcriptomic cluster (Hoshida-S3, well-differentiated HCC-like) [PMID:31130341](../papers/31130341.md)
 - CTNNB1 is recurrently altered in metastatic castration-resistant prostate cancer (mCRPC) but not significantly prognostic for survival or time on ARSI in a 429-patient tumor biopsy cohort [PMID:31061129](../papers/31061129.md)
 - Mutations in 15% of Wilms tumor PDX models (KT-6 and NCH-WT-6-S13-1506), mutually exclusive with AMER1/WTX alterations; also p.D32G in a pediatric hepatic model in the PPTC PDX dataset [PMID:31693904](../papers/31693904.md)
+- Exon 3 hotspot mutations centered at S33 (phosphosites Y30, S33, T40; mutations D32, G34) found in 23/95 endometrial carcinoma tumors; increases Wnt-pathway activity, β-catenin protein, and H2B N-terminal acetylation (K16/K20/K24); identifies subset of low-grade, low-stage endometrioid tumors with potentially worse prognosis [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -223,5 +224,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

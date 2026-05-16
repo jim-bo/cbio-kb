@@ -39,6 +39,7 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - Included in TCGA PanCancer Atlas integrative molecular analysis; ESCA showed <50% of samples in any single iCluster; non-squamous ESCA co-clusters in pan-GI group; squamous ESCA co-clusters in pan-squamous group [PMID:29625048](../papers/29625048.md)
 - NRF2/oxidative-stress pathway alterations in esophagogastric squamous (ESCC) at 23%; ERBB2 alterations prominent in chromosomally-unstable esophagogastric tumors; EBV+ esophagogastric shows 80% PI3K pathway alteration rate [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for ESCA [PMID:29625055](../papers/29625055.md)
+- Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); esophageal adenocarcinoma analyzed for somatic driver landscape and mutational processes [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -90,5 +91,8 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

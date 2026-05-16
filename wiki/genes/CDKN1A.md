@@ -26,6 +26,8 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 - Cell-cycle gene alterations including CDKN1A increased significantly with stage (p = 0.028) and grade (p = 0.009) across 105 nonmuscle invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)) tumors; [TP53](../genes/TP53.md)/[MDM2](../genes/MDM2.md) and cell-cycle pathway alterations ([RB1](../genes/RB1.md), [CCND1](../genes/CCND1.md), CDKN1A, [CDKN2A](../genes/CDKN2A.md)) co-enriched with stage [PMID:28583311](../papers/28583311.md)
 - placeholder
 - Recurrently mutated in UTUC at frequencies not significantly different from TCGA UCB; part of the cell-cycle gene set surveyed in the molecular characterization of upper-tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
+- TP53/MDM2/CDKN1A knockdown sensitivities co-vary with cell-division-related protein complexes in the CCLE pan-cancer proteome (375 cancer cell lines, 42 TMT 10-plexes) [PMID:31978347](../papers/31978347.md)
+- CDKN1A (p21) protein anticorrelated with 1q-encoded histone modifiers SETDB1, SDE2, PARP1, and GATAD2B in MSI endometrial carcinoma tumors, consistent with p53-pathway suppression [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -76,5 +78,11 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

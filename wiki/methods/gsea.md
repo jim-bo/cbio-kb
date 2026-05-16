@@ -33,6 +33,8 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - Used for transcriptomic pathway enrichment analysis across four PLC clusters (n=367): EMT identified as top enriched pathway in P1 (combined-type/ICC-like cHCC-ICC); xenobiotic and bile acid metabolism enriched in P2 (mixed-type/HCC-like) [PMID:31130341](../papers/31130341.md)
 - Applied in the UTUC molecular subtyping analysis for pathway comparison between the T-cell-depleted and T-cell-inflamed clusters and between UTUC and TCGA UCB; IFNG-response gene programs were down in the T-cell-depleted cluster [PMID:31278255](../papers/31278255.md)
 - Applied on Hallmark and TissGDB/TiGER gene sets across 244 RNA-seq PPTC PDX models to characterize pathway enrichment by histology subtype; identified enrichment of hedgehog, TNFα, and p53 signaling in rhabdoid models [PMID:31693904](../papers/31693904.md).
+- Applied in the Sherlock-Lung NS-LUAD transcriptomic subtyping study (n=684 tumors) to characterize pathway enrichment across steady, proliferative, and chaotic subtypes [PMID:32015526](../papers/32015526.md).
+- Used (as fgsea) in the CCLE proteomics study (n=375 cell lines, 22 lineages) to identify pathway enrichment along proteome PC1; >200 MSigDB pathways enriched along proteome PC1 vs. far fewer along matched RNA-seq PC1, demonstrating that protein-level pathway co-expression dominates the CCLE proteome axis [PMID:31978347](../papers/31978347.md).
 
 ## Notes
 
@@ -88,5 +90,11 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -7,7 +7,7 @@ tags:
   - melanoma
   - skin-cancer
   - UV-mutagenesis
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -46,6 +46,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - CCLE multi-omic profiling demonstrated that SOX10 promoter hypomethylation and expression are restricted to melanoma (SKCM) cell lines and selectively predict SOX10 knockdown sensitivity, establishing a lineage-specific synthetic lethality mechanism [PMID:31068700](../papers/31068700.md).
 - Cutaneous melanoma (SKCM, n=105, 72.9% of cohort) was the dominant subtype in a 144-patient anti-PD1 ICB study; TMB was higher in cutaneous/occult (median 297.5 nonsynonymous mutations) versus acral/mucosal (58; P=1.1e-6); MHC-II HLA expression, TAP2 and MHC-I HLA amplification identified as response predictors; BRAF 39%, NRAS 30%, NF1 17% mutation frequencies [PMID:31792460](../papers/31792460.md)
 - Cutaneous/skin melanoma was among TRK fusion-positive tumor types in the MSK prospective cohort (n=5, 6.6%); one melanoma with GON4L-NTRK1 + NRAS Q61R co-mutation was the only TRK fusion-positive case with a co-occurring canonical MAPK driver and showed progressive disease on larotrectinib [PMID:31871300](../papers/31871300.md)
+- In PCAWG, cutaneous melanoma had high chromothripsis frequency; APOBEC C>N mutagenesis dominated kataegis (81.7% of foci), correlating with APOBEC3B expression; chromothripsis in melanoma frequent across all histotypes [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -127,5 +128,8 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

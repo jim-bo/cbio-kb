@@ -69,6 +69,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Mutated as part of the histone modification/DNA methylation pathway (jointly with IDH1, BAP1, EZH2 in 35.6% of cHCC-ICC cases); linked to combined hepatocellular and intrahepatic cholangiocarcinoma molecular subtypes. [PMID:31130341](../papers/31130341.md)
 - Recurrently mutated in upper tract urothelial carcinoma (UTUC) at frequencies comparable to TCGA UCB. [PMID:31278255](../papers/31278255.md)
 - Altered in 12.8% of R/M adenoid cystic carcinoma vs. 4.5% of primaries in a multi-institutional cohort; enriched in relapsed/metastatic disease alongside other chromatin-remodeling genes [PMID:31483290](../papers/31483290.md).
+- KMT2D is an H3K4 methyltransferase downregulated in MSI cancer cell lines (CCLE); H3K4me1 and H3K4me2 marks are correspondingly reduced [PMID:31978347](../papers/31978347.md)
+- KMT2D is among genes downstream of TP53/CTNNB1/ARID1A mutations in trans in endometrial cancer proteogenomics [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -246,5 +248,11 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

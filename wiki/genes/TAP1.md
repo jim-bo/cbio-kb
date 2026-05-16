@@ -3,7 +3,7 @@ symbol: TAP1
 aliases: [ABCB2, APT1, PSF1, RING4, Y3]
 cancer_types: [HGSOC]
 tags: [antigen-presentation, interferon-response, immune-evasion, ovarian-cancer-precursor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -20,6 +20,7 @@ TAP1 (Transporter Associated with Antigen Processing 1) is a component of the MH
 - TAP1 expression is part of a coordinated HLA-E-positive antigen-presentation program in STIC.I epithelium (co-expressed with [HLA-A](../genes/HLA-A.md), [HLA-B](../genes/HLA-B.md), HLA-DRA, TAPBP, complement genes, [MYC](../genes/MYC.md), and multiple ISGs) [PMID:39386723](../papers/39386723.md).
 - Component of the MHC class I antigen-processing machinery (APM); enriched for somatic mutations in TIL-rich colorectal tumors, consistent with immune-escape selection pressure, in a cohort of 619 CRC cases [PMID:27149842](../papers/27149842.md).
 - TAP1 showed only rare mutations in MHC-I antigen-presentation genes in a melanoma anti-PD1 cohort (n=120); no significant association with response observed [PMID:31792460](../papers/31792460.md)
+- Reduced antigen-peptide-transporter protein levels observed in TMB-H/APM-L endometrial tumors lacking JAK1/STAT1 mutations, contributing to immune evasion [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -48,3 +49,6 @@ TAP1 (Transporter Associated with Antigen Processing 1) is a component of the MH
 - [PMID:31792460](../papers/31792460.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

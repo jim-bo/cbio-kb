@@ -97,6 +97,9 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR T790M — example of subclonal NSCLC resistance mutation detected as variant of uncertain somatic origin (VUSo) in cfDNA, not captured by single tissue biopsy [PMID:31768066](../papers/31768066.md)
 - EGFR is the dominant RTK alteration in the Mayo GBM PDX panel: amplification in 42% (35/83), 14 SNVs across 12 PDX, exon-deletion variants in 16 PDX (EGFRvIII n=11, EGFRvII n=2, C-terminal deletion n=2, Δexon6–7 n=1); amplification preserved in 100% of 24 matched patient–PDX pairs [PMID:31852831](../papers/31852831.md)
 - Focal EGFR amplification (19.6×) acquired at progression in a glioblastoma after loss of a TPM3-NTRK1 fusion on a brain-penetrant TRK inhibitor — representing an off-target clonal escape mechanism [PMID:31871300](../papers/31871300.md)
+- High RNA-protein correlation (contrasting with low BRAF correlation) in the CCLE pan-cancer proteome; EGFR-targeting drugs constituted the largest subset of compounds whose sensitivity correlated with the proteome-wide EMT axis (PC1) [PMID:31978347](../papers/31978347.md)
+- Mutations more frequent in the steady subtype of NS-LUAD (p=3.65×10⁻³, not FDR-significant); consistent with previously reported slow growth of EGFR-positive NS-LUAD tumors; EGFR mutation used in the 'Mutation model' Cox prognostic comparator [PMID:32015526](../papers/32015526.md)
+- Focally amplified in glioblastoma chromothripsis events in the PCAWG pan-cancer cohort (n=2,658 donors) [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -304,5 +307,14 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

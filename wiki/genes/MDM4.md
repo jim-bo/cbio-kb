@@ -26,6 +26,8 @@ processed_at: 2026-05-16
 - Amplification co-identified with MDM2 in 8 NSCLC patients; no significant difference in PFS on anti-PD-(L)1 therapy (HR 1.4, P=.44); hyperprogression signal not reproduced in this cohort [PMID:29337640](../papers/29337640.md)
 - MDM4 exon-6 inclusion (MDM4-FL) is a predictive biomarker for MDM4 dependence and MDM2 inhibitor nutlin-3a sensitivity in TP53 wild-type cancer cell lines; RPL22 K15fs frameshift (in 68% of MSI lines) drives RPL22L1 upregulation which promotes MDM4 exon-6 inclusion. [PMID:31068700](../papers/31068700.md)
 - Amplification in 2% of GBM PDX (n=84); co-occurs with MDM2 amplification as an alternative mechanism of p53 pathway inactivation in GBM [PMID:31852831](../papers/31852831.md)
+- MDM4 splicing is tied to RPL22L1 protein levels in the CCLE proteomics dataset [PMID:31978347](../papers/31978347.md)
+- MDM4 mRNA increases with 1q copy number in MSI endometrial carcinoma tumors (p < 0.01, Spearman), identifying it as a candidate p53-pathway suppressor on amplified 1q; MDM4 protein was not detected at sufficient abundance to confirm the model directly [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -55,5 +57,11 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

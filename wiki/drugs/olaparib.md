@@ -12,7 +12,7 @@ tags:
   - pancreatic-cancer
   - sarcoma
   - functional-precision-medicine
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -39,6 +39,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - Cited as level 2B matched therapy for BRCA1/BRCA2 likely-inactivating mutations in 860-patient MSK-IMPACT LUAD cohort based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient with BRCA1/BRCA2 truncating mutations received matched PARP-inhibitor therapy due to off-label barriers; basket trials NCT02201212 and NCT02675829 opened to address this gap [PMID:28336552](../papers/28336552.md).
 - 22% somatic HR-gene alteration rate (BRCA2 7%, ATM 5%, CDK12 7%) and 27% combined germline+somatic DDR-gene rate in 451 prostate cancer patients identifies candidates for olaparib and platinum-based therapy (per TOPARP-A and case-series citations) [PMID:28825054](../papers/28825054.md)
 - PARP inhibitor highlighted as a therapeutic opportunity for younger Asian TNBC patients based on significantly higher BRCA1/BRCA2 germline mutation prevalence (10.8% vs 4.7% TCGA) and HRD signature S3 enrichment in 85% of SMC TNBC vs 52% of TCGA TNBC (FE p=7e-4) [PMID:29713003](../papers/29713003.md)
+- CDK12 hyperphosphorylation in CNV-high endometrial carcinomas (CPTAC cohort, n=95) is proposed to sensitize EC to olaparib analogously to ovarian cancer (Bajrami et al., 2014); the PARP1 gene is also identified as a 1q-encoded histone modifier anticorrelated with p53-pathway target proteins in this proteogenomic study [PMID:32059776](../papers/32059776.md)
 
 ## Resistance mechanisms
 
@@ -67,8 +68,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 
 - [PMID:28336552](../papers/28336552.md)
 - [PMID:28825054](../papers/28825054.md) — Abida et al. 2017, MSK-IMPACT pan-prostate cancer profiling; 22% somatic HR-gene alteration rate and 27% combined germline+somatic DDR rate nominate olaparib candidacy.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713003](../papers/29713003.md)
+- [PMID:32059776](../papers/32059776.md) — Dou et al. 2020, *Cell*. CPTAC proteogenomic characterization of 95 EC tumors; CDK12 hyperphosphorylation in CNV-high EC proposed to sensitize to olaparib analogously to ovarian cancer.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

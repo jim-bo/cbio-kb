@@ -9,7 +9,7 @@ unverified: false
 assays: [MUTATION_EXTENDED, COPY_NUMBER_ALTERATION, MRNA_EXPRESSION, PROTEOMICS]
 panels: []
 tags: [cell-line, pharmacogenomics, multi-omic, pan-cancer]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -37,6 +37,7 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 - [PMID:22460905](../papers/22460905.md) — Primary CCLE publication describing the resource and pharmacogenomic findings.
 - [PMID:24686850](../papers/24686850.md) — Lin et al. (2014): CCLE cell-line expression data used to cross-reference ZNF750 mRNA expression in the context of ESCC genomic characterization.
 - [PMID:28196596](../papers/28196596.md) — Gardner et al. 2017, *Cancer Cell*: CCLE bi-modal SLFN11 expression data used to validate that SLFN11 expression is lower in SCLC cell lines derived from previously-treated patients.
+- [PMID:31978347](../papers/31978347.md) — Nusinow et al. 2020, *Cell*: 375 CCLE cell lines profiled by TMT proteomics; annotations drawn from this cohort.
 
 ## Notable findings derived from this cohort
 
@@ -50,17 +51,15 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 - [SLFN11](../genes/SLFN11.md) expression analyzed across CCLE SCLC cell lines to confirm bimodal distribution; lower expression in lines derived from previously-treated patients (p=0.031), supporting SLFN11 as a treatment-experience-dependent biomarker in SCLC [PMID:28196596](../papers/28196596.md).
 - Next-generation CCLE multi-omic profiling of 1,072 cancer cell lines layered WES/WGS/RNA-seq/RPPA/RRBS/miRNA/histone mass-spec on the original CCLE backbone; this cell-line resource underpins all dependency and drug-sensitivity analyses in the study [PMID:31068700](../papers/31068700.md)
 - Queried for ER+ breast cancer cell-line mutation status; no ER+ line in CCLE harbors both MAP3K1 loss and PIK3CA mutation — likely because luminal A tumors poorly tolerate cell-line establishment — leaving the prototypic double-altered genotype unmodeled in vitro [PMID:31552290](../papers/31552290.md).
+- Proteomics extension of the CCLE: 375 CCLE cell lines across 22 lineages profiled by TMT proteomics; cell-line annotations and mutation calls drawn from this cohort to support complex-level biomarker and synthetic-lethality analyses [PMID:31978347](../papers/31978347.md)
 
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
 - [PMID:24686850](../papers/24686850.md)
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
+- [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

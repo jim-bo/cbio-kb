@@ -42,6 +42,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - Germline pathogenic/likely pathogenic carrier identified in panNET cohort (MSK-IMPACT, 80 patients); classified as a moderate-penetrance germline susceptibility gene [PMID:30687805](../papers/30687805.md)
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; matched WBC sequencing required to distinguish CH-derived CHEK2 variants from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Present in the original oligodendroglioma that gave rise to recurrent GBM154; CHEK2 (along with TERT promoter mutation and 1p/19q co-deletion) was retained in the high-grade recurrent PDX, while CIC and FUBP1 were lost [PMID:31852831](../papers/31852831.md)
+- CHEK2 S163 phosphosite elevated in serous endometrial carcinoma tumors; PLK1-driven inactivation of the DDR and G2M-checkpoint progression identified in the proteogenomic analysis [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -123,5 +124,8 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

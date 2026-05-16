@@ -50,6 +50,8 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Significantly reduced transcript and protein expression (by IHC) in UTUC vs UCB in the absence of germline or somatic mutations; insufficient reduction to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
 - Germline variants detected in 15/90 (16.7%) of R/M adenoid cystic carcinoma cases at MSKCC; all tumors remained microsatellite-stable despite germline MMR variants [PMID:31483290](../papers/31483290.md).
 - Hypermethylated MLH1 enriched in TRK fusion-positive CRC (6/7 MSI-H cases); TRK fusions in CRC co-occur with wild-type BRAF and KRAS in this MSI-H context [PMID:31871300](../papers/31871300.md)
+- MLH1 protein is downregulated in MSI cell lines in the CCLE proteomic dataset; its abundance predicts WRN knockdown sensitivity in the context of the mismatch-repair complex [PMID:31978347](../papers/31978347.md)
+- MLH1 is silenced by promoter methylation in MSI endometrial carcinoma tumors (CPTAC cohort, n=95); MLH1 protein is downregulated and co-methylation silences EPM2AIP1 via a shared promoter [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -163,5 +165,11 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -45,6 +45,9 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for UCEC [PMID:29625055](../papers/29625055.md)
 - MSI-H detected in 31.4% of endometrial carcinoma cases — highest prevalence among all 39 cancer types analyzed by MANTIS WES caller across 11,139 TCGA/TARGET tumors; one of four classic Lynch syndrome-associated cancer types [PMID:29850653](../papers/29850653.md)
 - 189 patients / 197 advanced endometrial tumors profiled by MSK-IMPACT (341 or 410 gene panel); 95% advanced disease; PI3K/AKT/mTOR pathway altered in 70%, RTK/RAS/beta-catenin in 65%; 67% had ≥1 actionable alteration; genomic MSI calling rescued one MMR-proficient-by-IHC case; novel CN Cluster C (heterozygous losses) had worse PFS1 (median 9.6 vs 17.0/17.4 months, p=0.006) [PMID:30068706](../papers/30068706.md)
+- In PCAWG, ovarian and uterine adenocarcinoma showed SV dominance over point mutations (ovary: 5.8 ± 2.6 SVs vs 1.9 ± 1.0 point mutations, P < 1×10⁻¹⁶) [PMID:32025007](../papers/32025007.md).
+- In CCLE proteomics, [RPL22](../genes/RPL22.md) mutation — a hotspot in MSI endometrial cancers — uniquely associated with proteome-level changes in MSI-associated complexes (mismatch repair, SKI complex, H3K4 methyltransferases); only ~50 proteins differentially expressed in MSI vs >1,000 mRNAs [PMID:31978347](../papers/31978347.md).
+- CPTAC proteogenomics of 95 endometrial carcinomas (83 endometrioid, 12 serous); four genomic subtypes (POLE n=7, MSI n=25, CNV-low n=43, CNV-high n=20); MSI tumors: [PTEN](../genes/PTEN.md) 92%, [ARID1A](../genes/ARID1A.md) 76%, [RPL22](../genes/RPL22.md) 64%, [JAK1](../genes/JAK1.md) 44%; TMB alone insufficient for ICB selection — APM deficiency (JAK1/STAT1 truncations, reduced TAP1/TAP2/HLA) marks immune-evasion subgroup [PMID:32059776](../papers/32059776.md).
 
 ## Subtypes
 
@@ -100,5 +103,14 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

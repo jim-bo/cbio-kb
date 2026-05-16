@@ -9,8 +9,8 @@ tags:
   - skin-cancer
   - structural-variation
   - tert
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Acral Melanoma (ACRM)
@@ -36,6 +36,7 @@ Acral melanoma (acral lentiginous melanoma, ALM) is a rare melanoma subtype aris
 - [ADCY2](../genes/ADCY2.md) — most-rearranged gene in the cohort: 32 breakpoints across 7 samples (21% of patients); partners include [CLPTM1L](../genes/CLPTM1L.md), TERT, [HECTD4](../genes/HECTD4.md), [UBE2QL1](../genes/UBE2QL1.md) [PMID:28373299](../papers/28373299.md).
 - [MDM2](../genes/MDM2.md) — copy gain in metastases only; [MDM2](../genes/MDM2.md):GNS and MDM2:CCT2 RNA fusions detected [PMID:28373299](../papers/28373299.md).
 - [KIT](../genes/KIT.md) — single L576P mutation (1 patient) [PMID:28373299](../papers/28373299.md).
+- Included in PCAWG (n=2,658 WGS tumors across 38 types); chromothripsis-induced co-amplification of [TERT](../genes/TERT.md) + [CCND1](../genes/CCND1.md) identified as a very early event in acral melanoma, with chr-11 chromothripsis affecting 11/21 acral/mucosal melanomas [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -54,3 +55,6 @@ Acral melanoma (acral lentiginous melanoma, ALM) is a rare melanoma subtype aris
 - [PMID:28373299](../papers/28373299.md) — Liang et al. 2017; integrated WES/LIWGS/RNA-seq of 38 ALM tumors; first comprehensive genomic landscape of ACRM.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -21,6 +21,7 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - E282Rfs*9 frameshift mutation observed in 1/19 sequenced oligodendroglioma tumors [PMID:28472509](../papers/28472509.md)
 - Identified as a significantly mutated gene (SMG) in kidney renal clear cell carcinoma (KIRC), called by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF [PMID:29596782](../papers/29596782.md)
 - Altered in 18% (14/80) of metastatic panNET patients; predominantly truncating loss-of-function; enriched in G2/G3 tumors and post-treatment biopsies; positioned as a panNET tumor suppressor (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
+- Novel recurrent CNA-driven loss in driverless group-4 medulloblastoma (P < 1×10⁻⁴); decreased expression (P = 0.002) in the PCAWG pan-cancer cohort [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +54,8 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

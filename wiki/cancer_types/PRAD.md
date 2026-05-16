@@ -4,7 +4,7 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -57,6 +57,7 @@ OncoTree code for prostate adenocarcinoma.
 - SU2C mCRPC cohort expanded to 429 patients (444 tumors) profiled by WES and RNA-seq; RB1 alteration is the dominant independent prognostic biomarker (multivariate RR 3.31 OS, RR 6.56 time on ARSI); AR-V7 tumor-tissue detection is not prognostic; 10.5% of post-ARSI tumors show neuroendocrine histologic features [PMID:31061129](../papers/31061129.md).
 - HP [1-13C] pyruvate MRI in 12 PRAD patients: Lac_max significantly higher in tumor vs normal prostate (p=0.0001 Gleason 3, p<0.0001 Gleason ≥4) and rose with grade; MCT1 (SLC16A1) identified as rate-limiting lactate transporter by IHC; homozygous PTEN loss trended with highest Lac_max (p=0.059); TMPRSS2-ERG fusion did not segregate lactate signal [PMID:31564440](../papers/31564440.md).
 - Castration-resistant prostate cancer (CRPC, n=44–55 evaluable) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 82% of CRPC patients; AR mutations were recoverable as subclonal VUSo; one MSI-H CRPC patient identified solely from cfDNA had rapid sustained response to anti-PD-L1 therapy [PMID:31768066](../papers/31768066.md)
+- In PCAWG, prostate adenocarcinoma showed chromoplexy as a prominent mutational process and [TP53](../genes/TP53.md) association with chromothripsis (OR=2.6); chromothripsis was clonal and early in prostate cancer [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -126,5 +127,8 @@ OncoTree code for prostate adenocarcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

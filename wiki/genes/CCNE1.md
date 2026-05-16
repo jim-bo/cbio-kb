@@ -54,6 +54,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - CCNE1 amplification co-occurs with TP53 mutation in the cell-cycle pathway; is part of the broader cell-cycle driver co-alteration cluster (with CDKN2A, RB1, CDK4, CDK6, E2F3) that is widely altered pan-cancer but rarely in UVM, THYM, TGCT, or LAML [PMID:29625050](../papers/29625050.md)
 - In DLBCL, FBXW7 mutations cluster (CLUMPS) at the acceptor groove that impairs CCNE1 recognition, implicating CCNE1 as a substrate of the FBXW7 ubiquitin ligase in this tumor type [PMID:29713087](../papers/29713087.md)
 - Focal amplification in 24% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases; one of the most recurrent copy-number gains alongside MYC (73%), MET (24%), and CDK6 (20%) [PMID:31130341](../papers/31130341.md)
+- Frequently copy-number altered in uterine corpus endometrial carcinoma (CPTAC proteogenomic cohort, n=95), consistent with TCGA EC findings [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -163,5 +164,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

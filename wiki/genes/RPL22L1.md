@@ -3,7 +3,7 @@ symbol: RPL22L1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,8 @@ RPL22L1 (Ribosomal Protein L22 Like 1) is a paralogue of [RPL22](../genes/RPL22.
 ## Alterations observed in the corpus
 
 - RPL22 K15fs frameshift (68% of MSI cancer cell lines) leads to elevated RPL22L1 expression, which promotes MDM4 exon-6 inclusion and MDM4 dependence; RPL22L1 over-expression marks RPL22L1 dependency; identified in CCLE multi-omic profiling integrated with Project Achilles and DRIVE dependency screens [PMID:31068700](../papers/31068700.md)
+- Derepressed upon RPL22 loss; downregulated in MSI CCLE lines; sensitivity to RPL22L1 knockdown is best predicted by SKIC2 protein abundance, suggesting an association with the SKI complex/ribosome rather than MSI causation per se [PMID:31978347](../papers/31978347.md)
+- RPL22L1 protein upregulated in MSI endometrial tumors, especially in RPL22-mutant tumors (p = 0.002), supporting a synthetic-lethal relationship with RPL22 [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +40,9 @@ RPL22L1 (Ribosomal Protein L22 Like 1) is a paralogue of [RPL22](../genes/RPL22.
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

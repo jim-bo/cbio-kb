@@ -4,8 +4,8 @@ oncotree_code: MPN
 main_type: Myeloproliferative Neoplasms
 parent: MNM
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Myeloproliferative Neoplasms (MPN)
@@ -21,6 +21,7 @@ Myeloproliferative Neoplasms (MPN) is a group of clonal hematopoietic stem cell 
 ## Recurrent alterations
 
 - Whole-exome sequencing of 151 MPN patients (48 PV, 62 ET, 39 MF, 2 unclassifiable) discovered recurrent somatic CALR exon 9 frameshift indels in 70-84% of JAK2/MPL-negative MPN cases; JAK2, MPL, and CALR mutations were mutually exclusive in 97% of patients, collectively covering virtually all MPN drivers. Median mutations per patient: 6.5 (PV/ET), 13.0 (MF; P<0.001 vs ET). [PMID:24325359](../papers/24325359.md)
+- In PCAWG, [JAK2](../genes/JAK2.md) V617F driver was missed in 35 myeloproliferative neoplasms because panels-of-normals built from blood samples filtered the mutation (2–5% of healthy individuals carry occult haematopoietic clones); illustrates a critical bioinformatic failure mode for WGS in myeloid disease [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Myeloproliferative Neoplasms (MPN) is a group of clonal hematopoietic stem cell 
 - [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -18,6 +18,8 @@ KMT2B (MLL4) is a histone H3K4 methyltransferase and transcriptional co-activato
 - KMT2B mutations are enriched in CN-H/TP53abn endometrial carcinomas from Black patients (16% vs 8%) and carcinosarcomas from Black patients (31% vs 10%) in a study comparing molecular features of EC in 259 Black vs 1,276 White patients profiled by MSK-IMPACT [PMID:37651310](../papers/37651310.md).
 - KMT2B is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 - KMT2B is the second most recurrent HBV integration target in cHCC-ICC (133 cases), after TERT [PMID:31130341](../papers/31130341.md).
+- KMT2B is an H3K4 methyltransferase downregulated in MSI cancer cell lines (CCLE); H3K4me1 and H3K4me2 marks are correspondingly reduced [PMID:31978347](../papers/31978347.md)
+- KMT2B is a putative SMG in MSI endometrial cancer (56%, FDR = 0.001), a finding not previously reported in TCGA [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +46,11 @@ KMT2B (MLL4) is a histone H3K4 methyltransferase and transcriptional co-activato
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

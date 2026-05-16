@@ -4,8 +4,8 @@ oncotree_code: ANGS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [radiation-associated-sarcoma, vascular-tumor]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-16
 canonical_source: oncotree
 unverified: false
 ---
@@ -31,6 +31,7 @@ Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarco
 - [KDR](../genes/KDR.md) alterations depleted in RT-AS (11%) vs sporadic AS (24%) [PMID:37350195](../papers/37350195.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions nearly absent in RT-AS (2%) compared to other RT-sarcoma histotypes (29-92%) [PMID:37350195](../papers/37350195.md).
 - RT-AS harbored the lowest fraction of genome altered (FGA, 9%) among all RT-sarcoma histotypes (P < 0.0001) [PMID:37350195](../papers/37350195.md).
+- Retrospective single-center cohort of 39 angiosarcoma patients (14 primary, 25 secondary); 1-year OS 87.2%, 5-year OS 51.3%; secondary AS predominated (64%), driven by radiation-associated cutaneous breast AS in women; breast cancer history OR 5.143 (p=0.02) for worse 5-year survival on univariate analysis [PMID:32042194](../papers/32042194.md).
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarco
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 44 RT-angiosarcomas.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:32042194](../papers/32042194.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

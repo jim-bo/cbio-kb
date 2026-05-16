@@ -3,8 +3,8 @@ symbol: BRD3
 aliases: []
 cancer_types: [LUAD]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BRD3
@@ -16,6 +16,7 @@ BRD3 (Bromodomain-Containing Protein 3) is a member of the BET (Bromodomain and 
 ## Alterations observed in the corpus
 
 - Truncating (loss-of-function) mutations identified in lung adenocarcinoma WES study (Broad, 183 tumors); BRD3 was statistically significant by InVEx analysis [PMID:22980975](../papers/22980975.md)
+- BRD3 protein levels increased in CTNNB1-hotspot-mutant uterine corpus endometrial carcinomas (n=95, CPTAC 2020); BRD3 correlated positively with multiple H2B N-terminal acetyl sites (K16/K20/K24), establishing a Wnt-signaling to histone-acetylation axis via BRD3/SIRT1 [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ BRD3 (Bromodomain-Containing Protein 3) is a member of the BET (Bromodomain and 
 - [PMID:22980975](../papers/22980975.md) — Lung adenocarcinoma WES (Broad Institute, 183 tumors)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

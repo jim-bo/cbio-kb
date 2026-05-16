@@ -24,6 +24,7 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Cox regression adjusting for cancer type, age, ICI drug class, and year of ICI start confirmed TMB as an independent predictor of OS in 1,662 ICI-treated advanced cancer patients (continuous TMB HR 0.985/unit, p = 3.4 × 10⁻⁷; binary top-20% HR 0.61, p = 1.3 × 10⁻⁷) [PMID:30643254](../papers/30643254.md)
 - Used as a component of the non-homogeneous semi-Markov multistate model in the METABRIC breast cancer recurrence study (n=3,240 patients); IntClust subtypes added C-index 0.70 vs 0.63 at 10 years in late ER+/HER2- relapse prediction [PMID:30867590](../papers/30867590.md)
 - Used in multivariate survival analysis of 128 taxane-naive mCRPC patients starting first-line ARSI; [RB1](../genes/RB1.md) alteration was the only molecular feature independently associated with both overall survival (RR=3.31) and time on first-line ARSI (RR=6.56) [PMID:31061129](../papers/31061129.md)
+- Used for multivariable survival analysis in the Sherlock-Lung NS-LUAD study (n=684 tumors, age/sex/stage adjusted): steady HR=0.43 (95% CI 0.30–0.63), chaotic HR=1.4 (95% CI 0.99–2.0); stage I subset chaotic HR=2.5–3.7 [PMID:32015526](../papers/32015526.md).
 
 ## Notes
 
@@ -51,5 +52,8 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

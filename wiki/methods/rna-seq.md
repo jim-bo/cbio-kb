@@ -123,6 +123,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - TCGA PRAD bulk RNA-seq (limma voom differential expression on RSEM-normalized Firebrowse data) used to identify SLC16A1 and LDHA as significantly upregulated in prostate tumor vs. matched normal, pinning MCT1 as the rate-limiting driver of the hyperpolarized lactate signal [PMID:31564440](../papers/31564440.md).
 - Strand-specific poly-A+ RNA-seq on 244 PPTC PDX models; combined with deFuse, FusionCatcher, STAR-Fusion, and SOAPfuse for fusion calling; GSEA applied on Hallmark and TissGDB/TiGER gene sets to characterize pathway enrichment by histology [PMID:31693904](../papers/31693904.md).
 - TCGA breast cancer RNA-seq (brca_tcga_pub, n=959) used for PIK3CA/MAP3K1 luminal-correlate analysis and PIK3CA-GS scoring; PIK3CA + MAP3K1 co-mutated tumors showed significantly higher correlation to luminal A vs luminal B PAM50 centroid (p<0.0001) [PMID:31552290](../papers/31552290.md).
+- Primary assay in the Sherlock-Lung NS-LUAD study (n=684 tumors); Illumina NovaSeq6000 2×151bp paired-end; STAR v2.7.3 alignment to GRCh38; NMF clustering of transcriptomes identified three prognostic subtypes (steady, proliferative, chaotic) [PMID:32015526](../papers/32015526.md).
+- Total RNA-seq performed in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors, 49 normal tissues) on Illumina HiSeq4000; integrated with proteomics, methylation, and exome data to characterize four genomic subtypes (POLE, MSI, CNV-low, CNV-high) [PMID:32059776](../papers/32059776.md).
 
 ## Notes
 
@@ -424,5 +426,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -42,6 +42,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the same alteration class may yield unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
 - ALK fusions are fusion drivers in small subsets of LUAD (referenced from the Fusion AWG pan-cancer analysis across 33 TCGA tumor types) [PMID:29625049](../papers/29625049.md)
 - Hotspot mutations in 37% of neuroblastoma PDX models in the PPTC cohort; also dramatically overexpressed in neuroblastoma and additional pediatric histotypes, flagged as antibody-drug-conjugate and T-cell-engager target for basket-trial design [PMID:31693904](../papers/31693904.md)
+- EML4-ALK fusions negatively associated with the 'steady' NS-LUAD transcriptomic subtype (p=1.73×10⁻⁴, FDR=0.0168); 35 tumors carry ALK fusions; in-frame ALK fusions enriched in proliferative subtype (8.2%); ALK fusions co-occurring with TP53 mutations concentrated in the proliferative subtype (7 tumors) [PMID:32015526](../papers/32015526.md)
 
 ## Cancer types (linked)
 
@@ -133,5 +134,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

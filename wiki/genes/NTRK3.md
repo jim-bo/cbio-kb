@@ -38,6 +38,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - Among the top recurrent 3'-kinase tyrosine kinases enriched in THCA (thyroid carcinoma) fusions in pan-cancer RNA-seq analysis of 9,624 TCGA samples; 94% of THCA kinase fusions involve 3'-enriched kinases including NTRK1, NTRK3, and BRAF. [PMID:29617662](../papers/29617662.md)
 - NTRK3 fusions were not observed in 195 cholangiocarcinoma patients profiled by MSK-IMPACT, despite prior reports of NTRK3 fusions in cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
 - Recurrent in-frame kinase-domain-preserving fusions predominantly interchromosomal; most common upstream partners are ETV6 (near-pathognomonic in mammary analogue secretory carcinoma, 11/12 salivary cases) and EML4; DNA-only assays miss ~26% of fusions due to large intron size [PMID:31871300](../papers/31871300.md)
+- NTRK3 is involved in chromoplexy-mediated fusions and enhancer-hijacking events in thyroid adenocarcinoma within the PCAWG pan-cancer cohort of 2,658 whole genomes [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

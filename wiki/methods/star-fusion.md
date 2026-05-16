@@ -20,6 +20,7 @@ STAR-Fusion is a gene-fusion detection tool that uses the [STAR](../genes/STAR.m
 - Primary fusion caller in the TCGA pan-cancer fusion analysis across 9,624 tumor samples and 713 normal samples spanning 33 cancer types; run alongside EricScript and BREAKFAST; STAR-Fusion-only calls required FFPM > 0.1 threshold; recovered 95.5% (405/424) of curated TCGA marker-paper fusions; yielded 25,664 filtered fusions with 63.3% WGS validation rate [PMID:29617662](../papers/29617662.md)
 - Used alongside EricScript and BreakFast to detect gene fusions from RNA-Seq data across 9,125 TCGA PanCanAtlas tumors in the pan-cancer oncogenic signaling pathway analysis [PMID:29625050](../papers/29625050.md).
 - One of four fusion-calling algorithms (alongside deFuse, FusionCatcher, SOAPfuse) applied to 244 RNA-seq PPTC PDX models; the combined ensemble yielded 925 high-confidence and 92 known oncogenic driver fusions, identifying canonical EWSR1-FLI1, PAX3-FOXO1, BCR-ABL1, and CIC-DUX4 fusions [PMID:31693904](../papers/31693904.md).
+- Used alongside SFyNCS v0.15 for fusion detection in the Sherlock-Lung NS-LUAD study (n=684 tumors); 11,947 fusions detected across 638/684 tumors, with 54.3% supported by matched WGS structural variants [PMID:32015526](../papers/32015526.md).
 
 ## Notes
 
@@ -34,5 +35,8 @@ STAR-Fusion is a gene-fusion detection tool that uses the [STAR](../genes/STAR.m
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

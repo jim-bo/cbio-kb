@@ -3,8 +3,8 @@ symbol: QKI
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # QKI
@@ -18,6 +18,7 @@ QKI (Quaking) encodes an RNA-binding protein in the STAR (Signal Transduction Ac
 - Novel 5' fusion partner for [NTRK2](../genes/NTRK2.md) in pilocytic astrocytoma (QKI:[NTRK2](../genes/NTRK2.md) fusion); QKI contributes a dimerization domain predicted to confer ligand-independent activation of NTRK2 kinase; identified alongside [NACC2](../genes/NACC2.md):NTRK2 in 3 non-cerebellar samples [PMID:23817572](../papers/23817572.md)
 - Highlighted as a downstream pathway and SCNA feature in TieDIE / focal-deletion analyses of ccRCC (TCGA 450-case multi-platform dataset) [PMID:23792563](../papers/23792563.md)
 - Sole gene in the 6q26 minimal deletion region in [GBM](../cancer_types/GBM.md); homozygous deletion (n=9) and intragenic mutation (n=5) support a tumor-suppressor role [PMID:24120142](../papers/24120142.md)
+- QKI/ESRP2/ZEB1/ZEB2 form a proposed EMT regulatory axis in endometrial cancer: QKI promotes 35 EMT-associated circRNAs and correlates positively with ZEB1/ZEB2, opposed by ESRP2 [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ QKI (Quaking) encodes an RNA-binding protein in the STAR (Signal Transduction Ac
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

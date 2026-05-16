@@ -97,6 +97,9 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 329 of the 1,072 CCLE cancer cell lines; targeted sequencing additionally applied to 657 lines (950 total per Methods); TERT promoter mutations detected in 16.7% (84/503) of surveyed lines as the most common non-coding somatic mutation [PMID:31068700](../papers/31068700.md)
 - Applied to 41 tumors / 37 cases in the pan-Asia cHCC-ICC study; HBV integration sites identified with TERT and KMT2B as most recurrent targets; WGS complemented WES for structural variant and noncoding mutation discovery [PMID:31130341](../papers/31130341.md)
 - WGS performed as part of the combined 193-case ACC sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of TERT promoter mutations, MYB structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
+- Core assay of the PCAWG pan-cancer study (n=2,658 tumor-normal pairs, 38 tumor types); mean coverage 39× normal, bimodal 38×/60× tumor; 63 pairs validated by deep custom-bait sequencing achieving 95% SNV sensitivity/precision [PMID:32025007](../papers/32025007.md).
+- Used in the Sherlock-Lung NS-LUAD study (n=499 paired WGS from 684 NS-LUAD tumors) to integrate driver mutations, structural variants, whole-genome doubling, and kataegis with transcriptomic subtypes [PMID:32015526](../papers/32015526.md).
+- PCR-free WGS (HiSeqX, min 15× coverage, 151 bp paired-end) used in the CPTAC endometrial carcinoma study (n=95 tumors) for copy-number analysis; 14% of SCNAs had cis effects on transcript/protein levels (FDR < 0.01) [PMID:32059776](../papers/32059776.md).
 
 ## Notes
 
@@ -329,5 +332,14 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

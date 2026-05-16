@@ -127,6 +127,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Homozygous deletion acquired or enriched in recurrent IDHmut-noncodel glioma; precedes aneuploidy by CCF ordering and co-occurs with CDK4, CDK6, CCND2 gains (cell-cycle module) associated with significantly shorter survival (log-rank P < 0.0001) [PMID:31748746](../papers/31748746.md)
 - Biallelic alteration in 27% of anti-PD1 responders vs 38% of progressors in melanoma (OR=0.6, P=0.24); not significantly associated with response to anti-PD1 ICB [PMID:31792460](../papers/31792460.md)
 - Homozygous deletion in 70% (n=59) of 83 glioblastoma PDX; GBM164 and GBM187 showed homozygous loss in PDX versus single-copy loss in matched patient tumor, indicating clonal selection during engraftment [PMID:31852831](../papers/31852831.md)
+- Biallelic inactivation in 475 tumors across the PCAWG pan-cancer cohort (n=2,658 donors); co-deleted in chromothripsis events in glioblastoma [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -408,5 +409,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

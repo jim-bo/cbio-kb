@@ -34,6 +34,7 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - Small RNA-seq on Illumina HiSeq (TruSeq Small RNA kit, ~11.5M reads/sample, BWA-aligned to miRBase) used to profile 11 HCA and 10 HCC tumors; identified 6 concordantly deregulated miRNAs and C19MC locus as candidate HCA-to-HCC transformation markers [PMID:30052636](../papers/30052636.md)
 - Applied alongside RNA-Seq and proteomics on CPTAC colon cancer prospective cohort (coad_cptac_2019, n=110) as part of multi-omic profiling including WXS, copy-number array, RNA-Seq, TMT proteomics, and phosphoproteomics [PMID:31031003](../papers/31031003.md)
 - Nanostring miRNA profiling of 734 miRNAs applied across 954 of the 1,072 CCLE cancer cell lines; generated in the expanded multi-omic CCLE characterization alongside WES, WGS, RNA-seq, RRBS, RPPA, and H3 mass-spec [PMID:31068700](../papers/31068700.md)
+- Integrated alongside total RNA-seq in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors) to identify miRNA binding sites on circRNAs; 234 recurrent circRNAs found with QKI-correlated circRNAs harboring predicted sites for 36 miRNAs including miR-200c [PMID:32059776](../papers/32059776.md).
 
 ## Notes
 
@@ -88,5 +89,8 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

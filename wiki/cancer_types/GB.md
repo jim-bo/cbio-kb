@@ -4,7 +4,7 @@ oncotree_code: GB
 main_type: Glioma
 parent: ADIFG
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -37,6 +37,7 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - GB was the clearest outlier histology in the pan-cancer TMB–ICI analysis: TMB was not associated with improved OS in glioma patients treated with ICI, distinguishing it from nearly all other represented cancer types. [PMID:30643254](../papers/30643254.md)
 - IDH wild-type glioma (IDHwt, n=134) had the highest rate of subclonal selection at recurrence (64%, Fisher's P=0.01); subclonal selection in IDHwt associated with shorter overall survival (log-rank P=0.027); alkylating-agent-induced hypermutation rate 16% [PMID:31748746](../papers/31748746.md)
 - Glioblastoma (n=4, 5.3%) was among the TRK fusion-positive tumor types in the MSK prospective cohort; one case showed TPM3-NTRK1 fusion lost at progression on a brain-penetrant TRK inhibitor with concurrent acquisition of focal EGFR amplification (19.6-fold), representing a distinct off-target resistance mechanism [PMID:31871300](../papers/31871300.md)
+- In PCAWG, glioblastoma showed frequent chromothripsis with focal [EGFR](../genes/EGFR.md) amplification and co-deletion of [CDKN2A](../genes/CDKN2A.md); chromothripsis among the most frequent in sarcoma, glioblastoma, lung squamous, melanoma, and breast cancer [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -73,5 +74,8 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

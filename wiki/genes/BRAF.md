@@ -119,6 +119,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Mutated in 39% of a melanoma anti-PD1 ICB cohort (n=144); BRAF mutation status was not associated with response to anti-PD1 therapy, so targeted-therapy decisions are separate from ICB biomarker considerations [PMID:31792460](../papers/31792460.md)
 - MAPK pathway alteration in 4% of a panel of 83 IDH-wildtype glioblastoma PDX; NF1 alterations more frequent (17%) as MAPK pathway co-alteration [PMID:31852831](../papers/31852831.md)
 - Wild-type BRAF enriched in TRK fusion-positive colorectal cancer with MSI-H (6/7 CRC cases with TRK fusions had wild-type BRAF and KRAS), identifying a distinct molecular context for TRK fusions in CRC [PMID:31871300](../papers/31871300.md)
+- Low RNA-protein correlation for BRAF observed across CCLE 375 cancer cell lines; BRAF mutation associated with broad changes in cell-motility and adhesion-protein levels [PMID:31978347](../papers/31978347.md)
+- Driver in 162 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -428,5 +430,11 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

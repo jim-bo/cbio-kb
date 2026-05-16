@@ -4,7 +4,7 @@ oncotree_code: THPA
 main_type: Thyroid Cancer
 parent: WDTC
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - TCGA multiplatform genomic characterization of 496 PTCs identified 7 significantly mutated genes ([BRAF](../genes/BRAF.md) V600E in 61.7%, RAS in 12.9%, [EIF1AX](../genes/EIF1AX.md), [PPM1D](../genes/PPM1D.md), [CHEK2](../genes/CHEK2.md)), reduced 'dark matter' from ~25% to 3.5%, and defined BRAFV600E-like vs. RAS-like molecular subtypes with distinct signaling, differentiation, and clinical outcomes [PMID:25417114](../papers/25417114.md).
 - TCGA papillary thyroid carcinoma cohort (n=390) used as comparator; BRAF-RAS score (BRS) tracked driver mutation in PDTCs but ATCs were uniformly BRAF-like irrespective of driver, indicating a stepwise progression model from differentiated precursors [PMID:26878173](../papers/26878173.md)
 - Papillary thyroid carcinoma (n=10, 13.2% of TRK fusion-positive cases) had the second highest TRK fusion prevalence at 2.22% (10/451) in the MSK cohort; thyroid is one of the tumor types recommended for reflex RNA fusion testing in driver-negative cases [PMID:31871300](../papers/31871300.md)
+- In PCAWG, papillary thyroid cancer showed ≥31% of fusion/enhancer-hijacking events caused by chromoplexy, generating [RET](../genes/RET.md) and [NTRK3](../genes/NTRK3.md) fusions and [IGF2BP3](../genes/IGF2BP3.md) enhancer hijacking; telomere cluster C3 (predominantly thyroid) had frequent [TERT](../genes/TERT.md) promoter mutations (30%, P=2×10⁻⁶) [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -51,5 +52,8 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

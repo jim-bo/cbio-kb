@@ -10,7 +10,7 @@ tags:
   - tandem-mass-tag
   - quantitative-proteomics
   - multi-omics
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,8 @@ Tandem mass tag (TMT) global proteomics is an isobaric chemical labeling approac
 ## Used by
 
 - Applied to 96 tumor/NAT pairs from the prospective CPTAC colon cancer cohort ([coad_cptac_2019](../datasets/coad_cptac_2019.md), n=110 total) alongside label-free and TMT phosphoproteomics; quantified 6,422 proteins in >=50% of samples; 2,217 (35%) were significantly increased and 2,527 (39%) significantly decreased in tumors vs NATs (adj. p<0.01); 31 proteins increased >2-fold including [DDX21](../genes/DDX21.md), [S100A11](../genes/S100A11.md), and [S100P](../genes/S100P.md) (each in 97–100% of pairs) [PMID:31031003](../papers/31031003.md)
+- TMT 10-plex tandem-mass-tag proteomics (MS3/SPS) used to profile 375 CCLE cancer cell lines across 22 lineages, quantifying >12,000 proteins at 1% FDR with a pooled-line bridge channel for cross-batch normalization [PMID:31978347](../papers/31978347.md).
+- Isobaric 10-plex TMT-based global proteomics used in the CPTAC endometrial carcinoma study (n=95 tumors, 49 normal samples) at PNNL under 1% protein-level FDR; identified mutation-type-specific proteomic effects of TP53 and CTNNB1 mutations and APM deficiency in MSI tumors [PMID:32059776](../papers/32059776.md).
 
 ## Notes
 
@@ -33,3 +35,9 @@ Tandem mass tag (TMT) global proteomics is an isobaric chemical labeling approac
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

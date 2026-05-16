@@ -177,6 +177,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 37 high-grade UTUC tumor-normal pairs (WCM n=22; BCM-MDA n=15); BCM-MDA samples at ~85× mean coverage on Illumina HiSeq 2500 (2×100 bp); primary discovery platform for somatic mutations, TMB (mean 2.91 mut/Mb in UTUC vs. 5.46 mut/Mb in TCGA UCB) [PMID:31278255](../papers/31278255.md)
 - Performed on 193 ACC cases (combined across Sanger/MDACC and MSKCC cohorts); mean TMB 0.34 mut/Mb across ACC, identifying recurrent enrichment of NOTCH1 (26.3%), chromatin-remodeling, and TERT promoter mutations in R/M disease [PMID:31483290](../papers/31483290.md).
 - HGSC VCRome 2.1 capture WES performed on 240 of 261 PPTC pediatric PDX models; median TMB 2.66 somatic Mut/Mb; relapse-derived PDXs had significantly higher TMB than diagnosis-derived (3.08 vs. 2.57 Mut/Mb, Wilcoxon p=2.2e-5) [PMID:31693904](../papers/31693904.md).
+- Used in the CPTAC endometrial carcinoma study (n=95 tumors, 49 normal samples) on Illumina HiSeq4000 (paired 76-cycle, min 150× on-target coverage, hg38); identified novel SMGs in MSI tumors including INPPL1 (56%), KMT2B (56%), and JAK1 (44%) [PMID:32059776](../papers/32059776.md).
 
 ## Notes
 
@@ -621,5 +622,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

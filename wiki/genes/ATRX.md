@@ -41,6 +41,7 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - ATRX mutation/ALT (alternative lengthening of telomeres) flags PDX models suitable for ATR inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
 - IDHmut-noncodel glioma driver; mutation occurs after IDH1 and TP53 based on lower cancer cell fraction (CCF) at initial tumor (P=0.03 vs. TP53), indicating later clonal acquisition [PMID:31748746](../papers/31748746.md)
 - ATRX mutation observed in IDH1-mutant GBM PDX (GBM164, GBM196) and in cerebellar diffuse midline glioma PDX GBM36 (H3-3A p.K27M + ATRX + TP53) within a panel of 83 glioblastoma PDX [PMID:31852831](../papers/31852831.md)
+- 128 PCAWG tumors carry ATRX or DAXX alterations (71 truncating); ATRX SVs cluster in telomere phenotype group C1 (ALT pathway) while ATRX/DAXX point mutations cluster in C2; loss is enriched in ALT-pathway tumors independent of RB1 status [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -131,5 +132,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: TEAD1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # TEAD1
@@ -16,6 +16,7 @@ TEAD1 encodes a TEA domain transcription factor that is the primary nuclear effe
 ## Alterations observed in the corpus
 
 - ChIP confirmed TEAD1 binding at the SEMA7A promoter in primary gallbladder fibroblasts, with enrichment under 16 kPa vs 0.5 kPa stiffness conditions; mechanistically downstream of YAP1/WWTR1 mechanotransduction. [PMID:24997986](../papers/24997986.md)
+- Knockdown sensitivity in CCLE cell lines associated with integrin complexes containing ITGB1; consistent with the YAP1/Hippo mechanosensing pathway [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TEAD1 encodes a TEA domain transcription factor that is the primary nuclear effe
 - [PMID:24997986](../papers/24997986.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

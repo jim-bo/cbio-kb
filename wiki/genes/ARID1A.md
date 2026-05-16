@@ -92,6 +92,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A recurrently mutated in high-grade UTUC at a frequency not significantly different from TCGA UCB; classified among chromatin-modifier driver genes in the urothelial carcinoma landscape [PMID:31278255](../papers/31278255.md)
 - Enriched in recurrent/metastatic adenoid cystic carcinoma vs. primary tumors (OR 6.87); SWI/SNF complex member co-occurring with NOTCH1 mutations in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
 - Mutation/loss flags PDX models suitable for ATR inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
+- Driver in 316 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
+- Mutated in 76% of MSI uterine corpus endometrial carcinoma tumors (FDR=0); ARID1A-mutant samples show H3K27/H3K36 hyperacetylation; truncating mutations reduce ARID1A protein levels [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -318,5 +320,11 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

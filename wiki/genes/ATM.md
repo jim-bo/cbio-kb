@@ -70,6 +70,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - DNA damage repair gene enriched in recurrent/metastatic adenoid cystic carcinoma vs. primaries (OR 4.22, P=0.016) in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
 - ATM loss flags PDX models suitable for ATR inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants; matched WBC sequencing required to distinguish CH-derived ATM variants from tumor-derived signal [PMID:31768066](../papers/31768066.md)
+- Alongside BRCA1 and BRCA2, one of three genes accounting for 81% of germline+somatic biallelic combinations across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -243,5 +244,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

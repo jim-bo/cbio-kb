@@ -3,7 +3,7 @@ symbol: TERT
 aliases: []
 cancer_types: [ESCC]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -36,6 +36,9 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - TERT promoter and canonical glioma subtype-defining lesions (alongside CIC, FUBP1, ATRX) show stable frequencies across primary vs. recurrent specimens in a 923-patient glioma cohort (MSK-IMPACT) [PMID:31263031](../papers/31263031.md)
 - TERT promoter mutations in 13.1% of recurrent/metastatic adenoid cystic carcinoma cases; mutually exclusive with NOTCH1 mutation (q=3.3×10⁻⁴) and MYB/MYBL1 fusions, defining a distinct molecular subgroup (MYBᵂᵀTERT⁺) with unique survival profile [PMID:31483290](../papers/31483290.md).
 - TERT rearrangements linked to chromosome 5 chromothripsis in neuroblastoma PDX models, associated with high breakpoint density; neuroblastoma chromothripsis on chromosomes 2, 5, 16, 17, and 19 linked to MYCN amplification, TERT rearrangement, and 17q gain [PMID:31693904](../papers/31693904.md).
+- TERT promoter mutations almost always shared between initial and recurrent glioma in IDHmut-codel and IDHwt subtypes; clonal throughout tumor evolution (coverage gaps in GC-rich promoter region noted) [PMID:31748746](../papers/31748746.md)
+- TERT promoter mutations in 86% of GBM PDX (n=84), the most frequent single alteration in the panel; preserved across patient-PDX pairs [PMID:31852831](../papers/31852831.md)
+- TERT promoter mutation among the most common co-mutations in TRK fusion-positive cancers across tumor types [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -57,60 +60,48 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29670109](../papers/29670109.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 - [PMID:31068700](../papers/31068700.md)
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+- [PMID:31852831](../papers/31852831.md)
+
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

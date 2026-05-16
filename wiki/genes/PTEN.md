@@ -133,6 +133,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN is a significantly mutated driver (dNdScv q<0.1) in combined hepatocellular-cholangiocarcinoma (cHCC-ICC) [PMID:31130341](../papers/31130341.md)
 - PTEN deletions/mutations associated with progressive disease (PD) at first scan in ER+/HER2- metastatic breast cancer patients treated with buparlisib + letrozole, except for a deep PTEN deletion in the single PR patient [PMID:31552290](../papers/31552290.md).
 - Copy-number loss (homozygous in 2 ROIs, heterozygous in 3 ROIs) called by FACETS from IMPACT468 in localized prostate adenocarcinoma; homozygous PTEN loss tracked with highest HP lactate signal (P=0.059), consistent with PI3K-pathway de-repression driving increased glycolytic flux [PMID:31564440](../papers/31564440.md).
+- Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
+- Alteration in 48% of GBM PDX (n=84); GBM168 patient carried a private PTEN alteration not detected in the matched PDX, illustrating divergence during engraftment [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -406,5 +408,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31564440](../papers/31564440.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

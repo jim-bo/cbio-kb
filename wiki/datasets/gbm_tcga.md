@@ -54,6 +54,8 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - A panel of >700 radiomic features was extracted volumetrically from the manually revised labels, spanning intensity, volumetric, morphologic, texture (GLCM/GLRLM/GLSZM/NGTDM), wavelet, and glioma growth-model parameters — enabling downstream radiogenomic correlation with TCGA molecular profiles. [PMID:28872634](../papers/28872634.md)
 - Used as a component cohort (606 GBM samples, grade IV, n=592 per cBioPortal) in the TCGA pan-glioma integrated analysis identifying 75 SMGs, six DNA-methylation subtypes (LGm1–6), and PA-like IDH-wildtype glioma as a distinct favorable-prognosis entity [PMID:26824661](../papers/26824661.md)
 - Used as an IDH1-wildtype background reference (n=458 and n=503 samples) for mutation-frequency comparisons in the Columbia GBM immunotherapy cohort; PTEN mutation frequency in TCGA (33%, 154/458) contextualized PTEN enrichment among anti-PD-1 non-responders, and TCGA tumor purity estimates (ESTIMATE) supplemented the Columbia cohort transcriptomic analyses. [PMID:30742119](../papers/30742119.md)
+- Included as a reference comparison cohort (re-processed TCGA-GBM samples) within the GLASS Consortium longitudinal glioma study alongside data from 33 other contributing centers. [PMID:31748746](../papers/31748746.md)
+- Used as the driver-alteration frequency benchmark for the Mayo GBM PDX panel; frequencies of TERT, EGFR, PTEN, TP53, CDKN2A, BRAF, and IDH1 alterations in the PDX panel were compared against TCGA-GBM. [PMID:31852831](../papers/31852831.md)
 
 ## Sources
 

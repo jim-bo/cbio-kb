@@ -52,6 +52,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Germline MMR alleles (MSH2, MSH6) detected in glioma patients; somatic MSH6 mutations found in 31/38 (82%) hypermutated recurrences; biallelic loss in two cases with Lynch-pattern MSI hypermutation. [PMID:31263031](../papers/31263031.md)
 - Significantly reduced transcript and protein expression (by IHC) in UTUC vs UCB in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
 - Germline MMR variants in [MLH1](../genes/MLH1.md) and MSH6 found in 15/90 (16.7%) of R/M ACC cases; all tumors were microsatellite-stable despite the variants [PMID:31483290](../papers/31483290.md).
+- Multiple mutations in four recurrent-tumor-derived GBM PDX, driving MMR-deficient hypermutation phenotype; GBM181 patient–PDX pair shows many private SNVs in both directions consistent with MSH6-driven hypermutation [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -172,5 +173,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

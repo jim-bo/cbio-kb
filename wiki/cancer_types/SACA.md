@@ -5,7 +5,7 @@ main_type: Salivary Gland Cancer
 parent: HEAD_NECK
 tags: [salivary-gland, head-neck, rare-cancers]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Salivary Carcinoma (SACA)
@@ -26,6 +26,7 @@ Salivary Carcinoma is the OncoTree umbrella for all malignant salivary gland tum
 - **[ERBB2](../genes/ERBB2.md)**, **[AR](../genes/AR.md)**, **[HRAS](../genes/HRAS.md)**, **[PIK3CA](../genes/PIK3CA.md)** — actionable alterations in SDCA and other salivary subtypes [PMID:27442865](../papers/27442865.md).
 - **[PDGFRA](../genes/PDGFRA.md)**, **[KDR](../genes/KDR.md)**, **[KIT](../genes/KIT.md)** — co-amplification in 4 ACYC patients treated with [regorafenib](../drugs/regorafenib.md) [PMID:27442865](../papers/27442865.md).
 - Salivary gland carcinoma showed responses to neratinib in the SUMMIT basket trial for HER2-mutant solid tumors, including kinase domain missense mutations (L755, V777), in the histology-agnostic solid tumor NOS cohort [PMID:29420467](../papers/29420467.md)
+- Salivary gland carcinoma including MASC (n=12, 15.8% of TRK fusion-positive cases) had the highest TRK fusion prevalence of any tumor type in the MSK cohort: 5.29% (95% CI 2.76–9.05); ETV6-NTRK3 was present in 11/12 salivary cases; ETV6 break-apart FISH was accepted as inferred TRK fusion evidence [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -51,3 +52,6 @@ Salivary Carcinoma is the OncoTree umbrella for all malignant salivary gland tum
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

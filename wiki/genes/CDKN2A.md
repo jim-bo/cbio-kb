@@ -124,6 +124,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Focal deletions are the dominant cell-cycle alteration driving malignant progression and contrast enhancement in 1p19q-intact IDH-mutant gliomas (44% vs 8% in non-enhancing tumors; Bonferroni P<0.001); independently associated with shorter PFS at recurrence (HR=2.6, 95% CI 1.6-5.7); candidate BRAF-inhibitor resistance modifier (one responder with CDKN2A homozygous deletion in metastatic lesion failed RAF inhibition while primary responded) [PMID:31263031](../papers/31263031.md)
 - Recurrently mutated in UTUC at frequencies not significantly different from TCGA UCB; cell-cycle gene surveyed in molecular characterization of upper-tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
 - Homozygous 9p deletions in 45–48% of BCP-ALL, 72–76% of T-ALL/ETP-ALL, 45% of Ph/Ph-like ALL, and 60% of Ewing sarcoma PDX models in the PPTC cohort; concurrent with BRAF V600E in one HGG model [PMID:31693904](../papers/31693904.md)
+- Homozygous deletion acquired or enriched in recurrent IDHmut-noncodel glioma; precedes aneuploidy by CCF ordering and co-occurs with CDK4, CDK6, CCND2 gains (cell-cycle module) associated with significantly shorter survival (log-rank P < 0.0001) [PMID:31748746](../papers/31748746.md)
+- Biallelic alteration in 27% of anti-PD1 responders vs 38% of progressors in melanoma (OR=0.6, P=0.24); not significantly associated with response to anti-PD1 ICB [PMID:31792460](../papers/31792460.md)
+- Homozygous deletion in 70% (n=59) of 83 glioblastoma PDX; GBM164 and GBM187 showed homozygous loss in PDX versus single-copy loss in matched patient tumor, indicating clonal selection during engraftment [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -396,5 +399,14 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

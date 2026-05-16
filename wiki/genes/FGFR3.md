@@ -54,6 +54,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Altered in 18% of secondary MIBC; framed as a potentially actionable target for FGFR-axis small-molecule inhibitors in this chemotherapy-refractory subgroup [PMID:30290956](../papers/30290956.md)
 - FGFR3–TACC3 fusions were identified in 16 patients across a 931-tumor MSK-IMPACT longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
 - FGFR3 activating missense mutations in 11/37 (29.7%) UTUC tumors, significantly higher than 13.7% in TCGA UCB (P=0.04); outlier-overexpressed in 14/32 UTUC tumors; proposed as a cell-intrinsic driver of T-cell-depleted phenotype via suppression of IFNG response genes; recurrent FGFR3–TACC3 and FGFR3–BAIAP2L1 fusions present [PMID:31278255](../papers/31278255.md)
+- FGFR3 amplification in 1 GBM PDX; canonical FGFR3-TACC3 fusion in three PDX lines (GBM14, GBM148, GBM232); two novel fusions FGFR3-TRIM54 and FGFR3-CALCOCO1 also identified — all flagged as potentially targetable with FGFR inhibitors [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -179,5 +180,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

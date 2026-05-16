@@ -33,6 +33,8 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - Fusions present in 8% of MSI-H vs 1% of MSS mCRC; specific fusions: LMNA-NTRK1 (3 cases: 1 MSS, 2 MSI-H), TPM3-NTRK1; TRK-inhibitor candidates in MSI-H mCRC [PMID:29316426](../papers/29316426.md)
 - Among the top recurrent 3'-kinase tyrosine kinases enriched in THCA (thyroid carcinoma) fusions in pan-cancer RNA-seq analysis of 9,624 TCGA samples; 94% of THCA kinase fusions involve 3'-enriched kinases including NTRK1, NTRK3, and BRAF. [PMID:29617662](../papers/29617662.md)
 - NTRK1 fusions were not observed in 195 cholangiocarcinoma patients profiled by MSK-IMPACT, despite prior reports of NTRK1 fusions in cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
+- CHTOP–NTRK1 fusion detected in GBM PDX; flagged as potentially targetable alongside PTPRZ1–MET and FGFR3–TACC3 fusions [PMID:31852831](../papers/31852831.md)
+- Recurrent in-frame kinase-domain-preserving fusions; predominantly intrachromosomal (not interstitial deletions); partners include ETV6 (exclusive to NTRK3), GON4L, TPM3, LMNA; 48 unique NTRK fusion events across 113 cases in MSK cohort [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -74,5 +76,11 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ cancer_types:
   - URCC
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # TPM3
@@ -18,6 +18,7 @@ TPM3 (Tropomyosin 3) encodes a tropomyosin isoform that regulates actin-filament
 
 - TPM3-ALK fusion detected by MSK-IMPACT targeted sequencing and confirmed by [ALK](../genes/ALK.md) break-apart FISH in uRCC case T12, representing the second adult [RCC](../cancer_types/RCC.md) case with this fusion reported; ALK inhibition proposed as a targeted therapeutic option. [PMID:27713405](../papers/27713405.md)
 - TPM3-NTRK1 fusion observed in MSI-H mCRC as part of the NTRK1/NTRK3 fusion landscape (8% MSI-H vs 1% MSS). [PMID:29316426](../papers/29316426.md)
+- TPM3-NTRK1 fusion identified in a glioblastoma at primary resection; the fusion was lost at progression on a brain-penetrant TRK inhibitor, with new focal EGFR amplification (19.6x) emerging — representing off-target/clonal escape [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -39,7 +40,8 @@ TPM3 (Tropomyosin 3) encodes a tropomyosin isoform that regulates actin-filament
 
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

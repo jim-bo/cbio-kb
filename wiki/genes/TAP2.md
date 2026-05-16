@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [antigen-presentation, MHC-I, immune-evasion]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # TAP2
@@ -16,6 +16,7 @@ TAP2 (Transporter Associated with Antigen Processing 2) encodes the beta subunit
 ## Alterations observed in the corpus
 
 - Component of the MHC class I antigen-processing machinery (APM); enriched for somatic mutations in TIL-rich colorectal tumors, consistent with immune-escape selection pressure in tumors with high neoantigen load, in a cohort of 619 CRC cases [PMID:27149842](../papers/27149842.md).
+- TAP2 focal amplification (chr 6p21, MHC region) found exclusively in responders to anti-PD1 therapy in melanoma (n=6/120; Fisher's P=0.008); four of six co-amplified with MHC-I HLA-A/B/C; TAP2 expression higher in responders in the ipilimumab-treated subgroup (MWW P=0.02) [PMID:31792460](../papers/31792460.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,6 @@ TAP2 (Transporter Associated with Antigen Processing 2) encodes the beta subunit
 
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

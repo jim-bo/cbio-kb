@@ -4,8 +4,8 @@ oncotree_code: APAD
 main_type: Appendiceal Cancer
 parent: BOWEL
 tags: [rare-cancers, gi-oncology]
-processed_by: crosslinker
-processed_at: 2026-04-10
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Appendiceal Adenocarcinoma (APAD)
@@ -22,6 +22,7 @@ Appendiceal Adenocarcinoma (AC) is an Appendiceal Cancer (parent BOWEL). Subtype
 
 - [GNAS](../genes/GNAS.md), [KRAS](../genes/KRAS.md)/[NRAS](../genes/NRAS.md), and [TP53](../genes/TP53.md) co-mutations define three molecular subtypes of MAAP [PMID:36493333](../papers/36493333.md).
 - TP53-mut predominant tumors are highly aneuploid; aneuploidy is an independent predictor of poor [OS](../cancer_types/OS.md) (P=.001) [PMID:36493333](../papers/36493333.md).
+- TRK fusion-positive appendiceal adenocarcinoma was identified in the MSK prospective cohort (n=26,312); TRK fusions were absent from KRAS/BRAF-wild-type context in this type [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -40,3 +41,6 @@ Appendiceal Adenocarcinoma (AC) is an Appendiceal Cancer (parent BOWEL). Subtype
 - [PMID:36493333](../papers/36493333.md)
 
 *This page was processed by **crosslinker** on **2026-04-10**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

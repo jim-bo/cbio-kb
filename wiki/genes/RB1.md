@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -67,6 +67,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 is among the recurrently mutated genes in UTUC alongside TP53, KMT2D, ARID1A, PIK3CA, KDM6A, ERCC2, and others at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
 - RB1 is a driver gene (q<0.1) in cHCC-ICC; focal loss in 26%; trunk mutation in some separate-type cases [PMID:31130341](../papers/31130341.md)
 - MDM2 and RB1 alterations phenocopy TP53 inactivation per RNA-expression classifier in 261 pediatric cancer PDX models; RB1-altered models scored high on the TP53 pathway-inactivation classifier (AUROC 0.89) [PMID:31693904](../papers/31693904.md).
+- RB1 mutation or homozygous deletion observed in IDHmut-noncodel recurrent glioma as part of cell-cycle module inactivation, co-occurring with CDKN2A loss, CDK4/CDK6 gains [PMID:31748746](../papers/31748746.md)
+- RB1 identified as a late/subclonal mutation in metastatic breast cancer (MBC) detected via cell-free DNA (VUSo) not captured by single biopsy [PMID:31768066](../papers/31768066.md)
+- RB1 loss or mutation inactivates the Rb pathway in 16% of GBM PDX (n=84); co-occurs with CDK4 amplification (8%) and CDK6 amplification (1%) [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -156,52 +159,42 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+- [PMID:31768066](../papers/31768066.md)
+
+- [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

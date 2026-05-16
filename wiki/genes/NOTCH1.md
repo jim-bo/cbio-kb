@@ -49,6 +49,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Mutated in 6/19 (32%) of 1p/19q-codeleted anaplastic oligodendroglioma; specific alterations include A1701S, F357del, P1443Afs*36, T633Dfs*12, V324Qfs*6; not predictive of PFS or OS in this small NGS subset [PMID:28472509](../papers/28472509.md)
 - Activating hot-spot mutations in HD and PEST domains in 18.3% of R/M ACC cases; any NOTCH1 alteration in 26.3% R/M vs. 8.5% primary (OR 3.86, P<0.0001); strongly associated with poor OS (median 55.1 vs. 204.5 months, P=1.10×10⁻⁴); mutually exclusive with TERT promoter mutations; co-occurs with chromatin-remodeling alterations; authors propose γ-secretase inhibitors as targeted therapy [PMID:31483290](../papers/31483290.md).
 - Mutated in 68% of T-ALL/ETP-ALL PDX models in the PPTC cohort (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
+- One of the most common co-mutations in TRK fusion-positive tumors in the MSK cohort (n=113 NTRK-positive cases); co-mutation with NOTCH2 also observed [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -133,5 +134,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

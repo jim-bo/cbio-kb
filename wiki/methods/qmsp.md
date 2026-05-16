@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [methylation, pcr, epigenetics, bisulfite-sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Quantitative Methylation-Specific PCR (qMSP)
@@ -18,6 +18,7 @@ Quantitative methylation-specific PCR (qMSP) measures promoter CpG methylation a
 ## Used by
 
 - Applied to 23 pancreatic neoplasms with acinar differentiation after EZ bisulfite conversion, with U/M primer pairs targeting [BRCA1](../genes/BRCA1.md) and [MLH1](../genes/MLH1.md) promoters; found 0/23 BRCA1-methylated and 1/23 MLH1-methylated (ACINAR06) tumors — MLH1 methylation did not correlate with MSI status in this cohort [PMID:24293293](../papers/24293293.md).
+- qMSP used to assess MGMT promoter methylation in 78 of 96 GBM [PDX](../methods/patient-derived-xenograft.md) lines from the Mayo Clinic National Resource ([gbm_mayo_pdx_sarkaria_2019](../datasets/gbm_mayo_pdx_sarkaria_2019.md)); MGMT methylation correlated with temozolomide response in the PDX panel, mirroring the human clinical phenotype [PMID:31852831](../papers/31852831.md).
 
 ## Notes
 
@@ -27,4 +28,6 @@ Quantitative methylation-specific PCR (qMSP) measures promoter CpG methylation a
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

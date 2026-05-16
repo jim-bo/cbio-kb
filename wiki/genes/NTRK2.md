@@ -3,8 +3,8 @@ symbol: NTRK2
 aliases: [TRKB]
 cancer_types: [NBL]
 tags: [neurotrophin-receptor, neuroblastoma, poor-prognosis, cell-of-origin, progenitor]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # NTRK2
@@ -26,6 +26,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - MAPK-pathway alteration enriched in PA-like LGG (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
 - NTRK2 fusions identified in pan-lung cancer TCGA analysis (n=1144): TRIM24-NTRK2 in adenocarcinoma and novel NTRK2-TP63 fusion in squamous cell carcinoma [PMID:27158780](../papers/27158780.md)
 - Mentioned as a rare fusion target in young lung cancer (YLC) with scarce age-stratified frequency data [PMID:27346245](../papers/27346245.md)
+- Recurrent in-frame kinase-domain-preserving fusions predominantly interchromosomal; DNA-only assays miss ~26% of true NTRK2 fusions due to large intron size; reflex RNA testing recommended [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -70,3 +71,6 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

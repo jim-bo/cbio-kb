@@ -3,7 +3,7 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -42,6 +42,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - SF3B1 mutated in 1.1% of a 1,013-sample prostate cancer cohort; mutations cluster in C-terminal HEAT repeats. First significant nomination of splicing-factor mutations as a recurrent prostate-cancer alteration alongside U2AF1 [PMID:29610475](../papers/29610475.md)
 - Identified as a candidate novel glioma driver from a 3,130-sample meta-analysis integrated within a 923-patient MSK-IMPACT glioma genomic profiling cohort [PMID:31263031](../papers/31263031.md)
 - Subclonal SF3B1 mutation identified in a divergent metastatic cluster during multiregion sequencing of adenoid cystic carcinoma; implicated in metastasis in other tumor types [PMID:31483290](../papers/31483290.md).
+- SF3B1 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -65,79 +66,56 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26200345](../papers/26200345.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26683228](../papers/26683228.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27959731](../papers/27959731.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

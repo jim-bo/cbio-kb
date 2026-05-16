@@ -39,6 +39,9 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 mutations showed broad ex vivo drug sensitivity in the Beat AML cohort, opposing the resistance pattern seen with IDH1 mutations [PMID:30333627](../papers/30333627.md)
 - IDH2 catalytic-domain hotspot mutations are truncal LGG-defining events; persisted through tumour evolution and were detected in glioma CSF ctDNA with 100% concordance to tumour in non-hypermutated cases (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 - IDH2 R140/R172 defines the IDH-mutant glioma subgroup together with IDH1 R132; IDH2-mutant gliomas are encompassed within the broader IDH-mutant subtype analysis in a 923-patient prospective cohort [PMID:31263031](../papers/31263031.md).
+- IDH2 mutation serves as an alternative IDH-mutant marker for glioma subtype classification in the GLASS cohort; IDH2-mutant cases are analyzed within the broader IDH-mutant group [PMID:31748746](../papers/31748746.md)
+- IDH2 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; IDH2 mutations in cfDNA can originate from CH and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
+- IDH2-mutant status checked in all 83 WES-profiled Mayo GBM PDX; only 2 lines were IDH-mutant (GBM164, GBM196), both classified as GBM IDH-mutant, consistent with the rarity of IDH2 mutation in glioblastoma vs lower-grade glioma [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -123,5 +126,14 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

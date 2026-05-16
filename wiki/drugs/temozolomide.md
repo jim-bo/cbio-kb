@@ -34,6 +34,8 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - Temozolomide (alkylating agent) administered to panNET patients induced marked hypermutation in serial biopsies — tumors acquired >100 new somatic mutations (up to 267), a predominant C>T signature, and mismatch-repair gene mutations; all three alkylator-hypermutated tumors progressed from grade 1 to grade 3, a previously unreported pattern in this disease that may be relevant to subsequent immunotherapy decisions [PMID:30687805](../papers/30687805.md)
 - All 66 recurrent [GBM](../cancer_types/GBM.md) patients in this anti-PD-1 cohort had received standard temozolomide plus radiation as prior therapy before initiating PD-1 blockade; the study examined genomic/TME predictors of response to subsequent nivolumab or pembrolizumab [PMID:30742119](../papers/30742119.md)
 - Alkylator (temozolomide)-induced hypermutation was identified in 38 gliomas (MGMT-methylated and IDH-mutant tumors at highest risk: 30% vs 10%, P=0.006); 31/38 (82%) hypermutated recurrences harbored somatic MMR mutations, and pre-existing cell-cycle alterations in 1p19q-intact astrocytomas preceded TMZ exposure and remained clonal through hypermutation — establishing cell-cycle status as a potential biomarker of TMZ-related mutagenesis risk. [PMID:31263031](../papers/31263031.md)
+- Treatment-induced hypermutation (COSMIC signature 11, >10 mut/Mb) was observed after alkylating-agent therapy (primarily temozolomide) in adult glioma: 47% of IDHmut-noncodel, 25% of IDHmut-codel, and 16% of IDHwt recurrences; hypermutation did not associate with reduced overall survival after adjustment for age, subtype, and MGMT methylation status [PMID:31748746](../papers/31748746.md).
+- MGMT promoter methylation predicted response to temozolomide and concurrent RT/TMZ in the Mayo GBM PDX panel, directly mirroring the human clinical phenotype and validating MGMT status as a stratification biomarker; veliparib + temozolomide efficacy across 28 PDX was also limited to MGMT-methylated tumors [PMID:31852831](../papers/31852831.md).
 
 ## Resistance mechanisms
 
@@ -81,5 +83,11 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

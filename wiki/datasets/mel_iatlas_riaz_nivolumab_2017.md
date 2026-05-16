@@ -21,8 +21,8 @@ tags:
   - tumor-mutation-burden
   - paired-biopsy
   - clonal-evolution
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # CA209-038 Melanoma Nivolumab (Riaz et al. 2017)
@@ -66,6 +66,7 @@ Riaz et al. profiled paired pre- and on-therapy biopsies from 68 advanced [melan
 - **Cytolytic activity** ([GZMA](../genes/GZMA.md)/[PRF1](../genes/PRF1.md) geometric mean) on-therapy associated with benefit in both Ipi-N (p=0.005) and Ipi-P (p=0.043) patients. [PMID:29033130](../papers/29033130.md)
 - **Pre-existing immunity distinguishes responders:** 189 DEGs between CR/PR vs PD pre-therapy; all Ipi-P responders showed a "hot tumor" phenotype pre-therapy. [PMID:29033130](../papers/29033130.md)
 - TCGA mutational subtypes ([BRAF](../genes/BRAF.md), RAS, [NF1](../genes/NF1.md), triple-WT) did not stratify response to [nivolumab](../drugs/nivolumab.md). [PMID:29033130](../papers/29033130.md)
+- Used as an independent validation cohort for the ipilimumab-stratified MHC-II HLA and IFN-γ/IFN-α response pathway findings (n=32; 15 ipilimumab-treated, 17 ipilimumab-naive); predictor directions were concordant but most sub-group associations did not reach significance in this smaller validation set. [PMID:31792460](../papers/31792460.md)
 
 ## Sources
 
@@ -73,4 +74,4 @@ Riaz et al. profiled paired pre- and on-therapy biopsies from 68 advanced [melan
 - Trial: NCT01621490 (CA209-038)
 - iAtlas resource (TCIA immunotherapy cohorts portal)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

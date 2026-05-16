@@ -4,7 +4,7 @@ oncotree_code: PAAD
 main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -39,6 +39,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - RTK-RAS alteration rate 78% in PAAD; KRAS hotspot mutations in 72% of PAAD (highest pan-cancer); HER2+MEK inhibitor combination actionable in 7% of PAAD [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for PAAD [PMID:29625055](../papers/29625055.md)
 - PAAD (pancreatic adenocarcinoma) was highlighted as a cancer type where the tumor microenvironment drives drug response; patient-derived tumoroids on 3D bioprinted decellularized scaffolds were proposed as a drug-screening platform for personalized therapy in pancreatic ductal adenocarcinoma. [PMID:30643250](../papers/30643250.md)
+- Pancreatic adenocarcinoma (n=4, 5.3%) was among TRK fusion-positive tumor types in the MSK prospective cohort; pancreatic cancers were over-represented in the MSK real-world cohort relative to the pivotal larotrectinib trial cohort [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -104,5 +105,8 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

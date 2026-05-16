@@ -11,8 +11,8 @@ tags:
   - sarcoma
   - functional-precision-medicine
   - diagnostic-reclassification
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # larotrectinib
@@ -27,6 +27,7 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 - [ETV6](../genes/ETV6.md) FISH was negative in SARC0127, corroborating the PDTO larotrectinib resistance signal and supporting the reclassification; this exemplifies functional precision medicine complementing molecular diagnostics when histology is ambiguous [PMID:39305899](../papers/39305899.md).
 - FDA-recognized level 1 biomarker: [NTRK1](../genes/NTRK1.md) fusions (e.g., LMNA::[NTRK1](../genes/NTRK1.md)) predict response to larotrectinib across solid tumor types including gallbladder carcinoma; 1 patient in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233) harbored an actionable [NTRK1](../genes/NTRK1.md) fusion [PMID:36228155](../papers/36228155.md)
 - NTRK fusion-positive CCA: 75% ORR in 55 NTRK-fusion patients including 2 CCA; treatment-naïve TRK-fusion update ORR 77%, mPFS 59 mo across tumor types [PMID:25526346](../papers/25526346.md)
+- In MSK-IMPACT cohort of 26,312 cases (0.28% TRK fusion prevalence), a melanoma case with concurrent GON4L-NTRK1 fusion and NRAS Q61R had progressive disease on larotrectinib; the derived cell line was insensitive to larotrectinib and LOXO-195 but responsive to trametinib, with absent pan-TRK protein expression — illustrating that concurrent canonical MAPK drivers can abrogate TRK oncogenic dependence [PMID:31871300](../papers/31871300.md).
 
 ## Resistance mechanisms
 
@@ -48,3 +49,6 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 - [PMID:25526346](../papers/25526346.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

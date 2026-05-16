@@ -3,8 +3,8 @@ symbol: SERPINB3
 aliases: [SCC-A, SCCA1]
 cancer_types: [MEL]
 tags: [serine-protease-inhibitor, immune-evasion, melanoma, biomarker]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # SERPINB3
@@ -16,6 +16,7 @@ SERPINB3 (Serpin Family B Member 3, also known as SCCA1) is a serine protease in
 ## Alterations observed in the corpus
 
 - Trend toward disease control (5/6 SERPINB3/SERPINB4-mutant patients had CR/PR/SD; p = 0.21, not significant due to small n) in melanoma patients receiving [nivolumab](../drugs/nivolumab.md); consistent with prior anti-CTLA-4 association reports [PMID:29033130](../papers/29033130.md).
+- SERPINB3 mutations were not associated with anti-PD1 response in melanoma (Fisher's P=0.51); the previously proposed positive association was not replicated in this cohort of 120 patients [PMID:31792460](../papers/31792460.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,6 @@ SERPINB3 (Serpin Family B Member 3, also known as SCCA1) is a serine protease in
 
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

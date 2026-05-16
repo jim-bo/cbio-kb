@@ -21,6 +21,7 @@ FUBP1 (far upstream element binding protein 1) regulates [MYC](../genes/MYC.md) 
 - Recurrently mutated in diffuse glioma (n=45 mutations recovered); confirmed known glioma driver along with TP53, EGFR, PTEN, CIC in pan-glioma TCGA methylation/genomic analysis (n=1122) [PMID:26824661](../papers/26824661.md)
 - Mutated in 5/19 (26%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases; canonical oligodendroglioma driver gene on chromosome 1p [PMID:28472509](../papers/28472509.md)
 - FUBP1 is a canonical glioma subtype-defining lesion; its frequency was stable across primary vs. recurrent specimens in a 923-patient adult glioma prospective genomic profiling cohort [PMID:31263031](../papers/31263031.md).
+- FUBP1 mutation present in the original oligodendroglioma (along with CIC and CHEK2) that gave rise to GBM154; only CHEK2 (and TERT promoter mutation plus 1p/19q co-deletion) was retained in the high-grade recurrent PDX — FUBP1 lost at malignant transformation [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -54,5 +55,8 @@ FUBP1 (far upstream element binding protein 1) regulates [MYC](../genes/MYC.md) 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

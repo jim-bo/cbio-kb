@@ -4,7 +4,7 @@ oncotree_code: MEL
 main_type: Melanoma
 parent: SKIN
 tags: [melanoma, skin]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -39,6 +39,8 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors; MEL (melanoma) context referenced for BRAF hotspot mutations at 51% in SKCM and NRF2/oxidative-stress pathway data [PMID:29625050](../papers/29625050.md)
 - MEL (melanoma) was used as a 3D model test bed; B16-OVA/B16-F0 murine melanoma spheroids in anchored droplet co-cultures demonstrated that tumor destruction by cytotoxic T lymphocytes reflects cooperative accumulation at the spheroid edge rather than individual T-cell activity; a skin-cancer-on-a-chip platform enabled uniform doxorubicin delivery via GelMA microneedles to melanoma cells beneath the epidermis. [PMID:30643250](../papers/30643250.md)
 - MEL/SKCM (n=321, combined) was the second-largest histology in the ICI-treated MSK-IMPACT cohort; TMB-high melanoma patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for melanoma. [PMID:30643254](../papers/30643254.md)
+- 144 advanced melanoma patients (cutaneous 72.9%, occult 13.2%, acral 6.9%, mucosal 6.9%) treated with anti-PD1 ICB (nivolumab/pembrolizumab): ORR 38%; TMB confounded by subtype (cutaneous/occult median 297.5 vs acral/mucosal 58 nonsynonymous mutations, P=1.1e-6); MHC-II HLA expression is a candidate biomarker; prior ipilimumab exposure stratifies which predictors apply [PMID:31792460](../papers/31792460.md)
+- Melanoma (n=5, 6.6%) was among TRK fusion-positive tumor types in the MSK cohort; one melanoma carried GON4L-NTRK1 + NRAS Q61R co-mutation, showed progressive disease on larotrectinib, pan-TRK IHC-negative, and was sensitive to trametinib — the only TRK fusion-positive case with a co-occurring canonical MAPK driver (1/65 TRK+ tumors, 1.5% vs 31.4% in TRK-negative) [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -86,5 +88,11 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

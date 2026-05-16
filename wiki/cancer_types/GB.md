@@ -4,7 +4,7 @@ oncotree_code: GB
 main_type: Glioma
 parent: ADIFG
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,8 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - Glioblastoma was included in the MSK-IMPACT pan-cancer cohort; TP53 was significantly enriched in glioblastoma vs TCGA primary tumors; EGFRvIII (exon 2-7 deletion) was detected in 65 cases and EGFR mutations localized to the extracellular N-terminal domain in glioma vs kinase domain in lung cancer. [PMID:28481359](../papers/28481359.md)
 - GB (glioblastoma) was a major 3D model test bed; U87/U87MG cells in chitosan-hyaluronic porous scaffolds upregulated CD44, ABCG2, and MGMT in a pore-size-dependent manner and showed greater temozolomide resistance than monolayers; gelatin-foam tumoroids resisted irinotecan and fluorouracil while upregulating HIF-1α. [PMID:30643250](../papers/30643250.md)
 - GB was the clearest outlier histology in the pan-cancer TMB–ICI analysis: TMB was not associated with improved OS in glioma patients treated with ICI, distinguishing it from nearly all other represented cancer types. [PMID:30643254](../papers/30643254.md)
+- IDH wild-type glioma (IDHwt, n=134) had the highest rate of subclonal selection at recurrence (64%, Fisher's P=0.01); subclonal selection in IDHwt associated with shorter overall survival (log-rank P=0.027); alkylating-agent-induced hypermutation rate 16% [PMID:31748746](../papers/31748746.md)
+- Glioblastoma (n=4, 5.3%) was among the TRK fusion-positive tumor types in the MSK prospective cohort; one case showed TPM3-NTRK1 fusion lost at progression on a brain-penetrant TRK inhibitor with concurrent acquisition of focal EGFR amplification (19.6-fold), representing a distinct off-target resistance mechanism [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -65,5 +67,11 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

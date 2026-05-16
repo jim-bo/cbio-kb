@@ -39,6 +39,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - AR mutated in 7% of gallbladder carcinoma across a multi-regional cohort (Japan, Chile, US) sequenced by MSK-IMPACT [PMID:30427539](../papers/30427539.md)
 - AR-signaling pathway drives ETS-fusion promoter activity in prostate cancer; AR is a downstream pathway-level event following ETS initiation in the PRESCIENT temporal model built from 292 WGS prostate cancer genomes [PMID:30537516](../papers/30537516.md)
 - AR amplifications and missense mutations enriched post-ARSI vs ARSI-naive mCRPC; AR alteration associated with shorter time on first-line ARSI (P=0.005, CPE=0.651) but not overall survival; AR splice variants (AR-V7, AR-V3) in tumor RNA were not prognostic in this 429-patient cohort [PMID:31061129](../papers/31061129.md)
+- Recurrent variant of uncertain significance (VUSo) in castration-resistant prostate cancer (CRPC) cfDNA, consistent with subclonal androgen-receptor evolution detected by broad-coverage liquid biopsy [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -113,5 +114,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

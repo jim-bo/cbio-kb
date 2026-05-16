@@ -3,8 +3,8 @@ symbol: HLA-C
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # HLA-C
@@ -16,6 +16,7 @@ HLA-C (Human Leukocyte Antigen C) is an MHC class I molecule essential for prese
 ## Alterations observed in the corpus
 
 - Part of the HLA class I (HLA-A/B/C) somatic mutation cluster found in 11% of colorectal cancer cases in a 619-sample neoantigen study; mutations biased toward exon 4 (TCR-binding domain) and peptide-contact residues in exons 2-3; mutated alleles carry more neoantigens than non-mutated alleles (Wilcoxon p=0.006); collectively enriched for immune-escape selection in TIL-rich tumors [PMID:26997480](../papers/26997480.md)
+- HLA-C focal amplification (chr 6p21 MHC-I region) found exclusively in anti-PD1 responders among 144 advanced melanoma patients (n=6; Fisher's P=0.008); HLA-C LOH was not associated with response (Fisher's P=0.84) [PMID:31792460](../papers/31792460.md)
 
 ## Cancer types (linked)
 
@@ -30,3 +31,6 @@ HLA-C (Human Leukocyte Antigen C) is an MHC class I molecule essential for prese
 - [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

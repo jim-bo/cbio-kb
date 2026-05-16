@@ -40,6 +40,8 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - PDGFRA amplification and mutation were acquired during serial tumour evolution in glioma patients #25 (convergent evolution replacing EGFR amplification) and #28 (GBM, IDH-WT); the EGFR→PDGFRA switch illustrates convergent evolution within the RTK axis and was captured by CSF ctDNA profiling [PMID:30675060](../papers/30675060.md).
 - PDGFRA alteration is among the biomarkers explaining ponatinib sensitivity via PTPN11 (SHP2 pY542) phosphoprotein levels in AML and CML cell lines [PMID:31068700](../papers/31068700.md)
 - PDGFRA harbors 34 newly identified hotspots from a 3,130-sample glioma meta-analysis; identified alongside EGFR hotspots in adult glioma [PMID:31263031](../papers/31263031.md)
+- Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
+- No amplification observed in any GBM PDX (n=84) despite ~15% expected frequency in IDH-wildtype GBM; three PDX carried SNVs including D842V; GBM159 demonstrated PDX-engraftment-associated amplification loss (FISH: 45–75% of patient cells amplified, none in PDX) [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -128,5 +130,11 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

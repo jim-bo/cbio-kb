@@ -28,6 +28,7 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - Frequently mutated in AML/MDS; persisted in remission in some patients after 10-day decitabine cycles, appearing in nonleukemic rising clones consistent with clonal hematopoiesis of indeterminate potential; did not predict decitabine response [PMID:27959731](../papers/27959731.md)
 - Frequently co-mutated with FLT3-ITD and NPM1 in AML; DNMT3A mutation alone was insufficient to confer ibrutinib or entospletinib sensitivity in ex vivo drug-response assays [PMID:30333627](../papers/30333627.md)
 - DNMT3A is among the clonal-hematopoiesis filter genes used to exclude CH-attributable variants from germline calls in a 931-tumor MSK-IMPACT glioma cohort [PMID:31263031](../papers/31263031.md)
+- One of the most frequent clonal hematopoiesis (CH) driver genes; DNMT3A mutations most often had the highest variant allele frequency in cfDNA in both cancer patients and non-cancer controls, indicating dominant clonal expansion [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -82,5 +83,8 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

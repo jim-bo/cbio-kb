@@ -35,6 +35,7 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Kaplan-Meier / log-rank analysis used to compare time-to-treatment failure across MAPK driver groups in 322 melanoma patients on PD-1 or nivo+ipi; driver-group effect p<0.0001 [PMID:33509808](../papers/33509808.md)
 - Kaplan-Meier OS estimates used throughout 412-patient iCCA cohort to assess prognostic impact of TP53, KRAS, and CDKN2A alterations [PMID:33765338](../papers/33765338.md)
 - Kaplan-Meier analysis used to compare OS across genomic subgroups in 487 EAC/EGJ patients; median OS 31.6 months overall (CIT 42.5 mo vs. PIT 22.8 mo, p<0.001) [PMID:33795256](../papers/33795256.md)
+- Used to estimate overall survival for 573 intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients stratified by initial treatment (resection, HAIC, SYS) and nodal status; key OS estimates: N0 resection 59.9 months, HAIC 24.9 months, SYS 13.7 months (P<0.001); N1 resection 19.7 vs HAIC 18.1 months (P=0.560) [PMID:33963001](../papers/33963001.md)
 
 ## Notes
 
@@ -95,4 +96,6 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

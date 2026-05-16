@@ -40,6 +40,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR truncating and hotspot variants classed as CH-myeloid putative drivers per annotation rules in a 9,437-patient MSK-IMPACT clonal hematopoiesis study; CH at VAF >2% associates with tMN risk (HR=6.9) [PMID:33106634](../papers/33106634.md)
 - BCOR G943D shared across germ cell tumor, MDS, and post-allogeneic-transplant histiocytic sarcoma of one patient, supporting host (not donor) origin and shared clonal precursor in primary mediastinal NSGCT with subsequent hematologic malignancy [PMID:32897884](../papers/32897884.md)
 - In 83 enucleated retinoblastomas profiled by MSK-IMPACT, BCOR loss-of-function mutations were found in 19/83 (22.9%) specimens — the most common non-RB1 somatic alteration — and were nominally associated with worse metastasis-free survival (Kaplan-Meier p=0.03). [PMID:33466343](../papers/33466343.md)
+- Mutations identified in TERT-WT metaplastic breast cancers (MBC) in a 60-case MSKCC cohort; present only in the TERT-WT group (not statistically significant after multiple-testing correction) [PMID:33863915](../papers/33863915.md)
 
 ## Cancer types (linked)
 
@@ -120,5 +121,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

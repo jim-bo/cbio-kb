@@ -31,6 +31,7 @@ TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in Onco
 - Included in TCGA PanCancer Atlas; TGCT showed strong enrichment of both mRNA- and DNA-methylation-based stemness signatures; cell-cycle pathway rarely altered in TGCT [PMID:29625048](../papers/29625048.md)
 - Cell-cycle pathway rarely altered in TGCT; testicular non-seminoma has 8.5% actionable alteration frequency; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for TGCT [PMID:29625055](../papers/29625055.md)
+- cf-IMPACT targeted cfDNA panel (410 genes) was applied to metastatic solid tumors including testicular cancer patients at MSKCC (n=118 metastatic pan-cancer cohort); tumor-fraction-guided multi-assay strategy detected somatic mutations in 76% of patients overall [PMID:34059130](../papers/34059130.md).
 
 ## Subtypes
 
@@ -45,6 +46,7 @@ TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in Onco
 
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
 - [PMID:29622463](../papers/29622463.md) — Pan-cancer aneuploidy landscape (Taylor et al., 2018)
+- [PMID:34059130](../papers/34059130.md) — Tsui et al. cf-IMPACT + MSK-ACCESS + cf-WES tumor-fraction-guided cfDNA triage in 118 metastatic solid tumors.
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)

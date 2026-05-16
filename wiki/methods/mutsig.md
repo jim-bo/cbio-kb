@@ -68,6 +68,7 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - Applied (MutSigCV) to identify recurrently mutated genes driving somatic mutation patterns across 9,125 TCGA PanCanAtlas tumors in 33 cancer types [PMID:29625050](../papers/29625050.md).
 - MutSig2CV applied to 304 DLBCLs identified 98 candidate cancer genes at q < 0.1, including 40 previously undescribed drivers in DLBCL [PMID:29713087](../papers/29713087.md)
 - Applied in TCGA pan-cancer analysis to identify significantly mutated genes [PMID:29713003](../papers/29713003.md)
+- Applied as one of four cancer-gene discovery tools (alongside [LOFsigrank](../methods/lofsigrank.md), [dN/dS](../methods/dndscv.md), [OncodriveFML](../methods/oncodrivefml.md)) in a CSCC ([CSCC](../cancer_types/CSCC.md)) meta-analysis of 88 WES/WGS tumors; MutSig jointly nominated 12 driver genes, 7 by ≥2 tools [PMID:34272401](../papers/34272401.md)
 
 ## Notes
 
@@ -230,4 +231,6 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -8,7 +8,7 @@ cancer_types:
   - IHCH
   - EAC
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,8 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - EGFR structural variants in 45/99 (45%) GBM tumors (gbm_cptac_2021), all with concordant copy-number amplification (high SV-CNV concordance); EGFR mutation, SV, and amplification co-occurred (p < 0.01). Elevated RNA, protein, and Y1172 autophosphorylation in EGFR-altered tumors. EGFR phosphorylates CTNNB1 S33 (proteasomal-degradation site) and has trans effects on PTPN11 Y62, PLCG1 Y783, GAB1 Y657/Y689, MAP3K1 S1408, and RB1 S795/Y805; strong cis effect at EGFR S1166 [PMID:33577785](../papers/33577785.md).
 - EGFR amplification in 6 cases (rare, ~1.5%) of intrahepatic cholangiocarcinoma (ihch_msk_2021, n=412) [PMID:33765338](../papers/33765338.md).
 - EGFR amplification is a recurrent driver at ≥5% in esophageal/GEJ adenocarcinoma (egc_mskcc_2020, n=487); no independent OS association demonstrated in this cohort [PMID:33795256](../papers/33795256.md).
+- EGFR P551L flagged as a single hotspot call requiring additional evidence in an 83-tumor CSCC meta-analysis; classified as 'possible false positive' [PMID:34272401](../papers/34272401.md)
+- Recurrent oncogenic driver mutations and amplifications in NSCLC; EGFR mutations were enriched in cfDNA relative to tissue MSK-IMPACT in lung cancer in the MSK-ACCESS multi-cancer liquid biopsy study [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -52,3 +54,9 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

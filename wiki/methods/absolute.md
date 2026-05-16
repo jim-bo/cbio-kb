@@ -46,6 +46,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used to estimate tumor purity from WES data in the GBM anti-PD-1 immunotherapy cohort; purity was not significantly different between responders and non-responders (p=0.19) [PMID:30742119](../papers/30742119.md)
 - Used in the PCAWG pan-cancer WGS study (n=2,658 tumors) as an ABSOLUTE-class tool for copy-number analysis, tumor purity, and ploidy estimation across 38 tumor types [PMID:32025007](../papers/32025007.md).
 - Applied with FACETS and PyClone to infer whole-genome doubling (WGD) in synchronous DCIS/IDC-NST WES cohort; WGD detected in 7/25 patient pairs [PMID:32220886](../papers/32220886.md)
+- Used to compute cancer cell fractions (CCFs) for somatic mutations in 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) sequenced by WES or MSK-IMPACT; CCF estimates informed clonality classifications (e.g., distinguishing clonal PIK3CA H1047R co-occurring with TERT mutations from subclonal Ras pathway mutations) [PMID:33863915](../papers/33863915.md)
 
 ## Notes
 
@@ -127,4 +128,6 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

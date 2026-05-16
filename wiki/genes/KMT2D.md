@@ -76,6 +76,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Mutated in 9% of refractory metastatic triple-negative breast cancer (TNBC) patients in the FUSCC cohort (n=69); profiled by 484-gene targeted NGS panel. [PMID:32719455](../papers/32719455.md)
 - KMT2D — classified as a CH-myeloid putative driver gene; truncating variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - Recurrently mutated (P=0.037) in UTUC; associated with higher mutational load (P=0.04); enriched in iCluster-low (FGFR3-rich) subtype (P=0.028); iClusterBayes posterior probability 0.63. [PMID:33397444](../papers/33397444.md)
+- Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
+- Nominated as a candidate CSCC driver in prior studies but not supported by this meta-analysis (88 QC-passed tumors); authors flag it as a gene that may yet prove to be under selection but present data did not support nomination [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -233,46 +235,52 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30052636](../papers/30052636.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: NOTCH3
 aliases: []
 cancer_types: [MFH]
 tags: [notch-signaling]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 - More frequently mutated in HR+ metastatic breast cancer (mBC) than early-stage breast cancer at FDR<0.1; mutations spread across protein domains without obvious hotspots, leaving therapeutic actionability unclear [PMID:28027327](../papers/28027327.md)
 - Lower-prevalence NOTCH-family mutations numerically enriched in R/M ACC alongside NOTCH2 and NOTCH4 (NOTCH4 OR 6.59, P=0.067) [PMID:31483290](../papers/31483290.md).
 - Included among drug-resistance-related mutations enriched in progressive-disease patients in the FUTURE trial TNBC cohort (n=69, refractory metastatic TNBC). [PMID:32719455](../papers/32719455.md)
+- Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 
 ## Cancer types (linked)
 
@@ -65,7 +66,10 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

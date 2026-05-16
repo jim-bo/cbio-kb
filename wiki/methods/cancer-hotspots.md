@@ -20,6 +20,7 @@ Cancer Hotspots is a statistical method for identifying recurrently mutated posi
 - Applied (alongside 3D protein-structure hotspot analysis) to annotate driver mutations in 9,125 TCGA PanCanAtlas tumors across 33 cancer types, contributing to the identification of 89% of tumors carrying at least one pathway driver alteration [PMID:29625050](../papers/29625050.md).
 - Chang et al. 2016 hotspot algorithm applied to a combined 2,732-breast-tumor cohort (MSK prospective + TCGA retrospective), identifying 313 significant hotspots in 72 genes; 12 novel PIK3CA hotspots discovered [PMID:30205045](../papers/30205045.md)
 - Cancer Hotspots used alongside OncoKB for oncogenicity annotation of somatic variants in 487 EAC/EGJ patients at MSK; copy-number purity/ploidy correction via FACETS [PMID:33795256](../papers/33795256.md)
+- Applied in conjunction with four statistical gene-discovery tools ([MutSig](../methods/mutsig.md), [LOFsigrank](../methods/lofsigrank.md), [dN/dS](../methods/dndscv.md), [OncodriveFML](../methods/oncodrivefml.md)) to rescue additional driver gene candidates in a CSCC ([CSCC](../cancer_types/CSCC.md)) meta-analysis of 88 tumors; cancerhotspots.org overlap supplemented the 12 statistical nominees to reach the final 30-gene driver set [PMID:34272401](../papers/34272401.md)
 
 ## Notes
 
@@ -36,4 +37,6 @@ Cancer Hotspots is a statistical method for identifying recurrently mutated posi
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

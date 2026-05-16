@@ -31,6 +31,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin established UVR signature (SBS7a/SBS7b/DBS1) accumulation as a precursor risk model; cSCC mean mutation burden of 50 substitutions/Mb was used as the endpoint for surveillance-exposure modelling [PMID:26950094](../papers/26950094.md)
 - In 21 recurrent/metastatic CSCC profiled by MSK-IMPACT (Morris et al.): UV-light mutational signature in 86% (18/21) associated with higher mutation counts (37.9 vs 4.3, P=.008); TERT promoter mutations in 52%; 3p deletion + TP53 co-occurrence in 32% — the first report in cutaneous SCC [PMID:27442865](../papers/27442865.md).
 - Published cutaneous squamous cell carcinoma mutational signature datasets were used as a reference comparison in the first WES landscape of vulvar SCC; HPV(-) vulvar SCC displayed higher mutational load than HPV(+) cases, consistent with patterns observed in CSCC [PMID:29422544](../papers/29422544.md)
+- Meta-analysis of WES/WGS data from 10 CSCC studies (88 QC-passed tumors) using four cancer-gene discovery tools nominated 30 driver genes; NOTCH-pathway loss-of-function in 79.5% ([NOTCH1](../genes/NOTCH1.md) 55.4%, [NOTCH2](../genes/NOTCH2.md) 36.1%), p53-pathway in 71.1% ([TP53](../genes/TP53.md) 66.3%), cell-cycle/Rb pathway in 38.6% ([CDKN2A](../genes/CDKN2A.md) 34.9%), SWI/SNF in 38.6% ([ARID2](../genes/ARID2.md) 27.7%, [PBRM1](../genes/PBRM1.md) 12%), Hippo pathway in 37.3% ([FAT1](../genes/FAT1.md) 30.1%); four novel drivers ([EP300](../genes/EP300.md), [PBRM1](../genes/PBRM1.md), [USP28](../genes/USP28.md), [CHUK](../genes/CHUK.md)) each mutated in >10% of tumors; data deposited as [cscc_ucsf_2021](../datasets/cscc_ucsf_2021.md) on cBioPortal [PMID:34272401](../papers/34272401.md).
 
 ## Subtypes
 
@@ -44,6 +45,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 
 ## Sources
 
+- [PMID:34272401](../papers/34272401.md) — Chang & Shain, meta-analysis of 88 CSCC WES/WGS; 30 driver genes; dataset cscc_ucsf_2021.
 - [PMID:39091884](../papers/39091884.md) — Genetic evolution of keratinocytes to cutaneous squamous cell carcinoma (bioRxiv, 2024)
 
 - [PMID:25303977](../papers/25303977.md)

@@ -9,7 +9,7 @@ tags:
   - somatic-mutation
   - driver-discovery
   - bioinformatics
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ dNdScv (dN/dS in cancer using a Poisson framework with covariate correction) is 
 ## Used by
 
 - Bolton et al. applied dNdScv to clonal hematopoiesis (CH) mutations from 24,146 cancer patients (MSK-IMPACT), restricting the analysis to the IMPACT-410/468 sub-cohorts with q < 0.1 and ≥25 variants per gene, to identify genes under positive selection in hematopoietic stem and progenitor cells across diverse cancer and therapy contexts [PMID:33106634](../papers/33106634.md)
+- Applied as one of four statistical cancer-gene discovery tools in a CSCC ([CSCC](../cancer_types/CSCC.md)) meta-analysis of 88 WES/WGS tumors; dN/dS compares observed nonsynonymous-to-synonymous mutation ratios against neutral-evolution expectations to detect positive selection; collectively the four tools nominated 12 cancer genes, 7 called by ≥2 tools [PMID:34272401](../papers/34272401.md)
 
 ## Notes
 
@@ -33,5 +34,7 @@ dNdScv (dN/dS in cancer using a Poisson framework with covariate correction) is 
 ## Sources
 
 - [PMID:33106634](../papers/33106634.md) — Bolton et al., clonal hematopoiesis in 24,146 cancer patients; dNdScv used to map positive selection in CH across cancer types and treatment exposures.
+
+- [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

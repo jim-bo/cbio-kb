@@ -3,7 +3,7 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -158,6 +158,10 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Clonal hotspot mutations H1047R (JuP2) and E542K (JuP3) identified in 2/3 juvenile papillomatosis cases; JuP3 PIK3CA E542K mutation was shared by the coexisting JP, DCIS, and IDC-NST components, supporting clonal origin. [PMID:33263939](../papers/33263939.md)
 - Significantly enriched in NMI-BLCA vs NMI-UTUC (P=0.0001); shows tissue-of-origin difference between upper-tract and bladder non-muscle-invasive tumors. [PMID:33397444](../papers/33397444.md)
 - Less frequent in NMF LumB-I than NMF LumA-I breast cancer (binomial p=1.50×10⁻³); recurrent in LAR-subtype TNBC. [PMID:33212010](../papers/33212010.md)
+- Clonal hotspot mutations (e.g., H1047R) significantly enriched in TERT-altered metaplastic breast carcinomas (83% vs 13%; p=0.001); co-occurs with TERT promoter mutations [PMID:33863915](../papers/33863915.md)
+- OncoKB level 1 alterations detected in plasma of breast cancer patients via cf-IMPACT, supporting alpelisib eligibility; PIK3CA p.H1047R at very low VAF was a borderline false positive on orthogonal specificity testing [PMID:34059130](../papers/34059130.md)
+- Targetable alterations recurrently detected in intrahepatic cholangiocarcinoma; PIK3CA p.H1047R at 0.05-0.07% VAF was one of two borderline false positives identified on the MSK-ACCESS specificity panel [PMID:34145282](../papers/34145282.md)
+- Mutated in 6.0% of CSCC tumors (PI3K pathway); co-occurs with PTEN loss in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -332,10 +336,22 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33263939](../papers/33263939.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

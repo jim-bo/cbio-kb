@@ -3,7 +3,7 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC, HNSC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -50,6 +50,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Activating hot-spot mutations in HD and PEST domains in 18.3% of R/M ACC cases; any NOTCH1 alteration in 26.3% R/M vs. 8.5% primary (OR 3.86, P<0.0001); strongly associated with poor OS (median 55.1 vs. 204.5 months, P=1.10×10⁻⁴); mutually exclusive with TERT promoter mutations; co-occurs with chromatin-remodeling alterations; authors propose γ-secretase inhibitors as targeted therapy [PMID:31483290](../papers/31483290.md).
 - Mutated in 68% of T-ALL/ETP-ALL PDX models in the PPTC cohort (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 - One of the most common co-mutations in TRK fusion-positive tumors in the MSK cohort (n=113 NTRK-positive cases); co-mutation with NOTCH2 also observed [PMID:31871300](../papers/31871300.md)
+- Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction); also detected at varying frequencies across both groups in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
+- Loss-of-function mutations in 55.4% of cutaneous squamous cell carcinomas in a meta-analysis of 88 QC-passed tumors; ubiquitous NOTCH-pathway inactivation identified as near-obligate in CSCC [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -132,10 +134,16 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -97,6 +97,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT (IMPACT341/410/468) capture-based NGS applied to 696 melanoma tumors at MSKCC and Lehigh Valley; median sequencing depth 709×; oncogenic calls restricted to OncoKB-annotated variants [PMID:33509808](../papers/33509808.md)
 - MSK-IMPACT targeted hybridization-capture NGS (341/410/468-gene panels) applied to 412 iCCA patients at MSKCC and Erasmus MC; all sequenced against matched normal with >60% tumor content [PMID:33765338](../papers/33765338.md)
 - MSK-IMPACT hybridization-capture NGS (v1/v2/v3 panels) applied to 487 lower esophageal/EGJ adenocarcinoma patients at MSK between 2014–2019; all 16 recurrent driver genes covered on every panel version [PMID:33795256](../papers/33795256.md)
+- Applied to 17 of 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC using the 341–468 gene panel versions ([IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), [IMPACT468](../methods/IMPACT468.md)); combined with WES (n=27) for somatic mutation and CNA profiling [PMID:33863915](../papers/33863915.md)
+- Used to profile 219/433 resected or HAIC-treated intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients; panel versions used were [IMPACT341](../methods/IMPACT341.md) (N=26), [IMPACT410](../methods/IMPACT410.md) (N=93), and [IMPACT468](../methods/IMPACT468.md) (N=100); identified composite high-risk alteration set (TP53/KRAS mutation or CDKN2A/B deletion) stratifying N1 disease prognosis [PMID:33963001](../papers/33963001.md)
 
 ## Notes
 
@@ -297,3 +299,9 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

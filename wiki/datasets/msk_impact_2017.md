@@ -9,8 +9,8 @@ unverified:
 assays: []
 panels: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 description: Targeted sequencing of 10,000 clinical cases using the MSK-IMPACT assay
 cancerTypeId: mixed
 pmid: 28481359
@@ -37,6 +37,7 @@ The foundational MSK-IMPACT clinical sequencing cohort (Zehir et al. 2017) compr
 - [PMID:36862133](../papers/36862133.md) — Doe-Tetteh et al. list `msk_impact_2017` alongside `[makeanimpact_ccr_2023](../datasets/makeanimpact_ccr_2023.md)` as the cBioPortal dataset context for their rare-cancer Make-an-IMPACT outreach program, which itself used the MSK-IMPACT clinical platform to return results to patients and local physicians [PMID:36862133](../papers/36862133.md).
 - [PMID:39506116](../papers/39506116.md) — Kehl et al. MSK-CHORD: the 24,950-patient MSK-CHORD real-world dataset was built on top of MSK-IMPACT sequencing; `msk_impact_2017` is cited as the foundational clinical sequencing backbone whose tumor genomics feed into MSK-CHORD [PMID:39506116](../papers/39506116.md).
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. MiMSI: the global comparison cohort (n=45,112 samples from 40,414 patients) drawn from prospective MSK-IMPACT clinical sequencing (January 2014–April 2020) is the same pipeline documented in `msk_impact_2017`; concordance between MSISensor and MiMSI was evaluated on this cohort [PMID:39746944](../papers/39746944.md).
+- [PMID:33863915](../papers/33863915.md) — da Silva et al., *npj Breast Cancer* 2021: Three previously reported MSK-IMPACT MBC cases from `msk_impact_2017` were included in a 60-sample TERT alteration study of metaplastic breast cancer; TERT promoter hotspot mutations or amplification found in 17% (10/60) of MBCs, mutually exclusive with TP53 mutations (p<0.001) and co-occurring with PIK3CA hotspots (p=0.001). [PMID:33863915](../papers/33863915.md)
 
 ## Notable findings derived from this cohort
 
@@ -48,12 +49,13 @@ The foundational MSK-IMPACT clinical sequencing cohort (Zehir et al. 2017) compr
 - Across 45,112 MSK-IMPACT samples from the same clinical sequencing pipeline, MiMSI reduced MSI-indeterminate calls from 3.8% (n=1,724 by MSISensor) to 0.47% (n=210), with 96% concordance for definitive MSS/MSI-H calls [PMID:39746944](../papers/39746944.md).
 - The MSK-CHORD real-world dataset integrates MSK-IMPACT tumor genomics with NLP-derived EHR annotations for 24,950 patients; multimodal models combining genomic and NLP features outperformed stage-alone [OS](../cancer_types/OS.md) prediction in [NSCLC](../cancer_types/NSCLC.md), breast, colorectal, prostate, and pancreatic cancers [PMID:39506116](../papers/39506116.md).
 - 706 advanced prostate cancers from MSK-IMPACT in this cohort were used as validation for 97 significantly mutated genes discovered in the prad_p1000 pan-1000 prostate meta-cohort, confirming novel drivers including CUL3 (9 cases), SPEN, SF3B1, and PIK3R2 [PMID:29610475](../papers/29610475.md)
+- da Silva et al. used three previously published MBC cases from msk_impact_2017 as part of a 60-sample study of TERT promoter mutations and gene amplification in metaplastic breast cancer; TERT alterations were found in 17% (10/60) of MBCs and were mutually exclusive with TP53 mutations (p<0.001) [PMID:33863915](../papers/33863915.md)
 
 ## Sources
 
 - cBioPortal study `msk_impact_2017`.
 - Zehir A, et al. *Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients.* Nat Med. 2017. [PMID:28481359](../papers/28481359.md)
-
 - [PMID:29610475](../papers/29610475.md)
+- [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

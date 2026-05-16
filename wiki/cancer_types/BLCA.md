@@ -4,7 +4,7 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -55,6 +55,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); bladder urothelial carcinoma among the 38 histotypes analyzed for somatic SNVs, indels, SVs, and driver landscapes [PMID:32025007](../papers/32025007.md).
 - ERBB2 oncogenic mutations found in 10.3% of bladder UC (n=1,032) profiled by MSK-IMPACT, vs 5.9% of UTUC, with ERBB2 amplification in 6.2% of bladder UC; HER2-mutant UTUC PDX (UCC14, HER2 S310F) was refractory to neratinib but sensitive to trastuzumab deruxtecan (DS-8201a), supporting antibody-drug conjugates over kinase inhibitors in HER2-altered urothelial carcinoma [PMID:32332851](../papers/32332851.md)
 - Integrative genomic/methylation profiling of 40 UTUC cases identified [FGFR3](../genes/FGFR3.md) (50%), [KDM6A](../genes/KDM6A.md) (27%), and [ZFP36L1](../genes/ZFP36L1.md) (20%) as significantly mutated genes; methylation defines EpiC-high (hypermethylated, MI-enriched, SWI/SNF-mutant, poor OS HR=6.57) and EpiC-low (FGFR3-enriched, immune-cold) subtypes translatable to TCGA MI-BLCA [PMID:33397444](../papers/33397444.md)
+- cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in bladder cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; [EP400](../genes/EP400.md) likely oncogenic frameshift deletion detected by cf-WES in a urothelial cancer patient in a region outside the cf-IMPACT panel footprint; BLCA was among tumor types with actionable alterations found by tumor-fraction-guided multi-assay strategy [PMID:34059130](../papers/34059130.md).
+- MSK-ACCESS (129-gene cfDNA assay) prospectively profiled 617 patients; bladder cancer was among the top tumor types (part of the 28% NSCLC/PRAD/BLCA/PAAD/biliary group); OncoKB level 1 actionable alterations detected in 48% of BLCA samples — the highest rate among all tumor types; acquired [FGFR3](../genes/FGFR3.md) point mutations conferring FGFR-inhibitor resistance detected in BLCA patients with FGFR3-TACC3 fusions; [FGFR3](../genes/FGFR3.md) recurrently altered in bladder cancer [PMID:34145282](../papers/34145282.md).
 
 ## Subtypes
 
@@ -143,3 +145,9 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:33397444](../papers/33397444.md) — Su et al. integrative genomic/methylation profiling of 40 UTUC cases.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -32,6 +32,9 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - Used to annotate oncogenicity and clinical actionability of alterations in 9,125 TCGA PanCanAtlas tumors; 57% of tumors had at least one OncoKB-annotated actionable alteration (Levels 1–3A) [PMID:29625050](../papers/29625050.md).
 - OncoKB (as of Aug 28, 2019) used to annotate oncogenic CDK12 alterations in 26,743 MSK-IMPACT pan-cancer tumors [PMID:32317181](../papers/32317181.md)
 - OncoKB used alongside Cancer Hotspots for oncogenicity annotation of somatic variants in 487 EAC/EGJ patients; copy-number correction via FACETS; MSI calling via MSIsensor [PMID:33795256](../papers/33795256.md)
+- Used for clinical actionability annotation of variants detected in the MSK-ACCESS prospective cohort; 41% (278/681) samples had OncoKB level 1–3B alterations; used to define the 56% of samples with ≥1 alteration that harbored clinically actionable findings [PMID:34145282](../papers/34145282.md)
+- Applied to annotate clinical actionability in cfDNA mutations detected by cf-IMPACT ([IMPACT410](../methods/IMPACT410.md)) and [MSK-ACCESS](../methods/ACCESS129.md) across 118 metastatic solid tumor patients; 25% (30/118) had OncoKB level 1–4 actionable variants by cf-IMPACT [PMID:34059130](../papers/34059130.md)
+- Applied to annotate candidate driver mutations in the CSCC meta-analysis; OncoKB hotspot classification was used to exclude potential false-positive driver calls (e.g., MAP2K4 and KDR hotspots classified as unlikely oncogenic) [PMID:34272401](../papers/34272401.md)
 
 ## Notes
 
@@ -68,3 +71,12 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

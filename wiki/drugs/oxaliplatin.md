@@ -5,7 +5,7 @@ drug_class: platinum chemotherapy
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -30,6 +30,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - In MSS mCRC (n=430, MSK-IMPACT), DDR pathway alterations were not associated with PFS benefit from oxaliplatin-containing first-line chemotherapy (HR 1.1, 95% CI 0.7–1.6, p=0.74), arguing against HRD-targeted patient selection for oxaliplatin regimens [PMID:32730818](../papers/32730818.md).
 - Oxaliplatin showed no significant association with clonal haematopoiesis in 24,146 cancer patients (OR=0.98, p=0.88), contrasting with carboplatin (OR=1.4, p=0.001); this platinum-agent-specific difference suggests oxaliplatin may be a safer choice from a CH-expansion standpoint when clinically interchangeable [PMID:33106634](../papers/33106634.md).
 - Part of systemic chemotherapy regimens in unresectable iCCA; HAIC with floxuridine added to systemic chemotherapy independently predicted improved OS (HR 0.45, P=0.003) in the locally advanced cohort [PMID:33765338](../papers/33765338.md)
+- Gemcitabine/oxaliplatin (GEMOX) was used as an alternative first-line systemic chemotherapy in the 140-patient systemic-chemotherapy-alone arm of a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018); systemic chemotherapy alone produced median OS 11.2 months in N1 patients, inferior to HAIC (18.1 months) and resection (19.7 months) [PMID:33963001](../papers/33963001.md).
 
 ## Resistance mechanisms
 
@@ -69,5 +70,6 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - [PMID:33106634](../papers/33106634.md)
 
 - [PMID:33765338](../papers/33765338.md)
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); gemcitabine/oxaliplatin (GEMOX) used as alternative systemic chemotherapy in IHC; systemic chemotherapy alone produced median OS 11.2 months in N1 disease vs 18–20 months for locoregional approaches.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -62,6 +62,7 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used for validation of somatic variant calls from WES (1130 events across 61 genes in DLBCL cohort, 90% concordance) [PMID:28985567](../papers/28985567.md)
 - Used to confirm recombination of the artificial-telomere construct at the centromeric chr_3p break site in CRISPR-engineered AALE cell clones [PMID:29622463](../papers/29622463.md)
 - Used to validate the FGFR3–TACC3 fusion (exon 17–exon 11 junction) detected in organoid line SCBO-10 and its matched parental bladder tumor [PMID:29625057](../papers/29625057.md).
+- Applied to 16 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) for targeted validation sequencing of TERT promoter hotspot, TP53, and selected exons of PIK3CA, HRAS, and BRAF where WES/IMPACT data were unavailable [PMID:33863915](../papers/33863915.md)
 
 ## Notes
 
@@ -203,4 +204,6 @@ A first-generation DNA sequencing method based on the selective incorporation of
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

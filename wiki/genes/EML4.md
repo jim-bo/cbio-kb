@@ -27,6 +27,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - EML4 is the second most common upstream NTRK fusion partner, exclusively paired with NTRK3, identified across multiple tumor types in the MSK TRK fusion-positive cohort (n=26,312 sequenced patients) [PMID:31871300](../papers/31871300.md)
 - Partner in the canonical EML4-ALK fusion (33 tumors, most frequent in-frame fusion event) in non-smoking lung adenocarcinoma (NS-LUAD); the EML4-ALK fusion was used in the 'Mutation model' Cox prognostic comparator [PMID:32015526](../papers/32015526.md)
 - EML4-ALK fusions (plus novel HMBOX1-ALK and ANKRD36B-ALK) identified in LUAD proteogenomic study; fusion-specific EML4-Y226 phosphorylation observed only in fusion-positive samples; WEE1 hyperphosphorylation in EML4-ALK tumors [PMID:32649874](../papers/32649874.md)
+- EML4-ALK fusions detected de novo and by genotyping in NSCLC samples using MSK-ACCESS liquid biopsy [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

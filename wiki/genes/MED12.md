@@ -25,6 +25,7 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - Not recurrently mutated in endometrial polyps; discussed only as comparator — MED12 is the dominant driver in uterine leiomyomas (70–80%) but was not found in this polyp cohort [PMID:28445112](../papers/28445112.md)
 - Recurrently altered candidate driver gene in medulloblastoma, stratified across subgroups in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 - MED12 mutated in only 11% (9/80) of uterine leiomyosarcoma (uLMS), in contrast to ~70% mutation frequency in benign uterine leiomyomas; MED12 was absent in non-uterine LMS (0% vs 11%, p=0.01), arguing that uLMS rarely evolves from antecedent leiomyomas [PMID:32299819](../papers/32299819.md)
+- Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 
 ## Cancer types (linked)
 
@@ -71,4 +72,7 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

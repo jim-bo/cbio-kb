@@ -3,8 +3,8 @@ symbol: DIS3
 aliases: []
 cancer_types: [CLLSLL]
 tags: [novel-driver, clumps]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # DIS3
@@ -19,6 +19,7 @@ DIS3 encodes a catalytic exoribonuclease subunit of the RNA exosome. It is a kno
 - Included among six additional drivers (with [MAP2K2](../genes/MAP2K2.md) and [DICER1](../genes/DICER1.md)) discovered by 3-D structural clustering that recurrent-gene tests alone missed [PMID:35927489](../papers/35927489.md).
 - Exonuclease recurrently mutated in 11% of multiple myeloma (MM) patients; point mutations plus LOH; enriched in non-hyperdiploid versus hyperdiploid MM (Fisher's exact p=0.00013); often co-clonal with [KRAS](../genes/KRAS.md) mutations, suggesting cooperative early-event biology; one of 11 significantly mutated genes (q<0.1) in MM [PMID:24434212](../papers/24434212.md)
 - DIS3 identified as a low-frequency hit in PDTC/ATC thyroid cancer targeted sequencing (>=2 ATC or >=3 PDTC cases, IMPACT 341-gene panel, 117 tumors) [PMID:26878173](../papers/26878173.md)
+- Flagged as a candidate driver in cutaneous squamous cell carcinoma (CSCC) but classified as 'possible false positive' requiring additional evidence in a 83-tumor meta-analysis [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ DIS3 encodes a catalytic exoribonuclease subunit of the RNA exosome. It is a kno
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

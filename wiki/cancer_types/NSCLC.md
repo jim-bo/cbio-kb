@@ -52,6 +52,8 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - NSCLC was the largest histology in the ICI-treated MSK-IMPACT cohort (n=350); TMB-high NSCLC patients had improved overall survival, the effect persisted after removing NSCLC and melanoma from the pan-cancer analysis, and PFS/clinical-benefit associations with TMB were specifically reported for this histology. [PMID:30643254](../papers/30643254.md)
 - Non-small cell lung cancer (n=41–53 evaluable) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 76% of NSCLC patients; EGFR T790M resistance mutations were recoverable as subclonal VUSo from cfDNA; MET amplification detected in one case (cfDNA CNV detection limited by low ctDNA fraction) [PMID:31768066](../papers/31768066.md)
 - Among 604 surgically resected stage I–III LUAD (a subtype of [NSCLC](../cancer_types/NSCLC.md)) profiled by MSK-IMPACT, histologic architectural grade (LEP / ACI-PAP / MIP-SOL) tracked genomic complexity; EGFR alterations were enriched in low-grade LEP (42%), BRAF-V600E in high-grade MIP/SOL (5%), and APOBEC signatures (SBS2, SBS13) independently predicted postresection recurrence [PMID:32791233](../papers/32791233.md).
+- cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in NSCLC patients in a 118-patient metastatic solid-tumor cohort at MSKCC; tumor-fraction-guided three-assay strategy (cf-IMPACT + MSK-ACCESS + cf-WES) improved overall detection yield to 76%; NSCLC was among the tumor types represented [PMID:34059130](../papers/34059130.md).
+- MSK-ACCESS (129-gene cfDNA assay) was prospectively applied to 617 patients; NSCLC was the dominant tumor type (349/617, 51%); [TP53](../genes/TP53.md) was mutated in 144/248 (58%) NSCLC samples with detectable alterations; OncoKB level 1 actionable alterations detected in 33% of NSCLC samples; [EGFR](../genes/EGFR.md) mutations enriched in cfDNA vs tissue in lung; [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) and [KIF5B](../genes/KIF5B.md)-[RET](../genes/RET.md) fusions detected; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors without known mitogenic drivers [PMID:34145282](../papers/34145282.md).
 
 ## Subtypes
 
@@ -72,6 +74,8 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 ## Sources
 
 - [PMID:27634761](../papers/27634761.md)
+- [PMID:34059130](../papers/34059130.md)
+- [PMID:34145282](../papers/34145282.md)
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)

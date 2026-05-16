@@ -31,6 +31,7 @@ Retinoblastoma (OncoTree: RBL) is a pediatric intraocular malignancy arising fro
 - **Heritable (bilateral/familial)** — germline RB1 pathogenic variant; bilateral presentation more common; requires cascade genetic testing for family members.
 - **Non-heritable (unilateral)** — both somatic RB1 hits; somatic cfDNA detection (absent from matched buffy coat) can confirm non-heritable status without biopsy, lifting screening obligations for siblings/offspring.
 - **MYCN-amplified, RB1-wildtype** — rare (~1%); distinct molecular subtype not addressable by RB1-targeted cfDNA panels in current form.
+- MSK-ACCESS matched WBC sequencing identified [RB1](../genes/RB1.md) copy-number deletions in two retinoblastoma patients that were correctly reclassified as germline (rather than somatic) based on paired normal sequencing — illustrating the critical importance of matched normals in cfDNA interpretation for RBL [PMID:34145282](../papers/34145282.md).
 
 ## Therapeutic landscape
 
@@ -41,6 +42,7 @@ Retinoblastoma (OncoTree: RBL) is a pediatric intraocular malignancy arising fro
 ## Sources
 
 - [PMID:32633890](../papers/32633890.md) — Kothari et al. plasma cfDNA RB1 detection in retinoblastoma.
+- [PMID:34145282](../papers/34145282.md) — Brannon et al. MSK-ACCESS cfDNA assay; RB1 germline deletions in two RBL patients identified via matched WBC.
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)

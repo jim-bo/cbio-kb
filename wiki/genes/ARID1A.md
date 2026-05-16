@@ -101,6 +101,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - In 83 enucleated retinoblastomas profiled by MSK-IMPACT, ARID1A was somatically mutated in 3/83 (3.6%) specimens and carried putative-driver variants, making it one of the few non-RB1 genes with driver-level mutations in this cohort. [PMID:33466343](../papers/33466343.md)
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, ARID1A was inactivated in 20% of tumors, consistent with its role as a major chromatin-remodeling tumor suppressor in biliary tract cancers. [PMID:33765338](../papers/33765338.md)
 - In 487 esophagogastric adenocarcinomas profiled by MSK-IMPACT, ARID1A was altered in 17% of TP53-wild-type tumors, serving as one of the most common alternative drivers in this TP53-WT subset. [PMID:33795256](../papers/33795256.md)
+- Mutations identified in TERT-WT metaplastic breast cancers (MBC); present among genes altered only in the TERT-WT group (not statistically significant after multiple-testing correction) [PMID:33863915](../papers/33863915.md)
+- Altered in 15.5% of MSK-IMPACT-profiled intrahepatic cholangiocarcinoma (IHC) patients; one of five most prevalent driver genes in IHC but not part of the poor-prognosis composite classifier in node-positive disease [PMID:33963001](../papers/33963001.md)
 
 ## Cancer types (linked)
 
@@ -348,5 +350,11 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

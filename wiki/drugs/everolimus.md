@@ -5,7 +5,7 @@ drug_class: mTOR inhibitor (rapalogue)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -36,6 +36,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - In MSKCC prospective NGS of 127 advanced HCC patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on sorafenib; all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset [PMID:30373752](../papers/30373752.md).
 - In 80 metastatic panNET patients, mTOR-pathway mutation status (43% of patients with [TSC2](../genes/TSC2.md), [PTEN](../genes/PTEN.md), or [RHEB](../genes/RHEB.md) alterations) did not predict everolimus benefit — response rates were 17% vs 29% in mTOR-altered vs wild-type patients; serial biopsies identified acquired resistance mutations including [PTEN](../genes/PTEN.md) Q298*, [RHEB](../genes/RHEB.md) Y35S, [TSC2](../genes/TSC2.md) splice, and [AKT2](../genes/AKT2.md) G16D [PMID:30687805](../papers/30687805.md)
 - In the FUTURE umbrella trial, everolimus combined with nab-paclitaxel in arm G (MES-subtype TNBC with PI3K-AKT pathway mutation) achieved ORR 50% (1/2 evaluable); very small arm, results preliminary [PMID:32719455](../papers/32719455.md).
+- [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition (everolimus or [temsirolimus](../drugs/temsirolimus.md)) combined with liposomal [doxorubicin](../drugs/doxorubicin.md) and [bevacizumab](../drugs/bevacizumab.md) in PI3K-pathway-altered advanced triple-negative MBC [PMID:33863915](../papers/33863915.md).
 
 ## Resistance mechanisms
 
@@ -91,5 +92,6 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
+- [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); PIK3CA enrichment in non-chondroid MBC supports mTOR inhibition (everolimus or temsirolimus) + liposomal doxorubicin + bevacizumab in PI3K-pathway-altered triple-negative MBC.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

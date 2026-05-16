@@ -43,6 +43,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - Oncogenic AR alterations were the strongest predictor of castration resistance and death in 424 mCSPC patients profiled by MSK-IMPACT; AR alterations were enriched 8.6 pp in metastatic-recurrent vs de-novo disease before adjusting for ADT exposure; AR pathway status proposed for prognostic stratification in metastatic castration-sensitive disease [PMID:32220891](../papers/32220891.md)
 - AR was used as an IHC surrogate marker for the LAR (luminal androgen receptor) subtype of metastatic TNBC in a biomarker-guided umbrella trial; anti-AR + CDK4/6 inhibitor therapy was assigned to LAR-subtype patients without ERBB2 mutations. [PMID:32719455](../papers/32719455.md)
 - AR-expressing LAR subtype of TNBC is noted as a distinct PIK3CA-recurrent subgroup in the CPTAC breast cancer proteogenomics study (n=122); LAR-subtype TNBC had recurrent PIK3CA mutations (binomial p=1.50 × 10⁻³ compared to NMF LumB-I) [PMID:33212010](../papers/33212010.md)
+- Sub-clonal AR p.H875Y (hormonal-therapy resistance) detected in plasma of an mCRPC patient by cf-IMPACT; subsequent tumor biopsy confirmed the mutation at 0.3% VAF in tissue, below the de novo calling threshold of tumor MSK-IMPACT [PMID:34059130](../papers/34059130.md)
+- AR mutations enriched in cfDNA versus MSK-IMPACT tissue in prostate cancer samples profiled by MSK-ACCESS; recurrently altered in PRAD across 681-sample prospective cohort [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -129,3 +131,9 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

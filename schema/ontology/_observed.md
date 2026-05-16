@@ -581,3 +581,6 @@
 - method: vardict — observed in PMID:32633890 — note: open-source tumor-blind somatic variant caller applied to retinoblastoma cfDNA (de novo RB1 calling at sub-1% VAF); no genePanelId in cBioPortal
 - method: waltz — observed in PMID:32633890 — note: MSK tumor-guided cfDNA variant caller (v2.0) applied to retinoblastoma plasma cfDNA; Pearson r²=0.993 technical replicate concordance; no genePanelId in cBioPortal
 - method: fuscc-ngs-484-panel — observed in PMID:32719455 — note: Fudan University Shanghai Cancer Center 484-gene targeted NGS panel used for somatic and germline variant calling in metastatic TNBC (FUTURE trial); not registered in cBioPortal gene_panels ontology
+- method: lofsigrank — observed in PMID:34272401 — note: statistical cancer-gene discovery tool that ranks genes by excess loss-of-function mutations; applied in CSCC WES/WGS meta-analysis alongside MutSig, dN/dS, and OncodriveFML; not in cBioPortal gene_panels
+- method: oncodrivefml — observed in PMID:34272401 — note: functional-impact-score-based driver gene detection (Mularoni et al.); applied in CSCC meta-analysis; not in cBioPortal gene_panels
+- method: footprints — observed in PMID:34272401 — note: callable-basepair footprint estimation software used for cross-sample normalization in multi-study WES meta-analyses; not in cBioPortal gene_panels

@@ -32,6 +32,7 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Cox proportional-hazards regression (backward selection of univariately significant covariates) used to model time-to-treatment failure in 322 melanoma patients on frontline PD-1 or nivo+ipi therapy in R 3.4.4 [PMID:33509808](../papers/33509808.md)
 - Cox proportional-hazards regression (univariate and multivariate) used to model OS in 412 iCCA patients, adjusted for nodal disease, multifocal liver disease, and lymphovascular invasion in R 4.0.0 [PMID:33765338](../papers/33765338.md)
 - Cox proportional-hazards multivariable model (adjusting for age, clinical stage, tumor grade, treatment intent) used to assess independent OS predictors in 487 EAC/EGJ patients; Harrell's C-index rose from 0.68 to 0.71 with genomic variables added [PMID:33795256](../papers/33795256.md)
+- Used in multivariable survival analysis of 573 liver-limited intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients; Cox model demonstrated HAIC vs resection HR 2.09 (95% CI 1.6–2.8) in N0 disease but equivalent HR 0.81 (95% CI 0.5–1.3) in N1 disease; treatment × nodal-status interaction term was significant (P<0.001) [PMID:33963001](../papers/33963001.md)
 
 ## Notes
 
@@ -84,4 +85,6 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

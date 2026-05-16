@@ -26,6 +26,7 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 - Clustered missense and inactivating mutations in 9% of HNSCC (279-tumor TCGA cohort; 92% of mutations in oral cavity); anti-correlated with 11q13 amplification; co-mutated with [HRAS](../genes/HRAS.md) in M-class oral-cavity subset [PMID:25631445](../papers/25631445.md)
 - placeholder
 - CASP8 missense mutants over-express CASP8 protein (FDR < 0.1) in the pan-cancer multi-omic analysis across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
+- Mutated in 22.9% of CSCC tumors; significantly enriched in RDEB (recessive dystrophic epidermolysis bullosa) CSCC versus other subtypes, consistent with CASP8's role in inflammatory-cytokine-induced apoptosis; grouped with stress-response genes mutated collectively in 32.5% of tumors [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -65,5 +66,8 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

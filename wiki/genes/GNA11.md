@@ -21,6 +21,7 @@ GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G
 - Most frequent driver in the uveal melanoma cohort (26683228): 14 samples with p.Q209P; mutually exclusive with [GNAQ](../genes/GNAQ.md) mutations; activates Gαq downstream signaling [PMID:26683228](../papers/26683228.md)
 - GNA11 activating mutations in uveal melanoma (UVM) drive calcium-signaling deregulation; GNA11 and GNAQ mutations represent the dominant oncogenic mechanism in UVM, highlighted in pan-cancer somatic-interaction analysis across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
 - Rare G-protein driver at 0.4% frequency in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas) [PMID:33509808](../papers/33509808.md)
+- Mutated in 1.2% of CSCC tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: IRF1
 aliases: []
 cancer_types: [COAD]
 tags: [icr-signature, immune-signature]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # IRF1
@@ -16,6 +16,7 @@ IRF1 is an interferon regulatory transcription factor central to Th1/IFNγ signa
 ## Alterations observed in the corpus
 
 - No somatic alteration claims; IRF1 is used as an expression component of the ICR immune-classification signature [PMID:37202560](../papers/37202560.md).
+- Likely oncogenic frameshift deletion in this tumor suppressor identified by cf-WES in a prostate cancer patient, in a region not covered by cf-IMPACT; illustrates the complementary value of cf-WES over targeted panels [PMID:34059130](../papers/34059130.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ IRF1 is an interferon regulatory transcription factor central to Th1/IFNγ signa
 - [PMID:37202560](../papers/37202560.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

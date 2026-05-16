@@ -30,6 +30,7 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - Zero responses among 7 patients with STK11 mutations in NSCLC combination PD-1 + CTLA-4 immunotherapy (CheckMate-012); consistent with prior reports of a T-cell-excluded phenotype in STK11-mutant tumors [PMID:29657128](../papers/29657128.md)
 - STK11 enriched in extrahepatic cholangiocarcinoma (EHC) vs intrahepatic; noted alongside TP53 as a gene defining EHC molecular biology in a 189-patient prospective NGS cohort [PMID:29848569](../papers/29848569.md)
 - Predominantly disruptive out-of-frame fusion events plus point mutations in [LUAD](../cancer_types/LUAD.md) (CPTAC cohort, n=110); strongly associated with immune-cold phenotype, neutrophil-degranulation protein signature, and increased SMAD4 S138 phosphorylation; predicted by deep-learning histopathology model (94% slide-level accuracy) [PMID:32649874](../papers/32649874.md)
+- NSCLC samples lacking known mitogenic drivers were enriched for STK11 mutations in MSK-ACCESS cfDNA cohort [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -87,10 +88,13 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29657128](../papers/29657128.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

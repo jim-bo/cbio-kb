@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -74,6 +74,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM was cited as a known LUAD subclonal driver gene with higher alteration frequency in micropapillary/solid (MIP/SOL) vs. lepidic (LEP) or acinar/papillary (ACI/PAP) histologic subtypes of resected lung adenocarcinoma. [PMID:32791233](../papers/32791233.md)
 - ATM truncating mutations included in CH-myeloid putative driver criteria; partially under-ascertained due to absence from the 163-gene myeloid serial-sampling panel used in sub-cohort analyses of therapy-associated clonal hematopoiesis [PMID:33106634](../papers/33106634.md)
 - ATM is a component of the SSBR (single-strand break repair) gene set whose protein loss in luminal breast cancer (CPTAC proteogenomics, n=122) is anti-correlated with PD-L1 and immune infiltration; low NER/BER/MMR protein levels associated with high mutation load specifically in luminal but not basal BRCA, nominating subsets of luminal BRCA as ICI candidates [PMID:33212010](../papers/33212010.md)
+- Copy-number deletion in ATM recovered via matched WBC sequencing and reclassified as germline (not somatic) — an indel ATM p.E522fs*43 had been previously reported as somatic by a commercial cfDNA test [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -259,3 +260,6 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

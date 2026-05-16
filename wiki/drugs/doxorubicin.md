@@ -5,7 +5,7 @@ drug_class: anthracycline
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy; MYC SVs, 13q31.3 gain, and 1q42.12 loss were independently prognostic for inferior PFS/OS on R-CHOP [PMID:29713087](../papers/29713087.md)
 - Doxorubicin was part of the cisplatin-based MVAC (methotrexate/vinblastine/doxorubicin/cisplatin) neoadjuvant chemotherapy regimen used in 288 MSKCC MIBC patients; secondary MIBC patients treated with this regimen had inferior pathologic response and survival outcomes compared to primary MIBC [PMID:30290956](../papers/30290956.md).
 - In a 3D cell culture review, doxorubicin delivered via GelMA microneedles in a skin/skin-cancer-on-a-chip platform achieved uniform 600 µm penetration to melanoma cells beneath the epidermis, with significantly higher efficiency than diffusion through media, modeling transdermal melanoma therapy [PMID:30643250](../papers/30643250.md).
+- Liposomal doxorubicin combined with mTOR inhibition ([temsirolimus](../drugs/temsirolimus.md) or [everolimus](../drugs/everolimus.md)) and [bevacizumab](../drugs/bevacizumab.md) showed higher response rates in PI3K-pathway-altered advanced triple-negative [metaplastic breast cancer (MBC)](../cancer_types/MBC.md); cited as therapeutic rationale for PIK3CA enrichment observed in non-chondroid MBCs [PMID:33863915](../papers/33863915.md).
 
 ## Resistance mechanisms
 
@@ -63,5 +64,6 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
+- [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); liposomal doxorubicin + mTOR inhibitor + bevacizumab combination cited as having higher response rates in PI3K-pathway-altered triple-negative MBC.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

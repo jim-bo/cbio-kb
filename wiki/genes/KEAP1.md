@@ -3,7 +3,7 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD, HNSC, NSCLC]
 tags: [co-mutation, metastasis]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -33,6 +33,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - KEAP1 loss (with NFE2L2 gain-of-function and CUL3 loss) constitutes the NRF2 pathway driver set concentrated in squamous lung/esophagus, head and neck, and uterine cancers across the TCGA pan-cancer atlas; KEAP1 loss co-occurs with STK11 loss in lung cancer [PMID:29625050](../papers/29625050.md)
 - KEAP1 is mutated in cHCC-ICC as part of the cellular energetics disruption group (KEAP1/IDH1/APOB/ALB, jointly 21.2%) [PMID:31130341](../papers/31130341.md).
 - Mutated in 12 LUAD tumors (CPTAC n=110); mutation generally reduced KEAP1 protein and increased NFE2L2 S215/S433 phosphorylation; BTB-domain G511V preserved protein but produced high NFE2L2 phosphorylation, suggesting binding disruption; mutations reduced cognate protein and phosphosite abundance [PMID:32649874](../papers/32649874.md)
+- STK11 and KEAP1 mutations enriched in NSCLC samples lacking known mitogenic drivers, detected by MSK-ACCESS cfDNA assay [PMID:34145282](../papers/34145282.md)
 
 ## Cancer types (linked)
 
@@ -98,7 +99,10 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -60,6 +60,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cisplatin showed a dose-response trend for promoting DDR clonal haematopoiesis (p-trend=0.04) in 24,146 cancer patients, but the cross-sectional association (OR=1.1, p=0.10) was not statistically significant unlike carboplatin; [TP53](../genes/TP53.md) CH clones were enriched by platinum exposure overall (OR=2.1, q=0.03) [PMID:33106634](../papers/33106634.md).
 - EZH2 inhibition ± cisplatin proposed as a therapeutic strategy for the SWI/SNF-mutant EpiC-high UTUC subtype, based on prior evidence that EZH2 inhibition activates NK-cell-mediated immunity in bladder cancer xenografts. [PMID:33397444](../papers/33397444.md)
 - Used as part of systemic chemotherapy regimens in unresectable iCCA; HAIC with floxuridine demonstrated improved OS independent of genomic profile in the locally advanced cohort [PMID:33765338](../papers/33765338.md)
+- Gemcitabine-platinum (gemcitabine + cisplatin) is cited as the current standard first-line systemic chemotherapy for intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); in a retrospective MSKCC cohort of 573 liver-limited IHC patients (2000–2018), a high proportion of the systemic-only arm did not receive gemcitabine-platinum, which the authors acknowledge as a limitation that may understate systemic chemotherapy's true efficacy [PMID:33963001](../papers/33963001.md).
 
 ## Resistance mechanisms
 
@@ -113,5 +114,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:33397444](../papers/33397444.md) — Sfakianos et al. 2021, *Eur Urol*. UTUC multi-omics (n=40); EZH2 inhibition ± cisplatin proposed for SWI/SNF-mutant EpiC-high subtype.
 
 - [PMID:33765338](../papers/33765338.md)
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); gemcitabine-cisplatin as standard first-line for systemic chemotherapy in IHC; underuse in the SYS arm acknowledged as a limitation.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

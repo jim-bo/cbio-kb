@@ -71,6 +71,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used for somatic SNV/indel calling in the pan-Asia cHCC-ICC WES/WGS study (133 cases); variant calls subsequently annotated by [annovar](../methods/annovar.md) and analyzed with [mutsigcv](../methods/mutsigcv.md) and dNdScv [PMID:31130341](../papers/31130341.md)
 - Part of the consensus SNV-calling pipeline in the high-grade UTUC study (37 tumor-normal pairs), used together with [strelka](../methods/strelka.md) and [varscan](../methods/varscan.md); variants annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
 - One of three core SNV/indel variant callers (Broad) in the PCAWG pan-cancer WGS study (n=2,658 tumors, 38 tumor types); consensus calls with Sanger and DKFZ pipelines achieved 95% sensitivity and 95% precision for SNVs [PMID:32025007](../papers/32025007.md).
+- Used (MuTect, as well as Strelka, VarScan2, Platypus, Lancet, Scalpel) for somatic variant calling in WES and MSK-IMPACT data from 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) [PMID:33863915](../papers/33863915.md)
+- MuTect2 v4.1.2.0 used to call somatic SNVs in reprocessed WES/WGS data from 88 CSCC tumors aligned with BWA-MEM to hg19; annotated with Funcotator v4.1.2.0 [PMID:34272401](../papers/34272401.md)
+- MuTect used alongside [VarDict](../methods/vardict.md) for SNV/indel calling in cfDNA from 681 plasma samples in the MSK-ACCESS analytical validation and prospective clinical cohort [PMID:34145282](../papers/34145282.md)
 
 ## Notes
 
@@ -225,3 +228,12 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33863915](../papers/33863915.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

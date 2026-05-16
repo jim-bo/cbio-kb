@@ -60,6 +60,8 @@ OncoTree code for prostate adenocarcinoma.
 - In PCAWG, prostate adenocarcinoma showed chromoplexy as a prominent mutational process and [TP53](../genes/TP53.md) association with chromothripsis (OR=2.6); chromothripsis was clonal and early in prostate cancer [PMID:32025007](../papers/32025007.md).
 - Prospective MSK-IMPACT sequencing of 424 mCSPC patients showed CDK12 alterations 6.7 pp more frequent in de-novo metastatic vs recurrent disease (FDR 0.037); AR, TP53, cell-cycle, and MYC pathway alterations associated with shorter time to castration resistance; 50% of mCSPC tumors harbored at least one OncoKB-actionable alteration [PMID:32220891](../papers/32220891.md)
 - CDK12 alterations in 100/1,875 (5.3%) of prostate cancers sequenced by MSK-IMPACT (highest among 25 solid tumor types); CDK12-biallelic (CDK12-Bi) cases showed tandem duplicator phenotype, fewer TMPRSS2-ERG fusions and TP53 mutations, and shorter OS from metastatic diagnosis (median 64.4 vs 74.9 mo; aHR 1.80, 95% CI 1.12-2.89; p=0.024) [PMID:32317181](../papers/32317181.md)
+- cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in prostate cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; [BRCA2](../genes/BRCA2.md) OncoKB level 1 alterations identified in plasma of PRAD patients supporting [olaparib](../drugs/olaparib.md) eligibility; sub-clonal [AR](../genes/AR.md) p.H875Y resistance allele detected by plasma cfDNA below the calling threshold of tumor MSK-IMPACT; an MSI-H mCRPC patient identified from cf-IMPACT received [pembrolizumab](../drugs/pembrolizumab.md) with durable PSA response [PMID:34059130](../papers/34059130.md).
+- MSK-ACCESS cfDNA panel prospectively profiled prostate cancer patients (part of the 28% NSCLC/PRAD/BLCA/PAAD/biliary group, n=617 patients total); [AR](../genes/AR.md) mutations enriched in cfDNA vs MSK-IMPACT in prostate cancer; OncoKB level 1 actionable alterations detected in 48% of BLCA, 37% of BRCA, and 33% of NSCLC samples; PRAD was the second most common cancer type in the cohort; matched WBC sequencing removed >10,000 germline/CH confounders [PMID:34145282](../papers/34145282.md).
 
 ## Subtypes
 
@@ -82,6 +84,8 @@ OncoTree code for prostate adenocarcinoma.
 ## Sources
 
 - [PMID:27634761](../papers/27634761.md)
+- [PMID:34059130](../papers/34059130.md)
+- [PMID:34145282](../papers/34145282.md)
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:38949888](../papers/38949888.md)

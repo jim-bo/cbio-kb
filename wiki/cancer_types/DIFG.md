@@ -33,6 +33,8 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - TCGA pan-glioma study (n=1,122 grade II-IV diffuse gliomas) identified 75 significantly mutated genes including novel drivers SETD2, ARID2, DNMT3A, KRAS, NRAS; six methylation subclusters (LGm1–6) provide an independent prognostic classification on top of age and grade [PMID:26824661](../papers/26824661.md)
 - PIPseq cohort included diffuse intrinsic pontine glioma cases; H3-3A (H3F3A) K27M mutation identified as HDAC-inhibitor target; paired with FGFR1 N577K in one patient [PMID:28007021](../papers/28007021.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors; IDH-mutant LGG/DIFG shows 82% RTK-RAS alteration rate in IDHwt subtype; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant LGG [PMID:29625050](../papers/29625050.md)
+- DIFG (glioma) was the clearest exception to the pan-cancer TMB–OS benefit: high TMB was not associated with improved overall survival in glioma patients treated with ICI, possibly due to temozolomide-induced subclonal mutations or CNS-specific immune biology. [PMID:30643254](../papers/30643254.md)
+- In 85 adult DIFG patients profiled by MSK-IMPACT CSF liquid biopsy, ctDNA was detected in 42/85 (49.4%) CSFs; positivity carried HR 4.16 (95% CI 2.15–8.05, p=2.43×10⁻⁵) for death and was concordant with truncal IDH1/TP53/ATRX/TERT/1p19q alterations in 100% of non-hypermutated cases. [PMID:30675060](../papers/30675060.md)
 
 ## Subtypes
 
@@ -59,5 +61,11 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

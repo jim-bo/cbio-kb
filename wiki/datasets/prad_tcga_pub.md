@@ -22,8 +22,8 @@ tags:
   - molecular-taxonomy
   - ets-fusions
   - multi-platform
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Prostate Adenocarcinoma — TCGA 2015
@@ -56,6 +56,7 @@ Integrated multi-platform molecular characterization of 333 primary prostate ade
 ## Papers using this cohort
 
 - [PMID:26544944](../papers/26544944.md) — The Cancer Genome Atlas Research Network 2015, "The Molecular Taxonomy of Primary Prostate Cancer," *Cell*.
+- [PMID:30537516](../papers/30537516.md) — Gerhauser et al. 2018, "Molecular Evolution of Early-Onset Prostate Cancer Identifies Molecular Risk Markers and Clinical Trajectories," *Cancer Cell*.
 
 ## Notable findings derived from this cohort
 
@@ -67,13 +68,16 @@ Integrated multi-platform molecular characterization of 333 primary prostate ade
 - PI3K/MAPK pathway lesions in ~25% of tumors; [AR](../genes/AR.md) splice variants including AR-V7 detectable at low levels in hormone-naive primary tumors [PMID:26544944](../papers/26544944.md).
 - [SPOP](../genes/SPOP.md) and [FOXA1](../genes/FOXA1.md) mutations confer highest [AR](../genes/AR.md) transcriptional activity; SPOP-mutant tumors showed distinct co-mutation landscape (HEXA silencing, no ETS fusions) [PMID:26544944](../papers/26544944.md).
 - Served as a comparison primary-prostate-cancer cohort (333 cases) in the MSK-IMPACT prospective profiling study; locoregional MSK-IMPACT tumors showed higher TP53 and FOXA1 frequencies than TCGA primaries, reflecting selection bias toward cases that subsequently recurred or metastasized [PMID:28825054](../papers/28825054.md).
+- Used as an independent validation cohort (462 samples with RNA-seq) for the PEPCI methylation risk score and four molecular subgroups from the DKFZ early-onset prostate cancer study; subgroup membership improved BCR prediction over Gleason Score alone in TCGA (p = 0.015) [PMID:30537516](../papers/30537516.md)
 
 ## Sources
 
 - [PMID:26544944](../papers/26544944.md)
+- [PMID:30537516](../papers/30537516.md)
 - TCGA data portal (prad_tcga_pub)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -93,6 +93,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Used in the TCGA MC3 project for orthogonal validation of WES-derived somatic calls on 1,059 samples (median 126 validation sites/sample); also used to validate RNA-seq-based fusions via discordant read pairs [PMID:29596782](../papers/29596782.md)
 - Applied to AALE chr_3p-deleted clones (MiSeq low-coverage) processed with HMMCopy and IchorCNA for subclonal copy number, alongside karyotyping to confirm 3p hemizygosity [PMID:29622463](../papers/29622463.md)
 - WGS performed on MSK pediatric cancer samples for comprehensive somatic variant discovery [PMID:29670109](../papers/29670109.md)
+- 184 EOPC and 85 LOPC prostate cancer genomes sequenced by WGS with matched blood normal; 41 samples re-used from Fraser et al. 2017; analysis revealed APOBEC-driven mutational signatures and recurrent SVs at ESRP1, KLF5, NKX3-1, FOXP1, PTEN, and TP53 [PMID:30537516](../papers/30537516.md)
 
 ## Notes
 
@@ -313,5 +314,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

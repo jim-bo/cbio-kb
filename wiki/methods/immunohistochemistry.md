@@ -53,6 +53,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Used to confirm MMR protein loss (MLH1 and MSH6) in the single MSI-H cholangiocarcinoma tumor identified by MSIsensor (score 35.1) in the MSK IMPACT cholangiocarcinoma cohort (n=195) [PMID:29848569](../papers/29848569.md)
 - IHC for β-catenin, LFABP, SAA, CRP, and glutamine synthetase used to subtype 11 hepatocellular adenomas (I-HCA, H-HCA, B-HCA) in MSK pilot study [PMID:30052636](../papers/30052636.md)
 - MMR IHC for MLH1, PMS2, MSH2, and MSH6 called MMR-D status in 189 advanced endometrial tumors; genomic MSIsensor rescued one MMR-D case that was scored proficient by IHC [PMID:30068706](../papers/30068706.md)
+- ESRP1 IHC validated on 11,954 prostate cancer TMA cores (1992–2014, University Medical Center Hamburg-Eppendorf; median follow-up 48 months); high ESRP1 staining was an independent prognostic marker for BCR independent of ERG status and four clinico-pathological parameters [PMID:30537516](../papers/30537516.md)
 
 ## Notes
 
@@ -159,5 +160,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

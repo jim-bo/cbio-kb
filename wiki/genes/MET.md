@@ -53,6 +53,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Altered in 3% of NSCLC patients in this MSK-IMPACT cohort; too few events for response analysis to anti-PD-(L)1 therapy [PMID:29337640](../papers/29337640.md)
 - MET amplification (n=1) identified as an OncoKB level 2B actionable alteration in cholangiocarcinoma (n=195 MSK-IMPACT cohort) [PMID:29848569](../papers/29848569.md)
 - MET amplification in 1.5% of advanced HCC in the MSK-IMPACT cohort; one patient with concurrent 2.1x MET and 3.7x VEGFA amplification received anti-VEGFR2 + anti-MET mAbs on a genome-matched protocol; tivantinib failed the METIV-HCC trial in MET-high HCC [PMID:30373752](../papers/30373752.md)
+- Patient #28 (GBM, IDH-WT) acquired MET amplification in a later CSF sample during convergent evolution across multiple receptor tyrosine kinases and cell-cycle regulators, while PDGFRA/KIT amplification was lost; the pattern illustrates parallel RTK-pathway selection under treatment pressure [PMID:30675060](../papers/30675060.md).
 
 ## Cancer types (linked)
 
@@ -178,5 +179,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

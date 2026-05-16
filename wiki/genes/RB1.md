@@ -60,6 +60,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 oncogenic mutation detected in only one of 15 bladder cancer organoid lines, lower than the frequency reported in established bladder cancer cell lines, suggesting possible selection bias in organoid culture [PMID:29625057](../papers/29625057.md)
 - 13q14.2/RB1 focal copy loss is a defining feature of C2 DLBCL alongside CDKN2A loss; co-occurring with biallelic TP53 inactivation and elevated genomic instability/whole-genome doubling in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
 - RB1 was a pre-specified DDR/NAC-response gene tested in primary vs. secondary MIBC; no significant difference between groups observed; included among cell-cycle regulators assessed for FGFR3 co-alteration [PMID:30290956](../papers/30290956.md)
+- RB1 was lost on one branch of the aggressive multi-region prostate tumour PCA041, occurring alongside KLF5/BRCA1 loss on the same subclonal branch (distinct from the branch carrying parallel PTEN/TP53 biallelic inactivation) [PMID:30537516](../papers/30537516.md).
 
 ## Cancer types (linked)
 
@@ -175,5 +176,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -76,6 +76,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Targeted exon capture assay spanning 300/341/410 cancer-associated genes used for prospective validation of 94 MIBC tumors; ERCC2-missense enrichment confirmed [PMID:30290956](../papers/30290956.md)
 - Hybridization-capture targeted NGS (341/410/468 genes, mean coverage 690×) used to profile 127 advanced HCC patients; OncoKB and MSIsensor applied post-sequencing [PMID:30373752](../papers/30373752.md)
 - Targeted DNA-sequencing assay (341–410 genes) applied to 81 GBCA tumors from three international centers [PMID:30427539](../papers/30427539.md)
+- MSK-IMPACT targeted NGS (341-, 410-, or 468-gene versions) used to compute TMB (non-synonymous somatic mutations/exonic Mb) in 1,662 ICI-treated and 5,371 non-ICI-treated advanced cancer patients; TMB-high (top 20% per histology) associated with OS HR 0.52 across all histologies [PMID:30643254](../papers/30643254.md)
+- MSK-IMPACT 410-gene panel (+ 46 introns from 17 rearranged genes) used to sequence CSF cell-free DNA and matched tumor tissue from 85 glioma patients; ctDNA detected in 42/85 (49.4%) CSFs with median TMB 4.90 mut/Mb, closely matching tissue biopsies (4.46/Mb) [PMID:30675060](../papers/30675060.md)
 
 ## Notes
 
@@ -211,5 +213,11 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -31,6 +31,7 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - 14% of the 240-patient MSK NSCLC cohort received PD-(L)1 + ipilimumab combination therapy; high TMB associated with durable clinical benefit across both mono- and combination-therapy arms [PMID:29337640](../papers/29337640.md)
 - CTLA-4 inhibitor used in combination with nivolumab (CheckMate-012) in 75 advanced NSCLC patients; TMB was an independent predictor of ORR (multivariable p=0.001) and PFS (p=0.002); TMB + PD-L1 composite outperformed either alone [PMID:29657128](../papers/29657128.md)
 - Dominant drug in a pooled 249-patient MSS WES ICB cohort (N=145 anti-CTLA-4 patients, concentrated in melanoma); clonal PIK3CA/KRAS/PBRM1 mutations enriched in CR/PR; biallelic PTEN loss and 11q/12q amplifications enriched in PD [PMID:30150660](../papers/30150660.md)
+- In a pan-cancer ICI cohort (n=1,662 patients; 146 received anti-CTLA4 including ipilimumab), high TMB (top 20% within histology) was associated with HR 0.52 (p=1.6×10⁻⁶) for OS, with no equivalent benefit in 5,371 non-ICI–treated patients, confirming the ICI-specific predictive value of TMB [PMID:30643254](../papers/30643254.md).
 
 ## Resistance mechanisms
 
@@ -82,3 +83,6 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

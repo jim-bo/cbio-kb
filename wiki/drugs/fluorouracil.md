@@ -27,6 +27,7 @@ processed_at: 2026-05-16
 - Listed among concurrent systemic therapies used in SBRT trials for locally advanced [PAAD](../cancer_types/PAAD.md), alongside [gemcitabine](../drugs/gemcitabine.md) and [capecitabine](../drugs/capecitabine.md); the Koong et al Phase II (n=16, 45 Gy IMRT + 25 Gy SBRT boost + 5-FU) achieved 94% 1-year freedom from local recurrence with 13% grade 3+ acute toxicity [PMID:27826200](../papers/27826200.md)
 - Fluorouracil-containing regimens (FOLFOX, FOLFIRI, capecitabine-containing) were used as standard first-line chemotherapy in the 295-patient metastatic EGC cohort; MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
 - Component of FOLFOX regimen (5-FU + leucovorin + oxaliplatin) used as alternative first-line chemotherapy in advanced cholangiocarcinoma (n=195 cohort); primary standard was gemcitabine/platinum [PMID:29848569](../papers/29848569.md)
+- In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and fluorouracil but more sensitive to the hypoxia-activated agent tirapazamine, coincident with HIF-1α upregulation, illustrating that 3D hypoxic cores can reverse standard drug response rankings [PMID:30643250](../papers/30643250.md).
 
 ## Resistance mechanisms
 
@@ -59,5 +60,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643250](../papers/30643250.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

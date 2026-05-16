@@ -53,6 +53,7 @@ OncoTree code for prostate adenocarcinoma.
 - Included in TCGA PanCancer Atlas; PRAD dominated iCluster C16; PRAD showed high cell-of-origin molecular homogeneity [PMID:29625048](../papers/29625048.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); TCGA-CDR advises against using OS/DSS for PRAD due to short follow-up; PFI/DFI recommended instead [PMID:29625055](../papers/29625055.md)
+- PRAD (prostate adenocarcinoma) was the cancer type studied in 292 whole-genome-profiled cases (203 EOPC, 89 LOPC) from the prostate_dkfz_2018 dataset; recurrent SVs included TMPRSS2-ERG fusions (70% of EOPC), 8p NKX3-1 loss (37%), 3p14 FOXP1 loss (30%), 13q22 KLF5 loss (27%), and 8q22 ESRP1 duplications (17%); APOBEC3B-driven kataegis was the dominant mutational mechanism at SV breakpoints. [PMID:30537516](../papers/30537516.md)
 
 ## Subtypes
 
@@ -113,5 +114,8 @@ OncoTree code for prostate adenocarcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

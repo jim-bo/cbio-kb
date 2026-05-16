@@ -52,6 +52,8 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - EGFR alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for HNSC [PMID:29625055](../papers/29625055.md)
 - N=12 in pooled MSS ICB WES cohort; APOBEC signature dominance associated with high TMB and CR/PR to immune checkpoint blockade; PIK3CA hotspot mutations in responders were from melanoma, HNSCC, anal, or bladder [PMID:30150660](../papers/30150660.md)
+- HNSC was listed as an illustrative cancer type test bed for 3D tumor models in a survey covering scaffold-free spheroids, hydrogels, bioprinting, and microfluidic platforms. [PMID:30643250](../papers/30643250.md)
+- HNSC (n=138) was among the histologies in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for head & neck cancer. [PMID:30643254](../papers/30643254.md)
 
 ## Subtypes
 
@@ -125,5 +127,11 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

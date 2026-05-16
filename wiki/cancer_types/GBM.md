@@ -47,6 +47,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - EGFR drives methylation cluster 16 in LGG and GBM; LGG/GBM split by methylation cluster not mRNA cluster — IDH1-mutant LGGs occupy methylation cluster 1 (330/351 IDH1-mutant) while EGFR-driven LGG/GBM occupy cluster 16 [PMID:29625049](../papers/29625049.md)
 - EGFR altered in 50% of GBM tumors (mutation/amplification/fusion); EGFR amplification co-occurs with KIT/PDGFRA 4q12 amplification in glioma; CDK4+PI3K combination actionable in 7% of GBM [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); GBM had shortest median follow-up (~12 months); TCGA-derived median OS=12.6 months and PFI=6.1 months, consistent with Stupp 2005 standard-care arms [PMID:29625055](../papers/29625055.md)
+- GBM (grade IV) comprised 46/85 (54%) of the adult diffuse glioma liquid-biopsy cohort; in IDH-WT GBM, CSF ctDNA positivity was associated with median OS of 2.04 vs 9.89 months (ctDNA− log-rank p=6.24×10⁻⁵), and truncal alterations (EGFR amplification, CDKN2A/B deletions) were 100% concordant between CSF and tumor in non-hypermutated cases. [PMID:30675060](../papers/30675060.md)
 
 ## Subtypes
 
@@ -85,5 +86,8 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -90,6 +90,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC SVs in 8% of DLBCL (n=304); independently prognostic for inferior PFS and OS in multivariable Cox analysis; enriched in C3 co-occurring with BCL2 SVs (double-hit, Fisher P=0.003) [PMID:29713087](../papers/29713087.md)
 - MYC focal amplifications enriched in post-hormonal-therapy HR+HER2- breast cancer specimens; approximately half were subclonal-and-selected or pre-existing in matched primaries, indicating both selection and de novo acquisition under endocrine pressure [PMID:30205045](../papers/30205045.md)
 - MYC amplification in 6.1% of advanced HCC in the MSK-IMPACT cohort; identified as a recurrently altered oncogene in the genomic landscape of HCC [PMID:30373752](../papers/30373752.md)
+- MYC amplification was acquired in the final CSF sample of patient #28 (GBM, IDH-WT) during serial tumour evolution, after the loss of a prior PDGFRA/KIT amplification, representing branched convergent evolution within growth-factor-receptor and cell-cycle-regulator pathways [PMID:30675060](../papers/30675060.md).
+- 8q22 duplications in EOPC prostate cancer (17% of cases) are centered on ESRP1, ~33 Mb from MYC; although duplications often span both loci, only ESRP1 (not MYC) showed a significant mRNA increase — MYC does not drive the expression change observed at this locus [PMID:30537516](../papers/30537516.md).
 
 ## Cancer types (linked)
 
@@ -311,5 +313,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

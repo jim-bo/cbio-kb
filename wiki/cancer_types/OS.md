@@ -5,7 +5,7 @@ main_type: Bone Cancer
 parent: BONE
 tags: [radiation-associated-sarcoma, bone-tumor]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 canonical_source: oncotree
 unverified: false
 ---
@@ -31,6 +31,7 @@ Osteosarcoma is a primary malignant bone tumor classified under BONE in the Onco
 - Translocations were more frequent in RT-OS (and RT-MPNST) compared to other RT-sarcoma histotypes [PMID:37350195](../papers/37350195.md).
 - PIPseq cohort identified TSC1 splice-site c.2503-1G>C (mTOR-inhibitor target), RAD51C F8L (PARP-inhibitor target), PDGFRA/KDR overexpression (MTKI treated), MYC/MCL1/CCNE1 overexpression (BET- and CDK4/6 targets), CUL4A overexpression (NAE-inhibitor target), RB1 splice-site c.1216-3A>G (germline, increased second-cancer risk), and TNNT2 R141Q (ACMG secondary, dilated cardiomyopathy) in osteosarcoma patients [PMID:28007021](../papers/28007021.md)
 - Germline WES of 372 pediatric cancer patients (Düsseldorf) included osteosarcoma cases; TP53 LP/PV carriers (Li-Fraumeni syndrome) presented with osteosarcoma; three of six TP53 carriers (50%) developed SMNs including one osteosarcoma patient [PMID:29489754](../papers/29489754.md)
+- OS (osteosarcoma) was a major 3D model test bed; 143B/MG63/MNNG-HOS/SAOS-2/U2OS/SJSA1 spheroids rarely exceeded 200–1,000 µm despite mean patient tumor length of 9.14 cm in patients ≤14 years (n=140); patient-derived tumoroids on 3D bioprinted decellularized scaffolds were proposed as a drug-screening platform for individualized therapy. [PMID:30643250](../papers/30643250.md)
 
 ## Subtypes
 
@@ -52,3 +53,6 @@ Osteosarcoma is a primary malignant bone tumor classified under BONE in the Onco
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

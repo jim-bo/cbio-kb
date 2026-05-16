@@ -125,6 +125,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Zero responses among 4 patients with PTEN mutations receiving combination PD-1 + CTLA-4 immunotherapy in NSCLC; resistance association did not reach statistical significance due to small numbers [PMID:29657128](../papers/29657128.md)
 - PTEN recurrently altered in HR+HER2- metastatic breast cancer cohort with patterns consistent with primary disease; co-listed with CCND1 as a recurrently altered gene in this endocrine-therapy context [PMID:30205045](../papers/30205045.md)
 - PTEN truncating/homozygous deletion in 3.9% of advanced HCC in the MSK-IMPACT cohort; contributes to actionable PI3K-mTOR pathway alterations (~15% of sorafenib-evaluable patients) associated with worse sorafenib outcomes [PMID:30373752](../papers/30373752.md)
+- PTEN had the highest biallelic-inactivation rate among recurrently altered genes in EOPC prostate cancer (12 samples); some PTEN breakpoints co-localize with APOBEC C/G kataegis clusters; PTEN loss is enriched in CC2-low/CC7-high (most aggressive) molecular subgroup (p < 0.0001) [PMID:30537516](../papers/30537516.md).
 
 ## Cancer types (linked)
 
@@ -374,5 +375,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

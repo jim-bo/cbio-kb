@@ -3,7 +3,7 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -90,6 +90,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR detected as a less-common driver alteration in a bladder cancer patient-derived organoid biobank (16 lines from 16 patients profiled by MSK-IMPACT); organoid transcriptomes showed ERBB-signaling enrichment from exogenous EGF supplementation [PMID:29625057](../papers/29625057.md)
 - Clonal hotspot mutations enriched in immunotherapy non-responders (PD) across cancer types; tumors are subclonal-skewed, low-TMB, and over-represented in never-smokers in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 - Focal amplifications detected in 12 post-endocrine-therapy HR+HER2- breast cancer patients (all prior tamoxifen-exposed; 8 also prior AI); 60% of post-progression amplifications were already present in matched primaries; MCF7 EGFR overexpression confers fulvestrant resistance reversible by erlotinib or gefitinib [PMID:30205045](../papers/30205045.md)
+- EGFR amplifications, EGFRvIII in-frame deletions, and missense variants (e.g. G719C) were common in glioma CSF ctDNA; patient #25 showed loss of EGFR amplification with acquired PDGFRA amplification/mutation at recurrence, illustrating convergent evolution in growth-factor-receptor signalling (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 
 ## Cancer types (linked)
 
@@ -278,3 +279,6 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

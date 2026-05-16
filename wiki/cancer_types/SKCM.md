@@ -42,6 +42,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - SKCM leads in OncoKB Level 1/2A actionable alteration frequency at 46% (driven by BRAF hotspots at 51%); RTK-RAS alteration rate 95% in SKCM; PI3K+RAF combination actionable in 12% [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); SKCM TCGA cohort is predominantly metastatic (296 regional lymph-node, 68 distant metastases vs 103 primary); survival correlations should use only the 103 primary tumors [PMID:29625055](../papers/29625055.md)
 - Largest cancer type (N=151) in pooled WES ICB cohort of 249 MSS tumors; dominant UV mutational signature (S7) is a stronger correlate of response to immune checkpoint blockade than TMB alone; TMB ceases to predict response after adjusting for dominant signature [PMID:30150660](../papers/30150660.md)
+- SKCM (cutaneous melanoma, combined with MEL n=321) was the second-largest histology in the ICI-treated MSK-IMPACT cohort; TMB-high SKCM patients had improved overall survival with ICI and PFS/clinical-benefit associations with TMB were specifically reported. [PMID:30643254](../papers/30643254.md)
 
 ## Subtypes
 
@@ -110,5 +111,8 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

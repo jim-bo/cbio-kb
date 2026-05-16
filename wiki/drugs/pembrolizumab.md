@@ -49,6 +49,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Included in a pooled 249-patient MSS WES ICB cohort (part of N=74 anti-PD-1 arm); clonal driver alterations in PIK3CA, KRAS, and PBRM1 enriched in responders; dominant mutational signature (UV/APOBEC/smoking) is a stronger correlate than TMB in disease-specific contexts [PMID:30150660](../papers/30150660.md)
 - Pan-cancer MSI analysis across 11,139 WES pairs (TCGA/TARGET) found MSI-H in 3.8% of all tumors across 27 cancer types, supporting expanded clinical MSI testing beyond colorectal/endometrial/gastric as a biomarker for pembrolizumab eligibility under the 2017 FDA pan-tumor MSI-H approval [PMID:29850653](../papers/29850653.md)
 - Pembrolizumab was among the anti-PD-1 agents given to HCC patients in the 31-patient immune checkpoint inhibitor subset of the MSKCC HCC cohort (n=127); activating WNT/beta-catenin alterations were predictive of non-response across the ICI group regardless of specific agent [PMID:30373752](../papers/30373752.md).
+- In a pan-cancer ICI cohort (n=1,662), pembrolizumab was among the anti-PD-1 agents used; high TMB (top 20% within histology) was associated with HR 0.52 (p=1.6×10⁻⁶) for OS, consistent with the FDA approval of pembrolizumab for MSI-high/dMMR tumors (high-TMB COAD in this cohort likely reflects MSI-high biology) [PMID:30643254](../papers/30643254.md).
 
 ## Resistance mechanisms
 
@@ -139,5 +140,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

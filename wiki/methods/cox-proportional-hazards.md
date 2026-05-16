@@ -21,6 +21,7 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Applied in multivariate survival analysis of 178 stage IV cholangiocarcinoma patients; CDKN2A/B and ERBB2 alterations remained significantly associated with shorter OS and PFS on first-line chemotherapy [PMID:29848569](../papers/29848569.md)
 - Used for survival analysis of PFS in 189 advanced endometrial cancer patients profiled by MSK-IMPACT; Kaplan-Meier and Cox models compared PFS across FACETS copy-number clusters and histologic subgroups [PMID:30068706](../papers/30068706.md)
 - Multivariable Cox proportional-hazards model confirmed SMAD4 mutation as an independent predictor of worse OS in GBCA (HR 2.01, 95% CI 1.02–3.94; P=0.043) after adjusting for stage, gallstone status, and sex [PMID:30427539](../papers/30427539.md)
+- Cox regression adjusting for cancer type, age, ICI drug class, and year of ICI start confirmed TMB as an independent predictor of OS in 1,662 ICI-treated advanced cancer patients (continuous TMB HR 0.985/unit, p = 3.4 × 10⁻⁷; binary top-20% HR 0.61, p = 1.3 × 10⁻⁷) [PMID:30643254](../papers/30643254.md)
 
 ## Notes
 
@@ -39,5 +40,8 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

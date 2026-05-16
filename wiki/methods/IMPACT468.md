@@ -32,6 +32,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied at ~500-fold coverage for targeted sequencing of 22 patient-derived bladder cancer organoid lines (SCBO-1 through SCBO-16) and matched parental tumors, enabling subclonal mutation detection; data deposited in cBioPortal as study bladder_columbia_msk_2018 [PMID:29625057](../papers/29625057.md).
 - Used for 518 of 1,918 breast tumors in prospective MSK sequencing study; 468-gene panel version [PMID:30205045](../papers/30205045.md)
 - Applied to 36 of 127 advanced HCC tumors in the MSK prospective HCC cohort (hcc_mskimpact_2018) [PMID:30373752](../papers/30373752.md)
+- One of three MSK-IMPACT panel versions (341, 410, or 468 genes) used with matched germline normal sequencing to define somatic TMB in 1,662 ICI-treated advanced cancer patients; TMB-high on these panels was independently predictive of OS (HR 0.61, p = 1.3 × 10⁻⁷) [PMID:30643254](../papers/30643254.md)
+- Glioma tissue biopsies sequenced using IMPACT341, IMPACT410, or IMPACT468 for a benchmark cohort of 553 MSKCC glioma biopsies from 512 patients; results used to compare CSF ctDNA TMB (4.90 mut/Mb) against matched tissue (4.46 mut/Mb) [PMID:30675060](../papers/30675060.md)
 
 ## Notes
 
@@ -68,5 +70,11 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

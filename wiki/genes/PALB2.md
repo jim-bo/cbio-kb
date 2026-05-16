@@ -10,7 +10,7 @@ tags:
   - HRD
   - PARPi
   - germline
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - Somatic HR pathway gene; CDK12, FANCA, PALB2, and RAD50 identified as additional somatic HR-deficiency contributors in advanced prostate cancer across locoregional, metastatic noncastrate, and mCRPC disease states; CDK12 loss hypothesized to confer PARP inhibitor sensitivity [PMID:28825054](../papers/28825054.md)
 - Nominated as a novel prostate-cancer-specific DNA-repair SMG in a WES meta-analysis of 1,013 primary and metastatic prostate tumors (prad_p1000); DNA-repair pathway altered in 16% of cases overall [PMID:29610475](../papers/29610475.md).
 - PALB2 is among the top germline-variant-bearing genes in the core DDR predisposition pathway (23 of 36 DDR-affecting predisposition genes belong to Core DDR) across approximately 8% of TCGA pan-cancer samples [PMID:29625049](../papers/29625049.md)
+- Germline protein-truncating variants in PALB2 were associated with elevated somatic SV/SNV burden, APOBEC signature 2, and BRCAness signature 3 in early-onset prostate cancer (EOPC); PALB2-mutated patients are candidates for PARP inhibitor therapy [PMID:30537516](../papers/30537516.md).
 
 ## Cancer types (linked)
 
@@ -83,3 +84,6 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

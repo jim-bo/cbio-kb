@@ -5,6 +5,7 @@
 - drug: tivantinib — observed in PMID:24735922 — note: MET inhibitor; c-MET-high HCC biomarker-selected trials
 - drug: interferon-alpha — observed in PMID:24735922 — note: adjuvant IFN-α in HBV-related HCC; mir26 as predictive biomarker candidate
 
+- drug: tirapazamine — observed in PMID:30643250 — note: hypoxia-activated bioreductive prodrug; selective cytotoxin under low-O₂ conditions; not in OncoKB or cBioPortal ontology
 - drug: ibrutinib — observed in PMID:35927489 — note: BTK inhibitor referenced re TP53/17p prognosis
 - drug: venetoclax — observed in PMID:35927489 — note: BCL2 inhibitor referenced re TP53/17p prognosis
 - drug: fludarabine — observed in PMID:35927489 — note: chemotherapy; RRM1 is target
@@ -12,6 +13,7 @@
 - method: whole-genome-seq — observed in PMID:35927489 — note: 177 WGS samples
 - method: rna-seq — observed in PMID:35927489 — note: n=712 transcriptomes
 - method: rrbs — observed in PMID:35927489 — note: reduced representation bisulfite sequencing, n=509
+- method: 3d-cell-culture-models — observed in PMID:30643250 — note: umbrella term for scaffold-free spheroids, hydrogel/scaffold systems, bioprinting, and microfluidics; no gene-panel ID; corpus-grown slug
 - method: 450k-methylation-array — observed in PMID:35927489 — note: Illumina 450k array, n=490
 - method: phylogicndt — observed in PMID:35927489 — note: clonal/temporal ordering tool
 - method: clumps — observed in PMID:35927489 — note: 3D structural mutation clustering

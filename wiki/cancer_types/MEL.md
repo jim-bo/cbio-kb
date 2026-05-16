@@ -37,6 +37,8 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - Anti-PD-1 response genomics in 38 metastatic melanoma cases: IPRES transcriptional co-enrichment (mesenchymal transition, angiogenesis, hypoxia) marked innate resistance independently of mutational load; BRCA2 LOF mutations enriched in responders (OR=6.2) [PMID:26997480](../papers/26997480.md)
 - In the MSK-IMPACT pan-cancer cohort, TERT promoter mutations were present in 49% of melanoma (predominantly cutaneous); UV mutation signatures predominated in melanoma; 56% of MEL patients harbored an OncoKB-actionable alteration (4th highest); a novel recurrent CDK5RAP2-BRAF fusion was identified in two melanomas; 75 non-melanoma BRAF V600 patients showed identical 71% clinical-benefit rate to melanoma BRAF V600 patients on BRAF-targeted therapy. [PMID:28481359](../papers/28481359.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors; MEL (melanoma) context referenced for BRAF hotspot mutations at 51% in SKCM and NRF2/oxidative-stress pathway data [PMID:29625050](../papers/29625050.md)
+- MEL (melanoma) was used as a 3D model test bed; B16-OVA/B16-F0 murine melanoma spheroids in anchored droplet co-cultures demonstrated that tumor destruction by cytotoxic T lymphocytes reflects cooperative accumulation at the spheroid edge rather than individual T-cell activity; a skin-cancer-on-a-chip platform enabled uniform doxorubicin delivery via GelMA microneedles to melanoma cells beneath the epidermis. [PMID:30643250](../papers/30643250.md)
+- MEL/SKCM (n=321, combined) was the second-largest histology in the ICI-treated MSK-IMPACT cohort; TMB-high melanoma patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for melanoma. [PMID:30643254](../papers/30643254.md)
 
 ## Subtypes
 
@@ -78,5 +80,11 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

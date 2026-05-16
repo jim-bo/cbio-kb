@@ -40,6 +40,8 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - KRAS hotspot mutations present in 69% of colorectal genomically stable tumors; MSI-H and POLE-mutant subtypes carry highest mutation burden [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for COAD [PMID:29625055](../papers/29625055.md)
 - MSI-H detected in 19.7% of colon adenocarcinoma cases by MANTIS WES caller; one of the four classic Lynch syndrome-associated tumor types with highest MSI prevalence in the pan-cancer 39-type analysis [PMID:29850653](../papers/29850653.md)
+- COAD used as a size-reference benchmark: median tumor diameter ~4 cm across 300,386 patients, contrasted with HCT-116 spheroid diameters of 200–1,000 µm, illustrating the spheroid-size mismatch inherent in 3D models. [PMID:30643250](../papers/30643250.md)
+- TMB-high COAD showed the highest histology-specific TMB threshold (52.2 mut/Mb, reflecting MSI-high enrichment) in the ICI cohort; this histology-specific cutpoint diverges markedly from other cancer types. [PMID:30643254](../papers/30643254.md)
 
 ## Subtypes
 
@@ -102,5 +104,11 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

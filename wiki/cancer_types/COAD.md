@@ -4,7 +4,7 @@ oncotree_code: COAD
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -42,6 +42,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - MSI-H detected in 19.7% of colon adenocarcinoma cases by MANTIS WES caller; one of the four classic Lynch syndrome-associated tumor types with highest MSI prevalence in the pan-cancer 39-type analysis [PMID:29850653](../papers/29850653.md)
 - COAD used as a size-reference benchmark: median tumor diameter ~4 cm across 300,386 patients, contrasted with HCT-116 spheroid diameters of 200–1,000 µm, illustrating the spheroid-size mismatch inherent in 3D models. [PMID:30643250](../papers/30643250.md)
 - TMB-high COAD showed the highest histology-specific TMB threshold (52.2 mut/Mb, reflecting MSI-high enrichment) in the ICI cohort; this histology-specific cutpoint diverges markedly from other cancer types. [PMID:30643254](../papers/30643254.md)
+- First proteogenomic study of a prospectively collected colon adenocarcinoma cohort (n=110; [coad_cptac_2019](../datasets/coad_cptac_2019.md)) identified RB1 hyperphosphorylation (not loss) as a colon-cancer driver suggesting CDK2 inhibition, reclassified SOX9 as oncogenic despite truncating mutations, and showed glycolysis inversely correlated with CD8 infiltration in MSI-H tumors [PMID:31031003](../papers/31031003.md).
 
 ## Subtypes
 
@@ -110,5 +111,8 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

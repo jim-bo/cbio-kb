@@ -43,6 +43,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Applied alongside GISTIC 2.0 to Affymetrix SNP6 data for subclonal copy-number estimation in the TCGA PanCancer Atlas integrative multi-platform analysis of ~10,000 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md).
 - Used in DLBCL WES analysis of 304 tumors to estimate tumor purity, ploidy, and cancer cell fractions (CCFs) for clonality analysis across the five genetic subtypes [PMID:29713087](../papers/29713087.md)
 - Used for clonality, purity, and ploidy estimation across 249 MSS tumor/normal WES samples in the ICB response study; clonal TMB derived via ABSOLUTE was a stronger predictor of CR/PR than total TMB [PMID:30150660](../papers/30150660.md)
+- Used to estimate tumor purity from WES data in the GBM anti-PD-1 immunotherapy cohort; purity was not significantly different between responders and non-responders (p=0.19) [PMID:30742119](../papers/30742119.md)
 
 ## Notes
 
@@ -114,5 +115,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

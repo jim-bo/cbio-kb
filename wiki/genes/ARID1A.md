@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -87,6 +87,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A mutated in 12.7% of HCC in a 344-patient MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
 - ARID1A mutations mutated in 25% of metastatic HR+HER2- breast cancer; SWI/SNF-complex loss-of-function more often acquired post-endocrine-therapy than pre-treatment in matched pairs [PMID:30205045](../papers/30205045.md)
 - ARID1A mutated in 25% of gallbladder carcinoma overall but entirely absent in the Japanese cohort, contrasting with prior reports; consistent with other Asian-cohort studies that also failed to find ARID1A mutations [PMID:30427539](../papers/30427539.md)
+- ARID1A identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); part of the chromatin-remodeling gene set alongside DAXX, ATRX, and SETD2 [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -284,19 +285,22 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

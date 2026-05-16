@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [msi, pcr, microsatellite-instability, genotyping]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # MSI PCR Pentaplex (Promega)
@@ -21,6 +21,7 @@ PCR-based microsatellite instability (MSI) testing using the Promega MSI Analysi
 - MSI-PCR (pentaplex panel) recommended alongside MMR IHC and EBV ISH for confirming MSI / EBV status in familial gastric cancer before clinical decision-making [PMID:24816255](../papers/24816255.md)
 - Used to confirm microsatellite-stable (MSS) status in 69 matched CRC trios (BAT25, BAT26, D17S250, D2S123, D5S346 markers); study restricted to MSS tumors only. [PMID:25164765](../papers/25164765.md)
 - Five-mononucleotide-repeat PCR genotyping used to assess microsatellite instability in 63 clear cell endometrial carcinomas (uccc_nih_2017); MSI-high (>=2 unstable markers) found in 11.3% [PMID:28485815](../papers/28485815.md)
+- PCR-based MSI testing (Promega MSI Analysis System; 5 mononucleotide + 2 pentanucleotide markers) applied to 85 CPTAC colon cancer samples; 100% concordance with WXS-based MSI calls; identified 24 MSI-H and 82 MSS tumors [PMID:31031003](../papers/31031003.md)
 
 ## Notes
 
@@ -40,3 +41,6 @@ PCR-based microsatellite instability (MSI) testing using the Promega MSI Analysi
 - [PMID:28485815](../papers/28485815.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

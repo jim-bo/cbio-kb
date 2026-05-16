@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - PTAD
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # DAXX
@@ -21,6 +21,7 @@ DAXX encodes a multifunctional protein involved in transcriptional regulation, a
 - Recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms (NENs); all DAXX/ATRX-mutant cases fell into transcriptome Cluster A, which showed relative inhibition of [MEN1](../genes/MEN1.md) and DAXX by master-regulator analysis [PMID:40328872](../papers/40328872.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
 - Single-case DAXX mutation detected in PDTC/ATC thyroid cancer targeted sequencing (IMPACT panel, 117 tumors), replicating prior WES ATC study findings [PMID:26878173](../papers/26878173.md)
+- Somatic alterations in 40% (32/80) of metastatic panNET patients (MSK-IMPACT); defines the chromatin-remodeling/ALT axis with ATRX; associated with improved 1-year OS (97% vs 83%, P<0.01) in metastatic disease — contrasting with poor prognosis in resected disease [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -55,3 +56,6 @@ DAXX encodes a multifunctional protein involved in transcriptional regulation, a
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

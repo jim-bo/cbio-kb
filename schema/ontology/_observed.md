@@ -198,6 +198,17 @@
 - drug: nivolumab — observed in PMID:38780927 — note: anti-PD-1 mAb; concurrent + maintenance with IMRT reirradiation in NCT03521570 recurrent/second-primary HNSCC; 1-year PFS 61.7%
 - dataset: radcure — observed in PMID:38362943 — note: 3346-patient HNC RT planning CT dataset from Princess Margaret Cancer Centre, hosted on TCIA; not a cBioPortal genomic study
 - method: ct-imaging — observed in PMID:38362943 — note: RT simulation computed tomography acquisition
+- method: pam50 — observed in PMID:30867590 — note: 50-gene RT-PCR intrinsic breast cancer subtype classifier (Luminal A/B, HER2-enriched, Basal-like, Normal-like); applied to 1,980 METABRIC patients
+- method: intclust — observed in PMID:30867590 — note: 11-subtype integrative breast cancer classifier combining copy-number + expression; METABRIC-derived; identifies late-recurring ER+/HER2- subtypes with 20-year relapse risk 42–56%
+- method: multistate-markov-model — observed in PMID:30867590 — note: non-homogeneous semi-Markov multistate survival model tracking LR/DR/cancer-death/non-cancer-death in 3,240 breast cancer patients (METABRIC-anchored)
+- method: copywriter — observed in PMID:31031003 — note: R package for copy-number inference from off-target WXS reads; used with GISTIC2 in CPTAC colon cancer proteogenomics (n=105 pairs)
+- method: msmutect — observed in PMID:31031003 — note: somatic microsatellite INDEL caller; identified 6,186 MS INDELs in 106 CPTAC colon tumors; distinguished 24 MSI-H from 82 MSS samples
+- method: mutsigcv — observed in PMID:31031003 — note: covariate-corrected significantly mutated gene discovery; identified 4 novel SMGs in hypermutated CPTAC colon samples (CASP5, RNF43, LTN1, BMPR2)
+- method: tmt-proteomics — observed in PMID:31031003 — note: TMT isobaric-label global proteomics on 96 tumor/NAT pairs (coad_cptac_2019); quantified 6,422 proteins; revealed protein-level Warburg effect in MSI-H colon tumors
+- method: tmt-phosphoproteomics — observed in PMID:31031003 — note: TMT phosphoproteomics on 96 CPTAC colon pairs; quantified 7,295 phosphosites; RB1 hyperphosphorylation at T373/S807/S811/T826 identified as principal Rb-pathway lesion
+- method: label-free-proteomics — observed in PMID:31031003 — note: label-free shotgun LC-MS/MS on 100 CPTAC colon tumors; Pearson r=0.96 correlation with TCGA colorectal protein profiles
+- method: selected-reaction-monitoring — observed in PMID:31031003 — note: targeted SRM/MRM validation of CD8A, SLC2A3, and PKM isoforms in CPTAC colon study; confirmed PKM2 predominance and MSI glycolytic elevation
+- method: hla-binding-prediction — observed in PMID:31031003 — note: neoantigen prediction from proteomics-supported somatic mutations; 88 high-affinity HLA-I binders identified in 38% of CPTAC colon tumors
 - method: radiomics — observed in PMID:38362943 — note: quantitative imaging feature extraction; downstream use case for RADCURE
 - method: dicom-rt-struct — observed in PMID:38362943 — note: DICOM RT-STRUCT format for organ-at-risk and target contours
 - drug: fulvestrant — observed in PMID:26437033 — note: SERD; endocrine-sensitive Nf1Indel rat tumors regress completely; Nf1+Tp53 co-editing confers resistance

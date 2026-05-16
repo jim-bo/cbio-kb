@@ -9,7 +9,7 @@ tags:
   - swi-snf
   - chromatin-remodeling
   - tumor-suppressor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -49,6 +49,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - PBAF SWI/SNF member; loss-of-function enriched in immunotherapy responders (CR/PR) across multiple histologies alongside PBRM1, in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 - ARID2 SWI/SNF-complex loss-of-function more often acquired post-endocrine-therapy than pre-treatment in matched pairs of HR+HER2- breast cancer [PMID:30205045](../papers/30205045.md)
 - ARID2 mutated in 7% of gallbladder carcinoma overall but entirely absent in Chilean patients; co-occurrence trend with TERT noted [PMID:30427539](../papers/30427539.md)
+- ARID2 identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); SWI/SNF chromatin-remodeling complex member [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -142,10 +143,13 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

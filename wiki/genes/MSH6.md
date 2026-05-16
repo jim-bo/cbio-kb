@@ -47,6 +47,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Component of the standard MMR IHC panel used to call MMR-D status in metastatic endometrial cancer (MSK cohort, n=189); MSH6 protein loss by IHC contributed to MMR-D classification alongside MSIsensor score [PMID:30068706](../papers/30068706.md)
 - Somatic deleterious mutations enriched in MSI-H tumors of ACC, CESC, and MESO in a pan-TCGA analysis; MSH6 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 - MSH6, a mismatch-repair gene, was implicated as a mechanism of alkylator-induced hypermutation in 5/42 (12%) ctDNA-positive glioma CSF samples, all of which had received temozolomide [PMID:30675060](../papers/30675060.md).
+- MSH6 mutations found in 2 of 80 metastatic panNET patients (OncoKB Level 4); acquired MMR-gene mutations including MSH6 were observed in post-alkylator hypermutated tumors, a previously unreported pattern in panNET [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -152,5 +153,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

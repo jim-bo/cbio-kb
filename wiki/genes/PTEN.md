@@ -126,6 +126,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN recurrently altered in HR+HER2- metastatic breast cancer cohort with patterns consistent with primary disease; co-listed with CCND1 as a recurrently altered gene in this endocrine-therapy context [PMID:30205045](../papers/30205045.md)
 - PTEN truncating/homozygous deletion in 3.9% of advanced HCC in the MSK-IMPACT cohort; contributes to actionable PI3K-mTOR pathway alterations (~15% of sorafenib-evaluable patients) associated with worse sorafenib outcomes [PMID:30373752](../papers/30373752.md)
 - PTEN had the highest biallelic-inactivation rate among recurrently altered genes in EOPC prostate cancer (12 samples); some PTEN breakpoints co-localize with APOBEC C/G kataegis clusters; PTEN loss is enriched in CC2-low/CC7-high (most aggressive) molecular subgroup (p < 0.0001) [PMID:30537516](../papers/30537516.md).
+- PTEN somatic alteration in 10/80 (13%) metastatic panNET patients (MSK-IMPACT panet_msk_2018); LOH enriched in PTEN-altered tumors (q<0.05); acquired oncogenic PTEN Q298* at everolimus + alpelisib progression in one patient (serial sequencing); OncoKB Level 4 actionable in 8 patients [PMID:30687805](../papers/30687805.md)
+- PTEN mutated in 23/32 IDH1-wild-type non-responders vs 3/13 responders to anti-PD-1 in recurrent GBM (OR=8.5, Fisher p=0.0063, FDR-corrected p<0.05); mechanistically linked to PI3K-AKT pathway activation, immunosuppressive CD44+ tumor cell signature, higher macrophage/microglial/neutrophil infiltration, and reduced T-cell infiltration after immunotherapy (p=0.0095) [PMID:30742119](../papers/30742119.md)
 
 ## Cancer types (linked)
 
@@ -378,5 +380,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -45,6 +45,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - MLH1 protein loss detected in the single MSI-H cholangiocarcinoma tumor (0.5% of 195-patient cohort); rationale for pembrolizumab eligibility under tissue-agnostic indication [PMID:29848569](../papers/29848569.md)
 - Germline Lynch syndrome splice mutation c.1731+1G>T with biallelic CN-LOH identified in one metastatic endometrial cancer patient (MSK cohort, n=189); MSIsensor score=19.19; also assayed by MMR IHC; supports universal tumor/normal sequencing to capture Lynch carriers regardless of phenotype [PMID:30068706](../papers/30068706.md)
 - Somatic deleterious mutations enriched in MSI-H tumors of adrenocortical carcinoma (ACC), cervical squamous cell carcinoma (CESC), and mesothelioma (MESO) in a pan-TCGA analysis; MLH1 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
+- MLH1 mutations found in 3 of 80 metastatic panNET patients (OncoKB Level 4); two of three post-alkylator hypermutated tumors acquired mismatch-repair gene mutations including MLH1, representing chemotherapy-induced MMR deficiency [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -143,5 +144,8 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

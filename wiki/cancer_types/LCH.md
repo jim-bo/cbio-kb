@@ -4,8 +4,8 @@ oncotree_code: LCH
 main_type: Histiocytosis
 parent: HDCN
 tags: [histiocytosis, rare-cancers]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Langerhans Cell Histiocytosis (LCH)
@@ -23,6 +23,7 @@ Langerhans Cell Histiocytosis is a Histiocytosis (parent HDCN).
 - Across histiocytosis: [BRAF](../genes/BRAF.md) 33% (mostly V600E), [MAP2K1](../genes/MAP2K1.md) 13%, [KRAS](../genes/KRAS.md) 7%, [CSF1R](../genes/CSF1R.md) 2.4% [PMID:36862133](../papers/36862133.md).
 - Actionable fusions: MS4A6A-BRAF, DOCK8-BRAF, HLA-A-BRAF, TFG-[ALK](../genes/ALK.md), PRDX1-[NTRK1](../genes/NTRK1.md) (detected by [RNA-seq](../methods/rna-seq.md)) [PMID:36862133](../papers/36862133.md).
 - Germline WES of 372 pediatric cancer patients (Düsseldorf) identified one LCH patient (LPP_20) carrying two distinct heterozygous LP/PVs: CHEK2 c.1165C>T p.(Arg389Cys) and NF1 c.4137dup p.(Ala1380Serfs*15), without neurofibromatosis type 1 features but with positive family history of late-onset cancers [PMID:29489754](../papers/29489754.md)
+- Single-arm phase 2 cobimetinib trial (NCT02649972; 2/18 patients had LCH) demonstrated PET ORR 89% across all histiocytic neoplasm subtypes including LCH; BRAF N486_T491delinsK (in an LCH patient) validated as activating and cobimetinib-sensitive in Ba/F3 cells, expanding actionable BRAF alleles beyond V600 [PMID:30867592](../papers/30867592.md).
 
 ## Subtypes
 
@@ -41,3 +42,6 @@ Langerhans Cell Histiocytosis is a Histiocytosis (parent HDCN).
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

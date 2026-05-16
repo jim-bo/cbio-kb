@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PHC, PGNG]
 tags: [tumor-suppressor, somatic, histone-methyltransferase, poor-prognosis]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # SETD2
@@ -20,6 +20,7 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - Chromatin modifier [SETD2](../genes/SETD2.md) enriched in the unknown mitogenic driver (UMD) subset of metastatic [LUAD](../cancer_types/LUAD.md) (especially never/former-light smokers) in a prospective MSK-IMPACT cohort of 860 patients [PMID:28336552](../papers/28336552.md).
 - E282Rfs*9 frameshift mutation observed in 1/19 sequenced oligodendroglioma tumors [PMID:28472509](../papers/28472509.md)
 - Identified as a significantly mutated gene (SMG) in kidney renal clear cell carcinoma (KIRC), called by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF [PMID:29596782](../papers/29596782.md)
+- Altered in 18% (14/80) of metastatic panNET patients; predominantly truncating loss-of-function; enriched in G2/G3 tumors and post-treatment biopsies; positioned as a panNET tumor suppressor (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

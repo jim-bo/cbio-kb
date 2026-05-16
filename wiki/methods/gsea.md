@@ -29,6 +29,7 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - GSEA against MSigDB Hallmark gene sets used to correlate arm-level aneuploidy with expression programs; revealed positive enrichment for E2F targets, G2M checkpoint, and mitotic spindle hallmarks, and negative enrichment for immune signatures after controlling for leukocyte fraction [PMID:29622463](../papers/29622463.md)
 - Applied via ssGSEA with a 160-signature panel and mclust/BIC selection to define six pan-cancer immune subtypes (C1 Wound Healing through C6 TGF-β Dominant) across ~11,000 TCGA PanCancer Atlas tumors [PMID:29625049](../papers/29625049.md).
 - Applied to validate genetic subtype transcriptional correlates; used to confirm EZH2 target upregulation in C3 GCB-DLBCL chromatin-modifier-mutant tumors [PMID:29713003](../papers/29713003.md)
+- ssGSEA tested 9,292 MSigDB gene sets on GBM longitudinal transcriptomes; regulatory T-cell (FOXP3) signatures enriched in non-responders pre-treatment (p=0.037); immunosuppressive signatures (FOXP3, STAT3) elevated in responders post-treatment [PMID:30742119](../papers/30742119.md)
 
 ## Notes
 
@@ -72,5 +73,8 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

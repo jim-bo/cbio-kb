@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -110,6 +110,10 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Rare V600E alteration (n=1) identified as level 2B actionable finding in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
 - One OncoKB-level-annotated actionable alteration in a 189-patient MSK advanced endometrial cancer sequencing cohort (n=1), contributing to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
 - BRAF hotspot mutations enriched in post-endocrine-therapy HR+HER2- breast cancer tumors as part of MAPK-pathway alterations driving endocrine resistance [PMID:30205045](../papers/30205045.md)
+- BRAF altered in 8% of metastatic panNET (80-patient MSK-IMPACT cohort); V600E plus non-V600 variants (K601E, T599K, T310I, G596D+E451K compound); enriched in post-treatment samples; significantly worse 1-year OS (75% vs 95%, P<.01); paired patient on vemurafenib acquired NRAS Q61R at progression [PMID:30687805](../papers/30687805.md)
+- BRAF part of MAPK-pathway enrichment in anti-PD-1 responders in recurrent GBM (combined with PTPN11; 4/13 responders vs 1/32 non-responders); suggests MAPK inhibition may potentiate checkpoint blockade [PMID:30742119](../papers/30742119.md)
+- BRAF V600E (n=4 patients) and N486_T491delinsK in-frame indel (n=1, LCH) identified in histiocytic neoplasm cohort (n=18); N486_T491delinsK confirmed activating and cobimetinib-sensitive in Ba/F3, expanding actionable BRAF lesions beyond V600 [PMID:30867592](../papers/30867592.md)
+- BRAF mutations enriched in MSI-H/hypermutated colon tumors in proteogenomic cohort (n=110); classic colorectal cancer SMG alongside KRAS and POLE [PMID:31031003](../papers/31031003.md)
 
 ## Cancer types (linked)
 
@@ -375,22 +379,34 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

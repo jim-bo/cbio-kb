@@ -3,7 +3,7 @@ symbol: STAT3
 aliases: []
 cancer_types: [PTCL]
 tags: [jak-stat, t-cell-lymphoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ STAT3 is a JAK/STAT pathway transcription factor recurrently altered in peripher
 - Flagged within MRT-specific super-enhancers; prior roles in stem-cell self-renewal and differentiation suggest dependency in extra-cranial MRT [PMID:26977886](../papers/26977886.md)
 - STAT3 is upregulated as part of the JAK-STAT pathway (with JAK2, STAT1, STAT6) in pan-cancer iClusters C3, C20, C14 (LUAD), and C10 (pan-SCC) in the 28-iCluster TCGA pan-cancer classification, raising the hypothesis of repurposing approved JAK-STAT inhibitors across these tumor types [PMID:29625048](../papers/29625048.md)
 - RAS/JAK/STAT pathway mutation enriched in C4 GCB-DLBCL; co-occurring with BRAF, KRAS, MAP2K1 mutations; among 98 CCGs identified in 304 primary DLBCLs by MutSigCV/CLUMPS [PMID:29713087](../papers/29713087.md)
+- STAT3-related immunosuppressive signature elevated in post-treatment responder GBM tumors, interpreted as an acquired-resistance signal following anti-PD-1 therapy (gbm_columbia_2019) [PMID:30742119](../papers/30742119.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +61,8 @@ STAT3 is a JAK/STAT pathway transcription factor recurrently altered in peripher
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

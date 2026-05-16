@@ -3,8 +3,8 @@ symbol: PTCH1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [hedgehog-pathway, tumor-suppressor, immunotherapy-biomarker]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -32,6 +32,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - Overexpression in medulloblastoma (MBL) alongside SUFU and ZIC3; SMO-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Inactivating alterations in 6% of ESCCs (no EACs), suggesting active hedgehog signalling in esophageal squamous cell carcinoma [PMID:28052061](../papers/28052061.md)
 - Germline PTCH1 variants predominantly restricted to SHH medulloblastoma subgroup [PMID:28726821](../papers/28726821.md)
+- PTCH1 alterations identified in 2 patients as OncoKB Level 3b actionable somatic alterations in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -93,3 +94,6 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

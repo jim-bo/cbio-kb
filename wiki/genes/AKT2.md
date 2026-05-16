@@ -7,8 +7,8 @@ tags:
   - pi3k-pathway
   - oncogene
   - amplification
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # AKT2
@@ -24,6 +24,7 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - AKT2 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - AKT2 somatic mutations detected in breast cancer WES of 100 tumors, part of PI3K/AKT pathway driver landscape [PMID:22722201](../papers/22722201.md)
 - PI3K/AKT pathway mutations ([PTEN](../genes/PTEN.md), AKT1/2, PAX8/PPARG) account for 4.5% (18/402) of papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
+- AKT2 G16D acquired post-everolimus in a metastatic panNET patient, detected by serial NGS as a resistance mechanism [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

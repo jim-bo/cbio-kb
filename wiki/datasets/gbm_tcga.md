@@ -17,8 +17,8 @@ tags:
   - TCGA
   - wes
   - rna-seq
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # TCGA Glioblastoma Multiforme
@@ -42,6 +42,7 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*: Expert-revised MRI segmentation labels and >700 radiomic features released for 135 TCGA-GBM cases, complementing the genomic data in gbm_tcga to enable radiogenomic studies.
 - [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 606 GBM samples from this cohort combined with 516 LGG samples into lgggbm_tcga_pub.
+- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, *Nature Medicine*: PTEN mutations and MAPK alterations predict anti-PD-1 response in recurrent GBM; TCGA IDH1-wildtype GBM used as background reference cohort.
 
 ## Notable findings derived from this cohort
 
@@ -52,6 +53,7 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - Bakas et al. 2017 released expert-revised segmentation labels for 135 GBM cases (from the originating set of 262), achieving median DICE of 0.92 for whole tumour, 0.88 for tumour core, and 0.88 for enhancing tumour versus GLISTRboost automated labels. These labels became the reference for BraTS'17. [PMID:28872634](../papers/28872634.md)
 - A panel of >700 radiomic features was extracted volumetrically from the manually revised labels, spanning intensity, volumetric, morphologic, texture (GLCM/GLRLM/GLSZM/NGTDM), wavelet, and glioma growth-model parameters — enabling downstream radiogenomic correlation with TCGA molecular profiles. [PMID:28872634](../papers/28872634.md)
 - Used as a component cohort (606 GBM samples, grade IV, n=592 per cBioPortal) in the TCGA pan-glioma integrated analysis identifying 75 SMGs, six DNA-methylation subtypes (LGm1–6), and PA-like IDH-wildtype glioma as a distinct favorable-prognosis entity [PMID:26824661](../papers/26824661.md)
+- Used as an IDH1-wildtype background reference (n=458 and n=503 samples) for mutation-frequency comparisons in the Columbia GBM immunotherapy cohort; PTEN mutation frequency in TCGA (33%, 154/458) contextualized PTEN enrichment among anti-PD-1 non-responders, and TCGA tumor purity estimates (ESTIMATE) supplemented the Columbia cohort transcriptomic analyses. [PMID:30742119](../papers/30742119.md)
 
 ## Sources
 
@@ -59,5 +61,6 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - TCGA GBM marker paper: Cancer Genome Atlas Research Network 2008, *Nature* (PMID 18772890).
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*, DOI 10.1038/sdata.2017.117.
 - [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*, DOI 10.1016/j.cell.2015.12.028.
+- [PMID:30742119](../papers/30742119.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

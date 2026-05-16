@@ -3,8 +3,8 @@ symbol: RPS6KB1
 aliases: [S6K1, p70S6K]
 cancer_types: [OSCC, HNSCC]
 tags: [kinase, mTOR, copy-gain, mitogenic-signaling]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RPS6KB1
@@ -16,6 +16,7 @@ RPS6KB1 encodes ribosomal protein S6 kinase B1 (S6K1/p70S6K), a serine/threonine
 ## Alterations observed in the corpus
 
 - RPS6KB1 copy gain identified as part of the mitogenic signaling pathway alterations in oral squamous cell carcinoma (OSCC) [PMID:23619168](../papers/23619168.md)
+- 17q23 gain/amplification defines IntClust1 (8% of ER+ breast tumors); gained or amplified in 96%/70% of IntClust1 cases vs 0–25% amplification in other IntClust groups in the METABRIC cohort (brca_metabric) [PMID:30867590](../papers/30867590.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ RPS6KB1 encodes ribosomal protein S6 kinase B1 (S6K1/p70S6K), a serine/threonine
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

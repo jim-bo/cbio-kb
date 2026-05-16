@@ -61,6 +61,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - 13q14.2/RB1 focal copy loss is a defining feature of C2 DLBCL alongside CDKN2A loss; co-occurring with biallelic TP53 inactivation and elevated genomic instability/whole-genome doubling in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
 - RB1 was a pre-specified DDR/NAC-response gene tested in primary vs. secondary MIBC; no significant difference between groups observed; included among cell-cycle regulators assessed for FGFR3 co-alteration [PMID:30290956](../papers/30290956.md)
 - RB1 was lost on one branch of the aggressive multi-region prostate tumour PCA041, occurring alongside KLF5/BRCA1 loss on the same subclonal branch (distinct from the branch carrying parallel PTEN/TP53 biallelic inactivation) [PMID:30537516](../papers/30537516.md).
+- RB1 recurrently amplified and Rb protein overexpressed (p=2.10×10⁻¹⁵) in a 106-tumor colon cancer proteogenomic cohort (CPTAC 2019); hyperphosphorylation at E2F-regulating sites T373/S807/S811/T826 (1.84-fold, p<2.2×10⁻¹⁶) drives proliferation and suppresses apoptosis — CDK2 inhibition proposed as the dominant therapeutic strategy, especially in the CIN subtype [PMID:31031003](../papers/31031003.md)
 
 ## Cancer types (linked)
 
@@ -179,5 +180,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

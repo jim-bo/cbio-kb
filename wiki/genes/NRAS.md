@@ -65,6 +65,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS hotspot mutations (n=4) classified as OncoKB level 3 actionable alterations in cholangiocarcinoma (n=195 MSK-IMPACT cohort) [PMID:29848569](../papers/29848569.md)
 - NRAS mutations predicted MAPK-inhibitor sensitivity ex vivo in the Beat AML cohort (aml_ohsu_2018); NRAS association with MAPK-inhibitor sensitivity was stronger than that of KRAS [PMID:30333627](../papers/30333627.md)
 - NRAS oncogenic missense mutations in <1% of advanced HCC in the MSK-IMPACT cohort; identified alongside HRAS and PIK3CA as low-frequency oncogenic alterations [PMID:30373752](../papers/30373752.md)
+- NRAS Q61R acquired at vemurafenib progression in a BRAF V600E-mutant metastatic panNET patient; NRAS somatic mutations also detected in 2 patients (OncoKB Level 3b) in this cohort [PMID:30687805](../papers/30687805.md)
+- NRAS G12D observed in a compound-mutation LCH patient also harboring BRAF V600E and KRAS G13C; NRAS-mutant histiocytosis responded to cobimetinib MEK inhibition [PMID:30867592](../papers/30867592.md)
 
 ## Cancer types (linked)
 
@@ -225,5 +227,11 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30867592](../papers/30867592.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

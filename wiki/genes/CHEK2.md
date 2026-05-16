@@ -39,6 +39,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - CHEK2 germline LP/PVs identified in 5 of 28 LP/PV carriers (17.9%) in a pediatric cancer predisposition cohort; burden OR=9.6, p=2.42×10⁻⁴; 4 carriers had BCP-ALL and 1 had Langerhans-cell histiocytosis (with co-occurring NF1 LP/PV); 3 of 5 were pLoF; CHEK2 is among the candidate HBOC genes assessed by WES [PMID:29489754](../papers/29489754.md).
 - CHEK2 is among the top DDR predisposition genes carrying germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
 - Germline protein-truncating variants in CHEK2 are significantly associated with higher somatic SV/SNV burden and elevated APOBEC signatures 2 and 3 in 292 prostate cancer WGS samples [PMID:30537516](../papers/30537516.md)
+- Germline pathogenic/likely pathogenic carrier identified in panNET cohort (MSK-IMPACT, 80 patients); classified as a moderate-penetrance germline susceptibility gene [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -111,5 +112,8 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

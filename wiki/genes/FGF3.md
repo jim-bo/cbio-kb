@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - HCC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # FGF3
@@ -17,6 +17,7 @@ FGF3 (Fibroblast Growth Factor 3) is a member of the FGF family involved in cell
 ## Alterations observed in the corpus
 
 - Co-amplified at 11q13.3 locus with [FGF4](../genes/FGF4.md), [FGF19](../genes/FGF19.md), and [CCND1](../genes/CCND1.md) in ~6% of [HCC](../cancer_types/HCC.md); focal amplification appears at advanced stages and is independently associated with poor survival [PMID:25822088](../papers/25822088.md)
+- Co-amplified on chromosome 11q13 with CCND1, EMSY, PAK1, RSF1; defines IntClust2 (4.5% of ER+ breast cancer); associated with chronic late-relapse risk to 20 years in ER+/HER2- disease [PMID:30867590](../papers/30867590.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ FGF3 (Fibroblast Growth Factor 3) is a member of the FGF family involved in cell
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

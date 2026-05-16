@@ -140,6 +140,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA mutated in 36.4% of a 2,732-tumor combined HR+HER2- breast cancer cohort (699 tumors); 35 statistically significant hotspots identified, 12 newly significant; 5 novel hotspot variants induced elevated PI3K signaling in MCF10A functional assays [PMID:30205045](../papers/30205045.md)
 - PIK3CA oncogenic missense in <1% of advanced HCC; part of the PI3K-mTOR pathway actionability group (~15% of sorafenib-evaluable patients) associated with worse sorafenib outcomes (PFS HR 3.8, OS HR 2.5) [PMID:30373752](../papers/30373752.md)
 - PIK3CA E545K activating mutation was present in patient #28's initial glioma tumour but was replaced by other PI3K-pathway alterations in later samples, demonstrating branched evolution under treatment selection captured by serial CSF ctDNA profiling [PMID:30675060](../papers/30675060.md).
+- PIK3CA profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018); mTOR-pathway alterations occurred in 34/80 (43%) patients; PI3K pathway gene alterations did not predict everolimus response [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -420,5 +421,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

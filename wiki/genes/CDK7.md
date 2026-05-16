@@ -5,8 +5,8 @@ cancer_types:
   - THAP
   - THPA
 tags: []
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CDK7
@@ -18,6 +18,7 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 ## Alterations observed in the corpus
 
 - Focal copy number loss at chromosome 5 in anaplastic thyroid carcinoma (ATC), identified as part of a comprehensive genomic and evolutionary landscape analysis [PMID:38412093](../papers/38412093.md).
+- Elevated kinase activity in colon cancer tumors (COAD); identified among druggable kinase candidates in CPTAC colorectal proteogenomics; CDK7 inhibitors are in clinical development [PMID:31031003](../papers/31031003.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 - [PMID:38412093](../papers/38412093.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

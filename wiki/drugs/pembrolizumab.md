@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -50,6 +50,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Pan-cancer MSI analysis across 11,139 WES pairs (TCGA/TARGET) found MSI-H in 3.8% of all tumors across 27 cancer types, supporting expanded clinical MSI testing beyond colorectal/endometrial/gastric as a biomarker for pembrolizumab eligibility under the 2017 FDA pan-tumor MSI-H approval [PMID:29850653](../papers/29850653.md)
 - Pembrolizumab was among the anti-PD-1 agents given to HCC patients in the 31-patient immune checkpoint inhibitor subset of the MSKCC HCC cohort (n=127); activating WNT/beta-catenin alterations were predictive of non-response across the ICI group regardless of specific agent [PMID:30373752](../papers/30373752.md).
 - In a pan-cancer ICI cohort (n=1,662), pembrolizumab was among the anti-PD-1 agents used; high TMB (top 20% within histology) was associated with HR 0.52 (p=1.6×10⁻⁶) for OS, consistent with the FDA approval of pembrolizumab for MSI-high/dMMR tumors (high-TMB COAD in this cohort likely reflects MSI-high biology) [PMID:30643254](../papers/30643254.md).
+- In 66 recurrent [GBM](../cancer_types/GBM.md) patients treated with PD-1 inhibitors (pembrolizumab or nivolumab), responders had median post-treatment survival of 14.3 vs 10.1 months for non-responders (p=0.0081); [PTEN](../genes/PTEN.md) mutations (OR=8.5, p=0.0063) predicted non-response and MAPK-pathway alterations ([BRAF](../genes/BRAF.md)/[PTPN11](../genes/PTPN11.md)) predicted response; TMB and PD-L1 expression were not predictive [PMID:30742119](../papers/30742119.md)
 
 ## Resistance mechanisms
 
@@ -143,5 +144,6 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
+- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, Columbia/Northwestern GBM cohort (n=66); pembrolizumab/nivolumab in recurrent GBM; PTEN mutations (OR=8.5) predicted non-response; MAPK alterations predicted response; PD-L1 RNA and TMB not predictive.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

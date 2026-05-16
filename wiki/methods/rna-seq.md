@@ -114,6 +114,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - RNA-seq used in TCGA pan-cancer analysis for transcriptome-level characterization across cancer types [PMID:29713003](../papers/29713003.md)
 - Applied to 451 of 672 AML specimens (411 patients) using Agilent SureSelect Strand-Specific kit on Illumina HiSeq 2500 in the Beat AML study; expression signatures identified for 78/119 drugs (65.5%) at FDR<0.05 [PMID:30333627](../papers/30333627.md)
 - mRNA-seq performed on 96 EOPC prostate cancer samples from prostate_dkfz_2018; used to validate ESRP1 duplication-driven overexpression and to derive co-expression clusters (CC1–7) defining four molecular subgroups validated in TCGA prad_tcga_pub (n=462) [PMID:30537516](../papers/30537516.md)
+- 38 longitudinal transcriptomes generated from GBM tumors; downstream ssGSEA identified FOXP3/STAT3 immune signatures distinguishing anti-PD-1 responders from non-responders (gbm_columbia_2019) [PMID:30742119](../papers/30742119.md)
+- 106 CPTAC colon cancer tumors profiled by RNA-Seq; average mRNA profiles correlated with TCGA colorectal at Pearson r=0.92; transcriptomics combined with proteomics revealed protein-level Warburg effect in MSI-H tumors not visible at mRNA level [PMID:31031003](../papers/31031003.md)
 
 ## Notes
 
@@ -388,5 +390,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

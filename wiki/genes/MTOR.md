@@ -43,6 +43,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Called as a significantly mutated gene (SMG) in KIRC by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; confirmed as a consensus driver in clear cell renal cell carcinoma across two independent callers. [PMID:29596782](../papers/29596782.md)
 - Hotspot mutation L2427Q observed in a metastatic endometrial cancer patient, showing primary-to-metastatic heterogeneity (present in metastasis but not primary or vice versa); detected in MSK MSK-IMPACT cohort of 189 patients [PMID:30068706](../papers/30068706.md)
 - MTOR discussed as part of the mTOR pathway actionability framework in HCC; TSC1/TSC2 inactivating alterations (~10.6%) drive downstream mTOR activation and rationale for matched everolimus therapy; activating PI3K-mTOR pathway alterations as a group predicted worse sorafenib outcomes (PFS HR 3.8, OS HR 2.5) [PMID:30373752](../papers/30373752.md)
+- mTOR-pathway alterations (including TSC2, TSC1, PTEN, RHEB, AKT2, and MTOR) collectively affected 34/80 (43%) of metastatic panNET patients; mTOR-pathway mutation status did not predict everolimus benefit (response: 17% mutant vs 29% WT) [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -89,5 +90,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

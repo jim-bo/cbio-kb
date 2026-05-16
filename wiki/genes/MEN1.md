@@ -8,7 +8,7 @@ tags:
   - histone-methyltransferase
   - chromatin-remodeling
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # MEN1
@@ -25,6 +25,7 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 - MEN1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors in the TCGA thyroid cohort [PMID:25417114](../papers/25417114.md)
 - MEN1 truncating mutations observed at low frequency in PDTC and ATC as part of a set of infrequent truncating mutations alongside NF2 and RB1 [PMID:26878173](../papers/26878173.md)
 - MEN1 nominated as a breast cancer mutation-driver via combined homozygous deletion and inactivating-mutation evidence in 2,433-tumor whole-genome/exome sequencing study [PMID:27161491](../papers/27161491.md)
+- Most frequently altered gene in metastatic panNET: somatic alterations in 45/80 (56%); associated with improved 1-year OS (98% vs 82%, P=.01); one germline high-penetrance carrier identified incidentally [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -65,6 +65,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Single somatic mutation (reported as MLL2; HUGO symbol KMT2D) observed in 1/9 IMPACT341-sequenced hepatocellular adenomas (inflammatory I-HCA subtype) [PMID:30052636](../papers/30052636.md)
 - KMT2D alterations enriched in primary vs. secondary muscle-invasive bladder cancer (MIBC) in a two-institution cohort (23% vs 10%, univariable p=0.013) but did not survive FDR correction; tested on MSK-IMPACT 300-gene panel [PMID:30290956](../papers/30290956.md)
 - KMT2D mutated in 10% of gallbladder carcinoma (GBCA) tumors across a three-region (Japan, Chile, USA) cohort sequenced with MSK-IMPACT; co-occurrence trend with BRCA2 and AR [PMID:30427539](../papers/30427539.md)
+- Detected as a somatic alteration among the histone methyltransferase gene set in metastatic panNET; part of the 66% of patients harboring histone methyltransferase alterations [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -230,5 +231,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

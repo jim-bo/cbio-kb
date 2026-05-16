@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [proteomics, mass-spectrometry, multi-omics]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # LC-MS/MS proteomics
@@ -22,6 +22,7 @@ Liquid chromatography tandem mass spectrometry (LC-MS/MS) whole-cell proteomics 
 - LC-MS/MS used for global proteome and phosphoproteome quantification in TCGA high-grade serous ovarian cancer samples [PMID:26200345](../papers/26200345.md)
 - LC-MS/MS proteomics (PXD059301) used to identify USP10 as a TRMT10A protein interactor from Co-IP pulldown in prostate cancer cells [PMID:28068672](../papers/28068672.md).
 - PWAS-inspired allele-specific proteomics (LC-MS/MS) on oligos carrying the rs4519489 A or T allele identified USF1, TBX3, and TFAP4 as A-allele-preferring binders; USF1 was the only one confirmed by ChIP-qPCR at the locus [PMID:28927585](../papers/28927585.md)
+- Label-free shotgun LC-MS/MS applied to 100 CPTAC colon cancer tumors; average protein profiles correlated with TCGA colorectal at Pearson r=0.96; identified 31 proteins >2-fold elevated in tumors vs NATs [PMID:31031003](../papers/31031003.md)
 
 ## Notes
 
@@ -45,3 +46,6 @@ Liquid chromatography tandem mass spectrometry (LC-MS/MS) whole-cell proteomics 
 - [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

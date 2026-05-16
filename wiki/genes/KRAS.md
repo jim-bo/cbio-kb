@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -116,6 +116,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS established hotspot mutations newly reach statistical significance (SMG status) in prostate cancer in the 1,013-sample WES meta-cohort (prad_p1000); RAS/RAF/MAPK pathway altered in 5% of PRAD overall. [PMID:29610475](../papers/29610475.md)
 - KRAS shows strong mutual exclusivity with NRAS/HRAS and BRAF V600 within Ras signaling across nearly all 33 TCGA tumor types; KRAS/NRAS/HRAS are among the most frequently predicted neoantigens; KRAS is mutually exclusive with TP53 in COAD/READ/LUAD but co-occurs with TP53 in PAAD [PMID:29625049](../papers/29625049.md)
 - KRAS is the most-altered RTK-RAS gene pan-cancer (9% of TCGA); hotspot mutations dominate and are concentrated in PAAD (72%), colorectal genomically-stable (69%), and LUAD (33%); KRAS mutation is mutually exclusive with EGFR amplification and NF1/RASA1 loss [PMID:29625050](../papers/29625050.md)
+- KRAS enriched in extrahepatic cholangiocarcinoma (EHC) vs intrahepatic (38% vs 7%); associated with shorter OS in advanced disease (p=0.026); mutually exclusive with IDH1, BAP1, and PBRM1. [PMID:29848569](../papers/29848569.md)
+- KRAS RAS/JAK/STAT pathway mutations enriched in DLBCL C4 GCB subtype in 304-patient WES cohort; non-canonical mutations perturb P-loop/activation-loop autoinhibitory interaction. [PMID:29713087](../papers/29713087.md)
+- KRAS mutation status discussed in context of PD-1 blockade response in lung adenocarcinoma; no distinct KRAS-specific association found beyond TP53/TMB signal in this combination PD-1+CTLA-4 immunotherapy cohort (n=75 NSCLC). [PMID:29657128](../papers/29657128.md)
 
 ## Cancer types (linked)
 
@@ -416,3 +419,12 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

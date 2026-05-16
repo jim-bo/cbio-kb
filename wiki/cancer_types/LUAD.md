@@ -64,6 +64,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - ALK and ROS1 fusions found as driver events in small subsets of LUAD; EGFR missense mutations associated with elevated EGFR mRNA; TP53 and KRAS mutually exclusive in LUAD [PMID:29625049](../papers/29625049.md)
 - RTK-RAS alteration rate 74% in LUAD; KRAS hotspot mutations in 33% of LUAD; EGFR alterations in 13%; SOS1 activating mutations in ~1% of LUAD; STK11 loss co-occurs with KEAP1 loss in lung cancer [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for LUAD [PMID:29625055](../papers/29625055.md)
+- CheckMate-012 cohort: advanced NSCLC was 79% non-squamous (predominantly LUAD); high TMB (>158 nonsynonymous mutations) associated with ORR 51% vs 13% (OR 6.97, p=0.0005) and PFS median 17.1 vs 3.7 months (HR 0.41, p=0.0024) with nivolumab + ipilimumab; TMB independent of PD-L1 expression [PMID:29657128](../papers/29657128.md)
 
 ## Subtypes
 
@@ -148,5 +149,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29657128](../papers/29657128.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

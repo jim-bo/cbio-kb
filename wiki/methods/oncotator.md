@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-annotation, bioinformatics, cancer-genomics]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Oncotator
@@ -30,6 +30,7 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 - Used for SNV/INDEL annotation in anti-PD-1-treated metastatic melanoma WES data (38 tumor/normal pairs) [PMID:26997480](../papers/26997480.md)
 - Used to annotate somatic variants identified by MuTect and SNVseeqer in 72 urothelial carcinoma tumours for functional classification. [PMID:27749842](../papers/27749842.md)
 - Oncotator used to annotate somatic mutations pooled from four sequencing centers (Broad, Washington University, UCSC, BCCA) in the TCGA esophageal/stomach study of 164 oesophageal carcinomas [PMID:28052061](../papers/28052061.md).
+- Variants from 304 DLBCLs annotated with Oncotator after MuTect/Indelocator calling [PMID:29713087](../papers/29713087.md)
 
 ## Notes
 
@@ -75,3 +76,6 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

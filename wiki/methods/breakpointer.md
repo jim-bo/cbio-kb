@@ -9,8 +9,8 @@ tags:
   - rearrangement
   - whole-genome-seq
   - breakpoint-detection
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BreakPointer
@@ -22,6 +22,7 @@ BreakPointer is a computational tool for fine-mapping structural variant breakpo
 ## Used by
 
 - Applied alongside dRanger, MuTect, Indelocator, CLONET, ChainFinder, ABSOLUTE, and GISTIC v2 in WGS analysis of 57 prostate tumors to characterize chromoplexy rearrangement chains; 113 rearrangements were validated by PCR/resequencing [PMID:23622249](../papers/23622249.md)
+- Used as validation tool for structural variants (SVs) in 304 DLBCLs, as part of a four-algorithm consensus SV calling pipeline (BreaKmer, Lumpy, dRanger, SvABA + Breakpointer validation) [PMID:29713087](../papers/29713087.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ BreakPointer is a computational tool for fine-mapping structural variant breakpo
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

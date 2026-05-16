@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # pembrolizumab
@@ -44,6 +44,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Reflex MSI testing and pembrolizumab (FDA-approved for MSI-H tumors) are recommended as standard practice in metastatic EGC; MSI-H patients had median PFS 4.8 months on first-line chemotherapy vs multiple durable immunotherapy responses; high TMB (>9.7 mut/Mb) was associated with median OS 16.8 vs 6.62 months on immunotherapy (HR=0.40, P=0.058) [PMID:29122777](../papers/29122777.md)
 - FDA approval of pembrolizumab for MSI-H solid tumours renders all 99 MSI-H/hypermutated CRCs in this 1,134-sample MSK-IMPACT cohort (8.7% of total) eligible per OncoKB Level 1 actionability; overall actionability rate was 86% in MSI-H vs 37% in MSS mCRC [PMID:29316426](../papers/29316426.md)
 - One of the anti-PD-(L)1 agents in the 240-patient MSK NSCLC cohort; TMB above the 50th percentile predicted durable clinical benefit (DCB 38.6% vs 25.1%, p=0.009) and combining high TMB with PD-L1 >=1% raised DCB rate to 50% [PMID:29337640](../papers/29337640.md)
+- MSI-H cholangiocarcinoma (0.5% of 195 patients) identified as potentially eligible for pembrolizumab under tissue-agnostic indication; the single MSI-H patient died before FDA approval [PMID:29848569](../papers/29848569.md)
 
 ## Resistance mechanisms
 
@@ -121,3 +122,6 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

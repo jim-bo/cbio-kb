@@ -519,3 +519,7 @@
 - method: select — observed in PMID:29625050 — note: mutual exclusivity / co-occurrence test for somatic alterations; 416 oncogenic alterations tested yielding 152 exclusive and 116 co-occurring pairs in 9,125 TCGA PanCanAtlas tumors
 - method: tcga-cdr-pan-cancer-clinical-data-resource — observed in PMID:29625055 — note: standardized survival annotation (OS/PFI/DFI/DSS) for 11,160 TCGA patients across 33 cancer types; canonical clinical resource for PanCanAtlas analyses
 - method: tumormap — observed in PMID:29625048 — note: 2D hexagonal-grid visualization of iCluster latent-variable distances for ~10,000 TCGA PanCancer Atlas tumors; UCSC-developed tool
+- method: breakmer — observed in PMID:29713087 — note: split-read SV caller for capture-based sequencing; used in consensus SV pipeline for 304 DLBCL WES samples
+- method: svaba — observed in PMID:29713087 — note: local sequence assembly SV caller; used in consensus SV pipeline for 304 DLBCL WES samples alongside BreaKmer, Lumpy, dRanger
+- method: signatureanalyzer — observed in PMID:29713087 — note: Bayesian NMF framework for de novo mutational signature discovery; identified 3 dominant mutational processes in 304 DLBCLs
+- method: lumpy — observed in PMID:29713087 — note: probabilistic multi-evidence SV caller integrating split-reads, discordant pairs, and read-depth; used in consensus SV pipeline for 304 DLBCL WES samples

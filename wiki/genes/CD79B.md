@@ -7,7 +7,7 @@ cancer_types:
 tags:
   - bcr-pathway
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CD79B
@@ -24,6 +24,7 @@ CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutation
 - Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 - Activating mutations in 40% of [PCNSL](../cancer_types/PCNSL.md) cases; frequently co-occur with [MYD88](../genes/MYD88.md) L265P mutations (3 of 4 CD79B-mutant cases); higher prevalence than nodal DLBCL [PMID:25991819](../papers/25991819.md)
 - placeholder
+- CD79B is mutated in 48% (29/60) of C5 ABC-DLBCL tumors; defines BCR-pathway addiction in C5. MYD88-L265P and CD79B co-mutations define C5 (co-occurrence P=0.036), and this subtype has unfavorable PFS/OS on R-CHOP [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +61,6 @@ CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutation
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

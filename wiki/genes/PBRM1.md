@@ -3,8 +3,8 @@ symbol: PBRM1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -36,6 +36,8 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - S275 mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Biallelic LOF (truncating mutation + chr3p loss) enriched in anti-PD-(L)1 responders in ccRCC; PBRM1-LOF tumors show up-regulated hypoxia and JAK/STAT3 programs and reduced immune-inhibitory ligand expression [PMID:29301960](../papers/29301960.md)
 - Called as a KIRC SMG by both MutSig2CV and MuSiC2 in the MC3 pan-cancer open-access MAF covering 10,510 TCGA tumor/normal pairs across 33 cancer types [PMID:29596782](../papers/29596782.md).
+- Mutated in IHC (intrahepatic cholangiocarcinoma); common alteration but not significantly prognostic; mutually exclusive with KRAS in cholangiocarcinoma; identified in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients [PMID:29848569](../papers/29848569.md)
+- Candidate cancer gene (MutSigCV q < 0.1) identified among 98 CCGs in 304 primary DLBCLs; chromatin-remodeling SWI/SNF subunit; involved in chromatin regulation relevant to lymphoma biology [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -96,3 +98,9 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

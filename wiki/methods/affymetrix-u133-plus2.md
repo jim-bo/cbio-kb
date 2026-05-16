@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [expression-array, microarray, transcriptomics]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Affymetrix U133 Plus 2.0 Array
@@ -21,6 +21,7 @@ The Affymetrix GeneChip Human Genome U133 Plus 2.0 Array is a microarray platfor
 - Used for gene-expression profiling (HU133+ 2.0) in [MCL](../cancer_types/MCL.md); expression data deposited as GEO GSE36000; NSD2-mutated MCL showed overexpression of [NSD2](../genes/NSD2.md) gain-of-function signatures by GSEA [PMID:24145436](../papers/24145436.md)
 - Microarray platform used for gene expression profiling in a subset of TCGA glioma samples as part of the pan-glioma multi-platform integration [PMID:26824661](../papers/26824661.md)
 - Affymetrix U133 Plus 2.0 array used for transcriptomic profiling of 37 fresh-frozen advanced thyroid tumors (17 PDTC + 20 ATC); expression data deposited under GEO accession GSE76039. BRS and TDS scores computed from this array data. [PMID:26878173](../papers/26878173.md)
+- Gene expression data for 304 DLBCLs generated on Affymetrix U133plus2 arrays; deposited in GEO under GSE98588; used to classify cell-of-origin (COO) and validate genetic subtype transcriptional correlates [PMID:29713087](../papers/29713087.md)
 
 ## Notes
 
@@ -39,3 +40,6 @@ The Affymetrix GeneChip Human Genome U133 Plus 2.0 Array is a microarray platfor
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

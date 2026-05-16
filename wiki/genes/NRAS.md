@@ -3,7 +3,7 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -62,6 +62,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - 4 mutations in 34 acral melanoma (ALM) patients: Q61K in 3 (9%) and A59G in 1; mutually exclusive of BRAF mutations in this cohort [PMID:28373299](../papers/28373299.md)
 - OncoKB Level 1 resistance marker for anti-EGFR antibodies (cetuximab/panitumumab) in mCRC; HR=2.59 for OS in multivariate analysis of MSS metastatic CRC (N=1,152) [PMID:29316426](../papers/29316426.md)
 - NRAS (with KRAS and HRAS) shows strong mutual exclusivity with BRAF V600 within Ras signaling across nearly all 33 TCGA tumor types; BRAF-mutant tumors in the C3 immune subtype have higher CD8 T-cell fractions than NRAS-mutant tumors [PMID:29625049](../papers/29625049.md)
+- NRAS hotspot mutations (n=4) classified as OncoKB level 3 actionable alterations in cholangiocarcinoma (n=195 MSK-IMPACT cohort) [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -215,3 +216,6 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

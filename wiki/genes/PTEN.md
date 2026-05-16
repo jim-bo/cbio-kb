@@ -120,6 +120,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Homozygous loss or truncating mutation in 16% of 1,013 prostate tumors (prad_p1000); PTEN alteration is enriched in metastatic vs. primary PRAD and is part of the genomic signature proposed for prospective risk stratification [PMID:29610475](../papers/29610475.md).
 - PTEN loss partitions UCEC into the CTNNB1–PTEN–CTCF mutually-exclusive driver network (as opposed to the TP53–PPP2R1A network); PTEN/ARID1A/CTNNB1/PIK3CA-enriched UCEC clusters have low TP53, consistent with copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
 - PTEN inactivation is a core PI3K pathway driver; PIK3CA activation combined with PTEN loss dominates in head-and-neck, breast, GI, and gynecologic tumors; PTEN is enriched in ≥4 multiplatform iClusters as a frequently co-altered pan-cancer driver [PMID:29625050](../papers/29625050.md)
+- Focal 10q23.31 copy loss and truncating mutations define C3 GCB-DLBCL; N- and C-terminal mutations distinguished by roles in PI3K/AKT antagonism vs. genomic stability; dual PTEN inactivation mechanism in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
+- Significantly mutated in SMC Korean breast cancer cohort (3.2%, q=0.015); identified as a significantly mutated gene in 186 SMC tumors vs. TCGA comparator [PMID:29713003](../papers/29713003.md)
+- Zero responses among 4 patients with PTEN mutations receiving combination PD-1 + CTLA-4 immunotherapy in NSCLC; resistance association did not reach statistical significance due to small numbers [PMID:29657128](../papers/29657128.md)
 
 ## Cancer types (linked)
 
@@ -356,3 +359,12 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

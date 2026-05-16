@@ -22,8 +22,8 @@ tags:
   - intrinsic-subtypes
   - ilc
   - idc
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # TCGA Breast Invasive Carcinoma (TCGA, Cell 2015)
@@ -52,6 +52,7 @@ The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive mul
 ## Papers using this cohort
 
 - [PMID:26451490](../papers/26451490.md) — Ciriello et al. 2015, Cell — "Comprehensive molecular portraits of invasive lobular breast cancer."
+- [PMID:29713003](../papers/29713003.md) — Kan et al. 2018, Nature Communications — "Multi-omics profiling of younger Asian breast cancers reveals distinct molecular subtypes and age-associated differences."
 
 ## Notable findings derived from this cohort
 
@@ -60,9 +61,13 @@ The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive mul
 - ILC has the highest pAKT activity of any breast cancer subtype — comparable to HER2+ and Basal-like — driven by upstream RTK alterations and [PTEN](../genes/PTEN.md) loss rather than [PIK3CA](../genes/PIK3CA.md) mutation per se [PMID:26451490](../papers/26451490.md).
 - Three ILC transcriptional subtypes identified (reactive-like, immune-related, proliferative); validated in [brca_metabric](brca_metabric.md); proliferative ILC had worse DSS and [OS](../cancer_types/OS.md) [PMID:26451490](../papers/26451490.md).
 - Mixed IDC/ILC tumors resolve molecularly into ILC-like or IDC-like classes (not a third hybrid entity); [CDH1](../genes/CDH1.md) status is the dominant classifier [PMID:26451490](../papers/26451490.md).
+- Used as a benchmark cohort (n=1116, 66.8% White, 72.3% post-menopausal) for comparison with the Korean SMC cohort; provided the reference distribution of molecular subtypes, mutation rates, and mutational signatures in predominantly Caucasian breast cancer [PMID:29713003](../papers/29713003.md)
 
 ## Sources
 
 - Ciriello G et al. "Comprehensive molecular portraits of invasive lobular breast cancer." Cell. 2015;163(2):506-519. [PMID:26451490](../papers/26451490.md). DOI: 10.1016/j.cell.2015.09.033.
+- Kan Z et al. "Multi-omics profiling of younger Asian breast cancers reveals distinct molecular subtypes and age-associated differences." Nature Communications. 2018;9(1):1725. [PMID:29713003](../papers/29713003.md). DOI: 10.1038/s41467-018-04129-4.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

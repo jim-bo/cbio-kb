@@ -3,8 +3,8 @@ symbol: PTPN6
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # PTPN6
@@ -17,6 +17,7 @@ PTPN6 (Protein Tyrosine Phosphatase Non-Receptor Type 6, also known as SHP-1) is
 
 - PTPN6 exhibits GCB-selective CRISPR essentiality in a 1001-patient DLBCL genomic cohort, indicating a selective functional dependency in germinal-center B-cell subtype tumors [PMID:28985567](../papers/28985567.md).
 - PTPN6 is a component of the TCR/co-stimulatory immunological synapse upregulated on-therapy and enriched in the contraction-phenotype DEG set in metastatic melanoma patients treated with [nivolumab](../drugs/nivolumab.md) [PMID:29033130](../papers/29033130.md).
+- Candidate cancer gene (MutSigCV q < 0.1) in 304 primary DLBCLs; involved in BCR/JAK-STAT signaling; identified among the 98 CCGs in the coordinate genetic subtype analysis [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ PTPN6 (Protein Tyrosine Phosphatase Non-Receptor Type 6, also known as SHP-1) is
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,8 +4,8 @@ oncotree_code: TT
 main_type: Germ Cell Tumor
 parent: NSGCT
 tags: [germ-cell, testicular, teratoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Teratoma (TT)
@@ -22,6 +22,7 @@ Teratoma is a germ cell tumor composed of tissues from multiple embryonic germ l
 
 - Teratoma-containing [MGCT](../cancer_types/MGCT.md) samples were not microdissected; TP53/MDM2 alterations found in teratoma-free resistant tumors argue against meaningful confounding by teratoma DNA on the resistance signal [PMID:27646943](../papers/27646943.md).
 - **12p gain** — characteristic GCT cytogenetic feature present in the broader cohort [PMID:27646943](../papers/27646943.md).
+- 8/9 primary testicular DLBCL cases in the Chapuy 2018 cohort (n=304) clustered in genetic subtype C5 (p<0.001) — defined by MYD88^L265P^/CD79B co-mutation, 18q/BCL2 gain, and ABC cell-of-origin; C5 confers unfavorable PFS/OS and supports BCR/TLR inhibition and BCL2 antagonism [PMID:29713087](../papers/29713087.md)
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Teratoma is a germ cell tumor composed of tissues from multiple embryonic germ l
 - [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 49 MGCT with teratoma elements in MSK GCT cohort; pure teratoma excluded from primary analyses.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

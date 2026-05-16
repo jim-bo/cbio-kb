@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [statistics, survival-analysis, regression]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 ## Used by
 
 - Used with proportional-hazards-assumption testing (Grambsch & Therneau 1994) to assess clinical outcome endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) across 11,160 TCGA patients in 33 cancer types; high-stage (III/IV) vs low-stage (I/II) HRs were significantly >1 in most cancer types with sufficient event capture [PMID:29625055](../papers/29625055.md).
+- Applied in multivariate survival analysis of 178 stage IV cholangiocarcinoma patients; CDKN2A/B and ERBB2 alterations remained significantly associated with shorter OS and PFS on first-line chemotherapy [PMID:29848569](../papers/29848569.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

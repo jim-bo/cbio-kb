@@ -50,6 +50,7 @@ OncoTree code for invasive breast carcinoma.
 - Germline BRCA1/2 carriers had mean age of diagnosis 54.4 years vs 62.3 years for somatic-only cases (P=2.07e-10); BRCA1/2 had 854 somatic (571 samples) and 153 germline (152 samples) mutations pan-cancer; GATA3 frameshift/nonsense alleles paradoxically increase mRNA (FDR=4.54e-18) in BRCA [PMID:29625049](../papers/29625049.md)
 - BRCA HER2-enriched subtype shows RTK-RAS alteration rate of 82%; PI3K pathway dominates luminal subtypes; HER2+PI3K inhibitor combination actionable in 17% of HER2-enriched BRCA tumors [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients); OS not recommended for BRCA due to short TCGA follow-up; PFI and DFI preferred; ER+ BRCA had significantly better PFI (p=0.005) and DFI (p=0.001) than ER- [PMID:29625055](../papers/29625055.md)
+- Korean SMC cohort (n=187) vs TCGA (n=1,116): HER2+ enriched (28.3% vs 4.3%), Luminal A depleted, TP53 mutated in 47.9%, ERBB2 altered in 20%, germline BRCA1/BRCA2 pathogenic in 10.8%; 85% of TNBC were HRD-positive (S3 score >0.2) vs 52% in TCGA (p=7e-4) [PMID:29713003](../papers/29713003.md)
 
 ## Subtypes
 
@@ -108,5 +109,8 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

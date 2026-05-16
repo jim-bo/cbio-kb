@@ -4,8 +4,8 @@ oncotree_code: PCNSL
 main_type: Mature B-Cell Neoplasms
 parent: DLBCLNOS
 tags: [cns-lymphoma, b-cell-lymphoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Primary CNS Lymphoma (PCNSL)
@@ -25,6 +25,7 @@ Primary central nervous system lymphoma, an aggressive extranodal non-Hodgkin ly
 - [TBL1XR1](../genes/TBL1XR1.md) — WD40-domain (likely LoF) mutations in 36% of PCNSL cases [PMID:38995739](../papers/38995739.md).
 - [CARD11](../genes/CARD11.md) — mutated in 24% of PCNSL cases [PMID:38995739](../papers/38995739.md).
 - Comprehensive genomic study of 19 immunocompetent PCNSL patients (array-CGH, WES, mate-pair WGS) identified PCNSL-specific biallelic inactivation of [TOX](../genes/TOX.md) (11% HD + 17% monoallelic deletion) and [PRKCD](../genes/PRKCD.md); [MYD88](../genes/MYD88.md) L265P mutations in 79%; [CDKN2A](../genes/CDKN2A.md) biallelic loss in 60% (HD 55%); BCR/TLR/NF-κB pathway altered in >90%; 6q21 [PRDM1](../genes/PRDM1.md) deletion associated with shorter [OS](../cancer_types/OS.md) (log-rank P=0.001); dataset: [pcnsl_mayo_2015](../datasets/pcnsl_mayo_2015.md) [PMID:25991819](../papers/25991819.md)
+- CNS lymphoma cases in the DLBCL cohort clustered in C5 (MYD88^L265P^/CD79B ABC subtype, 18q gain); 1/2 CNS cases fell in C5 (p<0.001), consistent with prior PCNSL targeted-sequencing studies; C5 associated with unfavorable PFS/OS (HR 2.01 vs favorable-signature reference) [PMID:29713087](../papers/29713087.md)
 
 ## Subtypes
 
@@ -44,3 +45,6 @@ Primary central nervous system lymphoma, an aggressive extranodal non-Hodgkin ly
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -130,6 +130,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - SOX2, PIK3CA, and TERC are chr_3q oncogenes invoked to explain the squamous chr_3q-gain signature; in the AALE experimental model, chr_3p-deleted clones rescued their proliferation defect by duplicating chromosome 3, thereby co-gaining the 3q arm containing PIK3CA [PMID:29622463](../papers/29622463.md).
 - PIK3CA is one of the three most multiplatform-cluster-enriched drivers (with TP53 and KRAS) across TCGA pan-cancer; it drives BRCA mRNA/RPPA clusters and is mutually exclusive with TP53 in several tumor types; PIK3CA/PTEN/AKT activation is enriched in ARID1A/PTEN/CTNNB1/PIK3CA cluster low-TP53 endometrial tumors [PMID:29625049](../papers/29625049.md)
 - PIK3CA (with PIK3CB, PIK3R1, PTEN, AKT1) drives the core PI3K pathway; PIK3CA activation and PTEN inactivation dominate in head-and-neck, breast, GI, and gynecologic tumors; FGFR2/FGFR3 show exceptional co-occurrence with PI3K pathway alterations versus the typical mutual exclusivity between RTK and downstream RAS/PI3K [PMID:29625050](../papers/29625050.md)
+- Second most frequently mutated gene in SMC Korean breast cancer cohort (28.5%); rate not significantly different from TCGA (32.0%, p=0.81); present across hormone-receptor-positive and HER2+ subtypes [PMID:29713003](../papers/29713003.md)
+- Low-frequency (n=6) level-3 actionable hotspot mutations in cholangiocarcinoma (IHC+EHC); identified via MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients [PMID:29848569](../papers/29848569.md)
+- Listed among candidate cancer genes in 304 primary DLBCLs; mutation frequency and subtype context part of the 98 CCGs identified by MutSigCV (q < 0.1) [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -382,3 +385,12 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

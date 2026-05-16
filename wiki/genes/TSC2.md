@@ -3,8 +3,8 @@ symbol: TSC2
 aliases: [tuberin]
 cancer_types: [BRCA]
 tags: [tumor-suppressor, somatic, mtor-pathway, mtor-inhibitor-target, metastasis-enriched]
-processed_by: entity-page-writer
-processed_at: "2026-05-15"
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # TSC2
@@ -17,6 +17,7 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 
 - TSC2 combined with [TSC1](../genes/TSC1.md): together mutated in 6.3% of HR+/HER2− metastatic breast cancer (mBC) vs 0.7% of HR+/HER2− early breast cancer (eBC; p=0.0004) in 216 mBC patients from French prospective trials (SAFIR01, SAFIR02, SHIVA, MOSCATO); all cases in prior-endocrine-therapy-treated patients. Authors hypothesize outlier response to mTOR inhibitor everolimus. [PMID:28027327](../papers/28027327.md)
 - TSC2 truncating alterations in 3 patients (0.3%) in 860 metastatic [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; classified as OncoKB level 2B; no patient received matched mTOR-inhibitor therapy in this cohort [PMID:28336552](../papers/28336552.md).
+- Rare level-2B actionable finding (n=3 TSC1/TSC2 combined) in a 189-patient prospective NGS cohort of advanced cholangiocarcinoma; identified as a potentially targetable mTOR-pathway alteration [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

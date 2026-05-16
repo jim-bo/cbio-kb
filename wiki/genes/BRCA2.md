@@ -78,6 +78,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:29489754](../papers/29489754.md)
 - BRCA2 somatic and germline mutations are counted together with BRCA1 (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with BRCA1 germline carriers [PMID:29625049](../papers/29625049.md)
 - BRCA2 is included in the 57% pan-cancer actionability figure (versus 52% restricted to the 10 canonical pathways), supporting broad germline/somatic BRCA2 testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
+- Germline pathogenic mutations affect 10.8% of Korean breast cancer patients (brca_smc_2018) combined with BRCA1 vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
+- Rare germline/somatic pathogenic mutation (n=2 combined with BRCA1, level 2B actionable) identified in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -238,5 +240,11 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

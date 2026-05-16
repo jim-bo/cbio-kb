@@ -59,6 +59,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC2.0 used to derive recurrent SCNA scores across 10,522 TCGA pan-cancer samples for integration with arm-level aneuploidy analysis [PMID:29622463](../papers/29622463.md)
 - Applied at confidence 0.95 with amplification/deep-deletion thresholds of +2/−2 to identify recurrent somatic copy-number alterations in 9,125 TCGA PanCanAtlas tumors across 33 cancer types [PMID:29625050](../papers/29625050.md).
 - Applied with ABSOLUTE to Affymetrix SNP6 array data for copy-number analysis of ~10,000 TCGA PanCancer Atlas tumors; copy-number alterations contributed 47% of the integrated iCluster signal [PMID:29625048](../papers/29625048.md).
+- GISTIC2.0 applied to 304 DLBCLs; detected 18 arm-level and 18 focal copy gains, 2 arm-level and 32 focal copy losses (q ≤ 0.1, frequency ≥ 3%); CCGs were highly enriched within focal SCNAs (Fisher's exact P = 1×10⁻⁴⁴) [PMID:29713087](../papers/29713087.md)
 
 ## Notes
 
@@ -189,5 +190,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

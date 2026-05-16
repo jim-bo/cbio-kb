@@ -31,6 +31,7 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - Included in TCGA PanCancer Atlas integrative molecular analysis; CHOL showed <50% of samples in any single iCluster, indicating substantial molecular heterogeneity [PMID:29625048](../papers/29625048.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); CHOL standardized OS, PFI, DFI, and DSS endpoints derived [PMID:29625055](../papers/29625055.md)
+- MSK-IMPACT prospective profiling of 195 cholangiocarcinoma patients (158 IHCH, 37 EHCH): most common alterations were IDH1 (25%), TP53 (24%), ARID1A (21%), BAP1 (15%), KRAS (13%); 47.6% had an OncoKB level 3B+ actionable alteration; CDKN2A/B and ERBB2 alterations associated with shorter OS (p=0.0015 for both) [PMID:29848569](../papers/29848569.md)
 
 ## Subtypes
 
@@ -67,5 +68,8 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-16
 ---
 
 # PRKCB
@@ -16,6 +16,7 @@ PRKCB (Protein Kinase C Beta) encodes a serine/threonine kinase involved in sign
 ## Alterations observed in the corpus
 
 - Strongly induced novel direct EWS::FLI1 target in heMSCs (EWS::FLI1 binds intron 7); knockdown via EWS::FLI1 siRNA abolishes induction; reaffirmed as a Ewing sarcoma dependency consistent with Surdez et al. [PMID:25186949](../papers/25186949.md)
+- Candidate cancer gene identified by MutSigCV (q < 0.1) in 304 primary DLBCLs; listed among the 98 CCGs defining DLBCL genetic subtypes in the C3/C4 GCB-DLBCL context [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -34,3 +35,6 @@ PRKCB (Protein Kinase C Beta) encodes a serine/threonine kinase involved in sign
 - [PMID:25186949](../papers/25186949.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -50,6 +50,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 mutations define methylation cluster 1 in LGG (330/351 samples mutant); IDH1-driven gliomas exhibit lower STAT1, decreasing CXCL10 expression and reducing immune infiltrate; IDH1 co-occurs with ATRX in pan-cancer somatic-interaction networks [PMID:29625049](../papers/29625049.md)
 - IDH1 mutations in LGG are actionable: IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant LGG; IDH1/2 alterations included in the 57% pan-cancer actionability figure alongside BRCA1/2 in analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - IDH1 mutations in LGG are highlighted as the canonical example of TCGA survival-genomic integration: IDH-mutant LGG patients (with or without 1p/19q codeletion) have substantially longer OS than IDH-wildtype LGG, establishing IDH/1p19q status as more robust than histologic subtype; this finding contributed to the WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
+- IDH1 most commonly altered gene in intrahepatic cholangiocarcinoma (30% of IHC, n=195); mutually exclusive with TP53, SMAD4, FGFR2, and KRAS; drove 43 patients to OncoKB level 3 classification and enrollment in ivosidenib (AG-120) clinical trial. [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -169,5 +170,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

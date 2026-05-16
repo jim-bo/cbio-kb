@@ -3,8 +3,8 @@ symbol: MCL1
 aliases: []
 cancer_types: [HGSOC]
 tags: [BCL2-family, anti-apoptotic, IFN-signaling, IRDS, chemoresistance]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MCL1
@@ -19,6 +19,8 @@ MCL1 is an anti-apoptotic BCL-2 family protein that promotes cell survival by se
 - MCL1 identified as a significantly mutated gene in pan-lung cancer TCGA analysis (n=1144) with somatic alterations observed across lung adenocarcinoma and squamous cell carcinoma subtypes [PMID:27158780](../papers/27158780.md)
 - Alteration identified as part of the actionable alteration list in cisplatin-resistant germ cell tumors (GCT) [PMID:27646943](../papers/27646943.md)
 - MCL1 overexpression detected in osteosarcoma (OS) in a pediatric precision-oncology cohort; identified alongside MYC and CCNE1 as BET- and CDK4/6-inhibitor targets in the same patient [PMID:28007021](../papers/28007021.md)
+- 18q gain (including BCL2/MALT1/MCL1 locus at 1q23.3) is a defining feature of C2 DLBCL subtype; MCL1 (1q23.3) gain detected in the C2 genomic-instability cluster of a 304-sample DLBCL WES study [PMID:29713087](../papers/29713087.md)
+- MCL1 amplification observed in 4% of cholangiocarcinoma patients (n=195) profiled by MSK-IMPACT targeted NGS [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +53,9 @@ MCL1 is an anti-apoptotic BCL-2 family protein that promotes cell survival by se
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

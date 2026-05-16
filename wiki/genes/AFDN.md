@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - cell-adhesion
   - tissue-organisation
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # AFDN
@@ -20,6 +20,7 @@ AFDN (Afadin, also known as MLLT4) encodes an actin filament-binding protein tha
 ## Alterations observed in the corpus
 
 - Identified as an HD-defined TSG and newly nominated breast-cancer Mut-driver via combined homozygous-deletion and inactivating-mutation evidence; part of the CDH1/CTNNA1/AFDN tissue-organisation cluster in the METABRIC 2,433-sample cohort; functional confirmation as a breast-cancer TSG awaits future work [PMID:27161491](../papers/27161491.md)
+- Top genome-wide indel hotspot located ~100 kb upstream of CTCF-binding sites in gastric cancer (stad_oncosg_2018); expression effect not tested (no paired RNA-seq for mutated samples) [PMID:29670109](../papers/29670109.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ AFDN (Afadin, also known as MLLT4) encodes an actin filament-binding protein tha
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

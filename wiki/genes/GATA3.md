@@ -25,6 +25,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Identified as one of 12 significantly mutated driver genes in metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)) by MutSig (FDR<0.1) in 216 mBC samples; also a known eBC driver, not enriched in the metastatic setting [PMID:28027327](../papers/28027327.md).
 - Recurrently amplified in MIBC; differentially expressed across mRNA subtypes; key luminal-driver transcription factor by regulon analysis; GATA3 regulon activity associated with better survival in multivariate model; co-driver with FOXA1 and PPARG in the luminal transcriptional program [PMID:28988769](../papers/28988769.md)
 - In BRCA, GATA3 frameshift/nonsense alleles paradoxically increase mRNA (FDR = 4.54e-18) and are associated with downregulated microtubule/cytoskeleton programs not seen in missense mutants, consistent with reported gain-of-function; missense and truncating GATA3 mutations have distinct transcriptional consequences [PMID:29625049](../papers/29625049.md)
+- GATA3 mutated in 12.4% of SMC (Korean) breast cancer cohort vs 9.1% of TCGA; alterations restricted to hormone-receptor-positive subtypes. [PMID:29713003](../papers/29713003.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

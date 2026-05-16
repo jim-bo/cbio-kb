@@ -10,7 +10,7 @@ tags:
   - whole-genome-seq
   - somatic-sv
 processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_at: 2026-05-16
 ---
 
 # dRanger
@@ -23,6 +23,7 @@ dRanger is a computational tool for detecting somatic structural variants (rearr
 
 - Applied to 57 prostate WGS tumor/normal pairs filtered against a panel of 172–176 non-cancerous genomes; identified 5,596 high-confidence somatic rearrangements, of which 113 were validated by PCR/resequencing; detected 39% of rearrangements participating in chromoplexy chains (vs 2.8% in simulated controls, p<10⁻⁴) [PMID:23622249](../papers/23622249.md)
 - Used for rearrangement discovery in 16 esophageal adenocarcinoma WGS pairs, yielding 2,952 candidate rearrangements (median 172/tumor, range 77–402); 38 predicted in-frame fusions identified but no recurrent fusions found [PMID:23525077](../papers/23525077.md)
+- One of four SV-calling algorithms applied to 304 DLBCLs with targeted SV bait capture at mean depth 221.4×; results merged via consensus pipeline with BreaKmer, Lumpy, and SvABA [PMID:29713087](../papers/29713087.md)
 
 ## Notes
 
@@ -32,4 +33,6 @@ dRanger is a computational tool for detecting somatic structural variants (rearr
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

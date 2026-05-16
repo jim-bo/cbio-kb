@@ -60,6 +60,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Four monoallelic pLoF [ATM](../genes/ATM.md) LP/PVs were identified in a pediatric cancer predisposition cohort (n=372); burden OR=3.2, p=0.040 in single-cohort analysis but not significant in joint analysis; carriers developed BCP-ALL, medulloblastoma, or hepatoblastoma without ataxia-telangiectasia features. [PMID:29489754](../papers/29489754.md)
 - [ATM](../genes/ATM.md) is an SMG uniquely called by MutSig2CV (not MuSiC2) in KIRC using the TCGA MC3 open-access MAF. [PMID:29596782](../papers/29596782.md)
 - ATM is among the top DDR predisposition genes bearing germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
+- Common but not significantly prognostic in cholangiocarcinoma (chol_msk_2018); observed across intrahepatic and extrahepatic subtypes [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -203,5 +204,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

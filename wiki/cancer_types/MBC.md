@@ -8,8 +8,8 @@ tags:
   - metaplastic
   - er-negative
   - squamous-differentiation
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Metaplastic Breast Cancer (MBC)
@@ -26,6 +26,7 @@ Metaplastic Breast Cancer (MBC) is a rare and aggressive subtype of invasive bre
 
 - In mouse mammary models, KrasG12D, PIK3CA-H1047R, and PIK3CA-H1047R+[TP53](../genes/TP53.md) Indel editing consistently produced ER-/PR- metaplastic tumors with squamous differentiation, while the same edits in rats yielded ER+ ductal carcinoma — illustrating species-dependent lineage plasticity and suggesting that the metaplastic phenotype is not driven exclusively by specific oncogene combinations but by species/cell-of-origin context [PMID:26437033](../papers/26437033.md).
 - Lenti-HrasQ61L intraductal delivery also produced ER-/PR- metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, reinforcing the context-dependency of metaplastic transdifferentiation [PMID:26437033](../papers/26437033.md).
+- TNBC/MBC comprised 19.8% of the Korean SMC breast cohort; 87.5% of SMC TNBC carried TP53 mutations and 85% were HRD-positive (S3 signature score >0.2), significantly higher than 52% of TCGA TNBC (p=7e-4); elevated BRCA1/BRCA2 germline burden supports PARP inhibitor evaluation [PMID:29713003](../papers/29713003.md)
 
 ## Subtypes
 
@@ -40,3 +41,6 @@ Metaplastic Breast Cancer (MBC) is a rare and aggressive subtype of invasive bre
 - [PMID:26437033](../papers/26437033.md) — Bu et al., *Rat somatic genome editing enables ER+ breast cancer modeling*, bioRxiv 2025.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

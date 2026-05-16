@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [DLBCL, B-cell-lymphoma, immunotherapy, antibody]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Rituximab
@@ -21,6 +21,7 @@ Rituximab is a chimeric anti-CD20 (MS4A1) monoclonal antibody that depletes CD20
 - Rituximab-refractory CLL cases included in WES cohort; [NOTCH1](../genes/NOTCH1.md) mutations associated with inferior outcome under chemo-immunotherapy [PMID:23415222](../papers/23415222.md)
 - Component of the FCR (fludarabine/cyclophosphamide/rituximab) chemoimmunotherapy arm of the CLL8 trial (n=538 CLL); [TP53](../genes/TP53.md), [SF3B1](../genes/SF3B1.md), and [RPS15](../genes/RPS15.md) mutations predicted shorter PFS under FCR; the eventual relapse clone was pre-treatment detectable in 30% of cases [PMID:26466571](../papers/26466571.md).
 - All 1001 patients in the DLBCL genomic study received rituximab-containing immunochemotherapy as standard of care, providing a uniformly-treated reference cohort for biomarker discovery [PMID:28985567](../papers/28985567.md)
+- Component of R-CHOP regimen (rituximab + cyclophosphamide + doxorubicin + vincristine + prednisone); 85% of 304 DLBCL patients received R-CHOP-like therapy; genetic subtypes (C1-C5) predict PFS/OS on R-CHOP independent of IPI [PMID:29713087](../papers/29713087.md)
 
 ## Resistance mechanisms
 
@@ -45,3 +46,6 @@ Rituximab is a chimeric anti-CD20 (MS4A1) monoclonal antibody that depletes CD20
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -70,6 +70,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - One missense [BRCA1](../genes/BRCA1.md) LP/PV was identified in a pediatric cancer predisposition cohort (n=372); burden test was non-significant (OR=1.9, p=0.406). [PMID:29489754](../papers/29489754.md)
 - BRCA1 somatic mutations total 854 events (571 samples) plus 153 germline mutations (152 samples) across 33 TCGA tumor types; germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; somatic BRCA1/2 mutants down-regulate antigen-processing and leukocyte-cytotoxicity programs, while germline carriers down-regulate mitochondrial respiratory-chain and metabolic programs [PMID:29625049](../papers/29625049.md)
 - BRCA1 is included in the 57% pan-cancer actionability figure (versus 52% when restricted to the 10 canonical pathways), contributing to the rationale for germline/somatic testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
+- Germline pathogenic mutations affect 10.8% of Korean breast cancer patients (brca_smc_2018) vs. 4.7% of TCGA (LR p=0.0027); strongly associated with HRD mutational signature S3 (MLR p=2.0e-08) and TNBC (MLR p=5.1e-39) [PMID:29713003](../papers/29713003.md)
+- Rare germline/somatic pathogenic mutation (n=2, level 2B actionable) identified in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -210,5 +212,11 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

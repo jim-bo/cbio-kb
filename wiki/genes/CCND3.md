@@ -6,7 +6,7 @@ cancer_types:
   - ODG
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CCND3
@@ -25,6 +25,7 @@ CCND3 encodes Cyclin D3, a member of the D-type cyclin family that promotes cell
 - Recurrent focal amplification in LUAD; identified as one of multiple significant amplification peaks in the TCGA lung adenocarcinoma dataset (n=230) [PMID:25079552](../papers/25079552.md)
 - CCND3 was identified as a novel focal amplification target in lung adenocarcinoma (Pan-Lung analysis) [PMID:27158780](../papers/27158780.md).
 - CCND3 amplification listed as actionable alteration in cisplatin-resistant germ cell tumors, nominating CDK4/6 inhibitors [PMID:27646943](../papers/27646943.md)
+- 6p21.1 focal locus example of a cancer gene simultaneously perturbed by somatic mutation, copy gain, and structural variant in DLBCL (dlbcl_dfci_2018) [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ CCND3 encodes Cyclin D3, a member of the D-type cyclin family that promotes cell
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

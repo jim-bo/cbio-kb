@@ -33,6 +33,7 @@ this stub exists so child pages can resolve their `parent:` link.
 - WES of 619 CRC tumour/normal pairs from NHS and HPFS cohorts (coadread_dfci_2016) identified 90 significantly mutated genes (73 novel); neoantigen load correlated with TILs (Spearman rho=0.36, p=2e-19) and improved CRC-specific survival (multivariate HR=0.57, p=0.03); HLA class I somatic mutations in 11% of cases were enriched in TIL-rich tumours, implicating antigen-presentation escape [PMID:27149842](../papers/27149842.md)
 - Prospective MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas (979 metastatic + 120 early-stage patients) identified 47 recurrently mutated genes; WNT pathway alteration reached 96% when intronic APC and large CTNNB1 exon-3 deletions were included; right-sided MSS mCRC had shorter OS (5-year 45% vs 67%, p<0.001) and distinct oncogenic enrichment versus left-sided [PMID:29316426](../papers/29316426.md)
 - MSI-high tumors in COADREAD over-express immune effectors GZMA, PRF1, GZMK, GZMH (Kolmogorov-Smirnov P<0.01); TP53 and KRAS are mutually exclusive in COAD/READ but co-occur in PAAD [PMID:29625049](../papers/29625049.md)
+- WGS pan-cancer reanalysis: 19% of colorectal tumors carry a mutation in ≥1 of 11 recurrent CTCF-binding-site (CBS) hotspots — the second-most-mutated functional element in GI cancers after TP53 (50% of GC); CBS hotspot mutations enriched in CIN-subtype tumors [PMID:29670109](../papers/29670109.md)
 
 ## Therapeutic landscape
 
@@ -66,5 +67,8 @@ this stub exists so child pages can resolve their `parent:` link.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29670109](../papers/29670109.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

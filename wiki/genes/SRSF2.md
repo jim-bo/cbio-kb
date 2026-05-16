@@ -27,6 +27,7 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 - Splicing factor in AML chromatin-spliceosome subgroup; HR 1.4 (95% CI 1.1–1.7), P=0.003, q=0.03; additive adverse effect with ASXL1; associated with ELN intermediate-risk reclassification to adverse risk [PMID:27276561](../papers/27276561.md)
 - Covered by the 8-gene AmpliSeq amplicon panel (TP53, DNMT3A, IDH1, IDH2, ASXL1, SRSF2, U2AF1, SF3B1) and observed in AML/MDS patients on the 10-day decitabine trial; not reported as independently predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
 - SRSF2 mutations were significantly more frequent in the Beat AML cohort (aml_ohsu_2018) than in TCGA AML; associated with novel drug-sensitivity correlations as part of spliceosome-mutation landscape [PMID:30333627](../papers/30333627.md)
+- Listed among clonal-hematopoiesis filter genes used to exclude CH-attributable variants from germline calls in a prospective glioma genomic profiling cohort (n=923 adult patients, MSK-IMPACT, July 2013–July 2017) [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 - [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

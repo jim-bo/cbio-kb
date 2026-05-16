@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # dabrafenib
@@ -26,6 +26,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - One of three FDA-approved BRAF-targeted therapies for the BRAF-mutant subtype of cutaneous melanoma (52% of 318 TCGA cases; V600E n=124, V600K n=18, V600R n=3, K601 n=5); nominated alongside [vemurafenib](../drugs/vemurafenib.md) and [trametinib](../drugs/trametinib.md) in TCGA melanoma integrative analysis [PMID:26091043](../papers/26091043.md)
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including [vemurafenib](../drugs/vemurafenib.md), dabrafenib, or [trametinib](../drugs/trametinib.md); MAPKi-induced transcriptional programs overlap with the IPRES innate anti-PD-1 resistance signature, suggesting prior dabrafenib may compromise anti-PD-1 efficacy in [BRAF](../genes/BRAF.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 - Matched therapy context for BRAF V600E (level 2A) in 860-patient MSK-IMPACT LUAD cohort; 55.6% of BRAF V600E patients received matched therapy (which included BRAF ± MEK inhibitor combinations) with 75% clinical benefit [PMID:28336552](../papers/28336552.md).
+- In BRAF V600E glioma, RAF inhibitors including dabrafenib (used in RAF/MEK combinations) produced 4 partial/near-complete responses (ongoing at 9–41 months) in 7 treated patients; the sole non-responder had a subclonal V600E, and one mixed-response patient with CDKN2A homozygous deletion in a spinal metastasis failing RAF inhibition echoes CDKN2A-driven BRAF-inhibitor resistance in melanoma. [PMID:31263031](../papers/31263031.md)
 
 ## Resistance mechanisms
 
@@ -63,3 +64,6 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

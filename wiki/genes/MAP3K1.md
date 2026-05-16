@@ -3,8 +3,8 @@ symbol: MAP3K1
 aliases: [MEKK1]
 cancer_types: []
 tags: [mapk, sarcoma, clonal-evolution, intra-tumoral-heterogeneity]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MAP3K1
@@ -23,6 +23,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - Recurrent focal deletion in prostate adenocarcinoma in the TCGA cohort (n=333); co-deletion of [MAP3K7](../genes/MAP3K7.md) with [CHD1](../genes/CHD1.md) marks aggressive ETS-negative disease [PMID:26544944](../papers/26544944.md)
 - MAP3K1 is the most common multi-hit gene (53/152 mutants with >1 functional mutation) in breast cancer, suggesting biallelic inactivation; classified as ER+ tumor-suppressor gene driver; mutations associated with improved BCSS (HR=0.56) [PMID:27161491](../papers/27161491.md)
 - Identified as a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early-stage breast cancer; enriched among HR+/HER2− mBC drivers [PMID:28027327](../papers/28027327.md)
+- Identified as a candidate novel glioma driver from a 3,130-sample meta-analysis of prospectively characterized gliomas. [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -65,3 +66,6 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

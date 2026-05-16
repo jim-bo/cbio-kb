@@ -48,6 +48,9 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Somatic deleterious mutations enriched in MSI-H tumors of ACC, CESC, and MESO in a pan-TCGA analysis; MSH6 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 - MSH6, a mismatch-repair gene, was implicated as a mechanism of alkylator-induced hypermutation in 5/42 (12%) ctDNA-positive glioma CSF samples, all of which had received temozolomide [PMID:30675060](../papers/30675060.md).
 - MSH6 mutations found in 2 of 80 metastatic panNET patients (OncoKB Level 4); acquired MMR-gene mutations including MSH6 were observed in post-alkylator hypermutated tumors, a previously unreported pattern in panNET [PMID:30687805](../papers/30687805.md)
+- Concordant MSH6 protein loss follows truncating MSH2 mutations in cancer cell lines (CCLE); MSH6 co-loss is a marker of MMR-deficiency in this context. [PMID:31068700](../papers/31068700.md)
+- Germline MMR alleles (MSH2, MSH6) detected in glioma patients; somatic MSH6 mutations found in 31/38 (82%) hypermutated recurrences; biallelic loss in two cases with Lynch-pattern MSI hypermutation. [PMID:31263031](../papers/31263031.md)
+- Significantly reduced transcript and protein expression (by IHC) in UTUC vs UCB in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -156,5 +159,14 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

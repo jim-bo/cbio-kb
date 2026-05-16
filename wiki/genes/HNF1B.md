@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CCRCC]
 tags: [transcription-factor, renal-development, HIF2A-target]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # HNF1B
@@ -17,6 +17,7 @@ HNF1B (Hepatocyte Nuclear Factor 1 Beta) is a transcription factor with establis
 
 - Identified by LISA and ChEA3 (top 50 in both) as a transcription factor whose binding sites are enriched at HIF2A-specific VHL-dependent gene loci in a mouse VHL-knockout model of ccRCC initiation; proposed to mediate HIF2A's dedifferentiation-linked transcriptional output in proximal tubule cells [PMID:23797736](../papers/23797736.md)
 - Cross-referenced in the context of a prior 17q12/HNF1B GWAS study as background for the NOL10-USF1 rs4519489 eQTL axis in prostate cancer; not directly assayed in this study [PMID:28927585](../papers/28927585.md)
+- Promoter hypomethylation of HNF1B correlates with lineage-restricted transcription-factor dependence in cancer cell lines; this epigenetic gating of dependency was validated across CCLE and TCGA datasets [PMID:31068700](../papers/31068700.md).
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ HNF1B (Hepatocyte Nuclear Factor 1 Beta) is a transcription factor with establis
 - [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

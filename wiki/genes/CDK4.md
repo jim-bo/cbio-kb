@@ -50,6 +50,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - 12q focal amplification (CDK4 co-amplified with MDM2) enriched in immunotherapy non-responders (PD) in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 - CDK4 amplification was stable across all four biospecimens (two tumour resections plus two CSF samples) in patient #28 (IDH-WT GBM), illustrating its use as a clonal anchor in multi-timepoint CSF ctDNA monitoring (85-patient glioma MSK cohort) [PMID:30675060](../papers/30675060.md)
 - Elevated kinase activity in colon cancer tumors (COAD proteomic study); identified as a targetable therapeutic candidate — CDK4 inhibitors (palbociclib-class) approved; supports CDK4 inhibition in CIN-subtype COAD [PMID:31031003](../papers/31031003.md)
+- Amplification co-occurs with CCND1 amplification in CDK12 loss-of-function mCRPC tumors; RB1 mutation and CDK4 amplification represent alternative cell-cycle alterations with 1 patient showing CDK4 amplification later acquiring CDKN2A/B loss at recurrence and dying within 11-15 months [PMID:31061129](../papers/31061129.md)
+- Alternative cell-cycle alteration in glioma alongside RB1; one patient with CDK4 amplification later acquired CDKN2A/B loss at recurrence and died within 11-15 months, demonstrating cell-cycle pathway convergence during malignant progression [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -159,5 +161,11 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

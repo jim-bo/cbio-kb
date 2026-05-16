@@ -29,6 +29,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - Established prostate cancer driver confirmed in a 1,013-sample cohort; mutually exclusive with CUL3 mutations; both function in the BTB-CUL3-RBX1 E3 ubiquitin ligase complex. Metastasis-vs-primary enrichment quantified [PMID:29610475](../papers/29610475.md)
 - SPOP E78K mutations identified in 3 HR+HER2- patients post-AI therapy; affect a MATH-domain region distinct from prostate-cancer SPOP hotspots; analogous to ER-stabilizing loss-of-function alleles in endometrial cancer, suggesting an estrogen-receptor-stabilizing mechanism of endocrine resistance [PMID:30205045](../papers/30205045.md)
 - SPOP mRNA expression correlates positively with KLF5 mRNA in both EOPC and TCGA prostate cancer cohorts (p < 1×10⁻⁴, ρ = 0.19), independently of SPOP mutation status; KLF5 ChIP-seq confirms SPOP as a direct KLF5 transcriptional target [PMID:30537516](../papers/30537516.md).
+- Mutations associated with longer time on first-line androgen-receptor signaling inhibitor (ARSI) therapy in metastatic castration-resistant prostate cancer (mCRPC, n=429 patients); mutually exclusive with ERG and co-occurring with CHD1; not significantly associated with overall survival benefit [PMID:31061129](../papers/31061129.md)
 
 ## Cancer types (linked)
 
@@ -90,3 +91,6 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

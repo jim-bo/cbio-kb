@@ -4,7 +4,7 @@ oncotree_code: UTUC
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, upper-tract, fgfr3]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -26,6 +26,7 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 - Upper tract urothelial carcinoma shared [FGFR3](../genes/FGFR3.md) alteration patterns with bladder urothelial carcinoma [PMID:36543146](../papers/36543146.md)
 - Targeted sequencing of upper-tract urothelial carcinoma identified recurrent [FGFR3](../genes/FGFR3.md) mutations, copy number alterations, and shared genomic features with bladder urothelial carcinoma [PMID:26278805](../papers/26278805.md)
 - 2 of 18 patients in the bladder cancer organoid biobank contributed patient-derived xenograft (PDX) lines from nephroureterectomies (upper-tract urothelial carcinoma, UTUC) at Memorial Sloan Kettering; organoids from these UTUC cases were sequenced with MSK-IMPACT 468-gene panel [PMID:29625057](../papers/29625057.md)
+- Integrated WES and RNA-seq of 37 high-grade UTUC tumors showed: FGFR3 activating mutations in 29.7% (vs 13.7% TCGA UCB, P=0.04); 84.3% luminal-papillary subtype; 87.5% T-cell depleted; lower TMB (2.91 vs 5.46 mut/Mb, P=1.9×10⁻⁵); FGFR3 cell-autonomously suppresses IFNG response, supporting FGFR3 inhibitor + ICI combination [PMID:31278255](../papers/31278255.md).
 
 ## Subtypes
 
@@ -48,5 +49,9 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29625057](../papers/29625057.md)
+
+- [PMID:31278255](../papers/31278255.md) — Robinson, Vlachostergios et al. UTUC WES+RNA-seq (Nature Communications 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - BLCA
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PPARG
@@ -20,6 +20,7 @@ PPARG (peroxisome proliferator-activated receptor gamma) encodes a nuclear recep
 - PAX8/PPARG fusion detected in 4/484 (0.8%) papillary thyroid carcinomas (PTCs); PPARG is the 3' fusion partner; fusion tumors display RAS-like (RL) expression phenotype with concurrent PI3K/AKT/MAPK activation, mutually exclusive with BRAF/RAS/EIF1AX point mutations. [PMID:25417114](../papers/25417114.md)
 - PPARG found as the 3-prime fusion partner of PAX8 in 3 PDTCs in a targeted-sequencing study of advanced thyroid cancers; the PAX8-PPARG fusion recapitulates a rearrangement previously described in follicular thyroid carcinoma. [PMID:26878173](../papers/26878173.md)
 - PPARG has six recurrent fusions in MIBC (4x TSEN2-PPARG, 2x MKRN2-PPARG) with overexpression (p=6e-3); 4/6 retained both DNA- and ligand-binding domains; additional cell-line CASC15-PPARG and NR2C2-PPARG fusions identified; implicated as a luminal driver alongside GATA3 and FOXA1 [PMID:28988769](../papers/28988769.md)
+- PPARG shows significantly higher mRNA expression in the T-cell-depleted UTUC cluster (P=1.1×10⁻⁵), consistent with a luminal/PPARG-driven phenotype associated with low immune infiltration [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ PPARG (peroxisome proliferator-activated receptor gamma) encodes a nuclear recep
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

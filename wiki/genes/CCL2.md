@@ -3,8 +3,8 @@ symbol: CCL2
 aliases: [MCP-1]
 cancer_types: [SKCM]
 tags: [chemokine, immune-resistance, IPRES, anti-PD-1]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CCL2
@@ -16,6 +16,7 @@ CCL2 (C-C Motif Chemokine Ligand 2; also known as MCP-1) is a monocyte and macro
 ## Alterations observed in the corpus
 
 - CCL2 was up-regulated in non-responders to anti-PD-1 therapy in melanoma as part of the IPRES innate resistance signature; CCL2, along with [VEGFA](../genes/VEGFA.md), links to a published mouse model of innate anti-PD-1 resistance (Peng et al. 2015) [PMID:26997480](../papers/26997480.md).
+- Concordantly downregulated in T-cell-depleted UTUC cluster (28/32, 87.5% of UTUC tumors); part of the immune-exclusion signature alongside CD8A, CCL3, CCL4, CCL5, and IFNG response genes in upper-tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CCL2 (C-C Motif Chemokine Ligand 2; also known as MCP-1) is a monocyte and macro
 - [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

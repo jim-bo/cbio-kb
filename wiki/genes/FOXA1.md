@@ -3,7 +3,7 @@ symbol: FOXA1
 aliases: []
 cancer_types: [LUAD, PRAD, BRCA]
 tags: [lineage-factor, metastasis]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - Strongly expressed in luminal subtypes of MIBC; identified as a luminal driver by regulon analysis; co-driver alongside GATA3 and PPARG in the luminal transcriptional program [PMID:28988769](../papers/28988769.md)
 - Confirmed established prostate cancer driver; significantly enriched in metastatic vs primary PRAD tumors in the 1,013-sample WES meta-cohort (prad_p1000); tumors lacking ETS fusion, IDH1, SPOP, CUL3, and FOXA1 alterations are enriched for epigenetic-regulator mutations (p=0.007). [PMID:29610475](../papers/29610475.md)
 - Forkhead-domain hotspot mutations with histology-specific allele distribution in HR+ breast cancer: lobular tumors on wing 2, ductal tumors on wing 1; classified as a transcription-factor endocrine-resistance lesion [PMID:30205045](../papers/30205045.md)
+- In metastatic castration-resistant prostate cancer (mCRPC), FOXA1 is recurrently altered and mutually exclusive with ERG fusions; it was not independently prognostic for overall survival or time on first-line ARSI in this 429-patient cohort [PMID:31061129](../papers/31061129.md).
 
 ## Cancer types (linked)
 
@@ -100,3 +101,6 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [functional-genomics, rnai, loss-of-function-screen]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # shRNA RNAi Screen
@@ -22,6 +22,7 @@ Short hairpin RNA (shRNA) RNAi screening is a pooled or arrayed loss-of-function
 - siRNA knockdown of individual Fanconi anemia pathway genes (FANCA, FANCB, FANCC, FANCD2, FANCE, FANCF, FANCG, FANCI, FANCL, FANCM, BRIP1, PALB2, SLX4, BRCA1, BRCA2) reduced proliferation in LNCaP, 22Rv1, VCaP, and PC3 prostate cancer cell lines and increased gamma-H2AX following carboplatin exposure. [PMID:26928463](../papers/26928463.md)
 - shRNA knockdown of TRMT10A, USP10, BRCA1, PARP1 and ATM used to functionally dissect the TRMT10A-BRCA1 HR axis in LNCaP, C4-2, 22Rv1, DU145, and PC-3 prostate cancer cell lines [PMID:28068672](../papers/28068672.md).
 - Employed shRNA/RNAi screen to identify essential genes in cancer cell lines [PMID:28196596](../papers/28196596.md)
+- Project Achilles and DRIVE shRNA/sgRNA dependency screen data integrated with the 1,072-line CCLE multi-omic dataset; cross-referencing methylation profiles with RNAi dependencies revealed [ESR1](../genes/ESR1.md) and [AFF1](../genes/AFF1.md) as fusion-driven dependencies and identified MDM4 exon-6 inclusion as a predictor of [nutlin-3a](../drugs/nutlin-3a.md) (MDM2-inhibitor) sensitivity [PMID:31068700](../papers/31068700.md)
 
 ## Notes
 
@@ -46,3 +47,6 @@ Short hairpin RNA (shRNA) RNAi screening is a pooled or arrayed loss-of-function
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

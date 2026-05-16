@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL]
 tags: [early-event]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # FUBP1
@@ -20,6 +20,7 @@ FUBP1 (far upstream element binding protein 1) regulates [MYC](../genes/MYC.md) 
 - Recurrent mutations in CLL (n=9, 1.7%); novel CLL driver with roles in RNA processing and [MYC](../genes/MYC.md) modulation [PMID:26466571](../papers/26466571.md)
 - Recurrently mutated in diffuse glioma (n=45 mutations recovered); confirmed known glioma driver along with TP53, EGFR, PTEN, CIC in pan-glioma TCGA methylation/genomic analysis (n=1122) [PMID:26824661](../papers/26824661.md)
 - Mutated in 5/19 (26%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases; canonical oligodendroglioma driver gene on chromosome 1p [PMID:28472509](../papers/28472509.md)
+- FUBP1 is a canonical glioma subtype-defining lesion; its frequency was stable across primary vs. recurrent specimens in a 923-patient adult glioma prospective genomic profiling cohort [PMID:31263031](../papers/31263031.md).
 
 ## Cancer types (linked)
 
@@ -52,3 +53,6 @@ FUBP1 (far upstream element binding protein 1) regulates [MYC](../genes/MYC.md) 
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

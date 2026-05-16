@@ -3,8 +3,8 @@ symbol: IRF9
 aliases: []
 cancer_types: [HGSOC]
 tags: [interferon-regulatory-factor, ISG, IFN-signaling, ovarian-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # IRF9
@@ -16,6 +16,7 @@ IRF9 (Interferon Regulatory Factor 9) is a transcription factor that forms the I
 ## Alterations observed in the corpus
 
 - IRF9 is an IFN-stimulated gene upregulated early in [HGSOC](../cancer_types/HGSOC.md) development beginning at the p53 signature stage; part of an IFN-alpha and IFN-gamma pathway gene upregulation program also including [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF7](../genes/IRF7.md), [ISG15](../genes/ISG15.md), [TAP1](../genes/TAP1.md), and [HLA-A](../genes/HLA-A.md) [PMID:39386723](../papers/39386723.md).
+- IRF9 is an IFNG-response gene upregulated upon FGFR3 shRNA knockdown in RT-112 urothelial carcinoma cells (P=0.005); its suppression by activated FGFR3 contributes to the T-cell-depleted immune phenotype in luminal-papillary UTUC [PMID:31278255](../papers/31278255.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ IRF9 (Interferon Regulatory Factor 9) is a transcription factor that forms the I
 - [PMID:39386723](../papers/39386723.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

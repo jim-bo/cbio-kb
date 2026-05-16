@@ -4,8 +4,8 @@ oncotree_code: CML
 main_type: Myeloproliferative Neoplasms
 parent: MPN
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Chronic Myelogenous Leukemia (CML)
@@ -21,6 +21,7 @@ Chronic myelogenous leukemia (CML) is a myeloproliferative neoplasm defined by t
 ## Recurrent alterations
 
 - PIPseq cohort: BCR-ABL1 fusion confirmed by RNA-seq as diagnostic of CML (PIPID 14-85546); imatinib is the first-line TKI target; the same sequencing run identified a BCR-ABL1-like RNA-seq signature in a separate [BLL](../cancer_types/BLL.md) patient [PMID:28007021](../papers/28007021.md).
+- Pan-cancer CCLE profiling (1,072 cell lines) identified phospho-SHP2 (pY542) as a predictor of [ponatinib](../drugs/ponatinib.md) sensitivity; BCR-ABL-positive CML lines served as positive controls validating the pSHP2-biomarker model [PMID:31068700](../papers/31068700.md).
 
 ## Subtypes
 
@@ -34,4 +35,6 @@ Chronic myelogenous leukemia (CML) is a myeloproliferative neoplasm defined by t
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31068700](../papers/31068700.md) — Ghandi et al. CCLE multi-omic profiling (Nature 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

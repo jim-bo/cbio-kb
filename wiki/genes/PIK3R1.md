@@ -45,6 +45,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3CA and PIK3R1 show mutual exclusivity within the PI3K complex pan-cancer, consistent with one alteration being functionally sufficient to activate PI3K signaling; PIK3CA–PIK3R1 exclusivity is among the clearest within-pathway exclusivity patterns in the Ras signaling analysis [PMID:29625049](../papers/29625049.md)
 - PIK3R1 is a core PI3K pathway driver; PIK3CA activation combined with PTEN inactivation dominates in head-and-neck, breast, GI, and gynecologic tumors pan-cancer [PMID:29625050](../papers/29625050.md)
 - Hotspot mutation E468* showed primary-to-metastatic heterogeneity in a metastatic endometrial cancer patient (MSK cohort, n=189) [PMID:30068706](../papers/30068706.md)
+- PIK3R1 is altered in 2.8% of mCRPC tumors; part of the PI3K-pathway alteration set with PIK3CA, PIK3CB, and AKT1; pathway alteration not associated with survival or time on ARSI [PMID:31061129](../papers/31061129.md)
 
 ## Cancer types (linked)
 
@@ -128,5 +129,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

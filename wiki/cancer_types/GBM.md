@@ -49,6 +49,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); GBM had shortest median follow-up (~12 months); TCGA-derived median OS=12.6 months and PFI=6.1 months, consistent with Stupp 2005 standard-care arms [PMID:29625055](../papers/29625055.md)
 - GBM (grade IV) comprised 46/85 (54%) of the adult diffuse glioma liquid-biopsy cohort; in IDH-WT GBM, CSF ctDNA positivity was associated with median OS of 2.04 vs 9.89 months (ctDNA− log-rank p=6.24×10⁻⁵), and truncal alterations (EGFR amplification, CDKN2A/B deletions) were 100% concordant between CSF and tumor in non-hypermutated cases. [PMID:30675060](../papers/30675060.md)
 - Longitudinal profiling of 66 recurrent GBM patients treated with PD-1 inhibitors (nivolumab or pembrolizumab; [gbm_columbia_2019](../datasets/gbm_columbia_2019.md)) showed PTEN mutations enriched in non-responders (23/32 vs 3/13, OR=8.5, p=0.0063) and MAPK pathway alterations (BRAF, PTPN11) enriched in responders; TMB did not predict response [PMID:30742119](../papers/30742119.md).
+- In a 923-patient glioma cohort, IDH-WT and IDH-mutant glioblastoma (GBM; n=649 IDH-WT) represented the majority; BRAF V600 mutations were clonal and nearly exclusive to epithelioid IDH-WT GBMs (17/17); 32% of patients harbored actionable lesions (OncoKB levels 1-3); 60% of targeted-therapy recipients were IDH-WT GBMs [PMID:31263031](../papers/31263031.md).
 
 ## Subtypes
 
@@ -85,13 +86,11 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742119](../papers/30742119.md)
+- [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

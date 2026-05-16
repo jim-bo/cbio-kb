@@ -9,7 +9,7 @@ tags:
   - somatic-mutation
   - bioinformatics
   - cancer-genomics
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 ## Used by
 
 - Applied to 106 colon cancer WXS profiles ([coad_cptac_2019](../datasets/coad_cptac_2019.md)) in the CPTAC proteogenomic study; identified 8 SMGs in the non-hypermutated group (all previously reported in TCGA) and 9 in the hypermutated/MSI-H group, including four novel SMGs ([CASP5](../genes/CASP5.md), [RNF43](../genes/RNF43.md), [LTN1](../genes/LTN1.md), [BMPR2](../genes/BMPR2.md)) mutated in >50% of MSI-H samples [PMID:31031003](../papers/31031003.md)
+- Applied in the pan-Asia cHCC-ICC WES study (133 cases); identified [TP53](../genes/TP53.md) as the only significantly mutated gene at FDR < 0.1 (alongside dNdScv which identified [TP53](../genes/TP53.md), [AXIN1](../genes/AXIN1.md), [RB1](../genes/RB1.md), [PTEN](../genes/PTEN.md), [ARID2](../genes/ARID2.md), and [BRD7](../genes/BRD7.md) at q < 0.1) [PMID:31130341](../papers/31130341.md)
 
 ## Notes
 
@@ -32,3 +33,6 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

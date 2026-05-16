@@ -19,6 +19,7 @@ vcf2maf is a Perl/Python tool that converts VCF (Variant Call Format) files to t
 
 - Used in the TCGA MC3 pipeline (v1.6.11) to convert ensemble VCFs to MAF format and apply the "Common in ExAC" filter (AC > 16 unless ClinVar-pathogenic); the AC = 16 threshold was anchored to [SF3B1](../genes/SF3B1.md) K700E as the highest ExAC count observed for a known clonal-hematopoiesis somatic event [PMID:29596782](../papers/29596782.md)
 - vcf2maf used to convert VCF variant calls to MAF format for AML whole-exome sequencing data in the Beat AML study (aml_ohsu_2018) [PMID:30333627](../papers/30333627.md)
+- Used for re-annotation of external reference cohorts (AACR GENIE, TCGA, Foundation Medicine) with VEP v88 in the 923-patient MSK glioma study ([glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md)) [PMID:31263031](../papers/31263031.md)
 
 ## Notes
 
@@ -30,5 +31,8 @@ vcf2maf is a Perl/Python tool that converts VCF (Variant Call Format) files to t
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - HCC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # GPC3
@@ -18,6 +18,7 @@ GPC3 (Glypican-3) is a cell-surface heparan sulfate proteoglycan that is overexp
 
 - GPC3 is a stem-cell/progenitor-cell signature marker that is prognostic in subsets of HCC; co-expressed with EPCAM and KRT19 [PMID:24735922](../papers/24735922.md)
 - GPC3 protein expression is part of the EASL-endorsed diagnostic IHC triplet (alongside HSPA1A/HSP70 and GLUL/glutamine synthetase) for early HCC diagnosis [PMID:24735922](../papers/24735922.md)
+- GPC3 is elevated in HCC-like transcriptomic clusters (P2/P4) of combined hepatocellular-intrahepatic cholangiocarcinoma (cHCC-ICC), consistent with its role as a hepatocyte marker [PMID:31130341](../papers/31130341.md).
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ GPC3 (Glypican-3) is a cell-surface heparan sulfate proteoglycan that is overexp
 - [PMID:24735922](../papers/24735922.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

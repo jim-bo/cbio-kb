@@ -75,6 +75,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 (with RASA1) is a RAS-pathway negative regulator; NF1 loss is mutually exclusive with EGFR amplification in glioma and other cancers, and is mutually exclusive with KRAS/BRAF mutation in the RTK-RAS pathway across the TCGA pan-cancer oncogenic signaling analysis [PMID:29625050](../papers/29625050.md)
 - NF1 mutated in 9% of gallbladder carcinoma tumors across a three-region (Japan, Chile, USA) cohort; detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
 - NF1 loss-of-function mutations >2-fold enriched after endocrine therapy in HR+HER2- breast cancer (p=4e-4); typically acquired or selected under therapy (not detected in matched primaries); CRISPR knockout in MCF7 increased MAPK signaling and induced fulvestrant resistance reversible by ERK inhibition [PMID:30205045](../papers/30205045.md)
+- Germline pathogenic NF1 alleles tied to neurofibromatosis type 1 predisposition in glioma patients; somatic NF1 and PTPN11 alterations preferentially enriched in recurrent lower-grade IDH-WT tumors (P<0.05). [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -173,5 +174,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

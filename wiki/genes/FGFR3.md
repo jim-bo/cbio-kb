@@ -3,7 +3,7 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -52,6 +52,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 activating mutations in 60% (9/15) of non-recurrent bladder organoid lines; SCBO-10 carries an FGFR3-TACC3 fusion (exon 17-exon 11 junction, same junction reported in GBM and bladder line RT112); FGFR3 mutation alone did not predict trametinib/SCH772984 response; no organoid line responded to any of three FGFR inhibitors tested [PMID:29625057](../papers/29625057.md)
 - FGFR3 fusions noted as therapeutically relevant alongside FGFR2; n=2 patients combined enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
 - Altered in 18% of secondary MIBC; framed as a potentially actionable target for FGFR-axis small-molecule inhibitors in this chemotherapy-refractory subgroup [PMID:30290956](../papers/30290956.md)
+- FGFR3–TACC3 fusions were identified in 16 patients across a 931-tumor MSK-IMPACT longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
+- FGFR3 activating missense mutations in 11/37 (29.7%) UTUC tumors, significantly higher than 13.7% in TCGA UCB (P=0.04); outlier-overexpressed in 14/32 UTUC tumors; proposed as a cell-intrinsic driver of T-cell-depleted phenotype via suppression of IFNG response genes; recurrent FGFR3–TACC3 and FGFR3–BAIAP2L1 fusions present [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -173,3 +175,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:30290956](../papers/30290956.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

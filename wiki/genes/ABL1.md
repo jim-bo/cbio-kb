@@ -23,6 +23,7 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 - BCR-ABL1 fusion diagnostic of CML; NUP214-ABL1 and FOXP1-ABL1 fusions identified in B-cell ALL (BLL) — ABL1 rearrangements are TKI targets (dasatinib used to achieve remission enabling curative bone-marrow transplant) [PMID:28007021](../papers/28007021.md)
 - The [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md) fusion is a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) 'fusion-only' tumors in a pan-cancer RNA-seq fusion analysis across TCGA. [PMID:29617662](../papers/29617662.md)
 - Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the authors caution that the same alteration class yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
+- BCR-ABL1 fusion detected in cancer cell lines; ponatinib sensitivity correlates with phospho-SHP2 (pY542) levels in AML/CML lines carrying BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
 
 ## Cancer types (linked)
 
@@ -55,5 +56,8 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

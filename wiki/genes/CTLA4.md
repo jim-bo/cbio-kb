@@ -25,6 +25,7 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - placeholder
 - placeholder
 - CTLA4 immune checkpoint program is enriched in iClusters C3 (mesenchymal/immune) and C20 (mixed stromal/immune) across 28 pan-cancer iClusters, supporting immunotherapy susceptibility in these subtypes [PMID:29625048](../papers/29625048.md)
+- CTLA4 expression defines immune cluster membership in 133 cHCC-ICC cases; High immune cluster (enriched in mixed-type/P2 tumors) may predict differential response to immune checkpoint therapies [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,8 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

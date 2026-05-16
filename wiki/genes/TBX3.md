@@ -23,6 +23,7 @@ TBX3 encodes a T-box transcription factor that regulates stem cell pluripotency 
 - A-allele-preferring binder at rs4519489 identified by PWAS proteomics and EEL motif analysis, but no ChIP-qPCR enrichment at the locus — not a confirmed regulator in this study [PMID:28927585](../papers/28927585.md)
 - Identified as a novel recurrently mutated gene in metastatic colorectal cancer (mCRC). [PMID:29316426](../papers/29316426.md)
 - N297 hotspot mutation exclusive to lobular carcinomas in HR+/HER2- endocrine-resistant metastatic breast cancer; classified as a transcription-factor resistance lesion alongside FOXA1 and CTCF [PMID:30205045](../papers/30205045.md)
+- Identified as a hepatocyte lineage marker elevated in HCC-like clusters (P2/P4) of combined hepatocellular-cholangiocarcinoma (cHCC-ICC, n=133 samples); supports HCC-lineage identity of these molecular subtypes [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ TBX3 encodes a T-box transcription factor that regulates stem cell pluripotency 
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

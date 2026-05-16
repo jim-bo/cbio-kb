@@ -3,8 +3,8 @@ symbol: CHD1
 aliases: []
 cancer_types: [PRAD]
 tags: [chromatin-remodeling, tumor-suppressor, prostate-cancer]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CHD1
@@ -22,6 +22,7 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 - Recurrent deletion (8q copy-number loss) in metastatic castration-resistant prostate cancer (mCRPC) [PMID:26000489](../papers/26000489.md)
 - Co-deleted with SPOP-mutant subtype at 5q15-q21 in primary prostate cancer; [MAP3K7](../genes/MAP3K7.md) and CHD1 co-deletion at 6q12-22 associated with aggressive ETS-negative disease [PMID:26544944](../papers/26544944.md)
 - CHD1 listed as a recurrent mCRPC driver mutation consistent with prior reports, identified in multi-metastasis WGS/array CGH autopsy study (63 men, multiple metastatic sites per patient) [PMID:26928463](../papers/26928463.md)
+- Co-occurs with SPOP mutations in mCRPC; part of the SPOP-mutated molecular subtype in which SPOP mutation associates with longer time on first-line ARSI [PMID:31061129](../papers/31061129.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

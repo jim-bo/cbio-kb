@@ -32,6 +32,7 @@ processed_at: 2026-05-16
 - CDK6 amplified in additional ESCCs (especially ESCC2) lacking CCND1 amplification; combined CDKN2A loss and CDK6 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
 - Additional recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analyses of the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 - CDK6 amplification co-occurs with TP53 mutation in the cell-cycle pathway co-alteration cluster; CDK6 is part of the 10-pathway framework across 9,125 TCGA tumors where the cell-cycle pathway is broadly altered except in UVM, THYM, TGCT, and LAML [PMID:29625050](../papers/29625050.md)
+- Focal amplification in 20% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases; one of the most recurrent copy-number gains alongside MYC (73%), MET (24%), and CCNE1 (24%) [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -81,5 +82,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

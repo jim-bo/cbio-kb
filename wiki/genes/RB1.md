@@ -62,6 +62,10 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 was a pre-specified DDR/NAC-response gene tested in primary vs. secondary MIBC; no significant difference between groups observed; included among cell-cycle regulators assessed for FGFR3 co-alteration [PMID:30290956](../papers/30290956.md)
 - RB1 was lost on one branch of the aggressive multi-region prostate tumour PCA041, occurring alongside KLF5/BRCA1 loss on the same subclonal branch (distinct from the branch carrying parallel PTEN/TP53 biallelic inactivation) [PMID:30537516](../papers/30537516.md).
 - RB1 recurrently amplified and Rb protein overexpressed (p=2.10×10⁻¹⁵) in a 106-tumor colon cancer proteogenomic cohort (CPTAC 2019); hyperphosphorylation at E2F-regulating sites T373/S807/S811/T826 (1.84-fold, p<2.2×10⁻¹⁶) drives proliferation and suppresses apoptosis — CDK2 inhibition proposed as the dominant therapeutic strategy, especially in the CIN subtype [PMID:31031003](../papers/31031003.md)
+- RB1 is an alternative cell-cycle alteration in glioma; germline P/LP RB1 alleles tied to heritable syndromes were identified; patients with primary RB1 mutation later acquired CDKN2A/B loss at recurrence and died within 11–15 months [PMID:31263031](../papers/31263031.md)
+- RB1 is the strongest single prognostic marker in mCRPC; genomic alteration associated with shorter survival (P=0.002, CPE 0.768; multivariate RR 3.31) and shorter time on ARSI (P<0.001, CPE 0.818; multivariate RR 6.56); co-occurs with TP53 and tends to be mutually exclusive with AR alteration [PMID:31061129](../papers/31061129.md)
+- RB1 is among the recurrently mutated genes in UTUC alongside TP53, KMT2D, ARID1A, PIK3CA, KDM6A, ERCC2, and others at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
+- RB1 is a driver gene (q<0.1) in cHCC-ICC; focal loss in 26%; trunk mutation in some separate-type cases [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -183,5 +187,17 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

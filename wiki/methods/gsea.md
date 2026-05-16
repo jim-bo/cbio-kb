@@ -30,6 +30,8 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - Applied via ssGSEA with a 160-signature panel and mclust/BIC selection to define six pan-cancer immune subtypes (C1 Wound Healing through C6 TGF-β Dominant) across ~11,000 TCGA PanCancer Atlas tumors [PMID:29625049](../papers/29625049.md).
 - Applied to validate genetic subtype transcriptional correlates; used to confirm EZH2 target upregulation in C3 GCB-DLBCL chromatin-modifier-mutant tumors [PMID:29713003](../papers/29713003.md)
 - ssGSEA tested 9,292 MSigDB gene sets on GBM longitudinal transcriptomes; regulatory T-cell (FOXP3) signatures enriched in non-responders pre-treatment (p=0.037); immunosuppressive signatures (FOXP3, STAT3) elevated in responders post-treatment [PMID:30742119](../papers/30742119.md)
+- Used for transcriptomic pathway enrichment analysis across four PLC clusters (n=367): EMT identified as top enriched pathway in P1 (combined-type/ICC-like cHCC-ICC); xenobiotic and bile acid metabolism enriched in P2 (mixed-type/HCC-like) [PMID:31130341](../papers/31130341.md)
+- Applied in the UTUC molecular subtyping analysis for pathway comparison between the T-cell-depleted and T-cell-inflamed clusters and between UTUC and TCGA UCB; IFNG-response gene programs were down in the T-cell-depleted cluster [PMID:31278255](../papers/31278255.md)
 
 ## Notes
 
@@ -76,5 +78,11 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

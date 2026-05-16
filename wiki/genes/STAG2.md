@@ -36,6 +36,8 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Recurrent SMG in MIBC; one of the MutCN cluster definers alongside [FGFR3](../genes/FGFR3.md) and [KDM6A](../genes/KDM6A.md) [PMID:28988769](../papers/28988769.md)
 - STAG2 is detected as a recurrent driver mutation in bladder cancer organoid lines, consistent with the published bladder cancer mutational landscape [PMID:29625057](../papers/29625057.md)
 - Inactivating alterations enriched in secondary MIBC (17% vs 7.8%, univariable p=0.014) in MSK-IMPACT-profiled bladder cancer cohort; finding did not survive FDR correction and is hypothesis-generating [PMID:30290956](../papers/30290956.md)
+- Listed among clonal-hematopoiesis filter genes (alongside ATM, DNMT3A, JAK2, SRSF2, TET2) used to exclude CH-attributable variants from germline calls in a prospective glioma genomic profiling cohort (n=923 adult patients, MSK-IMPACT) [PMID:31263031](../papers/31263031.md)
+- Recurrently mutated in upper tract urothelial carcinoma (UTUC, n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -98,3 +100,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - [PMID:30290956](../papers/30290956.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

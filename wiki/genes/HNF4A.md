@@ -18,6 +18,7 @@ HNF4A (Hepatocyte Nuclear Factor 4 Alpha) is a nuclear receptor transcription fa
 - Identified by LISA and ChEA3 (top 50 in both) as a transcription factor whose binding sites are enriched at HIF2A-specific VHL-dependent gene loci in a mouse VHL-knockout model of ccRCC initiation; proposed to mediate HIF2A's dedifferentiation-linked transcriptional output in proximal tubule cells [PMID:23797736](../papers/23797736.md)
 - Hepatobiliary master regulator implicated in bile salt export pump (BSEP/ABCB11) and bile acid homeostasis maintenance in cholangiocarcinoma [PMID:25608663](../papers/25608663.md)
 - Confirmed 20q amplification driver in COAD via integrated copy-number/mRNA/protein prioritization in CPTAC colorectal proteogenomics (n=110 tumors/NATs); associated with 20q amplification-driven transcription in CIN-subtype tumors [PMID:31031003](../papers/31031003.md)
+- Promoter hypomethylation of HNF4A correlates with lineage-restricted transcription-factor dependence in cancer cell lines, analogous to SOX10 in melanoma and PAX8 in thyroid; validated in CCLE [PMID:31068700](../papers/31068700.md).
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ HNF4A (Hepatocyte Nuclear Factor 4 Alpha) is a nuclear receptor transcription fa
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

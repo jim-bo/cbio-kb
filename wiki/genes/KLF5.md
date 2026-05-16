@@ -22,6 +22,7 @@ KLF5 (Kruppel Like Factor 5) is a zinc-finger transcription factor involved in c
 - Zinc-finger transcription factor regulating intestinal stem-cell niche; identified as a new CRC significantly mutated gene; deletion suppresses CRC oncogenesis (Nakaya et al. 2014) [PMID:27149842](../papers/27149842.md)
 - Recurrently mutated gene identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 - Recurrent 13q22 loss in 27% of EOPC reduces KLF5 mRNA; coupled to differential methylation of a CpG-island-shore site upstream of KLF5 (Spearman ρ=−0.523, q=0.0038); KLF5 mRNA co-expressed with SPOP mRNA independently of SPOP mutation status; KLF5 loss increases global SV/SNV burden [PMID:30537516](../papers/30537516.md)
+- KLF5 is recurrently mutated in upper tract urothelial carcinoma (UTUC) at a frequency not significantly different from TCGA muscle-invasive bladder cancer, consistent with a shared transcription-factor alteration landscape [PMID:31278255](../papers/31278255.md).
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ KLF5 (Kruppel Like Factor 5) is a zinc-finger transcription factor involved in c
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

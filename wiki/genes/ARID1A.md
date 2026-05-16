@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -88,6 +88,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A mutations mutated in 25% of metastatic HR+HER2- breast cancer; SWI/SNF-complex loss-of-function more often acquired post-endocrine-therapy than pre-treatment in matched pairs [PMID:30205045](../papers/30205045.md)
 - ARID1A mutated in 25% of gallbladder carcinoma overall but entirely absent in the Japanese cohort, contrasting with prior reports; consistent with other Asian-cohort studies that also failed to find ARID1A mutations [PMID:30427539](../papers/30427539.md)
 - ARID1A identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); part of the chromatin-remodeling gene set alongside DAXX, ATRX, and SETD2 [PMID:30687805](../papers/30687805.md)
+- ARID1A mutated as part of the SWI/SNF complex (with ARID2, PBRM1, BRD7) in 19.5% of cHCC-ICC cases; not significantly enriched by subtype in this pan-Asia cohort (N=133) [PMID:31130341](../papers/31130341.md)
+- ARID1A recurrently mutated in high-grade UTUC at a frequency not significantly different from TCGA UCB; classified among chromatin-modifier driver genes in the urothelial carcinoma landscape [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -304,3 +306,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

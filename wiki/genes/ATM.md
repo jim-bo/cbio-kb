@@ -64,6 +64,9 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM is a pre-specified DDR/NAC-response gene in muscle-invasive bladder cancer; no significant enrichment difference between primary and secondary MIBC in the discovery cohort [PMID:30290956](../papers/30290956.md)
 - ATM mutated in 19% of gallbladder carcinoma; trend toward mutual exclusivity with TP53 [PMID:30427539](../papers/30427539.md)
 - Germline protein-truncating variants in ATM are significantly associated with higher somatic SV/SNV counts and elevated APOBEC signature 2 and BRCAness signature 3 in 292 prostate cancer WGS samples [PMID:30537516](../papers/30537516.md)
+- ATM altered in 7% of mCRPC tumors; as part of the homologous-recombination repair gene set (with BRCA2, BRCA1), no association with survival or time on ARSI was detected in this 429-patient tumor cohort (composite P=0.495/0.611), contrasting with prior cfDNA-based findings [PMID:31061129](../papers/31061129.md)
+- ATM recurrently mutated in high-grade UTUC at a frequency not significantly different from TCGA UCB; identified among DNA-damage response genes in the genomic landscape of upper tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
+- ATM among clonal-hematopoiesis filter genes used to exclude CH-attributable variants from germline calls in the 923-patient glioma MSK-IMPACT cohort; somatic ATM mutations were scrutinized to avoid false-positive germline designation [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -219,5 +222,14 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

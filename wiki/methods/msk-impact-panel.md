@@ -80,6 +80,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT 410-gene panel (+ 46 introns from 17 rearranged genes) used to sequence CSF cell-free DNA and matched tumor tissue from 85 glioma patients; ctDNA detected in 42/85 (49.4%) CSFs with median TMB 4.90 mut/Mb, closely matching tissue biopsies (4.46/Mb) [PMID:30675060](../papers/30675060.md)
 - Applied as matched tumor-normal hybridization-capture NGS platform to sequence 96 samples from 80 metastatic panNET patients at MSK; somatic alterations detected in 95% of patients [PMID:30687805](../papers/30687805.md)
 - Used alongside MSK-HemePACT and whole-exome sequencing for genomic profiling of histiocytic neoplasm patients in the cobimetinib phase 2 trial (n=18); MAPK-pathway mutations identified in 83% of patients [PMID:30867592](../papers/30867592.md)
+- Used for prospective paired tumor-normal sequencing of 837 of 1,004 adult glioma tumors (923 patients) at MSKCC, July 2013–July 2017; detected SNVs, indels, CNVs, and fusions across cancer-associated coding exons in the [glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md) cohort [PMID:31263031](../papers/31263031.md)
 
 ## Notes
 
@@ -227,5 +228,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

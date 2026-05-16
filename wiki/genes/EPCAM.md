@@ -5,7 +5,7 @@ cancer_types:
   - HCC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-16
 ---
 
 # EPCAM
@@ -21,6 +21,7 @@ EPCAM (Epithelial Cell Adhesion Molecule) is a cell-surface glycoprotein that ma
 - Germline loss of EPCAM (exons 8–9 deletion) confers Lynch syndrome gastric cancer risk; included in the recommended multigene germline panel for familial non-hereditary gastric cancer. [PMID:24816255](../papers/24816255.md)
 - EPCAM is an epithelial surface antigen targeted by autologous CAR-T therapy in NPC (n=12, ORR 16.7%) in platinum-refractory recurrent/metastatic disease. [PMID:24952746](../papers/24952746.md)
 - Upregulated as a stemness marker in GBC cells downstream of SEMA7A/ITGB1 signaling; used as a readout of cancer stem-like cell induction by CAF-derived SEMA7A [PMID:24997986](../papers/24997986.md)
+- EPCAM is a biliary marker elevated in P1 (combined-type cHCC-ICC, ICC-like) transcriptomic cluster among 133 pan-Asia cHCC-ICC cases [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ EPCAM (Epithelial Cell Adhesion Molecule) is a cell-surface glycoprotein that ma
 - [PMID:24997986](../papers/24997986.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

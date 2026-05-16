@@ -9,7 +9,7 @@ cancer_types:
   - ODG
   - ACRM
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -75,6 +75,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - CCND1 co-amplification with FGF19 on 11q13 amplicon in 7% of HCC; rationale for FGFR4 inhibitors [PMID:30373752](../papers/30373752.md)
 - CCND1 recurrently altered in HR+ metastatic breast cancer with patterns consistent with primary disease [PMID:30205045](../papers/30205045.md)
 - CCND1 co-amplified on chromosome 11q13 along with FGF3, EMSY, PAK1, RSF1; defines IntClust2 (4.5% of ER+ breast cancer cases); genomic driver of a late-recurring subgroup with chronic relapse risk extending to 20 years [PMID:30867590](../papers/30867590.md)
+- Amplification co-occurs with CDK4 amplification in CDK12 loss-of-function mCRPC tumors; authors propose CDK4/6-inhibitor sensitivity hypothesis for CDK12-mutated/CCND1-CDK4-amplified tumors [PMID:31061129](../papers/31061129.md)
 
 ## Cancer types (linked)
 
@@ -255,3 +256,6 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - [PMID:30867590](../papers/30867590.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

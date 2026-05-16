@@ -4,8 +4,8 @@ oncotree_code: HGGNOS
 main_type: Glioma
 parent: DIFG
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # High-Grade Glioma, NOS (HGGNOS)
@@ -21,6 +21,7 @@ High-grade glioma, NOS (HGGNOS) encompasses WHO grade III and IV glial tumors th
 ## Recurrent alterations
 
 - PIPseq cohort: HGGNOS cases included pediatric high-grade gliomas; [H3-3A](../genes/H3-3A.md) (H3F3A) K27M identified as HDAC-inhibitor target; [CDK2](../genes/CDK2.md) gain at 12q14.1 identified in one glioblastoma multiforme patient as a CDK4/6-inhibitor target; H3-3A K27M paired with [FGFR1](../genes/FGFR1.md) N577K in one glioma patient [PMID:28007021](../papers/28007021.md).
+- HGGNOS (rare/NOS glioma subtypes) were included in a 923-patient prospective glioma cohort alongside IDH-mutant astrocytoma, oligodendroglioma, and IDH-WT/IDH-mutant GBM; 34 previously uncharacterized hotspots in EGFR and PDGFRA were identified from a 3,130-sample meta-analysis spanning these and rare glioma subtypes [PMID:31263031](../papers/31263031.md).
 
 ## Subtypes
 
@@ -38,4 +39,6 @@ High-grade glioma, NOS (HGGNOS) encompasses WHO grade III and IV glial tumors th
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

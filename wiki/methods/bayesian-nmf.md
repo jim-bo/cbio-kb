@@ -22,6 +22,7 @@ Bayesian non-negative matrix factorization for de novo decomposition of mutation
 - Bayesian NMF used for mutation-signature discovery in the TCGA esophageal/stomach study, identifying distinct C>A (smoking) and APOBEC signatures enriched in ESCC vs. EAC [PMID:28052061](../papers/28052061.md).
 - Applied to 412 BLCA SNV catalogue resolving 5 mutational signatures: APOBEC-a, APOBEC-b, C>T at CpG, POLE, and an ERCC2 signature; APOBEC-a + APOBEC-b accounted for 67% of all SNVs [PMID:28988769](../papers/28988769.md)
 - Mutational signatures in 304 DLBCLs discovered via Bayesian NMF (SignatureAnalyzer framework); identified three dominant processes: aging/CpG deamination (~80%), canonical AID at RCY motifs, and AID2 at WA motifs [PMID:29713087](../papers/29713087.md)
+- Applied in the high-grade UTUC WES/RNA-seq study (37 tumors) for de novo mutational signature discovery; identified dominant APOBEC (COSMIC 2, 13), defective MMR (COSMIC 6), and ERCC2-like (COSMIC 5) signatures via cosine similarity clustering against 30 COSMIC signatures [PMID:31278255](../papers/31278255.md)
 
 ## Notes
 
@@ -42,5 +43,8 @@ Bayesian non-negative matrix factorization for de novo decomposition of mutation
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

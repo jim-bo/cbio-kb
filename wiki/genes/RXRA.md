@@ -8,8 +8,8 @@ tags:
   - transcription-factor
   - ligand-binding-domain
   - adipogenesis
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RXRA
@@ -21,6 +21,7 @@ RXRA encodes retinoid X receptor alpha, a nuclear receptor that forms obligate h
 ## Alterations observed in the corpus
 
 - Mutations in 9% of bladder urothelial carcinomas ([BLCA](../cancer_types/BLCA.md)); 7 of 12 mutations at hotspot S427 (5 S427F, 2 S427Y) in the ligand-binding domain; mutant tumors showed elevated adipogenesis/lipid-metabolism gene expression, suggesting constitutive activation [PMID:24476821](../papers/24476821.md)
+- Recurrently mutated in upper tract urothelial carcinoma (UTUC) at frequencies not significantly different from TCGA urothelial bladder carcinoma; identified alongside TP53, KMT2D, ARID1A, PIK3CA, KDM6A, RB1, ERCC2, CDKN1A, STAG2, FBXW7, KLF5, ELF3, TSC1, RHOB, HRAS, CDKN2A, KMT2C, and ATM [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ RXRA encodes retinoid X receptor alpha, a nuclear receptor that forms obligate h
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

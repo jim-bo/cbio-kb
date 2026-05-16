@@ -5,7 +5,7 @@ drug_class: alkylating chemotherapy
 canonical_source: 
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -33,6 +33,7 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - In a CSF ctDNA glioma study (n=85), 5/42 (12%) CSF-ctDNA-positive patients displayed alkylator-induced hypermutation (G:C→A:T signature), all of whom had received temozolomide; the hypermutator phenotype correlated with lower shared-mutation rate between CSF and tumour (median 19.6% vs 81.7%), with implications for immunotherapy candidacy and interpretation of subclonal variants [PMID:30675060](../papers/30675060.md).
 - Temozolomide (alkylating agent) administered to panNET patients induced marked hypermutation in serial biopsies — tumors acquired >100 new somatic mutations (up to 267), a predominant C>T signature, and mismatch-repair gene mutations; all three alkylator-hypermutated tumors progressed from grade 1 to grade 3, a previously unreported pattern in this disease that may be relevant to subsequent immunotherapy decisions [PMID:30687805](../papers/30687805.md)
 - All 66 recurrent [GBM](../cancer_types/GBM.md) patients in this anti-PD-1 cohort had received standard temozolomide plus radiation as prior therapy before initiating PD-1 blockade; the study examined genomic/TME predictors of response to subsequent nivolumab or pembrolizumab [PMID:30742119](../papers/30742119.md)
+- Alkylator (temozolomide)-induced hypermutation was identified in 38 gliomas (MGMT-methylated and IDH-mutant tumors at highest risk: 30% vs 10%, P=0.006); 31/38 (82%) hypermutated recurrences harbored somatic MMR mutations, and pre-existing cell-cycle alterations in 1p19q-intact astrocytomas preceded TMZ exposure and remained clonal through hypermutation — establishing cell-cycle status as a potential biomarker of TMZ-related mutagenesis risk. [PMID:31263031](../papers/31263031.md)
 
 ## Resistance mechanisms
 
@@ -79,3 +80,6 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, Columbia/Northwestern GBM (n=66); all patients received prior TMZ + radiation before PD-1 blockade; PTEN mutations and MAPK alterations (not TMB) predicted checkpoint inhibitor response.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: IGFBP2
 aliases: []
 cancer_types: [ADCA]
 tags: [IGF-axis, secreted-protein, somatic-mutation]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # IGFBP2
@@ -17,6 +17,7 @@ IGFBP2 (Insulin-like Growth Factor Binding Protein 2) is a secreted modulator of
 
 - Mutation observed in adenoid cystic carcinoma (ACC); identified as an IGF-axis modulator in the context of a broader PI3K/receptor tyrosine kinase signaling landscape in ACC [PMID:23685749](../papers/23685749.md)
 - IGFBP2 elevated in [BRAF](../genes/BRAF.md) hot-spot mutant melanomas by reverse-phase protein array (RPPA) in the TCGA 333-sample cutaneous melanoma cohort [PMID:26091043](../papers/26091043.md)
+- High IGFBP2 expression characterizes RPPA groups P3/P4 containing luminal BRCA, UCEC, OV, and some LIHC tumors, co-clustering with an estrogen-signaling gene program elevated in iClusters C2 (BRCA HER2 amp) and C19 (BRCA luminal) across 10,000 TCGA tumors from 33 cancer types [PMID:29625048](../papers/29625048.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ IGFBP2 (Insulin-like Growth Factor Binding Protein 2) is a secreted modulator of
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

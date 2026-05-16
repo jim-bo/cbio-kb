@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # FGFR3
@@ -47,6 +47,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Highly expressed in CR/PR vs PD melanoma patients pre-therapy (189-DEG set, q<0.20) in nivolumab-treated cohort; nominated as an immune-environment modulator predictive of anti-PD-1 response [PMID:29033130](../papers/29033130.md)
 - High FGFR3 expression is characteristic of the synovial sarcoma (SS) iCluster C4 in soft-tissue sarcoma (p=7e-20) [PMID:29100075](../papers/29100075.md)
 - FGFR3-TACC3 inframe activating kinase fusion detected in BLCA (2.0%), CESC (1.7%), and LUSC (1.2%); FGFR3 is a druggable target in 15 cancer types and shows predicted fusion-derived neoantigens among the highest in the pan-cancer atlas. [PMID:29617662](../papers/29617662.md)
+- FGFR3 mutations are mutually exclusive with TP53 mutations pan-cancer, placing FGFR3 and TP53 in separate somatic-interaction networks across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
+- FGFR3 shows exceptional co-occurrence with PI3K-pathway alterations (versus typical RTK-RAS/PI3K mutual exclusivity) in pan-cancer analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- FGFR3 activating mutations in 60% (9/15) of non-recurrent bladder organoid lines; SCBO-10 carries an FGFR3-TACC3 fusion (exon 17-exon 11 junction, same junction reported in GBM and bladder line RT112); FGFR3 mutation alone did not predict trametinib/SCH772984 response; no organoid line responded to any of three FGFR inhibitors tested [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -153,3 +156,12 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

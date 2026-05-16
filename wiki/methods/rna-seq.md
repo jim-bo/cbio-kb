@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [transcriptomics, sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # RNA sequencing
@@ -106,6 +106,10 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Performed on 18 PBRM1-LOF vs. 14 PBRM1-intact pre-treatment [CCRCC](../cancer_types/CCRCC.md) tumors; GSEA confirmed up-regulation of hypoxia and IL6/JAK-STAT3 gene sets in PBRM1-deficient tumors [PMID:29301960](../papers/29301960.md)
 - RNA-seq fusion calling across 9,624 TCGA tumor samples and 713 normal samples (33 cancer types) using STAR-Fusion, EricScript, and BREAKFAST pipelines; GRCh38 reference; yielded 25,664 filtered fusions [PMID:29617662](../papers/29617662.md)
 - HiSeq 2500 PE100 RNA-seq performed on AALE chr_3p-deleted cells; processed via STAR + RSEM + edgeR for differential expression analysis [PMID:29622463](../papers/29622463.md)
+- Used to profile gene expression in the 9,125-tumor TCGA PanCanAtlas cohort across 33 cancer types for oncogenic signaling pathway analysis; also source for fusion detection via STAR-Fusion, EricScript, and BreakFast [PMID:29625050](../papers/29625050.md).
+- Used for mRNA profiling on Illumina GAII/HiSeq across ~10,000 TCGA PanCancer Atlas tumors; mRNA and miRNA together contributed 42% of the iCluster integrated classification signal [PMID:29625048](../papers/29625048.md).
+- Used for gene expression profiling (RSEM normalized) of TCGA PanCancer Atlas tumors; six pan-cancer immune subtypes derived in part from RNA-Seq-based ssGSEA signatures [PMID:29625049](../papers/29625049.md).
+- Performed on parental bladder tumors and matched patient-derived organoid lines (GEO accession GSE103990); transcriptomic analysis showed organoids cluster separately from parental tumors due to cell-cycle and ERBB-signaling enrichment from exogenous EGF in culture [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -358,3 +362,15 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

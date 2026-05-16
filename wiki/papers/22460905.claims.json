@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "cellline_ccle_broad",
+    "value": 947,
+    "denominator": null,
+    "quote": "947 human cancer cell lines spanning 36 tumor lineages, compiled as the Cancer Cell Line Encyclopedia (CCLE)",
+    "section": "Cohort & data"
+  }
+]

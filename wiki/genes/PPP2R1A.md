@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC]
 tags: [pi3k-pathway, phosphatase, tumor-suppressor, endometrial]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,6 +23,7 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 - Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); part of the canonical UCEC driver gene landscape co-occurring with PIK3CA, PIK3R1, PTEN, ERBB2, and FBXW7 mutations [PMID:28445112](../papers/28445112.md)
 - Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); co-enriched with TP53 in serous-like profiles, suggesting a role in high-grade CCEC [PMID:28485815](../papers/28485815.md)
 - Referenced from prior targeted-panel literature as recurrent in HPV(−) vulvar SCC; not identified as a new finding in this 15-tumor WES cohort [PMID:29422544](../papers/29422544.md)
+- PPP2R1A co-occurs with TP53 (and with IDH1, ATRX, RB1, CDKN2A) and drives one of two mutually-exclusive somatic driver networks in UCEC, the TP53–PPP2R1A network, which is mutually exclusive from the CTNNB1–PTEN–CTCF network [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

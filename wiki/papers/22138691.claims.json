@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "kirc_tcga",
+    "value": 491,
+    "denominator": null,
+    "quote": "TCGA-KIRC (n = 491)",
+    "section": "Cohort & data"
+  }
+]

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # IDH2
@@ -32,6 +32,9 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - Covered by both the 264-gene and 8-gene amplicon panels in a 116-patient AML/MDS decitabine trial; previously hypothesized to predict hypomethylating-agent response but not validated as predictive of 10-day decitabine response. [PMID:27959731](../papers/27959731.md)
 - R172K mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases; wild-type in 1p/19q-intact glioblastoma-like cases; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
 - Enriched in cholangiocarcinoma Cluster 4 alongside IDH1 (31.6% vs 1.0% in other clusters, q < 0.001); proposed driver of CpG-shore DNA hypermethylation via 2-hydroxyglutarate oncometabolite production [PMID:28667006](../papers/28667006.md)
+- IDH2 mutations are part of the pan-cancer somatic alteration landscape across 33 TCGA tumor types; IDH2-mutant tumors share immune-microenvironment characteristics with IDH1-mutant gliomas (reduced immune infiltrate) [PMID:29625049](../papers/29625049.md)
+- IDH2 mutations in LGG are actionable: IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant LGG; IDH1/2 alterations included in the 57% pan-cancer actionability figure alongside BRCA1/2 in analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- IDH2 mutations in LGG are highlighted alongside IDH1 as the canonical example of TCGA survival-genomic integration: IDH-mutant LGG (including IDH2-mutant) have substantially longer OS than IDH-wildtype LGG, contributing evidence to the WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
 
 ## Cancer types (linked)
 
@@ -97,3 +100,12 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

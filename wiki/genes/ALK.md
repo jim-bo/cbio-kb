@@ -3,8 +3,8 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ALK
@@ -39,6 +39,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK rearrangements observed at low frequency (~1%) in a 240-patient NSCLC ICI cohort; too few events for response analysis [PMID:29337640](../papers/29337640.md).
 - ALK cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease in the SUMMIT basket trial [PMID:29420467](../papers/29420467.md).
 - [EML4](../genes/EML4.md)–[ALK](../genes/ALK.md) and other [ALK](../genes/ALK.md) fusions were detected in 20 samples across 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in a pan-cancer TCGA fusion analysis; [EML4](../genes/EML4.md) is the most frequent 5' partner (7/17), and fusion status corresponds to copy-number-neutral ALK overexpression — rationale for [crizotinib](../drugs/crizotinib.md) and other ALK inhibitors. [PMID:29617662](../papers/29617662.md)
+- Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the same alteration class may yield unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
+- ALK fusions are fusion drivers in small subsets of LUAD (referenced from the Fusion AWG pan-cancer analysis across 33 TCGA tumor types) [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -123,3 +125,9 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

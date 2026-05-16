@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [functional-precision-medicine, organoids, drug-screening, sarcoma, ex-vivo]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-16
 ---
 
 # Organoid drug screening (PDTO mini-ring platform)
@@ -19,6 +19,7 @@ Patient-derived tumor organoid (PDTO) drug screening is a functional precision m
 
 - [PMID:39305899](../papers/39305899.md) — A UCLA sarcoma biobank of 194 specimens from 126 patients (24 bone and soft-tissue subtypes) generated PDTOs with ~93% take rate; 92 specimens screened against ≥10 of >400 single agents and combinations (mean 117 drugs/sample). At least one FDA-approved or NCCN-recommended effective regimen was identified for 59% of specimens (57/97) and 58% of patients (43/74). Organoid responses to MAP chemotherapy correlated with post-resection necrosis and PFS in three osteosarcoma cases. The PREMOST trial (NCT06064682) was motivated by these findings [PMID:39305899](../papers/39305899.md).
 - Used to test enzalutamide, everolimus, and BKM-120 (buparlisib) in seven patient-derived prostate cancer organoid lines; AR-amplified MSK-PCa2 was exquisitely sensitive to enzalutamide (IC50 ~50 nM) while other lines were resistant. [PMID:25201530](../papers/25201530.md)
+- Applied to 22 patient-derived bladder cancer organoid lines using CellTiter-Glo 3D (7-point 5-fold dilution series, 6-day incubation) to profile drug responses to trametinib, gemcitabine, sirolimus, AZD8055, and erdafitinib [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -35,3 +36,6 @@ Patient-derived tumor organoid (PDTO) drug screening is a functional precision m
 - [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,7 +4,7 @@ aliases: [NRF2]
 cancer_types: [LUSC, HNSC]
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # NFE2L2
@@ -27,6 +27,7 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - NFE2L2 significantly mutated in lung squamous cell carcinoma but not other cancer types (excluding HNSC, BLCA) in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - Significantly mutated in ESCC (especially ESCC1 subtype); 24% mutation frequency in Vietnamese cohort vs 6% in other cohorts (P=0.017); activates the NRF2 pathway and is associated with chemoradiotherapy resistance [PMID:28052061](../papers/28052061.md)
 - Mutations in 2.9% (3/103) of unmatched driver (UMD) LUAD samples; KEAP1 missense variants cluster in the Kelch domain that interacts with NFE2L2/Nrf2, implicating this oxidative-stress pathway in UMD lung adenocarcinoma [PMID:28336552](../papers/28336552.md)
+- NFE2L2 gain-of-function (with KEAP1/CUL3 loss-of-function) constitutes the NRF2 pathway driver set concentrated in squamous lung/esophagus, head and neck, and uterine cancers; NFE2L2 alterations are enrollment criteria for a phase-2 TORC1/2 inhibitor trial [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +79,6 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

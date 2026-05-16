@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL]
 tags: [jak-stat, t-cell-lymphoma]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # STAT3
@@ -20,6 +20,7 @@ STAT3 is a JAK/STAT pathway transcription factor recurrently altered in peripher
 - Downstream of IL-6 inflammatory signaling and of FXR–SHP repression in cholangiocarcinoma; loss of FXR activity unleashes STAT3 phosphorylation and [BCL2L1](../genes/BCL2L1.md) (Bcl-xL)-mediated survival [PMID:25608663](../papers/25608663.md)
 - Activating p.Tyr640Phe mutation in two mycosis fungoides cases; JAK3/STAT3/SH2B3 genotype supports stratification for JAK-pathway inhibitor trials ([tofacitinib](../drugs/tofacitinib.md), [ruxolitinib](../drugs/ruxolitinib.md)) [PMID:26551667](../papers/26551667.md)
 - Flagged within MRT-specific super-enhancers; prior roles in stem-cell self-renewal and differentiation suggest dependency in extra-cranial MRT [PMID:26977886](../papers/26977886.md)
+- STAT3 is upregulated as part of the JAK-STAT pathway (with JAK2, STAT1, STAT6) in pan-cancer iClusters C3, C20, C14 (LUAD), and C10 (pan-SCC) in the 28-iCluster TCGA pan-cancer classification, raising the hypothesis of repurposing approved JAK-STAT inhibitors across these tumor types [PMID:29625048](../papers/29625048.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ STAT3 is a JAK/STAT pathway transcription factor recurrently altered in peripher
 - [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -9,8 +9,8 @@ tags:
   - tcga-cohort
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Sarcoma / SARC (TCGA)
@@ -26,6 +26,9 @@ SARC is the TCGA cohort identifier for sarcoma (predominantly soft tissue and bo
 ## Recurrent alterations
 
 - Pan-cancer fusion study (9,624 TCGA samples) identified SARC as unique in harboring both [TP53](../genes/TP53.md) fusions and TP53 point mutations (unlike most cancer types where one mechanism predominates); druggable fusions annotated across 29 cancer types including SARC [PMID:29617662](../papers/29617662.md).
+- Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md)
+- CDK4+MDM2 inhibitor combination supported by 78% co-amplification in dedifferentiated liposarcoma (SARC subtype) [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for SARC [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -40,3 +43,12 @@ SARC is the TCGA cohort identifier for sarcoma (predominantly soft tissue and bo
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

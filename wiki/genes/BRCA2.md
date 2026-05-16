@@ -15,8 +15,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BRCA2
@@ -76,6 +76,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Novel BRCA2 mutation finding in HPV(+) vulvar squamous cell carcinoma identified by whole-exome sequencing of 15 tumors [PMID:29422544](../papers/29422544.md).
 - [BRCA2](../genes/BRCA2.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)); frequent biallelic [CDK12](../genes/CDK12.md) inactivation in metastatic prostate cancer supports [BRCA2](../genes/BRCA2.md) loss as a therapeutically relevant DNA-repair phenotype. [PMID:29610475](../papers/29610475.md)
 - [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:29489754](../papers/29489754.md)
+- BRCA2 somatic and germline mutations are counted together with BRCA1 (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with BRCA1 germline carriers [PMID:29625049](../papers/29625049.md)
+- BRCA2 is included in the 57% pan-cancer actionability figure (versus 52% restricted to the 10 canonical pathways), supporting broad germline/somatic BRCA2 testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -232,3 +234,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

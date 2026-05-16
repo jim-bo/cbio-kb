@@ -3,8 +3,8 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # RB1
@@ -55,6 +55,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 mostly inactivating mutations (17%) in MIBC with associated reduced mRNA; hallmark co-event with TP53 loss in the neuronal subtype [PMID:28988769](../papers/28988769.md)
 - RB1 is a pan-sarcoma SMG with deep deletions in 14% LMS, 16% UPS, 24% MFS; enriched mutations in STLMS iCluster C1 (p=0.04) [PMID:29100075](../papers/29100075.md)
 - Confirmed established prostate-cancer driver with enrichment in metastatic vs. primary disease in a WES meta-analysis of 1,013 prostate tumors (prad_p1000); included in the metastasis-enrichment genomic signature proposed for prospective risk stratification [PMID:29610475](../papers/29610475.md).
+- RB1 co-occurs with TP53 in the pan-cancer somatic driver co-occurrence network; tumor suppressor with reduced expression in RB1 mutants (consistent with NMD/loss-of-function) [PMID:29625049](../papers/29625049.md)
+- RB1 loss co-occurs with TP53 mutation and is mutually exclusive with MDM2 amplification pan-cancer; the cell-cycle pathway (CDKN2A, RB1, CCNE1, CDK4, CDK6, E2F3) is broadly co-altered with TP53 across cancer types [PMID:29625050](../papers/29625050.md)
+- RB1 oncogenic mutation detected in only one of 15 bladder cancer organoid lines, lower than the frequency reported in established bladder cancer cell lines, suggesting possible selection bias in organoid culture [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -157,3 +160,12 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

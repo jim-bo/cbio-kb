@@ -4,7 +4,7 @@ aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # PDCD1
@@ -30,6 +30,8 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PDCD1 (PD-1) specifically upregulated in Cluster 3 of cholangiocarcinoma molecular subtypes alongside PDCD1LG2 (PD-L2) and BTLA, motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype [PMID:28667006](../papers/28667006.md)
 - PDCD1 (PD-1) strongly expressed in luminal-infiltrated subtype of MIBC, the proposed checkpoint-immunotherapy-responsive subset; expression also high in basal-squamous [PMID:28988769](../papers/28988769.md)
 - PDCD1 (PD-1) upregulated on-therapy regardless of response in metastatic melanoma patients treated with nivolumab; pre-therapy expression not differentially expressed between responders/non-responders by RNA-seq, though PD-L1 IHC positivity selected for response among Ipi-P patients [PMID:29033130](../papers/29033130.md)
+- PDCD1 (PD-1) immune checkpoint programs are enriched in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), and C28 (pan-kidney), forming the basis for the authors' suggestion of immunotherapy susceptibility across these molecular subtypes of 10,000 TCGA pan-cancer tumors [PMID:29625048](../papers/29625048.md)
+- PDCD1 (PD-1, with CD274/PD-L1) forms a CD8-PD-L1-PD-1 signaling loop in the C3 immune subtype, where BRAF-driven tumors are enriched; 16/18 germline MMR carriers also carry somatic MMR mutations and are MSI-high, defining a population expected to respond to PD-1 blockade [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -97,3 +99,9 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

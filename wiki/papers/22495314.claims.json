@@ -1,0 +1,118 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "brca_bccrc",
+    "value": 104,
+    "denominator": null,
+    "quote": "104 primary TNBC cases, treatment-naive at time of diagnosis",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "sample_count",
+    "study": "brca_bccrc",
+    "value": 65,
+    "denominator": null,
+    "quote": "Whole-genome or whole-exome sequencing: 65 cases",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "PIK3CA",
+    "modifier": "any",
+    "value": 0.102,
+    "denominator": 65,
+    "quote": "PIK3CA mutated in 10.2% (7/65)",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "USH2A",
+    "modifier": "any",
+    "value": 0.092,
+    "denominator": 65,
+    "quote": "USH2A in 9.2% (6/65)",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "MYO3A",
+    "modifier": "any",
+    "value": 0.092,
+    "denominator": 65,
+    "quote": "MYO3A in 9.2% (6/65)",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "PTEN",
+    "modifier": "any",
+    "value": 0.077,
+    "denominator": 65,
+    "quote": "PTEN and RB1 each in 7.7% (5/65) of cases",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "RB1",
+    "modifier": "any",
+    "value": 0.077,
+    "denominator": 65,
+    "quote": "PTEN and RB1 each in 7.7% (5/65) of cases",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "SYNE1",
+    "modifier": "any",
+    "value": 0.092,
+    "denominator": 65,
+    "quote": "SYNE1/SYNE2 mutations found in 9.2% (6/65) of cases",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "SYNE2",
+    "modifier": "any",
+    "value": 0.092,
+    "denominator": 65,
+    "quote": "SYNE1/SYNE2 mutations found in 9.2% (6/65) of cases",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "ATR",
+    "modifier": "any",
+    "value": 0.062,
+    "denominator": 65,
+    "quote": "ATR: mutations in 6.2% (4/65) of cases",
+    "section": "Genes & alterations"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "UBR5",
+    "modifier": "any",
+    "value": 0.062,
+    "denominator": 65,
+    "quote": "UBR5: mutations in 6.2% (4/65) of cases",
+    "section": "Genes & alterations"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_bccrc",
+    "gene": "COL6A3",
+    "modifier": "any",
+    "value": 0.062,
+    "denominator": 65,
+    "quote": "COL6A3: mutations in 6.2% (4/65) of cases",
+    "section": "Genes & alterations"
+  }
+]

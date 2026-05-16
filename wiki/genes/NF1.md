@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # NF1
@@ -71,6 +71,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Homozygous copy-number deletions in NF1 were manually reviewed and confirmed in melanoma patients treated with nivolumab as part of copy-number analysis from the Riaz et al. cohort [PMID:29033130](../papers/29033130.md)
 - Truncating mutations in NF1 (n=3) were found among potentially functional driver mutations in the TCGA sarcoma cohort; NF1 shallow deletions occurred in 22% and deep deletions in 6% of DDLPS; NF1 was not epigenetically silenced in bladder cancer (no promoter hypermethylation detected) [PMID:29100075](../papers/29100075.md)
 - Two LP/PVs (one pLoF, one truncating intronic splice-region variant) in German pediatric cancer predisposition cohort; burden OR=9.8, p=.020 single-cohort, confirmed in joint analysis; one carrier (LPP_20) co-carried CHEK2 LP/PV and lacked typical NF1 clinical features; no CNV analysis performed so carrier frequency may be underestimated. [PMID:29489754](../papers/29489754.md)
+- NF1 is among the major TCGA driver genes whose mutual-exclusivity and co-occurrence patterns structure the pan-cancer somatic interaction network across 33 tumor types [PMID:29625049](../papers/29625049.md)
+- NF1 (with RASA1) is a RAS-pathway negative regulator; NF1 loss is mutually exclusive with EGFR amplification in glioma and other cancers, and is mutually exclusive with KRAS/BRAF mutation in the RTK-RAS pathway across the TCGA pan-cancer oncogenic signaling analysis [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -159,3 +161,9 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:36593350](../papers/36593350.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

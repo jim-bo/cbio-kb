@@ -3,8 +3,8 @@ symbol: PIK3CB
 aliases: []
 cancer_types: [PRAD]
 tags: [PI3K-pathway, kinase, mCRPC, actionable]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # PIK3CB
@@ -17,6 +17,7 @@ PIK3CB encodes the p110β catalytic subunit of phosphoinositide 3-kinase (PI3K).
 
 - In mCRPC, PIK3CB mutations were observed for the first time at positions equivalent to canonical [PIK3CA](../genes/PIK3CA.md) hotspots; they co-occur in the context of [PTEN](../genes/PTEN.md) deficiency. PIK3CB also harbors focal amplifications and novel activating fusions resulting in PIK3CB overexpression. PIK3CB mutations/amplifications/fusions contribute to the PI3K pathway alteration in 49% (73/150) of the SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
 - Mutated in 2 PTEN-homozygous-deleted prostate tumors (E552K, paralogous to [PIK3CA](../genes/PIK3CA.md) helical-domain hotspot); combined PI3K/AR inhibition suggested for PTEN-deleted/PIK3CB-mutant cases [PMID:26544944](../papers/26544944.md)
+- Core PI3K pathway driver; PIK3CB amplification co-occurs with NFE2L2 GoF/amplification and PIK3CA activation in a pan-cancer PI3K–NRF2 co-occurrence axis concentrated in lung, esophagogastric, head and neck, and uterine tumors [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ PIK3CB encodes the p110β catalytic subunit of phosphoinositide 3-kinase (PI3K).
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

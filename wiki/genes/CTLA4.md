@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [immune-checkpoint, icr-signature, counter-regulation]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CTLA4
@@ -24,6 +24,7 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - CTLA4 was not significantly differentially expressed between anti-PD-1 responders and non-responders in whole-tumor transcriptome analysis of melanoma (n=28), demonstrating that checkpoint-molecule expression does not distinguish anti-PD-1 response in this cohort; IPRES did not distinguish anti-CTLA-4 responders from non-responders in the Van Allen cohort [PMID:26997480](../papers/26997480.md).
 - placeholder
 - placeholder
+- CTLA4 immune checkpoint program is enriched in iClusters C3 (mesenchymal/immune) and C20 (mixed stromal/immune) across 28 pan-cancer iClusters, supporting immunotherapy susceptibility in these subtypes [PMID:29625048](../papers/29625048.md)
 
 ## Cancer types (linked)
 
@@ -69,3 +70,6 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

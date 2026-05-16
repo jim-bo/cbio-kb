@@ -5,7 +5,7 @@ main_type: Endometrial Cancer
 parent: UTERUS
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Endometrial Carcinoma (UCEC)
@@ -39,6 +39,10 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included UCEC; concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included UCEC; ESR1 fusions were among the recurrent events spanning gynecological cancers; druggable fusions annotated across 29 cancer types including UCEC [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study included UCEC in the gynecological arm-level cluster (alongside UCS); UCEC is an exception to the positive aneuploidy–mutation-rate correlation due to MSI-high and POLE-mutant cases; copy-number-high serous-like endometrial is a notable exception that clusters outside the typical UCEC pattern [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas; UCEC dominated iCluster C8; POLE-mutation signature found in hypermutated C8:UCEC; pan-squamous C10/C25/C27 and pan-GI subtypes linked to UCEC molecular patterns [PMID:29625048](../papers/29625048.md)
+- TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually exclusive driver networks partition UCEC; MSI-high UCEC over-expresses immune effectors GZMA, PRF1, GZMK, GZMH; POLE-mutant UCEC subtype context referenced [PMID:29625049](../papers/29625049.md)
+- Non-hypermutated UCEC CN-high shows 86% PI3K pathway alteration rate; CN-low UCEC shows 95%; MSI-H and POLE-mutant UCEC subtypes carry highest mutation burden and pathway alteration frequency; HER2+PI3K combination actionable in 7% of UCEC CN-high [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for UCEC [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -78,3 +82,15 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

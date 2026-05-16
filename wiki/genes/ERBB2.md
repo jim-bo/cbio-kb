@@ -4,7 +4,7 @@ aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # ERBB2
@@ -82,6 +82,9 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Reported with low frequency among advanced NSCLC patients treated with anti-PD-(L)1 (n=240); too few events for response analysis in this TMB-focused study [PMID:29337640](../papers/29337640.md)
 - 125 patients with somatic ERBB2 (HER2) mutations enrolled in SUMMIT basket trial of neratinib across 21 cancer types; 31 unique alleles (domain distribution: kinase 66%, extracellular 26%, transmembrane/juxtamembrane 8%); most frequent: S310, L755, Y772_A775dup, V777; HER2 mutation clonal in 95%; breast cancer ORR8 32%; bladder and colorectal cohorts showed lineage-based resistance [PMID:29420467](../papers/29420467.md)
 - Four ERBB2 fusions (with partners [PPP1R1B](../genes/PPP1R1B.md) and [IKZF3](../genes/IKZF3.md)) identified in the TCGA pan-cancer fusion landscape; 3 of 4 had HPV integration within 1 Mb of ERBB2, suggesting fusions arise from local genomic instability induced by viral integration — a mechanism distinct from, but potentially complementary to, [trastuzumab](../drugs/trastuzumab.md)-targetable HER2 amplification [PMID:29617662](../papers/29617662.md).
+- ERBB2 focal amplification defines iCluster C2 (BRCA HER2 amp), which spans BRCA, BLCA, and STAD — a clear cross-tissue alteration subtype supporting HER2-directed agents beyond breast cancer; cross-tissue C2 has high estrogen-signaling gene program (GP7) [PMID:29625048](../papers/29625048.md)
+- ERBB2 alterations concentrated in BRCA HER2-enriched and esophagogastric CIN (26%) and CESC (23%); mutually exclusive with EGFR amplification pan-cancer; 17% co-actionable with PI3K pathway alterations in HER2-enriched BRCA, nominating HER2 + PI3K inhibitor combination [PMID:29625050](../papers/29625050.md)
+- ERBB2 is a driver in a subset of bladder cancer organoid lines; SCBO-5 lost a subclonal ERBB2 D227N variant during serial organoid culture, illustrating clonal dynamics in patient-derived models [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -259,3 +262,12 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

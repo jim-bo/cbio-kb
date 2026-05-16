@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # CTCF
@@ -19,6 +19,7 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 - Mechanistically implicated in Ewing sarcoma: STAG2 interacts with CTCF to regulate chromatin insulation at loci including CDKN2A; CTCF itself carries somatic mutations in 3/112 cases [PMID:25223734](../papers/25223734.md)
 - CTCF was a recurrently mutated transcriptional regulator in colorectal cancer; CTCF/cohesin-binding sites are known hotspots for somatic mutations in MSS CRC (Katainen et al. 2015), and CTCF was among the newly significant CRC drivers identified in this 619-tumor neoantigen study [PMID:27149842](../papers/27149842.md).
 - CTCF was identified as a chromatin-function Mut-driver in breast cancer; 22.6% of all breast tumors harbored a coding mutation in one of seven chromatin-function Mut-drivers including CTCF [PMID:27161491](../papers/27161491.md).
+- CTCF mutations partition UCEC into TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually-exclusive networks; CTCF-mutant tumors cluster with the ARID1A/PTEN/CTNNB1/PIK3CA-enriched, copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

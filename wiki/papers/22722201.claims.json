@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "brca_sanger",
+    "value": 100,
+    "denominator": null,
+    "quote": "100 primary breast cancers (79 ER+, 21 ER-) with matched normal DNA from the brca_sanger cohort.",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "brca_sanger",
+    "gene": "MAP3K1",
+    "modifier": "truncating",
+    "value": 0.06,
+    "denominator": 100,
+    "quote": "Truncating mutations in 6% of breast cancers, predominantly ER+; inactivates JUN kinase signalling pathway.",
+    "section": "Genes & alterations"
+  }
+]

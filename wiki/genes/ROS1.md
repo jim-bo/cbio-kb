@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # ROS1
@@ -28,6 +28,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - Kinase fusions enriched in LUAD but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases; part of the targetable-alteration pool recovered by broad-panel sequencing vs amplicon panels [PMID:28481359](../papers/28481359.md)
 - Reported at 3% frequency in NSCLC with too few events for dedicated response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) [PMID:29337640](../papers/29337640.md)
 - Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib monotherapy in HER2-mutant solid tumors [PMID:29420467](../papers/29420467.md)
+- ROS1 fusion is a disease-defining driver in a small subset of LUAD (referenced from the Fusion AWG within the PanCanAtlas pan-cancer multi-omics analysis) [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -76,3 +77,6 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

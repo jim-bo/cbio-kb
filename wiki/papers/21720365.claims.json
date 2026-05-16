@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "ov_tcga_pub",
+    "value": 489,
+    "denominator": null,
+    "quote": "489 clinically annotated stage II-IV HGSOC samples from ov_tcga_pub.",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "ov_tcga_pub",
+    "gene": "TP53",
+    "modifier": "any",
+    "value": 0.96,
+    "denominator": 316,
+    "quote": "TP53 was mutated in 303/316 (96%) of sequenced HGS-OvCa samples.",
+    "section": "Key findings"
+  }
+]

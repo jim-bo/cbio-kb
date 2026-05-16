@@ -5,7 +5,7 @@ main_type: Thymic Tumor
 parent: TET
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Thymoma (THYM)
@@ -25,6 +25,10 @@ Thymoma encompasses WHO types A, AB, B1, B2, and B3 thymic epithelial tumors; in
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included THYM; THYM showed large sample-to-sample variability in mutations per sample attributable to low tumor purity (median ABSOLUTE purity 39.0%) [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) found THYM had a median of 0 fusions/sample (low-fusion cancer type) but the highest mean predicted fusion-derived neoantigens (2.88 per fusion among cancer types) [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study found THYM has one of the lowest mean aneuploidy scores (3.8), consistent with being a near-diploid cancer type; THYM was included in the pan-cancer cohort of 10,522 TCGA tumors [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md)
+- Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types); only one survival endpoint recommended for THYM in TCGA-CDR [PMID:29625049](../papers/29625049.md)
+- Cell-cycle pathway rarely altered in THYM; THYM has low actionable-alteration rates; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); only one survival endpoint recommended without reservation for THYM [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -49,3 +53,15 @@ Thymoma encompasses WHO types A, AB, B1, B2, and B3 thymic epithelial tumors; in
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

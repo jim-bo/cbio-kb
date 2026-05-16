@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Affymetrix SNP 6.0
@@ -65,6 +65,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Used for copy-number analysis in 412 BLCA tumors with GISTIC 2.0 and ABSOLUTE; identified 34 amplified and 32 deleted focal regions, with CDKN2A (9p21.3) deletion in 22% of tumors [PMID:28988769](../papers/28988769.md)
 - Used for somatic copy-number analysis in 206 TCGA sarcomas; DDLPS showed the highest SCNA frequency of any TCGA tumor type, driven by recurrent 12q13~15 amplification [PMID:29100075](../papers/29100075.md)
 - Affymetrix SNP 6.0 arrays used for copy-number profiling of 10,522 TCGA pan-cancer samples; processed with ABSOLUTE to derive arm-level aneuploidy scores [PMID:29622463](../papers/29622463.md)
+- Used for somatic copy-number profiling of 9,125 TCGA PanCanAtlas tumors across 33 cancer types; processed with GISTIC 2.0 (confidence 0.95) to identify recurrent amplifications and deep deletions [PMID:29625050](../papers/29625050.md).
+- Used for somatic copy-number profiling of ~10,000 TCGA PanCancer Atlas tumors across 33 cancer types; processed with GISTIC 2.0 and ABSOLUTE for subclonal copy-number estimation [PMID:29625048](../papers/29625048.md).
 
 ## Notes
 
@@ -216,3 +218,9 @@ A high-density microarray platform used for detecting DNA copy number variations
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

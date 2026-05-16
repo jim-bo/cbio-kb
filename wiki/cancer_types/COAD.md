@@ -5,7 +5,7 @@ main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Colon Adenocarcinoma (COAD)
@@ -35,6 +35,10 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included COAD; concordance with PanCan12 MAF exceeded 90%; MSI-high colorectal tumors are prominent hypermutators in the MC3 dataset [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included COAD as one of 33 cancer types in the pan-cancer cohort [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed COAD in the gastrointestinal arm-level cluster (co-gaining 8q, 13q, chromosome 20 alongside READ, STAD, PAAD); COAD and READ are exceptions to the positive aneuploidy–mutation-rate correlation due to MSI-high and POLE-mutant cases [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis; COAD/READ tumors form pan-GI iCluster C4 (CIN-enriched) and C18 (MSI-enriched, with STAD) [PMID:29625048](../papers/29625048.md)
+- COAD/READ tumors with APC+KRAS drivers share mRNA cluster 15 and RPPA C8 but partition into methylation clusters 10 vs 11; TP53 and KRAS are mutually exclusive in COAD/READ but co-occur in PAAD [PMID:29625049](../papers/29625049.md)
+- KRAS hotspot mutations present in 69% of colorectal genomically stable tumors; MSI-H and POLE-mutant subtypes carry highest mutation burden [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for COAD [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -84,3 +88,15 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

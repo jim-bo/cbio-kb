@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "dlbc_broad_2012",
+    "value": 49,
+    "denominator": null,
+    "quote": "55 patients with primary DLBCL; 49 passed quality filters after excluding 6 samples with extensive stromal contamination.",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "dlbc_broad_2012",
+    "gene": "MEF2B",
+    "modifier": "any",
+    "value": 0.18,
+    "denominator": 49,
+    "quote": "MEF2B mutations found in 18% of patients, predominantly in the MADS box or MEF2 domains.",
+    "section": "Key findings"
+  }
+]

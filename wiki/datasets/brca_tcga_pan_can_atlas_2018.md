@@ -17,8 +17,8 @@ tags:
   - TCGA
   - pan-cancer
   - pan-can-atlas
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Breast Invasive Carcinoma (TCGA, PanCancer Atlas 2018)
@@ -44,6 +44,10 @@ The TCGA Breast Invasive Carcinoma PanCancer Atlas 2018 cohort is the breast can
 ## Papers using this cohort
 
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion catalog (Gao et al., 2018)
+- [PMID:29625048](../papers/29625048.md) — TCGA PanCancer Atlas integrative molecular analysis (Hoadley et al., 2018)
+- [PMID:29625049](../papers/29625049.md) — TCGA PanCancer Atlas pan-cancer driver and germline analysis (Ding et al., 2018)
+- [PMID:29625050](../papers/29625050.md) — TCGA PanCancer Atlas oncogenic pathway analysis (Sanchez-Vega et al., 2018)
+- [PMID:29625055](../papers/29625055.md) — TCGA Pan-Cancer Clinical Data Resource (Liu et al., 2018)
 
 ## Notable findings derived from this cohort
 
@@ -51,10 +55,18 @@ The TCGA Breast Invasive Carcinoma PanCancer Atlas 2018 cohort is the breast can
 - Four [ERBB2](../genes/ERBB2.md) fusions were identified across TCGA cancer types; 3 of 4 had HPV integration within 1 Mb of [ERBB2](../genes/ERBB2.md), with partner genes [PPP1R1B](../genes/PPP1R1B.md) and [IKZF3](../genes/IKZF3.md) being genomic neighbors suggesting local instability-driven rearrangement as an alternative mechanism of HER2 dysregulation distinct from amplification [PMID:29617662](../papers/29617662.md).
 - Breast cancer (BRCA) had among the highest concordance (>90%) between MC3 mutation calls and the legacy PanCan12 MAF, indicating stable mutation calling across pipeline versions for this tumor type [PMID:29617662](../papers/29617662.md).
 - Pan-cancer aneuploidy analysis placed BRCA in the epithelial cluster (alongside [LUAD](../cancer_types/LUAD.md) and [HCC](../cancer_types/HCC.md)) defined by 1q gain; copy-number-high serous-like endometrial cancers cluster with BRCA basal-like as a notable inter-disease grouping [PMID:29617662](../papers/29617662.md).
+- BRCA samples contributed to the pan-cancer integrative molecular analysis; ERBB2-amplified C2 iCluster spanned BRCA, BLCA, and STAD; C19:BRCA (luminal) dominated by ER-α/AR signaling; HER2-enriched BRCA highlighted for cross-tissue actionability [PMID:29625048](../papers/29625048.md)
+- BRCA cohort used in pan-cancer germline-somatic analysis; BRCA1/2 germline carriers had mean onset ~8 years earlier than somatic-only carriers (P=2.07e-10, FDR 1.15e-2 for BRCA); GATA3 frameshift/nonsense alleles show gain-of-function mRNA upregulation (FDR=4.54e-18) [PMID:29625049](../papers/29625049.md)
+- BRCA cohort included in pan-cancer pathway analysis; RTK-RAS pathway altered in 82% of HER2-enriched BRCA; luminal-A BRCA leads OncoKB Level 3A actionability (PIK3CA, AKT1, ERBB2 mutations); HER2+PI3K co-targeting opportunity in 17% of HER2-enriched BRCA [PMID:29625050](../papers/29625050.md)
+- BRCA cohort used in TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR); PFI recommended over OS for BRCA (ER+ better than ER- for PFI p=0.005, DFI p=0.001, DSS p=0.009; OS not significant p=0.097); TCGA-CDR provides the canonical OS/PFI/DFI/DSS annotations for this cBioPortal study [PMID:29625055](../papers/29625055.md)
 
 ## Sources
 
 - cBioPortal study: `brca_tcga_pan_can_atlas_2018`
 - [PMID:29617662](../papers/29617662.md)
+- [PMID:29625048](../papers/29625048.md)
+- [PMID:29625049](../papers/29625049.md)
+- [PMID:29625050](../papers/29625050.md)
+- [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

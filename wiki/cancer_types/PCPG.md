@@ -10,8 +10,8 @@ tags:
   - tcga-cohort
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Pheochromocytoma and Paraganglioma / PCPG (TCGA)
@@ -27,6 +27,9 @@ PCPG is the TCGA cohort identifier for pheochromocytoma and paraganglioma. The c
 ## Recurrent alterations
 
 - Pan-cancer fusion study (9,624 TCGA samples) found PCPG has a median of 0 fusions per sample; TSG-partner fusion under-expression was highest in PCPG (38% of TSG-partner fusions), suggesting TSG inactivation via fusion is a dominant mechanism in PCPG [PMID:29617662](../papers/29617662.md).
+- Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md)
+- Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); PCPG is the only cancer type for which no survival endpoint is recommended by the TCGA-CDR [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -42,3 +45,12 @@ PCPG is the TCGA cohort identifier for pheochromocytoma and paraganglioma. The c
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

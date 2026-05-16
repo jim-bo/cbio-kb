@@ -11,8 +11,8 @@ tags:
   - low-mutation-burden
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Uveal Melanoma / UVM (TCGA)
@@ -30,6 +30,10 @@ UVM is the TCGA cohort identifier for uveal melanoma. The corresponding OncoTree
 - MC3 pan-cancer mutation-calling project identified UVM as showing large sample-to-sample variability in mutations per sample alongside [KICH](../cancer_types/KICH.md), [PAAD](../cancer_types/PAAD.md), and [THYM](../cancer_types/THYM.md) [PMID:29596782](../papers/29596782.md).
 - Pan-cancer fusion study (9,624 TCGA samples) found UVM has a median of 0 fusions per sample [PMID:29617662](../papers/29617662.md).
 - Pan-cancer aneuploidy study found UVM is an exception to the positive aneuploidy–mutation-rate correlation (driven by its MSI/POLE-free but low-mutation character); UVM clusters in the neural-lineage arm-level group with [GBM](../cancer_types/GBM.md) and [LGG](../cancer_types/LGG.md) (melanoma subgroup); chromosome 3 monosomy and 8q gain are defining SCNA features [PMID:29622463](../papers/29622463.md).
+- Included in TCGA PanCancer Atlas; UVM showed highest mutation rates with SKCM (UVB signature) in iCluster C15 [PMID:29625048](../papers/29625048.md)
+- GNA11 and GNAQ activating mutations dominate uveal melanoma (UVM); drive calcium-signaling deregulation; GNA11/GNAQ exclusivity highlighted in pan-cancer driver co-occurrence/exclusivity network [PMID:29625049](../papers/29625049.md)
+- UVM shows lowest actionable-alteration frequency at 2.5% pan-cancer; cell-cycle pathway rarely altered in UVM; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); UVM stage-III/IV vs stage-I/II Cox HR not significantly different by any survival endpoint [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -48,3 +52,15 @@ UVM is the TCGA cohort identifier for uveal melanoma. The corresponding OncoTree
 - [PMID:29622463](../papers/29622463.md) — Pan-cancer aneuploidy landscape (Taylor et al., 2018)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

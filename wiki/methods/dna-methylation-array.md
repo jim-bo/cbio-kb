@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [epigenomics, methylation, array]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # DNA methylation array
@@ -19,6 +19,7 @@ DNA methylation arrays measure genome-wide CpG methylation levels using hybridiz
 
 - Illumina 450K methylation array profiling of 333 cutaneous melanoma samples contributed to iCluster integrative analysis; DNA methylation data identified a CIMP phenotype strongly associated with [IDH1](../genes/IDH1.md) (OR = 4.05, p = 0.005) and [ARID2](../genes/ARID2.md) (OR = 3.5, p = 0.0003) mutations. [PMID:26091043](../papers/26091043.md)
 - DNA methylation arrays applied to 173 PCPG tumors in the TCGA PCPG study; MAML3 fusion-positive tumors showed a unique expansive hypomethylation signature (4,229 significant probes); pseudohypoxia subtype associated with hypermethylated and intermediate-methylated clusters [PMID:28162975](../papers/28162975.md).
+- Used for methylation profiling of TCGA PanCancer Atlas tumors; IDH1-driven LGGs localized to methylation cluster 1 (330/351 IDH1-mutant samples), while EGFR-driven LGG/GBM mapped to methylation cluster 16 [PMID:29625049](../papers/29625049.md).
 
 ## Notes
 
@@ -31,3 +32,6 @@ DNA methylation arrays measure genome-wide CpG methylation levels using hybridiz
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

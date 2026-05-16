@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "hnsc_jhu",
+    "value": 32,
+    "denominator": null,
+    "quote": "Discovery set: 32 primary HNSCC tumors with matched normals, whole-exome sequenced (HNSC; dataset hnsc_jhu).",
+    "section": "Cohort & data"
+  }
+]

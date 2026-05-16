@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "sarc_mskcc",
+    "value": 207,
+    "denominator": null,
+    "quote": "207 patients with high-grade soft tissue sarcoma, seven subtypes",
+    "section": "Cohort & data"
+  }
+]

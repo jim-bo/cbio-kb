@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # PDGFRA
@@ -36,6 +36,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Co-amplification of PDGFRA, KDR, and KIT observed in 4 adenoid cystic carcinoma (ACYC) patients treated with regorafenib in a recurrent/metastatic head and neck cancer NGS cohort [PMID:27442865](../papers/27442865.md).
 - Overexpression in osteosarcoma (OS); identified as a multi-targeted kinase inhibitor (MTKI) target in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Significantly enriched in the unmatched driver (UMD) cohort vs level 1-4 patients in a prospective LUAD study (860 patients, MSK-IMPACT panel) [PMID:28336552](../papers/28336552.md)
+- PDGFRA amplification in glioma (at the 4q12 locus with KIT/KDR) co-occurs with EGFR amplification and is part of the RTK-RAS pathway landscape assessed across 9,125 TCGA pan-cancer tumors [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -114,3 +115,6 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

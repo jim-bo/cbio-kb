@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # GISTIC
@@ -57,6 +57,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC applied to Affymetrix SNP6 data from 206 TCGA sarcomas to identify recurrent SCNA peaks; DDLPS showed 100% MDM2 amplification, 92% CDK4 amplification, and 96% FRS2 amplification at 12q13~15 [PMID:29100075](../papers/29100075.md)
 - GISTIC 2.0 applied to 1,013 prostate WES samples to call copy-number alterations, alongside FACETS for allele-specific copy number [PMID:29610475](../papers/29610475.md)
 - GISTIC2.0 used to derive recurrent SCNA scores across 10,522 TCGA pan-cancer samples for integration with arm-level aneuploidy analysis [PMID:29622463](../papers/29622463.md)
+- Applied at confidence 0.95 with amplification/deep-deletion thresholds of +2/−2 to identify recurrent somatic copy-number alterations in 9,125 TCGA PanCanAtlas tumors across 33 cancer types [PMID:29625050](../papers/29625050.md).
+- Applied with ABSOLUTE to Affymetrix SNP6 array data for copy-number analysis of ~10,000 TCGA PanCancer Atlas tumors; copy-number alterations contributed 47% of the integrated iCluster signal [PMID:29625048](../papers/29625048.md).
 
 ## Notes
 
@@ -183,3 +185,9 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

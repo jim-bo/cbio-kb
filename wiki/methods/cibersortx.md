@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immune-deconvolution, digital-cytometry, rna-seq, tumor-microenvironment]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CIBERSORTx
@@ -19,6 +19,7 @@ CIBERSORTx is a computational deconvolution algorithm that estimates the relativ
 
 - Applied to bulk RNA-seq from 176 metastatic urothelial carcinoma patients in UC-GENOME to estimate immune cell fractions; identified enrichment of plasma cells, memory B cells, and activated dendritic cells in luminal subtypes (LumP), and higher T cell inflamed and [IFNG](../genes/IFNG.md) signature scores in Ba/Sq tumors [PMID:36333289](../papers/36333289.md)
 - CIBERSORT applied to RNA-seq data from 45 melanoma biopsies for immune cell deconvolution; CD8+ T cells and NK cells increased and M1 macrophages decreased on-therapy in responders [PMID:29033130](../papers/29033130.md)
+- Used to derive immune cell fractions (22 cell types, aggregated to 9) for immune subtype characterization of ~11,000 TCGA PanCancer Atlas tumors; six pan-cancer immune subtypes (C1–C6) were defined [PMID:29625049](../papers/29625049.md).
 
 ## Notes
 
@@ -35,3 +36,6 @@ CIBERSORTx is a computational deconvolution algorithm that estimates the relativ
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

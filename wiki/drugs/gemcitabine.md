@@ -8,8 +8,8 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # gemcitabine
@@ -32,6 +32,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [Cisplatin](../drugs/cisplatin.md) + gemcitabine (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); 72 tumors from 32 patients profiled by WES showed only 28.4% shared mutations between matched pre- and post-chemotherapy samples, with gemcitabine-cisplatin driving clonal selection for [L1CAM](../genes/L1CAM.md)/integrin-pathway and APOBEC3A-enriched clones [PMID:27749842](../papers/27749842.md)
 - In the multi-institutional Phase II (Herman et al, n=49), gemcitabine (up to 3 weekly doses) combined with 33 Gy/5 fx SBRT achieved 79% 1-year local control and 13.9-month median OS in unresectable locally advanced [PAAD](../cancer_types/PAAD.md), with only 2% acute and 6% late grade 3+ GI toxicity — the reference standard for SBRT-concurrent chemotherapy in pancreatic cancer [PMID:27826200](../papers/27826200.md)
 - Used in combination with docetaxel (16 cycles) in EWSR1::BEND2 bladder sarcoma after progression and nephrotoxicity on ISG/SSG IV protocol; disease approximately stable on docetaxel + gemcitabine; patient died at 26 months post-diagnosis [PMID:28199314](../papers/28199314.md).
+- In orthotopic bladder cancer xenografts (SCBO-3 and SCBO-5 arms, n=4–8 mice/arm), gemcitabine (100 mg/kg twice-weekly IP) produced significant tumor-size reductions on ultrasound with increased cleaved caspase-3 on histology [PMID:29625057](../papers/29625057.md)
 
 ## Resistance mechanisms
 
@@ -76,3 +77,6 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:28199314](../papers/28199314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

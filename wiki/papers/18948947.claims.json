@@ -1,0 +1,40 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "luad_tsp",
+    "value": 188,
+    "denominator": null,
+    "quote": "188 primary LUAD tumours (minimum 70% tumour content), with matched normals.",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "luad_tsp",
+    "gene": "NF1",
+    "modifier": "any",
+    "value": 0.069,
+    "denominator": 188,
+    "quote": "NF1 — 16 mutations in 13 patients (4 nonsense, 5 splice-site, 1 frameshift); homozygous deletion in one tumour; newly implicated in LUAD.",
+    "section": "Genes & alterations"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "luad_tsp",
+    "gene": "ATM",
+    "modifier": "any",
+    "value": 0.069,
+    "denominator": 188,
+    "quote": "ATM — 14 mutations in 13 tumours (1 nonsense, 1 splice-site, 2 frameshift); first demonstration of significant ATM mutation frequency in LUAD.",
+    "section": "Genes & alterations"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "luad_tsp",
+    "gene": "APC",
+    "modifier": "any",
+    "value": 0.058,
+    "denominator": 188,
+    "quote": "APC — 13 mutations in 11 tumours; first report in lung adenocarcinoma (previously known only in squamous and small-cell).",
+    "section": "Genes & alterations"
+  }
+]

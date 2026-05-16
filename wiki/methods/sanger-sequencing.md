@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Sanger Sequencing
@@ -61,6 +61,7 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used for validation of CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489 in PC3 and DU145 cells) in the NOL10/USF1 functional study [PMID:28927585](../papers/28927585.md)
 - Used for validation of somatic variant calls from WES (1130 events across 61 genes in DLBCL cohort, 90% concordance) [PMID:28985567](../papers/28985567.md)
 - Used to confirm recombination of the artificial-telomere construct at the centromeric chr_3p break site in CRISPR-engineered AALE cell clones [PMID:29622463](../papers/29622463.md)
+- Used to validate the FGFR3–TACC3 fusion (exon 17–exon 11 junction) detected in organoid line SCBO-10 and its matched parental bladder tumor [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -200,3 +201,6 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

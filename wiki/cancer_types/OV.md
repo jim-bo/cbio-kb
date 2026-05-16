@@ -7,7 +7,7 @@ tags:
   - ovarian-cancer
   - gynecologic
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Ovarian Epithelial Tumor (OV)
@@ -24,6 +24,10 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 
 - [TP53](../genes/TP53.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [CCNE1](../genes/CCNE1.md) — see [HGSOC](HGSOC.md) for the canonical subtype profile.
 - Pan-cancer fusion study (9,624 TCGA samples) included OV as one of 33 TCGA cancer types; ovarian tumors were included in the gynecological cluster analyzed for arm-level aneuploidy; druggable fusions covered 6% of pan-can samples [PMID:29617662](../papers/29617662.md)
+- Included in TCGA PanCancer Atlas; OV dominated iCluster C6; OV most skewed toward genome-integrity disruption in both germline and somatic compartments [PMID:29625048](../papers/29625048.md)
+- OV is the cancer type most skewed toward genome-integrity disruption, driven by BRCA1/BRCA2 germline variants and high-frequency TP53 mutation; germline BRCA1/2-significant FDR in OV is 9.12e-6; MYC pathway driven mainly by 8q amplification most common in OV [PMID:29625049](../papers/29625049.md)
+- MYC pathway (8q amplification) most common in OV and BRCA; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for OV [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -46,3 +50,15 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

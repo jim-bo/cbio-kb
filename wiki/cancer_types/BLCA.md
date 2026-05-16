@@ -5,7 +5,7 @@ main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Bladder Urothelial Carcinoma (BLCA)
@@ -44,6 +44,11 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included BLCA; BLCA concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified FGFR3–TACC3 in 2.0% of BLCA samples as a top recurrent intra-cancer fusion; FGFR3 was annotated as a druggable target in BLCA across 15 cancer types [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study (10,522 TCGA tumors) included BLCA in the pan-cancer cohort; BLCA was not highlighted as an outlier for aneuploidy score [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis (9,759 tumors, 33 cancer types); BLCA showed substantial molecular heterogeneity with <50% of samples in any single iCluster and appeared in C27 (pan-squamous, HPV+) [PMID:29625048](../papers/29625048.md)
+- Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types); Notch pathway deregulation highlighted as a tumor-type-anchored druggable axis in BLCA [PMID:29625049](../papers/29625049.md)
+- Included in pan-cancer pathway analysis of 9,125 TCGA tumors; ERBB2 alterations reported in BLCA; NRF2/oxidative-stress pathway alteration noted [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for BLCA [PMID:29625055](../papers/29625055.md)
+- 17 of 18 patients in this bladder cancer organoid biobank had urothelial carcinoma (BLCA); organoids recapitulate FGFR3 (60%), epigenetic regulator (73%), and TP53 (33%) mutation rates from the TCGA BLCA landscape; drug responses to trametinib and gemcitabine validated in orthotopic xenografts [PMID:29625057](../papers/29625057.md)
 
 ## Subtypes
 
@@ -100,3 +105,18 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

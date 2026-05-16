@@ -3,8 +3,8 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BRAF
@@ -103,6 +103,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease in the SUMMIT basket trial [PMID:29420467](../papers/29420467.md).
 - [BRAF](../genes/BRAF.md) is among the top recurrent 3'-kinase tyrosine kinases enriched in [THCA](../cancer_types/THCA.md) fusions in a pan-cancer TCGA RNA-seq analysis. [PMID:29617662](../papers/29617662.md)
 - [BRAF](../genes/BRAF.md) established hotspot mutations are newly significant in prostate cancer, confirmed in 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)). [PMID:29610475](../papers/29610475.md)
+- BRAF is cited as a canonical tissue-agnostic driver motivating basket/umbrella trials (e.g. NCI-MATCH), but the same BRAF mutation yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters even in multi-cancer iCluster subtypes [PMID:29625048](../papers/29625048.md)
+- BRAF V600 mutations show strong mutual exclusivity with KRAS/NRAS/HRAS within Ras signaling across all 33 TCGA tumor types; BRAF-mutant tumors in the C3 immune subtype have higher CD8 T-cell fractions than NRAS-mutant tumors, suggesting synergy between BRAF inhibition and PD-L1 blockade [PMID:29625049](../papers/29625049.md)
+- BRAF is altered in 7% of tumors pan-cancer; hotspot mutations peak in SKCM (51%) and THCA (62%); serves as a primary Level-1/2A OncoKB actionability driver in melanoma; is mutually exclusive with KRAS and EGFR amplification in most tumor types [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -366,3 +369,12 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

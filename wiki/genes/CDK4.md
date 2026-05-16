@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [RMS, ARMS, ERMS, ACRM]
 tags: [cell-cycle, amplification, actionable]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CDK4
@@ -45,6 +45,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Amplification in 2/19 (10.5%) anaplastic oligodendroglioma tumors sequenced by [MSK-IMPACT 410](../methods/IMPACT410.md); classified [OncoKB](../methods/oncokb-annotation.md) Level 2B (FDA-recognized biomarker predictive of response in another indication) [PMID:28472509](../papers/28472509.md)
 - placeholder
 - placeholder
+- CDK4 is a core cell-cycle pathway driver; CDK4 and MDM2 are almost always co-amplified due to genomic proximity; 78% of dedifferentiated liposarcomas carry CDK4+MDM2 co-amplification, nominating CDK4 + MDM2 inhibitor combinations in this disease [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -141,3 +142,6 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

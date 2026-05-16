@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # MSK-IMPACT panel (generic)
@@ -68,6 +68,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Central sequencing of 91 archival FFPE tumors and 15 plasma cfDNA samples from the SUMMIT neratinib basket trial using [IMPACT341](../methods/IMPACT341.md) (n=18) or [IMPACT410](../methods/IMPACT410.md) (n=88) at mean 738× coverage; concordance with local testing 95% [PMID:29420467](../papers/29420467.md)
 - MC3 capture-kit mask excluded 170 CDS-altering calls in MSK-IMPACT's 410-gene panel that fall outside the Broad capture BED, including TERT promoter hits, CIC truncations, and CRLF2 splice alterations [PMID:29596782](../papers/29596782.md)
 - 706 advanced prostate cancers from MSK-IMPACT (msk_impact_2017) used as validation cohort for the prad_p1000 WES SMG analysis [PMID:29610475](../papers/29610475.md)
+- MSK-IMPACT 468-gene panel (IMPACT468) applied at ~500-fold coverage to 22 patient-derived bladder cancer organoid lines and matched parental tumors; enables subclonal variant detection and includes TERT promoter capture [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -181,3 +182,6 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

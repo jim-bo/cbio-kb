@@ -5,7 +5,7 @@ main_type: Endometrial Cancer
 parent: UCEC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Uterine Carcinosarcoma (UCS)
@@ -27,6 +27,9 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - Whole-exome sequencing of 17 uterine carcinosarcomas (plus 5 ovarian) found TP53 (67%), PIK3CA (41%), PTEN (41%), KRAS (27%), and chromatin-remodelling genes in ~64% of cases (ARID1A 32%, KMT2C 27%, BAZ1A 18%); >75% of cases harboured potentially actionable alterations [PMID:25233892](../papers/25233892.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included UCS as one of 33 TCGA cancer types; druggable fusions annotated across 29 cancer types including UCS [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study found UCS has one of the highest aneuploidy scores (96% of samples with any event, mean score 17.2); UCS clustered in the gynecological arm-level group alongside UCEC; UCS is an exception to the positive aneuploidy–mutation-rate correlation due to MSI/POLE cases [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md)
+- HER2+PI3K inhibitor combination actionable in 7% of UCS; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for UCS [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -52,3 +55,12 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

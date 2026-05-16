@@ -1,0 +1,70 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "panet_jhu_2011",
+    "value": 68,
+    "denominator": null,
+    "quote": "68 sporadic, non-familial PanNETs (Discovery set n=10, Validation set n=58) from Johns Hopkins and Memorial Sloan-Kettering Cancer Center.",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "panet_jhu_2011",
+    "gene": "MEN1",
+    "modifier": "any",
+    "value": 0.441,
+    "denominator": 68,
+    "quote": "MEN1 mutated in 44.1% (30/68) of PanNETs; 25 of 30 mutations were inactivating (indels, nonsense, splice-site), establishing it as a tumor suppressor in this context.",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "panet_jhu_2011",
+    "gene": "DAXX",
+    "modifier": "truncating",
+    "value": 0.25,
+    "denominator": 68,
+    "quote": "DAXX mutated in 25% (17/68) and ATRX in 17.6% (12/68); mutations were mutually exclusive (never co-occurring in the same tumor).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "panet_jhu_2011",
+    "gene": "ATRX",
+    "modifier": "any",
+    "value": 0.176,
+    "denominator": 68,
+    "quote": "DAXX mutated in 25% (17/68) and ATRX in 17.6% (12/68); mutations were mutually exclusive (never co-occurring in the same tumor).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "panet_jhu_2011",
+    "gene": "PTEN",
+    "modifier": "any",
+    "value": 0.073,
+    "denominator": 68,
+    "quote": "PTEN 7.3% (5/68), TSC2 8.8% (6/68), PIK3CA 1.4% (1/68).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "panet_jhu_2011",
+    "gene": "TSC2",
+    "modifier": "any",
+    "value": 0.088,
+    "denominator": 68,
+    "quote": "PTEN 7.3% (5/68), TSC2 8.8% (6/68), PIK3CA 1.4% (1/68).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "panet_jhu_2011",
+    "gene": "PIK3CA",
+    "modifier": "missense",
+    "value": 0.014,
+    "denominator": 68,
+    "quote": "PIK3CA 1.4% (1/68)",
+    "section": "Key findings"
+  }
+]

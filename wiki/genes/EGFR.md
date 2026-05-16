@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # EGFR
@@ -84,6 +84,10 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Activating mutations in 17/240 (7%) advanced NSCLC patients treated with anti-PD-(L)1; EGFR-mutant patients were significantly underrepresented in the durable clinical benefit group (only 7% DCB rate), attributed to the link between EGFR mutations, never-smoker status, and low tumor mutation burden [PMID:29337640](../papers/29337640.md)
 - Cited as the paralogous receptor to ERBB2 whose exon 20 insertions resist first/second-generation TKIs, providing context for the SUMMIT basket trial findings; EGFR exon 20 insertions in LUAD showed minimal ORR but a PFS tail with neratinib suggesting activity worth exploring in combination [PMID:29420467](../papers/29420467.md)
 - EGFR was among the genes assessed in the TCGA pan-cancer fusion landscape (9,624 samples, 33 cancer types); EGFR fusions are catalogued but were not among the top-recurrent fusion events reported; the study provides a reference pan-cancer fusion compendium relevant to EGFR fusion biology [PMID:29617662](../papers/29617662.md).
+- EGFR is cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); authors caution that EGFR and BRAF mutations yield unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters even for targeted therapies [PMID:29625048](../papers/29625048.md)
+- EGFR missense mutations are associated with elevated EGFR mRNA (cis-expression analysis) and drive methylation cluster 16 in LGG and GBM pan-cancer [PMID:29625049](../papers/29625049.md)
+- EGFR altered in 4% of tumors pan-cancer; mutated/amplified/fused in GBM (50%) and IDHwt LGG (52%); amplification co-occurs with EGFR mutation/fusion and with 4q12 (KIT/PDGFRA) amplification in glioma but is mutually exclusive with ERBB2 activation and with KRAS/BRAF mutation or NF1/RASA1 loss elsewhere [PMID:29625050](../papers/29625050.md)
+- EGFR detected as a less-common driver alteration in a bladder cancer patient-derived organoid biobank (16 lines from 16 patients profiled by MSK-IMPACT); organoid transcriptomes showed ERBB-signaling enrichment from exogenous EGF supplementation [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -254,3 +258,15 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

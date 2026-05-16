@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # MSH2
@@ -35,6 +35,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - Low MSH2 expression was identified in one of the two sarcoma tumors (along with an MSH6 frameshift mutation in the other) with the COSMIC6 mismatch repair signature and highest mutational burden in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
 - Assayed by IHC for MMR protein status in mCRC (N=1,152); concordance between IHC-based MMR status and MSIsensor score was 98.6% [PMID:29316426](../papers/29316426.md)
 - One pLoF likely pathogenic/pathogenic variant in German pediatric cancer predisposition cohort (n=390); reached significance in joint analysis with Zhang et al. (OR=7.1, p=.039); MSH2 is the only DNA-repair gene consistently associated with childhood cancer in a prior meta-analysis. [PMID:29489754](../papers/29489754.md)
+- MSH2 (with MLH1, MSH6, PMS2) is an MMR gene in which somatic non-synonymous mutations in 250/1,464 TCGA samples and germline variants (16/18 with both germline and somatic hits) reach MSI-high status, defining a population with elevated neoantigen load expected to respond to PD-1/PD-L1 blockade [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -81,3 +82,6 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

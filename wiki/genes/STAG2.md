@@ -8,8 +8,8 @@ tags:
   - mds-driver
   - megakaryocyte-dysplasia
   - morphologic-biomarker
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -34,6 +34,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Truncating mutations in 23% of non-muscle-invasive bladder cancer (NMIBC; n=105); enriched in low-grade Ta tumors (p=0.046), supporting association with lower-grade/stage disease [PMID:28583311](../papers/28583311.md)
 - Recurrently altered candidate driver across medulloblastoma subgroups in the 491-sample ICGC cohort [PMID:28726821](../papers/28726821.md)
 - Recurrent SMG in MIBC; one of the MutCN cluster definers alongside [FGFR3](../genes/FGFR3.md) and [KDM6A](../genes/KDM6A.md) [PMID:28988769](../papers/28988769.md)
+- STAG2 is detected as a recurrent driver mutation in bladder cancer organoid lines, consistent with the published bladder cancer mutational landscape [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -90,3 +91,6 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

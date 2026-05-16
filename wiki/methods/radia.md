@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [variant-calling, somatic-mutations, rna-dna-integration, multi-platform]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # RADIA
@@ -19,6 +19,7 @@ RADIA (RNA and DNA Integrated Analysis) is a somatic variant-calling tool design
 
 - One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic mutation detection across 820 TCGA diffuse glioma exomes; combined calls contributed to identification of 75 significantly mutated genes including 45 novel glioma associations [PMID:26824661](../papers/26824661.md)
 - One of seven somatic callers in the TCGA MC3 ensemble pipeline, run on DNAnexus cloud across ~10,510 TCGA tumor/normal pairs [PMID:29596782](../papers/29596782.md)
+- One of seven somatic callers in the MC3 pipeline applied to 11,000 TCGA PanCancer Atlas tumors for the pan-cancer germline and somatic driver analysis [PMID:29625049](../papers/29625049.md).
 
 ## Notes
 
@@ -35,3 +36,6 @@ RADIA (RNA and DNA Integrated Analysis) is a somatic variant-calling tool design
 - [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

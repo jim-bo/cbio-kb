@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # RASA1
@@ -22,6 +22,7 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - Novel significantly mutated gene (SMG) in lung SqCC enriched for frameshift mutations (p < 0.001 for RASA1 frameshift enrichment) in the 1,144-tumor NSCLC landscape study; also significantly enriched in oncogene-negative lung ADC (q < 0.1), nominating RASA1 (p120GAP, a RAS-GAP) as a candidate driver in RTK/Ras/Raf pathway-negative lung ADC. Raised the overall proportion of lung ADCs with a candidate driver to 76%. [PMID:27158780](../papers/27158780.md)
 - E208Vfs*16 frameshift mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Newly nominated CCA driver; inactivating mutations in 4.1% (10 frame-shift, 4 nonsense) plus focal copy-number losses, both correlated with reduced expression; shRNA knockdown in CCA cell lines (M213, HUCCT1) enhanced migration and invasion in Transwell assays, supporting tumor-suppressor function [PMID:28667006](../papers/28667006.md)
+- RASA1 (RAS GTPase-activating protein) is a RAS-pathway negative regulator whose loss is mutually exclusive with EGFR amplification pan-cancer, suggesting an antagonistic functional interaction with upstream EGFR signaling [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

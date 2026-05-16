@@ -3,8 +3,8 @@ symbol: SSX1
 aliases: [CT5.1a]
 cancer_types: [SS]
 tags: [fusion-gene, sarcoma, synovial-sarcoma, t(X;18), cancer-testis-antigen]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # SSX1
@@ -16,6 +16,7 @@ SSX1 (SSX Family Member 1) is a cancer-testis antigen gene located on chromosome
 ## Alterations observed in the corpus
 
 - t(X;18) [SS18](../genes/SS18.md)-SSX1 fusion present in the majority of synovial sarcoma ([SS](../cancer_types/SS.md)) cases in the TCGA pan-sarcoma cohort; SS18-SSX fusions present in 100% of SS [PMID:29100075](../papers/29100075.md).
+- SSX1 is a fusion partner of SS18 (SS18–SSX1) in synovial sarcoma; identified by the Fusion AWG in the PanCanAtlas pan-cancer integration as a canonical disease-defining fusion [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SSX1 (SSX Family Member 1) is a cancer-testis antigen gene located on chromosome
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

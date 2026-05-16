@@ -3,8 +3,8 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ARID1A
@@ -81,6 +81,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - SWI/SNF chromatin remodeler with recurrent inactivating mutations and 4.2% deletions in MIBC (TCGA, n=412) [PMID:28988769](../papers/28988769.md)
 - Mutated in 15% of metastatic esophagogastric cancer (EGC) tumors profiled by MSK-IMPACT (n=200) [PMID:29122777](../papers/29122777.md)
 - [ARID1A](../genes/ARID1A.md) is a SWI/SNF member altered in ~5% of 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)), enriched in ETS-fusion-negative tumors alongside [ARID2](../genes/ARID2.md), [ARID4A](../genes/ARID4A.md), and [SMARCA1](../genes/SMARCA1.md). [PMID:29610475](../papers/29610475.md)
+- ARID1A is mutually exclusive with TP53 in pan-cancer somatic interaction networks; in UCEC, ARID1A/PTEN/CTNNB1/PIK3CA form a cluster with low TP53, consistent with the copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
+- ARID1A is among epigenetic regulators (alongside KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder tumor organoid lines from the Columbia/CUIMC biobank [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -276,3 +278,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD, ACRM]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CDKN2A
@@ -113,6 +113,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - placeholder
 - placeholder
 - Recurrent mutation in HPV(−) vulvar squamous cell carcinomas (n=15 WES cohort); consistent with the established TP53/CDKN2A/HRAS mutation pattern of HPV(−) vulvar SCC [PMID:29422544](../papers/29422544.md)
+- CDKN2A co-occurs with TP53 and is part of the largest somatic interaction hub pan-cancer; CDKN2A deletion is mutually exclusive with TP53 mutation (because the CDKN2A locus encodes both p16 and ARF/p53-regulating) [PMID:29625049](../papers/29625049.md)
+- CDKN2A deletion is mutually exclusive with TP53 mutation (dual p16/ARF locus); CDKN2A mutation co-occurs with TP53; CDKN2A is a core cell-cycle pathway driver frequently co-altered with RB1, CCNE1, CDK4, CDK6, and E2F3 pan-cancer [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -354,3 +356,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

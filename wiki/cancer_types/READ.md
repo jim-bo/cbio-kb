@@ -5,7 +5,7 @@ main_type: Colorectal Cancer
 parent: COADREAD
 tags: [rectal, colorectal, immunotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Rectal Adenocarcinoma (READ)
@@ -28,6 +28,10 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included READ; concordance with PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included READ as part of the COADREAD gastrointestinal cluster [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed READ in the gastrointestinal arm-level cluster alongside COAD, STAD, and PAAD; READ and COAD are exceptions to the positive aneuploidy–mutation-rate correlation due to MSI-high and POLE-mutant cases [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas; READ co-clusters with COAD in pan-GI iClusters C4 (CIN) and C18 (MSI) [PMID:29625048](../papers/29625048.md)
+- APC- and KRAS-driven COAD/READ tumors share mRNA cluster 15 and RPPA C8 but partition into methylation clusters 10 vs 11; TP53 and KRAS mutually exclusive in READ [PMID:29625049](../papers/29625049.md)
+- Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for READ [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -63,3 +67,15 @@ No molecular subtyping data from the corpus specific to READ yet.
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

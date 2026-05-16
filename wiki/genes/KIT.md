@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [OGCT, GIST, ANGS, CSCC]
 tags: [germ-cell-tumor, gist, oncogene]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # KIT
@@ -42,6 +42,9 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT Asn655Lys activating mutation in a 7-year-old with AML yielded near-complete peripheral blood blast clearance with palliative imatinib sustained over 9 months; a second AML patient harbored KIT D816H (c.2446G>C) co-occurring with TET2 and FLT3 variants [PMID:28007021](../papers/28007021.md).
 - 1 patient with exon 9 E490Q mutation (previously described in thymic carcinoma) in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - Single L576P mutation in 1 patient in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
+- KIT is cited as a cancer-driving target that motivates tissue-agnostic basket/umbrella trials (e.g., NCI-MATCH) across the 28-iCluster pan-cancer classification of 10,000 TCGA tumors from 33 cancer types [PMID:29625048](../papers/29625048.md)
+- KIT is a driver gene in the TCGA pan-cancer landscape; KIT alterations are part of the somatic driver interaction network with mutual-exclusivity and co-occurrence patterns identified across 33 tumor types [PMID:29625049](../papers/29625049.md)
+- KIT amplification in glioma co-occurs with EGFR amplification at the 4q12 locus (KIT/PDGFRA/KDR region), and is mutually exclusive with KRAS/BRAF mutation or NF1/RASA1 loss elsewhere in the RTK-RAS pathway across the TCGA pan-cancer oncogenic signaling analysis [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -137,3 +140,12 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

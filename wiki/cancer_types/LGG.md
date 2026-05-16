@@ -10,8 +10,8 @@ tags:
   - tcga-cohort
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Lower-Grade Glioma / LGG (TCGA)
@@ -28,6 +28,10 @@ LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). T
 
 - Pan-cancer fusion study (9,624 TCGA samples) found LGG has a median of 0 fusions per sample (low-fusion cancer type); IDH-mutant LGG clusters separately from IDH-wildtype [GBM](../cancer_types/GBM.md) by arm-level aneuploidy pattern [PMID:29617662](../papers/29617662.md).
 - Pan-cancer aneuploidy study found [IDH1](../genes/IDH1.md) mutation defines the LGG subgroup that clusters separately from GBM by aneuploidy pattern, characterized by 1p loss and 19q gain; LGG clusters in the neural-lineage arm-level group with GBM and melanoma [PMID:29622463](../papers/29622463.md).
+- Included in TCGA PanCancer Atlas; IDH1-mutant LGG dominates iCluster C11 (highest silhouette); IDH1-wildtype LGG co-clusters with GBM in C23; pan-cancer analysis identifies IDH1 as the defining molecular feature [PMID:29625048](../papers/29625048.md)
+- IDH1 defines methylation cluster 1 in LGG (330/351 samples IDH1-mutant); IDH1-driven gliomas show lower STAT1 and reduced CXCL10/immune infiltrate; ATRX- or TP53-mutant LGG tumors have more macrophages and fewer CD8 T-cells (ANOVA P<2e-8) [PMID:29625049](../papers/29625049.md)
+- RTK-RAS alteration rate 82% in IDHwt LGG; EGFR altered in 52% of IDHwt LGG; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant LGG [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); IDH/1p19q status established as more robust survival predictor than histologic subtype, contributing evidence to WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -46,3 +50,15 @@ LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). T
 - [PMID:29622463](../papers/29622463.md) — Pan-cancer aneuploidy landscape (Taylor et al., 2018)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

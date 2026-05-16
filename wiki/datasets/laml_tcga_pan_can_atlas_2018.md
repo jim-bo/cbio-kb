@@ -18,8 +18,8 @@ tags:
   - TCGA
   - pan-cancer
   - pan-can-atlas
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Acute Myeloid Leukemia (TCGA, PanCancer Atlas 2018)
@@ -45,16 +45,25 @@ The TCGA [AML](../cancer_types/AML.md) PanCancer Atlas 2018 cohort is the acute 
 ## Papers using this cohort
 
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion catalog (Gao et al., 2018)
+- [PMID:29625048](../papers/29625048.md) — TCGA PanCancer Atlas integrative molecular analysis (Hoadley et al., 2018)
+- [PMID:29625049](../papers/29625049.md) — TCGA PanCancer Atlas pan-cancer driver and germline analysis (Ding et al., 2018)
+- [PMID:29625050](../papers/29625050.md) — TCGA PanCancer Atlas oncogenic pathway analysis (Sanchez-Vega et al., 2018)
 
 ## Notable findings derived from this cohort
 
 - Pan-cancer RNA-seq fusion analysis (9,624 TCGA tumors) identified a distinct LAML fusion landscape: 14.0% of LAML tumors had fusions but no driver-gene point mutations ("fusion-only" tumors), including classic leukemic fusions [CBFB](../genes/CBFB.md)-[MYH11](../genes/MYH11.md) (n=3), [BCR](../genes/BCR.md)-[ABL1](../genes/ABL1.md) (n=2), [PML](../genes/PML.md)-[RARA](../genes/RARA.md) (n=2), and [NUP98](../genes/NUP98.md)-[NSD1](../genes/NSD1.md) (n=2); [PML](../genes/PML.md)-[RARA](../genes/RARA.md) is a druggable target in 16 LAML samples per DEPO annotation [PMID:29617662](../papers/29617662.md).
 - [CBFB](../genes/CBFB.md) is fused but rarely mutated in LAML, representing an alternative mechanism of inactivation for this transcriptional regulator; strict mutual exclusivity between [CBFB](../genes/CBFB.md) fusions and CBFB point mutations observed [PMID:29617662](../papers/29617662.md).
 - LAML has among the lowest aneuploidy scores in the pan-cancer cohort (mean 1.6), consistent with the known biology of leukemia as a predominantly mutation/fusion-driven rather than chromosomal-instability-driven disease [PMID:29617662](../papers/29617662.md).
+- LAML samples in pan-cancer integrative clustering; C24:LAML was one of eight iClusters dominated by a single tumor type; LAML lacked RPPA protein data; LAML enriched for mRNA-based stemness signature but not DNA-methylation-based signature [PMID:29625048](../papers/29625048.md)
+- LAML included in pan-cancer driver and germline analysis; no PFI data available for LAML; genome-integrity genes account for 63% of germline pathogenic variants pan-cancer; LAML samples contribute to the 9,389-sample joint germline/somatic analysis [PMID:29625049](../papers/29625049.md)
+- LAML included in pan-cancer pathway analysis; cell-cycle pathway rarely altered in LAML; LAML 162 samples (2%) of the 9,125-tumor cohort are blood tumors [PMID:29625050](../papers/29625050.md)
 
 ## Sources
 
 - cBioPortal study: `laml_tcga_pan_can_atlas_2018`
 - [PMID:29617662](../papers/29617662.md)
+- [PMID:29625048](../papers/29625048.md)
+- [PMID:29625049](../papers/29625049.md)
+- [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

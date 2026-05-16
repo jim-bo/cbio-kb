@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Esophageal Adenocarcinoma (ESCA)
@@ -36,6 +36,9 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included ESCA as one of 33 cancer types [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified WNK1/WNK2 fusions in ESCA without matching copy-number amplification, suggesting promoter-swap-driven overexpression; ERC1–WNK1 was independently reported in a Chinese ESCC cohort [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed non-squamous ESCA in the gastrointestinal arm-level cluster; squamous ESCA (ESCC) was part of the squamous cluster defined by chr_3p loss and chr_3q gain [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis; ESCA showed <50% of samples in any single iCluster; non-squamous ESCA co-clusters in pan-GI group; squamous ESCA co-clusters in pan-squamous group [PMID:29625048](../papers/29625048.md)
+- NRF2/oxidative-stress pathway alterations in esophagogastric squamous (ESCC) at 23%; ERBB2 alterations prominent in chromosomally-unstable esophagogastric tumors; EBV+ esophagogastric shows 80% PI3K pathway alteration rate [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for ESCA [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -80,3 +83,12 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

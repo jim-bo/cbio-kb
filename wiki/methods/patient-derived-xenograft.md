@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # Patient-Derived Xenograft
@@ -19,6 +19,7 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 
 - Four mCRPC PDX lines (#546, #1092, #1102, #1267) in NOD-SCID mice used to test [olaparib](../drugs/olaparib.md) + [spautin-1](../drugs/spautin-1.md) ([USP10](../genes/USP10.md) inhibitor) combination therapy; PDX#546 and PDX#1092 (high TRMT10A/USP10 expression) showed additive-to-synergistic tumor growth suppression versus olaparib alone (PDX#1092: 42.9% additional volume reduction), with elevated cleaved caspase-3, cleaved PARP, and γ-H2AX in tumor lysates [PMID:28068672](../papers/28068672.md).
 - Used patient-derived xenograft (PDX) models to evaluate therapeutic response in vivo [PMID:28196596](../papers/28196596.md)
+- Orthotopic xenografts generated from bladder cancer organoids via ultrasound-guided implantation into NOG mouse bladder wall; 83% efficiency (15/18); in vivo drug validation confirmed trametinib and gemcitabine activity [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -32,3 +33,6 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

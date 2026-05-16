@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # PIK3CA
@@ -128,6 +128,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Altered in 40% of vulvar SCC cases overall; first description in HPV(+) vulvar SCC; authors propose PI3K-pathway inhibition as a tractable hypothesis in this disease [PMID:29422544](../papers/29422544.md)
 - Called as a KIRC SMG uniquely by MutSig2CV (not MuSiC2) in the MC3 pan-cancer open-access MAF, illustrating how caller choice and filtering stringency affect gene discovery [PMID:29596782](../papers/29596782.md).
 - SOX2, PIK3CA, and TERC are chr_3q oncogenes invoked to explain the squamous chr_3q-gain signature; in the AALE experimental model, chr_3p-deleted clones rescued their proliferation defect by duplicating chromosome 3, thereby co-gaining the 3q arm containing PIK3CA [PMID:29622463](../papers/29622463.md).
+- PIK3CA is one of the three most multiplatform-cluster-enriched drivers (with TP53 and KRAS) across TCGA pan-cancer; it drives BRCA mRNA/RPPA clusters and is mutually exclusive with TP53 in several tumor types; PIK3CA/PTEN/AKT activation is enriched in ARID1A/PTEN/CTNNB1/PIK3CA cluster low-TP53 endometrial tumors [PMID:29625049](../papers/29625049.md)
+- PIK3CA (with PIK3CB, PIK3R1, PTEN, AKT1) drives the core PI3K pathway; PIK3CA activation and PTEN inactivation dominate in head-and-neck, breast, GI, and gynecologic tumors; FGFR2/FGFR3 show exceptional co-occurrence with PI3K pathway alterations versus the typical mutual exclusivity between RTK and downstream RAS/PI3K [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -374,3 +376,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

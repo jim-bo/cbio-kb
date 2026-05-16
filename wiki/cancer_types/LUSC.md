@@ -5,7 +5,7 @@ main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Lung Squamous Cell Carcinoma (LUSC)
@@ -33,6 +33,10 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included LUSC; LUSC and LUAD had the largest median SNVs per sample, consistent with tobacco-mutagen exposure [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified FGFR3–TACC3 in 1.2% of LUSC samples; FGFR3 is a druggable target across 15 cancer types [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed LUSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); chr_3p was deleted in ~80% of LUSC tumors and chr_3q gained in >60%; co-occurrence was significantly above chance (chi-square p = 0.0386); the squamous signature was most prominent in LUSC [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas; LUSC co-clusters in pan-squamous iClusters C10, C25, C27 sharing dNp63/TAp63 squamous signaling; JAK2/STAT upregulation shared with pan-SCC [PMID:29625048](../papers/29625048.md)
+- LUSC shows 4% germline vs 89% somatic genome-integrity disruption; among the cancer types with highest somatic genome-integrity disruption rates [PMID:29625049](../papers/29625049.md)
+- NRF2/oxidative-stress pathway alteration rate 25% in LUSC, highest pan-cancer; PI3K pathway alteration rate 68% in LUSC; NRF2+PI3K co-alteration concentrated in squamous lung [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for LUSC; LUSC never-disease-free cases had HR=6.68 (95% CI 4.25-10.51) for new tumor events [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -74,3 +78,15 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

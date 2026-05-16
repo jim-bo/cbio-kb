@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC, CSCC, HNSC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # MYC
@@ -86,6 +86,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Recurrent oncogene amplification in cholangiocarcinoma (n=12 WGS cases) [PMID:28667006](../papers/28667006.md)
 - Amplification restricted to Group 3 medulloblastoma (17% of Group 3 cases) in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 - MYC was identified as a functional oncogene in DLBCL by CRISPR screen (depletion on knockout); MYC mutations were strongly associated with poorer overall survival (p<0.05); MYC translocations correlated with high MYC expression; high MYC expression combined with high BCL2 expression (double expressors) defined the poorest prognosis subgroup; MYC genetic alterations combined with high MYC expression defined the least favorable prognosis subgroup in a multivariate genomic model [PMID:28985567](../papers/28985567.md)
+- MYC pathway activation is driven mainly by 8q amplification and is most common in BRCA and OV across the TCGA pan-cancer oncogenic signaling pathway analysis [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -297,3 +298,6 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

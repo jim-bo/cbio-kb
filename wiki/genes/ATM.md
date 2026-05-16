@@ -3,8 +3,8 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ATM
@@ -59,6 +59,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Mutated in 14% (n=57) of MIBC tumors (TCGA, n=412); established as a recurrently mutated DNA-repair gene in muscle-invasive bladder cancer [PMID:28988769](../papers/28988769.md)
 - Four monoallelic pLoF [ATM](../genes/ATM.md) LP/PVs were identified in a pediatric cancer predisposition cohort (n=372); burden OR=3.2, p=0.040 in single-cohort analysis but not significant in joint analysis; carriers developed BCP-ALL, medulloblastoma, or hepatoblastoma without ataxia-telangiectasia features. [PMID:29489754](../papers/29489754.md)
 - [ATM](../genes/ATM.md) is an SMG uniquely called by MutSig2CV (not MuSiC2) in KIRC using the TCGA MC3 open-access MAF. [PMID:29596782](../papers/29596782.md)
+- ATM is among the top DDR predisposition genes bearing germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -201,3 +202,6 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

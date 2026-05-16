@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [fusion-calling, rna-seq, gene-fusion]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # EricScript
@@ -18,6 +18,7 @@ EricScript is a computational tool for discovering gene fusions in paired-end RN
 ## Used by
 
 - One of three RNA-seq fusion callers in the TCGA pan-cancer fusion analysis across 9,624 tumor samples spanning 33 cancer types; used alongside STAR-Fusion and BREAKFAST with 5 kb and 100 kb minimum-distance cutoffs; contributed to the multi-tool ensemble producing 25,664 filtered fusions [PMID:29617662](../papers/29617662.md)
+- Used alongside STAR-Fusion and BreakFast to detect gene fusions from RNA-Seq data across 9,125 TCGA PanCanAtlas tumors [PMID:29625050](../papers/29625050.md).
 
 ## Notes
 
@@ -27,3 +28,6 @@ EricScript is a computational tool for discovering gene fusions in paired-end RN
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

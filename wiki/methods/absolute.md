@@ -10,7 +10,7 @@ tags:
   - clonality
   - somatic-copy-number
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # ABSOLUTE
@@ -40,6 +40,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - ABSOLUTE v1.0.6 integrated with FACETS segmentation to estimate clonality of HER2 mutations in the SUMMIT basket trial; 95% (70/74) of HER2 mutations were clonal (CCF >0.85); none of 4 patients with subclonal HER2 mutations achieved clinical benefit [PMID:29420467](../papers/29420467.md)
 - ABSOLUTE-style framework used alongside FACETS for cancer-cell fraction (clonality) estimates across 1,013 prostate tumor/normal pairs [PMID:29610475](../papers/29610475.md)
 - Applied to Affymetrix SNP 6.0 array data from 10,522 TCGA pan-cancer samples to produce segmented absolute copy number, purity, ploidy, and whole-genome-doubling calls; forms the basis of the arm-level aneuploidy score [PMID:29622463](../papers/29622463.md)
+- Applied alongside GISTIC 2.0 to Affymetrix SNP6 data for subclonal copy-number estimation in the TCGA PanCancer Atlas integrative multi-platform analysis of ~10,000 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md).
 
 ## Notes
 
@@ -104,3 +105,6 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

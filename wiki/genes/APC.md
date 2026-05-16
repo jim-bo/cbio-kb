@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # APC
@@ -54,6 +54,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC enriched in both metastatic prostate cancer states relative to locoregional disease, implicating it as a driver of metastasis; co-occurs with CTNNB1 and RNF43 as Wnt-pathway alterations [PMID:28825054](../papers/28825054.md)
 - Mutated in 79% of MSS mCRC tumors; a recurrent intronic chr5:112151184 A>G splice-acceptor mutation expands the oncogenic spectrum into intronic regions; oncogenic APC alterations were a positive prognostic factor in mCRC (HR=0.57) [PMID:29316426](../papers/29316426.md).
 - [APC](../genes/APC.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers (prad_p1000). [PMID:29610475](../papers/29610475.md)
+- APC- and KRAS-driven COAD/READ tumors share mRNA cluster 15 and RPPA cluster C8 but partition into distinct methylation clusters (10 vs 11), illustrating how the same oncogenic driver can yield different epigenomic states [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -178,3 +179,6 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

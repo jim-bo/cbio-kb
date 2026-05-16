@@ -6,7 +6,7 @@ cancer_types:
   - PRNE
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CHEK2
@@ -37,6 +37,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - Germline pathogenic/predicted-pathogenic mutation (PPGM) enriched in the MET500 metastatic pan-cancer cohort relative to ExAC controls; identified as a DNA-repair PPGM gene alongside BRCA1, BRCA2, and MLH1 [PMID:28783718](../papers/28783718.md).
 - Germline DDR alteration contributing to the 27% combined HR-deficiency rate in prostate cancer across disease states (locoregional to mCRPC); identified alongside BRCA1 and ATM as drivers of PARP-inhibitor therapeutic rationale [PMID:28825054](../papers/28825054.md).
 - CHEK2 germline LP/PVs identified in 5 of 28 LP/PV carriers (17.9%) in a pediatric cancer predisposition cohort; burden OR=9.6, p=2.42×10⁻⁴; 4 carriers had BCP-ALL and 1 had Langerhans-cell histiocytosis (with co-occurring NF1 LP/PV); 3 of 5 were pLoF; CHEK2 is among the candidate HBOC genes assessed by WES [PMID:29489754](../papers/29489754.md).
+- CHEK2 is among the top DDR predisposition genes carrying germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -105,3 +106,6 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

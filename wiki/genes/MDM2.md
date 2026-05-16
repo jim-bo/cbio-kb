@@ -3,8 +3,8 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # MDM2
@@ -52,6 +52,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 amplification (copy number >4) was found in 6% and MDM2 overexpression (>2-fold above median) in 19% of muscle-invasive bladder cancer (MIBC) tumors; the TP53/Cell Cycle pathway (including MDM2) was inactivated in 89% of tumors; MDM2 and TP53 alterations were mutually exclusive (q < 0.2) [PMID:28988769](../papers/28988769.md)
 - MDM2 amplification was present in 100% of dedifferentiated liposarcoma (DDLPS) by definition; MDM2, CDK4, and HMGA2 co-amplification at 12q13~15 is the defining hallmark of DDLPS; MDM2 amplification, CDK4 amplification, JUN amplification, and TERT amplification distinguished DDLPS from other sarcoma subtypes [PMID:29100075](../papers/29100075.md)
 - Amplification identified in 8 NSCLC patients; PFS not significantly different from overall cohort (HR 1.4, P=.44); hyperprogression signal on anti-PD-(L)1 therapy previously reported elsewhere was not reproduced [PMID:29337640](../papers/29337640.md)
+- MDM2 is mutually exclusive with RB1 and CDKN2A loss but is co-amplified with CDK4 due to genomic proximity; 78% of dedifferentiated liposarcomas carry CDK4+MDM2 co-amplification, nominating CDK4+MDM2 inhibitor combination therapy [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -171,3 +172,6 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

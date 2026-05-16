@@ -10,8 +10,8 @@ tags:
   - liquid-tumor
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Acute Myeloid Leukemia / LAML (TCGA)
@@ -28,6 +28,10 @@ LAML is the TCGA cohort identifier for acute myeloid leukemia. It corresponds to
 
 - MC3 pan-cancer mutation-calling project recovered only 44% of the LAML AWG calls because tumor-in-normal contamination (LAML skin "normals" enriched with tumor cells) causes conservative MC3 filtering to misclassify somatic calls as germline; the legacy LAML AWG MAF relied on Sanger-based manual recovery not in the exome data [PMID:29596782](../papers/29596782.md).
 - Pan-cancer fusion study (9,624 TCGA samples) found 14.0% of LAML tumors had fusions but no driver-gene mutations; recovered fusions include [CBFB](../genes/CBFB.md)–[MYH11](../genes/MYH11.md) (n=3), [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md) (n=2), [PML](../genes/PML.md)–[RARA](../genes/RARA.md) (n=2), and [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md) (n=2); PML–RARA fusions annotated as druggable (16 samples); mutual exclusivity between CBFB fusions and CBFB point mutations observed [PMID:29617662](../papers/29617662.md).
+- Included in TCGA PanCancer Atlas; LAML dominated iCluster C24; enriched for mRNA-based stemness signatures; RPPA data unavailable for LAML (no protein data) [PMID:29625048](../papers/29625048.md)
+- Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types); 162/9,125 blood tumors from LAML subset [PMID:29625049](../papers/29625049.md)
+- Cell-cycle pathway rarely altered in LAML; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); LAML had shortest median follow-up (~12 months); no PFI data available for LAML; only one endpoint recommended [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -43,3 +47,15 @@ LAML is the TCGA cohort identifier for acute myeloid leukemia. It corresponds to
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

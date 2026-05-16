@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "mds_tokyo_2011",
+    "value": 80,
+    "denominator": null,
+    "quote": "Discovery cohort: 80 MDS bone marrows (from 272 screened) with prominent dysplasia, diagnosed at Brigham and Women's Hospital 2013-2014; sequenced with a 50-gene targeted panel (VAF cutoff 2%).",
+    "section": "Cohort & data"
+  }
+]

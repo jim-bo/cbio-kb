@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Mutational Signatures Analysis (COSMIC)
@@ -35,6 +35,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Mutational signatures decomposed using deconstructSigs v1.8.0 against COSMIC in 68 paired melanoma WES samples; COSMIC signature 11 (temozolomide/melanoma-related) was enriched in novel on-therapy mutations in progressive-disease patients [PMID:29033130](../papers/29033130.md)
 - COSMIC mutational signatures applied to 206 TCGA sarcomas; 90% of mutations attributed to COSMIC5 (53%) and COSMIC1 (37%); APOBEC signatures elevated in DDLPS and MPNST (p<10⁻⁶) [PMID:29100075](../papers/29100075.md)
 - 30 COSMIC mutational signature processes decomposed from SUMMIT basket-trial tumor sequencing; contributed to TMB and genomic context analysis of ERBB2/ERBB3-mutant solid tumors [PMID:29420467](../papers/29420467.md)
+- Applied (29 COSMIC signatures, Alexandrov et al. 2013) to bladder cancer organoid lines; APOBEC signature detected in SCBO-4 and SCBO-5, smoking signature in SCBO-6; signatures were stable across passages and xenograft conversion [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -97,3 +98,6 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

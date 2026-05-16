@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "nhl_bcgsc_2011",
+    "value": 127,
+    "denominator": null,
+    "quote": "This study sequenced genomes, exomes and transcriptomes of 127 non-Hodgkin lymphoma (NHL) cases (DLBCL and FL)",
+    "section": "TL;DR"
+  }
+]

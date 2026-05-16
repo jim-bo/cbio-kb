@@ -10,7 +10,7 @@ tags:
   - whole-exome-seq
   - whole-genome-seq
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # MuTect
@@ -61,6 +61,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - MuTect used for SNV calling in 15 vulvar SCC paired tumor/normal WES samples (Korean cohort) aligned to hg19 with BWA v0.7.15 [PMID:29422544](../papers/29422544.md)
 - One of seven callers in the TCGA MC3 pipeline; detected the largest number of true positive SNVs and showed highest pair-wise agreement with MuSE; run by Broad Firehose [PMID:29596782](../papers/29596782.md)
 - Used to call SNVs (v1.1.6) across 1,013 prostate tumor/normal pairs in the prad_p1000 dataset, identifying 97 SMGs [PMID:29610475](../papers/29610475.md)
+- One of seven somatic callers in the MC3 pipeline applied to 11,000 TCGA PanCancer Atlas tumors; consensus calling reduced 22,485,627 raw calls to 2,907,335 high-confidence somatic variants [PMID:29625049](../papers/29625049.md).
 
 ## Notes
 
@@ -185,3 +186,6 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

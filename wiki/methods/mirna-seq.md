@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, non-coding-rna, expression]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # miRNA-seq
@@ -30,6 +30,7 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - miRNA sequencing applied to 173 PCPG tumors in the TCGA PCPG study; miR-375 underexpression in MAML3 fusion-positive (Wnt-altered) tumors was noted; miRNA cluster 3 with mir-210 overexpression tightly associated with the pseudohypoxia subtype [PMID:28162975](../papers/28162975.md).
 - Performed on 412 BLCA tumors; four miRNA consensus clusters with distinct survival (p=1.7×10⁻³) refined the mRNA expression taxonomy [PMID:28988769](../papers/28988769.md)
 - Performed on 206 TCGA sarcomas; miR-181b-5p identified as an independent prognostic marker for recurrence-free survival in LMS (multivariate HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
+- Used as one of four platforms in iCluster integrative analysis of 9,759 TCGA PanCancer Atlas tumors; miRNA contributed as part of the 42% transcriptome signal in the 28-iCluster solution [PMID:29625048](../papers/29625048.md).
 
 ## Notes
 
@@ -74,3 +75,6 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -1,0 +1,80 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "hnsc_broad",
+    "value": 74,
+    "denominator": null,
+    "quote": "92 HNSCC patients initially sequenced; 74 passed quality filters for analysis (18 excluded for stromal admixture).",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "hnsc_broad",
+    "gene": "NOTCH1",
+    "modifier": "any",
+    "value": 0.11,
+    "denominator": 74,
+    "quote": "point mutations affecting [NOTCH1] occurred in 11% of the HNSCC tumors",
+    "section": "Citations from this paper used in the wiki"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "hnsc_broad",
+    "gene": "SYNE1",
+    "modifier": "any",
+    "value": 0.20,
+    "denominator": 74,
+    "quote": "[SYNE1] mutated in 20%, [SYNE2] in 8% (nuclear polarity regulators upstream of NOTCH1).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "hnsc_broad",
+    "gene": "SYNE2",
+    "modifier": "any",
+    "value": 0.08,
+    "denominator": 74,
+    "quote": "[SYNE1] mutated in 20%, [SYNE2] in 8% (nuclear polarity regulators upstream of NOTCH1).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "hnsc_broad",
+    "gene": "CASP8",
+    "modifier": "any",
+    "value": 0.08,
+    "denominator": 74,
+    "quote": "[CASP8] mutated in 8%, [DDX3X] in 4% (apoptosis-related).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "hnsc_broad",
+    "gene": "DDX3X",
+    "modifier": "any",
+    "value": 0.04,
+    "denominator": 74,
+    "quote": "[CASP8] mutated in 8%, [DDX3X] in 4% (apoptosis-related).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "hnsc_broad",
+    "gene": "PRDM9",
+    "modifier": "any",
+    "value": 0.11,
+    "denominator": 74,
+    "quote": "[PRDM9] (11%) and [EZH2] (6%) showed significant mutation rates (histone methyltransferases).",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "hnsc_broad",
+    "gene": "EZH2",
+    "modifier": "any",
+    "value": 0.06,
+    "denominator": 74,
+    "quote": "[PRDM9] (11%) and [EZH2] (6%) showed significant mutation rates (histone methyltransferases).",
+    "section": "Key findings"
+  }
+]

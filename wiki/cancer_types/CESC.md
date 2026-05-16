@@ -5,7 +5,7 @@ main_type: Cervical Cancer
 parent: CERVIX
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Cervical Squamous Cell Carcinoma (CESC)
@@ -34,6 +34,9 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - TCGA CESC mutational signatures were compared with vulvar SCC (the first WES landscape of that tumor type); open question remains whether PIK3CA and FAT1 prevalences align across gynecologic SCCs including CESC and vulvar SCC [PMID:29422544](../papers/29422544.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified FGFR3–TACC3 in 1.7% of CESC samples; CESC was part of the squamous cluster with chr_3p loss and chr_3q gain in the aneuploidy analysis; ERBB2 fusions with HPV-integration proximity were also detected in cervical tumors [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed CESC in the squamous arm-level cluster (chr_3p loss + chr_3q gain) alongside HPV+ and HPV− HNSC, ESCC, and LUSC; HPV-positive status stratifies samples within this cluster [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis; HPV+ CESC tumors co-cluster in pan-squamous iCluster C27 [PMID:29625048](../papers/29625048.md)
+- PI3K pathway dominant in CESC; ERBB2 alterations found in 23% of CESC tumors; cervical adenocarcinoma shows 7% co-actionable HER2+PI3K inhibitor combinations [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for CESC [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -72,3 +75,12 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

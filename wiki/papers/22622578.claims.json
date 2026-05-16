@@ -1,0 +1,40 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "skcm_broad_dfarber",
+    "value": 25,
+    "denominator": null,
+    "quote": "Discovery cohort: 25 metastatic melanomas with matched germline DNA, sequenced by whole-genome sequencing",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "skcm_broad_dfarber",
+    "gene": "BRAF",
+    "modifier": "missense",
+    "value": 0.64,
+    "denominator": 25,
+    "quote": "BRAF V600E was present in 16/25 tumors (64%)",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "skcm_broad_dfarber",
+    "gene": "NRAS",
+    "modifier": "any",
+    "value": 0.36,
+    "denominator": 25,
+    "quote": "NRAS was mutated in 9/25 (36%)",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "skcm_broad_dfarber",
+    "gene": "PREX2",
+    "modifier": "any",
+    "value": 0.44,
+    "denominator": 25,
+    "quote": "11/25 tumors harboring at least 1 non-synonymous PREX2 mutation in the discovery cohort",
+    "section": "Key findings"
+  }
+]

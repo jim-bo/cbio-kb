@@ -5,7 +5,7 @@ main_type: CNS/Brain Cancer
 parent: DIFG
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Glioblastoma Multiforme (GBM)
@@ -43,6 +43,10 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included GBM as one of 33 cancer types; the MC3 MAF provides the somatic variant backbone for gbm_tcga_pan_can_atlas_2018 in cBioPortal [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included GBM; GBM fusions included chromosome 7 gains in IDH-wildtype GBM; druggable fusions covered 6% of pan-can samples including GBM [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study found GBM has the highest rate of any arm-level event (99% of samples, mean score 8.2); IDH-wildtype GBM is characterized by chromosome 7 gain and chromosome 10 loss; GBM clusters in the neural-lineage arm-level group with LGG and melanoma [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis; IDH1-wildtype LGG co-clusters with GBM in iCluster C23; GBM/LGG (IDH1wt) distinguished by EGFR-driven methylation cluster [PMID:29625048](../papers/29625048.md)
+- EGFR drives methylation cluster 16 in LGG and GBM; LGG/GBM split by methylation cluster not mRNA cluster — IDH1-mutant LGGs occupy methylation cluster 1 (330/351 IDH1-mutant) while EGFR-driven LGG/GBM occupy cluster 16 [PMID:29625049](../papers/29625049.md)
+- EGFR altered in 50% of GBM tumors (mutation/amplification/fusion); EGFR amplification co-occurs with KIT/PDGFRA 4q12 amplification in glioma; CDK4+PI3K combination actionable in 7% of GBM [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); GBM had shortest median follow-up (~12 months); TCGA-derived median OS=12.6 months and PFI=6.1 months, consistent with Stupp 2005 standard-care arms [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -71,3 +75,15 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

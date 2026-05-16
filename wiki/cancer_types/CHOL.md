@@ -8,7 +8,7 @@ tags:
   - hepatobiliary
   - cholangiocarcinoma
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Cholangiocarcinoma (CHOL)
@@ -28,6 +28,9 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - ICGC multi-omic profiling of 489 cholangiocarcinomas from 10 countries defined four etiology-driven molecular clusters, nominating ERBB2 amplification (10.4% Fluke-Pos), IDH1/IDH2 mutations, FGFR2 rearrangements, and four new drivers (RASA1, STK11, MAP2K4, SF3B1); integrative clusters predicted prognosis independently of anatomical location and fluke status. [PMID:28667006](../papers/28667006.md)
 - Biliary tract cancer (cholangiocarcinoma) showed responses to neratinib in the SUMMIT basket trial for HER2/HER3-mutant solid tumors, including HER2 kinase domain missense mutations (L755, V777), contributing to the lineage-plus-allele pattern of pan-HER TKI sensitivity [PMID:29420467](../papers/29420467.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified FGFR2–BICC1 as the most recurrent fusion in CHOL (5.6% of cholangiocarcinoma samples), with FGFR2 being a candidate druggable target [PMID:29617662](../papers/29617662.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis; CHOL showed <50% of samples in any single iCluster, indicating substantial molecular heterogeneity [PMID:29625048](../papers/29625048.md)
+- Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); CHOL standardized OS, PFI, DFI, and DSS endpoints derived [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -57,3 +60,12 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

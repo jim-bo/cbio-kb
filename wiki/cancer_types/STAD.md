@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Stomach Adenocarcinoma (STAD)
@@ -37,6 +37,10 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - Stomach adenocarcinoma was among the cancer subtypes in the MSK EGC cohort (n=295, stage IV, MSK-IMPACT); the GS molecular subtype (34%) was enriched for diffuse histology (32% vs 9% in CIN, P=3e-5) and CDH1 mutations; TP53 mutation rate in the MSK metastatic cohort (73%) was higher than in TCGA (62%, q=0.11), consistent with metastatic enrichment [PMID:29122777](../papers/29122777.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included STAD; ERBB2 fusions were detected in gastric tumors; WNK-family fusions also present in STAD [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed STAD in the gastrointestinal arm-level cluster (alongside COAD, READ, PAAD); STAD is an exception to the positive aneuploidy–mutation-rate correlation, driven by MSI/POLE cases [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas; EBV-CIMP STAD forms iCluster C1; MSI STAD co-clusters with COAD in C18; ERBB2-amplified STAD appears in pan-squamous C2 (HER2 amp) with BRCA and BLCA [PMID:29625048](../papers/29625048.md)
+- MSI-high STAD over-expresses immune effectors GZMA, PRF1, GZMK, GZMH (Kolmogorov-Smirnov P<0.01); TP53 and KRAS mutually exclusive in STAD [PMID:29625049](../papers/29625049.md)
+- ERBB2 alterations in chromosomally-unstable esophagogastric (STAD CIN) at 26%; EBV+ STAD shows 80% PI3K pathway alteration rate; PI3K+MEK combination actionable in 10% of EBV+ STAD [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for STAD [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -84,3 +88,15 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: JAK2
 aliases: []
 cancer_types: [DLBCLNOS, SKCM]
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # JAK2
@@ -25,6 +25,8 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - Recurrent driver in DLBCL (1001-patient cohort) but CRISPR knockout did NOT impair growth, suggesting JAK2 may act in early pathogenesis or via non-targetable functions in established DLBCL; cautions against naive mutation-based targeting. [PMID:28985567](../papers/28985567.md)
 - Mutations not associated with resistance to nivolumab in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. [PMID:29033130](../papers/29033130.md)
 - Homozygous loss-of-function JAK2 splice mutation with LOH identified in one NSCLC patient with primary resistance to anti-PD-(L)1 therapy (PD), consistent with interferon-gamma signaling defects; few total events in the 240-patient cohort [PMID:29337640](../papers/29337640.md)
+- JAK2 (with STAT1, STAT3, STAT6) is upregulated in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), C14 (LUAD), and C10 (pan-SCC) across 10,000 TCGA pan-cancer tumors, raising the hypothesis of repurposing JAK-STAT inhibitors in solid tumors [PMID:29625048](../papers/29625048.md)
+- JAK2 H538Y subclonal variant was present in early SCBO-5 bladder organoid passages and was lost during serial passaging, illustrating clonal dynamics in patient-derived bladder cancer organoids [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -71,3 +73,9 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

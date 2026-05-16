@@ -4,8 +4,8 @@ oncotree_code: COADREAD
 main_type: Colorectal Cancer
 parent: BOWEL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 mainType: Colorectal Cancer
 ---
 
@@ -32,6 +32,7 @@ this stub exists so child pages can resolve their `parent:` link.
 - Targeted NGS (MSK-IMPACT, 230 genes) of 69 matched primary/metastasis/normal trios from microsatellite-stable colorectal cancer showed 100% concordance for [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) mutations and 93% overall concordance for recurrent driver alterations between primary and metastatic sites. [PMID:25164765](../papers/25164765.md)
 - WES of 619 CRC tumour/normal pairs from NHS and HPFS cohorts (coadread_dfci_2016) identified 90 significantly mutated genes (73 novel); neoantigen load correlated with TILs (Spearman rho=0.36, p=2e-19) and improved CRC-specific survival (multivariate HR=0.57, p=0.03); HLA class I somatic mutations in 11% of cases were enriched in TIL-rich tumours, implicating antigen-presentation escape [PMID:27149842](../papers/27149842.md)
 - Prospective MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas (979 metastatic + 120 early-stage patients) identified 47 recurrently mutated genes; WNT pathway alteration reached 96% when intronic APC and large CTNNB1 exon-3 deletions were included; right-sided MSS mCRC had shorter OS (5-year 45% vs 67%, p<0.001) and distinct oncogenic enrichment versus left-sided [PMID:29316426](../papers/29316426.md)
+- MSI-high tumors in COADREAD over-express immune effectors GZMA, PRF1, GZMK, GZMH (Kolmogorov-Smirnov P<0.01); TP53 and KRAS are mutually exclusive in COAD/READ but co-occur in PAAD [PMID:29625049](../papers/29625049.md)
 
 ## Therapeutic landscape
 
@@ -64,3 +65,6 @@ this stub exists so child pages can resolve their `parent:` link.
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

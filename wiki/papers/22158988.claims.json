@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "pact_jhu_2011",
+    "value": 32,
+    "denominator": null,
+    "quote": "32 microdissected neoplastic pancreatic cysts (8 SCA, 8 IPMN, 8 MCN, 8 SPN) with matched normal tissue from the same patients.",
+    "section": "Cohort & data"
+  }
+]

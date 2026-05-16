@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "brca_metabric",
+    "value": 1992,
+    "denominator": null,
+    "quote": "Discovery cohort: 997 primary breast tumours; validation cohort: 995 primary breast tumours (total n = 1,992).",
+    "section": "Cohort & data"
+  }
+]

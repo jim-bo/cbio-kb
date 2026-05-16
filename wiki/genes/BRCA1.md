@@ -14,8 +14,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BRCA1
@@ -68,6 +68,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - placeholder
 - Alterations in BRCA1 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
 - One missense [BRCA1](../genes/BRCA1.md) LP/PV was identified in a pediatric cancer predisposition cohort (n=372); burden test was non-significant (OR=1.9, p=0.406). [PMID:29489754](../papers/29489754.md)
+- BRCA1 somatic mutations total 854 events (571 samples) plus 153 germline mutations (152 samples) across 33 TCGA tumor types; germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; somatic BRCA1/2 mutants down-regulate antigen-processing and leukocyte-cytotoxicity programs, while germline carriers down-regulate mitochondrial respiratory-chain and metabolic programs [PMID:29625049](../papers/29625049.md)
+- BRCA1 is included in the 57% pan-cancer actionability figure (versus 52% when restricted to the 10 canonical pathways), contributing to the rationale for germline/somatic testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -204,3 +206,9 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

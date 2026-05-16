@@ -12,7 +12,7 @@ cancer_types:
   - HGSOC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CCNE1
@@ -51,6 +51,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - CCNE1 amplified at 19q12 more often in esophageal adenocarcinoma (EAC) than in ESCC, in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
 - placeholder
 - placeholder
+- CCNE1 amplification co-occurs with TP53 mutation in the cell-cycle pathway; is part of the broader cell-cycle driver co-alteration cluster (with CDKN2A, RB1, CDK4, CDK6, E2F3) that is widely altered pan-cancer but rarely in UVM, THYM, TGCT, or LAML [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -153,3 +154,6 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

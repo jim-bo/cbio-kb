@@ -5,7 +5,7 @@ main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -47,6 +47,10 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included HNSC; HNSC concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified a TRABD–DDR2 promoter-swap fusion driving DDR2 overexpression in one HNSC sample (candidate for dasatinib); DDR2 fusions seen in nine additional samples across five cancer types; FGFR3–TACC3 was present in 1.2% of LUSC (squamous) tumors [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed HPV+ and HPV− HNSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); the squamous signature was strongest in LUSC, ESCC, and HPV-negative HNSC; leukocyte fraction was negatively correlated with aneuploidy in HNSC (Spearman ρ = −0.312) [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas; HPV+ HNSC co-clusters in pan-squamous iCluster C27; HNSC showed <50% of samples in any single iCluster [PMID:29625048](../papers/29625048.md)
+- Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types) [PMID:29625049](../papers/29625049.md)
+- EGFR alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for HNSC [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -107,3 +111,15 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

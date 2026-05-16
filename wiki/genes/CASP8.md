@@ -8,7 +8,7 @@ tags:
   - somatic-mutation
   - whole-exome-sequencing
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CASP8
@@ -25,6 +25,7 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 - Mutated in 23.1% of cSCC (differentiation-related); significant driver in cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
 - Clustered missense and inactivating mutations in 9% of HNSCC (279-tumor TCGA cohort; 92% of mutations in oral cavity); anti-correlated with 11q13 amplification; co-mutated with [HRAS](../genes/HRAS.md) in M-class oral-cavity subset [PMID:25631445](../papers/25631445.md)
 - placeholder
+- CASP8 missense mutants over-express CASP8 protein (FDR < 0.1) in the pan-cancer multi-omic analysis across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -63,3 +64,6 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

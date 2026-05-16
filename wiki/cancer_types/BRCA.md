@@ -5,7 +5,7 @@ main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Invasive Breast Carcinoma (BRCA)
@@ -46,6 +46,10 @@ OncoTree code for invasive breast carcinoma.
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included BRCA; concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified 16 ESR1 fusions across 5 cancer types, 9 in BRCA (8 luminal A/B), with strict mutual exclusivity with ESR1 point mutations and elevated ESR1 expression in fusion-positive samples; ERBB2 fusions also detected with HPV-integration proximity [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed BRCA in the 'epithelial cluster' defined by 1q gain (alongside LUAD and HCC); chr_3p-loss/3q-gain squamous signature was absent in BRCA; TSG-partner fusion under-expression ranged 3% (BRCA) to 38% (PCPG) [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas integrative molecular analysis; ERBB2-amplified BRCA tumors form iCluster C2 (HER2 amp) jointly with BLCA and STAD, supporting tissue-agnostic HER2 targeting; luminal BRCA co-clusters in C19 [PMID:29625048](../papers/29625048.md)
+- Germline BRCA1/2 carriers had mean age of diagnosis 54.4 years vs 62.3 years for somatic-only cases (P=2.07e-10); BRCA1/2 had 854 somatic (571 samples) and 153 germline (152 samples) mutations pan-cancer; GATA3 frameshift/nonsense alleles paradoxically increase mRNA (FDR=4.54e-18) in BRCA [PMID:29625049](../papers/29625049.md)
+- BRCA HER2-enriched subtype shows RTK-RAS alteration rate of 82%; PI3K pathway dominates luminal subtypes; HER2+PI3K inhibitor combination actionable in 17% of HER2-enriched BRCA tumors [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients); OS not recommended for BRCA due to short TCGA follow-up; PFI and DFI preferred; ER+ BRCA had significantly better PFI (p=0.005) and DFI (p=0.001) than ER- [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -94,3 +98,15 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

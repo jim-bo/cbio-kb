@@ -13,7 +13,7 @@ cancer_types:
   - BLCA
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CTNNB1
@@ -68,6 +68,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - placeholder
 - Altered in 8% of 1,134 colorectal adenocarcinomas (24% MSI-H, 6% MSS); hotspot N-terminal exon-3 missense mutations (T41A, S45F, S45P) enriched in MSI-H, while large in-frame exon-3 deletions (26 whole-exon, 3 partial) were exclusive to MSS tumors — eliminating GSK3β phosphorylation sites and escaping β-TRCP-mediated degradation to drive nuclear β-catenin [PMID:29316426](../papers/29316426.md)
 - CTNNB1 is an SMG in prostate cancer with N-terminal hotspot mutations plus a novel p.Lys335Ile hotspot near the AXIN-binding domain; confirmed in the 1,013-patient WES cohort and MSK-IMPACT validation [PMID:29610475](../papers/29610475.md).
+- CTNNB1 mutations are mutually exclusive with TP53 across pan-cancer; in UCEC, CTNNB1 defines one of two mutually-exclusive somatic-interaction networks (CTNNB1-PTEN-CTCF vs TP53-PPP2R1A), and CTNNB1-enriched tumors cluster with the copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
+- CTNNB1 S45F activating hotspot mutation appeared in bladder organoid line SCBO-3.2 (recurrent tumor after BCG + mitomycin-C treatment) but was absent from the parental tumor and early passages, documenting a clonal-evolution event under intravesical therapy [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -193,3 +195,9 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Esophageal Squamous Cell Carcinoma (ESCC)
@@ -28,6 +28,7 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 - Oral microbial signatures (Prevotella, Porphyromonas gingivalis, Fusobacterium nucleatum enrichment; Neisseria, Lautropia, Corynebacterium depletion) associate with ESCC risk; pooled OR 9.50 (95% CI 5.89–15.29) from two-study meta-analysis [PMID:24670651](../papers/24670651.md)
 - TCGA profiling of 90 esophageal squamous cell carcinomas defined three molecular subtypes: ESCC1 (NRF2-pathway/classical squamous, NFE2L2/KEAP1/CUL3 alterations, SOX2/TP63 amplification, VGLL4 deletion), ESCC2 (NOTCH/PI3K/immune-infiltrated, NOTCH1/ZNF750 mutations, KMT2D/KDM6A alterations, CDK6 amplification), ESCC3 (PI3K-activated, SMARCA4/KMT2D mutant, US/Canada only); ESCC resembles head/neck and lung squamous tumors; no HPV aetiologic role; Vietnamese ESCC enriched for NFE2L2 mutations (24% vs 6%) [PMID:28052061](../papers/28052061.md)
 - Pan-cancer aneuploidy study placed ESCC in the squamous arm-level cluster (chr_3p loss + chr_3q gain) alongside HPV+ and HPV− HNSC, CESC, and LUSC; the squamous chr_3 signature was most prominent in LUSC, ESCC, and HPV-negative HNSC [PMID:29622463](../papers/29622463.md)
+- NRF2/oxidative-stress pathway alteration rate 23% in esophagogastric squamous (ESCC), second highest pan-cancer after LUSC (25%); EGFR alterations present in esophagogastric squamous tumors at ~14% [PMID:29625050](../papers/29625050.md)
 
 ## Subtypes
 
@@ -51,3 +52,6 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

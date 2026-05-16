@@ -5,7 +5,7 @@ main_type: Adrenocortical Carcinoma
 parent: ADRENAL_GLAND
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Adrenocortical Carcinoma (ACC)
@@ -22,6 +22,9 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 
 - PIPseq cohort: [ALK](../genes/ALK.md) Q1146K activating mutation identified in an adrenocortical carcinoma patient — an ALK-inhibitor target; the patient received matched targeted therapy (ALK inhibitor) [PMID:28007021](../papers/28007021.md).
 - Pan-cancer RNA-seq fusion profiling (9,624 TCGA samples) included ACC as one of 33 cancer types; ACC samples had a median of 1 fusion/sample consistent with the pan-cancer median [PMID:29617662](../papers/29617662.md)
+- Included in the TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types; iCluster analysis identified ACC co-clustering with KICH in C9 (both hypodiploid) [PMID:29625048](../papers/29625048.md)
+- Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types; 89% of tumors carry at least one driver alteration in 10 canonical oncogenic pathways [PMID:29625050](../papers/29625050.md)
+- Included in the TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR) across 11,160 patients and 33 cancer types; standardized OS, PFI, DFI, and DSS endpoints derived for survival analyses [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -42,3 +45,12 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

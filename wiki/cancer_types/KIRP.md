@@ -10,8 +10,8 @@ tags:
   - tcga-cohort
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Kidney Renal Papillary Cell Carcinoma / KIRP (TCGA)
@@ -27,6 +27,9 @@ KIRP is the TCGA cohort identifier for kidney renal papillary cell carcinoma. Th
 ## Recurrent alterations
 
 - Pan-cancer fusion study (9,624 TCGA samples) found KIRP has a median of 0 fusions per sample; 6% to 28% (highest in KIRP) of kinase-partner fusions were over-expression outliers, suggesting promoter-swap mechanisms are relatively frequent in papillary [RCC](../cancer_types/RCC.md) [PMID:29617662](../papers/29617662.md).
+- Included in TCGA PanCancer Atlas; KIRP co-clusters with KIRC in pan-kidney iCluster C28; enriched for hypoxia, retinoid metabolism, PPAR-RXR, and immune checkpoints PD-1/CTLA4 [PMID:29625048](../papers/29625048.md)
+- Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for KIRP [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -41,3 +44,12 @@ KIRP is the TCGA cohort identifier for kidney renal papillary cell carcinoma. Th
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

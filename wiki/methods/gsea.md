@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [pathway-analysis, gene-sets, transcriptomics, enrichment]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # GSEA
@@ -27,6 +27,7 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - GSEA used with IPA for pathway analysis of DEGs between on-therapy responders and non-responders in 45 melanoma RNA-seq samples; enriched pathways included PD-1 signaling, IFN-γ, IL-2, and TCR signaling [PMID:29033130](../papers/29033130.md)
 - GSEA of PBAF-complex-perturbed A704 [CCRCC](../cancer_types/CCRCC.md) cells and PBRM1-LOF tumors revealed enrichment of IL6/JAK-STAT3, TNF-α/NF-κB, hypoxia, and cytokine-cytokine receptor gene sets (top hit FWER q=0.002) [PMID:29301960](../papers/29301960.md)
 - GSEA against MSigDB Hallmark gene sets used to correlate arm-level aneuploidy with expression programs; revealed positive enrichment for E2F targets, G2M checkpoint, and mitotic spindle hallmarks, and negative enrichment for immune signatures after controlling for leukocyte fraction [PMID:29622463](../papers/29622463.md)
+- Applied via ssGSEA with a 160-signature panel and mclust/BIC selection to define six pan-cancer immune subtypes (C1 Wound Healing through C6 TGF-β Dominant) across ~11,000 TCGA PanCancer Atlas tumors [PMID:29625049](../papers/29625049.md).
 
 ## Notes
 
@@ -66,3 +67,6 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

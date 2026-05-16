@@ -5,8 +5,8 @@ kind: METHYLATION
 canonical_source: corpus
 unverified: true
 tags: [methylation, dna-methylation, illumina, infinium]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Illumina Infinium HumanMethylation450 BeadChip (HM450)
@@ -32,6 +32,8 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - Illumina HumanMethylation450 (HM450) arrays profiled DNA methylation of 164 oesophageal carcinomas and gastric cancers; revealed a proximal-to-distal hypermethylation gradient in GEA-CIN tumors and defined the hypermethylated cluster enriched in EAC [PMID:28052061](../papers/28052061.md).
 - Profiled all 412 BLCA tumors; identified 158 epigenetically silenced genes and a hypomethylation cluster corresponding to the luminal-papillary subtype (enriched FGFR3 mutations, better survival) [PMID:28988769](../papers/28988769.md)
 - Applied to 206 TCGA sarcomas; combined SCNA + methylation clustering defined DDLPS prognostic subtypes (K3 vs K1+K2, p=0.001); hypermethylation alone (Meth2) yielded HR=4.4 (p=0.002) in DDLPS [PMID:29100075](../papers/29100075.md)
+- Used for DNA methylation profiling in the 9,125-tumor TCGA PanCanAtlas cohort; RESET method applied to probe cg13601799 for CDKN2A promoter methylation calling [PMID:29625050](../papers/29625050.md).
+- Merged with HM27 data across 22,601 shared probes for DNA methylation profiling of ~10,000 TCGA PanCancer Atlas tumors; methylation contributed 11% of the iCluster integrated signal across 33 cancer types [PMID:29625048](../papers/29625048.md).
 
 ## Notes
 
@@ -84,3 +86,9 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

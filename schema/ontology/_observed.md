@@ -510,3 +510,12 @@
 - method: ichorcna — observed in PMID:29622463 — note: IchorCNA applied to low-coverage MiSeq WGS from AALE chr_3p-deleted clones alongside HMMCopy to detect chromosome-3 duplication subclones
 - method: star-aligner — observed in PMID:29622463 — note: STAR aligner used for RNA-seq mapping in AALE chr_3p-deleted cell experiments (HiSeq 2500 PE100); part of STAR + RSEM + edgeR pipeline
 - method: karyotyping — observed in PMID:29622463 — note: cytogenetic confirmation of chr_3p hemizygosity in CRISPR-engineered AALE clones alongside Sanger sequencing, qPCR, and WGS
+- method: 3d-hotspots — observed in PMID:29625050 — note: 3D protein-structure-based somatic mutation hotspot detection; used alongside 2D cancer-hotspots in TCGA PanCanAtlas driver annotation of 9,125 tumors
+- method: cancer-hotspots — observed in PMID:29625050 — note: 2D linear sequence-based statistical hotspot detection; cancerhotspots.org resource; used in TCGA PanCanAtlas driver annotation alongside 3D Hotspots and OncoKB
+- method: cox-proportional-hazards — observed in PMID:29625055 — note: semi-parametric survival regression; used with PH-assumption testing (Grambsch & Therneau 1994) in TCGA-CDR for OS/PFI/DFI/DSS across 11,160 patients in 33 cancer types
+- method: kaplan-meier — observed in PMID:29625055 — note: non-parametric survival estimator; used to generate OS/PFI/DFI/DSS curves in TCGA-CDR for 11,160 TCGA patients; implemented in R survival package
+- method: pathwaymapper — observed in PMID:29625050 — note: interactive web tool for visualizing pathway-level alteration frequencies; TCGA PanCanAtlas 10-pathway templates accessible via cBioPortal and PathwayMapper
+- method: reset — observed in PMID:29625050 — note: probe cg13601799-based CDKN2A promoter methylation caller from HM450 array data; used in TCGA PanCanAtlas cell-cycle pathway analysis
+- method: select — observed in PMID:29625050 — note: mutual exclusivity / co-occurrence test for somatic alterations; 416 oncogenic alterations tested yielding 152 exclusive and 116 co-occurring pairs in 9,125 TCGA PanCanAtlas tumors
+- method: tcga-cdr-pan-cancer-clinical-data-resource — observed in PMID:29625055 — note: standardized survival annotation (OS/PFI/DFI/DSS) for 11,160 TCGA patients across 33 cancer types; canonical clinical resource for PanCanAtlas analyses
+- method: tumormap — observed in PMID:29625048 — note: 2D hexagonal-grid visualization of iCluster latent-variable distances for ~10,000 TCGA PanCancer Atlas tumors; UCSC-developed tool

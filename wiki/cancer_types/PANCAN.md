@@ -10,8 +10,8 @@ tags:
   - corpus-identifier
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Pan-Cancer / PANCAN (TCGA PanCancer Atlas)
@@ -28,6 +28,8 @@ PANCAN is not an OncoTree cancer-type code but is used in this wiki as a corpus 
 ## Recurrent alterations
 
 - Pan-cancer fusion study (9,624 TCGA samples, 33 cancer types) identified 25,664 fusions with 63.3% WGS validation rate; 6.0% of pan-cancer samples harbor at least one druggable fusion; fusions are the sole driver in ~1.8% of tumors; [TP53](../genes/TP53.md) is predominantly mutated rather than fused across cancer types [PMID:29617662](../papers/29617662.md).
+- TCGA PanCancer Atlas integrative driver/immune analysis covering 11,000 tumors across 33 cancer types; identified 299 consensus driver genes, >3,200 oncogenic mutations, >800 pathogenic germline variants in 99 predisposition genes (~8% of cases); six pan-cancer immune subtypes (C1-C6) defined [PMID:29625049](../papers/29625049.md)
+- TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR) covering 11,160 patients across 33 cancer types; standardized OS, PFI, DFI, DSS endpoints; median follow-up 22.1 months; PFI vs OS logHR correlation r=0.96 (95% CI 0.77-0.99) [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -42,3 +44,9 @@ PANCAN is not an OncoTree cancer-type code but is used in this wiki as a corpus 
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

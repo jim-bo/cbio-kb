@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [clustering, integrative-genomics, multi-platform]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # iCluster
@@ -22,6 +22,7 @@ iCluster is a probabilistic latent variable model for joint dimensionality reduc
 - iCluster integrative clustering applied across SCNA, methylation, mRNA, and miRNA platforms in the TCGA esophageal/stomach study; cleanly separated squamous from adenocarcinoma histologies and defined three ESCC molecular subtypes (ESCC1, ESCC2, ESCC3) [PMID:28052061](../papers/28052061.md).
 - iClusterPlus integrative clustering applied to 94 CCA samples with all four data types (sSNVs/indels, sCNAs, mRNA, methylation), validated by randomized subsampling and expanded to 121 samples with 90% cluster-prediction accuracy [PMID:28667006](../papers/28667006.md)
 - iCluster used for cross-platform integrative clustering (WES, RNA-seq, methylation, RPPA, SNP6) of 206 TCGA sarcomas; separated LMS into ULMS vs STLMS clusters and defined STLMS C1 (worse RFS, p=0.0002) vs C2 molecular subtypes [PMID:29100075](../papers/29100075.md)
+- Applied across four platforms (copy number, DNA methylation, mRNA, miRNA) on 9,759 TCGA PanCancer Atlas tumors to identify 28 integrated molecular subtypes; copy-number alterations contributed 47%, transcriptome 42%, methylation 11% of the signal [PMID:29625048](../papers/29625048.md).
 
 ## Notes
 
@@ -43,3 +44,6 @@ iCluster is a probabilistic latent variable model for joint dimensionality reduc
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

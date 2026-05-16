@@ -1,0 +1,40 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "prad_broad",
+    "value": 112,
+    "denominator": null,
+    "quote": "112 prostate adenocarcinoma/normal pairs, treatment-naive radical prostatectomy specimens from American and Australian patients",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "prad_broad",
+    "gene": "SPOP",
+    "modifier": "any",
+    "value": 0.135,
+    "denominator": 111,
+    "quote": "SPOP was the most frequently mutated gene at 13% of cases (15/111 exomes), with all mutations affecting conserved residues in the substrate-binding cleft",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "prad_broad",
+    "gene": "FOXA1",
+    "modifier": "missense",
+    "value": 0.036,
+    "denominator": 111,
+    "quote": "FOXA1 harbored mutations in 4/111 exomes and 4/41 RNA-seq samples, all in the Forkhead domain near the DNA-binding surface",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "prad_broad",
+    "gene": "MED12",
+    "modifier": "any",
+    "value": 0.054,
+    "denominator": 111,
+    "quote": "MED12 was mutated in 6/111 exomes, with a recurrent F1224L mutation in five samples",
+    "section": "Key findings"
+  }
+]

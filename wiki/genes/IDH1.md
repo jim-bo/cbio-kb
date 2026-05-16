@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # IDH1
@@ -46,6 +46,10 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - R132C mutation in 6 medulloblastoma cases (5 SHH, 1 WNT); IDH1-mutant SHH tumours are CIMP+, mirroring G-CIMP in glioma [PMID:28726821](../papers/28726821.md)
 - Confirmed established prostate cancer driver; enriched in primary vs metastatic PRAD tumors (p=0.01, weighted permutation test) in the 1,013-sample WES meta-cohort (prad_p1000). [PMID:29610475](../papers/29610475.md)
 - IDH1 mutation defines the LGG subgroup that clusters separately from GBM by aneuploidy pattern: IDH-mutant LGG is characterized by 1p loss and 19q gain (1p/19q co-deletion), while IDH-wildtype GBM shows chromosome 7 gain and chromosome 10 loss. [PMID:29622463](../papers/29622463.md)
+- IDH1 defines iCluster C11 (LGG IDH1 mutant), one of the most homogeneous and high-silhouette iClusters in pan-cancer integrative clustering; IDH1-wildtype LGG co-clusters with GBM in C23 [PMID:29625048](../papers/29625048.md)
+- IDH1 mutations define methylation cluster 1 in LGG (330/351 samples mutant); IDH1-driven gliomas exhibit lower STAT1, decreasing CXCL10 expression and reducing immune infiltrate; IDH1 co-occurs with ATRX in pan-cancer somatic-interaction networks [PMID:29625049](../papers/29625049.md)
+- IDH1 mutations in LGG are actionable: IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant LGG; IDH1/2 alterations included in the 57% pan-cancer actionability figure alongside BRCA1/2 in analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- IDH1 mutations in LGG are highlighted as the canonical example of TCGA survival-genomic integration: IDH-mutant LGG patients (with or without 1p/19q codeletion) have substantially longer OS than IDH-wildtype LGG, establishing IDH/1p19q status as more robust than histologic subtype; this finding contributed to the WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
 
 ## Cancer types (linked)
 
@@ -155,3 +159,15 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

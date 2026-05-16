@@ -3,8 +3,8 @@ symbol: KMT2C
 aliases: []
 cancer_types: [CLLSLL, CESC, BLCA, EGC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # KMT2C
@@ -50,6 +50,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Most frequently mutated newly recognized SMG in MIBC (18%, n=412, TCGA BLCA 2017); less frequently mutated in MSK metastatic gastroesophageal cancer vs TCGA non-MSI-H (q≤0.10). [PMID:28988769](../papers/28988769.md)
 - Significantly less frequently mutated in MSK metastatic gastroesophageal cancer (EGC) cohort vs TCGA non-MSI-H (q≤0.10), suggesting differential selection in metastatic vs localized disease. [PMID:29122777](../papers/29122777.md)
 - Epigenetic-regulator SMG significantly enriched in metastatic vs primary PRAD tumors in the 1,013-sample WES meta-cohort (prad_p1000); part of the metastasis-enrichment genomic signature proposed for risk stratification in localized prostate cancer. [PMID:29610475](../papers/29610475.md)
+- KMT2C is among the epigenetic regulators (ARID1A, KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines in the Columbia/MSK biobank [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -174,3 +175,6 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

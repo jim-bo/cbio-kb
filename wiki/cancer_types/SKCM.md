@@ -8,7 +8,7 @@ tags:
   - skin-cancer
   - UV-mutagenesis
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Cutaneous Melanoma (SKCM)
@@ -37,6 +37,10 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - Riaz et al. profiled paired pre- and on-therapy biopsies from 68 advanced melanoma patients on anti-PD-1 (nivolumab, CA209-038 trial), demonstrating that pre-therapy TMB predicts OS in ipilimumab-naive but not ipilimumab-progressed patients, and that genomic contraction (selective depletion of neoantigenic clones on-therapy) in responders provides evidence of immunoediting under PD-1 blockade [PMID:29033130](../papers/29033130.md)
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included SKCM; concordance with the legacy PanCan12 MAF exceeded 90%; SKCM had the largest median SNVs per sample along with LUSC and LUAD, consistent with UV-mutagen exposure [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included SKCM; SKCM (melanoma) clustered in the neural-lineage arm-level group with GBM and LGG in the aneuploidy analysis; druggable fusions annotated across 29 cancer types including SKCM [PMID:29617662](../papers/29617662.md)
+- Included in TCGA PanCancer Atlas; SKCM/UVM showed highest mutation rates (UVB signature) in iCluster C15; 361/9,125 TCGA PanCanAtlas samples are metastatic (all from SKCM) [PMID:29625048](../papers/29625048.md)
+- BRAF-mutant SKCM tumors in C3 immune subtype have higher CD8 T-cell fraction than NRAS-mutant tumors (ANOVA P<2e-5); a CD8-CD274(PD-L1)-PDCD1(PD-1) signaling loop recovered, suggesting BRAF+PD-L1 co-targeting may be synergistic [PMID:29625049](../papers/29625049.md)
+- SKCM leads in OncoKB Level 1/2A actionable alteration frequency at 46% (driven by BRAF hotspots at 51%); RTK-RAS alteration rate 95% in SKCM; PI3K+RAF combination actionable in 12% [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); SKCM TCGA cohort is predominantly metastatic (296 regional lymph-node, 68 distant metastases vs 103 primary); survival correlations should use only the 103 primary tumors [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -92,3 +96,15 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

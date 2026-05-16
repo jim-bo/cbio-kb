@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [somatic-mutation, tcga, pan-cancer, dataset]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MC3 (Mutation Dataset)
@@ -18,6 +18,8 @@ The MC3 (Multi-Center Mutation Calling in Multiple Cancers) dataset refers to th
 ## Used by
 
 - MC3 Public MAF used as the source of driver-gene mutation calls for integration with fusion data across 8,955 TCGA patients; enabled quantification of fusion-only vs. mutation-only vs. dual-driver samples [PMID:29617662](../papers/29617662.md)
+- MC3 MAF v2.8 call set used as the source of somatic mutation data for 9,125 TCGA PanCanAtlas tumors in the pan-cancer oncogenic signaling pathway analysis [PMID:29625050](../papers/29625050.md).
+- MC3 PASS MAF (syn7824274) produced by seven callers (MuTect, VarScan, Indelocator, Pindel, SomaticSniper, RADIA, MUSE) used as the somatic variant source for the TCGA PanCancer Atlas 11,000-tumor driver analysis; 22,485,627 raw calls reduced to 2,907,335 high-confidence variants [PMID:29625049](../papers/29625049.md).
 
 ## Notes
 
@@ -28,3 +30,9 @@ The MC3 (Multi-Center Mutation Calling in Multiple Cancers) dataset refers to th
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

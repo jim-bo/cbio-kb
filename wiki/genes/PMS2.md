@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -30,6 +30,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - Homozygous S459X germline variant diagnostic of constitutional mismatch-repair deficiency (CMMRD) syndrome in a pediatric patient with T-cell lymphoblastic lymphoma and consanguineous parentage [PMID:28007021](../papers/28007021.md)
 - MSH2, MLH1, MSH6, and PMS2 are altered in 3% of advanced prostate cancers; MMR-gene alterations produce a hypermutator phenotype with MMR/MSI signatures, raising potential for immune-checkpoint blockade response [PMID:28825054](../papers/28825054.md)
 - Assessed by IHC for MMR status alongside MLH1, MSH2, MSH6 in 1,640 mCRC tumors; IHC concordance with MSIsensor was 98.6% [PMID:29316426](../papers/29316426.md)
+- PMS2 is among the top DDR-pathway predisposition genes (Core DDR); germline pathogenic variants in PMS2 and other MMR genes (MLH1, MSH2, MSH6) reach MSI-high in 18/60 samples, with 16/18 carrying both germline and somatic MMR hits, nominating these patients as candidates for checkpoint-blockade therapy [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -86,3 +87,6 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

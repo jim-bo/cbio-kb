@@ -3,8 +3,8 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # KRAS
@@ -114,6 +114,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease; not a qualifying alteration in the SUMMIT basket trial [PMID:29420467](../papers/29420467.md)
 - Referenced from prior targeted-panel literature as a recurrent alteration in HPV(−) vulvar SCC; not specifically identified as a new finding in this WES cohort (N=15) [PMID:29422544](../papers/29422544.md)
 - KRAS established hotspot mutations newly reach statistical significance (SMG status) in prostate cancer in the 1,013-sample WES meta-cohort (prad_p1000); RAS/RAF/MAPK pathway altered in 5% of PRAD overall. [PMID:29610475](../papers/29610475.md)
+- KRAS shows strong mutual exclusivity with NRAS/HRAS and BRAF V600 within Ras signaling across nearly all 33 TCGA tumor types; KRAS/NRAS/HRAS are among the most frequently predicted neoantigens; KRAS is mutually exclusive with TP53 in COAD/READ/LUAD but co-occurs with TP53 in PAAD [PMID:29625049](../papers/29625049.md)
+- KRAS is the most-altered RTK-RAS gene pan-cancer (9% of TCGA); hotspot mutations dominate and are concentrated in PAAD (72%), colorectal genomically-stable (69%), and LUAD (33%); KRAS mutation is mutually exclusive with EGFR amplification and NF1/RASA1 loss [PMID:29625050](../papers/29625050.md)
 
 ## Cancer types (linked)
 
@@ -408,3 +410,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

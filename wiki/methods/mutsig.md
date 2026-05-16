@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # MutSig
@@ -65,6 +65,7 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - Applied with MuSiC to identify 47 significantly recurrently mutated genes in 1,027 MSS colorectal adenocarcinomas, including APC (79%), TP53 (78%), KRAS (44%), PIK3CA (18%), and SMAD4 (16%) [PMID:29316426](../papers/29316426.md)
 - MutSig2CV (P < 3.5e-5) applied to KIRC PASS variants from the MC3 open-access MAF; identified 10 SMGs; the unfiltered MAF inflated the list to 1,203 SMGs, demonstrating the necessity of stringent filtering [PMID:29596782](../papers/29596782.md)
 - MutSig2CV (integrating MutSigCV, MutSigFN, MutSigCL) applied to 1,013 prostate WES samples with additional biological filters (≥10 altered samples, allelic-fraction floors, length/expression/oncogenic-variant filters); identified 97 SMGs [PMID:29610475](../papers/29610475.md)
+- Applied (MutSigCV) to identify recurrently mutated genes driving somatic mutation patterns across 9,125 TCGA PanCanAtlas tumors in 33 cancer types [PMID:29625050](../papers/29625050.md).
 
 ## Notes
 
@@ -219,3 +220,6 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

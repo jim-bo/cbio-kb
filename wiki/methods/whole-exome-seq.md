@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [sequencing, wes]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Whole-exome sequencing (WES)
@@ -157,6 +157,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used for trio whole-exome sequencing of 372 pediatric cancer patients to identify germline LP/PVs in 25 HBOC-associated genes (GRCh38/hg38); CNVs were not analyzed [PMID:29489754](../papers/29489754.md)
 - Formed the sequencing backbone of the TCGA MC3 project, processing ~10,510 tumor/normal pairs across 33 cancer types on Illumina platforms with multiple capture kits; intersection-of-capture-kit BED used as exonic mask [PMID:29596782](../papers/29596782.md)
 - Applied to 1,013 prostate tumor/normal pairs (680 primary, 333 metastatic castration-resistant) to define 97 significantly mutated genes; mean target coverage 104.7× (tumor) and 103.8× (normal) [PMID:29610475](../papers/29610475.md)
+- Source of somatic mutation calls (via MC3 MAF v2.8) for 9,125 TCGA PanCanAtlas tumors across 33 cancer types in the pan-cancer oncogenic signaling pathway analysis [PMID:29625050](../papers/29625050.md).
+- Source of somatic and germline variant calls for the TCGA PanCancer Atlas 11,000-tumor driver analysis; MC3 pipeline applied 7 callers to WES data yielding 2,907,335 high-confidence somatic calls; germline analysis identified 1,461 pathogenic/likely-pathogenic variants [PMID:29625049](../papers/29625049.md).
+- Applied to 24 samples from 5 bladder cancer organoid lines (Agilent SureSelect V4, HiSeq 2500, ~240× on-target) for phylogenetic analysis and mutational concordance assessment with parental tumors [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -543,3 +546,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

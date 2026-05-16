@@ -3,8 +3,8 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC, DLBCLNOS, BLCA]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # KMT2D
@@ -59,6 +59,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Recurrent driver in DLBCL (1001-patient cohort); mutually exclusive with MYC mutations; previously known as MLL2. [PMID:28985567](../papers/28985567.md)
 - Histone methyltransferase chromatin-modifier SMG in MIBC (n=412, TCGA BLCA 2017); predominantly inactivating mutations. [PMID:28988769](../papers/28988769.md)
 - Epigenetic-regulator SMG significantly enriched in metastatic vs primary PRAD tumors in the 1,013-sample WES meta-cohort (prad_p1000); part of the metastasis-enrichment genomic signature alongside TP53, AR, PTEN, RB1, FOXA1, APC, BRCA2, and KMT2C. [PMID:29610475](../papers/29610475.md)
+- KMT2D is among the top somatic driver genes in the TCGA pan-cancer landscape; it participates in a UCEC-enriched co-alteration network and chromatin-remodeling gene programs across multiple tumor types [PMID:29625049](../papers/29625049.md)
+- KMT2D is among the epigenetic regulators (ARID1A, KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines; an S831 KMT2D variant was gained by SCBO-5 organoids during culture, documenting clonal evolution in vitro [PMID:29625057](../papers/29625057.md)
 
 ## Cancer types (linked)
 
@@ -208,3 +210,9 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

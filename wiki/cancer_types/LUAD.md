@@ -5,7 +5,7 @@ main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -60,6 +60,10 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included LUAD; LUAD and LUSC had the largest median number of SNVs per sample, consistent with tobacco-carcinogen mutagen exposure [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified EML4–ALK in 1.0% of LUAD (5 of 20 ALK-fusion samples); never-smokers had a dramatically higher rate of druggable fusions (20%) vs smokers (2.1%; chi-square p < 1e-6); RET fusions also detected in LUAD [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study placed LUAD in the epithelial arm-level cluster (alongside BRCA and HCC) defined by 1q gain; <50% of LUAD tumors had 3p loss (vs ~80% in LUSC) and only 13% had 3q gain, contrasting sharply with the squamous LUSC signature [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas; LUAD dominated iCluster C14 (smoking mutational signature, highest mutation rates); JAK2/STAT1/STAT3/STAT6 upregulation in LUAD iCluster [PMID:29625048](../papers/29625048.md)
+- ALK and ROS1 fusions found as driver events in small subsets of LUAD; EGFR missense mutations associated with elevated EGFR mRNA; TP53 and KRAS mutually exclusive in LUAD [PMID:29625049](../papers/29625049.md)
+- RTK-RAS alteration rate 74% in LUAD; KRAS hotspot mutations in 33% of LUAD; EGFR alterations in 13%; SOS1 activating mutations in ~1% of LUAD; STK11 loss co-occurs with KEAP1 loss in lung cancer [PMID:29625050](../papers/29625050.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for LUAD [PMID:29625055](../papers/29625055.md)
 
 ## Subtypes
 
@@ -134,3 +138,15 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "prad_mskcc",
+    "value": 218,
+    "denominator": null,
+    "quote": "218 prostate tumors: 181 primaries + 37 metastases, plus 12 cell lines/xenografts",
+    "section": "Cohort & data"
+  }
+]

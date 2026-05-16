@@ -8,7 +8,7 @@ cancer_types:
   - GEJ
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CDH1
@@ -40,6 +40,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - CDH1-linked upregulated E-cadherin signalling pathway identified in EAC vs ESCC by gene-expression analysis in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
 - placeholder
 - placeholder
+- CDH1 nonsense/frameshift mutants in BRCA upregulate leukocyte-migration gene programs, while missense mutants do not — indicating allele-class-specific transcriptomic consequences in the pan-cancer multi-omic analysis [PMID:29625049](../papers/29625049.md)
 
 ## Cancer types (linked)
 
@@ -122,3 +123,6 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

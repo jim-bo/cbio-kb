@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - gene-fusion
   - tyrosine-kinase
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ABL1
@@ -22,6 +22,7 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 - Mentioned in a 2014 HCC genomics review as a resistance analogy: ABL1-targeting tyrosine kinase inhibitor resistance patterns inform rational combination therapy design for HCC [PMID:24735922](../papers/24735922.md)
 - BCR-ABL1 fusion diagnostic of CML; NUP214-ABL1 and FOXP1-ABL1 fusions identified in B-cell ALL (BLL) — ABL1 rearrangements are TKI targets (dasatinib used to achieve remission enabling curative bone-marrow transplant) [PMID:28007021](../papers/28007021.md)
 - The [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md) fusion is a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) 'fusion-only' tumors in a pan-cancer RNA-seq fusion analysis across TCGA. [PMID:29617662](../papers/29617662.md)
+- Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the authors caution that the same alteration class yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

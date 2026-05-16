@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Immunohistochemistry (IHC)
@@ -49,6 +49,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC used for HER2 status assessment (3+ positive per CAP/ASCO criteria) and B2M protein expression validation in 295 metastatic EGC patients; HER2 IHC concordance with NGS-based ERBB2 amplification was 93.7% [PMID:29122777](../papers/29122777.md)
 - Nuclear β-catenin staining by IHC confirmed WNT pathway activation in [CCRCC](../cancer_types/CCRCC.md) tumors harboring the recurrent APC intronic splice-acceptor mutation chr5:112151184 A>G [PMID:29301960](../papers/29301960.md)
 - MMR protein IHC (MLH1, MSH2, MSH6, PMS2) showed 98.6% concordance with MSIsensor score ≥10 for MSI classification in 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
+- Used to assess luminal/basal phenotypic stability across 22 patient-derived bladder cancer organoid lines during serial passaging and xenograft conversion; Ki67 and cleaved caspase-3 IHC used to evaluate in vivo drug response [PMID:29625057](../papers/29625057.md).
 
 ## Notes
 
@@ -145,3 +146,6 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

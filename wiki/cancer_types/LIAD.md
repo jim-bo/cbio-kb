@@ -4,8 +4,8 @@ oncotree_code: LIAD
 main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Hepatocellular Adenoma (LIAD)
@@ -22,6 +22,7 @@ Hepatocellular Adenoma (HCA) is a benign liver tumor classified under Hepatobili
 
 - [CTNNB1](../genes/CTNNB1.md) (β-catenin) activating mutations — present in a high-risk HCA subtype; this molecular subtype has a high risk of malignant transformation to HCC and is an indication for surgical resection [PMID:24735922](../papers/24735922.md)
 - [TERT](../genes/TERT.md) promoter mutations — detected in 17% of borderline HCA/HCC lesions and 56% of HCA with overt HCC transformation; absent in classical HCA — established as a biomarker for the HCA→HCC transition [PMID:24735922](../papers/24735922.md)
+- 11 hepatocellular adenoma cases (non-viral, non-cirrhotic; 6 inflammatory I-HCA, 4 steatotic H-HCA, 1 beta-catenin B-HCA) profiled by MSK-IMPACT 341-gene panel; most frequent mutation HNF1A 3/9 (all H-HCA); no TERT mutations detected in any HCA; HCA miRNA profiles cluster between normal liver and HCC [PMID:30052636](../papers/30052636.md)
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Hepatocellular Adenoma (HCA) is a benign liver tumor classified under Hepatobili
 - [PMID:24735922](../papers/24735922.md) — Pinyol et al. (2014), narrative review of HCC/HCA molecular profiling and targeted therapy landscape.
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

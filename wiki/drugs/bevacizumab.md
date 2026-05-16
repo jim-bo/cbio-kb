@@ -5,8 +5,8 @@ drug_class: anti-VEGF monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [antiangiogenic]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # bevacizumab
@@ -24,6 +24,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - Noted in the clinical-context discussion of [GBM](../cancer_types/GBM.md) treatment in the TCGA 2013 multi-platform study (n=543); bevacizumab is cited as part of the GBM therapeutic landscape but is not the focus of biomarker analysis in this dataset [PMID:24120142](../papers/24120142.md).
 - Reviewed in HCC: atezolizumab + bevacizumab achieved ORR 65% in 23 patients (FDA breakthrough designation); bevacizumab contributes VEGF blockade alongside anti-PD-L1 in combination strategies [PMID:24798001](../papers/24798001.md)
 - Bevacizumab + sintilimab achieved ORR 54.5% in platinum-refractory ICI-naïve R/M NPC [PMID:24952746](../papers/24952746.md)
+- One ERBB2-wild-type endometrial patient with a de novo ESR1 mutation progressed on letrozole then achieved an 18-month ongoing response on bevacizumab + fulvestrant combination [PMID:30068706](../papers/30068706.md)
 
 ## Resistance mechanisms
 
@@ -53,3 +54,6 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

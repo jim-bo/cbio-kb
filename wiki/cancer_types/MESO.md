@@ -29,6 +29,7 @@ MESO is the TCGA cohort identifier for mesothelioma (predominantly pleural). The
 - Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md)
 - MESO has low actionable-alteration rates in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); MESO stage-III/IV vs stage-I/II Cox HR not significantly different by any survival endpoint [PMID:29625055](../papers/29625055.md)
+- MSI-H detected in 2.4% of mesothelioma cases by MANTIS WES caller across 11,139 TCGA/TARGET tumors; MSI-H MESO tumors had ~7-fold higher mutational burden vs MSS (982 vs 142 mutations, P=0.10, non-significant) [PMID:29850653](../papers/29850653.md)
 
 ## Subtypes
 
@@ -50,5 +51,8 @@ MESO is the TCGA cohort identifier for mesothelioma (predominantly pleural). The
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

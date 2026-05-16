@@ -46,6 +46,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - PIK3CA/AKT1/AKT3/PIK3R1 predominantly carry known activating hotspot mutations in prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years after prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
 - Right-sided enrichment of [AKT1](../genes/AKT1.md) mutations observed in a 1,122-patient mCRC panel sequencing cohort [PMID:29316426](../papers/29316426.md).
 - AKT1 is a core PI3K-pathway driver; PI3K pathway activation (PIK3CA activation + PTEN inactivation) dominates in head-and-neck, breast, GI, and gynecologic tumors; luminal-A breast cancer leads in OncoKB Level 3A frequency, driven in part by AKT1 mutations [PMID:29625050](../papers/29625050.md)
+- Pathway target (AKT-inhibitor trials, n=4 enrolled) in a 189-patient MSK advanced endometrial cancer sequencing cohort; contributes to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
 
 ## Cancer types (linked)
 
@@ -149,5 +150,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

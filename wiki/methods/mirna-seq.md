@@ -31,6 +31,7 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - Performed on 412 BLCA tumors; four miRNA consensus clusters with distinct survival (p=1.7×10⁻³) refined the mRNA expression taxonomy [PMID:28988769](../papers/28988769.md)
 - Performed on 206 TCGA sarcomas; miR-181b-5p identified as an independent prognostic marker for recurrence-free survival in LMS (multivariate HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
 - Used as one of four platforms in iCluster integrative analysis of 9,759 TCGA PanCancer Atlas tumors; miRNA contributed as part of the 42% transcriptome signal in the 28-iCluster solution [PMID:29625048](../papers/29625048.md).
+- Small RNA-seq on Illumina HiSeq (TruSeq Small RNA kit, ~11.5M reads/sample, BWA-aligned to miRBase) used to profile 11 HCA and 10 HCC tumors; identified 6 concordantly deregulated miRNAs and C19MC locus as candidate HCA-to-HCC transformation markers [PMID:30052636](../papers/30052636.md)
 
 ## Notes
 
@@ -76,5 +77,8 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30052636](../papers/30052636.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -49,6 +49,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors; ERBB2 alterations reported in BLCA; NRF2/oxidative-stress pathway alteration noted [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for BLCA [PMID:29625055](../papers/29625055.md)
 - 17 of 18 patients in this bladder cancer organoid biobank had urothelial carcinoma (BLCA); organoids recapitulate FGFR3 (60%), epigenetic regulator (73%), and TP53 (33%) mutation rates from the TCGA BLCA landscape; drug responses to trametinib and gemcitabine validated in orthotopic xenografts [PMID:29625057](../papers/29625057.md)
+- N=27 in pooled MSS ICB WES cohort; APOBEC signature dominance (S2/S13) associated with both high TMB and CR/PR to immune checkpoint blockade (p=0.019) [PMID:30150660](../papers/30150660.md)
 
 ## Subtypes
 
@@ -118,5 +119,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

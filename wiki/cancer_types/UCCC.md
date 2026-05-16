@@ -4,8 +4,8 @@ oncotree_code: UCCC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Uterine Clear Cell Carcinoma (UCCC)
@@ -31,6 +31,7 @@ UCCC (Uterine Clear Cell Carcinoma) is a rare, high-grade endometrial carcinoma 
 - [KMT2C](../genes/KMT2C.md) (MLL3) — 7.9%; 3 frameshift mutations N-terminal to the SET domain; nominated as a novel CCEC candidate driver. [PMID:28485815](../papers/28485815.md)
 - MSI — 11.3% of CCECs; MSI-high tumors carry markedly elevated mutational loads (>400 somatic calls). [PMID:28485815](../papers/28485815.md)
 - No [POLE](../genes/POLE.md) exonuclease-domain hotspot mutations identified in CCEC (contrasting with favorable-prognosis EEC subset). [PMID:28485815](../papers/28485815.md)
+- 13/189 advanced endometrial tumors were uterine clear cell carcinoma; included in the prospective MSK-IMPACT 341/410-gene panel cohort; grouped under UCEC for pathway and actionability analysis [PMID:30068706](../papers/30068706.md)
 
 ## Subtypes
 
@@ -49,3 +50,6 @@ UCCC (Uterine Clear Cell Carcinoma) is a rare, high-grade endometrial carcinoma 
 - [PMID:28485815](../papers/28485815.md) — Le Gallo et al., whole-exome sequencing of 63 uterine clear cell carcinomas (uccc_nih_2017).
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

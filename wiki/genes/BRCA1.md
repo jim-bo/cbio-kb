@@ -72,6 +72,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 is included in the 57% pan-cancer actionability figure (versus 52% when restricted to the 10 canonical pathways), contributing to the rationale for germline/somatic testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
 - Germline pathogenic mutations affect 10.8% of Korean breast cancer patients (brca_smc_2018) vs. 4.7% of TCGA (LR p=0.0027); strongly associated with HRD mutational signature S3 (MLR p=2.0e-08) and TNBC (MLR p=5.1e-39) [PMID:29713003](../papers/29713003.md)
 - Rare germline/somatic pathogenic mutation (n=2, level 2B actionable) identified in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
+- Germline pathogenic variant identified in the actionable-alteration tally (n=1, OncoKB level) via universal tumor/normal sequencing in a 189-patient MSK advanced endometrial cancer cohort; none enrolled to PARP inhibitor trials [PMID:30068706](../papers/30068706.md)
 
 ## Cancer types (linked)
 
@@ -218,5 +219,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

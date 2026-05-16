@@ -4,8 +4,8 @@ oncotree_code: UEC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Uterine Endometrioid Carcinoma (UEC)
@@ -27,6 +27,7 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - MSI detected in 40% of endometrioid tumors (vs. 2% of serous); MSI tumors had ~10× higher mutation frequency than MSS endometrioid tumors. [PMID:23636398](../papers/23636398.md)
 - [ARID5B](../genes/ARID5B.md) newly identified as recurrently mutated at 23.1% in MSI vs. 5.6% in MSS endometrioid vs. 0% in serous-like. [PMID:23636398](../papers/23636398.md)
 - Cross-histology analysis of 63 CCECs against 40 endometrioid carcinomas (UEC) showed: 82.5% of UEC had endometrioid-like molecular profiles (PTEN/KRAS/ARID1A/PIK3R1/PIK3CA mutations, MSI); POLE and MMR mutation signatures were enriched in endometrioid lineages per the four-subgroup TCGA UCEC framework referenced in this study. [PMID:28485815](../papers/28485815.md)
+- 75/189 advanced endometrial tumors were endometrioid carcinoma (FIGO grades 1–3); high-grade (grade 3) had worse PFS1 vs low-grade (12.7 vs 21.6 months, p=0.005); PTEN mutations more common in primary vs metastatic endometrioid (67% vs 34%, p=0.03); ESR1 LBD hotspot mutations in 5 patients (3/5 de novo, no prior endocrine therapy) [PMID:30068706](../papers/30068706.md)
 
 ## Subtypes
 
@@ -49,3 +50,6 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - [PMID:28485815](../papers/28485815.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

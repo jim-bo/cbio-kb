@@ -32,6 +32,8 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied to 56 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy (mean coverage 744×); TMB from this panel correlated with WES TMB at Spearman r=0.86 [PMID:29337640](../papers/29337640.md)
 - Used in 18 of 106 centrally sequenced SUMMIT basket-trial patients for ERBB2/ERBB3-mutant solid tumors (mean coverage 738×) [PMID:29420467](../papers/29420467.md)
 - 20 out of 195 cholangiocarcinoma patients in the chol_msk_2018 cohort were sequenced with the 341-gene IMPACT341 panel; paired germline DNA from blood used for somatic calling [PMID:29848569](../papers/29848569.md)
+- Used to sequence 9 HCA and 10 HCC tumors at MSK for the pilot miRNA/DNA profiling study (average ~735× coverage); panel covers 341 cancer-associated genes [PMID:30052636](../papers/30052636.md)
+- Applied to 70 of 197 advanced endometrial cancer tumors in the MSK prospective cohort; IMPACT341 plus IMPACT410 together profiled all 189 patients [PMID:30068706](../papers/30068706.md)
 
 ## Notes
 
@@ -76,3 +78,9 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

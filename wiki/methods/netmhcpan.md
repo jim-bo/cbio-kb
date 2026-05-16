@@ -21,6 +21,7 @@ NetMHCpan is a pan-allele MHC class I binding affinity prediction algorithm that
 - [Giannakis et al. 2016 — CRC neoantigen-survival study](../papers/27149842.md): NetMHCpan v2.4 applied to 9-mer and 10-mer mutant peptides with personal HLA alleles (typed by POLYSOLVER) at <500 nM affinity cutoff (alternates: 150 nM and 50 nM also tested); neoantigen load correlated with lymphocytic infiltration (Spearman rho=0.29, p=2.6e-11) and independently predicted improved CRC-specific survival (multivariate HR=0.57, 95% CI 0.35–0.93) in 619 CRC cases [PMID:27149842](../papers/27149842.md).
 - NetMHC v4.0 used for neoantigen prediction from 9-mer sliding windows of 17-mer mutated peptides (rank<2%) in 68 melanoma WES samples; identified neoantigens selectively depleted on nivolumab in responders [PMID:29033130](../papers/29033130.md)
 - Used to predict HLA-restricted neoantigen binding affinity from somatic mutations in the MSK IMPACT neoantigen cohort [PMID:29657128](../papers/29657128.md)
+- NetMHCpan v3.0 used for neoantigen prediction across 249 MSS ICB-treated tumors; on average 2.24 predicted neoantigens per nonsynonymous mutation (R²=0.99 with TMB); 871 neoantigens arose from driver mutations, 8 recurrent driver-neoantigen pairs found in CR/PR in an HLA-dependent manner [PMID:30150660](../papers/30150660.md)
 
 ## Notes
 
@@ -40,5 +41,8 @@ NetMHCpan is a pan-allele MHC class I binding affinity prediction algorithm that
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

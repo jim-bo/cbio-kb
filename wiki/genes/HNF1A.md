@@ -3,8 +3,8 @@ symbol: HNF1A
 aliases: []
 cancer_types: [HCC]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # HNF1A
@@ -16,6 +16,7 @@ HNF1A (Hepatocyte Nuclear Factor 1 Alpha) is a transcription factor critical for
 ## Alterations observed in the corpus
 
 - HNF1A mutated mostly in hepatocellular adenomas (HCA), not classic [HCC](../cancer_types/HCC.md); distribution supports the conclusion that most [HCC](../cancer_types/HCC.md) arising in non-fibrotic liver does not originate from HCA transformation (243-case European WES cohort). [PMID:25822088](../papers/25822088.md)
+- Biallelic-style inactivating mutations detected in 3/9 IMPACT341-sequenced hepatocellular adenomas (HCA); all three carriers had the steatotic H-HCA subtype with corresponding LFABP loss by IHC; most frequently mutated gene in the HCA cohort [PMID:30052636](../papers/30052636.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ HNF1A (Hepatocyte Nuclear Factor 1 Alpha) is a transcription factor critical for
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

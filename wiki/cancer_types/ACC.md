@@ -25,6 +25,7 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 - Included in the TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types; iCluster analysis identified ACC co-clustering with KICH in C9 (both hypodiploid) [PMID:29625048](../papers/29625048.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types; 89% of tumors carry at least one driver alteration in 10 canonical oncogenic pathways [PMID:29625050](../papers/29625050.md)
 - Included in the TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR) across 11,160 patients and 33 cancer types; standardized OS, PFI, DFI, and DSS endpoints derived for survival analyses [PMID:29625055](../papers/29625055.md)
+- MSI-H detected in 4.3% of adrenocortical carcinoma cases (4/92) by MANTIS WES caller across 11,139 TCGA/TARGET tumors; MSI-H ACC tumors had significantly higher mutational burden vs MSS (1,157 vs 216 mutations, P=0.01); 64% of MSI-H cases carried deleterious somatic MMR/proofreading gene mutations [PMID:29850653](../papers/29850653.md)
 
 ## Subtypes
 
@@ -52,5 +53,8 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

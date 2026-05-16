@@ -3,7 +3,7 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -133,6 +133,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Second most frequently mutated gene in SMC Korean breast cancer cohort (28.5%); rate not significantly different from TCGA (32.0%, p=0.81); present across hormone-receptor-positive and HER2+ subtypes [PMID:29713003](../papers/29713003.md)
 - Low-frequency (n=6) level-3 actionable hotspot mutations in cholangiocarcinoma (IHC+EHC); identified via MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients [PMID:29848569](../papers/29848569.md)
 - Listed among candidate cancer genes in 304 primary DLBCLs; mutation frequency and subtype context part of the 98 CCGs identified by MutSigCV (q < 0.1) [PMID:29713087](../papers/29713087.md)
+- Single somatic mutation observed in 1/9 IMPACT341-sequenced hepatocellular adenomas (inflammatory I-HCA subtype), co-occurring with HGF, GNAS, FAT1, and KMT2D mutations in the same tumor [PMID:30052636](../papers/30052636.md)
+- Most common actionable alteration in metastatic endometrial cancer (35%, 66/189 patients, MSK cohort); enriched in high-grade histology (p=0.035) and mixed histology; 12 patients with PIK3CA alterations were matched to PI3K-pathway clinical trials [PMID:30068706](../papers/30068706.md)
+- Clonal hotspot mutations enriched in CR/PR responders in a pooled ICB cohort (193 patients); association was cancer-type dependent — responders with PIK3CA were predominantly melanoma, HNSCC, anal, or bladder; most PIK3CA-mutant PD patients were lung; APOBEC signatures may confound the association; FDR q=0.18 [PMID:30150660](../papers/30150660.md)
 
 ## Cancer types (linked)
 
@@ -392,5 +395,14 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

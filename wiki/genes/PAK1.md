@@ -3,8 +3,8 @@ symbol: PAK1
 aliases: []
 cancer_types: [BRCA]
 tags: [amplification, kinase, breast-cancer, IntClust2]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PAK1
@@ -20,6 +20,7 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 - Recurrently amplified at 11q13 in esophageal adenocarcinoma (EAC) as a downstream effector of the RAC1 signaling axis (upstream regulators [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), [TRIO](../genes/TRIO.md), [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), [ECT2](../genes/ECT2.md) are recurrently mutated) [PMID:23525077](../papers/23525077.md)
 - Co-amplification with [CCND1](../genes/CCND1.md) at 11q13–14 defines the IntClust2 breast cancer subtype (METABRIC 2,433 primary tumors); this early clonal event is associated with paradoxically low MATH heterogeneity score and resistance to neo-adjuvant cytotoxic chemotherapy. [PMID:27161491](../papers/27161491.md)
 - Focal copy gains in 5/34 ALM patients (15%); validated by qPCR in 4/5; all in BRAF/NRAS wild-type tumors (1 NF1-subtype, 4 triple-wild-type); proposed as alternate MAPK-pathway dysregulation route in acral melanoma [PMID:28373299](../papers/28373299.md)
+- 11q focal amplification (co-amplified with YAP1 and CCND1) enriched in PD patients in a pooled ICB cohort (193 patients); 11q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -51,6 +51,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - MMR protein IHC (MLH1, MSH2, MSH6, PMS2) showed 98.6% concordance with MSIsensor score ≥10 for MSI classification in 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
 - Used to assess luminal/basal phenotypic stability across 22 patient-derived bladder cancer organoid lines during serial passaging and xenograft conversion; Ki67 and cleaved caspase-3 IHC used to evaluate in vivo drug response [PMID:29625057](../papers/29625057.md).
 - Used to confirm MMR protein loss (MLH1 and MSH6) in the single MSI-H cholangiocarcinoma tumor identified by MSIsensor (score 35.1) in the MSK IMPACT cholangiocarcinoma cohort (n=195) [PMID:29848569](../papers/29848569.md)
+- IHC for β-catenin, LFABP, SAA, CRP, and glutamine synthetase used to subtype 11 hepatocellular adenomas (I-HCA, H-HCA, B-HCA) in MSK pilot study [PMID:30052636](../papers/30052636.md)
+- MMR IHC for MLH1, PMS2, MSH2, and MSH6 called MMR-D status in 189 advanced endometrial tumors; genomic MSIsensor rescued one MMR-D case that was scored proficient by IHC [PMID:30068706](../papers/30068706.md)
 
 ## Notes
 
@@ -151,5 +153,11 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

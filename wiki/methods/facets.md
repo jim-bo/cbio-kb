@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [copy-number, clonality, computational]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # FACETS
@@ -32,6 +32,7 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - FACETS used for allele-specific copy-number estimation and tumor purity calculation in 295 metastatic EGC samples; ERBB2 amplification level by FACETS-based NGS predicted trastuzumab PFS better than IHC/FISH [PMID:29122777](../papers/29122777.md)
 - FACETS v0.3.9 used to estimate copy number, purity, and ploidy in SUMMIT basket-trial patients; integrated with ABSOLUTE v1.0.6 for HER2 mutation clonality estimates (95% of HER2 mutations were clonal) [PMID:29420467](../papers/29420467.md)
 - FACETS v0.5.10 applied to 1,013 prostate tumor/normal pairs for allele-specific copy number, purity, ploidy, and clonality (cancer-cell fraction) estimation [PMID:29610475](../papers/29610475.md)
+- FACETS v0.5.6 (cval=100) used to derive allele-specific copy-number profiles for 189 advanced endometrial cancer tumors; hierarchical clustering of FACETS profiles identified a novel Cluster C (heterozygous losses) with median PFS 9.6 vs 17 months (p=0.006) [PMID:30068706](../papers/30068706.md)
 
 ## Notes
 
@@ -72,3 +73,6 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

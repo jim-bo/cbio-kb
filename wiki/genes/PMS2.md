@@ -3,7 +3,7 @@ symbol: PMS2
 aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
@@ -31,6 +31,8 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - MSH2, MLH1, MSH6, and PMS2 are altered in 3% of advanced prostate cancers; MMR-gene alterations produce a hypermutator phenotype with MMR/MSI signatures, raising potential for immune-checkpoint blockade response [PMID:28825054](../papers/28825054.md)
 - Assessed by IHC for MMR status alongside MLH1, MSH2, MSH6 in 1,640 mCRC tumors; IHC concordance with MSIsensor was 98.6% [PMID:29316426](../papers/29316426.md)
 - PMS2 is among the top DDR-pathway predisposition genes (Core DDR); germline pathogenic variants in PMS2 and other MMR genes (MLH1, MSH2, MSH6) reach MSI-high in 18/60 samples, with 16/18 carrying both germline and somatic MMR hits, nominating these patients as candidates for checkpoint-blockade therapy [PMID:29625049](../papers/29625049.md)
+- Component of the standard MMR IHC panel used to call MMR-D status in metastatic endometrial cancer (MSK cohort, n=189); PMS2 protein loss by IHC contributed to MMR-D classification alongside MSIsensor score [PMID:30068706](../papers/30068706.md)
+- Somatic deleterious mutations enriched in MSI-H tumors of ACC, CESC, and MESO in a pan-TCGA analysis; PMS2 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 
 ## Cancer types (linked)
 
@@ -90,3 +92,9 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

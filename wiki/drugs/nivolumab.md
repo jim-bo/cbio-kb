@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - Used as anti-PD-1 monotherapy in the discovery and validation ccRCC cohorts (n=35 and n=63) studied for PBRM1 LOF as a biomarker of response; PBRM1-biallelic-loss patients showed significantly prolonged OS (log-rank p=0.0074) and PFS (p=0.029) on anti-PD-(L)1 therapy including nivolumab [PMID:29301960](../papers/29301960.md)
 - One of the anti-PD-(L)1 agents used in the 240-patient MSK NSCLC cohort; TMB measured by MSK-IMPACT correlated with durable clinical benefit across nivolumab, pembrolizumab, atezolizumab, durvalumab, and ipilimumab-treated patients (Spearman r=0.86 vs WES, DCB rate 38.6% above vs 25.1% below median TMB, p=0.009) [PMID:29337640](../papers/29337640.md)
 - PD-1 inhibitor used in combination with ipilimumab (CheckMate-012) in 75 advanced NSCLC patients; high TMB (>158 mutations) associated with ORR 51% vs 13% (p=0.0005), DCB 65% vs 34%, and PFS HR 0.41 (p=0.0024) [PMID:29657128](../papers/29657128.md)
+- Included in a pooled WES cohort of 249 MSS tumors across 6 cancer types (part of the N=74 anti-PD-1 arm); clonal TMB, PBRM1 loss, and absence of biallelic PTEN loss and focal 11q/12q amplifications associated with CR/PR [PMID:30150660](../papers/30150660.md)
 
 ## Resistance mechanisms
 
@@ -91,4 +92,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29657128](../papers/29657128.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

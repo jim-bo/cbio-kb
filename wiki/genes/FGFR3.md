@@ -50,6 +50,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 mutations are mutually exclusive with TP53 mutations pan-cancer, placing FGFR3 and TP53 in separate somatic-interaction networks across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
 - FGFR3 shows exceptional co-occurrence with PI3K-pathway alterations (versus typical RTK-RAS/PI3K mutual exclusivity) in pan-cancer analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - FGFR3 activating mutations in 60% (9/15) of non-recurrent bladder organoid lines; SCBO-10 carries an FGFR3-TACC3 fusion (exon 17-exon 11 junction, same junction reported in GBM and bladder line RT112); FGFR3 mutation alone did not predict trametinib/SCH772984 response; no organoid line responded to any of three FGFR inhibitors tested [PMID:29625057](../papers/29625057.md)
+- FGFR3 fusions noted as therapeutically relevant alongside FGFR2; n=2 patients combined enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
 
 ## Cancer types (linked)
 
@@ -163,5 +164,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

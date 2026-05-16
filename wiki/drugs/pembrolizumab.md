@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -45,6 +45,9 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - FDA approval of pembrolizumab for MSI-H solid tumours renders all 99 MSI-H/hypermutated CRCs in this 1,134-sample MSK-IMPACT cohort (8.7% of total) eligible per OncoKB Level 1 actionability; overall actionability rate was 86% in MSI-H vs 37% in MSS mCRC [PMID:29316426](../papers/29316426.md)
 - One of the anti-PD-(L)1 agents in the 240-patient MSK NSCLC cohort; TMB above the 50th percentile predicted durable clinical benefit (DCB 38.6% vs 25.1%, p=0.009) and combining high TMB with PD-L1 >=1% raised DCB rate to 50% [PMID:29337640](../papers/29337640.md)
 - MSI-H cholangiocarcinoma (0.5% of 195 patients) identified as potentially eligible for pembrolizumab under tissue-agnostic indication; the single MSI-H patient died before FDA approval [PMID:29848569](../papers/29848569.md)
+- Genomic MSI calling (MSIsensor + mutational-signature decomposition) refined eligibility for pembrolizumab in MSI-H endometrial cancer; 5/30 MSI-H patients had received pembrolizumab prior to FDA pan-tumor approval, with 2/5 achieving clinical benefit [PMID:30068706](../papers/30068706.md)
+- Included in a pooled 249-patient MSS WES ICB cohort (part of N=74 anti-PD-1 arm); clonal driver alterations in PIK3CA, KRAS, and PBRM1 enriched in responders; dominant mutational signature (UV/APOBEC/smoking) is a stronger correlate than TMB in disease-specific contexts [PMID:30150660](../papers/30150660.md)
+- Pan-cancer MSI analysis across 11,139 WES pairs (TCGA/TARGET) found MSI-H in 3.8% of all tumors across 27 cancer types, supporting expanded clinical MSI testing beyond colorectal/endometrial/gastric as a biomarker for pembrolizumab eligibility under the 2017 FDA pan-tumor MSI-H approval [PMID:29850653](../papers/29850653.md)
 
 ## Resistance mechanisms
 
@@ -124,4 +127,13 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

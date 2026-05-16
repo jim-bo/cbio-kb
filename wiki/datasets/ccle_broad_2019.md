@@ -22,7 +22,7 @@ tags:
   - pharmacogenomics
   - ccle
   - dependency-screen
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -63,6 +63,7 @@ The companion cell-line resource providing mutation, copy-number, and expression
 - 3–10% of lines showed substantial somatic-variant divergence between CCLE and GDSC passages (genetic drift), and 3/667 overlapping lines (0.4%) had mismatching germline calls indicating mislabelling [PMID:31068700](../papers/31068700.md).
 - [EP300](../genes/EP300.md) and [CREBBP](../genes/CREBBP.md) truncating mutations distal to the HAT domain define a novel H3K18/H3K27 hyperacetylation cluster — nominated as the first cancer-associated gain-of-function alterations of p300/CBP [PMID:31068700](../papers/31068700.md).
 - Used as the proteomics-extended CCLE resource: 375 cell lines profiled by TMT 10-plex proteomics (>12,000 proteins), with MSI-specific proteome analysis revealing co-downregulation of mismatch repair, SKI, and RQC surveillance complexes — results linked to WRN synthetic lethality [PMID:31978347](../papers/31978347.md)
+- 20 bladder cell lines profiled for DNA methylation and expression (GDSC data); validated the 14,209-probe EpiC methylation signature — cell lines clustered by FGFR3 alteration vs SWI/SNF gene mutation status; SWI/SNF-mutant cluster showed higher interferon-γ stimulation signature (P=0.022) [PMID:33397444](../papers/33397444.md)
 
 ## Sources
 
@@ -71,3 +72,6 @@ The companion cell-line resource providing mutation, copy-number, and expression
 - Nusinow et al. *Cell* 2020. [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

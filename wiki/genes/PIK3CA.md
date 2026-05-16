@@ -3,7 +3,7 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -155,6 +155,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Enriched in C-terminal APC mutant MSS mCRC tumors vs N-terminal (28% vs 11%; p<0.01, q<0.1) in 430 patients; part of co-occurring mitogenic activation pattern associated with shorter OS/PFS. [PMID:32730818](../papers/32730818.md)
 - Activating hotspot mutations (H1047R/L/Y kinase domain; E545K/A and E542K helical domain) in 88% of baseline-genotyped HR+ metastatic breast cancer patients (n=50) in the alpelisib + AI phase I/II trial (NCT01870505); PIK3CA-WT tumors derived no clinical benefit (0/6); 70% of mutations were clonal. [PMID:32864625](../papers/32864625.md)
 - Four missense mutations (3 hotspots: V344G, E545K, H1047R) identified in BRAF-mutant melanoma pretreatment tumors; present in both excellent and poor BRAFi responders, including one excellent responder carrying the activating H1047R [PMID:32913971](../papers/32913971.md)
+- Clonal hotspot mutations H1047R (JuP2) and E542K (JuP3) identified in 2/3 juvenile papillomatosis cases; JuP3 PIK3CA E542K mutation was shared by the coexisting JP, DCIS, and IDC-NST components, supporting clonal origin. [PMID:33263939](../papers/33263939.md)
+- Significantly enriched in NMI-BLCA vs NMI-UTUC (P=0.0001); shows tissue-of-origin difference between upper-tract and bladder non-muscle-invasive tumors. [PMID:33397444](../papers/33397444.md)
+- Less frequent in NMF LumB-I than NMF LumA-I breast cancer (binomial p=1.50×10⁻³); recurrent in LAR-subtype TNBC. [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -327,3 +330,12 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:40256659](../papers/40256659.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33263939](../papers/33263939.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

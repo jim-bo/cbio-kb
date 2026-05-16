@@ -3,8 +3,8 @@ symbol: YWHAZ
 aliases: []
 cancer_types: [BLCA]
 tags: [bladder-cancer, copy-number-amplification, signaling]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # YWHAZ
@@ -16,6 +16,7 @@ YWHAZ encodes 14-3-3 zeta/delta, a member of the 14-3-3 family of regulatory pro
 ## Alterations observed in the corpus
 
 - YWHAZ is identified as a focal copy-number amplification target in the GISTIC 2.0 analysis of 412 chemotherapy-naive muscle-invasive bladder cancers ([BLCA](../cancer_types/BLCA.md)) in the expanded TCGA cohort [PMID:28988769](../papers/28988769.md).
+- Resides at the 8q22.3 focal SCNA gain locus; 8q22.3 (YWHAZ region) gain enriched in muscle-invasive UTUC and iCluster-high (P=0.023, FDR=0.093) in the IGBMC cohort (n=40); recently linked to aggressive bladder cancer; mutually exclusive with FGFR3 mutation [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ YWHAZ encodes 14-3-3 zeta/delta, a member of the 14-3-3 family of regulatory pro
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

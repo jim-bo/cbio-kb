@@ -3,8 +3,8 @@ symbol: DCLK1
 aliases: []
 cancer_types: [CSCC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # DCLK1
@@ -16,6 +16,7 @@ DCLK1 (Doublecortin-like kinase 1) encodes a serine/threonine kinase with roles 
 ## Alterations observed in the corpus
 
 - Identified as a MutSig hit (q<0.1) in whole-exome sequencing of 39 aggressive cSCC tumors; however, low allelic fractions suggest it may be a passenger rather than a true driver [PMID:25303977](../papers/25303977.md).
+- GATA3 mutations in breast cancer (BRCA) associate with elevated phospho-DCLK1 (novel finding requiring validation); DCLK1 inhibition (e.g., LRRK2-IN-1) proposed as therapeutic strategy in GATA3-mutant or LumA BRCA [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ DCLK1 (Doublecortin-like kinase 1) encodes a serine/threonine kinase with roles 
 - [PMID:25303977](../papers/25303977.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: SMG1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # SMG1
@@ -18,6 +18,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Mutation classes (missense / truncating / fusion / amplification / deletion) with
   links to the papers that report them.
 - Identified among the significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); mTOR pathway PI3K-related kinase. [PMID:18948947](../papers/18948947.md)
+- R420Q missense mutation (shared by juvenile papillomatosis, coexisting DCIS, and IDC-NST in patient JuP3); one of several shared clonal mutations supporting JP as a potential non-obligate substrate for invasive breast carcinoma development [PMID:33263939](../papers/33263939.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:18948947](../papers/18948947.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:33263939](../papers/33263939.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

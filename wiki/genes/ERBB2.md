@@ -102,6 +102,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Somatic ERBB2 mutations were used as a stratifier for arm A (pyrotinib + capecitabine) in a biomarker-guided umbrella trial targeting the LAR subtype of metastatic TNBC; patients with ERBB2 mutations were assigned to the HER2-directed arm rather than the anti-AR + CDK4/6 arm. [PMID:32719455](../papers/32719455.md)
 - ERBB2 was identified as a recurrently amplified oncogene across resected lung adenocarcinoma (LUAD), consistent with prior LUAD reports; subtype-specific amplification frequency was not individually reported. [PMID:32791233](../papers/32791233.md)
 - ERBB2 was among MAPK-pathway alterations that selectively expanded in post-treatment ctDNA from HR+ metastatic breast cancer patients on alpelisib + AI, suggesting a parallel bypass resistance pathway. [PMID:32864625](../papers/32864625.md)
+- ERBB2 gene amplification confirmed by WES in breast cancer; 15/122 tumors classified proteogenomically as ERBB2+; pseudo-ERBB2+ phenotype (amplified but protein-low) identified in 2/17 amplified cases; ERBB2 phospho-kinase activity enriches NMF HER2-I subtype [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -337,5 +338,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

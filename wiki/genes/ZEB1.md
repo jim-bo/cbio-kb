@@ -18,6 +18,7 @@ ZEB1 (Zinc finger E-box binding homeobox 1) is a transcriptional repressor that 
 - ZEB1 identified as a transcriptional repressor of CDH1 (E-cadherin) in the NCI-60 CellMiner pharmacogenomics analysis; correlation coefficient r = -0.63 between ZEB1 and CDH1 expression across NCI-60 cell lines [PMID:22802077](../papers/22802077.md)
 - EMT transcription factor upregulated in GBC cells downstream of SEMA7A/ITGB1/AKT1/EP300 signaling; p300 occupancy and H3K27ac at the ZEB1 promoter increased by recombinant SEMA7A, abrogated by p300 S1834A mutation. [PMID:24997986](../papers/24997986.md)
 - Part of a proposed EMT regulatory axis in endometrial carcinoma where QKI promotes 35 EMT-associated circRNAs and is positively correlated with ZEB1/ZEB2, opposed by ESRP2 [PMID:32059776](../papers/32059776.md)
+- ZEB1 target gene set enriched among EpiC-defining differentially methylated regions (GSEA) in the IGBMC UTUC cohort (n=40); ZEB1 targets distinguish EpiC-high (hypermethylated, immune-infiltrated, muscle-invasive) from EpiC-low subtypes [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -45,5 +46,8 @@ ZEB1 (Zinc finger E-box binding homeobox 1) is a transcriptional repressor that 
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -1,7 +1,7 @@
 ---
 symbol: AKT1
 aliases: []
-cancer_types: [BLCA, UTUC]
+cancer_types: [BLCA, UTUC, BRCA, LGG]
 tags: [pi3k-pathway, oncogene, resistance]
 processed_by: entity-page-writer
 processed_at: 2026-05-16
@@ -52,6 +52,9 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Activating mutations (e.g., W80R) and amplifications in 5/41 (12.2%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 1/18 (5.6%) sensitive; lentiviral overexpression confers CDK4/6i and fulvestrant resistance in T47D cells; first patient-level demonstration of AKT1 as CDK4/6i resistance driver [PMID:32404308](../papers/32404308.md)
 - Pathogenic AKT1 alterations (downstream of PI3K) showed disproportionate VAF expansion under alpelisib + AI therapy in HR+ metastatic breast cancer, consistent with a bypass resistance mechanism. [PMID:32864625](../papers/32864625.md)
 - No hotspot mutations observed in AKT1 across 51 BRAF-mutant melanoma patients treated with BRAFi monotherapy; AKT1 was surveyed but did not emerge as a resistance driver in this pretreatment sequencing study [PMID:32913971](../papers/32913971.md)
+- AKT1 mutations in breast cancer (CPTAC proteogenomics, n=122) associate with elevated phospho-SLK and phospho-LATS1, suggesting mTOR/HIPPO cross-talk; identified via Black-Sheep kinase-outlier analysis (FDR < 0.01) [PMID:33212010](../papers/33212010.md)
+- AKT1 protein and RNA are upregulated in BRAFV600E pediatric LGG vs BRAFWT; AKT isoform upregulation validated by MRM; supports combined MEK + mTOR inhibition strategies in pediatric low-grade glioma [PMID:33242424](../papers/33242424.md)
+- AKT1 activating hotspot mutations were reported in 2/10 juvenile papillomatosis (JP) cases in prior work (Guillet et al.); no AKT1 mutations identified in this 3-case JP-to-breast-cancer cohort [PMID:33263939](../papers/33263939.md)
 
 ## Cancer types (linked)
 
@@ -173,5 +176,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
+- [PMID:33212010](../papers/33212010.md)
+- [PMID:33242424](../papers/33242424.md)
+- [PMID:33263939](../papers/33263939.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

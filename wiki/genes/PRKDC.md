@@ -3,8 +3,8 @@ symbol: PRKDC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PRKDC
@@ -23,6 +23,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - DNA-PKcs (PRKDC) activation is preserved in EWS::FLI1-expressing heMSCs despite basal hyperphosphorylation of ATM/ATR and failure of etoposide-induced DDR signaling [PMID:25186949](../papers/25186949.md)
 - Nonsense mutations observed in [NSCLC](../cancer_types/NSCLC.md) tumors from pembrolizumab-treated patients; required for DNA-dependent protein kinase (DNA-PK) activity and genomic integrity [PMID:25765070](../papers/25765070.md)
 - PRKDC has truncating mutations (n=4) in sarcoma; implicated in telomere stabilization and double-strand-break repair [PMID:29100075](../papers/29100075.md)
+- Identified in the context of single-strand break repair (SSBR) / DNA-repair pathway defects that co-occur with APOBEC mutagenesis signatures and elevated immune-infiltration in luminal breast cancer (BRCA) proteogenomic analysis. [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -35,6 +35,7 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - CDK12 locus (17q12) identified as an IDC-NST–private amplification region (amplification restricted to the invasive component) in synchronous DCIS/IDC-NST breast cancer cohort (n=25 patients), co-amplified with ERBB2 [PMID:32220886](../papers/32220886.md)
 - CDK12 alterations were 6.7 pp more frequent in de-novo metastatic prostate cancer vs. metastatic recurrence (95% CI 3.0–10.4; FDR 0.037), the only single gene with statistically significant differential prevalence by disease phenotype in a 424-patient mCSPC MSK-IMPACT cohort [PMID:32220891](../papers/32220891.md)
 - Pan-cancer MSK-IMPACT cohort (26,743 patients): CDK12 alterations in 1.5% overall, most frequent in prostate (5.3%, 100/1,875) and ovarian (4.2%, 43/1,034) cancers; biallelic inactivation in 73% of prostate and 93% of ovarian CDK12-altered cases; CDK12-biallelic prostate cancer had shorter OS (median 64.4 vs 74.9 mo; aHR 1.80, 95% CI 1.12–2.89) and faster time to castration resistance (aHR 1.49, 95% CI 1.09–2.03) [PMID:32317181](../papers/32317181.md)
+- CDK12 identified as a phospho-kinase outlier (Black-Sheep FDR < 0.01) enriched in NMF HER2-I breast cancer subtype in the CPTAC proteogenomics cohort (n=122); CDK12 kinase activity is co-elevated with ERBB2 phospho-kinase activity in this subtype [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -100,5 +101,6 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+- [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

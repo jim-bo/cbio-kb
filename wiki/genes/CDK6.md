@@ -36,6 +36,7 @@ processed_at: 2026-05-16
 - Focal gain co-acquired with CDKN2A loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma (along with CDK4 and CCND2); the aneuploidy + cell-cycle alteration subgroup has significantly shorter survival (log-rank P < 0.0001) [PMID:31748746](../papers/31748746.md)
 - CDK6 amplification in 1% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside CDK4 amplification (8%) and RB1 loss/mutation (16%) [PMID:31852831](../papers/31852831.md)
 - Discussed as a prior-literature CDK4/6 inhibitor resistance candidate; not enriched in resistant vs sensitive HR+/HER2- breast cancer biopsies in this 59-biopsy cohort [PMID:32404308](../papers/32404308.md)
+- CDK4/6 activity tracks proliferation in HR+/ERBB2− but not TNBC breast tumors (CPTAC proteogenomics, n=122); in TNBC, Rb protein status — not RB1 genotype — is the determinant of CDK4/6 inhibitor sensitivity [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,6 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+- [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

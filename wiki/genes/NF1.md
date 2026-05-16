@@ -3,7 +3,7 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -88,6 +88,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), consistent with MAPK-pathway bypass resistance. [PMID:32864625](../papers/32864625.md)
 - One splice variant (X2441_splice) identified in a poor BRAFi responder in BRAF-mutant melanoma, consistent with preclinical models of NF1-loss conferring BRAFi resistance [PMID:32913971](../papers/32913971.md)
 - Loss-of-function variants (p.W1314*, p.P1847L, p.Q2239*, p.R1276*, p.V2511fs) detected as MAPK-pathway driver mutations in normal melanocytes from sun-damaged skin (Donors 6, 10, 13); classified as weak activators, insufficient alone to produce visible lesions [PMID:33029006](../papers/33029006.md)
+- Mutation in pediatric HGG was associated with downregulation of both NF1 transcript and protein in proteogenomic characterization of pediatric brain tumors. [PMID:33242424](../papers/33242424.md)
 
 ## Cancer types (linked)
 
@@ -192,3 +193,6 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

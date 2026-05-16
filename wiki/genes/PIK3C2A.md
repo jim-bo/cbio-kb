@@ -5,8 +5,8 @@ cancer_types:
   - CHOL
 tags:
   - pi3k-pathway
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PIK3C2A
@@ -18,6 +18,7 @@ PIK3C2A encodes phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
 ## Alterations observed in the corpus
 
 - PI3K pathway alteration contributing to a total of 22% PI3K pathway alteration rate in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) discovery-screen tumors; identified alongside [PIK3CA](PIK3CA.md), [PTEN](PTEN.md), and [PIK3C2G](PIK3C2G.md) [PMID:24185509](../papers/24185509.md)
+- Missense mutation that was subclonal in DCIS became dominant (clonal sweep) in IDC-NST in juvenile papillomatosis case JuP3, demonstrating positive selection during breast cancer progression. [PMID:33263939](../papers/33263939.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ PIK3C2A encodes phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
 - [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:33263939](../papers/33263939.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

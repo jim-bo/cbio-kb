@@ -80,6 +80,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 is a key WNT-pathway gene; WNT-pathway alterations were associated with better prognosis in 424 mCSPC patients (lower castration resistance and OS hazard ratios), in contrast to two prior smaller mCRPC studies (Chen 2019, Wang 2018) that linked WNT/CTNNB1 alterations to worse outcomes — this conflict is flagged as an open question [PMID:32220891](../papers/32220891.md)
 - CTNNB1 protein and phosphoprotein elevated in EGFR-mutant LUAD despite reduced RNA, identified by proteogenomic multi-omics profiling of 110 treatment-naïve tumors [PMID:32649874](../papers/32649874.md)
 - CTNNB1 activating mutations represent a highly activating Wnt alteration; co-occurred with RAS-pathway alterations in 63% of cases and marked a poor-prognosis subgroup in MSS metastatic colorectal cancer. [PMID:32730818](../papers/32730818.md)
+- CTNNB1 mutation in pediatric craniopharyngioma (CP) elevates β-catenin abundance and trans-regulates APC, GSK3A/GSK3B, and TCF25 at RNA and protein level, while downregulating TCF4 RNA/phosphosites; phosphosite APC Ser2812 was elevated [PMID:33242424](../papers/33242424.md)
 
 ## Cancer types (linked)
 
@@ -239,5 +240,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33242424](../papers/33242424.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -17,8 +17,8 @@ tags:
   - urothelial-carcinoma
   - targeted-sequencing
   - msk-impact
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MSKCC Upper Tract Urothelial Carcinoma 2015
@@ -50,9 +50,13 @@ Eighty-three upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) 
 - UTUC and UCB share the same gene catalog but differ in prevalence: UTUC enriched for [FGFR3](../genes/FGFR3.md) (35.6% vs 21.6%), [HRAS](../genes/HRAS.md) (13.6% vs 1.0%, p=0.001), and [CDKN2B](../genes/CDKN2B.md) deletions (15.3% vs 3.9%), while UCB enriched for [TP53](../genes/TP53.md) (25.4% vs 57.8%, p<0.001) and [RB1](../genes/RB1.md) (0% vs 18.6%, p<0.001) alterations [PMID:26278805](../papers/26278805.md).
 - First description of a [POLE](../genes/POLE.md) V411L ultramutated urothelial tumor (422 somatic mutations) in UTUC; five intrachromosomal FGFR3-TACC3 fusions identified exclusively in high-grade UTUC (8.5% vs 2.0% in UCB) [PMID:26278805](../papers/26278805.md).
 - 22/23 low-grade UTUC tumors (96%) harbored activating [FGFR3](../genes/FGFR3.md) mutations; all 23 were [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) wild-type, supporting a low-grade-tumor-progression model distinct from de novo high-grade UCB [PMID:26278805](../papers/26278805.md).
+- External UTUC validation cohort for FGFR3–KMT2C co-occurrence (LOR=2.9, P<0.001, FDR<0.001), replicating findings from the IGBMC cohort (LOR=3.1, P=0.04) [PMID:33397444](../papers/33397444.md)
 
 ## Sources
 
 - cBioPortal study: `utuc_mskcc_2015`
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

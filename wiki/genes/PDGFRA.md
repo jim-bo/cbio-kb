@@ -42,6 +42,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - PDGFRA harbors 34 newly identified hotspots from a 3,130-sample glioma meta-analysis; identified alongside EGFR hotspots in adult glioma [PMID:31263031](../papers/31263031.md)
 - Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
 - No amplification observed in any GBM PDX (n=84) despite ~15% expected frequency in IDH-wildtype GBM; three PDX carried SNVs including D842V; GBM159 demonstrated PDX-engraftment-associated amplification loss (FISH: 45–75% of patient cells amplified, none in PDX) [PMID:31852831](../papers/31852831.md)
+- Top druggable kinase nominated by a BRAFFusion-specific phosphosite module in pediatric LGG; PDGFRA RNA/protein in BRAFFusion LGG were comparable to HGG levels, motivating evaluation of PDGFRA inhibitors in this subtype. [PMID:33242424](../papers/33242424.md)
 
 ## Cancer types (linked)
 
@@ -136,5 +137,8 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33242424](../papers/33242424.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

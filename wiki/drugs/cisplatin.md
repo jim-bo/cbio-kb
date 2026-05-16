@@ -58,6 +58,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Platinum agent used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy in NCT02954536; 37 HER2-positive metastatic esophagogastric cancer patients achieved 91% ORR and 27.2-month median OS [PMID:32437664](../papers/32437664.md).
 - Standard component of the VIP chemotherapy regimen used in 15 patients with primary mediastinal NSGCT ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy (median OS 6.3 months); shared [TP53](../genes/TP53.md) loss-of-heterozygosity in the ancestral GCT/hematologic-malignancy clone was proposed to explain the documented refractoriness to cisplatin-based therapy [PMID:32897884](../papers/32897884.md).
 - Cisplatin showed a dose-response trend for promoting DDR clonal haematopoiesis (p-trend=0.04) in 24,146 cancer patients, but the cross-sectional association (OR=1.1, p=0.10) was not statistically significant unlike carboplatin; [TP53](../genes/TP53.md) CH clones were enriched by platinum exposure overall (OR=2.1, q=0.03) [PMID:33106634](../papers/33106634.md).
+- EZH2 inhibition ± cisplatin proposed as a therapeutic strategy for the SWI/SNF-mutant EpiC-high UTUC subtype, based on prior evidence that EZH2 inhibition activates NK-cell-mediated immunity in bladder cancer xenografts. [PMID:33397444](../papers/33397444.md)
 
 ## Resistance mechanisms
 
@@ -81,82 +82,35 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. (2024). MSK PDAC cohort; cisplatin referenced in chemotherapy background context.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA study; cisplatin-based chemotherapy backbone; DDR predictive value null (underpowered); VAF and TERT/PIK3CA/ERBB2 as prognostic markers.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:19176454](../papers/19176454.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25608663](../papers/25608663.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27346245](../papers/27346245.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
 - [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WES of 72 UC tumors (32 patients); cisplatin + gemcitabine clonal evolution study; APOBEC3A enrichment and L1CAM/integrin clonal enrichment post-chemotherapy.
-
-- [PMID:28445469](../papers/28445469.md) — Abbosh et al. 2017, *Nature*. TRACERx NSCLC ctDNA study; cisplatin/carboplatin + vinorelbine adjuvant chemotherapy; ctDNA clearance vs. resistance detected in real time.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445469](../papers/28445469.md) — Abbosh et al. 2017, *Nature*. TRACERx NSCLC ctDNA study; cisplatin/carboplatin + vinorelbine adjuvant chemotherapy; ctDNA clearance vs. resistance detected in real time.
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30290956](../papers/30290956.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+- [PMID:32437664](../papers/32437664.md)
+- [PMID:32897884](../papers/32897884.md)
+- [PMID:33106634](../papers/33106634.md)
+- [PMID:33397444](../papers/33397444.md) — Sfakianos et al. 2021, *Eur Urol*. UTUC multi-omics (n=40); EZH2 inhibition ± cisplatin proposed for SWI/SNF-mutant EpiC-high subtype.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:32437664](../papers/32437664.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32897884](../papers/32897884.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

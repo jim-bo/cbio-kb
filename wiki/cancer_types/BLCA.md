@@ -4,7 +4,7 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -54,6 +54,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - TMB-high BLCA (n=214) patients treated with ICI showed improved overall survival (HR 0.52 pan-cancer) in the MSK-IMPACT cohort; histology-specific TMB thresholds varied from the pan-cancer cutpoint. [PMID:30643254](../papers/30643254.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); bladder urothelial carcinoma among the 38 histotypes analyzed for somatic SNVs, indels, SVs, and driver landscapes [PMID:32025007](../papers/32025007.md).
 - ERBB2 oncogenic mutations found in 10.3% of bladder UC (n=1,032) profiled by MSK-IMPACT, vs 5.9% of UTUC, with ERBB2 amplification in 6.2% of bladder UC; HER2-mutant UTUC PDX (UCC14, HER2 S310F) was refractory to neratinib but sensitive to trastuzumab deruxtecan (DS-8201a), supporting antibody-drug conjugates over kinase inhibitors in HER2-altered urothelial carcinoma [PMID:32332851](../papers/32332851.md)
+- Integrative genomic/methylation profiling of 40 UTUC cases identified [FGFR3](../genes/FGFR3.md) (50%), [KDM6A](../genes/KDM6A.md) (27%), and [ZFP36L1](../genes/ZFP36L1.md) (20%) as significantly mutated genes; methylation defines EpiC-high (hypermethylated, MI-enriched, SWI/SNF-mutant, poor OS HR=6.57) and EpiC-low (FGFR3-enriched, immune-cold) subtypes translatable to TCGA MI-BLCA [PMID:33397444](../papers/33397444.md)
 
 ## Subtypes
 
@@ -139,4 +140,6 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md) — Su et al. integrative genomic/methylation profiling of 40 UTUC cases.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

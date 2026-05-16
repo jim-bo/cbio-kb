@@ -57,6 +57,7 @@ The TCGA Bladder Urothelial Carcinoma PanCancer Atlas 2018 cohort is the [BLCA](
 - Part of the TCGA PanCancer Atlas pan-cancer integrative molecular analysis (9,759 samples, 33 cancer types, 28 iClusters); BLCA samples contributed to pan-squamous cluster C27 (HPV+) and ERBB2-amplified C2 [PMID:29625048](../papers/29625048.md)
 - BLCA samples used in pan-cancer somatic driver and germline analysis (11,000 tumors, 33 cancer types); BLCA is noted for 89% somatic genome-integrity disruption vs 4% germline, the highest somatic rate across cancer types [PMID:29625049](../papers/29625049.md)
 - BLCA samples included in pan-cancer oncogenic pathway analysis (9,125 tumors); PI3K pathway altered in LUSC/BLCA-squamous subsets; ERBB2 alterations cluster in bladder urothelial (CIN subtype); FGFR3 alterations nominally in ~70% of NMIBC represented in this cohort [PMID:29625050](../papers/29625050.md)
+- Used alongside blca_tcga_pub_2017 as external cross-validation for the UTUC EpiC methylation signature and FGFR3-mutant immune-cold phenotype [PMID:33397444](../papers/33397444.md)
 
 ## Sources
 
@@ -67,3 +68,6 @@ The TCGA Bladder Urothelial Carcinoma PanCancer Atlas 2018 cohort is the [BLCA](
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

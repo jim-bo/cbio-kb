@@ -57,6 +57,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 amplification in 1 GBM PDX; canonical FGFR3-TACC3 fusion in three PDX lines (GBM14, GBM148, GBM232); two novel fusions FGFR3-TRIM54 and FGFR3-CALCOCO1 also identified — all flagged as potentially targetable with FGFR inhibitors [PMID:31852831](../papers/31852831.md)
 - FGFR3 is among the genes frequently copy-number altered in endometrial cancer, consistent with TCGA findings [PMID:32059776](../papers/32059776.md)
 - Activating hotspots (incl. R248C, S249C) in 47–48% of UTUC, restricted to luminal-subtype tumors; favorable prognostic marker; R248C enriched in Lynch-syndrome UTUC and in 3/4 MSI-H PDX pairs [PMID:32332851](../papers/32332851.md)
+- FGFR3 mutations in 50% (15/30) of UTUC WES cases; defining driver of EpiC-low (hypomethylated, immune-cold) subtype; mutually exclusive with 8q22.3 gain; FGFR3-mutant UTUC has globally hypomethylated genome (97.8% of differential probes hypomethylated); one FGFR3-TACC3 fusion detected; associates with better OS/PFS [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -191,5 +192,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

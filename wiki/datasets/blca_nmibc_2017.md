@@ -21,8 +21,8 @@ tags:
   - chromatin-remodeling
   - ddr
   - prospective
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MSK Non-Muscle-Invasive Bladder Cancer Cohort (MSK, JCO 2017)
@@ -60,6 +60,7 @@ The blca_nmibc_2017 dataset is the largest NGS-focused cohort of non-muscle-inva
 - [ARID1A](../genes/ARID1A.md) mutations are the only gene alteration significantly associated with BCG recurrence (HR=3.14, 95% CI 1.51–6.51, p=0.002, surviving multiple-comparison correction); [TP53](../genes/TP53.md), [ERBB2](../genes/ERBB2.md)/[FGFR3](../genes/FGFR3.md) status, and mutational count did not predict BCG response. [PMID:28583311](../papers/28583311.md)
 - [STAG2](../genes/STAG2.md) truncating mutations are enriched in LGTa (39%) vs higher-grade/stage tumors (p=0.046), consistent with a low-grade-specific driver role. [PMID:28583311](../papers/28583311.md)
 - [TP53](../genes/TP53.md)/[MDM2](../genes/MDM2.md) and cell-cycle alterations ([RB1](../genes/RB1.md), [CCND1](../genes/CCND1.md), [CDKN1A](../genes/CDKN1A.md), [CDKN2A](../genes/CDKN2A.md)) increase stepwise with stage and grade (p<0.001). [PMID:28583311](../papers/28583311.md)
+- Hurst NMI-BLCA cohort (n=24 TaG2) used for NMI-UTUC vs NMI-BLCA somatic comparison; PIK3CA enriched in NMI-BLCA over NMI-UTUC (P=0.0001); KMT2C trend higher in NMI-UTUC (P=0.08) [PMID:33397444](../papers/33397444.md)
 
 ## Sources
 
@@ -67,3 +68,6 @@ The blca_nmibc_2017 dataset is the largest NGS-focused cohort of non-muscle-inva
 - Pietzak EJ, et al. *Next-Generation Sequencing of Nonmuscle Invasive Bladder Cancer Reveals Potential Biomarkers and Rational Therapeutic Targets.* JCO. 2017. [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -22,7 +22,7 @@ tags:
   - intrinsic-subtypes
   - ilc
   - idc
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -62,6 +62,7 @@ The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive mul
 - Three ILC transcriptional subtypes identified (reactive-like, immune-related, proliferative); validated in [brca_metabric](brca_metabric.md); proliferative ILC had worse DSS and [OS](../cancer_types/OS.md) [PMID:26451490](../papers/26451490.md).
 - Mixed IDC/ILC tumors resolve molecularly into ILC-like or IDC-like classes (not a third hybrid entity); [CDH1](../genes/CDH1.md) status is the dominant classifier [PMID:26451490](../papers/26451490.md).
 - Used as a benchmark cohort (n=1116, 66.8% White, 72.3% post-menopausal) for comparison with the Korean SMC cohort; provided the reference distribution of molecular subtypes, mutation rates, and mutational signatures in predominantly Caucasian breast cancer [PMID:29713003](../papers/29713003.md)
+- Retrospective replication cohort (Mertins et al. 2016 sample set) for pseudo-ERBB2+ cases; 1 of 16 ERBB2-amplified cases lacked detectable ERBB2 protein, consistent with findings in the prospective CPTAC cohort [PMID:33212010](../papers/33212010.md)
 
 ## Sources
 
@@ -69,5 +70,8 @@ The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive mul
 - Kan Z et al. "Multi-omics profiling of younger Asian breast cancers reveals distinct molecular subtypes and age-associated differences." Nature Communications. 2018;9(1):1725. [PMID:29713003](../papers/29713003.md). DOI: 10.1038/s41467-018-04129-4.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: MAP3K1
 aliases: [MEKK1]
 cancer_types: []
 tags: [mapk, sarcoma, clonal-evolution, intra-tumoral-heterogeneity]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -25,6 +25,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - Identified as a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early-stage breast cancer; enriched among HR+/HER2− mBC drivers [PMID:28027327](../papers/28027327.md)
 - Identified as a candidate novel glioma driver from a 3,130-sample meta-analysis of prospectively characterized gliomas. [PMID:31263031](../papers/31263031.md)
 - Primarily truncating/frameshift mutations consistent with loss of function; significantly enriched in CR/PR/SD patients (p=0.01, Fisher's exact) in buparlisib + letrozole ER+/HER2- trial; recurrent L380S point mutation in the longest-responding patient; interpreted as surrogate marker for luminal A subtype rather than direct PI3K-sensitivity driver [PMID:31552290](../papers/31552290.md).
+- Loss-of-function mutations in luminal breast cancer (BRCA) associate with elevated phospho-RIPK3, suggesting a necroptosis-related signaling vulnerability; nominated as a therapeutic target axis. [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,8 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

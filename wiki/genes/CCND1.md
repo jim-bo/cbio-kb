@@ -81,6 +81,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Amplified more frequently in CDK12-biallelic (CDK12-Bi) prostate cancer than CDK12-WT tumors (FDR <0.05) in a 26,743-patient pan-cancer MSK-IMPACT cohort; 11q13.3 locus (which also spans FGF19, FGF4, FGF3) was one of the most differentially gained regions in CDK12-Bi prostate cancer [PMID:32317181](../papers/32317181.md)
 - Alterations in 11/41 (26.8%) CDK4/6i-resistant vs 3/18 (16.7%) sensitive HR+/HER2- breast cancer biopsies; no consistent association with CDK4/6i response in this cohort [PMID:32404308](../papers/32404308.md)
 - CCND1 alterations or amplifications observed in ~11% of BRAFi-monotherapy BRAF-mutant melanoma patients (n=51); no association with treatment response grade or survival [PMID:32913971](../papers/32913971.md)
+- Cyclin D1 (CCND1) protein levels are higher in HR+/ERBB2− vs TNBC breast tumors in the CPTAC proteogenomics cohort (n=122); CDK4/6 activity tracks proliferation in HR+ but not TNBC, consistent with Rb-dependent CDK4/6 function [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -277,5 +278,6 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
+- [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

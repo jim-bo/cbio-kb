@@ -5,7 +5,7 @@ drug_class: pan-FGFR tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [fgfr-inhibitor, targeted-therapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -28,6 +28,7 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - SCBO-6 bladder organoid (FGFR3-mutant, TSC1-null) showed additive response to erdafitinib (JNJ-42756493, pan-FGFR inhibitor) combined with mTOR inhibitors AZD8055 or sirolimus; no bladder organoid lines responded to FGFR inhibitors as single agents under conditions tested [PMID:29625057](../papers/29625057.md)
 - Erdafitinib (pan-FGFR inhibitor) at 1 nM and 5 nM significantly upregulated IFNG-response gene BST2 in FGFR3-fusion-positive UCB cell lines (RT-112, RT-4, SW780), mirroring shRNA knockdown of FGFR3 and supporting the hypothesis that erdafitinib can remodel the immune-cold tumor microenvironment of UTUC; FDA accelerated approval in metastatic urothelial carcinoma with actionable FGFR alterations (phase 2 response rate 32.2% in 87 patients) is cited as precedent. [PMID:31278255](../papers/31278255.md)
 - FGFR3 mutations occur in 47-48% of UTUC; although erdafitinib is FDA-approved for FGFR3-altered metastatic bladder cancer, the authors note its impact in UC has been limited and position the UTUC PDX platform as a resource for testing FGFR3-targeted precision strategies [PMID:32332851](../papers/32332851.md)
+- In UTUC (n=30 WES), FGFR3 mutations occurred in 50% of cases and defined the EpiC-low (hypomethylated, immune-cold) subtype; the authors cite erdafitinib's FDA accelerated approval (~40% response rate, n=90 FGFR-altered metastatic urothelial carcinoma) and propose combining it with PD-1/PD-L1 blockade to convert immune-cold FGFR3-mutant tumors into immune-responsive ones. [PMID:33397444](../papers/33397444.md)
 
 ## Resistance mechanisms
 
@@ -47,22 +48,14 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 
 - [PMID:36543146](../papers/36543146.md) — Sfakianos et al. 2023; FGFR3 discordance between primary and metastatic bladder cancer; cfDNA resistance mutations during erdafitinib therapy.
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36333289](../papers/36333289.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
+- [PMID:31278255](../papers/31278255.md)
+- [PMID:32332851](../papers/32332851.md)
+- [PMID:33397444](../papers/33397444.md) — Sfakianos et al. 2021, *Eur Urol*. UTUC multi-omics (n=40); FGFR3 mutations in 50%; erdafitinib FDA approval cited; FGFR3-mutant immune-cold subtype proposed as candidate for erdafitinib + PD-1/PD-L1 combination.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*

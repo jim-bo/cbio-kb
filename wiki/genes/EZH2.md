@@ -46,6 +46,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Discussed as a therapeutic-target gene in AML; LSD1/EZH2 inhibitors are a treatment strategy in the AML genomic landscape [PMID:30333627](../papers/30333627.md)
 - EZH2 is a known histone-mark cluster driver identified in the expanded CCLE multi-omic profiling of 1,072 cancer cell lines [PMID:31068700](../papers/31068700.md)
 - EZH2 is part of the histone modification/DNA methylation pathway jointly mutated in 35.6% of 133 cHCC-ICC cases, alongside KMT2D, IDH1, and BAP1 [PMID:31130341](../papers/31130341.md)
+- EZH2 inhibition +/- cisplatin proposed as therapeutic strategy for SWI/SNF-mutant EpiC-high UTUC subtype based on prior NK-cell-activating mechanism; no in-paper EZH2 mutation data reported [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -129,5 +130,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

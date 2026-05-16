@@ -42,6 +42,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - Recurrent variant of uncertain significance (VUSo) in castration-resistant prostate cancer (CRPC) cfDNA, consistent with subclonal androgen-receptor evolution detected by broad-coverage liquid biopsy [PMID:31768066](../papers/31768066.md)
 - Oncogenic AR alterations were the strongest predictor of castration resistance and death in 424 mCSPC patients profiled by MSK-IMPACT; AR alterations were enriched 8.6 pp in metastatic-recurrent vs de-novo disease before adjusting for ADT exposure; AR pathway status proposed for prognostic stratification in metastatic castration-sensitive disease [PMID:32220891](../papers/32220891.md)
 - AR was used as an IHC surrogate marker for the LAR (luminal androgen receptor) subtype of metastatic TNBC in a biomarker-guided umbrella trial; anti-AR + CDK4/6 inhibitor therapy was assigned to LAR-subtype patients without ERBB2 mutations. [PMID:32719455](../papers/32719455.md)
+- AR-expressing LAR subtype of TNBC is noted as a distinct PIK3CA-recurrent subgroup in the CPTAC breast cancer proteogenomics study (n=122); LAR-subtype TNBC had recurrent PIK3CA mutations (binomial p=1.50 × 10⁻³ compared to NMF LumB-I) [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -125,5 +126,6 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
+- [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

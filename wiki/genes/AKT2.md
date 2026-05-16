@@ -26,6 +26,7 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - PI3K/AKT pathway mutations ([PTEN](../genes/PTEN.md), AKT1/2, PAX8/PPARG) account for 4.5% (18/402) of papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
 - AKT2 G16D acquired post-everolimus in a metastatic panNET patient, detected by serial NGS as a resistance mechanism [PMID:30687805](../papers/30687805.md)
 - No hotspot mutations observed in AKT2 across 51 BRAF-mutant melanoma patients treated with BRAFi monotherapy; AKT2 was surveyed but did not emerge as a resistance driver in this pretreatment sequencing study [PMID:32913971](../papers/32913971.md)
+- AKT2 protein and RNA are upregulated in BRAFV600E pediatric LGG vs BRAFWT (validated by MRM); AKT2-substrate phosphosites (including HNRNPUL1/HNRNPUL2) formed a BRAFV600E-specific phosphosite co-expression module in the CPTAC pediatric brain tumor proteogenomic study (n=218 samples) [PMID:33242424](../papers/33242424.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +64,6 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
+- [PMID:33242424](../papers/33242424.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

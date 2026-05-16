@@ -15,7 +15,7 @@ tags:
   - integrative clustering
   - copy number
   - expression
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -57,6 +57,7 @@ METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) is a lar
 - 22.6% of all tumours harboured mutations in chromatin-function Mut-drivers ([KMT2C](../genes/KMT2C.md), [ARID1A](../genes/ARID1A.md), [NCOR1](../genes/NCOR1.md), [CTCF](../genes/CTCF.md), [KDM6A](../genes/KDM6A.md), [PBRM1](../genes/PBRM1.md), [TBL1XR1](../genes/TBL1XR1.md)). [PMID:27161491](../papers/27161491.md)
 - High MATH (intra-tumour heterogeneity) scores associated with worse BCSS in ER+ (P=0.003) but not ER-; IntClust2 had paradoxically low MATH despite poor outcome, due to the [CCND1](../genes/CCND1.md)/[PAK1](../genes/PAK1.md) 11q13–14 co-amplification being a single early clonal event. [PMID:27161491](../papers/27161491.md)
 - Rueda et al. applied a multistate Markov model to 1,980 METABRIC patients with copy-number and expression data, identifying four late-recurring ER+/HER2-negative IntClust subgroups (1, 2, 6, 9; 26% of ER+ cases) with 42–56% 20-year relapse probability, each defined by a characteristic copy-number driver; IntClust significantly improved late-relapse prediction (C-index +0.07, P=0.00011 at 10 years) beyond IHC and clinical covariates. [PMID:30867590](../papers/30867590.md)
+- Used as outcome-validation comparator for NMF luminal subtype reassignment; METABRIC confirmed intermediate outcomes for PAM50-LumA samples reassigned to NMF LumB-I [PMID:33212010](../papers/33212010.md)
 
 ## Sources
 
@@ -67,3 +68,6 @@ METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) is a lar
 - [PMID:30867590](../papers/30867590.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

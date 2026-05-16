@@ -64,6 +64,8 @@ OncoTree code for invasive breast carcinoma.
 - The FUTURE umbrella trial enrolled 69 heavily pretreated refractory metastatic triple-negative [BRCA](../cancer_types/BRCA.md) patients (median 3 prior lines) across 7 biomarker-guided arms; ITT ORR was 29.0% (20/69; 95% CI 18.7%–41.2%), with 52.6% ORR in the IM-subtype arm receiving camrelizumab + nab-paclitaxel [PMID:32719455](../papers/32719455.md).
 - A phase I/II trial of alpelisib + aromatase inhibitor in 51 HR+ metastatic [BRCA](../cancer_types/BRCA.md) patients achieved a 52% clinical benefit rate; PIK3CA-mutant tumors benefited (CBR 57.5%) while PIK3CA-WT patients derived no benefit (0/6), and PTEN loss (25%) and ESR1 mutations were established as recurrent resistance mechanisms [PMID:32864625](../papers/32864625.md).
 - Synthetic iCARE modeling in women aged 50–75 with breast cancer showed that for the top 1% of CH+blood-count risk, adjuvant chemotherapy added ~9% absolute 10-year myeloid neoplasm risk — potentially exceeding the survival benefit of chemotherapy in some early-stage BRCA patients, raising the possibility of CH-guided therapy choice. [PMID:33106634](../papers/33106634.md)
+- NMF multi-omics clustering of 122 treatment-naive primary breast tumors resolved four subtypes (LumA-I, LumB-I, HER2-I, Basal-I); 2/17 ERBB2-amplified cases were pseudo-ERBB2+ with protein levels in the ERBB2-negative range; Rb protein/phosphoprotein status (not RB1 genotype alone) tracked CDK4/6 inhibitor sensitivity in TNBC [PMID:33212010](../papers/33212010.md)
+- WES of 3 juvenile papillomatosis (JP) breast lesions found clonal [PIK3CA](../genes/PIK3CA.md) hotspot mutations (H1047R, E542K) in 2/3 cases; JP, [DCIS](../cancer_types/DCIS.md), and [IDC](../cancer_types/IDC.md) components were clonally related in 1 case sharing PIK3CA E542K with APOBEC signature shift during progression [PMID:33263939](../papers/33263939.md)
 
 ## Subtypes
 
@@ -166,5 +168,9 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md) — Krug et al. CPTAC proteogenomic analysis of 122 primary invasive breast tumors.
+- [PMID:33263939](../papers/33263939.md) — D'Alfonso et al. WES of juvenile papillomatosis with coexisting DCIS and IDC-NST.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

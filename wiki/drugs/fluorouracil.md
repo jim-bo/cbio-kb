@@ -28,6 +28,7 @@ processed_at: 2026-05-16
 - Fluorouracil-containing regimens (FOLFOX, FOLFIRI, capecitabine-containing) were used as standard first-line chemotherapy in the 295-patient metastatic EGC cohort; MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
 - Component of FOLFOX regimen (5-FU + leucovorin + oxaliplatin) used as alternative first-line chemotherapy in advanced cholangiocarcinoma (n=195 cohort); primary standard was gemcitabine/platinum [PMID:29848569](../papers/29848569.md)
 - In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and fluorouracil but more sensitive to the hypoxia-activated agent tirapazamine, coincident with HIF-1α upregulation, illustrating that 3D hypoxic cores can reverse standard drug response rankings [PMID:30643250](../papers/30643250.md).
+- Ex vivo AUC for 5-FU in patient-derived rectal cancer tumoroids correlated with patient PFS (Spearman r=0.86, p=0.024, n=7 patients); in vivo mouse xenograft studies showed RC-MSK-008 (aggressive, OS=1.1 yr) failed to respond to 5-FU while RC-MSK-002 (OS=3.3 yr) responded, recapitulating patient-specific responses [PMID:31591597](../papers/31591597.md)
 
 ## Resistance mechanisms
 
@@ -63,5 +64,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ drug_class: platinum chemotherapy
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -25,6 +25,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - Oxaliplatin-containing regimens (FOLFOX) were used as first-line chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict response, and MSI-H tumors had inferior cytotoxic PFS (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
 - Component of FOLFOX regimen and gemcitabine/platinum standard first-line chemotherapy (80% of 158 advanced cholangiocarcinoma patients); also appears as the platinum component of gemcitabine/platinum; median PFS 8.8 months [PMID:29848569](../papers/29848569.md)
 - Oxaliplatin-based regimens were among the cytotoxic chemotherapy options used in the 80-patient metastatic panNET cohort; the study noted that cytotoxic chemotherapy exposure (especially alkylators) was associated with hypermutation and grade progression [PMID:30687805](../papers/30687805.md)
+- Component of FOLFOX (5-FU + leucovorin + oxaliplatin) regimen used in ex vivo and in vivo rectal cancer tumoroid sensitivity assays; ex vivo FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md)
 
 ## Resistance mechanisms
 
@@ -52,3 +53,6 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80 metastatic); oxaliplatin-based regimens used as cytotoxic chemotherapy; alkylator exposure associated with hypermutation and grade progression.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

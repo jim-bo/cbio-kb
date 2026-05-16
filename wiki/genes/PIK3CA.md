@@ -143,6 +143,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018); mTOR-pathway alterations occurred in 34/80 (43%) patients; PI3K pathway gene alterations did not predict everolimus response [PMID:30687805](../papers/30687805.md)
 - PIK3CA is altered in 12% of mCRPC tumors; part of the broader PI3K-pathway alteration set (with PIK3CB 4%, PIK3R1 2.8%, AKT1 0.9%); PI3K-pathway alteration was not associated with survival or time on ARSI [PMID:31061129](../papers/31061129.md)
 - PIK3CA is among the recurrently mutated genes in UTUC (upper tract urothelial carcinoma) alongside TP53, KMT2D, ARID1A, KDM6A, RB1, ERCC2, and others at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
+- Hot-spot PIK3CA mutations in 8 MSK-IMPACT R/M ACC cases; 6 were enrolled on PI3K-inhibitor basket trials (taselisib NCT01296555 or alpelisib NCT01928459): 1/6 PR, 5/6 SD at 2 months, 5/6 had tumor-volume reduction (mean 18.8%), 4/6 achieved PR or SD >6 months [PMID:31483290](../papers/31483290.md).
+- Recurrent hotspot activating mutations in helical/kinase domains in ~40–50% of ER+ tumors; in the buparlisib + letrozole trial enriched in clinical-benefit patients; co-occurrence with MAP3K1 alterations associated with highest CBR (5/7, 71%); PIK3CA alone is suboptimal as a response predictor [PMID:31552290](../papers/31552290.md).
 
 ## Cancer types (linked)
 
@@ -432,5 +434,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

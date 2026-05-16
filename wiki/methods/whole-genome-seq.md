@@ -96,6 +96,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - 184 EOPC and 85 LOPC prostate cancer genomes sequenced by WGS with matched blood normal; 41 samples re-used from Fraser et al. 2017; analysis revealed APOBEC-driven mutational signatures and recurrent SVs at ESRP1, KLF5, NKX3-1, FOXP1, PTEN, and TP53 [PMID:30537516](../papers/30537516.md)
 - Applied to 329 of the 1,072 CCLE cancer cell lines; targeted sequencing additionally applied to 657 lines (950 total per Methods); TERT promoter mutations detected in 16.7% (84/503) of surveyed lines as the most common non-coding somatic mutation [PMID:31068700](../papers/31068700.md)
 - Applied to 41 tumors / 37 cases in the pan-Asia cHCC-ICC study; HBV integration sites identified with TERT and KMT2B as most recurrent targets; WGS complemented WES for structural variant and noncoding mutation discovery [PMID:31130341](../papers/31130341.md)
+- WGS performed as part of the combined 193-case ACC sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of TERT promoter mutations, MYB structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
 
 ## Notes
 
@@ -325,5 +326,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

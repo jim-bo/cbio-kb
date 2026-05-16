@@ -9,7 +9,7 @@ tags:
   - targeted-dna-seq
   - clinical-sequencing
   - tumor-only
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ FoundationOne is a commercially available, FDA-approved comprehensive genomic pr
 ## Used by
 
 - Used for tumor-only sequencing of 167 of 1,004 adult glioma tumors in the 923-patient MSK glioma prospective cohort ([glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md)); tumor-only design precludes germline analysis for this subset, biasing the germline-variant prevalence denominator to the 837 MSK-IMPACT paired samples [PMID:31263031](../papers/31263031.md)
+- Applied to 730 R/M ACC cases at median exon coverage >×500; constituted the largest single platform in the 1,045-case integrated ACC genomic study, enabling discovery of NOTCH1 enrichment (26.3% R/M) and chromatin-remodeling alterations [PMID:31483290](../papers/31483290.md).
 
 ## Notes
 
@@ -35,3 +36,6 @@ FoundationOne is a commercially available, FDA-approved comprehensive genomic pr
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. used FoundationOne (tumor-only, n=167) alongside MSK-IMPACT (paired, n=837) in 923 adult glioma patients; FoundationOne samples excluded from germline analysis.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

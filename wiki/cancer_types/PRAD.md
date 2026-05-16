@@ -4,7 +4,7 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -55,6 +55,7 @@ OncoTree code for prostate adenocarcinoma.
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); TCGA-CDR advises against using OS/DSS for PRAD due to short follow-up; PFI/DFI recommended instead [PMID:29625055](../papers/29625055.md)
 - PRAD (prostate adenocarcinoma) was the cancer type studied in 292 whole-genome-profiled cases (203 EOPC, 89 LOPC) from the prostate_dkfz_2018 dataset; recurrent SVs included TMPRSS2-ERG fusions (70% of EOPC), 8p NKX3-1 loss (37%), 3p14 FOXP1 loss (30%), 13q22 KLF5 loss (27%), and 8q22 ESRP1 duplications (17%); APOBEC3B-driven kataegis was the dominant mutational mechanism at SV breakpoints. [PMID:30537516](../papers/30537516.md)
 - SU2C mCRPC cohort expanded to 429 patients (444 tumors) profiled by WES and RNA-seq; RB1 alteration is the dominant independent prognostic biomarker (multivariate RR 3.31 OS, RR 6.56 time on ARSI); AR-V7 tumor-tissue detection is not prognostic; 10.5% of post-ARSI tumors show neuroendocrine histologic features [PMID:31061129](../papers/31061129.md).
+- HP [1-13C] pyruvate MRI in 12 PRAD patients: Lac_max significantly higher in tumor vs normal prostate (p=0.0001 Gleason 3, p<0.0001 Gleason ≥4) and rose with grade; MCT1 (SLC16A1) identified as rate-limiting lactate transporter by IHC; homozygous PTEN loss trended with highest Lac_max (p=0.059); TMPRSS2-ERG fusion did not segregate lactate signal [PMID:31564440](../papers/31564440.md).
 
 ## Subtypes
 
@@ -118,5 +119,8 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:31061129](../papers/31061129.md) — Abida et al. SU2C mCRPC cohort N=429 (PNAS 2019).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

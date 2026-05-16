@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: [BRG1]
 cancer_types: [MRTL, ESCA, ESCC, EAC]
 tags: [tumor-suppressor, somatic, swi-snf, chromatin-remodeling, ezh2-target]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # SMARCA4
@@ -22,6 +22,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - G1232S hotspot missense mutation in 1/19 sequenced oligodendroglioma tumors; classified as unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - SWI/SNF subunit mutated collectively with ARID1A and ARID2 in 33% of WNT medulloblastomas; provides rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
 - BRG1 (SMARCA4) knockout in A704 ccRCC cells phenocopies several BAF180-null (PBRM1-null) transcriptional changes, including immune and cytokine signaling enrichment, supporting a PBAF-complex-wide immune-priming mechanism. [PMID:29301960](../papers/29301960.md)
+- Inactivating focal deletions, frameshifts, or nonsense mutations in SMARCA4 observed in all ATRT and extracranial MRT PDX models in the PPTC 261-model study; three astrocytic tumors also carried SMARCB1 hemizygous deletions [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:29301960](../papers/29301960.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

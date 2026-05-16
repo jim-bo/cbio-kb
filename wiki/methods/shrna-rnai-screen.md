@@ -23,6 +23,7 @@ Short hairpin RNA (shRNA) RNAi screening is a pooled or arrayed loss-of-function
 - shRNA knockdown of TRMT10A, USP10, BRCA1, PARP1 and ATM used to functionally dissect the TRMT10A-BRCA1 HR axis in LNCaP, C4-2, 22Rv1, DU145, and PC-3 prostate cancer cell lines [PMID:28068672](../papers/28068672.md).
 - Employed shRNA/RNAi screen to identify essential genes in cancer cell lines [PMID:28196596](../papers/28196596.md)
 - Project Achilles and DRIVE shRNA/sgRNA dependency screen data integrated with the 1,072-line CCLE multi-omic dataset; cross-referencing methylation profiles with RNAi dependencies revealed [ESR1](../genes/ESR1.md) and [AFF1](../genes/AFF1.md) as fusion-driven dependencies and identified MDM4 exon-6 inclusion as a predictor of [nutlin-3a](../drugs/nutlin-3a.md) (MDM2-inhibitor) sensitivity [PMID:31068700](../papers/31068700.md)
+- shRNA knockdown of MAP3K1 (~70% mRNA reduction) in T47D, MCF7, and BT483 ER+ breast cancer cell lines confirmed MAP3K1 as the kinase upstream of buparlisib-induced JNK/cJUN activation, but did not sensitize any line to buparlisib in full-serum or estrogen-deprived conditions [PMID:31552290](../papers/31552290.md).
 
 ## Notes
 
@@ -48,5 +49,8 @@ Short hairpin RNA (shRNA) RNAi screening is a pooled or arrayed loss-of-function
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

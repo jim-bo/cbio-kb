@@ -3,7 +3,7 @@ symbol: LDHA
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,7 @@ LDHA (Lactate Dehydrogenase A) encodes the A subunit of the lactate dehydrogenas
 ## Alterations observed in the corpus
 
 - LDHA and LDHB exhibit reciprocal paralog synthetic lethality gated by promoter methylation in cancer cell lines; when LDHA promoter is hypermethylated, LDHB becomes essential, and vice versa; this relationship was replicated in TCGA primary tumors across multiple cancer types. [PMID:31068700](../papers/31068700.md)
+- Significantly upregulated at the RNA level in prad_tcga tumors vs. matched normals; catalyzes the pyruvate→lactate reaction measured by hyperpolarized MRI in localized prostate cancer [PMID:31564440](../papers/31564440.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ LDHA (Lactate Dehydrogenase A) encodes the A subunit of the lactate dehydrogenas
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

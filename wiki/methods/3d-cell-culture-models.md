@@ -12,7 +12,7 @@ tags:
   - scaffold
   - bioprinting
   - tumor-microenvironment
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -25,6 +25,7 @@ Three-dimensional (3D) cell culture models are an umbrella category of in vitro 
 ## Used by
 
 - Methodological review of 3D cancer culture systems surveying spheroids, hydrogels, bioprinting, and microfluidics across breast, glioblastoma, osteosarcoma, ovarian, pancreatic, Ewing sarcoma, head-and-neck, and other cancer types; argues these models better recapitulate drug resistance and tumor heterogeneity than monolayers [PMID:30643250](../papers/30643250.md)
+- 65 patient-derived rectal cancer tumoroid cultures established from 41 patients (77% success rate from 84 attempts, including minute 2.8 mm outpatient biopsy forceps samples); tumoroids recapitulated histopathology, mutational profiles, and ex vivo chemoradiation responses of parental tumors [PMID:31591597](../papers/31591597.md).
 
 ## Notes
 
@@ -37,3 +38,6 @@ Three-dimensional (3D) cell culture models are an umbrella category of in vitro 
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

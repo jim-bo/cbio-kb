@@ -3,8 +3,8 @@ symbol: STAT5B
 aliases: []
 cancer_types: [BLL, TLL]
 tags: [somatic, activating-mutation, jak-stat, bcl2-target, diagnostic]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # STAT5B
@@ -17,6 +17,7 @@ STAT5B (Signal Transducer and Activator of Transcription 5B) is a transcription 
 
 - STAT5B I704L mutation identified in a patient with T-cell lymphoblastic lymphoma/leukemia (T-BLL) in the PIPseq pediatric precision sequencing program (n=101, Columbia University); co-occurring with [KRAS](../genes/KRAS.md) V14I and [JAK1](../genes/JAK1.md) K1026E. Designated as a BCL2/BCL-XL inhibitor target. [PMID:28007021](../papers/28007021.md)
 - The same STAT5B I704L variant was separately diagnostic of gamma-delta T-cell lymphoma (identified by isochromosome 7q + STAT5B I704L co-occurrence). [PMID:28007021](../papers/28007021.md)
+- STAT5B lesions observed in 4% of ETP-ALL/T-ALL PDX models as part of the JAK-STAT pathway enrichment in the PPTC 261-model pediatric cancer genomic study [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ STAT5B (Signal Transducer and Activator of Transcription 5B) is a transcription 
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

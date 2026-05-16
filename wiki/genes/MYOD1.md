@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [SCRMS, RMS]
 tags: [rhabdomyosarcoma, spindle-cell, myogenic]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-16
 ---
 
 # MYOD1
@@ -18,6 +18,7 @@ MYOD1 is a myogenic transcription factor; activating (L122R) mutations define an
 - Activating mutation defining the 2 spindle cell/sclerosing rhabdomyosarcoma ([SCRMS](../cancer_types/SCRMS.md)) cases in the MSKCC extremity [RMS](../cancer_types/RMS.md) cohort (n=61) [PMID:37315267](../papers/37315267.md).
 - MYOD1 L122R mutation noted as a marker for spindle/sclerosing [RMS](../cancer_types/RMS.md) in a sequential multi-platform genomic study of [RMS](../cancer_types/RMS.md) progression and relapse (n=35 tumor pairs) [PMID:37730754](../papers/37730754.md).
 - Altered in fusion-negative rhabdomyosarcoma (PFN) as a known downstream target of the PAX3-FOXO1 fusion oncogene; pathway-level alteration (P=1.54×10⁻³) linking myogenic differentiation disruption to PFN pathogenesis [PMID:24436047](../papers/24436047.md)
+- MYOD1 alterations catalogued across 261 pediatric PDX models in the PPTC resource spanning 37 unique pediatric cancers [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ MYOD1 is a myogenic transcription factor; activating (L122R) mutations define an
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

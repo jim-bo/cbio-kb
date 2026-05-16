@@ -35,6 +35,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - One of three MSK-IMPACT panel versions (341, 410, or 468 genes) used with matched germline normal sequencing to define somatic TMB in 1,662 ICI-treated advanced cancer patients; TMB-high on these panels was independently predictive of OS (HR 0.61, p = 1.3 × 10⁻⁷) [PMID:30643254](../papers/30643254.md)
 - Glioma tissue biopsies sequenced using IMPACT341, IMPACT410, or IMPACT468 for a benchmark cohort of 553 MSKCC glioma biopsies from 512 patients; results used to compare CSF ctDNA TMB (4.90 mut/Mb) against matched tissue (4.46 mut/Mb) [PMID:30675060](../papers/30675060.md)
 - Used for 57 of 96 (59%) panNET samples, the primary version in the MSK panNET prospective cohort (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
+- Hybridization-capture 468-gene panel used on pre-surgery biopsies from 12 prostate cancer patients; identified PTEN copy-number loss and TMPRSS2-ERG fusions; raw data deposited at EVA accession PRJEB33969 and cBioPortal [prad_msk_2019](../datasets/prad_msk_2019.md) [PMID:31564440](../papers/31564440.md).
+- 468-gene MSK-IMPACT hybridization-capture panel used for genomic profiling of 31 rectal cancer tumoroid lines; 92% of likely-oncogenic tumor mutations were preserved in matched tumoroids; top mutated genes (APC, TP53, KRAS, FBXW7) matched the 287-patient comparator cohort [PMID:31591597](../papers/31591597.md).
 
 ## Notes
 
@@ -80,5 +82,11 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31564440](../papers/31564440.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

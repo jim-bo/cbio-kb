@@ -49,6 +49,7 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 - [ZNF750](../genes/ZNF750.md) mRNA expression referenced from CCLE cell-line data as part of ESCC tumor-versus-normal expression comparisons [PMID:24686850](../papers/24686850.md).
 - [SLFN11](../genes/SLFN11.md) expression analyzed across CCLE SCLC cell lines to confirm bimodal distribution; lower expression in lines derived from previously-treated patients (p=0.031), supporting SLFN11 as a treatment-experience-dependent biomarker in SCLC [PMID:28196596](../papers/28196596.md).
 - Next-generation CCLE multi-omic profiling of 1,072 cancer cell lines layered WES/WGS/RNA-seq/RPPA/RRBS/miRNA/histone mass-spec on the original CCLE backbone; this cell-line resource underpins all dependency and drug-sensitivity analyses in the study [PMID:31068700](../papers/31068700.md)
+- Queried for ER+ breast cancer cell-line mutation status; no ER+ line in CCLE harbors both MAP3K1 loss and PIK3CA mutation — likely because luminal A tumors poorly tolerate cell-line establishment — leaving the prototypic double-altered genotype unmodeled in vitro [PMID:31552290](../papers/31552290.md).
 
 ## Sources
 
@@ -58,5 +59,8 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

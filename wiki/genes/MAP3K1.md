@@ -24,6 +24,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - MAP3K1 is the most common multi-hit gene (53/152 mutants with >1 functional mutation) in breast cancer, suggesting biallelic inactivation; classified as ER+ tumor-suppressor gene driver; mutations associated with improved BCSS (HR=0.56) [PMID:27161491](../papers/27161491.md)
 - Identified as a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early-stage breast cancer; enriched among HR+/HER2− mBC drivers [PMID:28027327](../papers/28027327.md)
 - Identified as a candidate novel glioma driver from a 3,130-sample meta-analysis of prospectively characterized gliomas. [PMID:31263031](../papers/31263031.md)
+- Primarily truncating/frameshift mutations consistent with loss of function; significantly enriched in CR/PR/SD patients (p=0.01, Fisher's exact) in buparlisib + letrozole ER+/HER2- trial; recurrent L380S point mutation in the longest-responding patient; interpreted as surrogate marker for luminal A subtype rather than direct PI3K-sensitivity driver [PMID:31552290](../papers/31552290.md).
 
 ## Cancer types (linked)
 
@@ -67,5 +68,8 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

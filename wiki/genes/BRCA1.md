@@ -75,6 +75,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Germline pathogenic variant identified in the actionable-alteration tally (n=1, OncoKB level) via universal tumor/normal sequencing in a 189-patient MSK advanced endometrial cancer cohort; none enrolled to PARP inhibitor trials [PMID:30068706](../papers/30068706.md)
 - Germline protein-truncating variants in BRCA1 drive elevated somatic SV/SNV burden and APOBEC signatures 2 and 3 (BRCAness) in prostate cancer; BRCA1 loss observed on one branch of the aggressive multi-region tumor PCA041 in 292-case WGS study [PMID:30537516](../papers/30537516.md)
 - Harbors homologous-recombination repair alterations (1.9% frequency) in mCRPC tumor tissue; no association with survival or time on first-line ARSI (composite HRR P=0.495/0.611) in contrast to prior cfDNA-based reports [PMID:31061129](../papers/31061129.md)
+- Splicing-region germline variants found in 4 of 90 recurrent/metastatic adenoid cystic carcinoma cases; all monoallelic with no LOH — clinical relevance unclear pending validation [PMID:31483290](../papers/31483290.md)
 
 ## Cancer types (linked)
 
@@ -230,5 +231,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

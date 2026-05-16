@@ -27,6 +27,7 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - Mutations not associated with resistance to nivolumab in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. [PMID:29033130](../papers/29033130.md)
 - Low-frequency loss-of-function events noted alongside JAK2 in a 240-patient NSCLC immunotherapy cohort; one patient with homozygous loss-of-function JAK2 splice mutation had primary resistance (PD), consistent with interferon-gamma signaling defects described in melanoma [PMID:29337640](../papers/29337640.md)
 - Loss-of-function alteration in JAK/STAT pathway; rare in pre-treatment tumors in this pooled ICB cohort (193 patients across melanoma, NSCLC, bladder, HNSCC, and other cancer types), consistent with intrinsic rather than acquired resistance mechanisms [PMID:30150660](../papers/30150660.md)
+- JAK1 or JAK2 lesions observed in 24% of ETP-ALL/T-ALL PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types); JAK-STAT pathway alterations are a recurrent feature of T-cell leukemia models in this resource [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -79,5 +80,8 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

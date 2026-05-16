@@ -66,6 +66,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 is the strongest single prognostic marker in mCRPC; genomic alteration associated with shorter survival (P=0.002, CPE 0.768; multivariate RR 3.31) and shorter time on ARSI (P<0.001, CPE 0.818; multivariate RR 6.56); co-occurs with TP53 and tends to be mutually exclusive with AR alteration [PMID:31061129](../papers/31061129.md)
 - RB1 is among the recurrently mutated genes in UTUC alongside TP53, KMT2D, ARID1A, PIK3CA, KDM6A, ERCC2, and others at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
 - RB1 is a driver gene (q<0.1) in cHCC-ICC; focal loss in 26%; trunk mutation in some separate-type cases [PMID:31130341](../papers/31130341.md)
+- MDM2 and RB1 alterations phenocopy TP53 inactivation per RNA-expression classifier in 261 pediatric cancer PDX models; RB1-altered models scored high on the TP53 pathway-inactivation classifier (AUROC 0.89) [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -199,5 +200,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,8 +4,8 @@ oncotree_code: PPB
 main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Pleuropulmonary Blastoma (PPB)
@@ -21,6 +21,7 @@ Pleuropulmonary blastoma (PPB) is the most common primary malignant lung tumor o
 ## Recurrent alterations
 
 - PIPseq cohort: DICER1 E1813G mutation identified in a PPB patient as a health-maintenance flag for DICER1 syndrome — prompting screening of family members for DICER1-syndrome-associated tumors (particularly Sertoli-Leydig cell tumors of the ovary) [PMID:28007021](../papers/28007021.md).
+- PPB PDX models included in the PPTC cohort (n=261) of 37 pediatric cancer molecular subtypes spanning 29 unique histologies [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Pleuropulmonary blastoma (PPB) is the most common primary malignant lung tumor o
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

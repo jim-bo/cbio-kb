@@ -4,7 +4,7 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -54,6 +54,7 @@ OncoTree code for invasive breast carcinoma.
 - Prospective MSK-IMPACT sequencing of 1,918 breast tumors (1,756 patients) identified four endocrine-resistance classes in HR+ disease: ESR1-mutant (18% post-ET), MAPK-pathway-altered (ERBB2 mutations and NF1 loss each >2× enriched post-ET), ER-transcriptional-machinery-altered (MYC, CTCF, FOXA1, TBX3), and pan-wild-type; MAPK-altered tumors had median AI PFS 3.5 vs 15.2 months (p=1.4×10⁻⁹); dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
 - BRCA was used as a major 3D model test bed; spheroids from MCF-7 and MDA-MB-231 lines recapitulate hypoxic cores, upregulate stemness markers (Nanog, OCT3/4), and show IC50 values 3–5-fold higher than monolayers, illustrating TME-driven drug resistance. [PMID:30643250](../papers/30643250.md)
 - Non-homogeneous semi-Markov multistate model applied to 3,240 breast cancer patients (including 1,980 from [brca_metabric](../datasets/brca_metabric.md)) delineated spatio-temporal relapse patterns across IntClust, PAM50, and IHC subtypes; four ER+/HER2− IntClust subgroups (1, 2, 6, 9) carry 42–56% relapse probability persisting to 20 years post-diagnosis [PMID:30867590](../papers/30867590.md).
+- Phase Ib trial (n=33) of buparlisib + letrozole in ER+/HER2- metastatic breast cancer: PIK3CA + MAP3K1 co-mutation conferred 71% clinical benefit rate vs 11% in double-wild-type; MAP3K1 alterations associated with improved PFS (p=0.03) and track with luminal A subtype [PMID:31552290](../papers/31552290.md).
 
 ## Subtypes
 
@@ -124,5 +125,8 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

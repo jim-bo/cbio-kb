@@ -14,7 +14,7 @@ tags:
   - ccRCC
   - immunotherapy-combination
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-16
 ---
 
 # axitinib
@@ -29,6 +29,7 @@ Axitinib is a selective inhibitor of vascular endothelial growth factor receptor
 - The TKI response model (which includes axitinib-based regimens) achieved ROC-AUC = 0.74 on validation (n = 822), outperforming single-biomarker signatures [PMID:22138691](../papers/22138691.md).
 - JAVELIN Renal 101 (avelumab+axitinib) was one of the clinical trial datasets used to train and validate the ccRCC IO/TKI response decision-tree model [PMID:22138691](../papers/22138691.md).
 - Cited as a VEGFR2-targeting TKI among anti-angiogenic agents under investigation in R/M NPC [PMID:24952746](../papers/24952746.md)
+- Cited in an integrated genomic analysis of 868 R/M adenoid cystic carcinoma (ACC) cases as a multikinase inhibitor with prior phase II evidence of activity in 4q12-amplified ACC, illustrating the need for predictive biomarkers to select ACC patients likely to benefit from tyrosine-kinase inhibition [PMID:31483290](../papers/31483290.md)
 
 ## Resistance mechanisms
 
@@ -46,3 +47,6 @@ Axitinib is a selective inhibitor of vascular endothelial growth factor receptor
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

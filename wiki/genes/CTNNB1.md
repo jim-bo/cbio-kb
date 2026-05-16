@@ -75,6 +75,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 dependence correlates with mir-215 expression in stomach and colon lineages across 1,072 CCLE cancer cell lines [PMID:31068700](../papers/31068700.md)
 - CTNNB1 mutation frequency is paradoxically low at 6% in 133 cHCC-ICC cases vs HCC reference cohorts; enriched in P4 transcriptomic cluster (Hoshida-S3, well-differentiated HCC-like) [PMID:31130341](../papers/31130341.md)
 - CTNNB1 is recurrently altered in metastatic castration-resistant prostate cancer (mCRPC) but not significantly prognostic for survival or time on ARSI in a 429-patient tumor biopsy cohort [PMID:31061129](../papers/31061129.md)
+- Mutations in 15% of Wilms tumor PDX models (KT-6 and NCH-WT-6-S13-1506), mutually exclusive with AMER1/WTX alterations; also p.D32G in a pediatric hepatic model in the PPTC PDX dataset [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -219,5 +220,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -22,6 +22,7 @@ PyClone is a Bayesian statistical method for inferring the clonal population str
 - Modified PyClone used in TRACERx to cluster somatic variants into subclonal populations from multi-region exome sequencing data, enabling ctDNA panel design and phylogenetic tree construction [PMID:28445469](../papers/28445469.md)
 - PyClone v0.13.0 used to estimate cancer cell fraction of somatic variants in 68 paired melanoma WES biopsies; enabled characterization of clonal vs subclonal mutation dynamics on nivolumab [PMID:29033130](../papers/29033130.md)
 - Applied for bulk CCF inference in mixed-type cHCC-ICC cases (133 cases); PyClone bulk CCF results were validated against single-nucleus sequencing (SNS) on one case (Mix_19, 74 tumor nuclei + 11 normal nuclei) — recapitulating one founding clone and two subclones consistent with PyClone output [PMID:31130341](../papers/31130341.md)
+- NMF on PyClone cancer-cell fractions defined 3 mutation clusters in a multiregion salivary ACC case; the most divergent metastatic cluster carried subclonal SF3B1, XDH, LTF, and TMEM2 mutations implicated in metastasis [PMID:31483290](../papers/31483290.md).
 
 ## Notes
 
@@ -42,5 +43,8 @@ PyClone is a Bayesian statistical method for inferring the clonal population str
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

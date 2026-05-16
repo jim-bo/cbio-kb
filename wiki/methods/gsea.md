@@ -32,6 +32,7 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - ssGSEA tested 9,292 MSigDB gene sets on GBM longitudinal transcriptomes; regulatory T-cell (FOXP3) signatures enriched in non-responders pre-treatment (p=0.037); immunosuppressive signatures (FOXP3, STAT3) elevated in responders post-treatment [PMID:30742119](../papers/30742119.md)
 - Used for transcriptomic pathway enrichment analysis across four PLC clusters (n=367): EMT identified as top enriched pathway in P1 (combined-type/ICC-like cHCC-ICC); xenobiotic and bile acid metabolism enriched in P2 (mixed-type/HCC-like) [PMID:31130341](../papers/31130341.md)
 - Applied in the UTUC molecular subtyping analysis for pathway comparison between the T-cell-depleted and T-cell-inflamed clusters and between UTUC and TCGA UCB; IFNG-response gene programs were down in the T-cell-depleted cluster [PMID:31278255](../papers/31278255.md)
+- Applied on Hallmark and TissGDB/TiGER gene sets across 244 RNA-seq PPTC PDX models to characterize pathway enrichment by histology subtype; identified enrichment of hedgehog, TNFα, and p53 signaling in rhabdoid models [PMID:31693904](../papers/31693904.md).
 
 ## Notes
 
@@ -84,5 +85,8 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

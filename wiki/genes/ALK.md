@@ -41,6 +41,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [EML4](../genes/EML4.md)–[ALK](../genes/ALK.md) and other [ALK](../genes/ALK.md) fusions were detected in 20 samples across 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in a pan-cancer TCGA fusion analysis; [EML4](../genes/EML4.md) is the most frequent 5' partner (7/17), and fusion status corresponds to copy-number-neutral ALK overexpression — rationale for [crizotinib](../drugs/crizotinib.md) and other ALK inhibitors. [PMID:29617662](../papers/29617662.md)
 - Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the same alteration class may yield unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
 - ALK fusions are fusion drivers in small subsets of LUAD (referenced from the Fusion AWG pan-cancer analysis across 33 TCGA tumor types) [PMID:29625049](../papers/29625049.md)
+- Hotspot mutations in 37% of neuroblastoma PDX models in the PPTC cohort; also dramatically overexpressed in neuroblastoma and additional pediatric histotypes, flagged as antibody-drug-conjugate and T-cell-engager target for basket-trial design [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -129,5 +130,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

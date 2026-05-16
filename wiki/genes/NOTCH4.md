@@ -3,8 +3,8 @@ symbol: NOTCH4
 aliases: []
 cancer_types: [CSCC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # NOTCH4
@@ -19,6 +19,7 @@ NOTCH4 is one of four mammalian NOTCH receptors, members of the evolutionarily c
 - In [PAAD](../cancer_types/PAAD.md), NOTCH4 was altered in 9% of cases within the TGF-β/NOTCH pathway analysis of the 109-case microdissected exome cohort. [PMID:25855536](../papers/25855536.md)
 - Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses [SCLC](../cancer_types/SCLC.md) initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 - NOTCH4 was mutated in ATC as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated; part of low-frequency hits in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
+- Lower-prevalence NOTCH-family mutations numerically enriched in R/M ACC; NOTCH4 enrichment OR 6.59 (P=0.067) vs. primary ACC [PMID:31483290](../papers/31483290.md).
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ NOTCH4 is one of four mammalian NOTCH receptors, members of the evolutionarily c
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

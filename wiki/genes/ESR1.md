@@ -31,6 +31,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - Ligand-binding-domain hotspot mutations (e.g., Y537) in 18% of post-endocrine-therapy HR+HER2- breast tumors; mutually exclusive with MAPK and transcription-factor lesions; associated with shorter PFS on AI but not on SERD [PMID:30205045](../papers/30205045.md)
 - Clinical ER status drives divergent recurrence trajectories in the METABRIC 20-year analysis; the late-recurring IntClust 1/2/6/9 subgroups are defined within ER+/HER2− disease, comprising 26% of ER+ patients with chronic relapse risk to 20 years [PMID:30867590](../papers/30867590.md)
 - ESR1–CCDC170 fusion drives ESR1 lineage dependence in cancer cell lines characterized in the expanded CCLE multi-omic profiling of 1,072 lines [PMID:31068700](../papers/31068700.md)
+- Cited as an established endocrine-therapy resistance mechanism in ER+/HER2- metastatic breast cancer; trial context for buparlisib + letrozole in endocrine-refractory disease [PMID:31552290](../papers/31552290.md)
 
 ## Cancer types (linked)
 
@@ -96,5 +97,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

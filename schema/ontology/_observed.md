@@ -165,6 +165,9 @@
 - method: vogelstein-ratiometric — observed in PMID:27161491 — note: Vogelstein 20/20-style ONC/TSG ratiometric driver-discovery scheme; applied ER-stratified in METABRIC breast-cancer study
 - method: ascat — observed in PMID:27161491 — note: allele-specific copy-number and LOH calling; used for CCF estimation in 2,433 METABRIC breast tumours
 - method: math-score — observed in PMID:27161491 — note: Mutant-Allele Tumor Heterogeneity score (Mroz & Rocco); higher MATH associated with worse ER+ BCSS in METABRIC; paradoxically low in IntClust2
+- drug: taselisib — observed in PMID:31483290 — note: beta-sparing PI3K inhibitor (GDC-0032); 1/6 PR and 5/6 SD in PIK3CA-mutant ACC basket trial NCT01296555
+- drug: pictilisib — observed in PMID:31552290 — note: pan-PI3K inhibitor (GDC-0941); FERGI trial showed luminal A subset benefited from pictilisib + fulvestrant in ER+ MBC; also tracked under gdc-0941.md
+- drug: anastrozole — observed in PMID:31552290 — note: aromatase inhibitor (CYP19A1); contextual endocrine therapy in ER+/HER2- breast cancer; PIK3CA+MAP3K1+luminal-A biomarker findings from buparlisib+letrozole trial applicable
 - method: pycerr — observed in PMID:41941260 — note: Python Computational Environment for Radiotherapy Research with AI auto-segmentation and radiomics
 - method: smart-seq2 — observed in PMID:27806376 — note: plate-based full-length single-cell/single-nucleus RNA-seq protocol used for oligodendroglioma and neuroblastoma transcriptomics
 - method: rnascope-ish — observed in PMID:34493726 — note: RNAscope multiplex fluorescent in situ hybridization for spatial validation of snRNA-seq findings in neuroblastoma and adrenal gland
@@ -539,3 +542,10 @@
 - method: svaba — observed in PMID:29713087 — note: local sequence assembly SV caller; used in consensus SV pipeline for 304 DLBCL WES samples alongside BreaKmer, Lumpy, dRanger
 - method: signatureanalyzer — observed in PMID:29713087 — note: Bayesian NMF framework for de novo mutational signature discovery; identified 3 dominant mutational processes in 304 DLBCLs
 - method: lumpy — observed in PMID:29713087 — note: probabilistic multi-evidence SV caller integrating split-reads, discordant pairs, and read-depth; used in consensus SV pipeline for 304 DLBCL WES samples
+- gene: TMEM2 — observed in PMID:31483290 — note: subclonal mutation in divergent metastatic cluster of salivary adenoid cystic carcinoma; not found in HUGO canonical gene list; implicated in metastasis in other tumor types
+- method: soapfuse — observed in PMID:31693904 — note: RNA-seq fusion caller used in 4-algorithm ensemble across 261 PPTC pediatric PDX models; no genePanelId in cBioPortal
+- method: fusioncatcher — observed in PMID:31693904 — note: RNA-seq fusion caller used in 4-algorithm ensemble across 261 PPTC pediatric PDX models; no genePanelId in cBioPortal
+- method: str-profiling — observed in PMID:31693904 — note: short tandem repeat identity verification applied to all 261 PPTC PDX models; no genePanelId in cBioPortal
+- method: tp53-inactivation-classifier — observed in PMID:31693904 — note: TCGA PanCanAtlas RNA-seq ML classifier (Knijnenburg 2018; Way 2017/2018); AUROC 0.89 in pediatric PDX models; predicts TP53 pathway inactivation independent of mutation status
+- method: nf1-inactivation-classifier — observed in PMID:31693904 — note: TCGA PanCanAtlas RNA-seq ML classifier (Way 2017/2018); AUROC 0.77 in pediatric PDX models; predicts NF1 pathway inactivation independent of mutation status
+- method: hyperpolarized-13c-mri — observed in PMID:31564440 — note: dissolution dDNP metabolic MRI using [1-13C] pyruvate in 12 prostate cancer patients; Lac_max tracks Gleason grade and MCT1 (SLC16A1) expression; no genePanelId in cBioPortal

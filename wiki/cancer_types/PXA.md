@@ -4,8 +4,8 @@ oncotree_code: PXA
 main_type: Glioma
 parent: ENCG
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Pleomorphic Xanthoastrocytoma (PXA)
@@ -21,6 +21,7 @@ Pleomorphic xanthoastrocytoma (PXA) is a rare glial tumor most commonly arising 
 ## Recurrent alterations
 
 - PIPseq cohort: TMEM106B-BRAF fusion identified by RNA-seq in a PXA patient — a MEK-inhibitor target; the fusion drives constitutive BRAF/MAPK activation [PMID:28007021](../papers/28007021.md).
+- PXA PDX models included in the PPTC cohort (n=261) of pediatric CNS tumors; NCH-MN-1 reclassified from suspected ATRT to HGG/PXA lineage based on BRAF V600E plus CDKN2A/CDKN2B co-deletion [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Pleomorphic xanthoastrocytoma (PXA) is a rare glial tumor most commonly arising 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

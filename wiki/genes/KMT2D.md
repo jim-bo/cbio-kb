@@ -68,6 +68,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Detected as a somatic alteration among the histone methyltransferase gene set in metastatic panNET; part of the 66% of patients harboring histone methyltransferase alterations [PMID:30687805](../papers/30687805.md)
 - Mutated as part of the histone modification/DNA methylation pathway (jointly with IDH1, BAP1, EZH2 in 35.6% of cHCC-ICC cases); linked to combined hepatocellular and intrahepatic cholangiocarcinoma molecular subtypes. [PMID:31130341](../papers/31130341.md)
 - Recurrently mutated in upper tract urothelial carcinoma (UTUC) at frequencies comparable to TCGA UCB. [PMID:31278255](../papers/31278255.md)
+- Altered in 12.8% of R/M adenoid cystic carcinoma vs. 4.5% of primaries in a multi-institutional cohort; enriched in relapsed/metastatic disease alongside other chromatin-remodeling genes [PMID:31483290](../papers/31483290.md).
 
 ## Cancer types (linked)
 
@@ -242,5 +243,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

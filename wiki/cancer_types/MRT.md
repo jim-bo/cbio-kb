@@ -9,7 +9,7 @@ tags:
   - SMARCB1
   - SWI-SNF
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # Rhabdoid Cancer (MRT)
@@ -32,6 +32,7 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 - [NF2](../genes/NF2.md), [LIF](../genes/LIF.md) — focally deleted in the only chromosome-22 deletions that spare [SMARCB1](../genes/SMARCB1.md) [PMID:26977886](../papers/26977886.md)
 - Quiet somatic genome: median 612.5 SNVs/case (0.231 mutations/Mb), 97.1% non-coding; median 5 non-synonymous substitutions/case [PMID:26977886](../papers/26977886.md)
 - PIPseq cohort included rhabdoid tumor cases; SMARCB1 homozygous deletion of chr22q11.23 with biallelic loss of expression identified as EZH2-inhibitor target [PMID:28007021](../papers/28007021.md)
+- All extracranial MRT PDX models in PPTC cohort (n=261) carried inactivating alterations of SMARCB1 and/or SMARCA4; hedgehog, TNFα, and p53 signaling enriched by GSEA [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -55,3 +56,6 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

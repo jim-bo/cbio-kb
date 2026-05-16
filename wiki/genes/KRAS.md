@@ -127,6 +127,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS mutations observed in histiocytic neoplasms: R149G (single-mutation ECD patient), G12R and G13C (compound-mutation patients); all KRAS-mutant patients responded to cobimetinib MEK inhibition [PMID:30867592](../papers/30867592.md)
 - Listed as a classic colorectal cancer SMG in a CPTAC proteogenomic colon cancer cohort (n=110); BRAF and POLE mutations enriched in the MSI-H/hypermutated subgroup of this cohort [PMID:31031003](../papers/31031003.md)
 - Zero mutations detected in cHCC-ICC cohort (n=133); KRAS mutations were notably absent, distinguishing cHCC-ICC from other liver cancers. [PMID:31130341](../papers/31130341.md)
+- 62% of rectal cancer tumoroids were RAS mutant; KRAS-mutant tumoroids exhibited cell-autonomous resistance to cetuximab ex vivo, mirroring the established clinical finding that KRAS mutation predicts anti-EGFR-antibody resistance in CRC [PMID:31591597](../papers/31591597.md).
+- RAS pathway mutations (KRAS, NRAS, HRAS) enriched in BCP-ALL and Fusion-negative RMS PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -458,5 +460,11 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

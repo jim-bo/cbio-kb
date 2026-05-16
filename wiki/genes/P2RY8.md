@@ -3,8 +3,8 @@ symbol: P2RY8
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # P2RY8
@@ -16,6 +16,7 @@ P2RY8 encodes a G protein-coupled purinergic receptor expressed on lymphocytes. 
 ## Alterations observed in the corpus
 
 - P2RY8 harbored 8 somatic mutations in 6 of 55 DLBCL patients by whole-exome sequencing; allelic fractions >0.5 in 3 patients suggested loss of heterozygosity or amplification of the mutant allele [PMID:22343534](../papers/22343534.md)
+- P2RY8 alterations catalogued in the PPTC resource of 261 pediatric PDX models across 37 unique cancer types [PMID:31693904](../papers/31693904.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ P2RY8 encodes a G protein-coupled purinergic receptor expressed on lymphocytes. 
 - [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

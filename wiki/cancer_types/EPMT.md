@@ -4,8 +4,8 @@ oncotree_code: EPMT
 main_type: CNS Cancer
 parent: BRAIN
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Ependymomal Tumor (EPMT)
@@ -21,6 +21,7 @@ Ependymomal tumor (EPMT) is the OncoTree parent node encompassing all ependymoma
 ## Recurrent alterations
 
 - PIPseq cohort: EPMT cases included ependymoma (EPM) with C11orf95-RELA fusion (diagnostic and poor-prognosis marker); see [EPM](../cancer_types/EPM.md) page for molecular details [PMID:28007021](../papers/28007021.md).
+- Ependymoma PDX models in PPTC cohort included ST-EPN-RELA, ST-EPN-YAP, and PF-EPN-A/B subtypes; ETMR models carried C19MC amplification, LIN28A overexpression, and/or TTYH1 fusions [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Ependymomal tumor (EPMT) is the OncoTree parent node encompassing all ependymoma
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

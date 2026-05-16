@@ -9,7 +9,7 @@ tags:
   - panNET
 canonical_source: cbioportal
 unverified: false
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ IRS1 (Insulin Receptor Substrate 1) is an intracellular adaptor protein that tra
 ## Alterations observed in the corpus
 
 - Included in the MSK-IMPACT gene panel interrogated in a prospective metastatic panNET cohort (n=80 patients); IRS1 is one of the PI3K/mTOR-pathway genes assessed as part of the comprehensive genomic profiling approach in this study [PMID:30687805](../papers/30687805.md)
+- Cited as a route by which MAP3K1 loss activates PI3K signaling (via Avivar-Valderas et al., Oncotarget 2018), but the buparlisib + letrozole trial in ER+/HER2- metastatic breast cancer could not reproduce the corresponding sensitization [PMID:31552290](../papers/31552290.md).
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ IRS1 (Insulin Receptor Substrate 1) is an intracellular adaptor protein that tra
 - [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

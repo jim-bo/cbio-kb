@@ -34,6 +34,7 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - MSIsensor v0.2 (threshold ≥10 for MSI-H) applied to 189 advanced endometrial cancer tumors; 29/30 MMR-D/presumed-MMR-D tumors scored MSI-H; one MMR-proficient-by-IHC case was rescued as MSI-H by MSIsensor (occult MMR deficiency) [PMID:30068706](../papers/30068706.md)
 - MSIsensor used to call MSI status in 127 advanced HCC tumors (MSI-H threshold ≥10); no MSI-H cases observed and TMB median 4.08 [PMID:30373752](../papers/30373752.md)
 - Used to call microsatellite instability status in 37 high-grade UTUC tumors; mean MSIsensor score in WCM UTUC and TCGA UCB were both below the MSI-H threshold of 3.5 and indistinguishable, confirming sporadic UTUC is not microsatellite-unstable despite reduced MMR protein expression [PMID:31278255](../papers/31278255.md)
+- Applied to all 1,045 adenoid cystic carcinomas to assess microsatellite status; all cases returned microsatellite-stable, even among the 15/90 MSKCC R/M cases with MLH1/MSH6 germline variants [PMID:31483290](../papers/31483290.md).
 
 ## Notes
 
@@ -81,5 +82,8 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

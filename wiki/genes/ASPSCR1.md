@@ -7,8 +7,8 @@ tags:
   - gene-fusion
   - TFE3
   - kidney-cancer
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ASPSCR1
@@ -21,6 +21,7 @@ ASPSCR1 (ALVEOLAR SOFT PART SARCOMA CHROMOSOME REGION, CANDIDATE 1) is best know
 
 - ASPSCR1-TFE3 fusion recovered as expected in translocation RCC cases in the non-clear-cell RCC genomic cohort (nccrcc_genentech_2014) [PMID:25401301](../papers/25401301.md)
 - ASPSCR1-TFE3 fusion identified in a pediatric pan-cancer sequencing cohort — diagnostic of alveolar soft part sarcoma (ASPS) [PMID:28007021](../papers/28007021.md)
+- ASPSCR1-TFE3 canonical fusion detected in both alveolar soft part sarcoma (ASPS) PDX models in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ ASPSCR1 (ALVEOLAR SOFT PART SARCOMA CHROMOSOME REGION, CANDIDATE 1) is best know
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ main_type: Embryonal Tumor
 parent: EMBT
 tags: [cns, embryonal, pediatric]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Medulloblastoma (MBL)
@@ -28,6 +28,7 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - PIPseq cohort: KDM6A M997fs used for risk-stratification (group 4 classification); PTCH1/SUFU/ZIC3 overexpression identified as SMO-inhibitor target; ATM R189K + K2756* germline variants flagged for increased risk of other cancers [PMID:28007021](../papers/28007021.md)
 - ICGC/MAGIC integrated WGS (n=491) and methylation profiling (n=1,256) of medulloblastoma defined driver events in 76% of Group 3 and 82% of Group 4 cases; identified KBTBD4 hotspot in-frame insertions (Groups 3/4), SNCAIP tandem-duplication-driven PRDM6 enhancer hijacking (17% of Group 4, most prevalent Group 4 driver), and eight DNA-methylation-defined Group 3/4 subtypes. [PMID:28726821](../papers/28726821.md)
 - Germline WES of 372 pediatric cancer patients (Düsseldorf) included brain tumor cases; brain tumors represented 71 of 372 patients (19%); LP/PV carriers included medulloblastoma patient (LPP_01) carrying a monoallelic ATM pLoF LP/PV [PMID:29489754](../papers/29489754.md)
+- 20 medulloblastoma PDX models in PPTC cohort spanning SHH (n=7), WNT (n=2), Group 3 (n=7), Group 4 (n=3) subtypes; C19MC amplification, LIN28A overexpression, and/or TTYH1 fusions characterized ETMR models in this histology group [PMID:31693904](../papers/31693904.md).
 
 ## Subtypes
 
@@ -51,3 +52,6 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

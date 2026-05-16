@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -94,6 +94,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Mutation/loss flags PDX models suitable for ATR inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
 - Driver in 316 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
 - Mutated in 76% of MSI uterine corpus endometrial carcinoma tumors (FDR=0); ARID1A-mutant samples show H3K27/H3K36 hyperacetylation; truncating mutations reduce ARID1A protein levels [PMID:32059776](../papers/32059776.md)
+- Altered in 20% of 119 UTUC patients (MSK-IMPACT); one of the most frequent chromatin/cohesin pathway alterations alongside KDM6A (38%), KMT2D (26%), CREBBP (20%), and STAG2 (22%); enriched in luminal-subtype tumors [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -326,5 +327,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

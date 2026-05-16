@@ -45,6 +45,9 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Three de novo signatures decomposed via [sigprofiler](../methods/sigprofiler.md) in the pan-Asia cHCC-ICC cohort (133 cases): COSMIC 22 (aristolochic acid, 63.5% prevalence), COSMIC 5 (clock-like), and COSMIC 24 (aflatoxin B1, 38.8%); TP53 R249S — an AFB1-induced HCC marker — accounted for 25.8% of TP53 mutations [PMID:31130341](../papers/31130341.md)
 - In the 923-patient glioma cohort ([glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md)), alkylator-induced hypermutation (signature 11 ≥50%) was identified in 38 tumors; therapy-induced hypermutation was more common in IDH-mutant (29% vs. 12%, P=0.004) and MGMT-methylated (30% vs. 10%, P=0.006) patients [PMID:31263031](../papers/31263031.md)
 - Dominant mutational signatures identified by hierarchical clustering of cosine similarity in 37 UTUC tumors: APOBEC (COSMIC 2, 13), defective MMR (COSMIC 6, C>T at CpG), and an ERCC2-like (COSMIC 5) signature [PMID:31278255](../papers/31278255.md)
+- COSMIC mutational signature decomposition (via deconstructSigs, ≥40 SNVs threshold) in synchronous DCIS/IDC-NST: aging signatures 1/5 dominant in 63%/58%, HRD signature 3 in 21%/26%, APOBEC signatures 2/13 in 16%/16% [PMID:32220886](../papers/32220886.md)
+- Mutational signature decomposition applied to uterine sarcoma MSK-IMPACT samples with ≥10 SNVs; MMR-D signatures identified in two MSI-H uLMS outliers; aging signatures prevalent in uLMS [PMID:32299819](../papers/32299819.md)
+- AID/APOBEC Signatures 2+13 and aging/MMR-D signatures confirmed stable across PDX passages in UTUC models; Signature 2 lost in UCC30 PDX flagged as engraftment-driven genomic drift [PMID:32332851](../papers/32332851.md)
 
 ## Notes
 
@@ -135,5 +138,14 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

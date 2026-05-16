@@ -59,6 +59,7 @@ OncoTree code for invasive breast carcinoma.
 - Metastatic breast cancer (n=39–53) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 95% of MBC patients; ERBB2 amplification detected de novo in 3/4 amplified cases; hypermutated MBCs exhibited APOBEC signatures (COSMIC sigs 2 and 13) [PMID:31768066](../papers/31768066.md)
 - Included in PCAWG (n=2,658 WGS); breast adenocarcinoma shows driver SV dominance over point mutations (mean 6.4 ± 3.7 SVs vs 2.2 ± 1.3 point mutations, P < 1×10⁻¹⁶); germline BRCA1/BRCA2 PTVs associated with templated-insertion SV phenotype and small-deletion burden respectively [PMID:32025007](../papers/32025007.md).
 - Prior breast cancer and radiotherapy identified as major risk factor for secondary radiation-associated cutaneous angiosarcoma; 24/25 secondary AS cases (96%) were cutaneous breast AS after radiotherapy; breast cancer history associated with worse 5-year AS survival (OR 5.143, p=0.02) [PMID:32042194](../papers/32042194.md).
+- WES of 27 synchronous DCIS and 26 paired IDC-NSTs from 25 MSKCC patients (cBioPortal: brca_pareja_msk_2020) showed mutational repertoires indistinguishable between stages: TP53 52% vs 54%, PIK3CA 41% vs 42% (P>0.05 for all genes); 92% of DCIS-IDC-NST pairs were clonally related [PMID:32220886](../papers/32220886.md)
 
 ## Subtypes
 
@@ -144,5 +145,8 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32042194](../papers/32042194.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

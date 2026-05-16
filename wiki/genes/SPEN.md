@@ -25,6 +25,8 @@ SPEN (SHARP/MINT) is a hormone-inducible transcription repressor. In the corpus 
 - SPEN mutated in 2.4% of prostate cancer cohort, predominantly truncating and clonal; significantly enriched in metastatic samples (q=0.008). Encodes a hormone-inducible transcriptional repressor; nominated as a driver in advanced/metastatic prostate cancer [PMID:29610475](../papers/29610475.md)
 - Truncating SPEN mutations characterize C1 ABC-DLBCL with marginal-zone–like biology; mutations are largely clonal events co-occurring with NOTCH2 PEST-domain activating mutations; identified in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
 - SPEN mutated in 6.7% of recurrent/metastatic adenoid cystic carcinoma cases as a broader Notch-pathway activator, enriched vs. primary tumors in a 1,045-case cohort [PMID:31483290](../papers/31483290.md).
+- IDC-NST–private mutation observed among invasive-restricted alterations in synchronous DCIS/IDC-NST cohort (n=25 patients; BRCA); supports SPEN alteration as an invasion-stage acquired event in breast cancer [PMID:32220886](../papers/32220886.md)
+- Individually uncommon NOTCH-pathway gene whose collective pathway alteration is interpreted as a candidate driver of high-volume de-novo metastatic castration-sensitive prostate cancer (mCSPC, n=424 patients, MSK-IMPACT); precise estimate imprecise due to low individual frequency [PMID:32220891](../papers/32220891.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +72,11 @@ SPEN (SHARP/MINT) is a hormone-inducible transcription repressor. In the corpus 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

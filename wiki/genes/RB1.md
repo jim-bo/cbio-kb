@@ -71,6 +71,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 identified as a late/subclonal mutation in metastatic breast cancer (MBC) detected via cell-free DNA (VUSo) not captured by single biopsy [PMID:31768066](../papers/31768066.md)
 - RB1 loss or mutation inactivates the Rb pathway in 16% of GBM PDX (n=84); co-occurs with CDK4 amplification (8%) and CDK6 amplification (1%) [PMID:31852831](../papers/31852831.md)
 - Pan-cancer PCAWG driver in 167 tumors; enriched in ALT-pathway telomere cluster C1 (P = 3×10⁻⁵), linking RB1 loss to ALT activation independent of ATRX/DAXX [PMID:32025007](../papers/32025007.md)
+- Inactivated in 51% of uLMS vs. 22% in TCGA uLMS (p=0.02) and 14% in high-grade non-LMS (p<0.01); among the most frequent alterations in uterine leiomyosarcoma [PMID:32299819](../papers/32299819.md)
+- Tumor-suppressor loss identified in UTUC cohort; along with TP53 and CDKN2A/2B listed as recurrent tumor-suppressor alterations in MSK-IMPACT profiling of upper-tract urothelial carcinoma [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -200,5 +202,11 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

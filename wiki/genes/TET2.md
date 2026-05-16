@@ -19,6 +19,7 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 - Novel drug-sensitivity correlations identified for TET2 in Beat AML ex vivo drug-sensitivity profiling (n=672 AML specimens); TET2 discussed alongside KMT2A, BCL2, EZH2 as known therapeutic-target genes with hypomethylating-agent relevance [PMID:30333627](../papers/30333627.md)
 - Listed among clonal-hematopoiesis filter genes (alongside ATM, DNMT3A, JAK2, SRSF2, STAG2) used to exclude CH-attributable variants from germline calls in a prospective glioma genomic profiling cohort (n=923 adult patients, MSK-IMPACT, July 2013–July 2017); JAK2 V617F removed wherever observed [PMID:31263031](../papers/31263031.md)
 - TET2 is among the most frequent CH driver genes with the highest VAF in cfDNA from both cancer patients and controls; key confound in plasma sequencing requiring matched WBC sequencing to exclude [PMID:31768066](../papers/31768066.md)
+- TET2 mutation observed as an invasive-restricted private alteration in IDC-NST (not shared with synchronous DCIS), identified by whole-exome sequencing of synchronous DCIS and invasive breast cancer pairs [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -45,5 +46,8 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 - [PMID:31263031](../papers/31263031.md)
 
 - [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

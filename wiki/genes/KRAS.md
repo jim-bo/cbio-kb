@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -134,6 +134,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS mutation was used as a prognostic covariate in the Mutation model Cox comparator in Sherlock-Lung non-smoking LUAD (n=232) [PMID:32015526](../papers/32015526.md)
 - KRAS is a driver in 287 tumors in the PCAWG pan-cancer WGS cohort (2,658 donors, 38 tumor types) [PMID:32025007](../papers/32025007.md)
 - KRAS-mutant endometrial cancer samples show upregulation of H3K27 and H3K36 acetylation in EC proteogenomics (n=95) [PMID:32059776](../papers/32059776.md)
+- KRAS mutated in 8% of 119 UTUC patients by MSK-IMPACT, as part of the recurrent RTK/RAS/PI3K-pathway driver landscape that also includes HRAS (15%), PIK3CA (14–16%), and TSC1 (14%) [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -486,5 +487,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,8 +5,8 @@ drug_class: anti-HER2 antibody-drug conjugate
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, adc, erbb2-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # trastuzumab-deruxtecan
@@ -21,6 +21,7 @@ Trastuzumab deruxtecan (T-DXd) is an anti-HER2 antibody-drug conjugate (ADC) com
 - In endometrial carcinoma, [ERBB2](../genes/ERBB2.md) amplification enriched in Black patients (12% vs 3% in White patients) represents a therapeutic opportunity with [trastuzumab](../drugs/trastuzumab.md) deruxtecan; activity was noted even in low-HER2-expressing carcinosarcomas [PMID:37651310](../papers/37651310.md).
 - In metastatic urothelial carcinoma (mUC), [ERBB2](../genes/ERBB2.md) alterations (detected in 14% of cfDNA samples from the CALGB 90601 cohort) were independently associated with shorter [OS](../cancer_types/OS.md) (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019). The authors highlight [trastuzumab](../drugs/trastuzumab.md) deruxtecan as a candidate HER2-directed antibody-drug conjugate for ERBB2-altered mUC, citing response rates of 33–83% in this setting. [PMID:40256659](../papers/40256659.md)
 - HER2-positive CCA: basket phase II across 7 cohorts ORR 37.1% overall, 22.0% in 41 CCA patients; mPFS 4.6 mo, mOS 7.0 mo in CCA; risk of interstitial pneumonitis noted [PMID:25526346](../papers/25526346.md)
+- In a HER2 S310F UTUC PDX model (UCC14), trastuzumab deruxtecan (DS-8201a) strongly inhibited tumor growth (p<0.0001) and significantly outperformed neratinib (p<0.0001); authors conclude that ADCs should be prioritized over HER kinase inhibitors in HER2-mutant urothelial cancer [PMID:32332851](../papers/32332851.md)
 
 ## Resistance mechanisms
 
@@ -42,3 +43,6 @@ Trastuzumab deruxtecan (T-DXd) is an anti-HER2 antibody-drug conjugate (ADC) com
 - [PMID:25526346](../papers/25526346.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

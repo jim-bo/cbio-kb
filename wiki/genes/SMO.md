@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG]
 tags: [hedgehog-pathway, oncogene, meningioma]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # SMO
@@ -21,6 +21,7 @@ SMO (Smoothened) is a transmembrane protein in the Hedgehog signaling pathway. I
 - Hedgehog-pathway alteration observed in pancreatic ductal adenocarcinoma (along with [GLI2](../genes/GLI2.md), [GLI3](../genes/GLI3.md), [PTCH1](../genes/PTCH1.md), [LRP2](../genes/LRP2.md)). [PMID:25855536](../papers/25855536.md)
 - Different mutations seen pre- and post-therapy in one medulloblastoma patient, evidence of convergent evolution at recurrence [PMID:26760213](../papers/26760213.md)
 - Mutated in a subset of SHH medulloblastomas in the 491-sample ICGC cohort [PMID:28726821](../papers/28726821.md)
+- IDC-NST–private mutation observed among invasive-restricted alterations in synchronous DCIS/IDC-NST cohort (n=25 patients); supports Hedgehog pathway activation as an invasive-stage event in breast cancer [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ SMO (Smoothened) is a transmembrane protein in the Hedgehog signaling pathway. I
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

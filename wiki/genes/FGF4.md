@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - HCC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # FGF4
@@ -17,6 +17,7 @@ FGF4 (Fibroblast Growth Factor 4) is a mitogenic growth factor involved in cell 
 ## Alterations observed in the corpus
 
 - Co-amplified at 11q13.3 locus with [FGF3](../genes/FGF3.md), [FGF19](../genes/FGF19.md), and [CCND1](../genes/CCND1.md) in ~6% of [HCC](../cancer_types/HCC.md); focal amplification appears at advanced stages and is independently associated with poor survival [PMID:25822088](../papers/25822088.md)
+- Located within the 11q13.3 region of recurrent copy-number gain in CDK12-biallelic prostate cancer; co-amplified with FGF19 and FGF3 [PMID:32317181](../papers/32317181.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ FGF4 (Fibroblast Growth Factor 4) is a mitogenic growth factor involved in cell 
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

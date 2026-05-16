@@ -26,6 +26,8 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Used for survival analysis in 429 mCRPC patients; log-rank tests compared OS curves; Nestin-positive vs. Nestin-negative groups and PLC transcriptomic cluster comparisons were evaluated [PMID:31061129](../papers/31061129.md)
 - Applied in the pan-Asia cHCC-ICC study (133 cases); Nestin-positive (n=104) vs. Nestin-negative median OS was 18.7 mo vs. 46.6 mo (p<0.0001, log-rank); PLC transcriptomic clusters P1/P2 had significantly poorer prognosis than P3/P4 (p<0.0001) [PMID:31130341](../papers/31130341.md)
 - PFS analysis by Kaplan-Meier with log-rank testing stratified by PIK3CA and MAP3K1 genotype in 33 metastatic ER+/HER2- breast cancer patients; MAP3K1 alteration improved PFS (p=0.03), PIK3CA alteration improved PFS (p=0.009); co-alteration showed greatest benefit (p=0.02 trend test) [PMID:31552290](../papers/31552290.md).
+- Kaplan-Meier curves generated for time-to-castration-resistance and overall survival in 424 mCSPC patients; high-volume vs. low-volume and genomic-alteration subgroups compared [PMID:32220891](../papers/32220891.md)
+- Used to display OS and time-to-CRPC in 1,465 prostate cancer patients stratified by CDK12 alteration status (CDK12-WT vs CDK12-altered vs CDK12-Bi) [PMID:32317181](../papers/32317181.md)
 
 ## Notes
 
@@ -58,5 +60,11 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

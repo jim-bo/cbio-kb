@@ -24,6 +24,7 @@ Apalutamide (ARN-509) is a second-generation nonsteroidal androgen receptor ([AR
 
 - AR F877L resistance mutation detected via [MSK-IMPACT](../methods/msk-impact-panel.md) in an mCRPC patient progressing after 4 years on apalutamide (ARN-509); the same mutation also confers resistance to [enzalutamide](../drugs/enzalutamide.md), demonstrating cross-resistance between second-generation AR antagonists [PMID:28825054](../papers/28825054.md).
 - Apalutamide is an androgen-receptor signaling inhibitor (ARSI) used in mCRPC; the prad_su2c_2019 cohort (n=128 first-line ARSI, taxane-naive) provides genomic correlates — RB1 alteration was the dominant predictor of ARSI failure (multivariate RR 6.56, P<0.001) in patients treated with ARSIs including apalutamide. [PMID:31061129](../papers/31061129.md)
+- AR alterations predict androgen-axis treatment failure in mCSPC; apalutamide (alongside abiraterone and enzalutamide) is a next-generation AR-pathway therapy for which AR alteration status may stratify benefit in the castration-sensitive setting [PMID:32220891](../papers/32220891.md)
 
 ## Resistance mechanisms
 
@@ -41,3 +42,6 @@ Apalutamide (ARN-509) is a second-generation nonsteroidal androgen receptor ([AR
 - [PMID:31061129](../papers/31061129.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

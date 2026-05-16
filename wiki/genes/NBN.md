@@ -3,8 +3,8 @@ symbol: NBN
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # NBN
@@ -18,6 +18,7 @@ NBN (Nibrin) encodes a key component of the MRE11-RAD50-NBN (MRN) complex, which
 - Germline pathogenic variant identified as an additional cancer-predisposition finding (<1–1%) in advanced prostate cancer patients undergoing paired germline + somatic profiling via MSK-IMPACT [PMID:28825054](../papers/28825054.md).
 - DNA-repair PPGM gene enriched in 500-patient MET500 metastatic cancer cohort vs. ExAC controls [PMID:28783718](../papers/28783718.md).
 - Three LP/PVs in German pediatric cancer predisposition cohort: one homozygous (classical Nijmegen breakage syndrome + T-cell lymphoma) excluded from burden testing; two heterozygous c.657_661del p.(Lys219Asnfs*16) founder-mutation carriers developed hematologic neoplasms without NBS features (burden OR=9.4, p=.021 single-cohort); NBN carriers had 5.8-fold elevated secondary malignancy risk. [PMID:29489754](../papers/29489754.md)
+- IDC-NST–private mutation observed in synchronous DCIS/IDC-NST cohort (n=25 patients); listed among invasive-restricted alterations acquired at or after the invasive transition [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ NBN (Nibrin) encodes a key component of the MRE11-RAD50-NBN (MRN) complex, which
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

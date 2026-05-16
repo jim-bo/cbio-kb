@@ -3,7 +3,7 @@ symbol: GATA3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - In BRCA, GATA3 frameshift/nonsense alleles paradoxically increase mRNA (FDR = 4.54e-18) and are associated with downregulated microtubule/cytoskeleton programs not seen in missense mutants, consistent with reported gain-of-function; missense and truncating GATA3 mutations have distinct transcriptional consequences [PMID:29625049](../papers/29625049.md)
 - GATA3 mutated in 12.4% of SMC (Korean) breast cancer cohort vs 9.1% of TCGA; alterations restricted to hormone-receptor-positive subtypes. [PMID:29713003](../papers/29713003.md)
 - Loss-of-function mutations associated with lung metastasis organotropism in HR+ breast cancer [PMID:30205045](../papers/30205045.md)
+- Mutated in 26% of synchronous DCIS and 23% of matched IDC-NSTs; 6/7 DCIS and 6/6 IDC-NST mutations were loss-of-function (frameshift, truncating, splice-site); more frequent in ER+/HER2− DCIS (38%) than ER−/HER2− (0%) or HER2+ (14%) [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -82,3 +83,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

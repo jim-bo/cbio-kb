@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - rhabdomyosarcoma
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -36,6 +36,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - Recurrently mutated in DLBCL (dlbcl_dfci_2018) as part of the comprehensive genomic characterization of 304 DLBCLs identifying five genetic subtypes [PMID:29713087](../papers/29713087.md)
 - BCOR alone sensitizes AML cells to XAV-939 and crizotinib ex vivo; co-mutation with RUNX1 sensitizes to JAK inhibitors (momelotinib, ruxolitinib, tofacitinib) in Beat AML [PMID:30333627](../papers/30333627.md)
 - Largest fold-change among chromatin-remodeling genes enriched in recurrent/metastatic vs. primary adenoid cystic carcinoma (OR 8.92, P=0.0002) in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
+- BCOR–ZC3H7B fusion identified in one uterine sarcoma initially classified as high-grade myxoid uLMS; reclassified as BCOR-mutated high-grade stromal sarcoma following MSK-Fusion RNA sequencing; patient survived 3.4 years [PMID:32299819](../papers/32299819.md)
 
 ## Cancer types (linked)
 
@@ -104,5 +105,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

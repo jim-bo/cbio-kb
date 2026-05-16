@@ -3,8 +3,8 @@ symbol: RAD21
 aliases: []
 cancer_types: [AML]
 tags: [cohesin, chromatin, AML]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RAD21
@@ -17,6 +17,7 @@ RAD21 encodes a core structural component of the cohesin complex, which mediates
 
 - RAD21 is a recurrent cohesin-complex gene mutated in AML (13% combined cohesin prevalence alongside SMC1A, SMC3, and STAG2) [PMID:23634996](../papers/23634996.md)
 - RAD21 mutations in the chromatin-spliceosome AML subgroup; their effect is modified by co-occurring DNMT3A mutations in a 1540-patient AML genomic study [PMID:27276561](../papers/27276561.md).
+- IDC-NST–private amplification at 8q23.3-q24.21 (co-amplified locus with MYC) observed in multiple DCIS/IDC-NST cases; classified as invasive-stage-acquired event [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ RAD21 encodes a core structural component of the cohesin complex, which mediates
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

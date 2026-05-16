@@ -11,7 +11,7 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -55,6 +55,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - In DLBCL, FBXW7 mutations cluster (CLUMPS) at the acceptor groove that impairs CCNE1 recognition, implicating CCNE1 as a substrate of the FBXW7 ubiquitin ligase in this tumor type [PMID:29713087](../papers/29713087.md)
 - Focal amplification in 24% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases; one of the most recurrent copy-number gains alongside MYC (73%), MET (24%), and CDK6 (20%) [PMID:31130341](../papers/31130341.md)
 - Frequently copy-number altered in uterine corpus endometrial carcinoma (CPTAC proteogenomic cohort, n=95), consistent with TCGA EC findings [PMID:32059776](../papers/32059776.md)
+- Included in the somatic gene panel of a WES study of 27 synchronous DCIS and 26 IDC-NST pairs (n=25 patients); no CCNE1-specific alteration frequency reported, but CCNE1 was part of the mutated cancer gene repertoire profiled in this breast cohort [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -167,5 +168,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

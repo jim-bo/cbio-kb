@@ -137,6 +137,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Alteration in 48% of GBM PDX (n=84); GBM168 patient carried a private PTEN alteration not detected in the matched PDX, illustrating divergence during engraftment [PMID:31852831](../papers/31852831.md)
 - Pan-cancer PCAWG driver in 269 tumors [PMID:32025007](../papers/32025007.md)
 - Mutated in 92% of MSI endometrial tumors (FDR = 0) in the CPTAC EC multi-omic cohort [PMID:32059776](../papers/32059776.md)
+- Enriched in metastatic vs. primary uLMS samples (p=0.046; uLMS subset p=0.04); alterations in 80 uterine leiomyosarcoma patients profiled by MSK-IMPACT [PMID:32299819](../papers/32299819.md)
+- Low-frequency alteration (2%) in upper-tract urothelial carcinoma (UTUC); identified in MSK-IMPACT profiling of UTUC cohort and matched PDX models [PMID:32332851](../papers/32332851.md)
+- PI3K-pathway alteration in metastatic castration-sensitive prostate cancer (mCSPC, n=424 patients, MSK-IMPACT); not prognostic in multivariable models for castration resistance (HR 1.27, 95% CI 0.94–1.73) or OS (HR 0.95, 95% CI 0.58–1.56), consistent with mCRPC findings [PMID:32220891](../papers/32220891.md)
 
 ## Cancer types (linked)
 
@@ -422,5 +425,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -6,7 +6,7 @@ cancer_types:
   - PRNE
   - HGSOC
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -32,6 +32,9 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - CDK12 is a significantly mutated gene (SMG) in prostate cancer with a truncating-biased mutation pattern (p<0.001) and frequent biallelic inactivation (15/31 in discovery cohort, 27/56 in MSK-IMPACT validation); missense variants cluster in the kinase domain; frequent biallelic CDK12 loss is consistent with a therapeutically relevant DNA-repair phenotype in metastatic prostate cancer [PMID:29610475](../papers/29610475.md).
 - Loss-of-function alterations in mCRPC co-occur with CCND1 and CDK4 amplification; authors propose CDK4/6-inhibitor sensitivity hypothesis for CDK12-mutated tumors; ~60% of CDK12 SNVs classified as likely oncogenic [PMID:31061129](../papers/31061129.md)
 - Hyperphosphorylated in CNV-high endometrial carcinoma tumors; modulates ovarian-cancer sensitivity to olaparib (Bajrami et al., 2014) and may enhance immune-checkpoint response — flagged as a therapeutic target in CNV-high EC [PMID:32059776](../papers/32059776.md)
+- CDK12 locus (17q12) identified as an IDC-NST–private amplification region (amplification restricted to the invasive component) in synchronous DCIS/IDC-NST breast cancer cohort (n=25 patients), co-amplified with ERBB2 [PMID:32220886](../papers/32220886.md)
+- CDK12 alterations were 6.7 pp more frequent in de-novo metastatic prostate cancer vs. metastatic recurrence (95% CI 3.0–10.4; FDR 0.037), the only single gene with statistically significant differential prevalence by disease phenotype in a 424-patient mCSPC MSK-IMPACT cohort [PMID:32220891](../papers/32220891.md)
+- Pan-cancer MSK-IMPACT cohort (26,743 patients): CDK12 alterations in 1.5% overall, most frequent in prostate (5.3%, 100/1,875) and ovarian (4.2%, 43/1,034) cancers; biallelic inactivation in 73% of prostate and 93% of ovarian CDK12-altered cases; CDK12-biallelic prostate cancer had shorter OS (median 64.4 vs 74.9 mo; aHR 1.80, 95% CI 1.12–2.89) and faster time to castration resistance (aHR 1.49, 95% CI 1.09–2.03) [PMID:32317181](../papers/32317181.md)
 
 ## Cancer types (linked)
 
@@ -88,5 +91,14 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

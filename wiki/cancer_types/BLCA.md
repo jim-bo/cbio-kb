@@ -53,6 +53,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Secondary MIBC (arising after prior NMIBC treatment) had markedly lower pathologic response to cisplatin-based NAC than primary MIBC (26% vs 45%, OR 0.4, p=0.02) and worse RFS/CSS/OS; ERCC2 missense mutations were enriched in primary vs secondary MIBC (12% vs 1.3% combined, p=0.004), and actionable FGFR3 (18%) and ERBB2 (15%) alterations were prevalent in secondary MIBC; dataset [blca_msk_tcga_2020](../datasets/blca_msk_tcga_2020.md) [PMID:30290956](../papers/30290956.md)
 - TMB-high BLCA (n=214) patients treated with ICI showed improved overall survival (HR 0.52 pan-cancer) in the MSK-IMPACT cohort; histology-specific TMB thresholds varied from the pan-cancer cutpoint. [PMID:30643254](../papers/30643254.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); bladder urothelial carcinoma among the 38 histotypes analyzed for somatic SNVs, indels, SVs, and driver landscapes [PMID:32025007](../papers/32025007.md).
+- ERBB2 oncogenic mutations found in 10.3% of bladder UC (n=1,032) profiled by MSK-IMPACT, vs 5.9% of UTUC, with ERBB2 amplification in 6.2% of bladder UC; HER2-mutant UTUC PDX (UCC14, HER2 S310F) was refractory to neratinib but sensitive to trastuzumab deruxtecan (DS-8201a), supporting antibody-drug conjugates over kinase inhibitors in HER2-altered urothelial carcinoma [PMID:32332851](../papers/32332851.md)
 
 ## Subtypes
 
@@ -134,5 +135,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

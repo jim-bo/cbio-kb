@@ -85,6 +85,11 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Prospective clinical 468-gene sequencing (IMPACT468) of 12 prostate cancer patients pre-radical prostatectomy; identified homozygous PTEN loss (n=2 ROIs) and TMPRSS2-ERG fusions; PTEN loss tracked with highest hyperpolarized lactate (P=0.059) [PMID:31564440](../papers/31564440.md).
 - IMPACT341 (341-gene) targeted NGS on pre-study FFPE biopsies or archival tissue from 33 ER+/HER2- metastatic breast cancer patients in a buparlisib + letrozole phase Ib trial; identified PIK3CA activating mutations and MAP3K1 loss-of-function mutations as independent clinical-benefit predictors [PMID:31552290](../papers/31552290.md).
 - Custom FDA-cleared tumor profiling panel (contemporaneous IMPACT468 gene list) used on 31 rectal cancer tumoroid lines; top mutated genes (APC, TP53, KRAS, FBXW7) mirrored those in matched 287-patient clinical MSK rectal-cancer cohort [PMID:31591597](../papers/31591597.md).
+- MSK-IMPACT targeted panel (IMPACT410 and IMPACT468) used on 4 additional samples in 56-sample DCIS/IDC-NST WES cohort at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
+- FDA-authorized hybridization capture assay (341–468 genes depending on version) used on 424 paired tumor-blood mCSPC samples; median 27.2-month follow-up [PMID:32220891](../papers/32220891.md)
+- Prospective targeted DNA sequencing (341-gene n=44, 410-gene n=44, 468-gene n=20) on 107 uterine sarcoma patients at ~646× average coverage; 45% had actionable alterations [PMID:32299819](../papers/32299819.md)
+- IMPACT341, IMPACT410, and IMPACT468 used across 26,743 patients in 25 solid tumor types; pan-cancer CDK12 alteration prevalence analysis (1.5% overall) [PMID:32317181](../papers/32317181.md)
+- MSK-IMPACT (300/341/410/468-gene versions) used on 119 UTUC patients and all PDX/PDC models; PDCD1 homozygous deletion enrichment in uLMS identified through 15,816-patient MSK-IMPACT pan-cancer reference [PMID:32332851](../papers/32332851.md)
 
 ## Notes
 
@@ -247,5 +252,20 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

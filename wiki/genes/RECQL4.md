@@ -21,6 +21,7 @@ RECQL4 encodes a RecQ-family DNA helicase involved in DNA replication initiation
 - Added to significant gene list by inactivation-bias test in a periampullary cancer WGS study (DUOAC/AMPAC/CAC) [PMID:26804919](../papers/26804919.md)
 - RECQL4 observed as a low-frequency hit (>=2 ATC or >=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
 - RECQL4 germline recessive pathogenic/likely-pathogenic allele identified in metastatic panNET (MSK-IMPACT panet_msk_2018); part of the 16% germline carrier rate; classified as a recessive allele (biallelic requirement for full penetrance) [PMID:30687805](../papers/30687805.md)
+- Truncating F987* mutation in UTUC patient UCC19 and matched PDX; offered as candidate explanation for durable platinum/gemcitabine response (DNA-repair / homologous recombination role); single-case hypothesis consistent with DDR-alteration/platinum-sensitivity associations [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ RECQL4 encodes a RecQ-family DNA helicase involved in DNA replication initiation
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

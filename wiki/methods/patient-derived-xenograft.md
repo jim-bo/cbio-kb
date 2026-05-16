@@ -24,6 +24,7 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 - 261 PDX models from 37 unique pediatric cancer molecular subtypes generated (subcutaneous for solid tumors, intracranial for CNS, intravenous in NOD/SCID or NSG for leukemias); relapse-derived PDXs had significantly higher TMB (3.08 vs. 2.57 Mut/Mb, p=2.2e-5); 97% of osteosarcoma models showed chromothripsis-consistent HBD [PMID:31693904](../papers/31693904.md).
 - 170 PDX models treated with buparlisib and 121 with alpelisib (Gao et al. Nat Med 2015 panel) stratified by MAP3K1/PIK3CA status and PAM50 subtype; luminal A status predicted response to both drugs; MAP3K1-altered PDXs were more sensitive to alpelisib (p=0.001) but not buparlisib [PMID:31552290](../papers/31552290.md).
 - Endoluminal PDX model in NSG mouse rectum: 200,000 tumoroid cells per mouse, 8 tumoroid lines tested; 100% engraftment rate by hEpCAM IHC; tumors progressed to invasive adenocarcinoma by 22–30 weeks with patient-specific lung and liver metastases; in vivo 5-FU/FOLFOX responses recapitulated clinical outcomes [PMID:31591597](../papers/31591597.md).
+- 17 PDX models established from 34 UTUC surgical specimens (50% take rate); models recapitulated genomic landscape, mutational signatures, histology, and chemosensitivity of source tumors; genomic concordance 72.7% for known/likely oncogenic mutations [PMID:32332851](../papers/32332851.md)
 
 ## Notes
 
@@ -50,5 +51,8 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -48,6 +48,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 is a core PI3K-pathway driver; PI3K pathway activation (PIK3CA activation + PTEN inactivation) dominates in head-and-neck, breast, GI, and gynecologic tumors; luminal-A breast cancer leads in OncoKB Level 3A frequency, driven in part by AKT1 mutations [PMID:29625050](../papers/29625050.md)
 - Pathway target (AKT-inhibitor trials, n=4 enrolled) in a 189-patient MSK advanced endometrial cancer sequencing cohort; contributes to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
 - AKT1 altered in 0.9% of mCRPC tumors as part of the broader PI3K-pathway alteration set; PI3K-pathway alterations overall were not associated with survival or time on ARSI in this 429-patient mCRPC cohort [PMID:31061129](../papers/31061129.md)
+- Listed among the somatic genes identified in WES of synchronous DCIS and invasive IDC-NST pairs (n=25 patients); AKT1/PI3K pathway context in this cohort was dominated by PIK3CA mutations (41% of DCIS, 42% IDC-NST) [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -157,5 +158,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

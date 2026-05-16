@@ -45,6 +45,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used for clonality, purity, and ploidy estimation across 249 MSS tumor/normal WES samples in the ICB response study; clonal TMB derived via ABSOLUTE was a stronger predictor of CR/PR than total TMB [PMID:30150660](../papers/30150660.md)
 - Used to estimate tumor purity from WES data in the GBM anti-PD-1 immunotherapy cohort; purity was not significantly different between responders and non-responders (p=0.19) [PMID:30742119](../papers/30742119.md)
 - Used in the PCAWG pan-cancer WGS study (n=2,658 tumors) as an ABSOLUTE-class tool for copy-number analysis, tumor purity, and ploidy estimation across 38 tumor types [PMID:32025007](../papers/32025007.md).
+- Applied with FACETS and PyClone to infer whole-genome doubling (WGD) in synchronous DCIS/IDC-NST WES cohort; WGD detected in 7/25 patient pairs [PMID:32220886](../papers/32220886.md)
 
 ## Notes
 
@@ -122,5 +123,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

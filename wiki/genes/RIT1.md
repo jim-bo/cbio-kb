@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - ras-family
   - gtpase
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RIT1
@@ -22,6 +22,7 @@ RIT1 encodes a member of the Ras superfamily of small GTPases. It is recurrently
 - Activating mutations clustered around Q79 (homologous to RAS Q61) in 2% of LUAD (TCGA); exclusively in the oncogene-negative subset; transforms NIH3T3 cells and activates MAPK and PI(3)K signaling. [PMID:25079552](../papers/25079552.md)
 - Identified as a significantly mutated gene exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC); contributes to the RTK/Ras/Raf pathway driver landscape in lung adenocarcinoma. [PMID:27158780](../papers/27158780.md)
 - Notably absent from the unmatched driver (UMD) cohort in the MSK prospective LUAD study (860 patients) despite enrichment in the TCGA UMD set; authors flag this discrepancy [PMID:28336552](../papers/28336552.md)
+- Amplifications enriched in high-grade non-LMS uterine sarcoma (24%, 5/21) vs. uLMS (2.5%, 2/80; p=0.004) in MSK-IMPACT cohort of 107 uterine sarcoma patients [PMID:32299819](../papers/32299819.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ RIT1 encodes a member of the Ras superfamily of small GTPases. It is recurrently
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

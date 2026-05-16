@@ -59,6 +59,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - MMR protein IHC (MLH1, PMS2, MSH2, MSH6) on 16 WCM UTUC vs. 14 stage-matched UCB cases using Leica Bond III stainer with HALO H-score; MMR H-scores significantly lower in UTUC (composite P=1.9×10⁻⁵) despite no MSI [PMID:31278255](../papers/31278255.md)
 - MCT1 (SLC16A1) IHC at 1:100 dilution on whole-mount prostatectomy step sections confirmed upregulation in tumor regions across all 12 prostate cancer patients; ROIs with >30% MCT1-positive cells had Lac_max 60% higher than low-MCT1 ROIs (0.38±0.3 vs. 0.23±0.04, P=0.028) [PMID:31564440](../papers/31564440.md).
 - H&E plus IHC on whole-mount step-section prostatectomies used to validate histopathology fidelity of 65 rectal cancer tumoroids against parental tumors; tumoroids retained morphology and oncogenic mutation profiles of source tissue [PMID:31591597](../papers/31591597.md).
+- IHC used to confirm MMR protein loss (MLH1, MSH2, MSH6, PMS2) and PDCD1 protein loss in homozygous-deletion cases among 107 uterine sarcoma patients [PMID:32299819](../papers/32299819.md)
+- IHC performed for MMR proteins to identify MSI-H Lynch-associated UTUC tumors in 119-patient cohort; Masson trichrome and Picro Sirius red also used for ECM characterization [PMID:32332851](../papers/32332851.md)
 
 ## Notes
 
@@ -183,5 +185,11 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

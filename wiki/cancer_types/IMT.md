@@ -4,8 +4,8 @@ oncotree_code: IMT
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Inflammatory Myofibroblastic Tumor (IMT)
@@ -21,6 +21,7 @@ Inflammatory myofibroblastic tumor (IMT) is a distinctive mesenchymal neoplasm o
 ## Recurrent alterations
 
 - PIPseq cohort: VCAN-IL23R fusion identified by RNA-seq in an IMT patient — a JAK-inhibitor target; the patient received matched targeted therapy (JAK inhibitor) [PMID:28007021](../papers/28007021.md).
+- Two uterine sarcomas initially classified as uLMS were reclassified as IMT by MSK-IMPACT/MSK-Fusion detection of ALK fusions (LBH-ALK); crizotinib yielded 30+ months radiographic stabilization in one patient and a brief response in the other, supporting ALK fusion testing in all uterine sarcomas to enable diagnostic reclassification and targeted therapy [PMID:32299819](../papers/32299819.md)
 
 ## Subtypes
 
@@ -36,3 +37,6 @@ Inflammatory myofibroblastic tumor (IMT) is a distinctive mesenchymal neoplasm o
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

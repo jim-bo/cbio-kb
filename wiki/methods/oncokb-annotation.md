@@ -33,6 +33,7 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - OncoKB used to define actionable gene targets in 81 GBCA tumors; 80% of patients carried ≥1 potentially actionable alteration [PMID:30427539](../papers/30427539.md)
 - Used to annotate somatic alterations with actionability tier levels (OncoKB levels 1–4) in 80 metastatic panNET patients; guided identification of clinically actionable alterations [PMID:30687805](../papers/30687805.md)
 - Variant annotation of 1,045 ACC cases revealed 40.3% of R/M tumors harbored potentially targetable kinase mutations, but only 10.6% had OncoKB-supported clinical-level evidence, highlighting the gap between somatic alteration prevalence and actionability [PMID:31483290](../papers/31483290.md).
+- OncoKB annotation (Aug 1, 2019) used to assign actionability levels in 424 mCSPC tumors; 50% (211/424) had at least one potentially actionable alteration; median 3 oncogenic alterations per tumor [PMID:32220891](../papers/32220891.md)
 
 ## Notes
 
@@ -76,5 +77,8 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

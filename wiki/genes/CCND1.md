@@ -9,7 +9,7 @@ cancer_types:
   - ODG
   - ACRM
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -77,6 +77,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - CCND1 co-amplified on chromosome 11q13 along with FGF3, EMSY, PAK1, RSF1; defines IntClust2 (4.5% of ER+ breast cancer cases); genomic driver of a late-recurring subgroup with chronic relapse risk extending to 20 years [PMID:30867590](../papers/30867590.md)
 - Amplification co-occurs with CDK4 amplification in CDK12 loss-of-function mCRPC tumors; authors propose CDK4/6-inhibitor sensitivity hypothesis for CDK12-mutated/CCND1-CDK4-amplified tumors [PMID:31061129](../papers/31061129.md)
 - Recurrently co-amplified with TERT via chromothripsis in acral melanoma (11/21 acral/mucosal melanomas affected on chr11) in the PCAWG pan-cancer whole-genome cohort of 2,658 tumors [PMID:32025007](../papers/32025007.md)
+- IDC-NST–private 11q13.3–13.4 amplification in multiple cases of synchronous DCIS/IDC-NST (n=25 patients); consistent with an invasive-stage-acquired copy-number event not present in the synchronous DCIS component [PMID:32220886](../papers/32220886.md)
+- Amplified more frequently in CDK12-biallelic (CDK12-Bi) prostate cancer than CDK12-WT tumors (FDR <0.05) in a 26,743-patient pan-cancer MSK-IMPACT cohort; 11q13.3 locus (which also spans FGF19, FGF4, FGF3) was one of the most differentially gained regions in CDK12-Bi prostate cancer [PMID:32317181](../papers/32317181.md)
 
 ## Cancer types (linked)
 
@@ -261,5 +263,11 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

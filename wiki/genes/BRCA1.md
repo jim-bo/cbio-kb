@@ -14,7 +14,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -77,6 +77,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Harbors homologous-recombination repair alterations (1.9% frequency) in mCRPC tumor tissue; no association with survival or time on first-line ARSI (composite HRR P=0.495/0.611) in contrast to prior cfDNA-based reports [PMID:31061129](../papers/31061129.md)
 - Splicing-region germline variants found in 4 of 90 recurrent/metastatic adenoid cystic carcinoma cases; all monoallelic with no LOH — clinical relevance unclear pending validation [PMID:31483290](../papers/31483290.md)
 - Germline PTVs associated with somatic tandem-duplication burden (P=6×10⁻¹³) and templated-insertion SV phenotype (P=4×10⁻¹⁵); 20/21 templated-insertion tumors had biallelic BRCA1 inactivation; one of three genes accounting for 81% of germline+somatic biallelic combinations in PCAWG [PMID:32025007](../papers/32025007.md)
+- Germline pathogenic variants (E23Vfs*17, R496H, E908*) and one somatic variant (L1154Mfs*4) identified in synchronous DCIS/IDC-NST cohort (n=25 patients); all BRCA1-mutant cases showed LOH and dominant mutational signature 3 (HRD-related), demonstrating BRCA1-driven homologous recombination deficiency is detectable at the DCIS stage [PMID:32220886](../papers/32220886.md)
+- Discussed as a potential mechanism of homologous recombination deficiency via promoter hypermethylation in uterine leiomyosarcoma (uLMS); not directly assayed for methylation by MSK-IMPACT in this 107-patient uterine sarcoma cohort [PMID:32299819](../papers/32299819.md)
 
 ## Cancer types (linked)
 
@@ -238,5 +240,11 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

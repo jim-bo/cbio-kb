@@ -15,8 +15,8 @@ tags:
   - neoadjuvant-chemotherapy
   - cisplatin-response
   - dna-repair
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Dana-Farber / MSKCC Bladder Urothelial Carcinoma Cisplatin Response (2014)
@@ -44,7 +44,11 @@ processed_at: 2026-05-11
 
 - [ERCC2](../genes/ERCC2.md) somatic mutations were found exclusively in cisplatin responders (9/25, 36% vs. 0/25 non-responders; q = 0.007), proposing ERCC2 as a predictive biomarker for cisplatin sensitivity in muscle-invasive urothelial carcinoma [PMID:25096233](../papers/25096233.md).
 - Responders had significantly higher median mutation rate (9.7 vs 4.4 mutations/Mb; P = 0.0003); MutSigCV nominated [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [KDM6A](../genes/KDM6A.md), and [ARID1A](../genes/ARID1A.md) as significantly mutated across the full cohort [PMID:25096233](../papers/25096233.md).
+- DFCI/MSKCC cohort used for ZFP36-family mutation frequency cross-validation in bladder cancer; ZFP36-family mutations reach ~9–10% across blca_dfarber_mskcc_2014 and two other bladder cohorts [PMID:33397444](../papers/33397444.md)
 
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

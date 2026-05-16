@@ -22,6 +22,7 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 
 - CDK1 elevated kinase activity identified in colon cancer tumors vs matched NATs in the CPTAC proteogenomic colon cohort (n=110); flagged by kinase-activating site phosphorylation and target-site enrichment analysis alongside CDK2, CDK4, [CDK7](../genes/CDK7.md), [MELK](../genes/MELK.md), [PFKFB3](../genes/PFKFB3.md), and [PI4KB](../genes/PI4KB.md) [PMID:31031003](../papers/31031003.md)
 - Identified downstream of TP53 / CTNNB1 / ARID1A mutations in trans in a multi-omic proteogenomic study of endometrial carcinoma (n=95 tumors) [PMID:32059776](../papers/32059776.md)
+- CDK1 kinase activity elevated in ATRT, MB, HGG, and ependymoma in the CPTAC pediatric brain tumor proteogenomics study (n=218 samples); CDK1/CDK2 protein abundance are mutually exclusive within HGG, implying two distinct HGG signaling programs confirmed in an independent 23-patient HGG validation cohort [PMID:33242424](../papers/33242424.md)
 
 ## Cancer types (linked)
 
@@ -46,4 +47,6 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 *This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

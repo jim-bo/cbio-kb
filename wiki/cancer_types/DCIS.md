@@ -8,7 +8,7 @@ tags:
   - ductal
   - in-situ
   - pre-invasive
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ Breast Ductal Carcinoma In Situ (DCIS) is a pre-invasive neoplasm in which malig
 - [NF1](../genes/NF1.md) Indel editing alone in rat mammary gland produced DCIS histology in 12/13 cases (92%) — all ER+/PR+/Ki67+, at a median 4-week latency — establishing Nf1 biallelic loss as sufficient to initiate DCIS-like lesions in a preclinical model [PMID:26437033](../papers/26437033.md).
 - Addition of [TP53](../genes/TP53.md) Indel to Nf1 loss converted the DCIS phenotype to invasive ductal carcinoma, implicating combined NF1/TP53 inactivation in the DCIS-to-invasive transition [PMID:26437033](../papers/26437033.md).
 - Synchronous DCIS (n=27) displayed somatic mutations and CNAs indistinguishable from paired IDC-NSTs (n=26): TP53 52%, PIK3CA 41%, GATA3 26%; 92% clonally related to their matched invasive carcinoma; pure DCIS (n=7) lacked PIK3CA mutations entirely (0% vs 41%), suggesting a molecularly less advanced state [PMID:32220886](../papers/32220886.md)
+- DCIS component of a juvenile papillomatosis case shared clonal [PIK3CA](../genes/PIK3CA.md) E542K with the JP and IDC-NST; DCIS-specific private mutations included truncating [ARID1A](../genes/ARID1A.md) and truncating [STAG2](../genes/STAG2.md); APOBEC Signature 2 rose from 20% in JP to 55% in DCIS [PMID:33263939](../papers/33263939.md)
 
 ## Subtypes
 
@@ -40,7 +41,7 @@ Breast Ductal Carcinoma In Situ (DCIS) is a pre-invasive neoplasm in which malig
 
 - [PMID:26437033](../papers/26437033.md) — Bu et al., *Rat somatic genome editing enables ER+ breast cancer modeling*, bioRxiv 2025.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32220886](../papers/32220886.md)
+- [PMID:33263939](../papers/33263939.md) — D'Alfonso et al. WES of juvenile papillomatosis with coexisting DCIS and IDC-NST.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

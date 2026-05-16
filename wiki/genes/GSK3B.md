@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # GSK3B
@@ -21,6 +21,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Degraded by HBx-mediated ubiquitination in HBV-related [HCC](../cancer_types/HCC.md), leading to dysregulated [CTNNB1](../genes/CTNNB1.md) stability and activation of the Wnt/beta-catenin pathway [PMID:22634756](../papers/22634756.md)
 - Recurrent disruptive rearrangement by chromoplexy affecting a gene implicated in prostate cancer signaling [PMID:23622249](../papers/23622249.md)
 - Elevated GSK3 protein (by RPPA) detected in MAML3 fusion-positive pheochromocytoma/paraganglioma ([PHC](../cancer_types/PHC.md)/[PGNG](../cancer_types/PGNG.md)) as part of the Wnt-pathway activation signature in the Wnt-altered subtype; elevated alongside β-catenin and [DVL3](../genes/DVL3.md) (TCGA PCPG study, n=173) [PMID:28162975](../papers/28162975.md).
+- GSK3B upregulated in ganglioglioma and Ganglio-rich LGG in pediatric brain tumors; substrate networks include ADD2 (Ser604/Ser693), SYN1 (Ser553), STMN1 (Ser38) [PMID:33242424](../papers/33242424.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

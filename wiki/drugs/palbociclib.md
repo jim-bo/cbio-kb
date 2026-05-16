@@ -9,7 +9,7 @@ unverified: true
 tags:
   - targeted-therapy
   - cdk-inhibitor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -28,6 +28,7 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - RB1 loss-of-function mutations occur in 5% of HR+/HER2- metastatic breast cancer (mBC) and may confer primary resistance to palbociclib, since RB1 protein is required for CDK4/6 inhibitor bioactivity; authors recommend RB1 testing on metastatic samples before initiating CDK4/6 inhibitors [PMID:28027327](../papers/28027327.md)
 - p53/Rb-pathway-altered MIBC (CDKN2A loss with retained Rb) is being targeted with palbociclib (PD-0332991) in NCT02334527, motivated by the pervasive p53/cell-cycle pathway inactivation (89% of tumors) found in the TCGA MIBC cohort [PMID:28988769](../papers/28988769.md)
 - CDK4/6 inhibitor used in 49/58 (84.5%) patients in the Wander et al. HR+/HER2- metastatic breast cancer cohort; eight resistance mechanisms were identified in 65.9% of resistant tumors, including RB1 loss, AKT1 activation, RAS mutations, AURKA amplification, CCNE2 amplification, ERBB2 alterations, FGFR2 alterations, and ER loss; in vitro overexpression/CRISPR validated palbociclib and abemaciclib resistance [PMID:32404308](../papers/32404308.md).
+- In the CPTAC breast cancer proteogenomics cohort (n=122), Rb protein and median Rb phosphosite positively correlated with proliferation in HR+/ERBB2− tumors but negatively in TNBC (ρ = −0.54, p = 0.003 protein; ρ = −0.46, p = 0.015 phospho); GDSC cell-line data showed Rb protein level predicts palbociclib response in RB1-wild-type lines (ρ = −0.61, p = 0.022), arguing that protein-level Rb assessment adds predictive value beyond RB1 genotype alone. [PMID:33212010](../papers/33212010.md)
 
 ## Resistance mechanisms
 
@@ -42,19 +43,13 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; CDK4/6 inhibitor testing context.
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. 2010, Nature Genetics; functional validation of [CDK4](../genes/CDK4.md) dependency in [DDLS](../cancer_types/DDLS.md); G1 arrest by palbociclib (PD0332991).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; RB1 loss in 5% of HR+/HER2- mBC may confer primary palbociclib resistance.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32404308](../papers/32404308.md)
+- [PMID:33212010](../papers/33212010.md) — Krug et al. 2020, *Cell* (CPTAC BRCA proteogenomics). Rb protein/phosphosite levels refine CDK4/6 inhibitor sensitivity prediction beyond RB1 genotype; GDSC evidence ρ = −0.61 for Rb protein ~ palbociclib response in RB1-WT lines.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

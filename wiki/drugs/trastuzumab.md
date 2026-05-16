@@ -5,7 +5,7 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -38,6 +38,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - Cited as context for HER2-targeted therapy in SUMMIT; ERBB2-amplified breast cancer (trastuzumab-indicated) differs from ERBB2-mutant (non-amplified) disease targeted by neratinib — 95% of HER2 mutations in SUMMIT were clonal and 17% co-occurred with amplification, but amplification did not correlate with additional clinical benefit from neratinib [PMID:29420467](../papers/29420467.md)
 - In the TCGA pan-cancer fusion atlas (n=9,624), four [ERBB2](../genes/ERBB2.md) fusions were identified (partners [PPP1R1B](../genes/PPP1R1B.md) and [IKZF3](../genes/IKZF3.md), genomic neighbors at 17q; 3 of 4 had HPV integration within 1 Mb of ERBB2), representing a fusion-driven mechanism of HER2 dysregulation distinct from — but potentially complementary to — the trastuzumab-targetable amplification in [BRCA](../cancer_types/BRCA.md) [PMID:29617662](../papers/29617662.md)
 - HER2-targeted monoclonal antibody combined with pembrolizumab + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); combination achieved 91% ORR and 27.2-month median OS versus ~47% ORR and ~16-month OS historically for trastuzumab + chemotherapy alone; RTK-RAS co-alterations predicted shorter PFS (5.9 vs. 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md).
+- In the CPTAC breast cancer proteogenomics cohort (n=122), 2/17 ERBB2-amplified cases were pseudo-ERBB2+ (amplified but protein within the ERBB2-negative distribution); authors propose integrated DNA + protein quantification as a more reliable diagnostic and suggest pseudo-ERBB2+ status may explain trastuzumab-refractory amplified tumors. [PMID:33212010](../papers/33212010.md)
 
 ## Resistance mechanisms
 
@@ -59,47 +60,23 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 
 - [PMID:36585450](../papers/36585450.md) — Fougner et al. 2023, AURORA US; HER2 amplification loss under trastuzumab pressure in metastatic breast cancer.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md) — TCGA oesophageal carcinoma comprehensive molecular characterization; ERBB2 altered in 32% of EAC; trastuzumab used off-label in ERBB2+ EAC; ERBB2-JUP fusion in 6 amplified EACs with unknown functional significance for trastuzumab response.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
 - [PMID:29617662](../papers/29617662.md) — Gao et al. 2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); four ERBB2 fusions identified with PPP1R1B/IKZF3 partners, likely arising from HPV-driven local instability; contextualized against trastuzumab-targetable ERBB2 amplification.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:32437664](../papers/32437664.md)
+- [PMID:33212010](../papers/33212010.md) — Krug et al. 2020, *Cell* (CPTAC BRCA proteogenomics). Pseudo-ERBB2+ phenotype (amplified but protein-low in 2/17 amplified cases) proposed as explanation for trastuzumab-refractory tumors; integrated proteogenomic ERBB2 quantification recommended.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

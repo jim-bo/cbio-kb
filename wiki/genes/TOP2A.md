@@ -17,6 +17,7 @@ TOP2A encodes DNA topoisomerase II alpha, an enzyme essential for DNA replicatio
 
 - TOP2A amplification with high expression identified in neuroendocrine neoplasm patient PN4 (a PanNET) by whole-genome/transcriptome analysis; supported irinotecan recommendation within a WGTA-guided precision oncology cohort [PMID:40328872](../papers/40328872.md)
 - Somatic mutations found in 2/6 non-PR patients (and 0/10 PR patients) in arm C (anti-PD-1 + nab-paclitaxel) of the FUTURE trial; mutations near the topoisomerase 2-like DNA-binding domain; nominated as a candidate negative predictor of ICI response in IM-subtype metastatic TNBC. [PMID:32719455](../papers/32719455.md)
+- Alternative chromosome-17q amplicon driver in pseudo-ERBB2+ breast cancer cases; 1 of 2 pseudo-ERBB2+ cases in the CPTAC prospective cohort (n=122) showed TOP2A amplification with TOP2A protein overexpression despite ERBB2 protein levels within the negative distribution [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ TOP2A encodes DNA topoisomerase II alpha, an enzyme essential for DNA replicatio
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

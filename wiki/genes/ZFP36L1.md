@@ -3,8 +3,8 @@ symbol: ZFP36L1
 aliases: []
 cancer_types: [CLLSLL, BRCA]
 tags: [structural-variant, u-cll, notch1-regulator]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ZFP36L1
@@ -19,6 +19,7 @@ ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator disrupted in U-CLL 
 - ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator, and its loss connects the structural-variant landscape of U-CLL to [NOTCH1](../genes/NOTCH1.md) pathway activation [PMID:35927489](../papers/35927489.md).
 - Significantly mutated gene (SMG) at frequency ≤8% in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) in the TCGA comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 - Identified as a Mut-driver in breast cancer in the METABRIC/ICGC 2,433-sample targeted-panel WES; inactivating mutations associated with worse breast-cancer-specific survival in ER+ disease [PMID:27161491](../papers/27161491.md).
+- Novel UTUC tumor suppressor: 20% mutation rate (MutSigCV FDR<0.05), 6/8 frameshift indels; siRNA knockdown in TCCSUP bladder line drives loss of E-cadherin, EMT-like morphology, and increased migration with no proliferation/apoptosis effect; 7.3% mutation rate in TCGA bladder cancer, highest among all 32 TCGA histologies; co-occurs with KDM6A (LOR=3.1, P=0.03) and STAG2 (LOR=3.29, P=0.04) [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator disrupted in U-CLL 
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

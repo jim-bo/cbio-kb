@@ -95,6 +95,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Driver in 316 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
 - Mutated in 76% of MSI uterine corpus endometrial carcinoma tumors (FDR=0); ARID1A-mutant samples show H3K27/H3K36 hyperacetylation; truncating mutations reduce ARID1A protein levels [PMID:32059776](../papers/32059776.md)
 - Altered in 20% of 119 UTUC patients (MSK-IMPACT); one of the most frequent chromatin/cohesin pathway alterations alongside KDM6A (38%), KMT2D (26%), CREBBP (20%), and STAG2 (22%); enriched in luminal-subtype tumors [PMID:32332851](../papers/32332851.md)
+- ARID1A mutations in breast cancer (CPTAC proteogenomics, n=122) associate with elevated phospho-TNIK (WNT pathway), nominating TNIK inhibition as a synthetic-lethal strategy in ARID1A-mutant luminal BRCA [PMID:33212010](../papers/33212010.md)
+- ARID1A truncating mutation identified as private to the DCIS+IDC-NST components of case JuP3 in a 3-patient juvenile papillomatosis (JP) cohort with matched benign/DCIS/invasive sampling [PMID:33263939](../papers/33263939.md)
+- ARID1A recurrent (P=0.01) in UTUC WES cohort (n=40); associated with higher mutational load (P=0.01); enriched in muscle-invasive (MI) tumors (33% MI vs 0% NMI, P=0.042, FDR=0.2); collapsed into the SWI/SNF composite mutation feature for iClusterBayes subtyping [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -330,5 +333,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+- [PMID:33212010](../papers/33212010.md)
+- [PMID:33263939](../papers/33263939.md)
+- [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

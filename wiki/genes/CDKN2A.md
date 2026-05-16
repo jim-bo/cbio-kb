@@ -3,7 +3,7 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD, ACRM]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -133,6 +133,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - All arm B (anti-AR + CDK4/6 inhibitor, LAR-without-ERBB2-mutation) tumors in a metastatic TNBC umbrella trial were CDKN2A-neutral, possibly reducing CDK4/6 inhibitor efficacy and contributing to the negative result in this arm; future LAR-arm designs should select for CDKN2A loss/alteration. [PMID:32719455](../papers/32719455.md)
 - Altered in 21/51 (41%) BRAF-mutant melanoma patients on BRAFi monotherapy (19 loss-of-function events); no association with response grade, contradicting prior reports [PMID:32913971](../papers/32913971.md)
 - CDKN2A p.V43M somatic mutation detected in normal perilesional melanocytes from donor 6 (back, peri-BCC); cell-cycle regulator mutation observed in the UV-induced mutation landscape of histologically normal skin [PMID:33029006](../papers/33029006.md)
+- CDKN2A lost at 9p21.3 focal GISTIC peak in UTUC; deletion contributes to iClusterBayes (posterior 0.54) [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -434,3 +435,6 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:33029006](../papers/33029006.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -22,8 +22,8 @@ tags:
   - fgfr3-tacc3-fusion
   - aneuploidy
   - chromatin-remodeling
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # BGI/UCGC Bladder Cancer 2013 (Guo)
@@ -51,6 +51,7 @@ Whole-genome, whole-exome, and transcriptome sequencing study of 99 transitional
 ## Papers using this cohort
 
 - [PMID:24121792](../papers/24121792.md) — Guo G et al., "Whole-genome and whole-exome sequencing of bladder cancer identifies frequent alterations in genes involved in sister chromatid cohesion and segregation", *Nature Genetics* 2013.
+- [PMID:33397444](../papers/33397444.md) — Su et al. (Genome Biology 2021): used as an external cross-validation cohort for ZFP36-family mutation frequency analysis in bladder cancer.
 
 ## Notable findings derived from this cohort
 
@@ -61,6 +62,7 @@ Whole-genome, whole-exome, and transcriptome sequencing study of 99 transitional
 - Recurrent in-frame [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) gene fusion in 2/42 (5%) RNA-seq tumors; confirmed by WGS junction reads. [PMID:24121792](../papers/24121792.md)
 - [DHFR](../genes/DHFR.md) focal amplification at 5q in 14/99 (14%) tumors; flagged as therapeutically relevant given DHFR is the target of antifolate anticancer agents. [PMID:24121792](../papers/24121792.md)
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) homozygous focal deletion at 9p21 in 50/99 (50%) of tumors — the most common focal deletion. [PMID:24121792](../papers/24121792.md)
+- [ZFP36L1](../genes/ZFP36L1.md) mutations present in 30/410 (7.3%) TCGA-BLCA samples; when extended to the full ZFP36 family the frequency reaches ~9–10% across three pooled bladder cohorts including blca_bgi, [blca_tcga_pub_2017](../datasets/blca_tcga_pub_2017.md), and [blca_dfarber_mskcc_2014](../datasets/blca_dfarber_mskcc_2014.md) [PMID:33397444](../papers/33397444.md).
 
 ## Sources
 
@@ -68,4 +70,4 @@ Whole-genome, whole-exome, and transcriptome sequencing study of 99 transitional
 - [PMID:24121792](../papers/24121792.md) — primary publication
 - EGA accession: not stated in frontmatter (sequencing data deposited via UCGC/BGI)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

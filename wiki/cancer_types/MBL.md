@@ -4,7 +4,7 @@ oncotree_code: MBL
 main_type: Embryonal Tumor
 parent: EMBT
 tags: [cns, embryonal, pediatric]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - ICGC/MAGIC integrated WGS (n=491) and methylation profiling (n=1,256) of medulloblastoma defined driver events in 76% of Group 3 and 82% of Group 4 cases; identified KBTBD4 hotspot in-frame insertions (Groups 3/4), SNCAIP tandem-duplication-driven PRDM6 enhancer hijacking (17% of Group 4, most prevalent Group 4 driver), and eight DNA-methylation-defined Group 3/4 subtypes. [PMID:28726821](../papers/28726821.md)
 - Germline WES of 372 pediatric cancer patients (Düsseldorf) included brain tumor cases; brain tumors represented 71 of 372 patients (19%); LP/PV carriers included medulloblastoma patient (LPP_01) carrying a monoallelic ATM pLoF LP/PV [PMID:29489754](../papers/29489754.md)
 - 20 medulloblastoma PDX models in PPTC cohort spanning SHH (n=7), WNT (n=2), Group 3 (n=7), Group 4 (n=3) subtypes; C19MC amplification, LIN28A overexpression, and/or TTYH1 fusions characterized ETMR models in this histology group [PMID:31693904](../papers/31693904.md).
+- 22 pediatric medulloblastomas profiled proteogenomically; all three recurrent MBL cases acquired new [TP53](../genes/TP53.md) mutations absent in matched primaries; CDK1/CDK2 kinase activity was elevated; chromosomal breakpoints increased from 32 to 53 on average at recurrence [PMID:33242424](../papers/33242424.md)
 
 ## Subtypes
 
@@ -48,10 +49,8 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - [PMID:28726821](../papers/28726821.md)
 - [PMID:35927489](../papers/35927489.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29489754](../papers/29489754.md)
+- [PMID:31693904](../papers/31693904.md) — PPTC PDX cohort (n=261); MBL PDX models included.
+- [PMID:33242424](../papers/33242424.md) — Petralia et al. proteogenomic analysis of 218 pediatric brain tumors (CPTAC).
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

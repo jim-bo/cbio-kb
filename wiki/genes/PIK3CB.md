@@ -3,7 +3,7 @@ symbol: PIK3CB
 aliases: []
 cancer_types: [PRAD]
 tags: [PI3K-pathway, kinase, mCRPC, actionable]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -21,6 +21,7 @@ PIK3CB encodes the p110β catalytic subunit of phosphoinositide 3-kinase (PI3K).
 - PIK3CB profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018); mTOR-pathway alterations in 34/80 (43%) patients; pathway status did not predict everolimus response [PMID:30687805](../papers/30687805.md)
 - PIK3CB is altered in 4% of mCRPC tumors; part of the PI3K-pathway alteration set with PIK3CA, PIK3R1, and AKT1; pathway alteration not associated with survival or time on ARSI [PMID:31061129](../papers/31061129.md)
 - PIK3CB CRISPR knockdown sensitivity correlates with PC1 (EMT/tissue-lineage axis) in the CCLE proteomics dataset; PIK3CB-targeting drugs also track PC1, suggesting context-dependent mesenchymal cell sensitivity [PMID:31978347](../papers/31978347.md)
+- Missense mutation private to DCIS+IDC-NST components in juvenile papillomatosis case JuP3 with coexisting breast carcinoma; acquired alongside PIK3CA E542K in the carcinomatous transformation. [PMID:33263939](../papers/33263939.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +57,8 @@ PIK3CB encodes the p110β catalytic subunit of phosphoinositide 3-kinase (PI3K).
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33263939](../papers/33263939.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

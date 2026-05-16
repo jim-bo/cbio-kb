@@ -36,6 +36,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - ESR1 Y537S ligand-binding domain mutation in a metastatic LGESS patient on long-term aromatase inhibitor therapy; switching to fulvestrant produced tumor regression [PMID:32299819](../papers/32299819.md)
 - Mutations in 14/41 (34.1%) resistant vs 3/18 (16.7%) sensitive HR+/HER2- MBC biopsies; sensitive-tumor ESR1 mutants occurred exclusively in fulvestrant-treated patients, consistent with endocrine but not CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 - ESR1 activating mutations D538G and Y537S were enriched at baseline in non-responders to alpelisib + AI in HR+ metastatic breast cancer (6/6 baseline ESR1-mutant patients had no clinical benefit; p=0.0067); VAFs expanded significantly under therapy. CRISPR knock-in Y537S xenografts validated a functional role in driving combination resistance. [PMID:32864625](../papers/32864625.md)
+- ESR1 (ER) expression defines the HR+/ERBB2- luminal BRCA subsets; APOBEC mutagenesis in endocrine-resistant ER+ BRCA correlates with active immune-TME and high PD-L1, supporting immunotherapy in ESR1-positive disease [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -116,5 +117,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

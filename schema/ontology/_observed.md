@@ -166,6 +166,21 @@
 - method: tide — observed in PMID:32015526 — note: Tumor Immune Dysfunction and Exclusion (TIDE) algorithm for computational prediction of immune checkpoint blockade response from tumor expression data
 - method: polysolver — observed in PMID:27149842 — note: HLA class I typing and somatic HLA mutation calling from WES; 11% of 619 CRCs had HLA mutations enriched in TIL-high tumors
 - method: netmhcpan — observed in PMID:26997480 — note: pan-allele MHC class I binding affinity predictor; used for neoepitope prediction in melanoma (v2.8) and CRC (v2.4) WES cohorts
+- method: xcell — observed in PMID:33242424 — note: RNA-based cell-type deconvolution (64 cell types) applied to pediatric brain tumor proteogenomics cohort (n=218); identified 5 TME groups
+- method: lincs-l1000 — observed in PMID:33242424 — note: drug-connectivity platform; queried with HGG vs LGG RNA+phospho signature to nominate CDK/MEK/proteasome/HDAC inhibitors
+- method: champ — observed in PMID:33397444 — note: Chip Analysis Methylation Pipeline; used for DMP/DMR calling from EPIC array in 40 UTUC tumors; paired with DMRcate
+- method: mcp-counter — observed in PMID:33397444 — note: transcriptomic immune/stromal deconvolution (10 cell populations); applied to UTUC and TCGA-BLCA cohorts
+- method: sirna-knockdown — observed in PMID:33397444 — note: ZFP36L1 siRNA silencing in TCCSUP bladder cell line; drove EMT morphology and increased migration
+- method: u-net — observed in PMID:33305538 — note: one of two dominant architectures (~90% of 111 reviewed DL imaging synthesis studies) for MR-to-CT, low-dose CT, and intra-modality MR synthesis
+- method: generative-adversarial-network — observed in PMID:33305538 — note: one of two dominant DL synthesis architectures; GAN use rising faster than U-Net since 2017 across MR-CT, CBCT, low-dose CT, low-count PET tasks
+- method: cyclegan — observed in PMID:33305538 — note: unsupervised image translation using cycle-consistency loss; reduces landmark error from 9.8 to 6.0 mm (head/neck); applied for CBCT-to-CT synthesis
+- method: autoencoder-deep-learning — observed in PMID:33305538 — note: earliest/simplest DL synthesis architecture; minority in reviewed studies relative to U-Net and GAN
+- method: synthetic-ct-from-mri — observed in PMID:33305538 — note: most-studied DL synthesis task; MAE 40–70 HU; dose diff <1% for photon plans; PET attenuation bias ~2% vs ~5% conventional
+- method: synthetic-mri-from-ct — observed in PMID:33305538 — note: CT-to-MR inter-modality synthesis; less clinically driven than MR-to-CT; surveyed in systematic review
+- method: synthetic-cbct-correction — observed in PMID:33305538 — note: CBCT-to-CT synthesis for adaptive radiotherapy; CycleGAN-based; MAE ~40–110 HU depending on site
+- method: low-dose-ct-restoration — observed in PMID:33305538 — note: DL (U-Net/GAN) restores PSNR ~36–44 dB at 1/4 dose; superior texture preservation vs TV iterative methods
+- method: low-count-pet-restoration — observed in PMID:33305538 — note: GAN/CycleGAN restores full-count PET from 1/100 counts; PSNR ~24–41 dB; MR input improves reading accuracy 83%→89%
+- method: pet-attenuation-correction — observed in PMID:33305538 — note: DL synthetic CT for PET/MR attenuation correction; reduces PET bias from ~5% to ~2%; bone reconstruction is key challenge
 - drug: tazemetostat — observed in PMID:28196596 — note: EZH2 inhibitor (structurally related to tool compound EPZ011989); proposed combination with cisplatin/etoposide or irinotecan in SCLC to prevent SLFN11 silencing
 - drug: dacomitinib — observed in PMID:28336552 — note: 2nd-gen pan-HER TKI; cited as preferred agent for atypical EGFR alleles (L861Q, exon 18 del) in LUAD
 - drug: telomerase-inhibitor-ix — observed in PMID:28373299 — note: TERT inhibitor compound; 2.5 µM produced ≥75% viability loss in ALM cell lines with TERT gains/promoter mutations; spared normal melanocytes

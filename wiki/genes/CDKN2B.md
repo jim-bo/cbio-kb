@@ -3,7 +3,7 @@ symbol: CDKN2B
 aliases: []
 cancer_types: [NSCLC, LUAD, BLCA, UTUC, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, RMS, ARMS, PLMESO, PTAD, THAP]
 tags: [cell-cycle, tumor-suppressor, deletion, brain-metastasis]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -51,6 +51,7 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - Focal deletions (jointly with CDKN2A) are the dominant cell-cycle alteration in malignant-progression and contrast-enhancing 1p19q-intact IDH-mutant gliomas; CDKN2A/B alterations enriched in higher-grade IDH-WT disease; one patient with primary RB1 mutation later acquired CDKN2A/B loss at recurrence and died within 11-15 months [PMID:31263031](../papers/31263031.md)
 - Homozygous 9p deletions (co-deleted with CDKN2A) in 45–48% of BCP-ALL, 72–76% of T-ALL/ETP-ALL, 45% of Ph/Ph-like ALL, and 60% of Ewing sarcoma PDX models in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 - Tumor-suppressor losses co-occurring with CDKN2A in 119 UTUC patients (MSK-IMPACT); deep deletions enriched in PDX models (29%) compared to matched patient tumors, consistent with PDX engraftment selection pressure [PMID:32332851](../papers/32332851.md)
+- CDKN2B lost at 9p21.3 focal GISTIC peak (co-deleted with CDKN2A) in UTUC; deletion contributes to iClusterBayes (posterior 0.54) [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -149,5 +150,8 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

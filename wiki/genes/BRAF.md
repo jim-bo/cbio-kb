@@ -128,6 +128,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF — among MAPK-pathway alterations (ERBB2, HRAS, NF1, BRAF, MAP2K1) that selectively expanded in post-treatment ctDNA from HR+ metastatic breast cancer patients on alpelisib + AI, suggesting parallel bypass resistance pathways. [PMID:32864625](../papers/32864625.md)
 - V600E/K confirmed in all 66 BRAF-mutant melanoma pretreatment tumors; amplification in 3 patients (all intermediate responders); elevated mutant-allele fraction (>2x median) in 9 patients significantly enriched in excellent BRAFi responders (P < .001 vs. poor) [PMID:32913971](../papers/32913971.md)
 - Non-V600 hotspot mutations p.G466R (x1) and p.D594G (x6) detected in normal perilesional melanocytes from donors 6 and 13 (adjacent to melanoma/BCC); classified as weak activators insufficient alone to drive malignancy [PMID:33029006](../papers/33029006.md)
+- BRAFV600E is the dominant oncogenic event in pediatric LGG; BRAFV600E LGG showed downregulated total BRAF protein abundance and upregulation of MAPK pathway substrates and AKT1/AKT2; a subset of craniopharyngioma lacking BRAFV600E shared the BRAFV600E LGG proteomic signature (C4 cluster), nominating MEK inhibition for these CP (CPTAC pediatric brain tumor proteogenomics, n=218 samples) [PMID:33242424](../papers/33242424.md)
 
 ## Cancer types (linked)
 
@@ -464,5 +465,6 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33029006](../papers/33029006.md)
+- [PMID:33242424](../papers/33242424.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

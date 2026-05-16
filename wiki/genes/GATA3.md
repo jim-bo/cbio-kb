@@ -28,6 +28,8 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - GATA3 mutated in 12.4% of SMC (Korean) breast cancer cohort vs 9.1% of TCGA; alterations restricted to hormone-receptor-positive subtypes. [PMID:29713003](../papers/29713003.md)
 - Loss-of-function mutations associated with lung metastasis organotropism in HR+ breast cancer [PMID:30205045](../papers/30205045.md)
 - Mutated in 26% of synchronous DCIS and 23% of matched IDC-NSTs; 6/7 DCIS and 6/6 IDC-NST mutations were loss-of-function (frameshift, truncating, splice-site); more frequent in ER+/HER2− DCIS (38%) than ER−/HER2− (0%) or HER2+ (14%) [PMID:32220886](../papers/32220886.md)
+- GATA3 mutations in BRCA associate with elevated phospho-MAST4 and phospho-DCLK1 (novel, requires validation); DCLK1 inhibition proposed as downstream therapeutic target in GATA3-mutant or LumA breast cancer [PMID:33212010](../papers/33212010.md)
+- GATA3 among top differentially methylated regions (DMRs) distinguishing FGFR3-mutant from FGFR3-WT UTUC; involved in bladder cancer luminal/basal identity [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -84,5 +86,11 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -26,6 +26,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - Hyperphosphorylated in CNV-high endometrial tumors; noted as targetable by FDA-approved drugs [PMID:32059776](../papers/32059776.md)
 - Mutations associated with increased SMAD2 protein expression in [LUAD](../cancer_types/LUAD.md) proteogenomics (CPTAC cohort, n=110) [PMID:32649874](../papers/32649874.md)
 - Enriched in MIP/SOL-predominant LUAD (6% vs 1.5% ACI/PAP vs 2.3% LEP; p=0.035); cited as a subclonal driver enriched in the most aggressive LUAD histologic subtype. [PMID:32791233](../papers/32791233.md)
+- Co-occurred with FGFR3 mutation in the 639V bladder cell line used for UTUC comparison; part of the SWI/SNF complex mutation burden defining the EpiC-high UTUC subtype associated with worse OS (HR=6.57, 95% CI 1.87–23.04) [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -76,5 +77,8 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

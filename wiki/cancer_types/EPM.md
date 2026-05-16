@@ -4,8 +4,8 @@ oncotree_code: EPM
 main_type: Glioma
 parent: EPMT
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Ependymoma (EPM)
@@ -21,6 +21,7 @@ Ependymoma is a glial tumor arising from ependymal cells lining the ventricular 
 ## Recurrent alterations
 
 - PIPseq cohort: C11orf95-RELA fusion (now designated ZFTA-RELA) with chromothripsis-like alternating gains/losses on chr11 and chr22 identified in a supratentorial EPM patient — diagnostic of RELA-type supratentorial ependymoma and prognostic for poor outcome; [BRCA1](../genes/BRCA1.md) germline frameshift identified in a separate EPM patient as a breast-cancer health-maintenance flag (returned as ACMG secondary finding); [VHL](../genes/VHL.md) I180T germline variant identified in an EPM patient as Von Hippel-Lindau syndrome [PMID:28007021](../papers/28007021.md).
+- 32 pediatric ependymomas profiled proteogenomically; an aggressive proteomic cluster (poor survival) was distinguished from the Ependy cluster by upregulation of the PAF1 complex (PAF1, CDC73, CTR9, LEO1, RTF1) at protein/phosphoprotein level — not detectable in RNA; RABGAP1L (1q25) was a CNV-RNA/Protein/Phospho cis-cascade gene in ependymoma [PMID:33242424](../papers/33242424.md)
 
 ## Subtypes
 
@@ -39,4 +40,6 @@ Ependymoma is a glial tumor arising from ependymal cells lining the ventricular 
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:33242424](../papers/33242424.md) — Petralia et al. proteogenomic analysis of 218 pediatric brain tumors (CPTAC).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

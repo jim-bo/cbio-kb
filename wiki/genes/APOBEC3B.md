@@ -25,6 +25,7 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - APOBEC3B-driven clock-like mutagenesis (signatures 2 and 13) correlates with patient age (p=5.2×10⁻³, ρ=0.17) in 292 prostate cancer WGS samples; kataegis events co-localize with SV breakpoints including TMPRSS2-ERG fusions and PTEN/FOXP1/BRCA2 disruptions; germline APOBEC3B deletion significantly reduces signature 2/13 burden [PMID:30537516](../papers/30537516.md)
 - Germline ~30-kb APOBEC3A–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 - APOBEC3B is implicated alongside APOBEC3A as an enzymatic source of SBS2 and SBS13 mutational signatures in resected lung adenocarcinoma; these signatures were independently associated with postresection recurrence (~2-fold elevated risk), particularly in acinar/papillary tumors. [PMID:32791233](../papers/32791233.md)
+- APOBEC3B protein levels track APOBEC mutagenesis signatures (COSMIC SBS2/SBS13) in luminal breast cancer (CPTAC proteogenomics, n=122); 6 APOBEC-enriched BRCA cases had higher mutation loads (Wilcoxon p=0.008) and elevated APOBEC3B protein [PMID:33212010](../papers/33212010.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,6 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+- [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

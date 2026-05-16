@@ -57,6 +57,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - Frequently copy-number altered in uterine corpus endometrial carcinoma (CPTAC proteogenomic cohort, n=95), consistent with TCGA EC findings [PMID:32059776](../papers/32059776.md)
 - Included in the somatic gene panel of a WES study of 27 synchronous DCIS and 26 IDC-NST pairs (n=25 patients); no CCNE1-specific alteration frequency reported, but CCNE1 was part of the mutated cancer gene repertoire profiled in this breast cohort [PMID:32220886](../papers/32220886.md)
 - Copy-number calls technically unreliable by WES due to centromere proximity; not enriched in CDK4/6i-resistant vs sensitive HR+/HER2- breast cancer biopsies in this cohort; true amplification rates may be under-counted [PMID:32404308](../papers/32404308.md)
+- Cyclin E (CCNE1) RNA (p=6.2 × 10⁻¹², phosphoprotein p=7.3 × 10⁻¹⁰) and CDK2 levels are higher in TNBC vs HR+ breast tumors in the CPTAC proteogenomics cohort (n=122); CCNE1 overexpression reflects replication-stress biology distinct from CCND1/CDK4/6-dependent cell cycle in HR+ [PMID:33212010](../papers/33212010.md)
+- CCNE1 (19q12) shows recurrent focal SCNA gain in UTUC WES cohort (n=40); one of the recurrent focal SCNA gains alongside MDM2 (12q15) and YWHAZ (8q22.3) [PMID:33397444](../papers/33397444.md)
 
 ## Cancer types (linked)
 
@@ -175,5 +177,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+- [PMID:33212010](../papers/33212010.md)
+- [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

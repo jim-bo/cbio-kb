@@ -119,6 +119,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - CDKN2A focal deletion (8% of cholangiocarcinoma cohort, n=195) is associated with significantly shorter overall survival (p=0.0015) and shorter time to progression on first-line gemcitabine/platinum chemotherapy (p=0.002) in advanced cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
 - CDKN2A tested for co-alteration with FGFR3 in muscle-invasive bladder cancer; no significant difference between primary and secondary MIBC [PMID:30290956](../papers/30290956.md)
 - CDKN2A mutated in 15% of gallbladder carcinoma; trend toward worse overall survival (P-adj = 0.09) [PMID:30427539](../papers/30427539.md)
+- CDKN2A homozygous deletions are among the most frequently detected alterations in glioma CSF ctDNA; detected with high concordance to matched tumour tissue in 85-patient MSK cohort [PMID:30675060](../papers/30675060.md)
 
 ## Cancer types (linked)
 
@@ -376,5 +377,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

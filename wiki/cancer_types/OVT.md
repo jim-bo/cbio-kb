@@ -4,8 +4,8 @@ oncotree_code: OVT
 main_type: Ovarian Cancer
 parent: OVARY
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Ovarian Epithelial Tumor (OVT)
@@ -23,6 +23,7 @@ Ovarian epithelial tumor (OVT) is the broad OncoTree category for epithelial ova
 - [MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md) — dMMR/MSI-H status (via MMR gene mutations or [MLH1](../genes/MLH1.md) promoter hypermethylation) defines eligibility for immune checkpoint therapy in the OVT context. [PMID:38653864](../papers/38653864.md)
 - [SETD1B](../genes/SETD1B.md) — mutations associated with response to [nivolumab](../drugs/nivolumab.md) (58% responders vs. 14% non-responders, P=0.015). [PMID:38653864](../papers/38653864.md)
 - [MEGF8](../genes/MEGF8.md) — mutations enriched in nivolumab responders (32% vs. 0%, P=0.027). [PMID:38653864](../papers/38653864.md)
+- OVT (ovarian tumor) was a 3D model test bed; co-culture of OVCAR-5 cells with fibroblasts via liquid overlay increased cisplatin susceptibility (stromal modulation of drug response in 3D); droplet-based microfluidic encapsulation of OVCAR-5/RFP cells enabled transcriptomic characterization of chemotherapy-residual vs. chemotherapy-resistant ovarian cancer populations. [PMID:30643250](../papers/30643250.md)
 
 ## Subtypes
 
@@ -38,3 +39,6 @@ Ovarian epithelial tumor (OVT) is the broad OncoTree category for epithelial ova
 - [PMID:38653864](../papers/38653864.md) — Nivolumab for mismatch-repair-deficient or hypermutated gynecologic cancers: a phase 2 trial with biomarker analyses (Nature Medicine, 2024)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

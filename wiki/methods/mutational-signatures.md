@@ -41,6 +41,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Mutational signature analysis with deconstructSigs (Alexandrov 2013 signature set) applied to MSI-H and MSS subgroups in ACC, CESC, and MESO; no statistically significant differences found after Benjamini-Hochberg correction due to small MSI-H cohort sizes [PMID:29850653](../papers/29850653.md)
 - Mutational-signature decomposition used for hypermutated samples (≥10 SNVs) in 189 advanced endometrial cancer patients; combined with MSIsensor to rescue one occult MMR-D case missed by IHC [PMID:30068706](../papers/30068706.md)
 - Non-negative matrix factorization applied against COSMIC signatures across 249 MSS ICB-treated tumors; dominant signature (UV in melanoma, smoking in NSCLC, APOBEC in bladder/HNSCC) correlated with TMB and ITH; in melanoma TMB was non-predictive of ICB response after adjusting for dominant signature [PMID:30150660](../papers/30150660.md)
+- Six mutational signatures identified in 292 prostate cancer WGS genomes: clock-like signatures 1 and 5, DNA-repair signatures 3 (BRCAness) and 6, and APOBEC signatures 2 and 13; APOBEC3B-driven kataegis events co-localize with SV breakpoints including TMPRSS2-ERG fusions [PMID:30537516](../papers/30537516.md)
 
 ## Notes
 
@@ -119,5 +120,8 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

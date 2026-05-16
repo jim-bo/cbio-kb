@@ -3,8 +3,8 @@ symbol: MAP3K7
 aliases: [TAK1]
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MAP3K7
@@ -16,6 +16,7 @@ MAP3K7 (Mitogen-Activated Protein Kinase Kinase Kinase 7), also known as TAK1, i
 ## Alterations observed in the corpus
 
 - Recurrent focal deletion in the TCGA prostate adenocarcinoma cohort (n=333); co-deletion with [CHD1](../genes/CHD1.md) (5q15-q21) associated with aggressive ETS-negative disease [PMID:26544944](../papers/26544944.md)
+- MAP3K7 cited as a known prostate cancer SV-associated tumor suppressor in the context of recurrent structural variation analysis across 292 WGS prostate cancer genomes [PMID:30537516](../papers/30537516.md)
 
 ## Cancer types (linked)
 
@@ -34,3 +35,6 @@ MAP3K7 (Mitogen-Activated Protein Kinase Kinase Kinase 7), also known as TAK1, i
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Esophagogastric Adenocarcinoma (EGC)
@@ -33,6 +33,7 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [FGFR3](../genes/FGFR3.md)-[TACC3](../genes/TACC3.md) — subclonal fusion identified at single-cell level by serial ctDNA; expanded on-treatment, implicating it as a resistance driver. [PMID:37406106](../papers/37406106.md)
 - Esophagogastric carcinoma / esophageal gastric adenocarcinoma was included in the MSK-IMPACT pan-cancer cohort (msk_impact_2017) spanning 62 principal tumor types; MSI gastric/esophageal tumors were among those showing responses to immune checkpoint blockade in the pan-cancer MSI analysis. [PMID:28481359](../papers/28481359.md)
 - Janjigian et al. prospectively profiled 295 stage-IV esophagogastric adenocarcinoma patients with MSK-IMPACT (341/410/468-gene panels); 53% had at least one actionable alteration; MSI-H tumors (3%) were chemotherapy-refractory but immunotherapy-sensitive; NGS-based ERBB2 amplification level predicted trastuzumab benefit better than IHC/FISH; HRD/LST did not predict platinum response [PMID:29122777](../papers/29122777.md)
+- EGC was among the histologies represented in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for esophagogastric cancer alongside NSCLC, melanoma, head & neck, and renal cell carcinoma. [PMID:30643254](../papers/30643254.md)
 
 ## Subtypes
 
@@ -59,3 +60,6 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

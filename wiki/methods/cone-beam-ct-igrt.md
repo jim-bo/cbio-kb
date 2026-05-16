@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [radiation-therapy, image-guidance, igrt, pancreatic-cancer, sbrt]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Cone-Beam CT Image-Guided Radiotherapy (CBCT-IGRT)
@@ -18,6 +18,7 @@ Cone-beam CT image-guided radiotherapy (CBCT-IGRT) acquires a volumetric CT imag
 ## Used by
 
 - CBCT-IGRT is described as a standard image-guidance component of the linac-based SBRT technical workflow reviewed in nine prospective trials of locally advanced pancreatic cancer; enables daily positional correction with fiducial markers to maintain tight PTV margins (2–5 mm) and protect adjacent OARs (duodenum, stomach, small bowel). [PMID:27826200](../papers/27826200.md)
+- An alternating random forest (ARF) with auto-context model trained on 12 brain and 14 pelvis radiotherapy patients corrects CBCT images to planning-CT quality (brain MAE 12.81 ± 2.04 HU, pelvis MAE 19.94 ± 5.44 HU), enabling dosimetrically accurate CBCT-guided adaptive radiotherapy [PMID:30471129](../papers/30471129.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ Cone-beam CT image-guided radiotherapy (CBCT-IGRT) acquires a volumetric CT imag
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30471129](../papers/30471129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

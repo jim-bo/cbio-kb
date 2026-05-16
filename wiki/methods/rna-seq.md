@@ -113,6 +113,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - RNA-seq performed as part of the MSK pediatric cancer genomics cohort for transcriptomic profiling [PMID:29670109](../papers/29670109.md)
 - RNA-seq used in TCGA pan-cancer analysis for transcriptome-level characterization across cancer types [PMID:29713003](../papers/29713003.md)
 - Applied to 451 of 672 AML specimens (411 patients) using Agilent SureSelect Strand-Specific kit on Illumina HiSeq 2500 in the Beat AML study; expression signatures identified for 78/119 drugs (65.5%) at FDR<0.05 [PMID:30333627](../papers/30333627.md)
+- mRNA-seq performed on 96 EOPC prostate cancer samples from prostate_dkfz_2018; used to validate ESRP1 duplication-driven overexpression and to derive co-expression clusters (CC1–7) defining four molecular subgroups validated in TCGA prad_tcga_pub (n=462) [PMID:30537516](../papers/30537516.md)
 
 ## Notes
 
@@ -384,5 +385,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

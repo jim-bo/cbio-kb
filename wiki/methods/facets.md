@@ -34,6 +34,7 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - FACETS v0.5.10 applied to 1,013 prostate tumor/normal pairs for allele-specific copy number, purity, ploidy, and clonality (cancer-cell fraction) estimation [PMID:29610475](../papers/29610475.md)
 - FACETS v0.5.6 (cval=100) used to derive allele-specific copy-number profiles for 189 advanced endometrial cancer tumors; hierarchical clustering of FACETS profiles identified a novel Cluster C (heterozygous losses) with median PFS 9.6 vs 17 months (p=0.006) [PMID:30068706](../papers/30068706.md)
 - FACETS algorithm applied for allele-specific copy-number inference and tumor purity estimation in 1,918 prospectively sequenced breast tumors [PMID:30205045](../papers/30205045.md)
+- FACETS used for somatic copy-number calling on CSF ctDNA and matched tumor tissue from 85 glioma patients; identified focal amplifications (EGFR, PDGFRA, CDK4, MYC, KIT, MET) and homozygous deletions (CDKN2A/B) tracked through serial CSF sampling to document convergent evolution [PMID:30675060](../papers/30675060.md)
 
 ## Notes
 
@@ -78,5 +79,8 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

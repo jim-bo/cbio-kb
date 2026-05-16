@@ -5,7 +5,7 @@ drug_class: alkylating chemotherapy
 canonical_source: 
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,8 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - Single-agent TMZ induction (200 mg/m² days 1–5, 28-day cycles × 6) was the induction phase in a phase II trial (NCT00588523) for newly diagnosed [anaplastic oligodendroglioma (ODG3)](../cancer_types/ODG3.md) and oligoastrocytoma (85% with 1p/19q codeletion, n=41): 70.7% completed all 6 cycles; 2-year PFS in transplanted patients was 85.7% (95% CI 62%–95.2%); in an exploratory cross-trial comparison TMZ induction was non-inferior to PCV induction (HR 3.38 for OS, P=0.005). [PMID:28472509](../papers/28472509.md)
 - Novel on-therapy mutations in melanoma patients treated with nivolumab are enriched for COSMIC signature 11 (temozolomide/melanoma signature), suggesting a stress-induced repair-process dysfunction during immunotherapy rather than prior temozolomide exposure driving these events [PMID:29033130](../papers/29033130.md)
 - Used as historical comparator for GBM survival benchmarking: TCGA-CDR GBM median OS (12.6 mo) and PFI (6.1 mo) fall between the Stupp 2005 standard-care arm (OS 12.1 mo, PFI 5.0 mo) and the standard-care-plus-temozolomide arm (OS 14.6 mo, PFI 6.9 mo) [PMID:29625055](../papers/29625055.md)
+- In a 3D cell culture review, glioblastoma cells grown in chitosan-hyaluronic porous scaffolds showed greater temozolomide resistance vs. monolayers, coincident with upregulation of CD44, ABCG2, and MGMT in a pore-size–dependent manner, demonstrating that 3D scaffold architecture amplifies drug resistance [PMID:30643250](../papers/30643250.md).
+- In a CSF ctDNA glioma study (n=85), 5/42 (12%) CSF-ctDNA-positive patients displayed alkylator-induced hypermutation (G:C→A:T signature), all of whom had received temozolomide; the hypermutator phenotype correlated with lower shared-mutation rate between CSF and tumour (median 19.6% vs 81.7%), with implications for immunotherapy candidacy and interpretation of subclonal variants [PMID:30675060](../papers/30675060.md).
 
 ## Resistance mechanisms
 
@@ -70,3 +72,9 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:29625055](../papers/29625055.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30643250](../papers/30643250.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

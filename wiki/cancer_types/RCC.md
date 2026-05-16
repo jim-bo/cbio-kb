@@ -8,7 +8,7 @@ tags:
   - renal
   - umbrella
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # Renal Cell Carcinoma (RCC)
@@ -33,6 +33,7 @@ Alterations vary substantially by RCC subtype. Cross-subtype observations from t
 
 See individual subtype pages for full alteration catalogs.
 - PIPseq cohort: VHL V166G mutation identified in a renal cell carcinoma patient as diagnostic of Von Hippel-Lindau syndrome [PMID:28007021](../papers/28007021.md)
+- RCC (renal cell carcinoma, n=151) was among the ICI-treated histologies in the MSK-IMPACT cohort; TMB-high RCC patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for renal cell carcinoma. [PMID:30643254](../papers/30643254.md)
 
 ## Subtypes
 
@@ -58,3 +59,6 @@ See individual subtype pages. Notable pan-RCC observations from the corpus:
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

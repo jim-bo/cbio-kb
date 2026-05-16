@@ -46,6 +46,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT is a driver gene in the TCGA pan-cancer landscape; KIT alterations are part of the somatic driver interaction network with mutual-exclusivity and co-occurrence patterns identified across 33 tumor types [PMID:29625049](../papers/29625049.md)
 - KIT amplification in glioma co-occurs with EGFR amplification at the 4q12 locus (KIT/PDGFRA/KDR region), and is mutually exclusive with KRAS/BRAF mutation or NF1/RASA1 loss elsewhere in the RTK-RAS pathway across the TCGA pan-cancer oncogenic signaling analysis [PMID:29625050](../papers/29625050.md)
 - Single OncoKB-level-annotated actionable alteration (n=1 patient) contributing to the 67% actionable tally in metastatic endometrial cancer (189 patients, MSK cohort) [PMID:30068706](../papers/30068706.md)
+- KIT amplification was acquired in patient #28 (IDH-WT GBM) tumour sample #3 alongside PDGFRA amplification but was lost in the later CSF sample, illustrating branched evolution in receptor tyrosine kinase signalling during glioma progression (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 
 ## Cancer types (linked)
 
@@ -151,5 +152,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

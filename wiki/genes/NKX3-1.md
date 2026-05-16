@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD]
 tags: [brain-metastasis]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # NKX3-1
@@ -21,6 +21,7 @@ NKX3-1 is a homeobox transcription factor. In the corpus it appears as a gene wh
 - NKX3-1 somatic mutations detected in prostate cancer; identified in WES of 112 primary tumors (Broad Institute cohort) [PMID:22610119](../papers/22610119.md)
 - Strictly clonal deletion in 8 of 26 prostate tumors via chromoplexy; identified as one of the earliest detectable lesions in prostate carcinogenesis based on clonality analysis (p=10⁻⁵ for NKX3-1 deletion being earlier than [PTEN](../genes/PTEN.md)) [PMID:23622249](../papers/23622249.md)
 - Significantly mutated in prostate adenocarcinoma (somatic mutation in ~1%); also commonly deleted; listed among significantly mutated genes in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
+- NKX3-1 locus (8p) was affected by SVs in 37% of EOPC prostate cancer cases; haploinsufficient tumor-suppressor pattern (rarely biallelically lost despite frequent SV involvement) and among the most common second events in the PRESCIENT temporal-order model [PMID:30537516](../papers/30537516.md).
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ NKX3-1 is a homeobox transcription factor. In the corpus it appears as a gene wh
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

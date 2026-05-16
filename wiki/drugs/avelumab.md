@@ -14,7 +14,7 @@ tags:
   - chemoradiation
   - tumor-microbiome
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-16
 ---
 
 # avelumab
@@ -29,6 +29,7 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](.
 - In the GenRad HNSCC context, avelumab is discussed alongside PD-1-blocking re-irradiation approaches (NCT03521570) as part of a broader portfolio of radioimmunotherapy strategies in HNSCC. [PMID:41941260](../papers/41941260.md)
 - Avelumab+axitinib (JAVELIN Renal 101) demonstrated significant PFS benefit for ICI/ICI-combo-preferred ccRCC patients (p=0.000007) in the HiTME decision-tree analysis; the ICI responder model achieved ROC-AUC=0.78 on JAVELIN validation [PMID:22138691](../papers/22138691.md)
 - Cited as an investigational anti-PD-L1 agent in the NPC therapeutic landscape review [PMID:24952746](../papers/24952746.md)
+- In a pan-cancer ICI cohort (n=1,662), avelumab was one of the anti-PD-L1 agents used; patients in the top-20% TMB stratum had HR 0.52 (p=1.6×10⁻⁶) for OS, establishing TMB as a candidate selection biomarker across histologies treated with anti-PD-L1 agents [PMID:30643254](../papers/30643254.md).
 
 ## Resistance mechanisms
 
@@ -51,3 +52,6 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](.
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

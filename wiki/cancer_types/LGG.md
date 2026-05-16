@@ -32,6 +32,7 @@ LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). T
 - IDH1 defines methylation cluster 1 in LGG (330/351 samples IDH1-mutant); IDH1-driven gliomas show lower STAT1 and reduced CXCL10/immune infiltrate; ATRX- or TP53-mutant LGG tumors have more macrophages and fewer CD8 T-cells (ANOVA P<2e-8) [PMID:29625049](../papers/29625049.md)
 - RTK-RAS alteration rate 82% in IDHwt LGG; EGFR altered in 52% of IDHwt LGG; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant LGG [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); IDH/1p19q status established as more robust survival predictor than histologic subtype, contributing evidence to WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
+- LGG (WHO grade II–III) comprised 39/85 patients in the MSK-IMPACT CSF liquid-biopsy cohort; truncal alterations (IDH1/IDH2, TP53, ATRX, TERT, 1p/19q codeletion) were 100% concordant between CSF ctDNA and matched tumor tissue in all 10/10 non-hypermutated LGG pairs. [PMID:30675060](../papers/30675060.md)
 
 ## Subtypes
 
@@ -60,5 +61,8 @@ LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). T
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -21,6 +21,7 @@ Random forest is an ensemble machine learning algorithm that constructs multiple
 - Random-forest classifier used for unsupervised clustering of pathway alteration profiles in 109 PDA cases, revealing subtypes where isolated KRAS-pathway alterations (clusters 1 & 2) correlated with poor prognosis. [PMID:25855536](../papers/25855536.md)
 - Random forest classifier trained on methylation and expression features to assign glioma samples to molecular subtypes (LGm/LGr clusters) in the TCGA pan-glioma study [PMID:26824661](../papers/26824661.md)
 - Applied in pediatric cancer classification to predict tumor type or subgroup from genomic features [PMID:29670109](../papers/29670109.md)
+- Alternating random forest (ARF) with joint-information-gain splitting and auto-context model iteratively refines CBCT-to-CT regression; achieves brain MAE 12.81 HU vs 20.89 HU for dictionary-learning baseline (p < 0.001) in a 12-patient brain and 14-patient pelvis radiotherapy cohort [PMID:30471129](../papers/30471129.md)
 
 ## Notes
 
@@ -40,5 +41,8 @@ Random forest is an ensemble machine learning algorithm that constructs multiple
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30471129](../papers/30471129.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

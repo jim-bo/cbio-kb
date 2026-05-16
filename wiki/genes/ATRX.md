@@ -35,6 +35,7 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - C1531 mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; notable as ATRX loss is typically associated with 1p/19q-intact astrocytoma/GBM rather than oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Pan-sarcoma SMG; deletions/mutations in ~30% of DDLPS; loss associated with telomere lengthening in UPS/MFS (p=0.013); proposed as a correlative biomarker for CDK4 inhibitor trials in DDLPS [PMID:29100075](../papers/29100075.md)
 - ATRX co-occurs with TP53 and IDH1 in the largest somatic-somatic interaction hub pan-cancer (TCGA 33-tumor-type analysis); represents a key co-mutation pattern in glioma-related clusters [PMID:29625049](../papers/29625049.md)
+- ATRX loss-of-function alterations are truncal in IDH-mutant non-codeleted low-grade gliomas (LGG) and mutually exclusive with TERT promoter mutations; detected with 100% concordance between tumour tissue and CSF ctDNA in non-hypermutated cases (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 
 ## Cancer types (linked)
 
@@ -107,5 +108,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -26,6 +26,7 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - Used as neoadjuvant monotherapy followed by ISG/SSG IV protocol (vincristine, doxorubicin, ifosfamide, etoposide) in a patient with EWSR1::BEND2 bladder sarcoma; intravesical tumor resolved but pelvic and lung metastases did not respond; patient switched to docetaxel + gemcitabine after nephrotoxicity [PMID:28199314](../papers/28199314.md).
 - Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy; MYC SVs, 13q31.3 gain, and 1q42.12 loss were independently prognostic for inferior PFS/OS on R-CHOP [PMID:29713087](../papers/29713087.md)
 - Doxorubicin was part of the cisplatin-based MVAC (methotrexate/vinblastine/doxorubicin/cisplatin) neoadjuvant chemotherapy regimen used in 288 MSKCC MIBC patients; secondary MIBC patients treated with this regimen had inferior pathologic response and survival outcomes compared to primary MIBC [PMID:30290956](../papers/30290956.md).
+- In a 3D cell culture review, doxorubicin delivered via GelMA microneedles in a skin/skin-cancer-on-a-chip platform achieved uniform 600 µm penetration to melanoma cells beneath the epidermis, with significantly higher efficiency than diffusion through media, modeling transdermal melanoma therapy [PMID:30643250](../papers/30643250.md).
 
 ## Resistance mechanisms
 
@@ -59,5 +60,8 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30643250](../papers/30643250.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

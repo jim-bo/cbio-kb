@@ -23,6 +23,7 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 - Every alteration called in the MSK-IMPACT pipeline was manually reviewed in IGV as a quality control step across 10,945 tumors [PMID:28481359](../papers/28481359.md)
 - Used to visually inspect sequencing alignments and verify CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489) and allele-specific read distributions in the NOL10/USF1 prostate cancer study [PMID:28927585](../papers/28927585.md)
 - IGV used for visual review of variant calls from MSK-IMPACT sequencing of 127 advanced HCC tumors [PMID:30373752](../papers/30373752.md)
+- IGV used for manual structural variant review in CSF ctDNA and tumor tissue sequencing from 85 glioma patients; supported detection of EGFRvIII in-frame deletion and other structural rearrangements tracked through tumor evolution [PMID:30675060](../papers/30675060.md)
 
 ## Notes
 
@@ -49,5 +50,8 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -37,6 +37,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Overexpression in osteosarcoma (OS); identified as a multi-targeted kinase inhibitor (MTKI) target in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Significantly enriched in the unmatched driver (UMD) cohort vs level 1-4 patients in a prospective LUAD study (860 patients, MSK-IMPACT panel) [PMID:28336552](../papers/28336552.md)
 - PDGFRA amplification in glioma (at the 4q12 locus with KIT/KDR) co-occurs with EGFR amplification and is part of the RTK-RAS pathway landscape assessed across 9,125 TCGA pan-cancer tumors [PMID:29625050](../papers/29625050.md)
+- PDGFRA amplification and mutation were acquired during serial tumour evolution in glioma patients #25 (convergent evolution replacing EGFR amplification) and #28 (GBM, IDH-WT); the EGFR→PDGFRA switch illustrates convergent evolution within the RTK axis and was captured by CSF ctDNA profiling [PMID:30675060](../papers/30675060.md).
 
 ## Cancer types (linked)
 
@@ -118,3 +119,6 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

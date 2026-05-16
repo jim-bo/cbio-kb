@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [methylation, epigenetics, array]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Illumina 450k methylation array
@@ -27,6 +27,7 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 - Used in TCGA PTC multiplatform profiling; methylation clusters aligned with BVL/RL meta-cluster split, and a CpG-island RL-PTC sub-cluster was associated with higher tumor purity and reduced lymphocyte infiltration [PMID:25417114](../papers/25417114.md)
 - Illumina 450K methylation BeadChip applied to 138 CCA cases to reveal two distinct hypermethylation subgroups: CpG-island (Cluster 1/Fluke-Pos) and CpG-shore (Cluster 4/Fluke-Neg) patterns [PMID:28667006](../papers/28667006.md)
 - Illumina 450K methylation arrays profiled 1,256 medulloblastoma cases; t-SNE on 12,454 most-variable probes resolved eight molecular subtypes within Group 3/4, the largest methylation-based MB classification to date [PMID:28726821](../papers/28726821.md)
+- Illumina Infinium 450K methylation array applied to 203 EOPC and 45 LOPC prostate cancer tumors from prostate_dkfz_2018; used to derive PEPCI (Purity-adjusted Epigenetic Prostate Cancer Index) predicting GS (AUC 0.831) and BCR (AUC 0.702), validated in TCGA [PMID:30537516](../papers/30537516.md)
 
 ## Notes
 
@@ -62,3 +63,6 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

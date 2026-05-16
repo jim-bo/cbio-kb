@@ -41,6 +41,7 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - MSI-high STAD over-expresses immune effectors GZMA, PRF1, GZMK, GZMH (Kolmogorov-Smirnov P<0.01); TP53 and KRAS mutually exclusive in STAD [PMID:29625049](../papers/29625049.md)
 - ERBB2 alterations in chromosomally-unstable esophagogastric (STAD CIN) at 26%; EBV+ STAD shows 80% PI3K pathway alteration rate; PI3K+MEK combination actionable in 10% of EBV+ STAD [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for STAD [PMID:29625055](../papers/29625055.md)
+- WGS of 212 gastric adenocarcinomas: 34 significant non-coding SNV hotspots identified, 11 overlapping CTCF binding sites (CBS); 25% of gastric tumors carry ≥1 CBS hotspot mutation; CBS hotspot mutations are clonal early events (VAF indistinguishable from coding driver mutations, p=0.49) enriched in CIN subtype (71%, Fisher's exact p=0.012) [PMID:29670109](../papers/29670109.md)
 
 ## Subtypes
 
@@ -98,5 +99,8 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29670109](../papers/29670109.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

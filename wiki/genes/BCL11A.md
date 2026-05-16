@@ -5,7 +5,7 @@ cancer_types:
   - NBL
 tags: [transcription-factor, neuroblastoma, progenitor-program, chromatin-regulator]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-16
 ---
 
 # BCL11A
@@ -17,6 +17,7 @@ BCL11A is a zinc-finger transcription factor with roles in lymphocyte developmen
 ## Alterations observed in the corpus
 
 - BCL11A is part of the progenitor/migratory gene program shared between the normal postnatal human adrenal progenitor cluster (hC1) and the undifferentiated high-risk neuroblastoma cluster (nC3), alongside [ASXL3](../genes/ASXL3.md), [ERBB3](../genes/ERBB3.md), [RTTN](../genes/RTTN.md), [TP63](../genes/TP63.md), [POU6F2](../genes/POU6F2.md), [SOX6](../genes/SOX6.md), [CLDN11](../genes/CLDN11.md), and [DOCK7](../genes/DOCK7.md); confirmed as significantly over-expressed in nC3 at FDR < 0.01 by Welch's t-test [PMID:34493726](../papers/34493726.md).
+- Recurrently mutated in DLBCL (dlbcl_dfci_2018) as part of the five-cluster genetic classification of 304 DLBCLs [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ BCL11A is a zinc-finger transcription factor with roles in lymphocyte developmen
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

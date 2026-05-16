@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [sequencing, wgs]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Whole-genome sequencing (WGS)
@@ -92,6 +92,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 37 of 206 TCGA sarcomas to complement WES and characterize structural variants and whole-genome doubling across 6 histologies [PMID:29100075](../papers/29100075.md)
 - Used in the TCGA MC3 project for orthogonal validation of WES-derived somatic calls on 1,059 samples (median 126 validation sites/sample); also used to validate RNA-seq-based fusions via discordant read pairs [PMID:29596782](../papers/29596782.md)
 - Applied to AALE chr_3p-deleted clones (MiSeq low-coverage) processed with HMMCopy and IchorCNA for subclonal copy number, alongside karyotyping to confirm 3p hemizygosity [PMID:29622463](../papers/29622463.md)
+- WGS performed on MSK pediatric cancer samples for comprehensive somatic variant discovery [PMID:29670109](../papers/29670109.md)
 
 ## Notes
 
@@ -311,3 +312,6 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -160,6 +160,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Source of somatic mutation calls (via MC3 MAF v2.8) for 9,125 TCGA PanCanAtlas tumors across 33 cancer types in the pan-cancer oncogenic signaling pathway analysis [PMID:29625050](../papers/29625050.md).
 - Source of somatic and germline variant calls for the TCGA PanCancer Atlas 11,000-tumor driver analysis; MC3 pipeline applied 7 callers to WES data yielding 2,907,335 high-confidence somatic calls; germline analysis identified 1,461 pathogenic/likely-pathogenic variants [PMID:29625049](../papers/29625049.md).
 - Applied to 24 samples from 5 bladder cancer organoid lines (Agilent SureSelect V4, HiSeq 2500, ~240× on-target) for phylogenetic analysis and mutational concordance assessment with parental tumors [PMID:29625057](../papers/29625057.md).
+- WES performed on 304 DLBCLs with Agilent SureSelect Human All Exon v2.0 plus spiked-in SV bait set; median tumor coverage 87.6× (range 39–206.8×); 55% FFPE, 44% patient-matched normals [PMID:29713087](../papers/29713087.md)
+- WES used in the MSK IMPACT neoantigen study to characterize somatic mutations and predict HLA-restricted neoantigens [PMID:29657128](../papers/29657128.md)
+- WES performed as part of the TCGA pan-cancer cohort for somatic mutation profiling [PMID:29713003](../papers/29713003.md)
 
 ## Notes
 
@@ -553,5 +556,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

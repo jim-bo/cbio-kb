@@ -4,7 +4,7 @@ aliases: [TEL]
 cancer_types: [IFS, SCSRMS]
 tags: [fusion, NTRK3, diagnostic-marker, sarcoma]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # ETV6
@@ -26,6 +26,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma (MASC); both patients responded to TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
 - Preferentially mutated in ABC-DLBCL; ETV6 mutations in DLBCL are ABC-subtype-enriched in the comprehensive genetic and functional driver analysis [PMID:28985567](../papers/28985567.md)
 - ETV6-NTRK3 fusion identified in MSI-H colorectal cancer (8% MSI-H vs 1% MSS NTRK fusion rate overall); ETV6-NTRK3 is a known oncogenic fusion relevant to TRK inhibitor therapy [PMID:29316426](../papers/29316426.md)
+- ETV6 mutations are recurrent in the C5 ABC-DLBCL subtype; subclonal timing suggests ETV6 mutations arise after clonal TBL1XR1 events in C5 tumor evolution [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -72,3 +73,6 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

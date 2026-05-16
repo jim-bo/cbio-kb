@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # capecitabine
@@ -22,6 +22,7 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - Capecitabine was among the POG-informed standard-of-care therapies administered to metastatic NEN patients in the BC Cancer POG program WGTA cohort (n=28) [PMID:40328872](../papers/40328872.md)
 - Listed as a concurrent systemic agent in reviewed SBRT trials for locally advanced [PAAD](../cancer_types/PAAD.md); the Harvard proton-beam neoadjuvant program (50 patients, 25 Gy/5 fx + concurrent capecitabine) achieved 84% R0 resection rate in 39 resected patients, 27-month median survival, and 4.1% grade 3 acute toxicity [PMID:27826200](../papers/27826200.md)
 - Capecitabine-containing regimens were used as first-line chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict platinum-based regimen response, and MSI-H patients had inferior PFS on cytotoxic therapy vs non-MSI-H [PMID:29122777](../papers/29122777.md)
+- Used as an alternative first-line chemotherapy regimen in advanced cholangiocarcinoma patients; primary regimen was gemcitabine/platinum (80% of 158 first-line patients) [PMID:29848569](../papers/29848569.md)
 
 ## Resistance mechanisms
 
@@ -42,3 +43,6 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

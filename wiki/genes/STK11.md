@@ -3,7 +3,7 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [STAD]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,8 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - Significantly enriched in no-durable-benefit (NDB) vs non-ICI NSCLC (FDR-adjusted P=0.007); consistent with STK11/LKB1-loss-associated low tumor inflammation and reduced response to anti-PD-(L)1 therapy. [PMID:29337640](../papers/29337640.md)
 - One pLoF LP/PV identified: c.179dup p.(Tyr60*) in a boy with congenital Peutz-Jeghers syndrome and T-cell ALL; mother and maternal grandfather also have PJS. Single-cohort OR=199.5 (95% CI 12.5-3195.8, p=0.010) — extreme estimate driven by very low gnomAD baseline (1/74,022 controls) [PMID:29489754](../papers/29489754.md)
 - STK11 loss co-occurs with KEAP1 loss in lung cancer and is mutually exclusive with NFE2L2 amplification; STK11 loss also co-occurs with loss-of-function KEAP1 mutation in the NRF2-pathway alteration network across lung squamous, esophagogastric, head and neck, and uterine tumors [PMID:29625050](../papers/29625050.md)
+- Zero responses among 7 patients with STK11 mutations in NSCLC combination PD-1 + CTLA-4 immunotherapy (CheckMate-012); consistent with prior reports of a T-cell-excluded phenotype in STK11-mutant tumors [PMID:29657128](../papers/29657128.md)
+- STK11 enriched in extrahepatic cholangiocarcinoma (EHC) vs intrahepatic; noted alongside TP53 as a gene defining EHC molecular biology in a 189-patient prospective NGS cohort [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -82,3 +84,9 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

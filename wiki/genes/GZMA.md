@@ -20,6 +20,7 @@ GZMA encodes granzyme A, a serine protease released by cytotoxic lymphocytes.
 - No significant differential expression between anti-PD-1 responders vs non-responders in whole-tumor transcriptome analysis of pretreatment melanoma biopsies (bulk RNA-seq may dilute immune-cell-specific signal) [PMID:26997480](../papers/26997480.md)
 - GZMA geometric mean with PRF1 defines the cytolytic activity (CYT) score; on-therapy CYT increases associated with benefit in both ipilimumab-naive (Ipi-N, p=0.005) and ipilimumab-progressed (Ipi-P, p=0.043) melanoma patients treated with nivolumab [PMID:29033130](../papers/29033130.md)
 - GZMA is overexpressed in MSI-high tumors of COAD/READ, STAD, and UCEC; MSI-high status (≥500 mutations in 250/1,464 samples) is associated with elevated GZMA, PRF1, GZMK, and GZMH expression — a cytotoxic immune signature supporting PD-1/PD-L1 blockade in MSI-high tumors [PMID:29625049](../papers/29625049.md)
+- GZMA (granzyme A) used alongside PRF1 to define the CYT cytolytic score; CYT correlates with the TIL NMF factor F9 (Spearman R=0.86) in young Korean breast cancer cohort (n=187); elevated cytotoxic-T-cell content vs TCGA. [PMID:29713003](../papers/29713003.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ GZMA encodes granzyme A, a serine protease released by cytotoxic lymphocytes.
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

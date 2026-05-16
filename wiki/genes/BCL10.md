@@ -3,8 +3,8 @@ symbol: BCL10
 aliases: []
 cancer_types: [DLBCL, FL]
 tags: [NF-kB, lymphoma, oncogene]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BCL10
@@ -17,6 +17,7 @@ BCL10 (B-cell CLL/lymphoma 10) is a signaling adapter protein that positively re
 
 - Nonsense (truncating) mutations identified as a recurrent alteration in DLBCL and [FL](../cancer_types/FL.md) by whole-genome/exome sequencing of non-Hodgkin lymphomas; truncated products act as NF-kB positive regulators with oncogenic potential [PMID:21796119](../papers/21796119.md)
 - Implicated in one or two [PCNSL](../cancer_types/PCNSL.md) cases as part of focal amplification or homozygous deletion events in genome-wide analysis of 18 [PCNSL](../cancer_types/PCNSL.md) samples [PMID:25991819](../papers/25991819.md)
+- NF-kB pathway mutation enriched in the C1 cluster (marginal-zone-like DLBCL) in dlbcl_dfci_2018; clonal event alongside TNFAIP3 and FAS alterations [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ BCL10 (B-cell CLL/lymphoma 10) is a signaling adapter protein that positively re
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

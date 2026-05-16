@@ -3,7 +3,7 @@ symbol: TERT
 aliases: []
 cancer_types: [ESCC]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - TERT promoter mutations are non-coding and fall outside the Broad BED capture kit, causing them to be excluded by the MC3 bitgt filter; the authors flag this as a clinically meaningful side-effect of pancan one-size-fits-all capture masking [PMID:29596782](../papers/29596782.md)
 - TERT invoked in discussion as a potentially insufficient activation context (alongside p53/RB inhibition) for selection of broad aneuploidies in vitro in the AALE cell model [PMID:29622463](../papers/29622463.md)
 - TERT promoter region is covered by the MSK-IMPACT panel design through intronic/promoter capture; detected in bladder cancer organoid biobank characterization [PMID:29625057](../papers/29625057.md)
+- No TERT promoter hotspot detected in gastric cancer (GC) CBS-hotspot discovery cohort, confirming rarity of TERT promoter mutations in GC relative to other cancer types [PMID:29670109](../papers/29670109.md)
 
 ## Cancer types (linked)
 
@@ -82,3 +83,6 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:29625057](../papers/29625057.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

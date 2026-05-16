@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLLKMT2A, MNG, LUAD]
 tags: [epigenetic-regulator, relapse]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CREBBP
@@ -45,6 +45,7 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - Recurrent HAT-complex alteration in medulloblastoma, predominantly in SHH subgroup (HAT complex genes collectively altered in 19% of SHH MBs); found alongside EP300, KAT6B, BRPF1, and KANSL1 [PMID:28726821](../papers/28726821.md).
 - placeholder
 - placeholder
+- CREBBP chromatin-modifier mutations are enriched in C3 GCB-DLBCL alongside KMT2D, EP300, and EZH2 mutations; GSEA shows concordant upregulation of EZH2 targets in C3, suggesting convergent epigenetic reprogramming [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -149,3 +150,6 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

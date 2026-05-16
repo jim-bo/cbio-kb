@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # oxaliplatin
@@ -23,6 +23,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - FOLFIRINOX (38% of curated cohort) and gemcitabine/nab-paclitaxel (37%) were the dominant first-line regimens in the MSK PDAC 2024 prospective cohort (n=2,336 patients, n=304 metastatic with [OS](../cancer_types/OS.md) analysis); backbone choice was not significantly associated with [OS](../cancer_types/OS.md) in the metastatic subset. [PMID:39753968](../papers/39753968.md)
 - Mentioned in HCC systemic therapy review as part of FOLFOX4 chemotherapy regimen in the context of HCC treatment options [PMID:24798001](../papers/24798001.md)
 - Oxaliplatin-containing regimens (FOLFOX) were used as first-line chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict response, and MSI-H tumors had inferior cytotoxic PFS (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
+- Component of FOLFOX regimen and gemcitabine/platinum standard first-line chemotherapy (80% of 158 advanced cholangiocarcinoma patients); also appears as the platinum component of gemcitabine/platinum; median PFS 8.8 months [PMID:29848569](../papers/29848569.md)
 
 ## Resistance mechanisms
 
@@ -46,3 +47,6 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,8 +4,8 @@ oncotree_code: NSCLC
 main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Non-Small Cell Lung Cancer (NSCLC)
@@ -47,6 +47,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - Pre-operative ctDNA was detected in 48% (46/96) of early-stage NSCLCs in the TRACERx cohort, with a stark histology difference: 97% of LUSC vs 19% of LUAD; post-operative ctDNA detected relapse in 13/14 (93%) confirmed-relapse cases with a median 70-day lead-time over imaging. [PMID:28445469](../papers/28445469.md)
 - In 240 advanced NSCLC patients profiled by MSK-IMPACT and treated with anti-PD-(L)1, targeted-panel TMB correlated with WES at Spearman r=0.86 (p<0.001) and was higher in patients with durable clinical benefit (median 8.5 vs 6.6 SNVs/Mb, p=0.006); TMB and PD-L1 were independent predictors, together yielding 50% DCB rate; EGFR and STK11 mutations associated with lack of benefit [PMID:29337640](../papers/29337640.md)
 - In SUMMIT, 26 HER2-mutant NSCLC patients (predominantly LUAD with exon 20 insertions) achieved only 1 RECIST response to neratinib but median PFS 5.5 months with 6 patients on therapy >1 year; HER2 exon 20 insertions are analogous to EGFR exon 20 insertions resistant to first/second-generation TKIs [PMID:29420467](../papers/29420467.md)
+- CheckMate-012 WES study (n=75 advanced NSCLC): tumor mutation burden (TMB) is a strong, PD-L1-independent predictor of response to nivolumab + ipilimumab; high TMB (>median 158 mutations) yielded ORR 51% vs 13% (p=0.0005), DCB 65% vs 34%, PFS HR 0.41 (p=0.0024); TMB from MSK-IMPACT 468-gene or FoundationOne 315-gene panels was similarly predictive as WES-derived TMB [PMID:29657128](../papers/29657128.md)
 
 ## Subtypes
 
@@ -97,3 +98,6 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

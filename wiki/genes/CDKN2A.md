@@ -115,6 +115,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Recurrent mutation in HPV(−) vulvar squamous cell carcinomas (n=15 WES cohort); consistent with the established TP53/CDKN2A/HRAS mutation pattern of HPV(−) vulvar SCC [PMID:29422544](../papers/29422544.md)
 - CDKN2A co-occurs with TP53 and is part of the largest somatic interaction hub pan-cancer; CDKN2A deletion is mutually exclusive with TP53 mutation (because the CDKN2A locus encodes both p16 and ARF/p53-regulating) [PMID:29625049](../papers/29625049.md)
 - CDKN2A deletion is mutually exclusive with TP53 mutation (dual p16/ARF locus); CDKN2A mutation co-occurs with TP53; CDKN2A is a core cell-cycle pathway driver frequently co-altered with RB1, CCNE1, CDK4, CDK6, and E2F3 pan-cancer [PMID:29625050](../papers/29625050.md)
+- CDKN2A 9p21.13 copy loss is a defining feature of the C2 DLBCL subtype alongside biallelic TP53 inactivation and 13q14.2/RB1 loss; C2 tumors exhibit genomic instability and a distinct steady-rate-of-progression clinical trajectory on R-CHOP [PMID:29713087](../papers/29713087.md)
+- CDKN2A focal deletion (8% of cholangiocarcinoma cohort, n=195) is associated with significantly shorter overall survival (p=0.0015) and shorter time to progression on first-line gemcitabine/platinum chemotherapy (p=0.002) in advanced cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -360,5 +362,11 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

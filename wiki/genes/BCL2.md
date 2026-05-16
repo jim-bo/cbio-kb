@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, DLBCLNOS]
 tags: [translocation, apoptosis, m-cll]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # BCL2
@@ -25,6 +25,7 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - Highest median protein expression in Triple-WT melanoma subtype by RPPA; rationale for BH3 mimetics in Triple-WT [PMID:26091043](../papers/26091043.md)
 - Identified as a putative MYB transcriptional target gene in adenoid cystic carcinoma (ACC); MYB binding genome-wide (13,278 high-confidence peaks) drives a transcriptional program that includes BCL2 as one of its targets [PMID:26829750](../papers/26829750.md)
 - placeholder
+- IgH-juxtaposed structural variants in C3 GCB-DLBCL (97% partner IgH) in dlbcl_dfci_2018; 18q21.33/BCL2 focal gain in C5 ABC-DLBCL independently prognostic for inferior PFS [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -73,3 +74,6 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

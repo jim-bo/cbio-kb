@@ -69,6 +69,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MC3 capture-kit mask excluded 170 CDS-altering calls in MSK-IMPACT's 410-gene panel that fall outside the Broad capture BED, including TERT promoter hits, CIC truncations, and CRLF2 splice alterations [PMID:29596782](../papers/29596782.md)
 - 706 advanced prostate cancers from MSK-IMPACT (msk_impact_2017) used as validation cohort for the prad_p1000 WES SMG analysis [PMID:29610475](../papers/29610475.md)
 - MSK-IMPACT 468-gene panel (IMPACT468) applied at ~500-fold coverage to 22 patient-derived bladder cancer organoid lines and matched parental tumors; enables subclonal variant detection and includes TERT promoter capture [PMID:29625057](../papers/29625057.md).
+- Used to sequence 195 cholangiocarcinoma patients in the chol_msk_2018 cohort; 20 patients sequenced with 341-gene panel (IMPACT341) and 175 with 410-gene panel (IMPACT410); median coverage 759×; 47.6% of patients had actionable alterations at OncoKB level 3B or higher [PMID:29848569](../papers/29848569.md)
+- Panel used to identify HLA-restricted neoantigens and tumor mutational burden in the MSK IMPACT sequencing cohort [PMID:29657128](../papers/29657128.md)
 
 ## Notes
 
@@ -183,5 +185,11 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29657128](../papers/29657128.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

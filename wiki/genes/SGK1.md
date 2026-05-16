@@ -3,8 +3,8 @@ symbol: SGK1
 aliases: []
 cancer_types: [DLBCL, FL]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # SGK1
@@ -18,6 +18,7 @@ SGK1 (Serum/Glucocorticoid Regulated Kinase 1) is a serine/threonine kinase regu
 - Recurrently mutated (nonsense, missense) in diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma ([FL](../cancer_types/FL.md)); acts as a tumor suppressor in GCB-subtype lymphomas identified by whole-genome/exome sequencing [PMID:21796119](../papers/21796119.md)
 - WES of 55 DLBCL tumors identified recurrent SGK1 mutations in ~4% of cases, implicating PI3K/AKT signaling pathway dysregulation in diffuse large B-cell lymphoma [PMID:22343534](../papers/22343534.md)
 - Preferentially mutated in GCB DLBCL; mutations associated with favorable survival across DLBCL subtypes [PMID:28985567](../papers/28985567.md)
+- BCR/PI3K signaling modifier in C3/C4 GCB-DLBCL; AID-target of aberrant somatic hypermutation (cAID signature); among 98 CCGs identified in 304 primary DLBCLs by MutSigCV [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ SGK1 (Serum/Glucocorticoid Regulated Kinase 1) is a serine/threonine kinase regu
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -31,6 +31,7 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 - Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types; DLBCLNOS co-clustered in pan-immune/lymphoid contexts [PMID:29625048](../papers/29625048.md)
 - Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types); DLBC listed among the 33 TCGA cancer types; only one endpoint recommended for DLBC in the CDR [PMID:29625049](../papers/29625049.md)
 - Listed as DLBC (OncoTree DLBCLNOS) in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); only one endpoint recommended without reservation for DLBC [PMID:29625055](../papers/29625055.md)
+- WES + SV profiling of 304 primary DLBCLs (85% R-CHOP-treated, median follow-up 78.5 months): 98 candidate cancer genes; five genetic subtypes (C1–C5) predict PFS/OS independently of IPI; 74% carry ≥1 immune-escape alteration; median 17 genetic drivers per tumor [PMID:29713087](../papers/29713087.md)
 
 ## Subtypes
 
@@ -70,5 +71,8 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

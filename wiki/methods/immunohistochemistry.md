@@ -50,6 +50,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Nuclear β-catenin staining by IHC confirmed WNT pathway activation in [CCRCC](../cancer_types/CCRCC.md) tumors harboring the recurrent APC intronic splice-acceptor mutation chr5:112151184 A>G [PMID:29301960](../papers/29301960.md)
 - MMR protein IHC (MLH1, MSH2, MSH6, PMS2) showed 98.6% concordance with MSIsensor score ≥10 for MSI classification in 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
 - Used to assess luminal/basal phenotypic stability across 22 patient-derived bladder cancer organoid lines during serial passaging and xenograft conversion; Ki67 and cleaved caspase-3 IHC used to evaluate in vivo drug response [PMID:29625057](../papers/29625057.md).
+- Used to confirm MMR protein loss (MLH1 and MSH6) in the single MSI-H cholangiocarcinoma tumor identified by MSIsensor (score 35.1) in the MSK IMPACT cholangiocarcinoma cohort (n=195) [PMID:29848569](../papers/29848569.md)
 
 ## Notes
 
@@ -147,5 +148,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

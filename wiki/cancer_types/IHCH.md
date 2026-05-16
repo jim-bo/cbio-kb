@@ -4,8 +4,8 @@ oncotree_code: IHCH
 main_type: Hepatobiliary Cancer
 parent: CHOL
 tags: [biliary, hepatobiliary]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Intrahepatic Cholangiocarcinoma (IHCH)
@@ -27,6 +27,7 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 - Narrative review of etiology-driven genomic landscape of iCCA: [IDH1](../genes/IDH1.md) mutations in 13-29%, [FGFR2](../genes/FGFR2.md) fusions/rearrangements in 8-16% (0-2% in eCCA), [KRAS](../genes/KRAS.md) in 24-27%, [TP53](../genes/TP53.md) in 20-27%, [ARID1A](../genes/ARID1A.md) in 18-23%, CDKN2A/B in 15-27%; etiology-specific profiles include HBV DNA integration near [TERT](../genes/TERT.md) and [MET](../genes/MET.md), HCV association with FGFR fusions (OR 9.50), and PSC association with TP53/KRAS/SMAD4 [PMID:25526346](../papers/25526346.md).
 - Review covers intrahepatic cholangiocarcinoma (iCCA) specifically: [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md) mutations drive 2-HG accumulation suppressing BA synthesis genes; [FGFR2](../genes/FGFR2.md) fusions/rearrangements are recurrent; BA-active iCCA subtype (defined by single-cell RNA-seq) shows shorter [OS](../cancer_types/OS.md) and immunotherapy resistance, with [SLCO1B3](../genes/SLCO1B3.md) and [CEACAM1](../genes/CEACAM1.md) as prognostic markers. [PMID:25608663](../papers/25608663.md)
 - ICGC profiling of 489 CCAs showed IHCH (intrahepatic) is enriched for Clusters 3 and 4 (fluke-negative): IDH1/IDH2 mutations (31.6% in Cluster 4), BAP1 inactivation, FGFR2 rearrangements, and high copy-number alterations with PD-1/PD-L2 upregulation; BAP1 and KRAS are significantly more frequent in intrahepatic CCAs (q<0.1). [PMID:28667006](../papers/28667006.md)
+- MSK-IMPACT profiling (n=158 intrahepatic cases): IDH1 30%, ARID1A 23%, BAP1 20%, TP53 20%, FGFR2 fusions 14%; BAP1 mutations and FGFR2 fusions observed exclusively in IHCH; IDH1 mutually exclusive with TP53, SMAD4, FGFR2, and KRAS [PMID:29848569](../papers/29848569.md)
 
 ## Subtypes
 
@@ -46,3 +47,6 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 - [PMID:38864854](../papers/38864854.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

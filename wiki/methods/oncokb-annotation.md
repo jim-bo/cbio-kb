@@ -10,7 +10,7 @@ tags:
   - oncokb
   - clinical-interpretation
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # OncoKB Annotation
@@ -27,6 +27,7 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - OncoKB actionability rates: 86% of MSI-H/hypermutated vs 37% of MSS metastatic [COADREAD](../cancer_types/COADREAD.md) carried potentially actionable alterations (p<0.001) in the 1,134-tumor MSK-IMPACT cohort [PMID:29316426](../papers/29316426.md)
 - OncoKB (Sept 2017) used for pathway-level oncogenicity calls in SUMMIT basket-trial patients with ERBB2/ERBB3-mutant tumors; contributed to co-mutation pathway analysis [PMID:29420467](../papers/29420467.md)
 - OncoKB used to rescue genes with ≥5 oncogenic variants from MutSig2CV in the prostate prad_p1000 analysis; supplemented statistical significance filtering [PMID:29610475](../papers/29610475.md)
+- Applied to classify somatic alterations from 195 cholangiocarcinoma patients; 47.6% had at least one alteration at OncoKB level 3B or higher; 16 patients (8%) had level 2B alterations (ERBB2 amplification, TSC1/TSC2, BRCA1/2, BRAF V600E, MET amplification); no level 1 or 2A alterations found [PMID:29848569](../papers/29848569.md)
 
 ## Notes
 
@@ -54,3 +55,6 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

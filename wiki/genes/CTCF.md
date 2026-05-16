@@ -20,6 +20,7 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 - CTCF was a recurrently mutated transcriptional regulator in colorectal cancer; CTCF/cohesin-binding sites are known hotspots for somatic mutations in MSS CRC (Katainen et al. 2015), and CTCF was among the newly significant CRC drivers identified in this 619-tumor neoantigen study [PMID:27149842](../papers/27149842.md).
 - CTCF was identified as a chromatin-function Mut-driver in breast cancer; 22.6% of all breast tumors harbored a coding mutation in one of seven chromatin-function Mut-drivers including CTCF [PMID:27161491](../papers/27161491.md).
 - CTCF mutations partition UCEC into TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually-exclusive networks; CTCF-mutant tumors cluster with the ARID1A/PTEN/CTNNB1/PIK3CA-enriched, copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
+- CTCF binding sites (CBSs) are the site of recurrent non-coding SNV hotspots in gastric adenocarcinoma; 11 of 34 significant hotspots overlap CBSs, CBS hotspot mutations are enriched in 25% of gastric and 19% of colorectal tumors, and 71% occur in CIN-subtype tumors (Fisher P=0.012) [PMID:29670109](../papers/29670109.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29670109](../papers/29670109.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

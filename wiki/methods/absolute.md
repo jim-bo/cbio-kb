@@ -41,6 +41,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - ABSOLUTE-style framework used alongside FACETS for cancer-cell fraction (clonality) estimates across 1,013 prostate tumor/normal pairs [PMID:29610475](../papers/29610475.md)
 - Applied to Affymetrix SNP 6.0 array data from 10,522 TCGA pan-cancer samples to produce segmented absolute copy number, purity, ploidy, and whole-genome-doubling calls; forms the basis of the arm-level aneuploidy score [PMID:29622463](../papers/29622463.md)
 - Applied alongside GISTIC 2.0 to Affymetrix SNP6 data for subclonal copy-number estimation in the TCGA PanCancer Atlas integrative multi-platform analysis of ~10,000 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md).
+- Used in DLBCL WES analysis of 304 tumors to estimate tumor purity, ploidy, and cancer cell fractions (CCFs) for clonality analysis across the five genetic subtypes [PMID:29713087](../papers/29713087.md)
 
 ## Notes
 
@@ -106,5 +107,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -8,8 +8,8 @@ unverified: true
 tags:
   - hormonal therapy
   - endocrine therapy
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # tamoxifen
@@ -21,6 +21,7 @@ Tamoxifen is a selective estrogen receptor modulator (SERM) used as adjuvant and
 ## Evidence in the corpus
 
 - No patients among the 23 WGS-profiled endometrial polyps had been on tamoxifen, so the association between tamoxifen use and KRAS-mutated polyps (reported in prior literature) could not be tested in this cohort; authors flag tamoxifen as a known risk factor for endometrial polyps and KRAS mutations in polyps based on external literature [PMID:28445112](../papers/28445112.md).
+- Lower ESR1 expression and weaker ER signaling in younger Asian ER+ tumors, combined with co-occurring TP53/HER2 alterations, cited as partial molecular explanation for worse outcomes of younger ER+ patients on tamoxifen reported in Korean Breast Cancer Society cohorts [PMID:29713003](../papers/29713003.md)
 
 ## Resistance mechanisms
 
@@ -35,3 +36,6 @@ Tamoxifen is a selective estrogen receptor modulator (SERM) used as adjuvant and
 - [PMID:28445112](../papers/28445112.md) — Endometrial polyp WGS study (n=23); tamoxifen cited as known risk factor for KRAS-mutated endometrial polyps; not represented in this cohort.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

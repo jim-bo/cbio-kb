@@ -26,6 +26,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - ESR1 target genes are hypomethylated in uterine leiomyosarcoma (ULMS) compared to somatic-tissue LMS (STLMS), supporting hormonal-axis differences between uterine and soft-tissue LMS subtypes in sarcoma [PMID:29100075](../papers/29100075.md)
 - ESR1 fusions detected in 16 samples across 5 cancer types (9 in [BRCA](../cancer_types/BRCA.md), 8 of which luminal A/B) in the TCGA pan-cancer fusion landscape; strict mutual exclusivity with ESR1 point mutations; when ESR1 is the 5' partner the AF1 transactivation domain is preserved, when 3' the AF2 domain is preserved; ESR1 expression is elevated in fusion-positive samples [PMID:29617662](../papers/29617662.md).
 - ESR1 (ER-alpha) is highly expressed in RPPA groups P3/P4 containing luminal BRCA, UCEC, OV, and some LIHC; estrogen-signaling gene program (GP7) is high in iCluster C2 (BRCA HER2 amp) and C19 (BRCA luminal) in pan-cancer integrative clustering [PMID:29625048](../papers/29625048.md)
+- ESR1 expression is significantly lower in younger Korean (SMC) ER+ breast tumors vs. TCGA (p=1.49e-04); positively correlated with patient age and menopausal status; lower ESR1 combined with co-occurring TP53/HER2 alterations is proposed as a partial explanation for worse outcomes in younger ER+ patients on tamoxifen [PMID:29713003](../papers/29713003.md)
 
 ## Cancer types (linked)
 
@@ -76,5 +77,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

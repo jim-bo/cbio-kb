@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG, CESC, UCEC, RMS]
 tags: [tumor-suppressor, ubiquitin-ligase]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # FBXW7
@@ -46,6 +46,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Recurrently altered candidate driver in medulloblastoma across subgroups, identified in the ICGC/MAGIC 491-tumor WGS cohort; listed among additional recurrent driver genes stratified across subgroups [PMID:28726821](../papers/28726821.md)
 - Enriched in early-stage vs metastatic CRC in MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas, suggesting a possible protective or non-metastatic-driver role [PMID:29316426](../papers/29316426.md)
 - Novel mutation finding in HPV(+) vulvar squamous cell carcinomas identified by WES of 15 Korean vulvar SCC cases; not previously reported in HPV(+) vulvar SCC [PMID:29422544](../papers/29422544.md)
+- FBXW7 mutations in DLBCL cluster (CLUMPS 3D analysis) at the acceptor groove that impairs CCNE1 recognition, invoking the same tumor-suppressor mechanism described in other cancer types [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -155,3 +156,6 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

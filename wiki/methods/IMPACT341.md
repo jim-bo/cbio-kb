@@ -6,7 +6,7 @@ canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 genePanelId: IMPACT341
 ---
 
@@ -31,6 +31,7 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used in 214 of 1,134 prospectively sequenced [COADREAD](../cancer_types/COADREAD.md) cases at MSKCC (mean coverage 747×) as part of the MSK-IMPACT CRC landscape study [PMID:29316426](../papers/29316426.md)
 - Applied to 56 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy (mean coverage 744×); TMB from this panel correlated with WES TMB at Spearman r=0.86 [PMID:29337640](../papers/29337640.md)
 - Used in 18 of 106 centrally sequenced SUMMIT basket-trial patients for ERBB2/ERBB3-mutant solid tumors (mean coverage 738×) [PMID:29420467](../papers/29420467.md)
+- 20 out of 195 cholangiocarcinoma patients in the chol_msk_2018 cohort were sequenced with the 341-gene IMPACT341 panel; paired germline DNA from blood used for somatic calling [PMID:29848569](../papers/29848569.md)
 
 ## Notes
 
@@ -72,3 +73,6 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

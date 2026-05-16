@@ -4,7 +4,7 @@ aliases: [IkBα]
 cancer_types: [CSCC]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # NFKBIA
@@ -18,6 +18,7 @@ NFKBIA (IkBα) encodes the primary inhibitor of the NF-kB transcription factor f
 - NFKBIA somatic mutations were identified in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors (Broad cohort), implicating NF-kB pathway dysregulation as a recurrent oncogenic mechanism [PMID:22343534](../papers/22343534.md)
 - NFKBIA copy-number gain (amplification) identified in recurrent GISTIC peaks in metastatic cSCC (n=29). [PMID:25589618](../papers/25589618.md)
 - Alterations in NFKBIA were associated with poorer prognosis specifically in GCB DLBCL (1001-patient cohort) [PMID:28985567](../papers/28985567.md)
+- NFKBIA mutations identified as NF-kB modifiers enriched in C4 GCB-DLBCL subtype alongside CARD11 and NFKBIE in a 304-sample DLBCL WES study [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ NFKBIA (IkBα) encodes the primary inhibitor of the NF-kB transcription factor f
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

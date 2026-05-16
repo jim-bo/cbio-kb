@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [machine-learning, classification, ensemble, random-forest]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # Random Forest Classifier
@@ -20,6 +20,7 @@ Random forest is an ensemble machine learning algorithm that constructs multiple
 - Synthesized in a narrative review of gut-liver axis dysregulation in cholangiocarcinoma: a random forest classifier using eight bacterial genera achieved AUC 0.92–0.99 differentiating cholangiocarcinoma from hepatocellular carcinoma in gut microbiota profiles (Deng T et al., cited); an oral microbiota three-bacterial-biomarker classifier (Rao et al., cited) achieved AUC 0.981 for iCCA vs [HCC](../cancer_types/HCC.md) distinction [PMID:25608663](../papers/25608663.md)
 - Random-forest classifier used for unsupervised clustering of pathway alteration profiles in 109 PDA cases, revealing subtypes where isolated KRAS-pathway alterations (clusters 1 & 2) correlated with poor prognosis. [PMID:25855536](../papers/25855536.md)
 - Random forest classifier trained on methylation and expression features to assign glioma samples to molecular subtypes (LGm/LGr clusters) in the TCGA pan-glioma study [PMID:26824661](../papers/26824661.md)
+- Applied in pediatric cancer classification to predict tumor type or subgroup from genomic features [PMID:29670109](../papers/29670109.md)
 
 ## Notes
 
@@ -38,3 +39,6 @@ Random forest is an ensemble machine learning algorithm that constructs multiple
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

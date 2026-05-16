@@ -110,6 +110,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used for mRNA profiling on Illumina GAII/HiSeq across ~10,000 TCGA PanCancer Atlas tumors; mRNA and miRNA together contributed 42% of the iCluster integrated classification signal [PMID:29625048](../papers/29625048.md).
 - Used for gene expression profiling (RSEM normalized) of TCGA PanCancer Atlas tumors; six pan-cancer immune subtypes derived in part from RNA-Seq-based ssGSEA signatures [PMID:29625049](../papers/29625049.md).
 - Performed on parental bladder tumors and matched patient-derived organoid lines (GEO accession GSE103990); transcriptomic analysis showed organoids cluster separately from parental tumors due to cell-cycle and ERBB-signaling enrichment from exogenous EGF in culture [PMID:29625057](../papers/29625057.md).
+- RNA-seq performed as part of the MSK pediatric cancer genomics cohort for transcriptomic profiling [PMID:29670109](../papers/29670109.md)
+- RNA-seq used in TCGA pan-cancer analysis for transcriptome-level characterization across cancer types [PMID:29713003](../papers/29713003.md)
 
 ## Notes
 
@@ -372,5 +374,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

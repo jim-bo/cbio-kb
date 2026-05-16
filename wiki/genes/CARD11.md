@@ -8,7 +8,7 @@ tags:
   - bcr-pathway
   - ibrutinib-resistance
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CARD11
@@ -29,6 +29,7 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 - CARD11 classified as a B-cell activity driver in CLL in a 538-sample WES study, alongside [TRAF2](../genes/TRAF2.md) and [TRAF3](../genes/TRAF3.md) [PMID:26466571](../papers/26466571.md)
 - Linker-domain mutations p.Ser615Phe and p.Glu626Lys in two Sézary syndrome cases; functionally NFκB- and JNK-activating after TCR stimulation; distinct location from the coiled-coil mutations classical to DLBCL [PMID:26551667](../papers/26551667.md)
 - placeholder
+- NF-kB modifier mutation enriched in the C4 GCB-DLBCL cluster in dlbcl_dfci_2018, alongside NFKBIE and NFKBIA [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -79,3 +80,6 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

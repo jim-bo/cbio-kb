@@ -6,7 +6,7 @@ canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 genePanelId: IMPACT410
 ---
 
@@ -33,6 +33,7 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used in 911 of 1,134 prospectively sequenced [COADREAD](../cancer_types/COADREAD.md) cases at MSKCC (mean coverage 747×) as the primary panel in the MSK-IMPACT CRC landscape study [PMID:29316426](../papers/29316426.md)
 - Applied to 164 of 240 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy; validated that targeted-panel TMB estimates correlate with WES (Spearman r=0.86) and predict durable clinical benefit [PMID:29337640](../papers/29337640.md)
 - Used in 88 of 106 centrally sequenced SUMMIT basket-trial patients for ERBB2/ERBB3-mutant solid tumors (mean coverage 738×) [PMID:29420467](../papers/29420467.md)
+- 175 out of 195 cholangiocarcinoma patients in the chol_msk_2018 cohort were sequenced with the 410-gene IMPACT410 panel; median coverage 759×; standard DNA input 250 ng (50 ng minimum) [PMID:29848569](../papers/29848569.md)
 
 ## Notes
 
@@ -78,3 +79,6 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

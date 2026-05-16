@@ -62,6 +62,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - One of seven callers in the TCGA MC3 pipeline; detected the largest number of true positive SNVs and showed highest pair-wise agreement with MuSE; run by Broad Firehose [PMID:29596782](../papers/29596782.md)
 - Used to call SNVs (v1.1.6) across 1,013 prostate tumor/normal pairs in the prad_p1000 dataset, identifying 97 SMGs [PMID:29610475](../papers/29610475.md)
 - One of seven somatic callers in the MC3 pipeline applied to 11,000 TCGA PanCancer Atlas tumors; consensus calling reduced 22,485,627 raw calls to 2,907,335 high-confidence somatic variants [PMID:29625049](../papers/29625049.md).
+- Applied to call somatic variants in 304 DLBCLs (WES with targeted SV bait, median 87.6× tumor coverage); used alongside Indelocator for indel calling [PMID:29713087](../papers/29713087.md)
+- Used for somatic variant calling in pediatric WGS samples [PMID:29670109](../papers/29670109.md)
+- Applied for somatic mutation calling in the MSK IMPACT neoantigen study cohort [PMID:29657128](../papers/29657128.md)
 
 ## Notes
 
@@ -187,5 +190,14 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29657128](../papers/29657128.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

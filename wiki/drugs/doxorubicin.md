@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # doxorubicin
@@ -24,6 +24,7 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - TCGA endometrial cancer analysis (2013) identifies ~25% of high-grade endometrioid tumors as copy-number-high serous-like and proposes chemotherapy (including doxorubicin) may be preferable to adjuvant radiotherapy for this molecular subgroup [PMID:23636398](../papers/23636398.md)
 - Cited in HCC systemic therapy review as historical reference chemotherapy; not a frontline standard given sorafenib/lenvatinib era [PMID:24798001](../papers/24798001.md)
 - Used as neoadjuvant monotherapy followed by ISG/SSG IV protocol (vincristine, doxorubicin, ifosfamide, etoposide) in a patient with EWSR1::BEND2 bladder sarcoma; intravesical tumor resolved but pelvic and lung metastases did not respond; patient switched to docetaxel + gemcitabine after nephrotoxicity [PMID:28199314](../papers/28199314.md).
+- Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy; MYC SVs, 13q31.3 gain, and 1q42.12 loss were independently prognostic for inferior PFS/OS on R-CHOP [PMID:29713087](../papers/29713087.md)
 
 ## Resistance mechanisms
 
@@ -53,3 +54,6 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - [PMID:28199314](../papers/28199314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

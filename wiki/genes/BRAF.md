@@ -106,6 +106,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF is cited as a canonical tissue-agnostic driver motivating basket/umbrella trials (e.g. NCI-MATCH), but the same BRAF mutation yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters even in multi-cancer iCluster subtypes [PMID:29625048](../papers/29625048.md)
 - BRAF V600 mutations show strong mutual exclusivity with KRAS/NRAS/HRAS within Ras signaling across all 33 TCGA tumor types; BRAF-mutant tumors in the C3 immune subtype have higher CD8 T-cell fractions than NRAS-mutant tumors, suggesting synergy between BRAF inhibition and PD-L1 blockade [PMID:29625049](../papers/29625049.md)
 - BRAF is altered in 7% of tumors pan-cancer; hotspot mutations peak in SKCM (51%) and THCA (62%); serves as a primary Level-1/2A OncoKB actionability driver in melanoma; is mutually exclusive with KRAS and EGFR amplification in most tumor types [PMID:29625050](../papers/29625050.md)
+- Non-canonical BRAF mutations (perturbing the P-loop/activation-loop autoinhibitory interaction) enriched in the C4 GCB-DLBCL cluster in dlbcl_dfci_2018; part of RAS/JAK/STAT pathway mutations [PMID:29713087](../papers/29713087.md)
+- Rare V600E alteration (n=1) identified as level 2B actionable finding in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -376,5 +378,11 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

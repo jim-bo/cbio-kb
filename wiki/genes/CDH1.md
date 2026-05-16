@@ -41,6 +41,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - placeholder
 - placeholder
 - CDH1 nonsense/frameshift mutants in BRCA upregulate leukocyte-migration gene programs, while missense mutants do not — indicating allele-class-specific transcriptomic consequences in the pan-cancer multi-omic analysis [PMID:29625049](../papers/29625049.md)
+- CDH1 is significantly mutated in the Korean SMC breast cohort (2.2%, q=0.076) but at far lower prevalence than TCGA (11.5%), reflecting the lower lobular carcinoma (ILC) fraction in SMC vs. TCGA (3.7% vs. 17.3%, p=2.9e-08) [PMID:29713003](../papers/29713003.md)
 
 ## Cancer types (linked)
 
@@ -124,5 +125,8 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

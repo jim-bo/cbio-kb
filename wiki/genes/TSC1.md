@@ -3,7 +3,7 @@ symbol: TSC1
 aliases: [hamartin]
 cancer_types: [OS, BRCA]
 tags: [tumor-suppressor, somatic, mtor-pathway, splice-site, mtor-inhibitor-target]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -20,6 +20,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - TSC1 truncating alterations in 3 patients (0.3%) in 860 metastatic [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; classified as OncoKB level 2B; no patient received matched mTOR-inhibitor therapy in this cohort despite open basket trials NCT02201212 and NCT02675829 [PMID:28336552](../papers/28336552.md).
 - V46Wfs frameshift mutation in 1/19 sequenced oligodendroglioma tumors; OncoKB Level 2B [PMID:28472509](../papers/28472509.md)
 - TSC1 nonsense mutation in bladder cancer organoid line SCBO-6 conferred sensitivity to mTOR inhibitor AZD8055, with an additive effect when combined with FGFR inhibitor JNJ-42756493 [PMID:29625057](../papers/29625057.md)
+- Rare level-2B actionable finding (n=3 TSC1/TSC2 combined) in a 189-patient prospective NGS cohort of advanced cholangiocarcinoma; identified as a potentially targetable mTOR-pathway alteration [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - [PMID:29625057](../papers/29625057.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

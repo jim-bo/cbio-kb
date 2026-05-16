@@ -85,6 +85,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 focal amplification defines iCluster C2 (BRCA HER2 amp), which spans BRCA, BLCA, and STAD — a clear cross-tissue alteration subtype supporting HER2-directed agents beyond breast cancer; cross-tissue C2 has high estrogen-signaling gene program (GP7) [PMID:29625048](../papers/29625048.md)
 - ERBB2 alterations concentrated in BRCA HER2-enriched and esophagogastric CIN (26%) and CESC (23%); mutually exclusive with EGFR amplification pan-cancer; 17% co-actionable with PI3K pathway alterations in HER2-enriched BRCA, nominating HER2 + PI3K inhibitor combination [PMID:29625050](../papers/29625050.md)
 - ERBB2 is a driver in a subset of bladder cancer organoid lines; SCBO-5 lost a subclonal ERBB2 D227N variant during serial organoid culture, illustrating clonal dynamics in patient-derived models [PMID:29625057](../papers/29625057.md)
+- ERBB2 somatic alteration (mostly amplification, CN ≥6) is present in 20% of Korean SMC breast tumors vs. 9.1% of TCGA; ERBB2 amplification drives APOBEC S2/S13 signatures in HER2+ tumors and underlies the HER2+/Luminal-B enrichment in younger Asian breast cancer [PMID:29713003](../papers/29713003.md)
+- ERBB2 amplification (4%) in cholangiocarcinoma is associated with significantly shorter overall survival (p=0.0015) and shorter time to progression on first-line chemotherapy (p=0.028); ERBB2-amplified patients (n=6) qualified for OncoKB level 2B HER2-directed therapy [PMID:29848569](../papers/29848569.md)
 
 ## Cancer types (linked)
 
@@ -269,5 +271,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

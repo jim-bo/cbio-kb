@@ -45,6 +45,8 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - BWA mem alignment to hg19 applied in the DLBCL whole-exome sequencing pipeline for 1001 tumors [PMID:28985567](../papers/28985567.md)
 - BWA v0.7.15 used to align WES reads to hg19 for 15 Korean vulvar SCC tumor/normal pairs; followed by Picard v2.7.1 and Samtools v1.3.1 de-duplication and GATK v3.6 local realignment/BQSR [PMID:29422544](../papers/29422544.md)
 - Used (v0.5.9) to align paired tumor/normal germline data from dbGaP to GRCh37-lite for the TCGA PanCancer Atlas germline and somatic driver analysis of 11,000 tumors across 33 cancer types [PMID:29625049](../papers/29625049.md).
+- WES reads from 304 DLBCLs aligned to GRCh37 using BWA via Broad's Picard/Firehose pipeline; median tumor coverage 87.6× [PMID:29713087](../papers/29713087.md)
+- Reads aligned with BWA as part of the WGS processing pipeline for the MSK pediatric cancer cohort [PMID:29670109](../papers/29670109.md)
 
 ## Notes
 
@@ -134,5 +136,11 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29670109](../papers/29670109.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

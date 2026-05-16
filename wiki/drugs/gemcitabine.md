@@ -8,7 +8,7 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -33,6 +33,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - In the multi-institutional Phase II (Herman et al, n=49), gemcitabine (up to 3 weekly doses) combined with 33 Gy/5 fx SBRT achieved 79% 1-year local control and 13.9-month median OS in unresectable locally advanced [PAAD](../cancer_types/PAAD.md), with only 2% acute and 6% late grade 3+ GI toxicity — the reference standard for SBRT-concurrent chemotherapy in pancreatic cancer [PMID:27826200](../papers/27826200.md)
 - Used in combination with docetaxel (16 cycles) in EWSR1::BEND2 bladder sarcoma after progression and nephrotoxicity on ISG/SSG IV protocol; disease approximately stable on docetaxel + gemcitabine; patient died at 26 months post-diagnosis [PMID:28199314](../papers/28199314.md).
 - In orthotopic bladder cancer xenografts (SCBO-3 and SCBO-5 arms, n=4–8 mice/arm), gemcitabine (100 mg/kg twice-weekly IP) produced significant tumor-size reductions on ultrasound with increased cleaved caspase-3 on histology [PMID:29625057](../papers/29625057.md)
+- Used as first-line chemotherapy (gemcitabine/platinum) in 80% of 158 advanced cholangiocarcinoma patients; median time to progression 8.8 months; gemcitabine/nab-paclitaxel was an alternative first-line regimen [PMID:29848569](../papers/29848569.md)
 
 ## Resistance mechanisms
 
@@ -80,3 +81,6 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:29625057](../papers/29625057.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

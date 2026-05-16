@@ -58,6 +58,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 co-occurs with TP53 in the pan-cancer somatic driver co-occurrence network; tumor suppressor with reduced expression in RB1 mutants (consistent with NMD/loss-of-function) [PMID:29625049](../papers/29625049.md)
 - RB1 loss co-occurs with TP53 mutation and is mutually exclusive with MDM2 amplification pan-cancer; the cell-cycle pathway (CDKN2A, RB1, CCNE1, CDK4, CDK6, E2F3) is broadly co-altered with TP53 across cancer types [PMID:29625050](../papers/29625050.md)
 - RB1 oncogenic mutation detected in only one of 15 bladder cancer organoid lines, lower than the frequency reported in established bladder cancer cell lines, suggesting possible selection bias in organoid culture [PMID:29625057](../papers/29625057.md)
+- 13q14.2/RB1 focal copy loss is a defining feature of C2 DLBCL alongside CDKN2A loss; co-occurring with biallelic TP53 inactivation and elevated genomic instability/whole-genome doubling in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -169,3 +170,6 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:29625057](../papers/29625057.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

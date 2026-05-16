@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CHL]
 tags: [early-event, lymphoma-driver]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # GNA13
@@ -22,6 +22,7 @@ GNA13 encodes a Gα13 heterotrimeric G-protein subunit and is a recurrently inac
 - GNA13 is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
 - Mutations in 20% of [PCNSL](../cancer_types/PCNSL.md); recurrent homozygous deletion [PMID:25991819](../papers/25991819.md)
 - Preferentially mutated in GCB-DLBCL alongside SOCS1, STAT6, and TNFRSF14; GNA13 mutations are a GCB-enriched driver event in the comprehensive 1,001-patient DLBCL analysis [PMID:28985567](../papers/28985567.md)
+- GNA13 identified as a BCR/PI3K signaling modifier in DLBCL C3/C4 genetic subtypes in 304-patient WES cohort; co-listed with SGK1, TNFSF14, and HVCN1 as recurrently mutated in these clusters. [PMID:29713087](../papers/29713087.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ GNA13 encodes a Gα13 heterotrimeric G-protein subunit and is a recurrently inac
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

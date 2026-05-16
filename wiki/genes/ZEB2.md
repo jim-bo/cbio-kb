@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - BLL
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ZEB2
@@ -17,6 +17,8 @@ ZEB2 (Zinc Finger E-Box Binding Homeobox 2, also known as SIP1/ZFHX1B) encodes a
 ## Alterations observed in the corpus
 
 - ZEB2 transcriptional-regulator mutations enriched in the DUX4/ERG B-ALL subtype (7.4% of cases) relative to 209 other B-ALL and 16 T-ALL comparator cases; part of the 21% of DUX4/ERG ALL cases with recurrent transcriptional-regulator mutations including [MYC](../genes/MYC.md), [MYCBP2](../genes/MYCBP2.md), and [MGA](../genes/MGA.md), in a cohort of 1,913 B-progenitor ALL patients. [PMID:27776115](../papers/27776115.md)
+- CRISPR knockdown sensitivity correlates with PC1 (EMT-like axis) across CCLE cancer cell lines; PIK3CB-targeting drugs also tracked PC1 [PMID:31978347](../papers/31978347.md)
+- Part of a proposed EMT regulatory axis in endometrial carcinoma where QKI promotes 35 EMT-associated circRNAs and is positively correlated with ZEB1/ZEB2, opposed by ESRP2 [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +41,9 @@ ZEB2 (Zinc Finger E-Box Binding Homeobox 2, also known as SIP1/ZFHX1B) encodes a
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

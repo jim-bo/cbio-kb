@@ -3,8 +3,8 @@ symbol: VIM
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # VIM
@@ -16,6 +16,7 @@ VIM encodes vimentin, a type III intermediate filament protein and classic marke
 ## Alterations observed in the corpus
 
 - Upregulated in GBC xenograft tumors co-injected with gallbladder fibroblasts (GFs) vs GBC-SD cells alone; SEMA7A knockdown in GFs reduced vimentin expression in co-injection models (n=6 per group). Functions as an in vivo EMT readout in the SEMA7A/ITGB1/AKT1/EP300 axis study. [PMID:24997986](../papers/24997986.md)
+- Canonical mesenchymal marker anchoring a proteome-wide EMT-like axis on PC1 across CCLE cancer cell lines; VIM high / EPCAM low defines the mesenchymal pole [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ VIM encodes vimentin, a type III intermediate filament protein and classic marke
 - [PMID:24997986](../papers/24997986.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

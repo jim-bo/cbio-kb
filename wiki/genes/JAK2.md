@@ -32,6 +32,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - JAK2 V617F variants are used as a clonal-hematopoiesis filter in glioma genomic profiling: JAK2 V617F calls are removed wherever observed to exclude CH-attributable variants from somatic and germline analyses [PMID:31263031](../papers/31263031.md).
 - JAK2 or JAK3 alterations in 15% of BCP-ALL models; JAK1 or JAK2 lesions in 24% of ETP-ALL/T-ALL models; JAK2 rearrangements in 55% (12/22) of Ph-like ALL models in the PPTC pediatric cancer PDX panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 - JAK2 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; JAK2 mutations can arise from myeloproliferative neoplasm-related CH and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
+- JAK2 V617F driver mutation was missed in 35 MPNs in the PCAWG analysis because panels-of-normals derived from blood samples filtered the mutation, illustrating a systematic bioinformatic failure mode in WGS pipelines [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

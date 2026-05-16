@@ -9,8 +9,8 @@ tags:
   - liposarcoma
   - CDK4
   - MDM2
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Liposarcoma (LIPO)
@@ -27,6 +27,7 @@ Liposarcoma is the most common soft-tissue sarcoma of adults, classified under S
 
 - [CDK4](../genes/CDK4.md): prevalent CDK aberration in liposarcoma literature (cited as motivation for [palbociclib](../drugs/palbociclib.md) testing); not directly genotyped in this study. [PMID:39305899](../papers/39305899.md)
 - [MDM2](../genes/MDM2.md): amplification is a defining feature of well-differentiated/dedifferentiated liposarcoma; confirmed by FISH in [WDLS](../cancer_types/WDLS.md) SARC0120 in both parent tumor and PDTO, illustrating genomic fidelity of PDTO models. [PMID:39305899](../papers/39305899.md)
+- In PCAWG, liposarcoma showed universal [MDM2](../genes/MDM2.md) amplification via chromothripsis events; chromothripsis was clonal and early in liposarcoma; among the tumor types with highest chromothripsis frequency [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -45,3 +46,6 @@ Liposarcoma is the most common soft-tissue sarcoma of adults, classified under S
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

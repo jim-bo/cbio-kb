@@ -3,8 +3,8 @@ symbol: INPPL1
 aliases: [SHIP2]
 cancer_types: []
 tags: [phosphatase, PI3K-pathway, BRAF-fusion-co-alteration]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # INPPL1
@@ -16,6 +16,7 @@ INPPL1 (SHIP2) is a phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase that 
 ## Alterations observed in the corpus
 
 - INPPL1 is mutated in 33% of [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers (co-occurring with [RNF43](../genes/RNF43.md) 64%, [TP53](../genes/TP53.md) 57%, [KMT2D](../genes/KMT2D.md) 43%, [MSH3](../genes/MSH3.md) 42%, [ARID1A](../genes/ARID1A.md) 36%) in a tumor-agnostic analysis of 212 patients with BRAF fusions across 52 histologies at MSK [PMID:38922339](../papers/38922339.md).
+- INPPL1 is a putative significantly mutated gene (SMG) in MSI endometrial cancer (56%, FDR = 0); truncating mutations reduce INPPL1 protein levels [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ INPPL1 (SHIP2) is a phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase that 
 - [PMID:38922339](../papers/38922339.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

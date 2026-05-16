@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -70,6 +70,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 mutation or homozygous deletion observed in IDHmut-noncodel recurrent glioma as part of cell-cycle module inactivation, co-occurring with CDKN2A loss, CDK4/CDK6 gains [PMID:31748746](../papers/31748746.md)
 - RB1 identified as a late/subclonal mutation in metastatic breast cancer (MBC) detected via cell-free DNA (VUSo) not captured by single biopsy [PMID:31768066](../papers/31768066.md)
 - RB1 loss or mutation inactivates the Rb pathway in 16% of GBM PDX (n=84); co-occurs with CDK4 amplification (8%) and CDK6 amplification (1%) [PMID:31852831](../papers/31852831.md)
+- Pan-cancer PCAWG driver in 167 tumors; enriched in ALT-pathway telomere cluster C1 (P = 3×10⁻⁵), linking RB1 loss to ALT activation independent of ATRX/DAXX [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -198,3 +199,6 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

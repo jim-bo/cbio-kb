@@ -35,6 +35,7 @@ this stub exists so child pages can resolve their `parent:` link.
 - MSI-high tumors in COADREAD over-express immune effectors GZMA, PRF1, GZMK, GZMH (Kolmogorov-Smirnov P<0.01); TP53 and KRAS are mutually exclusive in COAD/READ but co-occur in PAAD [PMID:29625049](../papers/29625049.md)
 - WGS pan-cancer reanalysis: 19% of colorectal tumors carry a mutation in ≥1 of 11 recurrent CTCF-binding-site (CBS) hotspots — the second-most-mutated functional element in GI cancers after TP53 (50% of GC); CBS hotspot mutations enriched in CIN-subtype tumors [PMID:29670109](../papers/29670109.md)
 - Rectal cancer tumoroid biorepository (65 lines from 41 patients) confirmed APC, TP53, KRAS, FBXW7 as top drivers in both tumoroids and 287-patient MSK cohort; 62% of tumoroids RAS-mutant; ex vivo 5-FU/FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md).
+- In PCAWG, colorectal adenocarcinoma showed point mutation dominance over SVs (mean 7.4 ± 7.0 point mutations vs 2.4 ± 1.4 SVs, P = 4×10⁻¹⁰); [TP53](../genes/TP53.md) associated with chromothripsis (colorectal OR=25) [PMID:32025007](../papers/32025007.md).
 
 ## Therapeutic landscape
 
@@ -74,5 +75,8 @@ this stub exists so child pages can resolve their `parent:` link.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

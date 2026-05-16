@@ -70,6 +70,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - MuTect v1.1.7 used for somatic SNV calling from whole-exome sequencing of 622 AML specimens in the Beat AML study [PMID:30333627](../papers/30333627.md)
 - Used for somatic SNV/indel calling in the pan-Asia cHCC-ICC WES/WGS study (133 cases); variant calls subsequently annotated by [annovar](../methods/annovar.md) and analyzed with [mutsigcv](../methods/mutsigcv.md) and dNdScv [PMID:31130341](../papers/31130341.md)
 - Part of the consensus SNV-calling pipeline in the high-grade UTUC study (37 tumor-normal pairs), used together with [strelka](../methods/strelka.md) and [varscan](../methods/varscan.md); variants annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
+- One of three core SNV/indel variant callers (Broad) in the PCAWG pan-cancer WGS study (n=2,658 tumors, 38 tumor types); consensus calls with Sanger and DKFZ pipelines achieved 95% sensitivity and 95% precision for SNVs [PMID:32025007](../papers/32025007.md).
 
 ## Notes
 
@@ -219,5 +220,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

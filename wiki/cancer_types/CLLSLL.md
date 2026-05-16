@@ -4,8 +4,8 @@ oncotree_code: CLLSLL
 main_type: Mature B-Cell Neoplasms
 parent: MBN
 tags: [cll, b-cell, leukemia]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLLSLL)
@@ -29,6 +29,7 @@ CLL/SLL is a Mature B-Cell Neoplasm (parent MBN). IGHV-mutated (M-CLL) and IGHV-
 - WES of 160 CLL tumors identified [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [DDX3X](../genes/DDX3X.md), and [POT1](../genes/POT1.md) as significantly mutated genes; [SF3B1](../genes/SF3B1.md) mutations associated with poor prognosis [PMID:23415222](../papers/23415222.md)
 - Genomic profiling of CLL/SLL identified recurrent alterations in [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [ATM](../genes/ATM.md), and [TP53](../genes/TP53.md); mutational landscape informs prognosis and therapeutic targeting [PMID:26200345](../papers/26200345.md)
 - Genomic analysis of CLL/SLL identified recurrent driver mutations and copy number alterations informing disease prognosis and targeted therapy strategies [PMID:26466571](../papers/26466571.md)
+- Included in PCAWG pan-cancer WGS cohort; mature B-cell lymphomas (including CLL/SLL) showed point mutation dominance over SVs, and driver SVs were enriched in chromoplexy — prominent in lymphoid malignancies [PMID:32025007](../papers/32025007.md).
 
 ## Subtypes
 
@@ -55,3 +56,6 @@ CLL/SLL is a Mature B-Cell Neoplasm (parent MBN). IGHV-mutated (M-CLL) and IGHV-
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

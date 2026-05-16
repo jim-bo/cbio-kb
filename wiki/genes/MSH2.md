@@ -43,6 +43,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - Germline MMR alleles (MSH2, MSH6, PMS1, PMS2) identified; two glioma cases had biallelic loss with Lynch-pattern MSI hypermutation; somatic MSH2/MSH6 mutations observed in 31/38 (82%) hypermutated recurrences. [PMID:31263031](../papers/31263031.md)
 - Significantly reduced transcript and protein expression (by IHC) in UTUC vs UCB in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
 - Co-occurring mutation with MSH5, PMS1, and POLE in IC-1621GBM (Lynch/constitutional MMR-deficiency) PDX model in the PPTC panel; this model was ultrahypermutated at 124 Mut/Mb [PMID:31693904](../papers/31693904.md).
+- MSH2 protein (MutS complex) is downregulated in MSI cell lines in the CCLE proteomic dataset; its abundance predicts WRN knockdown sensitivity [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
 
@@ -111,5 +112,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

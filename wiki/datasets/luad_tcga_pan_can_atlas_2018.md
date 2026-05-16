@@ -18,7 +18,7 @@ tags:
   - TCGA
   - pan-cancer
   - pan-can-atlas
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -48,6 +48,7 @@ The TCGA Lung Adenocarcinoma PanCancer Atlas 2018 cohort is the [LUAD](../cancer
 - [PMID:29625048](../papers/29625048.md) — TCGA PanCancer Atlas integrative molecular analysis (Hoadley et al., 2018)
 - [PMID:29625049](../papers/29625049.md) — TCGA PanCancer Atlas pan-cancer driver and germline analysis (Ding et al., 2018)
 - [PMID:29625050](../papers/29625050.md) — TCGA PanCancer Atlas oncogenic pathway analysis (Sanchez-Vega et al., 2018)
+- [PMID:32015526](../papers/32015526.md) — Zhao et al. 2025, *bioRxiv*: Sherlock-Lung NS-LUAD transcriptomic subtyping; 74 TCGA-LUAD never-smoker cases contributed to the discovery cohort.
 
 ## Notable findings derived from this cohort
 
@@ -59,6 +60,7 @@ The TCGA Lung Adenocarcinoma PanCancer Atlas 2018 cohort is the [LUAD](../cancer
 - LUAD samples in pan-cancer integrative analysis; C14:LUAD was one of eight single-tumor-type iClusters; smoking signature drives highest mutation rates in C14:LUAD; LUAD co-clusters with C10:pan-SCC for JAK2/STAT1/3/6 pathway activation [PMID:29625048](../papers/29625048.md)
 - LUAD samples used in pan-cancer driver interaction analysis; TP53 and KRAS mutually exclusive in LUAD (but co-occur in PAAD); EGFR and KIT show elevated mRNA in missense mutants (FDR<0.1); RTK-RAS pathway altered in 74% of LUAD; SOS1 activating mutations present in ~1% of LUAD [PMID:29625049](../papers/29625049.md)
 - LUAD included in pan-cancer pathway analysis; KRAS hotspots in 33% of LUAD; EGFR alterations in 13% of LUAD; NRF2-PI3K co-occurring alterations concentrated in LUAD/LUSC; SOS1 mutations present in ~1% of LUAD [PMID:29625050](../papers/29625050.md)
+- Contributed 74 never-smoker LUAD cases to the 684-sample Sherlock-Lung NS-LUAD transcriptomic cohort; 13 cases also had matched WGS used for driver-mutation integration; transcriptomic subtypes (steady/proliferative/chaotic) were concordant across Sherlock and TCGA-derived never-smoker subsets [PMID:32015526](../papers/32015526.md)
 
 ## Sources
 
@@ -67,5 +69,6 @@ The TCGA Lung Adenocarcinoma PanCancer Atlas 2018 cohort is the [LUAD](../cancer
 - [PMID:29625048](../papers/29625048.md)
 - [PMID:29625049](../papers/29625049.md)
 - [PMID:29625050](../papers/29625050.md)
+- [PMID:32015526](../papers/32015526.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

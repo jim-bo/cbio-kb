@@ -7,7 +7,7 @@ tags:
   - mixed-histology
   - breast
   - idc-ilc
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 - Two of 18 patients in the cobimetinib histiocytosis trial (NCT02649972) had mixed histiocytosis; both responded (one harbored RAF1 K106N, validated as activating in Ba/F3), confirming MEK inhibition efficacy extends to mixed histiocytic neoplasms [PMID:30867592](../papers/30867592.md).
 - CCLE multi-omic study (1,072 cancer cell lines) constitutes a pan-cancer ([MIXED](../cancer_types/MIXED.md)) resource; key findings include reciprocal LDHA/LDHB paralogue synthetic lethalities gated by promoter methylation, TERT promoter mutations in 16.7% of 503 lines, and MDM4 exon-6 inclusion as a biomarker for MDM2-inhibitor sensitivity [PMID:31068700](../papers/31068700.md).
 - Integrative genomic/transcriptomic study of 133 combined hepatocellular-intrahepatic cholangiocarcinoma (cHCC-ICC) cases classified by Allen-Lisa criteria; TP53 mutated in 49.2%, TERT promoter C228T in 22.9%, MYC amplified in 73%; Nestin (NES) IHC positive in 81.3% of cHCC-ICC and proposed as a diagnostic/prognostic biomarker (median OS 18.7 mo Nestin+ vs 46.6 mo Nestin-) [PMID:31130341](../papers/31130341.md).
+- CCLE proteomics profiled 375 cancer cell lines from 22 lineages including mixed tissue types; primary axis of proteome variation organized by coordinated pathway expression rather than tissue lineage or mutation burden [PMID:31978347](../papers/31978347.md).
 
 ## Subtypes
 
@@ -50,5 +51,8 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 - [PMID:31130341](../papers/31130341.md) — Xue et al. cHCC-ICC pan-Asia genomic study (Cancer Cell 2019).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

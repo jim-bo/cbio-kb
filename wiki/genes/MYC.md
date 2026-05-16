@@ -96,6 +96,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Focal amplification in 73% of cHCC-ICC cases — the most frequent focal amplification in this cohort; part of the oncogenic driver landscape in combined hepatocellular and intrahepatic cholangiocarcinoma. [PMID:31130341](../papers/31130341.md)
 - MYC alterations catalogued across 261 pediatric PDX models spanning 37 tumor types in the PPTC resource [PMID:31693904](../papers/31693904.md).
 - Amplification in 3 of 84 GBM PDX; GBM110 PDX acquired MYC amplification that was only subclonal (0–27%) in the matched patient tumor by FISH, illustrating PDX engraftment-driven clonal selection [PMID:31852831](../papers/31852831.md)
+- MYC-regulated proliferation signatures are upregulated in the proliferative subtype of never-smoker lung adenocarcinoma (NS-LUAD) across 684 treatment-naive tumors [PMID:32015526](../papers/32015526.md)
+- MYC-pathway activation is implicated as a downstream effector in chromothripsis events driving oncogene amplification across 2,658 PCAWG whole genomes [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -335,5 +337,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

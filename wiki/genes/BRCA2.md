@@ -86,6 +86,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Harbors homologous-recombination repair alterations (11% frequency) in mCRPC tumor tissue; ~60% of BRCA2 SNVs classified as likely oncogenic; no association with survival or time on first-line ARSI (composite HRR P=0.495/0.611) in this tumor-tissue cohort, contrasting with prior cfDNA-based reports [PMID:31061129](../papers/31061129.md)
 - Germline pathogenic/likely-pathogenic BRCA2 alleles identified in 3 of 764 glioma patients (0.4%), contributing to the 13% overall germline burden in the MSK glioma cohort; BRCA2 P/LP alleles implicated in heritable cancer predisposition and nominated for routine germline screening in glioma patients [PMID:31263031](../papers/31263031.md)
 - Splicing-region germline variants found in 4 of 90 recurrent/metastatic adenoid cystic carcinoma cases alongside BRCA1; all monoallelic with no LOH — clinical relevance unclear pending validation [PMID:31483290](../papers/31483290.md)
+- Germline PTVs associated with somatic small-deletion burden (P=1×10⁻⁸) across 2,658 whole-genome-sequenced PCAWG tumors; one of three genes accounting for 81% of germline+somatic biallelic combinations pan-cancer [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -270,5 +271,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

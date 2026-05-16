@@ -22,6 +22,7 @@ DAXX encodes a multifunctional protein involved in transcriptional regulation, a
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
 - Single-case DAXX mutation detected in PDTC/ATC thyroid cancer targeted sequencing (IMPACT panel, 117 tumors), replicating prior WES ATC study findings [PMID:26878173](../papers/26878173.md)
 - Somatic alterations in 40% (32/80) of metastatic panNET patients (MSK-IMPACT); defines the chromatin-remodeling/ALT axis with ATRX; associated with improved 1-year OS (97% vs 83%, P<0.01) in metastatic disease — contrasting with poor prognosis in resected disease [PMID:30687805](../papers/30687805.md)
+- Alterations in ATRX/DAXX (128 tumors combined, 71 truncating) across the PCAWG pan-cancer cohort; cluster differently across telomere phenotype groups — ATRX/DAXX point mutations in ALT cluster C2, linked to alternative lengthening of telomeres [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ DAXX encodes a multifunctional protein involved in transcriptional regulation, a
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

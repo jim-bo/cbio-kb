@@ -8,7 +8,7 @@ tags:
   - kinase
   - cell-cycle
   - therapeutic-target
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -21,6 +21,7 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 ## Alterations observed in the corpus
 
 - CDK1 elevated kinase activity identified in colon cancer tumors vs matched NATs in the CPTAC proteogenomic colon cohort (n=110); flagged by kinase-activating site phosphorylation and target-site enrichment analysis alongside CDK2, CDK4, [CDK7](../genes/CDK7.md), [MELK](../genes/MELK.md), [PFKFB3](../genes/PFKFB3.md), and [PI4KB](../genes/PI4KB.md) [PMID:31031003](../papers/31031003.md)
+- Identified downstream of TP53 / CTNNB1 / ARID1A mutations in trans in a multi-omic proteogenomic study of endometrial carcinoma (n=95 tumors) [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 - [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

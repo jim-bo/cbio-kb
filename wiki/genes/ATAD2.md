@@ -7,7 +7,7 @@ tags:
   - cancer-testis-antigen
   - chromatin-remodeling
   - immunotherapy-target
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -20,6 +20,7 @@ ATAD2 (ATPase Family AAA Domain Containing 2) is a chromatin-remodeling protein 
 ## Alterations observed in the corpus
 
 - ATAD2 identified as a recurrent cancer/testis antigen elevated >2-fold in tumors vs matched NATs in 8% of tumor-NAT pairs in the CPTAC proteogenomic colon cancer cohort (n=110); MSI-status-independent expression makes it a shared CT-antigen candidate across both MSS and MSI-H tumors [PMID:31031003](../papers/31031003.md)
+- Cancer-testis antigen observed in >10% of uterine corpus endometrial carcinoma tumors in the CPTAC proteogenomic cohort (n=95); identified as a potential immunogenic peptide source for vaccine antigen discovery [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ ATAD2 (ATPase Family AAA Domain Containing 2) is a chromatin-remodeling protein 
 - [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

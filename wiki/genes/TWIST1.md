@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - SCLC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # TWIST1
@@ -18,6 +18,7 @@ TWIST1 is a basic helix-loop-helix transcription factor with established roles i
 
 - TWIST1 transcriptionally upregulated in 3/10 SCLC patient-derived xenograft (PDX) models that developed acquired cisplatin/etoposide resistance in vivo; upregulation was accompanied by EMT-like changes including E-cadherin loss [PMID:28196596](../papers/28196596.md).
 - TWIST1 induction and [SLFN11](../genes/SLFN11.md) suppression define mutually exclusive resistance programs across 7/10 resistant SCLC PDX models [PMID:28196596](../papers/28196596.md).
+- EMT transcription factor highly expressed in the chaotic subtype of non-smoking LUAD (NS-LUAD), which is associated with mesenchymal markers and poor prognosis [PMID:32015526](../papers/32015526.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ TWIST1 is a basic helix-loop-helix transcription factor with established roles i
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

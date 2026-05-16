@@ -3,8 +3,8 @@ symbol: SETD1B
 aliases: []
 cancer_types: [UCEC]
 tags: [histone-methyltransferase, immunotherapy-response, chromatin-remodeling]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # SETD1B
@@ -16,6 +16,7 @@ SETD1B encodes a histone lysine methyltransferase. In the corpus, SETD1B mutatio
 ## Alterations observed in the corpus
 
 - SETD1B was mutated in 58% of responders vs. 14% of non-responders (P = 0.015) to [nivolumab](../drugs/nivolumab.md) in a phase 2 trial of dMMR/MSI-H gynecologic cancers (n=35 evaluable); mutations were also associated with increased CD8+PD-1+TOX+ T cell infiltration [PMID:38653864](../papers/38653864.md).
+- H3K4 methyltransferase (SET-domain) downregulated in MSI CCLE cell lines; H3K4me1 and H3K4me2 marks correspondingly reduced in MSI [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SETD1B encodes a histone lysine methyltransferase. In the corpus, SETD1B mutatio
 - [PMID:38653864](../papers/38653864.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

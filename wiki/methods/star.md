@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [alignment, rna-seq, splice-aware, bioinformatics]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # STAR (Spliced Transcripts Alignment to a Reference)
@@ -23,6 +23,7 @@ STAR is a splice-aware RNA-seq alignment tool that maps short reads to a referen
 - Used STAR aligner for RNA-seq read mapping and splice junction discovery [PMID:28373299](../papers/28373299.md)
 - STAR_2.4.0g1 used for RNA alignment in MET500 transcriptome libraries (868 libraries from 496 tumors) as part of the custom CRISP pipeline with CODAC fusion caller [PMID:28783718](../papers/28783718.md)
 - STAR aligner used to align RNA-seq reads to hg19 in 45 baseline and 26 paired melanoma biopsies from the CA209-038 nivolumab pharmacodynamics study [PMID:29033130](../papers/29033130.md)
+- STAR v2.7.3 used for RNA-seq alignment to GRCh38 in the Sherlock-Lung NS-LUAD study (n=684 tumors); HTSeq + GENCODE v35 used for quantification downstream [PMID:32015526](../papers/32015526.md).
 
 ## Notes
 
@@ -48,3 +49,6 @@ STAR is a splice-aware RNA-seq alignment tool that maps short reads to a referen
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

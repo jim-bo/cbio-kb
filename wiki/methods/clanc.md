@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [classification, centroid, breast-cancer, subtype]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CLANC
@@ -18,6 +18,7 @@ CLANC (Comparative Latent Neoantigen Classification, or alternatively a centroid
 ## Used by
 
 - Applied alongside ISOpure and ElasticNet as one of three orthogonal classifiers to assign 88 mixed IDC/ILC breast tumors to ILC-like or IDC-like molecular classes in the TCGA breast cancer multi-platform study (n=817); all three methods agreed that 24/88 mixed cases were ILC-like and 64 were IDC-like, with [CDH1](../genes/CDH1.md) mutation status as the dominant feature. [PMID:26451490](../papers/26451490.md)
+- Used to build the 60-gene prognostic signature for NS-LUAD subtypes from the Sherlock-Lung study (n=684 tumors); correctly classified 87.0% (595/684) of samples vs whole-transcriptome NMF; cross-validation error rates 13.2% (training) and 15.1% (testing) [PMID:32015526](../papers/32015526.md).
 
 ## Notes
 
@@ -29,3 +30,6 @@ CLANC (Comparative Latent Neoantigen Classification, or alternatively a centroid
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

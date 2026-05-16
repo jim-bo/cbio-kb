@@ -3,7 +3,7 @@ symbol: IGF2BP3
 aliases: [IMP3, KOC1, VICKZ3]
 cancer_types: [COAD, ESCA]
 tags: [rna-binding-protein, cancer-testis-antigen, immunotherapy-target, biomarker]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,8 @@ IGF2BP3 (Insulin Like Growth Factor 2 mRNA Binding Protein 3) is an RNA-binding 
 ## Alterations observed in the corpus
 
 - Recurrent cancer-testis (CT) antigen expressed in 51% of [COAD](../cancer_types/COAD.md) tumor-NAT pairs (n=110) in CPTAC proteogenomics; has demonstrated in vitro/in vivo CTL induction in esophageal cancer; proposed as an MSI-status-independent immunotherapy target for MSS colon tumors that are poor candidates for checkpoint blockade [PMID:31031003](../papers/31031003.md)
+- IGF2BP3 is among chromoplexy-mediated fusion/enhancer-hijacking events in thyroid adenocarcinoma in the PCAWG pan-cancer WGS cohort [PMID:32025007](../papers/32025007.md)
+- IGF2BP3 is a cancer-testis antigen observed in >10% of endometrial tumors and is highly upregulated in serous EC; identified as a known immunogenic peptide source [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -37,3 +39,9 @@ IGF2BP3 (Insulin Like Growth Factor 2 mRNA Binding Protein 3) is an RNA-binding 
 - [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

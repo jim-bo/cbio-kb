@@ -3,8 +3,8 @@ symbol: KDR
 aliases: [VEGFR2]
 cancer_types: [ANGS]
 tags: [amplification, gain-of-function, VEGF-signaling, sarcoma, radiation-associated]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # KDR
@@ -25,6 +25,7 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - KDR amplification observed in 4 ACYC patients co-amplified with PDGFRA and KIT in a cohort of 151 advanced head and neck tumors; these patients were treated with regorafenib [PMID:27442865](../papers/27442865.md)
 - KDR amplification (4 patients) was among additional alterations contributing to the actionable-alteration list in 180 advanced germ cell tumors profiled by MSK-IMPACT [PMID:27646943](../papers/27646943.md)
 - KDR (VEGFR2) overexpression identified in pediatric osteosarcoma (OS) as a multi-targeted kinase inhibitor (MTKI) target; patient received matched treatment [PMID:28007021](../papers/28007021.md).
+- KDR protein abundance is associated with VEGF-signaling pathway activity across CCLE cell lines in the pan-cancer proteomics resource [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

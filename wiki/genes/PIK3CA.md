@@ -146,6 +146,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Hot-spot PIK3CA mutations in 8 MSK-IMPACT R/M ACC cases; 6 were enrolled on PI3K-inhibitor basket trials (taselisib NCT01296555 or alpelisib NCT01928459): 1/6 PR, 5/6 SD at 2 months, 5/6 had tumor-volume reduction (mean 18.8%), 4/6 achieved PR or SD >6 months [PMID:31483290](../papers/31483290.md).
 - Recurrent hotspot activating mutations in helical/kinase domains in ~40–50% of ER+ tumors; in the buparlisib + letrozole trial enriched in clinical-benefit patients; co-occurrence with MAP3K1 alterations associated with highest CBR (5/7, 71%); PIK3CA alone is suboptimal as a response predictor [PMID:31552290](../papers/31552290.md).
 - Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
+- PIK3CA is a top cancer driver in 177 of 2,658 PCAWG tumors across 38 cancer types [PMID:32025007](../papers/32025007.md)
+- PIK3CA missense mutations decrease PIK3CA protein levels in endometrial carcinoma tumors (CPTAC cohort, n=95) [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -444,5 +446,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

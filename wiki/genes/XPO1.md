@@ -3,8 +3,8 @@ symbol: XPO1
 aliases: []
 cancer_types: [CHL, DLBCLNOS]
 tags: [nuclear-export, hodgkin-lymphoma, dlbcl, crispr-essential]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # XPO1
@@ -21,6 +21,7 @@ XPO1 encodes nuclear export receptor CRM1 and is recurrently mutated in classic 
 - XPO1 harbors a recurrent D624G missense mutation in [ESCC](../cancer_types/ESCC.md) with protein and mRNA overexpression; therapeutic target via KPT-330 ([selinexor](../drugs/selinexor.md)) [PMID:24686850](../papers/24686850.md)
 - Previously reported driver candidate not confirmed as a PFS hit in the CLL8 trial in a 538-patient WES study [PMID:26466571](../papers/26466571.md)
 - GCB-selective CRISPR essential dependency in DLBCL; knockout of XPO1 was selectively lethal in GCB DLBCL cell lines but not ABC DLBCL, nominating selinexor as a candidate GCB-directed therapy [PMID:28985567](../papers/28985567.md).
+- Identified as a downstream protein regulated in trans by TP53, CTNNB1, and ARID1A mutations in endometrial carcinoma proteomics; part of the PLK1/CDK1/CHEK1/TPX2 mitotic regulatory cluster [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ XPO1 encodes nuclear export receptor CRM1 and is recurrently mutated in classic 
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

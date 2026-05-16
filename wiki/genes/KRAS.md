@@ -130,6 +130,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - 62% of rectal cancer tumoroids were RAS mutant; KRAS-mutant tumoroids exhibited cell-autonomous resistance to cetuximab ex vivo, mirroring the established clinical finding that KRAS mutation predicts anti-EGFR-antibody resistance in CRC [PMID:31591597](../papers/31591597.md).
 - RAS pathway mutations (KRAS, NRAS, HRAS) enriched in BCP-ALL and Fusion-negative RMS PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 - KRAS wild-type status enriched in TRK fusion-positive colorectal cancers: 6/7 TRK fusion-positive CRC cases were KRAS wild-type and MSI-H, consistent with kinase-fusion enrichment in mismatch-repair-deficient tumors lacking canonical KRAS/BRAF drivers [PMID:31871300](../papers/31871300.md)
+- KRAS mutation is associated with broad changes in cell-motility and adhesion-protein levels across solid-organ cancer cell lines (CCLE proteomics) [PMID:31978347](../papers/31978347.md)
+- KRAS mutation was used as a prognostic covariate in the Mutation model Cox comparator in Sherlock-Lung non-smoking LUAD (n=232) [PMID:32015526](../papers/32015526.md)
+- KRAS is a driver in 287 tumors in the PCAWG pan-cancer WGS cohort (2,658 donors, 38 tumor types) [PMID:32025007](../papers/32025007.md)
+- KRAS-mutant endometrial cancer samples show upregulation of H3K27 and H3K36 acetylation in EC proteogenomics (n=95) [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -470,5 +474,17 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

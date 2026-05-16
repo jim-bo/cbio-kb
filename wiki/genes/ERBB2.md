@@ -93,6 +93,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Central to IHC stratification in METABRIC 20-year relapse analysis (ER+/HER2+, ER+/HER2−, ER−/HER2+, ER−/HER2−); IntClust5 (HER2-amplification enriched) has the highest overall relapse probability (0.65 at 20 years) across all integrative subtypes [PMID:30867590](../papers/30867590.md)
 - Patients were HER2-negative (HER2-) by eligibility criteria in the buparlisib + letrozole phase II trial for ER+/HER2- metastatic breast cancer [PMID:31552290](../papers/31552290.md)
 - ERBB2 actionable amplification detected de novo in 3 of 4 ERBB2-amplified metastatic breast cancer cases by cfDNA CNV calling; reliable detection required ctDNA fraction ≥10% [PMID:31768066](../papers/31768066.md)
+- HER2 upregulated in breast-derived cancer cell lines; protein abundance largely predicted by ERBB2 copy number in the CCLE pan-cancer proteome (375 lines) [PMID:31978347](../papers/31978347.md)
+- Frequently copy-number altered in endometrial carcinoma, consistent with TCGA findings, in a proteogenomic study of 95 tumors [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
@@ -301,5 +303,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

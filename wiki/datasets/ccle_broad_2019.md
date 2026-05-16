@@ -22,7 +22,7 @@ tags:
   - pharmacogenomics
   - ccle
   - dependency-screen
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -54,6 +54,7 @@ The companion cell-line resource providing mutation, copy-number, and expression
 ## Papers using this cohort
 
 - [PMID:31068700](../papers/31068700.md) — Ghandi et al. 2019, *Nature*: next-generation multi-omic characterization that defines this dataset.
+- [PMID:31978347](../papers/31978347.md) — Nusinow et al. 2020, *Cell*: quantitative TMT proteomics of 375 CCLE lines revealing MSI proteome buffering and complex-level synthetic-lethality associations.
 
 ## Notable findings derived from this cohort
 
@@ -61,10 +62,12 @@ The companion cell-line resource providing mutation, copy-number, and expression
 - [TERT](../genes/TERT.md) promoter mutations were detected in 16.7% (84/503) of surveyed cell lines — the most common non-coding somatic alteration in the panel [PMID:31068700](../papers/31068700.md).
 - 3–10% of lines showed substantial somatic-variant divergence between CCLE and GDSC passages (genetic drift), and 3/667 overlapping lines (0.4%) had mismatching germline calls indicating mislabelling [PMID:31068700](../papers/31068700.md).
 - [EP300](../genes/EP300.md) and [CREBBP](../genes/CREBBP.md) truncating mutations distal to the HAT domain define a novel H3K18/H3K27 hyperacetylation cluster — nominated as the first cancer-associated gain-of-function alterations of p300/CBP [PMID:31068700](../papers/31068700.md).
+- Used as the proteomics-extended CCLE resource: 375 cell lines profiled by TMT 10-plex proteomics (>12,000 proteins), with MSI-specific proteome analysis revealing co-downregulation of mismatch repair, SKI, and RQC surveillance complexes — results linked to WRN synthetic lethality [PMID:31978347](../papers/31978347.md)
 
 ## Sources
 
 - cBioPortal study: `ccle_broad_2019`
 - Ghandi et al. *Nature* 2019. [PMID:31068700](../papers/31068700.md)
+- Nusinow et al. *Cell* 2020. [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

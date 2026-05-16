@@ -4,7 +4,7 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -57,6 +57,8 @@ OncoTree code for invasive breast carcinoma.
 - Phase Ib trial (n=33) of buparlisib + letrozole in ER+/HER2- metastatic breast cancer: PIK3CA + MAP3K1 co-mutation conferred 71% clinical benefit rate vs 11% in double-wild-type; MAP3K1 alterations associated with improved PFS (p=0.03) and track with luminal A subtype [PMID:31552290](../papers/31552290.md).
 - Breast cancer was among the TRK fusion-positive tumor types in the MSK cohort (n=26,312); two cases showed the fusion present in metastasis but absent in the primary, suggesting subclonal or late acquisition [PMID:31871300](../papers/31871300.md)
 - Metastatic breast cancer (n=39–53) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 95% of MBC patients; ERBB2 amplification detected de novo in 3/4 amplified cases; hypermutated MBCs exhibited APOBEC signatures (COSMIC sigs 2 and 13) [PMID:31768066](../papers/31768066.md)
+- Included in PCAWG (n=2,658 WGS); breast adenocarcinoma shows driver SV dominance over point mutations (mean 6.4 ± 3.7 SVs vs 2.2 ± 1.3 point mutations, P < 1×10⁻¹⁶); germline BRCA1/BRCA2 PTVs associated with templated-insertion SV phenotype and small-deletion burden respectively [PMID:32025007](../papers/32025007.md).
+- Prior breast cancer and radiotherapy identified as major risk factor for secondary radiation-associated cutaneous angiosarcoma; 24/25 secondary AS cases (96%) were cutaneous breast AS after radiotherapy; breast cancer history associated with worse 5-year AS survival (OR 5.143, p=0.02) [PMID:32042194](../papers/32042194.md).
 
 ## Subtypes
 
@@ -136,5 +138,11 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32042194](../papers/32042194.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

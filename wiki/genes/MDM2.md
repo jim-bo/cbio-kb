@@ -59,6 +59,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM4 exon-6 inclusion (MDM4-FL) in TP53 wild-type cancer cell lines predicts sensitivity to MDM2 inhibitor nutlin-3a; MDM2 inhibitor patient-selection strategy proposed based on MDM4/RPL22 biomarker cascade (CCLE study). [PMID:31068700](../papers/31068700.md)
 - Alterations phenocopy TP53 inactivation per expression classifier in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types); MDM2 and RB1 alterations identified as TP53-pathway phenocopies by AUROC 0.89 classifier [PMID:31693904](../papers/31693904.md).
 - Amplification in 10% of GBM PDX (n=84); FISH confirmed amplification preserved in 100% of GBM108 patient–PDX pairs; involved in Rb/p53 pathway alterations in IDH-wildtype GBM [PMID:31852831](../papers/31852831.md)
+- Knockdown sensitivity of MDM2 is uniquely associated with MCM-complex protein levels across CCLE cell lines, hinting at a p53-independent function; MDM2 co-varies with TP53/CDKN1A knockdown sensitivities in cell-division-related complexes [PMID:31978347](../papers/31978347.md)
+- MDM2 is universally amplified in liposarcoma chromothripsis events across the PCAWG pan-cancer cohort of 2,658 whole genomes [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -197,5 +199,11 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

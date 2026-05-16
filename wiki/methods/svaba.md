@@ -11,7 +11,7 @@ tags:
   - whole-genome-seq
   - somatic-sv
   - dlbcl
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ SvABA (Structural Variation and Breakpoint Assembly) is a genome-wide structural
 ## Used by
 
 - One of four SV-calling algorithms applied to 304 DLBCLs using targeted SV bait capture (mean depth 221.4×); consensus calls from SvABA, BreaKmer, Lumpy, and dRanger defined SVs in 64% of tumors, including recurrent [IGH](../genes/IGH.md) (40%), [BCL2](../genes/BCL2.md) (21%), [BCL6](../genes/BCL6.md) (19%), [MYC](../genes/MYC.md) (8%), and CD274/PD-L2 (5%) rearrangements [PMID:29713087](../papers/29713087.md)
+- Applied alongside DELLY in the PCAWG pan-cancer WGS study (n=2,658 tumors) as an SV caller; consensus SV calls achieved ~90% sensitivity and ~97.5% precision across 38 tumor types [PMID:32025007](../papers/32025007.md).
 
 ## Notes
 
@@ -34,3 +35,6 @@ SvABA (Structural Variation and Breakpoint Assembly) is a genome-wide structural
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

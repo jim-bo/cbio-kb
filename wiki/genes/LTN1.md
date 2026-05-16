@@ -10,7 +10,7 @@ tags:
   - proteogenomics
 canonical_source: cbioportal
 unverified: false
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,7 @@ LTN1 (Listerin E3 Ubiquitin Protein Ligase 1) is an E3 ubiquitin ligase involved
 ## Alterations observed in the corpus
 
 - Newly identified hypermutated-group SMG in colon adenocarcinoma: mutation frequency >50% in MSI-H/hypermutated samples (n=110 tumors in the CPTAC [COAD](../cancer_types/COAD.md) proteogenomic cohort); not reported as an SMG in the prior TCGA colorectal study [PMID:31031003](../papers/31031003.md)
+- LTN1 (RQC E3 ubiquitin ligase targeting nascent dysfunctional proteins) is downregulated in MSI cancer cell lines; its co-complex partner TCF25 is upregulated [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ LTN1 (Listerin E3 Ubiquitin Protein Ligase 1) is an E3 ubiquitin ligase involved
 - [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: TERT
 aliases: []
 cancer_types: [ESCC]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -39,6 +39,7 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - TERT promoter mutations almost always shared between initial and recurrent glioma in IDHmut-codel and IDHwt subtypes; clonal throughout tumor evolution (coverage gaps in GC-rich promoter region noted) [PMID:31748746](../papers/31748746.md)
 - TERT promoter mutations in 86% of GBM PDX (n=84), the most frequent single alteration in the panel; preserved across patient-PDX pairs [PMID:31852831](../papers/31852831.md)
 - TERT promoter mutation among the most common co-mutations in TRK fusion-positive cancers across tumor types [PMID:31871300](../papers/31871300.md)
+- Driver in 263 tumors pan-cancer; promoter mutations are the dominant non-coding driver (237/785 non-coding drivers; 9% of PCAWG). In acral melanoma, chromothripsis-induced TERT amplification occurs as a very early event; in chromophobe RCC, breakpoints immediately adjacent to TERT increase expression 80-fold (P=0.0004) [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -105,3 +106,6 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

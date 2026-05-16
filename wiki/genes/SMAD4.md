@@ -22,6 +22,7 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - Enriched in EHC (extrahepatic cholangiocarcinoma); co-occurs with KRAS; mutually exclusive with IDH1 and BAP1; among the key genomic features distinguishing IHC from EHC in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients [PMID:29848569](../papers/29848569.md)
 - SMAD4 mutated in 31% of gallbladder carcinoma tumors in a three-region cohort; independently associated with worse overall survival (HR 2.01, multivariable Cox) across all three populations; proposed as a candidate convergent prognostic biomarker in GBCA [PMID:30427539](../papers/30427539.md)
 - Confirmed deletion driver in the 18q focal-deletion region in colon cancer proteogenomics (coad_cptac_2019) [PMID:31031003](../papers/31031003.md)
+- Pan-cancer PCAWG driver in 181 tumors [PMID:32025007](../papers/32025007.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

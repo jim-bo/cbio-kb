@@ -3,7 +3,7 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -44,6 +44,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - Hotspot mutations in 37% of neuroblastoma PDX models in the PPTC cohort; also dramatically overexpressed in neuroblastoma and additional pediatric histotypes, flagged as antibody-drug-conjugate and T-cell-engager target for basket-trial design [PMID:31693904](../papers/31693904.md)
 - EML4-ALK fusions negatively associated with the 'steady' NS-LUAD transcriptomic subtype (p=1.73×10⁻⁴, FDR=0.0168); 35 tumors carry ALK fusions; in-frame ALK fusions enriched in proliferative subtype (8.2%); ALK fusions co-occurring with TP53 mutations concentrated in the proliferative subtype (7 tumors) [PMID:32015526](../papers/32015526.md)
 - Two ALK fusions identified in uterine sarcomas reclassified as [inflammatory myofibroblastic tumor (IMT)](../cancer_types/IMT.md): one LBH-ALK fusion (treated with [crizotinib](../drugs/crizotinib.md), 30+ months disease stabilization) and one post-data-freeze ALK fusion (brief crizotinib response, then progression on [ceritinib](../drugs/ceritinib.md)); fusion detection prompted diagnostic reclassification from uLMS to IMT in both cases [PMID:32299819](../papers/32299819.md)
+- Seven in-frame ALK fusions (EML4-ALK, HMBOX1-ALK, ANKRD36B-ALK) identified in treatment-naïve LUAD; outlier ALK Y1507 phosphorylation specific to fusion-positive samples validated by IHC; hyperphosphorylated WEE1 and PTPN11 observed [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -141,5 +142,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

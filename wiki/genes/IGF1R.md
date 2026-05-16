@@ -35,6 +35,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - Assessed as part of the mTOR pathway gene set in metastatic panNET (MSK-IMPACT, 80 patients); mTOR-pathway alterations (IGF1R, IGF2, MTOR, TSC1, TSC2, AKT2, AKT3, and others) were identified in 43% (34/80) of patients; IGF1R was a component of the panel but not individually reported as a top recurrent alteration in this cohort [PMID:30687805](../papers/30687805.md)
 - IGF1R variants identified in 7% of 28 recurrent Mayo GBM PDX at frequencies consistent with prior recurrent-glioblastoma reports; some variants also seen in primary PDX, raising the possibility of germline origin [PMID:31852831](../papers/31852831.md)
 - IGF1R is among the genes frequently copy-number altered in endometrial cancer, consistent with TCGA findings [PMID:32059776](../papers/32059776.md)
+- Amplification in 4/41 (9.8%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- MBC biopsies; flagged as a candidate CDK4/6i resistance driver for future study [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -91,5 +92,8 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

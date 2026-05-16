@@ -5,7 +5,7 @@ drug_class: fluoropyrimidine prodrug
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - Capecitabine-containing regimens were used as first-line chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict platinum-based regimen response, and MSI-H patients had inferior PFS on cytotoxic therapy vs non-MSI-H [PMID:29122777](../papers/29122777.md)
 - Used as an alternative first-line chemotherapy regimen in advanced cholangiocarcinoma patients; primary regimen was gemcitabine/platinum (80% of 158 first-line patients) [PMID:29848569](../papers/29848569.md)
 - Capecitabine-based regimens were among the cytotoxic chemotherapy options used in the 80-patient metastatic [PANET](../cancer_types/PANET.md) cohort; the study noted that alkylator chemotherapy exposure was associated with hypermutation and grade 1→3 progression in panNET [PMID:30687805](../papers/30687805.md)
+- Fluoropyrimidine used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy regimen in HER2-positive metastatic esophagogastric cancer; capecitabine or 5-FU were the fluoropyrimidine options in NCT02954536 [PMID:32437664](../papers/32437664.md).
 
 ## Resistance mechanisms
 
@@ -45,3 +46,6 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80 metastatic); capecitabine-based regimens among cytotoxic chemotherapy options; alkylator exposure linked to hypermutation and grade progression.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

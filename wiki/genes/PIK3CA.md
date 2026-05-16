@@ -150,6 +150,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA missense mutations decrease PIK3CA protein levels in endometrial carcinoma tumors (CPTAC cohort, n=95) [PMID:32059776](../papers/32059776.md)
 - Mutated in 41% of synchronous DCIS and 42% of IDC-NSTs (P>0.05); 9/12 mutations affected H1047R/L or E545D hotspots; completely absent (0%) in pure DCIS vs 41% in synchronous DCIS, marking PIK3CA as one of the few features distinguishing synchronous from pure DCIS [PMID:32220886](../papers/32220886.md)
 - Recurrent RTK/RAS/PI3K-pathway driver in UTUC (consistent with prior UTUC genomics); identified in MSK-IMPACT profiling of upper-tract urothelial carcinoma cohort and PDX models [PMID:32332851](../papers/32332851.md)
+- Mutated at similar frequencies in sensitive (8/18, 44.4%) and resistant (18/41, 43.9%) HR+/HER2- MBC biopsies — not a CDK4/6i resistance marker in this cohort [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -460,5 +461,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

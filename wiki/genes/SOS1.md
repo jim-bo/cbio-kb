@@ -18,6 +18,7 @@ SOS1 (Son of Sevenless Homolog 1) encodes a RAS guanine nucleotide exchange fact
 - Recurrent autoinhibitory-domain mutation p.N233Y (n=4) significantly enriched among oncogene-negative lung ADC tumors lacking known RTK/Ras/Raf activating events (q < 0.1); identified in a 660-ADC exome-sequencing cohort [PMID:27158780](../papers/27158780.md).
 - Adding SOS1 along with [VAV1](../genes/VAV1.md), [RASA1](../genes/RASA1.md), and [ARHGAP35](../genes/ARHGAP35.md) raised the proportion of lung ADCs with a candidate Ras/Raf/RTK pathway driver to 76% overall and 85% in an expert-reviewed subset [PMID:27158780](../papers/27158780.md).
 - SOS1 is newly nominated as an RTK-RAS pathway driver with recurrent hotspots A90V/T and N233Y/S plus activating mutations M269I/V, G434R, R552S/K/G/M, and E846K; present in ~1% of LUAD and ~1% of uterine carcinomas, demonstrating rare but functional drivers emerging at PanCanAtlas sample sizes [PMID:29625050](../papers/29625050.md)
+- S1161 C-terminal phosphorylation observed as extreme outlier in KRAS-mutant [LUAD](../cancer_types/LUAD.md) (CPTAC cohort, n=110), nominating SOS1 inhibition as a therapeutic strategy [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ SOS1 (Son of Sevenless Homolog 1) encodes a RAS guanine nucleotide exchange fact
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

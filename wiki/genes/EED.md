@@ -3,8 +3,8 @@ symbol: EED
 aliases: []
 cancer_types: [MPNST]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # EED
@@ -17,6 +17,7 @@ EED (Embryonic Ectoderm Development) encodes a core structural component of the 
 
 - Loss-of-function mutations (4 frameshift, 1 splice-site) with LOH (heterozygous deletion or copy-neutral LOH) in MPNST discovery cohort; mutually exclusive with SUZ12 alterations [PMID:25240281](../papers/25240281.md).
 - EED and SUZ12 alterations collectively inactivate PRC2 in 92% of sporadic, 70% of NF1-associated, and 90% of radiotherapy-associated MPNSTs [PMID:25240281](../papers/25240281.md).
+- PRC2-complex tumor suppressor; mutations absent from benign neurofibromas, present only in the single MPNST sample in this NF1 cohort — consistent with PRC2 loss marking malignant transformation; profiles preserved in cell line and PDX models [PMID:32561749](../papers/32561749.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ EED (Embryonic Ectoderm Development) encodes a core structural component of the 
 - [PMID:25240281](../papers/25240281.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:32561749](../papers/32561749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

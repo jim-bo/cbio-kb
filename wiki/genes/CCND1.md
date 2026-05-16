@@ -9,7 +9,7 @@ cancer_types:
   - ODG
   - ACRM
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -79,6 +79,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Recurrently co-amplified with TERT via chromothripsis in acral melanoma (11/21 acral/mucosal melanomas affected on chr11) in the PCAWG pan-cancer whole-genome cohort of 2,658 tumors [PMID:32025007](../papers/32025007.md)
 - IDC-NST–private 11q13.3–13.4 amplification in multiple cases of synchronous DCIS/IDC-NST (n=25 patients); consistent with an invasive-stage-acquired copy-number event not present in the synchronous DCIS component [PMID:32220886](../papers/32220886.md)
 - Amplified more frequently in CDK12-biallelic (CDK12-Bi) prostate cancer than CDK12-WT tumors (FDR <0.05) in a 26,743-patient pan-cancer MSK-IMPACT cohort; 11q13.3 locus (which also spans FGF19, FGF4, FGF3) was one of the most differentially gained regions in CDK12-Bi prostate cancer [PMID:32317181](../papers/32317181.md)
+- Alterations in 11/41 (26.8%) CDK4/6i-resistant vs 3/18 (16.7%) sensitive HR+/HER2- breast cancer biopsies; no consistent association with CDK4/6i response in this cohort [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -269,5 +270,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

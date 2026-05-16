@@ -35,6 +35,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Amplification found in Group 3 (5%) and Group 4 (6%) medulloblastoma at comparable frequencies in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 - Focal MYCN amplification in 66% of neuroblastoma PDX models in the PPTC cohort (261 models, 37 pediatric cancer types); also amplified in MYCN-subtype HGG (IC-2664PNET) and in Fusion+ ARMS models [PMID:31693904](../papers/31693904.md).
 - Amplification in 2 of 84 GBM PDX; GBM110 PDX acquired N-MYC (MYCN) amplification from a subclonal population (0–27% by FISH in patient), demonstrating engraftment-driven clonal selection of MYCN-amplified cells [PMID:31852831](../papers/31852831.md)
+- Approximately 1% of retinoblastomas are driven by MYCN amplification without RB1 loss-of-function; the RB1-only cfDNA assay does not cover this subset; incorporation of copy-number analysis flagged as future extension [PMID:32633890](../papers/32633890.md)
 
 ## Cancer types (linked)
 
@@ -110,5 +111,8 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32633890](../papers/32633890.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Adenocarcinoma of the Gastroesophageal Junction (GEJ)
@@ -28,6 +28,7 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - WES of 149 treatment-naïve EAC tumors including gastroesophageal junction adenocarcinomas identified 26 significantly mutated genes and a distinctive EAC/GEJ-specific A>C transversion signature; 23% harbored mutations in genes with approved/preclinical inhibitors, rising to 48% when amplifications included [PMID:23525077](../papers/23525077.md)
 - TCGA profiling included 36 GEJ adenocarcinomas of indeterminate origin showing continuous molecular spectrum from oesophageal adenocarcinoma to CIN gastric cancer with no discrete boundary; CIN proportion increases proximally along the gastroesophageal axis [PMID:28052061](../papers/28052061.md)
 - Gastroesophageal junction tumors were included in the 295-patient MSK-IMPACT EGC cohort; CIN subtype dominated (63%) across EGC including GEJ; ERBB2 amplification (25% of CIN tumors) was the most frequent actionable alteration and predicted trastuzumab PFS dose-dependently by NGS [PMID:29122777](../papers/29122777.md)
+- 12/37 (32%) patients in a HER2-positive mEGC phase 2 pembrolizumab + trastuzumab + chemotherapy trial had GEJ primary; KRAS/RTK-RAS co-alterations predicted shorter PFS (5.9 vs 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md)
 
 ## Subtypes
 
@@ -52,3 +53,6 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

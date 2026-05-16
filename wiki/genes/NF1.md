@@ -81,6 +81,9 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Late/subclonal mutation in metastatic breast cancer detected in cfDNA as vault-origin-unknown (VUSo) variant not captured by single biopsy; illustrates tumor-heterogeneity confounding in ctDNA interpretation [PMID:31768066](../papers/31768066.md)
 - Mutated in 17% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside BRAF and NRAS [PMID:31792460](../papers/31792460.md)
 - MAPK pathway alterations via NF1 loss in 17% of GBM PDX (n=84); co-occurs with BRAF alterations (4%) as alternative MAPK pathway activators in GBM [PMID:31852831](../papers/31852831.md)
+- Alterations in 4/41 (9.8%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- MBC biopsies; potentially funnels into MAPK-pathway CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
+- Germline driver of neurofibromatosis; somatic biallelic inactivation (e.g. 50% copy ratio at chromosome 17 NF1 locus) is the signature alteration tracked across tumor/cell line/PDX; NF1 mutations reduced cognate protein and phosphosite abundance [PMID:32561749](../papers/32561749.md)
+- NF1 mutations in LUAD (CPTAC n=110) reduced cognate protein and phosphosite abundance; RBM10/NF1 mutations both showed this pattern suggesting post-transcriptional regulation [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -197,5 +200,14 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32561749](../papers/32561749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

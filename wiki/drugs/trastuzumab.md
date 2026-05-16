@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # trastuzumab
@@ -37,6 +37,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - In a 295-patient metastatic EGC cohort (MSK-IMPACT), ERBB2 amplification level by NGS predicted trastuzumab PFS (top-quartile patients: median PFS 24.3 months); 16% of post-trastuzumab samples showed ERBB2 amplification loss; RTK-RAS-PI3K co-alterations independently shortened trastuzumab PFS in multivariate analysis [PMID:29122777](../papers/29122777.md)
 - Cited as context for HER2-targeted therapy in SUMMIT; ERBB2-amplified breast cancer (trastuzumab-indicated) differs from ERBB2-mutant (non-amplified) disease targeted by neratinib — 95% of HER2 mutations in SUMMIT were clonal and 17% co-occurred with amplification, but amplification did not correlate with additional clinical benefit from neratinib [PMID:29420467](../papers/29420467.md)
 - In the TCGA pan-cancer fusion atlas (n=9,624), four [ERBB2](../genes/ERBB2.md) fusions were identified (partners [PPP1R1B](../genes/PPP1R1B.md) and [IKZF3](../genes/IKZF3.md), genomic neighbors at 17q; 3 of 4 had HPV integration within 1 Mb of ERBB2), representing a fusion-driven mechanism of HER2 dysregulation distinct from — but potentially complementary to — the trastuzumab-targetable amplification in [BRCA](../cancer_types/BRCA.md) [PMID:29617662](../papers/29617662.md)
+- HER2-targeted monoclonal antibody combined with pembrolizumab + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); combination achieved 91% ORR and 27.2-month median OS versus ~47% ORR and ~16-month OS historically for trastuzumab + chemotherapy alone; RTK-RAS co-alterations predicted shorter PFS (5.9 vs. 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md).
 
 ## Resistance mechanisms
 
@@ -99,3 +100,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:29617662](../papers/29617662.md) — Gao et al. 2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); four ERBB2 fusions identified with PPP1R1B/IKZF3 partners, likely arising from HPV-driven local instability; contextualized against trastuzumab-targetable ERBB2 amplification.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

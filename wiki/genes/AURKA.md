@@ -26,6 +26,7 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 - Over-expressed in CRPC-NE (P < 10⁻⁵) and included in the 70-gene NEPC classifier distinguishing castration-resistant neuroendocrine prostate cancer from adenocarcinoma [PMID:26855148](../papers/26855148.md)
 - AURKA recurrently altered in mCRPC tumors (prad_su2c_2019, 444 tumors) but not significantly prognostic for survival or time on first-line ARSI [PMID:31061129](../papers/31061129.md)
 - TP53 hotspot missense (gain-of-function) mutations in uterine corpus endometrial carcinoma upregulate AURKA expression and dysregulate XRN2; elevated AURKA is a candidate therapeutic target in TP53-hotspot-mutant EC amenable to AURKA inhibitors [PMID:32059776](../papers/32059776.md)
+- Amplification in 11/41 (26.8%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 0/18 sensitive (p=0.0081); spontaneous AURKA up-regulation in resistant cell lines; sensitive to selective AURKA inhibitor LY3295668; first in-patient evidence for AURKA in CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ main_type: Nerve Sheath Tumor
 parent: NST
 tags: [radiation-associated-sarcoma, nerve-sheath-tumor]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 canonical_source: oncotree
 unverified: false
 ---
@@ -33,6 +33,7 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 - RT-MPNST was enriched for genome-wide arm-level copy number changes [PMID:37350195](../papers/37350195.md).
 - PRC2 core subunits EED or SUZ12 are inactivated in 92% of sporadic, 70% of NF1-associated, and 90% of radiotherapy-associated MPNSTs; NF1 (82%), CDKN2A (81%), and TP53 (42%) co-occur; H3K27me3 IHC tracks PRC2 loss and distinguishes MPNST from benign neurofibroma [PMID:25240281](../papers/25240281.md)
 - MPNST (n=5) was underpowered for deep subtype analysis; APOBEC mutational signatures (COSMIC2/13) were modestly elevated in MPNST (alongside DDLPS) vs other sarcoma histologies (p<10⁻⁶, Kruskal-Wallis), and the cohort was included in pan-sarcoma SMG analysis identifying TP53, ATRX, and RB1 as recurrently mutated [PMID:29100075](../papers/29100075.md)
+- JHU NF1 biospecimen repository (n=23 patients, 55 tumor samples) spanning cNF → pNF → ANNUBP → MPNST progression; PRC2 (EED/SUZ12) inactivation restricted to the single MPNST sample, confirming malignant-transformation specificity; PDX take rate 50% for MPNST; released as cBioPortal study nst_nfosi_ntap [PMID:32561749](../papers/32561749.md)
 
 ## Subtypes
 
@@ -55,3 +56,6 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32561749](../papers/32561749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

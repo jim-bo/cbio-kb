@@ -3,8 +3,8 @@ symbol: CLDN18
 aliases: [CLDN18.2]
 cancer_types: [STAD]
 tags: [fusion, GS-subtype, cell-adhesion]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CLDN18
@@ -16,6 +16,7 @@ CLDN18 (claudin-18) is a tight-junction protein expressed in the stomach. The CL
 ## Alterations observed in the corpus
 
 - CLDN18-ARHGAP26/ARHGAP6 in-frame fusions in 15% of GS gastric tumours; result from t(3;5) and related rearrangements; mutually exclusive with RHOA mutation; the chimaeric protein arises via cryptic splice activation downstream of the CLDN18 exon 5 stop codon [PMID:25079317](../papers/25079317.md)
+- Identified as a methylation cis-effect target in LUAD with coordinated RNA, protein, and phosphoprotein regulation; CLDN18 among proteins differentially expressed in tumor vs normal adjacent tissue [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CLDN18 (claudin-18) is a tight-junction protein expressed in the stomach. The CL
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -41,6 +41,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2 fusions noted as therapeutically relevant; n=2 patients enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
 - FGFR2-related fusion events occur in 6.5% of 133 pan-Asia cHCC-ICC cases and may identify a subset targetable by FGFR inhibitors [PMID:31130341](../papers/31130341.md)
 - FGFR2 is among cancer-associated genes inside significant copy-number-loss peaks (GISTIC2.0) in driverless tumor cases in the PCAWG pan-cancer WGS cohort [PMID:32025007](../papers/32025007.md)
+- Mutations/amplifications in 3/41 (7.3%) resistant HR+/HER2- MBC biopsies, all intrinsic resistance; one of eight categories covering 65.9% of resistant tumors [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -133,5 +134,8 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

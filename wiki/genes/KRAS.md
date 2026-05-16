@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -135,6 +135,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS is a driver in 287 tumors in the PCAWG pan-cancer WGS cohort (2,658 donors, 38 tumor types) [PMID:32025007](../papers/32025007.md)
 - KRAS-mutant endometrial cancer samples show upregulation of H3K27 and H3K36 acetylation in EC proteogenomics (n=95) [PMID:32059776](../papers/32059776.md)
 - KRAS mutated in 8% of 119 UTUC patients by MSK-IMPACT, as part of the recurrent RTK/RAS/PI3K-pathway driver landscape that also includes HRAS (15%), PIK3CA (14–16%), and TSC1 (14%) [PMID:32332851](../papers/32332851.md)
+- G12D (activating), Q61L pathogenic mutation in resistant HR+/HER2- MBC biopsies; KRAS G12D overexpression confers CDK4/6i resistance in vitro; ERK inhibition (LY3214996) restores sensitivity; spontaneous KRAS G12V acquired in resistant cell line 361-AR-1 [PMID:32404308](../papers/32404308.md)
+- RTK-RAS pathway co-alterations in HER2-positive metastatic esophagogastric cancer associated with significantly shorter PFS (median 5.9 vs 14.6 months, p=0.011) on pembrolizumab + trastuzumab + chemotherapy [PMID:32437664](../papers/32437664.md)
+- Mutant LUAD tumors showed outlier SOS1 S1161 phosphorylation, hyperphosphorylated PRKCD, MAPK1/TAK1 pathway activation, upregulation of complement/coagulation cascades; SOS1 inhibition nominated as therapeutic strategy; PRKCD nominated as druggable kinase in KRAS-mutant LUAD [PMID:32649874](../papers/32649874.md)
 
 ## Cancer types (linked)
 
@@ -490,5 +493,14 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

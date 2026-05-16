@@ -3,7 +3,7 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC, CSCC, HNSC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -100,6 +100,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC-pathway activation is implicated as a downstream effector in chromothripsis events driving oncogene amplification across 2,658 PCAWG whole genomes [PMID:32025007](../papers/32025007.md)
 - MYC locus (8q23.3–24.21) amplification observed as an IDC-NST-private event in multiple synchronous invasive breast cancer cases, indicating MYC copy gain is acquired at the invasive rather than pre-invasive (DCIS) stage [PMID:32220886](../papers/32220886.md)
 - MYC amplification enriched in CDK12-biallelic (CDK12-Bi) prostate cancer relative to CDK12-WT (FDR < 0.05); co-occurs with CCND1 and MCL1 amplifications as part of cell-cycle pathway enrichment in CDK12-Bi tumors [PMID:32317181](../papers/32317181.md)
+- Amplifications in 8/41 (19.5%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- MBC biopsies; background enrichment in CDK4/6i-resistant tumors [PMID:32404308](../papers/32404308.md)
 
 ## Cancer types (linked)
 
@@ -351,5 +352,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

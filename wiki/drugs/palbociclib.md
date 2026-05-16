@@ -10,7 +10,7 @@ tags:
   - targeted-therapy
   - cdk-inhibitor
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # palbociclib
@@ -27,6 +27,7 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - [CDKN2A](../genes/CDKN2A.md) loss (>36%), [CDK4](../genes/CDK4.md) amplification, and [CCND1](../genes/CCND1.md) amplification in pancreatic ductal adenocarcinoma (109 resected cases, WES) make PDA a high-prior candidate for CDK4/6 inhibition with palbociclib (PD-0332991); synergy with pathway-selective agents shown in PDA models [PMID:25855536](../papers/25855536.md)
 - RB1 loss-of-function mutations occur in 5% of HR+/HER2- metastatic breast cancer (mBC) and may confer primary resistance to palbociclib, since RB1 protein is required for CDK4/6 inhibitor bioactivity; authors recommend RB1 testing on metastatic samples before initiating CDK4/6 inhibitors [PMID:28027327](../papers/28027327.md)
 - p53/Rb-pathway-altered MIBC (CDKN2A loss with retained Rb) is being targeted with palbociclib (PD-0332991) in NCT02334527, motivated by the pervasive p53/cell-cycle pathway inactivation (89% of tumors) found in the TCGA MIBC cohort [PMID:28988769](../papers/28988769.md)
+- CDK4/6 inhibitor used in 49/58 (84.5%) patients in the Wander et al. HR+/HER2- metastatic breast cancer cohort; eight resistance mechanisms were identified in 65.9% of resistant tumors, including RB1 loss, AKT1 activation, RAS mutations, AURKA amplification, CCNE2 amplification, ERBB2 alterations, FGFR2 alterations, and ER loss; in vitro overexpression/CRISPR validated palbociclib and abemaciclib resistance [PMID:32404308](../papers/32404308.md).
 
 ## Resistance mechanisms
 
@@ -54,3 +55,6 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

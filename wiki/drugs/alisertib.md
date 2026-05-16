@@ -9,7 +9,7 @@ tags:
   - kinase-inhibitor
   - neuroendocrine
   - prostate-cancer
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ Alisertib (MLN8237) is an oral selective Aurora kinase A ([AURKA](../genes/AURKA
 ## Evidence in the corpus
 
 - In the mCRPC cohort ([prad_su2c_2019](../datasets/prad_su2c_2019.md), n=332), the observed post-ARSI neuroendocrine (NE) feature frequency (10.5%) was lower than the 17% reported in a contemporary study; the authors attributed part of this discrepancy to the inclusion of patients with NE features from an alisertib (Aurora kinase A inhibitor) clinical trial in the comparator cohort, highlighting alisertib trials as a context in which aggressive-variant, NE-enriched mCRPC is selectively enrolled. [PMID:31061129](../papers/31061129.md)
+- Used as an AURKA inhibitor alternative to LY3295668; a randomized phase II trial (NCT02860000) of alisertib + [fulvestrant](../drugs/fulvestrant.md) in CDK4/6i-progressed HR+ metastatic breast cancer was ongoing at time of reporting [PMID:32404308](../papers/32404308.md).
 
 ## Resistance mechanisms
 
@@ -34,3 +35,6 @@ Alisertib (MLN8237) is an oral selective Aurora kinase A ([AURKA](../genes/AURKA
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

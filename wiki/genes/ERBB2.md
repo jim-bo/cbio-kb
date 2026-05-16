@@ -97,6 +97,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Frequently copy-number altered in endometrial carcinoma, consistent with TCGA findings, in a proteogenomic study of 95 tumors [PMID:32059776](../papers/32059776.md)
 - Recurrent 17q12 amplification in both synchronous DCIS and IDC-NST; significantly enriched in HER2+ DCIS vs ER+/HER2− DCIS (P<0.05); case 7 carried a truncal ERBB2 S310F hotspot mutation in paired synchronous DCIS/IDC-NST WES (n=25 patients) [PMID:32220886](../papers/32220886.md)
 - Oncogenic ERBB2 mutations in 8–9% of UTUC and 10.3% of bladder UC; HER2 S310F PDX (UCC14) showed ADC sensitivity (trastuzumab deruxtecan) but resistance to kinase inhibitor neratinib [PMID:32332851](../papers/32332851.md)
+- Activating mutations and amplifications in 5/41 (12.2%) resistant HR+/HER2- MBC biopsies vs 0/18 sensitive; two VUS variants (L377M, P1074L) included; consistent with CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
+- ERBB2 (HER2) amplification/focal gain detected in 21/32 (66%) tumors by NGS and 18/33 (54%) by plasma ctDNA; VAF-adjusted ctDNA amplification significantly associated with longer PFS (16.4 vs 6.2 months, p=0.013) in HER2-positive metastatic esophagogastric cancer [PMID:32437664](../papers/32437664.md)
 
 ## Cancer types (linked)
 
@@ -317,5 +319,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32437664](../papers/32437664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

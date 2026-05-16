@@ -3,7 +3,7 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC, CSCC, HNSC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -104,6 +104,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Recurrently amplified oncogene across 604 stage I-III resected LUAD; the Myc oncogenic pathway is significantly enriched in micropapillary/solid subtypes (13% vs 5.6% ACI/PAP vs 9.1% LEP; p=0.022). [PMID:32791233](../papers/32791233.md)
 - MYC amplification is one of 10 amplification-driven recurrent oncogenic drivers (≥5% prevalence) in 487 esophagogastric adenocarcinoma tumors ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md)); no independent OS association reported for MYC alone in this cohort [PMID:33795256](../papers/33795256.md)
 - SV breakpoint hotspot identified in lung cancer in never-smokers (LCINS) along with MDM2, TERT, CDKN2A, NKX2-1, and 6p21; contributes to the structural variant landscape of LCINS [PMID:34493867](../papers/34493867.md).
+- MYC appears in the negative Δκ<sub>risk</sub> gene list in a 45-patient HGSOC ICI cohort analyzed by geometric network curvature; cited as a canonical HGSOC oncogene commonly overexpressed via CNA-driven aneuploidy downstream of TP53 loss. [PMID:34819508](../papers/34819508.md)
+- MYC copy-number gains enriched in Black prostate cancer patients (chr8q gain in 49% of Black vs 37% of White tumors; adjusted Black–White difference +11 pp, 95% CI 4–18); chr8q gain is independently prognostic (HR 2.00 in Black men, HR 1.61 in White men), in an MSK-IMPACT cohort of 2,069 prostate tumors. [PMID:34667026](../papers/34667026.md)
 
 ## Cancer types (linked)
 
@@ -294,3 +296,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

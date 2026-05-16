@@ -58,6 +58,7 @@ METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) is a lar
 - High MATH (intra-tumour heterogeneity) scores associated with worse BCSS in ER+ (P=0.003) but not ER-; IntClust2 had paradoxically low MATH despite poor outcome, due to the [CCND1](../genes/CCND1.md)/[PAK1](../genes/PAK1.md) 11q13–14 co-amplification being a single early clonal event. [PMID:27161491](../papers/27161491.md)
 - Rueda et al. applied a multistate Markov model to 1,980 METABRIC patients with copy-number and expression data, identifying four late-recurring ER+/HER2-negative IntClust subgroups (1, 2, 6, 9; 26% of ER+ cases) with 42–56% 20-year relapse probability, each defined by a characteristic copy-number driver; IntClust significantly improved late-relapse prediction (C-index +0.07, P=0.00011 at 10 years) beyond IHC and clinical covariates. [PMID:30867590](../papers/30867590.md)
 - Used as outcome-validation comparator for NMF luminal subtype reassignment; METABRIC confirmed intermediate outcomes for PAM50-LumA samples reassigned to NMF LumB-I [PMID:33212010](../papers/33212010.md)
+- Used as a validation cohort (n=1,903) for the Ollivier-Ricci network curvature biomarker, confirming that CNA-based curvature generalises beyond HGSOC [PMID:34819508](../papers/34819508.md)
 
 ## Sources
 
@@ -69,5 +70,8 @@ METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) is a lar
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

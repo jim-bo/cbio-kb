@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - GBM
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -17,6 +17,7 @@ CDK2 (Cyclin-Dependent Kinase 2) partners with Cyclin E and Cyclin A to drive S-
 ## Alterations observed in the corpus
 
 - CDK2 protein and phosphorylation are elevated in TP53-mutant glioblastoma tumors in the CPTAC GBM proteogenomic cohort (gbm_cptac_2021, n=99); CDK2 is identified as part of the DNA-damage-response phosphosite upregulation signature without concordant protein-level upregulation of TP53 itself [PMID:33577785](../papers/33577785.md).
+- CDK2 is the proximal effector of MEK-driven resistance to anti-HER2 therapy in NF1-loss HER2+ breast cancer; MEK inhibition reduces CDK2 kinase activity ~80% in shNF1 HER2i-resistant cells; CDK2 inhibitor MK-8776 IC50 shifts 7,883→597 nM on resistance; CDK2/4/6 inhibitor PF-06873600 IC50 45→15 nM [PMID:34795269](../papers/34795269.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ CDK2 (Cyclin-Dependent Kinase 2) partners with Cyclin E and Cyclin A to drive S-
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

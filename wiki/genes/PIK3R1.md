@@ -47,6 +47,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Hotspot mutation E468* showed primary-to-metastatic heterogeneity in a metastatic endometrial cancer patient (MSK cohort, n=189) [PMID:30068706](../papers/30068706.md)
 - PIK3R1 is altered in 2.8% of mCRPC tumors; part of the PI3K-pathway alteration set with PIK3CA, PIK3CB, and AKT1; pathway alteration not associated with survival or time on ARSI [PMID:31061129](../papers/31061129.md)
 - Mutations identified only in TERT-WT metaplastic breast carcinomas (not reaching statistical significance after multiple-testing correction); component of the PI3K regulatory subunit pathway [PMID:33863915](../papers/33863915.md)
+- High-positive Δκ<sub>risk</sub> gene flagged as a putative network driver of ICI-modulated robustness in HGSOC, based on CNA-derived network curvature analysis of 45 ICI-treated patients. [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -71,70 +72,35 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:37910594](../papers/37910594.md)
-
 - [PMID:20579941](../papers/20579941.md)
-
 - [PMID:22610119](../papers/22610119.md)
-
 - [PMID:22810696](../papers/22810696.md)
-
 - [PMID:23000897](../papers/23000897.md)
-
 - [PMID:23525077](../papers/23525077.md)
-
 - [PMID:23622249](../papers/23622249.md)
-
 - [PMID:23636398](../papers/23636398.md)
-
 - [PMID:24120142](../papers/24120142.md)
-
 - [PMID:24265153](../papers/24265153.md)
-
 - [PMID:25079317](../papers/25079317.md)
-
 - [PMID:25164765](../papers/25164765.md)
-
 - [PMID:25201530](../papers/25201530.md)
-
 - [PMID:25233892](../papers/25233892.md)
-
 - [PMID:25631445](../papers/25631445.md)
-
 - [PMID:26878173](../papers/26878173.md)
-
 - [PMID:27161491](../papers/27161491.md)
-
 - [PMID:27442865](../papers/27442865.md)
-
 - [PMID:28052061](../papers/28052061.md)
-
 - [PMID:28445112](../papers/28445112.md)
-
 - [PMID:28472509](../papers/28472509.md)
-
 - [PMID:28485815](../papers/28485815.md)
-
 - [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29610475](../papers/29610475.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
+- [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

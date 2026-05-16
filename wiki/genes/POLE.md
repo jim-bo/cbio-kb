@@ -3,7 +3,7 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
@@ -49,6 +49,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE co-occurring with [MSH2](../genes/MSH2.md), [MSH5](../genes/MSH5.md), and [PMS1](../genes/PMS1.md) mutations in GBM PDX model IC-1621GBM consistent with Lynch/constitutional MMR-deficiency; ultrahypermutated at 124 Mut/Mb [PMID:31693904](../papers/31693904.md).
 - Recurrent catalytic-domain hotspot P286R found in 5/7 POLE-subtype tumors; defines the ultramutated endometrial cancer subtype (~61% of all somatic mutations in those tumors) [PMID:32059776](../papers/32059776.md)
 - Defines a small ultramutated subgroup in MSS EO-CRC (≤35: 2.6%; 36-49: 0.7%; AO: 0.7%; no statistically significant age-cohort difference) [PMID:34405229](../papers/34405229.md)
+- No significant prevalence difference by race/ancestry in prostate cancer patients (Black, Asian, White) profiled on MSK-IMPACT; POLE is a DNA-repair gene that did not differ significantly across racial groups in this cohort of 1,123 men. [PMID:34667026](../papers/34667026.md)
 
 ## Cancer types (linked)
 
@@ -79,72 +80,34 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39746944](../papers/39746944.md)
-
 - [PMID:36577525](../papers/36577525.md)
-
 - [PMID:36333289](../papers/36333289.md)
-
 - [PMID:22810696](../papers/22810696.md)
-
 - [PMID:23636398](../papers/23636398.md)
-
 - [PMID:24293293](../papers/24293293.md)
-
 - [PMID:25079317](../papers/25079317.md)
-
 - [PMID:25303977](../papers/25303977.md)
-
 - [PMID:25765070](../papers/25765070.md)
-
 - [PMID:25855536](../papers/25855536.md)
-
 - [PMID:26278805](../papers/26278805.md)
-
 - [PMID:26878173](../papers/26878173.md)
-
 - [PMID:27149842](../papers/27149842.md)
-
 - [PMID:28481359](../papers/28481359.md)
-
 - [PMID:28485815](../papers/28485815.md)
-
 - [PMID:28583311](../papers/28583311.md)
-
 - [PMID:28667006](../papers/28667006.md)
-
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29337640](../papers/29337640.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
+- [PMID:31031003](../papers/31031003.md)
+- [PMID:31693904](../papers/31693904.md)
+- [PMID:32059776](../papers/32059776.md)
+- [PMID:34405229](../papers/34405229.md)
+- [PMID:34667026](../papers/34667026.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:34405229](../papers/34405229.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

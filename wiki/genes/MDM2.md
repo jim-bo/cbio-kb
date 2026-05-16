@@ -70,6 +70,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Focal amplification observed in 2.4% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
 - Most frequently copy-number altered gene in pN-negative tumors (10%) in 426 treatment-naive clinical N2-negative LUAD patients (MSK-IMPACT). [PMID:34290393](../papers/34290393.md)
 - Focal amplifications mutually exclusive with TP53 mutations (P=0.03) in LCINS LUAD (n=232); kataegis hotspot at MDM2 locus (P=1.3e-15); amplified tumors had short latency; combined TP53 mut or MDM2 amp → HR=2.9 (CI 1.6-5.2, P=4.5e-4). [PMID:34493867](../papers/34493867.md)
+- MDM2 appears in the negative Δκ<sub>risk</sub> list in a 45-patient HGSOC ICI cohort; mechanistically linked to AKT-driven p53 degradation in the paper's pathway model; a high positive MDM2 Δκ associates with lower network robustness in ICI-treated patients. [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -241,5 +242,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

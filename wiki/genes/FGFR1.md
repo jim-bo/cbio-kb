@@ -49,6 +49,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Copy-number gains in 4/18 (22.2%) sensitive and 4/41 (9.8%) resistant HR+/HER2- MBC biopsies — not enriched in CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 - One arm B (anti-AR + CDK4/6 inhibitor) TNBC patient with FGFR1 amplification responded to anlotinib after progression on anti-AR + anti-CDK4/6 therapy in a biomarker-guided umbrella trial for metastatic TNBC. [PMID:32719455](../papers/32719455.md)
 - Co-amplified in the 8p11.23 amplicon with NSD3 in LSCC; proteomic data argues against FGFR1 as the primary oncogene in this amplicon, consistent with the historical failure of FGFR1-targeted therapy in LSCC [PMID:34358469](../papers/34358469.md)
+- FGFR1 cited as a reported CDK4/6i resistance mechanism operating outside the CDK6-INK4 axis in HR+/HER2- metastatic breast cancer; not directly assayed in the study (1,115-patient MSK-IMPACT cohort). [PMID:34544752](../papers/34544752.md)
 
 ## Cancer types (linked)
 
@@ -165,5 +166,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

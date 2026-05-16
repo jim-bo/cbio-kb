@@ -10,7 +10,7 @@ tags:
   - HRD
   - PARPi
   - germline
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -37,6 +37,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - PALB2 is among the top germline-variant-bearing genes in the core DDR predisposition pathway (23 of 36 DDR-affecting predisposition genes belong to Core DDR) across approximately 8% of TCGA pan-cancer samples [PMID:29625049](../papers/29625049.md)
 - Germline protein-truncating variants in PALB2 were associated with elevated somatic SV/SNV burden, APOBEC signature 2, and BRCAness signature 3 in early-onset prostate cancer (EOPC); PALB2-mutated patients are candidates for PARP inhibitor therapy [PMID:30537516](../papers/30537516.md).
 - Among the moderate- and low-penetrance germline cancer-predisposition genes interrogated in EO-CRC; rates of PALB2 mutations were similar between early-onset and average-onset cohorts after adjustment for number of genes tested [PMID:34405229](../papers/34405229.md).
+- PALB2 cited as an established HR pathway gene and comparator context for RAD51B susceptibility; used in the clinical interpretation framework for germline panel recommendations in an MSK-IMPACT cohort of 18,087 cancer patients (including 2,265 breast and 1,157 ovarian cancers). [PMID:34635660](../papers/34635660.md)
 
 ## Cancer types (linked)
 
@@ -87,3 +88,6 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - [PMID:34405229](../papers/34405229.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34635660](../papers/34635660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

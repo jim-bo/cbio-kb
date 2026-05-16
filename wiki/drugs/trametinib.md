@@ -35,6 +35,7 @@ Allosteric MEK1/2 inhibitor.
 - A melanoma cell line harboring GON4L-NTRK1 fusion + NRAS Q61R was insensitive to larotrectinib and LOXO-195 (with absent pan-TRK expression) but responsive to trametinib, demonstrating that co-occurring MAPK pathway activation can redirect oncogenic dependence away from TRK toward RAS-MEK signaling [PMID:31871300](../papers/31871300.md).
 - Used in combination with dabrafenib in 8 of 11 BRAFi+MEKi combination-arm patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md); pretreatment [PTEN](../genes/PTEN.md) loss and elevated [BRAF](../genes/BRAF.md)-mutant allele fraction were identified as candidate biomarkers for response in this 66-patient cohort [PMID:32913971](../papers/32913971.md).
 - Produced a durable complete response in a BRAF V600 wild-type melanoma patient with BRAF K601E (Class 2) + MAP2K1 E203K co-mutation after progression through checkpoint blockade [PMID:33509808](../papers/33509808.md)
+- In MAPK-altered (NF1-null, ERBB2-mutant, KRAS-mutant) HER2+ breast cancer, trametinib (MEK inhibitor) IC50 drops ~57-fold in NF1-depleted cells (738→13 nM); BT-474 shNF1 xenografts show 37% tumor growth inhibition at 1 mg/kg, and a HER2+/NF1-null PDX shows 70% growth inhibition with trametinib monotherapy (p<0.001). [PMID:34795269](../papers/34795269.md)
 
 ## Resistance mechanisms
 
@@ -88,3 +89,6 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

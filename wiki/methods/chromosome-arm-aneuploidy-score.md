@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [aneuploidy, copy-number, pan-cancer, score]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Chromosome Arm Aneuploidy Score
@@ -18,6 +18,7 @@ A quantitative per-sample metric that counts the number of chromosome arms showi
 ## Used by
 
 - Defined and applied to 10,522 TCGA pan-cancer tumors across 33 cancer types; score correlates almost perfectly with fraction of genome altered (Spearman ρ = 0.975); reveals [TP53](../genes/TP53.md) mutation as the only positive outlier in a pan-cancer multivariable linear model; shows cancer-type-specific clustering by arm-level pattern (squamous cluster: chr_3p loss + chr_3q gain) [PMID:29622463](../papers/29622463.md)
+- Arm-level CNAs in 2,069 MSK-IMPACT-profiled prostate cancer patients were called with ASCETS; chr8q gain was enriched in Black men (49%) vs White men (37%, adjusted difference +11 pp, 95% CI 4–18) and was independently prognostic for survival [PMID:34667026](../papers/34667026.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ A quantitative per-sample metric that counts the number of chromosome arms showi
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

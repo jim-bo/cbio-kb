@@ -3,7 +3,7 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS, ACRM]
 tags: [cell-cycle, amplification, actionable]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -61,6 +61,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Amplifications enriched in pN-negative LUAD tumors (8% vs 1.2%, P=0.029) in a 514-sample LUAD pN-metastasis genomics cohort; CDK4 amplification is one of the rare alterations negatively associated with lymph-node metastasis. [PMID:34290393](../papers/34290393.md)
 - No significant association of CDK4 amplification with CDKN2A/p16 or Rb protein levels in CPTAC LSCC proteogenomics (108 tumors); downstream functional assessment (RB1 protein + phospho-Rb) rather than CDK4 copy number alone proposed to guide CDK4/6-inhibitor patient selection. [PMID:34358469](../papers/34358469.md)
 - CDK4 germline variant identified in 1 forte-subtype LCINS tumor (232-sample WGS cohort); part of driver/timing observations across subtypes. [PMID:34493867](../papers/34493867.md)
+- CDK4 is fully inhibited by CDK4/6i in both sensitive and resistant HR+/HER2− breast cancer cells; CDK4 does not bind INK4 proteins in abemaciclib-resistant FAT1CR cells (zero peptides in IP-MS); co-degradation of CDK4 + CDK6 via PROTAC is required for sustained antitumor activity in resistant models [PMID:34544752](../papers/34544752.md)
 
 ## Cancer types (linked)
 
@@ -203,3 +204,6 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

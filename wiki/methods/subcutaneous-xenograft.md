@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: false
 tags: [in-vivo, mouse-model, tumor-model, xenograft]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Subcutaneous Xenograft
@@ -24,6 +24,8 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - ACC patient-derived primagraft (PDX) models in Foxn1nu mice used for in vivo BET bromodomain inhibitor JQ1 testing (50 mg/kg daily oral); grade-2 primagrafts responded (tumor growth slowed) while grade-3 Notch-activated primagrafts did not [PMID:26829750](../papers/26829750.md)
 - 22Rv1 cell-derived subcutaneous xenografts (CDX) in NOD-SCID mice used to demonstrate in vivo TRMT10A-knockdown olaparib sensitization; combination index (CI = 0.76) for olaparib (50 mg/kg) + spautin-1 (20 mg/kg) [PMID:28068672](../papers/28068672.md).
 - DU145 and PC3 cells with NOL10 knockdown or USF1 knockdown grown as subcutaneous xenografts in male nude mice; NOL10-knockdown xenografts were significantly smaller by volume and weight, with lower Ki67, lower Vimentin, and higher E-cadherin by IHC [PMID:28927585](../papers/28927585.md)
+- Used subcutaneous MCF7 CDK6-overexpressing and shPTEN xenografts in nude mice to demonstrate that PROTAC degraders BSJ-05-017 and BSJ-03-096 suppress tumor volume by 47–69% vs ribociclib failure in CDK4/6i-resistant ER+ breast cancer [PMID:34544752](../papers/34544752.md)
+- Used BT-474 shNF1 subcutaneous xenografts to show 37% growth inhibition with trametinib 1 mg/kg (p=0.0059), demonstrating MEK dependency in MAPK-altered HER2+ breast cancer resistant to anti-HER2 therapy [PMID:34795269](../papers/34795269.md)
 
 ## Notes
 
@@ -53,3 +55,9 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

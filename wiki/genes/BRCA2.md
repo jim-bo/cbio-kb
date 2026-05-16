@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -97,6 +97,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; specific carrier frequencies shown in Figure 4; rates similar between EO and AO CRC after adjustment. [PMID:34405229](../papers/34405229.md)
 - Germline variants in BRCA2 identified in LCINS WGS cohort; BRCA2 LOH enriched in RTK-RAS+ tumors; >15% of tumors have LOH of an HRD-associated gene, nominating PARP inhibitor candidates. [PMID:34493867](../papers/34493867.md)
 - Referenced as germline-mutation context for PARP-inhibitor therapy in pancreatic ductal adenocarcinoma in CPTAC PDAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
+- BRCA2 cited as established HR-pathway gene; 3 RAD51B germline carriers were excluded from primary analysis because they co-harbored a deleterious BRCA2 variant; biallelic BRCA2 loss defines the strongest HRD benchmark used to calibrate biallelic RAD51B phenotype (intermediate LST/Signature 3) [PMID:34635660](../papers/34635660.md)
+- No significant difference in BRCA2 alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) profiled on MSK-IMPACT, contrasting with the prior Project GENIE-based analysis [PMID:34667026](../papers/34667026.md)
+- BRCA2 captured as clinical covariate (10/45 HGSOC patients mutated); no significant association with total curvature group (p=1.000) in ICI-treated HGSOC cohort [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -316,3 +319,12 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34635660](../papers/34635660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

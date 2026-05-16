@@ -68,6 +68,9 @@ OncoTree code for invasive breast carcinoma.
 - WES of 3 juvenile papillomatosis (JP) breast lesions found clonal [PIK3CA](../genes/PIK3CA.md) hotspot mutations (H1047R, E542K) in 2/3 cases; JP, [DCIS](../cancer_types/DCIS.md), and [IDC](../cancer_types/IDC.md) components were clonally related in 1 case sharing PIK3CA E542K with APOBEC signature shift during progression [PMID:33263939](../papers/33263939.md)
 - cf-IMPACT targeted cfDNA profiling (410-gene panel) identified somatic mutations in breast cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; [PIK3CA](../genes/PIK3CA.md) OncoKB level 1 alterations identified in plasma of breast cancer patients, supporting [alpelisib](../drugs/alpelisib.md) eligibility; [ESR1](../genes/ESR1.md) p.E380Q (1.7% VAF) detected by MSK-ACCESS in a metastatic breast cancer patient whose tumor MSK-IMPACT and cf-IMPACT were both negative [PMID:34059130](../papers/34059130.md).
 - MSK-ACCESS (129-gene cfDNA assay) detected OncoKB level 1 actionable alterations in 37% of breast cancer samples profiled prospectively (n=617 patients, 31 tumor types); [ERBB2](../genes/ERBB2.md) and [NF1](../genes/NF1.md) were enriched in cfDNA relative to tissue in breast cancer; panel was designed to capture at least one non-synonymous mutation in 91% of breast cancers [PMID:34145282](../papers/34145282.md).
+- In 1,115 HR+/HER2− metastatic breast cancer patients (MSK-IMPACT cohort, [breast_ink4_msk_2021](../datasets/breast_ink4_msk_2021.md)), 17% (190/1,115) carried alterations in CDK6-axis genes ([FAT1](../genes/FAT1.md) 1.6%, [PTEN](../genes/PTEN.md) 8%, [ARID1A](../genes/ARID1A.md) 8%, [RB1](../genes/RB1.md) 4%, [CDK6](../genes/CDK6.md) amp 0.4%, [LATS1](../genes/LATS1.md)/[LATS2](../genes/LATS2.md) 1.3%, [YAP1](../genes/YAP1.md) 0.5%) converging on CDK6 upregulation and CDK4/6i resistance via INK4-locked CDK6; PROTAC degraders (BSJ-05-017, BSJ-03-096) restored sensitivity in CDK6-overexpressing and PTEN-loss xenografts [PMID:34544752](../papers/34544752.md)
+- [RAD51B](../genes/RAD51B.md) germline LOF variants significantly enriched in breast cancer: 5/2,265 BRCA patients carried a LOF allele vs 0.10% of gnomAD non-cancer controls (OR 2.69, 95% CI 1.4–5.3, p=0.004); carrier breast cancers were predominantly ER+/PR+/HER2− (4/5 cases); biallelic loss drove dominant Signature 3 and high LST scores consistent with HRD [PMID:34635660](../papers/34635660.md)
+- In 733 ERBB2-amplified breast tumors (664 patients, HER2+ metastatic BRCA, [brca_mapk_hp_msk_2021](../datasets/brca_mapk_hp_msk_2021.md)), MAPK pathway alterations were enriched in metastatic disease — [NF1](../genes/NF1.md) loss 8% vs 4% primary, [ERBB2](../genes/ERBB2.md) activating mutations 7% vs 3%; in 145 first-line THP-treated patients, MAPK-altered tumors had median PFS 9.9 vs 21 months (HR 2.03, p=0.011 multivariate) [PMID:34795269](../papers/34795269.md)
 
 ## Subtypes
 
@@ -106,8 +109,10 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29420467](../papers/29420467.md)
+- [PMID:34544752](../papers/34544752.md)
+- [PMID:34635660](../papers/34635660.md)
+- [PMID:34795269](../papers/34795269.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29596782](../papers/29596782.md)
@@ -181,3 +186,12 @@ OncoTree code for invasive breast carcinoma.
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34635660](../papers/34635660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

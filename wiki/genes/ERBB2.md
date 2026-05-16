@@ -26,6 +26,7 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - Recurrent targetable driver mutations and amplifications in NSCLC and breast cancer detected by MSK-ACCESS liquid biopsy; included among 10 genes used to assemble the orthogonal-truth accuracy cohort [PMID:34145282](../papers/34145282.md)
 - Assessed among targetable LUAD driver genes (n=9 genes) without significant difference in alteration frequency between pN-positive and pN-negative tumors [PMID:34290393](../papers/34290393.md)
 - Mutated in 3.9% of LCINS (all indels); overall survival HR = 5.7 (95% CI 1.6-20.4, P=7.2e-3), partially confounded by TP53 co-alteration in 4/7 ERBB2+ tumors [PMID:34493867](../papers/34493867.md)
+- ERBB2 amplification is the cohort entry criterion for 733 HER2+ breast tumors; activating mutations (e.g., L755S) found in 7% of metastatic vs 3% of primary samples drive MAPK reactivation and anti-HER2 resistance; MAPK-altered subgroup has HR 2.03 for PFS on first-line anti-HER2 therapy (p=0.023). [PMID:34795269](../papers/34795269.md)
 
 ## Cancer types (linked)
 
@@ -62,5 +63,8 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

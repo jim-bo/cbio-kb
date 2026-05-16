@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -85,6 +85,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Germline RB1 deletions recovered in two retinoblastoma patients via matched WBC sequencing during MSK-ACCESS cfDNA profiling; would have been reported as somatic without paired-normal data [PMID:34145282](../papers/34145282.md)
 - Mutations associated with upregulated cell-cycle proteins in LSCC; Rb protein loss observed in CDKN2A-WT samples with preserved p16; mutually exclusive with CDKN2A inactivation; loss of RB1 or CDKN2A described as universal in LSCC [PMID:34358469](../papers/34358469.md)
 - Assessed at ≥2% alteration frequency in LUAD; no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
+- Loss (4% of HR+/HER2− breast cancer cohort) is the canonical CDK4/6i-resistance lesion (downstream of CDK4/6) and was a top hit in the PRISM screen for palbociclib insensitivity. [PMID:34544752](../papers/34544752.md)
+- High-positive Δκ<sub>risk</sub> gene flagged as a putative network driver of ICI-modulated robustness in HGSOC, based on CNA-derived network curvature analysis of 45 ICI-treated patients. [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -105,156 +107,75 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 ## Sources
 
 - [PMID:24798001](../papers/24798001.md)
-
 - [PMID:25024180](../papers/25024180.md)
-
 - [PMID:25079552](../papers/25079552.md)
-
 - [PMID:25096233](../papers/25096233.md)
-
 - [PMID:25186949](../papers/25186949.md)
-
 - [PMID:25201530](../papers/25201530.md)
-
 - [PMID:25417114](../papers/25417114.md)
-
 - [PMID:25589618](../papers/25589618.md)
-
 - [PMID:25631445](../papers/25631445.md)
-
 - [PMID:25822088](../papers/25822088.md)
-
 - [PMID:25855536](../papers/25855536.md)
-
 - [PMID:26000489](../papers/26000489.md)
-
 - [PMID:26091043](../papers/26091043.md)
-
 - [PMID:26168399](../papers/26168399.md)
-
 - [PMID:26278805](../papers/26278805.md)
-
 - [PMID:26343386](../papers/26343386.md)
-
 - [PMID:26451490](../papers/26451490.md)
-
 - [PMID:26544944](../papers/26544944.md)
-
 - [PMID:26551667](../papers/26551667.md)
-
 - [PMID:26855148](../papers/26855148.md)
-
 - [PMID:26878173](../papers/26878173.md)
-
 - [PMID:26901067](../papers/26901067.md)
-
 - [PMID:26928463](../papers/26928463.md)
-
 - [PMID:27149842](../papers/27149842.md)
-
 - [PMID:27158780](../papers/27158780.md)
-
 - [PMID:27161491](../papers/27161491.md)
-
 - [PMID:27442865](../papers/27442865.md)
-
 - [PMID:27749842](../papers/27749842.md)
-
 - [PMID:28027327](../papers/28027327.md)
-
 - [PMID:28007021](../papers/28007021.md)
-
 - [PMID:28052061](../papers/28052061.md)
-
 - [PMID:28196596](../papers/28196596.md)
-
 - [PMID:28583311](../papers/28583311.md)
-
 - [PMID:28783718](../papers/28783718.md)
-
 - [PMID:28825054](../papers/28825054.md)
-
 - [PMID:28985567](../papers/28985567.md)
-
 - [PMID:28988769](../papers/28988769.md)
-
 - [PMID:29100075](../papers/29100075.md)
-
 - [PMID:29610475](../papers/29610475.md)
-
 - [PMID:29625049](../papers/29625049.md)
-
 - [PMID:29625050](../papers/29625050.md)
-
 - [PMID:29625057](../papers/29625057.md)
-
 - [PMID:29713087](../papers/29713087.md)
-
 - [PMID:30290956](../papers/30290956.md)
-
 - [PMID:30537516](../papers/30537516.md)
-
 - [PMID:31031003](../papers/31031003.md)
-
 - [PMID:31263031](../papers/31263031.md)
-
 - [PMID:31061129](../papers/31061129.md)
-
 - [PMID:31278255](../papers/31278255.md)
-
 - [PMID:31130341](../papers/31130341.md)
-
 - [PMID:31693904](../papers/31693904.md)
-
 - [PMID:31748746](../papers/31748746.md)
-
 - [PMID:31768066](../papers/31768066.md)
-
 - [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32633890](../papers/32633890.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
+- [PMID:34358469](../papers/34358469.md)
+- [PMID:34290393](../papers/34290393.md)
+- [PMID:34544752](../papers/34544752.md)
+- [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:34358469](../papers/34358469.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:34290393](../papers/34290393.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

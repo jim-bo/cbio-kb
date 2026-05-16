@@ -39,6 +39,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - ESR1 (ER) expression defines the HR+/ERBB2- luminal BRCA subsets; APOBEC mutagenesis in endocrine-resistant ER+ BRCA correlates with active immune-TME and high PD-L1, supporting immunotherapy in ESR1-positive disease [PMID:33212010](../papers/33212010.md)
 - Included among the 10 genes (AKT1, ALK, BRAF, EGFR, ERBB2, ESR1, KRAS, MET, PIK3CA, TP53) used to assemble the orthogonal-truth accuracy cohort for MSK-ACCESS validation [PMID:34145282](../papers/34145282.md)
 - ESR1 p.E380Q (1.7% VAF) detected by MSK-ACCESS in a heavily pre-treated metastatic breast cancer patient whose tumor MSK-IMPACT and cf-IMPACT were both negative; associated with hormonal-therapy resistance; evidence was present in cf-IMPACT data below the assay detection threshold [PMID:34059130](../papers/34059130.md)
+- ESR1 ranks among the high positive Δκ<sub>risk</sub> genes in a 45-patient HGSOC ICI cohort analyzed by geometric network curvature on MSK-IMPACT copy-number data, identifying it as a putative network driver of ICI-modulated robustness. [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -128,5 +129,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34059130](../papers/34059130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

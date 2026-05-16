@@ -3,7 +3,7 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC, BRCA, LGG]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -58,6 +58,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - In a proteogenomic study of 99 GBMs, AKT1 is potentially activated downstream of PTEN loss in proneural, mesenchymal, and classical subtypes; AKT1 protein levels correlate with diacylglycerol (DG) levels in lipidomic profiling. [PMID:33577785](../papers/33577785.md)
 - Included among 10 genes (AKT1, ALK, BRAF, EGFR, ERBB2, ESR1, KRAS, MET, PIK3CA, TP53) used to assemble the orthogonal-truth accuracy cohort for the MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
 - Referenced as a downstream KRAS signaling axis effector (along with PAK1/PAK2 and MAPK-ERK/PI3K) in PDAC proteogenomics; combined PAK1/2 + MAPK-ERK/PI3K-AKT-mTOR inhibition proposed as a strategy to target KRAS-driven signaling in pancreatic ductal adenocarcinoma. [PMID:34534465](../papers/34534465.md)
+- PI3K-pathway co-alteration in HER2+ breast cancer (0.3% of 733 tumors); AKT1 alterations are independent of MAPK-pathway lesions that drive anti-HER2 resistance [PMID:34795269](../papers/34795269.md)
+- AKT1 appears in the top-50 positive Δκ risk gene list in HGSOC ICI-treated patients; network curvature analysis ranks AKT1 as a putative driver of ICI-modulated network robustness [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -193,3 +195,9 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

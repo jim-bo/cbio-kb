@@ -12,7 +12,7 @@ tags:
   - pancreatic-cancer
   - sarcoma
   - functional-precision-medicine
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -43,6 +43,8 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - Among uLMS patients with somatic BRCA2 alterations (7/107 total), PARP-inhibitor-containing therapy produced sustained partial responses; validation in five additional post-data-freeze BRCA2-altered uLMS patients showed at least some radiographic regression including one complete response, with treatment durations 6–28 months; authors argue BRCA testing is justified in all uLMS patients [PMID:32299819](../papers/32299819.md)
 - In MSS mCRC (n=430, MSK-IMPACT), DDR pathway alterations were not associated with survival or oxaliplatin-response benefit (HR 1.1, 95% CI 0.7–1.6, p=0.74), and LST scores showed no HRD enrichment; the authors argue against PARP inhibitor (olaparib-class) strategies in unselected MSS mCRC [PMID:32730818](../papers/32730818.md).
 - In a tumor-fraction-guided cfDNA profiling study (N=118 metastatic solid tumors at MSKCC), [BRCA2](../genes/BRCA2.md) OncoKB level 1 alterations were identified in plasma of prostate cancer patients via cf-IMPACT, supporting olaparib (PARP inhibitor) eligibility; actionable variants were identified in 25% of the full cohort [PMID:34059130](../papers/34059130.md).
+- RAD51B knockdown (shRNA) in MCF-10A and MCF-12A breast epithelial cells confers increased clonogenic sensitivity to olaparib (PARP inhibitor), albeit to a lesser degree than BRCA1 knockdown; biallelic germline RAD51B loss drives an intermediate HRD phenotype (dominant Signature 3, LST-high) predicting partial PARP inhibitor benefit. [PMID:34635660](../papers/34635660.md)
+- In a 45-patient HGSOC cohort treated with ICIs, olaparib was part of combination ICI regimens studied alongside durvalumab; network curvature (Ollivier-Ricci) over CNA profiles outperformed TMB as an OS biomarker (log-rank p=0.00047 vs p=0.032) in this ICI-treated cohort. [PMID:34819508](../papers/34819508.md)
 
 ## Resistance mechanisms
 
@@ -84,3 +86,9 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); BRCA2 OncoKB level 1 alterations in prostate cancer plasma supporting olaparib eligibility.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34635660](../papers/34635660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

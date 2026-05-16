@@ -3,8 +3,8 @@ symbol: XRCC3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # XRCC3
@@ -16,6 +16,7 @@ XRCC3 (X-Ray Repair Cross Complementing 3) encodes a member of the RecA/Rad51 fa
 ## Alterations observed in the corpus
 
 - Recurrent germline pathogenic/likely-pathogenic variant identified in an Indian familial non-small-cell lung cancer cohort enriched for young lung cancer; also observed alongside [ATM](../genes/ATM.md), [CHEK2](../genes/CHEK2.md), [BAP1](../genes/BAP1.md), [FANCA](../genes/FANCA.md), [FANCI](../genes/FANCI.md), [FANCM](../genes/FANCM.md), and [LZTR1](../genes/LZTR1.md) in 17% (13/78) of familial [NSCLC](../cancer_types/NSCLC.md) cases [PMID:27346245](../papers/27346245.md)
+- Classical RAD51 paralog cited as biological context for RAD51B loss-of-function analysis in a cohort of 3,422 breast/ovarian cancer patients. [PMID:34635660](../papers/34635660.md)
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ XRCC3 (X-Ray Repair Cross Complementing 3) encodes a member of the RecA/Rad51 fa
 ## Sources
 
 - [PMID:27346245](../papers/27346245.md)
+- [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

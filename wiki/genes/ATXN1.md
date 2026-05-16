@@ -3,8 +3,8 @@ symbol: ATXN1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ATXN1
@@ -16,6 +16,7 @@ ATXN1 (Ataxin-1) encodes a polyglutamine-containing protein involved in transcri
 ## Alterations observed in the corpus
 
 - MutSigCV-significant mutation in pancreatic ductal adenocarcinoma (PDA); functional role in PDA biology awaits validation [PMID:25855536](../papers/25855536.md)
+- ATXN1 is a high positive Δκ risk gene in HGSOC ICI-treated patients (top-50 list by Δκ rank); flagged as a putative network driver of ICI-modulated robustness in the PPI curvature analysis [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ATXN1 (Ataxin-1) encodes a polyglutamine-containing protein involved in transcri
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

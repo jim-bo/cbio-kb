@@ -4,7 +4,7 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -62,6 +62,7 @@ OncoTree code for prostate adenocarcinoma.
 - CDK12 alterations in 100/1,875 (5.3%) of prostate cancers sequenced by MSK-IMPACT (highest among 25 solid tumor types); CDK12-biallelic (CDK12-Bi) cases showed tandem duplicator phenotype, fewer TMPRSS2-ERG fusions and TP53 mutations, and shorter OS from metastatic diagnosis (median 64.4 vs 74.9 mo; aHR 1.80, 95% CI 1.12-2.89; p=0.024) [PMID:32317181](../papers/32317181.md)
 - cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in prostate cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; [BRCA2](../genes/BRCA2.md) OncoKB level 1 alterations identified in plasma of PRAD patients supporting [olaparib](../drugs/olaparib.md) eligibility; sub-clonal [AR](../genes/AR.md) p.H875Y resistance allele detected by plasma cfDNA below the calling threshold of tumor MSK-IMPACT; an MSI-H mCRPC patient identified from cf-IMPACT received [pembrolizumab](../drugs/pembrolizumab.md) with durable PSA response [PMID:34059130](../papers/34059130.md).
 - MSK-ACCESS cfDNA panel prospectively profiled prostate cancer patients (part of the 28% NSCLC/PRAD/BLCA/PAAD/biliary group, n=617 patients total); [AR](../genes/AR.md) mutations enriched in cfDNA vs MSK-IMPACT in prostate cancer; OncoKB level 1 actionable alterations detected in 48% of BLCA, 37% of BRCA, and 33% of NSCLC samples; PRAD was the second most common cancer type in the cohort; matched WBC sequencing removed >10,000 germline/CH confounders [PMID:34145282](../papers/34145282.md).
+- MSK-IMPACT cohort of 2,069 prostate adenocarcinoma patients (1,841 White, 165 Black, 63 Asian; [prad_msk_stopsack_2021](../datasets/prad_msk_stopsack_2021.md)) revealed race-associated somatic differences: [AR](../genes/AR.md) alterations enriched in Black men (adjusted +5 pp vs White); [FOXA1](../genes/FOXA1.md) class-1 forkhead-domain mutations in 21% vs 8% of Asian vs White men; [TP53](../genes/TP53.md) less frequent in Black men (19% vs 30%; adjusted −10 pp); chr8q gain (enriched for [MYC](../genes/MYC.md)) in 49% Black vs 37% White (adjusted +11 pp), independently prognostic for death (HR 2.00 Black, 1.61 White); area-level income independently associated with chr8q gain, arguing against purely germline interpretation [PMID:34667026](../papers/34667026.md)
 
 ## Subtypes
 
@@ -110,37 +111,18 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:28825054](../papers/28825054.md)
 - [PMID:28927585](../papers/28927585.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29610475](../papers/29610475.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
-
 - [PMID:29625055](../papers/29625055.md)
 - [PMID:30537516](../papers/30537516.md)
 - [PMID:31061129](../papers/31061129.md) — Abida et al. SU2C mCRPC cohort N=429 (PNAS 2019).
+- [PMID:31564440](../papers/31564440.md)
+- [PMID:31768066](../papers/31768066.md)
+- [PMID:32025007](../papers/32025007.md)
+- [PMID:32220891](../papers/32220891.md)
+- [PMID:32317181](../papers/32317181.md)
+- [PMID:34667026](../papers/34667026.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31564440](../papers/31564440.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31768066](../papers/31768066.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32220891](../papers/32220891.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32317181](../papers/32317181.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

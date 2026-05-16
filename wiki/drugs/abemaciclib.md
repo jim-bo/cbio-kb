@@ -10,7 +10,7 @@ tags:
   - targeted_therapy
   - cdk4_6_inhibitor
   - cell_cycle
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,8 @@ Abemaciclib (Verzenio) is a selective CDK4/6 inhibitor that blocks [CDK4](../gen
 
 - In vitro overexpression of candidate resistance drivers ([AKT1](../genes/AKT1.md), [KRAS](../genes/KRAS.md) G12D, [AURKA](../genes/AURKA.md), [CCNE2](../genes/CCNE2.md)) or CRISPR knockout of [RB1](../genes/RB1.md) in T47D and MCF7 HR+/HER2- breast cancer cell lines was sufficient to confer resistance to abemaciclib (and palbociclib), validating each alteration as a functional CDK4/6i resistance mechanism; context-dependence was noted (AURKA overexpression drove resistance in T47D but not MCF7) [PMID:32404308](../papers/32404308.md).
 - In LUSC, universal CDK4/6-pathway dysregulation means every tumor loses CDKN2A or RB1 function; heterogeneous Rb protein and phospho-Rb in CCND1-amplified tumors may explain variable responses to abemaciclib, and the authors argue RB1 protein + phospho-Rb status should guide patient selection over CDKN2A status alone [PMID:34358469](../papers/34358469.md)
+- In CDK4/6i-resistant ER+ breast cancer, abemaciclib retains inhibitory activity against CDK4 (84% reduction) but loses potency against INK4-bound CDK6 (only 48% reduction) in FAT1-knockout MCF7 cells; abemaciclib Kd to CDK6 rises ~4-fold in the presence of p18INK4C. In MAPK-altered HER2+ breast cancer, NF1-null cells show marked CDK4/6 inhibitor resistance (abemaciclib IC50 2816→2981 nM). [PMID:34544752](../papers/34544752.md)
+- In MAPK-altered HER2+ breast cancer (NF1-null or ERBB2-mutant), abemaciclib (LY-2835219) showed no differential resistance compared to parental cells (IC50 2816→2981 nM), confirming CDK4/6 inhibitors are ineffective in the MEK/ERK-driven resistance context where CDK2 becomes the dominant cell-cycle driver. [PMID:34795269](../papers/34795269.md)
 
 ## Resistance mechanisms
 
@@ -46,3 +48,9 @@ Abemaciclib (Verzenio) is a selective CDK4/6 inhibitor that blocks [CDK4](../gen
 - [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

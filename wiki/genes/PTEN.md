@@ -3,7 +3,7 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -151,6 +151,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Mutations identified only in TERT-WT metaplastic breast carcinomas (MBC); not reaching statistical significance after multiple-testing correction [PMID:33863915](../papers/33863915.md)
 - Mutated or focally deleted in 6.0% of CSCC tumors; PI3K pathway co-alteration with PIK3CA in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
 - Assessed at ≥2% alteration frequency in LUAD; no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
+- Loss (8% of HR+/HER2− breast cancer cohort) upregulates CDK6 via AKT activation; AKT inhibitor MK-2206 (2 µmol/L) reverses CDK6 induction in PTEN-knockdown cells, driving abemaciclib resistance. [PMID:34544752](../papers/34544752.md)
+- Fewer alterations in Black and Asian prostate cancer patients compared to White patients (particularly fewer mutations) in MSK-IMPACT cohort (n=1,123); relevant to PI3K-inhibitor strategies in prostate cancer. [PMID:34667026](../papers/34667026.md)
+- Co-occurring PI3K-pathway alteration (2.6% of HER2+ breast cancer cohort); MAPK-pathway resistance signal in HER2+ breast cancer is independent of PTEN/PI3K status. [PMID:34795269](../papers/34795269.md)
 
 ## Cancer types (linked)
 
@@ -175,6 +178,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - None flagged.
 
 ## Sources
+
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:18948947](../papers/18948947.md)
 - [PMID:20579941](../papers/20579941.md)
@@ -307,17 +311,12 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39506116](../papers/39506116.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+- [PMID:34290393](../papers/34290393.md)
+- [PMID:34544752](../papers/34544752.md)
+- [PMID:34667026](../papers/34667026.md)
+- [PMID:34795269](../papers/34795269.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:34290393](../papers/34290393.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

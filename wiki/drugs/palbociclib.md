@@ -9,7 +9,7 @@ unverified: true
 tags:
   - targeted-therapy
   - cdk-inhibitor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -30,6 +30,8 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - CDK4/6 inhibitor used in 49/58 (84.5%) patients in the Wander et al. HR+/HER2- metastatic breast cancer cohort; eight resistance mechanisms were identified in 65.9% of resistant tumors, including RB1 loss, AKT1 activation, RAS mutations, AURKA amplification, CCNE2 amplification, ERBB2 alterations, FGFR2 alterations, and ER loss; in vitro overexpression/CRISPR validated palbociclib and abemaciclib resistance [PMID:32404308](../papers/32404308.md).
 - In the CPTAC breast cancer proteogenomics cohort (n=122), Rb protein and median Rb phosphosite positively correlated with proliferation in HR+/ERBB2− tumors but negatively in TNBC (ρ = −0.54, p = 0.003 protein; ρ = −0.46, p = 0.015 phospho); GDSC cell-line data showed Rb protein level predicts palbociclib response in RB1-wild-type lines (ρ = −0.61, p = 0.022), arguing that protein-level Rb assessment adds predictive value beyond RB1 genotype alone. [PMID:33212010](../papers/33212010.md)
 - In LUSC, universal CDK4/6-pathway dysregulation means every tumor loses CDKN2A or RB1 function; heterogeneous Rb protein and phospho-Rb in CCND1-amplified tumors may explain variable responses to palbociclib, and the authors argue RB1 protein + phospho-Rb status should guide patient selection over CDKN2A status alone [PMID:34358469](../papers/34358469.md)
+- In CDK4/6i-resistant ER+ breast cancer, INK4-bound CDK6 selectively shrinks the palbociclib-binding pocket by 85% (computational modeling); CDK6-high (FAT1-null) cells have palbociclib IC50 252 nM vs 19 nM in parental MCF7. Palbociclib-based PROTACs (BSJ-05-017, BSJ-03-096) overcome INK4-locked CDK6 in xenograft models. [PMID:34544752](../papers/34544752.md)
+- In NF1-null HER2+ breast cancer, palbociclib IC50 rises from 292 nM (control) to 857 nM (NF1-depleted cells), demonstrating CDK4/6 inhibitor resistance in MAPK-activated HER2+ disease where CDK2 supplants CDK4/6 as the dominant G1/S regulator. [PMID:34795269](../papers/34795269.md)
 
 ## Resistance mechanisms
 
@@ -57,3 +59,9 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: RAD51D
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -17,6 +17,7 @@ RAD51D is a member of the RAD51 paralog family involved in homologous recombinat
 
 - RAD51D assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study as part of the HRD gene panel [PMID:36228155](../papers/36228155.md)
 - Germline variant identified in n=2 LCINS LUAD patients; RAD51D germline variants among HR gene carriers in this cohort; HRD-associated germline gene LOH enriched in RTK-RAS-positive tumors [PMID:34493867](../papers/34493867.md)
+- Established cancer predisposition gene; combined carrier frequency with RAD51C was 16/3,422 in a breast/ovarian cancer cohort. Associated with triple-negative breast cancer. Three RAD51B carriers were excluded from primary analysis due to co-harboring deleterious RAD51D variants. [PMID:34635660](../papers/34635660.md)
 
 ## Cancer types (linked)
 
@@ -31,8 +32,7 @@ RAD51D is a member of the RAD51 paralog family involved in homologous recombinat
 ## Sources
 
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:34493867](../papers/34493867.md)
+- [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

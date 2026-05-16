@@ -3,7 +3,7 @@ symbol: TP53BP1
 aliases: [53BP1, TP53-binding protein 1]
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,7 @@ TP53BP1 ([TP53](../genes/TP53.md) Binding Protein 1), commonly known as 53BP1, i
 ## Alterations observed in the corpus
 
 - S1763 phosphosite elevated in serous endometrial tumors; PLK1-driven inactivation of the DDR and G2M-checkpoint progression [PMID:32059776](../papers/32059776.md)
+- DNA-repair gene with no significant prevalence difference by race/ancestry in prostate cancer patients profiled on MSK-IMPACT (Black, Asian, White men; n=1,123). [PMID:34667026](../papers/34667026.md)
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ TP53BP1 ([TP53](../genes/TP53.md) Binding Protein 1), commonly known as 53BP1, i
 ## Sources
 
 - [PMID:32059776](../papers/32059776.md)
+- [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

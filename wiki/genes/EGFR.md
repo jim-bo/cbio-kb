@@ -28,6 +28,8 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - Most frequently altered gene in LUAD (33% pN-negative / 31% pN-positive); no significant difference in alteration frequency by pathologic lymph node (pN) status in a 426-patient cohort [PMID:34290393](../papers/34290393.md)
 - Protein significantly upregulated in LSCC and HNSCC but not LUAD; EGFR amplification did not correlate with PROGENy EGFR pathway activity, which instead tracked mRNA abundance of five EGFR ligands; ligand abundance proposed as a better biomarker for response to cetuximab-class therapy in squamous lung tumors [PMID:34358469](../papers/34358469.md)
 - Most frequently altered RTK-RAS gene in lung cancers from never smokers (LCINS; 30.6% overall, 51.4% in mezzo-forte SCNA subtype); mutations occur before clonal copy gain; MRCA appears ~8 yr before clinical diagnosis; independently associated with poor overall survival [PMID:34493867](../papers/34493867.md)
+- EGFR alterations in 0.9% of metastatic and 1% of primary HER2+ breast tumors (n=733); low-frequency MAPK-pathway co-alteration context with NF1, KRAS, BRAF, MAP2K1 [PMID:34795269](../papers/34795269.md)
+- EGFR is a high-positive Δκ risk gene in HGSOC ICI-treated patients, flagged as a putative network driver of ICI-modulated robustness alongside EP300, SMAD2, PIK3R1, RB1, ESR1, ATXN1 [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +72,11 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

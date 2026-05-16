@@ -56,6 +56,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MSH6 IHC loss in one of two hypermutated MSI-H uLMS cases; no somatic driver identified in MSH6, suggesting epigenetic or germline etiology; that patient remains disease-free 13 years from diagnosis after multimodality therapy without immune checkpoint inhibitors [PMID:32299819](../papers/32299819.md)
 - MSH6 IHC loss in MSI-H UTUC (UCC17) without identifiable germline cause; Lynch-associated UTUC with MSH2/MSH6 alterations showed resistance to neoadjuvant gemcitabine/cisplatin (0/2 pathologic responses), supporting triage to immune checkpoint blockade [PMID:32332851](../papers/32332851.md)
 - MMR gene transcriptionally upregulated in SWNTS-SWNs; MSH6 promoter is hypomethylated in SWNTS-SWNs; COSMIC signatures 6/15 present without microsatellite instability [PMID:33025139](../papers/33025139.md)
+- Germline Lynch syndrome mismatch-repair gene; MSH6 P/LP germline variants contributed to the 5.5% Lynch syndrome prevalence among EO-CRC patients (9 of 14 high-penetrance carriers); MSH6 is among genes tested on the 76- and 88-gene germline panels [PMID:34405229](../papers/34405229.md).
+- Germline MSH6 variant identified in a piano-subtype lung cancer in never-smokers tumor; driver/timing observation noted alongside RET, RBM10, and SOS1 germline variants [PMID:34493867](../papers/34493867.md).
 
 ## Cancer types (linked)
 
@@ -122,5 +124,9 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40328872](../papers/40328872.md)
+
+- [PMID:34405229](../papers/34405229.md)
+
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

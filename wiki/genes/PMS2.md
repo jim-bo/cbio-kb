@@ -3,7 +3,7 @@ symbol: PMS2
 aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
@@ -38,6 +38,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - MLH1/PMS2 (MutL) mismatch repair components are downregulated at the protein level in MSI cell lines; MMR protein abundance predicts WRN knockdown sensitivity [PMID:31978347](../papers/31978347.md)
 - PMS1/PMS2 protein levels are downregulated in MSI endometrial tumors (MLH1 loss destabilizes them at the protein level, not transcript level) [PMID:32059776](../papers/32059776.md)
 - MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
+- Germline Lynch syndrome mismatch-repair gene variant; PMS2 (with MLH1, MSH2, MSH6) germline P/LP variants accounted for 5.5% of all EO-CRCs and 9 of 14 high-penetrance carriers in EO-CRC [PMID:34405229](../papers/34405229.md)
 
 ## Cancer types (linked)
 
@@ -85,3 +86,6 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

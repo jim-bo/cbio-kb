@@ -7,8 +7,8 @@ tags:
   - pancreatic
   - adenosquamous
   - rare
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Adenosquamous Carcinoma of the Pancreas (PAASC)
@@ -25,6 +25,7 @@ Adenosquamous carcinoma of the pancreas is a rare biphasic malignancy classified
 
 - [MYC](../genes/MYC.md) focal amplification at 8q24.13 is uniquely associated with poor overall survival (P=0.0013) and is significantly over-represented in PAASC relative to ductal carcinoma NOS ([PAAD](../cancer_types/PAAD.md)) histology in a 109-case WES cohort; confirmed by FISH with no [MYC](../genes/MYC.md) translocation detected; also detectable in PanIN precursors. [PMID:25855536](../papers/25855536.md)
 - PAASC shares the canonical [PAAD](../cancer_types/PAAD.md) driver backbone ([KRAS](../genes/KRAS.md) 92%, [TP53](../genes/TP53.md) 50%, [SMAD4](../genes/SMAD4.md) 19%, [CDKN2A](../genes/CDKN2A.md)/B 36%) in the same mixed-histology cohort. [PMID:25855536](../papers/25855536.md)
+- CPTAC pancreatic proteogenomics cohort included 5 pancreatic adenosquamous carcinomas (PAASC) within the 140-tumor study (paad_cptac_2021); these were profiled alongside 135 PDACs across 8 omics layers but were too few for subgroup-specific findings; KRAS alterations detected across the combined cohort at 97% [PMID:34534465](../papers/34534465.md)
 
 ## Subtypes
 
@@ -38,4 +39,6 @@ Adenosquamous carcinoma of the pancreas is a rare biphasic malignancy classified
 
 - [PMID:25855536](../papers/25855536.md) — Witkiewicz et al. *Nature Communications* 2015. WES of 109 microdissected pancreatic carcinomas including 11 PAASC.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

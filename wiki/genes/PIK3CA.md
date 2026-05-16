@@ -3,7 +3,7 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -162,6 +162,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - OncoKB level 1 alterations detected in plasma of breast cancer patients via cf-IMPACT, supporting alpelisib eligibility; PIK3CA p.H1047R at very low VAF was a borderline false positive on orthogonal specificity testing [PMID:34059130](../papers/34059130.md)
 - Targetable alterations recurrently detected in intrahepatic cholangiocarcinoma; PIK3CA p.H1047R at 0.05-0.07% VAF was one of two borderline false positives identified on the MSK-ACCESS specificity panel [PMID:34145282](../papers/34145282.md)
 - Mutated in 6.0% of CSCC tumors (PI3K pathway); co-occurs with PTEN loss in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
+- Altered in ~13-17% of MSS colorectal cancer cases with no significant age-cohort difference between early-onset (EO) and adult-onset (AO) CRC [PMID:34290393](../papers/34290393.md)
+- Altered in ~13-17% of MSS EO-CRC tumors across age cohorts with no statistically significant age-cohort difference [PMID:34405229](../papers/34405229.md)
+- Driver/timing observation in LCINS LUAD: PIK3CA mutations occur after copy-number gain events, in contrast to RBM10 and KRAS mutations which precede gain [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -355,3 +358,12 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

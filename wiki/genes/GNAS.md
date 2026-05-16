@@ -28,6 +28,8 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC) [PMID:30052636](../papers/30052636.md)
 - Case-specific private mutation defining an individual IDC-NST subclone in Case 2 multifocal BRCA1-mutant DCIS/IDC-NST by WES [PMID:32220886](../papers/32220886.md)
 - Mutated in 1.2% of CSCC tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- Identified as a structural variant (SV) breakpoint hotspot in lung cancers from never smokers (LCINS), together with MDM2, TERT, CDKN2A, NKX2-1, and 6p21 [PMID:34493867](../papers/34493867.md)
+- Significantly mutated gene (SMG) altered in ≥5% of PDAC tumors in the CPTAC proteogenomic cohort (n=140) [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -73,5 +75,11 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

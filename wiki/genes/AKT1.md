@@ -3,7 +3,7 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC, BRCA, LGG]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -57,6 +57,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 activating hotspot mutations were reported in 2/10 juvenile papillomatosis (JP) cases in prior work (Guillet et al.); no AKT1 mutations identified in this 3-case JP-to-breast-cancer cohort [PMID:33263939](../papers/33263939.md)
 - In a proteogenomic study of 99 GBMs, AKT1 is potentially activated downstream of PTEN loss in proneural, mesenchymal, and classical subtypes; AKT1 protein levels correlate with diacylglycerol (DG) levels in lipidomic profiling. [PMID:33577785](../papers/33577785.md)
 - Included among 10 genes (AKT1, ALK, BRAF, EGFR, ERBB2, ESR1, KRAS, MET, PIK3CA, TP53) used to assemble the orthogonal-truth accuracy cohort for the MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
+- Referenced as a downstream KRAS signaling axis effector (along with PAK1/PAK2 and MAPK-ERK/PI3K) in PDAC proteogenomics; combined PAK1/2 + MAPK-ERK/PI3K-AKT-mTOR inhibition proposed as a strategy to target KRAS-driven signaling in pancreatic ductal adenocarcinoma. [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -185,7 +186,10 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

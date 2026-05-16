@@ -24,6 +24,8 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - ERBB2 is an RTK gene in the 28-gene driver list for melanoma (mel_mskimpact_2020, n=1,145); appears more often as a co-alteration rather than a standalone driver in this cohort [PMID:33509808](../papers/33509808.md).
 - ERBB2 rare amplification in 7 cases of intrahepatic cholangiocarcinoma (ihch_msk_2021, n=412) [PMID:33765338](../papers/33765338.md).
 - Recurrent targetable driver mutations and amplifications in NSCLC and breast cancer detected by MSK-ACCESS liquid biopsy; included among 10 genes used to assemble the orthogonal-truth accuracy cohort [PMID:34145282](../papers/34145282.md)
+- Assessed among targetable LUAD driver genes (n=9 genes) without significant difference in alteration frequency between pN-positive and pN-negative tumors [PMID:34290393](../papers/34290393.md)
+- Mutated in 3.9% of LCINS (all indels); overall survival HR = 5.7 (95% CI 1.6-20.4, P=7.2e-3), partially confounded by TP53 co-alteration in 4/7 ERBB2+ tumors [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -54,5 +56,11 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

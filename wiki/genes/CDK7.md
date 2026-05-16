@@ -19,6 +19,7 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 
 - Focal copy number loss at chromosome 5 in anaplastic thyroid carcinoma (ATC), identified as part of a comprehensive genomic and evolutionary landscape analysis [PMID:38412093](../papers/38412093.md).
 - Elevated kinase activity in colon cancer tumors (COAD); identified among druggable kinase candidates in CPTAC colorectal proteogenomics; CDK7 inhibitors are in clinical development [PMID:31031003](../papers/31031003.md)
+- Identified as a kinase in a phospho-substrate axis (CDK7-MCM2) with FDA-approved or investigational inhibitors, upregulated in PDAC tumors vs NAT [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -42,5 +43,8 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

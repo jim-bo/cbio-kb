@@ -23,6 +23,8 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - Altered in 18% (14/80) of metastatic panNET patients; predominantly truncating loss-of-function; enriched in G2/G3 tumors and post-treatment biopsies; positioned as a panNET tumor suppressor (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 - Novel recurrent CNA-driven loss in driverless group-4 medulloblastoma (P < 1×10⁻⁴); decreased expression (P = 0.002) in the PCAWG pan-cancer cohort [PMID:32025007](../papers/32025007.md)
 - Enriched in micropapillary/solid (MIP/SOL)-predominant LUAD (8% vs 3% ACI/PAP vs 1.1% LEP; p=0.048) in a 604-patient MSKCC resected cohort. [PMID:32791233](../papers/32791233.md)
+- Assessed at ≥2% alteration frequency in LUAD; no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
+- 8 of 10 SETD2-mutated tumors in the piano subtype of LCINS LUAD; positive prognostic marker (HR = 0.13) [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -61,5 +63,11 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

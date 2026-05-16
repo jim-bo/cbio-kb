@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -83,6 +83,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Altered in 12% of GBM; RB1 protein downregulated with concordant upregulation of MCM2/MCM4/MCM6 (replication licensing factors) [PMID:33577785](../papers/33577785.md)
 - Mutations identified only in TERT-WT metaplastic breast carcinomas (MBC); not reaching statistical significance after multiple-testing correction [PMID:33863915](../papers/33863915.md)
 - Germline RB1 deletions recovered in two retinoblastoma patients via matched WBC sequencing during MSK-ACCESS cfDNA profiling; would have been reported as somatic without paired-normal data [PMID:34145282](../papers/34145282.md)
+- Mutations associated with upregulated cell-cycle proteins in LSCC; Rb protein loss observed in CDKN2A-WT samples with preserved p16; mutually exclusive with CDKN2A inactivation; loss of RB1 or CDKN2A described as universal in LSCC [PMID:34358469](../papers/34358469.md)
+- Assessed at ≥2% alteration frequency in LUAD; no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
 
 ## Cancer types (linked)
 
@@ -250,3 +252,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

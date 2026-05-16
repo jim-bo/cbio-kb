@@ -3,8 +3,8 @@ symbol: ROR2
 aliases: []
 cancer_types: [SKCM]
 tags: [mesenchymal-transition, WNT, IPRES, immunotherapy-resistance, melanoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ROR2
@@ -16,6 +16,7 @@ ROR2 (Receptor Tyrosine Kinase-Like Orphan Receptor 2) is a transmembrane recept
 ## Alterations observed in the corpus
 
 - ROR2 is upregulated in non-responding pretreatment metastatic melanoma tumors (n=38 WES, n=28 RNA-seq; anti-PD-1 therapy with [pembrolizumab](../drugs/pembrolizumab.md) or [nivolumab](../drugs/nivolumab.md)); classified as a mesenchymal-transition transcript co-enriched within the IPRES (Innate anti-PD-1 Resistance) transcriptional signature. ROR2 upregulation co-occurs with [AXL](../genes/AXL.md), [WNT5A](../genes/WNT5A.md), [LOXL2](../genes/LOXL2.md), [TWIST2](../genes/TWIST2.md), [TAGLN](../genes/TAGLN.md), and [FAP](../genes/FAP.md) in non-responders. IPRES co-enrichment was present in 9/13 non-responding vs 1/15 responding pretreatment tumors (Fisher P=0.013, OR=4.6). [PMID:26997480](../papers/26997480.md)
+- High CBPE phosphoproteomic activity score in the EMT-E subtype in LSCC; implicated as a targetable RTK in non-canonical Wnt signaling and EMT progression; pharmacologic TGFβ inhibition predicted to reverse the EMT-E signature [PMID:34358469](../papers/34358469.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ROR2 (Receptor Tyrosine Kinase-Like Orphan Receptor 2) is a transmembrane recept
 - [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

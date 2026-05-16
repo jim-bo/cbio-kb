@@ -5,8 +5,8 @@ drug_class: KRASG12C inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted_therapy, ras_inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # sotorasib
@@ -18,6 +18,7 @@ Sotorasib (AMG 510) is a covalent, irreversible small-molecule inhibitor targeti
 ## Evidence in the corpus
 
 - Used in combination with [cetuximab](../drugs/cetuximab.md) or [panitumumab](../drugs/panitumumab.md) (anti-EGFR antibodies) for KRASG12C-mutant colorectal cancer (n=4 patients: sotorasib + panitumumab); response rate approximately 27% for sotorasib + panitumumab. KRASG12C amplification identified as a recurrent acquired resistance mechanism, tracking with tumor markers; mTOR inhibition (AZD8055) proposed as a senolytic strategy after drug withdrawal [PMID:36355783](../papers/36355783.md)
+- In PDAC, KRAS G12C is present in <1% of 140 treatment-naive tumors (paad_cptac_2021); sotorasib (AMG 510) and analogous KRAS-G12C inhibitors therefore apply to only a small PDAC minority — for the broader cohort the authors propose combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors as an alternative strategy to target KRAS-driven signaling [PMID:34534465](../papers/34534465.md)
 
 ## Resistance mechanisms
 
@@ -27,9 +28,11 @@ Sotorasib (AMG 510) is a covalent, irreversible small-molecule inhibitor targeti
 ## Cancer types (linked)
 
 - [COADREAD](../cancer_types/COADREAD.md) — KRASG12C-mutant colorectal cancer treated with sotorasib + panitumumab combination
+- [PAAD](../cancer_types/PAAD.md) — KRAS G12C present in <1% of PDAC; sotorasib applicable to this rare subset
 
 ## Sources
 
 - [PMID:36355783](../papers/36355783.md)
+- [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

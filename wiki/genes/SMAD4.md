@@ -25,6 +25,9 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - Pan-cancer PCAWG driver in 181 tumors [PMID:32025007](../papers/32025007.md)
 - Known LUAD subclonal gene with higher alteration frequency in MIP/SOL-predominant tumors; cited alongside NF1 and ATM as subclonal drivers in aggressive LUAD histologic subtypes. [PMID:32791233](../papers/32791233.md)
 - Alterations associated with worse OS in esophageal adenocarcinoma (EAC) (KM p=0.028; multivariable HR 1.61, 95% CI 1.14-2.28, p=0.007; n=487 MSK cohort); consistent with prior reports linking SMAD4 loss to disease recurrence [PMID:33795256](../papers/33795256.md)
+- Alterations independently associated with pathologic LN metastasis in LUAD (multivariable OR 5.01, p=0.02); 7% in pN+ vs 1.5% in pN- (p=0.011); reduced SMAD4 expression linked to increased DNA damage, reduced DNA repair, and topoisomerase inhibitor sensitivity [PMID:34290393](../papers/34290393.md)
+- Altered in ~15-19% across MSS CRC age cohorts; SMAD4 alteration independently associated with worse survival (HR=1.46, 95% CI 1.08-1.94; P=0.01) [PMID:34405229](../papers/34405229.md)
+- Altered in 29% of PDAC (more frequent in C1 classical subtype); downregulates SERPINE1 mRNA/protein; deletions raise phospho-HDAC1 (S406/S410/S421), phospho-SMARCA4 S613, and phospho-CREBBP S274 [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -69,5 +72,14 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

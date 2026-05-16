@@ -4,7 +4,7 @@ oncotree_code: PAAD
 main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -42,6 +42,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - Pancreatic adenocarcinoma (n=4, 5.3%) was among TRK fusion-positive tumor types in the MSK prospective cohort; pancreatic cancers were over-represented in the MSK real-world cohort relative to the pivotal larotrectinib trial cohort [PMID:31871300](../papers/31871300.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); pancreatic adenocarcinoma analyzed for somatic driver landscape including [KRAS](../genes/KRAS.md) (287 PCAWG driver events), [SMAD4](../genes/SMAD4.md), and [ARID1A](../genes/ARID1A.md) alterations [PMID:32025007](../papers/32025007.md).
 - MSK-ACCESS cfDNA panel prospectively profiled pancreatic cancer patients (part of 28% group including PAAD/BLCA/PRAD/biliary, n=617 patients total); [KRAS](../genes/KRAS.md) was noted as a gene where cfDNA detection was lower than tissue in pancreatic cancer; matched WBC sequencing removed >10,000 germline/CH confounders that would otherwise appear as false somatic calls in pancreatic cancer plasma [PMID:34145282](../papers/34145282.md).
+- CPTAC proteogenomic study of 140 treatment-naive pancreatic tumors (135 PDAC + 5 adenosquamous) found KRAS alterations in 97%, TP53 in 83%, CDKN2A in 48%, and SMAD4 in 29%; two proteogenomic subtypes (C1 classical, C2 basal-like) showed stronger prognostic separation than Moffitt RNA-only subtypes (HR 3.4 vs 2.3); only ~6% of tumors were immune-hot; dataset paad_cptac_2021 [PMID:34534465](../papers/34534465.md)
 
 ## Subtypes
 
@@ -115,4 +116,6 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

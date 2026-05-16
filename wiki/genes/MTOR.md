@@ -47,6 +47,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - PI3K-downstream pathway alteration (alongside AKT1) with disproportionate VAF expansion under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505); identified as a mechanism of acquired resistance. [PMID:32864625](../papers/32864625.md)
 - Rare non-recurrent VUS observed in both excellent and poor responders to BRAFi in BRAF-mutant melanoma; no recurrent activating MTOR mutations identified in this 66-patient pretreatment cohort [PMID:32913971](../papers/32913971.md)
 - Hotspot mutation observed in 1.2% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
+- PI3K-AKT-mTOR axis inhibition proposed as a combination strategy with PAK1/PAK2 inhibition to target KRAS-driven signaling in [PAAD](../cancer_types/PAAD.md); mTOR-axis inhibitors (PP-242) enriched in C2 (basal-like) drug signatures [PMID:34534465](../papers/34534465.md).
 
 ## Cancer types (linked)
 
@@ -92,7 +93,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:32864625](../papers/32864625.md)
 - [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

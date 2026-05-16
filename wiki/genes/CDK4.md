@@ -3,7 +3,7 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS, ACRM]
 tags: [cell-cycle, amplification, actionable]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -58,6 +58,9 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Kinase-activity inference flags CDK4 activation in CNV-high vs CNV-low endometrioid endometrial carcinoma; multiple FDA-approved CDK4/6 inhibitors are available as candidate therapeutics [PMID:32059776](../papers/32059776.md)
 - CDK4 protein abundance elevated in RB1-mutant LUAD, suggesting potential CDK4/6-inhibitor resistance mechanism [PMID:32649874](../papers/32649874.md)
 - CDK4/6 activity tracks proliferation in HR+/ERBB2− but not TNBC breast tumors (CPTAC proteogenomics, n=122); in TNBC, Rb protein status — not RB1 genotype — determines CDK4/6 inhibitor sensitivity [PMID:33212010](../papers/33212010.md)
+- Amplifications enriched in pN-negative LUAD tumors (8% vs 1.2%, P=0.029) in a 514-sample LUAD pN-metastasis genomics cohort; CDK4 amplification is one of the rare alterations negatively associated with lymph-node metastasis. [PMID:34290393](../papers/34290393.md)
+- No significant association of CDK4 amplification with CDKN2A/p16 or Rb protein levels in CPTAC LSCC proteogenomics (108 tumors); downstream functional assessment (RB1 protein + phospho-Rb) rather than CDK4 copy number alone proposed to guide CDK4/6-inhibitor patient selection. [PMID:34358469](../papers/34358469.md)
+- CDK4 germline variant identified in 1 forte-subtype LCINS tumor (232-sample WGS cohort); part of driver/timing observations across subtypes. [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -156,38 +159,47 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31748746](../papers/31748746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 - [PMID:33212010](../papers/33212010.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

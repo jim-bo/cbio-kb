@@ -5,7 +5,7 @@ drug_class: vinca alkaloid / microtubule inhibitor
 canonical_source: corpus
 unverified: true
 tags: [urothelial, bladder-cancer, chemotherapy]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ Vinblastine is a vinca alkaloid that inhibits tubulin polymerization, disrupting
 ## Evidence in the corpus
 
 - In a retrospective clinical cohort of 288 MSKCC patients with muscle-invasive bladder cancer receiving cisplatin-based NAC (MVAC or gemcitabine/cisplatin) followed by radical cystectomy, secondary MIBC patients had lower pathologic response rates (26% vs 45%) and worse survival outcomes than primary MIBC patients; the differential outcomes were linked to genomic differences including enrichment of [ERCC2](../genes/ERCC2.md) missense mutations in primary MIBC [PMID:30290956](../papers/30290956.md).
+- In PDAC proteogenomic subtyping (n=140, paad_cptac_2021), DSigDB GSEA associated vinblastine drug signatures with the C1 (classical/proteogenomic-classical) subtype, nominating it alongside docetaxel as a subtype-directed chemotherapy for C1 PDAC [PMID:34534465](../papers/34534465.md)
 
 ## Resistance mechanisms
 
@@ -30,3 +31,6 @@ Vinblastine is a vinca alkaloid that inhibits tubulin polymerization, disrupting
 - [PMID:30290956](../papers/30290956.md) — Pietzak et al.: comparative genomics of primary vs secondary MIBC treated with cisplatin-based NAC including MVAC (methotrexate/vinblastine/doxorubicin/cisplatin).
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

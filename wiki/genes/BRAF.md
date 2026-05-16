@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -133,6 +133,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, BRAF harbored activating mutations in 5% of tumors. [PMID:33765338](../papers/33765338.md)
 - Subclonal D594N hotspot in one TERT-altered metaplastic breast cancer (MBC); BRAF amplification in 2 TERT-WT MBCs; BRAF included in Sanger-sequencing panel for 16 MBCs [PMID:33863915](../papers/33863915.md)
 - Targetable driver mutations and amplifications recurrent in NSCLC detected by MSK-ACCESS; BRAF included in 10-gene orthogonal-truth cohort for MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
+- Assessed at >=2% frequency in a 514-sample LUAD pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
+- Mutated in 4-8% of MSS EO/AO CRC tumors; no statistically significant age-cohort difference remained after adjustment for MSI status and tumor sidedness (contrary to some prior reports); trended toward worse survival on multivariate analysis (HR=1.41, 95% CI 0.96-2.07, P=0.08). [PMID:34405229](../papers/34405229.md)
 
 ## Cancer types (linked)
 
@@ -474,13 +476,19 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

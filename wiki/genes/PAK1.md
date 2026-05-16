@@ -3,7 +3,7 @@ symbol: PAK1
 aliases: []
 cancer_types: [BRCA]
 tags: [amplification, kinase, breast-cancer, IntClust2]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 - Focal copy gains in 5/34 ALM patients (15%); validated by qPCR in 4/5; all in BRAF/NRAS wild-type tumors (1 NF1-subtype, 4 triple-wild-type); proposed as alternate MAPK-pathway dysregulation route in acral melanoma [PMID:28373299](../papers/28373299.md)
 - 11q focal amplification (co-amplified with YAP1 and CCND1) enriched in PD patients in a pooled ICB cohort (193 patients); 11q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
 - PAK1 is co-amplified with CCND1, FGF3, EMSY, and RSF1 on chromosome 11q13; this co-amplification defines IntClust2 (4.5% of ER+ breast cancers), a late-relapsing subgroup in the METABRIC cohort (n=3,240) [PMID:30867590](../papers/30867590.md)
+- Protein elevated in >70% of [PAAD](../cancer_types/PAAD.md) tumors; downstream effector of KRAS via RAC1; combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors proposed as a KRAS-driven signaling targeting strategy [PMID:34534465](../papers/34534465.md).
 
 ## Cancer types (linked)
 
@@ -43,22 +44,18 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30867590](../papers/30867590.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

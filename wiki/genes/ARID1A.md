@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -103,6 +103,10 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - In 487 esophagogastric adenocarcinomas profiled by MSK-IMPACT, ARID1A was altered in 17% of TP53-wild-type tumors, serving as one of the most common alternative drivers in this TP53-WT subset. [PMID:33795256](../papers/33795256.md)
 - Mutations identified in TERT-WT metaplastic breast cancers (MBC); present among genes altered only in the TERT-WT group (not statistically significant after multiple-testing correction) [PMID:33863915](../papers/33863915.md)
 - Altered in 15.5% of MSK-IMPACT-profiled intrahepatic cholangiocarcinoma (IHC) patients; one of five most prevalent driver genes in IHC but not part of the poor-prognosis composite classifier in node-positive disease [PMID:33963001](../papers/33963001.md)
+- Assessed at >=2% frequency in a 514-sample LUAD pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
+- Mutations associated with higher TMB and downregulated ARID1A protein in CPTAC LSCC proteogenomics (108 tumors); ARID1A loss linked to worse OS in NSCLC. [PMID:34358469](../papers/34358469.md)
+- Enriched in piano (low-grade, carcinoid-like) LCINS tumors (P=7.5e-4); part of the mutually-exclusive piano driver set alongside KRAS, UBA1, and RET. [PMID:34493867](../papers/34493867.md)
+- Altered in >=5% of PDAC tumors in CPTAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -321,22 +325,22 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 - [PMID:33212010](../papers/33212010.md)
 - [PMID:33263939](../papers/33263939.md)
@@ -345,16 +349,28 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33963001](../papers/33963001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

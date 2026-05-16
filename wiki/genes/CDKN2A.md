@@ -27,6 +27,10 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - Detected at varying frequencies across TERT-altered and TERT-WT metaplastic breast cancer groups in a 60-case MSKCC cohort [PMID:33863915](../papers/33863915.md)
 - Deletion (HR 3.3, 95% CI 1.1–9.5, P=0.030) independently predicts worse OS in node-positive (N1) intrahepatic cholangiocarcinoma; combined CDKN2A/B deletion (HR 5.0) part of the poor-prognosis composite (TP53 mut / KRAS mut / CDKN2A/B del): median OS 12.1 vs 30.9 months (P=0.002) [PMID:33963001](../papers/33963001.md)
 - Mutated/deleted in 34.9% of CSCC tumors including focal homozygous deletions; drives cell-cycle-checkpoint (Rb pathway) loss present in 38.6% of tumors [PMID:34272401](../papers/34272401.md)
+- Copy number alterations enriched in pN-positive LUAD tumors (9% vs 4%, p=0.039) in a 426-patient MSK-IMPACT cohort; CDKN2A was among gene-level CNAs assessed at ≥1% frequency [PMID:34290393](../papers/34290393.md)
+- Homozygous deletion universally present in LSCC (along with RB1 loss); 28 CDKN2A-WT tumors had p16-promoter hypermethylation; mutations paradoxically yielded increased CDKN2A RNA; loss of CDKN2A or RB1 was found in every one of 108 LSCC samples [PMID:34358469](../papers/34358469.md)
+- Among the long-latency driver groups in LCINS (MRCA > a decade pre-diagnosis); identified among 25 recurrently mutated IntOGen driver genes in the 232-patient Sherlock-Lung WGS cohort of never smokers [PMID:34493867](../papers/34493867.md)
+- Altered in 48% of high-cellularity PDAC tumors (CNV-driven focal deletions > intragenic mutations); deletions raise phospho-NPM1 S70/S214 as a trans-proteomic effect [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +67,17 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

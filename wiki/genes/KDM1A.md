@@ -3,7 +3,7 @@ symbol: KDM1A
 aliases: [LSD1, AOF2, KDM1]
 cancer_types: [AML]
 tags: [epigenetic, histone-demethylase, therapeutic-target]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,7 @@ KDM1A (also known as LSD1) is a lysine-specific histone demethylase that removes
 ## Alterations observed in the corpus
 
 - Discussed as a known therapeutic-target gene (LSD1 inhibitors) in the AML landscape, particularly in KMT2A-rearranged disease contexts; co-listed with [TET2](../genes/TET2.md), KMT2A, [BCL2](../genes/BCL2.md), [EZH2](../genes/EZH2.md), and [DOT1L](../genes/DOT1L.md) as epigenetic targets in the Beat AML cohort [PMID:30333627](../papers/30333627.md)
+- Showed the strongest protein-protein correlation with SOX2 in an unbiased LSCC proteomics screen; nominated alongside EZH2 as an actionable upstream regulator of the undruggable SOX2 oncogene in 3q-amplified LSCC; clinical trial NCT04350463 (LSD1 + immunotherapy) cited. [PMID:34358469](../papers/34358469.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ KDM1A (also known as LSD1) is a lysine-specific histone demethylase that removes
 - [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

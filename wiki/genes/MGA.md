@@ -3,7 +3,7 @@ symbol: MGA
 aliases: []
 cancer_types: [LUAD]
 tags: [myc-pathway, metastasis]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - Transcriptional-regulator gene with mutations enriched in the DUX4/ERG B-ALL subtype relative to 209 other B-ALL and 16 T-ALL comparator cases [PMID:27776115](../papers/27776115.md)
 - MGA was identified as one of 150 DLBCL driver genes, and its knockout in a CRISPR screen was enriched (consistent with a tumor suppressor function) across DLBCL cell lines; MGA was one of 27 genes not previously implicated in DLBCL [PMID:28985567](../papers/28985567.md)
 - Loss-of-function mutations significantly enriched in micropapillary/solid (MIP/SOL) LUAD compared with acinar/papillary and lepidic subtypes (11% vs 2% vs 2.3%; p<0.001) in 604 stage I-III resected LUAD patients (MSK-IMPACT); cited as a subclonal driver enriched in high-grade histologic subtypes. [PMID:32791233](../papers/32791233.md)
+- Altered in 2.1% pN-negative vs 6.0% pN-positive [LUAD](../cancer_types/LUAD.md) tumors (asterisked as significant in OncoPrint); suggests enrichment in lymph-node metastatic disease [PMID:34290393](../papers/34290393.md).
 
 ## Cancer types (linked)
 
@@ -46,25 +47,20 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27776115](../papers/27776115.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

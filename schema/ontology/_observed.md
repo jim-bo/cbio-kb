@@ -584,3 +584,18 @@
 - method: lofsigrank — observed in PMID:34272401 — note: statistical cancer-gene discovery tool that ranks genes by excess loss-of-function mutations; applied in CSCC WES/WGS meta-analysis alongside MutSig, dN/dS, and OncodriveFML; not in cBioPortal gene_panels
 - method: oncodrivefml — observed in PMID:34272401 — note: functional-impact-score-based driver gene detection (Mularoni et al.); applied in CSCC meta-analysis; not in cBioPortal gene_panels
 - method: footprints — observed in PMID:34272401 — note: callable-basepair footprint estimation software used for cross-sample normalization in multi-study WES meta-analyses; not in cBioPortal gene_panels
+- gene: FUT11 — observed in PMID:34534465 — note: fucosyltransferase 11; elevated in PDAC tumors vs NAT at protein level in CPTAC PDAC proteogenomics study; not found in cbio-kb genes.json ontology lookup
+- method: battenberg — observed in PMID:34493867 — note: allele-specific copy-number caller for WGS; detects clonal and subclonal SCNAs including LOH; applied in Sherlock-Lung 232-sample LCINS WGS cohort
+- method: dpclust — observed in PMID:34493867 — note: Dirichlet Process Clustering for subclonal architecture inference; requires allele-specific CNA input; used for evolutionary timing in Sherlock-Lung
+- method: hrdetect — observed in PMID:34493867 — note: ML classifier for HRD probability from WGS signature features; score >0.7 = HRD-positive; ~16% of Sherlock-Lung LCINS tumours were HRD-positive
+- method: telseq — observed in PMID:34493867 — note: telomere-length estimator from WGS read counts; LCINS telomeres longer than LUAD-smoker (6.4 Kb, P=7.1e-11) in Sherlock-Lung cohort
+- method: telomerehunter — observed in PMID:34493867 — note: GC-corrected telomere content estimator from WGS; used alongside TelSeq for cross-validation in Sherlock-Lung 232 LCINS cohort
+- method: lohhla — observed in PMID:34493867 — note: HLA class I LOH caller from WGS; HLA LOH enriched in TP53-deficient and RTK-RAS+ tumours in Sherlock-Lung LCINS cohort
+- method: intogen — observed in PMID:34493867 — note: multi-method cancer driver gene discovery framework; identified 25 positively selected genes including UBA1 as novel LCINS driver in Sherlock-Lung WGS
+- method: boostdm — observed in PMID:34493867 — note: ML per-mutation driver classifier (cancer-type-specific); used alongside IntOGen for driver prioritisation in Sherlock-Lung 232-sample WGS
+- method: p-macd — observed in PMID:34493867 — note: probabilistic APOBEC context decomposition tool; verified APOBEC enrichment in TP53-deficient (P=1.9e-8) and RTK-RAS+ (P=3.5e-8) LCINS tumours
+- method: charger — observed in PMID:34493867 — note: ACMG/AMP germline variant classifier; used to classify pathogenicity of HR-gene and cancer-predisposition germline variants in Sherlock-Lung cohort
+- method: plackett-luce-ordering — observed in PMID:34493867 — note: probabilistic ranking model for temporal ordering of genomic events; inferred driver mutations precede WGD in Sherlock-Lung LCINS subtypes
+- method: fastngsadmix — observed in PMID:34493867 — note: population ancestry estimation from NGS genotype likelihoods; Sherlock-Lung cohort: 97.4% European, 1.7% Asian, 0.9% African
+- method: ups-indel — observed in PMID:34493867 — note: somatic indel caller optimised for WGS; part of multi-caller pipeline in Sherlock-Lung; ERBB2 mutations were all indels (3.9% of tumours)
+- method: tnscope — observed in PMID:34493867 — note: Sentieon haplotype-based tumour-normal somatic caller; part of multi-caller pipeline (TNscope + MuTect + Strelka) in Sherlock-Lung WGS study

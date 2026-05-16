@@ -15,7 +15,7 @@ tags:
   - targeted-therapy
   - anti-angiogenic
   - braf-inhibitor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -38,6 +38,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - Identified as sorafenib-sensitive agent for ARAF S214Y/S214P hotspot mutations (2 patients) in 860-patient MSK-IMPACT LUAD cohort based on prior preclinical work; these rare ARAF hotspots cited as potentially actionable [PMID:28336552](../papers/28336552.md).
 - Used as matched targeted therapy in 1 of 25 cholangiocarcinoma patients receiving biomarker-directed treatment; 64% of the biomarker-directed cohort had response or clinical benefit [PMID:29848569](../papers/29848569.md)
 - In MSKCC prospective NGS of 127 advanced HCC patients, 81 received sorafenib (75 first-line); median PFS 4.8 mo, median OS 16.4 mo overall; oncogenic PI3K-mTOR pathway alterations (n=12) were associated with significantly lower DCR (8.3% vs 40.2%, p=0.05), shorter median PFS (1.9 vs 5.3 mo; HR 3.8, p<0.0001), and shorter OS (10.4 vs 17.9 mo; HR 2.5, p=0.01); WNT, MAPK, and TP53 pathway alterations had no effect on sorafenib outcomes [PMID:30373752](../papers/30373752.md).
+- In immune-cold PDAC (paad_cptac_2021, n=140), antiangiogenic therapy with sorafenib (and NGR-TNF) plus HIF-1 inhibition is proposed to normalize endothelial cells and promote immune infiltration, given elevated VEGF and hypoxia signaling in these tumors [PMID:34534465](../papers/34534465.md)
 
 ## Resistance mechanisms
 
@@ -73,7 +74,10 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

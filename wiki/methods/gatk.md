@@ -25,6 +25,7 @@ GATK (Genome Analysis Toolkit) is a software suite developed at the Broad Instit
 - Bolton et al. used GATK v3.3-0 for base-quality score recalibration (BQSR) after BWA 0.7.5a alignment and ABRA 0.92 local realignment in the MSK-IMPACT CH calling pipeline for 24,146 cancer patients; SNVs were then called by MuTect + VarDict and indels by Somatic Indel Detector + VarDict [PMID:33106634](../papers/33106634.md)
 - GATK v4.1.2.0 (with Picard v4.1.2.0) used for duplicate marking and base-quality score recalibration in the reprocessing pipeline for 88 CSCC tumors aligned to hg19 [PMID:34272401](../papers/34272401.md)
 - Used in the MSK-ACCESS sequencing pipeline (alongside ABRA2) for local realignment and base quality score recalibration of cfDNA reads from 681 clinical plasma samples [PMID:34145282](../papers/34145282.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -42,5 +43,8 @@ GATK (Genome Analysis Toolkit) is a software suite developed at the Broad Instit
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

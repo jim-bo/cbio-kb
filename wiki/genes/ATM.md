@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -75,6 +75,9 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM truncating mutations included in CH-myeloid putative driver criteria; partially under-ascertained due to absence from the 163-gene myeloid serial-sampling panel used in sub-cohort analyses of therapy-associated clonal hematopoiesis [PMID:33106634](../papers/33106634.md)
 - ATM is a component of the SSBR (single-strand break repair) gene set whose protein loss in luminal breast cancer (CPTAC proteogenomics, n=122) is anti-correlated with PD-L1 and immune infiltration; low NER/BER/MMR protein levels associated with high mutation load specifically in luminal but not basal BRCA, nominating subsets of luminal BRCA as ICI candidates [PMID:33212010](../papers/33212010.md)
 - Copy-number deletion in ATM recovered via matched WBC sequencing and reclassified as germline (not somatic) — an indel ATM p.E522fs*43 had been previously reported as somatic by a commercial cfDNA test [PMID:34145282](../papers/34145282.md)
+- Assessed at >=2% frequency in a 514-sample LUAD pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
+- Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; 2 LCINS germline ATM carriers identified; rates of moderate/low-penetrance gene mutations were similar between early-onset (EO) and adult-onset (AO) CRC after adjustment for number of genes tested. [PMID:34405229](../papers/34405229.md)
+- Germline variants in ATM identified in 2 LCINS carriers (232-sample WGS cohort); BRCA2 LOH enriched in RTK-RAS+ tumors in the same cohort. [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -262,4 +265,13 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

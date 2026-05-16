@@ -48,6 +48,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE mutations enriched in the MSI-H/hypermutated subgroup of a 106-tumor colon cancer proteogenomic cohort (CPTAC 2019); MSI-H tumors showed increased A>G/T>C transitions and decreased G>C/C>G transversions, with POLE and mismatch-repair pathway mutations as defining features of the hypermutated group [PMID:31031003](../papers/31031003.md)
 - POLE co-occurring with [MSH2](../genes/MSH2.md), [MSH5](../genes/MSH5.md), and [PMS1](../genes/PMS1.md) mutations in GBM PDX model IC-1621GBM consistent with Lynch/constitutional MMR-deficiency; ultrahypermutated at 124 Mut/Mb [PMID:31693904](../papers/31693904.md).
 - Recurrent catalytic-domain hotspot P286R found in 5/7 POLE-subtype tumors; defines the ultramutated endometrial cancer subtype (~61% of all somatic mutations in those tumors) [PMID:32059776](../papers/32059776.md)
+- Defines a small ultramutated subgroup in MSS EO-CRC (≤35: 2.6%; 36-49: 0.7%; AO: 0.7%; no statistically significant age-cohort difference) [PMID:34405229](../papers/34405229.md)
 
 ## Cancer types (linked)
 
@@ -142,5 +143,8 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

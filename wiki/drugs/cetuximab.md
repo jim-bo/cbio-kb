@@ -5,7 +5,7 @@ drug_class: anti-EGFR monoclonal antibody (IgG1)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antibody, egfr, radiosensitizer]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - EGFR-targeting monoclonal antibody; noted as the last approved targeted therapy for HNSC (approved 2006); no new targeted therapies validated since, motivating routine NGS in recurrent/metastatic HNSC [PMID:27442865](../papers/27442865.md)
 - OncoKB Level 1 resistance biomarkers for cetuximab in [COADREAD](../cancer_types/COADREAD.md) are hotspot KRAS and NRAS mutations (44% and listed frequency respectively in this 1,134-CRC MSK-IMPACT cohort); one acquired-resistance case carried EGFR S492R after 1.5 years of cetuximab, concurrent with ERBB2 amplification [PMID:29316426](../papers/29316426.md)
 - KRAS-mutant rectal cancer tumoroids were resistant to cetuximab ex vivo while KRAS wild-type tumoroids were sensitive, recapitulating the established CRC clinical finding; cetuximab is not standard therapy in rectal cancer but validated the tumoroid platform's biological fidelity [PMID:31591597](../papers/31591597.md)
+- In LUSC, EGFR amplification did not correlate with PROGENy-based EGFR pathway activity, which instead tracked EGFR ligand mRNA abundance; the authors propose ligand abundance — rather than EGFR amplification — may better stratify response to ligand-blocking agents like cetuximab in squamous lung tumors [PMID:34358469](../papers/34358469.md)
 
 ## Resistance mechanisms
 
@@ -67,4 +68,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31591597](../papers/31591597.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

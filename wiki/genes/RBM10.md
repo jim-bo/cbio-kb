@@ -23,6 +23,9 @@ RBM10 (RNA Binding Motif Protein 10) is an RNA-binding protein that regulates al
 - Identified as a significantly mutated gene exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC). [PMID:27158780](../papers/27158780.md)
 - Mutations reduce cognate protein and phosphosite abundance in [LUAD](../cancer_types/LUAD.md) proteogenomics (CPTAC cohort, n=110) [PMID:32649874](../papers/32649874.md)
 - Enriched in lepidic (LEP)-predominant LUAD (26% vs 12% ACI/PAP vs 10% MIP/SOL; p=0.001) in a 604-patient MSKCC resected cohort analyzed by MSK-IMPACT. [PMID:32791233](../papers/32791233.md)
+- Significantly more altered in pN-negative LUAD tumors (17% vs 8%, p=0.044); alteration enriched in node-negative disease, potentially reflecting a distinct tumor biology [PMID:34290393](../papers/34290393.md)
+- Driver/timing observation in LCINS LUAD: RBM10 mutations precede copy-number gain events; altered in ≥5% of PDAC tumors [PMID:34493867](../papers/34493867.md)
+- Altered in ≥5% of PDAC tumors in a proteogenomic study of treatment-naive resected pancreatic adenocarcinoma [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +63,14 @@ RBM10 (RNA Binding Motif Protein 10) is an RNA-binding protein that regulates al
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

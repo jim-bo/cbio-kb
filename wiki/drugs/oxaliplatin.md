@@ -31,6 +31,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - Oxaliplatin showed no significant association with clonal haematopoiesis in 24,146 cancer patients (OR=0.98, p=0.88), contrasting with carboplatin (OR=1.4, p=0.001); this platinum-agent-specific difference suggests oxaliplatin may be a safer choice from a CH-expansion standpoint when clinically interchangeable [PMID:33106634](../papers/33106634.md).
 - Part of systemic chemotherapy regimens in unresectable iCCA; HAIC with floxuridine added to systemic chemotherapy independently predicted improved OS (HR 0.45, P=0.003) in the locally advanced cohort [PMID:33765338](../papers/33765338.md)
 - Gemcitabine/oxaliplatin (GEMOX) was used as an alternative first-line systemic chemotherapy in the 140-patient systemic-chemotherapy-alone arm of a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018); systemic chemotherapy alone produced median OS 11.2 months in N1 patients, inferior to HAIC (18.1 months) and resection (19.7 months) [PMID:33963001](../papers/33963001.md).
+- In metastatic MSS CRC, fluorouracil + oxaliplatin ± bevacizumab was the standard first-line regimen; radiographic response and median OS did not differ between early-onset (≤35, 36-49 years) and adult-onset patients, arguing against age-based treatment intensification [PMID:34405229](../papers/34405229.md)
 
 ## Resistance mechanisms
 
@@ -60,16 +61,19 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
 
 - [PMID:33765338](../papers/33765338.md)
 - [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); gemcitabine/oxaliplatin (GEMOX) used as alternative systemic chemotherapy in IHC; systemic chemotherapy alone produced median OS 11.2 months in N1 disease vs 18–20 months for locoregional approaches.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

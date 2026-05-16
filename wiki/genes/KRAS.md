@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -149,6 +149,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - TP53 and KRAS mutations together form a 'high-risk' composite alteration set (with CDKN2A/B deletion) associated with worse OS in node-positive intrahepatic cholangiocarcinoma (N1 median OS 12.1 months vs 30.9 months for wild-type, P=0.002) [PMID:33963001](../papers/33963001.md)
 - Recurrent driver in NSCLC detected by MSK-ACCESS cfDNA assay; KRAS p.G12S in a lung adenocarcinoma case was reclassified from somatic to clonal hematopoiesis using matched WBC sequencing plus fragment-length evidence [PMID:34145282](../papers/34145282.md)
 - Hotspot mutation observed in 1.2% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
+- Most prevalent driver in 426 treatment-naive clinical N2-negative LUAD patients (MSK-IMPACT); no significant difference in alteration frequency by pN status (pN+ vs pN-). [PMID:34290393](../papers/34290393.md)
+- Mutated in 42.5% of EO-CRC MSS tumors; frequencies similar across age cohorts (≤35 = 46%, 36-49 = 42%, AO = 48%); RTK-RAS pathway alterations initially appeared less frequent in 36-49 vs AO but not after sidedness adjustment. [PMID:34405229](../papers/34405229.md)
+- Mutated in 7.3% of LCINS LUAD (n=232); 76.5% of KRAS+ tumors fall in the piano (SCNA-flat) subtype; only 1.4% of mezzo-forte vs 34.0% in LUAD-smokers; trend toward worse OS (NS); driver mutations in KRAS precede WGD and most SCNAs. [PMID:34493867](../papers/34493867.md)
+- Altered in 97% of 140 treatment-naive PDACs in the CPTAC cohort (96% hotspot mutations + 1 amplification); dominant hotspots G12D, G12V, G12R; G12C present in <1% of PDACs. CEACAM5/6 upregulated selectively in G12D/G12V/Q61H (not G12R) tumors; PAK1/PAK2 concordantly elevated downstream of KRAS/RAC1. [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -548,3 +552,15 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

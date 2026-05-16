@@ -20,6 +20,7 @@ MCM2 is a component of the MCM2-7 DNA helicase complex required for eukaryotic D
 - MCM2 (minichromosome maintenance complex component 2) was previously included in a 4-gene cell-cycle prognostic signature (MCM2, INHBA, CGREF1, KLF9) for early-onset colorectal cancer (Xiang et al. 2023); the current study validates CGREF1 as a standalone prognostic biomarker and does not further analyze MCM2 independently. [PMID:32888432](../papers/32888432.md)
 - Substrate of CDK2 (Ser139 phosphorylation) detected across ATRT, medulloblastoma, ependymoma, HGG, and LGG in pediatric brain tumor proteogenomics. [PMID:33242424](../papers/33242424.md)
 - Protein upregulated in RB1-altered GBM tumors (12% of [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) cohort); MCM2/MCM4/MCM6 coordinate upregulation marks RB1-altered tumors and nominates MCM proteins as potential biomarkers or vulnerabilities [PMID:33577785](../papers/33577785.md)
+- Substrate of CDK7 in the CDK7–MCM2 kinase-substrate signaling axis identified across 41 PDAC tumor/NAT pairs in the CPTAC proteogenomic cohort; CDK7 is an FDA-approved drug target in this context. [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ MCM2 is a component of the MCM2-7 DNA helicase complex required for eukaryotic D
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

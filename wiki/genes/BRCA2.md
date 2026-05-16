@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -94,6 +94,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes (BRCA1, MSH3, MSH6, PMS2, MLH3), with promoter hypomethylation of MMR genes; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 - OncoKB level 1 alterations identified in plasma of prostate cancer patients by cf-IMPACT, supporting olaparib (PARP inhibitor) eligibility [PMID:34059130](../papers/34059130.md)
 - Copy-number deletion recovered via matched WBC sequencing and reclassified as germline (not somatic) in the MSK-ACCESS clinical cohort — illustrating matched-normal requirement for cfDNA germline/somatic disambiguation [PMID:34145282](../papers/34145282.md)
+- Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; specific carrier frequencies shown in Figure 4; rates similar between EO and AO CRC after adjustment. [PMID:34405229](../papers/34405229.md)
+- Germline variants in BRCA2 identified in LCINS WGS cohort; BRCA2 LOH enriched in RTK-RAS+ tumors; >15% of tumors have LOH of an HRD-associated gene, nominating PARP inhibitor candidates. [PMID:34493867](../papers/34493867.md)
+- Referenced as germline-mutation context for PARP-inhibitor therapy in pancreatic ductal adenocarcinoma in CPTAC PDAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -300,7 +303,16 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: CYP21A2
 aliases: []
 cancer_types: [PHC, PGNG]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CYP21A2
@@ -16,6 +16,7 @@ CYP21A2 (Cytochrome P450 Family 21 Subfamily A Member 2, also known as 21-hydrox
 ## Alterations observed in the corpus
 
 - CYP21A2 overexpressed in the cortical admixture PCC/PGL subtype alongside [CYP11B1](../genes/CYP11B1.md) and [STAR](../genes/STAR.md); these adrenal cortex markers define the cortical admixture molecular subtype in the 173-patient TCGA PCC/PGL cohort [PMID:28162975](../papers/28162975.md)
+- Identified as carrying recurrent rare deleterious germline variants in lung cancers from never smokers (LCINS; 8 carriers in the 232-patient WGS cohort) [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CYP21A2 (Cytochrome P450 Family 21 Subfamily A Member 2, also known as 21-hydrox
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

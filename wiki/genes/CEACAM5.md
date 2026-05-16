@@ -3,7 +3,7 @@ symbol: CEACAM5
 aliases: [CEA, CD66e]
 cancer_types: [COAD]
 tags: [biomarker, colorectal-cancer, plasma-biomarker]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,7 @@ CEACAM5 (Carcinoembryonic Antigen Related Cell Adhesion Molecule 5), commonly kn
 ## Alterations observed in the corpus
 
 - Confirmed clinical CRC diagnostic biomarker; recovered among the 31 cancer-associated proteins in CPTAC [COAD](../cancer_types/COAD.md) proteogenomics (n=110 tumor/NAT pairs); 19 of those 31 proteins (including CEACAM5) are plasma-detectable and are candidate blood biomarkers [PMID:31031003](../papers/31031003.md)
+- Upregulated in PDAC tumors with KRAS G12D, G12V, and Q61H mutations but not G12R; proposed as a therapeutic target with anti-CEACAM5 monoclonal antibodies in KRAS-hotspot-stratified PDAC therapy [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -32,3 +33,6 @@ CEACAM5 (Carcinoembryonic Antigen Related Cell Adhesion Molecule 5), commonly kn
 - [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

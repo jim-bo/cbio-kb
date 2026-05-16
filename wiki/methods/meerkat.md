@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [structural-variant, bioinformatics]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Meerkat
@@ -19,6 +19,7 @@ Meerkat is a computational tool for detecting somatic structural rearrangements 
 
 - Used in the TCGA ChRCC project to detect structural rearrangements from 50 WGS tumor/normal pairs (mean 16 rearrangements per case, range 0–207); identified recurrent genomic rearrangement breakpoints within ~10 kb upstream of the TERT transcription start site in 6/50 cases, a novel TERT-upregulation mechanism. [PMID:25155756](../papers/25155756.md)
 - Meerkat used alongside BreakDancer for structural-variant detection in the TCGA esophageal/stomach study of 164 oesophageal carcinomas [PMID:28052061](../papers/28052061.md).
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ Meerkat is a computational tool for detecting somatic structural rearrangements 
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

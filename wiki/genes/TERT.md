@@ -3,7 +3,7 @@ symbol: TERT
 aliases: []
 cancer_types: [ESCC, GBM, RBL, IHCH]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -49,6 +49,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Promoter alterations enriched in cirrhotic iCCA patients (21% vs 4% non-cirrhotic); co-occurs with [TP53](../genes/TP53.md) mutations (τ=0.19, Q=0.002); univariate OS association dropped from multivariate models due to collinearity with TP53. [PMID:33765338](../papers/33765338.md)
 - Promoter hotspot C228T (c.-124C>T) in 9/60 metaplastic breast carcinomas (MBC) and gene amplification in 1/60; all alterations in triple-negative cases; mutually exclusive with TP53 mutations (CoMEt p<0.001); co-occurs with PIK3CA hotspots [PMID:33863915](../papers/33863915.md)
 - Included in the 30-gene CSCC driver-discovery set on the basis of prior literature reporting frequent promoter mutations; not directly interrogated in this exome-based meta-analysis [PMID:34272401](../papers/34272401.md)
+- Present at >=2% frequency in LUAD but without significant association to pN (lymph node) metastasis status in clinical stage I/II LUAD [PMID:34290393](../papers/34290393.md)
+- Amplified in 11.6% and promoter-mutated in only 0.9% of LCINS; rare in piano subtype; SV breakpoint hotspot alongside MDM2, CDKN2A, NKX2-1; insufficient to explain telomere length elongation in piano [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -150,3 +152,9 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

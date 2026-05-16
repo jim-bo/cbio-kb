@@ -20,6 +20,7 @@ SOS1 (Son of Sevenless Homolog 1) encodes a RAS guanine nucleotide exchange fact
 - SOS1 is newly nominated as an RTK-RAS pathway driver with recurrent hotspots A90V/T and N233Y/S plus activating mutations M269I/V, G434R, R552S/K/G/M, and E846K; present in ~1% of LUAD and ~1% of uterine carcinomas, demonstrating rare but functional drivers emerging at PanCanAtlas sample sizes [PMID:29625050](../papers/29625050.md)
 - S1161 C-terminal phosphorylation observed as extreme outlier in KRAS-mutant [LUAD](../cancer_types/LUAD.md) (CPTAC cohort, n=110), nominating SOS1 inhibition as a therapeutic strategy [PMID:32649874](../papers/32649874.md)
 - Secondary RTK-RAS regulator (RAS GEF) contributing to NF1/BRAF Class 3 co-alteration patterns in melanoma; identified as a backseat co-alteration in driver-stratified immunotherapy study [PMID:33509808](../papers/33509808.md)
+- Driver/timing observation in LCINS: SOS1 mutation found in the mezzo-forte (intermediate smoking-exposure) subtype of lung cancer in never smokers; part of the subtype-enriched driver landscape [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ SOS1 (Son of Sevenless Homolog 1) encodes a RAS guanine nucleotide exchange fact
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

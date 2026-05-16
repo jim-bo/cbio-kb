@@ -3,7 +3,7 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [STAD]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -31,6 +31,8 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - STK11 enriched in extrahepatic cholangiocarcinoma (EHC) vs intrahepatic; noted alongside TP53 as a gene defining EHC molecular biology in a 189-patient prospective NGS cohort [PMID:29848569](../papers/29848569.md)
 - Predominantly disruptive out-of-frame fusion events plus point mutations in [LUAD](../cancer_types/LUAD.md) (CPTAC cohort, n=110); strongly associated with immune-cold phenotype, neutrophil-degranulation protein signature, and increased SMAD4 S138 phosphorylation; predicted by deep-learning histopathology model (94% slide-level accuracy) [PMID:32649874](../papers/32649874.md)
 - NSCLC samples lacking known mitogenic drivers were enriched for STK11 mutations in MSK-ACCESS cfDNA cohort [PMID:34145282](../papers/34145282.md)
+- Enriched in pN+ LUAD tumors (22% vs 12%, p=0.024); entered multivariable selection for lymph node metastasis association but did not retain independence in the final model [PMID:34290393](../papers/34290393.md)
+- Among long-latency driver groups in LCINS (MRCA > a decade pre-diagnosis), representing an early genomic event in lung cancer development in never smokers [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -98,3 +100,9 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

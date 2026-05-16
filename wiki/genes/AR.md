@@ -7,7 +7,7 @@ tags:
   - hormone-receptor
   - oncogene
   - neuroendocrine
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -45,6 +45,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - AR-expressing LAR subtype of TNBC is noted as a distinct PIK3CA-recurrent subgroup in the CPTAC breast cancer proteogenomics study (n=122); LAR-subtype TNBC had recurrent PIK3CA mutations (binomial p=1.50 × 10⁻³ compared to NMF LumB-I) [PMID:33212010](../papers/33212010.md)
 - Sub-clonal AR p.H875Y (hormonal-therapy resistance) detected in plasma of an mCRPC patient by cf-IMPACT; subsequent tumor biopsy confirmed the mutation at 0.3% VAF in tissue, below the de novo calling threshold of tumor MSK-IMPACT [PMID:34059130](../papers/34059130.md)
 - AR mutations enriched in cfDNA versus MSK-IMPACT tissue in prostate cancer samples profiled by MSK-ACCESS; recurrently altered in PRAD across 681-sample prospective cohort [PMID:34145282](../papers/34145282.md)
+- Most frequently mutated cancer-susceptibility germline gene in the 232-sample LCINS WGS cohort (n=5 carriers, 4 in the piano low-grade subtype); supports a hormonal contribution to lung cancer in never-smokers. [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -111,29 +112,32 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32220891](../papers/32220891.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
 - [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

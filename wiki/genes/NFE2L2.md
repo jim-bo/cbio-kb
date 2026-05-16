@@ -30,6 +30,7 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - NFE2L2 gain-of-function (with KEAP1/CUL3 loss-of-function) constitutes the NRF2 pathway driver set concentrated in squamous lung/esophagus, head and neck, and uterine cancers; NFE2L2 alterations are enrollment criteria for a phase-2 TORC1/2 inhibitor trial [PMID:29625050](../papers/29625050.md)
 - NFE2L2 S215 and S433 phosphorylation increased in KEAP1-mutant LUAD (12 tumors, CPTAC n=110); KEAP1 G511V BTB-domain mutation produced highest NFE2L2 phosphorylation while preserving KEAP1 protein, suggesting binding disruption mechanism [PMID:32649874](../papers/32649874.md)
 - Mutated in 1.2% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
+- NRF2 pathway mutations (NFE2L2/KEAP1/CUL3) present in 33/101 evaluable [LUSC](../cancer_types/LUSC.md) tumors; concordant differential mRNA/protein/phosphoprotein expression of NRF2 pathway genes observed; CDK5-mediated phosphorylation of NFE2L2 S433 proposed as a non-mutational NRF2 activation mechanism in the Classical subtype [PMID:34358469](../papers/34358469.md).
 
 ## Cancer types (linked)
 
@@ -51,42 +52,32 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 
 - [PMID:22960745](../papers/22960745.md) — TCGA lung squamous cell carcinoma, 178 tumors
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24670651](../papers/24670651.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
 
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+- [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

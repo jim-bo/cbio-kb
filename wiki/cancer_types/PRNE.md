@@ -4,8 +4,8 @@ oncotree_code: PRNE
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Prostate Neuroendocrine Carcinoma (PRNE)
@@ -30,6 +30,7 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 - [KDM6A](../genes/KDM6A.md) — deep deletion in NEPC pair 144. [PMID:38488813](../papers/38488813.md)
 - DNA damage response (DDR) pathway genes — transcriptomically upregulated in NEPC compared to adenocarcinoma PDXs; DDR gene expression clustering segregates models concordant with morphologic classification. [PMID:38488813](../papers/38488813.md)
 - Two PRNE metastases (post-castration) were included in a 57-tumor WGS cohort characterizing chromoplexy; the cohort was skewed to primary [PRAD](../cancer_types/PRAD.md), leaving chromoplexy dynamics in neuroendocrine prostate cancer undercharacterized [PMID:23622249](../papers/23622249.md)
+- In a 429-patient mCRPC cohort with central histopathologic review, 3.8% of 444 tumors showed pure neuroendocrine prostate cancer (PRNE) or small-cell histology; 10.5% of post-ARSI tumors had any neuroendocrine features vs 2.3% in ARSI-naive tumors; integrative clustering linked RB1/TP53 co-loss with AR-low/NE-high expression [PMID:31061129](../papers/31061129.md).
 
 ## Subtypes
 
@@ -48,4 +49,8 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 
 - [PMID:23622249](../papers/23622249.md) — Baca et al. Punctuated evolution of prostate cancer genomes. *Cell* 2013.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:31061129](../papers/31061129.md) — Abida et al. SU2C mCRPC cohort N=429 (PNAS 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -33,6 +33,8 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - PMS2 is among the top DDR-pathway predisposition genes (Core DDR); germline pathogenic variants in PMS2 and other MMR genes (MLH1, MSH2, MSH6) reach MSI-high in 18/60 samples, with 16/18 carrying both germline and somatic MMR hits, nominating these patients as candidates for checkpoint-blockade therapy [PMID:29625049](../papers/29625049.md)
 - Component of the standard MMR IHC panel used to call MMR-D status in metastatic endometrial cancer (MSK cohort, n=189); PMS2 protein loss by IHC contributed to MMR-D classification alongside MSIsensor score [PMID:30068706](../papers/30068706.md)
 - Somatic deleterious mutations enriched in MSI-H tumors of ACC, CESC, and MESO in a pan-TCGA analysis; PMS2 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
+- PMS2 is among MMR germline genes (with MSH2, MSH6, PMS1) where germline alleles were identified in glioma patients; two cases had biallelic MMR loss with Lynch-pattern MSI hypermutation [PMID:31263031](../papers/31263031.md)
+- PMS2 protein expression is significantly reduced in UTUC vs UCB by IHC in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB; similar pattern observed for MLH1, MSH2, MSH6 [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -96,5 +98,11 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

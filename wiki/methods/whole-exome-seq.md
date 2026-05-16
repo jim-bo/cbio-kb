@@ -171,6 +171,10 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied with fingernail-derived germline control in histiocytic neoplasm patients (cobimetinib trial, n=18) as part of a multi-platform somatic profiling strategy [PMID:30867592](../papers/30867592.md)
 - 58 matched tumor-blood WES pairs generated at ~100x tumor / ~60x normal coverage in GBM anti-PD-1 immunotherapy study; somatic mutations called by SAVI2, copy number by CNVkit, HLA by POLYSOLVER [PMID:30742119](../papers/30742119.md)
 - 106 CPTAC colon cancer tumor/normal-blood pairs profiled by Illumina Nextera Rapid Capture Exome / HiSeq4000 at >=150x coverage; identified 64,010 SNVs, 7,691 INDELs, and 6,186 microsatellite INDELs [PMID:31031003](../papers/31031003.md)
+- Applied to 444 biopsied tumors with matched normal blood DNA in 429 mCRPC patients ([prad_su2c_2019](../datasets/prad_su2c_2019.md)); germline WES also used to exclude Lynch-related MMR germline mutations in a subset [PMID:31061129](../papers/31061129.md)
+- Applied to 326 of the 1,072 CCLE cancer cell lines as part of the expanded multi-omic CCLE characterization; compared against 1,001 Sanger GDSC WES lines (667 overlapping), showing high concordance (Pearson r=0.95 for germline allelic fractions, r=0.92 for cancer hotspot somatic variants) [PMID:31068700](../papers/31068700.md)
+- Applied to 173 tumors / 121 cases in the pan-Asia cHCC-ICC study at mean 108× tumor / 101× normal depth (Illumina HiSeq platform); primary alteration discovery platform for SNVs, indels, and CNAs [PMID:31130341](../papers/31130341.md)
+- Applied to 37 high-grade UTUC tumor-normal pairs (WCM n=22; BCM-MDA n=15); BCM-MDA samples at ~85× mean coverage on Illumina HiSeq 2500 (2×100 bp); primary discovery platform for somatic mutations, TMB (mean 2.91 mut/Mb in UTUC vs. 5.46 mut/Mb in TCGA UCB) [PMID:31278255](../papers/31278255.md)
 
 ## Notes
 
@@ -597,5 +601,17 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -23,8 +23,8 @@ tags:
   - molecular-subtypes
   - chromatin-remodeling
   - multi-platform
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # TCGA Bladder Urothelial Carcinoma (2017, 412-tumor)
@@ -72,6 +72,7 @@ Robertson et al. (TCGA bladder analysis working group) report the comprehensive 
 - Neoantigen load predicts survival independently of age, AJCC stage, and squamous differentiation (p = 8×10⁻⁴). [PMID:28988769](../papers/28988769.md)
 - [PPARG](../genes/PPARG.md) recurrently fused (6 fusions; 4 *TSEN2-PPARG*, 2 *MKRN2-PPARG*), implicated as a luminal driver alongside [GATA3](../genes/GATA3.md) and [FOXA1](../genes/FOXA1.md). [PMID:28988769](../papers/28988769.md)
 - RPPA proteomic clusters 1 and 2 (HER2-high) are candidates for [trastuzumab](../drugs/trastuzumab.md) or [ado-trastuzumab-emtansine](../drugs/ado-trastuzumab-emtansine.md); cluster 3 (EGFR-high proliferative) for [EGFR](../genes/EGFR.md) inhibitors. [PMID:28988769](../papers/28988769.md)
+- Served as the TCGA muscle-invasive bladder cancer comparator cohort (n=124 WES / n=128 RNA-seq) in the UTUC genomic study; UTUC showed significantly higher FGFR3 mutation frequency (29.7% vs 13.7%, P=0.04), lower TMB (2.91 vs 5.46 mutations/Mb, P=1.9×10⁻⁵), and predominant luminal-papillary (T-cell-depleted) immune subtype relative to this TCGA UCB reference [PMID:31278255](../papers/31278255.md)
 
 ## Sources
 
@@ -80,3 +81,6 @@ Robertson et al. (TCGA bladder analysis working group) report the comprehensive 
 - TCGA data portal / GDC
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

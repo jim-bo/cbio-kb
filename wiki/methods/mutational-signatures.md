@@ -42,6 +42,9 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Mutational-signature decomposition used for hypermutated samples (≥10 SNVs) in 189 advanced endometrial cancer patients; combined with MSIsensor to rescue one occult MMR-D case missed by IHC [PMID:30068706](../papers/30068706.md)
 - Non-negative matrix factorization applied against COSMIC signatures across 249 MSS ICB-treated tumors; dominant signature (UV in melanoma, smoking in NSCLC, APOBEC in bladder/HNSCC) correlated with TMB and ITH; in melanoma TMB was non-predictive of ICB response after adjusting for dominant signature [PMID:30150660](../papers/30150660.md)
 - Six mutational signatures identified in 292 prostate cancer WGS genomes: clock-like signatures 1 and 5, DNA-repair signatures 3 (BRCAness) and 6, and APOBEC signatures 2 and 13; APOBEC3B-driven kataegis events co-localize with SV breakpoints including TMPRSS2-ERG fusions [PMID:30537516](../papers/30537516.md)
+- Three de novo signatures decomposed via [sigprofiler](../methods/sigprofiler.md) in the pan-Asia cHCC-ICC cohort (133 cases): COSMIC 22 (aristolochic acid, 63.5% prevalence), COSMIC 5 (clock-like), and COSMIC 24 (aflatoxin B1, 38.8%); TP53 R249S — an AFB1-induced HCC marker — accounted for 25.8% of TP53 mutations [PMID:31130341](../papers/31130341.md)
+- In the 923-patient glioma cohort ([glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md)), alkylator-induced hypermutation (signature 11 ≥50%) was identified in 38 tumors; therapy-induced hypermutation was more common in IDH-mutant (29% vs. 12%, P=0.004) and MGMT-methylated (30% vs. 10%, P=0.006) patients [PMID:31263031](../papers/31263031.md)
+- Dominant mutational signatures identified by hierarchical clustering of cosine similarity in 37 UTUC tumors: APOBEC (COSMIC 2, 13), defective MMR (COSMIC 6, C>T at CpG), and an ERCC2-like (COSMIC 5) signature [PMID:31278255](../papers/31278255.md)
 
 ## Notes
 
@@ -123,5 +126,14 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

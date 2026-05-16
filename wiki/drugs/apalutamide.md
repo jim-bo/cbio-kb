@@ -10,8 +10,8 @@ tags:
   - ar-antagonist
   - prostate-cancer
   - antiandrogen
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # apalutamide
@@ -23,6 +23,7 @@ Apalutamide (ARN-509) is a second-generation nonsteroidal androgen receptor ([AR
 ## Evidence in the corpus
 
 - AR F877L resistance mutation detected via [MSK-IMPACT](../methods/msk-impact-panel.md) in an mCRPC patient progressing after 4 years on apalutamide (ARN-509); the same mutation also confers resistance to [enzalutamide](../drugs/enzalutamide.md), demonstrating cross-resistance between second-generation AR antagonists [PMID:28825054](../papers/28825054.md).
+- Apalutamide is an androgen-receptor signaling inhibitor (ARSI) used in mCRPC; the prad_su2c_2019 cohort (n=128 first-line ARSI, taxane-naive) provides genomic correlates — RB1 alteration was the dominant predictor of ARSI failure (multivariate RR 6.56, P<0.001) in patients treated with ARSIs including apalutamide. [PMID:31061129](../papers/31061129.md)
 
 ## Resistance mechanisms
 
@@ -37,3 +38,6 @@ Apalutamide (ARN-509) is a second-generation nonsteroidal androgen receptor ([AR
 - [PMID:28825054](../papers/28825054.md) — Abida et al. 2017, MSK-IMPACT pan-prostate cancer genomic profiling (504 tumors, 451 patients); describes AR F877L resistance to apalutamide.
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -7,7 +7,7 @@ tags:
   - melanoma
   - skin-cancer
   - UV-mutagenesis
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -43,6 +43,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); SKCM TCGA cohort is predominantly metastatic (296 regional lymph-node, 68 distant metastases vs 103 primary); survival correlations should use only the 103 primary tumors [PMID:29625055](../papers/29625055.md)
 - Largest cancer type (N=151) in pooled WES ICB cohort of 249 MSS tumors; dominant UV mutational signature (S7) is a stronger correlate of response to immune checkpoint blockade than TMB alone; TMB ceases to predict response after adjusting for dominant signature [PMID:30150660](../papers/30150660.md)
 - SKCM (cutaneous melanoma, combined with MEL n=321) was the second-largest histology in the ICI-treated MSK-IMPACT cohort; TMB-high SKCM patients had improved overall survival with ICI and PFS/clinical-benefit associations with TMB were specifically reported. [PMID:30643254](../papers/30643254.md)
+- CCLE multi-omic profiling demonstrated that SOX10 promoter hypomethylation and expression are restricted to melanoma (SKCM) cell lines and selectively predict SOX10 knockdown sensitivity, establishing a lineage-specific synthetic lethality mechanism [PMID:31068700](../papers/31068700.md).
 
 ## Subtypes
 
@@ -114,5 +115,9 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
+
+- [PMID:31068700](../papers/31068700.md) — Ghandi et al. CCLE multi-omic profiling (Nature 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

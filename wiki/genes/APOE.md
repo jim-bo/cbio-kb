@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - ODG
 tags: [astrocytic-marker, oligodendroglioma, differentiation, lipid-metabolism]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # APOE
@@ -17,6 +17,7 @@ APOE (apolipoprotein E) is a lipid transport protein highly expressed in astrocy
 ## Alterations observed in the corpus
 
 - APOE (together with [ALDOC](../genes/ALDOC.md), [SOX9](../genes/SOX9.md), and [GFAP](../genes/GFAP.md)) marks the differentiated astro-like compartment in grade II IDH-mutant 1p/19q-codeleted oligodendroglioma; identified from scRNA-seq of 4,347 cells across 6 tumors [PMID:27806376](../papers/27806376.md).
+- APOE elevated as a hepatocyte marker in P2/P4 transcriptomic clusters (HCC-like) of cHCC-ICC; co-expressed with GPC3, ALB, TBX3, and SALL4 in the HCC-like cluster [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ APOE (apolipoprotein E) is a lipid transport protein highly expressed in astrocy
 - [PMID:27806376](../papers/27806376.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

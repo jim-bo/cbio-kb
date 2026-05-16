@@ -24,6 +24,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - Inactivating alterations enriched in secondary MIBC (14% vs 5.5%, univariable p=0.007) in MSK-IMPACT-profiled bladder cancer cohort; did not survive FDR correction; finding hypothesis-generating only [PMID:30290956](../papers/30290956.md)
 - Truncating/inactivating alterations in <1% of advanced HCC (MSK-IMPACT cohort); together with TSC2 (~10.6%) defines mTOR negative-regulator loss as rationale for matched everolimus therapy; one TSC2 E95*-mutant patient had disease stabilization on everolimus after sorafenib progression [PMID:30373752](../papers/30373752.md)
 - OncoKB Level 2b actionable alteration in metastatic panNET (panet_msk_2018); 1 patient with TSC1 somatic alteration eligible for mTOR inhibitor therapy [PMID:30687805](../papers/30687805.md)
+- Recurrently mutated in upper tract urothelial carcinoma (UTUC, n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -70,3 +71,6 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

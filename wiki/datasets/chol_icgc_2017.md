@@ -20,8 +20,8 @@ tags:
   - ICGC
   - integrative-clustering
   - methylation
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ICGC Cholangiocarcinoma Multi-Omic Cohort 2017 (Jusakul et al.)
@@ -67,9 +67,13 @@ The ICGC CCA cohort is the largest integrated multi-omic survey of cholangiocarc
 - Clusters 3 and 4 carry significantly better overall survival than Clusters 1–2 (log-rank p<0.001), independent of fluke status, anatomy, and stage; reproduced in an independent validation cohort [PMID:28667006](../papers/28667006.md).
 - Ten COSMIC mutational signatures detected; APOBEC enriched in Fluke-Positive tumors (p<0.001); Signature 1 (CpG>TpG deamination) elevated in Cluster 1; L1 retrotransposition from [TTC28](../genes/TTC28.md) intron-1 in 28.2% of WGS tumors [PMID:28667006](../papers/28667006.md).
 - FIREFLY method applied to 70 WGS samples identified four gene sets enriched for promoter mutations that alter TF binding and produce concordant transcriptional dysregulation, predominantly affecting PRC2/H3K27me3 pathways in Cluster 1 [PMID:28667006](../papers/28667006.md).
+- Used as a reference ICC cohort in the pan-Asia cHCC-ICC multi-omic study; provided comparative KRAS mutation frequency (~ICC baseline) and transcriptomic cluster P1 enrichment context for combined-type cHCC-ICC [PMID:31130341](../papers/31130341.md)
 
 ## Sources
 
 - Jusakul A, Cutcutache I, Yong CH, et al. Whole-genome and epigenomic landscapes of etiologically distinct subtypes of cholangiocarcinoma. *Cancer Cell.* 2017;32(4):516-527.e8. [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

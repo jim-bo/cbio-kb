@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PRAD, ODG]
 tags: [transcription-factor, fusion, ETS-family, prostate, CIC-target, oligodendroglioma]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # ETV1
@@ -25,6 +25,7 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - Recurrent ETS fusion in mCRPC (part of 56% ETS-fusion prevalence) [PMID:26000489](../papers/26000489.md)
 - Defines a less common ETS-fusion subtype (8%) in primary prostate cancer; cryptic rearrangement to chr14 near MIPOL1/FOXA1 identified in one high-expressing case lacking a canonical fusion [PMID:26544944](../papers/26544944.md)
 - Amplification in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases in the MSK ODG cohort [PMID:28472509](../papers/28472509.md)
+- ETV1 ETS-family fusion is mutually exclusive with ERG, SPOP, and FOXA1 in mCRPC in a 429-patient tumor biopsy cohort [PMID:31061129](../papers/31061129.md)
 
 ## Cancer types (linked)
 
@@ -68,3 +69,6 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - CCRCC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BRD7
@@ -17,6 +17,7 @@ BRD7 (Bromodomain-containing protein 7) is a component of the PBAF (Polybromo-as
 ## Alterations observed in the corpus
 
 - BRD7 cited as an essential PBAF-complex component whose loss (in mouse models) sensitizes tumor cells to T-cell-mediated killing, supporting a PBAF-wide immune-priming mechanism relevant to immunotherapy response in ccRCC [PMID:29301960](../papers/29301960.md).
+- Significantly mutated driver gene (dNdScv q < 0.1) in combined hepatocellular-cholangiocarcinoma (cHCC-ICC); member of the SWI/SNF complex jointly mutated in 19.5% of cHCC-ICC cases alongside ARID1A, ARID2, and PBRM1 [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ BRD7 (Bromodomain-containing protein 7) is a component of the PBAF (Polybromo-as
 - [PMID:29301960](../papers/29301960.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

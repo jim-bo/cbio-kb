@@ -1,0 +1,37 @@
+---
+name: FoundationOne
+slug: foundationone
+kind: method
+canonical_source: cbioportal
+unverified: false
+tags:
+  - sequencing-panel
+  - targeted-dna-seq
+  - clinical-sequencing
+  - tumor-only
+processed_by: entity-page-writer
+processed_at: 2026-05-16
+---
+
+# FoundationOne
+
+## Overview
+
+FoundationOne is a commercially available, FDA-approved comprehensive genomic profiling (CGP) assay developed by Foundation Medicine. It performs targeted hybrid-capture DNA sequencing of all coding exons of ≥300 cancer-relevant genes, detecting substitutions, insertion/deletions, copy-number alterations, and selected fusions/rearrangements from routine formalin-fixed paraffin-embedded (FFPE) tumor tissue. FoundationOne is typically deployed as a tumor-only (unmatched) assay; germline variants cannot be reliably distinguished from somatic variants without a paired normal. The assay also reports tumor mutational burden (TMB) and microsatellite instability (MSI) status. It is listed in the cBioPortal gene-panels ontology under the canonical `genePanelId` "FoundationOne".
+
+## Used by
+
+- Used for tumor-only sequencing of 167 of 1,004 adult glioma tumors in the 923-patient MSK glioma prospective cohort ([glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md)); tumor-only design precludes germline analysis for this subset, biasing the germline-variant prevalence denominator to the 837 MSK-IMPACT paired samples [PMID:31263031](../papers/31263031.md)
+
+## Notes
+
+- Tumor-only sequencing means paired germline analysis is not possible; reported somatic variants may include germline variants of uncertain significance.
+- Canonical `genePanelId` in cBioPortal: `FoundationOne`.
+- Coverage spans coding exons of ≥300 genes; also reports TMB (mut/Mb) and MSI status from the targeted capture data.
+- Complementary to MSK-IMPACT (paired tumor-normal) in multi-institutional sequencing cohorts; FoundationOne samples in those settings are often limited to actionability analysis rather than germline studies.
+
+## Sources
+
+- [PMID:31263031](../papers/31263031.md) — Jonsson et al. used FoundationOne (tumor-only, n=167) alongside MSK-IMPACT (paired, n=837) in 923 adult glioma patients; FoundationOne samples excluded from germline analysis.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

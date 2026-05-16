@@ -5,7 +5,7 @@ main_type: Glioma
 parent: ADIFG
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # Astrocytoma, IDH-Mutant (ASTR)
@@ -30,6 +30,7 @@ IDH-mutant astrocytoma (ASTR) is a diffuse glioma subtype defined by IDH1/IDH2 m
 - [PIK3R1](../genes/PIK3R1.md) and [PIK3CA](../genes/PIK3CA.md) mutations (with [TP53](../genes/TP53.md) and broad CNV load) used to define "molecular grade-intermediate" in 1p19q intact tumors [PMID:37910594](../papers/37910594.md).
 - Cohort of 23 paired initial/recurrent grade II astrocytomas revealed that in 43% of cases at least half of initial-tumor driver mutations (including [IDH1](../genes/IDH1.md) R132H — universal) were absent at recurrence, and 6 of 10 temozolomide-treated patients developed hypermutated recurrences that all progressed to [GBM](../cancer_types/GBM.md) [PMID:24336570](../papers/24336570.md).
 - TCGA pan-glioma study included 169 astrocytoma cases (16% of 1,122-patient cohort); astrocytoma enriched for IDH-mutant G-CIMP-high and G-CIMP-low methylation subtypes; G-CIMP-low (IDH-mutant non-codel) subset identified as poor-prognosis entity with cell-cycle gene activation (CDK4, CDKN2A) [PMID:26824661](../papers/26824661.md)
+- In a 923-patient glioma cohort, IDH-mutant astrocytomas (1p19q-intact) showed cell-cycle alterations (chiefly CDKN2A/B loss) enriched in MRI-enhancing tumors (44% vs 8%, P<0.001) and associated with shorter PFS at recurrence (HR=2.6, P=0.02); longitudinal sequencing in 22 patients confirmed cell-cycle aberrations co-acquired with contrast enhancement in astrocytomas but not codeleted tumors [PMID:31263031](../papers/31263031.md).
 
 ## Subtypes
 
@@ -49,4 +50,8 @@ IDH-mutant astrocytoma (ASTR) is a diffuse glioma subtype defined by IDH1/IDH2 m
 - [PMID:24336570](../papers/24336570.md)
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

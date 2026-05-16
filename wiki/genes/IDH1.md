@@ -55,6 +55,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - Missense mutations detected at <1% in advanced HCC; possibly defines a cholangiocarcinoma-like HCC subset susceptible to selective IDH1 inhibitors such as ivosidenib [PMID:30373752](../papers/30373752.md)
 - IDH1 hotspot mutations (esp. R132) are truncal LGG-defining events; detected with 100% concordance between tumour tissue and CSF ctDNA in all non-hypermutated LGG and GBM cases; CSF ctDNA positivity remained prognostic (HR 4.16) after adjusting for IDH1 status (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 - R132G/H mutations in 11/56 (20%) recurrent GBM cohort tumors (4 responders, 7 non-responders); IDH1-mutant cases were excluded from the primary mutation-enrichment analysis comparing anti-PD-1 responders vs non-responders [PMID:30742119](../papers/30742119.md)
+- IDH1 is mutated in cHCC-ICC as part of the epigenetic dysregulation group (KMT2D/IDH1/BAP1/EZH2, jointly 35.6%); IDH1-mutant tumors cluster in the biliary/ICC-like P1 transcriptomic group [PMID:31130341](../papers/31130341.md).
+- IDH1 R132 defines the IDH-mutant glioma subgroup (355 of 923 tumors); IDH-mutant status anchors all subtype analyses including cell-cycle alteration enrichment in contrast-enhancing tumors and alkylator-induced hypermutation [PMID:31263031](../papers/31263031.md).
 
 ## Cancer types (linked)
 
@@ -189,5 +191,11 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

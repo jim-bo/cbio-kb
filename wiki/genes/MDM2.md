@@ -56,6 +56,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 amplification in 4% of cholangiocarcinoma (n=195 MSK-IMPACT cohort); associated with shorter PFS on first-line chemotherapy (n=7, p=0.026) [PMID:29848569](../papers/29848569.md)
 - 12q focal amplification (co-amplified with CDK4) enriched in PD patients in a pooled ICB cohort (193 patients); 12q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
 - MDM2 mutated in 6% of gallbladder carcinoma tumors in a three-region cohort; located in the same TP53/ATM pathway; detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
+- MDM4 exon-6 inclusion (MDM4-FL) in TP53 wild-type cancer cell lines predicts sensitivity to MDM2 inhibitor nutlin-3a; MDM2 inhibitor patient-selection strategy proposed based on MDM4/RPL22 biomarker cascade (CCLE study). [PMID:31068700](../papers/31068700.md)
 
 ## Cancer types (linked)
 
@@ -185,5 +186,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -61,6 +61,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - Applied with ABSOLUTE to Affymetrix SNP6 array data for copy-number analysis of ~10,000 TCGA PanCancer Atlas tumors; copy-number alterations contributed 47% of the integrated iCluster signal [PMID:29625048](../papers/29625048.md).
 - GISTIC2.0 applied to 304 DLBCLs; detected 18 arm-level and 18 focal copy gains, 2 arm-level and 32 focal copy losses (q ≤ 0.1, frequency ≥ 3%); CCGs were highly enriched within focal SCNAs (Fisher's exact P = 1×10⁻⁴⁴) [PMID:29713087](../papers/29713087.md)
 - Applied with CopywriteR on WXS off-target reads from 105 CPTAC colon cancer tumor/normal pairs for somatic copy-number alteration analysis; arm-level SCNAs matched TCGA; 59% of focal driver candidates confirmed by protein-level evidence [PMID:31031003](../papers/31031003.md)
+- Applied for recurrent copy-number alteration calling in the pan-Asia cHCC-ICC study (133 cases); identified amplifications at [MYC](../genes/MYC.md), [MET](../genes/MET.md), [CCNE1](../genes/CCNE1.md), [CDK6](../genes/CDK6.md), and [TERT](../genes/TERT.md), and deletions at [CDKN2A](../genes/CDKN2A.md), [RB1](../genes/RB1.md), and [AXIN1](../genes/AXIN1.md) [PMID:31130341](../papers/31130341.md)
 
 ## Notes
 
@@ -197,5 +198,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -72,6 +72,9 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 S45F activating hotspot mutation appeared in bladder organoid line SCBO-3.2 (recurrent tumor after BCG + mitomycin-C treatment) but was absent from the parental tumor and early passages, documenting a clonal-evolution event under intravesical therapy [PMID:29625057](../papers/29625057.md)
 - Mutated in 1/9 HCA (B-HCA subtype with aberrant nuclear β-catenin) and in 2/10 HCC; both HCC CTNNB1-mutant cases co-carried TERT promoter mutations, supporting CTNNB1 as the early oncogenic hit in the HCA-to-HCC transformation sequence [PMID:30052636](../papers/30052636.md)
 - CTNNB1 activating mutations in 35.7% of HCC; defines WNT-activated subset; associated with innate resistance to immune checkpoint blockade (all 10 WNT-altered ICI-treated patients had progressive disease vs. 53% disease control in non-WNT patients) [PMID:30373752](../papers/30373752.md)
+- CTNNB1 dependence correlates with mir-215 expression in stomach and colon lineages across 1,072 CCLE cancer cell lines [PMID:31068700](../papers/31068700.md)
+- CTNNB1 mutation frequency is paradoxically low at 6% in 133 cHCC-ICC cases vs HCC reference cohorts; enriched in P4 transcriptomic cluster (Hoshida-S3, well-differentiated HCC-like) [PMID:31130341](../papers/31130341.md)
+- CTNNB1 is recurrently altered in metastatic castration-resistant prostate cancer (mCRPC) but not significantly prognostic for survival or time on ARSI in a 429-patient tumor biopsy cohort [PMID:31061129](../papers/31061129.md)
 
 ## Cancer types (linked)
 
@@ -207,5 +210,14 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

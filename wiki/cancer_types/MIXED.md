@@ -27,6 +27,8 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 - [CDH1](../genes/CDH1.md) alteration rate in mixed tumors is intermediate between [ILC](../cancer_types/ILC.md) (63%) and [IDC](../cancer_types/IDC.md) (2%), consistent with the histologic mixture [PMID:26451490](../papers/26451490.md).
 - MET500 cohort (n=500 metastatic solid tumors across 20 cancer types) is the defining MIXED-lineage study in this corpus: top three types were PRAD (18.6%), BRCA (18.2%), and SARCNOS (8.4%); pan-cancer somatic landscape across lineages found TP53 (53.2%), CDKN2A (16%), PTEN (15.8%), PIK3CA (13.4%), AR (12.6%), and KRAS (10.2%) as most-altered genes. [PMID:28783718](../papers/28783718.md)
 - Two of 18 patients in the cobimetinib histiocytosis trial (NCT02649972) had mixed histiocytosis; both responded (one harbored RAF1 K106N, validated as activating in Ba/F3), confirming MEK inhibition efficacy extends to mixed histiocytic neoplasms [PMID:30867592](../papers/30867592.md).
+- CCLE multi-omic study (1,072 cancer cell lines) constitutes a pan-cancer ([MIXED](../cancer_types/MIXED.md)) resource; key findings include reciprocal LDHA/LDHB paralogue synthetic lethalities gated by promoter methylation, TERT promoter mutations in 16.7% of 503 lines, and MDM4 exon-6 inclusion as a biomarker for MDM2-inhibitor sensitivity [PMID:31068700](../papers/31068700.md).
+- Integrative genomic/transcriptomic study of 133 combined hepatocellular-intrahepatic cholangiocarcinoma (cHCC-ICC) cases classified by Allen-Lisa criteria; TP53 mutated in 49.2%, TERT promoter C228T in 22.9%, MYC amplified in 73%; Nestin (NES) IHC positive in 81.3% of cHCC-ICC and proposed as a diagnostic/prognostic biomarker (median OS 18.7 mo Nestin+ vs 46.6 mo Nestin-) [PMID:31130341](../papers/31130341.md).
 
 ## Subtypes
 
@@ -43,7 +45,10 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 - [PMID:26451490](../papers/26451490.md)
 - [PMID:28783718](../papers/28783718.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30867592](../papers/30867592.md)
+- [PMID:31068700](../papers/31068700.md) — Ghandi et al. CCLE multi-omic profiling (Nature 2019).
+- [PMID:31130341](../papers/31130341.md) — Xue et al. cHCC-ICC pan-Asia genomic study (Cancer Cell 2019).
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

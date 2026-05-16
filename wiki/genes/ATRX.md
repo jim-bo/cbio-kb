@@ -3,7 +3,7 @@ symbol: ATRX
 aliases: []
 cancer_types: [AST, DIFG, ANGS, LMS]
 tags: [chromatin-remodeler, alt, astrocytoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -37,6 +37,7 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - ATRX co-occurs with TP53 and IDH1 in the largest somatic-somatic interaction hub pan-cancer (TCGA 33-tumor-type analysis); represents a key co-mutation pattern in glioma-related clusters [PMID:29625049](../papers/29625049.md)
 - ATRX loss-of-function alterations are truncal in IDH-mutant non-codeleted low-grade gliomas (LGG) and mutually exclusive with TERT promoter mutations; detected with 100% concordance between tumour tissue and CSF ctDNA in non-hypermutated cases (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 - ATRX somatic alterations in 25% of metastatic panNET (80-patient MSK-IMPACT cohort); together with DAXX defines the chromatin-remodeling/ALT axis; associated with improved 1-year OS (97% vs 83%, P<.01) in metastatic disease, contrasting with poor prognosis in resected disease [PMID:30687805](../papers/30687805.md)
+- ATRX a canonical glioma subtype-defining lesion; frequency stable across primary vs. recurrent specimens in the 923-patient glioma cohort (glioma_mskcc_2019); assessed by MSK-IMPACT targeted panel [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -117,3 +118,6 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

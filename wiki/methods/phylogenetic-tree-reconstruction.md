@@ -22,6 +22,7 @@ Computational method applied to multiregion tumor sequencing data to infer the e
 - Multi-region phylogenetic analysis of WGS data from 2 gastric cancer patients (3 primary-tumor regions + 2 lymph-node metastases each) showed substantial divergence among primary regions with lymph-node metastases sharing a common clonal ancestor from only one primary-tumor region [PMID:25583476](../papers/25583476.md)
 - Phylogenetic trees constructed with CITUP (v0.1.0) plus manual reconstruction in TRACERx to resolve monoclonal vs polyclonal relapse seeding patterns detectable from post-operative plasma ctDNA [PMID:28445469](../papers/28445469.md)
 - Applied to WES data from serial-passage organoid lines to reconstruct linear and branched clonal evolution patterns; demonstrated both linear and branched evolution in patient-derived bladder cancer organoids [PMID:29625057](../papers/29625057.md).
+- Clonal phylogenetic trees reconstructed for cHCC-ICC cases (133 total) to infer monoclonal vs. multiclonal origin; 4/6 separate-type cases shared 46–67% of mutations (monoclonal origin); subsequent CCF analysis with [pyclone](../methods/pyclone.md) confirmed subclonal structure in mixed-type tumors [PMID:31130341](../papers/31130341.md)
 
 ## Notes
 
@@ -41,5 +42,8 @@ Computational method applied to multiregion tumor sequencing data to infer the e
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

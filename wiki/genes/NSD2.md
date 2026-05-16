@@ -3,8 +3,8 @@ symbol: NSD2
 aliases: [WHSC1, MMSET]
 cancer_types: [MCL]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # NSD2
@@ -17,6 +17,7 @@ NSD2 (Nuclear Receptor Binding SET Domain Protein 2; also WHSC1/MMSET) encodes a
 
 - Recurrent missense mutations p.E1099K and p.T1150A (in conserved SET-domain–proximal exons 18/19) in 13/130 (10%) MCL; first description of NSD2/WHSC1 somatic mutation in lymphoma; nearly all in SOX11-positive tumors; likely late/subclonal event in some cases [PMID:24145436](../papers/24145436.md)
 - NSD2-mutated MCL phenocopies t(4;14) plasma-cell myeloma transcriptionally: GSEA shows overexpression of NSD2 gain-of-function gene signatures and proliferation/cell-cycle signatures [PMID:24145436](../papers/24145436.md)
+- Known histone-mark cluster driver in cancer cell lines (CCLE); NSD2 mutations define an H3K36 methylation cluster among 1,403 cancer cell line epigenomic profiles. [PMID:31068700](../papers/31068700.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ NSD2 (Nuclear Receptor Binding SET Domain Protein 2; also WHSC1/MMSET) encodes a
 - [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: FGFR1
 aliases: []
 cancer_types: [OS, RMS, PRAD]
 tags: [amplification, sarcoma, radiation-associated]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -43,6 +43,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Focal amplification noted as a clonal event in a representative matched-pair HR+ metastatic breast cancer patient [PMID:30205045](../papers/30205045.md)
 - Focal 8p12 amplification with ZNF703 defines IntClust6 (5.5% of ER+ breast cancer); 100% of IntClust6 cases carry this amplification vs 2-21% of other IntClust groups; identified as a targetable copy-number driver in late-recurring ER+/HER2- disease [PMID:30867590](../papers/30867590.md)
 - Somatic FGFR1 alteration (×1 patient) classified as OncoKB Level 4 actionable in metastatic panNET (MSK-IMPACT cohort, n=80); 47% of patients had at least one Level 2b/3b/4 actionable alteration [PMID:30687805](../papers/30687805.md)
+- FGFR1 alterations are among the oncogenic drivers whose phospho-SHP2 (PTPN11 pY542) level explains ponatinib sensitivity in AML/CML cell lines in the expanded CCLE multi-omic dataset [PMID:31068700](../papers/31068700.md)
 
 ## Cancer types (linked)
 
@@ -141,5 +142,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

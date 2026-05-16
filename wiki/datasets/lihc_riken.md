@@ -17,8 +17,8 @@ tags:
   - HBV
   - TERT
   - WGS
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RIKEN HCC Genomics (lihc_riken)
@@ -50,9 +50,13 @@ The lihc_riken entry represents genomic studies of hepatocellular carcinoma ([HC
 - HBV-TERT integration can cyclize into extrachromosomal circular DNA (ecDNA) found in 27.3% of liver cancer samples, harboring 76 oncogenes including [MYC](../genes/MYC.md) [PMID:22634756](../papers/22634756.md)
 - TERT promoter mutations, [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) are top recurrent somatic alterations in HCC with Wnt and mTOR as key therapeutic pathways [PMID:22634756](../papers/22634756.md)
 - Nucleos(t)ide analogues reduced HBV DNA integration frequency from median 1.01x10^9 to 4.84x10^7 after 10 years (n=28) [PMID:22634756](../papers/22634756.md)
+- Served as a reference HCC cohort (RIKEN-LIHC) in the pan-Asia cHCC-ICC integrative genomic study; contributed to the pan-liver-cancer transcriptomic clustering (n=367) identifying P1–P4 clusters and to comparative mutational-landscape benchmarks for TP53 and TERT promoter frequencies [PMID:31130341](../papers/31130341.md)
 
 ## Sources
 
 - [PMID:22634756](../papers/22634756.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

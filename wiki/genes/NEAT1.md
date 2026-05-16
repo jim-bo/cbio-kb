@@ -3,8 +3,8 @@ symbol: NEAT1
 aliases: [NEAT2, TncRNA]
 cancer_types: [BLCA]
 tags: [lncRNA, bladder-cancer, molecular-subtype, nuclear-paraspeckle]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # NEAT1
@@ -16,6 +16,7 @@ NEAT1 (Nuclear Enriched Abundant Transcript 1) is an abundant nuclear lncRNA tha
 ## Alterations observed in the corpus
 
 - NEAT1 lncRNA expression was elevated in lncRNA cluster 3 of muscle-invasive bladder cancer (n=408), a better-survival subset of the luminal-papillary mRNA subtype; this cluster was depleted in [TP53](../genes/TP53.md) mutations, enriched in [FGFR3](../genes/FGFR3.md) mutations and fusions, and consisted of high-purity, papillary histology, organ-confined tumors [PMID:28988769](../papers/28988769.md)
+- Most frequently mutated intergenic noncoding RNA in cHCC-ICC, mutated in 29.7% of cases; role in cHCC-ICC biology not fully characterized. [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NEAT1 (Nuclear Enriched Abundant Transcript 1) is an abundant nuclear lncRNA tha
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

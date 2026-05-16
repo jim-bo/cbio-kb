@@ -83,6 +83,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Three pathogenic germline truncating mutations identified (one serous, two carcinosarcomas); founder c.5946delT in two patients, c.5799_5802delCCAA frameshift in the third; none enrolled to PARP-inhibitor trials — demonstrating utility of unbiased germline analysis in endometrial cancer [PMID:30068706](../papers/30068706.md)
 - BRCA2 mutated in 10% of gallbladder carcinoma; co-occurrence trends with AR and KMT2D [PMID:30427539](../papers/30427539.md)
 - Germline protein-truncating variants in BRCA2 drive elevated somatic SV/SNV burden and BRCAness (signature 3) in prostate cancer; some BRCA2 tumor disruptions arise from APOBEC-associated SV breakpoints; BRCA2-mutated patients are candidates for PARP inhibitors based on high signature-3 burden (292-case WGS cohort) [PMID:30537516](../papers/30537516.md)
+- Harbors homologous-recombination repair alterations (11% frequency) in mCRPC tumor tissue; ~60% of BRCA2 SNVs classified as likely oncogenic; no association with survival or time on first-line ARSI (composite HRR P=0.495/0.611) in this tumor-tissue cohort, contrasting with prior cfDNA-based reports [PMID:31061129](../papers/31061129.md)
+- Germline pathogenic/likely-pathogenic BRCA2 alleles identified in 3 of 764 glioma patients (0.4%), contributing to the 13% overall germline burden in the MSK glioma cohort; BRCA2 P/LP alleles implicated in heritable cancer predisposition and nominated for routine germline screening in glioma patients [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -258,5 +260,11 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -10,7 +10,7 @@ assays: [bulk-rna-seq, whole-genome-seq]
 panels: []
 tags: [prostate-cancer, prad, metastatic-castration-resistant, su2c, neuroendocrine]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Prostate Cancer (SU2C/PCF Dream Team, 2019)
@@ -39,6 +39,7 @@ Multi-institutional metastatic castration-resistant prostate cancer (mCRPC) coho
 - Three [FGFR1](../genes/FGFR1.md) downstream genes (NRP2, LRP4, TGFBI) preferentially expressed in bone metastases in the SU2C dataset. [PMID:38488813](../papers/38488813.md)
 - Referenced for USP10 deep deletion frequency (~10%) in metastatic castration-resistant prostate cancer, used to contextualize the therapeutic vulnerability of the USP10–TRMT10A axis [PMID:28068672](../papers/28068672.md)
 - Used (SU2C/PCF Dream Team 2019, n=266 polyA RNA-seq samples) for cross-cohort correlation of the NOL10 cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score, and for combined NOL10+USF1 ROC survival analyses [PMID:28927585](../papers/28927585.md).
+- 429-patient mCRPC cohort (444 biopsied tumors) sequenced by WES and RNA-seq; deposited as this dataset on cBioPortal and GitHub; RB1 alteration was independently associated with shorter overall survival (RR 3.31) and shorter time on first-line ARSI (RR 6.56) in a 128-patient first-line ARSI subset [PMID:31061129](../papers/31061129.md)
 
 ## Sources
 
@@ -51,3 +52,6 @@ Multi-institutional metastatic castration-resistant prostate cancer (mCRPC) coho
 - [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31061129](../papers/31061129.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ drug_class: BRAF V600 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -30,6 +30,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including vemurafenib, [dabrafenib](../drugs/dabrafenib.md), or [trametinib](../drugs/trametinib.md); MAPKi-induced transcriptional programs overlap substantially with the IPRES innate anti-PD-1 resistance signature, raising concern that prior/concurrent vemurafenib therapy may compromise subsequent anti-PD-1 response in [BRAF](../genes/BRAF.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 - In a panNET patient with [BRAF](../genes/BRAF.md) V600E treated with vemurafenib, acquired [NRAS](../genes/NRAS.md) Q61R was detected at progression by serial [MSK-IMPACT](../methods/msk-impact-panel.md) sequencing, exemplifying on-target resistance via RAS-mediated MAPK pathway reactivation [PMID:30687805](../papers/30687805.md)
 - Cobimetinib (MEK1/2 inhibitor) achieved 89% PET ORR in histiocytic neoplasms regardless of MAPK genotype, contrasting with vemurafenib which is approved only for BRAF V600-mutant Erdheim–Chester disease — extending molecularly targeted therapy to the ~50% of histiocytosis patients without BRAF V600 who previously had no standard targeted option beyond vemurafenib [PMID:30867592](../papers/30867592.md)
+- Vemurafenib (BRAF V600 inhibitor) was among the RAF/MEK/ERK-directed agents used in 7 BRAF V600E glioma patients; 4 achieved partial/near-complete responses (ongoing at 9–41 months) and 2 had stable disease; the sole non-responder carried a subclonal V600E, and CDKN2A homozygous deletion in a treatment-escaping metastasis mirrors resistance mechanisms in melanoma. [PMID:31263031](../papers/31263031.md)
 
 ## Resistance mechanisms
 
@@ -76,3 +77,6 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - [PMID:30867592](../papers/30867592.md) — Diamond et al. 2019, histiocytic neoplasms phase 2 trial; cobimetinib extended targeted therapy to ~50% of histiocytosis patients lacking BRAF V600 who previously had no standard option beyond vemurafenib.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

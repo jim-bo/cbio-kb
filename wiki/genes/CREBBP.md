@@ -47,6 +47,7 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - placeholder
 - CREBBP chromatin-modifier mutations are enriched in C3 GCB-DLBCL alongside KMT2D, EP300, and EZH2 mutations; GSEA shows concordant upregulation of EZH2 targets in C3, suggesting convergent epigenetic reprogramming [PMID:29713087](../papers/29713087.md)
 - CREBBP epigenetic regulator enriched in HR+ metastatic breast cancer context post-endocrine-therapy [PMID:30205045](../papers/30205045.md)
+- CREBBP truncating mutations distal to the HAT domain define a new H3K18/H3K27 hyperacetylation cluster across 1,072 CCLE cancer cell lines, nominated as gain-of-function [PMID:31068700](../papers/31068700.md)
 
 ## Cancer types (linked)
 
@@ -155,5 +156,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

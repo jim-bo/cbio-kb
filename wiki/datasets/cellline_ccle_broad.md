@@ -9,8 +9,8 @@ unverified: false
 assays: [MUTATION_EXTENDED, COPY_NUMBER_ALTERATION, MRNA_EXPRESSION, PROTEOMICS]
 panels: []
 tags: [cell-line, pharmacogenomics, multi-omic, pan-cancer]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Cancer Cell Line Encyclopedia (Broad/Novartis)
@@ -48,6 +48,7 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 - [Elastic net](../methods/elastic-net.md) regression across >50,000 genomic features was used to build predictive models of drug sensitivity [PMID:22460905](../papers/22460905.md).
 - [ZNF750](../genes/ZNF750.md) mRNA expression referenced from CCLE cell-line data as part of ESCC tumor-versus-normal expression comparisons [PMID:24686850](../papers/24686850.md).
 - [SLFN11](../genes/SLFN11.md) expression analyzed across CCLE SCLC cell lines to confirm bimodal distribution; lower expression in lines derived from previously-treated patients (p=0.031), supporting SLFN11 as a treatment-experience-dependent biomarker in SCLC [PMID:28196596](../papers/28196596.md).
+- Next-generation CCLE multi-omic profiling of 1,072 cancer cell lines layered WES/WGS/RNA-seq/RPPA/RRBS/miRNA/histone mass-spec on the original CCLE backbone; this cell-line resource underpins all dependency and drug-sensitivity analyses in the study [PMID:31068700](../papers/31068700.md)
 
 ## Sources
 
@@ -56,3 +57,6 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

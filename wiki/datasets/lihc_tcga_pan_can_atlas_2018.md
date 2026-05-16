@@ -19,7 +19,7 @@ tags:
   - TCGA
   - pan-cancer
   - pan-can-atlas
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -53,6 +53,7 @@ The TCGA Liver Hepatocellular Carcinoma PanCancer Atlas 2018 cohort is the [LIHC
 - C26:LIHC was one of eight pan-cancer iClusters dominated by a single tumor type; >80% of LIHC samples grouped together in this single iCluster, reflecting the molecular homogeneity of hepatocellular carcinoma relative to other GI cancers. [PMID:29625048](../papers/29625048.md)
 - [ESR1](../genes/ESR1.md) (ER-α), [AR](../genes/AR.md), and [IGFBP2](../genes/IGFBP2.md) high-expression RPPA groups contain luminal [BRCA](../cancer_types/BRCA.md), [UCEC](../cancer_types/UCEC.md), [OV](../cancer_types/OV.md), and some LIHC samples, indicating estrogen/androgen pathway activity shared across these cancer types. [PMID:29625048](../papers/29625048.md)
 - [CTNNB1](../genes/CTNNB1.md) is mutually exclusive with [TP53](../genes/TP53.md) and is a major WNT-pathway driver in LIHC; somatic co-occurrence/exclusivity networks tested across 33 cancer types including LIHC. [PMID:29625049](../papers/29625049.md)
+- Provided TCGA-HCC reference arm (TCGA-LIHC) for the pan-Asia cHCC-ICC multi-omic study; TP53 mutation rate in TCGA-HCC (31%) was significantly lower than in cHCC-ICC (49.2%, p<0.001), and TERT promoter mutation rate was higher in TCGA-HCC (46%, p<0.001); also contributed to the 367-sample pan-liver-cancer transcriptomic clustering [PMID:31130341](../papers/31130341.md)
 
 ## Sources
 
@@ -61,3 +62,6 @@ The TCGA Liver Hepatocellular Carcinoma PanCancer Atlas 2018 cohort is the [LIHC
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

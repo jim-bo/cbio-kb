@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [clustering, unsupervised, transcriptomics, bioinformatics]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Consensus Hierarchical Clustering (ConsensusClusterPlus)
@@ -25,6 +25,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - Used for sub-group discovery across miRNA, mRNA, and methylation data in 40-66 MRT cases; yielded 2 miRNA sub-groups, 2 mRNA sub-groups (recapitulating AT/RT vs RTK distinction), and 2 WGBS methylation sub-groups (correlated with age >1 year at diagnosis). [PMID:26977886](../papers/26977886.md)
 - Consensus hierarchical clustering used for mRNA-based subtype discovery across 173 PCPG tumors; yielded four subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical admixture) validated in an independent Burnichon et al. cohort [PMID:28162975](../papers/28162975.md).
 - Used for NMF consensus clustering of 408 BLCA RNA-seq samples defining five mRNA expression subtypes (luminal-papillary 35%, luminal-infiltrated 19%, luminal 6%, basal-squamous 35%, neuronal 5%) with distinct survival (p=4×10⁻⁴) [PMID:28988769](../papers/28988769.md)
+- Applied in the high-grade UTUC molecular subtype analysis (37 WES / 32 RNA-seq tumors) using UNC BASE47, MDACC, and TCGA classifiers; showed that 84.3% of UTUC tumors are luminal by the UNC BASE47 classifier vs 46.1% of TCGA UCB [PMID:31278255](../papers/31278255.md)
 
 ## Notes
 
@@ -56,3 +57,6 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

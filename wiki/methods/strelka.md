@@ -28,6 +28,7 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 - Strelka used for somatic variant calling in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) paired tumor/normal WES samples alongside MuTect for the PBRM1-immunotherapy response study [PMID:29301960](../papers/29301960.md)
 - Used to call indels (v1.0.11) across 1,013 prostate tumor/normal pairs in the prad_p1000 dataset [PMID:29610475](../papers/29610475.md)
 - Used for somatic indel calling in the uniform reanalysis of 249 MSS tumor/normal WES samples from seven ICB cohorts; combined with MuTect (SNVs) and Oncotator (annotation) [PMID:30150660](../papers/30150660.md)
+- Part of the consensus SNV/indel calling pipeline in the high-grade UTUC WES study (37 tumor-normal pairs), used together with [mutect](../methods/mutect.md) and [varscan](../methods/varscan.md); consensus calls annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
 
 ## Notes
 
@@ -66,5 +67,8 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

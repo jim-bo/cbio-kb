@@ -7,8 +7,8 @@ tags:
   - rho-gtpase
   - tumor-suppressor
   - candidate-driver
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RHOB
@@ -20,6 +20,7 @@ RHOB encodes a member of the Rho family of small GTPases involved in cytoskeleta
 ## Alterations observed in the corpus
 
 - Identified as a mutated gene in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) in the TCGA comprehensive genomic characterization; specific alteration class noted in context of the significantly mutated gene landscape [PMID:24476821](../papers/24476821.md)
+- RHOB is among the recurrently mutated genes in UTUC at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ RHOB encodes a member of the Rho family of small GTPases involved in cytoskeleta
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

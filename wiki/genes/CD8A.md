@@ -3,7 +3,7 @@ symbol: CD8A
 aliases: []
 cancer_types: [COAD, HNSC]
 tags: [t-cell, icr-signature, immune-infiltration]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -21,6 +21,7 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 - CD8A (CD8 alpha chain) was not significantly differentially expressed between anti-PD-1 responders and non-responders in whole-tumor transcriptome analysis of melanoma; this negative finding contrasts with nanostring panel results from other studies and may reflect dilution of immune-cell-specific signals in bulk RNA-seq [PMID:26997480](../papers/26997480.md).
 - CD8A is over-expressed in younger Korean (SMC) breast tumors vs. TCGA, marking elevated cytotoxic-T-cell infiltration (TIL NMF factor F9); CD8A and CD274 over-expression support an immune-active microenvironment in younger Asian breast cancer [PMID:29713003](../papers/29713003.md)
 - CD8A used as marker for CD8 T-cell infiltration in proteogenomic colon cancer cohort (n=110); CD8 infiltration reduced in MSI-H tumors with high glycolytic activity (inverse correlation with SLC2A3/PKM2 expression) [PMID:31031003](../papers/31031003.md)
+- Concordantly downregulated in T-cell-depleted UTUC cluster (28/32, 87.5% of UTUC tumors); used as a key marker in the 170-immune-gene classifier distinguishing T-cell-inflamed vs T-cell-depleted tumors; depletion linked to FGFR3 activation suppressing IFNG response genes [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -55,3 +56,6 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 - [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

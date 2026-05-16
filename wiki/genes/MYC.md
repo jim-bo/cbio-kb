@@ -93,6 +93,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC amplification was acquired in the final CSF sample of patient #28 (GBM, IDH-WT) during serial tumour evolution, after the loss of a prior PDGFRA/KIT amplification, representing branched convergent evolution within growth-factor-receptor and cell-cycle-regulator pathways [PMID:30675060](../papers/30675060.md).
 - 8q22 duplications in EOPC prostate cancer (17% of cases) are centered on ESRP1, ~33 Mb from MYC; although duplications often span both loci, only ESRP1 (not MYC) showed a significant mRNA increase — MYC does not drive the expression change observed at this locus [PMID:30537516](../papers/30537516.md).
 - MYC 8q24 amplification defines IntClust9 (8% of ER+ breast cancer cases in METABRIC long-term follow-up cohort n=3,240); amplified in 89% of IntClust9 tumours vs 3–42% of other IntClust groups; IntClust9 is a late-relapsing ER+/HER2- subgroup [PMID:30867590](../papers/30867590.md)
+- Focal amplification in 73% of cHCC-ICC cases — the most frequent focal amplification in this cohort; part of the oncogenic driver landscape in combined hepatocellular and intrahepatic cholangiocarcinoma. [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -323,5 +324,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

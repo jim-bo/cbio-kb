@@ -3,8 +3,8 @@ symbol: RPL22
 aliases: []
 cancer_types: [UCEC]
 tags: [ribosomal-protein, frameshift, MSI, endometrial-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RPL22
@@ -17,6 +17,7 @@ RPL22 encodes ribosomal protein L22, a component of the 60S ribosomal subunit. I
 
 - RPL22 Lys15 homopolymer frameshift indels occur in 36.9% of MSI endometrial tumors; nearly absent in MSS endometrioid and copy-number-high (serous-like) subgroups [PMID:23636398](../papers/23636398.md)
 - Newly identified as a significantly mutated gene (MutSigCV) in hepatocellular carcinoma by exome sequencing of a European [HCC](../cancer_types/HCC.md) cohort. [PMID:25822088](../papers/25822088.md)
+- RPL22 K15fs frameshift occurs in 68% of MSI cancer cell lines; loss elevates RPL22L1 expression, which promotes MDM4 exon-6 inclusion and RPL22L1 dependence [PMID:31068700](../papers/31068700.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ RPL22 encodes ribosomal protein L22, a component of the 60S ribosomal subunit. I
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

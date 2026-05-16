@@ -10,7 +10,7 @@ tags:
   - mdm2-inhibitor
   - p53-pathway
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-16
 ---
 
 # nutlin-3a
@@ -23,6 +23,7 @@ Nutlin-3a is a small-molecule cis-imidazoline compound that blocks the [MDM2](..
 
 - [MDM2](../genes/MDM2.md) is focally amplified on chromosome 12q in ~90% of [DDLS](../cancer_types/DDLS.md) (dedifferentiated liposarcoma). An shRNA screen of 385 12q-resident genes in [DDLS](../cancer_types/DDLS.md) cell lines identified [MDM2](../genes/MDM2.md) as an anti-proliferative dependency (sustained knockdown >1 week required). [YEATS4](../genes/YEATS4.md) (GAS41) is co-amplified with MDM2 on 12q and proposed to cooperatively repress the p53 network; nutlin-3a is explicitly cited as a rationale compound for clinical evaluation targeting the MDM2–p53 axis in DDLS [PMID:20601955](../papers/20601955.md).
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
+- In the CCLE (ccle_broad_2019), nutlin-3a (MDM2 inhibitor) sensitivity in TP53 wild-type cancer cell lines was most strongly correlated with MDM4 exon-6 inclusion (MDM4-FL isoform), outperforming total MDM4 mRNA; MDM4-FL was in turn predicted by RPL22L1 expression (driven by RPL22 loss in 68% of MSI lines), proposing a RPL22 → RPL22L1 → MDM4-FL → nutlin-3a sensitivity axis as a clinical patient-selection biomarker. [PMID:31068700](../papers/31068700.md)
 
 ## Resistance mechanisms
 
@@ -40,3 +41,6 @@ Nutlin-3a is a small-molecule cis-imidazoline compound that blocks the [MDM2](..
 - [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ drug_class: MEK1/2 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -31,6 +31,7 @@ Allosteric MEK1/2 inhibitor.
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including [vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md), or trametinib; MAPKi treatment induces transcriptional programs overlapping the IPRES innate anti-PD-1 resistance signature, implicating prior trametinib therapy as a potential driver of cross-resistance to subsequent anti-PD-1 in [BRAF](../genes/BRAF.md)- or [NF1](../genes/NF1.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 - MEK inhibitor; proposed as therapeutic candidate for KRAS/NRAS/GNAQ-altered cisplatin-resistant GCT (KRAS in 22/180, NRAS in 4/180, GNAQ Q209P in 1/180) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
 - SCBO-1 and SCBO-5 (both FGFR3-mutant bladder organoids) responded to trametinib (MEK1/2 inhibitor, 0.5 mg/kg 5-on/2-off oral gavage); SCBO-2 and SCBO-6 (also FGFR3-mutant) did not respond, showing FGFR3 mutation alone is insufficient to predict MEK-inhibitor sensitivity; in vivo orthotopic xenograft studies confirmed significant tumor-size reduction and decreased Ki67 with trametinib [PMID:29625057](../papers/29625057.md)
+- Clinical responses to MEK inhibitors including trametinib (used in BRAF+MEK combinations) in BRAF V600 glioma are conditioned by BRAF allele class and clonality; 4 of 7 BRAF V600E-treated glioma patients achieved partial/near-complete responses (ongoing at 9–41 months), while subclonal V600E and CDKN2A deletion in treatment-escaping lesions predict resistance. [PMID:31263031](../papers/31263031.md)
 
 ## Resistance mechanisms
 
@@ -73,3 +74,6 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:29625057](../papers/29625057.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

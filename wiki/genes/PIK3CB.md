@@ -19,6 +19,7 @@ PIK3CB encodes the p110β catalytic subunit of phosphoinositide 3-kinase (PI3K).
 - Mutated in 2 PTEN-homozygous-deleted prostate tumors (E552K, paralogous to [PIK3CA](../genes/PIK3CA.md) helical-domain hotspot); combined PI3K/AR inhibition suggested for PTEN-deleted/PIK3CB-mutant cases [PMID:26544944](../papers/26544944.md)
 - Core PI3K pathway driver; PIK3CB amplification co-occurs with NFE2L2 GoF/amplification and PIK3CA activation in a pan-cancer PI3K–NRF2 co-occurrence axis concentrated in lung, esophagogastric, head and neck, and uterine tumors [PMID:29625050](../papers/29625050.md)
 - PIK3CB profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018); mTOR-pathway alterations in 34/80 (43%) patients; pathway status did not predict everolimus response [PMID:30687805](../papers/30687805.md)
+- PIK3CB is altered in 4% of mCRPC tumors; part of the PI3K-pathway alteration set with PIK3CA, PIK3R1, and AKT1; pathway alteration not associated with survival or time on ARSI [PMID:31061129](../papers/31061129.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ PIK3CB encodes the p110β catalytic subunit of phosphoinositide 3-kinase (PI3K).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31061129](../papers/31061129.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: KDM6A
 aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -48,6 +48,7 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Recurrent histone-methylation-modifier mutations in medulloblastoma; KDM6A especially enriched in methylation subtype VIII alongside ZMYM3 [PMID:28726821](../papers/28726821.md)
 - Histone demethylase SMG in MIBC (n=412); recurrent inactivating mutations plus 4.9% focal deletions; loss implicates BRD4-EZH2 signaling dependence and sensitivity to JQ1 and EZH2 inhibition; also a MutCN cluster definer. [PMID:28988769](../papers/28988769.md)
 - KDM6A is among the epigenetic regulators (ARID1A, KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines in the Columbia/MSK biobank [PMID:29625057](../papers/29625057.md)
+- KDM6A is recurrently mutated in upper tract urothelial carcinoma (UTUC) at a frequency not significantly different from TCGA muscle-invasive bladder cancer, confirming shared chromatin-modifier landscape [PMID:31278255](../papers/31278255.md).
 
 ## Cancer types (linked)
 
@@ -161,3 +162,6 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - [PMID:29625057](../papers/29625057.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -126,6 +126,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Detected in 3 patients with metastatic panNET; classified as OncoKB Level 4 actionable (3 of 14 Level-4 somatic findings in this cohort) [PMID:30687805](../papers/30687805.md)
 - KRAS mutations observed in histiocytic neoplasms: R149G (single-mutation ECD patient), G12R and G13C (compound-mutation patients); all KRAS-mutant patients responded to cobimetinib MEK inhibition [PMID:30867592](../papers/30867592.md)
 - Listed as a classic colorectal cancer SMG in a CPTAC proteogenomic colon cancer cohort (n=110); BRAF and POLE mutations enriched in the MSI-H/hypermutated subgroup of this cohort [PMID:31031003](../papers/31031003.md)
+- Zero mutations detected in cHCC-ICC cohort (n=133); KRAS mutations were notably absent, distinguishing cHCC-ICC from other liver cancers. [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
@@ -454,5 +455,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

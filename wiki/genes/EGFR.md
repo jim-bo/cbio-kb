@@ -91,6 +91,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Clonal hotspot mutations enriched in immunotherapy non-responders (PD) across cancer types; tumors are subclonal-skewed, low-TMB, and over-represented in never-smokers in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 - Focal amplifications detected in 12 post-endocrine-therapy HR+HER2- breast cancer patients (all prior tamoxifen-exposed; 8 also prior AI); 60% of post-progression amplifications were already present in matched primaries; MCF7 EGFR overexpression confers fulvestrant resistance reversible by erlotinib or gefitinib [PMID:30205045](../papers/30205045.md)
 - EGFR amplifications, EGFRvIII in-frame deletions, and missense variants (e.g. G719C) were common in glioma CSF ctDNA; patient #25 showed loss of EGFR amplification with acquired PDGFRA amplification/mutation at recurrence, illustrating convergent evolution in growth-factor-receptor signalling (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
+- EGFR has 34 newly identified hotspots from a 3,130-sample meta-analysis; rare EGFR kinase-domain-retaining fusions identified in glioma; OncoKB level-4 EGFR amplifications were conservatively excluded from actionability counts [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -280,5 +281,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: CCL5
 aliases: []
 cancer_types: [COAD]
 tags: [chemokine, icr-signature, immune-infiltration]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # CCL5
@@ -16,6 +16,7 @@ CCL5 (RANTES) is a CCR5 ligand chemokine that recruits effector T cells and is a
 ## Alterations observed in the corpus
 
 - CCL5 is one of the 20 genes in the Immunologic Constant of Rejection (ICR) signature applied to the 348-patient Sidra-LUMC AC-ICAM colon cancer cohort, grouped with the CXCR3/CCR5 chemokine ligands [CXCL9](../genes/CXCL9.md) and [CXCL10](../genes/CXCL10.md) [PMID:37202560](../papers/37202560.md).
+- Concordantly downregulated in T-cell-depleted UTUC cluster (28/32, 87.5% of UTUC tumors); part of the immune-exclusion signature alongside CD8A, CCL2, CCL3, CCL4, and IFNG response genes in upper-tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CCL5 (RANTES) is a CCR5 ligand chemokine that recruits effector T cells and is a
 - [PMID:37202560](../papers/37202560.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

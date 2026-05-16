@@ -3,8 +3,8 @@ symbol: MGMT
 aliases: []
 cancer_types: [BRAIN, DIFG, AST, GB]
 tags: [epigenetic, methylation, chemotherapy-response, glioma]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MGMT
@@ -21,6 +21,7 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 - Low expression and/or VUS used to support [temozolomide](../drugs/temozolomide.md) selection in PanNET patients PN26 and PN28 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:40328872](../papers/40328872.md)
 - Aberrant promoter DNA methylation observed in hypermutated low-grade glioma recurrences after [temozolomide](../drugs/temozolomide.md) (TMZ) treatment, consistent with reduced MGMT-mediated repair of TMZ-induced O6-methylguanine adducts driving the hypermutator phenotype [PMID:24336570](../papers/24336570.md)
 - MGMT epigenetic silencing enriched in the proximal hypermethylated GEA-CIN cluster 1 (oesophagus/proximal-stomach); raises the prospect of differential alkylating-agent response in esophageal/gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
+- Promoter methylation associated with higher rate of alkylator-induced hypermutation at recurrence in glioma (30% vs. 10% in unmethylated, P=0.006); relevant to temozolomide treatment sequencing decisions. [PMID:31263031](../papers/31263031.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

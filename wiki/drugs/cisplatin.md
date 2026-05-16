@@ -10,7 +10,7 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -56,6 +56,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - In a 3D cell culture review, cisplatin co-culture of ovarian cancer cell lines with fibroblasts in liquid-overlay spheroids increased cisplatin susceptibility, demonstrating stromal modulation of drug response; anchored-droplet microfluidic chips delivered IC50 measurements for cisplatin + etoposide combinations on Ewing sarcoma (A673) spheroids consistent with 96-well plates, with etoposide-first sequencing showing greater synergy [PMID:30643250](../papers/30643250.md).
 - MSI-H UTUC PDX models (UCC17 MSI-H, UCC36 MSI-H Lynch) showed minimal gemcitabine/cisplatin inhibition (p=0.07) in contrast to MSS tumors; in a 20-patient NAC cohort, 0/2 MSI-H UTUC patients achieved pathologic response vs 10/17 MSS (59%), suggesting MSI status should redirect patients toward immunotherapy rather than cytotoxic NAC [PMID:32332851](../papers/32332851.md)
 - Platinum agent used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy in NCT02954536; 37 HER2-positive metastatic esophagogastric cancer patients achieved 91% ORR and 27.2-month median OS [PMID:32437664](../papers/32437664.md).
+- Standard component of the VIP chemotherapy regimen used in 15 patients with primary mediastinal NSGCT ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy (median OS 6.3 months); shared [TP53](../genes/TP53.md) loss-of-heterozygosity in the ancestral GCT/hematologic-malignancy clone was proposed to explain the documented refractoriness to cisplatin-based therapy [PMID:32897884](../papers/32897884.md).
+- Cisplatin showed a dose-response trend for promoting DDR clonal haematopoiesis (p-trend=0.04) in 24,146 cancer patients, but the cross-sectional association (OR=1.1, p=0.10) was not statistically significant unlike carboplatin; [TP53](../genes/TP53.md) CH clones were enriched by platinum exposure overall (OR=2.1, q=0.03) [PMID:33106634](../papers/33106634.md).
 
 ## Resistance mechanisms
 
@@ -150,5 +152,11 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

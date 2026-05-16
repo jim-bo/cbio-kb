@@ -63,6 +63,7 @@ OncoTree code for invasive breast carcinoma.
 - WES of 59 metastatic HR+/HER2- breast cancer biopsies identified eight CDK4/6 inhibitor resistance categories (RB1 loss, AKT1, RAS, FGFR2, ERBB2, AURKA, CCNE2, ER loss) accounting for 65.9% of resistant tumors; AURKA amplification was the most enriched novel mechanism (26.8% resistant vs 0% sensitive, p=0.0081) [PMID:32404308](../papers/32404308.md)
 - The FUTURE umbrella trial enrolled 69 heavily pretreated refractory metastatic triple-negative [BRCA](../cancer_types/BRCA.md) patients (median 3 prior lines) across 7 biomarker-guided arms; ITT ORR was 29.0% (20/69; 95% CI 18.7%–41.2%), with 52.6% ORR in the IM-subtype arm receiving camrelizumab + nab-paclitaxel [PMID:32719455](../papers/32719455.md).
 - A phase I/II trial of alpelisib + aromatase inhibitor in 51 HR+ metastatic [BRCA](../cancer_types/BRCA.md) patients achieved a 52% clinical benefit rate; PIK3CA-mutant tumors benefited (CBR 57.5%) while PIK3CA-WT patients derived no benefit (0/6), and PTEN loss (25%) and ESR1 mutations were established as recurrent resistance mechanisms [PMID:32864625](../papers/32864625.md).
+- Synthetic iCARE modeling in women aged 50–75 with breast cancer showed that for the top 1% of CH+blood-count risk, adjuvant chemotherapy added ~9% absolute 10-year myeloid neoplasm risk — potentially exceeding the survival benefit of chemotherapy in some early-stage BRCA patients, raising the possibility of CH-guided therapy choice. [PMID:33106634](../papers/33106634.md)
 
 ## Subtypes
 
@@ -98,69 +99,72 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30867590](../papers/30867590.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32042194](../papers/32042194.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -10,8 +10,8 @@ tags:
   - targeted-sequencing
   - cancer-gene-panel
 genePanelId: Bait_UCSF500
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # UCSF500 Cancer Gene Panel (Bait_UCSF500)
@@ -23,6 +23,7 @@ The UCSF500 cancer gene panel is a targeted DNA sequencing bait set developed at
 ## Used by
 
 - Used alongside [whole-exome-seq](../methods/whole-exome-seq.md) and [smart-seq2](../methods/smart-seq2.md) to characterize somatic mutation burden and gene expression in single clonally expanded melanocytes from human skin biopsies [PMID:39975212](../papers/39975212.md).
+- All 133 single melanocytes underwent targeted UCSF500 sequencing of 509 cancer-relevant genes, mean 489× unique coverage, for matched DNA/RNA profiling via G&T-Seq of normal sun-exposed skin [PMID:33029006](../papers/33029006.md)
 
 ## Notes
 
@@ -35,3 +36,6 @@ The UCSF500 cancer gene panel is a targeted DNA sequencing bait set developed at
 - [PMID:39975212](../papers/39975212.md) — Tandukar et al. used the UCSF500 panel alongside whole-exome sequencing for joint DNA/RNA profiling of 297 clonally expanded single melanocytes from 58 skin biopsies of 31 donors; panel sequencing allowed confirmation of somatic variants (UV-signature SBS7 in HighMut and clock-like SBS1/SBS5 in LowMut subpopulations) [PMID:39975212](../papers/39975212.md).
 
 *This page was processed by **entity-page-writer** on **2026-05-01**.*
+- [PMID:33029006](../papers/33029006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

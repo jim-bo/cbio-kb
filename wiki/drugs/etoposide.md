@@ -5,7 +5,7 @@ drug_class: topoisomerase II inhibitor
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,8 @@ Podophyllotoxin-derivative topoisomerase II inhibitor; included in CHOEP/EPOCH v
 - Etoposide-cisplatin regimens (as used for neuroendocrine tumors) are proposed for MIBC neuronal subtype (5% of cohort; worst survival, TP53+RB1 co-mutation in 50%, often lacking histopathologic NE features) in neoadjuvant or metastatic settings [PMID:28988769](../papers/28988769.md)
 - In a 3D cell culture review, anchored-droplet microfluidic chips demonstrated IC50 measurements for cisplatin + etoposide combinations on Ewing sarcoma (A673) spheroids consistent with conventional 96-well plates; synergy was greater when etoposide was applied before cisplatin, supporting sequencing optimization in 3D drug screening [PMID:30643250](../papers/30643250.md).
 - One patient (P19) in the Kothari et al. retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA RB1 signal despite 1596× coverage [PMID:32633890](../papers/32633890.md).
+- Part of both the VIP (cisplatin + etoposide + ifosfamide) and TICE (high-dose carboplatin + etoposide + ifosfamide + paclitaxel + autologous SCT) regimens used in 15 patients with primary mediastinal NSGCT ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy (median OS 6.3 months); poor response was attributed to shared [TP53](../genes/TP53.md) loss in the ancestral GCT/hematologic-malignancy clone [PMID:32897884](../papers/32897884.md).
+- Topoisomerase II inhibitors (including etoposide) were associated with clonal haematopoiesis in 24,146 cancer patients (OR=1.3, p=0.01); [PPM1D](../genes/PPM1D.md) CH clones were selectively expanded by topoisomerase II inhibitor exposure (OR=2.0, q=0.002) and [CHEK2](../genes/CHEK2.md) clones likewise (OR=2.2, q=0.02), raising concern for therapy-related myeloid neoplasm in patients with pre-existing DDR CH [PMID:33106634](../papers/33106634.md).
 
 ## Resistance mechanisms
 
@@ -65,5 +67,11 @@ Podophyllotoxin-derivative topoisomerase II inhibitor; included in CHOEP/EPOCH v
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32633890](../papers/32633890.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

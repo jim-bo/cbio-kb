@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -72,6 +72,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants; matched WBC sequencing required to distinguish CH-derived ATM variants from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Alongside BRCA1 and BRCA2, one of three genes accounting for 81% of germline+somatic biallelic combinations across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 - ATM was cited as a known LUAD subclonal driver gene with higher alteration frequency in micropapillary/solid (MIP/SOL) vs. lepidic (LEP) or acinar/papillary (ACI/PAP) histologic subtypes of resected lung adenocarcinoma. [PMID:32791233](../papers/32791233.md)
+- ATM truncating mutations included in CH-myeloid putative driver criteria; partially under-ascertained due to absence from the 163-gene myeloid serial-sampling panel used in sub-cohort analyses of therapy-associated clonal hematopoiesis [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -216,40 +217,43 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

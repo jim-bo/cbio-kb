@@ -26,6 +26,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - FLT3 variant co-occurring with [TET2](../genes/TET2.md) and [KIT](../genes/KIT.md) in an AML patient in the PIPseq pediatric cohort; KIT D816H as the primary targetable event [PMID:28007021](../papers/28007021.md).
 - FLT3-ITD detected by Pindel and an internal PCR/capillary-electrophoresis assay in the Beat AML cohort; FLT3-ITD (alone or combined with NPM1) predicted ex vivo ibrutinib and entospletinib sensitivity [PMID:30333627](../papers/30333627.md)
 - In 7/9 ponatinib-sensitive AML lines, alterations in FLT3 (alongside PDGFRA, FGFR1, or KIT) co-occur with high phospho-SHP2 (Y542); FLT3-ITD AML primagrafts with high pSHP2 showed extended survival on ponatinib in vivo [PMID:31068700](../papers/31068700.md).
+- FLT3 — identified as a late-progression driver acquired between clonal hematopoiesis and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients with CH [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

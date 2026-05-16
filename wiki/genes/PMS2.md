@@ -3,7 +3,7 @@ symbol: PMS2
 aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
@@ -37,6 +37,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - PMS2 protein expression is significantly reduced in UTUC vs UCB by IHC in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB; similar pattern observed for MLH1, MSH2, MSH6 [PMID:31278255](../papers/31278255.md)
 - MLH1/PMS2 (MutL) mismatch repair components are downregulated at the protein level in MSI cell lines; MMR protein abundance predicts WRN knockdown sensitivity [PMID:31978347](../papers/31978347.md)
 - PMS1/PMS2 protein levels are downregulated in MSI endometrial tumors (MLH1 loss destabilizes them at the protein level, not transcript level) [PMID:32059776](../papers/32059776.md)
+- MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -61,56 +62,26 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - Whether the mechanism of dMMR (germline vs. somatic PMS2 loss vs. [MLH1](../genes/MLH1.md) hypermethylation) differentially predicts immunotherapy response remains under investigation; no significant difference was observed by dMMR mechanism in the [nivolumab](../drugs/nivolumab.md) gynecologic cancer trial [PMID:38653864](../papers/38653864.md).
 
 ## Sources
-
+- [PMID:18772890](../papers/18772890.md)
+- [PMID:22810696](../papers/22810696.md)
+- [PMID:24293293](../papers/24293293.md)
+- [PMID:24816255](../papers/24816255.md)
+- [PMID:25855536](../papers/25855536.md)
+- [PMID:26804919](../papers/26804919.md)
+- [PMID:28007021](../papers/28007021.md)
+- [PMID:28825054](../papers/28825054.md)
+- [PMID:29316426](../papers/29316426.md)
+- [PMID:29625049](../papers/29625049.md)
+- [PMID:29850653](../papers/29850653.md)
+- [PMID:30068706](../papers/30068706.md)
+- [PMID:31263031](../papers/31263031.md)
+- [PMID:31278255](../papers/31278255.md)
+- [PMID:31978347](../papers/31978347.md)
+- [PMID:32059776](../papers/32059776.md)
+- [PMID:33025139](../papers/33025139.md)
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
-- [PMID:18772890](../papers/18772890.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24816255](../papers/24816255.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26804919](../papers/26804919.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:29850653](../papers/29850653.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

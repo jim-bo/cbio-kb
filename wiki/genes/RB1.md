@@ -77,6 +77,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Biallelic disruption (single-copy loss + second-allele point/splice/frameshift) in 4/41 (9.8%) CDK4/6i-resistant biopsies, exclusive to resistance; convergent evolution in one patient; CRISPR RB1 knockout confers CDK4/6i resistance in T47D/MCF7 cells; elevated CDK4 protein is a proposed mechanism [PMID:32404308](../papers/32404308.md)
 - Canonical retinoblastoma driver; 13 somatic RB1 variants detected across 10 pediatric retinoblastoma patients (nonsense, frameshift, splice, in-frame deletion) by MSK-IMPACT tumor profiling; plasma cfDNA recovered 10/13 mutations (median VAF 4.9%) by tumor-guided genotyping [PMID:32633890](../papers/32633890.md)
 - Drug-resistance–related mutation more frequent in PD (non-responding) patients in the FUTURE umbrella trial for metastatic TNBC; co-listed with NOTCH3 as candidate resistance mutations. [PMID:32719455](../papers/32719455.md)
+- Alterations or amplifications observed in 11% of BRAFi-monotherapy melanoma patients (n=51); no significant association with treatment response grade [PMID:32913971](../papers/32913971.md)
 
 ## Cancer types (linked)
 
@@ -224,5 +225,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

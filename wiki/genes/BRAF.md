@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -126,6 +126,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF alteration frequency was prognostic in MSS metastatic colorectal cancer; enriched in C-terminal APC mutant tumors (13% vs 2%) as part of the RAS-pathway co-mutation pattern associated with shorter OS/PFS. [PMID:32730818](../papers/32730818.md)
 - Targetable BRAF-V600E mutations were more frequent in MIP/SOL (5%) than ACI/PAP (1.2%) or LEP (1.1%) lung adenocarcinoma subtypes (p=0.046); BRAF-V600K, K601E, and K601N variants were also observed in LEP tumors. [PMID:32791233](../papers/32791233.md)
 - BRAF — among MAPK-pathway alterations (ERBB2, HRAS, NF1, BRAF, MAP2K1) that selectively expanded in post-treatment ctDNA from HR+ metastatic breast cancer patients on alpelisib + AI, suggesting parallel bypass resistance pathways. [PMID:32864625](../papers/32864625.md)
+- V600E/K confirmed in all 66 BRAF-mutant melanoma pretreatment tumors; amplification in 3 patients (all intermediate responders); elevated mutant-allele fraction (>2x median) in 9 patients significantly enriched in excellent BRAFi responders (P < .001 vs. poor) [PMID:32913971](../papers/32913971.md)
+- Non-V600 hotspot mutations p.G466R (x1) and p.D594G (x6) detected in normal perilesional melanocytes from donors 6 and 13 (adjacent to melanoma/BCC); classified as weak activators insufficient alone to drive malignancy [PMID:33029006](../papers/33029006.md)
 
 ## Cancer types (linked)
 
@@ -424,37 +426,43 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31792460](../papers/31792460.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33029006](../papers/33029006.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

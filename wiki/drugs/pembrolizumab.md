@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -54,6 +54,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In melanoma patients previously treated with ipilimumab, low MHC-II HLA gene expression in post-ipilimumab biopsies identified primary resistance to pembrolizumab; combined with LDH and lymph-node metastasis status, MHC-II HLA yielded an AUC of 0.90 (CV 0.83) for anti-PD1 response [PMID:31792460](../papers/31792460.md).
 - Added to trastuzumab + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); achieved 70% 6-month PFS (primary endpoint met), 91% ORR, and 27.2-month median OS; benefit was independent of PD-L1 CPS status; these data motivated the phase 3 KEYNOTE-811 trial (NCT03615326) [PMID:32437664](../papers/32437664.md).
 - Pembrolizumab (anti-PD-1) was cited as a comparator immunotherapy in the FUTURE umbrella trial context for refractory metastatic TNBC; historical ICI-monotherapy ORRs of 5–10% in this population provided the benchmark against which the 52.6% camrelizumab + nab-paclitaxel ORR was compared [PMID:32719455](../papers/32719455.md).
+- Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the study provides molecular context (pretreatment [PTEN](../genes/PTEN.md) loss as a BRAFi resistance biomarker) relevant to sequencing decisions between checkpoint immunotherapy and targeted therapy [PMID:32913971](../papers/32913971.md).
 
 ## Resistance mechanisms
 
@@ -157,5 +158,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

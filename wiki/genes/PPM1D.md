@@ -8,7 +8,7 @@ cancer_types:
 tags:
   - clonal-hematopoiesis
   - therapy-related
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -26,6 +26,7 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 - Appeared in nonleukemic rising clones during decitabine-induced remission in TP53-mutant AML/MDS, consistent with clonal hematopoiesis of indeterminate potential [PMID:27959731](../papers/27959731.md)
 - Therapy-related clonal hematopoiesis gene; truncating C-terminal mutations significantly enriched in cancer patients vs controls (age-adjusted p=0.0115) and in chemotherapy/radiation-exposed patients (age- and smoking-adjusted p=0.0008); must be interpreted carefully in heavily pre-treated patients as plasma PPM1D variants may reflect therapy-related CH rather than tumor [PMID:31768066](../papers/31768066.md)
 - Observed among somatic alterations in synchronous DCIS/IDC-NST cohort (n=25 patients; BRCA); context: panel of cancer-relevant genes sequenced by WES or MSK-IMPACT [PMID:32220886](../papers/32220886.md)
+- DNA damage response gene with the strongest therapy-associated CH selection (OR=4.3, q<10⁻⁶); highest enrichment in ovarian (13%) and endometrial (7%) cancer patients; canonical CH form is C-terminal truncating variants; almost entirely explained by prior therapy exposure; not on older MSK-IMPACT-341 panel, leading to under-ascertainment in earlier sub-cohorts [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -44,22 +45,12 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 - The degree to which PPM1D CH variants in MSK-CHORD are tumor-derived versus blood-contamination artifacts remains to be formally quantified; the paper identifies the association but does not resolve the source. [PMID:39506116](../papers/39506116.md)
 
 ## Sources
-
+- [PMID:24418857](../papers/24418857.md)
+- [PMID:25417114](../papers/25417114.md)
+- [PMID:27959731](../papers/27959731.md)
+- [PMID:31768066](../papers/31768066.md)
+- [PMID:32220886](../papers/32220886.md)
+- [PMID:33106634](../papers/33106634.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
-- [PMID:24418857](../papers/24418857.md)
-
-*This page was processed by **wiki-cli** on **2026-05-09**.*
-- [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27959731](../papers/27959731.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:31768066](../papers/31768066.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

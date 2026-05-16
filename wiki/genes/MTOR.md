@@ -9,7 +9,7 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -45,6 +45,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - MTOR discussed as part of the mTOR pathway actionability framework in HCC; TSC1/TSC2 inactivating alterations (~10.6%) drive downstream mTOR activation and rationale for matched everolimus therapy; activating PI3K-mTOR pathway alterations as a group predicted worse sorafenib outcomes (PFS HR 3.8, OS HR 2.5) [PMID:30373752](../papers/30373752.md)
 - mTOR-pathway alterations (including TSC2, TSC1, PTEN, RHEB, AKT2, and MTOR) collectively affected 34/80 (43%) of metastatic panNET patients; mTOR-pathway mutation status did not predict everolimus benefit (response: 17% mutant vs 29% WT) [PMID:30687805](../papers/30687805.md)
 - PI3K-downstream pathway alteration (alongside AKT1) with disproportionate VAF expansion under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505); identified as a mechanism of acquired resistance. [PMID:32864625](../papers/32864625.md)
+- Rare non-recurrent VUS observed in both excellent and poor responders to BRAFi in BRAF-mutant melanoma; no recurrent activating MTOR mutations identified in this 66-patient pretreatment cohort [PMID:32913971](../papers/32913971.md)
 
 ## Cancer types (linked)
 
@@ -64,7 +65,6 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - The specific MTOR mutation spectrum (hotspot vs. scattered) in the non-responsive group has not been detailed.
 
 ## Sources
-
 - [PMID:22138691](../papers/22138691.md)
 - [PMID:22634756](../papers/22634756.md)
 - [PMID:23792563](../papers/23792563.md)
@@ -85,17 +85,10 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:28985567](../papers/28985567.md)
 - [PMID:29100075](../papers/29100075.md)
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
+- [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

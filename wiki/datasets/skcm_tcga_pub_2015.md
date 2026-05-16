@@ -24,8 +24,8 @@ tags:
   - nf1
   - tumor-microenvironment
   - immunotherapy-biomarker
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # SKCM TCGA 2015 (TCGA Melanoma Working Group)
@@ -70,6 +70,7 @@ Comprehensive multi-platform genomic characterization of 333 cutaneous melanomas
 - [KIT](../genes/KIT.md) mutations and 4q12 focal amplifications ([KIT](../genes/KIT.md)/[PDGFRA](../genes/PDGFRA.md)/[KDR](../genes/KDR.md)) enriched in Triple-WT subtype; [CD274](../genes/CD274.md) (PD-L1) focal amplifications in [BRAF](../genes/BRAF.md) subtype — each subtype presents distinct therapeutic opportunities. [PMID:26091043](../papers/26091043.md)
 - 224 candidate fusion drivers identified; Triple-WT enriched for complex structural rearrangements (ShatterSeek p=0.00098) and driver fusions involving [AKT3](../genes/AKT3.md), [RAF1](../genes/RAF1.md), [MITF](../genes/MITF.md), and [HMGA2](../genes/HMGA2.md). [PMID:26091043](../papers/26091043.md)
 - IPRES (Innate anti-PD-1 Resistance) co-enrichment significantly over-represented in metastatic vs primary cutaneous tumors: 90/282 metastatic vs 6/69 primary (P=3.9e-5, OR=0.2 for primary vs metastatic), consistent with IPRES marking metastasis-associated mesenchymal programs. [PMID:26997480](../papers/26997480.md)
+- 151 BRAF V600E/K-mutant tumors from this cohort served as comparator for the Vanderbilt/MSK BRAFi resistance study; RB1 (P=.0036) and MDM2 (P=.045) alterations were enriched in the MSK/Vanderbilt cohort relative to TCGA, reflecting a more aggressive clinical profile — [PMID:32913971](../papers/32913971.md)
 
 ## Sources
 
@@ -78,3 +79,6 @@ Comprehensive multi-platform genomic characterization of 333 cutaneous melanomas
 - TCGA [SKCM](../cancer_types/SKCM.md) Data Portal
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

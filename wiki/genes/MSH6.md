@@ -55,6 +55,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MSH6 protein (MutS complex) is downregulated in MSI cell lines in the CCLE proteomic dataset; its abundance predicts WRN knockdown sensitivity [PMID:31978347](../papers/31978347.md)
 - MSH6 IHC loss in one of two hypermutated MSI-H uLMS cases; no somatic driver identified in MSH6, suggesting epigenetic or germline etiology; that patient remains disease-free 13 years from diagnosis after multimodality therapy without immune checkpoint inhibitors [PMID:32299819](../papers/32299819.md)
 - MSH6 IHC loss in MSI-H UTUC (UCC17) without identifiable germline cause; Lynch-associated UTUC with MSH2/MSH6 alterations showed resistance to neoadjuvant gemcitabine/cisplatin (0/2 pathologic responses), supporting triage to immune checkpoint blockade [PMID:32332851](../papers/32332851.md)
+- MMR gene transcriptionally upregulated in SWNTS-SWNs; MSH6 promoter is hypomethylated in SWNTS-SWNs; COSMIC signatures 6/15 present without microsatellite instability [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -80,112 +81,46 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Whether hypermutated gliomas with treatment-induced MSH6 mutations respond to immune checkpoint blockade has not been prospectively evaluated.
 
 ## Sources
-
-- [PMID:38117484](../papers/38117484.md)
 - [PMID:18772890](../papers/18772890.md)
+- [PMID:20579941](../papers/20579941.md)
+- [PMID:22610119](../papers/22610119.md)
+- [PMID:22810696](../papers/22810696.md)
+- [PMID:23525077](../papers/23525077.md)
+- [PMID:24336570](../papers/24336570.md)
+- [PMID:24816255](../papers/24816255.md)
+- [PMID:25233892](../papers/25233892.md)
+- [PMID:25583476](../papers/25583476.md)
+- [PMID:25855536](../papers/25855536.md)
+- [PMID:26000489](../papers/26000489.md)
+- [PMID:26878173](../papers/26878173.md)
+- [PMID:26928463](../papers/26928463.md)
+- [PMID:27442865](../papers/27442865.md)
+- [PMID:28485815](../papers/28485815.md)
+- [PMID:28583311](../papers/28583311.md)
+- [PMID:28825054](../papers/28825054.md)
+- [PMID:29100075](../papers/29100075.md)
+- [PMID:29316426](../papers/29316426.md)
+- [PMID:29625049](../papers/29625049.md)
+- [PMID:29848569](../papers/29848569.md)
+- [PMID:29850653](../papers/29850653.md)
+- [PMID:30068706](../papers/30068706.md)
+- [PMID:30675060](../papers/30675060.md)
+- [PMID:30687805](../papers/30687805.md)
+- [PMID:31068700](../papers/31068700.md)
+- [PMID:31263031](../papers/31263031.md)
+- [PMID:31278255](../papers/31278255.md)
+- [PMID:31483290](../papers/31483290.md)
+- [PMID:31852831](../papers/31852831.md)
+- [PMID:31978347](../papers/31978347.md)
+- [PMID:32299819](../papers/32299819.md)
+- [PMID:32332851](../papers/32332851.md)
+- [PMID:33025139](../papers/33025139.md)
+- [PMID:38117484](../papers/38117484.md)
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24336570](../papers/24336570.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24816255](../papers/24816255.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25233892](../papers/25233892.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28485815](../papers/28485815.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28583311](../papers/28583311.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29625049](../papers/29625049.md)
-
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:29850653](../papers/29850653.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30675060](../papers/30675060.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

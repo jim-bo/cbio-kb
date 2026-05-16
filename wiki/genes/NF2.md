@@ -3,8 +3,8 @@ symbol: NF2
 aliases: []
 cancer_types: [MNG, PLMESO, CSCC]
 tags: [tumor-suppressor, 22q-loss, merlin, meningioma]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # NF2
@@ -25,6 +25,7 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - NF2 is focally deleted by the only chromosome-22 deletions that spare SMARCB1 in extra-cranial malignant rhabdoid tumor (MRT), along with LIF; observed in a minority of the 40 WGS MRT cases [PMID:26977886](../papers/26977886.md)
 - Recurrent truncating and missense mutations in 18% of unclassified RCC (uRCC); biallelic inactivation via mutation plus 22q12 LOH defines the dominant NF2-loss uRCC subset; drives Hippo–YAP dysregulation and confers significantly worse cancer-specific and progression-free survival [PMID:27713405](../papers/27713405.md)
 - A truncating mutation in NF2 (n=1) was identified among potentially functional driver mutations surveyed in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
+- Sole recurrent driver SNV across all schwannomatosis-spectrum schwannomas (SWNs); SWNTS-SWNs harbor NF2 mutation/loss in 83% vs. 58% in NS-SWNs (p < 0.0001); NF2-mutant tumors show RAS/MAPK upregulation and M2 macrophage enrichment [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -46,32 +47,16 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - Whether NF2 alteration in GNH DPMs is a driver or a consequence of genome-wide LOH requires functional studies.
 
 ## Sources
-
+- [PMID:22138691](../papers/22138691.md)
+- [PMID:25401301](../papers/25401301.md)
+- [PMID:25417114](../papers/25417114.md)
+- [PMID:25589618](../papers/25589618.md)
+- [PMID:26878173](../papers/26878173.md)
+- [PMID:26977886](../papers/26977886.md)
+- [PMID:27713405](../papers/27713405.md)
+- [PMID:29100075](../papers/29100075.md)
+- [PMID:33025139](../papers/33025139.md)
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:38630790](../papers/38630790.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
-- [PMID:22138691](../papers/22138691.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
-- [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **wiki-cli** on **2026-05-12**.*
-- [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:26977886](../papers/26977886.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

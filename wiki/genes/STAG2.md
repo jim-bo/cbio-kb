@@ -41,6 +41,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - STAG2 mutations in 20% of Ewing sarcoma PDX models, mutually exclusive with homozygous CDKN2A/B loss (60%), in the PPTC 261-model pediatric cancer genomic study [PMID:31693904](../papers/31693904.md).
 - Chromatin/cohesin alteration frequent in UTUC; STAG2 mutation positively (and ERBB2 negatively) associated with PDX engraftment in UTUC cohort (n=17 PDX), though not statistically significant [PMID:32299819](../papers/32299819.md)
 - Chromatin/cohesin alteration frequent in UTUC; STAG2 mutation positively associated with PDX engraftment in upper-tract urothelial carcinoma (n=17 PDX, not statistically significant); identified in MSK-IMPACT profiling of UTUC cohort [PMID:32332851](../papers/32332851.md)
+- CH-myeloid-PD gene in therapy-associated clonal hematopoiesis landscape study; truncating, hotspot, or in-frame variants classed as putative drivers per annotation rules [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +115,8 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

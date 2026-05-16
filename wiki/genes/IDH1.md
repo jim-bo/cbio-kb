@@ -60,6 +60,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 R132H is the defining mutation in IDH-mutant glioma; the R132H clonal neoantigen was the most common neoantigen in the GLASS cohort (found in 22/88 IDH-mutant samples) and persists stably from initial diagnosis through recurrence, supporting neoantigen-vaccine approaches [PMID:31748746](../papers/31748746.md)
 - IDH1 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; IDH1 mutations in cfDNA can originate from CH rather than tumor and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
 - IDH1-mutant GBM PDX (GBM164, GBM196) carry TP53 mutations and homozygous CDKN2A deletion; GBM154 (recurrence of oligodendroglioma) lost IDH1 p.R132H but acquired a novel IDH1 p.F397L variant while retaining 1p/19q co-deletion [PMID:31852831](../papers/31852831.md)
+- IDH1 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -209,5 +210,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

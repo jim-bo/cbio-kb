@@ -28,6 +28,7 @@ processed_at: 2026-05-16
 - Amplification in 2% of GBM PDX (n=84); co-occurs with MDM2 amplification as an alternative mechanism of p53 pathway inactivation in GBM [PMID:31852831](../papers/31852831.md)
 - MDM4 splicing is tied to RPL22L1 protein levels in the CCLE proteomics dataset [PMID:31978347](../papers/31978347.md)
 - MDM4 mRNA increases with 1q copy number in MSI endometrial carcinoma tumors (p < 0.01, Spearman), identifying it as a candidate p53-pathway suppressor on amplified 1q; MDM4 protein was not detected at sufficient abundance to confirm the model directly [PMID:32059776](../papers/32059776.md)
+- MDM4 — alterations observed in a subset of BRAF-mutant melanoma patients; combined TP53/MDM2/MDM4 pathway events present in 25% of BRAFi-monotherapy patients but not associated with response grade or survival [PMID:32913971](../papers/32913971.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +64,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -20,6 +20,7 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - SMARCB1 (INI1) protein expression retained by IHC in an EWSR1::BEND2 fusion sarcoma of the urinary bladder, ruling out rhabdoid/INI1-deficient differential diagnoses [PMID:28199314](../papers/28199314.md).
 - Listed in the MSK-IMPACT panel gene set interrogated in metastatic panNET; part of the chromatin-remodeling factor set altered in 65% of patients in the panet_msk_2018 cohort [PMID:30687805](../papers/30687805.md)
 - Inactivating focal deletions, frameshifts, or nonsense mutations in SMARCB1 observed in all ATRT and extracranial MRT PDX models; also hemizygous deletions in 3 astrocytic tumors (consistent with 6.7–7.5% in pediatric HGG cohorts) in the PPTC 261-model study [PMID:31693904](../papers/31693904.md).
+- Co-deleted on 22q in 76% of LZTR1-mutant schwannomatosis (SWNTS-SWN) tumors; significantly lower transcript level than in NS-SWNs (q < 0.001) [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -50,5 +51,8 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

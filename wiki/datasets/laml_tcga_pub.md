@@ -17,8 +17,8 @@ tags:
   - AML
   - acute myeloid leukemia
   - TCGA
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Acute Myeloid Leukemia — TCGA (2013)
@@ -56,6 +56,7 @@ The Cancer Genome Atlas comprehensive genomic and epigenomic characterization of
 - 118 gene fusions identified in 80/179 samples by de novo RNA-seq assembly; recurrent in-frame fusions included [PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [RUNX1](../genes/RUNX1.md)–[RUNX1T1](../genes/RUNX1T1.md), and [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md). [PMID:23634996](../papers/23634996.md)
 - Used as an independent validation cohort to replicate 11 AML genomic subgroups (chromatin–spliceosome, TP53–aneuploidy, IDH2 R172, etc.) identified in 1540 AMLSG trial patients; subgroup structure and prognostic associations were confirmed in this TCGA AML dataset. [PMID:27276561](../papers/27276561.md)
 - TP53 mutation spectrum (missense-dominant, hotspot distribution) in the WashU decitabine trial cohort was indistinguishable from that in this TCGA AML dataset; no TP53-driven CpG methylation signature was detectable in either cohort, arguing against a methylation-based mechanism for TP53-decitabine sensitivity. [PMID:27959731](../papers/27959731.md)
+- 200 de novo AMLs from this cohort served as a reference cohort for genomic comparison against GCT-associated hematologic malignancies, establishing the absence of canonical myeloid drivers (FLT3, DNMT3A, TET2, NPM1) in the GCT-associated cases — [PMID:32897884](../papers/32897884.md)
 
 ## Sources
 
@@ -63,3 +64,6 @@ The Cancer Genome Atlas comprehensive genomic and epigenomic characterization of
 - Washington University tissue-banking protocol (Nov 2001–Mar 2010)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

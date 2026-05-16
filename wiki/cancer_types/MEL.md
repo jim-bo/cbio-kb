@@ -4,7 +4,7 @@ oncotree_code: MEL
 main_type: Melanoma
 parent: SKIN
 tags: [melanoma, skin]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -42,6 +42,8 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - 144 advanced melanoma patients (cutaneous 72.9%, occult 13.2%, acral 6.9%, mucosal 6.9%) treated with anti-PD1 ICB (nivolumab/pembrolizumab): ORR 38%; TMB confounded by subtype (cutaneous/occult median 297.5 vs acral/mucosal 58 nonsynonymous mutations, P=1.1e-6); MHC-II HLA expression is a candidate biomarker; prior ipilimumab exposure stratifies which predictors apply [PMID:31792460](../papers/31792460.md)
 - Melanoma (n=5, 6.6%) was among TRK fusion-positive tumor types in the MSK cohort; one melanoma carried GON4L-NTRK1 + NRAS Q61R co-mutation, showed progressive disease on larotrectinib, pan-TRK IHC-negative, and was sensitive to trametinib — the only TRK fusion-positive case with a co-occurring canonical MAPK driver (1/65 TRK+ tumors, 1.5% vs 31.4% in TRK-negative) [PMID:31871300](../papers/31871300.md)
 - In PCAWG, melanoma had 89 chromothripsis events across 66 tumors (61% of melanomas); 47/89 events affected genes recurrently altered in melanoma; chromosome-11 involvement including [CCND1](../genes/CCND1.md) seen in 21 cases; chromothripsis most frequent in sarcoma, glioblastoma, lung squamous, melanoma, and breast [PMID:32025007](../papers/32025007.md).
+- Single melanocytes from normal skin adjacent to melanoma lesions carried mutation burdens exceeding the median of melanoma itself (mean 7.9 mut/Mb across all sites); BRAF V600E was conspicuously absent from normal melanocytes, distinguishing the de-novo UV-driven path from the nevus-derived low-CSD path. [PMID:33029006](../papers/33029006.md)
+- 66 pretreatment BRAF V600E/K-mutant metastatic melanoma tumors; PTEN loss-of-function alterations enriched in poor BRAFi responders (P=.005) and associated with shorter PFS (HR 3.46) and OS (HR 3.10); BRAF V600E elevated mutant-allele fraction tracked with excellent response. [PMID:32913971](../papers/32913971.md)
 
 ## Subtypes
 
@@ -64,39 +66,45 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:26997480](../papers/26997480.md)
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31792460](../papers/31792460.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33029006](../papers/33029006.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - SARC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # PATZ1
@@ -17,6 +17,7 @@ PATZ1 (POZ/BTB and AT hook containing zinc finger 1) encodes a transcription fac
 ## Alterations observed in the corpus
 
 - Discussed as a characterised EWSR1-non-ETS fusion partner in the WHO 2020 "round cell sarcoma with EWSR1-non-ETS fusions" category, alongside EWSR1::[BEND2](../genes/BEND2.md), EWSR1::[NFATC2](../genes/NFATC2.md), and EWSR1::[POU2AF3](../genes/POU2AF3.md); mentioned in the differential diagnostic context of a bladder EWSR1::BEND2 sarcoma case [PMID:28199314](../papers/28199314.md).
+- Located on 22q11.21-q11.23; deleted in 77% of SWNTS-SWN cases as part of a coordinated NF2/SMARCB1 neighborhood deletion with coordinated expression loss; proposed as an additional contributor to schwannomatosis pathogenesis [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -35,7 +36,7 @@ PATZ1 (POZ/BTB and AT hook containing zinc finger 1) encodes a transcription fac
 - Whether EWSR1::PATZ1 and related EWSR1-non-ETS fusions (BEND2, NFATC2, POU2AF3) should be classified as distinct entities or merged based on site/morphology remains an open WHO classification question [PMID:28199314](../papers/28199314.md).
 
 ## Sources
-
 - [PMID:28199314](../papers/28199314.md)
+- [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

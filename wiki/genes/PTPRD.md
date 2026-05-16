@@ -3,7 +3,7 @@ symbol: PTPRD
 aliases: []
 cancer_types: [MPNST]
 tags: [phosphatase, tumor-suppressor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - PTPRD tumor-suppressor alterations flagged as actionable in a targeted sequencing study of germ cell tumors, particularly among cisplatin-resistant patients [PMID:27646943](../papers/27646943.md).
 - PTPRD less frequently mutated in the MSK metastatic gastroesophageal cohort vs TCGA non-MSI-H (q<=0.10), suggesting selective pressure against PTPRD mutations in metastatic disease [PMID:29122777](../papers/29122777.md)
 - Low-frequency gene enriched in metastatic vs primary TNBC samples in the FUSCC cohort (n=69 refractory metastatic TNBC); also among resistance-mutation-tendency genes more frequent in PD patients of the FUTURE trial. [PMID:32719455](../papers/32719455.md)
+- Frequently co-mutated with BRAF in BRAF-mutant melanoma pretreatment tumors; most variants classified as VUS likely representing passenger events given the high tumor mutational burden of melanoma [PMID:32913971](../papers/32913971.md)
 
 ## Cancer types (linked)
 
@@ -42,31 +43,15 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - The functional consequences of PTPRD loss in [MPNST](../cancer_types/MPNST.md) pathogenesis and whether it cooperates with other enriched RT-MPNST alterations (e.g., [NF1](../genes/NF1.md), [CDKN2A](../genes/CDKN2A.md)) remain to be determined [PMID:37350195](../papers/37350195.md).
 
 ## Sources
-
+- [PMID:18948947](../papers/18948947.md)
+- [PMID:22842228](../papers/22842228.md)
+- [PMID:23792563](../papers/23792563.md)
+- [PMID:24434212](../papers/24434212.md)
+- [PMID:26631609](../papers/26631609.md)
+- [PMID:27646943](../papers/27646943.md)
+- [PMID:29122777](../papers/29122777.md)
+- [PMID:32719455](../papers/32719455.md)
+- [PMID:32913971](../papers/32913971.md)
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22842228](../papers/22842228.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23792563](../papers/23792563.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

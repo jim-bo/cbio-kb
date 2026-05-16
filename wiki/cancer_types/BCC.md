@@ -9,7 +9,7 @@ tags:
   - UV-damage
   - non-melanoma
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Basal Cell Carcinoma (BCC)
@@ -26,6 +26,7 @@ Basal cell carcinoma (BCC) is the most common type of non-melanoma skin cancer, 
 
 - UVR-associated mutational signatures SBS7a and SBS7b dominate the BCC somatic mutation landscape; mean mutation burden ~65 substitutions/Mb (Bonilla et al. 2016), used as the BCC endpoint in NB-UVB surveillance modelling [PMID:26950094](../papers/26950094.md)
 - In 4 recurrent/metastatic BCC profiled by MSK-IMPACT (Morris et al.): 3 of 4 had UV mutational signature; TERT promoter mutations in 75%; all 3 hedgehog-pathway-inhibitor-responsive BCCs carried PTCH1 mutations; one hypermutated BCC (122 mutations) directed to immunotherapy on mutation-load rationale [PMID:27442865](../papers/27442865.md).
+- Single melanocytes clonally expanded from skin adjacent to BCC lesions carried the highest somatic mutation burdens of any anatomic site in the study, with >half exceeding the median mutation burden of melanoma itself, implying field-level UV-driven mutational damage as a BCC risk biomarker. [PMID:33029006](../papers/33029006.md)
 
 ## Subtypes
 
@@ -39,7 +40,10 @@ Basal cell carcinoma (BCC) is the most common type of non-melanoma skin cancer, 
 
 - [PMID:26950094](../papers/26950094.md) — Fowler et al., NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin; BCC mean burden used in surveillance modelling
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). TERT promoter mutations in 75% of 4 advanced BCC; PTCH1 mutations in all hedgehog-inhibitor-responsive cases.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33029006](../papers/33029006.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

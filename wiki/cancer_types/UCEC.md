@@ -4,7 +4,7 @@ oncotree_code: UCEC
 main_type: Endometrial Cancer
 parent: UTERUS
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -48,6 +48,7 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - In PCAWG, ovarian and uterine adenocarcinoma showed SV dominance over point mutations (ovary: 5.8 ± 2.6 SVs vs 1.9 ± 1.0 point mutations, P < 1×10⁻¹⁶) [PMID:32025007](../papers/32025007.md).
 - In CCLE proteomics, [RPL22](../genes/RPL22.md) mutation — a hotspot in MSI endometrial cancers — uniquely associated with proteome-level changes in MSI-associated complexes (mismatch repair, SKI complex, H3K4 methyltransferases); only ~50 proteins differentially expressed in MSI vs >1,000 mRNAs [PMID:31978347](../papers/31978347.md).
 - CPTAC proteogenomics of 95 endometrial carcinomas (83 endometrioid, 12 serous); four genomic subtypes (POLE n=7, MSI n=25, CNV-low n=43, CNV-high n=20); MSI tumors: [PTEN](../genes/PTEN.md) 92%, [ARID1A](../genes/ARID1A.md) 76%, [RPL22](../genes/RPL22.md) 64%, [JAK1](../genes/JAK1.md) 44%; TMB alone insufficient for ICB selection — APM deficiency (JAK1/STAT1 truncations, reduced TAP1/TAP2/HLA) marks immune-evasion subgroup [PMID:32059776](../papers/32059776.md).
+- PPM1D CH mutations were found in 7% of endometrial cancer patients (vs <5% in most tumor types) in the MSK-IMPACT CH cohort; among untreated endometrial patients PPM1D CH was 0%, indicating the enrichment is almost entirely therapy-driven (platinum/topoisomerase II inhibitors). [PMID:33106634](../papers/33106634.md)
 
 ## Subtypes
 
@@ -77,40 +78,43 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [PMID:28481359](../papers/28481359.md)
 - [PMID:28485815](../papers/28485815.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

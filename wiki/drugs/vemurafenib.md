@@ -5,7 +5,7 @@ drug_class: BRAF V600 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -31,6 +31,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - In a panNET patient with [BRAF](../genes/BRAF.md) V600E treated with vemurafenib, acquired [NRAS](../genes/NRAS.md) Q61R was detected at progression by serial [MSK-IMPACT](../methods/msk-impact-panel.md) sequencing, exemplifying on-target resistance via RAS-mediated MAPK pathway reactivation [PMID:30687805](../papers/30687805.md)
 - Cobimetinib (MEK1/2 inhibitor) achieved 89% PET ORR in histiocytic neoplasms regardless of MAPK genotype, contrasting with vemurafenib which is approved only for BRAF V600-mutant Erdheim–Chester disease — extending molecularly targeted therapy to the ~50% of histiocytosis patients without BRAF V600 who previously had no standard targeted option beyond vemurafenib [PMID:30867592](../papers/30867592.md)
 - Vemurafenib (BRAF V600 inhibitor) was among the RAF/MEK/ERK-directed agents used in 7 BRAF V600E glioma patients; 4 achieved partial/near-complete responses (ongoing at 9–41 months) and 2 had stable disease; the sole non-responder carried a subclonal V600E, and CDKN2A homozygous deletion in a treatment-escaping metastasis mirrors resistance mechanisms in melanoma. [PMID:31263031](../papers/31263031.md)
+- Primary BRAFi studied in 49 of 55 BRAFi-monotherapy patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md); RECIST ORR 55% (30/55), with pretreatment [PTEN](../genes/PTEN.md) loss-of-function alterations enriched in poor responders (P=.005, HR PFS 3.46, HR OS 3.10) and elevated BRAF-mutant allele fraction enriched in excellent responders; CDKN2A alterations (41% of patients) did not correlate with response [PMID:32913971](../papers/32913971.md).
 
 ## Resistance mechanisms
 
@@ -78,5 +79,8 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

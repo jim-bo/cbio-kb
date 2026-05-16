@@ -5,7 +5,7 @@ drug_class: anti-VEGF monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [antiangiogenic]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - One ERBB2-wild-type endometrial patient with a de novo ESR1 mutation progressed on letrozole then achieved an 18-month ongoing response on bevacizumab + fulvestrant combination [PMID:30068706](../papers/30068706.md)
 - In a CSF ctDNA glioma study (n=85 patients, all treated with prior systemic chemotherapy), bevacizumab was among the systemic agents in the prior-treatment landscape; patients exposed to alkylating agents (notably temozolomide) developed a hypermutator phenotype detectable in CSF with potential implications for immunotherapy candidacy [PMID:30675060](../papers/30675060.md).
 - Single-agent bevacizumab yielded a survival ratio >1.3 in only 23% (7/30) of GBM patient-derived xenografts tested in the Mayo PDX panel; no predictive biomarker was identified, consistent with modest clinical benefit [PMID:31852831](../papers/31852831.md).
+- Nominated as a therapeutic candidate for schwannomatosis-associated schwannomas ([SCHW](../cancer_types/SCHW.md)) exhibiting upregulated PIGF/VEGF/RAF pathways, particularly painful tumors; the authors propose bevacizumab for tumor and pain management pending clinical trials [PMID:33025139](../papers/33025139.md).
 
 ## Resistance mechanisms
 
@@ -63,5 +64,8 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

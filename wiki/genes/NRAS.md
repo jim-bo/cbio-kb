@@ -3,7 +3,7 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -71,6 +71,9 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Mutated in 30% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside BRAF and NF1 [PMID:31792460](../papers/31792460.md)
 - NRAS Q61R co-occurring with GON4L–NTRK1 fusion in one melanoma; tumor progressed on larotrectinib and cell line was insensitive to larotrectinib/LOXO-195 but sensitive to trametinib, suggesting NRAS-driven oncogenic independence from TRK [PMID:31871300](../papers/31871300.md)
 - Focal high-level amplification in one resistant HR+/HER2- MBC biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies [PMID:32404308](../papers/32404308.md)
+- Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a NSGCT precursor clone; activating RAS-pathway mutations (KRAS or NRAS) together present in 63% of GCT+hematologic-malignancy cases vs. 13% of de novo AML [PMID:32897884](../papers/32897884.md)
+- p.Q61L detected in normal melanocytes from sun-damaged skin (Donor 13, back, peri-MEL site); classified as a weak MAPK activator present in histologically normal tissue, implying pre-malignant clonal expansion [PMID:33029006](../papers/33029006.md)
+- Late-progression driver acquired between clonal hematopoiesis (CH) stage and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients; 0 RAS hotspot mutations observed at the CH stage, implicating NRAS as a progression rather than initiation event [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -96,158 +99,64 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Whether RAS-mut MAAP patients should receive less aggressive management, given small subtype N and no cancer-specific deaths [PMID:36493333](../papers/36493333.md).
 
 ## Sources
-
+- [PMID:18948947](../papers/18948947.md)
+- [PMID:21720365](../papers/21720365.md)
+- [PMID:21909114](../papers/21909114.md)
+- [PMID:22460905](../papers/22460905.md)
+- [PMID:22622578](../papers/22622578.md)
+- [PMID:22810696](../papers/22810696.md)
+- [PMID:22817889](../papers/22817889.md)
+- [PMID:22842228](../papers/22842228.md)
+- [PMID:23334666](../papers/23334666.md)
+- [PMID:23334668](../papers/23334668.md)
+- [PMID:23415222](../papers/23415222.md)
+- [PMID:23634996](../papers/23634996.md)
+- [PMID:24185509](../papers/24185509.md)
+- [PMID:24265153](../papers/24265153.md)
+- [PMID:24434212](../papers/24434212.md)
+- [PMID:24436047](../papers/24436047.md)
+- [PMID:24798001](../papers/24798001.md)
+- [PMID:25079552](../papers/25079552.md)
+- [PMID:25155756](../papers/25155756.md)
+- [PMID:25164765](../papers/25164765.md)
+- [PMID:25303977](../papers/25303977.md)
+- [PMID:25409260](../papers/25409260.md)
+- [PMID:25417114](../papers/25417114.md)
+- [PMID:26091043](../papers/26091043.md)
+- [PMID:26343386](../papers/26343386.md)
+- [PMID:26359337](../papers/26359337.md)
+- [PMID:26466571](../papers/26466571.md)
+- [PMID:26824661](../papers/26824661.md)
+- [PMID:27149842](../papers/27149842.md)
+- [PMID:27276561](../papers/27276561.md)
+- [PMID:27646943](../papers/27646943.md)
+- [PMID:27776115](../papers/27776115.md)
+- [PMID:28007021](../papers/28007021.md)
+- [PMID:28336552](../papers/28336552.md)
+- [PMID:28373299](../papers/28373299.md)
+- [PMID:29316426](../papers/29316426.md)
+- [PMID:29625049](../papers/29625049.md)
+- [PMID:29848569](../papers/29848569.md)
+- [PMID:30333627](../papers/30333627.md)
+- [PMID:30373752](../papers/30373752.md)
+- [PMID:30687805](../papers/30687805.md)
+- [PMID:30867592](../papers/30867592.md)
+- [PMID:31693904](../papers/31693904.md)
+- [PMID:31792460](../papers/31792460.md)
+- [PMID:31871300](../papers/31871300.md)
+- [PMID:32404308](../papers/32404308.md)
+- [PMID:32897884](../papers/32897884.md)
+- [PMID:33029006](../papers/33029006.md)
+- [PMID:33106634](../papers/33106634.md)
+- [PMID:36228155](../papers/36228155.md)
+- [PMID:36355783](../papers/36355783.md)
 - [PMID:36493333](../papers/36493333.md)
 - [PMID:36862133](../papers/36862133.md)
-- [PMID:38412093](../papers/38412093.md)
+- [PMID:37643132](../papers/37643132.md)
 - [PMID:37730754](../papers/37730754.md)
+- [PMID:38412093](../papers/38412093.md)
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38922339](../papers/38922339.md)
-- [PMID:37643132](../papers/37643132.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:21720365](../papers/21720365.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:21909114](../papers/21909114.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22622578](../papers/22622578.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22817889](../papers/22817889.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22842228](../papers/22842228.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23334668](../papers/23334668.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23334666](../papers/23334666.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23415222](../papers/23415222.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23634996](../papers/23634996.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24185509](../papers/24185509.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24265153](../papers/24265153.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25079552](../papers/25079552.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25409260](../papers/25409260.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26466571](../papers/26466571.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26359337](../papers/26359337.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27276561](../papers/27276561.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28373299](../papers/28373299.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29625049](../papers/29625049.md)
-
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30867592](../papers/30867592.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31792460](../papers/31792460.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31871300](../papers/31871300.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

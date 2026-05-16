@@ -156,6 +156,10 @@
 - method: xenium — observed in PMID:41941260 — note: 10x Genomics Xenium single-cell spatial profiling on pediatric neuroblastoma pre/post 131I-MIBG (KIDSROBIN)
 - method: cbct-delta-radiomics — observed in PMID:41941260 — note: Cone-Beam CT daily-fraction delta radiomics standardized across ROBIN CBCT WG
 - method: sequenza — observed in PMID:29422544 — note: R/Bioconductor allele-specific CNA and LOH inference tool; used on 15 Korean vulvar SCC WES pairs alongside Nexus Copy Number
+- method: g-and-t-seq — observed in PMID:33029006 — note: single-cell Genome & Transcriptome Sequencing protocol; matched DNA/RNA profiling from same cell; used with UCSF500 panel + Smart-Seq2 on 133 melanocytes
+- method: dndscv — observed in PMID:33106634 — note: dN/dS selection-inference R package; used to identify positively selected CH genes in 24,146 MSK-IMPACT cancer patients
+- method: icare — observed in PMID:33106634 — note: individualized Coherent Absolute Risk Estimation R package; absolute tMN risk modeling combining CH hazard ratios with SEER/NCCN incidence
+- method: gatk — observed in PMID:33106634 — note: Genome Analysis Toolkit v3.3-0; used for BQSR preprocessing in MSK-IMPACT CH calling pipeline
 - method: nexus-copy-number — observed in PMID:29422544 — note: BioDiscovery Nexus v7.5 ngCGH/RankSegmentation for CNA calling on 15 Korean vulvar SCC WES pairs; commercial platform
 - method: nmf-clustering — observed in PMID:32015526 — note: non-negative matrix factorization transcriptomic subtyping (Brunet algorithm, R NMF package); identified 3 NS-LUAD subtypes (steady, proliferative, chaotic) from 684 RNA-seq profiles
 - method: sfyncs — observed in PMID:32015526 — note: SFyNCS v0.15 RNA-seq fusion detection tool; used alongside STAR-Fusion in Sherlock-Lung NS-LUAD study; 11,947 fusions detected across 638/684 tumors

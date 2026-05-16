@@ -20,8 +20,8 @@ tags:
   - MDM2-amplification
   - RAC1
   - actionable-alterations
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Germ Cell Tumors (MSK, J Clin Oncol 2016)
@@ -58,6 +58,7 @@ Bagrodia et al. performed whole-exome sequencing on a discovery cohort of 19 adv
 - Novel [RAC1](../genes/RAC1.md) hotspot mutations (G12V, G12R, P34R, Q61R, Q61K) identified in 9 patients (5% incidence — highest reported across cancer types in TCGA at publication); functionally validated to activate [PAK1](../genes/PAK1.md) and MEK1/2 phosphorylation. [PMID:27646943](../papers/27646943.md)
 - Actionable alterations detected in 55% of cisplatin-resistant GCTs, including [KIT](../genes/KIT.md) mutations (enriched in [SEM](../cancer_types/SEM.md), 29.6%), [KRAS](../genes/KRAS.md) mutations (15%), PI3K pathway alterations (13.3%), and [MDM2](../genes/MDM2.md) amplifications (7.6%). [PMID:27646943](../papers/27646943.md)
 - Mean MSK-IMPACT mutation rate of 0.9/Mb confirms that GCTs are among the least mutationally burdened adult solid tumors; 12p gain present in 74% of discovery tumors, consistent with the well-characterized [GCT](../cancer_types/GCT.md) cytogenetic signature. [PMID:27646943](../papers/27646943.md)
+- Used as a comparator cohort of 51 PM mediastinal GCTs without secondary hematologic malignancy (10 seminoma + 41 nonseminoma) for genomic comparison against GCTs with concurrent hematologic malignancies — [PMID:32897884](../papers/32897884.md)
 
 ## Sources
 
@@ -66,3 +67,6 @@ Bagrodia et al. performed whole-exome sequencing on a discovery cohort of 19 adv
 - Reference genome: hg19
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

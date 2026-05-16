@@ -62,6 +62,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Knockdown sensitivity of MDM2 is uniquely associated with MCM-complex protein levels across CCLE cell lines, hinting at a p53-independent function; MDM2 co-varies with TP53/CDKN1A knockdown sensitivities in cell-division-related complexes [PMID:31978347](../papers/31978347.md)
 - MDM2 is universally amplified in liposarcoma chromothripsis events across the PCAWG pan-cancer cohort of 2,658 whole genomes [PMID:32025007](../papers/32025007.md)
 - Recurrently amplified oncogene across 604 stage I-III resected LUAD patients profiled by MSK-IMPACT; consistent with prior LUAD genomic characterizations. [PMID:32791233](../papers/32791233.md)
+- MDM2 — amplification (n=4) and mutation (n=1) observed in 25% of BRAFi-monotherapy melanoma patients combined with TP53 events; not associated with response grade or survival; higher MDM2 expression correlated with elevated mutation burden in normal melanocytes [PMID:32913971](../papers/32913971.md)
+- MDM2 — higher expression correlated with elevated mutation burden in normal skin melanocytes; not pathogenically mutated but transcriptionally upregulated in high-mutation-burden donors with adjacent skin cancer [PMID:33029006](../papers/33029006.md)
 
 ## Cancer types (linked)
 
@@ -209,5 +211,11 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33029006](../papers/33029006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

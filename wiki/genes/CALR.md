@@ -3,8 +3,8 @@ symbol: CALR
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # CALR
@@ -17,6 +17,7 @@ CALR (calreticulin) encodes an endoplasmic reticulum chaperone protein. Somatic 
 
 - Recurrent exon 9 +1 bp frameshift indels (19 distinct variants; L367fs*46 deletion and K385fs*47 insertion dominant) in 70–84% of JAK2/MPL-negative MPN; mutually exclusive with [JAK2](../genes/JAK2.md) and [MPL](../genes/MPL.md); first report of somatic mutations in an ER chaperone in any cancer; produces mutant protein with novel basic C-terminus lacking KDEL ER-retention signal [PMID:24325359](../papers/24325359.md)
 - Components of the MHC class I antigen-processing machinery (APM), including CALR, were enriched for somatic mutations in TIL-rich colorectal tumors, consistent with immune-escape selection [PMID:27149842](../papers/27149842.md).
+- CALR in-frame indels classed as CH-myeloid putative driver variants in a 9,437-patient MSK-IMPACT study of therapy-associated clonal hematopoiesis and therapy-related myeloid neoplasm risk [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ CALR (calreticulin) encodes an endoplasmic reticulum chaperone protein. Somatic 
 - [PMID:27149842](../papers/27149842.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

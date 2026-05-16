@@ -119,6 +119,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS enriched in extrahepatic cholangiocarcinoma (EHC) vs intrahepatic (38% vs 7%); associated with shorter OS in advanced disease (p=0.026); mutually exclusive with IDH1, BAP1, and PBRM1. [PMID:29848569](../papers/29848569.md)
 - KRAS RAS/JAK/STAT pathway mutations enriched in DLBCL C4 GCB subtype in 304-patient WES cohort; non-canonical mutations perturb P-loop/activation-loop autoinhibitory interaction. [PMID:29713087](../papers/29713087.md)
 - KRAS mutation status discussed in context of PD-1 blockade response in lung adenocarcinoma; no distinct KRAS-specific association found beyond TP53/TMB signal in this combination PD-1+CTLA-4 immunotherapy cohort (n=75 NSCLC). [PMID:29657128](../papers/29657128.md)
+- Clonal hotspot mutations enriched in CR/PR responders across cancer types in a pooled ICB cohort (193 patients); association with response persisted after TMB correction (p<0.05, logistic regression) but did not survive FDR correction (q=0.18); KRAS-mutant smoker-signature NSCLC tumors constitute a favorable ICB subgroup [PMID:30150660](../papers/30150660.md)
 
 ## Cancer types (linked)
 
@@ -426,5 +427,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

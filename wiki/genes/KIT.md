@@ -3,7 +3,7 @@ symbol: KIT
 aliases: []
 cancer_types: [OGCT, GIST, ANGS, CSCC]
 tags: [germ-cell-tumor, gist, oncogene]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -45,6 +45,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT is cited as a cancer-driving target that motivates tissue-agnostic basket/umbrella trials (e.g., NCI-MATCH) across the 28-iCluster pan-cancer classification of 10,000 TCGA tumors from 33 cancer types [PMID:29625048](../papers/29625048.md)
 - KIT is a driver gene in the TCGA pan-cancer landscape; KIT alterations are part of the somatic driver interaction network with mutual-exclusivity and co-occurrence patterns identified across 33 tumor types [PMID:29625049](../papers/29625049.md)
 - KIT amplification in glioma co-occurs with EGFR amplification at the 4q12 locus (KIT/PDGFRA/KDR region), and is mutually exclusive with KRAS/BRAF mutation or NF1/RASA1 loss elsewhere in the RTK-RAS pathway across the TCGA pan-cancer oncogenic signaling analysis [PMID:29625050](../papers/29625050.md)
+- Single OncoKB-level-annotated actionable alteration (n=1 patient) contributing to the 67% actionable tally in metastatic endometrial cancer (189 patients, MSK cohort) [PMID:30068706](../papers/30068706.md)
 
 ## Cancer types (linked)
 
@@ -149,3 +150,6 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

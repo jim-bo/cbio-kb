@@ -65,6 +65,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Applied to call somatic variants in 304 DLBCLs (WES with targeted SV bait, median 87.6× tumor coverage); used alongside Indelocator for indel calling [PMID:29713087](../papers/29713087.md)
 - Used for somatic variant calling in pediatric WGS samples [PMID:29670109](../papers/29670109.md)
 - Applied for somatic mutation calling in the MSK IMPACT neoantigen study cohort [PMID:29657128](../papers/29657128.md)
+- Used for somatic SNV calling in the pan-cancer MSI analysis pipeline applied to 11,139 whole-exome tumor-normal pairs [PMID:29850653](../papers/29850653.md)
+- Used for somatic SNV calling in the uniform reanalysis of 249 MSS tumor/normal WES samples from seven ICB cohorts; combined with Strelka (indels), Oncotator (annotation), and ABSOLUTE (clonality) [PMID:30150660](../papers/30150660.md)
 
 ## Notes
 
@@ -199,5 +201,11 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

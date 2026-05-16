@@ -32,6 +32,7 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - APC- and KRAS-driven COAD/READ tumors share mRNA cluster 15 and RPPA C8 but partition into methylation clusters 10 vs 11; TP53 and KRAS mutually exclusive in READ [PMID:29625049](../papers/29625049.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for READ [PMID:29625055](../papers/29625055.md)
+- MSI-H detected in 5.7% of rectal adenocarcinoma cases by MANTIS WES caller; MSI prevalence lower than colon adenocarcinoma (19.7%), consistent with known biology [PMID:29850653](../papers/29850653.md)
 
 ## Subtypes
 
@@ -77,5 +78,8 @@ No molecular subtyping data from the corpus specific to READ yet.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

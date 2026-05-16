@@ -38,6 +38,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2-BICC1 is the most recurrent fusion in CHOL (5.6% of samples); FGFR2 is a top recurrent 5-prime kinase fusion partner across 33 TCGA cancer types (9,624 samples); druggable in 15 cancer types per DEPO annotation. [PMID:29617662](../papers/29617662.md)
 - FGFR2 shows exceptional co-occurrence with PI3K-pathway alterations (versus the typical mutual exclusivity between RTK and downstream RAS/PI3K signaling), a distinctive interaction pattern identified in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - FGFR2 gene fusions detected in 14% of intrahepatic cholangiocarcinoma (IHC) patients in a prospective MSK-IMPACT cohort (n=195); fusion partners include BICC1 and KIAA1217; exclusive to IHC subtype and targeted by infigratinib and pan-FGFR inhibitors. [PMID:29848569](../papers/29848569.md)
+- FGFR2 fusions noted as therapeutically relevant; n=2 patients enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
 
 ## Cancer types (linked)
 
@@ -121,5 +122,8 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

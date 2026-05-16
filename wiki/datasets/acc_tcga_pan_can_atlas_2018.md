@@ -17,7 +17,7 @@ tags:
   - TCGA
   - pan-cancer
   - pan-can-atlas
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -49,6 +49,7 @@ The TCGA Adrenocortical Carcinoma PanCancer Atlas 2018 cohort is the [ACC](../ca
 
 - ACC co-clustered with [KICH](../cancer_types/KICH.md) in pan-cancer iCluster C9, both characterized by a hypodiploid copy-number profile — a notable cross-tissue grouping driven by shared chromosomal architecture rather than histologic or lineage similarity. [PMID:29625048](../papers/29625048.md)
 - Pan-cancer integrative molecular analysis (11,286 tumors, 33 cancer types) included ACC among the 33 TCGA PanCancer Atlas studies; single-platform clustering revealed ACC co-clusters with [KICH](../cancer_types/KICH.md) by aneuploidy pattern. [PMID:29625048](../papers/29625048.md)
+- Used as part of the TCGA PanCancer Atlas cohort in a pan-cancer analysis of oncogenic signaling pathways across 9,125 tumors from 33 cancer types [PMID:29850653](../papers/29850653.md)
 
 ## Sources
 
@@ -56,3 +57,6 @@ The TCGA Adrenocortical Carcinoma PanCancer Atlas 2018 cohort is the [ACC](../ca
 - [PMID:29625048](../papers/29625048.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -9,7 +9,7 @@ tags:
   - NOS
   - unclassified
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Sarcoma, NOS (SARCNOS)
@@ -27,6 +27,7 @@ Sarcoma, NOS (not otherwise specified) is a diagnostic category for sarcomas tha
 - [PIK3CA](../genes/PIK3CA.md): hotspot mutation (H1047L, rendered as "H1074L" in the manuscript) in SARC0117 (metastatic USS/SARCNOS) drove broad PI3K/mTOR sensitivity ([alpelisib](../drugs/alpelisib.md), apitolisib, copanlisib, BGT226, vistusertib). [PMID:39305899](../papers/39305899.md)
 - MET500 metastatic cohort: soft-tissue sarcoma (NOS) was the third most common lineage (42/500, 8.4%); a novel GREB1-NR4A3 activating fusion was identified in uterine leiomyosarcoma and a CIC-CITED1 fusion in undifferentiated high-grade sarcoma; NF1 was the most commonly fused tumor suppressor (n=18) across the cohort. [PMID:28783718](../papers/28783718.md)
 - TCGA Sarcoma working group profiled 206 adult soft tissue sarcomas across 6 histologies (LMS, DDLPS, UPS, MFS, SS, MPNST); pan-sarcoma mutation burden was low (mean 1.06 mut/Mb) with only 3 pan-cohort SMGs (TP53, ATRX, RB1), and complex karyotypes were SCNA-driven [PMID:29100075](../papers/29100075.md)
+- N=1 sarcoma sample included in pooled MSS ICB WES cohort of 249 tumors across six cancer types; clonal TMB, driver alterations (PIK3CA, KRAS, PBRM1 enriched in responders; EGFR, biallelic PTEN loss, 11q/12q amplifications enriched in non-responders) assessed pan-cohort [PMID:30150660](../papers/30150660.md)
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ Sarcoma, NOS (not otherwise specified) is a diagnostic category for sarcomas tha
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -30,6 +30,7 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md)
 - HER2+PI3K inhibitor combination actionable in 7% of UCS; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for UCS [PMID:29625055](../papers/29625055.md)
+- 35/189 advanced endometrial tumors were uterine carcinosarcoma; FGFR1 amplification enriched in carcinosarcoma (p=0.007); two pathogenic germline BRCA2 mutations identified in carcinosarcoma patients (founder c.5946delT and c.5799_5802delCCAA frameshift) [PMID:30068706](../papers/30068706.md)
 
 ## Subtypes
 
@@ -62,5 +63,8 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

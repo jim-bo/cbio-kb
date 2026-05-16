@@ -496,6 +496,7 @@
 - method: vep — observed in PMID:29596782 — note: Ensembl VEP for functional consequence annotation; invoked via vcf2maf v1.6.11 in the TCGA MC3 pipeline
 - method: vcf2maf — observed in PMID:29596782 — note: VCF-to-MAF conversion with VEP annotation and ExAC common-variant filter (AC>16); v1.6.11 used in TCGA MC3
 - method: cwl-docker-workflow — observed in PMID:29596782 — note: CWL + Docker packaging of TCGA MC3 seven-caller pipeline; released at github.com/OpenGenomics/mc3 for reproducible cloud execution
+- method: mantis — observed in PMID:29850653 — note: Microsatellite Analysis for Normal-Tumor InStability; paired tumor-normal WES MSI detector; pan-cancer MSI analysis across 11,139 samples from 39 cancer types
 - method: star-fusion — observed in PMID:29617662 — note: primary RNA-seq fusion caller in TCGA pan-cancer fusion analysis (9,624 samples, 33 cancer types); dominant caller; FFPM >0.1 required for STAR-Fusion-only calls
 - method: ericscript — observed in PMID:29617662 — note: one of three fusion callers in TCGA pan-cancer analysis; used alongside STAR-Fusion and BREAKFAST with 5 kb/100 kb min-distance cutoffs
 - method: breakfast — observed in PMID:29617662 — note: one of three fusion callers in TCGA pan-cancer analysis; used alongside STAR-Fusion and EricScript with distance cutoffs to reduce readthrough artifacts

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [endocrine-therapy, breast-cancer, serd]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # fulvestrant
@@ -21,6 +21,7 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 - Combined Nf1Indel/Tp53Indel rat tumors showed only modest, transient shrinkage by week 3 (p<0.05) and resumed growth by weeks 4–5 under fulvestrant, modeling endocrine-refractory disease driven by [TP53](../genes/TP53.md) co-loss [PMID:26437033](../papers/26437033.md).
 - GSEA of 486 fulvestrant-responsive rat differentially expressed genes showed significant enrichment of genes induced by neoadjuvant fulvestrant in human patients (GSE71791); 58 overlapping genes included [PGR](../genes/PGR.md), AREG, SGK3, STC2, and WNT5A [PMID:26437033](../papers/26437033.md).
 - In 216 metastatic breast cancer patients (SAFIR01/02, SHIVA, MOSCATO trials), ESR1 mutations (found in 20/143 HR+/HER2- mBCs, 14%) were exclusively in patients who had received prior endocrine therapy including fulvestrant, and all ESR1 mutations occurred in the hormone-receptor domain mediating acquired endocrine resistance [PMID:28027327](../papers/28027327.md)
+- One endometrial patient with a de novo ESR1 ligand-binding-domain mutation achieved an 18-month ongoing response on bevacizumab + fulvestrant after progressing on letrozole; 3/5 ESR1-mutant cases arose in apparent absence of prior endocrine therapy [PMID:30068706](../papers/30068706.md)
 
 ## Resistance mechanisms
 
@@ -38,3 +39,6 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 - [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; ESR1 mutations (14% of HR+/HER2- mBC) exclusively in prior-endocrine-therapy patients, mediating acquired endocrine resistance.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -46,6 +46,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - placeholder
 - placeholder
 - CDK4 is a core cell-cycle pathway driver; CDK4 and MDM2 are almost always co-amplified due to genomic proximity; 78% of dedifferentiated liposarcomas carry CDK4+MDM2 co-amplification, nominating CDK4 + MDM2 inhibitor combinations in this disease [PMID:29625050](../papers/29625050.md)
+- One OncoKB-level-annotated actionable alteration in a 189-patient MSK advanced endometrial cancer sequencing cohort (n=1), contributing to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
+- 12q focal amplification (CDK4 co-amplified with MDM2) enriched in immunotherapy non-responders (PD) in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 
 ## Cancer types (linked)
 
@@ -143,5 +145,11 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

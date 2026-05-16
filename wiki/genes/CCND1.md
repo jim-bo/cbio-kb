@@ -71,6 +71,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Recurrent oncogene amplification in CCA (n=7 of 71 WGS cases); co-amplified with MYC, MDM2, and EGFR in a subset of Fluke-associated cholangiocarcinomas [PMID:28667006](../papers/28667006.md).
 - placeholder
 - Recurrently mutated in DLBCL (dlbcl_dfci_2018) as part of the comprehensive genomic characterization identifying five genetic subtypes across 304 DLBCLs [PMID:29713087](../papers/29713087.md)
+- 11q focal amplification (includes CCND1 locus) enriched in immunotherapy non-responders (PD) in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 
 ## Cancer types (linked)
 
@@ -237,5 +238,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

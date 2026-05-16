@@ -19,6 +19,7 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 
 - Used to generate survival curves for [OS](../cancer_types/OS.md), PFI, DFI, and DSS endpoints across 11,160 TCGA patients in 33 cancer types (TCGA Pan-Cancer Clinical Data Resource); paired with Cox proportional hazards regression for multivariable analysis; analysis performed in R 3.2.2 [PMID:29625055](../papers/29625055.md).
 - Kaplan-Meier survival curves generated for OS and PFS analysis in 178 stage IV cholangiocarcinoma patients; progression-free survival on first-line chemo assessed in 158 patients [PMID:29848569](../papers/29848569.md)
+- Kaplan-Meier survival curves used to compare PFS across FACETS copy-number clusters (A, B, C) and histologic/grade subgroups in 189 advanced endometrial cancer patients [PMID:30068706](../papers/30068706.md)
 
 ## Notes
 
@@ -30,5 +31,8 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

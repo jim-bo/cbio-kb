@@ -38,6 +38,9 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Applied (29 COSMIC signatures, Alexandrov et al. 2013) to bladder cancer organoid lines; APOBEC signature detected in SCBO-4 and SCBO-5, smoking signature in SCBO-6; signatures were stable across passages and xenograft conversion [PMID:29625057](../papers/29625057.md).
 - Mutational signatures analysis performed on pediatric cancer WGS data; signatures used to characterize mutational processes contributing to somatic mutations in pediatric tumors [PMID:29670109](../papers/29670109.md)
 - Applied to TCGA pan-cancer cohort to characterize signature patterns across cancer types [PMID:29713003](../papers/29713003.md)
+- Mutational signature analysis with deconstructSigs (Alexandrov 2013 signature set) applied to MSI-H and MSS subgroups in ACC, CESC, and MESO; no statistically significant differences found after Benjamini-Hochberg correction due to small MSI-H cohort sizes [PMID:29850653](../papers/29850653.md)
+- Mutational-signature decomposition used for hypermutated samples (≥10 SNVs) in 189 advanced endometrial cancer patients; combined with MSIsensor to rescue one occult MMR-D case missed by IHC [PMID:30068706](../papers/30068706.md)
+- Non-negative matrix factorization applied against COSMIC signatures across 249 MSS ICB-treated tumors; dominant signature (UV in melanoma, smoking in NSCLC, APOBEC in bladder/HNSCC) correlated with TMB and ITH; in melanoma TMB was non-predictive of ICB response after adjusting for dominant signature [PMID:30150660](../papers/30150660.md)
 
 ## Notes
 
@@ -107,5 +110,14 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -44,6 +44,7 @@ TCGA PanCancer Atlas 2018 dataset for cervical squamous cell carcinoma and endoc
 - CESC samples contributed to pan-cancer integrative clustering; HPV+ CESC co-clusters with pan-squamous iCluster C27 (with HPV+ HNSC and some BLCA); 80%+ samples fell into a single iCluster [PMID:29625048](../papers/29625048.md)
 - CESC included in pan-cancer somatic driver network; ERBB2 alterations in 23% of CESC; LUSC (a pan-squamous neighbor) showed highest somatic vs germline genome-integrity disruption ratio [PMID:29625049](../papers/29625049.md)
 - CESC included in pan-cancer pathway analysis (9,125 tumors); CESC cervical adenocarcinoma subtype shows HER2+PI3K co-targeting opportunity in ~7% of samples [PMID:29625050](../papers/29625050.md)
+- Used as part of the TCGA PanCancer Atlas cohort in a pan-cancer analysis of oncogenic signaling pathways across 9,125 tumors from 33 cancer types [PMID:29850653](../papers/29850653.md)
 
 ## Sources
 
@@ -55,3 +56,6 @@ TCGA PanCancer Atlas 2018 dataset for cervical squamous cell carcinoma and endoc
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

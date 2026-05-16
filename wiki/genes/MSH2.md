@@ -3,7 +3,7 @@ symbol: MSH2
 aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -36,6 +36,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - Assayed by IHC for MMR protein status in mCRC (N=1,152); concordance between IHC-based MMR status and MSIsensor score was 98.6% [PMID:29316426](../papers/29316426.md)
 - One pLoF likely pathogenic/pathogenic variant in German pediatric cancer predisposition cohort (n=390); reached significance in joint analysis with Zhang et al. (OR=7.1, p=.039); MSH2 is the only DNA-repair gene consistently associated with childhood cancer in a prior meta-analysis. [PMID:29489754](../papers/29489754.md)
 - MSH2 (with MLH1, MSH6, PMS2) is an MMR gene in which somatic non-synonymous mutations in 250/1,464 TCGA samples and germline variants (16/18 with both germline and somatic hits) reach MSI-high status, defining a population with elevated neoantigen load expected to respond to PD-1/PD-L1 blockade [PMID:29625049](../papers/29625049.md)
+- Component of the standard MMR IHC panel used to call MMR-D status in metastatic endometrial cancer (MSK cohort, n=189); MSH2 protein loss by IHC contributed to MMR-D classification alongside MSIsensor score [PMID:30068706](../papers/30068706.md)
+- Somatic deleterious mutations enriched in MSI-H tumors of ACC, CESC, and MESO in a pan-TCGA analysis; MSH2 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 
 ## Cancer types (linked)
 
@@ -85,3 +87,9 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

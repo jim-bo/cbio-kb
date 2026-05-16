@@ -51,6 +51,7 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types) [PMID:29625049](../papers/29625049.md)
 - EGFR alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for HNSC [PMID:29625055](../papers/29625055.md)
+- N=12 in pooled MSS ICB WES cohort; APOBEC signature dominance associated with high TMB and CR/PR to immune checkpoint blockade; PIK3CA hotspot mutations in responders were from melanoma, HNSCC, anal, or bladder [PMID:30150660](../papers/30150660.md)
 
 ## Subtypes
 
@@ -121,5 +122,8 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

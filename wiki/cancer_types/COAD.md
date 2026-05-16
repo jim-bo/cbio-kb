@@ -39,6 +39,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - COAD/READ tumors with APC+KRAS drivers share mRNA cluster 15 and RPPA C8 but partition into methylation clusters 10 vs 11; TP53 and KRAS are mutually exclusive in COAD/READ but co-occur in PAAD [PMID:29625049](../papers/29625049.md)
 - KRAS hotspot mutations present in 69% of colorectal genomically stable tumors; MSI-H and POLE-mutant subtypes carry highest mutation burden [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for COAD [PMID:29625055](../papers/29625055.md)
+- MSI-H detected in 19.7% of colon adenocarcinoma cases by MANTIS WES caller; one of the four classic Lynch syndrome-associated tumor types with highest MSI prevalence in the pan-cancer 39-type analysis [PMID:29850653](../papers/29850653.md)
 
 ## Subtypes
 
@@ -98,5 +99,8 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

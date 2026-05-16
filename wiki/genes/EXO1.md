@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - PAAD
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # EXO1
@@ -17,6 +17,7 @@ EXO1 (Exonuclease 1) is a DNA repair exonuclease involved in mismatch repair (MM
 ## Alterations observed in the corpus
 
 - MutSigCV-significant gene in pancreatic ductal adenocarcinoma (PDAC); functional role in PDA biology remains to be validated [PMID:25855536](../papers/25855536.md)
+- Exonuclease component of the MMR pathway; included in a somatic-mutation screen for DANN-pathogenic variants in MSI-H tumors of ACC, CESC, and MESO in a TCGA pan-cancer MSI study [PMID:29850653](../papers/29850653.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ EXO1 (Exonuclease 1) is a DNA repair exonuclease involved in mismatch repair (MM
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

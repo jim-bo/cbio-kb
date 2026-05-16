@@ -37,6 +37,7 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - Included in TCGA PanCancer Atlas integrative molecular analysis; HPV+ CESC tumors co-cluster in pan-squamous iCluster C27 [PMID:29625048](../papers/29625048.md)
 - PI3K pathway dominant in CESC; ERBB2 alterations found in 23% of CESC tumors; cervical adenocarcinoma shows 7% co-actionable HER2+PI3K inhibitor combinations [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for CESC [PMID:29625055](../papers/29625055.md)
+- MSI-H detected in 2.6% of cervical squamous cell carcinoma cases by MANTIS WES caller; MSI-H CESC tumors had significantly higher mutational burden vs MSS (5,675 vs 639 mutations, P=0.003); supports expanded clinical MSI testing in CESC for pembrolizumab eligibility [PMID:29850653](../papers/29850653.md)
 
 ## Subtypes
 
@@ -82,5 +83,8 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

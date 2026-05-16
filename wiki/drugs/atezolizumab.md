@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint_inhibitor, pd-l1]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # atezolizumab
@@ -24,6 +24,7 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - Luminal-infiltrated MIBC (19% of TCGA cohort; high CD274/PD-L1, CTLA4, EMT markers; corresponds to TCGA Cluster-II) was previously reported to respond to anti-PD-L1 atezolizumab (Rosenberg et al. 2016) and may be resistant to cisplatin-based chemotherapy; this subtype is proposed as a positive biomarker for checkpoint blockade [PMID:28988769](../papers/28988769.md)
 - Included among the anti-PD-(L)1 regimens in the validation cohort (n=63 ccRCC) studied for PBRM1 LOF as a predictive biomarker; patients with biallelic PBRM1 loss had prolonged OS and PFS on anti-PD-(L)1 therapy [PMID:29301960](../papers/29301960.md)
 - One of the anti-PD-(L)1 agents evaluated in the 240-patient MSK NSCLC cohort; high TMB (above 50th percentile by MSK-IMPACT) associated with DCB across the cohort including atezolizumab-treated patients (DCB 38.6% vs 25.1%, p=0.009) [PMID:29337640](../papers/29337640.md)
+- Included in a pooled WES cohort of 249 MSS tumors across 6 cancer types (N=20 anti-PD-L1 patients); anti-PD-L1 use concentrated in bladder and NSCLC; TMB + clonality + specific CNAs outperform TMB alone (AUC=0.66) for ICB response prediction [PMID:30150660](../papers/30150660.md)
 
 ## Resistance mechanisms
 
@@ -53,3 +54,6 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -20,6 +20,7 @@ POLYSOLVER (POLYmorphic loci SOLVER) is a computational tool for HLA class I typ
 - [Giannakis et al. 2016 — CRC neoantigen-survival study](../papers/27149842.md): Applied to 619 CRC tumor/normal WES pairs (Illumina HiSeq 2000, SureSelect v.2; mean 90× coverage) to type HLA class I alleles and call somatic HLA mutations; 66/619 (11%) samples carried HLA mutations (96 total); mutated alleles were enriched for neoantigen-binding residues and for somatic hits in TIL-high tumors (chi-squared p = 1.2e-22), consistent with immune-escape selection [PMID:27149842](../papers/27149842.md).
 - Used to detect HLA mutations from exome data in 412 BLCA tumors; HLA mutations detected in 4.6% (19/412), enriched in the high-APOBEC/high-burden MSig1 cluster (p=0.039) [PMID:28988769](../papers/28988769.md)
 - Used for HLA typing in the MSK IMPACT neoantigen study to identify patient-specific HLA alleles for neoantigen prediction [PMID:29657128](../papers/29657128.md)
+- POLYSOLVER used for HLA typing from germline WES data across 249 MSS ICB-treated tumors, enabling HLA-restricted neoantigen prediction with NetMHCpan [PMID:30150660](../papers/30150660.md)
 
 ## Notes
 
@@ -38,5 +39,8 @@ POLYSOLVER (POLYmorphic loci SOLVER) is a computational tool for HLA class I typ
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29657128](../papers/29657128.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

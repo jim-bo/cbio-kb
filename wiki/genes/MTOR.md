@@ -9,8 +9,8 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MTOR
@@ -41,6 +41,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - MTOR was identified as a functional oncogene in DLBCL by CRISPR screen (its knockout depleted cell growth across lines) and was a driver gene in 1001 DLBCL patients; MTOR mutations are prevalent in DLBCL but associate with generally good outcomes in the GCB subtype, suggesting patients with MTOR alterations may be underrepresented in clinical trials of MTOR inhibitors [PMID:28985567](../papers/28985567.md)
 - Aberrant PI3K-AKT-MTOR signaling is recurrent in leiomyosarcoma (LMS), with frequent amplification and upregulation of MTOR along with PTEN deletion/mutation, IGF1R, AKT, and RICTOR alterations; MTOR inhibitors (everolimus, temsirolimus) have shown limited clinical efficacy in LMS; dual PI3K/MTOR inhibitors may offer improved outcomes [PMID:29100075](../papers/29100075.md)
 - Called as a significantly mutated gene (SMG) in KIRC by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; confirmed as a consensus driver in clear cell renal cell carcinoma across two independent callers. [PMID:29596782](../papers/29596782.md)
+- Hotspot mutation L2427Q observed in a metastatic endometrial cancer patient, showing primary-to-metastatic heterogeneity (present in metastasis but not primary or vice versa); detected in MSK MSK-IMPACT cohort of 189 patients [PMID:30068706](../papers/30068706.md)
 
 ## Cancer types (linked)
 
@@ -83,3 +84,6 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

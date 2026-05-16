@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, THAP, CSCC]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # FAT1
@@ -28,6 +28,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - R937 missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
 - 12% mutated newly recognized SMG in MIBC; also subject to epigenetic silencing in a mutually exclusive subset of tumors, suggesting both genetic and epigenetic inactivation mechanisms [PMID:28988769](../papers/28988769.md)
 - Altered in 40% (6/15) of vulvar squamous cell carcinomas irrespective of HPV status — the highest-frequency alteration alongside PIK3CA in this first genome-wide WES characterization of vulvar SCC [PMID:29422544](../papers/29422544.md)
+- Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC) [PMID:30052636](../papers/30052636.md)
 
 ## Cancer types (linked)
 
@@ -84,3 +85,6 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

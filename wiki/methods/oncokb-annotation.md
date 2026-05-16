@@ -28,6 +28,7 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - OncoKB (Sept 2017) used for pathway-level oncogenicity calls in SUMMIT basket-trial patients with ERBB2/ERBB3-mutant tumors; contributed to co-mutation pathway analysis [PMID:29420467](../papers/29420467.md)
 - OncoKB used to rescue genes with ≥5 oncogenic variants from MutSig2CV in the prostate prad_p1000 analysis; supplemented statistical significance filtering [PMID:29610475](../papers/29610475.md)
 - Applied to classify somatic alterations from 195 cholangiocarcinoma patients; 47.6% had at least one alteration at OncoKB level 3B or higher; 16 patients (8%) had level 2B alterations (ERBB2 amplification, TSC1/TSC2, BRCA1/2, BRAF V600E, MET amplification); no level 1 or 2A alterations found [PMID:29848569](../papers/29848569.md)
+- OncoKB (annotated 22-Dec-2016) used to assess actionability of alterations in 189 advanced endometrial cancer patients; 67% (127/189) carried ≥1 actionable alteration; most common actionable events were PIK3CA mutation (35%), PTEN mutation (29%), MSI-H (16%), and ERBB2 amplification (16%) [PMID:30068706](../papers/30068706.md)
 
 ## Notes
 
@@ -56,5 +57,8 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

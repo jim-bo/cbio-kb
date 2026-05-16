@@ -60,6 +60,7 @@ The TCGA [GBM](../cancer_types/GBM.md) PanCancer Atlas 2018 cohort is the gliobl
 - GBM samples used in pan-cancer driver analysis; IDH1wt GBM and IDH1-mut LGG separate by methylation cluster (cluster 16 vs cluster 1 respectively); EGFR amplification co-occurs with EGFR mutation/fusion and focal 4q12 KIT/PDGFRA amplification in GBM/IDHwt LGG [PMID:29625049](../papers/29625049.md)
 - GBM included in pan-cancer pathway analysis; EGFR alterations in 50% of GBM; EGFR amplification co-occurs with KIT/PDGFRA focal 4q12 amplification in GBM/IDHwt LGG; CDK4+PI3K co-targeting opportunity in 7% of GBM [PMID:29625050](../papers/29625050.md)
 - GBM clinical annotation provided by TCGA-CDR; TCGA-derived median OS=12.6 months and median PFI=6.1 months in GBM, bracketed between Stupp 2005 standard-care arms; shortest median follow-up (~12 months) across the 33 cancer types constrains endpoint usability [PMID:29625055](../papers/29625055.md)
+- Used as part of the TCGA PanCancer Atlas cohort in a pan-cancer analysis of oncogenic signaling pathways across 9,125 tumors from 33 cancer types [PMID:29850653](../papers/29850653.md)
 
 ## Sources
 
@@ -73,3 +74,6 @@ The TCGA [GBM](../cancer_types/GBM.md) PanCancer Atlas 2018 cohort is the gliobl
 - [PMID:29625055](../papers/29625055.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

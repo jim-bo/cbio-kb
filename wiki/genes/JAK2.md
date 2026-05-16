@@ -28,6 +28,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - JAK2 (with STAT1, STAT3, STAT6) is upregulated in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), C14 (LUAD), and C10 (pan-SCC) across 10,000 TCGA pan-cancer tumors, raising the hypothesis of repurposing JAK-STAT inhibitors in solid tumors [PMID:29625048](../papers/29625048.md)
 - JAK2 H538Y subclonal variant was present in early SCBO-5 bladder organoid passages and was lost during serial passaging, illustrating clonal dynamics in patient-derived bladder cancer organoids [PMID:29625057](../papers/29625057.md)
 - JAK2 (9p24.1 locus) simultaneously perturbed by mutation, copy gain, and structural variants in DLBCL; co-locus with CD274/PDCD1LG2 as a candidate cancer gene in 304-patient WES cohort. [PMID:29713087](../papers/29713087.md)
+- Loss-of-function alteration in JAK/STAT pathway; rare in pre-treatment tumors in this pooled ICB cohort (193 patients across melanoma, NSCLC, bladder, HNSCC, and other cancer types), consistent with intrinsic rather than acquired resistance mechanisms [PMID:30150660](../papers/30150660.md)
 
 ## Cancer types (linked)
 
@@ -81,5 +82,8 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

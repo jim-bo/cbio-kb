@@ -163,6 +163,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - WES performed on 304 DLBCLs with Agilent SureSelect Human All Exon v2.0 plus spiked-in SV bait set; median tumor coverage 87.6× (range 39–206.8×); 55% FFPE, 44% patient-matched normals [PMID:29713087](../papers/29713087.md)
 - WES used in the MSK IMPACT neoantigen study to characterize somatic mutations and predict HLA-restricted neoantigens [PMID:29657128](../papers/29657128.md)
 - WES performed as part of the TCGA pan-cancer cohort for somatic mutation profiling [PMID:29713003](../papers/29713003.md)
+- Tumor-normal WES used across 11,139 samples (39 cancer types, TCGA/TARGET/external cohorts) as the primary sequencing platform for pan-cancer MSI detection with MANTIS [PMID:29850653](../papers/29850653.md)
+- Tumor-normal WES (average 150× tumor / 119× germline) applied to 249 MSS tumors from seven ICB cohorts; uniform reanalysis with MuTect/Strelka/ABSOLUTE to assess genomic correlates of ICB response [PMID:30150660](../papers/30150660.md)
 
 ## Notes
 
@@ -565,5 +567,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29850653](../papers/29850653.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

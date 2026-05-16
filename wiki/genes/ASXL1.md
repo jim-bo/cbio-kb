@@ -28,6 +28,7 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - ASXL1 mutations included in the 8-gene amplicon panel and observed in the AML/MDS cohort treated with 10-day decitabine cycles; not reported as a predictor of decitabine response [PMID:27959731](../papers/27959731.md)
 - Polycomb-group chromatin-modifier SMG in MIBC (TCGA, n=412) with predominantly inactivating mutations [PMID:28988769](../papers/28988769.md)
 - ASXL1 mutation confers broad drug resistance in AML ex vivo with a trend toward panobinostat sensitivity; identified as a candidate for genotype-matched repurposing in poor-prognosis disease [PMID:30333627](../papers/30333627.md)
+- One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; majority of cfDNA mutations in cancer patients and controls arose from CH [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

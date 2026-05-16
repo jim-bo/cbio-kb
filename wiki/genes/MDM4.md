@@ -25,6 +25,7 @@ processed_at: 2026-05-16
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute amplification of MDM2/CDK4 was identified as a striking structural finding; MDM4 amplification occurs alongside MDM2/CDK4 in the Rb/p53 pathway [PMID:24120142](../papers/24120142.md)
 - Amplification co-identified with MDM2 in 8 NSCLC patients; no significant difference in PFS on anti-PD-(L)1 therapy (HR 1.4, P=.44); hyperprogression signal not reproduced in this cohort [PMID:29337640](../papers/29337640.md)
 - MDM4 exon-6 inclusion (MDM4-FL) is a predictive biomarker for MDM4 dependence and MDM2 inhibitor nutlin-3a sensitivity in TP53 wild-type cancer cell lines; RPL22 K15fs frameshift (in 68% of MSI lines) drives RPL22L1 upregulation which promotes MDM4 exon-6 inclusion. [PMID:31068700](../papers/31068700.md)
+- Amplification in 2% of GBM PDX (n=84); co-occurs with MDM2 amplification as an alternative mechanism of p53 pathway inactivation in GBM [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

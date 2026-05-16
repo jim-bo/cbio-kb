@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC]
 tags: [fusion-partner]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # EML4
@@ -24,6 +24,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - EML4–NTRK3 fusion detected in congenital fibrosarcoma ([IFS](../cancer_types/IFS.md)) in the PIPseq pediatric cohort; RNA-seq was required to detect the fusion and supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; flagged as an ALK-inhibitor target [PMID:28007021](../papers/28007021.md).
 - EML4-ALK fusion detected in n=38 cases, predominantly LUAD, within the MSK-IMPACT pan-cancer cohort of 10,336 patients [PMID:28481359](../papers/28481359.md)
 - **EML4-ALK** is one of the ALK fusions detected across 20 samples spanning 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in the TCGA pan-cancer fusion landscape; EML4 is the most frequent 5' partner (7/17 ALK-fusion samples); fusion status corresponds to copy-number-neutral ALK overexpression, forming the rationale for [crizotinib](../drugs/crizotinib.md) and other approved ALK inhibitors [PMID:29617662](../papers/29617662.md).
+- EML4 is the second most common upstream NTRK fusion partner, exclusively paired with NTRK3, identified across multiple tumor types in the MSK TRK fusion-positive cohort (n=26,312 sequenced patients) [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -68,3 +69,6 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

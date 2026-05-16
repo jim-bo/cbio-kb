@@ -58,6 +58,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 mutated in 6% of gallbladder carcinoma tumors in a three-region cohort; located in the same TP53/ATM pathway; detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
 - MDM4 exon-6 inclusion (MDM4-FL) in TP53 wild-type cancer cell lines predicts sensitivity to MDM2 inhibitor nutlin-3a; MDM2 inhibitor patient-selection strategy proposed based on MDM4/RPL22 biomarker cascade (CCLE study). [PMID:31068700](../papers/31068700.md)
 - Alterations phenocopy TP53 inactivation per expression classifier in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types); MDM2 and RB1 alterations identified as TP53-pathway phenocopies by AUROC 0.89 classifier [PMID:31693904](../papers/31693904.md).
+- Amplification in 10% of GBM PDX (n=84); FISH confirmed amplification preserved in 100% of GBM108 patient–PDX pairs; involved in Rb/p53 pathway alterations in IDH-wildtype GBM [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -193,5 +194,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

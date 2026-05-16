@@ -43,6 +43,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - COAD used as a size-reference benchmark: median tumor diameter ~4 cm across 300,386 patients, contrasted with HCT-116 spheroid diameters of 200–1,000 µm, illustrating the spheroid-size mismatch inherent in 3D models. [PMID:30643250](../papers/30643250.md)
 - TMB-high COAD showed the highest histology-specific TMB threshold (52.2 mut/Mb, reflecting MSI-high enrichment) in the ICI cohort; this histology-specific cutpoint diverges markedly from other cancer types. [PMID:30643254](../papers/30643254.md)
 - First proteogenomic study of a prospectively collected colon adenocarcinoma cohort (n=110; [coad_cptac_2019](../datasets/coad_cptac_2019.md)) identified RB1 hyperphosphorylation (not loss) as a colon-cancer driver suggesting CDK2 inhibition, reclassified SOX9 as oncogenic despite truncating mutations, and showed glycolysis inversely correlated with CD8 infiltration in MSI-H tumors [PMID:31031003](../papers/31031003.md).
+- TRK fusion-positive colorectal cancer was enriched for MSI-H (6/7 cases, 86%) and co-occurred with hypermethylated MLH1 and wild-type BRAF/KRAS; TRK fusions occurred at 0.28% overall but were uniquely associated with MSI-H in CRC — the only context where checkpoint inhibitors showed benefit (1 CR lasting 3.5 years) [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -114,5 +115,8 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

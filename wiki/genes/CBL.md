@@ -5,7 +5,7 @@ cancer_types:
   - CSCC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CBL
@@ -22,6 +22,7 @@ CBL (Casitas B-lineage lymphoma) encodes a RING domain E3 ubiquitin ligase that 
 - Somatic mutation in 1 [MPN](../cancer_types/MPN.md) patient across PV/ET/MF cohort in [CALR](../genes/CALR.md) discovery study [PMID:24325359](../papers/24325359.md)
 - Frequent truncating/damaging missense mutations in desmoplastic melanoma with no synonymous mutations detected, consistent with a tumor-suppressor role; enriched in the context of absent [BRAF](../genes/BRAF.md) V600E and [NRAS](../genes/NRAS.md) Q61K/R [PMID:26343386](../papers/26343386.md)
 - CBL: 7 alterations including hotspot W408R (RING finger), three X410 splice sites, and one homozygous deletion in germ cell tumor cohort [PMID:27646943](../papers/27646943.md)
+- One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; matched WBC sequencing required to distinguish CH-derived CBL variants from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ CBL (Casitas B-lineage lymphoma) encodes a RING domain E3 ubiquitin ligase that 
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

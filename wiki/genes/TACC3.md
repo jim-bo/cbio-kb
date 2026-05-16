@@ -3,7 +3,7 @@ symbol: TACC3
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [fusion-partner]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 - FGFR3-TACC3 is a recurrent inframe activating kinase fusion across BLCA (2.0%), CESC (1.7%), and LUSC (1.2%); FGFR3 named as a druggable target in 15 cancer types in the TCGA pan-cancer fusion landscape [PMID:29617662](../papers/29617662.md)
 - TACC3 is a fusion partner of FGFR3 (FGFR3–TACC3, exon 17–exon 11 junction) in bladder cancer organoid line SCBO-10; the same fusion junction was previously reported in glioblastoma (GBM-021) and bladder cell line RT112 [PMID:29625057](../papers/29625057.md)
 - FGFR3-TACC3 and FGFR3-BAIAP2L1 recurrent activating fusions present in cell-line models used for functional validation in a UTUC genomic characterization study; FGFR3-TACC3 fusions also observed in 16 glioma patients (n=923, MSK-IMPACT) in a concurrent glioma cohort [PMID:31278255](../papers/31278255.md) [PMID:31263031](../papers/31263031.md)
+- FGFR3-TACC3 fusion detected in three GBM PDX (out of 84); identified as a potentially targetable FGFR-fusion event; two novel FGFR3 partner fusions (FGFR3-TRIM54, FGFR3-CALCOCO1) also discovered in the same cohort [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -50,44 +51,33 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 
 - [PMID:37682528](../papers/37682528.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 - [PMID:31263031](../papers/31263031.md)
+
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

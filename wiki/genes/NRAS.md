@@ -68,6 +68,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS Q61R acquired at vemurafenib progression in a BRAF V600E-mutant metastatic panNET patient; NRAS somatic mutations also detected in 2 patients (OncoKB Level 3b) in this cohort [PMID:30687805](../papers/30687805.md)
 - NRAS G12D observed in a compound-mutation LCH patient also harboring BRAF V600E and KRAS G13C; NRAS-mutant histiocytosis responded to cobimetinib MEK inhibition [PMID:30867592](../papers/30867592.md)
 - NRAS Q61K mutation in Fusion− RMS PDX NCH-ERMS-1; NRAS G13R RNA-derived missense variant in DIPG model IBs-W0128DIPG; RAS pathway mutations enriched in BCP-ALL and Fusion− RMS across the PPTC 261-model cohort [PMID:31693904](../papers/31693904.md).
+- Mutated in 30% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside BRAF and NF1 [PMID:31792460](../papers/31792460.md)
+- NRAS Q61R co-occurring with GON4L–NTRK1 fusion in one melanoma; tumor progressed on larotrectinib and cell line was insensitive to larotrectinib/LOXO-195 but sensitive to trametinib, suggesting NRAS-driven oncogenic independence from TRK [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -237,5 +239,11 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

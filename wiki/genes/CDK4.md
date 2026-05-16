@@ -53,6 +53,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Amplification co-occurs with CCND1 amplification in CDK12 loss-of-function mCRPC tumors; RB1 mutation and CDK4 amplification represent alternative cell-cycle alterations with 1 patient showing CDK4 amplification later acquiring CDKN2A/B loss at recurrence and dying within 11-15 months [PMID:31061129](../papers/31061129.md)
 - Alternative cell-cycle alteration in glioma alongside RB1; one patient with CDK4 amplification later acquired CDKN2A/B loss at recurrence and died within 11-15 months, demonstrating cell-cycle pathway convergence during malignant progression [PMID:31263031](../papers/31263031.md)
 - CDK4 amplification in Rh-30 rhabdomyosarcoma PDX was not retained between paired diagnosis and relapse PDXs, highlighting passage/selection effects in the PPTC cohort [PMID:31693904](../papers/31693904.md)
+- Focal gain co-acquired with CDKN2A loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma (along with CDK6 and CCND2); this aneuploidy + cell-cycle alteration subgroup has significantly shorter survival (log-rank P < 0.0001), supporting potential use of CDK inhibitors at recurrence [PMID:31748746](../papers/31748746.md)
+- CDK4 amplification in 8% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside RB1 loss/mutation (16%) and CDK6 amplification (1%); MDM2 amplification (10%) often co-occurs in the same pathway context [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -171,5 +173,11 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

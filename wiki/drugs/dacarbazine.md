@@ -5,7 +5,7 @@ drug_class: alkylating agent
 canonical_source: corpus
 unverified: false
 tags: [alkylator, chemotherapy, panNET]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ Dacarbazine (DTIC) is a DNA alkylating agent and prodrug that is converted in th
 ## Evidence in the corpus
 
 - Dacarbazine (alkylating agent) administered to panNET patients induced marked hypermutation in serial biopsies — tumors acquired >100 new somatic mutations, a predominant C>T signature, and mismatch-repair gene mutations; all alkylator-hypermutated tumors progressed from grade 1 to grade 3, a previously unreported pattern in this disease that may be relevant to subsequent immunotherapy decisions [PMID:30687805](../papers/30687805.md)
+- BRAF/NRAS mutation status was not predictive of anti-PD1 ICB response in metastatic melanoma; the authors note dacarbazine-era targeted-therapy decisions are independent of the MHC-II/TMB biomarker framework identified for anti-PD1 response [PMID:31792460](../papers/31792460.md).
 
 ## Resistance mechanisms
 
@@ -30,3 +31,6 @@ Dacarbazine (DTIC) is a DNA alkylating agent and prodrug that is converted in th
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET genomic profiling cohort (n=80 metastatic panNET); serial biopsies after alkylator exposure
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -32,6 +32,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - Clinical ER status drives divergent recurrence trajectories in the METABRIC 20-year analysis; the late-recurring IntClust 1/2/6/9 subgroups are defined within ER+/HER2− disease, comprising 26% of ER+ patients with chronic relapse risk to 20 years [PMID:30867590](../papers/30867590.md)
 - ESR1–CCDC170 fusion drives ESR1 lineage dependence in cancer cell lines characterized in the expanded CCLE multi-omic profiling of 1,072 lines [PMID:31068700](../papers/31068700.md)
 - Cited as an established endocrine-therapy resistance mechanism in ER+/HER2- metastatic breast cancer; trial context for buparlisib + letrozole in endocrine-refractory disease [PMID:31552290](../papers/31552290.md)
+- ESR1 late/subclonal mutations in metastatic breast cancer (MBC) detected in cfDNA as variants of uncertain somatic origin (VUSo) not captured by single tissue biopsy, illustrating cfDNA's advantage for sampling ITH [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -100,5 +101,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

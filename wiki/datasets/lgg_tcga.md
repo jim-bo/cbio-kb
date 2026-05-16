@@ -16,8 +16,8 @@ tags:
   - oligodendroglioma
   - astrocytoma
   - TCGA
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # TCGA Lower-Grade Glioma
@@ -49,6 +49,7 @@ The TCGA Lower-Grade Glioma (LGG) cohort is a large, multi-institutional dataset
 - The scRNA-seq-derived stem/progenitor gene signature (defined in 6 primary oligodendrogliomas) correlates positively with the cell-cycle signature across the 69 TCGA LGG oligodendroglioma bulk samples, supporting the single-cell developmental hierarchy model in a larger independent cohort [PMID:27806376](../papers/27806376.md).
 - Bakas et al. 2017 released expert-revised MRI segmentation labels (whole tumour, tumour core, non-enhancing tumour) for 108 TCGA-LGG cases via the TCIA [tcia-tcga-lgg](../datasets/tcia-tcga-lgg.md) collection. LGG cases without apparent enhancing tumour were annotated as NET-only or NET+oedema, reflecting lower blood-brain-barrier disruption typical of low-grade glioma biology. These labels became the BraTS'17 reference standard and are paired with the molecular profiles in lgg_tcga for radiogenomic studies. [PMID:28872634](../papers/28872634.md)
 - Used as a component cohort (516 LGG samples, grades II–III) in the TCGA pan-glioma integrated analysis; merged with gbm_tcga into lgggbm_tcga_pub for a 1,122-patient study that redefined glioma classification by DNA-methylation subtype [PMID:26824661](../papers/26824661.md)
+- Included as a reference sub-cohort (re-processed TCGA-LGG samples) within the GLASS Consortium longitudinal glioma study. [PMID:31748746](../papers/31748746.md)
 
 ## Sources
 
@@ -56,4 +57,4 @@ The TCGA Lower-Grade Glioma (LGG) cohort is a large, multi-institutional dataset
 - TCGA LGG marker paper: Brat et al. 2015, *NEJM* (PMID 26061751).
 - [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*, DOI 10.1016/j.cell.2015.12.028.
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

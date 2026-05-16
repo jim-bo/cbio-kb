@@ -77,6 +77,10 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 loss-of-function mutations >2-fold enriched after endocrine therapy in HR+HER2- breast cancer (p=4e-4); typically acquired or selected under therapy (not detected in matched primaries); CRISPR knockout in MCF7 increased MAPK signaling and induced fulvestrant resistance reversible by ERK inhibition [PMID:30205045](../papers/30205045.md)
 - Germline pathogenic NF1 alleles tied to neurofibromatosis type 1 predisposition in glioma patients; somatic NF1 and PTPN11 alterations preferentially enriched in recurrent lower-grade IDH-WT tumors (P<0.05). [PMID:31263031](../papers/31263031.md)
 - NF1 altered in 9% of neuroblastoma PDX models (nonsense/frameshift); NF1 inactivation classifier (AUROC 0.77) flags additional pathway-inactive models beyond gene-level mutation; RAS-pathway activation also seen via NF1 T2335fs in Fusion− RMS model Rh-12 [PMID:31693904](../papers/31693904.md).
+- Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
+- Late/subclonal mutation in metastatic breast cancer detected in cfDNA as vault-origin-unknown (VUSo) variant not captured by single biopsy; illustrates tumor-heterogeneity confounding in ctDNA interpretation [PMID:31768066](../papers/31768066.md)
+- Mutated in 17% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside BRAF and NRAS [PMID:31792460](../papers/31792460.md)
+- MAPK pathway alterations via NF1 loss in 17% of GBM PDX (n=84); co-occurs with BRAF alterations (4%) as alternative MAPK pathway activators in GBM [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -181,5 +185,17 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

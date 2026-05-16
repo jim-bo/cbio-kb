@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [copy-number, clonal-inference, loh, cna]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # TITAN (CNA/LOH clonal inference)
@@ -19,6 +19,7 @@ TITAN is a probabilistic model for inferring subclonal copy number alterations (
 
 - Used for CNA/LOH clonal inference in breast cancer PDX clonal-dynamics study; TITAN-based CNA clonal dynamics recapitulated SNV-based PyClone dynamics in minor-subclone expansion (SA494, SA495, SA532, SA533) and polyclonal engraftment (SA493, SA501), providing orthogonal validation of clonal selection at engraftment [PMID:25470049](../papers/25470049.md)
 - Used for allele-specific copy-number analysis in whole-genome sequencing of matched primary/recurrent medulloblastoma samples; revealed increased structural-variant burden at recurrence and enabled detection of focal events like MYC-locus chromothripsis acquired only at recurrence [PMID:26760213](../papers/26760213.md).
+- Used for allele-specific copy-number and purity/ploidy inference in the GLASS Consortium multi-institutional WES/WGS cohort of 222 adult glioma patients (436 exomes + 165 whole genomes); provided allele-specific CNA to complement GATK ModelSegments output and support clonal architecture analysis alongside [PyClone](../methods/pyclone.md) [PMID:31748746](../papers/31748746.md).
 
 ## Notes
 
@@ -31,4 +32,6 @@ TITAN is a probabilistic model for inferring subclonal copy number alterations (
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

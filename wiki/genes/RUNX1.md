@@ -3,7 +3,7 @@ symbol: RUNX1
 aliases: []
 cancer_types: []
 tags: [transcription-factor, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - RUNX1 deletion higher in esophageal adenocarcinoma (EAC) vs CIN gastric cancer in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 - RUNX1 mutations associated with PI3K/mTOR and VEGFR-multikinase sensitivity ex vivo in Beat AML (aml_ohsu_2018); co-mutation of RUNX1 + BCOR drove JAK-inhibitor (momelotinib, ruxolitinib, tofacitinib) sensitivity, implicating context-specific JAK-pathway dependence [PMID:30333627](../papers/30333627.md)
 - ETV6-RUNX1 fusion present in 88% of ETV6-rearranged BCP-ALL PDX models (27% of total BCP-ALL models had ETV6 fusions) in the PPTC 261-model pediatric cancer genomic characterization [PMID:31693904](../papers/31693904.md).
+- RUNX1 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -50,43 +51,32 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 - [PMID:38147626](../papers/38147626.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27959731](../papers/27959731.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

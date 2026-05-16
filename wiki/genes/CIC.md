@@ -24,6 +24,7 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 - CIC truncations are listed as a capture-kit-excluded event of biological interest in the TCGA MC3 MAF resource: the Broad BED capture kit mask (bitgt filter) discards CIC truncating variants because they fall outside the capture footprint, illustrating a systematic sensitivity tradeoff in the pan-cancer somatic calling pipeline [PMID:29596782](../papers/29596782.md).
 - CIC promoter mutations are canonical glioma subtype-defining lesions with frequencies stable across primary vs. recurrent specimens in a 931-tumor MSK-IMPACT longitudinal cohort [PMID:31263031](../papers/31263031.md)
 - CIC-DUX4 fusion detected in a CNS Ewing-like PDX model (ICb-9850PNET) in the PPTC cohort; an additional CIC C102Y missense variant was found as an RNA-derived variant in the DIPG model IBs-W0128DIPG [PMID:31693904](../papers/31693904.md)
+- Present in the original oligodendroglioma that gave rise to recurrent GBM154; CIC was lost during high-grade recurrence (only CHEK2, TERT promoter mutation, and 1p/19q co-deletion retained in the recurrent PDX) [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -39,6 +39,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - ATRX somatic alterations in 25% of metastatic panNET (80-patient MSK-IMPACT cohort); together with DAXX defines the chromatin-remodeling/ALT axis; associated with improved 1-year OS (97% vs 83%, P<.01) in metastatic disease, contrasting with poor prognosis in resected disease [PMID:30687805](../papers/30687805.md)
 - ATRX a canonical glioma subtype-defining lesion; frequency stable across primary vs. recurrent specimens in the 923-patient glioma cohort (glioma_mskcc_2019); assessed by MSK-IMPACT targeted panel [PMID:31263031](../papers/31263031.md)
 - ATRX mutation/ALT (alternative lengthening of telomeres) flags PDX models suitable for ATR inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
+- IDHmut-noncodel glioma driver; mutation occurs after IDH1 and TP53 based on lower cancer cell fraction (CCF) at initial tumor (P=0.03 vs. TP53), indicating later clonal acquisition [PMID:31748746](../papers/31748746.md)
+- ATRX mutation observed in IDH1-mutant GBM PDX (GBM164, GBM196) and in cerebellar diffuse midline glioma PDX GBM36 (H3-3A p.K27M + ATRX + TP53) within a panel of 83 glioblastoma PDX [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -123,5 +125,11 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -95,6 +95,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC 8q24 amplification defines IntClust9 (8% of ER+ breast cancer cases in METABRIC long-term follow-up cohort n=3,240); amplified in 89% of IntClust9 tumours vs 3–42% of other IntClust groups; IntClust9 is a late-relapsing ER+/HER2- subgroup [PMID:30867590](../papers/30867590.md)
 - Focal amplification in 73% of cHCC-ICC cases — the most frequent focal amplification in this cohort; part of the oncogenic driver landscape in combined hepatocellular and intrahepatic cholangiocarcinoma. [PMID:31130341](../papers/31130341.md)
 - MYC alterations catalogued across 261 pediatric PDX models spanning 37 tumor types in the PPTC resource [PMID:31693904](../papers/31693904.md).
+- Amplification in 3 of 84 GBM PDX; GBM110 PDX acquired MYC amplification that was only subclonal (0–27%) in the matched patient tumor by FISH, illustrating PDX engraftment-driven clonal selection [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -331,5 +332,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -34,6 +34,7 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - Truncating B2M mutations were rare in a 240-patient NSCLC ICI cohort; one patient with biallelic deleterious B2M (S40* + Q28L) and confirmed loss of B2M IHC nonetheless had a PR ongoing at 8.9 months with TMB of 48 SNVs/Mb [PMID:29337640](../papers/29337640.md).
 - Immune-escape gene mutated and copy-lost in DLBCL (dlbcl_dfci_2018); collectively with CD58, CD70, and CIITA, immune-escape genes are altered in 74% of DLBCLs [PMID:29713087](../papers/29713087.md)
 - Loss-of-function alterations (antigen-presentation pathway) were rare pre-treatment in a pan-cancer ICB cohort, suggesting a role in acquired rather than intrinsic resistance to immune checkpoint blockade [PMID:30150660](../papers/30150660.md)
+- LOH observed in 9/55 (16%) anti-PD1 responders versus 16/65 (25%) progressors in melanoma (OR=0.6, Fisher's P=0.37); not significantly associated with response to anti-PD1 ICB, only rare point mutations observed [PMID:31792460](../papers/31792460.md)
 
 ## Cancer types (linked)
 
@@ -103,5 +104,8 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31792460](../papers/31792460.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

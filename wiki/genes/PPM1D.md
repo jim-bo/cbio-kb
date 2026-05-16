@@ -8,8 +8,8 @@ cancer_types:
 tags:
   - clonal-hematopoiesis
   - therapy-related
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PPM1D
@@ -24,6 +24,7 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 - Single frameshift mutation identified in the sinonasal adenoid cystic carcinoma cohort; PPM1D (Wip1 phosphatase) is a known oncogene that restrains p53 activity [PMID:24418857](../papers/24418857.md)
 - PPM1D identified as one of seven significantly mutated genes (SMGs, q<0.1) in the TCGA PTC cohort (n=402 exome-sequenced tumors); DNA-repair SMG co-occurring with MAPK-pathway drivers; DNA-repair mutations associated with higher mutation density (p=0.022) and high-risk patients (p=0.018). [PMID:25417114](../papers/25417114.md)
 - Appeared in nonleukemic rising clones during decitabine-induced remission in TP53-mutant AML/MDS, consistent with clonal hematopoiesis of indeterminate potential [PMID:27959731](../papers/27959731.md)
+- Therapy-related clonal hematopoiesis gene; truncating C-terminal mutations significantly enriched in cancer patients vs controls (age-adjusted p=0.0115) and in chemotherapy/radiation-exposed patients (age- and smoking-adjusted p=0.0008); must be interpreted carefully in heavily pre-treated patients as plasma PPM1D variants may reflect therapy-related CH rather than tumor [PMID:31768066](../papers/31768066.md)
 
 ## Cancer types (linked)
 
@@ -55,3 +56,6 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 - [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

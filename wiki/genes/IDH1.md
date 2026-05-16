@@ -57,6 +57,9 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - R132G/H mutations in 11/56 (20%) recurrent GBM cohort tumors (4 responders, 7 non-responders); IDH1-mutant cases were excluded from the primary mutation-enrichment analysis comparing anti-PD-1 responders vs non-responders [PMID:30742119](../papers/30742119.md)
 - IDH1 is mutated in cHCC-ICC as part of the epigenetic dysregulation group (KMT2D/IDH1/BAP1/EZH2, jointly 35.6%); IDH1-mutant tumors cluster in the biliary/ICC-like P1 transcriptomic group [PMID:31130341](../papers/31130341.md).
 - IDH1 R132 defines the IDH-mutant glioma subgroup (355 of 923 tumors); IDH-mutant status anchors all subtype analyses including cell-cycle alteration enrichment in contrast-enhancing tumors and alkylator-induced hypermutation [PMID:31263031](../papers/31263031.md).
+- IDH1 R132H is the defining mutation in IDH-mutant glioma; the R132H clonal neoantigen was the most common neoantigen in the GLASS cohort (found in 22/88 IDH-mutant samples) and persists stably from initial diagnosis through recurrence, supporting neoantigen-vaccine approaches [PMID:31748746](../papers/31748746.md)
+- IDH1 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; IDH1 mutations in cfDNA can originate from CH rather than tumor and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
+- IDH1-mutant GBM PDX (GBM164, GBM196) carry TP53 mutations and homozygous CDKN2A deletion; GBM154 (recurrence of oligodendroglioma) lost IDH1 p.R132H but acquired a novel IDH1 p.F397L variant while retaining 1p/19q co-deletion [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -197,5 +200,14 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

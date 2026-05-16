@@ -4,8 +4,8 @@ oncotree_code: MASC
 main_type: Salivary Gland Cancer
 parent: SACA
 tags: [salivary-gland, head-neck, rare-cancers, NTRK-fusion]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Mammary Analogue Secretory Carcinoma (MASC)
@@ -21,6 +21,7 @@ Mammary Analogue Secretory Carcinoma is a rare salivary gland carcinoma defined 
 ## Recurrent alterations
 
 - **[ETV6](../genes/ETV6.md)-[NTRK3](../genes/NTRK3.md) fusion** — defining molecular event; identified in 2 tumors originally diagnosed as acinic cell carcinoma; both showed major or near-complete responses to TRK inhibitor therapy [PMID:27442865](../papers/27442865.md).
+- Mammary analogue secretory carcinoma (MASC) accounted for 11 of 12 salivary TRK fusion-positive cases in the MSK cohort; ETV6-NTRK3 was near-pathognomonic; TRK fusion prevalence in salivary cancers was 5.29% (95% CI 2.76–9.05), the highest of any tumor type; ETV6 break-apart FISH is accepted as sufficient inferred evidence of TRK fusion in classic secretory carcinoma morphology [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -35,3 +36,6 @@ Mammary Analogue Secretory Carcinoma is a rare salivary gland carcinoma defined 
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). ETV6-NTRK3 fusion identified by MSK-IMPACT in 2 salivary tumors initially diagnosed as acinic cell carcinoma, reclassifying them as MASC with dramatic TRK inhibitor responses.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

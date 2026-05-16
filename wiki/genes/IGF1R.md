@@ -10,7 +10,7 @@ tags:
   - drug-sensitivity-predictor
   - receptor-tyrosine-kinase
   - targeted-therapy
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -33,6 +33,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - IGF1R amplified in subsets of esophageal adenocarcinoma (EAC) alongside ERBB2, EGFR, VEGFA, and KRAS amplifications [PMID:28052061](../papers/28052061.md).
 - Part of the PI3K/AKT/MTOR pathway co-alteration cluster (with PTEN, AKT3, MTOR, RICTOR) in 84% of ULMS+STLMS iCluster C1 vs 44% of STLMS C2 (p=1e-04); upregulated in poor-prognosis STLMS C1 in TCGA SARC (n=80 LMS). [PMID:29100075](../papers/29100075.md)
 - Assessed as part of the mTOR pathway gene set in metastatic panNET (MSK-IMPACT, 80 patients); mTOR-pathway alterations (IGF1R, IGF2, MTOR, TSC1, TSC2, AKT2, AKT3, and others) were identified in 43% (34/80) of patients; IGF1R was a component of the panel but not individually reported as a top recurrent alteration in this cohort [PMID:30687805](../papers/30687805.md)
+- IGF1R variants identified in 7% of 28 recurrent Mayo GBM PDX at frequencies consistent with prior recurrent-glioblastoma reports; some variants also seen in primary PDX, raising the possibility of germline origin [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -83,5 +84,8 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -40,6 +40,8 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - CHEK2 is among the top DDR predisposition genes carrying germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
 - Germline protein-truncating variants in CHEK2 are significantly associated with higher somatic SV/SNV burden and elevated APOBEC signatures 2 and 3 in 292 prostate cancer WGS samples [PMID:30537516](../papers/30537516.md)
 - Germline pathogenic/likely pathogenic carrier identified in panNET cohort (MSK-IMPACT, 80 patients); classified as a moderate-penetrance germline susceptibility gene [PMID:30687805](../papers/30687805.md)
+- One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; matched WBC sequencing required to distinguish CH-derived CHEK2 variants from tumor-derived signal [PMID:31768066](../papers/31768066.md)
+- Present in the original oligodendroglioma that gave rise to recurrent GBM154; CHEK2 (along with TERT promoter mutation and 1p/19q co-deletion) was retained in the high-grade recurrent PDX, while CIC and FUBP1 were lost [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -115,5 +117,11 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

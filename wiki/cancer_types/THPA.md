@@ -5,7 +5,7 @@ main_type: Thyroid Cancer
 parent: WDTC
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Papillary Thyroid Cancer (THPA)
@@ -28,6 +28,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [CDKN2A](../genes/CDKN2A.md) — rare in PTC (~5%) vs. 42% in ATC; marks dedifferentiation. [PMID:38412093](../papers/38412093.md)
 - TCGA multiplatform genomic characterization of 496 PTCs identified 7 significantly mutated genes ([BRAF](../genes/BRAF.md) V600E in 61.7%, RAS in 12.9%, [EIF1AX](../genes/EIF1AX.md), [PPM1D](../genes/PPM1D.md), [CHEK2](../genes/CHEK2.md)), reduced 'dark matter' from ~25% to 3.5%, and defined BRAFV600E-like vs. RAS-like molecular subtypes with distinct signaling, differentiation, and clinical outcomes [PMID:25417114](../papers/25417114.md).
 - TCGA papillary thyroid carcinoma cohort (n=390) used as comparator; BRAF-RAS score (BRS) tracked driver mutation in PDTCs but ATCs were uniformly BRAF-like irrespective of driver, indicating a stepwise progression model from differentiated precursors [PMID:26878173](../papers/26878173.md)
+- Papillary thyroid carcinoma (n=10, 13.2% of TRK fusion-positive cases) had the second highest TRK fusion prevalence at 2.22% (10/451) in the MSK cohort; thyroid is one of the tumor types recommended for reflex RNA fusion testing in driver-negative cases [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes
 
@@ -49,3 +50,6 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [PMID:26878173](../papers/26878173.md) — Landa et al., MSK-IMPACT deep-sequencing study; TCGA PTC cohort (n=390) used as comparator; BRAF-RAS score tracks driver in PDTC but ATCs are uniformly BRAF-like
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

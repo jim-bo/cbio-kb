@@ -33,6 +33,8 @@ processed_at: 2026-05-16
 - Additional recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analyses of the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 - CDK6 amplification co-occurs with TP53 mutation in the cell-cycle pathway co-alteration cluster; CDK6 is part of the 10-pathway framework across 9,125 TCGA tumors where the cell-cycle pathway is broadly altered except in UVM, THYM, TGCT, and LAML [PMID:29625050](../papers/29625050.md)
 - Focal amplification in 20% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases; one of the most recurrent copy-number gains alongside MYC (73%), MET (24%), and CCNE1 (24%) [PMID:31130341](../papers/31130341.md)
+- Focal gain co-acquired with CDKN2A loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma (along with CDK4 and CCND2); the aneuploidy + cell-cycle alteration subgroup has significantly shorter survival (log-rank P < 0.0001) [PMID:31748746](../papers/31748746.md)
+- CDK6 amplification in 1% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside CDK4 amplification (8%) and RB1 loss/mutation (16%) [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -85,5 +87,11 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,7 +4,7 @@ oncotree_code: NSCLC
 main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -50,6 +50,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - CheckMate-012 WES study (n=75 advanced NSCLC): tumor mutation burden (TMB) is a strong, PD-L1-independent predictor of response to nivolumab + ipilimumab; high TMB (>median 158 mutations) yielded ORR 51% vs 13% (p=0.0005), DCB 65% vs 34%, PFS HR 0.41 (p=0.0024); TMB from MSK-IMPACT 468-gene or FoundationOne 315-gene panels was similarly predictive as WES-derived TMB [PMID:29657128](../papers/29657128.md)
 - N=57 in pooled MSS ICB WES cohort; KRAS-mutant smoker-signature tumors are a favorable subgroup for ICB; EGFR-hotspot never-smoker tumors are unfavorable (low TMB, subclonal-skewed mutations, poor response) [PMID:30150660](../papers/30150660.md)
 - NSCLC was the largest histology in the ICI-treated MSK-IMPACT cohort (n=350); TMB-high NSCLC patients had improved overall survival, the effect persisted after removing NSCLC and melanoma from the pan-cancer analysis, and PFS/clinical-benefit associations with TMB were specifically reported for this histology. [PMID:30643254](../papers/30643254.md)
+- Non-small cell lung cancer (n=41–53 evaluable) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 76% of NSCLC patients; EGFR T790M resistance mutations were recoverable as subclonal VUSo from cfDNA; MET amplification detected in one case (cfDNA CNV detection limited by low ctDNA fraction) [PMID:31768066](../papers/31768066.md)
 
 ## Subtypes
 
@@ -107,5 +108,8 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31768066](../papers/31768066.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

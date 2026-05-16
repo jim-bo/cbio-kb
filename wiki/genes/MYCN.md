@@ -34,6 +34,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - MYCN amplification with 1p/11q LOH, 17q gain, and MYCN overexpression used in neuroblastoma (NBL) for risk-based therapy stratification across four patients in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Amplification found in Group 3 (5%) and Group 4 (6%) medulloblastoma at comparable frequencies in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 - Focal MYCN amplification in 66% of neuroblastoma PDX models in the PPTC cohort (261 models, 37 pediatric cancer types); also amplified in MYCN-subtype HGG (IC-2664PNET) and in Fusion+ ARMS models [PMID:31693904](../papers/31693904.md).
+- Amplification in 2 of 84 GBM PDX; GBM110 PDX acquired N-MYC (MYCN) amplification from a subclonal population (0–27% by FISH in patient), demonstrating engraftment-driven clonal selection of MYCN-amplified cells [PMID:31852831](../papers/31852831.md)
 
 ## Cancer types (linked)
 
@@ -106,5 +107,8 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

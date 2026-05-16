@@ -50,6 +50,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - GBM (grade IV) comprised 46/85 (54%) of the adult diffuse glioma liquid-biopsy cohort; in IDH-WT GBM, CSF ctDNA positivity was associated with median OS of 2.04 vs 9.89 months (ctDNA− log-rank p=6.24×10⁻⁵), and truncal alterations (EGFR amplification, CDKN2A/B deletions) were 100% concordant between CSF and tumor in non-hypermutated cases. [PMID:30675060](../papers/30675060.md)
 - Longitudinal profiling of 66 recurrent GBM patients treated with PD-1 inhibitors (nivolumab or pembrolizumab; [gbm_columbia_2019](../datasets/gbm_columbia_2019.md)) showed PTEN mutations enriched in non-responders (23/32 vs 3/13, OR=8.5, p=0.0063) and MAPK pathway alterations (BRAF, PTPN11) enriched in responders; TMB did not predict response [PMID:30742119](../papers/30742119.md).
 - In a 923-patient glioma cohort, IDH-WT and IDH-mutant glioblastoma (GBM; n=649 IDH-WT) represented the majority; BRAF V600 mutations were clonal and nearly exclusive to epithelioid IDH-WT GBMs (17/17); 32% of patients harbored actionable lesions (OncoKB levels 1-3); 60% of targeted-therapy recipients were IDH-WT GBMs [PMID:31263031](../papers/31263031.md).
+- A Mayo Clinic PDX panel of 96 glioblastoma lines (from 261 patients, 36% engraftment rate; 93 IDH-wildtype, 2 IDH-mutant GBM) recapitulated canonical GBM drivers at frequencies comparable to TCGA: TERT promoter 86%, CDKN2A deletion 70%, PTEN alteration 48%, TP53 36%, EGFR alteration 45%; PDGFRA amplification was absent from all 83 sequenced PDX despite ~15% expected frequency; MGMT methylation predicted temozolomide response [PMID:31852831](../papers/31852831.md)
 
 ## Subtypes
 
@@ -92,5 +93,8 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

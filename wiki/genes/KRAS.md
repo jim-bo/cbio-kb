@@ -129,6 +129,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Zero mutations detected in cHCC-ICC cohort (n=133); KRAS mutations were notably absent, distinguishing cHCC-ICC from other liver cancers. [PMID:31130341](../papers/31130341.md)
 - 62% of rectal cancer tumoroids were RAS mutant; KRAS-mutant tumoroids exhibited cell-autonomous resistance to cetuximab ex vivo, mirroring the established clinical finding that KRAS mutation predicts anti-EGFR-antibody resistance in CRC [PMID:31591597](../papers/31591597.md).
 - RAS pathway mutations (KRAS, NRAS, HRAS) enriched in BCP-ALL and Fusion-negative RMS PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
+- KRAS wild-type status enriched in TRK fusion-positive colorectal cancers: 6/7 TRK fusion-positive CRC cases were KRAS wild-type and MSI-H, consistent with kinase-fusion enrichment in mismatch-repair-deficient tumors lacking canonical KRAS/BRAF drivers [PMID:31871300](../papers/31871300.md)
 
 ## Cancer types (linked)
 
@@ -466,5 +467,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

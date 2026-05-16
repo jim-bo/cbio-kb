@@ -22,6 +22,7 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 - Aberrant promoter DNA methylation observed in hypermutated low-grade glioma recurrences after [temozolomide](../drugs/temozolomide.md) (TMZ) treatment, consistent with reduced MGMT-mediated repair of TMZ-induced O6-methylguanine adducts driving the hypermutator phenotype [PMID:24336570](../papers/24336570.md)
 - MGMT epigenetic silencing enriched in the proximal hypermethylated GEA-CIN cluster 1 (oesophagus/proximal-stomach); raises the prospect of differential alkylating-agent response in esophageal/gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 - Promoter methylation associated with higher rate of alkylator-induced hypermutation at recurrence in glioma (30% vs. 10% in unmethylated, P=0.006); relevant to temozolomide treatment sequencing decisions. [PMID:31263031](../papers/31263031.md)
+- Methylation status used as covariate in hypermutator survival analyses in diffuse glioma (GLASS cohort); not the focus of evolutionary modeling but confirms role as a treatment-stratification marker [PMID:31748746](../papers/31748746.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +61,8 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31263031](../papers/31263031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31748746](../papers/31748746.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

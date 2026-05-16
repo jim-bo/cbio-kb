@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutation-annotation, hotspot-detection, driver-discovery]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ Cancer Hotspots is a statistical method for identifying recurrently mutated posi
 ## Used by
 
 - Applied (alongside 3D protein-structure hotspot analysis) to annotate driver mutations in 9,125 TCGA PanCanAtlas tumors across 33 cancer types, contributing to the identification of 89% of tumors carrying at least one pathway driver alteration [PMID:29625050](../papers/29625050.md).
+- Chang et al. 2016 hotspot algorithm applied to a combined 2,732-breast-tumor cohort (MSK prospective + TCGA retrospective), identifying 313 significant hotspots in 72 genes; 12 novel PIK3CA hotspots discovered [PMID:30205045](../papers/30205045.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ Cancer Hotspots is a statistical method for identifying recurrently mutated posi
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

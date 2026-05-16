@@ -61,6 +61,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [ATM](../genes/ATM.md) is an SMG uniquely called by MutSig2CV (not MuSiC2) in KIRC using the TCGA MC3 open-access MAF. [PMID:29596782](../papers/29596782.md)
 - ATM is among the top DDR predisposition genes bearing germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
 - Common but not significantly prognostic in cholangiocarcinoma (chol_msk_2018); observed across intrahepatic and extrahepatic subtypes [PMID:29848569](../papers/29848569.md)
+- ATM is a pre-specified DDR/NAC-response gene in muscle-invasive bladder cancer; no significant enrichment difference between primary and secondary MIBC in the discovery cohort [PMID:30290956](../papers/30290956.md)
+- ATM mutated in 19% of gallbladder carcinoma; trend toward mutual exclusivity with TP53 [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -207,5 +209,11 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

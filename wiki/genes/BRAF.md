@@ -109,6 +109,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Non-canonical BRAF mutations (perturbing the P-loop/activation-loop autoinhibitory interaction) enriched in the C4 GCB-DLBCL cluster in dlbcl_dfci_2018; part of RAS/JAK/STAT pathway mutations [PMID:29713087](../papers/29713087.md)
 - Rare V600E alteration (n=1) identified as level 2B actionable finding in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
 - One OncoKB-level-annotated actionable alteration in a 189-patient MSK advanced endometrial cancer sequencing cohort (n=1), contributing to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
+- BRAF hotspot mutations enriched in post-endocrine-therapy HR+HER2- breast cancer tumors as part of MAPK-pathway alterations driving endocrine resistance [PMID:30205045](../papers/30205045.md)
 
 ## Cancer types (linked)
 
@@ -388,5 +389,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

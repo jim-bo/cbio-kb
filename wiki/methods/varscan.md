@@ -33,6 +33,7 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 - One of seven somatic callers in the TCGA MC3 ensemble pipeline run on the DNAnexus cloud across ~10,510 TCGA tumor/normal pairs [PMID:29596782](../papers/29596782.md)
 - Used (v2.3.8) for both germline SNV calling and as one of seven somatic MC3 callers across 11,000 TCGA PanCancer Atlas tumors; germline calling performed on GRCh37-lite aligned data [PMID:29625049](../papers/29625049.md).
 - Used for somatic variant calling in pediatric cancer WGS samples [PMID:29670109](../papers/29670109.md)
+- VarScan 2 v2.4.1 used for somatic indel calling from whole-exome sequencing of 622 AML specimens in the Beat AML study (aml_ohsu_2018) [PMID:30333627](../papers/30333627.md)
 
 ## Notes
 
@@ -76,5 +77,8 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

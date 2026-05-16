@@ -3,7 +3,7 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -51,6 +51,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 shows exceptional co-occurrence with PI3K-pathway alterations (versus typical RTK-RAS/PI3K mutual exclusivity) in pan-cancer analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - FGFR3 activating mutations in 60% (9/15) of non-recurrent bladder organoid lines; SCBO-10 carries an FGFR3-TACC3 fusion (exon 17-exon 11 junction, same junction reported in GBM and bladder line RT112); FGFR3 mutation alone did not predict trametinib/SCH772984 response; no organoid line responded to any of three FGFR inhibitors tested [PMID:29625057](../papers/29625057.md)
 - FGFR3 fusions noted as therapeutically relevant alongside FGFR2; n=2 patients combined enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
+- Altered in 18% of secondary MIBC; framed as a potentially actionable target for FGFR-axis small-molecule inhibitors in this chemotherapy-refractory subgroup [PMID:30290956](../papers/30290956.md)
 
 ## Cancer types (linked)
 
@@ -159,13 +160,16 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

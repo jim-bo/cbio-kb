@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [visualization, variant-review, genomics, BAM, VCF]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Integrative Genomics Viewer (IGV)
@@ -22,6 +22,7 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 - Used for visual inspection and validation of somatic mutations and CNAs in WES and array-CGH data from 176 tumors of 63 men with metastatic CRPC. [PMID:26928463](../papers/26928463.md)
 - Every alteration called in the MSK-IMPACT pipeline was manually reviewed in IGV as a quality control step across 10,945 tumors [PMID:28481359](../papers/28481359.md)
 - Used to visually inspect sequencing alignments and verify CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489) and allele-specific read distributions in the NOL10/USF1 prostate cancer study [PMID:28927585](../papers/28927585.md)
+- IGV used for visual review of variant calls from MSK-IMPACT sequencing of 127 advanced HCC tumors [PMID:30373752](../papers/30373752.md)
 
 ## Notes
 
@@ -47,3 +48,6 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 - [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

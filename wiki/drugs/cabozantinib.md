@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, sarcoma, multi-kinase]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # cabozantinib
@@ -26,6 +26,7 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 - Phase III CELESTIAL trial: cabozantinib vs placebo in HCC, median OS 10.2 vs 8.0 months (HR 0.76, 95% CI 0.63–0.92, P=0.0049); approved as second-line for HCC regardless of prior-line count (≤2) [PMID:24798001](../papers/24798001.md)
 - Cited as a multi-kinase TKI (VEGFR2, MET, AXL) under investigation in R/M NPC for anti-angiogenic and anti-metastatic activity [PMID:24952746](../papers/24952746.md)
 - Cited as matched agent for RET fusions (level 2A) in 860-patient MSK-IMPACT LUAD cohort; 53.3% of RET-fusion patients received matched therapy with 72.7% clinical benefit [PMID:28336552](../papers/28336552.md).
+- In genomic profiling of 127 advanced [HCC](../cancer_types/HCC.md) patients at MSKCC, cabozantinib was listed as a genome-matched targeted therapy option for [MET](../genes/MET.md)-amplified HCC, alongside anti-VEGFR2 + anti-MET mAb combinations; 24% of patients harbored potentially actionable alterations [PMID:30373752](../papers/30373752.md).
 
 ## Resistance mechanisms
 
@@ -58,3 +59,6 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

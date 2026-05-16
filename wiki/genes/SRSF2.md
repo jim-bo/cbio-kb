@@ -7,8 +7,8 @@ tags:
   - splicing-factor
   - mds-driver
   - megakaryocyte-dysplasia
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -26,6 +26,7 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 - SRSF2 somatic splicing-factor mutation in 2 [MPN](../cancer_types/MPN.md) patients; co-mutated with [TET2](../genes/TET2.md), [IDH1](../genes/IDH1.md), and [ASXL1](../genes/ASXL1.md) — a co-mutation pattern echoing MDS [PMID:24325359](../papers/24325359.md)
 - Splicing factor in AML chromatin-spliceosome subgroup; HR 1.4 (95% CI 1.1–1.7), P=0.003, q=0.03; additive adverse effect with ASXL1; associated with ELN intermediate-risk reclassification to adverse risk [PMID:27276561](../papers/27276561.md)
 - Covered by the 8-gene AmpliSeq amplicon panel (TP53, DNMT3A, IDH1, IDH2, ASXL1, SRSF2, U2AF1, SF3B1) and observed in AML/MDS patients on the 10-day decitabine trial; not reported as independently predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
+- SRSF2 mutations were significantly more frequent in the Beat AML cohort (aml_ohsu_2018) than in TCGA AML; associated with novel drug-sensitivity correlations as part of spliceosome-mutation landscape [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +61,6 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 - [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

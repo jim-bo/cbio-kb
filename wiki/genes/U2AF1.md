@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # U2AF1
@@ -24,6 +24,7 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 - Splicing factor mutation in AML chromatin-spliceosome subgroup; clusters with SF3B1, SRSF2, ZRSR2 and chromatin regulators as an adverse-risk entity; 84% of chromatin-spliceosome patients were ELN intermediate-risk but experienced adverse outcomes [PMID:27276561](../papers/27276561.md)
 - Included in the 8-gene AmpliSeq amplicon panel (TP53, DNMT3A, IDH1, IDH2, ASXL1, SRSF2, U2AF1, SF3B1) and observed in AML/MDS patients on the 10-day decitabine trial; not reported as independently predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
 - U2AF1 mutated in 0.5% of a 1,013-sample prostate cancer cohort; first significant nomination of splicing-factor mutations as a recurrent prostate-cancer alteration alongside SF3B1 [PMID:29610475](../papers/29610475.md)
+- Novel drug-sensitivity correlations identified for U2AF1 spliceosome mutations in Beat AML ex vivo drug-sensitivity profiling (n=672 AML specimens); U2AF1 more frequently mutated in Beat AML than TCGA; specific drug-sensitivity patterns reported alongside ZRSR2 [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

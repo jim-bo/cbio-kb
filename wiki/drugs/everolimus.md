@@ -5,8 +5,8 @@ drug_class: mTOR inhibitor (rapalogue)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # everolimus
@@ -33,6 +33,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - Proposed as potentially actionable agent for PTEN loss (10q deletion) identified in EWSR1::BEND2 bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient [PMID:28199314](../papers/28199314.md).
 - Authors note prior efficacy of everolimus in leiomyosarcoma but flag the limitation of compensatory AKT activation; recommend evaluating dual PI3K/MTOR inhibitors given pervasive PTEN/AKT3/MTOR/IGF1R/RICTOR pathway alterations in 84% of ULMS+STLMS C1 [PMID:29100075](../papers/29100075.md)
 - Cited as prior VEGF-targeted therapy in the ccRCC cohorts; PBRM1-LOF benefit from anti-PD-(L)1 was more pronounced in previously VEGF-inhibitor-treated patients, suggesting a treatment-sequencing interaction relevant to mTOR-pathway agents [PMID:29301960](../papers/29301960.md)
+- In MSKCC prospective NGS of 127 advanced HCC patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on sorafenib; all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset [PMID:30373752](../papers/30373752.md).
 
 ## Resistance mechanisms
 
@@ -83,3 +84,6 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:29301960](../papers/29301960.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

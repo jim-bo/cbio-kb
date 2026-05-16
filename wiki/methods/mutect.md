@@ -67,6 +67,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Applied for somatic mutation calling in the MSK IMPACT neoantigen study cohort [PMID:29657128](../papers/29657128.md)
 - Used for somatic SNV calling in the pan-cancer MSI analysis pipeline applied to 11,139 whole-exome tumor-normal pairs [PMID:29850653](../papers/29850653.md)
 - Used for somatic SNV calling in the uniform reanalysis of 249 MSS tumor/normal WES samples from seven ICB cohorts; combined with Strelka (indels), Oncotator (annotation), and ABSOLUTE (clonality) [PMID:30150660](../papers/30150660.md)
+- MuTect v1.1.7 used for somatic SNV calling from whole-exome sequencing of 622 AML specimens in the Beat AML study [PMID:30333627](../papers/30333627.md)
 
 ## Notes
 
@@ -207,5 +208,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

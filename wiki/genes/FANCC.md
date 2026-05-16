@@ -3,8 +3,8 @@ symbol: FANCC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # FANCC
@@ -21,6 +21,7 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - Combined ATM/RB/FANCC alteration signature present in 73.3% of pre-chemotherapy urothelial carcinoma tumors but only 37.9% of post-chemotherapy tumors (p=0.05), supporting selective elimination of this signature by cisplatin-based chemotherapy [PMID:27749842](../papers/27749842.md)
 - Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction of high-grade disease [PMID:28583311](../papers/28583311.md)
 - One pLoF LP/PV identified by WES of 25 HBOC-related candidate genes in 372 pediatric cancer patients; burden OR=1.3, p=0.534 (non-significant single-cohort). [PMID:29489754](../papers/29489754.md)
+- Pre-specified DDR/NAC-response gene in MIBC analysis; no significant difference observed between primary and secondary MIBC groups [PMID:30290956](../papers/30290956.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

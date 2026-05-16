@@ -10,7 +10,7 @@ tags:
   - sarcoma
   - functional-precision-medicine
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # gefitinib
@@ -31,6 +31,7 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - Cited as the sole phase II agent trialed in metastatic cutaneous SCC (cSCC), reporting an 18% CR rate; the authors argue [EGFR](../genes/EGFR.md) pathway biomarker refinement ([EGFR](../genes/EGFR.md) S720F, amplification) is needed before uniform [EGFR](../genes/EGFR.md) targeting in this disease [PMID:25589618](../papers/25589618.md)
 - First-generation EGFR TKI; low-cost and broadly accessible in India for young-onset NSCLC patients with EGFR mutations; review cites enrichment of EGFR exon 19 deletions (52.6% of EGFR-mutant cases) in young patients as rationale for first-line use [PMID:27346245](../papers/27346245.md)
 - Mentioned as first-generation EGFR TKI in 860-patient MSK-IMPACT LUAD cohort context; L861Q and exon 18 deletion alleles had significantly lower clinical-benefit rates with first-generation TKIs, supporting evaluation of second/third-generation agents over gefitinib for these alleles [PMID:28336552](../papers/28336552.md).
+- In MCF7 functional validation, gefitinib (EGFR inhibitor) reversed fulvestrant resistance conferred by [EGFR](../genes/EGFR.md) overexpression, parallel to erlotinib, supporting EGFR inhibitors as mechanistically justified combination partners for EGFR-amplified endocrine-resistant HR+ breast cancer [PMID:30205045](../papers/30205045.md).
 
 ## Resistance mechanisms
 
@@ -68,3 +69,6 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

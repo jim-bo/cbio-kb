@@ -81,6 +81,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Germline pathogenic mutations affect 10.8% of Korean breast cancer patients (brca_smc_2018) combined with BRCA1 vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
 - Rare germline/somatic pathogenic mutation (n=2 combined with BRCA1, level 2B actionable) identified in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
 - Three pathogenic germline truncating mutations identified (one serous, two carcinosarcomas); founder c.5946delT in two patients, c.5799_5802delCCAA frameshift in the third; none enrolled to PARP-inhibitor trials — demonstrating utility of unbiased germline analysis in endometrial cancer [PMID:30068706](../papers/30068706.md)
+- BRCA2 mutated in 10% of gallbladder carcinoma; co-occurrence trends with AR and KMT2D [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -250,5 +251,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

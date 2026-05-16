@@ -4,7 +4,7 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -51,6 +51,7 @@ OncoTree code for invasive breast carcinoma.
 - BRCA HER2-enriched subtype shows RTK-RAS alteration rate of 82%; PI3K pathway dominates luminal subtypes; HER2+PI3K inhibitor combination actionable in 17% of HER2-enriched BRCA tumors [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients); OS not recommended for BRCA due to short TCGA follow-up; PFI and DFI preferred; ER+ BRCA had significantly better PFI (p=0.005) and DFI (p=0.001) than ER- [PMID:29625055](../papers/29625055.md)
 - Korean SMC cohort (n=187) vs TCGA (n=1,116): HER2+ enriched (28.3% vs 4.3%), Luminal A depleted, TP53 mutated in 47.9%, ERBB2 altered in 20%, germline BRCA1/BRCA2 pathogenic in 10.8%; 85% of TNBC were HRD-positive (S3 score >0.2) vs 52% in TCGA (p=7e-4) [PMID:29713003](../papers/29713003.md)
+- Prospective MSK-IMPACT sequencing of 1,918 breast tumors (1,756 patients) identified four endocrine-resistance classes in HR+ disease: ESR1-mutant (18% post-ET), MAPK-pathway-altered (ERBB2 mutations and NF1 loss each >2× enriched post-ET), ER-transcriptional-machinery-altered (MYC, CTCF, FOXA1, TBX3), and pan-wild-type; MAPK-altered tumors had median AI PFS 3.5 vs 15.2 months (p=1.4×10⁻⁹); dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
 
 ## Subtypes
 
@@ -114,3 +115,6 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

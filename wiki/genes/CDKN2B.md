@@ -46,6 +46,7 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - 9p21 codeletion (with [CDKN2A](../genes/CDKN2A.md) and [MTAP](../genes/MTAP.md)) defines CN Cluster A in urothelial carcinoma; co-deleted with CDKN2A as tumor progressed from heterozygous to homozygous deletion in post-chemotherapy metastases [PMID:27749842](../papers/27749842.md)
 - Deletion in 2/19 sequenced anaplastic oligodendroglioma tumors; co-deleted with [CDKN2A](../genes/CDKN2A.md) and [PTEN](../genes/PTEN.md) in a false-positive 1p/19q FISH case with glioblastoma-like signature ([odg_msk_2017](../datasets/odg_msk_2017.md)) [PMID:28472509](../papers/28472509.md)
 - CDKN2B focal deletion co-occurs with CDKN2A deletion in cholangiocarcinoma; combined CDKN2A/CDKN2B alterations (n=15) are associated with significantly shorter PFS on first-line chemotherapy (p=0.002) and shorter OS (n=18, p=0.0015) in advanced cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
+- CDKN2B mutated in 7% of gallbladder carcinoma; co-occurrence trend with CDKN2A due to chromosome 9 adjacency [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -129,5 +130,8 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

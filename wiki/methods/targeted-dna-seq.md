@@ -5,8 +5,8 @@ kind: sequencing
 canonical_source: 
 unverified: true
 tags: [dna-seq, targeted]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Targeted DNA sequencing
@@ -46,6 +46,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Targeted exon-capture sequencing using MSK-IMPACT 341- or 410-gene panels on 105 NMIBC pretreatment index tumors with matched germline DNA; the largest NGS effort focused on NMIBC at time of publication [PMID:28583311](../papers/28583311.md)
 - SureSelect XT2 capture panel targeting 404 cancer-related genes applied to 188 CCA cases (HiSeq 4000, 99.6% coding coverage) as one of three DNA-sequencing tiers in the ICGC cholangiocarcinoma study [PMID:28667006](../papers/28667006.md)
 - MSK-IMPACT targeted NGS (341/410/468-gene panels) applied prospectively to 295 metastatic EGC patients; demonstrated that targeted capture at 744X mean depth enables reliable detection of mutations, CNAs, MSI status, and ERBB2 amplification levels relevant to treatment selection [PMID:29122777](../papers/29122777.md)
+- Used for retrospective discovery genomic analysis of 569 MSKCC MIBC tumors via WES or targeted exon capture, enabling comparison of primary vs secondary MIBC mutation profiles [PMID:30290956](../papers/30290956.md)
 
 ## Notes
 
@@ -135,3 +136,6 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

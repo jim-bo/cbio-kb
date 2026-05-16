@@ -3,7 +3,7 @@ symbol: SMAD4
 aliases: []
 cancer_types: [ESCA, ESCC, EAC]
 tags: [tumor-suppressor, somatic, tgfb-pathway, deletion]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -20,6 +20,7 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - Mutations associated with elevated structural variant burden in cholangiocarcinoma (q < 0.1) [PMID:28667006](../papers/28667006.md)
 - Mutated in 16% of mCRC cases with right-sided enrichment; TGF-beta pathway loss in microsatellite-stable colorectal tumors. [PMID:29316426](../papers/29316426.md)
 - Enriched in EHC (extrahepatic cholangiocarcinoma); co-occurs with KRAS; mutually exclusive with IDH1 and BAP1; among the key genomic features distinguishing IHC from EHC in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients [PMID:29848569](../papers/29848569.md)
+- SMAD4 mutated in 31% of gallbladder carcinoma tumors in a three-region cohort; independently associated with worse overall survival (HR 2.01, multivariable Cox) across all three populations; proposed as a candidate convergent prognostic biomarker in GBCA [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

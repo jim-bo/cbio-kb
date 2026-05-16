@@ -5,7 +5,7 @@ drug_class: aromatase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [endocrine-therapy, breast-cancer, aromatase-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -19,6 +19,7 @@ Letrozole is a third-generation non-steroidal aromatase inhibitor that blocks CY
 
 - GSEA of fulvestrant-responsive gene signatures in rat ER+ breast cancer models showed significant enrichment of genes induced by neoadjuvant letrozole in human patients (GSE5462 dataset); the overlap of 58 genes — including [PGR](../genes/PGR.md), AREG, SGK3, and KLF10/TIEG1 — confirms cross-species transcriptional concordance under aromatase inhibition and [fulvestrant](../drugs/fulvestrant.md) treatment [PMID:26437033](../papers/26437033.md).
 - One endometrial patient with a de novo ESR1 mutation progressed on letrozole then had an 18-month ongoing response on bevacizumab + fulvestrant, illustrating acquired/de novo ESR1 resistance to aromatase inhibitor therapy in endometrial cancer [PMID:30068706](../papers/30068706.md)
+- In prospective MSK-IMPACT sequencing of 1,918 breast tumors, MAPK-pathway-altered tumors had markedly shorter PFS on aromatase inhibitors including letrozole (median 3.5 vs 15.2 mo, log-rank p=1.4×10⁻⁹); transcription-factor-altered tumors also had shorter PFS (median 6.4 mo, p=1.3×10⁻⁶ vs pan-wild-type), supporting letrozole futility in these genomically-defined resistance classes [PMID:30205045](../papers/30205045.md).
 
 ## Resistance mechanisms
 
@@ -36,3 +37,6 @@ Letrozole is a third-generation non-steroidal aromatase inhibitor that blocks CY
 - [PMID:30068706](../papers/30068706.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

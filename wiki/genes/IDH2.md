@@ -3,7 +3,7 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -36,6 +36,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 mutations in LGG are actionable: IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant LGG; IDH1/2 alterations included in the 57% pan-cancer actionability figure alongside BRCA1/2 in analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - IDH2 mutations in LGG are highlighted alongside IDH1 as the canonical example of TCGA survival-genomic integration: IDH-mutant LGG (including IDH2-mutant) have substantially longer OS than IDH-wildtype LGG, contributing evidence to the WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
 - IDH2 alterations profiled in cholangiocarcinoma cohort (n=195) via MSK-IMPACT; context of IDH-targeted therapy evaluation including ivosidenib for IDH1-mutant IHC. [PMID:29848569](../papers/29848569.md)
+- IDH2 mutations showed broad ex vivo drug sensitivity in the Beat AML cohort, opposing the resistance pattern seen with IDH1 mutations [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -103,13 +104,16 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

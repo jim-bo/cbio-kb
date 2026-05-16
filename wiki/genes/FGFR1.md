@@ -3,7 +3,7 @@ symbol: FGFR1
 aliases: []
 cancer_types: [OS, RMS, PRAD]
 tags: [amplification, sarcoma, radiation-associated]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -40,6 +40,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Somatic mutation identified in pheochromocytoma/paraganglioma (PCC/PGL) by cancer-relevant gene scan in the TCGA PCPG multi-platform study; grouped in the kinase signaling pathway axis alongside NF1, HRAS, RET, BRAF, and NGFR [PMID:28162975](../papers/28162975.md).
 - Among potentially targetable kinases in CIN-subtype esophagogastric cancer; often concurrent with other actionable kinases suggesting combination strategies are needed [PMID:29122777](../papers/29122777.md)
 - Amplification enriched in carcinosarcoma (p=0.007) in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
+- Focal amplification noted as a clonal event in a representative matched-pair HR+ metastatic breast cancer patient [PMID:30205045](../papers/30205045.md)
 
 ## Cancer types (linked)
 
@@ -130,4 +131,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

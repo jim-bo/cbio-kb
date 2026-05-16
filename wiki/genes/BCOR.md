@@ -34,6 +34,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - R810 mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; incidental chromatin-modifier alteration [PMID:28472509](../papers/28472509.md)
 - BCOR is a recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analysis [PMID:28726821](../papers/28726821.md)
 - Recurrently mutated in DLBCL (dlbcl_dfci_2018) as part of the comprehensive genomic characterization of 304 DLBCLs identifying five genetic subtypes [PMID:29713087](../papers/29713087.md)
+- BCOR alone sensitizes AML cells to XAV-939 and crizotinib ex vivo; co-mutation with RUNX1 sensitizes to JAK inhibitors (momelotinib, ruxolitinib, tofacitinib) in Beat AML [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -96,5 +97,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

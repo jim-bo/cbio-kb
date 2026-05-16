@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # AXIN1
@@ -23,6 +23,7 @@ AXIN1 is a scaffold protein in the WNT signaling pathway that facilitates beta-c
 - Recurrently mutated WNT-pathway component in PDA; co-mutated with [AXIN2](../genes/AXIN2.md) and [APC](../genes/APC.md), nominating tankyrase inhibitors (XAV939) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Two ungermlined-paired AXIN1 variants found in the PDTC/ATC cohort (n=117); the study failed to replicate prior reports of frequent WNT-pathway alterations in ATC — these AXIN1 variants did not meet criteria for confirmed somatic WNT-pathway mutations [PMID:26878173](../papers/26878173.md)
 - Wnt-pathway alteration observed in cisplatin-resistant germ cell tumors alongside APC and FAT1 [PMID:27646943](../papers/27646943.md)
+- AXIN1 inactivating alterations in 6.3% of HCC; AXIN1-inactivated tumors grouped with CTNNB1-activated tumors as WNT-activated, associated with innate resistance to immune checkpoint blockade [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +61,6 @@ AXIN1 is a scaffold protein in the WNT signaling pathway that facilitates beta-c
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

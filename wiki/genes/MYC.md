@@ -88,6 +88,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC was identified as a functional oncogene in DLBCL by CRISPR screen (depletion on knockout); MYC mutations were strongly associated with poorer overall survival (p<0.05); MYC translocations correlated with high MYC expression; high MYC expression combined with high BCL2 expression (double expressors) defined the poorest prognosis subgroup; MYC genetic alterations combined with high MYC expression defined the least favorable prognosis subgroup in a multivariate genomic model [PMID:28985567](../papers/28985567.md)
 - MYC pathway activation is driven mainly by 8q amplification and is most common in BRCA and OV across the TCGA pan-cancer oncogenic signaling pathway analysis [PMID:29625050](../papers/29625050.md)
 - MYC SVs in 8% of DLBCL (n=304); independently prognostic for inferior PFS and OS in multivariable Cox analysis; enriched in C3 co-occurring with BCL2 SVs (double-hit, Fisher P=0.003) [PMID:29713087](../papers/29713087.md)
+- MYC focal amplifications enriched in post-hormonal-therapy HR+HER2- breast cancer specimens; approximately half were subclonal-and-selected or pre-existing in matched primaries, indicating both selection and de novo acquisition under endocrine pressure [PMID:30205045](../papers/30205045.md)
+- MYC amplification in 6.1% of advanced HCC in the MSK-IMPACT cohort; identified as a recurrently altered oncogene in the genomic landscape of HCC [PMID:30373752](../papers/30373752.md)
 
 ## Cancer types (linked)
 
@@ -303,5 +305,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -28,6 +28,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - TERT invoked in discussion as a potentially insufficient activation context (alongside p53/RB inhibition) for selection of broad aneuploidies in vitro in the AALE cell model [PMID:29622463](../papers/29622463.md)
 - TERT promoter region is covered by the MSK-IMPACT panel design through intronic/promoter capture; detected in bladder cancer organoid biobank characterization [PMID:29625057](../papers/29625057.md)
 - No TERT promoter hotspot detected in gastric cancer (GC) CBS-hotspot discovery cohort, confirming rarity of TERT promoter mutations in GC relative to other cancer types [PMID:29670109](../papers/29670109.md)
+- Promoter/coding alterations in 55.6% of advanced HCC patients profiled by MSK-IMPACT (n=317 actionable-alteration cohort); most frequently altered gene in HCC in this dataset [PMID:30373752](../papers/30373752.md)
+- Promoter region mutation in 12% of gallbladder carcinoma (GBCA) tumors (n=57 WES); co-occurrence trend with ARID2 mutations [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -84,5 +86,11 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29670109](../papers/29670109.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

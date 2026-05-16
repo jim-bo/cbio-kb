@@ -3,7 +3,7 @@ symbol: ERBB2
 aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -88,6 +88,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 somatic alteration (mostly amplification, CN ≥6) is present in 20% of Korean SMC breast tumors vs. 9.1% of TCGA; ERBB2 amplification drives APOBEC S2/S13 signatures in HER2+ tumors and underlies the HER2+/Luminal-B enrichment in younger Asian breast cancer [PMID:29713003](../papers/29713003.md)
 - ERBB2 amplification (4%) in cholangiocarcinoma is associated with significantly shorter overall survival (p=0.0015) and shorter time to progression on first-line chemotherapy (p=0.028); ERBB2-amplified patients (n=6) qualified for OncoKB level 2B HER2-directed therapy [PMID:29848569](../papers/29848569.md)
 - Amplification in 16/189 cases (enriched in serous carcinoma, p=0.018); one heavily pretreated serous patient achieved a 14-month ongoing complete response to ado-trastuzumab-emtansine (T-DM1) in a 189-patient MSK advanced endometrial cancer cohort [PMID:30068706](../papers/30068706.md)
+- Activating hotspot mutations (S310, L755, D769) >2x enriched in post-endocrine-therapy HR+ breast cancer specimens (p=3x10^-5); 82% of post-progression ERBB2 mutations pre-existed in matched primaries; functional resistance driver [PMID:30205045](../papers/30205045.md)
+- Altered in 15% of secondary muscle-invasive bladder cancer (MIBC); highlighted as an actionable target for HER2-directed agents in the neoadjuvant setting [PMID:30290956](../papers/30290956.md)
 
 ## Cancer types (linked)
 
@@ -267,19 +269,25 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -4,7 +4,7 @@ oncotree_code: HCC
 main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: [liver, hepatobiliary]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -33,6 +33,7 @@ Primary liver cancer of hepatocellular origin.
 - PIPseq cohort included hepatocellular carcinoma cases; UGT1A1 homozygous *28 (TA)7TAA allele identified as pharmacogenomic flag for irinotecan/SN-38 toxicity [PMID:28007021](../papers/28007021.md)
 - Pan-cancer aneuploidy study placed HCC in the epithelial arm-level cluster (alongside LUAD and BRCA) defined by 1q gain; HCC arm-level alteration patterns were used in the per-tumor-type aneuploidy analysis [PMID:29622463](../papers/29622463.md)
 - 10 HCC cases (non-viral, non-cirrhotic) profiled by MSK-IMPACT 341-gene panel; top mutations: TERT promoter 7/10, TP53 3/10, CTNNB1 2/10, APC 2/10; C19MC miRNA cluster (miR-515-5p, miR-517a, miR-518b, miR-520c-3p) 3–4× higher in HCC vs HCA or normal liver [PMID:30052636](../papers/30052636.md)
+- Prospective MSK-IMPACT sequencing of 127 advanced HCC patients confirmed TERT (56%), CTNNB1 (36%), and TP53 (33%) as the top altered genes (WNT and TP53 alterations mutually exclusive, p=0.003); PI3K-mTOR pathway alterations predicted worse sorafenib outcomes (PFS HR 3.8, p<0.0001), and WNT/β-catenin activation predicted innate ICI resistance (0% vs 53% disease control, p=0.009); dataset [hcc_mskimpact_2018](../datasets/hcc_mskimpact_2018.md) [PMID:30373752](../papers/30373752.md)
 
 ## Subtypes
 
@@ -73,3 +74,6 @@ Primary liver cancer of hepatocellular origin.
 - [PMID:30052636](../papers/30052636.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

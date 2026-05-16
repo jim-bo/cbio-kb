@@ -3,8 +3,8 @@ symbol: FLT3
 aliases: []
 cancer_types: [BLLKMT2A, THAP]
 tags: [kinase, signaling, sub-clonal]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # FLT3
@@ -24,6 +24,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - FLT3 is listed among the genomic context genes in nasopharyngeal carcinoma (NPC) therapeutic development. [PMID:24952746](../papers/24952746.md)
 - FLT3-ITD present in 22% (341/1,540) of AML; deleterious effect strongest in NPM1+/DNMT3A+ context; FLT3-TKD is mutationally and prognostically distinct from FLT3-ITD (different co-mutation patterns, different interaction with KMT2A-PTD); FLT3 and RAS-pathway inhibitors expected to alter outcome predictions for respective subgroups [PMID:27276561](../papers/27276561.md)
 - FLT3 variant co-occurring with [TET2](../genes/TET2.md) and [KIT](../genes/KIT.md) in an AML patient in the PIPseq pediatric cohort; KIT D816H as the primary targetable event [PMID:28007021](../papers/28007021.md).
+- FLT3-ITD detected by Pindel and an internal PCR/capillary-electrophoresis assay in the Beat AML cohort; FLT3-ITD (alone or combined with NPM1) predicted ex vivo ibrutinib and entospletinib sensitivity [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -66,3 +67,6 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

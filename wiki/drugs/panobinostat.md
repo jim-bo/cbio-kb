@@ -10,8 +10,8 @@ unverified: true
 tags:
   - targeted-therapy
   - hdac-inhibitor
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # panobinostat
@@ -26,6 +26,7 @@ Panobinostat is a pan-deacetylase (HDAC) inhibitor approved for relapsed/refract
 - Chordoma PDTOs were significantly less sensitive to [bortezomib](../drugs/bortezomib.md) (p=1.8×10⁻⁵) than the pan-sarcoma average; panobinostat was not explicitly tested in a subtype-stratified analysis in the reported data. [PMID:39305899](../papers/39305899.md)
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
 - Used in combination with 5-day [decitabine](../drugs/decitabine.md) in 3 patients in the WashU AML/MDS trial extension cohort (NCT01687400, N=116); panobinostat 10 mg three times weekly was combined with decitabine at Washington University in St. Louis as part of an extended protocol evaluation [PMID:27959731](../papers/27959731.md)
+- In the Beat AML program ex vivo screen of 122 drugs across 409 AML specimens, panobinostat (HDAC inhibitor) was the only drug significantly more sensitive in transformed (secondary) AML than de novo AML (FDR <0.1); additionally, [ASXL1](../genes/ASXL1.md)-mutant cases trended toward panobinostat sensitivity despite a broader drug-resistance pattern [PMID:30333627](../papers/30333627.md).
 
 ## Resistance mechanisms
 
@@ -43,3 +44,6 @@ Panobinostat is a pan-deacetylase (HDAC) inhibitor approved for relapsed/refract
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU 10-day decitabine AML/MDS trial; panobinostat combined with 5-day decitabine in 3 extension-cohort patients.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

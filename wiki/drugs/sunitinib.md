@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [TKI, GIST, second-line]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # sunitinib
@@ -24,6 +24,7 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 - One of 10 ccRCC tumors received 14–16 weeks of preoperative sunitinib; authors argue this cytostatic exposure did not collapse intratumor heterogeneity, though a treatment-naive baseline at this scale is unavailable [PMID:24487277](../papers/24487277.md)
 - Failed as frontline HCC therapy vs sorafenib (phase III): median OS 8.0–8.8 vs 9.9–10.0 months for sorafenib (HR 1.12–1.15); demonstrated inferior efficacy in first-line setting [PMID:24798001](../papers/24798001.md)
 - Multi-kinase inhibitor (KIT/PDGFRA/VEGFR); proposed as therapeutic candidate for KIT-mutant GCT alongside imatinib in Appendix Table A2 of the cisplatin-resistance biomarker study [PMID:27646943](../papers/27646943.md)
+- Sunitinib was noted among the targeted therapy options available for secondary MIBC given the 42% RTK/MAPK pathway alteration rate and [FGFR3](../genes/FGFR3.md) (18%) / [ERBB2](../genes/ERBB2.md) (15%) actionable alterations in this subgroup, which was considered chemo-refractory and candidate for targeted-therapy trials [PMID:30290956](../papers/30290956.md).
 
 ## Resistance mechanisms
 
@@ -56,3 +57,6 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30290956](../papers/30290956.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

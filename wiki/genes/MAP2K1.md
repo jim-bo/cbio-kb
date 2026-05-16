@@ -32,6 +32,7 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - Hotspot MAPK-pathway missense mutation observed in ~5% of advanced prostate cancer patients across locoregional, metastatic noncastrate, and mCRPC disease states alongside [BRAF](../genes/BRAF.md), [HRAS](../genes/HRAS.md), and [KRAS](../genes/KRAS.md) [PMID:28825054](../papers/28825054.md)
 - Identified via CLUMPS 3D protein-structure clustering as a CCG in DLBCL; RAS/JAK/STAT pathway mutations enriched in C4 GCB-DLBCL subtype (304-sample WES cohort) [PMID:29713087](../papers/29713087.md)
 - Single OncoKB-level-annotated actionable alteration (n=1 patient) contributing to the 67% actionable tally in metastatic endometrial cancer (189 patients, MSK cohort) [PMID:30068706](../papers/30068706.md)
+- MAP2K1 hotspot mutations enriched in post-endocrine-therapy HR+HER2- breast cancer metastases; part of the MAPK-pathway-altered resistance class, candidate for MEK/ERK inhibitor combination with hormonal therapy [PMID:30205045](../papers/30205045.md)
 
 ## Cancer types (linked)
 
@@ -100,5 +101,8 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

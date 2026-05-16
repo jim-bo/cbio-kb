@@ -3,8 +3,8 @@ symbol: ZRSR2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # ZRSR2
@@ -16,6 +16,7 @@ ZRSR2 (Zinc Finger CCCH-Type, RNA Binding Motif And Serine/Arginine Rich 2) enco
 ## Alterations observed in the corpus
 
 - Splicing factor mutation in AML; part of the chromatin-spliceosome subgroup alongside [SF3B1](../genes/SF3B1.md), [U2AF1](../genes/U2AF1.md), and [SRSF2](../genes/SRSF2.md); subgroup confers adverse prognosis with 84% of patients reclassified from ELN intermediate to adverse risk based on observed outcomes [PMID:27276561](../papers/27276561.md)
+- Novel drug-sensitivity correlations identified for ZRSR2 spliceosome mutations in Beat AML ex vivo drug-sensitivity profiling (n=672 AML specimens); ZRSR2 more frequently mutated in Beat AML than TCGA; drug-sensitivity patterns reported alongside U2AF1 [PMID:30333627](../papers/30333627.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ZRSR2 (Zinc Finger CCCH-Type, RNA Binding Motif And Serine/Arginine Rich 2) enco
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

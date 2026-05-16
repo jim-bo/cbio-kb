@@ -84,6 +84,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A is mutually exclusive with TP53 in pan-cancer somatic interaction networks; in UCEC, ARID1A/PTEN/CTNNB1/PIK3CA form a cluster with low TP53, consistent with the copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
 - ARID1A is among epigenetic regulators (alongside KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder tumor organoid lines from the Columbia/CUIMC biobank [PMID:29625057](../papers/29625057.md)
 - Common but not significantly prognostic in cholangiocarcinoma (chol_msk_2018); observed across intrahepatic and extrahepatic subtypes [PMID:29848569](../papers/29848569.md)
+- ARID1A mutated in 12.7% of HCC in a 344-patient MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
+- ARID1A mutations mutated in 25% of metastatic HR+HER2- breast cancer; SWI/SNF-complex loss-of-function more often acquired post-endocrine-therapy than pre-treatment in matched pairs [PMID:30205045](../papers/30205045.md)
+- ARID1A mutated in 25% of gallbladder carcinoma overall but entirely absent in the Japanese cohort, contrasting with prior reports; consistent with other Asian-cohort studies that also failed to find ARID1A mutations [PMID:30427539](../papers/30427539.md)
 
 ## Cancer types (linked)
 
@@ -286,5 +289,14 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30427539](../papers/30427539.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

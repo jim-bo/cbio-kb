@@ -31,6 +31,7 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - OncoKB actionability tiers applied to MSK-IMPACT results; 36.7% of 10,336 patients harbored at least one actionable alteration, with GIST (76%), thyroid (60%), breast (57%), and melanoma (56%) having the highest rates [PMID:28481359](../papers/28481359.md)
 - Used to annotate oncogenicity and clinical actionability of alterations in 9,125 TCGA PanCanAtlas tumors; 57% of tumors had at least one OncoKB-annotated actionable alteration (Levels 1–3A) [PMID:29625050](../papers/29625050.md).
 - OncoKB (as of Aug 28, 2019) used to annotate oncogenic CDK12 alterations in 26,743 MSK-IMPACT pan-cancer tumors [PMID:32317181](../papers/32317181.md)
+- OncoKB used alongside Cancer Hotspots for oncogenicity annotation of somatic variants in 487 EAC/EGJ patients; copy-number correction via FACETS; MSI calling via MSIsensor [PMID:33795256](../papers/33795256.md)
 
 ## Notes
 
@@ -62,5 +63,8 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

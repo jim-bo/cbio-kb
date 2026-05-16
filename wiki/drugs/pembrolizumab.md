@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -55,6 +55,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Added to trastuzumab + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); achieved 70% 6-month PFS (primary endpoint met), 91% ORR, and 27.2-month median OS; benefit was independent of PD-L1 CPS status; these data motivated the phase 3 KEYNOTE-811 trial (NCT03615326) [PMID:32437664](../papers/32437664.md).
 - Pembrolizumab (anti-PD-1) was cited as a comparator immunotherapy in the FUTURE umbrella trial context for refractory metastatic TNBC; historical ICI-monotherapy ORRs of 5–10% in this population provided the benchmark against which the 52.6% camrelizumab + nab-paclitaxel ORR was compared [PMID:32719455](../papers/32719455.md).
 - Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the study provides molecular context (pretreatment [PTEN](../genes/PTEN.md) loss as a BRAFi resistance biomarker) relevant to sequencing decisions between checkpoint immunotherapy and targeted therapy [PMID:32913971](../papers/32913971.md).
+- Used as frontline PD-1 monotherapy (alongside nivolumab; N=181 combined) in cutaneous/unknown-primary melanoma; TTF varied sharply by MAPK driver class — NRAS Q61 patients had the shortest TTF (4.2 mo) while NF1 patients had the longest (22 mo, p<0.0001) [PMID:33509808](../papers/33509808.md)
 
 ## Resistance mechanisms
 
@@ -162,4 +163,6 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -8,8 +8,8 @@ tags:
   - mtor-complex
   - structural-variant
   - muscle-development
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RPTOR
@@ -21,6 +21,7 @@ RPTOR (regulatory-associated protein of mTOR) encodes a scaffolding component of
 ## Alterations observed in the corpus
 
 - Recurrently SV-affected (structural variant) gene in a comprehensive rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) genomic analysis; positioned within the tyrosine kinase signaling and muscle development gene set [PMID:24436047](../papers/24436047.md)
+- Recurrently altered in retinoblastoma (MSK-IMPACT cohort, n=83) but all mutations classified as VUS; not functionally assessed [PMID:33466343](../papers/33466343.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ RPTOR (regulatory-associated protein of mTOR) encodes a scaffolding component of
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

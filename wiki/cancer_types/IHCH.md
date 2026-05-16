@@ -29,6 +29,7 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 - ICGC profiling of 489 CCAs showed IHCH (intrahepatic) is enriched for Clusters 3 and 4 (fluke-negative): IDH1/IDH2 mutations (31.6% in Cluster 4), BAP1 inactivation, FGFR2 rearrangements, and high copy-number alterations with PD-1/PD-L2 upregulation; BAP1 and KRAS are significantly more frequent in intrahepatic CCAs (q<0.1). [PMID:28667006](../papers/28667006.md)
 - MSK-IMPACT profiling (n=158 intrahepatic cases): IDH1 30%, ARID1A 23%, BAP1 20%, TP53 20%, FGFR2 fusions 14%; BAP1 mutations and FGFR2 fusions observed exclusively in IHCH; IDH1 mutually exclusive with TP53, SMAD4, FGFR2, and KRAS [PMID:29848569](../papers/29848569.md)
 - cHCC-ICC integrative study (N=133) used ICGC cholangiocarcinoma as an IHCH reference; KRAS mutation absent in cHCC-ICC (0%) vs enriched in intrahepatic cholangiocarcinoma (ICC) reference; combined-type cHCC-ICC is molecularly ICC-like (biliary transcriptomic cluster P1) [PMID:31130341](../papers/31130341.md).
+- In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, TP53 (17%), KRAS (10%), and CDKN2A homozygous deletion (13%) were independent predictors of shorter OS on multivariable analysis; IDH1/2 mutations (20%) and FGFR2 fusions (11%) were mutually exclusive but not prognostic; patients with both clinical high-risk features and CDKN2A deep deletion had median OS of 12.2 months whether or not they underwent resection, suggesting no surgical benefit in this subgroup [PMID:33765338](../papers/33765338.md)
 
 ## Subtypes
 
@@ -50,6 +51,6 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 - [PMID:29848569](../papers/29848569.md)
 - [PMID:31130341](../papers/31130341.md) — Xue et al. cHCC-ICC pan-Asia genomic study (Cancer Cell 2019).
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

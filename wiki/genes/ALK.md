@@ -45,6 +45,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - EML4-ALK fusions negatively associated with the 'steady' NS-LUAD transcriptomic subtype (p=1.73×10⁻⁴, FDR=0.0168); 35 tumors carry ALK fusions; in-frame ALK fusions enriched in proliferative subtype (8.2%); ALK fusions co-occurring with TP53 mutations concentrated in the proliferative subtype (7 tumors) [PMID:32015526](../papers/32015526.md)
 - Two ALK fusions identified in uterine sarcomas reclassified as [inflammatory myofibroblastic tumor (IMT)](../cancer_types/IMT.md): one LBH-ALK fusion (treated with [crizotinib](../drugs/crizotinib.md), 30+ months disease stabilization) and one post-data-freeze ALK fusion (brief crizotinib response, then progression on [ceritinib](../drugs/ceritinib.md)); fusion detection prompted diagnostic reclassification from uLMS to IMT in both cases [PMID:32299819](../papers/32299819.md)
 - Seven in-frame ALK fusions (EML4-ALK, HMBOX1-ALK, ANKRD36B-ALK) identified in treatment-naïve LUAD; outlier ALK Y1507 phosphorylation specific to fusion-positive samples validated by IHC; hyperphosphorylated WEE1 and PTPN11 observed [PMID:32649874](../papers/32649874.md)
+- In 696 melanomas profiled by MSK-IMPACT, oncogenic ALK fusions were identified as rare drivers within the RTK-RAS-MAPK pathway, targeted successfully with kinase inhibitors in the checkpoint-refractory setting. [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -145,5 +146,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

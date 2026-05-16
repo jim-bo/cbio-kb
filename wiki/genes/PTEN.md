@@ -3,7 +3,7 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -147,6 +147,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Loss-of-function alterations (deep deletions, truncations, C2-domain P204S, plus VUS) are the headline biomarker of intrinsic BRAFi resistance in BRAF-mutant melanoma: enriched in poor responders (P = .005), associated with shorter PFS (HR 3.46) and OS (HR 3.10) [PMID:32913971](../papers/32913971.md)
 - Referenced in prior reports describing concurrent GCT/AMKL with shared TP53 and PTEN mutations; not a primary driver in this 15-patient NSGCT-associated hematologic malignancy cohort [PMID:32897884](../papers/32897884.md)
 - p.QYPFEDH87fs detected in normal melanocytes from sun-damaged skin (Donor 13, ear); PI3K-pathway frameshift alteration in histologically normal tissue, consistent with somatic mosaicism preceding clinical melanoma [PMID:33029006](../papers/33029006.md)
+- Mutations/deletions in proneural, mesenchymal, and classical GBM subtypes with concordant RNA and protein decrease; loss activates downstream AKT1/AKT2 signaling [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -305,3 +306,6 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

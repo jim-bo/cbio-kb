@@ -3,7 +3,7 @@ symbol: MSH3
 aliases: []
 cancer_types: [CRC, PRAD]
 tags: [mismatch-repair, MMR, BRAF-fusion, microsatellite]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - Somatic mutation in ACINAR01 (MSI-H) and other pancreatic acinar cell carcinomas; pathogenic significance unclear [PMID:24293293](../papers/24293293.md)
 - Heterozygous variant of uncertain significance (VUS) in PanNET patient PN1; MSI-stable prediction by MSIsensor [PMID:40328872](../papers/40328872.md)
 - MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; COSMIC signatures 6/15 are present but no microsatellite instability is detected [PMID:33025139](../papers/33025139.md)
+- Somatic mutations in 3/83 retinoblastoma specimens (3.6%) in [rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md); also identified as a germline pathogenic variant p.X447_splice in 1/42 patients tested — the MSH3 carrier showed no microsatellite instability despite the mismatch-repair gene variant [PMID:33466343](../papers/33466343.md)
 
 ## Cancer types (linked)
 
@@ -52,3 +53,6 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -29,6 +29,7 @@ processed_at: 2026-05-16
 - MDM4 splicing is tied to RPL22L1 protein levels in the CCLE proteomics dataset [PMID:31978347](../papers/31978347.md)
 - MDM4 mRNA increases with 1q copy number in MSI endometrial carcinoma tumors (p < 0.01, Spearman), identifying it as a candidate p53-pathway suppressor on amplified 1q; MDM4 protein was not detected at sufficient abundance to confirm the model directly [PMID:32059776](../papers/32059776.md)
 - MDM4 — alterations observed in a subset of BRAF-mutant melanoma patients; combined TP53/MDM2/MDM4 pathway events present in 25% of BRAFi-monotherapy patients but not associated with response grade or survival [PMID:32913971](../papers/32913971.md)
+- Amplification specific to proneural and classical GBM subtypes in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) (n=99); subtype-specific distribution contrasts with MDM2 amplification, which is restricted to mesenchymal GBM [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -67,5 +68,8 @@ processed_at: 2026-05-16
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

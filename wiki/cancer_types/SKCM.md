@@ -49,6 +49,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - In PCAWG, cutaneous melanoma had high chromothripsis frequency; APOBEC C>N mutagenesis dominated kataegis (81.7% of foci), correlating with APOBEC3B expression; chromothripsis in melanoma frequent across all histotypes [PMID:32025007](../papers/32025007.md).
 - Single-melanocyte sequencing of 133 clonally expanded cells from 6 elderly donors showed mean somatic burden 7.9 mut/Mb (range 0.82–32.3); melanocytes adjacent to BCC/MEL lesions had the highest burdens; BRAF V600E was absent, supporting a distinct UV-driven high-CSD melanoma origin. [PMID:33029006](../papers/33029006.md)
 - 66 pretreatment BRAF V600E/K-mutant metastatic SKCM tumors; PTEN loss-of-function alterations (11/19 poor-responder patients) associated with shorter PFS (HR 3.46, P<.001) and OS (HR 3.10, P<.001) on BRAFi monotherapy; elevated BRAF mutant-allele fraction tracked with excellent response. [PMID:32913971](../papers/32913971.md)
+- MSK-IMPACT profiling of 696 cutaneous melanoma tumors identified MAPK-pathway oncogenic drivers in 96%, with BRAF V600E/K/R (31%), NRAS (29%), NF1 loss-of-function (23%), and MAP2K1/2 (7%) as the leading classes; NF1-altered tumors had the highest median TMB (43 mut/Mb) and longest TTF on PD-1 monotherapy (22 mo), while TMB was an independent predictor of TTF and OS across both PD-1 monotherapy and nivolumab+ipilimumab cohorts [PMID:33509808](../papers/33509808.md)
 
 ## Subtypes
 
@@ -139,5 +140,8 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

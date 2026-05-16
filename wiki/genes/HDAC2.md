@@ -3,8 +3,8 @@ symbol: HDAC2
 aliases: []
 cancer_types: [PAAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # HDAC2
@@ -16,6 +16,7 @@ HDAC2 (Histone Deacetylase 2) is a class I histone deacetylase that regulates ch
 ## Alterations observed in the corpus
 
 - Identified as a MutSigCV-significant gene in pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)); functional role in PDA biology not yet established — oncogenic vs. passenger status awaits orthogonal validation. [PMID:25855536](../papers/25855536.md)
+- HDAC2 S422 phosphorylation inferred as a kinase-deacetylase interaction in ~5% of GBM phospho-outliers in a CPTAC proteogenomic study (n=99 tumors); HDAC2 S422 phosphorylation tracks deacetylase activity [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ HDAC2 (Histone Deacetylase 2) is a class I histone deacetylase that regulates ch
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -36,6 +36,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - Used as first-line chemotherapy (gemcitabine/platinum) in 80% of 158 advanced cholangiocarcinoma patients; median time to progression 8.8 months; gemcitabine/nab-paclitaxel was an alternative first-line regimen [PMID:29848569](../papers/29848569.md)
 - Gemcitabine/cisplatin (GC) was one of the two cisplatin-based neoadjuvant chemotherapy regimens (alongside MVAC) used in the 288 MSKCC MIBC patients; the differential pathologic response of primary vs secondary MIBC was observed across both NAC regimens [PMID:30290956](../papers/30290956.md).
 - In a UTUC PDX model (UCC03), gemcitabine alone significantly inhibited tumor growth (p=0.0065); UCC19 PDX (source patient had durable response, off therapy 15 months) was highly sensitive to Gem/Carbo (p<0.0001) and carried truncating RECQL4 F987* mutation as a candidate DDR biomarker of platinum/gemcitabine sensitivity [PMID:32332851](../papers/32332851.md)
+- Background chemotherapy in iCCA; HAIC with floxuridine (HR 0.45, P=0.003) improved OS independently of genomic profile in locally advanced, unresectable iCCA patients on systemic therapy [PMID:33765338](../papers/33765338.md)
 
 ## Resistance mechanisms
 
@@ -90,5 +91,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+- [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

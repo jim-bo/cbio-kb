@@ -31,6 +31,10 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - RECIST v1.1 imaging assessments and Kaplan-Meier survival analysis used in the FUTURE trial to evaluate PFS and DOR across 7 biomarker-matched arms in 69 refractory metastatic TNBC patients [PMID:32719455](../papers/32719455.md)
 - Used for PFS and OS estimation from first-line chemotherapy start in 430 MSS mCRC patients; revealed significantly longer OS/PFS for N-terminal vs C-terminal APC truncating mutations [PMID:32730818](../papers/32730818.md)
 - Kaplan-Meier analysis in 80-patient CRC tissue microarray showed high CGREF1 expression associated with significantly shorter overall survival (log-rank p<0.0001) [PMID:32888432](../papers/32888432.md)
+- Kaplan-Meier estimators (starting from enucleation date) used to model event-free survival in 83 retinoblastoma specimens; BCOR mutations associated with worse metastasis-free survival (nominal p=0.03) [PMID:33466343](../papers/33466343.md)
+- Kaplan-Meier / log-rank analysis used to compare time-to-treatment failure across MAPK driver groups in 322 melanoma patients on PD-1 or nivo+ipi; driver-group effect p<0.0001 [PMID:33509808](../papers/33509808.md)
+- Kaplan-Meier OS estimates used throughout 412-patient iCCA cohort to assess prognostic impact of TP53, KRAS, and CDKN2A alterations [PMID:33765338](../papers/33765338.md)
+- Kaplan-Meier analysis used to compare OS across genomic subgroups in 487 EAC/EGJ patients; median OS 31.6 months overall (CIT 42.5 mo vs. PIT 22.8 mo, p<0.001) [PMID:33795256](../papers/33795256.md)
 
 ## Notes
 
@@ -78,5 +82,17 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32888432](../papers/32888432.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

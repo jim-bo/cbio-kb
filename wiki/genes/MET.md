@@ -60,6 +60,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET exon 14 skipping was searched for but not enriched in the chaotic subtype of never-smoker lung adenocarcinoma (NS-LUAD) [PMID:32015526](../papers/32015526.md)
 - Overexpressed in EGFR-mutant LUAD tumors as part of the EGFR-driven proteogenomic signature in the CPTAC cohort (n=110) [PMID:32649874](../papers/32649874.md)
 - Recurrently amplified oncogene across 604 stage I-III resected LUAD patients profiled by MSK-IMPACT; consistent with prior LUAD reports. [PMID:32791233](../papers/32791233.md)
+- Protein upregulated in mesenchymal GBM tumors in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md); identified as a mesenchymal-cell-state marker in snRNA-seq; EMT-related MET expression originates partly in tumor cells of nmf2 (mesenchymal-like) samples [PMID:33577785](../papers/33577785.md)
+- Rare amplification (n=3) in intrahepatic cholangiocarcinoma ([ihch_msk_2021](../datasets/ihch_msk_2021.md), N=412); classified among rare RTK amplification events in the RTK/RAS pathway (altered in 48% of tumors overall) [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -206,5 +208,11 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

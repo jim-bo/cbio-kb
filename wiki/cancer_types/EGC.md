@@ -4,7 +4,7 @@ oncotree_code: EGC
 main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,7 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - Janjigian et al. prospectively profiled 295 stage-IV esophagogastric adenocarcinoma patients with MSK-IMPACT (341/410/468-gene panels); 53% had at least one actionable alteration; MSI-H tumors (3%) were chemotherapy-refractory but immunotherapy-sensitive; NGS-based ERBB2 amplification level predicted trastuzumab benefit better than IHC/FISH; HRD/LST did not predict platinum response [PMID:29122777](../papers/29122777.md)
 - EGC was among the histologies represented in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for esophagogastric cancer alongside NSCLC, melanoma, head & neck, and renal cell carcinoma. [PMID:30643254](../papers/30643254.md)
 - Phase 2 trial (n=37) of pembrolizumab + trastuzumab + fluoropyrimidine/platinum in HER2-positive metastatic EGC achieved 70% 6-month PFS rate, 91% ORR, and 27.2-month median OS; VAF-adjusted ctDNA ERBB2 amplification predicted longer PFS (16.4 vs 6.2 months, p=0.013) [PMID:32437664](../papers/32437664.md)
+- Broad-panel NGS (MSK-IMPACT) of 487 lower esophageal/EGJ adenocarcinomas identified 16 recurrent oncogenic drivers (≥5%), predominantly amplifications; TP53 was mutated in ~80%, median TMB was 4.5 mut/Mb, MSI-H prevalence was 3.1%; CDKN2A alteration, KRAS amplification, and SMAD4 alteration were independently prognostic for worse OS, while ERBB2 amplification associated with improved OS (HR 0.65, p=0.009) attributable to trastuzumab therapy [PMID:33795256](../papers/33795256.md)
 
 ## Subtypes
 
@@ -67,3 +68,6 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PMID:32437664](../papers/32437664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

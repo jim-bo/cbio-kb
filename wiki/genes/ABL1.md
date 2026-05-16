@@ -25,6 +25,7 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 - Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the authors caution that the same alteration class yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
 - BCR-ABL1 fusion detected in cancer cell lines; ponatinib sensitivity correlates with phospho-SHP2 (pY542) levels in AML/CML lines carrying BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
 - BCR-ABL1 fusion detected in all three Ph+ ALL patient-derived xenograft models in the PPTC PDX cohort (261 models across 37 pediatric cancer subtypes) [PMID:31693904](../papers/31693904.md)
+- In a proteogenomic analysis of 99 treatment-naive GBMs, ABL1 was identified as an inferred kinase-deacetylase interaction partner of HDAC2 (~5% phospho-outlier tumors); HDAC2 S422 phosphorylation tracks ABL1 activity, suggesting ABL1-mediated chromatin regulation in a GBM subset. [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +64,8 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

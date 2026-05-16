@@ -3,8 +3,8 @@ symbol: MAPK3
 aliases: [ERK1]
 cancer_types: [SKCM]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # MAPK3
@@ -17,6 +17,7 @@ MAPK3 (Mitogen-Activated Protein Kinase 3), also known as ERK1, is a serine/thre
 
 - Phospho-ERK1/2 (T202/Y204) highest in RAS-mutant melanoma subtype by RPPA in the TCGA 333-sample multi-platform cutaneous melanoma cohort; MAPK3 and [MAPK1](../genes/MAPK1.md) (ERK1/2) elevations reflect downstream MAPK pathway activity in NRAS/HRAS/KRAS-mutant tumours. [PMID:26091043](../papers/26091043.md)
 - Identified as a marker of one of the three [ILC](../cancer_types/ILC.md) mRNA subtypes (proliferative, reactive-like, immune-related) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
+- Protein and phosphorylation elevated in TP53-mutant GBM tumors ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md)); MAPK3 upregulation part of a broader DNA-repair phosphosite signature in TP53-mutant tumors without total-protein-level upregulation [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ MAPK3 (Mitogen-Activated Protein Kinase 3), also known as ERK1, is a serine/thre
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

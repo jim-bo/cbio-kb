@@ -1,48 +1,41 @@
 ---
 symbol: DEK
 aliases: []
-cancer_types: [PRAD, ACRM]
-tags: [copy-number, allelic-imbalance, neuroendocrine, prostate-cancer, fusion]
+cancer_types:
+  - RBL
+tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # DEK
 
 ## Overview
 
-DEK is a chromatin-associated oncoprotein involved in DNA repair, mRNA splicing, and chromatin organization. In cancer genomics, DEK has been reported as overexpressed or amplified in multiple tumor types. In the context of castration-resistant prostate cancer (CRPC), focal allelic imbalance of the DEK locus was identified as an alteration enriched in the neuroendocrine prostate cancer (CRPC-NE) subtype compared to adenocarcinoma histology.
+DEK is a chromatin-associated protein involved in DNA repair, replication, and transcriptional regulation. The DEK-NUP214 fusion is a recurrent translocation in acute myeloid leukemia, but DEK also functions in solid tumor contexts. DEK has been discussed as a candidate driver in retinoblastoma based on chromosomal location and expression studies, though recurrent somatic coding mutations have not been confirmed by targeted panel sequencing.
 
 ## Alterations observed in the corpus
 
-- Focal allelic imbalance at the DEK locus enriched in CRPC-NE vs. CRPC-Adeno (P = 0.04, binomial test) in a cohort of 114 metastatic biopsies from 81 patients with castration-resistant prostate cancer. [PMID:26855148](../papers/26855148.md)
-- DEK-NUP214 t(6;9) fusion identified in 15/1,540 (1%) AML patients in a large genomic classification cohort, representing a recurrent cytogenetic subgroup with distinct molecular features [PMID:27276561](../papers/27276561.md)
-- DEK — RNA fusion partner in a MAP3K8:DEK fusion detected in acral lentiginous melanoma (ALM); identified among 106 RNA fusions across 74% of 34 ALM patients [PMID:28373299](../papers/28373299.md)
+- DEK is discussed as a driver candidate in retinoblastoma (rbl_mskcc_2020, n=83 enucleated specimens) but no recurrent coding mutations in DEK were detected in this MSK-IMPACT–profiled cohort; it is listed among previously proposed candidates without recurrent somatic mutation support in this dataset [PMID:33466343](../papers/33466343.md).
 
 ## Cancer types (linked)
 
-- **[PRAD](../cancer_types/PRAD.md) (castration-resistant, neuroendocrine subtype):** Focal allelic imbalance of DEK enriched in CRPC-NE (n=30 patients) vs. CRPC-Adeno (n=51 patients); P = 0.04, binomial test. Specific copy-number direction (gain vs. loss) not detailed as the primary finding. [PMID:26855148](../papers/26855148.md)
+- **Retinoblastoma (RBL):** DEK is a previously proposed driver candidate based on prior literature; no recurrent somatic coding mutations identified in 83 MSK-IMPACT–profiled specimens [PMID:33466343](../papers/33466343.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Identified in the context of CRPC-NE, which is defined by concurrent [RB1](../genes/RB1.md) loss + [TP53](../genes/TP53.md) alteration (53.3% of CRPC-NE) and depletion of [AR](../genes/AR.md) genomic alterations. DEK allelic imbalance was one of several focal events distinguishing CRPC-NE from CRPC-Adeno. [PMID:26855148](../papers/26855148.md)
+- No co-occurrence data available; DEK was not found to be recurrently mutated in this cohort [PMID:33466343](../papers/33466343.md).
 
 ## Therapeutic relevance
 
-- No direct therapeutic implication established from this study. DEK allelic imbalance was reported as a genomic correlate of CRPC-NE; it was not a component of the 70-gene integrated NEPC classifier developed in the same study. [PMID:26855148](../papers/26855148.md)
+- No therapeutic targeting reported in the corpus.
 
 ## Open questions
 
-- The functional role of DEK allelic imbalance in CRPC-NE — whether gain, loss, or structural rearrangement — was not characterized in this study. Whether DEK contributes causally to neuroendocrine transdifferentiation or is a secondary consequence of the divergent clonal evolution model proposed for CRPC-NE remains unknown. [PMID:26855148](../papers/26855148.md)
+- Whether DEK contributes to retinoblastoma via non-coding or epigenetic mechanisms (e.g., expression dysregulation, CNA) rather than somatic coding mutations requires investigation beyond targeted panel sequencing [PMID:33466343](../papers/33466343.md).
 
 ## Sources
 
-- [PMID:26855148](../papers/26855148.md) — Beltran et al. (2016), molecular characterization of 114 metastatic CRPC biopsies ([nepc_wcm_2016](../datasets/nepc_wcm_2016.md)), CRPC-NE vs. CRPC-Adeno integrated multi-omic profiling.
+- [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:27276561](../papers/27276561.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28373299](../papers/28373299.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

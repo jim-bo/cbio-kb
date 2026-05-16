@@ -45,6 +45,9 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied to 4 samples (Case 3) in synchronous DCIS/IDC-NST WES cohort (n=56); IMPACT410 at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
 - Used alongside IMPACT341 and IMPACT468 in 26,743 MSK-IMPACT pan-cancer cohort; CDK12 is included in all three panel versions [PMID:32317181](../papers/32317181.md)
 - Used to sequence 190 of 604 surgically resected stage I–III LUAD patients (1.06 Mb coverage) in a histologic-subtype genomic landscape study at MSKCC [PMID:32791233](../papers/32791233.md)
+- Applied IMPACT410 (410-gene panel) to sequencing of cutaneous/unknown-primary melanoma at MSKCC; part of 696-patient cohort profiled across IMPACT341/410/468 versions [PMID:33509808](../papers/33509808.md)
+- IMPACT410 (410-gene panel) used to sequence 147 of 412 iCCA patients in bi-institutional study; all sequenced against matched normal tissue or blood [PMID:33765338](../papers/33765338.md)
+- IMPACT410 (410-gene panel) applied to 104 of 487 EAC/EGJ patients at MSK; all 16 recurrent driver genes covered across panel versions [PMID:33795256](../papers/33795256.md)
 
 ## Notes
 
@@ -124,5 +127,14 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

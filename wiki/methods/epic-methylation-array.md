@@ -22,6 +22,7 @@ The Illumina Infinium MethylationEPIC BeadChip (EPIC/850K array) measures DNA me
 - Used Infinium MethylationEPIC v2.0 array for genome-wide DNA methylation profiling in a EWSR1::BEND2 fusion sarcoma; profile interpreted with the sarcoma and brain-tumor methylation classifiers [PMID:28199314](../papers/28199314.md)
 - Illumina MethylationEPIC array performed at MD Anderson on 76 of 96 GBM [PDX](../methods/patient-derived-xenograft.md) lines from the Mayo Clinic National Resource; identified three LGm1 (IDH-mutant), and LGm4 (46%), LGm5 (44%), LGm6 (10%) methylation classes among IDH-wildtype PDX; DNA methylation data integrated alongside WES and RNA-seq for molecular characterization [PMID:31852831](../papers/31852831.md).
 - Used in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors) via Illumina Infinium MethylationEPIC BeadChip (>850,000 CpG sites); revealed elevated genome-wide CpG island methylation in MSI tumors, including MLH1 silencing and HOX gene methylation [PMID:32059776](../papers/32059776.md).
+- Illumina Infinium MethylationEPIC array (>850k CpGs) applied to 99 treatment-naive GBM tumors; identified 6 DNA-methylation subtypes including two G-CIMP variants; MGMT promoter hypermethylation in 38/90 (42%) tumors [PMID:33577785](../papers/33577785.md)
 
 ## Notes
 
@@ -43,5 +44,8 @@ The Illumina Infinium MethylationEPIC BeadChip (EPIC/850K array) measures DNA me
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -44,6 +44,7 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - 128 PCAWG tumors carry ATRX or DAXX alterations (71 truncating); ATRX SVs cluster in telomere phenotype group C1 (ALT pathway) while ATRX/DAXX point mutations cluster in C2; loss is enriched in ALT-pathway tumors independent of RB1 status [PMID:32025007](../papers/32025007.md)
 - Altered in 31% of uterine leiomyosarcoma (uLMS, n=80), significantly more frequent than in high-grade non-LMS (5%, p<0.01); loss-of-function alterations dominated alongside TP53 (56%) and RB1 (51%) as core uLMS drivers [PMID:32299819](../papers/32299819.md)
 - Included in the panel of commonly mutated genes used to evaluate fidelity of derived models (cell lines and PDX) from NF1 nerve sheath tumors; mutational profiles preserved across tumor, cell line, and xenograft [PMID:32561749](../papers/32561749.md)
+- In a proteogenomic study of 99 GBMs, 9 ATRX-mutant tumors showed significantly diminished ATRX RNA and protein (IHC-validated); ATRX mutations were mutually exclusive with TERT promoter hotspot mutations (C228T/C250T) and co-occurred with TP53 mutation and IDH1 R132H. [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -143,5 +144,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32561749](../papers/32561749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -74,6 +74,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a NSGCT precursor clone; activating RAS-pathway mutations (KRAS or NRAS) together present in 63% of GCT+hematologic-malignancy cases vs. 13% of de novo AML [PMID:32897884](../papers/32897884.md)
 - p.Q61L detected in normal melanocytes from sun-damaged skin (Donor 13, back, peri-MEL site); classified as a weak MAPK activator present in histologically normal tissue, implying pre-malignant clonal expansion [PMID:33029006](../papers/33029006.md)
 - Late-progression driver acquired between clonal hematopoiesis (CH) stage and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients; 0 RAS hotspot mutations observed at the CH stage, implicating NRAS as a progression rather than initiation event [PMID:33106634](../papers/33106634.md)
+- Q61 alterations in 29% of 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); usually a sole driver (only 29% co-altered); associated with shortest TTF on PD-1 monotherapy (4.2 months; p<0.0001 vs. NF1 22 months); NRAS Q61 co-altered in 29% vs. 70% for other RAS (p=7.9e-07) [PMID:33509808](../papers/33509808.md)
+- Activating mutations in 3% of 412 intrahepatic cholangiocarcinoma tumors ([ihch_msk_2021](../datasets/ihch_msk_2021.md)); contributes to RTK/RAS pathway alterations (48% of cohort); not independently prognostic in this series [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -160,3 +162,9 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

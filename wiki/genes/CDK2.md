@@ -1,7 +1,8 @@
 ---
 symbol: CDK2
 aliases: []
-cancer_types: []
+cancer_types:
+  - GBM
 tags: []
 processed_by: entity-page-writer
 processed_at: 2026-05-16
@@ -11,38 +12,30 @@ processed_at: 2026-05-16
 
 ## Overview
 
-CDK2 (Cyclin-Dependent Kinase 2) is a serine/threonine kinase that regulates cell cycle progression through G1/S and S phase. CDK2 was assessed as a DDR candidate in synthetic lethal screening in colorectal cancer.
+CDK2 (Cyclin-Dependent Kinase 2) partners with Cyclin E and Cyclin A to drive S-phase entry and progression. It is a key effector of the RB1/p53 cell-cycle checkpoint axis. In glioblastoma, CDK2 protein and phosphorylation levels are elevated in TP53-mutant tumors, reflecting aberrant DNA-damage response signaling and representing a potential therapeutic vulnerability.
 
 ## Alterations observed in the corpus
 
-- Screened as a DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; not prioritized as a primary SL target [PMID:36334560](../papers/36334560.md)
-- CDK2 gain at 12q14.1 in glioblastoma multiforme; classified as a CDK4/6-inhibitor target in the PIPseq pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
-- CDK2 elevated kinase activity identified in colon cancer tumors vs NATs in proteogenomic cohort (n=110); forms E2F1-cyclin E-CDK2-phospho-Rb feedback loop; CDK2 inhibitors proposed as therapeutic candidates for CIN-subtype colon cancer where RB1 copy gain and Rb phosphorylation are highest [PMID:31031003](../papers/31031003.md)
-- CDK2 kinase activity elevated in ATRT, MB, HGG, and ependymoma in the CPTAC pediatric brain tumor proteogenomics study (n=218); CDK2-MCM2 (Ser139) association detected across ATRT/MB, EP, HGG, LGG; CDK2 protein abundance mutually exclusive with CDK1 within HGG [PMID:33242424](../papers/33242424.md)
-- Cyclin E/CDK2 protein levels higher in TNBC vs HR+/ERBB2− breast tumors (CCNE1 RNA p=6.2 × 10⁻¹², phosphoprotein p=7.3 × 10⁻¹⁰) in the CPTAC proteogenomics cohort (n=122), reflecting replication-stress biology of basal-like disease [PMID:33212010](../papers/33212010.md)
+- CDK2 protein and phosphorylation are elevated in TP53-mutant glioblastoma tumors in the CPTAC GBM proteogenomic cohort (gbm_cptac_2021, n=99); CDK2 is identified as part of the DNA-damage-response phosphosite upregulation signature without concordant protein-level upregulation of TP53 itself [PMID:33577785](../papers/33577785.md).
 
 ## Cancer types (linked)
 
-- CRC: assessed as potential SL target in FBXO7-deficient tumors [PMID:36334560](../papers/36334560.md)
+- **Glioblastoma (GBM):** CDK2 protein/phospho elevated in TP53-mutant tumors (subset of 99-tumor CPTAC cohort), linking CDK2 kinase activity to the TP53-mutant DNA-repair-response phenotype [PMID:33577785](../papers/33577785.md).
 
 ## Co-occurrence and mutual exclusivity
 
+- CDK2 elevation co-occurs with ATR and CDK9 kinase elevation in TP53-mutant GBM tumors [PMID:33577785](../papers/33577785.md).
+
 ## Therapeutic relevance
+
+- Elevated CDK2 in TP53-mutant GBM nominates CDK inhibitors (alongside ATR inhibitors) as candidates for TP53-mutant GBM; this is hypothesis-generating from proteogenomic data and has not been clinically tested [PMID:33577785](../papers/33577785.md).
 
 ## Open questions
 
+- Whether CDK2 inhibition specifically benefits TP53-mutant GBM patients requires preclinical and clinical validation [PMID:33577785](../papers/33577785.md).
+
 ## Sources
 
-- [PMID:36334560](../papers/36334560.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
-- [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:31031003](../papers/31031003.md)
-- [PMID:33242424](../papers/33242424.md)
-- [PMID:33212010](../papers/33212010.md)
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

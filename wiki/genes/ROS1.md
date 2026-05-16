@@ -3,7 +3,7 @@ symbol: ROS1
 aliases: []
 cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -32,6 +32,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - Rare actionable alteration observed in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients; level 2B finding supporting targeted therapy eligibility [PMID:29848569](../papers/29848569.md)
 - Recurrent in-frame fusion gene in non-small-cell lung adenocarcinoma (9 tumors across the cohort) [PMID:32015526](../papers/32015526.md)
 - In-frame kinase fusions recurrent in [LUAD](../cancer_types/LUAD.md) proteogenomic cohort (CPTAC, n=110); ROS1 rearrangements among most frequent oncogenic kinase fusions alongside ALK, RET, and PTK2 [PMID:32649874](../papers/32649874.md)
+- Rare oncogenic fusion in melanoma; targeted with [crizotinib](../drugs/crizotinib.md) yielding complete response in a BRAF V600-wild-type patient progressing on PD-1 therapy [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -90,5 +91,8 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: MAPK1
 aliases: [ERK2]
 cancer_types: [BRAF-fusion, CRC]
 tags: [MAPK-pathway, kinase, co-mutation]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 - Mutation in a recurrent/metastatic head and neck cancer patient guided treatment with an ERK inhibitor on a single-patient IND basis [PMID:27442865](../papers/27442865.md)
 - MAPK1 — located on 22q11.21-q11.23; co-deleted in 77% of SWNTS-SWNs with coordinated expression loss, proposed as an additional contributor to schwannomatosis pathogenesis [PMID:33025139](../papers/33025139.md)
 - Kinase activity elevated in pediatric high-grade glioma (HGG) vs low-grade glioma (LGG) by phosphoproteomic analysis; supports MEK-inhibitor sensitivity prediction; downstream of MEK in the MAPK pathway. [PMID:33242424](../papers/33242424.md)
+- In GBM ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md)), MAPK3 (ERK1) protein and phosphorylation are elevated in TP53-mutant tumors; MAPK1 (ERK2) likewise upregulated as part of DNA-repair phosphosite upregulation in TP53-mutant GBM [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -68,5 +69,8 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

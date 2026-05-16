@@ -4,7 +4,7 @@ oncotree_code: ESCA
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -41,6 +41,7 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for ESCA [PMID:29625055](../papers/29625055.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); esophageal adenocarcinoma analyzed for somatic driver landscape and mutational processes [PMID:32025007](../papers/32025007.md).
 - 14/37 (38%) patients in a HER2-positive mEGC phase 2 pembrolizumab + trastuzumab + chemotherapy trial had esophageal adenocarcinoma primary; trial achieved 91% ORR and 27.2-month median OS across all histologic subtypes [PMID:32437664](../papers/32437664.md)
+- In a prospective MSK-IMPACT cohort of 487 lower esophageal/EGJ adenocarcinomas (ESCA subset), 10 of 16 recurrent drivers (≥5%) were amplifications; Cell Cycle and TGFβ pathways were independently prognostic; genomic-instability metrics (fraction of genome altered 0.50 vs. 0.40, whole-genome doubling 46% vs. 29%) were higher in palliative-intent (advanced-stage) vs. curative-intent patients [PMID:33795256](../papers/33795256.md)
 
 ## Subtypes
 
@@ -100,3 +101,6 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - [PMID:32437664](../papers/32437664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

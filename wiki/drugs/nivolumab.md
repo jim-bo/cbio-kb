@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -43,6 +43,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - Prior ipilimumab exposure stratifies predictors of anti-PD1 response in melanoma; post-ipilimumab patients with low MHC-II HLA expression are very likely resistant to subsequent nivolumab monotherapy — sequence ipilimumab → nivolumab should shift to alternative regimens in this subgroup [PMID:31792460](../papers/31792460.md).
 - CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines nivolumab with ipilimumab in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
 - Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the study characterised pretreatment molecular features (including [PTEN](../genes/PTEN.md) loss) that predict intrinsic BRAFi resistance, providing context for sequencing of targeted therapy versus checkpoint immunotherapy [PMID:32913971](../papers/32913971.md).
+- Frontline PD-1 monotherapy in cutaneous/unknown-primary melanoma (N=181 with pre-treatment samples); TTF varied sharply by MAPK driver group (BRAF V600 7.5 mo, NRAS Q61 4.2 mo, NF1 22 mo, Other not reached; p<0.0001); TMB independently predicted TTF (HR 0.43 per 10-fold increase, p<0.0001); combination with ipilimumab (N=141) abolished driver-class differences in TTF [PMID:33509808](../papers/33509808.md)
 
 ## Resistance mechanisms
 
@@ -121,4 +122,6 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

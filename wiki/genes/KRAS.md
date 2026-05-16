@@ -142,6 +142,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Strongly enriched in C-terminal APC mutant mCRC tumors vs N-terminal (72% vs 46%; p<0.001, q<0.01) in 430 MSS unresectable mCRC patients treated with first-line chemotherapy at MSK; part of co-occurring RAS pathway activation pattern associated with poorer prognosis. [PMID:32730818](../papers/32730818.md)
 - KRAS — activating mutations (G12S, G12D) observed as shared truncal precursor alterations in 63% of germ cell tumor / hematologic malignancy pairs vs 13% of de novo AML; supports clonal ancestry from a shared embryonal precursor [PMID:32897884](../papers/32897884.md)
 - KRAS — identified as a late-progression driver acquired between clonal hematopoiesis and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients with CH [PMID:33106634](../papers/33106634.md)
+- Detected in 1.3% (9/696) of melanomas in [mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md) as a rare RAS/G-protein driver; classified as a rare MAPK-pathway event [PMID:33509808](../papers/33509808.md)
+- Activating mutations in 10% of 412 intrahepatic cholangiocarcinoma tumors ([ihch_msk_2021](../datasets/ihch_msk_2021.md)); associated with shorter OS (multivariable HR 1.69, 95% CI 0.97–2.93, P=0.06 in resected; independent predictor in unresectable); correlated with perineural invasion and large bile-duct histotype [PMID:33765338](../papers/33765338.md)
+- KRAS amplification found in esophagogastric adenocarcinoma ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md)); one of 16 recurrent oncogenic drivers (≥5% prevalence); independently associated with worse OS (multivariable HR 1.83, 95% CI 1.31–2.55, P<0.001) [PMID:33795256](../papers/33795256.md)
 
 ## Cancer types (linked)
 
@@ -518,5 +521,14 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

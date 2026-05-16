@@ -5,7 +5,7 @@ drug_class: platinum chemotherapy
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - Platinum agent used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy in NCT02954536; 37 HER2-positive metastatic esophagogastric cancer patients achieved 91% ORR and 27.2-month median OS [PMID:32437664](../papers/32437664.md).
 - In MSS mCRC (n=430, MSK-IMPACT), DDR pathway alterations were not associated with PFS benefit from oxaliplatin-containing first-line chemotherapy (HR 1.1, 95% CI 0.7–1.6, p=0.74), arguing against HRD-targeted patient selection for oxaliplatin regimens [PMID:32730818](../papers/32730818.md).
 - Oxaliplatin showed no significant association with clonal haematopoiesis in 24,146 cancer patients (OR=0.98, p=0.88), contrasting with carboplatin (OR=1.4, p=0.001); this platinum-agent-specific difference suggests oxaliplatin may be a safer choice from a CH-expansion standpoint when clinically interchangeable [PMID:33106634](../papers/33106634.md).
+- Part of systemic chemotherapy regimens in unresectable iCCA; HAIC with floxuridine added to systemic chemotherapy independently predicted improved OS (HR 0.45, P=0.003) in the locally advanced cohort [PMID:33765338](../papers/33765338.md)
 
 ## Resistance mechanisms
 
@@ -67,4 +68,6 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

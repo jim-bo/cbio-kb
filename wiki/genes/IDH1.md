@@ -62,6 +62,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1-mutant GBM PDX (GBM164, GBM196) carry TP53 mutations and homozygous CDKN2A deletion; GBM154 (recurrence of oligodendroglioma) lost IDH1 p.R132H but acquired a novel IDH1 p.F397L variant while retaining 1p/19q co-deletion [PMID:31852831](../papers/31852831.md)
 - IDH1 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - IDH1 mutations infrequent (~11%) in pediatric HGG; wild-type IDH1 protein abundance positively associates with OS in H3-WT HGG; IDH1 deletion (~20% of HGG) significantly downregulates IDH1 protein (cis-cascade); combined IDH1/IDH2 protein score HR 23.58 (95% CI 1.42–384.6) per 50% reduction [PMID:33242424](../papers/33242424.md)
+- 6 R132H mutants + 1 R222C non-hotspot mutant in a GBM proteogenomic cohort (n=99, CPTAC); IDH1 mutants showed earlier disease onset (median 47 vs. 59 years, p=0.055); 2-HG was the highest-abundance metabolite (median log2 FC=3.62, FDR<0.05); GLUD1 upregulated and glutamate decreased in IDH1-mutant tumors [PMID:33577785](../papers/33577785.md)
+- Mutations in 20% of intrahepatic cholangiocarcinoma (iCCA) cases (n=412); mutually exclusive with FGFR2 fusions and CDKN2A deletions; not independently prognostic for OS (trend toward improvement, P=0.08); associated with lower CA19-9 levels [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -217,5 +219,11 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

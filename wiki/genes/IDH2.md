@@ -45,6 +45,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDC-NST-private focal amplification at the 15q11.1–q26.1 locus (containing IDH2 and NUTM1) was observed in individual synchronous invasive breast cancer cases, suggesting IDH2 amplification is an invasive-stage-acquired event in a subset of breast cancers [PMID:32220886](../papers/32220886.md)
 - IDH2 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - IDH2 mutations infrequent in pediatric HGG; wild-type IDH2 protein abundance positively associates with OS in H3-WT HGG; combined IDH1/IDH2 protein score gives HR 23.58 (95% CI 1.42–384.6) per 50% reduction in H3-WT pediatric HGG [PMID:33242424](../papers/33242424.md)
+- Analyzed jointly with IDH1 (IDH1/2mut) in an iCCA cohort (n=412); IDH2 not independently prognostic when analyzed separately; IDH1/2 mutations predictive for targeted therapies (e.g., ivosidenib) but not prognostic for untreated natural history [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -147,5 +148,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

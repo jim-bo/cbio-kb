@@ -29,6 +29,7 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - ATR listed among 'Other' DNA-repair germline pathogenic/likely-pathogenic alleles annotated in the 923-patient glioma cohort (MSK-IMPACT/FoundationOne); 13% of glioma patients harbored a germline P/LP variant enriched for DNA-repair genes [PMID:31263031](../papers/31263031.md)
 - Knockdown sensitivity tracks the ATR/ATRIP and RPA1-containing RPA complexes in CCLE proteomics of 375 cancer cell lines; proteome-level complex abundance is a better predictor of ATR knockdown sensitivity than single transcripts [PMID:31978347](../papers/31978347.md)
 - ATR is a component of the SSBR (single-strand break repair) gene set whose protein loss in luminal breast cancer (CPTAC proteogenomics, n=122) is anti-correlated with PD-L1 and immune infiltration; low NER/BER/MMR protein levels associated with high mutation load specifically in luminal but not basal BRCA, nominating subsets of luminal BRCA as ICI candidates [PMID:33212010](../papers/33212010.md)
+- In a proteogenomic study of 99 GBMs, ATR protein and phosphorylation were elevated in TP53-mutant tumors without corresponding protein-level upregulation of DNA-repair components, nominating ATR inhibitors as potential therapeutic candidates for TP53-mutant GBM. [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -75,5 +76,8 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

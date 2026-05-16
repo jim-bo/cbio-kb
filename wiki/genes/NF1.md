@@ -89,6 +89,9 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - One splice variant (X2441_splice) identified in a poor BRAFi responder in BRAF-mutant melanoma, consistent with preclinical models of NF1-loss conferring BRAFi resistance [PMID:32913971](../papers/32913971.md)
 - Loss-of-function variants (p.W1314*, p.P1847L, p.Q2239*, p.R1276*, p.V2511fs) detected as MAPK-pathway driver mutations in normal melanocytes from sun-damaged skin (Donors 6, 10, 13); classified as weak activators, insufficient alone to produce visible lesions [PMID:33029006](../papers/33029006.md)
 - Mutation in pediatric HGG was associated with downregulation of both NF1 transcript and protein in proteogenomic characterization of pediatric brain tumors. [PMID:33242424](../papers/33242424.md)
+- Loss-of-function in 23% (N=155) of 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); highest median TMB of any driver group (43 mut/Mb); longest TTF on PD-1 monotherapy (22 months, p<0.0001 vs. BRAF V600 7.5 mo); drug-connectivity signatures nominate MAPK inhibitors; commonly co-altered with RTKs, BRAF Class 3, or CBL [PMID:33509808](../papers/33509808.md)
+- Loss-of-function alterations in GBM ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md)) track with decreased NF1 RNA/protein and upregulated IRF8 (microglial motility TF); drug-connectivity analysis (LINCS L1000 and P100) converges on MAPK inhibitors as top signature-reversing compounds for NF1-altered GBM [PMID:33577785](../papers/33577785.md)
+- Alterations in 1.7% of 412 intrahepatic cholangiocarcinoma tumors ([ihch_msk_2021](../datasets/ihch_msk_2021.md)); contributes to RTK/RAS pathway alterations present in 48% of the cohort [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -194,5 +197,14 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

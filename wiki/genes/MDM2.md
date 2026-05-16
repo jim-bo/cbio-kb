@@ -65,6 +65,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 — amplification (n=4) and mutation (n=1) observed in 25% of BRAFi-monotherapy melanoma patients combined with TP53 events; not associated with response grade or survival; higher MDM2 expression correlated with elevated mutation burden in normal melanocytes [PMID:32913971](../papers/32913971.md)
 - MDM2 — higher expression correlated with elevated mutation burden in normal skin melanocytes; not pathogenically mutated but transcriptionally upregulated in high-mutation-burden donors with adjacent skin cancer [PMID:33029006](../papers/33029006.md)
 - Recurrent focal SCNA gain at 12q15 identified in upper tract urothelial carcinoma (UTUC); gain enriched in muscle-invasive and iCluster-high subtype. [PMID:33397444](../papers/33397444.md)
+- Amplification specific to mesenchymal GBM subtype in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) (n=99); MDM2 RNA and protein decreased in TP53-mutant tumors, consistent with loss of the TP53-MDM2 negative-feedback loop [PMID:33577785](../papers/33577785.md)
+- Amplification in 24% of TP53-wild-type esophagogastric adenocarcinoma tumors ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md), N=487); mutually exclusive with TP53 mutation (p<0.001, q<0.05); one of 10 amplification-driven recurrent oncogenic drivers [PMID:33795256](../papers/33795256.md)
 
 ## Cancer types (linked)
 
@@ -221,5 +223,11 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

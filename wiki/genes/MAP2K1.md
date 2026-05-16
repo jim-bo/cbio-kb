@@ -37,6 +37,7 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), suggesting MAPK bypass as a resistance mechanism. [PMID:32864625](../papers/32864625.md)
 - MAP2K1 (MEK1) — P124S observed in a BRAFi monotherapy intermediate responder; Q56P at subclonal allele frequency in BRAFi + MEKi intermediate responder; both variants previously linked to context-dependent BRAFi/MEKi resistance in BRAF-mutant melanoma [PMID:32913971](../papers/32913971.md)
 - MAP2K1 — p.E203K observed in 2 normal skin melanocytes from donors with adjacent skin cancer; classified as a weak MAPK activator, insufficient alone to drive clinically visible lesions but capable of accelerating malignant progression upon acquisition of additional drivers [PMID:33029006](../papers/33029006.md)
+- MAP2K1/MAP2K2 combined at 7% in 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); MAP2K1 indels (residues 98–113) act as sole drivers; MAP2K1 missense E203K behaves as a RAF-dependent amplifier requiring co-altered BRAF Class 2 — combination with BRAF K601E produced a durable complete response to trametinib [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -120,5 +121,8 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33029006](../papers/33029006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -53,6 +53,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - K117N activating mutation found in one resistant HR+/HER2- MBC biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies [PMID:32404308](../papers/32404308.md)
 - MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), suggesting MAPK bypass as a resistance mechanism. [PMID:32864625](../papers/32864625.md)
 - HRAS cited as a prior UTUC-relevant gene whose mutation frequency differs from bladder carcinomas; no new HRAS mutation data reported in this UTUC integrative profiling study [PMID:33397444](../papers/33397444.md)
+- Rare RAS driver at 2% frequency in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas) [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -184,5 +185,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

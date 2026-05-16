@@ -6,7 +6,7 @@ parent: EYE
 tags: []
 canonical_source: oncotree
 unverified: false
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ Retinoblastoma (OncoTree: RBL) is a pediatric intraocular malignancy arising fro
 
 - [RB1](../genes/RB1.md) — biallelic loss-of-function is the canonical driver; 13 somatic RB1 variants were identified across 10 tumors by MSK-IMPACT, spanning nonsense (R579*, R320*, R255*, R445*, E315*, R556*, Q736*), frameshift (N623Qfs*15, D338Vfs*11), in-frame deletion (N480del), and splice variants; tumor-guided cfDNA genotyping detected 10/13 of these mutations in plasma (median VAF 4.9%, range 0.7%–12.6%) [PMID:32633890](../papers/32633890.md).
 - [MYCN](../genes/MYCN.md) — amplification without RB1 loss drives ~1% of retinoblastomas; not assayed in the [rbl_cfdna_msk_2020](../datasets/rbl_cfdna_msk_2020.md) cohort but flagged as a future extension target via cfDNA copy-number analysis [PMID:32633890](../papers/32633890.md).
+- MSK-IMPACT profiling of 83 enucleated retinoblastoma specimens found RB1 biallelic inactivation in 79.5%, with copy-neutral LOH as the dominant second-hit mechanism (73.8% of LOH events; OR=44.4 vs. RB1 in other cancers); BCOR was the most common non-RB1 somatic alteration (22.9%) and associated with worse metastasis-free survival (p=0.03); 1q gain (67%) and 16q LOH (43%) independently associated with vitreous seeding; 12% of germline-tested patients carried non-RB1 cancer-predisposition variants [PMID:33466343](../papers/33466343.md)
 
 ## Subtypes
 
@@ -42,3 +43,6 @@ Retinoblastoma (OncoTree: RBL) is a pediatric intraocular malignancy arising fro
 - [PMID:32633890](../papers/32633890.md) — Kothari et al. plasma cfDNA RB1 detection in retinoblastoma.
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

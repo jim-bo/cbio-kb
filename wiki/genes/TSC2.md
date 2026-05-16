@@ -1,9 +1,9 @@
 ---
 symbol: TSC2
 aliases: [tuberin]
-cancer_types: [BRCA]
+cancer_types: [BRCA, RBL]
 tags: [tumor-suppressor, somatic, mtor-pathway, mtor-inhibitor-target, metastasis-enriched]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -22,10 +22,12 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 - Somatic alterations in 25% (20/80) of metastatic panNET patients; dominant mTOR-pathway driver; one germline R1200W carrier missed by phenotype-based clinical TSC criteria; acquired splice mutation in one patient at everolimus progression; 16 patients with TSC2 somatic alterations at OncoKB Level 2b (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 - Mutated in 9% of refractory metastatic TNBC in the FUSCC FUTURE trial cohort; enriched in metastatic vs primary TNBC samples. [PMID:32719455](../papers/32719455.md)
 - Rare non-recurrent VUS observed in both excellent and poor responders among BRAF-mutant melanoma patients treated with BRAFi; no association with intrinsic resistance (co-noted with TSC1 and MTOR) [PMID:32913971](../papers/32913971.md)
+- Mutated in 2/83 (2.4%) retinoblastoma specimens ([RBL](../cancer_types/RBL.md)) by MSK-IMPACT; located at 16p13.3, corresponding to the 16p region commonly altered in retinoblastoma; mutations classified as VUS in the context of this study. [PMID:33466343](../papers/33466343.md)
 
 ## Cancer types (linked)
 
 - [BRCA](../cancer_types/BRCA.md) (HR+/HER2− mBC): TSC2 (combined with TSC1) mutations are significantly enriched in metastatic versus early breast cancer (6.3% vs 0.7%, p=0.0004). All mutant cases had prior endocrine therapy, consistent with mTOR activation as an acquired endocrine-resistance mechanism. [PMID:28027327](../papers/28027327.md)
+- [RBL](../cancer_types/RBL.md): TSC2 mutated in 2/83 (2.4%) enucleated retinoblastoma specimens; located at 16p13.3, a commonly altered chromosomal region in retinoblastoma; mutations were VUS status in this cohort. [PMID:33466343](../papers/33466343.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -43,23 +45,12 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 ## Sources
 
 - [PMID:28027327](../papers/28027327.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
+- [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

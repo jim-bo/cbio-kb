@@ -25,7 +25,7 @@ Intimal Sarcoma is a rare, aggressive vascular neoplasm arising from the intima 
 
 ## Recurrent alterations
 
-- In the 2,138-sarcoma MSK-IMPACT cohort (n=18 INTS), oncogenic TERT amplifications were identified in 44% (8/18) of intimal sarcomas — distinct from the classical MDM2/CDK4 amplicon seen in liposarcoma; TERT amplification in INTS was functionally distinct from TERT promoter mutations seen in MRLS/SFT/DDCHS [PMID:35705560](../papers/35705560.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort (n=18 INTS), oncogenic [TERT](../genes/TERT.md) amplifications were identified in 44% (8/18) of intimal sarcomas — distinct from the classical MDM2/CDK4 amplicon seen in liposarcoma; TERT amplification in INTS was functionally distinct from TERT promoter mutations seen in MRLS/SFT/DDCHS [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -33,7 +33,7 @@ Intimal Sarcoma is a rare, aggressive vascular neoplasm arising from the intima 
 
 ## Therapeutic landscape
 
-- MDM2 amplification provides potential target via MDM2 inhibitors (analogous to liposarcoma); TERT amplification is a candidate biomarker but without established therapeutic implication at present.
+- [MDM2](../genes/MDM2.md) amplification provides potential target via MDM2 inhibitors (analogous to liposarcoma); TERT amplification is a candidate biomarker but without established therapeutic implication at present.
 
 ## Sources
 

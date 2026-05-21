@@ -29,9 +29,11 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - ERBB2 amplification is the cohort entry criterion for 733 HER2+ breast tumors; activating mutations (e.g., L755S) found in 7% of metastatic vs 3% of primary samples drive MAPK reactivation and anti-HER2 resistance; MAPK-altered subgroup has HR 2.03 for PFS on first-line anti-HER2 therapy (p=0.023). [PMID:34795269](../papers/34795269.md)
 - Amplification more frequent in esophageal cancer patients with lung metastasis (16% primary vs 37% lung met, q<0.001), identifying ERBB2 as a marker of lung-tropic dissemination in esophageal adenocarcinoma [PMID:35120664](../papers/35120664.md)
 - ERBB2/3/4 together with [EGFR](../genes/EGFR.md) accounted for ~5% of CNS-tumor oncomap alterations in the MAPPYACTS pediatric relapsed/refractory WES cohort (n=787); investigational ERBB-inhibitor matches were generated. [PMID:35292802](../papers/35292802.md)
-- ERBB2 was altered in 16% of MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients (predominantly amplification) in a neoadjuvant chemoradiotherapy cohort (n=237); alteration was not significantly associated with pathologic treatment response. Ten patients received neoadjuvant trastuzumab based on clinical HER2 status. [PMID:35377946](../papers/35377946.md)
+- ERBB2 was altered in 16% of MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients (predominantly amplification) in a neoadjuvant chemoradiotherapy cohort (n=237); alteration was not significantly associated with pathologic treatment response. Ten patients received neoadjuvant [trastuzumab](../drugs/trastuzumab.md) based on clinical HER2 status. [PMID:35377946](../papers/35377946.md)
 - Altered in 5 LGSC cases including 2 amplifications and 1 Y772_A775dup hotspot; included in the MAPK pathway-altered group in a study of 119 MSK-IMPACT-sequenced LGSC patients [PMID:35443055](../papers/35443055.md)
 - ERBB2 hotspot mutations enriched in germline (Lynch) MMR-D endometrial carcinomas (29% vs 3% MLH1ph); proposed as a potentially targetable alteration via irreversible HER2 tyrosine-kinase inhibition in Lynch-associated EC [PMID:35849120](../papers/35849120.md)
+- Amplification in 24% of [BRCA](../cancer_types/BRCA.md) (vs 2% in other types) in pan-Asian solid-tumor cohort; actionable with [lapatinib](../drugs/lapatinib.md), trastuzumab+[pertuzumab](../drugs/pertuzumab.md), [neratinib](../drugs/neratinib.md), margetuximab, and trastuzumab+[tucatinib](../drugs/tucatinib.md) (OncoKB Level 1); GoF mutations in 3% of [NSCLC](../cancer_types/NSCLC.md) actionable with T-DM1 and [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) [PMID:35871175](../papers/35871175.md)
+- Amplification in 3% of pMMR/MSS rectal tumors (Level 2 actionable); one of only two Level 1-2 actionable findings in LARC genomic landscape study [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -46,7 +48,7 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 
 ## Therapeutic relevance
 
-- trastuzumab (anti-HER2) administered to 86/108 ERBB2-amplified EAC patients (64 first-line, 22 second-line); survival benefit of ERBB2 amplification in EAC cannot be cleanly separated from trastuzumab effect vs. intrinsic biology [PMID:33795256](../papers/33795256.md).
+- trastuzumab (anti-HER2) administered to 86/108 ERBB2-amplified [EAC](../cancer_types/EAC.md) patients (64 first-line, 22 second-line); survival benefit of ERBB2 amplification in EAC cannot be cleanly separated from trastuzumab effect vs. intrinsic biology [PMID:33795256](../papers/33795256.md).
 - Authors of EAC study note that mutual exclusivity with MDM2/RTK-RAS-PIK3 alterations may contribute to superior trastuzumab outcomes in ERBB2-amplified tumors, as these co-alterations are known mediators of resistance [PMID:33795256](../papers/33795256.md).
 
 ## Open questions
@@ -77,5 +79,11 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - [PMID:35443055](../papers/35443055.md)
 
 - [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

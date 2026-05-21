@@ -48,10 +48,11 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - In 696 melanomas profiled by MSK-IMPACT, oncogenic ALK fusions were identified as rare drivers within the RTK-RAS-MAPK pathway, targeted successfully with kinase inhibitors in the checkpoint-refractory setting. [PMID:33509808](../papers/33509808.md)
 - EML4-ALK fusions detected de novo and by genotyping in [NSCLC](../cancer_types/NSCLC.md) by the MSK-ACCESS 129-gene cfDNA panel; ALK also included in the 10-gene orthogonal-truth accuracy cohort for MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
 - Fusion-driver alterations detected in 6.0% of lung cancers in never- or light-smokers (LCINS) in a 232-sample WGS cohort; trend toward worse [OS](../cancer_types/OS.md) (not statistically significant); enriched in the mezzo-forte subtype. [PMID:34493867](../papers/34493867.md)
-- ALK fusions slightly more frequent in LUAD metastases vs primaries (3% vs 6%, q<0.001) in the MSK-MET pan-cancer cohort of 25,775 patients [PMID:35120664](../papers/35120664.md)
+- ALK fusions slightly more frequent in [LUAD](../cancer_types/LUAD.md) metastases vs primaries (3% vs 6%, q<0.001) in the MSK-MET pan-cancer cohort of 25,775 patients [PMID:35120664](../papers/35120664.md)
 - ALK fusions (n=10) classified ready-for-routine-use across [ALCL](../cancer_types/ALCL.md) and other pediatric tumors (ALK–NPM1/TFG/TRAF1); ALK activating mutations (n=15) investigational in [NBL](../cancer_types/NBL.md); 3 resistance mutations observed after prior ALK inhibitor exposure in the MAPPYACTS trial (n=624 patients with successful sequencing) [PMID:35292802](../papers/35292802.md)
 - ALK referenced as an analogous oncogene-addicted system where compound on-target mutations and bypass signaling drive resistance to selective [RET](../genes/RET.md) inhibitor [selpercatinib](../drugs/selpercatinib.md) (LIBRETTO-001 trial) [PMID:35304457](../papers/35304457.md)
 - Kinase fusions of ALK detected in 2.6% of 7,494 sarcomas; novel TNS1-ALK rearrangements identified in 16 leiomyosarcoma cases (primarily uterine and non-uterine [LMS](../cancer_types/LMS.md)), representing a potentially ALK-inhibitor-targetable subgroup [PMID:35705558](../papers/35705558.md)
+- Fusions in 6.7% of [NSCLC](../cancer_types/NSCLC.md) in the OncoMark Chinese solid-tumor cohort (n=2,396); actionable with [crizotinib](../drugs/crizotinib.md), [ceritinib](../drugs/ceritinib.md), and [alectinib](../drugs/alectinib.md) (OncoKB Level 1); multiple novel fusion partner genes catalogued [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -173,5 +174,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

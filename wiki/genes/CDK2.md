@@ -26,7 +26,7 @@ CDK2 (Cyclin-Dependent Kinase 2) partners with Cyclin E and Cyclin A to drive S-
 
 ## Co-occurrence and mutual exclusivity
 
-- CDK2 elevation co-occurs with [ATR](../genes/ATR.md) and [CDK9](../genes/CDK9.md) kinase elevation in TP53-mutant GBM tumors [PMID:33577785](../papers/33577785.md).
+- CDK2 elevation co-occurs with [ATR](../genes/ATR.md) and [CDK9](../genes/CDK9.md) kinase elevation in TP53-mutant [GBM](../cancer_types/GBM.md) tumors [PMID:33577785](../papers/33577785.md).
 
 ## Therapeutic relevance
 

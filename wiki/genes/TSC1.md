@@ -22,7 +22,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - TSC1 nonsense mutation in bladder cancer organoid line SCBO-6 conferred sensitivity to mTOR inhibitor AZD8055, with an additive effect when combined with FGFR inhibitor JNJ-42756493 [PMID:29625057](../papers/29625057.md)
 - Rare level-2B actionable finding (n=3 TSC1/TSC2 combined) in a 189-patient prospective NGS cohort of advanced cholangiocarcinoma; identified as a potentially targetable mTOR-pathway alteration [PMID:29848569](../papers/29848569.md)
 - Inactivating alterations enriched in secondary MIBC (14% vs 5.5%, univariable p=0.007) in MSK-IMPACT-profiled bladder cancer cohort; did not survive FDR correction; finding hypothesis-generating only [PMID:30290956](../papers/30290956.md)
-- Truncating/inactivating alterations in <1% of advanced [HCC](../cancer_types/HCC.md) (MSK-IMPACT cohort); together with [TSC2](../genes/TSC2.md) (~10.6%) defines mTOR negative-regulator loss as rationale for matched [everolimus](../drugs/everolimus.md) therapy; one TSC2 E95*-mutant patient had disease stabilization on [everolimus](../drugs/everolimus.md) after [sorafenib](../drugs/sorafenib.md) progression [PMID:30373752](../papers/30373752.md)
+- Truncating/inactivating alterations in <1% of advanced [HCC](../cancer_types/HCC.md) (MSK-IMPACT cohort); together with [TSC2](../genes/TSC2.md) (~10.6%) defines mTOR negative-regulator loss as rationale for matched [everolimus](../drugs/everolimus.md) therapy; one [TSC2](../genes/TSC2.md) E95*-mutant patient had disease stabilization on [everolimus](../drugs/everolimus.md) after [sorafenib](../drugs/sorafenib.md) progression [PMID:30373752](../papers/30373752.md)
 - OncoKB Level 2b actionable alteration in metastatic panNET ([panet_msk_2018](../datasets/panet_msk_2018.md)); 1 patient with TSC1 somatic alteration eligible for mTOR inhibitor therapy [PMID:30687805](../papers/30687805.md)
 - Recurrently mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md), n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
 - TSC1 listed among recurrent RTK/RAS/PI3K-pathway drivers in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) PDX models, consistent with prior [UTUC](../cancer_types/UTUC.md) genomics [PMID:32332851](../papers/32332851.md)
@@ -30,10 +30,11 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - TSC1 listed as a recurrent CNS oncomap alteration in the AcSé-MAPPYACTS pediatric cohort (n=632 relapsed/refractory samples); co-listed with TSC2, [MN1](../genes/MN1.md), [KDR](../genes/KDR.md), [KIT](../genes/KIT.md), and [PDGFRA](../genes/PDGFRA.md) as other recurrent CNS alterations [PMID:35292802](../papers/35292802.md).
 - TSC1/TSC2 loss predicted mTOR-inhibitor responsiveness in PEComa; subclonal TSC1 documented in PEComa with response to [nivolumab](../drugs/nivolumab.md)+[ipilimumab](../drugs/ipilimumab.md), in FoundationOne CDx pan-sarcoma cohort of 7,494 cases [PMID:35705558](../papers/35705558.md)
 - Loss-of-function in 30% of PEComa; combined TSC1/TSC2 actionable (Level 3B) in 37% of PEComa; contributes to collective 31% targetable PI3K-pathway hits in [MRLS](../cancer_types/MRLS.md) ([PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), [MTOR](../genes/MTOR.md), TSC1) in 2,138-sample MSK-IMPACT sarcoma cohort [PMID:35705560](../papers/35705560.md)
+- Frameshift mutation co-occurring with [PTEN](../genes/PTEN.md) in endometrial carcinoma patient CD20; detected in primary tumor and one of two sentinel lymph nodes by MSK-ACCESS cfDNA panel [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
-- [OS](../cancer_types/OS.md): TSC1 splice-site mutation is a targetable mTOR-pathway event in pediatric osteosarcoma; mTOR inhibitors (everolimus, [temsirolimus](../drugs/temsirolimus.md)) are the relevant class. [PMID:28007021](../papers/28007021.md)
+- [OS](../cancer_types/OS.md): TSC1 splice-site mutation is a targetable mTOR-pathway event in pediatric osteosarcoma; mTOR inhibitors ([everolimus](../drugs/everolimus.md), [temsirolimus](../drugs/temsirolimus.md)) are the relevant class. [PMID:28007021](../papers/28007021.md)
 - [BRCA](../cancer_types/BRCA.md) (HR+/HER2− mBC): TSC1/TSC2 combined mutation rate is significantly enriched in the metastatic vs early breast cancer setting (6.3% vs 0.7%, p=0.0004); all cases had prior endocrine therapy, suggesting mTOR-pathway activation as a potential endocrine-resistance mechanism. [PMID:28027327](../papers/28027327.md)
 
 ## Co-occurrence and mutual exclusivity
@@ -85,5 +86,8 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

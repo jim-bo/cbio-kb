@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [variant-scoring, pathogenicity, functional-annotation]
 processed_by: crosslinker
-processed_at: 2026-05-14
+processed_at: 2026-05-21
 ---
 
 # CADD (Combined Annotation Dependent Depletion)
@@ -18,6 +18,7 @@ CADD (Combined Annotation Dependent Depletion) is a framework for scoring the de
 ## Used by
 
 - Used to annotate functional impact of somatic variants in endometrial polyps; [UBE2A](../genes/UBE2A.md) p.(Arg6Trp) received a CADD score of 24.4, supporting its classification as a deleterious driver alteration [PMID:28445112](../papers/28445112.md)
+- Used as one component of annotation in the three-tool consensus driver-calling pipeline (OncodriveFML, MutSigCV, dNdScv) for WGS-based driver identification in 25 metastatic [CSCC](../cancer_types/CSCC.md) tumors [PMID:35982973](../papers/35982973.md)
 
 ## Notes
 
@@ -29,4 +30,7 @@ CADD (Combined Annotation Dependent Depletion) is a framework for scoring the de
 
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

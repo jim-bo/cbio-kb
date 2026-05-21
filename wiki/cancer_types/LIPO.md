@@ -34,7 +34,7 @@ Liposarcoma is the most common soft-tissue sarcoma of adults, classified under S
 
 - Well-differentiated liposarcoma ([WDLS](../cancer_types/WDLS.md)) — MDM2/CDK4 amplified
 - Dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)) — MDM2/CDK4 amplified, high-grade
-- Myxoid/round-cell liposarcoma — [FUS](../genes/FUS.md)–[DDIT3](../genes/DDIT3.md) or [EWSR1](../genes/EWSR1.md)–DDIT3 fusion
+- Myxoid/round-cell liposarcoma — [FUS](../genes/FUS.md)–[DDIT3](../genes/DDIT3.md) or [EWSR1](../genes/EWSR1.md)–[DDIT3](../genes/DDIT3.md) fusion
 - Pleomorphic liposarcoma — complex karyotype
 
 ## Therapeutic landscape

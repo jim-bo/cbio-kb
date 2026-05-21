@@ -46,7 +46,7 @@ processed_at: 2026-05-21
 
 ## Papers using this cohort
 
-- [PMID:35304457](../papers/35304457.md) — Rosen et al., *Cancer Discovery* 2022: Correlative genomics study of [selpercatinib](../drugs/selpercatinib.md) response and resistance; acquired resistance identified in 11/18 (61%) evaluable progressing patients via on-target RET solvent-front mutations or off-target MAPK bypass (KRAS/NRAS/BRAF/MET/FGFR1). [PMID:35304457](../papers/35304457.md)
+- [PMID:35304457](../papers/35304457.md) — Rosen et al., *Cancer Discovery* 2022: Correlative genomics study of [selpercatinib](../drugs/selpercatinib.md) response and resistance; acquired resistance identified in 11/18 (61%) evaluable progressing patients via on-target [RET](../genes/RET.md) solvent-front mutations or off-target MAPK bypass (KRAS/NRAS/BRAF/MET/FGFR1). [PMID:35304457](../papers/35304457.md)
 
 ## Notable findings derived from this cohort
 

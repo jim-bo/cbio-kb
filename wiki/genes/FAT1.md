@@ -3,8 +3,8 @@ symbol: FAT1
 aliases: []
 cancer_types: [PTCL, THAP, CSCC]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FAT1
@@ -24,16 +24,17 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - Mutated in 43.6% of 39 aggressive cSCC tumors; identified as a differentiation-related tumor suppressor by inactivation-bias methods [PMID:25303977](../papers/25303977.md)
 - Mutated in 23% of HNSCC; novel significantly mutated gene; aberrant Wnt/beta-catenin activation; convergent with [AJUBA](../genes/AJUBA.md) and NOTCH inactivation [PMID:25631445](../papers/25631445.md)
 - FAT1 is among the low-frequency recurrently mutated genes (>=2 ATC or >=3 PDTC) identified by MSK-IMPACT 341-gene sequencing of 117 advanced thyroid tumors [PMID:26878173](../papers/26878173.md)
-- FAT1 identified as a Wnt-pathway alteration in a genomic profiling study of cisplatin-resistant germ cell tumors (GCT), alongside APC and AXIN1 [PMID:27646943](../papers/27646943.md)
+- FAT1 identified as a Wnt-pathway alteration in a genomic profiling study of cisplatin-resistant germ cell tumors ([GCT](../cancer_types/GCT.md)), alongside [APC](../genes/APC.md) and [AXIN1](../genes/AXIN1.md) [PMID:27646943](../papers/27646943.md)
 - R937 missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
 - 12% mutated newly recognized SMG in MIBC; also subject to epigenetic silencing in a mutually exclusive subset of tumors, suggesting both genetic and epigenetic inactivation mechanisms [PMID:28988769](../papers/28988769.md)
-- Altered in 40% (6/15) of vulvar squamous cell carcinomas irrespective of HPV status — the highest-frequency alteration alongside PIK3CA in this first genome-wide WES characterization of vulvar SCC [PMID:29422544](../papers/29422544.md)
-- Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC) [PMID:30052636](../papers/30052636.md)
-- Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- MBC biopsies in this cohort [PMID:32404308](../papers/32404308.md)
+- Altered in 40% (6/15) of vulvar squamous cell carcinomas irrespective of HPV status — the highest-frequency alteration alongside [PIK3CA](../genes/PIK3CA.md) in this first genome-wide WES characterization of vulvar SCC [PMID:29422544](../papers/29422544.md)
+- Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 [HCC](../cancer_types/HCC.md)) [PMID:30052636](../papers/30052636.md)
+- Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- [MBC](../cancer_types/MBC.md) biopsies in this cohort [PMID:32404308](../papers/32404308.md)
 - Recurrent mutations in MSK-IMPACT retinoblastoma cohort (n=83 enucleated specimens); all variants were classified as VUS — no putative-driver variants identified; functional assessment not possible given small cohort size [PMID:33466343](../papers/33466343.md)
-- Mutated in 30.1% of CSCC tumors; Hippo-pathway tumor suppressor; one of the most frequent alterations identified in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
-- FAT1 loss-of-function alterations found in 1.6% of 1,115 HR+/HER2- metastatic breast cancer patients profiled by MSK-IMPACT (breast_ink4_msk_2021); FAT1 loss drives CDK6 upregulation via Hippo-pathway derepression, conferring CDK4/6i resistance in an isogenic MCF7 FAT1CR CRISPR model. [PMID:34544752](../papers/34544752.md)
+- Mutated in 30.1% of [CSCC](../cancer_types/CSCC.md) tumors; Hippo-pathway tumor suppressor; one of the most frequent alterations identified in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- FAT1 loss-of-function alterations found in 1.6% of 1,115 HR+/HER2- metastatic breast cancer patients profiled by MSK-IMPACT ([breast_ink4_msk_2021](../datasets/breast_ink4_msk_2021.md)); FAT1 loss drives [CDK6](../genes/CDK6.md) upregulation via Hippo-pathway derepression, conferring CDK4/6i resistance in an isogenic MCF7 FAT1CR CRISPR model. [PMID:34544752](../papers/34544752.md)
 - Mutated in 33% of MSI-H colorectal cancers (atypical-cadherin WNT-related mutations); part of a cluster of cadherin-family WNT-modulating genes altered in the MSI-H CRC subtype [PMID:34910928](../papers/34910928.md)
+- Mentioned as part of pan-cancer driver landscape in a pan-Asian solid-tumor cohort (450-gene panel, n=1,015 Chinese patients) [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -59,52 +60,55 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:39091884](../papers/39091884.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29422544](../papers/29422544.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30052636](../papers/30052636.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34544752](../papers/34544752.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

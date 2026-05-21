@@ -10,8 +10,8 @@ tags:
   - targeted-therapy
   - HER2
   - breast-cancer
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # pertuzumab
@@ -24,7 +24,8 @@ Pertuzumab is a recombinant humanized monoclonal antibody that binds to the HER2
 
 - TCGA breast cancer study identified two subtypes of clinically HER2+ disease: HER2E mRNA subtype (strong HER1/p-HER1/HER2/p-HER2 RPPA signal) vs. Luminal mRNA subtype (higher ER/GATA3/BCL2 expression); these subtypes may respond differently to anti-HER2 therapies including pertuzumab; HER2E subtype shows co-activation of HER1/EGFR suggesting potential benefit from dual HER1/HER2 targeting [PMID:23000897](../papers/23000897.md).
 - ERBB2-altered CCA (4–6% iCCA, 3–20% eCCA): MyPathway phase IIa basket ORR 23% in combination with [trastuzumab](../drugs/trastuzumab.md); [ERBB2](../genes/ERBB2.md) overexpression is an independent poor-prognostic factor after curative resection [PMID:25526346](../papers/25526346.md)
-- In 145 HER2+ metastatic breast cancer patients receiving first-line docetaxel + trastuzumab + pertuzumab (THP), MAPK-pathway-altered tumors had median PFS 9.9 months vs 21 months for MAPK-WT (HR 2.03, 95% CI 1.18–3.51; multivariate p=0.011). [PMID:34795269](../papers/34795269.md)
+- In 145 HER2+ metastatic breast cancer patients receiving first-line [docetaxel](../drugs/docetaxel.md) + [trastuzumab](../drugs/trastuzumab.md) + pertuzumab (THP), MAPK-pathway-altered tumors had median PFS 9.9 months vs 21 months for MAPK-WT (HR 2.03, 95% CI 1.18–3.51; multivariate p=0.011). [PMID:34795269](../papers/34795269.md)
+- Anti-HER2 antibody; trastuzumab+pertuzumab dual HER2 blockade indicated for ERBB2-amplified [BRCA](../cancer_types/BRCA.md) (24% of BRCA) in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
 
 ## Resistance mechanisms
 
@@ -38,10 +39,13 @@ Pertuzumab is a recombinant humanized monoclonal antibody that binds to the HER2
 
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

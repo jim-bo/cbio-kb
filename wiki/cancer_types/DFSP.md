@@ -25,7 +25,7 @@ Dermatofibrosarcoma Protuberans is a low- to intermediate-grade superficial soft
 
 ## Recurrent alterations
 
-- In a 7,494-sarcoma cohort, DFSP showed lower TMB in pediatric/AYA (P-AYA ≤30 years) patients (0.8 vs 2.8 mut/Mb vs adults; FDR<0.05); the COL1A1–PDGFB fusion is the defining molecular feature and identifies [imatinib](../drugs/imatinib.md) as a therapeutic target [PMID:35705558](../papers/35705558.md).
+- In a 7,494-sarcoma cohort, DFSP showed lower TMB in pediatric/AYA (P-AYA ≤30 years) patients (0.8 vs 2.8 mut/Mb vs adults; FDR<0.05); the [COL1A1](../genes/COL1A1.md)–[PDGFB](../genes/PDGFB.md) fusion is the defining molecular feature and identifies [imatinib](../drugs/imatinib.md) as a therapeutic target [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
@@ -33,7 +33,7 @@ Dermatofibrosarcoma Protuberans is a low- to intermediate-grade superficial soft
 
 ## Therapeutic landscape
 
-- PDGFB fusion → imatinib (FDA-approved for unresectable/metastatic DFSP); recognized as a COL1A1–PDGFB driven kinase-fusion sarcoma in the FoundationOne Heme cohort [PMID:35705558](../papers/35705558.md).
+- PDGFB fusion → [imatinib](../drugs/imatinib.md) (FDA-approved for unresectable/metastatic DFSP); recognized as a COL1A1–PDGFB driven kinase-fusion sarcoma in the FoundationOne Heme cohort [PMID:35705558](../papers/35705558.md).
 
 ## Sources
 

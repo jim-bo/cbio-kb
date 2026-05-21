@@ -3,8 +3,8 @@ symbol: PTPRD
 aliases: []
 cancer_types: [MPNST]
 tags: [phosphatase, tumor-suppressor]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # PTPRD
@@ -24,7 +24,8 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - PTPRD tumor-suppressor alterations flagged as actionable in a targeted sequencing study of germ cell tumors, particularly among cisplatin-resistant patients [PMID:27646943](../papers/27646943.md).
 - PTPRD less frequently mutated in the MSK metastatic gastroesophageal cohort vs TCGA non-MSI-H (q<=0.10), suggesting selective pressure against PTPRD mutations in metastatic disease [PMID:29122777](../papers/29122777.md)
 - Low-frequency gene enriched in metastatic vs primary TNBC samples in the FUSCC cohort (n=69 refractory metastatic TNBC); also among resistance-mutation-tendency genes more frequent in PD patients of the FUTURE trial. [PMID:32719455](../papers/32719455.md)
-- Frequently co-mutated with BRAF in BRAF-mutant melanoma pretreatment tumors; most variants classified as VUS likely representing passenger events given the high tumor mutational burden of melanoma [PMID:32913971](../papers/32913971.md)
+- Frequently co-mutated with [BRAF](../genes/BRAF.md) in BRAF-mutant melanoma pretreatment tumors; most variants classified as VUS likely representing passenger events given the high tumor mutational burden of melanoma [PMID:32913971](../papers/32913971.md)
+- Most frequently deleted gene (24% of samples) on chromosome 9p in metastatic [CSCC](../cancer_types/CSCC.md) WGS cohort (n=25); tumor suppressor; loss drives [STAT3](../genes/STAT3.md) hyperactivation and resistance to EGFR-targeted therapy in HNSCC; DEL/LOH in multiple samples by LINX/PURPLE [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -54,4 +55,7 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - [PMID:32913971](../papers/32913971.md)
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

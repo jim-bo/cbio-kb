@@ -3,8 +3,8 @@ symbol: FGFR2
 aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # FGFR2
@@ -47,6 +47,8 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2 mutations and fusions (most commonly FGFR2-BICC1) identified in 8/24 intrahepatic cholangiocarcinomas with detectable ctDNA by MSK-ACCESS; includes missense mutations in the FGFR2 kinase domain conferring FGFR-inhibitor resistance [PMID:34145282](../papers/34145282.md)
 - FGFR2 fusions prevalence 15.5% in intrahepatic cholangiocarcinoma (IHC) profiled cohort; in N1-node patients (N=4 FGFR2fus vs N=48 FGFR2wt) no significant survival difference (HR 0.64, 95% CI 0.15–2.7, P=0.545; median [OS](../cancer_types/OS.md) 31.4 vs 21.5 months) [PMID:33963001](../papers/33963001.md)
 - FGFR2 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). [PMID:35292802](../papers/35292802.md)
+- Pan-cancer fusion driver in 10,194 Asian solid-tumor patients; FGFR2 and FGFR3 together accounted for ~50 of 513 fusion events detected by the OrigiMed panel; multiple novel partner genes catalogued [PMID:35871175](../papers/35871175.md)
+- Pathogenic [FGFR2](FGFR2.md) mutation detected in CD37 adenosarcoma cfDNA by MSK-ACCESS in a longitudinal endometrial cancer ctDNA monitoring study [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
@@ -71,91 +73,66 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25608663](../papers/25608663.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33963001](../papers/33963001.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+- [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

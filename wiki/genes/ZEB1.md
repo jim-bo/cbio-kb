@@ -28,7 +28,7 @@ ZEB1 (Zinc finger E-box binding homeobox 1) is a transcriptional repressor that 
 ## Co-occurrence and mutual exclusivity
 
 - ZEB1 expression anti-correlated with [CDH1](../genes/CDH1.md) (r = -0.63) across NCI-60 cell lines, consistent with direct transcriptional repression [PMID:22802077](../papers/22802077.md)
-- ZEB1 co-regulates EMT alongside [SNAI2](../genes/SNAI2.md), [ZEB2](../genes/ZEB2.md), and [TWIST1](../genes/TWIST1.md) (all repressors of CDH1) and is negatively regulated by the miR-200 microRNA family [PMID:22802077](../papers/22802077.md)
+- ZEB1 co-regulates EMT alongside [SNAI2](../genes/SNAI2.md), [ZEB2](../genes/ZEB2.md), and [TWIST1](../genes/TWIST1.md) (all repressors of [CDH1](../genes/CDH1.md)) and is negatively regulated by the miR-200 microRNA family [PMID:22802077](../papers/22802077.md)
 
 ## Therapeutic relevance
 

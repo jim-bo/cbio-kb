@@ -20,7 +20,7 @@ SNAI2 (Snail family transcriptional repressor 2, also known as SLUG) is a zinc-f
 
 ## Alterations observed in the corpus
 
-- SNAI2 expression is low and variable in SCLC-P (POU2F3-driven) PDX models; [VIM](../genes/VIM.md), [SNAI1](../genes/SNAI1.md), SNAI2, and [ZEB1](../genes/ZEB1.md) showed heterogeneous and non-uniform EMT patterns in the MSK [SCLC](../cancer_types/SCLC.md) PDX cohort, inconsistent with EMT being a hallmark of non-NE SCLC [PMID:35440124](../papers/35440124.md).
+- SNAI2 expression is low and variable in SCLC-P (POU2F3-driven) PDX models; [VIM](../genes/VIM.md), [SNAI1](../genes/SNAI1.md), SNAI2, and [ZEB1](../genes/ZEB1.md) showed heterogeneous and non-uniform EMT patterns in the MSK [SCLC](../cancer_types/SCLC.md) PDX cohort, inconsistent with EMT being a hallmark of non-NE [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 

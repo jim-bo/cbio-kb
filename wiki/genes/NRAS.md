@@ -66,12 +66,12 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS mutations predicted MAPK-inhibitor sensitivity ex vivo in the Beat [AML](../cancer_types/AML.md) cohort ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)); NRAS association with MAPK-inhibitor sensitivity was stronger than that of [KRAS](../genes/KRAS.md) [PMID:30333627](../papers/30333627.md)
 - NRAS oncogenic missense mutations in <1% of advanced [HCC](../cancer_types/HCC.md) in the MSK-IMPACT cohort; identified alongside [HRAS](../genes/HRAS.md) and [PIK3CA](../genes/PIK3CA.md) as low-frequency oncogenic alterations [PMID:30373752](../papers/30373752.md)
 - NRAS Q61R acquired at [vemurafenib](../drugs/vemurafenib.md) progression in a [BRAF](../genes/BRAF.md) V600E-mutant metastatic panNET patient; NRAS somatic mutations also detected in 2 patients (OncoKB Level 3b) in this cohort [PMID:30687805](../papers/30687805.md)
-- NRAS G12D observed in a compound-mutation [LCH](../cancer_types/LCH.md) patient also harboring BRAF V600E and [KRAS](../genes/KRAS.md) G13C; NRAS-mutant histiocytosis responded to [cobimetinib](../drugs/cobimetinib.md) MEK inhibition [PMID:30867592](../papers/30867592.md)
+- NRAS G12D observed in a compound-mutation [LCH](../cancer_types/LCH.md) patient also harboring [BRAF](../genes/BRAF.md) V600E and [KRAS](../genes/KRAS.md) G13C; NRAS-mutant histiocytosis responded to [cobimetinib](../drugs/cobimetinib.md) MEK inhibition [PMID:30867592](../papers/30867592.md)
 - NRAS Q61K mutation in Fusion− [RMS](../cancer_types/RMS.md) PDX NCH-ERMS-1; NRAS G13R RNA-derived missense variant in DIPG model IBs-W0128DIPG; RAS pathway mutations enriched in BCP-ALL and Fusion− [RMS](../cancer_types/RMS.md) across the PPTC 261-model cohort [PMID:31693904](../papers/31693904.md).
 - Mutated in 30% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside BRAF and [NF1](../genes/NF1.md) [PMID:31792460](../papers/31792460.md)
 - NRAS Q61R co-occurring with [GON4L](../genes/GON4L.md)–[NTRK1](../genes/NTRK1.md) fusion in one melanoma; tumor progressed on [larotrectinib](../drugs/larotrectinib.md) and cell line was insensitive to larotrectinib/LOXO-195 but sensitive to [trametinib](../drugs/trametinib.md), suggesting NRAS-driven oncogenic independence from TRK [PMID:31871300](../papers/31871300.md)
 - Focal high-level amplification in one resistant HR+/HER2- [MBC](../cancer_types/MBC.md) biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies [PMID:32404308](../papers/32404308.md)
-- Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a [NSGCT](../cancer_types/NSGCT.md) precursor clone; activating RAS-pathway mutations (KRAS or NRAS) together present in 63% of [GCT](../cancer_types/GCT.md)+hematologic-malignancy cases vs. 13% of de novo AML [PMID:32897884](../papers/32897884.md)
+- Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a [NSGCT](../cancer_types/NSGCT.md) precursor clone; activating RAS-pathway mutations ([KRAS](../genes/KRAS.md) or NRAS) together present in 63% of [GCT](../cancer_types/GCT.md)+hematologic-malignancy cases vs. 13% of de novo [AML](../cancer_types/AML.md) [PMID:32897884](../papers/32897884.md)
 - p.Q61L detected in normal melanocytes from sun-damaged skin (Donor 13, back, peri-MEL site); classified as a weak MAPK activator present in histologically normal tissue, implying pre-malignant clonal expansion [PMID:33029006](../papers/33029006.md)
 - Late-progression driver acquired between clonal hematopoiesis (CH) stage and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients; 0 RAS hotspot mutations observed at the CH stage, implicating NRAS as a progression rather than initiation event [PMID:33106634](../papers/33106634.md)
 - Q61 alterations in 29% of 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); usually a sole driver (only 29% co-altered); associated with shortest TTF on PD-1 monotherapy (4.2 months; p<0.0001 vs. [NF1](../genes/NF1.md) 22 months); NRAS Q61 co-altered in 29% vs. 70% for other RAS (p=7.9e-07) [PMID:33509808](../papers/33509808.md)
@@ -82,6 +82,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS mutations among the RAS-family events (42 total KRAS/NRAS/HRAS events) in the MAPPYACTS pediatric relapsed cohort (n=787); classified as investigational rather than ready-for-routine-use given limited MEK inhibitor activity in pediatric mutant tumors [PMID:35292802](../papers/35292802.md)
 - NRAS acquired mutations (G13D, Q61R) identified at [selpercatinib](../drugs/selpercatinib.md) progression in RET-fusion-positive lung cancers, representing off-target bypass resistance via RAS-MAPK reactivation [PMID:35304457](../papers/35304457.md)
 - NRAS Q61R/Q61K hotspot mutations in 11% (13/119) of [LGSOC](../cancer_types/LGSOC.md) patients on MSK-IMPACT; mutually exclusive with KRAS (p=0.004); not significantly associated with age or platinum sensitivity; part of the MAPK-altered group with improved [OS](../cancer_types/OS.md) (multivariate HR 2.5 for absence, p=0.019) [PMID:35443055](../papers/35443055.md)
+- Mutated in 4% of pMMR/MSS LARC tumors (Level 3B actionable in CRC) in a cohort of 692 rectal tumors sequenced by MSK-IMPACT [PMID:35970919](../papers/35970919.md)
+- NRAS (with KRAS, collectively 'RAS') correlated with Monocyte-like cell state in AML; RAS-mutant AML shows greater sensitivity to STE7/MEK inhibitors (expected) and to CDK-family inhibitors (unexpected) in ex vivo drug profiling [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 
@@ -190,5 +192,11 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

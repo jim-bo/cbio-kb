@@ -20,7 +20,7 @@ JUN (Jun Proto-Oncogene, AP-1 Transcription Factor Subunit) encodes a component 
 - Identified as novel recurrently mutated gene in metastatic colorectal cancer in a 1,211-patient WES/WGS/transcriptome study [PMID:29316426](../papers/29316426.md)
 - p-cJUN (S73) activation confirmed as MAP3K1-dependent escape signaling in ER+/HER2- breast cancer treated with [buparlisib](../drugs/buparlisib.md) + [letrozole](../drugs/letrozole.md), but not therapeutically exploitable in vitro [PMID:31552290](../papers/31552290.md).
 - AP-1 family member co-involved in the FOSL1/AP-1 transcriptional axis that drives CRPC-SCL subtype chromatin reprogramming in metastatic CRPC models [PMID:35617398](../papers/35617398.md)
-- JUN amplification is mutually exclusive with [GLI1](../genes/GLI1.md) amplification in dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)), with the mutual exclusivity motivating study of the Jun/cyclin D1 axis in DDLS biology [PMID:35705560](../papers/35705560.md)
+- JUN amplification is mutually exclusive with [GLI1](../genes/GLI1.md) amplification in dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)), with the mutual exclusivity motivating study of the Jun/cyclin D1 axis in [DDLS](../cancer_types/DDLS.md) biology [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 

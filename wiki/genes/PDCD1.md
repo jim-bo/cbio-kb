@@ -3,8 +3,8 @@ symbol: PDCD1
 aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # PDCD1
@@ -26,17 +26,18 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PD-1 immune checkpoint whose blockade efficacy in biliary tract cancer is modulated by gut microbiota composition; Bacteroidetes enrichment improves anti-PD-1 outcomes while Proteobacteria dominance reduces [sintilimab](../drugs/sintilimab.md)+[anlotinib](../drugs/anlotinib.md) efficacy [PMID:25608663](../papers/25608663.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PDCD1 (PD-1) expression is elevated in the Immune transcriptomic subclass, which is associated with improved post-accession survival in regional-metastasis cases and high lymphocyte infiltration on pathology. [PMID:26091043](../papers/26091043.md)
 - Expression of PDCD1 (PD-1) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset, whole-tumor transcriptome); lack of significant difference attributed to dilution of immune-cell-specific signal in bulk RNA-seq. [PMID:26997480](../papers/26997480.md)
-- PDCD1 not directly altered in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC); 47% of lung ADC and 53% of lung SqCC had ≥5 predicted neoepitopes, providing rationale for broad checkpoint immunotherapy applicability across both subtypes. [PMID:27158780](../papers/27158780.md)
-- PDCD1 (PD-1) specifically upregulated in Cluster 3 of cholangiocarcinoma molecular subtypes alongside PDCD1LG2 (PD-L2) and BTLA, motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype [PMID:28667006](../papers/28667006.md)
+- PDCD1 not directly altered in the 1,144-tumor [NSCLC](../cancer_types/NSCLC.md) landscape study (660 lung ADC, 484 lung SqCC); 47% of lung ADC and 53% of lung SqCC had ≥5 predicted neoepitopes, providing rationale for broad checkpoint immunotherapy applicability across both subtypes. [PMID:27158780](../papers/27158780.md)
+- PDCD1 (PD-1) specifically upregulated in Cluster 3 of cholangiocarcinoma molecular subtypes alongside [PDCD1LG2](../genes/PDCD1LG2.md) (PD-L2) and [BTLA](../genes/BTLA.md), motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype [PMID:28667006](../papers/28667006.md)
 - PDCD1 (PD-1) strongly expressed in luminal-infiltrated subtype of MIBC, the proposed checkpoint-immunotherapy-responsive subset; expression also high in basal-squamous [PMID:28988769](../papers/28988769.md)
-- PDCD1 (PD-1) upregulated on-therapy regardless of response in metastatic melanoma patients treated with nivolumab; pre-therapy expression not differentially expressed between responders/non-responders by RNA-seq, though PD-L1 IHC positivity selected for response among Ipi-P patients [PMID:29033130](../papers/29033130.md)
+- PDCD1 (PD-1) upregulated on-therapy regardless of response in metastatic melanoma patients treated with [nivolumab](../drugs/nivolumab.md); pre-therapy expression not differentially expressed between responders/non-responders by RNA-seq, though PD-L1 IHC positivity selected for response among Ipi-P patients [PMID:29033130](../papers/29033130.md)
 - PDCD1 (PD-1) immune checkpoint programs are enriched in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), and C28 (pan-kidney), forming the basis for the authors' suggestion of immunotherapy susceptibility across these molecular subtypes of 10,000 TCGA pan-cancer tumors [PMID:29625048](../papers/29625048.md)
 - PDCD1 (PD-1, with CD274/PD-L1) forms a CD8-PD-L1-PD-1 signaling loop in the C3 immune subtype, where BRAF-driven tumors are enriched; 16/18 germline MMR carriers also carry somatic MMR mutations and are MSI-high, defining a population expected to respond to PD-1 blockade [PMID:29625049](../papers/29625049.md)
-- PDCD1 (PD-1) is a differential immune checkpoint target; mixed-type cHCC-ICC is enriched for a High immune cluster suggesting differential sensitivity to PD-1/PD-L1 and CTLA4 blockade vs. combined-type cHCC-ICC [PMID:31130341](../papers/31130341.md)
-- PDCD1 (PD-1) expression measured alongside CD274 (PD-L1) in 684 never-smoker lung adenocarcinomas; combined CD274+PDCD1 R²=0.093 for ICB response (TIDE score), much lower than subtype-augmented R²=0.25, demonstrating that transcriptomic subtype adds predictive value beyond immune checkpoint markers [PMID:32015526](../papers/32015526.md)
+- PDCD1 (PD-1) is a differential immune checkpoint target; mixed-type cHCC-ICC is enriched for a High immune cluster suggesting differential sensitivity to PD-1/PD-L1 and [CTLA4](../genes/CTLA4.md) blockade vs. combined-type cHCC-ICC [PMID:31130341](../papers/31130341.md)
+- PDCD1 (PD-1) expression measured alongside [CD274](../genes/CD274.md) (PD-L1) in 684 never-smoker lung adenocarcinomas; combined CD274+PDCD1 R²=0.093 for ICB response (TIDE score), much lower than subtype-augmented R²=0.25, demonstrating that transcriptomic subtype adds predictive value beyond immune checkpoint markers [PMID:32015526](../papers/32015526.md)
 - Recurrent homozygous deletions in uterine leiomyosarcoma (uLMS), the highest frequency across all cancer types in the 15,816-patient MSK-IMPACT cohort; IHC confirmed PD-1 protein loss in two informative cases; proposed as explanation for paucity of immune checkpoint inhibitor responses in published phase II uLMS trials [PMID:32299819](../papers/32299819.md)
-- PD-L1 / immune-infiltration scores co-vary with APOBEC3B/APOBEC3G protein levels in luminal breast cancer; APOBEC mutagenesis and SSBR defects identify immunotherapy-eligible ER+ BRCA subsets. [PMID:33212010](../papers/33212010.md)
-- PDCD1 (PD-1) expressed on dysfunctional CD4+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive adenoma microenvironment in colorectal precancer [PMID:34910928](../papers/34910928.md)
+- PD-L1 / immune-infiltration scores co-vary with APOBEC3B/APOBEC3G protein levels in luminal breast cancer; APOBEC mutagenesis and SSBR defects identify immunotherapy-eligible ER+ [BRCA](../cancer_types/BRCA.md) subsets. [PMID:33212010](../papers/33212010.md)
+- PDCD1 (PD-1) expressed on dysfunctional [CD4](../genes/CD4.md)+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive adenoma microenvironment in colorectal precancer [PMID:34910928](../papers/34910928.md)
+- PDCD1 (PD-1) overexpressed in IG3 immune-hot rectal tumors (pMMR/MSS LARC cohort, [rectal_msk_2022](../datasets/rectal_msk_2022.md), n=738); overexpression nominates this immune-hot subset for ICI trials [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -65,63 +66,66 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25608663](../papers/25608663.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32015526](../papers/32015526.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

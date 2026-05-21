@@ -33,7 +33,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 
 ## Open questions
 
-- Whether NCAM1 is a passive marker or a functional contributor to the neuroendocrine SCLC phenotype is not addressed; clinically tractable Notch-activating agents and patient-selection biomarkers using NCAM1 remain to be defined [PMID:26168399](../papers/26168399.md)
+- Whether NCAM1 is a passive marker or a functional contributor to the neuroendocrine [SCLC](../cancer_types/SCLC.md) phenotype is not addressed; clinically tractable Notch-activating agents and patient-selection biomarkers using NCAM1 remain to be defined [PMID:26168399](../papers/26168399.md)
 
 ## Sources
 

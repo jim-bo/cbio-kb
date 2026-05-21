@@ -36,6 +36,7 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - Altered in ≥5% of PDAC tumors in a proteogenomic study of treatment-naive resected pancreatic adenocarcinoma [PMID:34534465](../papers/34534465.md)
 - Mutated in 60% of MSI-H CRCs in the COLON MAP/HTAN colorectal polyp atlas; activating WNT-pathway events via RNF43 were uncommon in sessile serrated lesions (SSLs), contrasting with CRC [PMID:34910928](../papers/34910928.md)
 - Wnt target gene with differential mRNA but not protein expression in CTNNB1-mutant HCCs in a 122-patient multi-omics cohort, illustrating post-transcriptional regulation [PMID:35508466](../papers/35508466.md)
+- Frameshift mutation co-occurring with [PTEN](../genes/PTEN.md) in EC patient CD20; present in primary tumor and one of two sentinel lymph nodes, demonstrating intratumoral heterogeneity tracked by MSK-ACCESS cfDNA ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)) [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
@@ -109,5 +110,8 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -53,7 +53,7 @@ Prospective tumor-normal MSK-IMPACT sequencing cohort of 184 MSI-H or pathogenic
 
 ## Notable findings derived from this cohort
 
-- MLH1ph ECs were clinically distinct (older, obese, higher FIGO stage, more LVSI) with lower TMB (median 32 vs 44/48 mt/Mb; p<0.001), lower TIL infiltrate, and worse stage-I/II PFS; germline (Lynch) ECs enriched for [ERBB2](../genes/ERBB2.md) (29%), [ERBB3](../genes/ERBB3.md) (25%), and [FBXW7](../genes/FBXW7.md) (46%) hotspot mutations; MLH1ph ECs enriched for [JAK1](../genes/JAK1.md) frameshifts (45%); pembrolizumab response lower in MLH1ph (25% progression) vs germline/somatic (0/2 progressed) in exploratory ICI analysis (n=18) [PMID:35849120](../papers/35849120.md)
+- MLH1ph ECs were clinically distinct (older, obese, higher FIGO stage, more LVSI) with lower TMB (median 32 vs 44/48 mt/Mb; p<0.001), lower TIL infiltrate, and worse stage-I/II PFS; germline (Lynch) ECs enriched for [ERBB2](../genes/ERBB2.md) (29%), [ERBB3](../genes/ERBB3.md) (25%), and [FBXW7](../genes/FBXW7.md) (46%) hotspot mutations; MLH1ph ECs enriched for [JAK1](../genes/JAK1.md) frameshifts (45%); [pembrolizumab](../drugs/pembrolizumab.md) response lower in MLH1ph (25% progression) vs germline/somatic (0/2 progressed) in exploratory ICI analysis (n=18) [PMID:35849120](../papers/35849120.md)
 
 ## Sources
 

@@ -36,7 +36,7 @@ CENPF encodes centromere protein F (also known as mitosin), a large nuclear matr
 
 ## Open questions
 
-- Whether CENPF expression level is independently prognostic in IDH-mutant astrocytoma after controlling for IDH status and HOXD13 activation has not been formally tested.
+- Whether CENPF expression level is independently prognostic in IDH-mutant astrocytoma after controlling for IDH status and [HOXD13](../genes/HOXD13.md) activation has not been formally tested.
 
 ## Sources
 

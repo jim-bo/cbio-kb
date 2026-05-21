@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -85,6 +85,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM listed among the 15 PROfound HRR genes; ATM alterations included in 10/51 (19.6%) PCBM qualifying by any PROfound gene and 8/51 (15.7%) with biallelic loss in a multi-region WGS study [PMID:35504881](../papers/35504881.md)
 - ATM exon 57 truncating mutation in osteosarcoma was associated with >1-year stable disease on a PARP-inhibitor plus ATR-inhibitor combination in an anecdotal MSK clinical case [PMID:35705558](../papers/35705558.md)
 - ATM is part of the DDR pathway altered in 9.6% of 2,138 MSK sarcomas; DDR pathway alteration highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), and [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
+- Mutated in 2% of pMMR/MSS rectal tumors (LARC cohort); OncoKB Level 3B actionable alteration in CRC [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -303,3 +304,6 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

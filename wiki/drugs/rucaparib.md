@@ -30,7 +30,7 @@ Rucaparib is an oral PARP1/2 inhibitor with FDA approval for germline BRCA1/2-mu
 
 ## Resistance mechanisms
 
-- Biallelic BRCA2 loss is necessary but not sufficient for PARPi response in PDAC; undetermined co-occurring molecular features define the responsive subset. [PMID:39753968](../papers/39753968.md)
+- Biallelic [BRCA2](../genes/BRCA2.md) loss is necessary but not sufficient for PARPi response in PDAC; undetermined co-occurring molecular features define the responsive subset. [PMID:39753968](../papers/39753968.md)
 
 ## Cancer types (linked)
 
@@ -41,7 +41,7 @@ Rucaparib is an oral PARP1/2 inhibitor with FDA approval for germline BRCA1/2-mu
 - [PMID:39753968](../papers/39753968.md) — Zhu et al. 2024, MSK PDAC cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md)); PARPi outcomes in BRCA2-mutant PDAC.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; rucaparib named as PARPi class member; high TRMT10A expression tracks with PARPi resistance across the class.
+- [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; rucaparib named as PARPi class member; high [TRMT10A](../genes/TRMT10A.md) expression tracks with PARPi resistance across the class.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)

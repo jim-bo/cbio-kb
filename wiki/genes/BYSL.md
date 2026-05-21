@@ -26,7 +26,7 @@ BYSL (Bystin-like) is a direct cMYC transcriptional target required for nucleolo
 
 ## Therapeutic relevance
 
-- BYSL's role as a direct [MYC](../genes/MYC.md) target driving nucleologenesis makes it a potential dependency in MYC-amplified HCC, though no direct therapeutic data are reported in this cohort [PMID:35508466](../papers/35508466.md)
+- BYSL's role as a direct [MYC](../genes/MYC.md) target driving nucleologenesis makes it a potential dependency in MYC-amplified [HCC](../cancer_types/HCC.md), though no direct therapeutic data are reported in this cohort [PMID:35508466](../papers/35508466.md)
 
 ## Open questions
 

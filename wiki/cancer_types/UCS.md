@@ -4,8 +4,8 @@ oncotree_code: UCS
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Uterine Carcinosarcoma (UCS)
@@ -24,13 +24,14 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - [CCNE1](../genes/CCNE1.md) — amplification enriched in carcinosarcomas from Black patients (29% vs. 10% White, q<0.1). [PMID:37651310](../papers/37651310.md)
 - [KMT2B](../genes/KMT2B.md) — mutations enriched in carcinosarcomas from Black patients (31% vs. 10% White, q<0.1). [PMID:37651310](../papers/37651310.md)
 - [NF1](../genes/NF1.md) — mutations more frequent in carcinosarcomas from Black patients (12% vs. 1% White, q<0.1). [PMID:37651310](../papers/37651310.md)
-- Whole-exome sequencing of 17 uterine carcinosarcomas (plus 5 ovarian) found TP53 (67%), PIK3CA (41%), PTEN (41%), KRAS (27%), and chromatin-remodelling genes in ~64% of cases (ARID1A 32%, KMT2C 27%, BAZ1A 18%); >75% of cases harboured potentially actionable alterations [PMID:25233892](../papers/25233892.md)
+- Whole-exome sequencing of 17 uterine carcinosarcomas (plus 5 ovarian) found [TP53](../genes/TP53.md) (67%), [PIK3CA](../genes/PIK3CA.md) (41%), [PTEN](../genes/PTEN.md) (41%), [KRAS](../genes/KRAS.md) (27%), and chromatin-remodelling genes in ~64% of cases ([ARID1A](../genes/ARID1A.md) 32%, [KMT2C](../genes/KMT2C.md) 27%, [BAZ1A](../genes/BAZ1A.md) 18%); >75% of cases harboured potentially actionable alterations [PMID:25233892](../papers/25233892.md)
 - Pan-cancer fusion study (9,624 TCGA samples) included UCS as one of 33 TCGA cancer types; druggable fusions annotated across 29 cancer types including UCS [PMID:29617662](../papers/29617662.md)
-- Pan-cancer aneuploidy study found UCS has one of the highest aneuploidy scores (96% of samples with any event, mean score 17.2); UCS clustered in the gynecological arm-level group alongside UCEC; UCS is an exception to the positive aneuploidy–mutation-rate correlation due to MSI/POLE cases [PMID:29622463](../papers/29622463.md)
+- Pan-cancer aneuploidy study found UCS has one of the highest aneuploidy scores (96% of samples with any event, mean score 17.2); UCS clustered in the gynecological arm-level group alongside [UCEC](../cancer_types/UCEC.md); UCS is an exception to the positive aneuploidy–mutation-rate correlation due to MSI/POLE cases [PMID:29622463](../papers/29622463.md)
 - Included in TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types [PMID:29625048](../papers/29625048.md)
 - HER2+PI3K inhibitor combination actionable in 7% of UCS; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
-- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for UCS [PMID:29625055](../papers/29625055.md)
-- 35/189 advanced endometrial tumors were uterine carcinosarcoma; FGFR1 amplification enriched in carcinosarcoma (p=0.007); two pathogenic germline BRCA2 mutations identified in carcinosarcoma patients (founder c.5946delT and c.5799_5802delCCAA frameshift) [PMID:30068706](../papers/30068706.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized [OS](../cancer_types/OS.md), PFI, DFI, and DSS endpoints derived for UCS [PMID:29625055](../papers/29625055.md)
+- 35/189 advanced endometrial tumors were uterine carcinosarcoma; [FGFR1](../genes/FGFR1.md) amplification enriched in carcinosarcoma (p=0.007); two pathogenic germline [BRCA2](../genes/BRCA2.md) mutations identified in carcinosarcoma patients (founder c.5946delT and c.5799_5802delCCAA frameshift) [PMID:30068706](../papers/30068706.md)
+- MSK cfDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)): carcinosarcoma (6/44, 14% of cohort); cfDNA concentration numerically higher in UCS vs low-grade endometrioid; CD23 (stage IVB UCS, 2,608 cm³ tumor burden) had 74.6% baseline ctDNA fraction; baseline ctDNA significantly associated with shorter PFS (p<0.001, HR 11.14) [PMID:36007103](../papers/36007103.md)
 
 ## Subtypes
 
@@ -40,31 +41,34 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 ## Therapeutic landscape
 
 - [ERBB2](../genes/ERBB2.md) amplification in Black patients with UCS represents a therapeutic opportunity; [trastuzumab](../drugs/trastuzumab.md) deruxtecan has shown clinical activity even in low-HER2-expressing carcinosarcomas. [PMID:37651310](../papers/37651310.md)
-- [CCNE1](../genes/CCNE1.md) amplification (enriched in Black patients with UCS) is a potential target for WEE1 inhibitors and [ATR](../genes/ATR.md) inhibitor combinations. [PMID:37651310](../papers/37651310.md)
+- [CCNE1](../genes/CCNE1.md) amplification (enriched in Black patients with UCS) is a potential target for [WEE1](../genes/WEE1.md) inhibitors and [ATR](../genes/ATR.md) inhibitor combinations. [PMID:37651310](../papers/37651310.md)
 
 ## Sources
 
 - [PMID:37651310](../papers/37651310.md) — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
+- [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -118,7 +118,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600E co-occurs with homozygous CDKN2A/CDKN2B 9p deletion in the NCH-MN-1 PDX model in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 - Mutated in 39% of a melanoma anti-PD1 ICB cohort (n=144); BRAF mutation status was not associated with response to anti-PD1 therapy, so targeted-therapy decisions are separate from ICB biomarker considerations [PMID:31792460](../papers/31792460.md)
 - MAPK pathway alteration in 4% of a panel of 83 IDH-wildtype glioblastoma PDX; [NF1](../genes/NF1.md) alterations more frequent (17%) as MAPK pathway co-alteration [PMID:31852831](../papers/31852831.md)
-- Wild-type BRAF enriched in TRK fusion-positive colorectal cancer with MSI-H (6/7 CRC cases with TRK fusions had wild-type BRAF and KRAS), identifying a distinct molecular context for TRK fusions in CRC [PMID:31871300](../papers/31871300.md)
+- Wild-type BRAF enriched in TRK fusion-positive colorectal cancer with MSI-H (6/7 CRC cases with TRK fusions had wild-type BRAF and [KRAS](../genes/KRAS.md)), identifying a distinct molecular context for TRK fusions in CRC [PMID:31871300](../papers/31871300.md)
 - Low RNA-protein correlation for BRAF observed across CCLE 375 cancer cell lines; BRAF mutation associated with broad changes in cell-motility and adhesion-protein levels [PMID:31978347](../papers/31978347.md)
 - Driver in 162 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
 - Two activating mutations identified in uterine leiomyosarcoma (uLMS): V600E (patient progressed within 4 weeks on a first-generation BRAF inhibitor) and K601E (class-2 dimer-dependent; patient achieved 4 months stable disease on a pan-RAF inhibitor); consistent with prior characterization of K601E as resistant to first-generation BRAF inhibitors [PMID:32299819](../papers/32299819.md)
@@ -128,7 +128,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF — among MAPK-pathway alterations ([ERBB2](../genes/ERBB2.md), [HRAS](../genes/HRAS.md), [NF1](../genes/NF1.md), BRAF, [MAP2K1](../genes/MAP2K1.md)) that selectively expanded in post-treatment ctDNA from HR+ metastatic breast cancer patients on [alpelisib](../drugs/alpelisib.md) + AI, suggesting parallel bypass resistance pathways. [PMID:32864625](../papers/32864625.md)
 - V600E/K confirmed in all 66 BRAF-mutant melanoma pretreatment tumors; amplification in 3 patients (all intermediate responders); elevated mutant-allele fraction (>2x median) in 9 patients significantly enriched in excellent BRAFi responders (P < .001 vs. poor) [PMID:32913971](../papers/32913971.md)
 - Non-V600 hotspot mutations p.G466R (x1) and p.D594G (x6) detected in normal perilesional melanocytes from donors 6 and 13 (adjacent to melanoma/BCC); classified as weak activators insufficient alone to drive malignancy [PMID:33029006](../papers/33029006.md)
-- BRAFV600E is the dominant oncogenic event in pediatric [LGG](../cancer_types/LGG.md); BRAFV600E LGG showed downregulated total BRAF protein abundance and upregulation of MAPK pathway substrates and AKT1/AKT2; a subset of craniopharyngioma lacking BRAFV600E shared the BRAFV600E LGG proteomic signature (C4 cluster), nominating MEK inhibition for these [CP](../genes/CP.md) (CPTAC pediatric brain tumor proteogenomics, n=218 samples) [PMID:33242424](../papers/33242424.md)
+- BRAFV600E is the dominant oncogenic event in pediatric [LGG](../cancer_types/LGG.md); BRAFV600E [LGG](../cancer_types/LGG.md) showed downregulated total BRAF protein abundance and upregulation of MAPK pathway substrates and AKT1/AKT2; a subset of craniopharyngioma lacking BRAFV600E shared the BRAFV600E LGG proteomic signature (C4 cluster), nominating MEK inhibition for these [CP](../genes/CP.md) (CPTAC pediatric brain tumor proteogenomics, n=218 samples) [PMID:33242424](../papers/33242424.md)
 - In 696 melanomas profiled by MSK-IMPACT, BRAF V600E/K/R was present in 31% (N=216); non-V600 BRAF included 55 Class 2 and 30 Class 3 variants; Class 3 mutants co-altered in 97% vs. 38% for Class 2 (p=3.4e-08). A BRAF-AGK Class 2 fusion achieved durable complete metabolic response to PLX8394; BRAF V600 predicted shorter TTF on PD-1 monotherapy (median 7.5 months) vs. NF1-altered tumors (22 months). [PMID:33509808](../papers/33509808.md)
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, BRAF harbored activating mutations in 5% of tumors. [PMID:33765338](../papers/33765338.md)
 - Subclonal D594N hotspot in one TERT-altered metaplastic breast cancer ([MBC](../cancer_types/MBC.md)); BRAF amplification in 2 TERT-WT MBCs; BRAF included in Sanger-sequencing panel for 16 MBCs [PMID:33863915](../papers/33863915.md)
@@ -145,6 +145,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF — acquired activating mutations including kinase-dead D594N (RAS- and BRAF-dimer-dependent) emerging during [selpercatinib](../drugs/selpercatinib.md) + [crizotinib](../drugs/crizotinib.md) combination therapy; BRAF activation identified as an off-target bypass resistance mechanism to [RET](../genes/RET.md) inhibition in LIBRETTO-001 (n=72 RET-altered lung/thyroid cancer patients) [PMID:35304457](../papers/35304457.md)
 - Mutated in 11% (13/119) of LGSC by MSK-IMPACT: V600E (n=8), D594N (n=2), N581I (n=1), and two fusions (BRAF-MKRN1, BRAF-AGAP3); included in the broad MAPK-pathway-altered group ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
 - BRAF V600E present in 0.5% of 7,494 sarcomas (FoundationOne Heme); recurrent kinase fusions also detected; anecdotal near-complete response to [vemurafenib](../drugs/vemurafenib.md) plus [trametinib](../drugs/trametinib.md) demonstrated in a BRAF V600E sarcoma case [PMID:35705558](../papers/35705558.md)
+- V600E in 4.4% of [COADREAD](../cancer_types/COADREAD.md) in the OncoMark Chinese solid-tumor cohort; actionable with [encorafenib](../drugs/encorafenib.md)+[cetuximab](../drugs/cetuximab.md) (OncoKB Level 1) [PMID:35871175](../papers/35871175.md)
+- V600E in 1% of pMMR/MSS rectal tumors (LARC cohort, n=692); the only Level 1 OncoKB-actionable finding in this cohort [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -530,5 +532,11 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

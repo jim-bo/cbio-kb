@@ -24,7 +24,7 @@ VEP (Variant Effect Predictor), developed by Ensembl, annotates genetic variants
 ## Notes
 
 - VEP is the standard annotation engine used by [vcf2maf](../methods/vcf2maf.md); the version used affects HGVS notation and consequence predictions.
-- Annotation accuracy depends on the transcript build and version of VEP used; MC3 used vcf2maf v1.6.11.
+- Annotation accuracy depends on the transcript build and version of VEP used; MC3 used [vcf2maf](../methods/vcf2maf.md) v1.6.11.
 
 ## Sources
 

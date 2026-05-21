@@ -77,7 +77,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Used for alignment to GRCh37-lite in 15 matched primary/recurrent medulloblastoma pairs with germline controls plus 18 pairs without germline (46 total samples); demonstrated <12% shared somatic SNVs/indels between primary and recurrent tumors [PMID:26760213](../papers/26760213.md).
 - WGS used for telomere-length analysis and TERT-promoter mutation detection in a subset of diffuse gliomas from the TCGA pan-glioma cohort; ATRX-mutant gliomas showed significantly longer telomeres than TERTp-mutant samples (ALT mechanism) [PMID:26824661](../papers/26824661.md)
 - WGS on Illumina HiSeq 2500 (100 bp paired-end) of 20 [ACC](../cancer_types/ACC.md) tumors and primagrafts with reads aligned to hg19 by BWA; rearrangements called with dRanger and BreakPointer; identified [MYB](../genes/MYB.md) super-enhancer hijacking mechanism [PMID:26829750](../papers/26829750.md)
-- WGS of 25 ACC tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal) on Illumina HiSeq; identified 253 chromosomal rearrangements including 5 novel [NFIB](../genes/NFIB.md) fusion partners and Rho-GTPase pathway disruption in 44% of tumors [PMID:26862087](../papers/26862087.md)
+- WGS of 25 [ACC](../cancer_types/ACC.md) tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal) on Illumina HiSeq; identified 253 chromosomal rearrangements including 5 novel [NFIB](../genes/NFIB.md) fusion partners and Rho-GTPase pathway disruption in 44% of tumors [PMID:26862087](../papers/26862087.md)
 - Whole-genome sequencing data from the BCC/SCC corpus (EGAD0000101525) used as a reference baseline for skin cancer mutation burdens (cSCC mean 50 substitutions/Mb, [BCC](../cancer_types/BCC.md) mean 65 substitutions/Mb) in the NB-UVB surveillance model. [PMID:26950094](../papers/26950094.md)
 - Applied to 40 [MRT](../cancer_types/MRT.md) tumor/normal pairs (median tumor content 88.0%); identified near-universal [SMARCB1](../genes/SMARCB1.md) biallelic inactivation (39/40 cases), quiet overall genomes (median 612.5 SNVs/case, 0.231 mutations/Mb), and Chr22 as the dominant structural variation locus (9/15 recurrent CNA loci, 22/26 verified gene fusions). [PMID:26977886](../papers/26977886.md)
 - Whole-genome sequencing cited as reference methodology for comprehensive mutation detection in [AML](../cancer_types/AML.md); the primary AMLSG study used a targeted 111-gene panel, with WGS noted as context for driver-gene discovery [PMID:27276561](../papers/27276561.md)
@@ -96,7 +96,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - 184 EOPC and 85 LOPC prostate cancer genomes sequenced by WGS with matched blood normal; 41 samples re-used from Fraser et al. 2017; analysis revealed APOBEC-driven mutational signatures and recurrent SVs at [ESRP1](../genes/ESRP1.md), [KLF5](../genes/KLF5.md), [NKX3-1](../genes/NKX3-1.md), [FOXP1](../genes/FOXP1.md), [PTEN](../genes/PTEN.md), and [TP53](../genes/TP53.md) [PMID:30537516](../papers/30537516.md)
 - Applied to 329 of the 1,072 CCLE cancer cell lines; targeted sequencing additionally applied to 657 lines (950 total per Methods); [TERT](../genes/TERT.md) promoter mutations detected in 16.7% (84/503) of surveyed lines as the most common non-coding somatic mutation [PMID:31068700](../papers/31068700.md)
 - Applied to 41 tumors / 37 cases in the pan-Asia cHCC-ICC study; HBV integration sites identified with [TERT](../genes/TERT.md) and [KMT2B](../genes/KMT2B.md) as most recurrent targets; WGS complemented WES for structural variant and noncoding mutation discovery [PMID:31130341](../papers/31130341.md)
-- WGS performed as part of the combined 193-case ACC sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of TERT promoter mutations, [MYB](../genes/MYB.md) structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
+- WGS performed as part of the combined 193-case ACC sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of [TERT](../genes/TERT.md) promoter mutations, [MYB](../genes/MYB.md) structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
 - Core assay of the PCAWG pan-cancer study (n=2,658 tumor-normal pairs, 38 tumor types); mean coverage 39× normal, bimodal 38×/60× tumor; 63 pairs validated by deep custom-bait sequencing achieving 95% SNV sensitivity/precision [PMID:32025007](../papers/32025007.md).
 - Used in the Sherlock-Lung NS-LUAD study (n=499 paired WGS from 684 NS-LUAD tumors) to integrate driver mutations, structural variants, whole-genome doubling, and kataegis with transcriptomic subtypes [PMID:32015526](../papers/32015526.md).
 - PCR-free WGS (HiSeqX, min 15× coverage, 151 bp paired-end) used in the CPTAC endometrial carcinoma study (n=95 tumors) for copy-number analysis; 14% of SCNAs had cis effects on transcript/protein levels (FDR < 0.01) [PMID:32059776](../papers/32059776.md).
@@ -106,6 +106,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
 - Primary sequencing assay in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md): Illumina NovaSeq 6000 PE150 WGS at median tumor depth 95× (range 67–181×) and normal 50× (range 32–159×) in 114 pediatric/AYA solid tumor patients; 9-day sample-to-report turnaround; ≥80× recommended as optimal depth for clinical WGS [PMID:35585047](../papers/35585047.md)
 - Whole-genome sequencing used for somatic variant and CNA calling in a subset of GLASS longitudinal glioma samples (b37 alignment via BWA-MEM, somatic calls by MuTect2, CNA by TITAN) [PMID:35649412](../papers/35649412.md)
+- Applied to 25 metastatic [CSCC](../cancer_types/CSCC.md) lymph node specimens and matched blood (mean tumor coverage 94.56x, blood 41.08x); enabled discovery of non-coding 3'UTR and lncRNA drivers invisible to WES/targeted panels, and novel indel signatures ID8/ID9/ID13 [PMID:35982973](../papers/35982973.md)
 
 ## Notes
 
@@ -365,5 +366,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

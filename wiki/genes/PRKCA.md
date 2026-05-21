@@ -16,7 +16,7 @@ PRKCA encodes protein kinase C alpha (PKC-alpha), a calcium-dependent serine/thr
 
 ## Alterations observed in the corpus
 
-- Kinase with decreased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a 122-patient HCC multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
+- Kinase with decreased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a 122-patient [HCC](../cancer_types/HCC.md) multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

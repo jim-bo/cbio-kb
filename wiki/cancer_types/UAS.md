@@ -25,7 +25,7 @@ Uterine Adenosarcoma is a biphasic uterine tumor with a benign epithelial compon
 
 ## Recurrent alterations
 
-- In the 2,138-sarcoma MSK-IMPACT cohort (n=14 UAS), 43% carried oncogenic alterations in SWI/SNF chromatin remodeling complex genes, predominantly [ARID1A](../genes/ARID1A.md) and [PBRM1](../genes/PBRM1.md); 36% had histone-modifying gene alterations; this SWI/SNF alteration rate motivates investigation of [tazemetostat](../drugs/tazemetostat.md) ([EZH2](../genes/EZH2.md) inhibitor) based on SWI/SNF–EZH2 synthetic lethality precedent in epithelioid sarcoma [PMID:35705560](../papers/35705560.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort (n=14 UAS), 43% carried oncogenic alterations in SWI/SNF chromatin remodeling complex genes, predominantly [ARID1A](../genes/ARID1A.md) and [PBRM1](../genes/PBRM1.md); 36% had histone-modifying gene alterations; this SWI/SNF alteration rate motivates investigation of [tazemetostat](../drugs/tazemetostat.md) ([EZH2](../genes/EZH2.md) inhibitor) based on SWI/SNF–[EZH2](../genes/EZH2.md) synthetic lethality precedent in epithelioid sarcoma [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -33,7 +33,7 @@ Uterine Adenosarcoma is a biphasic uterine tumor with a benign epithelial compon
 
 ## Therapeutic landscape
 
-- SWI/SNF alterations (ARID1A/PBRM1) in 43% of UAS motivate evaluation of tazemetostat [PMID:35705560](../papers/35705560.md).
+- SWI/SNF alterations (ARID1A/PBRM1) in 43% of UAS motivate evaluation of [tazemetostat](../drugs/tazemetostat.md) [PMID:35705560](../papers/35705560.md).
 - Histone-modifying gene alterations in 36% of UAS suggest additional epigenetic therapy candidates.
 
 ## Sources

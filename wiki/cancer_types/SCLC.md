@@ -29,6 +29,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - In the MSK-IMPACT pan-cancer cohort, SCLC had one of the highest [TP53](../genes/TP53.md) mutation rates at 85% of samples — ranking alongside [HGSOC](../cancer_types/HGSOC.md) (98%) and esophageal adenocarcinoma (89%). [PMID:28481359](../papers/28481359.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; SCLC is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - 46 SCLC PDX/CDX models from 33 patients showed retention of canonical [TP53](../genes/TP53.md) (90%) and [RB1](../genes/RB1.md) (76%) alterations; transcriptional subtypes [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md) (SCLC-P) recapitulated in xenografts; 10 POU2F3-driven PDXs from one never-smoker patient constitute first SCLC-P in-vivo model resource [PMID:35440124](../papers/35440124.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): SCLC included among 25 principal tumor types; IO biomarker positivity (MSI-H/TMB-H/PD-L1+) 48% (24/50), highest of all tumor types; [RB1](../genes/RB1.md) mutated in 84.2% of SCLC in aOM vs 71.1% in MSK-IMPACT (FDR=1, not significantly different) [PMID:35871175](../papers/35871175.md)
 
 ## Subtypes
 
@@ -54,7 +55,10 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 
 - [PMID:35440124](../papers/35440124.md) — Caeser et al. 2022; 46 SCLC PDX/CDX models from 33 patients; retention of TP53/RB1 drivers and recapitulation of ASCL1/NEUROD1/POU2F3 subtypes; first SCLC-P PDX resource.
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35440124](../papers/35440124.md)
+
+
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

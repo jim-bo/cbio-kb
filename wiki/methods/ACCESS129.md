@@ -5,8 +5,8 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, ctdna, liquid-biopsy, msk]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-05-21
 genePanelId: ACCESS129
 ---
 
@@ -26,6 +26,7 @@ Targeted (129 genes) sequencing of cfDNA via MSK-ACCESS on Illumina HiSeq sequen
 - MSK-ACCESS liquid biopsy panel used for ctDNA profiling of patient 12 in a KRASG12C-mutant colorectal cancer cohort, detecting acquired [KRAS](../genes/KRAS.md) amplification (KRAS/Cen12 ratio 13.2 at progression vs 1.8 pretreatment) [PMID:36355783](../papers/36355783.md)
 - Used as the high-sensitivity rescue arm for cf-IMPACT-negative, low-tumor-fraction cfDNA samples; detected 19 high-confidence mutations in 14/29 (48%) eligible patients (median VAF 0.49%, range 0.05–3.64%), 7 of which were OncoKB-actionable; panel covers 129 cancer-associated genes at >12,000x target depth with UMI error correction [PMID:34059130](../papers/34059130.md)
 - Analytically validated on 70 cfDNA samples with 100 orthogonally confirmed variants; 92% de novo sensitivity at ≥0.5% VAF (95% CI 84–96.5%) and ≥99.7% specificity; background error rate reduced from 3.3×10^-4 to 1.7×10^-6 (duplex consensus); NYS-DOH approved 31 May 2019; 129 genes / 826 exons cover ≥84% of 25,000 MSK-IMPACT-sequenced solid tumors [PMID:34145282](../papers/34145282.md)
+- Applied to 36 endometrial cancer patients for high-sensitivity, UMI-based cfDNA sequencing (median duplex coverage 1,340x post-collapsing, 129-gene panel); detected tumor-derived mutations in 22% at baseline and 92% concordance with primary-tumor mutations; detectable baseline ctDNA was prognostic for PFS (HR 11.14, p<0.001) [PMID:36007103](../papers/36007103.md)
 
 ## Notes
 
@@ -44,3 +45,6 @@ Targeted (129 genes) sequencing of cfDNA via MSK-ACCESS on Illumina HiSeq sequen
 - `schema/ontology/gene_panels.json` (`genePanelId: ACCESS129`)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

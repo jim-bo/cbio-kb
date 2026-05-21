@@ -27,7 +27,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 
 ## Co-occurrence and mutual exclusivity
 
-- No specific co-occurrence or mutual exclusivity pattern reported for TGFBR2 within ESCC molecular subtypes in the corpus.
+- No specific co-occurrence or mutual exclusivity pattern reported for TGFBR2 within [ESCC](../cancer_types/ESCC.md) molecular subtypes in the corpus.
 
 ## Therapeutic relevance
 

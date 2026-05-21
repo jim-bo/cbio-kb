@@ -28,7 +28,7 @@ NEK2 (NIMA-related kinase 2) is a serine/threonine kinase involved in centrosome
 
 ## Therapeutic relevance
 
-- Flagged alongside AURKA and CDK1/2/5 as a targetable kinase in [HCC](../cancer_types/HCC.md); preclinical evidence of synergy with sorafenib/regorafenib and chemotherapeutic agents noted [PMID:35508466](../papers/35508466.md)
+- Flagged alongside [AURKA](../genes/AURKA.md) and CDK1/2/5 as a targetable kinase in [HCC](../cancer_types/HCC.md); preclinical evidence of synergy with sorafenib/regorafenib and chemotherapeutic agents noted [PMID:35508466](../papers/35508466.md)
 
 ## Open questions
 

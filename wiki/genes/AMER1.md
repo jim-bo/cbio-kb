@@ -3,8 +3,8 @@ symbol: AMER1
 aliases: [FAM123B, WTX]
 cancer_types: [COAD]
 tags: [tumor-suppressor, WNT-pathway, X-linked]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # AMER1
@@ -18,8 +18,9 @@ AMER1 (also known as FAM123B and WTX) is an X-linked negative regulator of the W
 - AMER1 is recurrently mutated in colorectal adenocarcinoma across 276 TCGA CRC tumors; virtually all mutations detected were loss-of-function (frameshift or nonsense), consistent with its role as an X-linked negative regulator of the WNT pathway [PMID:22810696](../papers/22810696.md)
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors), identified as part of broad genomic characterization [PMID:22960745](../papers/22960745.md)
 - Recurrently mutated in non-hypermutated CRC (concordant between primary and metastasis per Figure 1B) [PMID:25164765](../papers/25164765.md)
-- CTNNB1 mutations in Wilms tumor PDX models are mutually exclusive with AMER1/WTX alterations in the PPTC cohort [PMID:31693904](../papers/31693904.md)
+- [CTNNB1](../genes/CTNNB1.md) mutations in Wilms tumor PDX models are mutually exclusive with AMER1/WTX alterations in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 - AMER1 was included as a Wnt pathway gene in a multivariate prognostic model for MSS metastatic colorectal cancer. [PMID:32730818](../papers/32730818.md)
+- Co-occurs significantly with [KRAS](../genes/KRAS.md) and C-terminal [APC](../genes/APC.md) mutations in pMMR/MSS rectal tumors (LARC cohort, q<0.05); WNT-pathway context [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -41,16 +42,19 @@ AMER1 (also known as FAM123B and WTX) is an X-linked negative regulator of the W
 
 - [PMID:22810696](../papers/22810696.md) — TCGA CRC comprehensive molecular characterization (276 tumors)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

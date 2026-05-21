@@ -113,6 +113,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Recurrent MYC amplifications co-occurring with chromothripsis-mediated [TP53](../genes/TP53.md) loss detected in 10/29 osteosarcoma patients by cWGTS; not detected by MSK-IMPACT panel sequencing alone [PMID:35585047](../papers/35585047.md)
 - Observed as a recurrent alteration in clinical genomic profiling of 7,494 soft tissue and bone sarcoma patients [PMID:35705558](../papers/35705558.md)
 - Observed as a recurrent alteration in 2,138-sample sarcoma MSK-IMPACT sequencing cohort [PMID:35705560](../papers/35705560.md)
+- Structural amplification (MYC GAIN via LINX/PURPLE) in mCSCC sample CSCC_0005, and MYC gain confirmed in SV structural variant gene list across 25 metastatic [CSCC](../cancer_types/CSCC.md) samples [PMID:35982973](../papers/35982973.md)
+- MYC amplification identified as one of the high-frequency CNV peaks in pan-cancer analysis of ~8,900 Chinese solid-tumor patients (OncoMark/aOM cohort) alongside [CDKN2A](../genes/CDKN2A.md) deletion, [ERBB2](../genes/ERBB2.md) amplification, and chr 11q13.3 amplification [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -328,5 +330,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

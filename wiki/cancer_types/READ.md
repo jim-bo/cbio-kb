@@ -40,6 +40,7 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - ARGO Nigerian CRC cohort: Nigerian patients more likely rectal-primary (50.8% vs. 33.7%); among 380 Nigerian CRC patients, stage IV was 53.8% with peritoneal metastases more common (30.3% vs. 18.1%) and lung/liver metastases less frequent [PMID:34819518](../papers/34819518.md)
 - COLON MAP / HTAN colorectal atlas: CRC progression landscape characterized across adenoma subtypes and MSS/MSI-H CRCs; cytotoxic CD8+ T-cell immune microenvironment forms in serrated lesions before hypermutation, and persists into MSI-H CRC [PMID:34910928](../papers/34910928.md)
 - Rectal adenocarcinoma (READ) was included in the MSK-IMPACT 4,561-patient CRC cohort; dual RAS/BRAF V600E driver mutations occurred in 1.03% of CRC; multiregional sequencing showed 2/7 discordant CRC-DD cases both involved MSI-H tumors [PMID:35235413](../papers/35235413.md)
+- MSK multi-cohort study of 738 rectal adenocarcinoma patients ([rectal_msk_2022](../datasets/rectal_msk_2022.md)): [APC](../genes/APC.md) altered in 81% of pMMR/MSS tumors with frequency decreasing toward anal verge (UR 92% / MR 90% / LR 77%, p<0.001); [KRAS](../genes/KRAS.md) mutations (42%) predict shorter DFS specifically in CRT-CNCT–treated LARC (p=0.004); ~8% of pMMR/MSS tumors are immune-hot (IG3) with checkpoint-target overexpression, nominating this subset for ICI trials [PMID:35970919](../papers/35970919.md)
 
 ## Subtypes
 
@@ -90,7 +91,10 @@ No molecular subtyping data from the corpus specific to READ yet.
 
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35235413](../papers/35235413.md)
+
+
+- [PMID:35970919](../papers/35970919.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

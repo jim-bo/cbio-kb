@@ -21,7 +21,7 @@ Low-grade endometrial stromal sarcoma (LGESS) is an indolent uterine mesenchymal
 ## Recurrent alterations
 
 - JAZF1-SUZ12 fusion confirmed by MSK-Fusion RNA sequencing in one LGESS patient, demonstrating the value of orthogonal RNA-based fusion detection for diagnostic confirmation in this subtype [PMID:32299819](../papers/32299819.md)
-- [ESR1](../genes/ESR1.md) Y537S ligand-binding domain mutation identified in a metastatic LGESS patient who had received >20 years of anti-estrogen therapy (long-term aromatase inhibitor); switching to [fulvestrant](../drugs/fulvestrant.md) produced tumor regression, demonstrating ESR1 acquired mutation as a mechanism of aromatase inhibitor resistance [PMID:32299819](../papers/32299819.md)
+- [ESR1](../genes/ESR1.md) Y537S ligand-binding domain mutation identified in a metastatic LGESS patient who had received >20 years of anti-estrogen therapy (long-term aromatase inhibitor); switching to [fulvestrant](../drugs/fulvestrant.md) produced tumor regression, demonstrating [ESR1](../genes/ESR1.md) acquired mutation as a mechanism of aromatase inhibitor resistance [PMID:32299819](../papers/32299819.md)
 - In the 2,138-sarcoma MSK-IMPACT cohort, low-grade endometrial stromal sarcoma was among the 45 OncoTree-mapped entities profiled; cell cycle and [TP53](../genes/TP53.md) pathway alterations were recurrent across most sarcoma subtypes [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes

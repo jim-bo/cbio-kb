@@ -18,7 +18,7 @@ unverified: false
 
 ## Overview
 
-Myxoid/round-cell liposarcoma (MRLS) is a mesenchymal malignancy characterized by the pathognomonic t(12;16)(q13;p11) [FUS](../genes/FUS.md)–[DDIT3](../genes/DDIT3.md) translocation (or rarely FEW3–DDIT3). On OncoTree it is a child of [LIPO](../cancer_types/LIPO.md) (Liposarcoma) under Soft Tissue. MRLS has a relatively normal karyotype compared to other high-grade STS subtypes. Barretina et al. identified [PIK3CA](../genes/PIK3CA.md) as a recurrent somatic driver — the first report in a mesenchymal cancer.
+Myxoid/round-cell liposarcoma (MRLS) is a mesenchymal malignancy characterized by the pathognomonic t(12;16)(q13;p11) [FUS](../genes/FUS.md)–[DDIT3](../genes/DDIT3.md) translocation (or rarely FEW3–[DDIT3](../genes/DDIT3.md)). On OncoTree it is a child of [LIPO](../cancer_types/LIPO.md) (Liposarcoma) under Soft Tissue. MRLS has a relatively normal karyotype compared to other high-grade [STS](../cancer_types/STS.md) subtypes. Barretina et al. identified [PIK3CA](../genes/PIK3CA.md) as a recurrent somatic driver — the first report in a mesenchymal cancer.
 
 ## Cohorts in the corpus
 
@@ -30,14 +30,14 @@ Myxoid/round-cell liposarcoma (MRLS) is a mesenchymal malignancy characterized b
 - [PTEN](../genes/PTEN.md) — homozygous deletion in one MRC tumor with high phospho-AKT. [PMID:20601955](../papers/20601955.md)
 - [KIT](../genes/KIT.md) — one MRC sample harbored a [KIT](../genes/KIT.md) mutation (unexpected, noted as an incidental finding). [PMID:20601955](../papers/20601955.md)
 - Relatively normal karyotype: MRLS clusters with [SYNS](../cancer_types/SYNS.md) and [GIST](../cancer_types/GIST.md) as low-complexity subtypes by copy-number analysis. [PMID:20601955](../papers/20601955.md)
-- In the 2,138-sarcoma MSK-IMPACT cohort, myxoid/round-cell liposarcoma (MRLS) showed [TERT](../genes/TERT.md) promoter mutations in 79% (38/48) — the highest TERT-promoter mutation rate across sarcoma subtypes; PI3K pathway altered in 41%; PIK3CA mutated in 25%; [PTEN](../genes/PTEN.md) loss in 21% [PMID:35705560](../papers/35705560.md).
-- In a 7,494-sarcoma cohort, myxoid liposarcoma showed PIK3CA mutations in 36.3%, PTEN loss in 17.8%, and [AKT1](../genes/AKT1.md) E17K in 3.7%; these were among the highest PI3K-pathway alteration rates across all sarcoma histotypes [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, myxoid/round-cell liposarcoma (MRLS) showed [TERT](../genes/TERT.md) promoter mutations in 79% (38/48) — the highest TERT-promoter mutation rate across sarcoma subtypes; PI3K pathway altered in 41%; [PIK3CA](../genes/PIK3CA.md) mutated in 25%; [PTEN](../genes/PTEN.md) loss in 21% [PMID:35705560](../papers/35705560.md).
+- In a 7,494-sarcoma cohort, myxoid liposarcoma showed PIK3CA mutations in 36.3%, [PTEN](../genes/PTEN.md) loss in 17.8%, and [AKT1](../genes/AKT1.md) E17K in 3.7%; these were among the highest PI3K-pathway alteration rates across all sarcoma histotypes [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
 - Myxoid predominant (>10% myxoid component): better prognosis.
 - Round-cell predominant (>5% round cells): higher grade, worse prognosis.
-- Relationship between PIK3CA mutation and the FUS–DDIT3 translocation remains unresolved. [PMID:20601955](../papers/20601955.md)
+- Relationship between PIK3CA mutation and the [FUS](../genes/FUS.md)–DDIT3 translocation remains unresolved. [PMID:20601955](../papers/20601955.md)
 
 ## Therapeutic landscape
 

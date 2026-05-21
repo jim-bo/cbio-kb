@@ -3,8 +3,8 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD, HNSC, NSCLC]
 tags: [co-mutation, metastasis]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # KEAP1
@@ -38,6 +38,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - NRF2 pathway gene mutated in 33/101 evaluable LSCC tumors; KEAP1 mutations did NOT reduce KEAP1 protein levels in LSCC (unlike LUAD), indicating that NRF2-pathway dysregulation differs mechanistically between [NSCLC](../cancer_types/NSCLC.md) subtypes. [PMID:34358469](../papers/34358469.md)
 - KEAP1 mutations were detected in a subset of [SCLC](../cancer_types/SCLC.md) PDX models (MSK1053, MSK511c, MSK773D/E/G/I) along with [SMARCA4](../genes/SMARCA4.md) and [STK11](../genes/STK11.md), representing NSCLC-typical co-occurring mutations in a minority of [SCLC](../cancer_types/SCLC.md) xenograft models [PMID:35440124](../papers/35440124.md).
 - Mutated in ≥3 HCCs in a European multi-etiology proteogenomic cohort (n=122 tumors); classified as a non-SMG cancer gene; associated with poor overall survival independent of BCLC staging in multivariate Cox analysis [PMID:35508466](../papers/35508466.md).
+- Significantly lower mutation frequency in Asian [LUAD](../cancer_types/LUAD.md) patients vs MSK and TCGA cohorts (aOM vs MSK: one of only 12 tumor-type:gene pairs with FDR<0.05 difference); raises the open question of whether lower KEAP1 frequency in Chinese LUAD translates to differential sensitivity to checkpoint blockade [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -64,61 +65,44 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25765070](../papers/25765070.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

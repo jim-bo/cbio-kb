@@ -35,7 +35,7 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - Used for clinical actionability annotation of variants detected in the MSK-ACCESS prospective cohort; 41% (278/681) samples had OncoKB level 1–3B alterations; used to define the 56% of samples with ≥1 alteration that harbored clinically actionable findings [PMID:34145282](../papers/34145282.md)
 - Applied to annotate clinical actionability in cfDNA mutations detected by cf-IMPACT ([IMPACT410](../methods/IMPACT410.md)) and [MSK-ACCESS](../methods/ACCESS129.md) across 118 metastatic solid tumor patients; 25% (30/118) had OncoKB level 1–4 actionable variants by cf-IMPACT [PMID:34059130](../papers/34059130.md)
 - Applied to annotate candidate driver mutations in the [CSCC](../cancer_types/CSCC.md) meta-analysis; OncoKB hotspot classification was used to exclude potential false-positive driver calls (e.g., [MAP2K4](../genes/MAP2K4.md) and [KDR](../genes/KDR.md) hotspots classified as unlikely oncogenic) [PMID:34272401](../papers/34272401.md)
-- OncoKB actionability levels applied to 7,494 sarcoma samples (data cutoff June 8, 2021); 31.7% harbored ≥1 actionable alteration, 5.9% at Level 1 (FDA-recognized for the given histology), predominantly [KIT](../genes/KIT.md) mutations in GIST [PMID:35705558](../papers/35705558.md)
+- OncoKB actionability levels applied to 7,494 sarcoma samples (data cutoff June 8, 2021); 31.7% harbored ≥1 actionable alteration, 5.9% at Level 1 (FDA-recognized for the given histology), predominantly [KIT](../genes/KIT.md) mutations in [GIST](../cancer_types/GIST.md) [PMID:35705558](../papers/35705558.md)
 
 ## Notes
 

@@ -53,7 +53,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied in 73/96 pediatric pilocytic astrocytoma cases (ICGC cohort) for matched RNA sequencing alongside WGS; used for fusion discovery via TopHat-Fusion and deFuse, identifying novel [NTRK2](../genes/NTRK2.md) fusions ([QKI](../genes/QKI.md):[NTRK2](../genes/NTRK2.md), [NACC2](../genes/NACC2.md):[NTRK2](../genes/NTRK2.md)) and novel [BRAF](../genes/BRAF.md) fusion partners [PMID:23817572](../papers/23817572.md)
 - Applied to 164 [GBM](../cancer_types/GBM.md) transcriptomes; analyzed with PRADA to detect fusion transcripts (228 total in 106/164 samples) including recurrent EGFR-SEPT14, FGFR3-TACC3, and [PDGFRA](../genes/PDGFRA.md) intragenic splice variants [PMID:24120142](../papers/24120142.md)
 - Applied to 42 TCC bladder tumors with 16 matched normal bladder tissues; detected FGFR3-TACC3 in-frame fusion in 2/42 (5%) cases with outlier [TACC3](../genes/TACC3.md) expression [PMID:24121792](../papers/24121792.md)
-- Performed alongside whole-genome sequencing (STAR hg38 alignment + RSEM quantification) for 28 metastatic NENs in the BC Cancer POG program; expression data drove 6 of 10 clinical benefit outcomes through independent transcriptome-based therapy recommendations [PMID:40328872](../papers/40328872.md).
+- Performed alongside whole-genome sequencing ([STAR](../genes/STAR.md) hg38 alignment + RSEM quantification) for 28 metastatic NENs in the BC Cancer POG program; expression data drove 6 of 10 clinical benefit outcomes through independent transcriptome-based therapy recommendations [PMID:40328872](../papers/40328872.md).
 - Used to validate aberrant splicing in grade II glioma, including confirmation of [RB1](../genes/RB1.md) c.2520+1G>A splice-site mutation-driven premature termination and loss of growth-suppression domain in a TMZ-treated hypermutated recurrence [PMID:24336570](../papers/24336570.md)
 - PolyA RNA-seq on Illumina HiSeq2000 (100 bp PE) applied to 80 rhabdomyosarcoma tumors; mapped with TopHat2; fusions called via [tophat-fusion](../methods/tophat-fusion.md) and deFuse; showed 58% of DNA-level somatic mutations had RNA expression evidence; identified cryptic PAX rearrangements including PAX3-INO80D [PMID:24436047](../papers/24436047.md)
 - Applied to all 131 TCGA bladder carcinoma tumors (n=129 for mRNA clustering); miRNA-seq also performed; identified 4 mRNA expression clusters including papillary-like (cluster I, enriched for [FGFR3](../genes/FGFR3.md) mutations) and basal/squamous-like (cluster III, expressing KRT14/KRT5/EGFR); viral integration transcripts detected in 5/122 [PMID:24476821](../papers/24476821.md)
@@ -135,6 +135,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Whole-transcriptome RNA-seq performed on 101/114 patients in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline; enabled novel fusion gene discovery and orthogonal validation of SVs in pediatric/AYA solid tumors [PMID:35585047](../papers/35585047.md)
 - Applied to all 40 metastatic CRPC models (organoids, PDXs, cell lines) and 366 CRPC patients (SU2C + WCM cohorts) in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md); polyA-enriched RNA-seq data used for CRPC subtype classification via Nearest Template Prediction [PMID:35617398](../papers/35617398.md)
 - Bulk RNA-seq (STAR + kallisto alignment to b37) generated for 392 longitudinal glioma samples from 206 patients in the GLASS expansion cohort; transcriptional subtype switching (e.g. classical→mesenchymal) and cell-state deconvolution were primary analytical outputs [PMID:35649412](../papers/35649412.md)
+- Applied to 942 [AML](../cancer_types/AML.md) specimens with conditional quantile normalization (CQN) parameters carried over from Beat AML Waves 1+2; used to derive maturation-state PC1 scores, WGCNA module eigengenes, and [PEAR1](../genes/PEAR1.md) expression for survival modeling [PMID:35868306](../papers/35868306.md)
+- Applied to 114 pre-treatment rectal adenocarcinoma endoscopic biopsies; identified [IGF2](../genes/IGF2.md) and [L1CAM](../genes/L1CAM.md) overexpression in incomplete NAT responders, and immune clustering revealed a ~8% immune-hot pMMR/MSS subset (IG3) with checkpoint-gene overexpression [PMID:35970919](../papers/35970919.md)
 
 ## Notes
 
@@ -472,5 +474,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

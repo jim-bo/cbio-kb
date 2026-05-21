@@ -3,8 +3,8 @@ symbol: CTLA4
 aliases: []
 cancer_types: [COAD]
 tags: [immune-checkpoint, icr-signature, counter-regulation]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CTLA4
@@ -27,7 +27,8 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - CTLA4 immune checkpoint program is enriched in iClusters C3 (mesenchymal/immune) and C20 (mixed stromal/immune) across 28 pan-cancer iClusters, supporting immunotherapy susceptibility in these subtypes [PMID:29625048](../papers/29625048.md)
 - CTLA4 expression defines immune cluster membership in 133 cHCC-ICC cases; High immune cluster (enriched in mixed-type/P2 tumors) may predict differential response to immune checkpoint therapies [PMID:31130341](../papers/31130341.md)
 - Higher CTLA4 expression in ipilimumab-treated melanoma responders to subsequent anti-PD1 ICB (P=0.008); CTLA4 expression is one component of the immune infiltrate signature predictive of response in the ipilimumab-pretreated subgroup [PMID:31792460](../papers/31792460.md)
-- Expressed on dysfunctional CD4+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive microenvironment of conventional adenomas in the COLON MAP / HTAN pre-cancer atlas [PMID:34910928](../papers/34910928.md)
+- Expressed on dysfunctional [CD4](../genes/CD4.md)+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive microenvironment of conventional adenomas in the COLON MAP / HTAN pre-cancer atlas [PMID:34910928](../papers/34910928.md)
+- Overexpressed in immune-hot IG3 pMMR/MSS rectal tumors alongside PD-1/PD-L1/TIM3/LAG3, nominating this subset for ICI trials; checkpoint expression co-occurs with favorable immune geography in locally advanced rectal cancer (LARC) [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -51,37 +52,40 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25409260](../papers/25409260.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26359337](../papers/26359337.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31792460](../papers/31792460.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

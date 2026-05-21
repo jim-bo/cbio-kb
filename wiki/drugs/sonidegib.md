@@ -21,7 +21,7 @@ Sonidegib (LDE225) is a selective smoothened ([SMO](../genes/SMO.md)) antagonist
 
 ## Resistance mechanisms
 
-- SMO resistance mutations emerged in 3 patients after prior hedgehog inhibitor exposure in the MAPPYACTS cohort of 787 pediatric/young-adult recurrent malignancies [PMID:35292802](../papers/35292802.md)
+- [SMO](../genes/SMO.md) resistance mutations emerged in 3 patients after prior hedgehog inhibitor exposure in the MAPPYACTS cohort of 787 pediatric/young-adult recurrent malignancies [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 

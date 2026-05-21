@@ -59,14 +59,15 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Amplification in 2 [GBM](../cancer_types/GBM.md) PDX; copy number gains in both IDH-mutant lines (GBM164, GBM196), consistent with secondary-glioblastoma literature; [PTPRZ1](../genes/PTPRZ1.md)–MET fusion detected in [GBM](../cancer_types/GBM.md) PDX as a potentially targetable alteration [PMID:31852831](../papers/31852831.md)
 - MET exon 14 skipping was searched for but not enriched in the chaotic subtype of never-smoker lung adenocarcinoma (NS-LUAD) [PMID:32015526](../papers/32015526.md)
 - Overexpressed in EGFR-mutant [LUAD](../cancer_types/LUAD.md) tumors as part of the EGFR-driven proteogenomic signature in the CPTAC cohort (n=110) [PMID:32649874](../papers/32649874.md)
-- Recurrently amplified oncogene across 604 stage I-III resected [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; consistent with prior LUAD reports. [PMID:32791233](../papers/32791233.md)
-- Protein upregulated in mesenchymal GBM tumors in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md); identified as a mesenchymal-cell-state marker in snRNA-seq; EMT-related MET expression originates partly in tumor cells of nmf2 (mesenchymal-like) samples [PMID:33577785](../papers/33577785.md)
+- Recurrently amplified oncogene across 604 stage I-III resected [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; consistent with prior [LUAD](../cancer_types/LUAD.md) reports. [PMID:32791233](../papers/32791233.md)
+- Protein upregulated in mesenchymal [GBM](../cancer_types/GBM.md) tumors in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md); identified as a mesenchymal-cell-state marker in snRNA-seq; EMT-related MET expression originates partly in tumor cells of nmf2 (mesenchymal-like) samples [PMID:33577785](../papers/33577785.md)
 - Rare amplification (n=3) in intrahepatic cholangiocarcinoma ([ihch_msk_2021](../datasets/ihch_msk_2021.md), N=412); classified among rare RTK amplification events in the RTK/RAS pathway (altered in 48% of tumors overall) [PMID:33765338](../papers/33765338.md)
 - Targetable driver mutations and amplifications recurrent in [NSCLC](../cancer_types/NSCLC.md) detected by MSK-ACCESS cfDNA assay; MET was among the 10 genes used to assemble the orthogonal-truth accuracy cohort [PMID:34145282](../papers/34145282.md)
 - Assessed at ≥2% frequency in clinical-stage I/II [LUAD](../cancer_types/LUAD.md) tumors; no significant association with pathologic lymph-node (pN) metastasis status detected [PMID:34290393](../papers/34290393.md).
 - Altered in 4.3% of lung cancer in never-smokers (LCINS); MET-altered tumors showed *better* overall survival than other RTK-RAS-altered groups — an unusual finding within the pathway [PMID:34493867](../papers/34493867.md).
 - RNA and protein levels concordantly upregulated alongside KRAS/RAC1/PAK1/PAK2 in [PAAD](../cancer_types/PAAD.md); positioned as a downstream effector node in the [KRAS](../genes/KRAS.md)→[RAC1](../genes/RAC1.md) signaling axis [PMID:34534465](../papers/34534465.md).
-- MET focal amplifications mediated bypass resistance to [selpercatinib](../drugs/selpercatinib.md) in RET-fusion NSCLC; one patient with subclonal pre-treatment MET amplification re-responded to [selpercatinib](../drugs/selpercatinib.md) + [crizotinib](../drugs/crizotinib.md) combination, demonstrating MET-mediated bypass as an actionable mechanism [PMID:35304457](../papers/35304457.md).
+- MET focal amplifications mediated bypass resistance to [selpercatinib](../drugs/selpercatinib.md) in RET-fusion [NSCLC](../cancer_types/NSCLC.md); one patient with subclonal pre-treatment MET amplification re-responded to [selpercatinib](../drugs/selpercatinib.md) + [crizotinib](../drugs/crizotinib.md) combination, demonstrating MET-mediated bypass as an actionable mechanism [PMID:35304457](../papers/35304457.md).
+- MET catalogued as a pan-cancer fusion driver with multiple novel partner genes in the OncoMark pan-cancer dataset of ~8,900 Chinese solid-tumor patients [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -189,5 +190,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

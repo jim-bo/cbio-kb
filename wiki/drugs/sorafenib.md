@@ -15,8 +15,8 @@ tags:
   - targeted-therapy
   - anti-angiogenic
   - braf-inhibitor
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # sorafenib
@@ -34,12 +34,13 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - [VEGFA](../genes/VEGFA.md) focal gain at 6p21 is reported as a predictor of sorafenib benefit in [HCC](../cancer_types/HCC.md); no targeted therapy has exceeded sorafenib in phase III [HCC](../cancer_types/HCC.md) trials as of early 2014, framed as the central translational gap [PMID:24735922](../papers/24735922.md)
 - First-line [HCC](../cancer_types/HCC.md) standard of care (SHARP trial): sorafenib vs placebo median [OS](../cancer_types/OS.md) 10.7 vs 7.9 months (HR 0.69, 95% CI 0.55–0.87, P<0.001); standard for Child–Pugh A, BCLC-C/post-TACE-B from 2007 through 2017; no predictive biomarkers identified; STORM adjuvant trial was negative [PMID:24798001](../papers/24798001.md)
 - Nominated for Triple-WT melanoma subtype (14% of 318 TCGA cases) to target co-amplified PDGFRA/KDR at 4q12 alongside [imatinib](../drugs/imatinib.md), [crenolanib](../drugs/crenolanib.md), [regorafenib](../drugs/regorafenib.md), and [pazopanib](../drugs/pazopanib.md); Triple-WT lacks hot-spot BRAF/RAS/NF1 mutations [PMID:26091043](../papers/26091043.md)
-- Multi-kinase inhibitor; proposed as therapeutic candidate for BRAF D594-mutant GCT (3 BRAF mutations including D594N, D594G in 180 advanced GCT patients) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
-- Identified as sorafenib-sensitive agent for ARAF S214Y/S214P hotspot mutations (2 patients) in 860-patient MSK-IMPACT LUAD cohort based on prior preclinical work; these rare ARAF hotspots cited as potentially actionable [PMID:28336552](../papers/28336552.md).
+- Multi-kinase inhibitor; proposed as therapeutic candidate for [BRAF](../genes/BRAF.md) D594-mutant [GCT](../cancer_types/GCT.md) (3 BRAF mutations including D594N, D594G in 180 advanced GCT patients) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
+- Identified as sorafenib-sensitive agent for [ARAF](../genes/ARAF.md) S214Y/S214P hotspot mutations (2 patients) in 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort based on prior preclinical work; these rare ARAF hotspots cited as potentially actionable [PMID:28336552](../papers/28336552.md).
 - Used as matched targeted therapy in 1 of 25 cholangiocarcinoma patients receiving biomarker-directed treatment; 64% of the biomarker-directed cohort had response or clinical benefit [PMID:29848569](../papers/29848569.md)
-- In MSKCC prospective NGS of 127 advanced HCC patients, 81 received sorafenib (75 first-line); median PFS 4.8 mo, median OS 16.4 mo overall; oncogenic PI3K-mTOR pathway alterations (n=12) were associated with significantly lower DCR (8.3% vs 40.2%, p=0.05), shorter median PFS (1.9 vs 5.3 mo; HR 3.8, p<0.0001), and shorter OS (10.4 vs 17.9 mo; HR 2.5, p=0.01); WNT, MAPK, and TP53 pathway alterations had no effect on sorafenib outcomes [PMID:30373752](../papers/30373752.md).
-- In immune-cold PDAC (paad_cptac_2021, n=140), antiangiogenic therapy with sorafenib (and NGR-TNF) plus HIF-1 inhibition is proposed to normalize endothelial cells and promote immune infiltration, given elevated VEGF and hypoxia signaling in these tumors [PMID:34534465](../papers/34534465.md)
-- In a phosphoproteogenomic HCC dataset (n=122 biopsies), sorafenib is cited alongside regorafenib as a current standard agent; authors note preclinical evidence of synergy between AURKA/CDK inhibitors (elevated by KSEA) and sorafenib as motivation for targeted combination strategies in HCC [PMID:35508466](../papers/35508466.md)
+- In MSKCC prospective NGS of 127 advanced [HCC](../cancer_types/HCC.md) patients, 81 received sorafenib (75 first-line); median PFS 4.8 mo, median [OS](../cancer_types/OS.md) 16.4 mo overall; oncogenic PI3K-mTOR pathway alterations (n=12) were associated with significantly lower DCR (8.3% vs 40.2%, p=0.05), shorter median PFS (1.9 vs 5.3 mo; HR 3.8, p<0.0001), and shorter OS (10.4 vs 17.9 mo; HR 2.5, p=0.01); WNT, MAPK, and [TP53](../genes/TP53.md) pathway alterations had no effect on sorafenib outcomes [PMID:30373752](../papers/30373752.md).
+- In immune-cold PDAC ([paad_cptac_2021](../datasets/paad_cptac_2021.md), n=140), antiangiogenic therapy with sorafenib (and NGR-TNF) plus HIF-1 inhibition is proposed to normalize endothelial cells and promote immune infiltration, given elevated VEGF and hypoxia signaling in these tumors [PMID:34534465](../papers/34534465.md)
+- In a phosphoproteogenomic HCC dataset (n=122 biopsies), sorafenib is cited alongside [regorafenib](../drugs/regorafenib.md) as a current standard agent; authors note preclinical evidence of synergy between AURKA/CDK inhibitors (elevated by KSEA) and sorafenib as motivation for targeted combination strategies in HCC [PMID:35508466](../papers/35508466.md)
+- Multi-kinase/FLT3 inhibitor; in Beat [AML](../cancer_types/AML.md) Waves 3+4 (n=805), sorafenib sensitivity in FLT3-ITD AML is conditional on maturation state: Progenitor-like scores predict sensitivity, Monocyte-like scores confer resistance [PMID:35868306](../papers/35868306.md)
 
 ## Resistance mechanisms
 
@@ -64,4 +65,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

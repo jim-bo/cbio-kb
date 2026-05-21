@@ -3,8 +3,8 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # SF3B1
@@ -24,7 +24,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors [PMID:23103869](../papers/23103869.md)
 - Recurrently mutated in CLL WES of 160 tumors (Broad Institute cohort); SF3B1 mutations are a hallmark of CLL and associate with distinct clinical features [PMID:23415222](../papers/23415222.md)
 - SF3B1 is a recurrent spliceosome-complex gene mutated in [AML](../cancer_types/AML.md) (14% prevalence alongside [U2AF1](../genes/U2AF1.md) and [SRSF2](../genes/SRSF2.md)) [PMID:23634996](../papers/23634996.md)
-- Truncating mutation identified in the discovery cohort of adenoid cystic carcinoma (24 cases); classified among known cancer/tumor-suppressor genes with loss-of-function mutations in ACC. [PMID:23778141](../papers/23778141.md)
+- Truncating mutation identified in the discovery cohort of adenoid cystic carcinoma (24 cases); classified among known cancer/tumor-suppressor genes with loss-of-function mutations in [ACC](../cancer_types/ACC.md). [PMID:23778141](../papers/23778141.md)
 - SF3B1 somatic splicing-factor mutation identified in 3 [MPN](../cancer_types/MPN.md) patients alongside other epigenetic/splicing co-mutations in a CALR-discovery exome-sequencing study [PMID:24325359](../papers/24325359.md)
 - R625H hot-spot mutation co-occurring with GNAQ/GNA11 in the Triple-WT cutaneous melanoma subtype. [PMID:26091043](../papers/26091043.md)
 - Non-passenger somatic mutation in breast AdCC (adenoid cystic carcinoma of the breast); shared with salivary gland AdCCs; one of several cancer genes mutated in WES of 12 breast AdCC tumours (0.27 non-silent mutations/Mb, no [TP53](../genes/TP53.md) or [PIK3CA](../genes/PIK3CA.md) mutations) [PMID:26095796](../papers/26095796.md)
@@ -34,8 +34,8 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Low-frequency recurrent mutation in thyroid cancer (PDTC/ATC), detected alongside other low-frequency hits in a targeted sequencing study [PMID:26878173](../papers/26878173.md)
 - Co-listed with CMTR2/FTSJD1 and [SNRPD3](../genes/SNRPD3.md) as recurrently mutated splicing factors in lung ADC, in a 1,144-NSCLC exome-sequencing cohort [PMID:27158780](../papers/27158780.md).
 - Recurrent K700E mutation in 3.5% of ER+ breast tumours (ONC=52%); linked to differential splicing; associated with older age at diagnosis (OR=4.5) and mutually exclusive with [TP53](../genes/TP53.md) (OR=0.049) in the 2,433-tumour METABRIC cohort [PMID:27161491](../papers/27161491.md).
-- Splicing factor mutation; part of the chromatin-spliceosome subgroup in AML (n=1,540); co-occurs with ASXL1, SRSF2, U2AF1, and ZRSR2 as an adverse-risk cluster [PMID:27276561](../papers/27276561.md)
-- Alongside TP53, the only gene whose mutations consistently declined to VAF <5% during 10-day decitabine therapy in AML/MDS patients (N=116 combined cohort); included in both the 264-gene enhanced exome and the 8-gene AmpliSeq panel used on this trial. [PMID:27959731](../papers/27959731.md)
+- Splicing factor mutation; part of the chromatin-spliceosome subgroup in [AML](../cancer_types/AML.md) (n=1,540); co-occurs with [ASXL1](../genes/ASXL1.md), [SRSF2](../genes/SRSF2.md), [U2AF1](../genes/U2AF1.md), and [ZRSR2](../genes/ZRSR2.md) as an adverse-risk cluster [PMID:27276561](../papers/27276561.md)
+- Alongside [TP53](../genes/TP53.md), the only gene whose mutations consistently declined to VAF <5% during 10-day [decitabine](../drugs/decitabine.md) therapy in AML/MDS patients (N=116 combined cohort); included in both the 264-gene enhanced exome and the 8-gene AmpliSeq panel used on this trial. [PMID:27959731](../papers/27959731.md)
 - Newly nominated CCA driver; mutated in 4.6% at hotspots codon 625 (23%) and codon 700 (14%), implicating splicing dysregulation paralleling uveal melanoma and breast cancer hotspots [PMID:28667006](../papers/28667006.md)
 - Top CRISPR-essential dependency in DLBCL; mutated in the corpus alongside [MTOR](../genes/MTOR.md) [PMID:28985567](../papers/28985567.md)
 - SF3B1 K700E used as the empirical AC=16 cutoff for the 'Common in ExAC' filter in the TCGA MC3 mutation calling pipeline — highest ExAC count observed for a known clonal-hematopoiesis somatic event in the non-TCGA subset of ExAC v0.3.1 [PMID:29596782](../papers/29596782.md)
@@ -44,6 +44,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Subclonal SF3B1 mutation identified in a divergent metastatic cluster during multiregion sequencing of adenoid cystic carcinoma; implicated in metastasis in other tumor types [PMID:31483290](../papers/31483290.md).
 - SF3B1 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Spliceosome CH gene; strongly age-associated clonal hematopoiesis not enriched by therapy exposure; collectively among the strongest therapy-related myeloid neoplasm (tMN) risk predictors alongside SRSF2 and U2AF1 [PMID:33106634](../papers/33106634.md)
+- In AML cell-state RNA-seq analysis (n=68), SF3B1 mutations are enriched in the HSC-like cell state alongside [BCOR](../genes/BCOR.md) [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 
@@ -119,7 +120,10 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

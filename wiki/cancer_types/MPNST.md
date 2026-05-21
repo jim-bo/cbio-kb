@@ -38,7 +38,7 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 - MPNST was enrolled in the MAPPYACTS pediatric precision-medicine trial (sarcomas 37% of 787 patients); [NF1](../genes/NF1.md) pathogenic mutations were investigational targets and were recurrent in MPNST (n=33 deleterious events across the cohort) [PMID:35292802](../papers/35292802.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 - In a 7,494-sarcoma cohort, MPNST showed CDKN2A/B deletion in 47.3%, kinase fusions in 4.9%, TMB ≥10 mut/Mb in 10.8%, and lower TMB in P-AYA patients (2.4 vs 3.2 mut/Mb; FDR<0.05); biallelic HRD-gene loss in 16% of MPNST [PMID:35705558](../papers/35705558.md).
-- In the 2,138-sarcoma MSK-IMPACT cohort, MPNST showed NF1 somatic deletions in 32% (Level 4), [CDKN2A](../genes/CDKN2A.md) deletions up to 48%, and epigenetic pathway alteration in 64% — the highest rate across all sarcoma subtypes; WGD in ~50% [PMID:35705560](../papers/35705560.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, MPNST showed [NF1](../genes/NF1.md) somatic deletions in 32% (Level 4), [CDKN2A](../genes/CDKN2A.md) deletions up to 48%, and epigenetic pathway alteration in 64% — the highest rate across all sarcoma subtypes; WGD in ~50% [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 

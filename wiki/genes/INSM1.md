@@ -24,7 +24,7 @@ INSM1 (Insulinoma-Associated Protein 1) is a zinc-finger transcription factor an
 
 ## Co-occurrence and mutual exclusivity
 
-- Low INSM1 and [CHGA](../genes/CHGA.md) (chromogranin A) co-occur with high [POU2F3](../genes/POU2F3.md) expression in SCLC-P models; high INSM1 correlates with [ASCL1](../genes/ASCL1.md) and [NEUROD1](../genes/NEUROD1.md) subtype-defining markers in NE SCLC [PMID:35440124](../papers/35440124.md).
+- Low INSM1 and [CHGA](../genes/CHGA.md) (chromogranin A) co-occur with high [POU2F3](../genes/POU2F3.md) expression in SCLC-P models; high INSM1 correlates with [ASCL1](../genes/ASCL1.md) and [NEUROD1](../genes/NEUROD1.md) subtype-defining markers in NE [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md).
 
 ## Therapeutic relevance
 

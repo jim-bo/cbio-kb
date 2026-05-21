@@ -3,7 +3,7 @@ symbol: DICER1
 aliases: []
 cancer_types: [CLLSLL]
 tags: [mirna-biogenesis, novel-driver, u-cll]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-21
 ---
 
@@ -20,6 +20,7 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 - DICER1 somatic mutations identified in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
 - Somatic E1813G identified in pleuropulmonary blastoma ([PPB](../cancer_types/PPB.md)) as health-maintenance flag for DICER1 syndrome; germline frameshift L1603Pfs in pineoblastoma flagged for Sertoli-Leydig tumor surveillance; VUS D609Y returned to a family of a patient with anaplastic large cell lymphoma ([ALCL](../cancer_types/ALCL.md)) [PMID:28007021](../papers/28007021.md).
 - DICER1 oncogenic in 12% of [ERMS](../cancer_types/ERMS.md); mutually exclusive with [BCOR](../genes/BCOR.md) (16%) in embryonal rhabdomyosarcoma [PMID:35705560](../papers/35705560.md)
+- Pathogenic DICER1 mutation detected in cfDNA of a uterine adenosarcoma patient (CD37) monitored by MSK-ACCESS; supports cfDNA utility in uterine sarcomas [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
@@ -47,4 +48,7 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

@@ -40,7 +40,7 @@ The TCGA Lower-Grade Glioma ([LGG](../cancer_types/LGG.md)) cohort is a large, m
 
 ## Papers using this cohort
 
-- [PMID:27806376](../papers/27806376.md) — Tirosh et al. 2016, *Nature*: 69 bulk oligodendroglioma samples from TCGA LGG used as an external validation cohort for scRNA-seq-derived stem/progenitor and cell-cycle signatures.
+- [PMID:27806376](../papers/27806376.md) — Tirosh et al. 2016, *Nature*: 69 bulk oligodendroglioma samples from TCGA [LGG](../cancer_types/LGG.md) used as an external validation cohort for scRNA-seq-derived stem/progenitor and cell-cycle signatures.
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*: Expert-revised multi-parametric MRI segmentation labels and >700 radiomic features released for 108 TCGA-LGG cases (originating set n=199), enabling radiogenomic integration with lgg_tcga molecular data.
 - [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 516 LGG samples from this cohort merged with [gbm_tcga](../datasets/gbm_tcga.md) into [lgggbm_tcga_pub](../datasets/lgggbm_tcga_pub.md); identified six DNA-methylation subtypes and PA-like IDH-wildtype LGG.
 
@@ -48,7 +48,7 @@ The TCGA Lower-Grade Glioma ([LGG](../cancer_types/LGG.md)) cohort is a large, m
 
 - The scRNA-seq-derived stem/progenitor gene signature (defined in 6 primary oligodendrogliomas) correlates positively with the cell-cycle signature across the 69 TCGA LGG oligodendroglioma bulk samples, supporting the single-cell developmental hierarchy model in a larger independent cohort [PMID:27806376](../papers/27806376.md).
 - Bakas et al. 2017 released expert-revised MRI segmentation labels (whole tumour, tumour core, non-enhancing tumour) for 108 TCGA-LGG cases via the TCIA [tcia-tcga-lgg](../datasets/tcia-tcga-lgg.md) collection. LGG cases without apparent enhancing tumour were annotated as NET-only or NET+oedema, reflecting lower blood-brain-barrier disruption typical of low-grade glioma biology. These labels became the BraTS'17 reference standard and are paired with the molecular profiles in lgg_tcga for radiogenomic studies. [PMID:28872634](../papers/28872634.md)
-- Used as a component cohort (516 LGG samples, grades II–III) in the TCGA pan-glioma integrated analysis; merged with gbm_tcga into lgggbm_tcga_pub for a 1,122-patient study that redefined glioma classification by DNA-methylation subtype [PMID:26824661](../papers/26824661.md)
+- Used as a component cohort (516 LGG samples, grades II–III) in the TCGA pan-glioma integrated analysis; merged with [gbm_tcga](../datasets/gbm_tcga.md) into [lgggbm_tcga_pub](../datasets/lgggbm_tcga_pub.md) for a 1,122-patient study that redefined glioma classification by DNA-methylation subtype [PMID:26824661](../papers/26824661.md)
 - Included as a reference sub-cohort (re-processed TCGA-LGG samples) within the GLASS Consortium longitudinal glioma study. [PMID:31748746](../papers/31748746.md)
 - Used as reference dataset (combined with TCGA [GBM](../cancer_types/GBM.md) for 687 glioma transcriptomes) for myeloid-subtype deconvolution analyses in the GLASS longitudinal glioma study [PMID:35649412](../papers/35649412.md)
 

@@ -20,7 +20,7 @@ SYP (Synaptophysin) encodes an integral membrane glycoprotein of small presynapt
 
 ## Cancer types (linked)
 
-- [SCLC](../cancer_types/SCLC.md): SYP expression marks the minority transcriptional subtype in unsupervised RNA-seq clustering of 69 SCLC tumours; major driver mutations ([TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [CREBBP](../genes/CREBBP.md)) do not differ between subtypes [PMID:26168399](../papers/26168399.md)
+- [SCLC](../cancer_types/SCLC.md): SYP expression marks the minority transcriptional subtype in unsupervised RNA-seq clustering of 69 [SCLC](../cancer_types/SCLC.md) tumours; major driver mutations ([TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [CREBBP](../genes/CREBBP.md)) do not differ between subtypes [PMID:26168399](../papers/26168399.md)
 
 ## Co-occurrence and mutual exclusivity
 

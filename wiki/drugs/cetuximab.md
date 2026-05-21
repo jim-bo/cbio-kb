@@ -29,8 +29,9 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - EGFR-targeting monoclonal antibody; noted as the last approved targeted therapy for [HNSC](../cancer_types/HNSC.md) (approved 2006); no new targeted therapies validated since, motivating routine NGS in recurrent/metastatic [HNSC](../cancer_types/HNSC.md) [PMID:27442865](../papers/27442865.md)
 - OncoKB Level 1 resistance biomarkers for cetuximab in [COADREAD](../cancer_types/COADREAD.md) are hotspot [KRAS](../genes/KRAS.md) and [NRAS](../genes/NRAS.md) mutations (44% and listed frequency respectively in this 1,134-CRC MSK-IMPACT cohort); one acquired-resistance case carried [EGFR](../genes/EGFR.md) S492R after 1.5 years of cetuximab, concurrent with [ERBB2](../genes/ERBB2.md) amplification [PMID:29316426](../papers/29316426.md)
 - KRAS-mutant rectal cancer tumoroids were resistant to cetuximab ex vivo while [KRAS](../genes/KRAS.md) wild-type tumoroids were sensitive, recapitulating the established CRC clinical finding; cetuximab is not standard therapy in rectal cancer but validated the tumoroid platform's biological fidelity [PMID:31591597](../papers/31591597.md)
-- In [LUSC](../cancer_types/LUSC.md), EGFR amplification did not correlate with PROGENy-based EGFR pathway activity, which instead tracked EGFR ligand mRNA abundance; the authors propose ligand abundance — rather than EGFR amplification — may better stratify response to ligand-blocking agents like cetuximab in squamous lung tumors [PMID:34358469](../papers/34358469.md)
+- In [LUSC](../cancer_types/LUSC.md), [EGFR](../genes/EGFR.md) amplification did not correlate with PROGENy-based EGFR pathway activity, which instead tracked EGFR ligand mRNA abundance; the authors propose ligand abundance — rather than EGFR amplification — may better stratify response to ligand-blocking agents like cetuximab in squamous lung tumors [PMID:34358469](../papers/34358469.md)
 - Cetuximab (anti-EGFR) is restricted to RAS wild-type CRC; the dual-driver CRC paper shows 1.03% of CRC patients harbor dual RAS hotspot/BRAF V600E mutations — pre-treatment subclonal RAS mutations may coexist and complicate anti-EGFR biomarker interpretation [PMID:35235413](../papers/35235413.md)
+- Anti-EGFR antibody; [BRAF](../genes/BRAF.md) V600E in 4.4% of CRC in Chinese pan-cancer cohort (n=10,194) treated with [encorafenib](../drugs/encorafenib.md)+cetuximab at OncoKB Level 1 [PMID:35871175](../papers/35871175.md)
 
 ## Resistance mechanisms
 
@@ -74,5 +75,8 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

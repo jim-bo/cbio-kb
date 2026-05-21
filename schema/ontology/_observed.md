@@ -1,5 +1,6 @@
 # Observed (corpus-grown) terms
 
+- cancer_type: STS — observed in PMID:35871175 — note: corpus umbrella for soft tissue/bone sarcomas; nearest OncoTree parent is SOFT_TISSUE; no single OncoTree code covers the full grouping used in Wu et al. 2022
 - cancer_type: EAC — observed in PMID:35377946 — note: corpus abbreviation for esophageal adenocarcinoma; canonical OncoTree code is ESCA; used in paper as shorthand
 - cancer_type: LCNEC — observed in PMID:35304457 — note: large cell neuroendocrine carcinoma of the lung; canonical OncoTree code is LUNE; used in selpercatinib/LIBRETTO-001 paper
 
@@ -17,6 +18,8 @@
 - method: rna-seq — observed in PMID:35927489 — note: n=712 transcriptomes
 - method: rrbs — observed in PMID:35927489 — note: reduced representation bisulfite sequencing, n=509
 - method: 3d-cell-culture-models — observed in PMID:30643250 — note: umbrella term for scaffold-free spheroids, hydrogel/scaffold systems, bioprinting, and microfluidics; no gene-panel ID; corpus-grown slug
+- drug: azathioprine — observed in PMID:35982973 — note: thiopurine immunosuppressant; associated with SBS32 mutational signature and increased CSCC risk in transplant recipients; not a targeted cancer therapeutic; not in OncoKB
+- drug: tacrolimus — observed in PMID:35982973 — note: calcineurin inhibitor immunosuppressant used post solid-organ transplant; not a targeted cancer therapeutic; not in OncoKB
 - method: 450k-methylation-array — observed in PMID:35927489 — note: Illumina 450k array, n=490
 - method: phylogicndt — observed in PMID:35927489 — note: clonal/temporal ordering tool
 - method: clumps — observed in PMID:35927489 — note: 3D structural mutation clustering
@@ -624,4 +627,8 @@
 - cancer_type: PRMS — observed in PMID:35705558 — note: corpus shorthand for Pleomorphic Rhabdomyosarcoma; canonical OncoTree code is PLRMS; used in sarcoma_msk_2022 dataset
 - cancer_type: MLS — observed in PMID:35705558 — note: corpus shorthand for Myxoid Liposarcoma; canonical OncoTree code is MRLS (Myxoid/Round-Cell Liposarcoma); claims merged into MRLS page
 - cancer_type: SOFT_TISSUE — observed in PMID:35705558, PMID:35705560 — note: OncoTree umbrella cohort tag (confirmed canonical); used as cohort-level grouping for soft tissue sarcoma subcohorts
+- method: csys-450-gene-panel — observed in PMID:35871175 — note: OrigiMed CSYS 450-gene NGS panel (~2.6 Mb coding exons, CLIA/CAP-certified); applied to 10,194 Chinese solid-tumor patients; not in gene_panels.json
+- method: gridss — observed in PMID:35982973 — note: Genome Rearrangement IDentification Software Suite; structural variant caller used in metastatic CSCC WGS pipeline; not in gene_panels.json
+- method: linx — observed in PMID:35982973 — note: structural variant annotation and interpretation tool (Hartwig Medical Foundation); used with PURPLE for SV/CNV annotation in metastatic CSCC WGS; not in gene_panels.json
+- method: purple — observed in PMID:35982973 — note: purity and ploidy estimator (Hartwig Medical Foundation); used for CNV/SV analysis in metastatic CSCC WGS alongside GRIDSS and LINX; not in gene_panels.json
 - cancer_type: BONE — observed in PMID:35705558, PMID:35705560 — note: OncoTree umbrella cohort tag (confirmed canonical); used as cohort-level grouping for bone sarcoma subcohorts

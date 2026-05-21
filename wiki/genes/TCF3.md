@@ -24,7 +24,7 @@ TCF3 (transcription factor 3, also known as E2A) encodes a basic helix-loop-heli
 
 ## Cancer types (linked)
 
-- [SCLC](../cancer_types/SCLC.md) / [LUAD](../cancer_types/LUAD.md) — TCF3 listed as a clonal alteration shared between SCLC and adenocarcinoma components of an admixed MSK773 tumor, with [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md) loss specific to the SCLC compartment [PMID:35440124](../papers/35440124.md).
+- [SCLC](../cancer_types/SCLC.md) / [LUAD](../cancer_types/LUAD.md) — TCF3 listed as a clonal alteration shared between [SCLC](../cancer_types/SCLC.md) and adenocarcinoma components of an admixed MSK773 tumor, with [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md) loss specific to the SCLC compartment [PMID:35440124](../papers/35440124.md).
 
 ## Co-occurrence and mutual exclusivity
 

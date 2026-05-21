@@ -3,8 +3,8 @@ symbol: FLT3
 aliases: []
 cancer_types: [BLLKMT2A, THAP]
 tags: [kinase, signaling, sub-clonal]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # FLT3
@@ -27,6 +27,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - FLT3-ITD detected by Pindel and an internal PCR/capillary-electrophoresis assay in the Beat AML cohort; FLT3-ITD (alone or combined with NPM1) predicted ex vivo ibrutinib and entospletinib sensitivity [PMID:30333627](../papers/30333627.md)
 - In 7/9 ponatinib-sensitive AML lines, alterations in FLT3 (alongside PDGFRA, FGFR1, or KIT) co-occur with high phospho-SHP2 (Y542); FLT3-ITD AML primagrafts with high pSHP2 showed extended survival on ponatinib in vivo [PMID:31068700](../papers/31068700.md).
 - FLT3 — identified as a late-progression driver acquired between clonal hematopoiesis and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients with CH [PMID:33106634](../papers/33106634.md)
+- FLT3-ITD detected via PCR amplicon sizing in the Beat AML cohort (n=942); confers sensitivity to sorafenib, but sensitivity is conditional — high Progenitor-like cell-state score predicts strongest sensitivity while high Monocyte-like score confers resistance in FLT3-ITD-positive [AML](../cancer_types/AML.md) [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 
@@ -50,31 +51,24 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - [PMID:25730765](../papers/25730765.md)
 - [PMID:38412093](../papers/38412093.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

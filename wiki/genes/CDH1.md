@@ -45,6 +45,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - CDH1 mutations associated with ovarian metastasis in HR+HER2- breast cancer, reflecting lobular-carcinoma predisposition to ovarian spread [PMID:30205045](../papers/30205045.md)
 - Mutations negatively correlated with metastatic burden in lobular breast cancer in the MSK-MET pan-cancer cohort (25,775 patients) [PMID:35120664](../papers/35120664.md)
 - Epithelial marker E-cadherin protein reduced in CTNNB1-mutant HCCs (n=51 proteome samples), consistent with loss of epithelial polarity driven by Wnt-mediated actin-cytoskeletal remodeling [PMID:35508466](../papers/35508466.md)
+- CDH1 listed among recurrently altered genes in the OncoMark Chinese solid-tumor cohort (n=2,396 patients); altered in [BRCA](../cancer_types/BRCA.md) and gastric cancer contexts [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -140,5 +141,8 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

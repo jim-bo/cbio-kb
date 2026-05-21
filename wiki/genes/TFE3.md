@@ -3,19 +3,20 @@ symbol: TFE3
 aliases: []
 cancer_types: [ASPS]
 tags: [somatic, fusion, diagnostic, aspscr1-fusion]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # TFE3
 
 ## Overview
 
-TFE3 (Transcription Factor Binding to IGHM Enhancer 3) encodes a basic helix-loop-helix transcription factor of the MiT/TFE family. The ASPSCR1-TFE3 fusion (arising from t(X;17)(p11;q25)) is the defining molecular event of alveolar soft part sarcoma (ASPS), creating a constitutively active chimeric transcription factor. TFE3 rearrangements are also found in a subset of renal cell carcinomas.
+TFE3 (Transcription Factor Binding to IGHM Enhancer 3) encodes a basic helix-loop-helix transcription factor of the MiT/TFE family. The ASPSCR1-TFE3 fusion (arising from t(X;17)(p11;q25)) is the defining molecular event of alveolar soft part sarcoma ([ASPS](../cancer_types/ASPS.md)), creating a constitutively active chimeric transcription factor. TFE3 rearrangements are also found in a subset of renal cell carcinomas.
 
 ## Alterations observed in the corpus
 
 - ASPSCR1-TFE3 fusion identified as diagnostic of alveolar soft part sarcoma ([ASPS](../cancer_types/ASPS.md)) in the PIPseq pediatric precision sequencing program (n=101, Columbia University). [PMID:28007021](../papers/28007021.md)
+- Fusion restricted to [KIRC](../cancer_types/KIRC.md) (Xp11 translocation renal cell carcinoma) in the Asian pan-cancer (aOM) cohort; represents a cancer-type-specific fusion driver pattern [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ TFE3 (Transcription Factor Binding to IGHM Enhancer 3) encodes a basic helix-loo
 
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

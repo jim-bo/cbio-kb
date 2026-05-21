@@ -19,11 +19,11 @@ NAB2 (NGFI-A Binding Protein 2) encodes a transcriptional repressor of EGR-famil
 
 ## Alterations observed in the corpus
 
-- NAB2-STAT6 fusion is listed among recurrent sarcoma driver alterations in an MSK-IMPACT cohort of 2,138 bone and soft tissue sarcomas (45 entities); NAB2-STAT6 fusions are canonical drivers of solitary fibrous tumor (SFT), in which [TERT](../genes/TERT.md) promoter mutations co-occur in 46% of cases [PMID:35705560](../papers/35705560.md)
+- NAB2-STAT6 fusion is listed among recurrent sarcoma driver alterations in an MSK-IMPACT cohort of 2,138 bone and soft tissue sarcomas (45 entities); NAB2-STAT6 fusions are canonical drivers of solitary fibrous tumor ([SFT](../cancer_types/SFT.md)), in which [TERT](../genes/TERT.md) promoter mutations co-occur in 46% of cases [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
-- [SFT](../cancer_types/SFT.md): NAB2-STAT6 fusion is the defining molecular event; TERT promoter mutations co-occur in 46% of SFT cases [PMID:35705560](../papers/35705560.md)
+- [SFT](../cancer_types/SFT.md): NAB2-STAT6 fusion is the defining molecular event; [TERT](../genes/TERT.md) promoter mutations co-occur in 46% of SFT cases [PMID:35705560](../papers/35705560.md)
 
 ## Co-occurrence and mutual exclusivity
 

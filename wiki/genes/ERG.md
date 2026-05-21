@@ -38,8 +38,8 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - Invasive-restricted focal amplification observed in individual synchronous DCIS/IDC-NST cases by WES (n=25 patients, paired DCIS/IDC-NST) [PMID:32220886](../papers/32220886.md)
 - TMPRSS2-ERG fusions observed less frequently in CDK12-biallelic prostate cancer vs CDK12-WT in a pan-cancer MSK-IMPACT cohort (N=26,743; 100 CDK12-altered prostate cases) [PMID:32317181](../papers/32317181.md)
 - [TMPRSS2](../genes/TMPRSS2.md):ERG fusions intentionally excluded from racial alteration-prevalence comparisons in an MSK-IMPACT prostate cancer cohort (n=2,069) due to suboptimal panel sensitivity for fusions; known to be more common in European-ancestry men. [PMID:34667026](../papers/34667026.md)
-- Fusions less frequent in PRAD bone metastases (30% primary vs 15% bone met, q=0.002; secondary analysis 29% vs 24%, q=0.04), indicating negative selection for ERG fusions at the bone metastatic site in prostate cancer [PMID:35120664](../papers/35120664.md)
-- TMPRSS2–ERG fusions detected by targeted RNA-seq in 13/51 (25%) prostate cancer brain metastases (PCBM), highly correlated with ERG IHC (r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
+- Fusions less frequent in [PRAD](../cancer_types/PRAD.md) bone metastases (30% primary vs 15% bone met, q=0.002; secondary analysis 29% vs 24%, q=0.04), indicating negative selection for ERG fusions at the bone metastatic site in prostate cancer [PMID:35120664](../papers/35120664.md)
+- [TMPRSS2](../genes/TMPRSS2.md)–ERG fusions detected by targeted RNA-seq in 13/51 (25%) prostate cancer brain metastases (PCBM), highly correlated with ERG IHC (r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 

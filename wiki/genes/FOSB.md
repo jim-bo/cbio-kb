@@ -38,7 +38,7 @@ FOSB ([FOS](../genes/FOS.md) Proto-Oncogene, AP-1 Transcription Factor Subunit) 
 
 ## Open questions
 
-- Individual contribution of FOSB vs other AP-1 members ([FOSL1](../genes/FOSL1.md), FOS, [FOSL2](../genes/FOSL2.md)) to CRPC-SCL chromatin reprogramming is not individually quantified [PMID:35617398](../papers/35617398.md)
+- Individual contribution of FOSB vs other AP-1 members ([FOSL1](../genes/FOSL1.md), [FOS](../genes/FOS.md), [FOSL2](../genes/FOSL2.md)) to CRPC-SCL chromatin reprogramming is not individually quantified [PMID:35617398](../papers/35617398.md)
 
 ## Sources
 

@@ -42,7 +42,7 @@ PRKACA encodes the catalytic alpha subunit of cAMP-dependent protein kinase A (P
 
 ## Open questions
 
-- The specific contribution of PRKACA alterations (as distinct from PRKAR1A) to PCC/PGL tumorigenesis in the TCGA cohort requires further delineation; no recurrent PRKACA somatic mutations were identified as MutSig2 significant in this dataset [PMID:28162975](../papers/28162975.md)
+- The specific contribution of PRKACA alterations (as distinct from [PRKAR1A](../genes/PRKAR1A.md)) to PCC/PGL tumorigenesis in the TCGA cohort requires further delineation; no recurrent PRKACA somatic mutations were identified as MutSig2 significant in this dataset [PMID:28162975](../papers/28162975.md)
 
 ## Sources
 

@@ -112,8 +112,10 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A altered in 14% of MSI-stable locally advanced esophageal/GEJ adenocarcinoma (n=237); not significantly associated with pathologic response to neoadjuvant chemoradiotherapy [PMID:35377946](../papers/35377946.md)
 - ARID1A identified as a significantly mutated gene in the pediatric solid tumor cohort profiled by cWGTS (MSK study, n=29 osteosarcoma + 29 neuroblastoma + additional) [PMID:35585047](../papers/35585047.md)
 - ARID1A identified as a significantly mutated gene (SMG) in Chinese [HCC](../cancer_types/HCC.md) proteogenomics cohort (n=159), consistent with prior [HCC](../cancer_types/HCC.md) genomic surveys [PMID:35508466](../papers/35508466.md)
-- ARID1A is the predominant SWI/SNF alteration in uterine adenosarcoma ([UAS](../cancer_types/UAS.md)), with SWI/SNF complex genes (ARID1A and [PBRM1](../genes/PBRM1.md)) altered in 43% of UAS (n=14) in the MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
+- ARID1A is the predominant SWI/SNF alteration in uterine adenosarcoma ([UAS](../cancer_types/UAS.md)), with SWI/SNF complex genes (ARID1A and [PBRM1](../genes/PBRM1.md)) altered in 43% of [UAS](../cancer_types/UAS.md) (n=14) in the MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - ARID1A mutation frequency is comparable across MMR-D mechanism groups ([MLH1](../genes/MLH1.md) promoter hypermethylation vs. germline vs. somatic MMR mutation) in 184 MSI-H endometrial carcinomas — representing a background EC alteration rather than a mechanism-specific marker [PMID:35849120](../papers/35849120.md)
+- Truncating mutations in 7.9% [LIHC](../cancer_types/LIHC.md), 9.9% [IHCH](../cancer_types/IHCH.md), 7.2% [STAD](../cancer_types/STAD.md) in the OncoMark Chinese solid-tumor cohort; actionable to PLX2853/tazemetostat (OncoKB Level 4) [PMID:35871175](../papers/35871175.md)
+- Mutated in 36% of primary endometrial carcinomas (EC pilot cfDNA cohort, n=44); truncating mutations recurrent in cfDNA-positive cases (CD20, CD22, CD37); detected by MSK-ACCESS liquid biopsy [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
@@ -400,5 +402,11 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

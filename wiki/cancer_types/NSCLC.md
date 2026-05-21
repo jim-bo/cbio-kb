@@ -46,16 +46,17 @@ Non-Small Cell Lung Cancer (parent [LUNG](../cancer_types/LUNG.md)); encompasses
 - Narrative review of young-onset NSCLC (YLC, generally defined as age <40–50 years) synthesizing ≥40 studies: targetable alterations present in 57–70% of YLC vs ~52% in older patients (Sacher et al., p<0.001); [ALK](../genes/ALK.md) rearrangements, [ROS1](../genes/ROS1.md) fusions, and [EGFR](../genes/EGFR.md) mutations are over-represented while [KRAS](../genes/KRAS.md), [BRAF](../genes/BRAF.md), and [MET](../genes/MET.md) alterations are under-represented; Indian patients present approximately a decade earlier than the global median [PMID:27346245](../papers/27346245.md).
 - Pre-operative ctDNA was detected in 48% (46/96) of early-stage NSCLCs in the TRACERx cohort, with a stark histology difference: 97% of [LUSC](../cancer_types/LUSC.md) vs 19% of [LUAD](../cancer_types/LUAD.md); post-operative ctDNA detected relapse in 13/14 (93%) confirmed-relapse cases with a median 70-day lead-time over imaging. [PMID:28445469](../papers/28445469.md)
 - In 240 advanced NSCLC patients profiled by MSK-IMPACT and treated with anti-PD-(L)1, targeted-panel TMB correlated with WES at Spearman r=0.86 (p<0.001) and was higher in patients with durable clinical benefit (median 8.5 vs 6.6 SNVs/Mb, p=0.006); TMB and PD-L1 were independent predictors, together yielding 50% DCB rate; [EGFR](../genes/EGFR.md) and [STK11](../genes/STK11.md) mutations associated with lack of benefit [PMID:29337640](../papers/29337640.md)
-- In SUMMIT, 26 HER2-mutant NSCLC patients (predominantly LUAD with exon 20 insertions) achieved only 1 RECIST response to [neratinib](../drugs/neratinib.md) but median PFS 5.5 months with 6 patients on therapy >1 year; HER2 exon 20 insertions are analogous to [EGFR](../genes/EGFR.md) exon 20 insertions resistant to first/second-generation TKIs [PMID:29420467](../papers/29420467.md)
+- In SUMMIT, 26 HER2-mutant NSCLC patients (predominantly [LUAD](../cancer_types/LUAD.md) with exon 20 insertions) achieved only 1 RECIST response to [neratinib](../drugs/neratinib.md) but median PFS 5.5 months with 6 patients on therapy >1 year; HER2 exon 20 insertions are analogous to [EGFR](../genes/EGFR.md) exon 20 insertions resistant to first/second-generation TKIs [PMID:29420467](../papers/29420467.md)
 - CheckMate-012 WES study (n=75 advanced NSCLC): tumor mutation burden (TMB) is a strong, PD-L1-independent predictor of response to [nivolumab](../drugs/nivolumab.md) + [ipilimumab](../drugs/ipilimumab.md); high TMB (>median 158 mutations) yielded ORR 51% vs 13% (p=0.0005), DCB 65% vs 34%, PFS HR 0.41 (p=0.0024); TMB from MSK-IMPACT 468-gene or FoundationOne 315-gene panels was similarly predictive as WES-derived TMB [PMID:29657128](../papers/29657128.md)
 - N=57 in pooled MSS ICB WES cohort; KRAS-mutant smoker-signature tumors are a favorable subgroup for ICB; EGFR-hotspot never-smoker tumors are unfavorable (low TMB, subclonal-skewed mutations, poor response) [PMID:30150660](../papers/30150660.md)
 - NSCLC was the largest histology in the ICI-treated MSK-IMPACT cohort (n=350); TMB-high NSCLC patients had improved overall survival, the effect persisted after removing NSCLC and melanoma from the pan-cancer analysis, and PFS/clinical-benefit associations with TMB were specifically reported for this histology. [PMID:30643254](../papers/30643254.md)
-- Non-small cell lung cancer (n=41–53 evaluable) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 76% of NSCLC patients; EGFR T790M resistance mutations were recoverable as subclonal VUSo from cfDNA; [MET](../genes/MET.md) amplification detected in one case (cfDNA CNV detection limited by low ctDNA fraction) [PMID:31768066](../papers/31768066.md)
+- Non-small cell lung cancer (n=41–53 evaluable) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 76% of NSCLC patients; [EGFR](../genes/EGFR.md) T790M resistance mutations were recoverable as subclonal VUSo from cfDNA; [MET](../genes/MET.md) amplification detected in one case (cfDNA CNV detection limited by low ctDNA fraction) [PMID:31768066](../papers/31768066.md)
 - Among 604 surgically resected stage I–III LUAD (a subtype of [NSCLC](../cancer_types/NSCLC.md)) profiled by MSK-IMPACT, histologic architectural grade (LEP / ACI-PAP / MIP-SOL) tracked genomic complexity; EGFR alterations were enriched in low-grade LEP (42%), BRAF-V600E in high-grade MIP/SOL (5%), and APOBEC signatures (SBS2, SBS13) independently predicted postresection recurrence [PMID:32791233](../papers/32791233.md).
 - cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in NSCLC patients in a 118-patient metastatic solid-tumor cohort at MSKCC; tumor-fraction-guided three-assay strategy (cf-IMPACT + MSK-ACCESS + cf-WES) improved overall detection yield to 76%; NSCLC was among the tumor types represented [PMID:34059130](../papers/34059130.md).
 - MSK-ACCESS (129-gene cfDNA assay) was prospectively applied to 617 patients; NSCLC was the dominant tumor type (349/617, 51%); [TP53](../genes/TP53.md) was mutated in 144/248 (58%) NSCLC samples with detectable alterations; OncoKB level 1 actionable alterations detected in 33% of NSCLC samples; [EGFR](../genes/EGFR.md) mutations enriched in cfDNA vs tissue in lung; [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) and [KIF5B](../genes/KIF5B.md)-[RET](../genes/RET.md) fusions detected; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors without known mitogenic drivers [PMID:34145282](../papers/34145282.md).
 - Sherlock-Lung WGS study (n=232 never-smoker lung cancers, dataset [lung_nci_2022](../datasets/lung_nci_2022.md)) found no SBS4 tobacco signature even in 62 passive-smoker cases; 54.3% of tumors harbored at least one RTK-RAS pathway alteration (EGFR 30.6%, [KRAS](../genes/KRAS.md) 7.3%, [ALK](../genes/ALK.md) 6.0%); five-feature genomic risk score predicted ~2× mortality per alteration [PMID:34493867](../papers/34493867.md)
 - In the LIBRETTO-001 trial (72 patients with RET-altered lung and thyroid cancers), [selpercatinib](../drugs/selpercatinib.md) was active independent of tissue of origin; acquired resistance in NSCLC was driven by on-target [RET](../genes/RET.md) solvent-front mutations (G810C/G810S) or off-target MAPK reactivation ([KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [BRAF](../genes/BRAF.md), [MET](../genes/MET.md) amplification, [FGFR1](../genes/FGFR1.md) amplification) [PMID:35304457](../papers/35304457.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): NSCLC comprised 20% of cohort; IO biomarker positivity (MSI-H/TMB-H/PD-L1+) 46% (298/648), second-highest; EGFR elevated vs Western cohorts; [ALK](../genes/ALK.md) fusions 6.7%; [KRAS](../genes/KRAS.md) G12C in 2.7% ([sotorasib](../drugs/sotorasib.md) Level 1); TMB-H negatively associated with fusions (P=1.31×10⁻¹¹); female nonsmokers/early-stage enriched for EGFR; male smokers/advanced enriched for TP53/CDKN2A/PIK3CA/KRAS [PMID:35871175](../papers/35871175.md)
 
 ## Subtypes
 
@@ -89,42 +90,45 @@ Non-Small Cell Lung Cancer (parent [LUNG](../cancer_types/LUNG.md)); encompasses
 
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:23999436](../papers/23999436.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:25765070](../papers/25765070.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:27346245](../papers/27346245.md) — Tansir et al. 2025, narrative review of young-onset NSCLC molecular landscape, epidemiology, and therapy.
 
 - [PMID:28445469](../papers/28445469.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29337640](../papers/29337640.md)
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29657128](../papers/29657128.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:30643254](../papers/30643254.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:32791233](../papers/32791233.md)
 
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35304457](../papers/35304457.md)
+
+
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

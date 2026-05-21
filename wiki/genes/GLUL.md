@@ -17,7 +17,7 @@ GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyze
 
 ## Alterations observed in the corpus
 
-- GLUL (glutamine synthetase) protein expression is part of the EASL-endorsed diagnostic IHC triplet (alongside HSP70/HSPA1A and [GPC3](../genes/GPC3.md)) for early HCC diagnosis [PMID:24735922](../papers/24735922.md)
+- GLUL (glutamine synthetase) protein expression is part of the EASL-endorsed diagnostic IHC triplet (alongside HSP70/HSPA1A and [GPC3](../genes/GPC3.md)) for early [HCC](../cancer_types/HCC.md) diagnosis [PMID:24735922](../papers/24735922.md)
 - GLUL protein concordantly upregulated at mRNA and protein levels in CTNNB1-mutant HCCs in an integrated (phospho)proteogenomic study of 122 HCC biopsies [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
@@ -32,7 +32,7 @@ GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyze
 
 ## Open questions
 
-- Sensitivity/specificity of GS positivity versus GS+HSP70+GPC3 triplet for early HCC in different etiological backgrounds remains an active research question.
+- Sensitivity/specificity of GS positivity versus GS+HSP70+[GPC3](../genes/GPC3.md) triplet for early HCC in different etiological backgrounds remains an active research question.
 
 ## Sources
 

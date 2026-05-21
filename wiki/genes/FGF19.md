@@ -20,9 +20,10 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 - FGF19 undergoes high-level focal amplification in 5–10% of HCCs; oncogenic driver implicated in [sorafenib](../drugs/sorafenib.md) resistance and a predictive biomarker (by IHC) for [FGFR4](../genes/FGFR4.md) inhibitors BLU-554, H3B-6527, and FGF401; BLU-554 produced 16% ORR in FGFR4-driven (≥1% FGF19 IHC) patients vs 0% in FGFR4-negative. [PMID:24798001](../papers/24798001.md)
 - Intestinal FXR target (FGF15 in mouse) induced by Lactobacillus rhamnosus GG ([LGG](../cancer_types/LGG.md)) to suppress bile acid synthesis; implicated in bile acid homeostasis in the cholangiocarcinoma microenvironment [PMID:25608663](../papers/25608663.md)
 - Co-amplified at 11q13.3 locus with [FGF3](../genes/FGF3.md), [FGF4](../genes/FGF4.md), and [CCND1](../genes/CCND1.md) in ~6% of [HCC](../cancer_types/HCC.md); focal amplification appears at advanced stages and is independently associated with poor survival [PMID:25822088](../papers/25822088.md)
-- Co-amplified with [CCND1](../genes/CCND1.md) on the 11q13 amplicon in 7% (FGF19 amplification 6.3% by actionable-call) of [HCC](../cancer_types/HCC.md); rationale for [FGFR4](../genes/FGFR4.md) inhibitors in FGF19-amplified HCC [PMID:30373752](../papers/30373752.md)
+- Co-amplified with [CCND1](../genes/CCND1.md) on the 11q13 amplicon in 7% (FGF19 amplification 6.3% by actionable-call) of [HCC](../cancer_types/HCC.md); rationale for [FGFR4](../genes/FGFR4.md) inhibitors in FGF19-amplified [HCC](../cancer_types/HCC.md) [PMID:30373752](../papers/30373752.md)
 - Located within the 11q13.3 region of recurrent copy-number gain in CDK12-biallelic prostate cancer; co-amplified with [FGF3](../genes/FGF3.md) and [FGF4](../genes/FGF4.md) [PMID:32317181](../papers/32317181.md)
-- FGF19 co-amplified with [FGF2](../genes/FGF2.md), FGF3, and CCND1 at the 11q13 FGF amplicon in undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)) of bone [PMID:35705558](../papers/35705558.md)
+- FGF19 co-amplified with [FGF2](../genes/FGF2.md), [FGF3](../genes/FGF3.md), and [CCND1](../genes/CCND1.md) at the 11q13 FGF amplicon in undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)) of bone [PMID:35705558](../papers/35705558.md)
+- Pan-cancer fusion driver catalogue member; part of pan-cancer landscape in 1,015 Chinese solid-tumor patients [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 - [PMID:32317181](../papers/32317181.md)
 
 - [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

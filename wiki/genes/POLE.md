@@ -3,7 +3,7 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
@@ -52,6 +52,8 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - No significant prevalence difference by race/ancestry in prostate cancer patients (Black, Asian, White) profiled on MSK-IMPACT; POLE is a DNA-repair gene that did not differ significantly across racial groups in this cohort of 1,123 men. [PMID:34667026](../papers/34667026.md)
 - POLE exonuclease domain hotspot mutations explicitly absent in CRC with dual MAPK drivers (CRC-DD; n=47/4,561 MSK-IMPACT cases), ruling out polymerase-driven hypermutation as the mechanism underlying co-occurring RAS and [BRAF](../genes/BRAF.md) drivers [PMID:35235413](../papers/35235413.md)
 - POLE-mutated endometrial cancers (n=6) were excluded a priori from MSI-H/MMR-D analysis to isolate MLH1ph vs germline vs somatic MMR-D subgroups; POLE hypermutation represents a distinct molecular subclass [PMID:35849120](../papers/35849120.md)
+- Hypermutant POLE alterations are a component of the Chinese pan-cancer TMB-H landscape; TMB-H (≥10 mut/Mb) qualifies for [pembrolizumab](../drugs/pembrolizumab.md) (Level 1) [PMID:35871175](../papers/35871175.md)
+- Hypermutant in 4/692 (0.6%) pMMR/MSS rectal tumors ([rectal_msk_2022](../datasets/rectal_msk_2022.md)); represents a rare ultra-hypermutated subset [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -118,4 +120,10 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
 
-*This page was processed by **wiki-cli** on **2026-05-21**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

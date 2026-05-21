@@ -37,7 +37,7 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 
 ## Open questions
 
-- Independent prognostic effect of CCNE1 amplification alone in EAC is not assessed separately in this dataset [PMID:33795256](../papers/33795256.md).
+- Independent prognostic effect of CCNE1 amplification alone in [EAC](../cancer_types/EAC.md) is not assessed separately in this dataset [PMID:33795256](../papers/33795256.md).
 
 ## Sources
 

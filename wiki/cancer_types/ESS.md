@@ -20,7 +20,7 @@ Endometrial stromal sarcoma (ESS) is a rare uterine mesenchymal malignancy arisi
 
 ## Recurrent alterations
 
-- JAZF1-SUZ12 fusion detected by MSK-Fusion in one [LGESS](../cancer_types/LGESS.md) case, confirming the diagnosis; [ESR1](../genes/ESR1.md) Y537S ligand-binding domain mutation identified in a metastatic LGESS patient on long-term aromatase inhibitor therapy, with tumor regression on switch to [fulvestrant](../drugs/fulvestrant.md) [PMID:32299819](../papers/32299819.md)
+- JAZF1-SUZ12 fusion detected by MSK-Fusion in one [LGESS](../cancer_types/LGESS.md) case, confirming the diagnosis; [ESR1](../genes/ESR1.md) Y537S ligand-binding domain mutation identified in a metastatic [LGESS](../cancer_types/LGESS.md) patient on long-term aromatase inhibitor therapy, with tumor regression on switch to [fulvestrant](../drugs/fulvestrant.md) [PMID:32299819](../papers/32299819.md)
 - YWHAE/NUTM2A and YWHAE/NUTM2B rearrangements detected by MSK-Fusion in two high-grade, non-pleomorphic stromal sarcomas (consistent with [HGESS](../cancer_types/HGESS.md)) [PMID:32299819](../papers/32299819.md)
 - In a 7,494-sarcoma cohort, endometrial stromal sarcoma showed MSI-H in a small fraction of cases; [ESR1](../genes/ESR1.md) mutations potentially predict anti-estrogen resistance (analogous to breast cancer) in this histotype [PMID:35705558](../papers/35705558.md).
 
@@ -31,7 +31,7 @@ Endometrial stromal sarcoma (ESS) is a rare uterine mesenchymal malignancy arisi
 
 ## Therapeutic landscape
 
-- [Fulvestrant](../drugs/fulvestrant.md) — produced tumor regression in an ESR1 Y537S-mutant LGESS patient previously on long-term aromatase inhibitor therapy, supporting ESR1 mutation testing in progressing LGESS [PMID:32299819](../papers/32299819.md)
+- [Fulvestrant](../drugs/fulvestrant.md) — produced tumor regression in an [ESR1](../genes/ESR1.md) Y537S-mutant LGESS patient previously on long-term aromatase inhibitor therapy, supporting ESR1 mutation testing in progressing LGESS [PMID:32299819](../papers/32299819.md)
 
 ## Sources
 

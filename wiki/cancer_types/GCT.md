@@ -36,12 +36,12 @@ Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragona
 - **[NSGCT](../cancer_types/NSGCT.md)** — non-seminomatous GCT; 70% of the cohort (n=126); lower [KIT](../genes/KIT.md) mutation rate (4%) than seminoma; [KRAS](../genes/KRAS.md) mutations in nonseminomas enriched in cisplatin-resistant tumors [PMID:27646943](../papers/27646943.md).
 - **[SEM](../cancer_types/SEM.md)** — seminoma; 30% of cohort (n=54); high [KIT](../genes/KIT.md) mutation rate (29.6%); enriched [KRAS](../genes/KRAS.md) [PMID:27646943](../papers/27646943.md).
 - **[MGCT](../cancer_types/MGCT.md)** — mixed GCT (teratoma-containing); 49 resistant samples [PMID:27646943](../papers/27646943.md).
-- **Primary mediastinal nonseminoma** — uniquely poor prognosis; 72% TP53 alteration rate vs 2.5% in testicular primaries (P<.001); provides molecular basis for IGCCCG poor-risk designation [PMID:27646943](../papers/27646943.md).
+- **Primary mediastinal nonseminoma** — uniquely poor prognosis; 72% [TP53](../genes/TP53.md) alteration rate vs 2.5% in testicular primaries (P<.001); provides molecular basis for IGCCCG poor-risk designation [PMID:27646943](../papers/27646943.md).
 
 ## Therapeutic landscape
 
 - **[Cisplatin](../drugs/cisplatin.md)-based chemotherapy** ([BEP](../drugs/bleomycin.md)/[EP](../drugs/etoposide.md)/TIP/VIP) — standard first-line; [cisplatin](../drugs/cisplatin.md) resistance is the central clinical challenge; TP53/MDM2 alterations independently predict shorter PFS (HR 1.83, P=.016) after adjusting for IGCCCG risk [PMID:27646943](../papers/27646943.md).
-- **[Nutlin-3](../drugs/nutlin-3.md) ([MDM2](../genes/MDM2.md) inhibitor)** — showed antiproliferative and apoptotic synergy with cisplatin in TP53 wild-type cisplatin-resistant cell lines in vitro; 7 [MDM2](../genes/MDM2.md) inhibitors in clinical trials at time of publication [PMID:27646943](../papers/27646943.md).
+- **[Nutlin-3](../drugs/nutlin-3.md) ([MDM2](../genes/MDM2.md) inhibitor)** — showed antiproliferative and apoptotic synergy with [cisplatin](../drugs/cisplatin.md) in TP53 wild-type cisplatin-resistant cell lines in vitro; 7 [MDM2](../genes/MDM2.md) inhibitors in clinical trials at time of publication [PMID:27646943](../papers/27646943.md).
 - **[Imatinib](../drugs/imatinib.md)/[sunitinib](../drugs/sunitinib.md)** — therapeutic candidates for KIT-mutant GCT (particularly seminoma) [PMID:27646943](../papers/27646943.md).
 - **MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md), [binimetinib](../drugs/binimetinib.md))** — candidates for KRAS/NRAS/RAC1-altered GCT [PMID:27646943](../papers/27646943.md).
 

@@ -62,7 +62,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Used as part of systemic chemotherapy regimens in unresectable iCCA; HAIC with [floxuridine](../drugs/floxuridine.md) demonstrated improved [OS](../cancer_types/OS.md) independent of genomic profile in the locally advanced cohort [PMID:33765338](../papers/33765338.md)
 - Gemcitabine-platinum ([gemcitabine](../drugs/gemcitabine.md) + cisplatin) is cited as the current standard first-line systemic chemotherapy for intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); in a retrospective MSKCC cohort of 573 liver-limited IHC patients (2000–2018), a high proportion of the systemic-only arm did not receive gemcitabine-platinum, which the authors acknowledge as a limitation that may understate systemic chemotherapy's true efficacy [PMID:33963001](../papers/33963001.md).
 - Cisplatin is referenced as part of FOLFOX/FLOT regimens (5-FU/leucovorin/oxaliplatin ± [docetaxel](../drugs/docetaxel.md)) in neoadjuvant treatment of 237 locally advanced esophageal/GEJ adenocarcinoma patients; FOLFOX was significantly associated with better pathologic response than carboplatin/paclitaxel (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
-- Cisplatin (with [carboplatin](../drugs/carboplatin.md) + etoposide and [atezolizumab](../drugs/atezolizumab.md) or [durvalumab](../drugs/durvalumab.md)) is noted as first-line platinum-based chemoimmunotherapy standard for extensive-stage [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md)
+- Cisplatin (with [carboplatin](../drugs/carboplatin.md) + [etoposide](../drugs/etoposide.md) and [atezolizumab](../drugs/atezolizumab.md) or [durvalumab](../drugs/durvalumab.md)) is noted as first-line platinum-based chemoimmunotherapy standard for extensive-stage [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md)
 - In a sarcoma patient with [ATM](../genes/ATM.md) exon 57 truncation, failure of prior doxorubicin/cisplatin chemotherapy preceded enrollment in PARP + ATR-inhibitor combination trial, yielding >1-year stable disease; authors cite cisplatin as part of the standard prior-treatment backdrop in heavily pre-treated sarcoma (median 4 prior therapies) [PMID:35705558](../papers/35705558.md).
 
 ## Resistance mechanisms
@@ -114,7 +114,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:32437664](../papers/32437664.md)
 - [PMID:32897884](../papers/32897884.md)
 - [PMID:33106634](../papers/33106634.md)
-- [PMID:33397444](../papers/33397444.md) — Sfakianos et al. 2021, *Eur Urol*. UTUC multi-omics (n=40); EZH2 inhibition ± cisplatin proposed for SWI/SNF-mutant EpiC-high subtype.
+- [PMID:33397444](../papers/33397444.md) — Sfakianos et al. 2021, *Eur Urol*. [UTUC](../cancer_types/UTUC.md) multi-omics (n=40); [EZH2](../genes/EZH2.md) inhibition ± cisplatin proposed for SWI/SNF-mutant EpiC-high subtype.
 
 - [PMID:33765338](../papers/33765338.md)
 - [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC [IHCH](../cancer_types/IHCH.md) retrospective (N=573); gemcitabine-cisplatin as standard first-line for systemic chemotherapy in IHC; underuse in the SYS arm acknowledged as a limitation.

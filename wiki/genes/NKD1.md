@@ -29,7 +29,7 @@ NKD1 (Naked Cuticle Homolog 1) encodes a WNT signaling antagonist that inhibits 
 
 ## Therapeutic relevance
 
-- NKD1 expression restored by EZH2 inhibitor GSK343 in NCI-H660 neuroendocrine prostate cancer cells [PMID:26855148](../papers/26855148.md)
+- NKD1 expression restored by [EZH2](../genes/EZH2.md) inhibitor GSK343 in NCI-H660 neuroendocrine prostate cancer cells [PMID:26855148](../papers/26855148.md)
 
 ## Open questions
 

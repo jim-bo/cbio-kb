@@ -28,11 +28,11 @@ SNAI1 encodes Snail, a zinc-finger transcription factor that represses E-cadheri
 
 ## Therapeutic relevance
 
-- SNAI1 induction can be blocked by targeting upstream nodes: [verteporfin](../drugs/verteporfin.md) (YAP inhibitor, blocks SEMA7A induction in GFs), LY294002 (PI3K inhibitor), or C646 (p300 inhibitor). [PMID:24997986](../papers/24997986.md)
+- SNAI1 induction can be blocked by targeting upstream nodes: [verteporfin](../drugs/verteporfin.md) (YAP inhibitor, blocks [SEMA7A](../genes/SEMA7A.md) induction in GFs), LY294002 (PI3K inhibitor), or C646 (p300 inhibitor). [PMID:24997986](../papers/24997986.md)
 
 ## Open questions
 
-- Whether SNAI1 itself bears somatic mutations in GBC was not assessed in the citing study, which is mechanistic rather than genomic.
+- Whether SNAI1 itself bears somatic mutations in [GBC](../cancer_types/GBC.md) was not assessed in the citing study, which is mechanistic rather than genomic.
 
 ## Sources
 

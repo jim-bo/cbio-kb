@@ -17,7 +17,7 @@ SDHA encodes the catalytic flavoprotein subunit of the succinate dehydrogenase c
 
 - SDHA was assessed for germline and somatic mutation in the SDH-deficient [GIST](../cancer_types/GIST.md) subset (n=26) of the MSK [gist_msk_2023](../datasets/gist_msk_2023.md) cohort [PMID:37477937](../papers/37477937.md).
 - Germline LOF variants in 7/35 (20%) KIT/PDGFRA-wildtype [GIST](../cancer_types/GIST.md) patients [PMID:36593350](../papers/36593350.md)
-- SDHA part of SDH-deficient [GIST](../cancer_types/GIST.md) category; SDH loss indicates [imatinib](../drugs/imatinib.md) resistance (treatment-avoidance biomarker) in GIST across 2,138-sarcoma MSK-IMPACT cohort [PMID:35705560](../papers/35705560.md)
+- SDHA part of SDH-deficient [GIST](../cancer_types/GIST.md) category; SDH loss indicates [imatinib](../drugs/imatinib.md) resistance (treatment-avoidance biomarker) in [GIST](../cancer_types/GIST.md) across 2,138-sarcoma MSK-IMPACT cohort [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 

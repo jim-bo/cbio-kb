@@ -21,7 +21,7 @@ MN1 (MN1 Proto-Oncogene, Transcriptional Regulator) encodes a transcriptional re
 
 ## Alterations observed in the corpus
 
-- MN1 discussed as the canonical fusion partner in astroblastoma; MN1::[BEND2](../genes/BEND2.md) fusions characterize an epigenetic subtype of astroblastoma to which an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma showed weak methylation classifier similarity (prediction score 0.364); the [EWSR1](../genes/EWSR1.md) breakpoint in the bladder sarcoma case (exon 10) differs from those in MN1::BEND2 / EWSR1::BEND2 astroblastomas [PMID:28199314](../papers/28199314.md)
+- MN1 discussed as the canonical fusion partner in astroblastoma; MN1::[BEND2](../genes/BEND2.md) fusions characterize an epigenetic subtype of astroblastoma to which an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma showed weak methylation classifier similarity (prediction score 0.364); the [EWSR1](../genes/EWSR1.md) breakpoint in the bladder sarcoma case (exon 10) differs from those in MN1::[BEND2](../genes/BEND2.md) / [EWSR1](../genes/EWSR1.md)::BEND2 astroblastomas [PMID:28199314](../papers/28199314.md)
 - MN1 was among recurrently altered genes in the CNS oncomap of the MAPPYACTS pediatric precision oncology cohort, identified at the investigational actionability tier [PMID:35292802](../papers/35292802.md).
 
 ## Cancer types (linked)

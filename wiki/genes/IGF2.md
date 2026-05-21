@@ -3,8 +3,8 @@ symbol: IGF2
 aliases: []
 cancer_types: [RMS]
 tags: [growth-factor, fusion-associated, rhabdomyosarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # IGF2
@@ -23,6 +23,7 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - IGF2 is epigenetically upregulated and marks the S2 progenitor-cell proliferation subclass in HCC (co-expressed with EPCAM and AFP); proposed as an actionable target in the ~50% of HCCs in the proliferation class. [PMID:24798001](../papers/24798001.md)
 - PRC2-repressed imprinted gene aberrantly upregulated in PRC2-loss MPNSTs; promoter H3K27me3 restored after SUZ12 reintroduction in ST88-14 cells with reciprocal reduction of transcript levels [PMID:25240281](../papers/25240281.md)
 - G226S variant lost in one panNET patient on everolimus treatment, suggesting clonal replacement rather than direct mTOR-pathway resistance; observed in MSK-IMPACT metastatic panNET cohort (n=80) [PMID:30687805](../papers/30687805.md)
+- Overexpressed in incomplete-responder (iCR) rectal cancer patients after neoadjuvant treatment; strong overexpression mutually exclusive with PI3K-pathway alterations; validated in the Kamran et al. independent cohort; associated with lower complete-response rate in pMMR/MSS rectal tumors (n=652) [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -44,25 +45,20 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25240281](../papers/25240281.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

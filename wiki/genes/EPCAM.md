@@ -28,7 +28,7 @@ EPCAM (Epithelial Cell Adhesion Molecule) is a cell-surface glycoprotein that ma
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — stem-cell marker with prognostic significance in HCC subsets [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md) — stem-cell marker with prognostic significance in [HCC](../cancer_types/HCC.md) subsets [PMID:24735922](../papers/24735922.md)
 
 ## Co-occurrence and mutual exclusivity
 

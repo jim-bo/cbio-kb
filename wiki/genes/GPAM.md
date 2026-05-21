@@ -21,7 +21,7 @@ GPAM (Glycerol-3-Phosphate Acyltransferase, Mitochondrial) encodes a mitochondri
 
 ## Alterations observed in the corpus
 
-- Newly nominated significantly mutated gene in HCC with 7.4% mutation rate vs 1.8% in prior meta-analysis (Fisher p=0.001); 7/9 mutations were frameshift; HepG2 and Huh7 knockdown increased proliferation confirming tumor-suppressor function; poor-OS association in multivariate Cox independent of BCLC stage [PMID:35508466](../papers/35508466.md)
+- Newly nominated significantly mutated gene in [HCC](../cancer_types/HCC.md) with 7.4% mutation rate vs 1.8% in prior meta-analysis (Fisher p=0.001); 7/9 mutations were frameshift; HepG2 and Huh7 knockdown increased proliferation confirming tumor-suppressor function; poor-OS association in multivariate Cox independent of BCLC stage [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

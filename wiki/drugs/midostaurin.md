@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [aml, targeted-therapy, flt3-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # midostaurin
@@ -17,7 +17,8 @@ Midostaurin is an oral multi-kinase inhibitor with activity against [FLT3](../ge
 
 ## Evidence in the corpus
 
-- In the Beat [AML](../cancer_types/AML.md) program, [FLT3](../genes/FLT3.md)-ITD was one of the key driver mutations examined for ex vivo drug-sensitivity associations across a 122-compound panel including FLT3-pathway inhibitors; midostaurin was part of the AML targeted-therapy landscape characterised in the study [PMID:30333627](../papers/30333627.md).
+- In the Beat [AML](../cancer_types/AML.md) program, [FLT3](../genes/FLT3.md)-ITD was one of the key driver mutations examined for ex vivo drug-sensitivity associations across a 122-compound panel including FLT3-pathway inhibitors; midostaurin was part of the [AML](../cancer_types/AML.md) targeted-therapy landscape characterised in the study [PMID:30333627](../papers/30333627.md).
+- Multi-kinase/FLT3 inhibitor; ex vivo drug sensitivity study (Beat AML Waves 3+4, n=805) demonstrates that FLT3-ITD drug sensitivity is conditional on AML cell maturation state [PMID:35868306](../papers/35868306.md)
 
 ## Resistance mechanisms
 
@@ -31,4 +32,7 @@ Midostaurin is an oral multi-kinase inhibitor with activity against [FLT3](../ge
 
 - [PMID:30333627](../papers/30333627.md) — Beat AML program: ex vivo drug sensitivity and genomic profiling of 562 AML patients.
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

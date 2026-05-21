@@ -3,8 +3,8 @@ symbol: NEGR1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-21
 ---
 
 # NEGR1
@@ -16,6 +16,7 @@ NEGR1 (Neuronal Growth Regulator 1) encodes an immunoglobulin superfamily cell-a
 ## Alterations observed in the corpus
 
 - Highlighted as a downstream pathway and SCNA feature in TieDIE / focal-deletion analyses of ccRCC (TCGA 450-case multi-platform dataset) [PMID:23792563](../papers/23792563.md)
+- Structural variant deletion (NEGR1 DEL) detected by LINX/PURPLE in metastatic cutaneous squamous cell carcinoma (mCSCC) WGS analysis (n=25) [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NEGR1 (Neuronal Growth Regulator 1) encodes an immunoglobulin superfamily cell-a
 - [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

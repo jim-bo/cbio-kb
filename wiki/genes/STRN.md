@@ -4,18 +4,19 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-14
+processed_at: 2026-05-21
 ---
 
 # STRN
 
 ## Overview
 
-STRN (striatin) encodes a calmodulin-binding protein that serves as a scaffold of the STRIPAK (striatin-interacting phosphatase and kinase) complex. In cancer genomics, STRN is notable as a fusion partner of [ALK](../genes/ALK.md), forming the STRN-ALK fusion that constitutively activates ALK kinase signaling. This fusion has been identified in thyroid cancer and other tumor types.
+STRN (striatin) encodes a calmodulin-binding protein that serves as a scaffold of the STRIPAK (striatin-interacting phosphatase and kinase) complex. In cancer genomics, STRN is notable as a fusion partner of [ALK](../genes/ALK.md), forming the STRN-ALK fusion that constitutively activates [ALK](../genes/ALK.md) kinase signaling. This fusion has been identified in thyroid cancer and other tumor types.
 
 ## Alterations observed in the corpus
 
 - ALK-STRN fusion identified in PDTC (poorly differentiated thyroid carcinoma) in a targeted sequencing cohort studying thyroid cancer progression [PMID:26878173](../papers/26878173.md)
+- STRN–[DLG2](../genes/DLG2.md) fusion detected by LINX SV analysis in metastatic [CSCC](../cancer_types/CSCC.md) sample CSCC_0009 (STRN exon 1 ENST00000263918 — DLG2 exon 7 ENST00000376104); the only wildtype-TP53 case in the cohort [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ STRN (striatin) encodes a calmodulin-binding protein that serves as a scaffold o
 
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: FOXA1
 aliases: []
 cancer_types: [LUAD, PRAD, BRCA]
 tags: [lineage-factor, metastasis]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # FOXA1
@@ -41,6 +41,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - Mutations negatively correlated with metastatic burden in [PRAD](../cancer_types/PRAD.md); enriched in lobular breast cancer liver metastases (3% primary vs 33% liver met, q=0.02), suggesting distinct roles in prostate vs breast cancer metastatic biology [PMID:35120664](../papers/35120664.md)
 - FOXA1 amplification was present in matched clinical samples but lost in derived PDX (MSK304B), which instead gained [MYCL](../genes/MYCL.md) amplification, illustrating genomic drift during PDX engraftment in an MSK [SCLC](../cancer_types/SCLC.md) biobank study. [PMID:35440124](../papers/35440124.md)
 - Co-top transcription factor with [AR](../genes/AR.md) in CRPC-AR subtype; identified as a key TF in chromatin-based molecular subtyping of metastatic CRPC across 22 patient-derived organoids, 6 PDXs, and 12 cell lines [PMID:35617398](../papers/35617398.md)
+- Missense mutation restricted to sentinel lymph nodes (private to nodal compartment) in patient CD20 with primary endometrial carcinoma; identified by MSK-ACCESS ctDNA panel, suggesting nodal-specific subclone [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
@@ -84,43 +85,32 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

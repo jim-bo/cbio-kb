@@ -3,8 +3,8 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC, DLBCLNOS, BLCA]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # KMT2D
@@ -81,6 +81,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Significantly mutated gene (SMG) altered in ≥5% of treatment-naive PDACs in the CPTAC proteogenomic cohort (n=140). [PMID:34534465](../papers/34534465.md)
 - KMT2D alterations were identified in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX multi-omic profiling study as part of the broader genomic landscape characterization of [SCLC](../cancer_types/SCLC.md) xenograft models [PMID:35440124](../papers/35440124.md).
 - KMT2D (MLL4) is altered in 16% of myxofibrosarcoma ([MFS](../cancer_types/MFS.md)) versus 6% of undifferentiated pleomorphic sarcoma (UPS), suggesting a histotype-specific role despite their close molecular relationship in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148) [PMID:35705560](../papers/35705560.md)
+- Listed among recurrently altered genes in a pan-cancer cohort of 10,194 Asian solid-tumor patients; associated with breast cancer ([BRCA](../cancer_types/BRCA.md)) in the pan-OrigiMed frequency landscape (OrigiMed CSYS 450-gene panel) [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -112,187 +113,128 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26551667](../papers/26551667.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27776115](../papers/27776115.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30052636](../papers/30052636.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32719455](../papers/32719455.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

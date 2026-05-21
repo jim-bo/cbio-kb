@@ -25,11 +25,11 @@ RRM2B (also known as p53R2) encodes ribonucleotide reductase regulatory subunit 
 
 ## Co-occurrence and mutual exclusivity
 
-- Located at 8q22.3, the same amplification peak as [YWHAZ](../genes/YWHAZ.md), [NUDCD1](../genes/NUDCD1.md), and [ATP6V1C1](../genes/ATP6V1C1.md) in HCC [PMID:35508466](../papers/35508466.md)
+- Located at 8q22.3, the same amplification peak as [YWHAZ](../genes/YWHAZ.md), [NUDCD1](../genes/NUDCD1.md), and [ATP6V1C1](../genes/ATP6V1C1.md) in [HCC](../cancer_types/HCC.md) [PMID:35508466](../papers/35508466.md)
 
 ## Therapeutic relevance
 
-- Nominated as a potential gemcitabine target in hypoxic HCC conditions; [gemcitabine](../drugs/gemcitabine.md) may have enhanced efficacy in RRM2B-elevated tumors [PMID:35508466](../papers/35508466.md)
+- Nominated as a potential [gemcitabine](../drugs/gemcitabine.md) target in hypoxic HCC conditions; [gemcitabine](../drugs/gemcitabine.md) may have enhanced efficacy in RRM2B-elevated tumors [PMID:35508466](../papers/35508466.md)
 
 ## Open questions
 

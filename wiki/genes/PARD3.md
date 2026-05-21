@@ -3,13 +3,14 @@ symbol: PARD3
 aliases: []
 cancer_types:
   - CSCC
+  - HCC
 tags:
   - tumor-suppressor
   - polarity-complex
   - skin-cancer
   - loss-of-function
-processed_by: entity-page-writer
-processed_at: "2026-05-11"
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,14 +24,15 @@ PARD3 (Partitioning defective 3 homolog) is a cell polarity scaffold protein and
 ## Alterations observed in the corpus
 
 - Mutated in 30.8% (12/39) of aggressive cSCC cases; novel candidate tumor suppressor; 33% of mutations predicted to truncate/eliminate the protein; significant by driver-detection methods [PMID:25303977](../papers/25303977.md)
+- PARD3 phosphorylation altered in CTNNB1-mutant HCCs (actin-organization phosphoprotein), consistent with loss of epithelial polarity and Wnt-driven cytoskeletal remodeling in a European [HCC](../cancer_types/HCC.md) proteogenomics cohort [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
-- CSCC: 30.8% mutation rate in aggressive cases; functional role in cSCC requires experimental validation [PMID:25303977](../papers/25303977.md)
+- [CSCC](../cancer_types/CSCC.md): 30.8% mutation rate in aggressive cases; functional role in cSCC requires experimental validation [PMID:25303977](../papers/25303977.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with TP53, CDKN2A, NOTCH1, NOTCH2, and other cSCC drivers in the same cohort [PMID:25303977](../papers/25303977.md)
+- Co-occurs with [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [NOTCH1](../genes/NOTCH1.md), [NOTCH2](../genes/NOTCH2.md), and other cSCC drivers in the same cohort [PMID:25303977](../papers/25303977.md)
 
 ## Therapeutic relevance
 
@@ -44,4 +46,7 @@ PARD3 (Partitioning defective 3 homolog) is a cell polarity scaffold protein and
 
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

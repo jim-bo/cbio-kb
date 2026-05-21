@@ -25,7 +25,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [ASCL1](../genes/ASCL1.md), [DLK1](../genes/DLK1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), and [SYP](../genes/SYP.md) in the neuroendocrine-high SCLC transcriptional subtype [PMID:26168399](../papers/26168399.md)
+- Co-expressed with [ASCL1](../genes/ASCL1.md), [DLK1](../genes/DLK1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), and [SYP](../genes/SYP.md) in the neuroendocrine-high [SCLC](../cancer_types/SCLC.md) transcriptional subtype [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

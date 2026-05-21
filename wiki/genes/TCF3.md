@@ -16,7 +16,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-TCF3 (transcription factor 3, also known as E2A) encodes a basic helix-loop-helix transcription factor important for lymphocyte development and differentiation. In the context of [SCLC](../cancer_types/SCLC.md), TCF3 alterations have been identified as shared clonal events between SCLC and lung adenocarcinoma components arising from a common progenitor cell.
+TCF3 (transcription factor 3, also known as E2A) encodes a basic helix-loop-helix transcription factor important for lymphocyte development and differentiation. In the context of [SCLC](../cancer_types/SCLC.md), TCF3 alterations have been identified as shared clonal events between [SCLC](../cancer_types/SCLC.md) and lung adenocarcinoma components arising from a common progenitor cell.
 
 ## Alterations observed in the corpus
 
@@ -28,7 +28,7 @@ TCF3 (transcription factor 3, also known as E2A) encodes a basic helix-loop-heli
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with TET2, CDKN1B, PTEN, MDM2, FGFR1, and KRAS in the shared clonal founding population of the MSK773 SCLC/LUAD admixed tumor; RB1 and TP53 loss are SCLC-specific events in this case [PMID:35440124](../papers/35440124.md).
+- Co-occurs with [TET2](../genes/TET2.md), [CDKN1B](../genes/CDKN1B.md), [PTEN](../genes/PTEN.md), [MDM2](../genes/MDM2.md), [FGFR1](../genes/FGFR1.md), and [KRAS](../genes/KRAS.md) in the shared clonal founding population of the MSK773 SCLC/LUAD admixed tumor; [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md) loss are SCLC-specific events in this case [PMID:35440124](../papers/35440124.md).
 
 ## Therapeutic relevance
 

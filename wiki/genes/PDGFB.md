@@ -15,7 +15,7 @@ PDGFB (Platelet-Derived Growth Factor Subunit B) encodes the B-chain of platelet
 
 ## Alterations observed in the corpus
 
-- COL1A1-PDGFB fusion (n=1) classified ready-for-routine-use in pediatric solid tumors; targetable by imatinib; identified via comprehensive WES + RNA-seq in the MAPPYACTS relapsed pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
+- COL1A1-PDGFB fusion (n=1) classified ready-for-routine-use in pediatric solid tumors; targetable by [imatinib](../drugs/imatinib.md); identified via comprehensive WES + RNA-seq in the MAPPYACTS relapsed pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 

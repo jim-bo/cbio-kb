@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Whole-genome sequencing (WGS)
@@ -47,7 +47,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Whole-genome sequencing (~49× tumor / 30× germline; 101 bp paired reads) on 16 esophageal adenocarcinoma pairs; rearrangements called by dRanger yielded 2,952 candidate events; no recurrent fusions found [PMID:23525077](../papers/23525077.md)
 - Whole-genome sequencing (mean 61× tumor / 34× normal; Illumina GAIIx paired-end 101 bp) on 57 prostate tumor/normal pairs; identified 5,596 somatic rearrangements by dRanger and characterized chromoplexy chains in 88% of tumors [PMID:23622249](../papers/23622249.md)
 - Whole-genome sequencing (mean 30.54× coverage) on 50 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA [AML](../cancer_types/AML.md) study; VAF-based clonal architecture analysis showed >50% of tumors had ≥1 subclone [PMID:23634996](../papers/23634996.md)
-- Applied in 5 of 60 ACC tumor/normal pairs (Illumina HiSeq 2000, mean coverage 37x) for structural variant detection using CREST; complemented whole-exome sequencing for comprehensive somatic alteration characterization [PMID:23685749](../papers/23685749.md)
+- Applied in 5 of 60 [ACC](../cancer_types/ACC.md) tumor/normal pairs (Illumina HiSeq 2000, mean coverage 37x) for structural variant detection using CREST; complemented whole-exome sequencing for comprehensive somatic alteration characterization [PMID:23685749](../papers/23685749.md)
 - Applied to 96 pediatric pilocytic astrocytoma tumor/blood pairs (Illumina HiSeq2000, BWA + samtools + Picard, hg19); mean somatic mutation rate <0.1/Mb; PINDEL, CREST, and DELLY used for SV detection revealing [KIAA1549](../genes/KIAA1549.md):[BRAF](../genes/BRAF.md) fusions and novel BRAF/NTRK2 fusions [PMID:23817572](../papers/23817572.md)
 - Applied to 42 deep-coverage [GBM](../cancer_types/GBM.md) tumor/normal pairs; detected 238 high-confidence somatic rearrangements including [EGFR](../genes/EGFR.md) intragenic events and one case of chromothripsis; identified [TERT](../genes/TERT.md) promoter mutations in 84% [PMID:24120142](../papers/24120142.md)
 - Applied at fourfold mean haploid coverage in 99 [BLCA](../cancer_types/BLCA.md) tumors; WGS mate-pair reads confirmed FGFR3-TACC3 fusion junctions detected by RNA-seq [PMID:24121792](../papers/24121792.md)
@@ -76,34 +76,35 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 14 primary uveal melanoma samples with matched germline; BWA alignment to GRCh37, SAMtools/bcftools variant calling, Janda SV calling, and binocular CNV segmentation; enabled discovery of [PLCB4](../genes/PLCB4.md) p.D630Y hotspot and BRCA-like mutational signature in 79% of samples [PMID:26683228](../papers/26683228.md).
 - Used for alignment to GRCh37-lite in 15 matched primary/recurrent medulloblastoma pairs with germline controls plus 18 pairs without germline (46 total samples); demonstrated <12% shared somatic SNVs/indels between primary and recurrent tumors [PMID:26760213](../papers/26760213.md).
 - WGS used for telomere-length analysis and TERT-promoter mutation detection in a subset of diffuse gliomas from the TCGA pan-glioma cohort; ATRX-mutant gliomas showed significantly longer telomeres than TERTp-mutant samples (ALT mechanism) [PMID:26824661](../papers/26824661.md)
-- WGS on Illumina HiSeq 2500 (100 bp paired-end) of 20 ACC tumors and primagrafts with reads aligned to hg19 by BWA; rearrangements called with dRanger and BreakPointer; identified MYB super-enhancer hijacking mechanism [PMID:26829750](../papers/26829750.md)
-- WGS of 25 ACC tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal) on Illumina HiSeq; identified 253 chromosomal rearrangements including 5 novel NFIB fusion partners and Rho-GTPase pathway disruption in 44% of tumors [PMID:26862087](../papers/26862087.md)
-- Whole-genome sequencing data from the BCC/SCC corpus (EGAD0000101525) used as a reference baseline for skin cancer mutation burdens (cSCC mean 50 substitutions/Mb, BCC mean 65 substitutions/Mb) in the NB-UVB surveillance model. [PMID:26950094](../papers/26950094.md)
-- Applied to 40 MRT tumor/normal pairs (median tumor content 88.0%); identified near-universal SMARCB1 biallelic inactivation (39/40 cases), quiet overall genomes (median 612.5 SNVs/case, 0.231 mutations/Mb), and Chr22 as the dominant structural variation locus (9/15 recurrent CNA loci, 22/26 verified gene fusions). [PMID:26977886](../papers/26977886.md)
-- Whole-genome sequencing cited as reference methodology for comprehensive mutation detection in AML; the primary AMLSG study used a targeted 111-gene panel, with WGS noted as context for driver-gene discovery [PMID:27276561](../papers/27276561.md)
-- Whole-genome sequencing used alongside WES and targeted NGS in studies of germline susceptibility and somatic driver characterization in young-onset NSCLC [PMID:27346245](../papers/27346245.md)
+- WGS on Illumina HiSeq 2500 (100 bp paired-end) of 20 ACC tumors and primagrafts with reads aligned to hg19 by BWA; rearrangements called with dRanger and BreakPointer; identified [MYB](../genes/MYB.md) super-enhancer hijacking mechanism [PMID:26829750](../papers/26829750.md)
+- WGS of 25 ACC tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal) on Illumina HiSeq; identified 253 chromosomal rearrangements including 5 novel [NFIB](../genes/NFIB.md) fusion partners and Rho-GTPase pathway disruption in 44% of tumors [PMID:26862087](../papers/26862087.md)
+- Whole-genome sequencing data from the BCC/SCC corpus (EGAD0000101525) used as a reference baseline for skin cancer mutation burdens (cSCC mean 50 substitutions/Mb, [BCC](../cancer_types/BCC.md) mean 65 substitutions/Mb) in the NB-UVB surveillance model. [PMID:26950094](../papers/26950094.md)
+- Applied to 40 [MRT](../cancer_types/MRT.md) tumor/normal pairs (median tumor content 88.0%); identified near-universal [SMARCB1](../genes/SMARCB1.md) biallelic inactivation (39/40 cases), quiet overall genomes (median 612.5 SNVs/case, 0.231 mutations/Mb), and Chr22 as the dominant structural variation locus (9/15 recurrent CNA loci, 22/26 verified gene fusions). [PMID:26977886](../papers/26977886.md)
+- Whole-genome sequencing cited as reference methodology for comprehensive mutation detection in [AML](../cancer_types/AML.md); the primary AMLSG study used a targeted 111-gene panel, with WGS noted as context for driver-gene discovery [PMID:27276561](../papers/27276561.md)
+- Whole-genome sequencing used alongside WES and targeted NGS in studies of germline susceptibility and somatic driver characterization in young-onset [NSCLC](../cancer_types/NSCLC.md) [PMID:27346245](../papers/27346245.md)
 - WGS on N=32 B-ALL cases to identify IGH-DUX4 rearrangements and characterize the genomic landscape of the DUX4/ERG B-ALL subtype. [PMID:27776115](../papers/27776115.md)
 - Low-pass (6–8×) whole-genome sequencing performed on 51 oesophageal cancers as part of the TCGA esophageal/stomach multi-platform study to characterize structural variants [PMID:28052061](../papers/28052061.md).
 - Performed whole-genome sequencing to comprehensively catalog structural variants and mutational signatures [PMID:28373299](../papers/28373299.md)
 - Used whole-genome sequencing to detect structural variants and mutational signatures in pediatric cancers [PMID:28445112](../papers/28445112.md)
 - Used in the ICGC cholangiocarcinoma cohort (n=71 tumor/normal pairs, average 64.2× depth on Illumina HiSeq X10/2500/2000) to define four etiology-driven molecular subtypes of CCA [PMID:28667006](../papers/28667006.md)
-- Applied across 390 medulloblastoma tumor/normal pairs (200 new + 190 previously published) to map driver events in all four consensus subgroups; identified hotspot KBTBD4 insertions, PRDM6 enhancer-hijacking, and 24 mutational signatures [PMID:28726821](../papers/28726821.md)
-- Applied to 136 of 412 BLCA tumors for deep structural variant and mutation clonality analysis (supplementing WES) [PMID:28988769](../papers/28988769.md)
+- Applied across 390 medulloblastoma tumor/normal pairs (200 new + 190 previously published) to map driver events in all four consensus subgroups; identified hotspot [KBTBD4](../genes/KBTBD4.md) insertions, [PRDM6](../genes/PRDM6.md) enhancer-hijacking, and 24 mutational signatures [PMID:28726821](../papers/28726821.md)
+- Applied to 136 of 412 [BLCA](../cancer_types/BLCA.md) tumors for deep structural variant and mutation clonality analysis (supplementing WES) [PMID:28988769](../papers/28988769.md)
 - Applied to 37 of 206 TCGA sarcomas to complement WES and characterize structural variants and whole-genome doubling across 6 histologies [PMID:29100075](../papers/29100075.md)
 - Used in the TCGA MC3 project for orthogonal validation of WES-derived somatic calls on 1,059 samples (median 126 validation sites/sample); also used to validate RNA-seq-based fusions via discordant read pairs [PMID:29596782](../papers/29596782.md)
-- Applied to AALE chr_3p-deleted clones (MiSeq low-coverage) processed with HMMCopy and IchorCNA for subclonal copy number, alongside karyotyping to confirm 3p hemizygosity [PMID:29622463](../papers/29622463.md)
+- Applied to AALE chr_3p-deleted clones (MiSeq low-coverage) processed with HMMCopy and IchorCNA for subclonal copy number, alongside [karyotyping](../methods/karyotyping.md) to confirm 3p hemizygosity [PMID:29622463](../papers/29622463.md)
 - WGS performed on MSK pediatric cancer samples for comprehensive somatic variant discovery [PMID:29670109](../papers/29670109.md)
-- 184 EOPC and 85 LOPC prostate cancer genomes sequenced by WGS with matched blood normal; 41 samples re-used from Fraser et al. 2017; analysis revealed APOBEC-driven mutational signatures and recurrent SVs at ESRP1, KLF5, NKX3-1, FOXP1, PTEN, and TP53 [PMID:30537516](../papers/30537516.md)
-- Applied to 329 of the 1,072 CCLE cancer cell lines; targeted sequencing additionally applied to 657 lines (950 total per Methods); TERT promoter mutations detected in 16.7% (84/503) of surveyed lines as the most common non-coding somatic mutation [PMID:31068700](../papers/31068700.md)
-- Applied to 41 tumors / 37 cases in the pan-Asia cHCC-ICC study; HBV integration sites identified with TERT and KMT2B as most recurrent targets; WGS complemented WES for structural variant and noncoding mutation discovery [PMID:31130341](../papers/31130341.md)
+- 184 EOPC and 85 LOPC prostate cancer genomes sequenced by WGS with matched blood normal; 41 samples re-used from Fraser et al. 2017; analysis revealed APOBEC-driven mutational signatures and recurrent SVs at [ESRP1](../genes/ESRP1.md), [KLF5](../genes/KLF5.md), [NKX3-1](../genes/NKX3-1.md), [FOXP1](../genes/FOXP1.md), [PTEN](../genes/PTEN.md), and [TP53](../genes/TP53.md) [PMID:30537516](../papers/30537516.md)
+- Applied to 329 of the 1,072 CCLE cancer cell lines; targeted sequencing additionally applied to 657 lines (950 total per Methods); [TERT](../genes/TERT.md) promoter mutations detected in 16.7% (84/503) of surveyed lines as the most common non-coding somatic mutation [PMID:31068700](../papers/31068700.md)
+- Applied to 41 tumors / 37 cases in the pan-Asia cHCC-ICC study; HBV integration sites identified with TERT and [KMT2B](../genes/KMT2B.md) as most recurrent targets; WGS complemented WES for structural variant and noncoding mutation discovery [PMID:31130341](../papers/31130341.md)
 - WGS performed as part of the combined 193-case ACC sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of TERT promoter mutations, MYB structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
 - Core assay of the PCAWG pan-cancer study (n=2,658 tumor-normal pairs, 38 tumor types); mean coverage 39× normal, bimodal 38×/60× tumor; 63 pairs validated by deep custom-bait sequencing achieving 95% SNV sensitivity/precision [PMID:32025007](../papers/32025007.md).
 - Used in the Sherlock-Lung NS-LUAD study (n=499 paired WGS from 684 NS-LUAD tumors) to integrate driver mutations, structural variants, whole-genome doubling, and kataegis with transcriptomic subtypes [PMID:32015526](../papers/32015526.md).
 - PCR-free WGS (HiSeqX, min 15× coverage, 151 bp paired-end) used in the CPTAC endometrial carcinoma study (n=95 tumors) for copy-number analysis; 14% of SCNAs had cis effects on transcript/protein levels (FDR < 0.01) [PMID:32059776](../papers/32059776.md).
-- PCR-free WGS on Illumina HiSeq X (minimum 15× tumor depth) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling (paired with WES at ≥150× on-target) [PMID:33577785](../papers/33577785.md)
-- Some of the 10 source studies in the CSCC meta-analysis contributed WGS data (in addition to WES from most studies); 88 QC-passed tumors retained from 105 total across all sequencing types (hg19, BWA-MEM v0.7.13) [PMID:34272401](../papers/34272401.md)
+- PCR-free WGS on Illumina HiSeq X (minimum 15× tumor depth) performed on all 99 treatment-naive [GBM](../cancer_types/GBM.md) tumors as part of 10-platform CPTAC proteogenomic profiling (paired with WES at ≥150× on-target) [PMID:33577785](../papers/33577785.md)
+- Some of the 10 source studies in the [CSCC](../cancer_types/CSCC.md) meta-analysis contributed WGS data (in addition to WES from most studies); 88 QC-passed tumors retained from 105 total across all sequencing types (hg19, BWA-MEM v0.7.13) [PMID:34272401](../papers/34272401.md)
 - Shallow WGS (sWGS, ~10M reads/sample) of cfDNA used for genome-wide z-score-based tumor fraction estimation in 118 metastatic solid tumor patients; sWGS z-score achieved AUC=0.925 for predicting high tumor fraction and directed sample triage to MSK-ACCESS (low z-score) or cf-WES (high z-score) [PMID:34059130](../papers/34059130.md)
-- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
+- Primary sequencing assay in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md): Illumina NovaSeq 6000 PE150 WGS at median tumor depth 95× (range 67–181×) and normal 50× (range 32–159×) in 114 pediatric/AYA solid tumor patients; 9-day sample-to-report turnaround; ≥80× recommended as optimal depth for clinical WGS [PMID:35585047](../papers/35585047.md)
 
 ## Notes
 
@@ -121,241 +122,244 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25470049](../papers/25470049.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466568](../papers/26466568.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26631609](../papers/26631609.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26683228](../papers/26683228.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26760213](../papers/26760213.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26950094](../papers/26950094.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26977886](../papers/26977886.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27776115](../papers/27776115.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29670109](../papers/29670109.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32015526](../papers/32015526.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

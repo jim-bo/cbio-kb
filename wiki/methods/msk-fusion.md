@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [fusion-detection, rna, targeted-sequencing, msk]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MSK-Fusion
@@ -22,6 +22,7 @@ MSK-Fusion is an RNA anchored multiplex PCR panel used at Memorial Sloan Ketteri
 - MSK-Solid Fusion targeted RNA panel using Archer FusionPlex Anchored Multiplex PCR over 35 rearranged genes, used for orthogonal RNA fusion confirmation in the MSK-IMPACT prospective cohort [PMID:28481359](../papers/28481359.md)
 - RNA-based [MSK-Fusion](../methods/msk-fusion.md) ([ArcherDx FusionPlex](../methods/archer-fusionplex.md)) applied alongside [MSK-IMPACT](../methods/msk-impact-panel.md) for TRK fusion detection in 26,312 prospectively sequenced cancer patients at MSK; RNA-only testing detected 26% (12/46) of true TRK fusions missed by DNA-only MSK-IMPACT; panel covers NTRK1/2/3 and additional intronic tiling for NTRK2/3 [PMID:31871300](../papers/31871300.md).
 - MSK-Fusion RNA panel applied to a subset of 107 uterine sarcoma patients for diagnostic fusion detection; identified JAZF1-SUZ12 (LG-ESS), YWHAE/NUTM2, LBH-ALK, and BCOR-ZC3H7B fusions enabling diagnostic reclassification [PMID:32299819](../papers/32299819.md)
+- Applied orthogonally in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline: MSK-Fusion RNA fusion capture panel detected 18 oncogenic fusions, all of which were also recovered by WGS + RNA-seq, validating cWGTS completeness in 114 pediatric/AYA patients [PMID:35585047](../papers/35585047.md)
 
 ## Notes
 
@@ -33,12 +34,15 @@ MSK-Fusion is an RNA anchored multiplex PCR panel used at Memorial Sloan Ketteri
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
 
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

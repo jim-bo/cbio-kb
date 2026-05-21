@@ -3,8 +3,8 @@ symbol: PMS2
 aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -13,7 +13,7 @@ unverified: false
 
 ## Overview
 
-PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canonical mismatch repair (MMR) genes ([MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), PMS2). Germline loss-of-function mutations cause Lynch syndrome with heightened risk of colorectal, endometrial, and other cancers. Somatic PMS2 mutations contribute to dMMR/MSI-H tumors and predict response to immune checkpoint blockade.
+PMS2 ([PMS1](../genes/PMS1.md) Homolog 2, Mismatch Repair System Component) is one of the four canonical mismatch repair (MMR) genes ([MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), PMS2). Germline loss-of-function mutations cause Lynch syndrome with heightened risk of colorectal, endometrial, and other cancers. Somatic PMS2 mutations contribute to dMMR/MSI-H tumors and predict response to immune checkpoint blockade.
 
 ## Alterations observed in the corpus
 
@@ -28,18 +28,19 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - In [PAAD](../cancer_types/PAAD.md), PMS2 was among mismatch-repair gene alterations in the top mutation-burden quartile; affected cases displayed T→C-at-CTG signatures consistent with MMR deficiency. [PMID:25855536](../papers/25855536.md)
 - Germline Lynch-syndrome gene mutated in half of MSI periampullary tumor patients — a marked enrichment vs. <5% population frequency [PMID:26804919](../papers/26804919.md)
 - Homozygous S459X germline variant diagnostic of constitutional mismatch-repair deficiency (CMMRD) syndrome in a pediatric patient with T-cell lymphoblastic lymphoma and consanguineous parentage [PMID:28007021](../papers/28007021.md)
-- MSH2, MLH1, MSH6, and PMS2 are altered in 3% of advanced prostate cancers; MMR-gene alterations produce a hypermutator phenotype with MMR/MSI signatures, raising potential for immune-checkpoint blockade response [PMID:28825054](../papers/28825054.md)
+- [MSH2](../genes/MSH2.md), [MLH1](../genes/MLH1.md), [MSH6](../genes/MSH6.md), and PMS2 are altered in 3% of advanced prostate cancers; MMR-gene alterations produce a hypermutator phenotype with MMR/MSI signatures, raising potential for immune-checkpoint blockade response [PMID:28825054](../papers/28825054.md)
 - Assessed by IHC for MMR status alongside MLH1, MSH2, MSH6 in 1,640 mCRC tumors; IHC concordance with MSIsensor was 98.6% [PMID:29316426](../papers/29316426.md)
 - PMS2 is among the top DDR-pathway predisposition genes (Core DDR); germline pathogenic variants in PMS2 and other MMR genes (MLH1, MSH2, MSH6) reach MSI-high in 18/60 samples, with 16/18 carrying both germline and somatic MMR hits, nominating these patients as candidates for checkpoint-blockade therapy [PMID:29625049](../papers/29625049.md)
 - Component of the standard MMR IHC panel used to call MMR-D status in metastatic endometrial cancer (MSK cohort, n=189); PMS2 protein loss by IHC contributed to MMR-D classification alongside MSIsensor score [PMID:30068706](../papers/30068706.md)
-- Somatic deleterious mutations enriched in MSI-H tumors of ACC, CESC, and MESO in a pan-TCGA analysis; PMS2 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
+- Somatic deleterious mutations enriched in MSI-H tumors of [ACC](../cancer_types/ACC.md), [CESC](../cancer_types/CESC.md), and [MESO](../cancer_types/MESO.md) in a pan-TCGA analysis; PMS2 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 - PMS2 is among MMR germline genes (with MSH2, MSH6, PMS1) where germline alleles were identified in glioma patients; two cases had biallelic MMR loss with Lynch-pattern MSI hypermutation [PMID:31263031](../papers/31263031.md)
-- PMS2 protein expression is significantly reduced in UTUC vs UCB by IHC in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB; similar pattern observed for MLH1, MSH2, MSH6 [PMID:31278255](../papers/31278255.md)
-- MLH1/PMS2 (MutL) mismatch repair components are downregulated at the protein level in MSI cell lines; MMR protein abundance predicts WRN knockdown sensitivity [PMID:31978347](../papers/31978347.md)
+- PMS2 protein expression is significantly reduced in [UTUC](../cancer_types/UTUC.md) vs UCB by IHC in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB; similar pattern observed for MLH1, MSH2, MSH6 [PMID:31278255](../papers/31278255.md)
+- MLH1/PMS2 (MutL) mismatch repair components are downregulated at the protein level in MSI cell lines; MMR protein abundance predicts [WRN](../genes/WRN.md) knockdown sensitivity [PMID:31978347](../papers/31978347.md)
 - PMS1/PMS2 protein levels are downregulated in MSI endometrial tumors (MLH1 loss destabilizes them at the protein level, not transcript level) [PMID:32059776](../papers/32059776.md)
 - MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 - Germline Lynch syndrome mismatch-repair gene variant; PMS2 (with MLH1, MSH2, MSH6) germline P/LP variants accounted for 5.5% of all EO-CRCs and 9 of 14 high-penetrance carriers in EO-CRC [PMID:34405229](../papers/34405229.md)
 - PMS2 assayed by IHC as part of the MMR panel in 94 Nigerian CRC tumors in the ARGO cohort; MSI-H rate in this population was 28.1% vs. 14.2% TCGA and 8.5% MSKCC (P<0.001) [PMID:34819518](../papers/34819518.md)
+- Pathogenic germline PMS2 c.538-1G>C with LOH in an immature teratoma (MSI-high, TMB=11.23); a separate osteosarcoma patient with likely-pathogenic PMS2 p.D699H had an MSI-high hypermutated genome (TMB=16.7) recognized only by cWGTS — MSK-IMPACT had reported an indeterminate MSI score (7.5) [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -86,10 +87,13 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

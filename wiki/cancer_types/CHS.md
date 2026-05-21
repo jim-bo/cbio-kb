@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - bone
   - chondrosarcoma
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Chondrosarcoma (CHS)
@@ -25,6 +25,7 @@ Chondrosarcoma is a malignant cartilaginous bone tumor, classified under Bone Ca
 
 - No recurrent driver alterations directly genotyped in the UCLA PDTO study; chondrosarcoma is commonly associated with IDH1/IDH2 mutations (conventional) and complex copy-number changes (dedifferentiated) in the broader literature.
 - CHS was cited as a 3D model test bed in a review of scaffold-based and microfluidic tumor models; chondrosarcoma cell lines were used in porous-scaffold experiments demonstrating stemness-phenotype emergence in 3D culture. [PMID:30643250](../papers/30643250.md)
+- Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 
 ## Subtypes
 
@@ -42,7 +43,10 @@ Chondrosarcoma is a malignant cartilaginous bone tumor, classified under Bone Ca
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30643250](../papers/30643250.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

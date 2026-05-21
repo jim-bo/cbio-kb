@@ -28,8 +28,9 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 - [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) fusion detectable in ctDNA at diagnosis (100%) and relapse (86%), with fusion read counts correlating with disease burden [PMID:37730754](../papers/37730754.md).
 - Genomic analysis of 147 [RMS](../cancer_types/RMS.md) tumors reclassified ARMS by PAX-fusion status: PAX-fusion-positive (PFP) ARMS carry [PAX3](../genes/PAX3.md)- or [PAX7](../genes/PAX7.md)-[FOXO1](../genes/FOXO1.md) fusions with low somatic mutation burden (mean 6.4 non-synonymous mutations/tumor) and rely on amplifications ([MYCN](../genes/MYCN.md), [CDK4](../genes/CDK4.md), [MIR17HG](../genes/MIR17HG.md)); 7 fusion-negative ARMS clustered molecularly with [ERMS](../cancer_types/ERMS.md) [PMID:24436047](../papers/24436047.md).
 - PIPseq cohort: PAX7-FOXO1 fusion detected by RNA-seq in an alveolar [RMS](../cancer_types/RMS.md) patient despite repeatedly negative [FOXO1](../genes/FOXO1.md) break-apart FISH; the fusion was diagnostic and placed the patient in the high-risk prognostic group [PMID:28007021](../papers/28007021.md)
-- All Fusion+ ARMS PDX models in the PPTC cohort (n=261) carried PAX3-FOXO1; median patient age 16y for Fusion+ vs 5y for Fusion− RMS; [MYCN](../genes/MYCN.md) and [CDK4](../genes/CDK4.md) focal amplifications also observed in this histology [PMID:31693904](../papers/31693904.md).
+- All Fusion+ ARMS PDX models in the PPTC cohort (n=261) carried PAX3-FOXO1; median patient age 16y for Fusion+ vs 5y for Fusion− [RMS](../cancer_types/RMS.md); [MYCN](../genes/MYCN.md) and [CDK4](../genes/CDK4.md) focal amplifications also observed in this histology [PMID:31693904](../papers/31693904.md).
 - ARMS (alveolar rhabdomyosarcoma) was a major histology in the MAPPYACTS trial (sarcomas 37% of 787 patients); CDK4/CDK6 amplifications were recurrent, matched to CDK4/6 inhibitors (105 recommendations across the sarcoma cohort) [PMID:35292802](../papers/35292802.md)
+- Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 
 ## Subtypes
 
@@ -54,5 +55,8 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

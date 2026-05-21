@@ -24,7 +24,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used in the WGS-based chromoplexy study of 57 prostate tumors alongside ChainFinder, CLONET, MuTect, Indelocator, dRanger, BreakPointer, and GISTIC v2 for comprehensive somatic variant characterization; WGS-vs-ABSOLUTE purity concordance was R²=0.99 [PMID:23622249](../papers/23622249.md)
 - Applied to 203 multiple myeloma tumor/normal pairs for tumor purity estimation, integer copy-number reconstruction, LOH inference, and cancer-cell-fraction (CCF) estimation; enabled characterization of pervasive subclonal architecture including detection of subclonal driver mutations in [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) [PMID:24434212](../papers/24434212.md)
 - Used to [estimate](../methods/estimate.md) tumor purity and ploidy for copy-number calling from WES of 39 aggressive cSCC tumors; ABSOLUTE-adjusted copy number revealed gains on chr7, 8q, 9q and losses on 3p, 9p including [CDKN2A](../genes/CDKN2A.md) focal deletions [PMID:25303977](../papers/25303977.md)
-- Used to estimate cancer cell fractions (CCFs) for [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md), [KRAS](../genes/KRAS.md), and [EIF1AX](../genes/EIF1AX.md) driver mutations in 402 PTCs; all driver mutations were confirmed as largely clonal, with one exception showing subclonal [EIF1AX](../genes/EIF1AX.md) on a background of clonal [KRAS](../genes/KRAS.md) and [BRAF](../genes/BRAF.md) mutations [PMID:25417114](../papers/25417114.md)
+- Used to [estimate](../methods/estimate.md) cancer cell fractions (CCFs) for [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md), [KRAS](../genes/KRAS.md), and [EIF1AX](../genes/EIF1AX.md) driver mutations in 402 PTCs; all driver mutations were confirmed as largely clonal, with one exception showing subclonal [EIF1AX](../genes/EIF1AX.md) on a background of clonal [KRAS](../genes/KRAS.md) and [BRAF](../genes/BRAF.md) mutations [PMID:25417114](../papers/25417114.md)
 - ABSOLUTE used to estimate copy-number purity and ploidy from Affymetrix SNP 6.0 data in 333 cutaneous melanoma samples as part of the TCGA [SKCM](../cancer_types/SKCM.md) integrative analysis. [PMID:26091043](../papers/26091043.md)
 - Used as copy-number absolute quantification method in whole-exome sequencing analysis of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Applied in the TCGA breast cancer ILC/IDC multi-platform study (n=817) to estimate tumor purity and ploidy, supporting clonality-corrected genomic comparisons between invasive lobular and ductal carcinoma [PMID:26451490](../papers/26451490.md)
@@ -33,9 +33,9 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used for tumor purity and ploidy estimation in 1,144 [NSCLC](../cancer_types/NSCLC.md) exome pairs to enable accurate somatic copy-number and mutation calling [PMID:27158780](../papers/27158780.md)
 - ABSOLUTE-style cancer cell fraction (CCF) framework applied after Sequenza tumor purity estimation to 216 metastatic breast cancer exomes; revealed [ESR1](../genes/ESR1.md) mutations were subclonal in 14/21 (67%) of cases [PMID:28027327](../papers/28027327.md).
 - ABSOLUTE used for allelic copy number, tumor purity, and ploidy estimation in 164 oesophageal carcinomas and 359 gastric adenocarcinomas as part of the TCGA esophageal/stomach study [PMID:28052061](../papers/28052061.md).
-- ABSOLUTE used for clonality estimation in 173 [PCPG](../cancer_types/PCPG.md) tumors in the TCGA PCPG study [PMID:28162975](../papers/28162975.md).
+- ABSOLUTE used for clonality estimation in 173 [PCPG](../cancer_types/PCPG.md) tumors in the TCGA [PCPG](../cancer_types/PCPG.md) study [PMID:28162975](../papers/28162975.md).
 - Used with Affymetrix SNP6 data to estimate tumor purity, ploidy, and cancer cell fraction (CCF) in 412 [BLCA](../cancer_types/BLCA.md) tumors; CCF used to characterize clonality of APOBEC mutations [PMID:28988769](../papers/28988769.md)
-- ABSOLUTE used to estimate tumor purity and ploidy in 206 TCGA sarcomas; 54% of BLCA tumors showed whole-genome doubling; enabled clonal mutation fraction calculations [PMID:29100075](../papers/29100075.md)
+- ABSOLUTE used to estimate tumor purity and ploidy in 206 TCGA sarcomas; 54% of [BLCA](../cancer_types/BLCA.md) tumors showed whole-genome doubling; enabled clonal mutation fraction calculations [PMID:29100075](../papers/29100075.md)
 - Used to estimate clonality of [PBRM1](../genes/PBRM1.md) truncating mutations in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) WES samples; most PBRM1-LOF alterations were predicted to be clonal [PMID:29301960](../papers/29301960.md)
 - ABSOLUTE v1.0.6 integrated with FACETS segmentation to estimate clonality of HER2 mutations in the SUMMIT basket trial; 95% (70/74) of HER2 mutations were clonal (CCF >0.85); none of 4 patients with subclonal HER2 mutations achieved clinical benefit [PMID:29420467](../papers/29420467.md)
 - ABSOLUTE-style framework used alongside FACETS for cancer-cell fraction (clonality) estimates across 1,013 prostate tumor/normal pairs [PMID:29610475](../papers/29610475.md)
@@ -48,6 +48,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Applied with FACETS and PyClone to infer whole-genome doubling (WGD) in synchronous DCIS/IDC-NST WES cohort; WGD detected in 7/25 patient pairs [PMID:32220886](../papers/32220886.md)
 - Used to compute cancer cell fractions (CCFs) for somatic mutations in 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) sequenced by WES or MSK-IMPACT; CCF estimates informed clonality classifications (e.g., distinguishing clonal [PIK3CA](../genes/PIK3CA.md) H1047R co-occurring with [TERT](../genes/TERT.md) mutations from subclonal Ras pathway mutations) [PMID:33863915](../papers/33863915.md)
 - ABSOLUTE used for re-estimation of cancer cell fraction (CCF) on single-cell genotyping (SCG)-called mutations in 4 CRC dual-driver cases [PMID:35235413](../papers/35235413.md).
+- Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md): whole-exome sequencing of 168 prostate cancer brain metastasis samples processed with ABSOLUTE for tumor purity and ploidy estimation [PMID:35504881](../papers/35504881.md)
 
 ## Notes
 
@@ -133,5 +134,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

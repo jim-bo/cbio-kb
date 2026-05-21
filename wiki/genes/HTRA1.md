@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # HTRA1
@@ -16,6 +16,7 @@ HTRA1 (High-Temperature Requirement Serine Peptidase A1) is a secreted serine pr
 ## Alterations observed in the corpus
 
 - HTRA1 — recurrent SH3PXD2A-HTRA1 gene fusion detected in 14% of SWNTS-SWNs (3/22 WGS samples confirmed by RT-PCR); enriched in LZTR1-mutant and painful tumors; provides therapeutic rationale for MEK inhibition by analogy with sporadic schwannomas [PMID:33025139](../papers/33025139.md)
+- SH3PXD2A-HTRA1 pathognomonic fusion detected by cWGTS, establishing a schwannoma ([SCHW](../cancer_types/SCHW.md)) diagnosis in a pediatric patient evaluated for relapsed stage-IV neuroblastoma [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +24,7 @@ HTRA1 (High-Temperature Requirement Serine Peptidase A1) is a secreted serine pr
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with germline LZTR1 mutation and somatic [NF2](../genes/NF2.md) loss in SWNTS-SWNs; the SH3PXD2A-HTRA1 fusion is enriched in LZTR1-mutant tumors and tracks with RAS/MAPK transcriptional upregulation [PMID:33025139](../papers/33025139.md)
+- Co-occurs with germline [LZTR1](../genes/LZTR1.md) mutation and somatic [NF2](../genes/NF2.md) loss in SWNTS-SWNs; the SH3PXD2A-HTRA1 fusion is enriched in LZTR1-mutant tumors and tracks with RAS/MAPK transcriptional upregulation [PMID:33025139](../papers/33025139.md)
 
 ## Therapeutic relevance
 
@@ -37,4 +38,7 @@ HTRA1 (High-Temperature Requirement Serine Peptidase A1) is a secreted serine pr
 
 - [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

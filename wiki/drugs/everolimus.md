@@ -26,11 +26,11 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [MEN1](../genes/MEN1.md) loss-of-function and/or high [RICTOR](../genes/RICTOR.md) expression guided everolimus selection in metastatic PanNEN/PulNEN patients (PN6, PN17, PN21, PN23, PN26) in the POG NEN WGTA cohort [PMID:40328872](../papers/40328872.md)
 - Six of 10 ccRCC tumors in the TRACERx multi-region sequencing study received short-course preoperative everolimus (or [sunitinib](../drugs/sunitinib.md)); authors argue these cytostatic exposures did not collapse subclonal diversity, though a treatment-naive baseline is absent [PMID:24487277](../papers/24487277.md)
 - mTOR signaling is disrupted in 40–50% of HCCs; everolimus failed in unselected second-line [HCC](../cancer_types/HCC.md) trials but the review proposes mTOR-pathway dysregulation as a biomarker to enrich future trials [PMID:24735922](../papers/24735922.md)
-- Phase III second-line trial in HCC (post-sorafenib) failed to demonstrate [OS](../cancer_types/OS.md) benefit; cited as a negative result for mTOR inhibition in HCC [PMID:24798001](../papers/24798001.md)
-- AR-amplified MSK-PCa2 CRPC organoid ([PTEN](../genes/PTEN.md) loss + [PIK3R1](../genes/PIK3R1.md) mutation) was sensitive to everolimus in vitro and in CB17 SCID xenografts (tumor growth slowed without shrinkage); combination everolimus + [enzalutamide](../drugs/enzalutamide.md) significantly enhanced response over enzalutamide alone in MSK-PCa2 xenografts [PMID:25201530](../papers/25201530.md)
+- Phase III second-line trial in [HCC](../cancer_types/HCC.md) (post-sorafenib) failed to demonstrate [OS](../cancer_types/OS.md) benefit; cited as a negative result for mTOR inhibition in HCC [PMID:24798001](../papers/24798001.md)
+- AR-amplified MSK-PCa2 CRPC organoid ([PTEN](../genes/PTEN.md) loss + [PIK3R1](../genes/PIK3R1.md) mutation) was sensitive to everolimus in vitro and in CB17 SCID xenografts (tumor growth slowed without shrinkage); combination everolimus + [enzalutamide](../drugs/enzalutamide.md) significantly enhanced response over [enzalutamide](../drugs/enzalutamide.md) alone in MSK-PCa2 xenografts [PMID:25201530](../papers/25201530.md)
 - TSC1/TSC2 mutations occur in 6.3% of HR+/HER2- metastatic breast cancer vs 0.7% of primary breast cancer (p=0.0004), enriched in endocrine-therapy-pre-treated patients; authors hypothesize TSC1/2-mutant tumors may be outlier responders to everolimus, which is approved for HR+/HER2- mBC [PMID:28027327](../papers/28027327.md)
 - 1 MTOR-L2383F UMD patient received 1-month no-benefit course of everolimus in 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort; TSC1/TSC2 truncating mutations (level 2B) identified in 6 patients, none received matched mTOR-inhibitor therapy due to off-label barriers [PMID:28336552](../papers/28336552.md).
-- Proposed as potentially actionable agent for PTEN loss (10q deletion) identified in [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient [PMID:28199314](../papers/28199314.md).
+- Proposed as potentially actionable agent for [PTEN](../genes/PTEN.md) loss (10q deletion) identified in [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient [PMID:28199314](../papers/28199314.md).
 - Authors note prior efficacy of everolimus in leiomyosarcoma but flag the limitation of compensatory AKT activation; recommend evaluating dual PI3K/MTOR inhibitors given pervasive PTEN/AKT3/MTOR/IGF1R/RICTOR pathway alterations in 84% of [ULMS](../cancer_types/ULMS.md)+STLMS C1 [PMID:29100075](../papers/29100075.md)
 - Cited as prior VEGF-targeted therapy in the ccRCC cohorts; PBRM1-LOF benefit from anti-PD-(L)1 was more pronounced in previously VEGF-inhibitor-treated patients, suggesting a treatment-sequencing interaction relevant to mTOR-pathway agents [PMID:29301960](../papers/29301960.md)
 - In MSKCC prospective NGS of 127 advanced HCC patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on [sorafenib](../drugs/sorafenib.md); all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset [PMID:30373752](../papers/30373752.md).
@@ -55,7 +55,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:36585450](../papers/36585450.md) — Fougner et al. 2023, AURORA US; [PIK3CA](../genes/PIK3CA.md) mutations across primary/metastatic paired breast cancer specimens relevant to mTOR pathway targeting.
 - [PMID:21252315](../papers/21252315.md)
-- [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; PI3K/AKT/mTOR pathway altered in ~28% of tumors, nominating everolimus as a therapeutic strategy in advanced RCC.
+- [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; PI3K/AKT/mTOR pathway altered in ~28% of tumors, nominating everolimus as a therapeutic strategy in advanced [RCC](../cancer_types/RCC.md).
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
@@ -93,7 +93,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32719455](../papers/32719455.md)
-- [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); [PIK3CA](../genes/PIK3CA.md) enrichment in non-chondroid MBC supports mTOR inhibition (everolimus or [temsirolimus](../drugs/temsirolimus.md)) + liposomal [doxorubicin](../drugs/doxorubicin.md) + [bevacizumab](../drugs/bevacizumab.md) in PI3K-pathway-altered triple-negative MBC.
+- [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); [PIK3CA](../genes/PIK3CA.md) enrichment in non-chondroid [MBC](../cancer_types/MBC.md) supports mTOR inhibition (everolimus or [temsirolimus](../drugs/temsirolimus.md)) + liposomal [doxorubicin](../drugs/doxorubicin.md) + [bevacizumab](../drugs/bevacizumab.md) in PI3K-pathway-altered triple-negative MBC.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)

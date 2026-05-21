@@ -1,10 +1,10 @@
 ---
 symbol: POLD1
 aliases: []
-cancer_types: [UCEC]
+cancer_types: [UCEC, PRAD]
 tags: [dna-polymerase, proofreading, ultramutator]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -21,8 +21,9 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 - Germline susceptibility variant Ser478Asn checked but not found in the TCGA endometrial cancer cohort; POLD1 not a driver in this dataset [PMID:23636398](../papers/23636398.md)
 - No somatic mutations identified across 23 pancreatic acinar cell carcinomas and pancreatoblastomas; wild-type status documented alongside [POLE](../genes/POLE.md) in this exome sequencing cohort [PMID:24293293](../papers/24293293.md)
 - Exonuclease-domain mutations E374K and C284Y observed in [NSCLC](../cancer_types/NSCLC.md) DCB patients on [pembrolizumab](../drugs/pembrolizumab.md); E374K in a never-smoker with the highest never-smoker mutation burden (507 nonsynonymous mutations); C284Y in the highest-burden tumor overall; both lie in the proofreading domain and produce a hypermutator phenotype with C→T predominance distinct from smoking signature [PMID:25765070](../papers/25765070.md)
-- POLD1 proofreading defect identified among mismatch repair / proofreading-deficient hypermutated HNSC tumors in a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
-- Germline P/LP variant identified in 1 EO-CRC high-penetrance carrier; defines an ultramutated subgroup alongside POLE [PMID:34405229](../papers/34405229.md)
+- POLD1 proofreading defect identified among mismatch repair / proofreading-deficient hypermutated [HNSC](../cancer_types/HNSC.md) tumors in a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
+- Germline P/LP variant identified in 1 EO-CRC high-penetrance carrier; defines an ultramutated subgroup alongside [POLE](../genes/POLE.md) [PMID:34405229](../papers/34405229.md)
+- POLD1 frameshift mutation in a hypermutated prostate cancer brain metastasis (PCBM) patient (P58; >15 mut/Mb, high SBS10b signature) co-occurring with [RFC4](../genes/RFC4.md) missense; identified among 51 PCBM patients by whole-exome sequencing [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -44,19 +45,22 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 
 - [PMID:37651310](../papers/37651310.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25765070](../papers/25765070.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

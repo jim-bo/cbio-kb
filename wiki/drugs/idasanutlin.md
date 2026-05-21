@@ -13,11 +13,11 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Idasanutlin (RG7388) is a potent, selective [MDM2](../genes/MDM2.md) antagonist (Nutlin derivative) that prevents MDM2 from binding and degrading wild-type [TP53](../genes/TP53.md), reactivating p53-mediated transcription and apoptosis. It is primarily active in tumors retaining wild-type TP53 function. It has been evaluated in clinical trials for [AML](../cancer_types/AML.md) (combined with [cytarabine](../drugs/cytarabine.md)) and is under investigation for solid tumors.
+Idasanutlin (RG7388) is a potent, selective [MDM2](../genes/MDM2.md) antagonist (Nutlin derivative) that prevents [MDM2](../genes/MDM2.md) from binding and degrading wild-type [TP53](../genes/TP53.md), reactivating p53-mediated transcription and apoptosis. It is primarily active in tumors retaining wild-type [TP53](../genes/TP53.md) function. It has been evaluated in clinical trials for [AML](../cancer_types/AML.md) (combined with [cytarabine](../drugs/cytarabine.md)) and is under investigation for solid tumors.
 
 ## Evidence in the corpus
 
-- Idasanutlin is proposed as a therapeutic hypothesis for the ~9% of esophageal/GEJ adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients with MDM2 amplification; MDM2 amplification was independently associated with poor pathologic response to neoadjuvant chemoradiotherapy (OR 0.10, 95% CI 0.01–0.55, p=0.032) in 237 MSI-stable EAC patients — authors cite idasanutlin's preclinical activity combined with chemotherapy in TP53-functional tumors and tolerability combined with cytarabine in AML as rationale [PMID:35377946](../papers/35377946.md)
+- Idasanutlin is proposed as a therapeutic hypothesis for the ~9% of esophageal/GEJ adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients with MDM2 amplification; MDM2 amplification was independently associated with poor pathologic response to neoadjuvant chemoradiotherapy (OR 0.10, 95% CI 0.01–0.55, p=0.032) in 237 MSI-stable [EAC](../cancer_types/EAC.md) patients — authors cite idasanutlin's preclinical activity combined with chemotherapy in TP53-functional tumors and tolerability combined with [cytarabine](../drugs/cytarabine.md) in [AML](../cancer_types/AML.md) as rationale [PMID:35377946](../papers/35377946.md)
 
 ## Resistance mechanisms
 

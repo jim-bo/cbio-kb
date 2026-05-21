@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - tumor-suppressor
   - skin-cancer
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # AJUBA
@@ -20,7 +20,8 @@ AJUBA encodes a LIM domain protein involved in cell adhesion and signaling. It h
 
 - Mutated in 23.1% of cSCC; mutation correlated with greater depth of invasion (16.0 ± 6.4 mm vs 8.4 ± 5.6 mm, p=0.02) and with [HRAS](../genes/HRAS.md) co-mutation; significant by all four driver-detection methods [PMID:25303977](../papers/25303977.md)
 - Previously unreported somatic mutations and deletions in 6% of HNSCC (279 tumors); primarily 5'-inactivating events plus clustered missense in the LIM domain; regulates Hippo/Wnt/beta-catenin signaling; convergent with FAT1/NOTCH1 on beta-catenin pathway [PMID:25631445](../papers/25631445.md)
-- Mutated in 7.2% of CSCC tumors; one tumor had a focal heterozygous deletion plus a point mutation on the other allele, implicating AJUBA as a Hippo-pathway driver in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
+- Mutated in 7.2% of [CSCC](../cancer_types/CSCC.md) tumors; one tumor had a focal heterozygous deletion plus a point mutation on the other allele, implicating AJUBA as a Hippo-pathway driver in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
+- AJUBA identified as a canonical YAP/TAZ target gene downregulated upon YAP1/WWTR1 double knockdown in CRPC-SCL (squamous-like) prostate cancer models [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
@@ -42,10 +43,13 @@ AJUBA encodes a LIM domain protein involved in cell adhesion and signaling. It h
 
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

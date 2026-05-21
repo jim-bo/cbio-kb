@@ -25,7 +25,7 @@ ZFTA (Zinc Finger Translocation Associated; formerly C11orf95) is a transcriptio
 
 ## Cancer types (linked)
 
-- [EPM](../cancer_types/EPM.md) (ependymoma) — ZFTA fusions (most commonly ZFTA–RELA) are defining events in supratentorial ependymoma (ST-EPN-RELA subtype); detected in the MAPPYACTS cohort as part of CNS-tumor molecular profiling [PMID:35292802](../papers/35292802.md).
+- [EPM](../cancer_types/EPM.md) (ependymoma) — ZFTA fusions (most commonly ZFTA–[RELA](../genes/RELA.md)) are defining events in supratentorial ependymoma (ST-EPN-RELA subtype); detected in the MAPPYACTS cohort as part of CNS-tumor molecular profiling [PMID:35292802](../papers/35292802.md).
 
 ## Co-occurrence and mutual exclusivity
 

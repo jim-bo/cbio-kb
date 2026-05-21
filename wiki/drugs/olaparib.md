@@ -12,8 +12,8 @@ tags:
   - pancreatic-cancer
   - sarcoma
   - functional-precision-medicine
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # olaparib
@@ -46,6 +46,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [RAD51B](../genes/RAD51B.md) knockdown (shRNA) in MCF-10A and MCF-12A breast epithelial cells confers increased clonogenic sensitivity to olaparib (PARP inhibitor), albeit to a lesser degree than [BRCA1](../genes/BRCA1.md) knockdown; biallelic germline RAD51B loss drives an intermediate HRD phenotype (dominant Signature 3, LST-high) predicting partial PARP inhibitor benefit. [PMID:34635660](../papers/34635660.md)
 - In a 45-patient [HGSOC](../cancer_types/HGSOC.md) cohort treated with ICIs, olaparib was part of combination ICI regimens studied alongside [durvalumab](../drugs/durvalumab.md); network curvature (Ollivier-Ricci) over CNA profiles outperformed TMB as an [OS](../cancer_types/OS.md) biomarker (log-rank p=0.00047 vs p=0.032) in this ICI-treated cohort. [PMID:34819508](../papers/34819508.md)
 - Olaparib (PARP inhibitor) received 64 treatment recommendations in MAPPYACTS for alterations in homologous recombination genes (BRCA1/2, ATM, MRE11A) in pediatric/young-adult recurrent malignancies; PARP inhibitor arms were explored in the AcSé-ESMART platform [PMID:35292802](../papers/35292802.md)
+- 10/51 (19.6%) prostate cancer brain metastasis (PCBM) patients met PROfound inclusion criteria (pathogenic HRR gene alterations) but were excluded from the PROfound olaparib trial; authors argue PCBM patients with HRR alterations could benefit from olaparib, citing prior data of PARPi CNS penetrance [PMID:35504881](../papers/35504881.md)
 
 ## Resistance mechanisms
 
@@ -69,30 +70,18 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26928463](../papers/26928463.md)
 
-- [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; PALB2 somatic mutations in 4% of mBC proposed as candidate for PARPi trials.
-- [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; olaparib + spautin-1 synergy (HSA >10, CI=0.76) in BRCA1/2-WT mCRPC cell lines and PDX.
-
+- [PMID:28027327](../papers/28027327.md)
+- [PMID:28068672](../papers/28068672.md)
 - [PMID:28336552](../papers/28336552.md)
-- [PMID:28825054](../papers/28825054.md) — Abida et al. 2017, MSK-IMPACT pan-prostate cancer profiling; 22% somatic HR-gene alteration rate and 27% combined germline+somatic DDR rate nominate olaparib candidacy.
+- [PMID:28825054](../papers/28825054.md)
 - [PMID:29713003](../papers/29713003.md)
-- [PMID:32059776](../papers/32059776.md) — Dou et al. 2020, *Cell*. CPTAC proteogenomic characterization of 95 EC tumors; CDK12 hyperphosphorylation in CNV-high EC proposed to sensitize to olaparib analogously to ovarian cancer.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:32059776](../papers/32059776.md)
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); BRCA2 OncoKB level 1 alterations in prostate cancer plasma supporting olaparib eligibility.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:34059130](../papers/34059130.md)
 - [PMID:34635660](../papers/34635660.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+- [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

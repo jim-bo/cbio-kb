@@ -15,8 +15,8 @@ unverified: true
 tags:
   - targeted-therapy
   - anti-angiogenic
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # regorafenib
@@ -32,6 +32,7 @@ Regorafenib is an oral multi-kinase inhibitor with FDA approvals in metastatic c
 - Nominated for Triple-WT melanoma subtype (14% of 318 TCGA cases) to target co-amplified PDGFRA/KDR at 4q12 alongside [imatinib](../drugs/imatinib.md), [dasatinib](../drugs/dasatinib.md), [sorafenib](../drugs/sorafenib.md), [crenolanib](../drugs/crenolanib.md), and [pazopanib](../drugs/pazopanib.md) [PMID:26091043](../papers/26091043.md)
 - Multi-kinase inhibitor (PDGFRA/KDR/KIT co-amplification); used as targeted therapy in 4 recurrent/metastatic adenoid cystic carcinoma (ACYC) patients matched by MSK-IMPACT profiling in head and neck cancer basket study [PMID:27442865](../papers/27442865.md)
 - Regorafenib (second-line TKI approved for HCC) was discussed in the systemic therapy landscape for 127 advanced [HCC](../cancer_types/HCC.md) patients at MSKCC; oncogenic PI3K-mTOR pathway alterations (n=12/79 sorafenib-evaluable patients) were associated with worse sorafenib outcomes (PFS HR 3.8, OS HR 2.5), motivating mTOR-pathway salvage strategies such as those explored in NCI-MATCH [PMID:30373752](../papers/30373752.md).
+- In a phosphoproteogenomic HCC dataset (n=122 biopsies), sorafenib/regorafenib are cited as agents with potential synergy with Aurora kinase and CDK inhibitors, which show elevated activity by KSEA in HCC versus normal liver [PMID:35508466](../papers/35508466.md)
 
 ## Resistance mechanisms
 
@@ -43,18 +44,11 @@ Regorafenib is an oral multi-kinase inhibitor with FDA approvals in metastatic c
 
 ## Sources
 
-- [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; NCCN-listed osteosarcoma activity.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30373752](../papers/30373752.md)
+- [PMID:35508466](../papers/35508466.md)
+- [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

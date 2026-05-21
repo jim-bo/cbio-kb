@@ -5,7 +5,7 @@ main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [radiation-associated-sarcoma, soft-tissue-sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-05-21
 canonical_source: oncotree
 unverified: false
 ---
@@ -28,7 +28,8 @@ Undifferentiated pleomorphic sarcoma (UPS), historically termed malignant fibrou
 - [RB1](../genes/RB1.md) truncating mutations/deletions in 14% of RT-UPS vs 19% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - [NOTCH3](../genes/NOTCH3.md) missense mutations in 14% of RT-UPS vs 4% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - RT-UPS had the highest insertion:SNV and deletion:SNV ratios among RT-sarcomas (adjusted P < 0.05) [PMID:37350195](../papers/37350195.md).
-- FGA of 25% in RT-UPS [PMID:37350195](../papers/37350195.md).
+- [FGA](../genes/FGA.md) of 25% in RT-UPS [PMID:37350195](../papers/37350195.md).
+- Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 
 ## Subtypes
 
@@ -43,4 +44,7 @@ Undifferentiated pleomorphic sarcoma (UPS), historically termed malignant fibrou
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 14 RT-UPS.
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

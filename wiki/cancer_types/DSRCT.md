@@ -24,9 +24,10 @@ Desmoplastic small-round-cell tumor is a rare, highly aggressive soft-tissue sar
 
 ## Recurrent alterations
 
-- EWSR1–WT1 fusion (canonical driver; not directly profiled in the UCLA PDTO study but defining molecular feature of the disease).
+- [EWSR1](../genes/EWSR1.md)–[WT1](../genes/WT1.md) fusion (canonical driver; not directly profiled in the UCLA PDTO study but defining molecular feature of the disease).
 - PIPseq cohort: EWSR1-WT1 fusion identified as diagnostic of desmoplastic small round cell tumor in a pediatric patient [PMID:28007021](../papers/28007021.md)
 - DSRCT was included in the MAPPYACTS pediatric precision-medicine trial (sarcomas 37% of 787 patients); WES + RNA-seq identified actionable alterations in 69% of enrolled patients with recurrent EWSR1 fusions in sarcoma oncomap [PMID:35292802](../papers/35292802.md)
+- Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 
 ## Subtypes
 
@@ -45,5 +46,8 @@ Desmoplastic small-round-cell tumor is a rare, highly aggressive soft-tissue sar
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

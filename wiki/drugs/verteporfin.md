@@ -13,7 +13,7 @@ tags:
   - CAF
   - research-tool
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: "2026-05-21"
 ---
 
 # verteporfin
@@ -25,6 +25,7 @@ Verteporfin is a benzoporphyrin derivative approved clinically for photodynamic 
 ## Evidence in the corpus
 
 - In gallbladder cancer (GBC) stroma, verteporfin abolished stiffness-induced (16 kPa) activation of cancer-associated fibroblasts (GFs), nuclear translocation of [YAP1](../genes/YAP1.md), and [SEMA7A](../genes/SEMA7A.md) secretion; ChIP confirmed TEAD1 occupancy at the SEMA7A promoter was abrogated, functionally linking YAP-TEAD activity to the stiffness-driven SEMA7A/ITGB1/AKT/p300 paracrine cascade that promotes GBC invasion and EMT [PMID:24997986](../papers/24997986.md).
+- Verteporfin (YAP/TAZ inhibitor; FDA-approved photosensitizer) preferentially inhibited proliferation of CRPC-SCL organoid models (MSKPCa3, DU145) versus CRPC-AR models (MSKPCa2, 22Rv1) in vitro; authors caution its clinical translation may be limited by YAP-independent off-target effects [PMID:35617398](../papers/35617398.md)
 
 ## Resistance mechanisms
 
@@ -34,4 +35,6 @@ Verteporfin is a benzoporphyrin derivative approved clinically for photodynamic 
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

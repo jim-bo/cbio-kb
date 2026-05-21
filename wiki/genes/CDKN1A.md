@@ -3,8 +3,8 @@ symbol: CDKN1A
 aliases: [p21]
 cancer_types: [BLCA, UTUC]
 tags: [tumor-suppressor, cell-cycle]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CDKN1A
@@ -25,9 +25,10 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 - CDKN1A A45fs truncal frameshift mutation shared between plasmacytoid and adjacent urothelial NOS components in a mixed bladder tumor, identified by multi-region sequencing [PMID:26901067](../papers/26901067.md)
 - Cell-cycle gene alterations including CDKN1A increased significantly with stage (p = 0.028) and grade (p = 0.009) across 105 nonmuscle invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)) tumors; [TP53](../genes/TP53.md)/[MDM2](../genes/MDM2.md) and cell-cycle pathway alterations ([RB1](../genes/RB1.md), [CCND1](../genes/CCND1.md), CDKN1A, [CDKN2A](../genes/CDKN2A.md)) co-enriched with stage [PMID:28583311](../papers/28583311.md)
 - placeholder
-- Recurrently mutated in UTUC at frequencies not significantly different from TCGA UCB; part of the cell-cycle gene set surveyed in the molecular characterization of upper-tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
+- Recurrently mutated in [UTUC](../cancer_types/UTUC.md) at frequencies not significantly different from TCGA UCB; part of the cell-cycle gene set surveyed in the molecular characterization of upper-tract urothelial carcinoma [PMID:31278255](../papers/31278255.md)
 - TP53/MDM2/CDKN1A knockdown sensitivities co-vary with cell-division-related protein complexes in the CCLE pan-cancer proteome (375 cancer cell lines, 42 TMT 10-plexes) [PMID:31978347](../papers/31978347.md)
-- CDKN1A (p21) protein anticorrelated with 1q-encoded histone modifiers SETDB1, SDE2, PARP1, and GATAD2B in MSI endometrial carcinoma tumors, consistent with p53-pathway suppression [PMID:32059776](../papers/32059776.md)
+- CDKN1A (p21) protein anticorrelated with 1q-encoded histone modifiers [SETDB1](../genes/SETDB1.md), SDE2, [PARP1](../genes/PARP1.md), and [GATAD2B](../genes/GATAD2B.md) in MSI endometrial carcinoma tumors, consistent with p53-pathway suppression [PMID:32059776](../papers/32059776.md)
+- Identified as a significantly mutated gene (SMG) in [HCC](../cancer_types/HCC.md), consistent with prior HCC genomic surveys, in a European multi-omic cohort (n=122 WES) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -49,40 +50,43 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 
 - [PMID:37682528](../papers/37682528.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

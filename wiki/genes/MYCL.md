@@ -18,7 +18,7 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 - Focal amplification in 8% of [SCLC](../cancer_types/SCLC.md) tumors; mutually exclusive with [MYC](../genes/MYC.md) and [MYCN](../genes/MYCN.md) amplification [PMID:22941188](../papers/22941188.md)
 - Recurrent RLF-MYCL gene fusion identified as a functional oncogene in [SCLC](../cancer_types/SCLC.md) [PMID:22941189](../papers/22941189.md)
 - Copy-number amplification confirmed as a recurrent alteration in [SCLC](../cancer_types/SCLC.md) (JHU cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
-- Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) (L-MYC); member of the [MYC](../genes/MYC.md) family amplified in SCLC alongside [MYC](../genes/MYC.md) and [MYCN](../genes/MYCN.md) [PMID:26168399](../papers/26168399.md)
+- Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) (L-MYC); member of the [MYC](../genes/MYC.md) family amplified in [SCLC](../cancer_types/SCLC.md) alongside [MYC](../genes/MYC.md) and [MYCN](../genes/MYCN.md) [PMID:26168399](../papers/26168399.md)
 - MYCL identified as a novel amplification target gene in both lung adenocarcinoma and squamous cell carcinoma in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - MYCL1 (MYCL) amplification was identified by GISTIC analysis as a recurrent focal amplification in muscle-invasive bladder cancer (MIBC), consistent with prior TCGA findings [PMID:28988769](../papers/28988769.md)
 - MYCL locus (1p34.2) focal amplification observed as an IDC-NST-private event in individual synchronous invasive breast cancer cases; amplification was restricted to the invasive component, consistent with invasive-stage acquisition during DCIS-to-IDC-NST progression [PMID:32220886](../papers/32220886.md)
@@ -26,7 +26,7 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 
 ## Cancer types (linked)
 
-- [SCLC](../cancer_types/SCLC.md): Focal amplification (8%) and RLF-MYCL gene fusion; mutually exclusive with other MYC family amplifications [PMID:22941188](../papers/22941188.md) [PMID:22941189](../papers/22941189.md)
+- [SCLC](../cancer_types/SCLC.md): Focal amplification (8%) and RLF-MYCL gene fusion; mutually exclusive with other [MYC](../genes/MYC.md) family amplifications [PMID:22941188](../papers/22941188.md) [PMID:22941189](../papers/22941189.md)
 
 ## Co-occurrence and mutual exclusivity
 

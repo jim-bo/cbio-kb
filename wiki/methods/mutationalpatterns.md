@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, bioinformatics, r-package]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MutationalPatterns
@@ -18,6 +18,7 @@ MutationalPatterns is an R/Bioconductor package for comprehensive analysis of so
 ## Used by
 
 - Used alongside SigProfiler to characterize mutational signatures in endometrial polyps (v3.4.1); identified SBS8 and SBS89 in addition to the SBS1/SBS5/SBS40 signatures called by SigProfiler [PMID:28445112](../papers/28445112.md)
+- Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for COSMIC signature decomposition in 168 prostate cancer brain metastasis samples; identified SBS3 (HRD) enrichment in PCBM vs CRPC500, and SBS1/SBS5 (aging), SBS16, SBS44 (MMR-deficiency) signatures [PMID:35504881](../papers/35504881.md)
 
 ## Notes
 
@@ -29,4 +30,7 @@ MutationalPatterns is an R/Bioconductor package for comprehensive analysis of so
 
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

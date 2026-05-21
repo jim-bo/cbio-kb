@@ -9,8 +9,8 @@ tags:
   - swi-snf
   - chromatin-remodeling
   - tumor-suppressor
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # ARID2
@@ -30,7 +30,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - ARID2 is recurrently mutated in melanoma among 121 tumors (Broad WES cohort), with mutations enriching in UV-signature contexts [PMID:22817889](../papers/22817889.md)
 - ARID2 is significantly mutated in a Yale melanoma WES cohort of 147 tumors, independently validating its role as a melanoma driver affecting the SWI/SNF complex [PMID:22842228](../papers/22842228.md)
 - Somatically mutated in pancreatic cancer (ICGC WES, 142 tumors); ARID2 loss-of-function mutations identified among significantly mutated genes in the SWI/SNF chromatin-remodeling complex [PMID:23103869](../papers/23103869.md)
-- Chromatin-remodeling SWI/SNF complex member mutated in EAC ([esca_broad](../datasets/esca_broad.md)); part of the 24% of EACs with SWI/SNF alterations (including [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) [PMID:23525077](../papers/23525077.md)
+- Chromatin-remodeling SWI/SNF complex member mutated in [EAC](../cancer_types/EAC.md) ([esca_broad](../datasets/esca_broad.md)); part of the 24% of EACs with SWI/SNF alterations (including [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) [PMID:23525077](../papers/23525077.md)
 - Mutated SWI/SNF complex member in [ESCC](../cancer_types/ESCC.md); identified as significantly mutated in 139 paired [ESCC](../cancer_types/ESCC.md) tumor/germline samples [PMID:24686850](../papers/24686850.md)
 - Chromatin remodeling driver identified by NGS in [HCC](../cancer_types/HCC.md); listed among the newly identified [HCC](../cancer_types/HCC.md) driver genes alongside [ARID1A](../genes/ARID1A.md) [PMID:24735922](../papers/24735922.md)
 - Loss-of-function mutation in 7% (range 3–10%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
@@ -41,19 +41,20 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - One of the most frequent SWI/SNF chromatin-remodelling alterations in periampullary adenocarcinomas (AMPAC, DUOAC, CAC); equally distributed across the three tumour types [PMID:26804919](../papers/26804919.md)
 - Newly nominated glioma driver (n=20 mutations) in a pan-glioma WGS/WES cohort of 1,122 diffuse gliomas; classified as a chromatin-modification gene [PMID:26824661](../papers/26824661.md)
 - ARID2, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); mutations generally mutually exclusive within the complex [PMID:26878173](../papers/26878173.md)
-- Inactivating mutations identified in lung adenocarcinoma by pan-lung WES (TCGA); part of the SWI/SNF chromatin-remodeling complex altered in NSCLC [PMID:27158780](../papers/27158780.md)
+- Inactivating mutations identified in lung adenocarcinoma by pan-lung WES (TCGA); part of the SWI/SNF chromatin-remodeling complex altered in [NSCLC](../cancer_types/NSCLC.md) [PMID:27158780](../papers/27158780.md)
 - ARID2 among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations present in 56.3% of cases overall) [PMID:27776115](../papers/27776115.md)
-- ARID2 is a SWI/SNF subunit mutated in medulloblastoma; together with SMARCA4 and ARID1A, SWI/SNF subunits are altered in 33% of WNT MBs, providing rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
+- ARID2 is a SWI/SNF subunit mutated in medulloblastoma; together with [SMARCA4](../genes/SMARCA4.md) and [ARID1A](../genes/ARID1A.md), SWI/SNF subunits are altered in 33% of WNT MBs, providing rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
 - ARID2 cited as an essential PBAF-complex component whose loss (in mouse models) sensitizes tumor cells to T-cell-mediated killing, supporting a PBAF-wide immune-priming mechanism in ccRCC [PMID:29301960](../papers/29301960.md).
 - [ARID2](../genes/ARID2.md) is a SWI/SNF member altered in ~5% of 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)), enriched in ETS-fusion-negative tumors alongside [ARID1A](../genes/ARID1A.md), [ARID4A](../genes/ARID4A.md), and [SMARCA1](../genes/SMARCA1.md). [PMID:29610475](../papers/29610475.md)
-- PBAF SWI/SNF member; loss-of-function enriched in immunotherapy responders (CR/PR) across multiple histologies alongside PBRM1, in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
+- PBAF SWI/SNF member; loss-of-function enriched in immunotherapy responders (CR/PR) across multiple histologies alongside [PBRM1](../genes/PBRM1.md), in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 - ARID2 SWI/SNF-complex loss-of-function more often acquired post-endocrine-therapy than pre-treatment in matched pairs of HR+HER2- breast cancer [PMID:30205045](../papers/30205045.md)
-- ARID2 mutated in 7% of gallbladder carcinoma overall but entirely absent in Chilean patients; co-occurrence trend with TERT noted [PMID:30427539](../papers/30427539.md)
+- ARID2 mutated in 7% of gallbladder carcinoma overall but entirely absent in Chilean patients; co-occurrence trend with [TERT](../genes/TERT.md) noted [PMID:30427539](../papers/30427539.md)
 - ARID2 identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); SWI/SNF chromatin-remodeling complex member [PMID:30687805](../papers/30687805.md)
-- ARID2 identified as a significantly mutated driver gene in cHCC-ICC (dNdScv q < 0.1); mutated as part of the SWI/SNF complex (with ARID1A, PBRM1, BRD7) in 19.5% of cases; focal deletion/loss in 25% [PMID:31130341](../papers/31130341.md)
+- ARID2 identified as a significantly mutated driver gene in cHCC-ICC (dNdScv q < 0.1); mutated as part of the SWI/SNF complex (with ARID1A, PBRM1, [BRD7](../genes/BRD7.md)) in 19.5% of cases; focal deletion/loss in 25% [PMID:31130341](../papers/31130341.md)
 - ARID2 (SWI-SNF epigenetic regulator) harbors somatic mutations p.E1670K, p.Q1591*, p.A18V, p.L202S, p.P1392L across normal melanocytes from 4 donors (4, 6, 7, 13) in a study of UV-induced mutation landscape of normal skin [PMID:33029006](../papers/33029006.md)
-- Mutated in 27.7% of CSCC tumors; SWI/SNF chromatin-remodeling subunit; part of the 38.6% SWI/SNF-pathway mutation frequency in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
-- Assessed at >=2% frequency in a 514-sample LUAD pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
+- Mutated in 27.7% of [CSCC](../cancer_types/CSCC.md) tumors; SWI/SNF chromatin-remodeling subunit; part of the 38.6% SWI/SNF-pathway mutation frequency in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
+- Assessed at >=2% frequency in a 514-sample [LUAD](../cancer_types/LUAD.md) pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
+- ARID2 mutated in ≥3 HCCs in the Chinese proteogenomics cohort (n=159); analyzed for clinicopathological correlation [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -82,90 +83,93 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
 - [PMID:27776115](../papers/27776115.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33029006](../papers/33029006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

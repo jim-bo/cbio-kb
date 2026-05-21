@@ -3,8 +3,8 @@ symbol: MAPK1
 aliases: [ERK2]
 cancer_types: [BRAF-fusion, CRC]
 tags: [MAPK-pathway, kinase, co-mutation]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MAPK1
@@ -23,8 +23,9 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 - MAPK1 (ERK2) amplification raises the proportion of lung ADCs with a candidate Ras/Raf/RTK pathway driver to 76% in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - Mutation in a recurrent/metastatic head and neck cancer patient guided treatment with an ERK inhibitor on a single-patient IND basis [PMID:27442865](../papers/27442865.md)
 - MAPK1 — located on 22q11.21-q11.23; co-deleted in 77% of SWNTS-SWNs with coordinated expression loss, proposed as an additional contributor to schwannomatosis pathogenesis [PMID:33025139](../papers/33025139.md)
-- Kinase activity elevated in pediatric high-grade glioma (HGG) vs low-grade glioma (LGG) by phosphoproteomic analysis; supports MEK-inhibitor sensitivity prediction; downstream of MEK in the MAPK pathway. [PMID:33242424](../papers/33242424.md)
-- In GBM ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md)), MAPK3 (ERK1) protein and phosphorylation are elevated in TP53-mutant tumors; MAPK1 (ERK2) likewise upregulated as part of DNA-repair phosphosite upregulation in TP53-mutant GBM [PMID:33577785](../papers/33577785.md)
+- Kinase activity elevated in pediatric high-grade glioma (HGG) vs low-grade glioma ([LGG](../cancer_types/LGG.md)) by phosphoproteomic analysis; supports MEK-inhibitor sensitivity prediction; downstream of MEK in the MAPK pathway. [PMID:33242424](../papers/33242424.md)
+- In [GBM](../cancer_types/GBM.md) ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md)), [MAPK3](../genes/MAPK3.md) (ERK1) protein and phosphorylation are elevated in TP53-mutant tumors; MAPK1 (ERK2) likewise upregulated as part of DNA-repair phosphosite upregulation in TP53-mutant GBM [PMID:33577785](../papers/33577785.md)
+- Kinase with increased activity by KSEA (kinase-substrate enrichment analysis) in [HCC](../cancer_types/HCC.md) vs normal liver in a European proteogenomic cohort (n=122); flagged as a targetable kinase alongside [AURKA](../genes/AURKA.md) and CDK1/2/5; no detected alterations in MAPK1 at DNA level in this cohort [PMID:35508466](../papers/35508466.md).
 
 ## Cancer types (linked)
 
@@ -46,31 +47,34 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26551667](../papers/26551667.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33242424](../papers/33242424.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

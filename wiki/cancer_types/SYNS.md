@@ -9,14 +9,14 @@ tags:
   - SS18-SSX
   - AYA
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-21
 ---
 
 # Synovial Sarcoma (SYNS)
 
 ## Overview
 
-Synovial sarcoma is a malignant soft-tissue sarcoma defined by the SS18–SSX1/2/4 chromosomal translocation t(X;18), classified under Soft Tissue Sarcoma in OncoTree (parent: SOFT_TISSUE). It predominates in adolescents and young adults (AYA), most commonly in the extremities, and accounts for ~5–10% of all soft-tissue sarcomas.
+Synovial sarcoma is a malignant soft-tissue sarcoma defined by the [SS18](../genes/SS18.md)–SSX1/2/4 chromosomal translocation t(X;18), classified under Soft Tissue Sarcoma in OncoTree (parent: SOFT_TISSUE). It predominates in adolescents and young adults (AYA), most commonly in the extremities, and accounts for ~5–10% of all soft-tissue sarcomas.
 
 ## Cohorts in the corpus
 
@@ -27,6 +27,7 @@ Synovial sarcoma is a malignant soft-tissue sarcoma defined by the SS18–SSX1/2
 
 - SS18–SSX1/SSX2/SSX4 fusion (canonical driver, t(X;18)(p11.2;q11.2)): not directly genotyped in this study.
 - Relatively normal karyotype: SYNS clusters with [MRLS](../cancer_types/MRLS.md) and [GIST](../cancer_types/GIST.md) as low-complexity subtypes by copy-number analysis in the seven-subtype cohort. [PMID:20601955](../papers/20601955.md)
+- Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 
 ## Subtypes
 
@@ -44,4 +45,7 @@ Synovial sarcoma is a malignant soft-tissue sarcoma defined by the SS18–SSX1/2
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

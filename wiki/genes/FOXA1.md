@@ -30,16 +30,17 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - [AR](../genes/AR.md) pathway regulator in mCRPC; FOXA1 mutations cluster near the end of the Forkhead DNA-binding domain [PMID:26000489](../papers/26000489.md)
 - Recurrent fork-head W2-region mutations (I176, D226 spatial hotspot) in [ILC](../cancer_types/ILC.md) (7%); mutations associated with increased FOXA1 mRNA expression, suggesting activating rather than loss-of-function mechanism; mutually exclusive with [GATA3](../genes/GATA3.md) mutations [PMID:26451490](../papers/26451490.md)
 - Mutated in 3-4% of primary prostate cancers; missense mutations cluster in the winged-helix DNA-binding domain but not at DNA-contact residues; mutually exclusive with most other subtype-defining alterations; FOXA1-mutant tumors have elevated [AR](../genes/AR.md) transcriptional output [PMID:26544944](../papers/26544944.md)
-- [AR](../genes/AR.md) co-activator alterations (including FOXA1, [NCOR1](../genes/NCOR1.md), [NCOR2](../genes/NCOR2.md), [ZBTB16](../genes/ZBTB16.md)) enriched in CRPC-Adeno (21 cases) vs. CRPC-NE; FOXA1 alterations support retained AR signaling axis in adenocarcinoma subtype [PMID:26855148](../papers/26855148.md)
+- [AR](../genes/AR.md) co-activator alterations (including FOXA1, [NCOR1](../genes/NCOR1.md), [NCOR2](../genes/NCOR2.md), [ZBTB16](../genes/ZBTB16.md)) enriched in CRPC-Adeno (21 cases) vs. CRPC-NE; FOXA1 alterations support retained [AR](../genes/AR.md) signaling axis in adenocarcinoma subtype [PMID:26855148](../papers/26855148.md)
 - Enriched in earlier disease states alongside [SPOP](../genes/SPOP.md) in prostate cancer (defining a possibly androgen-deprivation-sensitive subset); also noted as a context gene in disease-state enrichment analyses; locoregional frequency higher than TCGA due to selection bias toward aggressive disease in the MSK-IMPACT cohort (n=451 patients) [PMID:28825054](../papers/28825054.md)
 - Strongly expressed in luminal subtypes of MIBC; identified as a luminal driver by regulon analysis; co-driver alongside [GATA3](../genes/GATA3.md) and [PPARG](../genes/PPARG.md) in the luminal transcriptional program [PMID:28988769](../papers/28988769.md)
-- Confirmed established prostate cancer driver; significantly enriched in metastatic vs primary [PRAD](../cancer_types/PRAD.md) tumors in the 1,013-sample WES meta-cohort ([prad_p1000](../datasets/prad_p1000.md)); tumors lacking ETS fusion, [IDH1](../genes/IDH1.md), SPOP, [CUL3](../genes/CUL3.md), and FOXA1 alterations are enriched for epigenetic-regulator mutations (p=0.007). [PMID:29610475](../papers/29610475.md)
+- Confirmed established prostate cancer driver; significantly enriched in metastatic vs primary [PRAD](../cancer_types/PRAD.md) tumors in the 1,013-sample WES meta-cohort ([prad_p1000](../datasets/prad_p1000.md)); tumors lacking ETS fusion, [IDH1](../genes/IDH1.md), [SPOP](../genes/SPOP.md), [CUL3](../genes/CUL3.md), and FOXA1 alterations are enriched for epigenetic-regulator mutations (p=0.007). [PMID:29610475](../papers/29610475.md)
 - Forkhead-domain hotspot mutations with histology-specific allele distribution in HR+ breast cancer: lobular tumors on wing 2, ductal tumors on wing 1; classified as a transcription-factor endocrine-resistance lesion [PMID:30205045](../papers/30205045.md)
 - In metastatic castration-resistant prostate cancer (mCRPC), FOXA1 is recurrently altered and mutually exclusive with [ERG](../genes/ERG.md) fusions; it was not independently prognostic for overall survival or time on first-line ARSI in this 429-patient cohort [PMID:31061129](../papers/31061129.md).
 - Mutated more frequently in CDK12-biallelic prostate cancer vs CDK12-WT in a pan-cancer MSK-IMPACT cohort (N=26,743; 1,875 prostate cases) [PMID:32317181](../papers/32317181.md)
 - FOXA1 class-1 forkhead-domain mutations enriched in Asian-ancestry prostate cancer patients (21% Asian vs 8% White; adjusted difference +15 pp, 95% CI 6 to 26) in an MSK-IMPACT cohort of 2,069 prostate tumors; overall FOXA1 alteration rate 27% Asian vs 13% White. [PMID:34667026](../papers/34667026.md)
-- Mutations negatively correlated with metastatic burden in PRAD; enriched in lobular breast cancer liver metastases (3% primary vs 33% liver met, q=0.02), suggesting distinct roles in prostate vs breast cancer metastatic biology [PMID:35120664](../papers/35120664.md)
+- Mutations negatively correlated with metastatic burden in [PRAD](../cancer_types/PRAD.md); enriched in lobular breast cancer liver metastases (3% primary vs 33% liver met, q=0.02), suggesting distinct roles in prostate vs breast cancer metastatic biology [PMID:35120664](../papers/35120664.md)
 - FOXA1 amplification was present in matched clinical samples but lost in derived PDX (MSK304B), which instead gained [MYCL](../genes/MYCL.md) amplification, illustrating genomic drift during PDX engraftment in an MSK [SCLC](../cancer_types/SCLC.md) biobank study. [PMID:35440124](../papers/35440124.md)
+- Co-top transcription factor with AR in CRPC-AR subtype; identified as a key TF in chromatin-based molecular subtyping of metastatic CRPC across 22 patient-derived organoids, 6 PDXs, and 12 cell lines [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
@@ -118,5 +119,8 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

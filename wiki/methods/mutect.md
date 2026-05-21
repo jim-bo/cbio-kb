@@ -43,7 +43,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic mutation detection across 820 TCGA diffuse glioma exomes [PMID:26824661](../papers/26824661.md)
 - MuTect used for somatic SNV detection in 114 metastatic CRPC biopsies (81 patients); confirmed [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) as top altered genes distinguishing CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
 - Used for somatic mutation calling in the discovery cohort of 6 plasmacytoid-variant bladder tumors profiled by whole-exome sequencing. [PMID:26901067](../papers/26901067.md)
-- Used for somatic mutation calling on WES data from 141 tumors (56 men) with metastatic CRPC ([prad_fhcrc](../datasets/prad_fhcrc.md) cohort); identified [AR](../genes/AR.md), TP53, RB1, and MSH2/MSH6 driver mutations across metastatic sites. [PMID:26928463](../papers/26928463.md)
+- Used for somatic mutation calling on WES data from 141 tumors (56 men) with metastatic CRPC ([prad_fhcrc](../datasets/prad_fhcrc.md) cohort); identified [AR](../genes/AR.md), [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), and MSH2/MSH6 driver mutations across metastatic sites. [PMID:26928463](../papers/26928463.md)
 - Used for SNV calling in 619 CRC FFPE tumor/normal pairs alongside Indelocator (indels) and Strelka (concordant indel filtering) [PMID:27149842](../papers/27149842.md)
 - Used for somatic mutation calling in 1,144 [NSCLC](../cancer_types/NSCLC.md) (660 ADC + 484 SqCC) tumor/normal exome pairs in the pan-lung landscape study [PMID:27158780](../papers/27158780.md)
 - Used (panel-of-normals filtering analogous to MuTect) for somatic mutation calling in 2,433 primary breast tumours from the METABRIC cohort targeted-sequencing study [PMID:27161491](../papers/27161491.md)
@@ -67,7 +67,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Applied for somatic mutation calling in the MSK IMPACT neoantigen study cohort [PMID:29657128](../papers/29657128.md)
 - Used for somatic SNV calling in the pan-cancer MSI analysis pipeline applied to 11,139 whole-exome tumor-normal pairs [PMID:29850653](../papers/29850653.md)
 - Used for somatic SNV calling in the uniform reanalysis of 249 MSS tumor/normal WES samples from seven ICB cohorts; combined with Strelka (indels), Oncotator (annotation), and ABSOLUTE (clonality) [PMID:30150660](../papers/30150660.md)
-- MuTect v1.1.7 used for somatic SNV calling from whole-exome sequencing of 622 [AML](../cancer_types/AML.md) specimens in the Beat AML study [PMID:30333627](../papers/30333627.md)
+- MuTect v1.1.7 used for somatic SNV calling from whole-exome sequencing of 622 [AML](../cancer_types/AML.md) specimens in the Beat [AML](../cancer_types/AML.md) study [PMID:30333627](../papers/30333627.md)
 - Used for somatic SNV/indel calling in the pan-Asia cHCC-ICC WES/WGS study (133 cases); variant calls subsequently annotated by [annovar](../methods/annovar.md) and analyzed with [mutsigcv](../methods/mutsigcv.md) and dNdScv [PMID:31130341](../papers/31130341.md)
 - Part of the consensus SNV-calling pipeline in the high-grade [UTUC](../cancer_types/UTUC.md) study (37 tumor-normal pairs), used together with [strelka](../methods/strelka.md) and [varscan](../methods/varscan.md); variants annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
 - One of three core SNV/indel variant callers (Broad) in the PCAWG pan-cancer WGS study (n=2,658 tumors, 38 tumor types); consensus calls with Sanger and DKFZ pipelines achieved 95% sensitivity and 95% precision for SNVs [PMID:32025007](../papers/32025007.md).
@@ -75,7 +75,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - MuTect2 v4.1.2.0 used to call somatic SNVs in reprocessed WES/WGS data from 88 [CSCC](../cancer_types/CSCC.md) tumors aligned with BWA-MEM to hg19; annotated with Funcotator v4.1.2.0 [PMID:34272401](../papers/34272401.md)
 - MuTect used alongside [VarDict](../methods/vardict.md) for SNV/indel calling in cfDNA from 681 plasma samples in the MSK-ACCESS analytical validation and prospective clinical cohort [PMID:34145282](../papers/34145282.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
-- MuTect used for somatic SNV calling in MSK-IMPACT sequencing of 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX and 26 clinical samples in MSK SCLC model resource [PMID:35440124](../papers/35440124.md).
+- MuTect used for somatic SNV calling in MSK-IMPACT sequencing of 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX and 26 clinical samples in MSK [SCLC](../cancer_types/SCLC.md) model resource [PMID:35440124](../papers/35440124.md).
+- Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for somatic SNV calling from WES of 168 prostate cancer brain metastasis samples (Agilent SureSelectXT V7, Illumina NovaSeq6000, ~258× target coverage) [PMID:35504881](../papers/35504881.md)
+- Used in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline for somatic SNV detection from whole-genome sequencing in 114 pediatric/AYA solid tumor patients (Illumina NovaSeq 6000, PE150, median 95× tumor depth) [PMID:35585047](../papers/35585047.md)
 
 ## Notes
 
@@ -243,5 +245,11 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

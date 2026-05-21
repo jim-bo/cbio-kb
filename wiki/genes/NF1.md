@@ -1,7 +1,7 @@
 ---
 symbol: NF1
 aliases: []
-cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
+cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC, LGSOC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
 processed_by: crosslinker
 processed_at: 2026-05-21
@@ -63,7 +63,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 inactivating mutations associated with shorter breast cancer-specific survival in ER- tumours (HR=2.7) in 2,433-tumor whole-genome/exome sequencing study [PMID:27161491](../papers/27161491.md)
 - Interesting structural variant identified in salivary duct carcinoma ([SDCA](../cancer_types/SDCA.md)) [PMID:27442865](../papers/27442865.md)
 - Germline (3%) and somatic NF1 mutations in pheochromocytoma/paraganglioma; 17q11.2 focal deletion present in 95% of NF1-mutated tumors; an NF1–RAB11FIP4 underexpressed fusion was also identified [PMID:28162975](../papers/28162975.md)
-- Truncating mutations and deletions in 16 [LUAD](../cancer_types/LUAD.md) patients (level 4); enriched in TCGA LUAD cohort vs MSK clinical cohort (8.3% vs 2%, p<0.001) [PMID:28336552](../papers/28336552.md)
+- Truncating mutations and deletions in 16 [LUAD](../cancer_types/LUAD.md) patients (level 4); enriched in TCGA [LUAD](../cancer_types/LUAD.md) cohort vs MSK clinical cohort (8.3% vs 2%, p<0.001) [PMID:28336552](../papers/28336552.md)
 - Homozygous loss in 9% (3/34) of acral melanoma patients; additionally LOH plus nonsense mutation E2578* in one further patient; NF1-subtype tumors were BRAF/NRAS wild-type with co-occurring [PAK1](../genes/PAK1.md) copy gains [PMID:28373299](../papers/28373299.md)
 - Mutated in 4/19 (21%; F1247Ifs*18, F1455Lfs*9, F2386, K2595Sfs*5) in 1p/19q-codeleted anaplastic oligodendroglioma; also found in 1p/19q-intact glioblastoma-like tumors; none of the individual mutations were predictive of PFS or [OS](../cancer_types/OS.md) in this small NGS subset [PMID:28472509](../papers/28472509.md)
 - Most commonly fused tumor suppressor in MET500 500-patient metastatic cancer cohort (n=18 fusion events) [PMID:28783718](../papers/28783718.md)
@@ -80,7 +80,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
 - Late/subclonal mutation in metastatic breast cancer detected in cfDNA as vault-origin-unknown (VUSo) variant not captured by single biopsy; illustrates tumor-heterogeneity confounding in ctDNA interpretation [PMID:31768066](../papers/31768066.md)
 - Mutated in 17% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside [BRAF](../genes/BRAF.md) and [NRAS](../genes/NRAS.md) [PMID:31792460](../papers/31792460.md)
-- MAPK pathway alterations via NF1 loss in 17% of [GBM](../cancer_types/GBM.md) PDX (n=84); co-occurs with BRAF alterations (4%) as alternative MAPK pathway activators in GBM [PMID:31852831](../papers/31852831.md)
+- MAPK pathway alterations via NF1 loss in 17% of [GBM](../cancer_types/GBM.md) PDX (n=84); co-occurs with [BRAF](../genes/BRAF.md) alterations (4%) as alternative MAPK pathway activators in [GBM](../cancer_types/GBM.md) [PMID:31852831](../papers/31852831.md)
 - Alterations in 4/41 (9.8%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- [MBC](../cancer_types/MBC.md) biopsies; potentially funnels into MAPK-pathway CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 - Germline driver of neurofibromatosis; somatic biallelic inactivation (e.g. 50% copy ratio at chromosome 17 NF1 locus) is the signature alteration tracked across tumor/cell line/PDX; NF1 mutations reduced cognate protein and phosphosite abundance [PMID:32561749](../papers/32561749.md)
 - NF1 mutations in LUAD (CPTAC n=110) reduced cognate protein and phosphosite abundance; RBM10/NF1 mutations both showed this pattern suggesting post-transcriptional regulation [PMID:32649874](../papers/32649874.md)
@@ -94,10 +94,11 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Alterations in 1.7% of 412 intrahepatic cholangiocarcinoma tumors ([ihch_msk_2021](../datasets/ihch_msk_2021.md)); contributes to RTK/RAS pathway alterations present in 48% of the cohort [PMID:33765338](../papers/33765338.md)
 - NF1 enriched in cfDNA relative to tissue in breast cancer patients profiled by MSK-ACCESS cfDNA assay [PMID:34145282](../papers/34145282.md)
 - Assessed at ≥2% frequency in clinical-stage I/II [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status [PMID:34290393](../papers/34290393.md).
-- NF1 biallelic loss-of-function (truncating mutations, deep deletions, intragenic inversions) found in 8% of metastatic vs 4% of primary HER2-amplified breast tumors (n=733); the most common MAPK alteration; sufficient to confer resistance to lapatinib/neratinib/tucatinib and MEK hypersensitivity (~57-fold [trametinib](../drugs/trametinib.md) sensitization in shNF1 SKBR3). In vivo: BT-474 shNF1 xenografts show 37% growth inhibition with trametinib (p=0.0059); HER2+/NF1-null PDX shows 70% inhibition with trametinib monotherapy (p<0.001). [PMID:34795269](../papers/34795269.md)
-- NF1 mutations more frequent in [SKCM](../cancer_types/SKCM.md) lung metastases vs. SKCM primary tumors (20% vs 38%, q=0.003) in the MSK-MET pan-cancer cohort (25,775 patients) [PMID:35120664](../papers/35120664.md)
+- NF1 biallelic loss-of-function (truncating mutations, deep deletions, intragenic inversions) found in 8% of metastatic vs 4% of primary HER2-amplified breast tumors (n=733); the most common MAPK alteration; sufficient to confer resistance to lapatinib/neratinib/tucatinib and MEK hypersensitivity (~57-fold [trametinib](../drugs/trametinib.md) sensitization in shNF1 SKBR3). In vivo: BT-474 shNF1 xenografts show 37% growth inhibition with [trametinib](../drugs/trametinib.md) (p=0.0059); HER2+/NF1-null PDX shows 70% inhibition with trametinib monotherapy (p<0.001). [PMID:34795269](../papers/34795269.md)
+- NF1 mutations more frequent in [SKCM](../cancer_types/SKCM.md) lung metastases vs. [SKCM](../cancer_types/SKCM.md) primary tumors (20% vs 38%, q=0.003) in the MSK-MET pan-cancer cohort (25,775 patients) [PMID:35120664](../papers/35120664.md)
 - NF1 pathogenic mutations (n=2) classified ready-for-routine-use; broader investigational role identified in [MPNST](../cancer_types/MPNST.md) and low-grade glioma (n=33 deleterious events total) in the MAPPYACTS relapsed pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
-- NF1 alterations referenced among recurrent CNS oncomap events in the MAPPYACTS pediatric [SCLC](../cancer_types/SCLC.md) subtype characterization study across 26 clinical and 42 PDX/CDX SCLC models [PMID:35440124](../papers/35440124.md)
+- NF1 alterations referenced among recurrent CNS oncomap events in the MAPPYACTS pediatric [SCLC](../cancer_types/SCLC.md) subtype characterization study across 26 clinical and 42 PDX/CDX [SCLC](../cancer_types/SCLC.md) models [PMID:35440124](../papers/35440124.md)
+- NF1 singleton/rare MAPK pathway alteration in 2/119 [LGSOC](../cancer_types/LGSOC.md) patients (low-grade serous ovarian carcinoma) on MSK-IMPACT panel; contributes to the 60% overall MAPK pathway alteration rate associated with improved [OS](../cancer_types/OS.md) (multivariate HR 2.5, p=0.019) [PMID:35443055](../papers/35443055.md)
 
 ## Cancer types (linked)
 
@@ -224,5 +225,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: EPHA2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # EPHA2
@@ -16,6 +16,7 @@ EPHA2 (Ephrin Type-A Receptor 2) is a receptor tyrosine kinase of the EPH family
 ## Alterations observed in the corpus
 
 - Candidate RTK alteration across HPV groups in HNSCC (Fig. 3) [PMID:25631445](../papers/25631445.md)
+- Truncal mutation identified in matched primary/metastasis lineage illustrating clonal evolution in prostate cancer brain metastases (PCBM); EPHA2 truncal with [KMT2C](../genes/KMT2C.md) and [ZFHX3](../genes/ZFHX3.md) in patient P4 [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ EPHA2 (Ephrin Type-A Receptor 2) is a receptor tyrosine kinase of the EPH family
 
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

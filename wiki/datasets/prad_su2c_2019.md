@@ -9,8 +9,8 @@ unverified: false
 assays: [bulk-rna-seq, whole-genome-seq]
 panels: []
 tags: [prostate-cancer, prad, metastatic-castration-resistant, su2c, neuroendocrine]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Prostate Cancer (SU2C/PCF Dream Team, 2019)
@@ -32,26 +32,36 @@ Multi-institutional metastatic castration-resistant prostate cancer (mCRPC) coho
 ## Papers using this cohort
 
 - [PMID:38488813](../papers/38488813.md) — Integrative Molecular Analyses of the MD Anderson Prostate Cancer Patient-derived Xenograft (MDA PCa PDX) Series.
+- [PMID:35504881](../papers/35504881.md) — Rodriguez-Calero et al., *Nat Commun* 2022: prostate cancer brain metastases (Swiss cohort); used as non-brain-mCRPC comparator.
+- [PMID:35617398](../papers/35617398.md) — Tang et al., *Science* 2022: four chromatin-defined CRPC subtypes; RNA-seq classification applied to n=266 SU2C samples.
 
 ## Notable findings derived from this cohort
 
 - DDR-associated gene expression pattern concordant with morphologic classification confirmed in SU2C dataset; NEPC samples exhibited elevated [MYCN](../genes/MYCN.md) and/or [AURKA](../genes/AURKA.md) expression. [PMID:38488813](../papers/38488813.md)
 - Three [FGFR1](../genes/FGFR1.md) downstream genes (NRP2, LRP4, TGFBI) preferentially expressed in bone metastases in the SU2C dataset. [PMID:38488813](../papers/38488813.md)
-- Referenced for USP10 deep deletion frequency (~10%) in metastatic castration-resistant prostate cancer, used to contextualize the therapeutic vulnerability of the USP10–TRMT10A axis [PMID:28068672](../papers/28068672.md)
-- Used (SU2C/PCF Dream Team 2019, n=266 polyA RNA-seq samples) for cross-cohort correlation of the NOL10 cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score, and for combined NOL10+USF1 ROC survival analyses [PMID:28927585](../papers/28927585.md).
-- 429-patient mCRPC cohort (444 biopsied tumors) sequenced by WES and RNA-seq; deposited as this dataset on cBioPortal and GitHub; RB1 alteration was independently associated with shorter overall survival (RR 3.31) and shorter time on first-line ARSI (RR 6.56) in a 128-patient first-line ARSI subset [PMID:31061129](../papers/31061129.md)
+- Referenced for [USP10](../genes/USP10.md) deep deletion frequency (~10%) in metastatic castration-resistant prostate cancer, used to contextualize the therapeutic vulnerability of the USP10–[TRMT10A](../genes/TRMT10A.md) axis [PMID:28068672](../papers/28068672.md)
+- Used (SU2C/PCF Dream Team 2019, n=266 polyA RNA-seq samples) for cross-cohort correlation of the [NOL10](../genes/NOL10.md) cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score, and for combined NOL10+[USF1](../genes/USF1.md) ROC survival analyses [PMID:28927585](../papers/28927585.md).
+- 429-patient mCRPC cohort (444 biopsied tumors) sequenced by WES and RNA-seq; deposited as this dataset on cBioPortal and GitHub; [RB1](../genes/RB1.md) alteration was independently associated with shorter overall survival (RR 3.31) and shorter time on first-line ARSI (RR 6.56) in a 128-patient first-line ARSI subset [PMID:31061129](../papers/31061129.md)
+- Used as comparator mCRPC cohort (CRPC500, n=411 metastases) for elevated mutation burden and HRD-signature enrichment in prostate cancer brain metastases versus non-brain mCRPC (SNVs q=2.38×10⁻¹⁹) [PMID:35504881](../papers/35504881.md)
+- Applied (n=266 polyA RNA-seq samples from SU2C) for cross-cohort classification of CRPC chromatin subtypes (CRPC-AR, CRPC-NE, CRPC-WNT, CRPC-SCL); CRPC-SCL was second-most-common (~28%) and associated with shorter time on next-generation ARSIs [PMID:35617398](../papers/35617398.md)
 
 ## Sources
 
 - cBioPortal study `prad_su2c_2019` [PMID:38488813](../papers/38488813.md).
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28068672](../papers/28068672.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28927585](../papers/28927585.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

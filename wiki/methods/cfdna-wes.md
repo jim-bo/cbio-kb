@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [liquid-biopsy, cfDNA, whole-exome-seq, ctDNA]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -18,6 +18,7 @@ Cell-free DNA whole-exome sequencing (cfDNA-WES) is a liquid-biopsy approach tha
 ## Used by
 
 - MAPPYACTS precision-oncology trial (NCT02613962): plasma WES at 100× depth attempted in 234 extracerebral pediatric solid-tumor patients; 128/190 (67%) analyzable with paired tumor WES — 76% of tumor actionable SNVs also detected in plasma; 14 patients had 35 additional actionable SNVs detected only by cfDNA-WES, including an [ALK](../genes/ALK.md) p.Arg1275Gln detected only in plasma [PMID:35292802](../papers/35292802.md).
+- Proof-of-concept companion analysis: 7 paired fresh-frozen tumor + plasma cfDNA samples processed through whole-genome sequencing (94–102× coverage) for feasibility of cfDNA-based comprehensive genomic profiling in pediatric/AYA cancers [PMID:35585047](../papers/35585047.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ Cell-free DNA whole-exome sequencing (cfDNA-WES) is a liquid-biopsy approach tha
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

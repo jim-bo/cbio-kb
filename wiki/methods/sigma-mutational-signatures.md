@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, hrd, cosmic, targeted-sequencing, genomics]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # SigMA (Mutational Signatures)
@@ -22,6 +22,7 @@ SigMA is a computational tool for detecting mutational signatures — in particu
 - [PMID:39975212](../papers/39975212.md) — mutational signature decomposition (SigProfilerAssignment v0.1.8 against COSMIC v3.4) applied to 297 clonally expanded single melanocytes; UV-attributable SBS7 (sum of SBS7a–d) dominated HighMut cells while clock-like SBS1/SBS5 dominated LowMut cells; signature fractions were compared by Wilcoxon rank-sum (p<0.0001) [PMID:39975212](../papers/39975212.md).
 - Used to infer mutational signatures in 3 juvenile papillomatosis (JP) lesions, detecting a shift from aging-related Signature 5 to APOBEC Signature 2 during JP-to-DCIS-to-IDC-NST progression [PMID:33263939](../papers/33263939.md)
 - Applied alongside [DeconstructSigs](../methods/deconstructsigs.md) for mutational signature analysis in 38 WES-profiled metaplastic breast cancers; dominant signatures were COSMIC 3/8 (HRD) in 60% and aging signatures 1/5 in 34% of cases; no significant signature differences between TERT-altered and TERT-WT MBCs [PMID:33863915](../papers/33863915.md)
+- SigMA (Signature Multivariate Analysis) used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) to detect HRD signature in PCBM; HRD signature significantly more represented in PCBM vs CRPC500 non-brain metastases (q=0.041) and in PCBM primaries vs TCGA (q=0.0003) [PMID:35504881](../papers/35504881.md)
 
 ## Notes
 
@@ -36,9 +37,12 @@ SigMA is a computational tool for detecting mutational signatures — in particu
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33263939](../papers/33263939.md)
 
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

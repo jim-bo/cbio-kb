@@ -1,7 +1,7 @@
 ---
 symbol: NEUROD1
 aliases: []
-cancer_types: [BRAIN, DIFG, AST]
+cancer_types: [BRAIN, DIFG, AST, PRAD]
 tags: [transcription-factor, epigenetic, glioma, IDH-mutant]
 processed_by: crosslinker
 processed_at: 2026-05-21
@@ -17,6 +17,7 @@ NEUROD1 (Neuronal Differentiation 1) is a basic helix-loop-helix (bHLH) transcri
 
 - NEUROD1 DNA sequence motif enriched at treatment-associated hypomethylated CpGs in IDH-mutant gliomas undergoing epigenetic evolution after [temozolomide](../drugs/temozolomide.md) and/or radiotherapy; the motif enrichment suggests NEUROD1 binding may be facilitated by treatment-induced demethylation [PMID:38117484](../papers/38117484.md).
 - NEUROD1 is a subtype-defining transcriptional regulator in [SCLC](../cancer_types/SCLC.md), characterizing the SCLC-N subtype; protein-level [YAP1](../genes/YAP1.md) was absent across the 26-sample clinical and 42 PDX/CDX cohort [PMID:35440124](../papers/35440124.md)
+- NEUROD1 identified as a top transcription factor in the CRPC-NE subtype (castration-resistant prostate cancer neuroendocrine subtype), mirroring the master regulators of [SCLC](../cancer_types/SCLC.md), in an epigenomic/transcriptomic study of 40 CRPC models [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ NEUROD1 (Neuronal Differentiation 1) is a basic helix-loop-helix (bHLH) transcri
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

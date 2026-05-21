@@ -7,8 +7,8 @@ tags:
   - kinase
   - neuroendocrine
   - mycn-axis
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # AURKA
@@ -24,9 +24,10 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 - High RPPA protein expression in the POLE-ultramutated / cell-cycle-deregulated subgroup of endometrial carcinoma ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); co-elevated with [ASNS](../genes/ASNS.md) and [CCNB1](../genes/CCNB1.md) protein in this subtype [PMID:23636398](../papers/23636398.md)
 - Elevated mitotic-pathway expression implicates AURKA in GS and CIN gastric tumours; nominated as a candidate therapeutic target based on expression profiling [PMID:25079317](../papers/25079317.md)
 - Over-expressed in CRPC-NE (P < 10⁻⁵) and included in the 70-gene NEPC classifier distinguishing castration-resistant neuroendocrine prostate cancer from adenocarcinoma [PMID:26855148](../papers/26855148.md)
-- AURKA recurrently altered in mCRPC tumors (prad_su2c_2019, 444 tumors) but not significantly prognostic for survival or time on first-line ARSI [PMID:31061129](../papers/31061129.md)
-- TP53 hotspot missense (gain-of-function) mutations in uterine corpus endometrial carcinoma upregulate AURKA expression and dysregulate XRN2; elevated AURKA is a candidate therapeutic target in TP53-hotspot-mutant EC amenable to AURKA inhibitors [PMID:32059776](../papers/32059776.md)
+- AURKA recurrently altered in mCRPC tumors ([prad_su2c_2019](../datasets/prad_su2c_2019.md), 444 tumors) but not significantly prognostic for survival or time on first-line ARSI [PMID:31061129](../papers/31061129.md)
+- [TP53](../genes/TP53.md) hotspot missense (gain-of-function) mutations in uterine corpus endometrial carcinoma upregulate AURKA expression and dysregulate XRN2; elevated AURKA is a candidate therapeutic target in TP53-hotspot-mutant EC amenable to AURKA inhibitors [PMID:32059776](../papers/32059776.md)
 - Amplification in 11/41 (26.8%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 0/18 sensitive (p=0.0081); spontaneous AURKA up-regulation in resistant cell lines; sensitive to selective AURKA inhibitor LY3295668; first in-patient evidence for AURKA in CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
+- AURKA kinase activity elevated in [HCC](../cancer_types/HCC.md) vs normal liver by KSEA in Chinese proteogenomics cohort (n=159); flagged as targetable alongside CDK1/2/5 in TP53-mutant HCC; AURKA inhibition proposed as a therapeutic strategy [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -34,7 +35,7 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 
 ## Co-occurrence and mutual exclusivity
 
-- AURKA and [MYCN](../genes/MYCN.md) are co-elevated in NEPC PDXs; together they activate CDK5, which phosphorylates [RB1](../genes/RB1.md), releasing E2F1 transcription factors to drive neuroendocrine gene programs [PMID:38488813](../papers/38488813.md).
+- AURKA and [MYCN](../genes/MYCN.md) are co-elevated in NEPC PDXs; together they activate [CDK5](../genes/CDK5.md), which phosphorylates [RB1](../genes/RB1.md), releasing [E2F1](../genes/E2F1.md) transcription factors to drive neuroendocrine gene programs [PMID:38488813](../papers/38488813.md).
 
 ## Therapeutic relevance
 
@@ -42,31 +43,34 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 
 ## Open questions
 
-- AURKA inhibitors (e.g., alisertib) are not directly evaluated in the PDX corpus; the relative contribution of AURKA vs. [MYCN](../genes/MYCN.md) upregulation to the NEPC phenotype requires further functional dissection [PMID:38488813](../papers/38488813.md).
+- AURKA inhibitors (e.g., [alisertib](../drugs/alisertib.md)) are not directly evaluated in the PDX corpus; the relative contribution of AURKA vs. [MYCN](../genes/MYCN.md) upregulation to the NEPC phenotype requires further functional dissection [PMID:38488813](../papers/38488813.md).
 
 ## Sources
 
 - [PMID:38488813](../papers/38488813.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

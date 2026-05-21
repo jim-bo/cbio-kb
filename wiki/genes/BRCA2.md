@@ -65,7 +65,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 germline variants advance lung cancer onset by 12.2 years in young lung cancer; specific variant p.Arg2784Trp reported by Donner et al. [PMID:27346245](../papers/27346245.md)
 - BRCA2 among additional recurrently mutated genes in a 62-patient uRCC MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
 - 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish [olaparib](../drugs/olaparib.md) + [spautin-1](../drugs/spautin-1.md) synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:28068672](../papers/28068672.md)
-- 8 likely-inactivating truncating mutations (0.9%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
+- 8 likely-inactivating truncating mutations (0.9%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on [olaparib](../drugs/olaparib.md) approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
 - BRCA2 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
 - BRCA2 is a recurrently altered candidate driver in medulloblastoma, stratified across subgroups; listed among candidates in WNT/SHH/Group 3/Group 4 oncoprint analysis [PMID:28726821](../papers/28726821.md)
@@ -76,7 +76,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Novel BRCA2 mutation finding in HPV(+) vulvar squamous cell carcinoma identified by whole-exome sequencing of 15 tumors [PMID:29422544](../papers/29422544.md).
 - [BRCA2](../genes/BRCA2.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)); frequent biallelic [CDK12](../genes/CDK12.md) inactivation in metastatic prostate cancer supports [BRCA2](../genes/BRCA2.md) loss as a therapeutically relevant DNA-repair phenotype. [PMID:29610475](../papers/29610475.md)
 - [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:29489754](../papers/29489754.md)
-- BRCA2 somatic and germline mutations are counted together with [BRCA1](../genes/BRCA1.md) (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with BRCA1 germline carriers [PMID:29625049](../papers/29625049.md)
+- BRCA2 somatic and germline mutations are counted together with [BRCA1](../genes/BRCA1.md) (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with [BRCA1](../genes/BRCA1.md) germline carriers [PMID:29625049](../papers/29625049.md)
 - BRCA2 is included in the 57% pan-cancer actionability figure (versus 52% restricted to the 10 canonical pathways), supporting broad germline/somatic BRCA2 testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
 - Germline pathogenic mutations affect 10.8% of Korean breast cancer patients ([brca_smc_2018](../datasets/brca_smc_2018.md)) combined with BRCA1 vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
 - Rare germline/somatic pathogenic mutation (n=2 combined with BRCA1, level 2B actionable) identified in cholangiocarcinoma ([chol_msk_2018](../datasets/chol_msk_2018.md)) [PMID:29848569](../papers/29848569.md)
@@ -97,10 +97,12 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; specific carrier frequencies shown in Figure 4; rates similar between EO and AO CRC after adjustment. [PMID:34405229](../papers/34405229.md)
 - Germline variants in BRCA2 identified in LCINS WGS cohort; BRCA2 LOH enriched in RTK-RAS+ tumors; >15% of tumors have LOH of an HRD-associated gene, nominating PARP inhibitor candidates. [PMID:34493867](../papers/34493867.md)
 - Referenced as germline-mutation context for PARP-inhibitor therapy in pancreatic ductal adenocarcinoma in CPTAC PDAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
-- BRCA2 cited as established HR-pathway gene; 3 [RAD51B](../genes/RAD51B.md) germline carriers were excluded from primary analysis because they co-harbored a deleterious BRCA2 variant; biallelic BRCA2 loss defines the strongest HRD benchmark used to calibrate biallelic RAD51B phenotype (intermediate LST/Signature 3) [PMID:34635660](../papers/34635660.md)
+- BRCA2 cited as established HR-pathway gene; 3 [RAD51B](../genes/RAD51B.md) germline carriers were excluded from primary analysis because they co-harbored a deleterious BRCA2 variant; biallelic BRCA2 loss defines the strongest HRD benchmark used to calibrate biallelic [RAD51B](../genes/RAD51B.md) phenotype (intermediate LST/Signature 3) [PMID:34635660](../papers/34635660.md)
 - No significant difference in BRCA2 alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) profiled on MSK-IMPACT, contrasting with the prior Project GENIE-based analysis [PMID:34667026](../papers/34667026.md)
-- BRCA2 captured as clinical covariate (10/45 [HGSOC](../cancer_types/HGSOC.md) patients mutated); no significant association with total curvature group (p=1.000) in ICI-treated HGSOC cohort [PMID:34819508](../papers/34819508.md)
+- BRCA2 captured as clinical covariate (10/45 [HGSOC](../cancer_types/HGSOC.md) patients mutated); no significant association with total curvature group (p=1.000) in ICI-treated [HGSOC](../cancer_types/HGSOC.md) cohort [PMID:34819508](../papers/34819508.md)
 - BRCA2 — germline pathogenic variant among 49 germline SNVs identified across MAPPYACTS cohort (n=624 pediatric relapsed/refractory patients); DNA repair gene panel included BRCA2 for PARP inhibitor matching [PMID:35292802](../papers/35292802.md)
+- Explicitly no pathogenic germline BRCA2 mutations identified in 119 LGSC cases, consistent with the MAPK-driven (rather than HRD-driven) biology of low-grade serous ovarian cancer ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
+- Pathogenic alterations meeting PROfound criteria in 5/51 (9.8%) prostate cancer bone metastases; BRCA1/2 together are among the 15 PROfound HRR genes; 10/51 (19.6%) patients qualified by alteration in any HRR gene ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -330,5 +332,11 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -5,14 +5,14 @@ main_type: Prostate Cancer
 parent: PROSTATE
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # Prostate Small Cell Carcinoma (PRSCC)
 
 ## Overview
 
-Prostate Small Cell Carcinoma (PRSCC) is a rare, aggressive histologic subtype of prostate cancer characterized by small-cell neuroendocrine morphology. It sits directly under the PROSTATE node in OncoTree (level 2). PRSCC shares histopathologic and molecular features with small-cell carcinomas at other sites — including frequent [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md) co-loss — and is typically androgen-receptor ([AR](../genes/AR.md))-indifferent, making it resistant to conventional androgen deprivation and AR signaling inhibitor (ARSI) therapies. It arises de novo or, increasingly, as a treatment-emergent phenotype following ARSI exposure in castration-resistant prostate adenocarcinoma.
+Prostate Small Cell Carcinoma (PRSCC) is a rare, aggressive histologic subtype of prostate cancer characterized by small-cell neuroendocrine morphology. It sits directly under the [PROSTATE](../cancer_types/PROSTATE.md) node in OncoTree (level 2). PRSCC shares histopathologic and molecular features with small-cell carcinomas at other sites — including frequent [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md) co-loss — and is typically androgen-receptor ([AR](../genes/AR.md))-indifferent, making it resistant to conventional androgen deprivation and [AR](../genes/AR.md) signaling inhibitor (ARSI) therapies. It arises de novo or, increasingly, as a treatment-emergent phenotype following ARSI exposure in castration-resistant prostate adenocarcinoma.
 
 ## Cohorts in the corpus
 
@@ -20,7 +20,8 @@ Prostate Small Cell Carcinoma (PRSCC) is a rare, aggressive histologic subtype o
 
 ## Recurrent alterations
 
-- In a 429-patient mCRPC cohort with central histopathologic review ([prad_su2c_2019](../datasets/prad_su2c_2019.md)), PRSCC (along with PRNE) represented 3.8% of 444 tumors; neuroendocrine histologic features were enriched post-ARSI (10.5% post-ARSI vs 2.3% ARSI-naive); integrative RNA-seq + histology + molecular clustering linked RB1/TP53 co-loss with the AR-low/NE-high expression phenotype [PMID:31061129](../papers/31061129.md).
+- In a 429-patient mCRPC cohort with central histopathologic review ([prad_su2c_2019](../datasets/prad_su2c_2019.md)), PRSCC (along with [PRNE](../cancer_types/PRNE.md)) represented 3.8% of 444 tumors; neuroendocrine histologic features were enriched post-ARSI (10.5% post-ARSI vs 2.3% ARSI-naive); integrative RNA-seq + histology + molecular clustering linked RB1/TP53 co-loss with the AR-low/NE-high expression phenotype [PMID:31061129](../papers/31061129.md).
+- CRPC-NE subtype in ATAC-seq study of 40 metastatic CRPC models identified top TFs [NEUROD1](../genes/NEUROD1.md) and [ASCL1](../genes/ASCL1.md) (master regulators shared with [SCLC](../cancer_types/SCLC.md)); enriched for [RB1](../genes/RB1.md) deep deletion and neuroendocrine markers SYP/CHGA/DLL3; corresponds to neuroendocrine prostate cancer / PRSCC lineage [PMID:35617398](../papers/35617398.md)
 
 ## Subtypes
 
@@ -34,4 +35,7 @@ Prostate Small Cell Carcinoma (PRSCC) is a rare, aggressive histologic subtype o
 
 - [PMID:31061129](../papers/31061129.md) — Abida et al., PNAS 2019; SU2C mCRPC WES + RNA-seq cohort (N=429).
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

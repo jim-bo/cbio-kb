@@ -28,7 +28,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - EZH2-mediated H3K27me3 spreading silences [SLFN11](../genes/SLFN11.md) in 4/10 chemoresistant PDX models; [EZH2](../genes/EZH2.md) inhibitor EPZ011989 ([tazemetostat](../drugs/tazemetostat.md) homolog) re-expresses [SLFN11](../genes/SLFN11.md) and restores cisplatin/etoposide sensitivity in vivo [PMID:28196596](../papers/28196596.md)
 - In the MSK-IMPACT pan-cancer cohort, SCLC had one of the highest [TP53](../genes/TP53.md) mutation rates at 85% of samples — ranking alongside [HGSOC](../cancer_types/HGSOC.md) (98%) and esophageal adenocarcinoma (89%). [PMID:28481359](../papers/28481359.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; SCLC is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
-- 46 SCLC PDX/CDX models from 33 patients showed retention of canonical TP53 (90%) and [RB1](../genes/RB1.md) (76%) alterations; transcriptional subtypes [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md) (SCLC-P) recapitulated in xenografts; 10 POU2F3-driven PDXs from one never-smoker patient constitute first SCLC-P in-vivo model resource [PMID:35440124](../papers/35440124.md)
+- 46 SCLC PDX/CDX models from 33 patients showed retention of canonical [TP53](../genes/TP53.md) (90%) and [RB1](../genes/RB1.md) (76%) alterations; transcriptional subtypes [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md) (SCLC-P) recapitulated in xenografts; 10 POU2F3-driven PDXs from one never-smoker patient constitute first SCLC-P in-vivo model resource [PMID:35440124](../papers/35440124.md)
 
 ## Subtypes
 
@@ -46,7 +46,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - [PMID:22941188](../papers/22941188.md)
 - [PMID:22941189](../papers/22941189.md)
 - [PMID:26168399](../papers/26168399.md)
-- [PMID:28196596](../papers/28196596.md) — Gardner et al. 2017; EZH2-mediated SLFN11 silencing drives chemoresistance in SCLC PDX models.
+- [PMID:28196596](../papers/28196596.md) — Gardner et al. 2017; EZH2-mediated [SLFN11](../genes/SLFN11.md) silencing drives chemoresistance in SCLC PDX models.
 
 - [PMID:28481359](../papers/28481359.md)
 

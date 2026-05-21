@@ -16,7 +16,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-SNAI2 (Snail family transcriptional repressor 2, also known as SLUG) is a zinc-finger transcription factor that drives epithelial-to-mesenchymal transition (EMT) by repressing E-cadherin and other epithelial markers. In [SCLC](../cancer_types/SCLC.md), SNAI2 expression is variable and non-uniform across subtypes, and EMT is not a consistent hallmark of non-neuroendocrine SCLC.
+SNAI2 (Snail family transcriptional repressor 2, also known as SLUG) is a zinc-finger transcription factor that drives epithelial-to-mesenchymal transition (EMT) by repressing E-cadherin and other epithelial markers. In [SCLC](../cancer_types/SCLC.md), SNAI2 expression is variable and non-uniform across subtypes, and EMT is not a consistent hallmark of non-neuroendocrine [SCLC](../cancer_types/SCLC.md).
 
 ## Alterations observed in the corpus
 
@@ -24,11 +24,11 @@ SNAI2 (Snail family transcriptional repressor 2, also known as SLUG) is a zinc-f
 
 ## Cancer types (linked)
 
-- [SCLC](../cancer_types/SCLC.md) — SNAI2 and other EMT markers (SNAI1, ZEB1, VIM) show heterogeneous, non-uniform expression in SCLC-P PDX models; [EPCAM](../genes/EPCAM.md) was absent in SCLC-P while VIM was variable [PMID:35440124](../papers/35440124.md).
+- [SCLC](../cancer_types/SCLC.md) — SNAI2 and other EMT markers ([SNAI1](../genes/SNAI1.md), [ZEB1](../genes/ZEB1.md), [VIM](../genes/VIM.md)) show heterogeneous, non-uniform expression in SCLC-P PDX models; [EPCAM](../genes/EPCAM.md) was absent in SCLC-P while VIM was variable [PMID:35440124](../papers/35440124.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Low SNAI2 co-occurs with low SNAI1, ZEB1, and absent EPCAM in SCLC-P subtype models [PMID:35440124](../papers/35440124.md).
+- Low SNAI2 co-occurs with low SNAI1, ZEB1, and absent [EPCAM](../genes/EPCAM.md) in SCLC-P subtype models [PMID:35440124](../papers/35440124.md).
 
 ## Therapeutic relevance
 

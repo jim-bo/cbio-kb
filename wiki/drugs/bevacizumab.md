@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [antiangiogenic]
 processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_at: "2026-05-21"
 ---
 
 # bevacizumab
@@ -30,6 +30,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - Nominated as a therapeutic candidate for schwannomatosis-associated schwannomas ([SCHW](../cancer_types/SCHW.md)) exhibiting upregulated PIGF/VEGF/RAF pathways, particularly painful tumors; the authors propose bevacizumab for tumor and pain management pending clinical trials [PMID:33025139](../papers/33025139.md).
 - [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition ([temsirolimus](../drugs/temsirolimus.md) or [everolimus](../drugs/everolimus.md)) combined with liposomal doxorubicin and bevacizumab in PI3K-pathway-altered advanced triple-negative MBC [PMID:33863915](../papers/33863915.md).
 - In metastatic MSS CRC, fluorouracil + oxaliplatin ± bevacizumab was the standard first-line regimen; radiographic response and median OS were equivalent across early-onset (≤35, 36-49 years) and adult-onset cohorts at MSK (n=759 EO-CRC, n=687 AO-CRC) [PMID:34405229](../papers/34405229.md)
+- Bevacizumab maintenance was used heterogeneously in LGSOC patients in this MSK cohort (n=119); no maintenance regimen including bevacizumab reached statistical significance for PFS in either NED (p=0.11) or evidence-of-disease (p=0.17) groups [PMID:35443055](../papers/35443055.md)
 
 ## Resistance mechanisms
 
@@ -42,38 +43,19 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 
 ## Sources
 
+- [PMID:22138691](../papers/22138691.md)
+- [PMID:24120142](../papers/24120142.md)
+- [PMID:24798001](../papers/24798001.md)
+- [PMID:24952746](../papers/24952746.md)
+- [PMID:30068706](../papers/30068706.md)
+- [PMID:30675060](../papers/30675060.md)
+- [PMID:31852831](../papers/31852831.md)
+- [PMID:33025139](../papers/33025139.md)
+- [PMID:33863915](../papers/33863915.md)
+- [PMID:34405229](../papers/34405229.md)
+- [PMID:35443055](../papers/35443055.md)
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37643132](../papers/37643132.md)
-- [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA biomarker study in mUC; bevacizumab as the experimental arm (null result) in first-line gemcitabine/cisplatin ± bevacizumab.
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22138691](../papers/22138691.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24120142](../papers/24120142.md)
-- [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); PIK3CA enrichment in non-chondroid MBC supports mTOR inhibition + liposomal doxorubicin + bevacizumab in PI3K-pathway-altered triple-negative MBC.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
-- [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
-- [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30675060](../papers/30675060.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:33025139](../papers/33025139.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:34405229](../papers/34405229.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

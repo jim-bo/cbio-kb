@@ -5,8 +5,8 @@ drug_class: alkylating chemotherapy
 canonical_source: 
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # temozolomide
@@ -37,6 +37,7 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - Treatment-induced hypermutation (COSMIC signature 11, >10 mut/Mb) was observed after alkylating-agent therapy (primarily temozolomide) in adult glioma: 47% of IDHmut-noncodel, 25% of IDHmut-codel, and 16% of IDHwt recurrences; hypermutation did not associate with reduced overall survival after adjustment for age, subtype, and MGMT methylation status [PMID:31748746](../papers/31748746.md).
 - MGMT promoter methylation predicted response to temozolomide and concurrent RT/TMZ in the Mayo GBM PDX panel, directly mirroring the human clinical phenotype and validating MGMT status as a stratification biomarker; [veliparib](../drugs/veliparib.md) + temozolomide efficacy across 28 PDX was also limited to MGMT-methylated tumors [PMID:31852831](../papers/31852831.md).
 - Temozolomide was used as a chemotherapy backbone in combination with matched targeted therapies in MAPPYACTS; 45/122 matched targeted therapies were combined with chemotherapy (ORR 18% vs 13% single-agent) [PMID:35292802](../papers/35292802.md)
+- In 45/114 pediatric/AYA solid tumor patients profiled by cWGTS, treatment-related somatic mutation signatures included temozolomide signatures; TMB was significantly higher in therapy-exposed versus treatment-naive samples (Mann-Whitney p=1.892e-04), confirming persistent clones surviving prior therapy [PMID:35585047](../papers/35585047.md)
 
 ## Resistance mechanisms
 
@@ -62,36 +63,19 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:18772890](../papers/18772890.md) — TCGA Research Network 2008, GBM interim analysis; [MGMT](../genes/MGMT.md) methylation, alkylator response, and hypermutator phenotype.
 - [PMID:28472509](../papers/28472509.md) — Thomas et al. 2017, *J Clin Oncol*. Phase II NCT00588523; TMZ induction + HDC-ASCT in anaplastic oligodendroglioma; 2-year PFS 85.7% in transplanted patients; TMZ non-inferior to PCV induction.
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24336570](../papers/24336570.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625055](../papers/29625055.md)
-
 - [PMID:30643250](../papers/30643250.md)
 - [PMID:30675060](../papers/30675060.md)
-- [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort; TMZ (alkylating agent) induced >100 new mutations, C>T signature, MMR-gene mutations, and G1→G3 grade progression in serial panNET biopsies; a previously unreported hypermutation pattern with implications for subsequent immunotherapy.
-- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, Columbia/Northwestern GBM (n=66); all patients received prior TMZ + radiation before PD-1 blockade; [PTEN](../genes/PTEN.md) mutations and MAPK alterations (not TMB) predicted checkpoint inhibitor response.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:30687805](../papers/30687805.md)
+- [PMID:30742119](../papers/30742119.md)
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31748746](../papers/31748746.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+- [PMID:35585047](../papers/35585047.md)
+- [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

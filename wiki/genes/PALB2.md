@@ -4,14 +4,15 @@ aliases: []
 cancer_types:
   - PAAD
   - BRCA
+  - PRAD
 tags:
   - tumor-suppressor
   - BRCA-pathway
   - HRD
   - PARPi
   - germline
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # PALB2
@@ -27,17 +28,18 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - Germline splice-site variant plus somatic missense mutation in 2 neuroblastoma patients; [BRCA](../cancer_types/BRCA.md) complex member; identified in Broad WES/WGS cohort of 240 high-risk neuroblastoma tumors [PMID:23334666](../papers/23334666.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar cell carcinomas; identified as a Fanconi-anemia-pathway member, flagging potential sensitivity to DNA cross-linking agents and PARP inhibitors [PMID:24293293](../papers/24293293.md)
 - Single frameshift mutation (suspected germline) identified in the sinonasal adenoid cystic carcinoma cohort; PALB2 is a known BRCA2-interacting genome stability gene [PMID:24418857](../papers/24418857.md)
-- Germline PALB2 mutations confer HBOC-spectrum risk including elevated gastric cancer susceptibility; must be ruled out before FNHGC labeling; included in standard multigene GC panel alongside BRCA1, BRCA2, ATM, and BRIP1 [PMID:24816255](../papers/24816255.md)
-- Part of the Fanconi anaemia (FA) pathway; homozygous deleterious events used as a DNA-repair-defect classifier for carboplatin sensitivity analysis in mCRPC; siRNA knockdown of FA genes (including PALB2) reduced proliferation in prostate cancer cell lines. [PMID:26928463](../papers/26928463.md)
-- Somatic mutations in 4% of metastatic breast cancer (mBC) vs 0.1% of early breast cancer (eBC) (FDR=0.006); authors propose PALB2-deficient mBC may be sensitive to PARP inhibitors such as olaparib [PMID:28027327](../papers/28027327.md)
-- TRMT10A expression correlated positively with PALB2 (along with BRCA1, BRCA2, RAD51) in TCGA prostate samples, linking PALB2 to the TRMT10A-dependent HR repair scaffold [PMID:28068672](../papers/28068672.md)
+- Germline PALB2 mutations confer HBOC-spectrum risk including elevated gastric cancer susceptibility; must be ruled out before FNHGC labeling; included in standard multigene GC panel alongside [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [ATM](../genes/ATM.md), and [BRIP1](../genes/BRIP1.md) [PMID:24816255](../papers/24816255.md)
+- Part of the Fanconi anaemia (FA) pathway; homozygous deleterious events used as a DNA-repair-defect classifier for [carboplatin](../drugs/carboplatin.md) sensitivity analysis in mCRPC; siRNA knockdown of FA genes (including PALB2) reduced proliferation in prostate cancer cell lines. [PMID:26928463](../papers/26928463.md)
+- Somatic mutations in 4% of metastatic breast cancer (mBC) vs 0.1% of early breast cancer (eBC) (FDR=0.006); authors propose PALB2-deficient mBC may be sensitive to PARP inhibitors such as [olaparib](../drugs/olaparib.md) [PMID:28027327](../papers/28027327.md)
+- [TRMT10A](../genes/TRMT10A.md) expression correlated positively with PALB2 (along with BRCA1, BRCA2, [RAD51](../genes/RAD51.md)) in TCGA prostate samples, linking PALB2 to the TRMT10A-dependent HR repair scaffold [PMID:28068672](../papers/28068672.md)
 - Less frequent DDR alteration in non-muscle-invasive bladder cancer (NMIBC; n=105), contributing to the 30% high-grade NMIBC DDR-altered fraction; markedly elevated mutational burden associated with DDR-altered tumors supports checkpoint immunotherapy trials [PMID:28583311](../papers/28583311.md)
-- Somatic HR pathway gene; CDK12, FANCA, PALB2, and RAD50 identified as additional somatic HR-deficiency contributors in advanced prostate cancer across locoregional, metastatic noncastrate, and mCRPC disease states; CDK12 loss hypothesized to confer PARP inhibitor sensitivity [PMID:28825054](../papers/28825054.md)
-- Nominated as a novel prostate-cancer-specific DNA-repair SMG in a WES meta-analysis of 1,013 primary and metastatic prostate tumors (prad_p1000); DNA-repair pathway altered in 16% of cases overall [PMID:29610475](../papers/29610475.md).
+- Somatic HR pathway gene; [CDK12](../genes/CDK12.md), [FANCA](../genes/FANCA.md), PALB2, and [RAD50](../genes/RAD50.md) identified as additional somatic HR-deficiency contributors in advanced prostate cancer across locoregional, metastatic noncastrate, and mCRPC disease states; CDK12 loss hypothesized to confer PARP inhibitor sensitivity [PMID:28825054](../papers/28825054.md)
+- Nominated as a novel prostate-cancer-specific DNA-repair SMG in a WES meta-analysis of 1,013 primary and metastatic prostate tumors ([prad_p1000](../datasets/prad_p1000.md)); DNA-repair pathway altered in 16% of cases overall [PMID:29610475](../papers/29610475.md).
 - PALB2 is among the top germline-variant-bearing genes in the core DDR predisposition pathway (23 of 36 DDR-affecting predisposition genes belong to Core DDR) across approximately 8% of TCGA pan-cancer samples [PMID:29625049](../papers/29625049.md)
 - Germline protein-truncating variants in PALB2 were associated with elevated somatic SV/SNV burden, APOBEC signature 2, and BRCAness signature 3 in early-onset prostate cancer (EOPC); PALB2-mutated patients are candidates for PARP inhibitor therapy [PMID:30537516](../papers/30537516.md).
 - Among the moderate- and low-penetrance germline cancer-predisposition genes interrogated in EO-CRC; rates of PALB2 mutations were similar between early-onset and average-onset cohorts after adjustment for number of genes tested [PMID:34405229](../papers/34405229.md).
-- PALB2 cited as an established HR pathway gene and comparator context for RAD51B susceptibility; used in the clinical interpretation framework for germline panel recommendations in an MSK-IMPACT cohort of 18,087 cancer patients (including 2,265 breast and 1,157 ovarian cancers). [PMID:34635660](../papers/34635660.md)
+- PALB2 cited as an established HR pathway gene and comparator context for [RAD51B](../genes/RAD51B.md) susceptibility; used in the clinical interpretation framework for germline panel recommendations in an MSK-IMPACT cohort of 18,087 cancer patients (including 2,265 breast and 1,157 ovarian cancers). [PMID:34635660](../papers/34635660.md)
+- PALB2 pathogenic alterations among 15 PROfound HRR genes; 10/51 (19.6%) prostate cancer brain metastasis (PCBM) patients met PROfound inclusion criteria with alterations in these genes, suggesting PARP inhibitor eligibility in PCBM patients excluded from the original PROfound trial [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -87,7 +89,10 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

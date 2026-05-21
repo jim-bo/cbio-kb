@@ -20,6 +20,7 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 - Neuroendocrine transcription factor and expression marker defining the ASCL1-high [SCLC](../cancer_types/SCLC.md) transcriptional subtype; downregulated upon NOTCH activation in mouse models, reflecting inverse relationship between neuroendocrine differentiation and Notch signaling [PMID:26168399](../papers/26168399.md)
 - ASCL1 overexpression with 22q11.21 LOH including [SMARCB1](../genes/SMARCB1.md) — diagnostic of atypical teratoid/rhabdoid tumor ([ATRT](../cancer_types/ATRT.md)) and prognostic for improved outcome in a pediatric pan-cancer sequencing cohort [PMID:28007021](../papers/28007021.md)
 - ASCL1 — subtype-defining transcriptional regulator of SCLC-A (ASCL1-high) subtype; retained in PDX/CDX models as confirmed by RNA-seq in 43 [SCLC](../cancer_types/SCLC.md) xenografts; protein-level [YAP1](../genes/YAP1.md) absent across cohort while ASCL1-high subtype defined by high ASCL1 transcript [PMID:35440124](../papers/35440124.md)
+- ASCL1 is a top transcription factor defining the CRPC-NE (neuroendocrine) subtype, mirroring master regulators of [SCLC](../cancer_types/SCLC.md); co-TF alongside [NEUROD1](../genes/NEUROD1.md) [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

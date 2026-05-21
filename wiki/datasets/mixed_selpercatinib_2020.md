@@ -29,14 +29,14 @@ processed_at: 2026-05-21
 
 ## Overview
 
-`mixed_selpercatinib_2020` is a Memorial Sloan Kettering correlative-genomics dataset from 72 patients with [RET](../genes/RET.md) fusion- or mutation-positive lung and thyroid cancers enrolled on the registrational phase 1/2 LIBRETTO-001 trial (NCT03157128) and treated with the selective RET inhibitor [selpercatinib](../drugs/selpercatinib.md). Multi-platform profiling included tissue [MSK-IMPACT](../methods/msk-impact-panel.md), whole-exome sequencing, and longitudinal plasma cfDNA via [MSK-ACCESS](../methods/msk-access.md). Data freeze: December 2019.
+`mixed_selpercatinib_2020` is a Memorial Sloan Kettering correlative-genomics dataset from 72 patients with [RET](../genes/RET.md) fusion- or mutation-positive lung and thyroid cancers enrolled on the registrational phase 1/2 LIBRETTO-001 trial (NCT03157128) and treated with the selective [RET](../genes/RET.md) inhibitor [selpercatinib](../drugs/selpercatinib.md). Multi-platform profiling included tissue [MSK-IMPACT](../methods/msk-impact-panel.md), whole-exome sequencing, and longitudinal plasma cfDNA via [MSK-ACCESS](../methods/msk-access.md). Data freeze: December 2019.
 
 ## Composition
 
 - **n = 72** patients (70 included in correlative analyses); enrollment May 2017 – December 2019.
 - **Cancer types:** [LUAD](../cancer_types/LUAD.md) (81% of fusion-positive cases), papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md), 12%), medullary thyroid carcinoma ([THME](../cancer_types/THME.md)) (all RET-mutant cases), plus rare histologies ([LCNEC](../cancer_types/LCNEC.md), [LUAS](../cancer_types/LUAS.md), [HGNEC](../cancer_types/HGNEC.md), poorly differentiated thyroid).
 - **RET alteration types:** activating fusions (KIF5B-RET most common; also CCDC6-RET, NCOA4-RET, TAF3-RET, ERC1-RET, RBPMS-RET, CLIP1-RET) and kinase-domain mutations (germline and somatic, including M918T).
-- **Prior therapy:** 19/72 received selpercatinib as first-line; 53 previously treated; 29/53 (55%) had prior multikinase inhibitor ([vandetanib](../drugs/vandetanib.md), [cabozantinib](../drugs/cabozantinib.md), RXDX-105).
+- **Prior therapy:** 19/72 received [selpercatinib](../drugs/selpercatinib.md) as first-line; 53 previously treated; 29/53 (55%) had prior multikinase inhibitor ([vandetanib](../drugs/vandetanib.md), [cabozantinib](../drugs/cabozantinib.md), RXDX-105).
 
 ## Assays / panels (linked)
 

@@ -15,7 +15,7 @@ FLCN (folliculin) is a tumor suppressor gene whose germline mutations cause Birt
 
 ## Alterations observed in the corpus
 
-- Germline mutations cause Birt-Hogg-Dubé syndrome; 34% of BHD-associated kidney tumors are chromophobe RCC; FLCN is not somatically recurrent in sporadic ChRCC but is invoked as a pathway-convergence point [PMID:25155756](../papers/25155756.md)
+- Germline mutations cause Birt-Hogg-Dubé syndrome; 34% of BHD-associated kidney tumors are chromophobe [RCC](../cancer_types/RCC.md); FLCN is not somatically recurrent in sporadic ChRCC but is invoked as a pathway-convergence point [PMID:25155756](../papers/25155756.md)
 - Referenced as a known germline kidney cancer predisposition gene in the context of non-clear cell RCC somatic profiling; not significantly mutated somatically in this cohort [PMID:25401301](../papers/25401301.md)
 - 3 somatic mutations in AA CRCs (two frameshift, one nonsense), all consistent with inactivation; 0 in Caucasian CRCs (P=0.086); germline FLCN mutations cause Birt-Hogg-Dubé syndrome; proposed as an AA-specific CRC driver [PMID:25583493](../papers/25583493.md)
 - FLCN was among the genes sequenced by MSK-IMPACT in an MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX biobank characterizing 26 clinical specimens and 30 patient-derived models across molecular subtypes. [PMID:35440124](../papers/35440124.md)

@@ -5,8 +5,8 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # ipilimumab
@@ -38,6 +38,7 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - Used in combination with nivolumab (N=141) in cutaneous/unknown-primary melanoma; nivolumab+ipilimumab TTF did not vary by MAPK driver class, suggesting combination immunotherapy is preferable to PD-1 monotherapy in BRAF V600 and [NRAS](../genes/NRAS.md) Q61 patients; TMB still independently predicted TTF (HR 0.51 per 10-fold, P=0.008) and OS [PMID:33509808](../papers/33509808.md)
 - Ipilimumab (anti-CTLA-4) was used in the 45-patient recurrent [HGSOC](../cancer_types/HGSOC.md) ICI cohort (15 patients received PD-1/PD-L1 + CTLA-4 combination, 1 received CTLA-4 monotherapy); Ollivier-Ricci network curvature over CNAs predicted OS (p=0.00047) while TMB (p=0.032), LST, and [FGA](../genes/FGA.md) were less discriminating. [PMID:34819508](../papers/34819508.md)
 - Ipilimumab + nivolumab was administered to the MSK773 SCLC-P patient (POU2F3-driven [SCLC](../cancer_types/SCLC.md)) without response, illustrating limited immune checkpoint blockade activity in the SCLC-P subtype [PMID:35440124](../papers/35440124.md)
+- In a pediatric/AYA solid tumor cWGTS study (n=114), a patient with metastatic adrenocortical carcinoma and high fusion/SV burden (H135022) achieved complete response after 3 cycles of nivolumab + ipilimumab and remained disease-free 26 months after therapy cessation; the combination was identified as therapy-informing via WGS beyond panel findings [PMID:35585047](../papers/35585047.md)
 
 ## Resistance mechanisms
 
@@ -49,63 +50,26 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 
 ## Sources
 
-- [PMID:38630790](../papers/38630790.md)
-- [PMID:36228155](../papers/36228155.md)
-- [PMID:26359337](../papers/26359337.md) — Van Allen et al. (Science 2015). Genomic correlates of ipilimumab response in 110 metastatic melanoma patients; mutational and neoantigen load as predictive biomarkers.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25409260](../papers/25409260.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26359337](../papers/26359337.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29657128](../papers/29657128.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30150660](../papers/30150660.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30643254](../papers/30643254.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31792460](../papers/31792460.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
-
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+- [PMID:35585047](../papers/35585047.md)
+- [PMID:36228155](../papers/36228155.md)
+- [PMID:38630790](../papers/38630790.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

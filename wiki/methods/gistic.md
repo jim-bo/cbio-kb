@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # GISTIC
@@ -29,7 +29,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC v2.0.12 applied to Affymetrix SNP 6.0 copy-number profiles of 38 OSCC tumors; identified recurrent focal amplifications ([CCND1](../genes/CCND1.md), [EGFR](../genes/EGFR.md)) and deletions ([CDKN2A](../genes/CDKN2A.md), [FHIT](../genes/FHIT.md)) [PMID:23619168](../papers/23619168.md)
 - GISTIC v2 applied to an extended cohort of 199 prostate adenocarcinomas to call recurrent SCNAs; [CHD1](../genes/CHD1.md) deletion associated with elevated recurrent SCNA burden (p=1.5×10⁻⁸) and Gleason grade tracked SCNA count (p=0.0059) [PMID:23622249](../papers/23622249.md)
 - GISTIC applied to Affymetrix SNP 6.0 data from 363 endometrial carcinomas; identified recurrent focal amplifications of [MYC](../genes/MYC.md), [ERBB2](../genes/ERBB2.md), [CCNE1](../genes/CCNE1.md), [FGFR3](../genes/FGFR3.md), and [SOX17](../genes/SOX17.md) defining the copy-number-high serous-like subgroup [PMID:23636398](../papers/23636398.md)
-- Applied as GISTIC2.0 in 60-sample ACC study to identify significant recurrent copy-number alterations: high-level losses at 6q24, 12q13, and 14q; 14q loss associated with solid histology (Fisher p=2.0×10⁻⁴), 6q24 loss enriched for advanced stage (p=4.0×10⁻²) [PMID:23685749](../papers/23685749.md)
+- Applied as GISTIC2.0 in 60-sample [ACC](../cancer_types/ACC.md) study to identify significant recurrent copy-number alterations: high-level losses at 6q24, 12q13, and 14q; 14q loss associated with solid histology (Fisher p=2.0×10⁻⁴), 6q24 loss enriched for advanced stage (p=4.0×10⁻²) [PMID:23685749](../papers/23685749.md)
 - Used on 492 [GBM](../cancer_types/GBM.md) samples for SCNA peak calling; identified recurrent amplifications on chr7 (EGFR/MET/CDK6), chr12 (CDK4/MDM2), chr4 ([PDGFRA](../genes/PDGFRA.md)) and defined [QKI](../genes/QKI.md) as sole target of 6q26 minimal deletion [PMID:24120142](../papers/24120142.md)
 - Reimplemented GISTIC-style analysis on WGS-derived CNA data from 99 [BLCA](../cancer_types/BLCA.md) tumors; identified 84 focal amplification regions and 80 focal deletion regions including [DHFR](../genes/DHFR.md) amplification (14%) and CDKN2A/B deletion (50%) [PMID:24121792](../papers/24121792.md)
 - GISTIC applied to Affymetrix SNP 6.0 copy-number data from 153 multiple myeloma patients; identified 7 significant homozygous deletion peaks covering NF-kB regulators ([TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md)), [CDKN2C](../genes/CDKN2C.md), [PTPRD](../genes/PTPRD.md), and an 8p23.1 locus [PMID:24434212](../papers/24434212.md)
@@ -45,16 +45,16 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC used to identify significantly amplified and deleted genomic regions in adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Used in the TCGA breast cancer ILC/IDC study (n=817) for somatic copy-number calling from Affymetrix SNP6 data, identifying focal amplifications ([MYC](../genes/MYC.md), [CCNE1](../genes/CCNE1.md)) enriched in [IDC](../cancer_types/IDC.md) and deletions enriched in [ILC](../cancer_types/ILC.md) [PMID:26451490](../papers/26451490.md)
 - Applied as GISTIC 2.0 to identify focal somatic copy-number alterations in 333 primary prostate adenocarcinomas; detected 20 amplifications and 35 deletions (q < 0.25), including homozygous [PTEN](../genes/PTEN.md) deletion in 15% — among the highest rates in any TCGA tumor type [PMID:26544944](../papers/26544944.md).
-- GISTIC analysis of Illumina HumanOmni2.5-8 SNP-array data from periampullary tumors identified focal 9p23.1 CDKN2A deletion and a chromosome-9 deletion removing the promoter/5′ end of KDM4C as statistically significant in AMPAC [PMID:26804919](../papers/26804919.md)
+- GISTIC analysis of Illumina HumanOmni2.5-8 SNP-array data from periampullary tumors identified focal 9p23.1 [CDKN2A](../genes/CDKN2A.md) deletion and a chromosome-9 deletion removing the promoter/5′ end of [KDM4C](../genes/KDM4C.md) as statistically significant in AMPAC [PMID:26804919](../papers/26804919.md)
 - GISTIC2 applied to copy-number data from 1,084 diffuse gliomas in the TCGA pan-glioma study to map focal amplifications and deletions across the cohort [PMID:26824661](../papers/26824661.md)
-- GISTIC 2.0 applied to CBS-segmented array-CGH data from 149 tumors of 60 men with metastatic CRPC; identified focal and arm-level CNA drivers including 8q gain (MYC), 8p loss, AR amplification, RB1 and PTEN deletions. [PMID:26928463](../papers/26928463.md)
-- GISTIC2.0 applied to Affymetrix SNP 6.0 copy-number data from 1,144 NSCLC pairs to identify recurrent SCNAs; novel focal amplifications (MIR21, MIR205, MAPK1) and deletions (SMARCA4, B2M, TRAF3) discovered [PMID:27158780](../papers/27158780.md)
+- GISTIC 2.0 applied to CBS-segmented array-CGH data from 149 tumors of 60 men with metastatic CRPC; identified focal and arm-level CNA drivers including 8q gain ([MYC](../genes/MYC.md)), 8p loss, [AR](../genes/AR.md) amplification, [RB1](../genes/RB1.md) and [PTEN](../genes/PTEN.md) deletions. [PMID:26928463](../papers/26928463.md)
+- GISTIC2.0 applied to Affymetrix SNP 6.0 copy-number data from 1,144 [NSCLC](../cancer_types/NSCLC.md) pairs to identify recurrent SCNAs; novel focal amplifications ([MIR21](../genes/MIR21.md), [MIR205](../genes/MIR205.md), [MAPK1](../genes/MAPK1.md)) and deletions ([SMARCA4](../genes/SMARCA4.md), [B2M](../genes/B2M.md), [TRAF3](../genes/TRAF3.md)) discovered [PMID:27158780](../papers/27158780.md)
 - GISTIC2 applied to METABRIC copy-number data to identify recurrent CNAs underpinning the 10 Integrative Clusters in 2,433 primary breast tumours [PMID:27161491](../papers/27161491.md)
-- GISTIC2 applied to metastatic breast cancer WES data to identify recurrent copy number alterations including ESR1 focal amplification and PTEN deletion; thresholds set at amp >0.3 and del <−0.3 log2 ratio [PMID:28027327](../papers/28027327.md).
-- GISTIC 2.0 used to identify recurrent somatic copy-number alterations in 164 oesophageal carcinomas including CCND1 amplification in 57% of ESCC and CCNE1 amplification in EAC [PMID:28052061](../papers/28052061.md).
-- GISTIC 2.0 applied to Affymetrix SNP6 data from 412 BLCA tumors identifying 34 amplified and 32 deleted focal SCNA regions at q<0.1 [PMID:28988769](../papers/28988769.md)
-- GISTIC applied to TCGA Broad Firehose melanoma data (downloaded Jan 28 2016) for recurrent SCNA identification used as reference in the CA209-038 nivolumab pharmacodynamic study [PMID:29033130](../papers/29033130.md)
-- GISTIC applied to Affymetrix SNP6 data from 206 TCGA sarcomas to identify recurrent SCNA peaks; DDLPS showed 100% MDM2 amplification, 92% CDK4 amplification, and 96% FRS2 amplification at 12q13~15 [PMID:29100075](../papers/29100075.md)
+- GISTIC2 applied to metastatic breast cancer WES data to identify recurrent copy number alterations including [ESR1](../genes/ESR1.md) focal amplification and PTEN deletion; thresholds set at amp >0.3 and del <−0.3 log2 ratio [PMID:28027327](../papers/28027327.md).
+- GISTIC 2.0 used to identify recurrent somatic copy-number alterations in 164 oesophageal carcinomas including [CCND1](../genes/CCND1.md) amplification in 57% of [ESCC](../cancer_types/ESCC.md) and [CCNE1](../genes/CCNE1.md) amplification in [EAC](../cancer_types/EAC.md) [PMID:28052061](../papers/28052061.md).
+- GISTIC 2.0 applied to Affymetrix SNP6 data from 412 [BLCA](../cancer_types/BLCA.md) tumors identifying 34 amplified and 32 deleted focal SCNA regions at q<0.1 [PMID:28988769](../papers/28988769.md)
+- GISTIC applied to TCGA Broad Firehose melanoma data (downloaded Jan 28 2016) for recurrent SCNA identification used as reference in the CA209-038 [nivolumab](../drugs/nivolumab.md) pharmacodynamic study [PMID:29033130](../papers/29033130.md)
+- GISTIC applied to Affymetrix SNP6 data from 206 TCGA sarcomas to identify recurrent SCNA peaks; DDLPS showed 100% [MDM2](../genes/MDM2.md) amplification, 92% [CDK4](../genes/CDK4.md) amplification, and 96% [FRS2](../genes/FRS2.md) amplification at 12q13~15 [PMID:29100075](../papers/29100075.md)
 - GISTIC 2.0 applied to 1,013 prostate WES samples to call copy-number alterations, alongside FACETS for allele-specific copy number [PMID:29610475](../papers/29610475.md)
 - GISTIC2.0 used to derive recurrent SCNA scores across 10,522 TCGA pan-cancer samples for integration with arm-level aneuploidy analysis [PMID:29622463](../papers/29622463.md)
 - Applied at confidence 0.95 with amplification/deep-deletion thresholds of +2/−2 to identify recurrent somatic copy-number alterations in 9,125 TCGA PanCanAtlas tumors across 33 cancer types [PMID:29625050](../papers/29625050.md).
@@ -62,9 +62,10 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC2.0 applied to 304 DLBCLs; detected 18 arm-level and 18 focal copy gains, 2 arm-level and 32 focal copy losses (q ≤ 0.1, frequency ≥ 3%); CCGs were highly enriched within focal SCNAs (Fisher's exact P = 1×10⁻⁴⁴) [PMID:29713087](../papers/29713087.md)
 - Applied with CopywriteR on WXS off-target reads from 105 CPTAC colon cancer tumor/normal pairs for somatic copy-number alteration analysis; arm-level SCNAs matched TCGA; 59% of focal driver candidates confirmed by protein-level evidence [PMID:31031003](../papers/31031003.md)
 - Applied for recurrent copy-number alteration calling in the pan-Asia cHCC-ICC study (133 cases); identified amplifications at [MYC](../genes/MYC.md), [MET](../genes/MET.md), [CCNE1](../genes/CCNE1.md), [CDK6](../genes/CDK6.md), and [TERT](../genes/TERT.md), and deletions at [CDKN2A](../genes/CDKN2A.md), [RB1](../genes/RB1.md), and [AXIN1](../genes/AXIN1.md) [PMID:31130341](../papers/31130341.md)
-- Used as GISTIC2.0 in the PCAWG pan-cancer WGS study (n=2,658 tumors) to identify significantly mutated copy-number regions; flagged FGFR2, FANCA, and PCM1 in copy-number-loss peaks in driverless cases [PMID:32025007](../papers/32025007.md).
-- Used to identify arm-level and focal copy-number alterations across 604 resected LUAD tumors; detected significant arm-level differences at 2p, 2q, 4q, 5p, 6p, 6q, 7p, 7q, 11p, 11q, 12p, 17p, 17q [PMID:32791233](../papers/32791233.md)
-- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
+- Used as GISTIC2.0 in the PCAWG pan-cancer WGS study (n=2,658 tumors) to identify significantly mutated copy-number regions; flagged [FGFR2](../genes/FGFR2.md), [FANCA](../genes/FANCA.md), and [PCM1](../genes/PCM1.md) in copy-number-loss peaks in driverless cases [PMID:32025007](../papers/32025007.md).
+- Used to identify arm-level and focal copy-number alterations across 604 resected [LUAD](../cancer_types/LUAD.md) tumors; detected significant arm-level differences at 2p, 2q, 4q, 5p, 6p, 6q, 7p, 7q, 11p, 11q, 12p, 17p, 17q [PMID:32791233](../papers/32791233.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
+- GISTIC 2.0 applied to 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) to identify five recurrent focal CNA peaks (1p36.23 del, 1q21.3 amp, 6p21.2 amp, 8q22.2 amp, 8q24.13 amp) containing 19 cis-regulated dysregulated genes [PMID:35508466](../papers/35508466.md)
 
 ## Notes
 
@@ -76,142 +77,145 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

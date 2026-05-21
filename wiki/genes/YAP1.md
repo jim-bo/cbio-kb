@@ -26,6 +26,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - Focal amplification in 1.2% of [CSCC](../cancer_types/CSCC.md) tumors; Hippo-pathway effector observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
 - Hippo-pathway alteration (combined with LATS1/2, 1.8% of HR+/HER2− breast cancer cohort); YAP1-dependent [CDK6](../genes/CDK6.md) upregulation mediates [abemaciclib](../drugs/abemaciclib.md) resistance downstream of [ARID1A](../genes/ARID1A.md) loss — shYAP1 in shARID1A cells shifts IC50 from 135.5 to 9.45 nmol/L. [PMID:34544752](../papers/34544752.md)
 - YAP1 protein expression was consistently absent or very low by IHC across 37 [SCLC](../cancer_types/SCLC.md) PDX/CDX models (MSK [lung_pdx_msk_2021](../datasets/lung_pdx_msk_2021.md) cohort), questioning YAP1 as a defining IHC subtype marker; however, YAP/TAZ downstream target genes ([NOTCH2](../genes/NOTCH2.md), [NOTCH3](../genes/NOTCH3.md)) were highly expressed in POU2F3-positive (SCLC-P) PDXs regardless of YAP1 protein level [PMID:35440124](../papers/35440124.md)
+- YAP1 was upregulated in the newly described CRPC-SCL subtype; double siRNA knockdown of YAP1/WWTR1 (TAZ) selectively suppressed growth of CRPC-SCL models (MSKPCa3, DU145; p<0.0001) but not CRPC-AR models; YAP1 co-binds FOSL1/TEAD at CRPC-SCL enhancers; [verteporfin](../drugs/verteporfin.md) (YAP/TAZ inhibitor) and T-5224 (AP-1 inhibitor) preferentially inhibited CRPC-SCL proliferation in preclinical models [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

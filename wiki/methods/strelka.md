@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-calling, snv, indel, somatic, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Strelka
@@ -26,11 +26,13 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 - Used Strelka for somatic indel and SNV calling in paired tumor-normal samples [PMID:28373299](../papers/28373299.md)
 - Applied alongside MuTect, SomaticSniper, and VarScan for somatic variant calling in 68 paired melanoma WES samples; intersection-based approach used to increase specificity [PMID:29033130](../papers/29033130.md)
 - Strelka used for somatic variant calling in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) paired tumor/normal WES samples alongside MuTect for the PBRM1-immunotherapy response study [PMID:29301960](../papers/29301960.md)
-- Used to call indels (v1.0.11) across 1,013 prostate tumor/normal pairs in the prad_p1000 dataset [PMID:29610475](../papers/29610475.md)
+- Used to call indels (v1.0.11) across 1,013 prostate tumor/normal pairs in the [prad_p1000](../datasets/prad_p1000.md) dataset [PMID:29610475](../papers/29610475.md)
 - Used for somatic indel calling in the uniform reanalysis of 249 MSS tumor/normal WES samples from seven ICB cohorts; combined with MuTect (SNVs) and Oncotator (annotation) [PMID:30150660](../papers/30150660.md)
-- Part of the consensus SNV/indel calling pipeline in the high-grade UTUC WES study (37 tumor-normal pairs), used together with [mutect](../methods/mutect.md) and [varscan](../methods/varscan.md); consensus calls annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
+- Part of the consensus SNV/indel calling pipeline in the high-grade [UTUC](../cancer_types/UTUC.md) WES study (37 tumor-normal pairs), used together with [mutect](../methods/mutect.md) and [varscan](../methods/varscan.md); consensus calls annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
 - Applied (alongside MuTect, VarScan2, Platypus, Lancet, Scalpel) for somatic indel and SNV calling in WES and MSK-IMPACT data from 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) [PMID:33863915](../papers/33863915.md)
-- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
+- Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for somatic indel calling from WES of 168 prostate cancer brain metastasis samples alongside MuTect for SNVs [PMID:35504881](../papers/35504881.md)
+- Used for somatic variant calling in the [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline from whole-genome sequencing of 114 pediatric/AYA solid tumor patients (Illumina NovaSeq 6000, PE150) [PMID:35585047](../papers/35585047.md)
 
 ## Notes
 
@@ -40,44 +42,50 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25240281](../papers/25240281.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26760213](../papers/26760213.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

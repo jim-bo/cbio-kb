@@ -25,7 +25,7 @@ Vandetanib is an oral multi-kinase inhibitor targeting [RET](../genes/RET.md), V
 ## Evidence in the corpus
 
 - Activating [RET](../genes/RET.md) mutations in metastatic medullary thyroid carcinoma patients identified by WGTA (POG program) guided vandetanib selection; patient PN7 subsequently received [selpercatinib](../drugs/selpercatinib.md) with 1423 days of stable disease [PMID:40328872](../papers/40328872.md)
-- Vandetanib is a multikinase inhibitor (MKI) targeting RET; 29/53 previously treated LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) patients had received prior MKI therapy (vandetanib, [cabozantinib](../drugs/cabozantinib.md), or RXDX-105) — prior MKI exposure did not alter selpercatinib outcomes (HR=1.2, P=0.6) [PMID:35304457](../papers/35304457.md)
+- Vandetanib is a multikinase inhibitor (MKI) targeting [RET](../genes/RET.md); 29/53 previously treated LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) patients had received prior MKI therapy (vandetanib, [cabozantinib](../drugs/cabozantinib.md), or RXDX-105) — prior MKI exposure did not alter [selpercatinib](../drugs/selpercatinib.md) outcomes (HR=1.2, P=0.6) [PMID:35304457](../papers/35304457.md)
 
 ## Resistance mechanisms
 

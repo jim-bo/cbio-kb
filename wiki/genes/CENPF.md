@@ -8,7 +8,7 @@ cancer_types:
   - ODG
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-21
 ---
 
 # CENPF
@@ -20,10 +20,11 @@ CENPF encodes centromere protein F (also known as mitosin), a large nuclear matr
 ## Alterations observed in the corpus
 
 - CENPF is a [HOXD13](../genes/HOXD13.md) target gene that becomes epigenetically activated through treatment-associated DNA hypomethylation in IDH-mutant astrocytoma at recurrence; associated with glioma prognosis and cell proliferation [PMID:38117484](../papers/38117484.md).
+- Mitotic-spindle regulator showing discordant mRNA/protein expression in TP53-mutant HCCs: down at protein level but up at mRNA level in a European multi-omic cohort (n=51 proteome/phosphoproteome) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
-- **DIFG/ASTR/GB**: CENPF upregulation linked to HOXD13 activation at glioma recurrence, particularly in IDH-mutant astrocytomas that have undergone treatment-driven epigenetic evolution; associated with proliferative phenotype [PMID:38117484](../papers/38117484.md).
+- **DIFG/ASTR/GB**: CENPF upregulation linked to [HOXD13](../genes/HOXD13.md) activation at glioma recurrence, particularly in IDH-mutant astrocytomas that have undergone treatment-driven epigenetic evolution; associated with proliferative phenotype [PMID:38117484](../papers/38117484.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -41,4 +42,7 @@ CENPF encodes centromere protein F (also known as mitosin), a large nuclear matr
 
 - [PMID:38117484](../papers/38117484.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

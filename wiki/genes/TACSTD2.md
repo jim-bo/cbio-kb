@@ -6,7 +6,7 @@ cancer_types:
   - COAD
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # TACSTD2
@@ -18,10 +18,11 @@ TACSTD2 (Tumor-Associated Calcium Signal Transducer 2), also known as TROP2, enc
 ## Alterations observed in the corpus
 
 - Co-expressed as part of the gastric/endodermal program (alongside [AQP5](../genes/AQP5.md), [TFF2](../genes/TFF2.md), [MSLN](../genes/MSLN.md)) in sessile serrated cells (SSCs) in the COLON MAP/HTAN colorectal polyp atlas; TACSTD2 (TROP2) marks the metaplastic serrated lineage [PMID:34910928](../papers/34910928.md)
+- TACSTD2 (TROP2A) is a stem cell marker elevated in CRPC-SCL subtype, alongside [CD44](../genes/CD44.md); defined as a key surface marker for this castration-resistant prostate cancer lineage in a multi-omics classification study [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
-- [COAD](../cancer_types/COAD.md) — TACSTD2/TROP2 expression defines the gastric metaplasia program in sessile serrated lesions (SSLs), co-expressed with AQP5, TFF2, and MSLN in the serrated cell of origin driven by BRAF-V600E [PMID:34910928](../papers/34910928.md)
+- [COAD](../cancer_types/COAD.md) — TACSTD2/TROP2 expression defines the gastric metaplasia program in sessile serrated lesions (SSLs), co-expressed with [AQP5](../genes/AQP5.md), [TFF2](../genes/TFF2.md), and [MSLN](../genes/MSLN.md) in the serrated cell of origin driven by BRAF-V600E [PMID:34910928](../papers/34910928.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -39,4 +40,7 @@ TACSTD2 (Tumor-Associated Calcium Signal Transducer 2), also known as TROP2, enc
 
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

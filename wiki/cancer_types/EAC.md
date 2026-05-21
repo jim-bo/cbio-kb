@@ -24,8 +24,8 @@ Esophageal adenocarcinoma arising from the lower esophagus, commonly arising in 
 
 ## Recurrent alterations
 
-- [TP53](../genes/TP53.md) altered in 79% of MSI-stable EAC; severity of TP53 dysfunction ([MDM2](../genes/MDM2.md) amplification > TP53 truncating bi-allelic > other TP53 > [WT](../cancer_types/WT.md)) stratified pathologic response to neoadjuvant chemoradiotherapy (p=0.004, q=0.07) [PMID:35377946](../papers/35377946.md)
-- MDM2 amplification in ~9% (21/237); independently associated with poor neoadjuvant response (OR 0.10, 95% CI 0.01–0.55, p=0.032 multivariable); mutually exclusive with TP53 truncating bi-allelic mutations (q<0.05) [PMID:35377946](../papers/35377946.md)
+- [TP53](../genes/TP53.md) altered in 79% of MSI-stable EAC; severity of [TP53](../genes/TP53.md) dysfunction ([MDM2](../genes/MDM2.md) amplification > TP53 truncating bi-allelic > other TP53 > [WT](../cancer_types/WT.md)) stratified pathologic response to neoadjuvant chemoradiotherapy (p=0.004, q=0.07) [PMID:35377946](../papers/35377946.md)
+- [MDM2](../genes/MDM2.md) amplification in ~9% (21/237); independently associated with poor neoadjuvant response (OR 0.10, 95% CI 0.01–0.55, p=0.032 multivariable); mutually exclusive with TP53 truncating bi-allelic mutations (q<0.05) [PMID:35377946](../papers/35377946.md)
 - [CDKN2A](../genes/CDKN2A.md) altered in 22%; [KRAS](../genes/KRAS.md) in 19% (predominantly amplification); [ERBB2](../genes/ERBB2.md) in 16% (predominantly amplification); [ARID1A](../genes/ARID1A.md) 14%; [SMAD4](../genes/SMAD4.md) 10%; [CCNE1](../genes/CCNE1.md) 8% [PMID:35377946](../papers/35377946.md)
 
 ## Subtypes

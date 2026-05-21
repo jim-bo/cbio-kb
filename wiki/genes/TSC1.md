@@ -11,7 +11,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex with [TSC2](../genes/TSC2.md) (tuberin) that functions as a GTPase-activating protein for [RHEB](../genes/RHEB.md), thereby inhibiting mTORC1 signaling. Loss of TSC1 or TSC2 leads to constitutive mTOR activation, driving cellular growth and proliferation. Germline mutations cause tuberous sclerosis complex (TSC), and somatic mutations are a therapeutic target across multiple cancer types.
+TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex with [TSC2](../genes/TSC2.md) (tuberin) that functions as a GTPase-activating protein for [RHEB](../genes/RHEB.md), thereby inhibiting mTORC1 signaling. Loss of TSC1 or [TSC2](../genes/TSC2.md) leads to constitutive mTOR activation, driving cellular growth and proliferation. Germline mutations cause tuberous sclerosis complex (TSC), and somatic mutations are a therapeutic target across multiple cancer types.
 
 ## Alterations observed in the corpus
 
@@ -22,10 +22,10 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - TSC1 nonsense mutation in bladder cancer organoid line SCBO-6 conferred sensitivity to mTOR inhibitor AZD8055, with an additive effect when combined with FGFR inhibitor JNJ-42756493 [PMID:29625057](../papers/29625057.md)
 - Rare level-2B actionable finding (n=3 TSC1/TSC2 combined) in a 189-patient prospective NGS cohort of advanced cholangiocarcinoma; identified as a potentially targetable mTOR-pathway alteration [PMID:29848569](../papers/29848569.md)
 - Inactivating alterations enriched in secondary MIBC (14% vs 5.5%, univariable p=0.007) in MSK-IMPACT-profiled bladder cancer cohort; did not survive FDR correction; finding hypothesis-generating only [PMID:30290956](../papers/30290956.md)
-- Truncating/inactivating alterations in <1% of advanced [HCC](../cancer_types/HCC.md) (MSK-IMPACT cohort); together with TSC2 (~10.6%) defines mTOR negative-regulator loss as rationale for matched everolimus therapy; one TSC2 E95*-mutant patient had disease stabilization on everolimus after [sorafenib](../drugs/sorafenib.md) progression [PMID:30373752](../papers/30373752.md)
+- Truncating/inactivating alterations in <1% of advanced [HCC](../cancer_types/HCC.md) (MSK-IMPACT cohort); together with TSC2 (~10.6%) defines mTOR negative-regulator loss as rationale for matched [everolimus](../drugs/everolimus.md) therapy; one TSC2 E95*-mutant patient had disease stabilization on everolimus after [sorafenib](../drugs/sorafenib.md) progression [PMID:30373752](../papers/30373752.md)
 - OncoKB Level 2b actionable alteration in metastatic panNET ([panet_msk_2018](../datasets/panet_msk_2018.md)); 1 patient with TSC1 somatic alteration eligible for mTOR inhibitor therapy [PMID:30687805](../papers/30687805.md)
 - Recurrently mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md), n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
-- TSC1 listed among recurrent RTK/RAS/PI3K-pathway drivers in upper tract urothelial carcinoma (UTUC) PDX models, consistent with prior UTUC genomics [PMID:32332851](../papers/32332851.md)
+- TSC1 listed among recurrent RTK/RAS/PI3K-pathway drivers in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) PDX models, consistent with prior UTUC genomics [PMID:32332851](../papers/32332851.md)
 - Rare non-recurrent VUS observed in both excellent and poor responders among BRAF-mutant melanoma patients treated with BRAFi; no association with intrinsic resistance [PMID:32913971](../papers/32913971.md)
 - TSC1 listed as a recurrent CNS oncomap alteration in the AcSé-MAPPYACTS pediatric cohort (n=632 relapsed/refractory samples); co-listed with TSC2, [MN1](../genes/MN1.md), [KDR](../genes/KDR.md), [KIT](../genes/KIT.md), and [PDGFRA](../genes/PDGFRA.md) as other recurrent CNS alterations [PMID:35292802](../papers/35292802.md).
 
@@ -40,7 +40,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 
 ## Therapeutic relevance
 
-- mTOR inhibitors (everolimus, temsirolimus) are the designated targeted class for TSC1-mutant tumors; everolimus is FDA-approved in HR+/HER2− mBC. TSC1/2-mutant tumors are hypothesized to be outlier responders to everolimus in HR+/HER2− mBC. [PMID:28007021](../papers/28007021.md) [PMID:28027327](../papers/28027327.md)
+- mTOR inhibitors (everolimus, [temsirolimus](../drugs/temsirolimus.md)) are the designated targeted class for TSC1-mutant tumors; everolimus is FDA-approved in HR+/HER2− mBC. TSC1/2-mutant tumors are hypothesized to be outlier responders to everolimus in HR+/HER2− mBC. [PMID:28007021](../papers/28007021.md) [PMID:28027327](../papers/28027327.md)
 
 ## Open questions
 

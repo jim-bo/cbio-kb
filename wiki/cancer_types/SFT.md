@@ -25,7 +25,7 @@ Solitary Fibrous Tumor (formerly also called Hemangiopericytoma) is a fibroblast
 
 ## Recurrent alterations
 
-- In the 2,138-sarcoma MSK-IMPACT cohort (n=52 SFT), [TERT](../genes/TERT.md) promoter mutations were present in 46% (24/52) of SFTs — predominantly as amplifications; [TP53](../genes/TP53.md) co-occurs with TERT in SFT; NAB2–STAT6 is the defining diagnostic fusion [PMID:35705560](../papers/35705560.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort (n=52 SFT), [TERT](../genes/TERT.md) promoter mutations were present in 46% (24/52) of SFTs — predominantly as amplifications; [TP53](../genes/TP53.md) co-occurs with [TERT](../genes/TERT.md) in SFT; [NAB2](../genes/NAB2.md)–[STAT6](../genes/STAT6.md) is the defining diagnostic fusion [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 

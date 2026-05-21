@@ -25,7 +25,7 @@ GLI1 (GLI Family Zinc Finger 1) is a transcriptional effector of the Hedgehog si
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-amplified with CDK4 (and sometimes [MDM2](../genes/MDM2.md)) at the 12q13-15 chromosomal locus in FP-RMS [PMID:37730754](../papers/37730754.md).
+- Co-amplified with [CDK4](../genes/CDK4.md) (and sometimes [MDM2](../genes/MDM2.md)) at the 12q13-15 chromosomal locus in FP-RMS [PMID:37730754](../papers/37730754.md).
 
 ## Therapeutic relevance
 

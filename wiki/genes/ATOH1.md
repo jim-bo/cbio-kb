@@ -19,7 +19,7 @@ ATOH1 (Atonal BHLH Transcription Factor 1) is a basic helix-loop-helix (bHLH) tr
 
 ## Cancer types (linked)
 
-- **SCLC:** ATOH1 serves as a low-expression marker in the non-neuroendocrine SCLC-P subtype; expression pattern contrasts with high-ASCL1 and high-NEUROD1 neuroendocrine subtypes [PMID:35440124](../papers/35440124.md)
+- **[SCLC](../cancer_types/SCLC.md):** ATOH1 serves as a low-expression marker in the non-neuroendocrine SCLC-P subtype; expression pattern contrasts with high-ASCL1 and high-NEUROD1 neuroendocrine subtypes [PMID:35440124](../papers/35440124.md)
 
 ## Co-occurrence and mutual exclusivity
 

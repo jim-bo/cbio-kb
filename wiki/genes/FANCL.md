@@ -37,7 +37,7 @@ FANCL (Fanconi Anemia Complementation Group L) is the catalytic E3 ubiquitin lig
 
 ## Open questions
 
-- The carboplatin response analysis is based on 20 treated men using time-on-drug as surrogate; prospective validation of FANCL as a standalone biomarker is needed. [PMID:26928463](../papers/26928463.md)
+- The [carboplatin](../drugs/carboplatin.md) response analysis is based on 20 treated men using time-on-drug as surrogate; prospective validation of FANCL as a standalone biomarker is needed. [PMID:26928463](../papers/26928463.md)
 
 ## Sources
 

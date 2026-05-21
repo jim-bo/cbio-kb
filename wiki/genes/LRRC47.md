@@ -20,7 +20,7 @@ LRRC47 (Leucine-Rich Repeat Containing 47) encodes a protein of poorly character
 
 ## Cancer types (linked)
 
-- **HCC**: LRRC47 is dysregulated at both mRNA and protein levels, qualifying it as a cis-driver candidate in the integrative proteogenomic analysis of HCC [PMID:35508466](../papers/35508466.md).
+- **[HCC](../cancer_types/HCC.md)**: LRRC47 is dysregulated at both mRNA and protein levels, qualifying it as a cis-driver candidate in the integrative proteogenomic analysis of HCC [PMID:35508466](../papers/35508466.md).
 
 ## Co-occurrence and mutual exclusivity
 

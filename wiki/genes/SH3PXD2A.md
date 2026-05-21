@@ -32,7 +32,7 @@ SH3PXD2A (SH3 and PX domains 2A), also known as TKS5, encodes a scaffold protein
 
 ## Open questions
 
-- Whether SH3PXD2A–HTRA1 fusion drives RAS/MAPK upregulation independently or requires co-occurring NF2/LZTR1 loss.
+- Whether SH3PXD2A–[HTRA1](../genes/HTRA1.md) fusion drives RAS/MAPK upregulation independently or requires co-occurring NF2/LZTR1 loss.
 
 ## Sources
 

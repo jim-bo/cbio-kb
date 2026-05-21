@@ -4,8 +4,8 @@ oncotree_code: STAD
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Stomach Adenocarcinoma (STAD)
@@ -33,17 +33,18 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - TCGA multi-platform profiling of 295 primary gastric adenocarcinomas defines four molecular subtypes: EBV-positive (9%, [PIK3CA](../genes/PIK3CA.md) mutations 80%, 9p24.1 JAK2/CD274/PDCD1LG2 amplification), MSI (22%, [MLH1](../genes/MLH1.md) hypermethylation), GS (20%, [RHOA](../genes/RHOA.md) mutations 15%, CLDN18-ARHGAP fusions, [CDH1](../genes/CDH1.md) mutations 37%), and CIN (50%, [TP53](../genes/TP53.md) 71%, RTK amplifications); 76% of CIN tumors bear actionable focal amplifications of [ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), [MET](../genes/MET.md), or [VEGFA](../genes/VEGFA.md) [PMID:25079317](../papers/25079317.md)
 - WES of 78 primary gastric adenocarcinomas (294-patient pooled cohort) identified HiC (high-clonality) and LoC (low-clonality) subtypes; HiC tumors enriched for subclonal [TP53](../genes/TP53.md), older onset, and significantly shorter survival (adjusted HR 4.69, P=0.0043); [NRG1](../genes/NRG1.md) or [ERBB4](../genes/ERBB4.md) mutations in 11.6% and [BRCA2](../genes/BRCA2.md) mutations in 5.8% of cases [PMID:25583476](../papers/25583476.md).
 - TCGA integrated profiling added 77 new gastric adenocarcinomas (total 388) for comparison with esophageal carcinoma: chromosomally-unstable (CIN) gastric adenocarcinoma is molecularly indistinguishable from oesophageal adenocarcinoma; methylation gradient along the gastroesophageal axis shows proximal-to-distal hypermethylated-to-hypomethylated transition; MGMT/CHFR silencing enriched in proximal hypermethylated cluster [PMID:28052061](../papers/28052061.md)
-- In the MSK-IMPACT pan-cancer cohort, TP53 was significantly enriched in gastric cancer vs TCGA; MSI gastric tumors showed responses to immune checkpoint blockade; STAD was included among 62 principal tumor types profiled in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
-- Stomach adenocarcinoma was among the cancer subtypes in the MSK EGC cohort (n=295, stage IV, MSK-IMPACT); the GS molecular subtype (34%) was enriched for diffuse histology (32% vs 9% in CIN, P=3e-5) and CDH1 mutations; TP53 mutation rate in the MSK metastatic cohort (73%) was higher than in TCGA (62%, q=0.11), consistent with metastatic enrichment [PMID:29122777](../papers/29122777.md)
-- Pan-cancer fusion study (9,624 TCGA samples) included STAD; ERBB2 fusions were detected in gastric tumors; WNK-family fusions also present in STAD [PMID:29617662](../papers/29617662.md)
-- Pan-cancer aneuploidy study placed STAD in the gastrointestinal arm-level cluster (alongside COAD, READ, PAAD); STAD is an exception to the positive aneuploidy–mutation-rate correlation, driven by MSI/POLE cases [PMID:29622463](../papers/29622463.md)
-- Included in TCGA PanCancer Atlas; EBV-CIMP STAD forms iCluster C1; MSI STAD co-clusters with COAD in C18; ERBB2-amplified STAD appears in pan-squamous C2 (HER2 amp) with BRCA and BLCA [PMID:29625048](../papers/29625048.md)
-- MSI-high STAD over-expresses immune effectors GZMA, PRF1, GZMK, GZMH (Kolmogorov-Smirnov P<0.01); TP53 and KRAS mutually exclusive in STAD [PMID:29625049](../papers/29625049.md)
+- In the MSK-IMPACT pan-cancer cohort, [TP53](../genes/TP53.md) was significantly enriched in gastric cancer vs TCGA; MSI gastric tumors showed responses to immune checkpoint blockade; STAD was included among 62 principal tumor types profiled in [msk_impact_2017](../datasets/msk_impact_2017.md). [PMID:28481359](../papers/28481359.md)
+- Stomach adenocarcinoma was among the cancer subtypes in the MSK [EGC](../cancer_types/EGC.md) cohort (n=295, stage IV, MSK-IMPACT); the GS molecular subtype (34%) was enriched for diffuse histology (32% vs 9% in CIN, P=3e-5) and [CDH1](../genes/CDH1.md) mutations; TP53 mutation rate in the MSK metastatic cohort (73%) was higher than in TCGA (62%, q=0.11), consistent with metastatic enrichment [PMID:29122777](../papers/29122777.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included STAD; [ERBB2](../genes/ERBB2.md) fusions were detected in gastric tumors; WNK-family fusions also present in STAD [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed STAD in the gastrointestinal arm-level cluster (alongside [COAD](../cancer_types/COAD.md), [READ](../cancer_types/READ.md), [PAAD](../cancer_types/PAAD.md)); STAD is an exception to the positive aneuploidy–mutation-rate correlation, driven by MSI/POLE cases [PMID:29622463](../papers/29622463.md)
+- Included in TCGA PanCancer Atlas; EBV-CIMP STAD forms iCluster C1; MSI STAD co-clusters with COAD in C18; ERBB2-amplified STAD appears in pan-squamous C2 (HER2 amp) with [BRCA](../cancer_types/BRCA.md) and [BLCA](../cancer_types/BLCA.md) [PMID:29625048](../papers/29625048.md)
+- MSI-high STAD over-expresses immune effectors [GZMA](../genes/GZMA.md), [PRF1](../genes/PRF1.md), [GZMK](../genes/GZMK.md), [GZMH](../genes/GZMH.md) (Kolmogorov-Smirnov P<0.01); TP53 and [KRAS](../genes/KRAS.md) mutually exclusive in STAD [PMID:29625049](../papers/29625049.md)
 - ERBB2 alterations in chromosomally-unstable esophagogastric (STAD CIN) at 26%; EBV+ STAD shows 80% PI3K pathway alteration rate; PI3K+MEK combination actionable in 10% of EBV+ STAD [PMID:29625050](../papers/29625050.md)
-- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for STAD [PMID:29625055](../papers/29625055.md)
-- WGS of 212 gastric adenocarcinomas: 34 significant non-coding SNV hotspots identified, 11 overlapping CTCF binding sites (CBS); 25% of gastric tumors carry ≥1 CBS hotspot mutation; CBS hotspot mutations are clonal early events (VAF indistinguishable from coding driver mutations, p=0.49) enriched in CIN subtype (71%, Fisher's exact p=0.012) [PMID:29670109](../papers/29670109.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) recommended without reservation for STAD [PMID:29625055](../papers/29625055.md)
+- WGS of 212 gastric adenocarcinomas: 34 significant non-coding SNV hotspots identified, 11 overlapping [CTCF](../genes/CTCF.md) binding sites (CBS); 25% of gastric tumors carry ≥1 CBS hotspot mutation; CBS hotspot mutations are clonal early events (VAF indistinguishable from coding driver mutations, p=0.49) enriched in CIN subtype (71%, Fisher's exact p=0.012) [PMID:29670109](../papers/29670109.md)
 - Stomach adenocarcinoma is one of the four classic Lynch syndrome-associated tumor types with highest MSI-H prevalence in the pan-cancer 39-type MANTIS analysis of 11,139 TCGA/TARGET tumors [PMID:29850653](../papers/29850653.md)
-- 11/37 (30%) patients in a HER2-positive mEGC phase 2 pembrolizumab + trastuzumab + chemotherapy trial had gastric (STAD) primary; overall trial met primary endpoint with 70% 6-month PFS rate and 91% ORR [PMID:32437664](../papers/32437664.md)
+- 11/37 (30%) patients in a HER2-positive mEGC phase 2 [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy trial had gastric (STAD) primary; overall trial met primary endpoint with 70% 6-month PFS rate and 91% ORR [PMID:32437664](../papers/32437664.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): STAD comprised 8% of cohort; MSI-H in 26% of all cohort MSI-H cases (second-most after CRC); [ARID1A](../genes/ARID1A.md) truncating mutations in 7.2%; CDH1 enriched in younger STAD patients; older STAD enriched for TP53/NOTCH1/FAT4; MSI-H rate 26% of 186 MSI-H cases [PMID:35871175](../papers/35871175.md)
 
 ## Subtypes
 
@@ -64,51 +65,54 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+
 - [PMID:28052061](../papers/28052061.md)
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:29670109](../papers/29670109.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
 - [PMID:32437664](../papers/32437664.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

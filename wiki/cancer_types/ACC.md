@@ -22,7 +22,7 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 
 - PIPseq cohort: [ALK](../genes/ALK.md) Q1146K activating mutation identified in an adrenocortical carcinoma patient — an ALK-inhibitor target; the patient received matched targeted therapy ([ALK](../genes/ALK.md) inhibitor) [PMID:28007021](../papers/28007021.md).
 - Pan-cancer RNA-seq fusion profiling (9,624 TCGA samples) included ACC as one of 33 cancer types; ACC samples had a median of 1 fusion/sample consistent with the pan-cancer median [PMID:29617662](../papers/29617662.md)
-- Included in the TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types; iCluster analysis identified ACC co-clustering with [KICH](../cancer_types/KICH.md) in C9 (both hypodiploid) [PMID:29625048](../papers/29625048.md)
+- Included in the TCGA PanCancer Atlas integrative molecular analysis of 9,759 tumors across 33 cancer types; iCluster analysis identified ACC co-clustering with [KICH](../cancer_types/KICH.md) in [C9](../genes/C9.md) (both hypodiploid) [PMID:29625048](../papers/29625048.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types; 89% of tumors carry at least one driver alteration in 10 canonical oncogenic pathways [PMID:29625050](../papers/29625050.md)
 - Included in the TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR) across 11,160 patients and 33 cancer types; standardized [OS](../cancer_types/OS.md), PFI, DFI, and DSS endpoints derived for survival analyses [PMID:29625055](../papers/29625055.md)
 - MSI-H detected in 4.3% of adrenocortical carcinoma cases (4/92) by MANTIS WES caller across 11,139 TCGA/TARGET tumors; MSI-H ACC tumors had significantly higher mutational burden vs MSS (1,157 vs 216 mutations, P=0.01); 64% of MSI-H cases carried deleterious somatic MMR/proofreading gene mutations [PMID:29850653](../papers/29850653.md)
@@ -30,14 +30,14 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 
 ## Subtypes
 
-- Pediatric ACC: strongly enriched for germline [TP53](../genes/TP53.md) mutations (Li-Fraumeni syndrome), particularly in the Southern Brazil cluster (TP53 R337H founder mutation).
+- Pediatric ACC: strongly enriched for germline [TP53](../genes/TP53.md) mutations (Li-Fraumeni syndrome), particularly in the Southern Brazil cluster ([TP53](../genes/TP53.md) R337H founder mutation).
 - Adult ACC: Wnt-pathway driven (CTNNB3 mutations, [ZNRF3](../genes/ZNRF3.md) deletion); IGF2-overexpressing (11p15 LOH).
 
 ## Therapeutic landscape
 
 - Mitotane (adrenostatic) monotherapy or combined with EDP chemotherapy for advanced disease.
 - [IGF1R](../genes/IGF1R.md) inhibitors evaluated (given frequent [IGF2](../genes/IGF2.md) overexpression) without established efficacy.
-- [ALK](../genes/ALK.md) inhibitors ([crizotinib](../drugs/crizotinib.md), alectinib) for ALK-mutant ACC (rare; identified in PIPseq cohort) [PMID:28007021](../papers/28007021.md).
+- [ALK](../genes/ALK.md) inhibitors ([crizotinib](../drugs/crizotinib.md), [alectinib](../drugs/alectinib.md)) for ALK-mutant ACC (rare; identified in PIPseq cohort) [PMID:28007021](../papers/28007021.md).
 
 ## Sources
 

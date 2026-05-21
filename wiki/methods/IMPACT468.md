@@ -51,9 +51,10 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used as one of the MSK-IMPACT targeted sequencing panels (468-gene version) in the MSK-MET pan-cancer cohort of 25,775 patients; FACETS allele-specific copy-number analysis applied to a subset of 17,224 samples [PMID:35120664](../papers/35120664.md)
 - Used as one of three MSK-IMPACT targeted panel versions (468-gene) in a cohort of 237 esophageal/GEJ adenocarcinoma patients sequenced at MSK 2014–2020 [PMID:35377946](../papers/35377946.md).
 - Applied in [lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md) study: IMPACT468 panel (n=83 patients, majority) used as part of MSK-IMPACT targeted sequencing across 119 LGSC patients at median 588× depth [PMID:35443055](../papers/35443055.md)
-- Used to sequence a subset of 1,417 prostate cancer patients (468 genes) in a study of [PIK3R1](../genes/PIK3R1.md) alterations and FDG-PET avidity; all three panel versions contained PIK3R1 [PMID:35670774](../papers/35670774.md)
+- Used to sequence a subset of 1,417 prostate cancer patients (468 genes) in a study of [PIK3R1](../genes/PIK3R1.md) alterations and FDG-PET avidity; all three panel versions contained [PIK3R1](../genes/PIK3R1.md) [PMID:35670774](../papers/35670774.md)
 - Applied to 1,356 of 2,138 sarcomas (63.4%) in the MSK sarcoma genomic landscape study — the dominant panel version used [PMID:35705560](../papers/35705560.md)
 - Primary sequencing assay for 170 of 184 MSI-H/MMR-D endometrial cancers (median depth 637×) in a study comparing germline, somatic, and MLH1-promoter-hypermethylation MMR-deficiency mechanisms [PMID:35849120](../papers/35849120.md)
+- Used to profile 42 primary endometrial cancer tumors (median depth 618x, range 101–1030x) in a prospective cfDNA monitoring study; tumor-informed variant calling against MSK-ACCESS enabled detection of 92% of primary-tumor mutations in baseline plasma [PMID:36007103](../papers/36007103.md)
 
 ## Notes
 
@@ -156,5 +157,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -65,7 +65,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Truncating APC mutations split at aa 1400 into N-terminal (longer OS/PFS, fewer concurrent mitogenic hits) and C-terminal (shorter OS/PFS, enriched RAS/PI3K co-mutation) prognostic groups in MSS metastatic colorectal cancer, identifying APC mutation site — not merely mutation status — as a clinically relevant biomarker. [PMID:32730818](../papers/32730818.md)
 - Assessed at >=2% frequency in a 514-sample [LUAD](../cancer_types/LUAD.md) genomics cohort (pN+ vs pN- node-metastasis study); no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
 - Truncating mutations in 78.7% of early-onset CRC (EO-CRC) MSS tumors; germline pathogenic/likely-pathogenic APC variants in 3/14 high-penetrance carriers; APC alteration or 20q amplification associated with improved survival on univariate analysis (HR=0.64, 95% CI 0.44-0.93, P=0.02) in 1,163 MSS CRC patients. [PMID:34405229](../papers/34405229.md)
-- Depleted in Nigerian MSS colorectal tumors (36.9% vs 76.0% MSKCC, P<0.01); loss decoupled from CTNNB1 compensation, suggesting non-canonical WNT activation [PMID:34819518](../papers/34819518.md)
+- Depleted in Nigerian MSS colorectal tumors (36.9% vs 76.0% MSKCC, P<0.01); loss decoupled from [CTNNB1](../genes/CTNNB1.md) compensation, suggesting non-canonical WNT activation [PMID:34819518](../papers/34819518.md)
 - APC-truncating mutations drive WNT-pathway expansion of [LGR5](../genes/LGR5.md)+ crypt-base stem cells in conventional adenomas (tubular/tubulovillous) in the COLON MAP / HTAN pre-cancer atlas [PMID:34910928](../papers/34910928.md)
 - Mutations more frequent in [PRAD](../cancer_types/PRAD.md) liver (5% vs 11%, q=0.001) and lung (5% vs 12%, q<0.001) metastases in the MSK-MET pan-cancer cohort; WNT pathway including APC altered in 26% of [PRAD](../cancer_types/PRAD.md) lung metastases vs 13% primary [PMID:35120664](../papers/35120664.md)
 - APC high prevalence in CRC-DD (dual MAPK driver CRC, n=47/4,561 patients); APC S1505Afs identified as an early/truncal event in single-cell genotyping of patient P-0021518 [PMID:35235413](../papers/35235413.md)
@@ -74,6 +74,10 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC germline pathogenic variant identified in a LGSC patient in a cohort of 119 low-grade serous ovarian carcinomas profiled by MSK-IMPACT [PMID:35443055](../papers/35443055.md)
 - APC mutated in 8/51 (16%) prostate cancer brain metastases (PCBM) in a multi-region WGS study; among the most recurrent alterations in this metastatic context [PMID:35504881](../papers/35504881.md)
 - APC shows a non-significant trend toward co-occurrence with [PIK3R1](../genes/PIK3R1.md) alterations in 1,417 MSK-IMPACT profiled prostate cancers [PMID:35670774](../papers/35670774.md)
+- Altered in 13% pan-cohort in the OncoMark Chinese solid-tumor cohort; 72% of [COADREAD](../cancer_types/COADREAD.md), indistinguishable from MSK-IMPACT frequency; structural deletion detected by LINX/PURPLE in metastatic cSCC WGS cohort [PMID:35871175](../papers/35871175.md)
+- Altered in 81% of pMMR/MSS rectal tumors (LARC cohort, n=652); frequency decreases toward the anal verge (UR 92% / MR 90% / LR 77%, p<0.001); median distance from anal verge 6.85 cm in APC-altered vs 4 cm in wild-type (p<0.001); C-terminal in rectum/DCA, N-terminal in PCA; replicated in MSK-OtherRectal (n=157) [PMID:35970919](../papers/35970919.md)
+- Structural deletion detected by LINX/PURPLE SV analysis in metastatic cSCC WGS cohort (n=25) [PMID:35982973](../papers/35982973.md)
+- Somatic APC mutation detected in cfDNA at baseline by MSK-ACCESS in EC patient CD36 (stage IIIA grade 1 endometrioid); one of 5 primary-tumor mutations, all detected in baseline ctDNA [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
@@ -256,5 +260,17 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

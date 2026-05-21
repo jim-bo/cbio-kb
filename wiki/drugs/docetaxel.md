@@ -36,7 +36,7 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 ## Cancer types (linked)
 
 - [OS](../cancer_types/OS.md) — osteosarcoma; NCCN-listed indication in the PDTO screen context.
-- [RMS](../cancer_types/RMS.md) — rhabdomyosarcoma; gemcitabine + docetaxel combination used in treatment-matched cohort.
+- [RMS](../cancer_types/RMS.md) — rhabdomyosarcoma; [gemcitabine](../drugs/gemcitabine.md) + docetaxel combination used in treatment-matched cohort.
 
 ## Sources
 

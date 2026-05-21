@@ -36,7 +36,7 @@ CDK6 (Cyclin-Dependent Kinase 6) partners with Cyclin D proteins to phosphorylat
 
 ## Therapeutic relevance
 
-- CDK6 upregulation in EGFR-altered GBM may be relevant to CDK4/6 inhibitor strategies; not directly tested in the corpus [PMID:33577785](../papers/33577785.md).
+- CDK6 upregulation in EGFR-altered [GBM](../cancer_types/GBM.md) may be relevant to CDK4/6 inhibitor strategies; not directly tested in the corpus [PMID:33577785](../papers/33577785.md).
 
 ## Open questions
 

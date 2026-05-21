@@ -3,8 +3,8 @@ symbol: RUNX1
 aliases: []
 cancer_types: []
 tags: [transcription-factor, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # RUNX1
@@ -22,16 +22,17 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - RUNX1 is a recurrent driver in [AML](../cancer_types/AML.md), mutually exclusive of [FLT3](../genes/FLT3.md) and [NPM1](../genes/NPM1.md), with allelic expression bias observed; associated with transcription-factor-fusion and favorable-risk [AML](../cancer_types/AML.md) grouping (RUNX1-RUNX1T1 fusion) [PMID:23634996](../papers/23634996.md)
 - Mutated in 2/21 sequenced sinonasal adenoid cystic carcinomas (AdCC; 9%); frameshift duplications/deletions detected; chromatin-regulatory context alongside [EP300](../genes/EP300.md), [KDM6A](../genes/KDM6A.md), and [BCOR](../genes/BCOR.md) mutations [PMID:24418857](../papers/24418857.md)
 - ILC-enriched mutations (10% [ILC](../cancer_types/ILC.md) vs 3% [IDC](../cancer_types/IDC.md), all-comers) in TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
-- Identified as a Mut-driver transcription factor in the METABRIC 2,433-tumor breast cancer cohort; co-mutation with CDH1 is characteristic of invasive lobular carcinoma biology (CDH1 co-mutated with PIK3CA, TBX3, RUNX1, and ERBB2; OR=5.7 for CDH1+ERBB2 co-mutation). [PMID:27161491](../papers/27161491.md)
-- RUNX1 is a transcription factor in the chromatin-spliceosome AML subgroup; the RUNX1-RUNX1T1 t(8;21) fusion defines a favorable subgroup (4%, n=60); authors recommend RUNX1 evaluation at diagnosis [PMID:27276561](../papers/27276561.md).
-- Listed among genes implicated in age-related clonal hematopoiesis; appeared in context of rising nonleukemic clones during decitabine therapy in TP53-mutant AML/MDS, though not specifically assayed in remission samples [PMID:27959731](../papers/27959731.md)
+- Identified as a Mut-driver transcription factor in the METABRIC 2,433-tumor breast cancer cohort; co-mutation with [CDH1](../genes/CDH1.md) is characteristic of invasive lobular carcinoma biology (CDH1 co-mutated with [PIK3CA](../genes/PIK3CA.md), [TBX3](../genes/TBX3.md), RUNX1, and [ERBB2](../genes/ERBB2.md); OR=5.7 for CDH1+ERBB2 co-mutation). [PMID:27161491](../papers/27161491.md)
+- RUNX1 is a transcription factor in the chromatin-spliceosome [AML](../cancer_types/AML.md) subgroup; the RUNX1-RUNX1T1 t(8;21) fusion defines a favorable subgroup (4%, n=60); authors recommend RUNX1 evaluation at diagnosis [PMID:27276561](../papers/27276561.md).
+- Listed among genes implicated in age-related clonal hematopoiesis; appeared in context of rising nonleukemic clones during [decitabine](../drugs/decitabine.md) therapy in TP53-mutant AML/MDS, though not specifically assayed in remission samples [PMID:27959731](../papers/27959731.md)
 - Germline heterozygous splice-site c.806-2A>G in AML — diagnostic of familial platelet disorder; HLA-matched sibling and father carried the same variant, prompting selection of an unrelated donor for bone-marrow transplant [PMID:28007021](../papers/28007021.md)
-- RUNX1 deletion higher in esophageal adenocarcinoma (EAC) vs CIN gastric cancer in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
-- RUNX1 mutations associated with PI3K/mTOR and VEGFR-multikinase sensitivity ex vivo in Beat AML (aml_ohsu_2018); co-mutation of RUNX1 + BCOR drove JAK-inhibitor (momelotinib, ruxolitinib, tofacitinib) sensitivity, implicating context-specific JAK-pathway dependence [PMID:30333627](../papers/30333627.md)
-- ETV6-RUNX1 fusion present in 88% of ETV6-rearranged BCP-ALL PDX models (27% of total BCP-ALL models had ETV6 fusions) in the PPTC 261-model pediatric cancer genomic characterization [PMID:31693904](../papers/31693904.md).
+- RUNX1 deletion higher in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) vs CIN gastric cancer in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
+- RUNX1 mutations associated with PI3K/mTOR and VEGFR-multikinase sensitivity ex vivo in Beat AML ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)); co-mutation of RUNX1 + [BCOR](../genes/BCOR.md) drove JAK-inhibitor ([momelotinib](../drugs/momelotinib.md), [ruxolitinib](../drugs/ruxolitinib.md), [tofacitinib](../drugs/tofacitinib.md)) sensitivity, implicating context-specific JAK-pathway dependence [PMID:30333627](../papers/30333627.md)
+- ETV6-RUNX1 fusion present in 88% of ETV6-rearranged BCP-ALL PDX models (27% of total BCP-ALL models had [ETV6](../genes/ETV6.md) fusions) in the PPTC 261-model pediatric cancer genomic characterization [PMID:31693904](../papers/31693904.md).
 - RUNX1 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Classified as a CH-myeloid-PD gene in therapy-shaped clonal hematopoiesis; truncating, hotspot, or in-frame variants were classed as putative CH drivers in cancer patients with prior therapy exposure [PMID:33106634](../papers/33106634.md)
 - Observed as a transient molecular abnormality in the transformation cohort of pediatric neuroblastoma patients who developed therapy-related myeloid neoplasms [PMID:35078859](../papers/35078859.md)
+- In AML cell-state analysis (n=68), RUNX1 mutations correlate with both HSC-like and cDC-like maturation states and confer ex vivo sensitivity to PIK-family inhibitors; associated with elevated [PEAR1](../genes/PEAR1.md) expression [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 
@@ -81,10 +82,13 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

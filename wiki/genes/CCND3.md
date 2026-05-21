@@ -21,11 +21,11 @@ CCND3 (Cyclin D3) is a D-type cyclin that promotes cell cycle progression by act
 
 ## Cancer types (linked)
 
-- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CCND3 amplification detected at ≥5% frequency; no independent OS association demonstrated in this cohort [PMID:33795256](../papers/33795256.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CCND3 amplification detected at ≥5% frequency; no independent [OS](../cancer_types/OS.md) association demonstrated in this cohort [PMID:33795256](../papers/33795256.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with other amplification-driven recurrent drivers including MYC, [VEGFA](../genes/VEGFA.md), [EGFR](../genes/EGFR.md), and CDK6 in EAC [PMID:33795256](../papers/33795256.md).
+- Co-occurs with other amplification-driven recurrent drivers including [MYC](../genes/MYC.md), [VEGFA](../genes/VEGFA.md), [EGFR](../genes/EGFR.md), and [CDK6](../genes/CDK6.md) in [EAC](../cancer_types/EAC.md) [PMID:33795256](../papers/33795256.md).
 
 ## Therapeutic relevance
 

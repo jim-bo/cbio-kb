@@ -25,7 +25,7 @@ Epithelioid Hemangioendothelioma is a rare vascular tumor of intermediate malign
 
 ## Recurrent alterations
 
-- In a 7,494-sarcoma cohort, epithelioid hemangioendothelioma was included as a translocation-associated histotype; WWTR1–CAMTA1 and YAP1–TFE3 fusions are the defining molecular events; 31.7% of all sarcomas harbored ≥1 OncoKB actionable alteration [PMID:35705558](../papers/35705558.md).
+- In a 7,494-sarcoma cohort, epithelioid hemangioendothelioma was included as a translocation-associated histotype; [WWTR1](../genes/WWTR1.md)–CAMTA1 and [YAP1](../genes/YAP1.md)–[TFE3](../genes/TFE3.md) fusions are the defining molecular events; 31.7% of all sarcomas harbored ≥1 OncoKB actionable alteration [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 

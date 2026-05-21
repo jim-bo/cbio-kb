@@ -41,7 +41,7 @@ MSK-IMPACT targeted sequencing cohort of 119 patients with centrally pathology-r
 
 - MAPK pathway alteration in 71/119 (60%) of LGSCs: [KRAS](../genes/KRAS.md) 33%, [NRAS](../genes/NRAS.md) 11%, [BRAF](../genes/BRAF.md) 11%, [EIF1AX](../genes/EIF1AX.md) 10%, [CDKN2A](../genes/CDKN2A.md) homozygous deletion 8%; [ERBB2](../genes/ERBB2.md) alterations in 5 cases. [PMID:35443055](../papers/35443055.md)
 - MAPK pathway alteration is an independent favorable prognostic factor for [OS](../cancer_types/OS.md) in LGSC on multivariate analysis (HR 2.5 [1.2–5.2] for absence vs presence, p=0.019); platinum sensitivity also independently favorable (HR 0.4, p=0.005). [PMID:35443055](../papers/35443055.md)
-- Median OS: 339 months (MAPK-altered) vs 125 months (MAPK-wildtype); 234 months (platinum-sensitive) vs 45 months (platinum-resistant). [PMID:35443055](../papers/35443055.md)
+- Median [OS](../cancer_types/OS.md): 339 months (MAPK-altered) vs 125 months (MAPK-wildtype); 234 months (platinum-sensitive) vs 45 months (platinum-resistant). [PMID:35443055](../papers/35443055.md)
 - No pathogenic germline [BRCA1](../genes/BRCA1.md)/[BRCA2](../genes/BRCA2.md) mutations in any of 79 tested patients — sharply distinguishing LGSC from HGSC despite 13% Ashkenazi Jewish representation in the cohort. [PMID:35443055](../papers/35443055.md)
 - 18% of LGSCs (n=21) lacked detectable driver alterations despite adequate tumor purity; sequential re-sequencing in 8 patients showed 2/5 initially driver-negative tumors acquired MAPK alterations at recurrence. [PMID:35443055](../papers/35443055.md)
 - Low tumor mutational burden: median 1.8 mutations/Mb; all 102 evaluable cases microsatellite stable. [PMID:35443055](../papers/35443055.md)

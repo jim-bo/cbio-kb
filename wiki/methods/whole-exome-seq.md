@@ -175,7 +175,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 326 of the 1,072 CCLE cancer cell lines as part of the expanded multi-omic CCLE characterization; compared against 1,001 Sanger GDSC WES lines (667 overlapping), showing high concordance (Pearson r=0.95 for germline allelic fractions, r=0.92 for cancer hotspot somatic variants) [PMID:31068700](../papers/31068700.md)
 - Applied to 173 tumors / 121 cases in the pan-Asia cHCC-ICC study at mean 108× tumor / 101× normal depth (Illumina HiSeq platform); primary alteration discovery platform for SNVs, indels, and CNAs [PMID:31130341](../papers/31130341.md)
 - Applied to 37 high-grade [UTUC](../cancer_types/UTUC.md) tumor-normal pairs (WCM n=22; BCM-MDA n=15); BCM-MDA samples at ~85× mean coverage on Illumina HiSeq 2500 (2×100 bp); primary discovery platform for somatic mutations, TMB (mean 2.91 mut/Mb in [UTUC](../cancer_types/UTUC.md) vs. 5.46 mut/Mb in TCGA UCB) [PMID:31278255](../papers/31278255.md)
-- Performed on 193 [ACC](../cancer_types/ACC.md) cases (combined across Sanger/MDACC and MSKCC cohorts); mean TMB 0.34 mut/Mb across ACC, identifying recurrent enrichment of [NOTCH1](../genes/NOTCH1.md) (26.3%), chromatin-remodeling, and [TERT](../genes/TERT.md) promoter mutations in R/M disease [PMID:31483290](../papers/31483290.md).
+- Performed on 193 [ACC](../cancer_types/ACC.md) cases (combined across Sanger/MDACC and MSKCC cohorts); mean TMB 0.34 mut/Mb across [ACC](../cancer_types/ACC.md), identifying recurrent enrichment of [NOTCH1](../genes/NOTCH1.md) (26.3%), chromatin-remodeling, and [TERT](../genes/TERT.md) promoter mutations in R/M disease [PMID:31483290](../papers/31483290.md).
 - HGSC VCRome 2.1 capture WES performed on 240 of 261 PPTC pediatric PDX models; median TMB 2.66 somatic Mut/Mb; relapse-derived PDXs had significantly higher TMB than diagnosis-derived (3.08 vs. 2.57 Mut/Mb, Wilcoxon p=2.2e-5) [PMID:31693904](../papers/31693904.md).
 - Used in the CPTAC endometrial carcinoma study (n=95 tumors, 49 normal samples) on Illumina HiSeq4000 (paired 76-cycle, min 150× on-target coverage, hg38); identified novel SMGs in MSI tumors including [INPPL1](../genes/INPPL1.md) (56%), [KMT2B](../genes/KMT2B.md) (56%), and [JAK1](../genes/JAK1.md) (44%) [PMID:32059776](../papers/32059776.md).
 - WES (median 186× tumor / 126× normal) performed on 56 samples from 25 patients with synchronous DCIS/IDC-NST pairs plus 7 pure [DCIS](../cancer_types/DCIS.md); median 37 non-synonymous somatic mutations per [DCIS](../cancer_types/DCIS.md) [PMID:32220886](../papers/32220886.md)
@@ -192,6 +192,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to all 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) using SureSelect XT Clinical Research Exome / SureSelect V6+COSMIC (HiSeq 2500; tumor median 94.3×, normal 49.4×; GRCh37 alignment via BWA; somatic SNVs by MuTect, indels by Strelka) [PMID:35508466](../papers/35508466.md)
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) for mutational and CNV profiling of CRPC organoids (22 models) and 10/15 matched tumor biopsies via MSK-IMPACT panel sequencing; WES data supported the chromatin subtype characterization [PMID:35617398](../papers/35617398.md)
 - Whole-exome sequencing used for somatic variant and CNA calling in a subset of GLASS longitudinal glioma samples (b37 alignment via BWA-MEM, somatic calls by MuTect2, CNA by TITAN) [PMID:35649412](../papers/35649412.md)
+- Used for DNA sequencing in Beat [AML](../cancer_types/AML.md) Waves 1+2; extended by an 11.9 Mb custom capture library in Waves 3+4 covering all variants previously reported in AML [PMID:35868306](../papers/35868306.md)
+- Applied to 97 rectal adenocarcinoma tumors for mutational-signature analysis alongside MSK-IMPACT panel sequencing in the 738-patient LARC cohort [PMID:35970919](../papers/35970919.md)
 
 ## Notes
 
@@ -681,5 +683,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

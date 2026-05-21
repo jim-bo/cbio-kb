@@ -30,10 +30,11 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - Chromoplexy-mediated fusions and enhancer-hijacking events involving RET observed in thyroid adenocarcinoma (PCAWG pan-cancer SV analysis) [PMID:32025007](../papers/32025007.md)
 - In-frame kinase fusions recurrent in [LUAD](../cancer_types/LUAD.md) proteogenomic cohort (CPTAC, n=110); RET rearrangements among most frequent oncogenic kinase fusions observed [PMID:32649874](../papers/32649874.md)
 - KIF5B-RET fusions detected in [NSCLC](../cancer_types/NSCLC.md) via MSK-ACCESS cfDNA profiling [PMID:34145282](../papers/34145282.md)
-- RET fusions found only in the piano subtype of LCINS LUAD (2.6% of piano tumors, 1.3% overall); RET fusions are a candidate selpercatinib/pralsetinib indication in this never-smoker subgroup [PMID:34493867](../papers/34493867.md)
+- RET fusions found only in the piano subtype of LCINS [LUAD](../cancer_types/LUAD.md) (2.6% of piano tumors, 1.3% overall); RET fusions are a candidate selpercatinib/pralsetinib indication in this never-smoker subgroup [PMID:34493867](../papers/34493867.md)
 - RET-CCDC6 fusion (n=1) classified as ready-for-routine-use actionability tier in the AcSé-MAPPYACTS pediatric precision oncology cohort (n=632 relapsed/refractory pediatric tumor samples) [PMID:35292802](../papers/35292802.md).
 - RET activating fusions (KIF5B-RET, CCDC6-RET, NCOA4-RET, TAF3-RET, ERC1-RET, RBPMS-RET, CLIP1-RET, EML4-RET, KIF13A-RET, KIAA1468-RET, RUFY3-RET) and kinase-domain mutations (including germline/somatic M918T) define trial-qualifying drivers for [selpercatinib](../drugs/selpercatinib.md); acquired on-target resistance mutations include solvent-front G810C/G810S, gatekeeper V804M, Y806C, and compound cis mutants [PMID:35304457](../papers/35304457.md).
 - RET kinase fusions detected in 2.6% of sarcomas as part of a kinase-fusion gene panel ([ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), RET, [FGFR1](../genes/FGFR1.md), NTRK1/2/3, [BRAF](../genes/BRAF.md)); novel TNS1-ALK fusion also identified in [LMS](../cancer_types/LMS.md) (16 cases) [PMID:35705558](../papers/35705558.md)
+- Pan-cancer fusion driver with multiple novel partner genes catalogued in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=1015) [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

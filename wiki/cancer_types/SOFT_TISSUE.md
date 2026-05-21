@@ -35,7 +35,7 @@ Key soft tissue sarcoma subtypes in the corpus: [ANGS](../cancer_types/ANGS.md),
 ## Therapeutic landscape
 
 - Translocation-associated sarcomas ([SYNS](../cancer_types/SYNS.md), [ES](../cancer_types/ES.md), [IMT](../cancer_types/IMT.md)): targeted by fusion-specific TKIs ([larotrectinib](../drugs/larotrectinib.md) for NTRK fusions) [PMID:35705558](../papers/35705558.md).
-- Genomically complex sarcomas ([LMS](../cancer_types/LMS.md), [MFH](../cancer_types/MFH.md), MPNST): more targetable alterations overall; ICI most relevant in TMB-high subset (3.9–10.9%) [PMID:35705558](../papers/35705558.md).
+- Genomically complex sarcomas ([LMS](../cancer_types/LMS.md), [MFH](../cancer_types/MFH.md), [MPNST](../cancer_types/MPNST.md)): more targetable alterations overall; ICI most relevant in TMB-high subset (3.9–10.9%) [PMID:35705558](../papers/35705558.md).
 
 ## Sources
 

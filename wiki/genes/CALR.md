@@ -3,8 +3,8 @@ symbol: CALR
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CALR
@@ -15,17 +15,18 @@ CALR (calreticulin) encodes an endoplasmic reticulum chaperone protein. Somatic 
 
 ## Alterations observed in the corpus
 
-- Recurrent exon 9 +1 bp frameshift indels (19 distinct variants; L367fs*46 deletion and K385fs*47 insertion dominant) in 70–84% of JAK2/MPL-negative MPN; mutually exclusive with [JAK2](../genes/JAK2.md) and [MPL](../genes/MPL.md); first report of somatic mutations in an ER chaperone in any cancer; produces mutant protein with novel basic C-terminus lacking KDEL ER-retention signal [PMID:24325359](../papers/24325359.md)
+- Recurrent exon 9 +1 bp frameshift indels (19 distinct variants; L367fs*46 deletion and K385fs*47 insertion dominant) in 70–84% of JAK2/MPL-negative [MPN](../cancer_types/MPN.md); mutually exclusive with [JAK2](../genes/JAK2.md) and [MPL](../genes/MPL.md); first report of somatic mutations in an ER chaperone in any cancer; produces mutant protein with novel basic C-terminus lacking KDEL ER-retention signal [PMID:24325359](../papers/24325359.md)
 - Components of the MHC class I antigen-processing machinery (APM), including CALR, were enriched for somatic mutations in TIL-rich colorectal tumors, consistent with immune-escape selection [PMID:27149842](../papers/27149842.md).
 - CALR in-frame indels classed as CH-myeloid putative driver variants in a 9,437-patient MSK-IMPACT study of therapy-associated clonal hematopoiesis and therapy-related myeloid neoplasm risk [PMID:33106634](../papers/33106634.md)
+- Focally amplified in 2/25 metastatic cSCC samples (WGS cohort); co-amplified with [FGF3](../genes/FGF3.md) in CSCC_0132 and CSCC_0134; structural gain also detected by LINX/PURPLE SV analysis [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
-- Myeloproliferative neoplasms (ET, MF): dominant driver in JAK2/MPL-negative cases; CALR-mutated ET presents with higher platelet counts, lower hemoglobin, and higher transformation-to-MF risk than JAK2-mutated ET [PMID:24325359](../papers/24325359.md)
+- Myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [MF](../cancer_types/MF.md)): dominant driver in JAK2/MPL-negative cases; CALR-mutated ET presents with higher platelet counts, lower hemoglobin, and higher transformation-to-MF risk than JAK2-mutated ET [PMID:24325359](../papers/24325359.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Strictly mutually exclusive with JAK2 V617F and MPL mutations in MPN [PMID:24325359](../papers/24325359.md)
+- Strictly mutually exclusive with [JAK2](../genes/JAK2.md) V617F and [MPL](../genes/MPL.md) mutations in MPN [PMID:24325359](../papers/24325359.md)
 - Mutations arise in the HSC compartment at earliest phylogenetic node [PMID:24325359](../papers/24325359.md)
 
 ## Therapeutic relevance
@@ -41,10 +42,13 @@ CALR (calreticulin) encodes an endoplasmic reticulum chaperone protein. Somatic 
 
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

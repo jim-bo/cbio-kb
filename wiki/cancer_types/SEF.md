@@ -17,7 +17,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Sclerosing Epithelioid Fibrosarcoma is a rare, aggressive fibrosarcoma variant characterized by epithelioid cells embedded in a densely sclerotic stroma. It is frequently associated with [EWSR1](../genes/EWSR1.md)–CREB3L1 or EWSR1–CREB3L2 fusions and has histological overlap with Low-Grade Fibromyxoid Sarcoma. OncoTree classifies it under fibrosarcoma ([FIBS](../cancer_types/FIBS.md)).
+Sclerosing Epithelioid Fibrosarcoma is a rare, aggressive fibrosarcoma variant characterized by epithelioid cells embedded in a densely sclerotic stroma. It is frequently associated with [EWSR1](../genes/EWSR1.md)–CREB3L1 or [EWSR1](../genes/EWSR1.md)–CREB3L2 fusions and has histological overlap with Low-Grade Fibromyxoid Sarcoma. OncoTree classifies it under fibrosarcoma ([FIBS](../cancer_types/FIBS.md)).
 
 ## Cohorts in the corpus
 

@@ -22,10 +22,11 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 - IDH1/IDH2 mutations enriched in Fluke-Negative CCA Cluster 4 (31.6% vs 1.0%); ivosidenib (NCT02073994) nominated as therapeutic candidate for this subtype [PMID:28667006](../papers/28667006.md)
 - [IDH1](../genes/IDH1.md) inhibitor (AG-120) used as matched targeted therapy in 13 of 25 cholangiocarcinoma patients with [IDH1](../genes/IDH1.md) mutations; 64% of 25 biomarker-directed patients had evidence of response or clinical benefit; rationale cited for phase III ClarIDHy trial enrollment [PMID:29848569](../papers/29848569.md)
 - In the Beat [AML](../cancer_types/AML.md) cohort genomic landscape analysis, [IDH1](../genes/IDH1.md)-mutant [AML](../cancer_types/AML.md) showed a broad drug-resistance signature in ex vivo profiling, providing context for selective [IDH1](../genes/IDH1.md) inhibitors such as ivosidenib as targeted therapy for a resistance-prone [AML](../cancer_types/AML.md) subgroup [PMID:30333627](../papers/30333627.md).
-- In MSKCC prospective NGS of 127 advanced [HCC](../cancer_types/HCC.md) patients, [IDH1](../genes/IDH1.md) missense mutations (<1% frequency) were identified as potentially actionable, with selective IDH1 inhibitors such as ivosidenib flagged as candidate agents for this possible cholangiocarcinoma-like [HCC](../cancer_types/HCC.md) molecular subset [PMID:30373752](../papers/30373752.md).
-- Ivosidenib (IDH1 inhibitor, approved in AML) is the canonical IDH inhibitor under glioma investigation; the [glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md) cohort (355 IDH-mutant tumors with longitudinal context) provides the molecular substrate for evaluating IDH-inhibitor response in glioma. [PMID:31263031](../papers/31263031.md)
+- In MSKCC prospective NGS of 127 advanced [HCC](../cancer_types/HCC.md) patients, [IDH1](../genes/IDH1.md) missense mutations (<1% frequency) were identified as potentially actionable, with selective [IDH1](../genes/IDH1.md) inhibitors such as ivosidenib flagged as candidate agents for this possible cholangiocarcinoma-like [HCC](../cancer_types/HCC.md) molecular subset [PMID:30373752](../papers/30373752.md).
+- Ivosidenib (IDH1 inhibitor, approved in [AML](../cancer_types/AML.md)) is the canonical IDH inhibitor under glioma investigation; the [glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md) cohort (355 IDH-mutant tumors with longitudinal context) provides the molecular substrate for evaluating IDH-inhibitor response in glioma. [PMID:31263031](../papers/31263031.md)
 - In a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018), 10/49 (20.4%) IDH1/2-mutant patients received ivosidenib or vorasidenib on clinical trial (8 HAIC, 2 resection); IDH1/2 mutations (IDH1 prevalence 18.7%) had no significant impact on survival in N1 disease (HR 0.73, P=0.429) [PMID:33963001](../papers/33963001.md).
 - Ivosidenib (IDH1 inhibitor) targets IDH1 R132L mutation (n=1 in AML) classified ready-for-routine-use in MAPPYACTS pediatric precision-oncology trial [PMID:35292802](../papers/35292802.md)
+- IDH1 inhibitor; IDH1 mutations discussed as targets in AML context in Beat AML Waves 3+4 (n=805 patients) ex vivo functional-genomic study [PMID:35868306](../papers/35868306.md)
 
 ## Resistance mechanisms
 
@@ -57,5 +58,8 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

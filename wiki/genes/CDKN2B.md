@@ -24,7 +24,7 @@ CDKN2B (p15/INK4B) is a CDK4/6 inhibitor and tumor suppressor located at chromos
 - Deletion (HR 6.0, 95% CI 2.5–14.6, P<0.001) is the strongest independent predictor of worse [OS](../cancer_types/OS.md) among individual alterations in node-positive (N1) intrahepatic cholangiocarcinoma; median [OS](../cancer_types/OS.md) for CDKN2A/B-deleted N1 patients ~7 vs ~27 months for wild-type [PMID:33963001](../papers/33963001.md)
 - CDKN2B (p15INK4B) is the dominant INK4 binder to [CDK6](../genes/CDK6.md) in abemaciclib-resistant FAT1CR MCF7 cells (6 unique peptides in IP-MS); CRISPR knockout of CDKN2B + [CDKN2C](../genes/CDKN2C.md) (double KO) almost entirely restores RB-phosphorylation suppression and re-sensitizes cells to 100 nmol/L [abemaciclib](../drugs/abemaciclib.md) over 21 days (P<0.0001) [PMID:34544752](../papers/34544752.md)
 - CDKN2B — co-deleted with [CDKN2A](../genes/CDKN2A.md) across sarcomas, CNS tumors, and leukemia in MAPPYACTS pediatric cohort (n=624); 157 combined CDKN2A/CDKN2B deletions/inactivating events used to guide CDK4/6 inhibitor recommendations [PMID:35292802](../papers/35292802.md)
-- CDKN2B deleted in 12.8% of sarcomas (99.0% homozygous deletions); enriched in [MPNST](../cancer_types/MPNST.md) and chordoma; co-occurs with CDKN2A loss, CDK4/CDK6 amplification in the cell-cycle pathway [PMID:35705558](../papers/35705558.md)
+- CDKN2B deleted in 12.8% of sarcomas (99.0% homozygous deletions); enriched in [MPNST](../cancer_types/MPNST.md) and chordoma; co-occurs with [CDKN2A](../genes/CDKN2A.md) loss, CDK4/CDK6 amplification in the cell-cycle pathway [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 

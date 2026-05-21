@@ -3,8 +3,8 @@ symbol: ASXL1
 aliases: []
 cancer_types: [CLLSLL]
 tags: [epigenetic, prognostic, u-cll]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # ASXL1
@@ -24,12 +24,13 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - Anchor of the third mutual-exclusivity set in [AML](../cancer_types/AML.md) (vs. cohesin-complex and other epigenetic modifier mutations); part of the epigenetic-modifier gene category in the TCGA [AML](../cancer_types/AML.md) cohort ([laml_tcga_pub](../datasets/laml_tcga_pub.md), n=200) [PMID:23634996](../papers/23634996.md)
 - Somatic variants in 13/12 patients across [MPN](../cancer_types/MPN.md) subtypes (PV/ET/MF); co-mutated with splicing factors [U2AF1](../genes/U2AF1.md) and [SRSF2](../genes/SRSF2.md) in a pattern echoing [MDS](../cancer_types/MDS.md) [PMID:24325359](../papers/24325359.md)
 - ASXL1 identified as a chromatin modification driver in CLL in a 538-sample WES study; classified in the chromatin modification pathway alongside [BAZ2B](../genes/BAZ2B.md) and [IKZF3](../genes/IKZF3.md) [PMID:26466571](../papers/26466571.md)
-- ASXL1: early epigenetic driver in chromatin-spliceosome AML subgroup; independent adverse prognostic effect with additive interaction with SRSF2 [PMID:27276561](../papers/27276561.md)
-- ASXL1 mutations included in the 8-gene amplicon panel and observed in the AML/MDS cohort treated with 10-day decitabine cycles; not reported as a predictor of decitabine response [PMID:27959731](../papers/27959731.md)
+- ASXL1: early epigenetic driver in chromatin-spliceosome [AML](../cancer_types/AML.md) subgroup; independent adverse prognostic effect with additive interaction with [SRSF2](../genes/SRSF2.md) [PMID:27276561](../papers/27276561.md)
+- ASXL1 mutations included in the 8-gene amplicon panel and observed in the AML/MDS cohort treated with 10-day [decitabine](../drugs/decitabine.md) cycles; not reported as a predictor of decitabine response [PMID:27959731](../papers/27959731.md)
 - Polycomb-group chromatin-modifier SMG in MIBC (TCGA, n=412) with predominantly inactivating mutations [PMID:28988769](../papers/28988769.md)
-- ASXL1 mutation confers broad drug resistance in AML ex vivo with a trend toward panobinostat sensitivity; identified as a candidate for genotype-matched repurposing in poor-prognosis disease [PMID:30333627](../papers/30333627.md)
+- ASXL1 mutation confers broad drug resistance in AML ex vivo with a trend toward [panobinostat](../drugs/panobinostat.md) sensitivity; identified as a candidate for genotype-matched repurposing in poor-prognosis disease [PMID:30333627](../papers/30333627.md)
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; majority of cfDNA mutations in cancer patients and controls arose from CH [PMID:31768066](../papers/31768066.md)
 - ASXL1 clonal hematopoiesis significantly enriched in current/former smokers (OR=2.5, q=1x10^-4); stronger signal in current smokers (OR=3.1) vs. former (OR=2.4); identified across 9,437 cancer patients with MSK-IMPACT sequencing [PMID:33106634](../papers/33106634.md)
+- Elevated [PEAR1](../genes/PEAR1.md) expression observed in ASXL1-mutant AML, paralleling ASXL1's role in clonal hematopoiesis and potentially linking PEAR1 biology to cardiovascular comorbidity in aging hematopoiesis (AML cell-state study, n=805) [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 
@@ -53,38 +54,41 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - [PMID:38147626](../papers/38147626.md)
 - [PMID:38949888](../papers/38949888.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
 - [PMID:27959731](../papers/27959731.md)
 
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

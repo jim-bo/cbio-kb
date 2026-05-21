@@ -23,14 +23,15 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - TCGA integrated analysis of 373 endometrial carcinomas (307 endometrioid, 53 serous, 13 mixed) proposed four molecular subgroups: [POLE](../genes/POLE.md) ultramutated (~7%, improved PFS), MSI hypermutated (~28%), copy-number low (CTNNB1-high), and copy-number high/serous-like ([TP53](../genes/TP53.md) ~90%, worse PFS); 93% of endometrioid tumors had PI3K/AKT alterations [PMID:23636398](../papers/23636398.md)
 - [PTEN](../genes/PTEN.md) mutated in 84% of MSS endometrioid tumors and 94% of POLE-ultramutated tumors (only 11% in serous-like). [PMID:23636398](../papers/23636398.md)
 - [CTNNB1](../genes/CTNNB1.md) mutated in 52% of copy-number-low MSS endometrioid tumors; mutually exclusive with [KRAS](../genes/KRAS.md) and [SOX17](../genes/SOX17.md). [PMID:23636398](../papers/23636398.md)
-- POLE exonuclease-domain hotspots Pro286Arg and Val411Leu in 13/17 (76%) ultramutated samples; POLE-ultramutated subgroup associated with significantly better PFS (log-rank P=0.02). [PMID:23636398](../papers/23636398.md)
+- [POLE](../genes/POLE.md) exonuclease-domain hotspots Pro286Arg and Val411Leu in 13/17 (76%) ultramutated samples; POLE-ultramutated subgroup associated with significantly better PFS (log-rank P=0.02). [PMID:23636398](../papers/23636398.md)
 - MSI detected in 40% of endometrioid tumors (vs. 2% of serous); MSI tumors had ~10× higher mutation frequency than MSS endometrioid tumors. [PMID:23636398](../papers/23636398.md)
 - [ARID5B](../genes/ARID5B.md) newly identified as recurrently mutated at 23.1% in MSI vs. 5.6% in MSS endometrioid vs. 0% in serous-like. [PMID:23636398](../papers/23636398.md)
 - Cross-histology analysis of 63 CCECs against 40 endometrioid carcinomas (UEC) showed: 82.5% of UEC had endometrioid-like molecular profiles (PTEN/KRAS/ARID1A/PIK3R1/PIK3CA mutations, MSI); POLE and MMR mutation signatures were enriched in endometrioid lineages per the four-subgroup TCGA [UCEC](../cancer_types/UCEC.md) framework referenced in this study. [PMID:28485815](../papers/28485815.md)
-- 75/189 advanced endometrial tumors were endometrioid carcinoma (FIGO grades 1–3); high-grade (grade 3) had worse PFS1 vs low-grade (12.7 vs 21.6 months, p=0.005); PTEN mutations more common in primary vs metastatic endometrioid (67% vs 34%, p=0.03); [ESR1](../genes/ESR1.md) LBD hotspot mutations in 5 patients (3/5 de novo, no prior endocrine therapy) [PMID:30068706](../papers/30068706.md)
+- 75/189 advanced endometrial tumors were endometrioid carcinoma (FIGO grades 1–3); high-grade (grade 3) had worse PFS1 vs low-grade (12.7 vs 21.6 months, p=0.005); [PTEN](../genes/PTEN.md) mutations more common in primary vs metastatic endometrioid (67% vs 34%, p=0.03); [ESR1](../genes/ESR1.md) LBD hotspot mutations in 5 patients (3/5 de novo, no prior endocrine therapy) [PMID:30068706](../papers/30068706.md)
 - CPTAC proteogenomic cohort (n=95 EC) included 83 endometrioid tumors; [CTNNB1](../genes/CTNNB1.md) exon-3 hotspot mutations (23 tumors) linked to constitutive Wnt activation and H2B hyperacetylation (K16/K20/K24); [POLE](../genes/POLE.md) P286R hotspot in 5/7 ultramutated tumors [PMID:32059776](../papers/32059776.md).
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; UEC is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - In 184 MSI-H endometrial carcinomas, [MLH1](../genes/MLH1.md) promoter hypermethylation (65% of cohort) defined a clinically distinct subgroup: older patients (median 64 vs 54 years, p<0.001), more obese, higher FIGO stage, more LVSI, [JAK1](../genes/JAK1.md) frameshift indels enriched (45%), lower TIL scores, and inferior exploratory ICI response (25% progression on [pembrolizumab](../drugs/pembrolizumab.md) vs 0% in germline/somatic) [PMID:35849120](../papers/35849120.md).
+- MSK cfDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)): endometrioid cases comprised 24/44 (55%) of cohort; no low-grade stage I UEC patient had detectable baseline ctDNA with MSK-ACCESS, consistent with favorable prognosis and supporting de-escalation study design [PMID:36007103](../papers/36007103.md)
 
 ## Subtypes
 
@@ -58,7 +59,10 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35849120](../papers/35849120.md)
+
+
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

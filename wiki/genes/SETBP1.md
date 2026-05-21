@@ -20,7 +20,7 @@ SETBP1 (SET Binding Protein 1) encodes a nuclear protein that binds the oncoprot
 
 ## Cancer types (linked)
 
-- [AML](../cancer_types/AML.md) / [JMML](../cancer_types/JMML.md): SETBP1 D868N co-mutation with [PTPN11](../genes/PTPN11.md) D61Y was diagnostically reclassifying in one pediatric case, changing management from de novo [AML](../cancer_types/AML.md) to JMML-evolved AML. [PMID:28007021](../papers/28007021.md)
+- [AML](../cancer_types/AML.md) / [JMML](../cancer_types/JMML.md): SETBP1 D868N co-mutation with [PTPN11](../genes/PTPN11.md) D61Y was diagnostically reclassifying in one pediatric case, changing management from de novo [AML](../cancer_types/AML.md) to JMML-evolved [AML](../cancer_types/AML.md). [PMID:28007021](../papers/28007021.md)
 
 ## Co-occurrence and mutual exclusivity
 

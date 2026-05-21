@@ -45,7 +45,7 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 - Used to validate [NOL10](../genes/NOL10.md) overexpression in tumor vs. normal prostate, allele-specific [BCR](../genes/BCR.md) and survival outcomes (rs4519489 A/A genotype HR=13.05 for [OS](../cancer_types/OS.md), P=0.038), and correlation of elevated [NOL10](../genes/NOL10.md) with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) [PMID:28927585](../papers/28927585.md).
 - External RNA-seq reference: [SLC16A1](../genes/SLC16A1.md) (MCT1) and [LDHA](../genes/LDHA.md) were significantly upregulated in prostate tumor vs. matched normal in TCGA [PRAD](../cancer_types/PRAD.md) bulk RNA-seq (limma voom on RSEM-normalized Firebrowse data), validating IHC findings in the MSK HP-MRI cohort [PMID:31564440](../papers/31564440.md).
 - Used as comparator primary-PCa cohort (n=495) for elevated HRD signature (SBS3) in prostate cancer brain metastases versus TCGA primary tumors (q=0.0003; q=0.0034 vs high-grade TCGA subset) [PMID:35504881](../papers/35504881.md)
-- Used as validation cohort to bridge [PIK3R1](../genes/PIK3R1.md) DNA copy-number loss to mRNA attenuation (~20% of primary tumors) and to assess progression-free survival; PIK3R1 loss associated with shorter PFS (HR 2.04, 95% CI 1.32-3.15, p=0.001) [PMID:35670774](../papers/35670774.md)
+- Used as validation cohort to bridge [PIK3R1](../genes/PIK3R1.md) DNA copy-number loss to mRNA attenuation (~20% of primary tumors) and to assess progression-free survival; [PIK3R1](../genes/PIK3R1.md) loss associated with shorter PFS (HR 2.04, 95% CI 1.32-3.15, p=0.001) [PMID:35670774](../papers/35670774.md)
 
 ## Sources
 

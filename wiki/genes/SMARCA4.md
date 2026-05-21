@@ -31,11 +31,12 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - Phospho-SMARCA4 S613 elevated in SMAD4-deleted PDAC tumors (29% of high-purity cohort); SMARCA4 nominated as downstream effector of [SMAD4](../genes/SMAD4.md) loss in proteogenomic PDAC landscape [PMID:34534465](../papers/34534465.md)
 - SMARCA4 and [SMARCB1](../genes/SMARCB1.md) inactivating events (combined n=27) recurrent in rhabdoid tumor (MRT/ATRT) and other CNS tumors in the AcSé-MAPPYACTS pediatric cohort; matched to [EZH2](../genes/EZH2.md) inhibitors as investigational therapy [PMID:35292802](../papers/35292802.md).
 - NSCLC-typical SMARCA4 mutations observed in [SCLC](../cancer_types/SCLC.md) PDX subsets MSK1053, MSK511c, and MSK773D/E/G/I, co-occurring with [STK11](../genes/STK11.md), [KEAP1](../genes/KEAP1.md), and [PTPRS](../genes/PTPRS.md) alterations in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort [PMID:35440124](../papers/35440124.md).
+- Frameshift mutation co-occurring with [PTEN](../genes/PTEN.md) in endometrial carcinoma (EC) patient CD20; detected in primary tumor and one of two sentinel lymph nodes; tracked by MSK-ACCESS cfDNA panel [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
 - [MRTL](../cancer_types/MRTL.md): SMARCA4 R1192C in a pediatric hepatic rhabdoid tumor; EZH2-inhibitor targeted on the basis of SWI/SNF loss. [PMID:28007021](../papers/28007021.md)
-- [ESCA](../cancer_types/ESCA.md) (EAC subtype): SMARCA4 is a significantly mutated gene in EAC; enrichment over CIN gastric supports its role in esophageal-specific oncogenesis. [PMID:28052061](../papers/28052061.md)
+- [ESCA](../cancer_types/ESCA.md) ([EAC](../cancer_types/EAC.md) subtype): SMARCA4 is a significantly mutated gene in EAC; enrichment over CIN gastric supports its role in esophageal-specific oncogenesis. [PMID:28052061](../papers/28052061.md)
 - [ESCC](../cancer_types/ESCC.md): SMARCA4 mutation defines the ESCC3 molecular subtype (PI3K-activated, SMARCA4/KMT2D mutant); all ESCC3 tumors had PI3K-pathway activating alterations. [PMID:28052061](../papers/28052061.md)
 
 ## Co-occurrence and mutual exclusivity
@@ -85,5 +86,8 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:35292802](../papers/35292802.md)
 
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

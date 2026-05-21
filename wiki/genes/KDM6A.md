@@ -4,7 +4,7 @@ aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
 processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_at: "2026-05-21"
 ---
 
 # KDM6A
@@ -53,6 +53,7 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - KDM6A mutated in 38% of 119 upper tract urothelial carcinoma (UTUC) patients by MSK-IMPACT, making it the second most common alteration after FGFR3 (47–48%); KDM6A mutations were enriched in chromatin-remodeling gene co-alterations including KMT2D, ARID1A, CREBBP, and STAG2 [PMID:32332851](../papers/32332851.md)
 - Mutated in 27% of WES UTUC cases (FDR=1.03×10⁻³); co-occurs with ZFP36L1 (LOR=3.1, P=0.03) in upper tract urothelial carcinoma. [PMID:33397444](../papers/33397444.md)
 - Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction) in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
+- Structural deletion (DEL) detected by LINX/PURPLE SV analysis in the WGS cohort of 25 regional metastatic [CSCC](../cancer_types/CSCC.md) samples [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -81,103 +82,72 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

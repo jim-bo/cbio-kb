@@ -4,8 +4,8 @@ oncotree_code: CSCC
 main_type: Skin Cancer, Non-Melanoma
 parent: SKIN
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Cutaneous Squamous Cell Carcinoma (CSCC)
@@ -29,9 +29,10 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - WES of 39 aggressive head-and-neck cSCCs revealed an extreme UV-driven mutation burden (median 61.2 mutations/Mb); 23 candidate drivers identified including [TP53](../genes/TP53.md) (95%), [NOTCH1](../genes/NOTCH1.md) (59%), [NOTCH2](../genes/NOTCH2.md) (51%), [FAT1](../genes/FAT1.md) (44%), [CDKN2A](../genes/CDKN2A.md) (44%), [KMT2C](../genes/KMT2C.md) (39%); [KMT2C](../genes/KMT2C.md) mutation associated with bone invasion and shorter recurrence-free survival (HR 5.16) [PMID:25303977](../papers/25303977.md)
 - Targeted sequencing of 504 cancer-associated genes on 29 lymph-node metastases from HPV-negative CSCC identified high UV mutational burden (~33 mut/Mb), recurrent [TP53](../genes/TP53.md) (79%), [CDKN2A](../genes/CDKN2A.md) (48%), [NOTCH1](../genes/NOTCH1.md)/2/4 inactivation, and activating RAS/RTK/PI3K events (38%); RAS/RTK/PI3K + chromatin-remodeling co-mutation was the strongest predictor of shorter PFS. [PMID:25589618](../papers/25589618.md)
 - NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin established UVR signature (SBS7a/SBS7b/DBS1) accumulation as a precursor risk model; cSCC mean mutation burden of 50 substitutions/Mb was used as the endpoint for surveillance-exposure modelling [PMID:26950094](../papers/26950094.md)
-- In 21 recurrent/metastatic CSCC profiled by MSK-IMPACT (Morris et al.): UV-light mutational signature in 86% (18/21) associated with higher mutation counts (37.9 vs 4.3, P=.008); TERT promoter mutations in 52%; 3p deletion + TP53 co-occurrence in 32% — the first report in cutaneous SCC [PMID:27442865](../papers/27442865.md).
+- In 21 recurrent/metastatic CSCC profiled by MSK-IMPACT (Morris et al.): UV-light mutational signature in 86% (18/21) associated with higher mutation counts (37.9 vs 4.3, P=.008); [TERT](../genes/TERT.md) promoter mutations in 52%; 3p deletion + [TP53](../genes/TP53.md) co-occurrence in 32% — the first report in cutaneous SCC [PMID:27442865](../papers/27442865.md).
 - Published cutaneous squamous cell carcinoma mutational signature datasets were used as a reference comparison in the first WES landscape of vulvar SCC; HPV(-) vulvar SCC displayed higher mutational load than HPV(+) cases, consistent with patterns observed in CSCC [PMID:29422544](../papers/29422544.md)
 - Meta-analysis of WES/WGS data from 10 CSCC studies (88 QC-passed tumors) using four cancer-gene discovery tools nominated 30 driver genes; NOTCH-pathway loss-of-function in 79.5% ([NOTCH1](../genes/NOTCH1.md) 55.4%, [NOTCH2](../genes/NOTCH2.md) 36.1%), p53-pathway in 71.1% ([TP53](../genes/TP53.md) 66.3%), cell-cycle/Rb pathway in 38.6% ([CDKN2A](../genes/CDKN2A.md) 34.9%), SWI/SNF in 38.6% ([ARID2](../genes/ARID2.md) 27.7%, [PBRM1](../genes/PBRM1.md) 12%), Hippo pathway in 37.3% ([FAT1](../genes/FAT1.md) 30.1%); four novel drivers ([EP300](../genes/EP300.md), [PBRM1](../genes/PBRM1.md), [USP28](../genes/USP28.md), [CHUK](../genes/CHUK.md)) each mutated in >10% of tumors; data deposited as [cscc_ucsf_2021](../datasets/cscc_ucsf_2021.md) on cBioPortal [PMID:34272401](../papers/34272401.md).
+- WGS of 25 regional metastatic CSCC lymph node specimens ([cscc_ranson_2022](../datasets/cscc_ranson_2022.md)) revealed extreme TMB (median 166.99 muts/Mb), UV-driven SBS7a/7b signatures, TP53 (96%) and [CDKN2A](../genes/CDKN2A.md) as top coding drivers, novel lncRNA driver [LINC01003](../genes/LINC01003.md) (64%), and non-coding 3′UTR alterations in [EVC](../genes/EVC.md) and [PPP1R1A](../genes/PPP1R1A.md); [C9](../genes/C9.md) identified as novel candidate driver by all three statistical tools [PMID:35982973](../papers/35982973.md)
 
 ## Subtypes
 
@@ -40,22 +41,25 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 
 ## Therapeutic landscape
 
-- High expression of immune checkpoint ligands (PVR, NECTIN2, CD274/PD-L1, CD80, CD86) and checkpoint receptors ([CTLA4](../genes/CTLA4.md), TIGIT, PD-1) at the invasive front of cSCC supports rationale for immune checkpoint inhibitor therapy. [PMID:39091884](../papers/39091884.md)
+- High expression of immune checkpoint ligands (PVR, NECTIN2, CD274/PD-L1, [CD80](../genes/CD80.md), [CD86](../genes/CD86.md)) and checkpoint receptors ([CTLA4](../genes/CTLA4.md), [TIGIT](../genes/TIGIT.md), PD-1) at the invasive front of cSCC supports rationale for immune checkpoint inhibitor therapy. [PMID:39091884](../papers/39091884.md)
 - [ARID2](../genes/ARID2.md) loss-of-function mutations at the AK-to-cSCC transition may link SWI/SNF disruption to immune evasion, potentially informing immunotherapy strategies. [PMID:39091884](../papers/39091884.md)
 
 ## Sources
 
-- [PMID:34272401](../papers/34272401.md) — Chang & Shain, meta-analysis of 88 CSCC WES/WGS; 30 driver genes; dataset cscc_ucsf_2021.
+- [PMID:34272401](../papers/34272401.md) — Chang & Shain, meta-analysis of 88 CSCC WES/WGS; 30 driver genes; dataset [cscc_ucsf_2021](../datasets/cscc_ucsf_2021.md).
 - [PMID:39091884](../papers/39091884.md) — Genetic evolution of keratinocytes to cutaneous squamous cell carcinoma (bioRxiv, 2024)
 
 - [PMID:25303977](../papers/25303977.md)
 - [PMID:25589618](../papers/25589618.md)
 - [PMID:26950094](../papers/26950094.md) — Fowler et al., NanoSeq NB-UVB mutation-burden study; cSCC mean burden of 50 substitutions/Mb used as endpoint for surveillance-exposure modelling
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). UV signature in 86% of 21 advanced CSCC; TERT promoter mutations 52%; first report of 3p deletion + TP53 in cutaneous SCC.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+
 - [PMID:29422544](../papers/29422544.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

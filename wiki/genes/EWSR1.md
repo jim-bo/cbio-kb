@@ -3,7 +3,7 @@ symbol: EWSR1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-21
 ---
 
@@ -29,6 +29,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - EWSR1 — located on 22q11.21-q11.23; co-deleted in 77% of SWNTS-SWNs with coordinated expression loss, proposed as an additional contributor to schwannomatosis pathogenesis [PMID:33025139](../papers/33025139.md)
 - EWSR1 fusions define Ewing sarcoma and are covered in the MAPPYACTS pediatric precision oncology sarcoma oncomap; the trial sequenced 787 relapsed/refractory pediatric patients by WES + RNA-seq. [PMID:35292802](../papers/35292802.md)
 - EWSR1 detected as a fusion-driver transcription factor in sarcoma (e.g., EWSR1-FLI1, EWSR1-WT1, EWSR1-NR4A3); reclassification of Ewing sarcoma and related tumors via SS18-SSX2 synovial sarcoma and EWSR1 fusions [PMID:35705560](../papers/35705560.md)
+- Fusion-restricted to sarcomas in a pan-Asian solid-tumor cohort (450-gene panel, n=1,015 Chinese patients); part of pan-cancer fusion driver catalogue [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -76,4 +77,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

@@ -31,12 +31,13 @@ Allosteric MEK1/2 inhibitor.
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including [vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md), or trametinib; MAPKi treatment induces transcriptional programs overlapping the IPRES innate anti-PD-1 resistance signature, implicating prior trametinib therapy as a potential driver of cross-resistance to subsequent anti-PD-1 in [BRAF](../genes/BRAF.md)- or [NF1](../genes/NF1.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 - MEK inhibitor; proposed as therapeutic candidate for KRAS/NRAS/GNAQ-altered cisplatin-resistant [GCT](../cancer_types/GCT.md) ([KRAS](../genes/KRAS.md) in 22/180, [NRAS](../genes/NRAS.md) in 4/180, [GNAQ](../genes/GNAQ.md) Q209P in 1/180) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
 - SCBO-1 and SCBO-5 (both FGFR3-mutant bladder organoids) responded to trametinib (MEK1/2 inhibitor, 0.5 mg/kg 5-on/2-off oral gavage); SCBO-2 and SCBO-6 (also FGFR3-mutant) did not respond, showing [FGFR3](../genes/FGFR3.md) mutation alone is insufficient to predict MEK-inhibitor sensitivity; in vivo orthotopic xenograft studies confirmed significant tumor-size reduction and decreased Ki67 with trametinib [PMID:29625057](../papers/29625057.md)
-- Clinical responses to MEK inhibitors including trametinib (used in [BRAF](../genes/BRAF.md)+MEK combinations) in BRAF V600 glioma are conditioned by BRAF allele class and clonality; 4 of 7 BRAF V600E-treated glioma patients achieved partial/near-complete responses (ongoing at 9–41 months), while subclonal V600E and [CDKN2A](../genes/CDKN2A.md) deletion in treatment-escaping lesions predict resistance. [PMID:31263031](../papers/31263031.md)
-- A melanoma cell line harboring GON4L-NTRK1 fusion + NRAS Q61R was insensitive to [larotrectinib](../drugs/larotrectinib.md) and LOXO-195 (with absent pan-TRK expression) but responsive to trametinib, demonstrating that co-occurring MAPK pathway activation can redirect oncogenic dependence away from TRK toward RAS-MEK signaling [PMID:31871300](../papers/31871300.md).
+- Clinical responses to MEK inhibitors including trametinib (used in [BRAF](../genes/BRAF.md)+MEK combinations) in [BRAF](../genes/BRAF.md) V600 glioma are conditioned by BRAF allele class and clonality; 4 of 7 BRAF V600E-treated glioma patients achieved partial/near-complete responses (ongoing at 9–41 months), while subclonal V600E and [CDKN2A](../genes/CDKN2A.md) deletion in treatment-escaping lesions predict resistance. [PMID:31263031](../papers/31263031.md)
+- A melanoma cell line harboring GON4L-NTRK1 fusion + [NRAS](../genes/NRAS.md) Q61R was insensitive to [larotrectinib](../drugs/larotrectinib.md) and LOXO-195 (with absent pan-TRK expression) but responsive to trametinib, demonstrating that co-occurring MAPK pathway activation can redirect oncogenic dependence away from TRK toward RAS-MEK signaling [PMID:31871300](../papers/31871300.md).
 - Used in combination with [dabrafenib](../drugs/dabrafenib.md) in 8 of 11 BRAFi+MEKi combination-arm patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md); pretreatment [PTEN](../genes/PTEN.md) loss and elevated [BRAF](../genes/BRAF.md)-mutant allele fraction were identified as candidate biomarkers for response in this 66-patient cohort [PMID:32913971](../papers/32913971.md).
 - Produced a durable complete response in a BRAF V600 wild-type melanoma patient with BRAF K601E (Class 2) + [MAP2K1](../genes/MAP2K1.md) E203K co-mutation after progression through checkpoint blockade [PMID:33509808](../papers/33509808.md)
 - In MAPK-altered (NF1-null, ERBB2-mutant, KRAS-mutant) HER2+ breast cancer, trametinib (MEK inhibitor) IC50 drops ~57-fold in NF1-depleted cells (738→13 nM); BT-474 shNF1 xenografts show 37% tumor growth inhibition at 1 mg/kg, and a HER2+/NF1-null PDX shows 70% growth inhibition with trametinib monotherapy (p<0.001). [PMID:34795269](../papers/34795269.md)
 - Rapid near-complete response to [vemurafenib](../drugs/vemurafenib.md) + trametinib was observed in a BRAF V600E sarcoma patient in the MSK sub-cohort (n=118); BRAF V600E was rare overall (0.5% of 7,494 sarcomas) but confirmed actionable [PMID:35705558](../papers/35705558.md).
+- MEK inhibitor; indicated for [KRAS](../genes/KRAS.md) GoF mutations in CRC/PAAD in Chinese pan-cancer cohort (n=10,194); KRAS GoF in 74% of [PAAD](../cancer_types/PAAD.md) actionable to MEKi at Level 3B/4 [PMID:35871175](../papers/35871175.md)
 
 ## Resistance mechanisms
 
@@ -93,5 +94,8 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:34795269](../papers/34795269.md)
 
 - [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

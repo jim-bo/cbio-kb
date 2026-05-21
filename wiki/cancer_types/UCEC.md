@@ -37,7 +37,7 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - In the MSK-IMPACT pan-cancer cohort, [ESR1](../genes/ESR1.md) hotspot mutations were found in UCEC almost exclusively in post-hormone-therapy metastatic tumors; MSI UCEC patients showed responses to immune checkpoint blockade; [POLE](../genes/POLE.md) and MMR mutation signatures were enriched in endometrial lineages. [PMID:28481359](../papers/28481359.md)
 - Whole-exome sequencing of 63 clear cell endometrial carcinomas ([UCCC](../cancer_types/UCCC.md)) in the [uccc_nih_2017](../datasets/uccc_nih_2017.md) cohort revealed molecular heterogeneity: 27% serous-like (TP53/PPP2R1A), 20.6% endometrioid-like, 19.1% mixed, and 33.3% with no detectable alteration across the 7-gene + MSI panel; MSI was present in 11.3%; the molecular four-subgroup TCGA UCEC framework (POLE-ultramutated, MSI-hypermutated, copy-number-low, copy-number-high) provides context for CCEC classification. [PMID:28485815](../papers/28485815.md)
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included UCEC; concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
-- Pan-cancer fusion study (9,624 TCGA samples) included UCEC; ESR1 fusions were among the recurrent events spanning gynecological cancers; druggable fusions annotated across 29 cancer types including UCEC [PMID:29617662](../papers/29617662.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included UCEC; [ESR1](../genes/ESR1.md) fusions were among the recurrent events spanning gynecological cancers; druggable fusions annotated across 29 cancer types including UCEC [PMID:29617662](../papers/29617662.md)
 - Pan-cancer aneuploidy study included UCEC in the gynecological arm-level cluster (alongside [UCS](../cancer_types/UCS.md)); UCEC is an exception to the positive aneuploidy–mutation-rate correlation due to MSI-high and POLE-mutant cases; copy-number-high serous-like endometrial is a notable exception that clusters outside the typical UCEC pattern [PMID:29622463](../papers/29622463.md)
 - Included in TCGA PanCancer Atlas; UCEC dominated iCluster C8; POLE-mutation signature found in hypermutated C8:UCEC; pan-squamous C10/C25/C27 and pan-GI subtypes linked to UCEC molecular patterns [PMID:29625048](../papers/29625048.md)
 - TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually exclusive driver networks partition UCEC; MSI-high UCEC over-expresses immune effectors [GZMA](../genes/GZMA.md), [PRF1](../genes/PRF1.md), [GZMK](../genes/GZMK.md), [GZMH](../genes/GZMH.md); POLE-mutant UCEC subtype context referenced [PMID:29625049](../papers/29625049.md)
@@ -47,10 +47,12 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - 189 patients / 197 advanced endometrial tumors profiled by MSK-IMPACT (341 or 410 gene panel); 95% advanced disease; PI3K/AKT/mTOR pathway altered in 70%, RTK/RAS/beta-catenin in 65%; 67% had ≥1 actionable alteration; genomic MSI calling rescued one MMR-proficient-by-IHC case; novel CN Cluster C (heterozygous losses) had worse PFS1 (median 9.6 vs 17.0/17.4 months, p=0.006) [PMID:30068706](../papers/30068706.md)
 - In PCAWG, ovarian and uterine adenocarcinoma showed SV dominance over point mutations (ovary: 5.8 ± 2.6 SVs vs 1.9 ± 1.0 point mutations, P < 1×10⁻¹⁶) [PMID:32025007](../papers/32025007.md).
 - In CCLE proteomics, [RPL22](../genes/RPL22.md) mutation — a hotspot in MSI endometrial cancers — uniquely associated with proteome-level changes in MSI-associated complexes (mismatch repair, SKI complex, H3K4 methyltransferases); only ~50 proteins differentially expressed in MSI vs >1,000 mRNAs [PMID:31978347](../papers/31978347.md).
-- CPTAC proteogenomics of 95 endometrial carcinomas (83 endometrioid, 12 serous); four genomic subtypes (POLE n=7, MSI n=25, CNV-low n=43, CNV-high n=20); MSI tumors: [PTEN](../genes/PTEN.md) 92%, [ARID1A](../genes/ARID1A.md) 76%, [RPL22](../genes/RPL22.md) 64%, [JAK1](../genes/JAK1.md) 44%; TMB alone insufficient for ICB selection — APM deficiency (JAK1/STAT1 truncations, reduced TAP1/TAP2/HLA) marks immune-evasion subgroup [PMID:32059776](../papers/32059776.md).
-- [PPM1D](../genes/PPM1D.md) CH mutations were found in 7% of endometrial cancer patients (vs <5% in most tumor types) in the MSK-IMPACT CH cohort; among untreated endometrial patients PPM1D CH was 0%, indicating the enrichment is almost entirely therapy-driven (platinum/topoisomerase II inhibitors). [PMID:33106634](../papers/33106634.md)
+- CPTAC proteogenomics of 95 endometrial carcinomas (83 endometrioid, 12 serous); four genomic subtypes ([POLE](../genes/POLE.md) n=7, MSI n=25, CNV-low n=43, CNV-high n=20); MSI tumors: [PTEN](../genes/PTEN.md) 92%, [ARID1A](../genes/ARID1A.md) 76%, [RPL22](../genes/RPL22.md) 64%, [JAK1](../genes/JAK1.md) 44%; TMB alone insufficient for ICB selection — APM deficiency (JAK1/STAT1 truncations, reduced TAP1/TAP2/HLA) marks immune-evasion subgroup [PMID:32059776](../papers/32059776.md).
+- [PPM1D](../genes/PPM1D.md) CH mutations were found in 7% of endometrial cancer patients (vs <5% in most tumor types) in the MSK-IMPACT CH cohort; among untreated endometrial patients [PPM1D](../genes/PPM1D.md) CH was 0%, indicating the enrichment is almost entirely therapy-driven (platinum/topoisomerase II inhibitors). [PMID:33106634](../papers/33106634.md)
 - In 1,417 prostate cancers profiled by MSK-IMPACT, [PIK3R1](../genes/PIK3R1.md) truncating mutations in endometrial cancer (n=1,769 MSS cases compared) clustered in n-SH2/i-SH2 domains — distinct from the c-SH2 domain hotspot seen in prostate cancer — suggesting tumor-type-specific functional consequences [PMID:35670774](../papers/35670774.md).
 - In 184 MSI-H endometrial carcinomas profiled by MSK-IMPACT, three distinct MMR-D mechanisms (germline Lynch n=25, somatic n=39, [MLH1](../genes/MLH1.md) promoter hypermethylation n=120) were associated with divergent molecular profiles, TMB (MLH1ph median 32 vs germline 44 vs somatic 48 mt/Mb, p<0.001), and 2-year stage-I/II PFS (70.3% vs 100% vs 100%) [PMID:35849120](../papers/35849120.md).
+- MSK cfDNA pilot (N=44 newly diagnosed EC; [ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)): baseline ctDNA detected in 22% (8/36) of evaluable patients, enriched in advanced/high-risk histologies ([USC](../cancer_types/USC.md), [UCS](../cancer_types/UCS.md)); detectable baseline ctDNA associated with reduced PFS (HR 11.14, p<0.001); post-surgical ctDNA associated with reduced PFS (HR 15.56, p=0.014); primary-tumor mutational landscape: [TP53](../genes/TP53.md) 52%, [PTEN](../genes/PTEN.md) 50%, [PIK3CA](../genes/PIK3CA.md) 50%, [ARID1A](../genes/ARID1A.md) 36%, [FBXW7](../genes/FBXW7.md) 29% [PMID:36007103](../papers/36007103.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): UCEC included among 25 principal tumor types; TP53 (58% pan-cohort), PIK3CA (11%), MSI-H/TMB-H/PD-L1+ IO biomarker positivity profiled across tumor types [PMID:35871175](../papers/35871175.md)
 
 ## Subtypes
 
@@ -75,54 +77,60 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 
 - [PMID:23636398](../papers/23636398.md) — Cancer Genome Atlas Research Network. Integrated genomic characterization of endometrial carcinoma. *Nature* 2013.
 
-- [PMID:28445112](../papers/28445112.md) — Reinikka et al. 2025; endometrial polyp WGS/RNA-seq; low-VAF UCEC-driver hotspot mutations in 26% [KRAS](../genes/KRAS.md), [PIK3CA](../genes/PIK3CA.md), PIK3R1, [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [FBXW7](../genes/FBXW7.md).
+- [PMID:28445112](../papers/28445112.md) — Reinikka et al. 2025; endometrial polyp WGS/RNA-seq; low-VAF UCEC-driver hotspot mutations in 26% [KRAS](../genes/KRAS.md), [PIK3CA](../genes/PIK3CA.md), [PIK3R1](../genes/PIK3R1.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [FBXW7](../genes/FBXW7.md).
 
 - [PMID:28481359](../papers/28481359.md)
 - [PMID:28485815](../papers/28485815.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35670774](../papers/35670774.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35849120](../papers/35849120.md)
+
+
+- [PMID:36007103](../papers/36007103.md)
+
+
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

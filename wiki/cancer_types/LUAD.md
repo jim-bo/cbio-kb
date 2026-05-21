@@ -59,9 +59,9 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - In the SUMMIT trial, HER2 exon 20 insertion-driven LUAD (the predominant [NSCLC](../cancer_types/NSCLC.md) histology in this cohort) showed minimal RECIST response (1/26) to single-agent [neratinib](../drugs/neratinib.md), though median PFS of 5.5 months and a long-tail of >1-year responders suggest [neratinib](../drugs/neratinib.md) has activity worth pursuing in combinations [PMID:29420467](../papers/29420467.md)
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included LUAD; LUAD and [LUSC](../cancer_types/LUSC.md) had the largest median number of SNVs per sample, consistent with tobacco-carcinogen mutagen exposure [PMID:29596782](../papers/29596782.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified [EML4](../genes/EML4.md)–[ALK](../genes/ALK.md) in 1.0% of LUAD (5 of 20 ALK-fusion samples); never-smokers had a dramatically higher rate of druggable fusions (20%) vs smokers (2.1%; chi-square p < 1e-6); [RET](../genes/RET.md) fusions also detected in LUAD [PMID:29617662](../papers/29617662.md)
-- Pan-cancer aneuploidy study placed LUAD in the epithelial arm-level cluster (alongside [BRCA](../cancer_types/BRCA.md) and [HCC](../cancer_types/HCC.md)) defined by 1q gain; <50% of LUAD tumors had 3p loss (vs ~80% in LUSC) and only 13% had 3q gain, contrasting sharply with the squamous LUSC signature [PMID:29622463](../papers/29622463.md)
+- Pan-cancer aneuploidy study placed LUAD in the epithelial arm-level cluster (alongside [BRCA](../cancer_types/BRCA.md) and [HCC](../cancer_types/HCC.md)) defined by 1q gain; <50% of LUAD tumors had 3p loss (vs ~80% in [LUSC](../cancer_types/LUSC.md)) and only 13% had 3q gain, contrasting sharply with the squamous LUSC signature [PMID:29622463](../papers/29622463.md)
 - Included in TCGA PanCancer Atlas; LUAD dominated iCluster C14 (smoking mutational signature, highest mutation rates); JAK2/STAT1/STAT3/STAT6 upregulation in LUAD iCluster [PMID:29625048](../papers/29625048.md)
-- ALK and [ROS1](../genes/ROS1.md) fusions found as driver events in small subsets of LUAD; EGFR missense mutations associated with elevated EGFR mRNA; [TP53](../genes/TP53.md) and [KRAS](../genes/KRAS.md) mutually exclusive in LUAD [PMID:29625049](../papers/29625049.md)
+- [ALK](../genes/ALK.md) and [ROS1](../genes/ROS1.md) fusions found as driver events in small subsets of LUAD; [EGFR](../genes/EGFR.md) missense mutations associated with elevated EGFR mRNA; [TP53](../genes/TP53.md) and [KRAS](../genes/KRAS.md) mutually exclusive in LUAD [PMID:29625049](../papers/29625049.md)
 - RTK-RAS alteration rate 74% in LUAD; [KRAS](../genes/KRAS.md) hotspot mutations in 33% of LUAD; EGFR alterations in 13%; [SOS1](../genes/SOS1.md) activating mutations in ~1% of LUAD; [STK11](../genes/STK11.md) loss co-occurs with [KEAP1](../genes/KEAP1.md) loss in lung cancer [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) recommended without reservation for LUAD [PMID:29625055](../papers/29625055.md)
 - CheckMate-012 cohort: advanced [NSCLC](../cancer_types/NSCLC.md) was 79% non-squamous (predominantly LUAD); high TMB (>158 nonsynonymous mutations) associated with ORR 51% vs 13% (OR 6.97, p=0.0005) and PFS median 17.1 vs 3.7 months (HR 0.41, p=0.0024) with [nivolumab](../drugs/nivolumab.md) + [ipilimumab](../drugs/ipilimumab.md); TMB independent of PD-L1 expression [PMID:29657128](../papers/29657128.md)
@@ -73,8 +73,9 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - Sherlock-Lung WGS (n=189 never-smoker LUAD) identified three SCNA subtypes: piano (49.6%, EGFR-low, carcinoid-enriched), mezzo-forte (30.2%, 51.4% EGFR-mutant, 1q/5p/7p gains), and forte (20.2%, 95.7% WGD); median TMB 1.1 Mut/Mb (>7-fold lower than smoker LUAD); five independent alterations ([TP53](../genes/TP53.md) mut, [MDM2](../genes/MDM2.md) amp, EGFR mut, [CHEK2](../genes/CHEK2.md) LOH, 22q/15q loss) each approximately doubled mortality risk [PMID:34493867](../papers/34493867.md)
 - In 426 clinical N2-negative stage I/II LUAD patients (MSK-IMPACT), [SMARCA4](../genes/SMARCA4.md) (OR 3.67) and [SMAD4](../genes/SMAD4.md) (OR 5.01) alterations were independently associated with pathologic lymph node metastasis; fraction of genome altered and WGD were also enriched in pN-positive tumors; preoperative clinical staging had a 15% false-negative rate for occult LN metastasis [PMID:34290393](../papers/34290393.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; LUAD is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
-- LUAD was the predominant histology in the LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial (81% of [RET](../genes/RET.md) fusion-positive cases among 72 patients); TP53 co-mutations (n=8) correlated with shorter PFS (HR=3.5, 95% CI 1.3–9.7, p=0.016); 4 never-smoker samples carried oncogenic EGFR mutations consistent with histologic transformation from LUAD [PMID:35304457](../papers/35304457.md)
+- LUAD was the predominant histology in the LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial (81% of [RET](../genes/RET.md) fusion-positive cases among 72 patients); [TP53](../genes/TP53.md) co-mutations (n=8) correlated with shorter PFS (HR=3.5, 95% CI 1.3–9.7, p=0.016); 4 never-smoker samples carried oncogenic EGFR mutations consistent with histologic transformation from LUAD [PMID:35304457](../papers/35304457.md)
 - [SCLC](../cancer_types/SCLC.md) PDX resource from 33 patients included 4 never-smoker samples with oncogenic EGFR mutations consistent with histologic LUAD-to-SCLC transformation as a resistance mechanism [PMID:35440124](../papers/35440124.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): EGFR elevated in LUAD vs MSK-IMPACT and TCGA (L858R 20%, exon 19 del 19%, G719 3% within [NSCLC](../cancer_types/NSCLC.md)); [KEAP1](../genes/KEAP1.md) significantly lower in LUAD vs MSK and TCGA; EGFR/KRAS co-occurrence noted (atypical for Western cohorts); 6.7% ALK fusion rate in NSCLC; TMB-H negatively associated with fusions in NSCLC (3% vs 13%, P=1.31×10⁻¹¹) [PMID:35871175](../papers/35871175.md)
 
 ## Subtypes
 
@@ -162,10 +163,13 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35304457](../papers/35304457.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35440124](../papers/35440124.md)
+
+
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

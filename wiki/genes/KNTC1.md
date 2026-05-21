@@ -32,7 +32,7 @@ KNTC1 (Kinetochore-Associated Protein 1; also known as ROD) is a component of th
 
 ## Open questions
 
-- The mechanism by which [TP53](../genes/TP53.md) mutation leads to post-transcriptional suppression of KNTC1 and other spindle proteins at the protein level in HCC is unresolved [PMID:35508466](../papers/35508466.md).
+- The mechanism by which [TP53](../genes/TP53.md) mutation leads to post-transcriptional suppression of KNTC1 and other spindle proteins at the protein level in [HCC](../cancer_types/HCC.md) is unresolved [PMID:35508466](../papers/35508466.md).
 
 ## Sources
 

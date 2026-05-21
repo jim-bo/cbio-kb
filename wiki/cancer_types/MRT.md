@@ -34,7 +34,7 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 - PIPseq cohort included rhabdoid tumor cases; [SMARCB1](../genes/SMARCB1.md) homozygous deletion of chr22q11.23 with biallelic loss of expression identified as EZH2-inhibitor target [PMID:28007021](../papers/28007021.md)
 - All extracranial MRT PDX models in PPTC cohort (n=261) carried inactivating alterations of [SMARCB1](../genes/SMARCB1.md) and/or [SMARCA4](../genes/SMARCA4.md); hedgehog, TNFα, and p53 signaling enriched by GSEA [PMID:31693904](../papers/31693904.md).
 - Rhabdoid tumor (MRT) was included in MAPPYACTS; SMARCA4/SMARCB1 inactivating events (27 total across MRT/ATRT/CNS) were matched to [EZH2](../genes/EZH2.md) inhibitors (38 recommendations across the cohort) [PMID:35292802](../papers/35292802.md)
-- In a 7,494-sarcoma cohort, [SMARCB1](../genes/SMARCB1.md) was inactivated in 60% of malignant rhabdoid tumors — the highest SMARCB1 loss rate across all sarcoma histotypes — making this a candidate for [tazemetostat](../drugs/tazemetostat.md) therapy [PMID:35705558](../papers/35705558.md).
+- In a 7,494-sarcoma cohort, [SMARCB1](../genes/SMARCB1.md) was inactivated in 60% of malignant rhabdoid tumors — the highest [SMARCB1](../genes/SMARCB1.md) loss rate across all sarcoma histotypes — making this a candidate for [tazemetostat](../drugs/tazemetostat.md) therapy [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 

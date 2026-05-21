@@ -34,7 +34,7 @@ this stub exists so child pages can resolve their `parent:` link.
 - Prospective MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas (979 metastatic + 120 early-stage patients) identified 47 recurrently mutated genes; WNT pathway alteration reached 96% when intronic [APC](../genes/APC.md) and large [CTNNB1](../genes/CTNNB1.md) exon-3 deletions were included; right-sided MSS mCRC had shorter [OS](../cancer_types/OS.md) (5-year 45% vs 67%, p<0.001) and distinct oncogenic enrichment versus left-sided [PMID:29316426](../papers/29316426.md)
 - MSI-high tumors in COADREAD over-express immune effectors [GZMA](../genes/GZMA.md), [PRF1](../genes/PRF1.md), [GZMK](../genes/GZMK.md), [GZMH](../genes/GZMH.md) (Kolmogorov-Smirnov P<0.01); [TP53](../genes/TP53.md) and [KRAS](../genes/KRAS.md) are mutually exclusive in COAD/READ but co-occur in [PAAD](../cancer_types/PAAD.md) [PMID:29625049](../papers/29625049.md)
 - WGS pan-cancer reanalysis: 19% of colorectal tumors carry a mutation in ≥1 of 11 recurrent CTCF-binding-site (CBS) hotspots — the second-most-mutated functional element in GI cancers after [TP53](../genes/TP53.md) (50% of GC); CBS hotspot mutations enriched in CIN-subtype tumors [PMID:29670109](../papers/29670109.md)
-- Rectal cancer tumoroid biorepository (65 lines from 41 patients) confirmed APC, TP53, [KRAS](../genes/KRAS.md), [FBXW7](../genes/FBXW7.md) as top drivers in both tumoroids and 287-patient MSK cohort; 62% of tumoroids RAS-mutant; ex vivo 5-FU/FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md).
+- Rectal cancer tumoroid biorepository (65 lines from 41 patients) confirmed [APC](../genes/APC.md), [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), [FBXW7](../genes/FBXW7.md) as top drivers in both tumoroids and 287-patient MSK cohort; 62% of tumoroids RAS-mutant; ex vivo 5-FU/FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md).
 - In PCAWG, colorectal adenocarcinoma showed point mutation dominance over SVs (mean 7.4 ± 7.0 point mutations vs 2.4 ± 1.4 SVs, P = 4×10⁻¹⁰); [TP53](../genes/TP53.md) associated with chromothripsis (colorectal OR=25) [PMID:32025007](../papers/32025007.md).
 - Mondaca et al. profiled 430 MSS unresectable metastatic [COADREAD](../cancer_types/COADREAD.md) patients (colon and rectal primaries) by MSK-IMPACT; APC mutation site (N- vs C-terminal at aa 1400) was independently prognostic for [OS](../cancer_types/OS.md) and PFS, while DDR pathway alterations were not associated with survival or oxaliplatin-chemotherapy response in this MSS cohort [PMID:32730818](../papers/32730818.md).
 - [CGREF1](../genes/CGREF1.md) was overexpressed in 61.25% (49/80) of CRC tissues by IHC across a tissue microarray cohort; TCGA TIMER 2.0 / GEPIA2 analyses confirmed significant upregulation in both [COAD](../cancer_types/COAD.md) and [READ](../cancer_types/READ.md) subtypes; [CGREF1](../genes/CGREF1.md) promoted liver metastasis via F-actin remodeling in orthotopic mouse models without affecting primary tumor growth [PMID:32888432](../papers/32888432.md).
@@ -42,6 +42,7 @@ this stub exists so child pages can resolve their `parent:` link.
 - ARGO Nigerian colorectal cohort (380 patients): Nigerian patients younger (median 55.8 vs. 60.0y), more likely rectal (50.8% vs. 33.7%) and stage IV (53.8% vs. 36.2%); MSI-H rate 28.1% vs. 14.2% TCGA; MSS tumors had depleted APC and WNT signaling but enriched RAS-pathway [PMID:34819518](../papers/34819518.md)
 - COLON MAP / HTAN multi-omic polyp atlas (142,065 cells, 62 participants): defines adenoma vs. serrated polyp cell-of-origin (stem vs. differentiated lineage); CRC molecular subtypes retain precursor transcriptomic signatures; MSI-H CRCs gain stemness on metaplastic background [PMID:34910928](../papers/34910928.md)
 - MSK-IMPACT sequencing of 4,561 colorectal cancer patients identified 47 cases (1.03%) with dual RAS/BRAF V600E driver mutations; single-cell genotyping confirmed same-cell co-occurrence (14%–95% of tumor cells) in 4 cases [PMID:35235413](../papers/35235413.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): COADREAD comprised 12% of cohort; APC altered in 72% (indistinguishable from MSK-IMPACT); 55% of MSI-H cases in cohort were CRC; TP53 R175H/L most common in COADREAD (8%); younger/early-stage CRC enriched for MSI-H and POLE-associated hypermutation; [BRAF](../genes/BRAF.md) V600E in 4.4% ([encorafenib](../drugs/encorafenib.md)+[cetuximab](../drugs/cetuximab.md) Level 1) [PMID:35871175](../papers/35871175.md)
 
 ## Therapeutic landscape
 
@@ -87,7 +88,10 @@ this stub exists so child pages can resolve their `parent:` link.
 
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+
 - [PMID:35235413](../papers/35235413.md)
+
+
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

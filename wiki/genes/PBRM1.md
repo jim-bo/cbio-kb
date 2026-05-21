@@ -32,7 +32,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - PBRM1 (SWI/SNF subunit) mutated as part of a chromatin-remodelling complex enriched in ATC vs PDTC (SWI/SNF subunit mutations in 36% ATC vs 6% PDTC, P=1×10⁻⁴); mutations generally mutually exclusive within the complex. [PMID:26878173](../papers/26878173.md)
 - Identified as a Mut-driver gene (inactivating mutations) in the METABRIC 2,433-tumor breast cancer cohort; classified as a SWI/SNF chromatin-function driver (22.6% of all tumors had a coding mutation in ≥1 of seven chromatin-function Mut-drivers including PBRM1). Raises possibility of synthetic-lethal vulnerabilities analogous to ARID1A/ARID1B in the breast cancer setting. [PMID:27161491](../papers/27161491.md)
 - Mutated in 3% of unclassified [RCC](../cancer_types/RCC.md) (uRCC) cases in a 62-sample MSK-IMPACT cohort; co-occurs with other chromatin-remodeling gene mutations distinguishing uRCC from ccRCC (VHL-low) [PMID:27713405](../papers/27713405.md)
-- SWI/SNF complex member; more frequently altered in esophageal adenocarcinoma (EAC) than esophageal squamous cell carcinoma ([ESCC](../cancer_types/ESCC.md)) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
+- SWI/SNF complex member; more frequently altered in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) than esophageal squamous cell carcinoma ([ESCC](../cancer_types/ESCC.md)) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 - S275 mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Biallelic LOF (truncating mutation + chr3p loss) enriched in anti-PD-(L)1 responders in ccRCC; PBRM1-LOF tumors show up-regulated hypoxia and JAK/STAT3 programs and reduced immune-inhibitory ligand expression [PMID:29301960](../papers/29301960.md)
 - Called as a [KIRC](../cancer_types/KIRC.md) SMG by both MutSig2CV and MuSiC2 in the MC3 pan-cancer open-access MAF covering 10,510 TCGA tumor/normal pairs across 33 cancer types [PMID:29596782](../papers/29596782.md).
@@ -43,9 +43,9 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - PBRM1 is a member of the SWI/SNF complex mutated in 19.5% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases jointly with [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), and [BRD7](../genes/BRD7.md) [PMID:31130341](../papers/31130341.md)
 - Subclonal alteration in a single RB1-wildtype retinoblastoma specimen (along with [BIRC3](../genes/BIRC3.md)); not recurrently mutated in the 83-tumor cohort [PMID:33466343](../papers/33466343.md)
 - Mutated in 12% of intrahepatic cholangiocarcinoma (iCCA) in a 412-patient retrospective cohort at MSKCC/Erasmus; not independently prognostic in this analysis [PMID:33765338](../papers/33765338.md)
-- Mutated in 12% of cutaneous squamous cell carcinomas ([CSCC](../cancer_types/CSCC.md)); SWI/SNF chromatin-remodeling subunit; nominated as novel CSCC driver in this meta-analysis of 88 tumors [PMID:34272401](../papers/34272401.md)
+- Mutated in 12% of cutaneous squamous cell carcinomas ([CSCC](../cancer_types/CSCC.md)); SWI/SNF chromatin-remodeling subunit; nominated as novel [CSCC](../cancer_types/CSCC.md) driver in this meta-analysis of 88 tumors [PMID:34272401](../papers/34272401.md)
 - Inactivating alterations in 15.8% of chordomas; identified in clinical genomic profiling of 7,494 soft tissue and bone sarcoma samples [PMID:35705558](../papers/35705558.md)
-- Predominant SWI/SNF alteration alongside ARID1A in 43% of uterine adenosarcoma ([UAS](../cancer_types/UAS.md)) [PMID:35705560](../papers/35705560.md)
+- Predominant SWI/SNF alteration alongside [ARID1A](../genes/ARID1A.md) in 43% of uterine adenosarcoma ([UAS](../cancer_types/UAS.md)) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 

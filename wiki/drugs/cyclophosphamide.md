@@ -26,6 +26,7 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - Cyclophosphamide is an alkylating agent documented among therapies received by the 5,978 previously treated patients in a 24,146-patient MSK cohort; the study found cytotoxic chemotherapy class overall associated with clonal haematopoiesis (OR=1.2, p=2×10⁻³), though no gene-specific cyclophosphamide interaction was reported separately [PMID:33106634](../papers/33106634.md).
 - OncoMark hallmark-survival analysis (TCGA logistic regression) associated cyclophosphamide with the Activating Invasion and Metastasis (AIM) hallmark for disease-free survival and the Resisting Cell Death (RCD) hallmark for overall survival [PMID:35121966](../papers/35121966.md)
 - Cyclophosphamide was used as chemotherapy backbone in combination regimens within the MAPPYACTS trial; 45/122 matched targeted therapies were combined with chemotherapy (ORR 18%) [PMID:35292802](../papers/35292802.md)
+- Alkylating immunosuppressant; one of 25 metastatic [CSCC](../cancer_types/CSCC.md) patients in WGS study was on cyclophosphamide+[tacrolimus](../drugs/tacrolimus.md) post solid-organ transplant; SBS32 signature attributable to [azathioprine](../drugs/azathioprine.md) observed in another immunosuppressed patient [PMID:35982973](../papers/35982973.md)
 
 ## Resistance mechanisms
 
@@ -56,5 +57,8 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

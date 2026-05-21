@@ -3,8 +3,8 @@ symbol: RAF1
 aliases: [CRAF]
 cancer_types: [HCC]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # RAF1
@@ -18,10 +18,11 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 - RAF1 is listed in the [HCC](../cancer_types/HCC.md) mutational gene catalog from WES of 1,289 patients; individual mutation frequency is not separately enumerated in the review text. [PMID:24798001](../papers/24798001.md)
 - In mCRPC, RAF1 is involved in potentially actionable fusions (~3% of patients) that are candidates for pan-RAF or MEK inhibitor strategies. [PMID:26000489](../papers/26000489.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), RAF1 is a recurrent fusion partner: TRAK1-RAF1, RAF1-AGGF1, and CLCN6-RAF1 fusions identified with intact kinase domain; enriched in the Triple-WT subtype. Functional validation of transforming activity and drug sensitivity awaits follow-up. [PMID:26091043](../papers/26091043.md)
-- Identified as a significantly mutated gene exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC); contributes to the RTK/Ras/Raf pathway driver landscape in lung adenocarcinoma. [PMID:27158780](../papers/27158780.md)
-- 2 S257L hotspot mutations identified in a prospective LUAD cohort (860 patients, MSK-IMPACT panel); classified as unmatched driver alteration [PMID:28336552](../papers/28336552.md)
-- RAF1 K106N mutation identified in a patient with mixed histiocytosis; first description of RAF1 mutation in histiocytic neoplasms; functionally validated as ERK-activating and cobimetinib-sensitive in Ba/F3 IL3-independence assay (two-way ANOVA p<0.0001; IC50 difference one-way ANOVA p<0.01); patient responded to cobimetinib [PMID:30867592](../papers/30867592.md)
+- Identified as a significantly mutated gene exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the 1,144-tumor [NSCLC](../cancer_types/NSCLC.md) landscape study (660 lung ADC, 484 lung SqCC); contributes to the RTK/Ras/Raf pathway driver landscape in lung adenocarcinoma. [PMID:27158780](../papers/27158780.md)
+- 2 S257L hotspot mutations identified in a prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT panel); classified as unmatched driver alteration [PMID:28336552](../papers/28336552.md)
+- RAF1 K106N mutation identified in a patient with mixed histiocytosis; first description of RAF1 mutation in histiocytic neoplasms; functionally validated as ERK-activating and cobimetinib-sensitive in Ba/F3 IL3-independence assay (two-way ANOVA p<0.0001; IC50 difference one-way ANOVA p<0.01); patient responded to [cobimetinib](../drugs/cobimetinib.md) [PMID:30867592](../papers/30867592.md)
 - Secondary RTK-RAS regulator contributing to NF1/BRAF Class 3 co-alteration patterns in melanoma; identified in the 28-gene driver panel as a co-alteration partner rather than a sole driver [PMID:33509808](../papers/33509808.md)
+- Structural variant detected by LINX/PURPLE in metastatic [CSCC](../cancer_types/CSCC.md) WGS cohort (n=25) [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -43,22 +44,25 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30867592](../papers/30867592.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

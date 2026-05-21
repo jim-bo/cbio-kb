@@ -3,7 +3,7 @@ symbol: MUTYH
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -24,6 +24,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 - Among the moderate- and low-penetrance germline cancer-predisposition genes interrogated in EO-CRC; rates of MUTYH mutations were similar between early-onset and average-onset cohorts after adjustment for number of genes tested [PMID:34405229](../papers/34405229.md).
 - Germline pathogenic variant p.Gly396Asp detected in 2 [LGSOC](../cancer_types/LGSOC.md) patients (n=119) during an 88-gene germline panel analysis; germline mutation rate was 9% across the entire cohort [PMID:35443055](../papers/35443055.md).
 - Pathogenic germline variant c.924+3A>C in neuroblastoma patient H135421 with somatic LOH; 42% of the tumor's mutations attributed to the SBS36 MUTYH signature; detected by cWGTS in a pediatric/young adult cancer cohort (n=29 neuroblastoma) [PMID:35585047](../papers/35585047.md).
+- SBS36 mutational signature (MUTYH-associated) observed in one pMMR/MSS LARC patient in a cohort of 692 rectal tumors [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

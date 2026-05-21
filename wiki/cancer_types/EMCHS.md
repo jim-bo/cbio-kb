@@ -17,7 +17,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Extraskeletal Myxoid Chondrosarcoma is a rare, slow-growing mesenchymal tumor of uncertain differentiation defined by recurrent translocations involving [NR4A3](../genes/NR4A3.md) — most commonly [EWSR1](../genes/EWSR1.md)–NR4A3 (t(9;22)), and also [TAF15](../genes/TAF15.md)–NR4A3 or TCF12–NR4A3. Despite the name, it lacks true hyaline cartilage differentiation. It is classified under chondrosarcoma ([CHS](../cancer_types/CHS.md)) in OncoTree.
+Extraskeletal Myxoid Chondrosarcoma is a rare, slow-growing mesenchymal tumor of uncertain differentiation defined by recurrent translocations involving [NR4A3](../genes/NR4A3.md) — most commonly [EWSR1](../genes/EWSR1.md)–[NR4A3](../genes/NR4A3.md) (t(9;22)), and also [TAF15](../genes/TAF15.md)–NR4A3 or TCF12–NR4A3. Despite the name, it lacks true hyaline cartilage differentiation. It is classified under chondrosarcoma ([CHS](../cancer_types/CHS.md)) in OncoTree.
 
 ## Cohorts in the corpus
 
@@ -25,7 +25,7 @@ Extraskeletal Myxoid Chondrosarcoma is a rare, slow-growing mesenchymal tumor of
 
 ## Recurrent alterations
 
-- In the 2,138-sarcoma MSK-IMPACT cohort, extraskeletal myxoid chondrosarcoma was among the translocation-associated sarcoma histotypes; NR4A3 rearrangements (with EWSR1, TAF15, or TCF12 partners) are pathognomonic; cell cycle and [TP53](../genes/TP53.md) pathway alterations were recurrent across most sarcoma subtypes [PMID:35705560](../papers/35705560.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, extraskeletal myxoid chondrosarcoma was among the translocation-associated sarcoma histotypes; NR4A3 rearrangements (with [EWSR1](../genes/EWSR1.md), [TAF15](../genes/TAF15.md), or TCF12 partners) are pathognomonic; cell cycle and [TP53](../genes/TP53.md) pathway alterations were recurrent across most sarcoma subtypes [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 

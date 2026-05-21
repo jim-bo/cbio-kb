@@ -36,9 +36,9 @@ Undifferentiated Pleomorphic Sarcoma is a high-grade, genomically complex soft t
 
 ## Therapeutic landscape
 
-- ICI with pembrolizumab for TMB ≥10 mut/Mb (3.9% of all sarcomas; 10.9% of UPS/MFH) — anecdotal complete response documented [PMID:35705558](../papers/35705558.md).
+- ICI with [pembrolizumab](../drugs/pembrolizumab.md) for TMB ≥10 mut/Mb (3.9% of all sarcomas; 10.9% of UPS/MFH) — anecdotal complete response documented [PMID:35705558](../papers/35705558.md).
 - WGD as adverse prognostic marker in metastatic UPS warrants prospective validation [PMID:35705560](../papers/35705560.md).
-- NF1 deletions (14%) → MEK inhibitor rationale (Level 4) [PMID:35705560](../papers/35705560.md).
+- [NF1](../genes/NF1.md) deletions (14%) → MEK inhibitor rationale (Level 4) [PMID:35705560](../papers/35705560.md).
 
 ## Sources
 

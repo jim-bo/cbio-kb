@@ -33,11 +33,12 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - Proposed as potentially actionable agent for [PTEN](../genes/PTEN.md) loss (10q deletion) identified in [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient [PMID:28199314](../papers/28199314.md).
 - Authors note prior efficacy of everolimus in leiomyosarcoma but flag the limitation of compensatory AKT activation; recommend evaluating dual PI3K/MTOR inhibitors given pervasive PTEN/AKT3/MTOR/IGF1R/RICTOR pathway alterations in 84% of [ULMS](../cancer_types/ULMS.md)+STLMS C1 [PMID:29100075](../papers/29100075.md)
 - Cited as prior VEGF-targeted therapy in the ccRCC cohorts; PBRM1-LOF benefit from anti-PD-(L)1 was more pronounced in previously VEGF-inhibitor-treated patients, suggesting a treatment-sequencing interaction relevant to mTOR-pathway agents [PMID:29301960](../papers/29301960.md)
-- In MSKCC prospective NGS of 127 advanced HCC patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on [sorafenib](../drugs/sorafenib.md); all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset [PMID:30373752](../papers/30373752.md).
+- In MSKCC prospective NGS of 127 advanced [HCC](../cancer_types/HCC.md) patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on [sorafenib](../drugs/sorafenib.md); all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset [PMID:30373752](../papers/30373752.md).
 - In 80 metastatic panNET patients, mTOR-pathway mutation status (43% of patients with [TSC2](../genes/TSC2.md), [PTEN](../genes/PTEN.md), or [RHEB](../genes/RHEB.md) alterations) did not predict everolimus benefit — response rates were 17% vs 29% in mTOR-altered vs wild-type patients; serial biopsies identified acquired resistance mutations including [PTEN](../genes/PTEN.md) Q298*, [RHEB](../genes/RHEB.md) Y35S, [TSC2](../genes/TSC2.md) splice, and [AKT2](../genes/AKT2.md) G16D [PMID:30687805](../papers/30687805.md)
 - In the FUTURE umbrella trial, everolimus combined with [nab-paclitaxel](../drugs/nab-paclitaxel.md) in arm G (MES-subtype TNBC with PI3K-AKT pathway mutation) achieved ORR 50% (1/2 evaluable); very small arm, results preliminary [PMID:32719455](../papers/32719455.md).
 - [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition (everolimus or [temsirolimus](../drugs/temsirolimus.md)) combined with liposomal [doxorubicin](../drugs/doxorubicin.md) and [bevacizumab](../drugs/bevacizumab.md) in PI3K-pathway-altered advanced triple-negative [MBC](../cancer_types/MBC.md) [PMID:33863915](../papers/33863915.md).
 - Everolimus (mTOR inhibitor) was used in AcSé-ESMART platform arms E/F in MAPPYACTS to target PIK3CA/PIK3R1 alterations (n=23) and [PTEN](../genes/PTEN.md) losses (n=25) in pediatric recurrent malignancies; mTOR inhibitors received 123 recommendations across the cohort [PMID:35292802](../papers/35292802.md)
+- mTOR inhibitor; [TSC2](../genes/TSC2.md) loss-of-function in 4.9% of [LIHC](../cancer_types/LIHC.md) in Chinese pan-cancer cohort (n=10,194) provides Level 4 rationale for everolimus [PMID:35871175](../papers/35871175.md)
 
 ## Resistance mechanisms
 
@@ -89,7 +90,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
-- [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80); mTOR-pathway mutation status did not predict everolimus benefit; serial biopsies identified acquired resistance mutations (PTEN Q298*, [RHEB](../genes/RHEB.md) Y35S, [TSC2](../genes/TSC2.md) splice, [AKT2](../genes/AKT2.md) G16D).
+- [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80); mTOR-pathway mutation status did not predict everolimus benefit; serial biopsies identified acquired resistance mutations ([PTEN](../genes/PTEN.md) Q298*, [RHEB](../genes/RHEB.md) Y35S, [TSC2](../genes/TSC2.md) splice, [AKT2](../genes/AKT2.md) G16D).
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32719455](../papers/32719455.md)
@@ -97,5 +98,8 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

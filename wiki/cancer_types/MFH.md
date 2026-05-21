@@ -18,7 +18,7 @@ Undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)), historical
 
 ## Cohorts in the corpus
 
-- [sarcoma_msk_2023](../datasets/sarcoma_msk_2023.md): 14 RT-UPS patients and 273 sporadic UPS controls, sequenced on [MSK-IMPACT](../methods/msk-impact-panel.md) [PMID:37350195](../papers/37350195.md).
+- [sarcoma_msk_2023](../datasets/sarcoma_msk_2023.md): 14 RT-UPS patients and 273 sporadic [UPS](../cancer_types/UPS.md) controls, sequenced on [MSK-IMPACT](../methods/msk-impact-panel.md) [PMID:37350195](../papers/37350195.md).
 
 ## Recurrent alterations
 

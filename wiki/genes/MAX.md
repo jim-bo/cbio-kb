@@ -19,7 +19,7 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 - 3 coding mutations with LOH identified in multiple myeloma (MM) whole-exome sequencing; MAX is the [MYC](../genes/MYC.md) heterodimerization partner and its dysregulation implicates MYC-axis disruption in MM pathogenesis [PMID:24434212](../papers/24434212.md)
 - Alteration identified as part of the actionable alteration list in cisplatin-resistant germ cell tumors ([GCT](../cancer_types/GCT.md)) [PMID:27646943](../papers/27646943.md)
 - Germline MAX mutations observed as rare events in pheochromocytoma/paraganglioma, occurring specifically in the cortical [admixture](../methods/admixture.md) subtype (p<0.032) [PMID:28162975](../papers/28162975.md)
-- MAX is a novel recurrently mutated gene in [GIST](../cancer_types/GIST.md) at 4% frequency in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148); co-occurs with [SETD2](../genes/SETD2.md) (4%) and [MGA](../genes/MGA.md) (3%) as new potential GIST drivers [PMID:35705560](../papers/35705560.md)
+- MAX is a novel recurrently mutated gene in [GIST](../cancer_types/GIST.md) at 4% frequency in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148); co-occurs with [SETD2](../genes/SETD2.md) (4%) and [MGA](../genes/MGA.md) (3%) as new potential [GIST](../cancer_types/GIST.md) drivers [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 

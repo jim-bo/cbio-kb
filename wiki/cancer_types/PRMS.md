@@ -18,7 +18,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Pleomorphic Rhabdomyosarcoma is a high-grade rhabdomyosarcoma subtype occurring predominantly in adults, characterized by extensive cellular and nuclear pleomorphism without the canonical translocations of alveolar [RMS](../cancer_types/RMS.md) (PAX3/7–[FOXO1](../genes/FOXO1.md)). It is the rarest and most aggressive RMS subtype. **Note:** The canonical OncoTree code is PLRMS (Pleomorphic Rhabdomyosarcoma), not PRMS. The code "PRMS" is corpus shorthand used in the dataset `sarcoma_msk_2022`. The closest canonical page is [RMS](../cancer_types/RMS.md).
+Pleomorphic Rhabdomyosarcoma is a high-grade rhabdomyosarcoma subtype occurring predominantly in adults, characterized by extensive cellular and nuclear pleomorphism without the canonical translocations of alveolar [RMS](../cancer_types/RMS.md) (PAX3/7–[FOXO1](../genes/FOXO1.md)). It is the rarest and most aggressive [RMS](../cancer_types/RMS.md) subtype. **Note:** The canonical OncoTree code is PLRMS (Pleomorphic Rhabdomyosarcoma), not PRMS. The code "PRMS" is corpus shorthand used in the dataset `sarcoma_msk_2022`. The closest canonical page is [RMS](../cancer_types/RMS.md).
 
 ## Cohorts in the corpus
 
@@ -26,7 +26,7 @@ Pleomorphic Rhabdomyosarcoma is a high-grade rhabdomyosarcoma subtype occurring 
 
 ## Recurrent alterations
 
-- In a 7,494-sarcoma cohort, pleomorphic rhabdomyosarcoma was included as a distinct RMS subtype among the 44 histologies; genomically complex sarcomas showed p53 pathway (58.2%) and Rb pathway (56%) alteration; complex RMS variants lack the defining PAX3/7–FOXO1 fusions of alveolar RMS [PMID:35705558](../papers/35705558.md).
+- In a 7,494-sarcoma cohort, pleomorphic rhabdomyosarcoma was included as a distinct RMS subtype among the 44 histologies; genomically complex sarcomas showed p53 pathway (58.2%) and Rb pathway (56%) alteration; complex RMS variants lack the defining PAX3/7–[FOXO1](../genes/FOXO1.md) fusions of alveolar RMS [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 

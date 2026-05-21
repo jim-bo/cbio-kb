@@ -25,6 +25,7 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 - Phase I/II trial (NCT01870505, n=51 HR+ [MBC](../cancer_types/MBC.md)) of alpelisib + [letrozole](../drugs/letrozole.md) or [exemestane](../drugs/exemestane.md) showed CBR 52% (23/44), ORR 19% (6/31); benefit confined to PIK3CA-mutant tumors (CBR 57.5% vs 0% in PIK3CA-WT, p=0.025); [PTEN](../genes/PTEN.md) loss (25% of paired ctDNA) and [ESR1](../genes/ESR1.md) mutations were recurrent resistance mechanisms; intermittent dosing (350 mg 5-on/2-off + [exemestane](../drugs/exemestane.md)) established as MTD [PMID:32864625](../papers/32864625.md).
 - In a tumor-fraction-guided cfDNA profiling study (N=118 metastatic solid tumors at MSKCC), [PIK3CA](../genes/PIK3CA.md) OncoKB level 1 alterations were identified in plasma of breast cancer patients via cf-IMPACT, supporting alpelisib eligibility; actionable variants were identified in 25% of the full cohort [PMID:34059130](../papers/34059130.md).
 - PI3K inhibitor alpelisib was listed among treatment recommendations in MAPPYACTS precision-oncology trial matching PIK3CA/PIK3R1 alterations in pediatric/young-adult recurrent malignancies; 23 PIK3CA/PIK3R1 events across the cohort were recommended mTOR and PI3K-pathway inhibitor combinations [PMID:35292802](../papers/35292802.md)
+- PI3K-alpha inhibitor; [PIK3CA](../genes/PIK3CA.md) canonical hotspots (C420R, E542K, E545A/D/G/K, H1047L/R/Y, Q546E/R) actionable with alpelisib in 31% of [BRCA](../cancer_types/BRCA.md) and 7.4% of CRC in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
 
 ## Resistance mechanisms
 
@@ -55,5 +56,8 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

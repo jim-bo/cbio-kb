@@ -25,7 +25,7 @@ BARD1 (BRCA1-associated RING domain protein 1) is a tumor suppressor that forms 
 
 ## Co-occurrence and mutual exclusivity
 
-- Forms obligate heterodimer with [BRCA1](../genes/BRCA1.md); mutations in BARD1 functionally equivalent to BRCA1 loss in DNA-repair competence.
+- Forms obligate heterodimer with [BRCA1](../genes/BRCA1.md); mutations in BARD1 functionally equivalent to [BRCA1](../genes/BRCA1.md) loss in DNA-repair competence.
 
 ## Therapeutic relevance
 

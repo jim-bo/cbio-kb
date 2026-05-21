@@ -31,7 +31,7 @@ EXT2 (exostosin glycosyltransferase 2) encodes a glycosyltransferase required fo
 
 ## Therapeutic relevance
 
-- EXT2 variants predict erlotinib sensitivity in the CCLE pharmacogenomic dataset; the biological mechanism linking EXT2 loss-of-function and [EGFR](../genes/EGFR.md) inhibitor sensitivity is not characterised in the corpus [PMID:22460905](../papers/22460905.md)
+- EXT2 variants predict [erlotinib](../drugs/erlotinib.md) sensitivity in the CCLE pharmacogenomic dataset; the biological mechanism linking EXT2 loss-of-function and [EGFR](../genes/EGFR.md) inhibitor sensitivity is not characterised in the corpus [PMID:22460905](../papers/22460905.md)
 
 ## Open questions
 

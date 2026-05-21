@@ -21,6 +21,8 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 - Amplification associated with higher mean Rb protein and phospho-Rb (but overlapping distributions) in CPTAC LSCC proteogenomics (108 tumors); CCND1 amplification did not show significant association of CDK4/CDK6 amplification with CDKN2A/p16 or Rb protein levels; heterogeneous Rb protein in CCND1-amplified tumors may explain outlier responses to CDK4/6 inhibitors. [PMID:34358469](../papers/34358469.md)
 - Canonical YAP/TAZ transcriptional target; downregulated upon YAP1/WWTR1 double knockdown in CRPC-SCL cell lines (MSKPCa3 and DU145), implicating it in YAP/TAZ-driven cell-cycle regulation in lineage-plastic prostate cancer ([prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md)) [PMID:35617398](../papers/35617398.md)
 - CCND1 amplified in 1.0% of 7,494 sarcomas; co-amplified with FGF2/FGF3/FGF19 at the 11q13 amplicon in undifferentiated pleomorphic sarcoma of bone (4.3%); co-occurs unusually with CDK4/6 and CDKN2A/B within the Rb pathway [PMID:35705558](../papers/35705558.md)
+- Amplification present in the pan-cancer OncoMark Chinese solid-tumor cohort (2,396 patients); structural gain catalogued across cancer types [PMID:35871175](../papers/35871175.md)
+- Focally amplified in 2/25 metastatic cSCC samples (WGS cohort); co-amplified with [FGF3](../genes/FGF3.md) in CSCC_0132 and CSCC_0134; structural gain also detected by LINX/PURPLE SV analysis [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +30,7 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [CCNE1](../genes/CCNE1.md) and [CDKN2B](../genes/CDKN2B.md) alterations as part of the Cell Cycle pathway enrichment in EAC [PMID:33795256](../papers/33795256.md).
+- Co-occurs with [CCNE1](../genes/CCNE1.md) and [CDKN2B](../genes/CDKN2B.md) alterations as part of the Cell Cycle pathway enrichment in [EAC](../cancer_types/EAC.md) [PMID:33795256](../papers/33795256.md).
 
 ## Therapeutic relevance
 
@@ -53,5 +55,11 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

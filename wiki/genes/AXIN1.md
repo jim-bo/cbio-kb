@@ -26,7 +26,7 @@ AXIN1 is a scaffold protein in the WNT signaling pathway that facilitates beta-c
 - AXIN1 inactivating alterations in 6.3% of [HCC](../cancer_types/HCC.md); AXIN1-inactivated tumors grouped with CTNNB1-activated tumors as WNT-activated, associated with innate resistance to immune checkpoint blockade [PMID:30373752](../papers/30373752.md)
 - AXIN1 identified as significantly mutated driver in cHCC-ICC (dNdScv q < 0.1); enriched in mixed-type cHCC-ICC (20% Mix vs 2% Com, p < 0.001); focal loss/deletion in 25%; trunk driver in some separate-type cases [PMID:31130341](../papers/31130341.md)
 - AXIN1 protein upregulated in uterine corpus endometrial carcinoma tumors with [CTNNB1](../genes/CTNNB1.md) hotspot mutations; co-occurs with [APC](../genes/APC.md) loss-of-function as an alternative route to Wnt/β-catenin pathway activation [PMID:32059776](../papers/32059776.md)
-- Identified as a significantly mutated gene (SMG) in a 122-sample [HCC](../cancer_types/HCC.md) proteogenomic cohort by MutSigCV and OncodriveFML, consistent with prior HCC genomic surveys [PMID:35508466](../papers/35508466.md)
+- Identified as a significantly mutated gene (SMG) in a 122-sample [HCC](../cancer_types/HCC.md) proteogenomic cohort by MutSigCV and OncodriveFML, consistent with prior [HCC](../cancer_types/HCC.md) genomic surveys [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

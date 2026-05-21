@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [indel-calling, structural-variant, bioinformatics]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -29,6 +29,7 @@ Pindel is a pattern growth algorithm for detecting break points of large deletio
 - Used to call somatic indels (Pindel v0.2.5) in reprocessed WES/WGS data from 88 [CSCC](../cancer_types/CSCC.md) tumors alongside MuTect2 for SNV calling [PMID:34272401](../papers/34272401.md)
 - Pindel applied for structural variant and large indel detection in MSK-IMPACT sequencing of 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md).
 - Used in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline for structural variant and indel detection from whole-genome sequencing in 114 pediatric/AYA solid tumor patients [PMID:35585047](../papers/35585047.md)
+- Used for InDel calling in the OrigiMed CSYS 450-gene NGS panel pipeline across 10,194 Chinese solid-tumor patients alongside MuTect for SNVs; all variants manually reviewed in IGV [PMID:35871175](../papers/35871175.md)
 
 ## Notes
 
@@ -70,3 +71,6 @@ Pindel is a pattern growth algorithm for detecting break points of large deletio
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: BCL2
 aliases: []
 cancer_types: [CLLSLL, DLBCLNOS]
 tags: [translocation, apoptosis, m-cll]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # BCL2
@@ -23,11 +23,12 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - Cited as a DLBCL driver gene in the context of somatic-hypermutation discussion in multiple myeloma (MM); BCL2 invoked by analogy alongside [MYD88](../genes/MYD88.md) and [CARD11](../genes/CARD11.md) as DLBCL drivers that appear as rare mutations in MM patients lacking the 11 canonical MM driver mutations [PMID:24434212](../papers/24434212.md)
 - Focal amplification (GISTIC peak) in thymic tumors with correlated increased mRNA expression by RNA-seq [PMID:24974848](../papers/24974848.md)
 - Highest median protein expression in Triple-WT melanoma subtype by RPPA; rationale for BH3 mimetics in Triple-WT [PMID:26091043](../papers/26091043.md)
-- Identified as a putative MYB transcriptional target gene in adenoid cystic carcinoma (ACC); MYB binding genome-wide (13,278 high-confidence peaks) drives a transcriptional program that includes BCL2 as one of its targets [PMID:26829750](../papers/26829750.md)
+- Identified as a putative [MYB](../genes/MYB.md) transcriptional target gene in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); MYB binding genome-wide (13,278 high-confidence peaks) drives a transcriptional program that includes BCL2 as one of its targets [PMID:26829750](../papers/26829750.md)
 - placeholder
-- IgH-juxtaposed structural variants in C3 GCB-DLBCL (97% partner IgH) in dlbcl_dfci_2018; 18q21.33/BCL2 focal gain in C5 ABC-DLBCL independently prognostic for inferior PFS [PMID:29713087](../papers/29713087.md)
-- BCL2 discussed as a known therapeutic-target gene in the AML landscape, with venetoclax as the relevant therapeutic agent in Beat AML ex vivo profiling context [PMID:30333627](../papers/30333627.md)
+- IgH-juxtaposed structural variants in C3 GCB-DLBCL (97% partner IgH) in [dlbcl_dfci_2018](../datasets/dlbcl_dfci_2018.md); 18q21.33/BCL2 focal gain in C5 ABC-DLBCL independently prognostic for inferior PFS [PMID:29713087](../papers/29713087.md)
+- BCL2 discussed as a known therapeutic-target gene in the [AML](../cancer_types/AML.md) landscape, with [venetoclax](../drugs/venetoclax.md) as the relevant therapeutic agent in Beat AML ex vivo profiling context [PMID:30333627](../papers/30333627.md)
 - IDC-NST–private 18q21.33–q22.1 amplification identified in synchronous DCIS/IDC-NST breast cancer cohort, consistent with an invasive-stage-acquired copy-number event [PMID:32220886](../papers/32220886.md)
+- BCL2 is the pathway target of venetoclax, identified as one of two extreme outlier drugs in AML cell-state-dependent drug response analysis (the other being [panobinostat](../drugs/panobinostat.md)); venetoclax response showed strong cell-state bias in ex vivo AML drug sensitivity profiling (n=805 patients) [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 
@@ -51,37 +52,40 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:38497151](../papers/38497151.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

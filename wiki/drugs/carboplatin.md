@@ -5,7 +5,7 @@ drug_class: platinum-based chemotherapy (second-generation)
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, platinum, sarcoma]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -32,6 +32,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - Carboplatin exposure was the strongest platinum class driver of clonal haematopoiesis (CH) in 24,146 solid-tumor patients (OR=1.4, p=0.001; dose-response p-trend=3×10⁻⁵), while [cisplatin](../drugs/cisplatin.md) (p=0.10) and [oxaliplatin](../drugs/oxaliplatin.md) (p=0.88) were not significant; [PPM1D](../genes/PPM1D.md), [TP53](../genes/TP53.md), and [CHEK2](../genes/CHEK2.md) clones were preferentially expanded by carboplatin, raising concern for therapy-related myeloid neoplasm in patients with pre-existing DDR CH [PMID:33106634](../papers/33106634.md).
 - Carboplatin + [paclitaxel](../drugs/paclitaxel.md) (Carbo-Taxol) was administered as neoadjuvant therapy in 49% of 237 locally advanced esophageal/GEJ adenocarcinoma patients at MSK; FOLFOX was associated with better pathologic response than Carbo-Taxol (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
 - Carboplatin (with cisplatin/etoposide) is noted as part of first-line platinum-based chemoimmunotherapy for extensive-stage [SCLC](../cancer_types/SCLC.md); the MSK773 SCLC-P patient received carboplatin + [etoposide](../drugs/etoposide.md), progressing within 6 months [PMID:35440124](../papers/35440124.md)
+- Platinum chemotherapy; serial ctDNA (MSK-ACCESS) tracked response to salvage paclitaxel/carboplatin in metastatic endometrial cancer patients in MSK cfDNA pilot study (n=44) [PMID:36007103](../papers/36007103.md)
 
 ## Resistance mechanisms
 
@@ -78,3 +79,6 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

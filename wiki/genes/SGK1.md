@@ -19,7 +19,7 @@ SGK1 (Serum/Glucocorticoid Regulated Kinase 1) is a serine/threonine kinase regu
 - WES of 55 DLBCL tumors identified recurrent SGK1 mutations in ~4% of cases, implicating PI3K/AKT signaling pathway dysregulation in diffuse large B-cell lymphoma [PMID:22343534](../papers/22343534.md)
 - Preferentially mutated in GCB DLBCL; mutations associated with favorable survival across DLBCL subtypes [PMID:28985567](../papers/28985567.md)
 - BCR/PI3K signaling modifier in C3/C4 GCB-DLBCL; AID-target of aberrant somatic hypermutation (cAID signature); among 98 CCGs identified in 304 primary DLBCLs by MutSigCV [PMID:29713087](../papers/29713087.md)
-- SGK1 kinase activity was decreased in [HCC](../cancer_types/HCC.md) vs. normal liver by KSEA in a Chinese [HCC](../cancer_types/HCC.md) proteogenomic cohort (n=159); SGK1 is one of five kinases with globally reduced activity in HCC [PMID:35508466](../papers/35508466.md)
+- SGK1 kinase activity was decreased in [HCC](../cancer_types/HCC.md) vs. normal liver by KSEA in a Chinese [HCC](../cancer_types/HCC.md) proteogenomic cohort (n=159); SGK1 is one of five kinases with globally reduced activity in [HCC](../cancer_types/HCC.md) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

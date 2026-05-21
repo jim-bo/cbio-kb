@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - HCC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # FGF3
@@ -20,6 +20,8 @@ FGF3 (Fibroblast Growth Factor 3) is a member of the FGF family involved in cell
 - Co-amplified on chromosome 11q13 with [CCND1](../genes/CCND1.md), [EMSY](../genes/EMSY.md), [PAK1](../genes/PAK1.md), [RSF1](../genes/RSF1.md); defines IntClust2 (4.5% of ER+ breast cancer); associated with chronic late-relapse risk to 20 years in ER+/HER2- disease [PMID:30867590](../papers/30867590.md)
 - Located within the 11q13.3 region of recurrent copy-number gain in CDK12-biallelic prostate cancer; co-amplified with [FGF19](../genes/FGF19.md) and [FGF4](../genes/FGF4.md) [PMID:32317181](../papers/32317181.md)
 - FGF3 co-amplified with [FGF2](../genes/FGF2.md), FGF19, and CCND1 at the 11q13 FGF amplicon in undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)) of bone [PMID:35705558](../papers/35705558.md)
+- Amplification at 11q13.3 locus (co-amplified with [CCND1](CCND1.md), [FGF4](FGF4.md), [FGF19](FGF19.md)); 43% frequency in [ESCA](../cancer_types/ESCA.md) vs 4% in other types (FDR=3.553×10⁻³⁰¹) in a pan-cancer cohort of 10,194 Asian solid-tumor patients [PMID:35871175](../papers/35871175.md)
+- Focal amplification in 2/25 (8%) regional metastatic [CSCC](../cancer_types/CSCC.md) (WGS); co-amplified with [CCND1](CCND1.md) in both cases (CSCC_0132 and CSCC_0134 with >50% nodal involvement); structural gain detected by LINX/PURPLE [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -47,4 +49,7 @@ FGF3 (Fibroblast Growth Factor 3) is a member of the FGF family involved in cell
 
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

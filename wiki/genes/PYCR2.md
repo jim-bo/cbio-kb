@@ -16,7 +16,7 @@ PYCR2 encodes pyrroline-5-carboxylate reductase 2, an enzyme involved in proline
 
 ## Alterations observed in the corpus
 
-- Cited from prior HBV-HCC proteogenomics as a prognostic biomarker; referenced as framing context in a 122-patient European HCC multi-omics cohort study (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
+- Cited from prior HBV-HCC proteogenomics as a prognostic biomarker; referenced as framing context in a 122-patient European [HCC](../cancer_types/HCC.md) multi-omics cohort study (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

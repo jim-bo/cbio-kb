@@ -51,7 +51,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Dependency observed in SOX2-amplified LSCC cell lines; nominated as an actionable upstream regulator of undruggable [SOX2](../genes/SOX2.md) via chromatin modification in the 3q-amplified LSCC subtype [PMID:34358469](../papers/34358469.md)
 - EZH2 inhibitors were matched as investigational-tier treatments for SMARCA4/SMARCB1-inactivated tumors (27 events, including rhabdoid tumors MRT/ATRT) in the MAPPYACTS pediatric WES cohort (n=787). [PMID:35292802](../papers/35292802.md)
 - Trend toward dural-metastasis enrichment of EZH2-regulated targets (q=0.07) observed in prostate cancer brain metastases (PCBM) profiled by WES and RNA-seq (n=51) [PMID:35504881](../papers/35504881.md)
-- EZH2 inhibition rationale in uterine adenosarcoma ([UAS](../cancer_types/UAS.md)): given SWI/SNF-EZH2 synthetic lethality precedent in epithelioid sarcoma ([EPIS](../cancer_types/EPIS.md)), the 43% SWI/SNF-altered rate in UAS motivates exploration of [tazemetostat](../drugs/tazemetostat.md) [PMID:35705560](../papers/35705560.md)
+- EZH2 inhibition rationale in uterine adenosarcoma ([UAS](../cancer_types/UAS.md)): given SWI/SNF-EZH2 synthetic lethality precedent in epithelioid sarcoma ([EPIS](../cancer_types/EPIS.md)), the 43% SWI/SNF-altered rate in [UAS](../cancer_types/UAS.md) motivates exploration of [tazemetostat](../drugs/tazemetostat.md) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 

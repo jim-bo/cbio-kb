@@ -19,7 +19,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-OSM (Oncostatin M) is an IL-6 family cytokine secreted primarily by myeloid cells and macrophages. In the glioma microenvironment, OSM signals through its receptor [OSMR](../genes/OSMR.md) expressed on neoplastic cells to drive mesenchymal subtype transition. The OSM-OSMR ligand-receptor axis has been identified as a top correlate of mesenchymal transition in recurrent IDHwt glioma, with spatial co-localization of OSM+ myeloid cells and OSMR+ neoplastic cells confirmed by multiplex immunofluorescence.
+OSM (Oncostatin M) is an IL-6 family cytokine secreted primarily by myeloid cells and macrophages. In the glioma microenvironment, OSM signals through its receptor [OSMR](../genes/OSMR.md) expressed on neoplastic cells to drive mesenchymal subtype transition. The OSM-OSMR ligand-receptor axis has been identified as a top correlate of mesenchymal transition in recurrent IDHwt glioma, with spatial co-localization of OSM+ myeloid cells and [OSMR](../genes/OSMR.md)+ neoplastic cells confirmed by multiplex immunofluorescence.
 
 ## Alterations observed in the corpus
 

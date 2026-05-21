@@ -39,7 +39,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 inactivating mutations in 19% of [HNSC](../cancer_types/HNSC.md) (MutSigCV q<0.1, TCGA n=279); [NOTCH2](../genes/NOTCH2.md) 9% and [NOTCH3](../genes/NOTCH3.md) 5% non-significant; convergent with [FAT1](../genes/FAT1.md) and [AJUBA](../genes/AJUBA.md) on β-catenin signalling; basal mRNA subtype enriched for NOTCH1 inactivation. [PMID:25631445](../papers/25631445.md)
 - In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), NOTCH1 alterations were present in 10% of cases, contributing to the NOTCH pathway total of ~31% alteration frequency (amplification/mutation); γ-secretase inhibitor (MK0752) is nominated as a therapeutic candidate. [PMID:25855536](../papers/25855536.md)
 - Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses [SCLC](../cancer_types/SCLC.md) initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
-- Somatic mutations enriched in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)) tumors lacking both [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) fusions (~33% of 102-tumor cohort); raises possibility of NOTCH-targeted therapy substratification in fusion-negative ACC [PMID:26631609](../papers/26631609.md)
+- Somatic mutations enriched in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)) tumors lacking both [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) fusions (~33% of 102-tumor cohort); raises possibility of NOTCH-targeted therapy substratification in fusion-negative [ACC](../cancer_types/ACC.md) [PMID:26631609](../papers/26631609.md)
 - Activated by point mutations or structural alterations (tandem duplication of 3′ enhancers; 5′ partial deletion) in grade-3 ACC; intracellular NOTCH1 (ICN1) marks luminal epithelial cells [PMID:26829750](../papers/26829750.md)
 - Most-frequently mutated gene in ACC cohort: 4 mutations in 3/25 tumors (nonsense, missense, frameshift, in-frame deletion) — 12% frequency [PMID:26862087](../papers/26862087.md)
 - NOTCH1 was mutated in anaplastic thyroid carcinoma (ATC) as part of a finding that all four NOTCH family members (NOTCH1–[NOTCH4](../genes/NOTCH4.md)) were mutated in ATC; part of low-frequency hits in a 341-gene panel sequencing study [PMID:26878173](../papers/26878173.md)
@@ -55,6 +55,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Discussed as a candidate exit-from-quiescence driver in the piano (never-smoker, low-CNA) subtype of lung cancer in never-smokers (LCINS), consistent with the long-latency quiescent-cell origin hypothesis [PMID:34493867](../papers/34493867.md).
 - Mutations in [LUSC](../cancer_types/LUSC.md) associated with elevated [GSK3B](../genes/GSK3B.md) protein and T433 phosphorylation, decreased inhibitory GSK3A S21, and upregulated NLK; both NLK and [GSK3B](../genes/GSK3B.md) inhibit NOTCH1, consistent with its tumor-suppressor role in squamous lung cancer [PMID:34358469](../papers/34358469.md).
 - NOTCH1 downstream YAP/TAZ pathway is upregulated in POU2F3-positive SCLC-P PDX models; NOTCH1/2/3 signaling implicated in the non-NE subtype biology across 42 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md)
+- Notably absent from significant or recurrent SNVs in metastatic [CSCC](../cancer_types/CSCC.md) (n=25), in contrast to the NOTCH-prominent landscape reported in primary CSCC by Inman et al.; suggests NOTCH1 alterations are not a dominant driver in the metastatic setting [PMID:35982973](../papers/35982973.md)
+- NOTCH1 enriched in older gastric cancer ([STAD](../cancer_types/STAD.md)) patients (vs [CDH1](../genes/CDH1.md) in younger) in the aOM Chinese pan-cancer cohort; age-differential gene alteration pattern observed across 9 tumor types [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -150,5 +152,11 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

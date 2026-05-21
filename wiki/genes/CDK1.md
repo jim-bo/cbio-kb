@@ -35,11 +35,11 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 
 ## Therapeutic relevance
 
-- CDK1 inhibitors are in clinical development and flagged as therapeutic candidates for colon cancer based on elevated kinase activity in CPTAC proteogenomic data; CDK4 inhibitors ([palbociclib](../drugs/palbociclib.md) class) are FDA-approved for other indications, providing a related precedent [PMID:31031003](../papers/31031003.md)
+- CDK1 inhibitors are in clinical development and flagged as therapeutic candidates for colon cancer based on elevated kinase activity in CPTAC proteogenomic data; [CDK4](../genes/CDK4.md) inhibitors ([palbociclib](../drugs/palbociclib.md) class) are FDA-approved for other indications, providing a related precedent [PMID:31031003](../papers/31031003.md)
 
 ## Open questions
 
-- Therapeutic validation of CDK1 inhibition in colon cancer is explicitly outside the scope of the CPTAC proteogenomic study; the specific tumor subtype (CIN vs MSI vs Mesenchymal) that would benefit most from CDK1 vs CDK2 inhibition is not yet resolved [PMID:31031003](../papers/31031003.md)
+- Therapeutic validation of CDK1 inhibition in colon cancer is explicitly outside the scope of the CPTAC proteogenomic study; the specific tumor subtype (CIN vs MSI vs Mesenchymal) that would benefit most from CDK1 vs [CDK2](../genes/CDK2.md) inhibition is not yet resolved [PMID:31031003](../papers/31031003.md)
 
 ## Sources
 

@@ -21,10 +21,11 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 - Cited in the context of mouse lymphatic-metastasis models of cutaneous squamous cell carcinoma (cSCC); not directly assayed in the 29-tumour targeted-sequencing cohort [PMID:25589618](../papers/25589618.md)
 - Focal amplification in 1% of [HCC](../cancer_types/HCC.md) cases; listed as FDA-targetable alteration in the druggable landscape of [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 - Transcriptionally up-regulated (immunosuppressive/angiogenic cytokine) in pre-treatment non-responding melanoma ([SKCM](../cancer_types/SKCM.md)) tumors; co-enriched within the IPRES innate anti-PD-1 resistance transcriptional signature; linked to a published mouse model of innate anti-PD-1 resistance (Peng et al. 2015) [PMID:26997480](../papers/26997480.md).
-- Amplified in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)); VEGFA amplification more common in [EAC](../cancer_types/EAC.md) than CIN gastric adenocarcinoma in the TCGA integrated esophageal/GEA analysis; co-amplified alongside [MYC](../genes/MYC.md) in EAC [PMID:28052061](../papers/28052061.md)
+- Amplified in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)); VEGFA amplification more common in [EAC](../cancer_types/EAC.md) than CIN gastric adenocarcinoma in the TCGA integrated esophageal/GEA analysis; co-amplified alongside [MYC](../genes/MYC.md) in [EAC](../cancer_types/EAC.md) [PMID:28052061](../papers/28052061.md)
 - Amplification in <1% of overall advanced [HCC](../cancer_types/HCC.md) cohort (3.9% of sorafenib-evaluable patients); proposed as a biomarker for extreme [sorafenib](../drugs/sorafenib.md) response but not confirmed; one patient with concurrent 2.1x [MET](../genes/MET.md) and 3.7x VEGFA amplification received anti-VEGFR2 + anti-MET combination therapy [PMID:30373752](../papers/30373752.md)
 - Recurrent amplification driver (≥5% prevalence) in esophageal/esophagogastric junction adenocarcinomas ([EGC](../cancer_types/EGC.md)/[ESCA](../cancer_types/ESCA.md)) by MSK-IMPACT (N=487); one of 10 amplification-driven recurrent drivers; no independent [OS](../cancer_types/OS.md) association demonstrated in this cohort. [PMID:33795256](../papers/33795256.md)
 - VEGFA amplifications were observed co-occurring with chromothripsis-mediated [TP53](../genes/TP53.md) loss in 10/29 osteosarcoma patients profiled by comprehensive whole-genome + transcriptome sequencing (cWGTS) [PMID:35585047](../papers/35585047.md)
+- Enriched in younger bone sarcoma ([STS](../cancer_types/STS.md)) patients vs older counterparts in the Asian pan-cancer (aOM) cohort (n=10,194; FDR<0.05 clinical-feature association); amplification detected by the CSYS 450-gene panel [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +61,8 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

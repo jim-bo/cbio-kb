@@ -18,14 +18,14 @@ tags:
   - beat-aml
   - ex-vivo
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # Beat AML — OHSU Functional Genomic Landscape (2018)
 
 ## Overview
 
-The Beat [AML](../cancer_types/AML.md) program is a prospective multi-institutional study that assembled one of the largest integrated genomic and pharmacologic AML datasets to date. Tumor specimens from 562 unique AML patients (672 total specimens, including serial samples) were collected across OHSU and 9 partner sites (University of Utah, UT Southwestern, Stanford, University of Miami, University of Colorado, University of Florida, NIH, Fox Chase, and KUMC). The dataset integrates whole-exome sequencing, RNA-sequencing, and a 122-compound ex vivo drug sensitivity screen. All data are publicly accessible via dbGaP (phs001657.v1.p1), GDC, and cBioPortal, and are browsable interactively at www.vizome.org. [PMID:30333627](../papers/30333627.md)
+The Beat [AML](../cancer_types/AML.md) program is a prospective multi-institutional study that assembled one of the largest integrated genomic and pharmacologic [AML](../cancer_types/AML.md) datasets to date. Tumor specimens from 562 unique AML patients (672 total specimens, including serial samples) were collected across OHSU and 9 partner sites (University of Utah, UT Southwestern, Stanford, University of Miami, University of Colorado, University of Florida, NIH, Fox Chase, and KUMC). The dataset integrates whole-exome sequencing, RNA-sequencing, and a 122-compound ex vivo drug sensitivity screen. All data are publicly accessible via dbGaP (phs001657.v1.p1), GDC, and cBioPortal, and are browsable interactively at www.vizome.org. [PMID:30333627](../papers/30333627.md)
 
 ## Composition
 
@@ -53,7 +53,8 @@ The Beat [AML](../cancer_types/AML.md) program is a prospective multi-institutio
 - **Drug-sensitivity associations:** of 122 compounds, 64 were significantly more sensitive in de novo versus transformed AML (FDR <0.1); single-gene associations identified for [FLT3](../genes/FLT3.md)-ITD, [TP53](../genes/TP53.md), [ASXL1](../genes/ASXL1.md), [NRAS](../genes/NRAS.md)/[KRAS](../genes/KRAS.md), [IDH1](../genes/IDH1.md), [IDH2](../genes/IDH2.md), [RUNX1](../genes/RUNX1.md), [U2AF1](../genes/U2AF1.md), and [ZRSR2](../genes/ZRSR2.md). [PMID:30333627](../papers/30333627.md)
 - **Combinatorial biomarkers:** [FLT3](../genes/FLT3.md)-ITD + [NPM1](../genes/NPM1.md) co-mutation (regardless of [DNMT3A](../genes/DNMT3A.md) status) sensitized to [ibrutinib](../drugs/ibrutinib.md) and [entospletinib](../drugs/entospletinib.md) ex vivo; [BCOR](../genes/BCOR.md) + [RUNX1](../genes/RUNX1.md) co-mutation sensitized to JAK inhibitors ([momelotinib](../drugs/momelotinib.md), [ruxolitinib](../drugs/ruxolitinib.md), [tofacitinib](../drugs/tofacitinib.md)). [PMID:30333627](../papers/30333627.md)
 - **Expression signatures:** 65.5% of testable drugs (78/119) had FDR<0.05 expression signatures; a 17-gene signature stratified [ibrutinib](../drugs/ibrutinib.md) response. [PMID:30333627](../papers/30333627.md)
-- **WGCNA integration:** 14 co-expression gene clusters; a 110-gene "magenta" subnetwork associated with ibrutinib resistance tracked with adverse ELN 2017 risk. [PMID:30333627](../papers/30333627.md)
+- **WGCNA integration:** 14 co-expression gene clusters; a 110-gene "magenta" subnetwork associated with [ibrutinib](../drugs/ibrutinib.md) resistance tracked with adverse ELN 2017 risk. [PMID:30333627](../papers/30333627.md)
+- Waves 3+4 (293 specimens/279 patients) were harmonized with this Waves 1+2 cohort to produce a cumulative dataset of 942 specimens from 805 AML patients; the combined data provided ex vivo drug-sensitivity, RNA-Seq, and DNA-sequencing inputs for the expanded Beat AML study [PMID:35868306](../papers/35868306.md)
 
 ## Sources
 
@@ -63,4 +64,7 @@ The Beat [AML](../cancer_types/AML.md) program is a prospective multi-institutio
 - Vizome interactive browser: www.vizome.org
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -54,7 +54,7 @@ processed_at: 2026-05-21
 
 - [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) alterations were retained in 90% and 76% of PDX samples, respectively; 89% of paired clinical-PDX pairs (16/18) retained alterations in both genes [PMID:35440124](../papers/35440124.md).
 - 10 POU2F3-driven PDXs (MSK773 B–L) constitute the first SCLC-P (subtype P) PDX resource; all expressed [MYC](../genes/MYC.md) at protein and RNA level and upregulated YAP/TAZ downstream genes ([NOTCH2](../genes/NOTCH2.md), [NOTCH3](../genes/NOTCH3.md)) [PMID:35440124](../papers/35440124.md).
-- [YAP1](../genes/YAP1.md) protein was consistently absent or very low across the cohort, questioning [YAP1](../genes/YAP1.md) IHC as a defining marker for the YAP1 SCLC subtype [PMID:35440124](../papers/35440124.md).
+- [YAP1](../genes/YAP1.md) protein was consistently absent or very low across the cohort, questioning [YAP1](../genes/YAP1.md) IHC as a defining marker for the [YAP1](../genes/YAP1.md) [SCLC](../cancer_types/SCLC.md) subtype [PMID:35440124](../papers/35440124.md).
 - The MSK773 case (SCLC-P) shared somatic mutations and copy-number changes between SCLC and admixed lung adenocarcinoma components, supporting clonal origin and possible type II pneumocyte cell of origin for SCLC-P [PMID:35440124](../papers/35440124.md).
 - Two atypical clinical samples lacking [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) mutations harbored [KRAS](../genes/KRAS.md) and [MDM2](../genes/MDM2.md) co-amplifications, suggesting [MDM2](../genes/MDM2.md) amplification may phenocopy [TP53](../genes/TP53.md) inactivation [PMID:35440124](../papers/35440124.md).
 

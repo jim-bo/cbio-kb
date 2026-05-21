@@ -22,7 +22,7 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Kaplan-Meier survival curves used to compare PFS across FACETS copy-number clusters (A, B, C) and histologic/grade subgroups in 189 advanced endometrial cancer patients [PMID:30068706](../papers/30068706.md)
 - Kaplan-Meier survival curves used to compare outcomes by genotype (PI3K-mTOR pathway and WNT/β-catenin alterations) in 127 [HCC](../cancer_types/HCC.md) patients on [sorafenib](../drugs/sorafenib.md) or immune checkpoint inhibitors [PMID:30373752](../papers/30373752.md)
 - Kaplan-Meier survival analysis used to compare overall survival by [SMAD4](../genes/SMAD4.md) mutation status in 81 GBCA patients; SMAD4-mutant patients had median [OS](../cancer_types/OS.md) 10.4 mo vs 24.8 mo [PMID:30427539](../papers/30427539.md)
-- Kaplan-Meier OS analysis in 1,662 ICI-treated advanced cancer patients showed top-20%-by-histology TMB-high group HR 0.52 (95% CI 0.42–0.64); no OS benefit for high TMB in 5,371 non-ICI-treated patients (HR 1.12, p = 0.11) [PMID:30643254](../papers/30643254.md)
+- Kaplan-Meier [OS](../cancer_types/OS.md) analysis in 1,662 ICI-treated advanced cancer patients showed top-20%-by-histology TMB-high group HR 0.52 (95% CI 0.42–0.64); no OS benefit for high TMB in 5,371 non-ICI-treated patients (HR 1.12, p = 0.11) [PMID:30643254](../papers/30643254.md)
 - Used for survival analysis in 429 mCRPC patients; log-rank tests compared OS curves; Nestin-positive vs. Nestin-negative groups and PLC transcriptomic cluster comparisons were evaluated [PMID:31061129](../papers/31061129.md)
 - Applied in the pan-Asia cHCC-ICC study (133 cases); Nestin-positive (n=104) vs. Nestin-negative median OS was 18.7 mo vs. 46.6 mo (p<0.0001, log-rank); PLC transcriptomic clusters P1/P2 had significantly poorer prognosis than P3/P4 (p<0.0001) [PMID:31130341](../papers/31130341.md)
 - PFS analysis by Kaplan-Meier with log-rank testing stratified by [PIK3CA](../genes/PIK3CA.md) and [MAP3K1](../genes/MAP3K1.md) genotype in 33 metastatic ER+/HER2- breast cancer patients; [MAP3K1](../genes/MAP3K1.md) alteration improved PFS (p=0.03), [PIK3CA](../genes/PIK3CA.md) alteration improved PFS (p=0.009); co-alteration showed greatest benefit (p=0.02 trend test) [PMID:31552290](../papers/31552290.md).
@@ -40,6 +40,7 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Used in [lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md) for univariate OS analysis across 119 LGSC patients; MAPK pathway alteration (p=0.005) and platinum sensitivity (p=0.001) were associated with improved OS by KM analysis [PMID:35443055](../papers/35443055.md)
 - Kaplan-Meier survival analysis applied for progression-free and overall survival in MSK-IMPACT prostate cancer cohorts and in KM-plotter pan-cancer datasets (gastric, liver, [NSCLC](../cancer_types/NSCLC.md)) for [PIK3R1](../genes/PIK3R1.md) mRNA associations [PMID:35670774](../papers/35670774.md)
 - Kaplan-Meier analysis used to compare progression-free survival among 119 MSI-H/MMR-D endometrial cancer patients stratified by MMR-deficiency mechanism (germline, somatic, MLH1-promoter-hypermethylation); MLH1ph associated with inferior PFS (p=0.005) [PMID:35849120](../papers/35849120.md)
+- Used for overall survival analysis in the Beat [AML](../cancer_types/AML.md) Waves 1–4 cohort (n=805 AML patients); [PEAR1](../genes/PEAR1.md) expression stratified OS with hazard ratios comparable to the LSC17 leukemic stem-cell signature across age strata [PMID:35868306](../papers/35868306.md)
 
 ## Notes
 
@@ -113,5 +114,8 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

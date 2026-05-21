@@ -5,8 +5,8 @@ drug_class: 1st-generation EGFR TKI
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, egfr-tki]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # erlotinib
@@ -17,18 +17,19 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 
 ## Evidence in the corpus
 
-- Mutually exclusive [EGFR](../genes/EGFR.md) and [KRAS](../genes/KRAS.md) mutations in [LUAD](../cancer_types/LUAD.md) (n=188, P<1e-7) support independent treatment stratification: EGFR-mutant tumours (enriched in never-smokers, P=0.0046) are the primary target population for erlotinib and related EGFR TKIs. [PMID:18948947](../papers/18948947.md)
+- Mutually exclusive [EGFR](../genes/EGFR.md) and [KRAS](../genes/KRAS.md) mutations in [LUAD](../cancer_types/LUAD.md) (n=188, P<1e-7) support independent treatment stratification: EGFR-mutant tumours (enriched in never-smokers, P=0.0046) are the primary target population for erlotinib and related [EGFR](../genes/EGFR.md) TKIs. [PMID:18948947](../papers/18948947.md)
 - Prior erlotinib exposure features in the EGFR-mutant [NSCLC](../cancer_types/NSCLC.md) leptomeningeal-disease (LMD) trajectories described in a 233-patient brain-metastasis cohort; LMD patients were enriched for non-canonical [EGFR](../genes/EGFR.md) alterations (45% vs 21% in non-progressors, p=0.044) [PMID:37591896](../papers/37591896.md).
 - Erlotinib was identified as a prior targeted therapy in EGFR-mutant [LUAD](../cancer_types/LUAD.md) patients who subsequently acquired [BRAF](../genes/BRAF.md) fusions as a resistance mechanism (10/15 acquired-resistance cases in a 97,024-sample MSK cohort); one erlotinib + [trametinib](../drugs/trametinib.md) combination achieved 12 months on therapy at acquired [BRAF](../genes/BRAF.md) fusion resistance [PMID:38922339](../papers/38922339.md).
 - In preclinical HER2+ cancer cell line viability assays, erlotinib was used as [EGFR](../genes/EGFR.md) TKI comparator; T-DM1 was more potent than erlotinib in HER2+ OE19 esophageal cells, consistent with the ADC delivering cytotoxic payload independently of EGFR signaling [PMID:27698471](../papers/27698471.md).
-- Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
-- NCI-60 CellMiner analysis linked EGFR pathway activity and ABCB1 expression to erlotinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
-- TCGA lung squamous study (178 tumors) examined EGFR pathway alterations relevant to erlotinib sensitivity; EGFR mutations rare in LUSC population [PMID:22960745](../papers/22960745.md)
-- Broad LUAD WES (183 tumors) confirmed EGFR-activating mutations as the primary predictor of erlotinib response; co-occurring STK11 loss associated with resistance [PMID:22980975](../papers/22980975.md)
-- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in HCC; ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 [PMID:24735922](../papers/24735922.md)
-- Failed as a frontline HCC agent in comparison vs sorafenib: median OS 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15) [PMID:24798001](../papers/24798001.md)
+- Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via [elastic-net](../methods/elastic-net.md) regression [PMID:22460905](../papers/22460905.md)
+- NCI-60 CellMiner analysis linked EGFR pathway activity and [ABCB1](../genes/ABCB1.md) expression to erlotinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
+- TCGA lung squamous study (178 tumors) examined EGFR pathway alterations relevant to erlotinib sensitivity; EGFR mutations rare in [LUSC](../cancer_types/LUSC.md) population [PMID:22960745](../papers/22960745.md)
+- Broad [LUAD](../cancer_types/LUAD.md) WES (183 tumors) confirmed EGFR-activating mutations as the primary predictor of erlotinib response; co-occurring [STK11](../genes/STK11.md) loss associated with resistance [PMID:22980975](../papers/22980975.md)
+- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in [HCC](../cancer_types/HCC.md); ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 [PMID:24735922](../papers/24735922.md)
+- Failed as a frontline HCC agent in comparison vs [sorafenib](../drugs/sorafenib.md): median [OS](../cancer_types/OS.md) 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15) [PMID:24798001](../papers/24798001.md)
 - Matched therapy for sensitizing EGFR mutations (exon 19 del/L858R) in 860 LUAD patients via MSK-IMPACT; clinical benefit rate 84.8% in sensitizing EGFR-mutant patients; significantly lower benefit for L861Q (43%) and exon 18 deletions (40%); 1 EGFR exon 20 insertion patient treated with erlotinib had no response; 1 ERRFI1-A143D patient derived benefit despite no EGFR mutation [PMID:28336552](../papers/28336552.md).
-- In functional validation experiments using MCF7 breast cancer cells, erlotinib (EGFR inhibitor) reversed fulvestrant resistance conferred by stable [EGFR](../genes/EGFR.md) overexpression, supporting EGFR inhibitors as candidate combination agents for EGFR-amplified endocrine-resistant HR+ breast cancer [PMID:30205045](../papers/30205045.md).
+- In functional validation experiments using MCF7 breast cancer cells, erlotinib (EGFR inhibitor) reversed [fulvestrant](../drugs/fulvestrant.md) resistance conferred by stable [EGFR](../genes/EGFR.md) overexpression, supporting EGFR inhibitors as candidate combination agents for EGFR-amplified endocrine-resistant HR+ breast cancer [PMID:30205045](../papers/30205045.md).
+- 1st/2nd-generation EGFR TKI; indicated for EGFR L858R/exon-19 deletion in [NSCLC](../cancer_types/NSCLC.md) (20% and 19% of NSCLC respectively in Chinese pan-cancer cohort n=10,194) [PMID:35871175](../papers/35871175.md)
 
 ## Resistance mechanisms
 
@@ -40,33 +41,36 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 
 ## Sources
 
-- [PMID:18948947](../papers/18948947.md) — Ding et al. 2008, *Nature*. Exome-scale somatic mutation landscape of 188 LUAD tumours; mutual exclusivity of EGFR and KRAS mutations supports erlotinib stratification in EGFR-mutant never-smoker LUAD.
+- [PMID:18948947](../papers/18948947.md) — Ding et al. 2008, *Nature*. Exome-scale somatic mutation landscape of 188 LUAD tumours; mutual exclusivity of EGFR and [KRAS](../genes/KRAS.md) mutations supports erlotinib stratification in EGFR-mutant never-smoker LUAD.
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

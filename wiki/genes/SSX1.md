@@ -25,7 +25,7 @@ SSX1 (SSX Family Member 1) is a cancer-testis antigen gene located on chromosome
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with [SSX2](../genes/SSX2.md) as the SS18 fusion partner within a given tumor [PMID:29100075](../papers/29100075.md).
+- Mutually exclusive with [SSX2](../genes/SSX2.md) as the [SS18](../genes/SS18.md) fusion partner within a given tumor [PMID:29100075](../papers/29100075.md).
 
 ## Therapeutic relevance
 

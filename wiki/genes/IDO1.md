@@ -17,7 +17,7 @@ IDO1 encodes indoleamine 2,3-dioxygenase 1, a tryptophan-catabolizing enzyme inv
 
 - Immunoregulatory counter-activation component of the 20-gene ICR signature in colon cancer [PMID:37202560](../papers/37202560.md).
 - Marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype identified in a comprehensive molecular portrait of invasive lobular breast cancer (n=127 [ILC](../cancer_types/ILC.md) TCGA + n=106 LumA [ILC](../cancer_types/ILC.md)) [PMID:26451490](../papers/26451490.md)
-- Protein upregulated in immune-hot (HTE) and IFNG-high [LUAD](../cancer_types/LUAD.md) clusters in the CPTAC proteogenomics cohort (n=110); IDO1 inhibition nominated as a therapeutic opportunity in immune-hot LUAD [PMID:32649874](../papers/32649874.md)
+- Protein upregulated in immune-hot (HTE) and IFNG-high [LUAD](../cancer_types/LUAD.md) clusters in the CPTAC proteogenomics cohort (n=110); IDO1 inhibition nominated as a therapeutic opportunity in immune-hot [LUAD](../cancer_types/LUAD.md) [PMID:32649874](../papers/32649874.md)
 - IDO1 is upregulated by myeloid cells in classical and mesenchymal IDHwt gliomas, contributing to the immunosuppressive tumor microenvironment; IDO1 is co-regulated with [PDCD1LG2](../genes/PDCD1LG2.md) (PD-L2) as part of the myeloid immunosuppressive program in the GLASS longitudinal glioma cohort [PMID:35649412](../papers/35649412.md)
 
 ## Cancer types (linked)

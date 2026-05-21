@@ -3,8 +3,8 @@ symbol: JAK2
 aliases: []
 cancer_types: [DLBCLNOS, SKCM]
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # JAK2
@@ -34,6 +34,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - JAK2 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; JAK2 mutations can arise from myeloproliferative neoplasm-related CH and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
 - JAK2 V617F driver mutation was missed in 35 MPNs in the PCAWG analysis because panels-of-normals derived from blood samples filtered the mutation, illustrating a systematic bioinformatic failure mode in WGS pipelines [PMID:32025007](../papers/32025007.md)
 - JAK2 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
+- Co-amplified with [CD274](CD274.md) and [PDCD1LG2](PDCD1LG2.md) at 9p24.3–9p22.2 in 82% of CD274-amplified tumors (85/10,194 total, ~1%); this 9p24 amplicon correlates with 70% PD-L1 IHC positivity across 10,194 Asian solid-tumor patients [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -55,55 +56,40 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 
 - [PMID:38147626](../papers/38147626.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

@@ -42,7 +42,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Confirmed as a significantly mutated gene (pan-cancer tumor suppressor) in a 619-case colorectal carcinoma WES cohort (NHS/HPFS); newly statistically designated as a CRC driver gene due to cohort size. [PMID:27149842](../papers/27149842.md)
 - One of six genes significantly mutated in both lung ADC and lung SqCC histologies in the 1,144-tumor [NSCLC](../cancer_types/NSCLC.md) landscape study (alongside [TP53](../genes/TP53.md), [ARID1A](../genes/ARID1A.md), [CDKN2A](../genes/CDKN2A.md), [PIK3CA](../genes/PIK3CA.md), [NF1](../genes/NF1.md)); sex-specific enrichment: RB1 mutations enriched in females in lung SqCC (FDR q < 0.1). [PMID:27158780](../papers/27158780.md)
 - Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (cell-cycle TSG); co-mutation of [TP53](../genes/TP53.md)+RB1 (OR=5.3) is characteristic of triple-negative breast cancers. [PMID:27161491](../papers/27161491.md)
-- RB1 alterations found in 3/20 (15%) recurrent/metastatic HPV-positive HNSCC; co-mutation with TP53 associated with elevated chromosomal instability [PMID:27442865](../papers/27442865.md).
+- RB1 alterations found in 3/20 (15%) recurrent/metastatic HPV-positive HNSCC; co-mutation with [TP53](../genes/TP53.md) associated with elevated chromosomal instability [PMID:27442865](../papers/27442865.md).
 - Combined ATM/RB1/FANCC alteration signature present in 73.3% of pre-chemotherapy urothelial carcinoma tumors but only 37.9% of post-chemotherapy tumors (p=0.05), suggesting selective elimination of RB1-altered clones by cisplatin-based chemotherapy [PMID:27749842](../papers/27749842.md)
 - Loss-of-function mutations in 5% of HR+/HER2− metastatic breast cancer (vs <1% in early breast cancer, p=0.008, FDR=0.09); mostly truncating; implies potential primary resistance to [CDK4](../genes/CDK4.md) inhibitors ([palbociclib](../drugs/palbociclib.md)) since RB1 is required for [palbociclib](../drugs/palbociclib.md) bioactivity [PMID:28027327](../papers/28027327.md)
 - Germline splice-site c.1216-3A>G in osteosarcoma ([OS](../cancer_types/OS.md)) — increased risk for second cancers; returned as clinically impactful germline finding in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
@@ -67,13 +67,13 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 is among the recurrently mutated genes in [UTUC](../cancer_types/UTUC.md) alongside TP53, [KMT2D](../genes/KMT2D.md), [ARID1A](../genes/ARID1A.md), [PIK3CA](../genes/PIK3CA.md), [KDM6A](../genes/KDM6A.md), [ERCC2](../genes/ERCC2.md), and others at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
 - RB1 is a driver gene (q<0.1) in cHCC-ICC; focal loss in 26%; trunk mutation in some separate-type cases [PMID:31130341](../papers/31130341.md)
 - [MDM2](../genes/MDM2.md) and RB1 alterations phenocopy TP53 inactivation per RNA-expression classifier in 261 pediatric cancer PDX models; RB1-altered models scored high on the TP53 pathway-inactivation classifier (AUROC 0.89) [PMID:31693904](../papers/31693904.md).
-- RB1 mutation or homozygous deletion observed in IDHmut-noncodel recurrent glioma as part of cell-cycle module inactivation, co-occurring with CDKN2A loss, CDK4/CDK6 gains [PMID:31748746](../papers/31748746.md)
+- RB1 mutation or homozygous deletion observed in IDHmut-noncodel recurrent glioma as part of cell-cycle module inactivation, co-occurring with [CDKN2A](../genes/CDKN2A.md) loss, CDK4/CDK6 gains [PMID:31748746](../papers/31748746.md)
 - RB1 identified as a late/subclonal mutation in metastatic breast cancer ([MBC](../cancer_types/MBC.md)) detected via cell-free DNA (VUSo) not captured by single biopsy [PMID:31768066](../papers/31768066.md)
 - RB1 loss or mutation inactivates the Rb pathway in 16% of [GBM](../cancer_types/GBM.md) PDX (n=84); co-occurs with [CDK4](../genes/CDK4.md) amplification (8%) and [CDK6](../genes/CDK6.md) amplification (1%) [PMID:31852831](../papers/31852831.md)
 - Pan-cancer PCAWG driver in 167 tumors; enriched in ALT-pathway telomere cluster C1 (P = 3×10⁻⁵), linking RB1 loss to ALT activation independent of ATRX/DAXX [PMID:32025007](../papers/32025007.md)
 - Inactivated in 51% of uLMS vs. 22% in TCGA uLMS (p=0.02) and 14% in high-grade non-LMS (p<0.01); among the most frequent alterations in uterine leiomyosarcoma [PMID:32299819](../papers/32299819.md)
 - Tumor-suppressor loss identified in [UTUC](../cancer_types/UTUC.md) cohort; along with TP53 and CDKN2A/2B listed as recurrent tumor-suppressor alterations in MSK-IMPACT profiling of upper-tract urothelial carcinoma [PMID:32332851](../papers/32332851.md)
-- Mutations associated with increased CDK4 protein abundance in [LUAD](../cancer_types/LUAD.md) proteogenomics (CPTAC cohort, n=110), potentially conferring CDK4/6-inhibitor resistance [PMID:32649874](../papers/32649874.md)
+- Mutations associated with increased [CDK4](../genes/CDK4.md) protein abundance in [LUAD](../cancer_types/LUAD.md) proteogenomics (CPTAC cohort, n=110), potentially conferring CDK4/6-inhibitor resistance [PMID:32649874](../papers/32649874.md)
 - Biallelic disruption (single-copy loss + second-allele point/splice/frameshift) in 4/41 (9.8%) CDK4/6i-resistant biopsies, exclusive to resistance; convergent evolution in one patient; CRISPR RB1 knockout confers CDK4/6i resistance in T47D/MCF7 cells; elevated CDK4 protein is a proposed mechanism [PMID:32404308](../papers/32404308.md)
 - Canonical retinoblastoma driver; 13 somatic RB1 variants detected across 10 pediatric retinoblastoma patients (nonsense, frameshift, splice, in-frame deletion) by MSK-IMPACT tumor profiling; plasma cfDNA recovered 10/13 mutations (median VAF 4.9%) by tumor-guided genotyping [PMID:32633890](../papers/32633890.md)
 - Drug-resistance–related mutation more frequent in PD (non-responding) patients in the FUTURE umbrella trial for metastatic TNBC; co-listed with [NOTCH3](../genes/NOTCH3.md) as candidate resistance mutations. [PMID:32719455](../papers/32719455.md)
@@ -85,7 +85,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Germline RB1 deletions recovered in two retinoblastoma patients via matched WBC sequencing during MSK-ACCESS cfDNA profiling; would have been reported as somatic without paired-normal data [PMID:34145282](../papers/34145282.md)
 - Mutations associated with upregulated cell-cycle proteins in LSCC; Rb protein loss observed in CDKN2A-WT samples with preserved p16; mutually exclusive with CDKN2A inactivation; loss of RB1 or CDKN2A described as universal in LSCC [PMID:34358469](../papers/34358469.md)
 - Assessed at ≥2% alteration frequency in [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
-- Loss (4% of HR+/HER2− breast cancer cohort) is the canonical CDK4/6i-resistance lesion (downstream of CDK4/6) and was a top hit in the PRISM screen for palbociclib insensitivity. [PMID:34544752](../papers/34544752.md)
+- Loss (4% of HR+/HER2− breast cancer cohort) is the canonical CDK4/6i-resistance lesion (downstream of CDK4/6) and was a top hit in the PRISM screen for [palbociclib](../drugs/palbociclib.md) insensitivity. [PMID:34544752](../papers/34544752.md)
 - High-positive Δκ<sub>risk</sub> gene flagged as a putative network driver of ICI-modulated robustness in [HGSOC](../cancer_types/HGSOC.md), based on CNA-derived network curvature analysis of 45 ICI-treated patients. [PMID:34819508](../papers/34819508.md)
 - Observed as a transient molecular abnormality in the transformation cohort of pediatric neuroblastoma patients who developed therapy-related myeloid neoplasms [PMID:35078859](../papers/35078859.md)
 - Loss more frequent in [PRAD](../cancer_types/PRAD.md) liver metastases (3% vs 10%, q<0.001) in a pan-cancer primary-vs-metastasis genomic comparison across 50 tumor types [PMID:35120664](../papers/35120664.md)
@@ -98,6 +98,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 located on 13q, which shows higher deletion frequency in prostate cancer metastases; co-deleted with [BRCA2](../genes/BRCA2.md) on 13q [PMID:35670774](../papers/35670774.md)
 - RB1 altered in 17.2% of sarcomas (21.5% complex vs 2.8% translocation-associated); also rearranged in 1.5% of cases; RB1 deletion confers resistance to palbociclib (CDK4/6 inhibition) [PMID:35705558](../papers/35705558.md)
 - RB1 significantly altered across multiple sarcoma subtypes; pathway-level events in WDLS/DDLS (99%) in combination with CDK4/MDM2 co-amplification [PMID:35705560](../papers/35705560.md)
+- RB1 pathway impairment is referenced in context of CDK4 amplification (10.9% of [STS](../cancer_types/STS.md)) as a target for abemaciclib/palbociclib (Level 4) in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md)) [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
 
@@ -218,5 +219,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

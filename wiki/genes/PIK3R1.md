@@ -39,7 +39,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurs with [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [PPP2R1A](../genes/PPP2R1A.md), and [FBXW7](../genes/FBXW7.md) mutations, phenocopying the canonical endometrial cancer driver landscape [PMID:28445112](../papers/28445112.md)
 - G376R hotspot mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN) [PMID:28485815](../papers/28485815.md)
-- PIK3CA and PIK3R1 alterations are predominantly known activating hotspots in advanced prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
+- [PIK3CA](../genes/PIK3CA.md) and PIK3R1 alterations are predominantly known activating hotspots in advanced prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
 - PIK3R1 identified as a driver-gene cluster member across signaling and cell growth functional groups in a 1001-patient DLBCL genomic cohort [PMID:28985567](../papers/28985567.md)
 - Referenced as the paralog of novel prostate-cancer SMG [PIK3R2](../genes/PIK3R2.md); the [PIK3R2](../genes/PIK3R2.md) p.Asp557Tyr variant is directly paralogous to the known oncogenic PIK3R1 p.Asp560Tyr mutation, supporting PI3K-pathway oncogenicity in prostate cancer [PMID:29610475](../papers/29610475.md).
 - PIK3CA and PIK3R1 show mutual exclusivity within the PI3K complex pan-cancer, consistent with one alteration being functionally sufficient to activate PI3K signaling; PIK3CA–PIK3R1 exclusivity is among the clearest within-pathway exclusivity patterns in the Ras signaling analysis [PMID:29625049](../papers/29625049.md)
@@ -51,6 +51,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 enriched in Nigerian MSS CRC tumors vs. MSKCC (8.7% vs 2.2%, P=0.02); PI3K pathway enrichment in West African MSS CRC argues for regionally distinct therapeutic-trial applicability [PMID:34819518](../papers/34819518.md)
 - PIK3R1 events counted within the 23 combined PIK3CA/PIK3R1 alterations in the MAPPYACTS pediatric relapsed cohort (n=787); pathway matched to mTOR inhibitors in AcSé-ESMART arms E/F [PMID:35292802](../papers/35292802.md)
 - Driver alterations (mutations and fusions) in 3.6% of 1,417 prostate cancers; copy-number losses in 36% of metastases vs 24% of primaries; truncating mutations cluster in c-SH2 domain; loss activates AKT, drives glycolysis, and sensitizes to AKT inhibitors [PMID:35670774](../papers/35670774.md)
+- Among 5 primary-tumor mutations in EC patient CD36 (stage IIIA grade 1 endometrioid), all detected in baseline cfDNA by MSK-ACCESS ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)) [PMID:36007103](../papers/36007103.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +115,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

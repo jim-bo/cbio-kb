@@ -19,7 +19,7 @@ EPHA5 (Ephrin type-A receptor 5) is a member of the Eph receptor tyrosine kinase
 
 ## Alterations observed in the corpus
 
-- EPHA5 recurrently altered in angiosarcoma ([ANGS](../cancer_types/ANGS.md)) at 9% frequency alongside KDR (19%) and FLT4 (9%); many hits are VUS that may yet be functionally relevant per the authors' assessment [PMID:35705560](../papers/35705560.md)
+- EPHA5 recurrently altered in angiosarcoma ([ANGS](../cancer_types/ANGS.md)) at 9% frequency alongside [KDR](../genes/KDR.md) (19%) and [FLT4](../genes/FLT4.md) (9%); many hits are VUS that may yet be functionally relevant per the authors' assessment [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 

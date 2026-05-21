@@ -21,7 +21,7 @@ TNS1 (Tensin-1) is a focal adhesion protein involved in integrin signaling and a
 
 ## Alterations observed in the corpus
 
-- Novel TNS1-ALK fusion identified in 16 leiomyosarcoma (LMS) cases in a pan-sarcoma genomic profiling study of 7,494 cases (FoundationOne CDx); kinase fusions overall present in 2.6% of sarcomas; TNS1-ALK fusions may identify ALK-inhibitor candidates [PMID:35705558](../papers/35705558.md).
+- Novel TNS1-ALK fusion identified in 16 leiomyosarcoma ([LMS](../cancer_types/LMS.md)) cases in a pan-sarcoma genomic profiling study of 7,494 cases (FoundationOne CDx); kinase fusions overall present in 2.6% of sarcomas; TNS1-ALK fusions may identify ALK-inhibitor candidates [PMID:35705558](../papers/35705558.md).
 
 ## Cancer types (linked)
 
@@ -33,7 +33,7 @@ TNS1 (Tensin-1) is a focal adhesion protein involved in integrin signaling and a
 
 ## Therapeutic relevance
 
-- TNS1-ALK fusions may identify LMS patients eligible for ALK inhibitor therapy (by analogy with ALK-rearranged [NSCLC](../cancer_types/NSCLC.md)); no clinical trial data specifically in TNS1-ALK LMS reported as of this cohort study [PMID:35705558](../papers/35705558.md).
+- TNS1-ALK fusions may identify LMS patients eligible for [ALK](../genes/ALK.md) inhibitor therapy (by analogy with ALK-rearranged [NSCLC](../cancer_types/NSCLC.md)); no clinical trial data specifically in TNS1-ALK LMS reported as of this cohort study [PMID:35705558](../papers/35705558.md).
 
 ## Open questions
 

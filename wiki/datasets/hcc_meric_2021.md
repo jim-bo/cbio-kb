@@ -25,7 +25,7 @@ Multi-omic proteogenomic characterization of 122 hepatocellular carcinoma ([HCC]
 - Etiology: alcohol 59%, HCV 26%, NAFLD 17%, HBV 11%, no liver disease 6%; 72% cirrhotic.
 - BCLC stage: 0/A (early) 53%, B/C/D (advanced) 47%.
 - Edmondson grade 1/2/3/4: 6%/54%/34%/7%; immunophenotype inflamed 30% / immune-excluded 35% / immune-desert 31%.
-- **Normal-liver controls** from 19 patients without HCC: RNA-seq n=15, proteome n=11, phosphoproteome n=10.
+- **Normal-liver controls** from 19 patients without [HCC](../cancer_types/HCC.md): RNA-seq n=15, proteome n=11, phosphoproteome n=10.
 - Proteome and phosphoproteome modalities applied to a subset of n=51 tumors each. [PMID:35508466](../papers/35508466.md)
 - Cancer type: [HCC](../cancer_types/HCC.md).
 
@@ -49,7 +49,7 @@ Multi-omic proteogenomic characterization of 122 hepatocellular carcinoma ([HCC]
 - Kinase Substrate Enrichment Analysis (KSEA) in HCC vs normal liver revealed increased [AURKA](../genes/AURKA.md), [CDK1](../genes/CDK1.md)/[CDK2](../genes/CDK2.md)/[CDK5](../genes/CDK5.md)/[CDK7](../genes/CDK7.md), [MAPK1](../genes/MAPK1.md)/[MAPK3](../genes/MAPK3.md), and [PLK1](../genes/PLK1.md) activity — nominated as candidate HCC therapeutic targets. [PMID:35508466](../papers/35508466.md)
 - Five recurrent GISTIC2 peaks (1p36.23 del, 1q21.3 amp, 6p21.2 amp, 8q22.2 amp, 8q24.13 amp) harbor 19 cis-regulated dysregulated genes including [CHD1L](../genes/CHD1L.md), [NUDCD1](../genes/NUDCD1.md), [UBQLN4](../genes/UBQLN4.md), [BYSL](../genes/BYSL.md), [ATP6V1C1](../genes/ATP6V1C1.md), [RRM2B](../genes/RRM2B.md), and [YWHAZ](../genes/YWHAZ.md). [PMID:35508466](../papers/35508466.md)
 - mRNA–protein fold-change correlation across HCC vs normal liver: Spearman ρ=0.33 (p<0.0001); 37.7% concordantly up, 24.8% concordantly down, 37.5% discordant — substantial post-transcriptional regulation. [PMID:35508466](../papers/35508466.md)
-- Multivariate Cox analysis (independent of BCLC) identified [CDKN2A](../genes/CDKN2A.md), [GPAM](../genes/GPAM.md), [KEAP1](../genes/KEAP1.md), and [TSC2](../genes/TSC2.md) mutations as associated with poor OS; CTNNB1-enriched cluster 2 with improved OS. [PMID:35508466](../papers/35508466.md)
+- Multivariate Cox analysis (independent of BCLC) identified [CDKN2A](../genes/CDKN2A.md), [GPAM](../genes/GPAM.md), [KEAP1](../genes/KEAP1.md), and [TSC2](../genes/TSC2.md) mutations as associated with poor [OS](../cancer_types/OS.md); CTNNB1-enriched cluster 2 with improved OS. [PMID:35508466](../papers/35508466.md)
 
 ## Sources
 

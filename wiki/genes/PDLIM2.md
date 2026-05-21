@@ -28,7 +28,7 @@ PDLIM2 (PDZ and LIM domain 2) is an actin-cytoskeleton scaffolding protein that 
 
 ## Therapeutic relevance
 
-- No direct therapeutic target data from the corpus; downstream of Wnt/CTNNB1 signaling which is a candidate therapeutic axis in HCC cluster 2 [PMID:35508466](../papers/35508466.md)
+- No direct therapeutic target data from the corpus; downstream of Wnt/CTNNB1 signaling which is a candidate therapeutic axis in [HCC](../cancer_types/HCC.md) cluster 2 [PMID:35508466](../papers/35508466.md)
 
 ## Open questions
 

@@ -17,7 +17,7 @@ NUDCD1 (NudC domain containing 1), also known as OVA66, is located at chromosome
 
 ## Alterations observed in the corpus
 
-- NUDCD1 (OVA66, 8q22.2) nominated as a cis-driver candidate in [HCC](../cancer_types/HCC.md) based on copy-number amplification co-occurring with mRNA/protein upregulation; promotes EMT and apoptosis evasion via PI3K/AKT, ERK1/2-MAPK, and IGF-1R-MAPK pathways; identified in a European HCC proteogenomics cohort (n=122 WES) [PMID:35508466](../papers/35508466.md)
+- NUDCD1 (OVA66, 8q22.2) nominated as a cis-driver candidate in [HCC](../cancer_types/HCC.md) based on copy-number amplification co-occurring with mRNA/protein upregulation; promotes EMT and apoptosis evasion via PI3K/AKT, ERK1/2-MAPK, and IGF-1R-MAPK pathways; identified in a European [HCC](../cancer_types/HCC.md) proteogenomics cohort (n=122 WES) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

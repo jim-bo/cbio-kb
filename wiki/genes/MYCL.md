@@ -30,11 +30,11 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with [MYC](../genes/MYC.md) amplification and [MYCN](../genes/MYCN.md) amplification in SCLC [PMID:22941188](../papers/22941188.md)
+- Mutually exclusive with [MYC](../genes/MYC.md) amplification and [MYCN](../genes/MYCN.md) amplification in [SCLC](../cancer_types/SCLC.md) [PMID:22941188](../papers/22941188.md)
 
 ## Therapeutic relevance
 
-- No direct targeted therapy; MYC family inhibition (e.g., BET bromodomain inhibitors) is an active area of investigation in SCLC.
+- No direct targeted therapy; [MYC](../genes/MYC.md) family inhibition (e.g., BET bromodomain inhibitors) is an active area of investigation in SCLC.
 
 ## Open questions
 

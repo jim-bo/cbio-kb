@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [clustering, unsupervised, transcriptomics, bioinformatics]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -27,6 +27,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - Used for NMF consensus clustering of 408 [BLCA](../cancer_types/BLCA.md) RNA-seq samples defining five mRNA expression subtypes (luminal-papillary 35%, luminal-infiltrated 19%, luminal 6%, basal-squamous 35%, neuronal 5%) with distinct survival (p=4×10⁻⁴) [PMID:28988769](../papers/28988769.md)
 - Applied in the high-grade [UTUC](../cancer_types/UTUC.md) molecular subtype analysis (37 WES / 32 RNA-seq tumors) using UNC BASE47, MDACC, and TCGA classifiers; showed that 84.3% of [UTUC](../cancer_types/UTUC.md) tumors are luminal by the UNC BASE47 classifier vs 46.1% of TCGA UCB [PMID:31278255](../papers/31278255.md)
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) to validate the four CRPC chromatin subtypes defined by consensus k-means clustering of ATAC-seq peaks; hierarchical clustering served as an orthogonal approach confirming subtype reproducibility [PMID:35617398](../papers/35617398.md)
+- Applied to ssGSEA immune scores from 101 pMMR/MSS and dMMR/MSI rectal adenocarcinoma RNA-seq samples; identified three immune groups (IG1 low, IG2 intermediate, IG3 immune-hot ~8% of pMMR/MSS) with distinct checkpoint-gene expression and survival outcomes [PMID:35970919](../papers/35970919.md)
 
 ## Notes
 
@@ -64,3 +65,6 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -16,7 +16,7 @@ USARC is the OncoTree code for Uterine Sarcoma/Mesenchymal tumors, a heterogeneo
 
 ## Cohorts in the corpus
 
-- TCGA SARC ([sarc_tcga_pub](../datasets/sarc_tcga_pub.md)) — 44 UPS cases within the 206-sarcoma cohort profiled with WES/WGS, RNA-seq, DNA methylation, SNP6, and RPPA [PMID:29100075](../papers/29100075.md).
+- TCGA [SARC](../cancer_types/SARC.md) ([sarc_tcga_pub](../datasets/sarc_tcga_pub.md)) — 44 [UPS](../cancer_types/UPS.md) cases within the 206-sarcoma cohort profiled with WES/WGS, RNA-seq, DNA methylation, SNP6, and RPPA [PMID:29100075](../papers/29100075.md).
 
 ## Recurrent alterations
 
@@ -30,7 +30,7 @@ USARC is the OncoTree code for Uterine Sarcoma/Mesenchymal tumors, a heterogeneo
 
 ## Subtypes
 
-- UPS and MFS form a single molecular spectrum by multi-platform analysis; the distinction between them is primarily based on myxoid stroma content rather than genomic features [PMID:29100075](../papers/29100075.md).
+- UPS and [MFS](../cancer_types/MFS.md) form a single molecular spectrum by multi-platform analysis; the distinction between them is primarily based on myxoid stroma content rather than genomic features [PMID:29100075](../papers/29100075.md).
 - Hippo-pathway-altered subset (VGLL3/YAP1 amplified) within UPS/MFS may represent a clinically relevant molecular subtype [PMID:29100075](../papers/29100075.md).
 
 ## Therapeutic landscape

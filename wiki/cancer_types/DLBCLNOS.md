@@ -4,8 +4,8 @@ oncotree_code: DLBCLNOS
 main_type: Mature B-Cell Neoplasms
 parent: BLL
 tags: [b-cell-lymphoma]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: 2026-05-21
 ---
 
 # Diffuse Large B-Cell Lymphoma NOS (DLBCLNOS)
@@ -33,6 +33,7 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 - Listed as DLBC (OncoTree DLBCLNOS) in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); only one endpoint recommended without reservation for DLBC [PMID:29625055](../papers/29625055.md)
 - WES + SV profiling of 304 primary DLBCLs (85% R-CHOP-treated, median follow-up 78.5 months): 98 candidate cancer genes; five genetic subtypes (C1–C5) predict PFS/OS independently of IPI; 74% carry ≥1 immune-escape alteration; median 17 genetic drivers per tumor [PMID:29713087](../papers/29713087.md)
 - Included in PCAWG pan-cancer WGS cohort; diffuse large B-cell lymphoma among mature B-cell tumors showing point mutation dominance, with chromoplexy enriched in lymphoid malignancies [PMID:32025007](../papers/32025007.md).
+- DLBCL (DLBCLNOS) was enrolled in the MAPPYACTS pediatric precision-medicine trial; lymphoma comprised 4% of 774 evaluable patients with WES + RNA-seq profiling identifying actionable alterations in 69% across tumor types [PMID:35292802](../papers/35292802.md)
 
 ## Subtypes
 
@@ -80,3 +81,6 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

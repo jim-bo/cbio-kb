@@ -4,30 +4,31 @@ aliases: []
 cancer_types:
   - RBL
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CHEK2
 
 ## Overview
 
-CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tumor suppressor in the DNA-damage response pathway. Activated by ATM in response to DNA double-strand breaks, CHEK2 phosphorylates multiple substrates including BRCA1, CDC25A, and p53 to arrest cell cycle progression and promote apoptosis or repair. Germline CHEK2 variants are associated with hereditary breast and colorectal cancer susceptibility. In retinoblastoma, a germline CHEK2 pathogenic variant has been identified as a non-RB1 cancer-predisposition variant.
+CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tumor suppressor in the DNA-damage response pathway. Activated by [ATM](../genes/ATM.md) in response to DNA double-strand breaks, CHEK2 phosphorylates multiple substrates including [BRCA1](../genes/BRCA1.md), CDC25A, and p53 to arrest cell cycle progression and promote apoptosis or repair. Germline CHEK2 variants are associated with hereditary breast and colorectal cancer susceptibility. In retinoblastoma, a germline CHEK2 pathogenic variant has been identified as a non-RB1 cancer-predisposition variant.
 
 ## Alterations observed in the corpus
 
-- Germline pathogenic variant CHEK2 p.Ile157Thr identified in 1 of 42 retinoblastoma patients tested for germline mutations in the rbl_mskcc_2020 cohort (MSK-IMPACT); this is a known moderate-penetrance CHEK2 variant associated with breast and colorectal cancer predisposition [PMID:33466343](../papers/33466343.md).
+- Germline pathogenic variant CHEK2 p.Ile157Thr identified in 1 of 42 retinoblastoma patients tested for germline mutations in the [rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md) cohort (MSK-IMPACT); this is a known moderate-penetrance CHEK2 variant associated with breast and colorectal cancer predisposition [PMID:33466343](../papers/33466343.md).
 - Identified among moderate/low-penetrance germline cancer-predisposition genes interrogated in early-onset colorectal cancer; rates similar between EO-CRC and AO-CRC after adjustment [PMID:34405229](../papers/34405229.md)
 - Loss of heterozygosity (LOH) at CHEK2 independently associated with poor overall survival in lung cancers from never smokers (LCINS; HR significant in Cox PH analysis) [PMID:34493867](../papers/34493867.md)
 - Cited as a DDR-pathway gene whose clonal hematopoiesis clones expand under therapeutic pressure in adult oncology cohorts; context reference within study of pediatric neuroblastoma therapy-related MDS/AL surveillance [PMID:35078859](../papers/35078859.md)
+- ATM and CHEK2 mutations were identified in the [TP53](../genes/TP53.md) pathway in MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients but were rare and did not drive the pathway signal, which was dominated by TP53 and [MDM2](../genes/MDM2.md) alterations. [PMID:35377946](../papers/35377946.md)
 
 ## Cancer types (linked)
 
-- **Retinoblastoma (RBL):** germline CHEK2 p.Ile157Thr detected in 1/42 patients (2.4%); patient showed intraocular disease only; part of a 12% overall prevalence of non-RB1 germline cancer-predisposition mutations in this cohort [PMID:33466343](../papers/33466343.md).
+- **Retinoblastoma ([RBL](../cancer_types/RBL.md)):** germline CHEK2 p.Ile157Thr detected in 1/42 patients (2.4%); patient showed intraocular disease only; part of a 12% overall prevalence of non-RB1 germline cancer-predisposition mutations in this cohort [PMID:33466343](../papers/33466343.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Germline CHEK2 variant co-occurred with somatic RB1 biallelic loss (the expected primary driver) in the retinoblastoma patient harboring this germline alteration [PMID:33466343](../papers/33466343.md).
+- Germline CHEK2 variant co-occurred with somatic [RB1](../genes/RB1.md) biallelic loss (the expected primary driver) in the retinoblastoma patient harboring this germline alteration [PMID:33466343](../papers/33466343.md).
 
 ## Therapeutic relevance
 
@@ -41,13 +42,16 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

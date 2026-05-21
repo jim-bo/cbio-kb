@@ -4,8 +4,8 @@ oncotree_code: THPA
 main_type: Thyroid Cancer
 parent: WDTC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Papillary Thyroid Cancer (THPA)
@@ -30,7 +30,8 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - TCGA papillary thyroid carcinoma cohort (n=390) used as comparator; BRAF-RAS score (BRS) tracked driver mutation in PDTCs but ATCs were uniformly BRAF-like irrespective of driver, indicating a stepwise progression model from differentiated precursors [PMID:26878173](../papers/26878173.md)
 - Papillary thyroid carcinoma (n=10, 13.2% of TRK fusion-positive cases) had the second highest TRK fusion prevalence at 2.22% (10/451) in the MSK cohort; thyroid is one of the tumor types recommended for reflex RNA fusion testing in driver-negative cases [PMID:31871300](../papers/31871300.md)
 - In PCAWG, papillary thyroid cancer showed ≥31% of fusion/enhancer-hijacking events caused by chromoplexy, generating [RET](../genes/RET.md) and [NTRK3](../genes/NTRK3.md) fusions and [IGF2BP3](../genes/IGF2BP3.md) enhancer hijacking; telomere cluster C3 (predominantly thyroid) had frequent [TERT](../genes/TERT.md) promoter mutations (30%, P=2×10⁻⁶) [PMID:32025007](../papers/32025007.md).
-- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; THPA is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; THPA is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- Papillary thyroid carcinoma (THPA) was represented in the LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial (12% of [RET](../genes/RET.md) fusion-positive cases among 72 patients); selpercatinib ORR was 67% in RET fusion-positive cancers [PMID:35304457](../papers/35304457.md)
 
 ## Subtypes
 
@@ -40,7 +41,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 
 ## Therapeutic landscape
 
-- [BRAF](../genes/BRAF.md) V600E-targeted therapy ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) is effective in BRAF V600E-mutant differentiated thyroid cancer. [PMID:38412093](../papers/38412093.md)
+- [BRAF](../genes/BRAF.md) V600E-targeted therapy ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) is effective in [BRAF](../genes/BRAF.md) V600E-mutant differentiated thyroid cancer. [PMID:38412093](../papers/38412093.md)
 - BRAF fusions acquired as a resistance mechanism to prior targeted therapy were identified in THPA, underscoring the importance of post-progression genotyping. [PMID:38922339](../papers/38922339.md)
 
 ## Sources
@@ -57,4 +58,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

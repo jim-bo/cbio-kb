@@ -13,7 +13,7 @@ tags:
   - ret-inhibitor
   - thyroid-cancer
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-21
 ---
 
 # vandetanib
@@ -24,7 +24,8 @@ Vandetanib is an oral multi-kinase inhibitor targeting [RET](../genes/RET.md), V
 
 ## Evidence in the corpus
 
-- Activating RET mutations in metastatic medullary thyroid carcinoma patients identified by WGTA (POG program) guided vandetanib selection; patient PN7 subsequently received [selpercatinib](../drugs/selpercatinib.md) with 1423 days of stable disease [PMID:40328872](../papers/40328872.md)
+- Activating [RET](../genes/RET.md) mutations in metastatic medullary thyroid carcinoma patients identified by WGTA (POG program) guided vandetanib selection; patient PN7 subsequently received [selpercatinib](../drugs/selpercatinib.md) with 1423 days of stable disease [PMID:40328872](../papers/40328872.md)
+- Vandetanib is a multikinase inhibitor (MKI) targeting RET; 29/53 previously treated LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) patients had received prior MKI therapy (vandetanib, [cabozantinib](../drugs/cabozantinib.md), or RXDX-105) — prior MKI exposure did not alter selpercatinib outcomes (HR=1.2, P=0.6) [PMID:35304457](../papers/35304457.md)
 
 ## Resistance mechanisms
 
@@ -34,4 +35,7 @@ Vandetanib is an oral multi-kinase inhibitor targeting [RET](../genes/RET.md), V
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

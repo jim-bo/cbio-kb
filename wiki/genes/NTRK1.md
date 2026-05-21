@@ -3,8 +3,8 @@ symbol: NTRK1
 aliases: [TRKA]
 cancer_types: [LCH, ECD, pan-cancer, NBL]
 tags: [fusion, actionable, BRAF-resistance, neuroblastoma, favorable-prognosis, neurotrophin-receptor]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # NTRK1
@@ -22,20 +22,22 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - NTRK1 fusions (expected canonical [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) in [IFS](../cancer_types/IFS.md); FISH-negative result led to reclassification of SARC0127 as [SCSRMS](../cancer_types/SCSRMS.md)): NTRK1/NTRK2/NTRK3 listed as actionable fusion targets evaluated in 194-specimen sarcoma PDTO platform; [larotrectinib](../drugs/larotrectinib.md) resistance and reclassification highlight importance of orthogonal genomic testing. [PMID:39305899](../papers/39305899.md)
 - Oncogenic NTRK1 fusions listed as OncoKB level 1 or 2 biomarkers (~10% of all patients with pan-PDAC actionability) in the MSK 2,336-patient PDAC cohort. [PMID:39753968](../papers/39753968.md)
 - Part of NTRK family (NTRK1/2/3) with 20 total mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours, 7 in kinase domains; recurrent somatic mutations establish NTRK1 as a [LUAD](../cancer_types/LUAD.md) candidate driver. [PMID:18948947](../papers/18948947.md)
-- NTRK1 LMNA::NTRK1 fusion in 1 [GBC](../cancer_types/GBC.md) patient (OncoKB level 1; FDA-recognized biomarker predictive of response to entrectinib/larotrectinib) [PMID:36228155](../papers/36228155.md)
+- NTRK1 [LMNA](../genes/LMNA.md)::NTRK1 fusion in 1 [GBC](../cancer_types/GBC.md) patient (OncoKB level 1; FDA-recognized biomarker predictive of response to entrectinib/larotrectinib) [PMID:36228155](../papers/36228155.md)
 - Discussed as analogous context: NTRK1 fusions in other cancers provide precedent for the [NTRK2](../genes/NTRK2.md) kinase-domain-retaining fusions newly described in pilocytic astrocytoma [PMID:23817572](../papers/23817572.md)
 - NTRK1 fusions detected in PTC; ETV6/NTRK3 and RBPMS/NTRK3 fusions among 1.2% (6/484) NTRK events; fusions were BRS-neutral in the BVL/RL classification [PMID:25417114](../papers/25417114.md)
 - NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md)
-- MAPK-pathway alteration enriched in PA-like LGG (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
+- MAPK-pathway alteration enriched in PA-like [LGG](../cancer_types/LGG.md) (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
 - NTRK1 fusions in thyroid cancer could not be assessed because the IMPACT 341-gene panel does not cover NTRK1 intronic regions; explicitly flagged as a detection gap in the study of PDTC and ATC [PMID:26878173](../papers/26878173.md)
 - NTRK1 fusions identified in pan-lung cancer TCGA analysis (n=1144) in lung adenocarcinoma [PMID:27158780](../papers/27158780.md)
 - Mentioned as a rare fusion target in young lung cancer (YLC) with scarce age-stratified frequency data [PMID:27346245](../papers/27346245.md)
 - Fusions present in 8% of MSI-H vs 1% of MSS mCRC; specific fusions: LMNA-NTRK1 (3 cases: 1 MSS, 2 MSI-H), TPM3-NTRK1; TRK-inhibitor candidates in MSI-H mCRC [PMID:29316426](../papers/29316426.md)
-- Among the top recurrent 3'-kinase tyrosine kinases enriched in THCA (thyroid carcinoma) fusions in pan-cancer RNA-seq analysis of 9,624 TCGA samples; 94% of THCA kinase fusions involve 3'-enriched kinases including NTRK1, NTRK3, and BRAF. [PMID:29617662](../papers/29617662.md)
+- Among the top recurrent 3'-kinase tyrosine kinases enriched in [THCA](../cancer_types/THCA.md) (thyroid carcinoma) fusions in pan-cancer RNA-seq analysis of 9,624 TCGA samples; 94% of THCA kinase fusions involve 3'-enriched kinases including NTRK1, [NTRK3](../genes/NTRK3.md), and [BRAF](../genes/BRAF.md). [PMID:29617662](../papers/29617662.md)
 - NTRK1 fusions were not observed in 195 cholangiocarcinoma patients profiled by MSK-IMPACT, despite prior reports of NTRK1 fusions in cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
-- CHTOP–NTRK1 fusion detected in GBM PDX; flagged as potentially targetable alongside PTPRZ1–MET and FGFR3–TACC3 fusions [PMID:31852831](../papers/31852831.md)
-- Recurrent in-frame kinase-domain-preserving fusions; predominantly intrachromosomal (not interstitial deletions); partners include ETV6 (exclusive to NTRK3), GON4L, TPM3, LMNA; 48 unique NTRK fusion events across 113 cases in MSK cohort [PMID:31871300](../papers/31871300.md)
+- [CHTOP](../genes/CHTOP.md)–NTRK1 fusion detected in [GBM](../cancer_types/GBM.md) PDX; flagged as potentially targetable alongside [PTPRZ1](../genes/PTPRZ1.md)–[MET](../genes/MET.md) and [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) fusions [PMID:31852831](../papers/31852831.md)
+- Recurrent in-frame kinase-domain-preserving fusions; predominantly intrachromosomal (not interstitial deletions); partners include [ETV6](../genes/ETV6.md) (exclusive to NTRK3), [GON4L](../genes/GON4L.md), [TPM3](../genes/TPM3.md), LMNA; 48 unique NTRK fusion events across 113 cases in MSK cohort [PMID:31871300](../papers/31871300.md)
 - Rare oncogenic fusion (NTRK1 fusion) reported in melanoma; targeted successfully with [larotrectinib](../drugs/larotrectinib.md) yielding complete response in a BRAF V600-wild-type patient [PMID:33509808](../papers/33509808.md)
+- NTRK1 fusions (n=9 total across NTRK1/2/3) classified ready-for-routine-use across multiple solid tumor types (e.g., NTRK1-LMNA); 3 resistance mutations identified after prior TRK inhibitor exposure in the MAPPYACTS pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
+- NTRK1 fusions referenced among actionable alterations in the [SCLC](../cancer_types/SCLC.md) PDX/CDX characterization study across 26 clinical and 42 PDX/CDX models [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -75,16 +77,22 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

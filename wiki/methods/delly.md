@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [structural-variant, sv-caller, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # DELLY
@@ -22,6 +22,7 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 - Used DELLY to detect structural variants including deletions, duplications, and inversions from sequencing data [PMID:28445112](../papers/28445112.md)
 - Delly v0.6.1 used for structural variant detection in the MSK-IMPACT bioinformatics pipeline across 10,945 tumors, identifying 1,875 rearrangements including 268 kinase fusions [PMID:28481359](../papers/28481359.md)
 - Applied in the PCAWG pan-cancer WGS study (n=2,658 tumors) as one of the SV callers achieving ~90% sensitivity and ~97.5% precision in consensus mode across 38 tumor types [PMID:32025007](../papers/32025007.md).
+- Delly structural variant caller applied as part of the multi-omic profiling pipeline for 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models at MSK [PMID:35440124](../papers/35440124.md).
 
 ## Notes
 
@@ -30,16 +31,19 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

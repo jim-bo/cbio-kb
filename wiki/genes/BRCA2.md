@@ -15,8 +15,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # BRCA2
@@ -58,13 +58,13 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - High Cyclin E1, FoxM1, [PCNA](../genes/PCNA.md), pChk1-S345, Rad50, Rad51, [XRCC1](../genes/XRCC1.md), and BRCA2 protein characterize the proliferative [ILC](../cancer_types/ILC.md) transcriptional subtype, which is associated with worse disease-specific and overall survival in METABRIC [PMID:26451490](../papers/26451490.md)
 - Inactivation in 3% of primary prostate cancer (germline + somatic); all 6 germline mutations were K3326* (C-terminal truncation, debated pathogenicity); 2 tumors had focal homozygous deletions with low transcript; [RB1](../genes/RB1.md) heterozygous loss often co-incident with BRCA2 loss at 13q [PMID:26544944](../papers/26544944.md)
 - Homozygous deletion shared across primary tumour, lymph-node metastasis, and CRPC-NE metastases in patient WCMC7520, marking a common clonal ancestor and supporting divergent clonal evolution model in metastatic prostate cancer [PMID:26855148](../papers/26855148.md)
-- BRCA2 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to RB1 loss/E2F1 activation); homozygous deleterious BRCA2 events were used as part of the DNA-repair-defect classifier predicting longer carboplatin response (P = 0.02) [PMID:26928463](../papers/26928463.md)
+- BRCA2 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to [RB1](../genes/RB1.md) loss/E2F1 activation); homozygous deleterious BRCA2 events were used as part of the DNA-repair-defect classifier predicting longer [carboplatin](../drugs/carboplatin.md) response (P = 0.02) [PMID:26928463](../papers/26928463.md)
 - Recurrent likely loss-of-function nsSNVs across NPM1-interacting, POLH-interacting, and FANCD2-interacting domains; enriched in anti-PD-1 responders (28% vs 6% non-responders; Fisher P=0.002, OR=6.2); BRCA2-mutant melanomas have higher overall mutational loads; proposed as candidate immunotherapy response biomarker [PMID:26997480](../papers/26997480.md)
 - Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort [PMID:27161491](../papers/27161491.md)
 - BRCA2 deletion flagged as actionable in cisplatin-resistant germ cell tumors; PARP inhibitor sensitivity implicated [PMID:27646943](../papers/27646943.md)
 - BRCA2 germline variants advance lung cancer onset by 12.2 years in young lung cancer; specific variant p.Arg2784Trp reported by Donner et al. [PMID:27346245](../papers/27346245.md)
 - BRCA2 among additional recurrently mutated genes in a 62-patient uRCC MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
-- 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish olaparib + spautin-1 synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:28068672](../papers/28068672.md)
+- 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish [olaparib](../drugs/olaparib.md) + [spautin-1](../drugs/spautin-1.md) synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:28068672](../papers/28068672.md)
 - 8 likely-inactivating truncating mutations (0.9%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
 - BRCA2 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
@@ -76,30 +76,31 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Novel BRCA2 mutation finding in HPV(+) vulvar squamous cell carcinoma identified by whole-exome sequencing of 15 tumors [PMID:29422544](../papers/29422544.md).
 - [BRCA2](../genes/BRCA2.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)); frequent biallelic [CDK12](../genes/CDK12.md) inactivation in metastatic prostate cancer supports [BRCA2](../genes/BRCA2.md) loss as a therapeutically relevant DNA-repair phenotype. [PMID:29610475](../papers/29610475.md)
 - [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:29489754](../papers/29489754.md)
-- BRCA2 somatic and germline mutations are counted together with BRCA1 (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with BRCA1 germline carriers [PMID:29625049](../papers/29625049.md)
+- BRCA2 somatic and germline mutations are counted together with [BRCA1](../genes/BRCA1.md) (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with BRCA1 germline carriers [PMID:29625049](../papers/29625049.md)
 - BRCA2 is included in the 57% pan-cancer actionability figure (versus 52% restricted to the 10 canonical pathways), supporting broad germline/somatic BRCA2 testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
-- Germline pathogenic mutations affect 10.8% of Korean breast cancer patients (brca_smc_2018) combined with BRCA1 vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
-- Rare germline/somatic pathogenic mutation (n=2 combined with BRCA1, level 2B actionable) identified in cholangiocarcinoma (chol_msk_2018) [PMID:29848569](../papers/29848569.md)
+- Germline pathogenic mutations affect 10.8% of Korean breast cancer patients ([brca_smc_2018](../datasets/brca_smc_2018.md)) combined with BRCA1 vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
+- Rare germline/somatic pathogenic mutation (n=2 combined with BRCA1, level 2B actionable) identified in cholangiocarcinoma ([chol_msk_2018](../datasets/chol_msk_2018.md)) [PMID:29848569](../papers/29848569.md)
 - Three pathogenic germline truncating mutations identified (one serous, two carcinosarcomas); founder c.5946delT in two patients, c.5799_5802delCCAA frameshift in the third; none enrolled to PARP-inhibitor trials — demonstrating utility of unbiased germline analysis in endometrial cancer [PMID:30068706](../papers/30068706.md)
-- BRCA2 mutated in 10% of gallbladder carcinoma; co-occurrence trends with AR and KMT2D [PMID:30427539](../papers/30427539.md)
+- BRCA2 mutated in 10% of gallbladder carcinoma; co-occurrence trends with [AR](../genes/AR.md) and [KMT2D](../genes/KMT2D.md) [PMID:30427539](../papers/30427539.md)
 - Germline protein-truncating variants in BRCA2 drive elevated somatic SV/SNV burden and BRCAness (signature 3) in prostate cancer; some BRCA2 tumor disruptions arise from APOBEC-associated SV breakpoints; BRCA2-mutated patients are candidates for PARP inhibitors based on high signature-3 burden (292-case WGS cohort) [PMID:30537516](../papers/30537516.md)
 - Harbors homologous-recombination repair alterations (11% frequency) in mCRPC tumor tissue; ~60% of BRCA2 SNVs classified as likely oncogenic; no association with survival or time on first-line ARSI (composite HRR P=0.495/0.611) in this tumor-tissue cohort, contrasting with prior cfDNA-based reports [PMID:31061129](../papers/31061129.md)
 - Germline pathogenic/likely-pathogenic BRCA2 alleles identified in 3 of 764 glioma patients (0.4%), contributing to the 13% overall germline burden in the MSK glioma cohort; BRCA2 P/LP alleles implicated in heritable cancer predisposition and nominated for routine germline screening in glioma patients [PMID:31263031](../papers/31263031.md)
 - Splicing-region germline variants found in 4 of 90 recurrent/metastatic adenoid cystic carcinoma cases alongside BRCA1; all monoallelic with no LOH — clinical relevance unclear pending validation [PMID:31483290](../papers/31483290.md)
 - Germline PTVs associated with somatic small-deletion burden (P=1×10⁻⁸) across 2,658 whole-genome-sequenced PCAWG tumors; one of three genes accounting for 81% of germline+somatic biallelic combinations pan-cancer [PMID:32025007](../papers/32025007.md)
-- Exploratory sensitivity analysis in 424 mCSPC patients: adjusted HR for castration resistance 1.60 (95% CI 0.98–2.63), OS HR 1.08 (95% CI 0.50–2.33); compatible with but did not establish poor prognosis; no significant prognostic signal at pathway level [PMID:32220891](../papers/32220891.md)
-- Homozygous deletions in 5% of uterine leiomyosarcoma (uLMS, 4/80) and somatic mutations in 3/80, totaling 7 somatic BRCA2 alterations (exclusively in uLMS, not in high-grade non-LMS); validation in five additional uLMS patients with BRCA2 alterations treated with [PARP inhibitors](../drugs/olaparib.md) showed radiographic regression in all, including one complete response; authors recommend BRCA testing in all uLMS patients [PMID:32299819](../papers/32299819.md)
-- Germline BRCA2 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm (fuzuloparib) and anti-VEGFR arm (apatinib) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
+- Exploratory sensitivity analysis in 424 mCSPC patients: adjusted HR for castration resistance 1.60 (95% CI 0.98–2.63), [OS](../cancer_types/OS.md) HR 1.08 (95% CI 0.50–2.33); compatible with but did not establish poor prognosis; no significant prognostic signal at pathway level [PMID:32220891](../papers/32220891.md)
+- Homozygous deletions in 5% of uterine leiomyosarcoma (uLMS, 4/80) and somatic mutations in 3/80, totaling 7 somatic BRCA2 alterations (exclusively in uLMS, not in high-grade non-LMS); validation in five additional uLMS patients with BRCA2 alterations treated with [PARP inhibitors](../drugs/olaparib.md) showed radiographic regression in all, including one complete response; authors recommend [BRCA](../cancer_types/BRCA.md) testing in all uLMS patients [PMID:32299819](../papers/32299819.md)
+- Germline BRCA2 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm ([fuzuloparib](../drugs/fuzuloparib.md)) and anti-VEGFR arm ([apatinib](../drugs/apatinib.md)) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
 - BRCA2 was referenced alongside BRCA1 as a DDR alteration in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
-- BRCA2 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes (BRCA1, MSH3, MSH6, PMS2, MLH3), with promoter hypomethylation of MMR genes; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
+- BRCA2 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes (BRCA1, [MSH3](../genes/MSH3.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md), [MLH3](../genes/MLH3.md)), with promoter hypomethylation of MMR genes; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 - OncoKB level 1 alterations identified in plasma of prostate cancer patients by cf-IMPACT, supporting olaparib (PARP inhibitor) eligibility [PMID:34059130](../papers/34059130.md)
 - Copy-number deletion recovered via matched WBC sequencing and reclassified as germline (not somatic) in the MSK-ACCESS clinical cohort — illustrating matched-normal requirement for cfDNA germline/somatic disambiguation [PMID:34145282](../papers/34145282.md)
 - Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; specific carrier frequencies shown in Figure 4; rates similar between EO and AO CRC after adjustment. [PMID:34405229](../papers/34405229.md)
 - Germline variants in BRCA2 identified in LCINS WGS cohort; BRCA2 LOH enriched in RTK-RAS+ tumors; >15% of tumors have LOH of an HRD-associated gene, nominating PARP inhibitor candidates. [PMID:34493867](../papers/34493867.md)
 - Referenced as germline-mutation context for PARP-inhibitor therapy in pancreatic ductal adenocarcinoma in CPTAC PDAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
-- BRCA2 cited as established HR-pathway gene; 3 RAD51B germline carriers were excluded from primary analysis because they co-harbored a deleterious BRCA2 variant; biallelic BRCA2 loss defines the strongest HRD benchmark used to calibrate biallelic RAD51B phenotype (intermediate LST/Signature 3) [PMID:34635660](../papers/34635660.md)
+- BRCA2 cited as established HR-pathway gene; 3 [RAD51B](../genes/RAD51B.md) germline carriers were excluded from primary analysis because they co-harbored a deleterious BRCA2 variant; biallelic BRCA2 loss defines the strongest HRD benchmark used to calibrate biallelic RAD51B phenotype (intermediate LST/Signature 3) [PMID:34635660](../papers/34635660.md)
 - No significant difference in BRCA2 alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) profiled on MSK-IMPACT, contrasting with the prior Project GENIE-based analysis [PMID:34667026](../papers/34667026.md)
-- BRCA2 captured as clinical covariate (10/45 HGSOC patients mutated); no significant association with total curvature group (p=1.000) in ICI-treated HGSOC cohort [PMID:34819508](../papers/34819508.md)
+- BRCA2 captured as clinical covariate (10/45 [HGSOC](../cancer_types/HGSOC.md) patients mutated); no significant association with total curvature group (p=1.000) in ICI-treated HGSOC cohort [PMID:34819508](../papers/34819508.md)
+- BRCA2 — germline pathogenic variant among 49 germline SNVs identified across MAPPYACTS cohort (n=624 pediatric relapsed/refractory patients); DNA repair gene panel included BRCA2 for PARP inhibitor matching [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -140,191 +141,194 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27346245](../papers/27346245.md)
 
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28068672](../papers/28068672.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28783718](../papers/28783718.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29422544](../papers/29422544.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29489754](../papers/29489754.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713003](../papers/29713003.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220891](../papers/32220891.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32719455](../papers/32719455.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

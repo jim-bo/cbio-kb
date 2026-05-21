@@ -3,8 +3,8 @@ symbol: YAP1
 aliases: [YAP]
 cancer_types: [STAD]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # YAP1
@@ -22,9 +22,10 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - Focal amplification in 1–3 desmoplastic melanoma tumours; IHC confirmed protein-level overexpression [PMID:26343386](../papers/26343386.md)
 - YAP1 is not mutated but accumulates in nuclei of NF2-loss uRCC tumours (26% of cohort); shRNA knockdown of YAP1 in NF2-loss nccRCC lines ACHN and LB996-RCC reduces S- and G2/M-phase cells (P<0.001) and decreases soft-agar colony formation, validating functional dependency. [PMID:27713405](../papers/27713405.md)
 - Focally amplified (3%) in UPS/MFS and also amplified in 16% of DDLPS as an adipocyte-differentiation inhibitor; the YAP1/VGLL3 TEAD-cofactor target signature is strongly expressed (p=1e-24) in UPS/MFS, supporting a role for Hippo pathway activation in these sarcoma subtypes [PMID:29100075](../papers/29100075.md).
-- Hippo pathway effector; TEAD1 knockdown sensitivity in CCLE cell lines associated with integrin complexes (ITGB1), consistent with the YAP1/Hippo mechanosensing axis [PMID:31978347](../papers/31978347.md)
-- Focal amplification in 1.2% of CSCC tumors; Hippo-pathway effector observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
-- Hippo-pathway alteration (combined with LATS1/2, 1.8% of HR+/HER2− breast cancer cohort); YAP1-dependent CDK6 upregulation mediates abemaciclib resistance downstream of ARID1A loss — shYAP1 in shARID1A cells shifts IC50 from 135.5 to 9.45 nmol/L. [PMID:34544752](../papers/34544752.md)
+- Hippo pathway effector; [TEAD1](../genes/TEAD1.md) knockdown sensitivity in CCLE cell lines associated with integrin complexes ([ITGB1](../genes/ITGB1.md)), consistent with the YAP1/Hippo mechanosensing axis [PMID:31978347](../papers/31978347.md)
+- Focal amplification in 1.2% of [CSCC](../cancer_types/CSCC.md) tumors; Hippo-pathway effector observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
+- Hippo-pathway alteration (combined with LATS1/2, 1.8% of HR+/HER2− breast cancer cohort); YAP1-dependent [CDK6](../genes/CDK6.md) upregulation mediates [abemaciclib](../drugs/abemaciclib.md) resistance downstream of [ARID1A](../genes/ARID1A.md) loss — shYAP1 in shARID1A cells shifts IC50 from 135.5 to 9.45 nmol/L. [PMID:34544752](../papers/34544752.md)
+- YAP1 protein expression was consistently absent or very low by IHC across 37 [SCLC](../cancer_types/SCLC.md) PDX/CDX models (MSK [lung_pdx_msk_2021](../datasets/lung_pdx_msk_2021.md) cohort), questioning YAP1 as a defining IHC subtype marker; however, YAP/TAZ downstream target genes ([NOTCH2](../genes/NOTCH2.md), [NOTCH3](../genes/NOTCH3.md)) were highly expressed in POU2F3-positive (SCLC-P) PDXs regardless of YAP1 protein level [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -54,4 +55,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - [PMID:34272401](../papers/34272401.md)
 - [PMID:34544752](../papers/34544752.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

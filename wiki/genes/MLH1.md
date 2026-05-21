@@ -3,8 +3,8 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MLH1
@@ -33,29 +33,30 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Frameshift mutation (MM20T) driving hypermutator phenotype in uterine/ovarian carcinosarcoma; MMR-deficient cases flagged as candidates for anti-PD-1 immunotherapy [PMID:25233892](../papers/25233892.md)
 - MLH1 not specifically highlighted but MLH1/MLH3 are part of MMR/mismatch-repair pathway alterations in PDA (109-case WES cohort) [PMID:25855536](../papers/25855536.md)
 - MLH1 MMR alteration in 3 of 4 hypermutated mCRPC cases (~50 mutations/Mb) in the SU2C–PCF 150-case prospective WES cohort; MMR deficiency in ~2% of cases [PMID:26000489](../papers/26000489.md)
-- MLH1 mutations, together with MSH2 and MSH6, account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
+- MLH1 mutations, together with [MSH2](../genes/MSH2.md) and [MSH6](../genes/MSH6.md), account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
 - MLH1 somatic alterations observed in pan-lung cancer TCGA analysis (n=1144) across lung adenocarcinoma and squamous cell carcinoma subtypes [PMID:27158780](../papers/27158780.md)
-- Mismatch repair defect identified in hypermutated HNSC tumors, alongside MSH2, MSH6, and POLD1 [PMID:27442865](../papers/27442865.md)
+- Mismatch repair defect identified in hypermutated [HNSC](../cancer_types/HNSC.md) tumors, alongside MSH2, MSH6, and [POLD1](../genes/POLD1.md) [PMID:27442865](../papers/27442865.md)
 - DNA-repair PPGM gene enriched in 500-patient MET500 metastatic cancer cohort vs. ExAC controls [PMID:28783718](../papers/28783718.md)
 - MMR gene altered in ~3% of advanced prostate cancer patients; alterations produce a hypermutator phenotype with MMR/MSI signatures, raising potential for immune-checkpoint blockade response [PMID:28825054](../papers/28825054.md)
 - Somatic MLH1 mutation identified as the driver of one of two cohort hypermutators (ICGC_MB265) in 491-sample medulloblastoma genome-wide analysis [PMID:28726821](../papers/28726821.md)
 - Assayed by IHC for MMR protein status in mCRC (N=1,152); concordance between IHC-based MMR status and MSIsensor score was 98.6% [PMID:29316426](../papers/29316426.md)
-- MLH1 (with MSH2, MSH6, PMS2) is an MMR gene in which somatic non-synonymous mutations in 250/1,464 TCGA samples and germline variants (16/18 with both germline and somatic hits) reach MSI-high status, defining a population with elevated neoantigen load expected to respond to PD-1/PD-L1 blockade [PMID:29625049](../papers/29625049.md)
-- MLH1 protein loss detected in the single MSI-H cholangiocarcinoma tumor (0.5% of 195-patient cohort); rationale for pembrolizumab eligibility under tissue-agnostic indication [PMID:29848569](../papers/29848569.md)
+- MLH1 (with MSH2, MSH6, [PMS2](../genes/PMS2.md)) is an MMR gene in which somatic non-synonymous mutations in 250/1,464 TCGA samples and germline variants (16/18 with both germline and somatic hits) reach MSI-high status, defining a population with elevated neoantigen load expected to respond to PD-1/PD-L1 blockade [PMID:29625049](../papers/29625049.md)
+- MLH1 protein loss detected in the single MSI-H cholangiocarcinoma tumor (0.5% of 195-patient cohort); rationale for [pembrolizumab](../drugs/pembrolizumab.md) eligibility under tissue-agnostic indication [PMID:29848569](../papers/29848569.md)
 - Germline Lynch syndrome splice mutation c.1731+1G>T with biallelic CN-LOH identified in one metastatic endometrial cancer patient (MSK cohort, n=189); MSIsensor score=19.19; also assayed by MMR IHC; supports universal tumor/normal sequencing to capture Lynch carriers regardless of phenotype [PMID:30068706](../papers/30068706.md)
-- Somatic deleterious mutations enriched in MSI-H tumors of adrenocortical carcinoma (ACC), cervical squamous cell carcinoma (CESC), and mesothelioma (MESO) in a pan-TCGA analysis; MLH1 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
+- Somatic deleterious mutations enriched in MSI-H tumors of adrenocortical carcinoma ([ACC](../cancer_types/ACC.md)), cervical squamous cell carcinoma ([CESC](../cancer_types/CESC.md)), and mesothelioma ([MESO](../cancer_types/MESO.md)) in a pan-TCGA analysis; MLH1 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 - MLH1 mutations found in 3 of 80 metastatic panNET patients (OncoKB Level 4); two of three post-alkylator hypermutated tumors acquired mismatch-repair gene mutations including MLH1, representing chemotherapy-induced MMR deficiency [PMID:30687805](../papers/30687805.md)
 - MLH1 promoter hypermethylation found in 17/65 (26%) MSI cancer cell lines in the CCLE; MLH1 hypermethylation is the dominant mechanism of MMR silencing in MSI lines without truncating MSH2 mutations. [PMID:31068700](../papers/31068700.md)
-- Significantly reduced transcript and protein expression (by IHC) in UTUC vs UCB in the absence of germline or somatic mutations; insufficient reduction to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
+- Significantly reduced transcript and protein expression (by IHC) in [UTUC](../cancer_types/UTUC.md) vs UCB in the absence of germline or somatic mutations; insufficient reduction to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
 - Germline variants detected in 15/90 (16.7%) of R/M adenoid cystic carcinoma cases at MSKCC; all tumors remained microsatellite-stable despite germline MMR variants [PMID:31483290](../papers/31483290.md).
-- Hypermethylated MLH1 enriched in TRK fusion-positive CRC (6/7 MSI-H cases); TRK fusions in CRC co-occur with wild-type BRAF and KRAS in this MSI-H context [PMID:31871300](../papers/31871300.md)
-- MLH1 protein is downregulated in MSI cell lines in the CCLE proteomic dataset; its abundance predicts WRN knockdown sensitivity in the context of the mismatch-repair complex [PMID:31978347](../papers/31978347.md)
-- MLH1 is silenced by promoter methylation in MSI endometrial carcinoma tumors (CPTAC cohort, n=95); MLH1 protein is downregulated and co-methylation silences EPM2AIP1 via a shared promoter [PMID:32059776](../papers/32059776.md)
+- Hypermethylated MLH1 enriched in TRK fusion-positive CRC (6/7 MSI-H cases); TRK fusions in CRC co-occur with wild-type [BRAF](../genes/BRAF.md) and [KRAS](../genes/KRAS.md) in this MSI-H context [PMID:31871300](../papers/31871300.md)
+- MLH1 protein is downregulated in MSI cell lines in the CCLE proteomic dataset; its abundance predicts [WRN](../genes/WRN.md) knockdown sensitivity in the context of the mismatch-repair complex [PMID:31978347](../papers/31978347.md)
+- MLH1 is silenced by promoter methylation in MSI endometrial carcinoma tumors (CPTAC cohort, n=95); MLH1 protein is downregulated and co-methylation silences [EPM2AIP1](../genes/EPM2AIP1.md) via a shared promoter [PMID:32059776](../papers/32059776.md)
 - Germline MLH1 loss defines a Lynch syndrome UTUC subset (UCC15); MSI-H Lynch-associated UTUC (n=4, including MLH1, MSH2, and MSH6 germline carriers) had TMB 20.3–157.2 mut/Mb and showed resistance to neoadjuvant gemcitabine/cisplatin (0/2 pathologic responses vs 10/17 in MSS patients), suggesting redirection to immune checkpoint blockade [PMID:32332851](../papers/32332851.md)
 - MLH1 — promoter hypomethylated in SWNTS-SWNs; transcriptionally upregulated MMR gene despite absence of 22q microsatellite instability; COSMIC signatures 6/15 present [PMID:33025139](../papers/33025139.md)
 - Germline Lynch syndrome mismatch-repair gene; pathogenic/likely pathogenic germline variants in MLH1 accounted for a portion of the 5.5% Lynch syndrome prevalence in early-onset colorectal cancer (EO-CRC) and 9 of 14 high-penetrance carriers [PMID:34405229](../papers/34405229.md).
 - MLH1 protein and gene expression in sessile serrated lesions (SSLs) is comparable to conventional adenomas and higher than mean MSI-H CRC level; SSLs in the COLON MAP/HTAN cohort had not yet acquired biallelic MMR loss or hypermutation at the SSL stage [PMID:34910928](../papers/34910928.md)
 - Germline pathogenic MLH1 variants in 2 MSI-H Nigerian CRC patients (Lynch syndrome) plus 1 in MSS; promoter hypermethylation in only 2/7 MSI-H methylation-profiled Nigerian tumors, indicating an alternative non-CIMP MSI mechanism predominates in this West African cohort (MSI-H rate 28.1% vs. 14.2% TCGA/8.5% MSKCC, P<0.001) [PMID:34819518](../papers/34819518.md)
+- In the MAPPYACTS trial, MLH1 germline mutations contributed to constitutional mismatch repair deficiency (CMMRD) identified in 3 hypermutated pediatric patients; 49 germline SNVs in DNA repair genes including MLH1 were detected across the cohort [PMID:35292802](../papers/35292802.md).
 
 ## Cancer types (linked)
 
@@ -153,10 +154,13 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

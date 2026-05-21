@@ -8,8 +8,8 @@ tags:
   - epigenetic
   - histone-methyltransferase
   - GCB
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # EZH2
@@ -36,19 +36,20 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Y641 hotspot mutation in Triple-WT cutaneous melanoma subtype (n=1) [PMID:26091043](../papers/26091043.md)
 - Y641S hotspot in 1 desmoplastic melanoma tumor [PMID:26343386](../papers/26343386.md)
 - Mentioned in study [PMID:26855148](../papers/26855148.md)
-- EZH2 identified as a chromatin regulator within the chromatin-spliceosome AML subgroup in a genomic classification of 1,540 patients; SMARCB1 deletion in a related context nominated EZH2 inhibitors as a therapeutic strategy [PMID:27276561](../papers/27276561.md)
+- EZH2 identified as a chromatin regulator within the chromatin-spliceosome [AML](../cancer_types/AML.md) subgroup in a genomic classification of 1,540 patients; [SMARCB1](../genes/SMARCB1.md) deletion in a related context nominated EZH2 inhibitors as a therapeutic strategy [PMID:27276561](../papers/27276561.md)
 - Mutated in 3 HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)) cases including hotspot COSM220530; enriched in HR+ mBC at FDR<0.1 vs early breast cancer [PMID:28027327](../papers/28027327.md).
 - EZH2 mutations and/or altered expression were reported in the context of epigenetic dysregulation and cancer progression [PMID:28196596](../papers/28196596.md)
-- Upregulated EZH2 expression in Cluster 1 CCA alongside downregulated TET1, suggesting gain-of-repressive-methylation as the epigenetic mechanism driving CpG-shore hypermethylation in this cholangiocarcinoma subtype [PMID:28667006](../papers/28667006.md).
+- Upregulated EZH2 expression in Cluster 1 CCA alongside downregulated [TET1](../genes/TET1.md), suggesting gain-of-repressive-methylation as the epigenetic mechanism driving CpG-shore hypermethylation in this cholangiocarcinoma subtype [PMID:28667006](../papers/28667006.md).
 - Preferentially mutated in GCB-DLBCL; EZH2 mutations associated with better survival in GCB-DLBCL in the comprehensive genetic and functional driver analysis (n=1,001 patients) [PMID:28985567](../papers/28985567.md)
-- Identified via cited preclinical work (Ler et al. 2017; Wu et al. 2016) as part of the BRD4–EZH2 chromatin-modification growth pathway whose inhibition is therapeutically tractable in KDM6A-loss bladder cancer; EZH2 inhibitors proposed alongside JQ1 for KDM6A-deficient MIBC [PMID:28988769](../papers/28988769.md)
-- EZH2 mutations are enriched in C3 GCB-DLBCL alongside KMT2D, CREBBP, and EP300; GSEA shows concordant upregulation of EZH2 targets in C3 tumors. EZH2-targeted epigenetic therapy is proposed as a rational strategy for C3 [PMID:29713087](../papers/29713087.md)
+- Identified via cited preclinical work (Ler et al. 2017; Wu et al. 2016) as part of the [BRD4](../genes/BRD4.md)–EZH2 chromatin-modification growth pathway whose inhibition is therapeutically tractable in KDM6A-loss bladder cancer; EZH2 inhibitors proposed alongside JQ1 for KDM6A-deficient MIBC [PMID:28988769](../papers/28988769.md)
+- EZH2 mutations are enriched in C3 GCB-DLBCL alongside [KMT2D](../genes/KMT2D.md), [CREBBP](../genes/CREBBP.md), and [EP300](../genes/EP300.md); GSEA shows concordant upregulation of EZH2 targets in C3 tumors. EZH2-targeted epigenetic therapy is proposed as a rational strategy for C3 [PMID:29713087](../papers/29713087.md)
 - Discussed as a therapeutic-target gene in AML; LSD1/EZH2 inhibitors are a treatment strategy in the AML genomic landscape [PMID:30333627](../papers/30333627.md)
 - EZH2 is a known histone-mark cluster driver identified in the expanded CCLE multi-omic profiling of 1,072 cancer cell lines [PMID:31068700](../papers/31068700.md)
-- EZH2 is part of the histone modification/DNA methylation pathway jointly mutated in 35.6% of 133 cHCC-ICC cases, alongside KMT2D, IDH1, and BAP1 [PMID:31130341](../papers/31130341.md)
-- EZH2 inhibition +/- cisplatin proposed as therapeutic strategy for SWI/SNF-mutant EpiC-high UTUC subtype based on prior NK-cell-activating mechanism; no in-paper EZH2 mutation data reported [PMID:33397444](../papers/33397444.md)
-- Mutated in 2.4% of CSCC tumors; hotspot Y646N observed in a 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
-- Dependency observed in SOX2-amplified LSCC cell lines; nominated as an actionable upstream regulator of undruggable SOX2 via chromatin modification in the 3q-amplified LSCC subtype [PMID:34358469](../papers/34358469.md)
+- EZH2 is part of the histone modification/DNA methylation pathway jointly mutated in 35.6% of 133 cHCC-ICC cases, alongside KMT2D, [IDH1](../genes/IDH1.md), and [BAP1](../genes/BAP1.md) [PMID:31130341](../papers/31130341.md)
+- EZH2 inhibition +/- [cisplatin](../drugs/cisplatin.md) proposed as therapeutic strategy for SWI/SNF-mutant EpiC-high [UTUC](../cancer_types/UTUC.md) subtype based on prior NK-cell-activating mechanism; no in-paper EZH2 mutation data reported [PMID:33397444](../papers/33397444.md)
+- Mutated in 2.4% of [CSCC](../cancer_types/CSCC.md) tumors; hotspot Y646N observed in a 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- Dependency observed in SOX2-amplified LSCC cell lines; nominated as an actionable upstream regulator of undruggable [SOX2](../genes/SOX2.md) via chromatin modification in the 3q-amplified LSCC subtype [PMID:34358469](../papers/34358469.md)
+- EZH2 inhibitors were matched as investigational-tier treatments for SMARCA4/SMARCB1-inactivated tumors (27 events, including rhabdoid tumors MRT/ATRT) in the MAPPYACTS pediatric WES cohort (n=787). [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -61,7 +62,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 ## Therapeutic relevance
 
-- EZH2 inhibitors (e.g., tazemetostat) have been developed targeting Y641 gain-of-function mutations; clinical relevance supported by the high recurrence frequency in GCB DLBCL and [FL](../cancer_types/FL.md).
+- EZH2 inhibitors (e.g., [tazemetostat](../drugs/tazemetostat.md)) have been developed targeting Y641 gain-of-function mutations; clinical relevance supported by the high recurrence frequency in GCB DLBCL and [FL](../cancer_types/FL.md).
 
 ## Open questions
 
@@ -97,49 +98,52 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28196596](../papers/28196596.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -9,8 +9,8 @@ tags:
   - msi
   - msi-calling
   - targeted-sequencing
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MSIsensor
@@ -26,20 +26,21 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - Used alongside MiMSI and IDYLLA MSI to assess microsatellite instability in 244 [GBC](../cancer_types/GBC.md) samples; identified 6 tumors (3%) as MSI-High [PMID:36228155](../papers/36228155.md)
 - Applied to WGS data of 28 metastatic NENs to predict MSI status; classified PN4 (homozygous MSH6/MLH1 loss, TMB ~11 mut/Mb) as MSI-low — illustrating that dMMR does not always predict MSI-high in non-colorectal tumors [PMID:40328872](../papers/40328872.md).
 - MSIsensor used to cross-check signature-based MSI calls in the MSK-IMPACT cohort; identified 102 MSI patients across 11 tumor types, 45% previously untested for MMR deficiency [PMID:28481359](../papers/28481359.md)
-- MSIsensor used to determine MSI status from targeted sequencing data in 295 metastatic EGC patients (MSI-H threshold ≥10); identified 9/295 (3%) MSI-H tumors [PMID:29122777](../papers/29122777.md)
+- MSIsensor used to determine MSI status from targeted sequencing data in 295 metastatic [EGC](../cancer_types/EGC.md) patients (MSI-H threshold ≥10); identified 9/295 (3%) MSI-H tumors [PMID:29122777](../papers/29122777.md)
 - MSIsensor score ≥10 used to classify 99 MSI-H/hypermutated (8.7%) and 1,027 MSS (90.6%) cases among 1,134 [COADREAD](../cancer_types/COADREAD.md) tumors; 98.6% concordance with MMR IHC [PMID:29316426](../papers/29316426.md)
 - MSIsensor used to assess microsatellite instability in SUMMIT basket-trial patients with ERBB2/ERBB3-mutant solid tumors profiled by MSK-IMPACT; results contributed to TMB and co-mutation analysis [PMID:29420467](../papers/29420467.md)
 - Used to quantify MSI status (threshold score >4) across TCGA PanCancer Atlas tumors; 250/1,464 samples with somatic MMR mutations and 18/60 with germline MMR variants reached MSI-high status [PMID:29625049](../papers/29625049.md).
 - Applied to MSK-IMPACT targeted sequencing data from 195 cholangiocarcinoma patients; identified 1 MSI-H tumor (0.5%, score 35.1) with MLH1/MSH6 protein loss on IHC [PMID:29848569](../papers/29848569.md)
 - MSIsensor v0.2 (threshold ≥10 for MSI-H) applied to 189 advanced endometrial cancer tumors; 29/30 MMR-D/presumed-MMR-D tumors scored MSI-H; one MMR-proficient-by-IHC case was rescued as MSI-H by MSIsensor (occult MMR deficiency) [PMID:30068706](../papers/30068706.md)
-- MSIsensor used to call MSI status in 127 advanced HCC tumors (MSI-H threshold ≥10); no MSI-H cases observed and TMB median 4.08 [PMID:30373752](../papers/30373752.md)
-- Used to call microsatellite instability status in 37 high-grade UTUC tumors; mean MSIsensor score in WCM UTUC and TCGA UCB were both below the MSI-H threshold of 3.5 and indistinguishable, confirming sporadic UTUC is not microsatellite-unstable despite reduced MMR protein expression [PMID:31278255](../papers/31278255.md)
+- MSIsensor used to call MSI status in 127 advanced [HCC](../cancer_types/HCC.md) tumors (MSI-H threshold ≥10); no MSI-H cases observed and TMB median 4.08 [PMID:30373752](../papers/30373752.md)
+- Used to call microsatellite instability status in 37 high-grade [UTUC](../cancer_types/UTUC.md) tumors; mean MSIsensor score in WCM UTUC and TCGA UCB were both below the MSI-H threshold of 3.5 and indistinguishable, confirming sporadic UTUC is not microsatellite-unstable despite reduced MMR protein expression [PMID:31278255](../papers/31278255.md)
 - Applied to all 1,045 adenoid cystic carcinomas to assess microsatellite status; all cases returned microsatellite-stable, even among the 15/90 MSKCC R/M cases with MLH1/MSH6 germline variants [PMID:31483290](../papers/31483290.md).
 - MSIsensor v0.2 applied to 107 uterine sarcoma MSK-IMPACT samples; threshold ≥10 defined MSI-H; 2 uLMS cases scored MSI-H with outlier TMB and IHC-confirmed MMR loss [PMID:32299819](../papers/32299819.md)
-- MSIsensor used to estimate microsatellite instability in 83 retinoblastoma specimens; TMB uniformly low (0–3 mutations/Mb) [PMID:33466343](../papers/33466343.md)
+- MSIsensor used to [estimate](../methods/estimate.md) microsatellite instability in 83 retinoblastoma specimens; TMB uniformly low (0–3 mutations/Mb) [PMID:33466343](../papers/33466343.md)
 - MSIsensor (cutoff ≥10) used for MSI calling in 487 EAC/EGJ patients; 15/487 (3.1%) were MSI-high and excluded from survival analyses [PMID:33795256](../papers/33795256.md)
-- Applied to cfDNA plasma samples in the tumor-fraction-guided cfDNA triage study to assess MSI status; one CRPC patient with two failed tumor biopsies was found to be MSI-High by cf-IMPACT, confirmed by later bone biopsy, leading to pembrolizumab treatment and durable response [PMID:34059130](../papers/34059130.md)
+- Applied to cfDNA plasma samples in the tumor-fraction-guided cfDNA triage study to assess MSI status; one CRPC patient with two failed tumor biopsies was found to be MSI-High by cf-IMPACT, confirmed by later bone biopsy, leading to [pembrolizumab](../drugs/pembrolizumab.md) treatment and durable response [PMID:34059130](../papers/34059130.md)
 - Used to classify MSI status in 64 Nigerian CRC tumors; 28.1% (18/64) were MSI-H, significantly higher than TCGA (14.2%) and MSKCC (8.5%) reference cohorts (P<0.001) [PMID:34819518](../papers/34819518.md)
+- MSIsensor score ≥10 used to classify MSI-H; 14 MSI-H cases excluded from neoadjuvant response analyses in 237-patient EGC cohort [PMID:35377946](../papers/35377946.md).
 
 ## Notes
 
@@ -55,54 +56,57 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. benchmarked MSIsensor against MiMSI across multiple cohorts; MSIsensor sensitivity 0.67 vs. MiMSI 0.895 on held-out test set (317 samples), with particular underperformance in low-purity cases (<30% purity: MSIsensor 72.8% vs MiMSI 85.1%, McNemar's P=8.244×10⁻⁷); indeterminate rate 3.8% across 45,112 MSK-IMPACT samples [PMID:39746944](../papers/39746944.md).
 - [PMID:39753968](../papers/39753968.md) — MSIsensor (cutoff ≥10) used for MSI inference in the 2,336-patient MSK PDAC cohort sequenced with MSK-IMPACT; MSI was one of the OncoKB level 1 biomarkers tracked in the actionability landscape analysis [PMID:39753968](../papers/39753968.md).
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33795256](../papers/33795256.md)
 
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

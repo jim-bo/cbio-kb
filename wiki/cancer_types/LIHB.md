@@ -4,8 +4,8 @@ oncotree_code: LIHB
 main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Hepatoblastoma (LIHB)
@@ -20,8 +20,9 @@ Hepatoblastoma is the most common primary liver tumor in children, with peak inc
 
 ## Recurrent alterations
 
-- PIPseq cohort: [CCND1](../genes/CCND1.md) 11q13.2 amplification with overexpression identified in a hepatoblastoma patient as a good-prognosis indicator; APC R1114* germline mutation identified in a hepatoblastoma patient as diagnostic of familial adenomatous polyposis ([FAP](../genes/FAP.md)) [PMID:28007021](../papers/28007021.md).
-- Germline WES of 372 pediatric cancer patients (Düsseldorf) included a hepatoblastoma patient (LPP_04) carrying a monoallelic ATM pLoF LP/PV; ATM burden OR=3.2 (p=.040) in the single-cohort analysis [PMID:29489754](../papers/29489754.md)
+- PIPseq cohort: [CCND1](../genes/CCND1.md) 11q13.2 amplification with overexpression identified in a hepatoblastoma patient as a good-prognosis indicator; [APC](../genes/APC.md) R1114* germline mutation identified in a hepatoblastoma patient as diagnostic of familial adenomatous polyposis ([FAP](../genes/FAP.md)) [PMID:28007021](../papers/28007021.md).
+- Germline WES of 372 pediatric cancer patients (Düsseldorf) included a hepatoblastoma patient (LPP_04) carrying a monoallelic [ATM](../genes/ATM.md) pLoF LP/PV; ATM burden OR=3.2 (p=.040) in the single-cohort analysis [PMID:29489754](../papers/29489754.md)
+- Hepatoblastoma (LIHB) was enrolled in the MAPPYACTS pediatric precision-medicine trial (other solid tumors 23% of 787 patients); WES + RNA-seq identified actionable alterations in 69% of patients across tumor types [PMID:35292802](../papers/35292802.md)
 
 ## Subtypes
 
@@ -37,7 +38,10 @@ Hepatoblastoma is the most common primary liver tumor in children, with peak inc
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29489754](../papers/29489754.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

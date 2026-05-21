@@ -8,8 +8,8 @@ tags:
   - pediatric
   - SMARCB1
   - SWI-SNF
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Rhabdoid Cancer (MRT)
@@ -31,8 +31,9 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 - [KCNJ3](../genes/KCNJ3.md) — intronic mutations in 8/40 cases associated with increased expression [PMID:26977886](../papers/26977886.md)
 - [NF2](../genes/NF2.md), [LIF](../genes/LIF.md) — focally deleted in the only chromosome-22 deletions that spare [SMARCB1](../genes/SMARCB1.md) [PMID:26977886](../papers/26977886.md)
 - Quiet somatic genome: median 612.5 SNVs/case (0.231 mutations/Mb), 97.1% non-coding; median 5 non-synonymous substitutions/case [PMID:26977886](../papers/26977886.md)
-- PIPseq cohort included rhabdoid tumor cases; SMARCB1 homozygous deletion of chr22q11.23 with biallelic loss of expression identified as EZH2-inhibitor target [PMID:28007021](../papers/28007021.md)
-- All extracranial MRT PDX models in PPTC cohort (n=261) carried inactivating alterations of SMARCB1 and/or SMARCA4; hedgehog, TNFα, and p53 signaling enriched by GSEA [PMID:31693904](../papers/31693904.md).
+- PIPseq cohort included rhabdoid tumor cases; [SMARCB1](../genes/SMARCB1.md) homozygous deletion of chr22q11.23 with biallelic loss of expression identified as EZH2-inhibitor target [PMID:28007021](../papers/28007021.md)
+- All extracranial MRT PDX models in PPTC cohort (n=261) carried inactivating alterations of SMARCB1 and/or [SMARCA4](../genes/SMARCA4.md); hedgehog, TNFα, and p53 signaling enriched by GSEA [PMID:31693904](../papers/31693904.md).
+- Rhabdoid tumor (MRT) was included in MAPPYACTS; SMARCA4/SMARCB1 inactivating events (27 total across MRT/ATRT/CNS) were matched to [EZH2](../genes/EZH2.md) inhibitors (38 recommendations across the cohort) [PMID:35292802](../papers/35292802.md)
 
 ## Subtypes
 
@@ -40,7 +41,7 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 - **miRNA sub-group 2** (n=9/66): clusters with synovial sarcomas; higher miR-200 family expression [PMID:26977886](../papers/26977886.md)
 - **mRNA sub-group 1** (AT/RT-like): enriched for extra-renal cases; over-expresses [BMP4](../genes/BMP4.md), [DLK1](../genes/DLK1.md), [MEOX2](../genes/MEOX2.md) [PMID:26977886](../papers/26977886.md)
 - **mRNA sub-group 2** (RTK-like): over-expresses [WNT5A](../genes/WNT5A.md), [PCDH18](../genes/PCDH18.md), [TCF21](../genes/TCF21.md), [MEIS1](../genes/MEIS1.md) [PMID:26977886](../papers/26977886.md)
-- **Methylation sub-group A**: higher promoter CGI methylation; enriched for age >1 year at diagnosis; gains methylation at tumor-suppressor promoters ([RASSF1](../genes/RASSF1.md), IRX1, TWIST2, DLEC1, TBX5) [PMID:26977886](../papers/26977886.md)
+- **Methylation sub-group A**: higher promoter CGI methylation; enriched for age >1 year at diagnosis; gains methylation at tumor-suppressor promoters ([RASSF1](../genes/RASSF1.md), IRX1, [TWIST2](../genes/TWIST2.md), DLEC1, TBX5) [PMID:26977886](../papers/26977886.md)
 - **Methylation sub-group B**: clusters with hESC; enriched for age <1 year [PMID:26977886](../papers/26977886.md)
 
 ## Therapeutic landscape
@@ -52,10 +53,13 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 
 - [PMID:26977886](../papers/26977886.md) — Chun et al., integrative multi-omic reference of 40 extra-cranial MRTs (WGS + WGBS + RNA-Seq + miRNA-Seq + ChIP-Seq)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

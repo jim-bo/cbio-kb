@@ -7,7 +7,7 @@ tags:
   - transcription-factor
   - lymphoma
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # BACH2
@@ -19,6 +19,7 @@ BACH2 (BTB and CNC Homology 2, Basic Leucine Zipper Transcription Factor 2) enco
 ## Alterations observed in the corpus
 
 - Identified as one of 98 candidate cancer genes (CCGs) by MutSig2CV (q < 0.1) in a comprehensive whole-exome sequencing study of 304 primary DLBCLs ([dlbcl_dfci_2018](../datasets/dlbcl_dfci_2018.md)); 40 of the 98 CCGs were previously undescribed drivers in DLBCL [PMID:29713087](../papers/29713087.md)
+- BACH2 — highly expressed in non-NE SCLC-P (POU2F3-driven) subtype PDXs; acts as a transcriptional repressor contributing to the non-neuroendocrine gene signature in SCLC-P models ([SCLC](../cancer_types/SCLC.md) PDX/CDX multi-omic cohort, n=46 models from 33 MSK patients) [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -40,4 +41,7 @@ BACH2 (BTB and CNC Homology 2, Basic Leucine Zipper Transcription Factor 2) enco
 
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

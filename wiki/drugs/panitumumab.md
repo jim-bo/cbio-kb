@@ -5,8 +5,8 @@ drug_class: anti-EGFR monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [targeted_therapy, monoclonal_antibody, anti-egfr]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # panitumumab
@@ -17,9 +17,10 @@ Panitumumab is a fully human IgG2 monoclonal antibody that binds the extracellul
 
 ## Evidence in the corpus
 
-- Used in combination with [sotorasib](../drugs/sotorasib.md) (KRASG12C inhibitor) for KRASG12C-mutant colorectal cancer (n=4 patients); response rate approximately 27% for the sotorasib + panitumumab combination. Acquired resistance developed through heterogeneous, subclonal mechanisms primarily reactivating ERK signaling [PMID:36355783](../papers/36355783.md)
-- KRAS, NRAS, and BRAF driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, supporting use of either tissue source for panitumumab eligibility determination; metastasis-private EGFR amplification and MAP2K1 mutations in RAS/RAF-WT tumors represent exceptions warranting metastasis sequencing [PMID:25164765](../papers/25164765.md)
+- Used in combination with [sotorasib](../drugs/sotorasib.md) (KRASG12C inhibitor) for KRASG12C-mutant colorectal cancer (n=4 patients); response rate approximately 27% for the [sotorasib](../drugs/sotorasib.md) + panitumumab combination. Acquired resistance developed through heterogeneous, subclonal mechanisms primarily reactivating ERK signaling [PMID:36355783](../papers/36355783.md)
+- [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, supporting use of either tissue source for panitumumab eligibility determination; metastasis-private [EGFR](../genes/EGFR.md) amplification and [MAP2K1](../genes/MAP2K1.md) mutations in RAS/RAF-WT tumors represent exceptions warranting metastasis sequencing [PMID:25164765](../papers/25164765.md)
 - OncoKB Level 1 resistance biomarkers for panitumumab in [COADREAD](../cancer_types/COADREAD.md) include hotspot KRAS (44%) and NRAS mutations identified by MSK-IMPACT in this 1,134-CRC cohort; 37% of left-sided MSS mCRC had no mitogenic-pathway mutation and may benefit from EGFR/HER2-directed antibody therapy [PMID:29316426](../papers/29316426.md)
+- Panitumumab (anti-EGFR) is restricted to RAS wild-type CRC; the dual-driver CRC paper shows that 1.03% of CRC patients harbor dual RAS hotspot/BRAF V600E mutations, meaning pre-treatment subclonal RAS hotspot mutations may complicate anti-EGFR biomarker interpretation [PMID:35235413](../papers/35235413.md)
 
 ## Resistance mechanisms
 
@@ -33,10 +34,13 @@ Panitumumab is a fully human IgG2 monoclonal antibody that binds the extracellul
 
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

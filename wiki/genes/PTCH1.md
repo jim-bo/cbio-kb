@@ -3,8 +3,8 @@ symbol: PTCH1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [hedgehog-pathway, tumor-suppressor, immunotherapy-biomarker]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -28,11 +28,12 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - In [PAAD](../cancer_types/PAAD.md), PTCH1 alterations occur in 2% of cases as part of the Hedgehog-pathway alterations ([GLI3](../genes/GLI3.md) 8%, [SMO](../genes/SMO.md) 8%, [LRP2](../genes/LRP2.md) 6%, [GLI2](../genes/GLI2.md) 3%, PTCH1 2%) in the 109-case exome cohort. [PMID:25855536](../papers/25855536.md)
 - Homozygous driver in primary medulloblastoma MB-REC-12 (heterozygous mutation + chr9q LOH); the PTCH1-driven primary clone was eradicated at recurrence, replaced by an ancestral chr9q-wild-type sister clone [PMID:26760213](../papers/26760213.md)
 - PTCH1 mutated as a single-case hit replicating findings from a prior whole-exome sequencing study of ATC in a targeted-sequencing study of poorly differentiated and anaplastic thyroid cancers. [PMID:26878173](../papers/26878173.md)
-- PTCH1 mutations detected in 3 of 4 basal cell carcinoma (BCC) patients in a recurrent/metastatic head and neck NGS cohort; all 3 had responded to hedgehog-pathway inhibitors prior to NGS [PMID:27442865](../papers/27442865.md).
-- Overexpression in medulloblastoma (MBL) alongside SUFU and ZIC3; SMO-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- PTCH1 mutations detected in 3 of 4 basal cell carcinoma ([BCC](../cancer_types/BCC.md)) patients in a recurrent/metastatic head and neck NGS cohort; all 3 had responded to hedgehog-pathway inhibitors prior to NGS [PMID:27442865](../papers/27442865.md).
+- Overexpression in medulloblastoma ([MBL](../cancer_types/MBL.md)) alongside [SUFU](../genes/SUFU.md) and [ZIC3](../genes/ZIC3.md); SMO-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Inactivating alterations in 6% of ESCCs (no EACs), suggesting active hedgehog signalling in esophageal squamous cell carcinoma [PMID:28052061](../papers/28052061.md)
-- Germline PTCH1 variants predominantly restricted to SHH medulloblastoma subgroup [PMID:28726821](../papers/28726821.md)
-- PTCH1 alterations identified in 2 patients as OncoKB Level 3b actionable somatic alterations in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018) [PMID:30687805](../papers/30687805.md)
+- Germline PTCH1 variants predominantly restricted to [SHH](../genes/SHH.md) medulloblastoma subgroup [PMID:28726821](../papers/28726821.md)
+- PTCH1 alterations identified in 2 patients as OncoKB Level 3b actionable somatic alterations in metastatic panNET (80 patients, MSK-IMPACT [panet_msk_2018](../datasets/panet_msk_2018.md)) [PMID:30687805](../papers/30687805.md)
+- PTCH1 mutation/deletion (n=4) classified ready-for-routine-use in selected pediatric tumor types (SHH-pathway medulloblastoma); authors advocate moving PTCH1 alteration testing into front-line pediatric diagnostics given high evidence for SMO/hedgehog pathway targeting [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -54,46 +55,49 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26760213](../papers/26760213.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

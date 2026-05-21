@@ -3,8 +3,8 @@ symbol: KIT
 aliases: []
 cancer_types: [OGCT, GIST, ANGS, CSCC]
 tags: [germ-cell-tumor, gist, oncogene]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # KIT
@@ -34,25 +34,27 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT mutations and 4q12 focal amplifications enriched in Triple-WT cutaneous melanoma (TCGA 333-sample cohort); highest KIT protein abundance in Triple-WT by RPPA; rationale for [imatinib](../drugs/imatinib.md) and [dasatinib](../drugs/dasatinib.md); co-amplified with [PDGFRA](../genes/PDGFRA.md) and [KDR](../genes/KDR.md) at 4q12 [PMID:26091043](../papers/26091043.md)
 - Rare oncogenic kinase mutation (with [BRAF](../genes/BRAF.md) and [PIK3CA](../genes/PIK3CA.md)) found in [SCLC](../cancer_types/SCLC.md) (4 tumors total); considered a potential targeted-therapy candidate [PMID:26168399](../papers/26168399.md)
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype (with high [EGFR](../genes/EGFR.md) expression) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
-- KIT serves as a luminal epithelial cell marker by immunohistochemistry in adenoid cystic carcinoma (ACC); used to identify luminal vs. myoepithelial cell compartments in low-grade ACC (n=20 WGS tumors) [PMID:26829750](../papers/26829750.md)
+- KIT serves as a luminal epithelial cell marker by [immunohistochemistry](../methods/immunohistochemistry.md) in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); used to identify luminal vs. myoepithelial cell compartments in low-grade ACC (n=20 WGS tumors) [PMID:26829750](../papers/26829750.md)
 - Amplification at PDGFRA/KIT/KDR locus is among the candidate Ras/Raf/RTK pathway events that raise the fraction of lung ADCs with an actionable driver to 76%; enriched in oncogene-negative lung ADC [PMID:27158780](../papers/27158780.md)
-- KIT is a member of the chromatin-spliceosome AML subgroup context; the AML cohort of 1540 patients identified KIT among the 76 driver genes/regions with 5234 total driver mutations [PMID:27276561](../papers/27276561.md)
-- KIT co-amplified with PDGFRA and KDR in 4 ACYC patients treated with regorafenib, in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
-- KIT hotspot mutations in 19/180 patients (10.6%), mostly exon 17; enriched in seminoma (SEM) versus nonseminoma (29.6% vs 4%; P<.001); imatinib-resistance pattern distinct from GIST; targeted by imatinib/sunitinib as candidate therapy in cisplatin-resistant germ cell tumors [PMID:27646943](../papers/27646943.md)
-- KIT Asn655Lys activating mutation in a 7-year-old with AML yielded near-complete peripheral blood blast clearance with palliative imatinib sustained over 9 months; a second AML patient harbored KIT D816H (c.2446G>C) co-occurring with TET2 and FLT3 variants [PMID:28007021](../papers/28007021.md).
-- 1 patient with exon 9 E490Q mutation (previously described in thymic carcinoma) in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
+- KIT is a member of the chromatin-spliceosome [AML](../cancer_types/AML.md) subgroup context; the AML cohort of 1540 patients identified KIT among the 76 driver genes/regions with 5234 total driver mutations [PMID:27276561](../papers/27276561.md)
+- KIT co-amplified with [PDGFRA](../genes/PDGFRA.md) and [KDR](../genes/KDR.md) in 4 [ACYC](../cancer_types/ACYC.md) patients treated with [regorafenib](../drugs/regorafenib.md), in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
+- KIT hotspot mutations in 19/180 patients (10.6%), mostly exon 17; enriched in seminoma ([SEM](../cancer_types/SEM.md)) versus nonseminoma (29.6% vs 4%; P<.001); imatinib-resistance pattern distinct from [GIST](../cancer_types/GIST.md); targeted by imatinib/sunitinib as candidate therapy in cisplatin-resistant germ cell tumors [PMID:27646943](../papers/27646943.md)
+- KIT Asn655Lys activating mutation in a 7-year-old with AML yielded near-complete peripheral blood blast clearance with palliative [imatinib](../drugs/imatinib.md) sustained over 9 months; a second AML patient harbored KIT D816H (c.2446G>C) co-occurring with [TET2](../genes/TET2.md) and [FLT3](../genes/FLT3.md) variants [PMID:28007021](../papers/28007021.md).
+- 1 patient with exon 9 E490Q mutation (previously described in thymic carcinoma) in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - Single L576P mutation in 1 patient in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
 - KIT is cited as a cancer-driving target that motivates tissue-agnostic basket/umbrella trials (e.g., NCI-MATCH) across the 28-iCluster pan-cancer classification of 10,000 TCGA tumors from 33 cancer types [PMID:29625048](../papers/29625048.md)
 - KIT is a driver gene in the TCGA pan-cancer landscape; KIT alterations are part of the somatic driver interaction network with mutual-exclusivity and co-occurrence patterns identified across 33 tumor types [PMID:29625049](../papers/29625049.md)
-- KIT amplification in glioma co-occurs with EGFR amplification at the 4q12 locus (KIT/PDGFRA/KDR region), and is mutually exclusive with KRAS/BRAF mutation or NF1/RASA1 loss elsewhere in the RTK-RAS pathway across the TCGA pan-cancer oncogenic signaling analysis [PMID:29625050](../papers/29625050.md)
+- KIT amplification in glioma co-occurs with [EGFR](../genes/EGFR.md) amplification at the 4q12 locus (KIT/PDGFRA/KDR region), and is mutually exclusive with KRAS/BRAF mutation or NF1/RASA1 loss elsewhere in the RTK-RAS pathway across the TCGA pan-cancer oncogenic signaling analysis [PMID:29625050](../papers/29625050.md)
 - Single OncoKB-level-annotated actionable alteration (n=1 patient) contributing to the 67% actionable tally in metastatic endometrial cancer (189 patients, MSK cohort) [PMID:30068706](../papers/30068706.md)
-- KIT amplification was acquired in patient #28 (IDH-WT GBM) tumour sample #3 alongside PDGFRA amplification but was lost in the later CSF sample, illustrating branched evolution in receptor tyrosine kinase signalling during glioma progression (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
-- KIT alterations co-occur with high phospho-SHP2 (Y542) in AML cell lines sensitive to ponatinib; in 7/9 ponatinib-sensitive AML lines, alterations in FLT3, PDGFRA, FGFR1, or KIT were detected [PMID:31068700](../papers/31068700.md).
+- KIT amplification was acquired in patient #28 (IDH-WT [GBM](../cancer_types/GBM.md)) tumour sample #3 alongside PDGFRA amplification but was lost in the later CSF sample, illustrating branched evolution in receptor tyrosine kinase signalling during glioma progression (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
+- KIT alterations co-occur with high phospho-SHP2 (Y542) in AML cell lines sensitive to [ponatinib](../drugs/ponatinib.md); in 7/9 ponatinib-sensitive AML lines, alterations in FLT3, PDGFRA, [FGFR1](../genes/FGFR1.md), or KIT were detected [PMID:31068700](../papers/31068700.md).
 - Altered in 4% of melanomas in a 28-gene MSK-IMPACT cohort (n=655); KIT-driven patients were older (median 72 years) with median TMB 37 mut/Mb; not targeted on study but historically responds to imatinib [PMID:33509808](../papers/33509808.md)
+- In the MAPPYACTS pediatric precision oncology cohort, KIT was listed among recurrently altered genes in the CNS oncomap subset at the investigational actionability tier [PMID:35292802](../papers/35292802.md).
+- KIT is referenced in the [SCLC](../cancer_types/SCLC.md) PDX/CDX resource paper in the context of NSCLC-associated alterations observed in a subset of PDX models [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 
-- [OGCT](../cancer_types/OGCT.md) — oncogenic KIT mutations in a subset of female GCT cases in the Make-an-IMPACT rare-cancer cohort [PMID:36862133](../papers/36862133.md).
+- [OGCT](../cancer_types/OGCT.md) — oncogenic KIT mutations in a subset of female [GCT](../cancer_types/GCT.md) cases in the Make-an-IMPACT rare-cancer cohort [PMID:36862133](../papers/36862133.md).
 - [ANGS](../cancer_types/ANGS.md) — KIT amplification exclusive to sporadic AS, absent in RT-AS [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -74,94 +76,100 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:37350195](../papers/37350195.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30675060](../papers/30675060.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: MYCN
 aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MYCN
@@ -28,15 +28,16 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern observed in TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform analysis (n=543) [PMID:24120142](../papers/24120142.md)
 - Amplified in a previously characterized pancreatic NEN; mentioned as a Cluster B driver alongside [MYC](../genes/MYC.md) in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:40328872](../papers/40328872.md)
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); member of the [MYC](../genes/MYC.md) family amplified in [SCLC](../cancer_types/SCLC.md) alongside [MYC](../genes/MYC.md) and [MYCL](../genes/MYCL.md) [PMID:26168399](../papers/26168399.md)
-- Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with [TERT](../genes/TERT.md) rearrangements and [ATRX](../genes/ATRX.md) mutations; MYCN amplification transcriptionally activates [TERT](../genes/TERT.md) ([TERT](../genes/TERT.md) is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with TERT rearrangement as a route to telomerase activation [PMID:26466568](../papers/26466568.md)
-- Over-expressed in CRPC-NE (P < 10⁻⁴); included in NEPC classifier; divergent allelic states across metastatic sites in patient WCMC7520; down-regulated by EZH2 inhibitor GSK343 in NCI-H660 [PMID:26855148](../papers/26855148.md)
-- Amplification in 5 patients (all cisplatin resistant); transcriptionally targets both TP53 and MDM2; predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type GCT [PMID:27646943](../papers/27646943.md)
-- MYCN amplification with 1p/11q LOH, 17q gain, and MYCN overexpression used in neuroblastoma (NBL) for risk-based therapy stratification across four patients in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with [TERT](../genes/TERT.md) rearrangements and [ATRX](../genes/ATRX.md) mutations; MYCN amplification transcriptionally activates [TERT](../genes/TERT.md) ([TERT](../genes/TERT.md) is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with [TERT](../genes/TERT.md) rearrangement as a route to telomerase activation [PMID:26466568](../papers/26466568.md)
+- Over-expressed in CRPC-NE (P < 10⁻⁴); included in NEPC classifier; divergent allelic states across metastatic sites in patient WCMC7520; down-regulated by [EZH2](../genes/EZH2.md) inhibitor GSK343 in NCI-H660 [PMID:26855148](../papers/26855148.md)
+- Amplification in 5 patients (all [cisplatin](../drugs/cisplatin.md) resistant); transcriptionally targets both [TP53](../genes/TP53.md) and [MDM2](../genes/MDM2.md); predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type [GCT](../cancer_types/GCT.md) [PMID:27646943](../papers/27646943.md)
+- MYCN amplification with 1p/11q LOH, 17q gain, and MYCN overexpression used in neuroblastoma ([NBL](../cancer_types/NBL.md)) for risk-based therapy stratification across four patients in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Amplification found in Group 3 (5%) and Group 4 (6%) medulloblastoma at comparable frequencies in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
-- Focal MYCN amplification in 66% of neuroblastoma PDX models in the PPTC cohort (261 models, 37 pediatric cancer types); also amplified in MYCN-subtype HGG (IC-2664PNET) and in Fusion+ ARMS models [PMID:31693904](../papers/31693904.md).
-- Amplification in 2 of 84 GBM PDX; GBM110 PDX acquired N-MYC (MYCN) amplification from a subclonal population (0–27% by FISH in patient), demonstrating engraftment-driven clonal selection of MYCN-amplified cells [PMID:31852831](../papers/31852831.md)
-- Approximately 1% of retinoblastomas are driven by MYCN amplification without RB1 loss-of-function; the RB1-only cfDNA assay does not cover this subset; incorporation of copy-number analysis flagged as future extension [PMID:32633890](../papers/32633890.md)
+- Focal MYCN amplification in 66% of neuroblastoma PDX models in the PPTC cohort (261 models, 37 pediatric cancer types); also amplified in MYCN-subtype HGG (IC-2664PNET) and in Fusion+ [ARMS](../cancer_types/ARMS.md) models [PMID:31693904](../papers/31693904.md).
+- Amplification in 2 of 84 [GBM](../cancer_types/GBM.md) PDX; GBM110 PDX acquired N-MYC (MYCN) amplification from a subclonal population (0–27% by FISH in patient), demonstrating engraftment-driven clonal selection of MYCN-amplified cells [PMID:31852831](../papers/31852831.md)
+- Approximately 1% of retinoblastomas are driven by MYCN amplification without [RB1](../genes/RB1.md) loss-of-function; the RB1-only cfDNA assay does not cover this subset; incorporation of copy-number analysis flagged as future extension [PMID:32633890](../papers/32633890.md)
 - Amplified in 3/83 retinoblastoma specimens in [rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md), all co-occurring with RB1 mutation; also recurrently mutated (somatic) at ~3.6%; no MYCN-only (RB1-wildtype + MYCN-amplified) tumors observed in this enucleation cohort, contrasting with ~2% frequency reported elsewhere [PMID:33466343](../papers/33466343.md)
+- MYCN/MYC amplifications/fusions/activating mutations (n=43) recurrent in neuroblastoma (with 11q deletion and [ALK](../genes/ALK.md) co-occurrence) and medulloblastoma; matched to BET inhibitors in the MAPPYACTS pediatric precision-oncology cohort [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -58,7 +59,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 
 ## Open questions
 
-- Whether MYCN amplification should upgrade IDH-mutant LGG molecular grade is unresolved [PMID:37910594](../papers/37910594.md).
+- Whether MYCN amplification should upgrade IDH-mutant [LGG](../cancer_types/LGG.md) molecular grade is unresolved [PMID:37910594](../papers/37910594.md).
 - The putative lineage link between the postnatal hC1 progenitor and the MYCN-high nC3 cluster is based on transcriptional similarity and RNA velocity, not lineage tracing [PMID:34493726](../papers/34493726.md).
 
 ## Sources
@@ -68,55 +69,58 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22367537](../papers/22367537.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466568](../papers/26466568.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32633890](../papers/32633890.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

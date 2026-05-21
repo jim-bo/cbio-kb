@@ -3,8 +3,8 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -40,16 +40,17 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - Somatic POLE mutation explains one of two hypermutator medulloblastomas (ICGC_MB62) in a 491-sample pan-MB WGS/WES cohort; the MLH1-mutant case illustrates an alternate MMR-deficiency hypermutator mechanism [PMID:28726821](../papers/28726821.md)
 - POLE P286R mutation in a single ultra-mutated MIBC tumor (>4000 SNVs), defining the POLE mutational-signature subset [PMID:28988769](../papers/28988769.md)
 - Exonuclease-domain hotspots P286R, S459F, V411L defined the ultra-mutated subgroup (n=8, 0.7%) in 1,640 mCRC tumors; ultra-mutated cases were typically early-stage and male [PMID:29316426](../papers/29316426.md)
-- POLE listed among antigen-presentation and immunology genes profiled in NSCLC patients evaluated for TMB and anti-PD-(L)1 benefit (n=240) [PMID:29337640](../papers/29337640.md)
+- POLE listed among antigen-presentation and immunology genes profiled in [NSCLC](../cancer_types/NSCLC.md) patients evaluated for TMB and anti-PD-(L)1 benefit (n=240) [PMID:29337640](../papers/29337640.md)
 - POLE-mutant tumors (together with MSI) drive the apparent pan-cancer anti-correlation between mutation rate and aneuploidy; excluding POLE-mutant hypermutators from 10,522 TCGA samples flips the correlation positive (Spearman rho = 0.38) [PMID:29622463](../papers/29622463.md).
-- POLE-mutation signature found in hypermutated subsets of iCluster C8 (UCEC) and C4 (pan-GI, CRC) in the 28-iCluster TCGA pan-cancer classification [PMID:29625048](../papers/29625048.md)
+- POLE-mutation signature found in hypermutated subsets of iCluster C8 ([UCEC](../cancer_types/UCEC.md)) and C4 (pan-GI, CRC) in the 28-iCluster TCGA pan-cancer classification [PMID:29625048](../papers/29625048.md)
 - POLE-mutant tumors define a hypermutated UCEC subtype in the pan-cancer multi-platform integration; POLE-associated hypermutation drives one of the highest neoantigen loads pan-cancer [PMID:29625049](../papers/29625049.md)
 - POLE-mutant tumor subtypes (alongside MSI-H) carry the highest mutation burden and the highest overall pathway alteration frequency pan-cancer, dominated by inactivating mutations [PMID:29625050](../papers/29625050.md)
 - POLE mutations enriched in the MSI-H/hypermutated subgroup of a 106-tumor colon cancer proteogenomic cohort (CPTAC 2019); MSI-H tumors showed increased A>G/T>C transitions and decreased G>C/C>G transversions, with POLE and mismatch-repair pathway mutations as defining features of the hypermutated group [PMID:31031003](../papers/31031003.md)
-- POLE co-occurring with [MSH2](../genes/MSH2.md), [MSH5](../genes/MSH5.md), and [PMS1](../genes/PMS1.md) mutations in GBM PDX model IC-1621GBM consistent with Lynch/constitutional MMR-deficiency; ultrahypermutated at 124 Mut/Mb [PMID:31693904](../papers/31693904.md).
+- POLE co-occurring with [MSH2](../genes/MSH2.md), [MSH5](../genes/MSH5.md), and [PMS1](../genes/PMS1.md) mutations in [GBM](../cancer_types/GBM.md) PDX model IC-1621GBM consistent with Lynch/constitutional MMR-deficiency; ultrahypermutated at 124 Mut/Mb [PMID:31693904](../papers/31693904.md).
 - Recurrent catalytic-domain hotspot P286R found in 5/7 POLE-subtype tumors; defines the ultramutated endometrial cancer subtype (~61% of all somatic mutations in those tumors) [PMID:32059776](../papers/32059776.md)
 - Defines a small ultramutated subgroup in MSS EO-CRC (≤35: 2.6%; 36-49: 0.7%; AO: 0.7%; no statistically significant age-cohort difference) [PMID:34405229](../papers/34405229.md)
 - No significant prevalence difference by race/ancestry in prostate cancer patients (Black, Asian, White) profiled on MSK-IMPACT; POLE is a DNA-repair gene that did not differ significantly across racial groups in this cohort of 1,123 men. [PMID:34667026](../papers/34667026.md)
+- POLE exonuclease domain hotspot mutations explicitly absent in CRC with dual MAPK drivers (CRC-DD; n=47/4,561 MSK-IMPACT cases), ruling out polymerase-driven hypermutation as the mechanism underlying co-occurring RAS and [BRAF](../genes/BRAF.md) drivers [PMID:35235413](../papers/35235413.md)
 
 ## Cancer types (linked)
 
@@ -110,4 +111,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:34405229](../papers/34405229.md)
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

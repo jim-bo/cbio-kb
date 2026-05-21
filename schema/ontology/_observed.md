@@ -1,5 +1,8 @@
 # Observed (corpus-grown) terms
 
+- cancer_type: EAC — observed in PMID:35377946 — note: corpus abbreviation for esophageal adenocarcinoma; canonical OncoTree code is ESCA; used in paper as shorthand
+- cancer_type: LCNEC — observed in PMID:35304457 — note: large cell neuroendocrine carcinoma of the lung; canonical OncoTree code is LUNE; used in selpercatinib/LIBRETTO-001 paper
+
 - drug: selinexor — observed in PMID:24686850 — note: XPO1 inhibitor (SINE/KPT-330); preclinical activity in ESCC cell lines
 - drug: refametinib — observed in PMID:24735922 — note: MEK inhibitor; RAS-mutation-enriched HCC trial NCT01915602
 - drug: tivantinib — observed in PMID:24735922 — note: MET inhibitor; c-MET-high HCC biomarker-selected trials
@@ -603,3 +606,11 @@
 - method: ups-indel — observed in PMID:34493867 — note: somatic indel caller optimised for WGS; part of multi-caller pipeline in Sherlock-Lung; ERBB2 mutations were all indels (3.9% of tumours)
 - method: tnscope — observed in PMID:34493867 — note: Sentieon haplotype-based tumour-normal somatic caller; part of multi-caller pipeline (TNscope + MuTect + Strelka) in Sherlock-Lung WGS study
 - drug: tucatinib — observed in PMID:34795269 — note: HER2-selective TKI (Tukysa; brand name); FDA-approved 2020; not found in cbio-kb ontology lookup but is an established approved agent targeting ERBB2
+- method: cap-trg-grading — observed in PMID:35377946 — note: College of American Pathologists (CAP) tumor regression grading system for pathologic response assessment after neoadjuvant therapy in esophageal/GEJ adenocarcinoma; grade 0 = complete response, grade 1 = ≥90% treatment effect
+- method: cfdna-wes — observed in PMID:35292802 — note: cell-free DNA whole-exome sequencing (cfDNA-WES); plasma WES at 100× depth for liquid-biopsy detection of somatic alterations; used in MAPPYACTS pediatric precision oncology trial
+- method: mappyacts-cmtb — observed in PMID:35292802 — note: MAPPYACTS clinical molecular tumor board (CMTB); weekly multidisciplinary board applying ESCAT-adapted pediatric actionability scale to molecular profiling results in the MAPPYACTS trial (NCT02613962)
+- drug: adavosertib — observed in PMID:35292802 — note: WEE1 kinase inhibitor (AZD1775); most-recommended drug class (n=150) in MAPPYACTS for TP53-deficient pediatric/young-adult recurrent malignancies; not found in cbio-kb ontology
+- drug: idasanutlin — observed in PMID:35377946 — note: MDM2 antagonist (RG7388, Nutlin derivative); proposed for MDM2-amplified (~9%) esophageal/GEJ adenocarcinoma; preclinical and AML data cited; not found in cbio-kb ontology
+- drug: sonidegib — observed in PMID:35292802 — note: SMO antagonist (LDE225); hedgehog pathway inhibitor used in MAPPYACTS for PTCH1-altered SHH-medulloblastoma; FDA-approved for basal cell carcinoma; not found in cbio-kb ontology
+- drug: vistusertib — observed in PMID:35292802 — note: dual mTORC1/2 inhibitor (AZD2014); used in AcSé-ESMART arms E/F in MAPPYACTS for PIK3CA/PTEN-altered pediatric malignancies; not found in cbio-kb ontology
+- drug: vismodegib — observed in PMID:35292802 — note: first-generation SMO antagonist (GDC-0449); FDA-approved for basal cell carcinoma; used in MAPPYACTS for PTCH1-altered SHH-medulloblastoma; not found in cbio-kb ontology

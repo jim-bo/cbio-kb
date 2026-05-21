@@ -3,8 +3,8 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC, DLBCLNOS, BLCA]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # KMT2D
@@ -46,39 +46,40 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Subclonal chromatin remodeling mutation in breast adenoid cystic carcinoma (AdCC); may contribute to intra-tumor heterogeneity and therapeutic escape [PMID:26095796](../papers/26095796.md)
 - Truncating chromatin-modifier mutations in KMT2D enriched in the 26% 'unclassified' prostate cancer subset with high SCNA burden in the TCGA prostate cohort [PMID:26544944](../papers/26544944.md)
 - Truncating mutation p.Gln2418* in mycosis fungoides (CTCL); KMT2D chromatin-modifier mutations identified alongside [KMT2C](../genes/KMT2C.md) in the CTCL/Sézary syndrome exome cohort [PMID:26551667](../papers/26551667.md)
-- 3 mutations in 2 tumors (MLL2) in adenoid cystic carcinoma (ACC; n=25 WGS); significant enrichment of truncating mutations (p=0.008); part of a chromatin-regulator cluster with KMT2C, KDM6A, SMARCA2, and SMARCC1 [PMID:26862087](../papers/26862087.md)
-- KMT2D, together with KMT2A, KMT2C, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02) in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
+- 3 mutations in 2 tumors (MLL2) in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md); n=25 WGS); significant enrichment of truncating mutations (p=0.008); part of a chromatin-regulator cluster with [KMT2C](../genes/KMT2C.md), [KDM6A](../genes/KDM6A.md), [SMARCA2](../genes/SMARCA2.md), and [SMARCC1](../genes/SMARCC1.md) [PMID:26862087](../papers/26862087.md)
+- KMT2D, together with [KMT2A](../genes/KMT2A.md), KMT2C, and [SETD2](../genes/SETD2.md), are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02) in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
 - Recurrently mutated in unclassified renal cell carcinoma (uRCC, n=62 MSKCC cohort); among the most frequent chromatin-modulator alterations alongside KMT2C and KMT2A (combined KMT2 family 16%); clusters in the chromatin/DNA-damage regulator subgroup with intermediate clinical outcome. [PMID:27713405](../papers/27713405.md)
-- Among canonical urothelial carcinoma (UC) drivers (alongside PIK3CA and ATM) shown to be heterogeneously shared between matched pre/post-chemotherapy samples in a 32-patient cohort — mean ~28% mutation sharing — highlighting tumor evolutionary instability under platinum-based chemotherapy. [PMID:27749842](../papers/27749842.md)
-- Among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations in 56.3% of cases overall, with KMT2D, SETD2, ARID2 and NCOR1 as top hits) in a 1,913-patient B-ALL cohort. [PMID:27776115](../papers/27776115.md)
+- Among canonical urothelial carcinoma (UC) drivers (alongside [PIK3CA](../genes/PIK3CA.md) and [ATM](../genes/ATM.md)) shown to be heterogeneously shared between matched pre/post-chemotherapy samples in a 32-patient cohort — mean ~28% mutation sharing — highlighting tumor evolutionary instability under platinum-based chemotherapy. [PMID:27749842](../papers/27749842.md)
+- Among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations in 56.3% of cases overall, with KMT2D, SETD2, [ARID2](../genes/ARID2.md) and [NCOR1](../genes/NCOR1.md) as top hits) in a 1,913-patient B-ALL cohort. [PMID:27776115](../papers/27776115.md)
 - KMT2D (MLL2) homozygous frameshift M3881Cfs*9 established Kabuki syndrome in a 2-month-old hospitalized for fulminant hemophagocytic syndrome; familial HLH was ruled out and stem-cell transplant was averted [PMID:28007021](../papers/28007021.md).
-- KMT2D (MLL2) histone-modifier alterations frequent in ESCC, especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with KMT2C and KDM6A [PMID:28052061](../papers/28052061.md).
-- Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
+- KMT2D (MLL2) histone-modifier alterations frequent in [ESCC](../cancer_types/ESCC.md), especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with KMT2C and KDM6A [PMID:28052061](../papers/28052061.md).
+- Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - Recurrent histone-methylation-modifier mutations across medulloblastoma subgroups [PMID:28726821](../papers/28726821.md)
 - Identified as an epigenetic regulator with truncal/subclonal events in matched-tumor phylogenetic analysis of prostate cancer [PMID:28825054](../papers/28825054.md)
-- Recurrent driver in DLBCL (1001-patient cohort); mutually exclusive with MYC mutations; previously known as MLL2. [PMID:28985567](../papers/28985567.md)
-- Histone methyltransferase chromatin-modifier SMG in MIBC (n=412, TCGA BLCA 2017); predominantly inactivating mutations. [PMID:28988769](../papers/28988769.md)
-- Epigenetic-regulator SMG significantly enriched in metastatic vs primary PRAD tumors in the 1,013-sample WES meta-cohort (prad_p1000); part of the metastasis-enrichment genomic signature alongside TP53, AR, PTEN, RB1, FOXA1, APC, BRCA2, and KMT2C. [PMID:29610475](../papers/29610475.md)
+- Recurrent driver in DLBCL (1001-patient cohort); mutually exclusive with [MYC](../genes/MYC.md) mutations; previously known as MLL2. [PMID:28985567](../papers/28985567.md)
+- Histone methyltransferase chromatin-modifier SMG in MIBC (n=412, TCGA [BLCA](../cancer_types/BLCA.md) 2017); predominantly inactivating mutations. [PMID:28988769](../papers/28988769.md)
+- Epigenetic-regulator SMG significantly enriched in metastatic vs primary [PRAD](../cancer_types/PRAD.md) tumors in the 1,013-sample WES meta-cohort ([prad_p1000](../datasets/prad_p1000.md)); part of the metastasis-enrichment genomic signature alongside [TP53](../genes/TP53.md), [AR](../genes/AR.md), [PTEN](../genes/PTEN.md), [RB1](../genes/RB1.md), [FOXA1](../genes/FOXA1.md), [APC](../genes/APC.md), [BRCA2](../genes/BRCA2.md), and KMT2C. [PMID:29610475](../papers/29610475.md)
 - KMT2D is among the top somatic driver genes in the TCGA pan-cancer landscape; it participates in a UCEC-enriched co-alteration network and chromatin-remodeling gene programs across multiple tumor types [PMID:29625049](../papers/29625049.md)
-- KMT2D is among the epigenetic regulators (ARID1A, KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines; an S831 KMT2D variant was gained by SCBO-5 organoids during culture, documenting clonal evolution in vitro [PMID:29625057](../papers/29625057.md)
-- KMT2D chromatin-modifier mutations enriched in DLBCL C3 GCB subtype in 304-patient WES cohort; co-occurring with CREBBP, EP300, and EZH2; concordant upregulation of EZH2 targets by GSEA. [PMID:29713087](../papers/29713087.md)
+- KMT2D is among the epigenetic regulators ([ARID1A](../genes/ARID1A.md), KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines; an S831 KMT2D variant was gained by SCBO-5 organoids during culture, documenting clonal evolution in vitro [PMID:29625057](../papers/29625057.md)
+- KMT2D chromatin-modifier mutations enriched in DLBCL C3 GCB subtype in 304-patient WES cohort; co-occurring with [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), and [EZH2](../genes/EZH2.md); concordant upregulation of EZH2 targets by GSEA. [PMID:29713087](../papers/29713087.md)
 - Single somatic mutation (reported as MLL2; HUGO symbol KMT2D) observed in 1/9 IMPACT341-sequenced hepatocellular adenomas (inflammatory I-HCA subtype) [PMID:30052636](../papers/30052636.md)
 - KMT2D alterations enriched in primary vs. secondary muscle-invasive bladder cancer (MIBC) in a two-institution cohort (23% vs 10%, univariable p=0.013) but did not survive FDR correction; tested on MSK-IMPACT 300-gene panel [PMID:30290956](../papers/30290956.md)
 - KMT2D mutated in 10% of gallbladder carcinoma (GBCA) tumors across a three-region (Japan, Chile, USA) cohort sequenced with MSK-IMPACT; co-occurrence trend with BRCA2 and AR [PMID:30427539](../papers/30427539.md)
 - Detected as a somatic alteration among the histone methyltransferase gene set in metastatic panNET; part of the 66% of patients harboring histone methyltransferase alterations [PMID:30687805](../papers/30687805.md)
-- Mutated as part of the histone modification/DNA methylation pathway (jointly with IDH1, BAP1, EZH2 in 35.6% of cHCC-ICC cases); linked to combined hepatocellular and intrahepatic cholangiocarcinoma molecular subtypes. [PMID:31130341](../papers/31130341.md)
-- Recurrently mutated in upper tract urothelial carcinoma (UTUC) at frequencies comparable to TCGA UCB. [PMID:31278255](../papers/31278255.md)
+- Mutated as part of the histone modification/DNA methylation pathway (jointly with [IDH1](../genes/IDH1.md), [BAP1](../genes/BAP1.md), EZH2 in 35.6% of cHCC-ICC cases); linked to combined hepatocellular and intrahepatic cholangiocarcinoma molecular subtypes. [PMID:31130341](../papers/31130341.md)
+- Recurrently mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) at frequencies comparable to TCGA UCB. [PMID:31278255](../papers/31278255.md)
 - Altered in 12.8% of R/M adenoid cystic carcinoma vs. 4.5% of primaries in a multi-institutional cohort; enriched in relapsed/metastatic disease alongside other chromatin-remodeling genes [PMID:31483290](../papers/31483290.md).
 - KMT2D is an H3K4 methyltransferase downregulated in MSI cancer cell lines (CCLE); H3K4me1 and H3K4me2 marks are correspondingly reduced [PMID:31978347](../papers/31978347.md)
 - KMT2D is among genes downstream of TP53/CTNNB1/ARID1A mutations in trans in endometrial cancer proteogenomics [PMID:32059776](../papers/32059776.md)
 - KMT2D mutation observed as an IDC-NST-private alteration restricted to the invasive component of synchronous breast tumors, consistent with KMT2D loss being an invasive-stage-acquired event rather than a pre-invasive driver in this cohort [PMID:32220886](../papers/32220886.md)
-- KMT2D mutated in 26% of 119 UTUC patients by MSK-IMPACT; co-occurs with KDM6A, ARID1A, CREBBP, and STAG2 chromatin-remodeling alterations in the UTUC genomic landscape [PMID:32332851](../papers/32332851.md)
+- KMT2D mutated in 26% of 119 UTUC patients by MSK-IMPACT; co-occurs with KDM6A, ARID1A, CREBBP, and [STAG2](../genes/STAG2.md) chromatin-remodeling alterations in the UTUC genomic landscape [PMID:32332851](../papers/32332851.md)
 - Mutated in 9% of refractory metastatic triple-negative breast cancer (TNBC) patients in the FUSCC cohort (n=69); profiled by 484-gene targeted NGS panel. [PMID:32719455](../papers/32719455.md)
 - KMT2D — classified as a CH-myeloid putative driver gene; truncating variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - Recurrently mutated (P=0.037) in UTUC; associated with higher mutational load (P=0.04); enriched in iCluster-low (FGFR3-rich) subtype (P=0.028); iClusterBayes posterior probability 0.63. [PMID:33397444](../papers/33397444.md)
 - Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
-- Nominated as a candidate CSCC driver in prior studies but not supported by this meta-analysis (88 QC-passed tumors); authors flag it as a gene that may yet prove to be under selection but present data did not support nomination [PMID:34272401](../papers/34272401.md)
+- Nominated as a candidate [CSCC](../cancer_types/CSCC.md) driver in prior studies but not supported by this meta-analysis (88 QC-passed tumors); authors flag it as a gene that may yet prove to be under selection but present data did not support nomination [PMID:34272401](../papers/34272401.md)
 - Significantly mutated gene (SMG) altered in ≥5% of treatment-naive PDACs in the CPTAC proteogenomic cohort (n=140). [PMID:34534465](../papers/34534465.md)
+- KMT2D alterations were identified in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX multi-omic profiling study as part of the broader genomic landscape characterization of SCLC xenograft models [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 
@@ -110,181 +111,184 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26551667](../papers/26551667.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27776115](../papers/27776115.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30052636](../papers/30052636.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32719455](../papers/32719455.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

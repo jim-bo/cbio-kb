@@ -3,8 +3,8 @@ symbol: ROS1
 aliases: []
 cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # ROS1
@@ -20,21 +20,23 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1::PARK2 fusion (likely GOF) in 1 [GBC](../cancer_types/GBC.md) patient [PMID:36228155](../papers/36228155.md)
 - ROS1 fusion in 7% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
 - Frameshift mutation (suspected germline) identified as a single-case alteration in sinonasal adenoid cystic carcinoma (AdCC) whole-exome/RNA-seq profiling [PMID:24418857](../papers/24418857.md)
-- Fusions in 4/230 (1.7%) LUAD cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴); enriched in the TRU transcriptional subtype. [PMID:25079552](../papers/25079552.md)
-- ROS1 fusions are an established therapeutic target in lung ADC; mentioned in the 1,144-tumor NSCLC landscape study in the context of RTK-directed therapies (ALK and ROS1 inhibitors) applying almost exclusively to lung ADC rather than lung SqCC, given the histology-restricted molecular landscape. [PMID:27158780](../papers/27158780.md)
-- ROS1 structural variants identified as interesting alterations in salivary duct carcinoma (SDCA) from a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
+- Fusions in 4/230 (1.7%) [LUAD](../cancer_types/LUAD.md) cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴); enriched in the TRU transcriptional subtype. [PMID:25079552](../papers/25079552.md)
+- ROS1 fusions are an established therapeutic target in lung ADC; mentioned in the 1,144-tumor [NSCLC](../cancer_types/NSCLC.md) landscape study in the context of RTK-directed therapies ([ALK](../genes/ALK.md) and ROS1 inhibitors) applying almost exclusively to lung ADC rather than lung SqCC, given the histology-restricted molecular landscape. [PMID:27158780](../papers/27158780.md)
+- ROS1 structural variants identified as interesting alterations in salivary duct carcinoma ([SDCA](../cancer_types/SDCA.md)) from a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
 - ROS1 fusions present in ~6–7% of young lung cancer patients (YLC) versus <2% in older NSCLC patients, making them significantly enriched in YLC [PMID:27346245](../papers/27346245.md).
-- Fusions identified in LUAD; level 1 actionability with high matched-therapy uptake and clinical benefit; 2 ROS1-fusion patients died before crizotinib FDA approval (March 2016) for this indication [PMID:28336552](../papers/28336552.md)
+- Fusions identified in LUAD; level 1 actionability with high matched-therapy uptake and clinical benefit; 2 ROS1-fusion patients died before [crizotinib](../drugs/crizotinib.md) FDA approval (March 2016) for this indication [PMID:28336552](../papers/28336552.md)
 - Kinase fusions enriched in LUAD but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases; part of the targetable-alteration pool recovered by broad-panel sequencing vs amplicon panels [PMID:28481359](../papers/28481359.md)
 - Reported at 3% frequency in NSCLC with too few events for dedicated response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) [PMID:29337640](../papers/29337640.md)
-- Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib monotherapy in HER2-mutant solid tumors [PMID:29420467](../papers/29420467.md)
+- Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than [neratinib](../drugs/neratinib.md) monotherapy in HER2-mutant solid tumors [PMID:29420467](../papers/29420467.md)
 - ROS1 fusion is a disease-defining driver in a small subset of LUAD (referenced from the Fusion AWG within the PanCanAtlas pan-cancer multi-omics analysis) [PMID:29625049](../papers/29625049.md)
 - Rare actionable alteration observed in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients; level 2B finding supporting targeted therapy eligibility [PMID:29848569](../papers/29848569.md)
 - Recurrent in-frame fusion gene in non-small-cell lung adenocarcinoma (9 tumors across the cohort) [PMID:32015526](../papers/32015526.md)
-- In-frame kinase fusions recurrent in [LUAD](../cancer_types/LUAD.md) proteogenomic cohort (CPTAC, n=110); ROS1 rearrangements among most frequent oncogenic kinase fusions alongside ALK, RET, and PTK2 [PMID:32649874](../papers/32649874.md)
-- Rare oncogenic fusion in melanoma; targeted with [crizotinib](../drugs/crizotinib.md) yielding complete response in a BRAF V600-wild-type patient progressing on PD-1 therapy [PMID:33509808](../papers/33509808.md)
+- In-frame kinase fusions recurrent in [LUAD](../cancer_types/LUAD.md) proteogenomic cohort (CPTAC, n=110); ROS1 rearrangements among most frequent oncogenic kinase fusions alongside ALK, [RET](../genes/RET.md), and [PTK2](../genes/PTK2.md) [PMID:32649874](../papers/32649874.md)
+- Rare oncogenic fusion in melanoma; targeted with [crizotinib](../drugs/crizotinib.md) yielding complete response in a [BRAF](../genes/BRAF.md) V600-wild-type patient progressing on PD-1 therapy [PMID:33509808](../papers/33509808.md)
 - Multiple-partner ROS1 rearrangements detected in NSCLC via MSK-ACCESS; a previously reported somatic ROS1 variant was reassigned to germline via matched WBC sequencing [PMID:34145282](../papers/34145282.md)
 - Fusion-driver alteration in 2.6% of LCINS LUAD; enriched in never-smoker lung adenocarcinoma subtype analysis [PMID:34493867](../papers/34493867.md)
+- ROS1-GOPC fusions (n=2) classified as ready-for-routine-use actionability tier in the AcSé-MAPPYACTS pediatric cohort, observed in non-RMS soft-tissue sarcoma and low-grade glioma [PMID:35292802](../papers/35292802.md).
+- ROS1 referenced as an analogous oncogene-addicted system where compound on-target mutations and bypass signaling drive resistance to selective inhibitors, informing the resistance framework observed with [selpercatinib](../drugs/selpercatinib.md) in RET-altered cancers [PMID:35304457](../papers/35304457.md).
 
 ## Cancer types (linked)
 
@@ -76,31 +78,34 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32015526](../papers/32015526.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35292802](../papers/35292802.md)
+
+- [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

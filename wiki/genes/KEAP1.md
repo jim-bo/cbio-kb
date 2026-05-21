@@ -3,8 +3,8 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD, HNSC, NSCLC]
 tags: [co-mutation, metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # KEAP1
@@ -28,14 +28,15 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - KEAP1 harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients in a 34-patient [NSCLC](../cancer_types/NSCLC.md) [pembrolizumab](../drugs/pembrolizumab.md) cohort (association not corrected for mutation burden). [PMID:25765070](../papers/25765070.md)
 - KEAP1 significantly mutated by MutSigCV in [HCC](../cancer_types/HCC.md) (243-case European WES cohort); part of oxidative-stress pathway altered in 12% of [HCC](../cancer_types/HCC.md); KEAP1-mutant cell lines show elevated [NQO1](../genes/NQO1.md) and candidate sensitivity to HSP90 inhibitors 17-AAG/17-DMAG, modulated by [NQO1](../genes/NQO1.md) P187S genotype [PMID:25822088](../papers/25822088.md)
 - Significantly mutated exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
-- KEAP1 altered in esophageal squamous cell carcinoma (ESCC1) alongside NFE2L2 and CUL3, disrupting the NRF2-degradation complex and activating the NRF2 pathway associated with chemoradiotherapy resistance [PMID:28052061](../papers/28052061.md).
-- Significantly enriched in UMD (unmatched molecular driver) cohort vs level 1–4 patients (p<0.05) in prospective LUAD study (860 patients, MSK-IMPACT); missense variants cluster in the Kelch domain interacting with NFE2L2/Nrf2; authors propose Nrf2 inhibitors (luteolin, brusatol) as chemosensitizers in future trials [PMID:28336552](../papers/28336552.md)
-- KEAP1 loss (with NFE2L2 gain-of-function and CUL3 loss) constitutes the NRF2 pathway driver set concentrated in squamous lung/esophagus, head and neck, and uterine cancers across the TCGA pan-cancer atlas; KEAP1 loss co-occurs with STK11 loss in lung cancer [PMID:29625050](../papers/29625050.md)
+- KEAP1 altered in esophageal squamous cell carcinoma (ESCC1) alongside [NFE2L2](../genes/NFE2L2.md) and [CUL3](../genes/CUL3.md), disrupting the NRF2-degradation complex and activating the NRF2 pathway associated with chemoradiotherapy resistance [PMID:28052061](../papers/28052061.md).
+- Significantly enriched in UMD (unmatched molecular driver) cohort vs level 1–4 patients (p<0.05) in prospective [LUAD](../cancer_types/LUAD.md) study (860 patients, MSK-IMPACT); missense variants cluster in the Kelch domain interacting with NFE2L2/Nrf2; authors propose Nrf2 inhibitors (luteolin, brusatol) as chemosensitizers in future trials [PMID:28336552](../papers/28336552.md)
+- KEAP1 loss (with NFE2L2 gain-of-function and CUL3 loss) constitutes the NRF2 pathway driver set concentrated in squamous lung/esophagus, head and neck, and uterine cancers across the TCGA pan-cancer atlas; KEAP1 loss co-occurs with [STK11](../genes/STK11.md) loss in lung cancer [PMID:29625050](../papers/29625050.md)
 - KEAP1 is mutated in cHCC-ICC as part of the cellular energetics disruption group (KEAP1/IDH1/APOB/ALB, jointly 21.2%) [PMID:31130341](../papers/31130341.md).
 - Mutated in 12 LUAD tumors (CPTAC n=110); mutation generally reduced KEAP1 protein and increased NFE2L2 S215/S433 phosphorylation; BTB-domain G511V preserved protein but produced high NFE2L2 phosphorylation, suggesting binding disruption; mutations reduced cognate protein and phosphosite abundance [PMID:32649874](../papers/32649874.md)
-- STK11 and KEAP1 mutations enriched in NSCLC samples lacking known mitogenic drivers, detected by MSK-ACCESS cfDNA assay [PMID:34145282](../papers/34145282.md)
+- STK11 and KEAP1 mutations enriched in [NSCLC](../cancer_types/NSCLC.md) samples lacking known mitogenic drivers, detected by MSK-ACCESS cfDNA assay [PMID:34145282](../papers/34145282.md)
 - Assessed at ≥2% frequency in 426 treatment-naive clinical N2-negative LUAD patients (MSK-IMPACT); no significant difference in alteration frequency by pN status (pN+ vs pN-). [PMID:34290393](../papers/34290393.md)
 - NRF2 pathway gene mutated in 33/101 evaluable LSCC tumors; KEAP1 mutations did NOT reduce KEAP1 protein levels in LSCC (unlike LUAD), indicating that NRF2-pathway dysregulation differs mechanistically between NSCLC subtypes. [PMID:34358469](../papers/34358469.md)
+- KEAP1 mutations were detected in a subset of [SCLC](../cancer_types/SCLC.md) PDX models (MSK1053, MSK511c, MSK773D/E/G/I) along with [SMARCA4](../genes/SMARCA4.md) and STK11, representing NSCLC-typical co-occurring mutations in a minority of SCLC xenograft models [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 
@@ -62,55 +63,58 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25765070](../papers/25765070.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

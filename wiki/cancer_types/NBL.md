@@ -4,8 +4,8 @@ oncotree_code: NBL
 main_type: Peripheral Nervous System
 parent: PNS
 tags: [pediatric, neuroblastoma, radiation, intra-tumoral-heterogeneity, mibg]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Neuroblastoma (NBL)
@@ -32,10 +32,11 @@ No corpus-specific gene-level variant frequencies are reported; the focus is on 
 - CCLE pharmacogenomic profiling included neuroblastoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 - WES/WGS of 240 neuroblastoma tumors identified [ALK](../genes/ALK.md), [PTPN11](../genes/PTPN11.md), and [ATRX](../genes/ATRX.md) as key recurrently mutated genes; low overall somatic mutation rate with enrichment in RAS-MAPK pathway [PMID:23334666](../papers/23334666.md)
 - Comprehensive genomic analysis of neuroblastoma identified recurrent driver alterations including [MYCN](../genes/MYCN.md) amplification and [ALK](../genes/ALK.md) mutations with implications for targeted therapy [PMID:26466568](../papers/26466568.md)
-- PIPseq cohort included 4 neuroblastoma cases; MYCN amplification + 1p/11q LOH + 17q gain used for risk-based therapy stratification; ATRX T1747fs identified as poor-prognosis marker; CDK4/MDM2 co-overexpression enrolled one patient on the NEPENTHE trial (NCT02780128); NRAS and KRAS activating mutations also identified [PMID:28007021](../papers/28007021.md)
+- PIPseq cohort included 4 neuroblastoma cases; [MYCN](../genes/MYCN.md) amplification + 1p/11q LOH + 17q gain used for risk-based therapy stratification; [ATRX](../genes/ATRX.md) T1747fs identified as poor-prognosis marker; CDK4/MDM2 co-overexpression enrolled one patient on the NEPENTHE trial (NCT02780128); [NRAS](../genes/NRAS.md) and [KRAS](../genes/KRAS.md) activating mutations also identified [PMID:28007021](../papers/28007021.md)
 - NBL (neuroblastoma) was modeled in an organ-on-a-chip system: a neuroblastoma-on-a-chip using collagen biomaterial at 36 dynes/cm² shear stress supported endothelial–NB co-culture capillary formation, while static cultures produced cell death, highlighting the role of flow in vascularized tumor modeling. [PMID:30643250](../papers/30643250.md)
-- Neuroblastoma PDX models in PPTC cohort (n=261): MYCN amplification in 66% (most frequent alteration in full cohort), largely mutually exclusive with 11q deletion; 1p deletion 77%, 17q gain 97%; ALK hotspot mutations 37%; TP53 11%, PTPN11 9%, NF1 9%; relapse PDXs had significantly higher TMB (p=0.016) [PMID:31693904](../papers/31693904.md).
+- Neuroblastoma PDX models in PPTC cohort (n=261): MYCN amplification in 66% (most frequent alteration in full cohort), largely mutually exclusive with 11q deletion; 1p deletion 77%, 17q gain 97%; [ALK](../genes/ALK.md) hotspot mutations 37%; [TP53](../genes/TP53.md) 11%, [PTPN11](../genes/PTPN11.md) 9%, [NF1](../genes/NF1.md) 9%; relapse PDXs had significantly higher TMB (p=0.016) [PMID:31693904](../papers/31693904.md).
 - Primary disease context: 52 high-risk NBL patients at MSKCC were monitored with serial BM sequencing; only 1.05% of 657 pediatric solid-tumor patients had clonal hematopoiesis in myeloid genes (CH-PD), supporting longitudinal over single-timepoint surveillance for pediatric survivors [PMID:35078859](../papers/35078859.md)
+- Neuroblastoma (NBL) enrolled in MAPPYACTS showed highest cfDNA quantity among cancer types (median ctDNA fraction 35% vs 16% in others, P=1.4×10⁻⁸); ALK activating mutations (n=15) were investigational, MYCN/MYC amplifications (n=43 total across NBL/MBL) matched to BET inhibitors [PMID:35292802](../papers/35292802.md)
 
 ## Subtypes
 
@@ -48,7 +49,7 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 - ROBIN KIDSROBIN center (U54 CA274516; Harvard University and UCSF) uses Xenium single-cell spatial profiling on baseline and post-131I-MIBG second-look surgical NBL samples to identify cell populations differentially depleted or enriched following 131I-MIBG therapy. [PMID:41941260](../papers/41941260.md)
 - ctDNA nucleosome positioning studies performed at baseline and after 131I-MIBG therapy identified differential changes in transcription factor profiles in samples with subsequent ctDNA rises — candidate biomarkers of response. [PMID:41941260](../papers/41941260.md)
 - Serum miRNA profiling following 131I-MIBG therapy identified a number of differentially modulated miRNAs as candidate response/resistance biomarkers. [PMID:41941260](../papers/41941260.md)
-- Paired 123I-/131I-MIBG diagnostic scans and SPECT/CT images analyzed to estimate tumor-absorbed dose per unit administered activity — enabling dosimetry-based understanding of differential outcomes after 131I-MIBG. [PMID:41941260](../papers/41941260.md)
+- Paired 123I-/131I-MIBG diagnostic scans and SPECT/CT images analyzed to [estimate](../methods/estimate.md) tumor-absorbed dose per unit administered activity — enabling dosimetry-based understanding of differential outcomes after 131I-MIBG. [PMID:41941260](../papers/41941260.md)
 - The KIDSROBIN team notes that insights from infrequent pediatric cancers including NBL have historically proven generalizable to more common adult cancers. [PMID:41941260](../papers/41941260.md)
 - [NTRK1](../genes/NTRK1.md) (TRKA) vs. [NTRK2](../genes/NTRK2.md) (TRKB) expression are mutually exclusive outcome biomarkers at single-cell level, validated by RNAscope ISH: [NTRK1](../genes/NTRK1.md)+ low-risk tumors have favorable prognosis while [NTRK2](../genes/NTRK2.md)+ undifferentiated cells associate with poor outcome. [PMID:34493726](../papers/34493726.md)
 - nC3 transcriptional signature stratifies 498 SEQC patients by survival; the nC3 cluster gene program enriches for DNA damage/repair and cell motility GO terms. [PMID:34493726](../papers/34493726.md)
@@ -74,4 +75,7 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

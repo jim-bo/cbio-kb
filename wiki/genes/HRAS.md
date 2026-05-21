@@ -3,8 +3,8 @@ symbol: HRAS
 aliases: []
 cancer_types: [ANGS, CESC, RMS]
 tags: [missense, hotspot, RAS, MAPK, VEGF-signaling, sarcoma, radiation-associated, cervical-cancer, rhabdomyosarcoma, RAS-pathway]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # HRAS
@@ -36,26 +36,27 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Activating mutations in 13.6% of high-grade [UTUC](../cancer_types/UTUC.md) vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with [FGFR3](../genes/FGFR3.md) and [TP53](../genes/TP53.md); supports FGFR3/HRAS-driven low-grade-tumor-progression model of [UTUC](../cancer_types/UTUC.md) carcinogenesis [PMID:26278805](../papers/26278805.md)
 - Cited as prior lenti-HrasQ61L mammary intraductal model: produces ER-/metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, providing historical evidence of species-specific lineage plasticity motivating CRISPR-based ER+ breast cancer modeling [PMID:26437033](../papers/26437033.md)
 - Q61R hotspot in 3/4 HRAS-mutant primary prostate cancers; paralogous to the canonical RAS Q61 oncogenic position; co-occurs with other non-canonical RAS-family activations ([RAC1](../genes/RAC1.md) Q61R, [RRAS2](../genes/RRAS2.md) Q72L) [PMID:26544944](../papers/26544944.md)
-- HRAS mutations occur collectively with NRAS and KRAS in 28% of PDTC and 24% of ATC; RAS mutations are mutually exclusive with BRAF V600E and gene fusions; RAS-mutant PDTCs trend toward distant metastasis and are enriched for Turin histological criteria [PMID:26878173](../papers/26878173.md)
-- Significantly mutated in lung SqCC but not other cancer types (excluding HNSC, BLCA) in the TCGA pan-lung cohort [PMID:27158780](../papers/27158780.md)
+- HRAS mutations occur collectively with [NRAS](../genes/NRAS.md) and [KRAS](../genes/KRAS.md) in 28% of PDTC and 24% of ATC; RAS mutations are mutually exclusive with [BRAF](../genes/BRAF.md) V600E and gene fusions; RAS-mutant PDTCs trend toward distant metastasis and are enriched for Turin histological criteria [PMID:26878173](../papers/26878173.md)
+- Significantly mutated in lung SqCC but not other cancer types (excluding [HNSC](../cancer_types/HNSC.md), [BLCA](../cancer_types/BLCA.md)) in the TCGA pan-lung cohort [PMID:27158780](../papers/27158780.md)
 - Classical hotspot activating mutations at codons 12/61 observed in 3 breast cancer samples; did not meet Mut-driver criteria as a standalone breast-cancer driver event in a 2,433-sample targeted sequencing study [PMID:27161491](../papers/27161491.md)
-- HRAS mutated in salivary duct carcinoma (SDCA) and one HNSC patient (treated on farnesyl-transferase-inhibitor trial); G13V observed in a mucoepidermoid carcinoma (MUCC) treated similarly; recurrent in SDCA in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
+- HRAS mutated in salivary duct carcinoma ([SDCA](../cancer_types/SDCA.md)) and one HNSC patient (treated on farnesyl-transferase-inhibitor trial); G13V observed in a mucoepidermoid carcinoma ([MUCC](../cancer_types/MUCC.md)) treated similarly; recurrent in SDCA in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
 - HRAS recurrent somatic Q61 hotspot mutations activate MAPK signaling in pheochromocytoma/paraganglioma; enriched in the kinase signaling molecular subtype [PMID:28162975](../papers/28162975.md).
-- Single patient with HRAS mutation in prospective lung adenocarcinoma cohort (860 patients, MSK-IMPACT); HRAS is in the RAS family alongside KRAS and NRAS which are more commonly mutated in LUAD [PMID:28336552](../papers/28336552.md)
-- Hotspot MAPK-pathway mutation observed in ~5% of prostate cancer patients across all disease states in the 451-patient MSK-IMPACT cohort; co-detected with BRAF, KRAS, and MAP2K1 hotspot mutations [PMID:28825054](../papers/28825054.md)
+- Single patient with HRAS mutation in prospective lung adenocarcinoma cohort (860 patients, MSK-IMPACT); HRAS is in the RAS family alongside KRAS and NRAS which are more commonly mutated in [LUAD](../cancer_types/LUAD.md) [PMID:28336552](../papers/28336552.md)
+- Hotspot MAPK-pathway mutation observed in ~5% of prostate cancer patients across all disease states in the 451-patient MSK-IMPACT cohort; co-detected with BRAF, KRAS, and [MAP2K1](../genes/MAP2K1.md) hotspot mutations [PMID:28825054](../papers/28825054.md)
 - Recurrent somatic mutations identified in HPV(−) vulvar squamous cell carcinoma (9-tumor subset) by whole-exome sequencing; consistent with prior targeted-panel literature on HPV(−) vulvar SCC [PMID:29422544](../papers/29422544.md)
-- HRAS mutations are mutually exclusive with TP53 mutations pan-cancer and mutually exclusive with KRAS/NRAS mutations within Ras signaling across nearly all 33 TCGA tumor types; KRAS/NRAS/HRAS and BRAF V600 are among the most frequently predicted neoantigens [PMID:29625049](../papers/29625049.md)
+- HRAS mutations are mutually exclusive with [TP53](../genes/TP53.md) mutations pan-cancer and mutually exclusive with KRAS/NRAS mutations within Ras signaling across nearly all 33 TCGA tumor types; KRAS/NRAS/HRAS and BRAF V600 are among the most frequently predicted neoantigens [PMID:29625049](../papers/29625049.md)
 - Hotspot mutations in MAPK effectors including HRAS enriched in post-endocrine-therapy HR+ breast tumors [PMID:30205045](../papers/30205045.md)
-- Oncogenic missense mutations detected at <1% frequency in advanced HCC [PMID:30373752](../papers/30373752.md)
-- HRAS Q61K mutation observed in ERMS PDX model Rh-36; RAS-pathway mutations (including HRAS) enriched in Fusion- rhabdomyosarcoma in the PPTC pediatric cancer PDX dataset [PMID:31693904](../papers/31693904.md)
+- Oncogenic missense mutations detected at <1% frequency in advanced [HCC](../cancer_types/HCC.md) [PMID:30373752](../papers/30373752.md)
+- HRAS Q61K mutation observed in [ERMS](../cancer_types/ERMS.md) PDX model Rh-36; RAS-pathway mutations (including HRAS) enriched in Fusion- rhabdomyosarcoma in the PPTC pediatric cancer PDX dataset [PMID:31693904](../papers/31693904.md)
 - Invasive-restricted focal amplification observed in individual synchronous DCIS/IDC-NST cases by WES (n=25 patients, MSKCC) [PMID:32220886](../papers/32220886.md)
-- Recurrent RTK/RAS/PI3K-pathway driver in UTUC (N=119 MSK-IMPACT-sequenced patients) consistent with prior UTUC genomics [PMID:32332851](../papers/32332851.md)
-- K117N activating mutation found in one resistant HR+/HER2- MBC biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies [PMID:32404308](../papers/32404308.md)
-- MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), suggesting MAPK bypass as a resistance mechanism. [PMID:32864625](../papers/32864625.md)
+- Recurrent RTK/RAS/PI3K-pathway driver in [UTUC](../cancer_types/UTUC.md) (N=119 MSK-IMPACT-sequenced patients) consistent with prior UTUC genomics [PMID:32332851](../papers/32332851.md)
+- K117N activating mutation found in one resistant HR+/HER2- [MBC](../cancer_types/MBC.md) biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies [PMID:32404308](../papers/32404308.md)
+- MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under [alpelisib](../drugs/alpelisib.md) + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), suggesting MAPK bypass as a resistance mechanism. [PMID:32864625](../papers/32864625.md)
 - HRAS cited as a prior UTUC-relevant gene whose mutation frequency differs from bladder carcinomas; no new HRAS mutation data reported in this UTUC integrative profiling study [PMID:33397444](../papers/33397444.md)
 - Rare RAS driver at 2% frequency in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas) [PMID:33509808](../papers/33509808.md)
-- Mutated in 9.6% of CSCC tumors; canonical hotspot codons observed: G12D, G13D, G13R, Q61L, Q61K in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
-- Q61R/Q61K hotspots in 3/60 metaplastic breast carcinomas (MBCs); one Q61R co-occurred with TERT promoter mutation; rare in primary breast cancer overall but recurrent in adenomyoepitheliomas [PMID:33863915](../papers/33863915.md)
+- Mutated in 9.6% of [CSCC](../cancer_types/CSCC.md) tumors; canonical hotspot codons observed: G12D, G13D, G13R, Q61L, Q61K in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- Q61R/Q61K hotspots in 3/60 metaplastic breast carcinomas (MBCs); one Q61R co-occurred with [TERT](../genes/TERT.md) promoter mutation; rare in primary breast cancer overall but recurrent in adenomyoepitheliomas [PMID:33863915](../papers/33863915.md)
+- In the MAPPYACTS pediatric precision oncology trial (n=624 sequenced), RAS family mutations including HRAS (total RAS family n=42) were classified as investigational-tier actionable alterations matched to MEK inhibitors, but were deliberately not classified as ready-for-routine-use given limited MEK inhibitor activity in pediatric RAS-mutant tumors [PMID:35292802](../papers/35292802.md).
 
 ## Cancer types (linked)
 
@@ -83,118 +84,121 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26437033](../papers/26437033.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29422544](../papers/29422544.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

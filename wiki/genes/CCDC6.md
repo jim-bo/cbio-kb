@@ -8,8 +8,8 @@ tags:
   - fusion
   - RET-fusion
   - thyroid-cancer
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CCDC6
@@ -20,8 +20,9 @@ CCDC6 (Coiled-Coil Domain Containing 6) encodes a ubiquitously expressed protein
 
 ## Alterations observed in the corpus
 
-- CCDC6-[RET](../genes/RET.md) gene fusion (RET/PTC1 rearrangement) detected in PDTC: among 14% of PDTCs (84 tumors) that harbored gene fusions, 5 were RET fusions involving either CCDC6 or [NCOA4](../genes/NCOA4.md) as the 5' partner; gene fusions in PDTC were mutually exclusive with BRAF/RAS point mutations [PMID:26878173](../papers/26878173.md).
-- Identified as the 5' partner in the recurrent **CCDC6-RET** fusion in [THCA](../cancer_types/THCA.md) (4.2% of cases); 33 THCA samples were flagged as druggable on RET; the fusion is an inframe protein kinase fusion with overexpression of the 3' RET oncogene, also seen in [LUAD](../cancer_types/LUAD.md) [PMID:29617662](../papers/29617662.md).
+- CCDC6-[RET](../genes/RET.md) gene fusion (RET/PTC1 rearrangement) detected in PDTC: among 14% of PDTCs (84 tumors) that harbored gene fusions, 5 were [RET](../genes/RET.md) fusions involving either CCDC6 or [NCOA4](../genes/NCOA4.md) as the 5' partner; gene fusions in PDTC were mutually exclusive with BRAF/RAS point mutations [PMID:26878173](../papers/26878173.md).
+- Identified as the 5' partner in the recurrent **CCDC6-RET** fusion in [THCA](../cancer_types/THCA.md) (4.2% of cases); 33 [THCA](../cancer_types/THCA.md) samples were flagged as druggable on RET; the fusion is an inframe protein kinase fusion with overexpression of the 3' RET oncogene, also seen in [LUAD](../cancer_types/LUAD.md) [PMID:29617662](../papers/29617662.md).
+- CCDC6 — recurrent RET fusion partner (CCDC6-RET) retaining the full RET kinase domain; detected in fusion-positive lung and thyroid cancers enrolled in LIBRETTO-001 (n=72 patients); acquired on-target RET resistance mutations emerged in CCDC6-RET+ cases during [selpercatinib](../drugs/selpercatinib.md) therapy [PMID:35304457](../papers/35304457.md)
 
 ## Cancer types (linked)
 
@@ -43,7 +44,10 @@ CCDC6 (Coiled-Coil Domain Containing 6) encodes a ubiquitously expressed protein
 
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

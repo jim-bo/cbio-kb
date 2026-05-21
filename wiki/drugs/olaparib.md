@@ -12,8 +12,8 @@ tags:
   - pancreatic-cancer
   - sarcoma
   - functional-precision-medicine
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # olaparib
@@ -33,18 +33,19 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - Biallelic inactivation of [BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), or [ATM](../genes/ATM.md) in 19.3% of 150 mCRPC patients identifies a subset that may benefit from olaparib; multiple patients on a parallel PARP-inhibitor trial who achieved clinical benefit harbored biallelic [BRCA2](../genes/BRCA2.md) loss [PMID:26000489](../papers/26000489.md)
 - DNA repair deficiency (14% Fanconi-anaemia-pathway alterations, 3% BRCA1/2 alterations) in 109 resected pancreatic ductal adenocarcinomas nominates olaparib (PARP inhibitor) as a therapeutic candidate; high-CNV clusters enriched for DSB-repair lesions could serve as stratification biomarkers [PMID:25855536](../papers/25855536.md)
 - 19% of 333 primary [PRAD](../cancer_types/PRAD.md) tumors carry DNA-repair gene defects ([BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), [ATM](../genes/ATM.md), [CDK12](../genes/CDK12.md), [FANCD2](../genes/FANCD2.md), [RAD51C](../genes/RAD51C.md)); authors link this to TOPARP-A trial results in mCRPC and propose PARP-inhibitor strategies (e.g., olaparib) could be considered at earlier prostate cancer disease stages [PMID:26544944](../papers/26544944.md)
-- The FA-pathway/[ATM](../genes/ATM.md) biomarker that predicted longer carboplatin response in mCRPC ([prad_fhcrc](../datasets/prad_fhcrc.md)) was noted by the authors to dovetail with contemporaneous olaparib PARP-inhibitor responses in the same DNA-repair-deficient biomarker subset of prostate cancer. [PMID:26928463](../papers/26928463.md)
-- PALB2 somatic mutations occur in 4% of metastatic breast cancer vs 0.1% of primary breast cancer (FDR=0.006); authors propose PALB2-deficient mBC as a candidate population for PARP inhibitor (olaparib) trials [PMID:28027327](../papers/28027327.md)
-- In BRCA1/2-wild-type mCRPC cell lines and PDX models, olaparib combined with the USP10 inhibitor spautin-1 produced HSA synergy scores >10 in 22Rv1 and C4-2 cells and CI=0.76 in 22Rv1 CDX; TRMT10A is identified as a BRCA1-recruitment scaffold whose degradation via USP10 inhibition induces BRCAness and sensitizes cells to olaparib [PMID:28068672](../papers/28068672.md)
-- Cited as level 2B matched therapy for BRCA1/BRCA2 likely-inactivating mutations in 860-patient MSK-IMPACT LUAD cohort based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient with BRCA1/BRCA2 truncating mutations received matched PARP-inhibitor therapy due to off-label barriers; basket trials NCT02201212 and NCT02675829 opened to address this gap [PMID:28336552](../papers/28336552.md).
-- 22% somatic HR-gene alteration rate (BRCA2 7%, ATM 5%, CDK12 7%) and 27% combined germline+somatic DDR-gene rate in 451 prostate cancer patients identifies candidates for olaparib and platinum-based therapy (per TOPARP-A and case-series citations) [PMID:28825054](../papers/28825054.md)
+- The FA-pathway/[ATM](../genes/ATM.md) biomarker that predicted longer [carboplatin](../drugs/carboplatin.md) response in mCRPC ([prad_fhcrc](../datasets/prad_fhcrc.md)) was noted by the authors to dovetail with contemporaneous olaparib PARP-inhibitor responses in the same DNA-repair-deficient biomarker subset of prostate cancer. [PMID:26928463](../papers/26928463.md)
+- [PALB2](../genes/PALB2.md) somatic mutations occur in 4% of metastatic breast cancer vs 0.1% of primary breast cancer (FDR=0.006); authors propose PALB2-deficient mBC as a candidate population for PARP inhibitor (olaparib) trials [PMID:28027327](../papers/28027327.md)
+- In BRCA1/2-wild-type mCRPC cell lines and PDX models, olaparib combined with the [USP10](../genes/USP10.md) inhibitor [spautin-1](../drugs/spautin-1.md) produced HSA synergy scores >10 in 22Rv1 and C4-2 cells and CI=0.76 in 22Rv1 CDX; [TRMT10A](../genes/TRMT10A.md) is identified as a BRCA1-recruitment scaffold whose degradation via USP10 inhibition induces BRCAness and sensitizes cells to olaparib [PMID:28068672](../papers/28068672.md)
+- Cited as level 2B matched therapy for BRCA1/BRCA2 likely-inactivating mutations in 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient with BRCA1/BRCA2 truncating mutations received matched PARP-inhibitor therapy due to off-label barriers; basket trials NCT02201212 and NCT02675829 opened to address this gap [PMID:28336552](../papers/28336552.md).
+- 22% somatic HR-gene alteration rate ([BRCA2](../genes/BRCA2.md) 7%, [ATM](../genes/ATM.md) 5%, [CDK12](../genes/CDK12.md) 7%) and 27% combined germline+somatic DDR-gene rate in 451 prostate cancer patients identifies candidates for olaparib and platinum-based therapy (per TOPARP-A and case-series citations) [PMID:28825054](../papers/28825054.md)
 - PARP inhibitor highlighted as a therapeutic opportunity for younger Asian TNBC patients based on significantly higher BRCA1/BRCA2 germline mutation prevalence (10.8% vs 4.7% TCGA) and HRD signature S3 enrichment in 85% of SMC TNBC vs 52% of TCGA TNBC (FE p=7e-4) [PMID:29713003](../papers/29713003.md)
-- CDK12 hyperphosphorylation in CNV-high endometrial carcinomas (CPTAC cohort, n=95) is proposed to sensitize EC to olaparib analogously to ovarian cancer (Bajrami et al., 2014); the PARP1 gene is also identified as a 1q-encoded histone modifier anticorrelated with p53-pathway target proteins in this proteogenomic study [PMID:32059776](../papers/32059776.md)
-- Among uLMS patients with somatic BRCA2 alterations (7/107 total), PARP-inhibitor-containing therapy produced sustained partial responses; validation in five additional post-data-freeze BRCA2-altered uLMS patients showed at least some radiographic regression including one complete response, with treatment durations 6–28 months; authors argue BRCA testing is justified in all uLMS patients [PMID:32299819](../papers/32299819.md)
+- CDK12 hyperphosphorylation in CNV-high endometrial carcinomas (CPTAC cohort, n=95) is proposed to sensitize EC to olaparib analogously to ovarian cancer (Bajrami et al., 2014); the [PARP1](../genes/PARP1.md) gene is also identified as a 1q-encoded histone modifier anticorrelated with p53-pathway target proteins in this proteogenomic study [PMID:32059776](../papers/32059776.md)
+- Among uLMS patients with somatic BRCA2 alterations (7/107 total), PARP-inhibitor-containing therapy produced sustained partial responses; validation in five additional post-data-freeze BRCA2-altered uLMS patients showed at least some radiographic regression including one complete response, with treatment durations 6–28 months; authors argue [BRCA](../cancer_types/BRCA.md) testing is justified in all uLMS patients [PMID:32299819](../papers/32299819.md)
 - In MSS mCRC (n=430, MSK-IMPACT), DDR pathway alterations were not associated with survival or oxaliplatin-response benefit (HR 1.1, 95% CI 0.7–1.6, p=0.74), and LST scores showed no HRD enrichment; the authors argue against PARP inhibitor (olaparib-class) strategies in unselected MSS mCRC [PMID:32730818](../papers/32730818.md).
 - In a tumor-fraction-guided cfDNA profiling study (N=118 metastatic solid tumors at MSKCC), [BRCA2](../genes/BRCA2.md) OncoKB level 1 alterations were identified in plasma of prostate cancer patients via cf-IMPACT, supporting olaparib (PARP inhibitor) eligibility; actionable variants were identified in 25% of the full cohort [PMID:34059130](../papers/34059130.md).
-- RAD51B knockdown (shRNA) in MCF-10A and MCF-12A breast epithelial cells confers increased clonogenic sensitivity to olaparib (PARP inhibitor), albeit to a lesser degree than BRCA1 knockdown; biallelic germline RAD51B loss drives an intermediate HRD phenotype (dominant Signature 3, LST-high) predicting partial PARP inhibitor benefit. [PMID:34635660](../papers/34635660.md)
-- In a 45-patient HGSOC cohort treated with ICIs, olaparib was part of combination ICI regimens studied alongside durvalumab; network curvature (Ollivier-Ricci) over CNA profiles outperformed TMB as an OS biomarker (log-rank p=0.00047 vs p=0.032) in this ICI-treated cohort. [PMID:34819508](../papers/34819508.md)
+- [RAD51B](../genes/RAD51B.md) knockdown (shRNA) in MCF-10A and MCF-12A breast epithelial cells confers increased clonogenic sensitivity to olaparib (PARP inhibitor), albeit to a lesser degree than [BRCA1](../genes/BRCA1.md) knockdown; biallelic germline RAD51B loss drives an intermediate HRD phenotype (dominant Signature 3, LST-high) predicting partial PARP inhibitor benefit. [PMID:34635660](../papers/34635660.md)
+- In a 45-patient [HGSOC](../cancer_types/HGSOC.md) cohort treated with ICIs, olaparib was part of combination ICI regimens studied alongside [durvalumab](../drugs/durvalumab.md); network curvature (Ollivier-Ricci) over CNA profiles outperformed TMB as an [OS](../cancer_types/OS.md) biomarker (log-rank p=0.00047 vs p=0.032) in this ICI-treated cohort. [PMID:34819508](../papers/34819508.md)
+- Olaparib (PARP inhibitor) received 64 treatment recommendations in MAPPYACTS for alterations in homologous recombination genes (BRCA1/2, ATM, MRE11A) in pediatric/young-adult recurrent malignancies; PARP inhibitor arms were explored in the AcSé-ESMART platform [PMID:35292802](../papers/35292802.md)
 
 ## Resistance mechanisms
 
@@ -76,19 +77,22 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:29713003](../papers/29713003.md)
 - [PMID:32059776](../papers/32059776.md) — Dou et al. 2020, *Cell*. CPTAC proteogenomic characterization of 95 EC tumors; CDK12 hyperphosphorylation in CNV-high EC proposed to sensitize to olaparib analogously to ovarian cancer.
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); BRCA2 OncoKB level 1 alterations in prostate cancer plasma supporting olaparib eligibility.
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

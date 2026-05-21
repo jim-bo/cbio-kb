@@ -3,8 +3,8 @@ symbol: MET
 aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC, HNSC]
 tags: [rtk, metastasis, resistance, amplification]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MET
@@ -43,20 +43,20 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Focal amplifications in 2 desmoplastic melanoma tumors, IHC-confirmed; identified as a targetable RTK alteration with potential therapeutic implications [PMID:26343386](../papers/26343386.md)
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype (characterized by high [EGFR](../genes/EGFR.md) overexpression) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - LINE-element insertion fusion involving MET detected in a single periampullary (DUOAC) tumor lacking KRAS/TP53 mutations, with high MET expression [PMID:26804919](../papers/26804919.md)
-- MET significantly mutated exclusively in lung adenocarcinoma vs other TCGA tumor types (q<0.1); MET-CAPZA2 novel fusion and KIF5B-MET previously reported fusion identified; MET and ERBB2 high-level amplifications enriched in tumors lacking other RTK/Ras/Raf activating events (p<0.01) [PMID:27158780](../papers/27158780.md)
-- Lower frequency in young lung cancer (YLC) patients; MET exon 14 skipping is age-skewed: 0.72% (≤50 yrs), 1.1% (51–69 yrs), 3.25% (>70 yrs); pivotal tepotinib and capmatinib trials enrolled patients up to 74 years old [PMID:27346245](../papers/27346245.md)
-- Alteration contributing to the actionable alteration list in recurrent/metastatic head and neck cancers, alongside MAX, MCL1, KDR, and MYCN [PMID:27442865](../papers/27442865.md)
-- Harbors H1094Y pathogenic missense mutation in a single unclassified RCC (uRCC) case (T62), suggesting overlap with papillary RCC and providing a candidate MET-directed therapeutic target [PMID:27713405](../papers/27713405.md)
-- Exon 14 alterations in prospective LUAD cohort (860 patients, MSK-IMPACT): 65.4% matched therapy rate with 76.5% clinical benefit; wild-type MET amplification 16.7% matched (50% benefit) [PMID:28336552](../papers/28336552.md)
+- MET significantly mutated exclusively in lung adenocarcinoma vs other TCGA tumor types (q<0.1); MET-CAPZA2 novel fusion and KIF5B-MET previously reported fusion identified; MET and [ERBB2](../genes/ERBB2.md) high-level amplifications enriched in tumors lacking other RTK/Ras/Raf activating events (p<0.01) [PMID:27158780](../papers/27158780.md)
+- Lower frequency in young lung cancer (YLC) patients; MET exon 14 skipping is age-skewed: 0.72% (≤50 yrs), 1.1% (51–69 yrs), 3.25% (>70 yrs); pivotal [tepotinib](../drugs/tepotinib.md) and [capmatinib](../drugs/capmatinib.md) trials enrolled patients up to 74 years old [PMID:27346245](../papers/27346245.md)
+- Alteration contributing to the actionable alteration list in recurrent/metastatic head and neck cancers, alongside [MAX](../genes/MAX.md), [MCL1](../genes/MCL1.md), [KDR](../genes/KDR.md), and [MYCN](../genes/MYCN.md) [PMID:27442865](../papers/27442865.md)
+- Harbors H1094Y pathogenic missense mutation in a single unclassified [RCC](../cancer_types/RCC.md) (uRCC) case (T62), suggesting overlap with papillary RCC and providing a candidate MET-directed therapeutic target [PMID:27713405](../papers/27713405.md)
+- Exon 14 alterations in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT): 65.4% matched therapy rate with 76.5% clinical benefit; wild-type MET amplification 16.7% matched (50% benefit) [PMID:28336552](../papers/28336552.md)
 - Included in the targetable-alteration tally recovered by broad-panel sequencing vs amplicon panels and shallow WES in a 62-tumor-type pan-cancer cohort [PMID:28481359](../papers/28481359.md)
-- MET amplification or oncogenic mutation was identified in 5% of esophagogastric cancer (EGC) patients in the MSK cohort; MET was one of several potentially targetable kinase targets frequently co-occurring with other RTK-RAS-PI3K alterations, suggesting combination strategies may be needed for clinical actionability [PMID:29122777](../papers/29122777.md)
-- Altered in 3% of NSCLC patients in this MSK-IMPACT cohort; too few events for response analysis to anti-PD-(L)1 therapy [PMID:29337640](../papers/29337640.md)
+- MET amplification or oncogenic mutation was identified in 5% of esophagogastric cancer ([EGC](../cancer_types/EGC.md)) patients in the MSK cohort; MET was one of several potentially targetable kinase targets frequently co-occurring with other RTK-RAS-PI3K alterations, suggesting combination strategies may be needed for clinical actionability [PMID:29122777](../papers/29122777.md)
+- Altered in 3% of [NSCLC](../cancer_types/NSCLC.md) patients in this MSK-IMPACT cohort; too few events for response analysis to anti-PD-(L)1 therapy [PMID:29337640](../papers/29337640.md)
 - MET amplification (n=1) identified as an OncoKB level 2B actionable alteration in cholangiocarcinoma (n=195 MSK-IMPACT cohort) [PMID:29848569](../papers/29848569.md)
-- MET amplification in 1.5% of advanced HCC in the MSK-IMPACT cohort; one patient with concurrent 2.1x MET and 3.7x VEGFA amplification received anti-VEGFR2 + anti-MET mAbs on a genome-matched protocol; tivantinib failed the METIV-HCC trial in MET-high HCC [PMID:30373752](../papers/30373752.md)
-- Patient #28 (GBM, IDH-WT) acquired MET amplification in a later CSF sample during convergent evolution across multiple receptor tyrosine kinases and cell-cycle regulators, while PDGFRA/KIT amplification was lost; the pattern illustrates parallel RTK-pathway selection under treatment pressure [PMID:30675060](../papers/30675060.md).
+- MET amplification in 1.5% of advanced [HCC](../cancer_types/HCC.md) in the MSK-IMPACT cohort; one patient with concurrent 2.1x MET and 3.7x [VEGFA](../genes/VEGFA.md) amplification received anti-VEGFR2 + anti-MET mAbs on a genome-matched protocol; [tivantinib](../drugs/tivantinib.md) failed the METIV-HCC trial in MET-high HCC [PMID:30373752](../papers/30373752.md)
+- Patient #28 ([GBM](../cancer_types/GBM.md), IDH-WT) acquired MET amplification in a later CSF sample during convergent evolution across multiple receptor tyrosine kinases and cell-cycle regulators, while PDGFRA/KIT amplification was lost; the pattern illustrates parallel RTK-pathway selection under treatment pressure [PMID:30675060](../papers/30675060.md).
 - Focal amplification in 24% of cHCC-ICC cases; part of the oncogenic amplification landscape in combined hepatocellular and intrahepatic cholangiocarcinoma. [PMID:31130341](../papers/31130341.md)
 - Actionable amplification detected in one NSCLC case by cfDNA CNV calling; detection limited by low ctDNA fraction (<10%) [PMID:31768066](../papers/31768066.md)
-- Amplification in 2 GBM PDX; copy number gains in both IDH-mutant lines (GBM164, GBM196), consistent with secondary-glioblastoma literature; PTPRZ1–MET fusion detected in GBM PDX as a potentially targetable alteration [PMID:31852831](../papers/31852831.md)
+- Amplification in 2 GBM PDX; copy number gains in both IDH-mutant lines (GBM164, GBM196), consistent with secondary-glioblastoma literature; [PTPRZ1](../genes/PTPRZ1.md)–MET fusion detected in GBM PDX as a potentially targetable alteration [PMID:31852831](../papers/31852831.md)
 - MET exon 14 skipping was searched for but not enriched in the chaotic subtype of never-smoker lung adenocarcinoma (NS-LUAD) [PMID:32015526](../papers/32015526.md)
 - Overexpressed in EGFR-mutant LUAD tumors as part of the EGFR-driven proteogenomic signature in the CPTAC cohort (n=110) [PMID:32649874](../papers/32649874.md)
 - Recurrently amplified oncogene across 604 stage I-III resected LUAD patients profiled by MSK-IMPACT; consistent with prior LUAD reports. [PMID:32791233](../papers/32791233.md)
@@ -65,7 +65,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Targetable driver mutations and amplifications recurrent in NSCLC detected by MSK-ACCESS cfDNA assay; MET was among the 10 genes used to assemble the orthogonal-truth accuracy cohort [PMID:34145282](../papers/34145282.md)
 - Assessed at ≥2% frequency in clinical-stage I/II [LUAD](../cancer_types/LUAD.md) tumors; no significant association with pathologic lymph-node (pN) metastasis status detected [PMID:34290393](../papers/34290393.md).
 - Altered in 4.3% of lung cancer in never-smokers (LCINS); MET-altered tumors showed *better* overall survival than other RTK-RAS-altered groups — an unusual finding within the pathway [PMID:34493867](../papers/34493867.md).
-- RNA and protein levels concordantly upregulated alongside KRAS/RAC1/PAK1/PAK2 in [PAAD](../cancer_types/PAAD.md); positioned as a downstream effector node in the KRAS→RAC1 signaling axis [PMID:34534465](../papers/34534465.md).
+- RNA and protein levels concordantly upregulated alongside KRAS/RAC1/PAK1/PAK2 in [PAAD](../cancer_types/PAAD.md); positioned as a downstream effector node in the [KRAS](../genes/KRAS.md)→[RAC1](../genes/RAC1.md) signaling axis [PMID:34534465](../papers/34534465.md).
+- MET focal amplifications mediated bypass resistance to [selpercatinib](../drugs/selpercatinib.md) in RET-fusion NSCLC; one patient with subclonal pre-treatment MET amplification re-responded to selpercatinib + [crizotinib](../drugs/crizotinib.md) combination, demonstrating MET-mediated bypass as an actionable mechanism [PMID:35304457](../papers/35304457.md).
 
 ## Cancer types (linked)
 
@@ -186,4 +187,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

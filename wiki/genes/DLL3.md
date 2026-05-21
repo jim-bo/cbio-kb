@@ -3,8 +3,8 @@ symbol: DLL3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # DLL3
@@ -16,6 +16,7 @@ DLL3 (Delta-like ligand 3) is a Notch pathway ligand that acts as an inhibitory 
 ## Alterations observed in the corpus
 
 - High DLL3 expression supported DLL3-inhibitor therapeutic recommendations in neuroendocrine neoplasm patients PN11, PN19, and PN22 in a precision oncology cohort [PMID:40328872](../papers/40328872.md)
+- DLL3 expression is low in SCLC-P (POU2F3-driven) subtype compared to NE subtypes (SCLC-A/N), as characterized in an MSK PDX/CDX [SCLC](../cancer_types/SCLC.md) biobank of 26 clinical specimens and 30 models. [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -33,4 +34,7 @@ DLL3 (Delta-like ligand 3) is a Notch pathway ligand that acts as an inhibitory 
 
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

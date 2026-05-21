@@ -4,8 +4,8 @@ oncotree_code: GEJ
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Adenocarcinoma of the Gastroesophageal Junction (GEJ)
@@ -25,10 +25,11 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - [ERBB2](../genes/ERBB2.md) — amplification; HER2 overexpression is a key therapeutic target. [PMID:37406106](../papers/37406106.md)
 - [CDKN2A](../genes/CDKN2A.md) — enriched in average-onset [EGC](../cancer_types/EGC.md); associated with worse survival (HR=1.55, P<0.001). [PMID:37699004](../papers/37699004.md)
 - See also [EGC](../cancer_types/EGC.md) for shared alterations across the esophagogastric spectrum.
-- WES of 149 treatment-naïve EAC tumors including gastroesophageal junction adenocarcinomas identified 26 significantly mutated genes and a distinctive EAC/GEJ-specific A>C transversion signature; 23% harbored mutations in genes with approved/preclinical inhibitors, rising to 48% when amplifications included [PMID:23525077](../papers/23525077.md)
+- WES of 149 treatment-naïve [EAC](../cancer_types/EAC.md) tumors including gastroesophageal junction adenocarcinomas identified 26 significantly mutated genes and a distinctive EAC/GEJ-specific A>C transversion signature; 23% harbored mutations in genes with approved/preclinical inhibitors, rising to 48% when amplifications included [PMID:23525077](../papers/23525077.md)
 - TCGA profiling included 36 GEJ adenocarcinomas of indeterminate origin showing continuous molecular spectrum from oesophageal adenocarcinoma to CIN gastric cancer with no discrete boundary; CIN proportion increases proximally along the gastroesophageal axis [PMID:28052061](../papers/28052061.md)
-- Gastroesophageal junction tumors were included in the 295-patient MSK-IMPACT EGC cohort; CIN subtype dominated (63%) across EGC including GEJ; ERBB2 amplification (25% of CIN tumors) was the most frequent actionable alteration and predicted trastuzumab PFS dose-dependently by NGS [PMID:29122777](../papers/29122777.md)
-- 12/37 (32%) patients in a HER2-positive mEGC phase 2 pembrolizumab + trastuzumab + chemotherapy trial had GEJ primary; KRAS/RTK-RAS co-alterations predicted shorter PFS (5.9 vs 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md)
+- Gastroesophageal junction tumors were included in the 295-patient MSK-IMPACT [EGC](../cancer_types/EGC.md) cohort; CIN subtype dominated (63%) across EGC including GEJ; [ERBB2](../genes/ERBB2.md) amplification (25% of CIN tumors) was the most frequent actionable alteration and predicted [trastuzumab](../drugs/trastuzumab.md) PFS dose-dependently by NGS [PMID:29122777](../papers/29122777.md)
+- 12/37 (32%) patients in a HER2-positive mEGC phase 2 [pembrolizumab](../drugs/pembrolizumab.md) + trastuzumab + chemotherapy trial had GEJ primary; KRAS/RTK-RAS co-alterations predicted shorter PFS (5.9 vs 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md)
+- In 237 locally advanced lower esophageal/GEJ adenocarcinoma patients, [MDM2](../genes/MDM2.md) amplification was independently associated with poor neoadjuvant chemoradiotherapy response (OR 0.10, p=0.032); [TP53](../genes/TP53.md) pathway severity stratified responders (p=0.004, q=0.07) [PMID:35377946](../papers/35377946.md)
 
 ## Subtypes
 
@@ -46,13 +47,16 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 
 - [PMID:23525077](../papers/23525077.md) — Dulak et al. Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity. *Nat Genet* 2013.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32437664](../papers/32437664.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

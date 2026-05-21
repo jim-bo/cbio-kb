@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Sanger Sequencing
@@ -27,7 +27,7 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Sanger sequencing used to validate [RAC1](../genes/RAC1.md) P29S in an expanded melanoma cohort of 364 samples (Yale); mutation confirmed in 9.2% of sun-exposed melanomas [PMID:22842228](../papers/22842228.md)
 - Sanger sequencing used to validate somatic mutations discovered by WES/WGS in ETP-ALL tumors at St. Jude [PMID:23334668](../papers/23334668.md)
 - Sanger sequencing used to validate [NOTCH1](../genes/NOTCH1.md) and [CASP8](../genes/CASP8.md) mutations in a panel of 44 HNSCC cell lines, orthogonal to SOLiD/Illumina exome discovery [PMID:23619168](../papers/23619168.md)
-- Used for targeted extension sequencing of [SPEN](../genes/SPEN.md) (42 additional ACC cases) and [FGFR2](../genes/FGFR2.md) (25 additional ACC cases), identifying 2 additional [SPEN](../genes/SPEN.md) truncating mutations in solid-histology cases and 3 activating [FGFR2](../genes/FGFR2.md) mutations [PMID:23778141](../papers/23778141.md)
+- Used for targeted extension sequencing of [SPEN](../genes/SPEN.md) (42 additional [ACC](../cancer_types/ACC.md) cases) and [FGFR2](../genes/FGFR2.md) (25 additional ACC cases), identifying 2 additional [SPEN](../genes/SPEN.md) truncating mutations in solid-histology cases and 3 activating [FGFR2](../genes/FGFR2.md) mutations [PMID:23778141](../papers/23778141.md)
 - Used for PCR validation of SNVs and InDels identified by WGS in 96 pediatric pilocytic astrocytoma cases; achieved >98% SNV verification rate and >70% InDel verification rate [PMID:23817572](../papers/23817572.md)
 - Used for Sanger sequencing of all coding exons of 15 selected oncogenes/tumor suppressors in 97 high-grade bladder ([BLCA](../cancer_types/BLCA.md)) tumors [PMID:23897969](../papers/23897969.md)
 - Sanger sequencing used to validate 11,240 candidate somatic mutations; confirmed 91% of predicted substitutions and 74% of indels in 99 [BLCA](../cancer_types/BLCA.md) tumors [PMID:24121792](../papers/24121792.md)
@@ -52,17 +52,18 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Sanger sequencing used to validate somatic mutations in colorectal cancer whole-exome and whole-genome sequencing [PMID:26343386](../papers/26343386.md)
 - Used to validate [MYBL1](../genes/MYBL1.md) fusion breakpoints and to characterize [MYBL1](../genes/MYBL1.md) truncations identified by whole-genome sequencing in salivary adenoid cystic carcinomas, including 3'-RACE for truncation characterization [PMID:26631609](../papers/26631609.md).
 - Used to validate the recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot mutation identified by WGS/WES in uveal melanoma samples; confirmed mutation in 2/28 discovery samples and 1/56 previously published [UM](../cancer_types/UM.md) tumors [PMID:26683228](../papers/26683228.md).
-- Used as readout for bisulfite sequencing of the CDH1 promoter CpG island to detect hypermethylation in CDH1 wild-type plasmacytoid bladder tumors. [PMID:26901067](../papers/26901067.md)
+- Used as readout for bisulfite sequencing of the [CDH1](../genes/CDH1.md) promoter CpG island to detect hypermethylation in CDH1 wild-type plasmacytoid bladder tumors. [PMID:26901067](../papers/26901067.md)
 - Applied Sanger sequencing for targeted validation of somatic mutations [PMID:28199314](../papers/28199314.md)
 - Used Sanger sequencing for orthogonal validation of somatic variants [PMID:28373299](../papers/28373299.md)
 - Applied Sanger sequencing to validate somatic variants and germline mutations [PMID:28445112](../papers/28445112.md)
-- Sanger sequencing of 22 genes-of-interest used in the prevalence screen of 47 clear cell endometrial carcinoma (CCEC) cases from the uccc_nih_2017 cohort [PMID:28485815](../papers/28485815.md)
+- Sanger sequencing of 22 genes-of-interest used in the prevalence screen of 47 clear cell endometrial carcinoma (CCEC) cases from the [uccc_nih_2017](../datasets/uccc_nih_2017.md) cohort [PMID:28485815](../papers/28485815.md)
 - Used to PCR-validate structural variants detected by CREST in CCA WGS data (91% validation rate across ~93 somatic SVs/tumor) [PMID:28667006](../papers/28667006.md)
 - Used for validation of CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489 in PC3 and DU145 cells) in the NOL10/USF1 functional study [PMID:28927585](../papers/28927585.md)
 - Used for validation of somatic variant calls from WES (1130 events across 61 genes in DLBCL cohort, 90% concordance) [PMID:28985567](../papers/28985567.md)
 - Used to confirm recombination of the artificial-telomere construct at the centromeric chr_3p break site in CRISPR-engineered AALE cell clones [PMID:29622463](../papers/29622463.md)
-- Used to validate the FGFR3–TACC3 fusion (exon 17–exon 11 junction) detected in organoid line SCBO-10 and its matched parental bladder tumor [PMID:29625057](../papers/29625057.md).
-- Applied to 16 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) for targeted validation sequencing of TERT promoter hotspot, TP53, and selected exons of PIK3CA, HRAS, and BRAF where WES/IMPACT data were unavailable [PMID:33863915](../papers/33863915.md)
+- Used to validate the [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) fusion (exon 17–exon 11 junction) detected in organoid line SCBO-10 and its matched parental bladder tumor [PMID:29625057](../papers/29625057.md).
+- Applied to 16 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) for targeted validation sequencing of [TERT](../genes/TERT.md) promoter hotspot, [TP53](../genes/TP53.md), and selected exons of [PIK3CA](../genes/PIK3CA.md), [HRAS](../genes/HRAS.md), and [BRAF](../genes/BRAF.md) where WES/IMPACT data were unavailable [PMID:33863915](../papers/33863915.md)
+- Sanger sequencing used for technical and biological validation of single-cell genotyping (SCG) calls in dual-driver CRC study [PMID:35235413](../papers/35235413.md).
 
 ## Notes
 
@@ -72,138 +73,141 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583493](../papers/25583493.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25991819](../papers/25991819.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26631609](../papers/26631609.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26683228](../papers/26683228.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28199314](../papers/28199314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28485815](../papers/28485815.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28927585](../papers/28927585.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
 
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

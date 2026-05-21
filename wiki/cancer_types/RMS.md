@@ -4,8 +4,8 @@ oncotree_code: RMS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Rhabdomyosarcoma (RMS)
@@ -25,8 +25,9 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 - 70% of [ARMS](../cancer_types/ARMS.md) carried [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md); remainder [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md) [PMID:37315267](../papers/37315267.md).
 - [MED12](../genes/MED12.md) alterations, [CDK4](../genes/CDK4.md) amplifications, [CDKN2A](../genes/CDKN2A.md) deletions each 8–17% in [ARMS](../cancer_types/ARMS.md); CDK4/CDKN2A events mutually exclusive, enriched in acral/high-risk lesions, correlated with poor [OS](../cancer_types/OS.md) (P=.02) [PMID:37315267](../papers/37315267.md).
 - WGS/WES/RNA-seq of 147 rhabdomyosarcoma tumor/normal pairs showed PAX-fusion status (PFP vs PFN) outperforms ARMS/ERMS histology for molecular classification; the RTK/RAS/PIK3CA axis is altered in 93% of WGS tumors, with [NRAS](../genes/NRAS.md), [KRAS](../genes/KRAS.md), [HRAS](../genes/HRAS.md), [FGFR4](../genes/FGFR4.md), [PIK3CA](../genes/PIK3CA.md), and novel drivers [FBXW7](../genes/FBXW7.md) (7.4% of PFN) and [BCOR](../genes/BCOR.md) (7%) as recurrent targets [PMID:24436047](../papers/24436047.md).
-- Germline WES of 372 pediatric cancer patients (Düsseldorf) included rhabdomyosarcoma cases; TP53 LP/PV carriers presented with rhabdomyosarcoma (solid tumor subgroup, 29.6% of LP/PV carriers); TP53 burden OR=32.8 (p=7.83×10⁻⁸) [PMID:29489754](../papers/29489754.md)
-- PPTC RMS PDX models (n=261 total cohort): Fusion+ ARMS carried PAX3-FOXO1; Fusion− ERMS had RAS-pathway mutations (NRAS, HRAS, KRAS, NF1) in 3/6 models; MYCN and CDK4 focal amplifications observed; MYOD1 overexpressed in all but IRS-68; median age 16y for ARMS vs 5y for ERMS [PMID:31693904](../papers/31693904.md).
+- Germline WES of 372 pediatric cancer patients (Düsseldorf) included rhabdomyosarcoma cases; [TP53](../genes/TP53.md) LP/PV carriers presented with rhabdomyosarcoma (solid tumor subgroup, 29.6% of LP/PV carriers); TP53 burden OR=32.8 (p=7.83×10⁻⁸) [PMID:29489754](../papers/29489754.md)
+- PPTC RMS PDX models (n=261 total cohort): Fusion+ [ARMS](../cancer_types/ARMS.md) carried PAX3-FOXO1; Fusion− [ERMS](../cancer_types/ERMS.md) had RAS-pathway mutations ([NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md), [KRAS](../genes/KRAS.md), [NF1](../genes/NF1.md)) in 3/6 models; [MYCN](../genes/MYCN.md) and [CDK4](../genes/CDK4.md) focal amplifications observed; [MYOD1](../genes/MYOD1.md) overexpressed in all but IRS-68; median age 16y for ARMS vs 5y for ERMS [PMID:31693904](../papers/31693904.md).
+- Rhabdomyosarcoma (RMS) was enrolled in MAPPYACTS (sarcomas 37% of 787 patients); CDK4/CDK6 amplifications recurrent in RMS were matched to CDK4/6 inhibitors (105 recommendations); FGFR1/2/3/4 alterations (27 events) occurred across RMS and other sarcomas [PMID:35292802](../papers/35292802.md)
 
 ## Subtypes
 
@@ -49,10 +50,13 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29489754](../papers/29489754.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

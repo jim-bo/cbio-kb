@@ -3,8 +3,8 @@ symbol: ERBB3
 aliases: [HER3]
 cancer_types: [CESC, NBL]
 tags: [receptor-tyrosine-kinase, targeted-therapy, neuroblastoma, progenitor]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # ERBB3
@@ -33,11 +33,12 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - ERBB3 (HER3) mutations were catalogued across cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
 - ERBB3 alterations were detected in a pan-cancer sequencing cohort as part of the ErbB receptor tyrosine kinase family analysis [PMID:28373299](../papers/28373299.md)
 - Oncogenic alterations in 7% of CIN-subtype esophagogastric cancers; listed among potentially targetable kinases [PMID:29122777](../papers/29122777.md)
-- 16 patients with somatic ERBB3 (HER3) mutations enrolled in SUMMIT; 11 unique missense mutations clustered in the extracellular furin-like and receptor domains; no RECIST responses to neratinib monotherapy; frequently co-occurred with ERBB2 mutations in non-responders [PMID:29420467](../papers/29420467.md)
+- 16 patients with somatic ERBB3 (HER3) mutations enrolled in SUMMIT; 11 unique missense mutations clustered in the extracellular furin-like and receptor domains; no RECIST responses to [neratinib](../drugs/neratinib.md) monotherapy; frequently co-occurred with [ERBB2](../genes/ERBB2.md) mutations in non-responders [PMID:29420467](../papers/29420467.md)
 - Hotspot mutations in MAPK effectors including ERBB3 enriched in post-endocrine-therapy HR+ breast tumors [PMID:30205045](../papers/30205045.md)
 - Mutated in 9% of gallbladder carcinoma (GBCA) overall but absent in Chilean patients; population-specific alteration frequency [PMID:30427539](../papers/30427539.md)
-- Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed more often as a co-alteration alongside NF1 loss and BRAF Class 3 mutations than as a sole driver [PMID:33509808](../papers/33509808.md)
-- Mutated in 1.2% of CSCC tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed more often as a co-alteration alongside [NF1](../genes/NF1.md) loss and [BRAF](../genes/BRAF.md) Class 3 mutations than as a sole driver [PMID:33509808](../papers/33509808.md)
+- Mutated in 1.2% of [CSCC](../cancer_types/CSCC.md) tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- ERBB3 alterations, together with [EGFR](../genes/EGFR.md), ERBB2, and [ERBB4](../genes/ERBB4.md), accounted for ~5% of CNS-tumor oncomap findings in the MAPPYACTS pediatric WES cohort (n=787); investigational ERBB-inhibitor matches were generated for the group. [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -61,64 +62,67 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

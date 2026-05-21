@@ -3,8 +3,8 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # PTEN
@@ -53,10 +53,10 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) as part of PI3K pathway dysregulation [PMID:22980975](../papers/22980975.md)
 - Loss more common in Basal-like breast cancer; activates PI3K pathway; mutually exclusive with [PIK3CA](../genes/PIK3CA.md), [PIK3R1](../genes/PIK3R1.md), and [AKT1](../genes/AKT1.md) mutations (P=0.025) in 510 TCGA breast tumors ([brca_tcga_pub](../datasets/brca_tcga_pub.md)) [PMID:23000897](../papers/23000897.md)
 - PI3K pathway dependence (involving PTEN loss) confirmed in hypodiploid ALL; PI3K inhibitors GDC-0941 and BEZ235 substantially inhibited proliferation of all hypodiploid ALL tumors ex vivo ([all_stjude_2013](../datasets/all_stjude_2013.md), 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
-- Mutated in 4/145 EAC tumors; part of PI3K-pathway alterations alongside [PIK3CA](../genes/PIK3CA.md) and [PIK3R1](../genes/PIK3R1.md) [PMID:23525077](../papers/23525077.md)
+- Mutated in 4/145 [EAC](../cancer_types/EAC.md) tumors; part of PI3K-pathway alterations alongside [PIK3CA](../genes/PIK3CA.md) and [PIK3R1](../genes/PIK3R1.md) [PMID:23525077](../papers/23525077.md)
 - Recurrently subclonal deletion in prostate cancer (p=10⁻⁵ vs [NKX3-1](../genes/NKX3-1.md) clonality); disrupted by chromoplexy in 9 cases; co-deleted with [PIK3R1](../genes/PIK3R1.md) in one chain, indicating PI3K-pathway convergence via structural rearrangement [PMID:23622249](../papers/23622249.md)
 - Mutated in 84% of MSS endometrioid and 94% of POLE-ultramutated endometrial tumors; only 11% in serous-like; co-occurs with [TP53](../genes/TP53.md) in endometrioid (50%) but rarely in serous (2.6%) [PMID:23636398](../papers/23636398.md)
-- PTEN R130fs and K144Q mutations (both in catalytic domain) co-occurring in one ACC tumor; part of the recurrently altered PI3K/AKT axis in adenoid cystic carcinoma [PMID:23685749](../papers/23685749.md)
+- PTEN R130fs and K144Q mutations (both in catalytic domain) co-occurring in one [ACC](../cancer_types/ACC.md) tumor; part of the recurrently altered PI3K/AKT axis in adenoid cystic carcinoma [PMID:23685749](../papers/23685749.md)
 - Among the top eight SMGs in ccRCC (q<0.00001); PTEN mutation enriched in m3 mRNA subtype (11% vs 1%, p<0.0001) in TCGA 450-case analysis [PMID:23792563](../papers/23792563.md)
 - Deletion in 4% of high-grade bladder tumors; deleted samples showed reduced PTEN mRNA expression [PMID:23897969](../papers/23897969.md)
 - Mutation/deletion mutually exclusive with PI3K mutations (p=0.0047) in [GBM](../cancer_types/GBM.md); combined PTEN/PI3K pathway alterations in 59.4% of [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
@@ -76,7 +76,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; PI3K-pathway heterogeneity clinically relevant given active PI3K inhibitor development and evidence [PIK3CA](../genes/PIK3CA.md) mutations may predict [aspirin](../drugs/aspirin.md) benefit [PMID:25164765](../papers/25164765.md)
 - Homozygous deletion of gene or promoter in 6/7 patient-derived CRPC organoid lines; biallelic loss in all CRPC lines; near-universal loss supports prioritizing PTEN/PI3K-pathway-directed therapy in CRPC [PMID:25201530](../papers/25201530.md)
 - Missense/nonsense/frameshift mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; co-occurs with [PIK3CA](../genes/PIK3CA.md); PI3K pathway hits support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
-- Significantly mutated in chromophobe renal cell carcinoma (chRCC) in a non-clear-cell RCC (nccRCC) multisubtype WES study [PMID:25401301](../papers/25401301.md)
+- Significantly mutated in chromophobe renal cell carcinoma (chRCC) in a non-clear-cell [RCC](../cancer_types/RCC.md) (nccRCC) multisubtype WES study [PMID:25401301](../papers/25401301.md)
 - PTEN focal deletions in 2 PTC tumors; 5 tumors showed PTEN loss through 10q23.31 deletions; PI3K/PPARγ pathway alterations including PTEN, AKT1/2, and PAX8/PPARG fusions found in 4.5% (18/402) of PTCs. [PMID:25417114](../papers/25417114.md)
 - PTEN identified as a driver gene in HBV-associated intrahepatic cholangiocarcinoma (iCCA) cohort; loss contributes to PI3K/AKT pathway dysregulation in CCA. [PMID:25526346](../papers/25526346.md)
 - PI3K/RAS negative regulator with inactivating events in 1–3 of 29 metastatic cSCC samples; component of the mTOR-dependent alteration axis associated with shorter PFS [PMID:25589618](../papers/25589618.md)
@@ -89,72 +89,76 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Homozygous deletion in 15% of primary prostate tumors (highest rates among TCGA tumor types); total alteration rate 17%; preferentially co-occurs with [ERG](../genes/ERG.md) fusion [PMID:26544944](../papers/26544944.md)
 - 10q23.3 deletion in 5/25 (20%) Sézary syndrome; functionally connected to recurrent [PREX2](../genes/PREX2.md) mutations that inhibit PTEN [PMID:26551667](../papers/26551667.md)
 - Mutated in n=168 diffuse gliomas (LGG/GBM) across TCGA multi-platform dataset; recovered as a known glioma driver [PMID:26824661](../papers/26824661.md)
-- PTEN mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³); NF1 truncating mutations co-occurred with PTEN truncation in 3 BRAF/RAS-WT ATCs (P=2×10⁻³). [PMID:26878173](../papers/26878173.md)
-- PTEN mutation unique to the plasmacytoid component of a mixed bladder tumor (alongside CDH1 Y68fs), supporting branched clonal evolution within the plasmacytoid variant. [PMID:26901067](../papers/26901067.md)
+- PTEN mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³); [NF1](../genes/NF1.md) truncating mutations co-occurred with PTEN truncation in 3 BRAF/RAS-WT ATCs (P=2×10⁻³). [PMID:26878173](../papers/26878173.md)
+- PTEN mutation unique to the plasmacytoid component of a mixed bladder tumor (alongside [CDH1](../genes/CDH1.md) Y68fs), supporting branched clonal evolution within the plasmacytoid variant. [PMID:26901067](../papers/26901067.md)
 - PTEN homozygous CN loss assessed for site-distribution analysis in mCRPC; no metastatic-site association was detected. [PMID:26928463](../papers/26928463.md)
 - Only one homozygous PTEN deletion observed (in the non-responding group) in 38 anti-PD-1-treated metastatic melanoma patients (WES); cohort was underpowered to confirm the Peng et al. 2015 PTEN-loss/immunotherapy-resistance association. [PMID:26997480](../papers/26997480.md)
 - Confirmed as a significantly mutated gene (pan-cancer tumor suppressor) in 619-case colorectal carcinoma WES cohort (NHS/HPFS); newly statistically designated as a CRC driver gene by virtue of cohort size. PTEN+10q23.1 deletion LOH coupling also noted in the METABRIC breast cancer cohort. [PMID:27149842](../papers/27149842.md)
-- Not highlighted as a significantly mutated gene in the 1,144-tumor NSCLC landscape study but referenced in the broader RTK/Ras/Raf pathway context; PI3K pathway alterations including PTEN inactivation contribute to oncogene-negative lung ADC. [PMID:27158780](../papers/27158780.md)
-- Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (Akt-signaling pathway TSG); PTEN + 10q23.1 deletion co-occurrence (OR=3.4) confirms classic two-hit inactivation; 15/57 PTEN-mutant tumors also carried recurrent PIK3CA mutations. [PMID:27161491](../papers/27161491.md)
+- Not highlighted as a significantly mutated gene in the 1,144-tumor [NSCLC](../cancer_types/NSCLC.md) landscape study but referenced in the broader RTK/Ras/Raf pathway context; PI3K pathway alterations including PTEN inactivation contribute to oncogene-negative lung ADC. [PMID:27158780](../papers/27158780.md)
+- Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (Akt-signaling pathway TSG); PTEN + 10q23.1 deletion co-occurrence (OR=3.4) confirms classic two-hit inactivation; 15/57 PTEN-mutant tumors also carried recurrent [PIK3CA](../genes/PIK3CA.md) mutations. [PMID:27161491](../papers/27161491.md)
 - PTEN loss-of-function mutations (n=5) plus missense VUS (n=4) detected in a germ cell tumor cohort; PI3K/mTOR pathway alterations as actionable targets for cisplatin-resistant patients [PMID:27646943](../papers/27646943.md).
 - PTEN alteration prompted PI3K-inhibitor trial enrollment in a recurrent/metastatic head and neck cancer NGS cohort [PMID:27442865](../papers/27442865.md).
-- Mutated in uRCC, falling within the mTORC1-hyperactive subset alongside MTOR, TSC1, and TSC2 mutations; mutually exclusive with other mTORC1-pathway alterations across 62 uRCC cases [PMID:27713405](../papers/27713405.md)
+- Mutated in uRCC, falling within the mTORC1-hyperactive subset alongside [MTOR](../genes/MTOR.md), [TSC1](../genes/TSC1.md), and [TSC2](../genes/TSC2.md) mutations; mutually exclusive with other mTORC1-pathway alterations across 62 uRCC cases [PMID:27713405](../papers/27713405.md)
 - Listed as a significantly mutated driver in HR+/HER2− metastatic breast cancer, also recurrent in early breast cancer [PMID:28027327](../papers/28027327.md)
-- PI3K-pathway alteration enriched in ESCC2 subtype alongside PIK3CA and PIK3R1; part of 24% PI3K-activating-alteration frequency in ESCCs in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
-- Partial loss via 10q deletion observed on methylation-derived copy-number profile in an EWSR1::BEND2 bladder sarcoma; flagged as potentially actionable (PI3K/AKT/mTOR pathway; possible mTOR-inhibitor or PARP-inhibitor sensitivity) but not pursued therapeutically [PMID:28199314](../papers/28199314.md)
-- 6 inactivating mutations in a prospective LUAD cohort (860 patients, MSK-IMPACT); classified as unmatched driver alteration [PMID:28336552](../papers/28336552.md)
+- PI3K-pathway alteration enriched in ESCC2 subtype alongside PIK3CA and [PIK3R1](../genes/PIK3R1.md); part of 24% PI3K-activating-alteration frequency in ESCCs in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
+- Partial loss via 10q deletion observed on methylation-derived copy-number profile in an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma; flagged as potentially actionable (PI3K/AKT/mTOR pathway; possible mTOR-inhibitor or PARP-inhibitor sensitivity) but not pursued therapeutically [PMID:28199314](../papers/28199314.md)
+- 6 inactivating mutations in a prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT); classified as unmatched driver alteration [PMID:28336552](../papers/28336552.md)
 - Focal deletion in primary tumors only in ALM (34 patients, WGS); additionally a PTEN::RPL11 fusion identified in a single tumor with no other PTEN alterations [PMID:28373299](../papers/28373299.md)
-- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurring with PIK3CA, PIK3R1, ERBB2, PPP2R1A, and FBXW7; supports classification of a subset of polyps as precursor lesions to UCEC [PMID:28445112](../papers/28445112.md)
+- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurring with PIK3CA, PIK3R1, [ERBB2](../genes/ERBB2.md), [PPP2R1A](../genes/PPP2R1A.md), and [FBXW7](../genes/FBXW7.md); supports classification of a subset of polyps as precursor lesions to [UCEC](../cancer_types/UCEC.md) [PMID:28445112](../papers/28445112.md)
 - Deletion in 1/19 (5%) of cases in the 1p/19q FISH false-positive subgroup with glioblastoma-like NGS signature in anaplastic oligodendroglioma cohort [PMID:28472509](../papers/28472509.md)
 - Assessed within 7-gene cross-histology panel in clear-cell endometrial carcinoma (CCEC); mutationally enriched in UEC-like profiles as part of the 34.9% of CCECs with PI3K-pathway alterations [PMID:28485815](../papers/28485815.md)
 - Altered in 79/500 (15.8%) in the MET500 pan-cancer metastatic cohort; also recurrently disrupted by fusions (n=11) [PMID:28783718](../papers/28783718.md)
-- Frequency rises sharply with castration resistance in prostate cancer (12% noncastrate → 29% mCRPC), co-occurring with RB1 loss; convergent PTEN+RB1 co-loss characterizes advanced mCRPC [PMID:28825054](../papers/28825054.md)
+- Frequency rises sharply with castration resistance in prostate cancer (12% noncastrate → 29% mCRPC), co-occurring with [RB1](../genes/RB1.md) loss; convergent PTEN+RB1 co-loss characterizes advanced mCRPC [PMID:28825054](../papers/28825054.md)
 - Recurrent rearrangements targeting PTEN identified in medulloblastoma (pan-MB WGS/WES cohort, n=491) [PMID:28726821](../papers/28726821.md)
 - PTEN shows a CRISPR-enriched (tumor-suppressor) pattern in DLBCL [PMID:28985567](../papers/28985567.md)
-- PTEN reviewed for homozygous CN loss in metastatic melanoma treated with nivolumab; no significant association with response to nivolumab was reported [PMID:29033130](../papers/29033130.md)
-- PTEN deletions (81% combined deep+shallow) and mutations (5%) in sarcoma; PI3K/AKT/MTOR pathway alterations in 84% of ULMS+STLMS C1 vs 44% of STLMS C2; nominates dual PI3K/MTOR or TORC1/TORC2 inhibitors [PMID:29100075](../papers/29100075.md)
+- PTEN reviewed for homozygous CN loss in metastatic melanoma treated with [nivolumab](../drugs/nivolumab.md); no significant association with response to nivolumab was reported [PMID:29033130](../papers/29033130.md)
+- PTEN deletions (81% combined deep+shallow) and mutations (5%) in sarcoma; PI3K/AKT/MTOR pathway alterations in 84% of [ULMS](../cancer_types/ULMS.md)+STLMS C1 vs 44% of STLMS C2; nominates dual PI3K/MTOR or TORC1/TORC2 inhibitors [PMID:29100075](../papers/29100075.md)
 - Altered in 35% of MSI-H vs 5% of MSS mCRC (p<0.01) in a cohort of 1,640 metastatic colorectal tumors [PMID:29316426](../papers/29316426.md)
 - Listed among antigen-presentation and immunology genes profiled in the MSK-IMPACT NSCLC cohort evaluating TMB and anti-PD-(L)1 response (n=240) [PMID:29337640](../papers/29337640.md)
 - Referenced from prior targeted-panel literature as recurrent in HPV(−) vulvar SCC; not identified as a new finding in this 15-tumor WES cohort [PMID:29422544](../papers/29422544.md)
-- Confirmed as a KIRC SMG by both MutSig2CV and MuSiC2 in the MC3 pan-cancer open-access MAF (10,510 TCGA tumor/normal pairs, 33 cancer types) [PMID:29596782](../papers/29596782.md).
-- Homozygous loss or truncating mutation in 16% of 1,013 prostate tumors (prad_p1000); PTEN alteration is enriched in metastatic vs. primary PRAD and is part of the genomic signature proposed for prospective risk stratification [PMID:29610475](../papers/29610475.md).
-- PTEN loss partitions UCEC into the CTNNB1–PTEN–CTCF mutually-exclusive driver network (as opposed to the TP53–PPP2R1A network); PTEN/ARID1A/CTNNB1/PIK3CA-enriched UCEC clusters have low TP53, consistent with copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
+- Confirmed as a [KIRC](../cancer_types/KIRC.md) SMG by both MutSig2CV and MuSiC2 in the MC3 pan-cancer open-access MAF (10,510 TCGA tumor/normal pairs, 33 cancer types) [PMID:29596782](../papers/29596782.md).
+- Homozygous loss or truncating mutation in 16% of 1,013 prostate tumors ([prad_p1000](../datasets/prad_p1000.md)); PTEN alteration is enriched in metastatic vs. primary [PRAD](../cancer_types/PRAD.md) and is part of the genomic signature proposed for prospective risk stratification [PMID:29610475](../papers/29610475.md).
+- PTEN loss partitions UCEC into the [CTNNB1](../genes/CTNNB1.md)–PTEN–[CTCF](../genes/CTCF.md) mutually-exclusive driver network (as opposed to the [TP53](../genes/TP53.md)–PPP2R1A network); PTEN/ARID1A/CTNNB1/PIK3CA-enriched UCEC clusters have low TP53, consistent with copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
 - PTEN inactivation is a core PI3K pathway driver; PIK3CA activation combined with PTEN loss dominates in head-and-neck, breast, GI, and gynecologic tumors; PTEN is enriched in ≥4 multiplatform iClusters as a frequently co-altered pan-cancer driver [PMID:29625050](../papers/29625050.md)
 - Focal 10q23.31 copy loss and truncating mutations define C3 GCB-DLBCL; N- and C-terminal mutations distinguished by roles in PI3K/AKT antagonism vs. genomic stability; dual PTEN inactivation mechanism in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
 - Significantly mutated in SMC Korean breast cancer cohort (3.2%, q=0.015); identified as a significantly mutated gene in 186 SMC tumors vs. TCGA comparator [PMID:29713003](../papers/29713003.md)
 - Zero responses among 4 patients with PTEN mutations receiving combination PD-1 + CTLA-4 immunotherapy in NSCLC; resistance association did not reach statistical significance due to small numbers [PMID:29657128](../papers/29657128.md)
-- PTEN recurrently altered in HR+HER2- metastatic breast cancer cohort with patterns consistent with primary disease; co-listed with CCND1 as a recurrently altered gene in this endocrine-therapy context [PMID:30205045](../papers/30205045.md)
-- PTEN truncating/homozygous deletion in 3.9% of advanced HCC in the MSK-IMPACT cohort; contributes to actionable PI3K-mTOR pathway alterations (~15% of sorafenib-evaluable patients) associated with worse sorafenib outcomes [PMID:30373752](../papers/30373752.md)
+- PTEN recurrently altered in HR+HER2- metastatic breast cancer cohort with patterns consistent with primary disease; co-listed with [CCND1](../genes/CCND1.md) as a recurrently altered gene in this endocrine-therapy context [PMID:30205045](../papers/30205045.md)
+- PTEN truncating/homozygous deletion in 3.9% of advanced [HCC](../cancer_types/HCC.md) in the MSK-IMPACT cohort; contributes to actionable PI3K-mTOR pathway alterations (~15% of sorafenib-evaluable patients) associated with worse [sorafenib](../drugs/sorafenib.md) outcomes [PMID:30373752](../papers/30373752.md)
 - PTEN had the highest biallelic-inactivation rate among recurrently altered genes in EOPC prostate cancer (12 samples); some PTEN breakpoints co-localize with APOBEC C/G kataegis clusters; PTEN loss is enriched in CC2-low/CC7-high (most aggressive) molecular subgroup (p < 0.0001) [PMID:30537516](../papers/30537516.md).
-- PTEN somatic alteration in 10/80 (13%) metastatic panNET patients (MSK-IMPACT panet_msk_2018); LOH enriched in PTEN-altered tumors (q<0.05); acquired oncogenic PTEN Q298* at everolimus + alpelisib progression in one patient (serial sequencing); OncoKB Level 4 actionable in 8 patients [PMID:30687805](../papers/30687805.md)
-- PTEN mutated in 23/32 IDH1-wild-type non-responders vs 3/13 responders to anti-PD-1 in recurrent GBM (OR=8.5, Fisher p=0.0063, FDR-corrected p<0.05); mechanistically linked to PI3K-AKT pathway activation, immunosuppressive CD44+ tumor cell signature, higher macrophage/microglial/neutrophil infiltration, and reduced T-cell infiltration after immunotherapy (p=0.0095) [PMID:30742119](../papers/30742119.md)
-- PTEN is among germline P/LP alleles tied to heritable cancer syndromes (with TP53, NF1, BRCA2, RB1) in glioma patients; identified in the longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
-- PTEN is frequently altered (32% within the PI3K-pathway oncoprint) in mCRPC; co-occurs with ERG; not independently prognostic on ARSI in this tumor cohort [PMID:31061129](../papers/31061129.md)
+- PTEN somatic alteration in 10/80 (13%) metastatic panNET patients (MSK-IMPACT [panet_msk_2018](../datasets/panet_msk_2018.md)); LOH enriched in PTEN-altered tumors (q<0.05); acquired oncogenic PTEN Q298* at [everolimus](../drugs/everolimus.md) + [alpelisib](../drugs/alpelisib.md) progression in one patient (serial sequencing); OncoKB Level 4 actionable in 8 patients [PMID:30687805](../papers/30687805.md)
+- PTEN mutated in 23/32 IDH1-wild-type non-responders vs 3/13 responders to anti-PD-1 in recurrent [GBM](../cancer_types/GBM.md) (OR=8.5, Fisher p=0.0063, FDR-corrected p<0.05); mechanistically linked to PI3K-AKT pathway activation, immunosuppressive [CD44](../genes/CD44.md)+ tumor cell signature, higher macrophage/microglial/neutrophil infiltration, and reduced T-cell infiltration after immunotherapy (p=0.0095) [PMID:30742119](../papers/30742119.md)
+- PTEN is among germline P/LP alleles tied to heritable cancer syndromes (with TP53, NF1, [BRCA2](../genes/BRCA2.md), RB1) in glioma patients; identified in the longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
+- PTEN is frequently altered (32% within the PI3K-pathway oncoprint) in mCRPC; co-occurs with [ERG](../genes/ERG.md); not independently prognostic on ARSI in this tumor cohort [PMID:31061129](../papers/31061129.md)
 - PTEN is a significantly mutated driver (dNdScv q<0.1) in combined hepatocellular-cholangiocarcinoma (cHCC-ICC) [PMID:31130341](../papers/31130341.md)
-- PTEN deletions/mutations associated with progressive disease (PD) at first scan in ER+/HER2- metastatic breast cancer patients treated with buparlisib + letrozole, except for a deep PTEN deletion in the single PR patient [PMID:31552290](../papers/31552290.md).
-- Copy-number loss (homozygous in 2 ROIs, heterozygous in 3 ROIs) called by FACETS from IMPACT468 in localized prostate adenocarcinoma; homozygous PTEN loss tracked with highest HP lactate signal (P=0.059), consistent with PI3K-pathway de-repression driving increased glycolytic flux [PMID:31564440](../papers/31564440.md).
+- PTEN deletions/mutations associated with progressive disease (PD) at first scan in ER+/HER2- metastatic breast cancer patients treated with [buparlisib](../drugs/buparlisib.md) + [letrozole](../drugs/letrozole.md), except for a deep PTEN deletion in the single PR patient [PMID:31552290](../papers/31552290.md).
+- Copy-number loss (homozygous in 2 ROIs, heterozygous in 3 ROIs) called by FACETS from [IMPACT468](../methods/IMPACT468.md) in localized prostate adenocarcinoma; homozygous PTEN loss tracked with highest HP lactate signal (P=0.059), consistent with PI3K-pathway de-repression driving increased glycolytic flux [PMID:31564440](../papers/31564440.md).
 - Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
 - Alteration in 48% of GBM PDX (n=84); GBM168 patient carried a private PTEN alteration not detected in the matched PDX, illustrating divergence during engraftment [PMID:31852831](../papers/31852831.md)
 - Pan-cancer PCAWG driver in 269 tumors [PMID:32025007](../papers/32025007.md)
 - Mutated in 92% of MSI endometrial tumors (FDR = 0) in the CPTAC EC multi-omic cohort [PMID:32059776](../papers/32059776.md)
 - Enriched in metastatic vs. primary uLMS samples (p=0.046; uLMS subset p=0.04); alterations in 80 uterine leiomyosarcoma patients profiled by MSK-IMPACT [PMID:32299819](../papers/32299819.md)
-- Low-frequency alteration (2%) in upper-tract urothelial carcinoma (UTUC); identified in MSK-IMPACT profiling of UTUC cohort and matched PDX models [PMID:32332851](../papers/32332851.md)
-- PI3K-pathway alteration in metastatic castration-sensitive prostate cancer (mCSPC, n=424 patients, MSK-IMPACT); not prognostic in multivariable models for castration resistance (HR 1.27, 95% CI 0.94–1.73) or OS (HR 0.95, 95% CI 0.58–1.56), consistent with mCRPC findings [PMID:32220891](../papers/32220891.md)
-- Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- MBC biopsies in this cohort [PMID:32404308](../papers/32404308.md)
+- Low-frequency alteration (2%) in upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)); identified in MSK-IMPACT profiling of UTUC cohort and matched PDX models [PMID:32332851](../papers/32332851.md)
+- PI3K-pathway alteration in metastatic castration-sensitive prostate cancer (mCSPC, n=424 patients, MSK-IMPACT); not prognostic in multivariable models for castration resistance (HR 1.27, 95% CI 0.94–1.73) or [OS](../cancer_types/OS.md) (HR 0.95, 95% CI 0.58–1.56), consistent with mCRPC findings [PMID:32220891](../papers/32220891.md)
+- Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- [MBC](../cancer_types/MBC.md) biopsies in this cohort [PMID:32404308](../papers/32404308.md)
 - Mutated in 10% of refractory metastatic TNBC patients in the FUSCC cohort (n=69); flagged as part of a resistance-mutation tendency in progressive-disease patients across the whole cohort and arm E (anti-VEGFR). [PMID:32719455](../papers/32719455.md)
-- Enriched in C-terminal APC mutant MSS mCRC tumors vs N-terminal (12% vs 3%; p<0.01, q<0.1) in 430 patients; part of co-occurring mitogenic activation pattern associated with shorter OS/PFS. [PMID:32730818](../papers/32730818.md)
+- Enriched in C-terminal [APC](../genes/APC.md) mutant MSS mCRC tumors vs N-terminal (12% vs 3%; p<0.01, q<0.1) in 430 patients; part of co-occurring mitogenic activation pattern associated with shorter OS/PFS. [PMID:32730818](../papers/32730818.md)
 - Loss-of-function alterations (including A126S, R130*, truncating mutations, and homozygous deletions) in 25% (8/32) of paired-ctDNA patients in the alpelisib + AI trial (NCT01870505, n=51 HR+ MBC); three pre-existing (intrinsic resistance) and five therapy-emergent (acquired resistance); co-occurring PTEN loss + PIK3CA mutation disrupts the canonical mutual exclusivity seen in primary breast cancer. [PMID:32864625](../papers/32864625.md)
 - Loss-of-function alterations (deep deletions, truncations, C2-domain P204S, plus VUS) are the headline biomarker of intrinsic BRAFi resistance in BRAF-mutant melanoma: enriched in poor responders (P = .005), associated with shorter PFS (HR 3.46) and OS (HR 3.10) [PMID:32913971](../papers/32913971.md)
 - Referenced in prior reports describing concurrent GCT/AMKL with shared TP53 and PTEN mutations; not a primary driver in this 15-patient NSGCT-associated hematologic malignancy cohort [PMID:32897884](../papers/32897884.md)
 - p.QYPFEDH87fs detected in normal melanocytes from sun-damaged skin (Donor 13, ear); PI3K-pathway frameshift alteration in histologically normal tissue, consistent with somatic mosaicism preceding clinical melanoma [PMID:33029006](../papers/33029006.md)
 - Mutations/deletions in proneural, mesenchymal, and classical GBM subtypes with concordant RNA and protein decrease; loss activates downstream AKT1/AKT2 signaling [PMID:33577785](../papers/33577785.md)
 - Mutations identified only in TERT-WT metaplastic breast carcinomas (MBC); not reaching statistical significance after multiple-testing correction [PMID:33863915](../papers/33863915.md)
-- Mutated or focally deleted in 6.0% of CSCC tumors; PI3K pathway co-alteration with PIK3CA in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
+- Mutated or focally deleted in 6.0% of [CSCC](../cancer_types/CSCC.md) tumors; PI3K pathway co-alteration with PIK3CA in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
 - Assessed at ≥2% alteration frequency in LUAD; no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
-- Loss (8% of HR+/HER2− breast cancer cohort) upregulates CDK6 via AKT activation; AKT inhibitor MK-2206 (2 µmol/L) reverses CDK6 induction in PTEN-knockdown cells, driving abemaciclib resistance. [PMID:34544752](../papers/34544752.md)
+- Loss (8% of HR+/HER2− breast cancer cohort) upregulates [CDK6](../genes/CDK6.md) via AKT activation; AKT inhibitor MK-2206 (2 µmol/L) reverses CDK6 induction in PTEN-knockdown cells, driving [abemaciclib](../drugs/abemaciclib.md) resistance. [PMID:34544752](../papers/34544752.md)
 - Fewer alterations in Black and Asian prostate cancer patients compared to White patients (particularly fewer mutations) in MSK-IMPACT cohort (n=1,123); relevant to PI3K-inhibitor strategies in prostate cancer. [PMID:34667026](../papers/34667026.md)
 - Co-occurring PI3K-pathway alteration (2.6% of HER2+ breast cancer cohort); MAPK-pathway resistance signal in HER2+ breast cancer is independent of PTEN/PI3K status. [PMID:34795269](../papers/34795269.md)
-- Mutation and deletion enriched in metastases in 4 tumor types: more frequent in SKCM brain metastases (7% vs 23%, q=0.01) and in SKCM patients with brain metastasis (7% vs 14%, q=0.04); PTEN deletion more frequent in PRAD bone mets (9% vs 19%, q<0.001) and loss more frequent in PRAD liver mets (11% vs 30%, q<0.001) [PMID:35120664](../papers/35120664.md)
+- Mutation and deletion enriched in metastases in 4 tumor types: more frequent in [SKCM](../cancer_types/SKCM.md) brain metastases (7% vs 23%, q=0.01) and in SKCM patients with brain metastasis (7% vs 14%, q=0.04); PTEN deletion more frequent in PRAD bone mets (9% vs 19%, q<0.001) and loss more frequent in PRAD liver mets (11% vs 30%, q<0.001) [PMID:35120664](../papers/35120664.md)
+- PTEN I135V identified as an early/truncal event in the evolutionary tree of a CRC dual MAPK-driver case (P-0021518) via single-cell genotyping; PTEN co-mutations surveyed in CRC-DD cohort (n=47/4,561 MSK-IMPACT cases) [PMID:35235413](../papers/35235413.md)
+- PTEN losses (n=25) alongside 23 PIK3CA/PIK3R1 events in the MAPPYACTS pediatric relapsed cohort (n=787); combined PI3K pathway alterations matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), everolimus) in AcSé-ESMART arms E/F [PMID:35292802](../papers/35292802.md)
+- PTEN PI3K pathway lesions present at [selpercatinib](../drugs/selpercatinib.md) baseline in RET-fusion-positive lung cancers did not preclude response; clinical benefit rate in PI3K/PTEN-co-altered patients was 91%; PTEN alterations did not emerge as resistance drivers [PMID:35304457](../papers/35304457.md)
+- PTEN shared between LUAD and [SCLC](../cancer_types/SCLC.md) components of the MSK773 admixed tumor (clonal event), indicating PTEN loss preceded histologic divergence in the SCLC PDX/CDX characterization study (26 clinical + 42 PDX/CDX models) [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -320,7 +324,19 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:34667026](../papers/34667026.md)
 - [PMID:34795269](../papers/34795269.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FGFR3
@@ -39,21 +39,21 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - G380R transmembrane-domain mutation (constitutively active, the achondroplasia allele) identified as an oncogenic activating event in cSCC [PMID:25589618](../papers/25589618.md)
 - Amplification in 2% HPV(-) vs 11% HPV(+) HNSCC; FGFR3-TACC3 fusions in 2 HPV(+) tumors [PMID:25631445](../papers/25631445.md)
 - Activating missense (e.g., S249C) in 22/23 low-grade and 27.1% of high-grade [UTUC](../cancer_types/UTUC.md); 5 FGFR3-TACC3 gene fusions in high-grade [UTUC](../cancer_types/UTUC.md); enriched vs UCB and associated with low grade/lower T stage; largest targetable alteration in [UTUC](../cancer_types/UTUC.md) [PMID:26278805](../papers/26278805.md)
-- FGFR3 mutation identified in one adenoid cystic carcinoma (ACYC) patient, who was enrolled on an FGFR inhibitor trial through MSK-IMPACT-guided basket study [PMID:27442865](../papers/27442865.md)
+- FGFR3 mutation identified in one adenoid cystic carcinoma ([ACYC](../cancer_types/ACYC.md)) patient, who was enrolled on an FGFR inhibitor trial through MSK-IMPACT-guided basket study [PMID:27442865](../papers/27442865.md)
 - FGFR3 alterations (including activating mutations and fusions) were profiled across cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
-- Hotspot mutations in 49% of NMIBC overall (more frequent in lower grade/stage); four fusions identified including novel FGFR3-TNIP2 and FGFR3-TACC3; mutually exclusive with ERBB2; together covers 57% of high-grade NMIBC [PMID:28583311](../papers/28583311.md)
+- Hotspot mutations in 49% of NMIBC overall (more frequent in lower grade/stage); four fusions identified including novel FGFR3-TNIP2 and FGFR3-TACC3; mutually exclusive with [ERBB2](../genes/ERBB2.md); together covers 57% of high-grade NMIBC [PMID:28583311](../papers/28583311.md)
 - FGFR3-TACC3 fusion reported for the first time in cholangiocarcinoma (CCA) in the 489-sample ICGC multi-platform cohort; this fusion was previously characterized as oncogenic in bladder cancer, glioblastoma, and lung cancer [PMID:28667006](../papers/28667006.md)
 - Hotspot S249C/Y373C mutations dominate in MIBC; enriched in luminal-papillary subtype (42/57; p<10⁻⁹) and lower-stage T2 tumors (21% vs 10% T3/T4, p=0.003); associated with better survival (p=0.04); recurrent FGFR3-TACC3 fusions (n=10); dominant driver in 44% of luminal-papillary tumors; candidate for pan-FGFR tyrosine kinase inhibitors [PMID:28988769](../papers/28988769.md)
 - Highly expressed in CR/PR vs PD melanoma patients pre-therapy (189-DEG set, q<0.20) in nivolumab-treated cohort; nominated as an immune-environment modulator predictive of anti-PD-1 response [PMID:29033130](../papers/29033130.md)
-- High FGFR3 expression is characteristic of the synovial sarcoma (SS) iCluster C4 in soft-tissue sarcoma (p=7e-20) [PMID:29100075](../papers/29100075.md)
-- FGFR3-TACC3 inframe activating kinase fusion detected in BLCA (2.0%), CESC (1.7%), and LUSC (1.2%); FGFR3 is a druggable target in 15 cancer types and shows predicted fusion-derived neoantigens among the highest in the pan-cancer atlas. [PMID:29617662](../papers/29617662.md)
-- FGFR3 mutations are mutually exclusive with TP53 mutations pan-cancer, placing FGFR3 and TP53 in separate somatic-interaction networks across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
+- High FGFR3 expression is characteristic of the synovial sarcoma ([SS](../cancer_types/SS.md)) iCluster C4 in soft-tissue sarcoma (p=7e-20) [PMID:29100075](../papers/29100075.md)
+- FGFR3-TACC3 inframe activating kinase fusion detected in [BLCA](../cancer_types/BLCA.md) (2.0%), [CESC](../cancer_types/CESC.md) (1.7%), and [LUSC](../cancer_types/LUSC.md) (1.2%); FGFR3 is a druggable target in 15 cancer types and shows predicted fusion-derived neoantigens among the highest in the pan-cancer atlas. [PMID:29617662](../papers/29617662.md)
+- FGFR3 mutations are mutually exclusive with [TP53](../genes/TP53.md) mutations pan-cancer, placing FGFR3 and TP53 in separate somatic-interaction networks across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
 - FGFR3 shows exceptional co-occurrence with PI3K-pathway alterations (versus typical RTK-RAS/PI3K mutual exclusivity) in pan-cancer analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
-- FGFR3 activating mutations in 60% (9/15) of non-recurrent bladder organoid lines; SCBO-10 carries an FGFR3-TACC3 fusion (exon 17-exon 11 junction, same junction reported in GBM and bladder line RT112); FGFR3 mutation alone did not predict trametinib/SCH772984 response; no organoid line responded to any of three FGFR inhibitors tested [PMID:29625057](../papers/29625057.md)
-- FGFR3 fusions noted as therapeutically relevant alongside FGFR2; n=2 patients combined enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
+- FGFR3 activating mutations in 60% (9/15) of non-recurrent bladder organoid lines; SCBO-10 carries an FGFR3-TACC3 fusion (exon 17-exon 11 junction, same junction reported in [GBM](../cancer_types/GBM.md) and bladder line RT112); FGFR3 mutation alone did not predict trametinib/SCH772984 response; no organoid line responded to any of three FGFR inhibitors tested [PMID:29625057](../papers/29625057.md)
+- FGFR3 fusions noted as therapeutically relevant alongside [FGFR2](../genes/FGFR2.md); n=2 patients combined enrolled to FGFR-inhibitor trials in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
 - Altered in 18% of secondary MIBC; framed as a potentially actionable target for FGFR-axis small-molecule inhibitors in this chemotherapy-refractory subgroup [PMID:30290956](../papers/30290956.md)
-- FGFR3–TACC3 fusions were identified in 16 patients across a 931-tumor MSK-IMPACT longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
-- FGFR3 activating missense mutations in 11/37 (29.7%) UTUC tumors, significantly higher than 13.7% in TCGA UCB (P=0.04); outlier-overexpressed in 14/32 UTUC tumors; proposed as a cell-intrinsic driver of T-cell-depleted phenotype via suppression of IFNG response genes; recurrent FGFR3–TACC3 and FGFR3–BAIAP2L1 fusions present [PMID:31278255](../papers/31278255.md)
+- FGFR3–[TACC3](../genes/TACC3.md) fusions were identified in 16 patients across a 931-tumor MSK-IMPACT longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
+- FGFR3 activating missense mutations in 11/37 (29.7%) [UTUC](../cancer_types/UTUC.md) tumors, significantly higher than 13.7% in TCGA UCB (P=0.04); outlier-overexpressed in 14/32 UTUC tumors; proposed as a cell-intrinsic driver of T-cell-depleted phenotype via suppression of [IFNG](../genes/IFNG.md) response genes; recurrent FGFR3–TACC3 and FGFR3–[BAIAP2L1](../genes/BAIAP2L1.md) fusions present [PMID:31278255](../papers/31278255.md)
 - FGFR3 amplification in 1 GBM PDX; canonical FGFR3-TACC3 fusion in three PDX lines (GBM14, GBM148, GBM232); two novel fusions FGFR3-TRIM54 and FGFR3-CALCOCO1 also identified — all flagged as potentially targetable with FGFR inhibitors [PMID:31852831](../papers/31852831.md)
 - FGFR3 is among the genes frequently copy-number altered in endometrial cancer, consistent with TCGA findings [PMID:32059776](../papers/32059776.md)
 - Activating hotspots (incl. R248C, S249C) in 47–48% of UTUC, restricted to luminal-subtype tumors; favorable prognostic marker; R248C enriched in Lynch-syndrome UTUC and in 3/4 MSI-H PDX pairs [PMID:32332851](../papers/32332851.md)
@@ -61,6 +61,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed predominantly as a co-alteration with primary MAPK pathway drivers [PMID:33509808](../papers/33509808.md)
 - FGFR3 point mutations conferring resistance to FGFR inhibitors detected in bladder cancers with FGFR3-TACC3 fusions; FGFR3 also recurrently altered in bladder cancer in the MSK-ACCESS liquid biopsy study [PMID:34145282](../papers/34145282.md)
 - Mutations more frequent in bladder urothelial lung metastases (11% primary vs 39% lung met, q=0.005), identifying FGFR3-mutant urothelial tumors as having enhanced lung-tropic dissemination potential [PMID:35120664](../papers/35120664.md)
+- FGFR3 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -94,118 +95,121 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

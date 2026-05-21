@@ -10,18 +10,19 @@ tags:
   - astroblastoma
   - sarcoma
 processed_by: crosslinker
-processed_at: 2026-05-14
+processed_at: 2026-05-21
 ---
 
 # MN1
 
 ## Overview
 
-MN1 (MN1 Proto-Oncogene, Transcriptional Regulator) encodes a transcriptional regulator initially identified at the translocation breakpoint of meningioma. It is most prominently associated with astroblastoma, where MN1::[BEND2](../genes/BEND2.md) fusions define an epigenetic subtype of this rare brain tumor. MN1 is referenced in the context of [EWSR1](../genes/EWSR1.md)::BEND2 fusion sarcomas as the canonical fusion partner that is replaced by EWSR1 in non-CNS presentations.
+MN1 (MN1 Proto-Oncogene, Transcriptional Regulator) encodes a transcriptional regulator initially identified at the translocation breakpoint of meningioma. It is most prominently associated with astroblastoma, where MN1::[BEND2](../genes/BEND2.md) fusions define an epigenetic subtype of this rare brain tumor. MN1 is referenced in the context of [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcomas as the canonical fusion partner that is replaced by [EWSR1](../genes/EWSR1.md) in non-CNS presentations.
 
 ## Alterations observed in the corpus
 
 - MN1 discussed as the canonical fusion partner in astroblastoma; MN1::BEND2 fusions characterize an epigenetic subtype of astroblastoma to which an EWSR1::BEND2 bladder sarcoma showed weak methylation classifier similarity (prediction score 0.364); the EWSR1 breakpoint in the bladder sarcoma case (exon 10) differs from those in MN1::BEND2 / EWSR1::BEND2 astroblastomas [PMID:28199314](../papers/28199314.md)
+- MN1 was among recurrently altered genes in the CNS oncomap of the MAPPYACTS pediatric precision oncology cohort, identified at the investigational actionability tier [PMID:35292802](../papers/35292802.md).
 
 ## Cancer types (linked)
 
@@ -44,4 +45,7 @@ MN1 (MN1 Proto-Oncogene, Transcriptional Regulator) encodes a transcriptional re
 
 - [PMID:28199314](../papers/28199314.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

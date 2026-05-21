@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [protein-tyrosine-phosphatase, tumor-suppressor, colorectal-cancer]
 processed_by: crosslinker
-processed_at: 2026-05-15
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -18,6 +18,7 @@ PTPRS (Protein Tyrosine Phosphatase Receptor Type S) encodes a receptor-type pro
 ## Alterations observed in the corpus
 
 - Identified as a novel recurrently mutated gene (1–4% frequency) in MSS metastatic colorectal cancer by MSK-IMPACT targeted sequencing of 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
+- NSCLC-typical mutations in PTPRS observed in MSK1053, MSK773D/E/G/I PDX subsets ([SCLC](../cancer_types/SCLC.md) models with adenocarcinoma features); co-occurring with [SMARCA4](../genes/SMARCA4.md), [STK11](../genes/STK11.md), and [KEAP1](../genes/KEAP1.md) alterations [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 
@@ -40,4 +41,7 @@ PTPRS (Protein Tyrosine Phosphatase Receptor Type S) encodes a receptor-type pro
 
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

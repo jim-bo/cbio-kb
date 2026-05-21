@@ -5,8 +5,8 @@ drug_class: anti-EGFR monoclonal antibody (IgG1)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antibody, egfr, radiosensitizer]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # cetuximab
@@ -20,16 +20,17 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - In preclinical radiosensitization studies, C-MMAE (cetuximab conjugated to MMAE via MC-VC linker, DAR ~3.7) selectively radiosensitized [EGFR](../genes/EGFR.md)+ tumor cells (CAL-27, CALU3, A549, SCC-61) but not EGFR-low LN229 cells, while the antibody-only control (cetuximab alone) showed no significant radiosensitization effect — distinguishing receptor-mediated payload delivery from [EGFR](../genes/EGFR.md) signal inhibition [PMID:27698471](../papers/27698471.md).
 - C-MMAE accumulated in [EGFR](../genes/EGFR.md)+ xenografts (CAL-27 [HNSC](../cancer_types/HNSC.md); SCC-61, SCC-35, SQ-9G [HNSC](../cancer_types/HNSC.md); A549 [NSCLC](../cancer_types/NSCLC.md); HCT-116 colon) by Cy5 fluorescence imaging after i.v. injection, persisting ≥72 h; LN229 (EGFR-low) did not accumulate C-MMAE [PMID:27698471](../papers/27698471.md).
 - In CAL-27 ([HNSC](../cancer_types/HNSC.md)) xenografts, C-MMAE + IR (3 Gy × 2 fractions) produced significantly greater tumour-growth delay than cetuximab + IR, free MMAE + IR, or co-administered free MMAE + cetuximab + IR (P<0.0001 by day 35); co-administration of free payload + antibody was inferior to the conjugate, demonstrating that covalent coupling is required for tumour-restricted radiosensitization [PMID:27698471](../papers/27698471.md).
-- The authors note that clinical trials adding cetuximab to cytotoxic chemoradiotherapy in [NSCLC](../cancer_types/NSCLC.md) or HNSCC failed to improve outcomes (referenced as negative trials), motivating the ADC-delivery paradigm over signal inhibition alone [PMID:27698471](../papers/27698471.md).
+- The authors note that clinical trials adding cetuximab to cytotoxic chemoradiotherapy in [NSCLC](../cancer_types/NSCLC.md) or HNSCC failed to improve outcomes (referenced as negative trials), motivating the ADC-delivery [paradigm](../methods/paradigm.md) over signal inhibition alone [PMID:27698471](../papers/27698471.md).
 - Used in combination with [sotorasib](../drugs/sotorasib.md) (KRASG12C inhibitor) to treat KRASG12C-mutant colorectal cancer; KRASG12C amplification identified as a recurrent acquired resistance mechanism, with mTOR inhibition (AZD8055) proposed as a senolytic strategy after drug withdrawal [PMID:36355783](../papers/36355783.md)
-- EGFR amplification (16% of OSCC) was identified as the basis for cetuximab targeting in HNSCC, but downstream PI3K pathway alterations ([HRAS](../genes/HRAS.md), [PIK3CA](../genes/PIK3CA.md), [BRAF](../genes/BRAF.md), [AKT1](../genes/AKT1.md)) may limit EGFR-inhibitor efficacy; no biomarker for cetuximab response was identified [PMID:23619168](../papers/23619168.md)
-- Cited as a monoclonal antibody targeting EGFR in NPC with limited benefit; used as reference for EGFR-targeted therapy including ADC comparisons [PMID:24952746](../papers/24952746.md)
-- KRAS, NRAS, and BRAF driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, confirming that sequencing either site is equally valid for determining cetuximab eligibility [PMID:25164765](../papers/25164765.md)
-- Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via anti-EGFR monoclonal antibody therapy; cetuximab trials in cSCC noted alongside gefitinib in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
-- EGFR-targeting monoclonal antibody; noted as the last approved targeted therapy for HNSC (approved 2006); no new targeted therapies validated since, motivating routine NGS in recurrent/metastatic HNSC [PMID:27442865](../papers/27442865.md)
-- OncoKB Level 1 resistance biomarkers for cetuximab in [COADREAD](../cancer_types/COADREAD.md) are hotspot KRAS and NRAS mutations (44% and listed frequency respectively in this 1,134-CRC MSK-IMPACT cohort); one acquired-resistance case carried EGFR S492R after 1.5 years of cetuximab, concurrent with ERBB2 amplification [PMID:29316426](../papers/29316426.md)
+- [EGFR](../genes/EGFR.md) amplification (16% of OSCC) was identified as the basis for cetuximab targeting in HNSCC, but downstream PI3K pathway alterations ([HRAS](../genes/HRAS.md), [PIK3CA](../genes/PIK3CA.md), [BRAF](../genes/BRAF.md), [AKT1](../genes/AKT1.md)) may limit EGFR-inhibitor efficacy; no biomarker for cetuximab response was identified [PMID:23619168](../papers/23619168.md)
+- Cited as a monoclonal antibody targeting EGFR in [NPC](../cancer_types/NPC.md) with limited benefit; used as reference for EGFR-targeted therapy including ADC comparisons [PMID:24952746](../papers/24952746.md)
+- [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, confirming that sequencing either site is equally valid for determining cetuximab eligibility [PMID:25164765](../papers/25164765.md)
+- Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via anti-EGFR monoclonal antibody therapy; cetuximab trials in cSCC noted alongside [gefitinib](../drugs/gefitinib.md) in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
+- EGFR-targeting monoclonal antibody; noted as the last approved targeted therapy for [HNSC](../cancer_types/HNSC.md) (approved 2006); no new targeted therapies validated since, motivating routine NGS in recurrent/metastatic HNSC [PMID:27442865](../papers/27442865.md)
+- OncoKB Level 1 resistance biomarkers for cetuximab in [COADREAD](../cancer_types/COADREAD.md) are hotspot KRAS and NRAS mutations (44% and listed frequency respectively in this 1,134-CRC MSK-IMPACT cohort); one acquired-resistance case carried EGFR S492R after 1.5 years of cetuximab, concurrent with [ERBB2](../genes/ERBB2.md) amplification [PMID:29316426](../papers/29316426.md)
 - KRAS-mutant rectal cancer tumoroids were resistant to cetuximab ex vivo while KRAS wild-type tumoroids were sensitive, recapitulating the established CRC clinical finding; cetuximab is not standard therapy in rectal cancer but validated the tumoroid platform's biological fidelity [PMID:31591597](../papers/31591597.md)
-- In LUSC, EGFR amplification did not correlate with PROGENy-based EGFR pathway activity, which instead tracked EGFR ligand mRNA abundance; the authors propose ligand abundance — rather than EGFR amplification — may better stratify response to ligand-blocking agents like cetuximab in squamous lung tumors [PMID:34358469](../papers/34358469.md)
+- In [LUSC](../cancer_types/LUSC.md), EGFR amplification did not correlate with PROGENy-based EGFR pathway activity, which instead tracked EGFR ligand mRNA abundance; the authors propose ligand abundance — rather than EGFR amplification — may better stratify response to ligand-blocking agents like cetuximab in squamous lung tumors [PMID:34358469](../papers/34358469.md)
+- Cetuximab (anti-EGFR) is restricted to RAS wild-type CRC; the dual-driver CRC paper shows 1.03% of CRC patients harbor dual RAS hotspot/BRAF V600E mutations — pre-treatment subclonal RAS mutations may coexist and complicate anti-EGFR biomarker interpretation [PMID:35235413](../papers/35235413.md)
 
 ## Resistance mechanisms
 
@@ -44,31 +45,34 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31591597](../papers/31591597.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

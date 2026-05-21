@@ -5,8 +5,8 @@ drug_class: taxane microtubule stabilizer
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, anti-tubulin, radiosensitizer]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # paclitaxel
@@ -22,12 +22,13 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - 94% of the 489 [HGSOC](../cancer_types/HGSOC.md) patients in the TCGA ovarian carcinoma cohort received a taxane (paclitaxel-class) alongside platinum-based chemotherapy [PMID:21720365](../papers/21720365.md)
 - TCGA endometrial cancer analysis (2013) identifies copy-number-high serous-like endometrial tumors (TP53-mutant, ~25% of high-grade endometrioid) as candidates for chemotherapy including paclitaxel, rather than standard adjuvant radiotherapy for endometrioid carcinoma [PMID:23636398](../papers/23636398.md)
 - Implicated in standard chemotherapy regimens for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); clonal heterogeneity analysis (HiC subtype, adjusted HR 4.69, P=0.0043) suggests combination targeting strategies are needed to address subclonal drivers [PMID:25583476](../papers/25583476.md)
-- Taxane chemotherapy; usable from second trimester in pregnant young-onset NSCLC patients as part of platinum-based combination regimens [PMID:27346245](../papers/27346245.md)
-- Taxane; listed among salvage/combination regimens in the clinical context of cisplatin-resistant GCT management [PMID:27646943](../papers/27646943.md)
-- TRMT10A loss in 22Rv1 and C4-2 mCRPC cells enhanced sensitivity to paclitaxel in addition to PARP inhibitors, consistent with impaired homologous recombination shifting double-strand break repair toward NHEJ/MMEJ [PMID:28068672](../papers/28068672.md)
-- Paclitaxel-containing regimens were used as chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict platinum-based regimen PFS (HR=0.99, P=0.947) and MSI-H patients had inferior outcomes on cytotoxic therapy [PMID:29122777](../papers/29122777.md)
+- Taxane chemotherapy; usable from second trimester in pregnant young-onset [NSCLC](../cancer_types/NSCLC.md) patients as part of platinum-based combination regimens [PMID:27346245](../papers/27346245.md)
+- Taxane; listed among salvage/combination regimens in the clinical context of cisplatin-resistant [GCT](../cancer_types/GCT.md) management [PMID:27646943](../papers/27646943.md)
+- [TRMT10A](../genes/TRMT10A.md) loss in 22Rv1 and C4-2 mCRPC cells enhanced sensitivity to paclitaxel in addition to PARP inhibitors, consistent with impaired homologous recombination shifting double-strand break repair toward NHEJ/MMEJ [PMID:28068672](../papers/28068672.md)
+- Paclitaxel-containing regimens were used as chemotherapy in the 295-patient metastatic [EGC](../cancer_types/EGC.md) cohort (MSK-IMPACT); HRD/LST scores did not predict platinum-based regimen PFS (HR=0.99, P=0.947) and MSI-H patients had inferior outcomes on cytotoxic therapy [PMID:29122777](../papers/29122777.md)
 - In a 3D cell culture review, IC50 values for therapeutic agents including paclitaxel typically rise 3–5-fold in spheroids vs. monolayers, underscoring that 3D culture better recapitulates clinical drug resistance [PMID:30643250](../papers/30643250.md).
-- Component of the TICE high-dose chemotherapy regimen (paclitaxel + carboplatin + etoposide + ifosfamide + autologous SCT) used in 15 patients with primary mediastinal NSGCT ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy (median OS 6.3 months) [PMID:32897884](../papers/32897884.md).
+- Component of the TICE high-dose chemotherapy regimen (paclitaxel + [carboplatin](../drugs/carboplatin.md) + [etoposide](../drugs/etoposide.md) + [ifosfamide](../drugs/ifosfamide.md) + autologous SCT) used in 15 patients with primary mediastinal [NSGCT](../cancer_types/NSGCT.md) ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy (median [OS](../cancer_types/OS.md) 6.3 months) [PMID:32897884](../papers/32897884.md).
+- Paclitaxel + carboplatin (Carbo-Taxol) was the neoadjuvant regimen in 49% of 237 esophageal/GEJ adenocarcinoma patients at MSK; FOLFOX was significantly associated with better pathologic response than Carbo-Taxol (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
 
 ## Resistance mechanisms
 
@@ -42,31 +43,34 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; TRMT10A loss confers paclitaxel sensitivity in 22Rv1 and C4-2 cells consistent with impaired HR shifting DSB repair toward NHEJ/MMEJ.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30643250](../papers/30643250.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32897884](../papers/32897884.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

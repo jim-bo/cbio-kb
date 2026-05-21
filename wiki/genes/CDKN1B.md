@@ -3,8 +3,8 @@ symbol: CDKN1B
 aliases: [p27, KIP1]
 cancer_types: [PRAD]
 tags: [cell-cycle, tumor-suppressor, CDK-inhibitor, prostate-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CDKN1B
@@ -26,6 +26,7 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 - Single-case CDKN1B mutation detected in PDTC/ATC thyroid cancer sequencing cohort (341-gene IMPACT panel, 117 tumors), replicating findings from prior WES ATC study [PMID:26878173](../papers/26878173.md)
 - CDKN1B was identified as a cell-cycle Mut-driver in breast cancer, listed among the 40 Mut-driver genes spanning Akt-signaling, cell-cycle, chromatin function, DNA damage, and apoptosis pathways [PMID:27161491](../papers/27161491.md).
 - Identified as a novel recurrently mutated gene (1–4% frequency) in microsatellite-stable metastatic colorectal cancer by MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
+- CDKN1B — shared somatic mutation between [SCLC](../cancer_types/SCLC.md) and lung adenocarcinoma components in MSK773 case, supporting clonal origin; identified as a clonal event predating histologic divergence in a never-smoker with admixed SCLC/LUAD [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -57,19 +58,22 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26551667](../papers/26551667.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

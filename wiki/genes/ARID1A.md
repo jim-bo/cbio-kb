@@ -3,8 +3,8 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # ARID1A
@@ -40,7 +40,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ARID1A identified among recurrently mutated chromatin-remodeling genes [PMID:23334666](../papers/23334666.md)
 - SWI/SNF and broader chromatin-remodeling mutations (including ARID1A, [ARID2](../genes/ARID2.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) present in 24% of EACs ([esca_broad](../datasets/esca_broad.md) cohort, 145 tumors) [PMID:23525077](../papers/23525077.md)
 - High mutation rate in non-serous endometrial carcinoma subgroups ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); decreased protein expression by RPPA consistent with inactivating mutations; differential frequencies across POLE-ultramutated, MSI, and copy-number-low subtypes [PMID:23636398](../papers/23636398.md)
-- Single somatic mutation observed in adenoid cystic carcinoma (ACC) WES cohort (n=60); classified as SWI/SNF complex alteration [PMID:23685749](../papers/23685749.md)
+- Single somatic mutation observed in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)) WES cohort (n=60); classified as SWI/SNF complex alteration [PMID:23685749](../papers/23685749.md)
 - Co-occurs in HotNet PBAF subnetwork with [PBRM1](../genes/PBRM1.md) and [SMARCA4](../genes/SMARCA4.md) in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446) [PMID:23792563](../papers/23792563.md)
 - Chromatin-remodeling gene mutated in transitional cell carcinoma (TCC) of the bladder; mutations in ARID1A/ARID4A subgroup contribute to the 58% prevalence of chromatin-remodeling gene alterations in bladder cancer [PMID:24121792](../papers/24121792.md)
 - SWI/SNF complex subunit mutated in 9/64 (14%) intrahepatic cholangiocarcinoma; not previously reported in cholangiocarcinoma at time of publication [PMID:24185509](../papers/24185509.md)
@@ -57,7 +57,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Truncating alterations in 28% of muscle-invasive urothelial carcinoma (UCB); mutually exclusive with [SMARCA4](../genes/SMARCA4.md) mutations; not associated with post-cystectomy outcomes [PMID:25092538](../papers/25092538.md)
 - Significantly mutated (MutSigCV) across muscle-invasive urothelial carcinoma cohort [PMID:25096233](../papers/25096233.md)
 - Truncating mutations in 7/22 (32%) uterine/ovarian carcinosarcoma cases; enriched in MSS ovarian cases (4/5 ovarian vs 0/uterine MSS) [PMID:25233892](../papers/25233892.md)
-- Recurrently mutated in chRCC but not reaching q-score significance in the non-clear-cell RCC cohort [PMID:25401301](../papers/25401301.md)
+- Recurrently mutated in chRCC but not reaching q-score significance in the non-clear-cell [RCC](../cancer_types/RCC.md) cohort [PMID:25401301](../papers/25401301.md)
 - Loss-of-function mutations in 18–23% of intrahepatic CCA and 14% of extrahepatic CCA; mechanistically represses [ALDH1A1](../genes/ALDH1A1.md) via HDAC1/H3K27ac axis; loss enhances cancer stemness and correlates with poor prognosis; co-occurring with activating [KRAS](../genes/KRAS.md) mutations synergistically accelerates CCA development; ARID1A-mutant tumors trend toward high MSI/TMB and ICI sensitivity [PMID:25526346](../papers/25526346.md)
 - Significantly enriched in the Low-clonality (LoC) subtype of gastric cancer; associated with younger onset and longer survival in a 294-patient Tianjin WES cohort [PMID:25583476](../papers/25583476.md)
 - Chromatin remodeler truncated or hit at COSMIC sites in cutaneous squamous cell carcinoma; part of SWI/SNF complex alterations observed in 48% of 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
@@ -66,48 +66,50 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Chromatin-modifier gene mutated in 13.6% of [UTUC](../cancer_types/UTUC.md) vs 27.5% of UCB (p=0.050); mutations are early/clonal events concordant across spatial tumor components in [UTUC](../cancer_types/UTUC.md) [PMID:26278805](../papers/26278805.md)
 - Inactivating mutations in the SWI/SNF complex in desmoplastic melanoma; protein loss confirmed by IHC; co-occurs with [ARID2](../genes/ARID2.md) inactivation [PMID:26343386](../papers/26343386.md)
 - One of the most frequent SWI/SNF chromatin-remodelling alterations in periampullary adenocarcinomas (AMPAC, DUOAC, CAC); equally distributed across the three tumour types [PMID:26804919](../papers/26804919.md)
-- Identified as a putative MYB transcriptional target in adenoid cystic carcinoma (ACC); mutated in ACC per prior sequencing studies cited in this analysis [PMID:26829750](../papers/26829750.md)
+- Identified as a putative [MYB](../genes/MYB.md) transcriptional target in adenoid cystic carcinoma (ACC); mutated in ACC per prior sequencing studies cited in this analysis [PMID:26829750](../papers/26829750.md)
 - ARID1A, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); mutations were largely mutually exclusive within the SWI/SNF complex [PMID:26878173](../papers/26878173.md)
 - ARID1A recurrently mutated in plasmacytoid-variant bladder cancer at frequencies comparable to conventional urothelial carcinoma, NOS, as part of a broader chromatin-remodeler mutation pattern [PMID:26901067](../papers/26901067.md)
 - Inactivating mutations detected in lung ADC by pan-lung WES (TCGA); identified as a significantly mutated gene in the lung cancer landscape [PMID:27158780](../papers/27158780.md)
-- SWI/SNF member; inactivating mutations identified as Mut-drivers in breast cancer (METABRIC 2,433-sample cohort); ARID1B synthetic-lethal dependency proposed as therapeutic strategy in ARID1A-deficient tumors [PMID:27161491](../papers/27161491.md)
-- ARID1A (SWI/SNF complex) more frequently altered in esophageal adenocarcinoma (EAC) than ESCC; part of a recurrent SWI/SNF complex alteration pattern in upper GI cancers [PMID:28052061](../papers/28052061.md)
+- SWI/SNF member; inactivating mutations identified as Mut-drivers in breast cancer (METABRIC 2,433-sample cohort); [ARID1B](../genes/ARID1B.md) synthetic-lethal dependency proposed as therapeutic strategy in ARID1A-deficient tumors [PMID:27161491](../papers/27161491.md)
+- ARID1A (SWI/SNF complex) more frequently altered in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) than [ESCC](../cancer_types/ESCC.md); part of a recurrent SWI/SNF complex alteration pattern in upper GI cancers [PMID:28052061](../papers/28052061.md)
 - Y551Lfs*72 frameshift mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas [PMID:28472509](../papers/28472509.md)
-- Stop-gain driver SNV detected in the para-vertebral metastasis of NSCLC patient CRUK0063, below multi-region sequencing calling threshold in the primary tumor region from which the metastatic subclone derived; illustrates subclonal metastatic seeding in [LUAD](../cancer_types/LUAD.md) [PMID:28445469](../papers/28445469.md)
+- Stop-gain driver SNV detected in the para-vertebral metastasis of [NSCLC](../cancer_types/NSCLC.md) patient CRUK0063, below multi-region sequencing calling threshold in the primary tumor region from which the metastatic subclone derived; illustrates subclonal metastatic seeding in [LUAD](../cancer_types/LUAD.md) [PMID:28445469](../papers/28445469.md)
 - Mutated in 15.9% of clear-cell endometrial carcinomas (CCEC; n=63); one of the top recurrently altered genes in this histology [PMID:28485815](../papers/28485815.md)
-- Mutated in 21% of non-muscle-invasive bladder cancers (NMIBC); the only single gene significantly associated with recurrence after BCG immunotherapy (HR = 3.14, p = 0.002); ARID1A mutations may predict BCG failure and motivate testing of EZH2 inhibitors (synthetic lethality in ARID1A-deficient tumors) [PMID:28583311](../papers/28583311.md)
+- Mutated in 21% of non-muscle-invasive bladder cancers (NMIBC); the only single gene significantly associated with recurrence after BCG immunotherapy (HR = 3.14, p = 0.002); ARID1A mutations may predict BCG failure and motivate testing of [EZH2](../genes/EZH2.md) inhibitors (synthetic lethality in ARID1A-deficient tumors) [PMID:28583311](../papers/28583311.md)
 - ARID1A enriched in Cluster 1 of cholangiocarcinoma (p < 0.01) and also a recurrent structural variant target [PMID:28667006](../papers/28667006.md)
-- ARID1A is a SWI/SNF subunit mutated in medulloblastoma; together with SMARCA4 and ARID2, SWI/SNF subunits are altered in 33% of WNT MBs, providing rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
+- ARID1A is a SWI/SNF subunit mutated in medulloblastoma; together with [SMARCA4](../genes/SMARCA4.md) and [ARID2](../genes/ARID2.md), SWI/SNF subunits are altered in 33% of WNT MBs, providing rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
 - SWI/SNF chromatin remodeler with recurrent inactivating mutations and 4.2% deletions in MIBC (TCGA, n=412) [PMID:28988769](../papers/28988769.md)
-- Mutated in 15% of metastatic esophagogastric cancer (EGC) tumors profiled by MSK-IMPACT (n=200) [PMID:29122777](../papers/29122777.md)
+- Mutated in 15% of metastatic esophagogastric cancer ([EGC](../cancer_types/EGC.md)) tumors profiled by MSK-IMPACT (n=200) [PMID:29122777](../papers/29122777.md)
 - [ARID1A](../genes/ARID1A.md) is a SWI/SNF member altered in ~5% of 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)), enriched in ETS-fusion-negative tumors alongside [ARID2](../genes/ARID2.md), [ARID4A](../genes/ARID4A.md), and [SMARCA1](../genes/SMARCA1.md). [PMID:29610475](../papers/29610475.md)
-- ARID1A is mutually exclusive with TP53 in pan-cancer somatic interaction networks; in UCEC, ARID1A/PTEN/CTNNB1/PIK3CA form a cluster with low TP53, consistent with the copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
-- ARID1A is among epigenetic regulators (alongside KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder tumor organoid lines from the Columbia/CUIMC biobank [PMID:29625057](../papers/29625057.md)
-- Common but not significantly prognostic in cholangiocarcinoma (chol_msk_2018); observed across intrahepatic and extrahepatic subtypes [PMID:29848569](../papers/29848569.md)
-- ARID1A mutated in 12.7% of HCC in a 344-patient MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
+- ARID1A is mutually exclusive with [TP53](../genes/TP53.md) in pan-cancer somatic interaction networks; in [UCEC](../cancer_types/UCEC.md), ARID1A/PTEN/CTNNB1/PIK3CA form a cluster with low TP53, consistent with the copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
+- ARID1A is among epigenetic regulators (alongside [KMT2C](../genes/KMT2C.md), [KMT2D](../genes/KMT2D.md), [KDM6A](../genes/KDM6A.md)) mutated collectively in 73% (11/15) of patient-derived bladder tumor organoid lines from the Columbia/CUIMC biobank [PMID:29625057](../papers/29625057.md)
+- Common but not significantly prognostic in cholangiocarcinoma ([chol_msk_2018](../datasets/chol_msk_2018.md)); observed across intrahepatic and extrahepatic subtypes [PMID:29848569](../papers/29848569.md)
+- ARID1A mutated in 12.7% of [HCC](../cancer_types/HCC.md) in a 344-patient MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
 - ARID1A mutations mutated in 25% of metastatic HR+HER2- breast cancer; SWI/SNF-complex loss-of-function more often acquired post-endocrine-therapy than pre-treatment in matched pairs [PMID:30205045](../papers/30205045.md)
 - ARID1A mutated in 25% of gallbladder carcinoma overall but entirely absent in the Japanese cohort, contrasting with prior reports; consistent with other Asian-cohort studies that also failed to find ARID1A mutations [PMID:30427539](../papers/30427539.md)
-- ARID1A identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); part of the chromatin-remodeling gene set alongside DAXX, ATRX, and SETD2 [PMID:30687805](../papers/30687805.md)
-- ARID1A mutated as part of the SWI/SNF complex (with ARID2, PBRM1, BRD7) in 19.5% of cHCC-ICC cases; not significantly enriched by subtype in this pan-Asia cohort (N=133) [PMID:31130341](../papers/31130341.md)
-- ARID1A recurrently mutated in high-grade UTUC at a frequency not significantly different from TCGA UCB; classified among chromatin-modifier driver genes in the urothelial carcinoma landscape [PMID:31278255](../papers/31278255.md)
-- Enriched in recurrent/metastatic adenoid cystic carcinoma vs. primary tumors (OR 6.87); SWI/SNF complex member co-occurring with NOTCH1 mutations in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
-- Mutation/loss flags PDX models suitable for ATR inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
+- ARID1A identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); part of the chromatin-remodeling gene set alongside [DAXX](../genes/DAXX.md), [ATRX](../genes/ATRX.md), and [SETD2](../genes/SETD2.md) [PMID:30687805](../papers/30687805.md)
+- ARID1A mutated as part of the SWI/SNF complex (with ARID2, [PBRM1](../genes/PBRM1.md), [BRD7](../genes/BRD7.md)) in 19.5% of cHCC-ICC cases; not significantly enriched by subtype in this pan-Asia cohort (N=133) [PMID:31130341](../papers/31130341.md)
+- ARID1A recurrently mutated in high-grade [UTUC](../cancer_types/UTUC.md) at a frequency not significantly different from TCGA UCB; classified among chromatin-modifier driver genes in the urothelial carcinoma landscape [PMID:31278255](../papers/31278255.md)
+- Enriched in recurrent/metastatic adenoid cystic carcinoma vs. primary tumors (OR 6.87); SWI/SNF complex member co-occurring with [NOTCH1](../genes/NOTCH1.md) mutations in the [acc_2019](../datasets/acc_2019.md) cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
+- Mutation/loss flags PDX models suitable for [ATR](../genes/ATR.md) inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
 - Driver in 316 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
 - Mutated in 76% of MSI uterine corpus endometrial carcinoma tumors (FDR=0); ARID1A-mutant samples show H3K27/H3K36 hyperacetylation; truncating mutations reduce ARID1A protein levels [PMID:32059776](../papers/32059776.md)
-- Altered in 20% of 119 UTUC patients (MSK-IMPACT); one of the most frequent chromatin/cohesin pathway alterations alongside KDM6A (38%), KMT2D (26%), CREBBP (20%), and STAG2 (22%); enriched in luminal-subtype tumors [PMID:32332851](../papers/32332851.md)
-- ARID1A mutations in breast cancer (CPTAC proteogenomics, n=122) associate with elevated phospho-TNIK (WNT pathway), nominating TNIK inhibition as a synthetic-lethal strategy in ARID1A-mutant luminal BRCA [PMID:33212010](../papers/33212010.md)
-- ARID1A truncating mutation identified as private to the DCIS+IDC-NST components of case JuP3 in a 3-patient juvenile papillomatosis (JP) cohort with matched benign/DCIS/invasive sampling [PMID:33263939](../papers/33263939.md)
+- Altered in 20% of 119 UTUC patients (MSK-IMPACT); one of the most frequent chromatin/cohesin pathway alterations alongside KDM6A (38%), KMT2D (26%), [CREBBP](../genes/CREBBP.md) (20%), and [STAG2](../genes/STAG2.md) (22%); enriched in luminal-subtype tumors [PMID:32332851](../papers/32332851.md)
+- ARID1A mutations in breast cancer (CPTAC proteogenomics, n=122) associate with elevated phospho-TNIK (WNT pathway), nominating [TNIK](../genes/TNIK.md) inhibition as a synthetic-lethal strategy in ARID1A-mutant luminal [BRCA](../cancer_types/BRCA.md) [PMID:33212010](../papers/33212010.md)
+- ARID1A truncating mutation identified as private to the [DCIS](../cancer_types/DCIS.md)+IDC-NST components of case JuP3 in a 3-patient juvenile papillomatosis (JP) cohort with matched benign/DCIS/invasive sampling [PMID:33263939](../papers/33263939.md)
 - ARID1A recurrent (P=0.01) in UTUC WES cohort (n=40); associated with higher mutational load (P=0.01); enriched in muscle-invasive (MI) tumors (33% MI vs 0% NMI, P=0.042, FDR=0.2); collapsed into the SWI/SNF composite mutation feature for iClusterBayes subtyping [PMID:33397444](../papers/33397444.md)
 - In 83 enucleated retinoblastomas profiled by MSK-IMPACT, ARID1A was somatically mutated in 3/83 (3.6%) specimens and carried putative-driver variants, making it one of the few non-RB1 genes with driver-level mutations in this cohort. [PMID:33466343](../papers/33466343.md)
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, ARID1A was inactivated in 20% of tumors, consistent with its role as a major chromatin-remodeling tumor suppressor in biliary tract cancers. [PMID:33765338](../papers/33765338.md)
 - In 487 esophagogastric adenocarcinomas profiled by MSK-IMPACT, ARID1A was altered in 17% of TP53-wild-type tumors, serving as one of the most common alternative drivers in this TP53-WT subset. [PMID:33795256](../papers/33795256.md)
-- Mutations identified in TERT-WT metaplastic breast cancers (MBC); present among genes altered only in the TERT-WT group (not statistically significant after multiple-testing correction) [PMID:33863915](../papers/33863915.md)
+- Mutations identified in TERT-WT metaplastic breast cancers ([MBC](../cancer_types/MBC.md)); present among genes altered only in the TERT-WT group (not statistically significant after multiple-testing correction) [PMID:33863915](../papers/33863915.md)
 - Altered in 15.5% of MSK-IMPACT-profiled intrahepatic cholangiocarcinoma (IHC) patients; one of five most prevalent driver genes in IHC but not part of the poor-prognosis composite classifier in node-positive disease [PMID:33963001](../papers/33963001.md)
-- Assessed at >=2% frequency in a 514-sample LUAD pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
-- Mutations associated with higher TMB and downregulated ARID1A protein in CPTAC LSCC proteogenomics (108 tumors); ARID1A loss linked to worse OS in NSCLC. [PMID:34358469](../papers/34358469.md)
-- Enriched in piano (low-grade, carcinoid-like) LCINS tumors (P=7.5e-4); part of the mutually-exclusive piano driver set alongside KRAS, UBA1, and RET. [PMID:34493867](../papers/34493867.md)
+- Assessed at >=2% frequency in a 514-sample [LUAD](../cancer_types/LUAD.md) pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
+- Mutations associated with higher TMB and downregulated ARID1A protein in CPTAC LSCC proteogenomics (108 tumors); ARID1A loss linked to worse [OS](../cancer_types/OS.md) in NSCLC. [PMID:34358469](../papers/34358469.md)
+- Enriched in piano (low-grade, carcinoid-like) LCINS tumors (P=7.5e-4); part of the mutually-exclusive piano driver set alongside [KRAS](../genes/KRAS.md), [UBA1](../genes/UBA1.md), and [RET](../genes/RET.md). [PMID:34493867](../papers/34493867.md)
 - Altered in >=5% of PDAC tumors in CPTAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
-- Loss of ARID1A (8% of MSK-IMPACT HR+/HER2− metastatic breast cancer cohort, n=1,115) upregulates CDK6 in a YAP1-dependent manner; shYAP1 in shARID1A cells shifts abemaciclib IC50 from 135.5 to 9.45 nmol/L, re-sensitizing to CDK4/6 inhibition [PMID:34544752](../papers/34544752.md)
+- Loss of ARID1A (8% of MSK-IMPACT HR+/HER2− metastatic breast cancer cohort, n=1,115) upregulates [CDK6](../genes/CDK6.md) in a YAP1-dependent manner; shYAP1 in shARID1A cells shifts [abemaciclib](../drugs/abemaciclib.md) IC50 from 135.5 to 9.45 nmol/L, re-sensitizing to CDK4/6 inhibition [PMID:34544752](../papers/34544752.md)
+- ARID1A listed among other recurrent CNS oncomap alterations in the MAPPYACTS pediatric precision-oncology trial (n=624 patients with successful tumor sequencing) [PMID:35292802](../papers/35292802.md)
+- ARID1A altered in 14% of MSI-stable locally advanced esophageal/GEJ adenocarcinoma (n=237); not significantly associated with pathologic response to neoadjuvant chemoradiotherapy [PMID:35377946](../papers/35377946.md)
 
 ## Cancer types (linked)
 
@@ -145,236 +147,242 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445469](../papers/28445469.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28485815](../papers/28485815.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
 - [PMID:28726821](../papers/28726821.md)
 - [PMID:28988769](../papers/28988769.md)
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30427539](../papers/30427539.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 - [PMID:33212010](../papers/33212010.md)
 - [PMID:33263939](../papers/33263939.md)
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33963001](../papers/33963001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34544752](../papers/34544752.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

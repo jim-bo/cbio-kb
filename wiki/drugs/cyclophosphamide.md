@@ -5,8 +5,8 @@ drug_class: alkylating agent
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # cyclophosphamide
@@ -25,6 +25,7 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy with median follow-up 78.5 months; C5 (MYD88/CD79B/18q-BCL2) and C3 (BCL2-SV/EZH2/PTEN) subtypes had unfavorable PFS/OS [PMID:29713087](../papers/29713087.md)
 - Cyclophosphamide is an alkylating agent documented among therapies received by the 5,978 previously treated patients in a 24,146-patient MSK cohort; the study found cytotoxic chemotherapy class overall associated with clonal haematopoiesis (OR=1.2, p=2×10⁻³), though no gene-specific cyclophosphamide interaction was reported separately [PMID:33106634](../papers/33106634.md).
 - OncoMark hallmark-survival analysis (TCGA logistic regression) associated cyclophosphamide with the Activating Invasion and Metastasis (AIM) hallmark for disease-free survival and the Resisting Cell Death (RCD) hallmark for overall survival [PMID:35121966](../papers/35121966.md)
+- Cyclophosphamide was used as chemotherapy backbone in combination regimens within the MAPPYACTS trial; 45/122 matched targeted therapies were combined with chemotherapy (ORR 18%) [PMID:35292802](../papers/35292802.md)
 
 ## Resistance mechanisms
 
@@ -40,17 +41,20 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; cyclophosphamide as NCCN-listed [RMS](../cancer_types/RMS.md) regimen component in functional screen.
 - [PMID:26466571](../papers/26466571.md) — Landau et al. (Nature 2015). CLL8 trial genomics; FC/FCR regimen prognostic landscape in 538 CLL patients.
-- [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU AML/MDS decitabine trial; cyclophosphamide referenced as component of allogeneic SCT conditioning; SCT was the dominant survival predictor.
+- [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU AML/MDS [decitabine](../drugs/decitabine.md) trial; cyclophosphamide referenced as component of allogeneic SCT conditioning; SCT was the dominant survival predictor.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35121966](../papers/35121966.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

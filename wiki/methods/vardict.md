@@ -10,8 +10,8 @@ tags:
   - snv
   - indel
   - ctdna
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # VarDict
@@ -25,6 +25,7 @@ VarDict is an open-source somatic variant caller designed for targeted sequencin
 - Applied as the tumor-blind de novo somatic variant caller for plasma cfDNA in a 10-patient pediatric retinoblastoma cohort; used in conjunction with custom VAF and buffy-coat filters (VAF >0.5%, ≥10 mutant reads, VAF >2× matched buffy coat) to recover 7/13 expected somatic [RB1](../genes/RB1.md) mutations in 6/10 patients without reference to matched tumor data [PMID:32633890](../papers/32633890.md)
 - Used alongside [MuTect](../methods/mutect.md) for SNV/indel calling in cfDNA from 681 plasma samples in the MSK-ACCESS pipeline; variant calls from both callers integrated into the MSK-ACCESS bioinformatics workflow [PMID:34145282](../papers/34145282.md)
 - Part of the MSK-ACCESS bioinformatics pipeline applied to cfDNA from metastatic solid tumor patients in the tumor-fraction-guided cfDNA triage study [PMID:34059130](../papers/34059130.md)
+- VarDict variant caller applied in the MSK-IMPACT analysis pipeline for 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md).
 
 ## Notes
 
@@ -33,12 +34,15 @@ VarDict is an open-source somatic variant caller designed for targeted sequencin
 
 ## Sources
 
-- [PMID:32633890](../papers/32633890.md) — Plasma cfDNA somatic RB1 variant detection in pediatric retinoblastoma; VarDict used for tumor-blind de novo calling.
+- [PMID:32633890](../papers/32633890.md) — Plasma cfDNA somatic [RB1](../genes/RB1.md) variant detection in pediatric retinoblastoma; VarDict used for tumor-blind de novo calling.
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - LUAD
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-05-21
 ---
 
 # WEE1
@@ -17,6 +17,7 @@ WEE1 is a nuclear kinase that phosphorylates and inactivates [CDK1](../genes/CDK
 ## Alterations observed in the corpus
 
 - Identified as a hyperphosphorylated outlier kinase (FDR <0.20) specifically in EML4-ALK-fusion [LUAD](../cancer_types/LUAD.md) tumors (CPTAC proteogenomic cohort, n=110 treatment-naïve tumors), without corresponding copy-number, RNA, or protein-level changes; nominated as a druggable target with existing non-FDA-approved inhibitors in this fusion subtype [PMID:32649874](../papers/32649874.md)
+- WEE1 inhibitors were the most frequently recommended targeted therapy (n=150 recommendations) in the MAPPYACTS pediatric precision-oncology trial (n=624 patients); TP53-mutant tumors were matched to WEE1 inhibition based on ovarian-cancer precedent (Leijen et al. 2016) and explored in AcSé-ESMART arms [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -37,3 +38,6 @@ WEE1 is a nuclear kinase that phosphorylates and inactivates [CDK1](../genes/CDK
 - [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

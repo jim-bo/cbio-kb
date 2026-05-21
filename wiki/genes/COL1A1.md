@@ -3,8 +3,8 @@ symbol: COL1A1
 aliases: []
 cancer_types: [MEL]
 tags: [extracellular-matrix, fibroblast-marker, melanocyte-lineage]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # COL1A1
@@ -16,7 +16,8 @@ COL1A1 encodes the alpha-1 chain of type I collagen, the most abundant fibrillar
 ## Alterations observed in the corpus
 
 - COL1A1 was used as a fibroblast lineage-confirmation marker (alongside [LUM](../genes/LUM.md) and [S100A4](../genes/S100A4.md)) in spatial transcriptomic and single-cell profiling of normal human skin melanocytes across 31 donors; COL1A1 expression defined fibroblast populations and excluded them from the melanocyte analysis in the single-cell atlas (297 melanocytes from 58 biopsies) [PMID:39975212](../papers/39975212.md).
-- Expression positively correlated with stromal SEMA7A in GBC; co-expressed with SEMA7A and ACTA2 in ACTA2+ CAF subclusters by scRNA-seq (OEP00001237, 13 patients); upregulated as CAF activation marker under 16 kPa high-stiffness matrix [PMID:24997986](../papers/24997986.md)
+- Expression positively correlated with stromal [SEMA7A](../genes/SEMA7A.md) in [GBC](../cancer_types/GBC.md); co-expressed with SEMA7A and [ACTA2](../genes/ACTA2.md) in ACTA2+ CAF subclusters by scRNA-seq (OEP00001237, 13 patients); upregulated as CAF activation marker under 16 kPa high-stiffness matrix [PMID:24997986](../papers/24997986.md)
+- COL1A1–[PDGFB](../genes/PDGFB.md) fusion (n=1) identified in the MAPPYACTS pediatric precision oncology trial as a ready-for-routine-use actionable alteration targetable by [imatinib](../drugs/imatinib.md). [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ COL1A1 encodes the alpha-1 chain of type I collagen, the most abundant fibrillar
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

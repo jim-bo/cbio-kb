@@ -3,8 +3,8 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # PDGFRA
@@ -33,18 +33,20 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PDGFRA is co-amplified with [KIT](../genes/KIT.md) and [KDR](../genes/KDR.md) at 4q12 in the Triple-WT subtype (no hot-spot BRAF/RAS/NF1); focal amplification enriched in Triple-WT. [imatinib](../drugs/imatinib.md), [sorafenib](../drugs/sorafenib.md), and [crenolanib](../drugs/crenolanib.md) are nominated therapeutic candidates. [PMID:26091043](../papers/26091043.md)
 - Identified as a marker of one of the three [ILC](../cancer_types/ILC.md) mRNA subtypes in a comprehensive molecular analysis of invasive lobular carcinoma; associated with subtype-specific expression patterns [PMID:26451490](../papers/26451490.md)
 - Amplification of the PDGFRA/KIT/KDR locus was significantly enriched in oncogene-negative lung ADC (242 cases lacking known RTK/Ras/Raf activating events), nominating this locus as a candidate driver in this subset (q < 0.25); inclusion of this locus in the RTK/Ras/Raf driver pool raised the proportion of lung ADCs with a candidate driver to 76% overall. [PMID:27158780](../papers/27158780.md)
-- Co-amplification of PDGFRA, KDR, and KIT observed in 4 adenoid cystic carcinoma (ACYC) patients treated with regorafenib in a recurrent/metastatic head and neck cancer NGS cohort [PMID:27442865](../papers/27442865.md).
-- Overexpression in osteosarcoma (OS); identified as a multi-targeted kinase inhibitor (MTKI) target in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
-- Significantly enriched in the unmatched driver (UMD) cohort vs level 1-4 patients in a prospective LUAD study (860 patients, MSK-IMPACT panel) [PMID:28336552](../papers/28336552.md)
-- PDGFRA amplification in glioma (at the 4q12 locus with KIT/KDR) co-occurs with EGFR amplification and is part of the RTK-RAS pathway landscape assessed across 9,125 TCGA pan-cancer tumors [PMID:29625050](../papers/29625050.md)
-- PDGFRA amplification and mutation were acquired during serial tumour evolution in glioma patients #25 (convergent evolution replacing EGFR amplification) and #28 (GBM, IDH-WT); the EGFR→PDGFRA switch illustrates convergent evolution within the RTK axis and was captured by CSF ctDNA profiling [PMID:30675060](../papers/30675060.md).
-- PDGFRA alteration is among the biomarkers explaining ponatinib sensitivity via PTPN11 (SHP2 pY542) phosphoprotein levels in AML and CML cell lines [PMID:31068700](../papers/31068700.md)
+- Co-amplification of PDGFRA, [KDR](../genes/KDR.md), and [KIT](../genes/KIT.md) observed in 4 adenoid cystic carcinoma ([ACYC](../cancer_types/ACYC.md)) patients treated with [regorafenib](../drugs/regorafenib.md) in a recurrent/metastatic head and neck cancer NGS cohort [PMID:27442865](../papers/27442865.md).
+- Overexpression in osteosarcoma ([OS](../cancer_types/OS.md)); identified as a multi-targeted kinase inhibitor (MTKI) target in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- Significantly enriched in the unmatched driver (UMD) cohort vs level 1-4 patients in a prospective [LUAD](../cancer_types/LUAD.md) study (860 patients, MSK-IMPACT panel) [PMID:28336552](../papers/28336552.md)
+- PDGFRA amplification in glioma (at the 4q12 locus with KIT/KDR) co-occurs with [EGFR](../genes/EGFR.md) amplification and is part of the RTK-RAS pathway landscape assessed across 9,125 TCGA pan-cancer tumors [PMID:29625050](../papers/29625050.md)
+- PDGFRA amplification and mutation were acquired during serial tumour evolution in glioma patients #25 (convergent evolution replacing EGFR amplification) and #28 ([GBM](../cancer_types/GBM.md), IDH-WT); the EGFR→PDGFRA switch illustrates convergent evolution within the RTK axis and was captured by CSF ctDNA profiling [PMID:30675060](../papers/30675060.md).
+- PDGFRA alteration is among the biomarkers explaining [ponatinib](../drugs/ponatinib.md) sensitivity via [PTPN11](../genes/PTPN11.md) (SHP2 pY542) phosphoprotein levels in [AML](../cancer_types/AML.md) and [CML](../cancer_types/CML.md) cell lines [PMID:31068700](../papers/31068700.md)
 - PDGFRA harbors 34 newly identified hotspots from a 3,130-sample glioma meta-analysis; identified alongside EGFR hotspots in adult glioma [PMID:31263031](../papers/31263031.md)
 - Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
 - No amplification observed in any GBM PDX (n=84) despite ~15% expected frequency in IDH-wildtype GBM; three PDX carried SNVs including D842V; GBM159 demonstrated PDX-engraftment-associated amplification loss (FISH: 45–75% of patient cells amplified, none in PDX) [PMID:31852831](../papers/31852831.md)
-- Top druggable kinase nominated by a BRAFFusion-specific phosphosite module in pediatric LGG; PDGFRA RNA/protein in BRAFFusion LGG were comparable to HGG levels, motivating evaluation of PDGFRA inhibitors in this subtype. [PMID:33242424](../papers/33242424.md)
+- Top druggable kinase nominated by a BRAFFusion-specific phosphosite module in pediatric [LGG](../cancer_types/LGG.md); PDGFRA RNA/protein in BRAFFusion LGG were comparable to HGG levels, motivating evaluation of PDGFRA inhibitors in this subtype. [PMID:33242424](../papers/33242424.md)
 - RTK gene in the 28-gene melanoma driver panel; appears more often as a co-alteration than a sole driver in BRAF/RAS-stratified melanoma [PMID:33509808](../papers/33509808.md)
 - Amplified preferentially in proneural and IDH-mutant GBM tumors; elevated phospho-S1067/S1070; trans-phosphorylates PTPN11 Y546/Y584 [PMID:33577785](../papers/33577785.md)
+- PDGFRA listed among other recurrent CNS oncomap alterations identified in the MAPPYACTS relapsed pediatric cohort (n=787) via comprehensive paired tumor + germline WES + RNA-seq [PMID:35292802](../papers/35292802.md)
+- PDGFRA referenced among NSCLC-typical mutations detected in [SCLC](../cancer_types/SCLC.md) PDX subsets (MSK1053, MSK511c, MSK773) in a 26-clinical + 42 PDX/CDX SCLC characterization study [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -74,79 +76,85 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30675060](../papers/30675060.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31748746](../papers/31748746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33242424](../papers/33242424.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: VIM
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # VIM
@@ -15,8 +15,9 @@ VIM encodes vimentin, a type III intermediate filament protein and classic marke
 
 ## Alterations observed in the corpus
 
-- Upregulated in GBC xenograft tumors co-injected with gallbladder fibroblasts (GFs) vs GBC-SD cells alone; SEMA7A knockdown in GFs reduced vimentin expression in co-injection models (n=6 per group). Functions as an in vivo EMT readout in the SEMA7A/ITGB1/AKT1/EP300 axis study. [PMID:24997986](../papers/24997986.md)
-- Canonical mesenchymal marker anchoring a proteome-wide EMT-like axis on PC1 across CCLE cancer cell lines; VIM high / EPCAM low defines the mesenchymal pole [PMID:31978347](../papers/31978347.md)
+- Upregulated in [GBC](../cancer_types/GBC.md) xenograft tumors co-injected with gallbladder fibroblasts (GFs) vs GBC-SD cells alone; [SEMA7A](../genes/SEMA7A.md) knockdown in GFs reduced vimentin expression in co-injection models (n=6 per group). Functions as an in vivo EMT readout in the SEMA7A/ITGB1/AKT1/EP300 axis study. [PMID:24997986](../papers/24997986.md)
+- Canonical mesenchymal marker anchoring a proteome-wide EMT-like axis on PC1 across CCLE cancer cell lines; VIM high / [EPCAM](../genes/EPCAM.md) low defines the mesenchymal pole [PMID:31978347](../papers/31978347.md)
+- Variable VIM (vimentin) expression observed in SCLC-P (POU2F3-subtype) PDX models alongside low SNAI1/SNAI2/ZEB1, indicating EMT is not a uniform hallmark of non-neuroendocrine [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -24,11 +25,11 @@ VIM encodes vimentin, a type III intermediate filament protein and classic marke
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with CD44, EPCAM, ALDH1A1 (stemness markers) and SNAI1, ZEB1 (EMT TFs) downstream of SEMA7A paracrine signaling; downregulation of CDH1 (E-cadherin) accompanies VIM upregulation. [PMID:24997986](../papers/24997986.md)
+- Co-upregulated with [CD44](../genes/CD44.md), EPCAM, [ALDH1A1](../genes/ALDH1A1.md) (stemness markers) and [SNAI1](../genes/SNAI1.md), [ZEB1](../genes/ZEB1.md) (EMT TFs) downstream of SEMA7A paracrine signaling; downregulation of [CDH1](../genes/CDH1.md) (E-cadherin) accompanies VIM upregulation. [PMID:24997986](../papers/24997986.md)
 
 ## Therapeutic relevance
 
-- VIM upregulation reversed by SEMA7A knockdown in GFs in vivo; upstream blockade (verteporfin, LY294002, C646) also reduces EMT markers including vimentin in vitro. [PMID:24997986](../papers/24997986.md)
+- VIM upregulation reversed by SEMA7A knockdown in GFs in vivo; upstream blockade ([verteporfin](../drugs/verteporfin.md), LY294002, C646) also reduces EMT markers including vimentin in vitro. [PMID:24997986](../papers/24997986.md)
 
 ## Open questions
 
@@ -38,7 +39,10 @@ VIM encodes vimentin, a type III intermediate filament protein and classic marke
 
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

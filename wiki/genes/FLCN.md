@@ -4,20 +4,21 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-14
+processed_at: 2026-05-21
 ---
 
 # FLCN
 
 ## Overview
 
-FLCN (folliculin) is a tumor suppressor gene whose germline mutations cause Birt-Hogg-Dubé (BHD) syndrome, a hereditary condition predisposing to renal tumors (including chromophobe RCC), skin fibrofolliculomas, and pulmonary cysts. FLCN acts in the mTOR/AMPK signaling axis.
+FLCN (folliculin) is a tumor suppressor gene whose germline mutations cause Birt-Hogg-Dubé (BHD) syndrome, a hereditary condition predisposing to renal tumors (including chromophobe [RCC](../cancer_types/RCC.md)), skin fibrofolliculomas, and pulmonary cysts. FLCN acts in the mTOR/AMPK signaling axis.
 
 ## Alterations observed in the corpus
 
 - Germline mutations cause Birt-Hogg-Dubé syndrome; 34% of BHD-associated kidney tumors are chromophobe RCC; FLCN is not somatically recurrent in sporadic ChRCC but is invoked as a pathway-convergence point [PMID:25155756](../papers/25155756.md)
 - Referenced as a known germline kidney cancer predisposition gene in the context of non-clear cell RCC somatic profiling; not significantly mutated somatically in this cohort [PMID:25401301](../papers/25401301.md)
 - 3 somatic mutations in AA CRCs (two frameshift, one nonsense), all consistent with inactivation; 0 in Caucasian CRCs (P=0.086); germline FLCN mutations cause Birt-Hogg-Dubé syndrome; proposed as an AA-specific CRC driver [PMID:25583493](../papers/25583493.md)
+- FLCN was among the genes sequenced by MSK-IMPACT in an MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX biobank characterizing 26 clinical specimens and 30 patient-derived models across molecular subtypes. [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 
@@ -33,10 +34,13 @@ FLCN (folliculin) is a tumor suppressor gene whose germline mutations cause Birt
 
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583493](../papers/25583493.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

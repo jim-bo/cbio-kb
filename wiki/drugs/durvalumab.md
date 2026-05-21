@@ -5,7 +5,7 @@ drug_class: anti-PD-L1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -25,6 +25,7 @@ Durvalumab is an anti-PD-L1 monoclonal antibody immune checkpoint inhibitor with
 - In a pan-cancer ICI cohort (n=1,662), durvalumab was one of the anti-PD-L1 agents used; high TMB (top 20% within histology) was associated with HR 0.52 for [OS](../cancer_types/OS.md) versus the bottom 80% (p=1.6×10⁻⁶) across anti-PD-1/PD-L1–treated patients [PMID:30643254](../papers/30643254.md).
 - Durvalumab (anti-PD-L1) was among the ICI agents used in the 45-patient recurrent [HGSOC](../cancer_types/HGSOC.md) cohort studied by Elkin et al.; network curvature (Ollivier-Ricci) over CNAs predicted [OS](../cancer_types/OS.md) (log-rank p=0.00047, median 7.4 vs 20.3 months) — an ICI-specific biomarker not prognostic in non-ICI [HGSOC](../cancer_types/HGSOC.md) patients. [PMID:34819508](../papers/34819508.md)
 - Durvalumab (with cisplatin/carboplatin + [etoposide](../drugs/etoposide.md)) is one of two PD-L1 inhibitors constituting current first-line chemoimmunotherapy standard for extensive-stage [SCLC](../cancer_types/SCLC.md), as noted in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX resource paper [PMID:35440124](../papers/35440124.md)
+- Durvalumab plus [tremelimumab](../drugs/tremelimumab.md) (CTLA-4) is a second-line ICI combination for advanced [HCC](../cancer_types/HCC.md); lipid-metabolism reprogramming (DNL, FAO, cholesterol biosynthesis) is proposed as a driver of resistance to this regimen, providing rationale for combining lipid inhibitors with ICI [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -60,3 +61,6 @@ Durvalumab is an anti-PD-L1 monoclonal antibody immune checkpoint inhibitor with
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -28,8 +28,8 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 ## Cancer types (linked)
 
-- [MRTL](../cancer_types/MRTL.md): Biallelic SMARCB1 deletion (chr22q11.23) is the defining event in pediatric hepatic rhabdoid tumor; EZH2 inhibitor indicated. [PMID:28007021](../papers/28007021.md)
-- [ATRT](../cancer_types/ATRT.md): 22q11.21 LOH including SMARCB1 alongside [ASCL1](../genes/ASCL1.md) overexpression is diagnostic and associated with improved prognosis within ATRT. [PMID:28007021](../papers/28007021.md)
+- [MRTL](../cancer_types/MRTL.md): Biallelic SMARCB1 deletion (chr22q11.23) is the defining event in pediatric hepatic rhabdoid tumor; [EZH2](../genes/EZH2.md) inhibitor indicated. [PMID:28007021](../papers/28007021.md)
+- [ATRT](../cancer_types/ATRT.md): 22q11.21 LOH including SMARCB1 alongside [ASCL1](../genes/ASCL1.md) overexpression is diagnostic and associated with improved prognosis within [ATRT](../cancer_types/ATRT.md). [PMID:28007021](../papers/28007021.md)
 
 ## Co-occurrence and mutual exclusivity
 

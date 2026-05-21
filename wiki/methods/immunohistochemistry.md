@@ -59,15 +59,16 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - MMR protein IHC ([MLH1](../genes/MLH1.md), [PMS2](../genes/PMS2.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md)) on 16 WCM [UTUC](../cancer_types/UTUC.md) vs. 14 stage-matched UCB cases using Leica Bond III stainer with HALO H-score; MMR H-scores significantly lower in [UTUC](../cancer_types/UTUC.md) (composite P=1.9×10⁻⁵) despite no MSI [PMID:31278255](../papers/31278255.md)
 - MCT1 ([SLC16A1](../genes/SLC16A1.md)) IHC at 1:100 dilution on whole-mount prostatectomy step sections confirmed upregulation in tumor regions across all 12 prostate cancer patients; ROIs with >30% MCT1-positive cells had Lac_max 60% higher than low-MCT1 ROIs (0.38±0.3 vs. 0.23±0.04, P=0.028) [PMID:31564440](../papers/31564440.md).
 - H&E plus IHC on whole-mount step-section prostatectomies used to validate histopathology fidelity of 65 rectal cancer tumoroids against parental tumors; tumoroids retained morphology and oncogenic mutation profiles of source tissue [PMID:31591597](../papers/31591597.md).
-- IHC used to confirm MMR protein loss (MLH1, [MSH2](../genes/MSH2.md), MSH6, [PMS2](../genes/PMS2.md)) and [PDCD1](../genes/PDCD1.md) protein loss in homozygous-deletion cases among 107 uterine sarcoma patients [PMID:32299819](../papers/32299819.md)
+- IHC used to confirm MMR protein loss ([MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) and [PDCD1](../genes/PDCD1.md) protein loss in homozygous-deletion cases among 107 uterine sarcoma patients [PMID:32299819](../papers/32299819.md)
 - IHC performed for MMR proteins to identify MSI-H Lynch-associated [UTUC](../cancer_types/UTUC.md) tumors in 119-patient cohort; Masson trichrome and Picro Sirius red also used for ECM characterization [PMID:32332851](../papers/32332851.md)
 - IHC staining for [AR](../genes/AR.md), CD8, and [FOXC1](../genes/FOXC1.md) used as subtype surrogates to classify 69 refractory metastatic TNBC patients into LAR/IM/BLIS/MES subtypes in the FUTURE umbrella trial; MMR status also assessed by IHC [PMID:32719455](../papers/32719455.md)
 - IHC with immunoreactivity score (IRS = intensity × proportion, 0–12) applied to 80-patient CRC tissue microarray; [CGREF1](../genes/CGREF1.md) overexpressed (IRS ≥4) in 61.25% of CRC vs 0% of normal tissues (p=0.00001); MMR assessed by IHC [PMID:32888432](../papers/32888432.md)
 - IHC used to validate [ATRX](../genes/ATRX.md) protein loss in 9 ATRX-mutant GBMs, immune subtypes (CD3, [CD68](../genes/CD68.md), CD163, PD-1, PD-L1), and EGFR-related proteins ([SOX9](../genes/SOX9.md), [GAB1](../genes/GAB1.md)); xCell-based immune subtypes confirmed by IHC on 99-tumor CPTAC [GBM](../cancer_types/GBM.md) cohort [PMID:33577785](../papers/33577785.md)
-- Used for MMR protein testing (MLH1, MSH2, MSH6, PMS2) in 94 Nigerian CRC tumors; protein deficiency reached 21.3% (20/94), concordant with MSIsensor-based MSI-H rate of 28.1% [PMID:34819518](../papers/34819518.md)
+- Used for MMR protein testing (MLH1, [MSH2](../genes/MSH2.md), MSH6, [PMS2](../genes/PMS2.md)) in 94 Nigerian CRC tumors; protein deficiency reached 21.3% (20/94), concordant with MSIsensor-based MSI-H rate of 28.1% [PMID:34819518](../papers/34819518.md)
 - Iterative-chromogen multiplexed IHC (MxIHC) used in the COLON MAP colorectal polyp atlas; proposed [MUC5AC](../genes/MUC5AC.md)+/CDX2-low staining as a diagnostic biomarker for sessile serrated lesions [PMID:34910928](../papers/34910928.md)
 - IHC for [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), and [YAP1](../genes/YAP1.md) subtype markers performed on 37 [SCLC](../cancer_types/SCLC.md) PDX and 19 clinical samples; [YAP1](../genes/YAP1.md) protein was consistently absent or very low across all models [PMID:35440124](../papers/35440124.md).
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for [ERG](../genes/ERG.md), p53, [PTEN](../genes/PTEN.md), Chromogranin-A, Synaptophysin, PSA, CK5/6, and p63 protein assessment in 168 prostate cancer brain metastasis samples; [ERG](../genes/ERG.md) IHC correlated with TMPRSS2-ERG fusions (Pearson r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
+- Multiplex IHC applied across 49 aSCLC specimens for pRb, p53, [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), [YAP1](../genes/YAP1.md), [DLL3](../genes/DLL3.md), [SEZ6](../genes/SEZ6.md), [OTP](../genes/OTP.md), p16 ([CDKN2A](../genes/CDKN2A.md)), and MLH1/PMS2; cell-cycle pathway deregulation confirmed at protein level in 75% of samples; paradoxical p16 overexpression identified in chr 12 chromothripsis cases [PMID:39185963](../papers/39185963.md)
 
 ## Notes
 
@@ -219,5 +220,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

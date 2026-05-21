@@ -20,7 +20,7 @@ Low-grade glioma NOS (LGGNOS) is a CNS/Brain tumor in the Glioma main type, posi
 
 ## Recurrent alterations
 
-- [BRAF](../genes/BRAF.md) — BRAFV600E and BRAF-fusion are the dominant oncogenic events in pediatric [LGG](../cancer_types/LGG.md). BRAFV600E LGG showed upregulation of MAPK/AKT pathway substrates ([AKT1](../genes/AKT1.md), [AKT2](../genes/AKT2.md)) at RNA and protein; BRAF-fusion LGG showed elevated [PDGFRA](../genes/PDGFRA.md) protein/RNA and a PDGFRA-enriched phosphosite module. [PMID:33242424](../papers/33242424.md)
+- [BRAF](../genes/BRAF.md) — BRAFV600E and BRAF-fusion are the dominant oncogenic events in pediatric [LGG](../cancer_types/LGG.md). BRAFV600E [LGG](../cancer_types/LGG.md) showed upregulation of MAPK/AKT pathway substrates ([AKT1](../genes/AKT1.md), [AKT2](../genes/AKT2.md)) at RNA and protein; BRAF-fusion [LGG](../cancer_types/LGG.md) showed elevated [PDGFRA](../genes/PDGFRA.md) protein/RNA and a PDGFRA-enriched phosphosite module. [PMID:33242424](../papers/33242424.md)
 - [AKT1](../genes/AKT1.md), [AKT2](../genes/AKT2.md) — upregulated at RNA and protein in BRAFV600E LGG; AKT2-substrate phosphosites (including HNRNPUL1/HNRNPUL2) form a BRAFV600E-specific co-expression module. [PMID:33242424](../papers/33242424.md)
 - [PDGFRA](../genes/PDGFRA.md) — top druggable kinase nominated by a BRAF-fusion-specific phosphosite module; [PDGFRA](../genes/PDGFRA.md) protein/RNA levels in BRAFFusion LGG comparable to HGG. [PMID:33242424](../papers/33242424.md)
 - [CDK5](../genes/CDK5.md), [GSK3B](../genes/GSK3B.md) — upregulated in Ganglio-rich LGG subgroup alongside [GNG](../cancer_types/GNG.md) tumors; substrate networks include ADD2, SYN1, STMN1. [PMID:33242424](../papers/33242424.md)

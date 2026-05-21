@@ -39,7 +39,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Listed among clonal-hematopoiesis filter genes (alongside [ATM](../genes/ATM.md), [DNMT3A](../genes/DNMT3A.md), [JAK2](../genes/JAK2.md), [SRSF2](../genes/SRSF2.md), [TET2](../genes/TET2.md)) used to exclude CH-attributable variants from germline calls in a prospective glioma genomic profiling cohort (n=923 adult patients, MSK-IMPACT) [PMID:31263031](../papers/31263031.md)
 - Recurrently mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md), n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
 - STAG2 mutations in 20% of Ewing sarcoma PDX models, mutually exclusive with homozygous CDKN2A/B loss (60%), in the PPTC 261-model pediatric cancer genomic study [PMID:31693904](../papers/31693904.md).
-- Chromatin/cohesin alteration frequent in [UTUC](../cancer_types/UTUC.md); STAG2 mutation positively (and [ERBB2](../genes/ERBB2.md) negatively) associated with PDX engraftment in UTUC cohort (n=17 PDX), though not statistically significant [PMID:32299819](../papers/32299819.md)
+- Chromatin/cohesin alteration frequent in [UTUC](../cancer_types/UTUC.md); STAG2 mutation positively (and [ERBB2](../genes/ERBB2.md) negatively) associated with PDX engraftment in [UTUC](../cancer_types/UTUC.md) cohort (n=17 PDX), though not statistically significant [PMID:32299819](../papers/32299819.md)
 - Chromatin/cohesin alteration frequent in UTUC; STAG2 mutation positively associated with PDX engraftment in upper-tract urothelial carcinoma (n=17 PDX, not statistically significant); identified in MSK-IMPACT profiling of UTUC cohort [PMID:32332851](../papers/32332851.md)
 - CH-myeloid-PD gene in therapy-associated clonal hematopoiesis landscape study; truncating, hotspot, or in-frame variants classed as putative drivers per annotation rules [PMID:33106634](../papers/33106634.md)
 - Truncating mutation private to [DCIS](../cancer_types/DCIS.md) component of patient JuP3 (juvenile papillomatosis with coexisting [DCIS](../cancer_types/DCIS.md) and IDC-NST); identified in whole-exome sequencing of this rare JP case [PMID:33263939](../papers/33263939.md)
@@ -47,7 +47,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Myeloid-malignancy driver mutation observed at transformation in pediatric therapy-related [AML](../cancer_types/AML.md) arising from neuroblastoma [PMID:35078859](../papers/35078859.md)
 - Noted as a prognostic marker in pediatric Ewing sarcoma in a pan-sarcoma genomic profiling study of 7,494 cases (FoundationOne CDx); [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and STAG2 alterations carry prognostic weight in Ewing sarcoma [PMID:35705558](../papers/35705558.md)
 - Mutated in ~10% of Ewing sarcoma ([ES](../cancer_types/ES.md); n=99), co-occurring with [TP53](../genes/TP53.md) alterations, in a 2,138-sample MSK-IMPACT sarcoma cohort [PMID:35705560](../papers/35705560.md)
-- In AML cell-state analysis (n=68), STAG2 mutations confer greater ex vivo sensitivity to PIK-family inhibitors — a potentially actionable finding in typically chemotherapy-refractory AML [PMID:35868306](../papers/35868306.md)
+- In [AML](../cancer_types/AML.md) cell-state analysis (n=68), STAG2 mutations confer greater ex vivo sensitivity to PIK-family inhibitors — a potentially actionable finding in typically chemotherapy-refractory AML [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 

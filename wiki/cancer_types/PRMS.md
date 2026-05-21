@@ -26,7 +26,7 @@ Pleomorphic Rhabdomyosarcoma is a high-grade rhabdomyosarcoma subtype occurring 
 
 ## Recurrent alterations
 
-- In a 7,494-sarcoma cohort, pleomorphic rhabdomyosarcoma was included as a distinct RMS subtype among the 44 histologies; genomically complex sarcomas showed p53 pathway (58.2%) and Rb pathway (56%) alteration; complex RMS variants lack the defining PAX3/7–[FOXO1](../genes/FOXO1.md) fusions of alveolar RMS [PMID:35705558](../papers/35705558.md).
+- In a 7,494-sarcoma cohort, pleomorphic rhabdomyosarcoma was included as a distinct [RMS](../cancer_types/RMS.md) subtype among the 44 histologies; genomically complex sarcomas showed p53 pathway (58.2%) and Rb pathway (56%) alteration; complex [RMS](../cancer_types/RMS.md) variants lack the defining PAX3/7–[FOXO1](../genes/FOXO1.md) fusions of alveolar RMS [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 

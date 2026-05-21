@@ -3,8 +3,8 @@ symbol: FGFR2
 aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FGFR2
@@ -47,8 +47,9 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2 mutations and fusions (most commonly FGFR2-BICC1) identified in 8/24 intrahepatic cholangiocarcinomas with detectable ctDNA by MSK-ACCESS; includes missense mutations in the FGFR2 kinase domain conferring FGFR-inhibitor resistance [PMID:34145282](../papers/34145282.md)
 - FGFR2 fusions prevalence 15.5% in intrahepatic cholangiocarcinoma (IHC) profiled cohort; in N1-node patients (N=4 FGFR2fus vs N=48 FGFR2wt) no significant survival difference (HR 0.64, 95% CI 0.15–2.7, P=0.545; median [OS](../cancer_types/OS.md) 31.4 vs 21.5 months) [PMID:33963001](../papers/33963001.md)
 - FGFR2 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). [PMID:35292802](../papers/35292802.md)
-- Pan-cancer fusion driver in 10,194 Asian solid-tumor patients; FGFR2 and FGFR3 together accounted for ~50 of 513 fusion events detected by the OrigiMed panel; multiple novel partner genes catalogued [PMID:35871175](../papers/35871175.md)
+- Pan-cancer fusion driver in 10,194 Asian solid-tumor patients; FGFR2 and [FGFR3](../genes/FGFR3.md) together accounted for ~50 of 513 fusion events detected by the OrigiMed panel; multiple novel partner genes catalogued [PMID:35871175](../papers/35871175.md)
 - Pathogenic [FGFR2](FGFR2.md) mutation detected in CD37 adenosarcoma cfDNA by MSK-ACCESS in a longitudinal endometrial cancer ctDNA monitoring study [PMID:36007103](../papers/36007103.md)
+- FGFR2 amplification or fusion observed in CAC (colitis-associated cancer, rare in sporadic CRC); selective FGFR inhibitor active in a CAC PDX model; FDA-approved FGFR inhibitors exist for cholangiocarcinoma, supporting trial eligibility for CAC. [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -135,4 +136,6 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 - [PMID:36007103](../papers/36007103.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

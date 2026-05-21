@@ -28,7 +28,7 @@ INSM1 (Insulinoma-Associated Protein 1) is a zinc-finger transcription factor an
 
 ## Therapeutic relevance
 
-- The INSM1-low, POU2F3-high SCLC-P subtype represents the first PDX resource for testing PARP inhibitor and other subtype-targeted therapeutic hypotheses in non-NE SCLC [PMID:35440124](../papers/35440124.md).
+- The INSM1-low, POU2F3-high SCLC-P subtype represents the first PDX resource for testing PARP inhibitor and other subtype-targeted therapeutic hypotheses in non-NE [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md).
 
 ## Open questions
 

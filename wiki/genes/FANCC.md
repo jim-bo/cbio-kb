@@ -3,8 +3,8 @@ symbol: FANCC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FANCC
@@ -17,12 +17,13 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 
 - FANCC mutations associated with improved ICI overall survival in metastatic urothelial carcinoma when combined with ATM/RB1 alterations (p = 0.045) [PMID:36333289](../papers/36333289.md)
 - Passenger amplification detected in cSCC (cutaneous squamous cell carcinoma) by GISTIC copy-number analysis [PMID:25589618](../papers/25589618.md)
-- FANCC is a member of the FA pathway gene set; homozygous deleterious FANCC events classify mCRPC patients into the DNA-repair-defect group associated with significantly longer carboplatin response (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
+- FANCC is a member of the FA pathway gene set; homozygous deleterious FANCC events classify mCRPC patients into the DNA-repair-defect group associated with significantly longer [carboplatin](../drugs/carboplatin.md) response (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
 - Combined ATM/RB/FANCC alteration signature present in 73.3% of pre-chemotherapy urothelial carcinoma tumors but only 37.9% of post-chemotherapy tumors (p=0.05), supporting selective elimination of this signature by cisplatin-based chemotherapy [PMID:27749842](../papers/27749842.md)
 - Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction of high-grade disease [PMID:28583311](../papers/28583311.md)
 - One pLoF LP/PV identified by WES of 25 HBOC-related candidate genes in 372 pediatric cancer patients; burden OR=1.3, p=0.534 (non-significant single-cohort). [PMID:29489754](../papers/29489754.md)
 - Pre-specified DDR/NAC-response gene in MIBC analysis; no significant difference observed between primary and secondary MIBC groups [PMID:30290956](../papers/30290956.md)
 - Germline pathogenic/likely pathogenic carrier identified in panNET cohort (MSK-IMPACT, 80 patients); classified as a recessive germline susceptibility gene for cancer [PMID:30687805](../papers/30687805.md)
+- Pathogenic germline FANCC alteration identified in CAC patient cohort (IBD-associated colorectal cancer, n=73 germline analysis); overall germline pathogenic variant frequency 14%, comparable to sporadic CRC. [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -44,25 +45,20 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29489754](../papers/29489754.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

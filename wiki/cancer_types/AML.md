@@ -47,7 +47,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 ## Therapeutic landscape
 
 - No drug treatments were administered or evaluated in the TCGA AML study; the dataset ([laml_tcga_pub](../datasets/laml_tcga_pub.md)) was released as a public resource for risk-stratification and pathogenesis research. [PMID:23634996](../papers/23634996.md)
-- Authors argue that [DNMT3A](../genes/DNMT3A.md), IDH1/IDH2, and [TET2](../genes/TET2.md) add prognostic value for intermediate-risk classification beyond the then-current markers ([FLT3](../genes/FLT3.md), NPM1, [CEBPA](../genes/CEBPA.md), [KIT](../genes/KIT.md)). [PMID:23634996](../papers/23634996.md)
+- Authors argue that [DNMT3A](../genes/DNMT3A.md), IDH1/IDH2, and [TET2](../genes/TET2.md) add prognostic value for intermediate-risk classification beyond the then-current markers ([FLT3](../genes/FLT3.md), [NPM1](../genes/NPM1.md), [CEBPA](../genes/CEBPA.md), [KIT](../genes/KIT.md)). [PMID:23634996](../papers/23634996.md)
 
 ## Sources
 

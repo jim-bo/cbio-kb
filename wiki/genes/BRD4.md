@@ -45,7 +45,7 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 ## Open questions
 
 - JQ1 is a tool compound; clinical BET inhibitors (e.g., molibresib, birabresib) have not been tested in ARID1A-stratified [SCLC](../cancer_types/SCLC.md) populations.
-- The generalizability of BRD4 synthetic lethality with [ARID1A](../genes/ARID1A.md) loss across SCLC molecular subtypes ([ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), [YAP1](../genes/YAP1.md)) remains uncharacterized.
+- The generalizability of BRD4 synthetic lethality with [ARID1A](../genes/ARID1A.md) loss across [SCLC](../cancer_types/SCLC.md) molecular subtypes ([ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), [YAP1](../genes/YAP1.md)) remains uncharacterized.
 
 ## Sources
 

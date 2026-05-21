@@ -16,11 +16,11 @@ STRN (striatin) encodes a calmodulin-binding protein that serves as a scaffold o
 ## Alterations observed in the corpus
 
 - ALK-STRN fusion identified in PDTC (poorly differentiated thyroid carcinoma) in a targeted sequencing cohort studying thyroid cancer progression [PMID:26878173](../papers/26878173.md)
-- STRN–[DLG2](../genes/DLG2.md) fusion detected by LINX SV analysis in metastatic [CSCC](../cancer_types/CSCC.md) sample CSCC_0009 (STRN exon 1 ENST00000263918 — DLG2 exon 7 ENST00000376104); the only wildtype-TP53 case in the cohort [PMID:35982973](../papers/35982973.md)
+- STRN–[DLG2](../genes/DLG2.md) fusion detected by LINX SV analysis in metastatic [CSCC](../cancer_types/CSCC.md) sample CSCC_0009 (STRN exon 1 ENST00000263918 — [DLG2](../genes/DLG2.md) exon 7 ENST00000376104); the only wildtype-TP53 case in the cohort [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
-- **Thyroid cancer (PDTC/ATC):** STRN acts as ALK fusion partner (ALK-STRN) in a subset of poorly differentiated thyroid carcinomas; fusions were identified alongside ALK-EML4 and a novel ALK-CCDC149 variant [PMID:26878173](../papers/26878173.md)
+- **Thyroid cancer (PDTC/ATC):** STRN acts as [ALK](../genes/ALK.md) fusion partner (ALK-STRN) in a subset of poorly differentiated thyroid carcinomas; fusions were identified alongside ALK-EML4 and a novel ALK-CCDC149 variant [PMID:26878173](../papers/26878173.md)
 
 ## Co-occurrence and mutual exclusivity
 

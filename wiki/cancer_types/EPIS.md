@@ -26,7 +26,7 @@ Epithelioid sarcoma is a rare soft-tissue sarcoma characterized by loss of [SMAR
 
 - [ARID2](../genes/ARID2.md), [CRTC1](../genes/CRTC1.md), [MAP3K1](../genes/MAP3K1.md): shared SNVs across SARC0075's four metastatic lesions, with extensive divergent copy-number variants including whole-genome duplications. [PMID:39305899](../papers/39305899.md)
 - In a 7,494-sarcoma cohort, [SMARCB1](../genes/SMARCB1.md) was inactivated in 56% of epithelioid sarcomas; patients showed durable partial response to [tazemetostat](../drugs/tazemetostat.md) in a sarcoma NOS case with [SMARCB1](../genes/SMARCB1.md) deletion [PMID:35705558](../papers/35705558.md).
-- In the 2,138-sarcoma MSK-IMPACT cohort, SMARCB1 loss-of-function (deletions/truncations/intragenic fusions) occurred in 75% of EPIS; Level 1 deletion in 66% — the only Level 1 biomarker in this cohort besides GIST/KIT [PMID:35705560](../papers/35705560.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, [SMARCB1](../genes/SMARCB1.md) loss-of-function (deletions/truncations/intragenic fusions) occurred in 75% of EPIS; Level 1 deletion in 66% — the only Level 1 biomarker in this cohort besides GIST/KIT [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 

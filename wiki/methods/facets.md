@@ -63,6 +63,8 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - FACETS used for allelic copy-number estimation and clonality calls in 2,735 MSK-IMPACT prostate cancer samples; 1,417 passed QC (samples with low purity were excluded as 'copy-number quiet') [PMID:35670774](../papers/35670774.md)
 - FACETS used for allele-specific copy number and whole-genome-doubling calls across 2,138 MSK-IMPACT sarcomas; WGD frequency ranged from ~50% in osteosarcoma/UPS to lower rates in translocation-driven subtypes [PMID:35705560](../papers/35705560.md)
 - FACETS used for copy-number and loss-of-heterozygosity analysis in 184 MSI-H/MMR-D endometrial cancers sequenced by MSK-IMPACT [PMID:35849120](../papers/35849120.md)
+- Used for copy-number analysis of 166 CAC tumors; demonstrated clonal [TP53](../genes/TP53.md) alterations in majority of CAC, subclonal TP53 in 14%, and identified WGD accumulation in carcinoma vs paired dysplasia; FACETS CN profiles allowed detection of oscillating copy-number patterns consistent with chromothripsis [PMID:36611031](../papers/36611031.md)
+- Used for copy-number calling in aSCLC WGS (100× tumor / 80× normal); FACETS hisens plots enabled manual detection of oscillating CNA patterns diagnostic of chromothripsis, achieving 100% specificity and 77% sensitivity vs WGS gold standard [PMID:39185963](../papers/39185963.md)
 
 ## Notes
 
@@ -194,5 +196,11 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

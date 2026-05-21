@@ -33,12 +33,12 @@ Well-differentiated liposarcoma (WDLS) is the most common and least aggressive s
 ## Subtypes
 
 - Well-differentiated liposarcoma (WDLS; locally aggressive, no metastasis)
-- Dedifferentiated liposarcoma (DDLS; arises from WDLS, high-grade, metastatic potential)
+- Dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md); arises from WDLS, high-grade, metastatic potential)
 
 ## Therapeutic landscape
 
 - [palbociclib](../drugs/palbociclib.md): CDK4/6 inhibitor; [CDK4](../genes/CDK4.md) amplification in WDLS motivates testing. Evaluated across the UCLA sarcoma PDTO panel. [PMID:39305899](../papers/39305899.md)
-- MDM2 inhibitors (e.g., milademetan): under clinical investigation for MDM2-amplified liposarcoma; not specifically reported in this study.
+- [MDM2](../genes/MDM2.md) inhibitors (e.g., milademetan): under clinical investigation for MDM2-amplified liposarcoma; not specifically reported in this study.
 - PDTO screening identified ≥1 FDA-approved or NCCN-recommended regimen for 59% of sarcoma samples overall. [PMID:39305899](../papers/39305899.md)
 
 ## Sources

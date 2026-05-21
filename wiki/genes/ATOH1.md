@@ -27,7 +27,7 @@ ATOH1 (Atonal BHLH Transcription Factor 1) is a basic helix-loop-helix (bHLH) tr
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting reported in the corpus. ATOH1 expression pattern may help subtype SCLC tumors for clinical trial enrollment.
+- No direct therapeutic targeting reported in the corpus. ATOH1 expression pattern may help subtype [SCLC](../cancer_types/SCLC.md) tumors for clinical trial enrollment.
 
 ## Open questions
 

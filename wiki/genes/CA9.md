@@ -20,7 +20,7 @@ CA9 (Carbonic Anhydrase 9, also known as CAIX) encodes a hypoxia-inducible trans
 
 ## Alterations observed in the corpus
 
-- Expression elevated (by RNA/IHC) in KRAS-mutant and PIK3CA-mutant pMMR/MSS rectal tumors; double-mutant (KRAS + PIK3CA) tumors showed the highest CA9 expression (p<0.001); hypoxia-induced transcriptional upregulation is the proposed mechanism [PMID:35970919](../papers/35970919.md)
+- Expression elevated (by RNA/IHC) in KRAS-mutant and PIK3CA-mutant pMMR/MSS rectal tumors; double-mutant ([KRAS](../genes/KRAS.md) + [PIK3CA](../genes/PIK3CA.md)) tumors showed the highest CA9 expression (p<0.001); hypoxia-induced transcriptional upregulation is the proposed mechanism [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
 

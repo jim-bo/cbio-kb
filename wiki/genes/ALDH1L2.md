@@ -8,7 +8,7 @@ tags:
   - folate-cycle
   - ipres
 processed_by: crosslinker
-processed_at: 2026-05-14
+processed_at: 2026-05-21
 ---
 
 # ALDH1L2
@@ -20,6 +20,7 @@ ALDH1L2 (Aldehyde Dehydrogenase 1 Family Member L2) encodes a mitochondrial alde
 ## Alterations observed in the corpus
 
 - Expression associated with the IPRES (innate anti-PD-1 resistance) transcriptional signature in pretreatment metastatic melanoma tumors; upregulated in non-responding tumors as part of a wound-healing/ECM/mesenchymal program [PMID:26997480](../papers/26997480.md)
+- Sole in-frame fusion involving a likely-oncogenic gene (folate regulator) by OncoKB annotation across all atypical [SCLC](../cancer_types/SCLC.md) RNA-seq cases; not recurrent; authors conclude fusions are unlikely dominant drivers in aSCLC [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -41,4 +42,7 @@ ALDH1L2 (Aldehyde Dehydrogenase 1 Family Member L2) encodes a mitochondrial alde
 
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

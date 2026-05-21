@@ -5,7 +5,7 @@ drug_class: topoisomerase II inhibitor
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -30,6 +30,7 @@ Podophyllotoxin-derivative topoisomerase II inhibitor; included in CHOEP/EPOCH v
 - Part of both the VIP ([cisplatin](../drugs/cisplatin.md) + etoposide + [ifosfamide](../drugs/ifosfamide.md)) and TICE (high-dose [carboplatin](../drugs/carboplatin.md) + etoposide + [ifosfamide](../drugs/ifosfamide.md) + [paclitaxel](../drugs/paclitaxel.md) + autologous SCT) regimens used in 15 patients with primary mediastinal [NSGCT](../cancer_types/NSGCT.md) ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy (median [OS](../cancer_types/OS.md) 6.3 months); poor response was attributed to shared [TP53](../genes/TP53.md) loss in the ancestral GCT/hematologic-malignancy clone [PMID:32897884](../papers/32897884.md).
 - Topoisomerase II inhibitors (including etoposide) were associated with clonal haematopoiesis in 24,146 cancer patients (OR=1.3, p=0.01); [PPM1D](../genes/PPM1D.md) CH clones were selectively expanded by topoisomerase II inhibitor exposure (OR=2.0, q=0.002) and [CHEK2](../genes/CHEK2.md) clones likewise (OR=2.2, q=0.02), raising concern for therapy-related myeloid neoplasm in patients with pre-existing DDR CH [PMID:33106634](../papers/33106634.md).
 - Etoposide (with cisplatin/carboplatin and [atezolizumab](../drugs/atezolizumab.md) or [durvalumab](../drugs/durvalumab.md)) is standard first-line treatment for extensive-stage [SCLC](../cancer_types/SCLC.md); the MSK773 SCLC-P patient received [carboplatin](../drugs/carboplatin.md) + etoposide and progressed within 6 months [PMID:35440124](../papers/35440124.md)
+- Etoposide combined with platinum ([carboplatin](../drugs/carboplatin.md)/[cisplatin](../drugs/cisplatin.md)) yielded only 33% CR/PR in 15 evaluable atypical SCLC (aSCLC) patients — far below the ~70% conventional SCLC benchmark; aSCLC is characterized by RB1+/TP53+ and chromothripsis-driven [CCND1](../genes/CCND1.md)/[CDK4](../genes/CDK4.md) amplification [PMID:39185963](../papers/39185963.md).
 
 ## Resistance mechanisms
 
@@ -79,3 +80,6 @@ Podophyllotoxin-derivative topoisomerase II inhibitor; included in CHOEP/EPOCH v
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

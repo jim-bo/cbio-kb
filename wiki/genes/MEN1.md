@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - histone-methyltransferase
   - chromatin-remodeling
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MEN1
@@ -23,9 +23,10 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 - Somatic mutation in 1/23 (4%) pancreatic acinar cell carcinomas; occurred in a mixed acinar-ductal carcinoma without neuroendocrine features [PMID:24293293](../papers/24293293.md)
 - Recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms (PanNENs/PulNENs); PanNEN-specific large-scale LOH observed; MEN1 loss used to support cell-cycle and MTOR-inhibitor ([everolimus](../drugs/everolimus.md)) therapy recommendations in multiple patients [PMID:40328872](../papers/40328872.md)
 - MEN1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors in the TCGA thyroid cohort [PMID:25417114](../papers/25417114.md)
-- MEN1 truncating mutations observed at low frequency in PDTC and ATC as part of a set of infrequent truncating mutations alongside NF2 and RB1 [PMID:26878173](../papers/26878173.md)
+- MEN1 truncating mutations observed at low frequency in PDTC and ATC as part of a set of infrequent truncating mutations alongside [NF2](../genes/NF2.md) and [RB1](../genes/RB1.md) [PMID:26878173](../papers/26878173.md)
 - MEN1 nominated as a breast cancer mutation-driver via combined homozygous deletion and inactivating-mutation evidence in 2,433-tumor whole-genome/exome sequencing study [PMID:27161491](../papers/27161491.md)
-- Most frequently altered gene in metastatic panNET: somatic alterations in 45/80 (56%); associated with improved 1-year OS (98% vs 82%, P=.01); one germline high-penetrance carrier identified incidentally [PMID:30687805](../papers/30687805.md)
+- Most frequently altered gene in metastatic panNET: somatic alterations in 45/80 (56%); associated with improved 1-year [OS](../cancer_types/OS.md) (98% vs 82%, P=.01); one germline high-penetrance carrier identified incidentally [PMID:30687805](../papers/30687805.md)
+- MEN1 (11q13) deletion is a carcinoid-characteristic alteration found in aSCLC; co-localizes with chromothriptic chromosome 11 (same region as [CCND1](../genes/CCND1.md) amplification), supporting aSCLC's histogenetic link to carcinoids [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -47,22 +48,25 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 
 - [PMID:21252315](../papers/21252315.md) — Exome sequencing of pancreatic neuroendocrine tumors (PanNETs)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

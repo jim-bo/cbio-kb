@@ -31,7 +31,7 @@ Inflammatory myofibroblastic tumor (IMT) is a distinctive mesenchymal neoplasm o
 
 ## Therapeutic landscape
 
-- Surgical resection for localized disease; for unresectable/metastatic disease, kinase inhibitors directed by fusion partner: ALK — [crizotinib](../drugs/crizotinib.md) (high response rate); [ROS1](../genes/ROS1.md) — crizotinib; JAK-pathway fusions — JAK inhibitors; NTRK — larotrectinib/entrectinib [PMID:28007021](../papers/28007021.md).
+- Surgical resection for localized disease; for unresectable/metastatic disease, kinase inhibitors directed by fusion partner: [ALK](../genes/ALK.md) — [crizotinib](../drugs/crizotinib.md) (high response rate); [ROS1](../genes/ROS1.md) — [crizotinib](../drugs/crizotinib.md); JAK-pathway fusions — JAK inhibitors; NTRK — larotrectinib/entrectinib [PMID:28007021](../papers/28007021.md).
 
 ## Sources
 

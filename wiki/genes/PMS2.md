@@ -33,8 +33,8 @@ PMS2 ([PMS1](../genes/PMS1.md) Homolog 2, Mismatch Repair System Component) is o
 - PMS2 is among the top DDR-pathway predisposition genes (Core DDR); germline pathogenic variants in PMS2 and other MMR genes ([MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md)) reach MSI-high in 18/60 samples, with 16/18 carrying both germline and somatic MMR hits, nominating these patients as candidates for checkpoint-blockade therapy [PMID:29625049](../papers/29625049.md)
 - Component of the standard MMR IHC panel used to call MMR-D status in metastatic endometrial cancer (MSK cohort, n=189); PMS2 protein loss by IHC contributed to MMR-D classification alongside MSIsensor score [PMID:30068706](../papers/30068706.md)
 - Somatic deleterious mutations enriched in MSI-H tumors of [ACC](../cancer_types/ACC.md), [CESC](../cancer_types/CESC.md), and [MESO](../cancer_types/MESO.md) in a pan-TCGA analysis; PMS2 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
-- PMS2 is among MMR germline genes (with MSH2, MSH6, [PMS1](../genes/PMS1.md)) where germline alleles were identified in glioma patients; two cases had biallelic MMR loss with Lynch-pattern MSI hypermutation [PMID:31263031](../papers/31263031.md)
-- PMS2 protein expression is significantly reduced in [UTUC](../cancer_types/UTUC.md) vs UCB by IHC in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB; similar pattern observed for MLH1, MSH2, MSH6 [PMID:31278255](../papers/31278255.md)
+- PMS2 is among MMR germline genes (with [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS1](../genes/PMS1.md)) where germline alleles were identified in glioma patients; two cases had biallelic MMR loss with Lynch-pattern MSI hypermutation [PMID:31263031](../papers/31263031.md)
+- PMS2 protein expression is significantly reduced in [UTUC](../cancer_types/UTUC.md) vs UCB by IHC in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB; similar pattern observed for [MLH1](../genes/MLH1.md), MSH2, MSH6 [PMID:31278255](../papers/31278255.md)
 - MLH1/PMS2 (MutL) mismatch repair components are downregulated at the protein level in MSI cell lines; MMR protein abundance predicts [WRN](../genes/WRN.md) knockdown sensitivity [PMID:31978347](../papers/31978347.md)
 - PMS1/PMS2 protein levels are downregulated in MSI endometrial tumors (MLH1 loss destabilizes them at the protein level, not transcript level) [PMID:32059776](../papers/32059776.md)
 - MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
@@ -44,6 +44,8 @@ PMS2 ([PMS1](../genes/PMS1.md) Homolog 2, Mismatch Repair System Component) is o
 - PMS2 altered among MMR genes (collectively 2.1% of sarcomas) with tight correlation to MSI-H; pathway-level MMR inactivation identified across 44 sarcoma histologies [PMID:35705558](../papers/35705558.md)
 - PMS2 part of MMR gene set (MLH1, MSH2, MSH6, PMS2) altered in 2.1% of 2,138 sarcomas; tightly correlated with MSI-H [PMID:35705560](../papers/35705560.md)
 - PMS2 accounts for 2 germline (8%) and 3 somatic (7.7%) MMR-mutant endometrial cancers in a MSK cohort; frequencies are the lowest among MMR genes (MLH1, MSH2, MSH6, PMS2) [PMID:35849120](../papers/35849120.md)
+- PMS2 germline pathogenic variant identified in CAC (MSK cohort, MSK-IMPACT); both PMS2 carriers had microsatellite-stable tumors; overall germline DNA-repair alteration frequency in CAC similar to sporadic CRC (~14%) [PMID:36611031](../papers/36611031.md)
+- MLH1/PMS2 dual IHC loss detected in the single MSI-H aSCLC case (A20) via somatic MLH1 homozygous deletion, representing an alternative genomic context to chromothripsis in aSCLC [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -107,5 +109,11 @@ PMS2 ([PMS1](../genes/PMS1.md) Homolog 2, Mismatch Repair System Component) is o
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

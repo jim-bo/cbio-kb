@@ -115,6 +115,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Observed as a recurrent alteration in 2,138-sample sarcoma MSK-IMPACT sequencing cohort [PMID:35705560](../papers/35705560.md)
 - Structural amplification (MYC GAIN via LINX/PURPLE) in mCSCC sample CSCC_0005, and MYC gain confirmed in SV structural variant gene list across 25 metastatic [CSCC](../cancer_types/CSCC.md) samples [PMID:35982973](../papers/35982973.md)
 - MYC amplification identified as one of the high-frequency CNV peaks in pan-cancer analysis of ~8,900 Chinese solid-tumor patients (OncoMark/aOM cohort) alongside [CDKN2A](../genes/CDKN2A.md) deletion, [ERBB2](../genes/ERBB2.md) amplification, and chr 11q13.3 amplification [PMID:35871175](../papers/35871175.md)
+- MYC amplified in 20% of colitis-associated cancer (CAC; MSK cohort, MSK-IMPACT); focal amplifications enriched vs sporadic CRC; MYC also amplified in AOM/DSS mouse model CAC lesions [PMID:36611031](../papers/36611031.md)
+- MYC amplified in [HCC](../cancer_types/HCC.md); transcriptionally drives SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis; defines a FASN-dependent HCC subset; MYC-driven hepatocarcinogenesis requires [FASN](../genes/FASN.md) activity [PMID:38355797](../papers/38355797.md)
 
 ## Cancer types (linked)
 
@@ -336,5 +338,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

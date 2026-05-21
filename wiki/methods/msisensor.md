@@ -45,6 +45,7 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - Used in the cWGTS pipeline ([mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)) for microsatellite instability assessment in 114 pediatric/AYA solid tumor patients; MSI signal detected in 7 patients [PMID:35585047](../papers/35585047.md)
 - MSIsensor with threshold ≥10 used to classify MSI status in 2,138 sarcomas; only 5/1,893 evaluable samples were MSI-high, confirming MSI rarity in mesenchymal tumors [PMID:35705560](../papers/35705560.md)
 - MSIsensor (threshold ≥10 = MSI-H; 3–<10 = indeterminate; <3 = MSS) applied to 184 endometrial cancers; all MLH1ph and somatic MMR-D cases were MSI-H, but 83% of MSH6-germline and 31% of MLH1/PMS2/MSH2-germline cases scored MSS/indeterminate — revealing a sensitivity floor for Lynch syndrome EC [PMID:35849120](../papers/35849120.md)
+- Used for MSI status determination in aSCLC samples; confirmed one MSI-H case (A20) with somatic [MLH1](../genes/MLH1.md) homozygous deletion; applied alongside MiMSI as complementary MSI calling tool [PMID:39185963](../papers/39185963.md)
 
 ## Notes
 
@@ -124,5 +125,8 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -15,7 +15,7 @@ PYCARD (PYD And CARD Domain Containing, also known as ASC or TMS1) encodes the a
 
 ## Alterations observed in the corpus
 
-- Co-nominated with [PEAR1](../genes/PEAR1.md) in a prior TCGA-LAML immune prognostic signature (Dao et al., 2021); [MAPK8](../genes/MAPK8.md) (JNK) is part of the PEAR1-downstream phagocytic signaling axis with [SYK](../genes/SYK.md) and SRC-family kinases — mechanistic background in AML drug-sensitivity study [PMID:35868306](../papers/35868306.md)
+- Co-nominated with [PEAR1](../genes/PEAR1.md) in a prior TCGA-LAML immune prognostic signature (Dao et al., 2021); [MAPK8](../genes/MAPK8.md) (JNK) is part of the PEAR1-downstream phagocytic signaling axis with [SYK](../genes/SYK.md) and SRC-family kinases — mechanistic background in [AML](../cancer_types/AML.md) drug-sensitivity study [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 
@@ -31,7 +31,7 @@ PYCARD (PYD And CARD Domain Containing, also known as ASC or TMS1) encodes the a
 
 ## Open questions
 
-- Functional relationship between PYCARD and PEAR1 in AML prognosis requires prospective validation [PMID:35868306](../papers/35868306.md)
+- Functional relationship between PYCARD and [PEAR1](../genes/PEAR1.md) in AML prognosis requires prospective validation [PMID:35868306](../papers/35868306.md)
 
 ## Sources
 

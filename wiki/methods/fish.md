@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -30,7 +30,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used in CLCGP [SCLC](../cancer_types/SCLC.md) study (29 tumors) to validate focal amplifications of oncogenes including [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) identified by WGS [PMID:22941188](../papers/22941188.md)
 - Used fluorescence in situ hybridization (FISH) to validate ETS gene fusions ([ETV1](../genes/ETV1.md) and [ERG](../genes/ERG.md)) in prostate tumors alongside dRanger WGS rearrangement calling [PMID:23622249](../papers/23622249.md)
 - Used in adenoid cystic carcinoma study (n=60 tumor/normal pairs) to detect MYB-NFIB translocations on tissue microarrays via 3-color BAC probes; confirmed fusion in 57% (34/60) of cases [PMID:23685749](../papers/23685749.md)
-- Used in ACC exome study to determine MYB-NFIB fusion status alongside fusion-transcript sequencing, qRT-PCR, and 3' RACE; confirmed translocations in 19/24 cases [PMID:23778141](../papers/23778141.md)
+- Used in [ACC](../cancer_types/ACC.md) exome study to determine MYB-NFIB fusion status alongside fusion-transcript sequencing, qRT-PCR, and 3' RACE; confirmed translocations in 19/24 cases [PMID:23778141](../papers/23778141.md)
 - Used to validate [DHFR](../genes/DHFR.md) amplification at 5q detected in 14/99 (14%) TCC bladder tumors by WGS-based CNA analysis [PMID:24121792](../papers/24121792.md)
 - Applied to FFPE sections of 7 pancreatic neoplasms with acinar differentiation using proximal/distal labeled probes targeting chromosomes 11 ([ATM](../genes/ATM.md) locus), 15, and 22; revealed polysomy and dramatic intratumoral heterogeneity in 3 of 7 tumors and absence of chromosomal gains/losses in the MSI-H case [PMID:24293293](../papers/24293293.md).
 - Break-apart and dual-fusion FISH probes for [MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [NFIB](../genes/NFIB.md), and [EWSR1](../genes/EWSR1.md) applied to 88 sinonasal adenoid cystic carcinoma cases; rescued 9 additional fusion-positive cases among TruSight Oncology 500-negative tumors, demonstrating complementarity with NGS panels for detection of MYB-family rearrangements [PMID:24418857](../papers/24418857.md)
@@ -45,20 +45,21 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - FISH used for gene copy-number assessment in proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
 - Applied with BAC probes CTD-2191M2 and CTD-2511M20 flanking the TERT/CLPTM1L locus to detect [TERT](../genes/TERT.md) 5p15.33 rearrangements in the 161-sample neuroblastoma validation cohort; required alongside targeted sequencing to call a rearrangement [PMID:26466568](../papers/26466568.md)
 - Used with [MYBL1](../genes/MYBL1.md) (RP11-271O1) and [NFIB](../genes/NFIB.md) (RP11-54D21, RP11-79B9) BAC probes to detect t(8;9) translocations in 81 salivary adenoid cystic carcinoma validation samples; identified t(8;9) in 27.8% of t(6;9)-negative ACCs [PMID:26631609](../papers/26631609.md).
-- FISH used to validate MYB rearrangements and characterize the spectrum of structural variants in adenoid cystic carcinoma tumors and primagrafts [PMID:26829750](../papers/26829750.md)
-- FISH used to verify CYLD focal deletion in CRPC-NE samples; confirmed deletion in 51% of CRPC-NE metastatic biopsies with concordant mRNA downregulation [PMID:26855148](../papers/26855148.md)
+- FISH used to validate [MYB](../genes/MYB.md) rearrangements and characterize the spectrum of structural variants in adenoid cystic carcinoma tumors and primagrafts [PMID:26829750](../papers/26829750.md)
+- FISH used to verify [CYLD](../genes/CYLD.md) focal deletion in CRPC-NE samples; confirmed deletion in 51% of CRPC-NE metastatic biopsies with concordant mRNA downregulation [PMID:26855148](../papers/26855148.md)
 - FISH used on 53 tumors from 13 men to assess TMPRSS2-ERG fusion status; found 100% intra-individual concordance for TMPRSS2-ERG status across metastatic sites in mCRPC. [PMID:26928463](../papers/26928463.md)
-- Used with custom three-probe NF2/22q11/Cen10 assay and ALK break-apart probes to confirm NF2 22q hemizygous loss and TPM3-ALK fusion in uRCC tumours. [PMID:27713405](../papers/27713405.md)
-- Used to confirm sub-clonal to clonal progression of CDKN2A deletion (from heterozygous in the primary to homozygous in distant metastases) in the WCM117 rapid-autopsy urothelial carcinoma case. [PMID:27749842](../papers/27749842.md)
-- Used to validate IGH-DUX4 rearrangements and ERG deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; DUX4 rearrangement is not detectable by conventional FISH due to repetitive subtelomeric DUX4 locus. [PMID:27776115](../papers/27776115.md)
+- Used with custom three-probe NF2/22q11/Cen10 assay and [ALK](../genes/ALK.md) break-apart probes to confirm [NF2](../genes/NF2.md) 22q hemizygous loss and TPM3-ALK fusion in uRCC tumours. [PMID:27713405](../papers/27713405.md)
+- Used to confirm sub-clonal to clonal progression of [CDKN2A](../genes/CDKN2A.md) deletion (from heterozygous in the primary to homozygous in distant metastases) in the WCM117 rapid-autopsy urothelial carcinoma case. [PMID:27749842](../papers/27749842.md)
+- Used to validate IGH-DUX4 rearrangements and [ERG](../genes/ERG.md) deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; [DUX4](../genes/DUX4.md) rearrangement is not detectable by conventional FISH due to repetitive subtelomeric DUX4 locus. [PMID:27776115](../papers/27776115.md)
 - Used fluorescence in situ hybridization (FISH) to detect chromosomal copy number alterations and gene fusions [PMID:28199314](../papers/28199314.md)
 - Used FISH to detect copy number alterations and gene fusions in pediatric tumor specimens [PMID:28445112](../papers/28445112.md)
-- Used to independently validate ERBB2 amplification calls from ASCAT/SNP-array analysis in ICGC CCA cohort; enrichment confirmed for Fluke-Pos CCAs (10.4% vs 2.7% in Fluke-Neg, p < 0.01) [PMID:28667006](../papers/28667006.md)
-- Applied to detect MYC and BCL2 translocations in the 1001-patient DLBCL cohort; MYC FISH translocations associated with MYC mutations and high MYC expression [PMID:28985567](../papers/28985567.md)
-- Used for HER2 (ERBB2) status assessment per CAP/ASCO criteria as part of standard clinical workup in the BLCA TCGA cohort [PMID:28988769](../papers/28988769.md)
-- FISH used for HER2 status assessment per CAP/ASCO criteria in 295 metastatic EGC patients; NGS-based ERBB2 amplification showed 93.7% overall concordance with IHC/FISH, with NGS predicting trastuzumab benefit more precisely [PMID:29122777](../papers/29122777.md)
-- FISH using BAC probes RP11-267M23 / RP11-22C11 (8q22.1) with centromere 8 reference probe confirmed ESRP1 duplication events initially detected by WGS in early-onset prostate cancer (prostate_dkfz_2018) [PMID:30537516](../papers/30537516.md)
-- Used to detect MYB and MYBL1 rearrangements in ACC; a 3-color BAC probe mix confirmed clonality of MYB-NFIB fusion across primary and metastatic regions in a multiregion salivary case; MYB-NFIB detected in 22.2% of R/M tumors with available data [PMID:31483290](../papers/31483290.md).
+- Used to independently validate [ERBB2](../genes/ERBB2.md) amplification calls from ASCAT/SNP-array analysis in ICGC CCA cohort; enrichment confirmed for Fluke-Pos CCAs (10.4% vs 2.7% in Fluke-Neg, p < 0.01) [PMID:28667006](../papers/28667006.md)
+- Applied to detect [MYC](../genes/MYC.md) and [BCL2](../genes/BCL2.md) translocations in the 1001-patient DLBCL cohort; MYC FISH translocations associated with MYC mutations and high MYC expression [PMID:28985567](../papers/28985567.md)
+- Used for HER2 (ERBB2) status assessment per CAP/ASCO criteria as part of standard clinical workup in the [BLCA](../cancer_types/BLCA.md) TCGA cohort [PMID:28988769](../papers/28988769.md)
+- FISH used for HER2 status assessment per CAP/ASCO criteria in 295 metastatic [EGC](../cancer_types/EGC.md) patients; NGS-based ERBB2 amplification showed 93.7% overall concordance with IHC/FISH, with NGS predicting [trastuzumab](../drugs/trastuzumab.md) benefit more precisely [PMID:29122777](../papers/29122777.md)
+- FISH using BAC probes RP11-267M23 / RP11-22C11 (8q22.1) with centromere 8 reference probe confirmed [ESRP1](../genes/ESRP1.md) duplication events initially detected by WGS in early-onset prostate cancer ([prostate_dkfz_2018](../datasets/prostate_dkfz_2018.md)) [PMID:30537516](../papers/30537516.md)
+- Used to detect MYB and [MYBL1](../genes/MYBL1.md) rearrangements in ACC; a 3-color BAC probe mix confirmed clonality of MYB-NFIB fusion across primary and metastatic regions in a multiregion salivary case; MYB-NFIB detected in 22.2% of R/M tumors with available data [PMID:31483290](../papers/31483290.md).
+- 3-color FISH used to confirm extrachromosomal DNA (ecDNA) double-minute amplification of [CCND1](../genes/CCND1.md) or CCND2/CDK4/MDM2 in all 5 FISH-tested aSCLC cases; demonstrated both extra- and intrachromosomal amplification in one case [PMID:39185963](../papers/39185963.md)
 
 ## Notes
 
@@ -74,112 +75,115 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25991819](../papers/25991819.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26200345](../papers/26200345.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466568](../papers/26466568.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26631609](../papers/26631609.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27776115](../papers/27776115.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28199314](../papers/28199314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

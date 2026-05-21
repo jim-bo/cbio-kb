@@ -192,8 +192,10 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to all 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) using SureSelect XT Clinical Research Exome / SureSelect V6+COSMIC (HiSeq 2500; tumor median 94.3×, normal 49.4×; GRCh37 alignment via BWA; somatic SNVs by MuTect, indels by Strelka) [PMID:35508466](../papers/35508466.md)
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) for mutational and CNV profiling of CRPC organoids (22 models) and 10/15 matched tumor biopsies via MSK-IMPACT panel sequencing; WES data supported the chromatin subtype characterization [PMID:35617398](../papers/35617398.md)
 - Whole-exome sequencing used for somatic variant and CNA calling in a subset of GLASS longitudinal glioma samples (b37 alignment via BWA-MEM, somatic calls by MuTect2, CNA by TITAN) [PMID:35649412](../papers/35649412.md)
-- Used for DNA sequencing in Beat [AML](../cancer_types/AML.md) Waves 1+2; extended by an 11.9 Mb custom capture library in Waves 3+4 covering all variants previously reported in AML [PMID:35868306](../papers/35868306.md)
+- Used for DNA sequencing in Beat [AML](../cancer_types/AML.md) Waves 1+2; extended by an 11.9 Mb custom capture library in Waves 3+4 covering all variants previously reported in [AML](../cancer_types/AML.md) [PMID:35868306](../papers/35868306.md)
 - Applied to 97 rectal adenocarcinoma tumors for mutational-signature analysis alongside MSK-IMPACT panel sequencing in the 738-patient LARC cohort [PMID:35970919](../papers/35970919.md)
+- Applied at 150× depth to 13 CAC + 20 dysplasia samples and 13 paired normal mucosa; identified shared vs private alterations across multifocal lesions, confirmed no [TP53](../genes/TP53.md) in adjacent normal mucosa, and characterized cell-cycle CNA events as late carcinoma-specific events [PMID:36611031](../papers/36611031.md)
+- Cited as a core genomic profiling modality within CPTAC multi-omics studies; highlighted alongside WGS as the genomic layer integrated with proteome, phosphoproteome, acetylome, ubiquitinome, and methylation data [PMID:37119971](../papers/37119971.md)
 
 ## Notes
 
@@ -689,5 +691,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

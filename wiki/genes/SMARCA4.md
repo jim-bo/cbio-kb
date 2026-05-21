@@ -36,7 +36,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 ## Cancer types (linked)
 
 - [MRTL](../cancer_types/MRTL.md): SMARCA4 R1192C in a pediatric hepatic rhabdoid tumor; EZH2-inhibitor targeted on the basis of SWI/SNF loss. [PMID:28007021](../papers/28007021.md)
-- [ESCA](../cancer_types/ESCA.md) ([EAC](../cancer_types/EAC.md) subtype): SMARCA4 is a significantly mutated gene in EAC; enrichment over CIN gastric supports its role in esophageal-specific oncogenesis. [PMID:28052061](../papers/28052061.md)
+- [ESCA](../cancer_types/ESCA.md) ([EAC](../cancer_types/EAC.md) subtype): SMARCA4 is a significantly mutated gene in [EAC](../cancer_types/EAC.md); enrichment over CIN gastric supports its role in esophageal-specific oncogenesis. [PMID:28052061](../papers/28052061.md)
 - [ESCC](../cancer_types/ESCC.md): SMARCA4 mutation defines the ESCC3 molecular subtype (PI3K-activated, SMARCA4/KMT2D mutant); all ESCC3 tumors had PI3K-pathway activating alterations. [PMID:28052061](../papers/28052061.md)
 
 ## Co-occurrence and mutual exclusivity

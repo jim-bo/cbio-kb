@@ -23,7 +23,7 @@ OSMR (Oncostatin M Receptor) is the receptor for the IL-6 family cytokine Oncost
 
 ## Alterations observed in the corpus
 
-- OSMR expressed by differentiated-like neoplastic cells; together with myeloid-expressed OSM, constitutes the top ligand-receptor correlate of mesenchymal subtype transition in recurrent IDHwt diffuse glioma; spatial co-localization confirmed by multiplex immunofluorescence (GLASS cohort, n=304 patients) [PMID:35649412](../papers/35649412.md)
+- OSMR expressed by differentiated-like neoplastic cells; together with myeloid-expressed [OSM](../genes/OSM.md), constitutes the top ligand-receptor correlate of mesenchymal subtype transition in recurrent IDHwt diffuse glioma; spatial co-localization confirmed by multiplex immunofluorescence (GLASS cohort, n=304 patients) [PMID:35649412](../papers/35649412.md)
 
 ## Cancer types (linked)
 

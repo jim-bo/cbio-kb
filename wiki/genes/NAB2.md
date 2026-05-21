@@ -23,11 +23,11 @@ NAB2 (NGFI-A Binding Protein 2) encodes a transcriptional repressor of EGR-famil
 
 ## Cancer types (linked)
 
-- [SFT](../cancer_types/SFT.md): NAB2-STAT6 fusion is the defining molecular event; [TERT](../genes/TERT.md) promoter mutations co-occur in 46% of SFT cases [PMID:35705560](../papers/35705560.md)
+- [SFT](../cancer_types/SFT.md): NAB2-STAT6 fusion is the defining molecular event; [TERT](../genes/TERT.md) promoter mutations co-occur in 46% of [SFT](../cancer_types/SFT.md) cases [PMID:35705560](../papers/35705560.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- NAB2-STAT6 co-occurs with TERT promoter mutations in 46% of SFT [PMID:35705560](../papers/35705560.md)
+- NAB2-STAT6 co-occurs with [TERT](../genes/TERT.md) promoter mutations in 46% of SFT [PMID:35705560](../papers/35705560.md)
 
 ## Therapeutic relevance
 

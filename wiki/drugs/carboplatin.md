@@ -33,6 +33,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - Carboplatin + [paclitaxel](../drugs/paclitaxel.md) (Carbo-Taxol) was administered as neoadjuvant therapy in 49% of 237 locally advanced esophageal/GEJ adenocarcinoma patients at MSK; FOLFOX was associated with better pathologic response than Carbo-Taxol (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
 - Carboplatin (with cisplatin/etoposide) is noted as part of first-line platinum-based chemoimmunotherapy for extensive-stage [SCLC](../cancer_types/SCLC.md); the MSK773 SCLC-P patient received carboplatin + [etoposide](../drugs/etoposide.md), progressing within 6 months [PMID:35440124](../papers/35440124.md)
 - Platinum chemotherapy; serial ctDNA (MSK-ACCESS) tracked response to salvage paclitaxel/carboplatin in metastatic endometrial cancer patients in MSK cfDNA pilot study (n=44) [PMID:36007103](../papers/36007103.md)
+- Carboplatin plus [etoposide](../drugs/etoposide.md) yielded only 13% CR and 20% PR (33% total) in 15 evaluable atypical SCLC (aSCLC) patients — well below the ~70% benchmark for conventional SCLC; aSCLC is characterized by RB1+/TP53+ status and chromothripsis-driven [CCND1](../genes/CCND1.md)/[CDK4](../genes/CDK4.md) amplification [PMID:39185963](../papers/39185963.md).
 
 ## Resistance mechanisms
 
@@ -80,5 +81,8 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -29,7 +29,7 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 
 ## Cancer types (linked)
 
-- [MFH](../cancer_types/MFH.md) ([UPS](../cancer_types/UPS.md)) -- NOTCH3 missense mutations enriched in RT-UPS (14%) compared to sporadic UPS (4%) [PMID:37350195](../papers/37350195.md).
+- [MFH](../cancer_types/MFH.md) ([UPS](../cancer_types/UPS.md)) -- NOTCH3 missense mutations enriched in RT-UPS (14%) compared to sporadic [UPS](../cancer_types/UPS.md) (4%) [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
 

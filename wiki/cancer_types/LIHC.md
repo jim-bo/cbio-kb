@@ -30,16 +30,16 @@ LIHC is the TCGA cohort identifier for liver hepatocellular carcinoma. The corre
 - Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types) [PMID:29625049](../papers/29625049.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized [OS](../cancer_types/OS.md), PFI, DFI, and DSS endpoints derived for LIHC [PMID:29625055](../papers/29625055.md)
-- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): LIHC comprised 11% of cohort; [TP53](../genes/TP53.md) R249S enriched in LIHC (10%, aflatoxin signature); [ARID1A](../genes/ARID1A.md) truncating mutations in 7.9%; [TSC2](../genes/TSC2.md) LoF in 4.9% ([everolimus](../drugs/everolimus.md) Level 4); 15.8% TMB-H (Level 1 [pembrolizumab](../drugs/pembrolizumab.md) candidate); younger LIHC enriched for TP53 mutations [PMID:35871175](../papers/35871175.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): LIHC comprised 11% of cohort; [TP53](../genes/TP53.md) R249S enriched in LIHC (10%, aflatoxin signature); [ARID1A](../genes/ARID1A.md) truncating mutations in 7.9%; [TSC2](../genes/TSC2.md) LoF in 4.9% ([everolimus](../drugs/everolimus.md) Level 4); 15.8% TMB-H (Level 1 [pembrolizumab](../drugs/pembrolizumab.md) candidate); younger LIHC enriched for [TP53](../genes/TP53.md) mutations [PMID:35871175](../papers/35871175.md)
 
 ## Subtypes
 
-- **Fibrolamellar carcinoma (FLC):** characterized by the pathognomonic [DNAJB1](../genes/DNAJB1.md)–[PRKACA](../genes/PRKACA.md) fusion; clinically distinct from conventional [HCC](../cancer_types/HCC.md) (younger patients, lacking cirrhosis). See [FLC](FLC.md).
+- **Fibrolamellar carcinoma ([FLC](../cancer_types/FLC.md)):** characterized by the pathognomonic [DNAJB1](../genes/DNAJB1.md)–[PRKACA](../genes/PRKACA.md) fusion; clinically distinct from conventional [HCC](../cancer_types/HCC.md) (younger patients, lacking cirrhosis). See [FLC](FLC.md).
 - **Conventional [HCC](../cancer_types/HCC.md):** driven by viral hepatitis (HBV/HCV), alcohol, NASH; major drivers include [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md), [TERT](../genes/TERT.md).
 
 ## Therapeutic landscape
 
-*No drug-specific findings for LIHC reported in the current corpus beyond general HCC treatment considerations.*
+*No drug-specific findings for LIHC reported in the current corpus beyond general [HCC](../cancer_types/HCC.md) treatment considerations.*
 
 ## Sources
 

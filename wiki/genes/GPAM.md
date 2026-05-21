@@ -29,7 +29,7 @@ GPAM (Glycerol-3-Phosphate Acyltransferase, Mitochondrial) encodes a mitochondri
 
 ## Co-occurrence and mutual exclusivity
 
-- Not specifically documented in co-mutation analysis; identified alongside other HCC SMGs [ARID1A](../genes/ARID1A.md), [AXIN1](../genes/AXIN1.md), [CDKN1A](../genes/CDKN1A.md), [ALB](../genes/ALB.md), [CTNNB1](../genes/CTNNB1.md), [TP53](../genes/TP53.md) [PMID:35508466](../papers/35508466.md)
+- Not specifically documented in co-mutation analysis; identified alongside other [HCC](../cancer_types/HCC.md) SMGs [ARID1A](../genes/ARID1A.md), [AXIN1](../genes/AXIN1.md), [CDKN1A](../genes/CDKN1A.md), [ALB](../genes/ALB.md), [CTNNB1](../genes/CTNNB1.md), [TP53](../genes/TP53.md) [PMID:35508466](../papers/35508466.md)
 
 ## Therapeutic relevance
 

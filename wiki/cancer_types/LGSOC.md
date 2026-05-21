@@ -22,7 +22,7 @@ Low-Grade Serous Ovarian Cancer (LGSOC) is a distinct histologic subtype of sero
 
 - [KRAS](../genes/KRAS.md) hotspot mutations in 33% (39/119); G12V most frequent (n=19); enriched in patients diagnosed at >50 years (p=0.03) and platinum-sensitive disease (p=0.04). [PMID:35443055](../papers/35443055.md)
 - [NRAS](../genes/NRAS.md) Q61R/Q61K hotspots in 11% (13/119). [PMID:35443055](../papers/35443055.md)
-- [BRAF](../genes/BRAF.md) alterations in 11% (13/119): V600E (n=8), D594N (n=2), N581I (n=1), plus two [BRAF](../genes/BRAF.md) fusions ([BRAF](../genes/BRAF.md)–[MKRN1](../genes/MKRN1.md), BRAF–[AGAP3](../genes/AGAP3.md)). [PMID:35443055](../papers/35443055.md)
+- [BRAF](../genes/BRAF.md) alterations in 11% (13/119): V600E (n=8), D594N (n=2), N581I (n=1), plus two [BRAF](../genes/BRAF.md) fusions ([BRAF](../genes/BRAF.md)–[MKRN1](../genes/MKRN1.md), [BRAF](../genes/BRAF.md)–[AGAP3](../genes/AGAP3.md)). [PMID:35443055](../papers/35443055.md)
 - [EIF1AX](../genes/EIF1AX.md) alterations in 10% (12/119). [PMID:35443055](../papers/35443055.md)
 - [CDKN2A](../genes/CDKN2A.md) homozygous deletions in 8% (9/119). [PMID:35443055](../papers/35443055.md)
 - [ERBB2](../genes/ERBB2.md) amplification or hotspot in 5 cases. [PMID:35443055](../papers/35443055.md)

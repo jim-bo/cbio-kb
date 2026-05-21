@@ -29,7 +29,7 @@ CDHR5 (Cadherin-Related Family Member 5) encodes a protocadherin-related cell ad
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [TP53](../genes/TP53.md), CDKN2A, [KHDRBS2](../genes/KHDRBS2.md), COLEC12, and other candidate drivers in the high-TMB UV-driven cSCC background; jointly enriches TGF-β/ECM pathway with LUM and COLEC12 [PMID:35982973](../papers/35982973.md)
+- Co-occurs with [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [KHDRBS2](../genes/KHDRBS2.md), [COLEC12](../genes/COLEC12.md), and other candidate drivers in the high-TMB UV-driven cSCC background; jointly enriches TGF-β/ECM pathway with [LUM](../genes/LUM.md) and COLEC12 [PMID:35982973](../papers/35982973.md)
 
 ## Therapeutic relevance
 

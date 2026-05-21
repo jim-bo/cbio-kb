@@ -36,8 +36,10 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - Oncogenic EGFR mutations were identified in four never-smoker [SCLC](../cancer_types/SCLC.md) clinical samples, consistent with histologic transformation from EGFR-mutant [LUAD](../cancer_types/LUAD.md); EGFR mutations also appeared in ~15% of PDX samples in an MSK [SCLC](../cancer_types/SCLC.md) biobank. [PMID:35440124](../papers/35440124.md)
 - EGFR exon 19 deletions and L858R mutations are extremely rare in sarcoma (0.01% each); their detection may flag sarcomatoid carcinoma [PMID:35705558](../papers/35705558.md)
 - Loss of EGFR amplification at recurrence (n=11) associates with increased non-neoplastic cell content and mesenchymal subtype switching in IDHwt glioma [PMID:35649412](../papers/35649412.md)
-- 13% pan-cohort frequency in pan-Asian solid tumor cohort; elevated in LUAD vs MSK and TCGA; L858R 20% and exon 19 deletion 19% within [NSCLC](../cancer_types/NSCLC.md); G719 mutations in 3% of NSCLC; atypical pairwise co-occurrence with [KRAS](../genes/KRAS.md) noted [PMID:35871175](../papers/35871175.md)
+- 13% pan-cohort frequency in pan-Asian solid tumor cohort; elevated in [LUAD](../cancer_types/LUAD.md) vs MSK and TCGA; L858R 20% and exon 19 deletion 19% within [NSCLC](../cancer_types/NSCLC.md); G719 mutations in 3% of [NSCLC](../cancer_types/NSCLC.md); atypical pairwise co-occurrence with [KRAS](../genes/KRAS.md) noted [PMID:35871175](../papers/35871175.md)
 - Amplified in a single metastatic [CSCC](../cancer_types/CSCC.md) sample (CSCC_0012); structural GAIN detected by LINX/PURPLE SV analysis in 25-sample WGS cohort [PMID:35982973](../papers/35982973.md)
+- EGFR participates in a PD-L1/EGFR/ITGB4 complex that drives SREBP1c-dependent lipid accumulation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts further activate EGFR signaling in TKI-resistant HCC. [PMID:38355797](../papers/38355797.md)
+- EGFR canonical driver mutations found in 39% of never-smoker [RB1](../genes/RB1.md)−/TP53− [SCLC](../cancer_types/SCLC.md) (nsSCLC) — anchoring the adenocarcinoma-to-SCLC plasticity pathway; absent in atypical SCLC (aSCLC, RB1+/TP53+). [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -53,7 +55,7 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 ## Therapeutic relevance
 
 - In [GBM](../cancer_types/GBM.md), phosphoproteomic drug-connectivity analysis (LINCS L1000 + P100) predicts that phosphoproteomic signatures of EGFR alteration are more strongly reversed by non-canonical kinase inhibitors than by approved EGFR inhibitors or HDAC inhibitors predicted from RNA alone [PMID:33577785](../papers/33577785.md).
-- Convergent activation of [PTPN11](../genes/PTPN11.md) and [PLCG1](../genes/PLCG1.md) downstream of EGFR (and [PDGFRA](../genes/PDGFRA.md)) suggests these as alternative therapeutic targets in EGFR-altered GBM [PMID:33577785](../papers/33577785.md).
+- Convergent activation of [PTPN11](../genes/PTPN11.md) and [PLCG1](../genes/PLCG1.md) downstream of EGFR (and [PDGFRA](../genes/PDGFRA.md)) suggests these as alternative therapeutic targets in EGFR-altered [GBM](../cancer_types/GBM.md) [PMID:33577785](../papers/33577785.md).
 
 ## Open questions
 
@@ -92,10 +94,12 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 
 - [PMID:35649412](../papers/35649412.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
+
+- [PMID:38355797](../papers/38355797.md)
+
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

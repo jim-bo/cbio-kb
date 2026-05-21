@@ -27,11 +27,11 @@ Medullary thyroid carcinoma (MTC) arising from parafollicular C-cells, character
 
 ## Subtypes
 
-- All RET-mutant cancers on LIBRETTO-001 were MTC; RET fusion-positive cases were predominantly lung ([LUAD](../cancer_types/LUAD.md)).
+- All RET-mutant cancers on LIBRETTO-001 were MTC; [RET](../genes/RET.md) fusion-positive cases were predominantly lung ([LUAD](../cancer_types/LUAD.md)).
 
 ## Therapeutic landscape
 
-- Selpercatinib (RET inhibitor) showed 58% ORR in RET-mutant cancers (predominantly THME) in LIBRETTO-001; 82% of responders ongoing at 1 year; prior multikinase inhibitor ([vandetanib](../drugs/vandetanib.md), [cabozantinib](../drugs/cabozantinib.md), RXDX-105) exposure did not alter outcomes (HR=1.2, 95% CI 0.6–2.6, P=0.6) [PMID:35304457](../papers/35304457.md)
+- Selpercatinib ([RET](../genes/RET.md) inhibitor) showed 58% ORR in RET-mutant cancers (predominantly THME) in LIBRETTO-001; 82% of responders ongoing at 1 year; prior multikinase inhibitor ([vandetanib](../drugs/vandetanib.md), [cabozantinib](../drugs/cabozantinib.md), RXDX-105) exposure did not alter outcomes (HR=1.2, 95% CI 0.6–2.6, P=0.6) [PMID:35304457](../papers/35304457.md)
 - Pre-treatment plasma cfDNA detected the qualifying RET alteration in 95% (18/19) of RET-mutant cases via MSK-ACCESS [PMID:35304457](../papers/35304457.md)
 
 ## Sources

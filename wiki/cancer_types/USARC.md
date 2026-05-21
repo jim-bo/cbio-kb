@@ -20,8 +20,8 @@ USARC is the OncoTree code for Uterine Sarcoma/Mesenchymal tumors, a heterogeneo
 
 ## Recurrent alterations
 
-- UPS (n=44 in TCGA SARC) and [MFS](../cancer_types/MFS.md) are molecularly indistinguishable across genomic platforms; myxoid-stroma gene expression is the primary separator between histologies [PMID:29100075](../papers/29100075.md).
-- Pan-sarcoma SMGs [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), and [RB1](../genes/RB1.md) are recurrently altered in UPS; deep [TP53](../genes/TP53.md) deletions in 16%, [RB1](../genes/RB1.md) deep deletions in 16%, [CDKN2A](../genes/CDKN2A.md) deep deletions in 20% of UPS [PMID:29100075](../papers/29100075.md).
+- [UPS](../cancer_types/UPS.md) (n=44 in TCGA [SARC](../cancer_types/SARC.md)) and [MFS](../cancer_types/MFS.md) are molecularly indistinguishable across genomic platforms; myxoid-stroma gene expression is the primary separator between histologies [PMID:29100075](../papers/29100075.md).
+- Pan-sarcoma SMGs [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), and [RB1](../genes/RB1.md) are recurrently altered in [UPS](../cancer_types/UPS.md); deep [TP53](../genes/TP53.md) deletions in 16%, [RB1](../genes/RB1.md) deep deletions in 16%, [CDKN2A](../genes/CDKN2A.md) deep deletions in 20% of UPS [PMID:29100075](../papers/29100075.md).
 - Recurrent SCNAs in UPS/MFS combined: [CCNE1](../genes/CCNE1.md) high-level amplification (10%), [VGLL3](../genes/VGLL3.md) amplification (11%), [YAP1](../genes/YAP1.md) amplification (3%); VGLL3/YAP1 Hippo-pathway target signature is strongly expressed (p=1e-24), implicating the Hippo pathway as a driver [PMID:29100075](../papers/29100075.md).
 - Immune microenvironment: UPS and [MFS](../cancer_types/MFS.md) had the highest macrophage scores and favorable NK-cell/dendritic-cell signatures; NK-cell infiltration was the only immune signature correlated with disease-specific survival across multiple sarcoma histologies [PMID:29100075](../papers/29100075.md).
 - Undifferentiated sarcoma was among the TRK fusion-positive tumor types in the MSK prospective cohort (n=26,312); TRK fusion-positive sarcomas as a group ([SARCNOS](../cancer_types/SARCNOS.md) n=9 plus USARC) were markedly depleted of co-occurring canonical MAPK-pathway drivers (1.5% vs 31.4% in TRK-negative tumors, P<0.001) [PMID:31871300](../papers/31871300.md)
@@ -35,7 +35,7 @@ USARC is the OncoTree code for Uterine Sarcoma/Mesenchymal tumors, a heterogeneo
 
 ## Therapeutic landscape
 
-- The SARC028 trial showed 40% response to a PD-1 inhibitor in UPS; the TCGA SARC analysis proposes extending checkpoint-inhibitor trials to MFS given its molecular indistinguishability from UPS [PMID:29100075](../papers/29100075.md).
+- The SARC028 trial showed 40% response to a PD-1 inhibitor in UPS; the TCGA [SARC](../cancer_types/SARC.md) analysis proposes extending checkpoint-inhibitor trials to [MFS](../cancer_types/MFS.md) given its molecular indistinguishability from UPS [PMID:29100075](../papers/29100075.md).
 - Hippo-pathway inhibitors are nominated based on VGLL3/YAP1 amplification in a UPS/MFS subset [PMID:29100075](../papers/29100075.md).
 - [pembrolizumab](../drugs/pembrolizumab.md) — proposed for UPS/MFS based on immune microenvironment profiling and the SARC028 trial results [PMID:29100075](../papers/29100075.md).
 

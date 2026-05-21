@@ -42,7 +42,7 @@ processed_at: 2026-05-21
 
 ## Assays / panels (linked)
 
-- OrigiMed CSYS 450-gene NGS panel — targets ~2.6 Mb of coding exons of 450 cancer-related genes plus TERT promoter and [select](../methods/select.md) introns of 39 rearrangement-prone genes; CLIA-certified, CAP-accredited.
+- OrigiMed CSYS 450-gene NGS panel — targets ~2.6 Mb of coding exons of 450 cancer-related genes plus [TERT](../genes/TERT.md) promoter and [select](../methods/select.md) introns of 39 rearrangement-prone genes; CLIA-certified, CAP-accredited.
 - PD-L1 IHC with anti-PD-L1 clone 28-8 (Abcam ab205921, 1:300); TPS ≥1% positive.
 
 ## Papers using this cohort

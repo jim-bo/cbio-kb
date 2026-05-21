@@ -29,7 +29,7 @@ RRM2B (also known as p53R2) encodes ribonucleotide reductase regulatory subunit 
 
 ## Therapeutic relevance
 
-- Nominated as a potential [gemcitabine](../drugs/gemcitabine.md) target in hypoxic HCC conditions; [gemcitabine](../drugs/gemcitabine.md) may have enhanced efficacy in RRM2B-elevated tumors [PMID:35508466](../papers/35508466.md)
+- Nominated as a potential [gemcitabine](../drugs/gemcitabine.md) target in hypoxic [HCC](../cancer_types/HCC.md) conditions; [gemcitabine](../drugs/gemcitabine.md) may have enhanced efficacy in RRM2B-elevated tumors [PMID:35508466](../papers/35508466.md)
 
 ## Open questions
 

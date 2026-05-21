@@ -3,8 +3,8 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # KRAS
@@ -128,10 +128,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Listed as a classic colorectal cancer SMG in a CPTAC proteogenomic colon cancer cohort (n=110); [BRAF](../genes/BRAF.md) and [POLE](../genes/POLE.md) mutations enriched in the MSI-H/hypermutated subgroup of this cohort [PMID:31031003](../papers/31031003.md)
 - Zero mutations detected in cHCC-ICC cohort (n=133); KRAS mutations were notably absent, distinguishing cHCC-ICC from other liver cancers. [PMID:31130341](../papers/31130341.md)
 - 62% of rectal cancer tumoroids were RAS mutant; KRAS-mutant tumoroids exhibited cell-autonomous resistance to [cetuximab](../drugs/cetuximab.md) ex vivo, mirroring the established clinical finding that KRAS mutation predicts anti-EGFR-antibody resistance in CRC [PMID:31591597](../papers/31591597.md).
-- RAS pathway mutations (KRAS, NRAS, [HRAS](../genes/HRAS.md)) enriched in BCP-ALL and Fusion-negative [RMS](../cancer_types/RMS.md) PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
+- RAS pathway mutations (KRAS, [NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md)) enriched in BCP-ALL and Fusion-negative [RMS](../cancer_types/RMS.md) PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 - KRAS wild-type status enriched in TRK fusion-positive colorectal cancers: 6/7 TRK fusion-positive CRC cases were KRAS wild-type and MSI-H, consistent with kinase-fusion enrichment in mismatch-repair-deficient tumors lacking canonical KRAS/BRAF drivers [PMID:31871300](../papers/31871300.md)
 - KRAS mutation is associated with broad changes in cell-motility and adhesion-protein levels across solid-organ cancer cell lines (CCLE proteomics) [PMID:31978347](../papers/31978347.md)
-- KRAS mutation was used as a prognostic covariate in the Mutation model Cox comparator in Sherlock-Lung non-smoking LUAD (n=232) [PMID:32015526](../papers/32015526.md)
+- KRAS mutation was used as a prognostic covariate in the Mutation model Cox comparator in Sherlock-Lung non-smoking [LUAD](../cancer_types/LUAD.md) (n=232) [PMID:32015526](../papers/32015526.md)
 - KRAS is a driver in 287 tumors in the PCAWG pan-cancer WGS cohort (2,658 donors, 38 tumor types) [PMID:32025007](../papers/32025007.md)
 - KRAS-mutant endometrial cancer samples show upregulation of H3K27 and H3K36 acetylation in EC proteogenomics (n=95) [PMID:32059776](../papers/32059776.md)
 - KRAS mutated in 8% of 119 [UTUC](../cancer_types/UTUC.md) patients by MSK-IMPACT, as part of the recurrent RTK/RAS/PI3K-pathway driver landscape that also includes [HRAS](../genes/HRAS.md) (15%), [PIK3CA](../genes/PIK3CA.md) (14–16%), and [TSC1](../genes/TSC1.md) (14%) [PMID:32332851](../papers/32332851.md)
@@ -144,10 +144,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS — identified as a late-progression driver acquired between clonal hematopoiesis and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients with CH [PMID:33106634](../papers/33106634.md)
 - Detected in 1.3% (9/696) of melanomas in [mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md) as a rare RAS/G-protein driver; classified as a rare MAPK-pathway event [PMID:33509808](../papers/33509808.md)
 - Activating mutations in 10% of 412 intrahepatic cholangiocarcinoma tumors ([ihch_msk_2021](../datasets/ihch_msk_2021.md)); associated with shorter [OS](../cancer_types/OS.md) (multivariable HR 1.69, 95% CI 0.97–2.93, P=0.06 in resected; independent predictor in unresectable); correlated with perineural invasion and large bile-duct histotype [PMID:33765338](../papers/33765338.md)
-- KRAS amplification found in esophagogastric adenocarcinoma ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md)); one of 16 recurrent oncogenic drivers (≥5% prevalence); independently associated with worse OS (multivariable HR 1.83, 95% CI 1.31–2.55, P<0.001) [PMID:33795256](../papers/33795256.md)
+- KRAS amplification found in esophagogastric adenocarcinoma ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md)); one of 16 recurrent oncogenic drivers (≥5% prevalence); independently associated with worse [OS](../cancer_types/OS.md) (multivariable HR 1.83, 95% CI 1.31–2.55, P<0.001) [PMID:33795256](../papers/33795256.md)
 - Subclonal A59G mutation identified in one TERT-altered metaplastic breast cancer in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - [TP53](../genes/TP53.md) and KRAS mutations together form a 'high-risk' composite alteration set (with CDKN2A/B deletion) associated with worse OS in node-positive intrahepatic cholangiocarcinoma (N1 median OS 12.1 months vs 30.9 months for wild-type, P=0.002) [PMID:33963001](../papers/33963001.md)
-- Recurrent driver in NSCLC detected by MSK-ACCESS cfDNA assay; KRAS p.G12S in a lung adenocarcinoma case was reclassified from somatic to clonal hematopoiesis using matched WBC sequencing plus fragment-length evidence [PMID:34145282](../papers/34145282.md)
+- Recurrent driver in [NSCLC](../cancer_types/NSCLC.md) detected by MSK-ACCESS cfDNA assay; KRAS p.G12S in a lung adenocarcinoma case was reclassified from somatic to clonal hematopoiesis using matched WBC sequencing plus fragment-length evidence [PMID:34145282](../papers/34145282.md)
 - Hotspot mutation observed in 1.2% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
 - Most prevalent driver in 426 treatment-naive clinical N2-negative LUAD patients (MSK-IMPACT); no significant difference in alteration frequency by pN status (pN+ vs pN-). [PMID:34290393](../papers/34290393.md)
 - Mutated in 42.5% of EO-CRC MSS tumors; frequencies similar across age cohorts (≤35 = 46%, 36-49 = 42%, AO = 48%); RTK-RAS pathway alterations initially appeared less frequent in 36-49 vs AO but not after sidedness adjustment. [PMID:34405229](../papers/34405229.md)
@@ -157,7 +157,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS activating mutations (e.g., G12V) found in 0.3% of both metastatic and primary HER2-amplified breast cancers (n=733); G12V phenocopies [NF1](../genes/NF1.md) loss in driving resistance to lapatinib/tucatinib and confers MEK sensitization (IC50 16–24 nM [trametinib](../drugs/trametinib.md)). [PMID:34795269](../papers/34795269.md)
 - RAS-pathway mutations (KRAS, NRAS, [PTPN11](../genes/PTPN11.md)) identified among transformation drivers in pediatric neuroblastoma patients who developed therapy-related AML/MDS; patient 118728 had multiple RAS-pathway hits [PMID:35078859](../papers/35078859.md)
 - Mutated in 1/13 (8%) tubular adenomas vs. 2/2 tubulovillous adenomas by WES; 5% to 42% frequency from TA to TVA in 281 polyps; 35% of MSS CRCs vs. 0% of MSI-H CRCs, marking KRAS as a key driver of the conventional adenoma-to-carcinoma MSS pathway [PMID:34910928](../papers/34910928.md)
-- Mutations more frequent in pancreatic neuroendocrine metastases (1% vs 10%, q=0.03); 12p gain (encompassing KRAS) more frequent in PAAD metastases (17% vs 4%, q=0.002); MSS [COAD](../cancer_types/COAD.md) patients with lung metastasis had higher KRAS mutation frequency (39% vs 52%, q<0.001) [PMID:35120664](../papers/35120664.md)
+- Mutations more frequent in pancreatic neuroendocrine metastases (1% vs 10%, q=0.03); 12p gain (encompassing KRAS) more frequent in [PAAD](../cancer_types/PAAD.md) metastases (17% vs 4%, q=0.002); MSS [COAD](../cancer_types/COAD.md) patients with lung metastasis had higher KRAS mutation frequency (39% vs 52%, q<0.001) [PMID:35120664](../papers/35120664.md)
 - Enriched in Nigerian MSS colorectal tumors (RAS pathway 76.1% vs. 59.6% MSKCC, P=0.03); 61.1% in Nigerian MSI-H tumors (vs. 41.1% MSKCC, P=0.20), suggesting a distinct mutational landscape in West African CRC patients [PMID:34819518](../papers/34819518.md)
 - In colorectal cancer with dual MAPK drivers (CRC-DD, n=47/4,561 MSK-IMPACT cases), KRAS is the most frequently mutated gene: G12D (43%), G13D (36%), G12V (23%), G12C (13%), A146T (11%); subclonal KRAS mutations are enriched in CRC-DD vs single-driver CRC, with allelic imbalance detected in 21/65 KRAS instances [PMID:35235413](../papers/35235413.md).
 - In the MAPPYACTS pediatric precision oncology trial, RAS family mutations (KRAS/NRAS/HRAS, n=42 total) were classified as investigational-tier actionable alterations matched to MEK inhibitors, but deliberately not designated as ready-for-routine-use given limited MEK inhibitor clinical activity in pediatric RAS-mutant tumors [PMID:35292802](../papers/35292802.md).
@@ -167,10 +167,12 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Hotspot mutations in 33% (39/119) of low-grade serous ovarian carcinoma ([LGSOC](../cancer_types/LGSOC.md)) patients; G12V is the most frequent variant (n=19); enriched in age >50 (p=0.03) and platinum-sensitive disease (p=0.04); MAPK pathway alteration (including KRAS) is an independent favorable prognostic factor for OS (multivariate HR 2.5 for absence vs presence, p=0.019) [PMID:35443055](../papers/35443055.md).
 - Concomitant amplification and overexpression detected in two pediatric/young adult cancer patients (H135462, H195916) by cWGTS without informative clinical biomarkers on panel testing; MSK-IMPACT missed the amplification, demonstrating lower copy-number sensitivity of panel assays [PMID:35585047](../papers/35585047.md).
 - KRAS G12X mutations are present in 0.9% of sarcomas in the MSK sarcoma genomic profiling cohort (n=7,494, FoundationOne CDx); their rarity suggests they may flag sarcomatoid carcinoma rather than true mesenchymal neoplasms [PMID:35705558](../papers/35705558.md)
-- KRAS/NRAS ('RAS') mutations correlated with Monocyte-like AML cell state in the Beat AML cohort (n=942); confer greater sensitivity to STE7/MEK inhibitors (expected) and to CDK-family inhibitors (unexpected) [PMID:35868306](../papers/35868306.md)
-- 18% pan-cohort frequency (second most common after TP53) across 10,194 Asian solid-tumor patients; G12 hotspot predominant; significantly elevated in [IHCH](../cancer_types/IHCH.md) vs MSK; KRAS G12C in 2.7% of NSCLC (sotorasib Level 1); unusual pairwise co-occurrence with [EGFR](EGFR.md) noted (atypical for Western LUAD) [PMID:35871175](../papers/35871175.md)
-- Oncogenic alterations in 42% (274/652) of pMMR/MSS rectal cancer patients, mostly clonal at G12/G13; G12C in 2% (Level 3A); associated with borderline shorter DFS overall (p=0.04) and significantly shorter DFS in CRT-CNCT–treated patients (p=0.004); KRAS-/PIK3CA-mutant co-occurring tumors show elevated CA9 (hypoxia marker) [PMID:35970919](../papers/35970919.md)
+- KRAS/NRAS ('RAS') mutations correlated with Monocyte-like [AML](../cancer_types/AML.md) cell state in the Beat AML cohort (n=942); confer greater sensitivity to STE7/MEK inhibitors (expected) and to CDK-family inhibitors (unexpected) [PMID:35868306](../papers/35868306.md)
+- 18% pan-cohort frequency (second most common after [TP53](../genes/TP53.md)) across 10,194 Asian solid-tumor patients; G12 hotspot predominant; significantly elevated in [IHCH](../cancer_types/IHCH.md) vs MSK; KRAS G12C in 2.7% of NSCLC ([sotorasib](../drugs/sotorasib.md) Level 1); unusual pairwise co-occurrence with [EGFR](EGFR.md) noted (atypical for Western LUAD) [PMID:35871175](../papers/35871175.md)
+- Oncogenic alterations in 42% (274/652) of pMMR/MSS rectal cancer patients, mostly clonal at G12/G13; G12C in 2% (Level 3A); associated with borderline shorter DFS overall (p=0.04) and significantly shorter DFS in CRT-CNCT–treated patients (p=0.004); KRAS-/PIK3CA-mutant co-occurring tumors show elevated [CA9](../genes/CA9.md) (hypoxia marker) [PMID:35970919](../papers/35970919.md)
 - Hotspot mutations subclonal in the primary endometrial carcinoma of patient CD20 but clonal in the sentinel lymph node; detected by MSK-ACCESS ctDNA monitoring, demonstrating clonal expansion of KRAS-mutant cells in nodal compartment [PMID:36007103](../papers/36007103.md)
+- KRAS mutated in 31% of colitis-associated cancers (CAC); enriched in more-differentiated histology; less frequent in CAC than sporadic CRC; also mutated in dysplasia preceding CAC. [PMID:36611031](../papers/36611031.md)
+- KRAS amplification co-localized to chromothriptic chromosome 12q12 in a subset of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); KRAS canonical driver mutations found in 6% of never-smoker [RB1](../genes/RB1.md)−/TP53− SCLC, anchoring the adenocarcinoma-to-SCLC plasticity pathway — absent in aSCLC. [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -500,4 +502,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:36007103](../papers/36007103.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

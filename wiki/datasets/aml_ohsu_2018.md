@@ -25,11 +25,11 @@ processed_at: 2026-05-21
 
 ## Overview
 
-The Beat [AML](../cancer_types/AML.md) program is a prospective multi-institutional study that assembled one of the largest integrated genomic and pharmacologic [AML](../cancer_types/AML.md) datasets to date. Tumor specimens from 562 unique AML patients (672 total specimens, including serial samples) were collected across OHSU and 9 partner sites (University of Utah, UT Southwestern, Stanford, University of Miami, University of Colorado, University of Florida, NIH, Fox Chase, and KUMC). The dataset integrates whole-exome sequencing, RNA-sequencing, and a 122-compound ex vivo drug sensitivity screen. All data are publicly accessible via dbGaP (phs001657.v1.p1), GDC, and cBioPortal, and are browsable interactively at www.vizome.org. [PMID:30333627](../papers/30333627.md)
+The Beat [AML](../cancer_types/AML.md) program is a prospective multi-institutional study that assembled one of the largest integrated genomic and pharmacologic [AML](../cancer_types/AML.md) datasets to date. Tumor specimens from 562 unique [AML](../cancer_types/AML.md) patients (672 total specimens, including serial samples) were collected across OHSU and 9 partner sites (University of Utah, UT Southwestern, Stanford, University of Miami, University of Colorado, University of Florida, NIH, Fox Chase, and KUMC). The dataset integrates whole-exome sequencing, RNA-sequencing, and a 122-compound ex vivo drug sensitivity screen. All data are publicly accessible via dbGaP (phs001657.v1.p1), GDC, and cBioPortal, and are browsable interactively at www.vizome.org. [PMID:30333627](../papers/30333627.md)
 
 ## Composition
 
-- **562 unique AML patients**, 672 primary tumor specimens (bone marrow aspirate or peripheral blood), including 110 patients with multiple time-point samples. [PMID:30333627](../papers/30333627.md)
+- **562 unique [AML](../cancer_types/AML.md) patients**, 672 primary tumor specimens (bone marrow aspirate or peripheral blood), including 110 patients with multiple time-point samples. [PMID:30333627](../papers/30333627.md)
 - **Cancer type:** [AML](../cancer_types/AML.md)
 - **Whole-exome sequencing:** 622 specimens / 531 patients; Illumina Nextera RapidCapture (37 Mb); aligned with BWA MEM; somatic variants from MuTect v1.1.7, VarScan 2 v2.4.1, and Pindel (FLT3-ITD calls); annotated with VEP v83 / [vcf2maf](../methods/vcf2maf.md). 11.9-Mb custom validation library applied to 96 specimens (94% SNV / 82% indel validation rate). [PMID:30333627](../papers/30333627.md)
 - **RNA-sequencing:** 451 specimens / 411 patients; Agilent SureSelect Strand-Specific kit; Illumina HiSeq 2500. [PMID:30333627](../papers/30333627.md)

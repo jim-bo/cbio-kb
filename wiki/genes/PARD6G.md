@@ -19,7 +19,7 @@ PARD6G (Par-6 Family Cell Polarity Regulator Gamma) encodes a scaffolding protei
 
 ## Cancer types (linked)
 
-- **CSCC (cutaneous squamous cell carcinoma):** structural variant detected in metastatic nodal disease WGS cohort [PMID:35982973](../papers/35982973.md)
+- **[CSCC](../cancer_types/CSCC.md) (cutaneous squamous cell carcinoma):** structural variant detected in metastatic nodal disease WGS cohort [PMID:35982973](../papers/35982973.md)
 
 ## Co-occurrence and mutual exclusivity
 

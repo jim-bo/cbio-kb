@@ -22,7 +22,7 @@ LINGO2 (Leucine Rich Repeat And Ig Domain Containing 2) is a candidate coding dr
 
 ## Cancer types (linked)
 
-- Metastatic CSCC ([CSCC](../cancer_types/CSCC.md)) — candidate driver in mCSCC (n=25 WGS samples); specific alteration frequency not individually reported [PMID:35982973](../papers/35982973.md)
+- Metastatic [CSCC](../cancer_types/CSCC.md) ([CSCC](../cancer_types/CSCC.md)) — candidate driver in mCSCC (n=25 WGS samples); specific alteration frequency not individually reported [PMID:35982973](../papers/35982973.md)
 
 ## Co-occurrence and mutual exclusivity
 

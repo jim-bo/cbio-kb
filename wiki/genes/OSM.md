@@ -23,7 +23,7 @@ OSM (Oncostatin M) is an IL-6 family cytokine secreted primarily by myeloid cell
 
 ## Alterations observed in the corpus
 
-- Myeloid-expressed OSM paired with differentiated-like neoplastic OSMR is the top ligand-receptor correlate of mesenchymal subtype transition in recurrent IDHwt diffuse glioma (GLASS cohort, n=304 patients); spatial co-localization confirmed by multiplex immunofluorescence [PMID:35649412](../papers/35649412.md)
+- Myeloid-expressed OSM paired with differentiated-like neoplastic [OSMR](../genes/OSMR.md) is the top ligand-receptor correlate of mesenchymal subtype transition in recurrent IDHwt diffuse glioma (GLASS cohort, n=304 patients); spatial co-localization confirmed by multiplex immunofluorescence [PMID:35649412](../papers/35649412.md)
 
 ## Cancer types (linked)
 

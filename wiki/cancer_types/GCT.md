@@ -41,7 +41,7 @@ Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragona
 ## Therapeutic landscape
 
 - **[Cisplatin](../drugs/cisplatin.md)-based chemotherapy** ([BEP](../drugs/bleomycin.md)/[EP](../drugs/etoposide.md)/TIP/VIP) — standard first-line; [cisplatin](../drugs/cisplatin.md) resistance is the central clinical challenge; TP53/MDM2 alterations independently predict shorter PFS (HR 1.83, P=.016) after adjusting for IGCCCG risk [PMID:27646943](../papers/27646943.md).
-- **[Nutlin-3](../drugs/nutlin-3.md) ([MDM2](../genes/MDM2.md) inhibitor)** — showed antiproliferative and apoptotic synergy with [cisplatin](../drugs/cisplatin.md) in TP53 wild-type cisplatin-resistant cell lines in vitro; 7 [MDM2](../genes/MDM2.md) inhibitors in clinical trials at time of publication [PMID:27646943](../papers/27646943.md).
+- **[Nutlin-3](../drugs/nutlin-3.md) ([MDM2](../genes/MDM2.md) inhibitor)** — showed antiproliferative and apoptotic synergy with [cisplatin](../drugs/cisplatin.md) in [TP53](../genes/TP53.md) wild-type cisplatin-resistant cell lines in vitro; 7 [MDM2](../genes/MDM2.md) inhibitors in clinical trials at time of publication [PMID:27646943](../papers/27646943.md).
 - **[Imatinib](../drugs/imatinib.md)/[sunitinib](../drugs/sunitinib.md)** — therapeutic candidates for KIT-mutant GCT (particularly seminoma) [PMID:27646943](../papers/27646943.md).
 - **MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md), [binimetinib](../drugs/binimetinib.md))** — candidates for KRAS/NRAS/RAC1-altered GCT [PMID:27646943](../papers/27646943.md).
 

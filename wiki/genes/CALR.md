@@ -22,11 +22,11 @@ CALR (calreticulin) encodes an endoplasmic reticulum chaperone protein. Somatic 
 
 ## Cancer types (linked)
 
-- Myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [MF](../cancer_types/MF.md)): dominant driver in JAK2/MPL-negative cases; CALR-mutated ET presents with higher platelet counts, lower hemoglobin, and higher transformation-to-MF risk than JAK2-mutated ET [PMID:24325359](../papers/24325359.md)
+- Myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [MF](../cancer_types/MF.md)): dominant driver in JAK2/MPL-negative cases; CALR-mutated [ET](../cancer_types/ET.md) presents with higher platelet counts, lower hemoglobin, and higher transformation-to-MF risk than JAK2-mutated ET [PMID:24325359](../papers/24325359.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Strictly mutually exclusive with [JAK2](../genes/JAK2.md) V617F and [MPL](../genes/MPL.md) mutations in MPN [PMID:24325359](../papers/24325359.md)
+- Strictly mutually exclusive with [JAK2](../genes/JAK2.md) V617F and [MPL](../genes/MPL.md) mutations in [MPN](../cancer_types/MPN.md) [PMID:24325359](../papers/24325359.md)
 - Mutations arise in the HSC compartment at earliest phylogenetic node [PMID:24325359](../papers/24325359.md)
 
 ## Therapeutic relevance

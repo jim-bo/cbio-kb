@@ -5,7 +5,7 @@ drug_class: 1st-generation EGFR TKI
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, egfr-tki]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -30,6 +30,7 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - Matched therapy for sensitizing EGFR mutations (exon 19 del/L858R) in 860 LUAD patients via MSK-IMPACT; clinical benefit rate 84.8% in sensitizing EGFR-mutant patients; significantly lower benefit for L861Q (43%) and exon 18 deletions (40%); 1 EGFR exon 20 insertion patient treated with erlotinib had no response; 1 ERRFI1-A143D patient derived benefit despite no EGFR mutation [PMID:28336552](../papers/28336552.md).
 - In functional validation experiments using MCF7 breast cancer cells, erlotinib (EGFR inhibitor) reversed [fulvestrant](../drugs/fulvestrant.md) resistance conferred by stable [EGFR](../genes/EGFR.md) overexpression, supporting EGFR inhibitors as candidate combination agents for EGFR-amplified endocrine-resistant HR+ breast cancer [PMID:30205045](../papers/30205045.md).
 - 1st/2nd-generation EGFR TKI; indicated for EGFR L858R/exon-19 deletion in [NSCLC](../cancer_types/NSCLC.md) (20% and 19% of NSCLC respectively in Chinese pan-cancer cohort n=10,194) [PMID:35871175](../papers/35871175.md)
+- Erlotinib is cited as a canonical example of NGS-enabled targeted therapy development against specific EGFR mutations, illustrating the value of multi-omics precision medicine in the review's framework [PMID:37119971](../papers/37119971.md).
 
 ## Resistance mechanisms
 
@@ -74,3 +75,6 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antiangiogenic]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # lenvatinib
@@ -25,6 +25,7 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - First-line HCC: REFLECT trial — lenvatinib non-inferior to sorafenib, median OS 13.6 vs 12.3 months (HR 0.92, 95% CI 0.79–1.06); mRECIST ORR 24.1% (investigator) / 40.6% (masked review); approved as alternative first-line for Child–Pugh A, BCLC-C patients (except main portal vein thrombosis or >50% liver involvement) [PMID:24798001](../papers/24798001.md)
 - Lenvatinib (first-line TKI non-inferior to sorafenib in HCC) was discussed in the context of the broader first-line systemic therapy landscape for 127 advanced [HCC](../cancer_types/HCC.md) patients at MSKCC; [CTNNB1](../genes/CTNNB1.md)/WNT-pathway activating alterations (45% of cohort) were associated with innate resistance to immune checkpoint blockade but their effect on VEGFR-TKI response was not significant [PMID:30373752](../papers/30373752.md).
 - Cited in an integrated genomic analysis of 868 R/M adenoid cystic carcinoma (ACC) cases as a multikinase inhibitor with ORR of 16–27% in R/M ACC across prior phase II trials, supporting tyrosine-kinase inhibition in subsets of ACC patients pending predictive biomarkers [PMID:31483290](../papers/31483290.md)
+- Lenvatinib is a first-line standard-of-care TKI for advanced [HCC](../cancer_types/HCC.md) with real-world ORR of 16–23% and median PFS <12 months; resistance is driven by lipid-metabolism reprogramming including phosphatidic acid activating RTK signaling, 25-hydroxycholesterol activating Sonic Hedgehog, [LCAT](../genes/LCAT.md) downregulation with FAO upregulation, and cholesterol-dependent [ABCB1](../genes/ABCB1.md) efflux pump upregulation [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -56,3 +57,6 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -25,7 +25,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-MSK-IMPACT targeted sequencing cohort of 1,417 prostate adenocarcinoma patients (after FACETS QC from 2,735 sequenced) at Memorial Sloan Kettering Cancer Center. The study was designed to characterize [PIK3R1](../genes/PIK3R1.md) alterations across the full spectrum of prostate cancer, from primary disease through metastatic castration-resistant prostate cancer (mCRPC). Tumor-normal paired capture sequencing was performed using MSK-IMPACT panels (IMPACT341/IMPACT410/IMPACT468; 340/410/468 genes, all containing [PIK3R1](../genes/PIK3R1.md)). Samples with MSI-sensor >10 or TMB >20 mut/Mb were excluded to avoid passenger PIK3R1 events.
+MSK-IMPACT targeted sequencing cohort of 1,417 prostate adenocarcinoma patients (after FACETS QC from 2,735 sequenced) at Memorial Sloan Kettering Cancer Center. The study was designed to characterize [PIK3R1](../genes/PIK3R1.md) alterations across the full spectrum of prostate cancer, from primary disease through metastatic castration-resistant prostate cancer (mCRPC). Tumor-normal paired capture sequencing was performed using MSK-IMPACT panels (IMPACT341/IMPACT410/IMPACT468; 340/410/468 genes, all containing [PIK3R1](../genes/PIK3R1.md)). Samples with MSI-sensor >10 or TMB >20 mut/Mb were excluded to avoid passenger [PIK3R1](../genes/PIK3R1.md) events.
 
 ## Composition
 
@@ -44,7 +44,7 @@ MSK-IMPACT targeted sequencing cohort of 1,417 prostate adenocarcinoma patients 
 
 ## Papers using this cohort
 
-- [PMID:35670774](../papers/35670774.md) — Chakraborty et al., Clin Cancer Res 2022. Primary study: PIK3R1 alterations in prostate cancer.
+- [PMID:35670774](../papers/35670774.md) — Chakraborty et al., Clin Cancer Res 2022. Primary study: [PIK3R1](../genes/PIK3R1.md) alterations in prostate cancer.
 
 ## Notable findings derived from this cohort
 

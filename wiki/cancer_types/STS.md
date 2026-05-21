@@ -26,7 +26,7 @@ Soft tissue sarcomas (STS) are a heterogeneous group of malignant tumors arising
 
 ## Recurrent alterations
 
-- [CDK4](../genes/CDK4.md) amplification in 10.9% of STS cases in the pan-cancer OrigiMed cohort (abemaciclib/palbociclib Level 4 per OncoKB); [EWSR1](../genes/EWSR1.md) fusions restricted to sarcomas; younger bone sarcoma enriched for [VEGFA](../genes/VEGFA.md); VEGFA amplification age-associated in bone sarcoma [PMID:35871175](../papers/35871175.md).
+- [CDK4](../genes/CDK4.md) amplification in 10.9% of STS cases in the pan-cancer OrigiMed cohort (abemaciclib/palbociclib Level 4 per OncoKB); [EWSR1](../genes/EWSR1.md) fusions restricted to sarcomas; younger bone sarcoma enriched for [VEGFA](../genes/VEGFA.md); [VEGFA](../genes/VEGFA.md) amplification age-associated in bone sarcoma [PMID:35871175](../papers/35871175.md).
 
 ## Subtypes
 

@@ -29,11 +29,11 @@ Solitary Fibrous Tumor (formerly also called Hemangiopericytoma) is a fibroblast
 
 ## Subtypes
 
-- Benign/typical vs malignant SFT distinguished by mitotic index and necrosis; TERT promoter mutations associated with aggressive biology.
+- Benign/typical vs malignant SFT distinguished by mitotic index and necrosis; [TERT](../genes/TERT.md) promoter mutations associated with aggressive biology.
 
 ## Therapeutic landscape
 
-- No Level 1 targeted therapy; [sunitinib](../drugs/sunitinib.md) and [bevacizumab](../drugs/bevacizumab.md) have shown activity in malignant SFT. TERT promoter mutations do not have direct therapeutic implications currently but cluster SFT with [MRLS](../cancer_types/MRLS.md) in unsupervised analyses, suggesting shared oncogenic pathway.
+- No Level 1 targeted therapy; [sunitinib](../drugs/sunitinib.md) and [bevacizumab](../drugs/bevacizumab.md) have shown activity in malignant SFT. [TERT](../genes/TERT.md) promoter mutations do not have direct therapeutic implications currently but cluster SFT with [MRLS](../cancer_types/MRLS.md) in unsupervised analyses, suggesting shared oncogenic pathway.
 
 ## Sources
 

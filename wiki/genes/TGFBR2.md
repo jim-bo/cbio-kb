@@ -20,6 +20,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 - Frameshift mutations reduce TGFBR2-S553 phosphosite abundance in colon cancer proteogenomics ([coad_cptac_2019](../datasets/coad_cptac_2019.md)) [PMID:31031003](../papers/31031003.md)
 - Altered in >=5% of PDAC tumors in the CPTAC 2021 proteogenomic cohort (n=140 treatment-naive resected tumors); one of the recurrently mutated non-KRAS/TP53/CDKN2A/SMAD4 genes in PDAC [PMID:34534465](../papers/34534465.md)
 - TGFBR2 listed among genes profiled by MSK-IMPACT in [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients at MSK; present in the frontmatter gene list for the MSK [SCLC](../cancer_types/SCLC.md) PDX cohort ([lung_pdx_msk_2021](../datasets/lung_pdx_msk_2021.md)) [PMID:35440124](../papers/35440124.md).
+- Deleted in 2/7 chr 3 chromothripsis cases in atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); the only recurrent driver event on chromothriptic chromosome 3, though specific mechanistic role on 3p remains unclear [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -31,7 +32,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 
 ## Therapeutic relevance
 
-- No direct targeted therapy for TGFBR2-mutant ESCC described in the corpus.
+- No direct targeted therapy for TGFBR2-mutant [ESCC](../cancer_types/ESCC.md) described in the corpus.
 
 ## Open questions
 
@@ -49,5 +50,8 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 - [PMID:34534465](../papers/34534465.md)
 
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

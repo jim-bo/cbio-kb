@@ -24,7 +24,7 @@ dNdScv (dN/dS in cancer using a Poisson framework with covariate correction) is 
 - Bolton et al. applied dNdScv to clonal hematopoiesis (CH) mutations from 24,146 cancer patients (MSK-IMPACT), restricting the analysis to the IMPACT-410/468 sub-cohorts with q < 0.1 and ≥25 variants per gene, to identify genes under positive selection in hematopoietic stem and progenitor cells across diverse cancer and therapy contexts [PMID:33106634](../papers/33106634.md)
 - Applied as one of four statistical cancer-gene discovery tools in a [CSCC](../cancer_types/CSCC.md) ([CSCC](../cancer_types/CSCC.md)) meta-analysis of 88 WES/WGS tumors; dN/dS compares observed nonsynonymous-to-synonymous mutation ratios against neutral-evolution expectations to detect positive selection; collectively the four tools nominated 12 cancer genes, 7 called by ≥2 tools [PMID:34272401](../papers/34272401.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
-- Part of three-tool consensus driver-calling pipeline applied to 25 metastatic CSCC WGS samples; called [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and [C9](../genes/C9.md) as significant coding drivers (p<0.005) — all three corroborated by all tools [PMID:35982973](../papers/35982973.md)
+- Part of three-tool consensus driver-calling pipeline applied to 25 metastatic [CSCC](../cancer_types/CSCC.md) WGS samples; called [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and [C9](../genes/C9.md) as significant coding drivers (p<0.005) — all three corroborated by all tools [PMID:35982973](../papers/35982973.md)
 
 ## Notes
 

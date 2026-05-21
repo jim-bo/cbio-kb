@@ -19,7 +19,7 @@ PRLR (Prolactin Receptor) encodes the transmembrane receptor for prolactin. In c
 
 ## Cancer types (linked)
 
-- **CSCC (cutaneous squamous cell carcinoma):** candidate driver in metastatic nodal disease WGS cohort [PMID:35982973](../papers/35982973.md)
+- **[CSCC](../cancer_types/CSCC.md) (cutaneous squamous cell carcinoma):** candidate driver in metastatic nodal disease WGS cohort [PMID:35982973](../papers/35982973.md)
 
 ## Co-occurrence and mutual exclusivity
 

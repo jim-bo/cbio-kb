@@ -3,7 +3,7 @@ symbol: FBXW7
 aliases: []
 cancer_types: [MNG, CESC, UCEC, RMS]
 tags: [tumor-suppressor, ubiquitin-ligase]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -55,6 +55,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - FBXW7 hotspot mutations enriched in germline (Lynch) MMR-D endometrial carcinomas (46% vs 10% MLH1ph); among the most differentially mutated genes between Lynch and MLH1-promoter-hypermethylation MMR-D EC [PMID:35849120](../papers/35849120.md)
 - Altered in 14% of pMMR/MSS rectal tumors in LARC genomic landscape study (MSK-IMPACT; n=692 rectal cancers) [PMID:35970919](../papers/35970919.md)
 - Mutated in 29% of primary endometrial carcinomas in cfDNA monitoring study; tracked longitudinally in CD36 (stage IIIA grade 1 endometrioid EC) by MSK-ACCESS panel [PMID:36007103](../papers/36007103.md)
+- FBXW7 recurrently altered in CAC (~10% in dysplasia oncoprint analysis); one of the recurrent driver genes in colitis-associated colorectal cancer (n=174 IBD patients). [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -150,10 +151,10 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 - [PMID:35849120](../papers/35849120.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+
+- [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

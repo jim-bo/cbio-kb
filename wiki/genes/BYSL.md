@@ -30,7 +30,7 @@ BYSL (Bystin-like) is a direct cMYC transcriptional target required for nucleolo
 
 ## Open questions
 
-- Whether BYSL amplification is a true driver or passenger in HCC 6p21.1 amplicons requires functional validation beyond the correlation-based evidence reported [PMID:35508466](../papers/35508466.md)
+- Whether BYSL amplification is a true driver or passenger in [HCC](../cancer_types/HCC.md) 6p21.1 amplicons requires functional validation beyond the correlation-based evidence reported [PMID:35508466](../papers/35508466.md)
 
 ## Sources
 

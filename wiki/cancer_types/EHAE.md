@@ -29,7 +29,7 @@ Epithelioid Hemangioendothelioma is a rare vascular tumor of intermediate malign
 
 ## Subtypes
 
-- WWTR1–CAMTA1 fusion-positive (majority) vs YAP1–TFE3 fusion-positive (minority, more aggressive).
+- [WWTR1](../genes/WWTR1.md)–CAMTA1 fusion-positive (majority) vs [YAP1](../genes/YAP1.md)–[TFE3](../genes/TFE3.md) fusion-positive (minority, more aggressive).
 
 ## Therapeutic landscape
 

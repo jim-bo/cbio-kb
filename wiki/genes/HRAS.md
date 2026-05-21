@@ -59,6 +59,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - In the MAPPYACTS pediatric precision oncology trial (n=624 sequenced), RAS family mutations including HRAS (total RAS family n=42) were classified as investigational-tier actionable alterations matched to MEK inhibitors, but were deliberately not classified as ready-for-routine-use given limited MEK inhibitor activity in pediatric RAS-mutant tumors [PMID:35292802](../papers/35292802.md).
 - Rare singleton HRAS mutation contributing to the broader MAPK pathway-altered group in 119 [LGSOC](../cancer_types/LGSOC.md) patients profiled by MSK-IMPACT [PMID:35443055](../papers/35443055.md)
 - HRAS is amplified in approximately 20% of granular cell tumors in the MSK sarcoma genomic profiling cohort (n=7,494 sarcomas, FoundationOne CDx) [PMID:35705558](../papers/35705558.md)
+- HRAS amplification co-localized to chromothriptic chromosome 11p15 in a subset of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC, [RB1](../genes/RB1.md)+/TP53+, never/light smokers); one of the additional amplifications co-occurring with [CCND1](../genes/CCND1.md) amplification on chromothriptic chr 11. [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -86,127 +87,88 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26437033](../papers/26437033.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29422544](../papers/29422544.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
+
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

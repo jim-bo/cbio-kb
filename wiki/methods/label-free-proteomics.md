@@ -10,7 +10,7 @@ tags:
   - label-free
   - shotgun-proteomics
   - multi-omics
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -24,6 +24,7 @@ Label-free quantitative proteomics uses liquid chromatography tandem mass spectr
 
 - Applied to 100 CPTAC colon cancer tumors ([coad_cptac_2019](../datasets/coad_cptac_2019.md)) alongside TMT global and phosphoproteomics; average label-free protein profiles correlated with TCGA colorectal proteomics at Pearson r=0.96 and with 100 tumor averages from different cancer types at lower r; identified cancer-associated proteins broadly consistent with TMT findings [PMID:31031003](../papers/31031003.md)
 - Fe(III)-IMAC enrichment followed by label-free phosphoproteomics (Q-Exactive HF) applied to 51/122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)), quantifying 12,205 phosphorylation sites in 4,230 proteins; enabled KSEA-based kinase activity inference [PMID:35508466](../papers/35508466.md)
+- Highlighted in multi-omics review as a mass-spectrometry proteomics approach with cost falling from $3,250/sample (2006) to $375/sample (2021); enabling routine clinical proteomic biomarker discovery and proteogenomic integration with CPTAC-class studies [PMID:37119971](../papers/37119971.md)
 
 ## Notes
 
@@ -37,3 +38,6 @@ Label-free quantitative proteomics uses liquid chromatography tandem mass spectr
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

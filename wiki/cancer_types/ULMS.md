@@ -40,12 +40,12 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
   - Intermediate: [TP53](../genes/TP53.md) mutation, [ATRX](../genes/ATRX.md) mutation, or amp20q (n=66, median DSS 92 months).
   - Low: none of above (n=61, median DSS 157 months; global log-rank P=0.00012).
 - Most molecular alterations are early clonal events persisting through disease progression. [PMID:38488807](../papers/38488807.md)
-- ULMS vs. STLMS distinction: ATRX mutations more common in ULMS (32% vs. 10%), [MED12](../genes/MED12.md) mutations unique to ULMS (15% vs. 1%), [RB1](../genes/RB1.md) deletions more common in ULMS (39% vs. 24%). [PMID:38488807](../papers/38488807.md)
+- ULMS vs. STLMS distinction: [ATRX](../genes/ATRX.md) mutations more common in ULMS (32% vs. 10%), [MED12](../genes/MED12.md) mutations unique to ULMS (15% vs. 1%), [RB1](../genes/RB1.md) deletions more common in ULMS (39% vs. 24%). [PMID:38488807](../papers/38488807.md)
 
 ## Therapeutic landscape
 
-- Genomic risk stratification using TP53, ATRX, and chr20q status provides superior or comparable prognostic information relative to tumor size; recommended for routine clinical NGS interpretation. [PMID:38488807](../papers/38488807.md)
-- IHC for TP53 and ATRX may serve as surrogate biomarkers for settings without NGS access. [PMID:38488807](../papers/38488807.md)
+- Genomic risk stratification using [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), and chr20q status provides superior or comparable prognostic information relative to tumor size; recommended for routine clinical NGS interpretation. [PMID:38488807](../papers/38488807.md)
+- IHC for [TP53](../genes/TP53.md) and ATRX may serve as surrogate biomarkers for settings without NGS access. [PMID:38488807](../papers/38488807.md)
 - Risk stratification could inform decisions on neoadjuvant or adjuvant therapy. [PMID:38488807](../papers/38488807.md)
 
 ## Sources

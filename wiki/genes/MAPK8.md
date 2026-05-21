@@ -21,7 +21,7 @@ MAPK8 (Mitogen-Activated Protein Kinase 8; also known as JNK1) is a stress-activ
 
 ## Alterations observed in the corpus
 
-- Part of the PEAR1-downstream phagocytic signaling axis (with SYK and SRC-family kinases) in AML; MAPK8 (JNK) was co-nominated with [PEAR1](../genes/PEAR1.md) in a prior TCGA-LAML immune prognostic gene signature (Dao et al., 2021); mechanistic background context in a study defining PEAR1 as a single-gene AML prognostic biomarker [PMID:35868306](../papers/35868306.md)
+- Part of the PEAR1-downstream phagocytic signaling axis (with [SYK](../genes/SYK.md) and SRC-family kinases) in [AML](../cancer_types/AML.md); MAPK8 (JNK) was co-nominated with [PEAR1](../genes/PEAR1.md) in a prior TCGA-LAML immune prognostic gene signature (Dao et al., 2021); mechanistic background context in a study defining [PEAR1](../genes/PEAR1.md) as a single-gene AML prognostic biomarker [PMID:35868306](../papers/35868306.md)
 
 ## Cancer types (linked)
 

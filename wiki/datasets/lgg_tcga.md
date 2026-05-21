@@ -42,7 +42,7 @@ The TCGA Lower-Grade Glioma ([LGG](../cancer_types/LGG.md)) cohort is a large, m
 
 - [PMID:27806376](../papers/27806376.md) — Tirosh et al. 2016, *Nature*: 69 bulk oligodendroglioma samples from TCGA [LGG](../cancer_types/LGG.md) used as an external validation cohort for scRNA-seq-derived stem/progenitor and cell-cycle signatures.
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*: Expert-revised multi-parametric MRI segmentation labels and >700 radiomic features released for 108 TCGA-LGG cases (originating set n=199), enabling radiogenomic integration with lgg_tcga molecular data.
-- [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 516 LGG samples from this cohort merged with [gbm_tcga](../datasets/gbm_tcga.md) into [lgggbm_tcga_pub](../datasets/lgggbm_tcga_pub.md); identified six DNA-methylation subtypes and PA-like IDH-wildtype LGG.
+- [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 516 [LGG](../cancer_types/LGG.md) samples from this cohort merged with [gbm_tcga](../datasets/gbm_tcga.md) into [lgggbm_tcga_pub](../datasets/lgggbm_tcga_pub.md); identified six DNA-methylation subtypes and PA-like IDH-wildtype [LGG](../cancer_types/LGG.md).
 
 ## Notable findings derived from this cohort
 

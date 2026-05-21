@@ -21,7 +21,7 @@ COLEC12 (Collectin Subfamily Member 12, also known as CL-P1 or SRCL) encodes a t
 
 ## Alterations observed in the corpus
 
-- Candidate coding driver in metastatic CSCC: called by ≥2 of three driver-detection tools (OncodriveFML, MutSigCV, dNdScv) in a WGS study of 25 lymph node metastases; COLEC12 and [SLC22A6](../genes/SLC22A6.md) were enriched in metastatic vs primary CSCC on cBioPortal cross-cohort comparison (primary 25%, metastatic 60%); enrichment in TGF-beta regulation of extracellular matrix pathway [PMID:35982973](../papers/35982973.md)
+- Candidate coding driver in metastatic [CSCC](../cancer_types/CSCC.md): called by ≥2 of three driver-detection tools (OncodriveFML, MutSigCV, dNdScv) in a WGS study of 25 lymph node metastases; COLEC12 and [SLC22A6](../genes/SLC22A6.md) were enriched in metastatic vs primary CSCC on cBioPortal cross-cohort comparison (primary 25%, metastatic 60%); enrichment in TGF-beta regulation of extracellular matrix pathway [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 

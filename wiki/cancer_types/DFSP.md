@@ -33,7 +33,7 @@ Dermatofibrosarcoma Protuberans is a low- to intermediate-grade superficial soft
 
 ## Therapeutic landscape
 
-- PDGFB fusion → [imatinib](../drugs/imatinib.md) (FDA-approved for unresectable/metastatic DFSP); recognized as a COL1A1–PDGFB driven kinase-fusion sarcoma in the FoundationOne Heme cohort [PMID:35705558](../papers/35705558.md).
+- [PDGFB](../genes/PDGFB.md) fusion → [imatinib](../drugs/imatinib.md) (FDA-approved for unresectable/metastatic DFSP); recognized as a [COL1A1](../genes/COL1A1.md)–[PDGFB](../genes/PDGFB.md) driven kinase-fusion sarcoma in the FoundationOne Heme cohort [PMID:35705558](../papers/35705558.md).
 
 ## Sources
 

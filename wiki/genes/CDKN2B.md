@@ -34,7 +34,7 @@ CDKN2B (p15/INK4B) is a CDK4/6 inhibitor and tumor suppressor located at chromos
 ## Co-occurrence and mutual exclusivity
 
 - Co-occurs with [CCNE1](../genes/CCNE1.md) and [CCND1](../genes/CCND1.md) as part of the Cell Cycle pathway signal in [EAC](../cancer_types/EAC.md) [PMID:33795256](../papers/33795256.md).
-- Co-alteration with CDKN2A is expected given chromosomal co-location at 9p21 [PMID:33577785](../papers/33577785.md).
+- Co-alteration with [CDKN2A](../genes/CDKN2A.md) is expected given chromosomal co-location at 9p21 [PMID:33577785](../papers/33577785.md).
 
 ## Therapeutic relevance
 

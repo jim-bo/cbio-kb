@@ -30,7 +30,7 @@ Low-grade endometrial stromal sarcoma (LGESS) is an indolent uterine mesenchymal
 
 ## Therapeutic landscape
 
-- [Fulvestrant](../drugs/fulvestrant.md) — produced tumor regression in an ESR1 Y537S-mutant LGESS patient on >20 years of prior aromatase inhibitor therapy; supports ESR1 mutation testing in patients progressing on long-term anti-estrogen therapy [PMID:32299819](../papers/32299819.md)
+- [Fulvestrant](../drugs/fulvestrant.md) — produced tumor regression in an [ESR1](../genes/ESR1.md) Y537S-mutant LGESS patient on >20 years of prior aromatase inhibitor therapy; supports [ESR1](../genes/ESR1.md) mutation testing in patients progressing on long-term anti-estrogen therapy [PMID:32299819](../papers/32299819.md)
 - Aromatase inhibitors — standard first-line hormonal therapy for hormone receptor-positive LGESS; ESR1 ligand-binding domain mutations (e.g., Y537S) confer resistance.
 
 ## Sources

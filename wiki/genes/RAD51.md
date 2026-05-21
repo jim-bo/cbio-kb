@@ -35,7 +35,7 @@ RAD51 is a central mediator of homologous recombination (HR) DNA repair. In the 
 
 ## Therapeutic relevance
 
-- Suppression of RAD51 by JQ1 (BET bromodomain inhibitor) contributes to synthetic lethality in ARID1A-low SCLC, impairing HR repair capacity [PMID:22037554](../papers/22037554.md)
+- Suppression of RAD51 by JQ1 (BET bromodomain inhibitor) contributes to synthetic lethality in ARID1A-low [SCLC](../cancer_types/SCLC.md), impairing HR repair capacity [PMID:22037554](../papers/22037554.md)
 
 ## Open questions
 

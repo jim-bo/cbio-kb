@@ -39,17 +39,17 @@ Multi-omic proteogenomic characterization of 122 hepatocellular carcinoma ([HCC]
 
 ## Papers using this cohort
 
-- [PMID:35508466](../papers/35508466.md) — Ng, Dazert, Boldanova et al., *Nat Commun* 2022: integrated (phospho)proteogenomic characterization of 122 HCC biopsies; primary discovery study for this dataset.
+- [PMID:35508466](../papers/35508466.md) — Ng, Dazert, Boldanova et al., *Nat Commun* 2022: integrated (phospho)proteogenomic characterization of 122 [HCC](../cancer_types/HCC.md) biopsies; primary discovery study for this dataset.
 
 ## Notable findings derived from this cohort
 
 - Seven significantly mutated genes identified by MutSigCV and OncodriveFML: [ALB](../genes/ALB.md), [ARID1A](../genes/ARID1A.md), [AXIN1](../genes/AXIN1.md), [CDKN1A](../genes/CDKN1A.md), [CTNNB1](../genes/CTNNB1.md), [TP53](../genes/TP53.md), and [GPAM](../genes/GPAM.md) (7.4% vs 1.8% in prior meta-analysis, Fisher p=0.001; 7/9 frameshift; knockdown increased proliferation in HepG2/Huh7 — candidate tumor suppressor). [PMID:35508466](../papers/35508466.md)
 - [CTNNB1](../genes/CTNNB1.md) and [TP53](../genes/TP53.md) mutations are mutually exclusive (Fisher p=0.012); [CTNNB1](../genes/CTNNB1.md) mutants are lower-grade and immune-desert; [TP53](../genes/TP53.md) mutants are higher-grade and HBV-associated. [PMID:35508466](../papers/35508466.md)
 - Three integrative iCluster subtypes with clinical significance: Cluster 1 (ECM/angiogenesis/amino-acid metabolism), Cluster 2 (metabolic/fatty-acid, CTNNB1-enriched, improved [OS](../cancer_types/OS.md) p=0.015), Cluster 3 (proliferative/chromatin, TP53-enriched, poor [OS](../cancer_types/OS.md) p=0.005, macrovascular invasion p=0.01). [PMID:35508466](../papers/35508466.md)
-- Kinase Substrate Enrichment Analysis (KSEA) in HCC vs normal liver revealed increased [AURKA](../genes/AURKA.md), [CDK1](../genes/CDK1.md)/[CDK2](../genes/CDK2.md)/[CDK5](../genes/CDK5.md)/[CDK7](../genes/CDK7.md), [MAPK1](../genes/MAPK1.md)/[MAPK3](../genes/MAPK3.md), and [PLK1](../genes/PLK1.md) activity — nominated as candidate HCC therapeutic targets. [PMID:35508466](../papers/35508466.md)
+- Kinase Substrate Enrichment Analysis (KSEA) in [HCC](../cancer_types/HCC.md) vs normal liver revealed increased [AURKA](../genes/AURKA.md), [CDK1](../genes/CDK1.md)/[CDK2](../genes/CDK2.md)/[CDK5](../genes/CDK5.md)/[CDK7](../genes/CDK7.md), [MAPK1](../genes/MAPK1.md)/[MAPK3](../genes/MAPK3.md), and [PLK1](../genes/PLK1.md) activity — nominated as candidate HCC therapeutic targets. [PMID:35508466](../papers/35508466.md)
 - Five recurrent GISTIC2 peaks (1p36.23 del, 1q21.3 amp, 6p21.2 amp, 8q22.2 amp, 8q24.13 amp) harbor 19 cis-regulated dysregulated genes including [CHD1L](../genes/CHD1L.md), [NUDCD1](../genes/NUDCD1.md), [UBQLN4](../genes/UBQLN4.md), [BYSL](../genes/BYSL.md), [ATP6V1C1](../genes/ATP6V1C1.md), [RRM2B](../genes/RRM2B.md), and [YWHAZ](../genes/YWHAZ.md). [PMID:35508466](../papers/35508466.md)
 - mRNA–protein fold-change correlation across HCC vs normal liver: Spearman ρ=0.33 (p<0.0001); 37.7% concordantly up, 24.8% concordantly down, 37.5% discordant — substantial post-transcriptional regulation. [PMID:35508466](../papers/35508466.md)
-- Multivariate Cox analysis (independent of BCLC) identified [CDKN2A](../genes/CDKN2A.md), [GPAM](../genes/GPAM.md), [KEAP1](../genes/KEAP1.md), and [TSC2](../genes/TSC2.md) mutations as associated with poor [OS](../cancer_types/OS.md); CTNNB1-enriched cluster 2 with improved OS. [PMID:35508466](../papers/35508466.md)
+- Multivariate Cox analysis (independent of BCLC) identified [CDKN2A](../genes/CDKN2A.md), [GPAM](../genes/GPAM.md), [KEAP1](../genes/KEAP1.md), and [TSC2](../genes/TSC2.md) mutations as associated with poor [OS](../cancer_types/OS.md); CTNNB1-enriched cluster 2 with improved [OS](../cancer_types/OS.md). [PMID:35508466](../papers/35508466.md)
 
 ## Sources
 

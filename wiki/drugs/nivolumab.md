@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -50,6 +50,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - In a pediatric/AYA solid tumor cWGTS study (n=114), high fusion/SV burden identified by WGS (not by MSK-IMPACT) in a metastatic adrenocortical carcinoma patient (H135022) informed nivolumab + ipilimumab treatment, resulting in complete response lasting 26 months post-cessation [PMID:35585047](../papers/35585047.md)
 - Complete response to nivolumab + ipilimumab was observed in a malignant PEComa patient with subclonal [TSC1](../genes/TSC1.md) and TMB 7 mut/Mb in the MSK sarcoma cohort anecdotal response series; MSI-H was rare (<0.3%) across 7,494 sarcomas, limiting the biomarker-evaluable pool for PD-1 blockade [PMID:35705558](../papers/35705558.md).
 - Anti-PD-1 antibody; nivolumab±ipilimumab indicated for MSI-H CRC (~8.3% of CRC, n=1,224) in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
+- Nivolumab (anti-PD-1) is mentioned among ICI agents evaluated in [HCC](../cancer_types/HCC.md); the review identifies CTNNB1-mutant / FAO-high HCC tumors as less responsive to anti-PD-1, and [FABP1](../genes/FABP1.md)-mediated linoleic acid sequestration in the TME as a resistance mechanism [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -103,3 +104,6 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

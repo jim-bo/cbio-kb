@@ -24,7 +24,7 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - Novel recurrent CNA-driven loss in driverless group-4 medulloblastoma (P < 1×10⁻⁴); decreased expression (P = 0.002) in the PCAWG pan-cancer cohort [PMID:32025007](../papers/32025007.md)
 - Enriched in micropapillary/solid (MIP/SOL)-predominant [LUAD](../cancer_types/LUAD.md) (8% vs 3% ACI/PAP vs 1.1% LEP; p=0.048) in a 604-patient MSKCC resected cohort. [PMID:32791233](../papers/32791233.md)
 - Assessed at ≥2% alteration frequency in [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
-- 8 of 10 SETD2-mutated tumors in the piano subtype of LCINS LUAD; positive prognostic marker (HR = 0.13) [PMID:34493867](../papers/34493867.md)
+- 8 of 10 SETD2-mutated tumors in the piano subtype of LCINS [LUAD](../cancer_types/LUAD.md); positive prognostic marker (HR = 0.13) [PMID:34493867](../papers/34493867.md)
 - SETD2 identified as a novel recurrent mutation in [GIST](../cancer_types/GIST.md) at 4% frequency alongside [MAX](../genes/MAX.md) (4%) and [MGA](../genes/MGA.md) (3%) in the 2,138-sarcoma MSK-IMPACT dataset [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)

@@ -33,7 +33,7 @@ NKD1 (Naked Cuticle Homolog 1) encodes a WNT signaling antagonist that inhibits 
 
 ## Open questions
 
-- Whether NKD1 loss functionally contributes to WNT pathway activation in CRPC-NE, or is purely a bystander effect of global EZH2 silencing, is not established.
+- Whether NKD1 loss functionally contributes to WNT pathway activation in CRPC-NE, or is purely a bystander effect of global [EZH2](../genes/EZH2.md) silencing, is not established.
 
 ## Sources
 

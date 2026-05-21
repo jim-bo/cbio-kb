@@ -31,7 +31,7 @@ Endometrial stromal sarcoma (ESS) is a rare uterine mesenchymal malignancy arisi
 
 ## Therapeutic landscape
 
-- [Fulvestrant](../drugs/fulvestrant.md) — produced tumor regression in an [ESR1](../genes/ESR1.md) Y537S-mutant LGESS patient previously on long-term aromatase inhibitor therapy, supporting ESR1 mutation testing in progressing LGESS [PMID:32299819](../papers/32299819.md)
+- [Fulvestrant](../drugs/fulvestrant.md) — produced tumor regression in an [ESR1](../genes/ESR1.md) Y537S-mutant [LGESS](../cancer_types/LGESS.md) patient previously on long-term aromatase inhibitor therapy, supporting [ESR1](../genes/ESR1.md) mutation testing in progressing [LGESS](../cancer_types/LGESS.md) [PMID:32299819](../papers/32299819.md)
 
 ## Sources
 

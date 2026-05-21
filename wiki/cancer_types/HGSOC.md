@@ -4,8 +4,8 @@ oncotree_code: HGSOC
 main_type: Ovarian Cancer
 parent: SOC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # High-Grade Serous Ovarian Cancer (HGSOC)
@@ -30,12 +30,13 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [CDK12](../genes/CDK12.md) — SNVs used to assign patients to the tandem-duplicator-enriched subtype (per Wang et al.), overriding HRD-DDR variant evidence when present. [PMID:35764743](../papers/35764743.md)
 - [CCNE1](../genes/CCNE1.md) — amplification used to assign patients to the foldback-inversion-enriched subtype; copy number analyzed via MSK-IMPACT pipeline for MSKCC cases and downloaded from cBioPortal for TCGA-OV cases. [PMID:35764743](../papers/35764743.md)
 - High-grade serous ovarian cancer showed homologous recombination deficiency (HRD) in a significant proportion of cases with implications for PARP inhibitor sensitivity [PMID:36517593](../papers/36517593.md)
-- TCGA integrated genomic analysis of 489 HGSOC tumors found TP53 mutated in 96% of cases and identified 4 molecular subtypes (immunoreactive, differentiated, proliferative, mesenchymal) [PMID:21720365](../papers/21720365.md)
+- TCGA integrated genomic analysis of 489 HGSOC tumors found [TP53](../genes/TP53.md) mutated in 96% of cases and identified 4 molecular subtypes (immunoreactive, differentiated, proliferative, mesenchymal) [PMID:21720365](../papers/21720365.md)
 - TCGA breast cancer study included HGSOC comparison; BRCA1/BRCA2 germline mutations identified as shared features between basal-like breast and HGSOC tumors [PMID:23000897](../papers/23000897.md)
-- In the MSK-IMPACT pan-cancer cohort, HGSOC had the highest TP53 mutation rate of any principal tumor type at 98%, consistent with its near-universal TP53 inactivation; HGSOC was included among 62 principal tumor types in the msk_impact_2017 dataset. [PMID:28481359](../papers/28481359.md)
+- In the MSK-IMPACT pan-cancer cohort, HGSOC had the highest [TP53](../genes/TP53.md) mutation rate of any principal tumor type at 98%, consistent with its near-universal TP53 inactivation; HGSOC was included among 62 principal tumor types in the [msk_impact_2017](../datasets/msk_impact_2017.md) dataset. [PMID:28481359](../papers/28481359.md)
 - [RAD51B](../genes/RAD51B.md) germline LOF variants enriched in ovarian cancer: 4/1,157 ovarian patients in the MSK-IMPACT cohort carried LOF alleles (0.35%); 6/13 total [RAD51B](../genes/RAD51B.md) carriers had biallelic inactivation with dominant Signature 3 and LST-high HRD phenotype; authors recommend [RAD51B](../genes/RAD51B.md) inclusion on clinical germline hereditary breast/ovarian cancer panels [PMID:34635660](../papers/34635660.md)
-- Ollivier–Ricci network curvature (κ<sub>G</sub>) of gene-level CNAs over a PPI scaffold stratified OS in 45 ICI-treated recurrent HGSOC patients (log-rank p=0.00047); low-curvature group median OS 7.4 months vs 20.3 months high-curvature; [TP53](../genes/TP53.md) ranked #1 by positive Δκ<sub>risk</sub> (0.209), consistent with near-universal TP53 inactivation; curvature was not prognostic in non-ICI HGSOC, suggesting ICI-predictive specificity; dataset [hgsoc_msk_2021](../datasets/hgsoc_msk_2021.md) [PMID:34819508](../papers/34819508.md)
-- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; HGSOC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- Ollivier–Ricci network curvature (κ<sub>G</sub>) of gene-level CNAs over a PPI scaffold stratified [OS](../cancer_types/OS.md) in 45 ICI-treated recurrent HGSOC patients (log-rank p=0.00047); low-curvature group median [OS](../cancer_types/OS.md) 7.4 months vs 20.3 months high-curvature; [TP53](../genes/TP53.md) ranked #1 by positive Δκ<sub>risk</sub> (0.209), consistent with near-universal TP53 inactivation; curvature was not prognostic in non-ICI HGSOC, suggesting ICI-predictive specificity; dataset [hgsoc_msk_2021](../datasets/hgsoc_msk_2021.md) [PMID:34819508](../papers/34819508.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; HGSOC is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- A multi-omics review (Babu & Snyder 2023) highlights proteogenomic integration in HGSOC (Zhang et al. 2016) as a canonical example linking gene copy-number variation to proteome and post-translational modification levels, revealing mechanistic connections between CNV drivers and downstream protein-level cancer progression [PMID:37119971](../papers/37119971.md)
 
 ## Subtypes
 
@@ -44,7 +45,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - cGAS-STING pathway activated via micronuclear rupture as early as STIC.I lesions. [PMID:39386723](../papers/39386723.md)
 - NK-cDC1 axis declines progressively: NK cells become nearly undetectable in STIC.I and later stages. [PMID:39386723](../papers/39386723.md)
 - CD8+ T cell exhaustion ([LAG3](../genes/LAG3.md), PD1 upregulation) increases 3- to 7-fold in later stages. [PMID:39386723](../papers/39386723.md)
-- HRD genomic subtypes in MSK MIND cohort: HRD (enriched for BRCA1/2 and other DDR-pathway variants), HRP (homologous-recombination proficient), tandem-duplicator ([CDK12](../genes/CDK12.md) SNV-enriched), foldback-inversion ([CCNE1](../genes/CCNE1.md) amplification-enriched), and ambiguous. Omental CT autocorrelation and mean tumor nuclear area (H&E) were independently prognostic and largely orthogonal to HRD genomic subtype (absolute Kendall rank correlation between any modality pair < 0.14). [PMID:35764743](../papers/35764743.md)
+- HRD genomic subtypes in MSK MIND cohort: HRD (enriched for BRCA1/2 and other DDR-pathway variants), HRP (homologous-recombination proficient), tandem-duplicator ([CDK12](../genes/CDK12.md) SNV-enriched), foldback-inversion ([CCNE1](../genes/CCNE1.md) amplification-enriched), and ambiguous. Omental CT autocorrelation and mean tumor nuclear area (H&E) were independently prognostic and largely orthogonal to HRD genomic subtype ([absolute](../methods/absolute.md) Kendall rank correlation between any modality pair < 0.14). [PMID:35764743](../papers/35764743.md)
 
 ## Therapeutic landscape
 
@@ -68,4 +69,8 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

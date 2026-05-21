@@ -11,7 +11,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-SLC22A6 (Solute Carrier Family 22 Member 6, also known as OAT1) encodes an organic anion transporter expressed primarily in renal proximal tubule cells. It mediates the cellular uptake of a wide range of organic anions including drugs and metabolites. In cancer genomics, SLC22A6 has emerged as a candidate driver in cutaneous squamous cell carcinoma ([CSCC](../cancer_types/CSCC.md)), with recurrent mutations in metastatic disease and enrichment in metastatic versus primary CSCC datasets.
+SLC22A6 (Solute Carrier Family 22 Member 6, also known as OAT1) encodes an organic anion transporter expressed primarily in renal proximal tubule cells. It mediates the cellular uptake of a wide range of organic anions including drugs and metabolites. In cancer genomics, SLC22A6 has emerged as a candidate driver in cutaneous squamous cell carcinoma ([CSCC](../cancer_types/CSCC.md)), with recurrent mutations in metastatic disease and enrichment in metastatic versus primary [CSCC](../cancer_types/CSCC.md) datasets.
 
 ## Alterations observed in the corpus
 

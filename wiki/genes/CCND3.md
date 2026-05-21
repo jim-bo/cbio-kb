@@ -33,7 +33,7 @@ CCND3 (Cyclin D3) is a D-type cyclin that promotes cell cycle progression by act
 
 ## Open questions
 
-- Independent prognostic significance of CCND3 amplification in EAC is not established in this cohort [PMID:33795256](../papers/33795256.md).
+- Independent prognostic significance of CCND3 amplification in [EAC](../cancer_types/EAC.md) is not established in this cohort [PMID:33795256](../papers/33795256.md).
 
 ## Sources
 

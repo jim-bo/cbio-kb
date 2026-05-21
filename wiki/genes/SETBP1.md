@@ -32,7 +32,7 @@ SETBP1 (SET Binding Protein 1) encodes a nuclear protein that binds the oncoprot
 
 ## Open questions
 
-- The prognostic impact of SETBP1 mutations in pediatric AML versus [JMML](../cancer_types/JMML.md) requires larger cohort validation. [PMID:28007021](../papers/28007021.md)
+- The prognostic impact of SETBP1 mutations in pediatric [AML](../cancer_types/AML.md) versus [JMML](../cancer_types/JMML.md) requires larger cohort validation. [PMID:28007021](../papers/28007021.md)
 
 ## Sources
 

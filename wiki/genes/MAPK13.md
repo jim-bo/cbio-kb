@@ -24,7 +24,7 @@ MAPK13 (Mitogen-Activated Protein Kinase 13; also known as p38delta or SAPK4) is
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-elevated with [TTK](../genes/TTK.md), [NEK2](../genes/NEK2.md), [PRKD2](../genes/PRKD2.md), [GSK3B](../genes/GSK3B.md), CDK1/2/5, [AURKA](../genes/AURKA.md), and [EIF2AK2](../genes/EIF2AK2.md) in TP53-mutant or overall HCC by KSEA [PMID:35508466](../papers/35508466.md).
+- Co-elevated with [TTK](../genes/TTK.md), [NEK2](../genes/NEK2.md), [PRKD2](../genes/PRKD2.md), [GSK3B](../genes/GSK3B.md), CDK1/2/5, [AURKA](../genes/AURKA.md), and [EIF2AK2](../genes/EIF2AK2.md) in TP53-mutant or overall [HCC](../cancer_types/HCC.md) by KSEA [PMID:35508466](../papers/35508466.md).
 
 ## Therapeutic relevance
 

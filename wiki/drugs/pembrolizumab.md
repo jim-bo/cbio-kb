@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -61,6 +61,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Near-complete response to pembrolizumab was observed in an undifferentiated pleomorphic sarcoma (UPS) patient with TMB 20 mut/Mb; 3.9% of the 7,494-sarcoma cohort harbored TMB ≥10 mut/Mb (the FDA-relevant threshold for tissue-agnostic pembrolizumab under FoundationOne CDx) [PMID:35705558](../papers/35705558.md).
 - In 18 recurrent MSI-H endometrial carcinoma patients treated with on-label pembrolizumab, 4/16 (25%) MLH1-promoter-hypermethylated (MLH1ph) patients had disease progression vs 0/2 germline/somatic patients; overall response rate was 63% and clinical-benefit rate 75% in the MLH1ph group; authors note FDA approval of pembrolizumab for all MMR-D ECs regardless of mechanism may warrant refinement given this heterogeneity [PMID:35849120](../papers/35849120.md).
 - Anti-PD-1 antibody; indicated for TMB-H (Level 1) and MSI-H (Level 1) in Chinese pan-cancer cohort (n=10,194); 64% of patients have OncoKB Level 1–4 actionable variant; 30.3% IO-biomarker positive (MSI-H or TMB-H or PD-L1+) [PMID:35871175](../papers/35871175.md)
+- Pembrolizumab is cited in the context of an active clinical trial (NCT06636734) combining lovastatin with pembrolizumab in HNSCC; the review frames statin co-administration with ICI as a promising strategy given HMGCR inhibition's preclinical anti-tumor activity in [HCC](../cancer_types/HCC.md) [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -130,3 +131,6 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

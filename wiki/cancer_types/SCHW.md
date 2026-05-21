@@ -34,8 +34,8 @@ Schwannoma (SCHW) is a benign peripheral nerve sheath tumor of Schwann-cell orig
 
 ## Subtypes
 
-- **SWNTS-SWN (schwannomatosis-associated)** — germline [LZTR1](../genes/LZTR1.md) or [SMARCB1](../genes/SMARCB1.md) mutation + somatic NF2 loss; higher CNV, [SH3PXD2A](../genes/SH3PXD2A.md)–[HTRA1](../genes/HTRA1.md) fusion in 14%, RAS/MAPK/VEGF pathway upregulation; anatomic location segregates into 4 methylation clusters. [PMID:33025139](../papers/33025139.md)
-- **NS-SWN (non-syndromic sporadic)** — NF2 mutation/loss in 58%; lower CNV; mixed with SWNTS-SWN on methylation clustering, supporting shared Schwann-cell origin. [PMID:33025139](../papers/33025139.md)
+- **SWNTS-SWN (schwannomatosis-associated)** — germline [LZTR1](../genes/LZTR1.md) or [SMARCB1](../genes/SMARCB1.md) mutation + somatic [NF2](../genes/NF2.md) loss; higher CNV, [SH3PXD2A](../genes/SH3PXD2A.md)–[HTRA1](../genes/HTRA1.md) fusion in 14%, RAS/MAPK/VEGF pathway upregulation; anatomic location segregates into 4 methylation clusters. [PMID:33025139](../papers/33025139.md)
+- **NS-SWN (non-syndromic sporadic)** — [NF2](../genes/NF2.md) mutation/loss in 58%; lower CNV; mixed with SWNTS-SWN on methylation clustering, supporting shared Schwann-cell origin. [PMID:33025139](../papers/33025139.md)
 
 ## Therapeutic landscape
 

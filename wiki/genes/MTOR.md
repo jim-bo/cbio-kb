@@ -48,8 +48,9 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Rare non-recurrent VUS observed in both excellent and poor responders to BRAFi in BRAF-mutant melanoma; no recurrent activating MTOR mutations identified in this 66-patient pretreatment cohort [PMID:32913971](../papers/32913971.md)
 - Hotspot mutation observed in 1.2% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
 - PI3K-AKT-mTOR axis inhibition proposed as a combination strategy with PAK1/PAK2 inhibition to target KRAS-driven signaling in [PAAD](../cancer_types/PAAD.md); mTOR-axis inhibitors (PP-242) enriched in C2 (basal-like) drug signatures [PMID:34534465](../papers/34534465.md).
-- In the MAPPYACTS pediatric precision oncology trial, mTOR pathway alterations (PIK3CA/PIK3R1 n=23 events, [PTEN](../genes/PTEN.md) losses n=25) were matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), everolimus) explored in AcSé-ESMART arms E/F; mTOR inhibitor recommendations totaled n=123 across the 624-patient cohort [PMID:35292802](../papers/35292802.md).
+- In the MAPPYACTS pediatric precision oncology trial, mTOR pathway alterations (PIK3CA/PIK3R1 n=23 events, [PTEN](../genes/PTEN.md) losses n=25) were matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), [everolimus](../drugs/everolimus.md)) explored in AcSé-ESMART arms E/F; mTOR inhibitor recommendations totaled n=123 across the 624-patient cohort [PMID:35292802](../papers/35292802.md).
 - Component of the PI3K-pathway targetable hits in myxoid liposarcoma ([MRLS](../cancer_types/MRLS.md)); collectively 31% of [MRLS](../cancer_types/MRLS.md) carry actionable PI3K-pathway alterations ([PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), MTOR, [TSC1](../genes/TSC1.md)) [PMID:35705560](../papers/35705560.md)
+- AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); mTOR is part of the RTK/PI3K/AKT/mTOR axis where cholesterol-remodeled lipid rafts activate upstream signaling; PI3K/AKT/mTOR regulates SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis [PMID:38355797](../papers/38355797.md)
 
 ## Cancer types (linked)
 
@@ -104,5 +105,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

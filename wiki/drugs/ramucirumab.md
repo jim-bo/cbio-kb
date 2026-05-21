@@ -5,7 +5,7 @@ drug_class: anti-VEGFR2 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [HCC, AFP-high, REACH-2, second-line, STAD, VEGFA-amplification]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -22,6 +22,7 @@ Ramucirumab is a human monoclonal antibody targeting VEGFR2 ([KDR](../genes/KDR.
 - TCGA gastric adenocarcinoma (n=295) identified recurrent focal amplification of [VEGFA](../genes/VEGFA.md) (7%) in the chromosomal instability (CIN) subtype, providing genomic rationale for VEGFR2-pathway inhibition with ramucirumab in CIN-enriched gastric cancer [PMID:25079317](../papers/25079317.md).
 - Ramucirumab + [docetaxel](../drugs/docetaxel.md) was administered as a later-line regimen in the WCM117 rapid-autopsy case of the WashU urothelial carcinoma WES cohort (n=32 patients), following [cisplatin](../drugs/cisplatin.md) + [gemcitabine](../drugs/gemcitabine.md) first-line; illustrates treatment sequencing in chemotherapy-refractory [BLCA](../cancer_types/BLCA.md) [PMID:27749842](../papers/27749842.md)
 - Anti-VEGFR2 antibody; [erlotinib](../drugs/erlotinib.md)±ramucirumab indicated for [EGFR](../genes/EGFR.md) L858R/exon-19 del [NSCLC](../cancer_types/NSCLC.md) (39% of NSCLC) in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
+- Ramucirumab (anti-VEGFR2) is listed among standard-of-care second-line agents evaluated in advanced [HCC](../cancer_types/HCC.md); real-world TKI/VEGFR response rates remain 16–28% with median PFS <12 months, providing context for lipid-metabolism co-targeting strategies [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -39,3 +40,6 @@ Ramucirumab is a human monoclonal antibody targeting VEGFR2 ([KDR](../genes/KDR.
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -24,7 +24,7 @@ TFE3 (Transcription Factor Binding to IGHM Enhancer 3) encodes a basic helix-loo
 
 ## Co-occurrence and mutual exclusivity
 
-- No co-mutation data reported in the corpus beyond the defining ASPSCR1-TFE3 fusion in ASPS.
+- No co-mutation data reported in the corpus beyond the defining ASPSCR1-TFE3 fusion in [ASPS](../cancer_types/ASPS.md).
 
 ## Therapeutic relevance
 

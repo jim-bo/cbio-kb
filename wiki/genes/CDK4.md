@@ -47,7 +47,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - placeholder
 - CDK4 is a core cell-cycle pathway driver; CDK4 and [MDM2](../genes/MDM2.md) are almost always co-amplified due to genomic proximity; 78% of dedifferentiated liposarcomas carry CDK4+[MDM2](../genes/MDM2.md) co-amplification, nominating CDK4 + [MDM2](../genes/MDM2.md) inhibitor combinations in this disease [PMID:29625050](../papers/29625050.md)
 - One OncoKB-level-annotated actionable alteration in a 189-patient MSK advanced endometrial cancer sequencing cohort (n=1), contributing to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
-- 12q focal amplification (CDK4 co-amplified with MDM2) enriched in immunotherapy non-responders (PD) in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
+- 12q focal amplification (CDK4 co-amplified with [MDM2](../genes/MDM2.md)) enriched in immunotherapy non-responders (PD) in a pan-cancer multi-cohort ICB genomics study [PMID:30150660](../papers/30150660.md)
 - CDK4 amplification was stable across all four biospecimens (two tumour resections plus two CSF samples) in patient #28 (IDH-WT [GBM](../cancer_types/GBM.md)), illustrating its use as a clonal anchor in multi-timepoint CSF ctDNA monitoring (85-patient glioma MSK cohort) [PMID:30675060](../papers/30675060.md)
 - Elevated kinase activity in colon cancer tumors ([COAD](../cancer_types/COAD.md) proteomic study); identified as a targetable therapeutic candidate — CDK4 inhibitors (palbociclib-class) approved; supports CDK4 inhibition in CIN-subtype [COAD](../cancer_types/COAD.md) [PMID:31031003](../papers/31031003.md)
 - Amplification co-occurs with [CCND1](../genes/CCND1.md) amplification in [CDK12](../genes/CDK12.md) loss-of-function mCRPC tumors; [RB1](../genes/RB1.md) mutation and CDK4 amplification represent alternative cell-cycle alterations with 1 patient showing CDK4 amplification later acquiring CDKN2A/B loss at recurrence and dying within 11-15 months [PMID:31061129](../papers/31061129.md)
@@ -59,13 +59,14 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - CDK4 protein abundance elevated in RB1-mutant [LUAD](../cancer_types/LUAD.md), suggesting potential CDK4/6-inhibitor resistance mechanism [PMID:32649874](../papers/32649874.md)
 - CDK4/6 activity tracks proliferation in HR+/ERBB2− but not TNBC breast tumors (CPTAC proteogenomics, n=122); in TNBC, Rb protein status — not [RB1](../genes/RB1.md) genotype — determines CDK4/6 inhibitor sensitivity [PMID:33212010](../papers/33212010.md)
 - Amplifications enriched in pN-negative [LUAD](../cancer_types/LUAD.md) tumors (8% vs 1.2%, P=0.029) in a 514-sample [LUAD](../cancer_types/LUAD.md) pN-metastasis genomics cohort; CDK4 amplification is one of the rare alterations negatively associated with lymph-node metastasis. [PMID:34290393](../papers/34290393.md)
-- No significant association of CDK4 amplification with CDKN2A/p16 or Rb protein levels in CPTAC LSCC proteogenomics (108 tumors); downstream functional assessment (RB1 protein + phospho-Rb) rather than CDK4 copy number alone proposed to guide CDK4/6-inhibitor patient selection. [PMID:34358469](../papers/34358469.md)
+- No significant association of CDK4 amplification with CDKN2A/p16 or Rb protein levels in CPTAC LSCC proteogenomics (108 tumors); downstream functional assessment ([RB1](../genes/RB1.md) protein + phospho-Rb) rather than CDK4 copy number alone proposed to guide CDK4/6-inhibitor patient selection. [PMID:34358469](../papers/34358469.md)
 - CDK4 germline variant identified in 1 forte-subtype LCINS tumor (232-sample WGS cohort); part of driver/timing observations across subtypes. [PMID:34493867](../papers/34493867.md)
 - CDK4 is fully inhibited by CDK4/6i in both sensitive and resistant HR+/HER2− breast cancer cells; CDK4 does not bind INK4 proteins in abemaciclib-resistant FAT1CR cells (zero peptides in IP-MS); co-degradation of CDK4 + [CDK6](../genes/CDK6.md) via PROTAC is required for sustained antitumor activity in resistant models [PMID:34544752](../papers/34544752.md)
 - CDK4 amplifications particularly recurrent in [RMS](../cancer_types/RMS.md) and other sarcomas in MAPPYACTS pediatric trial; generated 105 CDK4/6 inhibitor recommendations across 624 patients with successful tumor sequencing; CDKN2A/CDKN2B deletions (157 events) were the matched biomarker [PMID:35292802](../papers/35292802.md)
 - CDK4 amplified in 10.6% of 7,494 sarcomas (FoundationOne Heme); co-amplified with MDM2 in well/dedifferentiated liposarcoma; Rb pathway (RB1, CDKN2A/B, CDK4/6, CCND1/2/3, [CCNE1](../genes/CCNE1.md)) altered in 46.8% of sarcomas; CDK4/6 inhibitors are Level 3A actionable in WDLS/DDLS [PMID:35705558](../papers/35705558.md)
 - CDK4 co-amplified with MDM2 in >97% of [WDLS](../cancer_types/WDLS.md) and [DDLS](../cancer_types/DDLS.md) (diagnostic and Level 3A actionable); CDK4 amplification is also among recurrent hits in the broader 2,138-patient MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - Amplification in 10.9% of soft tissue sarcoma ([STS](../cancer_types/STS.md)) in the OncoMark Chinese solid-tumor cohort; actionable with abemaciclib/palbociclib (OncoKB Level 4) [PMID:35871175](../papers/35871175.md)
+- Co-amplified with [CCND2](../genes/CCND2.md) and MDM2 via chromosome 12 chromothripsis in 15% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); CDK4 amplification found in 0% of conventional SCLC (P=0.0006) and 1% of carcinoids (P=0.01); ecDNA-amplified CDK4 creates pRb-null-like state [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -221,5 +222,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

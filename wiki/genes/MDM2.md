@@ -52,12 +52,12 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 amplification (copy number >4) was found in 6% and MDM2 overexpression (>2-fold above median) in 19% of muscle-invasive bladder cancer (MIBC) tumors; the TP53/Cell Cycle pathway (including MDM2) was inactivated in 89% of tumors; MDM2 and [TP53](../genes/TP53.md) alterations were mutually exclusive (q < 0.2) [PMID:28988769](../papers/28988769.md)
 - MDM2 amplification was present in 100% of dedifferentiated liposarcoma (DDLPS) by definition; MDM2, [CDK4](../genes/CDK4.md), and [HMGA2](../genes/HMGA2.md) co-amplification at 12q13~15 is the defining hallmark of DDLPS; MDM2 amplification, [CDK4](../genes/CDK4.md) amplification, [JUN](../genes/JUN.md) amplification, and [TERT](../genes/TERT.md) amplification distinguished DDLPS from other sarcoma subtypes [PMID:29100075](../papers/29100075.md)
 - Amplification identified in 8 [NSCLC](../cancer_types/NSCLC.md) patients; PFS not significantly different from overall cohort (HR 1.4, P=.44); hyperprogression signal on anti-PD-(L)1 therapy previously reported elsewhere was not reproduced [PMID:29337640](../papers/29337640.md)
-- MDM2 is mutually exclusive with [RB1](../genes/RB1.md) and [CDKN2A](../genes/CDKN2A.md) loss but is co-amplified with [CDK4](../genes/CDK4.md) due to genomic proximity; 78% of dedifferentiated liposarcomas carry CDK4+MDM2 co-amplification, nominating CDK4+MDM2 inhibitor combination therapy [PMID:29625050](../papers/29625050.md)
+- MDM2 is mutually exclusive with [RB1](../genes/RB1.md) and [CDKN2A](../genes/CDKN2A.md) loss but is co-amplified with [CDK4](../genes/CDK4.md) due to genomic proximity; 78% of dedifferentiated liposarcomas carry [CDK4](../genes/CDK4.md)+MDM2 co-amplification, nominating CDK4+MDM2 inhibitor combination therapy [PMID:29625050](../papers/29625050.md)
 - MDM2 amplification in 4% of cholangiocarcinoma (n=195 MSK-IMPACT cohort); associated with shorter PFS on first-line chemotherapy (n=7, p=0.026) [PMID:29848569](../papers/29848569.md)
 - 12q focal amplification (co-amplified with CDK4) enriched in PD patients in a pooled ICB cohort (193 patients); 12q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
 - MDM2 mutated in 6% of gallbladder carcinoma tumors in a three-region cohort; located in the same TP53/ATM pathway; detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
 - [MDM4](../genes/MDM4.md) exon-6 inclusion (MDM4-FL) in [TP53](../genes/TP53.md) wild-type cancer cell lines predicts sensitivity to MDM2 inhibitor [nutlin-3a](../drugs/nutlin-3a.md); MDM2 inhibitor patient-selection strategy proposed based on MDM4/RPL22 biomarker cascade (CCLE study). [PMID:31068700](../papers/31068700.md)
-- Alterations phenocopy TP53 inactivation per expression classifier in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types); MDM2 and [RB1](../genes/RB1.md) alterations identified as TP53-pathway phenocopies by AUROC 0.89 classifier [PMID:31693904](../papers/31693904.md).
+- Alterations phenocopy [TP53](../genes/TP53.md) inactivation per expression classifier in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types); MDM2 and [RB1](../genes/RB1.md) alterations identified as TP53-pathway phenocopies by AUROC 0.89 classifier [PMID:31693904](../papers/31693904.md).
 - Amplification in 10% of [GBM](../cancer_types/GBM.md) PDX (n=84); FISH confirmed amplification preserved in 100% of GBM108 patient–PDX pairs; involved in Rb/p53 pathway alterations in IDH-wildtype [GBM](../cancer_types/GBM.md) [PMID:31852831](../papers/31852831.md)
 - Knockdown sensitivity of MDM2 is uniquely associated with MCM-complex protein levels across CCLE cell lines, hinting at a p53-independent function; MDM2 co-varies with TP53/CDKN1A knockdown sensitivities in cell-division-related complexes [PMID:31978347](../papers/31978347.md)
 - MDM2 is universally amplified in liposarcoma chromothripsis events across the PCAWG pan-cancer cohort of 2,658 whole genomes [PMID:32025007](../papers/32025007.md)
@@ -78,6 +78,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 amplification is the pathognomonic alteration of well/dedifferentiated liposarcoma, present in 10.7% overall (13.5% complex-type vs. 1.6% translocation-associated sarcomas; >94% amplifications); predicts response to MDM2 inhibitors; co-occurs with TP53 alterations in the p53 pathway in the MSK sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
 - MDM2 is co-amplified with CDK4 in >97% of well/dedifferentiated liposarcoma (WDLS/DDLS); MDM2/CDK4 amplification is diagnostic and Level 3A actionable via CDK4 inhibitors in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148) [PMID:35705560](../papers/35705560.md)
 - MDM2 amplification identified as a high-frequency CNV peak in pan-cancer analysis of ~8,900 Chinese solid-tumor patients (OncoMark/aOM cohort); MDM2 highlighted alongside [MDM4](../genes/MDM4.md) as a potential therapeutic target via the TP53-MDM2-ARF network [PMID:35871175](../papers/35871175.md)
+- Co-amplified with [CCND2](../genes/CCND2.md) (12q13) and CDK4 (12q14) in 15% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC, [RB1](../genes/RB1.md)+/TP53+) cases via chromosome 12 chromothripsis-derived ecDNA; copy number often >10, confirmed by FISH; provides genomic rationale for MDM2 and CDK4 inhibitors [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -273,5 +274,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

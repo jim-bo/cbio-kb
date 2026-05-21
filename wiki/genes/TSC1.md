@@ -27,7 +27,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - Recurrently mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md), n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
 - TSC1 listed among recurrent RTK/RAS/PI3K-pathway drivers in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) PDX models, consistent with prior [UTUC](../cancer_types/UTUC.md) genomics [PMID:32332851](../papers/32332851.md)
 - Rare non-recurrent VUS observed in both excellent and poor responders among BRAF-mutant melanoma patients treated with BRAFi; no association with intrinsic resistance [PMID:32913971](../papers/32913971.md)
-- TSC1 listed as a recurrent CNS oncomap alteration in the AcSé-MAPPYACTS pediatric cohort (n=632 relapsed/refractory samples); co-listed with TSC2, [MN1](../genes/MN1.md), [KDR](../genes/KDR.md), [KIT](../genes/KIT.md), and [PDGFRA](../genes/PDGFRA.md) as other recurrent CNS alterations [PMID:35292802](../papers/35292802.md).
+- TSC1 listed as a recurrent CNS oncomap alteration in the AcSé-MAPPYACTS pediatric cohort (n=632 relapsed/refractory samples); co-listed with [TSC2](../genes/TSC2.md), [MN1](../genes/MN1.md), [KDR](../genes/KDR.md), [KIT](../genes/KIT.md), and [PDGFRA](../genes/PDGFRA.md) as other recurrent CNS alterations [PMID:35292802](../papers/35292802.md).
 - TSC1/TSC2 loss predicted mTOR-inhibitor responsiveness in PEComa; subclonal TSC1 documented in PEComa with response to [nivolumab](../drugs/nivolumab.md)+[ipilimumab](../drugs/ipilimumab.md), in FoundationOne CDx pan-sarcoma cohort of 7,494 cases [PMID:35705558](../papers/35705558.md)
 - Loss-of-function in 30% of PEComa; combined TSC1/TSC2 actionable (Level 3B) in 37% of PEComa; contributes to collective 31% targetable PI3K-pathway hits in [MRLS](../cancer_types/MRLS.md) ([PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), [MTOR](../genes/MTOR.md), TSC1) in 2,138-sample MSK-IMPACT sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - Frameshift mutation co-occurring with [PTEN](../genes/PTEN.md) in endometrial carcinoma patient CD20; detected in primary tumor and one of two sentinel lymph nodes by MSK-ACCESS cfDNA panel [PMID:36007103](../papers/36007103.md)
@@ -43,7 +43,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 
 ## Therapeutic relevance
 
-- mTOR inhibitors (everolimus, [temsirolimus](../drugs/temsirolimus.md)) are the designated targeted class for TSC1-mutant tumors; everolimus is FDA-approved in HR+/HER2− mBC. TSC1/2-mutant tumors are hypothesized to be outlier responders to everolimus in HR+/HER2− mBC. [PMID:28007021](../papers/28007021.md) [PMID:28027327](../papers/28027327.md)
+- mTOR inhibitors ([everolimus](../drugs/everolimus.md), [temsirolimus](../drugs/temsirolimus.md)) are the designated targeted class for TSC1-mutant tumors; everolimus is FDA-approved in HR+/HER2− mBC. TSC1/2-mutant tumors are hypothesized to be outlier responders to everolimus in HR+/HER2− mBC. [PMID:28007021](../papers/28007021.md) [PMID:28027327](../papers/28027327.md)
 
 ## Open questions
 

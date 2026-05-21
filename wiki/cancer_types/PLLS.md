@@ -32,11 +32,11 @@ Pleomorphic liposarcoma (PLLS) is the rarest and most aggressive liposarcoma sub
 - [PTEN](../genes/PTEN.md) — splice-site mutation identified in PLLS. [PMID:20601955](../papers/20601955.md)
 - Complex karyotype: PLLS and [MFS](../cancer_types/MFS.md) are genomically similar (copy-number complexity, copy-neutral LOH), supporting a unified molecular class; distinct from the myxoid/round-cell and synovial sarcoma clusters. [PMID:20601955](../papers/20601955.md)
 - In a 7,494-sarcoma cohort, pleomorphic liposarcoma was among the genomically complex sarcoma histotypes profiled by FoundationOne Heme; [MDM2](../genes/MDM2.md) amplification was a recurrent event in liposarcoma subtypes [PMID:35705558](../papers/35705558.md).
-- In the 2,138-sarcoma MSK-IMPACT cohort, pleomorphic liposarcoma showed PI3K pathway alteration in 22%, epigenetic pathway in 45%; [ATRX](../genes/ATRX.md) loss-of-function in ≥10%; NF1 deletions in 14%; DDR pathway altered in 13% [PMID:35705560](../papers/35705560.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, pleomorphic liposarcoma showed PI3K pathway alteration in 22%, epigenetic pathway in 45%; [ATRX](../genes/ATRX.md) loss-of-function in ≥10%; [NF1](../genes/NF1.md) deletions in 14%; DDR pathway altered in 13% [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
-- Genomically clusters with MFS — both show complex karyotypes with overlapping driver alterations (NF1, [TP53](../genes/TP53.md), [ERBB4](../genes/ERBB4.md)); may represent a unified molecular class despite distinct histology. [PMID:20601955](../papers/20601955.md)
+- Genomically clusters with [MFS](../cancer_types/MFS.md) — both show complex karyotypes with overlapping driver alterations ([NF1](../genes/NF1.md), [TP53](../genes/TP53.md), [ERBB4](../genes/ERBB4.md)); may represent a unified molecular class despite distinct histology. [PMID:20601955](../papers/20601955.md)
 
 ## Therapeutic landscape
 

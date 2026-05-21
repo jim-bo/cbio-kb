@@ -96,7 +96,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - 184 EOPC and 85 LOPC prostate cancer genomes sequenced by WGS with matched blood normal; 41 samples re-used from Fraser et al. 2017; analysis revealed APOBEC-driven mutational signatures and recurrent SVs at [ESRP1](../genes/ESRP1.md), [KLF5](../genes/KLF5.md), [NKX3-1](../genes/NKX3-1.md), [FOXP1](../genes/FOXP1.md), [PTEN](../genes/PTEN.md), and [TP53](../genes/TP53.md) [PMID:30537516](../papers/30537516.md)
 - Applied to 329 of the 1,072 CCLE cancer cell lines; targeted sequencing additionally applied to 657 lines (950 total per Methods); [TERT](../genes/TERT.md) promoter mutations detected in 16.7% (84/503) of surveyed lines as the most common non-coding somatic mutation [PMID:31068700](../papers/31068700.md)
 - Applied to 41 tumors / 37 cases in the pan-Asia cHCC-ICC study; HBV integration sites identified with [TERT](../genes/TERT.md) and [KMT2B](../genes/KMT2B.md) as most recurrent targets; WGS complemented WES for structural variant and noncoding mutation discovery [PMID:31130341](../papers/31130341.md)
-- WGS performed as part of the combined 193-case ACC sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of [TERT](../genes/TERT.md) promoter mutations, [MYB](../genes/MYB.md) structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
+- WGS performed as part of the combined 193-case [ACC](../cancer_types/ACC.md) sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of [TERT](../genes/TERT.md) promoter mutations, [MYB](../genes/MYB.md) structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
 - Core assay of the PCAWG pan-cancer study (n=2,658 tumor-normal pairs, 38 tumor types); mean coverage 39× normal, bimodal 38×/60× tumor; 63 pairs validated by deep custom-bait sequencing achieving 95% SNV sensitivity/precision [PMID:32025007](../papers/32025007.md).
 - Used in the Sherlock-Lung NS-LUAD study (n=499 paired WGS from 684 NS-LUAD tumors) to integrate driver mutations, structural variants, whole-genome doubling, and kataegis with transcriptomic subtypes [PMID:32015526](../papers/32015526.md).
 - PCR-free WGS (HiSeqX, min 15× coverage, 151 bp paired-end) used in the CPTAC endometrial carcinoma study (n=95 tumors) for copy-number analysis; 14% of SCNAs had cis effects on transcript/protein levels (FDR < 0.01) [PMID:32059776](../papers/32059776.md).
@@ -107,6 +107,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Primary sequencing assay in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md): Illumina NovaSeq 6000 PE150 WGS at median tumor depth 95× (range 67–181×) and normal 50× (range 32–159×) in 114 pediatric/AYA solid tumor patients; 9-day sample-to-report turnaround; ≥80× recommended as optimal depth for clinical WGS [PMID:35585047](../papers/35585047.md)
 - Whole-genome sequencing used for somatic variant and CNA calling in a subset of GLASS longitudinal glioma samples (b37 alignment via BWA-MEM, somatic calls by MuTect2, CNA by TITAN) [PMID:35649412](../papers/35649412.md)
 - Applied to 25 metastatic [CSCC](../cancer_types/CSCC.md) lymph node specimens and matched blood (mean tumor coverage 94.56x, blood 41.08x); enabled discovery of non-coding 3'UTR and lncRNA drivers invisible to WES/targeted panels, and novel indel signatures ID8/ID9/ID13 [PMID:35982973](../papers/35982973.md)
+- Cited as enabling ultra-rapid clinical genomes in as few as 5 hours via nanopore sequencing; positioned as a key genomic modality within multi-omics integration alongside WES, RNA-seq, DNA methylation, and proteomics [PMID:37119971](../papers/37119971.md)
+- Applied at ~100× tumor / ~80× normal depth (NovaSeq 6000) to 12 aSCLC specimens (11 patients); gold standard for chromothripsis detection via ShatterSeek; MutationTimeR analysis placed all chromothripsis-associated amplifications early in tumorigenesis; demonstrated average 565 SVs per case [PMID:39185963](../papers/39185963.md)
 
 ## Notes
 
@@ -369,5 +371,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

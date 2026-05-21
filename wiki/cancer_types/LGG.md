@@ -28,7 +28,7 @@ LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). T
 
 - Pan-cancer fusion study (9,624 TCGA samples) found LGG has a median of 0 fusions per sample (low-fusion cancer type); IDH-mutant LGG clusters separately from IDH-wildtype [GBM](../cancer_types/GBM.md) by arm-level aneuploidy pattern [PMID:29617662](../papers/29617662.md).
 - Pan-cancer aneuploidy study found [IDH1](../genes/IDH1.md) mutation defines the LGG subgroup that clusters separately from [GBM](../cancer_types/GBM.md) by aneuploidy pattern, characterized by 1p loss and 19q gain; LGG clusters in the neural-lineage arm-level group with [GBM](../cancer_types/GBM.md) and melanoma [PMID:29622463](../papers/29622463.md).
-- Included in TCGA PanCancer Atlas; IDH1-mutant LGG dominates iCluster C11 (highest silhouette); IDH1-wildtype LGG co-clusters with GBM in C23; pan-cancer analysis identifies [IDH1](../genes/IDH1.md) as the defining molecular feature [PMID:29625048](../papers/29625048.md)
+- Included in TCGA PanCancer Atlas; IDH1-mutant LGG dominates iCluster C11 (highest silhouette); IDH1-wildtype LGG co-clusters with [GBM](../cancer_types/GBM.md) in C23; pan-cancer analysis identifies [IDH1](../genes/IDH1.md) as the defining molecular feature [PMID:29625048](../papers/29625048.md)
 - [IDH1](../genes/IDH1.md) defines methylation cluster 1 in LGG (330/351 samples IDH1-mutant); IDH1-driven gliomas show lower [STAT1](../genes/STAT1.md) and reduced CXCL10/immune infiltrate; ATRX- or TP53-mutant LGG tumors have more macrophages and fewer CD8 T-cells (ANOVA P<2e-8) [PMID:29625049](../papers/29625049.md)
 - RTK-RAS alteration rate 82% in IDHwt LGG; [EGFR](../genes/EGFR.md) altered in 52% of IDHwt LGG; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant LGG [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); IDH/1p19q status established as more robust survival predictor than histologic subtype, contributing evidence to WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
@@ -38,7 +38,7 @@ LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). T
 ## Subtypes
 
 - **IDH-mutant, 1p/19q co-deleted:** oligodendroglioma; characterized by low arm-level aneuploidy except 1p/19q.
-- **IDH-mutant, 1p/19q intact:** astrocytoma; typically lower aneuploidy than GBM.
+- **IDH-mutant, 1p/19q intact:** astrocytoma; typically lower aneuploidy than [GBM](../cancer_types/GBM.md).
 - **IDH-wildtype LGG:** behaviorally similar to GBM; not expected to be common in the TCGA LGG cohort by design.
 - The 1p/19q co-deletion in LGG (Cairncross et al., 2013) is a precedent for arm-level alterations being therapeutically relevant [PMID:29622463](../papers/29622463.md).
 

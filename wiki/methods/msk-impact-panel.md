@@ -88,10 +88,10 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT targeted panel ([IMPACT410](../methods/IMPACT410.md) and [IMPACT468](../methods/IMPACT468.md)) used on 4 additional samples in 56-sample DCIS/IDC-NST WES cohort at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
 - FDA-authorized hybridization capture assay (341–468 genes depending on version) used on 424 paired tumor-blood mCSPC samples; median 27.2-month follow-up [PMID:32220891](../papers/32220891.md)
 - Prospective targeted DNA sequencing (341-gene n=44, 410-gene n=44, 468-gene n=20) on 107 uterine sarcoma patients at ~646× average coverage; 45% had actionable alterations [PMID:32299819](../papers/32299819.md)
-- [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), and IMPACT468 used across 26,743 patients in 25 solid tumor types; pan-cancer [CDK12](../genes/CDK12.md) alteration prevalence analysis (1.5% overall) [PMID:32317181](../papers/32317181.md)
+- [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), and [IMPACT468](../methods/IMPACT468.md) used across 26,743 patients in 25 solid tumor types; pan-cancer [CDK12](../genes/CDK12.md) alteration prevalence analysis (1.5% overall) [PMID:32317181](../papers/32317181.md)
 - MSK-IMPACT (300/341/410/468-gene versions) used on 119 [UTUC](../cancer_types/UTUC.md) patients and all PDX/PDC models; [PDCD1](../genes/PDCD1.md) homozygous deletion enrichment in uLMS identified through 15,816-patient MSK-IMPACT pan-cancer reference [PMID:32332851](../papers/32332851.md)
 - Applied for targeted NGS profiling of 430 MSS unresectable mCRC patients at MSKCC (dataset [crc_apc_impact_2020](../datasets/crc_apc_impact_2020.md)); identified [APC](../genes/APC.md) mutation site as a prognostic marker independent of tumor sidedness [PMID:32730818](../papers/32730818.md)
-- Profiled 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients after resection at MSKCC (dataset [luad_mskcc_2020](../datasets/luad_mskcc_2020.md)); 8 patients on IMPACT341, 190 on IMPACT410, 406 on IMPACT468; linked genomic burden and mutational signatures to histologic subtype [PMID:32791233](../papers/32791233.md)
+- Profiled 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients after resection at MSKCC (dataset [luad_mskcc_2020](../datasets/luad_mskcc_2020.md)); 8 patients on [IMPACT341](../methods/IMPACT341.md), 190 on [IMPACT410](../methods/IMPACT410.md), 406 on IMPACT468; linked genomic burden and mutational signatures to histologic subtype [PMID:32791233](../papers/32791233.md)
 - Applied to 39 baseline HR+ [MBC](../cancer_types/MBC.md) tumor biopsies in the [breast_alpelisib_2020](../datasets/breast_alpelisib_2020.md) trial; identified clonal [PIK3CA](../genes/PIK3CA.md) mutations in 70% of evaluable pre-treatment tumors and baseline PTEN/ESR1 alterations as resistance predictors [PMID:32864625](../papers/32864625.md)
 - MSK-IMPACT (IMPACT468 somatic + 88-gene germline) applied to 83 enucleated retinoblastoma specimens at MSKCC; identifies SNVs, indels, focal CNAs, and [select](../methods/select.md) rearrangements from FFPE tissue [PMID:33466343](../papers/33466343.md)
 - MSK-IMPACT (IMPACT341/410/468) capture-based NGS applied to 696 melanoma tumors at MSKCC and Lehigh Valley; median sequencing depth 709×; oncogenic calls restricted to OncoKB-annotated variants [PMID:33509808](../papers/33509808.md)
@@ -111,7 +111,9 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) for mutational/CNV profiling of 22 organoids and 10/15 matched tumor biopsies; MSK-IMPACT panel data compared against the SU2C metastatic CRPC cohort [PMID:35617398](../papers/35617398.md)
 - MSK-IMPACT tumor-normal capture sequencing used to profile 2,735 prostate cancer patients (1,417 passed FACETS QC); panels IMPACT341/410/468 all captured [PIK3R1](../genes/PIK3R1.md) [PMID:35670774](../papers/35670774.md)
 - MSK-IMPACT paired tumor-normal sequencing applied to 2,138 bone and soft tissue sarcomas from 45 OncoTree-mapped pathological entities (panels IMPACT341/410/468 at ≥500× median depth) [PMID:35705560](../papers/35705560.md)
-- Applied to 692 pre-treatment rectal adenocarcinoma primary tumors (MSK-IMPACT 341–505 gene panel); defined the mutational landscape ([APC](../genes/APC.md) 81%, [TP53](../genes/TP53.md) 81%, [KRAS](../genes/KRAS.md) 42%) and identified KRAS as a treatment-specific predictor of DFS in CRT-CNCT-treated LARC (p=0.004) [PMID:35970919](../papers/35970919.md)
+- Applied to 692 pre-treatment rectal adenocarcinoma primary tumors (MSK-IMPACT 341–505 gene panel); defined the mutational landscape ([APC](../genes/APC.md) 81%, [TP53](../genes/TP53.md) 81%, [KRAS](../genes/KRAS.md) 42%) and identified [KRAS](../genes/KRAS.md) as a treatment-specific predictor of DFS in CRT-CNCT-treated LARC (p=0.004) [PMID:35970919](../papers/35970919.md)
+- Primary sequencing platform for 132 of 166 colitis-associated cancer (CAC) tumors (341–505-gene versions); also used for AOM/DSS mouse model with mouse MSK-IMPACT panel for macrodissected lesions; germline panel (76→88 genes) used in 73 consented patients [PMID:36611031](../papers/36611031.md)
+- Primary sequencing platform for 31 of 49 aSCLC pathologic specimens (341/468/505-gene versions); first demonstration that chromothripsis can be detected from panel NGS using oscillating CNA pattern recognition (100% specificity, 77% sensitivity vs WGS) — enabling wider clinical recognition of chromothripsis [PMID:39185963](../papers/39185963.md)
 
 ## Notes
 
@@ -355,5 +357,11 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

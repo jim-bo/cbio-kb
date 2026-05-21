@@ -22,7 +22,7 @@ WGCNA is an unsupervised computational method for constructing gene co-expressio
 ## Used by
 
 - Applied in the Beat [AML](../cancer_types/AML.md) study ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)) to identify 14 co-expression gene clusters across 451 [AML](../cancer_types/AML.md) RNA-seq specimens (411 patients); lasso regression linked specific mutation × expression-cluster combinations to ex vivo drug sensitivity. A 345-gene "turquoise" cluster enriched for immune pathways co-occurred with FLT3-ITD and predicted [ibrutinib](../drugs/ibrutinib.md) sensitivity (overlap with 17-gene signature: representation factor 13.6, P<1.734e-04); a 110-gene "magenta" subnetwork predicted [ibrutinib](../drugs/ibrutinib.md) resistance and tracked with adverse ELN 2017 risk [PMID:30333627](../papers/30333627.md).
-- Applied to AML RNA-seq data (Beat AML Waves 1–4, n=942 specimens); identified 13 module eigengenes with 98% concordance between Waves 1+2 and Waves 3+4; modules 3, 9, and 12 associated with shorter [OS](../cancer_types/OS.md); module 3 hub gene [PEAR1](../genes/PEAR1.md) nominated as single-gene prognostic biomarker [PMID:35868306](../papers/35868306.md)
+- Applied to [AML](../cancer_types/AML.md) RNA-seq data (Beat AML Waves 1–4, n=942 specimens); identified 13 module eigengenes with 98% concordance between Waves 1+2 and Waves 3+4; modules 3, 9, and 12 associated with shorter [OS](../cancer_types/OS.md); module 3 hub gene [PEAR1](../genes/PEAR1.md) nominated as single-gene prognostic biomarker [PMID:35868306](../papers/35868306.md)
 
 ## Notes
 

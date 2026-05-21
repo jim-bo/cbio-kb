@@ -22,7 +22,7 @@ High-grade neuroendocrine carcinoma arising in the colon or rectum. In the corpu
 
 ## Recurrent alterations
 
-- [RET](../genes/RET.md) fusions identified as the qualifying driver alteration in the HGNEC patient enrolled on LIBRETTO-001; [selpercatinib](../drugs/selpercatinib.md) was active in RET fusion-positive cancers across tissue of origin (67% ORR overall for RET fusion-positive cohort) [PMID:35304457](../papers/35304457.md)
+- [RET](../genes/RET.md) fusions identified as the qualifying driver alteration in the HGNEC patient enrolled on LIBRETTO-001; [selpercatinib](../drugs/selpercatinib.md) was active in [RET](../genes/RET.md) fusion-positive cancers across tissue of origin (67% ORR overall for [RET](../genes/RET.md) fusion-positive cohort) [PMID:35304457](../papers/35304457.md)
 
 ## Subtypes
 

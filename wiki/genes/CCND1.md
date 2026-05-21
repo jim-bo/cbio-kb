@@ -23,6 +23,7 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 - CCND1 amplified in 1.0% of 7,494 sarcomas; co-amplified with FGF2/FGF3/FGF19 at the 11q13 amplicon in undifferentiated pleomorphic sarcoma of bone (4.3%); co-occurs unusually with CDK4/6 and CDKN2A/B within the Rb pathway [PMID:35705558](../papers/35705558.md)
 - Amplification present in the pan-cancer OncoMark Chinese solid-tumor cohort (2,396 patients); structural gain catalogued across cancer types [PMID:35871175](../papers/35871175.md)
 - Focally amplified in 2/25 metastatic cSCC samples (WGS cohort); co-amplified with [FGF3](../genes/FGF3.md) in CSCC_0132 and CSCC_0134; structural gain also detected by LINX/PURPLE SV analysis [PMID:35982973](../papers/35982973.md)
+- Amplified in 30% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC) via chromosome 11 chromothripsis-derived ecDNA double-minutes; up to 125 copies; two cases showed CCND1 overexpression without amplification (one via SH3RF3-CCND1 enhancer hijacking) [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -34,7 +35,7 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 
 ## Therapeutic relevance
 
-- Cell Cycle pathway enrichment (including CCND1 amplification) tracks with advanced/perioperatively treated EAC, suggesting potential relevance for CDK4/6 inhibitor strategies, though not directly tested in this cohort [PMID:33795256](../papers/33795256.md).
+- Cell Cycle pathway enrichment (including CCND1 amplification) tracks with advanced/perioperatively treated [EAC](../cancer_types/EAC.md), suggesting potential relevance for CDK4/6 inhibitor strategies, though not directly tested in this cohort [PMID:33795256](../papers/33795256.md).
 
 ## Open questions
 
@@ -61,5 +62,8 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

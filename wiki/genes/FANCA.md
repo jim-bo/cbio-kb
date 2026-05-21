@@ -8,7 +8,7 @@ tags:
   - dna-repair
   - fanconi-anemia
   - homologous-recombination
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -33,6 +33,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - Lost more frequently in CDK12-biallelic prostate cancer vs CDK12-WT tumors in a pan-cancer MSK-IMPACT cohort (N=26,743; 1,875 prostate cases) [PMID:32317181](../papers/32317181.md)
 - Pathogenic germline FANCA mutation identified in 1/119 patients with low-grade serous ovarian carcinoma ([LGSOC](../cancer_types/LGSOC.md)) sequenced by MSK-IMPACT; among a broader 9% germline pathogenic variant rate [PMID:35443055](../papers/35443055.md)
 - FANCA altered as part of the DDR pathway in sarcoma; collective DDR pathway burden is 9.6% across all sarcoma samples, highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
+- Pathogenic germline FANCA alteration identified in CAC patient cohort (IBD-associated colorectal cancer, n=73 germline analysis); overall germline pathogenic variant frequency 14%, comparable to sporadic CRC. [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -79,4 +80,6 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

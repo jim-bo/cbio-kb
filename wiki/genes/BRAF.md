@@ -128,7 +128,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF — among MAPK-pathway alterations ([ERBB2](../genes/ERBB2.md), [HRAS](../genes/HRAS.md), [NF1](../genes/NF1.md), BRAF, [MAP2K1](../genes/MAP2K1.md)) that selectively expanded in post-treatment ctDNA from HR+ metastatic breast cancer patients on [alpelisib](../drugs/alpelisib.md) + AI, suggesting parallel bypass resistance pathways. [PMID:32864625](../papers/32864625.md)
 - V600E/K confirmed in all 66 BRAF-mutant melanoma pretreatment tumors; amplification in 3 patients (all intermediate responders); elevated mutant-allele fraction (>2x median) in 9 patients significantly enriched in excellent BRAFi responders (P < .001 vs. poor) [PMID:32913971](../papers/32913971.md)
 - Non-V600 hotspot mutations p.G466R (x1) and p.D594G (x6) detected in normal perilesional melanocytes from donors 6 and 13 (adjacent to melanoma/BCC); classified as weak activators insufficient alone to drive malignancy [PMID:33029006](../papers/33029006.md)
-- BRAFV600E is the dominant oncogenic event in pediatric [LGG](../cancer_types/LGG.md); BRAFV600E [LGG](../cancer_types/LGG.md) showed downregulated total BRAF protein abundance and upregulation of MAPK pathway substrates and AKT1/AKT2; a subset of craniopharyngioma lacking BRAFV600E shared the BRAFV600E LGG proteomic signature (C4 cluster), nominating MEK inhibition for these [CP](../genes/CP.md) (CPTAC pediatric brain tumor proteogenomics, n=218 samples) [PMID:33242424](../papers/33242424.md)
+- BRAFV600E is the dominant oncogenic event in pediatric [LGG](../cancer_types/LGG.md); BRAFV600E [LGG](../cancer_types/LGG.md) showed downregulated total BRAF protein abundance and upregulation of MAPK pathway substrates and AKT1/AKT2; a subset of craniopharyngioma lacking BRAFV600E shared the BRAFV600E [LGG](../cancer_types/LGG.md) proteomic signature (C4 cluster), nominating MEK inhibition for these [CP](../genes/CP.md) (CPTAC pediatric brain tumor proteogenomics, n=218 samples) [PMID:33242424](../papers/33242424.md)
 - In 696 melanomas profiled by MSK-IMPACT, BRAF V600E/K/R was present in 31% (N=216); non-V600 BRAF included 55 Class 2 and 30 Class 3 variants; Class 3 mutants co-altered in 97% vs. 38% for Class 2 (p=3.4e-08). A BRAF-AGK Class 2 fusion achieved durable complete metabolic response to PLX8394; BRAF V600 predicted shorter TTF on PD-1 monotherapy (median 7.5 months) vs. NF1-altered tumors (22 months). [PMID:33509808](../papers/33509808.md)
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, BRAF harbored activating mutations in 5% of tumors. [PMID:33765338](../papers/33765338.md)
 - Subclonal D594N hotspot in one TERT-altered metaplastic breast cancer ([MBC](../cancer_types/MBC.md)); BRAF amplification in 2 TERT-WT MBCs; BRAF included in Sanger-sequencing panel for 16 MBCs [PMID:33863915](../papers/33863915.md)
@@ -147,6 +147,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600E present in 0.5% of 7,494 sarcomas (FoundationOne Heme); recurrent kinase fusions also detected; anecdotal near-complete response to [vemurafenib](../drugs/vemurafenib.md) plus [trametinib](../drugs/trametinib.md) demonstrated in a BRAF V600E sarcoma case [PMID:35705558](../papers/35705558.md)
 - V600E in 4.4% of [COADREAD](../cancer_types/COADREAD.md) in the OncoMark Chinese solid-tumor cohort; actionable with [encorafenib](../drugs/encorafenib.md)+[cetuximab](../drugs/cetuximab.md) (OncoKB Level 1) [PMID:35871175](../papers/35871175.md)
 - V600E in 1% of pMMR/MSS rectal tumors (LARC cohort, n=692); the only Level 1 OncoKB-actionable finding in this cohort [PMID:35970919](../papers/35970919.md)
+- BRAF V600E mutations occurred significantly less frequently in colitis-associated cancers (CAC) than in sporadic CRC; absence of BRAF V600E is a genomic distinguishing feature of CAC [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -538,5 +539,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

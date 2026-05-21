@@ -35,7 +35,7 @@ EXT2 (exostosin glycosyltransferase 2) encodes a glycosyltransferase required fo
 
 ## Open questions
 
-- The mechanism by which EXT2 variants confer erlotinib sensitivity — potentially via effects on heparan sulfate proteoglycan-mediated receptor signalling — requires experimental validation.
+- The mechanism by which EXT2 variants confer [erlotinib](../drugs/erlotinib.md) sensitivity — potentially via effects on heparan sulfate proteoglycan-mediated receptor signalling — requires experimental validation.
 
 ## Sources
 

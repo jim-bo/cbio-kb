@@ -27,7 +27,7 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 
 ## Cancer types (linked)
 
-- [AML](../cancer_types/AML.md): TET2 variant identified as co-occurring with [KIT](../genes/KIT.md) D816H in one pediatric AML case; [KIT](../genes/KIT.md) was the primary therapeutic target. [PMID:28007021](../papers/28007021.md)
+- [AML](../cancer_types/AML.md): TET2 variant identified as co-occurring with [KIT](../genes/KIT.md) D816H in one pediatric [AML](../cancer_types/AML.md) case; [KIT](../genes/KIT.md) was the primary therapeutic target. [PMID:28007021](../papers/28007021.md)
 
 ## Co-occurrence and mutual exclusivity
 

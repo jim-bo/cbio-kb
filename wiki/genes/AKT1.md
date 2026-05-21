@@ -45,7 +45,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Upregulated expression in Cluster 2 of cholangiocarcinoma (p < 0.05) alongside [CTNNB1](../genes/CTNNB1.md) and [WNT5B](../genes/WNT5B.md) [PMID:28667006](../papers/28667006.md)
 - PIK3CA/AKT1/AKT3/PIK3R1 predominantly carry known activating hotspot mutations in prostate cancer; one patient acquired a [PIK3CA](../genes/PIK3CA.md) E545K hotspot ~3 years after prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
 - Right-sided enrichment of [AKT1](../genes/AKT1.md) mutations observed in a 1,122-patient mCRC panel sequencing cohort [PMID:29316426](../papers/29316426.md).
-- AKT1 is a core PI3K-pathway driver; PI3K pathway activation (PIK3CA activation + [PTEN](../genes/PTEN.md) inactivation) dominates in head-and-neck, breast, GI, and gynecologic tumors; luminal-A breast cancer leads in OncoKB Level 3A frequency, driven in part by AKT1 mutations [PMID:29625050](../papers/29625050.md)
+- AKT1 is a core PI3K-pathway driver; PI3K pathway activation ([PIK3CA](../genes/PIK3CA.md) activation + [PTEN](../genes/PTEN.md) inactivation) dominates in head-and-neck, breast, GI, and gynecologic tumors; luminal-A breast cancer leads in OncoKB Level 3A frequency, driven in part by AKT1 mutations [PMID:29625050](../papers/29625050.md)
 - Pathway target (AKT-inhibitor trials, n=4 enrolled) in a 189-patient MSK advanced endometrial cancer sequencing cohort; contributes to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
 - AKT1 altered in 0.9% of mCRPC tumors as part of the broader PI3K-pathway alteration set; PI3K-pathway alterations overall were not associated with survival or time on ARSI in this 429-patient mCRPC cohort [PMID:31061129](../papers/31061129.md)
 - Listed among the somatic genes identified in WES of synchronous [DCIS](../cancer_types/DCIS.md) and invasive IDC-NST pairs (n=25 patients); AKT1/PI3K pathway context in this cohort was dominated by PIK3CA mutations (41% of [DCIS](../cancer_types/DCIS.md), 42% IDC-NST) [PMID:32220886](../papers/32220886.md)
@@ -61,8 +61,9 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - PI3K-pathway co-alteration in HER2+ breast cancer (0.3% of 733 tumors); AKT1 alterations are independent of MAPK-pathway lesions that drive anti-HER2 resistance [PMID:34795269](../papers/34795269.md)
 - AKT1 appears in the top-50 positive Δκ risk gene list in [HGSOC](../cancer_types/HGSOC.md) ICI-treated patients; network curvature analysis ranks AKT1 as a putative driver of ICI-modulated network robustness [PMID:34819508](../papers/34819508.md)
 - [PIK3R1](../genes/PIK3R1.md) knockdown activates AKT in prostate cancer cell lines; [ipatasertib](../drugs/ipatasertib.md) (an AKT inhibitor) showed activity against AKT1-mutant PDXs in this context [PMID:35670774](../papers/35670774.md)
-- AKT1 E17K enriched in myxoid liposarcoma (3.7%) alongside PIK3CA and PTEN alterations in the FoundationOne Heme sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
+- AKT1 E17K enriched in myxoid liposarcoma (3.7%) alongside PIK3CA and [PTEN](../genes/PTEN.md) alterations in the FoundationOne Heme sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
 - AKT1 targetable in myxoid retroperitoneal liposarcoma ([MRLS](../cancer_types/MRLS.md)) with collective 31% PI3K-pathway hits including PIK3CA, AKT1, [MTOR](../genes/MTOR.md), and [TSC1](../genes/TSC1.md) at Level 3B; [MRLS](../cancer_types/MRLS.md) PI3K-pathway rate is 41% across the MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
+- PI3K/AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts activate EGFR-AKT axis driving TKI resistance [PMID:38355797](../papers/38355797.md)
 
 ## Cancer types (linked)
 
@@ -211,5 +212,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

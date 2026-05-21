@@ -15,7 +15,7 @@ FAT4 is a protocadherin and putative tumor suppressor gene encoding a large tran
 
 ## Alterations observed in the corpus
 
-- Truncating mutations identified in adenoid cystic carcinoma (ACC); functional growth-suppressor knockdown phenotype demonstrated [PMID:23685749](../papers/23685749.md)
+- Truncating mutations identified in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); functional growth-suppressor knockdown phenotype demonstrated [PMID:23685749](../papers/23685749.md)
 - Identified as a newly mutated gene in transitional cell carcinoma of the bladder ([BLCA](../cancer_types/BLCA.md)) by whole-exome sequencing of 99 tumors; functional characterization in TCC is not yet performed and was explicitly recommended as future work [PMID:24121792](../papers/24121792.md)
 - FAT4 mutation was detected as unique to the plasmacytoid component (alongside [CDH1](../genes/CDH1.md) Y68fs and [PTEN](../genes/PTEN.md)) in multi-region exon capture of a mixed plasmacytoid/urothelial NOS bladder tumor, consistent with a branch-point event driving plasmacytoid differentiation [PMID:26901067](../papers/26901067.md)
 - Mutated in 40% of MSI-H colorectal cancers (atypical-cadherin WNT-related mutations); part of the cadherin-family cluster of WNT-modulating alterations in MSI-H CRC [PMID:34910928](../papers/34910928.md)

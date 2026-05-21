@@ -26,7 +26,7 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 - TSC2 listed as a recurrent CNS oncomap alteration in the AcSé-MAPPYACTS pediatric cohort (n=632 relapsed/refractory samples); co-listed with [TSC1](../genes/TSC1.md), [MN1](../genes/MN1.md), [KDR](../genes/KDR.md), [KIT](../genes/KIT.md), and [PDGFRA](../genes/PDGFRA.md) as other recurrent CNS alterations [PMID:35292802](../papers/35292802.md).
 - TSC2 mutations (non-SMG, ≥3 [HCC](../cancer_types/HCC.md) cases in 122-biopsy proteogenomics cohort) were associated with poor overall survival independent of BCLC staging in multivariate Cox analysis [PMID:35508466](../papers/35508466.md)
 - TSC2 loss predicted mTOR-inhibitor responsiveness in PEComa; TSC1/TSC2 together contribute to mTOR-pathway targeting in sarcoma, in FoundationOne CDx pan-sarcoma cohort of 7,494 cases [PMID:35705558](../papers/35705558.md)
-- Loss-of-function in 30% of PEComa alongside TSC1; combined TSC1/TSC2 actionable (Level 3B mTOR inhibition) in 37% of PEComa in 2,138-sample MSK-IMPACT sarcoma cohort [PMID:35705560](../papers/35705560.md)
+- Loss-of-function in 30% of PEComa alongside [TSC1](../genes/TSC1.md); combined TSC1/TSC2 actionable (Level 3B mTOR inhibition) in 37% of PEComa in 2,138-sample MSK-IMPACT sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - Loss-of-function mutations in 4.9% of hepatocellular carcinoma ([LIHC](../cancer_types/LIHC.md)) in the Asian pan-cancer (aOM) cohort; OncoKB Level 4 actionability with [everolimus](../drugs/everolimus.md) [PMID:35871175](../papers/35871175.md)
 
 ## Cancer types (linked)
@@ -40,7 +40,7 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 
 ## Therapeutic relevance
 
-- TSC1/2-mutant HR+/HER2− mBC is hypothesized to be an outlier responder to everolimus (mTOR inhibitor, FDA-approved in HR+/HER2− mBC); current evidence is enrichment data, not prospective biomarker trial. [PMID:28027327](../papers/28027327.md)
+- TSC1/2-mutant HR+/HER2− mBC is hypothesized to be an outlier responder to [everolimus](../drugs/everolimus.md) (mTOR inhibitor, FDA-approved in HR+/HER2− mBC); current evidence is enrichment data, not prospective biomarker trial. [PMID:28027327](../papers/28027327.md)
 
 ## Open questions
 

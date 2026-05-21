@@ -5,7 +5,7 @@ drug_class: PD-L1 inhibitor (immune checkpoint inhibitor)
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint_inhibitor, pd-l1]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -29,6 +29,8 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - The luminal-papillary, T-cell-depleted profile of [UTUC](../cancer_types/UTUC.md) is consistent with the lower response rates of luminal-papillary urothelial carcinoma to atezolizumab observed in IMvigor210 (cluster I had the lowest response), providing a mechanistic explanation for blunted ICI efficacy in FGFR3-high [UTUC](../cancer_types/UTUC.md). [PMID:31278255](../papers/31278255.md)
 - Atezolizumab (PD-L1 inhibitor) was listed as a reference immunotherapy option evaluated in the FUTURE umbrella trial context for refractory metastatic TNBC; the trial used [camrelizumab](../drugs/camrelizumab.md) (anti-PD-1) rather than atezolizumab in arm C [PMID:32719455](../papers/32719455.md).
 - Atezolizumab (with cisplatin/carboplatin + [etoposide](../drugs/etoposide.md)) is noted as a current first-line standard for extensive-stage [SCLC](../cancer_types/SCLC.md) in the [SCLC](../cancer_types/SCLC.md) PDX/CDX resource paper; the MSK773 SCLC-P patient received carboplatin/etoposide and [ipilimumab](../drugs/ipilimumab.md) + [nivolumab](../drugs/nivolumab.md) without response [PMID:35440124](../papers/35440124.md)
+- Atezolizumab plus [bevacizumab](../drugs/bevacizumab.md) achieves a real-world ORR of 26–28% in advanced [HCC](../cancer_types/HCC.md); second-line ORR after progression on this combination is ~7%; lipid-metabolism reprogramming — including [ACLY](../genes/ACLY.md)-driven suppression of cGAS–STING and PD-L1 — is a proposed resistance mechanism [PMID:38355797](../papers/38355797.md).
+- 3/5 aSCLC patients (RB1+/TP53+, never/light smokers) receiving immune checkpoint inhibitors including atezolizumab remained on therapy 2 to >5 years; aSCLC lacks dual RB1/TP53 inactivation and is characterized by chromothripsis-driven [CCND1](../genes/CCND1.md)/[CDK4](../genes/CDK4.md) amplification [PMID:39185963](../papers/39185963.md).
 
 ## Resistance mechanisms
 
@@ -73,3 +75,9 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

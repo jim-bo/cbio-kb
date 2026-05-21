@@ -29,7 +29,7 @@ GLI1 (GLI Family Zinc Finger 1) is a transcriptional effector of the Hedgehog si
 
 ## Therapeutic relevance
 
-- CDK4 amplification at 12q13-15 (co-occurring with GLI1) is part of a secondary alteration set in FP-RMS associated with worse [OS](../cancer_types/OS.md) and PFS, supporting stratification of these patients to higher-risk protocols [PMID:37730754](../papers/37730754.md).
+- [CDK4](../genes/CDK4.md) amplification at 12q13-15 (co-occurring with GLI1) is part of a secondary alteration set in FP-RMS associated with worse [OS](../cancer_types/OS.md) and PFS, supporting stratification of these patients to higher-risk protocols [PMID:37730754](../papers/37730754.md).
 
 ## Open questions
 

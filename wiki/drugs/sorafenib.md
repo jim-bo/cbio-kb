@@ -15,7 +15,7 @@ tags:
   - targeted-therapy
   - anti-angiogenic
   - braf-inhibitor
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -41,6 +41,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - In immune-cold PDAC ([paad_cptac_2021](../datasets/paad_cptac_2021.md), n=140), antiangiogenic therapy with sorafenib (and NGR-TNF) plus HIF-1 inhibition is proposed to normalize endothelial cells and promote immune infiltration, given elevated VEGF and hypoxia signaling in these tumors [PMID:34534465](../papers/34534465.md)
 - In a phosphoproteogenomic HCC dataset (n=122 biopsies), sorafenib is cited alongside [regorafenib](../drugs/regorafenib.md) as a current standard agent; authors note preclinical evidence of synergy between AURKA/CDK inhibitors (elevated by KSEA) and sorafenib as motivation for targeted combination strategies in HCC [PMID:35508466](../papers/35508466.md)
 - Multi-kinase/FLT3 inhibitor; in Beat [AML](../cancer_types/AML.md) Waves 3+4 (n=805), sorafenib sensitivity in FLT3-ITD AML is conditional on maturation state: Progenitor-like scores predict sensitivity, Monocyte-like scores confer resistance [PMID:35868306](../papers/35868306.md)
+- Sorafenib is a first-line TKI for advanced [HCC](../cancer_types/HCC.md) with ORR of ~26%; resistance mechanisms catalogued in this review include [SLC27A4](../genes/SLC27A4.md)-mediated MUFA import suppressing ferroptosis, [SCD](../genes/SCD.md)-driven PUFA:MUFA lowering, phosphatidic acid/RTK upregulation, [ACSL4](../genes/ACSL4.md) loss, 27-hydroxycholesterol-driven [GPX4](../genes/GPX4.md) upregulation, and [FASN](../genes/FASN.md)-stabilized HIF1α/SLC7A11 axis — multiple combinations (FASN inhibitors, SCD inhibitors, ND-654) sensitize HCC to sorafenib preclinically [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -69,3 +70,6 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

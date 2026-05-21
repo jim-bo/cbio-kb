@@ -27,7 +27,7 @@ PDGFB (Platelet-Derived Growth Factor Subunit B) encodes the B-chain of platelet
 
 ## Therapeutic relevance
 
-- COL1A1-PDGFB fusions are targetable by imatinib (PDGFR inhibitor); classified as ready-for-routine-use actionable alteration in the MAPPYACTS pediatric precision-oncology program [PMID:35292802](../papers/35292802.md)
+- COL1A1-PDGFB fusions are targetable by [imatinib](../drugs/imatinib.md) (PDGFR inhibitor); classified as ready-for-routine-use actionable alteration in the MAPPYACTS pediatric precision-oncology program [PMID:35292802](../papers/35292802.md)
 
 ## Open questions
 

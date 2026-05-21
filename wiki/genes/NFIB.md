@@ -11,7 +11,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-[NFIB](../cancer_types/NFIB.md) (nuclear factor I/B) is a transcription factor involved in neural progenitor self-renewal and glial differentiation. In oligodendroglioma, NFIB is expressed as part of the stem/progenitor transcriptional program that characterizes the rare cycling subpopulation at the apex of the tumor's developmental hierarchy.
+[NFIB](../cancer_types/NFIB.md) (nuclear factor I/B) is a transcription factor involved in neural progenitor self-renewal and glial differentiation. In oligodendroglioma, [NFIB](../cancer_types/NFIB.md) is expressed as part of the stem/progenitor transcriptional program that characterizes the rare cycling subpopulation at the apex of the tumor's developmental hierarchy.
 
 ## Alterations observed in the corpus
 
@@ -19,12 +19,12 @@ processed_at: 2026-05-21
 - NFIB amplification in mouse [SCLC](../cancer_types/SCLC.md); copy number gain observed in 3 human [SCLC](../cancer_types/SCLC.md) samples (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
 - NFIB copy-number amplification confirmed as a recurrent alteration in [SCLC](../cancer_types/SCLC.md) (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - Candidate oncogenic driver on 9p in OSCC; high-level amplification detected in 3/38 tumors despite background 9p loss in other tumors, suggesting positive selection for NFIB gain (40-tumor MD Anderson OSCC cohort) [PMID:23619168](../papers/23619168.md)
-- MYB-NFIB fusion (t(6;9)) identified as the dominant structural lesion in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); NFIB also bears independent truncating CTF/NFI mutations (Y249*, P390fs) and 4 homozygous deletions in 57 ACC cases [PMID:23685749](../papers/23685749.md)
+- MYB-NFIB fusion (t(6;9)) identified as the dominant structural lesion in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); NFIB also bears independent truncating CTF/NFI mutations (Y249*, P390fs) and 4 homozygous deletions in 57 [ACC](../cancer_types/ACC.md) cases [PMID:23685749](../papers/23685749.md)
 - NFIB is the translocation partner of [MYB](../genes/MYB.md) in 19/24 ACC cases (t(6;9)); SNP6 copy-number breakpoints at the NFIB locus confirmed in MYB-activated cases [PMID:23778141](../papers/23778141.md)
 - Recipient fusion partner in canonical [MYB](../genes/MYB.md)::NFIB (49/88, 57%) and [MYBL1](../genes/MYBL1.md)::NFIB (9/88, 10%) fusions in sinonasal adenoid cystic carcinoma; FISH detected an additional NFIB rearrangement in one fusion-negative case [PMID:24418857](../papers/24418857.md)
 - Identified as 3′ fusion partner in MYB-NFIB chimeric transcripts (NFIB exon 8c or 9 fused to [MYB](../genes/MYB.md) exon 14) in 83% (10/12) of breast adenoid cystic carcinomas (AdCC). [PMID:26095796](../papers/26095796.md)
 - 5' end (exons 1-2) fuses with diverse partners ([MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [XRCC4](../genes/XRCC4.md), [PTPRD](../genes/PTPRD.md), [NKAIN2](../genes/NKAIN2.md), [AIG1](../genes/AIG1.md)) in adenoid cystic carcinoma; breakpoints in MYBL1-NFIB cluster in intron 10; present as fusion partner in ~53% (MYB-NFIB) and ~14% (MYBL1-NFIB) of 102-tumor ACC cohort [PMID:26631609](../papers/26631609.md)
-- Partner locus in NFIB–[MYB](../genes/MYB.md) rearrangements (12/20 ACC tumors: 6 with 3′UTR loss, 6 with retained 3′UTR); hosts super-enhancers that translocate to MYB driving overexpression [PMID:26829750](../papers/26829750.md)
+- Partner locus in NFIB–[MYB](../genes/MYB.md) rearrangements (12/20 ACC tumors: 6 with 3′UTR loss, 6 with retained 3′UTR); hosts super-enhancers that translocate to [MYB](../genes/MYB.md) driving overexpression [PMID:26829750](../papers/26829750.md)
 - Translocation target in 15/25 ACC tumors (60%) with five distinct fusion partners (MYB, [MAP3K5](../genes/MAP3K5.md), [MYBL1](../genes/MYBL1.md), [RIMS1](../genes/RIMS1.md), [MYO6](../genes/MYO6.md), [RPS6KA2](../genes/RPS6KA2.md)); overexpressed vs. normal (p=0.002) independent of fusion status (p=0.91), implicating a fusion-independent oncogenic role [PMID:26862087](../papers/26862087.md)
 - NFIB is the canonical fusion partner of [MYB](../genes/MYB.md) in adenoid cystic carcinoma (ACC); MYB-NFIB fusion confirmed clonal by FISH in primary and metastatic regions; present in 22.2% of R/M ACC cases; not independently prognostic [PMID:31483290](../papers/31483290.md).
 - MYB–NFIB enhancer hijacking via chromoplexy (chromosomes 6, 9, 18) identified in an adenoid cystic carcinoma patient lacking informative clinical sequencing findings; RNA-seq confirmed MYB overexpression; MYB fusions detected by conventional assays in only 30% of ACC cases [PMID:35585047](../papers/35585047.md)

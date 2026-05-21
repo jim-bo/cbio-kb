@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [single-cell, transcriptomics, sequencing]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: 2026-05-21
 ---
 
 # Single-cell RNA sequencing (scRNA-seq)
@@ -29,6 +29,7 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - 10x Chromium Single Cell Gene Expression 3'v3.1 applied across multiple AAV-CRISPR rat breast tumor genotypes; UMAP showed genotype-driven immune microenvironment differences: adaptive immune enrichment in single-edit tumors, myeloid-dominated immunosuppression (macrophage vs neutrophil dichotomy) in multi-edit tumors [PMID:26437033](../papers/26437033.md)
 - inDrop/TruDrop scRNA-seq (dropkick QC) on 62 colorectal polyp/tumor specimens (128 datasets, 142,065 cells) in the COLON MAP HTAN atlas; identified adenoma-specific (ASC) and serrated-specific (SSC) neoplastic cell populations [PMID:34910928](../papers/34910928.md)
 - Training data for OncoMark derived from 3.1 million single-cell transcriptomes (941 patients, 14 tumor sites, Weizmann 3CA repository); pseudo-bulk profiles generated from scRNA-seq to train the hallmark-activity MTL classifier [PMID:35121966](../papers/35121966.md)
+- Single-cell RNA-seq (including SMART-seq2 reference from 11 patients) used alongside bulk deconvolution to map neoplastic and non-neoplastic cell states in longitudinal diffuse glioma, defining stem-like, proliferating stem-like, and mesenchymal-like populations [PMID:35649412](../papers/35649412.md)
 
 ## Notes
 
@@ -69,3 +70,6 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:35121966](../papers/35121966.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

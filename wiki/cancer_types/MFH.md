@@ -14,7 +14,7 @@ unverified: false
 
 ## Overview
 
-Undifferentiated pleomorphic sarcoma (UPS), historically termed malignant fibrous histiocytoma (MFH), is a high-grade soft tissue sarcoma classified under SOFT_TISSUE in the OncoTree hierarchy. It can arise de novo or as a radiation-associated sarcoma.
+Undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)), historically termed malignant fibrous histiocytoma (MFH), is a high-grade soft tissue sarcoma classified under [SOFT_TISSUE](../cancer_types/SOFT_TISSUE.md) in the OncoTree hierarchy. It can arise de novo or as a radiation-associated sarcoma.
 
 ## Cohorts in the corpus
 
@@ -30,6 +30,7 @@ Undifferentiated pleomorphic sarcoma (UPS), historically termed malignant fibrou
 - RT-UPS had the highest insertion:SNV and deletion:SNV ratios among RT-sarcomas (adjusted P < 0.05) [PMID:37350195](../papers/37350195.md).
 - [FGA](../genes/FGA.md) of 25% in RT-UPS [PMID:37350195](../papers/37350195.md).
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 7,494-sarcoma cohort, UPS/MFH showed 4q12 amplicon (KDR/PDGFRA/KIT) in 7.3%, 11q13 (CCND1/FGF amplicon) in 4.3% of UPS of bone, TMB ≥10 mut/Mb in 10.9%, and high gLOH (≥19.3%) in 26.6% with only 3.6% HRD-gene alterations; [CD274](../genes/CD274.md) (PD-L1) amplification in 3.6% [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
@@ -46,5 +47,8 @@ Undifferentiated pleomorphic sarcoma (UPS), historically termed malignant fibrou
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

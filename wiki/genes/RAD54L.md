@@ -8,7 +8,7 @@ tags:
   - DNA-repair
   - homologous-recombination
   - helicase
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-21
 ---
 
@@ -22,6 +22,7 @@ RAD54L (RAD54 Like) encodes an ATP-dependent DNA helicase involved in homologous
 
 - RAD54L observed as a low-frequency hit (>=2 ATC or >=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
 - Part of the 15 PROfound HRR genes assessed in 51 prostate cancer brain metastases (PCBM); 10/51 (19.6%) patients qualified by alteration in any HRR gene, 8/51 (15.7%) had biallelic loss in at least one [PMID:35504881](../papers/35504881.md)
+- RAD54L part of DNA damage repair gene set ([ATM](../genes/ATM.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [PALB2](../genes/PALB2.md), [RAD51B](../genes/RAD51B.md), [RAD51D](../genes/RAD51D.md), [RAD52](../genes/RAD52.md), RAD54L) with collectively 2.5% pathogenic alterations across 7,494 sarcomas; biallelic in 1.0% [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -43,7 +44,10 @@ RAD54L (RAD54 Like) encodes an ATP-dependent DNA helicase involved in homologous
 
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **wiki-cli** on **2026-05-21**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

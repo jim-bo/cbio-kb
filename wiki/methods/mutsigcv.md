@@ -9,7 +9,7 @@ tags:
   - somatic-mutation
   - bioinformatics
   - cancer-genomics
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-21
 ---
 
@@ -26,6 +26,7 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 - Applied for significantly mutated gene (SMG) filtering across 240 WES pediatric PDX models from 37 molecular subtypes; hybrid hg19-mm10 competitive mapping first removed mouse reads before SMG analysis [PMID:31693904](../papers/31693904.md).
 - MutSigCV v1.4 identified [CDK12](../genes/CDK12.md) as significantly recurrently mutated in prostate cancer (FDR<0.001) and ovarian cancer (FDR=0.056) across a 26,743-tumor pan-cancer cohort [PMID:32317181](../papers/32317181.md)
 - Applied to 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) to identify significantly mutated genes: 7 SMGs identified including [GPAM](../genes/GPAM.md) (newly nominated), [CTNNB1](../genes/CTNNB1.md), [TP53](../genes/TP53.md), [ARID1A](../genes/ARID1A.md), [AXIN1](../genes/AXIN1.md), [CDKN1A](../genes/CDKN1A.md), and [ALB](../genes/ALB.md) [PMID:35508466](../papers/35508466.md)
+- MutSigCV 1.4 applied alongside MuSiC for recurrent somatic mutation discovery (significance threshold q<0.1) across 2,138 MSK-IMPACT sarcomas [PMID:35705560](../papers/35705560.md)
 
 ## Notes
 
@@ -48,3 +49,6 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

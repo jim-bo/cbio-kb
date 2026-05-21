@@ -23,7 +23,7 @@ EXT2 (exostosin glycosyltransferase 2) encodes a glycosyltransferase required fo
 
 ## Cancer types (linked)
 
-- EXT2's association with erlotinib sensitivity was identified pan-cancer across 947 cell lines of diverse lineages in the CCLE; specific lineage enrichment was not detailed in the corpus [PMID:22460905](../papers/22460905.md)
+- EXT2's association with [erlotinib](../drugs/erlotinib.md) sensitivity was identified pan-cancer across 947 cell lines of diverse lineages in the CCLE; specific lineage enrichment was not detailed in the corpus [PMID:22460905](../papers/22460905.md)
 
 ## Co-occurrence and mutual exclusivity
 

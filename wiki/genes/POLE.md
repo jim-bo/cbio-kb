@@ -3,7 +3,7 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
@@ -51,6 +51,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - Defines a small ultramutated subgroup in MSS EO-CRC (≤35: 2.6%; 36-49: 0.7%; AO: 0.7%; no statistically significant age-cohort difference) [PMID:34405229](../papers/34405229.md)
 - No significant prevalence difference by race/ancestry in prostate cancer patients (Black, Asian, White) profiled on MSK-IMPACT; POLE is a DNA-repair gene that did not differ significantly across racial groups in this cohort of 1,123 men. [PMID:34667026](../papers/34667026.md)
 - POLE exonuclease domain hotspot mutations explicitly absent in CRC with dual MAPK drivers (CRC-DD; n=47/4,561 MSK-IMPACT cases), ruling out polymerase-driven hypermutation as the mechanism underlying co-occurring RAS and [BRAF](../genes/BRAF.md) drivers [PMID:35235413](../papers/35235413.md)
+- POLE-mutated endometrial cancers (n=6) were excluded a priori from MSI-H/MMR-D analysis to isolate MLH1ph vs germline vs somatic MMR-D subgroups; POLE hypermutation represents a distinct molecular subclass [PMID:35849120](../papers/35849120.md)
 
 ## Cancer types (linked)
 
@@ -115,3 +116,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:35235413](../papers/35235413.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35849120](../papers/35849120.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -10,14 +10,14 @@ tags:
   - TSC
   - rare
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-21
 ---
 
 # Perivascular Epithelioid Cell Tumor (PECOMA)
 
 ## Overview
 
-Perivascular epithelioid cell tumor (PEComa) is a rare mesenchymal neoplasm composed of distinctive perivascular epithelioid cells showing myomelanocytic differentiation, classified under Soft Tissue Sarcoma in OncoTree (parent: SOFT_TISSUE). A subset is driven by TSC1/TSC2 loss leading to mTOR pathway activation; this subset is responsive to mTOR inhibitors.
+Perivascular epithelioid cell tumor (PEComa) is a rare mesenchymal neoplasm composed of distinctive perivascular epithelioid cells showing myomelanocytic differentiation, classified under Soft Tissue Sarcoma in OncoTree (parent: [SOFT_TISSUE](../cancer_types/SOFT_TISSUE.md)). A subset is driven by TSC1/TSC2 loss leading to mTOR pathway activation; this subset is responsive to mTOR inhibitors.
 
 ## Cohorts in the corpus
 
@@ -27,6 +27,8 @@ Perivascular epithelioid cell tumor (PEComa) is a rare mesenchymal neoplasm comp
 
 - TSC1/TSC2 loss (mTOR activation): canonical driver in a subset; not directly genotyped in the UCLA PDTO study.
 - [CDK4](../genes/CDK4.md): tested via [palbociclib](../drugs/palbociclib.md) in SARC0086_3 (PEComa PDTO) as part of broad sarcoma drug screen. [PMID:39305899](../papers/39305899.md)
+- In a 7,494-sarcoma cohort, a malignant PEComa patient achieved complete response to [nivolumab](../drugs/nivolumab.md)+[ipilimumab](../drugs/ipilimumab.md) (TMB 7 mut/Mb); [TSC2](../genes/TSC2.md) loss predicted mTOR-inhibitor responsiveness; subclonal [TSC1](../genes/TSC1.md) was documented [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, PEComa showed TSC2/TSC1 loss-of-function in 30%/combined actionable in 37% (Level 3B); PI3K pathway altered in 40%; DDR pathway altered in 13%; [ATRX](../genes/ATRX.md) loss-of-function in ≥10% [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -42,4 +44,10 @@ Perivascular epithelioid cell tumor (PEComa) is a rare mesenchymal neoplasm comp
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

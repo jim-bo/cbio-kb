@@ -15,7 +15,7 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 
 ## Alterations observed in the corpus
 
-- Significantly mutated in [EAC](../cancer_types/EAC.md) ([ESCA](../cancer_types/ESCA.md)) in the TCGA esophageal and gastroesophageal junction carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=164 esophageal + 359 gastric); also deleted at 18q21.2 in EAC. [PMID:28052061](../papers/28052061.md)
+- Significantly mutated in [EAC](../cancer_types/EAC.md) ([ESCA](../cancer_types/ESCA.md)) in the TCGA esophageal and gastroesophageal junction carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=164 esophageal + 359 gastric); also deleted at 18q21.2 in [EAC](../cancer_types/EAC.md). [PMID:28052061](../papers/28052061.md)
 - SMAD4 alteration is more frequent in EAC than in esophageal squamous cell carcinoma ([ESCC](../cancer_types/ESCC.md)). [PMID:28052061](../papers/28052061.md)
 - Mutations associated with elevated structural variant burden in cholangiocarcinoma (q < 0.1) [PMID:28667006](../papers/28667006.md)
 - Mutated in 16% of mCRC cases with right-sided enrichment; TGF-beta pathway loss in microsatellite-stable colorectal tumors. [PMID:29316426](../papers/29316426.md)
@@ -25,7 +25,7 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - Pan-cancer PCAWG driver in 181 tumors [PMID:32025007](../papers/32025007.md)
 - Known [LUAD](../cancer_types/LUAD.md) subclonal gene with higher alteration frequency in MIP/SOL-predominant tumors; cited alongside [NF1](../genes/NF1.md) and [ATM](../genes/ATM.md) as subclonal drivers in aggressive [LUAD](../cancer_types/LUAD.md) histologic subtypes. [PMID:32791233](../papers/32791233.md)
 - Alterations associated with worse [OS](../cancer_types/OS.md) in esophageal adenocarcinoma (EAC) (KM p=0.028; multivariable HR 1.61, 95% CI 1.14-2.28, p=0.007; n=487 MSK cohort); consistent with prior reports linking SMAD4 loss to disease recurrence [PMID:33795256](../papers/33795256.md)
-- Alterations independently associated with pathologic LN metastasis in LUAD (multivariable OR 5.01, p=0.02); 7% in pN+ vs 1.5% in pN- (p=0.011); reduced SMAD4 expression linked to increased DNA damage, reduced DNA repair, and topoisomerase inhibitor sensitivity [PMID:34290393](../papers/34290393.md)
+- Alterations independently associated with pathologic LN metastasis in [LUAD](../cancer_types/LUAD.md) (multivariable OR 5.01, p=0.02); 7% in pN+ vs 1.5% in pN- (p=0.011); reduced SMAD4 expression linked to increased DNA damage, reduced DNA repair, and topoisomerase inhibitor sensitivity [PMID:34290393](../papers/34290393.md)
 - Altered in ~15-19% across MSS CRC age cohorts; SMAD4 alteration independently associated with worse survival (HR=1.46, 95% CI 1.08-1.94; P=0.01) [PMID:34405229](../papers/34405229.md)
 - Altered in 29% of PDAC (more frequent in C1 classical subtype); downregulates [SERPINE1](../genes/SERPINE1.md) mRNA/protein; deletions raise phospho-HDAC1 (S406/S410/S421), phospho-SMARCA4 S613, and phospho-CREBBP S274 [PMID:34534465](../papers/34534465.md)
 - SMAD4 altered in 10% of MSI-stable esophageal adenocarcinoma (EAC) patients in the MSK neoadjuvant CRT cohort (n=237); not significantly associated with pathologic treatment response [PMID:35377946](../papers/35377946.md).

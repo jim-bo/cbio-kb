@@ -27,7 +27,7 @@ REST (RE1-silencing transcription factor, also known as NRSF) is a transcription
 
 ## Co-occurrence and mutual exclusivity
 
-- High REST co-occurs with BACH2 upregulation and [POU2F3](../genes/POU2F3.md) expression in SCLC-P; mutually low in SCLC-A (ASCL1-driven) and SCLC-N (NEUROD1-driven) subtypes [PMID:35440124](../papers/35440124.md).
+- High REST co-occurs with [BACH2](../genes/BACH2.md) upregulation and [POU2F3](../genes/POU2F3.md) expression in SCLC-P; mutually low in SCLC-A (ASCL1-driven) and SCLC-N (NEUROD1-driven) subtypes [PMID:35440124](../papers/35440124.md).
 
 ## Therapeutic relevance
 
@@ -35,7 +35,7 @@ REST (RE1-silencing transcription factor, also known as NRSF) is a transcription
 
 ## Open questions
 
-- Whether REST expression level is causally linked to the non-NE phenotype or is a downstream consequence of POU2F3 activity remains to be determined.
+- Whether REST expression level is causally linked to the non-NE phenotype or is a downstream consequence of [POU2F3](../genes/POU2F3.md) activity remains to be determined.
 
 ## Sources
 

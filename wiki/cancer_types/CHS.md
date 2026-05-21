@@ -15,7 +15,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Chondrosarcoma is a malignant cartilaginous bone tumor, classified under Bone Cancer in OncoTree (parent: BONE). It is the second most common primary bone malignancy after osteosarcoma and is generally resistant to chemotherapy and radiation, making surgery the mainstay of treatment. Subtypes include conventional, dedifferentiated ([DDCHS](../cancer_types/DDCHS.md)), clear cell, and mesenchymal variants.
+Chondrosarcoma is a malignant cartilaginous bone tumor, classified under Bone Cancer in OncoTree (parent: [BONE](../cancer_types/BONE.md)). It is the second most common primary bone malignancy after osteosarcoma and is generally resistant to chemotherapy and radiation, making surgery the mainstay of treatment. Subtypes include conventional, dedifferentiated ([DDCHS](../cancer_types/DDCHS.md)), clear cell, and mesenchymal variants.
 
 ## Cohorts in the corpus
 
@@ -26,6 +26,8 @@ Chondrosarcoma is a malignant cartilaginous bone tumor, classified under Bone Ca
 - No recurrent driver alterations directly genotyped in the UCLA PDTO study; chondrosarcoma is commonly associated with IDH1/IDH2 mutations (conventional) and complex copy-number changes (dedifferentiated) in the broader literature.
 - CHS was cited as a 3D model test bed in a review of scaffold-based and microfluidic tumor models; chondrosarcoma cell lines were used in porous-scaffold experiments demonstrating stemness-phenotype emergence in 3D culture. [PMID:30643250](../papers/30643250.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 7,494-sarcoma cohort, [IDH1](../genes/IDH1.md) mutations were present in 22.9% of chondrosarcomas, supporting targeted therapy with IDH inhibitors [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, 27% of chondrosarcomas carried actionable IDH1/2 alterations; epigenetic pathway alteration rate was 43%, the second highest among sarcoma subtypes [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -48,5 +50,11 @@ Chondrosarcoma is a malignant cartilaginous bone tumor, classified under Bone Ca
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

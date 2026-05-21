@@ -15,7 +15,7 @@ SYP (Synaptophysin) encodes an integral membrane glycoprotein of small presynapt
 
 ## Alterations observed in the corpus
 
-- Expressed as a defining neuroendocrine marker in SCLC transcriptional subtype 2 (the minority subgroup, ~23% of RNA-seq cases, n=16/69); contrasts with subtype 1 which is characterised by high ASCL1/CHGA/GRP/DLK1 [PMID:26168399](../papers/26168399.md)
+- Expressed as a defining neuroendocrine marker in [SCLC](../cancer_types/SCLC.md) transcriptional subtype 2 (the minority subgroup, ~23% of RNA-seq cases, n=16/69); contrasts with subtype 1 which is characterised by high ASCL1/CHGA/GRP/DLK1 [PMID:26168399](../papers/26168399.md)
 - SYP (synaptophysin) is a high-expression neuroendocrine marker in CRPC-NE subtype; elevated alongside [CHGA](../genes/CHGA.md) and [DLL3](../genes/DLL3.md) and used as a defining NE-marker signature in a multi-omics CRPC classification [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)

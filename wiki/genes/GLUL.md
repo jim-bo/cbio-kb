@@ -13,7 +13,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyzes ATP-dependent condensation of glutamate and ammonia to form glutamine. In hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), GLUL protein expression is a key component of the EASL-endorsed diagnostic [immunohistochemistry](../methods/immunohistochemistry.md) triplet used for early HCC diagnosis, reflecting CTNNB1-activated hepatocytes.
+GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyzes ATP-dependent condensation of glutamate and ammonia to form glutamine. In hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), GLUL protein expression is a key component of the EASL-endorsed diagnostic [immunohistochemistry](../methods/immunohistochemistry.md) triplet used for early [HCC](../cancer_types/HCC.md) diagnosis, reflecting CTNNB1-activated hepatocytes.
 
 ## Alterations observed in the corpus
 
@@ -26,7 +26,7 @@ GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyze
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [HSPA1A](../genes/HSPA1A.md) (HSP70) and GPC3 as part of the EASL-endorsed HCC diagnostic IHC triplet [PMID:24735922](../papers/24735922.md)
+- Co-expressed with [HSPA1A](../genes/HSPA1A.md) (HSP70) and [GPC3](../genes/GPC3.md) as part of the EASL-endorsed HCC diagnostic IHC triplet [PMID:24735922](../papers/24735922.md)
 
 ## Therapeutic relevance
 

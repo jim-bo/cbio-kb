@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, pet-ct, nuclear-medicine, fdg, metabolic-imaging]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # 18F-FDG PET/CT
@@ -20,24 +20,28 @@ Whole-body 18F-fluorodeoxyglucose (FDG) positron emission tomography combined wi
 - [PMID:30325352](../papers/30325352.md) — FDG PET/CT acquired in 201 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects in the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) dataset; CT-based attenuation correction with iterative OSEM reconstruction; FDG dose 138.90–572.25 MBq (mean 309.26 MBq); uptake time 23.08–128.90 min (mean 66.58 min); tumor segmentations on co-registered CT were used for semantic annotation by one experienced radiologist [PMID:30325352](../papers/30325352.md).
 - Pre-SBRT FDG-PET/CT parameters (SUVmax, metabolic tumour volume, total lesion glycolysis) correlate with progression-free and overall survival in locally advanced pancreatic cancer, supporting their use in patient selection for SBRT. [PMID:27826200](../papers/27826200.md)
 - FDG PET/CT response criteria (modified PERCIST v1.0) used as primary endpoint assessment for SUMMIT basket-trial patients with ERBB2/ERBB3-mutant solid tumors not evaluable by RECIST v1.1 [PMID:29420467](../papers/29420467.md)
-- Served as the primary response assessment modality in the cobimetinib phase 2 histiocytosis trial (n=18); FDG-PET-defined ORR was 89% (72% CR), with FDG-PET response criteria read by a dual-boarded radiologist [PMID:30867592](../papers/30867592.md)
+- Served as the primary response assessment modality in the [cobimetinib](../drugs/cobimetinib.md) phase 2 histiocytosis trial (n=18); FDG-PET-defined ORR was 89% (72% CR), with FDG-PET response criteria read by a dual-boarded radiologist [PMID:30867592](../papers/30867592.md)
+- 18F-FDG PET/CT performed in 313 MSK-IMPACT prostate cancer patients (71 primary, 242 metastatic); [PIK3R1](../genes/PIK3R1.md) driver alterations were the only signaling-pathway aberration significantly associated with elevated FDG uptake (n=10, p=0.002, FDR=0.039), providing a noninvasive imaging biomarker for AKT-inhibitor-eligibility screening [PMID:35670774](../papers/35670774.md)
 
 ## Notes
 
-- PET/CT variability (FDG dose, uptake time, scanner model) in the NSCLC radiogenomics dataset was not harmonized; this heterogeneity is flagged by the authors as a limitation for radiomic analyses across the dataset [PMID:30325352](../papers/30325352.md).
+- PET/CT variability (FDG dose, uptake time, scanner model) in the [NSCLC](../cancer_types/NSCLC.md) radiogenomics dataset was not harmonized; this heterogeneity is flagged by the authors as a limitation for radiomic analyses across the dataset [PMID:30325352](../papers/30325352.md).
 - FDG PET/CT is also used in the [tcia-hnscc](../datasets/tcia-hnscc.md) collection for HNSCC patients (see [pet-ct-imaging](../methods/pet-ct-imaging.md)).
 
 ## Sources
 
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27826200](../papers/27826200.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30867592](../papers/30867592.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

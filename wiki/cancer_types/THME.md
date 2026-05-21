@@ -22,7 +22,7 @@ Medullary thyroid carcinoma (MTC) arising from parafollicular C-cells, character
 
 ## Recurrent alterations
 
-- RET kinase-domain mutations (germline and somatic; e.g. M918T) define the canonical driver in THME; acquired resistance mutations include solvent-front G810C/G810S, gatekeeper V804M, and compound cis mutants (M918T/V804M/Y806C) [PMID:35304457](../papers/35304457.md)
+- [RET](../genes/RET.md) kinase-domain mutations (germline and somatic; e.g. M918T) define the canonical driver in THME; acquired resistance mutations include solvent-front G810C/G810S, gatekeeper V804M, and compound cis mutants (M918T/V804M/Y806C) [PMID:35304457](../papers/35304457.md)
 - 4 MTC patients previously treated with multikinase inhibitors harbored coincident secondary RET mutations (V804M ×2, G601E, K666E, D898Y) in baseline plasma at low frequencies (0.65–7%); all decreased with [selpercatinib](../drugs/selpercatinib.md), confirming [selpercatinib](../drugs/selpercatinib.md) sensitivity [PMID:35304457](../papers/35304457.md)
 
 ## Subtypes
@@ -36,6 +36,6 @@ Medullary thyroid carcinoma (MTC) arising from parafollicular C-cells, character
 
 ## Sources
 
-- [PMID:35304457](../papers/35304457.md) — Rosen et al., LIBRETTO-001 selpercatinib trial; mechanisms of response and resistance in RET-driven lung and thyroid cancers; THME as the predominant RET-mutant histology.
+- [PMID:35304457](../papers/35304457.md) — Rosen et al., LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial; mechanisms of response and resistance in RET-driven lung and thyroid cancers; THME as the predominant RET-mutant histology.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

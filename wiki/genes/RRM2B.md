@@ -17,11 +17,11 @@ RRM2B (also known as p53R2) encodes ribonucleotide reductase regulatory subunit 
 
 ## Alterations observed in the corpus
 
-- Identified as a cis-driver candidate at the 8q22.3 locus in a 122-patient [HCC](../cancer_types/HCC.md) multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome); described as a p53 target / DNA damage and replication stress regulator with conflicting tumor-suppressor vs oncogenic roles; nominated as a gemcitabine target in hypoxic conditions [PMID:35508466](../papers/35508466.md)
+- Identified as a cis-driver candidate at the 8q22.3 locus in a 122-patient [HCC](../cancer_types/HCC.md) multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome); described as a p53 target / DNA damage and replication stress regulator with conflicting tumor-suppressor vs oncogenic roles; nominated as a [gemcitabine](../drugs/gemcitabine.md) target in hypoxic conditions [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)**: Cis-driver candidate at 8q22.3 with conflicting tumor-suppressor vs oncogenic roles in a European HCC multi-omics cohort; RRM2B is a p53 target involved in DNA damage response [PMID:35508466](../papers/35508466.md)
+- **[HCC](../cancer_types/HCC.md)**: Cis-driver candidate at 8q22.3 with conflicting tumor-suppressor vs oncogenic roles in a European [HCC](../cancer_types/HCC.md) multi-omics cohort; RRM2B is a p53 target involved in DNA damage response [PMID:35508466](../papers/35508466.md)
 
 ## Co-occurrence and mutual exclusivity
 

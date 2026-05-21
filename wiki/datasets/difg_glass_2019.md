@@ -22,8 +22,8 @@ tags:
   - hypermutation
   - clonal-evolution
   - GLASS
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: 2026-05-21
 ---
 
 # GLASS Consortium Diffuse Glioma (2019)
@@ -63,6 +63,7 @@ The GLASS (Glioma Longitudinal Analysis) Consortium dataset comprises temporally
 - IDHmut-noncodel recurrences frequently acquired aneuploidy together with cell-cycle alterations ([CDKN2A](../genes/CDKN2A.md) homozygous deletion, CCND2/CDK4/CDK6 gain, [RB1](../genes/RB1.md) mutation/loss); patients with these alterations had significantly shorter survival (log-rank P<0.0001). [PMID:31748746](../papers/31748746.md)
 - Subclonal selection at recurrence — observed in 64% of IDHwt tumors — was associated with shorter overall survival (adjusted Cox HR=1.53, 95% CI 1.00–2.41, P=4.8e-02). [PMID:31748746](../papers/31748746.md)
 - Clonal architecture was largely stable (84% of tumors retained a dominant CCF cluster); immunoediting activity did not differ between initial and recurrent tumors, supporting the view that strongest selective pressures act early in glioma development. [PMID:31748746](../papers/31748746.md)
+- Superseded by the 381-patient GLASSx expansion release; cited as the prior 222-patient GLASS release used as baseline for the expanded longitudinal glioma cohort [PMID:35649412](../papers/35649412.md)
 
 ## Sources
 
@@ -71,3 +72,6 @@ The GLASS (Glioma Longitudinal Analysis) Consortium dataset comprises temporally
 - Primary publication: [PMID:31748746](../papers/31748746.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

@@ -25,11 +25,11 @@ Prostate Small Cell Carcinoma (PRSCC) is a rare, aggressive histologic subtype o
 
 ## Subtypes
 
-- Pure small-cell / neuroendocrine carcinoma (PRSCC / PRNE) distinguished from adenocarcinoma with neuroendocrine features in the SU2C cohort by central histopathologic review; a small "double-negative" AR-low/NE-low adenocarcinoma subset (10/332 RNA-seq cases, ~3%) was identified as a candidate distinct clinical state.
+- Pure small-cell / neuroendocrine carcinoma (PRSCC / [PRNE](../cancer_types/PRNE.md)) distinguished from adenocarcinoma with neuroendocrine features in the SU2C cohort by central histopathologic review; a small "double-negative" AR-low/NE-low adenocarcinoma subset (10/332 RNA-seq cases, ~3%) was identified as a candidate distinct clinical state.
 
 ## Therapeutic landscape
 
-- PRSCC is AR-indifferent and typically refractory to ARSI therapy ([abiraterone](../drugs/abiraterone.md), [enzalutamide](../drugs/enzalutamide.md)); RB1 loss (the dominant molecular feature co-segregating with the NE phenotype) was associated with markedly shorter overall survival (multivariate RR 3.31) and time on first-line ARSI (RR 6.56) in the broader mCRPC cohort [PMID:31061129](../papers/31061129.md).
+- PRSCC is AR-indifferent and typically refractory to ARSI therapy ([abiraterone](../drugs/abiraterone.md), [enzalutamide](../drugs/enzalutamide.md)); [RB1](../genes/RB1.md) loss (the dominant molecular feature co-segregating with the NE phenotype) was associated with markedly shorter overall survival (multivariate RR 3.31) and time on first-line ARSI (RR 6.56) in the broader mCRPC cohort [PMID:31061129](../papers/31061129.md).
 
 ## Sources
 

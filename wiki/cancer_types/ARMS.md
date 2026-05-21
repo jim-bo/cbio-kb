@@ -31,6 +31,8 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 - All Fusion+ ARMS PDX models in the PPTC cohort (n=261) carried PAX3-FOXO1; median patient age 16y for Fusion+ vs 5y for Fusion− [RMS](../cancer_types/RMS.md); [MYCN](../genes/MYCN.md) and [CDK4](../genes/CDK4.md) focal amplifications also observed in this histology [PMID:31693904](../papers/31693904.md).
 - ARMS (alveolar rhabdomyosarcoma) was a major histology in the MAPPYACTS trial (sarcomas 37% of 787 patients); CDK4/CDK6 amplifications were recurrent, matched to CDK4/6 inhibitors (105 recommendations across the sarcoma cohort) [PMID:35292802](../papers/35292802.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 7,494-sarcoma cohort profiled by FoundationOne Heme, alveolar rhabdomyosarcoma (P-AYA ≤30 yrs) had lower TMB (1.6 vs 2.4 mut/Mb in adults; FDR<0.05) [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, [ERMS](../cancer_types/ERMS.md) and ARMS shared WGD frequency (~50% each) as a candidate adverse prognostic marker; [BCOR](../genes/BCOR.md) (16%) and [DICER1](../genes/DICER1.md) (12%) were mutually exclusive oncogenic drivers in ERMS [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -58,5 +60,11 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

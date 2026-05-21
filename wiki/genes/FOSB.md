@@ -30,7 +30,7 @@ FOSB ([FOS](../genes/FOS.md) Proto-Oncogene, AP-1 Transcription Factor Subunit) 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [FOSL1](../genes/FOSL1.md), FOS, [FOSL2](../genes/FOSL2.md), JUN, [JUNB](../genes/JUNB.md), [JUND](../genes/JUND.md) as part of the broader AP-1 family TF network in CRPC-SCL [PMID:35617398](../papers/35617398.md)
+- Co-expressed with [FOSL1](../genes/FOSL1.md), [FOS](../genes/FOS.md), [FOSL2](../genes/FOSL2.md), [JUN](../genes/JUN.md), [JUNB](../genes/JUNB.md), [JUND](../genes/JUND.md) as part of the broader AP-1 family TF network in CRPC-SCL [PMID:35617398](../papers/35617398.md)
 
 ## Therapeutic relevance
 
@@ -38,7 +38,7 @@ FOSB ([FOS](../genes/FOS.md) Proto-Oncogene, AP-1 Transcription Factor Subunit) 
 
 ## Open questions
 
-- Individual contribution of FOSB vs other AP-1 members (FOSL1, FOS, FOSL2) to CRPC-SCL chromatin reprogramming is not individually quantified [PMID:35617398](../papers/35617398.md)
+- Individual contribution of FOSB vs other AP-1 members ([FOSL1](../genes/FOSL1.md), FOS, [FOSL2](../genes/FOSL2.md)) to CRPC-SCL chromatin reprogramming is not individually quantified [PMID:35617398](../papers/35617398.md)
 
 ## Sources
 

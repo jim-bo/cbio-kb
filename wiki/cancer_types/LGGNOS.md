@@ -16,7 +16,7 @@ Low-grade glioma NOS (LGGNOS) is a CNS/Brain tumor in the Glioma main type, posi
 
 ## Cohorts in the corpus
 
-- [brain_cptac_2020](../datasets/brain_cptac_2020.md) — 93 LGG samples (the largest histologic group) in a 218-sample pediatric brain tumor proteogenomic cohort from Children's Hospital of Philadelphia / CBTTC. [PMID:33242424](../papers/33242424.md)
+- [brain_cptac_2020](../datasets/brain_cptac_2020.md) — 93 [LGG](../cancer_types/LGG.md) samples (the largest histologic group) in a 218-sample pediatric brain tumor proteogenomic cohort from Children's Hospital of Philadelphia / CBTTC. [PMID:33242424](../papers/33242424.md)
 
 ## Recurrent alterations
 

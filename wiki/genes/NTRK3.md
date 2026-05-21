@@ -43,6 +43,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - Rare oncogenic fusion (NTRK3 fusion) identified in melanoma within a 28-gene driver panel; targeted with kinase inhibitors in [BRAF](../genes/BRAF.md) V600-wild-type disease [PMID:33509808](../papers/33509808.md)
 - NTRK3 fusions (e.g., NTRK3-ETV6, NTRK3-SPECC1L) among the n=9 NTRK fusions classified ready-for-routine-use; resistance mutations identified after prior TRK inhibitor in the MAPPYACTS pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
 - NTRK3–[SLMAP](../genes/SLMAP.md) activating fusion identified by cWGTS in a neuroblastoma patient; nominated as a therapeutic target for TRK inhibitors [PMID:35585047](../papers/35585047.md)
+- ETV6-NTRK3 fusion drives actionable oncogenesis in inflammatory myofibroblastic tumor ([IMT](../cancer_types/IMT.md)); [larotrectinib](../drugs/larotrectinib.md) produced durable complete response; NTRK amplifications are not actionable [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -95,5 +96,8 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

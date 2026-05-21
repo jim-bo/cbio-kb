@@ -109,8 +109,10 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC is over-expressed as part of the WNT/stem-cell transcriptional program in adenoma stem cells (ASCs) and MSS CRC cells in the COLON MAP/HTAN polyp atlas [PMID:34910928](../papers/34910928.md)
 - MYC amplification enriched in metastases in 4 tumor types in the MSK-MET pan-cancer cohort (25,775 patients); amplification frequency correlates with metastatic burden in [LUAD](../cancer_types/LUAD.md) and [PRAD](../cancer_types/PRAD.md); more frequent in primaries of metastatic patients in [PRAD](../cancer_types/PRAD.md) (1% vs 4%, q=0.03), MSS [COAD](../cancer_types/COAD.md) (1% vs 4%, q=0.03), and triple-negative ductal breast (3% vs 17%, q=0.03) [PMID:35120664](../papers/35120664.md)
 - In the MAPPYACTS pediatric precision oncology cohort, MYC amplifications/fusions/activating mutations (combined MYCN/MYC n=43 events) were recurrent in neuroblastoma and medulloblastoma and were matched to BET inhibitors at the investigational tier [PMID:35292802](../papers/35292802.md).
-- MYC expression was uniformly high in POU2F3-driven (SCLC-P) PDX models and in MSK761/MSK900b outliers; MYC amplifications were detected in ~12% of PDXs in the MSK SCLC PDX/CDX cohort; all 10 SCLC-P PDXs from patient MSK773 expressed MYC at both protein and RNA levels [PMID:35440124](../papers/35440124.md).
+- MYC expression was uniformly high in POU2F3-driven (SCLC-P) PDX models and in MSK761/MSK900b outliers; MYC amplifications were detected in ~12% of PDXs in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort; all 10 SCLC-P PDXs from patient MSK773 expressed MYC at both protein and RNA levels [PMID:35440124](../papers/35440124.md).
 - Recurrent MYC amplifications co-occurring with chromothripsis-mediated [TP53](../genes/TP53.md) loss detected in 10/29 osteosarcoma patients by cWGTS; not detected by MSK-IMPACT panel sequencing alone [PMID:35585047](../papers/35585047.md)
+- Observed as a recurrent alteration in clinical genomic profiling of 7,494 soft tissue and bone sarcoma patients [PMID:35705558](../papers/35705558.md)
+- Observed as a recurrent alteration in 2,138-sample sarcoma MSK-IMPACT sequencing cohort [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -320,5 +322,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

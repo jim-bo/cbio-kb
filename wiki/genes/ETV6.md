@@ -3,8 +3,8 @@ symbol: ETV6
 aliases: [TEL]
 cancer_types: [IFS, SCSRMS]
 tags: [fusion, NTRK3, diagnostic-marker, sarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # ETV6
@@ -23,12 +23,13 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - Co-deleted with [ETV3](../genes/ETV3.md) and [CDKN1B](../genes/CDKN1B.md) in a 25-rearrangement chromoplexy chain in prostate cancer [PMID:23622249](../papers/23622249.md)
 - ETV6/NTRK3 fusion detected in papillary thyroid carcinoma (PTC); part of 6/484 (1.2%) NTRK1/3 fusions combined; fusion is BRS-neutral (neither BVL nor RL phenotype). [PMID:25417114](../papers/25417114.md)
 - Implicated in [PCNSL](../cancer_types/PCNSL.md) via focal amplification or homozygous deletion event [PMID:25991819](../papers/25991819.md)
-- ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma (MASC); both patients responded to TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
+- ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma ([MASC](../cancer_types/MASC.md)); both patients responded to TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
 - Preferentially mutated in ABC-DLBCL; ETV6 mutations in DLBCL are ABC-subtype-enriched in the comprehensive genetic and functional driver analysis [PMID:28985567](../papers/28985567.md)
 - ETV6-NTRK3 fusion identified in MSI-H colorectal cancer (8% MSI-H vs 1% MSS NTRK fusion rate overall); ETV6-NTRK3 is a known oncogenic fusion relevant to TRK inhibitor therapy [PMID:29316426](../papers/29316426.md)
-- ETV6 mutations are recurrent in the C5 ABC-DLBCL subtype; subclonal timing suggests ETV6 mutations arise after clonal TBL1XR1 events in C5 tumor evolution [PMID:29713087](../papers/29713087.md)
-- Fusion transcript in 27% of BCP-ALL PDX models (88% of those partnered with RUNX1); also oncogenic fusions involving ETV6 detected in ~48% of ETP-ALL/T-ALL models in the PPTC pediatric cancer PDX dataset [PMID:31693904](../papers/31693904.md)
-- ETV6 is the most common upstream NTRK fusion partner, exclusively paired with NTRK3; near-pathognomonic ETV6-NTRK3 found in 11/12 salivary mammary analogue secretory carcinomas and in infantile fibrosarcoma; ETV6 break-apart FISH accepted as inferred evidence in classic secretory carcinoma morphology [PMID:31871300](../papers/31871300.md)
+- ETV6 mutations are recurrent in the C5 ABC-DLBCL subtype; subclonal timing suggests ETV6 mutations arise after clonal [TBL1XR1](../genes/TBL1XR1.md) events in C5 tumor evolution [PMID:29713087](../papers/29713087.md)
+- Fusion transcript in 27% of BCP-ALL PDX models (88% of those partnered with [RUNX1](../genes/RUNX1.md)); also oncogenic fusions involving ETV6 detected in ~48% of ETP-ALL/T-ALL models in the PPTC pediatric cancer PDX dataset [PMID:31693904](../papers/31693904.md)
+- ETV6 is the most common upstream NTRK fusion partner, exclusively paired with [NTRK3](../genes/NTRK3.md); near-pathognomonic ETV6-NTRK3 found in 11/12 salivary mammary analogue secretory carcinomas and in infantile fibrosarcoma; ETV6 break-apart FISH accepted as inferred evidence in classic secretory carcinoma morphology [PMID:31871300](../papers/31871300.md)
+- ETV6-NTRK3 fusion detected in sarcoma; [larotrectinib](../drugs/larotrectinib.md) achieved durable complete response in infantile myofibrosarcoma ([IMT](../cancer_types/IMT.md)) with this fusion; NTRK amplifications are not actionable (negative trial finding) [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -65,22 +66,18 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 - [PMID:25991819](../papers/25991819.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -32,7 +32,7 @@ SIRT1 is a NAD+-dependent deacetylase (sirtuin family) that regulates a broad ar
 
 ## Co-occurrence and mutual exclusivity
 
-- Protein upregulation co-occurs with CTNNB1 exon 3 hotspot mutations in CNV-low/MSI endometrial tumors [PMID:32059776](../papers/32059776.md)
+- Protein upregulation co-occurs with [CTNNB1](../genes/CTNNB1.md) exon 3 hotspot mutations in CNV-low/MSI endometrial tumors [PMID:32059776](../papers/32059776.md)
 
 ## Therapeutic relevance
 

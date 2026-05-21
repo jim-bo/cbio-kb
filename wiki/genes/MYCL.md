@@ -22,7 +22,7 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 - MYCL identified as a novel amplification target gene in both lung adenocarcinoma and squamous cell carcinoma in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - MYCL1 (MYCL) amplification was identified by GISTIC analysis as a recurrent focal amplification in muscle-invasive bladder cancer (MIBC), consistent with prior TCGA findings [PMID:28988769](../papers/28988769.md)
 - MYCL locus (1p34.2) focal amplification observed as an IDC-NST-private event in individual synchronous invasive breast cancer cases; amplification was restricted to the invasive component, consistent with invasive-stage acquisition during DCIS-to-IDC-NST progression [PMID:32220886](../papers/32220886.md)
-- MYCL amplifications were detected by MSK-IMPACT in 6 SCLC PDX models (MSK424, MSK304, MSK40, MSK599b, MSK891, MSK736) and correlated with high transcript expression; the two SCLC-N samples (MSK424, MSK443) had the highest MYCL expression in the cohort, supporting MYC-family paralogue expression as a subtype-enriched feature [PMID:35440124](../papers/35440124.md).
+- MYCL amplifications were detected by MSK-IMPACT in 6 [SCLC](../cancer_types/SCLC.md) PDX models (MSK424, MSK304, MSK40, MSK599b, MSK891, MSK736) and correlated with high transcript expression; the two SCLC-N samples (MSK424, MSK443) had the highest MYCL expression in the cohort, supporting MYC-family paralogue expression as a subtype-enriched feature [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 
@@ -30,7 +30,7 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with MYC amplification and [MYCN](../genes/MYCN.md) amplification in SCLC [PMID:22941188](../papers/22941188.md)
+- Mutually exclusive with [MYC](../genes/MYC.md) amplification and [MYCN](../genes/MYCN.md) amplification in SCLC [PMID:22941188](../papers/22941188.md)
 
 ## Therapeutic relevance
 

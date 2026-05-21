@@ -7,8 +7,8 @@ tags:
   - dna-repair
   - homologous-recombination
   - synthetic-lethality
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -21,12 +21,13 @@ RAD51 is a central mediator of homologous recombination (HR) DNA repair. In the 
 
 ## Alterations observed in the corpus
 
-- RAD51 expression is induced upon [ARID1A](../genes/ARID1A.md) depletion as part of the DNA damage response in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) cells; overexpression of ARID1A suppresses RAD51; JQ1 (BET inhibitor) treatment dose-dependently reduces RAD51 expression [PMID:22037554](../papers/22037554.md)
-- Recruitment to DSBs requires TRMT10A pSer28-dependent BRCA1 loading; RAD51 foci reduced by TRMT10A or USP10 loss and by the USP10 inhibitor spautin-1 in mCRPC models [PMID:28068672](../papers/28068672.md)
+- RAD51 expression is induced upon [ARID1A](../genes/ARID1A.md) depletion as part of the DNA damage response in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) cells; overexpression of [ARID1A](../genes/ARID1A.md) suppresses RAD51; JQ1 (BET inhibitor) treatment dose-dependently reduces RAD51 expression [PMID:22037554](../papers/22037554.md)
+- Recruitment to DSBs requires [TRMT10A](../genes/TRMT10A.md) pSer28-dependent [BRCA1](../genes/BRCA1.md) loading; RAD51 foci reduced by TRMT10A or [USP10](../genes/USP10.md) loss and by the USP10 inhibitor [spautin-1](../drugs/spautin-1.md) in mCRPC models [PMID:28068672](../papers/28068672.md)
+- RAD51 part of DDR pathway ([BRCA2](../genes/BRCA2.md), [RAD51B](../genes/RAD51B.md), [CHEK2](../genes/CHEK2.md), [ATM](../genes/ATM.md), [FANCA](../genes/FANCA.md), RAD51) altered in 9.6% of all sarcomas; highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
-- **SCLC**: RAD51 upregulation is a consequence of ARID1A loss and is suppressed by JQ1 BET bromodomain inhibition [PMID:22037554](../papers/22037554.md)
+- **[SCLC](../cancer_types/SCLC.md)**: RAD51 upregulation is a consequence of ARID1A loss and is suppressed by JQ1 BET bromodomain inhibition [PMID:22037554](../papers/22037554.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -44,7 +45,10 @@ RAD51 is a central mediator of homologous recombination (HR) DNA repair. In the 
 
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28068672](../papers/28068672.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

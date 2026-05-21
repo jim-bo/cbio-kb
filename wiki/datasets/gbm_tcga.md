@@ -17,8 +17,8 @@ tags:
   - TCGA
   - wes
   - rna-seq
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # TCGA Glioblastoma Multiforme
@@ -41,8 +41,8 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 ## Papers using this cohort
 
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*: Expert-revised MRI segmentation labels and >700 radiomic features released for 135 TCGA-GBM cases, complementing the genomic data in gbm_tcga to enable radiogenomic studies.
-- [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 606 GBM samples from this cohort combined with 516 LGG samples into lgggbm_tcga_pub.
-- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, *Nature Medicine*: PTEN mutations and MAPK alterations predict anti-PD-1 response in recurrent GBM; TCGA IDH1-wildtype GBM used as background reference cohort.
+- [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 606 [GBM](../cancer_types/GBM.md) samples from this cohort combined with 516 [LGG](../cancer_types/LGG.md) samples into [lgggbm_tcga_pub](../datasets/lgggbm_tcga_pub.md).
+- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, *Nature Medicine*: [PTEN](../genes/PTEN.md) mutations and MAPK alterations predict anti-PD-1 response in recurrent GBM; TCGA IDH1-wildtype GBM used as background reference cohort.
 
 ## Notable findings derived from this cohort
 
@@ -55,7 +55,8 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - Used as a component cohort (606 GBM samples, grade IV, n=592 per cBioPortal) in the TCGA pan-glioma integrated analysis identifying 75 SMGs, six DNA-methylation subtypes (LGm1–6), and PA-like IDH-wildtype glioma as a distinct favorable-prognosis entity [PMID:26824661](../papers/26824661.md)
 - Used as an IDH1-wildtype background reference (n=458 and n=503 samples) for mutation-frequency comparisons in the Columbia GBM immunotherapy cohort; PTEN mutation frequency in TCGA (33%, 154/458) contextualized PTEN enrichment among anti-PD-1 non-responders, and TCGA tumor purity estimates (ESTIMATE) supplemented the Columbia cohort transcriptomic analyses. [PMID:30742119](../papers/30742119.md)
 - Included as a reference comparison cohort (re-processed TCGA-GBM samples) within the GLASS Consortium longitudinal glioma study alongside data from 33 other contributing centers. [PMID:31748746](../papers/31748746.md)
-- Used as the driver-alteration frequency benchmark for the Mayo GBM PDX panel; frequencies of TERT, EGFR, PTEN, TP53, CDKN2A, BRAF, and IDH1 alterations in the PDX panel were compared against TCGA-GBM. [PMID:31852831](../papers/31852831.md)
+- Used as the driver-alteration frequency benchmark for the Mayo GBM PDX panel; frequencies of [TERT](../genes/TERT.md), [EGFR](../genes/EGFR.md), PTEN, [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [BRAF](../genes/BRAF.md), and [IDH1](../genes/IDH1.md) alterations in the PDX panel were compared against TCGA-GBM. [PMID:31852831](../papers/31852831.md)
+- Used as reference dataset (687 glioma transcriptomes contributed) for myeloid-subtype analyses in the GLASS longitudinal diffuse glioma study [PMID:35649412](../papers/35649412.md)
 
 ## Sources
 
@@ -65,4 +66,7 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*, DOI 10.1016/j.cell.2015.12.028.
 - [PMID:30742119](../papers/30742119.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

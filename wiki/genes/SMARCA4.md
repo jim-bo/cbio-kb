@@ -17,7 +17,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 - SMARCA4 R1192C missense mutation identified in a hepatic rhabdoid tumor ([MRTL](../cancer_types/MRTL.md)) in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an EZH2-inhibitor target. [PMID:28007021](../papers/28007021.md)
 - Significantly mutated in both [EAC](../cancer_types/EAC.md) ([ESCA](../cancer_types/ESCA.md)) and [ESCC](../cancer_types/ESCC.md) in the TCGA esophageal carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=164); more frequently altered in [EAC](../cancer_types/EAC.md) than in CIN gastric cancer. SMARCA4 mutation defines the ESCC3 molecular subtype. [PMID:28052061](../papers/28052061.md)
-- SMARCA4 mutation is enriched in EAC versus CIN gastric adenocarcinoma. [PMID:28052061](../papers/28052061.md)
+- SMARCA4 mutation is enriched in [EAC](../cancer_types/EAC.md) versus CIN gastric adenocarcinoma. [PMID:28052061](../papers/28052061.md)
 - SMARCA4 (BRG1) protein expression retained by IHC in an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma of the urinary bladder, used to rule out SWI/SNF-deficient differential diagnoses [PMID:28199314](../papers/28199314.md).
 - G1232S hotspot missense mutation in 1/19 sequenced oligodendroglioma tumors; classified as unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - SWI/SNF subunit mutated collectively with [ARID1A](../genes/ARID1A.md) and [ARID2](../genes/ARID2.md) in 33% of WNT medulloblastomas; provides rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
@@ -27,7 +27,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - Mutations associated with increased [SMAD2](../genes/SMAD2.md) protein expression in [LUAD](../cancer_types/LUAD.md) proteogenomics (CPTAC cohort, n=110) [PMID:32649874](../papers/32649874.md)
 - Enriched in MIP/SOL-predominant [LUAD](../cancer_types/LUAD.md) (6% vs 1.5% ACI/PAP vs 2.3% LEP; p=0.035); cited as a subclonal driver enriched in the most aggressive [LUAD](../cancer_types/LUAD.md) histologic subtype. [PMID:32791233](../papers/32791233.md)
 - Co-occurred with [FGFR3](../genes/FGFR3.md) mutation in the 639V bladder cell line used for [UTUC](../cancer_types/UTUC.md) comparison; part of the SWI/SNF complex mutation burden defining the EpiC-high [UTUC](../cancer_types/UTUC.md) subtype associated with worse [OS](../cancer_types/OS.md) (HR=6.57, 95% CI 1.87–23.04) [PMID:33397444](../papers/33397444.md)
-- Alterations in LUAD independently associated with pathologic lymph node metastasis (multivariable OR 3.67, p=0.046); 8% in pN+ vs 1.8% in pN- (p=0.006); SWI/SNF subunit with loss linked to poor oncologic outcomes and co-occurrence with KRAS/STK11/KEAP1 [PMID:34290393](../papers/34290393.md)
+- Alterations in [LUAD](../cancer_types/LUAD.md) independently associated with pathologic lymph node metastasis (multivariable OR 3.67, p=0.046); 8% in pN+ vs 1.8% in pN- (p=0.006); SWI/SNF subunit with loss linked to poor oncologic outcomes and co-occurrence with KRAS/STK11/KEAP1 [PMID:34290393](../papers/34290393.md)
 - Phospho-SMARCA4 S613 elevated in SMAD4-deleted PDAC tumors (29% of high-purity cohort); SMARCA4 nominated as downstream effector of [SMAD4](../genes/SMAD4.md) loss in proteogenomic PDAC landscape [PMID:34534465](../papers/34534465.md)
 - SMARCA4 and [SMARCB1](../genes/SMARCB1.md) inactivating events (combined n=27) recurrent in rhabdoid tumor (MRT/ATRT) and other CNS tumors in the AcSé-MAPPYACTS pediatric cohort; matched to [EZH2](../genes/EZH2.md) inhibitors as investigational therapy [PMID:35292802](../papers/35292802.md).
 - NSCLC-typical SMARCA4 mutations observed in [SCLC](../cancer_types/SCLC.md) PDX subsets MSK1053, MSK511c, and MSK773D/E/G/I, co-occurring with [STK11](../genes/STK11.md), [KEAP1](../genes/KEAP1.md), and [PTPRS](../genes/PTPRS.md) alterations in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort [PMID:35440124](../papers/35440124.md).
@@ -45,7 +45,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 ## Therapeutic relevance
 
-- EZH2 inhibitor therapy is proposed for SMARCA4-deficient tumors based on synthetic lethality between SWI/SNF and PRC2 complexes; designated as a therapeutic target in a pediatric hepatic rhabdoid tumor. [PMID:28007021](../papers/28007021.md)
+- [EZH2](../genes/EZH2.md) inhibitor therapy is proposed for SMARCA4-deficient tumors based on synthetic lethality between SWI/SNF and PRC2 complexes; designated as a therapeutic target in a pediatric hepatic rhabdoid tumor. [PMID:28007021](../papers/28007021.md)
 - PI3K-pathway inhibition is supported for ESCC3 (SMARCA4-mutant subtype) given universal PI3K-pathway activation in this subtype. [PMID:28052061](../papers/28052061.md)
 
 ## Open questions

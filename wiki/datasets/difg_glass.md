@@ -9,8 +9,8 @@ unverified: false
 assays: [bulk-rna-seq, methylation-array, whole-exome-seq, whole-genome-seq]
 panels: []
 tags: [glioma, idh-mutant, longitudinal, methylation, glass-consortium]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-05-21
 ---
 
 # Diffuse Glioma (GLASS International Consortium)
@@ -44,9 +44,13 @@ Multi-institutional longitudinal glioma cohort from the GLASS International Cons
 - Treatment ([temozolomide](../drugs/temozolomide.md) and/or radiotherapy) was associated with consistent loss of DNA methylation at recurrence vs. untreated patients. [PMID:38117484](../papers/38117484.md)
 - [HOXD13](../genes/HOXD13.md) identified as a master regulator of IDH-mutant astrocytoma progression. [PMID:38117484](../papers/38117484.md)
 - Previously treated IDH-mutant patients had worse survival from second surgery (log-rank P=0.0001) despite longer progression-free interval. [PMID:38117484](../papers/38117484.md)
+- Primary expansion cohort (381 enrolled, 304 QC-passed; 256 DNA-seq, 168 RNA-seq, 115 overlapping) used to define neuronal, mesenchymal, and proliferative recurrence phenotypes across IDHwt and IDHmut diffuse glioma [PMID:35649412](../papers/35649412.md)
 
 ## Sources
 
 - cBioPortal study `difg_glass` [PMID:38117484](../papers/38117484.md).
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

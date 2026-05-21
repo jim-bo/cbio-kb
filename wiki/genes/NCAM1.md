@@ -29,7 +29,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 
 ## Therapeutic relevance
 
-- NCAM1 expression loss upon Notch activation suggests its utility as a biomarker for NOTCH pathway agonism strategies in SCLC; the paper identifies Notch-pathway agonism as a candidate therapeutic strategy [PMID:26168399](../papers/26168399.md)
+- NCAM1 expression loss upon Notch activation suggests its utility as a biomarker for NOTCH pathway agonism strategies in [SCLC](../cancer_types/SCLC.md); the paper identifies Notch-pathway agonism as a candidate therapeutic strategy [PMID:26168399](../papers/26168399.md)
 
 ## Open questions
 

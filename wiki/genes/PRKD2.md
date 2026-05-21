@@ -32,7 +32,7 @@ PRKD2 encodes protein kinase D2, a member of the calcium/calmodulin-dependent pr
 
 ## Open questions
 
-- Whether PRKD2 elevation is a direct consequence of TP53 loss or reflects co-occurring oncogenic signaling in aggressive HCC remains to be dissected.
+- Whether PRKD2 elevation is a direct consequence of [TP53](../genes/TP53.md) loss or reflects co-occurring oncogenic signaling in aggressive [HCC](../cancer_types/HCC.md) remains to be dissected.
 
 ## Sources
 

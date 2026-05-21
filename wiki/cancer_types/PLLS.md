@@ -8,7 +8,7 @@ tags:
   - liposarcoma
   - soft-tissue
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-21
 canonical_source: oncotree
 unverified: false
 ---
@@ -25,12 +25,14 @@ Pleomorphic liposarcoma (PLLS) is the rarest and most aggressive liposarcoma sub
 
 ## Recurrent alterations
 
-- [TP53](../genes/TP53.md) — mutated in 17% of PLLS; the only subtype in the seven-subtype cohort in which TP53 mutations were detected. [PMID:20601955](../papers/20601955.md)
-- [NF1](../genes/NF1.md) — mutated in 8% of PLLS (point mutations + genomic deletions); biallelic inactivation observed in some tumors; loss linked to mTOR pathway activation. First report of somatic NF1 alterations outside MPNST/GIST in the context of NF1 patients. [PMID:20601955](../papers/20601955.md)
+- [TP53](../genes/TP53.md) — mutated in 17% of PLLS; the only subtype in the seven-subtype cohort in which [TP53](../genes/TP53.md) mutations were detected. [PMID:20601955](../papers/20601955.md)
+- [NF1](../genes/NF1.md) — mutated in 8% of PLLS (point mutations + genomic deletions); biallelic inactivation observed in some tumors; loss linked to mTOR pathway activation. First report of somatic [NF1](../genes/NF1.md) alterations outside MPNST/GIST in the context of NF1 patients. [PMID:20601955](../papers/20601955.md)
 - [RB1](../genes/RB1.md) — mutation identified in PLLS; consistent with broader Rb pathway implication in CDK4-dependent sarcomas. [PMID:20601955](../papers/20601955.md)
-- [ERBB4](../genes/ERBB4.md) — mutations found on resequencing of PLLS and MFS samples. [PMID:20601955](../papers/20601955.md)
+- [ERBB4](../genes/ERBB4.md) — mutations found on resequencing of PLLS and [MFS](../cancer_types/MFS.md) samples. [PMID:20601955](../papers/20601955.md)
 - [PTEN](../genes/PTEN.md) — splice-site mutation identified in PLLS. [PMID:20601955](../papers/20601955.md)
 - Complex karyotype: PLLS and MFS are genomically similar (copy-number complexity, copy-neutral LOH), supporting a unified molecular class; distinct from the myxoid/round-cell and synovial sarcoma clusters. [PMID:20601955](../papers/20601955.md)
+- In a 7,494-sarcoma cohort, pleomorphic liposarcoma was among the genomically complex sarcoma histotypes profiled by FoundationOne Heme; [MDM2](../genes/MDM2.md) amplification was a recurrent event in liposarcoma subtypes [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, pleomorphic liposarcoma showed PI3K pathway alteration in 22%, epigenetic pathway in 45%; [ATRX](../genes/ATRX.md) loss-of-function in ≥10%; NF1 deletions in 14%; DDR pathway altered in 13% [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -44,4 +46,10 @@ Pleomorphic liposarcoma (PLLS) is the rarest and most aggressive liposarcoma sub
 
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

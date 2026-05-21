@@ -12,7 +12,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-PYCR2 encodes pyrroline-5-carboxylate reductase 2, an enzyme involved in proline biosynthesis. Proline metabolism is increasingly recognized as important in cancer cell survival under stress conditions. PYCR2 has been cited as a prognostic biomarker in prior HBV-associated [HCC](../cancer_types/HCC.md) proteogenomic studies, and was referenced in a European HCC multi-omics study as framing context for the current work.
+PYCR2 encodes pyrroline-5-carboxylate reductase 2, an enzyme involved in proline biosynthesis. Proline metabolism is increasingly recognized as important in cancer cell survival under stress conditions. PYCR2 has been cited as a prognostic biomarker in prior HBV-associated [HCC](../cancer_types/HCC.md) proteogenomic studies, and was referenced in a European [HCC](../cancer_types/HCC.md) multi-omics study as framing context for the current work.
 
 ## Alterations observed in the corpus
 

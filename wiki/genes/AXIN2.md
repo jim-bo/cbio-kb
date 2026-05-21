@@ -17,7 +17,7 @@ AXIN2 (Axis Inhibition Protein 2; also Conductin) is a scaffold protein in the b
 
 - Recurrently mutated WNT-pathway component in pancreatic ductal adenocarcinoma (PDA); co-mutated with [AXIN1](../genes/AXIN1.md) and [APC](../genes/APC.md), nominating tankyrase inhibitors (XAV939) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - AXIN2 alterations reported at 0.05% in 344-patient [HCC](../cancer_types/HCC.md) MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
-- Wnt target gene showing differential mRNA expression (but not protein) in CTNNB1-mutant HCCs; KSEA showed decreased CK II / [CDK5](../genes/CDK5.md) activity in CTNNB1-mutant context (n=122 HCC, [hcc_meric_2021](../datasets/hcc_meric_2021.md)) [PMID:35508466](../papers/35508466.md)
+- Wnt target gene showing differential mRNA expression (but not protein) in CTNNB1-mutant HCCs; KSEA showed decreased CK II / [CDK5](../genes/CDK5.md) activity in CTNNB1-mutant context (n=122 [HCC](../cancer_types/HCC.md), [hcc_meric_2021](../datasets/hcc_meric_2021.md)) [PMID:35508466](../papers/35508466.md)
 - Elevated in CRPC-WNT patient tumors as a canonical Wnt-pathway target gene; used as a marker distinguishing the CRPC-WNT subtype ([prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md)) [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)

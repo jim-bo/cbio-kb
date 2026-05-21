@@ -4,20 +4,20 @@ oncotree_code: LMS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Leiomyosarcoma (LMS)
 
 ## Overview
 
-Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differentiation. On OncoTree it is a child of SOFT_TISSUE and serves as the parent for two anatomically distinct subtypes: soft tissue LMS (STLMS) and uterine LMS ([ULMS](../cancer_types/ULMS.md)). LMS is defined by genomic instability rather than specific gene fusions.
+Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differentiation. On OncoTree it is a child of [SOFT_TISSUE](../cancer_types/SOFT_TISSUE.md) and serves as the parent for two anatomically distinct subtypes: soft tissue LMS (STLMS) and uterine LMS ([ULMS](../cancer_types/ULMS.md)). LMS is defined by genomic instability rather than specific gene fusions.
 
 ## Cohorts in the corpus
 
 - [sarc_mskcc](../datasets/sarc_mskcc.md): 27 LMS patients (13% of 207 high-grade STS), profiled by targeted resequencing (722 genes), 250K SNP-array SCNA, LOH, and expression arrays. [PMID:20601955](../papers/20601955.md)
-- 195 STLMS and 238 [ULMS](../cancer_types/ULMS.md) cases from MSKCC profiled by MSK-IMPACT (341--505 genes); 18 STLMS and 15 ULMS patients with sequential tumors. External validation in 317 STLMS cases from AACR GENIE. Dataset: [lms_msk_2024](../datasets/lms_msk_2024.md). [PMID:38488807](../papers/38488807.md)
+- 195 STLMS and 238 [ULMS](../cancer_types/ULMS.md) cases from MSKCC profiled by MSK-IMPACT (341--505 genes); 18 STLMS and 15 [ULMS](../cancer_types/ULMS.md) patients with sequential tumors. External validation in 317 STLMS cases from AACR GENIE. Dataset: [lms_msk_2024](../datasets/lms_msk_2024.md). [PMID:38488807](../papers/38488807.md)
 
 ## Recurrent alterations
 
@@ -29,8 +29,10 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 - [CDKN2A](../genes/CDKN2A.md) — deletions in 10% ULMS vs. 2.6% STLMS. [PMID:38488807](../papers/38488807.md)
 - [MED12](../genes/MED12.md) — recurrent mutations in ULMS (15%), infrequent in STLMS (1%). [PMID:38488807](../papers/38488807.md)
 - TMB low: median 2 mut/Mb (STLMS) and 3 mut/Mb (ULMS); 99% and 98% of cases <10 mut/Mb. [PMID:38488807](../papers/38488807.md)
-- LMS (n=80) split into STLMS (n=53) and ULMS (n=27) by iCluster; pan-LMS SMGs include TP53 (50%), RB1 (mutations 15%, deep deletions 14%), and PTEN (deep+shallow deletions ~81%); AKT-pathway alterations affected 84% of ULMS+STLMS C1 vs 44% of STLMS C2; miR-181b-5p was an independent RFS predictor (multivariate HR 7.4, p=9e-6) [PMID:29100075](../papers/29100075.md)
-- Comparison of 80 uLMS vs 68 non-uterine LMS sequenced by MSK-IMPACT showed TP53 alterations more common in non-uterine LMS (71% vs 56%, p=0.01), MAP2K4 amplifications trending higher in non-uterine LMS (19% vs 8%, p=0.06), and MED12 mutations exclusively in uLMS (11% vs 0%, p=0.01) [PMID:32299819](../papers/32299819.md)
+- LMS (n=80) split into STLMS (n=53) and ULMS (n=27) by iCluster; pan-LMS SMGs include [TP53](../genes/TP53.md) (50%), [RB1](../genes/RB1.md) (mutations 15%, deep deletions 14%), and [PTEN](../genes/PTEN.md) (deep+shallow deletions ~81%); AKT-pathway alterations affected 84% of ULMS+STLMS C1 vs 44% of STLMS C2; miR-181b-5p was an independent RFS predictor (multivariate HR 7.4, p=9e-6) [PMID:29100075](../papers/29100075.md)
+- Comparison of 80 uLMS vs 68 non-uterine LMS sequenced by MSK-IMPACT showed TP53 alterations more common in non-uterine LMS (71% vs 56%, p=0.01), [MAP2K4](../genes/MAP2K4.md) amplifications trending higher in non-uterine LMS (19% vs 8%, p=0.06), and [MED12](../genes/MED12.md) mutations exclusively in uLMS (11% vs 0%, p=0.01) [PMID:32299819](../papers/32299819.md)
+- In a 7,494-sarcoma cohort, leiomyosarcoma was the second most common histology (12.7% of all cases); a novel [TNS1](../genes/TNS1.md)–[ALK](../genes/ALK.md) rearrangement was detected in 16 LMS cases (primarily uterine and non-uterine LMS), suggesting reclassification as kinase-driven for this subset [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort (n=125 LMS), PTEN loss was present in 14%, [ATRX](../genes/ATRX.md) loss-of-function in ≥10%; median TMB was 2.6 mut/Mb in ULMS and 15% had TMB ≥5 mut/Mb; one LMS case was MSI-high [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -49,10 +51,16 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 - [PMID:38488807](../papers/38488807.md) — Developing Novel Genomic Risk Stratification Models in Soft Tissue and Uterine Leiomyosarcoma (Clinical Cancer Research, 2024)
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

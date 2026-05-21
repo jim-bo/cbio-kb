@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [hla, loss-of-heterozygosity, immune-evasion, wgs]
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: 2026-05-21
 ---
 
 # LOHHLA
@@ -18,6 +18,7 @@ LOHHLA (Loss Of Heterozygosity in Human Leukocyte Antigen) is a computational to
 ## Used by
 
 - Applied in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS); HLA LOH was enriched in TP53-deficient tumours and RTK-RAS pathway-altered tumours in the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
+- LOHHLA used to assess HLA loss-of-heterozygosity in GLASS longitudinal diffuse glioma samples; HLA LOH observed in 19% of patients at ≥1 timepoint and found to be a passenger event rather than immune-selected in glioma [PMID:35649412](../papers/35649412.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ LOHHLA (Loss Of Heterozygosity in Human Leukocyte Antigen) is a computational to
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

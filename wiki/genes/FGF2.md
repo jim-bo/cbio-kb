@@ -4,7 +4,7 @@ aliases: [bFGF]
 cancer_types: [PAST]
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-21
 ---
 
 # FGF2
@@ -16,10 +16,11 @@ FGF2 (basic fibroblast growth factor) encodes a ligand that activates FGF recept
 ## Alterations observed in the corpus
 
 - Significantly increased expression in pilocytic astrocytoma compared to other astrocytomas and normal brain tissue; overexpression is not restricted to FGFR1-mutant tumors, suggesting ligand-mediated MAPK activation operates broadly across the entity [PMID:23817572](../papers/23817572.md)
+- FGF2 co-amplified with [FGF3](../genes/FGF3.md), [FGF19](../genes/FGF19.md), and [CCND1](../genes/CCND1.md) at the 11q13 FGF amplicon in undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)) of bone [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
-- **Pilocytic astrocytoma** — FGF2 overexpression identified as a mechanism of MAPK pathway activation complementary to BRAF fusions and [FGFR1](../genes/FGFR1.md) kinase-domain mutations [PMID:23817572](../papers/23817572.md)
+- **Pilocytic astrocytoma** — FGF2 overexpression identified as a mechanism of MAPK pathway activation complementary to [BRAF](../genes/BRAF.md) fusions and [FGFR1](../genes/FGFR1.md) kinase-domain mutations [PMID:23817572](../papers/23817572.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +38,6 @@ FGF2 (basic fibroblast growth factor) encodes a ligand that activates FGF recept
 
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

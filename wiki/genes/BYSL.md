@@ -16,7 +16,7 @@ BYSL (Bystin-like) is a direct cMYC transcriptional target required for nucleolo
 
 ## Alterations observed in the corpus
 
-- 6p21.1 focal amplification cis-driver candidate in [HCC](../cancer_types/HCC.md) ([hcc_meric_2021](../datasets/hcc_meric_2021.md), n=122): direct cMYC target required for nucleologenesis in HCC proliferation; promotes glioma/glioblastoma via GSK-3β/β-catenin and AKT/mTOR signaling; among 19 cis-copy-number-regulated genes dysregulated at mRNA (and 11 at protein) across five recurrent GISTIC2 peaks [PMID:35508466](../papers/35508466.md)
+- 6p21.1 focal amplification cis-driver candidate in [HCC](../cancer_types/HCC.md) ([hcc_meric_2021](../datasets/hcc_meric_2021.md), n=122): direct cMYC target required for nucleologenesis in [HCC](../cancer_types/HCC.md) proliferation; promotes glioma/glioblastoma via GSK-3β/β-catenin and AKT/mTOR signaling; among 19 cis-copy-number-regulated genes dysregulated at mRNA (and 11 at protein) across five recurrent GISTIC2 peaks [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

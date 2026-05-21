@@ -30,10 +30,12 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - Most frequently altered RTK-RAS gene in lung cancers from never smokers (LCINS; 30.6% overall, 51.4% in mezzo-forte SCNA subtype); mutations occur before clonal copy gain; MRCA appears ~8 yr before clinical diagnosis; independently associated with poor overall survival [PMID:34493867](../papers/34493867.md)
 - EGFR alterations in 0.9% of metastatic and 1% of primary HER2+ breast tumors (n=733); low-frequency MAPK-pathway co-alteration context with [NF1](../genes/NF1.md), [KRAS](../genes/KRAS.md), [BRAF](../genes/BRAF.md), [MAP2K1](../genes/MAP2K1.md) [PMID:34795269](../papers/34795269.md)
 - EGFR is a high-positive Δκ risk gene in [HGSOC](../cancer_types/HGSOC.md) ICI-treated patients, flagged as a putative network driver of ICI-modulated robustness alongside [EP300](../genes/EP300.md), [SMAD2](../genes/SMAD2.md), [PIK3R1](../genes/PIK3R1.md), [RB1](../genes/RB1.md), [ESR1](../genes/ESR1.md), [ATXN1](../genes/ATXN1.md) [PMID:34819508](../papers/34819508.md)
-- Mutations enriched in LUAD patients with CNS/brain metastasis compared to primary tumors, supporting EGFR as a driver of brain-tropic metastatic spread in lung adenocarcinoma [PMID:35120664](../papers/35120664.md)
+- Mutations enriched in [LUAD](../cancer_types/LUAD.md) patients with CNS/brain metastasis compared to primary tumors, supporting EGFR as a driver of brain-tropic metastatic spread in lung adenocarcinoma [PMID:35120664](../papers/35120664.md)
 - EGFR and ERBB2/3/4 alterations together accounted for ~5% of CNS-tumor oncomap findings in the MAPPYACTS pediatric WES cohort (n=787); investigational ERBB-inhibitor matches were generated. [PMID:35292802](../papers/35292802.md)
 - EGFR is referenced as an analogous oncogene-addicted system where compound on-target mutations and bypass signaling drive resistance to selective inhibitors, in the context of [selpercatinib](../drugs/selpercatinib.md) resistance mechanisms in RET-driven cancers. [PMID:35304457](../papers/35304457.md)
 - Oncogenic EGFR mutations were identified in four never-smoker [SCLC](../cancer_types/SCLC.md) clinical samples, consistent with histologic transformation from EGFR-mutant LUAD; EGFR mutations also appeared in ~15% of PDX samples in an MSK [SCLC](../cancer_types/SCLC.md) biobank. [PMID:35440124](../papers/35440124.md)
+- EGFR exon 19 deletions and L858R mutations are extremely rare in sarcoma (0.01% each); their detection may flag sarcomatoid carcinoma [PMID:35705558](../papers/35705558.md)
+- Loss of EGFR amplification at recurrence (n=11) associates with increased non-neoplastic cell content and mesenchymal subtype switching in IDHwt glioma [PMID:35649412](../papers/35649412.md)
 
 ## Cancer types (linked)
 
@@ -43,13 +45,13 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 
 ## Co-occurrence and mutual exclusivity
 
-- In GBM, EGFR alteration co-occurs with [PTPN11](../genes/PTPN11.md) Y62 phosphorylation, [PLCG1](../genes/PLCG1.md) Y783 phosphorylation, and [GAB1](../genes/GAB1.md) upregulation; EGFR-altered tumors show [GRB2](../genes/GRB2.md) downregulation [PMID:33577785](../papers/33577785.md).
-- In [EAC](../cancer_types/EAC.md), EGFR amplification co-occurs with [MYC](../genes/MYC.md), [VEGFA](../genes/VEGFA.md), CDK6, and [CCND3](../genes/CCND3.md) amplifications as part of a broader amplification-driven recurrent driver landscape [PMID:33795256](../papers/33795256.md).
+- In [GBM](../cancer_types/GBM.md), EGFR alteration co-occurs with [PTPN11](../genes/PTPN11.md) Y62 phosphorylation, [PLCG1](../genes/PLCG1.md) Y783 phosphorylation, and [GAB1](../genes/GAB1.md) upregulation; EGFR-altered tumors show [GRB2](../genes/GRB2.md) downregulation [PMID:33577785](../papers/33577785.md).
+- In [EAC](../cancer_types/EAC.md), EGFR amplification co-occurs with [MYC](../genes/MYC.md), [VEGFA](../genes/VEGFA.md), [CDK6](../genes/CDK6.md), and [CCND3](../genes/CCND3.md) amplifications as part of a broader amplification-driven recurrent driver landscape [PMID:33795256](../papers/33795256.md).
 
 ## Therapeutic relevance
 
 - In GBM, phosphoproteomic drug-connectivity analysis (LINCS L1000 + P100) predicts that phosphoproteomic signatures of EGFR alteration are more strongly reversed by non-canonical kinase inhibitors than by approved EGFR inhibitors or HDAC inhibitors predicted from RNA alone [PMID:33577785](../papers/33577785.md).
-- Convergent activation of PTPN11 and PLCG1 downstream of EGFR (and [PDGFRA](../genes/PDGFRA.md)) suggests these as alternative therapeutic targets in EGFR-altered GBM [PMID:33577785](../papers/33577785.md).
+- Convergent activation of [PTPN11](../genes/PTPN11.md) and [PLCG1](../genes/PLCG1.md) downstream of EGFR (and [PDGFRA](../genes/PDGFRA.md)) suggests these as alternative therapeutic targets in EGFR-altered GBM [PMID:33577785](../papers/33577785.md).
 
 ## Open questions
 
@@ -62,37 +64,30 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - [PMID:33765338](../papers/33765338.md)
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+- [PMID:35705558](../papers/35705558.md)
+
+- [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

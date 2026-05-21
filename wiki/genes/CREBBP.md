@@ -19,7 +19,7 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 ## Alterations observed in the corpus
 
 - CREBBP harbors a single putative-driver somatic mutation in retinoblastoma ([rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md), n=83), previously implicated by whole-exome sequencing studies in this disease [PMID:33466343](../papers/33466343.md).
-- CREBBP and EP300 protein/acetylation levels are strongly associated with H2B-K12/K13/K16/K17/K21 acetylation in [GBM](../cancer_types/GBM.md) ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md), n=99) by Lasso regression; CREBBP/EP300 activity defines a classical-like, immune-low [GBM](../cancer_types/GBM.md) subset with H2B N-terminal hyperacetylation [PMID:33577785](../papers/33577785.md).
+- CREBBP and [EP300](../genes/EP300.md) protein/acetylation levels are strongly associated with H2B-K12/K13/K16/K17/K21 acetylation in [GBM](../cancer_types/GBM.md) ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md), n=99) by Lasso regression; CREBBP/EP300 activity defines a classical-like, immune-low [GBM](../cancer_types/GBM.md) subset with H2B N-terminal hyperacetylation [PMID:33577785](../papers/33577785.md).
 - Mutated in 15.7% of [CSCC](../cancer_types/CSCC.md) tumors; paralog of EP300; nominated as a driver gene in the 30-gene [CSCC](../cancer_types/CSCC.md) catalog from meta-analysis of 88 WES/WGS tumors [PMID:34272401](../papers/34272401.md)
 - CREBBP is the top-ranked negative Δκ risk gene (Δκ = −0.064) — the largest decrease in curvature between low- and high-risk [HGSOC](../cancer_types/HGSOC.md) groups in ICI-treated patients; flagged as a putative network driver of ICI-modulated robustness [PMID:34819508](../papers/34819508.md)
 - CREBBP was listed among genes sequenced by MSK-IMPACT in the [SCLC](../cancer_types/SCLC.md) PDX/CDX biobank study characterizing 26 clinical [SCLC](../cancer_types/SCLC.md) specimens and 30 patient-derived models. [PMID:35440124](../papers/35440124.md)
@@ -27,7 +27,7 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 ## Cancer types (linked)
 
 - **Retinoblastoma ([RBL](../cancer_types/RBL.md)):** single putative-driver CREBBP mutation detected; previously implicated by WES in retinoblastoma [PMID:33466343](../papers/33466343.md).
-- **Glioblastoma (GBM):** CREBBP protein and acetylation activity are key drivers of H2B N-terminal hyperacetylation, marking the classical-like (nmf3) immune-low GBM subtype; BRD1/BRD3/BRD4 correlate with additional H2B acetylation sites in this subset [PMID:33577785](../papers/33577785.md).
+- **Glioblastoma ([GBM](../cancer_types/GBM.md)):** CREBBP protein and acetylation activity are key drivers of H2B N-terminal hyperacetylation, marking the classical-like (nmf3) immune-low GBM subtype; BRD1/BRD3/BRD4 correlate with additional H2B acetylation sites in this subset [PMID:33577785](../papers/33577785.md).
 
 ## Co-occurrence and mutual exclusivity
 

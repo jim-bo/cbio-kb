@@ -16,7 +16,7 @@ LRRC47 (Leucine-Rich Repeat Containing 47) encodes a protein of poorly character
 
 ## Alterations observed in the corpus
 
-- Cis-driver candidate dysregulated at both mRNA and protein levels in [HCC](../cancer_types/HCC.md) in a European multi-etiology proteogenomic cohort (n=122 tumors); co-nominated alongside [XPO5](../genes/XPO5.md) as a candidate cis-driver in this HCC cohort [PMID:35508466](../papers/35508466.md).
+- Cis-driver candidate dysregulated at both mRNA and protein levels in [HCC](../cancer_types/HCC.md) in a European multi-etiology proteogenomic cohort (n=122 tumors); co-nominated alongside [XPO5](../genes/XPO5.md) as a candidate cis-driver in this [HCC](../cancer_types/HCC.md) cohort [PMID:35508466](../papers/35508466.md).
 
 ## Cancer types (linked)
 
@@ -24,7 +24,7 @@ LRRC47 (Leucine-Rich Repeat Containing 47) encodes a protein of poorly character
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-nominated as a cis-driver candidate with XPO5 in HCC [PMID:35508466](../papers/35508466.md).
+- Co-nominated as a cis-driver candidate with [XPO5](../genes/XPO5.md) in HCC [PMID:35508466](../papers/35508466.md).
 
 ## Therapeutic relevance
 

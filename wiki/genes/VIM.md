@@ -29,7 +29,7 @@ VIM encodes vimentin, a type III intermediate filament protein and classic marke
 
 ## Therapeutic relevance
 
-- VIM upregulation reversed by SEMA7A knockdown in GFs in vivo; upstream blockade ([verteporfin](../drugs/verteporfin.md), LY294002, C646) also reduces EMT markers including vimentin in vitro. [PMID:24997986](../papers/24997986.md)
+- VIM upregulation reversed by [SEMA7A](../genes/SEMA7A.md) knockdown in GFs in vivo; upstream blockade ([verteporfin](../drugs/verteporfin.md), LY294002, C646) also reduces EMT markers including vimentin in vitro. [PMID:24997986](../papers/24997986.md)
 
 ## Open questions
 

@@ -17,13 +17,14 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 ## Alterations observed in the corpus
 
 - CCND1 amplification is a major contributor to Cell Cycle pathway enrichment in the perioperative intent to treat (PIT) cohort of esophageal/gastroesophageal junction adenocarcinomas ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md), n=487) [PMID:33795256](../papers/33795256.md).
-- Focal amplification detected in 6.0% of [CSCC](../cancer_types/CSCC.md) tumors; nominated as a driver gene candidate in the CSCC meta-analysis of 88 QC-passed WES/WGS tumors [PMID:34272401](../papers/34272401.md)
+- Focal amplification detected in 6.0% of [CSCC](../cancer_types/CSCC.md) tumors; nominated as a driver gene candidate in the [CSCC](../cancer_types/CSCC.md) meta-analysis of 88 QC-passed WES/WGS tumors [PMID:34272401](../papers/34272401.md)
 - Amplification associated with higher mean Rb protein and phospho-Rb (but overlapping distributions) in CPTAC LSCC proteogenomics (108 tumors); CCND1 amplification did not show significant association of CDK4/CDK6 amplification with CDKN2A/p16 or Rb protein levels; heterogeneous Rb protein in CCND1-amplified tumors may explain outlier responses to CDK4/6 inhibitors. [PMID:34358469](../papers/34358469.md)
 - Canonical YAP/TAZ transcriptional target; downregulated upon YAP1/WWTR1 double knockdown in CRPC-SCL cell lines (MSKPCa3 and DU145), implicating it in YAP/TAZ-driven cell-cycle regulation in lineage-plastic prostate cancer ([prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md)) [PMID:35617398](../papers/35617398.md)
+- CCND1 amplified in 1.0% of 7,494 sarcomas; co-amplified with FGF2/FGF3/FGF19 at the 11q13 amplicon in undifferentiated pleomorphic sarcoma of bone (4.3%); co-occurs unusually with CDK4/6 and CDKN2A/B within the Rb pathway [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
-- **Esophageal/gastroesophageal junction adenocarcinoma (EAC):** CCND1 amplification contributes to the Cell Cycle pathway signal enriched in advanced-stage PIT patients; no independent [OS](../cancer_types/OS.md) association reported for CCND1 alone in this cohort [PMID:33795256](../papers/33795256.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CCND1 amplification contributes to the Cell Cycle pathway signal enriched in advanced-stage PIT patients; no independent [OS](../cancer_types/OS.md) association reported for CCND1 alone in this cohort [PMID:33795256](../papers/33795256.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -49,5 +50,8 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

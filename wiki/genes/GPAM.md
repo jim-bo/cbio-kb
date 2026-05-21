@@ -17,7 +17,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-GPAM (Glycerol-3-Phosphate Acyltransferase, Mitochondrial) encodes a mitochondrial enzyme that catalyzes the first step of glycerophospholipid synthesis. In an integrated (phospho)proteogenomic study of 122 hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) biopsies, GPAM was newly nominated as a significantly mutated gene (SMG) and candidate tumor suppressor — the first time it emerged as a recurrently mutated driver in HCC. Knockdown studies in hepatocellular carcinoma cell lines increased proliferation, supporting its role as a tumor suppressor.
+GPAM (Glycerol-3-Phosphate Acyltransferase, Mitochondrial) encodes a mitochondrial enzyme that catalyzes the first step of glycerophospholipid synthesis. In an integrated (phospho)proteogenomic study of 122 hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) biopsies, GPAM was newly nominated as a significantly mutated gene (SMG) and candidate tumor suppressor — the first time it emerged as a recurrently mutated driver in [HCC](../cancer_types/HCC.md). Knockdown studies in hepatocellular carcinoma cell lines increased proliferation, supporting its role as a tumor suppressor.
 
 ## Alterations observed in the corpus
 

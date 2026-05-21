@@ -23,8 +23,9 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 
 - [brca_pareja_msk_2020](../datasets/brca_pareja_msk_2020.md) — mutational signature decomposition in synchronous [DCIS](../cancer_types/DCIS.md) and IDC-NST [PMID:32220886](../papers/32220886.md)
 - Applied to identify APOBEC mutational signatures (SBS2, SBS13) in 3 of 4 patients with acquired [PTEN](../genes/PTEN.md) mutations in a phase I/II [alpelisib](../drugs/alpelisib.md) + AI trial in HR+ [MBC](../cancer_types/MBC.md) [PMID:32864625](../papers/32864625.md)
-- Applied to compute mutational signature decomposition in 38 MBC WES samples; 60% displayed dominant COSMIC signatures 3/8 (HRD-associated), 34% signatures 1/5 (aging); used alongside [SigMA](../methods/sigma-mutational-signatures.md) for cross-validation [PMID:33863915](../papers/33863915.md)
+- Applied to compute mutational signature decomposition in 38 [MBC](../cancer_types/MBC.md) WES samples; 60% displayed dominant COSMIC signatures 3/8 (HRD-associated), 34% signatures 1/5 (aging); used alongside [SigMA](../methods/sigma-mutational-signatures.md) for cross-validation [PMID:33863915](../papers/33863915.md)
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) to decompose mutational signatures in 168 prostate cancer brain metastasis samples, identifying enrichment of SBS3 (HRD), SBS1, SBS5, SBS16, and SBS44 (MMR-deficiency) signatures [PMID:35504881](../papers/35504881.md)
+- deconstructSigs applied with COSMIC v3.1 reference to decompose mutational signatures in 184 MSI-H/MMR-D endometrial cancers; aging-related signature 1 dominated germline/somatic cases while MMR-D signatures 6/15/20/26 dominated MLH1-promoter-hypermethylated cases [PMID:35849120](../papers/35849120.md)
 
 ## Notes
 
@@ -34,7 +35,7 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 
 ## Sources
 
-- Used for COSMIC signature decomposition (aging signatures 1/5, HRD signature 3, APOBEC signatures 2/13) in DCIS and IDC-NST samples with ≥40 SNVs [PMID:32220886](../papers/32220886.md)
+- Used for COSMIC signature decomposition (aging signatures 1/5, HRD signature 3, APOBEC signatures 2/13) in [DCIS](../cancer_types/DCIS.md) and IDC-NST samples with ≥40 SNVs [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)
@@ -45,5 +46,8 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35849120](../papers/35849120.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

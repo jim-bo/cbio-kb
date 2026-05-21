@@ -152,6 +152,7 @@
 - drug: sacituzumab-govitecan — observed in PMID:41941260 — note: Trop-2-directed antibody-drug conjugate tested with RT in MIBC (RAD-SG, NCT05833867)
 - drug: cisplatin — observed in PMID:41941260 — note: SOC chemoradiation partner referenced for MIBC and HNSCC MCTs
 - drug: etrumadenant — observed in PMID:41941260 — note: dual A2AR/A2BR adenosine-receptor antagonist in rectal-cancer MCT2 (NCT05024097)
+- drug: ipatasertib — observed in PMID:35670774 — note: ATP-competitive pan-AKT inhibitor; IPATential150 phase 3 trial (NCT03072238) in mCRPC; PIK3R1-mutant organoid sensitivity at 10 nM; not in cBioPortal ontology
 - drug: zimberelimab — observed in PMID:41941260 — note: anti-PD-1 mAb in rectal-cancer MCT2 (NCT05024097) combined with SCRT + etrumadenant + FOLFOX
 - drug: avelumab — observed in PMID:41941260 — note: anti-PD-L1 mAb in Javelin HN100 chemoradiation +/- avelumab expansion cohort analyzed by GenRad
 - drug: folfox — observed in PMID:41941260 — note: 5-FU/leucovorin/oxaliplatin regimen combined with SCRT and immunotherapy in rectal-cancer MCT2
@@ -619,3 +620,8 @@
 - method: ksea — observed in PMID:35508466 — note: Kinase-Substrate Enrichment Analysis; infers kinase activity from phosphoproteomic data; applied to hcc_meric_2021; not in gene_panels.json
 - method: hint-atac-footprinting — observed in PMID:35617398 — note: HINT-ATAC transcription factor footprinting from ATAC-seq data; used in prad_organoids_msk_2022 to identify subtype-specific TFs; not in gene_panels.json
 - method: nearest-template-prediction — observed in PMID:35617398 — note: NTP gene-expression classifier; used in prad_organoids_msk_2022 to assign CRPC subtypes to 366 patients; not in gene_panels.json
+- cancer_type: UPS — observed in PMID:35705558, PMID:35705560 — note: corpus shorthand for Undifferentiated Pleomorphic Sarcoma; canonical OncoTree code is MFH; used in sarcoma_msk_2022 and sarcoma_mskcc_2022 datasets
+- cancer_type: PRMS — observed in PMID:35705558 — note: corpus shorthand for Pleomorphic Rhabdomyosarcoma; canonical OncoTree code is PLRMS; used in sarcoma_msk_2022 dataset
+- cancer_type: MLS — observed in PMID:35705558 — note: corpus shorthand for Myxoid Liposarcoma; canonical OncoTree code is MRLS (Myxoid/Round-Cell Liposarcoma); claims merged into MRLS page
+- cancer_type: SOFT_TISSUE — observed in PMID:35705558, PMID:35705560 — note: OncoTree umbrella cohort tag (confirmed canonical); used as cohort-level grouping for soft tissue sarcoma subcohorts
+- cancer_type: BONE — observed in PMID:35705558, PMID:35705560 — note: OncoTree umbrella cohort tag (confirmed canonical); used as cohort-level grouping for bone sarcoma subcohorts

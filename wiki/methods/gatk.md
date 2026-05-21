@@ -10,7 +10,7 @@ tags:
   - bioinformatics
   - somatic
   - germline
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-21
 ---
 
@@ -27,6 +27,7 @@ GATK (Genome Analysis Toolkit) is a software suite developed at the Broad Instit
 - Used in the MSK-ACCESS sequencing pipeline (alongside ABRA2) for local realignment and base quality score recalibration of cfDNA reads from 681 clinical plasma samples [PMID:34145282](../papers/34145282.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for somatic variant calling pipeline in 168 prostate cancer brain metastasis WES samples; part of the standard somatic SNV/indel calling workflow [PMID:35504881](../papers/35504881.md)
+- GATK (MuTect2) used for somatic variant calling in the GLASS longitudinal diffuse glioma cohort with b37-aligned whole-exome and whole-genome sequencing data [PMID:35649412](../papers/35649412.md)
 
 ## Notes
 
@@ -52,3 +53,6 @@ GATK (Genome Analysis Toolkit) is a software suite developed at the Broad Instit
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

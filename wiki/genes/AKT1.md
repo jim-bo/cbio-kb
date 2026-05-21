@@ -3,8 +3,8 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC, BRCA, LGG]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # AKT1
@@ -37,29 +37,32 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Cross-disease context: SF3B1-driven alternative splicing targets AKT1 in other cancers (e.g. breast cancer); used as comparison context in a CLL study where SF3B1-K700E activates mTORC1/MYC via [NFATC1](../genes/NFATC1.md) mis-splicing rather than AKT1 [PMID:26200345](../papers/26200345.md)
 - Highest average pAKT-S473 and pAKT-T308 levels of any breast cancer subtype detected by RPPA in [ILC](../cancer_types/ILC.md) — comparable to HER2+ and Basal-like [IDC](../cancer_types/IDC.md) — nominating PI3K/AKT pathway inhibition as a particularly attractive therapeutic strategy for this Luminal A disease [PMID:26451490](../papers/26451490.md)
 - E17K hotspot activating mutation in 2 prostate cancer tumors; D323Y in 1 tumor (likely activating, structurally adjacent to E17K in 3D); part of ~25% PI3K/MAPK pathway actionable alterations in primary prostate cancer [PMID:26544944](../papers/26544944.md)
-- Recurrent p.E17K mutation identified in lung adenocarcinoma (NSCLC) via pan-lung WES analysis; mutually exclusive with other RTK/Ras/Raf activating events [PMID:27158780](../papers/27158780.md)
-- Mutually exclusive with PIK3CA, PIK3R1, and FOXO3 mutations in breast cancer; identified as a PI3K-pathway co-exclusion partner in 2,433-sample METABRIC cohort [PMID:27161491](../papers/27161491.md)
-- PI3K/mTOR pathway alteration observed in cisplatin-resistant germ cell tumors alongside MTOR, TSC1, TSC2 events [PMID:27646943](../papers/27646943.md)
+- Recurrent p.E17K mutation identified in lung adenocarcinoma ([NSCLC](../cancer_types/NSCLC.md)) via pan-lung WES analysis; mutually exclusive with other RTK/Ras/Raf activating events [PMID:27158780](../papers/27158780.md)
+- Mutually exclusive with [PIK3CA](../genes/PIK3CA.md), [PIK3R1](../genes/PIK3R1.md), and [FOXO3](../genes/FOXO3.md) mutations in breast cancer; identified as a PI3K-pathway co-exclusion partner in 2,433-sample METABRIC cohort [PMID:27161491](../papers/27161491.md)
+- PI3K/mTOR pathway alteration observed in cisplatin-resistant germ cell tumors alongside [MTOR](../genes/MTOR.md), [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md) events [PMID:27646943](../papers/27646943.md)
 - AKT1 identified as a significantly mutated driver in metastatic breast cancer (mBC); also mutated in early breast cancer (eBC) — no significant enrichment in the metastatic setting [PMID:28027327](../papers/28027327.md)
 - 2 E17K mutations in [LUAD](../cancer_types/LUAD.md) patients; 1 of 2 derived 12-month clinical benefit on matched therapy (MSK-IMPACT cohort, n=860) [PMID:28336552](../papers/28336552.md)
-- Upregulated expression in Cluster 2 of cholangiocarcinoma (p < 0.05) alongside CTNNB1 and WNT5B [PMID:28667006](../papers/28667006.md)
+- Upregulated expression in Cluster 2 of cholangiocarcinoma (p < 0.05) alongside [CTNNB1](../genes/CTNNB1.md) and [WNT5B](../genes/WNT5B.md) [PMID:28667006](../papers/28667006.md)
 - PIK3CA/AKT1/AKT3/PIK3R1 predominantly carry known activating hotspot mutations in prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years after prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
 - Right-sided enrichment of [AKT1](../genes/AKT1.md) mutations observed in a 1,122-patient mCRC panel sequencing cohort [PMID:29316426](../papers/29316426.md).
-- AKT1 is a core PI3K-pathway driver; PI3K pathway activation (PIK3CA activation + PTEN inactivation) dominates in head-and-neck, breast, GI, and gynecologic tumors; luminal-A breast cancer leads in OncoKB Level 3A frequency, driven in part by AKT1 mutations [PMID:29625050](../papers/29625050.md)
+- AKT1 is a core PI3K-pathway driver; PI3K pathway activation (PIK3CA activation + [PTEN](../genes/PTEN.md) inactivation) dominates in head-and-neck, breast, GI, and gynecologic tumors; luminal-A breast cancer leads in OncoKB Level 3A frequency, driven in part by AKT1 mutations [PMID:29625050](../papers/29625050.md)
 - Pathway target (AKT-inhibitor trials, n=4 enrolled) in a 189-patient MSK advanced endometrial cancer sequencing cohort; contributes to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
 - AKT1 altered in 0.9% of mCRPC tumors as part of the broader PI3K-pathway alteration set; PI3K-pathway alterations overall were not associated with survival or time on ARSI in this 429-patient mCRPC cohort [PMID:31061129](../papers/31061129.md)
-- Listed among the somatic genes identified in WES of synchronous DCIS and invasive IDC-NST pairs (n=25 patients); AKT1/PI3K pathway context in this cohort was dominated by PIK3CA mutations (41% of DCIS, 42% IDC-NST) [PMID:32220886](../papers/32220886.md)
-- Activating mutations (e.g., W80R) and amplifications in 5/41 (12.2%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 1/18 (5.6%) sensitive; lentiviral overexpression confers CDK4/6i and fulvestrant resistance in T47D cells; first patient-level demonstration of AKT1 as CDK4/6i resistance driver [PMID:32404308](../papers/32404308.md)
-- Pathogenic AKT1 alterations (downstream of PI3K) showed disproportionate VAF expansion under alpelisib + AI therapy in HR+ metastatic breast cancer, consistent with a bypass resistance mechanism. [PMID:32864625](../papers/32864625.md)
+- Listed among the somatic genes identified in WES of synchronous [DCIS](../cancer_types/DCIS.md) and invasive IDC-NST pairs (n=25 patients); AKT1/PI3K pathway context in this cohort was dominated by PIK3CA mutations (41% of DCIS, 42% IDC-NST) [PMID:32220886](../papers/32220886.md)
+- Activating mutations (e.g., W80R) and amplifications in 5/41 (12.2%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 1/18 (5.6%) sensitive; lentiviral overexpression confers CDK4/6i and [fulvestrant](../drugs/fulvestrant.md) resistance in T47D cells; first patient-level demonstration of AKT1 as CDK4/6i resistance driver [PMID:32404308](../papers/32404308.md)
+- Pathogenic AKT1 alterations (downstream of PI3K) showed disproportionate VAF expansion under [alpelisib](../drugs/alpelisib.md) + AI therapy in HR+ metastatic breast cancer, consistent with a bypass resistance mechanism. [PMID:32864625](../papers/32864625.md)
 - No hotspot mutations observed in AKT1 across 51 BRAF-mutant melanoma patients treated with BRAFi monotherapy; AKT1 was surveyed but did not emerge as a resistance driver in this pretreatment sequencing study [PMID:32913971](../papers/32913971.md)
 - AKT1 mutations in breast cancer (CPTAC proteogenomics, n=122) associate with elevated phospho-SLK and phospho-LATS1, suggesting mTOR/HIPPO cross-talk; identified via Black-Sheep kinase-outlier analysis (FDR < 0.01) [PMID:33212010](../papers/33212010.md)
-- AKT1 protein and RNA are upregulated in BRAFV600E pediatric LGG vs BRAFWT; AKT isoform upregulation validated by MRM; supports combined MEK + mTOR inhibition strategies in pediatric low-grade glioma [PMID:33242424](../papers/33242424.md)
+- AKT1 protein and RNA are upregulated in BRAFV600E pediatric [LGG](../cancer_types/LGG.md) vs BRAFWT; AKT isoform upregulation validated by MRM; supports combined MEK + mTOR inhibition strategies in pediatric low-grade glioma [PMID:33242424](../papers/33242424.md)
 - AKT1 activating hotspot mutations were reported in 2/10 juvenile papillomatosis (JP) cases in prior work (Guillet et al.); no AKT1 mutations identified in this 3-case JP-to-breast-cancer cohort [PMID:33263939](../papers/33263939.md)
 - In a proteogenomic study of 99 GBMs, AKT1 is potentially activated downstream of PTEN loss in proneural, mesenchymal, and classical subtypes; AKT1 protein levels correlate with diacylglycerol (DG) levels in lipidomic profiling. [PMID:33577785](../papers/33577785.md)
-- Included among 10 genes (AKT1, ALK, BRAF, EGFR, ERBB2, ESR1, KRAS, MET, PIK3CA, TP53) used to assemble the orthogonal-truth accuracy cohort for the MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
+- Included among 10 genes (AKT1, [ALK](../genes/ALK.md), [BRAF](../genes/BRAF.md), [EGFR](../genes/EGFR.md), [ERBB2](../genes/ERBB2.md), [ESR1](../genes/ESR1.md), [KRAS](../genes/KRAS.md), [MET](../genes/MET.md), PIK3CA, [TP53](../genes/TP53.md)) used to assemble the orthogonal-truth accuracy cohort for the MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
 - Referenced as a downstream KRAS signaling axis effector (along with PAK1/PAK2 and MAPK-ERK/PI3K) in PDAC proteogenomics; combined PAK1/2 + MAPK-ERK/PI3K-AKT-mTOR inhibition proposed as a strategy to target KRAS-driven signaling in pancreatic ductal adenocarcinoma. [PMID:34534465](../papers/34534465.md)
 - PI3K-pathway co-alteration in HER2+ breast cancer (0.3% of 733 tumors); AKT1 alterations are independent of MAPK-pathway lesions that drive anti-HER2 resistance [PMID:34795269](../papers/34795269.md)
-- AKT1 appears in the top-50 positive Δκ risk gene list in HGSOC ICI-treated patients; network curvature analysis ranks AKT1 as a putative driver of ICI-modulated network robustness [PMID:34819508](../papers/34819508.md)
+- AKT1 appears in the top-50 positive Δκ risk gene list in [HGSOC](../cancer_types/HGSOC.md) ICI-treated patients; network curvature analysis ranks AKT1 as a putative driver of ICI-modulated network robustness [PMID:34819508](../papers/34819508.md)
+- PIK3R1 knockdown activates AKT in prostate cancer cell lines; [ipatasertib](../drugs/ipatasertib.md) (an AKT inhibitor) showed activity against AKT1-mutant PDXs in this context [PMID:35670774](../papers/35670774.md)
+- AKT1 E17K enriched in myxoid liposarcoma (3.7%) alongside PIK3CA and PTEN alterations in the FoundationOne Heme sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
+- AKT1 targetable in myxoid retroperitoneal liposarcoma ([MRLS](../cancer_types/MRLS.md)) with collective 31% PI3K-pathway hits including PIK3CA, AKT1, MTOR, and TSC1 at Level 3B; MRLS PI3K-pathway rate is 41% across the MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -86,118 +89,127 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26200345](../papers/26200345.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
 - [PMID:33212010](../papers/33212010.md)
 - [PMID:33242424](../papers/33242424.md)
 - [PMID:33263939](../papers/33263939.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -21,7 +21,7 @@ AXL is a receptor tyrosine kinase of the TAM family (TYRO3, AXL, [MERTK](../gene
 
 - AXL expression used as a state marker aligning with the LowMut (neural-crest/invasive) melanocyte subpopulation in a multimodal single-cell atlas of 297 melanocytes from human skin; LowMut melanocytes cluster with the WIMMS "AXL/Neuronal/Invasive" and Belote et al. "MSC" states in cross-study alignment [PMID:39975212](../papers/39975212.md).
 - Inhibited by [cabozantinib](../drugs/cabozantinib.md) alongside [MET](../genes/MET.md) and VEGFRs in [HCC](../cancer_types/HCC.md); overexpression associated with tumour progression [PMID:24798001](../papers/24798001.md)
-- Receptor tyrosine kinase associated with epithelial–mesenchymal transition and therapy resistance in [NPC](../cancer_types/NPC.md); targeted by multi-kinase TKI cabozantinib [PMID:24952746](../papers/24952746.md)
+- Receptor tyrosine kinase associated with epithelial–mesenchymal transition and therapy resistance in [NPC](../cancer_types/NPC.md); targeted by multi-kinase TKI [cabozantinib](../drugs/cabozantinib.md) [PMID:24952746](../papers/24952746.md)
 - Mesenchymal-transition transcript up-regulated in non-responding pretreatment melanoma tumors; co-enriched within the IPRES innate anti-PD-1 resistance transcriptional signature [PMID:26997480](../papers/26997480.md)
 - Canonical YAP/TAZ transcriptional target; expression downregulated upon YAP1/WWTR1 double knockdown in CRPC-SCL cell lines (MSKPCa3 and DU145), supporting its role as a YAP/TAZ effector in lineage-plastic prostate cancer ([prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md)) [PMID:35617398](../papers/35617398.md)
 

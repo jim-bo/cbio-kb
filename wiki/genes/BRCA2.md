@@ -70,7 +70,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
 - BRCA2 is a recurrently altered candidate driver in medulloblastoma, stratified across subgroups; listed among candidates in WNT/SHH/Group 3/Group 4 oncoprint analysis [PMID:28726821](../papers/28726821.md)
 - BRCA2 germline PPGMs significantly enriched vs. ExAC in MET500 pan-cancer metastatic cohort (9 PPGM carriers); HR deficiency implies PARP inhibitor sensitivity [PMID:28783718](../papers/28783718.md)
-- BRCA2 somatic alterations are clonal/truncal in matched prostate tumor samples; 9% germline pathogenic in 221 tested patients; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale (olaparib, TOPARP-A) [PMID:28825054](../papers/28825054.md)
+- BRCA2 somatic alterations are clonal/truncal in matched prostate tumor samples; 9% germline pathogenic in 221 tested patients; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale ([olaparib](../drugs/olaparib.md), TOPARP-A) [PMID:28825054](../papers/28825054.md)
 - placeholder
 - Alterations in BRCA2 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
 - Novel BRCA2 mutation finding in HPV(+) vulvar squamous cell carcinoma identified by whole-exome sequencing of 15 tumors [PMID:29422544](../papers/29422544.md).
@@ -78,7 +78,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:29489754](../papers/29489754.md)
 - BRCA2 somatic and germline mutations are counted together with [BRCA1](../genes/BRCA1.md) (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with [BRCA1](../genes/BRCA1.md) germline carriers [PMID:29625049](../papers/29625049.md)
 - BRCA2 is included in the 57% pan-cancer actionability figure (versus 52% restricted to the 10 canonical pathways), supporting broad germline/somatic BRCA2 testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
-- Germline pathogenic mutations affect 10.8% of Korean breast cancer patients ([brca_smc_2018](../datasets/brca_smc_2018.md)) combined with BRCA1 vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
+- Germline pathogenic mutations affect 10.8% of Korean breast cancer patients ([brca_smc_2018](../datasets/brca_smc_2018.md)) combined with [BRCA1](../genes/BRCA1.md) vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
 - Rare germline/somatic pathogenic mutation (n=2 combined with BRCA1, level 2B actionable) identified in cholangiocarcinoma ([chol_msk_2018](../datasets/chol_msk_2018.md)) [PMID:29848569](../papers/29848569.md)
 - Three pathogenic germline truncating mutations identified (one serous, two carcinosarcomas); founder c.5946delT in two patients, c.5799_5802delCCAA frameshift in the third; none enrolled to PARP-inhibitor trials — demonstrating utility of unbiased germline analysis in endometrial cancer [PMID:30068706](../papers/30068706.md)
 - BRCA2 mutated in 10% of gallbladder carcinoma; co-occurrence trends with [AR](../genes/AR.md) and [KMT2D](../genes/KMT2D.md) [PMID:30427539](../papers/30427539.md)
@@ -103,6 +103,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 — germline pathogenic variant among 49 germline SNVs identified across MAPPYACTS cohort (n=624 pediatric relapsed/refractory patients); DNA repair gene panel included BRCA2 for PARP inhibitor matching [PMID:35292802](../papers/35292802.md)
 - Explicitly no pathogenic germline BRCA2 mutations identified in 119 LGSC cases, consistent with the MAPK-driven (rather than HRD-driven) biology of low-grade serous ovarian cancer ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
 - Pathogenic alterations meeting PROfound criteria in 5/51 (9.8%) prostate cancer bone metastases; BRCA1/2 together are among the 15 PROfound HRR genes; 10/51 (19.6%) patients qualified by alteration in any HRR gene ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) [PMID:35504881](../papers/35504881.md)
+- BRCA2 and [RB1](../genes/RB1.md) are co-located on 13q, which shows higher deletion frequency in metastatic versus primary prostate cancer in the MSK-IMPACT cohort (n=1,417) [PMID:35670774](../papers/35670774.md)
+- BRCA2 rearrangements observed in 0.3% of 7,494 sarcomas; BRCA2 is among the HR-pathway genes with pathogenic alterations in 2.5% of sarcomas; biallelic losses most frequent in uterine [LMS](../cancer_types/LMS.md) (4.8%) and chordoma (5.3%) [PMID:35705558](../papers/35705558.md)
+- BRCA2 mutated in 7% of [ULMS](../cancer_types/ULMS.md); nearly half (41%) of corpus-wide BRCA2 alterations occurred in uterine sarcomas in the MSK sarcoma cohort (n=2,138) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -338,5 +341,14 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

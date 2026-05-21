@@ -40,7 +40,7 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied to 70 of 127 advanced [HCC](../cancer_types/HCC.md) tumors; largest panel version in this study; MSI scored with MSIsensor [PMID:30373752](../papers/30373752.md)
 - One of the MSK-IMPACT panel versions used for 81 GBCA tumors; mutation burden normalized to 1.38 Mb panel size [PMID:30427539](../papers/30427539.md)
 - One of three MSK-IMPACT panel versions (341, 410, or 468 genes) used with matched germline normal sequencing to define somatic TMB in 1,662 ICI-treated advanced cancer patients; TMB-high on these panels was independently predictive of [OS](../cancer_types/OS.md) (HR 0.61, p = 1.3 × 10⁻⁷) [PMID:30643254](../papers/30643254.md)
-- Glioma tissue biopsies sequenced using IMPACT341, IMPACT410, or [IMPACT468](../methods/IMPACT468.md) for a benchmark cohort of 553 MSKCC glioma biopsies from 512 patients; results used to compare CSF ctDNA TMB (4.90 mut/Mb) against matched tissue (4.46 mut/Mb) [PMID:30675060](../papers/30675060.md)
+- Glioma tissue biopsies sequenced using [IMPACT341](../methods/IMPACT341.md), IMPACT410, or [IMPACT468](../methods/IMPACT468.md) for a benchmark cohort of 553 MSKCC glioma biopsies from 512 patients; results used to compare CSF ctDNA TMB (4.90 mut/Mb) against matched tissue (4.46 mut/Mb) [PMID:30675060](../papers/30675060.md)
 - Used for 16 of 96 (17%) panNET samples in the MSK prospective cohort ([panet_msk_2018](../datasets/panet_msk_2018.md)) as part of matched tumor-normal hybridization-capture NGS [PMID:30687805](../papers/30687805.md)
 - Applied to 4 samples (Case 3) in synchronous DCIS/IDC-NST WES cohort (n=56); IMPACT410 at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
 - Used alongside IMPACT341 and [IMPACT468](../methods/IMPACT468.md) in 26,743 MSK-IMPACT pan-cancer cohort; [CDK12](../genes/CDK12.md) is included in all three panel versions [PMID:32317181](../papers/32317181.md)
@@ -54,6 +54,9 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used as one of the MSK-IMPACT targeted sequencing panels (410-gene version) in the MSK-MET pan-cancer cohort of 25,775 patients [PMID:35120664](../papers/35120664.md)
 - Used as one of three MSK-IMPACT targeted panel versions (410-gene) in a cohort of 237 esophageal/GEJ adenocarcinoma patients sequenced at MSK 2014–2020 [PMID:35377946](../papers/35377946.md).
 - Applied in [lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md) study: IMPACT410 panel (n=23 patients) used as part of MSK-IMPACT targeted sequencing across 119 LGSC patients, identifying MAPK pathway alterations in 60% [PMID:35443055](../papers/35443055.md)
+- Used to sequence a subset of 1,417 prostate cancer patients (410 genes) in a study of [PIK3R1](../genes/PIK3R1.md) alterations and FDG-PET avidity; one of three IMPACT panel versions applied across the MSK cohort [PMID:35670774](../papers/35670774.md)
+- Applied to 573 of 2,138 sarcomas (26.8%) in the MSK sarcoma genomic landscape study using paired tumor-normal capture at ≥500× median coverage on Illumina HiSeq 2500 [PMID:35705560](../papers/35705560.md)
+- Applied to 13 of 184 MSI-H/MMR-D endometrial cancers in a study comparing MMR-deficiency mechanisms and ICI outcomes [PMID:35849120](../papers/35849120.md)
 
 ## Notes
 
@@ -160,5 +163,14 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35849120](../papers/35849120.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

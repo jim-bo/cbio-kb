@@ -23,7 +23,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Elevated GSK3 protein (by RPPA) detected in [MAML3](../genes/MAML3.md) fusion-positive pheochromocytoma/paraganglioma ([PHC](../cancer_types/PHC.md)/[PGNG](../cancer_types/PGNG.md)) as part of the Wnt-pathway activation signature in the Wnt-altered subtype; elevated alongside β-catenin and [DVL3](../genes/DVL3.md) (TCGA [PCPG](../cancer_types/PCPG.md) study, n=173) [PMID:28162975](../papers/28162975.md).
 - GSK3B upregulated in ganglioglioma and Ganglio-rich [LGG](../cancer_types/LGG.md) in pediatric brain tumors; substrate networks include ADD2 (Ser604/Ser693), SYN1 (Ser553), STMN1 (Ser38) [PMID:33242424](../papers/33242424.md)
 - Phosphorylation of GSK3B positively associated with mTOR substrates ([RPTOR](../genes/RPTOR.md), [TSC1](../genes/TSC1.md)) and Wnt substrates ([CTNNB1](../genes/CTNNB1.md), [APC](../genes/APC.md)) in a proteogenomic [GBM](../cancer_types/GBM.md) study (n=99 tumors, CPTAC) [PMID:33577785](../papers/33577785.md)
-- GSK3B kinase activity decreased in [HCC](../cancer_types/HCC.md) vs normal liver by KSEA (kinase-substrate enrichment analysis) in an integrated (phospho)proteogenomic characterization of 122 HCC biopsies [PMID:35508466](../papers/35508466.md)
+- GSK3B kinase activity decreased in [HCC](../cancer_types/HCC.md) vs normal liver by KSEA (kinase-substrate enrichment analysis) in an integrated (phospho)proteogenomic characterization of 122 [HCC](../cancer_types/HCC.md) biopsies [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

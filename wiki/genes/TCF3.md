@@ -20,7 +20,7 @@ TCF3 (transcription factor 3, also known as E2A) encodes a basic helix-loop-heli
 
 ## Alterations observed in the corpus
 
-- TCF3 alteration detected as a shared somatic mutation between the SCLC and lung adenocarcinoma components of MSK773 (admixed SCLC/LUAD tumor), supporting clonal origin of the two histologies from a common precursor; the shared TCF3 event was found alongside [TET2](../genes/TET2.md), [CDKN1B](../genes/CDKN1B.md), [PTEN](../genes/PTEN.md), [MDM2](../genes/MDM2.md), [FGFR1](../genes/FGFR1.md), and [KRAS](../genes/KRAS.md) alterations [PMID:35440124](../papers/35440124.md).
+- TCF3 alteration detected as a shared somatic mutation between the [SCLC](../cancer_types/SCLC.md) and lung adenocarcinoma components of MSK773 (admixed SCLC/LUAD tumor), supporting clonal origin of the two histologies from a common precursor; the shared TCF3 event was found alongside [TET2](../genes/TET2.md), [CDKN1B](../genes/CDKN1B.md), [PTEN](../genes/PTEN.md), [MDM2](../genes/MDM2.md), [FGFR1](../genes/FGFR1.md), and [KRAS](../genes/KRAS.md) alterations [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 

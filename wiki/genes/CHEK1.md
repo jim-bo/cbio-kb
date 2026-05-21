@@ -27,7 +27,7 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 
 ## Co-occurrence and mutual exclusivity
 
-- CHEK1 inhibition exploits FBXO7 copy number loss in CRC [PMID:36334560](../papers/36334560.md)
+- CHEK1 inhibition exploits [FBXO7](../genes/FBXO7.md) copy number loss in CRC [PMID:36334560](../papers/36334560.md)
 
 ## Therapeutic relevance
 

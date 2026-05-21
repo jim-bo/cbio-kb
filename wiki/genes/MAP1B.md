@@ -24,15 +24,15 @@ MAP1B (Microtubule-Associated Protein 1B) encodes a large cytoskeletal protein i
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-regulated with PARD3, PDLIM2, and MACF1 in CTNNB1-mutant HCCs at the phosphoproteomic level [PMID:35508466](../papers/35508466.md).
+- Co-regulated with [PARD3](../genes/PARD3.md), [PDLIM2](../genes/PDLIM2.md), and [MACF1](../genes/MACF1.md) in CTNNB1-mutant HCCs at the phosphoproteomic level [PMID:35508466](../papers/35508466.md).
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting reported. Cytoskeletal remodeling driven by CTNNB1 mutation implicates MAP1B phosphorylation changes in the context of potential Wnt-pathway intervention [PMID:35508466](../papers/35508466.md).
+- No direct therapeutic targeting reported. Cytoskeletal remodeling driven by [CTNNB1](../genes/CTNNB1.md) mutation implicates MAP1B phosphorylation changes in the context of potential Wnt-pathway intervention [PMID:35508466](../papers/35508466.md).
 
 ## Open questions
 
-- Whether MAP1B phosphorylation changes in CTNNB1-mutant HCC are causally linked to the mutation or reflect downstream pathway activation requires mutagenesis experiments [PMID:35508466](../papers/35508466.md).
+- Whether MAP1B phosphorylation changes in CTNNB1-mutant [HCC](../cancer_types/HCC.md) are causally linked to the mutation or reflect downstream pathway activation requires mutagenesis experiments [PMID:35508466](../papers/35508466.md).
 
 ## Sources
 

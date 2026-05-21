@@ -35,13 +35,15 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 - MPNST (n=5) was underpowered for deep subtype analysis; APOBEC mutational signatures (COSMIC2/13) were modestly elevated in MPNST (alongside DDLPS) vs other sarcoma histologies (p<10⁻⁶, Kruskal-Wallis), and the cohort was included in pan-sarcoma SMG analysis identifying [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), and [RB1](../genes/RB1.md) as recurrently mutated [PMID:29100075](../papers/29100075.md)
 - JHU [NF1](../genes/NF1.md) biospecimen repository (n=23 patients, 55 tumor samples) spanning cNF → pNF → ANNUBP → MPNST progression; PRC2 (EED/SUZ12) inactivation restricted to the single MPNST sample, confirming malignant-transformation specificity; PDX take rate 50% for MPNST; released as cBioPortal study [nst_nfosi_ntap](../datasets/nst_nfosi_ntap.md) [PMID:32561749](../papers/32561749.md)
 - In 165 schwannomatosis-associated schwannomas, MPNST was explicitly excluded from the cohort; however, [NF2](../genes/NF2.md) mutation/loss (83%), [LZTR1](../genes/LZTR1.md) mutation, [SMARCB1](../genes/SMARCB1.md) co-deletion, and RAS/MAPK upregulation — shared with MPNST biology — were documented, establishing genomic context relevant to malignant peripheral nerve sheath tumor risk in schwannomatosis patients. [PMID:33025139](../papers/33025139.md)
-- MPNST was enrolled in the MAPPYACTS pediatric precision-medicine trial (sarcomas 37% of 787 patients); NF1 pathogenic mutations were investigational targets and were recurrent in MPNST (n=33 deleterious events across the cohort) [PMID:35292802](../papers/35292802.md)
+- MPNST was enrolled in the MAPPYACTS pediatric precision-medicine trial (sarcomas 37% of 787 patients); [NF1](../genes/NF1.md) pathogenic mutations were investigational targets and were recurrent in MPNST (n=33 deleterious events across the cohort) [PMID:35292802](../papers/35292802.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 7,494-sarcoma cohort, MPNST showed CDKN2A/B deletion in 47.3%, kinase fusions in 4.9%, TMB ≥10 mut/Mb in 10.8%, and lower TMB in P-AYA patients (2.4 vs 3.2 mut/Mb; FDR<0.05); biallelic HRD-gene loss in 16% of MPNST [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, MPNST showed NF1 somatic deletions in 32% (Level 4), [CDKN2A](../genes/CDKN2A.md) deletions up to 48%, and epigenetic pathway alteration in 64% — the highest rate across all sarcoma subtypes; WGD in ~50% [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
 - **Radiation-associated MPNST (RT-MPNST):** Distinguished by near-universal CDKN2A/B deletions (92%), high [NF1](../genes/NF1.md) inactivation (67%), and the highest [FGA](../genes/FGA.md) among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years [PMID:37350195](../papers/37350195.md).
-- **Sporadic MPNST:** Lower rates of CDKN2A/B deletion (44%), NF1 inactivation (36%), and lower FGA (31%) [PMID:37350195](../papers/37350195.md).
+- **Sporadic MPNST:** Lower rates of CDKN2A/B deletion (44%), NF1 inactivation (36%), and lower [FGA](../genes/FGA.md) (31%) [PMID:37350195](../papers/37350195.md).
 
 ## Therapeutic landscape
 
@@ -69,5 +71,11 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

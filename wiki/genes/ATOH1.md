@@ -15,7 +15,7 @@ ATOH1 (Atonal BHLH Transcription Factor 1) is a basic helix-loop-helix (bHLH) tr
 
 ## Alterations observed in the corpus
 
-- ATOH1 expression is low in SCLC-P (POU2F3-driven) subtype PDX/CDX models, in contrast to neuroendocrine [SCLC](../cancer_types/SCLC.md) subtypes (SCLC-A and SCLC-N); identified in multi-omic profiling of 46 SCLC PDX/CDX models from 33 MSK patients [PMID:35440124](../papers/35440124.md)
+- ATOH1 expression is low in SCLC-P (POU2F3-driven) subtype PDX/CDX models, in contrast to neuroendocrine [SCLC](../cancer_types/SCLC.md) subtypes (SCLC-A and SCLC-N); identified in multi-omic profiling of 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 MSK patients [PMID:35440124](../papers/35440124.md)
 
 ## Cancer types (linked)
 

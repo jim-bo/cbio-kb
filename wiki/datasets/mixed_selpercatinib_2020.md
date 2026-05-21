@@ -35,7 +35,7 @@ processed_at: 2026-05-21
 
 - **n = 72** patients (70 included in correlative analyses); enrollment May 2017 – December 2019.
 - **Cancer types:** [LUAD](../cancer_types/LUAD.md) (81% of fusion-positive cases), papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md), 12%), medullary thyroid carcinoma ([THME](../cancer_types/THME.md)) (all RET-mutant cases), plus rare histologies ([LCNEC](../cancer_types/LCNEC.md), [LUAS](../cancer_types/LUAS.md), [HGNEC](../cancer_types/HGNEC.md), poorly differentiated thyroid).
-- **RET alteration types:** activating fusions (KIF5B-RET most common; also CCDC6-RET, NCOA4-RET, TAF3-RET, ERC1-RET, RBPMS-RET, CLIP1-RET) and kinase-domain mutations (germline and somatic, including M918T).
+- **[RET](../genes/RET.md) alteration types:** activating fusions (KIF5B-RET most common; also CCDC6-RET, NCOA4-RET, TAF3-RET, ERC1-RET, RBPMS-RET, CLIP1-RET) and kinase-domain mutations (germline and somatic, including M918T).
 - **Prior therapy:** 19/72 received [selpercatinib](../drugs/selpercatinib.md) as first-line; 53 previously treated; 29/53 (55%) had prior multikinase inhibitor ([vandetanib](../drugs/vandetanib.md), [cabozantinib](../drugs/cabozantinib.md), RXDX-105).
 
 ## Assays / panels (linked)
@@ -46,7 +46,7 @@ processed_at: 2026-05-21
 
 ## Papers using this cohort
 
-- [PMID:35304457](../papers/35304457.md) — Rosen et al., *Cancer Discovery* 2022: Correlative genomics study of selpercatinib response and resistance; acquired resistance identified in 11/18 (61%) evaluable progressing patients via on-target RET solvent-front mutations or off-target MAPK bypass (KRAS/NRAS/BRAF/MET/FGFR1). [PMID:35304457](../papers/35304457.md)
+- [PMID:35304457](../papers/35304457.md) — Rosen et al., *Cancer Discovery* 2022: Correlative genomics study of [selpercatinib](../drugs/selpercatinib.md) response and resistance; acquired resistance identified in 11/18 (61%) evaluable progressing patients via on-target RET solvent-front mutations or off-target MAPK bypass (KRAS/NRAS/BRAF/MET/FGFR1). [PMID:35304457](../papers/35304457.md)
 
 ## Notable findings derived from this cohort
 

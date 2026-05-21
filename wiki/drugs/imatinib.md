@@ -27,10 +27,12 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - One [PDGFRA](../genes/PDGFRA.md) p.Thr674Ile-mutant sinonasal adenoid cystic carcinoma patient received imatinib as targeted therapy and was NED at 19 months — the only targeted-therapy case in an 88-case [ACYC](../cancer_types/ACYC.md) cohort [PMID:24418857](../papers/24418857.md)
 - Cited in the context of acquired resistance paradigms — analogous to ALK-fusion lung cancer/crizotinib and BRAF-mutant melanoma/vemurafenib — motivating combination regimens in [HCC](../cancer_types/HCC.md) targeted therapy development [PMID:24735922](../papers/24735922.md)
 - Nominated for KIT-mutated/amplified Triple-WT melanoma subtype (14% of TCGA cases; no hot-spot BRAF/RAS/NF1); [KIT](../genes/KIT.md) mutations and 4q12 focal amplifications enriched in Triple-WT; imatinib/dasatinib proposed as targeted therapy based on prior Carvajal and Hodi reports [PMID:26091043](../papers/26091043.md)
-- [KIT](../genes/KIT.md) inhibitor; proposed as targeted therapy candidate for KIT-mutant [GCT](../cancer_types/GCT.md) (mostly exon 17 hotspots, enriched in seminoma 29.6%); [KIT](../genes/KIT.md) exon 17 mutations in GCT represent an imatinib-resistance pattern distinct from [GIST](../cancer_types/GIST.md) [PMID:27646943](../papers/27646943.md)
-- In 101 pediatric high-risk oncology patients (PIPseq), palliative imatinib produced near-complete clearing of peripheral blood blasts with a sustained 9-month response in a KIT Asn655Lys-mutant [AML](../cancer_types/AML.md) patient [PMID:28007021](../papers/28007021.md)
+- [KIT](../genes/KIT.md) inhibitor; proposed as targeted therapy candidate for KIT-mutant [GCT](../cancer_types/GCT.md) (mostly exon 17 hotspots, enriched in seminoma 29.6%); [KIT](../genes/KIT.md) exon 17 mutations in [GCT](../cancer_types/GCT.md) represent an imatinib-resistance pattern distinct from [GIST](../cancer_types/GIST.md) [PMID:27646943](../papers/27646943.md)
+- In 101 pediatric high-risk oncology patients (PIPseq), palliative imatinib produced near-complete clearing of peripheral blood blasts with a sustained 9-month response in a [KIT](../genes/KIT.md) Asn655Lys-mutant [AML](../cancer_types/AML.md) patient [PMID:28007021](../papers/28007021.md)
 - Historically used for KIT-altered melanoma; KIT alterations (4% of 696 cutaneous/unknown-primary melanomas) are associated with older age (median 72 y) and high TMB (median 37 mut/Mb) and have historically responded to imatinib [PMID:33509808](../papers/33509808.md)
 - Imatinib (BCR-ABL/KIT/PDGFR inhibitor) targets the COL1A1-PDGFB fusion (n=1) classified ready-for-routine-use in MAPPYACTS pediatric precision-oncology trial; the COL1A1-PDGFB fusion was found in a sarcoma patient [PMID:35292802](../papers/35292802.md)
+- KIT mutations in [GIST](../cancer_types/GIST.md) represent the most common Level 1 (FDA-recognized) actionable finding in the 7,494-sarcoma FoundationOne Heme cohort (64.4% of GISTs; 5.9% of all sarcomas); [PDGFRA](../genes/PDGFRA.md) D842V and KIT exon 13 substitutions were captured as imatinib-resistance markers [PMID:35705558](../papers/35705558.md).
+- KIT mutations (72% Level 1 actionability) and PDGFRA mutations (7%) are the canonical GIST drivers in 2,138 MSK-IMPACT-profiled sarcomas; PDGFRA D842V and KIT exon 13 substitutions represent known imatinib-resistance alterations also captured in this cohort [PMID:35705560](../papers/35705560.md).
 
 ## Resistance mechanisms
 
@@ -70,7 +72,8 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+- [PMID:35705558](../papers/35705558.md)
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

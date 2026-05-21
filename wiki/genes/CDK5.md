@@ -31,7 +31,7 @@ CDK5 (Cyclin-Dependent Kinase 5) is an atypical CDK that does not require cyclin
 
 ## Therapeutic relevance
 
-- CDK5 co-elevation with GSK3B in ganglioglioma nominates combined CDK5/GSK3B inhibition as a potential strategy; drug connectivity analysis (LINCS L1000) in HGG predicts CDK inhibitors as reversing aggressiveness signatures, though CDK5-selective drugs are limited [PMID:33242424](../papers/33242424.md)
+- CDK5 co-elevation with [GSK3B](../genes/GSK3B.md) in ganglioglioma nominates combined CDK5/GSK3B inhibition as a potential strategy; drug connectivity analysis (LINCS L1000) in HGG predicts CDK inhibitors as reversing aggressiveness signatures, though CDK5-selective drugs are limited [PMID:33242424](../papers/33242424.md)
 
 ## Open questions
 

@@ -26,7 +26,7 @@ Ependymoma is a glial tumor arising from ependymal cells lining the ventricular 
 
 ## Subtypes
 
-- Supratentorial ZFTA (C11orf95) fusion-positive (formerly RELA-fused): most common supratentorial ependymoma in children; poor prognosis.
+- Supratentorial [ZFTA](../genes/ZFTA.md) (C11orf95) fusion-positive (formerly RELA-fused): most common supratentorial ependymoma in children; poor prognosis.
 - Supratentorial [YAP1](../genes/YAP1.md) fusion-positive: better prognosis.
 - Posterior fossa group A (PFA): methylation-defined; younger patients; worse prognosis.
 - Posterior fossa group B (PFB): methylation-defined; older patients; better prognosis.

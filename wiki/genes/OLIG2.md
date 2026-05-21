@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ODG]
 tags: [oligodendrocyte-marker, glioma, lineage-differentiation, transcription-factor]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-21
 ---
 
 # OLIG2
@@ -16,6 +16,7 @@ OLIG2 (oligodendrocyte transcription factor 2) is a bHLH transcription factor es
 ## Alterations observed in the corpus
 
 - OLIG2 is highly expressed in differentiated oligodendrocyte-like tumor cells in grade II oligodendroglioma (IDH-mutant, 1p/19q codeleted), alongside [OLIG1](../genes/OLIG1.md) and [OMG](../genes/OMG.md); the combined PCA across 4,347 cells identified the oligodendrocytic program (OLIG1/OLIG2/OMG-high) as one of two dominant glial lineage programs [PMID:27806376](../papers/27806376.md).
+- Neoplastic cell-state marker defining the stem-like ([SOX2](../genes/SOX2.md)+, OLIG2+) population in diffuse glioma deconvolution and multiplex immunofluorescence; used to map stem-like vs. mesenchymal-like neoplastic cell states longitudinally [PMID:35649412](../papers/35649412.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ OLIG2 (oligodendrocyte transcription factor 2) is a bHLH transcription factor es
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -17,7 +17,7 @@ Adavosertib (AZD1775) is a selective inhibitor of [WEE1](../genes/WEE1.md) kinas
 
 ## Evidence in the corpus
 
-- Adavosertib (WEE1 inhibitor) was the most frequently recommended drug class (n=150 recommendations) in the MAPPYACTS precision-oncology trial (NCT02613962) for pediatric/young-adult recurrent malignancies; [TP53](../genes/TP53.md) alterations (n=215) drove WEE1 inhibitor matching, with TP53 + WEE1 inhibition combinations explored in AcSé-ESMART platform arms [PMID:35292802](../papers/35292802.md)
+- Adavosertib ([WEE1](../genes/WEE1.md) inhibitor) was the most frequently recommended drug class (n=150 recommendations) in the MAPPYACTS precision-oncology trial (NCT02613962) for pediatric/young-adult recurrent malignancies; [TP53](../genes/TP53.md) alterations (n=215) drove WEE1 inhibitor matching, with [TP53](../genes/TP53.md) + WEE1 inhibition combinations explored in AcSé-ESMART platform arms [PMID:35292802](../papers/35292802.md)
 
 ## Resistance mechanisms
 

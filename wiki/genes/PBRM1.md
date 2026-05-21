@@ -3,8 +3,8 @@ symbol: PBRM1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -19,7 +19,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 - PBRM1 and [ARID2](../genes/ARID2.md) (SWI/SNF complex members) were mutated in dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); no significant difference in mutation rates was observed between responders and non-responders [PMID:38653864](../papers/38653864.md).
 - Loss-of-function mutations in PBRM1 define a molecular subtype of ccRCC associated with distinct immune infiltration and immunotherapy response patterns [PMID:22138691](../papers/22138691.md)
-- Mutated as part of SWI/SNF and broader chromatin-remodeling alterations present in 24% of esophageal adenocarcinomas (EAC), alongside [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [SMARCA4](../genes/SMARCA4.md), and [JARID2](../genes/JARID2.md) [PMID:23525077](../papers/23525077.md)
+- Mutated as part of SWI/SNF and broader chromatin-remodeling alterations present in 24% of esophageal adenocarcinomas ([EAC](../cancer_types/EAC.md)), alongside [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [SMARCA4](../genes/SMARCA4.md), and [JARID2](../genes/JARID2.md) [PMID:23525077](../papers/23525077.md)
 - Significantly mutated gene (SMG) in clear cell renal cell carcinoma (q<0.00001); SWI/SNF (PBAF) subunit enriched in m1 mRNA subtype (39% vs 27%); co-occurs in HotNet PBAF subnetwork with [ARID1A](../genes/ARID1A.md) and [SMARCA4](../genes/SMARCA4.md) [PMID:23792563](../papers/23792563.md)
 - SWI/SNF complex subunit mutated in 8/64 (13%) intrahepatic cholangiocarcinomas ([IHCH](../cancer_types/IHCH.md)) and 4/16 (25%) gallbladder carcinomas ([GBC](../cancer_types/GBC.md)); previously known mainly from clear-cell renal cell carcinoma; mutation may confer sensitivity to chromatin-remodeling-targeted therapies such as HDAC inhibitors [PMID:24185509](../papers/24185509.md)
 - Flagged as a SWI/SNF chromatin-remodeling complex partner (alongside [ARID1B](../genes/ARID1B.md)) in the genomic landscape of sinonasal adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
@@ -31,19 +31,21 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - Added to significant gene list by inactivation-bias test in a periampullary cancer WGS study (DUOAC/AMPAC/CAC); alteration type not individually specified for PBRM1 in this cohort [PMID:26804919](../papers/26804919.md)
 - PBRM1 (SWI/SNF subunit) mutated as part of a chromatin-remodelling complex enriched in ATC vs PDTC (SWI/SNF subunit mutations in 36% ATC vs 6% PDTC, P=1×10⁻⁴); mutations generally mutually exclusive within the complex. [PMID:26878173](../papers/26878173.md)
 - Identified as a Mut-driver gene (inactivating mutations) in the METABRIC 2,433-tumor breast cancer cohort; classified as a SWI/SNF chromatin-function driver (22.6% of all tumors had a coding mutation in ≥1 of seven chromatin-function Mut-drivers including PBRM1). Raises possibility of synthetic-lethal vulnerabilities analogous to ARID1A/ARID1B in the breast cancer setting. [PMID:27161491](../papers/27161491.md)
-- Mutated in 3% of unclassified RCC (uRCC) cases in a 62-sample MSK-IMPACT cohort; co-occurs with other chromatin-remodeling gene mutations distinguishing uRCC from ccRCC (VHL-low) [PMID:27713405](../papers/27713405.md)
-- SWI/SNF complex member; more frequently altered in esophageal adenocarcinoma (EAC) than esophageal squamous cell carcinoma (ESCC) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
+- Mutated in 3% of unclassified [RCC](../cancer_types/RCC.md) (uRCC) cases in a 62-sample MSK-IMPACT cohort; co-occurs with other chromatin-remodeling gene mutations distinguishing uRCC from ccRCC (VHL-low) [PMID:27713405](../papers/27713405.md)
+- SWI/SNF complex member; more frequently altered in esophageal adenocarcinoma (EAC) than esophageal squamous cell carcinoma ([ESCC](../cancer_types/ESCC.md)) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 - S275 mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Biallelic LOF (truncating mutation + chr3p loss) enriched in anti-PD-(L)1 responders in ccRCC; PBRM1-LOF tumors show up-regulated hypoxia and JAK/STAT3 programs and reduced immune-inhibitory ligand expression [PMID:29301960](../papers/29301960.md)
-- Called as a KIRC SMG by both MutSig2CV and MuSiC2 in the MC3 pan-cancer open-access MAF covering 10,510 TCGA tumor/normal pairs across 33 cancer types [PMID:29596782](../papers/29596782.md).
-- Mutated in IHC (intrahepatic cholangiocarcinoma); common alteration but not significantly prognostic; mutually exclusive with KRAS in cholangiocarcinoma; identified in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients [PMID:29848569](../papers/29848569.md)
+- Called as a [KIRC](../cancer_types/KIRC.md) SMG by both MutSig2CV and MuSiC2 in the MC3 pan-cancer open-access MAF covering 10,510 TCGA tumor/normal pairs across 33 cancer types [PMID:29596782](../papers/29596782.md).
+- Mutated in IHC (intrahepatic cholangiocarcinoma); common alteration but not significantly prognostic; mutually exclusive with [KRAS](../genes/KRAS.md) in cholangiocarcinoma; identified in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients [PMID:29848569](../papers/29848569.md)
 - Candidate cancer gene (MutSigCV q < 0.1) identified among 98 CCGs in 304 primary DLBCLs; chromatin-remodeling SWI/SNF subunit; involved in chromatin regulation relevant to lymphoma biology [PMID:29713087](../papers/29713087.md)
 - Truncating / biallelic loss-of-function mutations enriched in CR/PR responders across multiple histologies (melanoma, lung, bladder, HNSCC) in a pooled ICB cohort (193 patients); generalizes prior ccRCC findings; PBAF SWI/SNF family alterations show the same responder-enrichment pattern [PMID:30150660](../papers/30150660.md)
 - Detected as a somatic alteration in metastatic panNET patients sequenced with MSK-IMPACT; PBRM1 is among the chromatin-remodeling genes in the SWI/SNF complex class interrogated in this cohort [PMID:30687805](../papers/30687805.md)
-- PBRM1 is a member of the SWI/SNF complex mutated in 19.5% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases jointly with ARID1A, ARID2, and BRD7 [PMID:31130341](../papers/31130341.md)
-- Subclonal alteration in a single RB1-wildtype retinoblastoma specimen (along with BIRC3); not recurrently mutated in the 83-tumor cohort [PMID:33466343](../papers/33466343.md)
+- PBRM1 is a member of the SWI/SNF complex mutated in 19.5% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases jointly with [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), and [BRD7](../genes/BRD7.md) [PMID:31130341](../papers/31130341.md)
+- Subclonal alteration in a single RB1-wildtype retinoblastoma specimen (along with [BIRC3](../genes/BIRC3.md)); not recurrently mutated in the 83-tumor cohort [PMID:33466343](../papers/33466343.md)
 - Mutated in 12% of intrahepatic cholangiocarcinoma (iCCA) in a 412-patient retrospective cohort at MSKCC/Erasmus; not independently prognostic in this analysis [PMID:33765338](../papers/33765338.md)
-- Mutated in 12% of cutaneous squamous cell carcinomas (CSCC); SWI/SNF chromatin-remodeling subunit; nominated as novel CSCC driver in this meta-analysis of 88 tumors [PMID:34272401](../papers/34272401.md)
+- Mutated in 12% of cutaneous squamous cell carcinomas ([CSCC](../cancer_types/CSCC.md)); SWI/SNF chromatin-remodeling subunit; nominated as novel CSCC driver in this meta-analysis of 88 tumors [PMID:34272401](../papers/34272401.md)
+- Inactivating alterations in 15.8% of chordomas; identified in clinical genomic profiling of 7,494 soft tissue and bone sarcoma samples [PMID:35705558](../papers/35705558.md)
+- Predominant SWI/SNF alteration alongside ARID1A in 43% of uterine adenosarcoma ([UAS](../cancer_types/UAS.md)) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -97,34 +99,40 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

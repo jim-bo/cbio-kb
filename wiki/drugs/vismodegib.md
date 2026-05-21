@@ -17,7 +17,7 @@ Vismodegib (GDC-0449) is the first FDA-approved [SMO](../genes/SMO.md) antagonis
 
 ## Evidence in the corpus
 
-- Vismodegib (hedgehog/SMO inhibitor) was among targeted therapies used in MAPPYACTS (NCT02613962) for [PTCH1](../genes/PTCH1.md) mutation/deletion (n=4, ready-for-routine-use in SHH-pathway medulloblastoma and selected tumor types); SMO resistance mutations were observed in 3 patients after prior hedgehog inhibitor exposure [PMID:35292802](../papers/35292802.md)
+- Vismodegib (hedgehog/SMO inhibitor) was among targeted therapies used in MAPPYACTS (NCT02613962) for [PTCH1](../genes/PTCH1.md) mutation/deletion (n=4, ready-for-routine-use in SHH-pathway medulloblastoma and selected tumor types); [SMO](../genes/SMO.md) resistance mutations were observed in 3 patients after prior hedgehog inhibitor exposure [PMID:35292802](../papers/35292802.md)
 
 ## Resistance mechanisms
 

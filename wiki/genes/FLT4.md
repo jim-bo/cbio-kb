@@ -3,8 +3,8 @@ symbol: FLT4
 aliases: [VEGFR3]
 cancer_types: [ANGS]
 tags: [amplification, VEGF-signaling, MAPK, sarcoma, radiation-associated]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FLT4
@@ -20,6 +20,7 @@ FLT4 (also known as VEGFR3) encodes vascular endothelial growth factor receptor 
 - Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); VEGFR-3 receptor tyrosine kinase. [PMID:18948947](../papers/18948947.md)
 - FLT4 (VEGFR3) mutations are among the low-frequency RTK hits identified in advanced thyroid cancers (PDTC/ATC) by MSK-IMPACT 341-gene sequencing (n=117 tumors) [PMID:26878173](../papers/26878173.md)
 - Identified as a novel recurrently mutated gene (1–4% frequency) in microsatellite-stable metastatic colorectal cancer by MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
+- FLT4 is recurrently altered in angiosarcoma ([ANGS](../cancer_types/ANGS.md)) at 9% frequency, with VUS clustering in the kinase and C-terminus domains; FLT4 VUS may be functionally relevant pending validation [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -41,13 +42,16 @@ FLT4 (also known as VEGFR3) encodes vascular endothelial growth factor receptor 
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

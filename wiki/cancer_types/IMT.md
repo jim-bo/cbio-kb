@@ -4,8 +4,8 @@ oncotree_code: IMT
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Inflammatory Myofibroblastic Tumor (IMT)
@@ -21,12 +21,13 @@ Inflammatory myofibroblastic tumor (IMT) is a distinctive mesenchymal neoplasm o
 ## Recurrent alterations
 
 - PIPseq cohort: VCAN-IL23R fusion identified by RNA-seq in an IMT patient — a JAK-inhibitor target; the patient received matched targeted therapy (JAK inhibitor) [PMID:28007021](../papers/28007021.md).
-- Two uterine sarcomas initially classified as uLMS were reclassified as IMT by MSK-IMPACT/MSK-Fusion detection of ALK fusions (LBH-ALK); crizotinib yielded 30+ months radiographic stabilization in one patient and a brief response in the other, supporting ALK fusion testing in all uterine sarcomas to enable diagnostic reclassification and targeted therapy [PMID:32299819](../papers/32299819.md)
+- Two uterine sarcomas initially classified as uLMS were reclassified as IMT by MSK-IMPACT/MSK-Fusion detection of [ALK](../genes/ALK.md) fusions (LBH-ALK); [crizotinib](../drugs/crizotinib.md) yielded 30+ months radiographic stabilization in one patient and a brief response in the other, supporting ALK fusion testing in all uterine sarcomas to enable diagnostic reclassification and targeted therapy [PMID:32299819](../papers/32299819.md)
+- In a 7,494-sarcoma cohort, inflammatory myofibroblastic tumor had the highest kinase-fusion prevalence (62.1%); an [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion in an IMT patient led to durable complete response with [larotrectinib](../drugs/larotrectinib.md) [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
 - ALK-positive IMT (~50%): most common; [crizotinib](../drugs/crizotinib.md) highly active.
-- ALK-negative IMT: may harbor ROS1, RET, NTRK, PDGFR, or JAK fusions (as in PIPseq VCAN-IL23R case); each requires matched TKI selection.
+- ALK-negative IMT: may harbor [ROS1](../genes/ROS1.md), [RET](../genes/RET.md), NTRK, PDGFR, or JAK fusions (as in PIPseq VCAN-IL23R case); each requires matched TKI selection.
 
 ## Therapeutic landscape
 
@@ -36,7 +37,10 @@ Inflammatory myofibroblastic tumor (IMT) is a distinctive mesenchymal neoplasm o
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

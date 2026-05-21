@@ -70,19 +70,21 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - DNA damage repair gene enriched in recurrent/metastatic adenoid cystic carcinoma vs. primaries (OR 4.22, P=0.016) in the [acc_2019](../datasets/acc_2019.md) cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
 - ATM loss flags PDX models suitable for [ATR](../genes/ATR.md) inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants; matched WBC sequencing required to distinguish CH-derived ATM variants from tumor-derived signal [PMID:31768066](../papers/31768066.md)
-- Alongside BRCA1 and [BRCA2](../genes/BRCA2.md), one of three genes accounting for 81% of germline+somatic biallelic combinations across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
+- Alongside [BRCA1](../genes/BRCA1.md) and [BRCA2](../genes/BRCA2.md), one of three genes accounting for 81% of germline+somatic biallelic combinations across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 - ATM was cited as a known [LUAD](../cancer_types/LUAD.md) subclonal driver gene with higher alteration frequency in micropapillary/solid (MIP/SOL) vs. lepidic (LEP) or acinar/papillary (ACI/PAP) histologic subtypes of resected lung adenocarcinoma. [PMID:32791233](../papers/32791233.md)
 - ATM truncating mutations included in CH-myeloid putative driver criteria; partially under-ascertained due to absence from the 163-gene myeloid serial-sampling panel used in sub-cohort analyses of therapy-associated clonal hematopoiesis [PMID:33106634](../papers/33106634.md)
 - ATM is a component of the SSBR (single-strand break repair) gene set whose protein loss in luminal breast cancer (CPTAC proteogenomics, n=122) is anti-correlated with PD-L1 and immune infiltration; low NER/BER/MMR protein levels associated with high mutation load specifically in luminal but not basal [BRCA](../cancer_types/BRCA.md), nominating subsets of luminal [BRCA](../cancer_types/BRCA.md) as ICI candidates [PMID:33212010](../papers/33212010.md)
 - Copy-number deletion in ATM recovered via matched WBC sequencing and reclassified as germline (not somatic) — an indel ATM p.E522fs*43 had been previously reported as somatic by a commercial cfDNA test [PMID:34145282](../papers/34145282.md)
 - Assessed at >=2% frequency in a 514-sample [LUAD](../cancer_types/LUAD.md) pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
 - Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; 2 LCINS germline ATM carriers identified; rates of moderate/low-penetrance gene mutations were similar between early-onset (EO) and adult-onset (AO) CRC after adjustment for number of genes tested. [PMID:34405229](../papers/34405229.md)
-- Germline variants in ATM identified in 2 LCINS carriers (232-sample WGS cohort); BRCA2 LOH enriched in RTK-RAS+ tumors in the same cohort. [PMID:34493867](../papers/34493867.md)
+- Germline variants in ATM identified in 2 LCINS carriers (232-sample WGS cohort); [BRCA2](../genes/BRCA2.md) LOH enriched in RTK-RAS+ tumors in the same cohort. [PMID:34493867](../papers/34493867.md)
 - ATM cited as established HR-pathway gene and used as biological comparator; 3 [RAD51B](../genes/RAD51B.md) germline carriers were excluded from primary analysis because they co-harbored a deleterious variant in ATM [PMID:34635660](../papers/34635660.md)
 - No significant difference in ATM alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) on MSK-IMPACT; contradicts the prior Project GENIE-based analysis by Mahal et al. (NEJM 2020) [PMID:34667026](../papers/34667026.md)
 - ATM — germline pathogenic variants observed across MAPPYACTS cohort (n=624 pediatric relapsed/refractory patients); heterozygous chr11q deletions encompassing ATM, CHK1, MRE11A, and H2AFX considered actionable for PARP inhibitor matching [PMID:35292802](../papers/35292802.md)
 - ATM mutations present but rare in MSI-stable esophageal/GEJ adenocarcinoma (n=237); not independently driving the TP53-pathway signal, which was dominated by [TP53](../genes/TP53.md) truncating bi-allelic mutations and [MDM2](../genes/MDM2.md) amplification [PMID:35377946](../papers/35377946.md)
 - ATM listed among the 15 PROfound HRR genes; ATM alterations included in 10/51 (19.6%) PCBM qualifying by any PROfound gene and 8/51 (15.7%) with biallelic loss in a multi-region WGS study [PMID:35504881](../papers/35504881.md)
+- ATM exon 57 truncating mutation in osteosarcoma was associated with >1-year stable disease on a PARP-inhibitor plus ATR-inhibitor combination in an anecdotal MSK clinical case [PMID:35705558](../papers/35705558.md)
+- ATM is part of the DDR pathway altered in 9.6% of 2,138 MSK sarcomas; DDR pathway alteration highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), and [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -293,5 +295,11 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

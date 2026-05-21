@@ -20,7 +20,7 @@ PAX3 is a paired-box transcription factor. PAX3::[FOXO1](../genes/FOXO1.md) fusi
 - PAX3::[FOXO1](../genes/FOXO1.md) fusion — pathognomonic driver in FP-RMS; detected in 16/18 FP-RMS patients in a multi-institutional sequential genomic study (MSKCC + Institut Curie); detected in ctDNA at diagnosis in 100% of cases and at relapse in 86% of cases; fusion read counts quantified by UMIs correlate with disease burden and predict relapse [PMID:37730754](../papers/37730754.md).
 - Defining translocation partner in [ARMS](../cancer_types/ARMS.md) rhabdomyosarcoma: t(2;13) produces PAX3-FOXO1 fusion (n=35); alternative fusions PAX3-NCOA1 (RMS235, RMS2031) and PAX3-INO80D (RMS2046) identified in tumors classified as fusion-negative by RT-PCR [PMID:24436047](../papers/24436047.md)
 - PAX3-[FOXO1](../genes/FOXO1.md) fusion present in all Fusion+ [ARMS](../cancer_types/ARMS.md) PDX models in the PPTC cohort (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
-- PAX3–[FOXO3](../genes/FOXO3.md) fusion (t(2;6) translocation) detected by cWGTS reclassified an [ERMS](../cancer_types/ERMS.md) patient as ARMS; methylation tSNE clustered the patient with ARMS samples [PMID:35585047](../papers/35585047.md)
+- PAX3–[FOXO3](../genes/FOXO3.md) fusion (t(2;6) translocation) detected by cWGTS reclassified an [ERMS](../cancer_types/ERMS.md) patient as [ARMS](../cancer_types/ARMS.md); methylation tSNE clustered the patient with ARMS samples [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 

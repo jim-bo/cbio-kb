@@ -26,6 +26,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - G528C, V550L, and R650L hotspot mutations detected in two pediatric patients with rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) in the PIPseq cohort; classified as FGFR4-inhibitor targets [PMID:28007021](../papers/28007021.md).
 - Enriched in HR+ metastatic breast cancer specimens relative to paired primaries [PMID:30205045](../papers/30205045.md)
 - FGFR4 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). [PMID:35292802](../papers/35292802.md)
+- FGFR4 is part of the 4q12 kinase amplicon (with [KIT](../genes/KIT.md) and [KDR](../genes/KDR.md)) seen in osteosarcoma (10.7%), liposarcoma NOS (8.0%), and UPS/MFH (7.3%) in soft tissue and bone sarcomas; no direct FGFR4-specific mutation rate is reported for this gene [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

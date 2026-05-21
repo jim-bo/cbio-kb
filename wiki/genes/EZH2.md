@@ -43,7 +43,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Preferentially mutated in GCB-DLBCL; EZH2 mutations associated with better survival in GCB-DLBCL in the comprehensive genetic and functional driver analysis (n=1,001 patients) [PMID:28985567](../papers/28985567.md)
 - Identified via cited preclinical work (Ler et al. 2017; Wu et al. 2016) as part of the [BRD4](../genes/BRD4.md)–EZH2 chromatin-modification growth pathway whose inhibition is therapeutically tractable in KDM6A-loss bladder cancer; EZH2 inhibitors proposed alongside JQ1 for KDM6A-deficient MIBC [PMID:28988769](../papers/28988769.md)
 - EZH2 mutations are enriched in C3 GCB-DLBCL alongside [KMT2D](../genes/KMT2D.md), [CREBBP](../genes/CREBBP.md), and [EP300](../genes/EP300.md); GSEA shows concordant upregulation of EZH2 targets in C3 tumors. EZH2-targeted epigenetic therapy is proposed as a rational strategy for C3 [PMID:29713087](../papers/29713087.md)
-- Discussed as a therapeutic-target gene in [AML](../cancer_types/AML.md); LSD1/EZH2 inhibitors are a treatment strategy in the AML genomic landscape [PMID:30333627](../papers/30333627.md)
+- Discussed as a therapeutic-target gene in [AML](../cancer_types/AML.md); LSD1/EZH2 inhibitors are a treatment strategy in the [AML](../cancer_types/AML.md) genomic landscape [PMID:30333627](../papers/30333627.md)
 - EZH2 is a known histone-mark cluster driver identified in the expanded CCLE multi-omic profiling of 1,072 cancer cell lines [PMID:31068700](../papers/31068700.md)
 - EZH2 is part of the histone modification/DNA methylation pathway jointly mutated in 35.6% of 133 cHCC-ICC cases, alongside [KMT2D](../genes/KMT2D.md), [IDH1](../genes/IDH1.md), and [BAP1](../genes/BAP1.md) [PMID:31130341](../papers/31130341.md)
 - EZH2 inhibition +/- [cisplatin](../drugs/cisplatin.md) proposed as therapeutic strategy for SWI/SNF-mutant EpiC-high [UTUC](../cancer_types/UTUC.md) subtype based on prior NK-cell-activating mechanism; no in-paper EZH2 mutation data reported [PMID:33397444](../papers/33397444.md)
@@ -51,6 +51,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Dependency observed in SOX2-amplified LSCC cell lines; nominated as an actionable upstream regulator of undruggable [SOX2](../genes/SOX2.md) via chromatin modification in the 3q-amplified LSCC subtype [PMID:34358469](../papers/34358469.md)
 - EZH2 inhibitors were matched as investigational-tier treatments for SMARCA4/SMARCB1-inactivated tumors (27 events, including rhabdoid tumors MRT/ATRT) in the MAPPYACTS pediatric WES cohort (n=787). [PMID:35292802](../papers/35292802.md)
 - Trend toward dural-metastasis enrichment of EZH2-regulated targets (q=0.07) observed in prostate cancer brain metastases (PCBM) profiled by WES and RNA-seq (n=51) [PMID:35504881](../papers/35504881.md)
+- EZH2 inhibition rationale in uterine adenosarcoma ([UAS](../cancer_types/UAS.md)): given SWI/SNF-EZH2 synthetic lethality precedent in epithelioid sarcoma ([EPIS](../cancer_types/EPIS.md)), the 43% SWI/SNF-altered rate in UAS motivates exploration of [tazemetostat](../drugs/tazemetostat.md) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -99,55 +100,40 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28196596](../papers/28196596.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

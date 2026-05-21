@@ -37,7 +37,7 @@ processed_at: 2026-05-21
 - **n = 46** PDX/CDX models from 33 [SCLC](../cancer_types/SCLC.md) patients; 40/46 (87%) tissue-derived PDXs and 6/46 (13%) CDXs.
 - **Patient cohort:** 55% male, 45% female; average age 66 at diagnosis; 82% current or former smokers; 58% extensive-stage, 42% limited-stage at presentation.
 - **Cancer types:** primarily [SCLC](../cancer_types/SCLC.md); a subset of 4 never-smoker samples showed features consistent with histologic transformation from [LUAD](../cancer_types/LUAD.md).
-- **Engraftment:** 45/198 (23.81%) pure SCLC samples and 13/29 (44.83%) mixed-histology samples successfully engrafted; mean engraftment time 112 days.
+- **Engraftment:** 45/198 (23.81%) pure [SCLC](../cancer_types/SCLC.md) samples and 13/29 (44.83%) mixed-histology samples successfully engrafted; mean engraftment time 112 days.
 - **Key features:** includes 10 POU2F3-driven PDXs (SCLC-P subtype, all from one patient — MSK773), representing the first reported SCLC-P PDX models; 18 cases with paired clinical and matched PDX MSK-IMPACT data.
 
 ## Assays / panels (linked)
@@ -54,7 +54,7 @@ processed_at: 2026-05-21
 
 - [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) alterations were retained in 90% and 76% of PDX samples, respectively; 89% of paired clinical-PDX pairs (16/18) retained alterations in both genes [PMID:35440124](../papers/35440124.md).
 - 10 POU2F3-driven PDXs (MSK773 B–L) constitute the first SCLC-P (subtype P) PDX resource; all expressed [MYC](../genes/MYC.md) at protein and RNA level and upregulated YAP/TAZ downstream genes ([NOTCH2](../genes/NOTCH2.md), [NOTCH3](../genes/NOTCH3.md)) [PMID:35440124](../papers/35440124.md).
-- [YAP1](../genes/YAP1.md) protein was consistently absent or very low across the cohort, questioning YAP1 IHC as a defining marker for the YAP1 SCLC subtype [PMID:35440124](../papers/35440124.md).
+- [YAP1](../genes/YAP1.md) protein was consistently absent or very low across the cohort, questioning [YAP1](../genes/YAP1.md) IHC as a defining marker for the YAP1 SCLC subtype [PMID:35440124](../papers/35440124.md).
 - The MSK773 case (SCLC-P) shared somatic mutations and copy-number changes between SCLC and admixed lung adenocarcinoma components, supporting clonal origin and possible type II pneumocyte cell of origin for SCLC-P [PMID:35440124](../papers/35440124.md).
 - Two atypical clinical samples lacking [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) mutations harbored [KRAS](../genes/KRAS.md) and [MDM2](../genes/MDM2.md) co-amplifications, suggesting [MDM2](../genes/MDM2.md) amplification may phenocopy [TP53](../genes/TP53.md) inactivation [PMID:35440124](../papers/35440124.md).
 

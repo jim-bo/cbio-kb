@@ -4,8 +4,8 @@ oncotree_code: ODG
 main_type: Glioma
 parent: DIFG
 tags: [glioma, cns, IDH-mutant, 1p19q-codeleted]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Oligodendroglioma (ODG)
@@ -18,7 +18,7 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 
 - [difg_msk_2023](../datasets/difg_msk_2023.md) — 69 (53.9%) 1p19q codeleted oligodendrogliomas in the MSKCC IDH-mutant low-grade glioma active-surveillance cohort [PMID:37910594](../papers/37910594.md).
 - [difg_glass](../datasets/difg_glass.md) — 13 1p/19q-codeleted ODG patients in the GLASS International consortium longitudinal methylation study. [PMID:38117484](../papers/38117484.md)
-- 6 untreated grade II oligodendrogliomas (MGH36, MGH53, MGH54, MGH60, MGH93, MGH97), all IDH1/IDH2 mutant and 1p/19q co-deleted, profiled by Smart-seq2 single-cell RNA-seq (4,347 cells total); external validation in 69 bulk TCGA LGG oligodendroglioma samples. [PMID:27806376](../papers/27806376.md)
+- 6 untreated grade II oligodendrogliomas (MGH36, MGH53, MGH54, MGH60, MGH93, MGH97), all IDH1/IDH2 mutant and 1p/19q co-deleted, profiled by Smart-seq2 single-cell RNA-seq (4,347 cells total); external validation in 69 bulk TCGA [LGG](../cancer_types/LGG.md) oligodendroglioma samples. [PMID:27806376](../papers/27806376.md)
 
 ## Recurrent alterations
 
@@ -30,9 +30,10 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md) mutations and 1p/19q co-deletion confirmed in all 6 tumors; subclonal [CIC](../genes/CIC.md) mutation (~30% VAF) in MGH53 upregulates [ETV1](../genes/ETV1.md)/[ETV5](../genes/ETV5.md). CNV subclones and point mutations span all three developmental compartments, arguing that ODG architecture is primarily driven by non-genetic, developmental programs. [PMID:27806376](../papers/27806376.md)
 - [CCND2](../genes/CCND2.md) is preferentially expressed in the stem/progenitor compartment; differentiated cells express [CCND1](../genes/CCND1.md)/[CCND3](../genes/CCND3.md) — mirroring normal neural development. [PMID:27806376](../papers/27806376.md)
 - TCGA pan-glioma study included 174 oligodendroglioma cases (17% of 1,122-patient cohort); oligodendroglioma corresponds to the Codel (1p/19q co-deleted, IDH-mutant) subgroup with methylation cluster LGm1–3 and best-prognosis outcome [PMID:26824661](../papers/26824661.md)
-- 1p/19q codeletion was a significant predictor of PFS (P=0.03) and OS (P<0.001) in the odg_msk_2017 phase II trial (n=33 codeleted patients: 5-year PFS 50.3%, 5-year OS 93.4%); 1p/19q-intact tumors displayed glioblastoma-like NGS signatures (EGFR amplification, NF1, MDM2; IDH1/2 wild-type) and progressed early, arguing against chemotherapy-only strategies without codeletion. [PMID:28472509](../papers/28472509.md)
-- In a 923-patient diffuse glioma cohort, 1p/19q-codeleted oligodendrogliomas did not show enrichment of cell-cycle alterations in enhancing tumors (3% vs 4%); alkylator-induced hypermutation was not associated with the 1p19q-codeleted subgroup; TERT promoter and CIC/FUBP1/ATRX alterations were stable across primary vs recurrent specimens [PMID:31263031](../papers/31263031.md).
-- IDH-mutant 1p/19q co-deleted oligodendroglioma (IDHmut-codel, n=25) showed alkylating-agent-induced hypermutation rate of 25% and stable driver retention at recurrence; IDH1 R132H was universally retained and generated the most common clonal neoantigen [PMID:31748746](../papers/31748746.md)
+- 1p/19q codeletion was a significant predictor of PFS (P=0.03) and [OS](../cancer_types/OS.md) (P<0.001) in the [odg_msk_2017](../datasets/odg_msk_2017.md) phase II trial (n=33 codeleted patients: 5-year PFS 50.3%, 5-year OS 93.4%); 1p/19q-intact tumors displayed glioblastoma-like NGS signatures ([EGFR](../genes/EGFR.md) amplification, [NF1](../genes/NF1.md), [MDM2](../genes/MDM2.md); IDH1/2 wild-type) and progressed early, arguing against chemotherapy-only strategies without codeletion. [PMID:28472509](../papers/28472509.md)
+- In a 923-patient diffuse glioma cohort, 1p/19q-codeleted oligodendrogliomas did not show enrichment of cell-cycle alterations in enhancing tumors (3% vs 4%); alkylator-induced hypermutation was not associated with the 1p19q-codeleted subgroup; [TERT](../genes/TERT.md) promoter and CIC/FUBP1/ATRX alterations were stable across primary vs recurrent specimens [PMID:31263031](../papers/31263031.md).
+- IDH-mutant 1p/19q co-deleted oligodendroglioma (IDHmut-codel, n=25) showed alkylating-agent-induced hypermutation rate of 25% and stable driver retention at recurrence; [IDH1](../genes/IDH1.md) R132H was universally retained and generated the most common clonal neoantigen [PMID:31748746](../papers/31748746.md)
+- In the GLASS longitudinal cohort (n=9 IDHmut-codel oligodendroglioma with RNA-seq), IDHmut-codel tumors remained proneural at both timepoints in 78% of all IDHmut cases; HLA LOH was acquired more frequently at recurrence in IDHmut-noncodel vs codel tumors [PMID:35649412](../papers/35649412.md).
 
 ## Subtypes
 
@@ -55,9 +56,12 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31748746](../papers/31748746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

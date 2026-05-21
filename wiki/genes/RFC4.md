@@ -32,7 +32,7 @@ RFC4 encodes replication factor C subunit 4, a component of the RFC clamp-loader
 
 ## Open questions
 
-- Whether RFC4 missense alone is sufficient to drive the hypermutation phenotype or acts as a modifier to the POLD1 frameshift is not established.
+- Whether RFC4 missense alone is sufficient to drive the hypermutation phenotype or acts as a modifier to the [POLD1](../genes/POLD1.md) frameshift is not established.
 
 ## Sources
 

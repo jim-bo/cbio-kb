@@ -16,6 +16,7 @@ POU2F3 (POU Class 2 Homeobox 3) is a transcription factor that defines a distinc
 ## Alterations observed in the corpus
 
 - POU2F3 is a subtype-defining transcriptional regulator in [SCLC](../cancer_types/SCLC.md) characterizing the SCLC-P (POU2F3-positive) subtype, with uniformly high [MYC](../genes/MYC.md) expression in POU2F3-driven PDXs; NOTCH1/2/3 downstream YAP/TAZ pathway upregulated in SCLC-P models; all 10 SCLC-P PDX models derived from a single patient (MSK773), representing the first SCLC-P in-vivo system for subtype-specific drug testing [PMID:35440124](../papers/35440124.md)
+- POU2F3 evaluated as an [SCLC](../cancer_types/SCLC.md) subtype transcription factor in aSCLC (RB1-proficient, TP53-proficient SCLC; n=20, MSK-IMPACT/WGS); all evaluated aSCLC were ASCL1-dominant; POU2F3 subtype was assessed but not dominant in this cohort [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -38,5 +39,8 @@ POU2F3 (POU Class 2 Homeobox 3) is a transcription factor that defines a distinc
 ## Sources
 
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

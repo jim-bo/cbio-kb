@@ -7,7 +7,7 @@ tags:
   - homologous-recombination
   - DNA-repair
   - HRD
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -30,6 +30,7 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - Part of the 15 PROfound HRR genes assessed in 51 prostate cancer brain metastases (PCBM); 10/51 (19.6%) patients qualified by alteration in any HRR gene, 8/51 (15.7%) had biallelic loss in at least one [PMID:35504881](../papers/35504881.md)
 - RAD51B part of DNA damage repair gene set ([ATM](../genes/ATM.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [PALB2](../genes/PALB2.md), RAD51B, [RAD51D](../genes/RAD51D.md), [RAD52](../genes/RAD52.md), [RAD54L](../genes/RAD54L.md)) with collectively 2.5% pathogenic alterations across 7,494 sarcomas; biallelic in 1.0% [PMID:35705558](../papers/35705558.md)
 - RAD51B part of DDR pathway altered in 9.6% of all sarcomas; highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
+- Pathogenic germline RAD51B alteration identified in 1 of 73 consented colitis-associated colorectal cancer (CAC) patients; overall germline alteration frequency in CAC similar to sporadic CRC [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -69,3 +70,6 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

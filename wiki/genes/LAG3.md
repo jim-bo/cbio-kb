@@ -19,7 +19,7 @@ LAG3 (Lymphocyte Activation Gene 3, CD223) is an inhibitory immune checkpoint re
 - Approximately 14% of [CD4](../genes/CD4.md)+ T cells in [HGSOC](../cancer_types/HGSOC.md) precursor specimens expressed LAG3, co-existing with other exhaustion/activation markers (HLA-DR, PD1). [PMID:39386723](../papers/39386723.md)
 - Inhibitory receptor on exhausted T cells; LBL-007 + [toripalimab](../drugs/toripalimab.md) achieved ORR 33.3% in ICI-naïve [NPC](../cancer_types/NPC.md), and [relatlimab](../drugs/relatlimab.md) + [nivolumab](../drugs/nivolumab.md) is under evaluation in the randomized REMAIN trial [PMID:24952746](../papers/24952746.md)
 - No significant differential expression of LAG3 between anti-PD-1 responders vs non-responders in whole-tumor transcriptome analysis of metastatic melanoma (n=28 RNA-seq) [PMID:26997480](../papers/26997480.md)
-- LAG3 expression increased on-therapy during nivolumab treatment in melanoma patients regardless of response, as part of a broad immune checkpoint gene upregulation signature (also including [PDCD1](../genes/PDCD1.md), [CD274](../genes/CD274.md), CTLA-4, [ICOS](../genes/ICOS.md), and [TNFRSF9](../genes/TNFRSF9.md)) [PMID:29033130](../papers/29033130.md)
+- LAG3 expression increased on-therapy during [nivolumab](../drugs/nivolumab.md) treatment in melanoma patients regardless of response, as part of a broad immune checkpoint gene upregulation signature (also including [PDCD1](../genes/PDCD1.md), [CD274](../genes/CD274.md), CTLA-4, [ICOS](../genes/ICOS.md), and [TNFRSF9](../genes/TNFRSF9.md)) [PMID:29033130](../papers/29033130.md)
 - Overexpressed in IG3 immune-hot pMMR/MSS LARC tumors (along with PD-1, PD-L1, [CTLA4](../genes/CTLA4.md), TIM3), nominating this subset (~8% of pMMR/MSS) for ICI trials [PMID:35970919](../papers/35970919.md)
 
 ## Cancer types (linked)
@@ -28,8 +28,8 @@ LAG3 (Lymphocyte Activation Gene 3, CD223) is an inhibitory immune checkpoint re
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with [PDCD1](../genes/PDCD1.md) (PD-1), [HAVCR2](../genes/HAVCR2.md) (TIM-3), and [CTLA4](../genes/CTLA4.md) on CD8+ T cells across HGSOC precursor stages; PD1+LAG3+ double-positive cells represent the most exhausted T-cell compartment. [PMID:39386723](../papers/39386723.md)
-- LAG3 expression on CD4+ T cells co-exists with HLA-DR+ and PD1+ markers, indicating mixed activation/exhaustion states. [PMID:39386723](../papers/39386723.md)
+- Co-upregulated with [PDCD1](../genes/PDCD1.md) (PD-1), [HAVCR2](../genes/HAVCR2.md) (TIM-3), and [CTLA4](../genes/CTLA4.md) on CD8+ T cells across [HGSOC](../cancer_types/HGSOC.md) precursor stages; PD1+LAG3+ double-positive cells represent the most exhausted T-cell compartment. [PMID:39386723](../papers/39386723.md)
+- LAG3 expression on [CD4](../genes/CD4.md)+ T cells co-exists with HLA-DR+ and PD1+ markers, indicating mixed activation/exhaustion states. [PMID:39386723](../papers/39386723.md)
 
 ## Therapeutic relevance
 

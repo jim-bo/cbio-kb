@@ -22,8 +22,8 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 ## Recurrent alterations
 
 - Complex karyotype: LMS clusters with [DDLS](../cancer_types/DDLS.md), [PLLS](../cancer_types/PLLS.md), and [MFS](../cancer_types/MFS.md) as complex-karyotype subtypes with copy-neutral LOH. [PMID:20601955](../papers/20601955.md)
-- [TP53](../genes/TP53.md) — mutations in 56% STLMS and 55% [ULMS](../cancer_types/ULMS.md); deletions in 12% STLMS and 16% ULMS. Truncal clonal event. [PMID:38488807](../papers/38488807.md)
-- [RB1](../genes/RB1.md) — mutations in 26% STLMS and 13% ULMS; deletions in 24% STLMS and 39% ULMS. Key component of STLMS genomic risk model. [PMID:38488807](../papers/38488807.md)
+- [TP53](../genes/TP53.md) — mutations in 56% STLMS and 55% [ULMS](../cancer_types/ULMS.md); deletions in 12% STLMS and 16% [ULMS](../cancer_types/ULMS.md). Truncal clonal event. [PMID:38488807](../papers/38488807.md)
+- [RB1](../genes/RB1.md) — mutations in 26% STLMS and 13% [ULMS](../cancer_types/ULMS.md); deletions in 24% STLMS and 39% ULMS. Key component of STLMS genomic risk model. [PMID:38488807](../papers/38488807.md)
 - [ATRX](../genes/ATRX.md) — mutations in 10% STLMS and 32% ULMS; prognostically significant in both STLMS and ULMS risk models. [PMID:38488807](../papers/38488807.md)
 - [PTEN](../genes/PTEN.md) — deletions/mutations in 12% STLMS and 18% ULMS. [PMID:38488807](../papers/38488807.md)
 - [CDKN2A](../genes/CDKN2A.md) — deletions in 10% ULMS vs. 2.6% STLMS. [PMID:38488807](../papers/38488807.md)
@@ -42,9 +42,9 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 
 ## Therapeutic landscape
 
-- Genomic risk stratification using clinically available targeted NGS ([RB1](../genes/RB1.md), ATRX, chr12q status for STLMS; [TP53](../genes/TP53.md), ATRX, chr20q status for ULMS) outperforms or equals FNCLCC grading for prognostic prediction. [PMID:38488807](../papers/38488807.md)
-- IHC for TP53, RB1, and ATRX may serve as surrogate biomarkers enabling risk stratification in settings without NGS access. [PMID:38488807](../papers/38488807.md)
-- Simplified model (RB1 + ATRX alterations only) validated across different NGS platforms in AACR GENIE cohort (P=0.00013). [PMID:38488807](../papers/38488807.md)
+- Genomic risk stratification using clinically available targeted NGS ([RB1](../genes/RB1.md), [ATRX](../genes/ATRX.md), chr12q status for STLMS; [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), chr20q status for ULMS) outperforms or equals FNCLCC grading for prognostic prediction. [PMID:38488807](../papers/38488807.md)
+- IHC for [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), and ATRX may serve as surrogate biomarkers enabling risk stratification in settings without NGS access. [PMID:38488807](../papers/38488807.md)
+- Simplified model ([RB1](../genes/RB1.md) + ATRX alterations only) validated across different NGS platforms in AACR GENIE cohort (P=0.00013). [PMID:38488807](../papers/38488807.md)
 
 ## Sources
 

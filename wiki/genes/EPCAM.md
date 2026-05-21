@@ -32,7 +32,7 @@ EPCAM (Epithelial Cell Adhesion Molecule) is a cell-surface glycoprotein that ma
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [KRT19](../genes/KRT19.md) and [GPC3](../genes/GPC3.md) as a progenitor-cell signature in HCC [PMID:24735922](../papers/24735922.md)
+- Co-expressed with [KRT19](../genes/KRT19.md) and [GPC3](../genes/GPC3.md) as a progenitor-cell signature in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
 
 ## Therapeutic relevance
 

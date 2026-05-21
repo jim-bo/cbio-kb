@@ -31,7 +31,7 @@ ABCA4 (ATP Binding Cassette Subfamily A Member 4) encodes a retina-specific ABC 
 
 ## Therapeutic relevance
 
-- No direct therapeutic agent targeting ABCA4 in cSCC; 3′UTR alterations proposed as candidate biomarkers and as potential miRNA-targeting sites (miR-331-5p predicted to target multiple CSCC drivers in the same cohort) [PMID:35982973](../papers/35982973.md)
+- No direct therapeutic agent targeting ABCA4 in cSCC; 3′UTR alterations proposed as candidate biomarkers and as potential miRNA-targeting sites (miR-331-5p predicted to target multiple [CSCC](../cancer_types/CSCC.md) drivers in the same cohort) [PMID:35982973](../papers/35982973.md)
 
 ## Open questions
 

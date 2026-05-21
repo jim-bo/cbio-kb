@@ -10,7 +10,7 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -64,6 +64,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cisplatin is referenced as part of FOLFOX/FLOT regimens (5-FU/leucovorin/oxaliplatin ± [docetaxel](../drugs/docetaxel.md)) in neoadjuvant treatment of 237 locally advanced esophageal/GEJ adenocarcinoma patients; FOLFOX was significantly associated with better pathologic response than carboplatin/paclitaxel (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
 - Cisplatin (with [carboplatin](../drugs/carboplatin.md) + [etoposide](../drugs/etoposide.md) and [atezolizumab](../drugs/atezolizumab.md) or [durvalumab](../drugs/durvalumab.md)) is noted as first-line platinum-based chemoimmunotherapy standard for extensive-stage [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md)
 - In a sarcoma patient with [ATM](../genes/ATM.md) exon 57 truncation, failure of prior doxorubicin/cisplatin chemotherapy preceded enrollment in PARP + ATR-inhibitor combination trial, yielding >1-year stable disease; authors cite cisplatin as part of the standard prior-treatment backdrop in heavily pre-treated sarcoma (median 4 prior therapies) [PMID:35705558](../papers/35705558.md).
+- Cisplatin-based chemotherapy (with [etoposide](../drugs/etoposide.md)) achieved only ~33% CR/PR in atypical SCLC (aSCLC), substantially below the conventional SCLC benchmark of ~70%; aSCLC is defined by RB1+/TP53+ status and chromothripsis [PMID:39185963](../papers/39185963.md).
 
 ## Resistance mechanisms
 
@@ -124,3 +125,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

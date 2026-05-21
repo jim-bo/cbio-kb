@@ -56,7 +56,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 ## Open questions
 
-- Frequency of biallelic somatic inactivation in germline PALB2 carriers in PDAC, and whether this mirrors the BRCA2 pattern (strong selection for biallelic LOH), is not specifically reported in this cohort due to small numbers. [PMID:39753968](../papers/39753968.md)
+- Frequency of biallelic somatic inactivation in germline PALB2 carriers in PDAC, and whether this mirrors the [BRCA2](../genes/BRCA2.md) pattern (strong selection for biallelic LOH), is not specifically reported in this cohort due to small numbers. [PMID:39753968](../papers/39753968.md)
 
 ## Sources
 

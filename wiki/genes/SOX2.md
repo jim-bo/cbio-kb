@@ -27,11 +27,11 @@ SOX2 (SRY-Box Transcription Factor 2) is a transcription factor essential for ma
 
 ## Cancer types (linked)
 
-- [ESCC](../cancer_types/ESCC.md): SOX2 amplification at 3q is one of the most prevalent copy-number events in [ESCC](../cancer_types/ESCC.md); co-amplification with TP63 defines a squamous lineage identity marker enriched in the ESCC1 subtype. Subtype-directed Hippo/YAP1-targeted approaches are proposed for SOX2/TP63-amplified ESCC1 tumors. [PMID:28052061](../papers/28052061.md)
+- [ESCC](../cancer_types/ESCC.md): SOX2 amplification at 3q is one of the most prevalent copy-number events in [ESCC](../cancer_types/ESCC.md); co-amplification with [TP63](../genes/TP63.md) defines a squamous lineage identity marker enriched in the ESCC1 subtype. Subtype-directed Hippo/YAP1-targeted approaches are proposed for SOX2/TP63-amplified ESCC1 tumors. [PMID:28052061](../papers/28052061.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-amplified with [TP63](../genes/TP63.md) at the 3q locus in ESCC; this amplicon defines squamous lineage and is enriched in ESCC1. [PMID:28052061](../papers/28052061.md)
+- Co-amplified with [TP63](../genes/TP63.md) at the 3q locus in [ESCC](../cancer_types/ESCC.md); this amplicon defines squamous lineage and is enriched in ESCC1. [PMID:28052061](../papers/28052061.md)
 
 ## Therapeutic relevance
 

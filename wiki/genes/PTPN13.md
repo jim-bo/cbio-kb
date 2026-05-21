@@ -19,7 +19,7 @@ PTPN13 (Protein Tyrosine Phosphatase Non-Receptor Type 13, also known as FAP-1 o
 
 ## Cancer types (linked)
 
-- **CSCC (cutaneous squamous cell carcinoma):** structural deletion in metastatic nodal disease WGS cohort [PMID:35982973](../papers/35982973.md)
+- **[CSCC](../cancer_types/CSCC.md) (cutaneous squamous cell carcinoma):** structural deletion in metastatic nodal disease WGS cohort [PMID:35982973](../papers/35982973.md)
 
 ## Co-occurrence and mutual exclusivity
 

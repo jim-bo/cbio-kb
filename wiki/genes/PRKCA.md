@@ -20,7 +20,7 @@ PRKCA encodes protein kinase C alpha (PKC-alpha), a calcium-dependent serine/thr
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)**: Reduced PRKCA kinase activity by KSEA in a 122-patient European HCC cohort with multi-omics profiling [PMID:35508466](../papers/35508466.md)
+- **[HCC](../cancer_types/HCC.md)**: Reduced PRKCA kinase activity by KSEA in a 122-patient European [HCC](../cancer_types/HCC.md) cohort with multi-omics profiling [PMID:35508466](../papers/35508466.md)
 
 ## Co-occurrence and mutual exclusivity
 

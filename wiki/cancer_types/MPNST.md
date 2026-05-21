@@ -43,7 +43,7 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 ## Subtypes
 
 - **Radiation-associated MPNST (RT-MPNST):** Distinguished by near-universal CDKN2A/B deletions (92%), high [NF1](../genes/NF1.md) inactivation (67%), and the highest [FGA](../genes/FGA.md) among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years [PMID:37350195](../papers/37350195.md).
-- **Sporadic MPNST:** Lower rates of CDKN2A/B deletion (44%), NF1 inactivation (36%), and lower [FGA](../genes/FGA.md) (31%) [PMID:37350195](../papers/37350195.md).
+- **Sporadic MPNST:** Lower rates of CDKN2A/B deletion (44%), [NF1](../genes/NF1.md) inactivation (36%), and lower [FGA](../genes/FGA.md) (31%) [PMID:37350195](../papers/37350195.md).
 
 ## Therapeutic landscape
 
@@ -52,7 +52,7 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 12 RT-MPNSTs.
-- [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas (NF1 in MPNST cited as prior established biology).
+- [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas ([NF1](../genes/NF1.md) in MPNST cited as prior established biology).
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25240281](../papers/25240281.md)

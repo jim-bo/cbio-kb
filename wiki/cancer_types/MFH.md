@@ -22,8 +22,8 @@ Undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)), historical
 
 ## Recurrent alterations
 
-- [TP53](../genes/TP53.md) LOF mutations/deletions in 43% of RT-UPS vs 57% sporadic UPS [PMID:37350195](../papers/37350195.md).
-- [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions in 29% of RT-UPS vs 20% sporadic UPS [PMID:37350195](../papers/37350195.md).
+- [TP53](../genes/TP53.md) LOF mutations/deletions in 43% of RT-UPS vs 57% sporadic [UPS](../cancer_types/UPS.md) [PMID:37350195](../papers/37350195.md).
+- [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions in 29% of RT-UPS vs 20% sporadic [UPS](../cancer_types/UPS.md) [PMID:37350195](../papers/37350195.md).
 - [KMT2D](../genes/KMT2D.md) truncating/missense mutations in 21% of RT-UPS vs 4% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - [RB1](../genes/RB1.md) truncating mutations/deletions in 14% of RT-UPS vs 19% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - [NOTCH3](../genes/NOTCH3.md) missense mutations in 14% of RT-UPS vs 4% sporadic UPS [PMID:37350195](../papers/37350195.md).

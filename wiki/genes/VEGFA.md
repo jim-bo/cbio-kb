@@ -32,7 +32,7 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 - **[HCC](../cancer_types/HCC.md)** — VEGFA amplification in 5%; angiogenic signaling prominent across all [HCC](../cancer_types/HCC.md) subclasses; mechanistic target of [sorafenib](../drugs/sorafenib.md), [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), [ramucirumab](../drugs/ramucirumab.md), and [bevacizumab](../drugs/bevacizumab.md). [PMID:24798001](../papers/24798001.md)
 - **[NPC](../cancer_types/NPC.md)** — VEGFA pathway targeted via [bevacizumab](../drugs/bevacizumab.md) (ORR 54.5% combined with [sintilimab](../drugs/sintilimab.md)) and VEGFR2 TKI [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%) in R/M disease. [PMID:24952746](../papers/24952746.md)
 - **[SKCM](../cancer_types/SKCM.md)** — VEGFA up-regulation in non-responding pre-treatment tumors as part of IPRES; linked to innate anti-PD-1 resistance [PMID:26997480](../papers/26997480.md).
-- **[EGC](../cancer_types/EGC.md) / [ESCA](../cancer_types/ESCA.md)** — Recurrent focal amplification at ≥5% prevalence in EAC (N=487 MSK-IMPACT); one of 10 amplification-driven recurrent drivers; no independent [OS](../cancer_types/OS.md) association in this cohort. [PMID:33795256](../papers/33795256.md)
+- **[EGC](../cancer_types/EGC.md) / [ESCA](../cancer_types/ESCA.md)** — Recurrent focal amplification at ≥5% prevalence in [EAC](../cancer_types/EAC.md) (N=487 MSK-IMPACT); one of 10 amplification-driven recurrent drivers; no independent [OS](../cancer_types/OS.md) association in this cohort. [PMID:33795256](../papers/33795256.md)
 
 ## Co-occurrence and mutual exclusivity
 

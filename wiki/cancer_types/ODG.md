@@ -4,7 +4,7 @@ oncotree_code: ODG
 main_type: Glioma
 parent: DIFG
 tags: [glioma, cns, IDH-mutant, 1p19q-codeleted]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -34,6 +34,7 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - In a 923-patient diffuse glioma cohort, 1p/19q-codeleted oligodendrogliomas did not show enrichment of cell-cycle alterations in enhancing tumors (3% vs 4%); alkylator-induced hypermutation was not associated with the 1p19q-codeleted subgroup; [TERT](../genes/TERT.md) promoter and CIC/FUBP1/ATRX alterations were stable across primary vs recurrent specimens [PMID:31263031](../papers/31263031.md).
 - IDH-mutant 1p/19q co-deleted oligodendroglioma (IDHmut-codel, n=25) showed alkylating-agent-induced hypermutation rate of 25% and stable driver retention at recurrence; [IDH1](../genes/IDH1.md) R132H was universally retained and generated the most common clonal neoantigen [PMID:31748746](../papers/31748746.md)
 - In the GLASS longitudinal cohort (n=9 IDHmut-codel oligodendroglioma with RNA-seq), IDHmut-codel tumors remained proneural at both timepoints in 78% of all IDHmut cases; HLA LOH was acquired more frequently at recurrence in IDHmut-noncodel vs codel tumors [PMID:35649412](../papers/35649412.md).
+- A multi-omics review (Babu & Snyder 2023) cites multi-omics of oligodendroglial tumors (Kamoun et al. 2016) identifying three molecular subgroups of 1p/19q co-deleted gliomas as a landmark integrative cancer-subtyping effort [PMID:37119971](../papers/37119971.md)
 
 ## Subtypes
 
@@ -65,3 +66,6 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

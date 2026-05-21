@@ -68,6 +68,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - RNA and protein levels concordantly upregulated alongside KRAS/RAC1/PAK1/PAK2 in [PAAD](../cancer_types/PAAD.md); positioned as a downstream effector node in the [KRAS](../genes/KRAS.md)→[RAC1](../genes/RAC1.md) signaling axis [PMID:34534465](../papers/34534465.md).
 - MET focal amplifications mediated bypass resistance to [selpercatinib](../drugs/selpercatinib.md) in RET-fusion [NSCLC](../cancer_types/NSCLC.md); one patient with subclonal pre-treatment MET amplification re-responded to [selpercatinib](../drugs/selpercatinib.md) + [crizotinib](../drugs/crizotinib.md) combination, demonstrating MET-mediated bypass as an actionable mechanism [PMID:35304457](../papers/35304457.md).
 - MET catalogued as a pan-cancer fusion driver with multiple novel partner genes in the OncoMark pan-cancer dataset of ~8,900 Chinese solid-tumor patients [PMID:35871175](../papers/35871175.md)
+- Pten-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in this context; loss of both FASN and [SREBF2](../genes/SREBF2.md) is required to fully abolish tumor growth [PMID:38355797](../papers/38355797.md)
 
 ## Cancer types (linked)
 
@@ -193,5 +194,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

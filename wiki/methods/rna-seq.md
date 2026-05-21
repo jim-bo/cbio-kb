@@ -66,7 +66,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used in TCGA ChRCC project (66 tumors) to profile gene expression, identify distal-nephron cell-of-origin signatures, characterize mtDNA-mutant transcriptomes, and assess [TERT](../genes/TERT.md) expression levels. [PMID:25155756](../papers/25155756.md)
 - Used on Illumina HiSeq 2500 (GEO GSE272957) to profile transcriptomes of EWS::FLI1-transduced heMSCs vs controls, identifying 3,836 DEGs and Ewing sarcoma gene-expression signatures. [PMID:25186949](../papers/25186949.md)
 - Used on Illumina HiSeq to profile seven prostate cancer organoid lines; identified TMPRSS2-ERG fusion status, [SPINK1](../genes/SPINK1.md) overexpression, and confirmed gene-expression concordance between organoids and parental tumor tissue. [PMID:25201530](../papers/25201530.md)
-- Used in [MPNST](../cancer_types/MPNST.md) discovery cohort (15 tumors, 51 bp PE, Illumina HiSeq-2500, hg19, STAR v2.3); RNA-seq was essential to detect [SUZ12](../genes/SUZ12.md) structural rearrangements missed by WES, and revealed 455/479 differentially expressed genes upregulated in PRC2-loss tumors [PMID:25240281](../papers/25240281.md)
+- Used in [MPNST](../cancer_types/MPNST.md) discovery cohort (15 tumors, 51 bp PE, Illumina HiSeq-2500, hg19, [STAR](../genes/STAR.md) v2.3); RNA-seq was essential to detect [SUZ12](../genes/SUZ12.md) structural rearrangements missed by WES, and revealed 455/479 differentially expressed genes upregulated in PRC2-loss tumors [PMID:25240281](../papers/25240281.md)
 - Applied to 159 nccRCC tumors (TruSeq, HiSeq 2000, ~68M PE reads/sample); enabled a 5-gene classifier (ASB1, GLYAT, PDZK1IP1, PLCG2, SDCBP2) achieving 95.3% subtype accuracy and detection of novel ACTG1-MITF and CLTC-TFEB fusions [PMID:25401301](../papers/25401301.md)
 - Used in TCGA papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md)) multiplatform study to derive BRAFV600E-RAS Score (BRS) from a 71-gene expression signature and Thyroid Differentiation Score (TDS) from 16 metabolism genes, enabling molecular reclassification of 496 PTCs [PMID:25417114](../papers/25417114.md)
 - Applied to 279 [HNSC](../cancer_types/HNSC.md) tumors for HPV status determination (E6/E7 read mapping; threshold >1,000 reads) and expression subtype classification (atypical/mesenchymal/basal/classical), as well as structural variant detection including [MET](../genes/MET.md) exon-14 skipping [PMID:25631445](../papers/25631445.md)
@@ -135,8 +135,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Whole-transcriptome RNA-seq performed on 101/114 patients in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline; enabled novel fusion gene discovery and orthogonal validation of SVs in pediatric/AYA solid tumors [PMID:35585047](../papers/35585047.md)
 - Applied to all 40 metastatic CRPC models (organoids, PDXs, cell lines) and 366 CRPC patients (SU2C + WCM cohorts) in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md); polyA-enriched RNA-seq data used for CRPC subtype classification via Nearest Template Prediction [PMID:35617398](../papers/35617398.md)
 - Bulk RNA-seq (STAR + kallisto alignment to b37) generated for 392 longitudinal glioma samples from 206 patients in the GLASS expansion cohort; transcriptional subtype switching (e.g. classical→mesenchymal) and cell-state deconvolution were primary analytical outputs [PMID:35649412](../papers/35649412.md)
-- Applied to 942 [AML](../cancer_types/AML.md) specimens with conditional quantile normalization (CQN) parameters carried over from Beat AML Waves 1+2; used to derive maturation-state PC1 scores, WGCNA module eigengenes, and [PEAR1](../genes/PEAR1.md) expression for survival modeling [PMID:35868306](../papers/35868306.md)
+- Applied to 942 [AML](../cancer_types/AML.md) specimens with conditional quantile normalization (CQN) parameters carried over from Beat [AML](../cancer_types/AML.md) Waves 1+2; used to derive maturation-state PC1 scores, WGCNA module eigengenes, and [PEAR1](../genes/PEAR1.md) expression for survival modeling [PMID:35868306](../papers/35868306.md)
 - Applied to 114 pre-treatment rectal adenocarcinoma endoscopic biopsies; identified [IGF2](../genes/IGF2.md) and [L1CAM](../genes/L1CAM.md) overexpression in incomplete NAT responders, and immune clustering revealed a ~8% immune-hot pMMR/MSS subset (IG3) with checkpoint-gene overexpression [PMID:35970919](../papers/35970919.md)
+- Applied to CAC samples to assess Wnt-pathway ssGSEA scores (lower in CAC than sporadic CRC, P=0.13 in 11 patients), confirm Wnt-independence in pathway-wild-type CAC, and characterize dominant SBS1 mutational signature in the WES subset [PMID:36611031](../papers/36611031.md)
+- Reviewed as a core transcriptomics modality in multi-omics integration; CPTAC cited as incorporating RNA-seq data across 32+ cancer types alongside proteomics, CNV, and methylation for comprehensive molecular cancer characterization [PMID:37119971](../papers/37119971.md)
+- Applied to 7 of 49 aSCLC specimens; confirmed ASCL1-dominant subtype, absent [YAP1](../genes/YAP1.md), uniformly high [DLL3](../genes/DLL3.md) and [SEZ6](../genes/SEZ6.md) expression (mean H scores 278 and 240 by IHC); identified SH3RF3-CCND1 enhancer-hijacking mechanism in case A17 with [CCND1](../genes/CCND1.md) overexpression without amplification [PMID:39185963](../papers/39185963.md)
 
 ## Notes
 
@@ -480,5 +483,14 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

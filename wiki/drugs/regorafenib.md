@@ -15,8 +15,8 @@ unverified: true
 tags:
   - targeted-therapy
   - anti-angiogenic
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-05-21
 ---
 
 # regorafenib
@@ -33,6 +33,7 @@ Regorafenib is an oral multi-kinase inhibitor with FDA approvals in metastatic c
 - Multi-kinase inhibitor (PDGFRA/KDR/KIT co-amplification); used as targeted therapy in 4 recurrent/metastatic adenoid cystic carcinoma (ACYC) patients matched by MSK-IMPACT profiling in head and neck cancer basket study [PMID:27442865](../papers/27442865.md)
 - Regorafenib (second-line TKI approved for HCC) was discussed in the systemic therapy landscape for 127 advanced [HCC](../cancer_types/HCC.md) patients at MSKCC; oncogenic PI3K-mTOR pathway alterations (n=12/79 sorafenib-evaluable patients) were associated with worse sorafenib outcomes (PFS HR 3.8, OS HR 2.5), motivating mTOR-pathway salvage strategies such as those explored in NCI-MATCH [PMID:30373752](../papers/30373752.md).
 - In a phosphoproteogenomic HCC dataset (n=122 biopsies), sorafenib/regorafenib are cited as agents with potential synergy with Aurora kinase and CDK inhibitors, which show elevated activity by KSEA in HCC versus normal liver [PMID:35508466](../papers/35508466.md)
+- Regorafenib is a second-line standard-of-care TKI for advanced [HCC](../cancer_types/HCC.md); resistance is driven by [SCD](../genes/SCD.md)-mediated MUFA enrichment that lowers PUFA:MUFA ratio and suppresses ER-stress–induced apoptosis; SCD inhibitors (aramchol, A939572, MF-438, SSI-4/MTI-301) re-sensitize HCC cells to regorafenib [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -52,3 +53,6 @@ Regorafenib is an oral multi-kinase inhibitor with FDA approvals in metastatic c
 - [PMID:39305899](../papers/39305899.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

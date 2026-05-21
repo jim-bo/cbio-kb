@@ -41,7 +41,7 @@ PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an 
 
 ## Therapeutic relevance
 
-- 9p24.1 amplification provides mechanistic rationale for PD-L1/PD-L2 checkpoint blockade (anti-PD-1/PD-L1 antibodies) in EBV-positive gastric cancer; concurrent [JAK2](../genes/JAK2.md) amplification may further support JAK2 inhibitor evaluation in this genomic context [PMID:25079317](../papers/25079317.md)
+- 9p24.1 amplification provides mechanistic rationale for PD-L1/PD-L2 checkpoint blockade (anti-PD-1/PD-L1 antibodies) in EBV-positive gastric cancer; concurrent [JAK2](../genes/JAK2.md) amplification may further support [JAK2](../genes/JAK2.md) inhibitor evaluation in this genomic context [PMID:25079317](../papers/25079317.md)
 
 ## Open questions
 

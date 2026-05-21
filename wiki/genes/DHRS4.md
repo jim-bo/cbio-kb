@@ -20,7 +20,7 @@ DHRS4 (Dehydrogenase/Reductase 4) encodes a member of the short-chain dehydrogen
 
 ## Alterations observed in the corpus
 
-- Candidate coding driver in metastatic CSCC: called by ≥2 of three driver-detection tools (OncodriveFML, MutSigCV, dNdScv) in a WGS study of 25 lymph node metastases; listed among 12-gene consensus driver set alongside [TP53](../genes/TP53.md) and [CDKN2A](../genes/CDKN2A.md) [PMID:35982973](../papers/35982973.md)
+- Candidate coding driver in metastatic [CSCC](../cancer_types/CSCC.md): called by ≥2 of three driver-detection tools (OncodriveFML, MutSigCV, dNdScv) in a WGS study of 25 lymph node metastases; listed among 12-gene consensus driver set alongside [TP53](../genes/TP53.md) and [CDKN2A](../genes/CDKN2A.md) [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +28,7 @@ DHRS4 (Dehydrogenase/Reductase 4) encodes a member of the short-chain dehydrogen
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-nominated with KHDRBS2, COLEC12, [SLC22A6](../genes/SLC22A6.md), [LINGO2](../genes/LINGO2.md), [CDHR5](../genes/CDHR5.md), [ZNF442](../genes/ZNF442.md), and [PRLR](../genes/PRLR.md) in the 12-gene consensus driver set from metastatic CSCC [PMID:35982973](../papers/35982973.md)
+- Co-nominated with [KHDRBS2](../genes/KHDRBS2.md), [COLEC12](../genes/COLEC12.md), [SLC22A6](../genes/SLC22A6.md), [LINGO2](../genes/LINGO2.md), [CDHR5](../genes/CDHR5.md), [ZNF442](../genes/ZNF442.md), and [PRLR](../genes/PRLR.md) in the 12-gene consensus driver set from metastatic CSCC [PMID:35982973](../papers/35982973.md)
 
 ## Therapeutic relevance
 

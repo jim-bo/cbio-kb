@@ -11,7 +11,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-PEAR1 (Platelet Endothelial Aggregation Receptor 1, also known as JEDI and MEGF12) encodes a type-I transmembrane receptor with EGF-like and LDL-receptor domains that mediates phagocytic signaling via [SYK](../genes/SYK.md) and SRC-family kinases. Originally characterized in platelet aggregation, PEAR1 was identified as a single-gene prognostic biomarker for overall survival in acute myeloid leukemia ([AML](../cancer_types/AML.md)) through WGCNA module analysis of the BEAT AML 2.0 dataset. It is the focal gene of PMID:35868306.
+PEAR1 (Platelet Endothelial Aggregation Receptor 1, also known as JEDI and MEGF12) encodes a type-I transmembrane receptor with EGF-like and LDL-receptor domains that mediates phagocytic signaling via [SYK](../genes/SYK.md) and SRC-family kinases. Originally characterized in platelet aggregation, PEAR1 was identified as a single-gene prognostic biomarker for overall survival in acute myeloid leukemia ([AML](../cancer_types/AML.md)) through WGCNA module analysis of the BEAT [AML](../cancer_types/AML.md) 2.0 dataset. It is the focal gene of PMID:35868306.
 
 ## Alterations observed in the corpus
 
@@ -29,7 +29,7 @@ PEAR1 (Platelet Endothelial Aggregation Receptor 1, also known as JEDI and MEGF1
 
 ## Therapeutic relevance
 
-- Proposed as single-gene prognostic biomarker for OS in AML, performing equivalently to LSC17 and carrying prognostic value independent of ELN risk in young (<45 y) patients [PMID:35868306](../papers/35868306.md)
+- Proposed as single-gene prognostic biomarker for [OS](../cancer_types/OS.md) in AML, performing equivalently to LSC17 and carrying prognostic value independent of ELN risk in young (<45 y) patients [PMID:35868306](../papers/35868306.md)
 - PEAR1 is surface-expressed on AML blasts, raising the possibility of small-molecule and antibody-based targeting; PEAR1-null mice retain platelet function, suggesting a potential therapeutic window [PMID:35868306](../papers/35868306.md)
 
 ## Open questions

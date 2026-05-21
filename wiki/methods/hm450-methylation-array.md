@@ -5,8 +5,8 @@ kind: METHYLATION
 canonical_source: corpus
 unverified: true
 tags: [methylation, dna-methylation, illumina, infinium]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Illumina Infinium HumanMethylation450 BeadChip (HM450)
@@ -27,13 +27,14 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - Used in the TCGA breast cancer ILC/IDC study (n=817) for genome-wide DNA methylation profiling; data confirmed absence of [CDH1](../genes/CDH1.md) promoter hypermethylation in [ILC](../cancer_types/ILC.md), contradicting older MSP-based reports [PMID:26451490](../papers/26451490.md)
 - Profiled 39 primary neuroblastomas to characterize chromatin state at the [TERT](../genes/TERT.md) locus; CpG methylation increased in rearranged and MYCN-amplified tumors, particularly at a CpG near the [TERT](../genes/TERT.md) core promoter linked to disabled repression [PMID:26466568](../papers/26466568.md)
 - Profiled DNA methylation in 333 primary prostate adenocarcinomas (TCGA); identified four epigenetic clusters and a CIMP-like [IDH1](../genes/IDH1.md) R132-mutant subgroup with greater genome-wide hypermethylation than IDH1-mutant [GBM](../cancer_types/GBM.md) or [AML](../cancer_types/AML.md) [PMID:26544944](../papers/26544944.md).
-- Used for DNA methylation profiling of 516 LGG and 129 GBM samples in the TCGA pan-glioma study; merged with HM27 data to define six pan-glioma methylation clusters (LGm1–6); methylation subtype was an independent prognostic predictor (C-index 0.836 with age + grade) [PMID:26824661](../papers/26824661.md)
-- Illumina HumanMethylation450 BeadChip applied on day 0 and day 10 of cycle 1 in AML/MDS patients on decitabine; global CpG methylcytosine reduction was similar between responders and non-responders and not predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
-- Illumina HumanMethylation450 (HM450) arrays profiled DNA methylation of 164 oesophageal carcinomas and gastric cancers; revealed a proximal-to-distal hypermethylation gradient in GEA-CIN tumors and defined the hypermethylated cluster enriched in EAC [PMID:28052061](../papers/28052061.md).
-- Profiled all 412 BLCA tumors; identified 158 epigenetically silenced genes and a hypomethylation cluster corresponding to the luminal-papillary subtype (enriched FGFR3 mutations, better survival) [PMID:28988769](../papers/28988769.md)
+- Used for DNA methylation profiling of 516 [LGG](../cancer_types/LGG.md) and 129 [GBM](../cancer_types/GBM.md) samples in the TCGA pan-glioma study; merged with HM27 data to define six pan-glioma methylation clusters (LGm1–6); methylation subtype was an independent prognostic predictor (C-index 0.836 with age + grade) [PMID:26824661](../papers/26824661.md)
+- Illumina HumanMethylation450 BeadChip applied on day 0 and day 10 of cycle 1 in AML/MDS patients on [decitabine](../drugs/decitabine.md); global CpG methylcytosine reduction was similar between responders and non-responders and not predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
+- Illumina HumanMethylation450 (HM450) arrays profiled DNA methylation of 164 oesophageal carcinomas and gastric cancers; revealed a proximal-to-distal hypermethylation gradient in GEA-CIN tumors and defined the hypermethylated cluster enriched in [EAC](../cancer_types/EAC.md) [PMID:28052061](../papers/28052061.md).
+- Profiled all 412 [BLCA](../cancer_types/BLCA.md) tumors; identified 158 epigenetically silenced genes and a hypomethylation cluster corresponding to the luminal-papillary subtype (enriched [FGFR3](../genes/FGFR3.md) mutations, better survival) [PMID:28988769](../papers/28988769.md)
 - Applied to 206 TCGA sarcomas; combined SCNA + methylation clustering defined DDLPS prognostic subtypes (K3 vs K1+K2, p=0.001); hypermethylation alone (Meth2) yielded HR=4.4 (p=0.002) in DDLPS [PMID:29100075](../papers/29100075.md)
-- Used for DNA methylation profiling in the 9,125-tumor TCGA PanCanAtlas cohort; RESET method applied to probe cg13601799 for CDKN2A promoter methylation calling [PMID:29625050](../papers/29625050.md).
+- Used for DNA methylation profiling in the 9,125-tumor TCGA PanCanAtlas cohort; RESET method applied to probe cg13601799 for [CDKN2A](../genes/CDKN2A.md) promoter methylation calling [PMID:29625050](../papers/29625050.md).
 - Merged with HM27 data across 22,601 shared probes for DNA methylation profiling of ~10,000 TCGA PanCancer Atlas tumors; methylation contributed 11% of the iCluster integrated signal across 33 cancer types [PMID:29625048](../papers/29625048.md).
+- Used for global methylation profiling of [IDH1](../genes/IDH1.md) R132-mutant CAC, revealing clustering with MSI-high tumors; IDH1-mutant organoids confirmed high global methylation that distinguished this subset from other CAC [PMID:36611031](../papers/36611031.md)
 
 ## Notes
 
@@ -43,52 +44,55 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466568](../papers/26466568.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27959731](../papers/27959731.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

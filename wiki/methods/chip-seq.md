@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, chromatin, epigenomics]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -26,6 +26,7 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 - H3K27ac and [CTCF](../genes/CTCF.md) ChIP-seq performed on a subset of 28 medulloblastoma cases; ChIP-seq data demonstrated Group 4-specific [SNCAIP](../genes/SNCAIP.md) super-enhancer repositioning into the [PRDM6](../genes/PRDM6.md) TAD (enhancer-hijacking mechanism) [PMID:28726821](../papers/28726821.md)
 - ChIP-seq for H3K27ac, H3K4me1, and H3K4me3 performed in prostate cancer cell lines and CPGEA tissues to map the rs4519489 enhancer; allele-specific [USF1](../genes/USF1.md) ChIP-seq in heterozygous tissue confirmed preferential A-allele binding (A:T ratio shifted from 1:5 in input to 11:6 in USF1-IP) [PMID:28927585](../papers/28927585.md)
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) to validate TF co-occupancy: ChIP-seq for [FOSL1](../genes/FOSL1.md), TEAD, YAP, and TAZ in MSKPCa3 and DU145 cell lines confirmed significant peak overlap at CRPC-SCL ATAC-seq peaks (Fisher's exact P < 0.001) [PMID:35617398](../papers/35617398.md)
+- Cited as an epigenomic profiling modality alongside ATAC-seq and DNA methylation sequencing in the multi-omics integration review; used for epigenomic characterization in cancer and precision health contexts [PMID:37119971](../papers/37119971.md)
 
 ## Notes
 
@@ -59,3 +60,6 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

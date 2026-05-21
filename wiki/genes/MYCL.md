@@ -23,6 +23,7 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 - MYCL1 (MYCL) amplification was identified by GISTIC analysis as a recurrent focal amplification in muscle-invasive bladder cancer (MIBC), consistent with prior TCGA findings [PMID:28988769](../papers/28988769.md)
 - MYCL locus (1p34.2) focal amplification observed as an IDC-NST-private event in individual synchronous invasive breast cancer cases; amplification was restricted to the invasive component, consistent with invasive-stage acquisition during DCIS-to-IDC-NST progression [PMID:32220886](../papers/32220886.md)
 - MYCL amplifications were detected by MSK-IMPACT in 6 [SCLC](../cancer_types/SCLC.md) PDX models (MSK424, MSK304, MSK40, MSK599b, MSK891, MSK736) and correlated with high transcript expression; the two SCLC-N samples (MSK424, MSK443) had the highest MYCL expression in the cohort, supporting MYC-family paralogue expression as a subtype-enriched feature [PMID:35440124](../papers/35440124.md).
+- MYCL (1p34) amplified in 10% of aSCLC via chr 1 chromothripsis; MYCL is an [SCLC](../cancer_types/SCLC.md) subtype transcription factor evaluated in aSCLC (RB1-proficient, TP53-proficient SCLC) cohort (n=20, MSK-IMPACT/WGS) [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -59,5 +60,8 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

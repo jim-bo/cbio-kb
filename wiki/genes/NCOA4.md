@@ -22,7 +22,7 @@ NCOA4 (Nuclear Receptor Coactivator 4) is a nuclear receptor coactivator that fa
 
 - NCOA4 acts as a fusion partner for [RET](../genes/RET.md) (RET-NCOA4 fusion) in 5 PDTC cases identified by targeted RNA-seq in a 341-gene panel study of poorly differentiated and anaplastic thyroid cancers; [RET](../genes/RET.md) fusions (with [CCDC6](../genes/CCDC6.md) or NCOA4) are among the gene fusions detected in PDTC but not ATC in this cohort [PMID:26878173](../papers/26878173.md)
 - Partner in one NCOA4-RET fusion identified in MSS metastatic CRC; [RET](../genes/RET.md) fusions are rare but potentially actionable events in this cohort [PMID:29316426](../papers/29316426.md)
-- NCOA4 is a recurrent [RET](../genes/RET.md) fusion partner (NCOA4-RET) in RET-altered lung and thyroid cancers; NCOA4-RET fusions retain the full RET kinase domain and define trial-qualifying drivers for [selpercatinib](../drugs/selpercatinib.md) therapy [PMID:35304457](../papers/35304457.md)
+- NCOA4 is a recurrent [RET](../genes/RET.md) fusion partner (NCOA4-RET) in RET-altered lung and thyroid cancers; NCOA4-RET fusions retain the full [RET](../genes/RET.md) kinase domain and define trial-qualifying drivers for [selpercatinib](../drugs/selpercatinib.md) therapy [PMID:35304457](../papers/35304457.md)
 
 ## Cancer types (linked)
 

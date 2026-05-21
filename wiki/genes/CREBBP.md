@@ -32,7 +32,7 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 
 ## Co-occurrence and mutual exclusivity
 
-- CREBBP activity co-occurs with EP300 and BRD1/BRD3/BRD4 activity in the H2B-hyperacetylated classical-like GBM subset [PMID:33577785](../papers/33577785.md).
+- CREBBP activity co-occurs with [EP300](../genes/EP300.md) and BRD1/BRD3/BRD4 activity in the H2B-hyperacetylated classical-like [GBM](../cancer_types/GBM.md) subset [PMID:33577785](../papers/33577785.md).
 
 ## Therapeutic relevance
 

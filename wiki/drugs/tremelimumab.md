@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [HCC, immunotherapy, CTLA-4]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # tremelimumab
@@ -23,6 +23,7 @@ Tremelimumab is a human anti-CTLA-4 monoclonal antibody targeting [CTLA4](../gen
 - Authors advocate considering combination checkpoint blockade including anti-CTLA4 agents such as tremelimumab for MSI-H metastatic EGC; MSI-H tumors had 4/9 (44%) carrying likely deleterious B2M alterations but some still responded to checkpoint blockade [PMID:29122777](../papers/29122777.md)
 - Included in a pooled 249-patient MSS WES ICB cohort alongside ipilimumab (both anti-CTLA-4, predominantly in melanoma); mixed-response patients treated with anti-CTLA-4 were enriched for truncating PTEN events at progressing lesions [PMID:30150660](../papers/30150660.md)
 - In a pan-cancer ICI cohort (n=1,662; 146 received anti-CTLA4 including tremelimumab), high TMB (top 20% within histology) was associated with HR 0.52 (p=1.6×10⁻⁶) for OS; the benefit was consistent across anti-CTLA4 and anti-PD-1/PD-L1 regimens [PMID:30643254](../papers/30643254.md).
+- Tremelimumab (CTLA-4) combined with [durvalumab](../drugs/durvalumab.md) (PD-L1) is a standard-of-care ICI regimen for advanced [HCC](../cancer_types/HCC.md); the review identifies lipid-metabolism reprogramming (DNL, FAO, cholesterol biosynthesis) as a key driver of resistance to this combination [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -45,3 +46,6 @@ Tremelimumab is a human anti-CTLA-4 monoclonal antibody targeting [CTLA4](../gen
 - [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

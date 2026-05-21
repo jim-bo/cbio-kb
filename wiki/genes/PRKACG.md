@@ -20,7 +20,7 @@ PRKACG encodes the gamma catalytic subunit of cAMP-dependent protein kinase A (P
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)**: Reduced PRKACG kinase activity identified by phosphoproteomics in a European HCC multi-omics cohort [PMID:35508466](../papers/35508466.md)
+- **[HCC](../cancer_types/HCC.md)**: Reduced PRKACG kinase activity identified by phosphoproteomics in a European [HCC](../cancer_types/HCC.md) multi-omics cohort [PMID:35508466](../papers/35508466.md)
 
 ## Co-occurrence and mutual exclusivity
 

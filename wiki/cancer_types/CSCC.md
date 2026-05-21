@@ -32,7 +32,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - In 21 recurrent/metastatic CSCC profiled by MSK-IMPACT (Morris et al.): UV-light mutational signature in 86% (18/21) associated with higher mutation counts (37.9 vs 4.3, P=.008); [TERT](../genes/TERT.md) promoter mutations in 52%; 3p deletion + [TP53](../genes/TP53.md) co-occurrence in 32% — the first report in cutaneous SCC [PMID:27442865](../papers/27442865.md).
 - Published cutaneous squamous cell carcinoma mutational signature datasets were used as a reference comparison in the first WES landscape of vulvar SCC; HPV(-) vulvar SCC displayed higher mutational load than HPV(+) cases, consistent with patterns observed in CSCC [PMID:29422544](../papers/29422544.md)
 - Meta-analysis of WES/WGS data from 10 CSCC studies (88 QC-passed tumors) using four cancer-gene discovery tools nominated 30 driver genes; NOTCH-pathway loss-of-function in 79.5% ([NOTCH1](../genes/NOTCH1.md) 55.4%, [NOTCH2](../genes/NOTCH2.md) 36.1%), p53-pathway in 71.1% ([TP53](../genes/TP53.md) 66.3%), cell-cycle/Rb pathway in 38.6% ([CDKN2A](../genes/CDKN2A.md) 34.9%), SWI/SNF in 38.6% ([ARID2](../genes/ARID2.md) 27.7%, [PBRM1](../genes/PBRM1.md) 12%), Hippo pathway in 37.3% ([FAT1](../genes/FAT1.md) 30.1%); four novel drivers ([EP300](../genes/EP300.md), [PBRM1](../genes/PBRM1.md), [USP28](../genes/USP28.md), [CHUK](../genes/CHUK.md)) each mutated in >10% of tumors; data deposited as [cscc_ucsf_2021](../datasets/cscc_ucsf_2021.md) on cBioPortal [PMID:34272401](../papers/34272401.md).
-- WGS of 25 regional metastatic CSCC lymph node specimens ([cscc_ranson_2022](../datasets/cscc_ranson_2022.md)) revealed extreme TMB (median 166.99 muts/Mb), UV-driven SBS7a/7b signatures, TP53 (96%) and [CDKN2A](../genes/CDKN2A.md) as top coding drivers, novel lncRNA driver [LINC01003](../genes/LINC01003.md) (64%), and non-coding 3′UTR alterations in [EVC](../genes/EVC.md) and [PPP1R1A](../genes/PPP1R1A.md); [C9](../genes/C9.md) identified as novel candidate driver by all three statistical tools [PMID:35982973](../papers/35982973.md)
+- WGS of 25 regional metastatic CSCC lymph node specimens ([cscc_ranson_2022](../datasets/cscc_ranson_2022.md)) revealed extreme TMB (median 166.99 muts/Mb), UV-driven SBS7a/7b signatures, [TP53](../genes/TP53.md) (96%) and [CDKN2A](../genes/CDKN2A.md) as top coding drivers, novel lncRNA driver [LINC01003](../genes/LINC01003.md) (64%), and non-coding 3′UTR alterations in [EVC](../genes/EVC.md) and [PPP1R1A](../genes/PPP1R1A.md); [C9](../genes/C9.md) identified as novel candidate driver by all three statistical tools [PMID:35982973](../papers/35982973.md)
 
 ## Subtypes
 
@@ -54,7 +54,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - [PMID:26950094](../papers/26950094.md) — Fowler et al., NanoSeq NB-UVB mutation-burden study; cSCC mean burden of 50 substitutions/Mb used as endpoint for surveillance-exposure modelling
 
 
-- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). UV signature in 86% of 21 advanced CSCC; TERT promoter mutations 52%; first report of 3p deletion + TP53 in cutaneous SCC.
+- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). UV signature in 86% of 21 advanced CSCC; [TERT](../genes/TERT.md) promoter mutations 52%; first report of 3p deletion + [TP53](../genes/TP53.md) in cutaneous SCC.
 
 
 - [PMID:29422544](../papers/29422544.md)

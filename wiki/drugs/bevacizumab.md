@@ -5,8 +5,8 @@ drug_class: anti-VEGF monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [antiangiogenic]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-05-21
 ---
 
 # bevacizumab
@@ -31,6 +31,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition ([temsirolimus](../drugs/temsirolimus.md) or [everolimus](../drugs/everolimus.md)) combined with liposomal doxorubicin and bevacizumab in PI3K-pathway-altered advanced triple-negative MBC [PMID:33863915](../papers/33863915.md).
 - In metastatic MSS CRC, fluorouracil + oxaliplatin ± bevacizumab was the standard first-line regimen; radiographic response and median OS were equivalent across early-onset (≤35, 36-49 years) and adult-onset cohorts at MSK (n=759 EO-CRC, n=687 AO-CRC) [PMID:34405229](../papers/34405229.md)
 - Bevacizumab maintenance was used heterogeneously in LGSOC patients in this MSK cohort (n=119); no maintenance regimen including bevacizumab reached statistical significance for PFS in either NED (p=0.11) or evidence-of-disease (p=0.17) groups [PMID:35443055](../papers/35443055.md)
+- Atezolizumab plus bevacizumab is a first-line standard-of-care regimen for advanced [HCC](../cancer_types/HCC.md), achieving a real-world ORR of 26–28%; lipid-metabolism reprogramming (enhanced DNL, FAO, cholesterol biosynthesis) is proposed as a primary driver of resistance to this combination [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -59,3 +60,6 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - [PMID:40256659](../papers/40256659.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

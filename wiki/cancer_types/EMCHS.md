@@ -17,7 +17,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Extraskeletal Myxoid Chondrosarcoma is a rare, slow-growing mesenchymal tumor of uncertain differentiation defined by recurrent translocations involving [NR4A3](../genes/NR4A3.md) — most commonly [EWSR1](../genes/EWSR1.md)–[NR4A3](../genes/NR4A3.md) (t(9;22)), and also [TAF15](../genes/TAF15.md)–NR4A3 or TCF12–NR4A3. Despite the name, it lacks true hyaline cartilage differentiation. It is classified under chondrosarcoma ([CHS](../cancer_types/CHS.md)) in OncoTree.
+Extraskeletal Myxoid Chondrosarcoma is a rare, slow-growing mesenchymal tumor of uncertain differentiation defined by recurrent translocations involving [NR4A3](../genes/NR4A3.md) — most commonly [EWSR1](../genes/EWSR1.md)–[NR4A3](../genes/NR4A3.md) (t(9;22)), and also [TAF15](../genes/TAF15.md)–[NR4A3](../genes/NR4A3.md) or TCF12–[NR4A3](../genes/NR4A3.md). Despite the name, it lacks true hyaline cartilage differentiation. It is classified under chondrosarcoma ([CHS](../cancer_types/CHS.md)) in OncoTree.
 
 ## Cohorts in the corpus
 
@@ -29,7 +29,7 @@ Extraskeletal Myxoid Chondrosarcoma is a rare, slow-growing mesenchymal tumor of
 
 ## Subtypes
 
-- EWSR1–NR4A3 (most common), TAF15–NR4A3, TCF12–NR4A3 fusion subtypes.
+- [EWSR1](../genes/EWSR1.md)–NR4A3 (most common), [TAF15](../genes/TAF15.md)–NR4A3, TCF12–NR4A3 fusion subtypes.
 
 ## Therapeutic landscape
 

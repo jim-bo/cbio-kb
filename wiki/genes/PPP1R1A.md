@@ -15,7 +15,7 @@ PPP1R1A (Protein Phosphatase 1 Regulatory Subunit 1A, also known as DARPP-32 in 
 
 ## Alterations observed in the corpus
 
-- Recurrent 3′UTR mutation (48%) in metastatic [CSCC](../cancer_types/CSCC.md) WGS cohort (n=25); unique missense variant c.*491C>T in 5/25 samples; proposed as candidate non-coding biomarker of metastatic CSCC [PMID:35982973](../papers/35982973.md)
+- Recurrent 3′UTR mutation (48%) in metastatic [CSCC](../cancer_types/CSCC.md) WGS cohort (n=25); unique missense variant c.*491C>T in 5/25 samples; proposed as candidate non-coding biomarker of metastatic [CSCC](../cancer_types/CSCC.md) [PMID:35982973](../papers/35982973.md)
 - Structural variant (LINX/PURPLE) detected in metastatic CSCC WGS cohort (n=25) [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)

@@ -143,7 +143,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- [MBC](../cancer_types/MBC.md) biopsies in this cohort [PMID:32404308](../papers/32404308.md)
 - Mutated in 10% of refractory metastatic TNBC patients in the FUSCC cohort (n=69); flagged as part of a resistance-mutation tendency in progressive-disease patients across the whole cohort and arm E (anti-VEGFR). [PMID:32719455](../papers/32719455.md)
 - Enriched in C-terminal [APC](../genes/APC.md) mutant MSS mCRC tumors vs N-terminal (12% vs 3%; p<0.01, q<0.1) in 430 patients; part of co-occurring mitogenic activation pattern associated with shorter OS/PFS. [PMID:32730818](../papers/32730818.md)
-- Loss-of-function alterations (including A126S, R130*, truncating mutations, and homozygous deletions) in 25% (8/32) of paired-ctDNA patients in the [alpelisib](../drugs/alpelisib.md) + AI trial (NCT01870505, n=51 HR+ [MBC](../cancer_types/MBC.md)); three pre-existing (intrinsic resistance) and five therapy-emergent (acquired resistance); co-occurring PTEN loss + PIK3CA mutation disrupts the canonical mutual exclusivity seen in primary breast cancer. [PMID:32864625](../papers/32864625.md)
+- Loss-of-function alterations (including A126S, R130*, truncating mutations, and homozygous deletions) in 25% (8/32) of paired-ctDNA patients in the [alpelisib](../drugs/alpelisib.md) + AI trial (NCT01870505, n=51 HR+ [MBC](../cancer_types/MBC.md)); three pre-existing (intrinsic resistance) and five therapy-emergent (acquired resistance); co-occurring PTEN loss + [PIK3CA](../genes/PIK3CA.md) mutation disrupts the canonical mutual exclusivity seen in primary breast cancer. [PMID:32864625](../papers/32864625.md)
 - Loss-of-function alterations (deep deletions, truncations, C2-domain P204S, plus VUS) are the headline biomarker of intrinsic BRAFi resistance in BRAF-mutant melanoma: enriched in poor responders (P = .005), associated with shorter PFS (HR 3.46) and [OS](../cancer_types/OS.md) (HR 3.10) [PMID:32913971](../papers/32913971.md)
 - Referenced in prior reports describing concurrent GCT/AMKL with shared [TP53](../genes/TP53.md) and PTEN mutations; not a primary driver in this 15-patient NSGCT-associated hematologic malignancy cohort [PMID:32897884](../papers/32897884.md)
 - p.QYPFEDH87fs detected in normal melanocytes from sun-damaged skin (Donor 13, ear); PI3K-pathway frameshift alteration in histologically normal tissue, consistent with somatic mosaicism preceding clinical melanoma [PMID:33029006](../papers/33029006.md)
@@ -163,9 +163,10 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Bi-allelic loss in 43% of CRPC models in a 40-model epigenomic subtyping study; not subtype-specific across CRPC-AR, CRPC-NE, CRPC-SCL, or CRPC-WNT [PMID:35617398](../papers/35617398.md)
 - PTEN is the most common PI3K-pathway alteration in metastatic prostate cancer, significantly enriched in metastases vs primaries (p<0.001); co-occurs with [PIK3R1](../genes/PIK3R1.md) loss; PTEN status was not associated with FDG uptake unlike [PIK3R1](../genes/PIK3R1.md) [PMID:35670774](../papers/35670774.md)
 - PTEN altered in myxoid liposarcoma (17.8%); part of PI3K-pathway co-alteration with PIK3CA/AKT1 in sarcoma; PTEN loss in [ULMS](../cancer_types/ULMS.md) associated with non-response to anti-PD-1 (cited prior work) [PMID:35705558](../papers/35705558.md)
-- PTEN loss in 14% of [LMS](../cancer_types/LMS.md), 21% of [ULMS](../cancer_types/ULMS.md), 21% of [MRLS](../cancer_types/MRLS.md), and 8% of [UPS](../cancer_types/UPS.md); most often Level 4 actionable; PTEN loss in ULMS associated with non-response to anti-PD-1 [PMID:35705560](../papers/35705560.md)
+- PTEN loss in 14% of [LMS](../cancer_types/LMS.md), 21% of [ULMS](../cancer_types/ULMS.md), 21% of [MRLS](../cancer_types/MRLS.md), and 8% of [UPS](../cancer_types/UPS.md); most often Level 4 actionable; PTEN loss in [ULMS](../cancer_types/ULMS.md) associated with non-response to anti-PD-1 [PMID:35705560](../papers/35705560.md)
 - PTEN frequency is similar across MMR-D endometrial cancer subgroups (MLH1ph, germline, somatic), representing a background EC alteration not specific to any MMR mechanism [PMID:35849120](../papers/35849120.md)
 - Mutated in 50% of primary endometrial cancers in ctDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md), n=44); clonal PTEN shared between primary EC and one SLN in CD20 (heterogeneity); pathogenic PTEN detected in CD37 adenosarcoma cfDNA [PMID:36007103](../papers/36007103.md)
+- PTEN-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in PTEN-loss/cMet-overexpression context; loss of both FASN and [SREBF2](../genes/SREBF2.md) abolishes tumor growth [PMID:38355797](../papers/38355797.md)
 
 ## Cancer types (linked)
 
@@ -366,5 +367,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

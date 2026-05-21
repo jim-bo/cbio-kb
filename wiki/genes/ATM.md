@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-21
 ---
 
@@ -86,6 +86,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM exon 57 truncating mutation in osteosarcoma was associated with >1-year stable disease on a PARP-inhibitor plus ATR-inhibitor combination in an anecdotal MSK clinical case [PMID:35705558](../papers/35705558.md)
 - ATM is part of the DDR pathway altered in 9.6% of 2,138 MSK sarcomas; DDR pathway alteration highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), and [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
 - Mutated in 2% of pMMR/MSS rectal tumors (LARC cohort); OncoKB Level 3B actionable alteration in CRC [PMID:35970919](../papers/35970919.md)
+- Somatic ATM mutations in 30% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC), enriched vs carcinoids (8%, P=0.008) and conventional SCLC (3%, P=0.0003); authors hypothesize ATM disabling permits chromothripsis via micronucleus formation [PMID:39185963](../papers/39185963.md)
+- Germline ATM pathogenic variant identified in 1 of 73 consented colitis-associated cancer (CAC) patients; overall germline alteration frequency in CAC similar to sporadic CRC (14%) [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -306,4 +308,10 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-21**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -17,7 +17,7 @@ CEBPA (CCAAT Enhancer Binding Protein Alpha) encodes a transcription factor crit
 
 - Recurrently mutated in [AML](../cancer_types/AML.md); part of the mutual-exclusivity set with transcription-factor fusions, [NPM1](../genes/NPM1.md), [RUNX1](../genes/RUNX1.md), and [TP53](../genes/TP53.md) [PMID:23634996](../papers/23634996.md)
 - Focal amplification observed in bladder TCC [PMID:24121792](../papers/24121792.md)
-- CEBPA biallelic mutations define favorable AML subgroup (4%, n=66); HR 0.6 (0.4-0.7), P=4x10⁻⁵ for overall survival [PMID:27276561](../papers/27276561.md)
+- CEBPA biallelic mutations define favorable [AML](../cancer_types/AML.md) subgroup (4%, n=66); HR 0.6 (0.4-0.7), P=4x10⁻⁵ for overall survival [PMID:27276561](../papers/27276561.md)
 - CEBPA biallelic frameshift mutations in AML; identified as a prognostic marker of improved outcome in the PIPseq pediatric precision-oncology cohort (Table 3) [PMID:28007021](../papers/28007021.md)
 - placeholder
 - CEBPA biallelic mutation status (N-terminal + C-terminal) curated as a favorable-risk feature in the Beat AML cohort ex vivo drug-sensitivity profiling study [PMID:30333627](../papers/30333627.md)

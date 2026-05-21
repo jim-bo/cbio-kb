@@ -20,7 +20,7 @@ EVC (Ellis-van Creveld syndrome protein) encodes a transmembrane protein that po
 
 ## Alterations observed in the corpus
 
-- Recurrent 3' UTR mutation in 48% of metastatic CSCC samples (12/25 WGS cases); nominated as a significant non-coding driver by OncodriveFML (Q=0.011); proposed to dysregulate ciliary Hedgehog signaling in metastatic CSCC [PMID:35982973](../papers/35982973.md)
+- Recurrent 3' UTR mutation in 48% of metastatic [CSCC](../cancer_types/CSCC.md) samples (12/25 WGS cases); nominated as a significant non-coding driver by OncodriveFML (Q=0.011); proposed to dysregulate ciliary Hedgehog signaling in metastatic CSCC [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +28,7 @@ EVC (Ellis-van Creveld syndrome protein) encodes a transmembrane protein that po
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with PPP1R1A 3' UTR alteration (also 48% of cohort) in non-coding driver landscape of metastatic CSCC [PMID:35982973](../papers/35982973.md)
+- Co-occurs with [PPP1R1A](../genes/PPP1R1A.md) 3' UTR alteration (also 48% of cohort) in non-coding driver landscape of metastatic CSCC [PMID:35982973](../papers/35982973.md)
 
 ## Therapeutic relevance
 

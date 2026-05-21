@@ -27,6 +27,7 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 - 17 PDX models established from 34 [UTUC](../cancer_types/UTUC.md) surgical specimens (50% take rate); models recapitulated genomic landscape, mutational signatures, histology, and chemosensitivity of source tumors; genomic concordance 72.7% for known/likely oncogenic mutations [PMID:32332851](../papers/32332851.md)
 - 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients established at MSK; 40 tissue PDXs with 23.81% engraftment rate, mean engraftment time 110 days; 18 cases had paired clinical specimens; multi-omic profiling retained canonical TP53/RB1 landscape in 89% of paired pairs [PMID:35440124](../papers/35440124.md).
 - Six patient-derived xenografts (PDXs) from metastatic CRPC patients were profiled by ATAC-seq and RNA-seq in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md), contributing to the 35-model epigenomic atlas used to define four chromatin subtypes [PMID:35617398](../papers/35617398.md)
+- CAC PDXs (two Wnt wild-type, one APC-mutant) were treated with porcupine inhibitor LGK-974 and tankyrase inhibitor G007-LK — neither suppressed tumor growth, arguing against Wnt-axis therapies for CAC; IDH1-mutant CAC PDX validated [ivosidenib](../drugs/ivosidenib.md) sensitivity via 2-HG production [PMID:36611031](../papers/36611031.md)
 
 ## Notes
 
@@ -62,5 +63,8 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

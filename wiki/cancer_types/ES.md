@@ -35,12 +35,12 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - Ewing sarcoma PDX models in PPTC cohort: EWSR1-FLI1 fusion in all RNA-seq-profiled models; [TP53](../genes/TP53.md) mutations in 7/10 (70%); homozygous CDKN2A/B loss in 60% (mutually exclusive with [STAG2](../genes/STAG2.md) mutations 20%); CHLA-258 additionally harbored FLI1-RP11-9L18.2 [PMID:31693904](../papers/31693904.md).
 - Ewing sarcoma (ES) was enrolled in the MAPPYACTS trial (sarcomas 37% of 787 patients); [EWSR1](../genes/EWSR1.md) fusions were covered in the sarcoma oncomap; 17% ORR with matched therapy (38% for ready-for-routine-use alterations) [PMID:35292802](../papers/35292802.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
-- In a 7,494-sarcoma cohort, Ewing sarcoma was among the translocation-associated histologies; EWSR1-FLI1 fusions were characteristic; [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and STAG2 alterations carry prognostic weight [PMID:35705558](../papers/35705558.md).
-- In the 2,138-sarcoma MSK-IMPACT cohort (n=99 ES), 10% harbored STAG2 mutations co-occurring with TP53 alterations; [DSRCT](../cancer_types/DSRCT.md) and ES had the lowest intra-subtype genomic entropy [PMID:35705560](../papers/35705560.md).
+- In a 7,494-sarcoma cohort, Ewing sarcoma was among the translocation-associated histologies; EWSR1-FLI1 fusions were characteristic; [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and [STAG2](../genes/STAG2.md) alterations carry prognostic weight [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort (n=99 ES), 10% harbored [STAG2](../genes/STAG2.md) mutations co-occurring with [TP53](../genes/TP53.md) alterations; [DSRCT](../cancer_types/DSRCT.md) and ES had the lowest intra-subtype genomic entropy [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
-- Conventional Ewing sarcoma ([EWSR1](../genes/EWSR1.md)::[FLI1](../genes/FLI1.md) / EWSR1::[ERG](../genes/ERG.md) fusions) is the dominant subtype; CIC-rearranged and BCOR-rearranged round-cell sarcomas are histologic mimics with distinct molecular drivers and are tracked separately under the round-cell-sarcoma family.
+- Conventional Ewing sarcoma ([EWSR1](../genes/EWSR1.md)::[FLI1](../genes/FLI1.md) / [EWSR1](../genes/EWSR1.md)::[ERG](../genes/ERG.md) fusions) is the dominant subtype; CIC-rearranged and BCOR-rearranged round-cell sarcomas are histologic mimics with distinct molecular drivers and are tracked separately under the round-cell-sarcoma family.
 
 ## Therapeutic landscape
 
@@ -67,7 +67,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). EWSR1-FLI1 fusion reclassified an odontogenic 'ameloblastic carcinoma' as Ewing sarcoma with epithelial differentiation.
 
 - [PMID:28007021](../papers/28007021.md)
-- [PMID:28199314](../papers/28199314.md) — Halava et al. 2025; EWSR1::[BEND2](../genes/BEND2.md) bladder sarcoma initially classified as extraskeletal ES; EWSR1-non-ETS reclassification by RNA-seq.
+- [PMID:28199314](../papers/28199314.md) — Halava et al. 2025; [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma initially classified as extraskeletal ES; EWSR1-non-ETS reclassification by RNA-seq.
 
 - [PMID:28481359](../papers/28481359.md)
 

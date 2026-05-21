@@ -23,6 +23,7 @@ CCND2 (cyclin D2) is a D-type cyclin that promotes G1/S cell cycle progression. 
 - Focal gain co-acquired with [CDKN2A](../genes/CDKN2A.md) loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma, alongside [CDK4](../genes/CDK4.md) and [CDK6](../genes/CDK6.md) gains; associated with significantly shorter survival (log-rank P < 0.0001) [PMID:31748746](../papers/31748746.md)
 - CCND2 amplification is acquired at recurrence in IDH-mutant diffuse glioma and co-acts with [CDKN2A](../genes/CDKN2A.md) deletion in the proliferative recurrence phenotype, driving expansion of proliferating stem-like neoplastic cells (P=3e-3, n=6 paired samples) and worse overall survival [PMID:35649412](../papers/35649412.md)
 - CCND2 amplified in 1.4% of 7,494 sarcomas; co-occurs unusually with CDK4/6, CDKN2A/B, and [CCNE1](../genes/CCNE1.md) within the Rb pathway (within-pathway co-occurrence pattern); higher CNV frequency in P-AYA osteosarcoma compared to adults [PMID:35705558](../papers/35705558.md)
+- Co-amplified with [CDK4](../genes/CDK4.md) and [MDM2](../genes/MDM2.md) (chr 12q13-15) in 15% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC) via chromosome 12 chromothripsis-derived ecDNA; may functionally phenocopy [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) inactivation; CDK4 amplification absent in conventional SCLC (P=0.0006) [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
@@ -58,5 +59,8 @@ CCND2 (cyclin D2) is a D-type cyclin that promotes G1/S cell cycle progression. 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

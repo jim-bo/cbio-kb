@@ -25,7 +25,7 @@ NUDCD1 (NudC domain containing 1), also known as OVA66, is located at chromosome
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-located at 8q22.2 amplification peak with [YWHAZ](../genes/YWHAZ.md) (14-3-3 zeta); both are cis-driver candidates in HCC [PMID:35508466](../papers/35508466.md)
+- Co-located at 8q22.2 amplification peak with [YWHAZ](../genes/YWHAZ.md) (14-3-3 zeta); both are cis-driver candidates in [HCC](../cancer_types/HCC.md) [PMID:35508466](../papers/35508466.md)
 
 ## Therapeutic relevance
 

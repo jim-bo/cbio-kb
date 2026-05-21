@@ -50,9 +50,9 @@ processed_at: 2026-05-21
 
 ## Notable findings derived from this cohort
 
-- Selpercatinib ORR was 67% in RET fusion-positive and 58% in RET-mutant cancers (RECIST 1.1 per investigator); 82% of responders ongoing at 1 year; prior multikinase inhibitor exposure did not alter outcomes (HR=1.2, P=0.6) [PMID:35304457](../papers/35304457.md).
+- Selpercatinib ORR was 67% in [RET](../genes/RET.md) fusion-positive and 58% in RET-mutant cancers (RECIST 1.1 per investigator); 82% of responders ongoing at 1 year; prior multikinase inhibitor exposure did not alter outcomes (HR=1.2, P=0.6) [PMID:35304457](../papers/35304457.md).
 - Concurrent [TP53](../genes/TP53.md) mutations (n=8, all in fusion-positive cases) were associated with shorter median PFS (HR=3.5, 95% CI 1.3–9.7, P=0.016) [PMID:35304457](../papers/35304457.md).
-- Pre-treatment plasma [MSK-ACCESS](../methods/msk-access.md) detected the qualifying RET alteration in 95% of RET-mutant cases and 74% of fusion-positive cases; low cfDNA shedders had superior PFS (HR=3.7, 95% CI 1.1–12.4, P=0.013) [PMID:35304457](../papers/35304457.md).
+- Pre-treatment plasma [MSK-ACCESS](../methods/msk-access.md) detected the qualifying [RET](../genes/RET.md) alteration in 95% of RET-mutant cases and 74% of fusion-positive cases; low cfDNA shedders had superior PFS (HR=3.7, 95% CI 1.1–12.4, P=0.013) [PMID:35304457](../papers/35304457.md).
 - Acquired resistance was identified in 11/18 evaluable progressors (61%): on-target via secondary RET solvent-front mutations (G810C/G810S, compound cis mutants) or off-target via [KRAS](../genes/KRAS.md)/[NRAS](../genes/NRAS.md)/[BRAF](../genes/BRAF.md) activating mutations or [MET](../genes/MET.md)/[FGFR1](../genes/FGFR1.md) amplifications; polyclonal resistance (co-occurring on-target + off-target) was common [PMID:35304457](../papers/35304457.md).
 - Pre-existing PI3K pathway alterations (PTEN/PIK3CA mutations) did not preclude clinical benefit (CBR 91%) [PMID:35304457](../papers/35304457.md).
 

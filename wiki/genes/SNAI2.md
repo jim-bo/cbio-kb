@@ -32,7 +32,7 @@ SNAI2 (Snail family transcriptional repressor 2, also known as SLUG) is a zinc-f
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting of SNAI2 in the corpus. EMT patterns in SCLC may have implications for drug resistance and metastatic potential.
+- No direct therapeutic targeting of SNAI2 in the corpus. EMT patterns in [SCLC](../cancer_types/SCLC.md) may have implications for drug resistance and metastatic potential.
 
 ## Open questions
 

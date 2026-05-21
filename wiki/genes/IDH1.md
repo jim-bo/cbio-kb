@@ -3,8 +3,8 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # IDH1
@@ -46,14 +46,14 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - R132C mutation in 6 medulloblastoma cases (5 [SHH](../genes/SHH.md), 1 WNT); IDH1-mutant [SHH](../genes/SHH.md) tumours are CIMP+, mirroring G-CIMP in glioma [PMID:28726821](../papers/28726821.md)
 - Confirmed established prostate cancer driver; enriched in primary vs metastatic [PRAD](../cancer_types/PRAD.md) tumors (p=0.01, weighted permutation test) in the 1,013-sample WES meta-cohort ([prad_p1000](../datasets/prad_p1000.md)). [PMID:29610475](../papers/29610475.md)
 - IDH1 mutation defines the [LGG](../cancer_types/LGG.md) subgroup that clusters separately from [GBM](../cancer_types/GBM.md) by aneuploidy pattern: IDH-mutant [LGG](../cancer_types/LGG.md) is characterized by 1p loss and 19q gain (1p/19q co-deletion), while IDH-wildtype [GBM](../cancer_types/GBM.md) shows chromosome 7 gain and chromosome 10 loss. [PMID:29622463](../papers/29622463.md)
-- IDH1 defines iCluster C11 ([LGG](../cancer_types/LGG.md) IDH1 mutant), one of the most homogeneous and high-silhouette iClusters in pan-cancer integrative clustering; IDH1-wildtype LGG co-clusters with [GBM](../cancer_types/GBM.md) in C23 [PMID:29625048](../papers/29625048.md)
+- IDH1 defines iCluster C11 ([LGG](../cancer_types/LGG.md) IDH1 mutant), one of the most homogeneous and high-silhouette iClusters in pan-cancer integrative clustering; IDH1-wildtype [LGG](../cancer_types/LGG.md) co-clusters with [GBM](../cancer_types/GBM.md) in C23 [PMID:29625048](../papers/29625048.md)
 - IDH1 mutations define methylation cluster 1 in LGG (330/351 samples mutant); IDH1-driven gliomas exhibit lower [STAT1](../genes/STAT1.md), decreasing [CXCL10](../genes/CXCL10.md) expression and reducing immune infiltrate; IDH1 co-occurs with [ATRX](../genes/ATRX.md) in pan-cancer somatic-interaction networks [PMID:29625049](../papers/29625049.md)
 - IDH1 mutations in LGG are actionable: IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant LGG; IDH1/2 alterations included in the 57% pan-cancer actionability figure alongside BRCA1/2 in analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - IDH1 mutations in LGG are highlighted as the canonical example of TCGA survival-genomic integration: IDH-mutant LGG patients (with or without 1p/19q codeletion) have substantially longer [OS](../cancer_types/OS.md) than IDH-wildtype LGG, establishing IDH/1p19q status as more robust than histologic subtype; this finding contributed to the WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
 - IDH1 most commonly altered gene in intrahepatic cholangiocarcinoma (30% of IHC, n=195); mutually exclusive with [TP53](../genes/TP53.md), [SMAD4](../genes/SMAD4.md), [FGFR2](../genes/FGFR2.md), and [KRAS](../genes/KRAS.md); drove 43 patients to OncoKB level 3 classification and enrollment in [ivosidenib](../drugs/ivosidenib.md) (AG-120) clinical trial. [PMID:29848569](../papers/29848569.md)
-- IDH1 mutations showed broad ex vivo drug resistance in the Beat AML cohort, in contrast to [IDH2](../genes/IDH2.md) which showed broad sensitivity [PMID:30333627](../papers/30333627.md)
+- IDH1 mutations showed broad ex vivo drug resistance in the Beat [AML](../cancer_types/AML.md) cohort, in contrast to [IDH2](../genes/IDH2.md) which showed broad sensitivity [PMID:30333627](../papers/30333627.md)
 - Missense mutations detected at <1% in advanced [HCC](../cancer_types/HCC.md); possibly defines a cholangiocarcinoma-like [HCC](../cancer_types/HCC.md) subset susceptible to selective IDH1 inhibitors such as [ivosidenib](../drugs/ivosidenib.md) [PMID:30373752](../papers/30373752.md)
-- IDH1 hotspot mutations (esp. R132) are truncal LGG-defining events; detected with 100% concordance between tumour tissue and CSF ctDNA in all non-hypermutated LGG and GBM cases; CSF ctDNA positivity remained prognostic (HR 4.16) after adjusting for IDH1 status (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
+- IDH1 hotspot mutations (esp. R132) are truncal LGG-defining events; detected with 100% concordance between tumour tissue and CSF ctDNA in all non-hypermutated LGG and [GBM](../cancer_types/GBM.md) cases; CSF ctDNA positivity remained prognostic (HR 4.16) after adjusting for IDH1 status (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 - R132G/H mutations in 11/56 (20%) recurrent GBM cohort tumors (4 responders, 7 non-responders); IDH1-mutant cases were excluded from the primary mutation-enrichment analysis comparing anti-PD-1 responders vs non-responders [PMID:30742119](../papers/30742119.md)
 - IDH1 is mutated in cHCC-ICC as part of the epigenetic dysregulation group (KMT2D/IDH1/BAP1/EZH2, jointly 35.6%); IDH1-mutant tumors cluster in the biliary/ICC-like P1 transcriptomic group [PMID:31130341](../papers/31130341.md).
 - IDH1 R132 defines the IDH-mutant glioma subgroup (355 of 923 tumors); IDH-mutant status anchors all subtype analyses including cell-cycle alteration enrichment in contrast-enhancing tumors and alkylator-induced hypermutation [PMID:31263031](../papers/31263031.md).
@@ -65,13 +65,14 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - 6 R132H mutants + 1 R222C non-hotspot mutant in a GBM proteogenomic cohort (n=99, CPTAC); IDH1 mutants showed earlier disease onset (median 47 vs. 59 years, p=0.055); 2-HG was the highest-abundance metabolite (median log2 FC=3.62, FDR<0.05); [GLUD1](../genes/GLUD1.md) upregulated and glutamate decreased in IDH1-mutant tumors [PMID:33577785](../papers/33577785.md)
 - Mutations in 20% of intrahepatic cholangiocarcinoma (iCCA) cases (n=412); mutually exclusive with [FGFR2](../genes/FGFR2.md) fusions and [CDKN2A](../genes/CDKN2A.md) deletions; not independently prognostic for [OS](../cancer_types/OS.md) (trend toward improvement, P=0.08); associated with lower CA19-9 levels [PMID:33765338](../papers/33765338.md)
 - Targetable alteration recurrently detected in intrahepatic cholangiocarcinoma by MSK-ACCESS liquid biopsy [PMID:34145282](../papers/34145282.md)
-- IDH1 mutations present at 18.7% prevalence across profiled intrahepatic cholangiocarcinoma cohort; in N1-node patients IDH1/2 mutation had no significant survival effect (HR 0.73, 95% CI 0.3–1.6, P=0.429; median OS 27.7 vs 18.1 months, P=0.427) [PMID:33963001](../papers/33963001.md)
+- IDH1 mutations present at 18.7% prevalence across profiled intrahepatic cholangiocarcinoma cohort; in N1-node patients IDH1/2 mutation had no significant survival effect (HR 0.73, 95% CI 0.3–1.6, P=0.429; median [OS](../cancer_types/OS.md) 27.7 vs 18.1 months, P=0.427) [PMID:33963001](../papers/33963001.md)
 - R132H mutation acquired in patient 118725 during clonal evolution toward therapy-related AML in pediatric neuroblastoma; emerged 12 months after [NPM1](../genes/NPM1.md) mutation detection, illustrating multi-step molecular progression [PMID:35078859](../papers/35078859.md)
-- In the MAPPYACTS trial, IDH1 R132L mutation (n=1) in AML was classified as ready-for-routine-use and targetable by ivosidenib; IDH1 mutations were among the highest-evidence actionable alterations matched to treatment [PMID:35292802](../papers/35292802.md).
+- In the MAPPYACTS trial, IDH1 R132L mutation (n=1) in AML was classified as ready-for-routine-use and targetable by [ivosidenib](../drugs/ivosidenib.md); IDH1 mutations were among the highest-evidence actionable alterations matched to treatment [PMID:35292802](../papers/35292802.md).
 - IDH1 mutation defines the IDHmut glioma subgroup (IDHmut-noncodel and IDHmut-codel) used as the primary stratification axis in longitudinal glioma progression analysis (GLASS cohort, n=304 patients with paired samples) [PMID:35649412](../papers/35649412.md)
 - IDH1 is mutated in 22.9% of chondrosarcomas in the MSK sarcoma genomic profiling cohort (n=7,494, FoundationOne CDx); IDH1 alterations are actionable in chondrosarcoma [PMID:35705558](../papers/35705558.md)
 - IDH1 and [IDH2](../genes/IDH2.md) together account for actionable alterations in 27% of chondrosarcomas ([CHS](../cancer_types/CHS.md)) in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148; MSK-IMPACT) [PMID:35705560](../papers/35705560.md)
 - Discussed as target of ivosidenib in the AML therapeutic landscape (background context); IDH1 mutation is part of the Beat AML cohort genomic characterization across 942 specimens from 805 [AML](../cancer_types/AML.md) patients [PMID:35868306](../papers/35868306.md)
+- IDH1 R132 mutations identified in 6 CAC cases; enriched in Crohn's disease–associated CAC vs ulcerative colitis; associated with high global methylation; 2-HG production confirmed in PDX; pharmacologic IDH1 inhibition suppressed PDX growth; FDA-approved IDH1 inhibitor ivosidenib (cholangiocarcinoma) supports trial eligibility. [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -206,4 +207,6 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 - [PMID:35868306](../papers/35868306.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

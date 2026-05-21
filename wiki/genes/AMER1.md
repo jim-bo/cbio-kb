@@ -28,7 +28,7 @@ AMER1 (also known as FAM123B and WTX) is an X-linked negative regulator of the W
 
 ## Co-occurrence and mutual exclusivity
 
-- AMER1 loss-of-function mutations occur in CRC tumors as an alternative to APC inactivation, both converging on aberrant WNT/beta-catenin activation [PMID:22810696](../papers/22810696.md)
+- AMER1 loss-of-function mutations occur in CRC tumors as an alternative to [APC](../genes/APC.md) inactivation, both converging on aberrant WNT/beta-catenin activation [PMID:22810696](../papers/22810696.md)
 
 ## Therapeutic relevance
 

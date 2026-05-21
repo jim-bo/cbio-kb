@@ -37,7 +37,7 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - Used (as fgsea) in the CCLE proteomics study (n=375 cell lines, 22 lineages) to identify pathway enrichment along proteome PC1; >200 MSigDB pathways enriched along proteome PC1 vs. far fewer along matched RNA-seq PC1, demonstrating that protein-level pathway co-expression dominates the CCLE proteome axis [PMID:31978347](../papers/31978347.md).
 - GSEA pathway analysis identified cell-cycle/DNA-replication pathways (SMC1, MCM5, MCM7) enriched in PDX-engrafting [UTUC](../cancer_types/UTUC.md) tumors and ECM/focal-adhesion pathways in non-engrafters [PMID:32332851](../papers/32332851.md)
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) to characterize the four CRPC chromatin subtypes; CRPC-SCL was enriched for mammary stem cell signature, cancer stem cell markers, FGFR signaling, TGF-β/EMT/TNF-α/IFN response pathways [PMID:35617398](../papers/35617398.md)
-- ssGSEA used to score six single-cell [AML](../cancer_types/AML.md) maturation-state signatures (HSC-like, Progenitor-like, GMP-like, Promonocyte-like, Monocyte-like, cDC-like) across 942 AML specimens; 73 drugs showed response significantly correlated with at least one cell-type signature [PMID:35868306](../papers/35868306.md)
+- ssGSEA used to score six single-cell [AML](../cancer_types/AML.md) maturation-state signatures (HSC-like, Progenitor-like, GMP-like, Promonocyte-like, Monocyte-like, cDC-like) across 942 [AML](../cancer_types/AML.md) specimens; 73 drugs showed response significantly correlated with at least one cell-type signature [PMID:35868306](../papers/35868306.md)
 
 ## Notes
 

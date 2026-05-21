@@ -5,7 +5,7 @@ drug_class: alkylating chemotherapy
 canonical_source: 
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -39,6 +39,7 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - Temozolomide was used as a chemotherapy backbone in combination with matched targeted therapies in MAPPYACTS; 45/122 matched targeted therapies were combined with chemotherapy (ORR 18% vs 13% single-agent) [PMID:35292802](../papers/35292802.md)
 - In 45/114 pediatric/AYA solid tumor patients profiled by cWGTS, treatment-related somatic mutation signatures included temozolomide signatures; TMB was significantly higher in therapy-exposed versus treatment-naive samples (Mann-Whitney p=1.892e-04), confirming persistent clones surviving prior therapy [PMID:35585047](../papers/35585047.md)
 - Temozolomide-induced hypermutation (>10 mutations/Mb at recurrence) was associated with increased proliferating stem-like cells in both IDH-wild-type (n=13) and IDH-mutant (n=7) diffuse glioma, confirmed by [SOX2](../genes/SOX2.md)+/Ki67+ multiplex IF; hypermutation is a shared route to the proliferative recurrence phenotype independent of CDKN2A/CCND2 events, motivating monitoring of mutation burden as a longitudinal biomarker [PMID:35649412](../papers/35649412.md).
+- 4/6 atypical SCLC (aSCLC) patients treated with temozolomide remained on therapy >10 months (up to 2 years); long responders had lowest MGMT expression by RNA-seq; the mutational signature of TMZ was detected in treated case A07, confirming drug exposure [PMID:39185963](../papers/39185963.md).
 
 ## Resistance mechanisms
 
@@ -82,3 +83,6 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

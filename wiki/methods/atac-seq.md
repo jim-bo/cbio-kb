@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: false
 tags: [epigenomics, chromatin-accessibility, sequencing]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -18,6 +18,7 @@ Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) profiles 
 ## Used by
 
 - Used as the primary epigenomic profiling modality across 35 newly profiled metastatic CRPC models (22 organoids, 6 PDXs, 7 cell lines), identifying 861,195 reproducible peaks and defining four chromatin-based CRPC subtypes (CRPC-AR, CRPC-NE, CRPC-WNT, CRPC-SCL) in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) [PMID:35617398](../papers/35617398.md)
+- Reviewed as a chromatin-accessibility profiling modality in multi-omics integration; highlighted in thyroid cancer study (Sanghi et al.) linking gene-body enhancers to correlated RNA/protein expression [PMID:37119971](../papers/37119971.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) profiles 
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37119971](../papers/37119971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

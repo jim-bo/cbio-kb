@@ -5,7 +5,7 @@ drug_class: multi-kinase inhibitor (MET/VEGFR2/AXL/RET)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, sarcoma, multi-kinase]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -28,6 +28,7 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 - Cited as matched agent for [RET](../genes/RET.md) fusions (level 2A) in 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort; 53.3% of RET-fusion patients received matched therapy with 72.7% clinical benefit [PMID:28336552](../papers/28336552.md).
 - In genomic profiling of 127 advanced [HCC](../cancer_types/HCC.md) patients at MSKCC, cabozantinib was listed as a genome-matched targeted therapy option for [MET](../genes/MET.md)-amplified HCC, alongside anti-VEGFR2 + anti-MET mAb combinations; 24% of patients harbored potentially actionable alterations [PMID:30373752](../papers/30373752.md).
 - Cabozantinib is a multikinase inhibitor (MKI) targeting [RET](../genes/RET.md), among others; 29/53 previously treated LIBRETTO-001 patients had received prior MKI therapy ([vandetanib](../drugs/vandetanib.md), cabozantinib, or RXDX-105) before [selpercatinib](../drugs/selpercatinib.md) — prior MKI exposure did not alter [selpercatinib](../drugs/selpercatinib.md) outcomes (HR=1.2, P=0.6) [PMID:35304457](../papers/35304457.md)
+- [FASN](../genes/FASN.md) inhibition (orlistat, TVB-2640, TVB-3664) synergizes with cabozantinib in preclinical [HCC](../cancer_types/HCC.md) models; the combination is proposed as a strategy to overcome lipid-metabolism-driven TKI resistance [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -66,3 +67,6 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 - [PMID:35304457](../papers/35304457.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

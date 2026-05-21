@@ -37,7 +37,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction) in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - Loss-of-function mutations in 36.1% of cutaneous squamous cell carcinomas in a meta-analysis of 88 QC-passed tumors; NOTCH-pathway inactivation identified as near-obligate in [CSCC](../cancer_types/CSCC.md) [PMID:34272401](../papers/34272401.md)
 - NOTCH2 downstream YAP/TAZ pathway is upregulated in POU2F3-positive SCLC-P PDX models; NOTCH1/2/3 signaling implicated in the non-NE subtype biology across 42 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md)
-- Absent from significant or recurrent SNVs in metastatic [CSCC](../cancer_types/CSCC.md) (n=25), contrasting with NOTCH pathway prominence in primary CSCC genomic studies [PMID:35982973](../papers/35982973.md)
+- Absent from significant or recurrent SNVs in metastatic [CSCC](../cancer_types/CSCC.md) (n=25), contrasting with NOTCH pathway prominence in primary [CSCC](../cancer_types/CSCC.md) genomic studies [PMID:35982973](../papers/35982973.md)
 
 ## Cancer types (linked)
 

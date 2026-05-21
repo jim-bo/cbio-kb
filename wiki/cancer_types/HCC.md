@@ -34,9 +34,11 @@ Primary liver cancer of hepatocellular origin.
 - Pan-cancer aneuploidy study placed HCC in the epithelial arm-level cluster (alongside [LUAD](../cancer_types/LUAD.md) and [BRCA](../cancer_types/BRCA.md)) defined by 1q gain; HCC arm-level alteration patterns were used in the per-tumor-type aneuploidy analysis [PMID:29622463](../papers/29622463.md)
 - 10 HCC cases (non-viral, non-cirrhotic) profiled by MSK-IMPACT 341-gene panel; top mutations: [TERT](../genes/TERT.md) promoter 7/10, [TP53](../genes/TP53.md) 3/10, [CTNNB1](../genes/CTNNB1.md) 2/10, [APC](../genes/APC.md) 2/10; C19MC miRNA cluster (miR-515-5p, miR-517a, miR-518b, miR-520c-3p) 3–4× higher in HCC vs HCA or normal liver [PMID:30052636](../papers/30052636.md)
 - Prospective MSK-IMPACT sequencing of 127 advanced HCC patients confirmed [TERT](../genes/TERT.md) (56%), [CTNNB1](../genes/CTNNB1.md) (36%), and [TP53](../genes/TP53.md) (33%) as the top altered genes (WNT and [TP53](../genes/TP53.md) alterations mutually exclusive, p=0.003); PI3K-mTOR pathway alterations predicted worse [sorafenib](../drugs/sorafenib.md) outcomes (PFS HR 3.8, p<0.0001), and WNT/β-catenin activation predicted innate ICI resistance (0% vs 53% disease control, p=0.009); dataset [hcc_mskimpact_2018](../datasets/hcc_mskimpact_2018.md) [PMID:30373752](../papers/30373752.md)
-- cHCC-ICC pan-Asia genomic study (N=133) used TCGA-HCC as a reference cohort; TP53 mutation rate 31% in TCGA-HCC vs 49.2% in cHCC-ICC; [TERT](../genes/TERT.md) promoter mutation 46% in TCGA-HCC vs 22.9% in cHCC-ICC; [CTNNB1](../genes/CTNNB1.md) mutation rate substantially higher in HCC than in cHCC-ICC (6%) [PMID:31130341](../papers/31130341.md).
+- cHCC-ICC pan-Asia genomic study (N=133) used TCGA-HCC as a reference cohort; [TP53](../genes/TP53.md) mutation rate 31% in TCGA-HCC vs 49.2% in cHCC-ICC; [TERT](../genes/TERT.md) promoter mutation 46% in TCGA-HCC vs 22.9% in cHCC-ICC; [CTNNB1](../genes/CTNNB1.md) mutation rate substantially higher in HCC than in cHCC-ICC (6%) [PMID:31130341](../papers/31130341.md).
 - Included in PCAWG (n=2,658 WGS); hepatocellular carcinoma showed [TP53](../genes/TP53.md) association with chromothripsis (HCC OR=3.9) [PMID:32025007](../papers/32025007.md).
 - Integrated (phospho)proteogenomic characterization of 122 HCC biopsies from 114 systemically-untreated patients (Basel, 2008–2018; [hcc_meric_2021](../datasets/hcc_meric_2021.md)); 7 SMGs identified including novel [GPAM](../genes/GPAM.md) candidate tumor suppressor; 3 integrative iCluster subtypes defined with [OS](../cancer_types/OS.md) associations [PMID:35508466](../papers/35508466.md)
+- A multi-omics review (Babu & Snyder 2023) cites integration of CNV, DNA methylation, and gene expression across 256 HCC samples (Liu et al. 2016) as a landmark example, identifying five molecular subgroups with distinct survival outcomes [PMID:37119971](../papers/37119971.md)
+- A narrative review of lipid metabolism reprogramming in HCC (Wong, Kong, Ma) finds that ~75% of HCC patients fail current SoC ([atezolizumab](../drugs/atezolizumab.md)+[bevacizumab](../drugs/bevacizumab.md) ORR 26–28%; [lenvatinib](../drugs/lenvatinib.md) ORR 16–23%); six lipid metabolic axes (uptake, DNL, FAO, ferroptosis suppression, bioactive lipid signaling, cholesterol synthesis) drive TKI/ICI/radiotherapy resistance, and key dominant HCC drivers include [TERT](../genes/TERT.md), [TP53](../genes/TP53.md), and [CTNNB1](../genes/CTNNB1.md) (>25% of patients), with CTNNB1-active HCC addicted to CPT1A-mediated FAO [PMID:38355797](../papers/38355797.md)
 
 ## Subtypes
 
@@ -46,47 +48,22 @@ Primary liver cancer of hepatocellular origin.
 
 ## Sources
 
-- [PMID:37769223](../papers/37769223.md)
-- [PMID:38864854](../papers/38864854.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22634756](../papers/22634756.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24735922](../papers/24735922.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25526346](../papers/25526346.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25608663](../papers/25608663.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30052636](../papers/30052636.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
-
 - [PMID:31130341](../papers/31130341.md) — Xue et al. cHCC-ICC pan-Asia genomic study (Cancer Cell 2019).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
+- [PMID:37119971](../papers/37119971.md)
+- [PMID:37769223](../papers/37769223.md)
+- [PMID:38355797](../papers/38355797.md)
+- [PMID:38864854](../papers/38864854.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -78,6 +78,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Altered in 81% of pMMR/MSS rectal tumors (LARC cohort, n=652); frequency decreases toward the anal verge (UR 92% / MR 90% / LR 77%, p<0.001); median distance from anal verge 6.85 cm in APC-altered vs 4 cm in wild-type (p<0.001); C-terminal in rectum/DCA, N-terminal in PCA; replicated in MSK-OtherRectal (n=157) [PMID:35970919](../papers/35970919.md)
 - Structural deletion detected by LINX/PURPLE SV analysis in metastatic cSCC WGS cohort (n=25) [PMID:35982973](../papers/35982973.md)
 - Somatic APC mutation detected in cfDNA at baseline by MSK-ACCESS in EC patient CD36 (stage IIIA grade 1 endometrioid); one of 5 primary-tumor mutations, all detected in baseline ctDNA [PMID:36007103](../papers/36007103.md)
+- APC loss is the upstream alteration in some Wnt/beta-catenin-driven [HCC](../cancer_types/HCC.md) models; CTNNB1-mutant/APC-loss HCC (>25% of patients) is addicted to FAO via PPARalpha and CPT1A [PMID:38355797](../papers/38355797.md)
+- Somatic APC mutation in 20% of colitis-associated cancers (vs ~80% in sporadic CRC); APC-mutant CAC organoids remained Wnt-independent for growth; germline APC I1307K in 3 CAC patients (Ashkenazi Jewish low-penetrance allele) [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -272,5 +274,11 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -40,14 +40,15 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - Non-SMG cancer gene mutated in ≥3 HCCs in a European multi-omic cohort (n=122); associated with poor [OS](../cancer_types/OS.md) independent of BCLC staging in multivariate Cox analysis [PMID:35508466](../papers/35508466.md)
 - CDKN2A deleted in 16.7% of sarcomas (84.5% homozygous deletions); enriched in [MPNST](../cancer_types/MPNST.md) (47.3%) and chordoma (36.8%); co-occurs with CDK4/CDK6 amplification and CCND1/2/3 in unusual within-pathway co-occurrence [PMID:35705558](../papers/35705558.md)
 - Acquired focal CDKN2A deletion at recurrence drives expansion of proliferating stem-like neoplastic cells in IDHmut glioma (P=3e-3, n=6); already prevalent at initial diagnosis in IDHwt tumors and not enriched at recurrence there [PMID:35649412](../papers/35649412.md)
-- CDKN2A deletions in up to 48% of [MPNST](../cancer_types/MPNST.md); broadly distributed actionable hits across sarcoma subtypes; included in Level 3B highlights with up to 48% deletion frequency in MPNST [PMID:35705560](../papers/35705560.md)
+- CDKN2A deletions in up to 48% of [MPNST](../cancer_types/MPNST.md); broadly distributed actionable hits across sarcoma subtypes; included in Level 3B highlights with up to 48% deletion frequency in [MPNST](../cancer_types/MPNST.md) [PMID:35705560](../papers/35705560.md)
 - Deep deletion peak in CNV analysis; LoF in 20% of [PAAD](../cancer_types/PAAD.md) in a pan-Asian solid-tumor cohort (CDK4/6 inhibitor candidate per OncoKB); 12% pan-cohort frequency [PMID:35871175](../papers/35871175.md)
-- Recurrently mutated (LOF impacting p16INK4a and ARF) and structurally deleted (DEL) in 25 metastatic [CSCC](../cancer_types/CSCC.md) WGS samples; driver confirmed by all three tools; deep deletion in 1/25 samples; proposed rationale for CDK4/6 inhibition with [palbociclib](../drugs/palbociclib.md) in metastatic CSCC [PMID:35982973](../papers/35982973.md)
+- Recurrently mutated (LOF impacting p16INK4a and ARF) and structurally deleted (DEL) in 25 metastatic [CSCC](../cancer_types/CSCC.md) WGS samples; driver confirmed by all three tools; deep deletion in 1/25 samples; proposed rationale for CDK4/6 inhibition with [palbociclib](../drugs/palbociclib.md) in metastatic [CSCC](../cancer_types/CSCC.md) [PMID:35982973](../papers/35982973.md)
 - E61Pfs*54 frameshift clonal in one endometrial carcinoma primary ([CD28](../genes/CD28.md)); not detected in baseline cfDNA but detected at 6-month follow-up by MSK-ACCESS panel [PMID:36007103](../papers/36007103.md)
+- Paradoxically p16-high (overexpression by IHC and RNA-seq) in all chromosome 12 chromothripsis atypical [SCLC](../cancer_types/SCLC.md) cases (A07, A08, A09) despite wild-type pRb, reflecting posttranslational pRb inhibition by ecDNA-amplified [CDK4](../genes/CDK4.md) creating a pRb-null-like state [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
 
-- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CDKN2A alterations independently prognostic of worse OS (multivariable HR 1.50, p=0.004); deletions alone not significant on univariable; Cell Cycle pathway enrichment [PMID:33795256](../papers/33795256.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CDKN2A alterations independently prognostic of worse [OS](../cancer_types/OS.md) (multivariable HR 1.50, p=0.004); deletions alone not significant on univariable; Cell Cycle pathway enrichment [PMID:33795256](../papers/33795256.md).
 - **Intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)):** homozygous deletion in 13%; strongest independent prognostic factor (HR 3.40 resected, HR 2.5 whole cohort); defines a subgroup with no benefit from resection in clinical high-risk patients; mutually exclusive with IDH1/2 and [FGFR2](../genes/FGFR2.md) [PMID:33765338](../papers/33765338.md).
 - **Glioblastoma ([GBM](../cancer_types/GBM.md)):** differential CDKN2A/CDKN2B alteration patterns between IDH-WT and IDH-mutant tumors [PMID:33577785](../papers/33577785.md).
 
@@ -114,5 +115,8 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

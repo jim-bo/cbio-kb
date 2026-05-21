@@ -5,7 +5,7 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-21
 ---
 
@@ -41,6 +41,7 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - In a pediatric/AYA solid tumor cWGTS study (n=114), a patient with metastatic adrenocortical carcinoma and high fusion/SV burden (H135022) achieved complete response after 3 cycles of nivolumab + ipilimumab and remained disease-free 26 months after therapy cessation; the combination was identified as therapy-informing via WGS beyond panel findings [PMID:35585047](../papers/35585047.md)
 - A complete response to nivolumab + ipilimumab was observed in a malignant PEComa patient with subclonal [TSC1](../genes/TSC1.md) and TMB 7 mut/Mb in the MSK clinical sub-cohort (n=118) anecdotal response series [PMID:35705558](../papers/35705558.md).
 - Anti-CTLA-4 antibody; nivolumab+ipilimumab indicated for MSI-H CRC in Chinese pan-cancer cohort (n=10,194); MSI-H in ~2% of cohort, 55% of which are CRC [PMID:35871175](../papers/35871175.md)
+- Ipilimumab (CTLA-4) is mentioned as an ICI used in advanced [HCC](../cancer_types/HCC.md) trials; the review frames lipid-metabolism reprogramming (DNL, FAO, cholesterol biosynthesis) as a driver of resistance to checkpoint inhibitor regimens including ipilimumab combinations [PMID:38355797](../papers/38355797.md).
 
 ## Resistance mechanisms
 
@@ -80,3 +81,6 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38355797](../papers/38355797.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

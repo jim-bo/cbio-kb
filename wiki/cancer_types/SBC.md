@@ -8,7 +8,7 @@ tags:
   - MSI
   - MMR
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-21
 ---
 
 # Small Bowel Cancer (SBC)
@@ -24,6 +24,7 @@ Small bowel cancer encompasses malignancies of the small intestine including ade
 ## Recurrent alterations
 
 - [MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md): MMR protein loss detected by IHC as the reference standard for MSI-H classification in the MiMSI study; relative proportions among MMR-D SBC tumors not specifically reported. [PMID:39746944](../papers/39746944.md)
+- 10.3% of 174 colitis-associated cancer cases arose in the small intestine; small bowel CAC shared the molecular signature of the broader CAC series (TP53-dominant, low [APC](../genes/APC.md), Wnt-independent) and [IDH1](../genes/IDH1.md) mutations were specifically noted in ileal CAC with functional 2-HG production [PMID:36611031](../papers/36611031.md)
 
 ## Subtypes
 
@@ -40,4 +41,8 @@ Small bowel cancer encompasses malignancies of the small intestine including ade
 
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. *Nature Cancer* 2024. MiMSI deep-learning MSI classifier.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:36611031](../papers/36611031.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -24,13 +24,14 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - Confirmed deletion driver in the 18q focal-deletion region in colon cancer proteogenomics ([coad_cptac_2019](../datasets/coad_cptac_2019.md)) [PMID:31031003](../papers/31031003.md)
 - Pan-cancer PCAWG driver in 181 tumors [PMID:32025007](../papers/32025007.md)
 - Known [LUAD](../cancer_types/LUAD.md) subclonal gene with higher alteration frequency in MIP/SOL-predominant tumors; cited alongside [NF1](../genes/NF1.md) and [ATM](../genes/ATM.md) as subclonal drivers in aggressive [LUAD](../cancer_types/LUAD.md) histologic subtypes. [PMID:32791233](../papers/32791233.md)
-- Alterations associated with worse [OS](../cancer_types/OS.md) in esophageal adenocarcinoma (EAC) (KM p=0.028; multivariable HR 1.61, 95% CI 1.14-2.28, p=0.007; n=487 MSK cohort); consistent with prior reports linking SMAD4 loss to disease recurrence [PMID:33795256](../papers/33795256.md)
+- Alterations associated with worse [OS](../cancer_types/OS.md) in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) (KM p=0.028; multivariable HR 1.61, 95% CI 1.14-2.28, p=0.007; n=487 MSK cohort); consistent with prior reports linking SMAD4 loss to disease recurrence [PMID:33795256](../papers/33795256.md)
 - Alterations independently associated with pathologic LN metastasis in [LUAD](../cancer_types/LUAD.md) (multivariable OR 5.01, p=0.02); 7% in pN+ vs 1.5% in pN- (p=0.011); reduced SMAD4 expression linked to increased DNA damage, reduced DNA repair, and topoisomerase inhibitor sensitivity [PMID:34290393](../papers/34290393.md)
 - Altered in ~15-19% across MSS CRC age cohorts; SMAD4 alteration independently associated with worse survival (HR=1.46, 95% CI 1.08-1.94; P=0.01) [PMID:34405229](../papers/34405229.md)
 - Altered in 29% of PDAC (more frequent in C1 classical subtype); downregulates [SERPINE1](../genes/SERPINE1.md) mRNA/protein; deletions raise phospho-HDAC1 (S406/S410/S421), phospho-SMARCA4 S613, and phospho-CREBBP S274 [PMID:34534465](../papers/34534465.md)
 - SMAD4 altered in 10% of MSI-stable esophageal adenocarcinoma (EAC) patients in the MSK neoadjuvant CRT cohort (n=237); not significantly associated with pathologic treatment response [PMID:35377946](../papers/35377946.md).
 - Structural deletion (DEL) identified by LINX/PURPLE in metastatic cutaneous SCC; catalogued as a structural variant in the Asian pan-cancer cohort (aOM) [PMID:35871175](../papers/35871175.md)
 - Structural deletion (DEL) detected by LINX/PURPLE SV analysis in metastatic cutaneous squamous cell carcinoma WGS (n=25); present in multiple samples [PMID:35982973](../papers/35982973.md)
+- Altered in 13% of colitis-associated colorectal cancer (CAC); recurrent driver alongside [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), and [APC](../genes/APC.md) in a targeted-panel sequencing cohort of 145 CAC patients (MSK-IMPACT) [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
 
@@ -83,5 +84,8 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

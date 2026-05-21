@@ -42,6 +42,9 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - Used to classify clinical actionability for variants reported by MSK-ACCESS in 681 prospective plasma samples; 41% (278/681) had OncoKB level 1–3B alterations; level-1 yield was 48% in bladder, 37% in breast, and 33% in [NSCLC](../cancer_types/NSCLC.md) [PMID:34145282](../papers/34145282.md)
 - Applied in the MSK early-onset colorectal cancer cohort (759 EO-CRC patients vs 687 AO-CRC) for somatic and germline profiling at Memorial Sloan Kettering Cancer Center [PMID:34405229](../papers/34405229.md)
 - OncoKB used for cross-validation of recurrent oncogenic driver alterations in 237 esophageal/GEJ adenocarcinoma patients; 8 genes at ≥8% prevalence confirmed [PMID:35377946](../papers/35377946.md).
+- OncoKB v2.8 used for oncogenicity annotation of [PIK3R1](../genes/PIK3R1.md) alterations in 1,417 MSK-IMPACT prostate cancers; 'driver' defined as predicted oncogenic by OncoKB [PMID:35670774](../papers/35670774.md)
+- OncoKB used for actionability annotation of 7,494 sarcoma samples sequenced by FoundationOne Heme, classifying alterations into Levels 1–4 for treatment selection [PMID:35705558](../papers/35705558.md)
+- OncoKB oncogenicity and actionability annotation applied to the 2,138-sarcoma MSK-IMPACT dataset to classify driver alterations and assign treatment-actionability levels [PMID:35705560](../papers/35705560.md)
 
 ## Notes
 
@@ -112,5 +115,14 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

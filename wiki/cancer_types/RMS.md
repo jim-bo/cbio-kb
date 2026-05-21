@@ -12,7 +12,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include alveolar ([ARMS](./ARMS.md)), embryonal ([ERMS](./ERMS.md)), and spindle cell/sclerosing ([SCRMS](./SCRMS.md)) variants.
+Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent [SOFT_TISSUE](../cancer_types/SOFT_TISSUE.md)). Subtypes include alveolar ([ARMS](./ARMS.md)), embryonal ([ERMS](./ERMS.md)), and spindle cell/sclerosing ([SCRMS](./SCRMS.md)) variants.
 
 ## Cohorts in the corpus
 
@@ -29,6 +29,7 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 - PPTC RMS PDX models (n=261 total cohort): Fusion+ [ARMS](../cancer_types/ARMS.md) carried PAX3-FOXO1; Fusion− [ERMS](../cancer_types/ERMS.md) had RAS-pathway mutations ([NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md), [KRAS](../genes/KRAS.md), [NF1](../genes/NF1.md)) in 3/6 models; [MYCN](../genes/MYCN.md) and [CDK4](../genes/CDK4.md) focal amplifications observed; [MYOD1](../genes/MYOD1.md) overexpressed in all but IRS-68; median age 16y for [ARMS](../cancer_types/ARMS.md) vs 5y for [ERMS](../cancer_types/ERMS.md) [PMID:31693904](../papers/31693904.md).
 - Rhabdomyosarcoma (RMS) was enrolled in MAPPYACTS (sarcomas 37% of 787 patients); CDK4/CDK6 amplifications recurrent in RMS were matched to CDK4/6 inhibitors (105 recommendations); FGFR1/2/3/4 alterations (27 events) occurred across RMS and other sarcomas [PMID:35292802](../papers/35292802.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 7,494-sarcoma cohort, rhabdomyosarcoma subtypes showed histotype-specific alterations: embryonal RMS had [MYC](../genes/MYC.md) amplification in 18.4%, alveolar RMS had lower TMB in P-AYA patients; higher TMB in RMS was associated with worse outcome (citing Casey et al.) [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
@@ -62,5 +63,8 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

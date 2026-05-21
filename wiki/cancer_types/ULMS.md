@@ -4,8 +4,8 @@ oncotree_code: ULMS
 main_type: Uterine Sarcoma
 parent: USMT
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Uterine Leiomyosarcoma (ULMS)
@@ -28,8 +28,10 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 - [MED12](../genes/MED12.md) — recurrent mutations in 15% (much more common than in STLMS at 1%). [PMID:38488807](../papers/38488807.md)
 - TMB: median 3 mut/Mb; 98% of cases <10 mut/Mb. [PMID:38488807](../papers/38488807.md)
 - MET500 metastatic cohort identified a novel GREB1-NR4A3 activating fusion in uterine leiomyosarcoma; ULMS was sequenced as part of the 42/500 soft-tissue sarcoma cases within the cohort. [PMID:28783718](../papers/28783718.md)
-- ULMS (n=27) was molecularly distinguishable from STLMS by iCluster, with PI3K/AKT/MTOR pathway alterations in 84% and ESR1 target-gene hypomethylation supporting a hormonal-axis difference; STLMS had significantly higher PD-L1 (CD274) expression than ULMS (p=4e-5) [PMID:29100075](../papers/29100075.md)
-- Prospective MSK-IMPACT sequencing of 80 uLMS at MSKCC (dataset: usarc_msk_2020) showed dominant loss-of-function alterations in TP53 (56%), RB1 (51%), and ATRX (31%); BRCA2 homozygous deletions in 5%; highest PDCD1 homozygous deletion rate across all cancer types in the 15,816-patient MSK-IMPACT cohort; actionable alterations in 45%; PARP-inhibitor therapy produced sustained responses in BRCA2-altered uLMS [PMID:32299819](../papers/32299819.md)
+- ULMS (n=27) was molecularly distinguishable from STLMS by iCluster, with PI3K/AKT/MTOR pathway alterations in 84% and [ESR1](../genes/ESR1.md) target-gene hypomethylation supporting a hormonal-axis difference; STLMS had significantly higher PD-L1 ([CD274](../genes/CD274.md)) expression than ULMS (p=4e-5) [PMID:29100075](../papers/29100075.md)
+- Prospective MSK-IMPACT sequencing of 80 uLMS at MSKCC (dataset: [usarc_msk_2020](../datasets/usarc_msk_2020.md)) showed dominant loss-of-function alterations in [TP53](../genes/TP53.md) (56%), [RB1](../genes/RB1.md) (51%), and [ATRX](../genes/ATRX.md) (31%); [BRCA2](../genes/BRCA2.md) homozygous deletions in 5%; highest [PDCD1](../genes/PDCD1.md) homozygous deletion rate across all cancer types in the 15,816-patient MSK-IMPACT cohort; actionable alterations in 45%; PARP-inhibitor therapy produced sustained responses in BRCA2-altered uLMS [PMID:32299819](../papers/32299819.md)
+- In a 7,494-sarcoma cohort, uterine [LMS](../cancer_types/LMS.md) had biallelic HRD-gene loss in 4.8% — the second highest rate after chordoma (5.3%); MSI-H was among the most frequent in ULMS/LMS/sarcoma NOS [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort (n=165 ULMS), [MED12](../genes/MED12.md) was altered in 16% (G44 hotspot missense); BRCA2 or [RAD51B](../genes/RAD51B.md) each mutated in 7%; [PTEN](../genes/PTEN.md) loss in 21%; ATRX alterations in ~33%; median TMB 2.6 mut/Mb with 15% TMB ≥5 mut/Mb; three ULMS were MSI-high; high intra-subtype entropy [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -51,10 +53,16 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 - [PMID:28783718](../papers/28783718.md)
 - [PMID:38488807](../papers/38488807.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

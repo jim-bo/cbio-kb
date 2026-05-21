@@ -49,8 +49,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Amplification in 1/19 sequenced cases; observed in 1p/19q-intact glioblastoma-like tumors rather than true 1p/19q-codeleted oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Alterations rise stepwise with tumor stage and grade in NMIBC (p < 0.001); co-altered with [TP53](../genes/TP53.md) in the p53-pathway axis [PMID:28583311](../papers/28583311.md)
 - Recurrent oncogene amplification in cholangiocarcinoma (n=9 WGS cases) [PMID:28667006](../papers/28667006.md)
-- MDM2 amplification (copy number >4) was found in 6% and MDM2 overexpression (>2-fold above median) in 19% of muscle-invasive bladder cancer (MIBC) tumors; the TP53/Cell Cycle pathway (including MDM2) was inactivated in 89% of tumors; MDM2 and TP53 alterations were mutually exclusive (q < 0.2) [PMID:28988769](../papers/28988769.md)
-- MDM2 amplification was present in 100% of dedifferentiated liposarcoma (DDLPS) by definition; MDM2, [CDK4](../genes/CDK4.md), and [HMGA2](../genes/HMGA2.md) co-amplification at 12q13~15 is the defining hallmark of DDLPS; MDM2 amplification, CDK4 amplification, [JUN](../genes/JUN.md) amplification, and [TERT](../genes/TERT.md) amplification distinguished DDLPS from other sarcoma subtypes [PMID:29100075](../papers/29100075.md)
+- MDM2 amplification (copy number >4) was found in 6% and MDM2 overexpression (>2-fold above median) in 19% of muscle-invasive bladder cancer (MIBC) tumors; the TP53/Cell Cycle pathway (including MDM2) was inactivated in 89% of tumors; MDM2 and [TP53](../genes/TP53.md) alterations were mutually exclusive (q < 0.2) [PMID:28988769](../papers/28988769.md)
+- MDM2 amplification was present in 100% of dedifferentiated liposarcoma (DDLPS) by definition; MDM2, [CDK4](../genes/CDK4.md), and [HMGA2](../genes/HMGA2.md) co-amplification at 12q13~15 is the defining hallmark of DDLPS; MDM2 amplification, [CDK4](../genes/CDK4.md) amplification, [JUN](../genes/JUN.md) amplification, and [TERT](../genes/TERT.md) amplification distinguished DDLPS from other sarcoma subtypes [PMID:29100075](../papers/29100075.md)
 - Amplification identified in 8 [NSCLC](../cancer_types/NSCLC.md) patients; PFS not significantly different from overall cohort (HR 1.4, P=.44); hyperprogression signal on anti-PD-(L)1 therapy previously reported elsewhere was not reproduced [PMID:29337640](../papers/29337640.md)
 - MDM2 is mutually exclusive with [RB1](../genes/RB1.md) and [CDKN2A](../genes/CDKN2A.md) loss but is co-amplified with CDK4 due to genomic proximity; 78% of dedifferentiated liposarcomas carry CDK4+MDM2 co-amplification, nominating CDK4+MDM2 inhibitor combination therapy [PMID:29625050](../papers/29625050.md)
 - MDM2 amplification in 4% of cholangiocarcinoma (n=195 MSK-IMPACT cohort); associated with shorter PFS on first-line chemotherapy (n=7, p=0.026) [PMID:29848569](../papers/29848569.md)
@@ -65,16 +65,18 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 — amplification (n=4) and mutation (n=1) observed in 25% of BRAFi-monotherapy melanoma patients combined with TP53 events; not associated with response grade or survival; higher MDM2 expression correlated with elevated mutation burden in normal melanocytes [PMID:32913971](../papers/32913971.md)
 - MDM2 — higher expression correlated with elevated mutation burden in normal skin melanocytes; not pathogenically mutated but transcriptionally upregulated in high-mutation-burden donors with adjacent skin cancer [PMID:33029006](../papers/33029006.md)
 - Recurrent focal SCNA gain at 12q15 identified in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)); gain enriched in muscle-invasive and iCluster-high subtype. [PMID:33397444](../papers/33397444.md)
-- Amplification specific to mesenchymal GBM subtype in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) (n=99); MDM2 RNA and protein decreased in TP53-mutant tumors, consistent with loss of the TP53-MDM2 negative-feedback loop [PMID:33577785](../papers/33577785.md)
+- Amplification specific to mesenchymal [GBM](../cancer_types/GBM.md) subtype in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) (n=99); MDM2 RNA and protein decreased in TP53-mutant tumors, consistent with loss of the TP53-MDM2 negative-feedback loop [PMID:33577785](../papers/33577785.md)
 - Amplification in 24% of TP53-wild-type esophagogastric adenocarcinoma tumors ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md), N=487); mutually exclusive with TP53 mutation (p<0.001, q<0.05); one of 10 amplification-driven recurrent oncogenic drivers [PMID:33795256](../papers/33795256.md)
 - Focal amplification observed in 2.4% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
-- Most frequently copy-number altered gene in pN-negative tumors (10%) in 426 treatment-naive clinical N2-negative LUAD patients (MSK-IMPACT). [PMID:34290393](../papers/34290393.md)
+- Most frequently copy-number altered gene in pN-negative tumors (10%) in 426 treatment-naive clinical N2-negative [LUAD](../cancer_types/LUAD.md) patients (MSK-IMPACT). [PMID:34290393](../papers/34290393.md)
 - Focal amplifications mutually exclusive with TP53 mutations (P=0.03) in LCINS LUAD (n=232); kataegis hotspot at MDM2 locus (P=1.3e-15); amplified tumors had short latency; combined TP53 mut or MDM2 amp → HR=2.9 (CI 1.6-5.2, P=4.5e-4). [PMID:34493867](../papers/34493867.md)
 - MDM2 appears in the negative Δκ<sub>risk</sub> list in a 45-patient [HGSOC](../cancer_types/HGSOC.md) ICI cohort; mechanistically linked to AKT-driven p53 degradation in the paper's pathway model; a high positive MDM2 Δκ associates with lower network robustness in ICI-treated patients. [PMID:34819508](../papers/34819508.md)
 - In the MAPPYACTS pediatric precision oncology trial, MDM2 was classified as an investigational-tier actionable target; 38 MDM2-based treatment recommendations were made across the 624-patient cohort [PMID:35292802](../papers/35292802.md).
 - MDM2 focal amplification was detected in ~9% (21/237) of MSI-stable esophageal adenocarcinoma patients undergoing neoadjuvant chemoradiotherapy; MDM2 amplification was independently associated with non-response (OR 0.10, p=0.032) and was mutually exclusive with TP53 truncating bi-allelic mutations (q<0.05); MDM2 inhibition ([idasanutlin](../drugs/idasanutlin.md)) was proposed as a therapeutic hypothesis in this subgroup [PMID:35377946](../papers/35377946.md).
 - MDM2 amplification co-occurred with [KRAS](../genes/KRAS.md) amplification in two TP53/RB1-wildtype atypical [SCLC](../cancer_types/SCLC.md) clinical samples; MDM2 amplification was also detected in all MSK773 [SCLC](../cancer_types/SCLC.md) and adenocarcinoma admixed tumor components, with the authors proposing MDM2 amplification as a potential phenocopy of TP53 inactivation [PMID:35440124](../papers/35440124.md).
 - Recurrent amplification co-occurring with chromothripsis-mediated TP53 loss in 10/29 osteosarcoma patients studied by cWGTS; co-amplified with [MYC](../genes/MYC.md) and [VEGFA](../genes/VEGFA.md) in chromothripsis events [PMID:35585047](../papers/35585047.md).
+- MDM2 amplification is the pathognomonic alteration of well/dedifferentiated liposarcoma, present in 10.7% overall (13.5% complex-type vs. 1.6% translocation-associated sarcomas; >94% amplifications); predicts response to MDM2 inhibitors; co-occurs with TP53 alterations in the p53 pathway in the MSK sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
+- MDM2 is co-amplified with CDK4 in >97% of well/dedifferentiated liposarcoma (WDLS/DDLS); MDM2/CDK4 amplification is diagnostic and Level 3A actionable via CDK4 inhibitors in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -261,5 +263,11 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

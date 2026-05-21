@@ -59,7 +59,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort; flagged as cross-cancer driver [PMID:27161491](../papers/27161491.md)
 - BRCA1 pathogenic germline variants enriched in young lung cancer (OR=4.1); specific variant p.Cys47Arg reported by Donner et al. [PMID:27346245](../papers/27346245.md)
 - Germline BRCA1 frameshift variants found in two pediatric patients (nested stromal epithelial liver tumor and ependymoma); returned as ACMG secondary findings with breast-cancer health-maintenance flag [PMID:28007021](../papers/28007021.md)
-- BRCA1 is recruited to DSBs via [TRMT10A](../genes/TRMT10A.md) pSer28; BRCA1 recruitment (but not protein abundance) is impaired by [TRMT10A](../genes/TRMT10A.md) or [USP10](../genes/USP10.md) loss, and BRCA1 knockdown phenocopies TRMT10A loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
+- BRCA1 is recruited to DSBs via [TRMT10A](../genes/TRMT10A.md) pSer28; BRCA1 recruitment (but not protein abundance) is impaired by [TRMT10A](../genes/TRMT10A.md) or [USP10](../genes/USP10.md) loss, and BRCA1 knockdown phenocopies [TRMT10A](../genes/TRMT10A.md) loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
 - 3 likely-inactivating truncating mutations (0.3%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on [olaparib](../drugs/olaparib.md) approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
 - BRCA1 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
@@ -92,6 +92,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 — germline pathogenic variant among 49 germline SNVs identified across MAPPYACTS cohort (n=624 pediatric relapsed/refractory patients); cohort included CMMRD patients with hypermutation [PMID:35292802](../papers/35292802.md)
 - Explicitly no pathogenic germline BRCA1 mutations identified in 119 LGSC cases, contrasting with the 3.5–5.7% reported in prior LGSC literature and 20% in HGSC ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
 - Pathogenic alterations meeting PROfound criteria in 5/51 (9.8%) prostate cancer bone metastases; BRCA1/2 together are part of the 15 PROfound HRR genes evaluated for [olaparib](../drugs/olaparib.md) eligibility ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) [PMID:35504881](../papers/35504881.md)
+- BRCA1 is among the HR-pathway genes with pathogenic alterations in 2.5% (184/7,494) of sarcomas; biallelic losses most frequent in uterine [LMS](../cancer_types/LMS.md) (4.8%) and chordoma (5.3%); gLOH >=19.3% occurred in 15% of sarcomas largely independent of canonical HRD genes [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -298,5 +299,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

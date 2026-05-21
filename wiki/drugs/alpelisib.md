@@ -48,7 +48,7 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31552290](../papers/31552290.md)
-- [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); PIK3CA OncoKB level 1 alterations in breast cancer plasma supporting alpelisib eligibility.
+- [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); [PIK3CA](../genes/PIK3CA.md) OncoKB level 1 alterations in breast cancer plasma supporting alpelisib eligibility.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)

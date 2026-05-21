@@ -4,8 +4,8 @@ oncotree_code: DIFG
 main_type: Glioma
 parent: GLIOMA
 tags: [glioma, cns]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Diffuse Glioma (DIFG)
@@ -30,14 +30,15 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - [BRAF](../genes/BRAF.md)::[KIAA1549](../genes/KIAA1549.md) fusions detected in CSF ctDNA from gliomas [PMID:39289779](../papers/39289779.md).
 - Temozolomide mutational signatures identified in CSF ctDNA from glioma samples among high-TMB cases [PMID:39289779](../papers/39289779.md).
 - Exome sequencing of 23 paired initial/recurrent grade II diffuse gliomas showed pervasive early clonal branching; [IDH1](../genes/IDH1.md) R132H was the only mutation shared in every patient pair, confirming it as the initiating event in low-grade gliomagenesis [PMID:24336570](../papers/24336570.md).
-- TCGA pan-glioma study (n=1,122 grade II-IV diffuse gliomas) identified 75 significantly mutated genes including novel drivers SETD2, ARID2, DNMT3A, KRAS, NRAS; six methylation subclusters (LGm1–6) provide an independent prognostic classification on top of age and grade [PMID:26824661](../papers/26824661.md)
-- PIPseq cohort included diffuse intrinsic pontine glioma cases; H3-3A (H3F3A) K27M mutation identified as HDAC-inhibitor target; paired with FGFR1 N577K in one patient [PMID:28007021](../papers/28007021.md)
-- Included in pan-cancer pathway analysis of 9,125 TCGA tumors; IDH-mutant LGG/DIFG shows 82% RTK-RAS alteration rate in IDHwt subtype; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant LGG [PMID:29625050](../papers/29625050.md)
-- DIFG (glioma) was the clearest exception to the pan-cancer TMB–OS benefit: high TMB was not associated with improved overall survival in glioma patients treated with ICI, possibly due to temozolomide-induced subclonal mutations or CNS-specific immune biology. [PMID:30643254](../papers/30643254.md)
+- TCGA pan-glioma study (n=1,122 grade II-IV diffuse gliomas) identified 75 significantly mutated genes including novel drivers [SETD2](../genes/SETD2.md), [ARID2](../genes/ARID2.md), [DNMT3A](../genes/DNMT3A.md), [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md); six methylation subclusters (LGm1–6) provide an independent prognostic classification on top of age and grade [PMID:26824661](../papers/26824661.md)
+- PIPseq cohort included diffuse intrinsic pontine glioma cases; [H3-3A](../genes/H3-3A.md) (H3F3A) K27M mutation identified as HDAC-inhibitor target; paired with [FGFR1](../genes/FGFR1.md) N577K in one patient [PMID:28007021](../papers/28007021.md)
+- Included in pan-cancer pathway analysis of 9,125 TCGA tumors; IDH-mutant LGG/DIFG shows 82% RTK-RAS alteration rate in IDHwt subtype; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant [LGG](../cancer_types/LGG.md) [PMID:29625050](../papers/29625050.md)
+- DIFG (glioma) was the clearest exception to the pan-cancer TMB–[OS](../cancer_types/OS.md) benefit: high TMB was not associated with improved overall survival in glioma patients treated with ICI, possibly due to temozolomide-induced subclonal mutations or CNS-specific immune biology. [PMID:30643254](../papers/30643254.md)
 - In 85 adult DIFG patients profiled by MSK-IMPACT CSF liquid biopsy, ctDNA was detected in 42/85 (49.4%) CSFs; positivity carried HR 4.16 (95% CI 2.15–8.05, p=2.43×10⁻⁵) for death and was concordant with truncal IDH1/TP53/ATRX/TERT/1p19q alterations in 100% of non-hypermutated cases. [PMID:30675060](../papers/30675060.md)
 - MSK prospective glioma cohort (923 patients / 1,004 tumors); 13% germline pathogenic-variant rate (DNA-repair-enriched); CDKN2A/B cell-cycle alterations are IDH-independent drivers of malignant progression (HR=2.6 at recurrence); alkylator-induced hypermutation more common in IDH-mutant (29% vs 12%, P=0.004) and MGMT-methylated (30% vs 10%, P=0.006) tumors [PMID:31263031](../papers/31263031.md).
 - DIFG/DMG PDX models in the PPTC cohort included histone H3-wild-type DIPG (n=2); both DIPG models expressed H3.3 at high levels (FPKM >50) but lacked canonical H3.1/H3.3 mutations [PMID:31693904](../papers/31693904.md).
-- GLASS Consortium analyzed 222 adult diffuse glioma patients (IDHmut-codel n=25, IDHmut-noncodel n=63, IDHwt n=134) with paired initial/recurrence sequencing; driver genes (IDH1, TP53, ATRX, TERT promoter, chr7 gain/10 loss, EGFR amplification) were almost universally retained at recurrence; subclonal selection at recurrence was prognostic (Cox HR=1.53, 95% CI 1.00–2.41, P=0.048) [PMID:31748746](../papers/31748746.md)
+- GLASS Consortium analyzed 222 adult diffuse glioma patients (IDHmut-codel n=25, IDHmut-noncodel n=63, IDHwt n=134) with paired initial/recurrence sequencing; driver genes ([IDH1](../genes/IDH1.md), [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), [TERT](../genes/TERT.md) promoter, chr7 gain/10 loss, [EGFR](../genes/EGFR.md) amplification) were almost universally retained at recurrence; subclonal selection at recurrence was prognostic (Cox HR=1.53, 95% CI 1.00–2.41, P=0.048) [PMID:31748746](../papers/31748746.md)
+- In the GLASS longitudinal cohort (n=304 patients, n=168 with RNA-seq), diffuse glioma recurrences converge on three phenotypes — neuronal, mesenchymal, and proliferative — driven by acquired driver alterations and tumor-microenvironment remodeling; IDHwt subtype switches occurred in 49% of patients [PMID:35649412](../papers/35649412.md).
 
 ## Subtypes
 
@@ -59,24 +60,27 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - [PMID:24336570](../papers/24336570.md)
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30643254](../papers/30643254.md)
 
 - [PMID:30675060](../papers/30675060.md)
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31748746](../papers/31748746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

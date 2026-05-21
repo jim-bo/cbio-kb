@@ -17,11 +17,11 @@ Idasanutlin (RG7388) is a potent, selective [MDM2](../genes/MDM2.md) antagonist 
 
 ## Evidence in the corpus
 
-- Idasanutlin is proposed as a therapeutic hypothesis for the ~9% of esophageal/GEJ adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients with MDM2 amplification; MDM2 amplification was independently associated with poor pathologic response to neoadjuvant chemoradiotherapy (OR 0.10, 95% CI 0.01–0.55, p=0.032) in 237 MSI-stable [EAC](../cancer_types/EAC.md) patients — authors cite idasanutlin's preclinical activity combined with chemotherapy in TP53-functional tumors and tolerability combined with [cytarabine](../drugs/cytarabine.md) in [AML](../cancer_types/AML.md) as rationale [PMID:35377946](../papers/35377946.md)
+- Idasanutlin is proposed as a therapeutic hypothesis for the ~9% of esophageal/GEJ adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients with [MDM2](../genes/MDM2.md) amplification; MDM2 amplification was independently associated with poor pathologic response to neoadjuvant chemoradiotherapy (OR 0.10, 95% CI 0.01–0.55, p=0.032) in 237 MSI-stable [EAC](../cancer_types/EAC.md) patients — authors cite idasanutlin's preclinical activity combined with chemotherapy in TP53-functional tumors and tolerability combined with [cytarabine](../drugs/cytarabine.md) in [AML](../cancer_types/AML.md) as rationale [PMID:35377946](../papers/35377946.md)
 
 ## Resistance mechanisms
 
-- TP53 truncating bi-allelic mutations are expected to reduce idasanutlin efficacy; MDM2 amplification co-occurring with TP53 mutations showed marginally better long-term outcomes, consistent with MDM2's preferential restraint of wild-type rather than mutant TP53 [PMID:35377946](../papers/35377946.md)
+- [TP53](../genes/TP53.md) truncating bi-allelic mutations are expected to reduce idasanutlin efficacy; MDM2 amplification co-occurring with TP53 mutations showed marginally better long-term outcomes, consistent with MDM2's preferential restraint of wild-type rather than mutant TP53 [PMID:35377946](../papers/35377946.md)
 
 ## Cancer types (linked)
 
@@ -29,6 +29,6 @@ Idasanutlin (RG7388) is a potent, selective [MDM2](../genes/MDM2.md) antagonist 
 
 ## Sources
 
-- [PMID:35377946](../papers/35377946.md) — MSK EAC MDM2/TP53 neoadjuvant response cohort (n=237)
+- [PMID:35377946](../papers/35377946.md) — MSK [EAC](../cancer_types/EAC.md) MDM2/TP53 neoadjuvant response cohort (n=237)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

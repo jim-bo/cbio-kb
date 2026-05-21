@@ -31,7 +31,7 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 
 ## Co-occurrence and mutual exclusivity
 
-- Elevated co-occurs with [CDK2](../genes/CDK2.md), CDK4, [CDK7](../genes/CDK7.md), [MELK](../genes/MELK.md), [PFKFB3](../genes/PFKFB3.md), and [PI4KB](../genes/PI4KB.md) as part of a broader kinome-activation signature in colon cancer tumors; CDK2 shows the strongest correlation with phospho-Rb levels (r=0.47, p=1.8×10⁻⁶) and is the highest-priority CDK target in colon cancer per the CPTAC study [PMID:31031003](../papers/31031003.md)
+- Elevated co-occurs with [CDK2](../genes/CDK2.md), [CDK4](../genes/CDK4.md), [CDK7](../genes/CDK7.md), [MELK](../genes/MELK.md), [PFKFB3](../genes/PFKFB3.md), and [PI4KB](../genes/PI4KB.md) as part of a broader kinome-activation signature in colon cancer tumors; [CDK2](../genes/CDK2.md) shows the strongest correlation with phospho-Rb levels (r=0.47, p=1.8×10⁻⁶) and is the highest-priority CDK target in colon cancer per the CPTAC study [PMID:31031003](../papers/31031003.md)
 
 ## Therapeutic relevance
 

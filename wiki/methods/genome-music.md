@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [significantly-mutated-genes, statistical-analysis, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Genome MuSiC
@@ -22,9 +22,10 @@ Genome MuSiC (Mutation Significance in Cancer) is a computational suite for iden
 - Used for significantly mutated gene identification in 29 AA CRC discovery exomes, contributing to the nomination of 20 significantly mutated genes including [EPHA6](../genes/EPHA6.md) and [FLCN](../genes/FLCN.md) as African American-specific CRC drivers [PMID:25583493](../papers/25583493.md)
 - MuSiC (Genome MuSiC) used alongside MutSig and drGAP for driver gene detection (FDR<0.1) in 216 metastatic breast cancer exomes [PMID:28027327](../papers/28027327.md).
 - GenomeMuSiC used alongside MutSigCV and IntOGen for significantly mutated gene detection across 491 medulloblastoma cases, enabling confident driver assignment to 76% of Group 3 and 82% of Group 4 tumors [PMID:28726821](../papers/28726821.md)
-- MuSiC (Genome MuSiC) used for significantly mutated gene analysis in 206 TCGA sarcomas; identified only 3 SMGs (TP53, ATRX, RB1) consistent with the low mutation burden (mean 1.06/Mb) of these tumors [PMID:29100075](../papers/29100075.md)
+- MuSiC (Genome MuSiC) used for significantly mutated gene analysis in 206 TCGA sarcomas; identified only 3 SMGs ([TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), [RB1](../genes/RB1.md)) consistent with the low mutation burden (mean 1.06/Mb) of these tumors [PMID:29100075](../papers/29100075.md)
 - Applied alongside MutSig to identify 47 significantly recurrently mutated genes across 1,027 MSS [COADREAD](../cancer_types/COADREAD.md) tumors prospectively sequenced by MSK-IMPACT [PMID:29316426](../papers/29316426.md)
-- MuSiC2 (P < 1e-7) applied to KIRC PASS variants from the MC3 open-access MAF; identified 10 SMGs; unfiltered MAF inflated the list to 321 SMGs [PMID:29596782](../papers/29596782.md)
+- MuSiC2 (P < 1e-7) applied to [KIRC](../cancer_types/KIRC.md) PASS variants from the MC3 open-access MAF; identified 10 SMGs; unfiltered MAF inflated the list to 321 SMGs [PMID:29596782](../papers/29596782.md)
+- MuSiC (Genome MuSiC) used alongside MutSigCV 1.4 for recurrent somatic mutation discovery (significance threshold q<0.1) across 2,138 MSK-IMPACT sarcomas [PMID:35705560](../papers/35705560.md)
 
 ## Notes
 
@@ -33,25 +34,28 @@ Genome MuSiC (Mutation Significance in Cancer) is a computational suite for iden
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583493](../papers/25583493.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

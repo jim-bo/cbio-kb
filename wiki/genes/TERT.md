@@ -15,7 +15,7 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 ## Alterations observed in the corpus
 
-- Recurrent focal amplification of TERT identified in [ESCC](../cancer_types/ESCC.md) ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=90 ESCC); listed among the recurrent focal amplifications in ESCC alongside [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md). [PMID:28052061](../papers/28052061.md)
+- Recurrent focal amplification of TERT identified in [ESCC](../cancer_types/ESCC.md) ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=90 [ESCC](../cancer_types/ESCC.md)); listed among the recurrent focal amplifications in ESCC alongside [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md). [PMID:28052061](../papers/28052061.md)
 - TERT aberrations (translocations, copy gains, missense and promoter mutations, or germline events) in 41% (14/34) of acral lentiginous melanoma ([ACRM](../cancer_types/ACRM.md)) patients; Telomerase Inhibitor IX produced ≥75% loss of viability in two primary ALM cell lines with TERT CNV gain or promoter mutation [PMID:28373299](../papers/28373299.md).
 - Promoter mutation in 18/19 sequenced oligodendroglioma tumors (95%), the most frequent abnormality observed; characteristic of 1p/19q-codeleted oligodendroglioma and absent in 1p/19q-intact glioblastoma-like cases [PMID:28472509](../papers/28472509.md)
 - Promoter mutations at canonical -124/-146 hotspots (96.3% of TERT promoter events) plus 10 novel recurrent positions including -138 (n=21); highest frequency in bladder ([BLCA](../cancer_types/BLCA.md)), glioma, thyroid, and melanoma in pan-cancer MSK-IMPACT analysis (n=10,336); trend toward shorter overall survival [PMID:28481359](../papers/28481359.md)
@@ -28,7 +28,7 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - TERT invoked in discussion as a potentially insufficient activation context (alongside p53/RB inhibition) for selection of broad aneuploidies in vitro in the AALE cell model [PMID:29622463](../papers/29622463.md)
 - TERT promoter region is covered by the MSK-IMPACT panel design through intronic/promoter capture; detected in bladder cancer organoid biobank characterization [PMID:29625057](../papers/29625057.md)
 - No TERT promoter hotspot detected in gastric cancer (GC) CBS-hotspot discovery cohort, confirming rarity of TERT promoter mutations in GC relative to other cancer types [PMID:29670109](../papers/29670109.md)
-- Promoter/coding alterations in 55.6% of advanced [HCC](../cancer_types/HCC.md) patients profiled by MSK-IMPACT (n=317 actionable-alteration cohort); most frequently altered gene in HCC in this dataset [PMID:30373752](../papers/30373752.md)
+- Promoter/coding alterations in 55.6% of advanced [HCC](../cancer_types/HCC.md) patients profiled by MSK-IMPACT (n=317 actionable-alteration cohort); most frequently altered gene in [HCC](../cancer_types/HCC.md) in this dataset [PMID:30373752](../papers/30373752.md)
 - Promoter region mutation in 12% of gallbladder carcinoma (GBCA) tumors (n=57 WES); co-occurrence trend with [ARID2](../genes/ARID2.md) mutations [PMID:30427539](../papers/30427539.md)
 - TERT promoter mutations are truncal events in IDH-mutant 1p/19q-codeleted glioma and were among the most commonly observed alterations in CSF ctDNA; 100% concordance between CSF and matched tumour was observed for these truncal TERT promoter mutations in non-hypermutated cases [PMID:30675060](../papers/30675060.md).
 - Promoter mutations in 22.9% of cHCC-ICC cases (C228T hotspot); most recurrent HBV-integration site in cHCC-ICC; TERT gain/amplification in 19% of cHCC-ICC cases; intermediate promoter mutation rate flagged for validation in larger Chinese HCC/ICC cohorts [PMID:31130341](../papers/31130341.md)
@@ -41,31 +41,32 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - TERT promoter mutation among the most common co-mutations in TRK fusion-positive cancers across tumor types [PMID:31871300](../papers/31871300.md)
 - Driver in 263 tumors pan-cancer; promoter mutations are the dominant non-coding driver (237/785 non-coding drivers; 9% of PCAWG). In acral melanoma, chromothripsis-induced TERT amplification occurs as a very early event; in chromophobe [RCC](../cancer_types/RCC.md), breakpoints immediately adjacent to TERT increase expression 80-fold (P=0.0004) [PMID:32025007](../papers/32025007.md)
 - TERT promoter mutations detected in 53% of [UTUC](../cancer_types/UTUC.md) PDX models, consistent with broader urothelial carcinoma biology [PMID:32332851](../papers/32332851.md)
-- Enriched in LEP-predominant [LUAD](../cancer_types/LUAD.md) (14% vs 5% ACI/PAP vs 10% MIP/SOL; p=0.012) and among recurrently amplified oncogenes in a 604-patient MSKCC resected LUAD cohort. [PMID:32791233](../papers/32791233.md)
+- Enriched in LEP-predominant [LUAD](../cancer_types/LUAD.md) (14% vs 5% ACI/PAP vs 10% MIP/SOL; p=0.012) and among recurrently amplified oncogenes in a 604-patient MSKCC resected [LUAD](../cancer_types/LUAD.md) cohort. [PMID:32791233](../papers/32791233.md)
 - TERT promoter explicitly capture-baited in single-melanocyte sequencing study of normal human skin; no TERT promoter mutations detected across sampled normal melanocytes [PMID:33029006](../papers/33029006.md)
 - CH-myeloid-PD gene in therapy-shaped clonal hematopoiesis; truncating, hotspot, or in-frame TERT variants classed as putative drivers per the study annotation rules [PMID:33106634](../papers/33106634.md)
 - Recurrently mutated at 3.6% (3/83) in retinoblastoma ([RBL](../cancer_types/RBL.md)); only non-[RB1](../genes/RB1.md) genes with putative driver status in MSK-IMPACT profiling of 83 enucleated specimens. [PMID:33466343](../papers/33466343.md)
 - Promoter C228T/C250T mutations in 74% of primary GBMs with elevated TERT RNA; mutually exclusive with [ATRX](../genes/ATRX.md) mutations and co-occurs with [TP53](../genes/TP53.md) and [IDH1](../genes/IDH1.md) R132H in a CPTAC proteogenomic cohort of 99 treatment-naive GBMs. [PMID:33577785](../papers/33577785.md)
 - Promoter alterations enriched in cirrhotic iCCA patients (21% vs 4% non-cirrhotic); co-occurs with [TP53](../genes/TP53.md) mutations (τ=0.19, Q=0.002); univariate [OS](../cancer_types/OS.md) association dropped from multivariate models due to collinearity with [TP53](../genes/TP53.md). [PMID:33765338](../papers/33765338.md)
-- Promoter hotspot C228T (c.-124C>T) in 9/60 metaplastic breast carcinomas ([MBC](../cancer_types/MBC.md)) and gene amplification in 1/60; all alterations in triple-negative cases; mutually exclusive with TP53 mutations (CoMEt p<0.001); co-occurs with [PIK3CA](../genes/PIK3CA.md) hotspots [PMID:33863915](../papers/33863915.md)
+- Promoter hotspot C228T (c.-124C>T) in 9/60 metaplastic breast carcinomas ([MBC](../cancer_types/MBC.md)) and gene amplification in 1/60; all alterations in triple-negative cases; mutually exclusive with [TP53](../genes/TP53.md) mutations (CoMEt p<0.001); co-occurs with [PIK3CA](../genes/PIK3CA.md) hotspots [PMID:33863915](../papers/33863915.md)
 - Included in the 30-gene [CSCC](../cancer_types/CSCC.md) driver-discovery set on the basis of prior literature reporting frequent promoter mutations; not directly interrogated in this exome-based meta-analysis [PMID:34272401](../papers/34272401.md)
 - Present at >=2% frequency in LUAD but without significant association to pN (lymph node) metastasis status in clinical stage I/II LUAD [PMID:34290393](../papers/34290393.md)
 - Amplified in 11.6% and promoter-mutated in only 0.9% of LCINS; rare in piano subtype; SV breakpoint hotspot alongside [MDM2](../genes/MDM2.md), [CDKN2A](../genes/CDKN2A.md), [NKX2-1](../genes/NKX2-1.md); insufficient to explain telomere length elongation in piano [PMID:34493867](../papers/34493867.md)
 - Promoter mutations more frequent in papillary thyroid metastases (46% vs 69%, q=0.001) and [SKCM](../cancer_types/SKCM.md) metastases (70% vs 81%, q=0.02), but more frequent in primary [HNSC](../cancer_types/HNSC.md) (41% vs 25%, q=0.02); TERT amplification associated with LUAD CNS/brain metastasis [PMID:35120664](../papers/35120664.md)
 - TERT promoter mutations are established as the most frequent driver in HCC; referenced as a known driver but explicitly excluded from SMG analysis in a Chinese HCC proteogenomic cohort (n=159) because the TERT promoter is not captured by WES [PMID:35508466](../papers/35508466.md)
 - TERT SVs detected in 8/29 (28%) neuroblastoma patients by cWGTS, identifiable only by this method (not by MSK-IMPACT); TERT SV status is a therapy-defining risk-stratification biomarker for neuroblastoma [PMID:35585047](../papers/35585047.md)
+- TERT amplifications found in 44% (8/18) of intimal sarcoma ([INTS](../cancer_types/INTS.md)) and 16% (27/167) of [DDLS](../cancer_types/DDLS.md); TERT promoter mutations in 79% (38/48) of myxoid/round cell liposarcoma ([MRLS](../cancer_types/MRLS.md)), 46% (24/52) of solitary fibrous tumor ([SFT](../cancer_types/SFT.md)), and 35% (5/14) of dedifferentiated chondrosarcoma ([DDCHS](../cancer_types/DDCHS.md)), in 2,138-sample MSK-IMPACT sarcoma cohort; TERT-driven genomic cluster spans MRLS and SFT, supporting genotype-based trial design [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
 - [ESCC](../cancer_types/ESCC.md): TERT focal amplification is a recurrent copy-number event; no subtype-specific enrichment described in the corpus. [PMID:28052061](../papers/28052061.md)
-- [GBM](../cancer_types/GBM.md): Promoter C228T/C250T mutations in 74% of primary GBMs with elevated TERT RNA expression; mutually exclusive with ATRX mutations and co-occurs with TP53 and [IDH1](../genes/IDH1.md) R132H. [PMID:33577785](../papers/33577785.md)
+- [GBM](../cancer_types/GBM.md): Promoter C228T/C250T mutations in 74% of primary GBMs with elevated TERT RNA expression; mutually exclusive with [ATRX](../genes/ATRX.md) mutations and co-occurs with TP53 and [IDH1](../genes/IDH1.md) R132H. [PMID:33577785](../papers/33577785.md)
 - [RBL](../cancer_types/RBL.md): Recurrently mutated at 3.6% (3/83) with putative driver status, among the top recurrently altered non-RB1 genes in enucleated retinoblastoma specimens. [PMID:33466343](../papers/33466343.md)
 - [IHCH](../cancer_types/IHCH.md): Promoter alterations enriched in cirrhosis-associated iCCA (21% vs 4%); co-occurs with TP53 (τ=0.19, Q=0.002); not an independent prognostic factor after adjusting for TP53. [PMID:33765338](../papers/33765338.md)
 
 ## Co-occurrence and mutual exclusivity
 
 - Co-amplified with [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md) as part of the recurrent amplification landscape of ESCC; no specific co-occurrence or mutual exclusivity patterns reported. [PMID:28052061](../papers/28052061.md)
-- Mutually exclusive with [ATRX](../genes/ATRX.md) promoter hotspot mutations in GBM; co-occurs with [TP53](../genes/TP53.md) and [IDH1](../genes/IDH1.md) R132H. [PMID:33577785](../papers/33577785.md)
+- Mutually exclusive with [ATRX](../genes/ATRX.md) promoter hotspot mutations in [GBM](../cancer_types/GBM.md); co-occurs with [TP53](../genes/TP53.md) and [IDH1](../genes/IDH1.md) R132H. [PMID:33577785](../papers/33577785.md)
 - Co-occurs with [TP53](../genes/TP53.md) mutations in iCCA (τ=0.19, Q=0.002); mutually exclusive with IDH1/2 mutations (τ=−0.13, Q=0.04). [PMID:33765338](../papers/33765338.md)
 
 ## Therapeutic relevance
@@ -168,5 +169,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

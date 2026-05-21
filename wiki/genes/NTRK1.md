@@ -38,6 +38,7 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - Rare oncogenic fusion (NTRK1 fusion) reported in melanoma; targeted successfully with [larotrectinib](../drugs/larotrectinib.md) yielding complete response in a [BRAF](../genes/BRAF.md) V600-wild-type patient [PMID:33509808](../papers/33509808.md)
 - NTRK1 fusions (n=9 total across NTRK1/2/3) classified ready-for-routine-use across multiple solid tumor types (e.g., NTRK1-LMNA); 3 resistance mutations identified after prior TRK inhibitor exposure in the MAPPYACTS pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
 - NTRK1 fusions referenced among actionable alterations in the [SCLC](../cancer_types/SCLC.md) PDX/CDX characterization study across 26 clinical and 42 PDX/CDX models [PMID:35440124](../papers/35440124.md)
+- Kinase-fusion gene present in 2.6% of sarcomas (along with [NTRK2](../genes/NTRK2.md), [NTRK3](../genes/NTRK3.md), [ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), [RET](../genes/RET.md), [FGFR1](../genes/FGFR1.md), [BRAF](../genes/BRAF.md)); NTRK amplifications are not actionable per cited negative trial data [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -94,5 +95,8 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

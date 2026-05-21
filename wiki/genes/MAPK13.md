@@ -20,7 +20,7 @@ MAPK13 (Mitogen-Activated Protein Kinase 13; also known as p38delta or SAPK4) is
 
 ## Cancer types (linked)
 
-- **HCC**: MAPK13 (p38delta) activity is elevated by KSEA in TP53-mutant HCCs, part of a broader kinase activation landscape in aggressive HCC subtypes [PMID:35508466](../papers/35508466.md).
+- **[HCC](../cancer_types/HCC.md)**: MAPK13 (p38delta) activity is elevated by KSEA in TP53-mutant HCCs, part of a broader kinase activation landscape in aggressive HCC subtypes [PMID:35508466](../papers/35508466.md).
 
 ## Co-occurrence and mutual exclusivity
 

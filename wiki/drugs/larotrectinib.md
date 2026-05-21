@@ -30,6 +30,7 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 - In MSK-IMPACT cohort of 26,312 cases (0.28% TRK fusion prevalence), a melanoma case with concurrent GON4L-NTRK1 fusion and [NRAS](../genes/NRAS.md) Q61R had progressive disease on larotrectinib; the derived cell line was insensitive to larotrectinib and LOXO-195 but responsive to [trametinib](../drugs/trametinib.md), with absent pan-TRK protein expression — illustrating that concurrent canonical MAPK drivers can abrogate TRK oncogenic dependence [PMID:31871300](../papers/31871300.md).
 - Produced a durable complete response in a [BRAF](../genes/BRAF.md) V600 wild-type melanoma patient with an [NTRK1](../genes/NTRK1.md) fusion after progression through checkpoint blockade [PMID:33509808](../papers/33509808.md)
 - Larotrectinib (pan-TRK inhibitor) was available as a matching therapy in MAPPYACTS for NTRK1/2/3 fusions (n=9, ready-for-routine-use) in pediatric recurrent malignancies; resistance mutations in NTRK1/2/3 were observed in 3 patients after prior TRK inhibitor exposure [PMID:35292802](../papers/35292802.md)
+- Complete response to larotrectinib was observed in an inflammatory myofibroblastic tumor ([IMT](../cancer_types/IMT.md)) patient carrying an [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion, one of 196/7,494 (2.6%) sarcomas with kinase-gene fusions; NTRK amplifications (distinct from fusions) were not actionable [PMID:35705558](../papers/35705558.md).
 
 ## Resistance mechanisms
 
@@ -57,5 +58,7 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

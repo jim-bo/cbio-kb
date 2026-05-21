@@ -10,7 +10,7 @@ tags:
   - MDM2
   - CDK4
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-21
 ---
 
 # Well-Differentiated Liposarcoma (WDLS)
@@ -26,7 +26,9 @@ Well-differentiated liposarcoma (WDLS) is the most common and least aggressive s
 ## Recurrent alterations
 
 - [MDM2](../genes/MDM2.md): amplification confirmed by FISH in SARC0120 WDLS parent tumor and matched PDTO; canonical driver in WDLS/DDLS. [PMID:39305899](../papers/39305899.md)
-- [CDK4](../genes/CDK4.md): co-amplified with MDM2 at 12q13–15 in the vast majority of WDLS; cited as motivation for [palbociclib](../drugs/palbociclib.md) testing. [PMID:39305899](../papers/39305899.md)
+- [CDK4](../genes/CDK4.md): co-amplified with [MDM2](../genes/MDM2.md) at 12q13–15 in the vast majority of WDLS; cited as motivation for [palbociclib](../drugs/palbociclib.md) testing. [PMID:39305899](../papers/39305899.md)
+- In a 7,494-sarcoma cohort, MDM2 amplification was pathognomonic of well/dedifferentiated liposarcoma (>94%); 4q12 (KDR/PDGFRA/KIT) amplicon present in 8.0% of liposarcoma NOS; high gLOH (50.0%) with only 4.0% HRD-gene alteration [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, WDLS and [DDLS](../cancer_types/DDLS.md) shared MDM2/CDK4 co-amplification in >97%; beyond that, WDLS had lower rates of [GLI1](../genes/GLI1.md) (8.5% vs 25.3% DDLS), [TERT](../genes/TERT.md) (6.3% vs 14.4%), and [JUN](../genes/JUN.md) (0% vs 13.8%) amplifications; WDLS was among the most genomically homogeneous sarcoma subtypes [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -43,4 +45,10 @@ Well-differentiated liposarcoma (WDLS) is the most common and least aggressive s
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

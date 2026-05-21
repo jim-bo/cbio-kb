@@ -9,15 +9,15 @@ tags:
   - liposarcoma
   - CDK4
   - MDM2
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Liposarcoma (LIPO)
 
 ## Overview
 
-Liposarcoma is the most common soft-tissue sarcoma of adults, classified under Soft Tissue Sarcoma in OncoTree (parent: SOFT_TISSUE). It encompasses several distinct subtypes including well-differentiated ([WDLS](../cancer_types/WDLS.md)), dedifferentiated ([DDLS](../cancer_types/DDLS.md)), myxoid/round-cell, and pleomorphic liposarcoma, with different molecular drivers and clinical behavior.
+Liposarcoma is the most common soft-tissue sarcoma of adults, classified under Soft Tissue Sarcoma in OncoTree (parent: [SOFT_TISSUE](../cancer_types/SOFT_TISSUE.md)). It encompasses several distinct subtypes including well-differentiated ([WDLS](../cancer_types/WDLS.md)), dedifferentiated ([DDLS](../cancer_types/DDLS.md)), myxoid/round-cell, and pleomorphic liposarcoma, with different molecular drivers and clinical behavior.
 
 ## Cohorts in the corpus
 
@@ -28,12 +28,13 @@ Liposarcoma is the most common soft-tissue sarcoma of adults, classified under S
 - [CDK4](../genes/CDK4.md): prevalent CDK aberration in liposarcoma literature (cited as motivation for [palbociclib](../drugs/palbociclib.md) testing); not directly genotyped in this study. [PMID:39305899](../papers/39305899.md)
 - [MDM2](../genes/MDM2.md): amplification is a defining feature of well-differentiated/dedifferentiated liposarcoma; confirmed by FISH in [WDLS](../cancer_types/WDLS.md) SARC0120 in both parent tumor and PDTO, illustrating genomic fidelity of PDTO models. [PMID:39305899](../papers/39305899.md)
 - In PCAWG, liposarcoma showed universal [MDM2](../genes/MDM2.md) amplification via chromothripsis events; chromothripsis was clonal and early in liposarcoma; among the tumor types with highest chromothripsis frequency [PMID:32025007](../papers/32025007.md).
+- In a 7,494-sarcoma cohort, liposarcoma NOS had 8.0% 4q12 amplicon (KDR/PDGFRA/KIT) and 50.0% high gLOH (≥19.3%) — the highest rate across all histotypes — with only 4.0% having an HRD-gene alteration, indicating gLOH largely not explained by canonical HRD [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
 - Well-differentiated liposarcoma ([WDLS](../cancer_types/WDLS.md)) — MDM2/CDK4 amplified
-- Dedifferentiated liposarcoma (DDLS) — MDM2/CDK4 amplified, high-grade
-- Myxoid/round-cell liposarcoma — FUS–DDIT3 or EWSR1–DDIT3 fusion
+- Dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)) — MDM2/CDK4 amplified, high-grade
+- Myxoid/round-cell liposarcoma — [FUS](../genes/FUS.md)–[DDIT3](../genes/DDIT3.md) or [EWSR1](../genes/EWSR1.md)–DDIT3 fusion
 - Pleomorphic liposarcoma — complex karyotype
 
 ## Therapeutic landscape
@@ -45,7 +46,10 @@ Liposarcoma is the most common soft-tissue sarcoma of adults, classified under S
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

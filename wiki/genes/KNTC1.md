@@ -24,15 +24,15 @@ KNTC1 (Kinetochore-Associated Protein 1; also known as ROD) is a component of th
 
 ## Co-occurrence and mutual exclusivity
 
-- The discordant mRNA/protein pattern is shared with CENPF and TACC3 in TP53-mutant HCCs [PMID:35508466](../papers/35508466.md).
+- The discordant mRNA/protein pattern is shared with [CENPF](../genes/CENPF.md) and [TACC3](../genes/TACC3.md) in TP53-mutant HCCs [PMID:35508466](../papers/35508466.md).
 
 ## Therapeutic relevance
 
-- No direct therapeutic implication reported. The discordant regulation in TP53-mutant HCC is noted as a finding requiring further mechanistic characterization [PMID:35508466](../papers/35508466.md).
+- No direct therapeutic implication reported. The discordant regulation in TP53-mutant [HCC](../cancer_types/HCC.md) is noted as a finding requiring further mechanistic characterization [PMID:35508466](../papers/35508466.md).
 
 ## Open questions
 
-- The mechanism by which TP53 mutation leads to post-transcriptional suppression of KNTC1 and other spindle proteins at the protein level in HCC is unresolved [PMID:35508466](../papers/35508466.md).
+- The mechanism by which [TP53](../genes/TP53.md) mutation leads to post-transcriptional suppression of KNTC1 and other spindle proteins at the protein level in HCC is unresolved [PMID:35508466](../papers/35508466.md).
 
 ## Sources
 

@@ -25,7 +25,7 @@ NKD1 (Naked Cuticle Homolog 1) encodes a WNT signaling antagonist that inhibits 
 
 ## Co-occurrence and mutual exclusivity
 
-- NKD1 down-regulation co-occurs with EZH2 overexpression and RB1/TP53 loss in CRPC-NE [PMID:26855148](../papers/26855148.md)
+- NKD1 down-regulation co-occurs with [EZH2](../genes/EZH2.md) overexpression and RB1/TP53 loss in CRPC-NE [PMID:26855148](../papers/26855148.md)
 
 ## Therapeutic relevance
 

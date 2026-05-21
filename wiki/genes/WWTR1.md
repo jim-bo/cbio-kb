@@ -11,11 +11,11 @@ processed_at: 2026-05-21
 
 ## Overview
 
-WWTR1 (also known as TAZ) encodes a transcriptional coactivator that, together with [YAP1](../genes/YAP1.md), relays mechanical and growth factor signals to TEAD transcription factors as part of the Hippo pathway. In gallbladder cancer, WWTR1 is required alongside YAP1 for stiffness-induced [SEMA7A](../genes/SEMA7A.md) transcription in cancer-associated fibroblasts.
+WWTR1 (also known as TAZ) encodes a transcriptional coactivator that, together with [YAP1](../genes/YAP1.md), relays mechanical and growth factor signals to TEAD transcription factors as part of the Hippo pathway. In gallbladder cancer, WWTR1 is required alongside [YAP1](../genes/YAP1.md) for stiffness-induced [SEMA7A](../genes/SEMA7A.md) transcription in cancer-associated fibroblasts.
 
 ## Alterations observed in the corpus
 
-- WWTR1 (TAZ) siRNA abolished stiffness-induced gallbladder fibroblast activation and SEMA7A secretion in primary human GF cultures on 16 kPa hydrogels; acts in concert with YAP1 as a mechanotransducer upstream of TEAD1/SEMA7A. [PMID:24997986](../papers/24997986.md)
+- WWTR1 (TAZ) siRNA abolished stiffness-induced gallbladder fibroblast activation and [SEMA7A](../genes/SEMA7A.md) secretion in primary human GF cultures on 16 kPa hydrogels; acts in concert with YAP1 as a mechanotransducer upstream of TEAD1/SEMA7A. [PMID:24997986](../papers/24997986.md)
 - WWTR1 (TAZ) is not mutated in uRCC but its nuclear accumulation (with YAP1) marks the NF2-loss subset and is driven by loss of NF2-mediated Hippo pathway suppression; shYAP1 knockdown reverses proliferation and colony-formation phenotypes in NF2-loss nccRCC lines. [PMID:27713405](../papers/27713405.md)
 - WWTR1 (TAZ) was upregulated in the CRPC-SCL subtype of metastatic castration-resistant prostate cancer; double siRNA knockdown of YAP1/WWTR1 selectively suppressed growth of CRPC-SCL models (MSKPCa3, DU145) but not CRPC-AR models; WWTR1 co-binds with FOSL1/TEAD at CRPC-SCL-specific enhancers and participates in a positive feedback loop with [FOSL1](../genes/FOSL1.md) [PMID:35617398](../papers/35617398.md)
 
@@ -29,7 +29,7 @@ WWTR1 (also known as TAZ) encodes a transcriptional coactivator that, together w
 
 ## Therapeutic relevance
 
-- Verteporfin abolishes WWTR1/YAP1-driven SEMA7A induction in GFs and downstream GBC tumor-promoting effects; provides rationale for YAP/TAZ inhibition as a stromal-targeting strategy. [PMID:24997986](../papers/24997986.md)
+- Verteporfin abolishes WWTR1/YAP1-driven SEMA7A induction in GFs and downstream [GBC](../cancer_types/GBC.md) tumor-promoting effects; provides rationale for YAP/TAZ inhibition as a stromal-targeting strategy. [PMID:24997986](../papers/24997986.md)
 
 ## Open questions
 

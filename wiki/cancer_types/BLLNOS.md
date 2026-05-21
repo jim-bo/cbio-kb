@@ -33,7 +33,7 @@ B-lymphoblastic leukemia/lymphoma, NOS (BLLNOS) is a subtype of B-cell precursor
 
 ## Therapeutic landscape
 
-- BCR-ABL1-like BLL with kinase fusions (e.g., NUP214-ABL1, FOXP1-ABL1): TKI addition ([dasatinib](../drugs/dasatinib.md)) to chemotherapy demonstrated deep remission in PIPseq cohort [PMID:28007021](../papers/28007021.md).
+- BCR-ABL1-like [BLL](../cancer_types/BLL.md) with kinase fusions (e.g., NUP214-ABL1, FOXP1-ABL1): TKI addition ([dasatinib](../drugs/dasatinib.md)) to chemotherapy demonstrated deep remission in PIPseq cohort [PMID:28007021](../papers/28007021.md).
 
 ## Sources
 

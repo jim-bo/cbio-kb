@@ -30,14 +30,14 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 
 ## Subtypes
 
-- Pediatric ACC: strongly enriched for germline TP53 mutations (Li-Fraumeni syndrome), particularly in the Southern Brazil cluster (TP53 R337H founder mutation).
+- Pediatric ACC: strongly enriched for germline [TP53](../genes/TP53.md) mutations (Li-Fraumeni syndrome), particularly in the Southern Brazil cluster (TP53 R337H founder mutation).
 - Adult ACC: Wnt-pathway driven (CTNNB3 mutations, [ZNRF3](../genes/ZNRF3.md) deletion); IGF2-overexpressing (11p15 LOH).
 
 ## Therapeutic landscape
 
 - Mitotane (adrenostatic) monotherapy or combined with EDP chemotherapy for advanced disease.
 - [IGF1R](../genes/IGF1R.md) inhibitors evaluated (given frequent [IGF2](../genes/IGF2.md) overexpression) without established efficacy.
-- ALK inhibitors ([crizotinib](../drugs/crizotinib.md), alectinib) for ALK-mutant ACC (rare; identified in PIPseq cohort) [PMID:28007021](../papers/28007021.md).
+- [ALK](../genes/ALK.md) inhibitors ([crizotinib](../drugs/crizotinib.md), alectinib) for ALK-mutant ACC (rare; identified in PIPseq cohort) [PMID:28007021](../papers/28007021.md).
 
 ## Sources
 

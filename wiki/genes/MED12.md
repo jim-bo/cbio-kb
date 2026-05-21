@@ -3,8 +3,8 @@ symbol: MED12
 aliases: []
 cancer_types: [ARMS, RMS, ULMS, UCEC]
 tags: [mediator-complex, hotspot, uterine]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MED12
@@ -24,9 +24,10 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - Significantly mutated gene in prostate adenocarcinoma in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - Not recurrently mutated in endometrial polyps; discussed only as comparator — MED12 is the dominant driver in uterine leiomyomas (70–80%) but was not found in this polyp cohort [PMID:28445112](../papers/28445112.md)
 - Recurrently altered candidate driver gene in medulloblastoma, stratified across subgroups in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
-- MED12 mutated in only 11% (9/80) of uterine leiomyosarcoma (uLMS), in contrast to ~70% mutation frequency in benign uterine leiomyomas; MED12 was absent in non-uterine LMS (0% vs 11%, p=0.01), arguing that uLMS rarely evolves from antecedent leiomyomas [PMID:32299819](../papers/32299819.md)
+- MED12 mutated in only 11% (9/80) of uterine leiomyosarcoma (uLMS), in contrast to ~70% mutation frequency in benign uterine leiomyomas; MED12 was absent in non-uterine [LMS](../cancer_types/LMS.md) (0% vs 11%, p=0.01), arguing that uLMS rarely evolves from antecedent leiomyomas [PMID:32299819](../papers/32299819.md)
 - Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
-- Assessed at ≥2% frequency in 426 treatment-naive clinical N2-negative LUAD patients (MSK-IMPACT); no significant difference in alteration frequency by pN status. [PMID:34290393](../papers/34290393.md)
+- Assessed at ≥2% frequency in 426 treatment-naive clinical N2-negative [LUAD](../cancer_types/LUAD.md) patients (MSK-IMPACT); no significant difference in alteration frequency by pN status. [PMID:34290393](../papers/34290393.md)
+- G44 hotspot missense mutation in 16% of uterine leiomyosarcoma ([ULMS](../cancer_types/ULMS.md)) detected by MSK-IMPACT panel sequencing of 2,138 sarcoma samples [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -55,28 +56,31 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - [PMID:38488807](../papers/38488807.md)
 - [PMID:37651310](../papers/37651310.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

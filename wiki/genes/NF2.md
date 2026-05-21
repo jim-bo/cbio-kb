@@ -22,11 +22,12 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - NF2 within the 22q loss region characteristic of the SCNA-22q-del follicular-variant PTC subtype; also among tumor suppressors mutated in 15/402 (3.7%) PTC tumors [PMID:25417114](../papers/25417114.md)
 - NF2 inactivating events observed in metastatic cSCC (n=29) as a chromatin/tumor suppressor hit. [PMID:25589618](../papers/25589618.md)
 - NF2 infrequent truncating mutations observed in PDTC and ATC as part of a set of low-frequency tumor-suppressor alterations [PMID:26878173](../papers/26878173.md)
-- NF2 is focally deleted by the only chromosome-22 deletions that spare [SMARCB1](../genes/SMARCB1.md) in extra-cranial malignant rhabdoid tumor ([MRT](../cancer_types/MRT.md)), along with [LIF](../genes/LIF.md); observed in a minority of the 40 WGS MRT cases [PMID:26977886](../papers/26977886.md)
+- NF2 is focally deleted by the only chromosome-22 deletions that spare [SMARCB1](../genes/SMARCB1.md) in extra-cranial malignant rhabdoid tumor ([MRT](../cancer_types/MRT.md)), along with [LIF](../genes/LIF.md); observed in a minority of the 40 WGS [MRT](../cancer_types/MRT.md) cases [PMID:26977886](../papers/26977886.md)
 - Recurrent truncating and missense mutations in 18% of unclassified [RCC](../cancer_types/RCC.md) (uRCC); biallelic inactivation via mutation plus 22q12 LOH defines the dominant NF2-loss uRCC subset; drives Hippo–YAP dysregulation and confers significantly worse cancer-specific and progression-free survival [PMID:27713405](../papers/27713405.md)
 - A truncating mutation in NF2 (n=1) was identified among potentially functional driver mutations surveyed in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
 - Sole recurrent driver SNV across all schwannomatosis-spectrum schwannomas (SWNs); SWNTS-SWNs harbor NF2 mutation/loss in 83% vs. 58% in NS-SWNs (p < 0.0001); NF2-mutant tumors show RAS/MAPK upregulation and M2 macrophage enrichment [PMID:33025139](../papers/33025139.md)
-- NF2 singleton MAPK pathway alteration (n=1/119) in [LGSOC](../cancer_types/LGSOC.md) on MSK-IMPACT panel; included in the 60% MAPK pathway-altered group independently associated with improved [OS](../cancer_types/OS.md) in LGSOC [PMID:35443055](../papers/35443055.md)
+- NF2 singleton MAPK pathway alteration (n=1/119) in [LGSOC](../cancer_types/LGSOC.md) on MSK-IMPACT panel; included in the 60% MAPK pathway-altered group independently associated with improved [OS](../cancer_types/OS.md) in [LGSOC](../cancer_types/LGSOC.md) [PMID:35443055](../papers/35443055.md)
+- Observed as a recurrent alteration in clinical genomic profiling of 7,494 soft tissue and bone sarcoma patients [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -62,5 +63,8 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

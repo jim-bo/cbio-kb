@@ -49,13 +49,14 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - Reads aligned with BWA as part of the WGS processing pipeline for the MSK pediatric cancer cohort [PMID:29670109](../papers/29670109.md)
 - Reads from 11,139 tumor-normal whole-exome pairs aligned to hg38 (or hg19 for DLBCL) using BWA-MEM in the pan-cancer MSI MANTIS analysis [PMID:29850653](../papers/29850653.md)
 - Used for small RNA-seq read alignment to miRBase (BWA mapping) and for MSK-IMPACT DNA read alignment to hg19/b37 in the HCA/HCC miRNA pilot study [PMID:30052636](../papers/30052636.md)
-- BWA MEM used to align whole-exome sequencing reads from 622 [AML](../cancer_types/AML.md) tumor specimens in the Beat AML study ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)) [PMID:30333627](../papers/30333627.md)
+- BWA MEM used to align whole-exome sequencing reads from 622 [AML](../cancer_types/AML.md) tumor specimens in the Beat [AML](../cancer_types/AML.md) study ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)) [PMID:30333627](../papers/30333627.md)
 - Used to map WES reads to hg19 (~100x tumor / ~60x normal coverage) for 58 matched tumor-blood pairs in the [GBM](../cancer_types/GBM.md) anti-PD-1 immunotherapy cohort ([gbm_columbia_2019](../datasets/gbm_columbia_2019.md)) [PMID:30742119](../papers/30742119.md)
 - Used for read alignment in the pan-Asia cHCC-ICC integrative genomic study (WES: 173 tumors / 121 cases at mean 108×; WGS: 41 tumors / 37 cases; RNA-seq: 97 tumors / 77 cases) [PMID:31130341](../papers/31130341.md)
 - Used to align reads to GRCh37 (BWA v0.7.15) for whole-exome sequencing of 27 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC [PMID:33863915](../papers/33863915.md)
 - Used to align reads to hg19 (BWA-MEM v0.7.13) for reprocessing of WES/WGS data from 88 cutaneous squamous cell carcinoma ([CSCC](../cancer_types/CSCC.md)) samples spanning 10 published studies [PMID:34272401](../papers/34272401.md)
 - Used for cfDNA alignment (BWA-MEM, GRCh37) in the MSK-ACCESS analytical validation and clinical deployment pipeline for 681 plasma samples from 617 patients [PMID:34145282](../papers/34145282.md)
 - Used for GRCh37 alignment of whole-exome sequencing data from 168 prostate cancer brain metastasis samples ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) at median 258× target coverage [PMID:35504881](../papers/35504881.md)
+- BWA-MEM used for b37 alignment of whole-exome and whole-genome sequencing data in the GLASS longitudinal diffuse glioma cohort (304 patients, 37 hospitals) [PMID:35649412](../papers/35649412.md)
 
 ## Notes
 
@@ -178,5 +179,8 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

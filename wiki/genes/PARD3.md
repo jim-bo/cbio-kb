@@ -40,7 +40,7 @@ PARD3 (Partitioning defective 3 homolog) is a cell polarity scaffold protein and
 
 ## Open questions
 
-- Functional role of PARD3 as a tumor suppressor in cSCC requires experimental validation; mouse NOTCH2 knockouts are not predisposed to tumors, complicating interpretation of related polarity-pathway members [PMID:25303977](../papers/25303977.md)
+- Functional role of PARD3 as a tumor suppressor in cSCC requires experimental validation; mouse [NOTCH2](../genes/NOTCH2.md) knockouts are not predisposed to tumors, complicating interpretation of related polarity-pathway members [PMID:25303977](../papers/25303977.md)
 
 ## Sources
 

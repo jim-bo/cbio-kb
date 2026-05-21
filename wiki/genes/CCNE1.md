@@ -21,6 +21,7 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 - CCNE1 cited as a canonical [HGSOC](../cancer_types/HGSOC.md) oncogene commonly overexpressed via CNA-driven aneuploidy downstream of [TP53](../genes/TP53.md) loss; drives G1→S progression and centrosome dysregulation in [HGSOC](../cancer_types/HGSOC.md) [PMID:34819508](../papers/34819508.md)
 - CCNE1 amplification in 8% of MSI-stable locally advanced esophageal/GEJ adenocarcinoma (n=237); not significantly associated with pathologic response to neoadjuvant chemoradiotherapy in multivariable analysis [PMID:35377946](../papers/35377946.md)
 - CCNE1 amplification detected in cfDNA WGS from a pediatric solid-tumor patient (H135967, ~20% ctDNA) alongside [MYC](../genes/MYC.md) amplification and SVs in [ARID1A](../genes/ARID1A.md) and [ATRX](../genes/ATRX.md), demonstrating that cWGTS plasma cfDNA captures known oncogenic events in pediatric cancers ([mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)) [PMID:35585047](../papers/35585047.md)
+- CCNE1 amplified in 2.6% of 7,494 sarcomas; higher CNV frequency in P-AYA osteosarcoma; part of the Rb pathway that is altered in 46.8% of sarcomas overall (co-occurring with p53 pathway OR=4.2, p<1.3e-196) [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -32,7 +33,7 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 
 ## Therapeutic relevance
 
-- Cell Cycle pathway enrichment (including CCNE1 amplification) tracks with advanced-stage PIT EAC, suggesting potential relevance for [CDK2](../genes/CDK2.md) inhibitors; not directly tested in this cohort [PMID:33795256](../papers/33795256.md).
+- Cell Cycle pathway enrichment (including CCNE1 amplification) tracks with advanced-stage PIT [EAC](../cancer_types/EAC.md), suggesting potential relevance for [CDK2](../genes/CDK2.md) inhibitors; not directly tested in this cohort [PMID:33795256](../papers/33795256.md).
 
 ## Open questions
 
@@ -53,5 +54,8 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

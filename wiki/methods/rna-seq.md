@@ -28,7 +28,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:38895302](../papers/38895302.md) — RNA-seq paired with WES using G&T-seq protocol on single-cell clones from normal skin melanocytes; supported mutation calling via RNA evidence and phasing [PMID:38895302](../papers/38895302.md).
 - [PMID:30325352](../papers/30325352.md) — Illumina HiSeq 2500 RNA-seq (TruSeq Total Stranded RNA + Ribo-Zero) on 130 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects; reads aligned to hg19 with [STAR](../genes/STAR.md) v2.3, quantified with Cufflinks v2.0.2 in FPKM; RIN <2.5 excluded; part of the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) public radiogenomic resource [PMID:30325352](../papers/30325352.md).
 - [PMID:39214094](../papers/39214094.md) — bulk RNA-seq on 100 upfront resected [PAAD](../cancer_types/PAAD.md) tumors (63 [KRAS](../genes/KRAS.md)^G12D^, 37 [KRAS](../genes/KRAS.md)^G12R^) from the Canadian COMPASS trial (NCT02750657) plus consortium-resected patients; aligned to GRCh38 via [STAR](../genes/STAR.md); revealed [KRAS](../genes/KRAS.md)^G12D^ enrichment for EMT, mTORC1, and E2F/G2M Hallmarks versus [KRAS](../genes/KRAS.md)^G12R^ enrichment for NF-κB/TNFα signaling [PMID:39214094](../papers/39214094.md).
-- [PMID:39305899](../papers/39305899.md) — bulk RNA-seq (KAPA Hyper Prep, NovaSeq6000, STAR, GRCh38.108) on sarcoma specimens from the UCLA biobank (194 total, subset sequenced); deposited on Synapse (PDTOSarcoma); used alongside WGS and targeted DNA panel sequencing to characterize 24 bone and soft-tissue sarcoma subtypes [PMID:39305899](../papers/39305899.md).
+- [PMID:39305899](../papers/39305899.md) — bulk RNA-seq (KAPA Hyper Prep, NovaSeq6000, [STAR](../genes/STAR.md), GRCh38.108) on sarcoma specimens from the UCLA biobank (194 total, subset sequenced); deposited on Synapse (PDTOSarcoma); used alongside WGS and targeted DNA panel sequencing to characterize 24 bone and soft-tissue sarcoma subtypes [PMID:39305899](../papers/39305899.md).
 - [PMID:39753968](../papers/39753968.md) — bulk RNA-seq applied to 11 MAPK-WT [PAAD](../cancer_types/PAAD.md) tumors for fusion discovery (FusionCatcher v1.20 + Arriba v2.1.0); also used for the COMPASS trial transcriptomics arm referenced within the study; identified activating [BRAF](../genes/BRAF.md) and [NRG1](../genes/NRG1.md) fusions in 2/11 MAPK-WT tumors [PMID:39753968](../papers/39753968.md).
 - rRNA-depletion RNA-seq applied to breast cancer primaries and metastases (AURORA cohort); expression subtype switching detected in 13/39 (33%) of paired cases; basal-like was the most stable subtype (15/16 concordant) [PMID:36585450](../papers/36585450.md)
 - Performed on one sample per MEC patient for fusion validation; confirmed [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) fusion (Patient 2) and novel [ASCC2](../genes/ASCC2.md)::[GGNBP2](../genes/GGNBP2.md) fusion (Patient 1) [PMID:36577525](../papers/36577525.md)
@@ -102,7 +102,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Performed on 775 DLBCL cases (625 used in core analysis) for cell-of-origin assignment (ABC vs GCB) and integrated prognostic modeling [PMID:28985567](../papers/28985567.md)
 - Performed on 408/412 [BLCA](../cancer_types/BLCA.md) tumors enabling five mRNA expression subtype classification (luminal-papillary, luminal-infiltrated, luminal, basal-squamous, neuronal) with subtype-associated survival p=4×10⁻⁴ [PMID:28988769](../papers/28988769.md)
 - Performed on 45 baseline and 26 paired pre/on-therapy melanoma biopsies (STAR-aligned, hg19); 189 pre-therapy DEGs distinguished CR/PR from PD and 475 on-therapy DEGs captured pharmacodynamic immune response to [nivolumab](../drugs/nivolumab.md) [PMID:29033130](../papers/29033130.md)
-- Performed on 206 TCGA sarcomas; revealed that UPS and [MFS](../cancer_types/MFS.md) are transcriptomically indistinguishable and identified miR-181b-5p as an independent recurrence-free survival predictor in [LMS](../cancer_types/LMS.md) (HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
+- Performed on 206 TCGA sarcomas; revealed that [UPS](../cancer_types/UPS.md) and [MFS](../cancer_types/MFS.md) are transcriptomically indistinguishable and identified miR-181b-5p as an independent recurrence-free survival predictor in [LMS](../cancer_types/LMS.md) (HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
 - Performed on 18 PBRM1-LOF vs. 14 PBRM1-intact pre-treatment [CCRCC](../cancer_types/CCRCC.md) tumors; GSEA confirmed up-regulation of hypoxia and IL6/JAK-STAT3 gene sets in PBRM1-deficient tumors [PMID:29301960](../papers/29301960.md)
 - RNA-seq fusion calling across 9,624 TCGA tumor samples and 713 normal samples (33 cancer types) using STAR-Fusion, EricScript, and BREAKFAST pipelines; GRCh38 reference; yielded 25,664 filtered fusions [PMID:29617662](../papers/29617662.md)
 - HiSeq 2500 PE100 RNA-seq performed on AALE chr_3p-deleted cells; processed via STAR + RSEM + edgeR for differential expression analysis [PMID:29622463](../papers/29622463.md)
@@ -134,6 +134,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied to all 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) using TruSeq Stranded Total RNA with Ribo-Zero Gold (single-end 126 bp, STAR two-pass alignment to GRCh37 + HBV/HCV genomes, RSEM quantification); enabled transcriptome-proteome concordance analysis and integrative subtyping [PMID:35508466](../papers/35508466.md)
 - Whole-transcriptome RNA-seq performed on 101/114 patients in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline; enabled novel fusion gene discovery and orthogonal validation of SVs in pediatric/AYA solid tumors [PMID:35585047](../papers/35585047.md)
 - Applied to all 40 metastatic CRPC models (organoids, PDXs, cell lines) and 366 CRPC patients (SU2C + WCM cohorts) in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md); polyA-enriched RNA-seq data used for CRPC subtype classification via Nearest Template Prediction [PMID:35617398](../papers/35617398.md)
+- Bulk RNA-seq (STAR + kallisto alignment to b37) generated for 392 longitudinal glioma samples from 206 patients in the GLASS expansion cohort; transcriptional subtype switching (e.g. classical→mesenchymal) and cell-state deconvolution were primary analytical outputs [PMID:35649412](../papers/35649412.md)
 
 ## Notes
 
@@ -468,5 +469,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -60,6 +60,6 @@ processed_at: 2026-05-21
 ## Sources
 
 - cBioPortal study `crc_dd_2022`.
-- Gularte-Mérida R, et al. *Same-Cell Co-Occurrence of RAS Hotspot and BRAF V600E Mutations in Treatment-Naive Colorectal Cancer.* JCO Precis Oncol. 2022. [PMID:35235413](../papers/35235413.md)
+- Gularte-Mérida R, et al. *Same-Cell Co-Occurrence of RAS Hotspot and [BRAF](../genes/BRAF.md) V600E Mutations in Treatment-Naive Colorectal Cancer.* JCO Precis Oncol. 2022. [PMID:35235413](../papers/35235413.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

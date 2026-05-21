@@ -40,7 +40,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - FOXA1 class-1 forkhead-domain mutations enriched in Asian-ancestry prostate cancer patients (21% Asian vs 8% White; adjusted difference +15 pp, 95% CI 6 to 26) in an MSK-IMPACT cohort of 2,069 prostate tumors; overall FOXA1 alteration rate 27% Asian vs 13% White. [PMID:34667026](../papers/34667026.md)
 - Mutations negatively correlated with metastatic burden in [PRAD](../cancer_types/PRAD.md); enriched in lobular breast cancer liver metastases (3% primary vs 33% liver met, q=0.02), suggesting distinct roles in prostate vs breast cancer metastatic biology [PMID:35120664](../papers/35120664.md)
 - FOXA1 amplification was present in matched clinical samples but lost in derived PDX (MSK304B), which instead gained [MYCL](../genes/MYCL.md) amplification, illustrating genomic drift during PDX engraftment in an MSK [SCLC](../cancer_types/SCLC.md) biobank study. [PMID:35440124](../papers/35440124.md)
-- Co-top transcription factor with AR in CRPC-AR subtype; identified as a key TF in chromatin-based molecular subtyping of metastatic CRPC across 22 patient-derived organoids, 6 PDXs, and 12 cell lines [PMID:35617398](../papers/35617398.md)
+- Co-top transcription factor with [AR](../genes/AR.md) in CRPC-AR subtype; identified as a key TF in chromatin-based molecular subtyping of metastatic CRPC across 22 patient-derived organoids, 6 PDXs, and 12 cell lines [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 

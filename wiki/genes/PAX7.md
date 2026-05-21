@@ -20,7 +20,7 @@ PAX7 is a paired-box transcription factor. PAX7::[FOXO1](../genes/FOXO1.md) fusi
 - PAX7::[FOXO1](../genes/FOXO1.md) fusion found in 2/18 FP-RMS patients in a multi-institutional sequential genomic study; associated with [FOXO1](../genes/FOXO1.md) amplification in these tumors [PMID:37730754](../papers/37730754.md).
 - Defines PAX7-FOXO1 fusion via t(1;13) in [ARMS](../cancer_types/ARMS.md) rhabdomyosarcoma (n=15); PAX7-FOXO1 fusion gene amplified in 12/15 (80%) PAX7-FOXO1 tumors, frequently driving high copy number of the fusion [PMID:24436047](../papers/24436047.md)
 - PAX7-FOXO1 fusion identified by RNA-seq in alveolar rhabdomyosarcoma ([ARMS](../cancer_types/ARMS.md)) — diagnostic and high-risk-group prognostic marker, despite repeatedly negative [FOXO1](../genes/FOXO1.md) break-apart FISH; a pediatric precision-oncology case [PMID:28007021](../papers/28007021.md)
-- PAX7 is a rhabdomyosarcoma subtype marker; cWGTS-based methylation tSNE clustering was used to confirm ARMS subtype reclassification in a patient found to harbor [PAX3](../genes/PAX3.md)–[FOXO3](../genes/FOXO3.md) fusion [PMID:35585047](../papers/35585047.md)
+- PAX7 is a rhabdomyosarcoma subtype marker; cWGTS-based methylation tSNE clustering was used to confirm [ARMS](../cancer_types/ARMS.md) subtype reclassification in a patient found to harbor [PAX3](../genes/PAX3.md)–[FOXO3](../genes/FOXO3.md) fusion [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 

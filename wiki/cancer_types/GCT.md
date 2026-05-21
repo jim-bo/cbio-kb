@@ -23,7 +23,7 @@ Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragona
 - **12p gain** — present in 74% of discovery tumors; the well-characterized GCT cytogenetic hallmark [PMID:27646943](../papers/27646943.md).
 - **[TP53](../genes/TP53.md)** — alterations exclusive to cisplatin-resistant tumors (17/104 [16.3%] resistant vs 0/76 sensitive, P<.001); 72% of primary mediastinal nonseminomas harbored [TP53](../genes/TP53.md) alterations; strongest single-gene biomarker of [cisplatin](../drugs/cisplatin.md) resistance [PMID:27646943](../papers/27646943.md).
 - **[MDM2](../genes/MDM2.md)** — amplifications in 7.6% of resistant vs 2.6% sensitive tumors; mutually exclusive with [TP53](../genes/TP53.md) alteration; combined TP53/MDM2 alterations in 24.0% of resistant vs 2.6% sensitive (P<.001) [PMID:27646943](../papers/27646943.md).
-- **[MYCN](../genes/MYCN.md)** — amplifications in 5 patients, all [cisplatin](../drugs/cisplatin.md) resistant; transcriptionally targets both TP53 and [MDM2](../genes/MDM2.md) [PMID:27646943](../papers/27646943.md).
+- **[MYCN](../genes/MYCN.md)** — amplifications in 5 patients, all [cisplatin](../drugs/cisplatin.md) resistant; transcriptionally targets both [TP53](../genes/TP53.md) and [MDM2](../genes/MDM2.md) [PMID:27646943](../papers/27646943.md).
 - **[RAC1](../genes/RAC1.md)** — novel hotspot mutations at codons 12, 34, 61 (G12V/R, P34R, Q61R/K) in 9 patients (5% — highest reported across TCGA cancer types at time of publication); functionally validated to activate [PAK1](../genes/PAK1.md) and MEK1/2 phosphorylation [PMID:27646943](../papers/27646943.md).
 - **[KIT](../genes/KIT.md)** — exon 17 hotspot mutations in 19 patients; enriched in [SEM](../cancer_types/SEM.md) (29.6% vs 4% in nonseminoma, P<.001) [PMID:27646943](../papers/27646943.md).
 - **[KRAS](../genes/KRAS.md)** — 22 patients (G12 dominant); enriched in seminomas overall (20% vs 8.7%, P=.045) [PMID:27646943](../papers/27646943.md).
@@ -40,8 +40,8 @@ Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragona
 
 ## Therapeutic landscape
 
-- **[Cisplatin](../drugs/cisplatin.md)-based chemotherapy** ([BEP](../drugs/bleomycin.md)/[EP](../drugs/etoposide.md)/TIP/VIP) — standard first-line; cisplatin resistance is the central clinical challenge; TP53/MDM2 alterations independently predict shorter PFS (HR 1.83, P=.016) after adjusting for IGCCCG risk [PMID:27646943](../papers/27646943.md).
-- **[Nutlin-3](../drugs/nutlin-3.md) ([MDM2](../genes/MDM2.md) inhibitor)** — showed antiproliferative and apoptotic synergy with cisplatin in TP53 wild-type cisplatin-resistant cell lines in vitro; 7 MDM2 inhibitors in clinical trials at time of publication [PMID:27646943](../papers/27646943.md).
+- **[Cisplatin](../drugs/cisplatin.md)-based chemotherapy** ([BEP](../drugs/bleomycin.md)/[EP](../drugs/etoposide.md)/TIP/VIP) — standard first-line; [cisplatin](../drugs/cisplatin.md) resistance is the central clinical challenge; TP53/MDM2 alterations independently predict shorter PFS (HR 1.83, P=.016) after adjusting for IGCCCG risk [PMID:27646943](../papers/27646943.md).
+- **[Nutlin-3](../drugs/nutlin-3.md) ([MDM2](../genes/MDM2.md) inhibitor)** — showed antiproliferative and apoptotic synergy with cisplatin in TP53 wild-type cisplatin-resistant cell lines in vitro; 7 [MDM2](../genes/MDM2.md) inhibitors in clinical trials at time of publication [PMID:27646943](../papers/27646943.md).
 - **[Imatinib](../drugs/imatinib.md)/[sunitinib](../drugs/sunitinib.md)** — therapeutic candidates for KIT-mutant GCT (particularly seminoma) [PMID:27646943](../papers/27646943.md).
 - **MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md), [binimetinib](../drugs/binimetinib.md))** — candidates for KRAS/NRAS/RAC1-altered GCT [PMID:27646943](../papers/27646943.md).
 

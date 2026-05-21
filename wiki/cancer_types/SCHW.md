@@ -24,7 +24,7 @@ Schwannoma (SCHW) is a benign peripheral nerve sheath tumor of Schwann-cell orig
 
 ## Recurrent alterations
 
-- [NF2](../genes/NF2.md) mutation or copy-number loss present in 83% of SWNTS-SWNs vs. 58% of NS-SWNs (Chi-square, p<0.0001); NF2 is the only recurrent driver SNV across all schwannomas. [PMID:33025139](../papers/33025139.md)
+- [NF2](../genes/NF2.md) mutation or copy-number loss present in 83% of SWNTS-SWNs vs. 58% of NS-SWNs (Chi-square, p<0.0001); [NF2](../genes/NF2.md) is the only recurrent driver SNV across all schwannomas. [PMID:33025139](../papers/33025139.md)
 - 22q deletions across [LZTR1](../genes/LZTR1.md), [SMARCB1](../genes/SMARCB1.md), and NF2 seen in 76% of SWNTS-SWNs vs. 35% of NS-SWNs; additional 22q11.21–q11.23 genes ([MAPK1](../genes/MAPK1.md), [BCR](../genes/BCR.md), [EWSR1](../genes/EWSR1.md), [PATZ1](../genes/PATZ1.md), [ZNRF3](../genes/ZNRF3.md), MYH9) co-deleted in 77% of SWNTS-SWN cases with coordinated expression loss. [PMID:33025139](../papers/33025139.md)
 - [SH3PXD2A](../genes/SH3PXD2A.md)–[HTRA1](../genes/HTRA1.md) fusion detected in ~14% of SWNTS-SWNs by RT-PCR, enriched in germline LZTR1-mutant tumors (p=0.025) and painful tumors; provides rationale for MEK inhibition. [PMID:33025139](../papers/33025139.md)
 - LZTR1-mutant SWNTS-SWNs carry ~9-fold higher copy-number burden than LZTR1-wild-type (p=0.0072), with recurrent arm-level deletions on chromosomes 4, 16, 19, and 21. [PMID:33025139](../papers/33025139.md)
@@ -34,12 +34,12 @@ Schwannoma (SCHW) is a benign peripheral nerve sheath tumor of Schwann-cell orig
 
 ## Subtypes
 
-- **SWNTS-SWN (schwannomatosis-associated)** — germline LZTR1 or SMARCB1 mutation + somatic NF2 loss; higher CNV, [SH3PXD2A](../genes/SH3PXD2A.md)–[HTRA1](../genes/HTRA1.md) fusion in 14%, RAS/MAPK/VEGF pathway upregulation; anatomic location segregates into 4 methylation clusters. [PMID:33025139](../papers/33025139.md)
+- **SWNTS-SWN (schwannomatosis-associated)** — germline [LZTR1](../genes/LZTR1.md) or [SMARCB1](../genes/SMARCB1.md) mutation + somatic NF2 loss; higher CNV, [SH3PXD2A](../genes/SH3PXD2A.md)–[HTRA1](../genes/HTRA1.md) fusion in 14%, RAS/MAPK/VEGF pathway upregulation; anatomic location segregates into 4 methylation clusters. [PMID:33025139](../papers/33025139.md)
 - **NS-SWN (non-syndromic sporadic)** — NF2 mutation/loss in 58%; lower CNV; mixed with SWNTS-SWN on methylation clustering, supporting shared Schwann-cell origin. [PMID:33025139](../papers/33025139.md)
 
 ## Therapeutic landscape
 
-- MEK inhibition (e.g., [selumetinib](../drugs/selumetinib.md)) nominated for SWNTS-SWNs with LZTR1 mutation, NF2 loss, or SH3PXD2A–HTRA1 fusion, based on coordinated RAS/MAPK upregulation and precedent for MEK inhibitors in [NF1](../genes/NF1.md) plexiform neurofibromas. [PMID:33025139](../papers/33025139.md)
+- MEK inhibition (e.g., [selumetinib](../drugs/selumetinib.md)) nominated for SWNTS-SWNs with LZTR1 mutation, NF2 loss, or [SH3PXD2A](../genes/SH3PXD2A.md)–[HTRA1](../genes/HTRA1.md) fusion, based on coordinated RAS/MAPK upregulation and precedent for MEK inhibitors in [NF1](../genes/NF1.md) plexiform neurofibromas. [PMID:33025139](../papers/33025139.md)
 - Anti-angiogenic therapy ([bevacizumab](../drugs/bevacizumab.md), PIGF-targeting compounds) proposed for painful SWNTS-SWNs given PIGF/VEGF/RAF pathway upregulation; mTOR inhibitors also nominated for chronic pain management. [PMID:33025139](../papers/33025139.md)
 
 ## Sources

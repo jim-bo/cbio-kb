@@ -49,8 +49,9 @@ The foundational MSK-IMPACT clinical sequencing cohort (Zehir et al. 2017) compr
 - Across 45,112 MSK-IMPACT samples from the same clinical sequencing pipeline, MiMSI reduced MSI-indeterminate calls from 3.8% (n=1,724 by MSISensor) to 0.47% (n=210), with 96% concordance for definitive MSS/MSI-H calls [PMID:39746944](../papers/39746944.md).
 - The MSK-CHORD real-world dataset integrates MSK-IMPACT tumor genomics with NLP-derived EHR annotations for 24,950 patients; multimodal models combining genomic and NLP features outperformed stage-alone [OS](../cancer_types/OS.md) prediction in [NSCLC](../cancer_types/NSCLC.md), breast, colorectal, prostate, and pancreatic cancers [PMID:39506116](../papers/39506116.md).
 - 706 advanced prostate cancers from MSK-IMPACT in this cohort were used as validation for 97 significantly mutated genes discovered in the [prad_p1000](../datasets/prad_p1000.md) pan-1000 prostate meta-cohort, confirming novel drivers including [CUL3](../genes/CUL3.md) (9 cases), [SPEN](../genes/SPEN.md), [SF3B1](../genes/SF3B1.md), and [PIK3R2](../genes/PIK3R2.md) [PMID:29610475](../papers/29610475.md)
-- da Silva et al. used three previously published [MBC](../cancer_types/MBC.md) cases from msk_impact_2017 as part of a 60-sample study of TERT promoter mutations and gene amplification in metaplastic breast cancer; TERT alterations were found in 17% (10/60) of MBCs and were mutually exclusive with [TP53](../genes/TP53.md) mutations (p<0.001) [PMID:33863915](../papers/33863915.md)
+- da Silva et al. used three previously published [MBC](../cancer_types/MBC.md) cases from msk_impact_2017 as part of a 60-sample study of [TERT](../genes/TERT.md) promoter mutations and gene amplification in metaplastic breast cancer; TERT alterations were found in 17% (10/60) of MBCs and were mutually exclusive with [TP53](../genes/TP53.md) mutations (p<0.001) [PMID:33863915](../papers/33863915.md)
 - 4,561 CRC patients were sequenced with MSK-IMPACT at MSK; 47 (1.03%) had dual RAS hotspot/BRAF V600E driver mutations, defining the [crc_dd_2022](../datasets/crc_dd_2022.md) sub-cohort; the backbone sequencing data lives in msk_impact_2017 [PMID:35235413](../papers/35235413.md)
+- Pan-cancer [PIK3R1](../genes/PIK3R1.md) driver alteration frequencies across 15 solid tumor types; most frequent in endometrial cancer (~25%); MSK-IMPACT prostate sub-cohort used to assess FDG-PET avidity linked to PIK3R1 alterations [PMID:35670774](../papers/35670774.md)
 
 ## Sources
 
@@ -61,5 +62,8 @@ The foundational MSK-IMPACT clinical sequencing cohort (Zehir et al. 2017) compr
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

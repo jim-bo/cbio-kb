@@ -25,8 +25,8 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1 structural variants identified as interesting alterations in salivary duct carcinoma ([SDCA](../cancer_types/SDCA.md)) from a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
 - ROS1 fusions present in ~6–7% of young lung cancer patients (YLC) versus <2% in older [NSCLC](../cancer_types/NSCLC.md) patients, making them significantly enriched in YLC [PMID:27346245](../papers/27346245.md).
 - Fusions identified in [LUAD](../cancer_types/LUAD.md); level 1 actionability with high matched-therapy uptake and clinical benefit; 2 ROS1-fusion patients died before [crizotinib](../drugs/crizotinib.md) FDA approval (March 2016) for this indication [PMID:28336552](../papers/28336552.md)
-- Kinase fusions enriched in LUAD but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases; part of the targetable-alteration pool recovered by broad-panel sequencing vs amplicon panels [PMID:28481359](../papers/28481359.md)
-- Reported at 3% frequency in NSCLC with too few events for dedicated response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) [PMID:29337640](../papers/29337640.md)
+- Kinase fusions enriched in [LUAD](../cancer_types/LUAD.md) but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases; part of the targetable-alteration pool recovered by broad-panel sequencing vs amplicon panels [PMID:28481359](../papers/28481359.md)
+- Reported at 3% frequency in [NSCLC](../cancer_types/NSCLC.md) with too few events for dedicated response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) [PMID:29337640](../papers/29337640.md)
 - Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than [neratinib](../drugs/neratinib.md) monotherapy in HER2-mutant solid tumors [PMID:29420467](../papers/29420467.md)
 - ROS1 fusion is a disease-defining driver in a small subset of LUAD (referenced from the Fusion AWG within the PanCanAtlas pan-cancer multi-omics analysis) [PMID:29625049](../papers/29625049.md)
 - Rare actionable alteration observed in MSK-IMPACT profiling of 195 advanced cholangiocarcinoma patients; level 2B finding supporting targeted therapy eligibility [PMID:29848569](../papers/29848569.md)
@@ -37,6 +37,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - Fusion-driver alteration in 2.6% of LCINS LUAD; enriched in never-smoker lung adenocarcinoma subtype analysis [PMID:34493867](../papers/34493867.md)
 - ROS1-GOPC fusions (n=2) classified as ready-for-routine-use actionability tier in the AcSé-MAPPYACTS pediatric cohort, observed in non-RMS soft-tissue sarcoma and low-grade glioma [PMID:35292802](../papers/35292802.md).
 - ROS1 referenced as an analogous oncogene-addicted system where compound on-target mutations and bypass signaling drive resistance to selective inhibitors, informing the resistance framework observed with [selpercatinib](../drugs/selpercatinib.md) in RET-altered cancers [PMID:35304457](../papers/35304457.md).
+- ROS1 kinase fusions detected as part of the 2.6% kinase-fusion gene panel across 7,494 sarcomas ([ALK](../genes/ALK.md), ROS1, [RET](../genes/RET.md), [FGFR1](../genes/FGFR1.md), NTRK1/2/3, [BRAF](../genes/BRAF.md)); actionable via ROS1 inhibitors [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -107,5 +108,8 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:35292802](../papers/35292802.md)
 
 - [PMID:35304457](../papers/35304457.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

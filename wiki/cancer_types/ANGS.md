@@ -4,8 +4,8 @@ oncotree_code: ANGS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [radiation-associated-sarcoma, vascular-tumor]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: oncotree
 unverified: false
 ---
@@ -14,7 +14,7 @@ unverified: false
 
 ## Overview
 
-Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarcomas in the OncoTree hierarchy (parent: SOFT_TISSUE). It can arise sporadically or as a radiation-associated (RT) sarcoma, most commonly in the breast/chest wall following prior radiation therapy for breast carcinoma.
+Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarcomas in the OncoTree hierarchy (parent: [SOFT_TISSUE](../cancer_types/SOFT_TISSUE.md)). It can arise sporadically or as a radiation-associated (RT) sarcoma, most commonly in the breast/chest wall following prior radiation therapy for breast carcinoma.
 
 ## Cohorts in the corpus
 
@@ -30,8 +30,10 @@ Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarco
 - [TP53](../genes/TP53.md) alterations depleted in RT-AS (9%) relative to sporadic AS (23%) [PMID:37350195](../papers/37350195.md).
 - [KDR](../genes/KDR.md) alterations depleted in RT-AS (11%) vs sporadic AS (24%) [PMID:37350195](../papers/37350195.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions nearly absent in RT-AS (2%) compared to other RT-sarcoma histotypes (29-92%) [PMID:37350195](../papers/37350195.md).
-- RT-AS harbored the lowest fraction of genome altered (FGA, 9%) among all RT-sarcoma histotypes (P < 0.0001) [PMID:37350195](../papers/37350195.md).
-- Retrospective single-center cohort of 39 angiosarcoma patients (14 primary, 25 secondary); 1-year OS 87.2%, 5-year OS 51.3%; secondary AS predominated (64%), driven by radiation-associated cutaneous breast AS in women; breast cancer history OR 5.143 (p=0.02) for worse 5-year survival on univariate analysis [PMID:32042194](../papers/32042194.md).
+- RT-AS harbored the lowest fraction of genome altered ([FGA](../genes/FGA.md), 9%) among all RT-sarcoma histotypes (P < 0.0001) [PMID:37350195](../papers/37350195.md).
+- Retrospective single-center cohort of 39 angiosarcoma patients (14 primary, 25 secondary); 1-year [OS](../cancer_types/OS.md) 87.2%, 5-year OS 51.3%; secondary AS predominated (64%), driven by radiation-associated cutaneous breast AS in women; breast cancer history OR 5.143 (p=0.02) for worse 5-year survival on univariate analysis [PMID:32042194](../papers/32042194.md).
+- In a 7,494-sarcoma pan-histology cohort, angiosarcoma showed UV-signature dominance in cutaneous cases (35/41 evaluable) and TMB ≥10 mut/Mb in 15.0% — the highest rate across all 44 sarcoma subtypes [PMID:35705558](../papers/35705558.md).
+- In a 2,138-sarcoma MSK-IMPACT cohort (n=101 ANGS), recurrent RTK mutations included [KDR](../genes/KDR.md) (19%), [FLT4](../genes/FLT4.md) (9%), and [EPHA5](../genes/EPHA5.md) (9%); median TMB was highest in angiosarcoma (3.0 mut/Mb); 25% had TMB ≥5 mut/Mb and 7.6% had TMB ≥10 mut/Mb; DDR pathway altered in 13% [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -47,7 +49,13 @@ Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarco
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 44 RT-angiosarcomas.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32042194](../papers/32042194.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

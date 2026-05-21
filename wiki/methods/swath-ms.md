@@ -17,7 +17,7 @@ SWATH-MS (Sequential Window Acquisition of all THeoretical fragment ion spectra)
 
 ## Used by
 
-- Applied to 51/122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) using Q Exactive Plus instrumentation, quantifying 6,167 proteins; spectral library built by MaxQuant with peak extraction by Spectronaut X; enabled integrated proteogenomic analysis of HCC subtypes and kinase activity [PMID:35508466](../papers/35508466.md)
+- Applied to 51/122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) using Q Exactive Plus instrumentation, quantifying 6,167 proteins; spectral library built by MaxQuant with peak extraction by Spectronaut X; enabled integrated proteogenomic analysis of [HCC](../cancer_types/HCC.md) subtypes and kinase activity [PMID:35508466](../papers/35508466.md)
 
 ## Notes
 

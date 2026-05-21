@@ -17,7 +17,7 @@ Kinase-Substrate Enrichment Analysis (KSEA) infers kinase activity from phosphop
 
 ## Used by
 
-- Applied to phosphoproteomic data from 51 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)), revealing increased activity of [AURKA](../genes/AURKA.md), CDK1/2/5/7, ERK1/2 (MAPK1/3), and [PLK1](../genes/PLK1.md), and decreased activity of PKACA/G, PKCA/Z, and [SGK1](../genes/SGK1.md) in HCC vs normal liver [PMID:35508466](../papers/35508466.md)
+- Applied to phosphoproteomic data from 51 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)), revealing increased activity of [AURKA](../genes/AURKA.md), CDK1/2/5/7, ERK1/2 (MAPK1/3), and [PLK1](../genes/PLK1.md), and decreased activity of PKACA/G, PKCA/Z, and [SGK1](../genes/SGK1.md) in [HCC](../cancer_types/HCC.md) vs normal liver [PMID:35508466](../papers/35508466.md)
 
 ## Notes
 

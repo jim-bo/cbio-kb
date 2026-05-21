@@ -23,6 +23,7 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 - [ATM](../genes/ATM.md) and CHEK2 mutations were identified in the [TP53](../genes/TP53.md) pathway in MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients but were rare and did not drive the pathway signal, which was dominated by [TP53](../genes/TP53.md) and [MDM2](../genes/MDM2.md) alterations. [PMID:35377946](../papers/35377946.md)
 - Pathogenic germline variant identified in a low-grade serous ovarian carcinoma (LGSC) patient; germline pathogenic mutation rate was 9% across an 88-gene panel in 119 LGSC patients [PMID:35443055](../papers/35443055.md)
 - Part of the 15 PROfound HRR genes assessed in prostate cancer brain metastases (PCBM); 10/51 (19.6%) PCBM patients qualified by alteration in any PROfound HRR gene including CHEK2 [PMID:35504881](../papers/35504881.md)
+- CHEK2 altered as part of the DDR pathway in 9.6% of all sarcoma samples; highest DDR burden seen in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), and [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -44,22 +45,18 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

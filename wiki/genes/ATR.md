@@ -7,8 +7,8 @@ tags:
   - dna-damage-response
   - replication-stress
   - kinase
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # ATR
@@ -24,13 +24,14 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
 - Cell-cycle/DNA-damage tumor suppressor with inactivating hits in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort) [PMID:25589618](../papers/25589618.md)
-- ATR provides compensatory TRMT10A Ser28 phosphorylation when ATM is impaired; TRMT10A loss confers ATR-inhibitor sensitivity in prostate cancer cell lines [PMID:28068672](../papers/28068672.md)
-- ATR was among the antigen-presentation/immunology genes profiled in the OncoPrint of a 240-patient NSCLC cohort evaluating TMB as an ICI-response biomarker [PMID:29337640](../papers/29337640.md).
+- ATR provides compensatory [TRMT10A](../genes/TRMT10A.md) Ser28 phosphorylation when [ATM](../genes/ATM.md) is impaired; TRMT10A loss confers ATR-inhibitor sensitivity in prostate cancer cell lines [PMID:28068672](../papers/28068672.md)
+- ATR was among the antigen-presentation/immunology genes profiled in the OncoPrint of a 240-patient [NSCLC](../cancer_types/NSCLC.md) cohort evaluating TMB as an ICI-response biomarker [PMID:29337640](../papers/29337640.md).
 - ATR listed among 'Other' DNA-repair germline pathogenic/likely-pathogenic alleles annotated in the 923-patient glioma cohort (MSK-IMPACT/FoundationOne); 13% of glioma patients harbored a germline P/LP variant enriched for DNA-repair genes [PMID:31263031](../papers/31263031.md)
 - Knockdown sensitivity tracks the ATR/ATRIP and RPA1-containing RPA complexes in CCLE proteomics of 375 cancer cell lines; proteome-level complex abundance is a better predictor of ATR knockdown sensitivity than single transcripts [PMID:31978347](../papers/31978347.md)
-- ATR is a component of the SSBR (single-strand break repair) gene set whose protein loss in luminal breast cancer (CPTAC proteogenomics, n=122) is anti-correlated with PD-L1 and immune infiltration; low NER/BER/MMR protein levels associated with high mutation load specifically in luminal but not basal BRCA, nominating subsets of luminal BRCA as ICI candidates [PMID:33212010](../papers/33212010.md)
-- In a proteogenomic study of 99 GBMs, ATR protein and phosphorylation were elevated in TP53-mutant tumors without corresponding protein-level upregulation of DNA-repair components, nominating ATR inhibitors as potential therapeutic candidates for TP53-mutant GBM. [PMID:33577785](../papers/33577785.md)
+- ATR is a component of the SSBR (single-strand break repair) gene set whose protein loss in luminal breast cancer (CPTAC proteogenomics, n=122) is anti-correlated with PD-L1 and immune infiltration; low NER/BER/MMR protein levels associated with high mutation load specifically in luminal but not basal [BRCA](../cancer_types/BRCA.md), nominating subsets of luminal BRCA as ICI candidates [PMID:33212010](../papers/33212010.md)
+- In a proteogenomic study of 99 GBMs, ATR protein and phosphorylation were elevated in TP53-mutant tumors without corresponding protein-level upregulation of DNA-repair components, nominating ATR inhibitors as potential therapeutic candidates for TP53-mutant [GBM](../cancer_types/GBM.md). [PMID:33577785](../papers/33577785.md)
 - No significant difference in ATR alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) profiled on MSK-IMPACT, contradicting a prior Project GENIE-based report [PMID:34667026](../papers/34667026.md)
+- [ATRX](../genes/ATRX.md) loss-of-function across multiple sarcoma subtypes ([ULMS](../cancer_types/ULMS.md), [PLLS](../cancer_types/PLLS.md), [UPS](../cancer_types/UPS.md), [MFS](../cancer_types/MFS.md), [PECOMA](../cancer_types/PECOMA.md), [LMS](../cancer_types/LMS.md), [ANGS](../cancer_types/ANGS.md)) raises the possibility of ATR-inhibitor synthetic lethality; active basket trials NCT03718091, NCT05071209, and NCT04807816 are cited [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -52,36 +53,39 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 
 - [PMID:38412093](../papers/38412093.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28068672](../papers/28068672.md)
 
 - [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

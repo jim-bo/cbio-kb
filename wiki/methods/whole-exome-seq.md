@@ -142,7 +142,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Performed whole-exome sequencing as part of clinical genomic profiling for cancer patients [PMID:28336552](../papers/28336552.md)
 - Applied whole-exome sequencing to identify somatic mutations in pediatric cancer cohort [PMID:28445112](../papers/28445112.md)
 - Whole-exome sequencing of 16 paired tumor-normal clear cell endometrial carcinoma samples (Illumina Truseq and Agilent SureSelect; mean depth 75x) in the [uccc_nih_2017](../datasets/uccc_nih_2017.md) discovery cohort [PMID:28485815](../papers/28485815.md)
-- WES of 327 spatially separated primary NSCLC tumor regions and 4 metastatic biopsies through the TRACERx M-Seq pipeline, used to design bespoke ctDNA monitoring panels (median 18 SNVs/patient) [PMID:28445469](../papers/28445469.md)
+- WES of 327 spatially separated primary [NSCLC](../cancer_types/NSCLC.md) tumor regions and 4 metastatic biopsies through the TRACERx M-Seq pipeline, used to design bespoke ctDNA monitoring panels (median 18 SNVs/patient) [PMID:28445469](../papers/28445469.md)
 - 106 MSK-IMPACT tumors re-captured with Agilent Exome Kit v3 (mean 240x) for cross-platform TMB validation; WES vs MSK-IMPACT TMB correlation R2=0.76 [PMID:28481359](../papers/28481359.md)
 - Applied to 200 CCA cases as part of the multi-platform ICGC cholangiocarcinoma cohort (489 total tumors), contributing somatic mutation calls to the integrative four-cluster analysis [PMID:28667006](../papers/28667006.md)
 - Used for 101 medulloblastoma cases (from prior PCGP/MAGIC studies) complementing 390 whole-genome sequenced cases in the ICGC PedBrain MAGIC cohort of 491 diagnostic tumor-normal pairs [PMID:28726821](../papers/28726821.md)
@@ -175,12 +175,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 326 of the 1,072 CCLE cancer cell lines as part of the expanded multi-omic CCLE characterization; compared against 1,001 Sanger GDSC WES lines (667 overlapping), showing high concordance (Pearson r=0.95 for germline allelic fractions, r=0.92 for cancer hotspot somatic variants) [PMID:31068700](../papers/31068700.md)
 - Applied to 173 tumors / 121 cases in the pan-Asia cHCC-ICC study at mean 108× tumor / 101× normal depth (Illumina HiSeq platform); primary alteration discovery platform for SNVs, indels, and CNAs [PMID:31130341](../papers/31130341.md)
 - Applied to 37 high-grade [UTUC](../cancer_types/UTUC.md) tumor-normal pairs (WCM n=22; BCM-MDA n=15); BCM-MDA samples at ~85× mean coverage on Illumina HiSeq 2500 (2×100 bp); primary discovery platform for somatic mutations, TMB (mean 2.91 mut/Mb in [UTUC](../cancer_types/UTUC.md) vs. 5.46 mut/Mb in TCGA UCB) [PMID:31278255](../papers/31278255.md)
-- Performed on 193 ACC cases (combined across Sanger/MDACC and MSKCC cohorts); mean TMB 0.34 mut/Mb across ACC, identifying recurrent enrichment of [NOTCH1](../genes/NOTCH1.md) (26.3%), chromatin-remodeling, and [TERT](../genes/TERT.md) promoter mutations in R/M disease [PMID:31483290](../papers/31483290.md).
+- Performed on 193 [ACC](../cancer_types/ACC.md) cases (combined across Sanger/MDACC and MSKCC cohorts); mean TMB 0.34 mut/Mb across ACC, identifying recurrent enrichment of [NOTCH1](../genes/NOTCH1.md) (26.3%), chromatin-remodeling, and [TERT](../genes/TERT.md) promoter mutations in R/M disease [PMID:31483290](../papers/31483290.md).
 - HGSC VCRome 2.1 capture WES performed on 240 of 261 PPTC pediatric PDX models; median TMB 2.66 somatic Mut/Mb; relapse-derived PDXs had significantly higher TMB than diagnosis-derived (3.08 vs. 2.57 Mut/Mb, Wilcoxon p=2.2e-5) [PMID:31693904](../papers/31693904.md).
 - Used in the CPTAC endometrial carcinoma study (n=95 tumors, 49 normal samples) on Illumina HiSeq4000 (paired 76-cycle, min 150× on-target coverage, hg38); identified novel SMGs in MSI tumors including [INPPL1](../genes/INPPL1.md) (56%), [KMT2B](../genes/KMT2B.md) (56%), and [JAK1](../genes/JAK1.md) (44%) [PMID:32059776](../papers/32059776.md).
 - WES (median 186× tumor / 126× normal) performed on 56 samples from 25 patients with synchronous DCIS/IDC-NST pairs plus 7 pure [DCIS](../cancer_types/DCIS.md); median 37 non-synonymous somatic mutations per [DCIS](../cancer_types/DCIS.md) [PMID:32220886](../papers/32220886.md)
-- WES performed on UCC03 and UCC30 UTUC tumor/PDX pairs to confirm linear and branched clonal evolution; APOBEC signature stable across passages in UCC03 but Signature 2 lost in UCC30 PDX [PMID:32332851](../papers/32332851.md)
-- WES on Illumina HiSeq 4000 (minimum 150× on-target) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling (PCR-free WGS also performed at ≥15× tumor depth) [PMID:33577785](../papers/33577785.md)
+- WES performed on UCC03 and UCC30 [UTUC](../cancer_types/UTUC.md) tumor/PDX pairs to confirm linear and branched clonal evolution; APOBEC signature stable across passages in UCC03 but Signature 2 lost in UCC30 PDX [PMID:32332851](../papers/32332851.md)
+- WES on Illumina HiSeq 4000 (minimum 150× on-target) performed on all 99 treatment-naive [GBM](../cancer_types/GBM.md) tumors as part of 10-platform CPTAC proteogenomic profiling (PCR-free WGS also performed at ≥15× tumor depth) [PMID:33577785](../papers/33577785.md)
 - Applied to 27 of 60 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC for whole-exome sequencing; combined with MSK-IMPACT (n=17) and Sanger sequencing (n=16) for comprehensive somatic profiling [PMID:33863915](../papers/33863915.md)
 - Primary platform for the [CSCC](../cancer_types/CSCC.md) meta-analysis reprocessing pipeline; WES data from 10 published studies yielding 88 QC-passed tumors (17 excluded for low purity, contamination, or sample mismatch); mean coverage 12.4x–498x across studies [PMID:34272401](../papers/34272401.md)
 - Applied to cf-IMPACT-negative plasma samples with high sWGS z-score (≥5) for unbiased cfDNA profiling in 5 of 118 metastatic solid tumor patients; cf-WES detected somatic mutations in all 5 (average 212 mutations, average mVAF 11%), 99% in regions outside the cf-IMPACT panel footprint [PMID:34059130](../papers/34059130.md)
@@ -191,6 +191,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Primary sequencing platform in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md): Agilent SureSelectXT V7 WES on Illumina NovaSeq6000 (2×100 bp, ~258× target) applied to 168 tumor regions from 51 prostate cancer brain metastasis patients and 63 matched primaries from 20 patients [PMID:35504881](../papers/35504881.md)
 - Applied to all 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) using SureSelect XT Clinical Research Exome / SureSelect V6+COSMIC (HiSeq 2500; tumor median 94.3×, normal 49.4×; GRCh37 alignment via BWA; somatic SNVs by MuTect, indels by Strelka) [PMID:35508466](../papers/35508466.md)
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) for mutational and CNV profiling of CRPC organoids (22 models) and 10/15 matched tumor biopsies via MSK-IMPACT panel sequencing; WES data supported the chromatin subtype characterization [PMID:35617398](../papers/35617398.md)
+- Whole-exome sequencing used for somatic variant and CNA calling in a subset of GLASS longitudinal glioma samples (b37 alignment via BWA-MEM, somatic calls by MuTect2, CNA by TITAN) [PMID:35649412](../papers/35649412.md)
 
 ## Notes
 
@@ -677,5 +678,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

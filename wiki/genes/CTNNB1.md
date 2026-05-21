@@ -20,7 +20,7 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 - CTNNB1 protein is elevated despite decreased mRNA in EGFR-altered [GBM](../cancer_types/GBM.md) tumors ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md), n=99); [EGFR](../genes/EGFR.md) phosphorylates CTNNB1 at S33, the N-terminal proteasomal-degradation site — a novel trans-phosphorylation relationship identified by phosphoproteomic analysis [PMID:33577785](../papers/33577785.md).
 - Assessed in [LUAD](../cancer_types/LUAD.md) at ≥2% alteration frequency without significant association with pathologic lymph node (pN) metastasis status [PMID:34290393](../papers/34290393.md)
 - No enrichment in Nigerian MSS colorectal tumors despite low [APC](../genes/APC.md) rates (4.4% vs 3.7% MSKCC, P=0.68), indicating non-canonical WNT activation independent of CTNNB1 gain-of-function [PMID:34819518](../papers/34819518.md)
-- Mutations more frequent in [PRAD](../cancer_types/PRAD.md) lung metastases vs primaries (3% vs 8%, q=0.007) in MSK-MET; WNT pathway alterations in 26% of [PRAD](../cancer_types/PRAD.md) lung-met tumors vs 13% of primary PRAD (q<0.001), consistent with WNT-pathway role in PRAD lung organotropism [PMID:35120664](../papers/35120664.md)
+- Mutations more frequent in [PRAD](../cancer_types/PRAD.md) lung metastases vs primaries (3% vs 8%, q=0.007) in MSK-MET; WNT pathway alterations in 26% of [PRAD](../cancer_types/PRAD.md) lung-met tumors vs 13% of primary [PRAD](../cancer_types/PRAD.md) (q<0.001), consistent with WNT-pathway role in PRAD lung organotropism [PMID:35120664](../papers/35120664.md)
 - CTNNB1 was identified as a recurrent alteration in the CNS oncomap of the MAPPYACTS pediatric relapsed/refractory tumor WES cohort (n=787 patients), alongside [ATRX](../genes/ATRX.md), [ARID1A](../genes/ARID1A.md), TSC1/TSC2, [MN1](../genes/MN1.md), [KDR](../genes/KDR.md), [KIT](../genes/KIT.md), and [PDGFRA](../genes/PDGFRA.md). [PMID:35292802](../papers/35292802.md)
 - In FAT10 signaling enrichment among metastatic-clonal genes in prostate cancer brain metastases (PCBM), alongside [TCF7L2](../genes/TCF7L2.md) [PMID:35504881](../papers/35504881.md)
 - Mutually exclusive with [TP53](../genes/TP53.md) (p=0.012) in [HCC](../cancer_types/HCC.md); associated with lower grade (p=0.017), immune-desert phenotype (p=0.039), and good prognosis (p=0.025 multivariate) in a European multi-omic cohort (n=122); CTNNB1-mutant HCCs show altered phosphorylation of [PARD3](../genes/PARD3.md), [PDLIM2](../genes/PDLIM2.md), [MAP1B](../genes/MAP1B.md), [MACF1](../genes/MACF1.md) and increased AMPKα2 activity by KSEA [PMID:35508466](../papers/35508466.md)
@@ -32,7 +32,7 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 
 ## Co-occurrence and mutual exclusivity
 
-- CTNNB1 protein elevation co-occurs with EGFR structural variants and amplification in GBM; also associated with GSK3B phosphorylation tracking Wnt pathway activity [PMID:33577785](../papers/33577785.md).
+- CTNNB1 protein elevation co-occurs with [EGFR](../genes/EGFR.md) structural variants and amplification in [GBM](../cancer_types/GBM.md); also associated with [GSK3B](../genes/GSK3B.md) phosphorylation tracking Wnt pathway activity [PMID:33577785](../papers/33577785.md).
 
 ## Therapeutic relevance
 

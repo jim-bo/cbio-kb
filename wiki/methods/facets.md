@@ -45,7 +45,7 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - Used for allele-specific copy-number and clonality inference in 26,743 MSK-IMPACT pan-cancer cohort; CDK12-Bi prostate cancer showed higher fraction of genome gain and more breakpoints consistent with tandem duplicator phenotype [PMID:32317181](../papers/32317181.md)
 - Applied for allele-specific copy number and LOH analysis in 430 MSS mCRC patients; large state transitions (LST) computed as ≥10 Mb breaks per chromosome arm to assess HRD [PMID:32730818](../papers/32730818.md)
 - Used for copy-number and fraction-genome-altered ([FGA](../genes/FGA.md)) calculations across 604 [LUAD](../cancer_types/LUAD.md) patients; [FGA](../genes/FGA.md) correlated with histologic-subtype invasiveness (LEP 0.174, ACI/PAP 0.222, MIP/SOL 0.304) [PMID:32791233](../papers/32791233.md)
-- Applied for allele-specific copy number and cancer cell fraction (CCF) analysis in the [breast_alpelisib_2020](../datasets/breast_alpelisib_2020.md) cohort; identified PTEN homozygous deletion in ctDNA of resistant HR+ [MBC](../cancer_types/MBC.md) patients [PMID:32864625](../papers/32864625.md)
+- Applied for allele-specific copy number and cancer cell fraction (CCF) analysis in the [breast_alpelisib_2020](../datasets/breast_alpelisib_2020.md) cohort; identified [PTEN](../genes/PTEN.md) homozygous deletion in ctDNA of resistant HR+ [MBC](../cancer_types/MBC.md) patients [PMID:32864625](../papers/32864625.md)
 - FACETS v0.5.14 applied to 74 matched retinoblastoma specimens for copy-number and clonality calling; 69 yielded evaluable arm-level CNA profiles [PMID:33466343](../papers/33466343.md)
 - FACETS allele-specific copy-number tool applied to 428 melanoma samples (of 696 total) with adequate quality; 92% had only clonal driver alterations [PMID:33509808](../papers/33509808.md)
 - FACETS used for copy-number purity/ploidy correction in 487 EAC/EGJ tumor samples sequenced with MSK-IMPACT [PMID:33795256](../papers/33795256.md)
@@ -53,13 +53,16 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - Used for tumor clonality estimation (CCF) in plasma cf-IMPACT samples from 118 metastatic solid tumor patients; tumor purity from FACETS did not differ between concordant and discordant plasma-tissue sample pairs (p=0.812) [PMID:34059130](../papers/34059130.md)
 - Applied for tumor purity estimation in the MSK-ACCESS clinical deployment pipeline; tumor purity did not significantly differ between concordant and tissue/plasma-discordant sample groups [PMID:34145282](../papers/34145282.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
-- Applied to a subset of 17,224 MSK-MET samples for allele-specific copy-number analysis, deriving purity/ploidy-adjusted FGA, whole-genome doubling (WGD) status, and clonality estimates [PMID:35120664](../papers/35120664.md)
+- Applied to a subset of 17,224 MSK-MET samples for allele-specific copy-number analysis, deriving purity/ploidy-adjusted [FGA](../genes/FGA.md), whole-genome doubling (WGD) status, and clonality estimates [PMID:35120664](../papers/35120664.md)
 - FACETS used to assess copy number, tumor purity, ploidy, and bi-allelic status in 237 esophageal/GEJ adenocarcinoma patients sequenced with MSK-IMPACT [PMID:35377946](../papers/35377946.md).
 - FACETS used for clonality and allelic imbalance analysis in 43 dual-driver CRC cases; identified that 21% had both drivers clonal, 40% one clonal/one subclonal [PMID:35235413](../papers/35235413.md).
 - FACETS used for copy-number analysis of 42 [SCLC](../cancer_types/SCLC.md) PDX/CDX and 26 clinical samples in the MSK PDX resource; higher CNA density in PDXs attributed to greater tumor purity from murine stromal replacement [PMID:35440124](../papers/35440124.md).
 - Used in [lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md) to infer loss of heterozygosity at germline mutation loci in 119 LGSC patients sequenced by MSK-IMPACT; LOH assessed in 7 pathogenic germline mutation carriers [PMID:35443055](../papers/35443055.md)
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for allele-specific copy-number analysis of 168 prostate cancer brain metastasis samples; identified [AR](../genes/AR.md) amplifications in 32/51 (63%) patients and PTEN loss/deletion in 33/51 (65%) [PMID:35504881](../papers/35504881.md)
 - Used in [hcc_meric_2021](../datasets/hcc_meric_2021.md) for allele-specific copy-number analysis of 122 [HCC](../cancer_types/HCC.md) biopsies (114 patients), enabling identification of recurrent focal CNAs subsequently analyzed by GISTIC 2.0 [PMID:35508466](../papers/35508466.md)
+- FACETS used for allelic copy-number estimation and clonality calls in 2,735 MSK-IMPACT prostate cancer samples; 1,417 passed QC (samples with low purity were excluded as 'copy-number quiet') [PMID:35670774](../papers/35670774.md)
+- FACETS used for allele-specific copy number and whole-genome-doubling calls across 2,138 MSK-IMPACT sarcomas; WGD frequency ranged from ~50% in osteosarcoma/UPS to lower rates in translocation-driven subtypes [PMID:35705560](../papers/35705560.md)
+- FACETS used for copy-number and loss-of-heterozygosity analysis in 184 MSI-H/MMR-D endometrial cancers sequenced by MSK-IMPACT [PMID:35849120](../papers/35849120.md)
 
 ## Notes
 
@@ -182,5 +185,14 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35849120](../papers/35849120.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

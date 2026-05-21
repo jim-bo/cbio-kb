@@ -5,7 +5,7 @@ main_type: Uterine Sarcoma
 parent: USARC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # Endometrial Stromal Sarcoma (ESS)
@@ -20,12 +20,13 @@ Endometrial stromal sarcoma (ESS) is a rare uterine mesenchymal malignancy arisi
 
 ## Recurrent alterations
 
-- JAZF1-SUZ12 fusion detected by MSK-Fusion in one LGESS case, confirming the diagnosis; [ESR1](../genes/ESR1.md) Y537S ligand-binding domain mutation identified in a metastatic LGESS patient on long-term aromatase inhibitor therapy, with tumor regression on switch to [fulvestrant](../drugs/fulvestrant.md) [PMID:32299819](../papers/32299819.md)
-- YWHAE/NUTM2A and YWHAE/NUTM2B rearrangements detected by MSK-Fusion in two high-grade, non-pleomorphic stromal sarcomas (consistent with HGESS) [PMID:32299819](../papers/32299819.md)
+- JAZF1-SUZ12 fusion detected by MSK-Fusion in one [LGESS](../cancer_types/LGESS.md) case, confirming the diagnosis; [ESR1](../genes/ESR1.md) Y537S ligand-binding domain mutation identified in a metastatic LGESS patient on long-term aromatase inhibitor therapy, with tumor regression on switch to [fulvestrant](../drugs/fulvestrant.md) [PMID:32299819](../papers/32299819.md)
+- YWHAE/NUTM2A and YWHAE/NUTM2B rearrangements detected by MSK-Fusion in two high-grade, non-pleomorphic stromal sarcomas (consistent with [HGESS](../cancer_types/HGESS.md)) [PMID:32299819](../papers/32299819.md)
+- In a 7,494-sarcoma cohort, endometrial stromal sarcoma showed MSI-H in a small fraction of cases; [ESR1](../genes/ESR1.md) mutations potentially predict anti-estrogen resistance (analogous to breast cancer) in this histotype [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
-- [LGESS](../cancer_types/LGESS.md) — low-grade; characterized by JAZF1-SUZ12 and related fusions; hormone receptor positive; responsive to anti-estrogen therapy including aromatase inhibitors and, in ESR1-mutant cases, fulvestrant.
+- [LGESS](../cancer_types/LGESS.md) — low-grade; characterized by JAZF1-SUZ12 and related fusions; hormone receptor positive; responsive to anti-estrogen therapy including aromatase inhibitors and, in ESR1-mutant cases, [fulvestrant](../drugs/fulvestrant.md).
 - [HGESS](../cancer_types/HGESS.md) — high-grade; characterized by YWHAE/NUTM2 rearrangements; more aggressive clinical course; distinct from undifferentiated uterine sarcoma.
 
 ## Therapeutic landscape
@@ -36,4 +37,7 @@ Endometrial stromal sarcoma (ESS) is a rare uterine mesenchymal malignancy arisi
 
 - [PMID:32299819](../papers/32299819.md) — Hensley et al., prospective MSK-IMPACT sequencing of 107 uterine sarcomas including ESS subtypes.
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

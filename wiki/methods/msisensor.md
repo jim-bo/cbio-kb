@@ -33,7 +33,7 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - Applied to MSK-IMPACT targeted sequencing data from 195 cholangiocarcinoma patients; identified 1 MSI-H tumor (0.5%, score 35.1) with MLH1/MSH6 protein loss on IHC [PMID:29848569](../papers/29848569.md)
 - MSIsensor v0.2 (threshold ≥10 for MSI-H) applied to 189 advanced endometrial cancer tumors; 29/30 MMR-D/presumed-MMR-D tumors scored MSI-H; one MMR-proficient-by-IHC case was rescued as MSI-H by MSIsensor (occult MMR deficiency) [PMID:30068706](../papers/30068706.md)
 - MSIsensor used to call MSI status in 127 advanced [HCC](../cancer_types/HCC.md) tumors (MSI-H threshold ≥10); no MSI-H cases observed and TMB median 4.08 [PMID:30373752](../papers/30373752.md)
-- Used to call microsatellite instability status in 37 high-grade [UTUC](../cancer_types/UTUC.md) tumors; mean MSIsensor score in WCM [UTUC](../cancer_types/UTUC.md) and TCGA UCB were both below the MSI-H threshold of 3.5 and indistinguishable, confirming sporadic UTUC is not microsatellite-unstable despite reduced MMR protein expression [PMID:31278255](../papers/31278255.md)
+- Used to call microsatellite instability status in 37 high-grade [UTUC](../cancer_types/UTUC.md) tumors; mean MSIsensor score in WCM [UTUC](../cancer_types/UTUC.md) and TCGA UCB were both below the MSI-H threshold of 3.5 and indistinguishable, confirming sporadic [UTUC](../cancer_types/UTUC.md) is not microsatellite-unstable despite reduced MMR protein expression [PMID:31278255](../papers/31278255.md)
 - Applied to all 1,045 adenoid cystic carcinomas to assess microsatellite status; all cases returned microsatellite-stable, even among the 15/90 MSKCC R/M cases with MLH1/MSH6 germline variants [PMID:31483290](../papers/31483290.md).
 - MSIsensor v0.2 applied to 107 uterine sarcoma MSK-IMPACT samples; threshold ≥10 defined MSI-H; 2 uLMS cases scored MSI-H with outlier TMB and IHC-confirmed MMR loss [PMID:32299819](../papers/32299819.md)
 - MSIsensor used to [estimate](../methods/estimate.md) microsatellite instability in 83 retinoblastoma specimens; TMB uniformly low (0–3 mutations/Mb) [PMID:33466343](../papers/33466343.md)
@@ -43,6 +43,8 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - MSIsensor score ≥10 used to classify MSI-H; 14 MSI-H cases excluded from neoadjuvant response analyses in 237-patient [EGC](../cancer_types/EGC.md) cohort [PMID:35377946](../papers/35377946.md).
 - Applied in [lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md): all 102 evaluable LGSC cases were microsatellite stable (median MSIsensor score 0.12) [PMID:35443055](../papers/35443055.md)
 - Used in the cWGTS pipeline ([mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)) for microsatellite instability assessment in 114 pediatric/AYA solid tumor patients; MSI signal detected in 7 patients [PMID:35585047](../papers/35585047.md)
+- MSIsensor with threshold ≥10 used to classify MSI status in 2,138 sarcomas; only 5/1,893 evaluable samples were MSI-high, confirming MSI rarity in mesenchymal tumors [PMID:35705560](../papers/35705560.md)
+- MSIsensor (threshold ≥10 = MSI-H; 3–<10 = indeterminate; <3 = MSS) applied to 184 endometrial cancers; all MLH1ph and somatic MMR-D cases were MSI-H, but 83% of MSH6-germline and 31% of MLH1/PMS2/MSH2-germline cases scored MSS/indeterminate — revealing a sensitivity floor for Lynch syndrome EC [PMID:35849120](../papers/35849120.md)
 
 ## Notes
 
@@ -116,5 +118,11 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35849120](../papers/35849120.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

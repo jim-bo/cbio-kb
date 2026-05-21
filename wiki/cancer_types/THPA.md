@@ -48,7 +48,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 ## Sources
 
 - [PMID:38412093](../papers/38412093.md) — The genomic and evolutionary landscapes of anaplastic thyroid carcinoma (Cell Reports, 2024)
-- [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (Clinical Cancer Research, 2024)
+- [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of [BRAF](../genes/BRAF.md) fusions identify actionable targets (Clinical Cancer Research, 2024)
 
 - [PMID:25417114](../papers/25417114.md)
 - [PMID:26878173](../papers/26878173.md) — Landa et al., MSK-IMPACT deep-sequencing study; TCGA PTC cohort (n=390) used as comparator; BRAF-RAS score tracks driver in PDTC but ATCs are uniformly BRAF-like

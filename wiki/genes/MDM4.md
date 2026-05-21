@@ -6,8 +6,8 @@ cancer_types:
   - GB
 tags:
   - p53-pathway
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MDM4
@@ -23,13 +23,14 @@ processed_at: 2026-05-16
 - MDM4 amplification detected in breast cancer within the METABRIC cohort of ~2,000 tumors, contributing to p53 pathway dysregulation [PMID:22522925](../papers/22522925.md)
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute amplification of MDM2/CDK4 was identified as a striking structural finding; MDM4 amplification occurs alongside MDM2/CDK4 in the Rb/p53 pathway [PMID:24120142](../papers/24120142.md)
-- Amplification co-identified with MDM2 in 8 NSCLC patients; no significant difference in PFS on anti-PD-(L)1 therapy (HR 1.4, P=.44); hyperprogression signal not reproduced in this cohort [PMID:29337640](../papers/29337640.md)
-- MDM4 exon-6 inclusion (MDM4-FL) is a predictive biomarker for MDM4 dependence and MDM2 inhibitor nutlin-3a sensitivity in TP53 wild-type cancer cell lines; RPL22 K15fs frameshift (in 68% of MSI lines) drives RPL22L1 upregulation which promotes MDM4 exon-6 inclusion. [PMID:31068700](../papers/31068700.md)
-- Amplification in 2% of GBM PDX (n=84); co-occurs with MDM2 amplification as an alternative mechanism of p53 pathway inactivation in GBM [PMID:31852831](../papers/31852831.md)
+- Amplification co-identified with [MDM2](../genes/MDM2.md) in 8 [NSCLC](../cancer_types/NSCLC.md) patients; no significant difference in PFS on anti-PD-(L)1 therapy (HR 1.4, P=.44); hyperprogression signal not reproduced in this cohort [PMID:29337640](../papers/29337640.md)
+- MDM4 exon-6 inclusion (MDM4-FL) is a predictive biomarker for MDM4 dependence and MDM2 inhibitor [nutlin-3a](../drugs/nutlin-3a.md) sensitivity in [TP53](../genes/TP53.md) wild-type cancer cell lines; [RPL22](../genes/RPL22.md) K15fs frameshift (in 68% of MSI lines) drives [RPL22L1](../genes/RPL22L1.md) upregulation which promotes MDM4 exon-6 inclusion. [PMID:31068700](../papers/31068700.md)
+- Amplification in 2% of [GBM](../cancer_types/GBM.md) PDX (n=84); co-occurs with MDM2 amplification as an alternative mechanism of p53 pathway inactivation in GBM [PMID:31852831](../papers/31852831.md)
 - MDM4 splicing is tied to RPL22L1 protein levels in the CCLE proteomics dataset [PMID:31978347](../papers/31978347.md)
 - MDM4 mRNA increases with 1q copy number in MSI endometrial carcinoma tumors (p < 0.01, Spearman), identifying it as a candidate p53-pathway suppressor on amplified 1q; MDM4 protein was not detected at sufficient abundance to confirm the model directly [PMID:32059776](../papers/32059776.md)
 - MDM4 — alterations observed in a subset of BRAF-mutant melanoma patients; combined TP53/MDM2/MDM4 pathway events present in 25% of BRAFi-monotherapy patients but not associated with response grade or survival [PMID:32913971](../papers/32913971.md)
 - Amplification specific to proneural and classical GBM subtypes in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) (n=99); subtype-specific distribution contrasts with MDM2 amplification, which is restricted to mesenchymal GBM [PMID:33577785](../papers/33577785.md)
+- MDM4 is altered in 0.5% of sarcomas overall (0.6% complex-type vs. 0.2% translocation-associated) in the MSK sarcoma genomic profiling cohort (n=7,494, FoundationOne CDx); MDM4 co-occurs with MDM2/TP53 in the p53-pathway axis [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -39,37 +40,40 @@ processed_at: 2026-05-16
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

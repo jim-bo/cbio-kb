@@ -16,7 +16,7 @@ PRKCZ (Protein Kinase C Zeta) encodes an atypical serine/threonine kinase that i
 ## Alterations observed in the corpus
 
 - Mutation identified in 1 case in a WGS study of 65 triple-negative breast cancers (TNBC); ranked 32nd by driverNet driver scoring [PMID:22495314](../papers/22495314.md)
-- Kinase with decreased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a 122-patient HCC multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
+- Kinase with decreased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a 122-patient [HCC](../cancer_types/HCC.md) multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 

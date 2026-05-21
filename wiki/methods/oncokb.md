@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [knowledge-base, variant-annotation, precision-oncology]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # OncoKB
@@ -28,13 +28,14 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:39753968](../papers/39753968.md) — OncoKB v4.12 (Dec 2023) used to annotate all somatic alterations in 2,336 [PAAD](../cancer_types/PAAD.md) patients; ~10% of patients harbored OncoKB level 1 or 2 biomarkers; an additional 78% met level 3A based on [KRAS](../genes/KRAS.md) G12D/V/R/A/S reflecting the emerging RAS-inhibitor pipeline [PMID:39753968](../papers/39753968.md).
 - Used to annotate variants in 244 [GBC](../cancer_types/GBC.md) samples; identified actionable alterations in 35% of patients (OncoKB levels 1, 3A, or 3B), including [NTRK1](../genes/NTRK1.md) fusions (level 1) and [ERBB2](../genes/ERBB2.md) amplifications (level 3B) [PMID:36228155](../papers/36228155.md)
 - Used OncoKB to annotate clinical actionability of somatic variants in pediatric cancer [PMID:28445112](../papers/28445112.md)
-- OncoKB actionability tiers applied to MSK-IMPACT results; 36.7% of 10,336 patients harbored at least one actionable alteration, with GIST (76%), thyroid (60%), breast (57%), and melanoma (56%) having the highest rates [PMID:28481359](../papers/28481359.md)
+- OncoKB actionability tiers applied to MSK-IMPACT results; 36.7% of 10,336 patients harbored at least one actionable alteration, with [GIST](../cancer_types/GIST.md) (76%), thyroid (60%), breast (57%), and melanoma (56%) having the highest rates [PMID:28481359](../papers/28481359.md)
 - Used to annotate oncogenicity and clinical actionability of alterations in 9,125 TCGA PanCanAtlas tumors; 57% of tumors had at least one OncoKB-annotated actionable alteration (Levels 1–3A) [PMID:29625050](../papers/29625050.md).
-- OncoKB (as of Aug 28, 2019) used to annotate oncogenic CDK12 alterations in 26,743 MSK-IMPACT pan-cancer tumors [PMID:32317181](../papers/32317181.md)
+- OncoKB (as of Aug 28, 2019) used to annotate oncogenic [CDK12](../genes/CDK12.md) alterations in 26,743 MSK-IMPACT pan-cancer tumors [PMID:32317181](../papers/32317181.md)
 - OncoKB used alongside Cancer Hotspots for oncogenicity annotation of somatic variants in 487 EAC/EGJ patients; copy-number correction via FACETS; MSI calling via MSIsensor [PMID:33795256](../papers/33795256.md)
 - Used for clinical actionability annotation of variants detected in the MSK-ACCESS prospective cohort; 41% (278/681) samples had OncoKB level 1–3B alterations; used to define the 56% of samples with ≥1 alteration that harbored clinically actionable findings [PMID:34145282](../papers/34145282.md)
 - Applied to annotate clinical actionability in cfDNA mutations detected by cf-IMPACT ([IMPACT410](../methods/IMPACT410.md)) and [MSK-ACCESS](../methods/ACCESS129.md) across 118 metastatic solid tumor patients; 25% (30/118) had OncoKB level 1–4 actionable variants by cf-IMPACT [PMID:34059130](../papers/34059130.md)
-- Applied to annotate candidate driver mutations in the CSCC meta-analysis; OncoKB hotspot classification was used to exclude potential false-positive driver calls (e.g., MAP2K4 and KDR hotspots classified as unlikely oncogenic) [PMID:34272401](../papers/34272401.md)
+- Applied to annotate candidate driver mutations in the [CSCC](../cancer_types/CSCC.md) meta-analysis; OncoKB hotspot classification was used to exclude potential false-positive driver calls (e.g., [MAP2K4](../genes/MAP2K4.md) and [KDR](../genes/KDR.md) hotspots classified as unlikely oncogenic) [PMID:34272401](../papers/34272401.md)
+- OncoKB actionability levels applied to 7,494 sarcoma samples (data cutoff June 8, 2021); 31.7% harbored ≥1 actionable alteration, 5.9% at Level 1 (FDA-recognized for the given histology), predominantly [KIT](../genes/KIT.md) mutations in GIST [PMID:35705558](../papers/35705558.md)
 
 ## Notes
 
@@ -52,31 +53,34 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

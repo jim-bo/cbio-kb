@@ -36,20 +36,21 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (Akt-signaling pathway TSG); mutually exclusive with [PIK3CA](../genes/PIK3CA.md) mutations (OR=0.092), reflecting Akt-pathway redundancy. Part of the Akt-pathway driver cluster in which 45.2% of all tumors carried ≥1 functional mutation. [PMID:27161491](../papers/27161491.md)
 - PIK3R1 mutation identified in 1 [ACYC](../cancer_types/ACYC.md) patient enrolled on a PI3K-inhibitor trial based on MSK-IMPACT sequencing [PMID:27442865](../papers/27442865.md).
 - PI3K-pathway alteration enriched in ESCC2 subtype; part of a 24% PI3K-activating-alteration frequency in ESCCs (alongside [PIK3CA](../genes/PIK3CA.md) and [PTEN](../genes/PTEN.md)) in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
-- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurs with PIK3CA, [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [PPP2R1A](../genes/PPP2R1A.md), and [FBXW7](../genes/FBXW7.md) mutations, phenocopying the canonical endometrial cancer driver landscape [PMID:28445112](../papers/28445112.md)
+- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurs with [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [PPP2R1A](../genes/PPP2R1A.md), and [FBXW7](../genes/FBXW7.md) mutations, phenocopying the canonical endometrial cancer driver landscape [PMID:28445112](../papers/28445112.md)
 - G376R hotspot mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN) [PMID:28485815](../papers/28485815.md)
 - PIK3CA and PIK3R1 alterations are predominantly known activating hotspots in advanced prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
 - PIK3R1 identified as a driver-gene cluster member across signaling and cell growth functional groups in a 1001-patient DLBCL genomic cohort [PMID:28985567](../papers/28985567.md)
 - Referenced as the paralog of novel prostate-cancer SMG [PIK3R2](../genes/PIK3R2.md); the [PIK3R2](../genes/PIK3R2.md) p.Asp557Tyr variant is directly paralogous to the known oncogenic PIK3R1 p.Asp560Tyr mutation, supporting PI3K-pathway oncogenicity in prostate cancer [PMID:29610475](../papers/29610475.md).
 - PIK3CA and PIK3R1 show mutual exclusivity within the PI3K complex pan-cancer, consistent with one alteration being functionally sufficient to activate PI3K signaling; PIK3CA–PIK3R1 exclusivity is among the clearest within-pathway exclusivity patterns in the Ras signaling analysis [PMID:29625049](../papers/29625049.md)
-- PIK3R1 is a core PI3K pathway driver; PIK3CA activation combined with PTEN inactivation dominates in head-and-neck, breast, GI, and gynecologic tumors pan-cancer [PMID:29625050](../papers/29625050.md)
+- PIK3R1 is a core PI3K pathway driver; PIK3CA activation combined with [PTEN](../genes/PTEN.md) inactivation dominates in head-and-neck, breast, GI, and gynecologic tumors pan-cancer [PMID:29625050](../papers/29625050.md)
 - Hotspot mutation E468* showed primary-to-metastatic heterogeneity in a metastatic endometrial cancer patient (MSK cohort, n=189) [PMID:30068706](../papers/30068706.md)
 - PIK3R1 is altered in 2.8% of mCRPC tumors; part of the PI3K-pathway alteration set with PIK3CA, [PIK3CB](../genes/PIK3CB.md), and [AKT1](../genes/AKT1.md); pathway alteration not associated with survival or time on ARSI [PMID:31061129](../papers/31061129.md)
 - Mutations identified only in TERT-WT metaplastic breast carcinomas (not reaching statistical significance after multiple-testing correction); component of the PI3K regulatory subunit pathway [PMID:33863915](../papers/33863915.md)
 - High-positive Δκ<sub>risk</sub> gene flagged as a putative network driver of ICI-modulated robustness in [HGSOC](../cancer_types/HGSOC.md), based on CNA-derived network curvature analysis of 45 ICI-treated patients. [PMID:34819508](../papers/34819508.md)
 - PIK3R1 enriched in Nigerian MSS CRC tumors vs. MSKCC (8.7% vs 2.2%, P=0.02); PI3K pathway enrichment in West African MSS CRC argues for regionally distinct therapeutic-trial applicability [PMID:34819518](../papers/34819518.md)
 - PIK3R1 events counted within the 23 combined PIK3CA/PIK3R1 alterations in the MAPPYACTS pediatric relapsed cohort (n=787); pathway matched to mTOR inhibitors in AcSé-ESMART arms E/F [PMID:35292802](../papers/35292802.md)
+- Driver alterations (mutations and fusions) in 3.6% of 1,417 prostate cancers; copy-number losses in 36% of metastases vs 24% of primaries; truncating mutations cluster in c-SH2 domain; loss activates AKT, drives glycolysis, and sensitizes to AKT inhibitors [PMID:35670774](../papers/35670774.md)
 
 ## Cancer types (linked)
 
@@ -110,5 +111,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

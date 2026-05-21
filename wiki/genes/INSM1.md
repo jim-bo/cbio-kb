@@ -20,7 +20,7 @@ INSM1 (Insulinoma-Associated Protein 1) is a zinc-finger transcription factor an
 
 ## Cancer types (linked)
 
-- **[SCLC](../cancer_types/SCLC.md):** INSM1 protein and transcript expression discriminates NE subtypes (SCLC-A, SCLC-N) from the non-NE SCLC-P subtype; low INSM1 was confirmed in all 10 POU2F3-positive PDX models in the MSK SCLC PDX/CDX resource [PMID:35440124](../papers/35440124.md).
+- **[SCLC](../cancer_types/SCLC.md):** INSM1 protein and transcript expression discriminates NE subtypes (SCLC-A, SCLC-N) from the non-NE SCLC-P subtype; low INSM1 was confirmed in all 10 POU2F3-positive PDX models in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX resource [PMID:35440124](../papers/35440124.md).
 
 ## Co-occurrence and mutual exclusivity
 

@@ -4,8 +4,8 @@ oncotree_code: ASPS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Alveolar Soft Part Sarcoma (ASPS)
@@ -21,7 +21,8 @@ Alveolar soft part sarcoma (ASPS) is a rare, slow-growing but highly metastatic 
 ## Recurrent alterations
 
 - PIPseq cohort: ASPSCR1-TFE3 fusion identified by RNA-seq as diagnostic of alveolar soft part sarcoma in a pediatric patient [PMID:28007021](../papers/28007021.md).
-- Both ASPS PDX models in the PPTC cohort (n=261) harbored the canonical ASPSCR1-TFE3 fusion; CD274 (PD-L1) was intrinsically overexpressed in ASPS xenografts, flagged as a checkpoint-inhibitor target [PMID:31693904](../papers/31693904.md).
+- Both ASPS PDX models in the PPTC cohort (n=261) harbored the canonical ASPSCR1-TFE3 fusion; [CD274](../genes/CD274.md) (PD-L1) was intrinsically overexpressed in ASPS xenografts, flagged as a checkpoint-inhibitor target [PMID:31693904](../papers/31693904.md).
+- In a 7,494-sarcoma pan-histology cohort, alveolar soft part sarcoma was among the 44 histologies profiled by FoundationOne Heme; 31.7% of all sarcomas harbored ≥1 OncoKB actionable alteration [PMID:35705558](../papers/35705558.md).
 
 ## Subtypes
 
@@ -29,7 +30,7 @@ Alveolar soft part sarcoma (ASPS) is a rare, slow-growing but highly metastatic 
 
 ## Therapeutic landscape
 
-- Anti-angiogenic agents (sunitinib, cediranib) show activity in metastatic ASPS.
+- Anti-angiogenic agents ([sunitinib](../drugs/sunitinib.md), [cediranib](../drugs/cediranib.md)) show activity in metastatic ASPS.
 - Immune checkpoint inhibitors ([atezolizumab](../drugs/atezolizumab.md)) under investigation.
 - Conventional cytotoxic chemotherapy is largely ineffective.
 
@@ -37,7 +38,10 @@ Alveolar soft part sarcoma (ASPS) is a rare, slow-growing but highly metastatic 
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -26,6 +26,7 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 - NCOR1 was identified as a functional tumor suppressor in DLBCL by CRISPR screen (its knockout was enriched, indicating growth suppression function); alterations in NCOR1 were associated with poorer prognosis specifically in GCB DLBCL [PMID:28985567](../papers/28985567.md)
 - Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction) in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - NCOR1 protein upregulated but mRNA downregulated in TP53-mutant HCCs in a European [HCC](../cancer_types/HCC.md) proteogenomics cohort (n=122 WES, n=51 with proteome/phosphoproteome) — a post-transcriptional discordance pattern [PMID:35508466](../papers/35508466.md)
+- Amplified in 19% of [ULMS](../cancer_types/ULMS.md), 10% of [LMS](../cancer_types/LMS.md), and 12% of osteosarcoma via 17p12-p11.2 cytoband co-amplification with [FLCN](../genes/FLCN.md), [MAP2K4](../genes/MAP2K4.md), and [AURKB](../genes/AURKB.md) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -73,5 +74,8 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

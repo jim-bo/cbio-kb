@@ -24,7 +24,7 @@ LEF1 (Lymphoid Enhancer-Binding Factor 1) is a transcription factor in the Wnt/b
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with TCF7L2, TCF7, and TCF7L1 as the top TF program of CRPC-WNT. CTNNB1 hotspot mutations (3/4 CRPC-WNT models) drive LEF1 activity [PMID:35617398](../papers/35617398.md).
+- Co-expressed with [TCF7L2](../genes/TCF7L2.md), [TCF7](../genes/TCF7.md), and [TCF7L1](../genes/TCF7L1.md) as the top TF program of CRPC-WNT. [CTNNB1](../genes/CTNNB1.md) hotspot mutations (3/4 CRPC-WNT models) drive LEF1 activity [PMID:35617398](../papers/35617398.md).
 
 ## Therapeutic relevance
 

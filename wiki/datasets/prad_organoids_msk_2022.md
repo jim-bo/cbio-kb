@@ -31,7 +31,7 @@ Biobank of 40 metastatic castration-resistant prostate cancer (mCRPC) models pro
 - [RNA-seq](../methods/rna-seq.md): polyA-enriched, applied to all models and 366 CRPC patients for subtype classification.
 - [MSK-IMPACT](../methods/msk-impact-panel.md) (468-gene): somatic mutation and CNV profiling of organoids and matched biopsies.
 - [ChIP-seq](../methods/chip-seq.md): for [FOSL1](../genes/FOSL1.md), TEAD, YAP, TAZ in MSKPCa3 and DU145 cell lines.
-- Functional: CRISPR sgRNA cell-competition assays; [siRNA knockdown](../methods/sirna-knockdown.md) of YAP/TAZ; exogenous FOSL1 overexpression in LNCaP. [PMID:35617398](../papers/35617398.md)
+- Functional: CRISPR sgRNA cell-competition assays; [siRNA knockdown](../methods/sirna-knockdown.md) of YAP/TAZ; exogenous [FOSL1](../genes/FOSL1.md) overexpression in LNCaP. [PMID:35617398](../papers/35617398.md)
 
 ## Papers using this cohort
 

@@ -22,7 +22,7 @@ HINT-ATAC (High-resolution footprINT using ATAC-seq) is a computational method f
 ## Notes
 
 - Extends standard ATAC-seq footprinting by correcting for Tn5 sequence bias.
-- Typically used in conjunction with motif enrichment analysis (e.g., JASPAR database) to assign TF identity to footprints.
+- Typically used in conjunction with motif enrichment analysis (e.g., JASPAR database) to assign TF identity to [footprints](../methods/footprints.md).
 
 ## Sources
 

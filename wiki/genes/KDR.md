@@ -29,6 +29,8 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - KDR (VEGFR2) — 4 mutations (1 hotspot R1032Q, 3 VUS) observed exclusively in poor responders in BRAF-mutant melanoma patients treated with BRAFi; associated with significantly shorter PFS and [OS](../cancer_types/OS.md) [PMID:32913971](../papers/32913971.md)
 - Classified as 'possible false positive / additional evidence needed' driver candidate in cutaneous squamous cell carcinoma meta-analysis (88 QC-passed tumors); flagged based on gene structure, expression, and OncoKB hotspot classification [PMID:34272401](../papers/34272401.md)
 - In the MAPPYACTS pediatric precision oncology cohort, KDR was listed among the recurrently altered genes in the CNS oncomap subset, classified at the investigational actionability tier [PMID:35292802](../papers/35292802.md).
+- KDR is co-amplified with [KIT](../genes/KIT.md) and [FGFR4](../genes/FGFR4.md) at the 4q12 kinase amplicon in osteosarcoma (10.7%), liposarcoma NOS (8.0%), and UPS/MFH (7.3%) in the MSK sarcoma genomic profiling cohort (n=7,494, FoundationOne CDx) [PMID:35705558](../papers/35705558.md)
+- KDR is recurrently altered in angiosarcoma ([ANGS](../cancer_types/ANGS.md)) at 19% frequency in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148); co-occurs with [FLT4](../genes/FLT4.md) (9%) and [EPHA5](../genes/EPHA5.md) (9%) as a receptor tyrosine kinase cluster in ANGS [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -88,5 +90,11 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

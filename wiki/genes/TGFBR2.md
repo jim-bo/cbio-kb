@@ -23,7 +23,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 
 ## Cancer types (linked)
 
-- [ESCC](../cancer_types/ESCC.md): TGFBR2 is a significantly mutated gene in ESCC; loss of TGF-beta signaling is a recurrent mechanism of tumor suppressor inactivation in this histology. [PMID:28052061](../papers/28052061.md)
+- [ESCC](../cancer_types/ESCC.md): TGFBR2 is a significantly mutated gene in [ESCC](../cancer_types/ESCC.md); loss of TGF-beta signaling is a recurrent mechanism of tumor suppressor inactivation in this histology. [PMID:28052061](../papers/28052061.md)
 
 ## Co-occurrence and mutual exclusivity
 

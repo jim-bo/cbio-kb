@@ -28,7 +28,7 @@ PRKCE encodes protein kinase C epsilon (PKC-epsilon), a calcium-independent memb
 
 ## Therapeutic relevance
 
-- PRKCE as a beta-catenin binding partner suggests potential relevance to Wnt-pathway-directed therapies in CTNNB1-mutant HCC [PMID:35508466](../papers/35508466.md)
+- PRKCE as a beta-catenin binding partner suggests potential relevance to Wnt-pathway-directed therapies in CTNNB1-mutant [HCC](../cancer_types/HCC.md) [PMID:35508466](../papers/35508466.md)
 
 ## Open questions
 

@@ -42,9 +42,9 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - HRAS mutated in salivary duct carcinoma ([SDCA](../cancer_types/SDCA.md)) and one [HNSC](../cancer_types/HNSC.md) patient (treated on farnesyl-transferase-inhibitor trial); G13V observed in a mucoepidermoid carcinoma ([MUCC](../cancer_types/MUCC.md)) treated similarly; recurrent in [SDCA](../cancer_types/SDCA.md) in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
 - HRAS recurrent somatic Q61 hotspot mutations activate MAPK signaling in pheochromocytoma/paraganglioma; enriched in the kinase signaling molecular subtype [PMID:28162975](../papers/28162975.md).
 - Single patient with HRAS mutation in prospective lung adenocarcinoma cohort (860 patients, MSK-IMPACT); HRAS is in the RAS family alongside [KRAS](../genes/KRAS.md) and [NRAS](../genes/NRAS.md) which are more commonly mutated in [LUAD](../cancer_types/LUAD.md) [PMID:28336552](../papers/28336552.md)
-- Hotspot MAPK-pathway mutation observed in ~5% of prostate cancer patients across all disease states in the 451-patient MSK-IMPACT cohort; co-detected with [BRAF](../genes/BRAF.md), KRAS, and [MAP2K1](../genes/MAP2K1.md) hotspot mutations [PMID:28825054](../papers/28825054.md)
+- Hotspot MAPK-pathway mutation observed in ~5% of prostate cancer patients across all disease states in the 451-patient MSK-IMPACT cohort; co-detected with [BRAF](../genes/BRAF.md), [KRAS](../genes/KRAS.md), and [MAP2K1](../genes/MAP2K1.md) hotspot mutations [PMID:28825054](../papers/28825054.md)
 - Recurrent somatic mutations identified in HPV(−) vulvar squamous cell carcinoma (9-tumor subset) by whole-exome sequencing; consistent with prior targeted-panel literature on HPV(−) vulvar SCC [PMID:29422544](../papers/29422544.md)
-- HRAS mutations are mutually exclusive with [TP53](../genes/TP53.md) mutations pan-cancer and mutually exclusive with KRAS/NRAS mutations within Ras signaling across nearly all 33 TCGA tumor types; KRAS/NRAS/HRAS and BRAF V600 are among the most frequently predicted neoantigens [PMID:29625049](../papers/29625049.md)
+- HRAS mutations are mutually exclusive with [TP53](../genes/TP53.md) mutations pan-cancer and mutually exclusive with KRAS/NRAS mutations within Ras signaling across nearly all 33 TCGA tumor types; KRAS/NRAS/HRAS and [BRAF](../genes/BRAF.md) V600 are among the most frequently predicted neoantigens [PMID:29625049](../papers/29625049.md)
 - Hotspot mutations in MAPK effectors including HRAS enriched in post-endocrine-therapy HR+ breast tumors [PMID:30205045](../papers/30205045.md)
 - Oncogenic missense mutations detected at <1% frequency in advanced [HCC](../cancer_types/HCC.md) [PMID:30373752](../papers/30373752.md)
 - HRAS Q61K mutation observed in [ERMS](../cancer_types/ERMS.md) PDX model Rh-36; RAS-pathway mutations (including HRAS) enriched in Fusion- rhabdomyosarcoma in the PPTC pediatric cancer PDX dataset [PMID:31693904](../papers/31693904.md)
@@ -52,12 +52,13 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Recurrent RTK/RAS/PI3K-pathway driver in [UTUC](../cancer_types/UTUC.md) (N=119 MSK-IMPACT-sequenced patients) consistent with prior [UTUC](../cancer_types/UTUC.md) genomics [PMID:32332851](../papers/32332851.md)
 - K117N activating mutation found in one resistant HR+/HER2- [MBC](../cancer_types/MBC.md) biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies [PMID:32404308](../papers/32404308.md)
 - MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under [alpelisib](../drugs/alpelisib.md) + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), suggesting MAPK bypass as a resistance mechanism. [PMID:32864625](../papers/32864625.md)
-- HRAS cited as a prior UTUC-relevant gene whose mutation frequency differs from bladder carcinomas; no new HRAS mutation data reported in this UTUC integrative profiling study [PMID:33397444](../papers/33397444.md)
+- HRAS cited as a prior UTUC-relevant gene whose mutation frequency differs from bladder carcinomas; no new HRAS mutation data reported in this [UTUC](../cancer_types/UTUC.md) integrative profiling study [PMID:33397444](../papers/33397444.md)
 - Rare RAS driver at 2% frequency in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas) [PMID:33509808](../papers/33509808.md)
 - Mutated in 9.6% of [CSCC](../cancer_types/CSCC.md) tumors; canonical hotspot codons observed: G12D, G13D, G13R, Q61L, Q61K in an 83-tumor [CSCC](../cancer_types/CSCC.md) meta-analysis [PMID:34272401](../papers/34272401.md)
 - Q61R/Q61K hotspots in 3/60 metaplastic breast carcinomas (MBCs); one Q61R co-occurred with [TERT](../genes/TERT.md) promoter mutation; rare in primary breast cancer overall but recurrent in adenomyoepitheliomas [PMID:33863915](../papers/33863915.md)
 - In the MAPPYACTS pediatric precision oncology trial (n=624 sequenced), RAS family mutations including HRAS (total RAS family n=42) were classified as investigational-tier actionable alterations matched to MEK inhibitors, but were deliberately not classified as ready-for-routine-use given limited MEK inhibitor activity in pediatric RAS-mutant tumors [PMID:35292802](../papers/35292802.md).
 - Rare singleton HRAS mutation contributing to the broader MAPK pathway-altered group in 119 [LGSOC](../cancer_types/LGSOC.md) patients profiled by MSK-IMPACT [PMID:35443055](../papers/35443055.md)
+- HRAS is amplified in approximately 20% of granular cell tumors in the MSK sarcoma genomic profiling cohort (n=7,494 sarcomas, FoundationOne CDx) [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
@@ -204,5 +205,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

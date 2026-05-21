@@ -22,7 +22,7 @@ CDK2 (Cyclin-Dependent Kinase 2) partners with Cyclin E and Cyclin A to drive S-
 
 ## Cancer types (linked)
 
-- **Glioblastoma (GBM):** CDK2 protein/phospho elevated in TP53-mutant tumors (subset of 99-tumor CPTAC cohort), linking CDK2 kinase activity to the TP53-mutant DNA-repair-response phenotype [PMID:33577785](../papers/33577785.md).
+- **Glioblastoma ([GBM](../cancer_types/GBM.md)):** CDK2 protein/phospho elevated in TP53-mutant tumors (subset of 99-tumor CPTAC cohort), linking CDK2 kinase activity to the TP53-mutant DNA-repair-response phenotype [PMID:33577785](../papers/33577785.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -30,7 +30,7 @@ CDK2 (Cyclin-Dependent Kinase 2) partners with Cyclin E and Cyclin A to drive S-
 
 ## Therapeutic relevance
 
-- Elevated CDK2 in TP53-mutant GBM nominates CDK inhibitors (alongside ATR inhibitors) as candidates for TP53-mutant GBM; this is hypothesis-generating from proteogenomic data and has not been clinically tested [PMID:33577785](../papers/33577785.md).
+- Elevated CDK2 in TP53-mutant GBM nominates CDK inhibitors (alongside [ATR](../genes/ATR.md) inhibitors) as candidates for TP53-mutant GBM; this is hypothesis-generating from proteogenomic data and has not been clinically tested [PMID:33577785](../papers/33577785.md).
 
 ## Open questions
 

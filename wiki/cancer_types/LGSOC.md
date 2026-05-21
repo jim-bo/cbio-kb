@@ -12,7 +12,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Low-Grade Serous Ovarian Cancer (LGSOC) is a distinct histologic subtype of serous ovarian carcinoma characterized by low-grade nuclear atypia, papillary architecture, and relatively indolent behavior compared to high-grade serous ovarian cancer ([HGSOC](../cancer_types/HGSOC.md)). LGSOC is defined by frequent MAPK pathway alterations (predominantly [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) mutations) and is classified as WHO grade 1–2. Unlike HGSOC, LGSOC rarely harbors [TP53](../genes/TP53.md) mutations or BRCA1/2 germline alterations. It sits under the OncoTree parent SOC (Serous Ovarian Cancer), within the Ovary/Fallopian Tube tissue.
+Low-Grade Serous Ovarian Cancer (LGSOC) is a distinct histologic subtype of serous ovarian carcinoma characterized by low-grade nuclear atypia, papillary architecture, and relatively indolent behavior compared to high-grade serous ovarian cancer ([HGSOC](../cancer_types/HGSOC.md)). LGSOC is defined by frequent MAPK pathway alterations (predominantly [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) mutations) and is classified as WHO grade 1–2. Unlike [HGSOC](../cancer_types/HGSOC.md), LGSOC rarely harbors [TP53](../genes/TP53.md) mutations or BRCA1/2 germline alterations. It sits under the OncoTree parent SOC (Serous Ovarian Cancer), within the Ovary/Fallopian Tube tissue.
 
 ## Cohorts in the corpus
 
@@ -22,12 +22,12 @@ Low-Grade Serous Ovarian Cancer (LGSOC) is a distinct histologic subtype of sero
 
 - [KRAS](../genes/KRAS.md) hotspot mutations in 33% (39/119); G12V most frequent (n=19); enriched in patients diagnosed at >50 years (p=0.03) and platinum-sensitive disease (p=0.04). [PMID:35443055](../papers/35443055.md)
 - [NRAS](../genes/NRAS.md) Q61R/Q61K hotspots in 11% (13/119). [PMID:35443055](../papers/35443055.md)
-- [BRAF](../genes/BRAF.md) alterations in 11% (13/119): V600E (n=8), D594N (n=2), N581I (n=1), plus two BRAF fusions (BRAF–[MKRN1](../genes/MKRN1.md), BRAF–[AGAP3](../genes/AGAP3.md)). [PMID:35443055](../papers/35443055.md)
+- [BRAF](../genes/BRAF.md) alterations in 11% (13/119): V600E (n=8), D594N (n=2), N581I (n=1), plus two [BRAF](../genes/BRAF.md) fusions (BRAF–[MKRN1](../genes/MKRN1.md), BRAF–[AGAP3](../genes/AGAP3.md)). [PMID:35443055](../papers/35443055.md)
 - [EIF1AX](../genes/EIF1AX.md) alterations in 10% (12/119). [PMID:35443055](../papers/35443055.md)
 - [CDKN2A](../genes/CDKN2A.md) homozygous deletions in 8% (9/119). [PMID:35443055](../papers/35443055.md)
 - [ERBB2](../genes/ERBB2.md) amplification or hotspot in 5 cases. [PMID:35443055](../papers/35443055.md)
 - 18% of LGSCs had no detectable driver alteration by MSK-IMPACT (panel does not cover [USP9X](../genes/USP9X.md)). [PMID:35443055](../papers/35443055.md)
-- Overall MAPK pathway alteration in 60% (71/119); alterations are mutually exclusive (KRAS vs NRAS p=0.004). Low TMB (median 1.8 mut/Mb); all evaluable cases microsatellite stable. [PMID:35443055](../papers/35443055.md)
+- Overall MAPK pathway alteration in 60% (71/119); alterations are mutually exclusive ([KRAS](../genes/KRAS.md) vs [NRAS](../genes/NRAS.md) p=0.004). Low TMB (median 1.8 mut/Mb); all evaluable cases microsatellite stable. [PMID:35443055](../papers/35443055.md)
 - Germline pathogenic mutations in 7/79 tested (9%): [RB1](../genes/RB1.md), [BAP1](../genes/BAP1.md), [MUTYH](../genes/MUTYH.md) ×2, [CHEK2](../genes/CHEK2.md), [APC](../genes/APC.md), [FANCA](../genes/FANCA.md); no germline BRCA1/2 mutations identified. [PMID:35443055](../papers/35443055.md)
 
 ## Subtypes

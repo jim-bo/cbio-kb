@@ -28,7 +28,7 @@ CENPF encodes centromere protein F (also known as mitosin), a large nuclear matr
 
 ## Co-occurrence and mutual exclusivity
 
-- CENPF upregulation co-occurs with HOXD13 activation, [PCNA](../genes/PCNA.md) upregulation, and [HOXA7](../genes/HOXA7.md) upregulation as part of a HOXD13-driven transcriptional program at IDH-mutant glioma recurrence [PMID:38117484](../papers/38117484.md).
+- CENPF upregulation co-occurs with [HOXD13](../genes/HOXD13.md) activation, [PCNA](../genes/PCNA.md) upregulation, and [HOXA7](../genes/HOXA7.md) upregulation as part of a HOXD13-driven transcriptional program at IDH-mutant glioma recurrence [PMID:38117484](../papers/38117484.md).
 
 ## Therapeutic relevance
 

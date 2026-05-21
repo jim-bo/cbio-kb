@@ -14,7 +14,7 @@ unverified: false
 
 ## Overview
 
-Osteosarcoma is a primary malignant bone tumor classified under BONE in the OncoTree hierarchy. It can arise sporadically or as a radiation-associated sarcoma.
+Osteosarcoma is a primary malignant bone tumor classified under [BONE](../cancer_types/BONE.md) in the OncoTree hierarchy. It can arise sporadically or as a radiation-associated sarcoma.
 
 ## Cohorts in the corpus
 
@@ -32,9 +32,11 @@ Osteosarcoma is a primary malignant bone tumor classified under BONE in the Onco
 - PIPseq cohort identified [TSC1](../genes/TSC1.md) splice-site c.2503-1G>C (mTOR-inhibitor target), [RAD51C](../genes/RAD51C.md) F8L (PARP-inhibitor target), PDGFRA/KDR overexpression (MTKI treated), MYC/MCL1/CCNE1 overexpression (BET- and CDK4/6 targets), [CUL4A](../genes/CUL4A.md) overexpression (NAE-inhibitor target), [RB1](../genes/RB1.md) splice-site c.1216-3A>G (germline, increased second-cancer risk), and [TNNT2](../genes/TNNT2.md) R141Q (ACMG secondary, dilated cardiomyopathy) in osteosarcoma patients [PMID:28007021](../papers/28007021.md)
 - Germline WES of 372 pediatric cancer patients (Düsseldorf) included osteosarcoma cases; [TP53](../genes/TP53.md) LP/PV carriers (Li-Fraumeni syndrome) presented with osteosarcoma; three of six [TP53](../genes/TP53.md) carriers (50%) developed SMNs including one osteosarcoma patient [PMID:29489754](../papers/29489754.md)
 - OS (osteosarcoma) was a major 3D model test bed; 143B/MG63/MNNG-HOS/SAOS-2/U2OS/SJSA1 spheroids rarely exceeded 200–1,000 µm despite mean patient tumor length of 9.14 cm in patients ≤14 years (n=140); patient-derived tumoroids on 3D bioprinted decellularized scaffolds were proposed as a drug-screening platform for individualized therapy. [PMID:30643250](../papers/30643250.md)
-- Osteosarcoma PDX models in PPTC cohort (n=261): TP53 altered in 82%; classifier-predicted TP53 pathway inactivation in 32/33 RNA-seq models; high breakpoint density (chromothripsis) in 97% (33/34); 30% with localized chromothripsis (≤4 chromosomes), 70% global (≥5 chromosomes); no significant TMB difference between diagnosis and relapse [PMID:31693904](../papers/31693904.md).
+- Osteosarcoma PDX models in PPTC cohort (n=261): [TP53](../genes/TP53.md) altered in 82%; classifier-predicted TP53 pathway inactivation in 32/33 RNA-seq models; high breakpoint density (chromothripsis) in 97% (33/34); 30% with localized chromothripsis (≤4 chromosomes), 70% global (≥5 chromosomes); no significant TMB difference between diagnosis and relapse [PMID:31693904](../papers/31693904.md).
 - Osteosarcoma (OS) was a major sarcoma histology in MAPPYACTS (sarcomas 37% of 787 patients); CDKN2A/CDKN2B deletions (157 events across sarcomas) were matched to CDK4/6 inhibitors (105 recommendations) [PMID:35292802](../papers/35292802.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 7,494-sarcoma cohort, osteosarcoma showed 4q12 amplicon (KDR/PDGFRA/KIT) in 10.7%, [MYC](../genes/MYC.md) amplification in 15.0%, gLOH ≥19.3% in 30.6% (with only 1.7% HRD-gene alteration); P-AYA osteosarcoma had higher gLOH (16.8% vs 12.2%; FDR<0.001) and enrichment of CCND3/AURKB/CCNE1/GID4/MYC CNVs vs adult MDM2/CDKN2A/B/FRS2 [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort (n=129 OS), WGD occurred in ~50% of osteosarcomas; epigenetic pathway altered in 32%; unsupervised clustering placed OS in high-entropy group (multiple distinct genetic variants per histotype); [NCOR1](../genes/NCOR1.md) amplified in ~12% via 17p12-p11.2 co-amplification [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -66,5 +68,11 @@ Osteosarcoma is a primary malignant bone tumor classified under BONE in the Onco
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

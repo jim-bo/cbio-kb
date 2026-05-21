@@ -24,7 +24,7 @@ SNAI1 encodes Snail, a zinc-finger transcription factor that represses E-cadheri
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with [ZEB1](../genes/ZEB1.md) as EMT drivers downstream of SEMA7A signaling in GBC; both regulated via p300-dependent H3K27 acetylation. [PMID:24997986](../papers/24997986.md)
+- Co-upregulated with [ZEB1](../genes/ZEB1.md) as EMT drivers downstream of [SEMA7A](../genes/SEMA7A.md) signaling in [GBC](../cancer_types/GBC.md); both regulated via p300-dependent H3K27 acetylation. [PMID:24997986](../papers/24997986.md)
 
 ## Therapeutic relevance
 

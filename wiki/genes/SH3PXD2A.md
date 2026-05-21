@@ -28,7 +28,7 @@ SH3PXD2A (SH3 and PX domains 2A), also known as TKS5, encodes a scaffold protein
 
 ## Therapeutic relevance
 
-- SH3PXD2A–HTRA1 fusion provides rationale for MEK inhibition in LZTR1-mutant schwannomatosis by analogy with sporadic schwannoma studies [PMID:33025139](../papers/33025139.md)
+- SH3PXD2A–[HTRA1](../genes/HTRA1.md) fusion provides rationale for MEK inhibition in LZTR1-mutant schwannomatosis by analogy with sporadic schwannoma studies [PMID:33025139](../papers/33025139.md)
 
 ## Open questions
 

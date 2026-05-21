@@ -36,23 +36,24 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Rare activating mutations contributing to PI3K-pathway aberration in prostate adenocarcinoma in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - MTOR is part of the PI3K/AKT/mTOR pathway disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³); pathway disruption includes [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [AKT3](../genes/AKT3.md), [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md), and MTOR alterations; supports use of mTOR inhibitors in ATC [PMID:26878173](../papers/26878173.md)
 - PI3K/mTOR pathway event in cisplatin-resistant [GCT](../cancer_types/GCT.md); mTOR inhibitors listed as targeted therapy candidates for PI3K-pathway alterations in cisplatin-resistant patients [PMID:27646943](../papers/27646943.md)
-- Missense mutations in 8% of unclassified RCC (uRCC); recurrent L2427R (×3) is functionally activating; co-occurs with TSC1/TSC2/PTEN alterations defining a mutually exclusive mTORC1-hyperactive uRCC subset responsive to mTOR inhibitors [PMID:27713405](../papers/27713405.md)
+- Missense mutations in 8% of unclassified [RCC](../cancer_types/RCC.md) (uRCC); recurrent L2427R (×3) is functionally activating; co-occurs with TSC1/TSC2/PTEN alterations defining a mutually exclusive mTORC1-hyperactive uRCC subset responsive to mTOR inhibitors [PMID:27713405](../papers/27713405.md)
 - 1 patient with S2215Y as highest driver; 1 UMD patient with novel L2383F missense had 1-month no-benefit course on [everolimus](../drugs/everolimus.md) in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - MTOR was identified as a functional oncogene in DLBCL by CRISPR screen (its knockout depleted cell growth across lines) and was a driver gene in 1001 DLBCL patients; MTOR mutations are prevalent in DLBCL but associate with generally good outcomes in the GCB subtype, suggesting patients with MTOR alterations may be underrepresented in clinical trials of MTOR inhibitors [PMID:28985567](../papers/28985567.md)
 - Aberrant PI3K-AKT-MTOR signaling is recurrent in leiomyosarcoma ([LMS](../cancer_types/LMS.md)), with frequent amplification and upregulation of MTOR along with [PTEN](../genes/PTEN.md) deletion/mutation, [IGF1R](../genes/IGF1R.md), AKT, and [RICTOR](../genes/RICTOR.md) alterations; MTOR inhibitors ([everolimus](../drugs/everolimus.md), [temsirolimus](../drugs/temsirolimus.md)) have shown limited clinical efficacy in [LMS](../cancer_types/LMS.md); dual PI3K/MTOR inhibitors may offer improved outcomes [PMID:29100075](../papers/29100075.md)
 - Called as a significantly mutated gene (SMG) in [KIRC](../cancer_types/KIRC.md) by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; confirmed as a consensus driver in clear cell renal cell carcinoma across two independent callers. [PMID:29596782](../papers/29596782.md)
 - Hotspot mutation L2427Q observed in a metastatic endometrial cancer patient, showing primary-to-metastatic heterogeneity (present in metastasis but not primary or vice versa); detected in MSK MSK-IMPACT cohort of 189 patients [PMID:30068706](../papers/30068706.md)
-- MTOR discussed as part of the mTOR pathway actionability framework in [HCC](../cancer_types/HCC.md); TSC1/TSC2 inactivating alterations (~10.6%) drive downstream mTOR activation and rationale for matched everolimus therapy; activating PI3K-mTOR pathway alterations as a group predicted worse [sorafenib](../drugs/sorafenib.md) outcomes (PFS HR 3.8, [OS](../cancer_types/OS.md) HR 2.5) [PMID:30373752](../papers/30373752.md)
-- mTOR-pathway alterations (including [TSC2](../genes/TSC2.md), [TSC1](../genes/TSC1.md), PTEN, [RHEB](../genes/RHEB.md), [AKT2](../genes/AKT2.md), and MTOR) collectively affected 34/80 (43%) of metastatic panNET patients; mTOR-pathway mutation status did not predict everolimus benefit (response: 17% mutant vs 29% [WT](../cancer_types/WT.md)) [PMID:30687805](../papers/30687805.md)
+- MTOR discussed as part of the mTOR pathway actionability framework in [HCC](../cancer_types/HCC.md); TSC1/TSC2 inactivating alterations (~10.6%) drive downstream mTOR activation and rationale for matched [everolimus](../drugs/everolimus.md) therapy; activating PI3K-mTOR pathway alterations as a group predicted worse [sorafenib](../drugs/sorafenib.md) outcomes (PFS HR 3.8, [OS](../cancer_types/OS.md) HR 2.5) [PMID:30373752](../papers/30373752.md)
+- mTOR-pathway alterations (including [TSC2](../genes/TSC2.md), [TSC1](../genes/TSC1.md), [PTEN](../genes/PTEN.md), [RHEB](../genes/RHEB.md), [AKT2](../genes/AKT2.md), and MTOR) collectively affected 34/80 (43%) of metastatic panNET patients; mTOR-pathway mutation status did not predict everolimus benefit (response: 17% mutant vs 29% [WT](../cancer_types/WT.md)) [PMID:30687805](../papers/30687805.md)
 - PI3K-downstream pathway alteration (alongside [AKT1](../genes/AKT1.md)) with disproportionate VAF expansion under [alpelisib](../drugs/alpelisib.md) + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505); identified as a mechanism of acquired resistance. [PMID:32864625](../papers/32864625.md)
 - Rare non-recurrent VUS observed in both excellent and poor responders to BRAFi in BRAF-mutant melanoma; no recurrent activating MTOR mutations identified in this 66-patient pretreatment cohort [PMID:32913971](../papers/32913971.md)
 - Hotspot mutation observed in 1.2% of cutaneous squamous cell carcinoma tumors in a meta-analysis of 88 QC-passed tumors [PMID:34272401](../papers/34272401.md)
 - PI3K-AKT-mTOR axis inhibition proposed as a combination strategy with PAK1/PAK2 inhibition to target KRAS-driven signaling in [PAAD](../cancer_types/PAAD.md); mTOR-axis inhibitors (PP-242) enriched in C2 (basal-like) drug signatures [PMID:34534465](../papers/34534465.md).
 - In the MAPPYACTS pediatric precision oncology trial, mTOR pathway alterations (PIK3CA/PIK3R1 n=23 events, PTEN losses n=25) were matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), everolimus) explored in AcSé-ESMART arms E/F; mTOR inhibitor recommendations totaled n=123 across the 624-patient cohort [PMID:35292802](../papers/35292802.md).
+- Component of the PI3K-pathway targetable hits in myxoid liposarcoma ([MRLS](../cancer_types/MRLS.md)); collectively 31% of MRLS carry actionable PI3K-pathway alterations ([PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), MTOR, [TSC1](../genes/TSC1.md)) [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
-- **KIRC**: Activating mutations present in a subset of ccRCC tumors and strongly predict non-response to immunotherapy and TKI combinations; MTOR-mutant patients may represent a distinct therapeutic category [PMID:22138691](../papers/22138691.md)
+- **[KIRC](../cancer_types/KIRC.md)**: Activating mutations present in a subset of ccRCC tumors and strongly predict non-response to immunotherapy and TKI combinations; MTOR-mutant patients may represent a distinct therapeutic category [PMID:22138691](../papers/22138691.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -100,5 +101,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

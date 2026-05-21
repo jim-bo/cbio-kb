@@ -23,9 +23,10 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - Recurrent truncating insertions and nonsense mutations in n=17 (3.2%) of 538 CLL cases; [MYC](../genes/MYC.md) suppressor; RNA-seq shows derepression of MYC-suppressed B-cell programs in MGA-mutant CLL [PMID:26466571](../papers/26466571.md)
 - Transcriptional-regulator gene with mutations enriched in the DUX4/ERG B-ALL subtype relative to 209 other B-ALL and 16 T-ALL comparator cases [PMID:27776115](../papers/27776115.md)
 - MGA was identified as one of 150 DLBCL driver genes, and its knockout in a CRISPR screen was enriched (consistent with a tumor suppressor function) across DLBCL cell lines; MGA was one of 27 genes not previously implicated in DLBCL [PMID:28985567](../papers/28985567.md)
-- Loss-of-function mutations significantly enriched in micropapillary/solid (MIP/SOL) [LUAD](../cancer_types/LUAD.md) compared with acinar/papillary and lepidic subtypes (11% vs 2% vs 2.3%; p<0.001) in 604 stage I-III resected LUAD patients (MSK-IMPACT); cited as a subclonal driver enriched in high-grade histologic subtypes. [PMID:32791233](../papers/32791233.md)
+- Loss-of-function mutations significantly enriched in micropapillary/solid (MIP/SOL) [LUAD](../cancer_types/LUAD.md) compared with acinar/papillary and lepidic subtypes (11% vs 2% vs 2.3%; p<0.001) in 604 stage I-III resected [LUAD](../cancer_types/LUAD.md) patients (MSK-IMPACT); cited as a subclonal driver enriched in high-grade histologic subtypes. [PMID:32791233](../papers/32791233.md)
 - Altered in 2.1% pN-negative vs 6.0% pN-positive [LUAD](../cancer_types/LUAD.md) tumors (asterisked as significant in OncoPrint); suggests enrichment in lymph-node metastatic disease [PMID:34290393](../papers/34290393.md).
 - CITED2-MGA fusion — undescribed fusion identified by cWGTS in a round-cell sarcoma NOS patient; not detected by MSK-IMPACT or MSK-Fusion panel assays [PMID:35585047](../papers/35585047.md).
+- Novel recurrent mutation in [GIST](../cancer_types/GIST.md) at 3% frequency alongside [SETD2](../genes/SETD2.md) (4%) and [MAX](../genes/MAX.md) (4%), identified by MSK-IMPACT sequencing of 2,138 sarcoma samples [PMID:35705560](../papers/35705560.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,8 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

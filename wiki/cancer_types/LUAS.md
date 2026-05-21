@@ -18,7 +18,7 @@ Lung adenosquamous carcinoma is a rare mixed histology non-small cell lung cance
 
 ## Cohorts in the corpus
 
-- 1 patient with lung adenosquamous carcinoma (LUAS) enrolled on LIBRETTO-001 (NCT03157128), a phase 1/2 trial of the [RET](../genes/RET.md) inhibitor [selpercatinib](../drugs/selpercatinib.md) at Memorial Sloan Kettering, among 72 patients with RET fusion- or mutation-positive lung and thyroid cancers [PMID:35304457](../papers/35304457.md)
+- 1 patient with lung adenosquamous carcinoma (LUAS) enrolled on LIBRETTO-001 (NCT03157128), a phase 1/2 trial of the [RET](../genes/RET.md) inhibitor [selpercatinib](../drugs/selpercatinib.md) at Memorial Sloan Kettering, among 72 patients with [RET](../genes/RET.md) fusion- or mutation-positive lung and thyroid cancers [PMID:35304457](../papers/35304457.md)
 
 ## Recurrent alterations
 
@@ -34,6 +34,6 @@ Lung adenosquamous carcinoma is a rare mixed histology non-small cell lung cance
 
 ## Sources
 
-- [PMID:35304457](../papers/35304457.md) — Rosen et al., LIBRETTO-001 selpercatinib trial; mechanisms of resistance in RET-driven lung and thyroid cancers; LUAS represented as a rare RET fusion-positive histology.
+- [PMID:35304457](../papers/35304457.md) — Rosen et al., LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial; mechanisms of resistance in RET-driven lung and thyroid cancers; LUAS represented as a rare RET fusion-positive histology.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -16,7 +16,7 @@ PDLIM2 (PDZ and LIM domain 2) is an actin-cytoskeleton scaffolding protein that 
 
 ## Alterations observed in the corpus
 
-- PDLIM2 phosphorylation altered in CTNNB1-mutant HCCs (actin-organization phosphoprotein), consistent with loss of epithelial polarity and Wnt-driven cytoskeletal remodeling; identified in a European HCC proteogenomics cohort (n=122 WES, n=51 with phosphoproteome) alongside [PARD3](../genes/PARD3.md), [MAP1B](../genes/MAP1B.md), and [MACF1](../genes/MACF1.md) [PMID:35508466](../papers/35508466.md)
+- PDLIM2 phosphorylation altered in CTNNB1-mutant HCCs (actin-organization phosphoprotein), consistent with loss of epithelial polarity and Wnt-driven cytoskeletal remodeling; identified in a European [HCC](../cancer_types/HCC.md) proteogenomics cohort (n=122 WES, n=51 with phosphoproteome) alongside [PARD3](../genes/PARD3.md), [MAP1B](../genes/MAP1B.md), and [MACF1](../genes/MACF1.md) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -24,7 +24,7 @@ PDLIM2 (PDZ and LIM domain 2) is an actin-cytoskeleton scaffolding protein that 
 
 ## Co-occurrence and mutual exclusivity
 
-- Phosphorylation co-altered with PARD3, MAP1B, and MACF1 in CTNNB1-mutant HCCs, forming a coordinated actin-cytoskeleton remodeling signature [PMID:35508466](../papers/35508466.md)
+- Phosphorylation co-altered with [PARD3](../genes/PARD3.md), [MAP1B](../genes/MAP1B.md), and [MACF1](../genes/MACF1.md) in CTNNB1-mutant HCCs, forming a coordinated actin-cytoskeleton remodeling signature [PMID:35508466](../papers/35508466.md)
 
 ## Therapeutic relevance
 

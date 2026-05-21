@@ -25,8 +25,8 @@ PRKACA encodes the catalytic alpha subunit of cAMP-dependent protein kinase A (P
 
 - Grouped within the cAMP-dependent PKA kinase signaling axis in PCC/PGL molecular pathway analysis, alongside [PRKAR1A](../genes/PRKAR1A.md) and other kinase-signaling drivers ([RET](../genes/RET.md), [NF1](../genes/NF1.md), [HRAS](../genes/HRAS.md), [BRAF](../genes/BRAF.md), FGFR, [NGFR](../genes/NGFR.md)); relevant to the kinase signaling mRNA subtype in a TCGA multi-platform study of 173 PCC/PGL tumors [PMID:28162975](../papers/28162975.md)
 - DNAJB1-PRKACA fusion identified as pathognomonic for fibrolamellar hepatocellular carcinoma ([FLC](../cancer_types/FLC.md)) in 10,336 MSK-IMPACT cases [PMID:28481359](../papers/28481359.md)
-- The [DNAJB1](../genes/DNAJB1.md)–PRKACA fusion is liver-specific, recovered exclusively in fibrolamellar carcinoma (FLC subtype of [LIHC](../cancer_types/LIHC.md)) across 9,624 TCGA pan-cancer samples, corroborating Dinh et al. 2017 [PMID:29617662](../papers/29617662.md).
-- Kinase with decreased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a 122-patient HCC multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
+- The [DNAJB1](../genes/DNAJB1.md)–PRKACA fusion is liver-specific, recovered exclusively in fibrolamellar carcinoma ([FLC](../cancer_types/FLC.md) subtype of [LIHC](../cancer_types/LIHC.md)) across 9,624 TCGA pan-cancer samples, corroborating Dinh et al. 2017 [PMID:29617662](../papers/29617662.md).
+- Kinase with decreased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a 122-patient [HCC](../cancer_types/HCC.md) multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -34,11 +34,11 @@ PRKACA encodes the catalytic alpha subunit of cAMP-dependent protein kinase A (P
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-grouped with PRKAR1A in the cAMP/PKA signaling sub-axis of kinase signaling PCC/PGL; driver mutations in this group are mutually exclusive with pseudohypoxia, Wnt, and Krebs-cycle driver mutations (p < 1e-4) [PMID:28162975](../papers/28162975.md)
+- Co-grouped with [PRKAR1A](../genes/PRKAR1A.md) in the cAMP/PKA signaling sub-axis of kinase signaling PCC/PGL; driver mutations in this group are mutually exclusive with pseudohypoxia, Wnt, and Krebs-cycle driver mutations (p < 1e-4) [PMID:28162975](../papers/28162975.md)
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting of PRKACA reported in this corpus; kinase-signaling-subtype PCC/PGLs (defined by RET, NF1, HRAS mutations) are associated with better aggressive-disease-free survival vs other subtypes [PMID:28162975](../papers/28162975.md)
+- No direct therapeutic targeting of PRKACA reported in this corpus; kinase-signaling-subtype PCC/PGLs (defined by [RET](../genes/RET.md), [NF1](../genes/NF1.md), [HRAS](../genes/HRAS.md) mutations) are associated with better aggressive-disease-free survival vs other subtypes [PMID:28162975](../papers/28162975.md)
 
 ## Open questions
 

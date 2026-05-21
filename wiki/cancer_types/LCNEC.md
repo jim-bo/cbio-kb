@@ -20,7 +20,7 @@ Large cell neuroendocrine carcinoma of the lung, a high-grade neuroendocrine tum
 
 ## Cohorts in the corpus
 
-- 1 patient with large-cell neuroendocrine lung cancer (LCNEC) enrolled on LIBRETTO-001 (NCT03157128), a phase 1/2 trial of the [RET](../genes/RET.md) inhibitor [selpercatinib](../drugs/selpercatinib.md) at Memorial Sloan Kettering, among 72 patients with RET fusion- or mutation-positive lung and thyroid cancers [PMID:35304457](../papers/35304457.md)
+- 1 patient with large-cell neuroendocrine lung cancer (LCNEC) enrolled on LIBRETTO-001 (NCT03157128), a phase 1/2 trial of the [RET](../genes/RET.md) inhibitor [selpercatinib](../drugs/selpercatinib.md) at Memorial Sloan Kettering, among 72 patients with [RET](../genes/RET.md) fusion- or mutation-positive lung and thyroid cancers [PMID:35304457](../papers/35304457.md)
 
 ## Recurrent alterations
 
@@ -36,6 +36,6 @@ Large cell neuroendocrine carcinoma of the lung, a high-grade neuroendocrine tum
 
 ## Sources
 
-- [PMID:35304457](../papers/35304457.md) — Rosen et al., LIBRETTO-001 selpercatinib trial; mechanisms of resistance in RET-driven lung and thyroid cancers; LCNEC represented as a rare RET fusion-positive histology.
+- [PMID:35304457](../papers/35304457.md) — Rosen et al., LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial; mechanisms of resistance in RET-driven lung and thyroid cancers; LCNEC represented as a rare RET fusion-positive histology.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

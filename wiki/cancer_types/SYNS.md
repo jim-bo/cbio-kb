@@ -16,7 +16,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Synovial sarcoma is a malignant soft-tissue sarcoma defined by the [SS18](../genes/SS18.md)–SSX1/2/4 chromosomal translocation t(X;18), classified under Soft Tissue Sarcoma in OncoTree (parent: SOFT_TISSUE). It predominates in adolescents and young adults (AYA), most commonly in the extremities, and accounts for ~5–10% of all soft-tissue sarcomas.
+Synovial sarcoma is a malignant soft-tissue sarcoma defined by the [SS18](../genes/SS18.md)–SSX1/2/4 chromosomal translocation t(X;18), classified under Soft Tissue Sarcoma in OncoTree (parent: [SOFT_TISSUE](../cancer_types/SOFT_TISSUE.md)). It predominates in adolescents and young adults (AYA), most commonly in the extremities, and accounts for ~5–10% of all soft-tissue sarcomas.
 
 ## Cohorts in the corpus
 
@@ -25,9 +25,11 @@ Synovial sarcoma is a malignant soft-tissue sarcoma defined by the [SS18](../gen
 
 ## Recurrent alterations
 
-- SS18–SSX1/SSX2/SSX4 fusion (canonical driver, t(X;18)(p11.2;q11.2)): not directly genotyped in this study.
+- [SS18](../genes/SS18.md)–SSX1/SSX2/SSX4 fusion (canonical driver, t(X;18)(p11.2;q11.2)): not directly genotyped in this study.
 - Relatively normal karyotype: SYNS clusters with [MRLS](../cancer_types/MRLS.md) and [GIST](../cancer_types/GIST.md) as low-complexity subtypes by copy-number analysis in the seven-subtype cohort. [PMID:20601955](../papers/20601955.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 7,494-sarcoma cohort, synovial sarcoma was identified by SS18–[SSX2](../genes/SSX2.md) fusion (used for reclassification confirmation); [EWSR1](../genes/EWSR1.md) and SS18 fusions were characteristic of translocation-associated sarcomas [PMID:35705558](../papers/35705558.md).
+- In the 2,138-sarcoma MSK-IMPACT cohort, synovial sarcoma was among the 45 OncoTree-mapped pathological entities profiled; translocation-associated histotypes including SYNS had the lowest intra-subtype entropy [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -47,5 +49,11 @@ Synovial sarcoma is a malignant soft-tissue sarcoma defined by the [SS18](../gen
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705558](../papers/35705558.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

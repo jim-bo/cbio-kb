@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MutSig
@@ -44,31 +44,32 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSigCV applied to TCGA [HNSC](../cancer_types/HNSC.md) WES data (n=279); identified 11 significantly mutated genes at q<0.1 including [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [FAT1](../genes/FAT1.md), [PIK3CA](../genes/PIK3CA.md), [NOTCH1](../genes/NOTCH1.md), [KMT2D](../genes/KMT2D.md), [NSD1](../genes/NSD1.md), [CASP8](../genes/CASP8.md), [AJUBA](../genes/AJUBA.md), [NFE2L2](../genes/NFE2L2.md), and [HLA-A](../genes/HLA-A.md); additional trend-significant genes at q<1 [PMID:25631445](../papers/25631445.md)
 - MutSigCV used to identify 14 significantly mutated genes (q < 0.05) in 243 [HCC](../cancer_types/HCC.md) exomes including [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md), [AXIN1](../genes/AXIN1.md), and TERT-pathway genes. [PMID:25822088](../papers/25822088.md)
 - MutSigCV applied to 109 microdissected PDA exomes identifying 24 significantly mutated genes at ≥3.5% frequency; meta-analysis with 99-case ICGC cohort (208-case total) added [ATM](../genes/ATM.md), [ARID2](../genes/ARID2.md), [TGFBR2](../genes/TGFBR2.md), [ACVR1B](../genes/ACVR1B.md). [PMID:25855536](../papers/25855536.md)
-- MutSig used to assess recurrence of somatic mutations in 150 mCRPC cases, identifying TP53 as most selectively enriched versus primary prostate cancer (q<0.001). [PMID:26000489](../papers/26000489.md)
+- MutSig used to assess recurrence of somatic mutations in 150 mCRPC cases, identifying [TP53](../genes/TP53.md) as most selectively enriched versus primary prostate cancer (q<0.001). [PMID:26000489](../papers/26000489.md)
 - MutSig (Q < 0.1) and InVEx (Bonferroni p < 0.05) together called 42 and 13 significantly mutated genes respectively in 318 melanoma WES cases, including novel SMGs [RAC1](../genes/RAC1.md), [DDX3X](../genes/DDX3X.md), [MRPS31](../genes/MRPS31.md), and [RPS27](../genes/RPS27.md). [PMID:26091043](../papers/26091043.md)
 - Applied to the TCGA breast ILC/IDC cohort (n=817) for significantly mutated gene discovery; identified ILC-enriched drivers [CDH1](../genes/CDH1.md), [TBX3](../genes/TBX3.md), [RUNX1](../genes/RUNX1.md), [PIK3CA](../genes/PIK3CA.md), and [FOXA1](../genes/FOXA1.md), plus IDC-enriched TP53 and [MYC](../genes/MYC.md) amplification [PMID:26451490](../papers/26451490.md)
 - Used to identify 44 recurrently mutated genes across 538 CLL whole-exomes (CLL8 trial), achieving 94%/61% power at 3%/2% mutation frequency; discovered novel drivers [RPS15](../genes/RPS15.md), [IKZF3](../genes/IKZF3.md), [MGA](../genes/MGA.md), [BRAF](../genes/BRAF.md) (non-V600E), and [MAP2K1](../genes/MAP2K1.md) [PMID:26466571](../papers/26466571.md)
 - Applied as MutSigCV to identify 13 significantly mutated genes (q < 0.1) in 333 primary prostate adenocarcinomas including [SPOP](../genes/SPOP.md), TP53, [FOXA1](../genes/FOXA1.md), [PTEN](../genes/PTEN.md), [MED12](../genes/MED12.md), [CDKN1B](../genes/CDKN1B.md), and newly identified [BRAF](../genes/BRAF.md), [HRAS](../genes/HRAS.md), [AKT1](../genes/AKT1.md), [CTNNB1](../genes/CTNNB1.md), [ATM](../genes/ATM.md), [ZMYM3](../genes/ZMYM3.md), [NKX3-1](../genes/NKX3-1.md) [PMID:26544944](../papers/26544944.md).
-- MutSig-CV identified 19 significantly mutated genes in periampullary tumors (ampullary, distal bile-duct, duodenal adenocarcinoma), plus 3 additional genes (PBRM1, RECQL4, KDM6A) by inactivation-bias test; MSI cases excluded [PMID:26804919](../papers/26804919.md)
+- MutSig-CV identified 19 significantly mutated genes in periampullary tumors (ampullary, distal bile-duct, duodenal adenocarcinoma), plus 3 additional genes ([PBRM1](../genes/PBRM1.md), [RECQL4](../genes/RECQL4.md), [KDM6A](../genes/KDM6A.md)) by inactivation-bias test; MSI cases excluded [PMID:26804919](../papers/26804919.md)
 - MutSigCV identified 75 significantly mutated genes in 1,122 diffuse gliomas, 45 of which were novel glioma associations; applied within the TCGA pan-glioma study [PMID:26824661](../papers/26824661.md)
-- Used to identify significantly mutated genes in 114 metastatic CRPC biopsies; confirmed TP53 and RB1 as top altered genes differentiating CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
+- Used to identify significantly mutated genes in 114 metastatic CRPC biopsies; confirmed TP53 and [RB1](../genes/RB1.md) as top altered genes differentiating CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
 - MutSigCV applied to 488 non-hypermutated CRCs, identifying 90 significantly mutated genes (73 novel for CRC); hypermutator threshold = 12 mutations/Mb [PMID:27149842](../papers/27149842.md)
 - MutSig2CV applied to 660 lung ADC and 484 lung SqCC exomes; identified 38 SMGs in ADC and 20 in SqCC (q < 0.1); 14 additional SMGs in the pan-lung joint analysis [PMID:27158780](../papers/27158780.md)
-- MutSig used for driver gene identification (FDR<0.1) in 216 metastatic breast cancer exomes, yielding 12 significantly mutated genes including ESR1 and RB1 as metastasis-specific drivers [PMID:28027327](../papers/28027327.md).
-- MutSigCV2.0 applied to identify significantly mutated genes in 164 oesophageal carcinomas, yielding TP53, NFE2L2, KMT2D, ZNF750, NOTCH1, TGFBR2 in ESCC and TP53, CDKN2A, ARID1A, SMAD4, ERBB2 in EAC [PMID:28052061](../papers/28052061.md).
-- MutSig2 applied to 173 PCPG tumors identifying five significant somatic driver genes (q < 0.05): HRAS, NF1, EPAS1, RET, and the novel driver CSDE1 [PMID:28162975](../papers/28162975.md).
-- MutSigCV used alongside IntOGen to identify 32 significantly mutated genes (SMGs) at q < 0.1 in 489 CCA cases, including four newly nominated driver genes: RASA1, STK11, MAP2K4, and SF3B1 [PMID:28667006](../papers/28667006.md)
+- MutSig used for driver gene identification (FDR<0.1) in 216 metastatic breast cancer exomes, yielding 12 significantly mutated genes including [ESR1](../genes/ESR1.md) and RB1 as metastasis-specific drivers [PMID:28027327](../papers/28027327.md).
+- MutSigCV2.0 applied to identify significantly mutated genes in 164 oesophageal carcinomas, yielding TP53, [NFE2L2](../genes/NFE2L2.md), [KMT2D](../genes/KMT2D.md), [ZNF750](../genes/ZNF750.md), [NOTCH1](../genes/NOTCH1.md), [TGFBR2](../genes/TGFBR2.md) in [ESCC](../cancer_types/ESCC.md) and TP53, [CDKN2A](../genes/CDKN2A.md), [ARID1A](../genes/ARID1A.md), [SMAD4](../genes/SMAD4.md), [ERBB2](../genes/ERBB2.md) in [EAC](../cancer_types/EAC.md) [PMID:28052061](../papers/28052061.md).
+- MutSig2 applied to 173 [PCPG](../cancer_types/PCPG.md) tumors identifying five significant somatic driver genes (q < 0.05): [HRAS](../genes/HRAS.md), [NF1](../genes/NF1.md), [EPAS1](../genes/EPAS1.md), [RET](../genes/RET.md), and the novel driver [CSDE1](../genes/CSDE1.md) [PMID:28162975](../papers/28162975.md).
+- MutSigCV used alongside IntOGen to identify 32 significantly mutated genes (SMGs) at q < 0.1 in 489 CCA cases, including four newly nominated driver genes: [RASA1](../genes/RASA1.md), [STK11](../genes/STK11.md), [MAP2K4](../genes/MAP2K4.md), and [SF3B1](../genes/SF3B1.md) [PMID:28667006](../papers/28667006.md)
 - Driver detection tool used alongside GenomeMuSiC and IntOGen to call SMGs across 491 medulloblastoma cases, assigning driver events to 76% of Group 3 and 82% of Group 4 patients [PMID:28726821](../papers/28726821.md)
-- MutSig 2CV applied to 412 BLCA tumors identifying 58 significantly mutated genes (q<0.1); 34 were new vs the prior 131-tumor cohort, including KMT2C (18%), ATM (14%), CREBBP (12%) [PMID:28988769](../papers/28988769.md)
-- MuSiC (Genome MuSiC) and MutSig 2CV applied to 206 TCGA sarcomas identifying only 3 significantly mutated genes (FDR<0.05): TP53, ATRX, RB1 [PMID:29100075](../papers/29100075.md)
+- MutSig 2CV applied to 412 [BLCA](../cancer_types/BLCA.md) tumors identifying 58 significantly mutated genes (q<0.1); 34 were new vs the prior 131-tumor cohort, including [KMT2C](../genes/KMT2C.md) (18%), [ATM](../genes/ATM.md) (14%), [CREBBP](../genes/CREBBP.md) (12%) [PMID:28988769](../papers/28988769.md)
+- MuSiC (Genome MuSiC) and MutSig 2CV applied to 206 TCGA sarcomas identifying only 3 significantly mutated genes (FDR<0.05): TP53, [ATRX](../genes/ATRX.md), RB1 [PMID:29100075](../papers/29100075.md)
 - MutSig2CV identified PBRM1 as the only recurrently mutated gene enriched in anti-PD-1 responders (9/11 vs 3/13 CB vs NCB; p=0.012) in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) WES samples [PMID:29301960](../papers/29301960.md)
-- Applied with MuSiC to identify 47 significantly recurrently mutated genes in 1,027 MSS colorectal adenocarcinomas, including APC (79%), TP53 (78%), KRAS (44%), PIK3CA (18%), and SMAD4 (16%) [PMID:29316426](../papers/29316426.md)
-- MutSig2CV (P < 3.5e-5) applied to KIRC PASS variants from the MC3 open-access MAF; identified 10 SMGs; the unfiltered MAF inflated the list to 1,203 SMGs, demonstrating the necessity of stringent filtering [PMID:29596782](../papers/29596782.md)
+- Applied with MuSiC to identify 47 significantly recurrently mutated genes in 1,027 MSS colorectal adenocarcinomas, including [APC](../genes/APC.md) (79%), TP53 (78%), [KRAS](../genes/KRAS.md) (44%), [PIK3CA](../genes/PIK3CA.md) (18%), and SMAD4 (16%) [PMID:29316426](../papers/29316426.md)
+- MutSig2CV (P < 3.5e-5) applied to [KIRC](../cancer_types/KIRC.md) PASS variants from the MC3 open-access MAF; identified 10 SMGs; the unfiltered MAF inflated the list to 1,203 SMGs, demonstrating the necessity of stringent filtering [PMID:29596782](../papers/29596782.md)
 - MutSig2CV (integrating MutSigCV, MutSigFN, MutSigCL) applied to 1,013 prostate WES samples with additional biological filters (≥10 altered samples, allelic-fraction floors, length/expression/oncogenic-variant filters); identified 97 SMGs [PMID:29610475](../papers/29610475.md)
 - Applied (MutSigCV) to identify recurrently mutated genes driving somatic mutation patterns across 9,125 TCGA PanCanAtlas tumors in 33 cancer types [PMID:29625050](../papers/29625050.md).
 - MutSig2CV applied to 304 DLBCLs identified 98 candidate cancer genes at q < 0.1, including 40 previously undescribed drivers in DLBCL [PMID:29713087](../papers/29713087.md)
 - Applied in TCGA pan-cancer analysis to identify significantly mutated genes [PMID:29713003](../papers/29713003.md)
-- Applied as one of four cancer-gene discovery tools (alongside [LOFsigrank](../methods/lofsigrank.md), [dN/dS](../methods/dndscv.md), [OncodriveFML](../methods/oncodrivefml.md)) in a CSCC ([CSCC](../cancer_types/CSCC.md)) meta-analysis of 88 WES/WGS tumors; MutSig jointly nominated 12 driver genes, 7 by ≥2 tools [PMID:34272401](../papers/34272401.md)
+- Applied as one of four cancer-gene discovery tools (alongside [LOFsigrank](../methods/lofsigrank.md), [dN/dS](../methods/dndscv.md), [OncodriveFML](../methods/oncodrivefml.md)) in a [CSCC](../cancer_types/CSCC.md) ([CSCC](../cancer_types/CSCC.md)) meta-analysis of 88 WES/WGS tumors; MutSig jointly nominated 12 driver genes, 7 by ≥2 tools [PMID:34272401](../papers/34272401.md)
+- MutSig (MutSigCV 1.4) used alongside MuSiC for recurrent somatic mutation significance testing (q<0.1) in 2,138 MSK-IMPACT sarcomas spanning 45 histological entities [PMID:35705560](../papers/35705560.md)
 
 ## Notes
 
@@ -81,156 +82,159 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 - [PMID:22343534](../papers/22343534.md) — DLBCL WES study where MutSig identified 58 significantly mutated genes.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713003](../papers/29713003.md)
 
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -26,7 +26,7 @@ TACSTD2 (Tumor-Associated Calcium Signal Transducer 2), also known as TROP2, enc
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with AQP5, TFF2, [TFF3](../genes/TFF3.md), MSLN, and [MUC5AC](../genes/MUC5AC.md) in SSCs as part of the gastric/endodermal program that distinguishes serrated from adenomatous polyp origins [PMID:34910928](../papers/34910928.md)
+- Co-expressed with [AQP5](../genes/AQP5.md), [TFF2](../genes/TFF2.md), [TFF3](../genes/TFF3.md), [MSLN](../genes/MSLN.md), and [MUC5AC](../genes/MUC5AC.md) in SSCs as part of the gastric/endodermal program that distinguishes serrated from adenomatous polyp origins [PMID:34910928](../papers/34910928.md)
 
 ## Therapeutic relevance
 

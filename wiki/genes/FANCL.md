@@ -25,7 +25,7 @@ FANCL (Fanconi Anemia Complementation Group L) is the catalytic E3 ubiquitin lig
 
 ## Cancer types (linked)
 
-- **[PRAD](../cancer_types/PRAD.md)** — FANCL is part of the FA gene set whose homozygous loss classifies mCRPC patients as DNA-repair deficient; these patients had significantly longer carboplatin response in a rapid-autopsy cohort of 63 men. [PMID:26928463](../papers/26928463.md)
+- **[PRAD](../cancer_types/PRAD.md)** — FANCL is part of the FA gene set whose homozygous loss classifies mCRPC patients as DNA-repair deficient; these patients had significantly longer [carboplatin](../drugs/carboplatin.md) response in a rapid-autopsy cohort of 63 men. [PMID:26928463](../papers/26928463.md)
 
 ## Co-occurrence and mutual exclusivity
 

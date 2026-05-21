@@ -44,12 +44,13 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - AR was used as an IHC surrogate marker for the LAR (luminal androgen receptor) subtype of metastatic TNBC in a biomarker-guided umbrella trial; anti-AR + CDK4/6 inhibitor therapy was assigned to LAR-subtype patients without [ERBB2](../genes/ERBB2.md) mutations. [PMID:32719455](../papers/32719455.md)
 - AR-expressing LAR subtype of TNBC is noted as a distinct PIK3CA-recurrent subgroup in the CPTAC breast cancer proteogenomics study (n=122); LAR-subtype TNBC had recurrent [PIK3CA](../genes/PIK3CA.md) mutations (binomial p=1.50 × 10⁻³ compared to NMF LumB-I) [PMID:33212010](../papers/33212010.md)
 - Sub-clonal AR p.H875Y (hormonal-therapy resistance) detected in plasma of an mCRPC patient by cf-IMPACT; subsequent tumor biopsy confirmed the mutation at 0.3% VAF in tissue, below the de novo calling threshold of tumor MSK-IMPACT [PMID:34059130](../papers/34059130.md)
-- AR mutations enriched in cfDNA versus MSK-IMPACT tissue in prostate cancer samples profiled by MSK-ACCESS; recurrently altered in PRAD across 681-sample prospective cohort [PMID:34145282](../papers/34145282.md)
+- AR mutations enriched in cfDNA versus MSK-IMPACT tissue in prostate cancer samples profiled by MSK-ACCESS; recurrently altered in [PRAD](../cancer_types/PRAD.md) across 681-sample prospective cohort [PMID:34145282](../papers/34145282.md)
 - Most frequently mutated cancer-susceptibility germline gene in the 232-sample LCINS WGS cohort (n=5 carriers, 4 in the piano low-grade subtype); supports a hormonal contribution to lung cancer in never-smokers. [PMID:34493867](../papers/34493867.md)
 - AR alterations enriched in Black men with prostate cancer (18% Black vs 12% White); the Black–White difference (+5 pp, 95% CI 1–8) persists after adjustment for clinical features, while the Asian–White difference attenuates to 0 pp [PMID:34667026](../papers/34667026.md)
 - Amplification (1% vs 30%) and mutations (0% vs 6%) dramatically enriched in PRAD metastases vs primaries (both q<0.001) in the MSK-MET pan-cancer cohort (25,775 patients); AR amplification positively associated with metastatic burden; enriched in bone (5% vs 21%, q<0.001) and brain (14% vs 34%, q<0.001) PRAD metastases — attributed to androgen-deprivation therapy selection pressure [PMID:35120664](../papers/35120664.md)
 - AR amplification and/or mutation enriched in CRPC-AR subtype; AR signaling lost or attenuated in three AR-negative/low CRPC subtypes (SCL, NE, WNT) in a 35-model organoid/PDX cohort [PMID:35617398](../papers/35617398.md)
 - AR coding alterations in 7/51 (14%) and amplifications in 32/51 (63%) of prostate cancer brain metastases (PCBM), consistent with high prior ADT/ARSi exposure [PMID:35504881](../papers/35504881.md)
+- [PIK3R1](../genes/PIK3R1.md) knockdown in LAPC4 prostate cancer cells reduced AR target gene expression (PSA, PLZF, [TMPRSS2](../genes/TMPRSS2.md), NKX3.1) without altering AR mRNA/protein, and conferred relative resistance to [enzalutamide](../drugs/enzalutamide.md), implicating p85alpha in AR transactivation [PMID:35670774](../papers/35670774.md)
 
 ## Cancer types (linked)
 
@@ -155,5 +156,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

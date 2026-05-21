@@ -17,7 +17,7 @@ Encorafenib is a selective [BRAF](../genes/BRAF.md) V600E/K inhibitor approved i
 
 ## Evidence in the corpus
 
-- Encorafenib ([BRAF](../genes/BRAF.md) inhibitor) was among MAPK-pathway directed therapies evaluated across BRAF fusion-positive tumors (N=241, 52 histologies at MSK); combination BRAF+MEK inhibition was less durable (median 1 month) than MEK inhibitor monotherapy (median 8 months) across all treated patients [PMID:38922339](../papers/38922339.md).
+- Encorafenib ([BRAF](../genes/BRAF.md) inhibitor) was among MAPK-pathway directed therapies evaluated across [BRAF](../genes/BRAF.md) fusion-positive tumors (N=241, 52 histologies at MSK); combination BRAF+MEK inhibition was less durable (median 1 month) than MEK inhibitor monotherapy (median 8 months) across all treated patients [PMID:38922339](../papers/38922339.md).
 - Encorafenib + [cetuximab](../drugs/cetuximab.md) (with or without [binimetinib](../drugs/binimetinib.md)) targets BRAF V600E-mutant CRC; the dual-driver CRC paper notes that microsatellite-stable BRAF V600E CRC did not harbor a concurrent MAPK driver pre-therapy, informing BRAF inhibitor selection, while the rare MSI-H BRAF V600E + RAS dual-driver subset may not benefit as expected [PMID:35235413](../papers/35235413.md)
 
 ## Resistance mechanisms

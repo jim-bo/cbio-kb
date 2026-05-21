@@ -9,7 +9,7 @@ tags:
   - chondrosarcoma
   - dedifferentiated
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-21
 ---
 
 # Dedifferentiated Chondrosarcoma (DDCHS)
@@ -25,6 +25,7 @@ Dedifferentiated chondrosarcoma is a high-grade variant of [chondrosarcoma](../c
 ## Recurrent alterations
 
 - No specific alterations for DDCHS directly genotyped in the UCLA PDTO study. [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), and complex copy-number events are reported in the broader literature.
+- In the 2,138-sarcoma MSK-IMPACT cohort, dedifferentiated chondrosarcoma (DDCHS) showed [TERT](../genes/TERT.md) promoter mutations in 35% (5/14) of cases — the third highest TERT-promoter mutation rate across all sarcoma subtypes [PMID:35705560](../papers/35705560.md).
 
 ## Subtypes
 
@@ -38,4 +39,7 @@ Dedifferentiated chondrosarcoma is a high-grade variant of [chondrosarcoma](../c
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35705560](../papers/35705560.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

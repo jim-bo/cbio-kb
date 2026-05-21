@@ -23,11 +23,12 @@ CDKN2B (p15/INK4B) is a CDK4/6 inhibitor and tumor suppressor located at chromos
 - CDKN2A/CDKN2B show differential alteration patterns between IDH-WT and IDH-mutant [GBM](../cancer_types/GBM.md) tumors ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md), n=99) [PMID:33577785](../papers/33577785.md).
 - Deletion (HR 6.0, 95% CI 2.5–14.6, P<0.001) is the strongest independent predictor of worse [OS](../cancer_types/OS.md) among individual alterations in node-positive (N1) intrahepatic cholangiocarcinoma; median [OS](../cancer_types/OS.md) for CDKN2A/B-deleted N1 patients ~7 vs ~27 months for wild-type [PMID:33963001](../papers/33963001.md)
 - CDKN2B (p15INK4B) is the dominant INK4 binder to [CDK6](../genes/CDK6.md) in abemaciclib-resistant FAT1CR MCF7 cells (6 unique peptides in IP-MS); CRISPR knockout of CDKN2B + [CDKN2C](../genes/CDKN2C.md) (double KO) almost entirely restores RB-phosphorylation suppression and re-sensitizes cells to 100 nmol/L [abemaciclib](../drugs/abemaciclib.md) over 21 days (P<0.0001) [PMID:34544752](../papers/34544752.md)
-- CDKN2B — co-deleted with CDKN2A across sarcomas, CNS tumors, and leukemia in MAPPYACTS pediatric cohort (n=624); 157 combined CDKN2A/CDKN2B deletions/inactivating events used to guide CDK4/6 inhibitor recommendations [PMID:35292802](../papers/35292802.md)
+- CDKN2B — co-deleted with [CDKN2A](../genes/CDKN2A.md) across sarcomas, CNS tumors, and leukemia in MAPPYACTS pediatric cohort (n=624); 157 combined CDKN2A/CDKN2B deletions/inactivating events used to guide CDK4/6 inhibitor recommendations [PMID:35292802](../papers/35292802.md)
+- CDKN2B deleted in 12.8% of sarcomas (99.0% homozygous deletions); enriched in [MPNST](../cancer_types/MPNST.md) and chordoma; co-occurs with CDKN2A loss, CDK4/CDK6 amplification in the cell-cycle pathway [PMID:35705558](../papers/35705558.md)
 
 ## Cancer types (linked)
 
-- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CDKN2B is among the top Cell Cycle pathway contributors; no independent OS association for CDKN2B alone reported [PMID:33795256](../papers/33795256.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CDKN2B is among the top Cell Cycle pathway contributors; no independent [OS](../cancer_types/OS.md) association for CDKN2B alone reported [PMID:33795256](../papers/33795256.md).
 - **Glioblastoma ([GBM](../cancer_types/GBM.md)):** CDKN2B alteration pattern differs between IDH-WT and IDH-mutant subtypes [PMID:33577785](../papers/33577785.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -48,13 +49,12 @@ CDKN2B (p15/INK4B) is a CDK4/6 inhibitor and tumor suppressor located at chromos
 - [PMID:33577785](../papers/33577785.md)
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33963001](../papers/33963001.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34544752](../papers/34544752.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+- [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

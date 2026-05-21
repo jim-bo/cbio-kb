@@ -46,30 +46,33 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Single truncating APC p.Q1529X mutation found in 117 advanced thyroid tumors (PDTC/ATC); the study explicitly failed to replicate prior reports of frequent WNT-pathway alterations in ATC [PMID:26878173](../papers/26878173.md)
 - Wnt-pathway alteration observed in cisplatin-resistant germ cell tumors alongside [AXIN1](../genes/AXIN1.md) and [FAT1](../genes/FAT1.md) [PMID:27646943](../papers/27646943.md)
 - APC R1114* germline variant in hepatoblastoma diagnostic of familial adenomatous polyposis ([FAP](../genes/FAP.md)); APC E1554fs in poorly differentiated carcinoma diagnostic of newly recognized Gardner syndrome; APC V1822D returned as a variant of uncertain significance in Ewing sarcoma [PMID:28007021](../papers/28007021.md)
-- APC mutation rate lower in esophageal adenocarcinoma (EAC) vs CIN gastric — pan-esophageal/gastroesophageal cancer genomic landscape study [PMID:28052061](../papers/28052061.md)
+- APC mutation rate lower in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) vs CIN gastric — pan-esophageal/gastroesophageal cancer genomic landscape study [PMID:28052061](../papers/28052061.md)
 - Cited as a lineage-restricted driver in colorectal cancer, contrasted with pan-cancer drivers TP53/PIK3CA, in the MSK-IMPACT prospective profiling cohort (n=10,945) [PMID:28481359](../papers/28481359.md)
 - V2194Ffs*5 frameshift mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; incidental alteration alongside canonical IDH1/TERT/CIC/FUBP1 drivers [PMID:28472509](../papers/28472509.md)
 - Pathogenic germline APC variants found in 3 CTNNB1-wild-type WNT medulloblastomas — Turcot syndrome predisposition; APC germline testing warranted when WNT MB is suspected without [CTNNB1](../genes/CTNNB1.md) mutation [PMID:28726821](../papers/28726821.md)
 - APC is a non-DNA-repair presumed pathogenic germline mutation (PPGM) gene in 6 of 500 metastatic cancer patients (9.5%), significantly enriched vs. ExAC controls in the MET500 pan-cancer cohort [PMID:28783718](../papers/28783718.md)
-- APC enriched in both metastatic prostate cancer states relative to locoregional disease, implicating it as a driver of metastasis; co-occurs with CTNNB1 and [RNF43](../genes/RNF43.md) as Wnt-pathway alterations [PMID:28825054](../papers/28825054.md)
+- APC enriched in both metastatic prostate cancer states relative to locoregional disease, implicating it as a driver of metastasis; co-occurs with [CTNNB1](../genes/CTNNB1.md) and [RNF43](../genes/RNF43.md) as Wnt-pathway alterations [PMID:28825054](../papers/28825054.md)
 - Mutated in 79% of MSS mCRC tumors; a recurrent intronic chr5:112151184 A>G splice-acceptor mutation [expands](../methods/expands.md) the oncogenic spectrum into intronic regions; oncogenic APC alterations were a positive prognostic factor in mCRC (HR=0.57) [PMID:29316426](../papers/29316426.md).
 - [APC](../genes/APC.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)). [PMID:29610475](../papers/29610475.md)
 - APC- and KRAS-driven COAD/READ tumors share mRNA cluster 15 and RPPA cluster C8 but partition into distinct methylation clusters (10 vs 11), illustrating how the same oncogenic driver can yield different epigenomic states [PMID:29625049](../papers/29625049.md)
-- Mutated in 2/10 [HCC](../cancer_types/HCC.md) (hepatocellular carcinoma) in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC); absent in the HCA subset, suggesting a late-stage event [PMID:30052636](../papers/30052636.md)
+- Mutated in 2/10 [HCC](../cancer_types/HCC.md) (hepatocellular carcinoma) in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 [HCC](../cancer_types/HCC.md)); absent in the HCA subset, suggesting a late-stage event [PMID:30052636](../papers/30052636.md)
 - APC alterations observed in 5.2% of hepatocellular carcinoma tumors in a 344-patient MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
 - APC identified as a germline pathogenic/likely-pathogenic carrier gene in metastatic panNET (80-patient MSK-IMPACT cohort); classified as low- or moderate-penetrance germline variant [PMID:30687805](../papers/30687805.md)
 - APC stop-gain and frameshift mutations identified in proteogenomic colon cancer cohort (n=110); reduced abundance of downstream phosphosite APC-T2451 observed in mutant tumors [PMID:31031003](../papers/31031003.md)
 - APC recurrently altered in mCRPC tumors but not significantly prognostic for survival or time on first-line ARSI in a 429-patient whole-exome/RNA-seq cohort [PMID:31061129](../papers/31061129.md)
 - Most frequently mutated gene in both the 65-tumoroid rectal cancer biorepository and the matched 287-patient MSK clinical cohort ([rectal_msk_2019](../datasets/rectal_msk_2019.md)), consistent with canonical Wnt-pathway loss in rectal adenocarcinoma [PMID:31591597](../papers/31591597.md)
-- Loss-of-function mutations in 11 CTNNB1-WT uterine corpus endometrial carcinoma tumors provide an alternative route to β-catenin overexpression; APC and AXIN1 protein are upregulated when CTNNB1 is hotspot-mutated [PMID:32059776](../papers/32059776.md)
+- Loss-of-function mutations in 11 CTNNB1-WT uterine corpus endometrial carcinoma tumors provide an alternative route to β-catenin overexpression; APC and [AXIN1](../genes/AXIN1.md) protein are upregulated when CTNNB1 is hotspot-mutated [PMID:32059776](../papers/32059776.md)
 - Truncating APC mutations split at aa 1400 into N-terminal (longer OS/PFS, fewer concurrent mitogenic hits) and C-terminal (shorter OS/PFS, enriched RAS/PI3K co-mutation) prognostic groups in MSS metastatic colorectal cancer, identifying APC mutation site — not merely mutation status — as a clinically relevant biomarker. [PMID:32730818](../papers/32730818.md)
 - Assessed at >=2% frequency in a 514-sample [LUAD](../cancer_types/LUAD.md) genomics cohort (pN+ vs pN- node-metastasis study); no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
 - Truncating mutations in 78.7% of early-onset CRC (EO-CRC) MSS tumors; germline pathogenic/likely-pathogenic APC variants in 3/14 high-penetrance carriers; APC alteration or 20q amplification associated with improved survival on univariate analysis (HR=0.64, 95% CI 0.44-0.93, P=0.02) in 1,163 MSS CRC patients. [PMID:34405229](../papers/34405229.md)
 - Depleted in Nigerian MSS colorectal tumors (36.9% vs 76.0% MSKCC, P<0.01); loss decoupled from CTNNB1 compensation, suggesting non-canonical WNT activation [PMID:34819518](../papers/34819518.md)
 - APC-truncating mutations drive WNT-pathway expansion of [LGR5](../genes/LGR5.md)+ crypt-base stem cells in conventional adenomas (tubular/tubulovillous) in the COLON MAP / HTAN pre-cancer atlas [PMID:34910928](../papers/34910928.md)
-- Mutations more frequent in [PRAD](../cancer_types/PRAD.md) liver (5% vs 11%, q=0.001) and lung (5% vs 12%, q<0.001) metastases in the MSK-MET pan-cancer cohort; WNT pathway including APC altered in 26% of PRAD lung metastases vs 13% primary [PMID:35120664](../papers/35120664.md)
+- Mutations more frequent in [PRAD](../cancer_types/PRAD.md) liver (5% vs 11%, q=0.001) and lung (5% vs 12%, q<0.001) metastases in the MSK-MET pan-cancer cohort; WNT pathway including APC altered in 26% of [PRAD](../cancer_types/PRAD.md) lung metastases vs 13% primary [PMID:35120664](../papers/35120664.md)
 - APC high prevalence in CRC-DD (dual MAPK driver CRC, n=47/4,561 patients); APC S1505Afs identified as an early/truncal event in single-cell genotyping of patient P-0021518 [PMID:35235413](../papers/35235413.md)
-- APC present in gene list from MSK-IMPACT sequencing of [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort (n=46 models from 33 MSK patients); listed among genes detected in this multi-omic resource alongside canonical SCLC drivers [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) [PMID:35440124](../papers/35440124.md)
+- APC present in gene list from MSK-IMPACT sequencing of [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort (n=46 models from 33 MSK patients); listed among genes detected in this multi-omic resource alongside canonical [SCLC](../cancer_types/SCLC.md) drivers [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) [PMID:35440124](../papers/35440124.md)
+- APC combined shallow deletion plus gain in the fourth CRPC-WNT model (alongside [RSPO2](../genes/RSPO2.md)), activating Wnt pathway in a distinct CRPC subtype [PMID:35617398](../papers/35617398.md)
+- APC germline pathogenic variant identified in a LGSC patient in a cohort of 119 low-grade serous ovarian carcinomas profiled by MSK-IMPACT [PMID:35443055](../papers/35443055.md)
+- APC mutated in 8/51 (16%) prostate cancer brain metastases (PCBM) in a multi-region WGS study; among the most recurrent alterations in this metastatic context [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -240,5 +243,14 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

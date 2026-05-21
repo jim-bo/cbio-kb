@@ -3,8 +3,8 @@ symbol: CDK5
 aliases: []
 cancer_types: [LGGNOS, GNG]
 tags: [kinase, synapse, glioma, cdk]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CDK5
@@ -15,13 +15,14 @@ CDK5 (Cyclin-Dependent Kinase 5) is an atypical CDK that does not require cyclin
 
 ## Alterations observed in the corpus
 
-- CDK5 kinase activity is upregulated in ganglioglioma and the Ganglio-rich LGG proteomic subgroup in the CPTAC pediatric brain tumor proteogenomics study (n=218 samples); CDK5 substrate phosphorylation patterns include ADD2 (Ser604/Ser693), SYN1 (Ser553), and STMN1 (Ser38), consistent with synaptogenesis and glioma-neuron synapse formation [PMID:33242424](../papers/33242424.md)
+- CDK5 kinase activity is upregulated in ganglioglioma and the Ganglio-rich [LGG](../cancer_types/LGG.md) proteomic subgroup in the CPTAC pediatric brain tumor proteogenomics study (n=218 samples); CDK5 substrate phosphorylation patterns include ADD2 (Ser604/Ser693), SYN1 (Ser553), and STMN1 (Ser38), consistent with synaptogenesis and glioma-neuron synapse formation [PMID:33242424](../papers/33242424.md)
 - CDK5 is co-elevated with [GSK3B](../genes/GSK3B.md) in ganglioglioma; the CDK5/GSK3B co-activation pattern is distinct from the CDK1/CDK2 program in HGG and the [CAMK2A](../genes/CAMK2A.md) program in HGG invasion [PMID:33242424](../papers/33242424.md)
-- CDK5 protein and PTM-SEA-derived kinase activity significantly upregulated in the Classical subtype of LSCC (FDR<0.05) in CPTAC LSCC proteogenomics (108 tumors); proposed CDK5-mediated phosphorylation of NFE2L2 S433 as a non-mutational driver of NRF2 activation, though this remains hypothetical. [PMID:34358469](../papers/34358469.md)
+- CDK5 protein and PTM-SEA-derived kinase activity significantly upregulated in the Classical subtype of LSCC (FDR<0.05) in CPTAC LSCC proteogenomics (108 tumors); proposed CDK5-mediated phosphorylation of [NFE2L2](../genes/NFE2L2.md) S433 as a non-mutational driver of NRF2 activation, though this remains hypothetical. [PMID:34358469](../papers/34358469.md)
+- Elevated kinase activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver overall and in TP53-mutant HCCs; KSEA also shows decreased CDK5 activity in CTNNB1-mutant HCCs; highlighted alongside CDK1/2 as a targetable kinase (n=51 phosphoproteome, [hcc_meric_2021](../datasets/hcc_meric_2021.md)) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
-- [LGGNOS](../cancer_types/LGGNOS.md) (Ganglio-rich subgroup): CDK5 and GSK3B kinase activity elevated; substrate patterns consistent with synaptogenesis [PMID:33242424](../papers/33242424.md)
+- [LGGNOS](../cancer_types/LGGNOS.md) (Ganglio-rich subgroup): CDK5 and [GSK3B](../genes/GSK3B.md) kinase activity elevated; substrate patterns consistent with synaptogenesis [PMID:33242424](../papers/33242424.md)
 - [GNG](../cancer_types/GNG.md) (ganglioglioma): CDK5 protein and kinase activity highest among pediatric brain tumor types in this subgroup [PMID:33242424](../papers/33242424.md)
 
 ## Co-occurrence and mutual exclusivity
@@ -40,7 +41,10 @@ CDK5 (Cyclin-Dependent Kinase 5) is an atypical CDK that does not require cyclin
 
 - [PMID:33242424](../papers/33242424.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

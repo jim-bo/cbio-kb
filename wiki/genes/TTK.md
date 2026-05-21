@@ -3,8 +3,8 @@ symbol: TTK
 aliases: [MPS1]
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-06"
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # TTK
@@ -16,6 +16,7 @@ TTK (TTK Protein Kinase), also known as MPS1, encodes a dual-specificity kinase 
 ## Alterations observed in the corpus
 
 - Upregulated in the basal-like IntClust 10 subgroup of breast cancer as part of a chromosome 5q deletion-associated trans-acting mitotic network, alongside [AURKB](../genes/AURKB.md), [BUB1](../genes/BUB1.md), [CHEK1](../genes/CHEK1.md), and [FOXM1](../genes/FOXM1.md) [PMID:22522925](../papers/22522925.md)
+- TTK (MPS1) kinase showed increased activity by KSEA in TP53-mutant [HCC](../cancer_types/HCC.md) tumors from a 122-biopsy proteogenomics cohort; TTK is a mitotic checkpoint kinase implicated in the proliferative subtype (iCluster 3) associated with poor survival [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +24,7 @@ TTK (TTK Protein Kinase), also known as MPS1, encodes a dual-specificity kinase 
 
 ## Co-occurrence and mutual exclusivity
 
-- Upregulation co-occurs with AURKB, BUB1, CHEK1, and FOXM1 in IntClust 10 basal-like breast cancer [PMID:22522925](../papers/22522925.md)
+- Upregulation co-occurs with [AURKB](../genes/AURKB.md), [BUB1](../genes/BUB1.md), [CHEK1](../genes/CHEK1.md), and [FOXM1](../genes/FOXM1.md) in IntClust 10 basal-like breast cancer [PMID:22522925](../papers/22522925.md)
 
 ## Therapeutic relevance
 
@@ -37,4 +38,7 @@ TTK (TTK Protein Kinase), also known as MPS1, encodes a dual-specificity kinase 
 
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

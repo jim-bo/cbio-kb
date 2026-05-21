@@ -19,15 +19,15 @@ REST (RE1-silencing transcription factor, also known as NRSF) is a transcription
 
 ## Alterations observed in the corpus
 
-- REST expression is high in non-neuroendocrine SCLC-P (POU2F3-driven) subtype PDX models; low REST distinguishes SCLC-A/N from SCLC-P in the MSK SCLC PDX cohort [PMID:35440124](../papers/35440124.md).
+- REST expression is high in non-neuroendocrine SCLC-P (POU2F3-driven) subtype PDX models; low REST distinguishes SCLC-A/N from SCLC-P in the MSK [SCLC](../cancer_types/SCLC.md) PDX cohort [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 
-- [SCLC](../cancer_types/SCLC.md) — REST is a transcriptional marker distinguishing SCLC-P ([POU2F3](../genes/POU2F3.md)+, non-NE) from neuroendocrine SCLC-A/N subtypes; high REST co-occurs with high BACH2 and low DLL3/ATOH1/INSM1 in SCLC-P PDX models [PMID:35440124](../papers/35440124.md).
+- [SCLC](../cancer_types/SCLC.md) — REST is a transcriptional marker distinguishing SCLC-P ([POU2F3](../genes/POU2F3.md)+, non-NE) from neuroendocrine SCLC-A/N subtypes; high REST co-occurs with high [BACH2](../genes/BACH2.md) and low DLL3/ATOH1/INSM1 in SCLC-P PDX models [PMID:35440124](../papers/35440124.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- High REST co-occurs with BACH2 upregulation and POU2F3 expression in SCLC-P; mutually low in SCLC-A (ASCL1-driven) and SCLC-N (NEUROD1-driven) subtypes [PMID:35440124](../papers/35440124.md).
+- High REST co-occurs with BACH2 upregulation and [POU2F3](../genes/POU2F3.md) expression in SCLC-P; mutually low in SCLC-A (ASCL1-driven) and SCLC-N (NEUROD1-driven) subtypes [PMID:35440124](../papers/35440124.md).
 
 ## Therapeutic relevance
 

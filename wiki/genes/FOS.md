@@ -3,8 +3,8 @@ symbol: FOS
 aliases: [c-Fos]
 cancer_types: [THYM]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FOS
@@ -16,14 +16,15 @@ FOS encodes the c-Fos transcription factor, a component of the AP-1 complex (FOS
 ## Alterations observed in the corpus
 
 - Elevated mRNA expression observed in GTF2I-mutant thymomas (types A/AB), consistent with TFII-I (GTF2I-encoded protein)-driven transcriptional regulation downstream of the hotspot p.Leu404His mutation. [PMID:24974848](../papers/24974848.md)
+- AP-1 family member; co-targeted by the c-Fos/AP-1 inhibitor T-5224, which selectively reduces CRPC-SCL cell growth driven by FOSL1/YAP/TAZ axis in metastatic CRPC [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
-- **THYM (thymoma):** FOS is upregulated in indolent GTF2I-mutant thymomas (types A/AB), suggesting a role as a downstream transcriptional effector of the TFII-I oncogenic pathway. [PMID:24974848](../papers/24974848.md)
+- **[THYM](../cancer_types/THYM.md) (thymoma):** FOS is upregulated in indolent GTF2I-mutant thymomas (types A/AB), suggesting a role as a downstream transcriptional effector of the TFII-I oncogenic pathway. [PMID:24974848](../papers/24974848.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- FOS overexpression co-occurs with GTF2I p.Leu404His mutation in indolent thymomas; functional relationship proposed via TFII-I-driven transcriptional regulation. [PMID:24974848](../papers/24974848.md)
+- FOS overexpression co-occurs with [GTF2I](../genes/GTF2I.md) p.Leu404His mutation in indolent thymomas; functional relationship proposed via TFII-I-driven transcriptional regulation. [PMID:24974848](../papers/24974848.md)
 
 ## Therapeutic relevance
 
@@ -37,4 +38,7 @@ FOS encodes the c-Fos transcription factor, a component of the AP-1 complex (FOS
 
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

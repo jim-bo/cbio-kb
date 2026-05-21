@@ -12,7 +12,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Low-grade glioma NOS (LGGNOS) is a CNS/Brain tumor in the Glioma main type, positioned under ENCG in the OncoTree hierarchy. In pediatric populations, [LGG](../cancer_types/LGG.md) is the most common brain tumor and is frequently driven by MAPK pathway alterations (BRAFV600E or [BRAF](../genes/BRAF.md) fusions). LGGNOS is the catch-all code for [LGG](../cancer_types/LGG.md) not further classified; [DLGGMAPK](../cancer_types/DLGGMAPK.md) designates the MAPK-pathway-altered diffuse LGG subtype.
+Low-grade glioma NOS (LGGNOS) is a CNS/Brain tumor in the Glioma main type, positioned under ENCG in the OncoTree hierarchy. In pediatric populations, [LGG](../cancer_types/LGG.md) is the most common brain tumor and is frequently driven by MAPK pathway alterations (BRAFV600E or [BRAF](../genes/BRAF.md) fusions). LGGNOS is the catch-all code for [LGG](../cancer_types/LGG.md) not further classified; [DLGGMAPK](../cancer_types/DLGGMAPK.md) designates the MAPK-pathway-altered diffuse [LGG](../cancer_types/LGG.md) subtype.
 
 ## Cohorts in the corpus
 
@@ -37,7 +37,7 @@ Low-grade glioma NOS (LGGNOS) is a CNS/Brain tumor in the Glioma main type, posi
 ## Therapeutic landscape
 
 - Combined MEK + mTOR inhibition supported for BRAFV600E LGG by AKT1/AKT2 upregulation at RNA and protein. [PMID:33242424](../papers/33242424.md)
-- PDGFRA-targeted therapy proposed for BRAFFusion LGG based on PDGFRA protein levels comparable to HGG. [PMID:33242424](../papers/33242424.md)
+- PDGFRA-targeted therapy proposed for BRAFFusion LGG based on [PDGFRA](../genes/PDGFRA.md) protein levels comparable to HGG. [PMID:33242424](../papers/33242424.md)
 
 ## Sources
 

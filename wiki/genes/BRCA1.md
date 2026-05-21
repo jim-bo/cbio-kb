@@ -59,7 +59,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort; flagged as cross-cancer driver [PMID:27161491](../papers/27161491.md)
 - BRCA1 pathogenic germline variants enriched in young lung cancer (OR=4.1); specific variant p.Cys47Arg reported by Donner et al. [PMID:27346245](../papers/27346245.md)
 - Germline BRCA1 frameshift variants found in two pediatric patients (nested stromal epithelial liver tumor and ependymoma); returned as ACMG secondary findings with breast-cancer health-maintenance flag [PMID:28007021](../papers/28007021.md)
-- BRCA1 is recruited to DSBs via [TRMT10A](../genes/TRMT10A.md) pSer28; BRCA1 recruitment (but not protein abundance) is impaired by TRMT10A or [USP10](../genes/USP10.md) loss, and BRCA1 knockdown phenocopies TRMT10A loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
+- BRCA1 is recruited to DSBs via [TRMT10A](../genes/TRMT10A.md) pSer28; BRCA1 recruitment (but not protein abundance) is impaired by [TRMT10A](../genes/TRMT10A.md) or [USP10](../genes/USP10.md) loss, and BRCA1 knockdown phenocopies TRMT10A loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
 - 3 likely-inactivating truncating mutations (0.3%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on [olaparib](../drugs/olaparib.md) approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
 - BRCA1 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
@@ -81,7 +81,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Discussed as a potential mechanism of homologous recombination deficiency via promoter hypermethylation in uterine leiomyosarcoma (uLMS); not directly assayed for methylation by MSK-IMPACT in this 107-patient uterine sarcoma cohort [PMID:32299819](../papers/32299819.md)
 - Germline BRCA1 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm ([fuzuloparib](../drugs/fuzuloparib.md)) and anti-VEGFR arm ([apatinib](../drugs/apatinib.md)) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
 - BRCA1/BRCA2 were referenced as DDR alterations in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
-- BRCA1 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes ([MSH3](../genes/MSH3.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md), [MLH3](../genes/MLH3.md)), with [MLH1](../genes/MLH1.md) and MSH6 promoter hypomethylation; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
+- BRCA1 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes ([MSH3](../genes/MSH3.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md), [MLH3](../genes/MLH3.md)), with [MLH1](../genes/MLH1.md) and [MSH6](../genes/MSH6.md) promoter hypomethylation; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 - Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; specific carrier frequencies shown in Figure 4; rates similar between EO and AO CRC after adjustment. [PMID:34405229](../papers/34405229.md)
 - Germline variants in BRCA1 in 3 carriers in the 232-sample LCINS WGS cohort; [BRCA2](../genes/BRCA2.md) LOH enriched in RTK-RAS+ tumors; >15% of tumors have LOH of an HRD-associated gene, nominating PARP inhibitor candidates. [PMID:34493867](../papers/34493867.md)
 - Referenced as germline-mutation context for PARP-inhibitor therapy in pancreatic ductal adenocarcinoma in CPTAC PDAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
@@ -90,6 +90,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 captured as a clinical covariate (10/45 [HGSOC](../cancer_types/HGSOC.md) patients mutated); no association with curvature group (p=1.000); BRCA1 also appears in the top-50 positive Δκ risk list (rank 43, Δκ=0.003) [PMID:34819508](../papers/34819508.md)
 - Incidental high-penetrance germline mutation found in 1 MSI-H Nigerian colorectal cancer patient profiled by MSK-IMPACT (n=64 Nigerian tumors) [PMID:34819518](../papers/34819518.md)
 - BRCA1 — germline pathogenic variant among 49 germline SNVs identified across MAPPYACTS cohort (n=624 pediatric relapsed/refractory patients); cohort included CMMRD patients with hypermutation [PMID:35292802](../papers/35292802.md)
+- Explicitly no pathogenic germline BRCA1 mutations identified in 119 LGSC cases, contrasting with the 3.5–5.7% reported in prior LGSC literature and 20% in HGSC ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
+- Pathogenic alterations meeting PROfound criteria in 5/51 (9.8%) prostate cancer bone metastases; BRCA1/2 together are part of the 15 PROfound HRR genes evaluated for [olaparib](../drugs/olaparib.md) eligibility ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -290,5 +292,11 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

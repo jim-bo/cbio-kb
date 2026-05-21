@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # nivolumab
@@ -47,6 +47,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - Nivolumab (anti-PD-1) was among the ICI agents used in the 45-patient recurrent [HGSOC](../cancer_types/HGSOC.md) cohort; 25 patients received PD-1/PD-L1 monotherapy. Network curvature over CNA profiles stratified OS (median 7.4 vs 20.3 months, log-rank p=0.00047), with curvature not prognostic in a matched non-ICI HGSOC cohort, suggesting ICI-predictive specificity. [PMID:34819508](../papers/34819508.md)
 - Nivolumab (PD-1 inhibitor) was among PD1/PD-L1 inhibitor recommendations (n=31) in the MAPPYACTS trial for pediatric/young-adult recurrent malignancies with high TMB or other immunotherapy-relevant alterations [PMID:35292802](../papers/35292802.md)
 - Nivolumab + ipilimumab was administered to the MSK773 SCLC-P patient (POU2F3-driven [SCLC](../cancer_types/SCLC.md)) without response, illustrating limited ICB activity in the SCLC-P subtype [PMID:35440124](../papers/35440124.md)
+- In a pediatric/AYA solid tumor cWGTS study (n=114), high fusion/SV burden identified by WGS (not by MSK-IMPACT) in a metastatic adrenocortical carcinoma patient (H135022) informed nivolumab + ipilimumab treatment, resulting in complete response lasting 26 months post-cessation [PMID:35585047](../papers/35585047.md)
 
 ## Resistance mechanisms
 
@@ -65,75 +66,33 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 
 ## Sources
 
+- [PMID:22138691](../papers/22138691.md)
+- [PMID:24798001](../papers/24798001.md)
+- [PMID:24952746](../papers/24952746.md)
+- [PMID:26091043](../papers/26091043.md)
+- [PMID:26997480](../papers/26997480.md)
+- [PMID:29033130](../papers/29033130.md)
+- [PMID:29122777](../papers/29122777.md)
+- [PMID:29301960](../papers/29301960.md)
+- [PMID:29337640](../papers/29337640.md)
+- [PMID:29657128](../papers/29657128.md)
+- [PMID:30150660](../papers/30150660.md)
+- [PMID:30373752](../papers/30373752.md)
+- [PMID:30643254](../papers/30643254.md)
+- [PMID:30742119](../papers/30742119.md)
+- [PMID:31278255](../papers/31278255.md)
+- [PMID:31792460](../papers/31792460.md)
+- [PMID:32317181](../papers/32317181.md)
+- [PMID:32913971](../papers/32913971.md)
+- [PMID:33509808](../papers/33509808.md)
+- [PMID:34819508](../papers/34819508.md)
+- [PMID:35292802](../papers/35292802.md)
+- [PMID:35440124](../papers/35440124.md)
+- [PMID:35585047](../papers/35585047.md)
+- [PMID:36228155](../papers/36228155.md)
 - [PMID:38630790](../papers/38630790.md)
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22138691](../papers/22138691.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29301960](../papers/29301960.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29337640](../papers/29337640.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29657128](../papers/29657128.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:30150660](../papers/30150660.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:30643254](../papers/30643254.md)
-- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, Columbia/Northwestern [GBM](../cancer_types/GBM.md) cohort (n=66); nivolumab/pembrolizumab in recurrent GBM; PTEN mutations (OR=8.5) predicted non-response; MAPK alterations predicted response; TMB not predictive.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:31792460](../papers/31792460.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:32317181](../papers/32317181.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:32913971](../papers/32913971.md)
-
-- [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:34819508](../papers/34819508.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

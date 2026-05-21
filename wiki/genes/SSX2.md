@@ -3,20 +3,21 @@ symbol: SSX2
 aliases: [CT5.2, HOM-MEL-40]
 cancer_types: [SS]
 tags: [fusion-gene, sarcoma, synovial-sarcoma, t(X;18), cancer-testis-antigen]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # SSX2
 
 ## Overview
 
-SSX2 (SSX Family Member 2) is a cancer-testis antigen gene located on chromosome Xp11, closely related to [SSX1](../genes/SSX1.md). It is a fusion partner with [SS18](../genes/SS18.md) in the t(X;18)(p11;q11) translocation that defines synovial sarcoma. The SS18-SSX2 fusion protein, like SS18-SSX1, disrupts BAF (SWI/SNF) chromatin remodeling complex function. SSX2 is the less common fusion partner compared to SSX1 in synovial sarcoma.
+SSX2 (SSX Family Member 2) is a cancer-testis antigen gene located on chromosome Xp11, closely related to [SSX1](../genes/SSX1.md). It is a fusion partner with [SS18](../genes/SS18.md) in the t(X;18)(p11;q11) translocation that defines synovial sarcoma. The SS18-SSX2 fusion protein, like SS18-SSX1, disrupts BAF (SWI/SNF) chromatin remodeling complex function. SSX2 is the less common fusion partner compared to [SSX1](../genes/SSX1.md) in synovial sarcoma.
 
 ## Alterations observed in the corpus
 
-- t(X;18) [SS18](../genes/SS18.md)-SSX2 fusion present in a subset of synovial sarcoma ([SS](../cancer_types/SS.md)) cases in the TCGA pan-sarcoma cohort; SS18-SSX fusions (SSX1 or SSX2) present in 100% of SS [PMID:29100075](../papers/29100075.md).
-- SSX2 is a fusion partner of SS18 (SS18–SSX2) in synovial sarcoma; identified by the Fusion AWG in the PanCanAtlas pan-cancer integration as a canonical disease-defining fusion [PMID:29625049](../papers/29625049.md)
+- t(X;18) [SS18](../genes/SS18.md)-SSX2 fusion present in a subset of synovial sarcoma ([SS](../cancer_types/SS.md)) cases in the TCGA pan-sarcoma cohort; SS18-SSX fusions (SSX1 or SSX2) present in 100% of [SS](../cancer_types/SS.md) [PMID:29100075](../papers/29100075.md).
+- SSX2 is a fusion partner of [SS18](../genes/SS18.md) (SS18–SSX2) in synovial sarcoma; identified by the Fusion AWG in the PanCanAtlas pan-cancer integration as a canonical disease-defining fusion [PMID:29625049](../papers/29625049.md)
+- SS18-SSX2 confirmed as the true fusion partner in a synovial sarcoma by cWGTS spanning reads, correcting an erroneous MSK-Fusion clinical panel call of SS18-SSX1 [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ SSX2 (SSX Family Member 2) is a cancer-testis antigen gene located on chromosome
 
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -8,8 +8,8 @@ tags:
   - dna-repair
   - fanconi-anemia
   - homologous-recombination
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FANCA
@@ -25,12 +25,13 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - Listed as a gene observed in the TCGA papillary thyroid carcinoma (PTC) cohort ([thca_tcga_pub](../datasets/thca_tcga_pub.md)); specific alteration details not described in the narrative sections of this paper. [PMID:25417114](../papers/25417114.md)
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
 - Broader DNA-repair pathway alteration contributing to 22.7% aggregate HRR deficiency in mCRPC [PMID:26000489](../papers/26000489.md)
-- FANCA is part of the 15-gene FA pathway signature upregulated in high-CCP mCRPC tumors; homozygous deleterious FANCA events classify patients into the DNA-repair-defect group with significantly longer carboplatin response (log-rank P = 0.02; 20 treated men) [PMID:26928463](../papers/26928463.md)
-- FANCA identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCI, FANCM, LZTR1, and XRCC3 [PMID:27346245](../papers/27346245.md)
-- FANCA germline heterozygous deletion combined with somatic stopgain mutation identified in one HNSC patient sequenced with MSK-IMPACT; proposed as a potential cisplatin-sensitivity biomarker [PMID:27442865](../papers/27442865.md)
-- Identified as a somatic HR pathway gene in prostate cancer; CDK12 and FANCA loss hypothesized to confer PARP inhibitor sensitivity, though clinical significance remains emerging per OncoKB at time of publication [PMID:28825054](../papers/28825054.md)
+- FANCA is part of the 15-gene FA pathway signature upregulated in high-CCP mCRPC tumors; homozygous deleterious FANCA events classify patients into the DNA-repair-defect group with significantly longer [carboplatin](../drugs/carboplatin.md) response (log-rank P = 0.02; 20 treated men) [PMID:26928463](../papers/26928463.md)
+- FANCA identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside [ATM](../genes/ATM.md), [CHEK2](../genes/CHEK2.md), [BAP1](../genes/BAP1.md), [FANCI](../genes/FANCI.md), [FANCM](../genes/FANCM.md), [LZTR1](../genes/LZTR1.md), and [XRCC3](../genes/XRCC3.md) [PMID:27346245](../papers/27346245.md)
+- FANCA germline heterozygous deletion combined with somatic stopgain mutation identified in one [HNSC](../cancer_types/HNSC.md) patient sequenced with MSK-IMPACT; proposed as a potential cisplatin-sensitivity biomarker [PMID:27442865](../papers/27442865.md)
+- Identified as a somatic HR pathway gene in prostate cancer; [CDK12](../genes/CDK12.md) and FANCA loss hypothesized to confer PARP inhibitor sensitivity, though clinical significance remains emerging per OncoKB at time of publication [PMID:28825054](../papers/28825054.md)
 - Among representative cancer-associated genes inside significant copy-number-loss peaks (GISTIC2.0) in driver-less cases across the PCAWG pan-cancer cohort (n=2,658 donors) [PMID:32025007](../papers/32025007.md)
 - Lost more frequently in CDK12-biallelic prostate cancer vs CDK12-WT tumors in a pan-cancer MSK-IMPACT cohort (N=26,743; 1,875 prostate cases) [PMID:32317181](../papers/32317181.md)
+- Pathogenic germline FANCA mutation identified in 1/119 patients with low-grade serous ovarian carcinoma ([LGSOC](../cancer_types/LGSOC.md)) sequenced by MSK-IMPACT; among a broader 9% germline pathogenic variant rate [PMID:35443055](../papers/35443055.md)
 
 ## Cancer types (linked)
 
@@ -61,22 +62,25 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -13,11 +13,11 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Adavosertib (AZD1775) is a selective inhibitor of [WEE1](../genes/WEE1.md) kinase, which phosphorylates and inactivates [CDK1](../genes/CDK1.md), a key regulator of the G2/M checkpoint. WEE1 inhibition forces cells with DNA damage (particularly TP53-deficient tumors that lack the G1 checkpoint) into premature mitosis, causing mitotic catastrophe. It is under investigation primarily in solid tumors with [TP53](../genes/TP53.md) loss.
+Adavosertib (AZD1775) is a selective inhibitor of [WEE1](../genes/WEE1.md) kinase, which phosphorylates and inactivates [CDK1](../genes/CDK1.md), a key regulator of the G2/M checkpoint. [WEE1](../genes/WEE1.md) inhibition forces cells with DNA damage (particularly TP53-deficient tumors that lack the G1 checkpoint) into premature mitosis, causing mitotic catastrophe. It is under investigation primarily in solid tumors with [TP53](../genes/TP53.md) loss.
 
 ## Evidence in the corpus
 
-- Adavosertib (WEE1 inhibitor) was the most frequently recommended drug class (n=150 recommendations) in the MAPPYACTS precision-oncology trial (NCT02613962) for pediatric/young-adult recurrent malignancies; TP53 alterations (n=215) drove WEE1 inhibitor matching, with TP53 + WEE1 inhibition combinations explored in AcSé-ESMART platform arms [PMID:35292802](../papers/35292802.md)
+- Adavosertib (WEE1 inhibitor) was the most frequently recommended drug class (n=150 recommendations) in the MAPPYACTS precision-oncology trial (NCT02613962) for pediatric/young-adult recurrent malignancies; [TP53](../genes/TP53.md) alterations (n=215) drove WEE1 inhibitor matching, with TP53 + WEE1 inhibition combinations explored in AcSé-ESMART platform arms [PMID:35292802](../papers/35292802.md)
 
 ## Resistance mechanisms
 

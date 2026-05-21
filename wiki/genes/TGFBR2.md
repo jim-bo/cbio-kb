@@ -15,11 +15,11 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 
 ## Alterations observed in the corpus
 
-- Significantly mutated in [ESCC](../cancer_types/ESCC.md) ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=90 ESCC), identified by MutSigCV2.0 analysis. [PMID:28052061](../papers/28052061.md)
+- Significantly mutated in [ESCC](../cancer_types/ESCC.md) ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=90 [ESCC](../cancer_types/ESCC.md)), identified by MutSigCV2.0 analysis. [PMID:28052061](../papers/28052061.md)
 - GCB-selective CRISPR essential dependency in DLBCL [PMID:28985567](../papers/28985567.md)
 - Frameshift mutations reduce TGFBR2-S553 phosphosite abundance in colon cancer proteogenomics ([coad_cptac_2019](../datasets/coad_cptac_2019.md)) [PMID:31031003](../papers/31031003.md)
 - Altered in >=5% of PDAC tumors in the CPTAC 2021 proteogenomic cohort (n=140 treatment-naive resected tumors); one of the recurrently mutated non-KRAS/TP53/CDKN2A/SMAD4 genes in PDAC [PMID:34534465](../papers/34534465.md)
-- TGFBR2 listed among genes profiled by MSK-IMPACT in [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients at MSK; present in the frontmatter gene list for the MSK SCLC PDX cohort ([lung_pdx_msk_2021](../datasets/lung_pdx_msk_2021.md)) [PMID:35440124](../papers/35440124.md).
+- TGFBR2 listed among genes profiled by MSK-IMPACT in [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients at MSK; present in the frontmatter gene list for the MSK [SCLC](../cancer_types/SCLC.md) PDX cohort ([lung_pdx_msk_2021](../datasets/lung_pdx_msk_2021.md)) [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 

@@ -16,7 +16,7 @@ EPCAM (Epithelial Cell Adhesion Molecule) is a cell-surface glycoprotein that ma
 
 ## Alterations observed in the corpus
 
-- EPCAM, [KRT19](../genes/KRT19.md), and [GPC3](../genes/GPC3.md) form a stem-cell/progenitor-cell signature; expression is prognostic in subsets of HCC [PMID:24735922](../papers/24735922.md)
+- EPCAM, [KRT19](../genes/KRT19.md), and [GPC3](../genes/GPC3.md) form a stem-cell/progenitor-cell signature; expression is prognostic in subsets of [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
 - EPCAM overexpression marks the S2 progenitor-cell proliferation subclass in HCC (~50% of tumors), associated with AFP and [IGF2](../genes/IGF2.md) co-expression, HBV aetiology, and poor outcomes. [PMID:24798001](../papers/24798001.md)
 - Germline loss of EPCAM (exons 8–9 deletion) confers Lynch syndrome gastric cancer risk; included in the recommended multigene germline panel for familial non-hereditary gastric cancer. [PMID:24816255](../papers/24816255.md)
 - EPCAM is an epithelial surface antigen targeted by autologous CAR-T therapy in [NPC](../cancer_types/NPC.md) (n=12, ORR 16.7%) in platinum-refractory recurrent/metastatic disease. [PMID:24952746](../papers/24952746.md)
@@ -31,7 +31,7 @@ EPCAM (Epithelial Cell Adhesion Molecule) is a cell-surface glycoprotein that ma
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with KRT19 and GPC3 as a progenitor-cell signature in HCC [PMID:24735922](../papers/24735922.md)
+- Co-expressed with [KRT19](../genes/KRT19.md) and [GPC3](../genes/GPC3.md) as a progenitor-cell signature in HCC [PMID:24735922](../papers/24735922.md)
 
 ## Therapeutic relevance
 

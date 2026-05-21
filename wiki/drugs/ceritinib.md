@@ -17,8 +17,8 @@ Ceritinib is a second-generation, irreversible [ALK](../genes/ALK.md) tyrosine k
 
 ## Evidence in the corpus
 
-- In uterine sarcoma genomic profiling, an ALK-fusion patient (initially classified as uLMS, reclassified as inflammatory myofibroblastic tumor) had a brief response to crizotinib, progressed, then progressed again on ceritinib, illustrating sequential [ALK](../genes/ALK.md) inhibitor resistance in an [IMT](../cancer_types/IMT.md) reclassified from sarcoma [PMID:32299819](../papers/32299819.md)
-- Ceritinib ([ALK](../genes/ALK.md) inhibitor) is among the targeted therapies used in MAPPYACTS precision-oncology trial; ALK fusions (n=10) were classified ready-for-routine-use and ALK inhibitors were administered within the AcSé-ESMART platform [PMID:35292802](../papers/35292802.md)
+- In uterine sarcoma genomic profiling, an ALK-fusion patient (initially classified as uLMS, reclassified as inflammatory myofibroblastic tumor) had a brief response to [crizotinib](../drugs/crizotinib.md), progressed, then progressed again on ceritinib, illustrating sequential [ALK](../genes/ALK.md) inhibitor resistance in an [IMT](../cancer_types/IMT.md) reclassified from sarcoma [PMID:32299819](../papers/32299819.md)
+- Ceritinib ([ALK](../genes/ALK.md) inhibitor) is among the targeted therapies used in MAPPYACTS precision-oncology trial; [ALK](../genes/ALK.md) fusions (n=10) were classified ready-for-routine-use and ALK inhibitors were administered within the AcSé-ESMART platform [PMID:35292802](../papers/35292802.md)
 
 ## Resistance mechanisms
 

@@ -18,7 +18,7 @@ PTPRT (protein tyrosine phosphatase receptor type T) encodes a receptor-type pho
 - Missense mutations in 17% of RT-OS vs 7% of sporadic [OS](../cancer_types/OS.md), indicating enrichment in radiation-associated osteosarcoma [PMID:37350195](../papers/37350195.md).
 - Frequently co-mutated with [BRAF](../genes/BRAF.md) in BRAF-mutant melanoma; most variants were VUS likely representing passenger events given the high tumor mutational burden [PMID:32913971](../papers/32913971.md)
 - Assessed at ≥2% alteration frequency in [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
-- PTPRT listed among genes profiled by MSK-IMPACT in [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients at MSK; present in the frontmatter gene list for the SCLC PDX cohort [PMID:35440124](../papers/35440124.md).
+- PTPRT listed among genes profiled by MSK-IMPACT in [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients at MSK; present in the frontmatter gene list for the [SCLC](../cancer_types/SCLC.md) PDX cohort [PMID:35440124](../papers/35440124.md).
 
 ## Cancer types (linked)
 

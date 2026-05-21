@@ -27,10 +27,11 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - Medulloblastoma (MBL) whole-genome sequencing revealed recurrent somatic mutations and structural variants, including subgroup-specific alterations in WNT, [SHH](../genes/SHH.md), Group 3, and Group 4 tumors [PMID:26760213](../papers/26760213.md)
 - PIPseq cohort: [KDM6A](../genes/KDM6A.md) M997fs used for risk-stratification (group 4 classification); PTCH1/SUFU/ZIC3 overexpression identified as SMO-inhibitor target; [ATM](../genes/ATM.md) R189K + K2756* germline variants flagged for increased risk of other cancers [PMID:28007021](../papers/28007021.md)
 - ICGC/MAGIC integrated WGS (n=491) and methylation profiling (n=1,256) of medulloblastoma defined driver events in 76% of Group 3 and 82% of Group 4 cases; identified [KBTBD4](../genes/KBTBD4.md) hotspot in-frame insertions (Groups 3/4), [SNCAIP](../genes/SNCAIP.md) tandem-duplication-driven [PRDM6](../genes/PRDM6.md) enhancer hijacking (17% of Group 4, most prevalent Group 4 driver), and eight DNA-methylation-defined Group 3/4 subtypes. [PMID:28726821](../papers/28726821.md)
-- Germline WES of 372 pediatric cancer patients (Düsseldorf) included brain tumor cases; brain tumors represented 71 of 372 patients (19%); LP/PV carriers included medulloblastoma patient (LPP_01) carrying a monoallelic ATM pLoF LP/PV [PMID:29489754](../papers/29489754.md)
+- Germline WES of 372 pediatric cancer patients (Düsseldorf) included brain tumor cases; brain tumors represented 71 of 372 patients (19%); LP/PV carriers included medulloblastoma patient (LPP_01) carrying a monoallelic [ATM](../genes/ATM.md) pLoF LP/PV [PMID:29489754](../papers/29489754.md)
 - 20 medulloblastoma PDX models in PPTC cohort spanning [SHH](../genes/SHH.md) (n=7), WNT (n=2), Group 3 (n=7), Group 4 (n=3) subtypes; C19MC amplification, [LIN28A](../genes/LIN28A.md) overexpression, and/or TTYH1 fusions characterized ETMR models in this histology group [PMID:31693904](../papers/31693904.md).
 - 22 pediatric medulloblastomas profiled proteogenomically; all three recurrent MBL cases acquired new [TP53](../genes/TP53.md) mutations absent in matched primaries; CDK1/CDK2 kinase activity was elevated; chromosomal breakpoints increased from 32 to 53 on average at recurrence [PMID:33242424](../papers/33242424.md)
 - Medulloblastoma (MBL) was enrolled in MAPPYACTS (CNS 28% of 787 patients); [PTCH1](../genes/PTCH1.md) mutation/deletion (n=4 in SHH-pathway MBL) was ready-for-routine-use; 3 hypermutated medulloblastoma patients had TMB >10 mut/Mb linked to probable constitutional MMR deficiency [PMID:35292802](../papers/35292802.md)
+- Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 
 ## Subtypes
 
@@ -56,5 +57,8 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

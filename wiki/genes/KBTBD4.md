@@ -3,8 +3,8 @@ symbol: KBTBD4
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # KBTBD4
@@ -18,6 +18,7 @@ KBTBD4 (Kelch Repeat And BTB Domain Containing 4) encodes a BTB-Kelch domain pro
 - Recurrent in-frame insertions in the Kelch domain (residues 308–313); 18/20 KBTBD4 variants were in-frame indels in medulloblastoma [PMID:28726821](../papers/28726821.md)
 - Predominant Group 3 insertion: R313delinsPRR; predominant Group 4 insertion: P311delinsPP [PMID:28726821](../papers/28726821.md)
 - Highly enriched in methylation subtypes II (21%) and VII (14%); homology modelling places insertions on the substrate-binding interface, suggesting altered substrate recognition rather than loss of fold [PMID:28726821](../papers/28726821.md)
+- KBTBD4 p.R313_M314insPRR disease-defining mutation identified by cWGTS in a pineal parenchymal tumor of intermediate differentiation ([PPTID](../cancer_types/PPTID.md)) in a pediatric patient [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +40,7 @@ KBTBD4 (Kelch Repeat And BTB Domain Containing 4) encodes a BTB-Kelch domain pro
 
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

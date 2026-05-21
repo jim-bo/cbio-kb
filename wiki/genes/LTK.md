@@ -8,7 +8,7 @@ tags:
   - receptor-tyrosine-kinase
   - thyroid-cancer
 processed_by: crosslinker
-processed_at: 2026-05-14
+processed_at: 2026-05-21
 ---
 
 # LTK
@@ -20,6 +20,7 @@ LTK (Leukocyte Receptor Tyrosine Kinase) is a receptor tyrosine kinase in the AL
 ## Alterations observed in the corpus
 
 - LTK fusion detected in 1 of ~484 PTC tumors profiled; categorized among non-recurrent receptor tyrosine kinase fusions alongside [MET](../genes/MET.md) fusions in the TCGA integrated genomic characterization of papillary thyroid carcinoma [PMID:25417114](../papers/25417114.md)
+- UACA-LTK fusion identified by cWGTS in a metastatic papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md)) patient; not detected by standard panel assays; represents a novel actionable fusion in thyroid cancer [PMID:35585047](../papers/35585047.md).
 
 ## Cancer types (linked)
 
@@ -41,4 +42,7 @@ LTK (Leukocyte Receptor Tyrosine Kinase) is a receptor tyrosine kinase in the AL
 
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -16,7 +16,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a known activating ligand but serves as a preferred dimerization partner for other ERBB family members. ERBB2 amplification is a major oncogenic driver and therapeutic target across multiple cancer types, most prominently breast and gastric/gastroesophageal junction ([GEJ](../cancer_types/GEJ.md)) cancers. HER2-targeted therapies ([trastuzumab](../drugs/trastuzumab.md), [pertuzumab](../drugs/pertuzumab.md), trastuzumab deruxtecan) have established clinical benefit in HER2-amplified tumors.
+ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a known activating ligand but serves as a preferred dimerization partner for other ERBB family members. ERBB2 amplification is a major oncogenic driver and therapeutic target across multiple cancer types, most prominently breast and gastric/gastroesophageal junction ([GEJ](../cancer_types/GEJ.md)) cancers. HER2-targeted therapies ([trastuzumab](../drugs/trastuzumab.md), [pertuzumab](../drugs/pertuzumab.md), [trastuzumab](../drugs/trastuzumab.md) deruxtecan) have established clinical benefit in HER2-amplified tumors.
 
 ## Alterations observed in the corpus
 
@@ -30,16 +30,17 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - Amplification more frequent in esophageal cancer patients with lung metastasis (16% primary vs 37% lung met, q<0.001), identifying ERBB2 as a marker of lung-tropic dissemination in esophageal adenocarcinoma [PMID:35120664](../papers/35120664.md)
 - ERBB2/3/4 together with [EGFR](../genes/EGFR.md) accounted for ~5% of CNS-tumor oncomap alterations in the MAPPYACTS pediatric relapsed/refractory WES cohort (n=787); investigational ERBB-inhibitor matches were generated. [PMID:35292802](../papers/35292802.md)
 - ERBB2 was altered in 16% of MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients (predominantly amplification) in a neoadjuvant chemoradiotherapy cohort (n=237); alteration was not significantly associated with pathologic treatment response. Ten patients received neoadjuvant trastuzumab based on clinical HER2 status. [PMID:35377946](../papers/35377946.md)
+- Altered in 5 LGSC cases including 2 amplifications and 1 Y772_A775dup hotspot; included in the MAPK pathway-altered group in a study of 119 MSK-IMPACT-sequenced LGSC patients [PMID:35443055](../papers/35443055.md)
 
 ## Cancer types (linked)
 
-- **Esophageal/gastroesophageal junction adenocarcinoma (EAC):** amplification in 22%; independently associated with longer OS (multivariable HR 0.65, p=0.009), enriched in advanced-stage PIT cohort; survival benefit largely attributable to trastuzumab treatment in 86/108 patients; associated with better differentiation and trended mutually exclusive with MDM2/RTK-RAS-PIK3 alterations [PMID:33795256](../papers/33795256.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** amplification in 22%; independently associated with longer [OS](../cancer_types/OS.md) (multivariable HR 0.65, p=0.009), enriched in advanced-stage PIT cohort; survival benefit largely attributable to trastuzumab treatment in 86/108 patients; associated with better differentiation and trended mutually exclusive with MDM2/RTK-RAS-PIK3 alterations [PMID:33795256](../papers/33795256.md).
 - **Melanoma ([MEL](../cancer_types/MEL.md)):** part of 28-gene RTK driver landscape; appears primarily as a co-alteration in the MSK-IMPACT melanoma cohort [PMID:33509808](../papers/33509808.md).
 - **Intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)):** rare amplification (n=7); not independently prognostic in this cohort [PMID:33765338](../papers/33765338.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Trended toward mutual exclusivity with MDM2 amplification and RTK-RAS-PIK3 alterations in EAC (known mediators of chemo/trastuzumab resistance); not statistically confirmed at q<0.05 in this cohort [PMID:33795256](../papers/33795256.md).
+- Trended toward mutual exclusivity with [MDM2](../genes/MDM2.md) amplification and RTK-RAS-PIK3 alterations in EAC (known mediators of chemo/trastuzumab resistance); not statistically confirmed at q<0.05 in this cohort [PMID:33795256](../papers/33795256.md).
 - In melanoma, ERBB2 co-occurs with other RTK-RAS pathway alterations [PMID:33509808](../papers/33509808.md).
 
 ## Therapeutic relevance
@@ -78,5 +79,8 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

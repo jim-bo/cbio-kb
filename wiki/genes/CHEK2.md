@@ -20,7 +20,9 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 - Identified among moderate/low-penetrance germline cancer-predisposition genes interrogated in early-onset colorectal cancer; rates similar between EO-CRC and AO-CRC after adjustment [PMID:34405229](../papers/34405229.md)
 - Loss of heterozygosity (LOH) at CHEK2 independently associated with poor overall survival in lung cancers from never smokers (LCINS; HR significant in Cox PH analysis) [PMID:34493867](../papers/34493867.md)
 - Cited as a DDR-pathway gene whose clonal hematopoiesis clones expand under therapeutic pressure in adult oncology cohorts; context reference within study of pediatric neuroblastoma therapy-related MDS/AL surveillance [PMID:35078859](../papers/35078859.md)
-- ATM and CHEK2 mutations were identified in the [TP53](../genes/TP53.md) pathway in MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients but were rare and did not drive the pathway signal, which was dominated by TP53 and [MDM2](../genes/MDM2.md) alterations. [PMID:35377946](../papers/35377946.md)
+- [ATM](../genes/ATM.md) and CHEK2 mutations were identified in the [TP53](../genes/TP53.md) pathway in MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients but were rare and did not drive the pathway signal, which was dominated by [TP53](../genes/TP53.md) and [MDM2](../genes/MDM2.md) alterations. [PMID:35377946](../papers/35377946.md)
+- Pathogenic germline variant identified in a low-grade serous ovarian carcinoma (LGSC) patient; germline pathogenic mutation rate was 9% across an 88-gene panel in 119 LGSC patients [PMID:35443055](../papers/35443055.md)
+- Part of the 15 PROfound HRR genes assessed in prostate cancer brain metastases (PCBM); 10/51 (19.6%) PCBM patients qualified by alteration in any PROfound HRR gene including CHEK2 [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -36,7 +38,7 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 
 ## Open questions
 
-- Whether germline CHEK2 variants influence retinoblastoma tumorigenesis, clinical course (beyond RB1 as primary driver), or second-cancer risk in retinoblastoma patients is unknown; all carriers in this cohort showed intraocular disease only [PMID:33466343](../papers/33466343.md).
+- Whether germline CHEK2 variants influence retinoblastoma tumorigenesis, clinical course (beyond [RB1](../genes/RB1.md) as primary driver), or second-cancer risk in retinoblastoma patients is unknown; all carriers in this cohort showed intraocular disease only [PMID:33466343](../papers/33466343.md).
 
 ## Sources
 
@@ -53,5 +55,11 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

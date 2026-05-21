@@ -9,8 +9,8 @@ unverified: false
 assays: [bulk-rna-seq, methylation-array, snp-microarray, whole-exome-seq]
 panels: []
 tags: [prostate-cancer, prad, tcga, multi-platform]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # Prostate Adenocarcinoma (TCGA, 2015)
@@ -32,33 +32,38 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 
 - [PMID:38488813](../papers/38488813.md) — Integrative Molecular Analyses of the MD Anderson Prostate Cancer Patient-derived Xenograft (MDA PCa PDX) Series.
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: queried for NEPC classifier validation (n=460 treatment-naïve adenocarcinomas scored NEPC-high at 0%).
-- [PMID:26928463](../papers/26928463.md) — Kumar et al., *Nat Genet* 2016: queried to verify metastasis-private mutations from prad_fhcrc rapid-autopsy cohort are non-driver.
+- [PMID:26928463](../papers/26928463.md) — Kumar et al., *Nat Genet* 2016: queried to verify metastasis-private mutations from [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort are non-driver.
+- [PMID:35504881](../papers/35504881.md) — Rodriguez-Calero et al., *Nat Commun* 2022: used as primary-PCa comparator for HRD-signature enrichment in prostate cancer brain metastases.
 
 ## Notable findings derived from this cohort
 
-- [FGFR1](../genes/FGFR1.md) promoter CpG methylation inversely correlated with [FGFR1](../genes/FGFR1.md) expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of FGFR1 in prostate cancer. [PMID:38488813](../papers/38488813.md)
+- [FGFR1](../genes/FGFR1.md) promoter CpG methylation inversely correlated with [FGFR1](../genes/FGFR1.md) expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of [FGFR1](../genes/FGFR1.md) in prostate cancer. [PMID:38488813](../papers/38488813.md)
 - Queried for the NEPC classifier validation (n=460 treatment-naïve adenocarcinomas); 0% scored NEPC-high, confirming the classifier's specificity for castration-resistant neuroendocrine disease [PMID:26855148](../papers/26855148.md)
-- Used alongside prad_su2c_2015 to validate that metastasis-private mutations found at autopsy in the prad_fhcrc cohort are unlikely to be drivers (only 2/51 occurred at >5% frequency in these cohorts) [PMID:26928463](../papers/26928463.md)
-- Used for TRMT10A expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and TRMT10A amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) [PMID:28068672](../papers/28068672.md)
-- Cited as a comparison primary-prostate-cancer cohort in the MSK-IMPACT prostate study; MSK locoregional tumors showed higher TP53 and FOXA1 frequencies than TCGA primaries [PMID:28825054](../papers/28825054.md).
-- Used to validate NOL10 overexpression in tumor vs. normal prostate, allele-specific BCR and survival outcomes (rs4519489 A/A genotype HR=13.05 for OS, P=0.038), and correlation of elevated NOL10 with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) [PMID:28927585](../papers/28927585.md).
-- External RNA-seq reference: SLC16A1 (MCT1) and LDHA were significantly upregulated in prostate tumor vs. matched normal in TCGA PRAD bulk RNA-seq (limma voom on RSEM-normalized Firebrowse data), validating IHC findings in the MSK HP-MRI cohort [PMID:31564440](../papers/31564440.md).
+- Used alongside [prad_su2c_2015](../datasets/prad_su2c_2015.md) to validate that metastasis-private mutations found at autopsy in the prad_fhcrc cohort are unlikely to be drivers (only 2/51 occurred at >5% frequency in these cohorts) [PMID:26928463](../papers/26928463.md)
+- Used for [TRMT10A](../genes/TRMT10A.md) expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and TRMT10A amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) [PMID:28068672](../papers/28068672.md)
+- Cited as a comparison primary-prostate-cancer cohort in the MSK-IMPACT prostate study; MSK locoregional tumors showed higher [TP53](../genes/TP53.md) and [FOXA1](../genes/FOXA1.md) frequencies than TCGA primaries [PMID:28825054](../papers/28825054.md).
+- Used to validate [NOL10](../genes/NOL10.md) overexpression in tumor vs. normal prostate, allele-specific [BCR](../genes/BCR.md) and survival outcomes (rs4519489 A/A genotype HR=13.05 for [OS](../cancer_types/OS.md), P=0.038), and correlation of elevated NOL10 with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) [PMID:28927585](../papers/28927585.md).
+- External RNA-seq reference: [SLC16A1](../genes/SLC16A1.md) (MCT1) and [LDHA](../genes/LDHA.md) were significantly upregulated in prostate tumor vs. matched normal in TCGA [PRAD](../cancer_types/PRAD.md) bulk RNA-seq (limma voom on RSEM-normalized Firebrowse data), validating IHC findings in the MSK HP-MRI cohort [PMID:31564440](../papers/31564440.md).
+- Used as comparator primary-PCa cohort (n=495) for elevated HRD signature (SBS3) in prostate cancer brain metastases versus TCGA primary tumors (q=0.0003; q=0.0034 vs high-grade TCGA subset) [PMID:35504881](../papers/35504881.md)
 
 ## Sources
 
 - cBioPortal study `prad_tcga` [PMID:38488813](../papers/38488813.md).
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort (n=460 treatment-naïve adenocarcinomas).
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28068672](../papers/28068672.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28927585](../papers/28927585.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31564440](../papers/31564440.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

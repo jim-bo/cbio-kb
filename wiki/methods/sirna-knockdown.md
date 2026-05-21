@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [functional-assay, gene-silencing, rnai, cell-biology]
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # siRNA Knockdown
@@ -17,7 +17,8 @@ siRNA (small interfering RNA) knockdown is an RNA interference (RNAi) technique 
 
 ## Used by
 
-- Used to silence [ZFP36L1](../genes/ZFP36L1.md) in the TCCSUP bladder cancer cell line; knockdown caused loss of E-cadherin, EMT-consistent spindle-shaped morphology, and significantly increased migration on transwell assay with no effect on proliferation or apoptosis, supporting ZFP36L1 as a tumor suppressor driving invasion in urothelial carcinoma [PMID:33397444](../papers/33397444.md)
+- Used to silence [ZFP36L1](../genes/ZFP36L1.md) in the TCCSUP bladder cancer cell line; knockdown caused loss of E-cadherin, EMT-consistent spindle-shaped morphology, and significantly increased migration on transwell assay with no effect on proliferation or apoptosis, supporting [ZFP36L1](../genes/ZFP36L1.md) as a tumor suppressor driving invasion in urothelial carcinoma [PMID:33397444](../papers/33397444.md)
+- siRNA double-knockdown of YAP/TAZ in CRPC-SCL models MSKPCa3 and DU145 significantly decreased cell growth (two-tailed unpaired t-test P < 0.0001) but not in CRPC-AR models MSKPCa2 and 22Rv1; also depleted [FOSL1](../genes/FOSL1.md) at RNA and protein levels [PMID:35617398](../papers/35617398.md)
 
 ## Notes
 
@@ -28,4 +29,7 @@ siRNA (small interfering RNA) knockdown is an RNA interference (RNAi) technique 
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: PRKCZ
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-06"
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # PRKCZ
@@ -16,6 +16,7 @@ PRKCZ (Protein Kinase C Zeta) encodes an atypical serine/threonine kinase that i
 ## Alterations observed in the corpus
 
 - Mutation identified in 1 case in a WGS study of 65 triple-negative breast cancers (TNBC); ranked 32nd by driverNet driver scoring [PMID:22495314](../papers/22495314.md)
+- Kinase with decreased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a 122-patient HCC multi-omics cohort (WES + RNA-seq + proteome + phosphoproteome) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ PRKCZ (Protein Kinase C Zeta) encodes an atypical serine/threonine kinase that i
 
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

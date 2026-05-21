@@ -3,8 +3,8 @@ symbol: HLA-A
 aliases: []
 cancer_types: [HGSOC]
 tags: [immune-evasion, antigen-presentation, MHC-I, interferon-signaling, ovarian-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # HLA-A
@@ -23,10 +23,11 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - Nonsense/splice-site loss-of-function mutations in 7 of 8 mutated cases; novel finding in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q < 0.1); implicated in immune evasion; relevant to immunotherapy patient selection [PMID:22960745](../papers/22960745.md)
 - Significantly mutated in 3% of HNSCC; immune-evasion role; implicated alongside [B2M](../genes/B2M.md) in antigen presentation pathway alterations (7% HPV(-), 11% HPV(+)) [PMID:25631445](../papers/25631445.md)
 - 96 somatic HLA class I (HLA-A/B/C) mutations in 11% of colorectal cancer cases; biased toward exon 4 (TCR-binding domain) and peptide-contact residues in exons 2-3; mutated alleles carry more neoantigens than non-mutated alleles (Wilcoxon p=0.006) [PMID:26997480](../papers/26997480.md)
-- B2M focally deleted in both lung ADC and SqCC, enriched for loss-of-function mutations (Pan-Lung FDR q=0.006); HLA-A/B implicated in MHC-I antigen presentation loss in TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
-- Antigen-presentation gene profiled in OncoPrint alongside JAK1/JAK2/JAK3, POLE, CD274, PTEN, and ATR in a 240-patient NSCLC immunotherapy cohort; targeted panels were noted to lack comprehensive HLA coverage, motivating future panel expansion [PMID:29337640](../papers/29337640.md)
+- [B2M](../genes/B2M.md) focally deleted in both lung ADC and SqCC, enriched for loss-of-function mutations (Pan-Lung FDR q=0.006); HLA-A/B implicated in MHC-I antigen presentation loss in TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
+- Antigen-presentation gene profiled in OncoPrint alongside JAK1/JAK2/JAK3, [POLE](../genes/POLE.md), [CD274](../genes/CD274.md), [PTEN](../genes/PTEN.md), and [ATR](../genes/ATR.md) in a 240-patient [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; targeted panels were noted to lack comprehensive HLA coverage, motivating future panel expansion [PMID:29337640](../papers/29337640.md)
 - HLA-A focal amplification (chr 6p21 MHC-I region, ~1.5 Mb) found exclusively in anti-PD1 responders among 144 advanced melanoma patients (n=6; Fisher's P=0.008); HLA-A LOH was not associated with response (Fisher's P=0.52) [PMID:31792460](../papers/31792460.md)
 - Recurrently altered at ~3.6% in MSK-IMPACT retinoblastoma cohort (n=83); listed among the top ten non-RB1 recurrently altered genes with putative-driver variants [PMID:33466343](../papers/33466343.md)
+- HLA-A referenced in the context of immune-related germline findings in pediatric solid tumor cWGTS profiling (n=114 patients) at MSK [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -48,34 +49,37 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31792460](../papers/31792460.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

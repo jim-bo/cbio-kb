@@ -18,12 +18,12 @@ Medullary thyroid carcinoma (MTC) arising from parafollicular C-cells, character
 
 ## Cohorts in the corpus
 
-- All RET-mutant cancer cases on LIBRETTO-001 (NCT03157128) were medullary thyroid carcinoma (THME); 72 total patients enrolled with RET fusion- or mutation-positive lung and thyroid cancers at Memorial Sloan Kettering [PMID:35304457](../papers/35304457.md)
+- All RET-mutant cancer cases on LIBRETTO-001 (NCT03157128) were medullary thyroid carcinoma (THME); 72 total patients enrolled with [RET](../genes/RET.md) fusion- or mutation-positive lung and thyroid cancers at Memorial Sloan Kettering [PMID:35304457](../papers/35304457.md)
 
 ## Recurrent alterations
 
 - RET kinase-domain mutations (germline and somatic; e.g. M918T) define the canonical driver in THME; acquired resistance mutations include solvent-front G810C/G810S, gatekeeper V804M, and compound cis mutants (M918T/V804M/Y806C) [PMID:35304457](../papers/35304457.md)
-- 4 MTC patients previously treated with multikinase inhibitors harbored coincident secondary RET mutations (V804M ×2, G601E, K666E, D898Y) in baseline plasma at low frequencies (0.65–7%); all decreased with [selpercatinib](../drugs/selpercatinib.md), confirming selpercatinib sensitivity [PMID:35304457](../papers/35304457.md)
+- 4 MTC patients previously treated with multikinase inhibitors harbored coincident secondary RET mutations (V804M ×2, G601E, K666E, D898Y) in baseline plasma at low frequencies (0.65–7%); all decreased with [selpercatinib](../drugs/selpercatinib.md), confirming [selpercatinib](../drugs/selpercatinib.md) sensitivity [PMID:35304457](../papers/35304457.md)
 
 ## Subtypes
 

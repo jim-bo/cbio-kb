@@ -1,10 +1,10 @@
 ---
 symbol: NF2
 aliases: []
-cancer_types: [MNG, PLMESO, CSCC]
+cancer_types: [MNG, PLMESO, CSCC, LGSOC]
 tags: [tumor-suppressor, 22q-loss, merlin, meningioma]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # NF2
@@ -17,15 +17,16 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 
 - Point mutations plus chromosome 22q loss causing biallelic inactivation; near-universal in MG1 meningioma molecular group (88%); rare in MG2 (9%); some NF2-wildtype MG3/MG4 showed expression silencing without methylation changes in an integrative molecular study of 983 meningiomas [PMID:34433969](../papers/34433969.md).
 - Altered in 90% of genomic near-haploidization (GNH) diffuse pleural mesotheliomas (DPMs), but this association is confounded by biphasic histology enrichment in the GNH subset [PMID:38630790](../papers/38630790.md).
-- Recurrently mutated in clear cell renal cell carcinoma (ccRCC) identified by TCGA KIRC molecular subtyping study [PMID:22138691](../papers/22138691.md)
+- Recurrently mutated in clear cell renal cell carcinoma (ccRCC) identified by TCGA [KIRC](../cancer_types/KIRC.md) molecular subtyping study [PMID:22138691](../papers/22138691.md)
 - Newly nominated significantly mutated gene in papillary renal cell carcinoma (pRCC) [PMID:25401301](../papers/25401301.md)
 - NF2 within the 22q loss region characteristic of the SCNA-22q-del follicular-variant PTC subtype; also among tumor suppressors mutated in 15/402 (3.7%) PTC tumors [PMID:25417114](../papers/25417114.md)
 - NF2 inactivating events observed in metastatic cSCC (n=29) as a chromatin/tumor suppressor hit. [PMID:25589618](../papers/25589618.md)
 - NF2 infrequent truncating mutations observed in PDTC and ATC as part of a set of low-frequency tumor-suppressor alterations [PMID:26878173](../papers/26878173.md)
-- NF2 is focally deleted by the only chromosome-22 deletions that spare SMARCB1 in extra-cranial malignant rhabdoid tumor (MRT), along with LIF; observed in a minority of the 40 WGS MRT cases [PMID:26977886](../papers/26977886.md)
-- Recurrent truncating and missense mutations in 18% of unclassified RCC (uRCC); biallelic inactivation via mutation plus 22q12 LOH defines the dominant NF2-loss uRCC subset; drives Hippo–YAP dysregulation and confers significantly worse cancer-specific and progression-free survival [PMID:27713405](../papers/27713405.md)
+- NF2 is focally deleted by the only chromosome-22 deletions that spare [SMARCB1](../genes/SMARCB1.md) in extra-cranial malignant rhabdoid tumor ([MRT](../cancer_types/MRT.md)), along with [LIF](../genes/LIF.md); observed in a minority of the 40 WGS MRT cases [PMID:26977886](../papers/26977886.md)
+- Recurrent truncating and missense mutations in 18% of unclassified [RCC](../cancer_types/RCC.md) (uRCC); biallelic inactivation via mutation plus 22q12 LOH defines the dominant NF2-loss uRCC subset; drives Hippo–YAP dysregulation and confers significantly worse cancer-specific and progression-free survival [PMID:27713405](../papers/27713405.md)
 - A truncating mutation in NF2 (n=1) was identified among potentially functional driver mutations surveyed in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
 - Sole recurrent driver SNV across all schwannomatosis-spectrum schwannomas (SWNs); SWNTS-SWNs harbor NF2 mutation/loss in 83% vs. 58% in NS-SWNs (p < 0.0001); NF2-mutant tumors show RAS/MAPK upregulation and M2 macrophage enrichment [PMID:33025139](../papers/33025139.md)
+- NF2 singleton MAPK pathway alteration (n=1/119) in [LGSOC](../cancer_types/LGSOC.md) on MSK-IMPACT panel; included in the 60% MAPK pathway-altered group independently associated with improved [OS](../cancer_types/OS.md) in LGSOC [PMID:35443055](../papers/35443055.md)
 
 ## Cancer types (linked)
 
@@ -59,4 +60,7 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:38630790](../papers/38630790.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

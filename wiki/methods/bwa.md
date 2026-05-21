@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [alignment, short-read, dna-seq, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # BWA (Burrows-Wheeler Aligner)
@@ -33,9 +33,9 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - Used for alignment in whole-genome sequencing of 28 uveal melanoma samples with GRCh37 reference, followed by GATK indel realignment and base quality recalibration; enabled discovery of the recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot [PMID:26683228](../papers/26683228.md).
 - Used for alignment of whole-genome sequencing reads to GRCh37-lite in 46 matched diagnostic/recurrence medulloblastoma samples; enabled characterization of massive genetic divergence between primary and recurrent tumours [PMID:26760213](../papers/26760213.md).
 - BWA used for read alignment in the HGSC Mercury pipeline processing whole-exome sequencing data from 160 periampullary tumors on HiSeq 2000; followed by GATK recalibration and Atlas/PInDel variant calling [PMID:26804919](../papers/26804919.md)
-- bwa v0.7.1 used for alignment of WES reads from 141 tumors of 56 men with metastatic CRPC (prad_fhcrc), followed by GATK indel realignment and MuTect somatic mutation calling. [PMID:26928463](../papers/26928463.md)
+- bwa v0.7.1 used for alignment of WES reads from 141 tumors of 56 men with metastatic CRPC ([prad_fhcrc](../datasets/prad_fhcrc.md)), followed by GATK indel realignment and MuTect somatic mutation calling. [PMID:26928463](../papers/26928463.md)
 - BWA-MEM used for read realignment in 619 CRC FFPE tumor/normal WES pairs prior to SNV/indel calling with MuTect and Indelocator/Strelka [PMID:27149842](../papers/27149842.md)
-- Used for read alignment in the NSCLC pan-lung WES study covering 1,144 tumor/normal pairs (660 ADC + 484 SqCC) [PMID:27158780](../papers/27158780.md)
+- Used for read alignment in the [NSCLC](../cancer_types/NSCLC.md) pan-lung WES study covering 1,144 tumor/normal pairs (660 ADC + 484 SqCC) [PMID:27158780](../papers/27158780.md)
 - BWA-MEM used to align tumour and matched-normal reads to hg19 for MSK-IMPACT sequencing in 62 uRCC tumours; average coverage 348x tumour / 280x normal. [PMID:27713405](../papers/27713405.md)
 - BWA-MEM used for read alignment of 216 metastatic breast cancer whole-exome sequencing samples before GATK base recalibration and MuTect/Scalpel mutation calling [PMID:28027327](../papers/28027327.md).
 - Used for read alignment in the TCGA esophageal/stomach multi-platform study across 164 oesophageal carcinomas and 359 gastric adenocarcinomas [PMID:28052061](../papers/28052061.md).
@@ -49,12 +49,13 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - Reads aligned with BWA as part of the WGS processing pipeline for the MSK pediatric cancer cohort [PMID:29670109](../papers/29670109.md)
 - Reads from 11,139 tumor-normal whole-exome pairs aligned to hg38 (or hg19 for DLBCL) using BWA-MEM in the pan-cancer MSI MANTIS analysis [PMID:29850653](../papers/29850653.md)
 - Used for small RNA-seq read alignment to miRBase (BWA mapping) and for MSK-IMPACT DNA read alignment to hg19/b37 in the HCA/HCC miRNA pilot study [PMID:30052636](../papers/30052636.md)
-- BWA MEM used to align whole-exome sequencing reads from 622 AML tumor specimens in the Beat AML study (aml_ohsu_2018) [PMID:30333627](../papers/30333627.md)
-- Used to map WES reads to hg19 (~100x tumor / ~60x normal coverage) for 58 matched tumor-blood pairs in the GBM anti-PD-1 immunotherapy cohort (gbm_columbia_2019) [PMID:30742119](../papers/30742119.md)
+- BWA MEM used to align whole-exome sequencing reads from 622 [AML](../cancer_types/AML.md) tumor specimens in the Beat AML study ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)) [PMID:30333627](../papers/30333627.md)
+- Used to map WES reads to hg19 (~100x tumor / ~60x normal coverage) for 58 matched tumor-blood pairs in the [GBM](../cancer_types/GBM.md) anti-PD-1 immunotherapy cohort ([gbm_columbia_2019](../datasets/gbm_columbia_2019.md)) [PMID:30742119](../papers/30742119.md)
 - Used for read alignment in the pan-Asia cHCC-ICC integrative genomic study (WES: 173 tumors / 121 cases at mean 108×; WGS: 41 tumors / 37 cases; RNA-seq: 97 tumors / 77 cases) [PMID:31130341](../papers/31130341.md)
 - Used to align reads to GRCh37 (BWA v0.7.15) for whole-exome sequencing of 27 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC [PMID:33863915](../papers/33863915.md)
 - Used to align reads to hg19 (BWA-MEM v0.7.13) for reprocessing of WES/WGS data from 88 cutaneous squamous cell carcinoma ([CSCC](../cancer_types/CSCC.md)) samples spanning 10 published studies [PMID:34272401](../papers/34272401.md)
 - Used for cfDNA alignment (BWA-MEM, GRCh37) in the MSK-ACCESS analytical validation and clinical deployment pipeline for 681 plasma samples from 617 patients [PMID:34145282](../papers/34145282.md)
+- Used for GRCh37 alignment of whole-exome sequencing data from 168 prostate cancer brain metastasis samples ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) at median 258× target coverage [PMID:35504881](../papers/35504881.md)
 
 ## Notes
 
@@ -64,115 +65,118 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583493](../papers/25583493.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26551667](../papers/26551667.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26683228](../papers/26683228.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26760213](../papers/26760213.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29422544](../papers/29422544.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29670109](../papers/29670109.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30052636](../papers/30052636.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30742119](../papers/30742119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

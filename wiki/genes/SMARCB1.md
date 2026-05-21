@@ -11,7 +11,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chromatin, Subfamily B, Member 1), also known as SNF5 or INI1, encodes a core subunit of the SWI/SNF chromatin-remodeling complex. Biallelic inactivation of SMARCB1 is the defining molecular event of malignant rhabdoid tumors ([MRT](../cancer_types/MRT.md)) and atypical teratoid/rhabdoid tumors ([ATRT](../cancer_types/ATRT.md)). Tumors with SMARCB1 loss are synthetic lethal with [EZH2](../genes/EZH2.md) activity and are targets for EZH2 inhibitor therapy.
+SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chromatin, Subfamily B, Member 1), also known as SNF5 or INI1, encodes a core subunit of the SWI/SNF chromatin-remodeling complex. Biallelic inactivation of SMARCB1 is the defining molecular event of malignant rhabdoid tumors ([MRT](../cancer_types/MRT.md)) and atypical teratoid/rhabdoid tumors ([ATRT](../cancer_types/ATRT.md)). Tumors with SMARCB1 loss are synthetic lethal with [EZH2](../genes/EZH2.md) activity and are targets for [EZH2](../genes/EZH2.md) inhibitor therapy.
 
 ## Alterations observed in the corpus
 
@@ -19,7 +19,7 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - Overexpression of [ASCL1](../genes/ASCL1.md) with 22q11.21 LOH including SMARCB1 was diagnostic of [ATRT](../cancer_types/ATRT.md) and prognostic for improved outcome in the same cohort. [PMID:28007021](../papers/28007021.md)
 - SMARCB1 (INI1) protein expression retained by IHC in an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma of the urinary bladder, ruling out rhabdoid/INI1-deficient differential diagnoses [PMID:28199314](../papers/28199314.md).
 - Listed in the MSK-IMPACT panel gene set interrogated in metastatic panNET; part of the chromatin-remodeling factor set altered in 65% of patients in the [panet_msk_2018](../datasets/panet_msk_2018.md) cohort [PMID:30687805](../papers/30687805.md)
-- Inactivating focal deletions, frameshifts, or nonsense mutations in SMARCB1 observed in all ATRT and extracranial MRT PDX models; also hemizygous deletions in 3 astrocytic tumors (consistent with 6.7–7.5% in pediatric HGG cohorts) in the PPTC 261-model study [PMID:31693904](../papers/31693904.md).
+- Inactivating focal deletions, frameshifts, or nonsense mutations in SMARCB1 observed in all [ATRT](../cancer_types/ATRT.md) and extracranial [MRT](../cancer_types/MRT.md) PDX models; also hemizygous deletions in 3 astrocytic tumors (consistent with 6.7–7.5% in pediatric HGG cohorts) in the PPTC 261-model study [PMID:31693904](../papers/31693904.md).
 - Co-deleted on 22q in 76% of LZTR1-mutant schwannomatosis (SWNTS-SWN) tumors; significantly lower transcript level than in NS-SWNs (q < 0.001) [PMID:33025139](../papers/33025139.md)
 - Significantly downregulated at RNA and protein in ATRT (pediatric brain tumor cohort, n=12 ATRT), driven by mutation, deletion, or copy-neutral LOH; identified as a defining CNV-driven cis-cascade event in the CPTAC proteogenomic study (n=218) [PMID:33242424](../papers/33242424.md)
 - SMARCB1 inactivating events (combined with [SMARCA4](../genes/SMARCA4.md), n=27) recurrent in rhabdoid tumor (MRT/ATRT) and other CNS tumors in the AcSé-MAPPYACTS pediatric cohort; matched to EZH2 inhibitors as investigational therapy [PMID:35292802](../papers/35292802.md).

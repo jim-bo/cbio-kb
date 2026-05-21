@@ -5,8 +5,8 @@ drug_class: androgen receptor antagonist (second-generation)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, ar-antagonist, prostate-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # enzalutamide
@@ -28,6 +28,8 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 - In the mCRPC cohort (n=128 first-line ARSI, prad_su2c_2019), AR alteration associated with shorter time on first-line enzalutamide/abiraterone (P=0.005, CPE=0.651); RB1 alteration was the dominant predictor of ARSI failure (multivariate RR 6.56), while PI3K-pathway and BRCA2/BRCA1/ATM alterations were not prognostic on ARSI. [PMID:31061129](../papers/31061129.md)
 - AR alterations predict androgen-axis treatment failure in mCSPC; enzalutamide (alongside abiraterone and apalutamide) is a next-generation AR-pathway therapy for which AR alteration profiles may stratify benefit in the castration-sensitive setting [PMID:32220891](../papers/32220891.md)
 - Time on first-line abiraterone or enzalutamide in castration-resistant prostate cancer was not significantly different between CDK12-altered and CDK12-WT patients (median 9.7 vs 8.7 months; aHR 1.08, 95% CI 0.57–1.51; p=0.8) [PMID:32317181](../papers/32317181.md)
+- In prostate cancer brain metastases (PCBM), 11/42 (26%) of ADT-treated patients had received enzalutamide and/or abiraterone (next-generation ARSi); PCBM patients were excluded from the PROfound trial despite 19.6% qualifying by HRR gene alteration status [PMID:35504881](../papers/35504881.md)
+- In a 366-patient CRPC cohort (SU2C + WCM), the newly identified CRPC-SCL subtype had significantly shorter time on enzalutamide/abiraterone treatment (Cox log-rank), nominating chromatin-defined subtype classification as a predictive biomarker for ARSI resistance [PMID:35617398](../papers/35617398.md)
 
 ## Resistance mechanisms
 
@@ -45,16 +47,11 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26855148](../papers/26855148.md)
 - [PMID:26928463](../papers/26928463.md)
-
-- [PMID:28825054](../papers/28825054.md) — Abida et al. 2017, MSK-IMPACT pan-prostate cancer profiling; AR F877L resistance to enzalutamide and apalutamide.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
 - [PMID:31061129](../papers/31061129.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220891](../papers/32220891.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+- [PMID:35504881](../papers/35504881.md)
+- [PMID:35617398](../papers/35617398.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

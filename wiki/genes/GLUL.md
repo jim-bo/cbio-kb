@@ -5,19 +5,20 @@ aliases:
 cancer_types:
   - HCC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # GLUL
 
 ## Overview
 
-GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyzes ATP-dependent condensation of glutamate and ammonia to form glutamine. In hepatocellular carcinoma (HCC), GLUL protein expression is a key component of the EASL-endorsed diagnostic immunohistochemistry triplet used for early HCC diagnosis, reflecting CTNNB1-activated hepatocytes.
+GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyzes ATP-dependent condensation of glutamate and ammonia to form glutamine. In hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), GLUL protein expression is a key component of the EASL-endorsed diagnostic [immunohistochemistry](../methods/immunohistochemistry.md) triplet used for early HCC diagnosis, reflecting CTNNB1-activated hepatocytes.
 
 ## Alterations observed in the corpus
 
-- GLUL (glutamine synthetase) protein expression is part of the EASL-endorsed diagnostic IHC triplet (alongside HSP70/HSPA1A and GPC3) for early HCC diagnosis [PMID:24735922](../papers/24735922.md)
+- GLUL (glutamine synthetase) protein expression is part of the EASL-endorsed diagnostic IHC triplet (alongside HSP70/HSPA1A and [GPC3](../genes/GPC3.md)) for early HCC diagnosis [PMID:24735922](../papers/24735922.md)
+- GLUL protein concordantly upregulated at mRNA and protein levels in CTNNB1-mutant HCCs in an integrated (phospho)proteogenomic study of 122 HCC biopsies [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -25,7 +26,7 @@ GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyze
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with HSPA1A (HSP70) and GPC3 as part of the EASL-endorsed HCC diagnostic IHC triplet [PMID:24735922](../papers/24735922.md)
+- Co-expressed with [HSPA1A](../genes/HSPA1A.md) (HSP70) and GPC3 as part of the EASL-endorsed HCC diagnostic IHC triplet [PMID:24735922](../papers/24735922.md)
 
 ## Therapeutic relevance
 
@@ -37,4 +38,7 @@ GLUL (Glutamate-Ammonia Ligase; also known as glutamine synthetase, GS) catalyze
 
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -3,8 +3,8 @@ symbol: MAP3K1
 aliases: [MEKK1]
 cancer_types: []
 tags: [mapk, sarcoma, clonal-evolution, intra-tumoral-heterogeneity]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # MAP3K1
@@ -16,7 +16,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 ## Alterations observed in the corpus
 
 - MAP3K1 identified as one of three shared SNVs (alongside [ARID2](../genes/ARID2.md) and [CRTC1](../genes/CRTC1.md)) across four metastatic lesions resected synchronously from SARC0075 (epithelioid sarcoma with undifferentiated pleomorphic features) in the UCLA sarcoma PDTO biobank (n=194 specimens, 126 patients). The shared mutations confirm clonal relatedness despite extensive divergent CNV landscapes (including whole-genome duplications) among the four lesions. [PMID:39305899](../papers/39305899.md)
-- Truncating mutations in 6% of breast cancers (Sanger WES, 100 tumors), predominantly in ER+ tumors; inactivates JUN kinase signalling pathway; newly identified breast cancer driver gene [PMID:22722201](../papers/22722201.md)
+- Truncating mutations in 6% of breast cancers (Sanger WES, 100 tumors), predominantly in ER+ tumors; inactivates [JUN](../genes/JUN.md) kinase signalling pathway; newly identified breast cancer driver gene [PMID:22722201](../papers/22722201.md)
 - Frameshift, nonsense, and missense mutations plus homozygous deletion in 3% of ER+ breast cancer (Broad WES, 103 tumors); pattern consistent with recessive inactivation [PMID:22722202](../papers/22722202.md)
 - Inactivating mutations in 14% of Luminal A breast cancer cases; acts in the p38/JNK1 pathway; mutually exclusive with [MAP2K4](../genes/MAP2K4.md) mutations [PMID:23000897](../papers/23000897.md)
 - Focal amplifications in 3 desmoplastic melanoma tumors; novel in melanoma; supported by analogy to a Sleeping Beauty mouse screen; functional validation in human desmoplastic melanoma not yet provided [PMID:26343386](../papers/26343386.md)
@@ -24,9 +24,10 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - MAP3K1 is the most common multi-hit gene (53/152 mutants with >1 functional mutation) in breast cancer, suggesting biallelic inactivation; classified as ER+ tumor-suppressor gene driver; mutations associated with improved BCSS (HR=0.56) [PMID:27161491](../papers/27161491.md)
 - Identified as a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early-stage breast cancer; enriched among HR+/HER2− mBC drivers [PMID:28027327](../papers/28027327.md)
 - Identified as a candidate novel glioma driver from a 3,130-sample meta-analysis of prospectively characterized gliomas. [PMID:31263031](../papers/31263031.md)
-- Primarily truncating/frameshift mutations consistent with loss of function; significantly enriched in CR/PR/SD patients (p=0.01, Fisher's exact) in buparlisib + letrozole ER+/HER2- trial; recurrent L380S point mutation in the longest-responding patient; interpreted as surrogate marker for luminal A subtype rather than direct PI3K-sensitivity driver [PMID:31552290](../papers/31552290.md).
-- Loss-of-function mutations in luminal breast cancer (BRCA) associate with elevated phospho-RIPK3, suggesting a necroptosis-related signaling vulnerability; nominated as a therapeutic target axis. [PMID:33212010](../papers/33212010.md)
+- Primarily truncating/frameshift mutations consistent with loss of function; significantly enriched in CR/PR/SD patients (p=0.01, Fisher's exact) in [buparlisib](../drugs/buparlisib.md) + [letrozole](../drugs/letrozole.md) ER+/HER2- trial; recurrent L380S point mutation in the longest-responding patient; interpreted as surrogate marker for luminal A subtype rather than direct PI3K-sensitivity driver [PMID:31552290](../papers/31552290.md).
+- Loss-of-function mutations in luminal breast cancer ([BRCA](../cancer_types/BRCA.md)) associate with elevated phospho-RIPK3, suggesting a necroptosis-related signaling vulnerability; nominated as a therapeutic target axis. [PMID:33212010](../papers/33212010.md)
 - MAP3K1 mutations less frequent in HR+/HER2- ductal breast brain-metastasis patients vs. non-brain-metastasis (9% vs 3%, q=0.02) in the MSK-MET pan-cancer cohort (25,775 patients); proposed as surrogate for less-aggressive luminal A subtype [PMID:35120664](../papers/35120664.md)
+- Singleton/rare event in low-grade serous ovarian carcinoma ([LGSOC](../cancer_types/LGSOC.md), n=119); contributing to the broader MAPK pathway-altered group which is associated with improved [OS](../cancer_types/OS.md) in multivariate analysis [PMID:35443055](../papers/35443055.md).
 
 ## Cancer types (linked)
 
@@ -48,36 +49,39 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31552290](../papers/31552290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

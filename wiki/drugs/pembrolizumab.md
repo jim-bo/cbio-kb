@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_at: "2026-05-21"
 ---
 
 # pembrolizumab
@@ -57,6 +57,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the study provides molecular context (pretreatment [PTEN](../genes/PTEN.md) loss as a BRAFi resistance biomarker) relevant to sequencing decisions between checkpoint immunotherapy and targeted therapy [PMID:32913971](../papers/32913971.md).
 - Used as frontline PD-1 monotherapy (alongside nivolumab; N=181 combined) in cutaneous/unknown-primary melanoma; TTF varied sharply by MAPK driver class — NRAS Q61 patients had the shortest TTF (4.2 mo) while NF1 patients had the longest (22 mo, p<0.0001) [PMID:33509808](../papers/33509808.md)
 - In a tumor-fraction-guided cfDNA profiling study (N=118 metastatic solid tumors at MSKCC), a metastatic castration-resistant prostate cancer patient with two failed tumor biopsies had MSI-High and high TMB called from cf-IMPACT alone; a later bone biopsy confirmed MSI status, leading to pembrolizumab therapy and a durable response (serum PSA dropped from 118 to <10, sustained >1 year) [PMID:34059130](../papers/34059130.md).
+- In a pediatric/AYA solid tumor cWGTS study (n=114), high fusion/SV burden in a relapsed clear-cell carcinoma patient (H135462) identified by WGS informed pembrolizumab treatment, achieving complete response after 6 cycles with disease-free status at 10 months [PMID:35585047](../papers/35585047.md)
 
 ## Resistance mechanisms
 
@@ -78,6 +79,36 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 ## Sources
 
+- [PMID:22138691](../papers/22138691.md)
+- [PMID:24798001](../papers/24798001.md)
+- [PMID:24952746](../papers/24952746.md)
+- [PMID:25608663](../papers/25608663.md)
+- [PMID:25765070](../papers/25765070.md)
+- [PMID:26091043](../papers/26091043.md)
+- [PMID:26997480](../papers/26997480.md)
+- [PMID:27346245](../papers/27346245.md)
+- [PMID:28373299](../papers/28373299.md)
+- [PMID:28485815](../papers/28485815.md)
+- [PMID:29100075](../papers/29100075.md)
+- [PMID:29122777](../papers/29122777.md)
+- [PMID:29316426](../papers/29316426.md)
+- [PMID:29337640](../papers/29337640.md)
+- [PMID:29848569](../papers/29848569.md)
+- [PMID:29850653](../papers/29850653.md)
+- [PMID:30068706](../papers/30068706.md)
+- [PMID:30150660](../papers/30150660.md)
+- [PMID:30373752](../papers/30373752.md)
+- [PMID:30643254](../papers/30643254.md)
+- [PMID:30742119](../papers/30742119.md)
+- [PMID:31792460](../papers/31792460.md)
+- [PMID:32437664](../papers/32437664.md)
+- [PMID:32719455](../papers/32719455.md)
+- [PMID:32913971](../papers/32913971.md)
+- [PMID:33509808](../papers/33509808.md)
+- [PMID:34059130](../papers/34059130.md)
+- [PMID:35585047](../papers/35585047.md)
+- [PMID:36228155](../papers/36228155.md)
+- [PMID:36543146](../papers/36543146.md)
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:37406106](../papers/37406106.md)
 - [PMID:37643132](../papers/37643132.md)
@@ -85,86 +116,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:38630790](../papers/38630790.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
-- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in [NSCLC](../cancer_types/NSCLC.md) immunotherapy.
-- [PMID:39746944](../papers/39746944.md) — Ziegler et al. 2024, MiMSI; MSI-H detection expanding pembrolizumab eligibility via improved NGS-based MSI calling.
-- [PMID:40256659](../papers/40256659.md) — Guercio et al. 2025, CALGB 90601 cfDNA; EV+pembrolizumab as first-line standard in mUC.
+- [PMID:39506116](../papers/39506116.md)
+- [PMID:39746944](../papers/39746944.md)
+- [PMID:40256659](../papers/40256659.md)
 
-- [PMID:36543146](../papers/36543146.md) — Sfakianos et al. 2023; [ARID1A](../genes/ARID1A.md) as metastasis-enriched alteration and potential ICI biomarker in bladder cancer.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:22138691](../papers/22138691.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25608663](../papers/25608663.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25765070](../papers/25765070.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27346245](../papers/27346245.md)
-
-- [PMID:28373299](../papers/28373299.md)
-- [PMID:28485815](../papers/28485815.md) — Le Gallo et al. 2017, *Oncotarget*. Whole-exome sequencing of 63 CCECs; 11.3% MSI-H; pembrolizumab cited as clinically active in MSI-H EC.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29337640](../papers/29337640.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30150660](../papers/30150660.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:29850653](../papers/29850653.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30643254](../papers/30643254.md)
-- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, Columbia/Northwestern GBM cohort (n=66); pembrolizumab/nivolumab in recurrent GBM; PTEN mutations (OR=8.5) predicted non-response; MAPK alterations predicted response; PD-L1 RNA and TMB not predictive.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:31792460](../papers/31792460.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32437664](../papers/32437664.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32913971](../papers/32913971.md)
-
-- [PMID:33509808](../papers/33509808.md)
-- [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); MSI-High called from cf-IMPACT alone in mCRPC patient with two failed biopsies; pembrolizumab produced durable PSA response (118→<10, >1 year).
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

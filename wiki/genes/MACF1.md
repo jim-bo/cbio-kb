@@ -3,8 +3,8 @@ symbol: MACF1
 aliases: []
 cancer_types: [HCC]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-21
 ---
 
 # MACF1
@@ -16,6 +16,7 @@ MACF1 (Microtubule Actin Crosslinking Factor 1) is a spectraplakin that links th
 ## Alterations observed in the corpus
 
 - MACF1 newly highlighted as a recurrently mutated β-catenin–pathway inhibitor in [HCC](../cancer_types/HCC.md) (243-case European WES cohort); identified alongside [ZNRF3](../genes/ZNRF3.md) and [USP34](../genes/USP34.md) as novel WNT-pathway regulators in [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
+- Actin-organization phosphoprotein differentially phosphorylated in CTNNB1-mutant HCCs (European multi-etiology proteogenomic cohort, n=122); phosphorylation change consistent with loss of epithelial polarity and Wnt-driven cytoskeletal remodeling [PMID:35508466](../papers/35508466.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ MACF1 (Microtubule Actin Crosslinking Factor 1) is a spectraplakin that links th
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

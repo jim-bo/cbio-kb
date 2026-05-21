@@ -49,12 +49,12 @@ processed_at: 2026-05-21
 
 ## Papers using this cohort
 
-- [PMID:35377946](../papers/35377946.md) — Sihag et al., *Clinical Cancer Research* 2022: Retrospective analysis of 237 patients showing [MDM2](../genes/MDM2.md) amplification is an independent predictor of poor neoadjuvant response (OR 0.10, 95% CI 0.01–0.55, p=0.032) and that severity of TP53 pathway dysfunction stratifies responders. [PMID:35377946](../papers/35377946.md)
+- [PMID:35377946](../papers/35377946.md) — Sihag et al., *Clinical Cancer Research* 2022: Retrospective analysis of 237 patients showing [MDM2](../genes/MDM2.md) amplification is an independent predictor of poor neoadjuvant response (OR 0.10, 95% CI 0.01–0.55, p=0.032) and that severity of [TP53](../genes/TP53.md) pathway dysfunction stratifies responders. [PMID:35377946](../papers/35377946.md)
 
 ## Notable findings derived from this cohort
 
 - [MDM2](../genes/MDM2.md) amplification was the only individual gene alteration significantly associated with neoadjuvant non-response on univariable testing (p=0.01, q=0.09) and remained an independent predictor on multivariable logistic regression (OR 0.10, 95% CI 0.01–0.55, p=0.032) [PMID:35377946](../papers/35377946.md).
-- A 4-tier TP53 pathway severity classification (MDM2 amplification → TP53 truncating bi-allelic → other TP53 pathway mutation → TP53 pathway wild-type) stratified pathologic response rates (p=0.004, q=0.07) [PMID:35377946](../papers/35377946.md).
+- A 4-tier TP53 pathway severity classification ([MDM2](../genes/MDM2.md) amplification → TP53 truncating bi-allelic → other TP53 pathway mutation → TP53 pathway wild-type) stratified pathologic response rates (p=0.004, q=0.07) [PMID:35377946](../papers/35377946.md).
 - MDM2 amplification and TP53 truncating bi-allelic mutations were almost entirely mutually exclusive (q<0.05), both producing critical TP53 pathway dysfunction [PMID:35377946](../papers/35377946.md).
 
 ## Sources

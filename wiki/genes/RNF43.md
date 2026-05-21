@@ -3,8 +3,8 @@ symbol: RNF43
 aliases: []
 cancer_types: [COAD, PRAD, CESC, PAAD]
 tags: [wnt-pathway, ubiquitin-ligase, tumor-suppressor]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 canonical_source: cbioportal
 unverified: false
 ---
@@ -28,13 +28,14 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - Mutated in 6% of pancreatic ductal adenocarcinoma cases; WNT-pathway tumour suppressor; mutations predict sensitivity to porcupine inhibitors (LGK974). [PMID:25855536](../papers/25855536.md)
 - Mutated in metastatic castration-resistant prostate cancer (mCRPC); WNT-pathway tumour suppressor; mutually exclusive with [APC](../genes/APC.md) alterations; combined with [ZNRF3](../genes/ZNRF3.md), predicted to confer sensitivity to porcupine inhibitors. [PMID:26000489](../papers/26000489.md)
 - Known CRC driver identified as a source of recurrent neopeptides (Table S6) in the 619-case colorectal carcinoma WES cohort (NHS/HPFS); frameshift indels in RNF43 generate a disproportionately high share of predicted neoantigens. [PMID:27149842](../papers/27149842.md)
-- CTNNB1 and RNF43 identified as Wnt-pathway co-alterations alongside APC in advanced prostate cancer (locoregional through mCRPC) [PMID:28825054](../papers/28825054.md)
+- [CTNNB1](../genes/CTNNB1.md) and RNF43 identified as Wnt-pathway co-alterations alongside [APC](../genes/APC.md) in advanced prostate cancer (locoregional through mCRPC) [PMID:28825054](../papers/28825054.md)
 - Altered in 9% of mCRC; right-sided enrichment observed in MSS mCRC in a 1,640-tumor targeted sequencing cohort [PMID:29316426](../papers/29316426.md)
 - Identified as a newly discovered hypermutated-group SMG (>50% mutation frequency in hypermutated samples) in colon cancer proteogenomics, not reported in the TCGA colorectal study [PMID:31031003](../papers/31031003.md)
 - RNF43 is recurrently altered in metastatic castration-resistant prostate cancer (mCRPC) but was not significantly prognostic for survival or time on androgen receptor signaling inhibitors (ARSI) in this tumor cohort [PMID:31061129](../papers/31061129.md)
 - Wnt ligand-level alteration co-occurring with RAS pathway mutations in 71% of cases in MSK mCRC cohort; marks a poor-prognosis subgroup of MSS metastatic colorectal cancer. [PMID:32730818](../papers/32730818.md)
 - Altered in ≥5% of PDAC tumors in a proteogenomic study of treatment-naive resected pancreatic adenocarcinoma [PMID:34534465](../papers/34534465.md)
 - Mutated in 60% of MSI-H CRCs in the COLON MAP/HTAN colorectal polyp atlas; activating WNT-pathway events via RNF43 were uncommon in sessile serrated lesions (SSLs), contrasting with CRC [PMID:34910928](../papers/34910928.md)
+- Wnt target gene with differential mRNA but not protein expression in CTNNB1-mutant HCCs in a 122-patient multi-omics cohort, illustrating post-transcriptional regulation [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -64,46 +65,49 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

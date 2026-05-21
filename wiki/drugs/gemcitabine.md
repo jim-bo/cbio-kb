@@ -9,7 +9,7 @@ tags:
   - cytotoxic
   - pyrimidine-antimetabolite
 processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_at: "2026-05-21"
 ---
 
 # gemcitabine
@@ -39,6 +39,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - Background chemotherapy in iCCA; HAIC with floxuridine (HR 0.45, P=0.003) improved OS independently of genomic profile in locally advanced, unresectable iCCA patients on systemic therapy [PMID:33765338](../papers/33765338.md)
 - In a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018), systemic chemotherapy alone (N=140) produced median OS of 11.2 months in node-positive disease vs 18–20 months for locoregional approaches; the authors note a high proportion of SYS patients did not receive gemcitabine-plus-platinum first-line (the current standard), which may further depress the SYS arm's survival [PMID:33963001](../papers/33963001.md).
 - In PDAC, CEACAM6 overexpression (enriched in KRAS G12D/G12V/Q61H tumors) has been linked to gemcitabine resistance and reduced cytolytic T-cell activity; this CPTAC proteogenomic study (n=140, paad_cptac_2021) corroborates CEACAM6 upregulation in specific KRAS hotspot contexts [PMID:34534465](../papers/34534465.md)
+- RRM2B (p53R2, ribonucleotide reductase subunit) is nominated as a candidate gemcitabine target in the HCC phosphoproteogenomic dataset; authors cite reports that RRM2B may be preferentially targeted by gemcitabine in hypoxic tumor conditions [PMID:35508466](../papers/35508466.md)
 
 ## Resistance mechanisms
 
@@ -55,49 +56,22 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:39753968](../papers/39753968.md) — MSK PDAC prospective sequencing cohort; gemcitabine±[nab-paclitaxel](../drugs/nab-paclitaxel.md) as standard-of-care reference.
 - [PMID:40256659](../papers/40256659.md) — CALGB 90601 mUC cfDNA dynamics; GC backbone.
 
----
-
-*Page last touched by entity-page-writer on 2026-05-01.*
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:23999436](../papers/23999436.md)
+- [PMID:24952746](../papers/24952746.md)
+- [PMID:25526346](../papers/25526346.md)
+- [PMID:25608663](../papers/25608663.md)
+- [PMID:27346245](../papers/27346245.md)
+- [PMID:27749842](../papers/27749842.md)
+- [PMID:27826200](../papers/27826200.md)
+- [PMID:28199314](../papers/28199314.md)
+- [PMID:29625057](../papers/29625057.md)
+- [PMID:29848569](../papers/29848569.md)
+- [PMID:30290956](../papers/30290956.md)
+- [PMID:32332851](../papers/32332851.md)
+- [PMID:33765338](../papers/33765338.md)
+- [PMID:33963001](../papers/33963001.md)
+- [PMID:34534465](../papers/34534465.md)
+- [PMID:35508466](../papers/35508466.md)
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:23999436](../papers/23999436.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25526346](../papers/25526346.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25608663](../papers/25608663.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:27346245](../papers/27346245.md)
-- [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WashU UC WES cohort; cisplatin + gemcitabine clonal evolution, APOBEC3A enrichment, and L1CAM/integrin clonal selection.
-- [PMID:27826200](../papers/27826200.md) — Tchelebi et al. 2016, *Semin Radiat Oncol*. SBRT in pancreatic cancer review; gemcitabine + SBRT 33 Gy/5 fx reference regimen (79% local control, 13.9 mo median OS).
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28199314](../papers/28199314.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:29625057](../papers/29625057.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30290956](../papers/30290956.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:32332851](../papers/32332851.md)
-
-- [PMID:33765338](../papers/33765338.md)
-- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); gemcitabine-platinum standard first-line for systemic chemotherapy arm; underuse of GC in SYS arm may partly explain inferior OS vs locoregional approaches in node-positive IHC.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

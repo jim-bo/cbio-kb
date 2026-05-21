@@ -7,8 +7,8 @@ cancer_types:
   - ESCA
   - GEJ
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CDH1
@@ -26,7 +26,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - CDH1 mutations observed in medulloblastoma WGS of 37 tumors (PCGP) [PMID:22722829](../papers/22722829.md)
 - CDH1 expression and pharmacogenomic associations analyzed in NCI-60 cell line panel via CellMiner [PMID:22802077](../papers/22802077.md)
 - Mutated in breast cancer (TCGA, 510 tumors); CDH1 truncating mutations highly enriched in lobular breast carcinoma (luminal A subtype), causing loss of E-cadherin expression and epithelial-mesenchymal transition [PMID:23000897](../papers/23000897.md)
-- Mutated in EAC; co-occurs with [APC](../genes/APC.md) mutations (two tumors with co-occurring [APC](../genes/APC.md) + CDH1) in the beta-catenin pathway, which is altered in only 9% of EACs [PMID:23525077](../papers/23525077.md)
+- Mutated in [EAC](../cancer_types/EAC.md); co-occurs with [APC](../genes/APC.md) mutations (two tumors with co-occurring [APC](../genes/APC.md) + CDH1) in the beta-catenin pathway, which is altered in only 9% of EACs [PMID:23525077](../papers/23525077.md)
 - Germline loss-of-function defines Hereditary Diffuse Gastric Cancer (HDGC); in mutation-negative HDGC-like families ~17% of tumors show somatic CDH1 promoter hypermethylation and ~9% LOH; standard multigene GC panel includes CDH1 [PMID:24816255](../papers/24816255.md)
 - Downregulated (E-cadherin loss) in [GBC](../cancer_types/GBC.md) cells as an EMT readout downstream of paracrine [SEMA7A](../genes/SEMA7A.md) signaling from stiff-matrix-activated CAFs; E-cadherin restored by [SEMA7A](../genes/SEMA7A.md) knockdown in GFs in co-injection xenografts [PMID:24997986](../papers/24997986.md)
 - Somatic mutations in 11% of gastric adenocarcinoma overall and 26-37% of GS tumours; no germline-pathogenic CDH1 variants identified in this sporadic cohort [PMID:25079317](../papers/25079317.md)
@@ -35,15 +35,16 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - Biallelic CDH1 loss (truncating mutation + 16q loss) detected in 95% of [ILC](../cancer_types/ILC.md) (107/127 cases carry CDH1 mutations); no CDH1 promoter hypermethylation observed, contradicting prior MSP-based reports; CDH1 status is the dominant feature distinguishing ILC-like from IDC-like tumors among mixed histology cases [PMID:26451490](../papers/26451490.md)
 - CDH1 truncating somatic mutations (nonsense, frameshift) in 84% of plasmacytoid-variant bladder cancers vs 0% in 127 TCGA urothelial NOS tumors; promoter hypermethylation in 4/5 mutation-negative cases; the defining molecular event of the plasmacytoid variant driving E-cadherin loss, enhanced migration, and peritoneal dissemination [PMID:26901067](../papers/26901067.md)
 - CDH1 (E-cadherin) was down-regulated in non-responders to anti-PD-1 therapy in melanoma, one of only three FDR-significant (q≤0.25) differentially expressed genes; CDH1 loss is part of the epithelial-mesenchymal transition component of the IPRES innate resistance signature [PMID:26997480](../papers/26997480.md).
-- CDH1 inactivating mutations found in 52.6% of lobular breast carcinomas (hallmark of invasive lobular); 96.0% of mutant tumors show LOH; co-mutated with PIK3CA, TBX3, RUNX1, and ERBB2; strongly mutually exclusive with TP53 (OR=0.23); homozygous deletions in 18 ductal/NST and 4 lobular cases; associated with older age at diagnosis (OR=4.5 for SF3B1 context) [PMID:27161491](../papers/27161491.md).
+- CDH1 inactivating mutations found in 52.6% of lobular breast carcinomas (hallmark of invasive lobular); 96.0% of mutant tumors show LOH; co-mutated with [PIK3CA](../genes/PIK3CA.md), [TBX3](../genes/TBX3.md), [RUNX1](../genes/RUNX1.md), and [ERBB2](../genes/ERBB2.md); strongly mutually exclusive with [TP53](../genes/TP53.md) (OR=0.23); homozygous deletions in 18 ductal/NST and 4 lobular cases; associated with older age at diagnosis (OR=4.5 for [SF3B1](../genes/SF3B1.md) context) [PMID:27161491](../papers/27161491.md).
 - CDH1 is a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early breast cancer (eBC); identified by MutSig analysis of 216 mBC whole-exome sequences [PMID:28027327](../papers/28027327.md)
-- CDH1-linked upregulated E-cadherin signalling pathway identified in EAC vs ESCC by gene-expression analysis in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
+- CDH1-linked upregulated E-cadherin signalling pathway identified in EAC vs [ESCC](../cancer_types/ESCC.md) by gene-expression analysis in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
 - placeholder
 - placeholder
-- CDH1 nonsense/frameshift mutants in BRCA upregulate leukocyte-migration gene programs, while missense mutants do not — indicating allele-class-specific transcriptomic consequences in the pan-cancer multi-omic analysis [PMID:29625049](../papers/29625049.md)
-- CDH1 is significantly mutated in the Korean SMC breast cohort (2.2%, q=0.076) but at far lower prevalence than TCGA (11.5%), reflecting the lower lobular carcinoma (ILC) fraction in SMC vs. TCGA (3.7% vs. 17.3%, p=2.9e-08) [PMID:29713003](../papers/29713003.md)
+- CDH1 nonsense/frameshift mutants in [BRCA](../cancer_types/BRCA.md) upregulate leukocyte-migration gene programs, while missense mutants do not — indicating allele-class-specific transcriptomic consequences in the pan-cancer multi-omic analysis [PMID:29625049](../papers/29625049.md)
+- CDH1 is significantly mutated in the Korean SMC breast cohort (2.2%, q=0.076) but at far lower prevalence than TCGA (11.5%), reflecting the lower lobular carcinoma ([ILC](../cancer_types/ILC.md)) fraction in SMC vs. TCGA (3.7% vs. 17.3%, p=2.9e-08) [PMID:29713003](../papers/29713003.md)
 - CDH1 mutations associated with ovarian metastasis in HR+HER2- breast cancer, reflecting lobular-carcinoma predisposition to ovarian spread [PMID:30205045](../papers/30205045.md)
 - Mutations negatively correlated with metastatic burden in lobular breast cancer in the MSK-MET pan-cancer cohort (25,775 patients) [PMID:35120664](../papers/35120664.md)
+- Epithelial marker E-cadherin protein reduced in CTNNB1-mutant HCCs (n=51 proteome samples), consistent with loss of epithelial polarity driven by Wnt-mediated actin-cytoskeletal remodeling [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -66,75 +67,78 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - [PMID:37699004](../papers/37699004.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713003](../papers/29713003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

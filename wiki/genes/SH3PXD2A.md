@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-16
+processed_at: 2026-05-21
 ---
 
 # SH3PXD2A
@@ -16,10 +16,11 @@ SH3PXD2A (SH3 and PX domains 2A), also known as TKS5, encodes a scaffold protein
 ## Alterations observed in the corpus
 
 - SH3PXD2A–[HTRA1](../genes/HTRA1.md) recurrent gene fusion detected in 14% of LZTR1-mutant schwannomatosis (SWNTS-SWN) tumors (3/22 WGS samples confirmed by RT-PCR); enriched in LZTR1-mutant and painful tumors; therapeutic rationale for MEK inhibition by analogy with sporadic schwannomas [PMID:33025139](../papers/33025139.md)
+- SH3PXD2A-HTRA1 fusion identified as the pathognomonic fusion establishing a schwannoma ([SCHW](../cancer_types/SCHW.md)) diagnosis in a patient being evaluated for relapsed stage-IV neuroblastoma; detected by cWGTS [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
-- Schwannomatosis (SWNTS-SWN subtype): SH3PXD2A–HTRA1 fusion enriched in LZTR1-mutant tumors with painful clinical course and higher CNV burden [PMID:33025139](../papers/33025139.md)
+- Schwannomatosis (SWNTS-SWN subtype): SH3PXD2A–[HTRA1](../genes/HTRA1.md) fusion enriched in LZTR1-mutant tumors with painful clinical course and higher CNV burden [PMID:33025139](../papers/33025139.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +38,7 @@ SH3PXD2A (SH3 and PX domains 2A), also known as TKS5, encodes a scaffold protein
 
 - [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

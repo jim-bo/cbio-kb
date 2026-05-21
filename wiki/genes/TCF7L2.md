@@ -9,8 +9,8 @@ tags:
   - wnt-pathway
   - transcription-factor
   - colorectal-cancer
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # TCF7L2
@@ -25,7 +25,9 @@ TCF7L2 (Transcription Factor 7 Like 2, also known as [TCF4](../genes/TCF4.md)) e
 - New recurrent mutations identified in colorectal cancer; Wnt pathway transcription factor [PMID:22895193](../papers/22895193.md)
 - Altered in 7-10% of MSS EO-CRC and AO-CRC; no statistically significant age-cohort difference in early-onset vs average-onset colorectal cancer cohort [PMID:34405229](../papers/34405229.md)
 - Enriched in Nigerian MSI-H colorectal tumors (64.3% vs 34.2% MSKCC, P=0.04), suggesting a population-specific WNT-pathway mutation pattern in West African CRC [PMID:34819518](../papers/34819518.md)
-- Mutated in 53% of MSI-H CRCs in the COLON MAP/HTAN colorectal polyp atlas; identifies a WNT-pathway activation mechanism in MSI-H CRCs distinct from APC truncation [PMID:34910928](../papers/34910928.md)
+- Mutated in 53% of MSI-H CRCs in the COLON MAP/HTAN colorectal polyp atlas; identifies a WNT-pathway activation mechanism in MSI-H CRCs distinct from [APC](../genes/APC.md) truncation [PMID:34910928](../papers/34910928.md)
+- TCF7L2 and [CTNNB1](../genes/CTNNB1.md) were enriched in FAT10 signaling among metastatic-clonal genes in prostate cancer brain metastases (PCBM), implicating WNT pathway activation in brain-tropism [PMID:35504881](../papers/35504881.md)
+- TCF7L2 is a top transcription factor in CRPC-WNT subtype alongside [LEF1](../genes/LEF1.md), [TCF7](../genes/TCF7.md), and [TCF7L1](../genes/TCF7L1.md); CTNNB1 hotspot mutations found in 3/4 CRPC-WNT models, underscoring TCF7L2-mediated WNT transcriptional output [PMID:35617398](../papers/35617398.md)
 
 ## Cancer types (linked)
 
@@ -50,16 +52,22 @@ TCF7L2 (Transcription Factor 7 Like 2, also known as [TCF4](../genes/TCF4.md)) e
 
 - [PMID:22810696](../papers/22810696.md) — TCGA colorectal cancer, 276 tumors
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35617398](../papers/35617398.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

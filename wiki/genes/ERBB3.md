@@ -37,8 +37,8 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - Hotspot mutations in MAPK effectors including ERBB3 enriched in post-endocrine-therapy HR+ breast tumors [PMID:30205045](../papers/30205045.md)
 - Mutated in 9% of gallbladder carcinoma (GBCA) overall but absent in Chilean patients; population-specific alteration frequency [PMID:30427539](../papers/30427539.md)
 - Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed more often as a co-alteration alongside [NF1](../genes/NF1.md) loss and [BRAF](../genes/BRAF.md) Class 3 mutations than as a sole driver [PMID:33509808](../papers/33509808.md)
-- Mutated in 1.2% of [CSCC](../cancer_types/CSCC.md) tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
-- ERBB3 alterations, together with [EGFR](../genes/EGFR.md), ERBB2, and [ERBB4](../genes/ERBB4.md), accounted for ~5% of CNS-tumor oncomap findings in the MAPPYACTS pediatric WES cohort (n=787); investigational ERBB-inhibitor matches were generated for the group. [PMID:35292802](../papers/35292802.md)
+- Mutated in 1.2% of [CSCC](../cancer_types/CSCC.md) tumors at a hotspot position in an 83-tumor [CSCC](../cancer_types/CSCC.md) meta-analysis [PMID:34272401](../papers/34272401.md)
+- ERBB3 alterations, together with [EGFR](../genes/EGFR.md), [ERBB2](../genes/ERBB2.md), and [ERBB4](../genes/ERBB4.md), accounted for ~5% of CNS-tumor oncomap findings in the MAPPYACTS pediatric WES cohort (n=787); investigational ERBB-inhibitor matches were generated for the group. [PMID:35292802](../papers/35292802.md)
 
 ## Cancer types (linked)
 

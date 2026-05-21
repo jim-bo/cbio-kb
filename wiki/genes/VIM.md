@@ -21,11 +21,11 @@ VIM encodes vimentin, a type III intermediate filament protein and classic marke
 
 ## Cancer types (linked)
 
-- **Gallbladder cancer (GBC):** VIM upregulation marks CAF-driven EMT in the desmoplastic tumor microenvironment. [PMID:24997986](../papers/24997986.md)
+- **Gallbladder cancer ([GBC](../cancer_types/GBC.md)):** VIM upregulation marks CAF-driven EMT in the desmoplastic tumor microenvironment. [PMID:24997986](../papers/24997986.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with [CD44](../genes/CD44.md), EPCAM, [ALDH1A1](../genes/ALDH1A1.md) (stemness markers) and [SNAI1](../genes/SNAI1.md), [ZEB1](../genes/ZEB1.md) (EMT TFs) downstream of SEMA7A paracrine signaling; downregulation of [CDH1](../genes/CDH1.md) (E-cadherin) accompanies VIM upregulation. [PMID:24997986](../papers/24997986.md)
+- Co-upregulated with [CD44](../genes/CD44.md), [EPCAM](../genes/EPCAM.md), [ALDH1A1](../genes/ALDH1A1.md) (stemness markers) and [SNAI1](../genes/SNAI1.md), [ZEB1](../genes/ZEB1.md) (EMT TFs) downstream of [SEMA7A](../genes/SEMA7A.md) paracrine signaling; downregulation of [CDH1](../genes/CDH1.md) (E-cadherin) accompanies VIM upregulation. [PMID:24997986](../papers/24997986.md)
 
 ## Therapeutic relevance
 

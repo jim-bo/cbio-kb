@@ -3,8 +3,8 @@ symbol: CHEK1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CHEK1
@@ -15,10 +15,11 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 
 ## Alterations observed in the corpus
 
-- Synthetic lethal interactor of FBXO7; CHEK1 inhibition via siRNA or [prexasertib](../drugs/prexasertib.md) preferentially kills FBXO7-deficient CRC cells; central to replication stress response and DDR checkpoint control [PMID:36334560](../papers/36334560.md)
+- Synthetic lethal interactor of [FBXO7](../genes/FBXO7.md); CHEK1 inhibition via siRNA or [prexasertib](../drugs/prexasertib.md) preferentially kills FBXO7-deficient CRC cells; central to replication stress response and DDR checkpoint control [PMID:36334560](../papers/36334560.md)
 - CHEK1 identified in functional genomics screen as relevant to DNA damage response in ARID1A-mutant ovarian cancer cells treated with BET bromodomain inhibitors [PMID:22037554](../papers/22037554.md)
 - Upregulated in basal-like IntClust 10 as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
-- Identified downstream of TP53 / CTNNB1 / ARID1A mutations in trans in a proteogenomic study of endometrial carcinoma (n=95 tumors); PLK1-driven DDR and G2M-checkpoint progression context [PMID:32059776](../papers/32059776.md)
+- Identified downstream of [TP53](../genes/TP53.md) / [CTNNB1](../genes/CTNNB1.md) / [ARID1A](../genes/ARID1A.md) mutations in trans in a proteogenomic study of endometrial carcinoma (n=95 tumors); PLK1-driven DDR and G2M-checkpoint progression context [PMID:32059776](../papers/32059776.md)
+- Part of the 15 PROfound HRR genes assessed in prostate cancer brain metastases (PCBM); 10/51 (19.6%) PCBM patients qualified by alteration in any PROfound HRR gene including CHEK1 [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -34,19 +35,22 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 
 ## Open questions
 
-- Clinical validation of prexasertib in FBXO7-deleted CRC patients is needed.
+- Clinical validation of [prexasertib](../drugs/prexasertib.md) in FBXO7-deleted CRC patients is needed.
 
 ## Sources
 
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -19,16 +19,16 @@ POU2F3 (POU Class 2 Homeobox 3) is a transcription factor that defines a distinc
 
 ## Cancer types (linked)
 
-- SCLC-P subtype defined by POU2F3 expression, with low NE markers (NCAM1, INSM1, CHGA), high [REST](../genes/REST.md) and [BACH2](../genes/BACH2.md), and variable EMT markers ([VIM](../genes/VIM.md), [EPCAM](../genes/EPCAM.md), [SNAI1](../genes/SNAI1.md), [SNAI2](../genes/SNAI2.md), [ZEB1](../genes/ZEB1.md)) [PMID:35440124](../papers/35440124.md)
+- SCLC-P subtype defined by POU2F3 expression, with low NE markers ([NCAM1](../genes/NCAM1.md), [INSM1](../genes/INSM1.md), [CHGA](../genes/CHGA.md)), high [REST](../genes/REST.md) and [BACH2](../genes/BACH2.md), and variable EMT markers ([VIM](../genes/VIM.md), [EPCAM](../genes/EPCAM.md), [SNAI1](../genes/SNAI1.md), [SNAI2](../genes/SNAI2.md), [ZEB1](../genes/ZEB1.md)) [PMID:35440124](../papers/35440124.md)
 
 ## Co-occurrence and mutual exclusivity
 
 - SCLC-P (POU2F3-high) is mutually exclusive with SCLC-A (ASCL1-high), SCLC-N (NEUROD1-high), and SCLC-Y (YAP1-high) subtypes [PMID:35440124](../papers/35440124.md)
-- MYC uniformly high in POU2F3-driven PDXs, in contrast to [MYCL](../genes/MYCL.md) which correlates with SCLC-A/N subtypes [PMID:35440124](../papers/35440124.md)
+- [MYC](../genes/MYC.md) uniformly high in POU2F3-driven PDXs, in contrast to [MYCL](../genes/MYCL.md) which correlates with SCLC-A/N subtypes [PMID:35440124](../papers/35440124.md)
 
 ## Therapeutic relevance
 
-- SCLC-P cell lines previously reported sensitive to PARP inhibition; MYC-high SCLC (enriched in SCLC-P) may have selective sensitivity to Aurora kinase inhibition; the MSK773-derived SCLC-P PDX cohort provides the first in-vivo platform for testing these hypotheses [PMID:35440124](../papers/35440124.md)
+- SCLC-P cell lines previously reported sensitive to PARP inhibition; MYC-high [SCLC](../cancer_types/SCLC.md) (enriched in SCLC-P) may have selective sensitivity to Aurora kinase inhibition; the MSK773-derived SCLC-P PDX cohort provides the first in-vivo platform for testing these hypotheses [PMID:35440124](../papers/35440124.md)
 - ICB ([ipilimumab](../drugs/ipilimumab.md) + [nivolumab](../drugs/nivolumab.md)) showed no response in the MSK773 SCLC-P clinical case [PMID:35440124](../papers/35440124.md)
 
 ## Open questions

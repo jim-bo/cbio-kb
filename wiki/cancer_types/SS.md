@@ -15,11 +15,11 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Sézary syndrome (SS) is an aggressive leukemic form of cutaneous T-cell lymphoma (CTCL), defined by circulating malignant [CD4](../genes/CD4.md)+ T cells with cerebriform nuclei (Sézary cells) in the peripheral blood, erythroderma, and lymphadenopathy. It sits within the Mature T and NK Neoplasms ([MTNN](../cancer_types/MTNN.md)) branch of OncoTree (parent: MTNN; formerly coded SEZS). Genomically it is characterized by a high burden of somatic copy-number alterations, recurrent deletions of multiple tumor suppressors ([TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [PTEN](../genes/PTEN.md), [DNMT3A](../genes/DNMT3A.md), [CDKN1B](../genes/CDKN1B.md)), and somatic mutations in epigenetic regulators and TCR/NFκB/NFAT signaling genes.
+Sézary syndrome (SS) is an aggressive leukemic form of cutaneous T-cell lymphoma (CTCL), defined by circulating malignant [CD4](../genes/CD4.md)+ T cells with cerebriform nuclei (Sézary cells) in the peripheral blood, erythroderma, and lymphadenopathy. It sits within the Mature T and NK Neoplasms ([MTNN](../cancer_types/MTNN.md)) branch of OncoTree (parent: [MTNN](../cancer_types/MTNN.md); formerly coded SEZS). Genomically it is characterized by a high burden of somatic copy-number alterations, recurrent deletions of multiple tumor suppressors ([TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [PTEN](../genes/PTEN.md), [DNMT3A](../genes/DNMT3A.md), [CDKN1B](../genes/CDKN1B.md)), and somatic mutations in epigenetic regulators and TCR/NFκB/NFAT signaling genes.
 
 ## Cohorts in the corpus
 
-- [ctcl_columbia_2015](../datasets/ctcl_columbia_2015.md) — whole-exome sequencing of 25 Sézary syndrome tumor-normal pairs (peripheral-blood CD4+ T cells as tumor; granulocytes or buccal swab as germline) among 42 CTCL patients profiled [PMID:26551667](../papers/26551667.md).
+- [ctcl_columbia_2015](../datasets/ctcl_columbia_2015.md) — whole-exome sequencing of 25 Sézary syndrome tumor-normal pairs (peripheral-blood [CD4](../genes/CD4.md)+ T cells as tumor; granulocytes or buccal swab as germline) among 42 CTCL patients profiled [PMID:26551667](../papers/26551667.md).
 
 ## Recurrent alterations
 

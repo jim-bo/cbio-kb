@@ -3,8 +3,8 @@ symbol: RAD51C
 aliases: []
 cancer_types: [OV]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # RAD51C
@@ -18,8 +18,9 @@ RAD51C encodes a member of the [RAD51](../genes/RAD51.md) family of proteins inv
 - Mutated in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) identified in TCGA integrated genomic analysis of 489 tumors [PMID:21720365](../papers/21720365.md)
 - In mCRPC, RAD51C was among the broader DNA-repair/recombination pathway alterations contributing to the 22.7% aggregate in the SU2C–PCF 150-case cohort. [PMID:26000489](../papers/26000489.md)
 - Focal DNA losses in 3% of primary prostate tumors, mostly heterozygous; included among DNA-repair gene defects (totaling ~19%) relevant to PARP inhibitor sensitivity [PMID:26544944](../papers/26544944.md)
-- F8L variant in osteosarcoma (OS); identified as a PARP-inhibitor target in a pediatric precision-oncology program (n=101 high-risk patients) [PMID:28007021](../papers/28007021.md)
-- Established cancer predisposition gene; combined carrier frequency with RAD51D was 16/3,422 in a breast/ovarian cancer cohort, comparable to the 9/3,422 observed for RAD51B. Associated with triple-negative breast cancer (in contrast to RAD51B-associated ER+ tumors). [PMID:34635660](../papers/34635660.md)
+- F8L variant in osteosarcoma ([OS](../cancer_types/OS.md)); identified as a PARP-inhibitor target in a pediatric precision-oncology program (n=101 high-risk patients) [PMID:28007021](../papers/28007021.md)
+- Established cancer predisposition gene; combined carrier frequency with [RAD51D](../genes/RAD51D.md) was 16/3,422 in a breast/ovarian cancer cohort, comparable to the 9/3,422 observed for [RAD51B](../genes/RAD51B.md). Associated with triple-negative breast cancer (in contrast to RAD51B-associated ER+ tumors). [PMID:34635660](../papers/34635660.md)
+- Part of the 15 PROfound HRR genes assessed in 51 prostate cancer brain metastases (PCBM); 10/51 (19.6%) patients qualified by alteration in any HRR gene, 8/51 (15.7%) had biallelic loss in at least one [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -45,4 +46,7 @@ RAD51C encodes a member of the [RAD51](../genes/RAD51.md) family of proteins inv
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

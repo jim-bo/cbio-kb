@@ -6,8 +6,8 @@ tags:
   - pharmacogenomics
   - drug-sensitivity-predictor
   - erlotinib
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # EXT2
@@ -18,7 +18,8 @@ EXT2 (exostosin glycosyltransferase 2) encodes a glycosyltransferase required fo
 
 ## Alterations observed in the corpus
 
-- EXT2 variants are significantly correlated with erlotinib sensitivity across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
+- EXT2 variants are significantly correlated with [erlotinib](../drugs/erlotinib.md) sensitivity across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
+- Germline stop-gain variant p.W414* identified in an osteosarcoma patient by comprehensive WGS+transcriptome sequencing (cWGTS) in a pediatric/rare cancer cohort (n=29 osteosarcoma) [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -30,7 +31,7 @@ EXT2 (exostosin glycosyltransferase 2) encodes a glycosyltransferase required fo
 
 ## Therapeutic relevance
 
-- EXT2 variants predict erlotinib sensitivity in the CCLE pharmacogenomic dataset; the biological mechanism linking EXT2 loss-of-function and EGFR inhibitor sensitivity is not characterised in the corpus [PMID:22460905](../papers/22460905.md)
+- EXT2 variants predict erlotinib sensitivity in the CCLE pharmacogenomic dataset; the biological mechanism linking EXT2 loss-of-function and [EGFR](../genes/EGFR.md) inhibitor sensitivity is not characterised in the corpus [PMID:22460905](../papers/22460905.md)
 
 ## Open questions
 
@@ -40,4 +41,7 @@ EXT2 (exostosin glycosyltransferase 2) encodes a glycosyltransferase required fo
 
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

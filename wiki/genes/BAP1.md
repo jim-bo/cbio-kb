@@ -44,10 +44,11 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - BAP1 enriched in IDH-WT Cluster 4 of cholangiocarcinoma (q < 0.001 for inactivating point mutations, q < 0.05 for regional deletions); BAP1-mutant CCAs show increased CpG hypermethylation; more frequent in intrahepatic CCAs (q < 0.1) [PMID:28667006](../papers/28667006.md)
 - [BAP1](../genes/BAP1.md) is an SMG identified by both MutSig2CV and MuSiC2 in [KIRC](../cancer_types/KIRC.md) using the TCGA MC3 open-access MAF. [PMID:29596782](../papers/29596782.md)
 - Mutated only in intrahepatic cholangiocarcinoma (IHC, 30/158 cases in [chol_msk_2018](../datasets/chol_msk_2018.md)); mutually exclusive with [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), and [SMAD4](../genes/SMAD4.md) [PMID:29848569](../papers/29848569.md)
-- BAP1 mutated as part of the histone modification/DNA methylation pathway (with [KMT2D](../genes/KMT2D.md), IDH1, [EZH2](../genes/EZH2.md)) jointly altered in 35.6% of cHCC-ICC cases in a pan-Asia 133-case cohort [PMID:31130341](../papers/31130341.md)
+- BAP1 mutated as part of the histone modification/DNA methylation pathway (with [KMT2D](../genes/KMT2D.md), [IDH1](../genes/IDH1.md), [EZH2](../genes/EZH2.md)) jointly altered in 35.6% of cHCC-ICC cases in a pan-Asia 133-case cohort [PMID:31130341](../papers/31130341.md)
 - In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, BAP1 was mutated in 15% of tumors, making it one of the most frequently altered epigenetic regulators in intrahepatic cholangiocarcinoma. [PMID:33765338](../papers/33765338.md)
 - Altered in 13.2% of MSK-IMPACT-profiled intrahepatic cholangiocarcinoma (IHC) patients; fifth most prevalent driver gene in IHC in a 219-patient MSKCC cohort [PMID:33963001](../papers/33963001.md)
-- BAP1 — present in [SCLC](../cancer_types/SCLC.md) PDX/CDX genomic profiling context; the SCLC cohort (n=46 models, 33 MSK patients) identified the canonical SCLC genomic landscape dominated by TP53 and [RB1](../genes/RB1.md) loss [PMID:35440124](../papers/35440124.md)
+- BAP1 — present in [SCLC](../cancer_types/SCLC.md) PDX/CDX genomic profiling context; the [SCLC](../cancer_types/SCLC.md) cohort (n=46 models, 33 MSK patients) identified the canonical SCLC genomic landscape dominated by [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) loss [PMID:35440124](../papers/35440124.md)
+- Germline pathogenic variant identified in 1 patient among 119 LGSC cases profiled by MSK-IMPACT; contributes to the ~15% of LGSC patients carrying germline alterations in cancer predisposition genes ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
 
 ## Cancer types (linked)
 
@@ -146,5 +147,8 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

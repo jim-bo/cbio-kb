@@ -6,6 +6,7 @@ cancer_types:
   - IFS
   - PAAD
   - pan-cancer
+  - NBL
 tags:
   - fusion
   - actionable
@@ -35,12 +36,13 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma ([MASC](../cancer_types/MASC.md)); both patients responded to a TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
 - [EML4](../genes/EML4.md)–NTRK3 fusion in congenital fibrosarcoma ([IFS](../cancer_types/IFS.md)) supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; ALK-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Fusions present in 8% of MSI-H vs 1% of MSS mCRC; specific fusion identified: ETV6-NTRK3; TRK-inhibitor candidates in MSI-H mCRC [PMID:29316426](../papers/29316426.md)
-- Among the top recurrent 3'-kinase tyrosine kinases enriched in [THCA](../cancer_types/THCA.md) (thyroid carcinoma) fusions in pan-cancer RNA-seq analysis of 9,624 TCGA samples; 94% of THCA kinase fusions involve 3'-enriched kinases including [NTRK1](../genes/NTRK1.md), NTRK3, and [BRAF](../genes/BRAF.md). [PMID:29617662](../papers/29617662.md)
+- Among the top recurrent 3'-kinase tyrosine kinases enriched in [THCA](../cancer_types/THCA.md) (thyroid carcinoma) fusions in pan-cancer RNA-seq analysis of 9,624 TCGA samples; 94% of [THCA](../cancer_types/THCA.md) kinase fusions involve 3'-enriched kinases including [NTRK1](../genes/NTRK1.md), NTRK3, and [BRAF](../genes/BRAF.md). [PMID:29617662](../papers/29617662.md)
 - NTRK3 fusions were not observed in 195 cholangiocarcinoma patients profiled by MSK-IMPACT, despite prior reports of NTRK3 fusions in cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
-- Recurrent in-frame kinase-domain-preserving fusions predominantly interchromosomal; most common upstream partners are [ETV6](../genes/ETV6.md) (near-pathognomonic in mammary analogue secretory carcinoma, 11/12 salivary cases) and EML4; DNA-only assays miss ~26% of fusions due to large intron size [PMID:31871300](../papers/31871300.md)
+- Recurrent in-frame kinase-domain-preserving fusions predominantly interchromosomal; most common upstream partners are [ETV6](../genes/ETV6.md) (near-pathognomonic in mammary analogue secretory carcinoma, 11/12 salivary cases) and [EML4](../genes/EML4.md); DNA-only assays miss ~26% of fusions due to large intron size [PMID:31871300](../papers/31871300.md)
 - NTRK3 is involved in chromoplexy-mediated fusions and enhancer-hijacking events in thyroid adenocarcinoma within the PCAWG pan-cancer cohort of 2,658 whole genomes [PMID:32025007](../papers/32025007.md)
-- Rare oncogenic fusion (NTRK3 fusion) identified in melanoma within a 28-gene driver panel; targeted with kinase inhibitors in BRAF V600-wild-type disease [PMID:33509808](../papers/33509808.md)
+- Rare oncogenic fusion (NTRK3 fusion) identified in melanoma within a 28-gene driver panel; targeted with kinase inhibitors in [BRAF](../genes/BRAF.md) V600-wild-type disease [PMID:33509808](../papers/33509808.md)
 - NTRK3 fusions (e.g., NTRK3-ETV6, NTRK3-SPECC1L) among the n=9 NTRK fusions classified ready-for-routine-use; resistance mutations identified after prior TRK inhibitor in the MAPPYACTS pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
+- NTRK3–[SLMAP](../genes/SLMAP.md) activating fusion identified by cWGTS in a neuroblastoma patient; nominated as a therapeutic target for TRK inhibitors [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -90,5 +92,8 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

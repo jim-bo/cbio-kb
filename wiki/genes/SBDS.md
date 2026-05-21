@@ -3,8 +3,8 @@ symbol: SBDS
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-21
 ---
 
 # SBDS
@@ -16,6 +16,7 @@ SBDS (Shwachman-Bodian-Diamond Syndrome) encodes a ribosome biogenesis factor re
 ## Alterations observed in the corpus
 
 - Divergent allelic state for SBDS observed across CRPC-Adeno lymph-node, CRPC-Adeno bone, and CRPC-NE liver metastases in patient WCMC161, illustrating clonal divergence during neuroendocrine transdifferentiation [PMID:26855148](../papers/26855148.md)
+- Germline SBDS splice-site c.258+2T>C variant identified in a rhabdomyosarcoma patient via comprehensive whole-genome/transcriptome sequencing (cWGTS), not detected by MSK-IMPACT panel alone [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SBDS (Shwachman-Bodian-Diamond Syndrome) encodes a ribosome biogenesis factor re
 - [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **wiki-cli** on **2026-05-21**.*

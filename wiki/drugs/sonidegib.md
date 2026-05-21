@@ -13,7 +13,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Sonidegib (LDE225) is a selective smoothened ([SMO](../genes/SMO.md)) antagonist that inhibits hedgehog (HH) pathway signaling. It is FDA-approved for locally advanced basal cell carcinoma. In the pediatric setting, it is investigated for SHH-pathway-driven medulloblastoma and other hedgehog-activated tumors. SMO resistance mutations (e.g., D473H) can emerge after hedgehog inhibitor exposure.
+Sonidegib (LDE225) is a selective smoothened ([SMO](../genes/SMO.md)) antagonist that inhibits hedgehog (HH) pathway signaling. It is FDA-approved for locally advanced basal cell carcinoma. In the pediatric setting, it is investigated for SHH-pathway-driven medulloblastoma and other hedgehog-activated tumors. [SMO](../genes/SMO.md) resistance mutations (e.g., D473H) can emerge after hedgehog inhibitor exposure.
 
 ## Evidence in the corpus
 

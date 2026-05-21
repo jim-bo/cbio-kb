@@ -13,7 +13,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Vismodegib (GDC-0449) is the first FDA-approved [SMO](../genes/SMO.md) antagonist, used for locally advanced and metastatic basal cell carcinoma. In the pediatric oncology setting, it is investigated for SHH-pathway-driven medulloblastoma and other hedgehog-activated tumors. Resistance via SMO mutations (e.g., D473H) is a recognized mechanism following hedgehog inhibitor therapy.
+Vismodegib (GDC-0449) is the first FDA-approved [SMO](../genes/SMO.md) antagonist, used for locally advanced and metastatic basal cell carcinoma. In the pediatric oncology setting, it is investigated for SHH-pathway-driven medulloblastoma and other hedgehog-activated tumors. Resistance via [SMO](../genes/SMO.md) mutations (e.g., D473H) is a recognized mechanism following hedgehog inhibitor therapy.
 
 ## Evidence in the corpus
 

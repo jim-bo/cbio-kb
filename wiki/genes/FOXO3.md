@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - PRAD
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # FOXO3
@@ -17,8 +17,9 @@ FOXO3 is a FOXO-family transcription factor located at 6q21 that functions as a 
 ## Alterations observed in the corpus
 
 - 6q21 deletions (containing FOXO3 and [PRDM1](../genes/PRDM1.md)) are enriched in SPOP-mutant prostate cancers (P = 3.4e-7) in a 112-tumor WES cohort (Broad); FOXO3 loss co-occurs with [SPOP](../genes/SPOP.md) mutations as part of a coordinated genomic alteration pattern in ETS-negative prostate cancer [PMID:22610119](../papers/22610119.md)
-- Mutation identified in ~7% of adenoid cystic carcinoma (ACC) cases; PI3K-pathway transcription factor [PMID:23685749](../papers/23685749.md)
-- HD-defined TSG newly nominated as a breast-cancer Mut-driver via combined homozygous deletion and inactivating-mutation evidence; mutually exclusive with PIK3CA in breast tumors [PMID:27161491](../papers/27161491.md)
+- Mutation identified in ~7% of adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)) cases; PI3K-pathway transcription factor [PMID:23685749](../papers/23685749.md)
+- HD-defined TSG newly nominated as a breast-cancer Mut-driver via combined homozygous deletion and inactivating-mutation evidence; mutually exclusive with [PIK3CA](../genes/PIK3CA.md) in breast tumors [PMID:27161491](../papers/27161491.md)
+- PAX3-FOXO3 t(2;6) fusion translocation detected by cWGTS reclassified an embryonal rhabdomyosarcoma ([ERMS](../cancer_types/ERMS.md)) patient as alveolar ([ARMS](../cancer_types/ARMS.md)); methylation tSNE clustered the patient with ARMS samples [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -26,7 +27,7 @@ FOXO3 is a FOXO-family transcription factor located at 6q21 that functions as a 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-deleted with PRDM1 at 6q21; co-occurs with [SPOP](../genes/SPOP.md) missense mutations; associated with absence of TMPRSS2-ERG rearrangements [PMID:22610119](../papers/22610119.md)
+- Co-deleted with [PRDM1](../genes/PRDM1.md) at 6q21; co-occurs with [SPOP](../genes/SPOP.md) missense mutations; associated with absence of TMPRSS2-ERG rearrangements [PMID:22610119](../papers/22610119.md)
 
 ## Therapeutic relevance
 
@@ -40,10 +41,13 @@ FOXO3 is a FOXO-family transcription factor located at 6q21 that functions as a 
 
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

@@ -5,8 +5,8 @@ drug_class: androgen biosynthesis inhibitor (CYP17A1 inhibitor)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, hormone-therapy, prostate-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: "2026-05-21"
 ---
 
 # abiraterone
@@ -25,6 +25,8 @@ Abiraterone acetate is a selective, irreversible inhibitor of CYP17A1 (17α-hydr
 - In the mCRPC cohort (n=128 first-line ARSI, prad_su2c_2019), AR alteration was associated with shorter time on first-line abiraterone (P=0.005, CPE=0.651), while RB1 alteration (multivariate RR 6.56) was the dominant predictor of ARSI failure; abiraterone and enzalutamide were pooled as androgen-receptor signaling inhibitors (ARSIs) in the analysis. [PMID:31061129](../papers/31061129.md)
 - AR alterations predict androgen-axis treatment failure in mCSPC; abiraterone (with enzalutamide and apalutamide) is a next-generation AR-pathway therapy for which NOTCH-pathway status, CDK12 biallelic inactivation, and AR alteration profiles may stratify benefit [PMID:32220891](../papers/32220891.md)
 - Time on first-line abiraterone or enzalutamide in castration-resistant prostate cancer was not significantly different between CDK12-altered and CDK12-WT patients (median 9.7 vs 8.7 months; aHR 1.08, 95% CI 0.57–1.51; p=0.8) [PMID:32317181](../papers/32317181.md)
+- In prostate cancer brain metastases (PCBM), 11/42 (26%) of ADT-treated patients had received abiraterone and/or enzalutamide (next-generation ARSi), establishing clinical context for HRR-targeted therapy evaluation in the PCBM setting [PMID:35504881](../papers/35504881.md)
+- CRPC-SCL subtype (stem cell-like, YAP/TAZ/AP-1-driven) had significantly shorter time on next-generation ARSi including abiraterone among 56 SU2C CRPC patients, suggesting CRPC-SCL classification could deprioritize abiraterone escalation (Cox log-rank) [PMID:35617398](../papers/35617398.md)
 
 ## Resistance mechanisms
 
@@ -42,14 +44,10 @@ Abiraterone acetate is a selective, irreversible inhibitor of CYP17A1 (17α-hydr
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26855148](../papers/26855148.md)
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31061129](../papers/31061129.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220891](../papers/32220891.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+- [PMID:35504881](../papers/35504881.md)
+- [PMID:35617398](../papers/35617398.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

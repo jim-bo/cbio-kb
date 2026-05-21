@@ -31,7 +31,7 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied to 20 of 240 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy in the MSK TMB study; panel was noted as the reference for 240-patient cohort TMB estimation [PMID:29337640](../papers/29337640.md)
 - Applied at ~500-fold coverage for targeted sequencing of 22 patient-derived bladder cancer organoid lines (SCBO-1 through SCBO-16) and matched parental tumors, enabling subclonal mutation detection; data deposited in cBioPortal as study [bladder_columbia_msk_2018](../datasets/bladder_columbia_msk_2018.md) [PMID:29625057](../papers/29625057.md).
 - Used for 518 of 1,918 breast tumors in prospective MSK sequencing study; 468-gene panel version [PMID:30205045](../papers/30205045.md)
-- Applied to 36 of 127 advanced [HCC](../cancer_types/HCC.md) tumors in the MSK prospective HCC cohort ([hcc_mskimpact_2018](../datasets/hcc_mskimpact_2018.md)) [PMID:30373752](../papers/30373752.md)
+- Applied to 36 of 127 advanced [HCC](../cancer_types/HCC.md) tumors in the MSK prospective [HCC](../cancer_types/HCC.md) cohort ([hcc_mskimpact_2018](../datasets/hcc_mskimpact_2018.md)) [PMID:30373752](../papers/30373752.md)
 - One of three MSK-IMPACT panel versions (341, 410, or 468 genes) used with matched germline normal sequencing to define somatic TMB in 1,662 ICI-treated advanced cancer patients; TMB-high on these panels was independently predictive of [OS](../cancer_types/OS.md) (HR 0.61, p = 1.3 × 10⁻⁷) [PMID:30643254](../papers/30643254.md)
 - Glioma tissue biopsies sequenced using [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), or IMPACT468 for a benchmark cohort of 553 MSKCC glioma biopsies from 512 patients; results used to compare CSF ctDNA TMB (4.90 mut/Mb) against matched tissue (4.46 mut/Mb) [PMID:30675060](../papers/30675060.md)
 - Used for 57 of 96 (59%) panNET samples, the primary version in the MSK panNET prospective cohort ([panet_msk_2018](../datasets/panet_msk_2018.md)) [PMID:30687805](../papers/30687805.md)
@@ -39,17 +39,18 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - 468-gene MSK-IMPACT hybridization-capture panel used for genomic profiling of 31 rectal cancer tumoroid lines; 92% of likely-oncogenic tumor mutations were preserved in matched tumoroids; top mutated genes ([APC](../genes/APC.md), [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), [FBXW7](../genes/FBXW7.md)) matched the 287-patient comparator cohort [PMID:31591597](../papers/31591597.md).
 - Applied to 4 samples (Case 9) in synchronous DCIS/IDC-NST WES cohort (n=56); IMPACT468 at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
 - One of three panel versions (341/410/468) used across 26,743 MSK-IMPACT pan-cancer tumors; all include [CDK12](../genes/CDK12.md) [PMID:32317181](../papers/32317181.md)
-- Used to sequence 406 of 604 surgically resected stage I–III [LUAD](../cancer_types/LUAD.md) patients (1.22 Mb coverage); the predominant panel version in this LUAD histologic-subtype study at MSKCC [PMID:32791233](../papers/32791233.md)
+- Used to sequence 406 of 604 surgically resected stage I–III [LUAD](../cancer_types/LUAD.md) patients (1.22 Mb coverage); the predominant panel version in this [LUAD](../cancer_types/LUAD.md) histologic-subtype study at MSKCC [PMID:32791233](../papers/32791233.md)
 - MSK-IMPACT468 (468-gene somatic panel, 88-gene germline panel) applied to 83 enucleated retinoblastoma specimens; detects SNVs, indels, focal CNAs, and [select](../methods/select.md) rearrangements [PMID:33466343](../papers/33466343.md)
 - IMPACT468 (468-gene panel) used to sequence the majority of 696 melanoma tumors at MSKCC and Lehigh Valley between 2014–2019 [PMID:33509808](../papers/33509808.md)
 - IMPACT468 (468-gene panel) used to sequence 225 of 412 iCCA patients (largest version subset) in bi-institutional NGS study [PMID:33765338](../papers/33765338.md)
 - IMPACT468 (468-gene panel) applied to 338 of 487 EAC/EGJ patients (the predominant version) at MSK; all 16 recurrent driver genes present in each panel version [PMID:33795256](../papers/33795256.md)
-- One of three MSK-IMPACT panel versions (alongside IMPACT341, IMPACT410) used to profile 17 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC [PMID:33863915](../papers/33863915.md)
+- One of three MSK-IMPACT panel versions (alongside [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md)) used to profile 17 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC [PMID:33863915](../papers/33863915.md)
 - Applied to 100 of 219 genomically profiled intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients (largest fraction of the profiled cohort); used with [IMPACT341](../methods/IMPACT341.md) (N=26) and [IMPACT410](../methods/IMPACT410.md) (N=93) across the 2000–2018 study period [PMID:33963001](../papers/33963001.md)
 - Used as tissue comparator panel in the MSK-ACCESS clinical cohort (520 MSK-IMPACT tissues from 383 of 617 patients); 1,206 mutations in overlapping target regions compared with [ACCESS129](../methods/ACCESS129.md) plasma results; 59% were shared, 21% tissue-only, 20% plasma-only [PMID:34145282](../papers/34145282.md)
 - Applied in the MSK early-onset colorectal cancer cohort (759 EO-CRC patients vs 687 AO-CRC) for somatic and germline profiling at Memorial Sloan Kettering Cancer Center [PMID:34405229](../papers/34405229.md)
 - Used as one of the MSK-IMPACT targeted sequencing panels (468-gene version) in the MSK-MET pan-cancer cohort of 25,775 patients; FACETS allele-specific copy-number analysis applied to a subset of 17,224 samples [PMID:35120664](../papers/35120664.md)
 - Used as one of three MSK-IMPACT targeted panel versions (468-gene) in a cohort of 237 esophageal/GEJ adenocarcinoma patients sequenced at MSK 2014–2020 [PMID:35377946](../papers/35377946.md).
+- Applied in [lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md) study: IMPACT468 panel (n=83 patients, majority) used as part of MSK-IMPACT targeted sequencing across 119 LGSC patients at median 588× depth [PMID:35443055](../papers/35443055.md)
 
 ## Notes
 
@@ -140,5 +141,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35443055](../papers/35443055.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

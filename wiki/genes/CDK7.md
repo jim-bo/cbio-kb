@@ -5,8 +5,8 @@ cancer_types:
   - THAP
   - THPA
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CDK7
@@ -18,8 +18,9 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 ## Alterations observed in the corpus
 
 - Focal copy number loss at chromosome 5 in anaplastic thyroid carcinoma (ATC), identified as part of a comprehensive genomic and evolutionary landscape analysis [PMID:38412093](../papers/38412093.md).
-- Elevated kinase activity in colon cancer tumors (COAD); identified among druggable kinase candidates in CPTAC colorectal proteogenomics; CDK7 inhibitors are in clinical development [PMID:31031003](../papers/31031003.md)
+- Elevated kinase activity in colon cancer tumors ([COAD](../cancer_types/COAD.md)); identified among druggable kinase candidates in CPTAC colorectal proteogenomics; CDK7 inhibitors are in clinical development [PMID:31031003](../papers/31031003.md)
 - Identified as a kinase in a phospho-substrate axis (CDK7-MCM2) with FDA-approved or investigational inhibitors, upregulated in PDAC tumors vs NAT [PMID:34534465](../papers/34534465.md)
+- Kinase with increased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a European multi-omic cohort (n=122 WES, n=51 proteome/phosphoproteome); CDK1/2/5/7 collectively highlighted as candidate HCC therapeutic targets alongside [AURKA](../genes/AURKA.md) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -41,10 +42,13 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 
 - [PMID:38412093](../papers/38412093.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

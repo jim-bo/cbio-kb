@@ -35,17 +35,18 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - C1531 mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; notable as ATRX loss is typically associated with 1p/19q-intact astrocytoma/GBM rather than oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Pan-sarcoma SMG; deletions/mutations in ~30% of DDLPS; loss associated with telomere lengthening in UPS/MFS (p=0.013); proposed as a correlative biomarker for [CDK4](../genes/CDK4.md) inhibitor trials in DDLPS [PMID:29100075](../papers/29100075.md)
 - ATRX co-occurs with [TP53](../genes/TP53.md) and [IDH1](../genes/IDH1.md) in the largest somatic-somatic interaction hub pan-cancer (TCGA 33-tumor-type analysis); represents a key co-mutation pattern in glioma-related clusters [PMID:29625049](../papers/29625049.md)
-- ATRX loss-of-function alterations are truncal in IDH-mutant non-codeleted low-grade gliomas ([LGG](../cancer_types/LGG.md)) and mutually exclusive with TERT promoter mutations; detected with 100% concordance between tumour tissue and CSF ctDNA in non-hypermutated cases (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
+- ATRX loss-of-function alterations are truncal in IDH-mutant non-codeleted low-grade gliomas ([LGG](../cancer_types/LGG.md)) and mutually exclusive with [TERT](../genes/TERT.md) promoter mutations; detected with 100% concordance between tumour tissue and CSF ctDNA in non-hypermutated cases (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 - ATRX somatic alterations in 25% of metastatic panNET (80-patient MSK-IMPACT cohort); together with [DAXX](../genes/DAXX.md) defines the chromatin-remodeling/ALT axis; associated with improved 1-year [OS](../cancer_types/OS.md) (97% vs 83%, P<.01) in metastatic disease, contrasting with poor prognosis in resected disease [PMID:30687805](../papers/30687805.md)
 - ATRX a canonical glioma subtype-defining lesion; frequency stable across primary vs. recurrent specimens in the 923-patient glioma cohort ([glioma_mskcc_2019](../datasets/glioma_mskcc_2019.md)); assessed by MSK-IMPACT targeted panel [PMID:31263031](../papers/31263031.md)
 - ATRX mutation/ALT (alternative lengthening of telomeres) flags PDX models suitable for [ATR](../genes/ATR.md) inhibitor testing in the PPTC cohort of 261 pediatric cancer PDXs [PMID:31693904](../papers/31693904.md)
-- IDHmut-noncodel glioma driver; mutation occurs after IDH1 and TP53 based on lower cancer cell fraction (CCF) at initial tumor (P=0.03 vs. TP53), indicating later clonal acquisition [PMID:31748746](../papers/31748746.md)
+- IDHmut-noncodel glioma driver; mutation occurs after [IDH1](../genes/IDH1.md) and [TP53](../genes/TP53.md) based on lower cancer cell fraction (CCF) at initial tumor (P=0.03 vs. TP53), indicating later clonal acquisition [PMID:31748746](../papers/31748746.md)
 - ATRX mutation observed in IDH1-mutant [GBM](../cancer_types/GBM.md) PDX (GBM164, GBM196) and in cerebellar diffuse midline glioma PDX GBM36 ([H3-3A](../genes/H3-3A.md) p.K27M + ATRX + TP53) within a panel of 83 glioblastoma PDX [PMID:31852831](../papers/31852831.md)
-- 128 PCAWG tumors carry ATRX or DAXX alterations (71 truncating); ATRX SVs cluster in telomere phenotype group C1 (ALT pathway) while ATRX/DAXX point mutations cluster in C2; loss is enriched in ALT-pathway tumors independent of [RB1](../genes/RB1.md) status [PMID:32025007](../papers/32025007.md)
-- Altered in 31% of uterine leiomyosarcoma (uLMS, n=80), significantly more frequent than in high-grade non-LMS (5%, p<0.01); loss-of-function alterations dominated alongside TP53 (56%) and RB1 (51%) as core uLMS drivers [PMID:32299819](../papers/32299819.md)
+- 128 PCAWG tumors carry ATRX or [DAXX](../genes/DAXX.md) alterations (71 truncating); ATRX SVs cluster in telomere phenotype group C1 (ALT pathway) while ATRX/DAXX point mutations cluster in C2; loss is enriched in ALT-pathway tumors independent of [RB1](../genes/RB1.md) status [PMID:32025007](../papers/32025007.md)
+- Altered in 31% of uterine leiomyosarcoma (uLMS, n=80), significantly more frequent than in high-grade non-LMS (5%, p<0.01); loss-of-function alterations dominated alongside TP53 (56%) and [RB1](../genes/RB1.md) (51%) as core uLMS drivers [PMID:32299819](../papers/32299819.md)
 - Included in the panel of commonly mutated genes used to evaluate fidelity of derived models (cell lines and PDX) from [NF1](../genes/NF1.md) nerve sheath tumors; mutational profiles preserved across tumor, cell line, and xenograft [PMID:32561749](../papers/32561749.md)
 - In a proteogenomic study of 99 GBMs, 9 ATRX-mutant tumors showed significantly diminished ATRX RNA and protein (IHC-validated); ATRX mutations were mutually exclusive with TERT promoter hotspot mutations (C228T/C250T) and co-occurred with TP53 mutation and IDH1 R132H. [PMID:33577785](../papers/33577785.md)
 - ATRX listed among other recurrent CNS oncomap alterations in the MAPPYACTS pediatric precision-oncology trial across sarcomas, CNS tumors, and leukemia (n=624 patients with successful tumor sequencing) [PMID:35292802](../papers/35292802.md)
+- ATRX structural variants detected in 5/29 (17%) neuroblastoma patients by cWGTS; only ¼ of ATRX deletions were reported by MSK-IMPACT panel; also observed in 8 osteosarcomas with association to telomere length; therapy-defining risk-stratification biomarker [PMID:35585047](../papers/35585047.md)
 
 ## Cancer types (linked)
 
@@ -151,5 +152,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

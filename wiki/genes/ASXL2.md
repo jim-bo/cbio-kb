@@ -8,7 +8,7 @@ tags:
   - polycomb
   - tumor-suppressor
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-21
 ---
 
 # ASXL2
@@ -20,6 +20,7 @@ ASXL2 (Additional Sex Combs Like 2) is a chromatin-binding protein in the Polyco
 ## Alterations observed in the corpus
 
 - Polycomb-group chromatin-modifier SMG in MIBC (TCGA, n=412) with predominantly inactivating mutations, co-listed with [ASXL1](../genes/ASXL1.md) as a recurrently mutated epigenetic regulator [PMID:28988769](../papers/28988769.md).
+- ASXL2 variant found in expanding metastatic clones of patient P5 in a multi-region WGS study of 51 prostate cancer brain metastases [PMID:35504881](../papers/35504881.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ ASXL2 (Additional Sex Combs Like 2) is a chromatin-binding protein in the Polyco
 - [PMID:28988769](../papers/28988769.md) — TCGA comprehensive molecular characterization of 412 MIBC tumors (Robertson et al., 2017).
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:35504881](../papers/35504881.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-21**.*

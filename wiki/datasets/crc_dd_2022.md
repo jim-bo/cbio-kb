@@ -52,7 +52,7 @@ processed_at: 2026-05-21
 
 ## Notable findings derived from this cohort
 
-- 47/4,561 (1.03%) of CRC cases harbored dual RAS hotspot/BRAF V600E driver mutations; BRAF V600E + RAS co-occurrence was extremely rare (3/4,561, 0.06%) [PMID:35235413](../papers/35235413.md).
+- 47/4,561 (1.03%) of CRC cases harbored dual RAS hotspot/BRAF V600E driver mutations; [BRAF](../genes/BRAF.md) V600E + RAS co-occurrence was extremely rare (3/4,561, 0.06%) [PMID:35235413](../papers/35235413.md).
 - Single-cell genotyping demonstrated same-cell co-occurrence of dual drivers in 14%–95% of tumor cells across four CRC-DD cases, directly contradicting MAPK-driver mutual exclusivity dogma [PMID:35235413](../papers/35235413.md).
 - CRC-DD showed lower allelic imbalance favoring the oncogenic allele (32.5% vs 51.3% in single-driver CRC, P=.0026) and lower fraction of genome altered (P=7.99×10⁻⁹) [PMID:35235413](../papers/35235413.md).
 - MSI-H enrichment in CRC-DD (27% vs 8.7%, P=.0004) and enrichment of C→T/G→A transitions suggest MMR-deficiency signature preceded MAPK mutations chronologically [PMID:35235413](../papers/35235413.md).

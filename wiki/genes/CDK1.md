@@ -8,8 +8,8 @@ tags:
   - kinase
   - cell-cycle
   - therapeutic-target
-processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_by: crosslinker
+processed_at: 2026-05-21
 ---
 
 # CDK1
@@ -20,9 +20,10 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 
 ## Alterations observed in the corpus
 
-- CDK1 elevated kinase activity identified in colon cancer tumors vs matched NATs in the CPTAC proteogenomic colon cohort (n=110); flagged by kinase-activating site phosphorylation and target-site enrichment analysis alongside CDK2, CDK4, [CDK7](../genes/CDK7.md), [MELK](../genes/MELK.md), [PFKFB3](../genes/PFKFB3.md), and [PI4KB](../genes/PI4KB.md) [PMID:31031003](../papers/31031003.md)
-- Identified downstream of TP53 / CTNNB1 / ARID1A mutations in trans in a multi-omic proteogenomic study of endometrial carcinoma (n=95 tumors) [PMID:32059776](../papers/32059776.md)
-- CDK1 kinase activity elevated in ATRT, MB, HGG, and ependymoma in the CPTAC pediatric brain tumor proteogenomics study (n=218 samples); CDK1/CDK2 protein abundance are mutually exclusive within HGG, implying two distinct HGG signaling programs confirmed in an independent 23-patient HGG validation cohort [PMID:33242424](../papers/33242424.md)
+- CDK1 elevated kinase activity identified in colon cancer tumors vs matched NATs in the CPTAC proteogenomic colon cohort (n=110); flagged by kinase-activating site phosphorylation and target-site enrichment analysis alongside [CDK2](../genes/CDK2.md), [CDK4](../genes/CDK4.md), [CDK7](../genes/CDK7.md), [MELK](../genes/MELK.md), [PFKFB3](../genes/PFKFB3.md), and [PI4KB](../genes/PI4KB.md) [PMID:31031003](../papers/31031003.md)
+- Identified downstream of [TP53](../genes/TP53.md) / [CTNNB1](../genes/CTNNB1.md) / [ARID1A](../genes/ARID1A.md) mutations in trans in a multi-omic proteogenomic study of endometrial carcinoma (n=95 tumors) [PMID:32059776](../papers/32059776.md)
+- CDK1 kinase activity elevated in [ATRT](../cancer_types/ATRT.md), MB, HGG, and ependymoma in the CPTAC pediatric brain tumor proteogenomics study (n=218 samples); CDK1/CDK2 protein abundance are mutually exclusive within HGG, implying two distinct HGG signaling programs confirmed in an independent 23-patient HGG validation cohort [PMID:33242424](../papers/33242424.md)
+- Elevated kinase activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver and in TP53-mutant HCCs; CDK1/2/5 highlighted as targetable kinases; CDK1/2/6 activity characterizes the poor-prognosis iCluster-3 subtype (n=51 phosphoproteome, [hcc_meric_2021](../datasets/hcc_meric_2021.md)) [PMID:35508466](../papers/35508466.md)
 
 ## Cancer types (linked)
 
@@ -30,7 +31,7 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 
 ## Co-occurrence and mutual exclusivity
 
-- Elevated co-occurs with [CDK2](../genes/CDK2.md), CDK4, CDK7, MELK, PFKFB3, and PI4KB as part of a broader kinome-activation signature in colon cancer tumors; CDK2 shows the strongest correlation with phospho-Rb levels (r=0.47, p=1.8×10⁻⁶) and is the highest-priority CDK target in colon cancer per the CPTAC study [PMID:31031003](../papers/31031003.md)
+- Elevated co-occurs with [CDK2](../genes/CDK2.md), CDK4, [CDK7](../genes/CDK7.md), [MELK](../genes/MELK.md), [PFKFB3](../genes/PFKFB3.md), and [PI4KB](../genes/PI4KB.md) as part of a broader kinome-activation signature in colon cancer tumors; CDK2 shows the strongest correlation with phospho-Rb levels (r=0.47, p=1.8×10⁻⁶) and is the highest-priority CDK target in colon cancer per the CPTAC study [PMID:31031003](../papers/31031003.md)
 
 ## Therapeutic relevance
 
@@ -44,9 +45,12 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
 
 - [PMID:33242424](../papers/33242424.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35508466](../papers/35508466.md)
+
+*This page was processed by **crosslinker** on **2026-05-21**.*

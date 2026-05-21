@@ -19,7 +19,7 @@ Resolution Bioscience ctDx Lung targeted next-generation sequencing panel for pl
 
 - [PMID:36357680](../papers/36357680.md) — used to profile plasma ctDNA from 1,127 advanced [NSCLC](../cancer_types/NSCLC.md) patients across MSK and GenesisCare (Sydney); ctDNA detection rate was 64% (722/1,127), and ctDNA detection was independently associated with shorter [OS](../cancer_types/OS.md) (HR 2.05, 95% CI 1.74–2.42, P<0.001) [PMID:36357680](../papers/36357680.md).
 - [PMID:39147831](../papers/39147831.md) — ctDx Lung (21-gene panel) used in an international generalizability cohort of 463 advanced [NSCLC](../cancer_types/NSCLC.md) patients from MSK and GenesisCare (Sydney), demonstrating transferability of the random survival forest ctDNA-VTE model (c-index 0.67) across assay platforms [PMID:39147831](../papers/39147831.md).
-- 6 circulating tumor cell-derived xenografts (CDXs) from [SCLC](../cancer_types/SCLC.md) patients generated alongside 40 tissue PDXs in MSK SCLC model resource; CDX engraftment rate 13/29 (44.83%) mixed-histology samples [PMID:35440124](../papers/35440124.md).
+- 6 circulating tumor cell-derived xenografts (CDXs) from [SCLC](../cancer_types/SCLC.md) patients generated alongside 40 tissue PDXs in MSK [SCLC](../cancer_types/SCLC.md) model resource; CDX engraftment rate 13/29 (44.83%) mixed-histology samples [PMID:35440124](../papers/35440124.md).
 
 ## Notes
 

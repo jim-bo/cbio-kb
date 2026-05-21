@@ -92,6 +92,57 @@ filtered by `modifier`. v1 tolerance is `± 5 percentage points`.
 6. **Empty array is OK.** If the paper has no API-checkable quantitative
    claims (review papers, methods papers, qualitative findings only),
    write `[]`. Do not omit the sidecar.
+7. **Denominator must equal what the API can return** (mutation_rate
+   only). The verifier compares `value` against
+   `unique_samples_with_mutation / sequencedSampleCount`. If the
+   paper's denominator does not equal the deposited study's sequenced
+   cohort, the comparison is structurally invalid — the rate will
+   never match the API even when both paper and API are correct. You
+   cannot read `sequencedSampleCount` directly (no API access), so
+   you detect the mismatch by inspecting the paper page itself:
+
+   **Mandatory pre-emit checklist for every `mutation_rate` claim.**
+   For each candidate rate, walk these checks IN ORDER. Stop at the
+   first match and skip the claim with the named reason. Only emit
+   if none match.
+
+   - **a. `tier_mixed_denominator`** — `## Cohort & data` names ≥2
+     tiers (e.g. "Discovery set n=A, Validation set n=B", "WES + Sanger",
+     "screening + replication"), and the rate's denominator equals
+     A+B. Skip — cBioPortal almost always deposits only the
+     sequenced tier, not the combined total.
+   - **b. `subset_denominator`** — the rate's denominator is a named
+     subset (e.g. "n=31 plasmacytoid out of 34 total", "n=24 of the
+     pleomorphic subtype", "the IMPACT341-panel subset"). Skip — the
+     API returns rates over the full deposited cohort, not subsets.
+   - **c. `superset_denominator`** — the rate's denominator is a
+     pooled multi-study total (e.g. "across both MSKCC and TCGA
+     cohorts"). Skip — the API queries one study at a time.
+
+   If none of (a)–(c) match, the denominator equals the
+   single-deposited-cohort N, and the rate is emittable.
+
+   **`sample_count` claims are NOT subject to this gate.** Emit
+   `sample_count` with whatever cohort size the paper states, even if
+   you suspect it exceeds the deposit. The downstream warn is the
+   intended signal that the deposit is a subset of the paper's cohort.
+
+   **Canonical example — PMID 21252315 (`panet_jhu_2011`)**: paper
+   says "Discovery set n=10, Validation set n=58 (combined n=68)" and
+   reports MEN1 44.1% (30/68), DAXX 25% (17/68), ATRX 17.6% (12/68),
+   PTEN 7.3% (5/68), TSC2 8.8% (6/68), PIK3CA 1.4% (1/68). Each
+   rate's denominator = 68 = 10 + 58. Check (a) fires for all six.
+   **Correct extraction: 1 `sample_count` claim (value=68), 0
+   `mutation_rate` claims, 6 entries in the skipped list with
+   `reason: "tier_mixed_denominator"`.** Emitting these rates because
+   "they map cleanly to the declared study" is wrong — they don't
+   map; the denominator 68 is not a sample count the API can return.
+
+   **What good emission looks like instead**: if the paper also
+   reports a rate explicitly over the single sequenced tier (e.g.
+   "MEN1 mutated in 5/10 of the WES cohort"), THAT rate IS emittable
+   with `denominator: 10`. Do not recompute single-tier rates that
+   the paper does not state.
 
 ## How to read the paper page (token-efficient)
 
@@ -120,12 +171,18 @@ Then narrow-Read each section by line offset.
 3. Narrow-Read each of TL;DR / Cohort & data / Key findings /
    Genes & alterations (skipping the ones absent from the outline).
 4. For each numeric assertion in those sections, decide:
-   - Is it a cohort size? → `sample_count`
-   - Is it a gene-level mutation rate? → `mutation_rate`
+   - Is it a cohort size? → candidate `sample_count`
+   - Is it a gene-level mutation rate? → candidate `mutation_rate`
    - Otherwise → skip
 5. Map the assertion to a single declared `study` (the paper's own
    `study_id` is the default; only use a `datasets` entry when the prose
    names that cohort specifically).
+5a. **For every `mutation_rate` candidate, run the pre-emit checklist
+    from Hard rule 7** (`tier_mixed_denominator` /
+    `subset_denominator` / `superset_denominator`). Skip if any check
+    fires. Read `## Cohort & data` BEFORE deciding any rate is
+    emittable — the tier structure lives there, not in `## Key
+    findings`.
 6. Validate: `study` is in frontmatter; `gene` is in frontmatter; the
    quote can be grepped back; the value is unambiguous.
 7. Write `wiki/papers/{pmid}.claims.json` as a JSON array (pretty-printed,

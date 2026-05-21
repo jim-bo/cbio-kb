@@ -103,14 +103,14 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 3. Dispatch **paper-compiler** with the PMID. It writes `wiki/papers/{pmid}.md` and returns the entity lists (genes, cancer_types, datasets, drugs, methods).
 4. For each entity kind with new/touched entries, dispatch **entity-page-writer** once with the entity→[PMID] mapping.
 5. Dispatch **crosslinker** over the new paper page plus any entity pages touched in step 4.
-6. Dispatch **claims-extractor** with the PMID. Writes `wiki/papers/{pmid}.claims.json` (may be `[]` for review papers). Optional but recommended for any paper with quantitative claims about a cBioPortal study.
-7. `uv run cbio-kb wiki normalize-brackets` — deterministic, repairs Obsidian-style links agents sometimes emit. Lint will error on the unbalanced shapes.
-8. **Update the News section** in `schema/templates/index.md` — prepend a dated bullet summarizing what was added (paper count, key topics, PMIDs linked). Keep it to 1–2 lines.
-9. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from `schema/templates/index.md`.
-10. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` (powers the `/ask` Graph tab).
-11. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
-12. (Optional) `uv run python scripts/verify_paper.py --pmid <pmid>` to confirm claims pass the API round-trip. `uv run python scripts/emit_claim_tests.py` then regenerates `tests/claims/test_{pmid}.py`.
-13. Commit.
+6. `uv run cbio-kb wiki normalize-brackets` — deterministic, repairs Obsidian-style links agents sometimes emit. Lint will error on the unbalanced shapes.
+7. **Update the News section** in `schema/templates/index.md` — prepend a dated bullet summarizing what was added (paper count, key topics, PMIDs linked). Keep it to 1–2 lines.
+8. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from `schema/templates/index.md`.
+9. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` (powers the `/ask` Graph tab).
+10. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
+11. Commit.
+
+**Claims extraction is opt-in, not part of the standard pipeline.** The `claims-extractor` agent + `scripts/verify_paper.py` round-trip is paused pending the schema decision in `notes/FACT_VERIFICATION.md` (denominator-basis labeling vs. walker-side detection). Do not dispatch it as part of the per-paper or per-batch loop. To exercise it manually on a single paper: dispatch `claims-extractor` with the PMID to write `wiki/papers/{pmid}.claims.json`, then `uv run python scripts/verify_paper.py --pmid <pmid>` and `uv run python scripts/emit_claim_tests.py` to regenerate `tests/claims/test_{pmid}.py`.
 
 ### Adding a batch of N papers
 

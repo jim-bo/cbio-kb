@@ -162,12 +162,132 @@ event counts that v1 schema doesn't support — useful signal for v2
 schema design. Step 6 of the "Adding one paper" workflow in AGENTS.md
 now dispatches it. Pytest emit is step 12 (optional).
 
+**Update 2026-05-16: worked example — tier-mixed denominators.**
+
+Wave 1 of the batch extraction (10 PMIDs, primary-cohort papers) ran
+the agent against papers 18948947 / 20579941 / 20601955 / 21252315 /
+21720365 / 21796119 / 21798893 / 21798897 / 21909114 / 22158988. The
+agent emitted 28 claims (10 `sample_count` + 18 `mutation_rate`). When
+those went through the verifier walker, 17 claims passed and 11
+warned. **Every single warn was the same shape.**
+
+Canonical case: PMID 21252315, Jiao et al. *Science* 2011 —
+"DAXX/ATRX, MEN1 and mTOR Pathway Genes are Frequently Altered in
+Pancreatic Neuroendocrine Tumors".
+
+The paper's `## Cohort & data` section says:
+
+> "68 sporadic, non-familial PanNETs (Discovery set n=10, Validation
+> set n=58) … whole-exome-seq (Discovery set, Illumina GAIIx) and
+> sanger-sequencing (Validation set, targeted genes)."
+
+`## Key findings` reports headline rates over the combined tier:
+"MEN1 mutated in 44.1% (30/68)", "DAXX 25% (17/68)", "ATRX 17.6%
+(12/68)", "PTEN 7.3% (5/68)", "TSC2 8.8% (6/68)", "PIK3CA 1.4%
+(1/68)".
+
+cBioPortal `panet_jhu_2011` deposits **only the WES discovery tier**.
+`GET /studies/panet_jhu_2011` returns `sequencedSampleCount: 10`,
+description "Whole exome sequencing of 10 pancreatic neuroendocrine
+tumor patients". `GET /sample-lists/panet_jhu_2011_sequenced` lists
+exactly 10 sample IDs (`PanNET3PT`, `PanNET7PT`, …, `PanNET93PT`).
+
+Mutation fetch over those 10 samples returns:
+
+| Gene   | Paper (n=68) | API (n=10)  | Δ        |
+|--------|--------------|-------------|----------|
+| MEN1   | 44.1% (30/68)| 50% (5/10)  | +5.9 pp  |
+| DAXX   | 25%   (17/68)| 30% (3/10)  | +5.0 pp  |
+| ATRX   | 17.6% (12/68)| 10% (1/10)  | −7.6 pp  |
+| PTEN   | 7.3%  (5/68) | 20% (2/10)  | +12.7 pp |
+| TSC2   | 8.8%  (6/68) | 20% (2/10)  | +11.2 pp |
+| PIK3CA | 1.4%  (1/68) | 10% (1/10)  | +8.6 pp  |
+
+Nothing here is wrong. The paper is correct. cBioPortal is correct.
+The extractor pulled the verbatim quote and its stated denominator.
+The verifier walker is correctly flagging that the paper's headline
+denominator (68) does not match the API's `sequencedSampleCount`
+(10). The gap is structural: the paper aggregates a two-tier cohort,
+the deposit holds one tier.
+
+**Mitigation for v1: the agent now acknowledges this in the prompt.**
+The `claims-extractor` agent definition was updated (this same date)
+with a new "Multi-tier cohorts" section that:
+
+- Recognises the signal (Cohort & data names ≥2 tiers, headline rate
+  uses combined N).
+- Emits the `sample_count` claim with the combined N anyway (that is
+  what the paper says — the warn downstream is informative).
+- Skips `mutation_rate` claims whose denominator is the combined N,
+  with `reason: "tier_mixed_denominator"` in the returned skipped
+  list. Does NOT recompute a tier-only rate from the API — that is
+  the verifier walker's job, not the extractor's.
+
+After this prompt change, the panet case is expected to surface as:
+1 sample_count claim (still warn — combined N exceeds deposited N),
+0 mutation_rate claims, and 6 entries in the skipped list (one per
+combined-tier gene rate). The warn count drops from 6 to 1 without
+losing signal about the cohort mismatch.
+
+**Update 2026-05-16: batch paused at 24 / 227 sidecars.**
+
+Ran the batch extractor for two iterations of 5 PMIDs each via
+`/loop 30min` (cron `7,37 * * * *`, session-only). Stopped at 24
+total primary-cohort sidecars (4 hand-rolled + 10 wave 1 + 10 from
+the loop). Cancelled the cron — not blocked, just pausing.
+
+Reason for the pause: **the Hard rule 7 / pre-emit checklist
+addition to the `claims-extractor` agent prompt is not load-bearing.**
+Tested three times on the canonical PMID 21252315 (`panet_jhu_2011`,
+where the paper's headline rates use `n/68` for a deposit that only
+holds 10 WES samples). All three runs ignored the rule and emitted
+`denominator: 68` mutation_rate claims anyway, even with the
+canonical PMID and the explicit "Correct extraction is 0 rate
+claims" example called out in-line.
+
+The agent's mandate (per its own opening prose) is "you are not
+asserting the claim is true — you are extracting what the paper
+says." Asking sonnet to *suppress* claims based on what cBioPortal
+*might* deposit conflicts with that mandate. The agent visibly
+resists; the resistance is partly principled.
+
+**Two architectural options to resolve before resuming the batch:**
+
+1. **Revert Hard rule 7 + pre-emit checklist** and accept that the
+   extractor emits paper-faithful claims (denominator-as-stated).
+   Move the tier-mixed/subset/superset detection to the verifier
+   walker in `scripts/verify_paper.py` — downgrade
+   `claim.mutation_rate` warns to `info` when the walker detects
+   `paper_denom != sequencedSampleCount` and the paper page's
+   `## Cohort & data` section names a multi-tier breakdown that
+   sums to the paper denom. Cleaner separation of concerns.
+   Architecturally consistent with the original FACT_VERIFICATION
+   design philosophy.
+
+2. **Add a single optional `denominator_basis` schema field**
+   (`deposit | tier_mixed | subset | superset`). The agent
+   *labels* the denominator basis (it's good at labeling, just not
+   at suppressing). The walker reads the field and decides how to
+   compare. Minimal schema change; the agent's contract is
+   preserved (it still emits what the paper says, plus an
+   annotation about denominator structure).
+
+(1) is less work and architecturally cleaner. (2) is more
+information-preserving. Either way the batch is resumable once the
+contract is settled — the 24 existing sidecars are paper-faithful
+extractions and don't need to be re-run unless schema (2) is
+adopted.
+
 **Open items for v2:**
 - Additional claim kinds: `cna_rate` (amp/del), `co_occurrence`
   (two-gene intersect), `median_survival_months`, `tmb_median`.
 - Subset/cohort encoding for cases like 26901067 (denominator is
-  panel-subsetted), with the walker constructing the sample list
-  from clinical attributes before computing rates.
+  panel-subsetted) and 21252315 (denominator is tier-aggregated),
+  with the walker constructing the sample list from clinical
+  attributes before computing rates. The schema would need either
+  a `denominator_in_api: false` flag (converts warns to info) or
+  a `cohort: discovery_only | full` discriminator (walker picks the
+  matching sample list, or downgrades to info if absent).
 - Aggregator drilldown table for `claim.*` warns (today they
   appear in the by-code table but not in their own section).
 

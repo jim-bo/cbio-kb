@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Enhanced specificity of clinical high-sensitivity tumor mutation profiling in cell-free DNA via paired normal sequencing using MSK-ACCESS – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/34145282.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/34145282.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Enhanced specificity of clinical high-sensitivity tumor mutation profiling in cell-free DNA via paired normal sequencing using MSK-ACCESS</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>A. Rose Brannon </p>
+             <p>Gowtham Jayakumaran </p>
+             <p>Monica Diosdado </p>
+             <p>Juber Patel </p>
+             <p>Anna Razumova </p>
+             <p>Yu Hu </p>
+             <p>Fanli Meng </p>
+             <p>Mohammad Haque </p>
+             <p>Justyna Sadowska </p>
+             <p>Brian J. Murphy </p>
+             <p>Tessara Baldi </p>
+             <p>Ian Johnson </p>
+             <p>Ryan Ptashkin </p>
+             <p>Maysun Hasan </p>
+             <p>Preethi Srinivasan </p>
+             <p>Anoop Balakrishnan Rema </p>
+             <p>Ivelise Rijo </p>
+             <p>Aaron Agarunov </p>
+             <p>Helen Won </p>
+             <p>Dilmi Perera </p>
+             <p>David N. Brown </p>
+             <p>Aliaksandra Samoila </p>
+             <p>Xiaohong Jing </p>
+             <p>Erika Gedvilaite </p>
+             <p>Julie L. Yang </p>
+             <p>Dennis P. Stephens </p>
+             <p>Jenna-Marie Dix </p>
+             <p>Nicole DeGroat </p>
+             <p>Khedoudja Nafa </p>
+             <p>Aijazuddin Syed </p>
+             <p>Alan Li </p>
+             <p>Emily S. Lebow </p>
+             <p>Anita S. Bowman </p>
+             <p>Donna C. Ferguson </p>
+             <p>Ying Liu </p>
+             <p>Douglas A. Mata </p>
+             <p>Rohit Sharma </p>
+             <p>Soo-Ryum Yang </p>
+             <p>Tejus Bale </p>
+             <p>Jamal K. Benhamida </p>
+             <p>Jason C. Chang </p>
+             <p>Snjezana Dogan </p>
+             <p>Meera R. Hameed </p>
+             <p>Jaclyn F. Hechtman </p>
+             <p>Christine Moung </p>
+             <p>Dara S. Ross </p>
+             <p>Efsevia Vakiani </p>
+             <p>Chad M. Vanderbilt </p>
+             <p>JinJuan Yao </p>
+             <p>Pedram Razavi </p>
+             <p>Lillian M. Smyth </p>
+             <p>Sarat Chandarlapaty </p>
+             <p>Gopa Iyer </p>
+             <p>Wassim Abida </p>
+             <p>James J. Harding </p>
+             <p>Benjamin Krantz </p>
+             <p>Eileen O’Reilly </p>
+             <p>Helena A. Yu </p>
+             <p>Bob T. Li </p>
+             <p>Charles M. Rudin </p>
+             <p>Luis Diaz </p>
+             <p>David B. Solit </p>
+             <p>Maria E. Arcila </p>
+             <p>Marc Ladanyi </p>
+             <p>Brian Loomis </p>
+             <p>Dana Tsui </p>
+             <p>Michael F. Berger </p>
+             <p>Ahmet Zehir </p>
+             <p>Ryma Benayed </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41467-021-24109-5">10.1038/s41467-021-24109-5</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 34145282 · <strong>DOI:</strong> 10.1038/s41467-021-24109-5 · <strong>Journal:</strong> Nature Communications (2021)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The MSK pathology and molecular oncology groups built and clinically deployed MSK-ACCESS, a 129-gene hybrid-capture next-generation sequencing assay that pairs ultra-deep (~20,000x raw / ~1,100x duplex consensus) cfDNA sequencing with matched WBC sequencing to call SNVs, indels, copy-number alterations, and structural variants in plasma. Analytical validation on 70 cfDNA samples with 100 orthogonally confirmed variants showed 92% de novo sensitivity at &gt;=0.5% VAF and at least 99.7% specificity. After New York State approval on 31 May 2019, the team prospectively profiled 681 blood samples from 617 patients across 31 tumor types (most commonly non-small-cell lung, prostate, bladder, pancreatic, and biliary cancer); 73% of samples had at least one detectable alteration and 56% of those carried clinically actionable variants. Matched WBC sequencing removed &gt;10,000 germline and clonal-hematopoiesis variants that plasma-only filtering would have missed.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>681 plasma samples from 617 unique patients (99% QC pass from 687 accessioned), enrolled in MSKCC IRB-approved protocol NCT01775072, sequenced prospectively after the assay’s NYS-DOH approval on 31 May 2019.</li>
+<li>Top tumor types: <a href="../cancer_types/NSCLC.html">NSCLC</a> (n=349, 51%); plus <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/BLCA.html">BLCA</a>, <a href="../cancer_types/PAAD.html">PAAD</a>, and biliary cancer (collectively 28%); 31 distinct tumor types overall.</li>
+<li>Validation cohorts: 47 healthy-donor plasma + matched WBC samples (median age 29, range 21–48) for background-error and specificity assessment; 70 cfDNA samples carrying 100 orthogonally validated SNVs/indels in AKT1, ALK, BRAF, EGFR, ERBB2, ESR1, KRAS, MET, PIK3CA, and TP53 (orthogonal VAF range 0.1–73%) for accuracy.</li>
+<li>Concordance cohort: 383 of 617 patients with matched MSK-IMPACT tumor tissue (520 sequenced tissues; 1206 mutations in overlapping target regions).</li>
+<li>Dataset: <a href="../datasets/msk_access_2021.html">msk_access_2021</a>. Assay/panel: <a href="../methods/ACCESS129.html">ACCESS129</a> (the 129-gene cfDNA panel) on the <a href="../methods/msk-access.html">MSK-ACCESS</a> workflow; tissue comparator was <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> using <a href="../methods/IMPACT468.html">IMPACT468</a>. Sequencing on Illumina HiSeq 2500 or NovaSeq 6000, GRCh37 alignment with <a href="../methods/bwa.html">BWA</a> MEM, ABRA2, <a href="../methods/gatk.html">GATK</a>; UMI-based duplex/simplex consensus generation via Marianas; SNV/indel calling with <a href="../methods/mutect.html">MuTect</a> and <a href="../methods/vardict.html">VarDict</a>; SVs called with Manta; copy-number calling via the MSK-IMPACT-derived method; tumor purity via <a href="../methods/facets.html">FACETS</a>; clinical actionability annotation via <a href="../methods/oncokb.html">OncoKB</a>; workflow execution in <a href="../methods/cwl-docker-workflow.html">CWL</a>/toil.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Panel design backed by MSK-IMPACT priors.</strong> The 129 genes / 826 exons were chosen so that at least one non-synonymous mutation would be captured in 84% of 25,000 previously MSK-IMPACT-sequenced solid tumors, including 91% of breast cancers and 94% of NSCLC (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Ultra-deep coverage with consensus collapsing.</strong> Mean raw cfDNA coverage 18,818x in 47 healthy donors yielded mean duplex 1,103x and simplex 658x; clinical samples averaged 18,264x raw plasma / 1,273x WBC, with median duplex consensus plasma coverage 1,497x (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Background error suppression.</strong> Median error rate dropped from 3.3x10^-4 in standard BAMs to 1.2x10^-5 (simplex) and 1.7x10^-6 (duplex); 85% of targeted positions had zero base mismatches in simplex BAMs and 99% in duplex BAMs (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Accuracy.</strong> 94% of expected variants detected by genotyping and 82% by de novo calling across 100 orthogonally validated mutations (R^2=0.98); for VAF &gt;=0.5% (n=83), 92% (95% CI 84–96.5%) were called de novo and 99% (95% CI 92.5–99.9%) by genotyping (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Reproducibility.</strong> Across 7 samples with 152 mutations replicated within and across runs, 99% (n=151, 95% CI 96.4–100%) were detected by genotyping with median coefficient of variation 0.16 (range 0.04–1.2). Limit-of-detection dilution series: all expected mutations called de novo at 0.5% VAF; at 0.1%, 11% (2/19) de novo and 74% (14/19) by genotyping (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Specificity.</strong> 0 mutations called in 47 healthy donors vs matched WBCs; on 1620 sites from 36 orthogonal NGS samples, 4 potential false positives (TP53 p.R253H VAFs 0.17/0.24%; PIK3CA p.H1047R VAFs 0.05/0.07%) gave &gt;=99.7% specificity by genotyping and 99.9% by de novo calling. PPA 94% / NPA 99.7% (genotyping); PPA 98% / NPA 99.2% (de novo) (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Clinical detection yield.</strong> 498/681 (73%) of prospective samples had &gt;=1 alteration; non-zero median 3 alterations/patient (range 1–28); 1697 SNVs/indels reported in 486 samples from 435 patients (median VAF 1.9%, range 0.02–99%). 41% (278/681) of samples carried an OncoKB level 1–3B alteration; level-1 alterations were most frequent in bladder (48%), breast (37%), and NSCLC (33%) (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>De novo vs genotyped.</strong> 95% (1606/1697) of reported SNVs/indels were called de novo without prior tissue results; the 91 rescued by genotyping had median observed VAF 0.08% (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Tissue–plasma concordance.</strong> Of 1206 mutations in overlapping target regions across 383 patients, 706 (59%) were shared, 254 (21%) tissue-only, and 246 (20%) plasma-only. 58 of the 246 plasma-only calls were present at sub-threshold levels in matched tissue. 18% (46/254) of MSK-IMPACT-only mutations were OncoKB level 1–3 actionable; 12% (30/246) of MSK-ACCESS-only mutations were actionable. For patients without MSK-IMPACT (n=234), MSK-ACCESS detected 79 actionable mutations in 26% (61/234) of them (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Time and clonality drive discordance.</strong> Average ΔDOP (date-of-procedure gap) was 65 weeks; tissue-only and plasma-only discordant calls came from patients with significantly longer ΔDOP (median 491 days, p=3.63x10^-14; median 288 days, p=1.33x10^-9) than concordant patients (median 83 days). Shared mutations were also more clonal in tissue than tissue-only calls (all mutations p=8.10x10^-13; actionable p=6.06x10^-3). Tumor purity did not differ between concordant and discordant groups (p=0.812) (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Matched-normal removes &gt;10,000 confounders.</strong> Plasma-only variant calling produced 24,561 calls; database/population filtering (in-house plasma normals, gnomAD &gt;=0.5%) removed 14,508; an additional VAF-based germline rule would have removed 721 but at the cost of mis-filtering 70 verified somatic mutations (15 of them actionable). Patient-matched WBC sequencing retained those somatic calls while removing 10,053 remaining germline/CH variants (mean VAF 4.7%, median 0.05%) (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Fragment-length analysis distinguishes ctDNA from CH/germline.</strong> cfDNA showed the expected bimodal peaks at ~161 bp and ~317 bp; 1,558 confirmed tumor-derived fragments were significantly shorter than wild-type fragments (bootstrap p&lt;0.0001), while WBC-supported variants (CH, germline) had length distributions indistinguishable from wild-type (p=0.94 / p=0.99). This allowed reclassification of variants such as a commercially reported KRAS p.G12S in lung adenocarcinoma (cfDNA 0.44% / WBC 0.31%) as CH rather than tumor (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Matched WBC reassignment of germline events.</strong> Indel ATM p.E522fs*43 reported as somatic by a commercial cfDNA test was reclassified as germline (~50% VAF in both plasma and WBC); copy-number deletions in ATM and BRCA2, plus RB1 deletions in two retinoblastoma patients, were similarly recognized as germline via matched WBC sequencing (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — most commonly altered gene across the cohort; mutated in 144/248 (58%) of NSCLC samples with detectable alterations and recurrently mutated/deleted in biliary, bladder, breast, prostate, and pancreatic cancers. Two TP53 p.R253H calls (0.17% / 0.24% VAF) were the assay’s borderline false positives on the orthogonal-NGS specificity panel (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/EGFR.html">EGFR</a></strong> — recurrent oncogenic driver mutations and amplifications in NSCLC; EGFR mutations were enriched in cfDNA relative to MSK-IMPACT in lung (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a></strong> — recurrent driver in NSCLC and a “lower in cfDNA than tissue” gene in pancreatic cancer; KRAS p.G12S in a lung adenocarcinoma case was reclassified from somatic to CH using matched WBC + fragment-length evidence (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/MET.html">MET</a></strong>, <strong><a href="../genes/ERBB2.html">ERBB2</a></strong>, <strong><a href="../genes/BRAF.html">BRAF</a></strong> — additional targetable driver mutations / amplifications recurrent in NSCLC (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/ALK.html">ALK</a> / <a href="../genes/EML4.html">EML4</a></strong> — EML4-ALK fusions detected de novo and by genotyping in NSCLC (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/RET.html">RET</a> / <a href="../genes/KIF5B.html">KIF5B</a></strong> — KIF5B-RET fusions detected in NSCLC (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/ROS1.html">ROS1</a></strong> — multiple-partner ROS1 rearrangements detected in NSCLC; ROS1 was also among genes where a previously reported somatic variant was reassigned to germline via matched WBC (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/STK11.html">STK11</a>, <a href="../genes/KEAP1.html">KEAP1</a></strong> — NSCLC samples lacking known mitogenic drivers were enriched for STK11 and KEAP1 mutations (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/FGFR2.html">FGFR2</a> / <a href="../genes/BICC1.html">BICC1</a></strong> — FGFR2 mutations and fusions (most commonly FGFR2-BICC1) identified in 8/24 intrahepatic cholangiocarcinomas with detectable ctDNA, including missense mutations in the FGFR2 kinase domain known to confer FGFR-inhibitor resistance (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/PIK3CA.html">PIK3CA</a></strong> — targetable alterations also recurrently detected in intrahepatic cholangiocarcinoma; PIK3CA p.H1047R at very low VAF (0.05% / 0.07%) was the other borderline false positive on the specificity panel (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/FGFR3.html">FGFR3</a> / <a href="../genes/TACC3.html">TACC3</a></strong> — FGFR3 point mutations conferring resistance to FGFR inhibitors detected in bladder cancers with FGFR3-TACC3 fusions; FGFR3 also recurrently altered in bladder cancer (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/AR.html">AR</a></strong> — recurrent in prostate cancer; AR mutations were enriched in cfDNA vs MSK-IMPACT in prostate cancer (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a></strong> — also recurrent in breast cancer (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/NF1.html">NF1</a></strong> — enriched in cfDNA relative to tissue in breast cancer (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/RB1.html">RB1</a></strong> — used as case studies of germline alterations (mutations and copy-number deletions) recovered via matched WBC sequencing that would have been reported as somatic without paired-normal data; RB1 deletions seen in two retinoblastoma patients (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/ESR1.html">ESR1</a></strong> — represented among the 10 genes (AKT1, ALK, BRAF, EGFR, ERBB2, ESR1, KRAS, MET, PIK3CA, TP53) used to assemble the orthogonal-truth accuracy cohort (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong><a href="../genes/DNMT3A.html">DNMT3A</a></strong> — cited as a commonly mutated CH gene; recurrent CH-origin calls in DNMT3A are among the variants matched WBC sequencing reclassified (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>NYS-approved clinical assay.</strong> MSK-ACCESS was approved by the New York State Department of Health on 31 May 2019 and used prospectively to guide patient management; 41% (278/681) of clinical samples had an OncoKB level 1–3B alteration, with level 1 yields of 48% in <a href="../cancer_types/BLCA.html">BLCA</a>, 37% in <a href="../cancer_types/BRCA.html">BRCA</a>, and 33% in <a href="../cancer_types/NSCLC.html">NSCLC</a> (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Complementary to tissue, not replacement.</strong> For patients without MSK-IMPACT (n=234), MSK-ACCESS uncovered 79 actionable mutations in 26% (61/234), while 18% (46/254) of MSK-IMPACT-only calls were also actionable — supporting integrated tissue + plasma profiling rather than substitution (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Resistance detection.</strong> MSK-ACCESS detected acquired FGFR3 point mutations conferring resistance to FGFR inhibitor therapy in FGFR3-TACC3 bladder cancers (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Matched WBC prevents false somatic calls.</strong> Without matched normal, &gt;10,000 germline + CH calls would have leaked into clinical reports; documented commercial false positives (ATM p.E522fs*43 indel, KRAS p.G12S CH, germline deletions in ATM/BRCA2/RB1) were avoided (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li><strong>Timing matters.</strong> Tissue–plasma concordance is strongly inversely related to the time between tissue biopsy and blood draw; clinicians interpreting MSK-ACCESS results should consider sample-collection ΔDOP and clonality of the tissue calls (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The 129-gene panel is uniform and not patient-specific; the authors note MSK-ACCESS will not match the per-patient sensitivity of bespoke whole-exome/whole-genome-derived MRD panels, but argue that bespoke approaches are operationally unattainable for most laboratories (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li>Plasma cfDNA cannot replace tissue in all situations — 260 tissue mutations were not seen in matched plasma, plausibly due to low ctDNA shedding, tumor heterogeneity, or anatomical differences in shedding by site; the authors call for further studies to pin down which clinical/analytic factors drive discordance (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li>VAF-based germline filtering (35–65% in both plasma and WBC) is insufficient as a substitute for true matched-normal sequencing — it would have mis-removed 70 verified somatic mutations including 15 actionable ones (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li>Low-VAF CH variants remain a fundamental challenge for cfDNA assays; matched WBC plus fragment-length analysis substantially mitigates but does not fully eliminate the risk, particularly for CH mutations that arise in less commonly mutated genes outside DNMT3A/TET2/ASXL1 (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+<li>Sensitivity drops sharply below 0.5% VAF (only 11% of mutations called de novo at 0.1% VAF); MRD-grade sensitivity is not the assay’s strength (<a href="../papers/34145282.html">PMID:34145282</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“MSK-ACCESS was approved for clinical use by the New York State Department of Health on 31 May 2019” (Introduction).</li>
+<li>“We detected 94% of the expected variants (n=94, 95% CI: 87.4–97.8%) based on genotyping and 82% of them (n=82, 95% CI: 72.7–88.7%) with de novo mutation calling (R2=0.98)” (Analytical validation).</li>
+<li>“Seventy-three percent (n=498) of all samples had at least one alteration … with a non-zero median of 3 per patient (range 1–28) … 56% of which harbored clinically actionable alterations” (Clinical experience).</li>
+<li>“Of the 681 samples, 51% (n=349) were from NSCLC patients, followed by prostate, bladder, pancreatic, and biliary samples as the next most common cancer types (28%)” (Clinical experience).</li>
+<li>“TP53 was the most commonly altered gene, with variants in 144 of the 248 (58%) NSCLC samples with detectable alterations” (Clinical experience).</li>
+<li>“FGFR2 mutations and fusions (most commonly fused to BICC1) were identified in 8 of the 24 intrahepatic cholangiocarcinomas with detectable ctDNA” (Clinical experience).</li>
+<li>“Of the 617 patients tested with MSK-ACCESS, 383 also had clinical MSK-IMPACT results from 520 sequenced tumor tissues. A total of 1206 mutations were reported in the overlapping target regions across both assays, and 59% (n=706) of the mutations were reported by both assays” (Concordance with MSK-IMPACT).</li>
+<li>“10,053 variants with a mean VAF of 4.7% (median: 0.05%) still remained after database-driven filtering, highlighting the utility of patient-matched WBC profiling to filter out definitive germline mutations” (Utility of matched WBC analysis).</li>
+<li>“we observed that these fragments were significantly shorter than those harboring the wild-type allele, consistent with their tumor origin (Fig. 4c–i) (bootstrapped p value&lt;0.0001)” (Fragment-length analysis).</li>
+<li>“a patient with lung adenocarcinoma with an external report of KRAS p.G12S. However, we identified this alteration at equivalent frequencies (0.44 and 0.31%) in the plasma and WBC, suggesting that it most likely represents a CH mutation” (Reclassification example).</li>
+<li>“identification of FGFR3 point mutations known to confer resistance to FGFR inhibitor therapy in the FGFR3-TACC3 bladder cancers” (Discussion).</li>
+</ul>
+<p><em>This page was processed by <strong>paper-compiler</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/34145282.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/34145282.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

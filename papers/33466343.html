@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Molecular Changes in Retinoblastoma beyond RB1: Findings from Next-Generation Sequencing – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33466343.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33466343.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Molecular Changes in Retinoblastoma beyond RB1: Findings from Next-Generation Sequencing</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jasmine H. Francis </p>
+             <p>Allison L. Richards </p>
+             <p>Diana L. Mandelker </p>
+             <p>Michael F. Berger </p>
+             <p>Michael F. Walsh </p>
+             <p>Ira J. Dunkel </p>
+             <p>Mark T. A. Donoghue </p>
+             <p>David H. Abramson </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.3390/cancers13010149">10.3390/cancers13010149</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 33466343 · <strong>DOI:</strong> <a href="https://doi.org/10.3390/cancers13010149">10.3390/cancers13010149</a> · <strong>Journal:</strong> Cancers (2021)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Francis et al.&nbsp;profiled 83 enucleated <a href="../cancer_types/RBL.html">retinoblastoma</a> specimens from Memorial Sloan Kettering using the <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted NGS panel (468 somatic genes; 88 germline cancer-predisposition genes) to characterize the genomic landscape beyond <a href="../genes/RB1.html">RB1</a>. <a href="../genes/RB1.html">RB1</a> inactivation was found in 97.5% (79/81) of patients, with copy-neutral LOH dramatically over-represented at the <a href="../genes/RB1.html">RB1</a> locus relative to other tumor suppressors (OR 19.8) and to <a href="../genes/RB1.html">RB1</a> in other cancers (OR 44.4). The most common non-<a href="../genes/RB1.html">RB1</a> somatic alteration was <a href="../genes/BCOR.html">BCOR</a> (22.9%, 19/83), and <a href="../genes/BCOR.html">BCOR</a> mutations were associated with worse metastasis-free survival (nominal p=0.03). Recurrent arm-level CNAs (1q gain, 16q LOH) independently associated with vitreous seeding (BH-corrected p=0.008 and 0.004; OR=12.6 and 26.7). Five of 42 germline-tested patients (12.0%) harbored pathogenic germline variants in non-<a href="../genes/RB1.html">RB1</a> cancer-predisposition genes (<a href="../genes/NTHL1.html">NTHL1</a>, <a href="../genes/ERCC3.html">ERCC3</a>, <a href="../genes/MSH3.html">MSH3</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/MITF.html">MITF</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N=83</strong> enucleated <a href="../cancer_types/RBL.html">retinoblastoma</a> (<a href="../cancer_types/RBL.html">RBL</a>) specimens, accrued May 2006–August 2019 at Memorial Sloan Kettering Cancer Center (IRB #17-049).</li>
+<li>Dataset: <a href="../datasets/rbl_mskcc_2020.html">rbl_mskcc_2020</a> — IMPACT mutation calls deposited at cBioPortal (<code>https://cbioportal.mskcc.org/study/summary?id=rbl_mskcc_2020</code>).</li>
+<li>Assay: <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> hybridization capture targeted NGS — 468 genes for somatic analysis (<a href="../methods/IMPACT468.html">IMPACT468</a>), 88 genes for germline analysis in 42 consented patients. Detects SNVs, indels, gene-level focal CNAs, and <a href="../methods/select.html">select</a> rearrangements.</li>
+<li>74 specimens had matched normal tissue; 9 were tumor-only.</li>
+<li>Copy-number and clonality called with <a href="../methods/facets.html">FACETS</a> v0.5.14; microsatellite instability estimated with <a href="../methods/msisensor.html">MSIsensor</a>; event-free survival modeled with <a href="../methods/kaplan-meier.html">Kaplan–Meier</a> estimators starting from enucleation date.</li>
+<li>Sample input: 10-µm FFPE microdissected sections, DNeasy extraction, ≥250 ng FFPE DNA per sample.</li>
+<li>23 specimens additionally had outside commercial <a href="../genes/RB1.html">RB1</a> testing for methylation and germline status.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong><a href="../genes/RB1.html">RB1</a> inactivation is near-universal but mechanistically diverse.</strong> Pathognomonic <a href="../genes/RB1.html">RB1</a> alterations were detected in 97.5% (79/81) of patients <a href="../papers/33466343.html">PMID:33466343</a>. Biallelic <a href="../genes/RB1.html">RB1</a> loss was identified in 79.5% (66/83) of specimens. Of these 66, 10 had somatic homozygous deletion of <a href="../genes/RB1.html">RB1</a>; 1 had germline heterozygous loss of exons 7–11 followed by somatic LOH; 38/53 (71.6%) of the remainder had a mutation followed by LOH; 15 had two mutations; 2 had promoter hypermethylation plus LOH. Twelve specimens had only apparent heterozygous alterations detected by MSK-IMPACT, suggesting silencing mechanisms not captured by the panel.</li>
+<li><strong>Two specimens had no detectable <a href="../genes/RB1.html">RB1</a> alterations.</strong> One had subclonal mutations in <a href="../genes/BIRC3.html">BIRC3</a> (p.A385D, VUS) and <a href="../genes/PBRM1.html">PBRM1</a> (p.G176*, truncating); the other had only a gain of 6p — consistent with the hypothesis that 6p gain may be sufficient for tumorigenesis in wildtype-<a href="../genes/RB1.html">RB1</a> retinoblastoma.</li>
+<li><strong>Copy-neutral LOH (CN-LOH) is the dominant second-hit mechanism at <a href="../genes/RB1.html">RB1</a>.</strong> Of 42 matched specimens with LOH at the <a href="../genes/RB1.html">RB1</a> locus, 31 (73.8%) were CN-LOH. CN-LOH at <a href="../genes/RB1.html">RB1</a> was significantly enriched vs.&nbsp;other tumor suppressor genes in the same specimens (p&lt;2.2×10⁻¹⁶, OR=19.8) and vs.&nbsp;<a href="../genes/RB1.html">RB1</a>-mutant tumors in other cancer types from the MSK cohort (~39,846 specimens; p&lt;2.2×10⁻¹⁶, OR=44.4).</li>
+<li><strong>Intertumoral heterogeneity within bilateral disease.</strong> Two patients with bilateral disease and germline <a href="../genes/RB1.html">RB1</a> alterations had distinct somatic second hits in each eye (e.g., p.X566_splice vs.&nbsp;p.V654Cfs<em>4; somatic LOH vs.&nbsp;p.S807</em>). Three patients had evidence of &gt;2 <a href="../genes/RB1.html">RB1</a> hits, suggesting multiple clones within a single eye.</li>
+<li><strong><a href="../genes/BCOR.html">BCOR</a> is the most common non-<a href="../genes/RB1.html">RB1</a> somatic gene alteration.</strong> Found in 19/83 specimens (22.9%). All <a href="../genes/BCOR.html">BCOR</a> mutations were putative loss-of-function. This frequency exceeds previously published series (~13%).</li>
+<li><strong><a href="../genes/BCOR.html">BCOR</a> mutations correlate with worse metastasis-free survival</strong> (Kaplan–Meier, nominal p=0.03), but not with high-risk histopathological features.</li>
+<li><strong>Other recurrently somatic-mutated genes</strong> (≥3 specimens): <a href="../genes/RPTOR.html">RPTOR</a> (3/83, 3.6%), <a href="../genes/TERT.html">TERT</a> (3, 3.6%), <a href="../genes/MSH3.html">MSH3</a> (3, 3.6%), <a href="../genes/ARID1A.html">ARID1A</a> (3, 3.6%), <a href="../genes/MYCN.html">MYCN</a> (3, 3.6%), <a href="../genes/TSC2.html">TSC2</a> (2, 2.4%), <a href="../genes/CREBBP.html">CREBBP</a> (1, 1.2%). Among the ten most-frequent non-<a href="../genes/RB1.html">RB1</a> alterations, only <a href="../genes/TERT.html">TERT</a>, <a href="../genes/MSH3.html">MSH3</a>, <a href="../genes/ARID1A.html">ARID1A</a>, and <a href="../genes/HLA-A.html">HLA-A</a> had any putative-driver mutations. <a href="../genes/FAT1.html">FAT1</a> and <a href="../genes/RPTOR.html">RPTOR</a> mutations were all VUS — non-truncating, non-hotspot.</li>
+<li><strong>Three patients had <a href="../genes/MYCN.html">MYCN</a> amplification</strong> co-occurring with <a href="../genes/RB1.html">RB1</a> mutation.</li>
+<li><strong>Tumor mutational burden was uniformly low</strong> (0–3 mutations/Mb).</li>
+<li><strong>Recurrent arm-level CNAs</strong> (n=69 evaluable eyes): 1q gain 67.0%, 2p gain 32.0%, 6p gain 59.0%, 13q LOH 51.0%, 16q LOH 43.0%.</li>
+<li><strong>Vitreous seeds independently associate with 1q gain and 16q LOH.</strong> BH-corrected p=0.008 and 0.004; OR=12.6 and 26.7 respectively. 1q gain and 16q loss were not significantly correlated with each other (p=0.37), and a joint model showed both contribute independently (model p=8.2×10⁻⁸; 1q p=1.3×10⁻⁴, 16q p=2.3×10⁻⁴). 6p gain was <em>not</em> associated with aggressive histopathology in this enucleated-only cohort, contradicting some prior reports.</li>
+<li><strong>Germline non-<a href="../genes/RB1.html">RB1</a> cancer-predisposition mutations in 5/42 (~12%) of germline-tested patients.</strong> Variants: <a href="../genes/NTHL1.html">NTHL1</a> c.268C&gt;T (p.Gln90<em>); <a href="../genes/ERCC3.html">ERCC3</a> c.1354C&gt;T (p.Arg452</em>); <a href="../genes/MSH3.html">MSH3</a> c.1341-1G&gt;T (p.X447_splice); <a href="../genes/CHEK2.html">CHEK2</a> c.470T&gt;C (p.Ile157Thr); <a href="../genes/MITF.html">MITF</a> c.1255G&gt;A (p.Glu419Lys). Two of these were in autosomal recessive cancer-predisposition genes (<a href="../genes/NTHL1.html">NTHL1</a>, <a href="../genes/MSH3.html">MSH3</a>); the <a href="../genes/MSH3.html">MSH3</a> patient showed no microsatellite instability.</li>
+<li><strong>No two specimens shared an identical genetic profile</strong> across mutations, LOH, or CNVs.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/RB1.html">RB1</a> — biallelic loss in 66/83 (79.5%); strong preference for copy-neutral LOH as the second-hit mechanism (31/42 LOH events were CN-LOH; OR=19.8 vs.&nbsp;other TSGs; OR=44.4 vs.&nbsp;<a href="../genes/RB1.html">RB1</a> in other cancers).</li>
+<li><a href="../genes/BCOR.html">BCOR</a> — most common non-<a href="../genes/RB1.html">RB1</a> somatic gene; 19/83 (22.9%) putative loss-of-function; significantly associated with worse metastasis-free survival (p=0.03).</li>
+<li><a href="../genes/MYCN.html">MYCN</a> — amplified in 3 specimens, all in the presence of <a href="../genes/RB1.html">RB1</a> mutation; no MYCN-only “<a href="../genes/RB1.html">RB1</a>-wildtype + MYCN-amplified” tumors observed in this cohort (in contrast to ~2% frequency reported elsewhere).</li>
+<li><a href="../genes/TERT.html">TERT</a>, <a href="../genes/MSH3.html">MSH3</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/HLA-A.html">HLA-A</a> — recurrent at ~3.6% each; only these (among the top ten non-<a href="../genes/RB1.html">RB1</a> recurrently altered genes) carried putative-driver variants.</li>
+<li><a href="../genes/CREBBP.html">CREBBP</a> — single putative-driver mutation; previously implicated by WES studies in retinoblastoma.</li>
+<li><a href="../genes/RPTOR.html">RPTOR</a>, <a href="../genes/FAT1.html">FAT1</a> — recurrent but all mutations were VUS in this cohort.</li>
+<li><a href="../genes/TSC2.html">TSC2</a> — mutated in 2 specimens; located at 16p13.3 and corresponds with the 16p region commonly altered in retinoblastoma.</li>
+<li><a href="../genes/CDH11.html">CDH11</a> — candidate gene previously proposed for 16q-loss-associated vitreous seeding; no <a href="../genes/CDH11.html">CDH11</a> coding mutations in this cohort, so its role remains unclear here.</li>
+<li><a href="../genes/BIRC3.html">BIRC3</a>, <a href="../genes/PBRM1.html">PBRM1</a> — subclonal alterations in a single <a href="../genes/RB1.html">RB1</a>-wildtype specimen.</li>
+<li>Driver candidates discussed but not recurrently mutated in this cohort: <a href="../genes/KIF14.html">KIF14</a>, <a href="../genes/DEK.html">DEK</a>, <a href="../genes/E2F3.html">E2F3</a>, <a href="../genes/RBL2.html">RBL2</a>, <a href="../genes/NGFR.html">NGFR</a>.</li>
+<li>Germline pathogenic variants (non-<a href="../genes/RB1.html">RB1</a>) in 5/42 tested patients: <a href="../genes/NTHL1.html">NTHL1</a> p.Gln90<em>, <a href="../genes/ERCC3.html">ERCC3</a> p.Arg452</em>, <a href="../genes/MSH3.html">MSH3</a> p.X447_splice, <a href="../genes/CHEK2.html">CHEK2</a> p.Ile157Thr, <a href="../genes/MITF.html">MITF</a> p.Glu419Lys.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong><a href="../genes/BCOR.html">BCOR</a> as a metastasis biomarker.</strong> The authors propose that detection of a <a href="../genes/BCOR.html">BCOR</a> loss-of-function mutation — either in an enucleated specimen or via cell-free DNA (cfDNA) — may inform surveillance strategies or preventative measures for metastatic retinoblastoma, potentially marking minimal residual disease or treatment response.</li>
+<li><strong>1q gain and 16q LOH as independent biomarkers of vitreous seeding.</strong> The two CNAs do not co-occur statistically (p=0.37) but each independently associates with vitreous seeding (the principal indication for enucleation), suggesting they may be useful jointly as predictive markers.</li>
+<li><strong>Germline screening implications.</strong> The 12% prevalence of non-<a href="../genes/RB1.html">RB1</a> germline cancer-predisposition mutations is in line with broader pediatric-cancer germline rates (12–17.5%), and the authors argue this supports broader (non-<a href="../genes/RB1.html">RB1</a>-only) germline testing in retinoblastoma patients to inform lifetime cancer screening — though to date all five carriers in this cohort have shown intraocular disease only.</li>
+<li><strong>6p gain in wildtype-<a href="../genes/RB1.html">RB1</a> retinoblastoma.</strong> One <a href="../genes/RB1.html">RB1</a>-wildtype tumor had only 6p gain, leading the authors to hypothesize that 6p gain may be sufficient for retinoblastoma tumorigenesis in this setting, though further sensitivity testing for <a href="../genes/RB1.html">RB1</a> inactivation is needed.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Enucleation-only cohort.</strong> All 83 specimens came from eyes removed primarily or secondarily, biasing the cohort toward more advanced or treatment-refractory disease. This may explain why 6p gain did not correlate with aggressive histopathology here, in contrast to prior reports.</li>
+<li><strong>MSK-IMPACT does not detect all <a href="../genes/RB1.html">RB1</a> inactivation mechanisms.</strong> Twelve specimens showed only heterozygous <a href="../genes/RB1.html">RB1</a> alterations by panel sequencing; promoter hypermethylation and other epigenetic silencing mechanisms are not systematically captured. Not all samples had outside methylation testing.</li>
+<li><strong>Statistical power for rare alterations.</strong> Only <a href="../genes/BCOR.html">BCOR</a> had high enough frequency to test clinical-feature association; recurrent VUS in <a href="../genes/FAT1.html">FAT1</a> and <a href="../genes/RPTOR.html">RPTOR</a> could not be functionally assessed.</li>
+<li><strong><a href="../genes/BCOR.html">BCOR</a>–metastasis association is nominal (p=0.03).</strong> Not multiple-testing corrected; needs validation in independent cohorts.</li>
+<li><strong>Germline cohort is small.</strong> Only 42/83 patients consented to germline MSK-IMPACT testing; the 12% non-<a href="../genes/RB1.html">RB1</a> germline frequency is based on this subset.</li>
+<li><strong>Functional role of non-<a href="../genes/RB1.html">RB1</a> germline variants is unknown.</strong> The authors note that whereas germline cancer-predisposition mutations are associated with metastatic disease in other cancers, all five carriers here have shown intraocular disease only — leaving open whether these variants influence tumorigenesis, clinical course, or second-cancer risk.</li>
+<li><strong>Future work</strong> suggested by authors: DNA methylation, RNA expression, and cfDNA-based surveillance to extend the genotype-phenotype map.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“RB1 inactivation was found in 79 (97.5%) patients. All specimens had additional molecular alterations. The most common non-RB1 gene alteration was <a href="../genes/BCOR.html">BCOR</a> in 19 (22.9%).” (Abstract)</li>
+<li>“Five (11.0%) had pathogenic germline mutations in other non-RB1 cancer predisposition genes.” (Abstract — note: text body reports 5/42 = 12.0% of germline-tested patients)</li>
+<li>“vitreous seeds associated with 1q gains and 16q loss of heterozygosity (BH-corrected p-value=0.008, 0.004; OR=12.6, 26.7, respectively)” (Abstract)</li>
+<li>“BCOR mutations were associated with poor prognosis, specifically metastases-free survival (<a href="../cancer_types/MFS.html">MFS</a>) (nominal p-value 0.03)” (Abstract)</li>
+<li>“Of the 42 matched specimens with LOH over the RB1 locus, 31 (73.8%) were copy-neutral LOH (CN-LOH)” (Section 2.1)</li>
+<li>“RB1 is subject to CN-LOH at much higher rates in retinoblastoma than in other cancers that also contain mutations in RB1 (p-value&lt;2.2×10⁻¹⁶, OR 44.4)” (Section 2.1)</li>
+<li>“This platform analyzes 468 genes for somatic analysis, 88 genes for germline analysis” (Section 1)</li>
+<li>“IMPACT mutation calls were deposited via the cBioPortal for Cancer Genomics (https://cbioportal.mskcc.org/study/summary?id=<a href="../datasets/rbl_mskcc_2020.html">rbl_mskcc_2020</a>)” (Data Availability Statement)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33466343.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33466343.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

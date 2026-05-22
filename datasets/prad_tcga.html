@@ -189,18 +189,22 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/38488813.html">PMID:38488813</a> — Integrative Molecular Analyses of the MD Anderson Prostate Cancer Patient-derived Xenograft (MDA PCa PDX) Series.</li>
 <li><a href="../papers/26855148.html">PMID:26855148</a> — Beltran et al.&nbsp;2016, <em>Nature Medicine</em>: queried for NEPC classifier validation (n=460 treatment-naïve adenocarcinomas scored NEPC-high at 0%).</li>
-<li><a href="../papers/26928463.html">PMID:26928463</a> — Kumar et al., <em>Nat Genet</em> 2016: queried to verify metastasis-private mutations from prad_fhcrc rapid-autopsy cohort are non-driver.</li>
+<li><a href="../papers/26928463.html">PMID:26928463</a> — Kumar et al., <em>Nat Genet</em> 2016: queried to verify metastasis-private mutations from <a href="../datasets/prad_fhcrc.html">prad_fhcrc</a> rapid-autopsy cohort are non-driver.</li>
+<li><a href="../papers/35504881.html">PMID:35504881</a> — Rodriguez-Calero et al., <em>Nat Commun</em> 2022: used as primary-PCa comparator for HRD-signature enrichment in prostate cancer brain metastases.</li>
 </ul>
 </section>
 <section id="notable-findings-derived-from-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="notable-findings-derived-from-this-cohort">Notable findings derived from this cohort</h2>
 <ul>
-<li><a href="../genes/FGFR1.html">FGFR1</a> promoter CpG methylation inversely correlated with <a href="../genes/FGFR1.html">FGFR1</a> expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of FGFR1 in prostate cancer. <a href="../papers/38488813.html">PMID:38488813</a></li>
+<li><a href="../genes/FGFR1.html">FGFR1</a> promoter CpG methylation inversely correlated with <a href="../genes/FGFR1.html">FGFR1</a> expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of <a href="../genes/FGFR1.html">FGFR1</a> in prostate cancer. <a href="../papers/38488813.html">PMID:38488813</a></li>
 <li>Queried for the NEPC classifier validation (n=460 treatment-naïve adenocarcinomas); 0% scored NEPC-high, confirming the classifier’s specificity for castration-resistant neuroendocrine disease <a href="../papers/26855148.html">PMID:26855148</a></li>
-<li>Used alongside prad_su2c_2015 to validate that metastasis-private mutations found at autopsy in the prad_fhcrc cohort are unlikely to be drivers (only 2/51 occurred at &gt;5% frequency in these cohorts) <a href="../papers/26928463.html">PMID:26928463</a></li>
-<li>Used for TRMT10A expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and TRMT10A amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) <a href="../papers/28068672.html">PMID:28068672</a></li>
-<li>Cited as a comparison primary-prostate-cancer cohort in the MSK-IMPACT prostate study; MSK locoregional tumors showed higher TP53 and FOXA1 frequencies than TCGA primaries <a href="../papers/28825054.html">PMID:28825054</a>.</li>
-<li>Used to validate NOL10 overexpression in tumor vs.&nbsp;normal prostate, allele-specific BCR and survival outcomes (rs4519489 A/A genotype HR=13.05 for OS, P=0.038), and correlation of elevated NOL10 with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) <a href="../papers/28927585.html">PMID:28927585</a>.</li>
+<li>Used alongside <a href="../datasets/prad_su2c_2015.html">prad_su2c_2015</a> to validate that metastasis-private mutations found at autopsy in the <a href="../datasets/prad_fhcrc.html">prad_fhcrc</a> cohort are unlikely to be drivers (only 2/51 occurred at &gt;5% frequency in these cohorts) <a href="../papers/26928463.html">PMID:26928463</a></li>
+<li>Used for <a href="../genes/TRMT10A.html">TRMT10A</a> expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and <a href="../genes/TRMT10A.html">TRMT10A</a> amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) <a href="../papers/28068672.html">PMID:28068672</a></li>
+<li>Cited as a comparison primary-prostate-cancer cohort in the MSK-IMPACT prostate study; MSK locoregional tumors showed higher <a href="../genes/TP53.html">TP53</a> and <a href="../genes/FOXA1.html">FOXA1</a> frequencies than TCGA primaries <a href="../papers/28825054.html">PMID:28825054</a>.</li>
+<li>Used to validate <a href="../genes/NOL10.html">NOL10</a> overexpression in tumor vs.&nbsp;normal prostate, allele-specific <a href="../genes/BCR.html">BCR</a> and survival outcomes (rs4519489 A/A genotype HR=13.05 for <a href="../cancer_types/OS.html">OS</a>, P=0.038), and correlation of elevated <a href="../genes/NOL10.html">NOL10</a> with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) <a href="../papers/28927585.html">PMID:28927585</a>.</li>
+<li>External RNA-seq reference: <a href="../genes/SLC16A1.html">SLC16A1</a> (MCT1) and <a href="../genes/LDHA.html">LDHA</a> were significantly upregulated in prostate tumor vs.&nbsp;matched normal in TCGA <a href="../cancer_types/PRAD.html">PRAD</a> bulk RNA-seq (limma voom on RSEM-normalized Firebrowse data), validating IHC findings in the MSK HP-MRI cohort <a href="../papers/31564440.html">PMID:31564440</a>.</li>
+<li>Used as comparator primary-PCa cohort (n=495) for elevated HRD signature (SBS3) in prostate cancer brain metastases versus TCGA primary tumors (q=0.0003; q=0.0034 vs high-grade TCGA subset) <a href="../papers/35504881.html">PMID:35504881</a></li>
+<li>Used as validation cohort to bridge <a href="../genes/PIK3R1.html">PIK3R1</a> DNA copy-number loss to mRNA attenuation (~20% of primary tumors) and to assess progression-free survival; <a href="../genes/PIK3R1.html">PIK3R1</a> loss associated with shorter PFS (HR 2.04, 95% CI 1.32-3.15, p=0.001) <a href="../papers/35670774.html">PMID:35670774</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
@@ -209,10 +213,13 @@ ul.task-list li input[type="checkbox"] {
 <li>cBioPortal study <code>prad_tcga</code> <a href="../papers/38488813.html">PMID:38488813</a>.</li>
 <li><a href="../papers/26855148.html">PMID:26855148</a> — Beltran et al.&nbsp;2016, <em>Nature Medicine</em>: NEPC classifier validation using this cohort (n=460 treatment-naïve adenocarcinomas).</li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28068672.html">PMID:28068672</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28068672.html">PMID:28068672</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31564440.html">PMID:31564440</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

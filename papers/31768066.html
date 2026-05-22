@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31768066.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31768066.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Pedram Razavi </p>
+             <p>Bob T. Li </p>
+             <p>David N. Brown </p>
+             <p>Byoungsok Jung </p>
+             <p>Earl Hubbell </p>
+             <p>Ronglai Shen </p>
+             <p>Wassim Abida </p>
+             <p>David B. Solit </p>
+             <p>Alexander M. Aravanis </p>
+             <p>Jorge S. Reis-Filho </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41591-019-0652-7">10.1038/s41591-019-0652-7</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 31768066 · <strong>DOI:</strong> 10.1038/s41591-019-0652-7 · <strong>Journal:</strong> Nature Medicine (2019)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Razavi et al.&nbsp;prospectively profiled plasma cell-free DNA (cfDNA) and matched white-blood-cell (WBC) DNA from 124 patients with metastatic breast cancer, non-small cell lung cancer, or castration-resistant prostate cancer, plus 47 non-cancer controls, using a high-intensity targeted assay covering 508 genes / ~2 Mb at &gt;60,000X raw depth. With matched tumor biopsies sequenced by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>, they showed that the assay detects 84% of patients’ tumor-derived mutations de novo, but that the majority of “somatic” cfDNA variants — 81.6% in controls and 53.2% in cancer patients — are actually clonal hematopoiesis (CH) events identifiable only with matched WBC sequencing. The work establishes that joint cfDNA + WBC sequencing is necessary to avoid mis-calling CH variants (notably in <a href="../genes/TP53.html">TP53</a>, <a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/TET2.html">TET2</a>, and <a href="../genes/PPM1D.html">PPM1D</a>) as tumor-derived.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>161 enrolled metastatic cancer patients (53 <a href="../cancer_types/BRCA.html">MBC</a>, 53 <a href="../cancer_types/NSCLC.html">NSCLC</a>, 55 <a href="../cancer_types/PRAD.html">CRPC</a>); 124 evaluable in the concordance subset (39 <a href="../cancer_types/MBC.html">MBC</a>, 41 <a href="../cancer_types/NSCLC.html">NSCLC</a>, 44 CRPC). Enrollment Sept 24, 2015 – Aug 1, 2016 at MSKCC (protocol 12-245, NCT01775072) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>50 non-cancer control whole-blood samples from San Diego Blood Bank; 47 evaluable after three cfDNA-sequencing failures <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>Plasma cfDNA and buffy-coat WBC gDNA sequenced with the GRAIL targeted DNA assay (<a href="../methods/grail_cfdna_508.html">grail_cfdna_508</a>): 508 genes spanning ~2 Mb, UMIs, &gt;60,000X raw / ~4,400X median collapsed target coverage; assay error rate 1×10⁻⁵ to 3×10⁻⁵; 95% LoD ≈0.36% VAF at 30 ng input <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>Matched tumor biopsies sequenced by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> (410-gene FDA-authorized CLIA assay, mean &gt;900X coverage); comparisons restricted to the 410-gene panel intersection <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>Dataset deposited as <a href="../datasets/cfdna_msk_2019.html">cfdna_msk_2019</a> in cBioPortal.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>De novo tumor-mutation detection.</strong> At least one tumor-derived (biopsy-matched) mutation was detected in cfDNA in 104/124 patients (84%, 95% CI 76–90%). Per-cancer detection: MBC 95% (95% CI 83–99%), NSCLC 76% (95% CI 60–80%), CRPC 82% (95% CI 67–92%); MBC &gt; NSCLC, p=0.0258 <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Per-mutation recovery.</strong> 530/740 (72%, 95% CI 66–75%) of MSK-IMPACT tumor-biopsy mutations were re-detected de novo in cfDNA, with comparable rates across MBC (73%), NSCLC (71%), and CRPC (71%) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Clonality matters.</strong> Detection in cfDNA correlated strongly with cancer cell fraction in the biopsy; clonal mutations were detected far more often than subclonal ones (p=5.33e-21) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Disease burden drives ctDNA fraction.</strong> ctDNA fraction varied significantly by tumor type (p=0.0046) and correlated with imaging-based disease burden: MBC (n=34, p=1.03e-4) and NSCLC (n=29, p=0.042) by volumetric CT, CRPC (n=39, p=0.023) by automated bone scan index <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Most cfDNA “somatic” variants are CH.</strong> 81.6% (297/364) of cfDNA somatic mutations in controls and 53.2% (918/1727) in non-hypermutated cancer patients had supporting reads in matched WBCs (WBC-matched). 89.5% of cancer patients and 83% of controls had evidence of CH in cfDNA; 99.1% of cancer-patient WBCs and 93.6% of control WBCs harbored at least one CH mutation <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>CH genes recur.</strong> WBC-matched cfDNA variants preferentially affected canonical CH genes — <a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/TET2.html">TET2</a>, <a href="../genes/PPM1D.html">PPM1D</a>, <a href="../genes/TP53.html">TP53</a>; in 41.6% of cancer patients the highest-VAF mutation was in one of 15 canonical CH genes (<a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/TET2.html">TET2</a>, <a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/PPM1D.html">PPM1D</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/JAK2.html">JAK2</a>, <a href="../genes/RUNX1.html">RUNX1</a>, <a href="../genes/SF3B1.html">SF3B1</a>, <a href="../genes/SRSF2.html">SRSF2</a>, <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/U2AF1.html">U2AF1</a>, <a href="../genes/CBL.html">CBL</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/CHEK2.html">CHEK2</a>) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Therapy-related CH in PPM1D.</strong> <a href="../genes/PPM1D.html">PPM1D</a> mutations — particularly truncating variants enriched in the C-terminal domain — were significantly more common in cancer patients than controls (age-adjusted p=0.0115) and significantly more common in patients with prior chemotherapy and/or radiation than in untreated patients (age- and smoking-adjusted p=0.0008) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Age dependence.</strong> Number of WBC-matched variants strongly correlated with age (smoking-adjusted p=3.86e-27); biopsy-matched / biopsy-subthreshold counts did not. VUSo (variants of unknown source) were only weakly age-associated (p=0.141) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Tumor heterogeneity in hypermutators.</strong> 10 cfDNA samples were called hypermutated (cfDNA TMB &gt; median + 2×IQR); four matched a biopsy TMB call &gt;13.8 mut/Mb, six were detected only by cfDNA. The 10 hypermutators accounted for 75% of biopsy-subthreshold + VUSo variants across the cohort and 77.7% (994/1280) of cancer-patient VUSo. In hypermutated samples, 41.2% of tumor-derived non-WBC-matched variants were subclonal vs 15.3% in non-hypermutated samples (p=1.7e-13) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Mutational signatures recoverable from cfDNA.</strong> All five hypermutated MBCs and one of three hypermutated CRPCs exhibited APOBEC signatures (COSMIC sigs 2 &amp; 13); hypermutated NSCLCs combined smoking signature with APOBEC, HRD, and MMR contributions <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>MSI detection.</strong> Using a depth-adjusted <a href="../methods/msisensor.html">MSIsensor</a>, one CRPC patient was identified as MSI-H from cfDNA and exhibited a dominant MMR mutational signature; the patient received an anti-PD-L1 inhibitor and showed rapid sustained tumor regression by RECIST v1.1 and PSA <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>CNV detection.</strong> Concordance of cfDNA-called CNVs with biopsy was good only when ctDNA fraction ≥10%. Among five patients with actionable amplifications (4 <a href="../genes/ERBB2.html">ERBB2</a>-amplified MBCs, 1 <a href="../genes/MET.html">MET</a>-amplified NSCLC), three <a href="../genes/ERBB2.html">ERBB2</a> amplifications were detected de novo; the two missed cases had ctDNA fractions of 1.3% and 1.9% <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>VUSo are largely tumor-derived in hypermutators.</strong> Cancer-patient VUSo affected late-evolution / subclonal cancer genes — <a href="../genes/ESR1.html">ESR1</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/NF1.html">NF1</a> in MBC; <a href="../genes/EGFR.html">EGFR</a> T790M in NSCLC; <a href="../genes/AR.html">AR</a> mutations in CRPC — and orthogonal <a href="../methods/droplet-digital-pcr.html">ddPCR</a> validation showed complete agreement <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/TET2.html">TET2</a> — most frequent CH drivers; the genes whose mutations most often had the highest VAF in cfDNA in both cancer patients and controls <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/PPM1D.html">PPM1D</a> — therapy-related CH gene; truncating C-terminal mutations significantly enriched in cancer patients vs controls (age-adjusted p=0.0115) and in chemotherapy/radiation-exposed patients (age- and smoking-adjusted p=0.0008) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/TP53.html">TP53</a> — recurrent in WBC-matched cfDNA variants; can be mis-interpreted as tumor-derived without matched WBC sequencing <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/JAK2.html">JAK2</a>, <a href="../genes/RUNX1.html">RUNX1</a>, <a href="../genes/SF3B1.html">SF3B1</a>, <a href="../genes/SRSF2.html">SRSF2</a>, <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/U2AF1.html">U2AF1</a>, <a href="../genes/CBL.html">CBL</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/CHEK2.html">CHEK2</a> — full list of 15 canonical CH genes used in this paper to classify WBC-matched variants <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/ESR1.html">ESR1</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/NF1.html">NF1</a> — late/subclonal mutations in MBC detected in cfDNA as VUSo not captured by single biopsy <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> T790M — example of subclonal NSCLC resistance mutation detected as VUSo <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/AR.html">AR</a> — recurrent VUSo in CRPC, consistent with subclonal androgen-receptor evolution <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — actionable amplification detected de novo in 3 of 4 ERBB2-amplified MBC cases by cfDNA CNV calling <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><a href="../genes/MET.html">MET</a> — actionable amplification in one NSCLC case; cfDNA CNV detection limited by low ctDNA fraction <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Joint cfDNA + WBC sequencing is required for accurate variant interpretation.</strong> Without matched WBC, CH variants in cancer genes (e.g., TP53) can be misattributed to the tumor, distorting tumor mutational burden, mutational-signature, and actionable-mutation calls <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>cfDNA-based TMB / signature / MSI inference is feasible.</strong> With sufficient genomic footprint and depth, the assay supports de novo measurement of TMB, MSI, and mutational signatures, including in patients without contemporaneous tissue <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>MSI-H detection from cfDNA can guide immunotherapy.</strong> A CRPC patient identified as MSI-H solely from cfDNA had a rapid, sustained response to anti-PD-L1 therapy <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Therapy history is a confounder.</strong> Prior chemotherapy/radiation enriches for PPM1D-driven CH, so interpretation of plasma PPM1D variants in heavily pre-treated patients must consider therapy-related CH <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>Hypermutators benefit most from broad-footprint cfDNA.</strong> A single biopsy systematically under-samples subclones in hypermutator tumors; cfDNA can complement biopsy by recovering resistance-associated subclonal mutations (e.g., <a href="../genes/EGFR.html">EGFR</a> T790M, <a href="../genes/ESR1.html">ESR1</a>, <a href="../genes/AR.html">AR</a>) <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li><strong>CNV detection requires adequate ctDNA fraction.</strong> De novo cfDNA CNV calling for actionable amplifications (e.g., ERBB2, <a href="../genes/MET.html">MET</a>) was only reliable when ctDNA fraction ≥10%; low-ctDNA cases need orthogonal tissue confirmation <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Colorectal carcinoma — a major indication for cfDNA testing — was not included <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>Tumor sequencing relied on a single FFPE biopsy per patient; multiregional sampling was not feasible, so tumor heterogeneity may be under-captured even after the cfDNA add-on <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>Non-cancer controls came from a different source (San Diego Blood Bank) and were processed in different batches than cancer samples, introducing potential batch effects <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>Per-subtype cohorts (~40 each for MBC, NSCLC, CRPC) are small relative to the clinical and genomic heterogeneity of these diseases <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>The hierarchical Bayesian noise model was trained on &lt;50 healthy donors; longitudinal expansion would improve calibration <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>A residual subset of VUSo may still originate from CH not detectable in matched WBC, other forms of somatic mosaicism, occult cancers, or benign neoplasms — these cannot be ruled out even with this assay design <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>The high per-sample cost of &gt;60,000X cfDNA sequencing is currently a barrier to broad clinical adoption <a href="../papers/31768066.html">PMID:31768066</a>.</li>
+<li>Open question: how the prevalence and clinical impact of therapy-related PPM1D CH evolve under successive lines of cytotoxic therapy.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“The vast majority of cfDNA mutations (81.6% in controls and 53.2% in cancer patients) had features consistent with clonal hematopoiesis (CH).” — Abstract.</li>
+<li>“De novo detection of at least one tumor-derived mutation … was observed in 104 of the 124 evaluable patients (84%, 95% confidence interval [CI]: 76%–90%).” — Results, p.4.</li>
+<li>“this cfDNA sequencing analysis as performed here suggests that 89.5% of cancer patients and 83% of non-cancer controls have evidence of CH in their cfDNA.” — Results, p.6.</li>
+<li>“somatic mutations affecting PPM1D were significantly more frequently detected in cancer patients than in controls (age-adjusted p=0.0115) … in patients who received chemotherapy and/or radiation therapy than in those who had no prior history of such treatments (age- and smoking-adjusted p=0.0008).” — Results, p.8.</li>
+<li>“in five patients with actionable CNVs (n=4 ERBB2 amplified MBCs and n=1 MET amplified NSCL), three of the ERBB2 amplifications could be detected de novo.” — Results, p.9.</li>
+<li>“This CRPC patient received an anti-PD-L1 inhibitor and displayed rapid and sustained tumor regression, as defined by … (RECIST v1.1) and prostate-specific antigen (PSA) serological levels.” — Results, p.5–6.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31768066.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31768066.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

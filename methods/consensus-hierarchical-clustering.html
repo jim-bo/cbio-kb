@@ -172,14 +172,17 @@ ul.task-list li input[type="checkbox"] {
 <section id="used-by" class="level2">
 <h2 class="anchored" data-anchor-id="used-by">Used by</h2>
 <ul>
-<li>Applied to RNA-seq data (Spearman distance, k=3) for 28 metastatic neuroendocrine neoplasms (<a href="../datasets/pog570_bcgsc_2020.html">pog570_bcgsc_2020</a>); defined three transcriptome clusters: Cluster A (small-intestinal NETs/PanNETs with MEN1/DAXX/ATRX alterations), Cluster B (high-grade/MYC-driven mixed primary sites), and Cluster C (PulNETs/MTCs); NECs and NET-G3s did not form a distinct cluster <a href="../papers/24326773.html">PMID:24326773</a>.</li>
+<li>Applied to RNA-seq data (Spearman distance, k=3) for 28 metastatic neuroendocrine neoplasms (<a href="../datasets/pog570_bcgsc_2020.html">pog570_bcgsc_2020</a>); defined three transcriptome clusters: Cluster A (small-intestinal NETs/PanNETs with MEN1/DAXX/ATRX alterations), Cluster B (high-grade/MYC-driven mixed primary sites), and Cluster C (PulNETs/MTCs); NECs and NET-G3s did not form a distinct cluster <a href="../papers/40328872.html">PMID:40328872</a>.</li>
 <li>Applied in single-cell RNA-seq analysis (Deng M, cited) to classify cholangiocarcinoma into BA-active and BA-inactive metabolic subtypes; BA-active subtype associated with shorter <a href="../cancer_types/OS.html">OS</a> and immunotherapy resistance <a href="../papers/25608663.html">PMID:25608663</a></li>
 <li>Consensus hierarchical clustering applied to top-1,500 variant genes in 329 melanoma RNA-seq samples, defining three transcriptomic subclasses (Immune 51%, Keratin 31%, MITF-low 18%) with distinct survival and mutational profiles. <a href="../papers/26091043.html">PMID:26091043</a></li>
 <li>Used to define three <a href="../cancer_types/ILC.html">ILC</a> transcriptional subtypes (reactive-like, immune-related, proliferative) from 1,277 SAM-differentiating genes (q=0) in n=106 LumA <a href="../cancer_types/ILC.html">ILC</a>, with survival differences validated in METABRIC <a href="../papers/26451490.html">PMID:26451490</a></li>
 <li>Consensus hierarchical clustering applied to 1,300 tumor-specific CpG probes from merged HM27 + HM450 methylation data to define six pan-glioma methylation subtypes (LGm1–6) in 932 TCGA glioma samples <a href="../papers/26824661.html">PMID:26824661</a></li>
-<li>Used for sub-group discovery across miRNA, mRNA, and methylation data in 40-66 MRT cases; yielded 2 miRNA sub-groups, 2 mRNA sub-groups (recapitulating AT/RT vs RTK distinction), and 2 WGBS methylation sub-groups (correlated with age &gt;1 year at diagnosis). <a href="../papers/26977886.html">PMID:26977886</a></li>
-<li>Consensus hierarchical clustering used for mRNA-based subtype discovery across 173 PCPG tumors; yielded four subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical admixture) validated in an independent Burnichon et al.&nbsp;cohort <a href="../papers/28162975.html">PMID:28162975</a>.</li>
-<li>Used for NMF consensus clustering of 408 BLCA RNA-seq samples defining five mRNA expression subtypes (luminal-papillary 35%, luminal-infiltrated 19%, luminal 6%, basal-squamous 35%, neuronal 5%) with distinct survival (p=4×10⁻⁴) <a href="../papers/28988769.html">PMID:28988769</a></li>
+<li>Used for sub-group discovery across miRNA, mRNA, and methylation data in 40-66 <a href="../cancer_types/MRT.html">MRT</a> cases; yielded 2 miRNA sub-groups, 2 mRNA sub-groups (recapitulating AT/RT vs RTK distinction), and 2 WGBS methylation sub-groups (correlated with age &gt;1 year at diagnosis). <a href="../papers/26977886.html">PMID:26977886</a></li>
+<li>Consensus hierarchical clustering used for mRNA-based subtype discovery across 173 <a href="../cancer_types/PCPG.html">PCPG</a> tumors; yielded four subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical <a href="../methods/admixture.html">admixture</a>) validated in an independent Burnichon et al.&nbsp;cohort <a href="../papers/28162975.html">PMID:28162975</a>.</li>
+<li>Used for NMF consensus clustering of 408 <a href="../cancer_types/BLCA.html">BLCA</a> RNA-seq samples defining five mRNA expression subtypes (luminal-papillary 35%, luminal-infiltrated 19%, luminal 6%, basal-squamous 35%, neuronal 5%) with distinct survival (p=4×10⁻⁴) <a href="../papers/28988769.html">PMID:28988769</a></li>
+<li>Applied in the high-grade <a href="../cancer_types/UTUC.html">UTUC</a> molecular subtype analysis (37 WES / 32 RNA-seq tumors) using UNC BASE47, MDACC, and TCGA classifiers; showed that 84.3% of <a href="../cancer_types/UTUC.html">UTUC</a> tumors are luminal by the UNC BASE47 classifier vs 46.1% of TCGA UCB <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>Used in <a href="../datasets/prad_organoids_msk_2022.html">prad_organoids_msk_2022</a> to validate the four CRPC chromatin subtypes defined by consensus k-means clustering of ATAC-seq peaks; hierarchical clustering served as an orthogonal approach confirming subtype reproducibility <a href="../papers/35617398.html">PMID:35617398</a></li>
+<li>Applied to ssGSEA immune scores from 101 pMMR/MSS and dMMR/MSI rectal adenocarcinoma RNA-seq samples; identified three immune groups (IG1 low, IG2 intermediate, IG3 immune-hot ~8% of pMMR/MSS) with distinct checkpoint-gene expression and survival outcomes <a href="../papers/35970919.html">PMID:35970919</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -192,14 +195,17 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25608663.html">PMID:25608663</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26091043.html">PMID:26091043</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26451490.html">PMID:26451490</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26824661.html">PMID:26824661</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26977886.html">PMID:26977886</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28162975.html">PMID:28162975</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25608663.html">PMID:25608663</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26091043.html">PMID:26091043</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26451490.html">PMID:26451490</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26824661.html">PMID:26824661</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26977886.html">PMID:26977886</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28162975.html">PMID:28162975</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35617398.html">PMID:35617398</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35970919.html">PMID:35970919</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

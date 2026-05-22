@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Whole genome analysis reveals the genomic complexity in metastatic cutaneous squamous cell carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35982973.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35982973.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Whole genome analysis reveals the genomic complexity in metastatic cutaneous squamous cell carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Amarinder Singh Thind </p>
+             <p>Bruce Ashford </p>
+             <p>Dario Strbenac </p>
+             <p>Jenny Mitchell </p>
+             <p>Jenny Lee </p>
+             <p>Simon A. Mueller </p>
+             <p>Elahe Minaei </p>
+             <p>Jay R. Perry </p>
+             <p>Sydney Ch’ng </p>
+             <p>N. Gopalakrishna Iyer </p>
+             <p>Jonathan R. Clark </p>
+             <p>Ruta Gupta </p>
+             <p>Marie Ranson </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.3389/fonc.2022.919118">10.3389/fonc.2022.919118</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 35982973 · <strong>DOI:</strong> 10.3389/fonc.2022.919118 · <strong>Journal:</strong> Frontiers in Oncology (2022)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Thind et al.&nbsp;performed whole genome sequencing (WGS) on lymph node metastases and matched blood from 25 patients with regional metastatic cutaneous squamous cell carcinoma (<a href="../cancer_types/CSCC.html">CSCC</a>) of the head and neck. This is the largest WGS study of metastatic <a href="../cancer_types/CSCC.html">CSCC</a> to date and the first to interrogate non-coding regulatory regions (3′UTRs, lncRNAs, promoters) genome-wide. Beyond confirming <a href="../genes/TP53.html">TP53</a> and <a href="../genes/CDKN2A.html">CDKN2A</a> as recurrent coding drivers, they identified <a href="../genes/C9.html">C9</a> (complement component 9) as a novel candidate driver, recurrent 3′UTR alterations in <a href="../genes/EVC.html">EVC</a>, <a href="../genes/PPP1R1A.html">PPP1R1A</a>, and <a href="../genes/ABCA4.html">ABCA4</a>, recurrent mutation of the tumor-suppressor lncRNA <a href="../genes/LINC01003.html">LINC01003</a> (64% of samples), focal copy-number loss of <a href="../genes/PTPRD.html">PTPRD</a>, and a novel indel-signature profile (ID8/ID9/ID13) distinct from melanoma. The data were deposited in cBioPortal as <code>cscc_ranson_2022</code> (<a href="../datasets/cscc_ranson_2022.html">cscc_ranson_2022</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>25 patients with resectable regional metastatic <a href="../cancer_types/CSCC.html">CSCC</a> of the head and neck (lymph node metastases), recruited 2015–2019 with matched blood DNA.</li>
+<li>Median age 69 years (range 30–87); 24/25 (96%) male; 2/25 immunosuppressed (one on long-term <a href="../drugs/azathioprine.html">azathioprine</a>, one on combination <a href="../drugs/cyclophosphamide.html">cyclophosphamide</a> and <a href="../drugs/tacrolimus.html">tacrolimus</a> post solid-organ transplant).</li>
+<li>Nodal stage: predominantly N3b; metastases in neck (n=13) or parotid (n=12). Differentiation: moderately (n=8) or poorly (n=12) differentiated. Extranodal extension in 20/25 (80%).</li>
+<li>32 samples sequenced; 25 passed QC (&gt;30% tumor cellularity, range 35–95%). Mean tumor coverage 94.56× (range 64–143×); mean blood coverage 41.08×.</li>
+<li>Reference genome GRCh38; alignment with BWA-MEM (<a href="../methods/bwa.html">bwa</a>); GATK 4.1.2.0 (<a href="../methods/gatk.html">gatk</a>) HaplotypeCaller (germline) and Mutect2 (somatic) for short variants.</li>
+<li>Cohort deposited in cBioPortal as <code>cscc_ranson_2022</code> — see <a href="../datasets/cscc_ranson_2022.html">cscc_ranson_2022</a>.</li>
+<li>Variant call files deposited at the European Genome-Phenome Archive under accession EGAS00001006378.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Extreme TMB.</strong> Average tumor mutational burden was 238.7 mutations/Mb (median 166.99, range 32.52–995.66) for SNVs and 2.25 indels/Mb (range 0.63–5.9) at the whole-genome scale — substantially higher than melanoma (~49 mutations/Mb) and much higher than the WES-derived 61.2 mutations/Mb reported by Pickering et al.&nbsp;(the majority of variants fall in non-coding DNA).</li>
+<li><strong>UV mutational signatures dominate.</strong> Over 80% of SNVs were C&gt;T transitions consistent with UV mutagenesis; COSMIC v3.2 SBS7a and SBS7b dominated, with substantial SBS7c representation. One sample showed SBS32, attributable to <a href="../drugs/azathioprine.html">azathioprine</a> exposure.</li>
+<li><strong>Novel indel signatures.</strong> ID8, ID9, and ID13 dominated across all 25 samples. ID13 was previously reported only in melanoma; ID9 — predominant in soft-tissue sarcoma but rare in melanoma (2/104) — was newly identified as a dominant indel signature in CSCC, defining a novel indel pattern for this UV-driven skin cancer (Figure 7).</li>
+<li><strong>Three-tool consensus driver list.</strong> Filtering genes called significant (p&lt;0.005) by ≥2 of OncodriveFML (<a href="../methods/oncodrivefml.html">oncodrivefml</a>), MutSigCV (<a href="../methods/mutsigcv.html">mutsigcv</a>), and dNdScv (<a href="../methods/dndscv.html">dndscv</a>) yielded 12 coding drivers: <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/C9.html">C9</a>, C9orf131, <a href="../genes/SLC22A6.html">SLC22A6</a>, <a href="../genes/KHDRBS2.html">KHDRBS2</a>, <a href="../genes/COLEC12.html">COLEC12</a>, <a href="../genes/LINGO2.html">LINGO2</a>, <a href="../genes/CDHR5.html">CDHR5</a>, <a href="../genes/ZNF442.html">ZNF442</a>, <a href="../genes/PRLR.html">PRLR</a>, and <a href="../genes/DHRS4.html">DHRS4</a>. <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, and <a href="../genes/C9.html">C9</a> were called by all three tools.</li>
+<li><strong>Non-coding 3′UTR drivers.</strong> OncodriveFML identified significantly altered 3′UTRs (Q-value &lt;0.03) in <a href="../genes/EVC.html">EVC</a> (48% of samples; Q=0.011), <a href="../genes/PPP1R1A.html">PPP1R1A</a> (48% of samples; Q=0.022), <a href="../genes/ABCA4.html">ABCA4</a> (20%), and <a href="../genes/LUM.html">LUM</a>. A unique recurrent <a href="../genes/PPP1R1A.html">PPP1R1A</a> 3′UTR variant (c.*491C&gt;T; Chr12:54579896 G→A) was observed in 5/25 samples.</li>
+<li><strong>lncRNA drivers.</strong> Four lncRNAs were significantly biased toward high-impact mutations: <a href="../genes/LINC01003.html">LINC01003</a> (64% of cohort; Q=0.0158), <a href="../genes/LINC01474.html">LINC01474</a>, RP4-597N16.4, and RP11-61J19.4 (48%).</li>
+<li><strong>Copy number landscape.</strong> Chromosome arm gains at 7 and 5p and losses at 8p, 18q, and 21q were recurrent across the cohort. <a href="../genes/PTPRD.html">PTPRD</a> on chr9p was the most frequently deleted gene (24% of samples) and the dominant focus of focal/arm/chromosome-level LOH; <a href="../genes/PTPRD.html">PTPRD</a> loss and significant <a href="../genes/CDKN2A.html">CDKN2A</a> mutation co-occurred in 6 samples but <a href="../genes/PTPRD.html">PTPRD</a> deletion and <a href="../genes/CDKN2A.html">CDKN2A</a> deletion did not co-occur.</li>
+<li><strong>Rare amplifications.</strong> Recurrent amplifications were uncommon; <a href="../genes/CALR.html">CALR</a>, <a href="../genes/CCND1.html">CCND1</a>, and <a href="../genes/FGF3.html">FGF3</a> were each amplified in only 2/25 samples (8%). <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/FGF3.html">FGF3</a> co-amplified in 2 cases (CSCC_0132 and CSCC_0134), both with extensive nodal involvement (&gt;50% of lymph nodes harboring tumor). <a href="../genes/EGFR.html">EGFR</a> was amplified in only one sample.</li>
+<li><strong>Structural variation.</strong> Deletions and complex structural variants predominated; despite widespread genomic instability, only two coding–coding gene fusions were detected: <a href="../genes/STRN.html">STRN</a>–<a href="../genes/DLG2.html">DLG2</a> (CSCC_0009, the only TP53-wildtype sample) and <a href="../genes/HEBP2.html">HEBP2</a>–<a href="../genes/NTRK2.html">NTRK2</a> (CSCC_0011, via unbalanced translocation).</li>
+<li><strong>The only TP53-wildtype sample (CSCC_0009)</strong> had TMB of 122/Mb (51% of cohort average); the 5 CDKN2A-wildtype samples averaged TMB of 470/Mb (201% of cohort average).</li>
+<li><strong>Pathway enrichment.</strong> Among 21 candidate altered genes, top enriched BioPlanet terms included <a href="../genes/TP53.html">TP53</a> network, tumor suppressor ARF, <a href="../genes/CTCF.html">CTCF</a> pathway, cell cycle G1/S checkpoint, and “TGF-beta regulation of extracellular matrix” — with <a href="../genes/LUM.html">LUM</a>, <a href="../genes/CDHR5.html">CDHR5</a>, <a href="../genes/COLEC12.html">COLEC12</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a> contributing to the latter.</li>
+<li><strong>cBioPortal cross-cohort comparison.</strong> Using 92 metastatic CSCC and 88 primary CSCC samples already on cBioPortal (drawn from MSK-IMPACT, the Li et al.&nbsp;FFPE cohort, and Pickering et al.), the authors confirmed recurrent mutation of <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/C9.html">C9</a>, <a href="../genes/COLEC12.html">COLEC12</a>, and <a href="../genes/SLC22A6.html">SLC22A6</a>. <a href="../genes/COLEC12.html">COLEC12</a> (primary 25%, metastatic 60%) and <a href="../genes/SLC22A6.html">SLC22A6</a> (primary 16%, metastatic 30%) were enriched in metastatic disease.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — recurrently mutated; loss-of-function across 24/25 samples (only CSCC_0009 wildtype). Driver by all three tools. Cohort frequency consistent with the high-TMB UV-driven phenotype.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — recurrently mutated; LOF impacting p16INK4a and ARF, dysregulating cell cycle and apoptotic pathways. Driver by all three tools. Deep deletion observed in 1/25 samples.</li>
+<li><a href="../genes/C9.html">C9</a> — novel candidate driver (52% of samples carried SNVs). Encodes complement component 9; identified by all three driver tools. cBioPortal shows <a href="../genes/C9.html">C9</a> mutated in 31% primary and 10% metastatic CSCC. Mechanistic link proposed via tumor microenvironment and macrophage biology.</li>
+<li><a href="../genes/PTPRD.html">PTPRD</a> — most frequently deleted gene (24% of samples) on 9p; tumor suppressor; loss reported to drive <a href="../genes/STAT3.html">STAT3</a> hyperactivation and resistance to EGFR-targeted therapy in HNSCC.</li>
+<li><a href="../genes/EVC.html">EVC</a> — recurrent 3′UTR mutation (48%); regulator of ciliary Hedgehog signaling.</li>
+<li><a href="../genes/PPP1R1A.html">PPP1R1A</a> — recurrent 3′UTR mutation (48%); a unique missense variant (c.*491C&gt;T) in 5/25 samples.</li>
+<li><a href="../genes/ABCA4.html">ABCA4</a> — recurrent 3′UTR mutation (20%).</li>
+<li><a href="../genes/LUM.html">LUM</a> — 3′UTR mutation; keratan sulfate proteoglycan implicated in TGFβ/ECM enrichment.</li>
+<li><a href="../genes/LINC01003.html">LINC01003</a> — recurrently mutated tumor-suppressor lncRNA (64% of samples); previously shown to act via miR-33a-5p / <a href="../genes/PIM1.html">PIM1</a> in multiple myeloma.</li>
+<li><a href="../genes/LINC01474.html">LINC01474</a> — recurrent lncRNA mutation.</li>
+<li><a href="../genes/KHDRBS2.html">KHDRBS2</a>, <a href="../genes/COLEC12.html">COLEC12</a>, <a href="../genes/SLC22A6.html">SLC22A6</a>, <a href="../genes/LINGO2.html">LINGO2</a>, <a href="../genes/CDHR5.html">CDHR5</a>, <a href="../genes/ZNF442.html">ZNF442</a>, <a href="../genes/PRLR.html">PRLR</a>, <a href="../genes/DHRS4.html">DHRS4</a> — candidate coding drivers called by ≥2 tools; <a href="../genes/KHDRBS2.html">KHDRBS2</a> altered in 48% of cohort; <a href="../genes/COLEC12.html">COLEC12</a> and <a href="../genes/SLC22A6.html">SLC22A6</a> also enriched in metastatic vs primary CSCC on cBioPortal.</li>
+<li><a href="../genes/ZNF730.html">ZNF730</a> — OncodriveFML coding driver (Q-value &lt;0.1) but not corroborated by all three tools.</li>
+<li><a href="../genes/CALR.html">CALR</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/FGF3.html">FGF3</a> — focally amplified in 2/25 samples each; <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/FGF3.html">FGF3</a> co-amplified in CSCC_0132 and CSCC_0134.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — amplified in a single sample (CSCC_0012).</li>
+<li><a href="../genes/MYC.html">MYC</a> — structural amplification in CSCC_0005.</li>
+<li><a href="../genes/NOTCH1.html">NOTCH1</a> / <a href="../genes/NOTCH2.html">NOTCH2</a> — notably absent from significant or recurrent SNVs in this cohort, in contrast to the primary-CSCC NOTCH-prominent landscape reported by Inman et al.</li>
+<li><a href="../genes/GRHL2.html">GRHL2</a> — only a single splice variant observed, suggesting a limited role in metastatic disease here.</li>
+<li>Structural variant gene list (LINX/PURPLE): <a href="../genes/SMAD4.html">SMAD4</a> (DEL), <a href="../genes/CDKN2A.html">CDKN2A</a> (DEL), <a href="../genes/MYC.html">MYC</a> (GAIN), <a href="../genes/CRLF2.html">CRLF2</a>, <a href="../genes/PTPRD.html">PTPRD</a> (DEL/LOH in multiple samples), <a href="../genes/CALR.html">CALR</a> (GAIN), <a href="../genes/EGFR.html">EGFR</a> (GAIN), <a href="../genes/APC.html">APC</a> (DEL), <a href="../genes/CREBBP.html">CREBBP</a> (DEL), <a href="../genes/CDKN2C.html">CDKN2C</a> (DEL), <a href="../genes/PARD6G.html">PARD6G</a>, <a href="../genes/PTPN13.html">PTPN13</a> (DEL), <a href="../genes/NEGR1.html">NEGR1</a> (DEL), <a href="../genes/RAF1.html">RAF1</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/FGF3.html">FGF3</a>, <a href="../genes/MCL1.html">MCL1</a>, <a href="../genes/KDM6A.html">KDM6A</a> (DEL).</li>
+<li>Fusions: STRN–DLG2 (<a href="../genes/STRN.html">STRN</a> exon 1 ENST00000263918 — <a href="../genes/DLG2.html">DLG2</a> exon 7 ENST00000376104) in CSCC_0009; HEBP2–NTRK2 (<a href="../genes/HEBP2.html">HEBP2</a> — <a href="../genes/NTRK2.html">NTRK2</a>) in CSCC_0011 (unbalanced translocation).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Immune checkpoint blockade.</strong> Recurrent <a href="../genes/TP53.html">TP53</a> and <a href="../genes/CDKN2A.html">CDKN2A</a> loss-of-function — together with extreme TMB — provides a rationale for the high response rates observed with anti–PD-1 therapy in advanced CSCC (e.g.&nbsp;<a href="../drugs/cemiplimab.html">cemiplimab</a>; Migden et al.&nbsp;2018, NEJMoa1805131).</li>
+<li><strong>CDK4/6 inhibition.</strong> <a href="../genes/CDKN2A.html">CDKN2A</a> loss disables p16INK4a-mediated CDK control; the authors propose CDK4/6 inhibitors such as <a href="../drugs/palbociclib.html">palbociclib</a> — established in metastatic breast cancer — as a candidate therapeutic strategy for metastatic CSCC.</li>
+<li><strong>MDM2/MDM4 axis.</strong> The TP53–<a href="../genes/MDM2.html">MDM2</a>–ARF network (also encoded by <a href="../genes/CDKN2A.html">CDKN2A</a>) is highlighted as a potential target.</li>
+<li><strong>TGF-β / ECM axis.</strong> TGFβ-regulation-of-extracellular-matrix was a significantly enriched pathway via <a href="../genes/LUM.html">LUM</a>, <a href="../genes/CDHR5.html">CDHR5</a>, <a href="../genes/COLEC12.html">COLEC12</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a>; TGFβ receptor inhibition with chemotherapy or immunotherapy is proposed as a candidate strategy by analogy to other cancers.</li>
+<li><strong>miRNA potentiation.</strong> miR-331-5p was predicted to target six driver candidates including <a href="../genes/TP53.html">TP53</a> and <a href="../genes/C9.html">C9</a>, suggesting potential as a CSCC-driver–targeting miRNA.</li>
+<li><strong>Non-coding biomarkers.</strong> Recurrent 3′UTRs in <a href="../genes/EVC.html">EVC</a>, <a href="../genes/PPP1R1A.html">PPP1R1A</a>, <a href="../genes/ABCA4.html">ABCA4</a> and the lncRNA <a href="../genes/LINC01003.html">LINC01003</a> are proposed as candidate non-coding biomarkers of metastatic CSCC — and as concrete examples of regions invisible to WES/targeted-panel platforms.</li>
+<li><strong>Iatrogenic mutagenesis.</strong> SBS32 in one patient is attributable to <a href="../drugs/azathioprine.html">azathioprine</a> immunosuppression, reinforcing the importance of treatment history in interpreting CSCC mutational landscapes.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Cohort size and sex skew.</strong> Only 25 patients; 24/25 male. Potential sex differences are unaddressed; the authors note that this skew mirrors the disease burden in NSW, Australia but caution it is a limitation.</li>
+<li><strong>Metastatic disease only.</strong> All samples are nodal metastases; no matched primary tumors. Direct primary-vs-metastasis comparisons rely on external cBioPortal cohorts of differing assay design (WES, targeted NGS) rather than within-patient pairing.</li>
+<li><strong>5′UTR / promoter regions excluded.</strong> Limitations of current methodology in high-TMB tumors meant 5′UTRs and promoters (other than via prior CCCTC-binding factor analysis) were not analyzed in depth — leaving a sizeable non-coding fraction of the CSCC genome unstudied.</li>
+<li><strong>Functional validation outstanding.</strong> Novel candidate drivers (<a href="../genes/C9.html">C9</a>, KHDRBS2, COLEC12, SLC22A6, EVC/PPP1R1A 3′UTRs, <a href="../genes/LINC01003.html">LINC01003</a>) lack experimental validation; biological mechanisms are inferred from cross-cancer literature rather than CSCC-specific functional studies.</li>
+<li><strong>No matched RNA / methylation.</strong> Effects of UTR and lncRNA variants on gene expression are not measured in this dataset.</li>
+<li><strong>Comparator panels are heterogeneous.</strong> cBioPortal CSCC cohorts used for cross-validation (Zehir/MSK-IMPACT, Li et al., Pickering et al.) differ in assay (WES vs targeted NGS), tissue preservation (mostly FFPE), and selection — limiting head-to-head frequency comparisons.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We performed whole genome sequencing on lymph node metastases and blood DNA from 25 CSCC patients with regional metastases of the head and neck.” (Abstract)</li>
+<li>“Based on whole genome level calculations, the average tumor mutational burden (TMB) for SNVs and indels across the 25 cases was 238.7 mutations per megabase (median, 166.99 mutations/Mb; range, 32.52–995.66 mutations/Mb) and 2.25 indel/megabase (range, 0.63–5.9 mutations/Mb).” (Results — Tumor mutational burden)</li>
+<li>“Genes that were predicted to be driver genes (p-value &lt;0.005) by at least two tools were considered for downstream analyses … 12 genes: TP53, CDKN2A, C9, C9orf131, SLC22A6, KHDRBS2, COLEC12, <a href="../genes/LINGO2.html">LINGO2</a>, <a href="../genes/CDHR5.html">CDHR5</a>, <a href="../genes/ZNF442.html">ZNF442</a>, <a href="../genes/PRLR.html">PRLR</a>, and <a href="../genes/DHRS4.html">DHRS4</a>.” (Results — Coding short variants)</li>
+<li>“SNVs within the 3′UTR region of <a href="../genes/EVC.html">EVC</a>, <a href="../genes/PPP1R1A.html">PPP1R1A</a>, <a href="../genes/ABCA4.html">ABCA4</a>, and <a href="../genes/LUM.html">LUM</a> showed significantly higher observed functional impact than the expected functional impact (Q-value &lt;0.03).” (Results — Variation in non-coding regulatory regions)</li>
+<li>“lncRNA <a href="../genes/LINC01003.html">LINC01003</a> was altered in 64% of the cohort. Another recurrently mutated lncRNA in our cohort was RP11-61J19.4 (48% of samples).” (Results — Variation in non-coding regulatory regions)</li>
+<li>“The most frequently deleted gene was PTPRD (Chr9p, 24% of samples).” (Results — Structural and copy number variation)</li>
+<li>“Despite this widespread genomic instability, only two coding–coding gene fusions were observed in our cohort. The first was between STRN and DLG2 in sample CSCC_0009 … The second gene fusion was between NTRK2 and HEBP2 in CSCC_0011.” (Results — Structural and copy number variation)</li>
+<li>“ID8, 9, and 13 dominated over others… Melanoma is the only other cancer type reported to have a predominant ID 13 signature… While we found ID9 to be a dominant indel signature in CSCC, it is rare in melanoma (2/104) but predominant in soft tissue sarcoma.” (Discussion)</li>
+<li>“CDK4/6 inhibitors such as <a href="../drugs/palbociclib.html">palbociclib</a>, which has demonstrated response in metastatic breast cancer, may likewise be a potential therapeutic strategy for metastatic CSCC.” (Discussion)</li>
+<li>“The variant call format files have been deposited at the European Genome-Phenome Archive… under accession number EGAS00001006378.” (Data availability)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35982973.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35982973.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

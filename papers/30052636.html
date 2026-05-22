@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Characterization of hepatocellular adenoma and carcinoma using microRNA profiling and targeted gene sequencing – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30052636.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30052636.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Characterization of hepatocellular adenoma and carcinoma using microRNA profiling and targeted gene sequencing</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jian Zheng </p>
+             <p>Eran Sadot </p>
+             <p>Joana A. Vigidal </p>
+             <p>David S. Klimstra </p>
+             <p>Vinod P. Balachandran </p>
+             <p>T. Peter Kingham </p>
+             <p>Peter J. Allen </p>
+             <p>Michael I. D’Angelica </p>
+             <p>Ronald P. DeMatteo </p>
+             <p>William R. Jarnagin </p>
+             <p>Andrea Ventura </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1371/journal.pone.0200776">10.1371/journal.pone.0200776</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30052636 · <strong>DOI:</strong> <a href="https://doi.org/10.1371/journal.pone.0200776">10.1371/journal.pone.0200776</a> · <strong>Journal:</strong> PLOS ONE (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Zheng and colleagues at Memorial Sloan Kettering performed a pilot study of 11 hepatocellular adenomas (HCA) and 10 hepatocellular carcinomas (<a href="../cancer_types/HCC.html">HCC</a>) from patients without underlying viral hepatitis or cirrhosis — explicitly excluding the “carcinogenic field effect” — using small RNA sequencing and the MSK-IMPACT 341-gene targeted DNA panel (<a href="../datasets/hcc_msk_venturaa_2018.html">hcc_msk_venturaa_2018</a>). They show that HCA miRNA profiles cluster between normal liver and HCC, that six miRNAs (miR-200a, miR-429, miR-490-3p down; miR-452, miR-766, miR-1180 up) are similarly deregulated in both HCA and HCC vs.&nbsp;adjacent liver, and that members of the chromosome 19 miRNA cluster (C19MC: miR-515-5p, -517a, -518b, -520c-3p) are 3–4 fold higher in HCC than in HCA or normal liver. On the DNA side, <a href="../genes/HNF1A.html">HNF1A</a> was the most frequently mutated gene in HCA (3/9 IMPACT-sequenced), while <a href="../genes/TERT.html">TERT</a> (7/10), <a href="../genes/TP53.html">TP53</a> (3/10), <a href="../genes/CTNNB1.html">CTNNB1</a> (2/10) and <a href="../genes/APC.html">APC</a> (2/10) dominated the HCC cohort.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>21 patients total: 11 HCA (<a href="../cancer_types/LIAD.html">LIAD</a>) + 10 HCC (<a href="../cancer_types/HCC.html">HCC</a>) resected at Memorial Sloan Kettering Cancer Center 1999–2013.</li>
+<li>Exclusion criteria: no viral hepatitis, no prior liver-directed therapy, no cirrhosis; no HCC fibrolamellar variant.</li>
+<li>HCA subtype distribution (<a href="../methods/immunohistochemistry.html">immunohistochemistry</a> + mutation-based): inflammatory I-HCA n=6 (54%), steatotic H-HCA n=4 (37%), β-catenin B-HCA n=1 (9%).</li>
+<li>HCA cohort: median age 40 (24–56), 91% female, 64% history of oral contraceptive use.</li>
+<li>HCC cohort: median age 73 (63–81), 40% female; median AFP 15 ng/ml (1.9–92,881).</li>
+<li>Dataset: cBioPortal <a href="../datasets/hcc_msk_venturaa_2018.html">hcc_msk_venturaa_2018</a>.</li>
+<li>Assays: small RNA-seq on Illumina HiSeq (TruSeq Small RNA kit, ~11.5M reads/sample, BWA mapping to miRBase) — <a href="../methods/mirna-seq.html">mirna-seq</a>; targeted DNA-seq via MSK-IMPACT 341-gene panel (<a href="../methods/IMPACT341.html">IMPACT341</a>) on 9 HCA + 10 HCC matched tumor/normal (HCA1, HCA9 lacked IMPACT); IHC for β-catenin, LFABP, SAA, CRP, glutamine synthetase — <a href="../methods/immunohistochemistry.html">immunohistochemistry</a>. Reads aligned with <a href="../methods/bwa.html">BWA</a>-MEM to hg19/b37 + GATK realignment.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>HCA cluster between normal liver and HCC in miRNA space.</strong> Unsupervised multidimensional scaling places all three HCA subtypes intermediate between adjacent normal liver and HCC (S2 Fig).</li>
+<li><strong>86 miRNAs are significantly dysregulated in HCC vs.&nbsp;adjacent normal liver</strong> (unpaired, FDR-adjusted p ≤ 0.05; S2 Table); <strong>only 10 miRNAs</strong> differ between HCA and adjacent normal (S3 Table), and <strong>57 miRNAs</strong> differ between HCC and HCA (S4 Table).</li>
+<li><strong>Six “adenoma-carcinoma-sequence” miRNAs</strong> are concordantly deregulated in HCA <em>and</em> HCC vs.&nbsp;normal liver (Table 3): miR-200a (log fold-change −2.46 HCC / −2.82 HCA), miR-429 (−2.24 / −3.03), miR-490-3p (−3.98 / −2.83) down; miR-452 (+2.08 / +2.25), miR-766 (+1.36 / +1.07), miR-1180 (+1.59 / +1.52) up. All adjusted p ≤ 0.05.</li>
+<li><strong>C19MC discriminates HCC from HCA.</strong> miR-515-5p, miR-517a, miR-518b, miR-520c-3p are 3–4 fold higher in HCC than in HCA or normal liver (Fig 3A–D) — proposed as a malignant-transformation marker.</li>
+<li><strong>HCA mutational landscape (IMPACT, n=9):</strong> 7 distinct mutations identified. Most frequent gene = <a href="../genes/HNF1A.html">HNF1A</a> (3/9, all H-HCA, all LFABP-negative). Single tumors carried mutations in <a href="../genes/CTNNB1.html">CTNNB1</a> (the lone B-HCA), <a href="../genes/GNAS.html">GNAS</a>, <a href="../genes/FAT1.html">FAT1</a>, <a href="../genes/HGF.html">HGF</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/KMT2D.html">KMT2D</a> (reported as MLL2; <a href="../genes/KMT2D.html">KMT2D</a> is the HUGO symbol).</li>
+<li><strong>HCC mutational landscape (IMPACT, n=10):</strong> 41 distinct mutations. Top genes: <a href="../genes/TERT.html">TERT</a> promoter 7/10, <a href="../genes/TP53.html">TP53</a> 3/10, <a href="../genes/CTNNB1.html">CTNNB1</a> 2/10, <a href="../genes/APC.html">APC</a> 2/10.</li>
+<li><strong>No <a href="../genes/TERT.html">TERT</a> mutations in any HCA.</strong> Both HCC patients with <a href="../genes/CTNNB1.html">CTNNB1</a> mutations also had <a href="../genes/TERT.html">TERT</a> promoter mutations — consistent with the model that <a href="../genes/CTNNB1.html">CTNNB1</a> is an early event and TERT a later event in the HCA→HCC sequence.</li>
+<li><strong>None of 11 HCA patients progressed to HCC</strong> during follow-up; the authors note follow-up time may be insufficient.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/HNF1A.html">HNF1A</a> — biallelic-style inactivating mutations in 3/9 IMPACT-sequenced HCA; defines the steatotic H-HCA subtype with corresponding LFABP loss by IHC.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — mutation in 1/9 HCA (the B-HCA with aberrant nuclear β-catenin) and 2/10 HCC; both HCC CTNNB1-mutant cases co-carried TERT promoter mutations.</li>
+<li><a href="../genes/TERT.html">TERT</a> — promoter mutation in 7/10 HCC; absent in HCA. Authors interpret this as TERT being a later step in HCA-to-HCC transformation.</li>
+<li><a href="../genes/TP53.html">TP53</a> — mutation in 3/10 HCC; not detected in HCA. Frames as a late-stage HCC event consistent with prior literature.</li>
+<li><a href="../genes/APC.html">APC</a> — mutation in 2/10 HCC.</li>
+<li><a href="../genes/GNAS.html">GNAS</a>, <a href="../genes/FAT1.html">FAT1</a>, <a href="../genes/HGF.html">HGF</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/KMT2D.html">KMT2D</a> (reported as MLL2) — each mutated in a single inflammatory HCA (Table 2).</li>
+<li>C19MC locus (chr19q13.41) — not covered by the <a href="../methods/IMPACT341.html">IMPACT341</a> panel, so copy-number drivers of C19MC overexpression in HCC could not be assessed in this cohort (explicitly noted as a limitation).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The six concordantly deregulated miRNAs (miR-200a, miR-429, miR-490-3p, miR-452, miR-766, miR-1180) and the C19MC cluster are proposed as <strong>candidate surrogate biomarkers to predict HCA→HCC transformation</strong>, but the authors explicitly call this a hypothesis-generating pilot — no clinical actionability is claimed.</li>
+<li>The pattern of <a href="../genes/CTNNB1.html">CTNNB1</a> without <a href="../genes/TERT.html">TERT</a> (HCA) vs.&nbsp;<a href="../genes/CTNNB1.html">CTNNB1</a> co-occurring with <a href="../genes/TERT.html">TERT</a> (HCC) supports prior models in which CTNNB1 is the early oncogenic hit and TERT promoter activation marks malignant transformation, with potential utility for risk-stratifying B-HCA patients.</li>
+<li>No drug-targeting claims are made.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small sample size (n=11 HCA, n=10 HCC) and only 1 B-HCA</strong> — the subtype most prone to malignant transformation. All three HCA subtypes had to be pooled for statistical power; per-subtype miRNA analysis was performed but underpowered.</li>
+<li><strong>No HCA in the cohort progressed to HCC</strong> during the available follow-up, so the “adenoma-carcinoma sequence” interpretation is inferred from cross-sectional similarity, not longitudinal observation.</li>
+<li><strong>IMPACT341 does not cover chr19q13.41</strong>, so the mechanism (amplification vs.&nbsp;hypomethylation) of C19MC overexpression in HCC cannot be distinguished here.</li>
+<li>HCC cohort excludes the dominant viral/cirrhotic etiology; findings may not generalize to hepatitis-B/C- or cirrhosis-associated HCC.</li>
+<li>miR-490-3p direction is consistent with one prior report but at odds with another — discrepancy unresolved.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“11 patients with HCA and 10 patients with HCC without underlying hepatitis or cirrhosis were included in this pilot study” (Abstract / Methods, p.1).</li>
+<li>“Our institutional MSK-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT) assay was designed for targeted sequencing of all exons and selected introns of 341 oncogenes” (Methods, p.5).</li>
+<li>“Within the HCC cohort, the most common mutations were found in TERT (7/10), followed by <a href="../genes/TP53.html">TP53</a> (3/10), CTNNB1 (2/10), and <a href="../genes/APC.html">APC</a> (2/10)” (Results, p.6).</li>
+<li>“the most frequently mutated gene in our HCA cohort was HNF1α (3/9, as 2 HCA patients did not have IMPACT analysis)” (Results, p.6).</li>
+<li>“Selected components of the chromosome 19 miRNA cluster (C19MC), including miR-515-5p, miR-517a, miR-518b, and miR-520c-3p, were amongst the top miRNAs differentially expressed between HCC and HCA or adjacent liver samples, with levels 3 to 4 folds higher in HCC samples” (Results, p.6).</li>
+<li>“Because our MSK-IMPACT panel does not cover the genes in 19q13.41, we were unable to determine copy number changes in this locus” (Discussion, p.10).</li>
+<li>cBioPortal study handle: <code>http://www.cbioportal.org/study?id=hcc_msk_venturaa_2018</code> (Methods, p.5).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30052636.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30052636.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

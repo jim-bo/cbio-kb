@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Molecular Evolution of Early-Onset Prostate Cancer Identifies Molecular Risk Markers and Clinical Trajectories – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30537516.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30537516.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Molecular Evolution of Early-Onset Prostate Cancer Identifies Molecular Risk Markers and Clinical Trajectories</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gerhauser C </p>
+             <p>Favero F </p>
+             <p>Risch T </p>
+             <p>Simon R </p>
+             <p>Feuerbach L </p>
+             <p>Assenov Y </p>
+             <p>Heckmann D </p>
+             <p>Sidiropoulos N </p>
+             <p>Waszak SM </p>
+             <p>Hübschmann D </p>
+             <p>Urbanucci A </p>
+             <p>Girma EG </p>
+             <p>Kuryshev V </p>
+             <p>Klimczak LJ </p>
+             <p>Saini N </p>
+             <p>Stütz AM </p>
+             <p>Weichenhan D </p>
+             <p>Böttcher L-M </p>
+             <p>Toth R </p>
+             <p>Hendriksen JD </p>
+             <p>Koop C </p>
+             <p>Lutsik P </p>
+             <p>Matzk S </p>
+             <p>Warnatz H-J </p>
+             <p>Amstislavskiy V </p>
+             <p>Feuerstein C </p>
+             <p>Raeder B </p>
+             <p>Bogatyrova O </p>
+             <p>Schmitz E-M </p>
+             <p>Hube-Magg C </p>
+             <p>Kluth M </p>
+             <p>Huland H </p>
+             <p>Graefen M </p>
+             <p>Lawerenz C </p>
+             <p>Henry GH </p>
+             <p>Yamaguchi TN </p>
+             <p>Malewska A </p>
+             <p>Meiners J </p>
+             <p>Schilling D </p>
+             <p>Reisinger E </p>
+             <p>Eils R </p>
+             <p>Schlesner M </p>
+             <p>Strand DW </p>
+             <p>Bristow RG </p>
+             <p>Boutros PC </p>
+             <p>von Kalle C </p>
+             <p>Gordenin D </p>
+             <p>Sültmann H </p>
+             <p>Brors B </p>
+             <p>Sauter G </p>
+             <p>Plass C </p>
+             <p>Yaspo M-L </p>
+             <p>Korbel JO </p>
+             <p>Schlomm T </p>
+             <p>Weischenfeldt J </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.ccell.2018.10.016">10.1016/j.ccell.2018.10.016</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30537516 · <strong>DOI:</strong> 10.1016/j.ccell.2018.10.016 · <strong>Journal:</strong> Cancer Cell (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Gerhauser et al.&nbsp;integrated whole-genome, transcriptome, and methylome profiling of 292 prostate cancer (PC) cases — 203 of them early-onset (EOPC, diagnosis ≤ 55 years) — to chart the earliest somatic events in PC and to derive risk markers. They identified recurrent duplications at 8q22 centered on <a href="../genes/ESRP1.html">ESRP1</a> (a novel prognostic biomarker validated by IHC in ~12,000 TMA cores), showed that <a href="../genes/APOBEC3B.html">APOBEC3B</a>-driven mutagenesis acts in a clock-like manner from the earliest detectable lesions, defined a methylation-based risk score (PEPCI) and four prognostic molecular subgroups by integrating cell-type composition with co-expression clusters, and developed PRESCIENT, a conditional-probability network model that predicts the next molecular event and event-free survival from a single biopsy.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>292 PC genomes profiled in <a href="../datasets/prostate_dkfz_2018.html">prostate_dkfz_2018</a>, comprising 203 early-onset PC (EOPC, age ≤ 55) and 89 late-onset PC (LOPC) cases; 41 of the WGS samples were re-used from Fraser et al.&nbsp;2017.</li>
+<li>Cancer type: <a href="../cancer_types/PRAD.html">PRAD</a> (prostate adenocarcinoma).</li>
+<li>Assays per cohort:
+<ul>
+<li><a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> of tumor + matched blood in 184 EOPC and 85 LOPC patients.</li>
+<li><a href="../methods/450k-methylation-array.html">450k methylation array</a> on 203 EOPC and 45 LOPC tumors.</li>
+<li><a href="../methods/rna-seq.html">mRNA-seq</a> on 96 EOPC samples.</li>
+<li>Tissue-microarray <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> for <a href="../genes/ESRP1.html">ESRP1</a> on 11,954 tumor cores from radical-prostatectomy specimens (1992–2014, University Medical Center Hamburg-Eppendorf; median follow-up 48 months).</li>
+<li>ESRP1 <a href="../methods/fish.html">FISH</a> using BAC RP11-267M23 / RP11-22C11 (8q22.1) with centromere 8 reference probe.</li>
+</ul></li>
+<li>Independent validation in the TCGA PC cohort (<a href="../datasets/prad_tcga_pub.html">prad_tcga_pub</a>, 462 PC samples with RNA-seq).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Lower SNV burden in EOPC than LOPC.</strong> Median 0.47 SNVs/Mb in EOPC (IQR 0.49) vs.&nbsp;0.53 in LOPC; SNV and SV counts both increase significantly with age (p &lt; 0.001).</li>
+<li><strong>ETS fusions dominate EOPC architecture.</strong> 70% of EOPC tumors carry an SV consistent with an ETS-fusion event, with <a href="../genes/TMPRSS2.html">TMPRSS2</a>-<a href="../genes/ERG.html">ERG</a> the canonical case.</li>
+<li><strong>Top recurrent SV-affected loci in EOPC</strong> were chromosome 8p centered on <a href="../genes/NKX3-1.html">NKX3-1</a> (37%), 3p14 centered on <a href="../genes/FOXP1.html">FOXP1</a> (30%), 13q22 centered on <a href="../genes/KLF5.html">KLF5</a> (27%), and 8q22 centered on <a href="../genes/ESRP1.html">ESRP1</a> (17%).</li>
+<li><strong>Biallelic inactivation.</strong> <a href="../genes/PTEN.html">PTEN</a> had the highest rate of biallelic inactivation (12 samples), followed by <a href="../genes/TP53.html">TP53</a> (8 samples). <a href="../genes/NKX3-1.html">NKX3-1</a> and <a href="../genes/FOXP1.html">FOXP1</a> were rarely biallelically lost despite frequent SV involvement, consistent with haploinsufficient tumor-suppressor roles.</li>
+<li><strong>EOPC vs.&nbsp;LOPC architecture.</strong> LOPC was enriched for genomic losses at recurrent altered loci; EOPC had a higher rate of balanced breaks (p &lt; 1×10⁻⁷ and p &lt; 1×10⁻⁴, Fisher’s exact). EOPC tumors were more monoclonal (66% vs.&nbsp;53% in LOPC).</li>
+<li><strong>Chromatin context of SV breakpoints.</strong> EOPC breakpoints are enriched near open chromatin, active enhancers, transcription-factor binding, and actively transcribed regions; SV breakpoint density correlates with Hi-C chromatin-loop counts and H3K27ac peaks (p &lt; 0.0001; Spearman ρ = 0.23 and 0.18, respectively), with weaker correlations in LOPC (ρ = 0.11 and 0.06).</li>
+<li><strong><a href="../genes/KLF5.html">KLF5</a> loss has multi-omic consequences.</strong> 13q22 loss reduces <a href="../genes/KLF5.html">KLF5</a> mRNA and is coupled to differential methylation of a CpG-island-shore site upstream of <em>KLF5</em> (Spearman ρ = −0.523, q = 0.0038). KLF5 mRNA correlates positively with <a href="../genes/SPOP.html">SPOP</a> mRNA in both this cohort and TCGA (p &lt; 1×10⁻⁴, ρ = 0.19) — but independently of <a href="../genes/SPOP.html">SPOP</a> mutation status.</li>
+<li><strong>ESRP1 duplications drive overexpression and aggressive disease.</strong> Tumors with 8q22 duplications intersecting <a href="../genes/ESRP1.html">ESRP1</a> (33 Mb away from <a href="../genes/MYC.html">MYC</a>) show &gt;1.5-fold higher ESRP1 mRNA. Although duplications often span both genes, only ESRP1 (not <a href="../genes/MYC.html">MYC</a>) showed a significant expression increase. ESRP1 duplications were significantly associated with elevated Gleason Score (GS) — more strongly than any other RGA in the cohort (p &lt; 1×10⁻¹¹, chi-squared).</li>
+<li><strong>ESRP1 IHC validation in 11,954 TMA cores.</strong> High ESRP1 protein staining tracks with high GS (&gt;4+4), advanced stage (pT3b–pT4), more lymph-node metastases, higher preoperative PSA, higher Ki-67 proliferation index, and significantly shorter time to biochemical recurrence (<a href="../genes/BCR.html">BCR</a>). ESRP1 is an independent prognostic marker in multivariate analysis controlling for four established clinico-pathological parameters and independent of <a href="../genes/ERG.html">ERG</a> status; the signal is particularly strong in the biopsy setting where GS is often underestimated.</li>
+<li><strong>APOBEC3B-driven clock-like mutagenesis.</strong> Six mutational signatures were observed: clock-like signatures 1 and 5, DNA-repair signatures 3 and 6, and APOBEC signatures 2 and 13. Both clock-like signatures and the APOBEC signatures correlate with patient age (the latter at p = 5.2×10⁻³, ρ = 0.17). APOBEC C/G clusters (kataegis events) accumulate with age and are predominantly <a href="../genes/APOBEC3B.html">APOBEC3B</a>-like. Carriers of a known ~30 kb germline <em><a href="../genes/APOBEC3B.html">APOBEC3B</a></em> deletion (complete loss of coding sequence) had significantly fewer signature 2/13 mutations, lower A3B expression, and a shift from A3B-like to <a href="../genes/APOBEC3A.html">APOBEC3A</a>-like mutagenesis.</li>
+<li><strong>APOBEC-driven kataegis co-localizes with SV breakpoints.</strong> C/G clusters are strongly enriched at SV breakpoints (1–10 kb co-localization window), and several such breakpoints created driver events including the TMPRSS2-ERG fusion and disruption of <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/FOXP1.html">FOXP1</a>, and <a href="../genes/BRCA2.html">BRCA2</a>.</li>
+<li><strong>Germline DDR variants amplify genomic instability.</strong> Germline protein-truncating variants in <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/PALB2.html">PALB2</a>, <a href="../genes/ATM.html">ATM</a>, and <a href="../genes/CHEK2.html">CHEK2</a> were significantly associated with higher somatic SV/SNV counts and elevated APOBEC signature 2 and “BRCAness” signature 3.</li>
+<li><strong>PEPCI — methylation-based purity-adjusted risk score.</strong> Combining T-luminal cell content and infiltrating-immune cell content (from FACS-sorted reference methylomes) into a Purity-adjusted Epigenetic Prostate Cancer Index (PEPCI) stratifies tumors: high PEPCI is associated with high pT (p &lt; 1×10⁻⁷, Kruskal-Wallis), high GS (p &lt; 1×10⁻¹⁷, Wilcoxon), and BCR (log-rank p &lt; 0.0001). PEPCI predicts GS at AUC = 0.831 and BCR at AUC = 0.702, and stratifies intermediate-risk GS7 (especially GS 4+3) cases — validated in TCGA. PEPCI-high tumors are strongly enriched for <a href="../genes/ESRP1.html">ESRP1</a> gain (odds ratio = 15.7, FDR p &lt; 1×10⁻⁵).</li>
+<li><strong>Four molecular subgroups from CLICK co-expression clusters.</strong> Seven co-expression clusters (CC1–7) integrated with cell-type content and PEPCI define four PC subgroups: (1) PEPCI-high tumors with high T-luminal content and CC7 (reactive stroma, ASPN marker) — most aggressive; (2) a smaller PEPCI-high subgroup with high CC1 (immune), CC5 (stroma), and CC7 expression; (3) intermediate-risk, high-CC5; (4) PEPCI-low, basal/luminal-like (CC2/CC4 high) — best prognosis. Subgroup 4 is enriched in EOPC (p = 0.008, adjusted for GS). CC2-low and CC7-high tumors are enriched for <a href="../genes/PTEN.html">PTEN</a> loss (p &lt; 0.0001) and <a href="../genes/ESRP1.html">ESRP1</a> gain (p &lt; 0.0001 and p &lt; 0.0005, respectively). Subgroup membership improves BCR prediction over GS alone within GS7 cases in TCGA (p = 0.015).</li>
+<li><strong>PRESCIENT temporal-order model.</strong> A conditional-probability network model predicts the next likely somatic event and the associated Probability of Event-Free Survival (PEFS) given preceding alterations. <a href="../genes/ERG.html">ERG</a> had the highest exclusion score and is most often the initiating event, frequently followed by <a href="../genes/FOXP1.html">FOXP1</a>. Multi-region WGS of seven EOPC tumors was used as orthogonal validation: in tumors with subclonal divergence, the dominant clone matched the branch with the shorter predicted PEFS. PCA041 displayed an early clonal ESRP1 gain that preceded loss of <em>KLF5</em>/<em><a href="../genes/BRCA1.html">BRCA1</a></em>/<a href="../genes/RB1.html">RB1</a> on one branch and parallel biallelic inactivation of <a href="../genes/PTEN.html">PTEN</a> and <a href="../genes/TP53.html">TP53</a> on another.</li>
+<li><strong>Actionable targets.</strong> &gt;40% of EOPC patients could be matched to at least one targeted therapy in pre-clinical or clinical trials for PC; classes included PI3K, mTOR, and PARP inhibitors. <em><a href="../genes/BRCA2.html">BRCA2</a></em>-mutated patients showed high signature-3 (“BRCAness”) burden and elevated mutational load, suggesting PARP-inhibitor susceptibility.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/ESRP1.html">ESRP1</a> — recurrent 8q22 duplications (17% of EOPC); duplication associated with &gt;1.5-fold mRNA increase and high protein staining; independent prognostic biomarker for BCR validated in ~12k TMA cores; correlates with high GS, pT, Ki-67, and PSA; also enriched in PEPCI-high tumors (OR = 15.7).</li>
+<li><a href="../genes/KLF5.html">KLF5</a> — recurrent 13q22 loss (27% of EOPC); loss decreases KLF5 mRNA and increases global SV/SNV burden; epigenetic regulation via a CpG-island-shore site; co-expression with <a href="../genes/SPOP.html">SPOP</a> mRNA (independent of SPOP mutation status).</li>
+<li><a href="../genes/SPOP.html">SPOP</a> — direct KLF5 ChIP-seq target; mRNA correlates with KLF5 mRNA; mutation status does not modify the correlation.</li>
+<li><a href="../genes/TMPRSS2.html">TMPRSS2</a>–<a href="../genes/ERG.html">ERG</a> — ETS fusions occur in 70% of EOPC tumors; ERG is the most frequent initiating event in the PRESCIENT model; some TMPRSS2-ERG fusions arise from APOBEC-associated SV breakpoints.</li>
+<li><a href="../genes/FOXP1.html">FOXP1</a> — recurrent 3p14 SV (30% of EOPC); rarely biallelically inactivated (haploinsufficient); among the most likely second events after ERG.</li>
+<li><a href="../genes/NKX3-1.html">NKX3-1</a> — chr 8p SVs in 37% of EOPC; haploinsufficient tumor-suppressor pattern.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — highest biallelic-inactivation rate (12 samples); some breakpoints co-localize with APOBEC C/G clusters; loss enriched in CC2-low/CC7-high tumors (p &lt; 0.0001).</li>
+<li><a href="../genes/TP53.html">TP53</a> — most frequent nonsynonymous SNV target in EOPC (6%); 8 biallelic inactivation events; parallel inactivation with <a href="../genes/PTEN.html">PTEN</a> observed in subclones (PCA041).</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/PALB2.html">PALB2</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/CHEK2.html">CHEK2</a> — germline PTVs in these DDR genes drive elevated SV/SNV burden, APOBEC signature 2, and signature 3 (BRCAness); some BRCA2 disruptions in tumor genomes arise from APOBEC-associated SV breakpoints.</li>
+<li><a href="../genes/APOBEC3B.html">APOBEC3B</a> — endogenous mutagen behind clock-like APOBEC signatures (2 and 13) and kataegis events; germline <em>APOBEC3B</em> deletion shifts mutagenesis toward <a href="../genes/APOBEC3A.html">APOBEC3A</a>-like patterns.</li>
+<li><a href="../genes/MAP3K7.html">MAP3K7</a> — discussed as a known PC SV-associated tumor suppressor (context only; not a primary finding of this paper).</li>
+<li><a href="../genes/AR.html">AR</a> — invoked as the source of fusion-driving promoters in ETS fusions and as part of an AR-signaling pathway-level event downstream of ETS initiation in PRESCIENT.</li>
+<li><a href="../genes/MYC.html">MYC</a> — proximal to (but not the target of) the 8q22 ESRP1 duplications; ESRP1, not MYC, drives the mRNA increase across these duplications.</li>
+<li><a href="../genes/RB1.html">RB1</a> — lost on one branch of the aggressive multi-region tumor PCA041.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>ESRP1 as an independent prognostic biomarker.</strong> Strong ESRP1 IHC staining predicts shorter time to BCR independent of ERG status and four established clinico-pathological parameters; particularly useful in the biopsy setting where GS is unreliable.</li>
+<li><strong>PEPCI methylation score for risk stratification.</strong> Stratifies intermediate-risk GS7 (especially GS 4+3) into prognostically distinct groups; validated in TCGA.</li>
+<li><strong>Four molecular subgroups improve BCR prediction over GS alone.</strong> Subgroup membership adds significant information over GS in both this cohort (p = 0.003) and TCGA (p = 0.01); subgroup 4 (PEPCI-low, basal/luminal-like) is enriched in EOPC and tracks with better prognosis.</li>
+<li><strong>PRESCIENT — single-biopsy prediction of next event and event-free survival.</strong> Demonstrates feasibility of using a probabilistic network model on a single sample to forecast clinical trajectory, with multi-region WGS used to validate that the dominant clone is the one with the shorter predicted PEFS.</li>
+<li><strong>Targeted-therapy matching for EOPC.</strong> &gt;40% of EOPC patients matched a PI3K, mTOR, or PARP inhibitor at pre-clinical/clinical-trial stage; <em>BRCA2</em>-mutated patients with high signature-3 burden are candidates for PARP inhibitors.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>PRESCIENT is currently limited by cohort size; the authors note that incorporating more samples (especially aggressive LOPC and metastatic disease) is needed to improve sensitivity and specificity for event-free-survival prediction and to enable forecasting of secondary, metastasis-associated alterations.</li>
+<li>Whether the four molecular subgroups predict differential therapy response remains untested.</li>
+<li>ESRP1 has been linked to RAF-fusion formation in PC elsewhere, but no ESRP1 fusion events were detected in this cohort — the mechanistic link between ESRP1 dosage gain and aggressive phenotype (EMT vs.&nbsp;accelerated epithelial proliferation in the E-cadherin-coexpressed state) is not fully resolved.</li>
+<li>The APOBEC3B “clock-like” model relies on cross-sectional associations with age plus germline-deletion-carrier comparisons; longitudinal observation of normal prostate would be needed to directly demonstrate that A3B mutagenesis pre-dates transformation.</li>
+<li>Single-biopsy PRESCIENT predictions converge well in the cases shown (e.g., PCA035 T5), but the paper does not quantify per-region disagreement rates across all multi-region tumors.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Characterization across 292 prostate cancer genomes revealed age-related genomic alterations and a clock-like enzymatic-driven mutational process contributing to the earliest mutations in prostate cancer patients.” — Summary.</li>
+<li>“70% of the EOPC tumor genomes carrying an SV associated with formation of an ETS fusion gene.” — Patterns of somatic genomic aberrations in EOPC.</li>
+<li>“ESRP1 duplications were significantly associated with elevated Gleason Score (GS) (p &lt; 1x10−11, Chi-squared test), in fact, more than any other RGA in the cohort.” — DNA rearrangement recurrence analysis.</li>
+<li>“We therefore pursued <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> (IHC)-based validation in 11,954 tumor specimens on tissue-microarrays (TMA).” — DNA rearrangement recurrence analysis.</li>
+<li>“We observed in germline APOBEC3B deletion carriers i) significantly fewer APOBEC-associated signature 2 and 13 mutation, ii) reduced expression levels of A3B in PC and iii) a significant shift from A3B-like to A3A-like mutagenesis.” — Enzymatic activity is associated with the earliest detectable mutational processes.</li>
+<li>“We found that high PEPCI was strongly associated with high pT (p &lt; 1x10−7, Kruskal Wallis), high GS (p &lt; 1x10−17, Wilcoxon) … and elevated risk of BCR (log-rank p &lt; 0.0001).” — PEPCI, a methylation-based risk score.</li>
+<li>“More than 40% of the EOPC patients could be matched with at least one targeted therapy in either pre-clinical test or clinical trial for PC. The targeted agents included PI3K, mTOR and PARP inhibitors.” — Tracing the temporal order and clinical trajectories.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30537516.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30537516.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

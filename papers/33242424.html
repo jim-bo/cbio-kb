@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Integrated Proteogenomic Characterization across Major Histological Types of Pediatric Brain Cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33242424.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33242424.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrated Proteogenomic Characterization across Major Histological Types of Pediatric Brain Cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Petralia F </p>
+             <p>Tignor N </p>
+             <p>Reva B </p>
+             <p>Koptyra M </p>
+             <p>Chowdhury S </p>
+             <p>Rykunov D </p>
+             <p>Krek A </p>
+             <p>Ma W </p>
+             <p>Zhu Y </p>
+             <p>Ji J </p>
+             <p>Calinawan A </p>
+             <p>Whittle MC </p>
+             <p>Resnick AC </p>
+             <p>Storm PB </p>
+             <p>Rood BR </p>
+             <p>Wang P </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2020.10.044">10.1016/j.cell.2020.10.044</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 33242424 · <strong>DOI:</strong> 10.1016/j.cell.2020.10.044 · <strong>Journal:</strong> Cell (2020)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Petralia et al.&nbsp;report the first large-scale integrated proteogenomic analysis (whole genome sequencing, RNA-seq, TMT-based global proteomics and phosphoproteomics) of 218 fresh-frozen pediatric brain tumor samples from 199 patients spanning 7 histologic types — low-grade glioma (<a href="../cancer_types/LGG.html">LGG</a>, n=93), ependymoma (n=32), high-grade glioma (HGG, n=25), medulloblastoma (n=22), ganglioglioma (n=18), craniopharyngioma (<a href="../genes/CP.html">CP</a>, n=16) and atypical teratoid rhabdoid tumor (<a href="../cancer_types/ATRT.html">ATRT</a>, n=12) — collected at Children’s Hospital of Philadelphia through the CBTTC and analyzed under the <a href="../datasets/brain_cptac_2020.html">CPTAC</a> framework. Consensus proteomic clustering revealed eight subgroups that frequently cross histologic boundaries: notably, a subset of pediatric CP shared the proteomic and phosphoproteomic signature of <a href="../genes/BRAF.html">BRAF</a>V600E LGG despite lacking BRAFV600E mutation, suggesting these CP tumors might benefit from MEK inhibitor therapy. Phosphoproteomic kinase-activity analysis identified diagnosis-specific kinase-substrate networks (e.g., <a href="../genes/CDK1.html">CDK1</a>/<a href="../genes/CDK2.html">CDK2</a> and <a href="../genes/CAMK2A.html">CAMK2A</a> in HGG; <a href="../genes/CDK5.html">CDK5</a>/<a href="../genes/GSK3B.html">GSK3B</a> in ganglioglioma/LGG). In HGG, combined wild-type <a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a> protein abundance was prognostic for overall survival in the H3-wild-type subset. Paired primary/recurrent samples (n=18 pairs) showed substantial proteomic divergence between initial and recurrent tumors, supporting independent molecular assessment of recurrences.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 218 tumor samples from 199 patients</strong> across 7 histologic types of childhood brain cancer, all sourced from Children’s Hospital of Philadelphia via the Children’s Brain Tumor Tissue Consortium (CBTTC).</li>
+<li>Histology breakdown: <a href="../cancer_types/LGGNOS.html">LGG</a> n=93 (many with <a href="../genes/BRAF.html">BRAF</a> alterations, see <a href="../cancer_types/DLGGMAPK.html">DLGGMAPK</a>), <a href="../cancer_types/EPM.html">ependymoma</a> n=32, <a href="../cancer_types/HGGNOS.html">HGG</a> n=25, <a href="../cancer_types/MBL.html">medulloblastoma</a> n=22, <a href="../cancer_types/GNG.html">ganglioglioma</a> n=18, <a href="../cancer_types/ACPP.html">craniopharyngioma</a> n=16, <a href="../cancer_types/ATRT.html">ATRT</a> n=12.</li>
+<li>217 samples collected at surgery, 9 at autopsy. 18 patients contributed paired initial/recurrent (or progressive) tumors.</li>
+<li>Assays per sample (after QC): somatic mutations (n=200), DNA copy number (n=190), RNA-seq (n=188), global TMT proteomics and phosphoproteomics (all 218).</li>
+<li>Proteomic depth: 4661–5731 proteins quantified per sample (median 5122); 2155–3415 phosphosites per sample (median 2714). Total: 8802 proteins and 18,235 phosphosites identified; 6429 proteins and 4548 phosphosites in ≥50% of samples within at least one diagnosis were carried forward.</li>
+<li>Independent HGG validation cohort: 23 additional pediatric/young-adult HGG samples plus 18 from the discovery cohort with remaining material (total 41) profiled by TMT proteomics/phosphoproteomics.</li>
+<li>Dataset: <a href="../datasets/brain_cptac_2020.html">brain_cptac_2020</a> (reference genome hg38). Processed data are also accessible at http://pbt.cptac-data-view.org/.</li>
+<li>Sequencing pipeline: WGS at 60× tumor / 30× germline on Illumina HiSeq, mutations called with <a href="../methods/strelka.html">Strelka2</a> and CNVs with <a href="../methods/cnvkit.html">CNVkit</a>; RNA-seq aligned with <a href="../methods/star-aligner.html">STAR</a> and quantified with <a href="../methods/rsem.html">RSEM</a>. Proteomic platform: <a href="../methods/tmt-proteomics.html">TMT11-plex</a> with <a href="../methods/tmt-phosphoproteomics.html">phosphopeptide enrichment</a>; selected analytes validated by <a href="../methods/selected-reaction-monitoring.html">immuno-MRM/selected reaction monitoring</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Eight proteomic clusters cross histologic lines.</strong> Consensus clustering on global protein abundance yielded 8 subgroups (Ependy, Medullo, Aggressive, Cranio/LGG-BRAFV600E, HGG-rich, Ganglio-rich, LGG BRAFWT-rich, LGG BRAFFusion-rich) with distinct survival outcomes, stemness scores, proliferation indices and pathway activities.</li>
+<li><strong>Pediatric craniopharyngioma splits into two proteomic subtypes.</strong> A subset of <a href="../cancer_types/ACPP.html">CP</a> tumors clustered with <a href="../genes/BRAF.html">BRAF</a>V600E LGG (C4: Cranio/LGG-BRAFV600E), while the remainder clustered in the LGG BRAFWT-rich group (C8). The split was supported by phosphoproteomic clustering but was not detected from RNA data. The C4 CP samples lacked BRAFV600E mutation but showed upregulation of MEK/ERK pathway substrates (ERK1/2 phosphorylation) and the AKT/mTOR axis, paralleling LGG BRAFV600E tumors. <a href="../genes/CTNNB1.html">CTNNB1</a> mutation status did not distinguish the two CP proteomic clusters. The authors validated MEK/ERK pathway differences between C4 and C8 by immuno-MRM, with high AUC values supporting clinical-grade classification.</li>
+<li><strong>Aggressive proteomic cluster identifies high-risk ependymoma.</strong> Ependymomas in the Aggressive cluster (poor survival) differed from those in the Ependy cluster by upregulation of the polymerase-associated factor 1 complex (PAF1, CDC73, CTR9, LEO1, RTF1) at the protein and phosphoprotein level — a distinction not visible in RNA data.</li>
+<li><strong>Cis-cascade events from CNV to protein/phosphosite.</strong> Integration of CNV, RNA, protein and phosphosite data identified 1,541 CNV-RNA/Protein cis-cascade genes (515 also CNV-RNA/Protein/Phospho). Diagnosis-specific examples on chromosome 1q gain include <a href="../genes/RABGAP1L.html">RABGAP1L</a> (1q25) as a CNV-RNA/Protein/Phospho cascade in ependymoma, <a href="../genes/FDPS.html">FDPS</a> as a CNV-RNA/Protein cascade in HGG, and RAB3GAP2 (1q41) in ependymoma, medulloblastoma and HGG.</li>
+<li><strong>CTNNB1-mutant CP shows trans-effects on WNT pathway proteins.</strong> In craniopharyngioma, CTNNB1 mutation was associated with elevated β-catenin abundance and upregulation of WNT pathway members (<a href="../genes/APC.html">APC</a>, GSK3A, <a href="../genes/GSK3B.html">GSK3B</a>). Phosphosite APC Ser2812 was elevated despite no change in total APC protein. RNA and protein abundance of <a href="../genes/TCF25.html">TCF25</a> (not <a href="../genes/TCF4.html">TCF4</a>) was upregulated in CTNNB1-mutated CP, suggesting TCF25 may mediate downstream effects.</li>
+<li><strong>Kinase-activity scores reveal diagnosis-specific signaling.</strong> CDK1/CDK2 kinase activity was elevated in more proliferative tumors (ATRT, MB, HGG, EP). <a href="../genes/CAMK2A.html">CAMK2A</a> activity in HGG was associated with phosphorylation of GJA1 (connexin 43) at Ser325 and Ser314 (gap-junction assembly / glioma invasion) and SYN1 at Ser568/Ser605 (synaptic transmission), supporting a role in glioma invasion via neuron–glioma synapses. CDK1/2 and CAMK2A protein abundance were mutually exclusive within HGG, implying two distinct HGG signaling programs; both observations were confirmed in the independent 23-patient HGG validation cohort.</li>
+<li><strong>CDK5/GSK3B activity in ganglioglioma and a LGG Ganglio-rich subgroup.</strong> <a href="../genes/CDK5.html">CDK5</a> and <a href="../genes/GSK3B.html">GSK3B</a> were upregulated, with substrate phosphorylation patterns (ADD2 Ser604/Ser693, SYN1 Ser553, STMN1 Ser38) consistent with synaptogenesis and glioma–neuron synapse formation.</li>
+<li><strong>BRAFV600E LGG shows MAPK and AKT pathway activation at the protein level.</strong> <a href="../genes/AKT1.html">AKT1</a> and <a href="../genes/AKT2.html">AKT2</a> protein/RNA were upregulated in <a href="../genes/BRAF.html">BRAF</a>V600E LGG vs BRAFWT (validated by MRM for AKT isoforms), supporting combined MEK + mTOR inhibition strategies. A phosphosite co-expression module enriched for <a href="../genes/AKT2.html">AKT2</a> substrates (including HNRNPUL1/HNRNPUL2) was specifically upregulated in BRAFV600E.</li>
+<li><strong>BRAF-Fusion LGG shows PDGFRA-pathway phosphorylation.</strong> A separate phosphosite module enriched in BRAFFusion (but not BRAFV600E) samples nominated <a href="../genes/PDGFRA.html">PDGFRA</a> as the top druggable kinase, with <a href="../genes/PDGFRA.html">PDGFRA</a> protein/RNA upregulated in BRAFFusion samples at levels comparable to HGG.</li>
+<li><strong>Wild-type IDH protein abundance is prognostic in pediatric HGG.</strong> Among H3-wild-type HGG (i.e., without <a href="../genes/H3-3A.html">H3-3A</a> K27M), all <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a> and IDH3A proteins associated positively with overall survival. A multivariate Cox model combining <a href="../genes/IDH1.html">IDH1</a> and <a href="../genes/IDH2.html">IDH2</a> estimated a hazard ratio of 23.58 (95% CI 1.42–384.6) for a 50% reduction in combined IDH1/IDH2 abundance (n=19 in the discovery analysis); the association was reproduced in the 41-sample independent HGG cohort after adjusting for tumor location. The Oxidative-phosphorylation pathway (which harbors IDH1/2/3) was a leading pathway whose upregulation associated with improved <a href="../cancer_types/OS.html">OS</a> in H3-WT HGG. Among the smaller H3-mutant subgroup (n=7 discovery, n=12 validation), the IDH protein effect on OS appeared inverse, but the authors caution validation is warranted.</li>
+<li><strong>Drug connectivity nominates CDK and MEK inhibitors for HGG.</strong> Comparing HGG to LGG to define an “HGG-aggressiveness” RNA + phospho signature and querying <a href="../methods/lincs-l1000.html">LINCS L1000</a> and P100 perturbation databases, CDK inhibitors were predicted (RNA + phosphoproteomic evidence) to reverse the signature; MEK, proteasome and HDAC inhibitors were predicted from RNA data alone. Independent kinase-activity scores confirmed elevated CDK1/CDK2 and <a href="../genes/MAPK1.html">MAPK1</a> (downstream of MEK) activity in HGG vs LGG.</li>
+<li><strong>Tumor microenvironment clusters via <a href="../methods/xcell.html">xCell</a>.</strong> RNA-based cell-type deconvolution produced five microenvironment groups: Cold-medullo, Cold-mixed, Neuronal, Epithelial and Hot. The Hot cluster (mixed LGG/HGG/ganglioglioma) carried upregulated adenosine producers (ENTPD1, <a href="../genes/NT5E.html">NT5E</a>), suggesting adenosine-targeted therapies. The Epithelial cluster (entirely CP) upregulated EMT, <a href="../genes/CTLA4.html">CTLA4</a> and PD-1, supporting prior reports of potential immune-checkpoint benefit in CP. BRAFFusion preferentially promoted M2 microglia while BRAFV600E preferentially promoted M2 macrophages.</li>
+<li><strong>Recurrent tumors are proteomically distinct from their primary.</strong> Across 18 paired primary/recurrent samples, recurrent (RP) tumors retained only 0–52% (mean 18%) of the initial-tumor somatic mutations — lower retention than adult <a href="../cancer_types/GBM.html">GBM</a> or LGG. All three medulloblastoma recurrences acquired a new <a href="../genes/TP53.html">TP53</a> mutation absent in the matched primary. Chromosomal breakpoints increased on average from 32 to 53. Most pairs were assigned to different proteomic clusters, with corresponding reversals in pathway activity (e.g., one BRAFWT LGG case shifted between the LGG BRAFWT-rich and Cranio/LGG BRAFV600E clusters between IN and RP, with concordant changes in ERK1/2 kinase activity).</li>
+<li><strong>Functional dissociation between RNA and protein.</strong> Multiple findings (the CP proteomic split, PAF1C upregulation in Aggressive EP, ATB/mTOR activation in C4 CP, M1/M2 polarization differences across BRAF status) were detectable from proteomic/phosphoproteomic data but were not detectable in RNA data, reinforcing that protein-level measurements add information beyond transcriptomics in pediatric brain tumors.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a> — BRAFV600E and BRAF-fusion are the dominant oncogenic events in pediatric LGG. BRAFV600E LGG showed downregulated total BRAF protein abundance (not significant at RNA level) and upregulation of MAPK pathway substrates and AKT1/AKT2. A subset of pediatric craniopharyngioma without BRAFV600E shared the BRAFV600E LGG proteomic signature (C4 cluster), nominating MEK inhibition for these CP.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — Mutation in CP samples elevated β-catenin abundance and trans-regulated APC, GSK3A/GSK3B, and TCF25 (RNA and protein), but downregulated TCF4 RNA/phosphosites; phosphosite APC Ser2812 was elevated.</li>
+<li><a href="../genes/NF1.html">NF1</a> — Mutation in HGG was associated with downregulation of both <a href="../genes/NF1.html">NF1</a> transcript and protein.</li>
+<li><a href="../genes/SMARCB1.html">SMARCB1</a> — Significantly downregulated at RNA and protein in <a href="../cancer_types/ATRT.html">ATRT</a>, driven by mutation, deletion, or copy-neutral LOH.</li>
+<li><a href="../genes/IDH1.html">IDH1</a> / <a href="../genes/IDH2.html">IDH2</a> — Mutations infrequent in pediatric HGG (~11%, consistent with prior literature); however, wild-type IDH1/2 protein abundance was positively associated with overall survival in H3-WT HGG. IDH1 was a CNV-RNA/Protein cis-cascade gene: IDH1 deletion (observed in ~20% of HGG tumors) significantly downregulated IDH1 protein. Combined IDH1/IDH2 protein score gave HR 23.58 (95% CI 1.42–384.6) per 50% reduction.</li>
+<li><a href="../genes/H3-3A.html">H3-3A</a> (H3F3A) — K27M point mutation status was used as the key prognostic stratifier for IDH analysis; included as a confounder in OS Cox models.</li>
+<li><a href="../genes/TP53.html">TP53</a> — Newly acquired <a href="../genes/TP53.html">TP53</a> mutations were found in all three recurrent medulloblastomas where matched primary tumors were TP53-WT.</li>
+<li><a href="../genes/PDGFRA.html">PDGFRA</a> — Top druggable kinase nominated by a BRAFFusion-specific phosphosite module; PDGFRA RNA/protein in BRAFFusion LGG were comparable to HGG levels.</li>
+<li><a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/AKT2.html">AKT2</a> — Upregulated at RNA and protein in BRAFV600E LGG (AKT isoform upregulation validated by MRM); AKT2-substrate phosphosites (including HNRNPUL1/HNRNPUL2) formed a BRAFV600E-specific co-expression module.</li>
+<li><a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/CDK2.html">CDK2</a> — Elevated kinase activity in ATRT, MB, HGG, EP. CDK2-MCM2 (Ser139) association detected across ATRT/MB, EP, HGG, LGG; CDK2-NPM1 (Ser70) in HGG/LGG; CDK2-TERF2IP (Ser203) in EP.</li>
+<li><a href="../genes/CDK5.html">CDK5</a>, <a href="../genes/GSK3B.html">GSK3B</a> — Upregulated in ganglioglioma and Ganglio-rich LGG; substrate networks include ADD2 (Ser604/Ser693), SYN1 (Ser553), STMN1 (Ser38).</li>
+<li><a href="../genes/CAMK2A.html">CAMK2A</a> — Most abundant in ganglioglioma but highest kinase activity in HGG, where it phosphorylates GJA1 (Ser325/Ser314) and SYN1 (Ser568/Ser605), linking to glioma–neuron synapse–mediated invasion.</li>
+<li><a href="../genes/MAPK1.html">MAPK1</a> — Kinase activity elevated in HGG vs LGG, downstream of MEK; supports MEK-inhibitor sensitivity prediction.</li>
+<li><a href="../genes/MCM2.html">MCM2</a>, <a href="../genes/TCF4.html">TCF4</a> — <a href="../genes/MCM2.html">MCM2</a> as <a href="../genes/CDK2.html">CDK2</a> substrate (Ser139, cross-diagnosis); TCF4 RNA/phosphosite was lower in CTNNB1-mutated CP (despite being a canonical β-catenin partner).</li>
+<li><a href="../genes/RABGAP1L.html">RABGAP1L</a>, <a href="../genes/FDPS.html">FDPS</a> — Both reside on chromosome 1q gain regions; <a href="../genes/RABGAP1L.html">RABGAP1L</a> is a CNV-RNA/Protein/Phospho cis-cascade gene in EP; <a href="../genes/FDPS.html">FDPS</a> in HGG.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>MEK inhibitor / MAPK-axis therapy for proteomically defined craniopharyngioma.</strong> Pediatric CP tumors in the C4 (Cranio/LGG-BRAFV600E) proteomic cluster — despite lacking BRAFV600E mutation — show MEK/ERK activation matching BRAFV600E LGG, motivating extension of [BRAFV600E-LGG MEK-inhibitor strategies (Fangusaro et al., 2019)] and combined MEK + mTOR regimens to this CP subset. Immuno-MRM assays validated key MEK/ERK markers and produced high-AUC subtype classification, suggesting feasibility of clinical proteomic stratification.</li>
+<li><strong>Combined MEK + mTOR inhibition in BRAFV600E LGG.</strong> AKT1/AKT2 upregulation at RNA and protein, plus an AKT2-substrate phosphosite module in BRAFV600E LGG, support concurrent inhibition of MEK and mTOR — particularly to address durability of response after RAF/MAPK inhibitor cessation.</li>
+<li><strong>PDGFRA-targeted therapy in BRAFFusion LGG.</strong> A BRAFFusion-specific phosphosite module nominates PDGFRA, with protein levels in BRAFFusion comparable to HGG. The authors propose evaluation of PDGFRA inhibitors in BRAFFusion LGG by analogy to pediatric HGG.</li>
+<li><strong>Wild-type IDH1/2 protein as an OS prognostic in H3-WT pediatric HGG.</strong> Combined IDH1/IDH2 protein abundance stratifies overall survival within the H3-wild-type subgroup; the authors note the wide CI reflects small n and that the H3-mutant analysis is under-powered.</li>
+<li><strong>CDK and MEK inhibitors as candidate therapies for pediatric HGG.</strong> Drug-connectivity analysis on RNA + phosphoproteomic signatures and kinase-activity scores both implicated CDK and MEK inhibitors.</li>
+<li><strong>Immune-checkpoint inhibition in craniopharyngioma.</strong> The Epithelial microenvironment cluster (entirely CP) upregulates CTLA4 and PD-1, supporting prior reports of potential immune-checkpoint benefit in CP.</li>
+<li><strong>Adenosine-axis therapies in the Hot tumor microenvironment cluster.</strong> Hot tumors (mixed LGG/HGG/ganglioglioma) overexpress adenosine producers ENTPD1 and NT5E, suggesting adenosine-reducing therapies as a hypothesis to test.</li>
+<li><strong>Glutamine antagonism / metabolic checkpoint in the Neuronal cluster.</strong> Pathways of energy metabolism (OXPHOS, mitochondrial protein complex, glycolysis) and glutamatergic signaling are upregulated; the authors invoke glutamine blockade as a metabolic-checkpoint strategy to consider.</li>
+<li><strong>Independent molecular assessment of recurrent tumors.</strong> Because primary and recurrent pediatric brain tumors frequently occupy different proteomic clusters and show divergent pathway activity, treatment decisions for recurrences should be guided by re-profiling rather than the primary’s molecular profile.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Other regulatory layers not profiled: methylation, histone marks, ribo-seq, metabolomics, acetyl-proteomics.</li>
+<li>Sample sizes within several individual histologies (ATRT n=12, CP n=16, ganglioglioma n=18, MB n=22, HGG n=25) are small; the IDH1/2 OS analysis in H3-WT HGG had n=19 in the discovery cohort, producing a very wide 95% CI (1.42–384.6) on the multivariate hazard ratio.</li>
+<li>The IDH protein–OS effect appears reversed in H3-mutant HGG, but with only n=7 (discovery) and n=12 (validation) this finding requires further study.</li>
+<li>Retrospective tissue collection limited the depth of phosphoproteomic profiling relative to what prospectively collected, phospho-optimized samples would allow.</li>
+<li>Single-institution discovery cohort (Children’s Hospital of Philadelphia / CBTTC); the HGG validation cohort was multi-institutional but limited to 41 samples.</li>
+<li>Post-mortem samples (n=9) blended with surgical samples on protein/RNA clustering but segregated on phosphoproteomic clustering, so post-mortem samples were excluded from phospho-based analyses — generalizability of phospho findings to post-mortem material is unresolved.</li>
+<li>Functional validation (e.g., synaptogenesis between glioma cells and neurons inferred from <a href="../genes/CDK5.html">CDK5</a>–SYN1, CAMK2A–GJA1 phosphosite associations) was not performed in this paper and requires follow-up studies.</li>
+<li>Many therapeutic implications (MEK inhibition in C4 CP, PDGFRA targeting in BRAFFusion LGG, CDK inhibition in pediatric HGG, adenosine/glutamine strategies) are hypothesis-generating from proteogenomic data, not from preclinical or clinical testing in this work.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we performed whole genome sequencing (WGS), RNA sequencing (RNAseq), quantitative proteomic and phosphoproteomic profiling. … LGG (n=93), EP (32), HGG (25), MB (22), ganglioglioma (18), CP (16) and ATRT (12).” (Results, p.&nbsp;3)</li>
+<li>“Consensus clustering based on global proteomic data identified eight clusters … We termed the eight clusters: Ependy, Medullo, Aggressive, Cranio/LGG-BRAFV600E, HGG-rich, Ganglio-rich, LGG BRAFWT-rich, and LGG BRAFFusion-rich.” (Results, p.&nbsp;3)</li>
+<li>“BRAFV600E mutation, an oncogenic event for some adult CP … has not been previously detected in pediatric CP patients. Our findings suggest that a subset of pediatric CP tumors, despite their lack of BRAFV600E mutations, showed similar proteomic changes as those in BRAFV600E LGG tumors. This motivates the hypothesis that some pediatric CP might benefit from MEK inhibitor (MEKi) based treatment.” (Results, p.&nbsp;4)</li>
+<li>“we estimated that, among H3WT HGG patients, the risk of death has a 23.58-fold increase, with a 95% confidence interval (CI) of [1.42, 384.6] … if the combined abundance of IDH1 and IDH2 is 50% lower.” (Results, p.&nbsp;11)</li>
+<li>“RP tumors carried 0%–52% (mean 18%) of the IN tumor mutations … all three MB progression samples had a TP53 mutation that was absent in their paired primary tumors … there was an increase in chromosome arm aberrations in the RP samples, with the number of breakpoints increasing on average from 32 to 53.” (Results, p.&nbsp;12)</li>
+<li>“CDK inhibitors were predicted to reverse the aggressiveness of HGG based on both RNA and phosphoproteomic data … MEK, proteasome and HDAC inhibitors were found to be significant based on RNA data alone.” (Results, p.&nbsp;12)</li>
+<li>“These mutations however are infrequent in pediatric HGG (~11%) (Kim and Liau, 2012), as also observed in our data.” (Results, p.&nbsp;11)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33242424.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33242424.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

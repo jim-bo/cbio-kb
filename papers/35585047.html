@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Feasibility of whole genome and transcriptome profiling in pediatric and young adult cancers – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35585047.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35585047.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Feasibility of whole genome and transcriptome profiling in pediatric and young adult cancers</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>N. Shukla </p>
+             <p>M. F. Levine </p>
+             <p>G. Gundem </p>
+             <p>D. Domenico </p>
+             <p>B. Spitzer </p>
+             <p>N. Bouvier </p>
+             <p>J. E. Arango-Ossa </p>
+             <p>D. Glodzik </p>
+             <p>J. S. Medina-Martínez </p>
+             <p>U. Bhanot </p>
+             <p>J. Gutiérrez-Abril </p>
+             <p>Y. Zhou </p>
+             <p>E. Fiala </p>
+             <p>E. Stockfisch </p>
+             <p>S. Li </p>
+             <p>M. I. Rodriguez-Sanchez </p>
+             <p>T. O’Donohue </p>
+             <p>C. Cobbs </p>
+             <p>M. H. A. Roehrl </p>
+             <p>J. Benhamida </p>
+             <p>F. Iglesias Cardenas </p>
+             <p>M. Ortiz </p>
+             <p>M. Kinnaman </p>
+             <p>S. Roberts </p>
+             <p>M. Ladanyi </p>
+             <p>S. Modak </p>
+             <p>S. Farouk-Sait </p>
+             <p>E. Slotkin </p>
+             <p>M. A. Karajannis </p>
+             <p>F. Dela Cruz </p>
+             <p>J. Glade Bender </p>
+             <p>A. Zehir </p>
+             <p>A. Viale </p>
+             <p>M. F. Walsh </p>
+             <p>A. L. Kung </p>
+             <p>E. Papaemmanuil </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41467-022-30233-7">10.1038/s41467-022-30233-7</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 35585047 · <strong>DOI:</strong> 10.1038/s41467-022-30233-7 · <strong>Journal:</strong> Nature Communications (2022)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Shukla, Levine, Gundem and colleagues at Memorial Sloan Kettering (MSK) prospectively applied clinical whole genome and transcriptome sequencing (cWGTS) to 114 pediatric, adolescent, and young adult patients with solid tumors and rare cancers. They built an end-to-end workflow with a 9-day sample-to-report turnaround, benchmarked optimal WGS depth at ≥80× with ≥20% tumor purity, and showed that cWGTS recovered all clinically reported variants from matched <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> and <a href="../methods/msk-fusion.html">MSK-Fusion</a> panels while adding at least one cancer-associated oncogenic finding in 54% of patients (n=62). The principal value added by WGS over WES + RNA-seq came from structural variants (SVs) — including enhancer-hijacking events, <a href="../genes/TP53.html">TP53</a> tumor-suppressor SVs in osteosarcoma, and <a href="../genes/TERT.html">TERT</a> and <a href="../genes/ATRX.html">ATRX</a> rearrangements in neuroblastoma — together with genome-wide mutation signatures, novel fusion genes, and integrated germline assessment. A proof-of-concept companion analysis showed that comprehensive WGS profiling can also be derived from cell-free DNA in patients with sufficient ctDNA content.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patients (n=114)</strong> with solid tumors enrolled prospectively at MSK on protocol NCT01775072; median age 12.6 years (range 4.5 months to 43.8 years). Disease classes included <a href="../cancer_types/SARC.html">sarcoma</a> (n=54), <a href="../cancer_types/NBL.html">neuroblastoma</a> (n=29), <a href="../cancer_types/OS.html">osteosarcoma</a> (n=29), CNS tumors, <a href="../cancer_types/CCRCC.html">carcinoma</a> (n=7), <a href="../cancer_types/WT.html">Wilms tumor</a>, <a href="../cancer_types/GCT.html">germ cell tumor</a>, hepatoblastoma, and other rare entities. Of 201 nominated tumors, 58 were excluded on pathology review and 29 failed the &gt;20% tumor-purity threshold.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/mixed_kunga_msk_2022.html">mixed_kunga_msk_2022</a>. Sequencing was performed on fresh frozen (FF) or OCT tumor biopsies with matched normal buffy coat.</li>
+<li><strong>Assays:</strong> <a href="../methods/whole-genome-seq.html">Whole-genome sequencing</a> (Illumina NovaSeq 6000, PE150) at a median tumor depth of 95× (range 67–181) and normal at 50× (range 32–159); whole-transcriptome <a href="../methods/rna-seq.html">RNA-seq</a> on 101 patients; orthogonal panel testing by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> (468-gene DNA panel) and <a href="../methods/msk-fusion.html">MSK-Fusion</a> (RNA fusion capture); germline analysis on a subset of 88 cancer-predisposition genes.</li>
+<li><strong>Companion exploratory cohort:</strong> 7 paired FF tumor + plasma cfDNA samples for <a href="../methods/cfdna-wes.html">cfDNA WGS</a> feasibility analysis (coverage 94–102×).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Turnaround:</strong> End-to-end sample-to-report time of 9 days (n=16 post-optimization samples), compared with 17 days during the developmental phase (range 11–29, n=59) and 3–8 weeks reported in prior WGS literature. This is comparable to the Hartwig Medical Foundation centralized infrastructure.</li>
+<li><strong>Yield over standard of care:</strong> cWGTS identified at least one additional oncogenic cancer-associated variant in <strong>54% of patients (n=62)</strong> beyond <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>, <a href="../methods/msk-fusion.html">MSK-Fusion</a>, and germline 88-gene panel testing combined. Of these 62, 33 had directly clinically relevant additional findings: 7 diagnostic (21%), 15 prognostic (45%), 5 therapy-informing (15%), 5 previously undescribed oncofusions (15%), and 6 germline (18%).</li>
+<li><strong>Cancer-associated alterations:</strong> cWGTS captured alterations in 99% of patients (n=114/114 in supplementary tables; 113 reported in main text), including CNAs in 105, cancer-associated SNVs/indels in 77, fusions in 75, germline predisposition in 17, translocations or chromothripsis in additional patients, and MSI signal in 7.</li>
+<li><strong>Concordance with MSK-IMPACT:</strong> Of 221 somatic mutations called by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>, 174 (79%) were independently called by WGS, with high VAF concordance (Pearson R²=0.75) across 5–97% VAF. The 47 discordant calls were predominantly subclonal (46/47 with &lt;90% cancer cell fraction by MSK-IMPACT, median VAF 8.5%) and were attributed to intratumor heterogeneity (ITH) rather than WGS sensitivity loss. Targeted re-sequencing of WGS libraries by MSK-IMPACT (median local depth 469×) failed to recover any of 44 tested discordant calls, supporting ITH as the basis. Same-aliquot concordance reached <strong>at least 94% (43/47)</strong> and up to 100% for evaluable samples.</li>
+<li><strong>Germline and fusions:</strong> cWGTS captured all 13 germline-predisposition variants and all 18 oncogenic fusions identified by panel assays, with WGS + RNA-seq providing orthogonal validation of every fusion within a single workflow.</li>
+<li><strong>Optimal WGS depth:</strong> Subsampling 97 tumors with ≥60× coverage (298 derivative BAMs at 100×, 80×, 60×, 30–40×) showed &gt;91% of clinically relevant oncogenic events recalled at 30–40× and &gt;98% at 60–100×. Genome-wide variant sensitivity across SNVs, indels, and SVs plateaued at <strong>≥80× effective coverage</strong> — the threshold the authors recommend for clinical WGS. SV sensitivity was slightly lower than SNV sensitivity at matched depth.</li>
+<li><strong>Most additional findings come from SVs and signatures:</strong> Of the incremental findings, only 27% would have been captured by WES + RNA-seq in combination (16% by RNA-seq alone, 13% by WES alone). The remainder were driven by SVs and genome-wide mutation signatures inaccessible to panel/exome assays.</li>
+<li><strong>Immune-checkpoint case studies:</strong> Two patients (H135022, metastatic adrenocortical carcinoma; H135462, relapsed clear-cell carcinoma) lacking therapy-informing biomarkers by clinical testing had the highest fusion and SV burden in the cohort. H135022 achieved complete response after 3 cycles of <a href="../drugs/nivolumab.html">nivolumab</a> + <a href="../drugs/ipilimumab.html">ipilimumab</a>, remaining disease-free 26 months after therapy cessation; H135462 achieved complete response after 6 cycles of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> and was disease-free at 10 months.</li>
+<li><strong>Chromothripsis and whole-genome duplication:</strong> Chromothripsis was detected in 40% of patients, most often in sarcomas (35/58), germ cell tumors (2/4), and neuroblastoma (6/29). WGD was seen in 42/114 patients, enriched in sarcoma (24/54), carcinoma (3/7), and neuroblastoma (11/30).</li>
+<li><strong>cfDNA proof-of-concept:</strong> WGS from matched FF + plasma cfDNA in 7 patients yielded cfDNA genome-wide coverage of 94–102× with tumor content ranging ~10–83%. For patient IH158182 (high ctDNA content), the cfDNA WGS profile recapitulated the FF tumor’s genome-wide mutation landscape; for H135967 (ctDNA ~20%), all known oncogenic events including <a href="../genes/TP53.html">TP53</a> substitution, <a href="../genes/MYC.html">MYC</a> and <a href="../genes/CCNE1.html">CCNE1</a> amplifications, and SVs targeting <a href="../genes/ARID1A.html">ARID1A</a> and <a href="../genes/ATRX.html">ATRX</a> were detected.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — Among 29 osteosarcoma patients, <a href="../genes/TP53.html">TP53</a> SNV/indel mutations were identified in 12 and noncoding SVs targeting the <a href="../genes/TP53.html">TP53</a> locus in 13 (only 3 of those SVs were called by MSK-IMPACT). RNA-seq integration confirmed that TP53 SVs correlated with loss of TP53 expression (two-sided Mann–Whitney U, p=1.645e-03). Without cWGTS, these patients would be erroneously classified as TP53 wild type, with implications for p53-pathway-modulating drug trials.</li>
+<li><strong><a href="../genes/TERT.html">TERT</a></strong> and <strong><a href="../genes/ATRX.html">ATRX</a></strong> — SVs detected in 8 (28%) and 5 (17%) of neuroblastoma patients, respectively, with the <a href="../genes/TERT.html">TERT</a> SVs identifiable only by cWGTS and only ¼ of <a href="../genes/ATRX.html">ATRX</a> deletions reported by MSK-IMPACT. Both are therapy-defining risk-stratification biomarkers for neuroblastoma. <a href="../genes/ATRX.html">ATRX</a> was also observed in 8 osteosarcomas, with associations to telomere length.</li>
+<li><strong><a href="../genes/DLG2.html">DLG2</a></strong> — Recurrent SVs in 15/29 osteosarcoma patients and 3/29 neuroblastoma patients, including 6 homozygous deletions. The authors propose <a href="../genes/DLG2.html">DLG2</a> SV recurrence in neuroblastoma as a novel observation warranting follow-up.</li>
+<li><strong><a href="../genes/MYB.html">MYB</a>–<a href="../genes/NFIB.html">NFIB</a> enhancer hijacking</strong> — A chromoplexy event involving chromosomes 6, 9, and 18 localized an <a href="../genes/NFIB.html">NFIB</a> enhancer to the <a href="../genes/MYB.html">MYB</a> locus in an <a href="../cancer_types/ACYC.html">adenoid cystic carcinoma</a> patient (H133676) without informative clinical sequencing findings; RNA-seq confirmed <a href="../genes/MYB.html">MYB</a> overexpression. MYB fusions are detected by conventional assays in only 30% of <a href="../cancer_types/ACC.html">ACC</a> cases.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a></strong> — Concomitant amplification and overexpression in two patients (H135462 and H195916) without clinical biomarkers by panel testing; the amplification was not detected by MSK-IMPACT, pointing to lower copy-number sensitivity of panel assays.</li>
+<li><strong><a href="../genes/KBTBD4.html">KBTBD4</a> p.R313_M314insPRR</strong> — Disease-defining mutation in a pineal parenchymal tumor of intermediate differentiation (<a href="../cancer_types/PPTID.html">PPTID</a>).</li>
+<li><strong><a href="../genes/SETBP1.html">SETBP1</a> p.D868N</strong> — Somatic mutation identified in a germ cell tumor.</li>
+<li><strong><a href="../genes/SIX1.html">SIX1</a> p.Q177R</strong> — Mutation in a Wilms tumor.</li>
+<li><strong><a href="../genes/SBDS.html">SBDS</a></strong> splice-site c.258+2T&gt;C — Germline finding in a rhabdomyosarcoma.</li>
+<li>**<a href="../genes/BARD1.html">BARD1</a> p.E652fs*69** — Germline in a neuroblastoma.</li>
+<li>**<a href="../genes/EP300.html">EP300</a> p.A2259fs*20<strong> and </strong><a href="../genes/EXT2.html">EXT2</a> p.W414*** — Germline variants in two osteosarcoma patients.</li>
+<li><strong><a href="../genes/MUTYH.html">MUTYH</a></strong> — Pathogenic germline variant in neuroblastoma patient H135421 (c.924+3A&gt;C) with somatic LOH; 42% of the tumor’s mutations were attributed to the SBS36 <a href="../genes/MUTYH.html">MUTYH</a> signature.</li>
+<li><strong><a href="../genes/PMS2.html">PMS2</a></strong> — Pathogenic germline c.538-1G&gt;C in immature teratoma patient H135466 with LOH; tumor was MSI-high (TMB=11.23, 90,246 indels, 17,840 SNVs, 44 SVs) with PMS2-associated repeat-mediated indels and SBS26 enrichment. A separate osteosarcoma patient (H201472) with a likely-pathogenic <a href="../genes/PMS2.html">PMS2</a> p.D699H was identified through cWGTS-driven recognition of an MSI-high hypermutated genome (TMB=16.7, 31,520 SNVs, 89,588 indels, 568 SVs), prompting germline testing — MSK-IMPACT had reported only an indeterminate MSI score (7.5).</li>
+<li><strong>Fusion genes (8 novel/incremental, RNA + WGS support):</strong>
+<ul>
+<li><strong><a href="../genes/PAX3.html">PAX3</a>–<a href="../genes/FOXO3.html">FOXO3</a></strong> — t(2;6) translocation reclassifying an <a href="../cancer_types/ERMS.html">ERMS</a> patient as <a href="../cancer_types/ARMS.html">ARMS</a> (H134768); methylation tSNE clustered the patient with <a href="../cancer_types/ARMS.html">ARMS</a> samples.</li>
+<li><strong><a href="../genes/UACA.html">UACA</a>–<a href="../genes/LTK.html">LTK</a></strong> — Metastatic papillary thyroid carcinoma (<a href="../cancer_types/THPA.html">THPA</a>).</li>
+<li><strong><a href="../genes/SH3PXD2A.html">SH3PXD2A</a>–<a href="../genes/HTRA1.html">HTRA1</a></strong> — Pathognomonic fusion establishing a schwannoma (<a href="../cancer_types/SCHW.html">SCHW</a>) diagnosis in a patient evaluated for relapsed stage-IV neuroblastoma.</li>
+<li><strong><a href="../genes/NTRK3.html">NTRK3</a>–<a href="../genes/SLMAP.html">SLMAP</a></strong> — Activating <a href="../genes/NTRK3.html">NTRK3</a> fusion in a neuroblastoma patient, a therapeutic target for TRK inhibitors.</li>
+<li><strong><a href="../genes/EPC2.html">EPC2</a>–<a href="../genes/AFF3.html">AFF3</a></strong> and <strong><a href="../genes/MAN1A2.html">MAN1A2</a>–<a href="../genes/ACBD6.html">ACBD6</a></strong> — Undescribed fusions in two undifferentiated sarcoma patients.</li>
+<li><strong><a href="../genes/CITED2.html">CITED2</a>–<a href="../genes/MGA.html">MGA</a></strong> — Undescribed fusion in a round-cell sarcoma NOS.</li>
+</ul></li>
+<li><strong><a href="../genes/SS18.html">SS18</a>–<a href="../genes/SSX1.html">SSX1</a>/<a href="../genes/SSX2.html">SSX2</a></strong> — cWGTS reclassified an MSK-Fusion call of SS18-SSX1 as SS18-SSX2 (supported by spanning reads in WGS) in a synovial sarcoma case.</li>
+<li><strong>Other amplifications driven by chromothripsis:</strong> Recurrent <a href="../genes/MYC.html">MYC</a>, <a href="../genes/VEGFA.html">VEGFA</a>, and <a href="../genes/MDM2.html">MDM2</a> amplifications co-occurring with chromothripsis-mediated TP53 loss (10/29).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>One integrated test can replace multiple targeted assays</strong> in pediatric / rare cancer care: cWGTS captures the same clinically reported variants as <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>, <a href="../methods/msk-fusion.html">MSK-Fusion</a>, and 88-gene germline panels with comparable sensitivity at 5–10× lower depth.</li>
+<li><strong>Operational benchmarks for clinical adoption:</strong> ≥80× WGS depth, ≥20% tumor purity, and 9-day turnaround are achievable in a comprehensive cancer center with dedicated laboratory, computational, and tumor-board infrastructure.</li>
+<li><strong>Diagnostic reclassifications</strong> — cWGTS-detected fusions (PAX3-FOXO3, SH3PXD2A-HTRA1) changed final histopathologic diagnosis with direct treatment implications.</li>
+<li><strong>Therapy-informing additions</strong> — <a href="../genes/NTRK3.html">NTRK3</a> fusions enabling TRK inhibitor consideration; high fusion/SV burden identifying immunotherapy-responsive carcinoma patients (CR on <a href="../drugs/nivolumab.html">nivolumab</a>+<a href="../drugs/ipilimumab.html">ipilimumab</a> and on <a href="../drugs/pembrolizumab.html">pembrolizumab</a>); <a href="../genes/KRAS.html">KRAS</a> amplification missed by panel testing.</li>
+<li><strong>Prognostic risk stratification</strong> — <a href="../genes/TERT.html">TERT</a> and ATRX SV detection in neuroblastoma, detectable only by WGS, refines risk groups currently estimated from panel data.</li>
+<li><strong>Germline reclassification via signatures</strong> — integrating somatic mutation signatures (SBS36 for <a href="../genes/MUTYH.html">MUTYH</a>, SBS26 for <a href="../genes/PMS2.html">PMS2</a>) with germline variant calls disambiguates VUS from pathogenic variants and triggers cascade family screening.</li>
+<li><strong>TP53 SVs as a missed inclusion criterion</strong> — Wild-type TP53 is an enrollment criterion for p53-modulating drug trials; osteosarcoma patients with TP53 SVs would be erroneously classified as TP53 wild type by panel sequencing, with implications for trial eligibility and treatment selection.</li>
+<li><strong>Treatment-related signatures</strong> — TMB was higher in therapy-exposed than treatment-naive samples (Mann–Whitney p=1.892e-04) and correlated with platinum and <a href="../drugs/temozolomide.html">temozolomide</a> signatures in 45/114 patients, evidence of persistent clones surviving prior therapy.</li>
+<li><strong>Liquid biopsy potential</strong> — cfDNA WGS offers a tumor-agnostic alternative for patients without adequate FF biopsy, recapitulating the full cancer genomic landscape when ctDNA content is sufficient.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>FF biopsy requirement</strong> — The validated workflow depends on fresh-frozen tumor with ≥20% purity, restricting access for patients with only FFPE or insufficient biopsy material; WGS in FFPE retains a high genome-wide error rate.</li>
+<li><strong>Cohort size and disease mix</strong> — 114 patients across many disease entities limits per-disease statistical power; reported per-tumor-type frequencies (e.g., <a href="../genes/DLG2.html">DLG2</a> SVs in neuroblastoma) are hypothesis-generating and warrant validation in larger pediatric/rare-cancer cohorts.</li>
+<li><strong>SV / fusion burden as an immunotherapy biomarker</strong> — Two responding carcinoma patients are anecdotal; the authors explicitly call out the need for systematic evaluation of SV and fusion burden as biomarkers of immune-checkpoint blockade response.</li>
+<li><strong>Expression biomarkers</strong> — Only 8% of aberrant expression biomarkers were associated with an acquired SV or fusion, leaving the clinical utility of expression-only biomarkers largely unvalidated in this design.</li>
+<li><strong>cfDNA WGS validation</strong> — n=7 proof-of-concept paired samples; analytical validation, ctDNA-content thresholds, and tumor-agnostic variant prioritization pipelines for cfDNA WGS remain to be established at scale.</li>
+<li><strong>Cost and infrastructure</strong> — Sub-2-week turnaround and ≥80× WGS depth at scale require dedicated bioinformatics infrastructure (Isabl platform, reserved HPC nodes, biweekly molecular tumor board), which may not be transferable to community practice without further automation.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“comprehensive cWGTS results in 9 days … oncogenic findings reported in 54% more patients than standard of care” (abstract).</li>
+<li>“Of 221 somatic mutations reported by MSK-IMPACT, 174 (79%) were called in WGS … Variants called by both assays … high concordance (r²=0.75) in VAF estimates” (Concordance analysis).</li>
+<li>“concordance between WGS and MSK-IMPACT is at least 94% (43/47 total discordant) and up to 100% for all 43 mutations in evaluable samples when the same DNA aliquot was used in both assays” (Concordance analysis).</li>
+<li>“&gt;91% were captured at 30–40× and &gt;98% were recalled at 60–100× … Optimal sensitivity for genome-wide mutation calling across variant classes was attained at ≥80×” (Optimal depth).</li>
+<li>“cWGTS analyses identified at least one additional cancer-associated oncogenic variant in 54% of patients (n=62). Of these, 33 patients had one or more findings that were of direct clinical relevance, including 7 diagnostic (21%), 15 prognostic (45%), 5 therapy-informing (15%), 5 previously undescribed oncofusions (15%), and 6 germline (18%) biomarkers” (Findings detected by cWGTS only).</li>
+<li>“cWGTS mapped events in TERT and ATRX in 8 (28%) and 5 (17%) neuroblastoma patients, respectively … The TERT SVs could only be identified by cWGTS, and only ¼ of the ATRX deletions were reported by MSK-IMPACT” (SVs targeting tumor suppressors).</li>
+<li>“among 29 osteosarcoma patients, we identified TP53 mutations in 12 and mapped noncoding SVs targeting the TP53 locus in 13. Of these, only 3 were reported by MSK-IMPACT … TP53 SVs correlated with loss of TP53 expression … (two-sided Mann–Whitney U test, p=1.645e-03)” (TP53 in <a href="../cancer_types/OS.html">OS</a>).</li>
+<li>“H135022 was treated with checkpoint blockade (nivolumab/ipilimumab), resulting in complete response after three cycles of therapy, and is disease-free 26 months after therapy cessation … patient H135462 was treated with <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, achieved a complete response after 6 cycles, and remains disease-free 10 months after therapy” (Immune checkpoint cases).</li>
+<li>“TMB was higher in therapy-exposed compared with treatment-naive patient samples (0.1–11.2 in treated vs 0–2.7 treatment-naive, Mann–Whitney test, p=1.892e-04)” (TMB and treatment exposure).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35585047.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35585047.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

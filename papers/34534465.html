@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Proteogenomic Characterization of Pancreatic Ductal Adenocarcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/34534465.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/34534465.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proteogenomic Characterization of Pancreatic Ductal Adenocarcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Cao L </p>
+             <p>Huang C </p>
+             <p>Cui Zhou DC </p>
+             <p>Hu Y </p>
+             <p>Lih TM </p>
+             <p>Savage SR </p>
+             <p>Krug K </p>
+             <p>Clark DJ </p>
+             <p>Schnaubelt M </p>
+             <p>Chen L </p>
+             <p>et al. </p>
+             <p>Ding L </p>
+             <p>Zhang B </p>
+             <p>Zhang H </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2021.08.023">10.1016/j.cell.2021.08.023</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 34534465 · <strong>DOI:</strong> 10.1016/j.cell.2021.08.023 · <strong>Journal:</strong> Cell (2021)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The CPTAC consortium performed integrated proteogenomic characterization of 140 treatment-naive pancreatic cancers (135 PDACs + 5 adenosquamous), 67 paired normal adjacent tissues (NATs), and 9 macrodissected normal pancreatic ductal tissues using WES, WGS, RNA-seq, miRNA-seq, DNA methylation, TMT proteomics, phosphoproteomics, and glycoproteomics. <a href="../genes/KRAS.html">KRAS</a> alterations were detected in 97% of tumors. After filtering to 105 tumors with sufficient neoplastic cellularity (KRAS VAF ≥ 0.075), the authors mapped genomic alterations to functional protein/phospho/glyco effects, identified candidate early-detection biomarkers and glycoprotein/kinase therapeutic targets, characterized an “immune-cold” subtype driven by endothelial remodeling and glycolysis, and defined two proteogenomic subtypes (C1 classical, C2 basal-like) with stronger prognostic separation than the Moffitt RNA-only subtypes (CoxPH HR 3.4 vs 2.3).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>140 treatment-naive pancreatic tumors</strong> (135 PDAC + 5 pancreatic adenosquamous carcinomas; <a href="../cancer_types/PAAD.html">PAAD</a>, <a href="../cancer_types/PAASC.html">PAASC</a>), 67 paired NATs, and 9 normal macrodissected pancreatic ductal tissues; cohort = <a href="../datasets/paad_cptac_2021.html">paad_cptac_2021</a>.</li>
+<li>Prospectively collected from multiple international source sites with controlled ischemia time; 75% of resected tumors from pancreatic head; 59% Stage I–II, 9 Stage IV; 42% alive at data freeze. Risk-factor prevalence: smoking 37%, chronic pancreatitis 22%, obesity 11%, type II diabetes 28%.</li>
+<li><strong>8 omics layers</strong> on the same tissue portion: <a href="../methods/whole-exome-seq.html">whole-exome-seq</a>, <a href="../methods/whole-genome-seq.html">whole-genome-seq</a>, <a href="../methods/rna-seq.html">rna-seq</a>, <a href="../methods/mirna-seq.html">mirna-seq</a>, <a href="../methods/dna-methylation-array.html">dna-methylation-array</a>, <a href="../methods/tmt-proteomics.html">tmt-proteomics</a>, <a href="../methods/tmt-phosphoproteomics.html">tmt-phosphoproteomics</a>, and N/O-linked glycoproteomics (via <a href="../methods/lc-ms-ms-proteomics.html">lc-ms-ms-proteomics</a>).</li>
+<li>Quantification yields: 28,057 genes (RNA), 2,416 miRNAs, 850,000 CpG sites, 11,662 proteins (8,781/sample), 51,469 phosphosites (25,764/sample), 34,024 glycopeptides (30,660 N-linked + 3,364 O-linked).</li>
+<li>Subtyping/deconvolution used <a href="../methods/xcell.html">xcell</a>, DNA-methylation deconvolution, <a href="../methods/nmf-clustering.html">nmf-clustering</a>, and <a href="../methods/gsea.html">gsea</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>KRAS landscape.</strong> <a href="../genes/KRAS.html">KRAS</a> alterations in 97% of 140 tumors (96% hotspot mutations + 1 amplification); G12D, G12V, and G12R were the dominant hotspots. <a href="../genes/TP53.html">TP53</a> altered in 83%, <a href="../genes/CDKN2A.html">CDKN2A</a> in 48% (CNV-driven; more focal deletions than intragenic mutations), <a href="../genes/SMAD4.html">SMAD4</a> in 29% of the 105 high-cellularity tumors.</li>
+<li><strong>Additional SMGs (&gt;5% of tumors):</strong> <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/GNAS.html">GNAS</a>, <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, <a href="../genes/RBM10.html">RBM10</a>.</li>
+<li><strong>Cellularity gating.</strong> 105/140 samples passed neoplastic-purity QC (KRAS VAF ≥ 0.075, equivalent to ≥15% neoplastic cellularity, or significant mutation burden + CNVs); 4 KRAS-WT tumors were retained based on other SMG alterations. KRAS VAF correlated with DNA-methylation deconvolution at Spearman r = 0.81.</li>
+<li><strong>RNA-protein correlation</strong> median 0.35 across tumors (0.36 tumor-only, 0.26 NAT-only), consistent with prior CPTAC tissue types.</li>
+<li><strong>Genomic-to-proteomic trans-effects.</strong> <a href="../genes/TP53.html">TP53</a> mutations had the largest trans-effect footprint, with elevated phosphorylation of DNA-damage-repair proteins (<a href="../genes/MSH6.html">MSH6</a>, TP53, <a href="../genes/TP53BP1.html">TP53BP1</a>) and the proliferation marker MKI67-S1376. <a href="../genes/SMAD4.html">SMAD4</a> mutations down-regulated <a href="../genes/SERPINE1.html">SERPINE1</a> RNA/protein and up-regulated <a href="../genes/MAPK3.html">MAPK3</a> + E2F4 phosphorylation. <a href="../genes/SMAD4.html">SMAD4</a> deletions raised phospho-HDAC1 (S406/S410/S421), phospho-<a href="../genes/SMARCA4.html">SMARCA4</a> S613, and phospho-CREBBP S274; <a href="../genes/CDKN2A.html">CDKN2A</a> deletions raised phospho-<a href="../genes/NPM1.html">NPM1</a> S70/S214. <a href="../genes/RBM10.html">RBM10</a> mutations showed a cis-effect increasing cognate mRNA/protein/phospho levels.</li>
+<li><strong>Epigenetics.</strong> 86 epigenetically silenced genes identified (22 also reported by TCGA); two (ZNF544, THNSL2) silenced in &gt;10% of tumors and associated with patient survival. Two methylation clusters (M1, M2) identified.</li>
+<li><strong>Early-detection candidates.</strong> 27 proteins remained &gt; 2-fold up-regulated in PDAC vs NAT after stromal/immune adjustment; 21 also &gt; 2-fold up vs normal ductal tissue and similarly elevated in early-stage tumors. 12 are secreted (serum/pancreatic-juice candidates). Examples include <a href="../genes/THBS2.html">THBS2</a>, LAMC2, <a href="../genes/LOXL2.html">LOXL2</a> (associated with shorter overall survival), <a href="../genes/HK2.html">HK2</a>, COL12A1, C19orf33, TSPAN1, MDK, SDR16C5, ANKRD22; the authors are first to report elevated <a href="../genes/GSDMB.html">GSDMB</a> and <a href="../genes/LECT2.html">LECT2</a> in PDAC. 14/21 validated by orthogonal DIA mass spectrometry.</li>
+<li><strong>Glycoproteomics.</strong> 75 N-linked glycoproteins upregulated &gt; 2-fold in tumors (48/75 DIA-validated); 18 were newly identified. Mucin-type O-linked glycoproteins <a href="../genes/MUC1.html">MUC1</a>, <a href="../genes/MUC3A.html">MUC3A</a>, <a href="../genes/MUC5AC.html">MUC5AC</a>, MUC5B, <a href="../genes/MUC13.html">MUC13</a>, <a href="../genes/MUC16.html">MUC16</a> were significantly up-regulated, including in early-stage tumors. <a href="../genes/CEACAM5.html">CEACAM5</a> and <a href="../genes/CEACAM6.html">CEACAM6</a> were upregulated in tumors with KRAS G12D, G12V, and Q61H — but not G12R — mutations.</li>
+<li><strong>Glycosylation enzyme dysregulation.</strong> <a href="../genes/ST6GAL1.html">ST6GAL1</a>, <a href="../genes/ST3GAL1.html">ST3GAL1</a>, <a href="../genes/FUT3.html">FUT3</a>, <a href="../genes/FUT11.html">FUT11</a>, <a href="../genes/B4GALT1.html">B4GALT1</a>, <a href="../genes/B4GALT4.html">B4GALT4</a>, B3GALT5, ST6GALNAC1 were elevated in PDAC vs NAT; FUT3/FUT11/B4GALT1/B4GALT4 validated by DIA. ST6GAL1/ST3GAL1/B4GALT1 elevation was protein-specific (not seen at the transcript level), supporting sialyl/fucosyltransferase inhibition as a therapeutic hypothesis.</li>
+<li><strong>Kinase-substrate signaling.</strong> Five kinase-substrate axes with FDA-approved or investigational inhibitors were identified across 41 tumor/NAT pairs: <a href="../genes/CDK7.html">CDK7</a>–<a href="../genes/MCM2.html">MCM2</a>, <a href="../genes/AKT1.html">AKT1</a>–<a href="../genes/FLNA.html">FLNA</a>, <a href="../genes/PAK1.html">PAK1</a>–<a href="../genes/BAD.html">BAD</a> (S134), <a href="../genes/PAK2.html">PAK2</a>–<a href="../genes/MAPK6.html">MAPK6</a> (S189), <a href="../genes/SRC.html">SRC</a>–<a href="../genes/STAT3.html">STAT3</a>. <a href="../genes/PAK1.html">PAK1</a> elevated in &gt;70% and <a href="../genes/PAK2.html">PAK2</a> in ~90% of tumors; concordant up-regulation of <a href="../genes/MET.html">MET</a> with <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/RAC1.html">RAC1</a>, PAK1, PAK2 was observed. 19 kinases stratified by KRAS hotspot, including 7 FDA-approved drug targets.</li>
+<li><strong>Immune subtyping (all 140 samples).</strong> xCell-based deconvolution into 4 clusters (A–D). Cluster D = “immune hot” (high CD8+ T-cell infiltration, cytotoxic enzymes, immune checkpoint molecules; only ~6% of tumors, with one case explained by lymph-node contamination). Clusters B and C are “immune-cold” tumors (cluster A enriched with non-neoplastic acinar/islet cells). Immune-hot tumors were also enriched for endothelial cells; immune-cold tumors had reduced endothelial-adhesion proteins, elevated VEGF and hypoxia pathway activity, increased glycolysis (GAPDH, PGAM1, ENO1 phosphorylation), and elevated phosphorylation of cell-junction proteins.</li>
+<li><strong>Proteogenomic subtyping (105 high-purity tumors).</strong> NMF on CNV + mRNA + protein + phosphosite + glycosite revealed two clusters: C1 (proteogenomic classical; pancreas beta-cell, bile-acid/fatty-acid metabolism, KRAS-signaling suppression) and C2 (proteogenomic basal-like; EMT, DNA repair, glycolysis, hypoxia, apoptosis, ROS, proliferation/signaling). Subtypes overlap Moffitt classical/basal-like but reclassify 22/97 tumors. <strong>Proteogenomic-dichotomized subtypes had stronger prognostic separation than Moffitt RNA-only (CoxPH HR 3.4 vs 2.3).</strong> C1 enriched for SMAD4 mutations; C2 enriched for higher MTOR/MAP3K2/MAP4K4/MET expression and TGF-β signaling. DSigDB GSEA associated chemotherapeutic-drug signatures (<a href="../drugs/docetaxel.html">docetaxel</a>, <a href="../drugs/vinblastine.html">vinblastine</a>, cabazitaxel) with C1 and kinase-inhibitor signatures (PP-242/mTOR, CP466722/ATM-ATR, sunitinib/PDGFR-VEGFR) with C2.</li>
+<li><strong>Survival associations.</strong> CD8+ T-cell infiltration was favorable; elevated VEGF and hypoxia pathway signaling both associated with decreased survival. C1 correlated with longer survival and tumor-free status; C2 correlated with tumor necrosis and Stage IV status (persisted after excluding Stage IV tumors). 392 proteins and 258 phosphosites carried significant prognostic value (CoxPH adj. p &lt; 0.15).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/KRAS.html">KRAS</a> — 97% prevalence in this PDAC cohort; G12D/G12V/G12R hotspot dominance; G12C present in &lt;1% of PDACs (relevant to <a href="../drugs/adagrasib.html">adagrasib</a>/MRTX849 and <a href="../drugs/sotorasib.html">sotorasib</a> targeting). Drives <a href="../genes/AKT1.html">AKT1</a> and PAK1/PAK2 signaling axes.</li>
+<li><a href="../genes/TP53.html">TP53</a> — altered in 83% of high-purity tumors; missense mutations show cis-effect on TP53 protein and TP53-S315 phosphosite; both missense and truncating alterations show trans-effects on MKI67-S1376, MSH6-S219, TP53BP1-S321.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — altered in 48% (CNV-driven focal deletions &gt; intragenic mutations); deletions raise phospho-NPM1 S70/S214.</li>
+<li><a href="../genes/SMAD4.html">SMAD4</a> — altered in 29% (more frequent in C1 subtype); downregulates <a href="../genes/SERPINE1.html">SERPINE1</a> mRNA/protein; deletions raise phospho-HDAC1 (S406/S410/S421), phospho-SMARCA4 S613, phospho-CREBBP S274.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/GNAS.html">GNAS</a>, <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, <a href="../genes/RBM10.html">RBM10</a> — each altered in ≥5% of tumors.</li>
+<li><a href="../genes/GATA6.html">GATA6</a> — focal amplification identified among arm-level/focal CNVs (9p, 11q, 18q, 22q amps; <a href="../genes/CDKN2A.html">CDKN2A</a> del).</li>
+<li><a href="../genes/PAK1.html">PAK1</a> / <a href="../genes/PAK2.html">PAK2</a> — elevated in &gt;70% and ~90% of tumors respectively; downstream effectors of KRAS via <a href="../genes/RAC1.html">RAC1</a>; combined PAK1/2 + MAPK-ERK/PI3K-AKT-mTOR inhibition proposed.</li>
+<li><a href="../genes/MET.html">MET</a> — concordantly upregulated with KRAS/RAC1/PAK1/PAK2 at RNA and protein levels.</li>
+<li><a href="../genes/CEACAM5.html">CEACAM5</a>, <a href="../genes/CEACAM6.html">CEACAM6</a> — upregulated specifically in KRAS G12D/G12V/Q61H tumors (not G12R); <a href="../genes/CEACAM6.html">CEACAM6</a> overexpression linked to <a href="../drugs/gemcitabine.html">gemcitabine</a> resistance and low cytolytic T-cell activity.</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a> — referenced as germline-mutation context for PARP-inhibitor therapy in PDAC.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Early detection biomarkers.</strong> 12 secreted proteins (subset of the 21 PDAC-vs-normal up-regulated set) are candidate serum/pancreatic-juice early-detection markers, including <a href="../genes/THBS2.html">THBS2</a>, LAMC2, <a href="../genes/LOXL2.html">LOXL2</a>, <a href="../genes/GSDMB.html">GSDMB</a>, <a href="../genes/LECT2.html">LECT2</a>. 14/21 validated by DIA mass spectrometry. Mucin glycoproteins (<a href="../genes/MUC1.html">MUC1</a>, <a href="../genes/MUC5AC.html">MUC5AC</a>, <a href="../genes/MUC13.html">MUC13</a>) and <a href="../genes/LGALS3BP.html">LGALS3BP</a> enriched even in early-stage tumors.</li>
+<li><strong>KRAS hotspot-stratified therapy.</strong> Anti-CEACAM5/6 monoclonal antibodies (e.g., preclinical MN-15, MN-3) coupled with first-line chemotherapy proposed for KRAS G12D/G12V/Q61H tumors based on selective CEACAM5/6 upregulation in these hotspots.</li>
+<li><strong>KRAS-downstream targeting.</strong> <a href="../drugs/adagrasib.html">adagrasib</a> (MRTX849) and analogous KRAS-G12C inhibitors apply to &lt;1% of PDACs; for the broader cohort the authors propose combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors as a strategy to target KRAS-driven signaling.</li>
+<li><strong>Glycosylation-enzyme inhibition.</strong> Sialyl-/fucosyltransferase inhibition (targeting <a href="../genes/ST6GAL1.html">ST6GAL1</a>, <a href="../genes/ST3GAL1.html">ST3GAL1</a>, <a href="../genes/FUT3.html">FUT3</a>, <a href="../genes/FUT11.html">FUT11</a>, <a href="../genes/B4GALT1.html">B4GALT1</a>) proposed as therapeutic strategy; FUT3 upregulation in C1 subtype suggests subtype-tailored glycan-capping blockade. Authors caution that systemic sialylation blockade (e.g., 3F-NeuAc) caused liver/kidney toxicity in mouse models.</li>
+<li><strong>Immune-cold biology.</strong> Antiangiogenic therapy (<a href="../drugs/sorafenib.html">sorafenib</a>, NGR-TNF) and HIF-1 inhibition proposed to normalize endothelial cells and promote immune infiltration in immune-cold PDACs. Immune checkpoint blockade remains effective only for MSI-H tumors (&lt;2% of PDACs).</li>
+<li><strong>Subtype-directed treatment.</strong> <a href="../drugs/sunitinib.html">sunitinib</a> (PDGFR/VEGFR) and PP-242/mTOR-axis inhibitors enriched in C2 (basal-like) drug signatures; chemotherapeutics (<a href="../drugs/docetaxel.html">docetaxel</a>, <a href="../drugs/vinblastine.html">vinblastine</a>, cabazitaxel) enriched in C1 (classical) drug signatures.</li>
+<li><strong>Prognosis.</strong> Proteogenomic subtyping refines Moffitt classical/basal-like assignments and yields stronger prognostic separation (HR 3.4 vs 2.3). <a href="../genes/LOXL2.html">LOXL2</a> protein abundance associated with shorter <a href="../cancer_types/OS.html">OS</a>; an APOD N-linked glycosite, two PIGR phosphosites, and an <a href="../genes/ERRFI1.html">ERRFI1</a> phosphosite carry prognostic signal independent of protein abundance.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>All tissues are <strong>treatment-naive and surgically resected</strong> (CPTAC protocol), limiting extrapolation to metastatic disease treated with systemic therapy; adjuvant regimens were non-standardized across institutions.</li>
+<li>Findings are <strong>correlative</strong> — causal effects cannot be inferred without cell-line, PDX, or clinical-trial validation; the tumors profiled were not used to generate PDX models.</li>
+<li><strong>Bulk-tissue</strong> measurements; heterogeneity in cellularity and microenvironment partially addressed by KRAS-VAF/methylation/RNA-based purity filtering and by including 9 normal ductal macrodissections, but LCM or single-cell follow-up would be beneficial.</li>
+<li>One immune-hot case (C3N-00303) was driven by inadvertent lymph-node inclusion, underscoring the necessity of histologic review.</li>
+<li>Therapeutic hypotheses for sialyl-/fucosyltransferase inhibition face on-target toxicity concerns based on prior mouse work; selective inhibitors not yet developed.</li>
+<li>Clinical-trial data linking proteogenomic subtypes to treatment outcomes remain limited because most trials generate only transcriptomic data.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“140 treatment-naive pancreatic tumors (135 PDACs and 5 pancreatic adenosquamous carcinomas), 67 paired NATs, and 9 normal pancreatic duct tissues were collected and homogenized via cryopulverization” (Results, Proteogenomic Landscape).</li>
+<li>“KRAS alterations were detected in 97% of tumors (96% hotspot driver KRAS mutations and one KRAS amplification event)” (Results, Proteogenomic Landscape).</li>
+<li>“we identified 105 samples with sufficient neoplastic purity based on … a minimum KRAS variant allele fraction (VAF) greater than or equal to a cutoff of 0.075 (equivalent to 15% neoplastic cellularity)” (Results, Proteogenomic Landscape).</li>
+<li>“genomic alterations were detected in known pancreatic cancer driver genes, KRAS, TP53, CDKN2A, and SMAD4, at rates of 97%, 83%, 48%, and 29%, respectively” (Results, Impact of Genomic Alterations).</li>
+<li>“Aside from these four major SMGs, we also detected <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/GNAS.html">GNAS</a>, <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, and <a href="../genes/RBM10.html">RBM10</a> alterations in at least 5% of the tumors” (Results, Impact of Genomic Alterations).</li>
+<li>“the proteogenomics-dichotomized subtypes showed stronger prognostic separation than the Moffitt-dichotomized subtypes (CoxPH HR 3.4 vs 2.3 comparing favorable to adverse survival)” (Results, Proteogenomic Subtypes).</li>
+<li>“<a href="../genes/CEACAM5.html">CEACAM5</a> and CEACAM6 were significantly upregulated in tumors with KRAS G12D, G12V, and Q61H, but not G12R, mutations” (Results, Targeting Glycoprotein Biosynthesis).</li>
+<li>“we stratified five phospho-substrates (<a href="../genes/MCM2.html">MCM2</a>, FLNA, <a href="../genes/BAD.html">BAD</a>, MAPK6, and <a href="../genes/STAT3.html">STAT3</a>) corresponding to five kinases (<a href="../genes/CDK7.html">CDK7</a>, AKT1, PAK1, PAK2, and <a href="../genes/SRC.html">SRC</a>), for which inhibitors are either FDA-approved or under investigation” (Results, Kinase and Substrate Co-regulation).</li>
+<li>“tumor-associated proteins highlighted … as potential protein targets for early detection or prognostic markers were validated by … data-independent acquisition (DIA) mass spectrometry analysis” (Results, Specific Molecular Features of Early Stage PDAC).</li>
+<li>“MRTX849, which has been approved for mutant KRAS G12C that is only present in &lt;1% of PDACs” (Discussion).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/34534465.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/34534465.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

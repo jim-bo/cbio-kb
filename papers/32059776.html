@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Proteogenomic Characterization of Endometrial Carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32059776.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32059776.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proteogenomic Characterization of Endometrial Carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yongchao Dou </p>
+             <p>Emily A. Kawaler </p>
+             <p>Daniel Cui Zhou </p>
+             <p>Marina A. Gritsenko </p>
+             <p>Chen Huang </p>
+             <p>Lili Blumenberg </p>
+             <p>Alla Karpova </p>
+             <p>Vladislav A. Petyuk </p>
+             <p>Sara R. Savage </p>
+             <p>Shankha Satpathy </p>
+             <p>Wenke Liu </p>
+             <p>Yige Wu </p>
+             <p>Karin D. Rodland </p>
+             <p>Li Ding </p>
+             <p>Bing Zhang </p>
+             <p>Tao Liu </p>
+             <p>David Fenyö </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2020.01.026">10.1016/j.cell.2020.01.026</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 32059776 · <strong>DOI:</strong> 10.1016/j.cell.2020.01.026 · <strong>Journal:</strong> Cell (2020)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Dou et al.&nbsp;report the CPTAC proteogenomic characterization of 95 prospectively collected endometrial carcinomas (83 endometrioid, 12 serous) integrating whole-exome, whole-genome, total and miRNA RNA-seq, DNA methylation, global proteomics, phosphoproteomics, and acetylproteomics. Tumors were classified into the four TCGA-defined genomic subtypes (<a href="../genes/POLE.html">POLE</a>, MSI, CNV-low, CNV-high). The study uncovers (i) mutation-type-specific cis/trans effects of <a href="../genes/TP53.html">TP53</a> and <a href="../genes/CTNNB1.html">CTNNB1</a> on the proteome and phosphoproteome, (ii) coupling between Wnt signaling and histone acetylation through BRD3/SIRT1, (iii) a <a href="../genes/QKI.html">QKI</a>/circRNA/<a href="../genes/ESRP2.html">ESRP2</a> regulatory axis controlling EMT, and (iv) APM (antigen processing and presentation machinery) deficiency — including microsatellite-indel-derived <a href="../genes/JAK1.html">JAK1</a> truncation mutations — as a potential immune-evasion mechanism that complements TMB for immunotherapy patient selection in EC.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>95 prospectively collected endometrial carcinoma (EC) tumors and 49 normal tissue samples from the CPTAC project, biospecimens collected April 2016–May 2017.</li>
+<li>Histology: 83 endometrioid and 12 serous tumors. Genomic subtype distribution: 7 <a href="../genes/POLE.html">POLE</a>, 25 MSI, 43 CNV-low (endometrioid-like), 20 CNV-high (serous-like).</li>
+<li>Cancer types: <a href="../cancer_types/UCEC.html">UCEC</a> (overall), with <a href="../cancer_types/UEC.html">UEC</a> endometrioid and <a href="../cancer_types/USC.html">USC</a> serous histotypes. The CNV-high subtype contains all serous samples plus the most aggressive endometrioid tumors.</li>
+<li>Dataset / cohort: <a href="../datasets/ucec_cptac_2020.html">ucec_cptac_2020</a>.</li>
+<li>Assays: <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> (Illumina HiSeq4000, paired 76-cycle, min 150× on-target, hg38), PCR-free <a href="../methods/whole-genome-seq.html">whole-genome-seq</a> (HiSeqX, min 15× coverage, 151 bp paired-end), total and miRNA <a href="../methods/rna-seq.html">rna-seq</a> (<a href="../methods/mirna-seq.html">mirna-seq</a>), Illumina Infinium MethylationEPIC BeadChip (<a href="../methods/epic-methylation-array.html">epic-methylation-array</a>, &gt;850,000 CpG sites), isobaric 10-plex TMT-based global <a href="../methods/tmt-proteomics.html">tmt-proteomics</a> and <a href="../methods/tmt-phosphoproteomics.html">tmt-phosphoproteomics</a> (IMAC enrichment) plus genome-wide acetylproteomics (PTMScan Acetyl-Lysine Motif IAP), run at the PNNL Proteomic Characterization Center under a 1% protein-level FDR cutoff.</li>
+<li>Data availability: Genomic Data Commons (GDC), CPTAC Data Portal, the <code>cptac</code> Python package, and LinkedOmics.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation burden by subtype.</strong> Roughly 61% of all somatic mutations were found in the 7 <a href="../genes/POLE.html">POLE</a> tumors (n = 32,340; 32,188 point mutations and 152 indels), 5 of which harbored the recurrent hotspot mutation P286R in the catalytic subunit of DNA polymerase epsilon. MSI tumors carried 88% of all indels (n = 5,061).</li>
+<li><strong>Significantly mutated genes in MSI tumors.</strong> Microsatellite-indel focused analysis revealed higher mutation rates than previously reported for <a href="../genes/PTEN.html">PTEN</a> (92%), <a href="../genes/ARID1A.html">ARID1A</a> (76%), and <a href="../genes/RPL22.html">RPL22</a> (64%) — all FDR = 0. Three putative SMGs were newly identified in the MSI subtype: <a href="../genes/INPPL1.html">INPPL1</a> (56%, FDR = 0), <a href="../genes/KMT2B.html">KMT2B</a> (56%, FDR = 0.001), and <a href="../genes/JAK1.html">JAK1</a> (44%, FDR = 6.4e-07).</li>
+<li><strong>CNV landscape.</strong> Genes frequently altered by copy number variation — <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/CCNE1.html">CCNE1</a>, <a href="../genes/FGFR3.html">FGFR3</a>, and <a href="../genes/IGF1R.html">IGF1R</a> — overlapped substantially with TCGA findings.</li>
+<li><strong>Driver-mutation proteomic impact.</strong> Across 18 SMGs studied, 7 had cis and 6 had trans effects on protein/phosphoprotein levels (FDR &lt; 0.05, Wilcoxon rank-sum); 143 trans associations spanning 49 interacting proteins were detected. The largest trans signatures were driven by <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/CTNNB1.html">CTNNB1</a> mutations.</li>
+<li><strong><a href="../genes/CTNNB1.html">CTNNB1</a> hotspot mutations (23 tumors).</strong> All but two were CNV-low or MSI; none were higher than grade 2 and only three were stage III. HotSpot3D analysis showed exon 3 mutations (centered on S33) clustered in 3D with phosphosites Y30, S33, T40 and recurrent mutations at D32 and G34. Tumors with hotspot mutations had higher Wnt-pathway activity than <a href="../cancer_types/WT.html">WT</a> MSI/CNV-low counterparts (p = 2.5e-3, Student’s t test) and concurrent upregulation of <a href="../genes/APC.html">APC</a> and <a href="../genes/AXIN1.html">AXIN1</a> protein levels.</li>
+<li><strong>APC/CTNNB1 mutual exclusivity.</strong> 11 tumors lacking CTNNB1 hotspot mutations but carrying <a href="../genes/APC.html">APC</a> mutations showed reduced <a href="../genes/APC.html">APC</a> and elevated β-catenin protein, supporting two mutually exclusive routes to β-catenin overexpression in EC.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a> mutation-type-specific effects (23 tumors, including all 12 serous).</strong> 11 tumors harbored DNA-binding-domain missense hotspots (including R248 and R273), leading to elevated p53 protein and downstream dysregulation of <a href="../genes/AURKA.html">AURKA</a> and XRN2 (p = 7.8e-06, t test for XRN2). 7 truncating-mutation tumors did not alter p53 levels (p = 0.082) but showed increased PLK1-T210 phosphorylation and enrichment of mitotic-marker proteins. A third subset including <a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/XPO1.html">XPO1</a>, and <a href="../genes/TPX2.html">TPX2</a> was dysregulated regardless of TP53 mutation type. These mutation-type-specific effects were not observed in CPTAC ovarian or colon cancer data.</li>
+<li><strong>Wnt–acetylation coupling.</strong> Upregulation of H2B N-terminal acetylation at K16, K20, K24 in <a href="../genes/CTNNB1.html">CTNNB1</a> hotspot mutants, and upregulation of H3K27 and H3K36 acetylation in <a href="../genes/ARID1A.html">ARID1A</a>- and <a href="../genes/KRAS.html">KRAS</a>-mutant samples. <a href="../genes/BRD3.html">BRD3</a> and <a href="../genes/SIRT1.html">SIRT1</a> protein levels were increased in CTNNB1 hotspot mutants; <a href="../genes/BRD3.html">BRD3</a> correlated positively with multiple H2B N-terminal acetyl sites, while <a href="../genes/SIRT1.html">SIRT1</a>, <a href="../genes/SIRT3.html">SIRT3</a>, and <a href="../genes/BRD4.html">BRD4</a> correlated negatively with H3K27 and H3K36 acetylation. 322 tumor-vs-normal acetylation sites differed (216 up, 106 down).</li>
+<li><strong>DNA methylation.</strong> MSI tumors had elevated genome-wide CpG island methylation; methylation-silenced genes include <a href="../genes/MLH1.html">MLH1</a> and several HOX family members. HOX protein levels were anticorrelated with H2AX phosphorylation, linking methylation to dampened DSB repair.</li>
+<li><strong>SCNAs and the p53 pathway.</strong> 14% of SCNAs had cis effects on transcript/protein (FDR &lt; 0.01). 1q amplification — present in both MSI and MSS tumors — anticorrelated with p53 pathway activity (p &lt; 0.01, Pearson). <a href="../genes/MDM4.html">MDM4</a> mRNA increased with 1q copy number (p &lt; 0.01, Spearman); <a href="../genes/SETDB1.html">SETDB1</a>, SDE2, <a href="../genes/PARP1.html">PARP1</a>, and <a href="../genes/GATAD2B.html">GATAD2B</a> were the top 1q histone-modifier candidates inversely correlated with p53 pathway target proteins <a href="../genes/CDKN1A.html">CDKN1A</a> and <a href="../genes/TNFRSF10B.html">TNFRSF10B</a>.</li>
+<li><strong>circRNA/EMT regulator.</strong> 234 recurrent circRNAs identified. <a href="../genes/QKI.html">QKI</a> protein correlated positively with 35 circRNAs and with EMT score and the EMT activators <a href="../genes/ZEB1.html">ZEB1</a> and <a href="../genes/ZEB2.html">ZEB2</a>; <a href="../genes/ESRP2.html">ESRP2</a> correlated negatively with 20 circRNAs and negatively with <a href="../genes/QKI.html">QKI</a>. QKI-correlated circRNAs harbored predicted binding sites for 36 miRNAs (p &lt; 0.02), including miR-200c, miR-221, miR-130a, miR-130b, and miR-183.</li>
+<li><strong>MSI vs MSS proteomics.</strong> <a href="../genes/MLH1.html">MLH1</a> and <a href="../genes/EPM2AIP1.html">EPM2AIP1</a> were downregulated in MSI at mRNA and protein levels (shared promoter methylation); <a href="../genes/PMS1.html">PMS1</a> and <a href="../genes/PMS2.html">PMS2</a> were downregulated only at the protein level. <a href="../genes/RPL22L1.html">RPL22L1</a> was upregulated in MSI tumors (highest in RPL22-mutant samples; p = 0.002, rank-sum) — consistent with the previously described <a href="../genes/RPL22.html">RPL22</a>/RPL22L1 synthetic-lethal relationship.</li>
+<li><strong>Serous vs endometrioid.</strong> Serous tumors had increased <a href="../genes/TP53BP1.html">TP53BP1</a>-S1763 and <a href="../genes/CHEK2.html">CHEK2</a>-S163 phosphorylation; both phosphosites correlated with <a href="../genes/PLK1.html">PLK1</a> protein, which in turn correlated with G2M checkpoint score (R = 0.67, p = 7.9e-14).</li>
+<li><strong>Tumor immune landscape.</strong> Protein-level evidence for putative neoantigens in 49.3% of samples; <a href="../genes/POLE.html">POLE</a> &gt; MSI in neoantigen burden. 8 known cancer/testis (CT) antigens — including <a href="../genes/IGF2BP3.html">IGF2BP3</a>, <a href="../genes/ATAD2.html">ATAD2</a>, <a href="../genes/PBK.html">PBK</a> — observed in &gt;10% of tumors (&gt;3-fold tumor vs normal). 59% of tumors had ≥1 CT antigen; 78% had either a neoantigen or a high-expression CT antigen.</li>
+<li><strong>APM-deficient TMB-high tumors.</strong> TMB and antigen processing/presentation machinery (APM) efficiency varied independently. TMB-H/APM-L tumors had lower CD8+ T-cell infiltration than TMB-H/APM-H, lower IFNγ and IFNα activity, and were enriched for <a href="../genes/JAK1.html">JAK1</a> truncation mutations and <a href="../genes/STAT1.html">STAT1</a> truncation mutations (POLE samples). TMB-H/APM-L tumors without JAK1/STAT1 mutations had lower <a href="../genes/TAP1.html">TAP1</a>, <a href="../genes/TAP2.html">TAP2</a>, and TAP-binding protein levels, plus reduced HLA class I.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/POLE.html">POLE</a> — recurrent catalytic-domain hotspot P286R in 5/7 POLE-subtype tumors; defines the ultramutated subtype (~61% of all somatic mutations).</li>
+<li><a href="../genes/TP53.html">TP53</a> — mutations in 23 tumors including all serous carcinomas; missense DNA-binding-domain hotspots (R248, R273) elevate p53 protein and dysregulate <a href="../genes/AURKA.html">AURKA</a>, XRN2; truncating mutations increase PLK1-T210 phosphorylation and mitotic-marker proteins.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — exon 3 hotspot region centered at S33 (with phosphosites Y30, S33, T40 and mutations D32, G34) found in 23 tumors; increases Wnt-pathway activity, β-catenin protein, and H2B N-terminal acetylation (K16/K20/K24).</li>
+<li><a href="../genes/APC.html">APC</a> — loss-of-function mutations in 11 CTNNB1-WT tumors provide an alternative route to β-catenin overexpression; APC and <a href="../genes/AXIN1.html">AXIN1</a> protein are upregulated when CTNNB1 hotspot mutated.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — mutated in 92% of MSI tumors (FDR = 0).</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — mutated in 76% of MSI tumors (FDR = 0); ARID1A-mutant samples show H3K27/H3K36 hyperacetylation; truncating mutations reduce <a href="../genes/ARID1A.html">ARID1A</a> protein.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — KRAS-mutant samples show upregulation of H3K27 and H3K36 acetylation.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — missense mutations decrease <a href="../genes/PIK3CA.html">PIK3CA</a> protein levels in this cohort.</li>
+<li><a href="../genes/RPL22.html">RPL22</a> / <a href="../genes/RPL22L1.html">RPL22L1</a> — <a href="../genes/RPL22.html">RPL22</a> mutated in 64% of MSI tumors; <a href="../genes/RPL22L1.html">RPL22L1</a> protein upregulated in MSI, especially in RPL22-mutant tumors (p = 0.002), consistent with their synthetic-lethal pair.</li>
+<li><a href="../genes/KMT2B.html">KMT2B</a> — putative SMG in MSI (56%, FDR = 0.001), not reported in TCGA.</li>
+<li><a href="../genes/INPPL1.html">INPPL1</a> — putative SMG in MSI (56%, FDR = 0); truncating mutations reduce protein levels.</li>
+<li><a href="../genes/JAK1.html">JAK1</a> — putative SMG in MSI (44%, FDR = 6.4e-07); all <a href="../genes/JAK1.html">JAK1</a> frameshifts were in MSI samples and derived from microsatellite indels; associated with higher tumor grade and enriched in TMB-H/APM-L tumors → candidate immune-evasion driver.</li>
+<li><a href="../genes/STAT1.html">STAT1</a> — truncation mutation in a POLE TMB-H/APM-L sample.</li>
+<li><a href="../genes/MLH1.html">MLH1</a> — silenced by promoter methylation in MSI tumors; protein downregulated.</li>
+<li><a href="../genes/EPM2AIP1.html">EPM2AIP1</a> — downregulated at mRNA and protein in MSI tumors via shared promoter methylation with <a href="../genes/MLH1.html">MLH1</a>.</li>
+<li><a href="../genes/PMS1.html">PMS1</a> / <a href="../genes/PMS2.html">PMS2</a> — downregulated only at the protein level in MSI tumors (loss of MLH1 destabilizes them).</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/CCNE1.html">CCNE1</a>, <a href="../genes/FGFR3.html">FGFR3</a>, <a href="../genes/IGF1R.html">IGF1R</a> — frequently copy-number altered, consistent with TCGA.</li>
+<li><a href="../genes/MDM4.html">MDM4</a> — mRNA increases with 1q copy number in MSI tumors (p &lt; 0.01, Spearman) — candidate p53-pathway suppressor on amplified 1q.</li>
+<li><a href="../genes/SETDB1.html">SETDB1</a>, SDE2, <a href="../genes/PARP1.html">PARP1</a>, <a href="../genes/GATAD2B.html">GATAD2B</a> — 1q-encoded histone modifiers anticorrelated with p53-pathway target proteins (<a href="../genes/CDKN1A.html">CDKN1A</a>, <a href="../genes/TNFRSF10B.html">TNFRSF10B</a>).</li>
+<li><a href="../genes/CDK12.html">CDK12</a> — hyperphosphorylated in CNV-high tumors; modulates ovarian-cancer sensitivity to <a href="../drugs/olaparib.html">olaparib</a> (Bajrami et al., 2014) and could enhance immune-checkpoint response.</li>
+<li><a href="../genes/SMARCA4.html">SMARCA4</a> — hyperphosphorylated in CNV-high tumors; targetable by FDA-approved drugs.</li>
+<li><a href="../genes/DNMT1.html">DNMT1</a> — hyperphosphorylated in DDR-high endometrioid and serous tumors; pharmacologically inhibited by <a href="../drugs/azacitidine.html">azacitidine</a> and <a href="../drugs/decitabine.html">decitabine</a>.</li>
+<li><a href="../genes/CDK4.html">CDK4</a> — kinase-activity inference flags <a href="../genes/CDK4.html">CDK4</a> activation in CNV-high endometrioid vs CNV-low tumors; multiple FDA-approved inhibitors available.</li>
+<li><a href="../genes/QKI.html">QKI</a> / <a href="../genes/ESRP2.html">ESRP2</a> / <a href="../genes/ZEB1.html">ZEB1</a> / <a href="../genes/ZEB2.html">ZEB2</a> — proposed EMT regulatory axis where QKI promotes 35 EMT-associated circRNAs (and is positively correlated with ZEB1/ZEB2), opposed by <a href="../genes/ESRP2.html">ESRP2</a>.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> — circRNA from <a href="../genes/FBXW7.html">FBXW7</a> reported (cited from Yang et al., 2018) to encode a protein product reducing c-Myc half-life.</li>
+<li><a href="../genes/FOXA2.html">FOXA2</a> — increased K274 acetylation in CNV-low subtype (deacetylation reduces <a href="../genes/FOXA2.html">FOXA2</a> stability); role in EC remains unclear.</li>
+<li><a href="../genes/ATAD2.html">ATAD2</a>, <a href="../genes/PBK.html">PBK</a>, <a href="../genes/IGF2BP3.html">IGF2BP3</a> — CT antigens observed in &gt;10% of tumors; <a href="../genes/IGF2BP3.html">IGF2BP3</a> highly upregulated in serous and known immunogenic peptide source.</li>
+<li><a href="../genes/TAP1.html">TAP1</a>, <a href="../genes/TAP2.html">TAP2</a> — reduced antigen-peptide-transporter protein levels in TMB-H/APM-L tumors lacking JAK1/STAT1 mutations.</li>
+<li><a href="../genes/TP53BP1.html">TP53BP1</a> S1763 / <a href="../genes/CHEK2.html">CHEK2</a> S163 — phosphosites elevated in serous tumors; PLK1-driven inactivation of the DDR and G2M-checkpoint progression.</li>
+<li><a href="../genes/PLK1.html">PLK1</a>, <a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/CHEK1.html">CHEK1</a>, <a href="../genes/XPO1.html">XPO1</a>, <a href="../genes/TPX2.html">TPX2</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/MAP3K4.html">MAP3K4</a> — downstream of TP53 / CTNNB1 / ARID1A mutations in trans.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>CTNNB1 hotspot mutations</strong> identify a subset of low-grade, low-stage endometrioid tumors with potentially worse prognosis (recapitulating Kurnit et al., 2017; Myers et al., 2014), now mechanistically linked to constitutive Wnt activation and H2B acetylation — refining biomarkers for adjuvant therapy selection.</li>
+<li><strong>TP53 hotspot missense (gain-of-function) mutations</strong> upregulate the Aurora kinase pathway, providing a theoretical basis for <a href="../genes/AURKA.html">AURKA</a> inhibitor evaluation in TP53-hotspot-mutant EC.</li>
+<li><strong>DDR-high tumors</strong>: hyperphosphorylation of <a href="../genes/DNMT1.html">DNMT1</a> suggests potential utility of FDA-approved DNMT inhibitors <a href="../drugs/azacitidine.html">azacitidine</a> and <a href="../drugs/decitabine.html">decitabine</a> — beyond traditional PARP inhibitors — in elevated-DNA-damage EC.</li>
+<li><strong>CNV-high tumors</strong>: <a href="../genes/CDK12.html">CDK12</a> hyperphosphorylation could sensitize EC to the PARP inhibitor <a href="../drugs/olaparib.html">olaparib</a> (analogous to ovarian cancer; Bajrami et al., 2014) and may enhance immune-checkpoint blockade responses. <a href="../genes/SMARCA4.html">SMARCA4</a> and CDK4 are additional CNV-high candidates with existing FDA-approved drugs.</li>
+<li><strong>Immunotherapy selection</strong>: TMB alone is insufficient. JAK1/STAT1 truncating mutations and reduced TAP1/TAP2/HLA levels mark APM-deficient tumors that may resist immune checkpoint inhibitors even when TMB is high — and should be considered when selecting EC patients for ICI, in addition to the FDA-approved MSI biomarker.</li>
+<li><strong>Putative vaccine antigens</strong>: 78% of EC tumors harbor either a neoantigen or a high-expression CT antigen, supporting proteogenomics as a vaccine target-discovery tool in EC.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Observational study: most mechanistic links (Wnt–acetylation, QKI/circRNA/EMT, APM deficiency, CDK12/PARP-inhibitor sensitivity) require functional validation.</li>
+<li>Cohort size of 95 tumors limits statistical power, particularly for the 7 <a href="../genes/POLE.html">POLE</a> and 12 serous subgroups.</li>
+<li>Demographic and outcome data for this prospective cohort were still maturing at publication; associations between molecular features and recurrence/response/survival remain to be tested.</li>
+<li><a href="../genes/MDM4.html">MDM4</a> protein was not detected (low abundance), preventing direct protein-level confirmation of the 1q-amp / p53-pathway-repression model.</li>
+<li>Whether the CTNNB1 → histone-acetylation effects are EC-specific or generalize across cancers will require parallel acetylproteomic studies.</li>
+<li>FOXA2 acetylation has been linked to both proliferation (colon) and metastasis inhibition (lung adenocarcinoma); its role in EC is undefined.</li>
+<li>Sequencing-platform differences from the TCGA EC cohort may account for some observed mutation-rate increases.</li>
+<li>Acetylated peptides prepared via IP from the IMAC flow-through likely miss peptides that are both phosphorylated and acetylated; dual-modified PTM stoichiometry was not pursued.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We obtained 95 prospectively collected EC tumors (83 endometrioid and 12 serous) and 49 normal tissue samples for multi-omic characterization.” (Results, Overview of the Proteogenomic Landscape)</li>
+<li>“Our cohort included 7 POLE, 25 MSI, 43 CNV-low, and 20 CNV-high tumors (Figure 1).”</li>
+<li>“Roughly 61% of all somatic mutations were found in the seven POLE tumors (n = 32,340; 32,188 point mutations and 152 indels), five of which harbored the known recurrent hotspot mutation P286R…”</li>
+<li>“…higher mutation rates for significantly mutated genes (SMGs) in this subtype than previously reported, including <a href="../genes/PTEN.html">PTEN</a> (92%), ARID1A (76%), and RPL22 (64%) (all FDR = 0…). We additionally identified <a href="../genes/INPPL1.html">INPPL1</a> (56%), <a href="../genes/KMT2B.html">KMT2B</a> (56%), and JAK1 (44%) as putative SMGs in the MSI subtype…”</li>
+<li>“…hotspot CTNNB1 mutations, which were found in 23 tumors in the cohort… tumors with CTNNB1 hotspot mutations had higher Wnt signaling pathway activity… than did their WT MSI and CNV-low counterparts (p = 2.5e-3, Student’s t test).”</li>
+<li>“TP53 mutations were observed in 23 tumors in our cohort, including all serous carcinomas… Eleven tumors harbored missense mutations in a spatially clustered hotspot in p53’s DNA-binding domain…”</li>
+<li>“…upregulation of H2B N-terminal acetylation sites K16, K20, and K24 in samples with CTNNB1 hotspot mutations… and upregulation of H3 sites, including K27 and K36, in both ARID1A- and KRAS-mutated samples.”</li>
+<li>“…1q amplification was anticorrelated with p53 pathway activity (p &lt; 0.01, Pearson’s correlation…).”</li>
+<li>“We identified 234 recurrent circRNAs… The protein level of QKI… was positively correlated with 35 circRNAs, whereas the protein level of ESRP2 was negatively correlated with 20 circRNAs.”</li>
+<li>“TP53BP1-S1763 and CHEK2-S163 were highly phosphorylated in serous tumors… <a href="../genes/PLK1.html">PLK1</a> protein levels… correlated in turn with G2M checkpoint score (Figure 6F, R = 0.67, p = 7.9e-14).”</li>
+<li>“We found protein evidence for putative neoantigens in 49.3% of the samples… Overall, 78% of tumors had either evidence of a neoantigen or high expression of a common CT antigen…”</li>
+<li>“JAK1 microsatellite indels could represent a major immune evasion mechanism in MSI EC… TMB-H/APM-L tumors without JAK1/STAT1 mutations had lower protein levels of antigen peptide transporters including <a href="../genes/TAP1.html">TAP1</a>, <a href="../genes/TAP2.html">TAP2</a>, and TAP2BP…”</li>
+<li>“…<a href="../genes/CDK12.html">CDK12</a> is known to modulate the susceptibility of ovarian cancer to the PARP inhibitor <a href="../drugs/olaparib.html">olaparib</a> (Bajrami et al., 2014); the hyperphosphorylation of CDK12 in EC suggests potential utility as a target for sensitization of EC to PARP inhibitors.”</li>
+<li>“<a href="../genes/DNMT1.html">DNMT1</a> is a protein that was hyperphosphorylated in both endometrioid and serous DDR-high tumors. This protein has several known inhibitors, including <a href="../drugs/azacitidine.html">azacitidine</a> and <a href="../drugs/decitabine.html">decitabine</a>…”</li>
+<li>“The MethylationEPIC array uses an 8-sample version of the Illumina Beadchip capturing &gt; 850,000 methylation sites per sample.” (<a href="../genes/STAR.html">STAR</a> Methods, Illumina Infinium MethylationEPIC BeadChip Array)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32059776.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32059776.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

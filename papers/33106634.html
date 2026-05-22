@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cancer therapy shapes the fitness landscape of clonal hematopoiesis – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33106634.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33106634.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cancer therapy shapes the fitness landscape of clonal hematopoiesis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kelly L. Bolton </p>
+             <p>Ryan N. Ptashkin </p>
+             <p>Teng Gao </p>
+             <p>Lior Braunstein </p>
+             <p>Sean M. Devlin </p>
+             <p>Daniel Kelly </p>
+             <p>Minal Patel </p>
+             <p>Antonin Berthon </p>
+             <p>Aijazuddin Syed </p>
+             <p>Mariko Yabe </p>
+             <p>Catherine C. Coombs </p>
+             <p>Nicole M. Caltabellotta </p>
+             <p>Mike Walsh </p>
+             <p>Kenneth Offit </p>
+             <p>Zsofia Stadler </p>
+             <p>Diana Mandelker </p>
+             <p>Jacklyn Schecter </p>
+             <p>Ahmet Pessin </p>
+             <p>Jeremy Setton </p>
+             <p>Erich Bernstein </p>
+             <p>Gowtham Gandhi </p>
+             <p>Jeffrey E. A. Ohanian </p>
+             <p>Mark Levine </p>
+             <p>Juan S. Medina Martinez </p>
+             <p>Nuria Fernandez Gonzalez </p>
+             <p>Daoqi Gao </p>
+             <p>Sonia Lalvani </p>
+             <p>Mark E. Robson </p>
+             <p>Carol Lacchetti </p>
+             <p>Pedram Razavi </p>
+             <p>Karuna H. Sandlin </p>
+             <p>Bashar Safah </p>
+             <p>Stuart Mintz </p>
+             <p>Joshua Fein </p>
+             <p>Lior Braunstein </p>
+             <p>Christopher J. Gibson </p>
+             <p>Benjamin L. Ebert </p>
+             <p>Andrew L. Young </p>
+             <p>Todd Druley </p>
+             <p>Koichi Takahashi </p>
+             <p>Nancy Gillis </p>
+             <p>Mark Berger </p>
+             <p>Eric Padron </p>
+             <p>David M. Hyman </p>
+             <p>Jorge Berger </p>
+             <p>Liying Nong </p>
+             <p>Sumit Goyal </p>
+             <p>Vladimir M. Kushnirsky </p>
+             <p>Henrik Sjoberg </p>
+             <p>David Brown </p>
+             <p>Eddie Paraiso </p>
+             <p>Ryma Benayed </p>
+             <p>Maria E. Arcila </p>
+             <p>Marc Ladanyi </p>
+             <p>David B. Solit </p>
+             <p>Michael F. Berger </p>
+             <p>Martin S. Tallman </p>
+             <p>Marc Garcia-Closas </p>
+             <p>Nilanjan Chatterjee </p>
+             <p>Luis A. Diaz Jr </p>
+             <p>Ross L. Levine </p>
+             <p>Luc G. T. Morris </p>
+             <p>Ahmet Zehir </p>
+             <p>Elli Papaemmanuil </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41588-020-00710-0">10.1038/s41588-020-00710-0</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 33106634 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/s41588-020-00710-0">10.1038/s41588-020-00710-0</a> · <strong>Journal:</strong> Nature Genetics (2020)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Using prospective MSK-IMPACT targeted sequencing of paired blood and tumor from 24,146 solid-tumor cancer patients, Bolton et al.&nbsp;show that the fitness landscape of clonal hematopoiesis (CH) is shaped in a gene-specific way by environmental and therapeutic exposures: smoking selects for <a href="../genes/ASXL1.html">ASXL1</a> mutations, while cancer therapy (especially platinum agents, topoisomerase II inhibitors, and external beam radiation) selects for clones with DNA damage response (DDR) mutations in <a href="../genes/TP53.html">TP53</a>, <a href="../genes/PPM1D.html">PPM1D</a>, and <a href="../genes/CHEK2.html">CHEK2</a>. Sequential blood sampling in 525 patients provided direct in-human evidence that DDR clones outcompete other CH clones under therapy but not in its absence. In 19/35 paired CH→tMN cases the leukemia-defining mutation was already present at the CH timepoint, and CH was a strong predictor of subsequent therapy-related myeloid neoplasm (tMN) risk (HR=6.9 for CH VAF&gt;2%) in a 9,437-patient pooled analysis. Mutation calls are released as <a href="../datasets/msk_ch_2020.html">msk_ch_2020</a> on cBioPortal. <a href="../papers/33106634.html">PMID:33106634</a></p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Cross-sectional cohort:</strong> 24,146 cancer patients with matched tumor + blood <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> sequencing on protocol NCT01775072, prior to July 1, 2018 — 56 primary tumor types represented. CH defined as a blood-only variant at VAF ≥2% with ≥10 supporting reads. Dataset released as <a href="../datasets/msk_ch_2020.html">msk_ch_2020</a> on cBioPortal. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Treatment-annotated subcohort:</strong> 10,138 patients with complete cancer-care histories at MSK; 5,978 (59%) exposed to cancer therapy prior to blood draw, 4,160 (41%) treatment-naive. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Serial sampling cohort:</strong> 525 patients with solid tumors and ≥2 blood draws (median interval 23 months, range 6–53). 389 (74%) had CH at first draw; 590/620 (95%) of CH mutations were present at both time points. None developed secondary hematologic malignancies during follow-up. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>CH→tMN cohort:</strong> 35 paired pre-tMN and tMN samples (median interval 24 months, range 5–90). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Pooled tMN risk cohort:</strong> 9,437 cancer patients exposed to therapy (MSK + Gillis MOF n=68 + Takahashi MDA n=67 + Gibson DFC n=401), of whom 75 developed tMN. AML/MDS risk reference panel: Abelson PMC (n=969) + Young WSU (n=103) for healthy individuals. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Assays:</strong> <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> — 341-gene (<a href="../methods/IMPACT341.html">IMPACT341</a>), 410-gene (<a href="../methods/IMPACT410.html">IMPACT410</a>), and 468-gene (<a href="../methods/IMPACT468.html">IMPACT468</a>) versions. Serial-sampling repeat CH testing used a comparable 163-gene myeloid capture panel (median depth 665×, range 111–1987×). Median blood coverage on MSK-IMPACT 497×; tumor 790×. Reference genome hg19. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Calling stack:</strong> <a href="../methods/bwa.html">BWA</a> 0.7.5a → ABRA 0.92 → <a href="../methods/gatk.html">GATK</a> 3.3-0 base-quality recalibration; SNVs by <a href="../methods/mutect.html">MuTect</a> + <a href="../methods/vardict.html">VarDict</a> (retained if called by both); indels by Somatic Indel Detector + VarDict; annotated with <a href="../methods/vep.html">VEP</a> v86 and <a href="../methods/oncokb.html">OncoKB</a>. Filters: gnomAD frequency ≤0.005, blood/tumor VAF ratio ≥2× (≥1.5× for lymph-node biopsies), homopolymer/strand-bias filters. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Selection inference:</strong> <a href="../methods/dndscv.html">dNdScv</a> limited to IMPACT-410/468 with q&lt;0.1 and ≥25 variants per gene. Absolute-risk modeling used the <a href="../methods/icare.html">iCARE</a> R package combined with NCCN AML/MDS rates and SEER mortality. <a href="../papers/33106634.html">PMID:33106634</a></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Prevalence of CH.</strong> 7,216/24,146 patients (30%) carried at least one CH mutation (VAF ≥2%); 11,076 unique CH mutations. Median VAF 5.0% (range 2–78%). 69% of CH carriers had one mutation, 31% had two or more. 52% of CH calls (n=5,810) met CH-PD (putative-driver) criteria; 91% of CH-PD (n=5,301) were recurrent in myeloid neoplasms (CH-myeloid-PD). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Mutational landscape.</strong> Most-frequent CH genes were <a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/TET2.html">TET2</a>, and <a href="../genes/ASXL1.html">ASXL1</a>. 48% of all CH mutations fell in myeloid driver genes, even though those genes make up only 20% of the MSK-IMPACT content — indicating a strong fitness advantage in HSPCs for myeloid drivers. Median VAF was higher for myeloid drivers (0.047 vs 0.038, P significant) and for CH-PD (0.050 vs 0.038). <a href="../genes/DNMT3A.html">DNMT3A</a> R882 hotspot mutations carried higher VAFs than other <a href="../genes/DNMT3A.html">DNMT3A</a> mutations even after adjusting for total mutation count. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Clinical determinants of CH.</strong> Age (OR=1.9 per category, p&lt;10⁻⁶), prior cancer therapy (OR=1.3, p=1×10⁻⁶), and smoking (OR=1.1, p=5×10⁻³) were independently associated with CH. CH was less common in Asian than Caucasian patients (OR=0.7, p=1×10⁻³). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Gene × exposure specificity.</strong>
+<ul>
+<li>Aging (DNMT3A weaker than other CH mutations): spliceosome <a href="../genes/SRSF2.html">SRSF2</a> (OR=3.6, q=7×10⁻⁶) and <a href="../genes/SF3B1.html">SF3B1</a> (OR=5.0, q&lt;10⁻⁶) showed the strongest age effects.</li>
+<li>Smoking: <a href="../genes/ASXL1.html">ASXL1</a> (OR=2.5, q=1×10⁻⁴; current-smoker OR=3.1, former-smoker OR=2.4).</li>
+<li>DDR genes × therapy: <a href="../genes/TP53.html">TP53</a> (OR=2.8, q=2×10⁻⁴), <a href="../genes/PPM1D.html">PPM1D</a> (OR=4.3, q&lt;10⁻⁶), <a href="../genes/CHEK2.html">CHEK2</a> (OR=4.5, q=6×10⁻⁶).</li>
+<li>Epigenetic-modifier and spliceosome CH was <em>not</em> enriched by therapy exposure. <a href="../papers/33106634.html">PMID:33106634</a></li>
+</ul></li>
+<li><strong>Tumor-type heterogeneity.</strong> <a href="../genes/PPM1D.html">PPM1D</a> mutations were found in 13% of <a href="../cancer_types/OV.html">ovarian</a> and 7% of <a href="../cancer_types/UCEC.html">endometrial</a> cancer patients (vs &lt;5% in other subgroups). Among untreated patients, <a href="../genes/PPM1D.html">PPM1D</a> CH was seen in 8% of ovarian and 0% of endometrial cancer patients — confirming therapy/exposure context drives most tumor-type heterogeneity. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Therapy-class associations.</strong> Strongest CH-PD associations: external-beam radiation (OR=1.4, p&lt;10⁻⁶), cytotoxic chemotherapy (OR=1.2, p=2×10⁻³), radionuclide therapy (OR=1.6, p=0.01). Within cytotoxics: topoisomerase II inhibitors (OR=1.3, p=0.01) and platinum agents (OR=1.2, p=0.02). <a href="../drugs/carboplatin.html">Carboplatin</a> was strongly associated (OR=1.4, p=0.001) while <a href="../drugs/cisplatin.html">cisplatin</a> (OR=1.1, p=0.10) and <a href="../drugs/oxaliplatin.html">oxaliplatin</a> (OR=0.98, p=0.88) were not. Targeted therapy and immunotherapy showed no significant CH association. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Gene-specific therapy associations.</strong> <a href="../genes/PPM1D.html">PPM1D</a> was most strongly linked to platinum (OR=3.2, q&lt;10⁻⁶) and radionuclide therapy (OR=6.2, q=7×10⁻⁶) plus topoisomerase II inhibitors (OR=2.0, q=0.002), taxanes (OR=1.8, q=0.003), topoisomerase I inhibitors (OR=1.7, q=0.002), and external-beam radiation (OR=1.8, q=0.04). <a href="../genes/TP53.html">TP53</a> was associated with platinum (OR=2.1, q=0.03), radiation (OR=1.8, q=0.04), and taxanes (OR=1.9, q=0.05). <a href="../genes/CHEK2.html">CHEK2</a> was associated with platinum (OR=2.4, q=0.02) and topoisomerase II inhibitors (OR=2.2, q=0.02). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Dose-response.</strong> Trend tests showed CH-PD risk rose with cumulative platinum exposure (p-trend=0.04), with the strongest effects for <a href="../drugs/carboplatin.html">carboplatin</a> (p-trend=3×10⁻⁵) and <a href="../drugs/cisplatin.html">cisplatin</a> (p-trend=0.04). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Longitudinal clonal dynamics.</strong> Of 590 CH mutations seen at both timepoints, 62% (n=367) were stable, 28% (n=164) grew, and 10% (n=59) shrank. Under cytotoxic chemo or external-beam radiation, DDR CH mutations in <a href="../genes/TP53.html">TP53</a>, <a href="../genes/PPM1D.html">PPM1D</a>, and <a href="../genes/CHEK2.html">CHEK2</a> grew fastest. Patients with multiple CH mutations had faster growth (p=0.03). New CH mutations appeared in 4% (n=13) of patients receiving interval cytotoxic/radiation therapy vs 1% (n=2) of those who did not (p=0.06). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>In-patient competition.</strong> Among 34 patients each carrying one DDR-CH and one non-DDR-CH mutation, DDR clones outgrew non-DDR clones under cytotoxic or radiation therapy, but were outcompeted by non-DDR clones (e.g.&nbsp;<a href="../genes/DNMT3A.html">DNMT3A</a>) in untreated patients — providing direct, gene-controlled evidence of treatment-driven selection. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>CH→tMN transitions.</strong> In 19/32 (59%) paired CH→tMN cases, ≥1 leukemia-defining mutation was present at the CH timepoint with ≥1 supporting read; 13 of these (41%) harbored two or more. In all such cases the CH mutation was present at tMN diagnosis. 91% of transformations also acquired additional events — chromosomal aneuploidies or mutations in late-progression genes such as <a href="../genes/FLT3.html">FLT3</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>. 14/35 (40%) tMN cases carried <a href="../genes/TP53.html">TP53</a> mutations; 10/14 of these were detectable at the CH stage. At transformation, 12/13 <a href="../genes/TP53.html">TP53</a>-mutant tMN cases had isolated chromosomal aneuploidies or complex karyotype. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>tMN risk modeling (n=9,437; 75 events).</strong> CH VAF &gt;2% increased tMN risk with HR=6.9 (p&lt;10⁻⁶), with effect rising with mutation number and clone size. Strongest gene-specific HRs were for <a href="../genes/TP53.html">TP53</a> and spliceosome genes (<a href="../genes/SRSF2.html">SRSF2</a>, <a href="../genes/U2AF1.html">U2AF1</a>, <a href="../genes/SF3B1.html">SF3B1</a>). Effect sizes for tMN in cancer patients were similar to those for <a href="../cancer_types/AML.html">AML</a> risk in healthy individuals, suggesting CH-mediated risk is largely independent of cancer/therapy context (multiplicative model). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Absolute-risk illustration.</strong> In a synthetic iCARE model of women aged 50–75 with breast cancer in the U.S., 96% had 10-year <a href="../methods/absolute.html">absolute</a> MN risk &lt;1%; for the top 1% of risk (by CH and blood-count features), adjuvant chemotherapy increased absolute MN risk by ≈9%, plausibly exceeding the survival benefit of chemo in some early-stage <a href="../cancer_types/BRCA.html">BRCA</a> patients. <a href="../papers/33106634.html">PMID:33106634</a></li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/DNMT3A.html">DNMT3A</a> — most frequent CH gene; weaker age effect than other CH mutations; R882 hotspot has higher VAFs than non-hotspot variants even after adjustment. Outcompetes DDR clones in untreated patients. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/TET2.html">TET2</a> — second most common CH gene; an epigenetic modifier whose CH was not strongly modulated by therapy exposure. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/ASXL1.html">ASXL1</a> — significantly enriched in current/former smokers (OR=2.5, q=1×10⁻⁴), with stronger signal in current smokers (OR=3.1) than former (OR=2.4). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/TP53.html">TP53</a> — DDR; therapy-associated CH (OR=2.8, q=2×10⁻⁴). Detected at CH stage in 10/14 tMN cases that harbored <a href="../genes/TP53.html">TP53</a>. Co-occurred with complex karyotype/aneuploidy in 12/13 evaluable TP53-mutant tMNs. Strong predictor of tMN risk. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/PPM1D.html">PPM1D</a> — DDR; strongest therapy effect (OR=4.3, q&lt;10⁻⁶); highest enrichment in <a href="../cancer_types/OV.html">ovarian</a> (13%) and <a href="../cancer_types/UCEC.html">endometrial</a> (7%) cancers, almost entirely explained by therapy exposure. Truncating C-terminal variants are the canonical CH form (<a href="../papers/31768066.html">PMID:31768066</a> corroborates from cfDNA). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/CHEK2.html">CHEK2</a> — DDR; therapy-associated CH (OR=4.5, q=6×10⁻⁶); platinum (OR=2.4) and topoisomerase II inhibitor (OR=2.2) class effects. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/SRSF2.html">SRSF2</a>, <a href="../genes/SF3B1.html">SF3B1</a>, <a href="../genes/U2AF1.html">U2AF1</a> — spliceosome CH; strongly age-associated; not enriched by therapy; collectively among the strongest tMN risk predictors. <a href="../genes/SRSF2.html">SRSF2</a> and <a href="../genes/PPM1D.html">PPM1D</a> were not on the IMPACT-341 panel and so were under-ascertained in earlier sub-cohorts. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/FLT3.html">FLT3</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a> — late-progression drivers acquired between CH and tMN diagnosis in many transformations. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/ATM.html">ATM</a> — included in CH-myeloid-PD criteria when truncating; partially under-ascertained in the serial-sampling panel (missing from the 163-gene myeloid panel). <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><a href="../genes/RUNX1.html">RUNX1</a>, <a href="../genes/BCOR.html">BCOR</a>, <a href="../genes/STAG2.html">STAG2</a>, <a href="../genes/CALR.html">CALR</a>, <a href="../genes/TERT.html">TERT</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/JAK2.html">JAK2</a> — additional CH-myeloid-PD genes whose truncating, hotspot, or in-frame variants were classed as putative drivers per the paper’s annotation rules. <a href="../papers/33106634.html">PMID:33106634</a></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Biomarker.</strong> CH at VAF &gt;2% identifies cancer patients at materially elevated risk of subsequent tMN (HR=6.9), with risk scaling by mutation count, clone size, gene context, and peripheral-blood indices (RDW, hemoglobin). Pre-treatment screening for CH is presented as a feasible, scalable risk-stratification tool because MSK-IMPACT-style panels are already in clinical use. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Therapy choice.</strong> <a href="../drugs/carboplatin.html">Carboplatin</a>, topoisomerase II inhibitors, and external-beam radiation drive the strongest gene-specific (DDR) clonal selection. The authors raise the possibility of substituting or deferring such agents in patients with high-risk CH when the absolute survival benefit is marginal — illustrated by a synthetic iCARE model in early-stage <a href="../cancer_types/BRCA.html">BRCA</a>. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>Mechanistic prediction.</strong> DDR-CH clones (particularly <a href="../genes/TP53.html">TP53</a>) have <em>lower</em> competitive fitness than DNMT3A-class clones in the absence of therapy, but become dominant under genotoxic stress — implying that the same patient’s CH risk profile depends on prospective treatment plan, not just baseline genotype. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li><strong>No evidence for targeted-therapy or immunotherapy selection</strong> of CH at this resolution, suggesting non-cytotoxic regimens may be CH-safer where clinically interchangeable. <a href="../papers/33106634.html">PMID:33106634</a></li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The MSK-IMPACT panel surveys cancer-driver genes; it misses CH drivers such as SRCAP, <a href="../genes/BRCC3.html">BRCC3</a>, ZNF318, and (in earlier panel versions) <a href="../genes/PPM1D.html">PPM1D</a> and <a href="../genes/SRSF2.html">SRSF2</a>. <a href="../genes/ATM.html">ATM</a> was absent from the 163-gene serial-sampling panel, restricting sub-cohort analyses. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li>VAF cutoff of 2% means small CH clones — known to be relevant in healthy aging cohorts — were excluded. Error-corrected sequencing is needed to extend findings to sub-2% VAF. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li>The serial cohort did not include patients who went on to develop hematologic malignancy, so growth-rate estimates are a lower bound for tMN-bound clones. Sampling did not bracket therapy temporally (no pre-/intra-/post-therapy triplets), so kinetics of clone growth during versus after therapy could not be resolved. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li>The pooled tMN risk cohort (n=9,437) restricted to therapy-exposed patients, so gene-by-treatment interactions on tMN risk could not be formally estimated; the absolute-risk model assumes multiplicative effects. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li>TP53-driven tMN is one mechanism — the authors flag that processes leading to MLL fusions, complex karyotype, and other tMN-associated alterations may follow distinct selection rules not captured by this design. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li>The synthetic breast-cancer risk model is exploratory, depends on external HRs (NCCN/SEER) and assumes the MSK untreated solid-tumor population is representative of the general untreated breast-cancer population. <a href="../papers/33106634.html">PMID:33106634</a></li>
+<li>Bulk sequencing cannot determine whether multiple CH mutations within a patient sit on the same clone — single-cell sequencing is needed to confirm the competitive interpretation of multi-mutation patients. <a href="../papers/33106634.html">PMID:33106634</a></li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identified 11,076 unique CH mutations in 7,216 individuals, representing 30% of patients in our cohort. The median VAF of CH mutations was 5.0% (range, 2–78%).” (Bolton et al., p.&nbsp;2)</li>
+<li>“CH mutations in the DDR genes TP53, PPM1D and <a href="../genes/CHEK2.html">CHEK2</a> were most strongly associated with prior exposure to cancer therapy (OR_TP53 = 2.8, q=2×10⁻⁴; OR_PPM1D = 4.3, q&lt;10⁻⁶; OR_CHEK2 = 4.5, q=6×10⁻⁶).” (Bolton et al., p.&nbsp;4)</li>
+<li>“Mutations in <a href="../genes/ASXL1.html">ASXL1</a> were significantly associated with smoking history (OR=2.5, q=1×10⁻⁴).” (Bolton et al., p.&nbsp;4)</li>
+<li>“<a href="../drugs/carboplatin.html">carboplatin</a> (OR=1.4, 0.001) was associated with CH, unlike <a href="../drugs/cisplatin.html">cisplatin</a> (OR=1.1, p=0.10) and <a href="../drugs/oxaliplatin.html">oxaliplatin</a> (OR=0.98, p=0.88).” (Bolton et al., pp.&nbsp;4–5)</li>
+<li>“In patients receiving interval cytotoxic therapy or radiation therapy, CH clones with DDR mutations grew faster compared to clones with other CH mutations in the same patient. However, the reverse was true in untreated patients…” (Bolton et al., p.&nbsp;6)</li>
+<li>“Strikingly at least one of these mutations was present at the time of CH (with at least one supporting read) in 19 patients (59%), with 13 (41%) harboring two or more. In all of these cases, the CH mutation was present at the time of tMN diagnosis.” (Bolton et al., p.&nbsp;6)</li>
+<li>“CH present at a VAF of &gt;2% was positively associated with tMN risk (HR=6.9, p&lt;10⁻⁶).” (Bolton et al., p.&nbsp;7)</li>
+<li>“Mutation calls are available on cBioPortal: http://www.cbioportal.org/study/summary?id=<a href="../datasets/msk_ch_2020.html">msk_ch_2020</a>” (Bolton et al., Data Availability)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33106634.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33106634.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Comprehensive molecular profiling of intra- and extrahepatic cholangiocarcinomas: potential targets for intervention – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29848569.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29848569.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comprehensive molecular profiling of intra- and extrahepatic cholangiocarcinomas: potential targets for intervention</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Maeve A. Lowery </p>
+             <p>Ryan Ptashkin </p>
+             <p>Emmet Jordan </p>
+             <p>Michael F. Berger </p>
+             <p>Ahmet Zehir </p>
+             <p>Marinela Capanu </p>
+             <p>Nancy E. Kemeny </p>
+             <p>Eileen M. O’Reilly </p>
+             <p>Imane El-Dika </p>
+             <p>William R. Jarnagin </p>
+             <p>James J. Harding </p>
+             <p>Michael I. D’Angelica </p>
+             <p>Andrea Cercek </p>
+             <p>Jaclyn F. Hechtman </p>
+             <p>David B. Solit </p>
+             <p>Nikolaus Schultz </p>
+             <p>David M. Hyman </p>
+             <p>David S. Klimstra </p>
+             <p>Leonard B. Saltz </p>
+             <p>Ghassan K. Abou-Alfa </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-18-0078">10.1158/1078-0432.CCR-18-0078</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29848569 · <strong>DOI:</strong> <a href="https://doi.org/10.1158/1078-0432.CCR-18-0078">10.1158/1078-0432.CCR-18-0078</a> · <strong>Journal:</strong> Clinical Cancer Research (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Lowery et al.&nbsp;prospectively profiled tumors from 195 patients with cholangiocarcinoma (158 intrahepatic, 37 extrahepatic) at Memorial Sloan Kettering using the <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted NGS assay covering 341 or 410 cancer-associated genes. The most commonly altered genes in intrahepatic cholangiocarcinoma were <a href="../genes/IDH1.html">IDH1</a> (30%), <a href="../genes/ARID1A.html">ARID1A</a> (23%), <a href="../genes/BAP1.html">BAP1</a> (20%), <a href="../genes/TP53.html">TP53</a> (20%), and <a href="../genes/FGFR2.html">FGFR2</a> gene fusions (14%), while <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/STK11.html">STK11</a> were enriched in extrahepatic disease. <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> and <a href="../genes/ERBB2.html">ERBB2</a> alterations were associated with shorter overall survival and shorter time to progression on first-line chemotherapy. Potentially actionable alterations were identified in 47% of patients, and 16% of patients with advanced disease received biomarker-matched therapy.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>n = 195 patients</strong> with cholangiocarcinoma; 91% sequencing success rate (195/214 attempted).</li>
+<li><strong>Anatomic split:</strong> 158 (81%) <a href="../cancer_types/IHCH.html">intrahepatic cholangiocarcinoma (IHCH)</a> and 37 (19%) <a href="../cancer_types/EHCH.html">extrahepatic cholangiocarcinoma (EHCH)</a>; overall <a href="../cancer_types/CHOL.html">cholangiocarcinoma (CHOL)</a> cohort.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/chol_msk_2018.html">chol_msk_2018</a> — prospectively consented under protocol NCT01775072 at Memorial Sloan Kettering Cancer Center over a two-year period starting July 2014.</li>
+<li><strong>Assay:</strong> <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted DNA sequencing — 341-gene panel (<a href="../methods/IMPACT341.html">IMPACT341</a>, n=20) or 410-gene panel (<a href="../methods/IMPACT410.html">IMPACT410</a>, n=318 samples); matched germline DNA from blood used for somatic calling. Median sample coverage 759X. Standard DNA input 250 ng (50 ng minimum).</li>
+<li><strong>Sample types:</strong> 141 (72%) primary tumor biopsy/resection; 54 (27%) biopsy of metastatic site. Archival FFPE tissue only.</li>
+<li><strong>Demographics:</strong> 51.8% male; median age 62 (range 24–86); 89% Caucasian; 12% (n=24) with hepatitis B.</li>
+<li><strong>Outcome cohort:</strong> 158 patients (81%) received first-line chemotherapy for advanced disease (127 patients / 80% on gemcitabine/platinum). Median time to progression on first-line chemotherapy was 8.8 months. Survival analyzed in the 178 stage IV patients (either at diagnosis or after surgical recurrence).</li>
+<li><strong>Actionability classification:</strong> <a href="../methods/oncokb-annotation.html">OncoKB</a> levels 1–4.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation frequencies (whole cohort, n=195):</strong> <a href="../genes/IDH1.html">IDH1</a> 25%, <a href="../genes/TP53.html">TP53</a> 24%, <a href="../genes/ARID1A.html">ARID1A</a> 21%, <a href="../genes/BAP1.html">BAP1</a> 15%, <a href="../genes/KRAS.html">KRAS</a> 13%, <a href="../genes/PBRM1.html">PBRM1</a> 12%, <a href="../genes/SMAD4.html">SMAD4</a> 9%, <a href="../genes/ATM.html">ATM</a> 8% <a href="../papers/29848569.html">PMID:29848569</a>.</li>
+<li><strong>Focal copy-number alterations:</strong> <a href="../genes/CDKN2A.html">CDKN2A</a> deletions 8%, <a href="../genes/MDM2.html">MDM2</a> amplifications 4%, <a href="../genes/ERBB2.html">ERBB2</a> amplifications 4%, <a href="../genes/MCL1.html">MCL1</a> amplifications 4%.</li>
+<li><strong>Structural variants:</strong> 38 structural alterations in 35 patients (18%); majority were in-frame fusions predicted to activate <a href="../genes/FGFR2.html">FGFR2</a>. Most frequent <a href="../genes/FGFR2.html">FGFR2</a> fusion partners were <a href="../genes/BICC1.html">BICC1</a> and <a href="../genes/KIAA1217.html">KIAA1217</a>. No <a href="../genes/NTRK1.html">NTRK1</a>/<a href="../genes/NTRK3.html">NTRK3</a> or <a href="../genes/ROS1.html">ROS1</a> fusions were observed.</li>
+<li><strong>IHC vs EHC enrichment (Fisher’s exact, q-values reported):</strong>
+<ul>
+<li>Enriched in IHC: <a href="../genes/IDH1.html">IDH1</a> 46/158 vs 2/37 (OR 7.14, p=0.001, q=0.011); <a href="../genes/BAP1.html">BAP1</a> 30 vs 0 (q=0.013); <a href="../genes/FGFR2.html">FGFR2</a> 20 vs 0 (q=0.087). <a href="../genes/BAP1.html">BAP1</a> mutations and <a href="../genes/FGFR2.html">FGFR2</a> fusions were observed exclusively in IHC.</li>
+<li>Enriched in EHC: <a href="../genes/KRAS.html">KRAS</a> 11 vs 14 (OR 0.125, q&lt;0.001); <a href="../genes/SMAD4.html">SMAD4</a> 8 vs 11 (q=0.001); <a href="../genes/TP53.html">TP53</a> 28 vs 18 (q=0.007); <a href="../genes/STK11.html">STK11</a> 1 vs 4 (q=0.031).</li>
+</ul></li>
+<li><strong>Mutual exclusivity (OR &lt; 0.5):</strong> <a href="../genes/IDH1.html">IDH1</a>:<a href="../genes/TP53.html">TP53</a> (p=0.001), <a href="../genes/IDH1.html">IDH1</a>:<a href="../genes/SMAD4.html">SMAD4</a> (p=0.004), <a href="../genes/TP53.html">TP53</a>:<a href="../genes/BAP1.html">BAP1</a> (p=0.004), <a href="../genes/BAP1.html">BAP1</a>:<a href="../genes/KRAS.html">KRAS</a> (p=0.017), <a href="../genes/IDH1.html">IDH1</a>:<a href="../genes/FGFR2.html">FGFR2</a> (p=0.030), <a href="../genes/IDH1.html">IDH1</a>:<a href="../genes/KRAS.html">KRAS</a> (p=0.046), <a href="../genes/TP53.html">TP53</a>:<a href="../genes/FGFR2.html">FGFR2</a> (p=0.049), <a href="../genes/PBRM1.html">PBRM1</a>:<a href="../genes/KRAS.html">KRAS</a> (p=0.049).</li>
+<li><strong>Co-occurrence tendencies:</strong> <a href="../genes/TP53.html">TP53</a>:<a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/SMAD4.html">SMAD4</a>:<a href="../genes/KRAS.html">KRAS</a>, and <a href="../genes/TP53.html">TP53</a>:<a href="../genes/CDKN2B.html">CDKN2B</a>.</li>
+<li><strong>MSI:</strong> A single tumor (0.5%) was MSI-H (<a href="../methods/msisensor.html">MSIsensor</a> score 35.1) with 48 somatic mutations and loss of <a href="../genes/MLH1.html">MLH1</a> and <a href="../genes/MSH6.html">MSH6</a> protein on <a href="../methods/immunohistochemistry.html">IHC</a>. Patient had a history of choledochal cyst; no Lynch-suggestive family history; did not receive immunotherapy.</li>
+<li><strong>Primary vs metastatic:</strong> No genetic alterations significantly differed in frequency between 141 primary and 54 metastatic samples.</li>
+<li><strong>Chemo PFS associations (158 first-line chemo patients):</strong> Shorter time to progression for <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> alterations (n=15, p=0.002), <a href="../genes/ERBB2.html">ERBB2</a> (n=8, p=0.028), and <a href="../genes/MDM2.html">MDM2</a> (n=7, p=0.026). No significant PFS difference for <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/ARID1A.html">ARID1A</a>, or <a href="../genes/TP53.html">TP53</a>.</li>
+<li><strong>Overall survival (178 stage IV patients):</strong> Shorter <a href="../cancer_types/OS.html">OS</a> for <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> (n=18, p=0.0015), <a href="../genes/ERBB2.html">ERBB2</a> (n=9, p=0.0015), and <a href="../genes/KRAS.html">KRAS</a> (n=21, p=0.026).</li>
+<li><strong>Actionability:</strong> 93/195 patients (47.6%) had at least one alteration classified as <a href="../methods/oncokb-annotation.html">OncoKB</a> level 3B or higher. No patients had a level 1 or 2A alteration (no standard-of-care targeted agents exist for cholangiocarcinoma). Sixteen patients (8%) had a level 2B alteration (<a href="../genes/ERBB2.html">ERBB2</a> amplification ×6; <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> likely pathogenic ×3; <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a> ×2; <a href="../genes/BRAF.html">BRAF</a> V600E ×1; <a href="../genes/MET.html">MET</a> amplification ×1). 77 patients (39%) had a level 3 alteration as their highest, predominantly <a href="../genes/IDH1.html">IDH1</a> mutations (43 patients) and <a href="../genes/FGFR2.html">FGFR2</a> fusions (17 patients), with additional <a href="../genes/PIK3CA.html">PIK3CA</a> (n=6), <a href="../genes/NRAS.html">NRAS</a> (n=4), and <a href="../genes/ERBB2.html">ERBB2</a> hotspot mutations (n=2).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/IDH1.html">IDH1</a> — most common alteration in IHC (30%); mutually exclusive with <a href="../genes/TP53.html">TP53</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/FGFR2.html">FGFR2</a>, and <a href="../genes/KRAS.html">KRAS</a>. Drove 43 patients’ OncoKB level 3 classification; rationale for <a href="../drugs/ivosidenib.html">ivosidenib</a> (AG-120) clinical trial enrollment.</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a> — gene fusions in 14% of IHC, observed exclusively in intrahepatic cases. Multiple fusion partners with wide breakpoint variation; most frequent partners were <a href="../genes/BICC1.html">BICC1</a> and <a href="../genes/KIAA1217.html">KIAA1217</a>. Targeted by <a href="../drugs/infigratinib.html">infigratinib</a> (BGJ398) and other pan-FGFR inhibitors.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/CDKN2B.html">CDKN2B</a> — focal deletions in 8% overall; associated with significantly shorter OS (p=0.0015) and shorter PFS on first-line chemo (p=0.002). Negative prognostic biomarker.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — amplification in 4% (HER2 directed therapy rationale); shorter OS (p=0.0015) and PFS (p=0.028). Six patients had <a href="../genes/ERBB2.html">ERBB2</a> amplification as a level 2B alteration; two additional patients had ERBB2 hotspot mutations.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — enriched in EHC (38% vs 7% in IHC); associated with shorter OS in advanced disease (p=0.026); mutually exclusive with <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/BAP1.html">BAP1</a>, and <a href="../genes/PBRM1.html">PBRM1</a>.</li>
+<li><a href="../genes/BAP1.html">BAP1</a> — mutated only in IHC (30/158); mutually exclusive with <a href="../genes/TP53.html">TP53</a>, <a href="../genes/KRAS.html">KRAS</a>, and <a href="../genes/SMAD4.html">SMAD4</a>.</li>
+<li><a href="../genes/TP53.html">TP53</a> — enriched in EHC; mutually exclusive with <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/BAP1.html">BAP1</a>, and <a href="../genes/FGFR2.html">FGFR2</a>; co-occurs with <a href="../genes/CDKN2A.html">CDKN2A</a> and <a href="../genes/CDKN2B.html">CDKN2B</a>.</li>
+<li><a href="../genes/SMAD4.html">SMAD4</a> — enriched in EHC; co-occurs with <a href="../genes/KRAS.html">KRAS</a>; mutually exclusive with <a href="../genes/IDH1.html">IDH1</a> and <a href="../genes/BAP1.html">BAP1</a>.</li>
+<li><a href="../genes/MDM2.html">MDM2</a> — amplification 4%; shorter PFS on first-line chemo (p=0.026).</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/ATM.html">ATM</a> — common but not significantly prognostic.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> V600E (n=1), <a href="../genes/MET.html">MET</a> amplification (n=1), <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> (n=3), <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a> (n=2) — rare level 2B actionable findings.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> (n=6), <a href="../genes/NRAS.html">NRAS</a> (n=4) — low-frequency level 3 actionable hotspot mutations.</li>
+<li><a href="../genes/MLH1.html">MLH1</a> / <a href="../genes/MSH6.html">MSH6</a> — loss in the single MSI-H tumor; rationale for <a href="../drugs/pembrolizumab.html">pembrolizumab</a> eligibility post-FDA approval, though this patient died before approval.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognostic biomarkers:</strong> Alterations in <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> and <a href="../genes/ERBB2.html">ERBB2</a> are negative prognostic markers in advanced cholangiocarcinoma — significantly shorter overall survival (p=0.0015 for both) and shorter time to progression on first-line chemotherapy.</li>
+<li><strong>Biomarker-directed therapy:</strong> 25 patients (16% of those with advanced disease) received matched therapy based on profiling — 13 <a href="../drugs/ivosidenib.html">ivosidenib</a>/IDH1 inhibitor, 6 FGFR inhibitors (e.g., <a href="../drugs/infigratinib.html">infigratinib</a>), 2 HER2-directed therapy, 1 <a href="../genes/EZH2.html">EZH2</a> inhibitor, 1 ERK inhibitor, and 1 <a href="../drugs/sorafenib.html">sorafenib</a>. Sixteen of 25 (64%) had evidence of response or clinical benefit.</li>
+<li><strong>Trial eligibility:</strong> Demonstrates feasibility of prospective NGS for enrolling cholangiocarcinoma patients onto biomarker-selected trials (e.g., the phase III ClarIDHy trial of AG-120/<a href="../drugs/ivosidenib.html">ivosidenib</a> in IDH1-mutant cholangiocarcinoma).</li>
+<li><strong>Anatomic stratification supported by molecular signatures:</strong> IHC and EHC are biologically distinct — <a href="../genes/FGFR2.html">FGFR2</a> fusions and <a href="../genes/BAP1.html">BAP1</a> mutations are exclusive to IHC; <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/STK11.html">STK11</a>, and <a href="../genes/TP53.html">TP53</a> are enriched in EHC.</li>
+<li><strong>MSI screening:</strong> MMR deficiency in advanced cholangiocarcinoma is rare (0.5% in this cohort), lower than prior retrospective reports, but <a href="../methods/msisensor.html">MSIsensor</a> on clinical NGS can identify the rare patient potentially eligible for <a href="../drugs/pembrolizumab.html">pembrolizumab</a> under the tissue-agnostic indication.</li>
+<li><strong>First-line chemotherapy:</strong> <a href="../drugs/gemcitabine.html">Gemcitabine</a>/platinum remains standard (80% of first-line regimens here); alternative regimens used included <a href="../drugs/folfox.html">FOLFOX</a>, <a href="../drugs/capecitabine.html">capecitabine</a>, and <a href="../drugs/gemcitabine.html">gemcitabine</a>/<a href="../drugs/nab-paclitaxel.html">nab-paclitaxel</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Archival FFPE tissue was used in all cases; molecular state at the time of treatment may have diverged from the sequenced sample (though no primary vs metastatic differences were found).</li>
+<li>Targeted NGS (341/410 genes) cannot detect actionable alterations outside the panel — whole exome/genome or transcriptome sequencing might find additional gene signatures, but the authors note this would not be feasible at scale given cost, FFPE limitations, and turnaround time constraints in advanced disease.</li>
+<li>Definitive prognostic conclusions are limited by clinical and molecular heterogeneity of the cohort.</li>
+<li>Survival analysis was calculated from date of diagnosis with advanced/metastatic disease (some patients had prior surgical resection), which differs from prior studies (e.g., Javle et al.) and may impact comparability.</li>
+<li><a href="../genes/NTRK1.html">NTRK1</a>/<a href="../genes/NTRK3.html">NTRK3</a> and <a href="../genes/ROS1.html">ROS1</a> fusions, previously reported in cholangiocarcinoma, were not observed in this cohort.</li>
+<li>Germline pathogenic variants were not analyzed despite paired germline sequencing being performed.</li>
+<li>Validation of CDKN2A/B and ERBB2 prognostic signal in an independent prospective cohort is needed.</li>
+<li>Open question: do the clinical phenotypes of common targetable alterations vary based on co-mutation patterns? The authors flag this as an important consideration for trial design.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“195 patients were studied: 78% intrahepatic and 22% extrahepatic cholangiocarcinoma. The most commonly altered genes in intrahepatic cholangiocarcinoma (IHC) were <a href="../genes/IDH1.html">IDH1</a> (30%), <a href="../genes/ARID1A.html">ARID1A</a> (23%) <a href="../genes/BAP1.html">BAP1</a> (20%), <a href="../genes/TP53.html">TP53</a> (20%) and FGFR2 gene fusions (14%).” — Abstract.</li>
+<li>“Alterations in CDKN2A/B and ERBB2 were associated with reduced survival and time to progression on chemotherapy in patients with locally advanced or metastatic disease.” — Abstract.</li>
+<li>“Genetic alterations with potential therapeutic implications were identified in 47% of patients, leading to biomarker directed therapy or clinical trial enrollment in 16% of patients.” — Abstract.</li>
+<li>“Tumors were profiled for somatic genomic alterations using MSK-IMPACT… Custom DNA probes were designed to capture all exons and selected introns of 341 (n=20) or 410 (n=318) oncogenes, tumor suppressor genes, and members of pathways deemed potentially actionable by targeted therapies.” — Methods, Genetic analysis.</li>
+<li>“Patients with alterations in CDKN2A/B (n=15, P=0.002), ERBB2 (n=8, P=0.028) and <a href="../genes/MDM2.html">MDM2</a> (n=7, P=0.026) had significantly shorter time to progression on first line chemotherapy.” — Results, Molecular predictors.</li>
+<li>“One tumor (0.5%) had a signature of microsatellite instability (MSI-H, MSIsensor score of 35.1).” — Results.</li>
+<li>“Twenty-five patients (16% of those patients with advanced disease) received matched therapy based on the molecular profiling results… Sixteen of the 25 patients (64%) treated with targeted therapy had evidence of response or clinical benefit to treatment.” — Results, Potentially actionable genetic alterations.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29848569.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29848569.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

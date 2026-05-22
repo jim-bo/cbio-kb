@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Applied alongside Indelocator, dRanger, BreakPointer, CLONET, ChainFinder, ABSOLUTE, and GISTIC v2 in WGS analysis of 57 prostate tumors; detected 356,136 somatic base-pair mutations across the cohort (mean 33 non-silent exonic per primary tumor) <a href="../papers/23622249.html">PMID:23622249</a></li>
 <li>Used for somatic SNV calling in 149 esophageal adenocarcinoma WES pairs (and 16 WGS pairs) alongside Indelocator; median 104 non-silent coding mutations per tumor at median genome-wide frequency 9.9/Mb <a href="../papers/23525077.html">PMID:23525077</a></li>
-<li>Used alongside SomaticSniper for somatic SNV calling in 60 ACC tumor/normal pairs (55 exome + 5 WGS, Illumina HiSeq 2000); yielded 710 validated nonsynonymous mutations across 643 genes <a href="../papers/23685749.html">PMID:23685749</a></li>
+<li>Used alongside SomaticSniper for somatic SNV calling in 60 <a href="../cancer_types/ACC.html">ACC</a> tumor/normal pairs (55 exome + 5 WGS, Illumina HiSeq 2000); yielded 710 validated nonsynonymous mutations across 643 genes <a href="../papers/23685749.html">PMID:23685749</a></li>
 <li>Used to call somatic SNVs from whole-exome data of 45 <a href="../genes/BRAF.html">BRAF</a> V600 metastatic melanoma FFPE tumors (DeCOG cohort) aligned to hg19 via the Broad Picard/Firehose pipeline <a href="../papers/24265153.html">PMID:24265153</a>.</li>
 <li>Applied for somatic point-mutation calling in paired tumor/normal whole-exome sequencing of grade II glioma initial/recurrent pairs (n=23); mutation validation rate informed by independent re-genotyping <a href="../papers/24336570.html">PMID:24336570</a></li>
 <li>Applied for somatic point-mutation calling on the Illumina HiSeq whole-exome arm (13 paired samples) of the rhabdomyosarcoma cohort (147 total tumor/normal pairs); combined with MutSig for significantly mutated gene identification <a href="../papers/24436047.html">PMID:24436047</a></li>
@@ -192,11 +192,11 @@ ul.task-list li input[type="checkbox"] {
 <li>MuTect used for somatic SNV calling in whole-exome and whole-genome sequencing of colorectal cancer <a href="../papers/26343386.html">PMID:26343386</a></li>
 <li>Used for SNV calling alongside MutationSeq in whole-genome sequencing of 46 matched primary/recurrent medulloblastoma samples; contributed to identification of ~5-fold increased mutational burden at recurrence <a href="../papers/26760213.html">PMID:26760213</a>.</li>
 <li>One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic mutation detection across 820 TCGA diffuse glioma exomes <a href="../papers/26824661.html">PMID:26824661</a></li>
-<li>MuTect used for somatic SNV detection in 114 metastatic CRPC biopsies (81 patients); confirmed TP53 and RB1 as top altered genes distinguishing CRPC-NE from CRPC-Adeno <a href="../papers/26855148.html">PMID:26855148</a></li>
+<li>MuTect used for somatic SNV detection in 114 metastatic CRPC biopsies (81 patients); confirmed <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> as top altered genes distinguishing CRPC-NE from CRPC-Adeno <a href="../papers/26855148.html">PMID:26855148</a></li>
 <li>Used for somatic mutation calling in the discovery cohort of 6 plasmacytoid-variant bladder tumors profiled by whole-exome sequencing. <a href="../papers/26901067.html">PMID:26901067</a></li>
-<li>Used for somatic mutation calling on WES data from 141 tumors (56 men) with metastatic CRPC (prad_fhcrc cohort); identified AR, TP53, RB1, and MSH2/MSH6 driver mutations across metastatic sites. <a href="../papers/26928463.html">PMID:26928463</a></li>
+<li>Used for somatic mutation calling on WES data from 141 tumors (56 men) with metastatic CRPC (<a href="../datasets/prad_fhcrc.html">prad_fhcrc</a> cohort); identified <a href="../genes/AR.html">AR</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/RB1.html">RB1</a>, and MSH2/MSH6 driver mutations across metastatic sites. <a href="../papers/26928463.html">PMID:26928463</a></li>
 <li>Used for SNV calling in 619 CRC FFPE tumor/normal pairs alongside Indelocator (indels) and Strelka (concordant indel filtering) <a href="../papers/27149842.html">PMID:27149842</a></li>
-<li>Used for somatic mutation calling in 1,144 NSCLC (660 ADC + 484 SqCC) tumor/normal exome pairs in the pan-lung landscape study <a href="../papers/27158780.html">PMID:27158780</a></li>
+<li>Used for somatic mutation calling in 1,144 <a href="../cancer_types/NSCLC.html">NSCLC</a> (660 ADC + 484 SqCC) tumor/normal exome pairs in the pan-lung landscape study <a href="../papers/27158780.html">PMID:27158780</a></li>
 <li>Used (panel-of-normals filtering analogous to MuTect) for somatic mutation calling in 2,433 primary breast tumours from the METABRIC cohort targeted-sequencing study <a href="../papers/27161491.html">PMID:27161491</a></li>
 <li>Used for SNV calling in 62 uRCC tumours profiled with the MSK-IMPACT 230-gene panel (matched normal available in 61/62 cases). <a href="../papers/27713405.html">PMID:27713405</a></li>
 <li>SNV calling pipeline applied alongside SNVseeqer on 72 urothelial carcinoma WES samples; only ~28% of mutations were shared between matched pre/post-chemotherapy tumour pairs. <a href="../papers/27749842.html">PMID:27749842</a></li>
@@ -206,12 +206,31 @@ ul.task-list li input[type="checkbox"] {
 <li>Used as one of three somatic variant callers (MuTect, Pindel, GATK somatic indel detector) in the MSK-IMPACT SNV/indel pipeline; all calls manually reviewed in IGV <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>Applied for somatic SNV calling on CCA whole-genome and exome sequencing data in the ICGC cholangiocarcinoma cohort (489 tumors across three sequencing platforms) <a href="../papers/28667006.html">PMID:28667006</a></li>
 <li>Used for somatic SNV calling (MuTect v1.1.4) in 1001 DLBCL whole-exome sequencing samples <a href="../papers/28985567.html">PMID:28985567</a></li>
-<li>Used for SNV calling in 412 BLCA tumor-normal pairs identifying 128,772 SNVs; confirmed APOBEC-dominated mutational landscape (67% of SNVs) <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li>One of four somatic variant callers applied to 68 paired melanoma biopsies in the CA209-038 nivolumab trial; intersection of MuTect 1.1.4, SomaticSniper 1.0.4, VarScan 2.3.7, and Strelka 1.0.13 was used <a href="../papers/29033130.html">PMID:29033130</a></li>
-<li>MuTect used for SNV calling in 35 metastatic <a href="../cancer_types/CCRCC.html">CCRCC</a> paired tumor/normal WES samples to identify PBRM1 LOF mutations enriched in anti-PD-1 responders <a href="../papers/29301960.html">PMID:29301960</a></li>
+<li>Used for SNV calling in 412 <a href="../cancer_types/BLCA.html">BLCA</a> tumor-normal pairs identifying 128,772 SNVs; confirmed APOBEC-dominated mutational landscape (67% of SNVs) <a href="../papers/28988769.html">PMID:28988769</a></li>
+<li>One of four somatic variant callers applied to 68 paired melanoma biopsies in the CA209-038 <a href="../drugs/nivolumab.html">nivolumab</a> trial; intersection of MuTect 1.1.4, SomaticSniper 1.0.4, VarScan 2.3.7, and Strelka 1.0.13 was used <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li>MuTect used for SNV calling in 35 metastatic <a href="../cancer_types/CCRCC.html">CCRCC</a> paired tumor/normal WES samples to identify <a href="../genes/PBRM1.html">PBRM1</a> LOF mutations enriched in anti-PD-1 responders <a href="../papers/29301960.html">PMID:29301960</a></li>
 <li>MuTect used for SNV calling in 15 vulvar SCC paired tumor/normal WES samples (Korean cohort) aligned to hg19 with BWA v0.7.15 <a href="../papers/29422544.html">PMID:29422544</a></li>
 <li>One of seven callers in the TCGA MC3 pipeline; detected the largest number of true positive SNVs and showed highest pair-wise agreement with MuSE; run by Broad Firehose <a href="../papers/29596782.html">PMID:29596782</a></li>
-<li>Used to call SNVs (v1.1.6) across 1,013 prostate tumor/normal pairs in the prad_p1000 dataset, identifying 97 SMGs <a href="../papers/29610475.html">PMID:29610475</a></li>
+<li>Used to call SNVs (v1.1.6) across 1,013 prostate tumor/normal pairs in the <a href="../datasets/prad_p1000.html">prad_p1000</a> dataset, identifying 97 SMGs <a href="../papers/29610475.html">PMID:29610475</a></li>
+<li>One of seven somatic callers in the MC3 pipeline applied to 11,000 TCGA PanCancer Atlas tumors; consensus calling reduced 22,485,627 raw calls to 2,907,335 high-confidence somatic variants <a href="../papers/29625049.html">PMID:29625049</a>.</li>
+<li>Applied to call somatic variants in 304 DLBCLs (WES with targeted SV bait, median 87.6× tumor coverage); used alongside Indelocator for indel calling <a href="../papers/29713087.html">PMID:29713087</a></li>
+<li>Used for somatic variant calling in pediatric WGS samples <a href="../papers/29670109.html">PMID:29670109</a></li>
+<li>Applied for somatic mutation calling in the MSK IMPACT neoantigen study cohort <a href="../papers/29657128.html">PMID:29657128</a></li>
+<li>Used for somatic SNV calling in the pan-cancer MSI analysis pipeline applied to 11,139 whole-exome tumor-normal pairs <a href="../papers/29850653.html">PMID:29850653</a></li>
+<li>Used for somatic SNV calling in the uniform reanalysis of 249 MSS tumor/normal WES samples from seven ICB cohorts; combined with Strelka (indels), Oncotator (annotation), and ABSOLUTE (clonality) <a href="../papers/30150660.html">PMID:30150660</a></li>
+<li>MuTect v1.1.7 used for somatic SNV calling from whole-exome sequencing of 622 <a href="../cancer_types/AML.html">AML</a> specimens in the Beat <a href="../cancer_types/AML.html">AML</a> study <a href="../papers/30333627.html">PMID:30333627</a></li>
+<li>Used for somatic SNV/indel calling in the pan-Asia cHCC-ICC WES/WGS study (133 cases); variant calls subsequently annotated by <a href="../methods/annovar.html">annovar</a> and analyzed with <a href="../methods/mutsigcv.html">mutsigcv</a> and dNdScv <a href="../papers/31130341.html">PMID:31130341</a></li>
+<li>Part of the consensus SNV-calling pipeline in the high-grade <a href="../cancer_types/UTUC.html">UTUC</a> study (37 tumor-normal pairs), used together with <a href="../methods/strelka.html">strelka</a> and <a href="../methods/varscan.html">varscan</a>; variants annotated by <a href="../methods/oncotator.html">oncotator</a> <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>One of three core SNV/indel variant callers (Broad) in the PCAWG pan-cancer WGS study (n=2,658 tumors, 38 tumor types); consensus calls with Sanger and DKFZ pipelines achieved 95% sensitivity and 95% precision for SNVs <a href="../papers/32025007.html">PMID:32025007</a>.</li>
+<li>Used (MuTect, as well as Strelka, VarScan2, Platypus, Lancet, Scalpel) for somatic variant calling in WES and MSK-IMPACT data from 44 metaplastic breast cancers (<a href="../cancer_types/MBC.html">MBC</a>) <a href="../papers/33863915.html">PMID:33863915</a></li>
+<li>MuTect2 v4.1.2.0 used to call somatic SNVs in reprocessed WES/WGS data from 88 <a href="../cancer_types/CSCC.html">CSCC</a> tumors aligned with BWA-MEM to hg19; annotated with Funcotator v4.1.2.0 <a href="../papers/34272401.html">PMID:34272401</a></li>
+<li>MuTect used alongside <a href="../methods/vardict.html">VarDict</a> for SNV/indel calling in cfDNA from 681 plasma samples in the MSK-ACCESS analytical validation and prospective clinical cohort <a href="../papers/34145282.html">PMID:34145282</a></li>
+<li>Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the <a href="../datasets/lung_nci_2022.html">lung_nci_2022</a> cohort <a href="../papers/34493867.html">PMID:34493867</a></li>
+<li>MuTect used for somatic SNV calling in MSK-IMPACT sequencing of 46 <a href="../cancer_types/SCLC.html">SCLC</a> PDX/CDX and 26 clinical samples in MSK <a href="../cancer_types/SCLC.html">SCLC</a> model resource <a href="../papers/35440124.html">PMID:35440124</a>.</li>
+<li>Used in <a href="../datasets/prostate_pcbm_swiss_2019.html">prostate_pcbm_swiss_2019</a> for somatic SNV calling from WES of 168 prostate cancer brain metastasis samples (Agilent SureSelectXT V7, Illumina NovaSeq6000, ~258× target coverage) <a href="../papers/35504881.html">PMID:35504881</a></li>
+<li>Used in <a href="../datasets/mixed_kunga_msk_2022.html">mixed_kunga_msk_2022</a> cWGTS pipeline for somatic SNV detection from whole-genome sequencing in 114 pediatric/AYA solid tumor patients (Illumina NovaSeq 6000, PE150, median 95× tumor depth) <a href="../papers/35585047.html">PMID:35585047</a></li>
+<li>MuTect2 used for somatic variant calling on b37-aligned whole-exome and whole-genome sequencing data in the GLASS longitudinal diffuse glioma expansion cohort (304 patients, 37 hospitals) <a href="../papers/35649412.html">PMID:35649412</a></li>
+<li>Used for SNV/InDel calling in the OrigiMed CSYS 450-gene NGS panel pipeline across 10,194 Chinese solid-tumor patients; identified 80,703 SNVs/InDels and 19,192 truncations from tumor + matched-blood pairs <a href="../papers/35871175.html">PMID:35871175</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -224,45 +243,64 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/23685749.html">PMID:23685749</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24265153.html">PMID:24265153</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24336570.html">PMID:24336570</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24436047.html">PMID:24436047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24476821.html">PMID:24476821</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25096233.html">PMID:25096233</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25164765.html">PMID:25164765</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25240281.html">PMID:25240281</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25583493.html">PMID:25583493</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25589618.html">PMID:25589618</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25855536.html">PMID:25855536</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26000489.html">PMID:26000489</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26095796.html">PMID:26095796</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26278805.html">PMID:26278805</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26343386.html">PMID:26343386</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26760213.html">PMID:26760213</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26824661.html">PMID:26824661</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26855148.html">PMID:26855148</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26928463.html">PMID:26928463</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27149842.html">PMID:27149842</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27749842.html">PMID:27749842</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28373299.html">PMID:28373299</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28445112.html">PMID:28445112</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28985567.html">PMID:28985567</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29422544.html">PMID:29422544</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29610475.html">PMID:29610475</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23685749.html">PMID:23685749</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24265153.html">PMID:24265153</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24336570.html">PMID:24336570</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24436047.html">PMID:24436047</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24476821.html">PMID:24476821</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25096233.html">PMID:25096233</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25164765.html">PMID:25164765</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25240281.html">PMID:25240281</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25583493.html">PMID:25583493</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25589618.html">PMID:25589618</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25855536.html">PMID:25855536</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26000489.html">PMID:26000489</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26095796.html">PMID:26095796</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26278805.html">PMID:26278805</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26343386.html">PMID:26343386</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26760213.html">PMID:26760213</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26824661.html">PMID:26824661</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26855148.html">PMID:26855148</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26928463.html">PMID:26928463</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27149842.html">PMID:27149842</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27749842.html">PMID:27749842</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28373299.html">PMID:28373299</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28445112.html">PMID:28445112</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28985567.html">PMID:28985567</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29422544.html">PMID:29422544</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29610475.html">PMID:29610475</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713087.html">PMID:29713087</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29670109.html">PMID:29670109</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29657128.html">PMID:29657128</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29850653.html">PMID:29850653</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30150660.html">PMID:30150660</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30333627.html">PMID:30333627</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31130341.html">PMID:31130341</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32025007.html">PMID:32025007</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33863915.html">PMID:33863915</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34272401.html">PMID:34272401</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34145282.html">PMID:34145282</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34493867.html">PMID:34493867</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35440124.html">PMID:35440124</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

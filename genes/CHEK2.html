@@ -170,84 +170,58 @@ ul.task-list li input[type="checkbox"] {
 <h1>CHEK2</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by <a href="../genes/ATM.html">ATM</a> in response to DNA double-strand breaks. CHEK2 phosphorylates multiple substrates including <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, and CDC25C to enforce cell cycle arrest and promote DNA repair or apoptosis. Germline CHEK2 variants are moderate-penetrance cancer predisposition alleles associated with elevated risk of breast, prostate, and other cancers. In the context of the DNA damage response (DDR) pathway in prostate cancer, CHEK2 is one of several genes whose alteration characterizes adenocarcinoma models.</p>
+<p>CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tumor suppressor in the DNA-damage response pathway. Activated by <a href="../genes/ATM.html">ATM</a> in response to DNA double-strand breaks, CHEK2 phosphorylates multiple substrates including <a href="../genes/BRCA1.html">BRCA1</a>, CDC25A, and p53 to arrest cell cycle progression and promote apoptosis or repair. Germline CHEK2 variants are associated with hereditary breast and colorectal cancer susceptibility. In retinoblastoma, a germline CHEK2 pathogenic variant has been identified as a non-RB1 cancer-predisposition variant.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>DDR pathway genes including CHEK2 harbored driver genomic alterations predominantly in prostate adenocarcinoma (<a href="../cancer_types/PRAD.html">PRAD</a>) patient-derived xenograft (PDX) models, while neuroendocrine prostate cancer (NEPC) showed DDR upregulation at the transcriptomic level without driver genomic alterations <a href="../papers/38488813.html">PMID:38488813</a>.</li>
-<li>In MSK-CHORD (24,950 patients), CHEK2 and <a href="../genes/PPM1D.html">PPM1D</a> clonal-haematopoiesis variants were enriched in patients who had received prior systemic therapy, as annotated by NLP of clinical records; CHEK2 was identified as a post-treatment alteration across cancer types <a href="../papers/39506116.html">PMID:39506116</a>.</li>
-<li>In 2,336 PDAC patients (<a href="../datasets/pdac_msk_2024.html">pdac_msk_2024</a>), CHEK2 germline pathogenic variants were reported at higher prevalence in patients with Ashkenazi Jewish ancestry <a href="../papers/39753968.html">PMID:39753968</a>.</li>
-<li>CHEK2 identified as a secondary synthetic lethal candidate in DDR screen in FBXO7-deficient CRC cells (checkpoint signaling pathway) <a href="../papers/36334560.html">PMID:36334560</a></li>
-<li>Identified as pharmacogenomically relevant in NCI-60 cell line panel; CHEK2 alteration status correlates with drug sensitivity profiles in CellMiner analysis <a href="../papers/22802077.html">PMID:22802077</a></li>
-<li>Mutated in neuroblastoma (Broad WES/WGS, 240 tumors); CHEK2 mutations identified among recurrently mutated DNA-damage checkpoint genes, implicating checkpoint deficiency in neuroblastoma pathogenesis <a href="../papers/23334666.html">PMID:23334666</a></li>
-<li>Co-deleted with <a href="../genes/TP53.html">TP53</a> in one prostate carcinoma chromoplexy chain; disrupted by structural rearrangement <a href="../papers/23622249.html">PMID:23622249</a></li>
-<li>Missense somatic mutations in 1 patient each with <a href="../cancer_types/PV.html">PV</a>, <a href="../cancer_types/ET.html">ET</a>, and <a href="../cancer_types/MF.html">MF</a> (q=0.008 by MutSigCV); not previously reported in <a href="../cancer_types/MPN.html">MPN</a> at time of publication <a href="../papers/24325359.html">PMID:24325359</a></li>
-<li>Genomic-stability mutation detected in prostate cancer cell lines derived from CRPC <a href="../papers/25201530.html">PMID:25201530</a></li>
-<li>Significantly mutated gene (SMG) in papillary thyroid carcinoma (q&lt;0.1); DNA-repair-related SMG co-occurring with MAPK pathway drivers; CHEK2 mutations associated with 22q loss (p=0.0035) in the SCNA-22q-del subtype <a href="../papers/25417114.html">PMID:25417114</a></li>
-<li>Harbors at least one identical previously COSMIC-reported mutation in HNSCC (279-tumor TCGA cohort) <a href="../papers/25631445.html">PMID:25631445</a></li>
-<li>DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy <a href="../papers/25855536.html">PMID:25855536</a></li>
-<li>CHEK2 identified as a DNA damage pathway driver in CLL in a 538-sample WES study, alongside <a href="../genes/BRCC3.html">BRCC3</a>, <a href="../genes/ELF4.html">ELF4</a>, and <a href="../genes/DYRK1A.html">DYRK1A</a> <a href="../papers/26466571.html">PMID:26466571</a></li>
-<li>CHEK2 pathogenic germline mutations found in 2.22% of the METABRIC 2,433-tumor breast cancer cohort; confirmed as a DNA damage &amp; apoptosis Mut-driver TSG in ER+ breast cancer via homozygous deletion + inactivating mutation evidence <a href="../papers/27161491.html">PMID:27161491</a>.</li>
-<li>CHEK2: recurrent germline pathogenic/likely pathogenic variant in Indian familial NSCLC cohort enriched in young lung cancer <a href="../papers/27346245.html">PMID:27346245</a></li>
-<li>Recurrently mutated in 3% of unclassified renal cell carcinoma (uRCC) cases in a 62-case MSKCC MSK-IMPACT cohort; listed among additional recurrent mutations beyond the dominant NF2/SETD2/FH/mTORC1 subsets <a href="../papers/27713405.html">PMID:27713405</a></li>
-<li>Less-frequent DNA damage repair (DDR) gene alteration contributing to the 30% DDR-altered fraction in high-grade <a href="../cancer_types/BLCA.html">BLCA</a> NMIBC tumors (n=82); DDR alterations associated with significantly higher mutational burden vs DDR-intact (median 26 vs 8 mut/Mb, p &lt; 0.001) <a href="../papers/28583311.html">PMID:28583311</a></li>
-<li>Germline pathogenic/predicted-pathogenic mutation (PPGM) enriched in the MET500 metastatic pan-cancer cohort relative to ExAC controls; identified as a DNA-repair PPGM gene alongside BRCA1, BRCA2, and MLH1 <a href="../papers/28783718.html">PMID:28783718</a>.</li>
-<li>Germline DDR alteration contributing to the 27% combined HR-deficiency rate in prostate cancer across disease states (locoregional to mCRPC); identified alongside BRCA1 and ATM as drivers of PARP-inhibitor therapeutic rationale <a href="../papers/28825054.html">PMID:28825054</a>.</li>
-<li>CHEK2 germline LP/PVs identified in 5 of 28 LP/PV carriers (17.9%) in a pediatric cancer predisposition cohort; burden OR=9.6, p=2.42×10⁻⁴; 4 carriers had BCP-ALL and 1 had Langerhans-cell histiocytosis (with co-occurring NF1 LP/PV); 3 of 5 were pLoF; CHEK2 is among the candidate HBOC genes assessed by WES <a href="../papers/29489754.html">PMID:29489754</a>.</li>
+<li>Germline pathogenic variant CHEK2 p.Ile157Thr identified in 1 of 42 retinoblastoma patients tested for germline mutations in the <a href="../datasets/rbl_mskcc_2020.html">rbl_mskcc_2020</a> cohort (MSK-IMPACT); this is a known moderate-penetrance CHEK2 variant associated with breast and colorectal cancer predisposition <a href="../papers/33466343.html">PMID:33466343</a>.</li>
+<li>Identified among moderate/low-penetrance germline cancer-predisposition genes interrogated in early-onset colorectal cancer; rates similar between EO-CRC and AO-CRC after adjustment <a href="../papers/34405229.html">PMID:34405229</a></li>
+<li>Loss of heterozygosity (LOH) at CHEK2 independently associated with poor overall survival in lung cancers from never smokers (LCINS; HR significant in Cox PH analysis) <a href="../papers/34493867.html">PMID:34493867</a></li>
+<li>Cited as a DDR-pathway gene whose clonal hematopoiesis clones expand under therapeutic pressure in adult oncology cohorts; context reference within study of pediatric neuroblastoma therapy-related MDS/AL surveillance <a href="../papers/35078859.html">PMID:35078859</a></li>
+<li><a href="../genes/ATM.html">ATM</a> and CHEK2 mutations were identified in the <a href="../genes/TP53.html">TP53</a> pathway in MSI-stable esophageal adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>) patients but were rare and did not drive the pathway signal, which was dominated by <a href="../genes/TP53.html">TP53</a> and <a href="../genes/MDM2.html">MDM2</a> alterations. <a href="../papers/35377946.html">PMID:35377946</a></li>
+<li>Pathogenic germline variant identified in a low-grade serous ovarian carcinoma (LGSC) patient; germline pathogenic mutation rate was 9% across an 88-gene panel in 119 LGSC patients <a href="../papers/35443055.html">PMID:35443055</a></li>
+<li>Part of the 15 PROfound HRR genes assessed in prostate cancer brain metastases (PCBM); 10/51 (19.6%) PCBM patients qualified by alteration in any PROfound HRR gene including CHEK2 <a href="../papers/35504881.html">PMID:35504881</a></li>
+<li>CHEK2 altered as part of the DDR pathway in 9.6% of all sarcoma samples; highest DDR burden seen in <a href="../cancer_types/ULMS.html">ULMS</a> (24%), <a href="../cancer_types/MPNST.html">MPNST</a> (16%), <a href="../cancer_types/PLLS.html">PLLS</a> (13%), <a href="../cancer_types/PECOMA.html">PECOMA</a> (13%), and <a href="../cancer_types/ANGS.html">ANGS</a> (13%) <a href="../papers/35705560.html">PMID:35705560</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong>PRAD/PRNE</strong>: CHEK2 driver alterations in the DDR pathway are enriched in adenocarcinoma PDX models; NEPC shows DDR transcriptomic upregulation instead of genomic alterations, suggesting distinct DDR biology between these prostate cancer subtypes <a href="../papers/38488813.html">PMID:38488813</a>.</li>
-<li><strong>Pan-cancer (MSK-CHORD)</strong>: CHEK2 clonal-haematopoiesis variants enriched after prior systemic therapy; represents a therapy-driven rather than tumor-intrinsic alteration context <a href="../papers/39506116.html">PMID:39506116</a>.</li>
-<li><strong><a href="../cancer_types/PAAD.html">PAAD</a></strong>: CHEK2 germline pathogenic variants enriched in patients with Ashkenazi Jewish ancestry in the 2,336-patient PDAC MSK-IMPACT cohort <a href="../papers/39753968.html">PMID:39753968</a>.</li>
+<li><strong>Retinoblastoma (<a href="../cancer_types/RBL.html">RBL</a>):</strong> germline CHEK2 p.Ile157Thr detected in 1/42 patients (2.4%); patient showed intraocular disease only; part of a 12% overall prevalence of non-RB1 germline cancer-predisposition mutations in this cohort <a href="../papers/33466343.html">PMID:33466343</a>.</li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>CHEK2 alterations co-occur in the DDR pathway with <a href="../genes/ATM.html">ATM</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, and <a href="../genes/CDK12.html">CDK12</a> alterations in prostate adenocarcinoma PDXs; this cluster of DDR gene alterations is largely absent in NEPC models <a href="../papers/38488813.html">PMID:38488813</a>.</li>
+<li>Germline CHEK2 variant co-occurred with somatic <a href="../genes/RB1.html">RB1</a> biallelic loss (the expected primary driver) in the retinoblastoma patient harboring this germline alteration <a href="../papers/33466343.html">PMID:33466343</a>.</li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>DDR gene alterations including CHEK2 in prostate adenocarcinoma provide a rationale for PARP inhibitor therapy (e.g., <a href="../drugs/olaparib.html">olaparib</a>, <a href="../drugs/rucaparib.html">rucaparib</a>, <a href="../drugs/niraparib.html">niraparib</a>), consistent with FDA-approved indications for BRCA1/2-mutant and HRD-positive CRPC <a href="../papers/38488813.html">PMID:38488813</a>.</li>
+<li>No therapeutic targeting reported in the corpus for retinoblastoma context. Germline CHEK2 detection supports broader germline testing and lifetime cancer screening for second-cancer risk beyond retinoblastoma <a href="../papers/33466343.html">PMID:33466343</a>.</li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
 <h2 class="anchored" data-anchor-id="open-questions">Open questions</h2>
 <ul>
-<li>The specific frequency of CHEK2 alterations among DDR genes in the MDA PCa PDX series was not individually quantified; the aggregate DDR rate was stated as enriched in adenocarcinoma PDXs.</li>
+<li>Whether germline CHEK2 variants influence retinoblastoma tumorigenesis, clinical course (beyond <a href="../genes/RB1.html">RB1</a> as primary driver), or second-cancer risk in retinoblastoma patients is unknown; all carriers in this cohort showed intraocular disease only <a href="../papers/33466343.html">PMID:33466343</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><p><a href="../papers/38488813.html">PMID:38488813</a></p></li>
-<li><p><a href="../papers/39506116.html">PMID:39506116</a></p></li>
-<li><p><a href="../papers/39753968.html">PMID:39753968</a></p></li>
-<li><p><a href="../papers/36334560.html">PMID:36334560</a></p></li>
-<li><p><a href="../papers/22802077.html">PMID:22802077</a></p></li>
-<li><p><a href="../papers/23334666.html">PMID:23334666</a></p></li>
-<li><p><a href="../papers/23622249.html">PMID:23622249</a></p></li>
-<li><p><a href="../papers/24325359.html">PMID:24325359</a></p></li>
-<li><p><a href="../papers/25201530.html">PMID:25201530</a></p></li>
-<li><p><a href="../papers/25417114.html">PMID:25417114</a></p></li>
-<li><p><a href="../papers/25631445.html">PMID:25631445</a></p></li>
-<li><p><a href="../papers/25855536.html">PMID:25855536</a></p></li>
+<li><p><a href="../papers/33466343.html">PMID:33466343</a></p></li>
+<li><p><a href="../papers/34405229.html">PMID:34405229</a></p></li>
+<li><p><a href="../papers/34493867.html">PMID:34493867</a></p></li>
+<li><p><a href="../papers/35078859.html">PMID:35078859</a></p></li>
+<li><p><a href="../papers/35377946.html">PMID:35377946</a></p></li>
+<li><p><a href="../papers/35443055.html">PMID:35443055</a></p></li>
+<li><p><a href="../papers/35504881.html">PMID:35504881</a></p></li>
+<li><p><a href="../papers/35705560.html">PMID:35705560</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26466571.html">PMID:26466571</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27346245.html">PMID:27346245</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28583311.html">PMID:28583311</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28783718.html">PMID:28783718</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29489754.html">PMID:29489754</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

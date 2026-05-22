@@ -175,11 +175,28 @@ ul.task-list li input[type="checkbox"] {
 <li>Used as the reference comparator in the development and validation of <a href="../methods/mimsi.html">mimsi</a>, assessed across a held-out test set (n=317), a prospective validation cohort (n=5,037 with MMR IHC), and a global MSK-IMPACT comparison cohort (n=45,112 samples) <a href="../papers/39746944.html">PMID:39746944</a>.</li>
 <li>Used in the MSK-IMPACT clinical pipeline for MSI inference in 2,336 PDAC patients; cut-off ≥10 for MSI-H classification <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>Used alongside MiMSI and IDYLLA MSI to assess microsatellite instability in 244 <a href="../cancer_types/GBC.html">GBC</a> samples; identified 6 tumors (3%) as MSI-High <a href="../papers/36228155.html">PMID:36228155</a></li>
-<li>Applied to WGS data of 28 metastatic NENs to predict MSI status; classified PN4 (homozygous MSH6/MLH1 loss, TMB ~11 mut/Mb) as MSI-low — illustrating that dMMR does not always predict MSI-high in non-colorectal tumors <a href="../papers/24326773.html">PMID:24326773</a>.</li>
+<li>Applied to WGS data of 28 metastatic NENs to predict MSI status; classified PN4 (homozygous MSH6/MLH1 loss, TMB ~11 mut/Mb) as MSI-low — illustrating that dMMR does not always predict MSI-high in non-colorectal tumors <a href="../papers/40328872.html">PMID:40328872</a>.</li>
 <li>MSIsensor used to cross-check signature-based MSI calls in the MSK-IMPACT cohort; identified 102 MSI patients across 11 tumor types, 45% previously untested for MMR deficiency <a href="../papers/28481359.html">PMID:28481359</a></li>
-<li>MSIsensor used to determine MSI status from targeted sequencing data in 295 metastatic EGC patients (MSI-H threshold ≥10); identified 9/295 (3%) MSI-H tumors <a href="../papers/29122777.html">PMID:29122777</a></li>
+<li>MSIsensor used to determine MSI status from targeted sequencing data in 295 metastatic <a href="../cancer_types/EGC.html">EGC</a> patients (MSI-H threshold ≥10); identified 9/295 (3%) MSI-H tumors <a href="../papers/29122777.html">PMID:29122777</a></li>
 <li>MSIsensor score ≥10 used to classify 99 MSI-H/hypermutated (8.7%) and 1,027 MSS (90.6%) cases among 1,134 <a href="../cancer_types/COADREAD.html">COADREAD</a> tumors; 98.6% concordance with MMR IHC <a href="../papers/29316426.html">PMID:29316426</a></li>
 <li>MSIsensor used to assess microsatellite instability in SUMMIT basket-trial patients with ERBB2/ERBB3-mutant solid tumors profiled by MSK-IMPACT; results contributed to TMB and co-mutation analysis <a href="../papers/29420467.html">PMID:29420467</a></li>
+<li>Used to quantify MSI status (threshold score &gt;4) across TCGA PanCancer Atlas tumors; 250/1,464 samples with somatic MMR mutations and 18/60 with germline MMR variants reached MSI-high status <a href="../papers/29625049.html">PMID:29625049</a>.</li>
+<li>Applied to MSK-IMPACT targeted sequencing data from 195 cholangiocarcinoma patients; identified 1 MSI-H tumor (0.5%, score 35.1) with MLH1/MSH6 protein loss on IHC <a href="../papers/29848569.html">PMID:29848569</a></li>
+<li>MSIsensor v0.2 (threshold ≥10 for MSI-H) applied to 189 advanced endometrial cancer tumors; 29/30 MMR-D/presumed-MMR-D tumors scored MSI-H; one MMR-proficient-by-IHC case was rescued as MSI-H by MSIsensor (occult MMR deficiency) <a href="../papers/30068706.html">PMID:30068706</a></li>
+<li>MSIsensor used to call MSI status in 127 advanced <a href="../cancer_types/HCC.html">HCC</a> tumors (MSI-H threshold ≥10); no MSI-H cases observed and TMB median 4.08 <a href="../papers/30373752.html">PMID:30373752</a></li>
+<li>Used to call microsatellite instability status in 37 high-grade <a href="../cancer_types/UTUC.html">UTUC</a> tumors; mean MSIsensor score in WCM <a href="../cancer_types/UTUC.html">UTUC</a> and TCGA UCB were both below the MSI-H threshold of 3.5 and indistinguishable, confirming sporadic <a href="../cancer_types/UTUC.html">UTUC</a> is not microsatellite-unstable despite reduced MMR protein expression <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>Applied to all 1,045 adenoid cystic carcinomas to assess microsatellite status; all cases returned microsatellite-stable, even among the 15/90 MSKCC R/M cases with MLH1/MSH6 germline variants <a href="../papers/31483290.html">PMID:31483290</a>.</li>
+<li>MSIsensor v0.2 applied to 107 uterine sarcoma MSK-IMPACT samples; threshold ≥10 defined MSI-H; 2 uLMS cases scored MSI-H with outlier TMB and IHC-confirmed MMR loss <a href="../papers/32299819.html">PMID:32299819</a></li>
+<li>MSIsensor used to <a href="../methods/estimate.html">estimate</a> microsatellite instability in 83 retinoblastoma specimens; TMB uniformly low (0–3 mutations/Mb) <a href="../papers/33466343.html">PMID:33466343</a></li>
+<li>MSIsensor (cutoff ≥10) used for MSI calling in 487 EAC/EGJ patients; 15/487 (3.1%) were MSI-high and excluded from survival analyses <a href="../papers/33795256.html">PMID:33795256</a></li>
+<li>Applied to cfDNA plasma samples in the tumor-fraction-guided cfDNA triage study to assess MSI status; one CRPC patient with two failed tumor biopsies was found to be MSI-High by cf-IMPACT, confirmed by later bone biopsy, leading to <a href="../drugs/pembrolizumab.html">pembrolizumab</a> treatment and durable response <a href="../papers/34059130.html">PMID:34059130</a></li>
+<li>Used to classify MSI status in 64 Nigerian CRC tumors; 28.1% (18/64) were MSI-H, significantly higher than TCGA (14.2%) and MSKCC (8.5%) reference cohorts (P&lt;0.001) <a href="../papers/34819518.html">PMID:34819518</a></li>
+<li>MSIsensor score ≥10 used to classify MSI-H; 14 MSI-H cases excluded from neoadjuvant response analyses in 237-patient <a href="../cancer_types/EGC.html">EGC</a> cohort <a href="../papers/35377946.html">PMID:35377946</a>.</li>
+<li>Applied in <a href="../datasets/lgsoc_mapk_msk_2022.html">lgsoc_mapk_msk_2022</a>: all 102 evaluable LGSC cases were microsatellite stable (median MSIsensor score 0.12) <a href="../papers/35443055.html">PMID:35443055</a></li>
+<li>Used in the cWGTS pipeline (<a href="../datasets/mixed_kunga_msk_2022.html">mixed_kunga_msk_2022</a>) for microsatellite instability assessment in 114 pediatric/AYA solid tumor patients; MSI signal detected in 7 patients <a href="../papers/35585047.html">PMID:35585047</a></li>
+<li>MSIsensor with threshold ≥10 used to classify MSI status in 2,138 sarcomas; only 5/1,893 evaluable samples were MSI-high, confirming MSI rarity in mesenchymal tumors <a href="../papers/35705560.html">PMID:35705560</a></li>
+<li>MSIsensor (threshold ≥10 = MSI-H; 3–&lt;10 = indeterminate; &lt;3 = MSS) applied to 184 endometrial cancers; all MLH1ph and somatic MMR-D cases were MSI-H, but 83% of MSH6-germline and 31% of MLH1/PMS2/MSH2-germline cases scored MSS/indeterminate — revealing a sensitivity floor for Lynch syndrome EC <a href="../papers/35849120.html">PMID:35849120</a></li>
+<li>Used for MSI status determination in aSCLC samples; confirmed one MSI-H case (A20) with somatic <a href="../genes/MLH1.html">MLH1</a> homozygous deletion; applied alongside MiMSI as complementary MSI calling tool <a href="../papers/39185963.html">PMID:39185963</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -199,13 +216,32 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/39746944.html">PMID:39746944</a> — Ziegler et al.&nbsp;benchmarked MSIsensor against MiMSI across multiple cohorts; MSIsensor sensitivity 0.67 vs.&nbsp;MiMSI 0.895 on held-out test set (317 samples), with particular underperformance in low-purity cases (&lt;30% purity: MSIsensor 72.8% vs MiMSI 85.1%, McNemar’s P=8.244×10⁻⁷); indeterminate rate 3.8% across 45,112 MSK-IMPACT samples <a href="../papers/39746944.html">PMID:39746944</a>.</li>
 <li><a href="../papers/39753968.html">PMID:39753968</a> — MSIsensor (cutoff ≥10) used for MSI inference in the 2,336-patient MSK PDAC cohort sequenced with MSK-IMPACT; MSI was one of the OncoKB level 1 biomarkers tracked in the actionability landscape analysis <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-06</strong>.</em> - <a href="../papers/36228155.html">PMID:36228155</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-06</strong>.</em> - <a href="../papers/24326773.html">PMID:24326773</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29420467.html">PMID:29420467</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36228155.html">PMID:36228155</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/40328872.html">PMID:40328872</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29420467.html">PMID:29420467</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29848569.html">PMID:29848569</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30373752.html">PMID:30373752</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31483290.html">PMID:31483290</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32299819.html">PMID:32299819</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33466343.html">PMID:33466343</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33795256.html">PMID:33795256</a></p>
+<ul>
+<li><a href="../papers/34059130.html">PMID:34059130</a></li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34819518.html">PMID:34819518</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35377946.html">PMID:35377946</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35443055.html">PMID:35443055</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35849120.html">PMID:35849120</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/39185963.html">PMID:39185963</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

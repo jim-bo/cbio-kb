@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cell-of-Origin Patterns Dominate the Molecular Classification of 10,000 Tumors from 33 Types of Cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29625048.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29625048.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cell-of-Origin Patterns Dominate the Molecular Classification of 10,000 Tumors from 33 Types of Cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Katherine A. Hoadley </p>
+             <p>Christina Yau </p>
+             <p>Toshinori Hinoue </p>
+             <p>Denise M. Wolf </p>
+             <p>Alexander J. Lazar </p>
+             <p>Esther Drill </p>
+             <p>Ronglai Shen </p>
+             <p>Alison M. Taylor </p>
+             <p>Andrew D. Cherniack </p>
+             <p>Vésteinn Thorsson </p>
+             <p>Rehan Akbani </p>
+             <p>Reanne Bowlby </p>
+             <p>Christopher K. Wong </p>
+             <p>Maciej Wiznerowicz </p>
+             <p>Francisco Sanchez-Vega </p>
+             <p>A. Gordon Robertson </p>
+             <p>Barbara G. Schneider </p>
+             <p>Michael S. Lawrence </p>
+             <p>Houtan Noushmehr </p>
+             <p>Tathiane M. Malta </p>
+             <p>The Cancer Genome Atlas Network </p>
+             <p>Joshua M. Stuart </p>
+             <p>Christopher C. Benz </p>
+             <p>Peter W. Laird </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2018.03.022">10.1016/j.cell.2018.03.022</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29625048 · <strong>DOI:</strong> 10.1016/j.cell.2018.03.022 · <strong>Journal:</strong> Cell (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Hoadley and colleagues performed an integrative multi-platform molecular analysis of ~10,000 tumors from 33 cancer types in The Cancer Genome Atlas (TCGA) PanCancer Atlas, combining chromosome-arm aneuploidy, DNA methylation, mRNA, miRNA, and reverse-phase protein array (RPPA) data. Using iCluster across the four most complete platforms (copy number, DNA methylation, mRNA, miRNA) on 9,759 samples, they identified 28 integrated molecular subtypes. Cell-of-origin and tissue/organ-system patterns dominated the classification, but the analysis also surfaced cross-tissue groupings (pan-GI, pan-gyn, pan-squamous, pan-kidney) that motivate organ-system and stemness-based pan-cancer companion analyses.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Samples:</strong> 11,286 tumors across 33 cancer types with data on at least one of five assay platforms; 9,759 with complete data across four platforms (aneuploidy, DNA methylation, mRNA, miRNA); RPPA available for 7,858 samples across 32 tumor types (<a href="../cancer_types/LAML.html">LAML</a> lacked protein data).</li>
+<li><strong>Patients:</strong> 11,188 TCGA patients with at least one molecular platform — 5,769 females, 5,282 males, 137 unknown; median age at diagnosis 60 (range 10–90).</li>
+<li><strong>Cancer types covered:</strong> <a href="../cancer_types/LAML.html">LAML</a>, <a href="../cancer_types/DLBCLNOS.html">DLBCLNOS</a>, <a href="../cancer_types/THYM.html">THYM</a>, <a href="../cancer_types/OV.html">OV</a>, <a href="../cancer_types/UCEC.html">UCEC</a>, <a href="../cancer_types/CESC.html">CESC</a>, <a href="../cancer_types/BRCA.html">BRCA</a>, <a href="../cancer_types/BLCA.html">BLCA</a>, <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/TGCT.html">TGCT</a>, <a href="../cancer_types/KIRC.html">KIRC</a>, <a href="../cancer_types/KICH.html">KICH</a>, <a href="../cancer_types/KIRP.html">KIRP</a>, <a href="../cancer_types/THCA.html">THCA</a>, <a href="../cancer_types/ACC.html">ACC</a>, <a href="../cancer_types/ESCA.html">ESCA</a>, <a href="../cancer_types/STAD.html">STAD</a>, <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/LIHC.html">LIHC</a>, <a href="../cancer_types/PAAD.html">PAAD</a>, <a href="../cancer_types/CHOL.html">CHOL</a>, <a href="../cancer_types/HNSC.html">HNSC</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/LUSC.html">LUSC</a>, <a href="../cancer_types/MESO.html">MESO</a>, <a href="../cancer_types/GBM.html">GBM</a>, <a href="../cancer_types/LGG.html">LGG</a>, <a href="../cancer_types/SARC.html">SARC</a>, <a href="../cancer_types/UCS.html">UCS</a>, <a href="../cancer_types/PCPG.html">PCPG</a>, <a href="../cancer_types/SKCM.html">SKCM</a>, <a href="../cancer_types/UVM.html">UVM</a>.</li>
+<li><strong>Datasets (cBioPortal study mirror):</strong> the 33 TCGA PanCancer Atlas studies, e.g.&nbsp;<a href="../datasets/gbm_tcga_pan_can_atlas_2018.html">gbm_tcga_pan_can_atlas_2018</a>, <a href="../datasets/brca_tcga_pan_can_atlas_2018.html">brca_tcga_pan_can_atlas_2018</a>, <a href="../datasets/luad_tcga_pan_can_atlas_2018.html">luad_tcga_pan_can_atlas_2018</a>, <a href="../datasets/coadread_tcga_pan_can_atlas_2018.html">coadread_tcga_pan_can_atlas_2018</a>, and the other PanCancer Atlas study IDs listed in frontmatter.</li>
+<li><strong>Assays / platforms:</strong> Affymetrix SNP 6.0 arrays for somatic copy number (<a href="../methods/affymetrix-snp6.html">affymetrix-snp6</a>) processed with <a href="../methods/gistic.html">GISTIC 2.0</a> and <a href="../methods/absolute.html">ABSOLUTE</a>; Illumina Infinium <a href="../methods/hm27-methylation-array.html">HM27</a> and <a href="../methods/hm450-methylation-array.html">HM450</a> DNA methylation arrays merged across 22,601 shared probes; mRNA sequencing (<a href="../methods/rna-seq.html">rna-seq</a>) on Illumina GAII/HiSeq; miRNA sequencing (<a href="../methods/mirna-seq.html">mirna-seq</a>); reverse-phase protein arrays (<a href="../methods/rppa.html">RPPA</a>).</li>
+<li><strong>Integrative analytics:</strong> <a href="../methods/icluster.html">iCluster</a> on copy number + DNA methylation + mRNA + miRNA over 9,759 tumors; <a href="../methods/coca.html">COCA</a> (Cluster-Of-Cluster-Assignments) to compare platform-specific cluster memberships; <a href="../methods/paradigm.html">PARADIGM</a> to infer activity of ~19,000 pathway features; <a href="../methods/tumormap.html">TumorMap</a> for 2D visualization of iCluster latent-variable distances.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>28 integrative iClusters</strong> were identified from joint clustering of 9,759 tumors across four platforms. Copy-number alterations contributed 47% of the integrated signal, mRNA + miRNA 42%, and DNA methylation 11%.</li>
+<li><strong>Single-platform clustering recapitulated cell-of-origin:</strong> aneuploidy yielded 10 groups, DNA methylation 25 groups (from 3,139 CpGs hypermethylated in ≥1 tumor type), mRNA 25 groups (≥40 samples each), miRNA 15 groups, and RPPA 10 groups — with squamous (LUSC/HNSC/CESC/ESCA), pan-GI (COAD/READ/STAD/non-squamous <a href="../cancer_types/ESCA.html">ESCA</a>), and pan-kidney (KIRC/KIRP) tumors repeatedly co-clustering.</li>
+<li><strong>16 of 33 tumor types had &gt;80% of samples in a single iCluster;</strong> 8 iClusters were dominated by one tumor type (C24: <a href="../cancer_types/LAML.html">LAML</a>, C11: <a href="../cancer_types/LGG.html">LGG</a> <a href="../genes/IDH1.html">IDH1</a> mut], C6: <a href="../cancer_types/OV.html">OV</a>, C8: <a href="../cancer_types/UCEC.html">UCEC</a>, C12: <a href="../cancer_types/THCA.html">THCA</a>, C16: <a href="../cancer_types/PRAD.html">PRAD</a>, C26: <a href="../cancer_types/LIHC.html">LIHC</a>, C14: <a href="../cancer_types/LUAD.html">LUAD</a>).</li>
+<li><strong>Cross-tissue iClusters:</strong> pan-kidney mapped almost entirely to C28 (<a href="../cancer_types/KIRC.html">KIRC</a>+<a href="../cancer_types/KIRP.html">KIRP</a>); <a href="../cancer_types/KICH.html">KICH</a> co-clustered with <a href="../cancer_types/ACC.html">ACC</a> in C9 (both hypodiploid). Pan-GI separated into C1: <a href="../cancer_types/STAD.html">STAD</a> (EBV-CIMP, hypermethylated EBV-associated tumors), C4: pan-GI (CRC, COAD/READ with CIN), and C18: pan-GI (MSI, mostly STAD/COAD). Pan-squamous formed C10, C25 (chr11 amp), and C27: pan-SCC (HPV+, including most <a href="../cancer_types/CESC.html">CESC</a>, HPV+ <a href="../cancer_types/HNSC.html">HNSC</a>, and some <a href="../cancer_types/BLCA.html">BLCA</a>).</li>
+<li><strong>C2: <a href="../cancer_types/BRCA.html">BRCA</a> (HER2 amp)</strong> comprised mostly <a href="../genes/ERBB2.html">ERBB2</a>-amplified tumors across BRCA, BLCA, and STAD, demonstrating an actionable cross-tissue amplification subtype.</li>
+<li><strong>Mutation burden by iCluster:</strong> C15:SKCM/UVM (UVB signature) and C14:<a href="../cancer_types/LUAD.html">LUAD</a> (smoking signature) showed the highest mutation rates; <a href="../genes/POLE.html">POLE</a> signatures appeared in hypermutated C8: <a href="../cancer_types/UCEC.html">UCEC</a> and C4: pan-GI (CRC); C18: pan-GI (MSI) was enriched for mismatch-repair-deficient mutational signatures.</li>
+<li><strong>Stromal and immune content:</strong> C20 had the highest median stromal fraction (relabeled C20: mixed [stromal/immune]); C3 had the highest leukocyte-to-stromal ratio and was relabeled C3: mesenchymal (immune). Both shared high <a href="../genes/PDCD1.html">PDCD1</a> (PD-1), <a href="../genes/CTLA4.html">CTLA4</a>, and T-cell/B-cell activation gene programs (GP2).</li>
+<li><strong>Pathway features:</strong> PARADIGM and gene-program analyses showed C28: pan-kidney enriched for hypoxia, retinoid metabolism, PPAR-RXR, and immune checkpoints PD-1/CTLA4; pan-squamous iClusters (C10, C25, C27) shared dNp63/TAp63 squamous signaling, proliferation, hypoxia, and basal signaling; C3 and C20 shared upregulated JAK2/STAT1,3,6 signaling with C14:LUAD and C10:pan-SCC.</li>
+<li><strong>Stemness:</strong> <a href="../cancer_types/TGCT.html">TGCT</a> showed strong enrichment of both mRNA- and DNA-methylation-based stemness signatures (Malta et al., 2018 companion); LAML was strongly enriched only for the mRNA-based stemness signature.</li>
+<li><strong><a href="../cancer_types/CUP.html">CUP</a> relevance:</strong> authors note that this iCluster classification could improve management of the 1%–3% of cancer patients newly diagnosed with cancer of unknown primary, where RNA- or DNA-methylation-based profiling has already improved outcomes.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/IDH1.html">IDH1</a> — defines C11: <a href="../cancer_types/LGG.html">LGG</a> (IDH1 mut), one of the most homogeneous and high-silhouette iClusters; IDH1-wildtype LGG co-clusters with <a href="../cancer_types/GBM.html">GBM</a> in C23: GBM/LGG (IDH1wt).</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — focal amplification defines C2: BRCA (HER2 amp), which spans BRCA, BLCA, and STAD — a clear cross-tissue alteration subtype.</li>
+<li><a href="../genes/POLE.html">POLE</a> — POLE-mutation signature found in hypermutated subsets of C8: <a href="../cancer_types/UCEC.html">UCEC</a> and C4: pan-GI (CRC).</li>
+<li><a href="../genes/ESR1.html">ESR1</a> (ER-α), <a href="../genes/AR.html">AR</a>, <a href="../genes/IGFBP2.html">IGFBP2</a> — high in P3/P4 RPPA groups containing luminal BRCA, UCEC, <a href="../cancer_types/OV.html">OV</a>, and some <a href="../cancer_types/LIHC.html">LIHC</a>; estrogen-signaling gene program (GP7) high in C2: BRCA (HER2 amp) and C19: BRCA (luminal).</li>
+<li><a href="../genes/PDCD1.html">PDCD1</a> (PD-1), <a href="../genes/CTLA4.html">CTLA4</a> — immune checkpoint programs enriched in C3: mesenchymal (immune), C20: mixed (stromal/immune), and C28: pan-kidney; basis for the authors’ suggestion of immunotherapy susceptibility.</li>
+<li><a href="../genes/JAK2.html">JAK2</a>, <a href="../genes/STAT1.html">STAT1</a>, <a href="../genes/STAT3.html">STAT3</a>, <a href="../genes/STAT6.html">STAT6</a> — JAK-STAT pathway upregulated in C3, C20, C14:LUAD, and C10:pan-SCC, raising hypothesis of repurposing JAK-STAT inhibitors approved in non-malignant settings (rheumatoid arthritis, myelofibrosis, polycythemia vera).</li>
+<li><a href="../genes/ALK.html">ALK</a>, <a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/KIT.html">KIT</a>, <a href="../genes/ABL1.html">ABL1</a> — cited as cancer-driving targets that motivate tissue-agnostic basket/umbrella trials (e.g.&nbsp;NCI-MATCH); the authors caution that the same <a href="../genes/BRAF.html">BRAF</a> mutation yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The 28-iCluster classification has potential utility for <strong>cancer of unknown primary (CUP)</strong> management, where DNA-methylation- and RNA-based profiling have already improved patient outcomes.</li>
+<li><strong>Cross-tissue ERBB2-amplified C2</strong> (BRCA + BLCA + STAD) supports use of HER2-directed agents beyond breast cancer.</li>
+<li><strong>Immune-enriched iClusters (C3 and C20)</strong> with high PD-1/CTLA4 and T-cell/B-cell activation gene programs are nominated as candidates for immune-checkpoint blockade across diverse histologies.</li>
+<li><strong>Shared JAK-STAT activation</strong> across C3, C20, C14:LUAD, and C10:pan-SCC suggests repurposing of JAK inhibitors currently approved for non-malignant inflammatory and myeloproliferative diseases.</li>
+<li>Findings support <strong>basket/umbrella trial design</strong> (e.g.&nbsp;NCI-MATCH) but argue that integrated molecular tumor profiling should consider both targetable mutations and oncogenic-pathway context plus tissue of origin — illustrated by the heterogeneous response of BRAF-mutant tumors across cancer types.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Mutation data were excluded from iCluster</strong> due to sparsity of mutations across the platform-aligned cohort; mutation burden and signatures were used only for downstream characterization, so mutation-driven subtypes may be under-represented.</li>
+<li><strong>Aneuploidy was weakly concordant</strong> with other platforms because more than a third of samples (AN7) had few arm-level events, limiting COCA’s resolution.</li>
+<li><strong>Heterogeneous iClusters remain hard to interpret</strong> — C20: mixed (stromal/immune) contains 25 of 33 tumor types and 6 tumor types had &lt;50% of samples in any single iCluster (BLCA, <a href="../cancer_types/UCS.html">UCS</a>, HNSC, ESCA, STAD, <a href="../cancer_types/CHOL.html">CHOL</a>), indicating substantial residual molecular heterogeneity.</li>
+<li><strong>TCGA cohort biases:</strong> adult tumors only (median age 60), predominantly treatment-naive primary specimens with high RIN/DNA-quality thresholds — results may not generalize to pediatric, metastatic, or treatment-resistant cancers.</li>
+<li><strong>Translation to clinical actionability is hypothesis-generating:</strong> PARADIGM/gene-program activations identify candidate vulnerabilities (PD-1/CTLA4, JAK-STAT) but trials are needed; the authors’ own <a href="../genes/BRAF.html">BRAF</a> example shows that pathway activation does not guarantee response.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We conducted comprehensive integrative molecular analyses of the complete set of tumors in The Cancer Genome Atlas (TCGA), consisting of approximately 10,000 specimens and representing 33 types of cancer.” (Summary)</li>
+<li>“This PanCancer study encompassed 11,286 tumor samples from 33 cancer types … Of these, 9,759 had complete data for 4 platforms: aneuploidy, DNA methylation, mRNA and miRNA. RPPA protein data were available for a subset of samples (7,858).” (Results, Specimens and Tumor Types)</li>
+<li>“We performed integrative molecular subtyping with iCluster using the four most complete data types (copy number, DNA methylation, mRNA, and miRNA) across 9,759 tumor samples, identifying 28 iClusters … Copy-number alterations contributed 47% to the overall integrated clustering results, followed by the transcriptome (mRNA and miRNA) at 42%, and DNA methylation at 11%.” (Results, Integrative Clustering)</li>
+<li>“For 16 of the tumor types, over 80% of samples grouped together in the same iCluster. Eight iClusters were dominated by a single tumor type (C24:LAML, C11:LGG [IDH1 mut], C6:OV, C8:UCEC, C12:<a href="../cancer_types/THCA.html">THCA</a>, C16:<a href="../cancer_types/PRAD.html">PRAD</a>, C26:LIHC, C14:LUAD).” (Results)</li>
+<li>“C2:BRCA (HER2 amp) mainly consisted of ERBB2-amplified tumors (BRCA, BLCA, and STAD)” (Results)</li>
+<li>“C1:STAD (Epstein-Barr virus [EBV]-CIMP) consisted of hypermethylated EBV-associated tumors, and C18:pan-GI (MSI) consisted mostly of microsatellite instability (MSI) tumors of STAD and <a href="../cancer_types/COAD.html">COAD</a>. C4:pan-GI (CRC) was predominantly COAD and <a href="../cancer_types/READ.html">READ</a> with chromosomal instability (CIN).” (Results)</li>
+<li>“Our PARADIGM analysis showed that C3:mesenchymal (immune) and C20:mixed (stromal/immune) tumors shared upregulated JAK2/STAT1,3,6 signaling with C14:LUAD tumors and C10:pan-SCC, pointing to the possibility of treating these diverse iCluster tumors with JAK-STAT agents currently approved to treat rheumatoid arthritis, myelofibrosis, polycythemia vera, and other non-malignant diseases.” (Discussion)</li>
+<li>“These iCluster assignments have potential clinical utility … this new subclassification system might further improve the management of the 1%–3% of all cancer patients newly diagnosed with cancer of unknown primary (CUP).” (Discussion)</li>
+<li>“A total of 11,188 patients were analyzed in TCGA … 5,769 females, 5,282 males and 137 missing … median age of diagnosis of 60 years of age.” (Human Subjects)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29625048.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29625048.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

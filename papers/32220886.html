@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Whole-Exome Sequencing Analysis of the Progression from Non-Low Grade Ductal Carcinoma In Situ to Invasive Ductal Carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32220886.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32220886.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Whole-Exome Sequencing Analysis of the Progression from Non-Low Grade Ductal Carcinoma In Situ to Invasive Ductal Carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Fresia Pareja </p>
+             <p>David N. Brown </p>
+             <p>Ju Youn Lee </p>
+             <p>Arnaud Da Cruz Paula </p>
+             <p>Pier Selenica </p>
+             <p>Rui Bi </p>
+             <p>Felipe C. Geyer </p>
+             <p>Andrea Gazzo </p>
+             <p>Edaise M. da Silva </p>
+             <p>Mahsa Vahdatinia </p>
+             <p>Anthe Stylianou </p>
+             <p>Lorenzo Ferrando </p>
+             <p>Hannah Y. Wen </p>
+             <p>James B. Hicks </p>
+             <p>Britta Weigelt </p>
+             <p>Jorge S. Reis-Filho </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-19-2563">10.1158/1078-0432.CCR-19-2563</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 32220886 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-19-2563 · <strong>Journal:</strong> Clinical Cancer Research (2020)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Pareja et al.&nbsp;performed whole-exome sequencing (WES; n=56) and MSK-IMPACT targeted sequencing (n=4) on 27 synchronously diagnosed ductal carcinomas in situ (<a href="../cancer_types/DCIS.html">DCIS</a>) and 26 matched invasive ductal carcinomas of no special type (<a href="../cancer_types/IDC.html">IDC</a>-NST) from 25 patients, plus 7 pure DCIS that did not progress, all from MSKCC. They show that DCIS displays a repertoire of somatic mutations and copy-number alterations indistinguishable from synchronous IDC-NSTs and from age/receptor-matched TCGA invasive breast cancers; in 92% (23/25) of patients the synchronous DCIS and IDC-NST were clonally related. Clonal decomposition (PyClone) identified clonal selection as the mechanism of DCIS-to-invasive progression in 28% (7/25) of cases — these DCIS had significantly higher intra-lesion genetic heterogeneity. Pure DCIS lacked <a href="../genes/PIK3CA.html">PIK3CA</a> mutations entirely (0% vs 41%), suggesting they are less genetically advanced than DCIS synchronously diagnosed with invasion (<a href="../papers/32220886.html">PMID:32220886</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patients / samples:</strong> 25 patients with synchronous DCIS (n=27) and IDC-NST (n=26), plus 7 patients with pure DCIS (n=7). 56 samples were sequenced by <a href="../methods/whole-exome-seq.html">whole-exome-seq</a>; 4 samples (Cases 3 and 9) were sequenced with the <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted panel (<a href="../methods/IMPACT410.html">IMPACT410</a> for Case 3, <a href="../methods/IMPACT468.html">IMPACT468</a> for Case 9).</li>
+<li><strong>Tumor types:</strong> Ductal carcinoma in situ (<a href="../cancer_types/DCIS.html">DCIS</a>) and invasive ductal carcinoma of no special type (<a href="../cancer_types/IDC.html">IDC</a>-NST), invasive breast carcinoma (<a href="../cancer_types/BRCA.html">BRCA</a>).</li>
+<li><strong>Institution / data release:</strong> Memorial Sloan Kettering Cancer Center; cBioPortal study <a href="../datasets/brca_pareja_msk_2020.html">brca_pareja_msk_2020</a>.</li>
+<li><strong>Sequencing depth:</strong> WES median 186x (range 130–321x) tumor / 126x (range 103–239x) normal; MSK-IMPACT median 596x (range 525–720x) tumor / 549x (range 402–697x) normal.</li>
+<li><strong>Clinicopathology:</strong> Median age 50 (range 26–76); 41% (14/34) of DCIS intermediate nuclear grade, 59% (20/34) high nuclear grade; 56% of synchronous DCIS and 54% of IDC-NSTs were ER+/HER2−.</li>
+<li><strong>Comparator cohort:</strong> Age-, menopausal-status-, and ER/HER2-matched IDC-NSTs from <a href="../datasets/brca_tcga_pub.html">TCGA breast</a> (1:3 ratio).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutational repertoires of synchronous DCIS and IDC-NST are concordant.</strong> Median 37 non-synonymous somatic mutations per DCIS (range 16–308) versus 44 per IDC-NST (range 13–250). The most frequently mutated cancer genes overlapped: <a href="../genes/TP53.html">TP53</a> 52% DCIS vs 54% IDC-NST (P&gt;0.05); <a href="../genes/PIK3CA.html">PIK3CA</a> 41% vs 42% (P&gt;0.05); <a href="../genes/GATA3.html">GATA3</a> 26% vs 23% (P&gt;0.05). No statistically significant differences in mutational frequency of any cancer gene were observed (Fisher’s exact test) (<a href="../papers/32220886.html">PMID:32220886</a>).</li>
+<li><strong>PIK3CA hotspot pattern preserved across stages.</strong> 9/12 PIK3CA mutations affected hotspot residues: H1047R/L (DCIS n=9; IDC-NST n=8) and E545D (IDC-NST n=1). 11/12 PIK3CA mutations in DCIS and 10/12 in IDC-NST were predicted to be clonal.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a> loss is biallelic.</strong> 13/14 DCIS and 12/14 IDC-NST TP53 mutations were inactivating; 12/13 DCIS and 12/14 IDC-NST were accompanied by LOH of the wild-type allele.</li>
+<li><strong>Mutational signatures.</strong> Among samples with ≥40 SNVs, aging signatures 1/5 dominated in 63% (12/19) of synchronous DCIS and 58% (11/19) of IDC-NSTs; HRD-related signature 3 dominated in 21% (4/19) of DCIS and 26% (5/19) of IDC-NST; APOBEC signatures 2/13 dominated in 16% (3/19) each. Cases 2 (<a href="../genes/BRCA1.html">BRCA1</a> E23Vfs<em>17 germline), 19 (BRCA1 R496H germline), and 25 (somatic BRCA1 L1154Mfs</em>4) all displayed dominant signature 3 with BRCA1 LOH.</li>
+<li><strong>Genomic landscape is comparable to TCGA invasive cancers.</strong> Synchronous DCIS had a comparable number of non-synonymous mutations to age-/receptor-matched IDC-NSTs from TCGA (n=75 matches; P&gt;0.05, Mann-Whitney). Mutational frequencies of cancer genes were comparable for the full DCIS cohort (n=27) versus matched TCGA IDC-NSTs (n=81), and for ER+ DCIS (n=20) versus luminal B IDC-NSTs (n=60).</li>
+<li><strong>Pure DCIS lacks PIK3CA mutations entirely.</strong> Pure DCIS (n=7) had numerically lower <a href="../genes/TP53.html">TP53</a> (14% vs 52%; P&gt;0.05) and complete absence of <a href="../genes/PIK3CA.html">PIK3CA</a> mutations (0% vs 41%; P&gt;0.05) compared to synchronous DCIS (n=27). 5/6 pure DCIS displayed a dominant signature 1 (aging); 1/6 (40DCIS, with BRCA1 E908* germline) displayed signature 3.</li>
+<li><strong>Grade tracks with mutation burden.</strong> Grade-3 DCIS (n=19) carried significantly more non-synonymous mutations than grade-2 DCIS (n=13; P&lt;0.01). Grade-3 DCIS had 75% TP53 mutation frequency vs 0% in grade-2 (P&lt;0.001).</li>
+<li><strong>DCIS and synchronous IDC-NST are usually clonally related.</strong> Clonality index (SNV-based) showed 92% (23/25) of WES-profiled synchronous DCIS–IDC-NST pairs were clonally related. The two unrelated pairs (Cases 5 and 24) had their DCIS and IDC-NST located in different breast quadrants — consistent with independent origin.</li>
+<li><strong>Clonal selection drives progression in 28% of cases.</strong> <a href="../methods/pyclone.html">PyClone</a> clonal decomposition revealed minor DCIS subclones that became dominant in the matched IDC-NST in 7/25 patients (28%; Cases 6, 7, 14, 16, 18, 22, 28). In the remaining 18 cases there was no evidence of clonal selection; progression in those cases likely followed multiclonal-invasion or microenvironment-driven routes.</li>
+<li><strong>DCIS clones undergoing selection have higher intra-lesion heterogeneity.</strong> Synchronous DCIS that evolved by clonal selection (n=7) had significantly higher Shannon and Gini-Simpson diversity indices than DCIS without clonal selection (n=18; both indices P&lt;0.05, Mann-Whitney) and than pure DCIS (n=7; both P&lt;0.05).</li>
+<li><strong>Whole-genome doubling (WGD) occurs early.</strong> WGD was inferred by <a href="../methods/facets.html">FACETS</a> and <a href="../methods/absolute.html">ABSOLUTE</a> in 7 cases (7, 13, 17, 18, 22, 25, 26). In 3/7 (43%) WGD was truncal (present in both DCIS and IDC-NST); in 4/7 (57%) WGD was restricted to the IDC-NST component, supporting WGD as a possible progression mechanism in some cases.</li>
+<li><strong>Private invasive-restricted alterations include canonical drivers.</strong> Mutations restricted to the IDC-NST included <a href="../genes/GATA3.html">GATA3</a>, <a href="../genes/CHD4.html">CHD4</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/RAD51B.html">RAD51B</a>, <a href="../genes/SOX2.html">SOX2</a>, <a href="../genes/SPEN.html">SPEN</a>, <a href="../genes/SMO.html">SMO</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/NCOA1.html">NCOA1</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/NBN.html">NBN</a>, <a href="../genes/GNAQ.html">GNAQ</a>, <a href="../genes/KMT2D.html">KMT2D</a>, and <a href="../genes/TET2.html">TET2</a>. IDC-NST–private amplifications included <a href="../genes/CCND1.html">CCND1</a> (11q13.3–13.4), <a href="../genes/BCL2.html">BCL2</a> (18q21.33-q22.1), <a href="../genes/JAK1.html">JAK1</a> (19p13.11), <a href="../genes/PIK3CA.html">PIK3CA</a> (3q26.32-q26.33), <a href="../genes/MYC.html">MYC</a> and <a href="../genes/RAD21.html">RAD21</a> (8q23.3-q24.21), <a href="../genes/IDH2.html">IDH2</a> and <a href="../genes/NUTM1.html">NUTM1</a> (15q11.1-q26.1), <a href="../genes/HRAS.html">HRAS</a> (11p15.5), <a href="../genes/MYCL.html">MYCL</a> (1p34.2), and <a href="../genes/ERBB2.html">ERBB2</a>/<a href="../genes/CDK12.html">CDK12</a> (17q12).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — mutated in 52% of synchronous DCIS and 54% of synchronous IDC-NSTs (P&gt;0.05); 13/14 DCIS and 12/14 IDC-NST mutations were inactivating, almost always with LOH of the wild-type allele. 75% mutation frequency in grade-3 vs 0% in grade-2 DCIS (P&lt;0.001). 14% in pure DCIS.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — mutated in 41% of synchronous DCIS and 42% of IDC-NSTs (P&gt;0.05); 9/12 mutations affected H1047R/L or E545D hotspots; 11/12 DCIS and 10/12 IDC-NST mutations were clonal. <strong>0% in pure DCIS</strong>, marking PIK3CA mutation as one of the few features that distinguishes synchronous from pure DCIS in this cohort.</li>
+<li><a href="../genes/GATA3.html">GATA3</a> — mutated in 26% of synchronous DCIS and 23% of IDC-NSTs; 6/7 DCIS and 6/6 IDC-NST mutations were loss-of-function (frame-shift, truncating, splice-site). Restricted to the IDC-NST in some individual cases. Numerically more frequent in ER+/HER2− DCIS (38%) than ER−/HER2− (0%) or HER2+ (14%).</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a> — germline pathogenic variants E23Vfs<em>17 (Case 2), R496H (Case 19), and E908</em> (Case 40, a pure DCIS) plus somatic L1154Mfs*4 (Case 25), all associated with LOH and dominant signature-3 (HRD-related) profiles. Demonstrates that BRCA1-driven HRD is detectable already at the DCIS stage.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — recurrent 17q12 amplification in both synchronous DCIS and IDC-NST; significantly enriched in HER2+ DCIS vs ER+/HER2− DCIS (P&lt;0.05). Case 7 carried a truncal <a href="../genes/ERBB2.html">ERBB2</a> S310F hotspot mutation.</li>
+<li><a href="../genes/CCND1.html">CCND1</a> — IDC-NST–private 11q13.3–13.4 amplification in multiple cases, consistent with an invasive-stage-acquired event.</li>
+<li><a href="../genes/MYC.html">MYC</a> — IDC-NST–private 8q23.3–24.21 amplification in multiple cases.</li>
+<li><a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/NUTM1.html">NUTM1</a>, <a href="../genes/MYCL.html">MYCL</a>, <a href="../genes/ERG.html">ERG</a> — invasive-restricted focal amplifications observed in individual cases.</li>
+<li><a href="../genes/KDM5C.html">KDM5C</a> — E185Q mutation in a 2DCISA subclone became dominant in 2DCISB, illustrating clonal selection within DCIS itself in a multifocal BRCA1-mutant case.</li>
+<li><a href="../genes/GNAS.html">GNAS</a>, <a href="../genes/SOX2.html">SOX2</a>, <a href="../genes/EZR.html">EZR</a> — case-specific private mutations defining individual IDC-NST subclones (Case 2 multifocal).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>DCIS biomarkers must account for intra-lesion heterogeneity.</strong> The authors argue that predictors of DCIS-to-invasive progression should incorporate measures of intra-lesion genetic diversity (Shannon / Gini-Simpson) in addition to gene-level alterations, because clonal-selection cases carried significantly higher heterogeneity (<a href="../papers/32220886.html">PMID:32220886</a>).</li>
+<li><strong>Pure DCIS may be molecularly less advanced.</strong> The complete absence of <a href="../genes/PIK3CA.html">PIK3CA</a> mutations in pure DCIS (versus 41% in synchronous DCIS) suggests that PI3K-pathway activation is associated with — and possibly required for — the synchronous invasive phenotype. The authors caution this contrasts with <a href="https://pubmed.ncbi.nlm.nih.gov/31420779">Lin et al.&nbsp;2019</a> and warrants larger, grade-stratified studies.</li>
+<li><strong>Geographic relationship matters for clonal relatedness.</strong> When synchronous DCIS and IDC-NST were located in different breast quadrants (Cases 5B vs 5IDC; Case 24), they were genetically unrelated. This contrasts with LCIS/invasive lobular carcinoma, where clonal relatedness is independent of anatomic location.</li>
+<li><strong>No direct treatment claims.</strong> The study is observational and does not test therapeutic interventions; no drug efficacy or biomarker-stratified treatment claims are made.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Restricted grade spectrum.</strong> Only intermediate- and high-grade DCIS were included; low-grade DCIS was excluded by design. Findings may not generalize to low-grade lesions where alternative evolutionary pathways could dominate.</li>
+<li><strong>Small pure-DCIS cohort.</strong> Only 7 pure DCIS cases were analyzed, limiting statistical power for cross-group comparisons (PIK3CA and TP53 differences did not reach significance despite striking effect sizes).</li>
+<li><strong>Bulk-sequencing inference.</strong> Clonal decomposition relied on bulk WES processed through <a href="../methods/pyclone.html">PyClone</a>, <a href="../methods/absolute.html">ABSOLUTE</a>, <a href="../methods/facets.html">FACETS</a>, and MEDICC. The authors note their bulk-derived phylogenies are consistent with single-cell studies (Casasent 2018, Martelotto 2017) but acknowledge bulk inference’s inherent limits.</li>
+<li><strong>Coding-only scope.</strong> Only protein-coding alterations were considered; non-coding-region drivers of progression are unexplored.</li>
+<li><strong>Discordance with prior work.</strong> Several prior reports (5q31.1–5q35.3 / 6q25.3–6q26 / 13q losses in DCIS; 1q/8q/11q gain enrichment in synchronous vs pure DCIS) could not be confirmed here, likely reflecting cohort-size and grade-composition differences.</li>
+<li><strong>Mechanism of “no clonal selection.”</strong> In the 72% of cases without clonal selection, it remains unclear whether progression was driven by early acquisition of invasion-competence, multiclonal invasion, or microenvironmental cues — none directly testable in this design.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Most synchronous DCIS subjected to WES (92%; 23/25) were found to be clonally related to their corresponding IDC-NSTs” (Results, p.&nbsp;7).</li>
+<li>“Clonal decomposition analysis based on PyClone revealed that 7/25 (28%) of DCIS … had minor subclones harboring mutations that became dominant in their corresponding IDC-NST” (Results, p.&nbsp;8).</li>
+<li>“synchronous DCIS that evolved to IDC-NST following a clonal selection pattern (n=7) harbored significantly higher intra-lesion genetic heterogeneity than synchronous DCIS that evolved to IDC-NSTs without evidence of clonal selection (n=18; Shannon index, P&lt;0.05; Simpson index, P&lt;0.05)” (Results, p.&nbsp;10).</li>
+<li>“Consistent with Sakr et al, all pure DCIS in our study lacked PIK3CA mutations” (Discussion, p.&nbsp;11).</li>
+<li>“the most frequently mutated cancer genes in the IDC-NSTs (n=26) largely overlapped with those in synchronous DCIS (n=27), including TP53 (54% vs 52%; P&gt;0.05), PIK3CA (42% vs 41%; P&gt;0.05) and <a href="../genes/GATA3.html">GATA3</a> (23% vs 26%: P&gt;0.05)” (Results, p.&nbsp;5).</li>
+<li>“WGD was also detected in cases 13, 17, 18, 22, 25 and 26 … In 3/7 (43%) cases with WGD, both the DCIS and the <a href="../cancer_types/IDC.html">IDC</a> components were found to harbor the WGD event, whilst in 4/7 (57%) cases, the WGD was restricted to the IDC-NST component” (Results, p.&nbsp;9).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32220886.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32220886.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

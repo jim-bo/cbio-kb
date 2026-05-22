@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Dynamics of breast cancer relapse reveal late recurring ER-positive genomic subgroups – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30867590.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30867590.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dynamics of breast cancer relapse reveal late recurring ER-positive genomic subgroups</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Oscar M. Rueda </p>
+             <p>Stephen-John Sammut </p>
+             <p>Jose A. Seoane </p>
+             <p>Suet-Feung Chin </p>
+             <p>Jennifer L. Caswell-Jin </p>
+             <p>Maurizio Callari </p>
+             <p>Rajbir Batra </p>
+             <p>Bernard Pereira </p>
+             <p>Alejandra Bruna </p>
+             <p>H. Raza Ali </p>
+             <p>Elena Provenzano </p>
+             <p>Bin Liu </p>
+             <p>Michelle Parisien </p>
+             <p>Cheryl Gillett </p>
+             <p>Steven McKinney </p>
+             <p>Andrew R. Green </p>
+             <p>Leigh Murphy </p>
+             <p>Arnie Purushotham </p>
+             <p>Ian O. Ellis </p>
+             <p>Paul D. Pharoah </p>
+             <p>Cristina Rueda </p>
+             <p>Samuel A. J. R. Aparicio </p>
+             <p>Carlos Caldas </p>
+             <p>Christina Curtis </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41586-019-1007-8">10.1038/s41586-019-1007-8</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30867590 · <strong>DOI:</strong> 10.1038/s41586-019-1007-8 · <strong>Journal:</strong> Nature (2019)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Rueda et al.&nbsp;developed a non-homogeneous semi-Markov multistate model that follows breast cancer patients through loco-regional recurrence (LR), distant recurrence (DR) and cancer death while accounting for competing risks. Applied to 3,240 patients (median 14-year follow-up among survivors), including 1,980 from <a href="../datasets/brca_metabric.html">METABRIC</a> with copy-number and expression data, the model recovers the 11 integrative (<a href="../methods/intclust.html">IntClust</a>) subtypes and shows that four ER+/HER2− subgroups (IntClust 1, 2, 6, 9) — together 26% of ER+ tumours — have a 42–56% probability of relapse persisting up to 20 years post-diagnosis, each defined by a characteristic copy-number driver (e.g., <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/RSF1.html">RSF1</a> at 11q13, <a href="../genes/ZNF703.html">ZNF703</a>/<a href="../genes/FGFR1.html">FGFR1</a> at 8p12, <a href="../genes/RPS6KB1.html">RPS6KB1</a> at 17q23, <a href="../genes/MYC.html">MYC</a> at 8q24). The integrative subtypes add prognostic information beyond IHC and standard clinical covariates for late distant relapse in ER+/HER2− disease.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Full Dataset (FD):</strong> 3,240 breast cancer patients (15,394 state transitions from 3,147 patients) diagnosed 1977–2005 in five UK/Canada tumour banks, median follow-up 9.77 years overall and 14 years among survivors.</li>
+<li><strong>Molecular Dataset (MD):</strong> 1,980 patients (9,512 transitions from 1,962 patients) from the <a href="../datasets/brca_metabric.html">brca_metabric</a> cohort with IHC subtype (ER/HER2), <a href="../methods/pam50.html">PAM50</a> intrinsic subtype, and <a href="../methods/intclust.html">IntClust</a> integrative subtype assignments.</li>
+<li><strong>Recurrent event Dataset (RD):</strong> 618 of 1,079 FD relapsers with complete dates of every metastatic site, enabling spatio-temporal metastasis analysis.</li>
+<li><strong>External validation metacohort:</strong> 1,380 breast cancer patients from eight cohorts, median 8-year follow-up.</li>
+<li>Cancer type: invasive breast carcinoma (<a href="../cancer_types/BRCA.html">BRCA</a>). Genomic data are copy-number and gene-expression arrays previously published as part of METABRIC; raw data deposited at EGA accession EGAS00000000083.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Bias in disease-specific death estimates.</strong> Treating non-cancer deaths as censored overestimates DSD in ER+ tumours (0.46 vs 0.37 at 20 years) because the diagnosis age is higher (median 63.9 vs 53.0 years; p &lt; 1×10⁻⁶); a proper competing-risks framework is required.</li>
+<li><strong>Four late-recurring ER+/HER2− IntClust subgroups.</strong> IntClust 1, 2, 6 and 9 together comprise 26% of ER+ cases and carry mean 20-year relapse probabilities of 0.42–0.56. IntClust2 has the worst prognosis (0.56, SE 0.02), second only to the HER2-enriched IntClust5 (0.65, SE 0.04 at 20 years).</li>
+<li><strong>TNBC splits into two prognostic groups.</strong> Among ER−/HER2− tumours, IntClust10 (Basal-like enriched) has most relapses within the first 5 years (probability 0.33 at 5 years, only 0.37 at 20 years), whereas IntClust4ER− shows persistent late risk (0.30 at 5 years rising to 0.49 at 20 years).</li>
+<li><strong>IntClust improves late-relapse prediction over IHC + clinical variables in ER+/HER2− patients relapse-free at 5 years.</strong> C-index for clinical + IHC: 0.63 (10 y) / 0.62 (15 y) / 0.61 (20 y); adding IntClust: 0.70 (P = 0.00011) / 0.67 (P = 0.0016) / 0.66 (P = 0.0017). Trends replicated in the external validation metacohort.</li>
+<li><strong>Metastatic patterns.</strong> ER− cases had more visceral disease (brain/meningeal 27% vs 11%; pulmonary 50% vs 41%); ER+ cases had more bone metastases by proportion (71% vs 43%) and more often presented with first metastasis in bone (76% vs 61%), but cumulative incidence of bone metastasis was similar because ER− patients tend to die of other metastases first.</li>
+<li><strong>Subtype dictates metastasis pace.</strong> ER− patients suffered rapid sequential relapses early; ER+ patients typically had a single early relapse (often bone), but after a second relapse the rate of further relapses increased.</li>
+<li><strong>Most cancer deaths follow distant metastasis</strong> (83% in ER+, 87% in ER−); brain metastasis is the single most predictive site for death after recurrence.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/FGF3.html">FGF3</a>, <a href="../genes/EMSY.html">EMSY</a>, <a href="../genes/PAK1.html">PAK1</a>, <a href="../genes/RSF1.html">RSF1</a></strong> — co-amplified on chromosome 11q13; defines IntClust2 (4.5% of ER+ cases). 96% of IntClust2 tumours have <a href="../genes/RSF1.html">RSF1</a> amplification vs 0–22% of other IntClust groups.</li>
+<li><strong><a href="../genes/ZNF703.html">ZNF703</a>, <a href="../genes/FGFR1.html">FGFR1</a></strong> — focal 8p12 amplification defines IntClust6 (5.5% of ER+ tumours); 100% of IntClust6 cases vs 2–21% of others.</li>
+<li><strong><a href="../genes/RPS6KB1.html">RPS6KB1</a> (S6K1, mTOR effector)</strong> — 17q23 gain/amplification defines IntClust1 (8% of ER+ tumours); gained or amplified in 96% / 70% of IntClust1 cases vs 0–25% amplification in other groups.</li>
+<li><strong><a href="../genes/MYC.html">MYC</a></strong> — 8q24 amplification defines IntClust9 (8% of ER+ cases); amplified in 89% of IntClust9 tumours vs 3–42% of other groups.</li>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a> (HER2)</strong> — central to the IHC stratification (ER+/HER2+, ER+/HER2−, ER−/HER2+, ER−/HER2−); IntClust5 is HER2-amplification enriched and has the highest overall relapse probability (0.65 at 20 years).</li>
+<li><strong><a href="../genes/ESR1.html">ESR1</a> (ER)</strong> — clinical ER status drives the divergent recurrence trajectories that motivate the analysis; the late-recurring IntClust 1/2/6/9 subgroups are defined within ER+/HER2− disease.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Stratifying ER+/HER2− patients for extended monitoring and therapy.</strong> The 26% of ER+ patients in IntClust 1, 2, 6 or 9 carry a chronic relapse risk to 20 years; the authors propose extended endocrine therapy or other interventions as candidates for these subgroups specifically.</li>
+<li><strong>Targetable copy-number drivers.</strong> The authors note that the genomic drivers of the late-recurring subgroups (e.g.&nbsp;CDK4/6 axis via <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/FGFR1.html">FGFR1</a>, mTOR via <a href="../genes/RPS6KB1.html">RPS6KB1</a>) are viable therapeutic targets, motivating biomarker-driven trial design — though the paper itself does not test any specific therapy.</li>
+<li><strong>TNBC subgroup definition.</strong> Patients with IntClust10 TNBC who are disease-free at 5 years have a substantially lower late-relapse risk than IntClust4ER− TNBC; integrative subtyping could refine surveillance intensity within TNBC.</li>
+<li><strong>Web-based recurrence calculator.</strong> A patient-level recurrence predictor is provided at https://caldaslab.cruk.cam.ac.uk/brcarepred for use throughout follow-up (in contrast to PREDICT, which is fixed at diagnosis).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Tumour-bank cohort, not a trial.</strong> Patients were diagnosed 1977–2005 across five tumour banks; tumour grade and other clinical variables were not centrally reviewed, introducing variability.</li>
+<li><strong>Treatment heterogeneity not modelled.</strong> Trastuzumab was not in widespread use during the cohort era, and the impact of specific adjuvant therapies on IntClust trajectories is not assessed; the authors call out that determining whether specific treatments differentially benefit IntClust subtypes will require randomised trial cohorts.</li>
+<li><strong>External validation underpowered for 20-year endpoints.</strong> The metacohort (n = 1,380; median 8-year follow-up) reproduces qualitative trends but cannot test 20-year C-index claims directly.</li>
+<li><strong>No prospective interventional data.</strong> Extended endocrine therapy and targeted treatment of copy-number drivers in late-recurring IntClust subgroups remain hypothesised but untested in this study.</li>
+<li><strong>Model simplifications.</strong> Continuous covariates (age, size, lymph-node count) were modelled linearly rather than with splines as in prior METABRIC analyses; lymph nodes are capped at 10 to prevent leverage from extreme values.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Application of this model to 3240 breast cancer patients, including 1980 with molecular data, delineates the spatio-temporal patterns of relapse across the immunohistochemical (IHC), intrinsic (PAM50), and integrative (IntClust) subtypes.” (Abstract)</li>
+<li>“We identify four late-recurring integrative subtypes, comprising a quarter (26%) of ER+, human epidermal growth factor receptor 2-negative (HER2-) tumors, each with characteristic genomic copy number driver alterations and high (median 42–55%) risk of recurrence up to 20 years post-diagnosis.” (Abstract)</li>
+<li>“IntClust2 accounts for 4.5% of ER+ cases, 96% of which have RSF1 amplification, compared to 0–22% of other subgroups. IntClust6 (5.5% of ER+ tumors) are characterized by focal amplification of <a href="../genes/ZNF703.html">ZNF703</a> and FGFR1 on chromosome 8p12 (100% of IntClust6 cases vs.&nbsp;2–21% of others). IntClust1 (8% of ER+ tumors) exhibited amplification of chromosome 17q23 spanning the mTOR effector, RPS6KB1 (S6K1), which was gained or amplified in 96% and 70% of cases, respectively (vs.&nbsp;amplification in 0–25% of others). IntClust9 accounted for another 8% of ER+ cases and was characterized by amplification of the <a href="../genes/MYC.html">MYC</a> oncogene at 8q24 with amplification in 89% of IntClust9 tumors (vs 3–42% of other groups).” (p.&nbsp;5)</li>
+<li>“C-index of 0.63 (CI 0.58–0.68) at 10 years … However, including the IntClust subtypes significantly improved its predictive value: C-index of 0.70 (CI 0.64–0.75; improvement over the clinical model P = 0.00011) at 10 years, 0.67 (CI 0.63–0.72, P = 0.0016) at 15 years, and 0.66 (CI 0.62–0.71, P = 0.0017) at 20 years.” (p.&nbsp;5)</li>
+<li>“ER− cases harbored significantly more visceral disease (e.g.&nbsp;brain/meningeal: 27% vs.&nbsp;11%, pulmonary: 50% vs.&nbsp;41%) relative to ER+ cases. … bone metastases were more common in ER+ versus ER− cases (71% vs.&nbsp;43%) … ER+ tumors also more commonly present with the first metastasis in the bone (76% vs 61%).” (p.&nbsp;6)</li>
+<li>“the incidence of DSD is overestimated for ER+ tumors (0.46 vs 0.37 at 20 years) due to the increased age of diagnosis (median 63.9 vs 53.0 years; p-value &lt;1E-6)” (p.&nbsp;3)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30867590.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30867590.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic characterization of metastatic patterns from prospective clinical sequencing of 25,000 patients – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35120664.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35120664.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic characterization of metastatic patterns from prospective clinical sequencing of 25,000 patients</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nguyen B </p>
+             <p>Fong C </p>
+             <p>Luthra A </p>
+             <p>Smith SA </p>
+             <p>DiNatale RG </p>
+             <p>Nandakumar S </p>
+             <p>Walch H </p>
+             <p>Chatila WK </p>
+             <p>Madupuri R </p>
+             <p>Kundra R </p>
+             <p>Bielski CM </p>
+             <p>Mastrogiacomo B </p>
+             <p>Donoghue MTA </p>
+             <p>Boire A </p>
+             <p>Chandarlapaty S </p>
+             <p>Ganesh K </p>
+             <p>Harding JJ </p>
+             <p>Iacobuzio-Donahue CA </p>
+             <p>Razavi P </p>
+             <p>Reis-Filho JS </p>
+             <p>Rudin CM </p>
+             <p>Zamarin D </p>
+             <p>Abida W </p>
+             <p>Aghajanian C </p>
+             <p>Janjigian YY </p>
+             <p>O’Reilly EM </p>
+             <p>Varghese AM </p>
+             <p>Morris LGT </p>
+             <p>Chakravarty D </p>
+             <p>Weigelt B </p>
+             <p>Shah SP </p>
+             <p>Massagué J </p>
+             <p>Bakhoum SF </p>
+             <p>Berger MF </p>
+             <p>Solit DB </p>
+             <p>Sanchez-Vega F </p>
+             <p>Schultz N </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2022.01.003">10.1016/j.cell.2022.01.003</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 35120664 · <strong>DOI:</strong> 10.1016/j.cell.2022.01.003 · <strong>Journal:</strong> Cell (2022)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Nguyen et al.&nbsp;assembled MSK-MET, a pan-cancer cohort of 25,775 patients (15,632 primary and 10,143 metastatic specimens) spanning 50 tumor types, all profiled with <a href="../methods/IMPACT468.html">MSK-IMPACT</a> targeted sequencing and linked to 99,419 EHR-derived metastatic events across 21 anatomic sites. By comparing primary vs.&nbsp;metastatic tumors, primary tumors from metastatic vs.&nbsp;non-metastatic patients, and metastases by organ site, they showed that fraction of genome altered (<a href="../genes/FGA.html">FGA</a>, a proxy for chromosomal instability) correlates with metastatic burden in some lineages (notably <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, HR+/HER2+ ductal breast) but not in others (<a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/HGSOC.html">HGSOC</a>), and identified driver-level associations between specific somatic alterations and target-organ metastasis (<a href="../papers/35120664.html">PMID:35120664</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>25,775 patients profiled by <a href="../methods/IMPACT468.html">MSK-IMPACT</a> (341/410/468-gene panels: <a href="../methods/IMPACT341.html">IMPACT341</a>, <a href="../methods/IMPACT410.html">IMPACT410</a>, <a href="../methods/IMPACT468.html">IMPACT468</a>) between 2013-11-18 and 2020-01-06; 15,632 (61%) primary and 10,143 (39%) metastatic specimens across 50 tumor types (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>Median sequencing coverage 653x (IQR 525–790); median tumor purity 40% (IQR 20–50%); median sample-to-sequencing interval 62 days (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>Most common metastatic biopsy sites: lymph nodes (n=2,305, 23%), liver (n=2,289, 23%), lung (n=982, 10%), bone (n=726, 7%) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>99,419 metastatic events from 21,546 metastatic patients extracted from electronic health records and mapped to 21 reference anatomic locations (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>Median age at sequencing 64y; median follow-up 30 months; five-year survival 40% (range: 90% testicular seminoma to 10% pancreatic adenocarcinoma) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>Allele-specific copy-number analysis on a subset (n=17,224) used <a href="../methods/facets.html">FACETS</a> to derive purity/ploidy-adjusted FGA, whole-genome doubling (WGD) status, and clonality estimates (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>Independent validation cohort: 9,215 MSK-IMPACT samples sequenced 2020-01-07 to 2021-08-18 (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>Dataset publicly available as <a href="../datasets/msk_met_2021.html">msk_met_2021</a> on cBioPortal and Zenodo (DOI 10.5281/zenodo.5801902) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Metastases are more chromosomally unstable</strong> than primaries in 16 of 50 tumor types by FGA; differences confirmed in 11 tumor types using FACETS-adjusted FGA (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Whole-genome doubling is more frequent in metastases</strong> in 7 tumor types; uterine endometrioid showed the most striking shift (WGD 4% primary vs 16% metastatic; CIN 0% vs 14%) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>TMB is higher in metastases</strong> in 10 tumor types; TMB-high (&gt;=10 mut/Mb) rates rose from 19% to 27% in <a href="../cancer_types/LUAD.html">LUAD</a>, 2% to 7% in HR+/HER2- ductal breast cancer, and 5% to 19% in lobular breast cancer (all q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Clonality</strong>: metastases from 12 tumor types had a significantly higher fraction of clonal mutations, consistent with an evolutionary bottleneck (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>67 statistically significant oncogenic-alteration frequency differences</strong> between primaries and metastases across 17 tumor types; 53 enriched in metastases vs only 14 in primaries (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>FGA correlates with metastatic burden</strong> pan-cancer and in 11 individual tumor types; the strongest association was prostate adenocarcinoma (rho=0.33, q=7.0E-45). No association in MSS <a href="../cancer_types/COAD.html">COAD</a> where CIN is already high at low metastatic burden (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>TMB does not correlate with metastatic burden pan-cancer</strong>; positive in 3 tumor types, negative in endometrioid and hypermutated uterine cancer (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>24 oncogenic-alteration and 16 pathway associations with metastatic burden</strong> identified across 8 and 7 tumor types respectively; most enriched in high-burden patients (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Organ-specific metastasis genomics</strong>: 57 oncogenic alterations and 48 oncogenic-pathway associations linked to specific organotropisms across 10 and 12 tumor types (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li>Higher metastatic burden was associated with shorter overall survival in 39 of 50 (78%) tumor types (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — mutation enriched in metastases in 7 tumor types (<a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/PRAD.html">PRAD</a>, HR+/HER2- ductal breast, MSS <a href="../cancer_types/COAD.html">COAD</a>, lobular breast, pancreatic neuroendocrine, endometrioid uterine); inverse in <a href="../cancer_types/HNSC.html">HNSC</a> (62% primary vs 45% metastatic, q=0.01). Positively correlated with metastatic burden in <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, and HR+/HER2- ductal breast. More frequent in <a href="../cancer_types/LUAD.html">LUAD</a> CNS/brain mets (55% vs 66%, q=0.002) and in <a href="../cancer_types/PAAD.html">PAAD</a> liver mets (63% vs 84%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — deletion enriched in metastases in 5 tumor types; in <a href="../cancer_types/LUAD.html">LUAD</a> more frequent in skin (16% vs 60%, q=0.03) and liver mets (16% vs 27%, q=0.03) but less frequent in lymph node mets (19% vs 12%, q=0.002). Deletion frequency correlated with metastatic burden in bladder urothelial, <a href="../cancer_types/LUAD.html">LUAD</a>, and papillary thyroid cancer. <a href="../genes/CDKN2A.html">CDKN2A</a> mutations less frequent in primary <a href="../cancer_types/PAAD.html">PAAD</a> of metastatic patients (17% vs 7%, q=0.02) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — mutation and deletion enriched in metastases in 4 tumor types. Mutation more frequent in <a href="../cancer_types/SKCM.html">SKCM</a> brain metastases (7% vs 23%, q=0.01) and in <a href="../cancer_types/SKCM.html">SKCM</a> patients with brain metastasis (7% vs 14%, q=0.04). <a href="../genes/PTEN.html">PTEN</a> deletion more frequent in <a href="../cancer_types/PRAD.html">PRAD</a> bone mets (9% vs 19%, q&lt;0.001); PTEN loss more frequent in <a href="../cancer_types/PRAD.html">PRAD</a> liver mets (11% vs 30%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/MYC.html">MYC</a> — amplification enriched in metastases in 4 tumor types; amplification frequency correlates with metastatic burden in <a href="../cancer_types/LUAD.html">LUAD</a> and <a href="../cancer_types/PRAD.html">PRAD</a>. More frequent in primaries of metastatic patients in <a href="../cancer_types/PRAD.html">PRAD</a> (1% vs 4%, q=0.03), MSS <a href="../cancer_types/COAD.html">COAD</a> (1% vs 4%, q=0.03), and triple-negative ductal breast (3% vs 17%, q=0.03) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/AR.html">AR</a> — amplification (1% vs 30%) and mutations (0% vs 6%) dramatically more frequent in <a href="../cancer_types/PRAD.html">PRAD</a> metastases (both q&lt;0.001); <a href="../genes/AR.html">AR</a> amplification positively associated with metastatic burden in metastatic <a href="../cancer_types/PRAD.html">PRAD</a>; enriched in bone (5% vs 21%, q&lt;0.001) and brain (14% vs 34%, q&lt;0.001) <a href="../cancer_types/PRAD.html">PRAD</a> metastases. Attributed to androgen-deprivation therapy selection pressure (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/ESR1.html">ESR1</a> — mutations enriched in HR+/HER2- ductal breast (2% vs 19%, q&lt;0.001), lobular breast (2% vs 13%, q&lt;0.001), and endometrioid uterine (3% vs 10%, q=0.002) metastases; correlate with metastatic burden in HR+/HER2- ductal and lobular breast; enriched in liver metastases of HR+/HER2- ductal breast (5% vs 16%, q&lt;0.001 burden-associated; 79% vs 58% organ-specific, q=0.003). Attributed to aromatase-inhibitor selection pressure (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/TERT.html">TERT</a> — promoter mutations more frequent in papillary thyroid metastases (46% vs 69%, q=0.001) and <a href="../cancer_types/SKCM.html">SKCM</a> metastases (70% vs 81%, q=0.02), but more frequent in primary <a href="../cancer_types/HNSC.html">HNSC</a> (41% vs 25%, q=0.02). <a href="../genes/TERT.html">TERT</a> promoter mutations more frequent in primary tumors of metastatic papillary thyroid patients (20% vs 56%, q=0.004). TERT amplification associated with <a href="../cancer_types/LUAD.html">LUAD</a> CNS/brain metastasis (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/ALK.html">ALK</a> — fusions slightly more frequent in <a href="../cancer_types/LUAD.html">LUAD</a> metastases (3% vs 6%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — mutations more frequent in pancreatic neuroendocrine metastases (1% vs 10%, q=0.03); 12p gain (encompassing <a href="../genes/KRAS.html">KRAS</a>) more frequent in <a href="../cancer_types/PAAD.html">PAAD</a> metastases (17% vs 4%, q=0.002). MSS <a href="../cancer_types/COAD.html">COAD</a> patients with lung metastasis had higher KRAS mutation frequency (39% vs 52%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — mutations enriched in <a href="../cancer_types/LUAD.html">LUAD</a> patients with CNS/brain metastasis (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/RBM10.html">RBM10</a> — mutations less frequent in <a href="../cancer_types/LUAD.html">LUAD</a> CNS/brain metastasis (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/FOXA1.html">FOXA1</a> — mutations negatively correlated with metastatic burden in <a href="../cancer_types/PRAD.html">PRAD</a>; enriched in lobular breast cancer liver metastases (3% vs 33%, q=0.02) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/CBFB.html">CBFB</a> — mutations negatively correlated with metastatic burden in HR+/HER2- ductal breast; less frequent in bone metastases (5% vs 1%, q=0.009) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/CDH1.html">CDH1</a> — mutations negatively correlated with metastatic burden in lobular breast cancer (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/ERCC2.html">ERCC2</a> — mutations negatively correlated with metastatic burden in urothelial bladder cancer (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/RHOA.html">RHOA</a> — mutations enriched in lobular breast ovarian metastasis (3% vs 36%, q=0.02) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/ERG.html">ERG</a> — fusions less frequent in <a href="../cancer_types/PRAD.html">PRAD</a> bone metastases (30% vs 15%, q=0.002; secondary analysis 29% vs 24%, q=0.04) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/NF1.html">NF1</a> — mutations more frequent in <a href="../cancer_types/SKCM.html">SKCM</a> lung metastases (20% vs 38%, q=0.003) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> — mutations more frequent in bladder urothelial lung metastases (11% vs 39%, q=0.005) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/SPOP.html">SPOP</a> — mutations less frequent in primary <a href="../cancer_types/PRAD.html">PRAD</a> from metastatic patients (18% vs 12%, q=0.03); previously reported pattern of decreased metastatic potential (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — mutations less frequent in primaries of HR+/HER2- ductal breast metastatic patients (49% vs 38%, q=0.003); PI3K pathway alterations enriched in HR+/HER2- ductal breast bone metastases (44% vs 56%, q=0.003) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/RB1.html">RB1</a> — loss more frequent in <a href="../cancer_types/PRAD.html">PRAD</a> liver metastases (3% vs 10%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/APC.html">APC</a> — mutations more frequent in <a href="../cancer_types/PRAD.html">PRAD</a> liver (5% vs 11%, q=0.001) and lung (5% vs 12%, q&lt;0.001) metastases (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — mutations more frequent in <a href="../cancer_types/PRAD.html">PRAD</a> lung metastases (3% vs 8%, q=0.007); consistent with WNT pathway role in <a href="../cancer_types/PRAD.html">PRAD</a> lung tropism (WNT pathway alterations in 26% of lung-mets <a href="../cancer_types/PRAD.html">PRAD</a> vs 13%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — mutations less frequent in papillary thyroid bone metastasis patients (73% vs 53%, q=0.02) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — amplification more frequent in esophageal cancer patients with lung metastasis (16% vs 37%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/MAP3K1.html">MAP3K1</a> — mutations less frequent in HR+/HER2- ductal breast brain-metastasis patients (9% vs 3%, q=0.02); proposed surrogate for less-aggressive luminal A subtype (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/SRC.html">SRC</a> — amplification less frequent in MSS <a href="../cancer_types/COAD.html">COAD</a> lung metastases (7% vs 3%, q&lt;0.001) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Hormone-therapy resistance signatures are written into metastatic genomes.</strong> The strongest primary-vs-metastatic enrichments were <a href="../genes/AR.html">AR</a> amplifications/mutations in <a href="../cancer_types/PRAD.html">PRAD</a> and <a href="../genes/ESR1.html">ESR1</a> mutations in HR+/HER2- breast cancer — both consistent with positive selection under androgen-deprivation and aromatase-inhibitor therapy respectively (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Chromosomal instability is a candidate therapeutic vulnerability</strong> in lineages where it tracks with metastatic burden (<a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, HR+/HER2+ ductal breast). The authors propose drugs targeting CIN as an attractive strategy in these tumor types (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Organotropism-genotype associations generate biomarker hypotheses</strong>: e.g., <a href="../genes/EGFR.html">EGFR</a>/<a href="../genes/TP53.html">TP53</a>/TERT-amp in <a href="../cancer_types/LUAD.html">LUAD</a> brain mets; WNT pathway/<a href="../genes/CTNNB1.html">CTNNB1</a>/<a href="../genes/APC.html">APC</a> in <a href="../cancer_types/PRAD.html">PRAD</a> lung mets (with tankyrase-inhibition vulnerability cited from Leibold et al.&nbsp;2020); <a href="../genes/FGFR3.html">FGFR3</a> in bladder lung mets; <a href="../genes/ERBB2.html">ERBB2</a> amp in esophageal lung mets (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Metastatic burden is itself a prognostic axis</strong>: higher burden tracked with shorter overall survival in 78% of tumor types studied (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>TMB-high frequency rises with metastatic progression</strong> in <a href="../cancer_types/LUAD.html">LUAD</a> and breast cancer, potentially affecting checkpoint-inhibitor eligibility downstream (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><a href="../genes/ALK.html">ALK</a> fusions slightly enriched in <a href="../cancer_types/LUAD.html">LUAD</a> metastases — implication noted for ALK-inhibitor biomarker testing on metastatic biopsies (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Sample-size imbalance across 50 tumor types</strong> prevents robust conclusions in rarer cancers; non-significant differences may reflect lack of statistical power (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Tumor-type definitions are coarse</strong> — e.g., <a href="../cancer_types/LUAD.html">LUAD</a> histologic subtypes are not resolved; refinement would further reduce per-group sample size (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>ICD-billing-code-derived metastatic events</strong> likely under-capture events and are subject to inter-physician variability; NLP/ML on EHR text is an obvious next step (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Targeted-panel limitation</strong>: <a href="../methods/IMPACT468.html">MSK-IMPACT</a> covers 341–468 genes; whole-exome or whole-genome sequencing might surface additional signals (e.g., structural variants, non-coding drivers) (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Single representative sample per patient</strong> — longitudinal/multi-site sampling needed to investigate timing of genomic events and inter-metastasis heterogeneity (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>No integration of treatment history, microenvironment, or systemic factors</strong> at the per-event level; precludes causal claims about drug-driven vs lineage-intrinsic enrichment for many alterations (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+<li><strong>Open question on CIN directionality</strong>: in tumor types where copy-number patterns appear set early (e.g., <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/HGSOC.html">HGSOC</a>), CIN does not stratify metastatic burden — when and how this differs mechanistically from CIN-burden-coupled lineages remains unresolved (<a href="../papers/35120664.html">PMID:35120664</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“A total of 25,775 patients were included in the present study, consisting of 15,632 (61%) primary and 10,143 (39%) metastatic specimens spanning 50 different tumor types” (Results, Overview of the MSK-MET cohort).</li>
+<li>“In 16 tumor types, metastases were significantly more chromosomally unstable, as inferred by a higher fraction of genome altered (FGA), compared to primary tumors” (Results, Genomic differences between primary and metastatic tumors).</li>
+<li>“AR amplification and AR mutations were significantly more frequent in prostate cancer metastases (1% vs.&nbsp;30% and 0% vs.&nbsp;6%, q-value &lt; 0.001), and <a href="../genes/ESR1.html">ESR1</a> mutations were more frequent in HR+/HER2− ductal breast cancer (2% vs.&nbsp;19%, q-value &lt; 0.001)” (Results, Genomic differences between primary and metastatic tumors).</li>
+<li>“One of the strongest correlations between FGA and metastatic burden was observed in prostate cancer (rho = 0.33, q-value = 7.0E-45)” (Results, Genomic features associated with metastatic burden).</li>
+<li>“MSK-MET is publicly available via the cBioPortal for Cancer Genomics (https://www.cbioportal.org/study?id=<a href="../datasets/msk_met_2021.html">msk_met_2021</a>)” (Discussion).</li>
+<li>“All samples were profiled using the MSK-IMPACT targeted sequencing platform… which identifies somatic mutations, rearrangements and copy-number alterations in 341–468 cancer genes” (Introduction).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35120664.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35120664.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

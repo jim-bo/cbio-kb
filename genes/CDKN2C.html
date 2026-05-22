@@ -170,46 +170,48 @@ ul.task-list li input[type="checkbox"] {
 <h1>CDKN2C</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>CDKN2C (Cyclin Dependent Kinase Inhibitor 2C, also known as p18-INK4C) encodes a CDK4/6 inhibitor that regulates the G1/S cell cycle transition by inhibiting cyclin D-CDK4/6 complexes, preventing RB phosphorylation and E2F activation. Located at 1p32.3, it is a known tumor suppressor in multiple myeloma (MM) where homozygous deletions are recurrent.</p>
+<p>CDKN2C (p18/INK4C) is a cyclin-dependent kinase inhibitor that specifically inhibits <a href="../genes/CDK4.html">CDK4</a> and <a href="../genes/CDK6.html">CDK6</a>, thereby maintaining <a href="../genes/RB1.html">RB1</a> in a hypophosphorylated, active tumor-suppressor state. In glioblastoma, CDKN2C is upregulated in the context of <a href="../genes/EGFR.html">EGFR</a> alteration, suggesting a complex relationship between RTK signaling and cell-cycle control in this disease.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>Recurrent homozygous deletion at 1p32.3 in multiple myeloma (MM, n=153 patients with copy-number data); identified as one of the significant GISTIC peaks encompassing 32 genes across 7 regions; established MM tumor suppressor <a href="../papers/24434212.html">PMID:24434212</a></li>
-<li>Single-case CDKN2C mutation observed in PDTC/ATC thyroid cancer targeted sequencing cohort (IMPACT panel, 117 tumors), replicating prior WES ATC findings <a href="../papers/26878173.html">PMID:26878173</a></li>
+<li>CDKN2C is upregulated in EGFR-altered <a href="../cancer_types/GBM.html">GBM</a> tumors in the CPTAC proteogenomic cohort (<a href="../datasets/gbm_cptac_2021.html">gbm_cptac_2021</a>, n=99); upregulation co-occurs with <a href="../genes/CDK6.html">CDK6</a> and <a href="../genes/CTNND2.html">CTNND2</a> elevation specifically in the EGFR-altered subgroup <a href="../papers/33577785.html">PMID:33577785</a>.</li>
+<li>CDKN2C (p18INK4C) is the second most abundant INK4 binder to CDK6 in abemaciclib-resistant FAT1CR MCF7 cells (4 unique peptides in IP-MS); single CDKN2C knockout partially restores RB-phosphorylation suppression; double knockout with <a href="../genes/CDKN2B.html">CDKN2B</a> almost entirely restores <a href="../drugs/abemaciclib.html">abemaciclib</a> sensitivity (P&lt;0.0001) <a href="../papers/34544752.html">PMID:34544752</a></li>
+<li>Structural deletion (DEL) detected by LINX/PURPLE SV analysis in metastatic <a href="../cancer_types/CSCC.html">CSCC</a> WGS cohort (25 samples) <a href="../papers/35982973.html">PMID:35982973</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li>Plasma cell myeloma (PCM/MM): recurrent homozygous deletion at 1p32.3; known MM tumor suppressor; loss of CDKN2C promotes CDK4/6-driven cell cycle entry in plasma cell tumors <a href="../papers/24434212.html">PMID:24434212</a></li>
+<li><strong>Glioblastoma (<a href="../cancer_types/GBM.html">GBM</a>):</strong> CDKN2C protein upregulated in EGFR-altered tumors (45/99 with <a href="../genes/EGFR.html">EGFR</a> structural variants + amplification); co-elevated with CDK6 and <a href="../genes/CTNND2.html">CTNND2</a> <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>Homozygous deletion co-occurs in the broader context of cell-cycle dysregulation in MM; co-listed with <a href="../genes/TRAF3.html">TRAF3</a>, BIRC2/BIRC3, <a href="../genes/CYLD.html">CYLD</a>, and <a href="../genes/PTPRD.html">PTPRD</a> in significant GISTIC deletion peaks <a href="../papers/24434212.html">PMID:24434212</a></li>
+<li>Co-occurs with CDK6 and CTNND2 upregulation in EGFR-altered GBM <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>CDKN2C loss would be expected to increase dependence on CDK4/6 activity; CDK4/6 inhibitors (e.g., <a href="../drugs/palbociclib.html">palbociclib</a>, ribociclib, abemaciclib) are potential therapeutic strategies in CDKN2C-deleted MM, though not yet established as standard of care <a href="../papers/24434212.html">PMID:24434212</a></li>
+<li>The paradoxical upregulation of the CDK inhibitor CDKN2C in EGFR-altered GBM warrants further investigation; it may represent a compensatory feedback or selection context rather than a straightforward tumor-suppressor role <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
 <h2 class="anchored" data-anchor-id="open-questions">Open questions</h2>
 <ul>
-<li>Frequency of CDKN2C homozygous deletion and its interaction with other MM drivers (hyperdiploidy, IGH translocations) is not fully characterized in this cohort <a href="../papers/24434212.html">PMID:24434212</a></li>
+<li>The mechanistic basis for CDKN2C upregulation in EGFR-altered GBM (compensatory feedback vs.&nbsp;alternative function) is not resolved in this dataset <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/24434212.html">PMID:24434212</a></li>
+<li><a href="../papers/33577785.html">PMID:33577785</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/26878173.html">PMID:26878173</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34544752.html">PMID:34544752</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35982973.html">PMID:35982973</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

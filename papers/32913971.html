@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>PTEN Loss-of-Function Alterations Are Associated With Intrinsic Resistance to BRAF Inhibitors in Metastatic Melanoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32913971.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32913971.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PTEN Loss-of-Function Alterations Are Associated With Intrinsic Resistance to BRAF Inhibitors in Metastatic Melanoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Federica Catalanotti </p>
+             <p>Donavan T. Cheng </p>
+             <p>Alexander N. Shoushtari </p>
+             <p>Douglas B. Johnson </p>
+             <p>Katherine S. Panageas </p>
+             <p>Parisa Momtaz </p>
+             <p>Catherine Higham </p>
+             <p>Helen H. Won </p>
+             <p>James J. Harding </p>
+             <p>Taha Merghoub </p>
+             <p>Neal Rosen </p>
+             <p>Jeffrey A. Sosman </p>
+             <p>Michael F. Berger </p>
+             <p>Paul B. Chapman </p>
+             <p>David B. Solit </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1200/PO.16.00054">10.1200/PO.16.00054</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 32913971 · <strong>DOI:</strong> <a href="https://doi.org/10.1200/PO.16.00054">10.1200/PO.16.00054</a> · <strong>Journal:</strong> JCO Precision Oncology (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Catalanotti et al.&nbsp;profiled pretreatment tumors from 66 patients with metastatic <a href="../genes/BRAF.html">BRAF</a> V600E/K-mutant <a href="../cancer_types/SKCM.html">melanoma</a> (55 treated with BRAF-inhibitor monotherapy, 11 with a BRAFi + MEKi combination) using a &gt;250-gene exon-capture sequencing panel (<a href="../papers/32913971.html">PMID:32913971</a>). Loss-of-function <a href="../genes/PTEN.html">PTEN</a> alterations were significantly enriched in poor responders to <a href="../drugs/vemurafenib.html">BRAFi</a> monotherapy and were associated with shorter PFS (HR 3.46, 95% CI 1.79–6.71; P &lt; .001) and <a href="../cancer_types/OS.html">OS</a> (HR 3.10, 95% CI 1.59–6.05; P &lt; .001). Excellent responders were enriched for elevated BRAF-mutant allele fraction, suggesting that selective amplification of the mutant allele or loss of the wild-type allele sensitizes tumors to BRAFi. The authors propose co-targeting <a href="../genes/BRAF.html">BRAF</a> and the PI3K/AKT pathway in patients with concurrent <a href="../genes/BRAF.html">BRAF</a> and <a href="../genes/PTEN.html">PTEN</a> alterations.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Cohort:</strong> 66 patients with stage IV or unresectable stage III BRAF V600E/K-mutant metastatic <a href="../cancer_types/SKCM.html">melanoma (SKCM)</a>, collected at Memorial Sloan Kettering Cancer Center and Vanderbilt-Ingram Cancer Center before BRAFi-based therapy (<a href="../papers/32913971.html">PMID:32913971</a>).</li>
+<li><strong>Treatment split:</strong> 55 patients received BRAFi monotherapy (49 <a href="../drugs/vemurafenib.html">vemurafenib</a>, 5 <a href="../drugs/dabrafenib.html">dabrafenib</a>, 1 <a href="../drugs/vemurafenib.html">vemurafenib</a> + <a href="../drugs/cobimetinib.html">cobimetinib</a><em>) and 11 received a BRAFi + MEKi combination (3 <a href="../drugs/vemurafenib.html">vemurafenib</a> + <a href="../drugs/cobimetinib.html">cobimetinib</a>; 8 <a href="../drugs/dabrafenib.html">dabrafenib</a> + <a href="../drugs/trametinib.html">trametinib</a>). </em>One BRAFi-monotherapy patient received <a href="../drugs/cobimetinib.html">cobimetinib</a> later for chronic myelomonocytic leukemia.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/skcm_vanderbilt_mskcc_2015.html">skcm_vanderbilt_mskcc_2015</a>; data deposited at the MSK cBioPortal for Cancer Genomics. Comparator: 151 BRAF V600E/K-mutant tumors from the <a href="../datasets/skcm_tcga_pub_2015.html">TCGA SKCM cohort (skcm_tcga_pub_2015)</a>.</li>
+<li><strong>Assay / panel:</strong> custom capture-based DNA sequencing across all coding exons and selected introns of &gt;250 cancer-associated genes (<a href="../methods/msk-impact-panel.html">msk-impact-panel</a> precursor, per Wagle et al.&nbsp;2012 and Cheng et al.&nbsp;2015), mean coverage 622×.</li>
+<li><strong>Variant calling:</strong> <a href="../methods/mutect.html">MuTect</a> for SNVs; <a href="../methods/gatk-somatic-indel-detector.html">GATK Somatic Indel Detector</a> for indels; <a href="../methods/facets.html">FACETS</a> for tumor purity, ploidy, and allele-specific copy number.</li>
+<li><strong>Response endpoints:</strong> RECIST 1.1 plus a composite “response grade” (excellent: &gt;50% shrinkage for &gt;7 months or any shrinkage for &gt;12 months; poor: tumor growth, new lesions, or &lt;50% shrinkage for &lt;4 months; intermediate: neither).</li>
+<li><strong>Follow-up:</strong> median 14.6 months (cutoff March 2016).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>BRAFi monotherapy response (RECIST):</strong> 30/55 (55%) objective responses, 5/55 (9%) complete responses, 25/55 (45%) partial responses, 11/55 (20%) stable disease, 10/55 (18%) primary progressive disease, 4/55 (7%) not evaluable (<a href="../papers/32913971.html">PMID:32913971</a>).</li>
+<li><strong>Response-grade distribution (BRAFi monotherapy):</strong> excellent 17/55 (31%), poor 19/55 (35%), intermediate 15/55 (27%), not evaluable 4/55 (7%). RECIST and response-grade classifications were discordant in 8/66 patients (PR by RECIST but poor responders by grade due to short duration).</li>
+<li><strong><a href="../genes/PTEN.html">PTEN</a> alterations enriched in poor responders:</strong> 11 PTEN alterations in poor responders vs.&nbsp;3 in intermediate and 2 in excellent responders (P = .005). Of the 11 PTEN alterations in the poor group, 10 were likely inactivating: deep deletions (n = 5), truncating mutations (n = 4), and one C2-domain missense (P204S); a P38S variant in the phosphatase domain was of unknown significance.</li>
+<li><strong>Survival impact of PTEN alteration:</strong> patients with <a href="../genes/PTEN.html">PTEN</a> alterations had shorter PFS (HR 3.46, 95% CI 1.79–6.71; P &lt; .001) and shorter OS (HR 3.10, 95% CI 1.59–6.05; P &lt; .001). The association persisted after controlling for stage and ECOG performance status (PFS HR 3.30, 95% CI 1.70–6.43, P &lt; .001; OS HR 3.37, 95% CI 1.70–6.70, P &lt; .001).</li>
+<li><strong>PTEN alterations are not exclusive to poor responders:</strong> 2 excellent and 3 intermediate responders also harbored PTEN deep deletions or recurrent missense variants (R15S, G132C, Y177H), indicating PTEN loss does not preclude BRAFi response.</li>
+<li><strong>Elevated BRAF-mutant allele fraction marks excellent responders:</strong> significantly enriched in excellent responders (P &lt; .001) versus poor responders (P = .02), with FACETS confirming allelic imbalance in two excellent responders; consistent with selective amplification of mutant BRAF or loss of the wild-type allele as a sensitizing event.</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a> does NOT predict response:</strong> 21/51 (41%) BRAFi-monotherapy patients had CDKN2A alterations (19 putative loss-of-function), but neither mutation nor homozygous deletion correlated with response grade — contradicting an earlier report (<a href="https://doi.org/10.1158/1078-0432.CCR-13-0827">Nathanson et al.&nbsp;2013, Clin Cancer Res 19:4868</a>).</li>
+<li><strong>Cohort vs.&nbsp;TCGA comparison:</strong> <a href="../genes/RB1.html">RB1</a> (P = .0036) and <a href="../genes/MDM2.html">MDM2</a> (P = .045) alterations were enriched in the MSK/Vanderbilt cohort relative to TCGA, likely reflecting the more aggressive clinical profile.</li>
+<li><strong>MAPK-pathway escape mutations rare in pretreatment tumors:</strong> 0/66 RAS mutations; 1 patient had an <a href="../genes/NF1.html">NF1</a> splice variant (X2441_splice) and was a poor responder; 2 <a href="../genes/MAP2K1.html">MAP2K1</a> mutations (P124S in an intermediate responder on BRAFi monotherapy; Q56P at 0.04 allele frequency in an intermediate responder on BRAFi + MEKi, indicating a subclonal population).</li>
+<li><strong>PI3K-pathway hits beyond PTEN:</strong> 4 <a href="../genes/PIK3CA.html">PIK3CA</a> missense mutations (3 hotspots: V344G, E545K, H1047R), present in both excellent and poor responders; one <a href="../genes/AKT3.html">AKT3</a> E17K hotspot in a poor responder treated with BRAFi + MEKi; no hotspot AKT mutations in BRAFi-monotherapy patients.</li>
+<li><strong>Other notable alterations:</strong> BRAF amplification in 3 tumors (all intermediate responders) — BRAFi response is not precluded by BRAF amplification, contrasting with its known role in acquired resistance; <a href="../genes/MITF.html">MITF</a> amplifications (n = 3) seen exclusively in poor/intermediate responders (not statistically significant); 4 <a href="../genes/KDR.html">KDR</a> mutations (1 hotspot R1032Q, 3 VUS), all in poor responders, with significantly shorter PFS and OS in KDR-mutant patients; <a href="../genes/TP53.html">TP53</a> + <a href="../genes/MDM2.html">MDM2</a> alterations in 13/51 (25%) of BRAFi-monotherapy patients did not correlate with response grade or survival.</li>
+<li><strong>Co-mutation landscape:</strong> <a href="../genes/PTPRT.html">PTPRT</a>, <a href="../genes/PTPRD.html">PTPRD</a>, and <a href="../genes/KMT2C.html">KMT2C</a> were among the most commonly co-altered genes with BRAF, but most variants were missense VUS, consistent with passenger events given the high mutation burden of melanoma.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a> — V600E/K confirmed in all 66 tumors; amplification in 3 (all intermediate responders); elevated mutant-allele fraction (more than 2× the median variant fraction) in 9 patients and significantly enriched in excellent responders (P &lt; .001 vs.&nbsp;poor).</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — loss-of-function alterations (deep deletions, truncations, C2-domain P204S, plus VUS) are the headline biomarker of intrinsic <a href="../drugs/vemurafenib.html">BRAFi</a> resistance: enriched in poor responders (P = .005) and associated with shorter PFS (HR 3.46) and OS (HR 3.10).</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — altered in 21/51 (41%) BRAFi-monotherapy patients (19 LOF), but no association with response grade, contradicting prior reports.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — 4 missense (3 hotspots: V344G, E545K, H1047R); present in excellent and poor responders alike; one excellent responder carried the activating H1047R.</li>
+<li><a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/AKT2.html">AKT2</a> — no hotspot mutations observed in 51 BRAFi-monotherapy patients.</li>
+<li><a href="../genes/AKT3.html">AKT3</a> — one E17K hotspot in a poor responder on BRAFi + MEKi.</li>
+<li><a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/TSC2.html">TSC2</a>, <a href="../genes/MTOR.html">MTOR</a> — rare non-recurrent VUS in both excellent and poor responders.</li>
+<li><a href="../genes/NRAS.html">NRAS</a> — 0 RAS mutations across all 66 pretreatment tumors.</li>
+<li><a href="../genes/NF1.html">NF1</a> — one splice variant (X2441_splice) in a poor responder, consistent with preclinical models of NF1-loss BRAFi resistance.</li>
+<li><a href="../genes/MAP2K1.html">MAP2K1</a> (MEK1) — P124S (BRAFi monotherapy intermediate responder); Q56P at 0.04 allele frequency (subclonal) in BRAFi + MEKi intermediate responder; both previously linked to context-dependent BRAFi/MEKi resistance.</li>
+<li><a href="../genes/TP53.html">TP53</a>, <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/MDM4.html">MDM4</a> — 25% of BRAFi-monotherapy patients harbored functional TP53 or MDM2 events (TP53 in 8; MDM2 amplification in 4 and mutation in 1) but no association with response grade or survival.</li>
+<li><a href="../genes/RB1.html">RB1</a>, <a href="../genes/CCND1.html">CCND1</a> — alterations or amplifications in 11% of BRAFi-monotherapy patients; no association with response.</li>
+<li><a href="../genes/MITF.html">MITF</a> — 3 amplifications, exclusively in poor/intermediate responders (not statistically significant).</li>
+<li><a href="../genes/KDR.html">KDR</a> (VEGFR2) — 4 mutations (1 hotspot R1032Q, 3 VUS), all in poor responders, with significantly shorter PFS and OS.</li>
+<li><a href="../genes/PTPRT.html">PTPRT</a>, <a href="../genes/PTPRD.html">PTPRD</a>, <a href="../genes/KMT2C.html">KMT2C</a> — frequently co-mutated with BRAF, but most variants were VUS likely representing passenger events given the high tumor mutational burden of melanoma.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Pretreatment biomarker:</strong> the authors argue that PTEN loss-of-function alterations identified by capture-based sequencing of pretreatment tumors mark patients with <a href="../genes/BRAF.html">BRAF</a>-mutant <a href="../cancer_types/SKCM.html">melanoma</a> who are unlikely to derive durable benefit from <a href="../drugs/vemurafenib.html">vemurafenib</a>/<a href="../drugs/dabrafenib.html">dabrafenib</a> monotherapy (<a href="../papers/32913971.html">PMID:32913971</a>).</li>
+<li><strong>Combination strategy:</strong> the results provide a rationale for combining BRAFi (+/- MEKi) with <a href="../drugs/alpelisib.html">PI3K/AKT-pathway inhibitors</a> in patients with concurrent BRAF and PTEN alterations; the authors further suggest such combinations might extend response depth/duration even in PTEN wild-type patients because complete responses are uncommon.</li>
+<li><strong>BRAF-mutant allele fraction as a candidate predictive marker:</strong> elevated mutant-allele fraction (selective gain of mutant BRAF or loss of the wild-type allele) tracks with excellent response; the authors call for broader whole-exome/whole-genome sequencing of BRAF-mutant tumors to test this prospectively.</li>
+<li><strong>BRAF amplification does not preclude response:</strong> in contrast to acquired resistance, pretreatment BRAF amplification (n = 3) did not predict primary BRAFi failure.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small cohort, low statistical power for rare events:</strong> 66 patients is too few to define associations for genes that are infrequently altered in melanoma.</li>
+<li><strong>Standard of care has shifted:</strong> since accrual, BRAFi + MEKi combinations are now standard, and PTEN’s predictive value in the combination setting is not well characterized here (only 11 patients received the combination, with no formal response-grade analysis powered against PTEN status).</li>
+<li><strong>Targeted panel misses non-coding and epigenetic events:</strong> the &gt;250-gene capture panel cannot detect PTEN expression changes from epigenetic silencing, structural variants outside captured intervals, or alterations in genes not on the panel.</li>
+<li><strong>Pretreatment sampling limitations:</strong> variability between sample collection and BRAFi initiation; single-site sampling cannot capture intratumoral or lesion-to-lesion heterogeneity. The authors are exploring cell-free DNA / plasma profiling as a follow-up modality.</li>
+<li><strong>PTEN-alteration heterogeneity in responders:</strong> because two excellent and three intermediate responders also harbored PTEN deep deletions or recurrent missense variants, PTEN loss is not a deterministic predictor — additional cooperating events must contribute to intrinsic resistance.</li>
+<li><strong>Open question — allelic imbalance as a predictive marker:</strong> does selective gain of mutant BRAF / loss of wild-type BRAF prospectively identify patients who will derive complete and durable responses? Whole-genome sequencing or zygosity-resolved assays are needed to validate.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We analyzed 66 tumors from patients with metastatic BRAF-mutant melanoma collected before treatment with BRAF inhibitors. Tumors were analyzed for &gt;250 cancer-associated genes using a capture-based next-generation sequencing platform.” (Abstract)</li>
+<li>“Patients with melanoma who achieved an excellent response grade were more likely to have an elevated BRAF-mutant allele fraction.” (Abstract)</li>
+<li>“Patients whose tumors had alterations in PTEN had shorter PFS (HR, 3.46; 95% CI, 1.79 to 6.71; P &lt; .001) and reduced OS (HR, 3.10; 95% CI, 1.59 to 6.05; P &lt; .001).” (Results, Genomic Predictors of Sensitivity)</li>
+<li>“Of the 11 PTEN alterations identified in the poor response grade cohort, 10 were likely inactivating, including deep deletions consistent with homozygous loss (n = 5), truncating mutations (n = 4), and one missense mutation (P204S).” (Results)</li>
+<li>“BRAF amplification was observed in three tumors, all with intermediate responses … these data indicate that BRAF amplification does not preclude BRAFi response.” (Results, Pattern of Genes Co-Mutated With BRAF)</li>
+<li>“Twenty-one (41%) of 51 patients receiving BRAFi monotherapy had alterations in CDKN2A … of which 19 were putative loss-of-function alterations. Contrary to previous studies, mutation or homozygous deletion of CDKN2A did not correlate with response grade.” (Results)</li>
+<li>“The results support the testing of PI3K inhibitors in combination with BRAFi and MEKi alone or in combination in patients with concurrent BRAF and PTEN alterations.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32913971.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32913971.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

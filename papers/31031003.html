@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Proteogenomic analysis of human colon cancer reveals new therapeutic opportunities – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31031003.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31031003.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proteogenomic analysis of human colon cancer reveals new therapeutic opportunities</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Vasaikar SV </p>
+             <p>Huang C </p>
+             <p>Wang X </p>
+             <p>Petyuk VA </p>
+             <p>Savage SR </p>
+             <p>Wen B </p>
+             <p>Dou Y </p>
+             <p>Zhang Y </p>
+             <p>Shi Z </p>
+             <p>Arshad OA </p>
+             <p>Gritsenko MA </p>
+             <p>Zimmerman LJ </p>
+             <p>McDermott JE </p>
+             <p>Clauss TR </p>
+             <p>Moore RJ </p>
+             <p>Zhao R </p>
+             <p>Monroe ME </p>
+             <p>Wang YT </p>
+             <p>Chambers MC </p>
+             <p>Slebos RJC </p>
+             <p>Lau KS </p>
+             <p>Mo Q </p>
+             <p>Ding L </p>
+             <p>Ellis M </p>
+             <p>Thiagarajan M </p>
+             <p>Kinsinger CR </p>
+             <p>Rodriguez H </p>
+             <p>Smith RD </p>
+             <p>Rodland KD </p>
+             <p>Liebler DC </p>
+             <p>Liu T </p>
+             <p>Zhang B </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2019.03.030">10.1016/j.cell.2019.03.030</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 31031003 · <strong>DOI:</strong> <a href="https://doi.org/10.1016/j.cell.2019.03.030">10.1016/j.cell.2019.03.030</a> · <strong>Journal:</strong> Cell (2019)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The CPTAC consortium performed the first proteogenomic study of a prospectively collected human <a href="../cancer_types/COAD.html">colon adenocarcinoma</a> cohort: 110 patients with paired tumor and normal-adjacent tissue (NAT) profiled by whole-exome sequencing, copy-number array, RNA-Seq, miRNA-Seq, label-free shotgun proteomics, and TMT-based global and phosphoproteomics (<a href="../datasets/coad_cptac_2019.html">coad_cptac_2019</a>). Proteogenomic integration corrected genomic inferences (re-classifying <a href="../genes/SOX9.html">SOX9</a> as oncogenic despite truncating mutations), revealed <a href="../genes/RB1.html">RB1</a> hyperphosphorylation as a colon-cancer driver suggesting <a href="../genes/CDK2.html">CDK2</a> inhibition as a therapy, identified 88 putative HLA-binding neoantigens and three recurrent cancer/testis antigens (<a href="../genes/IGF2BP3.html">IGF2BP3</a>, <a href="../genes/SPAG1.html">SPAG1</a>, <a href="../genes/ATAD2.html">ATAD2</a>), and tied increased glycolysis to decreased CD8 T-cell infiltration in MSI-H tumors — proposing glycolysis inhibition as a strategy to overcome checkpoint-blockade resistance in microsatellite-unstable disease.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patients:</strong> 110 prospectively collected colon cancer patients (65 female, 45 male; mean age 65, range 40–93). Inclusion criterion: newly diagnosed, untreated patients undergoing primary surgery for colon adenocarcinoma. Rectal cancers excluded (untreated rectal tumors are hard to obtain).</li>
+<li><strong>Cancer type:</strong> <a href="../cancer_types/COAD.html">COAD</a> — colon adenocarcinoma only (the study deliberately excluded rectal tumors).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/coad_cptac_2019.html">coad_cptac_2019</a> — CPTAC-2 colon cohort. Raw genomics in SRA BioProject PRJNA514017; raw proteomics in CPTAC Data Portal S045; processed matrices in LinkedOmics (http://linkedomics.org/cptac-colon/).</li>
+<li><strong>Platforms applied per omics:</strong>
+<ul>
+<li>106 tumor/normal-blood pairs profiled by <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> (Illumina Nextera Rapid Capture Exome, HiSeq4000, ≥150× target coverage).</li>
+<li>105 tumor/normal pairs with sufficient off-target reads used for <a href="../methods/copywriter.html">copy-number inference (CopywriteR + GISTIC2)</a>.</li>
+<li>106 tumors with <a href="../methods/rna-seq.html">RNA-Seq</a>; also miRNA-Seq.</li>
+<li>Label-free shotgun proteomics on 100 tumors plus 96 tumor/NAT pairs profiled by <a href="../methods/tmt-proteomics.html">TMT global proteomics</a> and <a href="../methods/tmt-phosphoproteomics.html">TMT phosphoproteomics</a>.</li>
+<li><a href="../methods/selected-reaction-monitoring.html">Selected Reaction Monitoring (SRM)</a> for targeted validation of <a href="../genes/CD8A.html">CD8A</a>, <a href="../genes/SLC2A3.html">SLC2A3</a>, and <a href="../genes/PKM.html">PKM</a> isoforms.</li>
+<li>PCR-based MSI testing (Promega MSI Analysis System; 5 mononucleotide + 2 pentanucleotide markers; see <a href="../methods/msi-pcr-pentaplex.html">msi-pcr-pentaplex</a>) on 85 samples — 100% concordance with WXS-based MSI calls.</li>
+</ul></li>
+<li><strong>Cross-cohort comparison:</strong> Average mRNA profiles correlated with the TCGA colorectal cohort at Pearson’s r = 0.92; average label-free protein profiles at r = 0.96 — both higher than between different cancer types or between colon tumors and cell lines.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation landscape:</strong> WXS identified 64,010 somatic SNVs, 7,691 somatic INDELs, and 6,186 somatic microsatellite INDELs across 106 tumors — 56,592 unique protein-altering events. The MS INDEL distribution was bimodal, partitioning the cohort into 24 MSI-H tumors and 82 MSS tumors. MSI-H tumors had increased A&gt;G/T&gt;C transitions and decreased G&gt;C/C&gt;G transversions and were enriched for mismatch-repair-pathway, <a href="../genes/POLE.html">POLE</a>, and <a href="../genes/BRAF.html">BRAF</a> mutations.</li>
+<li><strong>Significantly mutated genes:</strong> Eight in the non-hypermutated group (all previously reported by TCGA); nine in the hypermutated group, six of which were not reported in TCGA. Four newly identified genes — <a href="../genes/CASP5.html">CASP5</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/LTN1.html">LTN1</a>, and <a href="../genes/BMPR2.html">BMPR2</a> — were mutated in &gt;50% of hypermutated samples.</li>
+<li><strong>Proteomic readout of mutations:</strong> Tumors with stop-gain/frameshift <a href="../genes/APC.html">APC</a> mutations had reduced abundance of phosphosite APC-T2451 downstream of the truncation. <a href="../genes/TGFBR2.html">TGFBR2</a> frameshift mutations reduced TGFBR2-S553 phosphorylation. <a href="../genes/TP53.html">TP53</a>-S315 phosphorylation was increased in tumors over matched NATs (p=0.001, paired t-test); three tumors with the R273 hotspot mutation had &gt;10-fold increases — corroborated by reanalyzing CPTAC breast and ovarian cancers where R273-mutant tumors had 3.4–83× TP53-S315 phosphorylation above cohort medians.</li>
+<li><strong><a href="../genes/SOX9.html">SOX9</a> re-classification:</strong> Mutated in 19 tumors (6 stop-gain, 8 frameshift, 5 nonsynonymous SNVs). The 20/20 rule classifies it as a tumor suppressor, but <a href="../genes/SOX9.html">SOX9</a> protein was significantly <em>overexpressed</em> in tumors versus matched NATs (p = 1.02×10⁻¹⁰, paired t-test) — even within the subset bearing truncating mutations (p=0.04). Truncations cluster downstream of the HMG-box and upstream of K398, the conserved ubiquitin-target site for 26S proteasomal degradation; loss of K398 likely stabilizes the protein. The proteomic evidence reclassifies SOX9 as oncogenic, consistent with functional CRC assays.</li>
+<li><strong>Copy-number drivers prioritized by protein:</strong> Arm-level SCNAs matched TCGA (amplifications of 1q, 7p/q, 8p/q, 13q, 20p/q; deletions of 1p, 14q, 15q, 17p/q, 18p/q, 22q). cis-effects of SCNA on protein were stronger than on mRNA. Among focal driver candidates, only 59% showed expected protein-level effects in tumor vs NAT — NAT data substantially refined the driver list. Confirmed amplification drivers included <a href="../genes/HNF4A.html">HNF4A</a> and <a href="../genes/TOMM34.html">TOMM34</a> on 20q; confirmed deletion driver <a href="../genes/SMAD4.html">SMAD4</a> on 18q. 17 SMGs + 90 prioritized SCNA genes were enriched for colorectal cancer, proliferation, apoptosis, Hippo signaling, endosome organization, and endocytosis (the latter spanning six genes across multiple focal deletions).</li>
+<li><strong>Rb phosphorylation as a driver:</strong> <a href="../genes/RB1.html">RB1</a> was recurrently amplified, and Rb protein was overexpressed in tumors versus NATs (p = 2.10×10⁻¹⁵). Phosphoproteomics quantified four E2F-regulating Rb phosphosites (T373, S807, S811, T826) — average phospho-Rb was 1.84-fold higher in tumors vs NATs (p &lt; 2.2×10⁻¹⁶), significantly exceeding the 1.58-fold increase in total Rb (p=0.01, Wilcoxon). Phospho-Rb change correlated with predicted <a href="../genes/E2F1.html">E2F1</a> activity (r=0.30, p=3.5×10⁻³), with <a href="../genes/CDK2.html">CDK2</a> predicted activity (r=0.47, p=1.8×10⁻⁶) more strongly than any other kinase, with histone H3.1 phosphorylation (a proliferation marker; r=0.49, p=2.6×10⁻⁴), and negatively with the apoptosis hallmark gene set (r=−0.28, p=5.3×10⁻³). Conclusion: hyperphosphorylation, not <a href="../genes/RB1.html">RB1</a> loss, drives proliferation and dampens apoptosis in colon cancer — a vulnerability addressable by <a href="../genes/CDK2.html">CDK2</a> inhibition.</li>
+<li><strong>Cancer-associated proteins/phosphosites:</strong> Among 6,422 proteins quantifiable in ≥50% of samples, 2,217 (35%) were significantly increased and 2,527 (39%) significantly decreased in tumors versus paired NATs (adj. p &lt; 0.01). 31 proteins increased &gt;2-fold (defined as “colon-cancer-associated”); 8 were elevated in &gt;95% of pairs (<a href="../genes/DDX21.html">DDX21</a> 100%, <a href="../genes/S100A11.html">S100A11</a> 100%, RSL1D1 99%, <a href="../genes/S100P.html">S100P</a> 97%, RPL36A 97%, <a href="../genes/PLOD2.html">PLOD2</a> 96%, <a href="../genes/SERPINH1.html">SERPINH1</a> 95%, <a href="../genes/GPRC5A.html">GPRC5A</a> 95%). Among 7,295 quantifiable phosphosites, 63 were upregulated &gt;2-fold (mapping to 50 proteins); only four proteins overlapped the protein and phosphosite lists. Only 7 of the combined protein/phosphosite-defined cancer proteins are in the Cancer Gene Census — most are invisible to mutation-based discovery.</li>
+<li><strong>Druggable kinases:</strong> Activity prediction (kinase-activating site phosphorylation + target-site enrichment) flagged <a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/CDK2.html">CDK2</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/CDK7.html">CDK7</a>, <a href="../genes/MELK.html">MELK</a>, <a href="../genes/PFKFB3.html">PFKFB3</a>, and <a href="../genes/PI4KB.html">PI4KB</a> as elevated in tumors. <a href="../genes/CDK4.html">CDK4</a> has FDA-approved inhibitors; CDK1/2/7, <a href="../genes/MELK.html">MELK</a>, and <a href="../genes/PFKFB3.html">PFKFB3</a> are targeted by clinical-trial drugs. <a href="../genes/PI4KB.html">PI4KB</a> is a novel candidate.</li>
+<li><strong>Tumor antigens:</strong> Customized-database proteomics search recovered 173 proteomics-supported somatic mutations; 88 mutant 9–11mer peptides had high predicted HLA-I binding affinity (putative neoantigens). One or more neoantigens were identified in 38% of tumors. 16 cancer/testis antigens were detected; three were &gt;2-fold elevated in tumors in &gt;5% of pairs: <a href="../genes/IGF2BP3.html">IGF2BP3</a> (51%), <a href="../genes/SPAG1.html">SPAG1</a> (14%), <a href="../genes/ATAD2.html">ATAD2</a> (8%). Proteomics-supported neoantigens or CT antigens were found in 78% of tumors. Neoantigens were enriched in MSI-H tumors and patient-specific; CT antigens were MSI-status-independent and shared across patients.</li>
+<li><strong>Unified molecular subtypes (UMS):</strong> Network integration of consensus molecular subtypes (CMS1–4; <a href="../methods/cms-classifier.html">cms-classifier</a>), the previously published proteomic subtypes (ProS A–E), and MSI status collapsed the heterogeneity into three subtypes — MSI, CIN, and Mesenchymal. 87/110 tumors assigned. CMS3 dissolved (its molecular boundary was vague). Tumors in the CIN subtype had higher chromosome instability and higher <a href="../genes/RB1.html">RB1</a> copy number; Rb-S811 and S807 were 1.61- and 1.51-fold higher in CIN vs other subtypes (much greater than total Rb at 1.13-fold), suggesting CDK2 inhibition may be most effective in CIN. The Mesenchymal subtype had elevated stromal infiltration and suppressor immune cells (MDSCs, macrophages, Tregs); MSI was enriched in cytotoxic immune cells (NK, activated CD8).</li>
+<li><strong>Glycolysis–immune-evasion axis in MSI:</strong> Despite cytotoxic-cell enrichment, MSI tumors universally upregulated glycolytic enzymes at the protein level (also at mRNA, broadly) while TCA-cycle enzymes were decreased <em>only at the protein level</em> — a protein-level Warburg effect. Almost all glycolytic enzymes correlated negatively with <a href="../genes/CD8A.html">CD8</a> infiltration in MSI tumors; median glycolytic-enzyme abundance versus CD8 infiltration: Spearman ρ = −0.61, p = 0.02. This anti-correlation was absent in other subtypes or when all tumors were pooled. SRM validation confirmed <a href="../genes/SLC2A3.html">SLC2A3</a> (1.85-fold) and <a href="../genes/PKM.html">PKM</a>2 (1.4-fold) elevation in MSI vs other UMS subtypes (p=0.007 and 0.003, t-test), and showed PKM2 (not PKM1) is the predominant isoform measured.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/APC.html">APC</a>:</strong> stop-gain and frameshift mutations; reduced abundance of downstream phosphosite APC-T2451 in mutant tumors.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a>:</strong> R273 hotspot missense mutations associated with &gt;10-fold elevation of TP53-S315 phosphorylation (paired t-test p=0.001 for global tumor-NAT increase); confirmed in CPTAC breast and ovarian cohorts.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/POLE.html">POLE</a>:</strong> classic colon-cancer SMGs; <a href="../genes/BRAF.html">BRAF</a> and <a href="../genes/POLE.html">POLE</a> mutations enriched in MSI-H/hypermutated tumors.</li>
+<li><strong><a href="../genes/SMAD4.html">SMAD4</a>:</strong> confirmed deletion driver in 18q focal-deletion region.</li>
+<li><strong><a href="../genes/HNF4A.html">HNF4A</a>, <a href="../genes/TOMM34.html">TOMM34</a>:</strong> confirmed 20q amplification drivers via integrated copy-number/mRNA/protein prioritization.</li>
+<li><strong><a href="../genes/TGFBR2.html">TGFBR2</a>:</strong> frameshift mutations reduce TGFBR2-S553 phosphosite abundance.</li>
+<li><strong><a href="../genes/CASP5.html">CASP5</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/LTN1.html">LTN1</a>, <a href="../genes/BMPR2.html">BMPR2</a>:</strong> newly identified hypermutated-group SMGs (&gt;50% mutation frequency in hypermutated samples), not reported in the TCGA colorectal study.</li>
+<li><strong><a href="../genes/SOX9.html">SOX9</a>:</strong> 19 mutated tumors (mostly truncating, downstream of HMG box, upstream of K398 ubiquitin site). Despite genomic prediction of tumor-suppressor status (20/20 rule), protein is significantly <em>overexpressed</em> in tumors vs NATs (p=1.02×10⁻¹⁰); truncations stabilize the protein. Reclassified as oncogene.</li>
+<li><strong><a href="../genes/RB1.html">RB1</a>:</strong> recurrently amplified (CIN subtype enriched); protein overexpressed (p=2.10×10⁻¹⁵); hyperphosphorylation at T373/S807/S811/T826 (E2F-regulating sites) drives proliferation and suppresses apoptosis.</li>
+<li><strong><a href="../genes/E2F1.html">E2F1</a>:</strong> activity (inferred) positively correlated with total Rb (r=0.40, p=5.1×10⁻⁵) and phospho-Rb (r=0.30, p=3.5×10⁻³) — supports an <a href="../genes/E2F1.html">E2F1</a>–cyclin-E–CDK2–phospho-Rb feedback loop.</li>
+<li><strong><a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/CDK2.html">CDK2</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/CDK7.html">CDK7</a>, <a href="../genes/MELK.html">MELK</a>, <a href="../genes/PFKFB3.html">PFKFB3</a>, <a href="../genes/PI4KB.html">PI4KB</a>:</strong> elevated kinase activities in tumors; targetable therapeutic candidates.</li>
+<li><strong><a href="../genes/CEACAM5.html">CEACAM5</a>:</strong> confirmed clinical CRC biomarker, recovered among cancer-associated proteins.</li>
+<li><strong><a href="../genes/IGF2BP3.html">IGF2BP3</a>, <a href="../genes/SPAG1.html">SPAG1</a>, <a href="../genes/ATAD2.html">ATAD2</a>:</strong> recurrent CT antigens (in 51%, 14%, 8% of tumor-NAT pairs respectively). <a href="../genes/IGF2BP3.html">IGF2BP3</a> has demonstrated in-vitro/in-vivo CTL induction in esophageal cancer.</li>
+<li><strong><a href="../genes/SLC2A3.html">SLC2A3</a>, <a href="../genes/PKM.html">PKM</a>:</strong> glucose transporter and pyruvate kinase elevated in MSI tumors (PKM2 is the predominant isoform); central to the MSI glycolytic phenotype and inversely correlated with CD8 infiltration.</li>
+<li><strong><a href="../genes/CD8A.html">CD8A</a>:</strong> marker for CD8 T-cell infiltration; reduced in MSI tumors with high glycolysis.</li>
+<li><strong><a href="../genes/DDX21.html">DDX21</a>, <a href="../genes/S100A11.html">S100A11</a>, <a href="../genes/S100P.html">S100P</a>, <a href="../genes/PLOD2.html">PLOD2</a>, <a href="../genes/SERPINH1.html">SERPINH1</a>, <a href="../genes/GPRC5A.html">GPRC5A</a>:</strong> most uniformly upregulated proteins across tumor-NAT pairs (≥95%), candidates for biomarker/therapeutic follow-up.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>CDK2 inhibition for colon cancer:</strong> Phospho-Rb is the principal Rb-pathway lesion in <a href="../cancer_types/COAD.html">COAD</a>; CDK2 inhibitors should be evaluated, particularly in CIN-subtype tumors where RB1 copy gain and Rb phosphorylation are highest. This opportunity is invisible to RB1 mutation/deletion analysis used in other cancers.</li>
+<li><strong>Glycolysis inhibition + checkpoint blockade in MSI-H CRC:</strong> The negative correlation between glycolytic activity and CD8 infiltration specifically in MSI tumors supports combining glycolysis inhibitors (e.g., PKM2- or SLC2A3-targeting agents, PFKFB3 inhibitors) with immune checkpoint blockade as a strategy for MSI-H tumors that fail to respond to checkpoint inhibition.</li>
+<li><strong>Personalized neoantigen vaccines:</strong> Proteomics-supported filtering (vs.&nbsp;mRNA-only filtering) identified high-affinity-HLA-binding neoantigens for 38% of tumors. The authors argue this is a more effective prioritization because neoepitopes are themselves peptides.</li>
+<li><strong>CT-antigen vaccines for MSS tumors:</strong> IGF2BP3, <a href="../genes/SPAG1.html">SPAG1</a>, and <a href="../genes/ATAD2.html">ATAD2</a> are MSI-status-independent recurrent CT antigens — potential immunotherapy targets for MSS colon tumors that are poor candidates for checkpoint blockade or neoantigen vaccines.</li>
+<li><strong>Druggable kinases beyond CDKs:</strong> CDK4 (palbociclib-class inhibitors approved); <a href="../genes/CDK1.html">CDK1</a>, CDK2, <a href="../genes/CDK7.html">CDK7</a>, MELK, and PFKFB3 inhibitors in clinical development. PI4KB is a novel target proposed by this work.</li>
+<li><strong>Biomarkers:</strong> 15 of the 31 cancer-associated proteins have known clinical utility (diagnostic, outcome, or therapeutic), including <a href="../genes/CEACAM5.html">CEACAM5</a> (standard-of-care CRC marker). 19 of the 31 are detectable in plasma — candidate blood biomarkers.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Cohort scope:</strong> Colon-only, not colorectal — rectal tumors were excluded because untreated rectal cancers are difficult to obtain. Generalization to rectal cancer requires separate validation.</li>
+<li><strong>Mechanistic question:</strong> Why is RB1 recurrently <em>amplified</em> in colon cancer if the protein’s inhibitory activity is then negated by phosphorylation? The authors flag this as mechanistically inefficient and unresolved; the antiapoptotic role of phospho-Rb (negative correlation with apoptosis hallmark, r=−0.28) is a partial answer but motivates further work.</li>
+<li><strong>MSI subtype heterogeneity:</strong> Three MSI-H tumors with relatively fewer MS INDELs were assigned to the Mesenchymal UMS subtype — boundary cases the unified classification absorbs but does not fully explain.</li>
+<li><strong>No therapeutic validation:</strong> All therapeutic hypotheses (CDK2 inhibition for COAD, glycolysis inhibition for MSI checkpoint resistance, PI4KB targeting, CT-antigen vaccines) are generated computationally from omics data; in vivo/clinical validation is explicitly outside the scope.</li>
+<li><strong>Sex-stratified analyses not performed:</strong> Sample size insufficient after stratification (65F/45M).</li>
+<li><strong>Sample sizes for some readouts:</strong> 96 tumor/NAT pairs for global and phospho-TMT; 100 tumors for label-free proteomics; 105 for SCNA; 106 for RNA-Seq/WXS — minor non-overlap across modalities reduces power on a per-feature basis.</li>
+<li><strong>SNP array data discarded:</strong> Illumina SNP array data had low dynamic range and were dropped in favor of WXS-derived SCNAs — limits comparability with array-based studies.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We performed the first proteogenomic study on a prospectively collected colon cancer cohort.” — Summary, p.1.</li>
+<li>“We prospectively collected tumor specimens, matched normal adjacent tissues (NATs), and blood samples from 110 colon cancer patients.” — Results, “Proteogenomic profiling,” p.4.</li>
+<li>“The number of MS INDELs showed a clear bimodal distribution, which allowed us to separate the samples into a microsatellite instability-high (MSI-H) group (n=24) and a microsatellite stable (MSS) group (n=82, Figure S2D).” — Results, “Somatic mutations and their proteomic consequences,” p.4.</li>
+<li>“Four genes newly identified in this study, namely <a href="../genes/CASP5.html">CASP5</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/LTN1.html">LTN1</a>, and <a href="../genes/BMPR2.html">BMPR2</a>, were mutated in more than 50% of the hypermutated samples.” — Results, “Somatic mutations,” p.5.</li>
+<li>“SOX9 protein was significantly overexpressed in tumor samples compared to matched NATs (p = 1.02×10⁻¹⁰, paired t-test)…” — Results, “Somatic mutations,” p.5.</li>
+<li>“The RB1 protein (Rb) was overexpressed in tumors compared to NATs (p = 2.10×10⁻¹⁵, paired t-test)…” — Results, “Rb phosphorylation,” p.6.</li>
+<li>“Phospho-Rb change showed the highest correlation with the predicted activity change of CDK2 (r = 0.47, p = 1.8×10⁻⁶)…” — Results, “Rb phosphorylation,” p.7.</li>
+<li>“We identified four kinases by each method, with one kinase, CDK7, identified by both…” — Results, “Colon cancer-associated proteomic events,” p.8.</li>
+<li>“The 88 mutant peptides with high predicted binding affinity to HLA molecules were considered as putative neoantigens… one or more putative neoantigens were identified for 38% of the tumors.” — Results, “Tumor antigens,” p.9.</li>
+<li>“The TMT global proteomics data identified a total of 16 CT-antigens… IGF2BP3 (51%), SPAG1 (14%), and ATAD2 (8%).” — Results, “Tumor antigens,” p.9.</li>
+<li>“Almost all glycolytic enzymes were negatively correlated with CD8 infiltration in MSI tumors… Spearman’s ρ = −0.61, p = 0.02.” — Results, “Increased glycolysis in the MSI subtype,” p.11.</li>
+<li>“The abundance of SLC2A3 and PKM2 was 1.85- and 1.4-fold higher (p = 0.007 and 0.003, respectively, t-test) in the MSI subtype compared to the other two subtypes.” — Results, p.11.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31031003.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31031003.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

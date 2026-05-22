@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic and phenotypic characterization of a broad panel of patient derived xenografts reflects the diversity of glioblastoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31852831.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31852831.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic and phenotypic characterization of a broad panel of patient derived xenografts reflects the diversity of glioblastoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Rachael A. Vaubel </p>
+             <p>Shulan Tian </p>
+             <p>Dioval A. Remonde </p>
+             <p>Mark A. Schroeder </p>
+             <p>Ann C. Mladek </p>
+             <p>Gaspar J. Kitange </p>
+             <p>Alissa Caron </p>
+             <p>Thomas M. Kollmeyer </p>
+             <p>Rebecca Grove </p>
+             <p>Sen Peng </p>
+             <p>Brett L. Carlson </p>
+             <p>Daniel J. Ma </p>
+             <p>Gobinda Sarkar </p>
+             <p>Lisa Evers </p>
+             <p>Paul A. Decker </p>
+             <p>Huihuang Yan </p>
+             <p>Harshil Dhruv </p>
+             <p>Michael E. Berens </p>
+             <p>Qianghu Wang </p>
+             <p>Bianca M. Marin </p>
+             <p>Eric Klee </p>
+             <p>Andrea Califano </p>
+             <p>Daniel Lachance </p>
+             <p>Jeanette E. Eckel-Passow </p>
+             <p>Roel Verhaak </p>
+             <p>Erik P. Sulman </p>
+             <p>Terry C. Burns </p>
+             <p>Fredrick B. Meyer </p>
+             <p>Brian P. O’Neill </p>
+             <p>Nhan L. Tran </p>
+             <p>Caterina Giannini </p>
+             <p>Robert B. Jenkins </p>
+             <p>Ian F. Parney </p>
+             <p>Jann N. Sarkaria </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-19-0909">10.1158/1078-0432.CCR-19-0909</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 31852831 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-19-0909 · <strong>Journal:</strong> Clinical Cancer Research (2020)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Vaubel et al.&nbsp;report the comprehensive genomic and phenotypic characterization of the Mayo Clinic patient-derived xenograft (PDX) panel — 96 glioblastoma PDX lines established from 261 glioma patients surgically resected at Mayo Clinic between 2000 and 2017. Whole-exome sequencing (n=83), RNA-seq (n=68) and genome-wide methylation profiling (n=76) show that the panel recapitulates the canonical genetic drivers of <a href="../cancer_types/GBM.html">GBM</a> (<a href="../genes/TERT.html">TERT</a> promoter mutation, <a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/IDH1.html">IDH1</a>) at frequencies broadly comparable to TCGA, with one striking exception: <a href="../genes/PDGFRA.html">PDGFRA</a> amplification is absent. WES of 24 matched patient–PDX pairs shows preservation of most driver alterations (including <a href="../genes/EGFR.html">EGFR</a> amplification in 100% of pairs), although four pairs gained or lost drivers consistent with clonal selection. <a href="../genes/MGMT.html">MGMT</a> promoter methylation correlated with response to <a href="../drugs/temozolomide.html">temozolomide</a> in the PDX panel, mirroring the human clinical phenotype.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Panel size:</strong> 96 <a href="../methods/patient-derived-xenograft.html">PDX</a> lines from 261 glioma patients (overall engraftment rate 36%; WHO grade IV engraftment 47%; newly diagnosed 50%, recurrent 42%) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Histology of viable PDX:</strong> <a href="../cancer_types/GBM.html">GBM</a>, IDH-wildtype (n=93); <a href="../cancer_types/GBM.html">GBM</a>, IDH-mutant (n=2); diffuse midline glioma, H3 K27M-mutant (<a href="../cancer_types/DMG.html">DMG</a>, n=1). Primary tumors n=60; recurrent n=34 (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/gbm_mayo_pdx_sarkaria_2019.html">gbm_mayo_pdx_sarkaria_2019</a> — Mayo Clinic Brain Tumor PDX National Resource (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Assays:</strong> <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> n=83 (SureSelect / TGen Strexome V2; mouse reads removed with Xenome); <a href="../methods/rna-seq.html">rna-seq</a> n=68 (TruSeq libraries); <a href="../methods/epic-methylation-array.html">epic-methylation-array</a> n=76 (Illumina MethylationEPIC at MD Anderson); <a href="../methods/sanger-sequencing.html">sanger-sequencing</a> for IDH1/2 and TERT promoter; methylation-specific PCR (<a href="../methods/qmsp.html">qmsp</a>) for MGMT promoter (n=78); <a href="../methods/fish.html">fish</a> for EGFR/MDM2/N-MYC/PDGFRA validation; <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> for GFAP/Ki67/EGFR/PDGFRA; <a href="../methods/str-profiling.html">str-profiling</a> for tissue provenance (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Reference comparison set:</strong> TCGA glioblastoma cohort (<a href="../datasets/gbm_tcga.html">gbm_tcga</a>) used as the frequency benchmark for driver alterations (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Patient–PDX pairs:</strong> matched WES on 24 patient tumors with derivative PDX; germline WES on 55 patients (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Engraftment is restricted to grade IV astrocytomas.</strong> No viable PDX were established from any of 59 WHO grade II–III glioma samples. Within grade IV, engraftment did not correlate with patient age, sex, or overall survival (newly diagnosed p=0.76; recurrent p=0.11) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Driver landscape mirrors TCGA glioblastoma.</strong> TERT promoter mutation 86%, homozygous deletion of <a href="../genes/CDKN2A.html">CDKN2A</a> 70% (n=59), <a href="../genes/TP53.html">TP53</a> mutation 36% (n=30), <a href="../genes/PTEN.html">PTEN</a> alteration 48% (n=40), <a href="../genes/NF1.html">NF1</a> alteration 17% (n=14), <a href="../genes/RB1.html">RB1</a> loss/mutation 16% (n=13), <a href="../genes/BRAF.html">BRAF</a> alteration 4% (n=3) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/EGFR.html">EGFR</a> is the dominant RTK alteration.</strong> 45% of PDX (n=37/83) carried at least one EGFR alteration; 35 had high-level amplification, 14 SNVs were observed across 12 lines (11 of those with concurrent amplification), and 16 PDX harbored exon-deletion variants including EGFRvIII (n=11, Δexon2–7), EGFRvII (n=2, Δexon14–15), c-terminal deletions (n=2, Δexon25–27), and a previously uncharacterized Δexon6–7 (n=1). EGFR protein expression by IHC was strongly correlated with copy number (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/PDGFRA.html">PDGFRA</a> amplification is absent from the panel.</strong> No PDX showed <a href="../genes/PDGFRA.html">PDGFRA</a> amplification despite a ~15% expected frequency in IDH-wildtype glioblastoma; three PDX carried PDGFRA SNVs (including oncogenic D842V), and 29% of PDX still showed strong PDGFRA protein expression (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Other RTK pathway alterations are sparser.</strong> <a href="../genes/MET.html">MET</a> amplification n=2; <a href="../genes/FGFR3.html">FGFR3</a> amplification n=1; p53 pathway also includes <a href="../genes/MDM2.html">MDM2</a> amplification (n=8, 10%) and <a href="../genes/MDM4.html">MDM4</a> amplification (n=2, 2%); Rb pathway also inactivated by <a href="../genes/CDK4.html">CDK4</a> amplification (n=7, 8%) or <a href="../genes/CDK6.html">CDK6</a> amplification (n=1, 1%). <a href="../genes/MYC.html">MYC</a> (n=3) and <a href="../genes/MYCN.html">MYCN</a> (n=2) amplifications are also captured (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Expression and methylation subtypes are broadly represented.</strong> Of 68 PDX with RNA-seq: classical 46% (n=31), mesenchymal 31% (n=21), proneural 23% (n=16); classical subgroup enriched for EGFR amplification (78% vs 29% mesenchymal / 7% proneural). Methylation classes (n=76): three LGm1 (IDH-mutant), LGm4 46%, LGm5 44%, LGm6 10% (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Recurrent-glioma-associated alterations are captured.</strong> Four recurrence-derived PDX carry multiple <a href="../genes/MSH6.html">MSH6</a> mutations with high mutation burden (hypermutation phenotype); variants of <a href="../genes/LTBP4.html">LTBP4</a> (14%), <a href="../genes/IGF1R.html">IGF1R</a> (7%) and <a href="../genes/PRDM2.html">PRDM2</a> (7%) were identified in recurrent PDX at frequencies similar to prior reports. GBM154 (recurrence of a low-grade oligodendroglioma 10 years post-diagnosis) lost <a href="../genes/IDH1.html">IDH1</a> p.R132H but gained a novel <a href="../genes/IDH1.html">IDH1</a> p.F397L while retaining 1p/19q co-deletion, <a href="../genes/CHEK2.html">CHEK2</a>, and TERT promoter mutations (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Recurrent and novel fusions.</strong> <a href="../genes/FGFR3.html">FGFR3</a>–<a href="../genes/TACC3.html">TACC3</a> fusions in three lines (GBM14, GBM148, GBM232); two non-canonical <a href="../genes/FGFR3.html">FGFR3</a> fusions (FGFR3–<a href="../genes/TRIM54.html">TRIM54</a>, FGFR3–<a href="../genes/CALCOCO1.html">CALCOCO1</a>); previously reported <a href="../genes/PTPRZ1.html">PTPRZ1</a>–<a href="../genes/MET.html">MET</a> and <a href="../genes/CHTOP.html">CHTOP</a>–<a href="../genes/NTRK1.html">NTRK1</a> fusions in three PDX, both representing targetable alterations (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Therapy response mirrors patient response.</strong> Across 37 PDX treated orthotopically, median survival ratio relative to placebo was 1.6 for RT, 2.5 for <a href="../drugs/temozolomide.html">temozolomide</a> monotherapy, and 2.8 for concurrent RT/TMZ. MGMT promoter methylation was strongly associated with TMZ and RT/TMZ benefit but not RT alone. Single-agent <a href="../drugs/bevacizumab.html">bevacizumab</a> gave a survival ratio &gt;1.3 in 23% of PDX (7/30). Patient and PDX survival under standard therapy were positively correlated (Spearman ρ=0.53) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Patient–PDX concordance is high but not perfect.</strong> Across 24 matched patient–PDX pairs, EGFR amplification was preserved in 100% (also confirmed by FISH in four pairs). Four pairs (GBM168, GBM110, GBM159, GBM181) showed clinically meaningful divergence consistent with clonal selection: e.g., GBM110 acquired <a href="../genes/MYCN.html">MYCN</a> amplification in PDX (FISH: subclonal 0–27% in patient, 100% in PDX); GBM159 lost PDGFRA amplification (45–75% of patient tumor cells with two amplified subclones distinguishable by centromeric probe co-amplification) and gained <a href="../genes/CDK6.html">CDK6</a> amplification in PDX; GBM168 patient and PDX shared EGFR/CDK4/MDM2 amplifications but had different EGFR exon-deletion variants, plus a private <a href="../genes/PTEN.html">PTEN</a> alteration in the patient and a private <a href="../genes/TP53.html">TP53</a> variant in the PDX; GBM181 showed many private SNVs in both directions consistent with MSH6-driven MMR-deficient hypermutation (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Blood–brain barrier integrity varies between models.</strong> GBM6 intact; GBM108 partial disruption; GBM39 more complete disruption — relevant to drug-delivery design choices (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/EGFR.html">EGFR</a>:</strong> amplification (n=35, 42%), 14 SNVs across 12 PDX, exon-deletion variants in 16 PDX (EGFRvIII n=11, EGFRvII n=2, C-terminal deletion n=2, Δexon6–7 n=1). Amplification preserved in 100% of 24 matched patient–PDX pairs; different exon-deletion variants in GBM168 between patient and PDX (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/PDGFRA.html">PDGFRA</a>:</strong> no amplification observed in any PDX despite ~15% expected frequency in IDH-wildtype GBM; three PDX with SNVs including D842V; PDX-engraftment-associated loss demonstrated in GBM159 (FISH: amplified in 45–75% of patient tumor cells, not in PDX) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/TERT.html">TERT</a>:</strong> promoter mutations in 86% of PDX, the most frequent alteration in the panel (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a>:</strong> homozygous deletion in 70% (n=59); GBM164 and GBM187 showed homozygous loss in PDX vs single-copy loss in matched patient — clonal-selection candidate (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/TP53.html">TP53</a>:</strong> mutation in 36% (n=30); GBM168 PDX carried a private TP53 variant absent from the patient tumor (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/PTEN.html">PTEN</a>:</strong> alteration in 48% (n=40); GBM168 patient carried a private PTEN alteration not detected in the PDX (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/MDM2.html">MDM2</a> / <a href="../genes/MDM4.html">MDM4</a>:</strong> amplification in 10% and 2% respectively; <a href="../genes/MDM2.html">MDM2</a> amplification preserved in 100% of GBM108 patient and PDX cells by FISH (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/RB1.html">RB1</a> / <a href="../genes/CDK4.html">CDK4</a> / <a href="../genes/CDK6.html">CDK6</a>:</strong> Rb pathway inactivated by <a href="../genes/RB1.html">RB1</a> loss/mutation (16%), <a href="../genes/CDK4.html">CDK4</a> amplification (8%), or CDK6 amplification (1%) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/NF1.html">NF1</a> / <a href="../genes/BRAF.html">BRAF</a>:</strong> MAPK pathway alterations in 17% and 4% of PDX, respectively (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/MYC.html">MYC</a> / <a href="../genes/MYCN.html">MYCN</a>:</strong> amplifications in 3 and 2 PDX, respectively; GBM110 PDX acquired N-MYC amplification (subclonal 0–27% in patient by FISH) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/MET.html">MET</a>:</strong> amplification in 2 PDX; copy number gains in both IDH-mutant lines (GBM164, GBM196), consistent with the secondary-glioblastoma literature (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/FGFR3.html">FGFR3</a>:</strong> amplification n=1; canonical FGFR3–<a href="../genes/TACC3.html">TACC3</a> fusion in three PDX; two novel fusions FGFR3–<a href="../genes/TRIM54.html">TRIM54</a> and FGFR3–<a href="../genes/CALCOCO1.html">CALCOCO1</a> (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/MSH6.html">MSH6</a>:</strong> multiple mutations in four recurrent-tumor-derived PDX, driving MMR-deficient hypermutation phenotype; GBM181 patient–PDX pair shows the pattern of many private SNVs in both directions (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/IDH1.html">IDH1</a> / <a href="../genes/ATRX.html">ATRX</a> / <a href="../genes/H3-3A.html">H3-3A</a>:</strong> IDH1-mutant PDX (GBM164, GBM196) carried TP53 mutations and homozygous <a href="../genes/CDKN2A.html">CDKN2A</a> deletion; GBM36 (cerebellar diffuse midline glioma) carried H3F3A (<a href="../genes/H3-3A.html">H3-3A</a>) p.K27M, <a href="../genes/ATRX.html">ATRX</a> and TP53 mutations; GBM154 lost IDH1 p.R132H but acquired IDH1 p.F397L on recurrence (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/PTPRZ1.html">PTPRZ1</a> / <a href="../genes/NTRK1.html">NTRK1</a> / <a href="../genes/CHTOP.html">CHTOP</a>:</strong> <a href="../genes/PTPRZ1.html">PTPRZ1</a>–<a href="../genes/MET.html">MET</a> and <a href="../genes/CHTOP.html">CHTOP</a>–<a href="../genes/NTRK1.html">NTRK1</a> fusions in three PDX — flagged as potentially targetable (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/LTBP4.html">LTBP4</a> / <a href="../genes/IGF1R.html">IGF1R</a> / <a href="../genes/PRDM2.html">PRDM2</a>:</strong> variants identified in recurrent PDX at frequencies similar to prior reports (14%, 7%, 7% of 28 recurrent PDX), though some also seen in primary PDX (possible germline) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../genes/CIC.html">CIC</a> / <a href="../genes/FUBP1.html">FUBP1</a> / <a href="../genes/CHEK2.html">CHEK2</a>:</strong> present in the original oligodendroglioma that gave rise to GBM154; only <a href="../genes/CHEK2.html">CHEK2</a> (and TERT promoter mutation, plus 1p/19q co-deletion) was retained in the high-grade recurrent PDX (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>MGMT methylation predicts TMZ benefit, not RT benefit.</strong> In the PDX panel, MGMT promoter methylation was strongly associated with response to <a href="../drugs/temozolomide.html">temozolomide</a> and concurrent RT/TMZ, but not response to radiation alone — directly mirroring the human clinical phenotype and supporting the use of MGMT status as a stratification biomarker in glioblastoma trials (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>PDX panel suitable for 1×1×1 preclinical trial designs.</strong> The authors explicitly position the Mayo PDX collection as the substrate for population-level “preclinical phase II” trials; they cite the <a href="../drugs/veliparib.html">veliparib</a> + <a href="../drugs/temozolomide.html">temozolomide</a> work in 28 of these PDX (efficacy limited to MGMT-methylated tumors) as the biomarker-enrichment rationale for the Alliance <a href="../drugs/veliparib.html">veliparib</a> trial (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Targetable fusions present.</strong> FGFR3–<a href="../genes/TACC3.html">TACC3</a>, PTPRZ1–MET, and CHTOP–NTRK1 fusions are present in the panel, providing models for testing FGFR, MET, and TRK inhibitors in glioblastoma (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong><a href="../drugs/bevacizumab.html">bevacizumab</a> sensitivity is rare and unstratified.</strong> Single-agent <a href="../drugs/bevacizumab.html">bevacizumab</a> gave a survival ratio &gt;1.3 in only 23% of PDX (7/30); the authors do not identify a predictive biomarker, consistent with the modest benefit observed clinically (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Practical caution on PDGFRA-amplified disease.</strong> Because no PDGFRA-amplified PDX engrafted (and GBM5 lost PDGFRA amplification by passage eight), the Mayo panel is not suitable for studying the ~15% of glioblastoma patients with PDGFRA amplification — investigators studying this subset must look elsewhere (e.g., BTIC or GEMM models) (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Open-resource availability.</strong> All models and accompanying genomic data are openly available to the neuro-oncology research community via the Mayo PDX National Resource (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Selection bias against PDGFRA-amplified tumors.</strong> The complete absence of PDGFRA amplification in 83 sequenced PDX (vs ~15% expected) is unexplained; authors raise both engraftment failure and serial-passage loss as candidates but cannot adjudicate (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Drift over serial passage is not directly assessed.</strong> WES was performed at varying passage; the manuscript does not characterize evolution across multiple passages of the same line and only recommends restoring from early-passage frozen stock and re-verifying alterations of interest before downstream studies (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Orthotopic PDX lack microvascular proliferation and necrosis.</strong> Fewer than 20% of orthotopic PDX showed these diagnostic features of glioblastoma, whereas &gt;80% of flank PDX show palisading necrosis — implying microenvironmental contribution to these phenotypes and potentially limiting fidelity for studies of vascular biology or pseudopalisading necrosis (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Methylation classification is noisy in PDX.</strong> Principal component analysis did not cleanly separate PDX by methylation class, attributed by the authors to predominance of IDH-wildtype tumors, contaminating mouse stroma, and effects of higher passage number (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>No intact immune system.</strong> As athymic-nude-mouse xenografts, the panel is unsuitable for immunotherapy studies — a limitation the authors flag as motivating complementary GEMM resources (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Engraftment limited to grade IV.</strong> Zero of 59 grade II–III gliomas engrafted, restricting the panel’s reach to the most aggressive end of the glioma spectrum (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+<li><strong>Clinical correlation of patient–PDX response is moderate.</strong> Spearman ρ=0.53 between patient and matched-PDX survival is supportive but leaves substantial unexplained variance; the authors do not break this down by treatment arm or MGMT status (<a href="../papers/31852831.html">PMID:31852831</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We have established a panel of 96 glioblastoma patient derived xenografts (PDX)… PDX were established from glioblastoma, IDH-wildtype (n=93), glioblastoma, IDH-mutant (n=2), diffuse midline glioma, H3 K27M-mutant (n=1), and both primary (n=60) and recurrent (n=34) tumors.” (Abstract)</li>
+<li>“PDXs capture common and rare molecular drivers, including alterations of TERT, EGFR, PTEN, TP53, <a href="../genes/BRAF.html">BRAF</a>, and IDH1, most at frequencies comparable to human glioblastoma. However, PDGFRA amplification was absent.” (Abstract)</li>
+<li>“Alterations of EGFR were frequent and diverse, with one or more alterations identified in 37 PDX lines (45%), most commonly high-level amplification (n=35).” (Results, Genomic Profiling of PDX tumors, p.6)</li>
+<li>“TERT promoter mutations were the most frequent overall (86%) followed by homozygous deletion of CDKN2A (n=59, 70%). Multiple alterations were identified in the p53 pathway, including TP53 mutations (n=30, 36%) and MDM2 (n=8, 10%) or <a href="../genes/MDM4.html">MDM4</a> (n=2, 2%) amplification.” (Results, p.7)</li>
+<li>“Across the 37 PDXs, RT and TMZ extended survival, with a median survival ratio relative to placebo of 1.6 for RT, 2.5 for TMZ monotherapy, and 2.8 for concurrent RT/TMZ. MGMT promoter methylation was strongly associated with response to RT/TMZ or TMZ alone, but did not correlate with response to RT alone.” (Results, Response to Standard Therapy, p.8–9)</li>
+<li>“A positive correlation (ρ=0.53) was observed between patient and PDX survival following treatment with standard therapies.” (Results, p.9)</li>
+<li>“In all pairs, EGFR amplification was concordant between patient and PDX.” (Results, Genomic Comparison of Patient and Derivative PDX, p.9)</li>
+<li>“FISH of the patient tumor demonstrated PDGFRA amplification in approximately 45–75% of tumor cells. Surprisingly, two distinct PDGFRA amplified subclones could be distinguished by co-amplification of the centromeric probe… Neither amplified subclone was detected in the PDX tumor.” (Results, p.9)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31852831.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31852831.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

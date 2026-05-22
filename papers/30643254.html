@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Tumor mutational load predicts survival after immunotherapy across multiple cancer types – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30643254.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30643254.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tumor mutational load predicts survival after immunotherapy across multiple cancer types</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Robert M. Samstein </p>
+             <p>Chung-Han Lee </p>
+             <p>Alexander N. Shoushtari </p>
+             <p>Matthew D. Hellmann </p>
+             <p>Ronglai Shen </p>
+             <p>Yelena Y. Janjigian </p>
+             <p>David A. Barron </p>
+             <p>Ahmet Zehir </p>
+             <p>Naiyer A. Rizvi </p>
+             <p>Michael F. Berger </p>
+             <p>Nadeem Riaz </p>
+             <p>David B. Solit </p>
+             <p>Timothy A. Chan </p>
+             <p>Luc G. T. Morris </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41588-018-0312-8">10.1038/s41588-018-0312-8</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30643254 · <strong>DOI:</strong> 10.1038/s41588-018-0312-8 · <strong>Journal:</strong> Nature Genetics (2019)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Samstein et al.&nbsp;analyzed clinical and targeted-NGS genomic data (<a href="../methods/msk-impact-panel.html">msk-impact-panel</a>) for 1,662 advanced cancer patients treated with immune checkpoint inhibitors (ICI) and 5,371 non-ICI–treated patients sequenced at MSKCC, in order to test whether tumor mutational burden (TMB) predicts overall survival (<a href="../cancer_types/OS.html">OS</a>) after ICI across cancer types. Higher somatic TMB (top 20% within each histology) was associated with better OS (HR 0.52; p = 1.6 × 10⁻⁶), an effect present in most histologies but not in glioma. The TMB cutpoint defining “high” varied markedly across cancer types, arguing against a single universal threshold. The cohort is the cBioPortal study <a href="../datasets/tmb_mskcc_2018.html">tmb_mskcc_2018</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 1,662 ICI-treated patients</strong> with advanced cancer profiled by MSK-IMPACT, plus <strong>N = 5,371 non-ICI–treated</strong> patients as a control for general prognostic effects of TMB.</li>
+<li>Histologies represented include <a href="../cancer_types/NSCLC.html">NSCLC</a> (n = 350), melanoma (<a href="../cancer_types/MEL.html">MEL</a> / <a href="../cancer_types/SKCM.html">SKCM</a>; n = 321), renal cell carcinoma (<a href="../cancer_types/RCC.html">RCC</a>; n = 151), bladder cancer (<a href="../cancer_types/BLCA.html">BLCA</a>; n = 214), head &amp; neck squamous cell carcinoma (<a href="../cancer_types/HNSC.html">HNSC</a>; n = 138), esophagogastric cancer (<a href="../cancer_types/EGC.html">EGC</a>), colorectal cancer (<a href="../cancer_types/COAD.html">COAD</a>), and glioma (<a href="../cancer_types/GB.html">GB</a> / <a href="../cancer_types/DIFG.html">DIFG</a>).</li>
+<li>94% of non-glioma tumors were stage IV / metastatic; 10 patients had locally recurrent disease, and a subset of melanoma patients had regionally advanced unresectable (stage III) disease.</li>
+<li>ICI regimens: 146 received anti-CTLA4 (<a href="../drugs/ipilimumab.html">ipilimumab</a>, <a href="../drugs/tremelimumab.html">tremelimumab</a>); 1,447 received anti–PD-1/PD-L1 (<a href="../drugs/nivolumab.html">nivolumab</a>, <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, <a href="../drugs/atezolizumab.html">atezolizumab</a>, <a href="../drugs/avelumab.html">avelumab</a>, <a href="../drugs/durvalumab.html">durvalumab</a>); 189 received both.</li>
+<li><strong>Assay:</strong> MSK-IMPACT targeted NGS using 341-, 410-, or 468-gene versions (<a href="../methods/IMPACT341.html">IMPACT341</a>, <a href="../methods/IMPACT410.html">IMPACT410</a>, <a href="../methods/IMPACT468.html">IMPACT468</a>), with matched germline normal sequencing to identify true somatic mutations.</li>
+<li><strong>TMB definition:</strong> non-synonymous somatic mutations normalized by exonic megabases sequenced. TMB-high defined within each histology (top 20th percentile, with sensitivity at 10–50%).</li>
+<li><strong>Outcome:</strong> OS from first ICI dose to death or last follow-up; median follow-up 19 months (range 0–80), 830 patients (50%) alive and censored at last follow-up.</li>
+<li><strong>Data availability:</strong> the cBioPortal study <a href="../datasets/tmb_mskcc_2018.html">tmb_mskcc_2018</a> (<a href="http://www.cbioportal.org/study?id=tmb_mskcc_2018">http://www.cbioportal.org/study?id=tmb_mskcc_2018</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Pan-cancer survival benefit with high TMB.</strong> Across the entire ICI cohort, the top-20%-by-histology TMB group had univariate HR 0.52 (95% CI 0.42–0.64) for OS compared to the bottom 80% (two-sided log-rank). The 10–20% decile group had HR 0.76 (95% CI 0.62–0.94) [Fig. 1A].</li>
+<li><strong>Cutpoint-robust.</strong> The trend of decreasing HR with increasing TMB cutoff was observed across cutpoints ranging from the top 10–50% [Fig. 1B; Supp. Figs. 3–4].</li>
+<li><strong>Multivariable confirmation.</strong> Cox regression (<a href="../methods/cox-proportional-hazards.html">cox-proportional-hazards</a>) adjusting for cancer type, age, ICI drug class, and year of ICI start showed TMB was significantly associated with OS as a continuous variable (HR = 0.985 per unit, p = 3.4 × 10⁻⁷) and as a binary top-20%-of-each-histology variable (HR 0.61, 95% CI 0.508–0.733, p = 1.3 × 10⁻⁷) [Table 1].</li>
+<li><strong>Effect not driven by <a href="../cancer_types/NSCLC.html">NSCLC</a> or melanoma alone.</strong> Removing these two histologies preserved the significant association of higher TMB with longer OS [Supp. Table 2].</li>
+<li><strong>Histology-stratified analysis.</strong> Selecting the top 20% TMB within each cancer type gave HR &lt; 1 in nearly all histologies, with <a href="../cancer_types/GB.html">GB</a> the clearest exception [Fig. 2].</li>
+<li><strong>No prognostic benefit absent ICI.</strong> In the 5,371-patient non-ICI cohort, higher TMB was <em>not</em> associated with better OS (HR 1.12, p = 0.11), consistent across histologies — arguing the OS benefit is ICI-specific rather than a general prognostic effect of mutation load.</li>
+<li><strong>Histology-specific cutpoints.</strong> The TMB value defining the top 20% varied widely across cancer types (e.g., 52.2 mut/Mb for <a href="../cancer_types/COAD.html">COAD</a>, reflecting MSI-high enrichment), undermining the idea of a single universal TMB-high threshold [Fig. 2].</li>
+<li><strong>PFS and response concordance.</strong> Similar associations between higher TMB and clinical benefit / progression-free survival were observed in histologies where response data was available — <a href="../cancer_types/NSCLC.html">NSCLC</a>, melanoma, esophagogastric, head &amp; neck, and renal cell cancer [Supp. Figs. 7–8].</li>
+<li><strong>Cohort enrichment ruled out.</strong> Recomputing top-20% TMB across both ICI- and non-ICI–treated patients did not materially change cutpoints or the OS associations [Supp. Figs. 10–11], arguing clinicians were not systematically triaging high-TMB patients to ICI.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<p>This study does not focus on specific gene alterations as predictors. The biomarker analyzed is aggregate non-synonymous somatic <a href="../methods/msk-impact-panel.html">tumor mutational burden</a> across the MSK-IMPACT 341/410/468-gene panels; mutations in driver oncogenes were not excluded from the TMB count. No per-gene survival associations are reported in the main text.</p>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>TMB is a pan-cancer predictive biomarker for ICI</strong>, supporting its use as a candidate selection biomarker across diverse histologies treated with anti-CTLA4 or anti-PD-1/PD-L1 agents.</li>
+<li><strong>No universal numerical cutoff</strong> — TMB-high thresholds vary by histology, so a single pan-cancer cutpoint is unlikely to be clinically appropriate. The authors explicitly note that the top-20% thresholds shown “may not represent the ideal values for use clinically.”</li>
+<li><strong>Targeted panels are sufficient.</strong> Sampling ~3% of the coding exome via MSK-IMPACT provides enough information for TMB to retain predictive value for OS after ICI, supporting use of clinical-grade targeted NGS rather than WES for this biomarker.</li>
+<li><strong>Mismatch-repair / MSI alignment.</strong> The findings are consistent with the FDA’s tissue-agnostic approval of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> for MSI-high / dMMR tumors; high-TMB <a href="../cancer_types/COAD.html">COAD</a> in this cohort likely reflects MSI-high biology.</li>
+<li><strong>Glioma is the outlier.</strong> No OS benefit was observed in glioma, possibly because TMB in glioma often reflects post-temozolomide subclonal expansion of less immunogenic mutations or CNS-specific immune biology.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Heterogeneous, retrospective cohort.</strong> Patients varied in line of therapy, prior treatment, combination regimens, and timing of MSK-IMPACT testing relative to ICI start; non-ICI prior/concurrent treatments were not recorded for the analysis.</li>
+<li><strong>No response data for some histologies.</strong> PFS / clinical-benefit analyses were limited to NSCLC, melanoma, esophagogastric, head &amp; neck, and renal cell carcinoma; for other histologies only OS is reported.</li>
+<li><strong>Top-20% cutoff is methodological, not clinical.</strong> The authors caution that the dichotomization was for analytic convenience and does not define a clinically actionable threshold.</li>
+<li><strong>Platform portability.</strong> TMB measured by targeted panels correlates with WES, but <a href="../methods/absolute.html">absolute</a> cutpoints are not directly transferable across platforms.</li>
+<li><strong>Mechanistic factors unaddressed.</strong> Other determinants of ICI response (clonality, neoantigen quality, HLA genotype, immune-cell infiltration, expression of checkpoint molecules) were not jointly modeled here.</li>
+<li><strong>Glioma signal.</strong> Whether the lack of TMB–OS benefit in <a href="../cancer_types/GB.html">GB</a> reflects temozolomide-induced subclonal mutations, CNS-specific immunology, or insufficient sample size remains open.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we analyzed the clinical and genomic data of 1662 advanced cancer patients treated with ICI, and 5371 non-ICI treated patients, whose tumors underwent targeted next-generation sequencing (MSK-IMPACT).” — Abstract.</li>
+<li>“Among all patients, higher somatic TMB (highest 20% in each histology) was associated with better OS (HR 0.52; p=1.6 ×10−6).” — Abstract.</li>
+<li>“a multivariable analysis across the entire cohort using Cox proportional-hazards regression demonstrated that the tumor mutation burden was significantly associated with OS both as a continuous variable (HR=0.985, p=3.4×10−7) and with a binary cutoff (top 20% of each histology, HR 0.61 p=1.3×10−7)” — Results / Table 1.</li>
+<li>“In these patients [5371 non-ICI], there was no association between higher TMB and improved OS (HR 1.12, p=0.11).” — Results.</li>
+<li>“the TMB cutpoint for the top 20% of colorectal cancer patients was high (52.2/MB)” — Results.</li>
+<li>“All data is publicly available at http://www.cbioportal.org/study?id=<a href="../datasets/tmb_mskcc_2018.html">tmb_mskcc_2018</a>.” — Data Availability.</li>
+<li>“identifies somatic exonic mutations in a pre-defined subset of 468 cancer-related genes (earlier versions included 341 or 410 genes)” — Introduction.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30643254.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30643254.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

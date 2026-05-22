@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>A rectal cancer organoid platform to study individual responses to chemoradiation – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31591597.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31591597.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A rectal cancer organoid platform to study individual responses to chemoradiation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Karuna Ganesh </p>
+             <p>Chao Wu </p>
+             <p>Kevin P. O’Rourke </p>
+             <p>Bryan C. Szeglin </p>
+             <p>Youyun Zheng </p>
+             <p>Charles-Etienne Gabriel Sauvé </p>
+             <p>Mohammad Adileh </p>
+             <p>Isaac Wasserman </p>
+             <p>Michael R. Marco </p>
+             <p>Francisco Sanchez-Vega </p>
+             <p>Wouter R. Karthaus </p>
+             <p>Helen H. Won </p>
+             <p>Martin R. Weiser </p>
+             <p>Jose G. Guillem </p>
+             <p>Leonard B. Saltz </p>
+             <p>Joan Massagué </p>
+             <p>Philip B. Paty </p>
+             <p>Rona Yaeger </p>
+             <p>Hans Clevers </p>
+             <p>Michael F. Berger </p>
+             <p>Scott W. Lowe </p>
+             <p>Paul B. Romesser </p>
+             <p>Lukas E. Dow </p>
+             <p>Julio Garcia-Aguilar </p>
+             <p>Charles L. Sawyers </p>
+             <p>J. Joshua Smith </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41591-019-0584-2">10.1038/s41591-019-0584-2</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 31591597 · <strong>DOI:</strong> 10.1038/s41591-019-0584-2 · <strong>Journal:</strong> Nature Medicine (2019)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Ganesh et al.&nbsp;built a biorepository of 65 patient-derived rectal cancer (RC) organoid cultures (“tumoroids”) from 41 Memorial Sloan Kettering patients with primary, metastatic, or recurrent disease, including pre- and post-treatment samples. Tumoroids retained the histopathology and oncogenic mutation profiles of the parental tumors as confirmed by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> sequencing, and their ex vivo responses to 5-FU, <a href="../drugs/folfox.html">FOLFOX</a>, and ionizing radiation tracked with the matched patients’ clinical responses (Spearman r = 0.86, p = 0.024 for both chemotherapy regimens against PFS). The authors further established a first-of-its-kind endoluminal patient-derived xenograft model in which human RC tumoroids engraft into the <a href="../methods/patient-derived-xenograft.html">NSG mouse</a> rectum, recapitulate invasion, generate site-matched lung/liver metastases, and reproduce patient-specific 5-FU and FOLFOX response patterns.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Tumoroid biorepository:</strong> 65 RC tumoroids derived from 41 patients (84 attempts, 77% success rate). 49 of 65 tumoroids were grown from outpatient biopsy-forceps tissue. 22 tumoroids from treatment-naïve patients; 43 from patients on first- or second-line therapy. 17 from sites of recurrence or metastasis. Two patients had mismatch-repair-deficient tumors (5%, consistent with the 5–6% MMR-d rate observed clinically in RC). 62% of tumoroids were RAS mutant.</li>
+<li><strong>Normal controls:</strong> 51 normal rectal organoids derived from matched adjacent mucosa.</li>
+<li><strong>Sequencing:</strong> Genomic DNA from 31 RC tumoroid lines profiled with <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> (custom, FDA-cleared tumor profiling panel — see <a href="../methods/IMPACT468.html">IMPACT468</a> for the contemporaneous gene list).</li>
+<li><strong>Reference cohort:</strong> <a href="../datasets/rectal_msk_2019.html">rectal_msk_2019</a> — a clinical cohort of 287 <a href="../cancer_types/READ.html">rectal cancers ([READ](../cancer_types/READ.md))</a> resected at Memorial Hospital and sequenced by MSK-IMPACT used as the comparator for mutation landscape.</li>
+<li><strong>Disease setting:</strong> <a href="../cancer_types/READ.html">rectal adenocarcinoma (READ)</a>, a subtype of <a href="../cancer_types/COADREAD.html">colorectal cancer (COADREAD)</a>; patients reflected tri-modal (neoadjuvant chemoradiation + surgery + 5-FU-based chemotherapy) treatment pathways.</li>
+<li><strong>Ex vivo assays:</strong> 21 tumoroids screened against <a href="../drugs/fluorouracil.html">5-fluorouracil</a> and <a href="../drugs/folfox.html">FOLFOX</a> (5-FU + <a href="../drugs/leucovorin.html">leucovorin</a> + <a href="../drugs/oxaliplatin.html">oxaliplatin</a>); 19 tumoroids screened against ionizing radiation; KRAS-mutant vs.&nbsp;wild-type tumoroids tested against <a href="../drugs/cetuximab.html">cetuximab</a>.</li>
+<li><strong>In vivo model:</strong> Endoluminal xenograft in NOD-scid-gamma (NSG) mouse rectum — 200,000 tumoroid cells injected per mouse, eight tumoroid lines tested, both sexes.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Establishment efficiency:</strong> 65 of 84 derivation attempts succeeded (77%), including from heavily pre-treated specimens and from minute (≈2.8 mm) outpatient biopsy forceps samples. Of 19 failures, seven survived ~6 weeks before senescing (<a href="../papers/31591597.html">PMID:31591597</a>).</li>
+<li><strong>Mutational fidelity:</strong> 92% of likely-oncogenic tumor mutations (range 0.66–1.00) were preserved in matched tumoroids, comparable to the 88% concordance previously reported for colon organoids. 77% of clonal oncogenic mutations in matched tumors remained clonal in the tumoroid.</li>
+<li><strong>Landscape concordance:</strong> The top mutated genes in tumoroids (<a href="../genes/APC.html">APC</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/FBXW7.html">FBXW7</a>) mirror those in the matched 287-patient clinical MSK rectal-cancer cohort (<a href="../datasets/rectal_msk_2019.html">rectal_msk_2019</a>).</li>
+<li><strong>Ex vivo chemosensitivity predicts PFS:</strong> In seven patients with mature follow-up, ex vivo AUC for both <a href="../drugs/fluorouracil.html">5-FU</a> and <a href="../drugs/folfox.html">FOLFOX</a> correlated with patient progression-free survival (Spearman r = 0.86, p = 0.024 for both regimens).</li>
+<li><strong>Ex vivo radiation response matches clinic:</strong> Of 19 radiated tumoroids, those at or above the 75th-percentile resistance level came from patients who recurred or had minimal clinical response (RC-MSK-003, RC-MSK-004, RC-MSK-023); those at or below the 25th-percentile resistance came from patients with ≥50% endoscopic tumor reduction or clinical complete response (RC-MSK-001, RC-MSK-025, RC-MSK-031).</li>
+<li><strong>Targeted-therapy proof of concept:</strong> <a href="../genes/KRAS.html">KRAS</a>-mutant tumoroids were resistant to anti-<a href="../genes/EGFR.html">EGFR</a> <a href="../drugs/cetuximab.html">cetuximab</a>, while <a href="../genes/KRAS.html">KRAS</a> wild-type tumoroids were sensitive, recapitulating the established CRC clinical-trial finding.</li>
+<li><strong>Endoluminal xenograft model:</strong> 100% of NSG mice transplanted with tumoroids showed hEpCAM-positive engraftment, with gross tumor formation in 20–100% per experiment. Tumors progressed to intramucosal adenocarcinoma by 16 weeks and invasive adenocarcinoma by 22–30 weeks, generating site-specific lung (RC-MSK-001) and liver (RC-MSK-002) metastases that matched the originating patient’s metastatic pattern.</li>
+<li><strong>In vivo chemosensitivity recapitulates clinic:</strong> Mice engrafted with the more aggressive RC-MSK-008 tumoroid (donor <a href="../cancer_types/OS.html">OS</a> = 1.1 yr) failed to respond to 5-FU or FOLFOX, while RC-MSK-002 (donor OS = 3.3 yr) responded; similarly, RC-MSK-023 (donor PFS = 3.4 mo) did not respond to FOLFOX whereas RC-MSK-001 (donor PFS = 14.2 mo) did.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/APC.html">APC</a> — most frequent mutation in both the tumoroid panel and the 287-patient MSK RC cohort (<a href="../datasets/rectal_msk_2019.html">rectal_msk_2019</a>); consistent with canonical Wnt-pathway loss in colorectal/rectal adenocarcinoma.</li>
+<li><a href="../genes/TP53.html">TP53</a> — top co-occurring driver in tumoroids and matched cohort.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — 62% of tumoroids were RAS mutant; KRAS-mutant tumoroids exhibited cell-autonomous resistance to <a href="../drugs/cetuximab.html">cetuximab</a> ex vivo, mirroring the established clinical-trial finding that KRAS mutation predicts anti-EGFR-antibody resistance in CRC.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> — among the top recurrently mutated genes in both tumoroids and the 287-patient comparator cohort.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — target of <a href="../drugs/cetuximab.html">cetuximab</a>; not mutated, but the KRAS↔︎<a href="../drugs/cetuximab.html">cetuximab</a> axis depends on intact <a href="../genes/EGFR.html">EGFR</a> signalling.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Predictive biomarker for chemoresponse:</strong> Ex vivo tumoroid AUC against 5-FU or FOLFOX could prospectively flag rectal-cancer patients at high risk of progression on standard-of-care chemotherapy (Spearman r = 0.86, p = 0.024 vs.&nbsp;PFS). The 6–12-week derivation-to-readout window fits within the ~6-month total-neoadjuvant-therapy timeline, leaving room to inform clinical decisions.</li>
+<li><strong>Predictive biomarker for radiotherapy response:</strong> Ex vivo radiation sensitivity tracked with endoscopic post-radiation tumor regression, raising the possibility of sparing predicted non-responders the toxicity of pelvic radiation if validated prospectively.</li>
+<li><strong>Targeted-therapy modeling:</strong> The <a href="../genes/KRAS.html">KRAS</a>-mutation→<a href="../drugs/cetuximab.html">cetuximab</a>-resistance recapitulation in tumoroids supports their use as a preclinical filter for new anti-<a href="../genes/EGFR.html">EGFR</a> or KRAS-pathway agents in the RC-specific setting (cetuximab is not standard RC therapy).</li>
+<li><strong>Metastasis modelling for organ-tropic biology:</strong> The endoluminal xenograft reproduces patient-specific lung-vs-liver metastatic tropism, providing a model to dissect the rectum’s iliac-vein-mediated lung-metastasis bias (~69% lung vs ~20% liver vs colon-cancer pattern).</li>
+<li><strong>Practical feasibility:</strong> Tumoroids can be derived from a single 2.8 mm outpatient biopsy without surgical resection — making serial pre/intra/post-treatment modelling feasible in routine clinical practice.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small predictive cohort:</strong> Only seven patients had mature PFS for the ex vivo–to-clinic correlation; prospective, larger validation is required before tumoroid sensitivity can be used to triage real patients.</li>
+<li><strong>Selection bias:</strong> Tumoroid derivation success was 77%, but the authors do not characterize whether the 23% failures share clinical or molecular features that could bias the panel toward more aggressive or growth-factor-independent disease.</li>
+<li><strong>In vivo metastasis evidence:</strong> Lung and liver metastases were demonstrated for selected lines, but the cohort engrafted was small (8 lines for tumor formation; 4 lines for in vivo chemosensitivity) and the patient-specific tropism observation needs broader replication.</li>
+<li><strong>Microenvironment:</strong> Tumoroids lack immune and stromal compartments — limiting their utility for immunotherapy modeling and for chemoradiation effects mediated through the tumor microenvironment (e.g., radiation-induced stromal changes).</li>
+<li><strong>Standard-of-care offset:</strong> Cetuximab is not routinely used in rectal cancer; the targeted-therapy proof of concept thus validates the platform’s biological fidelity but does not generate immediately actionable RC treatment data.</li>
+<li><strong>Generalizability of the endoluminal model:</strong> Gross tumor formation ranged 20–100% per experiment, and the protocol depends on the MSK Precision Modeling Center’s specialized rectal-injection technique — adoption elsewhere may face technical barriers.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We established a biorepository of 65 patient-derived RC organoid cultures (tumoroids) from patients with primary, metastatic, or recurrent disease” — Abstract.</li>
+<li>“After 84 tumoroid derivation attempts from 58 individual patients, we established 65 RC tumoroids from 41 patients with an overall success rate of 77% (65/84)” — Results, p.&nbsp;3.</li>
+<li>“Among tumor mutations likely to be oncogenic, 92% (range 0.66–1.00 … ) were present in their corresponding tumoroids, which is comparable to an 88% concordance (range 0.62–1.00) previously reported for colon organoids” — Results, p.&nbsp;5.</li>
+<li>“We then compared these tumoroids to a clinical cohort of 287 rectal cancers resected at Memorial Hospital that had been sequenced by MSK-IMPACT. The top mutations … the most common alterations in the genes <a href="../genes/APC.html">APC</a>, <a href="../genes/TP53.html">TP53</a>, KRAS, and <a href="../genes/FBXW7.html">FBXW7</a>” — Results, p.&nbsp;5.</li>
+<li>“AUC for both 5-FU and FOLFOX ex vivo treatments correlated with PFS of the corresponding patient (Fig. 2b, Spearman r = 0.86, p = 0.024 for both treatment conditions)” — Results, p.&nbsp;5–6.</li>
+<li>“KRAS mutant tumoroids were resistant to cetuximab, whereas KRAS wild type tumoroids were sensitive” — Results, p.&nbsp;6.</li>
+<li>“100% of the mice transplanted showed engraftment of cells positive for hEpCAM” — Results, p.&nbsp;7.</li>
+<li>“RC-MSK-008, a tumoroid derived from a patient with more clinically aggressive disease (overall survival [OS] = 1.1 yrs), and RC-MSK-002, a tumoroid derived from a patient with less clinically aggressive disease (OS = 3.3 yrs) … RC-MSK-008 tumoroids demonstrated a lack of response to treatment with 5-FU … RC-MSK-002 tumoroids demonstrated significant treatment response to 5-FU” — Results, p.&nbsp;7–8.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31591597.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31591597.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

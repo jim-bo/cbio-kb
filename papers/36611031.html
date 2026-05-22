@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Integrated clinical and genomic analysis identifies driver events and molecular evolution of colitis-associated cancers – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36611031.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36611031.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrated clinical and genomic analysis identifies driver events and molecular evolution of colitis-associated cancers</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Walid K. Chatila </p>
+             <p>Henry Walch </p>
+             <p>Jaclyn F. Hechtman </p>
+             <p>Sydney M. Moyer </p>
+             <p>Valeria Sgambati </p>
+             <p>David M. Faleck </p>
+             <p>Amitabh Srivastava </p>
+             <p>Laura Tang </p>
+             <p>Jamal Benhamida </p>
+             <p>Dorina Ismailgeci </p>
+             <p>Carl Campos </p>
+             <p>Fan Wu </p>
+             <p>Qing Chang </p>
+             <p>Efsevia Vakiani </p>
+             <p>Elisa de Stanchina </p>
+             <p>Martin R. Weiser </p>
+             <p>Maria Widmar </p>
+             <p>Rhonda K. Yantiss </p>
+             <p>Manish A. Shah </p>
+             <p>Adam J. Bass </p>
+             <p>Zsofia K. Stadler </p>
+             <p>Lior H. Katz </p>
+             <p>Ingo K. Mellinghoff </p>
+             <p>Nilay S. Sethi </p>
+             <p>Nikolaus Schultz </p>
+             <p>Karuna Ganesh </p>
+             <p>David Kelsen </p>
+             <p>Rona Yaeger </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41467-022-35592-9">10.1038/s41467-022-35592-9</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 36611031 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/s41467-022-35592-9">10.1038/s41467-022-35592-9</a> · <strong>Journal:</strong> Nature Communications (2023)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Chatila et al.&nbsp;assemble the largest integrated clinico-genomic series of colitis-associated cancers (CAC) to date — 174 patients with inflammatory bowel disease (IBD)–associated bowel cancer plus 29 synchronous or isolated dysplasia specimens — and use targeted panel sequencing (<a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>, <a href="../methods/foundationone.html">FoundationOne</a>) plus whole-exome sequencing, <a href="../methods/facets.html">FACETS</a> clonality analysis, RNA-seq, methylation profiling, patient-derived organoids and xenografts, and an AOM/DSS mouse model to map the molecular evolution of CAC. They show that CACs are dominated by clonal <a href="../genes/TP53.html">TP53</a> alterations (90% of cancers; ~50% of dysplasias, frequently via convergent evolution of independent events), are largely independent of Wnt signaling (low Wnt ssGSEA scores, growth independent of exogenous Wnt in PDOs), and arise from genetically independent neoplastic lesions rather than from a shared genomic field effect, supporting an early non-mutational (transcriptional/epigenetic) predisposing event in inflamed bowel.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patients:</strong> 174 IBD patients with colitis-associated cancer — 144 in the “clinical cohort,” 161 in the “genomic cohort” (131 with full clinical + sequencing, 30 with sequencing only, plus 47 cases re-annotated from the prior MSK series). 56% ulcerative colitis, 44% Crohn’s disease.</li>
+<li><strong>Tumors sequenced:</strong> 166 CAC + 9 dysplasia with targeted panel sequencing (132 MSK-IMPACT 341–505 genes; 34 FoundationOne 315 genes); 13 CAC + 20 dysplasia with whole-exome sequencing at 150× depth.</li>
+<li><strong>Site distribution:</strong> 10.3% small intestine, 27.1% right colon, 29.5% left colon, 31.3% rectum, 1.8% fistula tract.</li>
+<li><strong>Stage at diagnosis:</strong> 0 (2.4%), I (16.9%), II (20.5%), III (28.3%), IV (29.5%).</li>
+<li><strong>Sites of accrual:</strong> Memorial Sloan Kettering (n=125), Weill Cornell Medical Center–NYP (n=29), Sheba Medical Center, Israel (n=7).</li>
+<li><strong>Germline analysis:</strong> MSK-IMPACT germline panel (76 → 88 genes) in 73 consented patients (45% of the genomic cohort).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/bowel_colitis_msk_2022.html">bowel_colitis_msk_2022</a>.</li>
+<li><strong>Cancer types:</strong> <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/SBC.html">SBC</a> (small bowel), with overall <a href="../cancer_types/COADREAD.html">COADREAD</a> framing.</li>
+<li><strong>Functional models:</strong> patient-derived organoids and patient-derived xenografts (<a href="../methods/patient-derived-xenograft.html">PDX</a>) from CAC; AOM/DSS mouse model of inflammatory colorectal cancer with mouse MSK-IMPACT sequencing of macrodissected lesions.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Persistent risk despite surveillance:</strong> 17% of patients (n=24) had a documented colonoscopy within one year of CAC diagnosis; 15% (n=22) had quiescent IBD off-treatment with no surveillance. 22% (n=32) of cancers were detected at surveillance colonoscopy and all carcinoma-in-situ cases were screen-detected.</li>
+<li><strong>Metastatic pattern differs from sporadic CRC:</strong> Bone and pelvic metastases were significantly enriched in CAC versus sporadic CRC (Supplementary Fig. 2a–c).</li>
+<li><strong>Recurrent driver landscape in CAC:</strong> <a href="../genes/TP53.html">TP53</a> 90%, <a href="../genes/KRAS.html">KRAS</a> 31%, <a href="../genes/MYC.html">MYC</a> 20% (amplification frequent), <a href="../genes/APC.html">APC</a> 20%, <a href="../genes/SMAD4.html">SMAD4</a> 13%. <a href="../genes/PIK3CA.html">PIK3CA</a> and <a href="../genes/IDH1.html">IDH1</a> alterations were significantly enriched in patients with Crohn’s disease versus ulcerative colitis. <a href="../genes/KRAS.html">KRAS</a> mutations were enriched in more differentiated CAC.</li>
+<li><strong>Dysplasia driver landscape (n=29):</strong> <a href="../genes/TP53.html">TP53</a> altered in ~50% of dysplasia samples. Other oncogenic drivers seen in dysplasia included <a href="../genes/APC.html">APC</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/SMAD4.html">SMAD4</a> — no alteration emerged specifically at the dysplasia-to-carcinoma transition.</li>
+<li><strong>Convergent evolution of <a href="../genes/TP53.html">TP53</a>:</strong> Using <a href="../methods/facets.html">FACETS</a>, the majority of CAC harbored clonal <a href="../genes/TP53.html">TP53</a> alterations; 14% had subclonal TP53 and 12% had no detectable TP53 alteration. Paired-sample analysis showed TP53 was always carried in both samples and often became clonal in the second specimen, supporting independent convergent TP53 acquisition rather than a shared ancestral clone.</li>
+<li><strong>Wnt pathway alterations are infrequent and functionally dispensable:</strong> Wnt alterations were significantly enriched only in subclonal-TP53 CACs (Fisher’s exact P=0.017). CAC RNA-seq showed lower Wnt ssGSEA scores than sporadic CRC (P=0.13 in 11 patients) and low Wnt expression in pathway-wild-type CAC; no canonical CMS2 tumors among CAC. Beta-catenin IHC in 14 CAC showed membranous staining in all Wnt pathway wild-type tumors.</li>
+<li><strong>Functional Wnt-independence:</strong> Wnt wild-type and APC-mutant CAC organoids (P-0043364-PDO, P-0017016-PDO, P-0012110-PDO, P-0027647-PDO) grew without exogenous Wnt supplementation; normal colonic organoids did not (P=0.02 for normal). Porcupine inhibition with LGK-974 and tankyrase inhibition with G007-LK in three CAC PDXs (two Wnt wild-type, one APC-mutant) did not suppress tumor growth.</li>
+<li><strong>Copy-number profile distinguishes CAC from sporadic CRC:</strong> Broad copy-number alterations were significantly more common in sporadic CRC than CAC (CNapp broad CNA score P=0.000016, Mann–Whitney U-test, CAC n=112 vs CRC n=921 IMPACT cases); focal CNA frequency was similar between groups, but a larger fraction of oncogenic alterations in CAC were CNAs (25.0% in CAC vs 16.6% in CRC). <a href="../genes/MYC.html">MYC</a> focal amplifications were enriched in CAC.</li>
+<li><strong>Late ongoing instability in carcinoma:</strong> Fraction genome altered and whole-genome doubling (WGD) were significantly increased in CAC versus paired dysplasia, consistent with copy-number/WGD accruing late in tumorigenesis.</li>
+<li><strong>Multifocal lesions develop independently:</strong> In one patient with total colectomy yielding six synchronous lesions (low-grade dysplasia through carcinoma), no shared genetic alterations were detected across lesions. Across six additional patients with multiple primaries (two synchronous, four metachronous), multifocal tumors shared no genomic changes despite close anatomic proximity in three cases. AOM/DSS mouse model: two adjacent lesions per mouse — one mouse shared a <a href="../genes/CTNNB1.html">CTNNB1</a> mutation between intramucosal carcinoma and high-grade dysplasia; the other shared no alterations between two intramucosal carcinomas.</li>
+<li><strong>Dysplasia/CAC pair sequencing (WES, 13 pairs):</strong> Cell-cycle copy-number alterations were present in three carcinoma samples but not in synchronous or other dysplasia samples (late event). The majority of detected alterations were private to one lesion (P=0.00022 shared vs private for all mutations; driver-mutation comparison P=0.17).</li>
+<li><strong>No TP53 in non-neoplastic mucosa:</strong> WES of 13 adjacent normal-appearing mucosa samples (matched with blood as normal in 5 patients) detected no TP53 alterations, arguing against a TP53-driven genomic field defect.</li>
+<li><strong>Germline alterations (n=73 consented):</strong> Pathogenic germline alterations in 10/73 patients (14%) — most common <a href="../genes/APC.html">APC</a> I1307K (3 cases, Ashkenazi Jewish low-penetrance variant); plus <a href="../genes/PMS2.html">PMS2</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/RAD51B.html">RAD51B</a>, <a href="../genes/DICER1.html">DICER1</a>, <a href="../genes/FANCA.html">FANCA</a>, <a href="../genes/FANCC.html">FANCC</a>. Both <a href="../genes/PMS2.html">PMS2</a> carriers harbored microsatellite-stable CAC, consistent with incidental Lynch findings. Overall germline alteration frequency similar to sporadic CRC.</li>
+<li><strong><a href="../genes/IDH1.html">IDH1</a> mutations are uniquely actionable in CAC:</strong> <a href="../genes/IDH1.html">IDH1</a> R132 mutant tumors (six identified) showed high global methylation, clustering with microsatellite-instable tumors on methylation analysis. An IDH1-mutant ileal CAC PDX produced high 2-hydroxyglutarate (2-HG); selective <a href="../genes/IDH1.html">IDH1</a> inhibition suppressed PDX growth. One dysplastic lesion harbored an IDH1 mutation without TP53 alteration, suggesting IDH1 mutations do not require prior TP53 events. Both <a href="../genes/FGFR2.html">FGFR2</a> amplification/fusion and IDH1 R132 mutations (rare in sporadic CRC) occur in CAC and have FDA-approved targeted therapies in other inflammation-associated GI cancers (intrahepatic cholangiocarcinoma).</li>
+<li><strong>Dominant mutational signature:</strong> SBS1 (aging-associated) was the most frequent mutational signature in the WES subset.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — altered in 90% of CAC and ~50% of dysplasia; clonal in the majority of CAC, subclonal in 14%; convergent evolution of independent TP53 events across multifocal lesions; not detected in adjacent normal mucosa. Subclonal-TP53 CACs were enriched for Wnt-pathway alterations (P=0.017).</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — 31% of CAC; enriched in moderately differentiated histology; less frequent in CAC than sporadic CRC.</li>
+<li><a href="../genes/APC.html">APC</a> — somatic mutation in only 20% of CAC (vs ~80% in sporadic CRC); APC-mutant CAC organoids remained Wnt-independent for growth; germline I1307K seen in 3 CAC patients (Ashkenazi Jewish low-penetrance allele).</li>
+<li><a href="../genes/MYC.html">MYC</a> — amplified in 20% of CAC; focal amplifications enriched vs sporadic CRC; also amplified in the AOM/DSS mouse model lesions.</li>
+<li><a href="../genes/SMAD4.html">SMAD4</a> — altered in 13% of CAC.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — enriched in Crohn’s disease–associated CAC vs ulcerative colitis–associated CAC.</li>
+<li><a href="../genes/IDH1.html">IDH1</a> — R132 mutations identified in CAC (6 cases); associated with high global methylation; 2-HG production confirmed in PDX; pharmacologic IDH1 inhibition suppressed PDX growth; enriched in Crohn’s disease–associated CAC.</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a> — amplification or fusion seen in CAC (rare in sporadic CRC); selective FGFR inhibitor active in PDX.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — shared mutation between adjacent intramucosal carcinoma and high-grade dysplasia in one of two analyzed AOM/DSS mouse lesions.</li>
+<li><a href="../genes/RNF43.html">RNF43</a> — Wnt-pathway alteration not selectively enriched in APC-wild-type CAC; mutated in a subset of dysplasia and CAC.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> — recurrently altered in CAC (10% in dysplasia comparison oncoprint).</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — V600E mutations occurred significantly less frequently in CAC than sporadic CRC.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — recurrent alterations among multi-primary metachronous CAC samples.</li>
+<li>Germline DNA-repair alterations in CAC: <a href="../genes/PMS2.html">PMS2</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/RAD51B.html">RAD51B</a>, <a href="../genes/DICER1.html">DICER1</a>, <a href="../genes/FANCC.html">FANCA</a>, <a href="../genes/FANCC.html">FANCC</a> — overall frequency similar to sporadic CRC; both <a href="../genes/PMS2.html">PMS2</a> carriers had microsatellite-stable tumors.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Surveillance limits:</strong> Surveillance colonoscopy detected all carcinoma-in-situ cases but ~62% of CAC patients still presented with worsening bowel symptoms; cancer risk persists in quiescent IBD off treatment and in any residual mucosa, motivating continued surveillance even outside active flares.</li>
+<li><strong>Actionable drivers distinct from sporadic CRC:</strong> <a href="../genes/IDH1.html">IDH1</a> R132 mutations and <a href="../genes/FGFR2.html">FGFR2</a> amplification/fusion — both with FDA-approved targeted therapies in cholangiocarcinoma (<a href="../drugs/ivosidenib.html">ivosidenib</a> for IDH1; FGFR inhibitors) — are present in CAC and were functionally validated in PDX models, supporting prospective genomic profiling of CAC for trial assignment beyond standard CRC regimens.</li>
+<li><strong>Wnt-pathway therapeutics unlikely to benefit CAC:</strong> Pharmacologic Wnt blockade (porcupine inhibitor LGK-974, tankyrase inhibitor G007-LK) did not suppress CAC PDX growth, including in APC-mutant tumors — arguing against repurposing Wnt-axis drugs for CAC.</li>
+<li><strong>Germline testing yield comparable to sporadic CRC:</strong> 14% pathogenic germline alteration rate supports offering germline panel testing to CAC patients, though PMS2 incidental findings should be interpreted with the patient’s MSI status.</li>
+<li><strong>Multifocal CAC requires independent sampling/treatment decisions:</strong> Because separate primaries lack shared driver alterations, treatment decisions (especially targeted therapy selection) should be informed by sequencing the specific tumor being treated, not extrapolated from a synchronous lesion.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Retrospective sample collection; relatively small number of dysplasia samples (29 sequenced, 13 dysplasia/CAC pairs with WES).</li>
+<li>Primarily targeted-panel sequencing with WES in a subset — non-cancer genes possibly involved in CAC development may be missed.</li>
+<li>Patients with Lynch syndrome or microsatellite-instable tumors were excluded to focus on inflammation-driven biology — the findings therefore do not generalize to MMR-deficient CAC.</li>
+<li>Mechanism of the inferred non-mutational (likely epigenetic/transcriptional) early field defect remains unidentified; whether Wnt-independence is itself the predisposing event or a consequence of lineage plasticity is unresolved.</li>
+<li>Only one mouse pair was sequenced from the AOM/DSS model (two mice, two lesions each).</li>
+<li>Wnt ssGSEA comparison between CAC and CRC patients was based on only 11 patients (5 CAC, 6 CRC).</li>
+<li>Substantial unanswered question: which non-genomic event(s) in inflamed mucosa license neoplastic transformation, given the absence of a genomic field effect?</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“TP53 alterations, an early and highly recurrent event in colitis-associated cancers, occur in half of dysplasia, largely as convergent evolution of independent events.” (Abstract)</li>
+<li>“In CAC, the most frequently altered genes were TP53 (90%), <a href="../genes/KRAS.html">KRAS</a> (31%), <a href="../genes/MYC.html">MYC</a> (20%), <a href="../genes/APC.html">APC</a> (20%), and <a href="../genes/SMAD4.html">SMAD4</a> (13%).” (Results, Genomic landscape)</li>
+<li>“<a href="../genes/PIK3CA.html">PIK3CA</a> and IDH1 alterations were significantly enriched in patients with a history of Crohn’s disease versus ulcerative colitis. <a href="../genes/KRAS.html">KRAS</a> mutations were enriched in more differentiated CAC.” (Results)</li>
+<li>“Pathogenic alterations were identified in 10 patients (14%) … <a href="../genes/APC.html">APC</a> I1307K was most common (3 cases).” (Results, germline)</li>
+<li>“The majority of CAC harbored clonal TP53 alterations, but 14% of cases had subclonal TP53 alterations and 12% had no detectable TP53 alteration. Wnt pathway alterations were significantly enriched in CACs with subclonal TP53 mutations.” (Results, TP53 clonality; Fisher’s P=0.017)</li>
+<li>“CAC versus CRC broad CNA score, P=0.000016.” (Fig. 1f legend)</li>
+<li>“Wnt wild-type organoids (P-0043364-PDO and P-0017016-PDO) and APC-mutant organoids were able to grow without exogenous Wnt supplementation and their growth rate did not vary based on Wnt supplementation, in contrast to normal colonic organoids.” (Results, Wnt)</li>
+<li>“In one patient undergoing total colectomy, we collected six synchronous lesions from across the bowel, ranging from low grade dysplasia to carcinoma. Sequencing showed no shared genetic alterations across these lesions.” (Results, molecular steps)</li>
+<li>“Fraction genome altered and WGD were significantly increased in CAC versus dysplasia, consistent with ongoing genomic instability late in CAC development.” (Results)</li>
+<li>“IDH1 R132 mutant tumors exhibited high global methylation … we confirmed high 2-HG production in a patient-derived xenograft (PDX) generated from an ileal CAC. We treated PDXs with selective pharmacologic inhibitors of IDH1 and FGFR alterations and confirmed tumor growth depended on these alterations.” (Results, functional effect)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36611031.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36611031.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

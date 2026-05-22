@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Clinical Utility of Prospective Molecular Characterization in Advanced Endometrial Cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30068706.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30068706.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Clinical Utility of Prospective Molecular Characterization in Advanced Endometrial Cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tara E. Soumerai </p>
+             <p>Mark T.A. Donoghue </p>
+             <p>Chaitanya Bandlamudi </p>
+             <p>Preethi Srinivasan </p>
+             <p>Matthew T. Chang </p>
+             <p>Dmitriy Zamarin </p>
+             <p>Karen A. Cadoo </p>
+             <p>Rachel N. Grisham </p>
+             <p>Roisin E. O’Cearbhaill </p>
+             <p>William P. Tew </p>
+             <p>Jason A. Konner </p>
+             <p>Martee L. Hensley </p>
+             <p>Vicky Makker </p>
+             <p>Paul Sabbatini </p>
+             <p>David R. Spriggs </p>
+             <p>Tiffany A. Troso-Sandoval </p>
+             <p>Alexandra Snyder Charen </p>
+             <p>Claire Friedman </p>
+             <p>Mila Gorsky </p>
+             <p>Sarah J. Schweber </p>
+             <p>Sumit Middha </p>
+             <p>Rajmohan Murali </p>
+             <p>Sarah Chiang </p>
+             <p>Kay J. Park </p>
+             <p>Robert A. Soslow </p>
+             <p>Marc Ladanyi </p>
+             <p>Bob T. Li </p>
+             <p>Jennifer Mueller </p>
+             <p>Britta Weigelt </p>
+             <p>Ahmet Zehir </p>
+             <p>Michael F. Berger </p>
+             <p>Nadeem R. Abu-Rustum </p>
+             <p>Carol Aghajanian </p>
+             <p>Deborah F. DeLair </p>
+             <p>David B. Solit </p>
+             <p>Barry S. Taylor </p>
+             <p>David M. Hyman </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-18-0412">10.1158/1078-0432.CCR-18-0412</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30068706 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-18-0412 · <strong>Journal:</strong> Clinical Cancer Research (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Prospective tumor and matched-normal sequencing of 197 tumors from 189 patients with advanced endometrial cancer at Memorial Sloan Kettering using the <a href="../methods/msk-impact-panel.html">MSK-IMPACT panel</a> (<a href="../methods/IMPACT341.html">341</a> or <a href="../methods/IMPACT410.html">410</a> genes). The cohort was enriched for high-grade and metastatic disease relative to <a href="../datasets/ucec_tcga.html">TCGA</a>, yet histology- and grade-matched genomic profiles were broadly similar. Genomic <a href="../methods/msisensor.html">MSIsensor</a> and mutational-signature decomposition recovered microsatellite instability with high concordance to IHC and even rescued one MMR-proficient case with occult deficiency. Hierarchical clustering of <a href="../methods/facets.html">FACETS</a>-derived copy-number profiles uncovered a previously underappreciated heterozygous-loss cluster (Cluster C) with significantly worse PFS<sub>1</sub> (median 9.6 vs.&nbsp;17.0 and 17.4 months, p=0.006). 67% of patients carried at least one potentially actionable alteration; 27% of those were enrolled to matched trials, of whom 47% achieved clinical benefit.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>189 patients / 197 tumors</strong> with advanced endometrial cancer profiled by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> (n=70 on the 341-gene <a href="../methods/IMPACT341.html">IMPACT341</a> panel; n=127 on the 410-gene <a href="../methods/IMPACT410.html">IMPACT410</a> panel), average ~735× coverage <a href="../papers/30068706.html">PMID:30068706</a>.</li>
+<li><strong>Cancer types</strong>: <a href="../cancer_types/UEC.html">endometrioid carcinoma</a> (FIGO grades 1–3; 75/189), <a href="../cancer_types/USC.html">serous carcinoma</a> (46/189), <a href="../cancer_types/UCS.html">carcinosarcoma</a> (35/189), mixed (15), <a href="../cancer_types/UCCC.html">clear cell</a> (13), undifferentiated/dedifferentiated (4), neuroendocrine (1) — all grouped under <a href="../cancer_types/UCEC.html">endometrial carcinoma (UCEC)</a>.</li>
+<li><strong>Disease state</strong>: 95% advanced disease (FIGO III–IV at diagnosis or at recurrence); 51% tumor samples from metastatic sites; 39% sequenced after chemotherapy and 11% after hormonal therapy.</li>
+<li><strong>Dataset</strong>: <a href="../datasets/ucec_msk_2018.html">ucec_msk_2018</a> on cBioPortal; compared throughout to the primary-tumor <a href="../datasets/ucec_tcga.html">ucec_tcga</a> cohort.</li>
+<li><strong>Assays/analytical methods</strong>: <a href="../methods/facets.html">FACETS v0.5.6</a> (allele-specific CN, cval=100); <a href="../methods/msisensor.html">MSIsensor v0.2</a> (MSI scoring, MSI-H ≥10); <a href="../methods/mutational-signatures.html">mutational signature decomposition</a> for hypermutated samples; <a href="../methods/oncokb-annotation.html">OncoKB</a> for actionability (annotated 22-Dec-2016); germline calling over 76 cancer-predisposition genes in the MSK-IMPACT panel; MMR <a href="../methods/immunohistochemistry.html">IHC</a> for MLH1/PMS2/MSH2/MSH6.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Cohort vs TCGA outcomes</strong>: MSK cohort median PFS<sub>1</sub> 15.3 months vs.&nbsp;TCGA median not reached at 23-month follow-up. Restricted to the 19% of TCGA patients who recurred, the survival profiles were comparable (median PFS<sub>1</sub> 13.7 vs.&nbsp;15.3 months, p=0.1) <a href="../papers/30068706.html">PMID:30068706</a>.</li>
+<li><strong>Grade matters within endometrioid</strong>: high-grade (FIGO grade 3) <a href="../cancer_types/UEC.html">endometrioid carcinoma</a> had worse median PFS<sub>1</sub> than low-grade (12.7 vs.&nbsp;21.6 months, p=0.005).</li>
+<li><strong>Pathway alterations</strong>: PI3K/AKT/mTOR pathway altered in 70% of patients; RTK/RAS/β-catenin pathway in 65% — consistent with prior endometrial profiling.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a> vs <a href="../genes/PTEN.html">PTEN</a> cohort skew</strong>: <a href="../genes/TP53.html">TP53</a> mutations more common in MSK cohort vs TCGA (63% vs.&nbsp;36%, p=4×10⁻⁵); <a href="../genes/PTEN.html">PTEN</a> alterations more common in TCGA (56% vs.&nbsp;22%, p=8×10⁻⁹) — attributable to histologic composition.</li>
+<li><strong>High-grade enrichment</strong>: TP53 mutations significantly enriched in high-grade endometrioid (29% vs.&nbsp;3%, p=0.013); <a href="../genes/PIK3CA.html">PIK3CA</a> mutations enriched in high-grade tumors overall (p=0.035) and most prevalent in mixed histology.</li>
+<li><strong>Histology-specific amplifications</strong>: <a href="../genes/FGFR1.html">FGFR1</a> amplification enriched in carcinosarcoma (p=0.007); <a href="../genes/ERBB2.html">ERBB2</a> amplification enriched in serous tumors (p=0.018).</li>
+<li><strong>Mutational burden</strong>: median 5.7 mutations/Mb (range 0–419.8). 15.9% (30/189) had ≥10 SNVs enabling signature decomposition. Two <a href="../genes/POLE.html">POLE</a> exonuclease-domain hotspot tumors were ultramutators (V411L at 419.8 mut/Mb; P286R at 152.8 mut/Mb).</li>
+<li><strong>MMR concordance</strong>: 24/189 (13%) tumors were MMR-D by IHC (vs.&nbsp;39% in TCGA, p=5×10⁻¹¹); median TMB 31.6 mut/Mb in MMR-D (excluding the POLE-hotspot case) vs.&nbsp;4.7 mut/Mb in MMR-proficient (p=1.9×10⁻¹⁴). 29/30 MMR-D/presumed-MMR-D tumors had high MSIsensor scores; the discordant case was a POLE-hotspot ultramutator that was MSS by MSIsensor.</li>
+<li><strong>IHC misses one occult MMR-D case</strong>: one MMR-proficient-by-IHC tumor showed high TMB and high MSIsensor, suggesting genomic methods can rescue cases standard IHC misses.</li>
+<li><strong>Novel copy-number cluster</strong>: hierarchical clustering of FACETS profiles produced three clusters. Cluster A: TP53-mutant, whole-genome doubled. Cluster B: PTEN-mutant, low-grade endometrioid, gains of 1q/8/10 (TCGA-like clusters 2–3). <strong>Cluster C</strong>: heterozygous losses across the genome, high-grade endometrioid and non-endometrioid — significantly worse PFS<sub>1</sub> (median 9.6 vs.&nbsp;17.4 and 17.0 months for A and B; p=0.006).</li>
+<li><strong>Germline findings</strong>: three pathogenic germline <a href="../genes/BRCA2.html">BRCA2</a> mutations (one serous, two carcinosarcomas; two carrying the c.5946delT/6174delT founder allele, one with c.5799_5802delCCAA frameshift); one Lynch-syndrome germline <a href="../genes/MLH1.html">MLH1</a> splice mutation (c.1731+1G&gt;T) with biallelic somatic CN-LOH and MSIsensor=19.19.</li>
+<li><strong><a href="../genes/ESR1.html">ESR1</a> de novo mutations</strong>: five endometrioid tumors carried <a href="../genes/ESR1.html">ESR1</a> ligand-binding-domain hotspot mutations; only 2/5 were from samples obtained after endocrine therapy, suggesting de novo emergence in endometrial cancer (not previously reported in breast).</li>
+<li><strong>Primary vs metastatic</strong>: no global differences except <a href="../genes/PTEN.html">PTEN</a> mutations more common in primary than metastatic endometrioid carcinomas (67% [16/24] vs.&nbsp;34% [10/29], p=0.03). In 4 paired primary–metastatic cases, <a href="../genes/MTOR.html">MTOR</a> L2427Q and <a href="../genes/PIK3R1.html">PIK3R1</a> E468* hotspots showed heterogeneity.</li>
+<li><strong>Actionability and matching</strong>: 67% (127/189) carried ≥1 potentially actionable alteration. Most common: <a href="../genes/PIK3CA.html">PIK3CA</a> mutation (35%, 66/189), <a href="../genes/PTEN.html">PTEN</a> mutation (29%, 54/189), MSI-H (16%, 30/189), <a href="../genes/ERBB2.html">ERBB2</a> amplification (16%, 16/189). 27% (34/127) of actionable patients enrolled to matched trials; 47% (16/34) achieved clinical benefit. Trial inhibitor classes: PI3K (n=12), dual PI3K/mTOR (n=6), <a href="../genes/ERBB2.html">ERBB2</a> (n=6), AKT (n=4), mTOR (n=2), FGFR (n=2).</li>
+<li><strong>Hypermutation source attribution</strong>: of high-TMB samples, n=28 attributed to MSI, n=1 to <a href="../genes/POLE.html">POLE</a>, n=1 to MSI+POLE — no other MSS high-TMB cases identified.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — mutation in 63% of MSK cohort vs.&nbsp;36% of TCGA (p=4×10⁻⁵); enriched in high-grade endometrioid (29% vs.&nbsp;3%, p=0.013); defines copy-number Cluster A together with WGD <a href="../papers/30068706.html">PMID:30068706</a>.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — altered in 22% (MSK) vs.&nbsp;56% (TCGA, p=8×10⁻⁹); more common in primary than metastatic endometrioid (67% vs.&nbsp;34%, p=0.03); 29% somatic mutation rate cohort-wide; defines Cluster B alongside endometrioid histology.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — most common actionable alteration (35%, 66/189); enriched in high-grade (p=0.035) and mixed histology; n=12 patients matched to PI3K-pathway trials.</li>
+<li><a href="../genes/POLE.html">POLE</a> — two exonuclease-domain hotspot mutations (V411L and P286R) drove ultramutator phenotypes (419.8 and 152.8 mut/Mb); seven additional non-hotspot POLE variants of uncertain significance lacked ultramutation; neither hotspot case received an ICI and neither recurred at 2–2.5 yrs.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — amplification in 16/189 (16% of actionable subset); enriched in <a href="../cancer_types/USC.html">serous carcinoma</a> (p=0.018); one heavily pretreated serous patient achieved a 14-month ongoing complete response to <a href="../drugs/ado-trastuzumab-emtansine.html">ado-trastuzumab-emtansine (T-DM1)</a>.</li>
+<li><a href="../genes/FGFR1.html">FGFR1</a> — amplification enriched in <a href="../cancer_types/UCS.html">carcinosarcoma</a> (p=0.007).</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a> / <a href="../genes/FGFR3.html">FGFR3</a> — FGFR2/3 fusions noted as therapeutically relevant; n=2 patients enrolled to FGFR-inhibitor trials.</li>
+<li><a href="../genes/ESR1.html">ESR1</a> — ligand-binding-domain hotspot mutations in 5 endometrioid patients; 3/5 arose in apparent absence of endocrine therapy (de novo). One de novo case progressed on <a href="../drugs/letrozole.html">letrozole</a> then had ongoing 18-month response on <a href="../drugs/bevacizumab.html">bevacizumab</a> + <a href="../drugs/fulvestrant.html">fulvestrant</a>.</li>
+<li><a href="../genes/MTOR.html">MTOR</a> — hotspot L2427Q showed primary-metastatic heterogeneity.</li>
+<li><a href="../genes/PIK3R1.html">PIK3R1</a> — hotspot E468* showed primary-metastatic heterogeneity.</li>
+<li><a href="../genes/BRCA2.html">BRCA2</a> — three pathogenic germline truncating mutations (one serous, two carcinosarcomas); founder c.5946delT in two patients; c.5799_5802delCCAA frameshift in the third. None of the germline-BRCA1/2 patients were enrolled to PARP inhibitor trials.</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a> — present in the actionable-alteration tally (n=1 patient at OncoKB level).</li>
+<li><a href="../genes/MLH1.html">MLH1</a> — Lynch-associated germline splice mutation c.1731+1G&gt;T with biallelic CN-LOH, MSIsensor=19.19; also assayed by MMR IHC.</li>
+<li><a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/PMS2.html">PMS2</a> — components of the standard MMR IHC panel used to call MMR-D status.</li>
+<li><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/KIT.html">KIT</a>, <a href="../genes/MAP2K1.html">MAP2K1</a> — each n=1 OncoKB-level-annotated actionable alterations contributing to the 67% actionable tally.</li>
+<li><a href="../genes/AKT1.html">AKT1</a> — pathway target of n=4 patients enrolled to AKT-inhibitor trials.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Genomic MSI calling complements IHC.</strong> Combining <a href="../methods/msisensor.html">MSIsensor</a> with <a href="../methods/mutational-signatures.html">mutational-signature decomposition</a> recovered an MMR-D case that was scored MMR-proficient by <a href="../methods/immunohistochemistry.html">IHC</a>, suggesting prospective NGS can refine eligibility for <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in MSI-high tumors (5/30 MSI-H patients had received ICIs prior to FDA approval; 2/5 had clinical benefit) <a href="../papers/30068706.html">PMID:30068706</a>.</li>
+<li><strong>Matched targeted therapy is feasible but attrits sharply.</strong> Of 189 sequenced patients, 67% had actionable alterations, but only 27% of those (18% of the full cohort) reached a matched trial; 47% of matched patients (8.5% of all sequenced) achieved clinical benefit. Barriers: lack of matching trial, standard-of-care response, alternative unmatched immunotherapy options, clinical deterioration, patient choice.</li>
+<li><strong>ERBB2-amplified serous endometrial cancer responds to T-DM1.</strong> One heavily pretreated serous patient achieved an ongoing 14-month complete response to <a href="../drugs/ado-trastuzumab-emtansine.html">ado-trastuzumab-emtansine</a>, supporting <a href="../genes/ERBB2.html">ERBB2</a>-targeted therapy in this histology.</li>
+<li><strong>Prognostic copy-number Cluster C.</strong> Heterozygous-loss-dominant copy-number profile defines a subset with PFS<sub>1</sub> ≈ 9.6 months, worse than TP53-mutant/WGD Cluster A — relevant for risk stratification and clinical-trial design.</li>
+<li><strong>Germline screening matters even off-histology.</strong> Three pathogenic <a href="../genes/BRCA2.html">BRCA2</a> carriers (not historically endometrial-associated) and a Lynch <a href="../genes/MLH1.html">MLH1</a> carrier were identified via universal tumor/normal sequencing — supporting unbiased germline analysis irrespective of phenotype.</li>
+<li><strong>Hypermutated endometrial cancer is essentially MSI or POLE.</strong> No other MSS-high-TMB mechanism emerged, simplifying the mechanistic interpretation of TMB as an ICI biomarker in this disease.</li>
+<li><strong>Panel-size trade-off</strong>: authors note 30–50 genes likely covers the currently “actionable genome”, though large panels facilitate simultaneous MSI/germline assessment.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Sample size and retrospective design.</strong> Cluster-C prognostic signal needs validation in an additional advanced-endometrial cohort. Re-analysis of TCGA Cluster 4 identified Cluster-A-like and Cluster-C-like subgroups, but heavy censoring (21 progression events / 81 patients) prevented robust outcome comparison.</li>
+<li><strong>Single-center bias.</strong> Trial matching rates are dependent on institutional study portfolio; results may not generalize to community practice.</li>
+<li><strong>MSI-indeterminate calls in low-purity samples.</strong> Two MMR-D-by-IHC tumors were MSI-indeterminate on MSIsensor due to low tumor purity (samples with purity &lt;20% excluded from CN-focused analyses, retaining 154/189).</li>
+<li><strong>Modest matched-therapy yield.</strong> 18% of all sequenced patients enrolled to matched-targeted therapy and 8.5% of all sequenced patients benefited — substantial room to improve trial portfolio breadth.</li>
+<li><strong>De novo ESR1 mutations</strong> in endometrial cancer (no prior endocrine therapy exposure) are reported here for the first time; mechanism (selection by what? estrogen exposure from obesity?) is unresolved — patients’ BMIs were similar to acquired-mutation cases (median 22.9 vs 24.7).</li>
+<li><strong>No germline-BRCA1/2 patients enrolled to PARP-inhibitor trials</strong>, leaving the question of PARP-inhibitor benefit in germline-mutant advanced endometrial cancer open.</li>
+<li><strong>Anonymization tradeoff</strong>: irreversible anonymization required for germline analysis prevented further clinical description of germline-positive cases beyond histology and copy-number summaries.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We integrated prospective clinical sequencing and immunohistochemical data with detailed clinical and treatment histories for 197 tumors, profiled by MSK-IMPACT from 189 patients treated at Memorial Sloan Kettering.” (Abstract — Experimental Design)</li>
+<li>“MSK-IMPACT, an exon capture assay targeting all coding exons of 341 (n=70 samples) or 410 (n=127 samples) key cancer-associated genes” (Methods — Genomic Sequencing, p.3)</li>
+<li>“TP53 mutations were more common in our cohort compared to TCGA (63% vs.&nbsp;36%, p=4×10⁻⁵); PTEN alterations were more common in TCGA (56% vs.&nbsp;22%, p=8×10⁻⁹).” (Results — Comparison of TCGA and MSK cohort mutational profiles, p.5)</li>
+<li>“Alterations in the PI3K/AKT/mTOR and RTK/RAS/β-catenin pathways were identified in 70% and 65% of patients, respectively.” (Results, p.6)</li>
+<li>“Amplifications of <a href="../genes/FGFR1.html">FGFR1</a> and ERBB2 were more prevalent in carcinosarcomas and serous tumors, respectively (p=0.007 and p=0.018).” (Results, p.6)</li>
+<li>“POLE exonuclease domain hotspot mutations had tumors with an ultramutator phenotype (V411L, 419.8 mutations/Mb and P286R, 152.8 mutations/Mb).” (Results — Complementary measures of high mutational burden, p.7)</li>
+<li>“Twenty-four tumors (13% vs.&nbsp;39% in TCGA, p=5×10⁻¹¹) … were MMR-D based on IHC.” (Results, p.7)</li>
+<li>“median PFS in cluster C was significantly lower than that in the other two clusters (median PFS of 9.6 months, cluster C vs.&nbsp;17.4 and 17 months, clusters A and B, respectively, p=0.006).” (Results — Pattern of SCNAs, p.7–8)</li>
+<li>“67% of patients (127/189) had at least one likely therapeutically actionable alteration … 27% (34/127) of patients with potentially actionable alterations were enrolled in matched clinical trials.” (Results — Therapeutic actionability, p.8)</li>
+<li>“one heavily pre-treated patient whose serous tumor harbored an ERBB2 amplification … achieved a durable (14 months, ongoing) complete response to <a href="../drugs/trastuzumab.html">trastuzumab</a> emtansine (TDM1).” (Results, p.8–9)</li>
+<li>“the rate of clinical benefit to patients in clinical trials was 47% (n=16/34)” (Results, p.9)</li>
+<li>“three patients with truncating germline BRCA2 mutations (one serous cancer and two carcinosarcomas)” (Results, p.6)</li>
+<li>“a likely pathogenic, Lynch syndrome-associated, germline MLH1 splice site mutation (c.1731+1G&gt;T) … MSIsensor 19.19” (Results, p.6)</li>
+<li>“five endometrioid tumor patients with ESR1 ligand binding domain hotspot mutations … Only two (40%) of these ESR1 mutations were detected from samples obtained after exposure to endocrine therapy.” (Results, p.6)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30068706.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30068706.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

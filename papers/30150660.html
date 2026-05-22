@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic correlates of response to immune checkpoint blockade in microsatellite-stable solid tumors – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30150660.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30150660.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic correlates of response to immune checkpoint blockade in microsatellite-stable solid tumors</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Diana Miao </p>
+             <p>Claire A. Margolis </p>
+             <p>Natalie I. Vokes </p>
+             <p>David Liu </p>
+             <p>Amaro Taylor-Weiner </p>
+             <p>Stephanie M. Wankowicz </p>
+             <p>Dennis Adeegbe </p>
+             <p>Daniel Keliher </p>
+             <p>Bastian Schilling </p>
+             <p>Adam Tracy </p>
+             <p>Michael Manos </p>
+             <p>Nicole G. Chau </p>
+             <p>Glenn J. Hanna </p>
+             <p>Paz Polak </p>
+             <p>Scott J. Rodig </p>
+             <p>Sabina Signoretti </p>
+             <p>Lynette M. Sholl </p>
+             <p>Jeffrey A. Engelman </p>
+             <p>Gad Getz </p>
+             <p>Pasi A. Jänne </p>
+             <p>Robert I. Haddad </p>
+             <p>Toni K. Choueiri </p>
+             <p>David A. Barbie </p>
+             <p>Rizwan Haq </p>
+             <p>Mark M. Awad </p>
+             <p>Dirk Schadendorf </p>
+             <p>F. Stephen Hodi </p>
+             <p>Joaquim Bellmunt </p>
+             <p>Kwok-Kin Wong </p>
+             <p>Peter Hammerman </p>
+             <p>Eliezer M. Van Allen </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41588-018-0200-2">10.1038/s41588-018-0200-2</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30150660 · <strong>DOI:</strong> 10.1038/s41588-018-0200-2 · <strong>Journal:</strong> Nature Genetics (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Miao, Margolis, Vokes and colleagues pooled whole-exome sequencing from 249 microsatellite-stable tumors (melanoma, <a href="../cancer_types/NSCLC.html">NSCLC</a>, bladder, HNSCC, anal, sarcoma) drawn from seven previously-published immune checkpoint blockade (ICB) cohorts plus 78 newly-sequenced Dana-Farber samples, and uniformly re-analyzed them against clinical response by RECIST 1.1. Beyond confirming that tumor mutational burden (TMB) is associated with complete/partial response (CR/PR) vs progressive disease (PD), they identify clonal driver alterations in <em><a href="../genes/PIK3CA.html">PIK3CA</a></em>, <em><a href="../genes/KRAS.html">KRAS</a></em>, and <em><a href="../genes/PBRM1.html">PBRM1</a></em> enriched in responders, <em><a href="../genes/EGFR.html">EGFR</a></em> hotspots enriched in non-responders, biallelic <em><a href="../genes/PTEN.html">PTEN</a></em> loss occurring exclusively in PD, and 11q (<em><a href="../genes/PAK1.html">PAK1</a></em>/<em><a href="../genes/YAP1.html">YAP1</a></em>/<em><a href="../genes/CCND1.html">CCND1</a></em>) and 12q (<em><a href="../genes/MDM2.html">MDM2</a></em>/<em><a href="../genes/CDK4.html">CDK4</a></em>) amplifications enriched in PD. Dominant mutational signature (UV in melanoma, smoking in NSCLC, APOBEC in bladder/HNSCC) is highly correlated with TMB and intratumoral heterogeneity, and in melanoma TMB ceases to predict response after adjusting for dominant signature. Power calculations indicate that detection of common (~10% prevalence) response-associated variants requires ~300 samples and rare variants thousands.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>N = 249 tumors with matched germline (from 314 starting samples after QC) across six cancer types:
+<ul>
+<li><a href="../cancer_types/SKCM.html">SKCM</a> melanoma — N=151</li>
+<li><a href="../cancer_types/NSCLC.html">NSCLC</a> non-small cell lung cancer — N=57</li>
+<li><a href="../cancer_types/BLCA.html">BLCA</a> bladder cancer — N=27</li>
+<li><a href="../cancer_types/HNSC.html">HNSC</a> head and neck squamous cell carcinoma — N=12</li>
+<li><a href="../cancer_types/ANSC.html">ANSC</a> anal cancer — N=1</li>
+<li><a href="../cancer_types/SARCNOS.html">SARCNOS</a> sarcoma — N=1</li>
+</ul></li>
+<li>Treatment classes: anti-PD-1 (N=74), anti-PD-L1 (N=20), anti-CTLA-4 (N=145), combination anti-CTLA-4 + anti-PD-1/L1 (N=10), other combinations (N=7).</li>
+<li>Assay: tumor/normal <a href="../methods/whole-exome-seq.html">whole-exome-seq</a>; average mean target coverage 150x tumor / 119x germline; mean tumor purity 58% (range 10%–97%).</li>
+<li>Dataset: <a href="../datasets/mixed_allen_2018.html">mixed_allen_2018</a>. Raw BAMs at dbGaP phs000694.v3.p2, phs000980.v1.p1, phs001041.v1.p1, phs000452.v2.p1, phs001075.v1.p1, and new accession phs001565.v1.p1.</li>
+<li>Computational pipeline: <a href="../methods/mutect.html">mutect</a> (SNVs), <a href="../methods/strelka.html">strelka</a> (indels), <a href="../methods/oncotator.html">oncotator</a> (annotation), <a href="../methods/absolute.html">absolute</a> (clonality, purity, ploidy), <a href="../methods/polysolver.html">polysolver</a> (HLA typing), <a href="../methods/netmhcpan.html">netmhcpan</a> v3.0 (neoantigen prediction), non-negative matrix factorization for <a href="../methods/mutational-signatures.html">mutational-signatures</a> deconvolution against COSMIC signatures.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>TMB as a single variable is weakly predictive.</strong> CR/PR patients had significantly higher TMB than PD across the pooled cohort (p&lt;0.05, Mann-Whitney U), but the distributions overlap and ROC AUC = 0.66 for CR/PR vs PD (<a href="../papers/30150660.html">PMID:30150660</a>, Supplementary Fig. 4).</li>
+<li><strong>Clonal TMB is stronger than total TMB.</strong> Mutational clonality inferred by <a href="../methods/absolute.html">absolute</a> showed that clonal nonsynonymous burden predicts CR/PR vs PD across cancer types and response categorizations. Patients with &gt;50% subclonal mutations (high intratumoral heterogeneity) were enriched for PD (p=0.0014, Fisher’s exact).</li>
+<li><strong>Driver gene enrichment.</strong> Clonal driver alterations in <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/KRAS.html">KRAS</a>, and <a href="../genes/PBRM1.html">PBRM1</a> were enriched in CR/PR; clonal driver mutations in <a href="../genes/EGFR.html">EGFR</a> were enriched in PD (p&lt;0.05 for all; FDR q=0.18 for KRAS and PIK3CA). <a href="../genes/KRAS.html">KRAS</a> and <a href="../genes/PIK3CA.html">PIK3CA</a> remained associated with CR/PR after correcting for TMB (p&lt;0.05, logistic regression), though without surviving FDR correction.</li>
+<li><strong>PIK3CA cancer-type context dependence.</strong> Patients with clonal hotspot <a href="../genes/PIK3CA.html">PIK3CA</a> and CR/PR were melanoma, HNSCC, anal, or bladder; most PIK3CA-mutant PD patients were lung. <a href="../genes/KRAS.html">KRAS</a> hotspots associated with CR/PR across multiple cancer types.</li>
+<li><strong>Interferon-γ pathway CNAs.</strong> Copy number alterations expected to disrupt interferon-γ signaling (deletions of interferon genes or amplifications of <em><a href="../genes/SOCS1.html">SOCS1</a></em>, <em><a href="../genes/SOCS3.html">SOCS3</a></em>, <em><a href="../genes/PIAS1.html">PIAS1</a></em>, <em><a href="../genes/PIAS4.html">PIAS4</a></em>) were enriched in PD vs CR/PR (19/123 vs 3/70; p=0.019, Fisher’s exact).</li>
+<li><strong>Focal CNAs in PD.</strong> Amplifications of <a href="../genes/PAK1.html">PAK1</a>, <a href="../genes/YAP1.html">YAP1</a>, <a href="../genes/CCND1.html">CCND1</a> on 11q, and <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/CDK4.html">CDK4</a> on 12q were seen predominantly in PD patients.</li>
+<li><strong>Biallelic PTEN loss is intrinsic-resistance-only.</strong> Homozygous deletion of <a href="../genes/PTEN.html">PTEN</a> occurred exclusively in PD (N=4, p=0.30); truncating clonal biallelic loss was also seen in resistant tumors from mixed-response anti-CTLA-4 patients.</li>
+<li><strong>PBRM1 / SWI/SNF in non-ccRCC settings.</strong> Truncating mutations in <a href="../genes/PBRM1.html">PBRM1</a> and other PBAF SWI/SNF members were over-represented in responders, with biallelic loss almost exclusive to CR/PR — generalizing prior ccRCC findings to melanoma, lung, bladder, and HNSCC.</li>
+<li><strong>Mutational signature dominates in melanoma.</strong> After stratifying by dominant signature (UV S7, alkylating S11, other S1/S5), TMB was no longer a significant predictor of CR/PR vs PD in melanoma (p&gt;0.05 for all). The non-UV/non-alkylating melanoma subgroup (mucosal, uveal, acral) had a higher PD rate.</li>
+<li><strong>APOBEC in bladder and HNSCC.</strong> APOBEC signatures S2/S13 correlated with higher TMB (p=0.002 bladder, p=0.03 HNSCC, Mann-Whitney U) and CR/PR (p=0.019), and may confound the observed <a href="../genes/PIK3CA.html">PIK3CA</a>–response association.</li>
+<li><strong>Smoking signature in NSCLC.</strong> High smoking-signature NSCLC tumors had low intratumoral heterogeneity, high TMB, and frequent <a href="../genes/KRAS.html">KRAS</a>. <a href="../genes/EGFR.html">EGFR</a>-hotspot tumors had subclonal-skewed mutations (p=0.035), low TMB, were enriched in never-smokers (p=0.00017, two-tailed Fisher), and had poor ICB response. TMB remained a significant predictor of response after controlling for smoking history.</li>
+<li><strong>Neoantigens are highly collinear with TMB.</strong> On average each nonsynonymous mutation yielded 2.24 predicted neoantigens (R²=0.99, p&lt;0.00001). 871 of the predicted neoantigens arose from driver mutations; 8 of these driver-derived neoantigens recurred in CR/PR but not PD in an HLA-dependent manner, and were clonal in all carrier samples.</li>
+<li><strong>Power analysis.</strong> With Bonferroni correction over 116 driver genes and assumed 40% CR/PR rate, detection of a common (~10% prevalence) responder-specific variant requires sample sizes ~300; detection of rare (~1%) variants requires thousands.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — clonal hotspot mutations enriched in CR/PR (FDR q=0.18); response association is cancer-type dependent and may be confounded with APOBEC signatures.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — clonal hotspot mutations enriched in CR/PR across cancer types; remains associated after TMB correction (p&lt;0.05, logistic regression) but does not survive FDR.</li>
+<li><a href="../genes/PBRM1.html">PBRM1</a> — truncating / biallelic loss-of-function enriched in CR/PR, generalizing prior ccRCC findings to melanoma, lung, bladder, HNSCC. PBAF SWI/SNF family alterations show the same pattern.</li>
+<li><a href="../genes/ARID2.html">ARID2</a> — PBAF SWI/SNF member; loss implicated alongside <a href="../genes/PBRM1.html">PBRM1</a> in responder enrichment.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — clonal hotspot mutations enriched in PD; tumors are subclonal-skewed, low-TMB, and over-represented in never-smokers.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — homozygous deletion occurred only in PD patients (N=4); biallelic truncating loss seen in mixed-response anti-CTLA-4 cases.</li>
+<li><a href="../genes/MDM2.html">MDM2</a> / <a href="../genes/CDK4.html">CDK4</a> — 12q focal amplifications enriched in PD.</li>
+<li><a href="../genes/PAK1.html">PAK1</a> / <a href="../genes/YAP1.html">YAP1</a> / <a href="../genes/CCND1.html">CCND1</a> — 11q focal amplifications enriched in PD.</li>
+<li>Interferon-γ pathway — combined deletions of interferon genes or amplifications of <a href="../genes/SOCS1.html">SOCS1</a>, <a href="../genes/SOCS3.html">SOCS3</a>, <a href="../genes/PIAS1.html">PIAS1</a>, <a href="../genes/PIAS4.html">PIAS4</a> enriched in PD (p=0.019).</li>
+<li><a href="../genes/B2M.html">B2M</a>, <a href="../genes/JAK1.html">JAK1</a>, <a href="../genes/JAK2.html">JAK2</a>, <a href="../genes/STAT1.html">STAT1</a> — antigen-presentation and JAK/STAT pathway loss-of-function events were rare in this pre-treatment cohort, possibly reflecting intrinsic- vs acquired-resistance differences.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>TMB alone is an imprecise pre-treatment biomarker (AUC=0.66 in this cohort) — integrating clonality, dominant mutational signature, and specific driver/CNA events yields better stratification.</li>
+<li>For <a href="../cancer_types/SKCM.html">SKCM</a> melanoma, the dominant mutational signature is a stronger correlate of response than TMB; TMB may be a proxy for UV-driven biological processes that both raise immunogenicity and accumulate mutations.</li>
+<li>For <a href="../cancer_types/NSCLC.html">NSCLC</a>, <a href="../genes/KRAS.html">KRAS</a>-mutant smoker-signature tumors are a favorable subgroup for ICB; <a href="../genes/EGFR.html">EGFR</a>-hotspot never-smoker tumors are unfavorable — consistent with prior reports.</li>
+<li>For <a href="../cancer_types/BLCA.html">BLCA</a> bladder and <a href="../cancer_types/HNSC.html">HNSC</a> head and neck SCC, APOBEC-signature dominance is associated with both high TMB and CR/PR.</li>
+<li>Biallelic <a href="../genes/PTEN.html">PTEN</a> loss flags intrinsic resistance to ICB; loss of intact interferon-γ signaling via CNA also flags poor response and may be a candidate exclusion criterion.</li>
+<li>Loss of <a href="../genes/PBRM1.html">PBRM1</a> / PBAF SWI/SNF components predicts response across multiple histologies, not only ccRCC.</li>
+<li>Drug-class context: cohort spans <a href="../drugs/ipilimumab.html">ipilimumab</a>, <a href="../drugs/tremelimumab.html">tremelimumab</a>, <a href="../drugs/nivolumab.html">nivolumab</a>, <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, <a href="../drugs/atezolizumab.html">atezolizumab</a>; anti-CTLA-4 use was concentrated in melanoma while anti-PD-1/L1 dominated other histologies, limiting drug-class-by-tumor-type inference.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Pooled retrospective cohort with heterogeneous original sources and FFPE-derived sequencing in the Dana-Farber additions; sample size still under-powered for most single-gene tests after FDR correction (e.g.&nbsp;<a href="../genes/PIK3CA.html">PIK3CA</a>/<a href="../genes/KRAS.html">KRAS</a> at q=0.18).</li>
+<li>Anti-CTLA-4 vs anti-PD-1/L1 effects are confounded with cancer type (anti-CTLA-4 predominantly melanoma).</li>
+<li>Computational neoantigen prediction is highly collinear with TMB (R²=0.99); in-silico methods cannot disentangle the two with this cohort.</li>
+<li>Loss-of-function alterations in JAK/STAT and antigen-presentation machinery (<a href="../genes/B2M.html">B2M</a>, <a href="../genes/JAK1.html">JAK1</a>, <a href="../genes/JAK2.html">JAK2</a>, <a href="../genes/STAT1.html">STAT1</a>) were rare pre-treatment; intrinsic vs acquired-resistance mechanisms may differ.</li>
+<li>Patients with stable disease (SD) by RECIST 1.1 are handled separately from the main CR/PR-vs-PD comparison; alternative response definitions stratifying SD by PFS/OS give different classifications.</li>
+<li>Mixed-response patients (tumor shrinkage at some sites, progression at others) are excluded from main analyses but were enriched for <a href="../genes/PTEN.html">PTEN</a> truncating events at progressing sites.</li>
+<li>Authors call out that ccRCC, the original setting for <a href="../genes/PBRM1.html">PBRM1</a> loss as a response biomarker, is not represented in this cohort; the generalization to other histologies needs further validation.</li>
+<li>Power calculations indicate that detection of rare (~1%) response-associated variants is infeasible without sample sizes in the thousands, motivating hypothesis-driven validation from experimental work.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Our final analysis cohort included 249 patient tumors across six cancer types: melanoma (N=151), non-small cell lung cancer (NSCLC) (N=57), bladder cancer (N=27), head and neck squamous cell carcinoma (HNSCC) (N=12), anal cancer (N=1), and sarcoma (N=1)” (Results, p.&nbsp;3).</li>
+<li>“These patients were treated with anti-PD-1 (N=74), anti-PD-L1 (N=20), anti-CTLA-4 (N=145), or a combination of anti-CTLA-4 and anti-PD-1/L1 therapies (N=10)” (Results, p.&nbsp;3).</li>
+<li>“Clonal driver alterations in PIK3CA, KRAS, and PBRM1 were enriched in CR/PR, while clonal driver mutations in EGFR were enriched in PD (p&lt;0.05 for all, Benjamini-Hochberg false discovery rate (FDR) q=0.18 for KRAS and PIK3CA)” (Results, p.&nbsp;5).</li>
+<li>“Patients with a large proportion of subclonal mutations (&gt;50%) – which we term high intratumoral heterogeneity – were substantially more likely to have PD than CR/PR across all tumors described herein (Fig. 1e) (p=0.0014; Fisher’s exact)” (Results, p.&nbsp;4).</li>
+<li>“interferon-γ-related CNA events were … enriched in PD vs.&nbsp;CR/PR (19/123 vs.&nbsp;3/70; p=0.019, Fisher’s exact)” (Results, p.&nbsp;7).</li>
+<li>“homozygous PTEN deletion occurred exclusively in patients with intrinsic resistance to immune checkpoint therapy (N=4 PD; p=0.30)” (Results, p.&nbsp;7).</li>
+<li>“In the best-case scenario, where a variant is both relatively common (~10% prevalence) and specific to responders, sample sizes of around 300 would be adequate to detect significant associations” (Results, p.&nbsp;5).</li>
+<li>“each nonsynonymous mutation generated 2.24 predicted neoantigens, with extremely high correlation (R²=0.99; p&lt;0.00001)” (Results, p.&nbsp;8).</li>
+<li>“Average mean target sequencing coverage was 150-fold for tumor tissue and 119-fold for matched germline tissue. Mean estimated tumor purity was 58% (range 10%–97%)” (Results, p.&nbsp;3).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30150660.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30150660.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

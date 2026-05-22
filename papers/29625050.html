@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Oncogenic Signaling Pathways in The Cancer Genome Atlas – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29625050.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29625050.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Oncogenic Signaling Pathways in The Cancer Genome Atlas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sanchez-Vega F </p>
+             <p>Mina M </p>
+             <p>Armenia J </p>
+             <p>Chatila WK </p>
+             <p>Luna A </p>
+             <p>La KC </p>
+             <p>Dimitriadoy S </p>
+             <p>Liu DL </p>
+             <p>Kantheti HS </p>
+             <p>Saghafinia S </p>
+             <p>Chakravarty D </p>
+             <p>Daian F </p>
+             <p>Gao Q </p>
+             <p>Bailey MH </p>
+             <p>Liang W-W </p>
+             <p>Foltz SM </p>
+             <p>Shmulevich I </p>
+             <p>Ding L </p>
+             <p>Heins Z </p>
+             <p>Ochoa A </p>
+             <p>Gross B </p>
+             <p>Gao J </p>
+             <p>Zhang H </p>
+             <p>Kundra R </p>
+             <p>Kandoth C </p>
+             <p>Bahceci I </p>
+             <p>Dervishi L </p>
+             <p>Dogrusoz U </p>
+             <p>Zhou W </p>
+             <p>Shen H </p>
+             <p>Laird PW </p>
+             <p>Way GP </p>
+             <p>Greene CS </p>
+             <p>Liang H </p>
+             <p>Xiao Y </p>
+             <p>Wang C </p>
+             <p>Iavarone A </p>
+             <p>Berger AH </p>
+             <p>Bivona TG </p>
+             <p>Lazar AJ </p>
+             <p>Hammer GD </p>
+             <p>Giordano T </p>
+             <p>Kwong LN </p>
+             <p>McArthur G </p>
+             <p>Huang C </p>
+             <p>Tward AD </p>
+             <p>Frederick MJ </p>
+             <p>McCormick F </p>
+             <p>Meyerson M </p>
+             <p>Cancer Genome Atlas Research Network </p>
+             <p>Van Allen EM </p>
+             <p>Cherniack AD </p>
+             <p>Ciriello G </p>
+             <p>Sander C </p>
+             <p>Schultz N </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2018.03.035">10.1016/j.cell.2018.03.035</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29625050 · <strong>DOI:</strong> 10.1016/j.cell.2018.03.035 · <strong>Journal:</strong> Cell (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Sanchez-Vega et al.&nbsp;integrated somatic mutations, copy-number alterations, mRNA expression, gene fusions and DNA methylation across 9,125 TCGA PanCanAtlas tumors from 33 cancer types (64 molecular subtypes) to map alterations in 10 canonical oncogenic signaling pathways: cell cycle, Hippo, Myc, Notch, NRF2/oxidative stress, PI3K/Akt, RTK-RAS, TGFβ, p53, and WNT/β-catenin. They report that 89% of tumors carry at least one driver alteration in these pathways, 57% have at least one alteration potentially targetable by an existing drug, and 30% have multiple targetable alterations — establishing a quantitative pan-cancer rationale for both pathway-level precision oncology and combination therapy. All alteration calls and curated pathway templates are accessible via cBioPortal (<code>http://cbioportal.org/pancanatlas</code>) and PathwayMapper.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>9,125 tumors</strong> drawn from the TCGA PanCanAtlas whitelist (started from 11,276 patients; required all four platforms — mutations, copy number, methylation, mRNA — with QC/pathology filtering).</li>
+<li><strong>33 cancer types</strong>, stratified into <strong>64 genomically distinct subtypes</strong> per individual TCGA analysis working groups.</li>
+<li>Sample composition: 8,602/9,125 (94%) primary solid tumors; 162/9,125 (2%) blood tumors from the <a href="../cancer_types/LAML.html">LAML</a> subset; 361/9,125 (4%) metastatic samples from melanoma (<a href="../cancer_types/SKCM.html">SKCM</a>) patients.</li>
+<li>Cancer types covered include (non-exhaustive): <a href="../cancer_types/GBM.html">GBM</a>, <a href="../cancer_types/LGG.html">LGG</a>, <a href="../cancer_types/BRCA.html">BRCA</a>, <a href="../cancer_types/SKCM.html">SKCM</a>, <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/KIRC.html">KIRC</a>, <a href="../cancer_types/KIRP.html">KIRP</a>, <a href="../cancer_types/KICH.html">KICH</a>, <a href="../cancer_types/LIHC.html">LIHC</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/LUSC.html">LUSC</a>, <a href="../cancer_types/PAAD.html">PAAD</a>, <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/STAD.html">STAD</a>, <a href="../cancer_types/ESCA.html">ESCA</a>, <a href="../cancer_types/CESC.html">CESC</a>, <a href="../cancer_types/UCEC.html">UCEC</a>, <a href="../cancer_types/UCS.html">UCS</a>, <a href="../cancer_types/OV.html">OV</a>, <a href="../cancer_types/THCA.html">THCA</a>, <a href="../cancer_types/HNSC.html">HNSC</a>, <a href="../cancer_types/BLCA.html">BLCA</a>, <a href="../cancer_types/ACC.html">ACC</a>, <a href="../cancer_types/CHOL.html">CHOL</a>, <a href="../cancer_types/MESO.html">MESO</a>, <a href="../cancer_types/LAML.html">LAML</a>, <a href="../cancer_types/PCPG.html">PCPG</a>, <a href="../cancer_types/SARC.html">SARC</a>, <a href="../cancer_types/TGCT.html">TGCT</a>, <a href="../cancer_types/THYM.html">THYM</a>, <a href="../cancer_types/UVM.html">UVM</a>.</li>
+<li>Corresponding cBioPortal studies (subset present in the wiki): <a href="../datasets/gbm_tcga_pan_can_atlas_2018.html">gbm_tcga_pan_can_atlas_2018</a>, <a href="../datasets/brca_tcga_pan_can_atlas_2018.html">brca_tcga_pan_can_atlas_2018</a>, <a href="../datasets/coadread_tcga_pan_can_atlas_2018.html">coadread_tcga_pan_can_atlas_2018</a>, <a href="../datasets/luad_tcga_pan_can_atlas_2018.html">luad_tcga_pan_can_atlas_2018</a>, <a href="../datasets/blca_tcga_pan_can_atlas_2018.html">blca_tcga_pan_can_atlas_2018</a>, <a href="../datasets/cesc_tcga_pan_can_atlas_2018.html">cesc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/chol_tcga_pan_can_atlas_2018.html">chol_tcga_pan_can_atlas_2018</a>, <a href="../datasets/laml_tcga_pan_can_atlas_2018.html">laml_tcga_pan_can_atlas_2018</a>, <a href="../datasets/prad_tcga_pan_can_atlas_2018.html">prad_tcga_pan_can_atlas_2018</a>, <a href="../datasets/thca_tcga_pan_can_atlas_2018.html">thca_tcga_pan_can_atlas_2018</a>.</li>
+<li>Assays: somatic mutations from <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> using the <a href="../methods/mc3.html">MC3 MAF v2.8</a> call set; copy-number from <a href="../methods/affymetrix-snp6.html">Affymetrix SNP6</a> arrays; gene expression from <a href="../methods/rna-seq.html">RNA-Seq</a>; DNA methylation from Illumina Infinium HM450 (<a href="../methods/hm450-methylation-array.html">hm450-methylation-array</a>) arrays.</li>
+<li>Driver-discovery and annotation methods: <a href="../methods/mutsig.html">MutSigCV</a> for mutation recurrence, <a href="../methods/gistic.html">GISTIC 2.0</a> for copy-number recurrence (confidence 0.95; thresholds +2 and −2 for amplification/deep deletion), <code>cancer-hotspots</code> (2D linear and 3D protein-structure mutational hotspots), <a href="../methods/oncokb.html">OncoKB</a> for oncogenicity/actionability annotation, and <code>RESET</code> for <a href="../genes/CDKN2A.html">CDKN2A</a> promoter methylation calling (probe cg13601799). Fusions from RNA-Seq via <a href="../methods/star-fusion.html">STAR-Fusion</a>, <a href="../methods/ericscript.html">EricScript</a> and <a href="../methods/breakfast.html">BreakFast</a>. Mutual-exclusivity / co-occurrence testing via <code>SELECT</code>. Pathway templates visualized via <code>PathwayMapper</code>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Pan-cancer driver burden:</strong> 89% of 9,125 tumors carry at least one driver alteration in one of the 10 canonical pathways; 57% have at least one <em>clinically actionable</em> alteration (including BRCA1/2 and IDH1/2 outside the 10 pathways); 30% carry two or more potentially targetable alterations <a href="../papers/29625050.html">PMID:29625050</a>.</li>
+<li><strong>RTK-RAS is the most-altered pathway pan-cancer</strong>, with a median frequency of 46%. Tumor subtypes with the highest RTK-RAS alteration rates: <a href="../cancer_types/SKCM.html">SKCM</a> 95%, colorectal GS 88%, <a href="../cancer_types/BRCA.html">BRCA</a> Her2-enriched 82%, <a href="../cancer_types/PAAD.html">PAAD</a> 78%, <a href="../cancer_types/LGG.html">LGG</a> IDHwt 82%, <a href="../cancer_types/LUAD.html">LUAD</a> 74%, <a href="../cancer_types/THCA.html">THCA</a> 84%.</li>
+<li><strong>PI3K pathway</strong> is dominant in squamous and uterine cancers: <a href="../cancer_types/LUSC.html">LUSC</a> 68%, EBV+ esophagogastric 80%, non-hypermutated <a href="../cancer_types/UCEC.html">UCEC</a> CN-high 86% / CN-low 95%.</li>
+<li><strong>NRF2/oxidative-stress pathway</strong> had the lowest overall alteration rate (4%), peaking in <a href="../cancer_types/LUSC.html">LUSC</a> (25%) and esophagogastric squamous (<a href="../cancer_types/ESCC.html">ESCC</a>) (23%).</li>
+<li><strong>Cell-cycle pathway</strong> is broadly altered but rarely in <a href="../cancer_types/UVM.html">UVM</a>, <a href="../cancer_types/THYM.html">THYM</a>, <a href="../cancer_types/TGCT.html">TGCT</a>, or <a href="../cancer_types/LAML.html">LAML</a>.</li>
+<li><strong>MSI-H and POLE-mutant subtypes</strong> (GI and uterine) carry both the highest mutation burden and the highest overall pathway alteration frequency, dominated by inactivating mutations.</li>
+<li><strong>416 oncogenic alterations were tested for co-occurrence/exclusivity via SELECT</strong>, yielding 152 mutually exclusive pairs and 116 co-occurring pairs (Table S5).</li>
+<li><strong>Within-pathway mutual exclusivity</strong> is strongest in p53, cell cycle, RAS, and PI3K — consistent with one alteration being functionally sufficient.</li>
+<li><strong>Cross-pathway interactions:</strong> RTK activation is mutually exclusive with downstream RAS or PI3K alterations (because RTKs alone activate both); notable exception is significant co-occurrence between <a href="../genes/FGFR2.html">FGFR2</a>/<a href="../genes/FGFR3.html">FGFR3</a> alterations and PI3K-pathway alterations.</li>
+<li><strong>p53 and cell-cycle pathways are frequently co-altered</strong> — including co-occurrence of <a href="../genes/TP53.html">TP53</a> mutation with <a href="../genes/CCNE1.html">CCNE1</a> amplification, <a href="../genes/CDKN2A.html">CDKN2A</a> mutation, <a href="../genes/RB1.html">RB1</a> loss, and <a href="../genes/CDK6.html">CDK6</a> or <a href="../genes/E2F3.html">E2F3</a> amplification. <a href="../genes/TP53.html">TP53</a> mutation is <em>mutually exclusive</em> with <a href="../genes/CDKN2A.html">CDKN2A</a> deletion (because the CDKN2A locus encodes both p16 and ARF/p53-regulating). <a href="../genes/MDM2.html">MDM2</a> amplification is mutually exclusive with <a href="../genes/RB1.html">RB1</a> and <a href="../genes/CDKN2A.html">CDKN2A</a> loss, but <a href="../genes/MDM2.html">MDM2</a> and <a href="../genes/CDK4.html">CDK4</a> are almost always co-amplified due to genomic proximity.</li>
+<li><strong>PI3K–NRF2 axis:</strong> the strongest cross-pathway co-occurrence. <a href="../genes/NFE2L2.html">NFE2L2</a> GoF/amplification co-occurs with <a href="../genes/PIK3CA.html">PIK3CA</a> amplification and tends to co-occur with <a href="../genes/PIK3CA.html">PIK3CA</a> mutation and <a href="../genes/PIK3CB.html">PIK3CB</a> amplification. <a href="../genes/NFE2L2.html">NFE2L2</a> amplification is mutually exclusive with <a href="../genes/STK11.html">STK11</a> loss, but <a href="../genes/STK11.html">STK11</a> loss co-occurs with loss-of-function <a href="../genes/KEAP1.html">KEAP1</a> mutation. Co-occurring NRF2–PI3K alterations are concentrated in lung (squamous and adenocarcinoma), esophagogastric, head and neck, and uterine tumors.</li>
+<li><strong><a href="../genes/EGFR.html">EGFR</a> alteration biology:</strong> <a href="../genes/EGFR.html">EGFR</a> is involved in more significant mutual-exclusivity pairs than any other gene. EGFR amplification is mutually exclusive with <a href="../genes/ERBB2.html">ERBB2</a> activation and with <a href="../genes/BRAF.html">BRAF</a>/<a href="../genes/KRAS.html">KRAS</a> mutation and <a href="../genes/NF1.html">NF1</a>/<a href="../genes/RASA1.html">RASA1</a> loss. In <a href="../cancer_types/GBM.html">GBM</a> and IDHwt <a href="../cancer_types/LGG.html">LGG</a>, however, EGFR amplification co-occurs with EGFR mutation/fusion and with focal 4q12 amplification of <a href="../genes/KIT.html">KIT</a>/<a href="../genes/PDGFRA.html">PDGFRA</a>.</li>
+<li><strong>Top-altered RTK-RAS genes pan-cancer:</strong> <a href="../genes/KRAS.html">KRAS</a> 9%, <a href="../genes/BRAF.html">BRAF</a> 7%, <a href="../genes/EGFR.html">EGFR</a> 4%. <a href="../genes/KRAS.html">KRAS</a> hotspots concentrated in <a href="../cancer_types/PAAD.html">PAAD</a> (72%), colorectal GS (69%), <a href="../cancer_types/LUAD.html">LUAD</a> (33%). <a href="../genes/BRAF.html">BRAF</a> hotspots in <a href="../cancer_types/SKCM.html">SKCM</a> (51%) and <a href="../cancer_types/THCA.html">THCA</a> (62%). EGFR alterations in <a href="../cancer_types/GBM.html">GBM</a> (50%), <a href="../cancer_types/LGG.html">LGG</a> IDHwt (52%), HPV− <a href="../cancer_types/HNSC.html">HNSC</a> (13%), <a href="../cancer_types/LUAD.html">LUAD</a> (13%), esophagogastric squamous (14%). <a href="../genes/ERBB2.html">ERBB2</a> alterations cluster in <a href="../cancer_types/BRCA.html">BRCA</a>, chromosomally-unstable esophagogastric (<a href="../cancer_types/STAD.html">STAD</a> CIN 26%), and <a href="../cancer_types/CESC.html">CESC</a> (23%).</li>
+<li><strong>Novel cancer gene flagged:</strong> recurrent hotspot (<a href="../genes/SOS1.html">SOS1</a> A90V/T, N233Y/S) and other activating mutations (M269I/V, G434R, R552S/K/G/M, E846K) in <code>SOS1</code> — present in ~1% of <a href="../cancer_types/LUAD.html">LUAD</a>, ~1% of uterine carcinomas independent of subtype, and at lower rates in several other cancer types. Demonstrates that rare but functional drivers emerge at PanCanAtlas sample sizes.</li>
+<li><strong>Standard-of-care actionability:</strong> apart from HER2+ breast cancer (most have standard-care HER2-targeted therapy), <a href="../cancer_types/SKCM.html">SKCM</a> leads with 46% of samples carrying an OncoKB Level 1 or 2A alteration (driven by <a href="../genes/BRAF.html">BRAF</a> hotspots), followed by esophagogastric (<a href="../genes/ERBB2.html">ERBB2</a> amplifications). Luminal-A breast cancer leads in OncoKB Level 3A frequency (driven by <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/ERBB2.html">ERBB2</a> mutations).</li>
+<li><strong>Lowest actionability:</strong> <a href="../cancer_types/UVM.html">UVM</a> 2.5% and testicular non-seminoma 8.5%; <a href="../cancer_types/THYM.html">THYM</a>, <a href="../cancer_types/MESO.html">MESO</a>, and <a href="../cancer_types/KIRC.html">KIRC</a> also have low actionable-alteration rates.</li>
+<li><strong>Combination-therapy opportunities</strong> (frequency of co-occurring actionable pairs): <a href="../genes/CDK4.html">CDK4</a> + MDM2 inhibitors in 78% of dedifferentiated liposarcomas; HER2 + PI3K inhibitors in 17% of HER2-enriched <a href="../cancer_types/BRCA.html">BRCA</a>, 7% of <a href="../cancer_types/UCS.html">UCS</a>, 7% of <a href="../cancer_types/UCEC.html">UCEC</a> CN-high, 7% of cervical adenocarcinoma; PI3K + MEK in 10% of EBV+ stomach; CDK4 + PI3K in 7% of <a href="../cancer_types/GBM.html">GBM</a>; HER2 + MEK in 7% of <a href="../cancer_types/PAAD.html">PAAD</a>; PI3K + RAF in 12% of <a href="../cancer_types/SKCM.html">SKCM</a>; IDH + PI3K in 14% of IDH-mutant <a href="../cancer_types/LGG.html">LGG</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/KRAS.html">KRAS</a> — most-altered RTK-RAS gene pan-cancer (9%); hotspot mutations dominate; concentrated in <a href="../cancer_types/PAAD.html">PAAD</a> (72%), colorectal genomically-stable (69%), <a href="../cancer_types/LUAD.html">LUAD</a> (33%).</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — 7% pan-cancer; hotspot mutations in <a href="../cancer_types/SKCM.html">SKCM</a> 51%, <a href="../cancer_types/THCA.html">THCA</a> 62%; primary Level-1/2A driver in melanoma actionability.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — 4% pan-cancer; involved in the most significant SELECT pairs; mutated/amplified/fused in <a href="../cancer_types/GBM.html">GBM</a> 50% and IDHwt <a href="../cancer_types/LGG.html">LGG</a> 52%; amplification co-occurs with EGFR mutation/fusion and with 4q12 (<a href="../genes/KIT.html">KIT</a>/<a href="../genes/PDGFRA.html">PDGFRA</a>) amplification in glioma, but is mutually exclusive with <a href="../genes/ERBB2.html">ERBB2</a> activation and with <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/BRAF.html">BRAF</a> mutation or <a href="../genes/NF1.html">NF1</a>/<a href="../genes/RASA1.html">RASA1</a> loss elsewhere.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — alterations concentrated in <a href="../genes/BRCA.md">BRCA</a>/HER2-enriched and esophagogastric CIN (26%) and <a href="../cancer_types/CESC.html">CESC</a> (23%); mutually exclusive with <a href="../genes/EGFR.html">EGFR</a> amplification.</li>
+<li><a href="../genes/NF1.html">NF1</a>, <a href="../genes/RASA1.html">RASA1</a> — RAS-pathway negative regulators; loss is mutually exclusive with <a href="../genes/EGFR.html">EGFR</a> amplification, suggesting an antagonistic interaction.</li>
+<li><a href="../genes/SOS1.html">SOS1</a> — newly nominated RTK-RAS driver: recurrent hotspots A90V/T and N233Y/S plus activating M269I/V, G434R, R552S/K/G/M, E846K; ~1% of <a href="../cancer_types/LUAD.html">LUAD</a> and uterine carcinoma.</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a> / <a href="../genes/FGFR3.html">FGFR3</a> — exceptional co-occurrence with PI3K-pathway alterations (versus the typical mutual exclusivity between RTK and downstream RAS/PI3K).</li>
+<li><a href="../genes/TP53.html">TP53</a> — co-occurs with cell-cycle alterations (<a href="../genes/CCNE1.html">CCNE1</a> amp, <a href="../genes/CDKN2A.html">CDKN2A</a> mut, <a href="../genes/RB1.html">RB1</a> loss, <a href="../genes/CDK6.html">CDK6</a>/<a href="../genes/E2F3.html">E2F3</a> amp); mutually exclusive with <a href="../genes/CDKN2A.html">CDKN2A</a> deletion (because CDKN2A deletion removes both p16 and ARF).</li>
+<li><a href="../genes/MDM2.html">MDM2</a> — mutually exclusive with <a href="../genes/RB1.html">RB1</a> and <a href="../genes/CDKN2A.html">CDKN2A</a> loss but co-amplified with <a href="../genes/CDK4.html">CDK4</a> (genomic proximity); 78% of dedifferentiated liposarcomas have CDK4+MDM2 co-amplification.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/CCNE1.html">CCNE1</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/CDK6.html">CDK6</a>, <a href="../genes/E2F3.html">E2F3</a> — frequent cell-cycle drivers across the cohort; many co-altered with <a href="../genes/TP53.html">TP53</a>.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3CB.html">PIK3CB</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/AKT1.html">AKT1</a> — core PI3K pathway drivers; PIK3CA activation + <a href="../genes/PTEN.html">PTEN</a> inactivation dominate in head-and-neck, breast, GI and gynecologic tumors.</li>
+<li><a href="../genes/STK11.html">STK11</a> — loss co-occurs with <a href="../genes/KEAP1.html">KEAP1</a> loss in lung cancer; mutually exclusive with <a href="../genes/NFE2L2.html">NFE2L2</a> amplification.</li>
+<li><a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/CUL3.html">CUL3</a> — NRF2-pathway drivers (<a href="../genes/NFE2L2.html">NFE2L2</a> GoF + KEAP1/CUL3 LoF); concentrated in squamous lung/esophagus, head and neck, and uterine cancers.</li>
+<li><a href="../genes/MYC.html">MYC</a> — pathway driven mainly by 8q amplification; most common in <a href="../cancer_types/BRCA.html">BRCA</a>, <a href="../cancer_types/OV.html">OV</a>, and others.</li>
+<li><a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a> — outside the 10 pathways but enumerated as actionable in <a href="../cancer_types/LGG.html">LGG</a> (IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant <a href="../cancer_types/LGG.html">LGG</a>).</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a> — outside the 10 pathways; included in the 57% pan-cancer actionability figure (vs 52% restricted to the 10 pathways).</li>
+<li><a href="../genes/POLE.html">POLE</a> — POLE-mutant tumor subtype (with MSI-H) carries the highest mutation burden and the highest pathway alteration frequency.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The paper claims a quantitative pan-cancer rationale for <strong>targeted therapy planning by pathway, not just by gene</strong>: 57% of TCGA tumors carry at least one OncoKB-actionable alteration once BRCA1/2 and IDH1/2 are included; 30% carry multiple.</li>
+<li><strong>Standard-of-care biomarkers remain concentrated in a few tumor types</strong> — <a href="../genes/BRAF.html">BRAF</a> in <a href="../cancer_types/SKCM.html">SKCM</a> (46% Level 1/2A), <a href="../genes/ERBB2.html">ERBB2</a> in HER2-enriched <a href="../cancer_types/BRCA.html">BRCA</a> and esophagogastric. Most other actionable hits are still investigational (OncoKB Level 3A/3B).</li>
+<li><strong>Combination-therapy hypotheses</strong> that the data directly nominate:
+<ul>
+<li>CDK4 + MDM2 inhibitors — supported by 78% co-amplification in dedifferentiated liposarcoma.</li>
+<li>HER2 + PI3K inhibitors — 17% co-actionable in HER2-enriched <a href="../cancer_types/BRCA.html">BRCA</a>, 7% in <a href="../cancer_types/UCS.html">UCS</a>/<a href="../cancer_types/UCEC.html">UCEC</a> CN-high/cervical adeno.</li>
+<li>PI3K + MEK in EBV+ <a href="../cancer_types/STAD.html">STAD</a> (10%); CDK4 + PI3K in <a href="../cancer_types/GBM.html">GBM</a> (7%); HER2 + MEK in <a href="../cancer_types/PAAD.html">PAAD</a> (7%); PI3K + RAF in <a href="../cancer_types/SKCM.html">SKCM</a> (12%); IDH + PI3K in IDH-mutant <a href="../cancer_types/LGG.html">LGG</a> (14%).</li>
+</ul></li>
+<li><strong>NRF2 inclusion criteria for trials:</strong> alterations in <a href="../genes/NFE2L2.html">NFE2L2</a> and <a href="../genes/KEAP1.html">KEAP1</a> are noted as enrollment criteria for a phase-2 TORC1/2 inhibitor trial — direct example of pathway-level biomarker stratification.</li>
+<li><strong>Resistance reasoning:</strong> mutual-exclusivity patterns (e.g.&nbsp;<a href="../genes/EGFR.html">EGFR</a> amp ⟂ <a href="../genes/BRAF.html">BRAF</a>/<a href="../genes/KRAS.html">KRAS</a> mut ⟂ <a href="../genes/NF1.html">NF1</a>/<a href="../genes/RASA1.html">RASA1</a> loss) double as resistance hypotheses — secondary acquisition of any of these could bypass single-agent EGFR targeting (cf.&nbsp;[Sun et al.&nbsp;2014, Unni et al.&nbsp;2015] cited in the paper).</li>
+<li><strong>Not all mutations are targets:</strong> the authors caution that MSI-H and POLE-mutant tumors have inflated apparent actionability counts because most of their alterations are passengers; clinical interpretation requires functional filtering (OncoKB-style).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Tumor-type scope:</strong> most hematologic cancers (other than <a href="../cancer_types/LAML.html">LAML</a>) are not included; metastatic and post-treatment disease is largely absent (only 4% metastatic, all melanoma).</li>
+<li><strong>Power for rare drivers:</strong> 9,125 samples still underpowers tumor-type-specific drivers below ~1% frequency; the <a href="../genes/SOS1.html">SOS1</a> finding illustrates both the opportunity and the limitation. Larger tumor-type-specific cohorts are needed.</li>
+<li><strong>Pathway scope:</strong> restricted to 10 canonical mitogenic-signaling pathways; DNA repair, spliceosome, ubiquitination, metabolic, and epigenetic-modifier pathways are deferred to other PanCanAtlas papers. Cross-pathway interactions with these processes are not assessed here.</li>
+<li><strong>Filtering bias:</strong> filtering by OncoKB “oncogenic / likely / predicted oncogenic” status — alterations not yet annotated as oncogenic are removed, which can underestimate alteration frequency for under-studied genes.</li>
+<li><strong>Pathway membership is curated, not derived:</strong> the 10 pathway templates are union sets from prior TCGA marker papers plus expert curation. Membership disagreements between curators are not quantified.</li>
+<li><strong>Combination-therapy claims are genomic, not pharmacologic:</strong> the paper identifies <em>co-occurring actionable alterations</em>; whether the corresponding drug combinations are tolerable or synergistic is not tested.</li>
+<li><strong>No germline analysis:</strong> germline contributions to the 10-pathway landscape (and their interaction with somatic alterations) are deferred to other work.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Using mutations, copy-number changes, mRNA expression, gene fusions and DNA methylation in 9,125 tumors profiled by The Cancer Genome Atlas (TCGA), we analyzed the mechanisms and patterns of somatic alterations in 10 canonical pathways… Eighty-nine percent of tumors had at least one driver alteration in these pathways, and 57% percent of tumors had at least one alteration potentially targetable by currently available drugs. Thirty percent of tumors had multiple targetable alterations.” (Summary)</li>
+<li>“The RTK-RAS pathway was the signaling pathway with the highest median frequency of alterations (46% of samples) across all cancer types.” (Results — Pathway alteration frequencies per tumor-type)</li>
+<li>“KRAS was the most frequently altered gene (9% across all samples), followed by BRAF (7%) and EGFR (4%)…KRAS alterations were most common in pancreatic carcinoma (<a href="../cancer_types/PAAD.html">PAAD</a>, 72%), genomically stable colorectal cancer (69%), and lung adenocarcinoma (33%).” (Results — RTK-RAS pathway)</li>
+<li>“We identified recurrent (hotspot) mutations (A90V/T, N233Y/S) and other known activating mutations (M269I/V, G434R, R552S/K/G/M, E846K) in <a href="../genes/SOS1.html">SOS1</a> in a total of 1% of lung adenocarcinoma samples, 1% of uterine carcinomas, independent of subtype.” (Results — RTK-RAS pathway)</li>
+<li>“Among the 416 alterations characterized, we identified 152 pairs of mutually exclusive alterations and 116 pairs of co-occurring alterations (Table S5).” (Results — Mutual exclusivity and co-occurrence)</li>
+<li>“MDM2 amplification was significantly mutually exclusive with <a href="../genes/RB1.html">RB1</a> and CDKN2A loss. However, MDM2 is proximal to CDK4 in the genome and the two genes were almost always co-amplified.” (Results — Mutual exclusivity and co-occurrence)</li>
+<li>“Overall, 52% of tumors had at least one potentially actionable alteration in the ten signaling pathways, and 57% had at least one actionable alteration when including genes outside of these pathways, most notably BRCA1/2 and IDH1/2.” (Results — Therapeutic actionability)</li>
+<li>“In other tumor subtypes, a combination of CDK4 and MDM2 inhibitors was the most commonly indicated combination (1% total), in particular in dedifferentiated liposarcomas (<a href="../cancer_types/SARC.html">SARC</a> DDLPS), in which 78% of the cases had co-amplification of the two targets.” (Results — Therapeutic actionability)</li>
+<li>“The curated pathway templates and the uniformly processed data set of alteration calls in 9,125 tumor samples are publicly available… via the cBioPortal for Cancer Genomics (http://cbioportal.org/pancanatlas/).” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29625050.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29625050.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

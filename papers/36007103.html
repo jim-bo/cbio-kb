@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>High-sensitivity mutation analysis of cell-free DNA for disease monitoring in endometrial cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36007103.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36007103.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">High-sensitivity mutation analysis of cell-free DNA for disease monitoring in endometrial cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Charles W. Ashley </p>
+             <p>Pier Selenica </p>
+             <p>Juber Patel </p>
+             <p>Michelle Wu </p>
+             <p>Josip Nincevic </p>
+             <p>Yulia Lakhman </p>
+             <p>Qin Zhou </p>
+             <p>Ronak H. Shah </p>
+             <p>Michael F. Berger </p>
+             <p>Arnaud Da Cruz Paula </p>
+             <p>David N. Brown </p>
+             <p>Antonio Marra </p>
+             <p>Alexia Iasonos </p>
+             <p>Amir Momeni-Boroujeni </p>
+             <p>Kaled M. Alektiar </p>
+             <p>Kara Long Roche </p>
+             <p>Oliver Zivanovic </p>
+             <p>Jennifer J. Mueller </p>
+             <p>Dmitriy Zamarin </p>
+             <p>Vance A. Broach </p>
+             <p>Yukio Sonoda </p>
+             <p>Mario M. Leitao Jr </p>
+             <p>Claire F. Friedman </p>
+             <p>Elizabeth Jewell </p>
+             <p>Jorge S. Reis-Filho </p>
+             <p>Lora H. Ellenson </p>
+             <p>Carol Aghajanian </p>
+             <p>Nadeem R. Abu-Rustum </p>
+             <p>Karen Cadoo </p>
+             <p>Britta Weigelt </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-22-1134">10.1158/1078-0432.CCR-22-1134</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 36007103 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-22-1134 · <strong>Journal:</strong> Clinical Cancer Research (2023)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This prospective proof-of-principle study from Memorial Sloan Kettering tested whether high-sensitivity, UMI-based cell-free DNA (cfDNA) sequencing can capture the mutational repertoire of primary endometrial cancer (EC) and enable longitudinal disease monitoring. In 44 newly diagnosed EC patients with serial pre- and post-surgical plasma collections over 24 months, primary tumors were profiled by <a href="../methods/IMPACT468.html">MSK-IMPACT</a> (468 genes) and matched cfDNA by <a href="../methods/ACCESS129.html">MSK-ACCESS</a> (129-gene high-depth, molecular-barcoded assay). Baseline cfDNA mutations were detected in 22% (8/36) of patients — almost all with advanced stage or aggressive histology — and 35/38 (92%) of primary-tumor mutations covered by MSK-ACCESS were detected in baseline plasma. Changes in ctDNA fraction during follow-up tracked treatment response and disease progression, with a lead time over imaging in two cases. Detectable ctDNA at baseline (p&lt;0.001, HR 11.14) and immediately post-surgery (p=0.014, HR 15.56) were significantly associated with reduced progression-free survival.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 44</strong> prospectively accrued, biopsy-confirmed newly diagnosed <a href="../cancer_types/UCEC.html">endometrial cancer (UCEC)</a> patients consented at <a href="../datasets/ucec_ccr_cfdna_msk_2022.html">MSK</a> between 09/2017 and 07/2018 (<a href="../papers/36007103.html">PMID:36007103</a>).</li>
+<li><strong>Stage distribution:</strong> FIGO stage I in 34/44 (77%); advanced stage III/IV in 10/44 (23%).</li>
+<li><strong>Histology:</strong> <a href="../cancer_types/UEC.html">endometrioid (UEC)</a> 24/44 (55%); <a href="../cancer_types/USC.html">serous carcinoma (USC)</a> 7/44 (16%); <a href="../cancer_types/UCS.html">carcinosarcoma (UCS)</a> 6/44 (14%); remaining cases included high-grade carcinomas of no specific type and an adenosarcoma (CD37).</li>
+<li><strong>Tissue NGS:</strong> 42 primary ECs profiled with <a href="../methods/IMPACT468.html">MSK-IMPACT 468-gene panel</a> (median tumor depth 618x, range 101–1030x; normal 504x). Six stage III/IV cases also had microdissected extra-uterine sites (sentinel lymph nodes, peritoneal implants, fallopian tube) sequenced.</li>
+<li><strong>cfDNA NGS:</strong> 36 patients with adequate plasma input (10–20 ng cfDNA) were sequenced on <a href="../methods/ACCESS129.html">MSK-ACCESS</a>, a 129-gene UMI-based liquid-biopsy assay (median raw coverage 25,611x; median duplex coverage 1,340x post-collapsing). Variant calling was tumor-informed (“genotyping”) via Waltz, requiring ≥2 duplex consensus reads.</li>
+<li><strong>Longitudinal:</strong> Blood drawn at baseline (pre-op), post-op (median 22 days, range 9–57), and every 6 months to 24 months. 229/258 (89%) intended draws were collected despite COVID-19 disruption. Longitudinal serial samples from 25 patients were sequenced.</li>
+<li><strong>Dataset:</strong> Targeted sequencing data deposited at <a href="../datasets/ucec_ccr_cfdna_msk_2022.html">cBioPortal as ucec_ccr_cfdna_msk_2022</a> (“Endometrial Carcinoma cfDNA (MSK, Clin Cancer Res 2022)”).</li>
+<li><strong>Follow-up:</strong> Median 33 months (range 0.3–44); 11 patients had recurrent or persistent disease.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>cfDNA concentration correlates with stage.</strong> Median pre-operative cfDNA concentration was 2.71 ng/mL (range 0.66–20.62). Patients with stage III/IV disease had significantly higher cfDNA than stage I patients (Wilcoxon rank sum, p=0.028). cfDNA was numerically higher in <a href="../cancer_types/UCS.html">carcinosarcoma (UCS)</a> and high-grade carcinomas of no specific type but did not reach significance (p&gt;0.1) (<a href="../papers/36007103.html">PMID:36007103</a>).</li>
+<li><strong>Primary-tumor mutational landscape recapitulates TCGA.</strong> Median 7.5 non-synonymous mutations per primary tumor (range 1–92). Most frequently mutated genes: <a href="../genes/TP53.html">TP53</a> 52%, <a href="../genes/PTEN.html">PTEN</a> 50%, <a href="../genes/PIK3CA.html">PIK3CA</a> 50%, <a href="../genes/ARID1A.html">ARID1A</a> 36%, <a href="../genes/FBXW7.html">FBXW7</a> 29%. TCGA molecular subtype distribution: 10/42 (24%) MSI, 12/42 (29%) copy-number low, 20/42 (48%) copy-number high.</li>
+<li><strong>Baseline ctDNA detection enriched in advanced/high-risk disease.</strong> Tumor-derived mutations were detected in baseline cfDNA in 8/36 (22%) patients sequenced; 6/8 had stage III/IV disease, and the remaining two were a stage IA high-grade adenosarcoma and a stage IB high-grade mixed endometrioid/serous carcinoma with isolated tumor cells and lymphovascular space invasion. <strong>No</strong> low-grade stage I <a href="../cancer_types/UEC.html">endometrioid (UEC)</a> patients had detectable baseline ctDNA.</li>
+<li><strong>High concordance between primary tumor and baseline cfDNA.</strong> Of 38 somatic mutations in primary tumors covered by <a href="../methods/ACCESS129.html">MSK-ACCESS</a>, 35 (92%) were detected at baseline and 38 (100%) at some follow-up timepoint. All mutations clonal in the primary tumor and within the panel were detected in pre-operative cfDNA, with the exception of patient <a href="../genes/CD28.html">CD28</a> (subclonal <a href="../genes/TP53.html">TP53</a> detected, but clonal <a href="../genes/CDKN2A.html">CDKN2A</a> E61Pfs*54 and <a href="../genes/TERT.html">TERT</a> C228T promoter mutation only detected at later timepoints).</li>
+<li><strong>Baseline ctDNA fractions varied.</strong> Most ctDNA-positive cases had baseline ctDNA fraction 0.7–2.0%; outliers were CD22 (stage IVB serous EC, 5.8%) and CD23 (stage IVB carcinosarcoma with 2,608 cm³ tumor burden, 74.6%). Both patients died of disease 30–31 months post-baseline.</li>
+<li><strong>Tumor–lymph node heterogeneity.</strong> In stage III/IV cases with sequenced extra-uterine sites, mutations could be private to the primary or to specific sentinel lymph nodes. Notable: in CD20, <a href="../genes/ARID1A.html">ARID1A</a> truncating, <a href="../genes/PIK3CA.html">PIK3CA</a> and <a href="../genes/KRAS.html">KRAS</a> hotspot mutations subclonal in the primary became clonal in sentinel lymph nodes; a clonal <a href="../genes/PTEN.html">PTEN</a> mutation plus <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/SMARCA4.html">SMARCA4</a> frameshifts were shared with only one of two SLNs; <a href="../genes/AGO2.html">AGO2</a> and <a href="../genes/FOXA1.html">FOXA1</a> missense mutations were SLN-restricted. cfDNA at baseline captured the primary repertoire more faithfully than the lymph node repertoire.</li>
+<li><strong>Serial cfDNA mirrors clinical course.</strong> In 6/25 patients with serial sampling, changes in MAFs and ctDNA fraction tracked imaging-confirmed response or progression. Examples: CD20 (stage IIIC2 dedifferentiated EC) — MAFs rose with progression at 8–9 months, fell during salvage chemotherapy, rose again at 18–24 months with retroperitoneal adenopathy; CD26 (stage IIIC1 carcinosarcoma) — ctDNA cleared on therapy then rose with bony/nodal recurrence; CD22 (stage IVB serous) — <a href="../genes/ARID1A.html">ARID1A</a>/<a href="../genes/PIK3CA.html">PIK3CA</a>/<a href="../genes/TP53.html">TP53</a>/<a href="../genes/PPP2R1A.html">PPP2R1A</a> MAFs fell post-treatment then rose with lung and perirectal metastases.</li>
+<li><strong>Lead time over imaging in selected cases.</strong> In CD28 and CD36, rising ctDNA preceded imaging-detected recurrence by 6 months. In CD22 and CD28, ctDNA MAF rises preceded elevated serum CA125 by 5.8 and 17 months, respectively, suggesting ctDNA may be more sensitive than CA125 for surveillance in EC.</li>
+<li><strong>Baseline ctDNA is prognostic.</strong> Detectable baseline ctDNA was significantly associated with worse progression-free survival (PFS): <strong>p&lt;0.001, HR 11.14 (95% CI 2.72–45.59)</strong>. 7/8 patients with baseline ctDNA recurred within follow-up (the exception was CD37 adenosarcoma).</li>
+<li><strong>Post-surgical ctDNA is prognostic.</strong> Landmark analysis (landmark = 51 days post-surgery) showed detectable post-surgery ctDNA was associated with disease progression: <strong>p=0.014, HR 15.56 (95% CI 2.16–112.16)</strong>. All 4 patients with detectable post-surgery ctDNA had recurrent or persistent disease.</li>
+<li><strong>Uterine sarcoma feasibility.</strong> The CD37 adenosarcoma harbored 12 somatic mutations including pathogenic <a href="../genes/DICER1.html">DICER1</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/PTEN.html">PTEN</a>, and <a href="../genes/ARID1A.html">ARID1A</a> mutations; the 3 covered by <a href="../methods/ACCESS129.html">MSK-ACCESS</a> were detected in baseline cfDNA, suggesting liquid biopsy may extend to uterine sarcomas.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — mutated in 52% of primary ECs; the most common driver in this cohort. Subclonal <a href="../genes/TP53.html">TP53</a> detected in CD28 baseline cfDNA; clonal <a href="../genes/TP53.html">TP53</a> tracked in CD20, CD22, CD26, CD28 longitudinal series.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — mutated in 50%. Clonal <a href="../genes/PTEN.html">PTEN</a> shared between primary EC and one of two SLNs in CD20 (heterogeneity); pathogenic <a href="../genes/PTEN.html">PTEN</a> detected in CD37 adenosarcoma cfDNA.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — mutated in 50%. Hotspot <a href="../genes/PIK3CA.html">PIK3CA</a> subclonal in CD20 primary became clonal in sentinel lymph nodes; serial monitoring of <a href="../genes/PIK3CA.html">PIK3CA</a> MAFs tracked progression in CD22, CD26, CD28.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — mutated in 36%; truncating <a href="../genes/ARID1A.html">ARID1A</a> mutations recurrent in cfDNA-positive cases (CD20, CD22, CD37).</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> — mutated in 29%. Tracked in CD36 longitudinal series (stage IIIA grade 1 endometrioid EC).</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — hotspot mutations subclonal in CD20 primary, clonal in SLN.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — listed among genes interrogated in hotspot cfDNA EC literature reviewed by the authors.</li>
+<li><a href="../genes/PPP2R1A.html">PPP2R1A</a> — shared mutation in CD22 (primary, mesenteric implant, three lymph nodes, cfDNA).</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — E61Pfs*54 clonal in CD28 primary; not detected at baseline but detected at 6-month follow-up.</li>
+<li><a href="../genes/TERT.html">TERT</a> — C228T promoter mutation clonal in CD28 primary; detected later in cfDNA, not at baseline.</li>
+<li><a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/ERBB3.html">ERBB3</a> — among the 5 primary-tumor mutations in CD36 (stage IIIA grade 1 endometrioid), all detected in baseline cfDNA.</li>
+<li><a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/SMARCA4.html">SMARCA4</a> — frameshift mutations co-occurring with <a href="../genes/PTEN.html">PTEN</a> in CD20, present in primary + one of two SLNs.</li>
+<li><a href="../genes/AGO2.html">AGO2</a>, <a href="../genes/FOXA1.html">FOXA1</a> — missense mutations restricted to sentinel lymph nodes in CD20 (private to nodal compartment).</li>
+<li><a href="../genes/DICER1.html">DICER1</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/NTRK3.html">NTRK3</a> — pathogenic mutations in CD37 adenosarcoma (<a href="../genes/DICER1.html">DICER1</a>, <a href="../genes/FGFR2.html">FGFR2</a>) and CD26 carcinosarcoma (<a href="../genes/NTRK3.html">NTRK3</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognostic biomarker at diagnosis.</strong> A single pre-operative blood draw analyzed by <a href="../methods/ACCESS129.html">MSK-ACCESS</a> yields a strong prognostic signal in newly diagnosed EC (HR 11.14 for PFS), supporting baseline ctDNA as a candidate risk stratifier beyond stage and histology — particularly in high-risk histologies (<a href="../cancer_types/USC.html">USC</a>, <a href="../cancer_types/UCS.html">UCS</a>).</li>
+<li><strong>MRD detection post-surgery.</strong> Detectable ctDNA within ~51 days post-surgery is associated with very poor PFS (HR 15.56), identifying patients who may benefit from intensified adjuvant therapy. Conversely, ctDNA-negative low-grade stage I <a href="../cancer_types/UEC.html">endometrioid (UEC)</a> patients had no detectable cfDNA signal, consistent with their favorable prognosis and potentially supporting de-escalation studies.</li>
+<li><strong>Treatment response monitoring.</strong> Serial ctDNA tracking on adjuvant or salvage <a href="../drugs/paclitaxel.html">paclitaxel</a>/<a href="../drugs/carboplatin.html">carboplatin</a> and radiation showed real-time correlation with imaging response and progression, with ctDNA rises preceding clinically detected recurrence by up to 6 months and elevations in serum CA125 by 5.8–17 months.</li>
+<li><strong>Targetable alteration capture.</strong> Because EC has a high number of recurrently mutated cancer genes (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/FBXW7.html">FBXW7</a>), gene-panel-based tumor-informed cfDNA assays are well suited for longitudinal monitoring without requiring personalized tumor-bespoke panels.</li>
+<li><strong>Sarcoma extension.</strong> Detection of <a href="../genes/DICER1.html">DICER1</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/PTEN.html">PTEN</a>, and <a href="../genes/ARID1A.html">ARID1A</a> mutations in cfDNA of the CD37 adenosarcoma motivates larger cfDNA studies in uterine sarcomas.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small sample size.</strong> N=44 with stratification across stage and histology yields very small subgroup numbers (some histology categories have only 1–2 patients), and PFS analyses are based on limited events; multivariate analysis was not feasible.</li>
+<li><strong>Non-consecutive enrollment.</strong> Cases were selected to represent histologic and FIGO stage diversity, not a consecutive series, so prevalence estimates of baseline ctDNA positivity may not generalize to an unselected diagnostic cohort.</li>
+<li><strong>Limited sensitivity in low-stage, low-grade disease.</strong> <a href="../methods/ACCESS129.html">MSK-ACCESS</a> at 0.1% (tumor-informed) / 0.5% (de novo) detection threshold could not detect ctDNA in any low-grade stage I <a href="../cancer_types/UEC.html">endometrioid (UEC)</a> patient. Whether more sensitive personalized MRD assays would identify clinically meaningful ctDNA in this subgroup remains open.</li>
+<li><strong>Panel coverage gaps.</strong> <a href="../methods/ACCESS129.html">MSK-ACCESS</a> covers a 129-gene subset of <a href="../methods/IMPACT468.html">MSK-IMPACT</a>; the 38 primary-tumor mutations interrogated represent only the panel-overlapping subset, so true tumor-to-plasma concordance for the full mutational repertoire is not measured.</li>
+<li><strong>COVID-19 disruption.</strong> 11% of intended follow-up draws were missed, particularly at the 18- and 24-month timepoints.</li>
+<li><strong>CA125 comparison is exploratory.</strong> Only two patients had serial CA125 measurements; broader comparison of ctDNA vs.&nbsp;CA125 sensitivity in EC requires prospective studies.</li>
+<li><strong>Therapeutic decision impact unproven.</strong> The study demonstrates prognostic and monitoring value but does not test whether ctDNA-guided treatment intensification improves outcomes — larger interventional trials are warranted.</li>
+<li><strong>Heterogeneity between primary and lymph node sites</strong> suggests baseline cfDNA may miss mutations that emerge in nodal metastases, complicating any future use of cfDNA as a tumor-genotyping surrogate for therapy selection.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“44 newly diagnosed EC patients consented to an institutional research protocol between 09/2017 and 07/2018 were included” (Methods, Patient selection).</li>
+<li>“Primary ECs underwent clinical tumor-normal targeted DNA NGS of 468 cancer-related genes using MSK-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT)” (Methods).</li>
+<li>“cfDNA obtained at baseline and post-surgery was subjected to MSK-ACCESS… a high-depth NGS assay with molecular barcoding technology for the detection of very low frequency somatic alterations in 129 genes” (Methods).</li>
+<li>“the most commonly mutated genes were <a href="../genes/TP53.html">TP53</a> (52%), <a href="../genes/PTEN.html">PTEN</a> (50%), <a href="../genes/PIK3CA.html">PIK3CA</a> (50%), <a href="../genes/ARID1A.html">ARID1A</a> (36%), and <a href="../genes/FBXW7.html">FBXW7</a> (29%)” (Results).</li>
+<li>“EC patients with stage III/IV disease at diagnosis to have significantly higher amounts of cfDNA compared to those with stage I disease (Wilcoxon rank sum test, p=0.028)” (Results).</li>
+<li>“the baseline presence of tumor-derived mutations in cfDNA in eight of 36 cases subjected to MSK-ACCESS sequencing (22%), six of which had stage III or stage IV disease” (Results).</li>
+<li>“Of the 38 somatic mutations identified in the primary tumors also present in the cfDNA assay, 35 (92%) and 38 (100%) were detected at baseline and follow-up, respectively” (Abstract / Results).</li>
+<li>“the presence of ctDNA at baseline/ pre-operatively in this series of newly diagnosed ECs was significantly associated with progression-free survival (p&lt;0.001; Hazard ratio (HR) 11.14 (95% confidence interval (CI) 2.72–45.59))” (Results).</li>
+<li>“the detection of ctDNA immediately post-surgery also to be significantly associated with disease progression (p=0.014; HR 15.56 (95% CI 2.16–112.16))” (Results).</li>
+<li>“Targeted sequencing data that support the findings of this study is available at cBioPortal… Endometrial Carcinoma cfDNA (MSK, Clin Cancer Res 2022)” (Data Availability).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36007103.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36007103.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

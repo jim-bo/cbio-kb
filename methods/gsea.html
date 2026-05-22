@@ -173,15 +173,26 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="used-by">Used by</h2>
 <ul>
 <li>GSEA of 486 fulvestrant-responsive differentially expressed genes in Nf1Indel rat mammary tumors showed significant enrichment of genes induced by neoadjuvant <a href="../drugs/letrozole.html">letrozole</a> (GSE5462) and <a href="../drugs/fulvestrant.html">fulvestrant</a> (GSE71791) in patient datasets; 58-gene overlap included <a href="../genes/PGR.html">PGR</a>, AREG, SGK3, and other ER-response genes, validating cross-species transcriptome concordance. <a href="../papers/26437033.html">PMID:26437033</a></li>
-<li>Used to compare gene expression between long-fusion (breakpoint after exon 11) and short-fusion (exons 8/9) MYBL1/MYB ACC subsets; identified 19 gene sets enriched in long fusions (RNA processing/translation) and 5 in short fusions (tissue development) <a href="../papers/26631609.html">PMID:26631609</a>.</li>
+<li>Used to compare gene expression between long-fusion (breakpoint after exon 11) and short-fusion (exons 8/9) MYBL1/MYB <a href="../cancer_types/ACC.html">ACC</a> subsets; identified 19 gene sets enriched in long fusions (RNA processing/translation) and 5 in short fusions (tissue development) <a href="../papers/26631609.html">PMID:26631609</a>.</li>
 <li>Used (alongside GSVA) with MSigDB C2/C6/C7 gene sets to identify the IPRES co-enriched transcriptional resistance program in anti-PD-1-treated metastatic melanoma <a href="../papers/26997480.html">PMID:26997480</a></li>
 <li>Used to evaluate enrichment of a YAP/TAZ transcriptional signature in NF2-loss vs NF2-WT uRCC, confirming Hippo pathway dysregulation in the NF2-loss subset. <a href="../papers/27713405.html">PMID:27713405</a></li>
-<li>Applied over REACTOME pathways to identify clonal enrichment in post-chemotherapy urothelial carcinoma tumours; highlighted L1CAM (OR=1.9, FDR=0.12) and integrin signaling (OR=2.8, FDR=0.02) as candidate resistance pathways. <a href="../papers/27749842.html">PMID:27749842</a></li>
+<li>Applied over REACTOME pathways to identify clonal enrichment in post-chemotherapy urothelial carcinoma tumours; highlighted <a href="../genes/L1CAM.html">L1CAM</a> (OR=1.9, FDR=0.12) and integrin signaling (OR=2.8, FDR=0.02) as candidate resistance pathways. <a href="../papers/27749842.html">PMID:27749842</a></li>
 <li>Applied to CCA methylation data showing both Cluster 1 and Cluster 4 hypermethylation target PRC2 pathway gene sets (at CpG islands vs CpG shores respectively), and to transcriptome data for immune-pathway characterization across the four clusters <a href="../papers/28667006.html">PMID:28667006</a></li>
-<li>Applied to TCGA PRAD ranked by NOL10 expression; E2F targets and G2M checkpoint ranked as top hallmarks. Also applied to RNA-seq of NOL10-knockdown LNCaP, identifying 71 downregulated genes enriched in cell-cycle processes <a href="../papers/28927585.html">PMID:28927585</a></li>
+<li>Applied to TCGA <a href="../cancer_types/PRAD.html">PRAD</a> ranked by <a href="../genes/NOL10.html">NOL10</a> expression; E2F targets and G2M checkpoint ranked as top hallmarks. Also applied to RNA-seq of NOL10-knockdown LNCaP, identifying 71 downregulated genes enriched in cell-cycle processes <a href="../papers/28927585.html">PMID:28927585</a></li>
 <li>GSEA used with IPA for pathway analysis of DEGs between on-therapy responders and non-responders in 45 melanoma RNA-seq samples; enriched pathways included PD-1 signaling, IFN-γ, IL-2, and TCR signaling <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li>GSEA of PBAF-complex-perturbed A704 <a href="../cancer_types/CCRCC.html">CCRCC</a> cells and PBRM1-LOF tumors revealed enrichment of IL6/JAK-STAT3, TNF-α/NF-κB, hypoxia, and cytokine-cytokine receptor gene sets (top hit FWER q=0.002) <a href="../papers/29301960.html">PMID:29301960</a></li>
 <li>GSEA against MSigDB Hallmark gene sets used to correlate arm-level aneuploidy with expression programs; revealed positive enrichment for E2F targets, G2M checkpoint, and mitotic spindle hallmarks, and negative enrichment for immune signatures after controlling for leukocyte fraction <a href="../papers/29622463.html">PMID:29622463</a></li>
+<li>Applied via ssGSEA with a 160-signature panel and mclust/BIC selection to define six pan-cancer immune subtypes (C1 Wound Healing through C6 TGF-β Dominant) across ~11,000 TCGA PanCancer Atlas tumors <a href="../papers/29625049.html">PMID:29625049</a>.</li>
+<li>Applied to validate genetic subtype transcriptional correlates; used to confirm <a href="../genes/EZH2.html">EZH2</a> target upregulation in C3 GCB-DLBCL chromatin-modifier-mutant tumors <a href="../papers/29713003.html">PMID:29713003</a></li>
+<li>ssGSEA tested 9,292 MSigDB gene sets on <a href="../cancer_types/GBM.html">GBM</a> longitudinal transcriptomes; regulatory T-cell (<a href="../genes/FOXP3.html">FOXP3</a>) signatures enriched in non-responders pre-treatment (p=0.037); immunosuppressive signatures (<a href="../genes/FOXP3.html">FOXP3</a>, <a href="../genes/STAT3.html">STAT3</a>) elevated in responders post-treatment <a href="../papers/30742119.html">PMID:30742119</a></li>
+<li>Used for transcriptomic pathway enrichment analysis across four PLC clusters (n=367): EMT identified as top enriched pathway in P1 (combined-type/ICC-like cHCC-ICC); xenobiotic and bile acid metabolism enriched in P2 (mixed-type/HCC-like) <a href="../papers/31130341.html">PMID:31130341</a></li>
+<li>Applied in the <a href="../cancer_types/UTUC.html">UTUC</a> molecular subtyping analysis for pathway comparison between the T-cell-depleted and T-cell-inflamed clusters and between <a href="../cancer_types/UTUC.html">UTUC</a> and TCGA UCB; IFNG-response gene programs were down in the T-cell-depleted cluster <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>Applied on Hallmark and TissGDB/TiGER gene sets across 244 RNA-seq PPTC PDX models to characterize pathway enrichment by histology subtype; identified enrichment of hedgehog, TNFα, and p53 signaling in rhabdoid models <a href="../papers/31693904.html">PMID:31693904</a>.</li>
+<li>Applied in the Sherlock-Lung NS-LUAD transcriptomic subtyping study (n=684 tumors) to characterize pathway enrichment across steady, proliferative, and chaotic subtypes <a href="../papers/32015526.html">PMID:32015526</a>.</li>
+<li>Used (as fgsea) in the CCLE proteomics study (n=375 cell lines, 22 lineages) to identify pathway enrichment along proteome PC1; &gt;200 MSigDB pathways enriched along proteome PC1 vs.&nbsp;far fewer along matched RNA-seq PC1, demonstrating that protein-level pathway co-expression dominates the CCLE proteome axis <a href="../papers/31978347.html">PMID:31978347</a>.</li>
+<li>GSEA pathway analysis identified cell-cycle/DNA-replication pathways (SMC1, MCM5, MCM7) enriched in PDX-engrafting <a href="../cancer_types/UTUC.html">UTUC</a> tumors and ECM/focal-adhesion pathways in non-engrafters <a href="../papers/32332851.html">PMID:32332851</a></li>
+<li>Used in <a href="../datasets/prad_organoids_msk_2022.html">prad_organoids_msk_2022</a> to characterize the four CRPC chromatin subtypes; CRPC-SCL was enriched for mammary stem cell signature, cancer stem cell markers, FGFR signaling, TGF-β/EMT/TNF-α/IFN response pathways <a href="../papers/35617398.html">PMID:35617398</a></li>
+<li>ssGSEA used to score six single-cell <a href="../cancer_types/AML.html">AML</a> maturation-state signatures (HSC-like, Progenitor-like, GMP-like, Promonocyte-like, Monocyte-like, cDC-like) across 942 <a href="../cancer_types/AML.html">AML</a> specimens; 73 drugs showed response significantly correlated with at least one cell-type signature <a href="../papers/35868306.html">PMID:35868306</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -197,16 +208,27 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/26437033.html">PMID:26437033</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26631609.html">PMID:26631609</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26997480.html">PMID:26997480</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27749842.html">PMID:27749842</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29622463.html">PMID:29622463</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26631609.html">PMID:26631609</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26997480.html">PMID:26997480</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27749842.html">PMID:27749842</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29622463.html">PMID:29622463</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713003.html">PMID:29713003</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30742119.html">PMID:30742119</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31130341.html">PMID:31130341</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32015526.html">PMID:32015526</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31978347.html">PMID:31978347</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32332851.html">PMID:32332851</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35617398.html">PMID:35617398</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35868306.html">PMID:35868306</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

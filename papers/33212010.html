@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Proteogenomic Landscape of Breast Cancer Tumorigenesis and Targeted Therapy – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33212010.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33212010.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proteogenomic Landscape of Breast Cancer Tumorigenesis and Targeted Therapy</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Karsten Krug </p>
+             <p>Eric J. Jaehnig </p>
+             <p>Shankha Satpathy </p>
+             <p>Lili Blumenberg </p>
+             <p>Alla Karpova </p>
+             <p>Meenakshi Anurag </p>
+             <p>Philipp Mertins </p>
+             <p>D.R. Mani </p>
+             <p>Steven A. Carr </p>
+             <p>Matthew J. Ellis </p>
+             <p>Michael A. Gillette </p>
+             <p>Clinical Proteomic Tumor Analysis Consortium </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2020.10.036">10.1016/j.cell.2020.10.036</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 33212010 · <strong>DOI:</strong> 10.1016/j.cell.2020.10.036 · <strong>Journal:</strong> Cell (2020)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The Clinical Proteomic Tumor Analysis Consortium (CPTAC) applied deep multi-omics proteogenomics — whole-exome sequencing, RNA-seq, miRNA-seq, and TMT-based global proteomics with phosphoproteomic and acetylproteomic profiling — to 122 treatment-naive primary breast tumors prospectively collected under a stringent short-ischemia protocol. Non-negative matrix factorization on integrated multi-omics data resolved four robust subtypes (NMF LumA-I, LumB-I, HER2-I, Basal-I) that refined PAM50 classification, identified pseudo-ERBB2+ tumors lacking the protein target of anti-HER2 therapy, exposed APOBEC mutagenesis and single-strand break repair defects as candidate biomarkers for immune checkpoint therapy in luminal breast cancer, and showed that Rb protein/phosphoprotein status — rather than <a href="../genes/RB1.html">RB1</a> genotype alone — tracks CDK4/6 inhibitor sensitivity in TNBC.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>n = 122 prospectively collected, treatment-naive primary breast tumors</strong> (134 participants enrolled; ages 30–95). Cryopulverized, with co-isolation of DNA, RNA, and protein from a single homogeneous sample.</li>
+<li><strong>Cancer type</strong>: invasive <a href="../cancer_types/BRCA.html">BRCA</a> (predominantly <a href="../cancer_types/IDC.html">IDC</a>; some <a href="../cancer_types/ILC.html">ILC</a>), stage IIA–IIIC. Hormone-receptor classification by central IHC: ER and/or PR positive = 83, HER2 positive = 13, triple-negative = 16, ER/PR negative with equivocal HER2 = 12.</li>
+<li><strong>PAM50 distribution</strong>: 14 HER2-E, 29 Basal, 57 LumA, 17 LumB, 5 Normal-like.</li>
+<li><strong>Dataset</strong>: cBioPortal study <a href="../datasets/brca_cptac_2020.html">brca_cptac_2020</a>; raw genomics released to GDC under dbGaP phs000892 (GRCh38); proteomics at CPTAC accession S060 / PDC000120.</li>
+<li><strong>Comparator cohorts</strong>: <a href="../datasets/brca_metabric.html">METABRIC</a> (Curtis et al., 2012) for outcome validation of NMF luminal reassignment; the earlier TCGA-residue CPTAC <a href="../cancer_types/BRCA.html">BRCA</a> cohort (<a href="../datasets/brca_tcga_pub2015.html">Mertins et al.&nbsp;2016</a> sample set) for retrospective replication.</li>
+<li><strong>Assays/methods</strong>: <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> (Nextera Rapid Capture, 150× on-target), <a href="../methods/rna-seq.html">rna-seq</a> (TruSeq stranded, ≥30M PE150 reads), <a href="../methods/mirna-seq.html">mirna-seq</a>, TMT-10-plex <a href="../methods/tmt-proteomics.html">global proteomics</a> and <a href="../methods/tmt-phosphoproteomics.html">phospho/acetyl-proteomics</a> following Mertins et al.&nbsp;2018 protocol; <a href="../methods/nmf-clustering.html">NMF multi-omics clustering</a>, <a href="../methods/pam50.html">PAM50</a>, <a href="../methods/gistic.html">GISTIC</a> for SCNAs, <a href="../methods/gsea.html">GSEA</a>, centralized <a href="../methods/immunohistochemistry.html">IHC</a> (HER2 SP3, ER 6F11, CD3 polyclonal) and <a href="../methods/fish.html">FISH</a> for <a href="../genes/ERBB2.html">ERBB2</a> status.</li>
+<li><strong>Data yield</strong>: 29,647 somatic mutations, 23,692 gene-level copy number events, 23,121 transcripts, 10,107 proteins, 38,968 phosphosites, 9,869 acetylation sites passing QC.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Integrated multi-omics NMF resolves four BRCA subtypes</strong> (LumA-I, LumB-I, HER2-I, Basal-I) that broadly mirror PAM50 but reassign biology. NMF LumB-I includes a subset of PAM50 LumA samples with fewer <a href="../genes/PIK3CA.html">PIK3CA</a> mutations (binomial p = 1.50 × 10⁻³ vs. LumA-I) and lower stromal scores; in METABRIC, these reassigned samples had outcomes intermediate between PAM50 LumA and LumB.</li>
+<li><strong>NMF Basal-I</strong> is strongly enriched for <a href="../genes/TP53.html">TP53</a> mutations, hormone-receptor negativity, chromosome-instability and stemness scores, and proliferation pathways (E2F, G2/M).</li>
+<li><strong>NMF HER2-I is heterogeneous in ERBB2 status</strong>: although centered on PAM50 HER2-E and clinically <a href="../genes/ERBB2.html">ERBB2</a>+ tumors, it contains samples from every other PAM50 subtype. HER2-unrelated drivers of HER2-I clustering enriched for endoplasmic-reticulum proteins and cholesterol/sterol biosynthesis (independent of ERBB2 amplification).</li>
+<li><strong>Pseudo-ERBB2+ tumors</strong>: 2 of 17 ERBB2-amplified cases in the prospective cohort (and 1 of 16 in the retrospective Mertins 2016 cohort) had ERBB2 protein levels within the distribution of ERBB2-negative tumors, despite exome-level amplification. One pseudo-ERBB2+ case in each cohort instead showed <a href="../genes/TOP2A.html">TOP2A</a> amplification with <a href="../genes/TOP2A.html">TOP2A</a> protein overexpression, supporting TOP2A as an alternative chromosome-17 amplicon driver. Only 7 of 15 proteogenomically ERBB2+ samples were PAM50 HER2-E; PAM50 HER2-E samples that were not ERBB2 PG+ had elevated phosphorylation of other ERBB family members and MAPK signaling.</li>
+<li><strong>Subtype-specific phospho-kinase outliers</strong> recovered via the Black-Sheep package (FDR &lt; 0.01): <a href="../genes/PRKDC.html">PRKDC</a>, <a href="../genes/MAP4K4.html">MAP4K4</a>, and <a href="../genes/SPEG.html">SPEG</a> in NMF Basal-I; <a href="../genes/ERBB2.html">ERBB2</a> and <a href="../genes/CDK12.html">CDK12</a> in NMF HER2-I; <a href="../genes/DCLK1.html">DCLK1</a> in NMF LumA-I.</li>
+<li><strong>Tumor-suppressor-loss to targetable-kinase associations</strong> (novel): upregulated phospho-<a href="../genes/TNIK.html">TNIK</a> (WNT pathway) in <a href="../genes/ARID1A.html">ARID1A</a> mutants; upregulated phospho-<a href="../genes/RIPK3.html">RIPK3</a> in <a href="../genes/MAP3K1.html">MAP3K1</a> mutants; high phospho-<a href="../genes/MAST4.html">MAST4</a> and phospho-<a href="../genes/DCLK1.html">DCLK1</a> in <a href="../genes/GATA3.html">GATA3</a> mutants; elevated phospho-SLK/LATS1 in <a href="../genes/AKT1.html">AKT1</a>-mutated tumors (mTOR / HIPPO cross-talk).</li>
+<li><strong>Metabolism/acetylproteomics</strong>: NMF Basal-I tumors show upregulated glycolytic protein levels (HK3, PFKP, GAPDH, ENO1, <a href="../genes/LDHB.html">LDHB</a>) but hypoacetylation of glycolytic enzymes (GPI, TPI1, GAPDH, PGK1, PGAM1, ENO1, <a href="../genes/PKM.html">PKM</a>, <a href="../genes/LDHA.html">LDHA</a>), upregulated serine biosynthesis (<a href="../genes/PHGDH.html">PHGDH</a>, PSAT1), and broad hyperacetylation of mitochondrial TCA-cycle and β-oxidation proteins. Protein levels of the mitochondrial deacetylase <a href="../genes/SIRT3.html">SIRT3</a> were significantly negatively correlated with mitochondrial protein acetylation, suggesting <a href="../genes/SIRT3.html">SIRT3</a> depletion as a driver of Basal-I mitochondrial hyperacetylation. NMF HER2-I tumors uniquely show upregulated cholesterol biosynthesis and lipid metabolism <em>independent</em> of ERBB2 amplification status.</li>
+<li><strong>APOBEC mutagenesis correlates with active immune microenvironment in luminal BRCA</strong>: 6 APOBEC-enriched cases (1 HER2-E, 3 LumA, 2 LumB) had higher mutation loads (Wilcoxon p = 0.008) and elevated <a href="../genes/APOBEC3B.html">APOBEC3B</a> protein. <a href="../genes/APOBEC3G.html">APOBEC3G</a> protein correlated with PD-L1 (<a href="../genes/CD274.html">CD274</a>) mRNA and CIBERSORT immune score in both PAM50 luminal and basal samples.</li>
+<li><strong>Single-strand break repair (SSBR) protein loss is anti-correlated with PD-L1 and immune infiltration specifically in luminal but not basal BRCA</strong> (GO BP nucleotide excision repair, base excision repair, mismatch repair pathways). Low GO NER protein levels associated with high mutation load in luminal samples only.</li>
+<li><strong>Rb status refines CDK4/6 inhibitor prediction</strong>: in HR+/ERBB2− tumors, Rb protein (Spearman ρ = 0.24, p = 0.035) and median Rb phosphosite (ρ = 0.53, p = 1.06 × 10⁻⁶) correlated <em>positively</em> with the multi-gene proliferation score; in TNBC they correlated <em>negatively</em> (ρ = −0.54, p = 0.003 protein; ρ = −0.46, p = 0.015 phospho). In TNBC, Rb-low vs. Rb-high phospho-protein groups (n = 16 vs.&nbsp;n = 12) tracked <a href="../genes/CDK4.html">CDK4</a>/<a href="../genes/CDK6.html">CDK6</a> activity; 3 of 4 TNBC tumors with <a href="../genes/RB1.html">RB1</a> mutation/deletion were Rb-phospho low. In GDSC cell-line data, RB1-wild-type lines with low Rb protein were poorly responsive to <a href="../drugs/palbociclib.html">palbociclib</a> (Rb protein ~ <a href="../drugs/palbociclib.html">palbociclib</a> response: Spearman ρ = −0.61, p = 0.022), arguing that protein-level Rb assessment adds predictive value beyond RB1 genotype.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — gene amplification confirmed by WES; IHC/FISH per ASCO-CAP. 15/122 tumors classified proteogenomically as ERBB2+; pseudo-ERBB2+ phenotype (amplified but protein-low) identified in 2/17 amplified cases. ERBB2 phospho-kinase activity enriches NMF HER2-I.</li>
+<li><a href="../genes/TOP2A.html">TOP2A</a> — alternative chromosome-17q amplicon driver in pseudo-ERBB2+ cases.</li>
+<li><a href="../genes/TP53.html">TP53</a> — mutations strongly enriched in NMF Basal-I and TNBC; 9 of 10 BL1 TNBC samples carried <a href="../genes/TP53.html">TP53</a> mutations.</li>
+<li><a href="../genes/RB1.html">RB1</a> — mutations/deletions in TNBC are associated with Rb-phospho-low state and palbociclib non-response; however, many TNBC tumors show Rb protein loss without RB1 genomic aberration.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — less frequent in NMF LumB-I than NMF LumA-I (binomial p = 1.50 × 10⁻³); recurrent in LAR-subtype TNBC.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> mutations associate with elevated phospho-<a href="../genes/TNIK.html">TNIK</a> (WNT pathway).</li>
+<li><a href="../genes/MAP3K1.html">MAP3K1</a> loss-of-function in luminal BRCA associates with elevated phospho-<a href="../genes/RIPK3.html">RIPK3</a>.</li>
+<li><a href="../genes/GATA3.html">GATA3</a> mutations associate with elevated phospho- <a href="../genes/MAST4.html">MAST4</a> and phospho-<a href="../genes/DCLK1.html">DCLK1</a> (novel — requires validation).</li>
+<li><a href="../genes/AKT1.html">AKT1</a> mutations associate with elevated phospho-SLK and phospho-LATS1.</li>
+<li><a href="../genes/APOBEC3B.html">APOBEC3B</a> / <a href="../genes/APOBEC3G.html">APOBEC3G</a> protein levels track APOBEC mutagenesis signatures (COSMIC SBS2/SBS13) and PD-L1 / immune-infiltration scores in luminal BRCA.</li>
+<li><a href="../genes/PHGDH.html">PHGDH</a>, PSAT1 (serine synthesis) — upregulated at the protein level in NMF Basal-I; nominated as therapeutic vulnerability.</li>
+<li><a href="../genes/SIRT3.html">SIRT3</a> — depletion proposed as a driver of broad mitochondrial protein hyperacetylation in NMF Basal-I.</li>
+<li><a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/CCNE1.html">CCNE1</a>, <a href="../genes/CDK2.html">CDK2</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/CDK6.html">CDK6</a> — Cyclin D1 higher in HR+/ERBB2−; Cyclin E / <a href="../genes/CDK2.html">CDK2</a> higher in TNBC (<a href="../genes/CCNE1.html">CCNE1</a> RNA p = 6.2 × 10⁻¹², phosphoprotein p = 7.3 × 10⁻¹⁰); CDK4/6 activity tracks proliferation in HR+ but not TNBC.</li>
+<li><a href="../genes/CREBBP.html">CREBBP</a> — elevated activation-loop acetylation (K1591/K1592) in nuclear-Ac Basal-I cluster 1, accompanying broad histone-H2B N-terminal acetylation.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>HER2 diagnostics</strong>: integrated DNA + protein quantification of the chromosome-17 amplicon is proposed as a more quantitative alternative to IHC/FISH; pseudo-ERBB2+ status could explain <a href="../drugs/trastuzumab.html">trastuzumab</a>-refractory amplified tumors.</li>
+<li><strong>Immune checkpoint therapy</strong>: subsets of luminal A/B BRCA with APOBEC mutagenesis or SSBR (NER/BER/MMR) defects display active I-TMEs and high PD-L1, supporting immunotherapy trials in endocrine-resistant ER+ BRCA.</li>
+<li><strong>CDK4/6 inhibitors</strong>: proteogenomic Rb status (protein + phospho) refines candidate selection for CDK4/6i, both in HR+/ERBB2− and in a subset of intact-Rb TNBC; cell-line evidence (GDSC) supports clinical evaluation of <a href="../drugs/palbociclib.html">palbociclib</a> in RB1-wild-type, Rb-protein-high TNBC.</li>
+<li><strong>Targeting tumor-suppressor loss via downstream kinases</strong>: <a href="../genes/TNIK.html">TNIK</a> inhibition in ARID1A-mutant BRCA, <a href="../genes/DCLK1.html">DCLK1</a> inhibition (e.g., LRRK2-IN-1) in GATA3-mutant or LumA tumors, and consideration of necroptosis-related signaling in MAP3K1-mutant luminal BRCA.</li>
+<li><strong>Metabolic vulnerabilities</strong>: serine-synthesis (<a href="../genes/PHGDH.html">PHGDH</a>) inhibition for basal tumors; SIRT3-modulated mitochondrial acetylation as a candidate axis (therapeutic direction ambiguous given dual oncogene/TS roles).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Prospective accrual prioritized data quality over demographic representation; cohort may not be optimized for subgroup analyses.</li>
+<li>Bulk cryopulverized tissue sacrifices architectural and single-cell resolution; integration with imaging mass cytometry or microscaled workflows (Satpathy et al.&nbsp;2020, DP1 cohort) is needed.</li>
+<li>Associations are hypothesis-generating; therapeutic claims (TNIK, DCLK1, <a href="../genes/MAST4.html">MAST4</a>, PHGDH, SIRT3, APOBEC-immune link, Rb-CDK4/6) need functional and clinical validation.</li>
+<li>N = 122 limits statistical power for rare-event subsets (e.g., n = 6 APOBEC-enriched, n = 2 pseudo-ERBB2+ in the prospective cohort).</li>
+<li>Equivocal HER2 cases per ASCO-CAP could not all be resolved due to unavailable repeat FISH.</li>
+<li>SIRT3 has both tumor-suppressor and oncogenic roles in the literature; whether to inhibit or activate it for therapeutic benefit remains open.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“proteogenomics approach was applied to 122 treatment-naive primary breast cancers accrued to preserve post-translational modifications, including protein phosphorylation and acetylation” (SUMMARY).</li>
+<li>“29,647 somatic mutations, 23,692 gene-level copy number events, 23,121 gene transcripts, 10,107 proteins, 38,968 phosphorylation sites, and 9,869 acetylation sites” (Results — PG Characterization).</li>
+<li>“NMF LumB-I tumors had fewer <a href="../genes/PIK3CA.html">PIK3CA</a> mutations than NMF LumA-I (binomial p = 1.50 × 10⁻³)” (Results — NMF clustering).</li>
+<li>“two of 17 instances of ERBB2 gene amplification in the current cohort and one of 16 in the retrospective cohort being associated with protein expression levels that were within the distribution for ERBB2 PG− samples” (Results — PG Analysis of ERBB2+ BRCAs).</li>
+<li>“APOBEC-enriched cases had higher mutation loads and higher <a href="../genes/APOBEC3B.html">APOBEC3B</a> protein levels compared with the rest of the tumors (p = 0.008 and p = 0.1 respectively, Wilcoxon test)” (Results — APOBEC-Mediated Mutagenesis).</li>
+<li>“Rb protein and phosphoprotein levels were significantly positively correlated in HR+/ERBB2− samples (Spearman rho = 0.24, p = 0.035 for protein and rho = 0.53, p = 1.06 × 10⁻⁶ for median of all Rb phosphosites) but significantly negatively correlated in TNBC samples (Spearman rho = −0.54, p = 0.003 for protein and rho = −0.46, p = 0.015 for phosphorylation)” (Results — PG Analysis of Rb).</li>
+<li>“Rb protein levels were correlated with response to palbociclib regardless of RB1 genotype (Spearman rho = −0.61, p = 0.022)” (Results — Rb in GDSC cell lines).</li>
+<li>“PAM50-based classification of tumors was also performed … 14 Her2 enriched (HER2-E), 29 Basal, 57 Luminal A (LumA), 17 Luminal B (LumB) and 5 Normal-like tumors” (<a href="../genes/STAR.html">STAR</a> Methods — Specimens and clinical data).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33212010.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33212010.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lower-Grade Glioma / LGG (TCGA)</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). The closest OncoTree equivalent is <a href="LGGNOS.md">LGGNOS</a> (Lower Grade Glioma, NOS) or <a href="../cancer_types/DIFG.html">DIFG</a> (Diffuse Glioma). LGG is defined primarily by IDH mutation status and 1p/19q co-deletion, which separates oligodendroglioma from astrocytoma subtypes.</p>
+<p>LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). The closest OncoTree equivalent is <a href="../cancer_types/LGGNOS.html">LGGNOS</a> (Lower Grade Glioma, NOS) or <a href="../cancer_types/DIFG.html">DIFG</a> (Diffuse Glioma). LGG is defined primarily by IDH mutation status and 1p/19q co-deletion, which separates oligodendroglioma from astrocytoma subtypes.</p>
 </section>
 <section id="cohorts-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
@@ -181,14 +181,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
 <li>Pan-cancer fusion study (9,624 TCGA samples) found LGG has a median of 0 fusions per sample (low-fusion cancer type); IDH-mutant LGG clusters separately from IDH-wildtype <a href="../cancer_types/GBM.html">GBM</a> by arm-level aneuploidy pattern <a href="../papers/29617662.html">PMID:29617662</a>.</li>
-<li>Pan-cancer aneuploidy study found <a href="../genes/IDH1.html">IDH1</a> mutation defines the LGG subgroup that clusters separately from GBM by aneuploidy pattern, characterized by 1p loss and 19q gain; LGG clusters in the neural-lineage arm-level group with GBM and melanoma <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li>Pan-cancer aneuploidy study found <a href="../genes/IDH1.html">IDH1</a> mutation defines the LGG subgroup that clusters separately from <a href="../cancer_types/GBM.html">GBM</a> by aneuploidy pattern, characterized by 1p loss and 19q gain; LGG clusters in the neural-lineage arm-level group with <a href="../cancer_types/GBM.html">GBM</a> and melanoma <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li>Included in TCGA PanCancer Atlas; IDH1-mutant LGG dominates iCluster C11 (highest silhouette); IDH1-wildtype LGG co-clusters with <a href="../cancer_types/GBM.html">GBM</a> in C23; pan-cancer analysis identifies <a href="../genes/IDH1.html">IDH1</a> as the defining molecular feature <a href="../papers/29625048.html">PMID:29625048</a></li>
+<li><a href="../genes/IDH1.html">IDH1</a> defines methylation cluster 1 in LGG (330/351 samples IDH1-mutant); IDH1-driven gliomas show lower <a href="../genes/STAT1.html">STAT1</a> and reduced CXCL10/immune infiltrate; ATRX- or TP53-mutant LGG tumors have more macrophages and fewer CD8 T-cells (ANOVA P&lt;2e-8) <a href="../papers/29625049.html">PMID:29625049</a></li>
+<li>RTK-RAS alteration rate 82% in IDHwt LGG; <a href="../genes/EGFR.html">EGFR</a> altered in 52% of IDHwt LGG; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant LGG <a href="../papers/29625050.html">PMID:29625050</a></li>
+<li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); IDH/1p19q status established as more robust survival predictor than histologic subtype, contributing evidence to WHO 2016 glioma diagnostic update <a href="../papers/29625055.html">PMID:29625055</a></li>
+<li>LGG (WHO grade II–III) comprised 39/85 patients in the MSK-IMPACT CSF liquid-biopsy cohort; truncal alterations (IDH1/IDH2, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/ATRX.html">ATRX</a>, <a href="../genes/TERT.html">TERT</a>, 1p/19q codeletion) were 100% concordant between CSF ctDNA and matched tumor tissue in all 10/10 non-hypermutated LGG pairs. <a href="../papers/30675060.html">PMID:30675060</a></li>
+<li>In the GLASS longitudinal cohort, lower-grade glioma (IDHmut astrocytoma and oligodendroglioma) had 78% of IDHmut tumors remaining proneural at both timepoints; acquired <a href="../genes/CDKN2A.html">CDKN2A</a> deletion at recurrence was associated with worse <a href="../cancer_types/OS.html">OS</a> in IDHmut-noncodel tumors (p=0.02, log-rank) <a href="../papers/35649412.html">PMID:35649412</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
 <ul>
 <li><strong>IDH-mutant, 1p/19q co-deleted:</strong> oligodendroglioma; characterized by low arm-level aneuploidy except 1p/19q.</li>
-<li><strong>IDH-mutant, 1p/19q intact:</strong> astrocytoma; typically lower aneuploidy than GBM.</li>
+<li><strong>IDH-mutant, 1p/19q intact:</strong> astrocytoma; typically lower aneuploidy than <a href="../cancer_types/GBM.html">GBM</a>.</li>
 <li><strong>IDH-wildtype LGG:</strong> behaviorally similar to GBM; not expected to be common in the TCGA LGG cohort by design.</li>
 <li>The 1p/19q co-deletion in LGG (Cairncross et al., 2013) is a precedent for arm-level alterations being therapeutically relevant <a href="../papers/29622463.html">PMID:29622463</a>.</li>
 </ul>
@@ -203,7 +209,13 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/29617662.html">PMID:29617662</a> — Pan-cancer fusion landscape (Gao et al., 2018)</li>
 <li><a href="../papers/29622463.html">PMID:29622463</a> — Pan-cancer aneuploidy landscape (Taylor et al., 2018)</li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625048.html">PMID:29625048</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625050.html">PMID:29625050</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625055.html">PMID:29625055</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30675060.html">PMID:30675060</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

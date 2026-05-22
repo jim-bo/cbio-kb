@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic and transcriptomic analysis of a library of small cell lung cancer patient-derived xenografts – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35440124.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35440124.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic and transcriptomic analysis of a library of small cell lung cancer patient-derived xenografts</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Rebecca Caeser </p>
+             <p>Jacklynn V. Egger </p>
+             <p>Shweta Chavan </p>
+             <p>Nicholas D. Socci </p>
+             <p>Caitlin Byrne Jones </p>
+             <p>Faruk Erdem Kombak </p>
+             <p>Marina Asher </p>
+             <p>Michael H. Roehrl </p>
+             <p>Nisargbhai S. Shah </p>
+             <p>Viola Allaj </p>
+             <p>Parvathy Manoj </p>
+             <p>Sam E. Tischfield </p>
+             <p>Amanda Kulick </p>
+             <p>Maximiliano Meneses </p>
+             <p>Christine A. Iacobuzio-Donahue </p>
+             <p>W. Victoria Lai </p>
+             <p>Umeshkumar Bhanot </p>
+             <p>Marina K. Baine </p>
+             <p>Natasha Rekhtman </p>
+             <p>Travis J. Hollmann </p>
+             <p>Elisa de Stanchina </p>
+             <p>John T. Poirier </p>
+             <p>Charles M. Rudin </p>
+             <p>Triparna Sen </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41467-022-29794-4">10.1038/s41467-022-29794-4</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 35440124 · <strong>DOI:</strong> 10.1038/s41467-022-29794-4 · <strong>Journal:</strong> Nature Communications (2022)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Caeser et al.&nbsp;assembled and deeply characterized a resource of 46 small cell lung cancer (<a href="../cancer_types/SCLC.html">SCLC</a>) patient-derived xenograft (PDX) and circulating tumor cell-derived xenograft (CDX) models from 33 patients at Memorial Sloan Kettering, with paired clinical specimens for 18 cases. Multi-omic profiling — <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted DNA sequencing (42 PDX/CDX, 26 clinical), bulk <a href="../methods/rna-seq.html">RNA-seq</a> (43 PDXs), and IHC for subtype markers (37 PDXs) — confirmed retention of the canonical SCLC genomic landscape (near-universal <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> loss) and recapitulated the ASCL1/NEUROD1/POU2F3 transcriptional subtype framework in xenografts. Notably, the cohort includes 10 <a href="../genes/POU2F3.html">POU2F3</a>-driven PDXs (subtype SCLC-P) derived from a single never-smoker donor — the first reported SCLC-P PDX models — along with evidence that SCLC-P can share a cell of origin with lung adenocarcinoma. The companion dataset is deposited in cBioPortal as <a href="../datasets/lung_pdx_msk_2021.html">lung_pdx_msk_2021</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Models:</strong> 46 PDX/CDX models from 33 <a href="../cancer_types/SCLC.html">SCLC</a> patients; 40/46 (87%) tissue-derived PDXs and 6/46 (13%) <a href="../methods/ctdx-lung.html">CDXs</a>.</li>
+<li><strong>Patient cohort:</strong> 55% (18/33) male, 45% female; average age 66 at diagnosis. 27/33 (82%) current or former smokers. 19/33 (58%) extensive-stage at presentation, 14/33 (42%) limited-stage.</li>
+<li><strong>Engraftment:</strong> 45/198 (23.81%) pure SCLC samples and 13/29 (44.83%) mixed-histology samples successfully engrafted; mean engraftment time 112 days (110 days PDX vs 131 days CDX).</li>
+<li><strong>Assays:</strong> <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted NGS on 42 PDX and 26 clinical samples (panel iterations of 341, 410, or 468 genes), bulk <a href="../methods/rna-seq.html">RNA-seq</a> on 43 PDXs, and <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> on 37 PDX samples and 19 clinical samples.</li>
+<li><strong>Paired clinical-PDX comparison:</strong> 18 cases with both clinical and matched PDX MSK-IMPACT data.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/lung_pdx_msk_2021.html">lung_pdx_msk_2021</a> in cBioPortal (gene expression deposited at ArrayExpress E-MTAB-11230).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Canonical SCLC drivers are retained in PDX:</strong> <a href="../genes/TP53.html">TP53</a> alterations in 24/26 (92%) clinical samples and 90% of PDX samples; <a href="../genes/RB1.html">RB1</a> truncating/splice/structural variants/deep deletions in 21/26 (81%) clinical and 76% of PDX samples (<a href="../papers/35440124.html">PMID:35440124</a>).</li>
+<li><strong>Paired-pair concordance:</strong> 16/18 (89%) clinical-PDX pairs retained genomic alterations in <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a>; MSK599 and MSK871 PDXs lacked the <a href="../genes/TP53.html">TP53</a> alterations seen in matched clinical samples.</li>
+<li><strong>Two atypical KRAS-amplified clinical samples (P-0039208-T01-IM6 and -T02-IM6)</strong> lacked <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> mutations but harbored <a href="../genes/KRAS.html">KRAS</a> amplifications together with <a href="../genes/MDM2.html">MDM2</a> amplification; the authors speculate <a href="../genes/MDM2.html">MDM2</a> amplification could phenocopy <a href="../genes/TP53.html">TP53</a> inactivation.</li>
+<li><strong>Four never-smoker samples</strong> (P-0022320-T01/2-IM6 and P-0025975-T01/2-IM6) carried oncogenic <a href="../genes/EGFR.html">EGFR</a> mutations consistent with histologic transformation from <a href="../cancer_types/LUAD.html">LUAD</a>.</li>
+<li><strong>Higher copy-number alteration density in PDXs vs clinical samples</strong>, attributed to greater purity after stromal replacement by murine cells.</li>
+<li><strong>Recurrent NSCLC-associated mutations in a subset of PDXs</strong> (MSK1053, MSK511c, MSK773D/E/G/I): <a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/STK11.html">STK11</a>, <a href="../genes/KEAP1.html">KEAP1</a>, and <a href="../genes/PTPRS.html">PTPRS</a> (<a href="../genes/PTPRS.html">PTPRS</a> absent in MSK511c).</li>
+<li><strong>Subtype recapitulation:</strong> IHC + RNA-seq confirmed <a href="../genes/ASCL1.html">ASCL1</a>, <a href="../genes/NEUROD1.html">NEUROD1</a>, <a href="../genes/POU2F3.html">POU2F3</a>, and <a href="../genes/YAP1.html">YAP1</a> subtype structure. YAP1 protein expression was consistently absent or very low across the cohort, questioning YAP1 as a defining IHC marker.</li>
+<li><strong>POU2F3-driven cluster:</strong> A distinct subset of 10 PDXs (MSK773 B-L) from one patient was strongly POU2F3+ and negative for other subtype markers — the first published SCLC-P PDX resource. All 10 expressed <a href="../genes/MYC.html">MYC</a> at protein and RNA levels.</li>
+<li><strong>YAP/TAZ downstream activity in SCLC-P:</strong> POU2F3-positive PDXs highly expressed YAP1 downstream genes (<a href="../genes/NOTCH2.html">NOTCH2</a>, <a href="../genes/NOTCH3.html">NOTCH3</a>) regardless of YAP1 expression itself.</li>
+<li><strong>SCLC-P transcriptional features:</strong> high <a href="../genes/MYC.html">MYC</a>, high <a href="../genes/REST.html">REST</a> and <a href="../genes/BACH2.html">BACH2</a>, low <a href="../genes/DLL3.html">DLL3</a> and <a href="../genes/ATOH1.html">ATOH1</a>; low <a href="../genes/INSM1.html">INSM1</a> and <a href="../genes/CHGA.html">CHGA</a> NE markers.</li>
+<li><strong>EMT signature heterogeneous in non-NE SCLC:</strong> SCLC-P samples lacked detectable <a href="../genes/EPCAM.html">EPCAM</a> but showed variable <a href="../genes/VIM.html">VIM</a> expression and low <a href="../genes/SNAI1.html">SNAI1</a>/<a href="../genes/SNAI2.html">SNAI2</a>/<a href="../genes/ZEB1.html">ZEB1</a>, consistent with EMT not being a uniform hallmark of non-NE SCLC.</li>
+<li><strong>MYC-family expression tracks subtype:</strong> SCLC-P samples expressed high <a href="../genes/MYC.html">MYC</a>; the two SCLC-N samples (MSK424, MSK443) had the highest <a href="../genes/MYCL.html">MYCL</a> expression, and MSK-IMPACT detected <a href="../genes/MYCL.html">MYCL</a> amplifications in MSK424, MSK304, MSK40, MSK599b, MSK891, and MSK736.</li>
+<li><strong>Inflamed signature:</strong> 7/43 PDXs (MSK831b, MSK511c, MSK325d, MSK773B, MSK773H, MSK761, MSK891) showed high expression of HLAs and antigen-presentation genes, not segregating cleanly with a single transcription-factor subtype.</li>
+<li><strong>Shared SCLC-P/LUAD origin (MSK773 case study):</strong> A male never-smoker in his 70s with prior Hodgkin’s disease and mantle field radiation, treated with carboplatin/etoposide and then <a href="../drugs/ipilimumab.html">ipilimumab</a> + <a href="../drugs/nivolumab.html">nivolumab</a> without response, had an initial biopsy showing admixed SCLC and lung adenocarcinoma. Separate MSK-IMPACT on the two histologies showed shared somatic mutations and copy-number changes (<a href="../genes/TET2.html">TET2</a>, <a href="../genes/CDKN1B.html">CDKN1B</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/TCF3.html">TCF3</a>, <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/KRAS.html">KRAS</a>) with <a href="../genes/RB1.html">RB1</a> and <a href="../genes/TP53.html">TP53</a> loss specific to the SCLC component, supporting clonal origin and consistent with type II pneumocyte as a possible cell of origin for SCLC-P.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — missense, truncating, splice, in-frame mutations in 92% (24/26) clinical and 90% PDX samples (<a href="../papers/35440124.html">PMID:35440124</a>).</li>
+<li><a href="../genes/RB1.html">RB1</a> — truncating, splice, structural variants, deep deletions in 81% (21/26) clinical and 76% PDX samples; lost specifically in SCLC component of MSK773 admixed tumor.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — amplifications in two atypical <a href="../genes/TP53.html">TP53</a>/<a href="../genes/RB1.html">RB1</a>-wildtype clinical samples and in the MSK773 SCLC/adenocarcinoma case; ~15% of PDX samples.</li>
+<li><a href="../genes/MDM2.html">MDM2</a> — amplification co-occurring with <a href="../genes/KRAS.html">KRAS</a> amplification in two TP53/RB1-wildtype clinical samples; 100% of MSK773 admixed components.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — oncogenic mutations in four never-smoker samples consistent with histologic transformation from <a href="../cancer_types/LUAD.html">LUAD</a>; 15% PDX samples.</li>
+<li><a href="../genes/MYCL.html">MYCL</a> — amplification correlated with high transcript expression in MSK424, MSK304, MSK40, MSK599b, MSK891, MSK736; highest expression in two SCLC-N samples.</li>
+<li><a href="../genes/MYC.html">MYC</a> — uniformly high in POU2F3-driven PDXs and in MSK761/MSK900b outliers; 12% of PDXs.</li>
+<li><a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/STK11.html">STK11</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/PTPRS.html">PTPRS</a> — NSCLC-typical mutations seen in MSK1053, MSK511c, and MSK773D/E/G/I PDX subset (PTPRS not in MSK511c).</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/FOXA1.html">FOXA1</a> — MSK304B PDX lost matched-clinical amplifications but gained <a href="../genes/MYCL.html">MYCL</a> amplification.</li>
+<li><a href="../genes/CDKN1B.html">CDKN1B</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/TCF3.html">TCF3</a>, <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/TET2.html">TET2</a> — shared between <a href="../cancer_types/LUAD.html">LUAD</a> and SCLC components of MSK773 (clonal).</li>
+<li><a href="../genes/ASCL1.html">ASCL1</a>, <a href="../genes/NEUROD1.html">NEUROD1</a>, <a href="../genes/POU2F3.html">POU2F3</a>, <a href="../genes/YAP1.html">YAP1</a> — subtype-defining transcriptional regulators; protein-level YAP1 absent across cohort.</li>
+<li><a href="../genes/NOTCH1.html">NOTCH1</a>/<a href="../genes/NOTCH2.html">NOTCH2</a>/<a href="../genes/NOTCH3.html">NOTCH3</a> — downstream YAP/TAZ pathway upregulated in POU2F3-positive PDXs.</li>
+<li><a href="../genes/INSM1.html">INSM1</a>, <a href="../genes/CHGA.html">CHGA</a>, <a href="../genes/NCAM1.html">NCAM1</a> — NE markers high in SCLC-A/N/A-N, low in SCLC-P.</li>
+<li><a href="../genes/REST.html">REST</a>, <a href="../genes/BACH2.html">BACH2</a> — high in non-NE SCLC-P; <a href="../genes/DLL3.html">DLL3</a>, <a href="../genes/ATOH1.html">ATOH1</a> — low in SCLC-P.</li>
+<li><a href="../genes/VIM.html">VIM</a>, <a href="../genes/EPCAM.html">EPCAM</a>, <a href="../genes/SNAI1.html">SNAI1</a>, <a href="../genes/SNAI2.html">SNAI2</a>, <a href="../genes/ZEB1.html">ZEB1</a> — variable / non-uniform EMT pattern in SCLC-P.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>PDX/CDX as a translational platform:</strong> The authors argue that PDX models retain key genomic and proteomic features of donor tumors (89% concordance for TP53/RB1 in paired pairs) and are therefore suitable for testing subtype-targeted SCLC therapies emerging from early-phase trials.</li>
+<li><strong>Subtype-specific therapy hypotheses:</strong> SCLC-P cell lines have previously been reported sensitive to PARP inhibition, and MYC-high SCLC may have selective sensitivity to Aurora kinase inhibition; the 10 MSK773 POU2F3-driven PDXs provide the first SCLC-P in-vivo system for testing such hypotheses.</li>
+<li><strong>Histologic transformation cases (EGFR-mutant never-smoker samples)</strong> support the established phenomenon of <a href="../cancer_types/LUAD.html">LUAD</a> → SCLC transformation as a resistance mechanism to EGFR-targeted therapy.</li>
+<li><strong>Standard-of-care backdrop:</strong> Authors note current first-line standard for extensive-stage SCLC is platinum-based chemoimmunotherapy (<a href="../drugs/atezolizumab.html">atezolizumab</a> or <a href="../drugs/durvalumab.html">durvalumab</a> with <a href="../drugs/cisplatin.html">cisplatin</a>/<a href="../drugs/carboplatin.html">carboplatin</a> + <a href="../drugs/etoposide.html">etoposide</a>) and chemoradiotherapy for limited-stage disease.</li>
+<li><strong>Clinical case (MSK773):</strong> patient received <a href="../drugs/carboplatin.html">carboplatin</a> + <a href="../drugs/etoposide.html">etoposide</a>, progressed within 6 months, then received <a href="../drugs/ipilimumab.html">ipilimumab</a> + <a href="../drugs/nivolumab.html">nivolumab</a> without response — illustrating limited ICB activity in SCLC-P.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>PDX/CDX models are maintained in immunodeficient NOD.Cg-Prkdc<scid>Il2rg<tm1wjl>/SzJ mice; absence of an intact adaptive immune system and replacement of human stromal elements by murine cells precludes evaluation of immune-targeted therapies and may alter antigen-presentation and immune profiling.</tm1wjl></scid></li>
+<li>All 10 SCLC-P models derive from a single patient (MSK773), limiting generalizability of SCLC-P findings to broader patient populations.</li>
+<li>Two PDXs (MSK761, MSK900b) showed transcriptional patterns intermediate between non-SCLC-P and SCLC-P clusters, raising open questions about whether these represent additional subtype classes or transitional phenotypes — and whether site of biopsy (liver vs blood CDX in the MSK761/MSK761c pair) contributes to heterogeneity.</li>
+<li>The authors observed minor differences between matched clinical and PDX genomic spectra (e.g., MSK599, MSK871 lost TP53; MSK304B lost PIK3CA/FOXA1 amplifications, gained MYCL amplification) — significance of these differences (intrinsic clonal heterogeneity vs PDX bottleneck/selection) remains to be elucidated.</li>
+<li>Larger sample sizes and definition of gene expression signatures correlating with disease progression and drug resistance are needed; current cohort showed no major transcriptional differences between treated and treatment-naïve samples.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Here, we present a resource of 46 extensively annotated PDX/CDX models derived from 33 patients with SCLC.” (Abstract)</li>
+<li>“NGS revealed mutations (primarily missense and truncating mutations) with the rarer splice and in-frame mutations in TP53 in 24 out of 26 (92%) clinical samples and truncating splice mutations, structural variants, and deep deletions in <a href="../genes/RB1.html">RB1</a> in 21 out of 26 (81%) clinical samples.” (Results, MSK-IMPACT)</li>
+<li>“Mutations in TP53 and RB1 were largely retained (90% and 76% of samples, respectively).” (PDX comparison)</li>
+<li>“Most (89%, 16/18) pairs retained genomic alterations in TP53 and RB1.” (Paired analysis)</li>
+<li>“Four samples from patients that never smoked (samples P-0022320-T01/2-IM6 and P-0025975-T01/2-IM6) demonstrated oncogenic mutations in <a href="../genes/EGFR.html">EGFR</a> consistent with a histologic transformation from lung adenocarcinoma.” (Results)</li>
+<li>“We were fortunate to obtain a set of POU2F3-driven PDXs, derived from a male patient in his 70s with ES-SCLC. This patient was a life-long never-smoker, unusual for SCLC, but he did have a history of Hodgkin’s disease over 40 years earlier, for which he had received mantle field radiation.” (MSK773 case)</li>
+<li>“Shared somatic mutations and copy number changes confirm clonality between these distinct histologies, with RB1 and TP53 loss specific to the SCLC.” (MSK773 admixed tumor)</li>
+<li>“The genomic sequencing data generated in this study underlying Figs. 2 and 5g are publicly available via the cBioPortal for cancer genomics https://www.cbioportal.org/study/summary?id=<a href="../datasets/lung_pdx_msk_2021.html">lung_pdx_msk_2021</a>.” (Data availability)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35440124.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35440124.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

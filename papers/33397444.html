@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Comprehensive integrative profiling of upper tract urothelial carcinomas – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33397444.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33397444.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comprehensive integrative profiling of upper tract urothelial carcinomas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Xiaoping Su </p>
+             <p>Xiaofan Lu </p>
+             <p>Sehrish Khan Bazai </p>
+             <p>Eva Compérat </p>
+             <p>Roger Mouawad </p>
+             <p>Hui Yao </p>
+             <p>Morgan Rouprêt </p>
+             <p>Jean-Philippe Spano </p>
+             <p>David Khayat </p>
+             <p>Irwin Davidson </p>
+             <p>Nizar N. Tannir </p>
+             <p>Fangrong Yan </p>
+             <p>Gabriel G. Malouf </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1186/s13059-020-02230-w">10.1186/s13059-020-02230-w</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 33397444 · <strong>DOI:</strong> 10.1186/s13059-020-02230-w · <strong>Journal:</strong> Genome Biology (2021)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Su et al.&nbsp;performed integrative genomic, transcriptomic, and DNA-methylation profiling of 40 upper tract urothelial carcinomas (UTUCs; 20 non-muscle-invasive, 20 muscle-invasive) from a single French biobank (Pitié-Salpêtrière) to dissect the molecular basis of muscle invasiveness. Whole-exome sequencing on 30 paired tumor–normal cases identified <a href="../genes/FGFR3.html">FGFR3</a> (50%), <a href="../genes/KDM6A.html">KDM6A</a> (27%), and a novel <a href="../cancer_types/UTUC.html">UTUC</a> tumor suppressor <a href="../genes/ZFP36L1.html">ZFP36L1</a> (20%) as significantly mutated genes (MutSigCV FDR&lt;0.05); mutations of the <a href="../genes/ZFP36.html">ZFP36</a> family (<a href="../genes/ZFP36.html">ZFP36</a>, <a href="../genes/ZFP36L1.html">ZFP36L1</a>, <a href="../genes/ZFP36L2.html">ZFP36L2</a>) collectively affected 26.7% of cases. Infinium EPIC methylation profiling of 35 tumors plus 8 adjacent normals identified two epi-clusters — <strong>EpiC-low</strong> (hypomethylated, immune-depleted, FGFR3-enriched, NMI-enriched) and <strong>EpiC-high</strong> (hypermethylated, immune-infiltrated, <a href="../themes/swi-snf-complex.md">SWI/SNF</a>-mutated, MI-enriched, worse <a href="../cancer_types/OS.html">OS</a> HR=6.57) — that were also recapitulated when the UTUC methylation signature was applied to TCGA muscle-invasive bladder cancer (BLCA-C1 vs BLCA-C2).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>40 UTUC patients</strong> (20 NMI + 20 MI), fresh-frozen surgical resections from the Pitié-Salpêtrière Hospital biobank, all microsatellite-stable, all consented; cohort registered as cBioPortal study <a href="../datasets/utuc_igbmc_2021.html">utuc_igbmc_2021</a>. Median follow-up 53 months (range 2–98); 18 recurred, 12 died of disease.</li>
+<li><strong>Assays per case (matched germline available for 30/40):</strong>
+<ul>
+<li><a href="../methods/whole-exome-seq.html">Whole-exome sequencing</a> on 30 paired tumor–normal (Agilent SureSelect 50 Mb, Illumina HiSeq 2000, 2×76 bp; tumor coverage 79–158×, germline 43–80×). 15 NMI + 15 MI cases.</li>
+<li><a href="../methods/sanger-sequencing.html">Targeted Sanger sequencing</a> of <a href="../genes/FGFR3.html">FGFR3</a> hotspots (S249C, Y373C) for 35 cases; Sanger validation of FGFR3/KDM6A/ZFP36L1 calls.</li>
+<li><a href="../methods/rna-seq.html">RNA-seq</a> on 20 cases (15 MI + 5 NMI, NuGen Ovation V2, HiSeq 2000 75 bp PE, aligned to GRCh37/hg19 with MOSAIK, GENCODE15).</li>
+<li><a href="../methods/epic-methylation-array.html">Infinium MethylationEPIC array</a> on 35 UTUC + 8 normal adjacent bladder tissues; 836,691 probes after filtering sex chromosomes and NA-containing probes.</li>
+</ul></li>
+<li><strong>External cohorts used for cross-validation:</strong> <a href="../datasets/blca_tcga_pub_2017.html">blca_tcga_pub_2017</a> / <a href="../datasets/blca_tcga_pan_can_atlas_2018.html">blca_tcga_pan_can_atlas_2018</a> (412 MI <a href="../cancer_types/BLCA.html">BLCA</a> samples for methylation + somatic mutation), Hurst NMI-BLCA cohort <a href="../datasets/blca_nmibc_2017.html">blca_nmibc_2017</a> (n=24 TaG2), <a href="../datasets/blca_dfarber_mskcc_2014.html">blca_dfarber_mskcc_2014</a> (DFCI), <a href="../datasets/blca_bgi.html">blca_bgi</a>, MSKCC UTUC cohort <a href="../datasets/utuc_mskcc_2015.html">utuc_mskcc_2015</a> for KMT2C/FGFR3 co-occurrence replication, and <a href="../datasets/ccle_broad_2019.html">ccle_broad_2019</a> for 20 bladder cell lines (DNA methylation + expression from GDSC).</li>
+<li><strong>Bioinformatic pipeline:</strong> ANNOVAR + SIFT annotation; <a href="../methods/mutsigcv.html">MutSigCV</a> v1.41 for SMGs; <a href="../methods/deconstructsigs.html">deconstructSigs</a> and <a href="../methods/nmf-clustering.html">NMF</a> for COSMIC v2 mutational signatures; <a href="../methods/gistic.html">GISTIC 2.0</a> for focal SCNAs (q&lt;0.2); <a href="../methods/champ.html">ChAMP</a> for DMP/DMR with DMRcate; <a href="../methods/icluster.html">iClusterBayes</a> for multi-omics integration; <a href="../methods/cms-classifier.html">consensusMIBC</a> for MIBC transcriptomic subtype assignment plus the BASE47 47-gene classifier; <a href="../methods/mcp-counter.html">MCP-counter</a> and <a href="../methods/estimate.html">ESTIMATE</a> for immune/stromal deconvolution; MeTIL score for methylation-derived TIL inference.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Three SMGs in UTUC by MutSigCV (FDR&lt;0.05):</strong> <a href="../genes/FGFR3.html">FGFR3</a> 50% (FDR=3.15×10⁻³), <a href="../genes/KDM6A.html">KDM6A</a> 27% (FDR=1.03×10⁻³), and <strong>novel</strong> <a href="../genes/ZFP36L1.html">ZFP36L1</a> 20% (FDR=2.62×10⁻³). Average tumor mutation burden 2.9±3.5 mut/Mb; median 1.5 (range 0.3–15.7).</li>
+<li><strong>Additional recurrently mutated (&gt;10%, P&lt;0.05, FDR&gt;0.05):</strong> <a href="../genes/KMT2D.html">KMT2D</a> (reported as “MLL2”, P=0.037), <a href="../genes/KMT2C.html">KMT2C</a> (P=0.02), <a href="../genes/STAG2.html">STAG2</a> (P=8.3×10⁻⁷), <a href="../genes/ARID1A.html">ARID1A</a> (P=0.01), <a href="../genes/TP53.html">TP53</a> (P=0.018), <a href="../genes/CRIPAK.html">CRIPAK</a> (P=0.0001), <a href="../genes/GANAB.html">GANAB</a> (P=0.04).</li>
+<li><strong>Co-occurrence patterns:</strong> FGFR3↔︎<a href="../genes/KMT2C.html">KMT2C</a> co-occur (log odds ratio = 3.1, P=0.04); validated in <a href="../datasets/utuc_mskcc_2015.html">utuc_mskcc_2015</a> (LOR=2.9, P&lt;0.001, FDR&lt;0.001). <a href="../genes/ZFP36L1.html">ZFP36L1</a> co-occurs with both <a href="../genes/KDM6A.html">KDM6A</a> (LOR=3.1, P=0.03) and <a href="../genes/STAG2.html">STAG2</a> (LOR=3.29, P=0.04).</li>
+<li><strong>ZFP36L1 mutation spectrum:</strong> 8 mutations in 6 cases; 6/8 frameshift indels, 2 deleterious missense (Polyphen2/SIFT). Adding <a href="../genes/ZFP36L2.html">ZFP36L2</a> E249X (a known TCGA-BLCA hotspot) and <a href="../genes/ZFP36.html">ZFP36</a> p.P253A mutations gives <strong>26.7% (8/30)</strong> UTUCs with ZFP36-family mutations. ZFP36L1 mutations across 10,967 TCGA tumors (32 histologies): 120 (1.09%), highest in bladder (30/410 = 7.3%); when extended to <a href="../genes/ZFP36.html">ZFP36</a> family, frequency reaches ~3% pan-cancer and 9.1–10% across three bladder cohorts (<a href="../datasets/blca_tcga_pub_2017.html">blca_tcga_pub_2017</a>, <a href="../datasets/blca_dfarber_mskcc_2014.html">blca_dfarber_mskcc_2014</a>, <a href="../datasets/blca_bgi.html">blca_bgi</a>).</li>
+<li><strong>ZFP36-family mutations associate with higher mutational load</strong> in UTUC (P=0.008) and in TCGA BLCA (P=0.0009); pooled bladder cohorts (n=562) show better OS (P=0.01) and trend toward better PFS (P=0.08) for ZFP36-mutant tumors.</li>
+<li><strong>Functional ZFP36L1 knockdown</strong> (siRNA in TCCSUP bladder cancer line) caused loss of E-cadherin, EMT-consistent spindle-shaped morphology, and significantly increased migration on <a href="../methods/transwell-invasion-assay.html">transwell assay</a>; no effect on proliferation or apoptosis. Knockdown confirmed by Western blot.</li>
+<li><strong>Recurrent focal SCNAs (GISTIC):</strong> losses at 1p36.33, 9p21.3 (encompassing <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a>), 11p15.1; gains at 1q23.3, 6p21.33, 8p11.23, 8q22.3 (<a href="../genes/YWHAZ.html">YWHAZ</a>), 12q15 (<a href="../genes/MDM2.html">MDM2</a>), 19q12 (<a href="../genes/CCNE1.html">CCNE1</a>). 8q22.3 gain co-occurs with <a href="../genes/TP53.html">TP53</a> mutations (P=0.02) and is mutually exclusive with FGFR3 mutations (P=0.03); 8q22.3 gain, 12q15 gain, and 11p15.11 loss enrich in MI cases.</li>
+<li><strong>NMI- vs MI-UTUC comparison with bladder cohorts:</strong> vs Hurst NMI-BLCA (<a href="../datasets/blca_nmibc_2017.html">blca_nmibc_2017</a>), <a href="../genes/KMT2C.html">KMT2C</a> trend higher in NMI-UTUC (P=0.08) while <a href="../genes/PIK3CA.html">PIK3CA</a> higher in NMI-BLCA (P=0.0001). vs TCGA MI-BLCA (n=412), MI-UTUC has more <a href="../genes/GANAB.html">GANAB</a> (P=0.021), <a href="../genes/CRIPAK.html">CRIPAK</a> (P=0.022), and trend for <a href="../genes/ZFP36L1.html">ZFP36L1</a> (P=0.1).</li>
+<li><strong>Mutational signatures:</strong> signatures 1, 13, 16 dominate. NMF resolved three clusters — C1 (n=7, sig 16, unknown etiology), C2 (n=8, sig 1, age-related deamination), C3 (n=15, sigs 13/2, APOBEC). No association with MeTIL score.</li>
+<li><strong>FGFR3-mutant UTUC is immune-cold:</strong> significantly lower MeTIL score than FGFR3-WT (P=7.8×10⁻⁵), validated in TCGA-BLCA (P=9.0×10⁻⁶); independent of muscle invasiveness (P=0.008 for MI; P=0.024 for NMI). FGFR3 mutation/fusion also linked to lower immune (P=0.016) and stromal (P=0.003) gene-expression scores.</li>
+<li><strong>Transcriptomic subtypes:</strong> by <a href="../methods/cms-classifier.html">consensusMIBC</a>, 14/20 (70%) were luminal papillary (including all NMI cases), 2 luminal unstable, 2 stromal-rich, 2 basal/squamous; none of the stromal-rich/basal-squamous had FGFR3 mutations. BASE47 classified 14 luminal-like and 6 basal-like. One FGFR3-TACC3 fusion detected (UTUC-11).</li>
+<li><strong>DNA methylation defines two epi-clusters</strong> (top 1% variable probes, n=836,691 retained): <strong>EpiC-high</strong> (n=23, formerly C1, hypermethylated: 14,209 hypermethylated probes vs only 34 in EpiC-low) and <strong>EpiC-low</strong> (n=12, formerly C2). DMR-enriched pathways: PRC2 / MLL targets, <a href="../genes/SMARCA2.html">SMARCA2</a> target genes, <a href="../genes/ZEB1.html">ZEB1</a> targets.
+<ul>
+<li>EpiC-high = hypermethylated, <strong>immune-infiltrated</strong> (higher MeTIL, P=0.003), <strong>MI-enriched</strong> (16/23 = 69.6%), enriched for <a href="../themes/swi-snf-complex.md">SWI/SNF</a> gene mutations (50% vs 0%, P=0.01, FDR=0.054).</li>
+<li>EpiC-low = hypomethylated, immune-depleted, <strong>NMI-enriched</strong> (11/12 = 91.7%, P=0.0009), enriched for <a href="../genes/FGFR3.html">FGFR3</a> mutations (90% vs 28%, P=0.004, FDR=0.044).</li>
+<li><strong>Prognostic:</strong> EpiC-high → shorter OS (P=0.038; HR=6.57; 95% CI 1.87–23.04) and shorter distant-metastasis-free survival (P=0.036; HR=6.55; 95% CI 1.87–22.98). No other clinicopathological variable was independently prognostic.</li>
+</ul></li>
+<li><strong>FGFR3-mutant UTUC is hypomethylated relative to FGFR3-WT:</strong> 84,717/836,691 probes differentially methylated (Δβ≥0.2, FDR&lt;0.05); 82,991 (97.8%) hypomethylated in FGFR3-mut. Hypomethylated probes enriched in enhancers (3.8% vs 3.2%) and DNase <a href="../cancer_types/HS.html">HS</a> sites (63.7% vs 57.4%); top DMRs overlap bladder genes including <a href="../genes/FGFR3.html">FGFR3</a>, <a href="../genes/GATA3.html">GATA3</a>, <a href="../genes/KRT15.html">KRT15</a>, <a href="../genes/KRT5.html">KRT5</a>. Validated in 20 bladder cell lines (<a href="../datasets/ccle_broad_2019.html">ccle_broad_2019</a>): cell lines clustered by FGFR3 alteration (mutations/fusions) vs <a href="../themes/swi-snf-complex.md">SWI/SNF</a> gene mutations using the 14,209-probe signature; cluster C1 (SWI/SNF-mut) showed higher interferon-γ stimulation signature (P=0.022).</li>
+<li><strong>Translation to TCGA MI-BLCA:</strong> projecting the EpiC signature onto <a href="../datasets/blca_tcga_pub_2017.html">blca_tcga_pub_2017</a> recovered two analogous subgroups — BLCA-C1 (hypermethylated, higher MeTIL, immune-inflamed with fibroblasts/MDC/monocytes/B/T/CD8 by MCP-counter, high-grade, non-papillary, poor OS) vs BLCA-C2 (FGFR3-amp/mut/overexpressing, neutrophil-enriched P=1.4×10⁻⁸, papillary, low-grade). BLCA-C1 vs BLCA-C2 OS: HR=1.38 (95% CI 1.03–1.85), P=0.035; median OS 2.4 vs 5.4 years.</li>
+<li><strong>Promoter CpG-island methylation:</strong> 905 frequently methylated genes (&gt;10%) in UTUC tumors; <a href="../genes/ACTL6B.html">ACTL6B</a> (a SWI/SNF subunit) hypermethylated in 20% of tumors vs 0% of normals. No promoter methylation of <a href="../genes/ZFP36L1.html">ZFP36L1</a> detected.</li>
+<li><strong>iClusterBayes</strong> on 28 UTUCs with paired WES+methylation yielded iCluster-high (n=17) vs iCluster-low (n=9), strongly congruent with EpiC clusters (P=4.9×10⁻⁵). Posterior-probability mutation drivers: FGFR3 (0.99), SWI/SNF (0.63), <a href="../genes/KMT2D.html">KMT2D</a> (0.63), <a href="../genes/TP53.html">TP53</a> (0.56); FGFR3 (P=0.011, FDR=0.047) and KMT2D (P=0.028, FDR=0.057) enriched in iCluster-low; 8q22.3 amplification enriched in iCluster-high (P=0.023, FDR=0.093).</li>
+<li><strong>Among recurrently mutated genes, only <a href="../genes/FGFR3.html">FGFR3</a> mutations independently associated with improved OS</strong> (P=0.005) and PFS at distant sites (P=0.007); FGFR3 mutations were enriched in NMI vs MI (73% vs 27%, P=0.027, FDR=0.2); <a href="../genes/ARID1A.html">ARID1A</a> mutations were enriched in MI (33% vs 0%, P=0.042, FDR=0.2).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/FGFR3.html">FGFR3</a></strong> — Mutations in 50% (15/30) of UTUC WES cases; defining driver of the EpiC-low (hypomethylated, immune-cold) subtype; mutually exclusive with 8q22.3 gain; FGFR3-mut UTUC has globally hypomethylated genome (97.8% of differential probes hypomethylated). One FGFR3-TACC3 fusion detected. Associates with better OS/PFS.</li>
+<li><strong><a href="../genes/KDM6A.html">KDM6A</a></strong> — Mutations in 27% of WES UTUC cases (FDR=1.03×10⁻³); co-occurs with <a href="../genes/ZFP36L1.html">ZFP36L1</a> (LOR=3.1, P=0.03).</li>
+<li><strong><a href="../genes/ZFP36L1.html">ZFP36L1</a></strong> — Novel UTUC tumor suppressor: 20% mutation rate, 6/8 frameshift indels; siRNA knockdown in TCCSUP bladder line drives loss of E-cadherin, EMT-like morphology, and increased migration with no proliferation/apoptosis effect; 7.3% in TCGA bladder, highest among all 32 TCGA histologies profiled.</li>
+<li><strong><a href="../genes/ZFP36L2.html">ZFP36L2</a></strong> — Recurrent E249X stop-gain (TCGA-BLCA hotspot) identified in 1 UTUC; ZFP36L1 and <a href="../genes/ZFP36L2.html">ZFP36L2</a> mutations are mutually co-occurring across TCGA (P&lt;0.001, FDR=0.002).</li>
+<li><strong><a href="../genes/ZFP36.html">ZFP36</a></strong> — Deleterious p.P253A mutation in 1 UTUC (COSMIC-curated); contributes to 26.7% ZFP36-family mutation rate in UTUC.</li>
+<li><strong><a href="../genes/KMT2C.html">KMT2C</a></strong> — Mutated in &gt;10% UTUC (P=0.02); co-occurs with FGFR3 (LOR=3.1, P=0.04); replicated in <a href="../datasets/utuc_mskcc_2015.html">utuc_mskcc_2015</a> (LOR=2.9, P&lt;0.001).</li>
+<li><strong><a href="../genes/KMT2D.html">KMT2D</a></strong> — Reported as “MLL2” in the paper (the older synonym for KMT2D); recurrent mutations (P=0.037) associated with higher mutational load (P=0.04). Posterior probability 0.63 in iClusterBayes; enriched in iCluster-low (FGFR3-rich subtype), P=0.028.</li>
+<li><strong><a href="../genes/STAG2.html">STAG2</a></strong> — Recurrent mutations (P=8.3×10⁻⁷); co-occur with ZFP36L1 (LOR=3.29, P=0.04).</li>
+<li><strong><a href="../genes/ARID1A.html">ARID1A</a></strong> — Recurrent (P=0.01); associated with higher mutational load (P=0.01); enriched in MI tumors (33% vs 0% in NMI, P=0.042, FDR=0.2); collapsed into the “SWI/SNF” composite mutation feature for iClusterBayes.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — Recurrent (P=0.018); co-occurs with 8q22.3 gain (P=0.02); iCluster posterior 0.56.</li>
+<li><strong><a href="../genes/CRIPAK.html">CRIPAK</a></strong> — Recurrent in UTUC (P=0.0001); enriched in MI-UTUC vs TCGA MI-BLCA (P=0.022). Caveat: <a href="../genes/CRIPAK.html">CRIPAK</a> has since been reported as a problematic gene model — the paper does not flag this.</li>
+<li><strong><a href="../genes/GANAB.html">GANAB</a></strong> — Recurrent (P=0.04); associated with higher mutational load (P=0.02); enriched in MI-UTUC vs TCGA MI-BLCA (P=0.021).</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/CDKN2B.html">CDKN2B</a></strong> — Lost at 9p21.3 (focal GISTIC peak); deletion contributes to iClusterBayes (posterior 0.54).</li>
+<li><strong><a href="../genes/MDM2.html">MDM2</a> (12q15), <a href="../genes/CCNE1.html">CCNE1</a> (19q12), <a href="../genes/YWHAZ.html">YWHAZ</a> (8q22.3)</strong> — Recurrent focal SCNA gains; 8q22.3 (<a href="../genes/YWHAZ.html">YWHAZ</a> region) gain enriches in MI and iCluster-high (P=0.023, FDR=0.093) and was recently linked to aggressive bladder cancer.</li>
+<li><strong><a href="../genes/TACC3.html">TACC3</a></strong> — Partner in the single FGFR3-TACC3 oncogenic fusion identified by RNA-seq (case UTUC-11).</li>
+<li><strong><a href="../genes/SMARCA4.html">SMARCA4</a></strong> — Co-occurred with FGFR3 mutation in the 639V bladder cell line (where FGFR3 mutation is otherwise non-functional/non-expressing in J82).</li>
+<li><strong><a href="../genes/SMARCA2.html">SMARCA2</a></strong> — <a href="../genes/SMARCA2.html">SMARCA2</a> target gene set enriched among DMRs distinguishing EpiC-high from EpiC-low (GSEA).</li>
+<li><strong><a href="../genes/ACTL6B.html">ACTL6B</a></strong> — SWI/SNF member; promoter CpG-island hypermethylation in 20% of UTUC tumors vs 0% of normals.</li>
+<li><strong><a href="../genes/GATA3.html">GATA3</a>, <a href="../genes/KRT5.html">KRT5</a>, <a href="../genes/KRT15.html">KRT15</a></strong> — Among the top DMRs distinguishing FGFR3-mutant from FGFR3-WT UTUC (genes known to be involved in bladder cancer luminal/basal identity).</li>
+<li><strong><a href="../genes/HRAS.html">HRAS</a></strong> — Cited as a prior UTUC-relevant gene whose mutation frequency differs from bladder carcinomas (no new findings in this paper).</li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a></strong> — Significantly enriched in NMI-BLCA (<a href="../datasets/blca_nmibc_2017.html">blca_nmibc_2017</a>) vs NMI-UTUC (P=0.0001); shows tissue-of-origin difference between upper-tract and bladder NMI tumors.</li>
+<li><strong><a href="../genes/EZH2.html">EZH2</a></strong> — Therapeutic implication discussed: <a href="../genes/EZH2.html">EZH2</a> inhibition ± <a href="../drugs/cisplatin.html">cisplatin</a> proposed as strategy for the SWI/SNF-mutant EpiC-high subtype based on cited prior NK-cell-activating mechanism (no in-paper EZH2 mutation data).</li>
+<li><strong><a href="../genes/ZEB1.html">ZEB1</a></strong> — <a href="../genes/ZEB1.html">ZEB1</a> target gene set enriched among EpiC-defining DMRs (GSEA).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>EpiC classification as prognostic stratifier:</strong> EpiC-high vs EpiC-low is the only independent predictor of OS (HR=6.57; 95% CI 1.87–23.04; P=0.038) and distant-metastasis-free survival (HR=6.55; 95% CI 1.87–22.98; P=0.036) in this UTUC cohort, beating all conventional clinicopathological features. Authors propose using it for post-resection stratification (e.g., who should receive preoperative chemotherapy or adjuvant FGFR3-targeted therapy).</li>
+<li><strong>EpiC-low / FGFR3-mutant subtype = candidate for FGFR inhibition + immune sensitization:</strong> Authors note that <a href="../drugs/erdafitinib.html">erdafitinib</a> received accelerated FDA approval for relapsed/refractory metastatic bladder cancer (40% response rate, n=90, in tumors with actionable FGFR alterations) and propose combination with PD-1/PD-L1 blockade to convert the T-cell-depleted FGFR3-mutant tumors into immune-responsive ones.</li>
+<li><strong>EpiC-high / SWI/SNF-mutant subtype = candidate for EZH2 inhibition:</strong> Cite prior work showing EZH2 inhibition ± <a href="../drugs/cisplatin.html">cisplatin</a> activates NK-cell-mediated immunity in bladder cancer xenografts; propose this as a strategy for FGFR3-WT, SWI/SNF-mutant, immune-inflamed MI UTUC.</li>
+<li><strong>FGFR3 mutation status as a biomarker of “cold” tumors:</strong> FGFR3 mutation independently associates with low MeTIL score in both UTUC and TCGA-BLCA (P=7.8×10⁻⁵ and P=9.0×10⁻⁶), reinforcing the rationale to combine FGFR-directed agents with checkpoint inhibition in this lineage.</li>
+<li><strong>ZFP36-family mutations as a putative TMB / outcome marker:</strong> ZFP36-family-mutant tumors have higher mutational load and better pooled-bladder-cohort OS (P=0.01, n=562); not formally a biomarker yet but suggested for follow-up.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small monocentric cohort (n=40 UTUC; 30 WES; 20 RNA-seq; 35 methylation)</strong> — authors explicitly call out the rarity-driven sample size; some sub-analyses (e.g., RNA clusters vs clinicopathology) were under-powered.</li>
+<li><strong>No matched primary/metastasis profiling</strong> — stability of EpiC subtypes across disease progression is untested.</li>
+<li><strong>CRIPAK as a recurrently mutated gene</strong> is reported uncritically; the broader community has since flagged CRIPAK as a likely false-positive gene model. The paper does not address this.</li>
+<li><strong>Mechanistic gap on FGFR3 → hypomethylation axis:</strong> Whether the global hypomethylation seen in FGFR3-mutant UTUC is a direct FGFR3-signaling consequence or a passenger of the luminal-papillary lineage is left as an open question.</li>
+<li><strong>SWI/SNF mutation ↔︎ immune infiltration link is correlative and contradictory across cancer types</strong> (authors cite PMID:30166959-style debate, not in corpus, without resolving for UTUC).</li>
+<li><strong>Functional validation of ZFP36L1 done in a single bladder cell line (TCCSUP)</strong> with siRNA, not CRISPR; in vivo and UTUC-specific models are missing.</li>
+<li><strong>Therapeutic recommendations (FGFR+PD-1 combo; EZH2 inhibition) are hypotheses</strong> — not tested prospectively in this paper.</li>
+<li><strong>External UTUC validation cohort for the EpiC classifier is absent;</strong> the methylation classifier is only projected onto bladder (<a href="../datasets/blca_tcga_pub_2017.html">blca_tcga_pub_2017</a>, <a href="../datasets/blca_tcga_pan_can_atlas_2018.html">blca_tcga_pan_can_atlas_2018</a>) and bladder cell lines (<a href="../datasets/ccle_broad_2019.html">ccle_broad_2019</a>) — UTUC-specific reproduction in <a href="../datasets/utuc_mskcc_2015.html">utuc_mskcc_2015</a> is limited to FGFR3/KMT2C co-occurrence.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Using MutSigCV, significantly mutated genes (SMGs) (false discovery rate [FDR]&lt;0.05) were FGFR3 (50%, FDR=3.15×10⁻³), KDM6A (27%, FDR=1.03×10⁻³), and ZFP36L1 (20%, FDR=2.62×10⁻³).” (p.3)</li>
+<li>“Overall mutations of ZFP36 family genes represent 26.7% (n=8/30) among all UTUC cases.” (p.5)</li>
+<li>“Bladder carcinomas with ZFP36 gene family mutations were associated with better overall survival as compared to others (P=0.01) … pooled analysis of 562 patients in three bladder cohorts (TCGA, DFCI, and BGI).” (p.6)</li>
+<li>“Transwell assay showed a significant increase in cell migration in ZFP36L1-depleted cells as compared to control cells.” (p.6)</li>
+<li>“Patients with tumors belonging to the EpiC-high cluster had shorter overall survival as compared to those belonging to the EpiC-low subtype (P=0.038; HR=6.57; 95% CI 1.87–23.04).” (p.10)</li>
+<li>“EpiC-high UTUC samples were highly enriched for mutations in SWI/SNF genes (50% vs 0%, P=0.01, FDR=0.054), while samples classified as EpiC-low were enriched for FGFR3 mutations (90% vs 28%, P=0.004, FDR=0.044).” (p.10)</li>
+<li>“UTUC tumors with FGFR3 mutation showed a significantly lower MeTIL score as compared to others (P=7.8×10⁻⁵) … validated in the TCGA bladder carcinoma cohort (P=9.0×10⁻⁶).” (pp.6–7)</li>
+<li>“Erdafitinib was granted accelerated approval by the FDA in relapsed/refractory metastatic bladder cancer on the basis of phase 2 trial results, showing a response rate of 40% in 90 patients with tumors that harbored actionable FGFR alterations.” (p.15)</li>
+<li>“Mutations of FGFR3 and KMT2C co-occur mutually (log odd ratio=3.1, P=0.04) … this was also validated in the MSKCC UTUC cohort (log odd ratio=2.9, P&lt;0.001; FDR&lt;0.001).” (p.3)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33397444.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33397444.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

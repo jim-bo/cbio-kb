@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Integrative molecular and clinical modeling of clinical outcomes to PD1 blockade in patients with metastatic melanoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31792460.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31792460.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrative molecular and clinical modeling of clinical outcomes to PD1 blockade in patients with metastatic melanoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>David Liu </p>
+             <p>Bastian Schilling </p>
+             <p>Derek Liu </p>
+             <p>Antje Sucker </p>
+             <p>Elisabeth Livingstone </p>
+             <p>Livnat Jerby-Arnon </p>
+             <p>Lisa Zimmer </p>
+             <p>Ralf Gutzmer </p>
+             <p>Imke Satzger </p>
+             <p>Carmen Loquai </p>
+             <p>Stephan Grabbe </p>
+             <p>Natalie Vokes </p>
+             <p>Claire A. Margolis </p>
+             <p>Jake Conway </p>
+             <p>Meng Xiao He </p>
+             <p>Haitham Elmarakeby </p>
+             <p>Felix Dietlein </p>
+             <p>Diana Miao </p>
+             <p>Adam Tracy </p>
+             <p>Helen Gogas </p>
+             <p>Simone M. Goldinger </p>
+             <p>Jochen Utikal </p>
+             <p>Christian U. Blank </p>
+             <p>Ricarda Rauschenberg </p>
+             <p>Dagmar von Bubnoff </p>
+             <p>Angela Krackhardt </p>
+             <p>Benjamin Weide </p>
+             <p>Sebastian Haferkamp </p>
+             <p>Felix Kiecker </p>
+             <p>Ben Izar </p>
+             <p>Levi Garraway </p>
+             <p>Aviv Regev </p>
+             <p>Keith Flaherty </p>
+             <p>Annette Paschen </p>
+             <p>Eliezer M. Van Allen </p>
+             <p>Dirk Schadendorf </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41591-019-0654-5">10.1038/s41591-019-0654-5</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 31792460 · <strong>DOI:</strong> 10.1038/s41591-019-0654-5 · <strong>Journal:</strong> Nature Medicine (2019)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Liu et al.&nbsp;assembled a clinically annotated cohort of 144 patients with advanced melanoma treated with anti-PD1 immune-checkpoint blockade (ICB) and performed whole-exome and bulk transcriptome sequencing on pre-treatment tumors (<a href="../datasets/mel_dfci_2019.html">mel_dfci_2019</a>). They show that tumor mutational burden (TMB) as a response predictor is confounded by melanoma subtype, identify <a href="../genes/HLA-A.html">MHC-II</a>-related antigen-presentation features (transcriptomic MHC-II HLA expression, <a href="../genes/TAP2.html">TAP2</a> and MHC-I HLA locus amplifications) as novel predictors of response, and demonstrate that prior anti-CTLA4 (<a href="../drugs/ipilimumab.html">ipilimumab</a>) exposure changes which features predict response. They then build two parsimonious logistic-regression models of intrinsic resistance — one for ipilimumab-pretreated tumors (MHC-II HLA + LDH + lymph-node metastasis; AUC 0.90) and one for ipilimumab-naive tumors (heterogeneity + ploidy + purity; AUC 0.77).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>n = 144 patients</strong> with advanced melanoma (after QC; 121 with RNA-seq) treated with anti-PD1 ICB (<a href="../drugs/nivolumab.html">nivolumab</a> n=59, 41.0%; <a href="../drugs/pembrolizumab.html">pembrolizumab</a> n=85, 59.0%). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>206 patients initially identified; 144 passed WES QC, 121 passed RNA-seq QC (Extended Data Fig. 1). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Cancer types: 72.9% cutaneous (<a href="../cancer_types/SKCM.html">SKCM</a>, n=105), 13.2% occult (n=19), 6.9% acral (n=10), 6.9% mucosal (n=10) — collectively <a href="../cancer_types/MEL.html">MEL</a>. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Prior ipilimumab: 41.7% (n=60); ipilimumab-naive: 58.3% (n=84). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Stage: 75.0% M1c (n=108), 12.5% M1b, 5.6% M1a, 6.9% unresectable III. Elevated LDH in 49.3%. ECOG 0 in 68.8%. Median follow-up 29.9 months. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Assays: pre-treatment tumor <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> (matched normal) and bulk <a href="../methods/rna-seq.html">rna-seq</a>; purity/ploidy via <a href="../methods/absolute.html">absolute</a>; <a href="../methods/mutational-signatures.html">mutational-signatures</a>; pathway analysis with <a href="../methods/gsea.html">gsea</a>; immune deconvolution with <a href="../methods/cibersortx.html">cibersortx</a> (CIBERSORT, LM22 signature matrix). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Best objective response (RECIST v1.1): 45% PD, 14% SD, 3% MR, 26% PR, 12% CR; overall response rate 38%. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Independent validation cohort for prior-ipilimumab MHC-II analysis: <a href="../datasets/mel_iatlas_riaz_nivolumab_2017.html">mel_iatlas_riaz_nivolumab_2017</a> (n=32; 15 ipilimumab-treated, 17 ipilimumab-naive). <a href="../papers/31792460.html">PMID:31792460</a></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>Median nonsynonymous TMB was <strong>6.5 mutations/Mb</strong> (IQR 2.0–14.4; 250.5 mutations/exome, IQR 77.75–578.5). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Mutational frequencies in driver genes: <a href="../genes/BRAF.html">BRAF</a> 39%, <a href="../genes/NRAS.html">NRAS</a> 30%, <a href="../genes/NF1.html">NF1</a> 17%. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>TMB was higher in responders (CR/PR, n=55) than progressors (PD, n=65): two-sided MWW <strong>P = 0.026</strong>. But TMB was <em>not</em> significantly different between responders and SD/MR (n=24): P = 0.14. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>TMB is confounded by melanoma subtype.</strong> Cutaneous + occult (n=124) had median 297.5 nonsynonymous mutations versus 58 for acral + mucosal (n=20); MWW P = 1.1×10⁻⁶. Stratified within subtype, TMB no longer separated responders from progressors (e.g.&nbsp;skin n=42/43, P=0.27; acral n=7/2, P=0.19). In multivariate logistic regression adjusting for subtype, TMB was not significant (P = 0.24). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>After multiple-hypothesis correction, <strong>no single gene mutation</strong> was significantly associated with response. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/TAP2.html">TAP2</a> amplification (n=6) was exclusively in responders: Fisher’s exact <strong>P = 0.008</strong>. Amplification of MHC-I <a href="../genes/HLA-A.html">HLA-A</a>/<a href="../genes/HLA-B.html">HLA-B</a>/<a href="../genes/HLA-C.html">HLA-C</a> (n=6) also exclusively in responders: Fisher’s P = 0.008. Combined TAP2/MHC-I HLA amplification (n=8): Fisher’s P = 0.001. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>LOH of <a href="../genes/JAK1.html">JAK1</a> was associated with resistance: OR = 0.33, Fisher’s <strong>P = 0.02</strong>. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>LOH in <a href="../genes/B2M.html">B2M</a> (16% responders vs 25% progressors, OR=0.6) and biallelic <a href="../genes/CDKN2A.html">CDKN2A</a> alteration (27% vs 38%, OR=0.6) were not significant. LOH in <a href="../genes/HLA-A.html">HLA-A</a>/<a href="../genes/HLA-B.html">HLA-B</a>/<a href="../genes/HLA-C.html">HLA-C</a> and <a href="../genes/SERPINB3.html">SERPINB3</a>/<a href="../genes/SERPINB4.html">SERPINB4</a> mutations were not associated with response. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Expression of all 13 MHC-II HLA genes was higher in responders (collective two-sided binomial <strong>P = 0.0002</strong>); HLA-DMA, HLA-DMB, HLA-DOA, HLA-DOB individually passed MWW P&lt;0.05. MHC-I HLA genes trended higher in responders (binomial P = 0.02) but no individual gene passed significance. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../methods/gsea.html">gsea</a> (Hallmark gene sets): 24 pathways enriched in responders at FDR q&lt;0.1; 5 of top 6 were immune-related (IFN-γ response, allograft rejection, complement, inflammatory response, IL-6–JAK–<a href="../genes/STAT3.html">STAT3</a>). No pathways enriched in progressors. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Tumor heterogeneity (proportion subclonal mutations) higher in progressors (MWW P = 0.02); ploidy lower in progressors (P = 0.04); purity higher in progressors (P = 0.04). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Prior ipilimumab changes the predictor landscape.</strong> MHC-II HLA ssGSEA score was higher in responders versus progressors overall (P=0.03) and in the ipilimumab-treated subgroup (P=0.03) but not in the ipilimumab-naive subgroup (P=0.31). Higher heterogeneity and lower ploidy distinguished progressors only in ipilimumab-naive tumors (P=0.06 and P=0.004). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>IFN-γ and IFN-α response pathways were enriched in responders overall (FDR q&lt;0.001) and in ipilimumab-treated subgroup (q&lt;0.001) but not in ipilimumab-naive subgroup (q=0.13 and q=0.997). Replicated in validation cohort <a href="../datasets/mel_iatlas_riaz_nivolumab_2017.html">mel_iatlas_riaz_nivolumab_2017</a>. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Low MHC-II expression (median split) was associated with primary resistance in the ipilimumab-treated subgroup (Fisher’s P=0.02; <strong>OR = 9.9</strong>, 95% CI 1.5–63.7) but not the ipilimumab-naive subgroup (P=0.32; OR=1.9). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Low immune infiltrate was strongly associated with intrinsic resistance in the ipilimumab-treated subgroup (Fisher’s P=0.02; <strong>OR = 12.9</strong>, 95% CI 1.3–125.8) but not in the ipilimumab-naive subgroup or overall cohort. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Predictive model — ipilimumab-treated (n=34):</strong> MHC-II HLA + LDH + lymph-node metastasis. AUC = <strong>0.90</strong> (5-fold CV mean 0.83; empiric P&lt;0.001). TMB did not significantly improve fit (P=0.10). High-versus-low model score stratified PFS (log-rank P=0.0001) and <a href="../cancer_types/OS.html">OS</a> (log-rank P=0.001). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Predictive model — ipilimumab-naive (n=84):</strong> heterogeneity + ploidy + purity. AUC = <strong>0.77</strong> (10-fold CV mean 0.73; empiric P=0.036). TMB did not improve fit (P=0.63). High-versus-low score stratified PFS (P=0.005) and OS (P&lt;0.0001). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Each model performed poorly on the opposite subgroup (AUC 0.49 and 0.54, respectively); interaction tests P=0.004 and P=0.018 — i.e.&nbsp;prior-ipilimumab status stratifies which model applies. <a href="../papers/31792460.html">PMID:31792460</a></li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/NF1.html">NF1</a> — recurrent melanoma drivers; mutated in 39% / 30% / 17% of the cohort but not differentially associated with anti-PD1 response. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/TAP2.html">TAP2</a> — focal amplification (chr 6p21, MHC region) found exclusively in responders (n=6/120; Fisher’s P=0.008). Four of six co-amplified with MHC-I HLA-A/B/C; two were more focal. <a href="../genes/TAP2.html">TAP2</a> expression was higher in responders in the ipilimumab-treated subgroup (MWW P=0.02). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/HLA-A.html">HLA-A</a>, <a href="../genes/HLA-B.html">HLA-B</a>, <a href="../genes/HLA-C.html">HLA-C</a> — focal amplification in the ~1.5 Mb MHC-I region (n=6) exclusively in responders (Fisher’s P=0.008). LOH in these genes was <em>not</em> associated with response (P=0.52, 0.57, 0.84). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/B2M.html">B2M</a> — LOH in 9/55 (16%) responders versus 16/65 (25%) progressors (OR=0.6), not significant (Fisher’s P=0.37); only rare point mutations observed. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/TAP1.html">TAP1</a> — only rare mutations in MHC-I antigen-presentation genes; no significant association with response. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/JAK1.html">JAK1</a> — LOH significantly associated with resistance (OR=0.33; Fisher’s P=0.02), confirming prior IFN-γ-pathway resistance findings. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — biallelic alteration in 27% responders versus 38% progressors (OR=0.6), not significant (P=0.24). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/SERPINB3.html">SERPINB3</a>, <a href="../genes/SERPINB4.html">SERPINB4</a> — mutations not associated with response (Fisher’s P=0.51 and P=1.0); does not replicate previously proposed positive association. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>MHC-II HLA gene set (13 genes including HLA-DRA, HLA-DRB1, HLA-DRB5, <a href="../genes/HLA-DPA1.html">HLA-DPA1</a>, HLA-DPB1, HLA-DQA1, HLA-DQA2, HLA-DQB1, HLA-DQB2, HLA-DMA, HLA-DMB, HLA-DOA, HLA-DOB) — collective transcriptomic expression higher in responders (binomial P=0.0002); ssGSEA composite was the strongest single predictor of response in ipilimumab-treated tumors. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/CXCL9.html">CXCL9</a>, <a href="../genes/CXCL10.html">CXCL10</a>, <a href="../genes/CXCR3.html">CXCR3</a> — higher expression in responders in the ipilimumab-treated subgroup (MWW P=0.05, 0.08, 0.02) but not in ipilimumab-naive tumors. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/CTLA4.html">CTLA4</a> — higher expression in responders in the ipilimumab-treated subgroup (P=0.008). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><a href="../genes/TGFB2.html">TGFB2</a> — higher expression in progressors in the ipilimumab-naive subgroup (MWW P=0.002), but not in the ipilimumab-treated subgroup (P=0.43). <a href="../papers/31792460.html">PMID:31792460</a></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>TMB as a single-marker biomarker is unreliable in melanoma.</strong> Subtype (especially mucosal/acral vs cutaneous/occult) confounds the TMB–response association; authors argue TMB “cannot be applied generically across melanoma subtypes as a predictive biomarker for anti-PD1 ICB.” <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>MHC-II HLA expression is a candidate biomarker</strong> for response to anti-PD1 ICB, particularly in ipilimumab-pretreated patients. Combined with LDH and lymph-node metastasis status, it yields a parsimonious model with AUC 0.90 in discovery (CV 0.83). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>In ipilimumab-naive patients</strong>, tumor heterogeneity, ploidy and purity (all WES-derivable) constitute a parsimonious predictor (AUC 0.77, CV 0.73) of primary resistance. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Prior anti-CTLA4 exposure (ipilimumab) stratifies predictors of response to subsequent anti-PD1 ICB.</strong> Patients with low immune infiltrate and low MHC-II expression at post-ipilimumab biopsy are very likely intrinsically resistant to anti-PD1 (<a href="../drugs/ipilimumab.html">ipilimumab</a> → <a href="../drugs/nivolumab.html">nivolumab</a>/<a href="../drugs/pembrolizumab.html">pembrolizumab</a> sequence). These patients may benefit from alternative regimens (e.g., combination ICB) rather than further anti-PD1 monotherapy. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>High predictive-model score (low MHC-II / LDH / LN met OR high heterogeneity-low ploidy-high purity) was associated with substantially worse PFS and OS: in the ipilimumab-treated subgroup, median PFS 2.8 vs 38.1 months and median OS 9.0 months versus not reached. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>B-cell infiltrate markers (CD19, MS4A1/CD20) were enriched in ipilimumab-experienced responders — consistent with emerging evidence for B-cell roles in neoadjuvant immunotherapy response. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Authors note BRAF/NRAS mutation status was not predictive of anti-PD1 response, so targeted-therapy decisions (e.g., <a href="../drugs/dacarbazine.html">dacarbazine</a> historical context) are separate from these ICB biomarker considerations. <a href="../papers/31792460.html">PMID:31792460</a></li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Bulk transcriptome cannot disambiguate cell-of-origin</strong> of MHC-II expression. Whether the predictive signal arises from tumor-cell MHC-II (as suggested by prior IHC studies the authors cite) or from antigen-presenting cells in the microenvironment is unresolved. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Limited independent validation.</strong> The largest available external cohort with both prior-ipilimumab metadata and matched WES/RNA-seq was n=32, underpowered for formal validation of the ipilimumab-stratified models. Predictor directions were concordant but most were not significant in validation (e.g., low MHC-II in ipilimumab-treated empiric P=0.21; heterogeneity in ipilimumab-naive empiric P=0.066). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Mucosal/acral subtypes are underpowered</strong> (n=20 total). The TMB-confounding finding rests on a relatively small mucosal/acral group; responder counts there are tiny (4). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Mechanism of anti-CTLA4–induced predictor shift is unknown.</strong> Whether prior <a href="../drugs/ipilimumab.html">ipilimumab</a> <em>induces</em> an immune-resistant state versus simply <em>reveals</em> a preexisting one is explicitly flagged as needing further investigation. Cross-resistance to sequential ICB may also predict resistance to combination ICB — testable hypothesis. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li><strong>Biological basis of ploidy and purity associations is unclear.</strong> Authors hypothesize purity is a proxy for immune infiltrate; ploidy association is not mechanistically explained (and runs counter to prior aneuploidy findings). <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Models were trained and discovery-tested in the same cohort; the AUC numbers reported (0.90, 0.77) are cross-validated within the discovery cohort, not on a fully held-out external set. <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>No formal correction for the per-subgroup gene-expression p-values (P=0.02, 0.03, 0.04 for individual immune genes); authors note these are unadjusted. <a href="../papers/31792460.html">PMID:31792460</a></li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We analyzed a clinically annotated cohort of patients with melanoma (n = 144) treated with anti-PD1 ICB, with whole-exome and whole-transcriptome sequencing of pre-treatment tumors.” (Abstract)</li>
+<li>“Overall the median nonsynonymous TMB was 6.5 mutations per Mb (250.5 mutations per exome), with an interquartile range (IQR) of 2.0–14.4 mutations per Mb.” (Results, Cohort)</li>
+<li>“Overall, 39% of tumors had <a href="../genes/BRAF.html">BRAF</a> mutations, 30% had <a href="../genes/NRAS.html">NRAS</a> mutations and 17% had <a href="../genes/NF1.html">NF1</a> mutations.” (Results, Cohort)</li>
+<li>“TMB was higher in responders than in progressors (Mann–Whitney–Wilcoxon (MWW), P = 0.026; Fig. 1b).” (Results, TMB and subtype)</li>
+<li>“Cutaneous and occult melanomas having similar and higher TMB than acral and mucosal melanomas (median of 297.5 versus 58, nonsynonymous mutations; MWW, P = 1.1 × 10−6).” (Results, TMB and subtype)</li>
+<li>“Amplification of TAP2 … was found exclusively in responders to therapy (n = 6; Fisher’s exact test, P = 0.008).” (Results, Genomic features)</li>
+<li>“LOH of <a href="../genes/JAK1.html">JAK1</a> was associated with resistance (OR = 0.33; Fisher’s exact test, P = 0.02).” (Results, Genomic features)</li>
+<li>“Expression of all 13 MHC-II-associated HLA genes was higher in responders (collective two-sided binomial test, P = 0.0002).” (Results, Antigen presentation)</li>
+<li>“Tumors with low MHC-II HLA score (ssGSEA) were associated with PD … OR = 9.9, 95% CI 1.5–63.7” in the ipilimumab-treated subgroup. (Results, Ipilimumab subgroups)</li>
+<li>“Tumors with low immune infiltrate scores were strongly associated with PD (infiltrate high: n = 10 responders and 7 progressors; infiltrate low: n = 1 responder and 9 progressors; two-sided Fisher’s exact test, P = 0.02; OR = 12.9, 95% CI 1.3–125.8).” (Results, Immune infiltrate)</li>
+<li>“The AUC was 0.9, and the log-likelihood ratio was P = 0.0003. The fivefold cross-validation mean AUC was 0.83.” (Fig. 5b, ipilimumab-treated model)</li>
+<li>“The AUC was 0.77, and the log-likelihood ratio was P = 0.0003. The average tenfold cross-validation mean AUC was 0.73.” (Fig. 5d, ipilimumab-naive model)</li>
+<li>“TMB cannot be applied generically across melanoma subtypes as a predictive biomarker for anti-PD1 ICB.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/31792460.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/31792460.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

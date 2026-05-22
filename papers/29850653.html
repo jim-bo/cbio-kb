@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Landscape of Microsatellite Instability Across 39 Cancer Types – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29850653.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29850653.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Landscape of Microsatellite Instability Across 39 Cancer Types</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Russell Bonneville </p>
+             <p>Melanie A. Krook </p>
+             <p>Esko A. Kautto </p>
+             <p>Jharna Miya </p>
+             <p>Michele R. Wing </p>
+             <p>Hui-Zi Chen </p>
+             <p>Julie W. Reeser </p>
+             <p>Lianbo Yu </p>
+             <p>Sameek Roychowdhury </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1200/PO.17.00073">10.1200/PO.17.00073</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29850653 · <strong>DOI:</strong> <a href="https://doi.org/10.1200/PO.17.00073">10.1200/PO.17.00073</a> · <strong>Journal:</strong> JCO Precision Oncology (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Bonneville et al.&nbsp;applied the MANTIS microsatellite-instability (MSI) caller to 11,139 tumor-normal whole-exome pairs spanning 39 cancer types from TCGA, TARGET, and several external cohorts — to their knowledge the largest pan-cancer MSI analysis to date at the time. MSI was detected in 3.8% of all tumors and was present in 27 of the 39 cancer types, with previously underappreciated MSI in adrenocortical carcinoma (<a href="../cancer_types/ACC.html">ACC</a>, 4.3%), cervical cancer (<a href="../cancer_types/CESC.html">CESC</a>, 2.6%), and mesothelioma (<a href="../cancer_types/MESO.html">MESO</a>, 2.4%). MSI-H ACC and CESC tumors carried significantly higher mutational burden than MSS counterparts, supporting an expanded role for clinical MSI testing beyond colorectal/endometrial/gastric cancers as a biomarker for immune-checkpoint therapy.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>11,139 paired tumor-normal whole-exome sequencing samples from 11,080 patients across 39 distinct cancer types.</li>
+<li>10,415 cases from <a href="../datasets/gbm_tcga_pan_can_atlas_2018.html">The Cancer Genome Atlas (TCGA)</a> (referenced via the pan-can-atlas-2018 freeze for <a href="../datasets/acc_tcga_pan_can_atlas_2018.html">ACC</a>, <a href="../datasets/cesc_tcga_pan_can_atlas_2018.html">CESC</a>, <a href="../datasets/meso_tcga_pan_can_atlas_2018.html">MESO</a>, and <a href="../datasets/gbm_tcga_pan_can_atlas_2018.html">GBM</a> among others).</li>
+<li>280 cases from the TARGET (Therapeutically Applicable Research to Generate Effective Treatments) pediatric initiative.</li>
+<li>444 cases from external sources (Landau et al.&nbsp;2015 CLL, n=338; Choi et al.&nbsp;2015 CTCL, n=32; Zheng et al.&nbsp;2016 <a href="../cancer_types/NPC.html">NPC</a>, n=51; Ong et al.&nbsp;2012 <a href="../cancer_types/CHOL.html">CHOL</a>, n=8; Chan-On et al.&nbsp;2013 CHOL, n=15).</li>
+<li>Assay: <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a>. Reads aligned to hg38 with <a href="../methods/bwa.html">BWA-MEM</a> (except DLBCL, which used hg19); duplicates removed with SAMtools/Picard; in-house L-MAP pipeline orchestrated downloads and processing on the Ohio Supercomputer Center.</li>
+<li>Assessed cancer types include <a href="../cancer_types/ACC.html">ACC</a>, <a href="../cancer_types/CESC.html">CESC</a>, <a href="../cancer_types/MESO.html">MESO</a>, <a href="../cancer_types/UCEC.html">UCEC</a>, <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/STAD.html">STAD</a>, <a href="../cancer_types/GBM.html">GBM</a>, <a href="../cancer_types/BRCA.html">BRCA</a>, <a href="../cancer_types/OV.html">OV</a>, <a href="../cancer_types/BLCA.html">BLCA</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/LUSC.html">LUSC</a>, <a href="../cancer_types/SKCM.html">SKCM</a>, <a href="../cancer_types/HNSC.html">HNSC</a>, <a href="../cancer_types/KIRC.html">KIRC</a>, <a href="../cancer_types/KIRP.html">KIRP</a>, <a href="../cancer_types/KICH.html">KICH</a>, <a href="../cancer_types/LIHC.html">LIHC</a>, <a href="../cancer_types/LGG.html">LGG</a>, <a href="../cancer_types/PAAD.html">PAAD</a>, <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/THCA.html">THCA</a>, <a href="../cancer_types/THYM.html">THYM</a>, <a href="../cancer_types/UCS.html">UCS</a>, <a href="../cancer_types/UVM.html">UVM</a>, <a href="../cancer_types/ESCA.html">ESCA</a>, CHOL, <a href="../cancer_types/PCPG.html">PCPG</a>, <a href="../cancer_types/SARC.html">SARC</a>, <a href="../cancer_types/TGCT.html">TGCT</a>, DLBC, <a href="../cancer_types/LAML.html">LAML</a>, <a href="../cancer_types/NBL.html">NBL</a>, NPC, CTCL, CLL, <a href="../cancer_types/WT.html">WT</a>, and pediatric <a href="../cancer_types/AML.html">AML</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>MSI was detected in <strong>3.8% of all tumors assessed</strong> (overall pan-cancer rate) and was present in <strong>27 of 39 cancer types</strong>; no MSI was detected in the remaining 12.</li>
+<li>Disease-specific MSI-H prevalence ranged from <strong>31.4% in endometrial carcinoma (<a href="../cancer_types/UCEC.html">UCEC</a>)</strong> at the high end to <strong>0.25% in glioblastoma multiforme (GBM)</strong> among the cancer types where MSI was detected at all.</li>
+<li>The four highest-MSI cancer types were the classic Lynch syndrome–associated tumors: UCEC, <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/STAD.html">STAD</a>, and <a href="../cancer_types/READ.html">READ</a>. Consistent with prior work, colon adenocarcinoma had higher MSI prevalence (<strong>19.7%</strong>) than rectal adenocarcinoma (<strong>5.7%</strong>).</li>
+<li>Previously underappreciated MSI signal was identified in three cancer types: <strong>adrenocortical carcinoma (ACC, 4.3%; 4/92 cases)</strong>, <strong>cervical squamous cell carcinoma and endocervical adenocarcinoma (CESC, 2.6%)</strong>, and <strong>mesothelioma (MESO, 2.4%)</strong>.</li>
+<li>Across ACC, CESC, and MESO (n=480 combined), kernel-density estimation on MANTIS scores produced clearly separable MSI-H vs MSS distributions, supporting the classifications.</li>
+<li><strong>Mutational burden was significantly elevated in MSI-H vs MSS tumors</strong> within these cancer types: ACC averaged <strong>1,157 mutations (MSI-H) vs 216 (MSS), P = .01</strong>; CESC averaged <strong>5,675 vs 639, P = .003</strong>; MESO averaged <strong>982 vs 142, P = .10</strong> (~7-fold but not statistically significant). P values calculated by Welch two-sample t-test on log-normalized counts.</li>
+<li>Of 9,569 tumors <strong>outside</strong> colorectal, endometrial, or gastric cancer, <strong>77 (0.8%) were MSI-H</strong>, of which only 14 fell within ACC, CESC, or MESO — limiting statistical power for downstream mutational-signature analysis.</li>
+<li>Pooled and per-case mutational-signature analyses with <a href="../methods/mutational-signatures.html">deconstructSigs</a> using the Alexandrov 2013 signature set did not reveal statistically significant differences (after Benjamini-Hochberg correction) between MSI-H and MSS tumors within ACC, CESC, or MESO.</li>
+<li>Across the 2,530 microsatellite loci tested, the authors identified <strong>22 loci</strong> that — within at least five cohorts — showed an MSI-H vs MSS difference score &gt; 0.75 and ≥50% sample coverage. Only two of the standard Bethesda/Promega MSI-PCR-panel loci were assessed by this study’s locus set, and neither fell within the top-22 list, indicating substantial heterogeneity of informative loci across cancer types.</li>
+<li>Among MSI-H cases in ACC/CESC/MESO, <strong>64% carried at least one predicted-deleterious somatic mutation in an MMR or proofreading gene</strong> (<a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/PMS2.html">PMS2</a>, <a href="../genes/EXO1.html">EXO1</a>, <a href="../genes/POLD1.html">POLD1</a>, <a href="../genes/POLE.html">POLE</a>) vs <strong>7% of MSS cases</strong>; statistical significance could not be formally established due to differing exome captures plus the higher background mutation rate in MSI-H samples.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/PMS2.html">PMS2</a> — core MMR proteins; somatic deleterious mutations enriched in MSI-H tumors of ACC, CESC, and MESO. The authors explicitly screened these genes (along with <a href="../genes/EXO1.html">EXO1</a>) for DANN-pathogenic somatic variants. Loss of these proteins (or germline Lynch alterations) is the canonical cause of MSI.</li>
+<li><a href="../genes/EXO1.html">EXO1</a> — exonuclease component of the MMR pathway; included in the same MMR-gene somatic-mutation screen.</li>
+<li><a href="../genes/POLD1.html">POLD1</a>, <a href="../genes/POLE.html">POLE</a> — DNA proofreading polymerases. Not MMR proteins per se, but somatic mutations in these genes can drive hypermutation and were tallied alongside the MMR genes in MSI-H tumors.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The authors explicitly argue these findings support <strong>expanded clinical MSI testing beyond colorectal and endometrial cancers</strong>, since MSI-H tumors are predicted to benefit from PD-1 blockade and <a href="../drugs/pembrolizumab.html">pembrolizumab</a> had recently received an FDA pan-tumor approval (May 2017) for any MSI-H or MMR-deficient unresectable/metastatic solid tumor.</li>
+<li>ACC, CESC, and MESO each had ongoing immune-checkpoint clinical trials at the time of writing (ACC: NCT02673333; CESC: NCT02635360; MESO: NCT02784171, NCT02991482, NCT02707666, NCT02399371); the authors suggest these studies could benefit from retrospective MSI-H biomarker analysis.</li>
+<li>Identification of MSI in ACC reinforces prior anecdotal reports of ACC as a possible extracolonic Lynch syndrome manifestation, which has implications for germline testing referral.</li>
+<li>The 22 cancer-type-spanning informative loci identified could form the basis of a <strong>targeted NGS panel for pan-cancer MSI detection</strong>, with the caveat that standard Bethesda/Promega PCR-panel loci performed poorly outside colorectal/endometrial contexts.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Statistical power for mutational-signature differences in ACC/CESC/MESO was limited — only 14 MSI-H tumors across the three cohorts combined.</li>
+<li>Samples were sequenced with potentially different exome capture kits, confounding the somatic-mutation-burden comparison of MMR/proofreading genes between MSI-H and MSS cases.</li>
+<li>The study cannot distinguish whether MSI in ACC, CESC, and MESO is driven by classical MMR deficiency (e.g., <a href="../genes/MLH1.html">MLH1</a> promoter methylation, which the authors did not measure) versus other mechanisms.</li>
+<li>No clinical-outcome correlation was performed; whether MSI-H status is prognostic outside colorectal cancer remains an open question that requires larger MSI-H cohorts with linked clinical data.</li>
+<li>The microsatellite locus set (2,530 loci) was originally designed from exome-flanking regions and is not directly comparable to the Bethesda/Promega PCR-panel loci — a methodological gap for clinical adoption.</li>
+<li>The detection threshold (MANTIS average distance ≥ 0.4) was held constant across all cancer types; cancer-type-specific calibration was not explored.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identified MSI in 3.8% of all cancers assessed—present in 27 of tumor types—most notably adrenocortical carcinoma (ACC), cervical cancer (CESC), and mesothelioma, in which MSI has not yet been well described.” (Abstract — Results)</li>
+<li>“The disease-specific prevalence of MSI varied widely, from 31.4% in endometrial carcinoma to 0.25% in glioblastoma multiforme. MSI was not detected in 12 cancer types.” (Results — MSI Prevalence)</li>
+<li>“Consistent with previous studies, MSI was observed to be more frequent in colon adenocarcinoma (19.7%) than rectal adenocarcinoma (5.7%).” (Results — MSI Prevalence)</li>
+<li>“An average of 1,157 somatic mutations were detected within MSI-H ACC samples versus 216 within MSS ACC (P = .01). An average of 5,675 somatic mutations were detected within MSI-H CESC samples versus 639 within MSS CESC (P = .003).” (Results — Comparing Mutation Burden)</li>
+<li>“Within these cohorts, 64% of MSI-H cases and 7% of MSS cases were found to contain at least one predicted deleterious somatic mutation in at least one of these genes.” (Results — MMR Pathway Alterations)</li>
+<li>“Of 9,569 tumors assessed in this study not within colorectal, endometrial, or gastric cancer, 77 (0.8%) were MSI-H. Only 14 of these were within ACC, CESC, or MESO.” (Discussion)</li>
+<li>“MSI-H colorectal tumors have been previously shown to be exceptionally sensitive to therapy with PD-1 immune checkpoint inhibitors. Identification of MSI in novel tumor types may lead to an expanded role for immunotherapy and a broader scope of clinical MSI testing.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29850653.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29850653.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -152,6 +152,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#alterations-observed-in-the-corpus" id="toc-alterations-observed-in-the-corpus" class="nav-link" data-scroll-target="#alterations-observed-in-the-corpus">Alterations observed in the corpus</a></li>
   <li><a href="#cancer-types-linked" id="toc-cancer-types-linked" class="nav-link" data-scroll-target="#cancer-types-linked">Cancer types (linked)</a></li>
+  <li><a href="#co-occurrence-and-mutual-exclusivity" id="toc-co-occurrence-and-mutual-exclusivity" class="nav-link" data-scroll-target="#co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</a></li>
+  <li><a href="#therapeutic-relevance" id="toc-therapeutic-relevance" class="nav-link" data-scroll-target="#therapeutic-relevance">Therapeutic relevance</a></li>
+  <li><a href="#open-questions" id="toc-open-questions" class="nav-link" data-scroll-target="#open-questions">Open questions</a></li>
   <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
   </ul></li>
   </ul>
@@ -167,51 +170,56 @@ ul.task-list li input[type="checkbox"] {
 <h1>CDK6</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p><em>CDK6</em> (Cyclin-dependent kinase 6) is a member of the cyclin-dependent kinase family, which plays a crucial role in cell cycle progression by phosphorylating and inactivating the retinoblastoma protein (pRb). Alterations in <em>CDK6</em>, such as amplification, lead to constitutive activation of the cell cycle and are frequently observed in various cancers, including glioblastoma.</p>
+<p>CDK6 (Cyclin-Dependent Kinase 6) partners with Cyclin D proteins to phosphorylate and inactivate <a href="../genes/RB1.html">RB1</a>, driving cell cycle progression through G1 into S phase. CDK6 amplification is a recurrent oncogenic event in multiple cancer types. In glioblastoma, CDK6 is upregulated specifically in EGFR-altered tumors, while in esophageal adenocarcinoma it is among the amplification-driven recurrent drivers.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li><strong>Amplification/Alteration</strong>: Observed in 1% of glioblastoma samples as part of the core RB pathway alterations <a href="../papers/18772890.html">PMID:18772890</a>.</li>
-<li>Identified as mutated in <a href="../cancer_types/LUAD.html">LUAD</a> (TSP, n=188); cell cycle pathway member co-altered with <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/CCNE1.html">CCNE1</a>, and CDKN2A/B. <a href="../papers/18948947.html">PMID:18948947</a></li>
-<li>Amplified/mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) <a href="../papers/22960745.html">PMID:22960745</a></li>
-<li>Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation <a href="../papers/23525077.html">PMID:23525077</a></li>
-<li>Recurrent focal amplification in <a href="../cancer_types/GBM.html">GBM</a>; contributes to Rb-pathway dysregulation (overall 78.9% of <a href="../cancer_types/GBM.html">GBM</a>) <a href="../papers/24120142.html">PMID:24120142</a></li>
-<li>Co-targeted with <a href="../genes/CDK4.html">CDK4</a> by <a href="../drugs/dalpiciclib.html">dalpiciclib</a> in <a href="../cancer_types/NPC.html">NPC</a>; combination + <a href="../drugs/camrelizumab.html">camrelizumab</a> achieved ORR 32.4% in PD-1-refractory R/M <a href="../cancer_types/NPC.html">NPC</a> <a href="../papers/24952746.html">PMID:24952746</a></li>
-<li>Recurrent focal amplification in CIN gastric adenocarcinoma; co-amplified with <a href="../genes/CCNE1.html">CCNE1</a> and <a href="../genes/CCND1.html">CCND1</a>; suggests CDK4/6 inhibitor evaluation in CIN-subtype tumours <a href="../papers/25079317.html">PMID:25079317</a></li>
-<li>Amplification identified in Pt2 of a multi-region WGS gastric cancer case study; combined <a href="../genes/AURKC.html">AURKC</a> and CDK6 inhibitors proposed as therapeutic strategy for this patient <a href="../papers/25583476.html">PMID:25583476</a></li>
-<li>High-level copy-number gain in 2 of 29 cutaneous squamous cell carcinoma samples by GISTIC analysis <a href="../papers/25589618.html">PMID:25589618</a></li>
-<li>Recurrently amplified in HNSCC in the 279-tumor TCGA HNSCC cohort (11q13.5 region); co-amplified with CCND1/FADD/CTTN cassette in HPV(-) subset <a href="../papers/25631445.html">PMID:25631445</a></li>
-<li>Mentioned in study <a href="../papers/26829750.html">PMID:26829750</a></li>
-<li>CDK6 amplified in additional ESCCs (especially ESCC2) lacking CCND1 amplification; combined CDKN2A loss and CDK6 amplification in ESCC supports CDK4/6 inhibitor evaluation <a href="../papers/28052061.html">PMID:28052061</a></li>
-<li>Additional recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analyses of the ICGC/CBTTC cohort (n=491) <a href="../papers/28726821.html">PMID:28726821</a>.</li>
+<li>CDK6 upregulation is observed in EGFR-altered <a href="../cancer_types/GBM.html">GBM</a> tumors in the CPTAC proteogenomic cohort (<a href="../datasets/gbm_cptac_2021.html">gbm_cptac_2021</a>, n=99); CDK6 protein tracks with <a href="../genes/UBE2I.html">UBE2I</a> (Pearson r = 0.413), a known SUMOylation target <a href="../papers/33577785.html">PMID:33577785</a>.</li>
+<li>CDK6 amplification is a recurrent driver at ≥5% frequency in esophageal/GEJ adenocarcinoma (<a href="../datasets/egc_mskcc_2020.html">egc_mskcc_2020</a>, n=487); grouped among amplification-driven recurrent drivers without independently demonstrated <a href="../cancer_types/OS.html">OS</a> association <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+<li>No significant association of CDK6 amplification with CDKN2A/p16 or Rb protein levels in CPTAC LSCC proteogenomics (108 tumors); downstream <a href="../genes/RB1.html">RB1</a> protein expression + phospho-Rb functional assessment proposed over copy-number status for CDK4/6-inhibitor patient selection. <a href="../papers/34358469.html">PMID:34358469</a></li>
+<li>CDK6 upregulation (amplification 0.4%; or transcriptional induction downstream of FAT1/PTEN/ARID1A loss) drives CDK4/6i resistance in HR+/HER2− breast cancer; INK4 binding deforms the CDK6 ATP pocket reducing <a href="../drugs/abemaciclib.html">abemaciclib</a> affinity ~4× (Kd 20.2→86.4 nmol/L); PROTAC degraders BSJ-05-017/BSJ-03-096 overcome this resistance with IC50 7.37 nmol/L in CDK6-high cells vs <a href="../drugs/palbociclib.html">palbociclib</a> IC50 252.0 nmol/L <a href="../papers/34544752.html">PMID:34544752</a></li>
+<li>CDK6 amplifications recurrent in <a href="../cancer_types/RMS.html">RMS</a> and other sarcomas in MAPPYACTS pediatric trial; 105 CDK4/6 inhibitor recommendations generated; CDKN2A/CDKN2B loss (157 inactivating events) identified as the matched predictive biomarker <a href="../papers/35292802.html">PMID:35292802</a></li>
+<li>Amplified in 0.7% of sarcomas (10.6% for <a href="../genes/CDK4.html">CDK4</a>); acts as a target for CDK4/6 inhibitors; co-occurs with CCND1/CCND2/CCND3 and CDKN2A/B in an unusual within-pathway co-occurrence pattern in mesenchymal tumors <a href="../papers/35705558.html">PMID:35705558</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong>Glioblastoma (<a href="../cancer_types/GB.html">GB</a>)</strong>: Identified as a component of the RB signaling pathway, which is altered in approximately 88% of glioblastoma cases <a href="../papers/18772890.html">PMID:18772890</a>.</li>
+<li><strong>Glioblastoma (<a href="../cancer_types/GBM.html">GBM</a>):</strong> CDK6 protein upregulated in EGFR-altered tumors; correlates with <a href="../genes/UBE2I.html">UBE2I</a> SUMOylation activity <a href="../papers/33577785.html">PMID:33577785</a>.</li>
+<li><strong>Esophageal/gastroesophageal junction adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>):</strong> CDK6 amplification at ≥5% frequency; no independent <a href="../cancer_types/OS.html">OS</a> association in this cohort <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+</ul>
+</section>
+<section id="co-occurrence-and-mutual-exclusivity" class="level2">
+<h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
+<ul>
+<li>Co-occurs with <a href="../genes/EGFR.html">EGFR</a> structural variants and amplification in <a href="../cancer_types/GBM.html">GBM</a>; also elevated alongside <a href="../genes/CTNND2.html">CTNND2</a> and <a href="../genes/CDKN2C.html">CDKN2C</a> in EGFR-altered tumors <a href="../papers/33577785.html">PMID:33577785</a>.</li>
+<li>Co-occurs with <a href="../genes/MYC.html">MYC</a>, <a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/EGFR.html">EGFR</a>, and <a href="../genes/CCND3.html">CCND3</a> amplifications in <a href="../cancer_types/EAC.html">EAC</a> <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+</ul>
+</section>
+<section id="therapeutic-relevance" class="level2">
+<h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
+<ul>
+<li>CDK6 upregulation in EGFR-altered <a href="../cancer_types/GBM.html">GBM</a> may be relevant to CDK4/6 inhibitor strategies; not directly tested in the corpus <a href="../papers/33577785.html">PMID:33577785</a>.</li>
+</ul>
+</section>
+<section id="open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="open-questions">Open questions</h2>
+<ul>
+<li>Whether CDK6 amplification independently drives resistance or contributes to prognosis in <a href="../cancer_types/EAC.html">EAC</a> beyond its association with chromosomal instability is not established <a href="../papers/33795256.html">PMID:33795256</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/18772890.html">PMID:18772890</a></li>
+<li><p><a href="../papers/33577785.html">PMID:33577785</a></p></li>
+<li><p><a href="../papers/33795256.html">PMID:33795256</a></p></li>
+<li><p><a href="../papers/34358469.html">PMID:34358469</a></p></li>
+<li><p><a href="../papers/34544752.html">PMID:34544752</a></p></li>
+<li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
+<li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/18948947.html">PMID:18948947</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/22960745.html">PMID:22960745</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/23525077.html">PMID:23525077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24120142.html">PMID:24120142</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24952746.html">PMID:24952746</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25079317.html">PMID:25079317</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25589618.html">PMID:25589618</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25631445.html">PMID:25631445</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26829750.html">PMID:26829750</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28052061.html">PMID:28052061</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28726821.html">PMID:28726821</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

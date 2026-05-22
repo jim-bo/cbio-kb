@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Real-Time Genomic Characterization of Metastatic Pancreatic Neuroendocrine Tumors Has Prognostic Implications and Identifies Potential Germline Actionability – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30687805.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30687805.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Real-Time Genomic Characterization of Metastatic Pancreatic Neuroendocrine Tumors Has Prognostic Implications and Identifies Potential Germline Actionability</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nitya Raj </p>
+             <p>Ronak Shah </p>
+             <p>Zsofia Stadler </p>
+             <p>Semanti Mukherjee </p>
+             <p>Joanne Chou </p>
+             <p>Brian Untch </p>
+             <p>Janet Li </p>
+             <p>Virginia Kelly </p>
+             <p>Muyinat Osoba </p>
+             <p>Leonard B. Saltz </p>
+             <p>Diana Mandelker </p>
+             <p>Marc Ladanyi </p>
+             <p>Michael F. Berger </p>
+             <p>David S. Klimstra </p>
+             <p>Diane Reidy-Lagunes </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1200/PO.17.00267">10.1200/PO.17.00267</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30687805 · <strong>DOI:</strong> 10.1200/PO.17.00267 · <strong>Journal:</strong> JCO Precision Oncology (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Raj et al.&nbsp;prospectively sequenced 96 tumor samples from 80 patients with metastatic well-differentiated pancreatic neuroendocrine tumors (panNETs) using the <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> matched tumor-normal NGS platform between May 2014 and March 2017. Somatic alterations were identified in 95% of patients, dominated by chromatin-remodeling factors (<a href="../genes/DAXX.html">DAXX</a>, <a href="../genes/ATRX.html">ATRX</a>, <a href="../genes/ARID1A.html">ARID1A</a>), histone methyltransferases (<a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/SETD2.html">SETD2</a>), and mTOR-pathway genes (<a href="../genes/TSC2.html">TSC2</a>, <a href="../genes/PTEN.html">PTEN</a>). The authors document grade progression, mTOR-inhibitor resistance mutations on serial biopsy, alkylator-induced hypermutation, and a 16% rate of clinically actionable germline pathogenic variants — motivating reconsideration of universal germline testing for panNET patients (<a href="../papers/30687805.html">PMID:30687805</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>80 patients / 96 samples</strong> with metastatic well-differentiated <a href="../cancer_types/PANET.html">PANET</a>; 8 patients contributed 2 samples and 4 patients contributed 3 samples for serial sequencing (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Cohort identifier:</strong> <a href="../datasets/panet_msk_2018.html">panet_msk_2018</a> (ClinicalTrials.gov NCT01775072); patients accrued between May 2014 and March 2017 at Memorial Sloan Kettering Cancer Center.</li>
+<li><strong>Baseline demographics:</strong> median age 54 (range 10–79); 56% female; all patients had metastatic disease (liver 81%, lymph nodes 33%); WHO grade distribution 30% G1, 46% G2, 24% G3; median Ki-67 10% (range 1–80%) (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Assay:</strong> <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> matched tumor-normal hybridization-capture NGS. Panel versions used: pilot 275-gene (2 samples / 2%), version 1/<a href="../methods/IMPACT341.html">IMPACT341</a> (not used in this cohort breakdown), <a href="../methods/IMPACT410.html">IMPACT410</a> (16 samples / 17%), <a href="../methods/IMPACT468.html">IMPACT468</a> (57 samples / 59%), and version 4 (21 samples / 22%). Median sequencing depth 665.5× (range 75×–1255×) (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Germline panel:</strong> 76 cancer-susceptibility genes called from the matched normal <code>.bam</code> with MuTect + GATK HaplotypeCaller; ExAC &lt;1% population-frequency cutoff; ACMG variant interpretation (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Loss of heterozygosity:</strong> quantified via <a href="../methods/facets.html">FACETS</a> allele-specific copy-number analysis on 95 of 96 samples.</li>
+<li><strong>Actionability:</strong> annotated with the <a href="../methods/oncokb-annotation.html">OncoKB</a> tier scale (levels 1–4).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Overall somatic detection rate:</strong> 76 of 80 patients (95%) harbored at least one somatic alteration (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Top recurrently altered genes (first sample per patient):</strong> <a href="../genes/MEN1.html">MEN1</a> 45/80 (56%), <a href="../genes/DAXX.html">DAXX</a> 32/80 (40%), <a href="../genes/ATRX.html">ATRX</a> 20/80 (25%), <a href="../genes/TSC2.html">TSC2</a> 20/80 (25%), <a href="../genes/SETD2.html">SETD2</a> 14/80 (18%), <a href="../genes/PTEN.html">PTEN</a> 10/80 (13%), <a href="../genes/TP53.html">TP53</a> 10/80 (13%), <a href="../genes/ARID1A.html">ARID1A</a> 9/80 (11%), <a href="../genes/BRAF.html">BRAF</a> 6/80 (8%), <a href="../genes/KMT2C.html">KMT2C</a> 7/80 (9%) (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Pathway frequencies:</strong> chromatin remodeling factors 52/80 (65%), histone methyltransferases 53/80 (66%), mTOR pathway 34/80 (43%), cell-cycle signaling 31/80 (39%). All 10 <a href="../genes/TP53.html">TP53</a> alterations were classified as likely oncogenic (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Tumor mutational burden tracks with grade:</strong> average mutations/Mb were 2.74 (G1), 4.20 (G2), and 23.64 (G3). Median TMB across the full cohort was 2.95 mut/Mb (range 0–201.76) (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Loss of heterozygosity is dominant:</strong> LOH affecting ≥50% of the genome was identified in 55/95 sequenced samples (58%). LOH was significantly enriched among samples carrying <a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/DAXX.html">DAXX</a>, <a href="../genes/PTEN.html">PTEN</a>, or <a href="../genes/TSC2.html">TSC2</a> alterations (q &lt; 0.05). Recurrent LOH was observed on chromosomes 1, 2, 3, 6, 8, 10, 11, 15, 16, 21, and 22; presence of LOH trended toward improved overall survival (P = .06) (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Survival (median follow-up 27.6 months; 14 deaths; median <a href="../cancer_types/OS.html">OS</a> 118.9 months, 95% CI 99.6–NR):</strong>
+<ul>
+<li>1-year OS in <a href="../genes/MEN1.html">MEN1</a>-altered vs <a href="../cancer_types/WT.html">WT</a>: 98% (95% CI 84–99%) vs 82% (63–92%), P = .01.</li>
+<li>1-year OS in <a href="../genes/DAXX.html">DAXX</a>- or <a href="../genes/ATRX.html">ATRX</a>-altered vs WT: 97% (83–99%) vs 83% (64–93%), P &lt; .01.</li>
+<li>1-year OS in <a href="../genes/BRAF.html">BRAF</a>-altered vs WT: 75% (13–96%) vs 95% (87–98%), P &lt; .01.</li>
+<li>No significant OS difference by mTOR-pathway or <a href="../genes/TP53.html">TP53</a> status (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+</ul></li>
+<li><strong>Novel recurrently altered genes vs prior panNET series:</strong> <a href="../genes/SETD2.html">SETD2</a> (18% — predominantly truncating loss-of-function; 17 mutated samples from 14 patients, 71% G2 and 24% G3) and <a href="../genes/BRAF.html">BRAF</a> (8% — 10 mutated samples from 6 patients including V600E ×2 and non-V600 variants K601E, T599K, T310I, plus a compound G596D + E451K tumor). 50% of <a href="../genes/BRAF.html">BRAF</a>-mutated samples were G3 (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Serial-sample clonal evolution (12 patients sequenced at multiple time points):</strong>
+<ul>
+<li>Patient 1 (<a href="../drugs/everolimus.html">everolimus</a> + <a href="../drugs/alpelisib.html">alpelisib</a>/BYL719): acquired oncogenic <a href="../genes/PTEN.html">PTEN</a> Q298* at progression; clone was present at low VAF in the pretreatment pancreas; tumor grade progressed G1→G3.</li>
+<li>Patient 2 (everolimus 8 weeks): acquired <a href="../genes/RHEB.html">RHEB</a> hotspot Y35S in a progressing liver lesion; allele fraction rose on continued observation; G1→G3.</li>
+<li>Patient 3 (everolimus &gt;9 months): post-progression liver biopsy lost an <a href="../genes/IGF2.html">IGF2</a> G226S mutation and acquired <a href="../genes/TSC2.html">TSC2</a> splice (X161_splice) and <a href="../genes/AKT2.html">AKT2</a> G16D — no mutations shared with the pretreatment pancreas (clinically consistent with single primary; possible unrecognized clonal sweep).</li>
+<li>Patient 4 (<a href="../drugs/vemurafenib.html">vemurafenib</a> for <a href="../genes/BRAF.html">BRAF</a> V600E): acquired <a href="../genes/NRAS.html">NRAS</a> Q61R at progression (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+</ul></li>
+<li><strong>Alkylator-induced hypermutation:</strong> three patients re-sequenced after cytotoxic chemotherapy acquired &gt;100 new mutations (117, 165, and 267). Two had received alkylators (<a href="../drugs/dacarbazine.html">dacarbazine</a>, <a href="../drugs/temozolomide.html">temozolomide</a>) and showed a predominant C&gt;T mutational signature and acquired mismatch-repair gene mutations; all three sampled tumors progressed G1→G3 (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Germline pathogenic / likely pathogenic variants in 14 / 88 patients (16%):</strong> high-penetrance — <a href="../genes/MEN1.html">MEN1</a> (1), <a href="../genes/VHL.html">VHL</a> (1), <a href="../genes/TSC2.html">TSC2</a> (1); moderate-penetrance <a href="../genes/CHEK2.html">CHEK2</a> in 4 patients (5%); low-penetrance monoallelic <a href="../genes/MUTYH.html">MUTYH</a> (4) and <a href="../genes/APC.html">APC</a> I1307K (3); plus recessive <a href="../genes/FANCC.html">FANCC</a> and <a href="../genes/RECQL4.html">RECQL4</a> alleles and a <a href="../genes/RAD50.html">RAD50</a> R1093* of uncertain actionability (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Notable germline finding:</strong> a 32-year-old with a germline <a href="../genes/TSC2.html">TSC2</a> R1200W did not meet clinical criteria for tuberous sclerosis but had brain MRI evidence of tubers and radial bands — discovery was incidental to tumor-normal NGS (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>OncoKB-actionable somatic alterations:</strong> Level 1/2a 0%; Level 2b 19/80 (24%) — <a href="../genes/TSC2.html">TSC2</a> ×16, <a href="../genes/TSC1.html">TSC1</a> ×1, <a href="../genes/BRAF.html">BRAF</a> V600E ×2; Level 3b 4 patients (5%) — <a href="../genes/NRAS.html">NRAS</a> ×2, <a href="../genes/BRAF.html">BRAF</a> K601E, <a href="../genes/PTCH1.html">PTCH1</a> ×2; Level 4 14 patients (18%) — <a href="../genes/PTEN.html">PTEN</a> ×8, <a href="../genes/KRAS.html">KRAS</a> ×3, <a href="../genes/MLH1.html">MLH1</a> ×3, <a href="../genes/MSH6.html">MSH6</a> ×2, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/FGFR1.html">FGFR1</a> (each ×1) (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Treatment response to <a href="../drugs/everolimus.html">everolimus</a> was not predicted by mTOR-pathway mutation status:</strong> among 12 patients with mTOR alterations who received everolimus, 17% regression / 50% stable / 8% progression; among 17 mTOR-WT patients on everolimus, 29% regression / 41% stable / 24% progression (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/MEN1.html">MEN1</a> — somatic alteration in 56% (45/80); also recurrent germline driver (1 high-penetrance carrier). Associated with significantly improved 1-year OS (98% vs 82%, P = .01).</li>
+<li><a href="../genes/DAXX.html">DAXX</a> / <a href="../genes/ATRX.html">ATRX</a> — somatic alterations in 40% and 25% respectively; together define the chromatin-remodeling / ALT axis; both associated with improved 1-year OS (97% vs 83%, P &lt; .01) in this metastatic cohort, contrasting with prior reports in resected disease.</li>
+<li><a href="../genes/TSC2.html">TSC2</a> — somatic alterations in 25% (20/80); dominant mTOR-pathway driver; one high-penetrance germline R1200W carrier presenting incidentally (no clinical TSC phenotype); acquired splice mutation in one patient at <a href="../drugs/everolimus.html">everolimus</a> progression.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — somatic in 13%; acquired Q298* in one patient at <a href="../drugs/everolimus.html">everolimus</a> + <a href="../drugs/alpelisib.html">alpelisib</a> progression.</li>
+<li><a href="../genes/RHEB.html">RHEB</a> — Y35S hotspot acquired at <a href="../drugs/everolimus.html">everolimus</a> progression in one patient; allele fraction rose on continued observation.</li>
+<li><a href="../genes/AKT2.html">AKT2</a> — G16D acquired post-everolimus.</li>
+<li><a href="../genes/SETD2.html">SETD2</a> — 18% of patients; predominantly truncating loss-of-function; enriched in G2/G3 tumors and in post-treatment biopsies; positioned as a panNET tumor suppressor.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — 8% of patients; V600E plus several non-V600 alterations (K601E, T599K, T310I, compound G596D + E451K); enriched in post-treatment samples; significantly worse 1-year OS (75% vs 95%, P &lt; .01); paired patient on <a href="../drugs/vemurafenib.html">vemurafenib</a> acquired <a href="../genes/NRAS.html">NRAS</a> Q61R at progression.</li>
+<li><a href="../genes/TP53.html">TP53</a> — 13%; all calls classified as likely oncogenic; no independent OS effect.</li>
+<li><a href="../genes/IGF2.html">IGF2</a> — G226S lost in one patient on <a href="../drugs/everolimus.html">everolimus</a>, suggesting clonal replacement rather than direct resistance.</li>
+<li><a href="../genes/VHL.html">VHL</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/MUTYH.html">MUTYH</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/FANCC.html">FANCC</a>, <a href="../genes/RECQL4.html">RECQL4</a>, <a href="../genes/RAD50.html">RAD50</a> — germline pathogenic / likely pathogenic carriers (high-, moderate-, low-penetrance, recessive, or uncertain classes; see Table 2 of the paper).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognostic biomarkers in metastatic panNET:</strong> <a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/DAXX.html">DAXX</a>, and <a href="../genes/ATRX.html">ATRX</a> alterations were associated with improved 1-year OS — opposite to reports in resected disease where DAXX/ATRX loss correlates with poor outcome (<a href="../papers/30687805.html">PMID:30687805</a>). The authors interpret this as a metastatic-stage–specific signal that needs confirmation.</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a> alterations mark aggressive, post-treatment disease</strong> with significantly worse 1-year OS (P &lt; .01) and warrant closer surveillance.</li>
+<li><strong>Universal germline testing for panNET is reasonable:</strong> 16% pathogenic/likely-pathogenic carriers across high-, moderate-, and low-penetrance genes — including a <a href="../genes/TSC2.html">TSC2</a> carrier missed by phenotype-based testing criteria — argues for genetic-risk assessment in all panNET patients (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>Targeted-therapy resistance mechanisms are detectable in real time:</strong> acquired <a href="../genes/PTEN.html">PTEN</a> Q298*, <a href="../genes/RHEB.html">RHEB</a> Y35S, <a href="../genes/TSC2.html">TSC2</a> splice, and <a href="../genes/AKT2.html">AKT2</a> G16D after <a href="../drugs/everolimus.html">everolimus</a>; <a href="../genes/NRAS.html">NRAS</a> Q61R after <a href="../drugs/vemurafenib.html">vemurafenib</a> — supporting serial NGS on disease progression.</li>
+<li><strong>mTOR mutation status did not predict <a href="../drugs/everolimus.html">everolimus</a> benefit</strong> (response rates 17% vs 29%); the authors caution against using mTOR-pathway mutations as a single-marker selection criterion.</li>
+<li><strong>Alkylator chemotherapy (<a href="../drugs/temozolomide.html">temozolomide</a>, <a href="../drugs/dacarbazine.html">dacarbazine</a>) induces marked hypermutation and MMR-gene mutations in panNET</strong> — a previously unreported pattern in this disease that could be relevant to subsequent immunotherapy decisions.</li>
+<li><strong>OncoKB-actionable alterations affected 47% of patients</strong> when including Levels 2b/3b/4, though no Level 1/2a evidence was available at the time of the report (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Sample size remains too small</strong> to clarify genetic predictors of response or resistance to commonly used panNET therapies, the prognostic effect of individual alterations, or the typical patterns of clonal evolution; only 12 patients underwent multi-timepoint sequencing (<a href="../papers/30687805.html">PMID:30687805</a>).</li>
+<li><strong>The MSK-IMPACT panel evolved across the accrual window</strong> (preclinical pilot 275 → 341 → 410 → 468 genes), so some early-cohort samples were not interrogated for genes (e.g., <a href="../genes/RHEB.html">RHEB</a>) that later became standard — affecting allele-frequency comparisons over time.</li>
+<li><strong>DAXX/ATRX/MEN1 survival benefit conflicts with prior resected-cohort data</strong> showing the opposite direction; needs prospective replication in metastatic disease.</li>
+<li><strong>mTOR-pathway alteration prevalence (43%) is substantially higher than prior series</strong>, but did not translate into a predictive biomarker for <a href="../drugs/everolimus.html">everolimus</a> benefit in this cohort.</li>
+<li><strong>Single-institution, primarily tertiary-referred metastatic cohort</strong> — generalizability to earlier-stage or community-treated panNETs is unclear.</li>
+<li><strong>Future direction:</strong> the authors propose noninvasive (presumably ctDNA-based) serial NGS to enable real-time clonal-evolution profiling without repeat biopsy.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Somatic alterations were identified in 76 of 80 patients (95%). The most commonly altered genes were <a href="../genes/MEN1.html">MEN1</a> (56%), <a href="../genes/DAXX.html">DAXX</a> (40%), <a href="../genes/ATRX.html">ATRX</a> (25%), and TSC2 (25%)” (Abstract).</li>
+<li>“Somatic LOH in ≥ 50% of the genome was highly prevalent; it was identified in 55 of 95 tested samples (58%). A significant association (q value &lt; 0.05) was noted between LOH and the presence of MEN1, DAXX, <a href="../genes/PTEN.html">PTEN</a>, or TSC2 alterations” (Results — Genomic Data).</li>
+<li>“Significantly longer 1-year OS was observed in MEN1-altered tumors compared with wild-type (WT) tumors (98% [95% CI, 84% to 99%] versus 82% [95% CI, 63% to 92%], P = .01) and in DAXX- or ATRX-altered tumors compared with WT tumors (97% [95% CI, 83% to 99%] versus 83% [95% CI, 64% to 93%], P &lt; .01). Significantly inferior 1-year OS was observed in BRAF-altered tumors compared with WT tumors (75% [95% CI, 13% to 96%] versus 95% [95% CI, 87% to 98%], P &lt; .01)” (Results — Survival).</li>
+<li>“In all three patients receiving everolimus, mTOR pathway alterations were identified at progression” (Results — Genetic Testing Before and After Treatment).</li>
+<li>“Fourteen likely pathogenic germline alterations were identified in known cancer susceptibility genes (16%): three in established high-penetrance genes (MEN1, <a href="../genes/VHL.html">VHL</a>, and TSC2 [3%])” (Results — Germline Genetic Testing).</li>
+<li>“average mutations/megabyte were as follows: 2.74 in grade 1 (G1) tumors, 4.20 in grade 2 (G2) tumors, and 23.64 in G3 tumors” (Results — Genomic Data).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30687805.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30687805.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

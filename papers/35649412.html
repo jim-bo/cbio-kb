@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Glioma progression is shaped by genetic evolution and microenvironment interactions – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35649412.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35649412.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Glioma progression is shaped by genetic evolution and microenvironment interactions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Frederick S. Varn </p>
+             <p>Kevin C. Johnson </p>
+             <p>Jan Martinek </p>
+             <p>Jason T. Huse </p>
+             <p>MacLean P. Nasrallah </p>
+             <p>Pieter Wesseling </p>
+             <p>Lee A. D. Cooper </p>
+             <p>Tathiane M. Malta </p>
+             <p>Taylor E. Wade </p>
+             <p>Thais S. Sabedot </p>
+             <p>Daniel Brat </p>
+             <p>Houtan Noushmehr </p>
+             <p>Antonio Iavarone </p>
+             <p>Roel G. W. Verhaak </p>
+             <p>The GLASS Consortium </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2022.04.038">10.1016/j.cell.2022.04.038</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 35649412 · <strong>DOI:</strong> <a href="https://doi.org/10.1016/j.cell.2022.04.038">10.1016/j.cell.2022.04.038</a> · <strong>Journal:</strong> Cell (2022)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Varn and colleagues (the GLASS Consortium) profile temporally separated tumor pairs from 304 adult patients with diffuse glioma — 168 with longitudinal RNA-seq, 256 with longitudinal DNA-seq, and 115 with both — to dissect how genetic evolution and microenvironment interactions shape recurrence in <a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a>-wild-type and IDH-mutant disease. Combining bulk and single-cell transcriptomics, <a href="../methods/cibersortx.html">CIBERSORTx</a> deconvolution against an 11-patient single-cell reference (55,284 cells), histology mapping via the Ivy Glioblastoma Atlas Project, and <a href="../methods/multiplexed-immunofluorescence.html">multiplex immunofluorescence</a>, the authors identify three convergent recurrence phenotypes — <strong>neuronal</strong>, <strong>mesenchymal</strong>, and <strong>proliferative</strong> — that link acquired somatic alterations (notably <a href="../genes/CDKN2A.html">CDKN2A</a> deletion, <a href="../genes/CCND2.html">CCND2</a> amplification, and temozolomide-induced hypermutation) to cell-state shifts and stromal interactions, including an <a href="../genes/OSM.html">OSM</a>/<a href="../genes/OSMR.html">OSMR</a>-mediated myeloid–neoplastic axis driving mesenchymal transition.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>GLASS expansion cohort</strong> (<a href="../datasets/difg_glass.html">difg_glass</a>; supersedes the 222-patient <a href="../datasets/difg_glass_2019.html">difg_glass_2019</a> release): 381 patients enrolled across 37 hospitals; 304 retained after QC.
+<ul>
+<li>168 patients with ≥2 timepoints of RNA-seq (128 IDH-wild-type, 31 IDH-mutant 1p/19q-intact, 9 IDH-mutant 1p/19q-codeleted).</li>
+<li>256 patients with ≥2 timepoints of DNA-seq.</li>
+<li>115 patients with overlapping DNA + RNA at ≥2 timepoints.</li>
+</ul></li>
+<li><strong>Cancer types:</strong> adult <a href="../cancer_types/DIFG.html">diffuse glioma</a> — <a href="../cancer_types/GBM.html">glioblastoma</a> (IDHwt), <a href="../cancer_types/ASTR.html">astrocytoma</a> (IDHmut-noncodel), and <a href="../cancer_types/ODG.html">oligodendroglioma</a> (IDHmut-codel); collectively spans <a href="../cancer_types/LGG.html">low-grade glioma</a> through grade 4 <a href="../cancer_types/GBM.html">GBM</a>.</li>
+<li><strong>Reference datasets:</strong> <a href="../datasets/gbm_tcga.html">TCGA GBM</a> and <a href="../datasets/lgg_tcga.html">TCGA LGG</a> (687 glioma transcriptomes for myeloid-subtype analyses), the Ivy Glioblastoma Atlas Project (Ivy GAP) anatomic feature reference, and pan-glioma single-cell reference from 11 patients (Johnson et al., 2021).</li>
+<li><strong>Newly generated data added in this release:</strong> DNA-seq from 109 samples (53 patients) and RNA-seq from 392 samples (206 patients) across Henry Ford Health System, Seoul National University, Case Western Reserve University, Chinese University of Hong Kong, Luxembourg Institute of Health, and MD Anderson cohorts.</li>
+<li><strong>Assays / methods:</strong> <a href="../methods/whole-exome-seq.html">whole-exome</a> and <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> (b37 alignment, <a href="../methods/bwa.html">BWA-MEM</a> + <a href="../methods/gatk.html">GATK</a>, <a href="../methods/mutect.html">MuTect2</a> for somatic calls, <a href="../methods/titan-cna.html">TITAN</a> for purity/ploidy/CNA); <a href="../methods/rna-seq.html">bulk RNA-seq</a> (<a href="../methods/star-aligner.html">STAR</a> + kallisto); <a href="../methods/scrna-seq.html">single-cell RNA-seq</a> (including <a href="../methods/smart-seq2.html">SMART-seq2</a> reference); <a href="../methods/cibersortx.html">CIBERSORTx</a> deconvolution; HLA typing via OptiType and HLA loss-of-heterozygosity via <a href="../methods/lohhla.html">LOHHLA</a>; neoantigen calling with pVACseq; whole-slide <a href="../methods/multiplexed-immunofluorescence.html">multiplex immunofluorescence</a> and H&amp;E histo-cytometry.</li>
+<li><strong>Data availability:</strong> Synapse <code>syn23589349</code> (https://www.synapse.org/glass); digitized H&amp;E images on the Emory Digital Slide Archive; code at https://github.com/fsvarn/GLASSx.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Three convergent recurrence phenotypes.</strong> Integrating cell-state, histology, and somatic-alteration changes, the authors define neuronal, mesenchymal, and proliferative recurrence phenotypes. IDH-wild-type tumors can exhibit all three (often simultaneously); a subset of IDH-mutant tumors exhibits the proliferative phenotype (PMID:<a href="../papers/35649412.html">35649412</a>, Figure 7).</li>
+<li><strong>Subtype switching is common in IDHwt and rare in IDHmut.</strong> Among IDHwt cases the dominant bulk transcriptional subtype switched in 49% of patients (most commonly classical → mesenchymal), whereas 78% of IDHmut tumors remained proneural at both timepoints.</li>
+<li><strong>Recurrent IDHwt tumors are more invasive.</strong> IDHwt recurrences showed significantly higher oligodendrocyte content (P = 5e-6, paired t-test) and lower differentiated-like neoplastic cells (P = 4e-3) — changes preserved after adjusting for extent of surgical resection. Leading-edge histological content was significantly higher at recurrence (P = 4e-5).</li>
+<li><strong>Proliferative phenotype links genetics to cell state.</strong> Within IDHmut tumors, acquired <a href="../genes/CDKN2A.html">CDKN2A</a> deletions and <a href="../genes/CCND2.html">CCND2</a> amplifications associated with increases in proliferating stem-like neoplastic cells (P = 3e-3, paired t-test, n = 6); multiplex IF confirmed significantly more <a href="../genes/SOX2.html">SOX2</a>+/Ki67+ cells in a recurrent IDHmut tumor with acquired <a href="../genes/CDKN2A.html">CDKN2A</a> deletion (P &lt; 1e-5, Fisher’s exact test). IDHwt tumors typically already harbor <a href="../genes/CDKN2A.html">CDKN2A</a> deletions at initial presentation, so this association was not observed in that subtype.</li>
+<li><strong>Treatment-induced hypermutation drives proliferating stem-like increases in both subtypes.</strong> Hypermutation (defined as &gt;10 mutations/Mb at recurrence, frequently following alkylator/<a href="../drugs/temozolomide.html">temozolomide</a> exposure) was associated with increased proliferating stem-like cells in both IDHwt (n = 13) and IDHmut (n = 7) tumors (P &lt; 0.05, paired t-test), with multiplex IF confirming the <a href="../genes/SOX2.html">SOX2</a>+/Ki67+ increase. In IDHmut tumors hypermutation occurred largely independently of CDKN2A/CCND2 events.</li>
+<li><strong>Proliferating stem-like burden predicts worse outcome in IDHmut.</strong> Increases in proliferating stem-like neoplastic cells in IDHmut tumors were significantly associated with reduced overall survival (P = 0.02, log-rank), and the association persisted after adjusting for age, grade, and 1p/19q codeletion status (P = 0.02, Wald test).</li>
+<li><strong>Microenvironment changes track specific driver events in IDHwt.</strong> Non-hypermutated IDHwt recurrences that acquired <a href="../genes/NF1.html">NF1</a> mutations (n = 3) all underwent mesenchymal transition with significant granulocyte increases (P = 0.03). Loss of <a href="../genes/EGFR.html">EGFR</a> amplification (n = 11) and loss of <a href="../genes/PDGFRA.html">PDGFRA</a> amplification (n = 4) at recurrence both associated with increased non-neoplastic cell content (P &lt; 0.05, paired t-test) and a transition to the mesenchymal subtype (P = 0.05, Fisher’s exact test).</li>
+<li><strong>Neuronal signaling phenotype affects ~66% of IDHwt recurrences.</strong> Of 7,511 genes inferred in stem-like neoplastic cells, 10.0% were differentially expressed at IDHwt recurrence (FDR &lt; 0.05, Wilcoxon signed-rank). The up-regulated stem-like recurrence signature was enriched in neuronal-signaling GO terms; the signature correlated with leading-edge histological content at both timepoints and was significantly higher in single neoplastic cells from the invasive rim than from the tumor core. Multiplex IF showed <a href="../genes/SNAP25.html">SNAP25</a>+ neoplastic cells (SOX2+) co-localizing with NeuN+ neurons in infiltrating-tumor regions, while cellular-tumor regions had neither.</li>
+<li><strong>Distinct mesenchymal myeloid program.</strong> Myeloid cells in mesenchymal IDHwt tumors expressed an immunosuppressive signature shared with the classical subtype (including the immune-checkpoint genes <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> and <a href="../genes/IDO1.html">IDO1</a>) plus an additional 300-gene mesenchymal-specific program, of which 186 genes (FDR &lt; 0.05, fold-change &gt; 1.5) were enriched for chemokine signaling / lymphocyte chemotaxis. Single-myeloid-cell expression of this signature correlated tightly with bulk mesenchymal subtype score (R = 0.89, P = 3e-3); IDHwt tumors undergoing mesenchymal transition longitudinally up-regulated the signature (P = 8e-8, Wilcoxon signed-rank).</li>
+<li><strong><a href="../genes/OSM.html">OSM</a>–<a href="../genes/OSMR.html">OSMR</a> ligand–receptor axis as mesenchymal driver.</strong> From 1,894 literature-supported ligand–receptor pairs, 105 had both members co-rising with mesenchymal score over time; 49 also replicated in single-cell data. Myeloid <a href="../genes/OSM.html">OSM</a> paired with neoplastic <a href="../genes/OSMR.html">OSMR</a> emerged as one of the strongest mesenchymal correlates; multiplex IF showed <a href="../genes/OSM.html">OSM</a>+ CD14+ myeloid cells co-localizing with <a href="../genes/CD44.html">CD44</a>+/<a href="../genes/SOX2.html">SOX2</a>+ mesenchymal neoplastic cells near blood vessels in mesenchymal — but not classical — IDHwt glioma.</li>
+<li><strong>HLA loss-of-heterozygosity is a passenger event in glioma.</strong> HLA LOH was observed in 19% of GLASS patients at ≥1 timepoint, and acquired more often at recurrence in IDHmut-noncodel tumors (P = 0.04, Fisher’s exact). Simulation tests found no positive selection in either IDHwt or IDHmut recurrences (P &gt; 0.05). Acquired HLA LOH in IDHmut-noncodel tumors instead tracked with significantly larger increases in genome-wide SCNA burden (P = 0.02, Wilcoxon rank-sum), supporting a passenger interpretation contrasting with selection-driven HLA LOH seen in other cancer types.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/IDH1.html">IDH1</a> / <a href="../genes/IDH2.html">IDH2</a> — the foundational stratification axis for the cohort (IDHwt vs.&nbsp;IDHmut-noncodel vs.&nbsp;IDHmut-codel) (PMID:<a href="../papers/35649412.html">35649412</a>).</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — acquired focal deletion at recurrence in IDHmut glioma drives expansion of proliferating stem-like neoplastic cells (P = 3e-3, n = 6); already prevalent at initial diagnosis in IDHwt tumors and therefore not enriched at recurrence there.</li>
+<li><a href="../genes/CCND2.html">CCND2</a> — acquired amplification at recurrence in IDHmut tumors, co-acting with CDKN2A loss in the proliferative phenotype.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — loss of <a href="../genes/EGFR.html">EGFR</a> amplification at recurrence (n = 11) associates with increased non-neoplastic cell content and mesenchymal subtype switching in IDHwt tumors.</li>
+<li><a href="../genes/PDGFRA.html">PDGFRA</a> — loss of <a href="../genes/PDGFRA.html">PDGFRA</a> amplification at recurrence (n = 4) similarly associates with increased non-neoplastic cells and mesenchymal transition.</li>
+<li><a href="../genes/NF1.html">NF1</a> — acquired mutation at recurrence (n = 3) co-occurs with mesenchymal transition and significant granulocyte increase (P = 0.03).</li>
+<li><a href="../genes/OSM.html">OSM</a> / <a href="../genes/OSMR.html">OSMR</a> — myeloid-expressed OSM × differentiated-like-neoplastic <a href="../genes/OSMR.html">OSMR</a> ligand–receptor pair is a top correlate of mesenchymal transition; spatial co-localization confirmed by multiplex IF.</li>
+<li><a href="../genes/SOX2.html">SOX2</a>, <a href="../genes/OLIG2.html">OLIG2</a>, <a href="../genes/CD44.html">CD44</a> — neoplastic-cell-state markers used to define stem-like (SOX2+, <a href="../genes/OLIG2.html">OLIG2</a>+), proliferating stem-like (SOX2+/Ki67+), and mesenchymal-like (<a href="../genes/CD44.html">CD44</a>+) populations in deconvolution and IF.</li>
+<li><a href="../genes/SNAP25.html">SNAP25</a> — neuronal marker; component of the stem-like recurrence signature, detected by IF on neoplastic cells in infiltrating-tumor regions of recurrent glioma.</li>
+<li><a href="../genes/PDCD1LG2.html">PDCD1LG2</a> (PD-L2) and <a href="../genes/IDO1.html">IDO1</a> — immune-checkpoint genes up-regulated by myeloid cells in classical and mesenchymal IDHwt tumors, contributing to the immunosuppressive phenotype.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Three recurrence phenotypes as therapeutic anchors.</strong> The authors propose neuronal, mesenchymal, and proliferative recurrence phenotypes as a framework for guiding clinical decision-making in recurrent diffuse glioma — each anchored to distinct cellular, genetic, and histological features.</li>
+<li><strong>Cell cycle therapy in IDHmut recurrence.</strong> Acquired CDKN2A loss / <a href="../genes/CCND2.html">CCND2</a> amplification at IDHmut recurrence drives a proliferating stem-like expansion with worse overall survival, identifying a candidate subset for cell-cycle-directed therapies at recurrence.</li>
+<li><strong>Hypermutation as predictor of proliferative phenotype.</strong> <a href="../drugs/temozolomide.html">Temozolomide</a>-induced hypermutation at recurrence is a shared route to the proliferative phenotype across IDHwt and IDHmut tumors, motivating monitoring of mutation burden as a longitudinal biomarker.</li>
+<li><strong>OSM/OSMR as a targetable mesenchymal-transition axis.</strong> Spatially convergent OSM+ myeloid and OSMR+ mesenchymal-like neoplastic cells in recurrent IDHwt glioma nominate this ligand–receptor pair for therapeutic interruption of mesenchymal transition.</li>
+<li><strong>Neuron-glioma interactions.</strong> Recurrent IDHwt invasion into normal brain parenchyma is accompanied by neuronal-signaling up-regulation in stem-like neoplastic cells at the invasive rim, consistent with prior reports that neuron-to-glioma synapses promote tumor invasion and growth — supporting neuronal-circuitry-directed strategies as a candidate intervention.</li>
+<li><strong>HLA LOH should not be over-interpreted in glioma.</strong> Because HLA LOH appears to be a passenger of genome-wide SCNA burden rather than a T-cell-selected escape event in glioma, its use as an immunotherapy biomarker should be calibrated differently than in other cancer types.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The GLASS cohort is biased toward younger patients with favorable enough prognosis to undergo repeat surgery — findings may not transfer to patients with severe early-progressive disease.</li>
+<li>Bulk RNA-seq deconvolution cannot resolve rare cell populations and is constrained by the input signature matrix; the matrices used here lacked neurons, astrocytes, and recurrence-specific histological features, limiting direct assessment of their contributions to resistance.</li>
+<li>Several driver-alteration → microenvironment associations rest on small subgroups (e.g., NF1-acquisition n = 3; PDGFRA-amplification loss n = 4); these warrant replication in larger longitudinal cohorts.</li>
+<li>Directionality of the OSM–OSMR axis (myeloid-driven mesenchymal induction vs.&nbsp;mesenchymal-recruited myeloid response) is not resolved here.</li>
+<li>Whether the neuronal-signaling stem-like signature has prognostic value remains unclear — no association with overall survival was observed (P &gt; 0.05, Wald test) despite plausible mechanistic links to invasion.</li>
+<li>The cohort spans 37 hospitals with heterogeneous DNA/RNA-seq platforms (whole-exome, whole-genome, exon capture variants; Illumina HiSeq 2000 through NovaSeq 6000); batch effects on rare-event detection cannot be fully excluded.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“the final cohort was comprised of 304 patients, with 168 having RNA sequencing data for two or more time points, 256 having DNA sequencing data for two or more time points, and 115 having overlapping RNA and DNA available for at least two time points” (Results — GLASS Cohort, p.&nbsp;5).</li>
+<li>“Longitudinally, the dominant subtype in IDHwt tumors switched in 49% of patients, with classical to mesenchymal being the most common transition. In contrast, 78% of IDHmut tumors remained proneural at both time points” (Results — Longitudinal cellular heterogeneity, p.&nbsp;5).</li>
+<li>“IDHwt tumors had significantly higher levels of oligodendrocytes and significantly lower levels of differentiated-like neoplastic cells at recurrence (P = 5e-6 and 4e-3, paired t-test)” (Results — Longitudinal cellular heterogeneity, p.&nbsp;6).</li>
+<li>“Within IDHmut tumors, this revealed acquired alterations in cell cycle regulators, including deletions in CDKN2A and amplifications in <a href="../genes/CCND2.html">CCND2</a>, to be associated with increases in proliferating stem-like cells (P = 3e-3, paired t-test, n = 6)” (Results — Acquired somatic alterations at recurrence, p.&nbsp;8).</li>
+<li>“increases in proliferating stem-like neoplastic cells in IDHmut tumors were significantly associated with reduced overall survival (P = 0.02, log-rank test) … and remained so after adjusting for age, grade, and 1p/19q co-deletion status (P = 0.02, Wald test)” (Results — Acquired somatic alterations at recurrence, p.&nbsp;8).</li>
+<li>“186-gene signature that was significantly upregulated in mesenchymal tumors (FDR &lt; 0.05, fold-change &gt; 1.5) … enriched in chemokine signaling and lymphocyte chemotaxis functions” (Results — Mesenchymal tumors exhibit a distinct myeloid cell phenotype, p.&nbsp;12).</li>
+<li>“OSM-expressing myeloid cells (CD14+) and mesenchymal-like neoplastic cells (CD44+/SOX2+) … In mesenchymal IDHwt glioma, we observed high OSM expression in myeloid cells near blood vessels and mesenchymal neoplastic cells” (Results — Mesenchymal tumors exhibit a distinct myeloid cell phenotype, p.&nbsp;12).</li>
+<li>“We observed HLA LOH in at least one timepoint in 19% of GLASS patients … significantly more IDHmut-noncodel tumors acquired HLA LOH at recurrence (P = 0.04, Fisher’s exact test)” (Results — Antigen presentation is disrupted at recurrence, p.&nbsp;13).</li>
+<li>“this neuronal phenotype is a frequent feature at recurrence … these changes occurred in 66% of the IDHwt tumor pairs in the GLASS cohort” (Discussion, p.&nbsp;14).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35649412.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35649412.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

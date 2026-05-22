@@ -167,13 +167,15 @@ ul.task-list li input[type="checkbox"] {
 <h1>CIBERSORTx</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>CIBERSORTx is a computational deconvolution algorithm that estimates the relative and absolute fractions of immune and stromal cell populations from bulk gene expression data (RNA-seq or microarray). It uses support vector regression (SVR) against a reference gene expression matrix (LM22 leukocyte signature matrix or custom signatures) to infer cell-type proportions without requiring physical cell sorting. The “X” version adds batch correction to reduce technology-dependent effects when applying a reference matrix across different profiling platforms. It is widely used for tumor microenvironment (TME) characterization in clinical cohorts where only bulk RNA-seq is available.</p>
+<p>CIBERSORTx is a computational deconvolution algorithm that estimates the relative and <a href="../methods/absolute.html">absolute</a> fractions of immune and stromal cell populations from bulk gene expression data (RNA-seq or microarray). It uses support vector regression (SVR) against a reference gene expression matrix (LM22 leukocyte signature matrix or custom signatures) to infer cell-type proportions without requiring physical cell sorting. The “X” version adds batch correction to reduce technology-dependent effects when applying a reference matrix across different profiling platforms. It is widely used for tumor microenvironment (TME) characterization in clinical cohorts where only bulk RNA-seq is available.</p>
 </section>
 <section id="used-by" class="level2">
 <h2 class="anchored" data-anchor-id="used-by">Used by</h2>
 <ul>
-<li>Applied to bulk RNA-seq from 176 metastatic urothelial carcinoma patients in UC-GENOME to estimate immune cell fractions; identified enrichment of plasma cells, memory B cells, and activated dendritic cells in luminal subtypes (LumP), and higher T cell inflamed and <a href="../genes/IFNG.html">IFNG</a> signature scores in Ba/Sq tumors <a href="../papers/36333289.html">PMID:36333289</a></li>
+<li>Applied to bulk RNA-seq from 176 metastatic urothelial carcinoma patients in UC-GENOME to <a href="../methods/estimate.html">estimate</a> immune cell fractions; identified enrichment of plasma cells, memory B cells, and activated dendritic cells in luminal subtypes (LumP), and higher T cell inflamed and <a href="../genes/IFNG.html">IFNG</a> signature scores in Ba/Sq tumors <a href="../papers/36333289.html">PMID:36333289</a></li>
 <li>CIBERSORT applied to RNA-seq data from 45 melanoma biopsies for immune cell deconvolution; CD8+ T cells and NK cells increased and M1 macrophages decreased on-therapy in responders <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li>Used to derive immune cell fractions (22 cell types, aggregated to 9) for immune subtype characterization of ~11,000 TCGA PanCancer Atlas tumors; six pan-cancer immune subtypes (C1–C6) were defined <a href="../papers/29625049.html">PMID:29625049</a>.</li>
+<li>CIBERSORTx used for bulk RNA-seq immune/cellular deconvolution in 168 longitudinal diffuse glioma samples from the GLASS expansion cohort, enabling quantification of myeloid, neoplastic, and non-neoplastic cell fractions over time <a href="../papers/35649412.html">PMID:35649412</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -190,8 +192,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/36333289.html">PMID:36333289</a> — UC-GENOME metastatic UC study; CIBERSORTx immune deconvolution of bulk RNA-seq to characterize TME composition by molecular subtype.</li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-06</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 
 </section>

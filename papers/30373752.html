@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Prospective Genotyping of Hepatocellular Carcinoma: Clinical Implications of Next-Generation Sequencing for Matching Patients to Targeted and Immune Therapies – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30373752.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30373752.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Prospective Genotyping of Hepatocellular Carcinoma: Clinical Implications of Next-Generation Sequencing for Matching Patients to Targeted and Immune Therapies</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>James J. Harding </p>
+             <p>Subhiksha Nandakumar </p>
+             <p>Joshua Armenia </p>
+             <p>Danny N. Khalil </p>
+             <p>Melanie Albano </p>
+             <p>Michele Ly </p>
+             <p>Jinru Shia </p>
+             <p>Jaclyn F. Hechtman </p>
+             <p>Ritika Kundra </p>
+             <p>Imane El Dika </p>
+             <p>Richard K. Do </p>
+             <p>Yichao Sun </p>
+             <p>T. Peter Kingham </p>
+             <p>Michael I. D’Angelica </p>
+             <p>Michael F. Berger </p>
+             <p>David M. Hyman </p>
+             <p>William Jarnagin </p>
+             <p>David S. Klimstra </p>
+             <p>Yelena Y. Janjigian </p>
+             <p>David B. Solit </p>
+             <p>Nikolaus Schultz </p>
+             <p>Ghassan K. Abou-Alfa </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-18-2293">10.1158/1078-0432.CCR-18-2293</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 30373752 · <strong>DOI:</strong> <a href="https://doi.org/10.1158/1078-0432.CCR-18-2293">10.1158/1078-0432.CCR-18-2293</a> · <strong>Journal:</strong> Clinical Cancer Research (2019)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Harding et al.&nbsp;prospectively sequenced matched tumor/normal DNA from 127 patients with advanced <a href="../cancer_types/HCC.html">hepatocellular carcinoma (HCC)</a> at MSKCC using the <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted NGS assay (341/410/468 genes) and correlated genotype with response to contemporary systemic therapy. They confirmed the canonical <a href="../cancer_types/HCC.html">HCC</a> genomic landscape (<a href="../genes/TERT.html">TERT</a> 55.6%, <a href="../genes/CTNNB1.html">CTNNB1</a> 35.7%, <a href="../genes/TP53.html">TP53</a> 32.5%; WNT and TP53 alterations mutually exclusive). Two clinically actionable findings emerged: oncogenic <a href="../themes/pi3k-mtor-pathway.md">PI3K-mTOR</a> pathway alterations were associated with shorter PFS/OS on <a href="../drugs/sorafenib.html">sorafenib</a> (n=81), and activating <a href="../themes/wnt-beta-catenin-pathway.md">WNT/β-catenin</a> alterations were associated with innate resistance to immune checkpoint inhibitors (n=31, 0% vs 53% disease control). 24% of tumors harbored potentially actionable alterations, and 6% of systemically-treated patients were matched to genome-driven therapy.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 127</strong> unique HCC patients (134 specimens), enrolled August 2014 – August 2017 at MSKCC under prospective genotyping protocol NCT01775072.</li>
+<li>Cancer type: conventional <a href="../cancer_types/HCC.html">HCC</a> (fibrolamellar and biphenotypic HCC-cholangiocarcinoma excluded).</li>
+<li>Dataset: <a href="../datasets/hcc_mskimpact_2018.html">hcc_mskimpact_2018</a> — all data available via cBioPortal at <code>study?id=hcc_mskimpact_2018</code> and variant calls in cBioPortal DataHub.</li>
+<li>Assay: <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> hybridization-capture targeted NGS sequenced on Illumina HiSeq 2500. Panel expanded during study: <a href="../methods/IMPACT341.html">IMPACT341</a> (21 cases), <a href="../methods/IMPACT410.html">IMPACT410</a> (70 cases), <a href="../methods/IMPACT468.html">IMPACT468</a> (36 cases). Standard input 250 ng DNA (min 50 ng); mean coverage 690×, median tumor purity 60%.</li>
+<li>TMB calculated per sample; MSI status via <a href="../methods/msisensor.html">MSIsensor</a> (MSI-H threshold ≥10).</li>
+<li>Variant filtering for oncogenicity via <a href="../methods/oncokb-annotation.html">OncoKB</a> levels 1–4.</li>
+<li>Cohort demographics: 79% male, 76% non-Asian; etiology HBV 17%, HCV 35%, nonviral 49%; BCLC stage A 29%, B 40%, C 30%; 61% not eligible for curative resection or transplantation; 16% local recurrence/extrahepatic specimens.</li>
+<li>Treatment subsets: <strong><a href="../drugs/sorafenib.html">sorafenib</a> n=81</strong> (75 first-line, 6 second-line); <strong>immune checkpoint inhibitor n=31</strong> (1 anti-CTLA-4 mono, 25 anti-PD-1/PD-L1 mono, 5 anti-PD-1 + anti-CTLA-4/KIR/LAG-3 combos).</li>
+<li>Reference comparator: <a href="../datasets/lihc_tcga_pan_can_atlas_2018.html">TCGA HCC</a> cohort (N = 196).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation landscape (134 specimens):</strong> alterations in 127 (95%). Most frequent genes (≥10%): <a href="../genes/TERT.html">TERT</a> 55.6%, <a href="../genes/CTNNB1.html">CTNNB1</a> 35.7%, <a href="../genes/TP53.html">TP53</a> 32.5%, <a href="../genes/ARID1A.html">ARID1A</a> 12.7%, <a href="../genes/TSC2.html">TSC2</a> 10.6%.</li>
+<li><strong>WNT pathway alterations 45% overall;</strong> additional WNT-pathway members: <a href="../genes/AXIN1.html">AXIN1</a> 6.3%, <a href="../genes/AXIN2.html">AXIN2</a> 0.05% (sic), <a href="../genes/APC.html">APC</a> 5.2%.</li>
+<li><strong>CNAs:</strong> <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/FGF19.html">FGF19</a> amplification 7%, <a href="../genes/MYC.html">MYC</a> 6.1%, <a href="../genes/MET.html">MET</a> 1.5%, <a href="../genes/VEGFA.html">VEGFA</a> &lt;1%; <a href="../genes/HLA-B.html">HLA-B</a> loss 2.7%.</li>
+<li><strong>Mutual exclusivity:</strong> TP53 mutations vs.&nbsp;WNT pathway alterations P = 0.003 — defines at least two major genomic subsets.</li>
+<li><strong>Etiology:</strong> virally mediated HCC enriched for TP53 mutations vs.&nbsp;nonviral (45% vs.&nbsp;21%, P = 0.001); numerically less WNT pathway alteration (41% vs.&nbsp;60%, P = 0.7).</li>
+<li><strong>TMB:</strong> median 4.08; variance low (SD = 2.71, second only to germ cell tumors among solid tumors); no MSI-H or hypermutators observed; only 1/27 immunotherapy-evaluable patients had TMB &gt; 10.</li>
+<li><strong>Sorafenib (n = 81; 79 evaluable):</strong> median PFS 4.8 mo, median <a href="../cancer_types/OS.html">OS</a> 16.4 mo overall.
+<ul>
+<li>Oncogenic <a href="../themes/pi3k-mtor-pathway.md">PI3K-mTOR</a> pathway alterations (n = 12 of 79) → lower DCR (8.3% vs.&nbsp;40.2%, P = 0.05), shorter median PFS (1.9 vs.&nbsp;5.3 mo; HR 3.8, 95% CI 2.0–7.5, P &lt; 0.0001) and OS (10.4 vs.&nbsp;17.9 mo; HR 2.5, 95% CI 1.21–5.31, P = 0.01).</li>
+<li>WNT, MAPK, TP53, cell-cycle, and chromatin-remodeling pathway alterations had no effect on sorafenib outcomes.</li>
+<li><a href="../genes/VEGFA.html">VEGFA</a> amplification rare (3.9%) and anecdotally not associated with extreme sorafenib response.</li>
+</ul></li>
+<li><strong>Immune checkpoint inhibitors (n = 31; 27 evaluable):</strong> ORR 11.1% (1 CR, 2 PR, 10 SD, 14 PD); median PFS 5.4 mo, median OS 12.9 mo.
+<ul>
+<li>Activating WNT/β-catenin alterations (10 patients) → 0/10 clinical benefit vs.&nbsp;9/17 (53%) for non-WNT patients (P = 0.009).</li>
+<li>Shorter median PFS in WNT-activated tumors (2.0 vs.&nbsp;7.4 mo; HR 9.2, 95% CI 2.9–28.8, P &lt; 0.0001) and numerically shorter median OS (9.1 vs.&nbsp;15.2 mo; HR 2.6, 95% CI 0.76–8.7, P = 0.11).</li>
+<li>TMB did <strong>not</strong> stratify ICI response: median TMB 3.8 (responders) vs.&nbsp;3.9 (non-responders), P = 0.98; PFS for TMB &lt;3.8 vs.&nbsp;≥3.8 was 3.1 vs.&nbsp;3.0 months (P = 0.21).</li>
+</ul></li>
+<li><strong>Actionability:</strong> 24% of patients harbored ≥1 potentially actionable alteration via OncoKB. No level 1/2A alterations were found. Actionable hits included <a href="../genes/TSC1.html">TSC1</a> &lt;1% / <a href="../genes/TSC2.html">TSC2</a> 7% truncating/inactivating, <a href="../genes/PTEN.html">PTEN</a> truncating/homdel 3.9%, <a href="../genes/FGF19.html">FGF19</a> amplifications 6.3%, <a href="../genes/MET.html">MET</a> amplifications 1.5%, and oncogenic missense in <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/IDH1.html">IDH1</a> (all &lt;1%).</li>
+<li><strong>Matched therapy:</strong> 5/87 (5.7%) systemically-treated patients matched to genome-directed therapy. 4/10 TSC1/2-altered patients received <a href="../drugs/everolimus.html">everolimus</a> off-label or on-trial; 1 patient with <a href="../genes/VEGFA.html">VEGFA</a> + <a href="../genes/MET.html">MET</a> co-amplification received anti-VEGFR2 + anti-MET mAbs on trial. Of these 5, 4 had progressed on first-line sorafenib within 1.5–2.5 mo; all 4 achieved at least stable disease on matched therapy at first scan; 3/4 had ≥5 mo clinical benefit.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TERT.html">TERT</a> — promoter/coding alterations in 55.6% (most frequently altered gene).</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — activating mutations in 35.7%; defines WNT-activated subset; predicts innate resistance to immune checkpoint blockade.</li>
+<li><a href="../genes/TP53.html">TP53</a> — mutated in 32.5%; mutually exclusive with WNT pathway alterations (P = 0.003); enriched in virally mediated HCC (45% vs.&nbsp;21%, P = 0.001).</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — mutated in 12.7%.</li>
+<li><a href="../genes/TSC2.html">TSC2</a> — inactivating/truncating in ~10.6% (7% by actionable-call); together with <a href="../genes/TSC1.html">TSC1</a> these mTOR negative regulators are the rationale for matched <a href="../drugs/everolimus.html">everolimus</a>. One <a href="../genes/TSC2.html">TSC2</a> E95* patient progressed on sorafenib then had disease stabilization with minor tumor shrinkage on <a href="../drugs/everolimus.html">everolimus</a> (Fig 4C).</li>
+<li><a href="../genes/TSC1.html">TSC1</a> — truncating/inactivating &lt;1%.</li>
+<li><a href="../genes/AXIN1.html">AXIN1</a> — inactivating in 6.3%; AXIN1-inactivated tumors grouped with CTNNB1-activated tumors as “WNT-activated” for ICI resistance analysis.</li>
+<li><a href="../genes/AXIN2.html">AXIN2</a> — reported at 0.05% (as published).</li>
+<li><a href="../genes/APC.html">APC</a> — alterations 5.2%.</li>
+<li><a href="../genes/CCND1.html">CCND1</a> / <a href="../genes/FGF19.html">FGF19</a> — coamplification on 11q13 amplicon in 7% (<a href="../genes/FGF19.html">FGF19</a> amplification 6.3% by actionable-call); rationale for <a href="../genes/FGFR4.html">FGFR4</a> inhibitors in HCC.</li>
+<li><a href="../genes/MYC.html">MYC</a> — amplification 6.1%.</li>
+<li><a href="../genes/MET.html">MET</a> — amplification 1.5%; one patient with concurrent 2.1× MET and 3.7× VEGFA amplification received anti-VEGFR2 + anti-MET mAbs.</li>
+<li><a href="../genes/VEGFA.html">VEGFA</a> — amplification &lt;1% in overall cohort, 3.9% of sorafenib-evaluable; proposed biomarker for extreme sorafenib response but not confirmed here.</li>
+<li><a href="../genes/HLA-B.html">HLA-B</a> — loss 2.7%.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — truncating/homozygous deletion 3.9%; contributes to actionable PI3K-mTOR pathway alterations.</li>
+<li><a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a> — oncogenic missense each &lt;1%.</li>
+<li><a href="../genes/IDH1.html">IDH1</a> — missense &lt;1%; possibly defines a cholangiocarcinoma-like HCC subset susceptible to selective <a href="../genes/IDH1.html">IDH1</a> inhibitors such as <a href="../drugs/ivosidenib.html">ivosidenib</a>.</li>
+<li><a href="../genes/MTOR.html">MTOR</a> — discussed as part of mTOR pathway/actionability framework (with TSC1/TSC2 alterations driving everolimus response per prior renal-cell evidence).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Predictive biomarker — sorafenib:</strong> activating PI3K-mTOR pathway alterations identify a subset (~15% of evaluable sorafenib patients) with markedly worse outcomes (PFS HR 3.8, OS HR 2.5). The authors propose mTOR inhibition as a rational salvage strategy in this group, citing umbrella trials NCI-MATCH (NCT02465060) and ASCO TAPUR (NCT02693535).</li>
+<li><strong>Predictive biomarker — immune checkpoint blockade:</strong> activating WNT/β-catenin pathway alterations (CTNNB1 gain-of-function or <a href="../genes/AXIN1.html">AXIN1</a> loss) are associated with innate resistance to anti-PD-1/PD-L1 ± anti-CTLA-4 therapy in HCC. All 10 WNT-altered ICI-treated patients had progressive disease at first scan vs.&nbsp;53% disease control in non-WNT patients. Authors caution data are preliminary but, if validated, would inform patient selection and trial design.</li>
+<li><strong>Negative biomarker — TMB / MSI for ICI:</strong> TMB and MSI status are unlikely to be major determinants of ICI response in advanced HCC in this cohort (no MSI-H, TMB-median 3.8 nondiscriminating between responders and non-responders).</li>
+<li><strong>Genome-matched targeted therapy:</strong> 24% of HCCs have ≥1 OncoKB-actionable alteration; 6% of systemically-treated patients were matched to therapy in this study. Reported matched options: <a href="../drugs/everolimus.html">everolimus</a> for TSC1/2-altered HCC; FGFR4 inhibitors for FGF19-amplified HCC (in development); MET inhibitors / <a href="../drugs/cabozantinib.html">cabozantinib</a> for MET-amplified HCC; selective IDH1 inhibitors for IDH1-mutant HCC.</li>
+<li><strong>Other HCC standard agents discussed:</strong> <a href="../drugs/regorafenib.html">regorafenib</a> (second-line TKI), <a href="../drugs/lenvatinib.html">lenvatinib</a> (first-line TKI non-inferior to sorafenib), <a href="../drugs/nivolumab.html">nivolumab</a> (CheckMate 040), <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, <a href="../drugs/tivantinib.html">tivantinib</a> (failed MET-high HCC trial METIV-HCC).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Targeted panel coverage:</strong> MSK-IMPACT cannot detect alterations in genes outside the 341/410/468 design, epigenetic silencing, or HBV integration events.</li>
+<li><strong>Tumor heterogeneity:</strong> single-site biopsy cannot fully characterize clonal architecture in multisite metastatic HCC; authors propose ctDNA or single-cell follow-on studies.</li>
+<li><strong>Small sample size:</strong> confounding by HCC etiology, AFP, extrahepatic spread, vascular invasion not fully controlled — particularly for the n = 31 ICI subset and the n = 12 PI3K-mTOR-altered sorafenib group.</li>
+<li><strong>Selection bias:</strong> favorable OS (16.4 mo) vs.&nbsp;published sorafenib (12.2 mo, ref 5) likely reflects MSKCC referral bias, access to novel therapies post-progression, and high proportion of preserved hepatic function (Child-Pugh A 96%).</li>
+<li><strong>Open question — WNT predictive value:</strong> whether the WNT-resistance signal is causal vs.&nbsp;confounded; needs validation in larger retrospective cohorts and prospective ICI studies. HLA-I heterogeneity (Chowell et al.) cited as another possible innate-resistance axis worth integrating.</li>
+<li><strong>Open question — mTOR inhibitor efficacy in HCC:</strong> matched everolimus produced cytostatic but modest benefit in TSC1/2-altered HCC; durability and the right drug/combination remain unresolved.</li>
+<li><strong>No level 1/2A alterations:</strong> underscores the gap between actionability annotation and FDA-validated biomarkers in HCC.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“WNT/β-catenin pathway (45%) and TP53 (33%) alterations were frequent and represented mutually exclusive molecular subsets.” (Abstract)</li>
+<li>“In sorafenib-treated patients (n = 81), oncogenic PI3K-mTOR pathway alterations were associated with lower disease control rates (DCR, 8.3% vs.&nbsp;40.2%), shorter median progression-free survival (PFS; 1.9 vs.&nbsp;5.3 months), and shorter median overall survival (OS; 10.4 vs.&nbsp;17.9 months).” (Abstract)</li>
+<li>“For patients treated with immune checkpoint inhibitors (n = 31), activating alteration WNT/β-catenin signaling were associated with lower DCR (0% vs.&nbsp;53%), shorter median PFS (2.0 vs.&nbsp;7.4 months), and shorter median OS (9.1 vs.&nbsp;15.2 months).” (Abstract)</li>
+<li>“The most frequently mutated genes occurring in ≥10% of all samples included TERT (55.6%), CTNNB1 (35.7%), TP53 (32.5%), <a href="../genes/ARID1A.html">ARID1A</a> (12.7%), and TSC2 (10.6%).” (Results — Landscape)</li>
+<li>“CNA included amplifications in CCND1/FGF19 (7%), <a href="../genes/MYC.html">MYC</a> (6.1%), MET (1.5%) and VEGFA (&lt;1%), and loss in <a href="../genes/HLA-B.html">HLA-B</a> (2.7%).” (Results — Landscape)</li>
+<li>“Twenty-four percent of patients harbored potentially actionable alterations including TSC1/2 (8.5%) inactivating/truncating mutations, FGF19 (6.3%) and MET (1.5%) amplifications, and IDH1 missense mutations (&lt;1%).” (Abstract)</li>
+<li>“Five (5.7%) of 87 patients who received systemic therapy were matched to treatments targeting mTOR or MET based on the clinical genomic report.” (Results — Prospective genotyping)</li>
+<li>“All data are available for visualization and analysis via the cBioPortal for Cancer Genomics (http://cbioportal.org/study?id=<a href="../datasets/hcc_mskimpact_2018.html">hcc_mskimpact_2018</a>).” (Materials and Methods)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/30373752.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/30373752.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

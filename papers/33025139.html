@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Epigenomic, genomic, and transcriptomic landscape of schwannomatosis – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33025139.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33025139.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Epigenomic, genomic, and transcriptomic landscape of schwannomatosis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sheila Mansouri </p>
+             <p>Suganth Suppiah </p>
+             <p>Yasin Mamatjan </p>
+             <p>Irene Paganini </p>
+             <p>Jeffrey C. Liu </p>
+             <p>Shirin Karimi </p>
+             <p>Vikas Patil </p>
+             <p>Farshad Nassiri </p>
+             <p>Olivia Singh </p>
+             <p>Yogi Sundaravadanam </p>
+             <p>Prisni Rath </p>
+             <p>Roberta Sestini </p>
+             <p>Francesca Gensini </p>
+             <p>Sameer Agnihotri </p>
+             <p>Jaishri Blakeley </p>
+             <p>Kimberly Ostrow </p>
+             <p>David Largaespada </p>
+             <p>Scott R. Plotkin </p>
+             <p>Anat Stemmer-Rachamimov </p>
+             <p>Marcela Maria Ferrer </p>
+             <p>Trevor J. Pugh </p>
+             <p>Kenneth D. Aldape </p>
+             <p>Laura Papi </p>
+             <p>Gelareh Zadeh </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1007/s00401-020-02230-x">10.1007/s00401-020-02230-x</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 33025139 · <strong>DOI:</strong> 10.1007/s00401-020-02230-x · <strong>Journal:</strong> Acta Neuropathologica (2021)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Mansouri et al.&nbsp;assembled the largest multi-platform molecular profile of schwannomatosis-associated schwannomas (SWNTS-SWNs) to date — 165 tumors from 72 patients — and compared them to non-syndromic sporadic schwannomas (NS-SWNs). DNA methylation, whole-exome, whole-genome and RNA sequencing reveal that SWNTS-SWNs split into <strong>four methylation subgroups tied to anatomic location</strong>, carry higher copy-number burden (especially in <a href="../genes/LZTR1.html">LZTR1</a>-mutant cases), and harbor the <a href="../genes/SH3PXD2A.html">SH3PXD2A</a>–<a href="../genes/HTRA1.html">HTRA1</a> fusion in ~14% of cases — predominantly in LZTR1-mutant tumors. Painful tumors show coordinated upregulation of RAS/MAPK, PIGF/VEGF, mTOR, and <a href="../genes/ERBB2.html">ERBB2</a> pathways, nominating MEK inhibitors (e.g., <a href="../drugs/selumetinib.html">selumetinib</a>) and anti-angiogenics (e.g., <a href="../drugs/bevacizumab.html">bevacizumab</a>) as therapeutic candidates for tumor and pain management.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>165 SWNs from 72 schwannomatosis patients</strong> (F/M: 31/41), assembled through the Children’s Tumor Foundation Synodos for Schwannomatosis Consortium and now released as cBioPortal study <a href="../datasets/schw_ctf_synodos_2025.html">schw_ctf_synodos_2025</a> (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>Comparator: non-syndromic sporadic schwannomas (NS-SWNs) and 90 neurofibromas (56 plexiform, 34 cutaneous) for <a href="../methods/epic-methylation-array.html">DNA methylation</a> profiling (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>Histology: <a href="../cancer_types/SCHW.html">schwannoma</a> (peripheral nerve sheath tumor); related context for <a href="../cancer_types/MPNST.html">MPNST</a> excluded.</li>
+<li>Assays per tumor: Illumina Infinium HumanMethylationEPIC (<a href="../methods/epic-methylation-array.html">epic-methylation-array</a>); <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on 29 SWNTS-SWNs + 25 NS-SWNs (Agilent SureSelect All Exon V5+UTRs, ≥250× tumor / 50× normal); <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> on 22 SWNTS-SWNs (Illumina HiSeqX, 60× tumor / 30× normal); <a href="../methods/rna-seq.html">RNA-seq</a> on 24 SWNTS-SWNs + 41 NS-SWNs (TruSeq Stranded Total RNA / Ribo-Zero Gold).</li>
+<li>Variant calling: <a href="../methods/mutect.html">MuTect</a>, <a href="../methods/strelka.html">Strelka</a>, HaplotypeCaller; SVs by <a href="../methods/delly.html">DELLY</a> v0.8.1 with MAVIS validation; CN/LOH by <a href="../methods/sequenza.html">Sequenza</a>; fusion discovery by <a href="../methods/fusioncatcher.html">FusionCatcher</a> with RT-PCR confirmation; focal CN peaks by <a href="../methods/gistic.html">GISTIC</a>; pathway analysis by <a href="../methods/gsea.html">GSEA</a>; immune deconvolution by <a href="../methods/cibersortx.html">CIBERSORTx</a>; <a href="../genes/NF2.html">NF2</a> coding-region screen by <a href="../methods/sanger-sequencing.html">Sanger sequencing</a> (ABI 3100/310); methylation clustering by ConsensusClusterPlus + Ward linkage + <a href="../methods/tsne.html">t-SNE</a> on top 10,000 variably methylated CpGs (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>Reference genome: hg19 (GRCh37) for DNA; hg38 for RNA-seq alignment.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>DNA methylation separates SWNs from neurofibromas, not from NS-SWNs.</strong> Unsupervised clustering of the top 2,000 most variably methylated CpGs cleanly partitioned SWNs (SWNTS + NS) from neurofibromas, but SWNTS-SWNs and NS-SWNs intermixed — supporting a shared Schwann-cell origin (<a href="../papers/33025139.html">PMID:33025139</a>, Fig. 1a–b).</li>
+<li><strong>Global hypomethylation in SWNTS-SWNs.</strong> 75% of differentially methylated CpGs were hypomethylated in SWNTS-SWNs relative to NS-SWNs, concentrated in CpG islands and promoter regions. LINE-1 repetitive elements were significantly hypomethylated (Student’s t, p = 0.0005), with corresponding 5.17-fold upregulation of <a href="../genes/L1TD1.html">L1TD1</a> (q = 0.039) and higher <a href="../genes/TET1.html">TET1</a>/<a href="../genes/TET2.html">TET2</a> expression (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Four methylation subgroups within SWNTS-SWNs</strong>, stable on consensus clustering of N = 88, segregated by <strong>anatomic location</strong> (lower extremity, upper extremity, spinal, truncal, head &amp; neck). Clusters 1–4 showed dominant upregulation of cAMP, <a href="../genes/KRAS.html">KRAS</a>, MEK/PIGF, and PIGF/VEGF programs respectively; tumors from the same patient at different anatomic sites resolved into different clusters, indicating origin-of-cell heterogeneity (Fig. 1d–f, <a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Tumor mutation burden is low and similar across SWNTS-SWNs and NS-SWNs.</strong> SWNTS-SWN: WES 0.17/Mb (5.92/sample), WGS 0.23/Mb (8.81/sample); NS-SWN: WES 0.22/Mb (6.08/sample). C&gt;T transitions dominate; COSMIC signatures present in ≥2 SWNTS-SWNs include 1A (<a href="../genes/MUTYH.html">MUTYH</a>, 26/29), 6 (MMR, 7/29), 15 (MMR, 4/29), and 2 (APOBEC, 3/29). Signature 2 was absent from NS-SWNs; signature 20 appeared in 3/24 NS-SWNs (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>NF2 is the only recurrent driver SNV</strong> but is more frequently hit in syndromic tumors. SWNTS-SWNs vs.&nbsp;NS-SWNs harboring <a href="../genes/NF2.html">NF2</a> mutation + copy-number loss: <strong>83% vs.&nbsp;58%</strong> (Chi-square, p &lt; 0.0001). All germline LZTR1-mutant SWNTS-SWNs had either an NF2 mutation or deletion (<a href="../papers/33025139.html">PMID:33025139</a>, Fig. 2a).</li>
+<li><strong>22q deletions are far more common in SWNTS-SWNs</strong>: 80% vs.&nbsp;30% in NS-SWNs (Chi-square, p &lt; 0.01), with <strong>76% vs.&nbsp;35%</strong> of SWNTS-SWNs vs.&nbsp;NS-SWNs showing deep deletions across <a href="../genes/LZTR1.html">LZTR1</a>, <a href="../genes/SMARCB1.html">SMARCB1</a>, and <a href="../genes/NF2.html">NF2</a>. Other genes on 22q11.21–q11.23 — <a href="../genes/MAPK1.html">MAPK1</a>, <a href="../genes/BCR.html">BCR</a>, <a href="../genes/EWSR1.html">EWSR1</a>, <a href="../genes/PATZ1.html">PATZ1</a>, <a href="../genes/ZNRF3.html">ZNRF3</a>, <a href="../genes/MYH9.md">MYH9</a> — were deleted in 77% and their expression significantly reduced (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Three-hit / four-hit progression confirmed</strong>, with 9/29 (31%) of SWNTS-SWN samples showing two hits (22q deletion) without somatic NF2 mutation — a pattern absent from NS-SWNs (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Recurrent non-22q arm-level deletions in chromosomes 4, 16, 19, and 21 were specific to LZTR1-mutant tumors.</strong> LZTR1-mutant SWNTS-SWNs carried ~9-fold higher CNV than LZTR1-wild-type (Student’s t, p = 0.0072). Overall CNV in SWNTS-SWNs vs.&nbsp;NS-SWNs: WES 5.97% vs.&nbsp;0.86%, WGS 2.40% (Student’s t, p = 0.005) (<a href="../papers/33025139.html">PMID:33025139</a>, Fig. 2c–d).</li>
+<li><strong>Structural variants:</strong> 1 recurrent inversion, 4 inter-chromosomal translocations, and 4 inter-chromosomal inverted translocations seen in ≥2/22 WGS tumors. Most frequent (3/22): inverted translocation between ZNF708 (Chr 19p) and ZNF138 (Chr 7q); significance unknown (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong><a href="../genes/SH3PXD2A.html">SH3PXD2A</a>–<a href="../genes/HTRA1.html">HTRA1</a> fusion confirmed in SWNTS-SWNs.</strong> RT-PCR detected the fusion in <strong>14% (≈3/22)</strong> of SWNTS-SWNs, enriched in males (14/22, 63%), and <strong>strongly associated with germline <a href="../genes/LZTR1.html">LZTR1</a> mutation (15/22, 68%; Chi-square, p = 0.025)</strong> (<a href="../papers/33025139.html">PMID:33025139</a>). The fusion was originally described in ~10% of sporadic schwannomas (Agnihotri et al.&nbsp;2016, Nat Genet — not yet in this wiki corpus).</li>
+<li><strong>Other fusions:</strong> NAIP–OCLN on Chr 5 was significantly higher in SWNTS-SWNs (67%) vs.&nbsp;NS-SWNs (29%) (Chi-square, p &lt; 0.01). The <a href="../genes/KANSL1.html">KANSL1</a>–<a href="../genes/ARL17A.html">ARL17A</a> KANSARL predisposition fusion was present at similar rates in both groups (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Transcriptomic upregulation in SWNTS-SWNs vs.&nbsp;NS-SWNs</strong> of PIGF, VEGF, MEK, ERBB2, and <a href="../genes/SHH.html">SHH</a> pathways; RB is the top downregulated pathway. Cell cycle, cell division, and DNA repair programs are coordinately upregulated; MMR/DNA-repair genes <a href="../genes/MSH3.html">MSH3</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/PMS2.html">PMS2</a>, and <a href="../genes/MLH3.html">MLH3</a> are significantly higher (Student’s t, q &lt; 0.01), with <a href="../genes/MSH6.html">MSH6</a> and <a href="../genes/MLH1.html">MLH1</a> showing concordant promoter hypomethylation. <a href="../genes/LZTR1.html">LZTR1</a> and <a href="../genes/SMARCB1.html">SMARCB1</a> transcripts are significantly reduced in SWNTS-SWNs (q &lt; 0.001) (<a href="../papers/33025139.html">PMID:33025139</a>, Fig. 4).</li>
+<li><strong>Immune contexture differs from NS-SWNs.</strong> SWNTS-SWNs have higher naïve B cells, plasma cells, and activated NK cells but <strong>lower total macrophages and CD8+ T cells</strong> (Student’s t, p &lt; 0.05). NF2-mutant SWNTS-SWNs are enriched for M2 macrophages (p &lt; 0.01). HLA-A/-B/-C/-DPB1 expression is reduced; <a href="../genes/CD28.html">CD28</a> and <a href="../genes/CD80.html">CD80</a> are upregulated (<a href="../papers/33025139.html">PMID:33025139</a>, Fig. 5a–h, j).</li>
+<li><strong>Genomic correlates of pain.</strong> Painful SWNTS-SWNs are enriched in: lower extremity location (58%, Chi-square p = 0.001), female sex (64%, z-score p &lt; 0.001), germline LZTR1 mutation (57%, Chi-square p = 0.002), and SH3PXD2A-HTRA1 fusion (16%, z-score p = 0.039). They carry <strong>4.4-fold higher CNV</strong> (p = 0.042); TMB is not significantly different. Upregulated pathways in painful tumors: RAS/MAPK, PIGF/VEGF, ERBB2/HER2, RB/RAF, mTOR, MEK. Painful tumors also carry higher total mast-cell infiltrates (Student’s t, p &lt; 0.01) (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/LZTR1.html">LZTR1</a> — germline LZTR1 mutation defines a SWNTS-SWN subclass with markedly higher CNV (~9-fold), recurrent non-22q arm-level deletions (Chr 4/16/19/21), enrichment for SH3PXD2A-HTRA1 fusion, NF2 co-loss, painful clinical course, and upregulated RAS/MAPK + ERBB2/VEGF programs (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><a href="../genes/NF2.html">NF2</a> — sole recurrent driver SNV across all SWNs; SWNTS-SWNs harbor NF2 mutation/loss in 83% vs.&nbsp;58% in NS-SWNs (p &lt; 0.0001). NF2-mutant tumors show RAS/MAPK upregulation and M2 macrophage enrichment (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><a href="../genes/SMARCB1.html">SMARCB1</a> — co-deleted on 22q in 76% of SWNTS-SWNs; significantly lower transcript level than in NS-SWNs (q &lt; 0.001) (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><a href="../genes/SH3PXD2A.html">SH3PXD2A</a>–<a href="../genes/HTRA1.html">HTRA1</a> — recurrent gene fusion in 14% of SWNTS-SWNs (3/22 WGS samples by RT-PCR), enriched in LZTR1-mutant and painful tumors; therapeutic rationale for MEK inhibition by analogy with sporadic schwannomas (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>22q neighbors of NF2/SMARCB1 — <a href="../genes/MAPK1.html">MAPK1</a>, <a href="../genes/BCR.html">BCR</a>, <a href="../genes/EWSR1.html">EWSR1</a>, <a href="../genes/PATZ1.html">PATZ1</a>, <a href="../genes/ZNRF3.html">ZNRF3</a>, <a href="../genes/MYH9.md">MYH9</a>: deleted in 77% of cases on 22q11.21–q11.23 with coordinated expression loss; proposed as additional contributors to schwannomatosis pathogenesis (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>MMR / DNA-repair genes: <a href="../genes/MSH3.html">MSH3</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/PMS2.html">PMS2</a>, <a href="../genes/MLH3.html">MLH3</a> upregulated transcriptionally; <a href="../genes/MLH1.html">MLH1</a> and <a href="../genes/MSH6.html">MSH6</a> promoter-hypomethylated in SWNTS-SWNs; <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a> also up. COSMIC signatures 6/15 are present but <strong>no 22q microsatellite instability</strong> is detected (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>Demethylation machinery: <a href="../genes/TET1.html">TET1</a>, <a href="../genes/TET2.html">TET2</a> upregulated; <a href="../genes/DNMT1.html">DNMT1</a>, <a href="../genes/DNMT3A.html">DNMT3A</a> unchanged. <a href="../genes/L1TD1.html">L1TD1</a> (LINE-1-encoded) upregulated 5.17-fold (q = 0.039) (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>Novel deleterious SNVs validated by Sanger in single cases: <a href="../genes/MYPN.md">MYPN</a>, <a href="../genes/CAV3.html">CAV3</a>, <a href="../genes/SMOX.html">SMOX</a> — non-recurrent (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>Other recurrent fusions: <a href="../genes/NAIP.md">NAIP</a>–<a href="../genes/OCLN.md">OCLN</a> on Chr 5 (67% SWNTS-SWN vs.&nbsp;29% NS-SWN, p &lt; 0.01); KANSARL (<a href="../genes/KANSL1.html">KANSL1</a>–<a href="../genes/ARL17A.html">ARL17A</a>) at similar rates in both groups (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>MEK inhibition (e.g., <a href="../drugs/selumetinib.html">selumetinib</a>)</strong> is nominated as a therapeutic strategy in SWNTS-SWNs, particularly tumors carrying germline LZTR1 mutation, somatic NF2 mutation, the SH3PXD2A-HTRA1 fusion, or anatomic location in extremities — all of which show coordinated RAS/MAPK upregulation. The authors note FDA approval of MEK inhibitors for plexiform neurofibromas in <a href="../genes/NF1.html">NF1</a> (Gross et al.&nbsp;2020, NEJM) as supporting precedent (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Anti-angiogenic therapy</strong> (<a href="../drugs/bevacizumab.html">bevacizumab</a> / Avastin and PIGF-targeting compounds) is proposed for management of painful SWNTS-SWNs given PIGF/VEGF/RAF pathway upregulation in painful tumors. The authors specifically call for clinical trials with pain alleviation and quality-of-life as primary endpoints (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>mTOR inhibition</strong> is suggested for chronic pain management, citing established mTOR involvement in pain initiation/maintenance and observed mTOR pathway upregulation in painful SWNTS-SWNs and tumors from extremities (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Methylation-based subclassification (4 clusters by anatomic origin) may guide management.</strong> Each subgroup has a distinct dominant pathway (cAMP / KRAS / MEK-PIGF / PIGF-VEGF) that could inform targeted therapy selection — even when tumors are histologically identical (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Clinical risk stratification:</strong> painful SWNTS-SWNs are statistically enriched in lower-extremity tumors from female patients with germline LZTR1 mutations and SH3PXD2A-HTRA1 fusion — a clinically tractable signature for prioritizing aggressive intervention (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Modest sequencing cohort sizes</strong> despite being the largest schwannomatosis series to date: 29 WES + 22 WGS + 24 RNA-seq SWNTS-SWN samples — statistical power for rare-variant discovery is limited (e.g., MYPN/CAV3/SMOX SNVs were non-recurrent) (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Inferred mechanism for MMR-gene upregulation</strong> (promoter hypomethylation) without direct demonstration; the source of low-level COSMIC signatures 6/15 in MSI-negative tumors is not resolved (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Significance of the recurrent ZNF708–ZNF138 inverted translocation is unknown</strong>; no functional follow-up (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Therapeutic claims are correlative</strong>, not validated in preclinical models or trials within this paper; the MEK / VEGF / mTOR proposals require prospective evaluation (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>No NF2-mutant germline cases were enrolled</strong> (intentional, to focus on SWNTS), so the molecular boundary between SWNTS and mosaic NF2 disease remains incompletely separated (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li><strong>Reference-genome split</strong> (DNA aligned to hg19, RNA aligned to hg38) is documented but introduces potential coordinate-conversion artifacts in multi-omic integration (<a href="../papers/33025139.html">PMID:33025139</a>).</li>
+<li>The patient/tumor identifier table is in Online Resource Table 1; this wiki page does not attempt to enumerate per-sample annotations.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Our cohort included 165 SWNs from 72 SWNTS patients (female/male: 31/41).” — Results, Cohort summary.</li>
+<li>“a statistically significant higher proportion of SWNTS-SWNs harboring mutations and copy number loss in NF2 compared to NS-SWNs (83% vs.&nbsp;58%, Chi-square, p &lt; 0.0001).” — Results, Spectrum of somatic alterations.</li>
+<li>“76% vs.&nbsp;35%” deep deletions across LZTR1/SMARCB1/NF2 — Results, Spectrum of somatic alterations.</li>
+<li>“80% vs.&nbsp;30%, Chi-square, p &lt; 0.01” for 22q deletions in SWNTS-SWNs vs.&nbsp;NS-SWNs — Results, Structural aberrations.</li>
+<li>“nine-fold higher CNV in LZTR1-mutant compared to LZTR1-wild-type SWNTS-SWNs (Student’s t test, p = 0.0072).” — Results, Structural aberrations.</li>
+<li>“Using RT-PCR we detected this fusion in SWNTS-SWNs (14%) … majority of fusion-positive samples harbored germline mutations in LZTR1 (15/22, 68%, Chi-square, p = 0.025).” — Results, Transcriptome profile.</li>
+<li>“<a href="../genes/MSH3.html">MSH3</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/PMS2.html">PMS2</a> and <a href="../genes/MLH3.html">MLH3</a> were significantly upregulated in SWNTS-SWNs relative to NS-SWNs (Student’s t test, q &lt; 0.01).” — Results, Transcriptome profile.</li>
+<li>“painful SWNTS-SWNs had 4.4-fold higher CNV (p = 0.042) … Notably, painful SWNTS-SWNs displayed significant upregulation of the RAS/MAPK pathway.” — Results, Genomic hallmarks of pain.</li>
+<li>“consideration for use of MEK inhibitors as a therapeutic strategy for pain management in this patient population is promising.” — Discussion.</li>
+<li>“already existing drugs, such as the anti-angiogenic drug Avastin or compounds targeting PIGF, can be utilized for management of pain or tumor size in SWNTS.” — Discussion.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/33025139.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/33025139.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

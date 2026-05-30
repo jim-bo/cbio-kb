@@ -16,7 +16,7 @@ from statistics import mean
 import yaml
 
 from .judge import judge
-from .runners import agentic, rag
+from .runners import agentic, hybrid, rag
 
 _EVAL_DIR = Path(__file__).resolve().parent
 _QUESTIONS_PATH = _EVAL_DIR / "questions" / "v1.yaml"
@@ -24,6 +24,7 @@ _QUESTIONS_PATH = _EVAL_DIR / "questions" / "v1.yaml"
 RUNNERS = {
     "agentic": agentic.run,
     "rag": rag.run,
+    "hybrid": hybrid.run,
 }
 
 
@@ -195,13 +196,22 @@ def _write_report(records: list[dict], modes: list[str], path: Path) -> None:
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Run RAG-vs-agentic evaluation")
     p.add_argument("--split", default="train", choices=["train", "val", "test", "all"])
-    p.add_argument("--mode", default="both", choices=["agentic", "rag", "both"])
+    p.add_argument(
+        "--mode", default="both",
+        choices=["agentic", "rag", "hybrid", "both", "all"],
+        help="'both' = agentic+rag (back-compat); 'all' = agentic+rag+hybrid",
+    )
     p.add_argument("--no-judge", action="store_true")
     p.add_argument("--api-base", default="http://localhost:8080")
     p.add_argument("--ids", default=None, help="Comma-separated question IDs to run (overrides split filter)")
     args = p.parse_args(argv)
 
-    modes = ["agentic", "rag"] if args.mode == "both" else [args.mode]
+    if args.mode == "both":
+        modes = ["agentic", "rag"]
+    elif args.mode == "all":
+        modes = ["agentic", "rag", "hybrid"]
+    else:
+        modes = [args.mode]
     ids = [i for i in args.ids.split(",") if i.strip()] if args.ids else None
     # --ids searches across all splits; --split is ignored when ids are given
     split = None if (args.split == "all" or ids) else args.split

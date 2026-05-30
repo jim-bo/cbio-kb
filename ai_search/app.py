@@ -27,6 +27,7 @@ from pydantic_ai.usage import UsageLimits
 from sse_starlette.sse import EventSourceResponse
 
 from .agent import SYSTEM_PROMPT, Deps, ToolEvent, agent
+from .hybrid import _RERANK_ENABLED_DEFAULT, hybrid_event_generator
 from .memory import KEEP_RECENT_TURNS
 from .rag import rag_event_generator
 from .sessions import get_store
@@ -73,15 +74,15 @@ async def chat(request: Request):
     body = await request.json()
     user_message = body["message"]
     session_id = body.get("session_id") or str(uuid.uuid4())
-    mode = body.get("mode", "agentic")  # "agentic" | "rag"
+    mode = body.get("mode", "agentic")  # "agentic" | "rag" | "hybrid"
+
+    def _bounded_int(value, *, default: int, low: int, high: int) -> int:
+        try:
+            return max(low, min(high, int(value)))
+        except (TypeError, ValueError):
+            return default
 
     if mode == "rag":
-        def _bounded_int(value, *, default: int, low: int, high: int) -> int:
-            try:
-                return max(low, min(high, int(value)))
-            except (TypeError, ValueError):
-                return default
-
         max_context_chars = _bounded_int(
             body.get("max_context_chars", 60_000),
             default=60_000, low=4_000, high=120_000,
@@ -99,6 +100,40 @@ async def chat(request: Request):
                 yield {"event": event_type, "data": data}
 
         return EventSourceResponse(rag_gen())
+
+    if mode == "hybrid":
+        max_context_chars = _bounded_int(
+            body.get("max_context_chars", 60_000),
+            default=60_000, low=4_000, high=120_000,
+        )
+        top_k_dense = _bounded_int(body.get("top_k_dense", 40), default=40, low=1, high=80)
+        top_k_bm25 = _bounded_int(body.get("top_k_bm25", 40), default=40, low=1, high=80)
+        top_k_graph = _bounded_int(body.get("top_k_graph", 40), default=40, low=1, high=80)
+        top_k_fused = _bounded_int(body.get("top_k_fused", 30), default=30, low=1, high=80)
+        top_k_final = _bounded_int(body.get("top_k_final", 12), default=12, low=1, high=40)
+        # Tri-state: absent → server/env default; string "false"/"0" → off.
+        rerank_raw = body.get("rerank")
+        if rerank_raw is None:
+            rerank = _RERANK_ENABLED_DEFAULT
+        elif isinstance(rerank_raw, str):
+            rerank = rerank_raw.strip().lower() not in ("0", "false", "no", "")
+        else:
+            rerank = bool(rerank_raw)
+
+        async def hybrid_gen():
+            async for event_type, data in hybrid_event_generator(
+                user_message, session_id,
+                top_k_dense=top_k_dense,
+                top_k_bm25=top_k_bm25,
+                top_k_graph=top_k_graph,
+                top_k_fused=top_k_fused,
+                top_k_final=top_k_final,
+                rerank=rerank,
+                max_context_chars=max_context_chars,
+            ):
+                yield {"event": event_type, "data": data}
+
+        return EventSourceResponse(hybrid_gen())
 
     history = await _get_session_store().get(session_id) or []
 

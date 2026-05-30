@@ -37,6 +37,8 @@ chat = [
   "python-dotenv",
   "numpy",
   "faiss-cpu",
+  "rank-bm25",
+  "sentence-transformers",
 ]
 cloud = [
   "google-cloud-firestore>=2.19",

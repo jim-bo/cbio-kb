@@ -231,6 +231,14 @@ def cmd_build(args: argparse.Namespace) -> int:
         shutil.rmtree(staging, ignore_errors=True)
 
     print(f"[*] published artifacts to {out_dir}")
+
+    # Build the BM25 sidecar from the freshly-published meta.jsonl. Kept
+    # coupled to FAISS publication so the two retrievers can't drift —
+    # any rebuild of the dense index implies a rebuild of the sparse one.
+    print("[*] building BM25 sidecar…")
+    from cbio_kb.index import bm25 as _bm25
+    _bm25.build_bm25(out_dir)
+
     print("[✓] done")
     return 0
 

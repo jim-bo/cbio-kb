@@ -19,7 +19,7 @@ let assistantFullText = '';
 
 let sessionId = null;
 let sending = false;
-let chatMode = 'agentic'; // 'agentic' | 'rag'
+let chatMode = 'agentic'; // 'agentic' | 'rag' | 'hybrid'
 
 const form = document.getElementById('chat-form');
 const input = document.getElementById('user-input');
@@ -518,7 +518,11 @@ function toolIcon(name) {
         search: '\u{1F50D}',
         follow_links: '\u{1F517}',
         find_references: '\u21A9',
-        vector_search: '\u{1F9ED}'
+        vector_search: '\u{1F9ED}',
+        dense_search: '\u{1F9ED}',
+        bm25_search: '\u{1F520}',
+        graph_search: '\u{1F578}\u{FE0F}',
+        rrf_fuse_rerank: '\u{1F500}'
     };
     return icons[name] || '\u{1F527}';
 }

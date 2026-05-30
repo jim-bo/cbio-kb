@@ -23,6 +23,7 @@ include-after-body:
                 <select id="mode-toggle" class="mode-toggle" title="Retrieval mode" aria-label="Retrieval mode">
                     <option value="agentic">Agentic</option>
                     <option value="rag">RAG</option>
+                    <option value="hybrid">Hybrid</option>
                 </select>
                 <input type="text" id="user-input"
                        placeholder="Ask about genes, papers, cancer types..."

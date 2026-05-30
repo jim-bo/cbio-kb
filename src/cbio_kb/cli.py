@@ -75,6 +75,12 @@ def _cmd_index_build_papers(args: argparse.Namespace) -> int:
     ])
 
 
+def _cmd_index_build_bm25(args: argparse.Namespace) -> int:
+    from cbio_kb.index import bm25
+
+    return bm25.main(["--index-dir", args.index_dir])
+
+
 def _cmd_ontology_sync(args: argparse.Namespace) -> int:
     from cbio_kb.ontology import sync
 
@@ -326,6 +332,13 @@ def build_parser() -> argparse.ArgumentParser:
     # without the [server] extras installed).
     idx_bp.add_argument("--batch-size", type=int, default=25)
     idx_bp.set_defaults(func=_cmd_index_build_papers)
+
+    idx_bm = idx_sub.add_parser(
+        "build-bm25",
+        help="Rebuild BM25 sidecar from meta.jsonl (paired with the FAISS index)",
+    )
+    idx_bm.add_argument("--index-dir", default="data/paper_index")
+    idx_bm.set_defaults(func=_cmd_index_build_bm25)
 
     ont = sub.add_parser("ontology", help="Canonical ontology management")
     ont_sub = ont.add_subparsers(dest="subcmd", required=True)

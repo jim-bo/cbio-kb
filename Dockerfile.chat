@@ -34,6 +34,15 @@ COPY src/ src/
 
 RUN uv sync --frozen --no-dev --extra chat --extra cloud --no-editable
 
+# Pre-bake the cross-encoder reranker weights into the image so the hybrid
+# retrieval mode never reaches out to HuggingFace at request time — that
+# download would otherwise hit on the first hybrid query after a cold start
+# (added latency + a network-failure mode in prod). HF_HOME points the cache
+# at a copyable path; the runtime stage sets HF_HUB_OFFLINE so it's used as-is.
+ENV HF_HOME=/app/hf-cache \
+    CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
+RUN .venv/bin/python -c "import os; from sentence_transformers import CrossEncoder; CrossEncoder(os.environ['CBIO_RERANKER_MODEL'])"
+
 # ---------- Runtime ----------
 FROM python:3.13-slim-bookworm AS runtime
 
@@ -46,6 +55,8 @@ WORKDIR /app
 # Copy the installed venv and the package tree from the builder.
 COPY --from=builder --chown=app:app /app/.venv /app/.venv
 COPY --from=builder --chown=app:app /app/src /app/src
+# Pre-baked HuggingFace cache (cross-encoder reranker weights).
+COPY --from=builder --chown=app:app /app/hf-cache /app/hf-cache
 
 # Application code + raw wiki markdown (agent reads these at runtime).
 COPY --chown=app:app ai_search/ /app/ai_search/
@@ -56,7 +67,10 @@ COPY --chown=app:app wiki/ /app/wiki/
 ENV PYTHONPATH=/app \
     PATH="/app/.venv/bin:$PATH" \
     PYTHONUNBUFFERED=1 \
-    SESSION_STORE=firestore
+    SESSION_STORE=firestore \
+    HF_HOME=/app/hf-cache \
+    HF_HUB_OFFLINE=1 \
+    CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
 
 USER app
 

@@ -13,7 +13,10 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.11"
-      - run: uv sync --group dev
+      # `--extra chat` pulls rank-bm25 + sentence-transformers so the hybrid
+      # retrieval tests actually run. Without it they self-skip via
+      # importorskip and CI reports a false green.
+      - run: uv sync --group dev --extra chat
       - run: uv run pytest -v
       - run: uv run cbio-kb lint --wiki-dir wiki --allow-orphans
       - run: uv run cbio-kb crosslink --dry-run --wiki-dir wiki

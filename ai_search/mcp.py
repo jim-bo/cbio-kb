@@ -27,7 +27,12 @@ tools depend on.
 from __future__ import annotations
 
 import argparse
+import csv
+import os
 import re
+from collections import defaultdict
+from functools import lru_cache
+from pathlib import Path
 from typing import Annotated, Any
 
 from fastmcp import FastMCP
@@ -43,6 +48,34 @@ mcp = FastMCP(name="cbio-kb Retrieval Strategies")
 
 _PMID_RE = re.compile(r"(?:PMID[:\s]?|papers/)(\d{5,9})")
 
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+_PMID_MAP_CSV = Path(
+    os.environ.get("PMID_MAPPING_CSV", _REPO_ROOT / "data" / "pmid_to_pmcid.csv")
+)
+
+
+@lru_cache(maxsize=1)
+def _study_map() -> dict[str, list[str]]:
+    """Load ``pmid -> [cBioPortal studyId, ...]`` from the mapping CSV.
+
+    A PMID may back more than one study, so values are lists (order-preserving,
+    de-duplicated). Missing file / unmapped PMIDs yield an empty list.
+    """
+    out: dict[str, list[str]] = defaultdict(list)
+    if not _PMID_MAP_CSV.exists():
+        return out
+    with _PMID_MAP_CSV.open(encoding="utf-8") as fh:
+        for row in csv.DictReader(fh):
+            pmid = (row.get("pmid") or "").strip()
+            study_id = (row.get("studyId") or "").strip()
+            if pmid and study_id and study_id not in out[pmid]:
+                out[pmid].append(study_id)
+    return out
+
+
+def _study_ids(pmid: Any) -> list[str]:
+    return _study_map().get(str(pmid), [])
+
 
 def _passage_view(chunks: list[dict], top_k: int) -> list[dict]:
     """Trim retrieval chunks to a stable, JSON-friendly shape for the client."""
@@ -52,6 +85,7 @@ def _passage_view(chunks: list[dict], top_k: int) -> list[dict]:
         out.append(
             {
                 "pmid": c.get("pmid"),
+                "study_ids": _study_ids(c.get("pmid")),
                 "chunk_id": c.get("chunk_id"),
                 "score": round(float(score), 4) if score is not None else None,
                 "path": f"papers/{c.get('pmid')}.md",
@@ -111,11 +145,19 @@ async def _do_agentic(query: str) -> dict[str, Any]:
         usage_limits=UsageLimits(tool_calls_limit=20),
     )
     answer = str(result.output)
+    cited = _cited_pmids(answer)
+    # Map each cited PMID to its cBioPortal study(ies); flatten + de-dupe.
+    cited_studies: list[str] = []
+    for pmid in cited:
+        for sid in _study_ids(pmid):
+            if sid not in cited_studies:
+                cited_studies.append(sid)
     payload: dict[str, Any] = {
         "mode": "agentic",
         "query": query,
         "answer": answer,
-        "cited_pmids": _cited_pmids(answer),
+        "cited_pmids": cited,
+        "cited_study_ids": cited_studies,
     }
     try:
         usage = result.usage()

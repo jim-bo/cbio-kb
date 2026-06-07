@@ -67,10 +67,13 @@ def _compute_stats(records: list[dict], extra_splits: dict | None) -> dict[str, 
     return {
         "ag_test_acc":  _m("agentic", "test", "accuracy"),
         "rg_test_acc":  _m("rag",     "test", "accuracy"),
+        "hy_test_acc":  _m("hybrid",  "test", "accuracy"),
         "ag_test_comp": _m("agentic", "test", "completeness"),
         "rg_test_comp": _m("rag",     "test", "completeness"),
+        "hy_test_comp": _m("hybrid",  "test", "completeness"),
         "ag_test_rec":  _m("agentic", "test", "citation_recall"),
         "rg_test_rec":  _m("rag",     "test", "citation_recall"),
+        "hy_test_rec":  _m("hybrid",  "test", "citation_recall"),
     }
 
 

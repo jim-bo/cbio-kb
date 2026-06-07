@@ -23,28 +23,36 @@ Python from the JSONL records — those are NOT in this file.
 
 ## section:abstract
 
-We compare two retrieval strategies over a curated, 56-paper subset of the
-cBioPortal cancer-genomics publication corpus. The first (**Agentic**) is
-a language-model agent that navigates a hand-compiled wiki of papers,
-genes, cancer types, datasets, drugs, and methods via six graph-walk
-tools. The second (**RAG**) is standard dense-vector retrieval: chunk
-paper markdowns, embed with Vertex AI `gemini-embedding-001`, pull the
-top-40 chunks, answer in a single call. Both modes share the answering
-model (`claude-haiku-4-5`) and a rubric judge (`claude-opus-4-6`). On a
-50-question set split 30/10/10 across train/val/test and four question
-categories, the agent wins on every dimension of the held-out test split —
-accuracy {stat:ag_test_acc} vs {stat:rg_test_acc}, completeness
-{stat:ag_test_comp} vs {stat:rg_test_comp}, citation recall
-{stat:ag_test_rec} vs {stat:rg_test_rec} — at roughly 25% more wall time.
-Results are consistent across splits, so the win is not train-set
-overfitting. We read this as a preliminary step before trying GraphRAG-style
-community summarization, adaptive retrieval (Self-RAG / CRAG), and a larger
-corpus. The apparatus, data, and source are all reproducible from `eval/`.
+We compare three retrieval strategies over the full 377-paper cBioPortal
+cancer-genomics publication corpus. **Agentic** is a language-model agent
+that navigates a hand-compiled wiki of papers, genes, cancer types,
+datasets, drugs, and methods via six graph-walk tools. **RAG** is standard
+dense-vector retrieval: chunk paper markdowns, embed with Vertex AI
+`gemini-embedding-001`, pull the top-40 chunks, answer in a single call.
+**Hybrid** fuses three retrieval legs — dense vectors, BM25, and a one-hop
+walk over the wiki cross-link graph — reranks with a cross-encoder, then
+answers in a single call. All three share the answering model
+(`claude-haiku-4-5`) and a rubric judge (`claude-opus-4-6`), and crucially
+all three search the *same* 377-paper corpus, so the comparison isolates
+retrieval strategy from corpus size. On an 80-question set split 48/16/16
+across train/val/test and four categories, **no strategy dominates**: on the
+held-out test split accuracy is a near-wash (agentic {stat:ag_test_acc},
+RAG {stat:rg_test_acc}, hybrid {stat:hy_test_acc}), while the agent leads
+completeness ({stat:ag_test_comp} vs {stat:rg_test_comp} / {stat:hy_test_comp})
+and citation recall ({stat:ag_test_rec} vs {stat:rg_test_rec} /
+{stat:hy_test_rec}) — a lead concentrated in the enumeration-heavy *list* and
+*synthesis* categories, bought with substantially more tokens and wall time.
+RAG matches the agent on accuracy and edges it on citation correctness at a
+small fraction of the cost; hybrid is the cheapest and fastest but trails on
+quality. We read this as evidence that graph-walk retrieval earns its cost
+only on multi-document questions, and that for single-fact retrieval a
+conventional embedding pipeline is competitive. The apparatus, data, and
+source are all reproducible from `eval/`.
 
 ## section:intro
 
-What good is a knowledge base if you can't get information out of it? Retrieval-augmented generation ({cite:lewis2020rag}) has become the default
-recipe for grounding language-model answers using a knowledge base. The
+Retrieval-augmented generation ({cite:lewis2020rag}) has become the default
+recipe for grounding language-model answers in a knowledge base. The
 classic implementation is vector search over fixed-size text chunks
 ({cite:karpukhin2020dpr}, {cite:khattab2022colbertv2}), evaluated on
 heterogeneous retrieval benchmarks ({cite:thakur2021beir},
@@ -60,36 +68,48 @@ agent decide what to read next based on what it just saw. Both converge
 on the same observation: for questions that span documents, flat top-k
 vector search is **not the best fit**.
 
-This experiment is a preliminary step in trying to unpack this idea for a
-cancer-genomics knowledge base powering a chat bot. We already maintain a hand-compiled wiki of
-papers, genes, cancer types, datasets, drugs and methods (56 papers as of
-this run, a subset of the cBioPortal publication list + some extras), with cross-links
-between entity pages and their citing papers. The question we want to
-answer is modest: **given that graph, does an agent that walks it beat a
-vanilla RAG pipeline over the same papers?** If we find some signal it motivates building more structure into our cBioPortal knowledge base;
-a negative one says the structure isn't paying for itself and a plain
-embedding pipeline would do. Borrowing from the tradition of biomedical-QA evaluations we asked an LLM to craft a set of questions from these types; factoid, list, yes/no, and summary
-question types ({cite:krithara2023bioasq}, {cite:jin2019pubmedqa},
-{cite:wadden2020scifact}).
+This study evaluates that proposition for a cancer-genomics knowledge base
+that powers a conversational question-answering interface. We maintain a
+hand-compiled wiki of papers, genes, cancer types, datasets, drugs, and
+methods (377 papers in this study, a subset of the cBioPortal publication
+list together with related work), cross-linked between entity pages and their
+citing papers. The central question is whether, given that graph, an agent
+that walks it outperforms a conventional dense-RAG pipeline — or a hybrid that
+augments dense retrieval with BM25 and a one-hop graph expansion — over the
+same papers. A positive result would justify investing in richer structure in
+the knowledge base; a negative one would indicate that the structure does not
+earn its keep and that a plain embedding pipeline suffices. Following the
+tradition of biomedical question-answering evaluation, we use a language model
+to author a question set spanning four categories — *lookup* (single-paper
+factoid), *list*, *synthesis*, and *definition* ({cite:krithara2023bioasq},
+{cite:jin2019pubmedqa}, {cite:wadden2020scifact}).
 
-This is just a first pass, our corpus is incomplete, we haven't thought critically about how to structure our graph or the content we abstract from each paper, and what is treated as an entity or not. Our wiki graph has no community-detection layer ({cite:edge2024graphrag}), no
-pre-computed theme/subgraph summaries, and no adaptive retrieval loop
-({cite:asai2023selfrag}, {cite:yan2024crag}). The questions are AI-generated with minimal review, so treat the numbers here as a gist.
+Several aspects of the setup are deliberately simple. The wiki graph has no
+community-detection layer ({cite:edge2024graphrag}), no pre-computed theme or
+subgraph summaries, and no adaptive retrieval loop ({cite:asai2023selfrag},
+{cite:yan2024crag}); the choice of what to abstract from each paper, and what
+to treat as an entity, has not been systematically optimized. Because the
+question set is language-model-authored with limited manual review, the
+absolute scores should be read as indicative rather than definitive, and the
+relative comparison across modes is the object of interest.
 
 ## section:methods
 
-**Corpus.** 56 papers from the cBioPortal publication list, selected because
-they were fully ingested into both our compiled wiki (at
-`wiki/papers/{pmid}.md`) and our chunking/embedding pipeline (raw markdown
-at `data/raw/papers/{pmid}.md`). Both retrieval modes see exactly this set
-— no side channel.
+**Corpus.** 377 papers from the cBioPortal publication list, selected because
+they were fully ingested into both the compiled wiki (at
+`wiki/papers/{pmid}.md`) and the chunking/embedding pipeline (raw markdown
+at `data/raw/papers/{pmid}.md`). All three retrieval modes index exactly this
+set, with no side channel. Sharing a single corpus across modes is a
+deliberate control: it ensures the measured differences reflect retrieval
+strategy rather than differences in corpus coverage.
 
-**Question set.** 50 questions authored by an LLM, split 30 / 10 / 10 across
+**Question set.** 80 questions authored by an LLM, split 48 / 16 / 16 across
 train / val / test, and tagged with one of four categories: *lookup*
-(single-paper factoid), *list* (enumerate papers or entities meeting a
-criterion), *synthesis* (cross-paper claim), or *definition* (what is X?).
-Each question carries one or more gold PMIDs so we can measure citation
-recall independently of the judge.
+(single-paper factoid, 27), *list* (enumerate papers or entities meeting a
+criterion, 10), *synthesis* (cross-paper claim, 25), or *definition* (what is
+X?, 18). Each question carries one or more gold PMIDs so we can measure
+citation recall independently of the judge; *list*-question gold is the
+comprehensive expected set over the full 377-paper corpus.
 
 **Agentic mode.** A PydanticAI agent using `claude-haiku-4-5` with six
 graph-walk tools: `read_page`, `read_section`, `follow_links`,
@@ -106,6 +126,15 @@ question, pull the top-40 passages (budgeted to ~60k characters of
 context), and issue a single `claude-haiku-4-5` call with the stitched
 passages plus the question.
 
+**Hybrid mode.** Three retrieval legs run over the same index and are fused:
+(1) *dense* — the RAG vector leg above; (2) *BM25* — a `rank_bm25.BM25Okapi`
+lexical index built from the same chunk `meta.jsonl`; (3) *graph 1-hop* —
+entity anchors extracted from the question expand over `wiki/graph.json`
+cross-edges to citing papers. Candidates are reranked by a cross-encoder
+before being packed into a single `claude-haiku-4-5` call. Hybrid is meant
+to combine RAG's lexical/semantic recall with a thin slice of the agent's
+graph awareness, without the agent's multi-call traversal cost.
+
 **Judge.** `claude-opus-4-6` reads the question, gold notes, and the
 agent's final answer, and returns three integer scores on a 1–5 rubric —
 *accuracy*, *completeness*, *citation_correctness* — plus a free-text
@@ -117,62 +146,73 @@ and [eval/README.md](https://github.com/jim-bo/cbio-kb/blob/main/eval/README.md)
 
 ## section:headline_intro
 
-Mean scores on the 30-question train split. Judge scores are on a 1–5
-scale; citation recall is the fraction of gold PMIDs appearing in the
-answer.
+Mean scores on the 48-question train split, all three modes. Judge scores
+are on a 1–5 scale; citation recall is the fraction of gold PMIDs appearing
+in the answer.
 
 ## section:headline_takeaway
 
-*Takeaway — agentic wins on completeness and recall; RAG is 2× cheaper in
-tokens and ~2× faster in wall time. Accuracy and citation correctness are
-roughly equivalent.*
+*Takeaway — no clean winner. On train, RAG actually leads accuracy, citation
+correctness, and citation recall; agentic's only lead is completeness. Hybrid
+is by far the cheapest (≈3k input tokens vs RAG's ≈12k and agentic's ≈280k)
+and fastest, but trails on every quality metric. The agent's cost — roughly
+20–80× the tokens and ~3× the wall time — buys completeness, not accuracy.*
 
 ## section:figure1_intro
 
 Each category is a different flavour of question. Categories where
 *completeness* (did you enumerate the facts?) carries signal are where
-the agent's per-page reading pays off.
+the agent's per-page reading pays off — and the only place it clearly leads.
 
 ## section:figure1_caption
 
-Figure 1. Mean judge score by question category, agentic vs RAG. Each
-panel is one metric (accuracy / completeness / citation). Agentic pulls
-clearly ahead on completeness for list and synthesis questions.
+Figure 1. Mean judge score by question category and mode (agentic / hybrid /
+RAG). Each panel is one metric (accuracy / completeness / citation). The
+agent pulls ahead only on *completeness* for list and synthesis; elsewhere
+RAG is even or better.
 
 ## section:figure1_takeaway
 
-*Takeaway — lookup and definition are a wash; agentic edges RAG on list
-(+0.3 completeness) and especially synthesis (+1.3 completeness), the
-categories where full-page reading matters most.*
+*Takeaway — the agent's advantage is narrow and category-specific: it leads
+completeness on list (≈3.0 vs RAG 2.3) and synthesis (≈3.2 vs 2.6), the
+enumeration-heavy categories where full-page reading matters. On lookup and
+definition RAG matches or beats it, and on list/synthesis accuracy the agent
+actually trails RAG. Hybrid is the weakest on the multi-document categories —
+its one-hop graph leg does not recover the agent's completeness edge.*
 
 ## section:splits_intro
 
-Three disjoint splits run with identical configuration. Consistency across
-the three is evidence the agent's win isn't train-set overfitting (we
-tuned nothing between splits).
+Three disjoint splits run with identical configuration. We tuned nothing
+between splits, so consistency across the three says which differences are
+real signal rather than one split's noise.
 
 ## section:splits_takeaway
 
-*Takeaway — agentic stays ahead on every metric on every split, with the
-test margins matching or exceeding the train margins.*
+*Takeaway — the one finding that holds on every split is the agent's
+**completeness** lead. Accuracy is a wash that slightly favours RAG (RAG leads
+on train and val, dead-even on test), citation correctness favours RAG, and
+citation recall is mixed (RAG on train and val, agent on test). No single mode
+is ahead on every metric on any split.*
 
 ## section:figure2_intro
 
 Each point is one train-split question plotted at its total judge score
-(accuracy + completeness + citation, 3–15) for both modes. Bubble size is
-proportional to whichever mode took longer on that question. Points above
-the dashed *y = x* line are agent wins; below the line are RAG wins.
+(accuracy + completeness + citation, 3–15) for the agentic vs RAG head-to-head
+(hybrid is shown in Figures 1 and 3, not this pairwise view). Bubble size is
+proportional to whichever mode took longer on that question. Points above the
+dashed *y = x* line are agent wins; below are RAG wins.
 
 *Hover any point in the interactive version for the full question and
 both answers.*
 
 ## section:figure2_takeaway
 
-*Takeaway — most synthesis points (red) sit above the diagonal, most
-definition and high-scoring lookup points pile near (15, 15). Two
-agent-losses stand out: LS04 (a list question the agent got lost on) and
-S04 (a synthesis question both modes struggled with, but RAG did
-better).*
+*Takeaway — synthesis questions cluster above the diagonal (the agent's
+home turf: S08, S02, S06 are its biggest wins), while lookup and definition
+points pile near (15, 15) where both modes ace them. The agent's worst loss
+is L16 — a single-fact prostate-actionability lookup it got badly wrong while
+RAG nailed it — alongside synthesis cases S17 and S20 where RAG's packed
+passages beat the graph walk.*
 
 ## section:figure3_intro
 
@@ -185,16 +225,17 @@ concentrated at the left of each panel.
 ## section:figure3_caption
 
 Figure 3. Total judge score vs input tokens (log scale, left) and wall
-time (right), agentic and RAG overlaid. RAG clusters cheap/fast; agentic
-spends more to reach the same score ceiling, but also reaches it on
-questions where RAG cannot.
+time (right), all three modes overlaid. Hybrid and RAG cluster cheap and
+fast; agentic spends one-to-two orders of magnitude more to reach a
+comparable score band.
 
 ## section:figure3_takeaway
 
-*Takeaway — RAG has a tight, cheap, fast cluster in the 10k-token band;
-agentic spreads across 10k–200k tokens. Both modes hit the score ceiling
-of 15, but for several mid-scoring synthesis questions only the agent
-crosses into the high band.*
+*Takeaway — hybrid (≈3k tokens) and RAG (≈12k) form a tight, cheap, fast
+cluster; agentic fans out to ≈280k tokens and ~3× the wall time. All three
+reach the high score band on easy lookup/definition questions, so that spend
+only pays off on the multi-document questions where the agent's completeness
+edge lives.*
 
 ## section:guardrails_note
 
@@ -204,41 +245,56 @@ the cap fired.
 
 ## section:discussion_caveats
 
-The held-out test split is the number to quote — the agent beats RAG on
-every dimension (accuracy, completeness, citation, citation recall) at
-roughly 25% more wall time. The magnitude of the win is largest on
-*completeness*, which matches the intuition that graph-walking over whole
-pages beats passage-packing when the answer needs to enumerate.
-Train/val/test consistency rules out overfitting to a single split.
+The held-out test split is the headline result. **Accuracy is a near-wash**
+across all three modes — a single-paper factoid is roughly as answerable from
+packed passages as from a graph walk. Where the agent separates is
+*completeness* and *citation recall*, and only in the **enumeration-heavy
+categories** (*list*, *synthesis*): reading whole pages beats passage-packing
+when the answer must enumerate a set. That lead is bought with roughly an
+order of magnitude more input tokens and approximately twice the wall time,
+and **RAG matches the agent on accuracy while edging it on citation
+correctness** at a small fraction of the cost. **Hybrid** is the cheapest and
+fastest mode but trails on quality on this question set; its one-hop graph leg
+does not recover the agent's completeness edge. The conclusion is therefore
+one of *no free lunch*: the agent is preferable when completeness or recall on
+multi-document questions justifies the cost, and dense RAG when
+accuracy-per-unit-cost is the priority.
 
-Several caveats bound how far to push this result. It's a single corpus
-(56 papers), a single question set (50 questions), a single judge model,
-and no statistical-significance testing on the metric differences. RAG
-hyperparameters (chunk size, overlap, top-k, embedding model) were not
-swept; we used a sensible-default configuration. The agent benefits from
-a wiki that was itself authored by language-model agents from the same
-paper corpus, so some of the lift could be attributed to that
-pre-processing rather than graph-walk retrieval per se — a dedicated
-ablation would be needed to separate the two.
+Because all three modes index the same 377 papers, these differences are
+attributable to retrieval strategy rather than corpus coverage; the comparison
+is controlled in that respect.
+
+Several caveats bound how far to push the result. It rests on a single corpus
+(377 papers), a single 80-question set, a single judge model, and no
+statistical-significance testing on the metric differences. The RAG and hybrid
+hyperparameters (chunk size, overlap, top-k, BM25 weighting, reranker, and
+embedding model) were not swept; sensible defaults were used throughout. The
+agent also benefits from a wiki that was itself authored by language models
+from the same paper corpus, so part of its completeness advantage may derive
+from that pre-processing rather than from graph-walk retrieval per se;
+separating the two would require a dedicated ablation.
 
 ## section:next_steps
 
 **Next steps, in rough priority order:**
 
 1. **GraphRAG-style community summarization** on our wiki's cross-link
-   graph ({cite:edge2024graphrag}). We already emit `wiki/graph.json`;
-   running Leiden over it and generating theme-level summaries would give
-   a third retrieval strategy to compare against — and address our
-   current lack of synthesis/theme pages.
+   graph ({cite:edge2024graphrag}). The hybrid mode already uses a thin
+   one-hop graph leg; running Leiden over `wiki/graph.json` and generating
+   theme-level community summaries would give the graph signal real
+   synthesis depth — and address our current lack of theme pages, which the
+   synthesis-category numbers suggest is where retrieval is weakest.
 
 2. **Adaptive retrieval** — layering a reflection-token style decision
    ({cite:asai2023selfrag}) or a retrieval evaluator
-   ({cite:yan2024crag}) on top of the RAG path so it can fall through to
-   graph-walk when the top-k is weak.
+   ({cite:yan2024crag}) on top of the RAG/hybrid path so it can fall through to
+   graph-walk only when the top-k is weak — buying the agent's completeness
+   edge without paying its token cost on every query.
 
-3. **Corpus expansion.** We run on 56 of cBioPortal's several hundred
-   published studies. Re-evaluating on a 200+ paper corpus would test
-   whether the agent scales with depth.
+3. **Corpus expansion.** This study covers 377 of cBioPortal's published
+   studies. Extending to the remaining several hundred would test whether the
+   category-specific agentic advantage holds, grows, or washes out with corpus
+   depth.
 
 4. **Question-set scale and judges.** A larger, possibly partially
    auto-generated question set; multiple judge models and bootstrap

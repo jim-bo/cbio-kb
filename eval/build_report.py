@@ -635,7 +635,7 @@ def _render(records: list[dict], run_dir: Path, extra_splits: dict[str, list[dic
 
     lines: list[str] = [
         "---",
-        "title: \"Agentic graph-walk vs dense RAG on a cBioPortal paper wiki\"",
+        "title: \"Agentic graph-walk vs. hybrid vs. dense RAG on a cBioPortal paper wiki\"",
         f"subtitle: \"Run {ts} · primary split={split} · n={len(records)//len(modes)} questions × {len(modes)} modes\"",
         "format:",
         "  html:",

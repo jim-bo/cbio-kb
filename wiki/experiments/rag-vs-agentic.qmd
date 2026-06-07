@@ -1,5 +1,5 @@
 ---
-title: "Agentic graph-walk vs dense RAG on a cBioPortal paper wiki"
+title: "Agentic graph-walk vs. hybrid vs. dense RAG on a cBioPortal paper wiki"
 subtitle: "Run 2026-06-07-175514 · primary split=train · n=48 questions × 3 modes"
 format:
   html:

@@ -42,7 +42,7 @@ _CATEGORY_COLORS = {
     "synthesis": "#E45756",
     "definition": "#54A24B",
 }
-_MODE_COLORS = {"agentic": "#4C78A8", "rag": "#E45756"}
+_MODE_COLORS = {"agentic": "#4C78A8", "hybrid": "#54A24B", "rag": "#E45756"}
 
 # Marker shape encodes the split a record came from. The diagnostic
 # plots pool train + val + test so the reader sees the full corpus,
@@ -366,8 +366,8 @@ def plot_category_bars(records: list[dict], out: Path) -> None:
     categories = ["lookup", "list", "synthesis", "definition"]
     metrics = [("accuracy", "Accuracy"), ("completeness", "Completeness"),
                ("citation_correctness", "Citation")]
-    modes = ["agentic", "rag"]
-    ha_by_mode = {"agentic": "right", "rag": "left"}
+    modes = ["agentic", "hybrid", "rag"]
+    ha_by_mode = {"agentic": "right", "hybrid": "center", "rag": "left"}
 
     by_mode_cat: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for r in records:
@@ -375,7 +375,7 @@ def plot_category_bars(records: list[dict], out: Path) -> None:
             by_mode_cat[(r["mode"], r["category"])].append(r)
 
     fig, axes = plt.subplots(1, 3, figsize=(14, 5.4), sharey=True)
-    width = 0.38
+    width = 0.8 / len(modes)
     x = list(range(len(categories)))
 
     legend_handles: list = []
@@ -387,7 +387,7 @@ def plot_category_bars(records: list[dict], out: Path) -> None:
                 scored = [r["scores"][metric_key] for r in recs
                           if r.get("scores") and metric_key in r["scores"]]
                 vals.append(sum(scored) / len(scored) if scored else 0)
-            offset = (j - 0.5) * width
+            offset = (j - (len(modes) - 1) / 2) * width
             bars = ax.bar([xi + offset for xi in x], vals, width,
                           label=mode.title(), color=_MODE_COLORS[mode],
                           alpha=0.9, edgecolor="white", linewidth=0.8)

@@ -1,25 +1,28 @@
-# RAG vs. Agentic: comparison harness
+# RAG vs. Agentic vs. Hybrid: comparison harness
 
-Compare two retrieval strategies on the same cBioPortal paper corpus:
+Compare three retrieval strategies on the same cBioPortal paper corpus:
 
 - **Agentic** — PydanticAI agent in `ai_search/` walking the compiled `wiki/` vault via tools.
-- **RAG** — pure vector retrieval over the 56 raw paper markdowns in `data/raw/papers/`, packed into a single-shot LLM call.
+- **RAG** — pure dense-vector retrieval over the raw paper markdowns in `data/raw/papers/`, packed into a single-shot LLM call.
+- **Hybrid** — 3-leg retrieval (dense + BM25 + graph 1-hop) over the same index, cross-encoder reranked, then a single-shot LLM call.
 
-Both use **`claude-haiku-4-5`** as the answering model. **`claude-opus-4-6`** is the judge.
+Both RAG and hybrid retrieve from the same FAISS/BM25 index (`data/paper_index`); all three modes search the **same 377-paper corpus** so the comparison measures retrieval strategy, not corpus size. All use **`claude-haiku-4-5`** as the answering model. **`claude-opus-4-6`** is the judge.
 
 ## Corpus
 
-`corpus_pmids.txt` — 56 PMIDs present in both `wiki/papers/` and `data/raw/papers/`. Indexer and runners both restrict to this list so neither side gets free knowledge the other can't access.
+`corpus_pmids.txt` — 377 PMIDs present in both `wiki/papers/` and `data/raw/papers/`. Indexer and runners both restrict to this list so no mode gets free knowledge the others can't access. (The original 56-paper v1 corpus is archived as `corpus_pmids_v1_56.txt`; before 2026-06-07 the rag/hybrid index was pinned to those 56 while agentic walked the full vault — a corpus-size confound, now fixed. See `notes/EVAL_FULL_CORPUS_REFRESH.md`.)
 
 ## Layout
 
 ```
 eval/
-├── corpus_pmids.txt        # 56 PMIDs — shared corpus
+├── corpus_pmids.txt        # 377 PMIDs — shared corpus
+├── corpus_pmids_v1_56.txt  # archived v1 56-paper corpus (provenance)
 ├── questions/v1.yaml       # curated Q set with gold labels + splits
 ├── runners/
 │   ├── agentic.py          # run Q through /api/chat agentic mode
-│   └── rag.py              # run Q through RAG mode
+│   ├── rag.py              # run Q through RAG (dense) mode
+│   └── hybrid.py           # run Q through hybrid (dense+BM25+graph) mode
 ├── judge.py                # opus rubric grader
 ├── run.py                  # end-to-end: Qs → runners → judge → results/
 └── results/{YYYY-MM-DD-HHMM}/
@@ -29,7 +32,7 @@ eval/
 
 ## Question set
 
-`questions/v1.yaml` — 50 questions, categorized by type (`lookup`, `list`, `synthesis`, `definition`), split 30/10/10 `train`/`val`/`test`.
+`questions/v1.yaml` — 80 questions, categorized by type (`lookup` 27, `list` 10, `synthesis` 25, `definition` 18), split 48/16/16 `train`/`val`/`test`.
 
 - **train** → prompt + retrieval tuning
 - **val** → configuration selection
@@ -39,7 +42,7 @@ Each entry: `{id, question, category, split, gold_pmids, gold_entities}`.
 
 ## Metrics
 
-Per query, both runners log: `input_tokens`, `output_tokens`, `llm_calls`, `wall_time_s`, `retrieved_sources`, `cited_pmids`, `answer`.
+Per query, every runner logs: `input_tokens`, `output_tokens`, `llm_calls`, `wall_time_s`, `retrieved_sources`, `cited_pmids`, `answer`.
 
 Judge scores (1–5) on: `accuracy`, `completeness`, `citation_correctness`.
 
@@ -47,25 +50,25 @@ Derived per mode: cost per query, citation recall vs. gold, aggregate quality sc
 
 ## Cost framing
 
-Neither strategy is budget-matched against the other — each carries its
-own cost shape (agentic spends tokens on graph-walk; RAG spends tokens on
-packed passages). Per-run records include `input_tokens`,
+The strategies are not budget-matched against each other — each carries its
+own cost shape (agentic spends tokens on graph-walk; RAG and hybrid spend
+tokens on packed passages, hybrid adding a cross-encoder rerank). Per-run records include `input_tokens`,
 `output_tokens`, `llm_calls`, and `wall_time_s` so the cost/quality
 tradeoff is visible on the reports. See `plots/cost_quality.png`.
 
 ## Running
 
 ```bash
-# Start the chat API on localhost:8080
-.venv/bin/uvicorn ai_search.app:app --host 0.0.0.0 --port 8080
+# Start the chat API on localhost:8080 (GCP_PROJECT must be set for Vertex embeds)
+GCP_PROJECT=cbioportal-python uv run python -m uvicorn ai_search.app:app --host 0.0.0.0 --port 8080
 
-# Run a split, both modes (SSE-streams through /api/chat)
-uv run python -m eval.run --split train --mode both
-uv run python -m eval.run --split val --mode both
-uv run python -m eval.run --split test --mode both
+# Run a split, all three modes (SSE-streams through /api/chat)
+uv run python -m eval.run --split train --mode all
+uv run python -m eval.run --split val --mode all
+uv run python -m eval.run --split test --mode all
 
 # Narrow to specific IDs (crosses splits)
-uv run python -m eval.run --ids L01,LS04,S07 --mode both
+uv run python -m eval.run --ids L01,LS04,S07 --mode all
 
 # Build the wiki-embedded report from the latest run
 uv run python -m eval.build_report

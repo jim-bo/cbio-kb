@@ -1,7 +1,13 @@
 # cbio-kb RAG-vs-agentic evaluation question set v1
 #
-# 50 questions × 4 categories × 3 splits (train=30, val=10, test=10).
-# Each question is grounded in at least one of the 56 corpus PMIDs
+# Refreshed 2026-06-07: shared corpus expanded 56 → 377 PMIDs so all three
+# modes (agentic / rag / hybrid) search the same papers. Question set being
+# expanded 50 → ~80 within the existing 4 categories/themes; list gold
+# regenerated against the full 377 corpus. See notes/EVAL_FULL_CORPUS_REFRESH.md.
+#
+# 80 questions × 4 categories × 3 splits (train=48, val=16, test=16).
+#   lookup=27, list=10, synthesis=25, definition=18.
+# Each question is grounded in at least one of the 377 corpus PMIDs
 # (see eval/corpus_pmids.txt). `gold_pmids` is the minimal set a correct
 # answer should cite; for `list` questions it is the comprehensive
 # expected set (retrieval recall computed against it).
@@ -180,9 +186,141 @@ questions:
     gold_entities: [PLMESO, BAP1, NF2]
     notes: Genomic near-haploidization (chromosome-scale LOH with one-copy loss).
 
+  # Added 2026-06-07 (full-corpus refresh): L16–L27 grounded in newly-eligible papers.
+  - id: L16
+    category: lookup
+    split: train
+    question: >
+      In the SU2C–PCF integrative genomics study of metastatic castration-resistant
+      prostate cancer, what percentage of patients harbored at least one clinically
+      actionable aberration?
+    gold_pmids: [26000489]
+    gold_entities: [PRAD]
+    notes: 89% of the 150 mCRPC patients had ≥1 clinically actionable aberration.
+
+  - id: L17
+    category: lookup
+    split: train
+    question: >
+      In the comprehensive genomic analysis of rhabdomyosarcoma by Shern et al., what
+      fraction of whole-genome-sequenced tumors carried a receptor tyrosine
+      kinase/RAS/PIK3CA-axis alteration?
+    gold_pmids: [24436047]
+    gold_entities: [RMS]
+    notes: 93% (41/44) of WGS RMS tumors had an RTK/RAS/PIK3CA-axis alteration.
+
+  - id: L18
+    category: lookup
+    split: train
+    question: >
+      In the Hugo et al. anti-PD-1 melanoma cohort, what percentage of responders
+      versus non-responders carried BRCA2 nonsynonymous mutations?
+    gold_pmids: [26997480]
+    gold_entities: [BRCA2]
+    notes: BRCA2 nsSNVs in 28% (6/21) of responders vs 6% (1/17) of non-responders (Fisher P=0.002, OR=6.2).
+
+  - id: L19
+    category: lookup
+    split: train
+    question: >
+      In the study of clinical resistance to RAF inhibition in metastatic melanoma,
+      what percentage of the cohort had resistance alterations in MAPK-pathway genes?
+    gold_pmids: [24265153]
+    gold_entities: [MAP2K2]
+    notes: 44.4% (20/45) had MAPK-pathway resistance alterations; MAP2K2 (MEK2) nominated as a new resistance gene.
+
+  - id: L20
+    category: lookup
+    split: train
+    question: >
+      In the Johnson/Mazor study of paired grade II astrocytomas, how many
+      temozolomide-treated patients developed hypermutated recurrences, and what was
+      their outcome?
+    gold_pmids: [24336570]
+    gold_entities: [ASTR]
+    notes: 6 of 10 TMZ-treated patients developed hypermutated recurrences, all progressing to GBM.
+
+  - id: L21
+    category: lookup
+    split: train
+    question: >
+      In the MSK high-intensity cfDNA sequencing study, in what percentage of patients
+      was at least one tumor-derived (biopsy-matched) mutation detected in cfDNA?
+    gold_pmids: [31768066]
+    gold_entities: [grail_cfdna_508]
+    notes: 84% (104/124 patients), 95% CI 76–90%.
+
+  - id: L22
+    category: lookup
+    split: train
+    question: >
+      In the first-wave MSK-IMPACT report by Zehir et al., how many patients and
+      successfully sequenced tumors were profiled, and how many gene-panel versions
+      were used?
+    gold_pmids: [28481359]
+    gold_entities: [msk_impact_2017]
+    notes: 10,336 patients and 10,945 sequenced tumors, using two panels (341- and 410-gene).
+
+  - id: L23
+    category: lookup
+    split: train
+    question: >
+      In the MSK-IMPACT sarcoma cohort (Nacev et al.), what fraction of intimal
+      sarcomas harbored oncogenic TERT amplifications?
+    gold_pmids: [35705560]
+    gold_entities: [sarcoma_mskcc_2022]
+    notes: 44% (8/18) of intimal sarcomas had oncogenic TERT amplifications.
+
+  - id: L24
+    category: lookup
+    split: val
+    question: >
+      In the Morris et al. MSK-IMPACT study of recurrent/metastatic head and neck
+      cancers, in how many of the 151 patients did sequencing guide therapy?
+    gold_pmids: [27442865]
+    gold_entities: [HNSC]
+    notes: 21 of 151 patients (14% overall; 25% of HNSC cases).
+
+  - id: L25
+    category: lookup
+    split: val
+    question: >
+      In the Bolton et al. study of clonal hematopoiesis across MSK solid-tumor
+      patients, what percentage of the 24,146 patients carried at least one CH mutation
+      at VAF ≥2%?
+    gold_pmids: [33106634]
+    gold_entities: [PPM1D]
+    notes: 30% (7,216/24,146 patients) had ≥1 CH mutation at VAF ≥2%.
+
+  - id: L26
+    category: lookup
+    split: test
+    question: >
+      In the CALGB 90601 ctDNA analysis of cisplatin-treated metastatic urothelial
+      carcinoma, what was the most frequently altered gene in the cfDNA cohort and at
+      what frequency?
+    gold_pmids: [40256659]
+    gold_entities: [BLCA]
+    notes: TERT was most frequently altered, in 57% of patients (primarily TERT promoter mutations).
+
+  - id: L27
+    category: lookup
+    split: test
+    question: >
+      In the Jordan et al. MSK-IMPACT study of 860 metastatic lung adenocarcinomas,
+      what percentage of patients had potentially actionable somatic alterations?
+    gold_pmids: [28336552]
+    gold_entities: [LUAD]
+    notes: 86.9% had potentially actionable alterations; 37.1% (319/860) received a molecularly matched therapy.
+
   # ======================================================================
   # LIST (10)
   # ======================================================================
+
+  # Gold regenerated 2026-06-07 against the full 377-paper corpus (see
+  # notes/EVAL_FULL_CORPUS_REFRESH.md and eval/list_gold_proposals_377.md).
+  # Adjudication: borderlines excluded (precision); clear false positives removed;
+  # LS06 high-recall; LS01/LS07 capped to a curated subset (full sets are larger).
 
   - id: LS01
     category: list
@@ -191,38 +329,13 @@ questions:
       Which corpus papers profile patients using an MSK-IMPACT targeted
       panel (any version, including IMPACT341/410/468/505 or the generic
       msk-impact-panel)?
-    gold_pmids:
-      - 35764743
-      - 36357680
-      - 36493333
-      - 36862133
-      - 37078708
-      - 37084736
-      - 37315267
-      - 37350195
-      - 37477937
-      - 37591896
-      - 37643132
-      - 37651310
-      - 37682528
-      - 37699004
-      - 37730754
-      - 37769223
-      - 37910594
-      - 38147626
-      - 38488807
-      - 38497151
-      - 38630790
-      - 38653864
-      - 38758238
-      - 38864854
-      - 38922339
-      - 38949888
-      - 38995739
-      - 39214094
-      - 39289779
-      - 39506116
+    gold_pmids: [35764743, 36357680, 36493333, 36862133, 37078708, 37084736, 37315267, 37350195, 37477937, 37591896, 37643132, 37651310, 37682528, 37699004, 37730754, 37769223, 37910594, 38147626, 38488807, 38497151, 38630790, 38653864, 38758238, 38864854, 38922339, 38949888, 38995739, 39214094, 39289779, 39506116]
     gold_entities: [msk-impact-panel, IMPACT341, IMPACT410, IMPACT468, IMPACT505, msk-hemepact, msk-access]
+    notes: >
+      CAPPED curated subset of 30 representative MSK-IMPACT-profiled papers spanning all
+      panel versions. The full 377-corpus has ~124 panel-profiling papers (decision signal:
+      MSK-IMPACT-family term in methods frontmatter); capped to avoid one question dominating
+      retrieval-recall scoring.
 
   - id: LS02
     category: list
@@ -230,8 +343,12 @@ questions:
     question: >
       Which corpus papers focus on head and neck squamous cell carcinoma
       (HNSC)?
-    gold_pmids: [24892406, 27698471, 30179230, 37397861, 38362943, 38780927, 41941260]
+    gold_pmids: [19176454, 21798893, 21798897, 23619168, 24892406, 25631445, 30179230, 37397861, 38362943, 38780927]
     gold_entities: [HNSC]
+    notes: >
+      Regenerated vs 377-corpus. Removed 27698471 (preclinical multi-disease ADC) and
+      41941260 (ROBIN, 8 cancer types) — HNSC not the focus. 27442865 (head-and-neck-region
+      precision paper spanning many H&N histologies) excluded as borderline.
 
   - id: LS03
     category: list
@@ -239,8 +356,11 @@ questions:
     question: >
       List all corpus papers that analyze circulating tumor DNA (ctDNA)
       as a primary modality.
-    gold_pmids: [36357680, 37769223, 39147831, 39289779]
+    gold_pmids: [28445469, 32633890, 34059130, 34145282, 36007103, 36357680, 37406106, 37682528, 37769223, 39147831, 39289779, 40256659]
     gold_entities: [ctdna-dynamics, ACCESS129, ctdx-lung]
+    notes: >
+      Regenerated vs 377-corpus. Borderlines 32437664, 35292802, 32864625 excluded — ctDNA
+      is a secondary/ancillary modality there, not primary.
 
   - id: LS04
     category: list
@@ -248,8 +368,12 @@ questions:
     question: >
       Which corpus papers describe publicly released TCIA imaging
       datasets?
-    gold_pmids: [24892406, 28872634, 30179230, 30325352, 38362943]
-    gold_entities: []
+    gold_pmids: [24892406, 28872634, 30179230, 30325352, 37397861, 38362943]
+    gold_entities: [tcia-nsclc-radiomics-lung1, tcia-nsclc-radiomics-lung2, tcia-nsclc-radiomics-genomics-lung3, tcia-hn1-maastro, tcia-hn2-vumc, tcia-multiple-delineation, tcia-rider-lung, tcia-tcga-gbm, tcia-tcga-lgg, tcia-hnscc, radcure, nsclc-radiogenomics-stanford]
+    notes: >
+      Regenerated vs 377-corpus. +37397861 (RADCURE release companion to 38362943).
+      35764743 excluded — uses TCIA-TCGA-OV imaging but deposits its own data to Synapse,
+      not a TCIA release.
 
   - id: LS05
     category: list
@@ -257,8 +381,12 @@ questions:
     question: >
       Which corpus papers analyze KRAS mutations as a driver or biomarker
       focus (not just incidental mention)?
-    gold_pmids: [36357680, 36493333, 37084736, 37591896, 37643132, 37699004, 38864854, 38922339, 39147831, 39214094, 39506116]
+    gold_pmids: [23999436, 25164765, 27646943, 29316426, 29848569, 30867592, 32404308, 32649874, 33765338, 34795269, 35235413, 35304457, 35443055, 36355783, 36357680, 36493333, 37084736, 37591896, 37643132, 38864854, 39147831, 39214094, 39753968]
     gold_entities: [KRAS]
+    notes: >
+      Regenerated vs 377-corpus, strict focus criterion. Removed 37699004, 38922339, 39506116
+      (KRAS is an incidental landscape-table row, not a focus). Landscape-only mentions
+      (e.g. 28336552, 25855536) excluded.
 
   - id: LS06
     category: list
@@ -266,8 +394,13 @@ questions:
     question: >
       Which corpus papers evaluate PD-1 or PD-L1 immune checkpoint
       blockade in patients?
-    gold_pmids: [36862133, 37406106, 37643132, 37651310, 38630790, 38653864, 38758238, 38780927, 38949888, 38995739, 41941260]
-    gold_entities: [nivolumab, pembrolizumab, dostarlimab, PDCD1, CD274]
+    gold_pmids: [22138691, 25765070, 26997480, 29033130, 29122777, 29301960, 29337640, 29657128, 30150660, 30373752, 30643254, 30742119, 32437664, 34819508, 36862133, 37406106, 37643132, 38630790, 38653864, 38780927, 38949888]
+    gold_entities: [nivolumab, pembrolizumab, dostarlimab, atezolizumab, durvalumab, avelumab, zimberelimab, PDCD1, CD274]
+    notes: >
+      Regenerated vs 377-corpus, high-recall: includes landmark IO-genomics patient cohorts
+      (Rizvi, Hellmann, Samstein, Miao, etc.). Removed 37651310, 38758238, 38995739, 41941260
+      — anti-PD-(L)1 appears only as eligibility/biomarker context or program review, no
+      patients evaluated on the therapy.
 
   - id: LS07
     category: list
@@ -275,33 +408,48 @@ questions:
     question: >
       Which corpus papers use whole-genome sequencing as part of their
       methodology?
-    gold_pmids: [25730765, 35927489, 36723991, 37202560, 37730754, 38117484, 38412093, 38488813]
+    gold_pmids: [22622578, 23334668, 23792563, 25631445, 25730765, 25991819, 26683228, 28052061, 31483290, 32025007, 32649874, 33242424, 34493867, 35585047, 35927489, 35982973, 36517593, 36577525, 36723991, 37202560, 37730754, 38117484, 38412093, 38488813, 39185963]
     gold_entities: [whole-genome-seq]
+    notes: >
+      CAPPED curated subset of ~25 deep own-cohort WGS performers spanning disease types.
+      Full 377-corpus has ~88 WGS-using papers; 15 of them lack the whole-genome-seq
+      frontmatter tag (extraction gap to fix separately). Capped to avoid dominating recall.
+      WES-only papers excluded; low-pass/external-TCGA-reanalysis WGS de-prioritized.
 
   - id: LS08
     category: list
     split: val
     question: >
       Which corpus papers cover rhabdomyosarcoma (RMS)?
-    gold_pmids: [37315267, 37730754]
+    gold_pmids: [24436047, 28007021, 31693904, 35292802, 35585047, 35705558, 35705560, 37315267, 37730754, 39305899]
     gold_entities: [RMS, ARMS, ERMS]
+    notes: >
+      Regenerated vs 377-corpus. Pan-sarcoma/pan-pediatric papers included where they report
+      RMS subtype-specific genomic/drug findings (not a one-word mention).
 
   - id: LS09
     category: list
     split: test
     question: >
       Which corpus papers investigate BRAF alterations or BRAF fusions?
-    gold_pmids: [38412093, 38895302, 38922339, 39214094]
+    gold_pmids: [23817572, 28373299, 28481359, 29316426, 31263031, 32913971, 33242424, 35235413, 36862133, 38412093, 38922339]
     gold_entities: [BRAF]
-    notes: Primary focus in 38922339 (BRAF fusions tumor-agnostic); significant secondary focus in the others.
+    notes: >
+      Regenerated vs 377-corpus, strict "investigated, not landscape-row" criterion.
+      Anchor 38922339 (BRAF fusions, tumor-agnostic). Removed 38895302, 39214094 (BRAF
+      incidental). Borderline 26343386 (non-V600 characterization) excluded.
 
   - id: LS10
     category: list
     split: test
     question: >
       Which corpus papers study prostate cancer (PRAD or PRNE)?
-    gold_pmids: [28045614, 38488813, 38949888, 39147831, 39506116, 41941260]
+    gold_pmids: [20579941, 22610119, 22722839, 23622249, 25024180, 25201530, 26000489, 26544944, 26855148, 26928463, 27634761, 28045614, 28068672, 28825054, 28927585, 29610475, 30537516, 31061129, 31564440, 32220891, 32317181, 34667026, 35504881, 35617398, 35670774, 38488813, 38949888, 39147831, 39506116, 41941260]
     gold_entities: [PRAD, PRNE]
+    notes: >
+      Regenerated vs 377-corpus. +24 pre-2022 prostate genomics papers the old 56-corpus
+      lacked (TCGA PRAD 26544944, SU2C 26000489, Beltran NEPC 26855148, etc.). Borderlines
+      where prostate is a minor cohort excluded.
 
   # ======================================================================
   # SYNTHESIS (15)
@@ -462,6 +610,147 @@ questions:
     gold_entities: [BRCA1, BRCA2, MYCN, NBL, RMS]
     notes: nC3 high-risk NBL cluster over-expresses BRCA1/BRCA2/MYCN; pediatric sarcoma genomic evolution context.
 
+  # Added 2026-06-07 (full-corpus refresh): S16–S25 grounded in newly-eligible papers.
+  - id: S16
+    category: synthesis
+    split: train
+    question: >
+      Across the corpus's cell-free DNA assay-development papers, what shared rationale
+      emerges for sequencing matched white-blood-cell DNA alongside plasma, and what
+      fraction of "somatic" cfDNA calls turn out to be clonal hematopoiesis?
+    gold_pmids: [31768066, 34145282, 33106634]
+    gold_entities: [DNMT3A, TET2, PPM1D, TP53, CHEK2]
+    notes: >
+      All three converge: most cfDNA "somatic" variants are CH and require matched WBC
+      sequencing to filter (31768066: 81.6% control / 53.2% cancer; 34145282 removes
+      >10,000 germline/CH variants; 33106634 supplies the therapy-selected DDR-gene CH mechanism).
+
+  - id: S17
+    category: synthesis
+    split: train
+    question: >
+      Across the prostate-cancer papers in the corpus, what do they agree on regarding
+      the prevalence of DNA-damage-repair / homologous-recombination gene alterations and
+      the rationale for PARP inhibition, and where do the reported rates and contexts differ?
+    gold_pmids: [28825054, 26000489, 31061129, 35504881, 28068672]
+    gold_entities: [BRCA2, BRCA1, ATM, CHEK2, PRAD]
+    notes: >
+      Agreement: DDR/HRR defects (BRCA2/BRCA1/ATM) recur in advanced PRAD and motivate PARPi.
+      Differs in rate/context: 27% (28825054) vs 19.3% (26000489) vs PROfound-eligible 19.6% /
+      9.8% BRCA1/2 in brain mets (35504881); 28068672 extends BRCAness to BRCA-WT; 31061129 ties RB1 (not HRR) to ARSI outcome.
+
+  - id: S18
+    category: synthesis
+    split: train
+    question: >
+      How do the corpus's cholangiocarcinoma genomics papers agree and differ on the
+      actionable driver landscape (IDH1/2, FGFR2) versus the genomic features that carry
+      adverse prognosis?
+    gold_pmids: [29848569, 28667006, 33765338, 31130341]
+    gold_entities: [IDH1, FGFR2, KRAS, TP53, CDKN2A, CHOL]
+    notes: >
+      Agreement: IDH1/2 and FGFR2 fusions are recurrent actionable iCCA drivers; prognosis is
+      driven instead by TP53/KRAS/CDKN2A. Differ: MSK-IMPACT prognostic cohorts (29848569, 33765338)
+      vs etiology-driven subtypes (28667006) vs mixed HCC-ICC entity (31130341).
+
+  - id: S19
+    category: synthesis
+    split: train
+    question: >
+      Across the head-and-neck squamous-cell-carcinoma papers in the corpus, what
+      consistent picture emerges of the HPV-positive versus HPV-negative genomic
+      dichotomy, and how does the recurrent/metastatic setting complicate it?
+    gold_pmids: [25631445, 21798893, 23619168, 27442865]
+    gold_entities: [TP53, CDKN2A, PIK3CA, NOTCH1, HNSC]
+    notes: >
+      Agreement: HPV-negative HNSC = TP53 loss + CDKN2A inactivation + smoking signature;
+      HPV-positive = PIK3CA + lower mutation rate; NOTCH1 recurrent. 27442865 adds that
+      recurrent/metastatic HPV-positive tumors acquire an HPV-negative-like TP53-mutant genotype.
+
+  - id: S20
+    category: synthesis
+    split: train
+    question: >
+      Across the PD-1/PD-L1 blockade biomarker papers in the corpus, where do tumor
+      mutational burden, PD-L1 expression, MSI, and transcriptional resistance programs
+      agree as predictors of response, and where do they disagree?
+    gold_pmids: [29337640, 30643254, 26997480, 29033130, 29850653]
+    gold_entities: [CD274, PDCD1, STK11, BRCA2]
+    notes: >
+      Agreement: high TMB favors benefit (29337640, 30643254). Disagree/limits: bulk load does not
+      separate melanoma responders (26997480 IPRES); clonal-load predicts in ipi-naive not ipi-progressed
+      (29033130); no universal TMB cutpoint, no glioma benefit (30643254); MSI complementary (29850653).
+
+  - id: S21
+    category: synthesis
+    split: train
+    question: >
+      Across the corpus's large clinical sarcoma sequencing studies, what common
+      conclusions emerge about actionable-alteration yield and the dominance of
+      copy-number-driven biology, and how do their cohorts and panels differ?
+    gold_pmids: [35705558, 35705560, 29100075]
+    gold_entities: [TP53, ALK, BRAF, NTRK1]
+    notes: >
+      Agreement: sarcomas are largely copy-number / TP53-cell-cycle driven with low TMB, yet ~30%
+      carry an OncoKB-actionable alteration. Differ by cohort/panel: FoundationOne 7,494 (35705558)
+      vs MSK-IMPACT 2,138 (35705560) vs TCGA 206 multi-omic SCNA-focused (29100075).
+
+  - id: S22
+    category: synthesis
+    split: val
+    question: >
+      How does the corpus characterize prostate-cancer progression as an evolutionary
+      trajectory from primary disease through metastatic castration-resistant disease to
+      neuroendocrine transformation, and which genomic events mark each transition?
+    gold_pmids: [26544944, 23622249, 26000489, 26855148, 28825054]
+    gold_entities: [AR, TP53, RB1, PTEN, ERG, PRAD]
+    notes: >
+      Trajectory: ERG-fusion/SPOP primary subtypes (26544944) → punctuated chromoplexy ordering
+      NKX3-1→TP53→PTEN (23622249) → early clonal TP53/somatic-BRCA2 (28825054) → AR/TP53/PTEN-enriched
+      mCRPC (26000489) → RB1+TP53 loss / AR-depleted divergent NEPC (26855148).
+
+  - id: S23
+    category: synthesis
+    split: val
+    question: >
+      Across the glioma papers in the corpus, what consistent role do CDKN2A loss, IDH
+      status, and temozolomide-induced hypermutation play in malignant progression and
+      recurrence, and how do tissue versus CSF liquid-biopsy approaches complement each other?
+    gold_pmids: [31263031, 35649412, 30675060]
+    gold_entities: [IDH1, CDKN2A, MGMT, TP53, ATRX]
+    notes: >
+      Agreement: CDKN2A loss is an IDH-status-independent progression driver (31263031, 35649412);
+      TMZ-induced hypermutation marks recurrence. Complementarity: CSF ctDNA recapitulates truncal
+      IDH1/TP53/ATRX/TERT and predicts death (30675060).
+
+  - id: S24
+    category: synthesis
+    split: test
+    question: >
+      Across the corpus's GI-cancer papers, what differing roles does KRAS play — as a
+      prognostic dosage biomarker, a side-specific driver, and a source of acquired
+      resistance — and where do the findings converge?
+    gold_pmids: [39753968, 29316426, 36355783]
+    gold_entities: [KRAS, BRAF, EGFR, APC]
+    notes: >
+      Three KRAS angles converging on copy/dosage state as driver: PDAC mutant-allele dosage → worse OS
+      (39753968); right-sided MSS mCRC enrichment → shorter survival (29316426); KRASG12C amplification
+      as acquired resistance to G12C+EGFR blockade (36355783).
+
+  - id: S25
+    category: synthesis
+    split: test
+    question: >
+      Across the corpus's cfDNA/ctDNA clinical studies, what common utilities of plasma
+      and CSF liquid biopsy emerge, and how do the approaches differ by the clinical
+      question and the confounders they must control for?
+    gold_pmids: [34059130, 34145282, 31768066, 30675060, 32633890]
+    gold_entities: [TP53, DNMT3A, PPM1D]
+    notes: >
+      Shared utility: detect tumor-derived alterations + track burden. Differ: tumor-fraction-guided
+      plasma (34059130); clinical-grade actionability + CH/germline removal (34145282); CH dominates
+      plasma variants (31768066); CSF reservoir for glioma (30675060); vitreous/plasma where biopsy contraindicated (32633890).
+
   # ======================================================================
   # DEFINITION (10)
   # ======================================================================
@@ -565,3 +854,108 @@ questions:
     gold_pmids: [38362943, 37397861]
     gold_entities: [radcure, HNSC]
     notes: 3,346 HNSCC planning CTs with standardized RTSTRUCT nomenclature, 5-year median follow-up; largest public HNSCC RT resource.
+
+  # Added 2026-06-07 (full-corpus refresh): D11–D18 grounded in newly-eligible papers.
+  - id: D11
+    category: definition
+    split: train
+    question: >
+      What is MiMSI, and how does it detect microsatellite instability from MSK-IMPACT
+      sequencing?
+    gold_pmids: [39746944]
+    gold_entities: [mimsi]
+    notes: >
+      Deep multiple-instance-learning classifier detecting MSI from targeted NGS reads at
+      microsatellite loci. Trained on 741 MSK-IMPACT cases; sensitivity 0.895 / auROC 0.971
+      (vs MSISensor 0.67 / 0.907), largest gain in <30% purity; cut indeterminate rate 3.8%→0.47% across 45,112 tumors.
+
+  - id: D12
+    category: definition
+    split: train
+    question: >
+      What is MSK-ACCESS (the ACCESS129 assay), and how does paired normal sequencing
+      improve cfDNA mutation calling?
+    gold_pmids: [34145282]
+    gold_entities: [msk-access]
+    notes: >
+      129-gene hybrid-capture cfDNA NGS assay (~20,000x raw / ~1,100x duplex) paired with matched WBC
+      sequencing. 92% de novo sensitivity at ≥0.5% VAF, ≥99.7% specificity; matched WBC removed >10,000
+      germline/CH variants plasma-only filtering would miss.
+
+  - id: D13
+    category: definition
+    split: train
+    question: >
+      What is the high-intensity cfDNA + matched-WBC sequencing approach of Razavi et al.,
+      and what did it reveal about the sources of plasma cell-free DNA variants?
+    gold_pmids: [31768066]
+    gold_entities: [grail_cfdna_508]
+    notes: >
+      508-gene / ~2 Mb >60,000X plasma assay with matched WBC DNA (124 cancer patients + 47 controls).
+      Most "somatic" cfDNA variants are clonal hematopoiesis (81.6% controls / 53.2% cancer) detectable
+      only with matched WBC — joint cfDNA+WBC sequencing needed to avoid mis-calling CH as tumor-derived.
+
+  - id: D14
+    category: definition
+    split: train
+    question: >
+      What is the GLASS Consortium diffuse-glioma cohort, and what did its longitudinal
+      analysis establish about glioma evolution?
+    gold_pmids: [31748746]
+    gold_entities: [difg_glass_2019]
+    notes: >
+      Glioma Longitudinal AnalySiS: temporally separated DNA sequencing from 222 adult diffuse-glioma
+      patients (IDH-mut codel / non-codel / IDH-WT) at diagnosis + recurrence. Diagnosis drivers almost
+      universally retained at recurrence; alkylator therapy drove subtype-dependent hypermutation; strongest selection acts early.
+
+  - id: D15
+    category: definition
+    split: val
+    question: >
+      What is the tumor mutational burden (TMB) survival biomarker defined by Samstein
+      et al., and how does it predict outcome after immune checkpoint blockade?
+    gold_pmids: [30643254]
+    gold_entities: [tmb_mskcc_2018]
+    notes: >
+      Using MSK-IMPACT data for 1,662 ICI-treated + 5,371 non-ICI patients, TMB ("high" = top 20% within
+      histology) predicted better OS after ICI (HR 0.52; p=1.6e-6) across most histologies (not glioma);
+      cutpoint varied markedly by cancer type, arguing against a single universal threshold.
+
+  - id: D16
+    category: definition
+    split: val
+    question: >
+      What is the MSK prostate-cancer-by-self-reported-race genomic cohort (Stopsack et
+      al.), and what genomic differences did it characterize, including the role of chr8q gain?
+    gold_pmids: [34667026]
+    gold_entities: [prad_msk_stopsack_2021]
+    notes: >
+      MSK-IMPACT cohort of 2,069 men (1,841 White, 165 Black, 63 Asian) characterizing somatic
+      differences by self-reported race. Black men: more AR alterations + chr8q gains, fewer PTEN/TP53;
+      Asian men: enriched class-1 FOXA1/ZFHX3. Area-level income independently associated with chr8q gain (not purely germline).
+
+  - id: D17
+    category: definition
+    split: test
+    question: >
+      What is the Gounder et al. comprehensive sarcoma genomic profiling cohort
+      (sarcoma_msk_2022), and what did profiling 7,494 sarcomas reveal about actionability?
+    gold_pmids: [35705558]
+    gold_entities: [sarcoma_msk_2022]
+    notes: >
+      7,494 soft-tissue/bone sarcomas across 44 histologies profiled by FoundationOne Heme (465-gene DNA
+      + 333-gene fusion panel), 2012–2018. Diagnostic refinement in 10.5%; 31.7% OncoKB-actionable; 2.6%
+      kinase fusions; 3.9% TMB≥10; MSI-H rare (<0.3%); 15% high gLOH.
+
+  - id: D18
+    category: definition
+    split: test
+    question: >
+      What is HRDetect, and how was it used to assess homologous-recombination deficiency
+      in the Sherlock-Lung never-smoker cohort?
+    gold_pmids: [34493867]
+    gold_entities: [hrdetect]
+    notes: >
+      ML classifier combining six mutational-signature features (SBS3, SBS8, microhomology deletions, SV
+      signatures, indel enrichment, large deletions) → HRD probability (>0.7 = HRD-positive). In Sherlock-Lung
+      WGS of 232 never-smoker lung cancers, ~16% (n=37) scored >0.7, concentrated in forte/mezzo-forte SCNA subtypes.

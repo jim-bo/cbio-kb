@@ -1,5 +1,5 @@
 {
-  "run_id": "2026-04-20-0446",
+  "run_id": "2026-06-07-175514",
   "questions": [
     {
       "id": "D01",
@@ -7,8 +7,8 @@
       "question": "What is the MSK-IMPACT panel, and what are its main panel versions referenced in the corpus?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 10,
-      "rag_total": 12
+      "agentic_total": 9,
+      "rag_total": 10
     },
     {
       "id": "D02",
@@ -17,7 +17,7 @@
       "has_agentic": true,
       "has_rag": true,
       "agentic_total": 15,
-      "rag_total": 15
+      "rag_total": 14
     },
     {
       "id": "D03",
@@ -35,7 +35,7 @@
       "has_agentic": true,
       "has_rag": true,
       "agentic_total": 14,
-      "rag_total": 14
+      "rag_total": 15
     },
     {
       "id": "D05",
@@ -44,7 +44,7 @@
       "has_agentic": true,
       "has_rag": true,
       "agentic_total": 15,
-      "rag_total": 13
+      "rag_total": 15
     },
     {
       "id": "D06",
@@ -53,7 +53,43 @@
       "has_agentic": true,
       "has_rag": true,
       "agentic_total": 15,
+      "rag_total": 14
+    },
+    {
+      "id": "D11",
+      "category": "definition",
+      "question": "What is MiMSI, and how does it detect microsatellite instability from MSK-IMPACT sequencing?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
       "rag_total": 15
+    },
+    {
+      "id": "D12",
+      "category": "definition",
+      "question": "What is MSK-ACCESS (the ACCESS129 assay), and how does paired normal sequencing improve cfDNA mutation calling?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 13
+    },
+    {
+      "id": "D13",
+      "category": "definition",
+      "question": "What is the high-intensity cfDNA + matched-WBC sequencing approach of Razavi et al., and what did it reveal about the sources of plasma cell-free DNA variants?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "D14",
+      "category": "definition",
+      "question": "What is the GLASS Consortium diffuse-glioma cohort, and what did its longitudinal analysis establish about glioma evolution?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 5,
+      "rag_total": 4
     },
     {
       "id": "L01",
@@ -70,8 +106,8 @@
       "question": "In the radiation-associated sarcoma cohort, which driver alteration dominates RT-angiosarcoma of the breast/chest wall, and at what frequency?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 15,
-      "rag_total": 14
+      "agentic_total": 14,
+      "rag_total": 15
     },
     {
       "id": "L03",
@@ -124,7 +160,7 @@
       "question": "In the peripheral T-cell lymphoma CHOP-based chemotherapy cohort, which mutation identified high-risk events?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 15,
+      "agentic_total": 11,
       "rag_total": 15
     },
     {
@@ -134,7 +170,79 @@
       "has_agentic": true,
       "has_rag": true,
       "agentic_total": 10,
-      "rag_total": 14
+      "rag_total": 11
+    },
+    {
+      "id": "L16",
+      "category": "lookup",
+      "question": "In the SU2C\u2013PCF integrative genomics study of metastatic castration-resistant prostate cancer, what percentage of patients harbored at least one clinically actionable aberration?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 3,
+      "rag_total": 15
+    },
+    {
+      "id": "L17",
+      "category": "lookup",
+      "question": "In the comprehensive genomic analysis of rhabdomyosarcoma by Shern et al., what fraction of whole-genome-sequenced tumors carried a receptor tyrosine kinase/RAS/PIK3CA-axis alteration?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L18",
+      "category": "lookup",
+      "question": "In the Hugo et al. anti-PD-1 melanoma cohort, what percentage of responders versus non-responders carried BRCA2 nonsynonymous mutations?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L19",
+      "category": "lookup",
+      "question": "In the study of clinical resistance to RAF inhibition in metastatic melanoma, what percentage of the cohort had resistance alterations in MAPK-pathway genes?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L20",
+      "category": "lookup",
+      "question": "In the Johnson/Mazor study of paired grade II astrocytomas, how many temozolomide-treated patients developed hypermutated recurrences, and what was their outcome?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L21",
+      "category": "lookup",
+      "question": "In the MSK high-intensity cfDNA sequencing study, in what percentage of patients was at least one tumor-derived (biopsy-matched) mutation detected in cfDNA?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L22",
+      "category": "lookup",
+      "question": "In the first-wave MSK-IMPACT report by Zehir et al., how many patients and successfully sequenced tumors were profiled, and how many gene-panel versions were used?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L23",
+      "category": "lookup",
+      "question": "In the MSK-IMPACT sarcoma cohort (Nacev et al.), what fraction of intimal sarcomas harbored oncogenic TERT amplifications?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
     },
     {
       "id": "LS01",
@@ -142,8 +250,8 @@
       "question": "Which corpus papers profile patients using an MSK-IMPACT targeted panel (any version, including IMPACT341/410/468/505 or the generic msk-impact-panel)?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 12,
-      "rag_total": 11
+      "agentic_total": 8,
+      "rag_total": 7
     },
     {
       "id": "LS02",
@@ -151,8 +259,8 @@
       "question": "Which corpus papers focus on head and neck squamous cell carcinoma (HNSC)?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 15,
-      "rag_total": 10
+      "agentic_total": 10,
+      "rag_total": 9
     },
     {
       "id": "LS03",
@@ -160,8 +268,8 @@
       "question": "List all corpus papers that analyze circulating tumor DNA (ctDNA) as a primary modality.",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 15,
-      "rag_total": 10
+      "agentic_total": 4,
+      "rag_total": 8
     },
     {
       "id": "LS04",
@@ -169,8 +277,8 @@
       "question": "Which corpus papers describe publicly released TCIA imaging datasets?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 4,
-      "rag_total": 13
+      "agentic_total": 10,
+      "rag_total": 11
     },
     {
       "id": "LS05",
@@ -178,8 +286,8 @@
       "question": "Which corpus papers analyze KRAS mutations as a driver or biomarker focus (not just incidental mention)?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 10,
-      "rag_total": 9
+      "agentic_total": 7,
+      "rag_total": 7
     },
     {
       "id": "LS06",
@@ -187,8 +295,8 @@
       "question": "Which corpus papers evaluate PD-1 or PD-L1 immune checkpoint blockade in patients?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 9,
-      "rag_total": 9
+      "agentic_total": 7,
+      "rag_total": 8
     },
     {
       "id": "S01",
@@ -205,8 +313,8 @@
       "question": "How do the corpus papers characterize the long-term molecular sequelae of radiotherapy on previously-irradiated tissue?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 14,
-      "rag_total": 10
+      "agentic_total": 13,
+      "rag_total": 8
     },
     {
       "id": "S03",
@@ -214,8 +322,8 @@
       "question": "Across the corpus trials of PD-1 or PD-L1 blockade, what biomarkers of response appear, and do they agree across disease sites?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 12,
-      "rag_total": 8
+      "agentic_total": 6,
+      "rag_total": 6
     },
     {
       "id": "S04",
@@ -223,8 +331,8 @@
       "question": "What evidence across the corpus links DNA-damage-response biology to aggressive or treatment-refractory phenotypes in multiple tumor types?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 3,
-      "rag_total": 7
+      "agentic_total": 4,
+      "rag_total": 5
     },
     {
       "id": "S05",
@@ -232,8 +340,8 @@
       "question": "Across the ctDNA papers in the corpus, what common utilities emerge, and where do the approaches differ in clinical question?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 13,
-      "rag_total": 10
+      "agentic_total": 6,
+      "rag_total": 7
     },
     {
       "id": "S06",
@@ -241,8 +349,8 @@
       "question": "Across the lymphoma papers in the corpus (CLL, Hodgkin, DLBCL, PTCL, PCNSL), what common themes emerge about how genomic subclassification informs clinical stratification?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 15,
-      "rag_total": 10
+      "agentic_total": 10,
+      "rag_total": 6
     },
     {
       "id": "S07",
@@ -260,7 +368,7 @@
       "has_agentic": true,
       "has_rag": true,
       "agentic_total": 15,
-      "rag_total": 15
+      "rag_total": 8
     },
     {
       "id": "S09",
@@ -268,8 +376,62 @@
       "question": "Across the corpus, what evidence links environmental radiation or UV exposure to acquired somatic alterations or epigenetic drift?",
       "has_agentic": true,
       "has_rag": true,
-      "agentic_total": 15,
+      "agentic_total": 9,
+      "rag_total": 8
+    },
+    {
+      "id": "S16",
+      "category": "synthesis",
+      "question": "Across the corpus's cell-free DNA assay-development papers, what shared rationale emerges for sequencing matched white-blood-cell DNA alongside plasma, and what fraction of \"somatic\" cfDNA calls turn out to be clonal hematopoiesis?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 12,
+      "rag_total": 12
+    },
+    {
+      "id": "S17",
+      "category": "synthesis",
+      "question": "Across the prostate-cancer papers in the corpus, what do they agree on regarding the prevalence of DNA-damage-repair / homologous-recombination gene alterations and the rationale for PARP inhibition, and where do the reported rates and contexts differ?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 3,
       "rag_total": 9
+    },
+    {
+      "id": "S18",
+      "category": "synthesis",
+      "question": "How do the corpus's cholangiocarcinoma genomics papers agree and differ on the actionable driver landscape (IDH1/2, FGFR2) versus the genomic features that carry adverse prognosis?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 9,
+      "rag_total": 10
+    },
+    {
+      "id": "S19",
+      "category": "synthesis",
+      "question": "Across the head-and-neck squamous-cell-carcinoma papers in the corpus, what consistent picture emerges of the HPV-positive versus HPV-negative genomic dichotomy, and how does the recurrent/metastatic setting complicate it?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 13,
+      "rag_total": 13
+    },
+    {
+      "id": "S20",
+      "category": "synthesis",
+      "question": "Across the PD-1/PD-L1 blockade biomarker papers in the corpus, where do tumor mutational burden, PD-L1 expression, MSI, and transcriptional resistance programs agree as predictors of response, and where do they disagree?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 2,
+      "rag_total": 8
+    },
+    {
+      "id": "S21",
+      "category": "synthesis",
+      "question": "Across the corpus's large clinical sarcoma sequencing studies, what common conclusions emerge about actionable-alteration yield and the dominance of copy-number-driven biology, and how do their cohorts and panels differ?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 14,
+      "rag_total": 13
     }
   ]
 }

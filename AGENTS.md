@@ -126,7 +126,7 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 
 1. Drop PDFs into `data/raw/pdfs/`; run `ingest extract` once. To pick up everything newly published on cBioPortal instead: `uv run cbio-kb ingest seed && uv run cbio-kb ingest resolve && uv run cbio-kb ingest pdfs && uv run cbio-kb ingest extract && uv run cbio-kb ingest bioc` (the last fills papers PMC won't serve as PDF).
 2. Dispatch **paper-compiler** in parallel waves of ~5 PMIDs. On 529 overloads, retry failed PMIDs sequentially — do not abandon the wave. If Opus's safeguards flag a (benign) biomedical paper, retry that PMID on `sonnet`.
-3. Collect all returned entity lists and invert to `{entity_kind: {entity: [pmids...]}}` with a Python one-liner.
+3. `uv run python scripts/sync_pubmed_metadata.py <pmids…>` — sets authors (and blank doi/journal/year) from PubMed; the compiler can't always see a byline. Then collect all returned entity lists and invert to `{entity_kind: {entity: [pmids...]}}` with a Python one-liner.
 4. Fan out **entity-page-writer** once per kind. Shard `genes` into alphabetical buckets of ~20 to keep prompts tight.
 5. Single **crosslinker** pass over the new papers + all touched entity pages (pin to `haiku`).
 6. `uv run cbio-kb wiki normalize-brackets` — deterministic post-write step that repairs Obsidian-style links (`[[name]]`, `[[name](url)]]`, etc.) to plain Markdown. Always run before lint; `cbio-kb lint` treats the unbalanced variants as errors and will fail CI otherwise.

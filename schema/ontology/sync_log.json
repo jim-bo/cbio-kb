@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-04-10T01:42:20.749661+00:00",
+  "synced_at": "2026-09-10T17:22:47.688981+00:00",
   "sources": {
     "genes": {
       "count": 44896,
@@ -7,7 +7,7 @@
       "ok": true
     },
     "studies": {
-      "count": 535,
+      "count": 546,
       "key": "studyId",
       "ok": true
     },
@@ -27,12 +27,12 @@
       "ok": true
     },
     "molecular_profiles": {
-      "count": 2488,
+      "count": 2553,
       "key": "molecularAlterationType",
       "ok": true
     },
     "clinical_attributes": {
-      "count": 1112,
+      "count": 1130,
       "key": "clinicalAttributeId",
       "ok": true
     }

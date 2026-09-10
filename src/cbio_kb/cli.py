@@ -21,20 +21,38 @@ def _cmd_ingest_extract(args: argparse.Namespace) -> int:
     )
 
 
+def _cmd_ingest_bioc(args: argparse.Namespace) -> int:
+    from cbio_kb.ingest import bioc
+
+    return bioc.run(
+        mapping_csv=Path(args.mapping),
+        out_dir=Path(args.out_dir),
+        pdf_dir=Path(args.pdf_dir),
+    )
+
+
+def _cmd_ingest_seed(args: argparse.Namespace) -> int:
+    from cbio_kb.ingest import seed
+
+    return seed.run(out=Path(args.out))
+
+
 def _cmd_ingest_resolve(args: argparse.Namespace) -> int:
     from cbio_kb.ingest import pmid2pmcid
 
-    return pmid2pmcid.main([])
+    argv = ["--in-csv", args.seed, "--out", args.out, "--fallback-elink"]
+    if args.email:
+        argv += ["--email", args.email]
+    return pmid2pmcid.main(argv)
 
 
 def _cmd_ingest_pdfs(args: argparse.Namespace) -> int:
     from cbio_kb.ingest import pmc_downloader
 
-    return pmc_downloader.main([
-        "--in", args.mapping,
-        "--out-dir", args.out_dir,
-        "--email", args.email,
-    ])
+    argv = ["--in", args.mapping, "--out-dir", args.out_dir]
+    if args.email:
+        argv += ["--email", args.email]
+    return pmc_downloader.main(argv)
 
 
 def _cmd_index_build(args: argparse.Namespace) -> int:
@@ -297,14 +315,29 @@ def build_parser() -> argparse.ArgumentParser:
     ext.add_argument("--limit", type=int, default=None)
     ext.set_defaults(func=_cmd_ingest_extract)
 
+    sd = ingest_sub.add_parser("seed", help="Live cBioPortal studies -> seed studyId,pmid CSV")
+    sd.add_argument("--out", default="data/seed/cbioportal_study_pmids.csv")
+    sd.set_defaults(func=_cmd_ingest_seed)
+
     res = ingest_sub.add_parser("resolve", help="PMIDs -> PMCIDs (NCBI)")
+    res.add_argument("--seed", default="data/seed/cbioportal_study_pmids.csv")
+    res.add_argument("--out", default="data/pmid_to_pmcid.csv")
+    res.add_argument("--email", default=None, help="Contact email passed to NCBI (optional)")
     res.set_defaults(func=_cmd_ingest_resolve)
 
     pdfs = ingest_sub.add_parser("pdfs", help="Download PDFs from PMC")
     pdfs.add_argument("--mapping", default="data/pmid_to_pmcid.csv")
     pdfs.add_argument("--out-dir", default="data/raw/pdfs")
-    pdfs.add_argument("--email", required=True)
+    pdfs.add_argument("--email", default=None, help="Contact email sent as a From header (optional)")
     pdfs.set_defaults(func=_cmd_ingest_pdfs)
+
+    bc = ingest_sub.add_parser(
+        "bioc", help="Full text via NCBI BioC for mapped papers with no PDF -> raw/papers/*.md",
+    )
+    bc.add_argument("--mapping", default="data/pmid_to_pmcid.csv")
+    bc.add_argument("--out-dir", default="data/raw/papers")
+    bc.add_argument("--pdf-dir", default="data/raw/pdfs")
+    bc.set_defaults(func=_cmd_ingest_bioc)
 
     idx = sub.add_parser("index", help="FAISS passage index")
     idx_sub = idx.add_subparsers(dest="subcmd", required=True)

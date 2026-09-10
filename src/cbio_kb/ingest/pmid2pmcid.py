@@ -6,7 +6,7 @@ try:
 except Exception:
     Entrez = None
 
-IDCONV_URL = "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
+IDCONV_URL = "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/"
 ELINK_URL  = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi"
 UA = "pmid2pmcid-cli/1.2 (+https://example.org)"
 

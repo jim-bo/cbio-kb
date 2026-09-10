@@ -17,7 +17,7 @@ ITS2 (internal transcribed spacer 2) rDNA sequencing is an amplicon-based approa
 
 ## Used by
 
-- Synthesized in a narrative review of gut-liver axis dysregulation in cholangiocarcinoma (Zhang L, cited): ITS2 rDNA mycobiome sequencing of iCCA gut samples documented *Candida albicans* overgrowth and reduced *Saccharomyces cerevisiae* correlating with advanced TNM stage (III–IV) [PMID:25608663](../papers/25608663.md)
+- Synthesized in a narrative review of gut-liver axis dysregulation in cholangiocarcinoma (Zhang L, cited): ITS2 rDNA mycobiome sequencing of iCCA gut samples documented *Candida albicans* overgrowth and reduced *Saccharomyces cerevisiae* correlating with advanced TNM stage (III–IV) [PMID:41018102](../papers/41018102.md)
 
 ## Notes
 
@@ -28,6 +28,6 @@ ITS2 (internal transcribed spacer 2) rDNA sequencing is an amplicon-based approa
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md) — Gut-liver axis review in cholangiocarcinoma (narrative review synthesizing fungal dysbiosis data)
+- [PMID:41018102](../papers/41018102.md) — Gut-liver axis review in cholangiocarcinoma (narrative review synthesizing fungal dysbiosis data)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

@@ -15,24 +15,24 @@ CYP7A1 (Cytochrome P450 Family 7 Subfamily A Member 1) encodes cholesterol 7-alp
 
 ## Alterations observed in the corpus
 
-- Expression suppressed by IDH1/IDH2 gain-of-function mutations via 2-hydroxyglutarate (2-HG) accumulation in intrahepatic cholangiocarcinoma; part of the bile acid biosynthesis pathway disruption characteristic of IDH-mutant iCCA [PMID:25608663](../papers/25608663.md)
+- Expression suppressed by IDH1/IDH2 gain-of-function mutations via 2-hydroxyglutarate (2-HG) accumulation in intrahepatic cholangiocarcinoma; part of the bile acid biosynthesis pathway disruption characteristic of IDH-mutant iCCA [PMID:41018102](../papers/41018102.md)
 
 ## Cancer types (linked)
 
-- Intrahepatic cholangiocarcinoma (iCCA): CYP7A1 suppressed downstream of IDH1/IDH2 mutation [PMID:25608663](../papers/25608663.md)
+- Intrahepatic cholangiocarcinoma (iCCA): CYP7A1 suppressed downstream of IDH1/IDH2 mutation [PMID:41018102](../papers/41018102.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Expression inversely correlated with IDH1/IDH2 gain-of-function mutations in iCCA [PMID:25608663](../papers/25608663.md)
+- Expression inversely correlated with IDH1/IDH2 gain-of-function mutations in iCCA [PMID:41018102](../papers/41018102.md)
 
 ## Therapeutic relevance
 
-- [IDH1](../genes/IDH1.md) inhibitor [ivosidenib](../drugs/ivosidenib.md) (AG-120) was approved based on the ClarIDHy phase III PFS benefit; restoration of [IDH1](../genes/IDH1.md) normal function may relieve CYP7A1 suppression [PMID:25608663](../papers/25608663.md)
+- [IDH1](../genes/IDH1.md) inhibitor [ivosidenib](../drugs/ivosidenib.md) (AG-120) was approved based on the ClarIDHy phase III PFS benefit; restoration of [IDH1](../genes/IDH1.md) normal function may relieve CYP7A1 suppression [PMID:41018102](../papers/41018102.md)
 
 ## Open questions
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

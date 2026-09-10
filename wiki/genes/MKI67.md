@@ -18,9 +18,9 @@ MKI67 (marker of proliferation Ki-67) is a nuclear protein expressed exclusively
 - MKI67 (Ki-67) IHC in grade II oligodendroglioma confirmed that proliferating cells are rare (1.5–8% of total cells) and are enriched in the stem/progenitor (SOX2/SOX4/SOX11-high) compartment rather than in differentiated oligo-like or astrocyte-like cells, validating the scRNA-seq developmental hierarchy [PMID:27806376](../papers/27806376.md).
 - MKI67 is expressed in the proliferating hC1 progenitor cluster of postnatal human adrenal gland (alongside ASPM, [BUB1](../genes/BUB1.md)), consistent with an active cell-cycling state in this novel progenitor population [PMID:34493726](../papers/34493726.md).
 - In HNSCC reirradiation plus [nivolumab](../drugs/nivolumab.md), MKI67 (Ki-67) co-expression with PD-1 on peripheral blood [CD4](../genes/CD4.md)+ T cells defined an early proliferative response marker; a surge in PD-1+Ki-67+[CD4](../genes/CD4.md)+ T cells (≥1.5-fold from baseline after cycle 1) trended with **worse** PFS — inverting expectations from lung cancer and melanoma where such surges correlate with benefit [PMID:38780927](../papers/38780927.md).
-- MKI67 (Ki-67) expression was measured in breast cancer samples undergoing whole-exome and RNA-seq profiling in a study that identified [SF3B1](../genes/SF3B1.md) somatic mutations and splicing dysregulation [PMID:22158541](../papers/22158541.md)
-- Used as a cell-cycle (Ki67) marker by dual IHC in a mouse VHL-knockout model; VKO cells show increased Ki67 positivity vs ConKO (p=0.049), an effect absent when both HIFa isoforms are co-deleted [PMID:23797736](../papers/23797736.md)
-- MKI67 (Ki-67) expression is low in the steady NS-LUAD subtype and high in the proliferative subtype, anchoring the proliferation axis of the three-subtype NMF classification across 684 never-smoker lung adenocarcinomas [PMID:32015526](../papers/32015526.md)
+- MKI67 (Ki-67) expression was measured in breast cancer samples undergoing whole-exome and RNA-seq profiling in a study that identified [SF3B1](../genes/SF3B1.md) somatic mutations and splicing dysregulation [PMID:41055979](../papers/41055979.md)
+- Used as a cell-cycle (Ki67) marker by dual IHC in a mouse VHL-knockout model; VKO cells show increased Ki67 positivity vs ConKO (p=0.049), an effect absent when both HIFa isoforms are co-deleted [PMID:41102155](../papers/41102155.md)
+- MKI67 (Ki-67) expression is low in the steady NS-LUAD subtype and high in the proliferative subtype, anchoring the proliferation axis of the three-subtype NMF classification across 684 never-smoker lung adenocarcinomas [PMID:40970133](../papers/40970133.md)
 
 ## Cancer types (linked)
 
@@ -49,12 +49,12 @@ MKI67 (marker of proliferation Ki-67) is a nuclear protein expressed exclusively
 - [PMID:38780927](../papers/38780927.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22158541](../papers/22158541.md)
+- [PMID:41055979](../papers/41055979.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23797736](../papers/23797736.md)
+- [PMID:41102155](../papers/41102155.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

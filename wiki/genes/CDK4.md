@@ -32,7 +32,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute co-amplification with [MDM2](../genes/MDM2.md) was a striking structural finding; CDK4/CDK6 amplifications contribute to Rb-pathway dysregulation (overall 78.9%) [PMID:24120142](../papers/24120142.md)
 - Downstream effector of the RB pathway deregulated by TMZ-associated [CDKN2A](../genes/CDKN2A.md) P114L mutation; CDK4 inhibition was abrogated by [CDKN2A](../genes/CDKN2A.md) mutation, contributing to malignant progression in TMZ-treated recurrent low-grade glioma [PMID:24336570](../papers/24336570.md)
 - Within 12q13-q14 amplicon in 9.7% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases, skewed toward PAX-fusion-positive tumors; 12q amplification containing CDK4 associated with worse overall survival in [RMS](../cancer_types/RMS.md) independent of fusion status [PMID:24436047](../papers/24436047.md)
-- Dalpiciclib (CDK4/6 inhibitor) induces G1 arrest and upregulates MHC class I/IFN signaling; combined with [camrelizumab](../drugs/camrelizumab.md) achieved ORR 32.4% in PD-1-refractory R/M [NPC](../cancer_types/NPC.md) [PMID:24952746](../papers/24952746.md)
+- Dalpiciclib (CDK4/6 inhibitor) induces G1 arrest and upregulates MHC class I/IFN signaling; combined with [camrelizumab](../drugs/camrelizumab.md) achieved ORR 32.4% in PD-1-refractory R/M [NPC](../cancer_types/NPC.md) [PMID:41002550](../papers/41002550.md)
 - High-level copy-number gain in 2 of 29 cutaneous squamous cell carcinoma samples by GISTIC analysis [PMID:25589618](../papers/25589618.md)
 - Amplification in 9% of PDA (RB-pathway alteration); co-occurs with CDKN2A/B deletion (36% each) and [CCND1](../genes/CCND1.md) amplification (6%); nominates CDK4/6 inhibitors [PMID:25855536](../papers/25855536.md)
 - Cell-cycle pathway aberration in mCRPC; potentially actionable via CDK4 inhibition; part of RB1/CDKN2A/B/CDK4/CCND1/CDKN1B cluster [PMID:26000489](../papers/26000489.md)
@@ -122,7 +122,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)

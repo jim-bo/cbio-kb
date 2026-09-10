@@ -22,26 +22,26 @@ SLC27A5, also known as fatty acid transport protein 5 (FATP5), is a liver-specif
 
 ## Alterations observed in the corpus
 
-- Bidirectional role in HCC: deficiency activates KEAP1/NRF2 and AKT/mTOR signaling promoting HCC, yet also acts as a non-canonical metastasis suppressor via PIP4K2A pre-mRNA splicing regulation; can promote sorafenib-induced ferroptosis via glutathione reductase regulation [PMID:38355797](../papers/38355797.md)
+- Bidirectional role in HCC: deficiency activates KEAP1/NRF2 and AKT/mTOR signaling promoting HCC, yet also acts as a non-canonical metastasis suppressor via PIP4K2A pre-mRNA splicing regulation; can promote sorafenib-induced ferroptosis via glutathione reductase regulation [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md):** SLC27A5 loss protects against high-fat-diet steatosis but also promotes HCC through KEAP1/NRF2 and AKT/mTOR; findings flagged as contradictory in the literature [PMID:38355797](../papers/38355797.md)
+- **[HCC](../cancer_types/HCC.md):** SLC27A5 loss protects against high-fat-diet steatosis but also promotes HCC through KEAP1/NRF2 and AKT/mTOR; findings flagged as contradictory in the literature [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Interacts with NRF2/KEAP1 and AKT/mTOR signaling networks; functionally distinct from [SLC27A4](../genes/SLC27A4.md) (FATP4) which selectively imports MUFA for ferroptosis protection [PMID:38355797](../papers/38355797.md)
+- Interacts with NRF2/KEAP1 and AKT/mTOR signaling networks; functionally distinct from [SLC27A4](../genes/SLC27A4.md) (FATP4) which selectively imports MUFA for ferroptosis protection [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- Context-dependent roles of SLC27A5 complicate therapeutic targeting; its role in promoting sorafenib-induced ferroptosis may be exploitable but requires etiology stratification [PMID:38355797](../papers/38355797.md)
+- Context-dependent roles of SLC27A5 complicate therapeutic targeting; its role in promoting sorafenib-induced ferroptosis may be exploitable but requires etiology stratification [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
-- Contradictory findings on SLC27A5 in HCC — tumor-suppressive vs. oncogenic roles depending on context — remain unresolved; the review flags this explicitly as a conflict [PMID:38355797](../papers/38355797.md)
+- Contradictory findings on SLC27A5 in HCC — tumor-suppressive vs. oncogenic roles depending on context — remain unresolved; the review flags this explicitly as a conflict [PMID:41118283](../papers/41118283.md)
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

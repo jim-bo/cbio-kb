@@ -16,11 +16,11 @@ PPP2R5A encodes the B56-alpha regulatory subunit of protein phosphatase 2A (PP2A
 
 ## Alterations observed in the corpus
 
-- Discussed as a comparison target of SF3B1-driven mis-splicing in other cancers (breast cancer context); not directly altered in the SF3B1/del(13q) CLL cohort but provides cross-disease splicing context. [PMID:26200345](../papers/26200345.md)
+- Discussed as a comparison target of SF3B1-driven mis-splicing in other cancers (breast cancer context); not directly altered in the SF3B1/del(13q) CLL cohort but provides cross-disease splicing context. [PMID:40694421](../papers/40694421.md)
 
 ## Cancer types (linked)
 
-- **CLL/SLL (CLLSLL):** Cross-disease comparison target for SF3B1-driven mis-splicing. [PMID:26200345](../papers/26200345.md)
+- **CLL/SLL (CLLSLL):** Cross-disease comparison target for SF3B1-driven mis-splicing. [PMID:40694421](../papers/40694421.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -30,6 +30,6 @@ PPP2R5A encodes the B56-alpha regulatory subunit of protein phosphatase 2A (PP2A
 
 ## Sources
 
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

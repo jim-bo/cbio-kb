@@ -17,8 +17,8 @@ Penpulimab is an anti-PD-1 monoclonal antibody targeting [PDCD1](../genes/PDCD1.
 
 ## Evidence in the corpus
 
-- Penpulimab (anti-PD-1) + platinum/gemcitabine is NCCN-recommended first-line standard for R/M NPC alongside toripalimab; ICI added on progression if not given upfront [PMID:24952746](../papers/24952746.md).
-- Phase III tagitanlimab (anti-PD-L1) + gem/cis in R/M NPC (NCT05294172, n=358): PFS HR 0.47; ORR 81.7%; median DOR 11.7 months; grade ≥3 TRAE 3.9%; TIM-3 inhibitor TQB2618 ± penpulimab in NPC (NCT05563480, n=17): ORR 0%, median PFS 1.6 months [PMID:24952746](../papers/24952746.md).
+- Penpulimab (anti-PD-1) + platinum/gemcitabine is NCCN-recommended first-line standard for R/M NPC alongside toripalimab; ICI added on progression if not given upfront [PMID:41002550](../papers/41002550.md).
+- Phase III tagitanlimab (anti-PD-L1) + gem/cis in R/M NPC (NCT05294172, n=358): PFS HR 0.47; ORR 81.7%; median DOR 11.7 months; grade ≥3 TRAE 3.9%; TIM-3 inhibitor TQB2618 ± penpulimab in NPC (NCT05563480, n=17): ORR 0%, median PFS 1.6 months [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

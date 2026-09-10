@@ -17,8 +17,8 @@ Brivanib is a dual inhibitor of VEGFR2 ([KDR](../genes/KDR.md)) and FGFR1. It wa
 
 ## Evidence in the corpus
 
-- Failed as a frontline HCC agent vs sorafenib: median OS 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15); cited alongside sunitinib, linifanib, and erlotinib as frontline failures [PMID:24798001](../papers/24798001.md).
-- Brivanib + TACE did not improve TTP or OS vs TACE alone in phase III HCC; cited as a negative TACE-combination result [PMID:24798001](../papers/24798001.md).
+- Failed as a frontline HCC agent vs sorafenib: median OS 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15); cited alongside sunitinib, linifanib, and erlotinib as frontline failures [PMID:30061739](../papers/30061739.md).
+- Brivanib + TACE did not improve TTP or OS vs TACE alone in phase III HCC; cited as a negative TACE-combination result [PMID:30061739](../papers/30061739.md).
 
 ## Resistance mechanisms
 

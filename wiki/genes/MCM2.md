@@ -17,7 +17,7 @@ MCM2 is a component of the MCM2-7 DNA helicase complex required for eukaryotic D
 
 - MCM2 protein validated by IHC as a marker for MG4 (proliferative, highest-risk) meningioma molecular group; specific IHC marker within the four-protein panel ([S100B](../genes/S100B.md) for MG1, [SCGN](../genes/SCGN.md) for MG2, [ACADL](../genes/ACADL.md) for MG3, MCM2 for MG4) enabling molecular group assignment in routine neuropathology settings [PMID:34433969](../papers/34433969.md).
 - MCM2 mRNA expression was elevated in STLMS iCluster C1 (worse prognosis) vs C2 sarcomas (adjusted p≤0.03), suggesting a role for enhanced DNA replication activity in aggressive leiomyosarcoma [PMID:29100075](../papers/29100075.md)
-- MCM2 (minichromosome maintenance complex component 2) was previously included in a 4-gene cell-cycle prognostic signature (MCM2, INHBA, CGREF1, KLF9) for early-onset colorectal cancer (Xiang et al. 2023); the current study validates CGREF1 as a standalone prognostic biomarker and does not further analyze MCM2 independently. [PMID:32888432](../papers/32888432.md)
+- MCM2 (minichromosome maintenance complex component 2) was previously included in a 4-gene cell-cycle prognostic signature (MCM2, INHBA, CGREF1, KLF9) for early-onset colorectal cancer (Xiang et al. 2023); the current study validates CGREF1 as a standalone prognostic biomarker and does not further analyze MCM2 independently. [PMID:41125935](../papers/41125935.md)
 - Substrate of CDK2 (Ser139 phosphorylation) detected across ATRT, medulloblastoma, ependymoma, HGG, and LGG in pediatric brain tumor proteogenomics. [PMID:33242424](../papers/33242424.md)
 - Protein upregulated in RB1-altered GBM tumors (12% of [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) cohort); MCM2/MCM4/MCM6 coordinate upregulation marks RB1-altered tumors and nominates MCM proteins as potential biomarkers or vulnerabilities [PMID:33577785](../papers/33577785.md)
 - Substrate of CDK7 in the CDK7–MCM2 kinase-substrate signaling axis identified across 41 PDAC tumor/NAT pairs in the CPTAC proteogenomic cohort; CDK7 is an FDA-approved drug target in this context. [PMID:34534465](../papers/34534465.md)
@@ -46,7 +46,7 @@ MCM2 is a component of the MCM2-7 DNA helicase complex required for eukaryotic D
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:32888432](../papers/32888432.md)
+- [PMID:41125935](../papers/41125935.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)

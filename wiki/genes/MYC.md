@@ -35,8 +35,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC was among recurrently amplified oncogenes in prostate cancer identified by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - MYC amplification at 8q24 was identified as a significant copy-number alteration in [HGSOC](../cancer_types/HGSOC.md) by TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
-- BET bromodomain inhibition suppresses MYC transcription in ARID1A-mutant ovarian cancer models [PMID:22037554](../papers/22037554.md)
-- MYC copy number alterations were assessed in breast cancer samples as part of whole-exome sequencing that identified [SF3B1](../genes/SF3B1.md) mutations and splicing dysregulation [PMID:22158541](../papers/22158541.md)
+- BET bromodomain inhibition suppresses MYC transcription in ARID1A-mutant ovarian cancer models [PMID:41049615](../papers/41049615.md)
+- MYC copy number alterations were assessed in breast cancer samples as part of whole-exome sequencing that identified [SF3B1](../genes/SF3B1.md) mutations and splicing dysregulation [PMID:41055979](../papers/41055979.md)
 - MYC amplification is a key driver in breast cancer, enriched in high-proliferation IntClust subtypes of the METABRIC cohort (~2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Mutated in >10% of cases in breast cancer WES (100 tumors, Sanger cohort); identified as a high-frequency driver gene [PMID:22722201](../papers/22722201.md)
 - Amplification in subgroup-3 medulloblastoma (PCGP WGS, 37 tumors); mutually exclusive with epigenetic mutations ([KDM6A](../genes/KDM6A.md), [CHD7](../genes/CHD7.md), [ZMYM3](../genes/ZMYM3.md)) [PMID:22722829](../papers/22722829.md)
@@ -56,12 +56,12 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Amplified in ovarian MiNEN patient PN19; Cluster B transcriptome signature showed enrichment of MYC-target gene sets and MYC-family activation by master-regulator analysis; MYC-amplified NENs flagged as highly aggressive and chemo-resistant [PMID:40328872](../papers/40328872.md)
 - Dysregulated in multiple myeloma through disruption of the MAX-MYC heterodimer axis; [MAX](../genes/MAX.md) coding mutations with LOH implicate MYC-axis oncogenic signaling [PMID:24434212](../papers/24434212.md)
 - MYC focal amplification observed in [ESCC](../cancer_types/ESCC.md) tumors [PMID:24686850](../papers/24686850.md)
-- MYC gains at 8q are observed in [HCC](../cancer_types/HCC.md) as a recurrent copy-number alteration [PMID:24735922](../papers/24735922.md)
-- Focal amplification in ~12% of HCCs; co-occurs with [CCND1](../genes/CCND1.md) amplification (7%) as recurrent copy-number gains driving proliferation in the [HCC](../cancer_types/HCC.md) proliferation subclass [PMID:24798001](../papers/24798001.md)
+- MYC gains at 8q are observed in [HCC](../cancer_types/HCC.md) as a recurrent copy-number alteration [PMID:25369299](../papers/25369299.md)
+- Focal amplification in ~12% of HCCs; co-occurs with [CCND1](../genes/CCND1.md) amplification (7%) as recurrent copy-number gains driving proliferation in the [HCC](../cancer_types/HCC.md) proliferation subclass [PMID:30061739](../papers/30061739.md)
 - MYC focal copy number gain in prostate cancer; not significantly associated with biochemical recurrence in this CNA-burden study [PMID:25024180](../papers/25024180.md)
 - MYC focal amplification in CIN subtype of gastric cancer ([EGC](../cancer_types/EGC.md)); co-amplified with [GATA4](../genes/GATA4.md), [GATA6](../genes/GATA6.md), [ZNF217](../genes/ZNF217.md), [CD44](../genes/CD44.md) [PMID:25079317](../papers/25079317.md)
 - MYC 8q24 amplification peak in [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); overexpression associated with CIMP-H methylation phenotype (P=0.003); mutually exclusive with [MGA](../genes/MGA.md) loss-of-function mutations (P=0.04) [PMID:25079552](../papers/25079552.md)
-- MYC enriched among large-duct-type intrahepatic CCA, defining a molecular subtype with distinct biology [PMID:25526346](../papers/25526346.md)
+- MYC enriched among large-duct-type intrahepatic CCA, defining a molecular subtype with distinct biology [PMID:41008893](../papers/41008893.md)
 - MYC recurrently mutated driver in gastric adenocarcinoma; participates in Wnt, PI3K-ERBB, and [TP53](../genes/TP53.md) pathways in this Chinese cohort (n=294) [PMID:25583476](../papers/25583476.md)
 - MYC amplified in 10/29 (34%) metastatic cSCC samples (one high-level); part of recurrent copy-number gains alongside [TP63](../genes/TP63.md), [CCND1](../genes/CCND1.md), [LAMA5](../genes/LAMA5.md). [PMID:25589618](../papers/25589618.md)
 - MYC amplified in 14% HPV(−) and 3% HPV(+) [HNSC](../cancer_types/HNSC.md) (TCGA, n=279); MYC was not the target of HPV integration in this cohort (contradicting prior cell-line reports). [PMID:25631445](../papers/25631445.md)
@@ -69,7 +69,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), MYC focal amplification at 8q24.13 is uniquely associated with poor overall survival (P=0.0013) and adenosquamous histology ([PAASC](../cancer_types/PAASC.md)); detectable in PanIN precursor lesions; confirmed by break-apart FISH. [PMID:25855536](../papers/25855536.md)
 - In mCRPC, MYC is among recurrent CNAs (8q gain) identified in the 150-patient SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) [PMID:26168399](../papers/26168399.md)
-- Upregulated at mRNA and protein level in SF3B1-mutant/del(13q) CLL cells; mTORC1 activation drives MYC upregulation; pathway enrichment confirmed by GSEA in murine and human CLL [PMID:26200345](../papers/26200345.md)
+- Upregulated at mRNA and protein level in SF3B1-mutant/del(13q) CLL cells; mTORC1 activation drives MYC upregulation; pathway enrichment confirmed by GSEA in murine and human CLL [PMID:40694421](../papers/40694421.md)
 - Focal amplification in 1-3 desmoplastic melanoma tumors [PMID:26343386](../papers/26343386.md)
 - Focal amplification of MYC is IDC-enriched relative to [ILC](../cancer_types/ILC.md) in TCGA breast cancer molecular profiling; MYC amplification rate is higher in invasive ductal carcinoma than in invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - Recurrent focal amplification in 8% of prostate adenocarcinoma tumors in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
@@ -96,7 +96,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Focal amplification in 73% of cHCC-ICC cases — the most frequent focal amplification in this cohort; part of the oncogenic driver landscape in combined hepatocellular and intrahepatic cholangiocarcinoma. [PMID:31130341](../papers/31130341.md)
 - MYC alterations catalogued across 261 pediatric PDX models spanning 37 tumor types in the PPTC resource [PMID:31693904](../papers/31693904.md).
 - Amplification in 3 of 84 [GBM](../cancer_types/GBM.md) PDX; GBM110 PDX acquired MYC amplification that was only subclonal (0–27%) in the matched patient tumor by FISH, illustrating PDX engraftment-driven clonal selection [PMID:31852831](../papers/31852831.md)
-- MYC-regulated proliferation signatures are upregulated in the proliferative subtype of never-smoker lung adenocarcinoma (NS-LUAD) across 684 treatment-naive tumors [PMID:32015526](../papers/32015526.md)
+- MYC-regulated proliferation signatures are upregulated in the proliferative subtype of never-smoker lung adenocarcinoma (NS-LUAD) across 684 treatment-naive tumors [PMID:40970133](../papers/40970133.md)
 - MYC-pathway activation is implicated as a downstream effector in chromothripsis events driving oncogene amplification across 2,658 PCAWG whole genomes [PMID:32025007](../papers/32025007.md)
 - MYC locus (8q23.3–24.21) amplification observed as an IDC-NST-private event in multiple synchronous invasive breast cancer cases, indicating MYC copy gain is acquired at the invasive rather than pre-invasive ([DCIS](../cancer_types/DCIS.md)) stage [PMID:32220886](../papers/32220886.md)
 - MYC amplification enriched in CDK12-biallelic (CDK12-Bi) prostate cancer relative to CDK12-WT (FDR < 0.05); co-occurs with [CCND1](../genes/CCND1.md) and [MCL1](../genes/MCL1.md) amplifications as part of cell-cycle pathway enrichment in CDK12-Bi tumors [PMID:32317181](../papers/32317181.md)
@@ -116,7 +116,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Structural amplification (MYC GAIN via LINX/PURPLE) in mCSCC sample CSCC_0005, and MYC gain confirmed in SV structural variant gene list across 25 metastatic [CSCC](../cancer_types/CSCC.md) samples [PMID:35982973](../papers/35982973.md)
 - MYC amplification identified as one of the high-frequency CNV peaks in pan-cancer analysis of ~8,900 Chinese solid-tumor patients (OncoMark/aOM cohort) alongside [CDKN2A](../genes/CDKN2A.md) deletion, [ERBB2](../genes/ERBB2.md) amplification, and chr 11q13.3 amplification [PMID:35871175](../papers/35871175.md)
 - MYC amplified in 20% of colitis-associated cancer (CAC; MSK cohort, MSK-IMPACT); focal amplifications enriched vs sporadic CRC; MYC also amplified in AOM/DSS mouse model CAC lesions [PMID:36611031](../papers/36611031.md)
-- MYC amplified in [HCC](../cancer_types/HCC.md); transcriptionally drives SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis; defines a FASN-dependent HCC subset; MYC-driven hepatocarcinogenesis requires [FASN](../genes/FASN.md) activity [PMID:38355797](../papers/38355797.md)
+- MYC amplified in [HCC](../cancer_types/HCC.md); transcriptionally drives SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis; defines a FASN-dependent HCC subset; MYC-driven hepatocarcinogenesis requires [FASN](../genes/FASN.md) activity [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -168,9 +168,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 - [PMID:21798893](../papers/21798893.md)
 
-- [PMID:22037554](../papers/22037554.md)
+- [PMID:41049615](../papers/41049615.md)
 
-- [PMID:22158541](../papers/22158541.md)
+- [PMID:41055979](../papers/41055979.md)
 
 - [PMID:22522925](../papers/22522925.md)
 
@@ -210,9 +210,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 - [PMID:24686850](../papers/24686850.md)
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 - [PMID:25024180](../papers/25024180.md)
 
@@ -220,7 +220,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 - [PMID:25079552](../papers/25079552.md)
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 - [PMID:25583476](../papers/25583476.md)
 
@@ -236,7 +236,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 - [PMID:26168399](../papers/26168399.md)
 
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 - [PMID:26343386](../papers/26343386.md)
 
@@ -290,7 +290,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 - [PMID:31852831](../papers/31852831.md)
 
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 - [PMID:32025007](../papers/32025007.md)
 
@@ -343,6 +343,6 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

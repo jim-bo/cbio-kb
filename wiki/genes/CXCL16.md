@@ -15,11 +15,11 @@ CXCL16 (C-X-C Motif Chemokine Ligand 16) is a hepatic sinusoidal endothelial cel
 
 ## Alterations observed in the corpus
 
-- Hepatic sinusoidal endothelial-cell chemokine reduced by secondary bile acid DCA, impairing CXCR6+ NKT-cell recruitment in cholangiocarcinoma/liver cancer microenvironment [PMID:25608663](../papers/25608663.md)
+- Hepatic sinusoidal endothelial-cell chemokine reduced by secondary bile acid DCA, impairing CXCR6+ NKT-cell recruitment in cholangiocarcinoma/liver cancer microenvironment [PMID:41018102](../papers/41018102.md)
 
 ## Cancer types (linked)
 
-- Cholangiocarcinoma: CXCL16 downregulation impairs NKT-cell recruitment to the tumor microenvironment [PMID:25608663](../papers/25608663.md)
+- Cholangiocarcinoma: CXCL16 downregulation impairs NKT-cell recruitment to the tumor microenvironment [PMID:41018102](../papers/41018102.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ CXCL16 (C-X-C Motif Chemokine Ligand 16) is a hepatic sinusoidal endothelial cel
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

@@ -19,19 +19,19 @@ LDLR encodes the low-density lipoprotein receptor responsible for cellular uptak
 
 ## Alterations observed in the corpus
 
-- Inhibition of LDLR activates MEK/ERK signaling and promotes HCC tumor growth by redirecting cells toward endogenous cholesterol biosynthesis [PMID:38355797](../papers/38355797.md).
+- Inhibition of LDLR activates MEK/ERK signaling and promotes HCC tumor growth by redirecting cells toward endogenous cholesterol biosynthesis [PMID:41118283](../papers/41118283.md).
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md):** LDLR is part of the cholesterol-uptake axis implicated in TKI resistance; disrupting LDL import leads to compensatory mevalonate pathway upregulation [PMID:38355797](../papers/38355797.md).
+- **[HCC](../cancer_types/HCC.md):** LDLR is part of the cholesterol-uptake axis implicated in TKI resistance; disrupting LDL import leads to compensatory mevalonate pathway upregulation [PMID:41118283](../papers/41118283.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Acts within the same cholesterol-regulation axis as PCSK9 (which controls LDLR degradation) and the mevalonate pathway enzymes [HMGCR](../genes/HMGCR.md), [SQLE](../genes/SQLE.md), and [MVK](../genes/MVK.md) in HCC [PMID:38355797](../papers/38355797.md).
+- Acts within the same cholesterol-regulation axis as PCSK9 (which controls LDLR degradation) and the mevalonate pathway enzymes [HMGCR](../genes/HMGCR.md), [SQLE](../genes/SQLE.md), and [MVK](../genes/MVK.md) in HCC [PMID:41118283](../papers/41118283.md).
 
 ## Therapeutic relevance
 
-- Statins targeting HMGCR (upstream of LDLR regulation) show epidemiologic association with reduced HCC-related mortality; the interplay between statin use and LDLR/cholesterol dynamics in HCC trials remains incompletely characterized [PMID:38355797](../papers/38355797.md).
+- Statins targeting HMGCR (upstream of LDLR regulation) show epidemiologic association with reduced HCC-related mortality; the interplay between statin use and LDLR/cholesterol dynamics in HCC trials remains incompletely characterized [PMID:41118283](../papers/41118283.md).
 
 ## Open questions
 
@@ -39,6 +39,6 @@ LDLR encodes the low-density lipoprotein receptor responsible for cellular uptak
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

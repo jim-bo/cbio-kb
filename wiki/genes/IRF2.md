@@ -16,16 +16,16 @@ IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates i
 
 ## Alterations observed in the corpus
 
-- Somatic mutations in [HCC](../cancer_types/HCC.md) linked to oxidative-stress signaling dysregulation; identified as a driver gene by NGS in a 2014 [HCC](../cancer_types/HCC.md) genomics review alongside [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) [PMID:24735922](../papers/24735922.md)
+- Somatic mutations in [HCC](../cancer_types/HCC.md) linked to oxidative-stress signaling dysregulation; identified as a driver gene by NGS in a 2014 [HCC](../cancer_types/HCC.md) genomics review alongside [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) [PMID:25369299](../papers/25369299.md)
 - IRF2 recurrently homozygously deleted in [HCC](../cancer_types/HCC.md) (243-case European WES cohort); one of three genes with recurrent homozygous deletions highlighted (alongside [CFH](../genes/CFH.md), [PTPN3](../genes/PTPN3.md)) [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — recurrently mutated oxidative-stress pathway driver [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md) — recurrently mutated oxidative-stress pathway driver [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutations co-occur with [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) alterations in the oxidative-stress signaling axis in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
+- Mutations co-occur with [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) alterations in the oxidative-stress signaling axis in [HCC](../cancer_types/HCC.md) [PMID:25369299](../papers/25369299.md)
 
 ## Therapeutic relevance
 
@@ -35,7 +35,7 @@ IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates i
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)

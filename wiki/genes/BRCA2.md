@@ -41,7 +41,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs; 4/4 BRCA2 variants in tumor-only sequencing were germline [PMID:36593350](../papers/36593350.md)
 - Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
 - Germline/somatic mutations define HRD-Del subtype with interstitial deletions in [HGSOC](../cancer_types/HGSOC.md); 16/81 patients with HLA LOH in validation cohort [PMID:36517593](../papers/36517593.md)
-- BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL [paradigm](../methods/paradigm.md) [PMID:36334560](../papers/36334560.md)
+- BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL [paradigm](../methods/paradigm.md) [PMID:40896366](../papers/40896366.md)
 - BRCA2 identified as a DNA damage repair gene with high prevalence of non-silent variants in metastatic UC [PMID:36333289](../papers/36333289.md)
 - BRCA2 oncogenic mutations in 6 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 - Found mutated in [HGSOC](../cancer_types/HGSOC.md) tumors in TCGA integrated genomic analysis of ovarian carcinoma, contributing to homologous recombination deficiency [PMID:21720365](../papers/21720365.md)
@@ -49,9 +49,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Mutated in breast cancer (TCGA, 510 tumors); BRCA2 mutations identified across molecular subtypes, associated with homologous recombination deficiency [PMID:23000897](../papers/23000897.md)
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; Fanconi-anemia-pathway member, candidate for DNA cross-linking agents and PARP inhibition [PMID:24293293](../papers/24293293.md)
-- HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
+- HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:41097736](../papers/41097736.md)
 - Truncating somatic mutation in one ERCC2-WT [cisplatin](../drugs/cisplatin.md) responder in muscle-invasive urothelial carcinoma; absent in non-responders [PMID:25096233](../papers/25096233.md)
-- Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents [PMID:25526346](../papers/25526346.md)
+- Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents [PMID:41008893](../papers/41008893.md)
 - Mutated in 17/294 (5.8%) Tianjin gastric cancer cases and 28/289 TCGA [STAD](../cancer_types/STAD.md) cases; independent predictor of longer survival in pooled cohort (HR 0.37, P=0.05); predominantly missense unlike breast/ovarian; one case carried BRCA2 p.E3002D/p.G602fs across separate tumor clones [PMID:25583476](../papers/25583476.md)
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Biallelic loss (somatic + germline) totaling 19.3% of mCRPC cases with BRCA1/ATM; multiple patients with germline BRCA2 + somatic second hit; some exhibited clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
@@ -62,9 +62,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Recurrent likely loss-of-function nsSNVs across NPM1-interacting, POLH-interacting, and FANCD2-interacting domains; enriched in anti-PD-1 responders (28% vs 6% non-responders; Fisher P=0.002, OR=6.2); BRCA2-mutant melanomas have higher overall mutational loads; proposed as candidate immunotherapy response biomarker [PMID:26997480](../papers/26997480.md)
 - Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort [PMID:27161491](../papers/27161491.md)
 - BRCA2 deletion flagged as actionable in cisplatin-resistant germ cell tumors; PARP inhibitor sensitivity implicated [PMID:27646943](../papers/27646943.md)
-- BRCA2 germline variants advance lung cancer onset by 12.2 years in young lung cancer; specific variant p.Arg2784Trp reported by Donner et al. [PMID:27346245](../papers/27346245.md)
+- BRCA2 germline variants advance lung cancer onset by 12.2 years in young lung cancer; specific variant p.Arg2784Trp reported by Donner et al. [PMID:40958859](../papers/40958859.md)
 - BRCA2 among additional recurrently mutated genes in a 62-patient uRCC MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
-- 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish [olaparib](../drugs/olaparib.md) + [spautin-1](../drugs/spautin-1.md) synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:28068672](../papers/28068672.md)
+- 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish [olaparib](../drugs/olaparib.md) + [spautin-1](../drugs/spautin-1.md) synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:41071892](../papers/41071892.md)
 - 8 likely-inactivating truncating mutations (0.9%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on [olaparib](../drugs/olaparib.md) approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
 - BRCA2 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
@@ -75,7 +75,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Alterations in BRCA2 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
 - Novel BRCA2 mutation finding in HPV(+) vulvar squamous cell carcinoma identified by whole-exome sequencing of 15 tumors [PMID:29422544](../papers/29422544.md).
 - [BRCA2](../genes/BRCA2.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)); frequent biallelic [CDK12](../genes/CDK12.md) inactivation in metastatic prostate cancer supports [BRCA2](../genes/BRCA2.md) loss as a therapeutically relevant DNA-repair phenotype. [PMID:29610475](../papers/29610475.md)
-- [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:29489754](../papers/29489754.md)
+- [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:40857049](../papers/40857049.md)
 - BRCA2 somatic and germline mutations are counted together with [BRCA1](../genes/BRCA1.md) (854 somatic events; 153 germline mutations); germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; germline BRCA2 mutants share down-regulated mitochondrial respiratory-chain and metabolic gene programs with [BRCA1](../genes/BRCA1.md) germline carriers [PMID:29625049](../papers/29625049.md)
 - BRCA2 is included in the 57% pan-cancer actionability figure (versus 52% restricted to the 10 canonical pathways), supporting broad germline/somatic BRCA2 testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
 - Germline pathogenic mutations affect 10.8% of Korean breast cancer patients ([brca_smc_2018](../datasets/brca_smc_2018.md)) combined with [BRCA1](../genes/BRCA1.md) vs. 4.7% of TCGA (LR p=0.0027); enriched in younger patients and TNBC; supports PARP-inhibitor evaluation in younger Asian TNBC [PMID:29713003](../papers/29713003.md)
@@ -156,7 +156,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
@@ -180,13 +180,13 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
@@ -219,12 +219,12 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 
@@ -259,7 +259,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)

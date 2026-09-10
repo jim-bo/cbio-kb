@@ -19,7 +19,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - [csf_msk_2024](../datasets/csf_msk_2024.md): Melanoma patients with CNS involvement were included in the MSK CSF ctDNA cohort (1,007 CSF samples from 711 patients across >90 tumor types) [PMID:39289779](../papers/39289779.md).
 - Epidemiologic cohort (Northwestern University): 2,934 tanning bed users vs. 2,929 controls; exome sequencing of 182 single melanocytes from 26 donors. Dataset: [normal_skin_melanocytes_2024](../datasets/normal_skin_melanocytes_2024.md). [PMID:38895302](../papers/38895302.md)
 - Pan-cancer liquid biopsy VTE cohort (MSK): melanoma comprised 7% of the 4,141-patient discovery cohort profiled by MSK-ACCESS. Dataset: [msk_ctdna_vte_2024](../datasets/msk_ctdna_vte_2024.md). [PMID:39147831](../papers/39147831.md)
-- ATLAS classifier validation set: melanoma included in 22-class cancer site-of-origin and 8-class lineage models. [PMID:27634761](../papers/27634761.md)
+- ATLAS classifier validation set: melanoma included in 22-class cancer site-of-origin and 8-class lineage models. [PMID:38480799](../papers/38480799.md)
 - MSK pan-cancer [BRAF](../genes/BRAF.md) fusion study: MEL represented as a histology within the 97,024-sample cohort; [TERT](../genes/TERT.md) mutations co-occurred with [BRAF](../genes/BRAF.md) fusions in 64% of melanomas. [PMID:38922339](../papers/38922339.md)
 
 ## Recurrent alterations
@@ -37,7 +37,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - Anti-PD-1 response genomics in 38 metastatic melanoma cases: IPRES transcriptional co-enrichment (mesenchymal transition, angiogenesis, hypoxia) marked innate resistance independently of mutational load; BRCA2 LOF mutations enriched in responders (OR=6.2) [PMID:26997480](../papers/26997480.md)
 - In the MSK-IMPACT pan-cancer cohort, TERT promoter mutations were present in 49% of melanoma (predominantly cutaneous); UV mutation signatures predominated in melanoma; 56% of MEL patients harbored an OncoKB-actionable alteration (4th highest); a novel recurrent CDK5RAP2-BRAF fusion was identified in two melanomas; 75 non-melanoma BRAF V600 patients showed identical 71% clinical-benefit rate to melanoma BRAF V600 patients on BRAF-targeted therapy. [PMID:28481359](../papers/28481359.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors; MEL (melanoma) context referenced for BRAF hotspot mutations at 51% in SKCM and NRF2/oxidative-stress pathway data [PMID:29625050](../papers/29625050.md)
-- MEL (melanoma) was used as a 3D model test bed; B16-OVA/B16-F0 murine melanoma spheroids in anchored droplet co-cultures demonstrated that tumor destruction by cytotoxic T lymphocytes reflects cooperative accumulation at the spheroid edge rather than individual T-cell activity; a skin-cancer-on-a-chip platform enabled uniform doxorubicin delivery via GelMA microneedles to melanoma cells beneath the epidermis. [PMID:30643250](../papers/30643250.md)
+- MEL (melanoma) was used as a 3D model test bed; B16-OVA/B16-F0 murine melanoma spheroids in anchored droplet co-cultures demonstrated that tumor destruction by cytotoxic T lymphocytes reflects cooperative accumulation at the spheroid edge rather than individual T-cell activity; a skin-cancer-on-a-chip platform enabled uniform doxorubicin delivery via GelMA microneedles to melanoma cells beneath the epidermis. [PMID:41103502](../papers/41103502.md)
 - MEL/SKCM (n=321, combined) was the second-largest histology in the ICI-treated MSK-IMPACT cohort; TMB-high melanoma patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for melanoma. [PMID:30643254](../papers/30643254.md)
 - 144 advanced melanoma patients (cutaneous 72.9%, occult 13.2%, acral 6.9%, mucosal 6.9%) treated with anti-PD1 ICB (nivolumab/pembrolizumab): ORR 38%; TMB confounded by subtype (cutaneous/occult median 297.5 vs acral/mucosal 58 nonsynonymous mutations, P=1.1e-6); MHC-II HLA expression is a candidate biomarker; prior ipilimumab exposure stratifies which predictors apply [PMID:31792460](../papers/31792460.md)
 - Melanoma (n=5, 6.6%) was among TRK fusion-positive tumor types in the MSK cohort; one melanoma carried GON4L-NTRK1 + NRAS Q61R co-mutation, showed progressive disease on larotrectinib, pan-TRK IHC-negative, and was sensitive to trametinib — the only TRK fusion-positive case with a co-occurring canonical MAPK driver (1/65 TRK+ tumors, 1.5% vs 31.4% in TRK-negative) [PMID:31871300](../papers/31871300.md)
@@ -50,7 +50,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 
 - Metastatic melanoma with CNS involvement (brain metastases and leptomeningeal disease) represented in the CSF ctDNA cohort [PMID:39289779](../papers/39289779.md).
 - Indoor tanning creates melanoma risk profile resembling familial melanoma: early onset, multiple primaries, and broad field of at-risk melanocytes. Tanning bed users had elevated melanoma risk (OR 2.0, 95% CI 1.38--2.98) after adjusting for age, family history, and sunburn history, with dose-dependent relationship (P<0.0001). [PMID:38895302](../papers/38895302.md)
-- Lineage de-differentiation score was prognostic for survival in primary melanoma (HR 0.0001, P=0.001) and metastatic melanoma (HR 0.31, P=0.033) in the ATLAS classifier study. [PMID:27634761](../papers/27634761.md)
+- Lineage de-differentiation score was prognostic for survival in primary melanoma (HR 0.0001, P=0.001) and metastatic melanoma (HR 0.31, P=0.033) in the ATLAS classifier study. [PMID:38480799](../papers/38480799.md)
 
 ## Therapeutic landscape
 
@@ -61,7 +61,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 
 ## Sources
 
-- [PMID:27634761](../papers/27634761.md)
+- [PMID:38480799](../papers/38480799.md)
 - [PMID:34059130](../papers/34059130.md)
 - [PMID:38895302](../papers/38895302.md)
 - [PMID:38922339](../papers/38922339.md)
@@ -89,7 +89,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30643250](../papers/30643250.md)
+- [PMID:41103502](../papers/41103502.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)

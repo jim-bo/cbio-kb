@@ -32,7 +32,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Two HNSCC tumors underwent whole-genome sequencing at 31x mean coverage in the Broad HNSCC study, complementing whole-exome sequencing of 74 tumors [PMID:21798893](../papers/21798893.md)
 - WGS applied to 65 breast tumors (BCCRC) to characterize structural rearrangements and somatic mutation landscapes [PMID:22495314](../papers/22495314.md)
 - WGS of 25 melanoma tumors used to identify [PREX2](../genes/PREX2.md) recurrent mutations and characterize KIT/BRAF alteration patterns [PMID:22622578](../papers/22622578.md)
-- WGS used in [HCC](../cancer_types/HCC.md) genomic studies to identify [TERT](../genes/TERT.md) promoter mutations, [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) alterations [PMID:22634756](../papers/22634756.md)
+- WGS used in [HCC](../cancer_types/HCC.md) genomic studies to identify [TERT](../genes/TERT.md) promoter mutations, [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) alterations [PMID:41112515](../papers/41112515.md)
 - Used for WGS of 103 breast cancer tumors in the Broad cohort ([brca_broad](../datasets/brca_broad.md)), enabling structural variant and fusion discovery including MAGI3-AKT3 [PMID:22722202](../papers/22722202.md)
 - Used for WGS of 37 medulloblastoma tumors in the PCGP cohort ([mbl_pcgp](../datasets/mbl_pcgp.md)), identifying [KDM6A](../genes/KDM6A.md), [DDX3X](../genes/DDX3X.md), and [SMARCA4](../genes/SMARCA4.md) as driver genes [PMID:22722829](../papers/22722829.md)
 - 97 of 276 TCGA colorectal carcinoma pairs analyzed by low-pass whole-genome sequencing (~3-4X coverage) for structural variant detection alongside WES [PMID:22810696](../papers/22810696.md)
@@ -56,8 +56,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 26 of 203 multiple myeloma tumor/normal pairs at ~30× average depth; all 26 samples harbored structural variants; enabled identification of SVs and complemented WES-based mutation calling [PMID:24434212](../papers/24434212.md)
 - Applied to 44 rhabdomyosarcoma tumor/normal pairs on Complete Genomics platform at mean 105× depth with 97% genome coverage; identified 553 somatic SVs affecting 419 genes and established the PAX-fusion-positive vs PAX-fusion-negative [RMS](../cancer_types/RMS.md) classification [PMID:24436047](../papers/24436047.md)
 - Low-pass paired-end WGS (6–8× coverage) of 114 bladder carcinoma tumors; identified 3 in-frame FGFR3-TACC3 fusions and 4 [ERBB2](../genes/ERBB2.md) rearrangements with different fusion partners; average 22 genomic rearrangements per sample [PMID:24476821](../papers/24476821.md)
-- Referenced in [HCC](../cancer_types/HCC.md) genomic landscape review as part of next-generation sequencing approaches that identified novel [HCC](../cancer_types/HCC.md) driver genes including [TERT](../genes/TERT.md), [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [RPS6KA3](../genes/RPS6KA3.md), [PIK3CA](../genes/PIK3CA.md), [IRF2](../genes/IRF2.md), [NFE2L2](../genes/NFE2L2.md), and [KEAP1](../genes/KEAP1.md) [PMID:24735922](../papers/24735922.md)
-- Germline WGS cited as the sequencing approach used for identifying candidate FNHGC predisposition variants in CDH1-negative families, including [DOT1L](../genes/DOT1L.md), [INSR](../genes/INSR.md), [FBXO24](../genes/FBXO24.md), and [CTNND1](../genes/CTNND1.md) [PMID:24816255](../papers/24816255.md)
+- Referenced in [HCC](../cancer_types/HCC.md) genomic landscape review as part of next-generation sequencing approaches that identified novel [HCC](../cancer_types/HCC.md) driver genes including [TERT](../genes/TERT.md), [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [RPS6KA3](../genes/RPS6KA3.md), [PIK3CA](../genes/PIK3CA.md), [IRF2](../genes/IRF2.md), [NFE2L2](../genes/NFE2L2.md), and [KEAP1](../genes/KEAP1.md) [PMID:25369299](../papers/25369299.md)
+- Germline WGS cited as the sequencing approach used for identifying candidate FNHGC predisposition variants in CDH1-negative families, including [DOT1L](../genes/DOT1L.md), [INSR](../genes/INSR.md), [FBXO24](../genes/FBXO24.md), and [CTNND1](../genes/CTNND1.md) [PMID:41097736](../papers/41097736.md)
 - Low-pass WGS (1-3x coverage) from 100-250 ng input DNA (KAPA LTP / Illumina HiSeq 2000) applied to four FFPE prostate needle biopsies; CNA profiles concordant with high-resolution aCGH, enabling pre-treatment CNA burden assessment [PMID:25024180](../papers/25024180.md)
 - Low-pass WGS (<6x coverage) on 107 tumor/germline pairs from the TCGA gastric adenocarcinoma cohort ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) to detect structural rearrangements, including CLDN18-ARHGAP26 and CLDN18-ARHGAP6 interchromosomal fusions [PMID:25079317](../papers/25079317.md)
 - Low-pass WGS on 93 of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) identified an average of 36 gene-gene/gene-inter-gene rearrangements per tumor; chromothripsis detected in 6/93 (6%); [ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), [RET](../genes/RET.md) fusions detected exclusively in transversion-low tumors [PMID:25079552](../papers/25079552.md)
@@ -78,14 +78,14 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - WGS used for telomere-length analysis and TERT-promoter mutation detection in a subset of diffuse gliomas from the TCGA pan-glioma cohort; ATRX-mutant gliomas showed significantly longer telomeres than TERTp-mutant samples (ALT mechanism) [PMID:26824661](../papers/26824661.md)
 - WGS on Illumina HiSeq 2500 (100 bp paired-end) of 20 [ACC](../cancer_types/ACC.md) tumors and primagrafts with reads aligned to hg19 by BWA; rearrangements called with dRanger and BreakPointer; identified [MYB](../genes/MYB.md) super-enhancer hijacking mechanism [PMID:26829750](../papers/26829750.md)
 - WGS of 25 [ACC](../cancer_types/ACC.md) tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal) on Illumina HiSeq; identified 253 chromosomal rearrangements including 5 novel [NFIB](../genes/NFIB.md) fusion partners and Rho-GTPase pathway disruption in 44% of tumors [PMID:26862087](../papers/26862087.md)
-- Whole-genome sequencing data from the BCC/SCC corpus (EGAD0000101525) used as a reference baseline for skin cancer mutation burdens (cSCC mean 50 substitutions/Mb, [BCC](../cancer_types/BCC.md) mean 65 substitutions/Mb) in the NB-UVB surveillance model. [PMID:26950094](../papers/26950094.md)
+- Whole-genome sequencing data from the BCC/SCC corpus (EGAD0000101525) used as a reference baseline for skin cancer mutation burdens (cSCC mean 50 substitutions/Mb, [BCC](../cancer_types/BCC.md) mean 65 substitutions/Mb) in the NB-UVB surveillance model. [PMID:40317189](../papers/40317189.md)
 - Applied to 40 [MRT](../cancer_types/MRT.md) tumor/normal pairs (median tumor content 88.0%); identified near-universal [SMARCB1](../genes/SMARCB1.md) biallelic inactivation (39/40 cases), quiet overall genomes (median 612.5 SNVs/case, 0.231 mutations/Mb), and Chr22 as the dominant structural variation locus (9/15 recurrent CNA loci, 22/26 verified gene fusions). [PMID:26977886](../papers/26977886.md)
 - Whole-genome sequencing cited as reference methodology for comprehensive mutation detection in [AML](../cancer_types/AML.md); the primary AMLSG study used a targeted 111-gene panel, with WGS noted as context for driver-gene discovery [PMID:27276561](../papers/27276561.md)
-- Whole-genome sequencing used alongside WES and targeted NGS in studies of germline susceptibility and somatic driver characterization in young-onset [NSCLC](../cancer_types/NSCLC.md) [PMID:27346245](../papers/27346245.md)
+- Whole-genome sequencing used alongside WES and targeted NGS in studies of germline susceptibility and somatic driver characterization in young-onset [NSCLC](../cancer_types/NSCLC.md) [PMID:40958859](../papers/40958859.md)
 - WGS on N=32 B-ALL cases to identify IGH-DUX4 rearrangements and characterize the genomic landscape of the DUX4/ERG B-ALL subtype. [PMID:27776115](../papers/27776115.md)
 - Low-pass (6–8×) whole-genome sequencing performed on 51 oesophageal cancers as part of the TCGA esophageal/stomach multi-platform study to characterize structural variants [PMID:28052061](../papers/28052061.md).
 - Performed whole-genome sequencing to comprehensively catalog structural variants and mutational signatures [PMID:28373299](../papers/28373299.md)
-- Used whole-genome sequencing to detect structural variants and mutational signatures in pediatric cancers [PMID:28445112](../papers/28445112.md)
+- Used whole-genome sequencing to detect structural variants and mutational signatures in pediatric cancers [PMID:41137179](../papers/41137179.md)
 - Used in the ICGC cholangiocarcinoma cohort (n=71 tumor/normal pairs, average 64.2× depth on Illumina HiSeq X10/2500/2000) to define four etiology-driven molecular subtypes of CCA [PMID:28667006](../papers/28667006.md)
 - Applied across 390 medulloblastoma tumor/normal pairs (200 new + 190 previously published) to map driver events in all four consensus subgroups; identified hotspot [KBTBD4](../genes/KBTBD4.md) insertions, [PRDM6](../genes/PRDM6.md) enhancer-hijacking, and 24 mutational signatures [PMID:28726821](../papers/28726821.md)
 - Applied to 136 of 412 [BLCA](../cancer_types/BLCA.md) tumors for deep structural variant and mutation clonality analysis (supplementing WES) [PMID:28988769](../papers/28988769.md)
@@ -98,7 +98,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 41 tumors / 37 cases in the pan-Asia cHCC-ICC study; HBV integration sites identified with [TERT](../genes/TERT.md) and [KMT2B](../genes/KMT2B.md) as most recurrent targets; WGS complemented WES for structural variant and noncoding mutation discovery [PMID:31130341](../papers/31130341.md)
 - WGS performed as part of the combined 193-case [ACC](../cancer_types/ACC.md) sequencing effort across Sanger, MDACC, and MSKCC; combined with WES, enabled discovery of [TERT](../genes/TERT.md) promoter mutations, [MYB](../genes/MYB.md) structural rearrangements, and chromatin-remodeling gene enrichment in R/M tumors [PMID:31483290](../papers/31483290.md).
 - Core assay of the PCAWG pan-cancer study (n=2,658 tumor-normal pairs, 38 tumor types); mean coverage 39× normal, bimodal 38×/60× tumor; 63 pairs validated by deep custom-bait sequencing achieving 95% SNV sensitivity/precision [PMID:32025007](../papers/32025007.md).
-- Used in the Sherlock-Lung NS-LUAD study (n=499 paired WGS from 684 NS-LUAD tumors) to integrate driver mutations, structural variants, whole-genome doubling, and kataegis with transcriptomic subtypes [PMID:32015526](../papers/32015526.md).
+- Used in the Sherlock-Lung NS-LUAD study (n=499 paired WGS from 684 NS-LUAD tumors) to integrate driver mutations, structural variants, whole-genome doubling, and kataegis with transcriptomic subtypes [PMID:40970133](../papers/40970133.md).
 - PCR-free WGS (HiSeqX, min 15× coverage, 151 bp paired-end) used in the CPTAC endometrial carcinoma study (n=95 tumors) for copy-number analysis; 14% of SCNAs had cis effects on transcript/protein levels (FDR < 0.01) [PMID:32059776](../papers/32059776.md).
 - PCR-free WGS on Illumina HiSeq X (minimum 15× tumor depth) performed on all 99 treatment-naive [GBM](../cancer_types/GBM.md) tumors as part of 10-platform CPTAC proteogenomic profiling (paired with WES at ≥150× on-target) [PMID:33577785](../papers/33577785.md)
 - Some of the 10 source studies in the [CSCC](../cancer_types/CSCC.md) meta-analysis contributed WGS data (in addition to WES from most studies); 88 QC-passed tumors retained from 105 total across all sequencing types (hg19, BWA-MEM v0.7.13) [PMID:34272401](../papers/34272401.md)
@@ -148,7 +148,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:22622578](../papers/22622578.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22634756](../papers/22634756.md)
+- [PMID:41112515](../papers/41112515.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722202](../papers/22722202.md)
@@ -220,10 +220,10 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25024180](../papers/25024180.md)
@@ -286,7 +286,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26950094](../papers/26950094.md)
+- [PMID:40317189](../papers/40317189.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26977886](../papers/26977886.md)
@@ -295,7 +295,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27776115](../papers/27776115.md)
@@ -307,7 +307,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
@@ -346,7 +346,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)

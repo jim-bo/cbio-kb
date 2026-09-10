@@ -23,14 +23,14 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR is recurrently mutated in medulloblastoma WES of 92 tumors (Broad cohort), predominantly in the WNT and Group 3/4 subgroups [PMID:22820256](../papers/22820256.md)
 - BCOR is identified as a significantly mutated gene in medulloblastoma WGS/WES from the ICGC cohort of 76 tumors, with subgroup-specific enrichment [PMID:22832583](../papers/22832583.md)
 - Recurrently mutated in CLL (Broad WES, 160 tumors); BCOR mutations identified among significantly mutated genes in chronic lymphocytic leukemia [PMID:23415222](../papers/23415222.md)
-- Most recurrent mutation in sinonasal AdCC (4/21 sequenced tumors, 19%); multiple frameshift/nonsense variants including c.4017_4018insT (p.Asp1340Ter), c.1056dup (p.Thr353HisfsTer28), c.1888_1895del; associated with poor outcome [PMID:24418857](../papers/24418857.md)
+- Most recurrent mutation in sinonasal AdCC (4/21 sequenced tumors, 19%); multiple frameshift/nonsense variants including c.4017_4018insT (p.Asp1340Ter), c.1056dup (p.Thr353HisfsTer28), c.1888_1895del; associated with poor outcome [PMID:39760648](../papers/39760648.md)
 - Novel recurrent driver in 7% of all rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases (Xp11.4): 7 PAX-fusion-negative missense mutations plus 2 focal homozygous deletions plus 1 PAX-fusion-positive indel; BCOR is a chromatin repressor interacting with class I/II HDACs, previously implicated in [AML](../cancer_types/AML.md), retinoblastoma, and medulloblastoma [PMID:24436047](../papers/24436047.md)
 - Mutated in 4% of gastric adenocarcinoma overall; especially common in EBV-positive subtype (23%); chromatin-modifier loss in EBV-associated gastric cancer [PMID:25079317](../papers/25079317.md)
 - Mutated in 3/112 Ewing sarcoma cases: S1083I missense, M1259fs frameshift, and a 116-kb intragenic deletion [PMID:25223734](../papers/25223734.md)
 - BCOR significantly co-occurs with trisomy 12 (tri(12)) among 11 significant co-occurrence/mutual-exclusivity pairs in 538 CLL WES cases [PMID:26466571](../papers/26466571.md)
 - BCOR identified as an epigenetic regulator mutated in the advanced thyroid cancer cohort (n=117 PDTC/ATC); reported alongside [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), and [BCL6](../genes/BCL6.md) as low-frequency epigenetic regulator alterations [PMID:26878173](../papers/26878173.md)
 - BCOR: chromatin regulator in the chromatin-spliceosome [AML](../cancer_types/AML.md) subgroup with independent adverse prognosis [PMID:27276561](../papers/27276561.md)
-- BCOR-altered sarcoma discussed as a related entity to [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) sarcomas (defining alteration for the undifferentiated small round cell sarcoma entity) [PMID:28199314](../papers/28199314.md)
+- BCOR-altered sarcoma discussed as a related entity to [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) sarcomas (defining alteration for the undifferentiated small round cell sarcoma entity) [PMID:41102727](../papers/41102727.md)
 - R810 mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; incidental chromatin-modifier alteration [PMID:28472509](../papers/28472509.md)
 - BCOR is a recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analysis [PMID:28726821](../papers/28726821.md)
 - Recurrently mutated in DLBCL ([dlbcl_dfci_2018](../datasets/dlbcl_dfci_2018.md)) as part of the comprehensive genomic characterization of 304 DLBCLs identifying five genetic subtypes [PMID:29713087](../papers/29713087.md)
@@ -75,7 +75,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
@@ -96,7 +96,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28472509](../papers/28472509.md)

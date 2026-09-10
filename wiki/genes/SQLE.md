@@ -23,26 +23,26 @@ SQLE (squalene epoxidase) catalyzes a rate-limiting step in cholesterol biosynth
 
 ## Alterations observed in the corpus
 
-- Upregulated in HCC as part of cholesterol biosynthesis reprogramming; targeting SQLE restores anti-PD-1 efficacy in MASH-induced HCC (Wen et al. cited in review) [PMID:38355797](../papers/38355797.md)
+- Upregulated in HCC as part of cholesterol biosynthesis reprogramming; targeting SQLE restores anti-PD-1 efficacy in MASH-induced HCC (Wen et al. cited in review) [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md):** SQLE overexpression contributes to cholesterol accumulation in HCC; SQLE inhibition re-sensitizes MASH-induced HCC to anti-PD-1 immunotherapy [PMID:38355797](../papers/38355797.md)
+- **[HCC](../cancer_types/HCC.md):** SQLE overexpression contributes to cholesterol accumulation in HCC; SQLE inhibition re-sensitizes MASH-induced HCC to anti-PD-1 immunotherapy [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with [HMGCR](../genes/HMGCR.md) and [MVK](../genes/MVK.md) in HCC cholesterol biosynthesis pathway; cholesterol accumulation drives lipid-raft remodeling and upregulation of the drug-efflux pump ABCB1 [PMID:38355797](../papers/38355797.md)
+- Co-upregulated with [HMGCR](../genes/HMGCR.md) and [MVK](../genes/MVK.md) in HCC cholesterol biosynthesis pathway; cholesterol accumulation drives lipid-raft remodeling and upregulation of the drug-efflux pump ABCB1 [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- SQLE inhibition restores anti-PD-1 immunotherapy efficacy in MASH-induced HCC; represents an etiology-specific combination strategy [PMID:38355797](../papers/38355797.md)
+- SQLE inhibition restores anti-PD-1 immunotherapy efficacy in MASH-induced HCC; represents an etiology-specific combination strategy [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
-- Clinical validation of SQLE targeting in MASH-HCC patients is absent; most SQLE data cited are from preclinical models [PMID:38355797](../papers/38355797.md)
+- Clinical validation of SQLE targeting in MASH-HCC patients is absent; most SQLE data cited are from preclinical models [PMID:41118283](../papers/41118283.md)
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

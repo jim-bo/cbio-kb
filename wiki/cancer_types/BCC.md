@@ -20,11 +20,11 @@ Basal cell carcinoma (BCC) is the most common type of non-melanoma skin cancer, 
 
 ## Cohorts in the corpus
 
-- [bcc_unige_2016](../datasets/bcc_unige_2016.md): BCC whole-genome sequencing data deposited in the European Genome-Phenome Archive (EGAD0000101525); referenced in phototherapy mutation-burden modelling [PMID:26950094](../papers/26950094.md)
+- No BCC-specific cBioPortal cohort is used by corpus papers; the findings below come from studies that cite BCC mutation data or include BCC samples.
 
 ## Recurrent alterations
 
-- UVR-associated mutational signatures SBS7a and SBS7b dominate the BCC somatic mutation landscape; mean mutation burden ~65 substitutions/Mb (Bonilla et al. 2016), used as the BCC endpoint in NB-UVB surveillance modelling [PMID:26950094](../papers/26950094.md)
+- UVR-associated mutational signatures SBS7a and SBS7b dominate the BCC somatic mutation landscape; mean mutation burden ~65 substitutions/Mb (Bonilla et al. 2016), used as the BCC endpoint in NB-UVB surveillance modelling [PMID:40317189](../papers/40317189.md)
 - In 4 recurrent/metastatic BCC profiled by MSK-IMPACT (Morris et al.): 3 of 4 had UV mutational signature; TERT promoter mutations in 75%; all 3 hedgehog-pathway-inhibitor-responsive BCCs carried PTCH1 mutations; one hypermutated BCC (122 mutations) directed to immunotherapy on mutation-load rationale [PMID:27442865](../papers/27442865.md).
 - Single melanocytes clonally expanded from skin adjacent to BCC lesions carried the highest somatic mutation burdens of any anatomic site in the study, with >half exceeding the median mutation burden of melanoma itself, implying field-level UV-driven mutational damage as a BCC risk biomarker. [PMID:33029006](../papers/33029006.md)
 
@@ -38,7 +38,7 @@ Basal cell carcinoma (BCC) is the most common type of non-melanoma skin cancer, 
 
 ## Sources
 
-- [PMID:26950094](../papers/26950094.md) — Fowler et al., NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin; BCC mean burden used in surveillance modelling
+- [PMID:40317189](../papers/40317189.md) — Fowler et al., NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin; BCC mean burden used in surveillance modelling
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). TERT promoter mutations in 75% of 4 advanced BCC; PTCH1 mutations in all hedgehog-inhibitor-responsive cases.

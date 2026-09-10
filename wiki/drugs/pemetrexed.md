@@ -17,7 +17,7 @@ Pemetrexed is a multitargeted antifolate that inhibits thymidylate synthase, dih
 
 ## Evidence in the corpus
 
-- Antifolate chemotherapy; contraindicated throughout pregnancy (teratogenic) in young-onset NSCLC patients despite being a standard first-line NSCLC agent; review recommends platinum-taxane or platinum-vinca combinations as alternatives during pregnancy [PMID:27346245](../papers/27346245.md)
+- Antifolate chemotherapy; contraindicated throughout pregnancy (teratogenic) in young-onset NSCLC patients despite being a standard first-line NSCLC agent; review recommends platinum-taxane or platinum-vinca combinations as alternatives during pregnancy [PMID:40958859](../papers/40958859.md)
 
 ## Resistance mechanisms
 

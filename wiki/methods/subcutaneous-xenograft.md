@@ -17,13 +17,13 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 
 ## Used by
 
-- Subcutaneous xenografts in 4-week-old male BALB/c nude mice (n=6 per group) were established by co-injection of 5×10⁵ GBC-SD cells with gallbladder fibroblasts (1:1 ratio, sh-NT or sh-SEMA7A); co-injection tumors were larger and showed elevated Ki-67, α-SMA, [VIM](../genes/VIM.md), [CD44](../genes/CD44.md), [EPCAM](../genes/EPCAM.md) and reduced [CDH1](../genes/CDH1.md) vs GBC-SD alone; [SEMA7A](../genes/SEMA7A.md) knockdown in fibroblasts partially reversed these effects [PMID:24997986](../papers/24997986.md)
+- Subcutaneous xenografts in 4-week-old male BALB/c nude mice (n=6 per group) were established by co-injection of 5×10⁵ GBC-SD cells with gallbladder fibroblasts (1:1 ratio, sh-NT or sh-SEMA7A); co-injection tumors were larger and showed elevated Ki-67, α-SMA, [VIM](../genes/VIM.md), [CD44](../genes/CD44.md), [EPCAM](../genes/EPCAM.md) and reduced [CDH1](../genes/CDH1.md) vs GBC-SD alone; [SEMA7A](../genes/SEMA7A.md) knockdown in fibroblasts partially reversed these effects [PMID:40830485](../papers/40830485.md)
 - CB17 SCID mouse subcutaneous xenografts established from prostate cancer organoid lines MSK-PCa1 and MSK-PCa2; used to test [enzalutamide](../drugs/enzalutamide.md) and [everolimus](../drugs/everolimus.md) in vivo. [PMID:25201530](../papers/25201530.md)
 - 30 serially transplanted breast cancer PDX lines established in NSG and NRG mice via subcutaneous, subrenal capsule, and mammary fat pad implantation over up to 16 generations; clonal selection on engraftment was universal across all 15 WGS-characterized series [PMID:25470049](../papers/25470049.md)
-- Subcutaneous xenograft models used to assess in vivo drug sensitivity in ovarian cancer cell line experiments [PMID:26200345](../papers/26200345.md)
+- Subcutaneous xenograft models used to assess in vivo drug sensitivity in ovarian cancer cell line experiments [PMID:40694421](../papers/40694421.md)
 - ACC patient-derived primagraft (PDX) models in Foxn1nu mice used for in vivo BET bromodomain inhibitor JQ1 testing (50 mg/kg daily oral); grade-2 primagrafts responded (tumor growth slowed) while grade-3 Notch-activated primagrafts did not [PMID:26829750](../papers/26829750.md)
-- 22Rv1 cell-derived subcutaneous xenografts (CDX) in NOD-SCID mice used to demonstrate in vivo TRMT10A-knockdown olaparib sensitization; combination index (CI = 0.76) for olaparib (50 mg/kg) + spautin-1 (20 mg/kg) [PMID:28068672](../papers/28068672.md).
-- DU145 and PC3 cells with NOL10 knockdown or USF1 knockdown grown as subcutaneous xenografts in male nude mice; NOL10-knockdown xenografts were significantly smaller by volume and weight, with lower Ki67, lower Vimentin, and higher E-cadherin by IHC [PMID:28927585](../papers/28927585.md)
+- 22Rv1 cell-derived subcutaneous xenografts (CDX) in NOD-SCID mice used to demonstrate in vivo TRMT10A-knockdown olaparib sensitization; combination index (CI = 0.76) for olaparib (50 mg/kg) + spautin-1 (20 mg/kg) [PMID:41071892](../papers/41071892.md).
+- DU145 and PC3 cells with NOL10 knockdown or USF1 knockdown grown as subcutaneous xenografts in male nude mice; NOL10-knockdown xenografts were significantly smaller by volume and weight, with lower Ki67, lower Vimentin, and higher E-cadherin by IHC [PMID:41062477](../papers/41062477.md)
 - Used subcutaneous MCF7 CDK6-overexpressing and shPTEN xenografts in nude mice to demonstrate that PROTAC degraders BSJ-05-017 and BSJ-03-096 suppress tumor volume by 47–69% vs ribociclib failure in CDK4/6i-resistant ER+ breast cancer [PMID:34544752](../papers/34544752.md)
 - Used BT-474 shNF1 subcutaneous xenografts to show 37% growth inhibition with trametinib 1 mg/kg (p=0.0059), demonstrating MEK dependency in MAPK-altered HER2+ breast cancer resistant to anti-HER2 therapy [PMID:34795269](../papers/34795269.md)
 
@@ -43,16 +43,16 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - [PMID:25470049](../papers/25470049.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26829750](../papers/26829750.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:34544752](../papers/34544752.md)

@@ -20,19 +20,19 @@ PARG (Poly(ADP-Ribose) Glycohydrolase) encodes the primary enzyme responsible fo
 
 ## Alterations observed in the corpus
 
-- PARG is the 5' partner in a novel recurrent PARG-BMS1 fusion detected in 5 of 684 never-smoker lung adenocarcinoma (NS-LUAD) tumors; PARG protein is involved in DNA damage repair [PMID:32015526](../papers/32015526.md).
+- PARG is the 5' partner in a novel recurrent PARG-BMS1 fusion detected in 5 of 684 never-smoker lung adenocarcinoma (NS-LUAD) tumors; PARG protein is involved in DNA damage repair [PMID:40970133](../papers/40970133.md).
 
 ## Cancer types (linked)
 
-- [LUAD](../cancer_types/LUAD.md): PARG-BMS1 fusion identified in 5/684 NS-LUAD tumors in the Sherlock-Lung + TCGA NS-LUAD combined cohort [PMID:32015526](../papers/32015526.md).
+- [LUAD](../cancer_types/LUAD.md): PARG-BMS1 fusion identified in 5/684 NS-LUAD tumors in the Sherlock-Lung + TCGA NS-LUAD combined cohort [PMID:40970133](../papers/40970133.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- The PARG-BMS1 fusion is a recurrent structural event in NS-LUAD; its subtype distribution (steady/proliferative/chaotic) was not reported [PMID:32015526](../papers/32015526.md).
+- The PARG-BMS1 fusion is a recurrent structural event in NS-LUAD; its subtype distribution (steady/proliferative/chaotic) was not reported [PMID:40970133](../papers/40970133.md).
 
 ## Therapeutic relevance
 
-- PARG inhibition is an emerging therapeutic strategy in DNA repair-deficient cancers. The PARG-BMS1 fusion in NS-LUAD may disrupt PARG's enzymatic function and alter PARP pathway activity, but no therapeutic implications were drawn in the corpus [PMID:32015526](../papers/32015526.md).
+- PARG inhibition is an emerging therapeutic strategy in DNA repair-deficient cancers. The PARG-BMS1 fusion in NS-LUAD may disrupt PARG's enzymatic function and alter PARP pathway activity, but no therapeutic implications were drawn in the corpus [PMID:40970133](../papers/40970133.md).
 
 ## Open questions
 
@@ -41,6 +41,6 @@ PARG (Poly(ADP-Ribose) Glycohydrolase) encodes the primary enzyme responsible fo
 
 ## Sources
 
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

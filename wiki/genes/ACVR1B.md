@@ -15,28 +15,28 @@ ACVR1B (Activin A Receptor Type 1B, also known as ALK4) encodes a type I serine/
 
 ## Alterations observed in the corpus
 
-- Single frameshift mutation identified in sinonasal AdCC (1/21 sequenced cases); part of the long tail of singleton mutations in the coding panel; somatic status not confirmed by matched normal sequencing [PMID:24418857](../papers/24418857.md)
+- Single frameshift mutation identified in sinonasal AdCC (1/21 sequenced cases); part of the long tail of singleton mutations in the coding panel; somatic status not confirmed by matched normal sequencing [PMID:39760648](../papers/39760648.md)
 - TGF-β-axis alteration in pancreatic ductal adenocarcinoma (PDA), co-occurring with [SMAD4](../genes/SMAD4.md) loss and augmenting TGF-β pathway disruption [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
-- Adenoid cystic carcinoma of the sinonasal tract: rare frameshift mutation (~5% of sequenced cases in this cohort); clinical significance unknown [PMID:24418857](../papers/24418857.md)
+- Adenoid cystic carcinoma of the sinonasal tract: rare frameshift mutation (~5% of sequenced cases in this cohort); clinical significance unknown [PMID:39760648](../papers/39760648.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- No co-occurrence patterns reported; observed as a singleton mutation in a cohort where no individual mutation had high recurrence [PMID:24418857](../papers/24418857.md)
+- No co-occurrence patterns reported; observed as a singleton mutation in a cohort where no individual mutation had high recurrence [PMID:39760648](../papers/39760648.md)
 
 ## Therapeutic relevance
 
-- No targeted therapy data. The authors note that no individual mutation in the sinonasal AdCC cohort had sufficient recurrence to identify it as an essential pathogenetic driver [PMID:24418857](../papers/24418857.md)
+- No targeted therapy data. The authors note that no individual mutation in the sinonasal AdCC cohort had sufficient recurrence to identify it as an essential pathogenetic driver [PMID:39760648](../papers/39760648.md)
 
 ## Open questions
 
-- Whether ACVR1B frameshift mutations are true co-drivers or passenger events in AdCC remains unresolved; matched normal sequencing is needed to confirm somatic vs. germline origin [PMID:24418857](../papers/24418857.md)
+- Whether ACVR1B frameshift mutations are true co-drivers or passenger events in AdCC remains unresolved; matched normal sequencing is needed to confirm somatic vs. germline origin [PMID:39760648](../papers/39760648.md)
 
 ## Sources
 
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)

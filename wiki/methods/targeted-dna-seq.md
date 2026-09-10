@@ -22,7 +22,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:38488813](../papers/38488813.md) — T200.1 targeted sequencing panel (263 genes, 400X) used alongside WGS (30X) and RNA-seq for integrative molecular characterization of 44 prostate cancer PDX models [PMID:38488813](../papers/38488813.md).
 - [PMID:18948947](../papers/18948947.md) — Sequenced all coding exons and splice sites of 623 candidate cancer genes (247 Mb) in 188 primary [LUAD](../cancer_types/LUAD.md) tumours with matched normals, identifying 1,013 non-synonymous somatic mutations and 26 significantly mutated genes [PMID:18948947](../papers/18948947.md).
 - Applied in UC-GENOME study: Agilent SureSelect XT targeting 591 genes on Illumina NextSeq sequenced 191 of 218 metastatic urothelial carcinoma patients; treatment options identified in 69.3% but only 5.0% received targeted therapy [PMID:36333289](../papers/36333289.md)
-- Used in a two-panel design (50-gene and 95-gene clinical panels) to profile 235 [MDS](../cancer_types/MDS.md) bone marrow samples, linking somatic mutations ([STAG2](../genes/STAG2.md), [ASXL1](../genes/ASXL1.md)) to morphologic dysplasia features [PMID:21909114](../papers/21909114.md)
+- Used in a two-panel design (50-gene and 95-gene clinical panels) to profile 235 [MDS](../cancer_types/MDS.md) bone marrow samples, linking somatic mutations ([STAG2](../genes/STAG2.md), [ASXL1](../genes/ASXL1.md)) to morphologic dysplasia features [PMID:40720765](../papers/40720765.md)
 - Applied to 172 [MCL](../cancer_types/MCL.md) patients in an independent validation cohort to confirm WES-identified mutations including NOTCH1/2, [NSD2](../genes/NSD2.md), [BIRC3](../genes/BIRC3.md), and [ATM](../genes/ATM.md) [PMID:24145436](../papers/24145436.md)
 - Custom Ion AmpliSeq panel targeting 17 driver genes ([AKT1](../genes/AKT1.md), [ARID1A](../genes/ARID1A.md), [BAP1](../genes/BAP1.md), [CDKN2A](../genes/CDKN2A.md), [CTNNB1](../genes/CTNNB1.md), IDH1/2, [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [PBRM1](../genes/PBRM1.md), PIK3C2A/G, [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [SMAD4](../genes/SMAD4.md), [TGFBR2](../genes/TGFBR2.md), [TP53](../genes/TP53.md)) run on Ion Torrent PGM (318 chip) at mean 1,276× depth for a prevalence screen of 40 additional IHCH/GBC tumors [PMID:24185509](../papers/24185509.md).
 - Frequency Cohort of 119 additional matched [ESCC](../cancer_types/ESCC.md) germline/tumor pairs plus 10 [ESCC](../cancer_types/ESCC.md) cell lines sequenced by targeted deep sequencing (mean coverage 111×) covering all coding exons of discovery-cohort mutated genes plus 277 cancer-relevant genes [PMID:24686850](../papers/24686850.md)
@@ -41,7 +41,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Hybrid-capture targeted sequencing across the TERT/CLPTM1L locus used alongside FISH to validate [TERT](../genes/TERT.md) 5p15.33 rearrangements in 161-sample neuroblastoma cohort; orthogonal confirmation by both methods required to call a rearrangement [PMID:26466568](../papers/26466568.md)
 - A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying CDH1 truncating mutations in 14/19 (74%) cases. [PMID:26901067](../papers/26901067.md)
 - Targeted 111-gene DNA sequencing panel applied to 1540 AML patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups [PMID:27276561](../papers/27276561.md)
-- Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers [PMID:27346245](../papers/27346245.md)
+- Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers [PMID:40958859](../papers/40958859.md)
 - The Columbia Comprehensive Cancer Panel (CCCP) targeted-sequencing backup (467 cancer-associated genes on a 5.59 Mb Custom Agilent SureSelectXT library, optimized for FFPE material) was applied to 13 of 120 pediatric oncology samples in the PIPseq program achieving >500-fold average coverage [PMID:28007021](../papers/28007021.md).
 - Targeted exon-capture sequencing using MSK-IMPACT 341- or 410-gene panels on 105 NMIBC pretreatment index tumors with matched germline DNA; the largest NGS effort focused on NMIBC at time of publication [PMID:28583311](../papers/28583311.md)
 - SureSelect XT2 capture panel targeting 404 cancer-related genes applied to 188 CCA cases (HiSeq 4000, 99.6% coding coverage) as one of three DNA-sequencing tiers in the ICGC cholangiocarcinoma study [PMID:28667006](../papers/28667006.md)
@@ -66,7 +66,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:36333289](../papers/36333289.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:21909114](../papers/21909114.md)
+- [PMID:40720765](../papers/40720765.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24145436](../papers/24145436.md)
@@ -123,7 +123,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)

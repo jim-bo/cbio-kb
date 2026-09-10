@@ -22,7 +22,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - Biallelic inactivation and focal deletion in SHH-subgroup medulloblastoma (PCGP WGS, 37 tumors); canonical SHH-pathway driver [PMID:22722829](../papers/22722829.md)
 - Inactivating mutations exclusive to SHH-subgroup medulloblastoma in WES of 92 tumors (Broad cohort); associated with 9q loss of heterozygosity [PMID:22820256](../papers/22820256.md)
 - Altered in 8/125 cases (6%), predominantly in SHH-subgroup medulloblastoma (ICGC WGS/WES cohort); frameshift indels in 6 cases, SNVs in 2 [PMID:22832583](../papers/22832583.md)
-- PTCH1-mutated [NPC](../cancer_types/NPC.md) tumors targeted by [SMO](../genes/SMO.md) inhibitor [taladegib](../drugs/taladegib.md) (Hedgehog pathway; phase II trial in solid tumors) [PMID:24952746](../papers/24952746.md)
+- PTCH1-mutated [NPC](../cancer_types/NPC.md) tumors targeted by [SMO](../genes/SMO.md) inhibitor [taladegib](../drugs/taladegib.md) (Hedgehog pathway; phase II trial in solid tumors) [PMID:41002550](../papers/41002550.md)
 - Mutated in 17% of aggressive cSCC cases; only 2 of 6 mutations were inactivating — contrasts with 75% inactivating rate in basal cell carcinoma; not identified as a driver in cSCC [PMID:25303977](../papers/25303977.md)
 - Gene with at least one identical previously COSMIC-reported mutation in the HNSCC TCGA cohort (n=279) [PMID:25631445](../papers/25631445.md)
 - In [PAAD](../cancer_types/PAAD.md), PTCH1 alterations occur in 2% of cases as part of the Hedgehog-pathway alterations ([GLI3](../genes/GLI3.md) 8%, [SMO](../genes/SMO.md) 8%, [LRP2](../genes/LRP2.md) 6%, [GLI2](../genes/GLI2.md) 3%, PTCH1 2%) in the 109-case exome cohort. [PMID:25855536](../papers/25855536.md)
@@ -65,7 +65,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)

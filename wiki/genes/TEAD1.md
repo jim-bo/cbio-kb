@@ -15,20 +15,20 @@ TEAD1 encodes a TEA domain transcription factor that is the primary nuclear effe
 
 ## Alterations observed in the corpus
 
-- ChIP confirmed TEAD1 binding at the SEMA7A promoter in primary gallbladder fibroblasts, with enrichment under 16 kPa vs 0.5 kPa stiffness conditions; mechanistically downstream of YAP1/WWTR1 mechanotransduction. [PMID:24997986](../papers/24997986.md)
+- ChIP confirmed TEAD1 binding at the SEMA7A promoter in primary gallbladder fibroblasts, with enrichment under 16 kPa vs 0.5 kPa stiffness conditions; mechanistically downstream of YAP1/WWTR1 mechanotransduction. [PMID:40830485](../papers/40830485.md)
 - Knockdown sensitivity in CCLE cell lines associated with integrin complexes containing ITGB1; consistent with the YAP1/Hippo mechanosensing pathway [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
 
-- **Gallbladder cancer (GBC):** TEAD1 acts as the transcriptional node linking mechanical stiffness (via YAP1/WWTR1) to SEMA7A-driven paracrine tumor promotion. [PMID:24997986](../papers/24997986.md)
+- **Gallbladder cancer (GBC):** TEAD1 acts as the transcriptional node linking mechanical stiffness (via YAP1/WWTR1) to SEMA7A-driven paracrine tumor promotion. [PMID:40830485](../papers/40830485.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Functions as part of the YAP1/WWTR1/TEAD1 mechanotransduction complex; verteporfin disrupts YAP1–TEAD1 interaction and abolishes SEMA7A induction. [PMID:24997986](../papers/24997986.md)
+- Functions as part of the YAP1/WWTR1/TEAD1 mechanotransduction complex; verteporfin disrupts YAP1–TEAD1 interaction and abolishes SEMA7A induction. [PMID:40830485](../papers/40830485.md)
 
 ## Therapeutic relevance
 
-- Indirect target: verteporfin blocks YAP–TEAD interaction, abolishing stiffness-induced SEMA7A secretion and downstream tumor-promoting effects in GBC models. [PMID:24997986](../papers/24997986.md)
+- Indirect target: verteporfin blocks YAP–TEAD interaction, abolishing stiffness-induced SEMA7A secretion and downstream tumor-promoting effects in GBC models. [PMID:40830485](../papers/40830485.md)
 
 ## Open questions
 
@@ -36,7 +36,7 @@ TEAD1 encodes a TEA domain transcription factor that is the primary nuclear effe
 
 ## Sources
 
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:31978347](../papers/31978347.md)

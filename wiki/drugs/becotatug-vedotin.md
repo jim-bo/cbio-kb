@@ -17,7 +17,7 @@ Becotatug vedotin (MRG003) is an antibody-drug conjugate (ADC) targeting [EGFR](
 
 ## Evidence in the corpus
 
-- In R/M NPC post platinum + anti-PD-1 (NCT05126719, n=61): ORR 39.3% (dose level 1) / 55.2% (dose level 2); separate randomized study reported ORR 30.2% vs 11.2% for standard chemotherapy; grade ≥3 TRAE 45.3% [PMID:24952746](../papers/24952746.md).
+- In R/M NPC post platinum + anti-PD-1 (NCT05126719, n=61): ORR 39.3% (dose level 1) / 55.2% (dose level 2); separate randomized study reported ORR 30.2% vs 11.2% for standard chemotherapy; grade ≥3 TRAE 45.3% [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

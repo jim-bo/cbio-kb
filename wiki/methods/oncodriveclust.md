@@ -17,7 +17,7 @@ OncodriveCLUST is a bioinformatics method for detecting cancer driver genes base
 
 ## Used by
 
-- Applied to identify recurrently mutated driver genes in endometrial polyps; nominated [UBE2A](../genes/UBE2A.md) as a novel candidate driver gene based on recurrent codon-6 hotspot mutations (score 0.83, q = 1.51 × 10⁻⁵) [PMID:28445112](../papers/28445112.md)
+- Applied to identify recurrently mutated driver genes in endometrial polyps; nominated [UBE2A](../genes/UBE2A.md) as a novel candidate driver gene based on recurrent codon-6 hotspot mutations (score 0.83, q = 1.51 × 10⁻⁵) [PMID:41137179](../papers/41137179.md)
 
 ## Notes
 
@@ -27,6 +27,6 @@ OncodriveCLUST is a bioinformatics method for detecting cancer driver genes base
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

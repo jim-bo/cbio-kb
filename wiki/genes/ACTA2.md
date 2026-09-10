@@ -15,11 +15,11 @@ ACTA2 (alpha smooth muscle actin, α-SMA) is a cytoskeletal protein and canonica
 
 ## Alterations observed in the corpus
 
-- Upregulated as a CAF activation marker under high-stiffness (16 kPa) matrix in GBC-associated gallbladder fibroblasts; α-SMA+ (ACTA2+) CAF infiltration correlated with stromal SEMA7A expression in the 86-patient cohort [PMID:24997986](../papers/24997986.md)
+- Upregulated as a CAF activation marker under high-stiffness (16 kPa) matrix in GBC-associated gallbladder fibroblasts; α-SMA+ (ACTA2+) CAF infiltration correlated with stromal SEMA7A expression in the 86-patient cohort [PMID:40830485](../papers/40830485.md)
 
 ## Cancer types (linked)
 
-- [GBC](../cancer_types/GBC.md): α-SMA+ CAF infiltration observed in desmoplastic GBC stroma; ACTA2 co-expressed with SEMA7A and COL1A1 in ACTA2+ CAF subclusters by scRNA-seq (OEP00001237) [PMID:24997986](../papers/24997986.md)
+- [GBC](../cancer_types/GBC.md): α-SMA+ CAF infiltration observed in desmoplastic GBC stroma; ACTA2 co-expressed with SEMA7A and COL1A1 in ACTA2+ CAF subclusters by scRNA-seq (OEP00001237) [PMID:40830485](../papers/40830485.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ ACTA2 (alpha smooth muscle actin, α-SMA) is a cytoskeletal protein and canonica
 
 ## Sources
 
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

@@ -17,7 +17,7 @@ Caspofungin is an echinocandin antifungal that inhibits beta-1,3-glucan synthesi
 
 ## Evidence in the corpus
 
-- No differential caspofungin sensitivity (50–200 ng/mL) was detected across the four oncogenic RHOA mutants (R5Q, G17V, C16R, A161P), indicating the cell wall integrity pathway is not broadly activated by these mutants in yeast [PMID:24816253](../papers/24816253.md).
+- No differential caspofungin sensitivity (50–200 ng/mL) was detected across the four oncogenic RHOA mutants (R5Q, G17V, C16R, A161P), indicating the cell wall integrity pathway is not broadly activated by these mutants in yeast [PMID:41002403](../papers/41002403.md).
 
 ## Resistance mechanisms
 

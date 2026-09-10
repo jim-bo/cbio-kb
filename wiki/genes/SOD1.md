@@ -15,17 +15,17 @@ SOD1 (Superoxide Dismutase 1) encodes an antioxidant enzyme that converts supero
 
 ## Alterations observed in the corpus
 
-- Identified as a secondary synthetic lethal candidate in the DDR screen in FBXO7-deficient CRC cells (oxidative stress management pathway) [PMID:36334560](../papers/36334560.md)
+- Identified as a secondary synthetic lethal candidate in the DDR screen in FBXO7-deficient CRC cells (oxidative stress management pathway) [PMID:40896366](../papers/40896366.md)
 
 ## Cancer types (linked)
 
-- CRC: assessed as potential SL target in FBXO7-deficient tumors [PMID:36334560](../papers/36334560.md)
+- CRC: assessed as potential SL target in FBXO7-deficient tumors [PMID:40896366](../papers/40896366.md)
 
 ## Co-occurrence and mutual exclusivity
 
 ## Therapeutic relevance
 
-- Potential synthetic lethal vulnerability in FBXO7-deleted CRC; not the primary candidate ([CHEK1](../genes/CHEK1.md) was prioritized) [PMID:36334560](../papers/36334560.md)
+- Potential synthetic lethal vulnerability in FBXO7-deleted CRC; not the primary candidate ([CHEK1](../genes/CHEK1.md) was prioritized) [PMID:40896366](../papers/40896366.md)
 
 ## Open questions
 
@@ -33,6 +33,6 @@ SOD1 (Superoxide Dismutase 1) encodes an antioxidant enzyme that converts supero
 
 ## Sources
 
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*

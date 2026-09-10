@@ -17,7 +17,7 @@ Bile acid metabolomics refers to targeted or untargeted mass spectrometry–base
 
 ## Used by
 
-- Synthesized in a narrative review of gut-liver axis dysregulation in cholangiocarcinoma: multiple BA metabolomics studies (HPLC/MS, UPLC-MS/MS; Prounjai S, Zhang X, Rejchrt S, Wang W, Farhat Z, cited) documented accumulation of conjugated primary BAs (GCA, TCDCA) and depletion of secondary conjugates (GLCA, GUDCA) in CCA; a CDCA+TCDCA panel reportedly outperformed CA19-9 (AUC=0.95) for CCA vs BBD/HCC; a four-BA panel (hyodeoxycholic acid, isoLCA, bCDCA, DCA) achieved sensitivity 0.933 and specificity 0.867 [PMID:25608663](../papers/25608663.md)
+- Synthesized in a narrative review of gut-liver axis dysregulation in cholangiocarcinoma: multiple BA metabolomics studies (HPLC/MS, UPLC-MS/MS; Prounjai S, Zhang X, Rejchrt S, Wang W, Farhat Z, cited) documented accumulation of conjugated primary BAs (GCA, TCDCA) and depletion of secondary conjugates (GLCA, GUDCA) in CCA; a CDCA+TCDCA panel reportedly outperformed CA19-9 (AUC=0.95) for CCA vs BBD/HCC; a four-BA panel (hyodeoxycholic acid, isoLCA, bCDCA, DCA) achieved sensitivity 0.933 and specificity 0.867 [PMID:41018102](../papers/41018102.md)
 
 ## Notes
 
@@ -28,6 +28,6 @@ Bile acid metabolomics refers to targeted or untargeted mass spectrometry–base
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md) — Gut-liver axis review in cholangiocarcinoma (narrative review synthesizing BA metabolomics data)
+- [PMID:41018102](../papers/41018102.md) — Gut-liver axis review in cholangiocarcinoma (narrative review synthesizing BA metabolomics data)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

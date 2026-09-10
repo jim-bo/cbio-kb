@@ -55,17 +55,17 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - V600 missense in 44/45 pre-treatment melanoma tumors; acquired focal amplification in 8.9% of dabrafenib/trametinib-resistant tumors; resistance via MAPK pathway reactivation or bypass mechanisms [PMID:24265153](../papers/24265153.md)
 - Somatic mutation in 3/23 (13%) pancreatic acinar carcinomas, including the V600E oncogenic hotspot; 2/3 mixed acinar-ductal carcinomas carried BRAF mutations; flagged as candidate for BRAF-inhibitor therapy [PMID:24293293](../papers/24293293.md)
 - V600E subclonal in the initial tumor of patient 18 (low-grade glioma) and undetectable in the matched recurrence; the BRAF-mutant clone did not expand despite the typical proliferative advantage of this alteration, demonstrating subclone extinction under treatment [PMID:24336570](../papers/24336570.md)
-- V600E found in 2 atypical sinonasal glands arising in seromucinous hamartoma (ASGSH precursor lesions); these precursor mutations were distinct from mutations in the matched AdCC components [PMID:24418857](../papers/24418857.md)
+- V600E found in 2 atypical sinonasal glands arising in seromucinous hamartoma (ASGSH precursor lesions); these precursor mutations were distinct from mutations in the matched AdCC components [PMID:39760648](../papers/39760648.md)
 - Activating mutations (including non-V600 K601N in U266 cell line and V600E in a clinical case) in multiple myeloma (MM); often subclonal; defines actionable subgroup for BRAF +/- MEK inhibition. BRAF-K601N U266 cells sensitive to PLX4720 and [dabrafenib](../drugs/dabrafenib.md) in vitro; combined [dabrafenib](../drugs/dabrafenib.md)+[trametinib](../drugs/trametinib.md) selectively killed BRAF-mutant MM cells [PMID:24434212](../papers/24434212.md)
 - V600E identified in one PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) tumor (RMSS013); recurrent in the RAS/MAPK pathway that is mutationally activated in >=45% of PAX-fusion-negative [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
-- RAS/RAF/MAPK pathway component; BRAF mutations <5% in [HCC](../cancer_types/HCC.md) but the pathway is universally activated in advanced [HCC](../cancer_types/HCC.md); cited as resistance analogy (BRAF-mutant melanoma/vemurafenib) motivating combination regimens [PMID:24735922](../papers/24735922.md)
-- Listed among somatic alterations in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289); part of the RAF kinase pathway surveyed in the review [PMID:24798001](../papers/24798001.md)
+- RAS/RAF/MAPK pathway component; BRAF mutations <5% in [HCC](../cancer_types/HCC.md) but the pathway is universally activated in advanced [HCC](../cancer_types/HCC.md); cited as resistance analogy (BRAF-mutant melanoma/vemurafenib) motivating combination regimens [PMID:25369299](../papers/25369299.md)
+- Listed among somatic alterations in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289); part of the RAF kinase pathway surveyed in the review [PMID:30061739](../papers/30061739.md)
 - Mutations in 10% of [LUAD](../cancer_types/LUAD.md) (n=16 cancer-associated activating); represents an oncogenic driver in lung adenocarcinoma across multiple transcriptional subtypes [PMID:25079552](../papers/25079552.md)
 - Driver mutation 100% concordant between primary and metastasis in CRC; trunk event established early in carcinogenesis; concordance supports use of either site for clinical testing to guide cetuximab/panitumumab eligibility [PMID:25164765](../papers/25164765.md)
 - V600 mutation absent in this cSCC cohort (39 patients); referenced as a marker evaluated and not found in cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
 - Used as a baseline driver-mutation stratifier in a 128-exome melanoma study of CTLA-4 checkpoint blockade response; BRAF or [NRAS](../genes/NRAS.md) mutation status was assessed by cohort arm with no significant enrichment by benefit category claimed [PMID:25409260](../papers/25409260.md)
 - Most common driver in papillary thyroid carcinoma: V600E in 61.7% (248/402) of tumors; BRAF fusions in 13/484 (2.7%) including SND1/BRAF and MKRN1/BRAF; BRAFV600E mutually exclusive with RAS/EIF1AX/fusion-driven cases (p=1.1×10⁻⁵); defines the BVL signaling/differentiation class; associated with older age, higher MACIS scores, and higher risk of recurrence [PMID:25417114](../papers/25417114.md)
-- V600E in 3–7% of intrahepatic CCA and near 0% in extrahepatic CCA; actionable with [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md) (ROAR phase II ORR ~47% in 43 CCA patients) [PMID:25526346](../papers/25526346.md)
+- V600E in 3–7% of intrahepatic CCA and near 0% in extrahepatic CCA; actionable with [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md) (ROAR phase II ORR ~47% in 43 CCA patients) [PMID:41008893](../papers/41008893.md)
 - Classic CRC driver gene studied as comparison baseline in African American vs. Caucasian CRC cohort; no AA-specific enrichment reported in this study [PMID:25583493](../papers/25583493.md)
 - Non-V600 activating alleles G464R and G469R identified in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort); G469R reported in ~1% of BRAF-mutant melanoma [PMID:25589618](../papers/25589618.md)
 - Low-frequency but FDA-druggable alteration in MAP kinase pathway in [HCC](../cancer_types/HCC.md); part of 243-tumor exome analysis [PMID:25822088](../papers/25822088.md)
@@ -85,7 +85,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600-mutant melanoma cohort used as cross-validation cohort 3 for IPRES resistance signature; prior/concurrent MAPK inhibitor therapy may induce IPRES-overlapping transcriptional programs, potentially compromising subsequent anti-PD-1 response [PMID:26997480](../papers/26997480.md)
 - BRAF p.G466V identified as a recurrent neoepitope hotspot in lung cancer; candidate shared neoantigen for off-the-shelf vaccine design [PMID:27158780](../papers/27158780.md)
 - Classical hotspot activating mutations observed at low frequency in breast cancer (one BRAF V600E in ER- tumour); did not meet Mut-driver criteria as a standalone breast-cancer event in the 2,433-sample METABRIC cohort [PMID:27161491](../papers/27161491.md)
-- BRAF: lower frequency in young lung cancer compared to older patients; [MET](../genes/MET.md) exon 14 skipping also age-skewed [PMID:27346245](../papers/27346245.md)
+- BRAF: lower frequency in young lung cancer compared to older patients; [MET](../genes/MET.md) exon 14 skipping also age-skewed [PMID:40958859](../papers/40958859.md)
 - BRAF: mutated in 1% (n=9) of [AML](../cancer_types/AML.md) cases; independently adverse (P=0.009, q=0.06); proposed candidate for BRAF inhibitor therapy [PMID:27276561](../papers/27276561.md)
 - BRAF: 3 hotspot mutations (D594N, D594G, G466E) in germ cell tumor cohort (1.7% rate); [sorafenib](../drugs/sorafenib.md) nominated as therapeutic option [PMID:27646943](../papers/27646943.md)
 - BRAF Y472C pathogenic mutation found in a single uRCC case (T69), suggesting overlap with papillary [RCC](../cancer_types/RCC.md) and providing a candidate therapeutic target [PMID:27713405](../papers/27713405.md)
@@ -266,7 +266,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:24336570](../papers/24336570.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
@@ -275,10 +275,10 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
@@ -296,7 +296,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583493](../papers/25583493.md)
@@ -356,7 +356,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)

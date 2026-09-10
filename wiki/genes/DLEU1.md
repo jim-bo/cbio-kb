@@ -15,15 +15,15 @@ DLEU1 (Deleted in Lymphocytic Leukemia 1) is a long non-coding RNA gene residing
 
 ## Alterations observed in the corpus
 
-- Comprises the minimal deleted region (Mdr) of 13q14 along with [DLEU2](../genes/DLEU2.md) and [MIR15A](../genes/MIR15A.md); modeled as a floxed deletion in murine CLL models; Mdr loss alone gives low-penetrance CLL but cooperates with [SF3B1](../genes/SF3B1.md) mutation for full disease acceleration [PMID:26200345](../papers/26200345.md)
+- Comprises the minimal deleted region (Mdr) of 13q14 along with [DLEU2](../genes/DLEU2.md) and [MIR15A](../genes/MIR15A.md); modeled as a floxed deletion in murine CLL models; Mdr loss alone gives low-penetrance CLL but cooperates with [SF3B1](../genes/SF3B1.md) mutation for full disease acceleration [PMID:40694421](../papers/40694421.md)
 
 ## Cancer types (linked)
 
-- **[CLLSLL](../cancer_types/CLLSLL.md)**: Part of the recurrent 13q14 minimal deleted region; cooperates with [SF3B1](../genes/SF3B1.md) K700E mutation to accelerate CLL development in murine models [PMID:26200345](../papers/26200345.md)
+- **[CLLSLL](../cancer_types/CLLSLL.md)**: Part of the recurrent 13q14 minimal deleted region; cooperates with [SF3B1](../genes/SF3B1.md) K700E mutation to accelerate CLL development in murine models [PMID:40694421](../papers/40694421.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-deletion with [DLEU2](../genes/DLEU2.md) and [MIR15A](../genes/MIR15A.md) at 13q14; double-mutant (SF3B1-K700E + del(13q)) CLL shows inferior [OS](../cancer_types/OS.md) vs single-lesion CLL [PMID:26200345](../papers/26200345.md)
+- Co-deletion with [DLEU2](../genes/DLEU2.md) and [MIR15A](../genes/MIR15A.md) at 13q14; double-mutant (SF3B1-K700E + del(13q)) CLL shows inferior [OS](../cancer_types/OS.md) vs single-lesion CLL [PMID:40694421](../papers/40694421.md)
 
 ## Therapeutic relevance
 
@@ -31,6 +31,6 @@ DLEU1 (Deleted in Lymphocytic Leukemia 1) is a long non-coding RNA gene residing
 
 ## Sources
 
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

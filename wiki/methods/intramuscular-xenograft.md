@@ -17,7 +17,7 @@ In vivo tumor model in which human cells are injected directly into muscle tissu
 
 ## Used by
 
-- EWS::FLI1-transduced heMSCs (1×10^6 cells in Matrigel) injected intramuscularly into the gastrocnemius of 21-day-old NOD/SCID mice; ~40% tumor penetrance (~5-month latency) produced soft whitish spinal masses, hemorrhagic abdominal/mesothelial masses, and lung/liver/kidney metastases with classic Ewing sarcoma histology (small round blue cells). [PMID:25186949](../papers/25186949.md)
+- EWS::FLI1-transduced heMSCs (1×10^6 cells in Matrigel) injected intramuscularly into the gastrocnemius of 21-day-old NOD/SCID mice; ~40% tumor penetrance (~5-month latency) produced soft whitish spinal masses, hemorrhagic abdominal/mesothelial masses, and lung/liver/kidney metastases with classic Ewing sarcoma histology (small round blue cells). [PMID:41136396](../papers/41136396.md)
 
 ## Notes
 

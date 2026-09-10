@@ -17,7 +17,7 @@ Retlirafusp alfa (bintrafusp alfa) is an investigational bifunctional fusion pro
 
 ## Evidence in the corpus
 
-- Bintrafusp alfa (PD-L1×TGF-β bispecific) monotherapy in R/M NPC (NCT04396886, n=38): ORR 23.7%; median OS 17.0 months; median PFS 2.3 months; concerning safety profile including bleeding, anemia, and hyper-progression in platinum-refractory patients; grade ≥3 TRAE 42.4% [PMID:24952746](../papers/24952746.md).
+- Bintrafusp alfa (PD-L1×TGF-β bispecific) monotherapy in R/M NPC (NCT04396886, n=38): ORR 23.7%; median OS 17.0 months; median PFS 2.3 months; concerning safety profile including bleeding, anemia, and hyper-progression in platinum-refractory patients; grade ≥3 TRAE 42.4% [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

@@ -21,16 +21,16 @@ TAF1 encodes the largest subunit of the TFIID general transcription factor compl
 
 ## Alterations observed in the corpus
 
-- Single-case splice-site mutation identified in sinonasal adenoid cystic carcinoma (AdCC) whole-exome/RNA-seq profiling; classified among rare single-case driver candidates [PMID:24418857](../papers/24418857.md)
+- Single-case splice-site mutation identified in sinonasal adenoid cystic carcinoma (AdCC) whole-exome/RNA-seq profiling; classified among rare single-case driver candidates [PMID:39760648](../papers/39760648.md)
 - Mutated in 9.5% of CCEC (8 missense mutations); recurrent HAT-domain residues Arg843 and Ala850; first report of somatic TAF1 mutation in CCEC and nominated as a candidate driver [PMID:28485815](../papers/28485815.md)
 
 ## Cancer types (linked)
 
-- [ACYC](../cancer_types/ACYC.md): rare single-case splice-site alteration in sinonasal AdCC [PMID:24418857](../papers/24418857.md)
+- [ACYC](../cancer_types/ACYC.md): rare single-case splice-site alteration in sinonasal AdCC [PMID:39760648](../papers/39760648.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Observed as isolated single-case event without reported co-mutation patterns [PMID:24418857](../papers/24418857.md)
+- Observed as isolated single-case event without reported co-mutation patterns [PMID:39760648](../papers/39760648.md)
 
 ## Therapeutic relevance
 
@@ -42,7 +42,7 @@ TAF1 encodes the largest subunit of the TFIID general transcription factor compl
 
 ## Sources
 
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:28485815](../papers/28485815.md)

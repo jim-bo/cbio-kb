@@ -30,21 +30,21 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - RTK intratumoral heterogeneity: co-existing EGFR/PDGFRA/MET alterations within individual [GBM](../cancer_types/GBM.md) tumors cannot be resolved by bulk profiling; MET noted as part of the RTK alteration landscape in [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
 - High expression supported MET-inhibitor therapy recommendations in patients PN13 and PN15 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:40328872](../papers/40328872.md)
 - Altered in rhabdomyosarcoma as a known downstream target of the PAX3-FOXO1 fusion oncogene; pathway-level alteration implicated in PAX3-FOXO1-driven oncogenesis (P=1.54×10⁻³) [PMID:24436047](../papers/24436047.md)
-- MET is mutated in ~3% of [HCC](../cancer_types/HCC.md) and located at a 7q31 focal amplification; high MET expression is used as an enrichment biomarker for [tivantinib](../drugs/tivantinib.md) trials in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
-- Overexpression associated with poor prognosis and [sorafenib](../drugs/sorafenib.md) resistance in [HCC](../cancer_types/HCC.md); [tivantinib](../drugs/tivantinib.md) failed in MET-high [HCC](../cancer_types/HCC.md) (mechanism may be MET-independent); [capmatinib](../drugs/capmatinib.md) and [cabozantinib](../drugs/cabozantinib.md) (which inhibits MET alongside VEGFRs) still under evaluation [PMID:24798001](../papers/24798001.md)
-- Compensatory activation implicated in EGFR-inhibitor resistance via reactivation of PI3K/AKT and MAPK and promotion of EMT in [NPC](../cancer_types/NPC.md); co-targeted by GEN1286 ([EGFR](../genes/EGFR.md)×MET bispecific ADC) [PMID:24952746](../papers/24952746.md)
+- MET is mutated in ~3% of [HCC](../cancer_types/HCC.md) and located at a 7q31 focal amplification; high MET expression is used as an enrichment biomarker for [tivantinib](../drugs/tivantinib.md) trials in [HCC](../cancer_types/HCC.md) [PMID:25369299](../papers/25369299.md)
+- Overexpression associated with poor prognosis and [sorafenib](../drugs/sorafenib.md) resistance in [HCC](../cancer_types/HCC.md); [tivantinib](../drugs/tivantinib.md) failed in MET-high [HCC](../cancer_types/HCC.md) (mechanism may be MET-independent); [capmatinib](../drugs/capmatinib.md) and [cabozantinib](../drugs/cabozantinib.md) (which inhibits MET alongside VEGFRs) still under evaluation [PMID:30061739](../papers/30061739.md)
+- Compensatory activation implicated in EGFR-inhibitor resistance via reactivation of PI3K/AKT and MAPK and promotion of EMT in [NPC](../cancer_types/NPC.md); co-targeted by GEN1286 ([EGFR](../genes/EGFR.md)×MET bispecific ADC) [PMID:41002550](../papers/41002550.md)
 - MET recurrent exon 2 (30%) and exon 18/19 (17%) alternative splicing in gastric cancer ([EGC](../cancer_types/EGC.md)); RTK amplification in CIN subtype; potential therapeutic relevance [PMID:25079317](../papers/25079317.md)
 - MET DNA mutations in 7% of [LUAD](../cancer_types/LUAD.md); exon 14 skipping (alternative splicing) in 4% (10/230) with identifiable cis-acting splice-site mutations in 9/10 cases; focal amplification enriched in oncogene-negative tumours; nominated as driver and therapeutic target [PMID:25079552](../papers/25079552.md)
 - Recurrent activating kinase-domain mutations (p.Val1088Ala, p.Ile1095Thr, p.Phe1218Ile) and extracellular p.Asp153Tyr identified in 15% of pRCC; chr7 amplification of the MET locus in ~70% of pRCCs; induced as downstream target of ACTG1-MITF fusion; major therapeutic rationale for MET inhibitors in pRCC [PMID:25401301](../papers/25401301.md)
 - MET not a primary driver in PTC per this TCGA integrated analysis; the dominant drivers are [BRAF](../genes/BRAF.md), RAS, RET/NTRK fusions, and [EIF1AX](../genes/EIF1AX.md) [PMID:25417114](../papers/25417114.md)
-- MET identified as a recurrent HBV integration site in intrahepatic CCA, suggesting viral-mediated MET oncogene activation in HBV-associated iCCA [PMID:25526346](../papers/25526346.md)
+- MET identified as a recurrent HBV integration site in intrahepatic CCA, suggesting viral-mediated MET oncogene activation in HBV-associated iCCA [PMID:41008893](../papers/41008893.md)
 - MET is listed as a candidate RTK alteration in [HNSC](../cancer_types/HNSC.md) (TCGA, n=279); alternative exon-14 skipping transcript detected in 2 HPV(−) tumours by structural variant analysis. [PMID:25631445](../papers/25631445.md)
 - MET amplified in 1% of [HCC](../cancer_types/HCC.md) (243-case European WES cohort); co-alteration with [HGF](../genes/HGF.md) (3% frequency) in the MET/HGF RTK axis; listed as FDA-targetable in the druggable landscape [PMID:25822088](../papers/25822088.md)
 - Focal amplifications in 2 desmoplastic melanoma tumors, IHC-confirmed; identified as a targetable RTK alteration with potential therapeutic implications [PMID:26343386](../papers/26343386.md)
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype (characterized by high [EGFR](../genes/EGFR.md) overexpression) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - LINE-element insertion fusion involving MET detected in a single periampullary (DUOAC) tumor lacking KRAS/TP53 mutations, with high MET expression [PMID:26804919](../papers/26804919.md)
 - MET significantly mutated exclusively in lung adenocarcinoma vs other TCGA tumor types (q<0.1); MET-CAPZA2 novel fusion and KIF5B-MET previously reported fusion identified; MET and [ERBB2](../genes/ERBB2.md) high-level amplifications enriched in tumors lacking other RTK/Ras/Raf activating events (p<0.01) [PMID:27158780](../papers/27158780.md)
-- Lower frequency in young lung cancer (YLC) patients; MET exon 14 skipping is age-skewed: 0.72% (≤50 yrs), 1.1% (51–69 yrs), 3.25% (>70 yrs); pivotal [tepotinib](../drugs/tepotinib.md) and [capmatinib](../drugs/capmatinib.md) trials enrolled patients up to 74 years old [PMID:27346245](../papers/27346245.md)
+- Lower frequency in young lung cancer (YLC) patients; MET exon 14 skipping is age-skewed: 0.72% (≤50 yrs), 1.1% (51–69 yrs), 3.25% (>70 yrs); pivotal [tepotinib](../drugs/tepotinib.md) and [capmatinib](../drugs/capmatinib.md) trials enrolled patients up to 74 years old [PMID:40958859](../papers/40958859.md)
 - Alteration contributing to the actionable alteration list in recurrent/metastatic head and neck cancers, alongside [MAX](../genes/MAX.md), [MCL1](../genes/MCL1.md), [KDR](../genes/KDR.md), and [MYCN](../genes/MYCN.md) [PMID:27442865](../papers/27442865.md)
 - Harbors H1094Y pathogenic missense mutation in a single unclassified [RCC](../cancer_types/RCC.md) (uRCC) case (T62), suggesting overlap with papillary [RCC](../cancer_types/RCC.md) and providing a candidate MET-directed therapeutic target [PMID:27713405](../papers/27713405.md)
 - Exon 14 alterations in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT): 65.4% matched therapy rate with 76.5% clinical benefit; wild-type MET amplification 16.7% matched (50% benefit) [PMID:28336552](../papers/28336552.md)
@@ -57,7 +57,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Focal amplification in 24% of cHCC-ICC cases; part of the oncogenic amplification landscape in combined hepatocellular and intrahepatic cholangiocarcinoma. [PMID:31130341](../papers/31130341.md)
 - Actionable amplification detected in one [NSCLC](../cancer_types/NSCLC.md) case by cfDNA CNV calling; detection limited by low ctDNA fraction (<10%) [PMID:31768066](../papers/31768066.md)
 - Amplification in 2 [GBM](../cancer_types/GBM.md) PDX; copy number gains in both IDH-mutant lines (GBM164, GBM196), consistent with secondary-glioblastoma literature; [PTPRZ1](../genes/PTPRZ1.md)–MET fusion detected in [GBM](../cancer_types/GBM.md) PDX as a potentially targetable alteration [PMID:31852831](../papers/31852831.md)
-- MET exon 14 skipping was searched for but not enriched in the chaotic subtype of never-smoker lung adenocarcinoma (NS-LUAD) [PMID:32015526](../papers/32015526.md)
+- MET exon 14 skipping was searched for but not enriched in the chaotic subtype of never-smoker lung adenocarcinoma (NS-LUAD) [PMID:40970133](../papers/40970133.md)
 - Overexpressed in EGFR-mutant [LUAD](../cancer_types/LUAD.md) tumors as part of the EGFR-driven proteogenomic signature in the CPTAC cohort (n=110) [PMID:32649874](../papers/32649874.md)
 - Recurrently amplified oncogene across 604 stage I-III resected [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; consistent with prior [LUAD](../cancer_types/LUAD.md) reports. [PMID:32791233](../papers/32791233.md)
 - Protein upregulated in mesenchymal [GBM](../cancer_types/GBM.md) tumors in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md); identified as a mesenchymal-cell-state marker in snRNA-seq; EMT-related MET expression originates partly in tumor cells of nmf2 (mesenchymal-like) samples [PMID:33577785](../papers/33577785.md)
@@ -68,7 +68,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - RNA and protein levels concordantly upregulated alongside KRAS/RAC1/PAK1/PAK2 in [PAAD](../cancer_types/PAAD.md); positioned as a downstream effector node in the [KRAS](../genes/KRAS.md)→[RAC1](../genes/RAC1.md) signaling axis [PMID:34534465](../papers/34534465.md).
 - MET focal amplifications mediated bypass resistance to [selpercatinib](../drugs/selpercatinib.md) in RET-fusion [NSCLC](../cancer_types/NSCLC.md); one patient with subclonal pre-treatment MET amplification re-responded to [selpercatinib](../drugs/selpercatinib.md) + [crizotinib](../drugs/crizotinib.md) combination, demonstrating MET-mediated bypass as an actionable mechanism [PMID:35304457](../papers/35304457.md).
 - MET catalogued as a pan-cancer fusion driver with multiple novel partner genes in the OncoMark pan-cancer dataset of ~8,900 Chinese solid-tumor patients [PMID:35871175](../papers/35871175.md)
-- Pten-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in this context; loss of both FASN and [SREBF2](../genes/SREBF2.md) is required to fully abolish tumor growth [PMID:38355797](../papers/38355797.md)
+- Pten-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in this context; loss of both FASN and [SREBF2](../genes/SREBF2.md) is required to fully abolish tumor growth [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -117,11 +117,11 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 - [PMID:24436047](../papers/24436047.md)
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 - [PMID:25079317](../papers/25079317.md)
 
@@ -131,7 +131,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 - [PMID:25417114](../papers/25417114.md)
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 - [PMID:25631445](../papers/25631445.md)
 
@@ -145,7 +145,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 - [PMID:27158780](../papers/27158780.md)
 
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 - [PMID:27442865](../papers/27442865.md)
 
@@ -171,7 +171,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 - [PMID:31852831](../papers/31852831.md)
 
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 - [PMID:32649874](../papers/32649874.md)
 
@@ -196,6 +196,6 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

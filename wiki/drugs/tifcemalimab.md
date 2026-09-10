@@ -17,7 +17,7 @@ Tifcemalimab (JS004) is an investigational anti-BTLA monoclonal antibody targeti
 
 ## Evidence in the corpus
 
-- Tifcemalimab (JS004) anti-BTLA antibody under clinical investigation for R/M NPC; BTLA is implicated in T-cell exhaustion in NPC alongside CTLA-4, LAG-3, and TIM-3 as compensatory checkpoint mechanisms following PD-1/PD-L1 therapy [PMID:24952746](../papers/24952746.md).
+- Tifcemalimab (JS004) anti-BTLA antibody under clinical investigation for R/M NPC; BTLA is implicated in T-cell exhaustion in NPC alongside CTLA-4, LAG-3, and TIM-3 as compensatory checkpoint mechanisms following PD-1/PD-L1 therapy [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

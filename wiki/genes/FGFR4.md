@@ -21,7 +21,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Mutated in breast cancer (TCGA, 510 tumors); somatic mutations identified across subtypes [PMID:23000897](../papers/23000897.md)
 - Mutation identified in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); receptor tyrosine kinase in the FGF signaling pathway [PMID:23685749](../papers/23685749.md)
 - FGFR4 recurrently mutated in 9.6% of fusion-negative rhabdomyosarcoma (PFN) tumors and 0% of fusion-positive (PFP) tumors; shared leading-edge PAX-FOXO1 downstream target; RAS/FGFR4 pathway mutationally activated in ≥45% of PFN tumors; MEK inhibition proposed as a therapeutic strategy [PMID:24436047](../papers/24436047.md)
-- FGFR4 is the predominant hepatic FGFR; a therapeutic target in [HCC](../cancer_types/HCC.md) via selective inhibitors BLU-554, H3B-6527, and FGF401, enriched by [FGF19](../genes/FGF19.md) IHC positivity (≥1%). [PMID:24798001](../papers/24798001.md)
+- FGFR4 is the predominant hepatic FGFR; a therapeutic target in [HCC](../cancer_types/HCC.md) via selective inhibitors BLU-554, H3B-6527, and FGF401, enriched by [FGF19](../genes/FGF19.md) IHC positivity (≥1%). [PMID:30061739](../papers/30061739.md)
 - Present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases in urothelial carcinoma, private to the eradicated clone [PMID:27749842](../papers/27749842.md)
 - G528C, V550L, and R650L hotspot mutations detected in two pediatric patients with rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) in the PIPseq cohort; classified as FGFR4-inhibitor targets [PMID:28007021](../papers/28007021.md).
 - Enriched in HR+ metastatic breast cancer specimens relative to paired primaries [PMID:30205045](../papers/30205045.md)
@@ -60,7 +60,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27749842](../papers/27749842.md)

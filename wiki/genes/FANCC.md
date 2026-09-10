@@ -20,7 +20,7 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - FANCC is a member of the FA pathway gene set; homozygous deleterious FANCC events classify mCRPC patients into the DNA-repair-defect group associated with significantly longer [carboplatin](../drugs/carboplatin.md) response (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
 - Combined ATM/RB/FANCC alteration signature present in 73.3% of pre-chemotherapy urothelial carcinoma tumors but only 37.9% of post-chemotherapy tumors (p=0.05), supporting selective elimination of this signature by cisplatin-based chemotherapy [PMID:27749842](../papers/27749842.md)
 - Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction of high-grade disease [PMID:28583311](../papers/28583311.md)
-- One pLoF LP/PV identified by WES of 25 HBOC-related candidate genes in 372 pediatric cancer patients; burden OR=1.3, p=0.534 (non-significant single-cohort). [PMID:29489754](../papers/29489754.md)
+- One pLoF LP/PV identified by WES of 25 HBOC-related candidate genes in 372 pediatric cancer patients; burden OR=1.3, p=0.534 (non-significant single-cohort). [PMID:40857049](../papers/40857049.md)
 - Pre-specified DDR/NAC-response gene in MIBC analysis; no significant difference observed between primary and secondary MIBC groups [PMID:30290956](../papers/30290956.md)
 - Germline pathogenic/likely pathogenic carrier identified in panNET cohort (MSK-IMPACT, 80 patients); classified as a recessive germline susceptibility gene for cancer [PMID:30687805](../papers/30687805.md)
 - Pathogenic germline FANCC alteration identified in CAC patient cohort (IBD-associated colorectal cancer, n=73 germline analysis); overall germline pathogenic variant frequency 14%, comparable to sporadic CRC. [PMID:36611031](../papers/36611031.md)
@@ -53,7 +53,7 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 
 - [PMID:28583311](../papers/28583311.md)
 
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 - [PMID:30290956](../papers/30290956.md)
 

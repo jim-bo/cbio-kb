@@ -17,7 +17,7 @@ Galunisertib (LY2157299) is an oral small-molecule inhibitor of TGF-β receptor 
 
 ## Evidence in the corpus
 
-- Cited in HCC in the context of TGF-β pathway targeting, relevant to the immune-excluded HCC subclass overexpressing TGFβ-regulated genes; combination with sorafenib under evaluation [PMID:24798001](../papers/24798001.md).
+- Cited in HCC in the context of TGF-β pathway targeting, relevant to the immune-excluded HCC subclass overexpressing TGFβ-regulated genes; combination with sorafenib under evaluation [PMID:30061739](../papers/30061739.md).
 
 ## Resistance mechanisms
 

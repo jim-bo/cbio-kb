@@ -21,7 +21,7 @@ Electrophoretic Mobility Shift Assay (EMSA), also known as gel-shift or band-shi
 
 ## Used by
 
-- EMSA and super-shift EMSA performed in 293T and LNCaP cells using rs4519489 A and T allele probes; showed stronger binding of nuclear extract to the A allele (specifically displaced by unlabeled consensus competitor), confirming allele-specific protein binding at the prostate cancer risk locus. Flag-USF1 super-shift EMSA in LNCaP and 22Rv1 cells confirmed [USF1](../genes/USF1.md) as the A-allele-preferring binder [PMID:28927585](../papers/28927585.md)
+- EMSA and super-shift EMSA performed in 293T and LNCaP cells using rs4519489 A and T allele probes; showed stronger binding of nuclear extract to the A allele (specifically displaced by unlabeled consensus competitor), confirming allele-specific protein binding at the prostate cancer risk locus. Flag-USF1 super-shift EMSA in LNCaP and 22Rv1 cells confirmed [USF1](../genes/USF1.md) as the A-allele-preferring binder [PMID:41062477](../papers/41062477.md)
 
 ## Notes
 

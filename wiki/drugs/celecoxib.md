@@ -17,7 +17,7 @@ Celecoxib is a selective cyclooxygenase-2 (COX-2; [PTGS2](../genes/PTGS2.md)) in
 
 ## Evidence in the corpus
 
-- NSAIDs celecoxib and aspirin (COX-2/[PTGS2](../genes/PTGS2.md) inhibitors) sensitize [HCC](../cancer_types/HCC.md) cells to [sorafenib](../drugs/sorafenib.md) and IFN-α in preclinical models via reduction of PGE2-mediated immunosuppression; the review flags celecoxib as a drug-repurposing candidate for combination with TKIs or ICIs in HCC [PMID:38355797](../papers/38355797.md).
+- NSAIDs celecoxib and aspirin (COX-2/[PTGS2](../genes/PTGS2.md) inhibitors) sensitize [HCC](../cancer_types/HCC.md) cells to [sorafenib](../drugs/sorafenib.md) and IFN-α in preclinical models via reduction of PGE2-mediated immunosuppression; the review flags celecoxib as a drug-repurposing candidate for combination with TKIs or ICIs in HCC [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
@@ -29,6 +29,6 @@ Celecoxib is a selective cyclooxygenase-2 (COX-2; [PTGS2](../genes/PTGS2.md)) in
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

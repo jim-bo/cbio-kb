@@ -17,7 +17,7 @@ Tagitanlimab is an investigational anti-PD-L1 monoclonal antibody targeting [CD2
 
 ## Evidence in the corpus
 
-- Phase III tagitanlimab + gemcitabine/cisplatin in R/M NPC (NCT05294172, n=358): PFS HR 0.47; ORR 81.7%; median DOR 11.7 months; grade ≥3 TRAE 3.9% [PMID:24952746](../papers/24952746.md).
+- Phase III tagitanlimab + gemcitabine/cisplatin in R/M NPC (NCT05294172, n=358): PFS HR 0.47; ORR 81.7%; median DOR 11.7 months; grade ≥3 TRAE 3.9% [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

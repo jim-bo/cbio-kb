@@ -18,10 +18,10 @@ BRIP1 (BRCA1-Interacting Protein C-Terminal Helicase 1, also known as FANCJ) is 
 - BRIP1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study as part of the HRD gene panel [PMID:36228155](../papers/36228155.md)
 - Listed among significantly mutated genes (SMGs) in the [GBM](../cancer_types/GBM.md) TCGA genomic landscape study (71 SMGs total by MutSig + InVEx) [PMID:24120142](../papers/24120142.md)
 - Loss-of-function mutation in PanNEN patient PN27 in a WGTA-guided therapy study; supported PARP-inhibitor therapy recommendation [PMID:40328872](../papers/40328872.md)
-- HBOC gene (BRIP1) included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
+- HBOC gene (BRIP1) included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:41097736](../papers/41097736.md)
 - BRIP1 (FANCJ) listed as part of the Fanconi anemia pathway gene set; homozygous deleterious events in FA-pathway genes including BRIP1 were used as a DNA-repair-defect classifier predicting longer response to [carboplatin](../drugs/carboplatin.md) in mCRPC (P = 0.02, n=20 treated men) [PMID:26928463](../papers/26928463.md)
 - BRIP1 is an additional germline cancer-predisposition finding in prostate cancer (<1–1% frequency) [PMID:28825054](../papers/28825054.md)
-- Two pLoF [BRIP1](../genes/BRIP1.md) LP/PVs were identified in a pediatric cancer predisposition cohort (n=372); burden test not significant (OR=4.2, p=0.085). [PMID:29489754](../papers/29489754.md)
+- Two pLoF [BRIP1](../genes/BRIP1.md) LP/PVs were identified in a pediatric cancer predisposition cohort (n=372); burden test not significant (OR=4.2, p=0.085). [PMID:40857049](../papers/40857049.md)
 - BRIP1 is among the top DDR predisposition genes carrying germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
 - BRIP1 cited as an established HR-pathway gene used for biological and comparator context in the [RAD51B](../genes/RAD51B.md) germline cancer-predisposition study; combined BRCA1/BRCA2/BRIP1/ATM/PALB2 carrier frequency used to benchmark [RAD51B](../genes/RAD51B.md) enrichment (OR 2.69, p=0.004) [PMID:34635660](../papers/34635660.md)
 - One of 15 PROfound HRR genes evaluated in 51 prostate cancer bone metastases; biallelic loss contributed to the 15.7% biallelic HRR-loss rate; [CDK12](../genes/CDK12.md), BRIP1, [BARD1](../genes/BARD1.md), [CHEK1](../genes/CHEK1.md), [CHEK2](../genes/CHEK2.md), [FANCL](../genes/FANCL.md), [PALB2](../genes/PALB2.md), [PPP2R2A](../genes/PPP2R2A.md), RAD51B/C/D, and [RAD54L](../genes/RAD54L.md) together with BRCA1/2 and [ATM](../genes/ATM.md) constitute the full panel ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) [PMID:35504881](../papers/35504881.md)
@@ -47,7 +47,7 @@ BRIP1 (BRCA1-Interacting Protein C-Terminal Helicase 1, also known as FANCJ) is 
 - [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
@@ -56,7 +56,7 @@ BRIP1 (BRCA1-Interacting Protein C-Terminal Helicase 1, also known as FANCJ) is 
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)

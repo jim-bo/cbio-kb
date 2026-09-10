@@ -44,7 +44,7 @@ Recommended counts assume the *strict* criterion reading (precision) unless note
 
 ## LS06 — PD-1/PD-L1 blockade in patients  | old n=11
 - **Precision/recall split is widest here.**
-  - High-precision (matches old gold's MSK-trial spirit): 7 keep + 1 add (22138691) = **8**, remove 2 (38758238, 38995739).
+  - High-precision (matches old gold's MSK-trial spirit): 7 keep + 1 add (40834854) = **8**, remove 2 (38758238, 38995739).
   - High-recall (any genuine anti-PD-(L)1 patient evaluation): ~20 (adds landmark IO-genomics
     trials 25765070, 26997480, 29033130, 29301960, 29337640, 29657128, 30150660, 30643254,
     30742119, 32437664, +lean-adds 30373752, 34819508, 29122777).
@@ -63,7 +63,7 @@ Recommended counts assume the *strict* criterion reading (precision) unless note
 
 ## LS09 — BRAF alterations/fusions investigated (not incidental)  | old n=4
 - Strict n=11: keep 2 (38922339, 38412093), add 9, **remove 2** (39214094, 38895302 — incidental).
-- Borderline: 26343386 (non-V600 chars) → n=12; lean-exclude 35292802, 25526346.
+- Borderline: 26343386 (non-V600 chars) → n=12; lean-exclude 35292802, 41008893.
 
 ## LS10 — prostate (PRAD/PRNE) study  | old n=6
 - Conservative n=30: keep 6, add 24, remove 0. Old set missed the entire pre-2022 prostate

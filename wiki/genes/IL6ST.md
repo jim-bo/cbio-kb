@@ -15,16 +15,16 @@ IL6ST encodes gp130 (glycoprotein 130), the shared signal transducer subunit of 
 
 ## Alterations observed in the corpus
 
-- IL6ST is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the broader mutational context characterizing the JAK/STAT signaling axis. [PMID:24798001](../papers/24798001.md)
+- IL6ST is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the broader mutational context characterizing the JAK/STAT signaling axis. [PMID:30061739](../papers/30061739.md)
 - IL6ST mutations found exclusively in [HCC](../cancer_types/HCC.md) of unknown etiology and mostly restricted to hepatocellular adenomas in non-fibrotic settings; IL6/JAK/STAT pathway altered in 9% of the 243-case European [HCC](../cancer_types/HCC.md) cohort [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md) (hepatocellular carcinoma):** Recurrently mutated in [HCC](../cancer_types/HCC.md) cohorts; functional implications for IL-6/JAK/STAT3 signaling in liver cancer. [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md) (hepatocellular carcinoma):** Recurrently mutated in [HCC](../cancer_types/HCC.md) cohorts; functional implications for IL-6/JAK/STAT3 signaling in liver cancer. [PMID:30061739](../papers/30061739.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-listed with [JAK1](../genes/JAK1.md) and other signaling pathway genes in the [HCC](../cancer_types/HCC.md) mutational landscape. [PMID:24798001](../papers/24798001.md)
+- Co-listed with [JAK1](../genes/JAK1.md) and other signaling pathway genes in the [HCC](../cancer_types/HCC.md) mutational landscape. [PMID:30061739](../papers/30061739.md)
 
 ## Therapeutic relevance
 
@@ -36,7 +36,7 @@ IL6ST encodes gp130 (glycoprotein 130), the shared signal transducer subunit of 
 
 ## Sources
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)

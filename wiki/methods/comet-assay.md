@@ -17,7 +17,7 @@ Single-cell gel electrophoresis assay (alkaline variant) that measures DNA stran
 
 ## Used by
 
-- Alkaline comet assay applied to EWS::FLI1-transduced heMSCs and controls; demonstrated significantly increased basal DNA damage in EF-heMSCs despite elevated BRCA1 levels, supporting a model of defective DNA damage response downstream of EWS::FLI1 expression. [PMID:25186949](../papers/25186949.md)
+- Alkaline comet assay applied to EWS::FLI1-transduced heMSCs and controls; demonstrated significantly increased basal DNA damage in EF-heMSCs despite elevated BRCA1 levels, supporting a model of defective DNA damage response downstream of EWS::FLI1 expression. [PMID:41136396](../papers/41136396.md)
 
 ## Notes
 

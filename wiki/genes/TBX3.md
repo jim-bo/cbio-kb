@@ -20,7 +20,7 @@ TBX3 encodes a T-box transcription factor that regulates stem cell pluripotency 
 - Identified as a significantly mutated gene in TCGA breast cancer cohort (510 tumors); TBX3 encodes a T-box transcription factor recurrently mutated in breast cancer [PMID:23000897](../papers/23000897.md)
 - ILC-enriched mutations (9% [ILC](../cancer_types/ILC.md) vs 2% [IDC](../cancer_types/IDC.md)) in TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - Transcription-factor Mut-driver in breast cancer; co-mutated with [CDH1](../genes/CDH1.md) (characteristic of lobular carcinoma biology, OR not specified) in the 2,433-tumour METABRIC targeted-sequencing cohort [PMID:27161491](../papers/27161491.md).
-- A-allele-preferring binder at rs4519489 identified by PWAS proteomics and EEL motif analysis, but no ChIP-qPCR enrichment at the locus — not a confirmed regulator in this study [PMID:28927585](../papers/28927585.md)
+- A-allele-preferring binder at rs4519489 identified by PWAS proteomics and EEL motif analysis, but no ChIP-qPCR enrichment at the locus — not a confirmed regulator in this study [PMID:41062477](../papers/41062477.md)
 - Identified as a novel recurrently mutated gene in metastatic colorectal cancer (mCRC). [PMID:29316426](../papers/29316426.md)
 - N297 hotspot mutation exclusive to lobular carcinomas in HR+/HER2- endocrine-resistant metastatic breast cancer; classified as a transcription-factor resistance lesion alongside FOXA1 and CTCF [PMID:30205045](../papers/30205045.md)
 - Identified as a hepatocyte lineage marker elevated in HCC-like clusters (P2/P4) of combined hepatocellular-cholangiocarcinoma (cHCC-ICC, n=133 samples); supports HCC-lineage identity of these molecular subtypes [PMID:31130341](../papers/31130341.md)
@@ -56,7 +56,7 @@ TBX3 encodes a T-box transcription factor that regulates stem cell pluripotency 
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)

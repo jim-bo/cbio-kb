@@ -17,8 +17,8 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 
 - Mutated in 17.5% of patients in the 1,148-patient CLL map — the most frequent cardinal CLL driver, ahead of [NOTCH1](../genes/NOTCH1.md) (12.3%), [ATM](../genes/ATM.md) (11.2%), and [TP53](../genes/TP53.md) (9.1%) [PMID:35927489](../papers/35927489.md).
 - R625C hotspot mutation identified in 1 of 7 treatment-refractory lactotroph pituitary neuroendocrine tumors (PitNETs); previously reported in aggressive prolactinomas [PMID:38758238](../papers/38758238.md).
-- SF3B1 splicing-factor mutations are recurrent in [MDS](../cancer_types/MDS.md) and co-occur with [STAG2](../genes/STAG2.md) mutations in the Tokyo cohort [PMID:21909114](../papers/21909114.md)
-- WES of 103 breast cancers identified SF3B1 as a recurrently mutated splicing-factor gene, with mutations associated with altered RNA splicing patterns [PMID:22158541](../papers/22158541.md)
+- SF3B1 splicing-factor mutations are recurrent in [MDS](../cancer_types/MDS.md) and co-occur with [STAG2](../genes/STAG2.md) mutations in the Tokyo cohort [PMID:40720765](../papers/40720765.md)
+- WES of 103 breast cancers identified SF3B1 as a recurrently mutated splicing-factor gene, with mutations associated with altered RNA splicing patterns [PMID:41055979](../papers/41055979.md)
 - Identified as a significantly mutated gene in breast cancer WES of 100 tumors, with recurrent mutations in the RNA splicing factor SF3B1 [PMID:22722201](../papers/22722201.md)
 - Identified as a significantly mutated splicing factor gene in TCGA breast cancer cohort (510 tumors) [PMID:23000897](../papers/23000897.md)
 - Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors [PMID:23103869](../papers/23103869.md)
@@ -28,7 +28,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - SF3B1 somatic splicing-factor mutation identified in 3 [MPN](../cancer_types/MPN.md) patients alongside other epigenetic/splicing co-mutations in a CALR-discovery exome-sequencing study [PMID:24325359](../papers/24325359.md)
 - R625H hot-spot mutation co-occurring with GNAQ/GNA11 in the Triple-WT cutaneous melanoma subtype. [PMID:26091043](../papers/26091043.md)
 - Non-passenger somatic mutation in breast AdCC (adenoid cystic carcinoma of the breast); shared with salivary gland AdCCs; one of several cancer genes mutated in WES of 12 breast AdCC tumours (0.27 non-silent mutations/Mb, no [TP53](../genes/TP53.md) or [PIK3CA](../genes/PIK3CA.md) mutations) [PMID:26095796](../papers/26095796.md)
-- Recurrent K700E hotspot (>50% of all SF3B1 mutations) in CLL; mutated in 184/1,009 (18.2%) CLLmap patients; 51% of SF3B1 mutations co-occur with del(13q); SF3B1-mut/del(13q) double-mutant subtype has shorter time to first therapy and inferior [OS](../cancer_types/OS.md) (P=0.0002); Sf3b1-K700E drives alternative splicing of [NFATC1](../genes/NFATC1.md) and 375 other genes, activating mTORC1/MYC pathways [PMID:26200345](../papers/26200345.md)
+- Recurrent K700E hotspot (>50% of all SF3B1 mutations) in CLL; mutated in 184/1,009 (18.2%) CLLmap patients; 51% of SF3B1 mutations co-occur with del(13q); SF3B1-mut/del(13q) double-mutant subtype has shorter time to first therapy and inferior [OS](../cancer_types/OS.md) (P=0.0002); Sf3b1-K700E drives alternative splicing of [NFATC1](../genes/NFATC1.md) and 375 other genes, activating mTORC1/MYC pathways [PMID:40694421](../papers/40694421.md)
 - Associated with shorter PFS in CLL patients on frontline fludarabine-based chemoimmunotherapy (CLL8 trial); CCF as likely to rise as fall on therapy; 9 instances of multiple distinct alleles per CLL indicating convergent evolution [PMID:26466571](../papers/26466571.md)
 - 3 mutations in uveal melanoma: p.R625C, p.R625H, p.K666T [PMID:26683228](../papers/26683228.md)
 - Low-frequency recurrent mutation in thyroid cancer (PDTC/ATC), detected alongside other low-frequency hits in a targeted sequencing study [PMID:26878173](../papers/26878173.md)
@@ -68,9 +68,9 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:38758238](../papers/38758238.md)
 
-- [PMID:21909114](../papers/21909114.md)
+- [PMID:40720765](../papers/40720765.md)
 
-- [PMID:22158541](../papers/22158541.md)
+- [PMID:41055979](../papers/41055979.md)
 
 - [PMID:22722201](../papers/22722201.md)
 
@@ -90,7 +90,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 
 - [PMID:26095796](../papers/26095796.md)
 
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 - [PMID:26466571](../papers/26466571.md)
 

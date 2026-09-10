@@ -21,7 +21,7 @@ Brontictuzumab is an anti-[NOTCH1](../genes/NOTCH1.md) monoclonal antibody that 
 
 ## Evidence in the corpus
 
-- Cited as a candidate targeted therapy for NOTCH1-mutant sinonasal adenoid cystic carcinoma ([ACYC](../cancer_types/ACYC.md)): in an 88-case cohort, 3/21 sequenced tumors harbored truncating NOTCH1 mutations associated with solid/basaloid morphology and poor outcome (2/3 dead of disease); brontictuzumab was nominated as a Notch pathway intervention citing Ferrarotto et al. data showing NOTCH1-mutant AdCC has bone/liver metastatic propensity [PMID:24418857](../papers/24418857.md)
+- Cited as a candidate targeted therapy for NOTCH1-mutant sinonasal adenoid cystic carcinoma ([ACYC](../cancer_types/ACYC.md)): in an 88-case cohort, 3/21 sequenced tumors harbored truncating NOTCH1 mutations associated with solid/basaloid morphology and poor outcome (2/3 dead of disease); brontictuzumab was nominated as a Notch pathway intervention citing Ferrarotto et al. data showing NOTCH1-mutant AdCC has bone/liver metastatic propensity [PMID:39760648](../papers/39760648.md)
 
 ## Resistance mechanisms
 

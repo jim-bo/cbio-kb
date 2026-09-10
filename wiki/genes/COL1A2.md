@@ -15,11 +15,11 @@ COL1A2 encodes the pro-alpha2 chain of type I collagen, a major structural compo
 
 ## Alterations observed in the corpus
 
-- Expression positively correlated with stromal SEMA7A in GBC tissues, implicating it in the desmoplastic CAF activation program driven by matrix stiffness [PMID:24997986](../papers/24997986.md)
+- Expression positively correlated with stromal SEMA7A in GBC tissues, implicating it in the desmoplastic CAF activation program driven by matrix stiffness [PMID:40830485](../papers/40830485.md)
 
 ## Cancer types (linked)
 
-- [GBC](../cancer_types/GBC.md): COL1A2 co-expressed with SEMA7A in the desmoplastic stroma of gallbladder cancer; part of the fibrillar collagen signature of activated CAFs [PMID:24997986](../papers/24997986.md)
+- [GBC](../cancer_types/GBC.md): COL1A2 co-expressed with SEMA7A in the desmoplastic stroma of gallbladder cancer; part of the fibrillar collagen signature of activated CAFs [PMID:40830485](../papers/40830485.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ COL1A2 encodes the pro-alpha2 chain of type I collagen, a major structural compo
 
 ## Sources
 
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

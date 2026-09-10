@@ -16,7 +16,7 @@ HIF1A (Hypoxia-Inducible Factor 1-Alpha) encodes the alpha subunit of the HIF-1 
 ## Alterations observed in the corpus
 
 - Frequently lost via 14q deletion in 45% of clear cell renal cell carcinoma (ccRCC) samples; predicted to drive aggressive disease through HIF pathway dysregulation [PMID:23792563](../papers/23792563.md)
-- In a mouse VHL-knockout model, HIF1A stabilization drives anti-survival effects in the renal papilla but is required for early proliferation in cortical/outer-medullary proximal tubule cells; HIF1A-specific upregulated targets are dominated by glycolytic genes [PMID:23797736](../papers/23797736.md)
+- In a mouse VHL-knockout model, HIF1A stabilization drives anti-survival effects in the renal papilla but is required for early proliferation in cortical/outer-medullary proximal tubule cells; HIF1A-specific upregulated targets are dominated by glycolytic genes [PMID:41102155](../papers/41102155.md)
 - Referenced among COSMIC hotspot mutation genes identified as potential drug targets across non-clear cell RCC; upregulated as a downstream target of the ACTG1-MITF fusion in pRCC [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
@@ -25,21 +25,21 @@ HIF1A (Hypoxia-Inducible Factor 1-Alpha) encodes the alpha subunit of the HIF-1 
 
 ## Co-occurrence and mutual exclusivity
 
-- Loss of HIF1A (14q deletion) occurs in the context of VHL mutation/methylation in ccRCC; cooperates with [EPAS1](../genes/EPAS1.md) (HIF2A) in driving the full oncogenic program after VHL inactivation [PMID:23797736](../papers/23797736.md)
+- Loss of HIF1A (14q deletion) occurs in the context of VHL mutation/methylation in ccRCC; cooperates with [EPAS1](../genes/EPAS1.md) (HIF2A) in driving the full oncogenic program after VHL inactivation [PMID:41102155](../papers/41102155.md)
 
 ## Therapeutic relevance
 
-- HIF2A inhibitor [belzutifan](../drugs/belzutifan.md) (targeting EPAS1) is clinically approved in VHL disease; the asymmetric roles of HIF1A and HIF2A suggest HIF1A controls early glycolytic proliferation while HIF2A drives later dedifferentiation — relevant for timing of targeted intervention [PMID:23797736](../papers/23797736.md)
+- HIF2A inhibitor [belzutifan](../drugs/belzutifan.md) (targeting EPAS1) is clinically approved in VHL disease; the asymmetric roles of HIF1A and HIF2A suggest HIF1A controls early glycolytic proliferation while HIF2A drives later dedifferentiation — relevant for timing of targeted intervention [PMID:41102155](../papers/41102155.md)
 
 ## Open questions
 
 - Whether 14q deletion frequency in ccRCC reflects selection for HIF1A loss or co-deletion of nearby tumor suppressors is unresolved [PMID:23792563](../papers/23792563.md)
-- Why HIF2A-dependent transcriptional changes take months to manifest after VHL loss, while HIF1A effects are more immediate, remains mechanistically unexplained [PMID:23797736](../papers/23797736.md)
+- Why HIF2A-dependent transcriptional changes take months to manifest after VHL loss, while HIF1A effects are more immediate, remains mechanistically unexplained [PMID:41102155](../papers/41102155.md)
 
 ## Sources
 
 - [PMID:23792563](../papers/23792563.md)
-- [PMID:23797736](../papers/23797736.md)
+- [PMID:41102155](../papers/41102155.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25401301](../papers/25401301.md)

@@ -17,7 +17,7 @@ Acitretin is an aromatic synthetic retinoid and retinoic acid receptor (RAR) ago
 
 ## Evidence in the corpus
 
-- Acitretin was recorded as a prior immunosuppressive/anti-psoriatic exposure in individual patients in the NB-UVB phototherapy mutation-burden cohort (psoriasis patients receiving NB-UVB at a UK dermatology centre); it was not an intervention tested in this study and was not shown to affect the mutation-burden or mutational-signature outcomes. [PMID:26950094](../papers/26950094.md)
+- Acitretin was recorded as a prior immunosuppressive/anti-psoriatic exposure in individual patients in the NB-UVB phototherapy mutation-burden cohort (psoriasis patients receiving NB-UVB at a UK dermatology centre); it was not an intervention tested in this study and was not shown to affect the mutation-burden or mutational-signature outcomes. [PMID:40317189](../papers/40317189.md)
 
 ## Resistance mechanisms
 
@@ -30,6 +30,6 @@ Acitretin is an aromatic synthetic retinoid and retinoic acid receptor (RAR) ago
 
 ## Sources
 
-- [PMID:26950094](../papers/26950094.md)
+- [PMID:40317189](../papers/40317189.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

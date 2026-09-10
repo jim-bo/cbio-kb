@@ -20,7 +20,7 @@ Neomycin is an aminoglycoside antibiotic used orally to reduce gut bacterial loa
 
 ## Evidence in the corpus
 
-- Oral neomycin blocks the TLR4-driven [CXCL1](../genes/CXCL1.md)–PMN-MDSC axis in CCA preclinical models, reducing immunosuppressive myeloid-derived suppressor cell recruitment to the tumor microenvironment [PMID:25608663](../papers/25608663.md)
+- Oral neomycin blocks the TLR4-driven [CXCL1](../genes/CXCL1.md)–PMN-MDSC axis in CCA preclinical models, reducing immunosuppressive myeloid-derived suppressor cell recruitment to the tumor microenvironment [PMID:41018102](../papers/41018102.md)
 
 ## Resistance mechanisms
 
@@ -30,6 +30,6 @@ Neomycin is an aminoglycoside antibiotic used orally to reduce gut bacterial loa
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

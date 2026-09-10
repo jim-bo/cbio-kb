@@ -17,7 +17,7 @@ Tirapazamine (TPZ) is a benzotriazine di-N-oxide hypoxia-activated prodrug that 
 
 ## Evidence in the corpus
 
-- In a 3D cell culture review, gelatin-foam glioblastoma tumoroids that were resistant to [irinotecan](../drugs/irinotecan.md) and [fluorouracil](../drugs/fluorouracil.md) showed greater sensitivity to tirapazamine, coincident with HIF-1α upregulation in hypoxic spheroid cores (Yang et al., 2015 cited therein); this illustrates how 3D hypoxic cores can reverse standard drug-response rankings and motivates tirapazamine as a complementary agent in hypoxic niches [PMID:30643250](../papers/30643250.md).
+- In a 3D cell culture review, gelatin-foam glioblastoma tumoroids that were resistant to [irinotecan](../drugs/irinotecan.md) and [fluorouracil](../drugs/fluorouracil.md) showed greater sensitivity to tirapazamine, coincident with HIF-1α upregulation in hypoxic spheroid cores (Yang et al., 2015 cited therein); this illustrates how 3D hypoxic cores can reverse standard drug-response rankings and motivates tirapazamine as a complementary agent in hypoxic niches [PMID:41103502](../papers/41103502.md).
 
 ## Resistance mechanisms
 
@@ -25,10 +25,10 @@ Tirapazamine (TPZ) is a benzotriazine di-N-oxide hypoxia-activated prodrug that 
 
 ## Cancer types (linked)
 
-- [GB](../cancer_types/GB.md) — glioblastoma tumoroids show HIF-1α-driven sensitivity to tirapazamine in 3D hypoxic scaffold models [PMID:30643250](../papers/30643250.md).
+- [GB](../cancer_types/GB.md) — glioblastoma tumoroids show HIF-1α-driven sensitivity to tirapazamine in 3D hypoxic scaffold models [PMID:41103502](../papers/41103502.md).
 
 ## Sources
 
-- [PMID:30643250](../papers/30643250.md) — 3D cell culture review documenting hypoxia-activated tirapazamine sensitivity in glioblastoma tumoroids relative to irinotecan/fluorouracil resistance.
+- [PMID:41103502](../papers/41103502.md) — 3D cell culture review documenting hypoxia-activated tirapazamine sensitivity in glioblastoma tumoroids relative to irinotecan/fluorouracil resistance.
 
 *This page was processed by **crosslinker** on **2026-05-16**.*

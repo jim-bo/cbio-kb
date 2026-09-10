@@ -22,13 +22,13 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:27806376](../papers/27806376.md) — plate-based Smart-Seq2 scRNA-seq on 4,347 FACS-sorted live single cells from 6 untreated IDH-mutant, 1p/19q co-deleted oligodendrogliomas (MGH36/53/54/60/93/97); identified three transcriptional states (oligodendrocytic, astrocytic, stem/progenitor) constituting a developmental hierarchy conserved across genetic subclones [PMID:27806376](../papers/27806376.md).
 - [PMID:34493726](../papers/34493726.md) — Smart-Seq2 scRNA-seq and snRNA-seq (nuc-Seq) on 11 neuroblastoma tumors (4,224 nuclei) and 3 postnatal human adrenal glands (1,536 nuclei); identified an undifferentiated nC3 cluster in high-risk tumors transcriptionally resembling a novel postnatal human cholinergic progenitor (hC1), distinguishing high- from low-risk disease [PMID:34493726](../papers/34493726.md).
 - Applied to 156 multi-site [HGSOC](../cancer_types/HGSOC.md) biopsy samples (~930k cells total) from 42 treatment-naive patients; resolved site-specific T cell phenotypic states: adnexal sites enriched for dysfunctional CD8+ T cells, non-adnexal/metastatic sites enriched for naive/memory T cells [PMID:36517593](../papers/36517593.md)
-- Single-cell RNA-seq performed on 259,441 cells from three public ccRCC cohorts to validate FGES signatures; a subset of 22,456 cells used for spatial validation in the HiTME ccRCC subtyping study [PMID:22138691](../papers/22138691.md)
-- Applied to 147,045 FAC-sorted tdTomato+ cells from Vhl/HIF conditional knockout mice (4 genotypes, 12 mice) to resolve HIFα-isoform–specific transcriptional programs in proximal tubular cells; revealed [HIF1A](../genes/HIF1A.md) drives glycolysis while HIF2A drives dedifferentiation [PMID:23797736](../papers/23797736.md)
-- Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 [GBC](../cancer_types/GBC.md) patients) to identify 16 cell types including [ACTA2](../genes/ACTA2.md)+ and [MFAP5](../genes/MFAP5.md)+ CAF subpopulations with co-expression of [YAP1](../genes/YAP1.md) and [SEMA7A](../genes/SEMA7A.md) [PMID:24997986](../papers/24997986.md)
-- Single-cell RNA sequencing with consensus hierarchical clustering (Deng M, cited) classified CCA into BA-active vs BA-inactive metabolic subtypes; BA-active subtype showed shorter [OS](../cancer_types/OS.md) and immunotherapy resistance with [SLCO1B3](../genes/SLCO1B3.md) and [CEACAM1](../genes/CEACAM1.md) as prognostic markers [PMID:25608663](../papers/25608663.md)
-- 10x Chromium Single Cell Gene Expression 3'v3.1 applied across multiple AAV-CRISPR rat breast tumor genotypes; UMAP showed genotype-driven immune microenvironment differences: adaptive immune enrichment in single-edit tumors, myeloid-dominated immunosuppression (macrophage vs neutrophil dichotomy) in multi-edit tumors [PMID:26437033](../papers/26437033.md)
+- Single-cell RNA-seq performed on 259,441 cells from three public ccRCC cohorts to validate FGES signatures; a subset of 22,456 cells used for spatial validation in the HiTME ccRCC subtyping study [PMID:40834854](../papers/40834854.md)
+- Applied to 147,045 FAC-sorted tdTomato+ cells from Vhl/HIF conditional knockout mice (4 genotypes, 12 mice) to resolve HIFα-isoform–specific transcriptional programs in proximal tubular cells; revealed [HIF1A](../genes/HIF1A.md) drives glycolysis while HIF2A drives dedifferentiation [PMID:41102155](../papers/41102155.md)
+- Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 [GBC](../cancer_types/GBC.md) patients) to identify 16 cell types including [ACTA2](../genes/ACTA2.md)+ and [MFAP5](../genes/MFAP5.md)+ CAF subpopulations with co-expression of [YAP1](../genes/YAP1.md) and [SEMA7A](../genes/SEMA7A.md) [PMID:40830485](../papers/40830485.md)
+- Single-cell RNA sequencing with consensus hierarchical clustering (Deng M, cited) classified CCA into BA-active vs BA-inactive metabolic subtypes; BA-active subtype showed shorter [OS](../cancer_types/OS.md) and immunotherapy resistance with [SLCO1B3](../genes/SLCO1B3.md) and [CEACAM1](../genes/CEACAM1.md) as prognostic markers [PMID:41018102](../papers/41018102.md)
+- 10x Chromium Single Cell Gene Expression 3'v3.1 applied across multiple AAV-CRISPR rat breast tumor genotypes; UMAP showed genotype-driven immune microenvironment differences: adaptive immune enrichment in single-edit tumors, myeloid-dominated immunosuppression (macrophage vs neutrophil dichotomy) in multi-edit tumors [PMID:41000773](../papers/41000773.md)
 - inDrop/TruDrop scRNA-seq (dropkick QC) on 62 colorectal polyp/tumor specimens (128 datasets, 142,065 cells) in the COLON MAP HTAN atlas; identified adenoma-specific (ASC) and serrated-specific (SSC) neoplastic cell populations [PMID:34910928](../papers/34910928.md)
-- Training data for OncoMark derived from 3.1 million single-cell transcriptomes (941 patients, 14 tumor sites, Weizmann 3CA repository); pseudo-bulk profiles generated from scRNA-seq to train the hallmark-activity MTL classifier [PMID:35121966](../papers/35121966.md)
+- Training data for OncoMark derived from 3.1 million single-cell transcriptomes (941 patients, 14 tumor sites, Weizmann 3CA repository); pseudo-bulk profiles generated from scRNA-seq to train the hallmark-activity MTL classifier [PMID:41057477](../papers/41057477.md)
 - Single-cell RNA-seq (including SMART-seq2 reference from 11 patients) used alongside bulk deconvolution to map neoplastic and non-neoplastic cell states in longitudinal diffuse glioma, defining stem-like, proliferating stem-like, and mesenchymal-like populations [PMID:35649412](../papers/35649412.md)
 - Cited as a single-cell transcriptomics modality advancing precision health through cell-type-resolved expression profiling; positioned within the multi-omics integration framework alongside bulk RNA-seq, ATAC-seq, and proteomics [PMID:37119971](../papers/37119971.md)
 
@@ -50,25 +50,25 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:22138691](../papers/22138691.md)
+- [PMID:40834854](../papers/40834854.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:23797736](../papers/23797736.md)
+- [PMID:41102155](../papers/41102155.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26437033](../papers/26437033.md)
+- [PMID:41000773](../papers/41000773.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:35121966](../papers/35121966.md)
+- [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35649412](../papers/35649412.md)

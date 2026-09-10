@@ -33,13 +33,13 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Frequent inactivating mutations leading to protein loss (33% in validation cohort) in [ESCC](../cancer_types/ESCC.md); confirmed by IHC on TMA [PMID:24686850](../papers/24686850.md)
 - Recurrently mutated in non-hypermutated CRC; mutation status concordant between primary tumor and metastasis per matched-pair sequencing [PMID:25164765](../papers/25164765.md)
 - Mutated in 5/22 gynaecologic carcinosarcomas (23%), including the canonical R505C WD-repeat hotspot; loss-of-function may sensitize tumors to HDAC inhibitors (preclinical) [PMID:25233892](../papers/25233892.md)
-- Enriched among large-duct-type iCCA; co-occurs with [TGFBR2](../genes/TGFBR2.md) and [MYC](../genes/MYC.md) alterations in this molecular subtype. [PMID:25526346](../papers/25526346.md)
+- Enriched among large-duct-type iCCA; co-occurs with [TGFBR2](../genes/TGFBR2.md) and [MYC](../genes/MYC.md) alterations in this molecular subtype. [PMID:41008893](../papers/41008893.md)
 - Classic CRC driver; FBXW7 mutation frequency individually higher in AA than Caucasian CRCs, consistent with prior reports [PMID:25583493](../papers/25583493.md)
 - Recurrent Arg505Gly/Leu substitutions (n=14) in HNSCC; falls in 4q31.3 significant deletion peak; targets cyclin E and NOTCH for degradation [PMID:25631445](../papers/25631445.md)
 - Non-passenger mutations in breast adenoid cystic carcinoma (AdCC); also recurrent in salivary gland AdCCs; some mutations were subclonal [PMID:26095796](../papers/26095796.md)
 - Truncating and WD-domain damaging mutations in 11% of desmoplastic melanoma tumors; loss-of-function burden candidate [PMID:26343386](../papers/26343386.md)
 - Recurrently mutated gene identified in the TCGA pan-lung cancer cohort (lung ADC/SqCC) [PMID:27158780](../papers/27158780.md)
-- FBXW7 loss-of-function mutations were identified alongside [ERBB2](../genes/ERBB2.md) alterations and evaluated for their role in therapy resistance [PMID:28445112](../papers/28445112.md)
+- FBXW7 loss-of-function mutations were identified alongside [ERBB2](../genes/ERBB2.md) alterations and evaluated for their role in therapy resistance [PMID:41137179](../papers/41137179.md)
 - R465H hotspot missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - Mutated in 7.9% of clear cell endometrial carcinoma (CCEC) in the UCCC-NIH targeted sequencing study [PMID:28485815](../papers/28485815.md)
 - Mutations in FBXW7 associated with elevated structural variant (SV) burden (q < 0.1) in cholangiocarcinoma (CCA) across a 489-sample ICGC multi-platform cohort [PMID:28667006](../papers/28667006.md)
@@ -111,7 +111,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 - [PMID:25233892](../papers/25233892.md)
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 - [PMID:25583493](../papers/25583493.md)
 
@@ -123,7 +123,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 - [PMID:27158780](../papers/27158780.md)
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 - [PMID:28472509](../papers/28472509.md)
 

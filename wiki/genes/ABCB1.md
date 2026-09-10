@@ -16,7 +16,7 @@ ABCB1 (also known as MDR1 or P-glycoprotein) encodes an ATP-binding cassette tra
 ## Alterations observed in the corpus
 
 - Overexpression of ABCB1 in NCI-60 cell lines is associated with multidrug resistance; P-glycoprotein efflux reduces intracellular concentrations of [doxorubicin](../drugs/doxorubicin.md) and romidepsin, identified through CellMiner pharmacogenomic pattern comparison [PMID:22802077](../papers/22802077.md)
-- Upregulated in cholesterol-rich lipid rafts of TKI-resistant [HCC](../cancer_types/HCC.md); proposed mechanism for [sorafenib](../drugs/sorafenib.md) and [lenvatinib](../drugs/lenvatinib.md) export from resistant hepatocellular carcinoma cells [PMID:38355797](../papers/38355797.md)
+- Upregulated in cholesterol-rich lipid rafts of TKI-resistant [HCC](../cancer_types/HCC.md); proposed mechanism for [sorafenib](../drugs/sorafenib.md) and [lenvatinib](../drugs/lenvatinib.md) export from resistant hepatocellular carcinoma cells [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -39,6 +39,6 @@ ABCB1 (also known as MDR1 or P-glycoprotein) encodes an ATP-binding cassette tra
 - [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

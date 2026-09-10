@@ -17,7 +17,7 @@ Tabelecleucel is an allogeneic EBV-specific cytotoxic T lymphocyte (CTL) cell th
 
 ## Evidence in the corpus
 
-- Tabelecleucel (allogeneic EBV-CTL) in EBV+ R/M NPC (NCT03769467, n=12): stable disease in 50%, no objective responses; development in NPC has been terminated due to lack of objective responses [PMID:24952746](../papers/24952746.md).
+- Tabelecleucel (allogeneic EBV-CTL) in EBV+ R/M NPC (NCT03769467, n=12): stable disease in 50%, no objective responses; development in NPC has been terminated due to lack of objective responses [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

@@ -21,8 +21,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 ## Alterations observed in the corpus
 
-- Activating MTOR mutations strongly associated with ICI and ICI+TKI non-response in ccRCC (15/16 patients with MTOR mutations were resistant); enriched in the ICI-low score group by TCGA [KIRC](../cancer_types/KIRC.md) molecular subtyping [PMID:22138691](../papers/22138691.md)
-- MTOR pathway activation is a recurrent feature of hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) genomics; reviewed as a potential therapeutic target [PMID:22634756](../papers/22634756.md)
+- Activating MTOR mutations strongly associated with ICI and ICI+TKI non-response in ccRCC (15/16 patients with MTOR mutations were resistant); enriched in the ICI-low score group by TCGA [KIRC](../cancer_types/KIRC.md) molecular subtyping [PMID:40834854](../papers/40834854.md)
+- MTOR pathway activation is a recurrent feature of hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) genomics; reviewed as a potential therapeutic target [PMID:41112515](../papers/41112515.md)
 - Among the top eight most significantly mutated genes (q<0.00001) in ccRCC; mutation enriched in m4 mRNA subtype (12% vs 4%, p=0.01); nominated as a therapeutic target, supporting use of [everolimus](../drugs/everolimus.md) and [temsirolimus](../drugs/temsirolimus.md) in advanced [RCC](../cancer_types/RCC.md) [PMID:23792563](../papers/23792563.md)
 - Pathway downstream of PI3K/AKT in the PI3K/AKT/mTOR signaling map; combined PI3K/AKT/mTOR pathway altered in 30% of high-grade urothelial bladder tumors; TSC1-null tumors resistant to AKT inhibition (MK-2206) while maintaining S6/4EBP1 signaling [PMID:23897969](../papers/23897969.md)
 - TMZ-associated activating mutation S2215F validated as constitutively activating in low-grade glioma; subclonal expansion of MTOR-mutant cells drove distal recurrence in patient 01 of the longitudinal cohort [PMID:24336570](../papers/24336570.md)
@@ -32,7 +32,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - MTOR S2215F (validated activating allele) identified in metastatic cSCC (n=29); RAS/RTK/PI3K pathway activation including MTOR events correlated with shorter PFS (mean 12 vs 50 months), motivating mTOR inhibitor evaluation. [PMID:25589618](../papers/25589618.md)
 - In hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), MTOR mutations occur in 2% of cases and are FDA-targetable; MTOR is a component of the PI3K/AKT/mTOR pathway altered in 51% of [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 - Non-passenger mutation in PI3K/mTOR pathway in breast adenoid cystic carcinoma (AdCC); subclonal in at least one case [PMID:26095796](../papers/26095796.md)
-- mTORC1 pathway (p-mTOR, p-4E-BP1 T37/46, p-S6 S235/236) activated in SF3B1-mutant/del(13q) CLL cells; targetable with [temsirolimus](../drugs/temsirolimus.md); mTORC1 activation driven by SF3B1-K700E-induced [NFATC1](../genes/NFATC1.md) isoform 5 [PMID:26200345](../papers/26200345.md)
+- mTORC1 pathway (p-mTOR, p-4E-BP1 T37/46, p-S6 S235/236) activated in SF3B1-mutant/del(13q) CLL cells; targetable with [temsirolimus](../drugs/temsirolimus.md); mTORC1 activation driven by SF3B1-K700E-induced [NFATC1](../genes/NFATC1.md) isoform 5 [PMID:40694421](../papers/40694421.md)
 - Rare activating mutations contributing to PI3K-pathway aberration in prostate adenocarcinoma in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - MTOR is part of the PI3K/AKT/mTOR pathway disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³); pathway disruption includes [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [AKT3](../genes/AKT3.md), [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md), and MTOR alterations; supports use of mTOR inhibitors in ATC [PMID:26878173](../papers/26878173.md)
 - PI3K/mTOR pathway event in cisplatin-resistant [GCT](../cancer_types/GCT.md); mTOR inhibitors listed as targeted therapy candidates for PI3K-pathway alterations in cisplatin-resistant patients [PMID:27646943](../papers/27646943.md)
@@ -50,19 +50,19 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - PI3K-AKT-mTOR axis inhibition proposed as a combination strategy with PAK1/PAK2 inhibition to target KRAS-driven signaling in [PAAD](../cancer_types/PAAD.md); mTOR-axis inhibitors (PP-242) enriched in C2 (basal-like) drug signatures [PMID:34534465](../papers/34534465.md).
 - In the MAPPYACTS pediatric precision oncology trial, mTOR pathway alterations (PIK3CA/PIK3R1 n=23 events, [PTEN](../genes/PTEN.md) losses n=25) were matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), [everolimus](../drugs/everolimus.md)) explored in AcSé-ESMART arms E/F; mTOR inhibitor recommendations totaled n=123 across the 624-patient cohort [PMID:35292802](../papers/35292802.md).
 - Component of the PI3K-pathway targetable hits in myxoid liposarcoma ([MRLS](../cancer_types/MRLS.md)); collectively 31% of [MRLS](../cancer_types/MRLS.md) carry actionable PI3K-pathway alterations ([PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), MTOR, [TSC1](../genes/TSC1.md)) [PMID:35705560](../papers/35705560.md)
-- AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); mTOR is part of the RTK/PI3K/AKT/mTOR axis where cholesterol-remodeled lipid rafts activate upstream signaling; PI3K/AKT/mTOR regulates SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis [PMID:38355797](../papers/38355797.md)
+- AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); mTOR is part of the RTK/PI3K/AKT/mTOR axis where cholesterol-remodeled lipid rafts activate upstream signaling; PI3K/AKT/mTOR regulates SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- **[KIRC](../cancer_types/KIRC.md)**: Activating mutations present in a subset of ccRCC tumors and strongly predict non-response to immunotherapy and TKI combinations; MTOR-mutant patients may represent a distinct therapeutic category [PMID:22138691](../papers/22138691.md)
+- **[KIRC](../cancer_types/KIRC.md)**: Activating mutations present in a subset of ccRCC tumors and strongly predict non-response to immunotherapy and TKI combinations; MTOR-mutant patients may represent a distinct therapeutic category [PMID:40834854](../papers/40834854.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [KDM5C](../genes/KDM5C.md), [NF2](../genes/NF2.md), [BAP1](../genes/BAP1.md), [SETD2](../genes/SETD2.md), and [PBRM1](../genes/PBRM1.md) as recurrently mutated genes in ccRCC [PMID:22138691](../papers/22138691.md)
+- Co-occurs with [KDM5C](../genes/KDM5C.md), [NF2](../genes/NF2.md), [BAP1](../genes/BAP1.md), [SETD2](../genes/SETD2.md), and [PBRM1](../genes/PBRM1.md) as recurrently mutated genes in ccRCC [PMID:40834854](../papers/40834854.md)
 
 ## Therapeutic relevance
 
-- MTOR-mutant ccRCC is classified as non-responsive (3% of patients) by the integrated decision-tree model, suggesting these patients may require alternative strategies beyond standard ICI or TKI regimens; mTOR inhibitors ([everolimus](../drugs/everolimus.md), [temsirolimus](../drugs/temsirolimus.md)) are approved in ccRCC but were not specifically evaluated for this mutation-defined subgroup in the corpus [PMID:22138691](../papers/22138691.md)
+- MTOR-mutant ccRCC is classified as non-responsive (3% of patients) by the integrated decision-tree model, suggesting these patients may require alternative strategies beyond standard ICI or TKI regimens; mTOR inhibitors ([everolimus](../drugs/everolimus.md), [temsirolimus](../drugs/temsirolimus.md)) are approved in ccRCC but were not specifically evaluated for this mutation-defined subgroup in the corpus [PMID:40834854](../papers/40834854.md)
 
 ## Open questions
 
@@ -70,8 +70,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - The specific MTOR mutation spectrum (hotspot vs. scattered) in the non-responsive group has not been detailed.
 
 ## Sources
-- [PMID:22138691](../papers/22138691.md)
-- [PMID:22634756](../papers/22634756.md)
+- [PMID:40834854](../papers/40834854.md)
+- [PMID:41112515](../papers/41112515.md)
 - [PMID:23792563](../papers/23792563.md)
 - [PMID:23897969](../papers/23897969.md)
 - [PMID:24336570](../papers/24336570.md)
@@ -81,7 +81,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:25589618](../papers/25589618.md)
 - [PMID:25822088](../papers/25822088.md)
 - [PMID:26095796](../papers/26095796.md)
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26878173](../papers/26878173.md)
 - [PMID:27646943](../papers/27646943.md)
@@ -107,6 +107,6 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

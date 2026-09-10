@@ -17,7 +17,7 @@ In vivo pluripotency assay in which human embryonic stem cells (heSCs) are injec
 
 ## Used by
 
-- Used to generate experimental teratomas from the ES4 heSC line in immunocompromised mice; heMSCs (human embryonic mesenchymal stem cells) were subsequently isolated from teratoma-derived mesenchymal tissue and used as the cell-of-origin model for Ewing sarcoma. [PMID:25186949](../papers/25186949.md)
+- Used to generate experimental teratomas from the ES4 heSC line in immunocompromised mice; heMSCs (human embryonic mesenchymal stem cells) were subsequently isolated from teratoma-derived mesenchymal tissue and used as the cell-of-origin model for Ewing sarcoma. [PMID:41136396](../papers/41136396.md)
 
 ## Notes
 

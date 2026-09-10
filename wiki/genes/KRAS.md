@@ -38,7 +38,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS detected at 5.6% in cfDNA (numerically higher than matched tumor 3.7%) among metastatic urothelial carcinoma patients in the CALGB 90601 cfDNA cohort (MSK-ACCESS, n=201). [PMID:40256659](../papers/40256659.md)
 - Frequent mutations in [LUAD](../cancer_types/LUAD.md) correlating with smoking (P=0.021); copy number gain and increased expression in mutant tumours; mutually exclusive with [EGFR](../genes/EGFR.md) mutations (P<1e-7). [PMID:18948947](../papers/18948947.md)
 - KRASG12C is the primary driver mutation in CRC; KRASG12C amplification (>20 copies) and secondary KRAS mutations (G12, H95, Y96, R68 positions) emerge as resistance mechanisms to combined KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
-- KRAS G12V mutation engineered in the A1309 CRC cell model used for [FBXO7](../genes/FBXO7.md) synthetic lethality screening [PMID:36334560](../papers/36334560.md)
+- KRAS G12V mutation engineered in the A1309 CRC cell model used for [FBXO7](../genes/FBXO7.md) synthetic lethality screening [PMID:40896366](../papers/40896366.md)
 - KRAS GOF mutations in 7% and amplifications in 4% of gallbladder carcinoma ([GBC](../cancer_types/GBC.md)); KRAS p.G12C present in 2 patients (OncoKB level 3A) [PMID:36228155](../papers/36228155.md)
 - KRAS mutations were detected in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - KRAS mutations were identified in pancreatic neuroendocrine tumors (PANETs) by exome sequencing, though at lower frequency than in pancreatic ductal adenocarcinoma [PMID:21252315](../papers/21252315.md)
@@ -69,23 +69,23 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS codon 12/13 oncogenic hotspot mutations recurrently detected in multiple myeloma (MM), particularly enriched in previously treated patients; mutations frequently subclonal and co-mutation with [BRAF](../genes/BRAF.md) was rarely simultaneously clonal [PMID:24434212](../papers/24434212.md)
 - KRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (6.4% frequency); no RAS mutations in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
 - KRAS focal amplification observed in [ESCC](../cancer_types/ESCC.md) tumors [PMID:24686850](../papers/24686850.md)
-- KRAS activating mutations are rare in [HCC](../cancer_types/HCC.md) (~1%; 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of [refametinib](../drugs/refametinib.md) + [sorafenib](../drugs/sorafenib.md) in 16 RAS-mutant patients reported median [OS](../cancer_types/OS.md) 12.7 months. [PMID:24798001](../papers/24798001.md)
+- KRAS activating mutations are rare in [HCC](../cancer_types/HCC.md) (~1%; 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of [refametinib](../drugs/refametinib.md) + [sorafenib](../drugs/sorafenib.md) in 16 RAS-mutant patients reported median [OS](../cancer_types/OS.md) 12.7 months. [PMID:30061739](../papers/30061739.md)
 - Mutated in 6% of gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)) overall (TCGA); KRAS/NRAS alterations combined reach 17% across CIN and MSI subtypes [PMID:25079317](../papers/25079317.md)
 - Activating mutations in 33% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230, 74 cancer-associated); mutually exclusive with [EGFR](../genes/EGFR.md); enriched in the transversion-high ([TH](../genes/TH.md))/smoker cohort and the PP transcriptional subtype [PMID:25079552](../papers/25079552.md)
 - Driver mutation 100% concordant between primary and metastasis in CRC; established trunk event; mutation status guides cetuximab/panitumumab eligibility and is reliably detected from either tumor site [PMID:25164765](../papers/25164765.md)
 - Hotspot mutations in 5/22 gynaecologic carcinosarcomas (27%); flagged as actionable candidates for MEK/BRAF inhibition [PMID:25233892](../papers/25233892.md)
 - RAS codon 12/61 SSNVs (NRAS/HRAS/KRAS) found in 52/402 (12.9%) papillary thyroid tumors; characterize the follicular variant and drive the RL (RAS-like) phenotype with concurrent MAPK/PI3K signaling; mutually exclusive with BRAFV600E [PMID:25417114](../papers/25417114.md)
-- KRAS activating mutations (G12D, G12V, Q61H) in 24–27% intrahepatic and 37–46% extrahepatic CCA; G12/G13 alterations predict poor prognosis; synergizes with [ARID1A](../genes/ARID1A.md) loss to drive cholangiocarcinogenesis [PMID:25526346](../papers/25526346.md)
+- KRAS activating mutations (G12D, G12V, Q61H) in 24–27% intrahepatic and 37–46% extrahepatic CCA; G12/G13 alterations predict poor prognosis; synergizes with [ARID1A](../genes/ARID1A.md) loss to drive cholangiocarcinogenesis [PMID:41008893](../papers/41008893.md)
 - KRAS p.G13D mutation present in a distinct subclone in a multi-region WGS case (Pt1) of gastric adenocarcinoma, co-occurring with [PIK3CA](../genes/PIK3CA.md) p.E542K and [BRCA2](../genes/BRCA2.md) frameshift across separate clones [PMID:25583476](../papers/25583476.md)
 - KRAS showed significantly higher mutation frequency in African American than Caucasian MSS colorectal cancers (103 AA vs 129 Caucasian), while overall classic CRC driver gene rates ([APC](../genes/APC.md), [TP53](../genes/TP53.md), KRAS, [PIK3CA](../genes/PIK3CA.md), [SMAD4](../genes/SMAD4.md), [BRAF](../genes/BRAF.md), [FBXW7](../genes/FBXW7.md)) did not differ as a group. [PMID:25583493](../papers/25583493.md)
 - KRAS G12C identified as an activating mutation in metastatic cSCC (n=29); activating oncogene mutations in 11/29 (38%) samples were nearly mutually exclusive. [PMID:25589618](../papers/25589618.md)
-- KRAS cited in the context of murine KRAS/p53 knockout cholangiocarcinoma models that inadequately recapitulate human cholestatic CCA pathophysiology; humanized or organoid systems proposed as alternatives. [PMID:25608663](../papers/25608663.md)
+- KRAS cited in the context of murine KRAS/p53 knockout cholangiocarcinoma models that inadequately recapitulate human cholestatic CCA pathophysiology; humanized or organoid systems proposed as alternatives. [PMID:41018102](../papers/41018102.md)
 - KRAS mutated in 7/14 DCB vs 1/17 NDB [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md); authors attribute the imbalance to the established smoking–KRAS association rather than a direct causal effect on PD-1 response. [PMID:25765070](../papers/25765070.md)
 - KRAS low-frequency alteration in [HCC](../cancer_types/HCC.md); part of MAP kinase pathway with low-frequency but FDA-druggable alterations in the 243-case European [HCC](../cancer_types/HCC.md) cohort [PMID:25822088](../papers/25822088.md)
 - KRAS mutated in 92% of pancreatic ductal adenocarcinomas (109-case WES cohort); codon-12 alleles (G12D/G12V/G12C/G12R/G12S) dominate; codon-61 alleles (Q61H/Q61K/Q61R) associated with favourable survival (P=0.01999) and lower pERK staining; mutually exclusive with [BRAF](../genes/BRAF.md) and [PIK3CA](../genes/PIK3CA.md) lesions [PMID:25855536](../papers/25855536.md)
 - KRAS rare hot-spot mutations (G12D/G12R/Q61R) in cutaneous melanoma (TCGA 333-sample cohort); mutually exclusive with [NRAS](../genes/NRAS.md) and [BRAF](../genes/BRAF.md) V600/K601 hot-spots; part of the RAS-mutant melanoma subtype [PMID:26091043](../papers/26091043.md)
 - Significant association with T stage in [UTUC](../cancer_types/UTUC.md); part of the subset of [UTUC](../cancer_types/UTUC.md) tumors with FGFR3/HRAS/KRAS mutations associated with lower CNA burden and a 'low-grade-tumor-progression' carcinogenesis model [PMID:26278805](../papers/26278805.md)
-- KrasG12D knock-in by AAV-CRISPR HDR in rats yielded ER+/PR+ ductal carcinoma with papillary features at ~70-day median latency; the same edit in mice produced ER-/PR- metaplastic tumors with squamous differentiation, illustrating species-specific lineage plasticity — KRAS is not commonly mutated in human breast cancer [PMID:26437033](../papers/26437033.md)
+- KrasG12D knock-in by AAV-CRISPR HDR in rats yielded ER+/PR+ ductal carcinoma with papillary features at ~70-day median latency; the same edit in mice produced ER-/PR- metaplastic tumors with squamous differentiation, illustrating species-specific lineage plasticity — KRAS is not commonly mutated in human breast cancer [PMID:41000773](../papers/41000773.md)
 - Mutated in n=14 cases as part of the 4.1% RAS-mutant CLL fraction in a 538-sample WES cohort; therapeutic exploration of MAPK-ERK inhibitors is suggested for the RAS/BRAF/MAP2K1-mutant subset [PMID:26466571](../papers/26466571.md)
 - Major activated RAS-pathway oncogene in periampullary adenocarcinoma; RTK/RAS/PI3K pathway activated in 84–94% of cases across three anatomical subtypes (AMPAC, DUOAC, CAC; n=160); KRAS is one of four MutSig-CV-significant genes restricted to the CAC subset [PMID:26804919](../papers/26804919.md)
 - n=25 KRAS mutations in pan-glioma TCGA cohort (n=1122); confirmed as a recurrently mutated Ras-pathway oncogene in human glioma, previously known mainly from engineered mouse models; co-occurs with [NRAS](../genes/NRAS.md) (n=5) [PMID:26824661](../papers/26824661.md)
@@ -93,13 +93,13 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Known CRC driver identified as a source of recurrent neopeptides; neoantigen load analysis in 619 colorectal cancer cases [PMID:27149842](../papers/27149842.md)
 - Co-occurs with activating [PPP3CA](../genes/PPP3CA.md) mutations (p=0.033) in lung ADC in the TCGA pan-lung cohort; KRAS is a key Ras/Raf/RTK pathway driver considered when calculating the 76% actionable-driver fraction in lung ADC [PMID:27158780](../papers/27158780.md)
 - Classical hotspot activating mutations at codon 12 observed in 11 breast cancer samples; did not meet Mut-driver criteria as a standalone breast-cancer driver event; cited as a cross-cancer driver candidate suggesting drug repurposing potential [PMID:27161491](../papers/27161491.md)
-- KRAS mutations are under-represented in young-onset lung cancer (~9% in <40 yrs vs ~30% in 60-69 yrs); G12C and G12D dominate in the few KRAS-mutant young cases; Indian YLC data (Malik et al., n=133) showed 3.7% KRAS mutation rate [PMID:27346245](../papers/27346245.md)
+- KRAS mutations are under-represented in young-onset lung cancer (~9% in <40 yrs vs ~30% in 60-69 yrs); G12C and G12D dominate in the few KRAS-mutant young cases; Indian YLC data (Malik et al., n=133) showed 3.7% KRAS mutation rate [PMID:40958859](../papers/40958859.md)
 - KRAS hotspot mutations in 22/180 patients (12.2%; 23 total mutations, G12 dominant) in advanced germ cell tumors; enriched in seminomas overall (20% vs 8.7% in nonseminoma; P=.045); in nonseminomas, 8 of 11 KRAS mutations occurred in cisplatin-resistant tumors; MEK inhibitors nominated as candidate therapy [PMID:27646943](../papers/27646943.md)
 - KRAS Q61H and G12C activating mutations identified in pediatric ALL and neuroblastoma ([NBL](../cancer_types/NBL.md)) as MEK-inhibitor targets; KRAS V14I also co-occurred with [STAT5B](../genes/STAT5B.md) I704L and [JAK1](../genes/JAK1.md) K1026E in T-BLL [PMID:28007021](../papers/28007021.md).
 - KRAS amplified in subsets of esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) alongside [ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md), [IGF1R](../genes/IGF1R.md), and [VEGFA](../genes/VEGFA.md) amplifications in a multi-platform genomic characterization of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md).
 - 218 patients with KRAS mutations in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT); codon 12 dominant; codon 61 in 12/235 (5%) of KRAS-mutated tumors; only 0.9% (2/218) received matched therapy; mutually exclusive with [EGFR](../genes/EGFR.md) (p<0.0001) [PMID:28336552](../papers/28336552.md)
 - Single-patient missense event in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
-- 6/23 (26%) endometrial polyps harbored low-VAF KRAS hotspot mutations including G12V and G13V; one sample bore both on independent reads; may indicate precursor lesion biology [PMID:28445112](../papers/28445112.md)
+- 6/23 (26%) endometrial polyps harbored low-VAF KRAS hotspot mutations including G12V and G13V; one sample bore both on independent reads; may indicate precursor lesion biology [PMID:41137179](../papers/41137179.md)
 - Driver SNVs targeted in [LUAD](../cancer_types/LUAD.md) ctDNA panels; KRAS amplification (>15 copies) identified as an ancestral subclonal event driving lymph-node residual disease in patient CRUK0013 that responded to adjuvant chemoradiotherapy; SNV status not associated with pre-operative ctDNA detection rate within LUADs [PMID:28445469](../papers/28445469.md)
 - Q61H missense mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
 - Second most altered gene in a 62-tumor-type pan-cancer cohort (15% overall); G12 codon dominates (80% of KRAS mutations); 90% mutation rate in [PAAD](../cancer_types/PAAD.md), 44% in [COAD](../cancer_types/COAD.md); limited clinical actionability noted with then-available drugs [PMID:28481359](../papers/28481359.md)
@@ -131,7 +131,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - RAS pathway mutations (KRAS, [NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md)) enriched in BCP-ALL and Fusion-negative [RMS](../cancer_types/RMS.md) PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 - KRAS wild-type status enriched in TRK fusion-positive colorectal cancers: 6/7 TRK fusion-positive CRC cases were KRAS wild-type and MSI-H, consistent with kinase-fusion enrichment in mismatch-repair-deficient tumors lacking canonical KRAS/BRAF drivers [PMID:31871300](../papers/31871300.md)
 - KRAS mutation is associated with broad changes in cell-motility and adhesion-protein levels across solid-organ cancer cell lines (CCLE proteomics) [PMID:31978347](../papers/31978347.md)
-- KRAS mutation was used as a prognostic covariate in the Mutation model Cox comparator in Sherlock-Lung non-smoking [LUAD](../cancer_types/LUAD.md) (n=232) [PMID:32015526](../papers/32015526.md)
+- KRAS mutation was used as a prognostic covariate in the Mutation model Cox comparator in Sherlock-Lung non-smoking [LUAD](../cancer_types/LUAD.md) (n=232) [PMID:40970133](../papers/40970133.md)
 - KRAS is a driver in 287 tumors in the PCAWG pan-cancer WGS cohort (2,658 donors, 38 tumor types) [PMID:32025007](../papers/32025007.md)
 - KRAS-mutant endometrial cancer samples show upregulation of H3K27 and H3K36 acetylation in EC proteogenomics (n=95) [PMID:32059776](../papers/32059776.md)
 - KRAS mutated in 8% of 119 [UTUC](../cancer_types/UTUC.md) patients by MSK-IMPACT, as part of the recurrent RTK/RAS/PI3K-pathway driver landscape that also includes [HRAS](../genes/HRAS.md) (15%), [PIK3CA](../genes/PIK3CA.md) (14–16%), and [TSC1](../genes/TSC1.md) (14%) [PMID:32332851](../papers/32332851.md)
@@ -236,7 +236,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:36355783](../papers/36355783.md)
 
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 - [PMID:36228155](../papers/36228155.md)
 
@@ -298,7 +298,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:24686850](../papers/24686850.md)
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 - [PMID:25079317](../papers/25079317.md)
 
@@ -310,7 +310,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:25417114](../papers/25417114.md)
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 - [PMID:25583476](../papers/25583476.md)
 
@@ -318,7 +318,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:25589618](../papers/25589618.md)
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 - [PMID:25765070](../papers/25765070.md)
 
@@ -330,7 +330,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:26278805](../papers/26278805.md)
 
-- [PMID:26437033](../papers/26437033.md)
+- [PMID:41000773](../papers/41000773.md)
 
 - [PMID:26466571](../papers/26466571.md)
 
@@ -346,7 +346,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:27161491](../papers/27161491.md)
 
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 - [PMID:27646943](../papers/27646943.md)
 
@@ -358,7 +358,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:28373299](../papers/28373299.md)
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 - [PMID:28445469](../papers/28445469.md)
 
@@ -422,7 +422,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 - [PMID:31978347](../papers/31978347.md)
 
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 - [PMID:32025007](../papers/32025007.md)
 

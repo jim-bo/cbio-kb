@@ -17,17 +17,17 @@ Quantitative imaging microscopy (also referred to as quantitative immunofluoresc
 
 ## Used by
 
-- Used to quantify gamma-H2AX foci (DNA double-strand breaks) and cleaved caspase-3 (apoptosis) in FBXO7-knockout vs. control colonic epithelial cells treated with the [CHEK1](../genes/CHEK1.md) inhibitor Prexasertib; >550 cells per condition analyzed; FBXO7-deficient cells showed a 41.6-fold increase in mean gamma-H2AX foci and a 2.6-fold increase in cleaved caspase-3 signal intensity versus controls [PMID:36334560](../papers/36334560.md)
+- Used to quantify gamma-H2AX foci (DNA double-strand breaks) and cleaved caspase-3 (apoptosis) in FBXO7-knockout vs. control colonic epithelial cells treated with the [CHEK1](../genes/CHEK1.md) inhibitor Prexasertib; >550 cells per condition analyzed; FBXO7-deficient cells showed a 41.6-fold increase in mean gamma-H2AX foci and a 2.6-fold increase in cleaved caspase-3 signal intensity versus controls [PMID:40896366](../papers/40896366.md)
 
 ## Notes
 
 - Automated nuclear counting eliminates observer bias in cell viability/proliferation assays.
 - Gamma-H2AX foci quantification is a widely accepted pharmacodynamic marker for DNA double-strand breaks induced by genotoxic agents.
 - Cleaved caspase-3 immunofluorescence provides an early apoptosis readout distinct from endpoint viability assays.
-- Throughput and sensitivity depend on the imaging platform and antibody quality; single-replicate experiments (as in PMID:36334560) may limit statistical reproducibility.
+- Throughput and sensitivity depend on the imaging platform and antibody quality; single-replicate experiments (as in PMID:40896366) may limit statistical reproducibility.
 
 ## Sources
 
-- [PMID:36334560](../papers/36334560.md) — FBXO7/CHEK1 synthetic lethality study in colorectal cancer; quantitative immunofluorescence microscopy for gamma-H2AX foci and cleaved caspase-3 in Prexasertib-treated FBXO7-knockout cells.
+- [PMID:40896366](../papers/40896366.md) — FBXO7/CHEK1 synthetic lethality study in colorectal cancer; quantitative immunofluorescence microscopy for gamma-H2AX foci and cleaved caspase-3 in Prexasertib-treated FBXO7-knockout cells.
 
 *This page was processed by **crosslinker** on **2026-05-06**.*

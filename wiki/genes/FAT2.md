@@ -17,7 +17,7 @@ FAT2 is a member of the FAT cadherin family of tumor suppressor genes. In esopha
 ## Alterations observed in the corpus
 
 - Recurrent truncating mutations in [ESCC](../cancer_types/ESCC.md) (139 paired tumor/germline samples by whole-exome/targeted sequencing); shRNA knockdown promotes xenograft growth; mutations mutually exclusive with [FAT1](../genes/FAT1.md) and [FAT3](../genes/FAT3.md) [PMID:24686850](../papers/24686850.md)
-- Recurrent HBV integration site near FAT2 oncogene in intrahepatic cholangiocarcinoma (iCCA); HBV insertional mutagenesis may drive expression. [PMID:25526346](../papers/25526346.md)
+- Recurrent HBV integration site near FAT2 oncogene in intrahepatic cholangiocarcinoma (iCCA); HBV insertional mutagenesis may drive expression. [PMID:41008893](../papers/41008893.md)
 - Mutated in 47% of MSI-H colorectal cancers (atypical-cadherin WNT-related mutations); highest mutation frequency among the FAT cadherin family in this MSI-H CRC cohort [PMID:34910928](../papers/34910928.md)
 
 ## Cancer types (linked)
@@ -39,7 +39,7 @@ FAT2 is a member of the FAT cadherin family of tumor suppressor genes. In esopha
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34910928](../papers/34910928.md)

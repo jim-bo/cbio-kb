@@ -15,7 +15,7 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 
 ## Alterations observed in the corpus
 
-- RAF1 is listed in the [HCC](../cancer_types/HCC.md) mutational gene catalog from WES of 1,289 patients; individual mutation frequency is not separately enumerated in the review text. [PMID:24798001](../papers/24798001.md)
+- RAF1 is listed in the [HCC](../cancer_types/HCC.md) mutational gene catalog from WES of 1,289 patients; individual mutation frequency is not separately enumerated in the review text. [PMID:30061739](../papers/30061739.md)
 - In mCRPC, RAF1 is involved in potentially actionable fusions (~3% of patients) that are candidates for pan-RAF or MEK inhibitor strategies. [PMID:26000489](../papers/26000489.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), RAF1 is a recurrent fusion partner: TRAK1-RAF1, RAF1-AGGF1, and CLCN6-RAF1 fusions identified with intact kinase domain; enriched in the Triple-WT subtype. Functional validation of transforming activity and drug sensitivity awaits follow-up. [PMID:26091043](../papers/26091043.md)
 - Identified as a significantly mutated gene exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the 1,144-tumor [NSCLC](../cancer_types/NSCLC.md) landscape study (660 lung ADC, 484 lung SqCC); contributes to the RTK/Ras/Raf pathway driver landscape in lung adenocarcinoma. [PMID:27158780](../papers/27158780.md)
@@ -26,7 +26,7 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)** — identified in comprehensive WES-based mutational profiling (n=1,289). [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md)** — identified in comprehensive WES-based mutational profiling (n=1,289). [PMID:30061739](../papers/30061739.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -34,7 +34,7 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 
 ## Therapeutic relevance
 
-- No direct RAF1-targeted therapy data reported in the current corpus. RAF1/BRAF pathway is a component of [sorafenib](../drugs/sorafenib.md)'s multi-kinase inhibition profile. [PMID:24798001](../papers/24798001.md)
+- No direct RAF1-targeted therapy data reported in the current corpus. RAF1/BRAF pathway is a component of [sorafenib](../drugs/sorafenib.md)'s multi-kinase inhibition profile. [PMID:30061739](../papers/30061739.md)
 
 ## Open questions
 
@@ -42,7 +42,7 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 
 ## Sources
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)

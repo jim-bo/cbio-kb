@@ -25,9 +25,9 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - PD-L1 combined positive score (22C3, CPS <20 vs ≥20) did not predict PFS or [OS](../cancer_types/OS.md) benefit in this reirradiation + nivolumab context, diverging from the recurrent/metastatic HNSCC setting [PMID:38780927](../papers/38780927.md).
 - The ROBIN consortium (ROBIN white paper) identifies nivolumab (PD-1 blockade) as one of the systemic agents being combined with radiation therapy, alongside adenosine-pathway inhibition and antibody-drug conjugates, as a priority direction for radiation-immunotherapy combination trials [PMID:41941260](../papers/41941260.md).
 - Received by 1 metastatic gallbladder carcinoma patient (and 1 patient received ipilimumab/nivolumab combination) among 12 ICI-treated patients in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233); 42% (5/12) showed evidence of ICI response [PMID:36228155](../papers/36228155.md)
-- Nivolumab+[cabozantinib](../drugs/cabozantinib.md) data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
-- CheckMate 040 in [HCC](../cancer_types/HCC.md): nivolumab investigator-assessed ORR 20%, median duration of response 9.9 months (n=214 dose-expansion); [OS](../cancer_types/OS.md) 15.6 months in second-line; FDA accelerated approval based on 154 sorafenib-pretreated patients (ORR 14.3% RECIST 1.1, 18.2% mRECIST, DoR 16.6 months); PD-L1 IHC does not predict response in [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
-- Anti-PD-1 ICI listed among investigational agents for recurrent/metastatic [NPC](../cancer_types/NPC.md); PD-1/PD-L1 monotherapy ORR approximately 15–20% in [NPC](../cancer_types/NPC.md); [relatlimab](../drugs/relatlimab.md) + nivolumab in randomized REMAIN trial for LAG-3 co-blockade [PMID:24952746](../papers/24952746.md)
+- Nivolumab+[cabozantinib](../drugs/cabozantinib.md) data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model [PMID:40834854](../papers/40834854.md)
+- CheckMate 040 in [HCC](../cancer_types/HCC.md): nivolumab investigator-assessed ORR 20%, median duration of response 9.9 months (n=214 dose-expansion); [OS](../cancer_types/OS.md) 15.6 months in second-line; FDA accelerated approval based on 154 sorafenib-pretreated patients (ORR 14.3% RECIST 1.1, 18.2% mRECIST, DoR 16.6 months); PD-L1 IHC does not predict response in [HCC](../cancer_types/HCC.md) [PMID:30061739](../papers/30061739.md)
+- Anti-PD-1 ICI listed among investigational agents for recurrent/metastatic [NPC](../cancer_types/NPC.md); PD-1/PD-L1 monotherapy ORR approximately 15–20% in [NPC](../cancer_types/NPC.md); [relatlimab](../drugs/relatlimab.md) + nivolumab in randomized REMAIN trial for LAG-3 co-blockade [PMID:41002550](../papers/41002550.md)
 - [CD274](../genes/CD274.md) (PD-L1) focal amplifications in BRAF-mutant melanoma subtype and high PDCD1/PD-L1 expression in Immune transcriptomic subclass (51% of 329 TCGA cases) identified as rationale for checkpoint blockade including nivolumab; LScore + [LCK](../genes/LCK.md) bivariate prognostic model proposed for adjuvant-therapy decisions [PMID:26091043](../papers/26091043.md)
 - Hugo et al. (n=38 metastatic [melanoma](../cancer_types/SKCM.md)): nivolumab (and [pembrolizumab](../drugs/pembrolizumab.md)) anti-PD-1 therapy; IPRES transcriptional program (mesenchymal transition, angiogenesis, wound healing) enriched in innate non-responders; IPRES co-enrichment not predictive in anti-CTLA-4 cohort ([skcm_dfci_2015](../datasets/skcm_dfci_2015.md)), distinguishing anti-PD-1 from anti-CTLA-4 resistance mechanisms; 14/38 patients had prior MAPKi therapy [PMID:26997480](../papers/26997480.md)
 - In a 68-patient melanoma cohort treated with nivolumab (ipilimumab-naive and ipilimumab-progressed), pre-therapy clonal mutation load predicted [OS](../cancer_types/OS.md) and response only in ipilimumab-naive patients; on-therapy genomic contraction at week 4 predicted response (CR/PR vs PD p=5.87e-5) better than raw TMB change [PMID:29033130](../papers/29033130.md)
@@ -50,7 +50,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - In a pediatric/AYA solid tumor cWGTS study (n=114), high fusion/SV burden identified by WGS (not by MSK-IMPACT) in a metastatic adrenocortical carcinoma patient (H135022) informed nivolumab + ipilimumab treatment, resulting in complete response lasting 26 months post-cessation [PMID:35585047](../papers/35585047.md)
 - Complete response to nivolumab + ipilimumab was observed in a malignant PEComa patient with subclonal [TSC1](../genes/TSC1.md) and TMB 7 mut/Mb in the MSK sarcoma cohort anecdotal response series; MSI-H was rare (<0.3%) across 7,494 sarcomas, limiting the biomarker-evaluable pool for PD-1 blockade [PMID:35705558](../papers/35705558.md).
 - Anti-PD-1 antibody; nivolumab±ipilimumab indicated for MSI-H CRC (~8.3% of CRC, n=1,224) in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
-- Nivolumab (anti-PD-1) is mentioned among ICI agents evaluated in [HCC](../cancer_types/HCC.md); the review identifies CTNNB1-mutant / FAO-high HCC tumors as less responsive to anti-PD-1, and [FABP1](../genes/FABP1.md)-mediated linoleic acid sequestration in the TME as a resistance mechanism [PMID:38355797](../papers/38355797.md).
+- Nivolumab (anti-PD-1) is mentioned among ICI agents evaluated in [HCC](../cancer_types/HCC.md); the review identifies CTNNB1-mutant / FAO-high HCC tumors as less responsive to anti-PD-1, and [FABP1](../genes/FABP1.md)-mediated linoleic acid sequestration in the TME as a resistance mechanism [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
@@ -69,9 +69,9 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 
 ## Sources
 
-- [PMID:22138691](../papers/22138691.md)
-- [PMID:24798001](../papers/24798001.md)
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:40834854](../papers/40834854.md)
+- [PMID:30061739](../papers/30061739.md)
+- [PMID:41002550](../papers/41002550.md)
 - [PMID:26091043](../papers/26091043.md)
 - [PMID:26997480](../papers/26997480.md)
 - [PMID:29033130](../papers/29033130.md)
@@ -104,6 +104,6 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

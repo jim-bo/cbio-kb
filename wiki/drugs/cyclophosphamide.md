@@ -24,7 +24,7 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - Referenced as a component of high-dose conditioning regimens for allogeneic SCT — the treatment modality with the largest survival benefit in the WashU AML/MDS [decitabine](../drugs/decitabine.md) trial (N=116); allogeneic SCT vs no SCT was the dominant Cox survival predictor (P<0.001) independent of [TP53](../genes/TP53.md) status [PMID:27959731](../papers/27959731.md)
 - Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy with median follow-up 78.5 months; C5 (MYD88/CD79B/18q-BCL2) and C3 (BCL2-SV/EZH2/PTEN) subtypes had unfavorable PFS/OS [PMID:29713087](../papers/29713087.md)
 - Cyclophosphamide is an alkylating agent documented among therapies received by the 5,978 previously treated patients in a 24,146-patient MSK cohort; the study found cytotoxic chemotherapy class overall associated with clonal haematopoiesis (OR=1.2, p=2×10⁻³), though no gene-specific cyclophosphamide interaction was reported separately [PMID:33106634](../papers/33106634.md).
-- OncoMark hallmark-survival analysis (TCGA logistic regression) associated cyclophosphamide with the Activating Invasion and Metastasis (AIM) hallmark for disease-free survival and the Resisting Cell Death (RCD) hallmark for overall survival [PMID:35121966](../papers/35121966.md)
+- OncoMark hallmark-survival analysis (TCGA logistic regression) associated cyclophosphamide with the Activating Invasion and Metastasis (AIM) hallmark for disease-free survival and the Resisting Cell Death (RCD) hallmark for overall survival [PMID:41057477](../papers/41057477.md)
 - Cyclophosphamide was used as chemotherapy backbone in combination regimens within the MAPPYACTS trial; 45/122 matched targeted therapies were combined with chemotherapy (ORR 18%) [PMID:35292802](../papers/35292802.md)
 - Alkylating immunosuppressant; one of 25 metastatic [CSCC](../cancer_types/CSCC.md) patients in WGS study was on cyclophosphamide+[tacrolimus](../drugs/tacrolimus.md) post solid-organ transplant; SBS32 signature attributable to [azathioprine](../drugs/azathioprine.md) observed in another immunosuppressed patient [PMID:35982973](../papers/35982973.md)
 
@@ -53,7 +53,7 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:35121966](../papers/35121966.md)
+- [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)

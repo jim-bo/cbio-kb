@@ -39,7 +39,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 alterations detected in 6 cases (3%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); pooled into underpowered DDR analysis [PMID:40256659](../papers/40256659.md).
 - Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs in paired tumor-normal sequencing [PMID:36593350](../papers/36593350.md)
 - Germline/somatic mutations define HRD-Dup subtype with tandem duplications in [HGSOC](../cancer_types/HGSOC.md); 36/116 patients with LOH in any HLA class I gene in validation cohort [PMID:36517593](../papers/36517593.md)
-- BRCA1 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL [paradigm](../methods/paradigm.md) [PMID:36334560](../papers/36334560.md)
+- BRCA1 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL [paradigm](../methods/paradigm.md) [PMID:40896366](../papers/40896366.md)
 - BRCA1 oncogenic mutations in 3 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 - Found mutated or epigenetically silenced in ~20% of [HGSOC](../cancer_types/HGSOC.md) tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - BRCA1 somatic mutations identified in breast cancer WES of 100 tumors as part of the driver gene landscape [PMID:22722201](../papers/22722201.md)
@@ -47,19 +47,19 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Two missense mutations observed in [ACC](../cancer_types/ACC.md) WES cohort (n=60); classified in the DNA-damage response pathway [PMID:23685749](../papers/23685749.md)
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Zero of 23 pancreatic acinar carcinomas showed BRCA1 locus methylation by qMSP; no somatic mutations identified [PMID:24293293](../papers/24293293.md)
-- HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
+- HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:41097736](../papers/41097736.md)
 - Truncating somatic mutation in one ERCC2-WT [cisplatin](../drugs/cisplatin.md) responder in muscle-invasive urothelial carcinoma; absent in non-responders [PMID:25096233](../papers/25096233.md)
-- Direct EWS::[FLI1](../genes/FLI1.md) transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity [PMID:25186949](../papers/25186949.md)
-- Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents [PMID:25526346](../papers/25526346.md)
+- Direct EWS::[FLI1](../genes/FLI1.md) transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity [PMID:41136396](../papers/41136396.md)
+- Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents [PMID:41008893](../papers/41008893.md)
 - No mutations observed in the 78-case discovery cohort of gastric cancer; contrast with [BRCA2](../genes/BRCA2.md) which was mutated in 5.8% of cases [PMID:25583476](../papers/25583476.md)
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Biallelic loss (somatic + germline) in mCRPC contributing to 19.3% DNA-repair pathway aggregate; part of 22.7% broader DNA-repair alteration rate [PMID:26000489](../papers/26000489.md)
 - 1 germline frameshift (V923, ClinVar RCV000083190.3) in primary prostate cancer; BRCA1 loss contributes to the 19% DNA-repair-gene-defect prevalence supporting PARP-inhibitor candidacy [PMID:26544944](../papers/26544944.md)
 - BRCA1 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to [RB1](../genes/RB1.md) loss/E2F1 activation); homozygous deleterious BRCA1 events were used as part of the DNA-repair-defect classifier predicting longer [carboplatin](../drugs/carboplatin.md) response (P = 0.02) [PMID:26928463](../papers/26928463.md)
 - Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort; flagged as cross-cancer driver [PMID:27161491](../papers/27161491.md)
-- BRCA1 pathogenic germline variants enriched in young lung cancer (OR=4.1); specific variant p.Cys47Arg reported by Donner et al. [PMID:27346245](../papers/27346245.md)
+- BRCA1 pathogenic germline variants enriched in young lung cancer (OR=4.1); specific variant p.Cys47Arg reported by Donner et al. [PMID:40958859](../papers/40958859.md)
 - Germline BRCA1 frameshift variants found in two pediatric patients (nested stromal epithelial liver tumor and ependymoma); returned as ACMG secondary findings with breast-cancer health-maintenance flag [PMID:28007021](../papers/28007021.md)
-- BRCA1 is recruited to DSBs via [TRMT10A](../genes/TRMT10A.md) pSer28; BRCA1 recruitment (but not protein abundance) is impaired by [TRMT10A](../genes/TRMT10A.md) or [USP10](../genes/USP10.md) loss, and BRCA1 knockdown phenocopies [TRMT10A](../genes/TRMT10A.md) loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
+- BRCA1 is recruited to DSBs via [TRMT10A](../genes/TRMT10A.md) pSer28; BRCA1 recruitment (but not protein abundance) is impaired by [TRMT10A](../genes/TRMT10A.md) or [USP10](../genes/USP10.md) loss, and BRCA1 knockdown phenocopies [TRMT10A](../genes/TRMT10A.md) loss for PARPi sensitivity in prostate cancer [PMID:41071892](../papers/41071892.md)
 - 3 likely-inactivating truncating mutations (0.3%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on [olaparib](../drugs/olaparib.md) approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
 - BRCA1 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
@@ -67,7 +67,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale [PMID:28825054](../papers/28825054.md)
 - placeholder
 - Alterations in BRCA1 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
-- One missense [BRCA1](../genes/BRCA1.md) LP/PV was identified in a pediatric cancer predisposition cohort (n=372); burden test was non-significant (OR=1.9, p=0.406). [PMID:29489754](../papers/29489754.md)
+- One missense [BRCA1](../genes/BRCA1.md) LP/PV was identified in a pediatric cancer predisposition cohort (n=372); burden test was non-significant (OR=1.9, p=0.406). [PMID:40857049](../papers/40857049.md)
 - BRCA1 somatic mutations total 854 events (571 samples) plus 153 germline mutations (152 samples) across 33 TCGA tumor types; germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; somatic BRCA1/2 mutants down-regulate antigen-processing and leukocyte-cytotoxicity programs, while germline carriers down-regulate mitochondrial respiratory-chain and metabolic programs [PMID:29625049](../papers/29625049.md)
 - BRCA1 is included in the 57% pan-cancer actionability figure (versus 52% when restricted to the 10 canonical pathways), contributing to the rationale for germline/somatic testing in therapeutic planning [PMID:29625050](../papers/29625050.md)
 - Germline pathogenic mutations affect 10.8% of Korean breast cancer patients ([brca_smc_2018](../datasets/brca_smc_2018.md)) vs. 4.7% of TCGA (LR p=0.0027); strongly associated with HRD mutational signature S3 (MLR p=2.0e-08) and TNBC (MLR p=5.1e-39) [PMID:29713003](../papers/29713003.md)
@@ -140,7 +140,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
@@ -164,16 +164,16 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
@@ -194,13 +194,13 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 
@@ -226,7 +226,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)

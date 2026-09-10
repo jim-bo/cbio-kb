@@ -26,8 +26,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Mutations including codon 761 (likely activating) and copy-number gain in [SCLC](../cancer_types/SCLC.md) (36 tumors, JHU WES/WGS) [PMID:22941189](../papers/22941189.md)
 - Copy-number amplification in Basal-like breast cancer; listed among druggable RTK targets (alongside FGFR1/2, [IGF1R](../genes/IGF1R.md), [MET](../genes/MET.md), [PDGFRA](../genes/PDGFRA.md)) in TCGA 510-tumor analysis [PMID:23000897](../papers/23000897.md)
 - Non-FLT3 activated signaling gene contributing to the 59% signaling-pathway prevalence in [AML](../cancer_types/AML.md); part of the KIT/KRAS/NRAS/PTPN11 non-FLT3 signaling subgroup; already incorporated in current [AML](../cancer_types/AML.md) classification alongside [FLT3](../genes/FLT3.md), [NPM1](../genes/NPM1.md), and [CEBPA](../genes/CEBPA.md) [PMID:23634996](../papers/23634996.md)
-- KIT-high (by IHC) status showed a non-significant trend toward greater [sorafenib](../drugs/sorafenib.md) benefit in the SHARP biomarker substudy in [HCC](../cancer_types/HCC.md) (combined with low plasma [HGF](../genes/HGF.md)), but no predictive biomarker for [sorafenib](../drugs/sorafenib.md) has been validated. [PMID:24798001](../papers/24798001.md)
-- KIT mutations occur in ~10% of thymic carcinomas (literature context); three GTF2I-mutant thymic carcinomas in the study cohort were all KIT-positive by IHC, including two squamous cell and one undifferentiated carcinoma. [PMID:24952746](../papers/24952746.md)
+- KIT-high (by IHC) status showed a non-significant trend toward greater [sorafenib](../drugs/sorafenib.md) benefit in the SHARP biomarker substudy in [HCC](../cancer_types/HCC.md) (combined with low plasma [HGF](../genes/HGF.md)), but no predictive biomarker for [sorafenib](../drugs/sorafenib.md) has been validated. [PMID:30061739](../papers/30061739.md)
+- KIT mutations occur in ~10% of thymic carcinomas (literature context); three GTF2I-mutant thymic carcinomas in the study cohort were all KIT-positive by IHC, including two squamous cell and one undifferentiated carcinoma. [PMID:41002550](../papers/41002550.md)
 - KIT mutations occur in ~10% of thymic carcinomas (literature); all three GTF2I-mutant thymic carcinomas in this NCI cohort were KIT-positive by IHC; cited as a potential targetable lesion but not directly evaluated for targeted therapy response in this study. [PMID:24974848](../papers/24974848.md)
 - KIT E562D (exon 11, canonical [GIST](../cancer_types/GIST.md) hotspot region) was identified as an activating oncogene mutation in metastatic cutaneous squamous cell carcinoma (n=29 lymph-node metastases); activating events across 12 oncogenes were nearly mutually exclusive. [PMID:25589618](../papers/25589618.md)
 - KIT alteration in 1% of [HCC](../cancer_types/HCC.md) (243-case European WES cohort); listed as FDA-targetable alteration in the [HCC](../cancer_types/HCC.md) druggable landscape [PMID:25822088](../papers/25822088.md)
@@ -100,10 +100,10 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:23634996](../papers/23634996.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)

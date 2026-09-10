@@ -17,7 +17,7 @@ processed_at: 2026-05-14
 
 ## Used by
 
-- Used in endometrial polyp genomic characterization to quantify gene expression from 25 polyps and 6 normal endometrium samples, enabling identification of HMGA1/HMGA2 rearrangement-driven expression changes including [PLAG1](../genes/PLAG1.md) and [ZMAT3](../genes/ZMAT3.md) upregulation [PMID:28445112](../papers/28445112.md)
+- Used in endometrial polyp genomic characterization to quantify gene expression from 25 polyps and 6 normal endometrium samples, enabling identification of HMGA1/HMGA2 rearrangement-driven expression changes including [PLAG1](../genes/PLAG1.md) and [ZMAT3](../genes/ZMAT3.md) upregulation [PMID:41137179](../papers/41137179.md)
 
 ## Notes
 
@@ -28,6 +28,6 @@ processed_at: 2026-05-14
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -24,11 +24,11 @@ Primary liver cancer of hepatocellular origin.
 - cfDNA profiling via [MSK-ACCESS](../methods/ACCESS129.md) (129-gene panel) detects alterations in 92.2% of advanced HCC patients (N=51); most frequently mutated genes: [TERT](../genes/TERT.md) promoter 57%, [TP53](../genes/TP53.md) 47%, [CTNNB1](../genes/CTNNB1.md) 37%, [ARID1A](../genes/ARID1A.md) 18%, [TSC2](../genes/TSC2.md) 14% [PMID:37769223](../papers/37769223.md).
 - Plasma-tissue concordance 92.5% in matched samples; 27% of paired samples harbored cfDNA-exclusive alterations, of which 40% were OncoKB actionable [PMID:37769223](../papers/37769223.md).
 - WNT-beta-catenin pathway altered in 45% and PI3K-AKT-mTOR pathway in 25% of HCC cfDNA cases; actionable [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) alterations in 18% [PMID:37769223](../papers/37769223.md).
-- Genomic review identified [TERT](../genes/TERT.md) promoter mutations, [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) as top recurrent alterations in HCC with Wnt and mTOR as key therapeutic pathways [PMID:22634756](../papers/22634756.md)
-- Narrative review cataloguing HCC driver genes ([TERT](../genes/TERT.md) promoter ~59%, [TP53](../genes/TP53.md) ~30%, [CTNNB1](../genes/CTNNB1.md) ~30%); [TERT](../genes/TERT.md) promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials ([sorafenib](../drugs/sorafenib.md), [tivantinib](../drugs/tivantinib.md), [everolimus](../drugs/everolimus.md), [refametinib](../drugs/refametinib.md)) [PMID:24735922](../papers/24735922.md)
-- Comprehensive review (n=1,289 WES patients) identified [TERT](../genes/TERT.md) promoter mutation (54%), [CTNNB1](../genes/CTNNB1.md) (29%), and [TP53](../genes/TP53.md) (28%) as the most frequent somatic drivers; ~25% of HCCs harbour potentially targetable alterations; [sorafenib](../drugs/sorafenib.md) and [lenvatinib](../drugs/lenvatinib.md) are first-line standards with [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), and [ramucirumab](../drugs/ramucirumab.md) (AFP≥400 ng/ml) as approved second-line options [PMID:24798001](../papers/24798001.md)
-- Narrative review notes overlap of HCC with cholangiocarcinoma (combined hepatocellular-cholangiocarcinoma); HBV DNA integration near [TERT](../genes/TERT.md), [MET](../genes/MET.md), [ALKBH5](../genes/ALKBH5.md), and [FAT2](../genes/FAT2.md) is a shared oncogenic mechanism across HBV-associated HCC and iCCA [PMID:25526346](../papers/25526346.md).
-- Review references HCC in the context of differentiating CCA from HCC: oral microbiota three-bacterial-biomarker classifier (AUC=0.981) distinguishes iCCA from HCC; BA-panel diagnostics also outperform CA19-9 for CCA vs HCC; prolonged broad-spectrum antibiotic use correlates with reduced survival in HCC patients on anti-PD-1 therapy. [PMID:25608663](../papers/25608663.md)
+- Genomic review identified [TERT](../genes/TERT.md) promoter mutations, [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) as top recurrent alterations in HCC with Wnt and mTOR as key therapeutic pathways [PMID:41112515](../papers/41112515.md)
+- Narrative review cataloguing HCC driver genes ([TERT](../genes/TERT.md) promoter ~59%, [TP53](../genes/TP53.md) ~30%, [CTNNB1](../genes/CTNNB1.md) ~30%); [TERT](../genes/TERT.md) promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials ([sorafenib](../drugs/sorafenib.md), [tivantinib](../drugs/tivantinib.md), [everolimus](../drugs/everolimus.md), [refametinib](../drugs/refametinib.md)) [PMID:25369299](../papers/25369299.md)
+- Comprehensive review (n=1,289 WES patients) identified [TERT](../genes/TERT.md) promoter mutation (54%), [CTNNB1](../genes/CTNNB1.md) (29%), and [TP53](../genes/TP53.md) (28%) as the most frequent somatic drivers; ~25% of HCCs harbour potentially targetable alterations; [sorafenib](../drugs/sorafenib.md) and [lenvatinib](../drugs/lenvatinib.md) are first-line standards with [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), and [ramucirumab](../drugs/ramucirumab.md) (AFP≥400 ng/ml) as approved second-line options [PMID:30061739](../papers/30061739.md)
+- Narrative review notes overlap of HCC with cholangiocarcinoma (combined hepatocellular-cholangiocarcinoma); HBV DNA integration near [TERT](../genes/TERT.md), [MET](../genes/MET.md), [ALKBH5](../genes/ALKBH5.md), and [FAT2](../genes/FAT2.md) is a shared oncogenic mechanism across HBV-associated HCC and iCCA [PMID:41008893](../papers/41008893.md).
+- Review references HCC in the context of differentiating CCA from HCC: oral microbiota three-bacterial-biomarker classifier (AUC=0.981) distinguishes iCCA from HCC; BA-panel diagnostics also outperform CA19-9 for CCA vs HCC; prolonged broad-spectrum antibiotic use correlates with reduced survival in HCC patients on anti-PD-1 therapy. [PMID:41018102](../papers/41018102.md)
 - Whole-exome sequencing of 243 European HCC identified 161 putative driver genes in 11 pathways; [TERT](../genes/TERT.md) activation (60%), WNT/β-catenin (54%), PI3K/AKT/mTOR (51%), and TP53/cell-cycle (49%) are most frequent; 28% of HCC harbor FDA-targetable alterations; [CDKN2A](../genes/CDKN2A.md) inactivation and FGF3/4/19/CCND1 amplification independently predict poor overall survival; two novel mutational signatures 23 and 24 discovered (signature 24 linked to aflatoxin B1/HBV) [PMID:25822088](../papers/25822088.md)
 - PIPseq cohort included hepatocellular carcinoma cases; [UGT1A1](../genes/UGT1A1.md) homozygous *28 (TA)7TAA allele identified as pharmacogenomic flag for irinotecan/SN-38 toxicity [PMID:28007021](../papers/28007021.md)
 - Pan-cancer aneuploidy study placed HCC in the epithelial arm-level cluster (alongside [LUAD](../cancer_types/LUAD.md) and [BRCA](../cancer_types/BRCA.md)) defined by 1q gain; HCC arm-level alteration patterns were used in the per-tumor-type aneuploidy analysis [PMID:29622463](../papers/29622463.md)
@@ -38,7 +38,7 @@ Primary liver cancer of hepatocellular origin.
 - Included in PCAWG (n=2,658 WGS); hepatocellular carcinoma showed [TP53](../genes/TP53.md) association with chromothripsis (HCC OR=3.9) [PMID:32025007](../papers/32025007.md).
 - Integrated (phospho)proteogenomic characterization of 122 HCC biopsies from 114 systemically-untreated patients (Basel, 2008–2018; [hcc_meric_2021](../datasets/hcc_meric_2021.md)); 7 SMGs identified including novel [GPAM](../genes/GPAM.md) candidate tumor suppressor; 3 integrative iCluster subtypes defined with [OS](../cancer_types/OS.md) associations [PMID:35508466](../papers/35508466.md)
 - A multi-omics review (Babu & Snyder 2023) cites integration of CNV, DNA methylation, and gene expression across 256 HCC samples (Liu et al. 2016) as a landmark example, identifying five molecular subgroups with distinct survival outcomes [PMID:37119971](../papers/37119971.md)
-- A narrative review of lipid metabolism reprogramming in HCC (Wong, Kong, Ma) finds that ~75% of HCC patients fail current SoC ([atezolizumab](../drugs/atezolizumab.md)+[bevacizumab](../drugs/bevacizumab.md) ORR 26–28%; [lenvatinib](../drugs/lenvatinib.md) ORR 16–23%); six lipid metabolic axes (uptake, DNL, FAO, ferroptosis suppression, bioactive lipid signaling, cholesterol synthesis) drive TKI/ICI/radiotherapy resistance, and key dominant HCC drivers include [TERT](../genes/TERT.md), [TP53](../genes/TP53.md), and [CTNNB1](../genes/CTNNB1.md) (>25% of patients), with CTNNB1-active HCC addicted to CPT1A-mediated FAO [PMID:38355797](../papers/38355797.md)
+- A narrative review of lipid metabolism reprogramming in HCC (Wong, Kong, Ma) finds that ~75% of HCC patients fail current SoC ([atezolizumab](../drugs/atezolizumab.md)+[bevacizumab](../drugs/bevacizumab.md) ORR 26–28%; [lenvatinib](../drugs/lenvatinib.md) ORR 16–23%); six lipid metabolic axes (uptake, DNL, FAO, ferroptosis suppression, bioactive lipid signaling, cholesterol synthesis) drive TKI/ICI/radiotherapy resistance, and key dominant HCC drivers include [TERT](../genes/TERT.md), [TP53](../genes/TP53.md), and [CTNNB1](../genes/CTNNB1.md) (>25% of patients), with CTNNB1-active HCC addicted to CPT1A-mediated FAO [PMID:41118283](../papers/41118283.md)
 
 ## Subtypes
 
@@ -48,11 +48,11 @@ Primary liver cancer of hepatocellular origin.
 
 ## Sources
 
-- [PMID:22634756](../papers/22634756.md)
-- [PMID:24735922](../papers/24735922.md)
-- [PMID:24798001](../papers/24798001.md)
-- [PMID:25526346](../papers/25526346.md)
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41112515](../papers/41112515.md)
+- [PMID:25369299](../papers/25369299.md)
+- [PMID:30061739](../papers/30061739.md)
+- [PMID:41008893](../papers/41008893.md)
+- [PMID:41018102](../papers/41018102.md)
 - [PMID:25822088](../papers/25822088.md)
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:29622463](../papers/29622463.md)
@@ -63,7 +63,7 @@ Primary liver cancer of hepatocellular origin.
 - [PMID:35508466](../papers/35508466.md)
 - [PMID:37119971](../papers/37119971.md)
 - [PMID:37769223](../papers/37769223.md)
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 - [PMID:38864854](../papers/38864854.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

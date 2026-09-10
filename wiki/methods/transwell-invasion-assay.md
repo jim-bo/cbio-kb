@@ -17,8 +17,8 @@ The transwell invasion assay (Boyden chamber assay) measures the ability of canc
 
 ## Used by
 
-- Used in GBC cell lines (GBC-SD, NOZ) to measure invasive capacity; conditioned medium from stiff-matrix-activated gallbladder fibroblasts increased invasion, an effect abrogated by SEMA7A knockdown in fibroblasts; recombinant human SEMA7A rescued invasion via ITGB1 binding (RGD motif dependent) and was blocked by integrin β1 neutralizing antibody or RGD peptide [PMID:24997986](../papers/24997986.md)
-- Transwell migration assay (Boyden chamber) in SW480 and RKO CRC cell lines showed CGREF1 siRNA knockdown significantly attenuated cell migration without affecting proliferation; wound-healing assay confirmed the finding [PMID:32888432](../papers/32888432.md)
+- Used in GBC cell lines (GBC-SD, NOZ) to measure invasive capacity; conditioned medium from stiff-matrix-activated gallbladder fibroblasts increased invasion, an effect abrogated by SEMA7A knockdown in fibroblasts; recombinant human SEMA7A rescued invasion via ITGB1 binding (RGD motif dependent) and was blocked by integrin β1 neutralizing antibody or RGD peptide [PMID:40830485](../papers/40830485.md)
+- Transwell migration assay (Boyden chamber) in SW480 and RKO CRC cell lines showed CGREF1 siRNA knockdown significantly attenuated cell migration without affecting proliferation; wound-healing assay confirmed the finding [PMID:41125935](../papers/41125935.md)
 
 ## Notes
 
@@ -29,6 +29,6 @@ The transwell invasion assay (Boyden chamber assay) measures the ability of canc
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
-- [PMID:32888432](../papers/32888432.md)
+- [PMID:41125935](../papers/41125935.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -15,15 +15,15 @@ ALKBH5 (AlkB Homolog 5, RNA Demethylase) encodes an RNA N6-methyladenosine (m6A)
 
 ## Alterations observed in the corpus
 
-- Recurrent HBV integration site in intrahepatic cholangiocarcinoma; HBV DNA integration near ALKBH5 observed alongside insertions near [TERT](../genes/TERT.md), [MET](../genes/MET.md), and [FAT2](../genes/FAT2.md) in 41 iCCA patients including HBV-positive cases [PMID:25526346](../papers/25526346.md)
+- Recurrent HBV integration site in intrahepatic cholangiocarcinoma; HBV DNA integration near ALKBH5 observed alongside insertions near [TERT](../genes/TERT.md), [MET](../genes/MET.md), and [FAT2](../genes/FAT2.md) in 41 iCCA patients including HBV-positive cases [PMID:41008893](../papers/41008893.md)
 
 ## Cancer types (linked)
 
-- **Intrahepatic cholangiocarcinoma (ICCA):** Recurrent HBV integration target in HBV-positive iCCA cohort; integration near ALKBH5 may contribute to transcriptional dysregulation [PMID:25526346](../papers/25526346.md)
+- **Intrahepatic cholangiocarcinoma (ICCA):** Recurrent HBV integration target in HBV-positive iCCA cohort; integration near ALKBH5 may contribute to transcriptional dysregulation [PMID:41008893](../papers/41008893.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- HBV integration events near ALKBH5 co-occur with insertions near [TERT](../genes/TERT.md) (promoter hyperactivation), [MET](../genes/MET.md), and [FAT2](../genes/FAT2.md) in HBV-associated iCCA [PMID:25526346](../papers/25526346.md)
+- HBV integration events near ALKBH5 co-occur with insertions near [TERT](../genes/TERT.md) (promoter hyperactivation), [MET](../genes/MET.md), and [FAT2](../genes/FAT2.md) in HBV-associated iCCA [PMID:41008893](../papers/41008893.md)
 
 ## Therapeutic relevance
 
@@ -36,6 +36,6 @@ ALKBH5 (AlkB Homolog 5, RNA Demethylase) encodes an RNA N6-methyladenosine (m6A)
 
 ## Sources
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

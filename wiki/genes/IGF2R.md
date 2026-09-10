@@ -18,28 +18,28 @@ IGF2R (Insulin-like Growth Factor 2 Receptor; also mannose-6-phosphate receptor,
 
 ## Alterations observed in the corpus
 
-- ~25% allelic loss of IGF2R in HCC; part of the IGF axis (with ~10% IGF2 overexpression and ~21% IGF1R activation) implicated as a therapeutic target in HCC [PMID:24735922](../papers/24735922.md)
-- IGF2R is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), as part of the broader mutational characterization of the IGF signaling axis. [PMID:24798001](../papers/24798001.md)
+- ~25% allelic loss of IGF2R in HCC; part of the IGF axis (with ~10% IGF2 overexpression and ~21% IGF1R activation) implicated as a therapeutic target in HCC [PMID:25369299](../papers/25369299.md)
+- IGF2R is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), as part of the broader mutational characterization of the IGF signaling axis. [PMID:30061739](../papers/30061739.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — allelic loss in ~25% of HCC, contributing to IGF axis hyperactivation [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md) — allelic loss in ~25% of HCC, contributing to IGF axis hyperactivation [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with IGF2 overexpression (~10%) and IGF1R activation (~21%) as components of a deregulated IGF axis in HCC [PMID:24735922](../papers/24735922.md)
+- Co-occurs with IGF2 overexpression (~10%) and IGF1R activation (~21%) as components of a deregulated IGF axis in HCC [PMID:25369299](../papers/25369299.md)
 
 ## Therapeutic relevance
 
-- IGF axis targeting (via IGF1R inhibitors) is a therapeutic strategy in HCC; IGF2R allelic loss contributes to the mechanistic rationale [PMID:24735922](../papers/24735922.md)
+- IGF axis targeting (via IGF1R inhibitors) is a therapeutic strategy in HCC; IGF2R allelic loss contributes to the mechanistic rationale [PMID:25369299](../papers/25369299.md)
 
 ## Open questions
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

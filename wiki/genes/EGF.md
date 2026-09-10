@@ -16,17 +16,17 @@ EGF (Epidermal Growth Factor) encodes the ligand for EGFR and is a key activator
 
 ## Alterations observed in the corpus
 
-- rs4444903 SNP (EGF promoter) — candidate-gene variant associated with elevated HCC risk in cirrhotic Caucasian patients; identified in a 2014 HCC molecular profiling review [PMID:24735922](../papers/24735922.md)
+- rs4444903 SNP (EGF promoter) — candidate-gene variant associated with elevated HCC risk in cirrhotic Caucasian patients; identified in a 2014 HCC molecular profiling review [PMID:25369299](../papers/25369299.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — EGF promoter polymorphism rs4444903 associated with increased HCC risk in cirrhotic patients [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md) — EGF promoter polymorphism rs4444903 associated with increased HCC risk in cirrhotic patients [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
 ## Therapeutic relevance
 
-- EGFR-targeting agents are relevant given EGF as the cognate ligand; pathway universally activated in advanced HCC [PMID:24735922](../papers/24735922.md)
+- EGFR-targeting agents are relevant given EGF as the cognate ligand; pathway universally activated in advanced HCC [PMID:25369299](../papers/25369299.md)
 
 ## Open questions
 
@@ -34,6 +34,6 @@ EGF (Epidermal Growth Factor) encodes the ligand for EGFR and is a key activator
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

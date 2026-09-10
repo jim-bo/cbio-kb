@@ -17,7 +17,7 @@ SpliceAI is a deep residual neural network that predicts the impact of genetic v
 
 ## Used by
 
-- Applied to assess splice-site impact of somatic variants in endometrial polyps; [HMGA1](../genes/HMGA1.md) c.268C>G p.(Leu90Val) received a weak SpliceAI donor-site loss score of 0.25, flagging a possible but low-confidence splice effect [PMID:28445112](../papers/28445112.md)
+- Applied to assess splice-site impact of somatic variants in endometrial polyps; [HMGA1](../genes/HMGA1.md) c.268C>G p.(Leu90Val) received a weak SpliceAI donor-site loss score of 0.25, flagging a possible but low-confidence splice effect [PMID:41137179](../papers/41137179.md)
 
 ## Notes
 
@@ -27,6 +27,6 @@ SpliceAI is a deep residual neural network that predicts the impact of genetic v
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

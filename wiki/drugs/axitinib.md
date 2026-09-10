@@ -25,15 +25,15 @@ Axitinib is a selective inhibitor of vascular endothelial growth factor receptor
 
 ## Evidence in the corpus
 
-- Patients classified as ICI/ICI-combo-preferred by the HiTME model had significantly longer PFS with avelumab+axitinib vs. [sunitinib](../drugs/sunitinib.md) (JAVELIN Renal 101, p = 0.000007) [PMID:22138691](../papers/22138691.md).
-- The TKI response model (which includes axitinib-based regimens) achieved ROC-AUC = 0.74 on validation (n = 822), outperforming single-biomarker signatures [PMID:22138691](../papers/22138691.md).
-- JAVELIN Renal 101 (avelumab+axitinib) was one of the clinical trial datasets used to train and validate the ccRCC IO/TKI response decision-tree model [PMID:22138691](../papers/22138691.md).
-- Cited as a VEGFR2-targeting TKI among anti-angiogenic agents under investigation in R/M NPC [PMID:24952746](../papers/24952746.md)
+- Patients classified as ICI/ICI-combo-preferred by the HiTME model had significantly longer PFS with avelumab+axitinib vs. [sunitinib](../drugs/sunitinib.md) (JAVELIN Renal 101, p = 0.000007) [PMID:40834854](../papers/40834854.md).
+- The TKI response model (which includes axitinib-based regimens) achieved ROC-AUC = 0.74 on validation (n = 822), outperforming single-biomarker signatures [PMID:40834854](../papers/40834854.md).
+- JAVELIN Renal 101 (avelumab+axitinib) was one of the clinical trial datasets used to train and validate the ccRCC IO/TKI response decision-tree model [PMID:40834854](../papers/40834854.md).
+- Cited as a VEGFR2-targeting TKI among anti-angiogenic agents under investigation in R/M NPC [PMID:41002550](../papers/41002550.md)
 - Cited in an integrated genomic analysis of 868 R/M adenoid cystic carcinoma (ACC) cases as a multikinase inhibitor with prior phase II evidence of activity in 4q12-amplified ACC, illustrating the need for predictive biomarkers to select ACC patients likely to benefit from tyrosine-kinase inhibition [PMID:31483290](../papers/31483290.md)
 
 ## Resistance mechanisms
 
-- [BAP1](../genes/BAP1.md) and [SETD2](../genes/SETD2.md) mutations associated with TKI non-response in ccRCC [PMID:22138691](../papers/22138691.md).
+- [BAP1](../genes/BAP1.md) and [SETD2](../genes/SETD2.md) mutations associated with TKI non-response in ccRCC [PMID:40834854](../papers/40834854.md).
 
 ## Cancer types (linked)
 
@@ -41,10 +41,10 @@ Axitinib is a selective inhibitor of vascular endothelial growth factor receptor
 
 ## Sources
 
-- [PMID:22138691](../papers/22138691.md)
+- [PMID:40834854](../papers/40834854.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:31483290](../papers/31483290.md)

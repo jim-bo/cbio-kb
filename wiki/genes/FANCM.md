@@ -18,8 +18,8 @@ FANCM (FA Complementation Group M) encodes a DNA translocase component of the Fa
 - Splice-site/frameshift mutations in 2/22 gynaecologic carcinosarcoma cases; identified by whole-exome sequencing [PMID:25233892](../papers/25233892.md).
 - Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
 - FANCM is included in the FA pathway gene classifier used to identify carboplatin-responsive mCRPC; homozygous deleterious FANCM events associate with longer time on carboplatin (log-rank P = 0.02 for the full FA/ATM group) [PMID:26928463](../papers/26928463.md)
-- FANCM identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCA, FANCI, LZTR1, and XRCC3 [PMID:27346245](../papers/27346245.md)
-- One pLoF LP/PV identified by WES of 25 HBOC-related candidate genes in 372 pediatric cancer patients; burden OR=2.2, p=0.370 (non-significant single-cohort). [PMID:29489754](../papers/29489754.md)
+- FANCM identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCA, FANCI, LZTR1, and XRCC3 [PMID:40958859](../papers/40958859.md)
+- One pLoF LP/PV identified by WES of 25 HBOC-related candidate genes in 372 pediatric cancer patients; burden OR=2.2, p=0.370 (non-significant single-cohort). [PMID:40857049](../papers/40857049.md)
 
 ## Cancer types (linked)
 
@@ -47,9 +47,9 @@ FANCM (FA Complementation Group M) encodes a DNA translocase component of the Fa
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

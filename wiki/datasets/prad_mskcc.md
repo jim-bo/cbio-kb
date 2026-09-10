@@ -52,7 +52,7 @@ Integrative genomic profiling of 218 prostate cancers (181 primary tumors and 37
 - Low somatic mutation rate (~0.31 mutations/Mb); [TP53](../genes/TP53.md) and [PTEN](../genes/PTEN.md) primarily lost through copy-number deletion rather than point mutation [PMID:20579941](../papers/20579941.md)
 - Used as a validation cohort for somatic copy-number alteration and mutation profiling in metastatic castration-resistant prostate cancer [PMID:25024180](../papers/25024180.md)
 - Referenced as a comparison cohort (218 cases, Taylor 2010) in the MSK-IMPACT prospective prostate cancer profiling study for contextualizing DDR gene alteration frequencies [PMID:28825054](../papers/28825054.md).
-- Used (Taylor 2010 / GSE21034, n=140) in a fixed-effects BCR meta-analysis across CPGEA / MSKCC / TCGA / DKFZ yielding HR=2.49 (1.85–3.35, P=1.81e-9) for the NOL10 cell-cycle signature; also used for NOL10–EMT/AR signature correlation (n=150) [PMID:28927585](../papers/28927585.md).
+- Used (Taylor 2010 / GSE21034, n=140) in a fixed-effects BCR meta-analysis across CPGEA / MSKCC / TCGA / DKFZ yielding HR=2.49 (1.85–3.35, P=1.81e-9) for the NOL10 cell-cycle signature; also used for NOL10–EMT/AR signature correlation (n=150) [PMID:41062477](../papers/41062477.md).
 
 ## Sources
 
@@ -67,6 +67,6 @@ Integrative genomic profiling of 218 prostate cancers (181 primary tumors and 37
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

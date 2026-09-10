@@ -24,7 +24,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - [BRAF](../genes/BRAF.md) V600E mutations confirmed as most frequent driver (~50%) in cutaneous melanomas (Yale, n=147); vemurafenib cited alongside [dabrafenib](../drugs/dabrafenib.md) as BRAF-targeted therapies with known clinical benefit [PMID:22842228](../papers/22842228.md)
 - [BRAF](../genes/BRAF.md) V600E occurs in 1.7% (5/291) of primary [GBM](../cancer_types/GBM.md) and is never co-occurring with [NF1](../genes/NF1.md) alteration; the TCGA [GBM](../cancer_types/GBM.md) 2013 analysis cites [BRAF](../genes/BRAF.md) V600E as a rationale for vemurafenib-class therapy in a small molecularly selected [GBM](../cancer_types/GBM.md) subset [PMID:24120142](../papers/24120142.md).
 - WES of 45 [BRAF](../genes/BRAF.md) V600 melanoma patients treated with vemurafenib or [dabrafenib](../drugs/dabrafenib.md) (DeCOG cohort) identified resistance alterations in 23/45 patients (51%), including MAP2K1/MAP2K2 mutations and [MITF](../genes/MITF.md) amplification conferring cross-resistance to RAF/MEK inhibition [PMID:24265153](../papers/24265153.md)
-- Referenced as an acquired-resistance [paradigm](../methods/paradigm.md) (BRAF-mutant melanoma + vemurafenib) to motivate combination regimens and second-generation inhibitors for [HCC](../cancer_types/HCC.md) targeted therapy [PMID:24735922](../papers/24735922.md)
+- Referenced as an acquired-resistance [paradigm](../methods/paradigm.md) (BRAF-mutant melanoma + vemurafenib) to motivate combination regimens and second-generation inhibitors for [HCC](../cancer_types/HCC.md) targeted therapy [PMID:25369299](../papers/25369299.md)
 - [BRAF](../genes/BRAF.md) V600E mutations occur in 3% of pancreatic ductal adenocarcinomas (mutually exclusive with [KRAS](../genes/KRAS.md)); patient-derived cell line PDA_014 (BRAF V600E) was as sensitive to vemurafenib (PLX-4032) as MNT1 melanoma control cells across ERK phosphorylation, cell-cycle, and viability assays [PMID:25855536](../papers/25855536.md)
 - Vemurafenib is one of three FDA-approved BRAF-targeted therapies (with [dabrafenib](../drugs/dabrafenib.md) and [trametinib](../drugs/trametinib.md)) for the BRAF-mutant subtype of melanoma (52% of 318 TCGA cases; V600E/K/R mutations); BRAF non-hot-spot mutations and fusions (ATG7-BRAF, TAX1BP1-BRAF) also identified in TCGA melanoma cohort [PMID:26091043](../papers/26091043.md)
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including vemurafenib, [dabrafenib](../drugs/dabrafenib.md), or [trametinib](../drugs/trametinib.md); MAPKi-induced transcriptional programs overlap substantially with the IPRES innate anti-PD-1 resistance signature, raising concern that prior/concurrent vemurafenib therapy may compromise subsequent anti-PD-1 response in [BRAF](../genes/BRAF.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
@@ -64,7 +64,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - [PMID:24265153](../papers/24265153.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)

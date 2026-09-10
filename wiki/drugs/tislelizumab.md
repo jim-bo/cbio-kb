@@ -17,7 +17,7 @@ Tislelizumab is an anti-PD-1 monoclonal antibody targeting [PDCD1](../genes/PDCD
 
 ## Evidence in the corpus
 
-- Tislelizumab listed among anti-PD-1/PD-L1 immune checkpoint inhibitors under investigation for recurrent/metastatic NPC; PD-1/PD-L1 monotherapy ORR approximately 15–20% in NPC [PMID:24952746](../papers/24952746.md).
+- Tislelizumab listed among anti-PD-1/PD-L1 immune checkpoint inhibitors under investigation for recurrent/metastatic NPC; PD-1/PD-L1 monotherapy ORR approximately 15–20% in NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

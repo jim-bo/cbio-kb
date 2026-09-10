@@ -15,11 +15,11 @@ BMPR1A encodes bone morphogenetic protein receptor type 1A, a serine/threonine k
 
 ## Alterations observed in the corpus
 
-- Germline BMPR1A loss-of-function defines juvenile polyposis syndrome; included in the standard multigene panel for hereditary/familial gastric cancer (FNHGC) risk assessment — must be excluded before FNHGC labeling [PMID:24816255](../papers/24816255.md)
+- Germline BMPR1A loss-of-function defines juvenile polyposis syndrome; included in the standard multigene panel for hereditary/familial gastric cancer (FNHGC) risk assessment — must be excluded before FNHGC labeling [PMID:41097736](../papers/41097736.md)
 
 ## Cancer types (linked)
 
-- **STAD**: Juvenile polyposis (BMPR1A germline) confers elevated gastric cancer risk; BMPR1A is part of the recommended GC multigene panel [PMID:24816255](../papers/24816255.md)
+- **STAD**: Juvenile polyposis (BMPR1A germline) confers elevated gastric cancer risk; BMPR1A is part of the recommended GC multigene panel [PMID:41097736](../papers/41097736.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -35,6 +35,6 @@ _No conflicts in current corpus._
 
 ## Sources
 
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

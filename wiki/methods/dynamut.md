@@ -17,7 +17,7 @@ DynaMut is a web server and computational tool for predicting the effect of amin
 
 ## Used by
 
-- Applied to predict the structural effect of [UBE2A](../genes/UBE2A.md) p.(Arg6Trp) in endometrial polyps using PDB structure 6CYO; computed ΔΔG = +1.650 kcal/mol, predicting a stabilizing effect consistent with a potential gain-of-function mechanism [PMID:28445112](../papers/28445112.md)
+- Applied to predict the structural effect of [UBE2A](../genes/UBE2A.md) p.(Arg6Trp) in endometrial polyps using PDB structure 6CYO; computed ΔΔG = +1.650 kcal/mol, predicting a stabilizing effect consistent with a potential gain-of-function mechanism [PMID:41137179](../papers/41137179.md)
 
 ## Notes
 
@@ -27,6 +27,6 @@ DynaMut is a web server and computational tool for predicting the effect of amin
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

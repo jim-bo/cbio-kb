@@ -21,8 +21,8 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - KEAP1 mutations detected in plasma ctDNA are associated with the strongest gene-specific VTE risk (adjusted HR = 2.50, 95% CI: 1.62-3.85; n=76 patients with KEAP1 alteration) in a multi-cancer liquid biopsy analysis of 5,765 MSK patients [PMID:39147831](../papers/39147831.md).
 - Loss-of-function mutation in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q < 0.1); mutually exclusive with [NFE2L2](../genes/NFE2L2.md) mutations; NFE2L2/KEAP1/CUL3 pathway altered in 34% of [LUSC](../cancer_types/LUSC.md) tumors [PMID:22960745](../papers/22960745.md)
 - Inactivating mutations in 12% of 183 [LUAD](../cancer_types/LUAD.md) cases; anti-correlated with never/light smoking status [PMID:22980975](../papers/22980975.md)
-- KEAP1 is identified as a driver linked to oxidative-stress signaling in [HCC](../cancer_types/HCC.md) by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
-- KEAP1 loss-of-function mutations occur in ~3% of HCCs (co-listed with [NFE2L2](../genes/NFE2L2.md) at 4%) as part of the oxidative stress/NRF2 pathway alterations in the [HCC](../cancer_types/HCC.md) mutational landscape. [PMID:24798001](../papers/24798001.md)
+- KEAP1 is identified as a driver linked to oxidative-stress signaling in [HCC](../cancer_types/HCC.md) by integrated genomic analysis [PMID:25369299](../papers/25369299.md)
+- KEAP1 loss-of-function mutations occur in ~3% of HCCs (co-listed with [NFE2L2](../genes/NFE2L2.md) at 4%) as part of the oxidative stress/NRF2 pathway alterations in the [HCC](../cancer_types/HCC.md) mutational landscape. [PMID:30061739](../papers/30061739.md)
 - Loss-of-function mutations in 17% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); enriched in oncogene-negative tumours (P < 0.01); co-occurs with [STK11](../genes/STK11.md) as a defining feature of the PP transcriptional subtype [PMID:25079552](../papers/25079552.md)
 - KEAP1 alterations co-occur with [NFE2L2](../genes/NFE2L2.md) and [CUL3](../genes/CUL3.md) in the classical mRNA subtype of [HNSC](../cancer_types/HNSC.md) (TCGA, n=279), associated with heavy smoking and laryngeal sub-site, paralleling the oxidative-stress axis in [LUSC](../cancer_types/LUSC.md). [PMID:25631445](../papers/25631445.md)
 - KEAP1 harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients in a 34-patient [NSCLC](../cancer_types/NSCLC.md) [pembrolizumab](../drugs/pembrolizumab.md) cohort (association not corrected for mutation burden). [PMID:25765070](../papers/25765070.md)
@@ -69,9 +69,9 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 
 - [PMID:22980975](../papers/22980975.md)
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 - [PMID:25079552](../papers/25079552.md)
 

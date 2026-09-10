@@ -20,7 +20,7 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - Elevated mRNA in chromophobe RCC vs normal kidney; APOBEC mutational signature enriched in kataegis-bearing ChRCC cases [PMID:25155756](../papers/25155756.md)
 - APOBEC3B RTCA mutagenesis significantly enriched (P=0.0395) in post-chemotherapy urothelial carcinoma tumors, implicated in chemotherapy-driven mutational editing via increased ssDNA availability during repair [PMID:27749842](../papers/27749842.md)
 - APOBEC3B mutational activity (signatures 2 and 13) nearly doubled in HR+/HER2- metastatic breast cancer vs primary TCGA samples — linked to subclonal mutation acquisition under therapy, suggesting a generalized resistance mechanism [PMID:28027327](../papers/28027327.md)
-- APOBEC3B mutational signature modestly enriched at the NOL10 locus in CPGEA and TCGA PRAD vs. genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer [PMID:28927585](../papers/28927585.md)
+- APOBEC3B mutational signature modestly enriched at the NOL10 locus in CPGEA and TCGA PRAD vs. genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer [PMID:41062477](../papers/41062477.md)
 - Expression correlates with APOBEC-signature mutation load in MIBC; APOBEC3A/3B together account for 67% of all SNVs in the TCGA MIBC cohort (n=412), with their expression as the dominant mutagenic source [PMID:28988769](../papers/28988769.md)
 - APOBEC3B-driven clock-like mutagenesis (signatures 2 and 13) correlates with patient age (p=5.2×10⁻³, ρ=0.17) in 292 prostate cancer WGS samples; kataegis events co-localize with SV breakpoints including TMPRSS2-ERG fusions and PTEN/FOXP1/BRCA2 disruptions; germline APOBEC3B deletion significantly reduces signature 2/13 burden [PMID:30537516](../papers/30537516.md)
 - Germline ~30-kb APOBEC3A–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
@@ -57,7 +57,7 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - [PMID:27749842](../papers/27749842.md)
 
 - [PMID:28027327](../papers/28027327.md)
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

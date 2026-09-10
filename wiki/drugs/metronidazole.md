@@ -20,7 +20,7 @@ Metronidazole is a nitroimidazole antibiotic with activity against anaerobic bac
 
 ## Evidence in the corpus
 
-- Cited among antibiotic-based microbiota-modulation strategies for cholangiocarcinoma adjuvant therapy targeting the gut-liver axis dysbiosis characteristic of CCA; prolonged broad-spectrum antibiotic use (including agents like metronidazole) can paradoxically reduce anti-PD-1 efficacy, requiring careful clinical sequencing [PMID:25608663](../papers/25608663.md)
+- Cited among antibiotic-based microbiota-modulation strategies for cholangiocarcinoma adjuvant therapy targeting the gut-liver axis dysbiosis characteristic of CCA; prolonged broad-spectrum antibiotic use (including agents like metronidazole) can paradoxically reduce anti-PD-1 efficacy, requiring careful clinical sequencing [PMID:41018102](../papers/41018102.md)
 
 ## Resistance mechanisms
 
@@ -30,6 +30,6 @@ Metronidazole is a nitroimidazole antibiotic with activity against anaerobic bac
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

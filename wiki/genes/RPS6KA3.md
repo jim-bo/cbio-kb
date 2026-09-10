@@ -15,13 +15,13 @@ RPS6KA3 (RSK2) encodes ribosomal protein S6 kinase A3, a serine/threonine kinase
 
 ## Alterations observed in the corpus
 
-- RPS6KA3 is listed in the [HCC](../cancer_types/HCC.md) mutational gene catalog from WES of 1,289 patients; individual mutation frequency not separately enumerated in the review text. [PMID:24798001](../papers/24798001.md)
+- RPS6KA3 is listed in the [HCC](../cancer_types/HCC.md) mutational gene catalog from WES of 1,289 patients; individual mutation frequency not separately enumerated in the review text. [PMID:30061739](../papers/30061739.md)
 - Significantly mutated (MutSigCV) in 7% of [HCC](../cancer_types/HCC.md) cases; inactivating mutations shown in vitro to elevate phospho-ERK1/2, indicating RAS/MAPK pathway activation; RPS6KA3-mutated [HCC](../cancer_types/HCC.md) nominated as candidates for MEK/ERK inhibition. [PMID:25822088](../papers/25822088.md)
 - Recurrently mutated in combined hepatocellular-cholangiocarcinoma (cHCC-ICC); associated with extracellular matrix and cell adhesion programs [PMID:31130341](../papers/31130341.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)** — identified in comprehensive WES-based [HCC](../cancer_types/HCC.md) mutational profiling (n=1,289). [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md)** — identified in comprehensive WES-based [HCC](../cancer_types/HCC.md) mutational profiling (n=1,289). [PMID:30061739](../papers/30061739.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,7 +37,7 @@ RPS6KA3 (RSK2) encodes ribosomal protein S6 kinase A3, a serine/threonine kinase
 
 ## Sources
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)

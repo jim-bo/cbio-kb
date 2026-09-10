@@ -16,19 +16,19 @@ MVK (mevalonate kinase) encodes a peroxisomal enzyme that catalyzes an early ste
 
 ## Alterations observed in the corpus
 
-- MVK is overexpressed and prognostic in HCC; MVK is part of the mevalonate/cholesterol biosynthesis pathway dysregulated in hepatocellular carcinoma [PMID:38355797](../papers/38355797.md)
+- MVK is overexpressed and prognostic in HCC; MVK is part of the mevalonate/cholesterol biosynthesis pathway dysregulated in hepatocellular carcinoma [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- **HCC**: MVK overexpression is prognostic; part of the broader cholesterol/lipid metabolism axis targeted in HCC therapy [PMID:38355797](../papers/38355797.md)
+- **HCC**: MVK overexpression is prognostic; part of the broader cholesterol/lipid metabolism axis targeted in HCC therapy [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Part of the cholesterol biosynthesis pathway alongside [HMGCR](../genes/HMGCR.md) and [SQLE](../genes/SQLE.md); upstream of PCSK9/LDLR cholesterol-uptake axis [PMID:38355797](../papers/38355797.md)
+- Part of the cholesterol biosynthesis pathway alongside [HMGCR](../genes/HMGCR.md) and [SQLE](../genes/SQLE.md); upstream of PCSK9/LDLR cholesterol-uptake axis [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- Statins targeting HMGCR (upstream of MVK) are proposed as part of combination strategies with standard-of-care agents in HCC; direct MVK inhibition not yet clinically established [PMID:38355797](../papers/38355797.md)
+- Statins targeting HMGCR (upstream of MVK) are proposed as part of combination strategies with standard-of-care agents in HCC; direct MVK inhibition not yet clinically established [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
@@ -36,6 +36,6 @@ MVK (mevalonate kinase) encodes a peroxisomal enzyme that catalyzes an early ste
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

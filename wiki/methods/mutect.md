@@ -51,7 +51,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - SNV calling pipeline applied alongside SNVseeqer on 72 urothelial carcinoma WES samples; only ~28% of mutations were shared between matched pre/post-chemotherapy tumour pairs. [PMID:27749842](../papers/27749842.md)
 - Used (MuTect v1.1.7) as the primary substitution caller in analysis of 216 metastatic breast cancer whole-exome sequencing datasets, downstream of BWA-MEM alignment and GATK base recalibration [PMID:28027327](../papers/28027327.md).
 - Used MuTect for somatic SNV calling from paired tumor-normal sequencing data [PMID:28373299](../papers/28373299.md)
-- Applied MuTect for somatic mutation calling from paired tumor-normal sequencing [PMID:28445112](../papers/28445112.md)
+- Applied MuTect for somatic mutation calling from paired tumor-normal sequencing [PMID:41137179](../papers/41137179.md)
 - Used as one of three somatic variant callers (MuTect, Pindel, GATK somatic indel detector) in the MSK-IMPACT SNV/indel pipeline; all calls manually reviewed in IGV [PMID:28481359](../papers/28481359.md)
 - Applied for somatic SNV calling on CCA whole-genome and exome sequencing data in the ICGC cholangiocarcinoma cohort (489 tumors across three sequencing platforms) [PMID:28667006](../papers/28667006.md)
 - Used for somatic SNV calling (MuTect v1.1.4) in 1001 DLBCL whole-exome sequencing samples [PMID:28985567](../papers/28985567.md)
@@ -174,7 +174,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)

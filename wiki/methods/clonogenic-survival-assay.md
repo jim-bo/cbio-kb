@@ -17,7 +17,7 @@ The clonogenic survival assay (colony-formation assay) measures the reproductive
 
 ## Used by
 
-- Used to quantify PARP inhibitor ([olaparib](../drugs/olaparib.md)) sensitivity in [TRMT10A](../genes/TRMT10A.md), [USP10](../genes/USP10.md), [BRCA1](../genes/BRCA1.md), and [PARP1](../genes/PARP1.md) shRNA-knockdown LNCaP, C4-2, 22Rv1, DU145, and PC-3 prostate cancer cell lines; TRMT10A knockdown produced PARPi sensitization comparable to BRCA1 knockdown, and TRMT10A overexpression in PC-3 reduced olaparib sensitivity [PMID:28068672](../papers/28068672.md).
+- Used to quantify PARP inhibitor ([olaparib](../drugs/olaparib.md)) sensitivity in [TRMT10A](../genes/TRMT10A.md), [USP10](../genes/USP10.md), [BRCA1](../genes/BRCA1.md), and [PARP1](../genes/PARP1.md) shRNA-knockdown LNCaP, C4-2, 22Rv1, DU145, and PC-3 prostate cancer cell lines; TRMT10A knockdown produced PARPi sensitization comparable to BRCA1 knockdown, and TRMT10A overexpression in PC-3 reduced olaparib sensitivity [PMID:41071892](../papers/41071892.md).
 - Clonogenic and SRB proliferation assays on T47D, MCF7, and BT483 ER+ breast cancer cell lines showed MAP3K1 shRNA knockdown did not sensitize any line to buparlisib in full-serum or estrogen-deprived conditions, refuting the hypothesis that MAP3K1 loss directly drives PI3K-inhibitor sensitivity [PMID:31552290](../papers/31552290.md).
 
 ## Notes

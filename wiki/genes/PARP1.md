@@ -15,38 +15,38 @@ PARP1 (Poly ADP-Ribose Polymerase 1) is a key enzyme in the base excision repair
 
 ## Alterations observed in the corpus
 
-- Screened as a DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; BRCA1/2:PARP1 synthetic lethal interaction used as a conceptual parallel for the FBXO7:[CHEK1](../genes/CHEK1.md) SL pair [PMID:36334560](../papers/36334560.md)
-- Identified as a synthetic lethal partner in ARID1A-mutant ovarian cancer cells, where PARP1 inhibition selectively impairs cell survival [PMID:22037554](../papers/22037554.md)
-- PARP inhibitors (niraparib, fuzuloparib, olaparib) tested in combination with ICI to exploit DNA repair deficiencies in NPC [PMID:24952746](../papers/24952746.md)
-- Direct target of olaparib/rucaparib/niraparib/talazoparib; PARP1 knockdown used as positive control for PARPi sensitivity in mCRPC cell lines; synergy with USP10 inhibitor spautin-1 demonstrated [PMID:28068672](../papers/28068672.md)
+- Screened as a DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; BRCA1/2:PARP1 synthetic lethal interaction used as a conceptual parallel for the FBXO7:[CHEK1](../genes/CHEK1.md) SL pair [PMID:40896366](../papers/40896366.md)
+- Identified as a synthetic lethal partner in ARID1A-mutant ovarian cancer cells, where PARP1 inhibition selectively impairs cell survival [PMID:41049615](../papers/41049615.md)
+- PARP inhibitors (niraparib, fuzuloparib, olaparib) tested in combination with ICI to exploit DNA repair deficiencies in NPC [PMID:41002550](../papers/41002550.md)
+- Direct target of olaparib/rucaparib/niraparib/talazoparib; PARP1 knockdown used as positive control for PARPi sensitivity in mCRPC cell lines; synergy with USP10 inhibitor spautin-1 demonstrated [PMID:41071892](../papers/41071892.md)
 - PARP1 is a 1q-encoded histone modifier anticorrelated with p53-pathway target proteins (CDKN1A, TNFRSF10B) in CNV-high endometrial carcinoma tumors (CPTAC cohort, n=95) [PMID:32059776](../papers/32059776.md)
 
 ## Cancer types (linked)
 
-- CRC: referenced in the context of DDR-based synthetic lethality screening [PMID:36334560](../papers/36334560.md)
+- CRC: referenced in the context of DDR-based synthetic lethality screening [PMID:40896366](../papers/40896366.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- PARP1 inhibition is synthetically lethal with BRCA1/2 deficiency (established paradigm referenced in FBXO7 SL study) [PMID:36334560](../papers/36334560.md)
+- PARP1 inhibition is synthetically lethal with BRCA1/2 deficiency (established paradigm referenced in FBXO7 SL study) [PMID:40896366](../papers/40896366.md)
 
 ## Therapeutic relevance
 
-- PARP inhibitors (e.g., [olaparib](../drugs/olaparib.md)) target BRCA1/2-deficient tumors via synthetic lethality; referenced as conceptual parallel for FBXO7:CHEK1 SL [PMID:36334560](../papers/36334560.md)
+- PARP inhibitors (e.g., [olaparib](../drugs/olaparib.md)) target BRCA1/2-deficient tumors via synthetic lethality; referenced as conceptual parallel for FBXO7:CHEK1 SL [PMID:40896366](../papers/40896366.md)
 
 ## Open questions
 
 ## Sources
 
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
-- [PMID:22037554](../papers/22037554.md)
+- [PMID:41049615](../papers/41049615.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32059776](../papers/32059776.md)

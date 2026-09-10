@@ -19,19 +19,19 @@ FABP5 (Fatty Acid Binding Protein 5), also known as epidermal FABP (E-FABP), is 
 
 ## Alterations observed in the corpus
 
-- FABP5 in HCC suppresses ferroptosis by inhibiting fatty acid oxidation (FAO); FABP5-expressing lipid-loaded macrophages express PD-L1 and galectin-1, promoting an immunosuppressive tumor microenvironment; SBFI-103 (FABP5 inhibitor) promotes lipid peroxidation, restores FAO, recruits [CD80](../genes/CD80.md)+/CD86+ macrophages and [CD44](../genes/CD44.md)+CD62L− effector T cells, and suppresses HCC in preclinical models. [PMID:38355797](../papers/38355797.md)
+- FABP5 in HCC suppresses ferroptosis by inhibiting fatty acid oxidation (FAO); FABP5-expressing lipid-loaded macrophages express PD-L1 and galectin-1, promoting an immunosuppressive tumor microenvironment; SBFI-103 (FABP5 inhibitor) promotes lipid peroxidation, restores FAO, recruits [CD80](../genes/CD80.md)+/CD86+ macrophages and [CD44](../genes/CD44.md)+CD62L− effector T cells, and suppresses HCC in preclinical models. [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md): FABP5 drives both ferroptosis resistance and immune evasion; dual mechanism makes it an attractive therapeutic target; SBFI-103 inhibition suppresses HCC and reprograms the tumor immune microenvironment. [PMID:38355797](../papers/38355797.md)
+- [HCC](../cancer_types/HCC.md): FABP5 drives both ferroptosis resistance and immune evasion; dual mechanism makes it an attractive therapeutic target; SBFI-103 inhibition suppresses HCC and reprograms the tumor immune microenvironment. [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- FABP5 cooperates with [GPX4](../genes/GPX4.md) and [SLC7A11](../genes/SLC7A11.md) as part of the broader ferroptosis-resistance network in HCC; its macrophage-mediated immunosuppressive function overlaps with the CD36/PD-L1 immune evasion axis. [PMID:38355797](../papers/38355797.md)
+- FABP5 cooperates with [GPX4](../genes/GPX4.md) and [SLC7A11](../genes/SLC7A11.md) as part of the broader ferroptosis-resistance network in HCC; its macrophage-mediated immunosuppressive function overlaps with the CD36/PD-L1 immune evasion axis. [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- SBFI-103 (FABP5 inhibitor): promotes lipid peroxidation and ferroptosis, restores FAO, and recruits pro-inflammatory immune cells; suppresses HCC in preclinical models. [PMID:38355797](../papers/38355797.md)
+- SBFI-103 (FABP5 inhibitor): promotes lipid peroxidation and ferroptosis, restores FAO, and recruits pro-inflammatory immune cells; suppresses HCC in preclinical models. [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
@@ -40,6 +40,6 @@ FABP5 (Fatty Acid Binding Protein 5), also known as epidermal FABP (E-FABP), is 
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

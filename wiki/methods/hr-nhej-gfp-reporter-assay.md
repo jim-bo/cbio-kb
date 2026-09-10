@@ -17,7 +17,7 @@ The HR/NHEJ GFP reporter assay system uses stably integrated fluorescent reporte
 
 ## Used by
 
-- DR-GFP (HR), EJ5-GFP (NHEJ), and MMEJ-GFP reporter assays used in U2OS cells to demonstrate that [TRMT10A](../genes/TRMT10A.md) knockdown reduces HR efficiency and increases compensatory NHEJ and MMEJ, whereas TRMT10A catalytic-dead mutant G206R fully rescued HR; ATM-phospho-deficient S28A mutant failed to rescue HR [PMID:28068672](../papers/28068672.md).
+- DR-GFP (HR), EJ5-GFP (NHEJ), and MMEJ-GFP reporter assays used in U2OS cells to demonstrate that [TRMT10A](../genes/TRMT10A.md) knockdown reduces HR efficiency and increases compensatory NHEJ and MMEJ, whereas TRMT10A catalytic-dead mutant G206R fully rescued HR; ATM-phospho-deficient S28A mutant failed to rescue HR [PMID:41071892](../papers/41071892.md).
 - U2OS DR-GFP reporter assay showed that the recurrent RAD51B c.139C>T (p.Arg47*) variant failed to complement HR proficiency, providing functional evidence of loss-of-function for this formally VUS allele [PMID:34635660](../papers/34635660.md)
 
 ## Notes

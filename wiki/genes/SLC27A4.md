@@ -23,26 +23,26 @@ SLC27A4, also known as fatty acid transport protein 4 (FATP4), is a plasma membr
 
 ## Alterations observed in the corpus
 
-- Selectively imports MUFA to protect HCC cells against lipid peroxidation and ferroptosis; confers sorafenib resistance; identified in the lipid-uptake arm of HCC metabolic reprogramming [PMID:38355797](../papers/38355797.md)
+- Selectively imports MUFA to protect HCC cells against lipid peroxidation and ferroptosis; confers sorafenib resistance; identified in the lipid-uptake arm of HCC metabolic reprogramming [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md):** SLC27A4 upregulation drives selective MUFA import, raising the MUFA:PUFA ratio and suppressing ferroptotic cell death; linked to sorafenib resistance [PMID:38355797](../papers/38355797.md)
+- **[HCC](../cancer_types/HCC.md):** SLC27A4 upregulation drives selective MUFA import, raising the MUFA:PUFA ratio and suppressing ferroptotic cell death; linked to sorafenib resistance [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Functions in concert with [SCD](../genes/SCD.md) and [SLC7A11](../genes/SLC7A11.md) in suppressing ferroptosis in HCC; part of the enhanced lipid-uptake arm distinct from the de novo lipogenesis arm driven by [SREBF1](../genes/SREBF1.md) [PMID:38355797](../papers/38355797.md)
+- Functions in concert with [SCD](../genes/SCD.md) and [SLC7A11](../genes/SLC7A11.md) in suppressing ferroptosis in HCC; part of the enhanced lipid-uptake arm distinct from the de novo lipogenesis arm driven by [SREBF1](../genes/SREBF1.md) [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- SLC27A4-mediated MUFA import represents a resistance mechanism to sorafenib in HCC; blockade of MUFA import or downstream ferroptosis suppression may re-sensitize tumors [PMID:38355797](../papers/38355797.md)
+- SLC27A4-mediated MUFA import represents a resistance mechanism to sorafenib in HCC; blockade of MUFA import or downstream ferroptosis suppression may re-sensitize tumors [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
-- SLC27A5 (FATP5) findings are described as contradictory in the same review; the relative contributions of SLC27A4 vs SLC27A5 to HCC lipid-import phenotypes require further dissection [PMID:38355797](../papers/38355797.md)
+- SLC27A5 (FATP5) findings are described as contradictory in the same review; the relative contributions of SLC27A4 vs SLC27A5 to HCC lipid-import phenotypes require further dissection [PMID:41118283](../papers/41118283.md)
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

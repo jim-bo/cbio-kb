@@ -17,7 +17,7 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 ## Cohorts in the corpus
 
 - 139 paired ESCC tumor/germline samples (20 WES + 119 targeted deep sequencing); SCNV analysis of 184 ESCC cases — Chinese CAMS/Linxian cohort — [PMID:24686850](../papers/24686850.md)
-- 18 case–control oral microbiome studies (1,191 cases / 1,403 controls) — systematic review; no primary ESCC genomic cohort in this paper [PMID:24670651](../papers/24670651.md)
+- 18 case–control oral microbiome studies (1,191 cases / 1,403 controls) — systematic review; no primary ESCC genomic cohort in this paper [PMID:41096729](../papers/41096729.md)
 
 ## Recurrent alterations
 
@@ -25,14 +25,14 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 - APOBEC3B implicated as the dominant mutational mechanism in ESCC via trinucleotide signature analysis [PMID:24686850](../papers/24686850.md)
 - Recurrent focal amplifications: CCND1 (11q13.2, most frequent), FGFR1 (amplified in 11/53 ESCC by FISH; overexpressed by IHC in 17.3%), EGFR, MYC, KRAS; recurrent focal deletion: CDKN2A [PMID:24686850](../papers/24686850.md)
 - Significantly altered pathways: MAPK (P = 0.0005), PI3K (P = 0.0004), JAK-STAT3 (P = 0.0006), G1-S cell cycle (P = 1.63E-05), and epigenetic modification (P = 0.0013) [PMID:24686850](../papers/24686850.md)
-- Oral microbial signatures (Prevotella, Porphyromonas gingivalis, Fusobacterium nucleatum enrichment; Neisseria, Lautropia, Corynebacterium depletion) associate with ESCC risk; pooled OR 9.50 (95% CI 5.89–15.29) from two-study meta-analysis [PMID:24670651](../papers/24670651.md)
+- Oral microbial signatures (Prevotella, Porphyromonas gingivalis, Fusobacterium nucleatum enrichment; Neisseria, Lautropia, Corynebacterium depletion) associate with ESCC risk; pooled OR 9.50 (95% CI 5.89–15.29) from two-study meta-analysis [PMID:41096729](../papers/41096729.md)
 - TCGA profiling of 90 esophageal squamous cell carcinomas defined three molecular subtypes: ESCC1 (NRF2-pathway/classical squamous, NFE2L2/KEAP1/CUL3 alterations, SOX2/TP63 amplification, VGLL4 deletion), ESCC2 (NOTCH/PI3K/immune-infiltrated, NOTCH1/ZNF750 mutations, KMT2D/KDM6A alterations, CDK6 amplification), ESCC3 (PI3K-activated, SMARCA4/KMT2D mutant, US/Canada only); ESCC resembles head/neck and lung squamous tumors; no HPV aetiologic role; Vietnamese ESCC enriched for NFE2L2 mutations (24% vs 6%) [PMID:28052061](../papers/28052061.md)
 - Pan-cancer aneuploidy study placed ESCC in the squamous arm-level cluster (chr_3p loss + chr_3q gain) alongside HPV+ and HPV− HNSC, CESC, and LUSC; the squamous chr_3 signature was most prominent in LUSC, ESCC, and HPV-negative HNSC [PMID:29622463](../papers/29622463.md)
 - NRF2/oxidative-stress pathway alteration rate 23% in esophagogastric squamous (ESCC), second highest pan-cancer after LUSC (25%); EGFR alterations present in esophagogastric squamous tumors at ~14% [PMID:29625050](../papers/29625050.md)
 
 ## Subtypes
 
-- Squamous cell carcinoma is distinguished from esophageal adenocarcinoma (ESCA) by distinct genomic drivers (APOBEC3B mutagenesis, ZNF750 loss) and different oral microbial enrichment patterns [PMID:24670651](../papers/24670651.md), [PMID:24686850](../papers/24686850.md)
+- Squamous cell carcinoma is distinguished from esophageal adenocarcinoma (ESCA) by distinct genomic drivers (APOBEC3B mutagenesis, ZNF750 loss) and different oral microbial enrichment patterns [PMID:41096729](../papers/41096729.md), [PMID:24686850](../papers/24686850.md)
 
 ## Therapeutic landscape
 
@@ -43,7 +43,7 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 ## Sources
 
 - [PMID:24686850](../papers/24686850.md) — Lin et al. (2014), WES/targeted sequencing of 139 ESCC cases identifying novel drivers and XPO1 as a therapeutic target.
-- [PMID:24670651](../papers/24670651.md) — Chen et al. (2024), systematic review of oral microbiome in esophageal cancer (ESCC focus).
+- [PMID:41096729](../papers/41096729.md) — Chen et al. (2024), systematic review of oral microbiome in esophageal cancer (ESCC focus).
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28052061](../papers/28052061.md)

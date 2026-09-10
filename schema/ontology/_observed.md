@@ -5,11 +5,11 @@
 - cancer_type: LCNEC — observed in PMID:35304457 — note: large cell neuroendocrine carcinoma of the lung; canonical OncoTree code is LUNE; used in selpercatinib/LIBRETTO-001 paper
 
 - drug: selinexor — observed in PMID:24686850 — note: XPO1 inhibitor (SINE/KPT-330); preclinical activity in ESCC cell lines
-- drug: refametinib — observed in PMID:24735922 — note: MEK inhibitor; RAS-mutation-enriched HCC trial NCT01915602
-- drug: tivantinib — observed in PMID:24735922 — note: MET inhibitor; c-MET-high HCC biomarker-selected trials
-- drug: interferon-alpha — observed in PMID:24735922 — note: adjuvant IFN-α in HBV-related HCC; mir26 as predictive biomarker candidate
+- drug: refametinib — observed in PMID:25369299 — note: MEK inhibitor; RAS-mutation-enriched HCC trial NCT01915602
+- drug: tivantinib — observed in PMID:25369299 — note: MET inhibitor; c-MET-high HCC biomarker-selected trials
+- drug: interferon-alpha — observed in PMID:25369299 — note: adjuvant IFN-α in HBV-related HCC; mir26 as predictive biomarker candidate
 
-- drug: tirapazamine — observed in PMID:30643250 — note: hypoxia-activated bioreductive prodrug; selective cytotoxin under low-O₂ conditions; not in OncoKB or cBioPortal ontology
+- drug: tirapazamine — observed in PMID:41103502 — note: hypoxia-activated bioreductive prodrug; selective cytotoxin under low-O₂ conditions; not in OncoKB or cBioPortal ontology
 - drug: ibrutinib — observed in PMID:35927489 — note: BTK inhibitor referenced re TP53/17p prognosis
 - drug: venetoclax — observed in PMID:35927489 — note: BCL2 inhibitor referenced re TP53/17p prognosis
 - drug: fludarabine — observed in PMID:35927489 — note: chemotherapy; RRM1 is target
@@ -17,7 +17,7 @@
 - method: whole-genome-seq — observed in PMID:35927489 — note: 177 WGS samples
 - method: rna-seq — observed in PMID:35927489 — note: n=712 transcriptomes
 - method: rrbs — observed in PMID:35927489 — note: reduced representation bisulfite sequencing, n=509
-- method: 3d-cell-culture-models — observed in PMID:30643250 — note: umbrella term for scaffold-free spheroids, hydrogel/scaffold systems, bioprinting, and microfluidics; no gene-panel ID; corpus-grown slug
+- method: 3d-cell-culture-models — observed in PMID:41103502 — note: umbrella term for scaffold-free spheroids, hydrogel/scaffold systems, bioprinting, and microfluidics; no gene-panel ID; corpus-grown slug
 - drug: azathioprine — observed in PMID:35982973 — note: thiopurine immunosuppressant; associated with SBS32 mutational signature and increased CSCC risk in transplant recipients; not a targeted cancer therapeutic; not in OncoKB
 - drug: tacrolimus — observed in PMID:35982973 — note: calcineurin inhibitor immunosuppressant used post solid-organ transplant; not a targeted cancer therapeutic; not in OncoKB
 - method: 450k-methylation-array — observed in PMID:35927489 — note: Illumina 450k array, n=490
@@ -116,7 +116,7 @@
 - method: deconstructsigs — observed in PMID:32220886 — note: R package for COSMIC mutational signature deconvolution; applied to DCIS/IDC-NST WES cohort (≥40 SNVs threshold)
 - method: coca — observed in PMID:34433969 — note: Cluster of Cluster Algorithm for multi-platform integrative unsupervised clustering
 - method: droplet-digital-pcr — observed in PMID:24336570 — note: ddPCR used to validate subclonal VAFs in grade II glioma paired tumor cohort; corpus-grown slug, not in cBioPortal gene panels
-- method: trusight-oncology-500 — observed in PMID:24418857 — note: Illumina TSO500 DNA+RNA panel on NovaSeq 6000 for sinonasal AdCC; tumor-only workflow; corpus-grown slug
+- method: trusight-oncology-500 — observed in PMID:39760648 — note: Illumina TSO500 DNA+RNA panel on NovaSeq 6000 for sinonasal AdCC; tumor-only workflow; corpus-grown slug
 - method: snrna-seq — observed in PMID:34433969 — note: droplet-based single nuclear RNA sequencing on 8 meningiomas + 2 healthy meninges (54,393 nuclei)
 - method: lc-ms-ms-proteomics — observed in PMID:34433969 — note: single-shot LC-MS/MS whole-cell proteomics quantifying 6,568 proteins in 96 meningioma tumors
 - drug: neratinib — observed in PMID:37643132 — note: pan-HER tyrosine kinase inhibitor; 25% ORR in HER2-mutant cervical cancer
@@ -127,7 +127,7 @@
 - method: facets — observed in PMID:37651310 — note: FACETS for allele-specific CNA and WGD in EC cohort
 - method: oncokb — observed in PMID:37651310 — note: OncoKB for clinically actionable alteration annotation in EC
 - method: msk-impact-panel — observed in PMID:37651310 — note: MSK-IMPACT 341-505 gene panel on 1,882 EC tumor-normal pairs
-- method: xgboost — observed in PMID:27634761 — note: XGBoost gradient-boosted decision tree ML framework used for ATLAS cancer site-of-origin and lineage classifiers
+- method: xgboost — observed in PMID:38480799 — note: XGBoost gradient-boosted decision tree ML framework used for ATLAS cancer site-of-origin and lineage classifiers
 - method: scrna-seq — observed in PMID:37406106 — note: single-cell RNA sequencing on paired pre/on-treatment EGC biopsies to identify resistance programs
 - method: 89zr-trastuzumab-pet — observed in PMID:37406106 — note: 89Zr-labeled trastuzumab PET/CT for noninvasive HER2 expression heterogeneity imaging
 - method: ctdna-dynamics — observed in PMID:37406106 — note: serial ctDNA monitoring of tumor-matched mutations and ERBB2 amplification as early response biomarker
@@ -171,9 +171,9 @@
 - method: icare — observed in PMID:33106634 — note: individualized Coherent Absolute Risk Estimation R package; absolute tMN risk modeling combining CH hazard ratios with SEER/NCCN incidence
 - method: gatk — observed in PMID:33106634 — note: Genome Analysis Toolkit v3.3-0; used for BQSR preprocessing in MSK-IMPACT CH calling pipeline
 - method: nexus-copy-number — observed in PMID:29422544 — note: BioDiscovery Nexus v7.5 ngCGH/RankSegmentation for CNA calling on 15 Korean vulvar SCC WES pairs; commercial platform
-- method: nmf-clustering — observed in PMID:32015526 — note: non-negative matrix factorization transcriptomic subtyping (Brunet algorithm, R NMF package); identified 3 NS-LUAD subtypes (steady, proliferative, chaotic) from 684 RNA-seq profiles
-- method: sfyncs — observed in PMID:32015526 — note: SFyNCS v0.15 RNA-seq fusion detection tool; used alongside STAR-Fusion in Sherlock-Lung NS-LUAD study; 11,947 fusions detected across 638/684 tumors
-- method: tide — observed in PMID:32015526 — note: Tumor Immune Dysfunction and Exclusion (TIDE) algorithm for computational prediction of immune checkpoint blockade response from tumor expression data
+- method: nmf-clustering — observed in PMID:40970133 — note: non-negative matrix factorization transcriptomic subtyping (Brunet algorithm, R NMF package); identified 3 NS-LUAD subtypes (steady, proliferative, chaotic) from 684 RNA-seq profiles
+- method: sfyncs — observed in PMID:40970133 — note: SFyNCS v0.15 RNA-seq fusion detection tool; used alongside STAR-Fusion in Sherlock-Lung NS-LUAD study; 11,947 fusions detected across 638/684 tumors
+- method: tide — observed in PMID:40970133 — note: Tumor Immune Dysfunction and Exclusion (TIDE) algorithm for computational prediction of immune checkpoint blockade response from tumor expression data
 - method: polysolver — observed in PMID:27149842 — note: HLA class I typing and somatic HLA mutation calling from WES; 11% of 619 CRCs had HLA mutations enriched in TIL-high tumors
 - method: netmhcpan — observed in PMID:26997480 — note: pan-allele MHC class I binding affinity predictor; used for neoepitope prediction in melanoma (v2.8) and CRC (v2.4) WES cohorts
 - method: xcell — observed in PMID:33242424 — note: RNA-based cell-type deconvolution (64 cell types) applied to pediatric brain tumor proteogenomics cohort (n=218); identified 5 TME groups
@@ -194,7 +194,7 @@
 - drug: tazemetostat — observed in PMID:28196596 — note: EZH2 inhibitor (structurally related to tool compound EPZ011989); proposed combination with cisplatin/etoposide or irinotecan in SCLC to prevent SLFN11 silencing
 - drug: dacomitinib — observed in PMID:28336552 — note: 2nd-gen pan-HER TKI; cited as preferred agent for atypical EGFR alleles (L861Q, exon 18 del) in LUAD
 - drug: telomerase-inhibitor-ix — observed in PMID:28373299 — note: TERT inhibitor compound; 2.5 µM produced ≥75% viability loss in ALM cell lines with TERT gains/promoter mutations; spared normal melanocytes
-- drug: tamoxifen — observed in PMID:28445112 — note: known risk factor for endometrial polyps with KRAS mutations; none of the 23 study patients had been on tamoxifen so the association could not be tested
+- drug: tamoxifen — observed in PMID:41137179 — note: known risk factor for endometrial polyps with KRAS mutations; none of the 23 study patients had been on tamoxifen so the association could not be tested
 - method: metabric-targeted-sequencing — observed in PMID:27161491 — note: 173-gene Illumina Nextera custom capture panel (~1.2 Mbp) applied to 2,433 METABRIC primary breast tumours
 - method: vogelstein-ratiometric — observed in PMID:27161491 — note: Vogelstein 20/20-style ONC/TSG ratiometric driver-discovery scheme; applied ER-stratified in METABRIC breast-cancer study
 - method: ascat — observed in PMID:27161491 — note: allele-specific copy-number and LOH calling; used for CCF estimation in 2,433 METABRIC breast tumours
@@ -209,21 +209,21 @@
 - method: pyclone — observed in PMID:25470049 — note: Bayesian Dirichlet-process SNV clustering for clonal inference in breast cancer PDX longitudinal study
 - method: titan-cna — observed in PMID:25470049 — note: CNA/LOH subclonal inference from WGS; used alongside PyClone for multi-modal clonal validation in breast cancer PDX
 - method: pd-l1-ihc-22c3 — observed in PMID:38780927 — note: PD-L1 IHC 22C3 pharmDx (Agilent) CPS assay; did not stratify PFS/OS benefit in IMRT reirradiation + nivolumab HNSCC trial
-- drug: jq1 — observed in PMID:22037554 — note: BET bromodomain inhibitor (tool compound); synthetic lethal with ARID1A loss in SCLC; r=0.368 correlation with ARID1A expression IC50
-- drug: brd-k98645985 — observed in PMID:22037554 — note: BAF complex inhibitor targeting ARID1A-containing SWI/SNF; Bliss synergy with JQ1 in SCLC xenografts
-- drug: axitinib — observed in PMID:22138691 — note: selective VEGFR1/2/3 TKI; used in JAVELIN Renal 101 avelumab+axitinib combination for ccRCC
-- drug: talazoparib — observed in PMID:28068672 — note: PARP1/PARP2 trapping inhibitor; named alongside olaparib/rucaparib/niraparib/veliparib as class members in mCRPC TRMT10A study
-- drug: spautin-1 — observed in PMID:28068672 — note: USP10 inhibitor (tool compound); degrades TRMT10A and synergizes with olaparib in BRCA1/2-WT mCRPC CDX and PDX models
+- drug: jq1 — observed in PMID:41049615 — note: BET bromodomain inhibitor (tool compound); synthetic lethal with ARID1A loss in SCLC; r=0.368 correlation with ARID1A expression IC50
+- drug: brd-k98645985 — observed in PMID:41049615 — note: BAF complex inhibitor targeting ARID1A-containing SWI/SNF; Bliss synergy with JQ1 in SCLC xenografts
+- drug: axitinib — observed in PMID:40834854 — note: selective VEGFR1/2/3 TKI; used in JAVELIN Renal 101 avelumab+axitinib combination for ccRCC
+- drug: talazoparib — observed in PMID:41071892 — note: PARP1/PARP2 trapping inhibitor; named alongside olaparib/rucaparib/niraparib/veliparib as class members in mCRPC TRMT10A study
+- drug: spautin-1 — observed in PMID:41071892 — note: USP10 inhibitor (tool compound); degrades TRMT10A and synergizes with olaparib in BRCA1/2-WT mCRPC CDX and PDX models
 - drug: pyrotinib — observed in PMID:32719455 — note: HER2 TKI (irreversible pan-HER inhibitor); Hengrui-developed; arm A of FUTURE umbrella trial (ERBB2-mutant LAR-subtype TNBC)
 - drug: famitinib — observed in PMID:32719455 — note: multi-target VEGFR/PDGFR/FGFR/c-Kit TKI; Hengrui-developed; arms E and F of FUTURE umbrella trial in refractory metastatic TNBC
 - drug: eribulin — observed in PMID:32719455 — note: microtubule dynamics inhibitor; listed as a reference treatment arm in the FUTURE umbrella trial for refractory metastatic TNBC
 - drug: exemestane — observed in PMID:32864625 — note: aromatase inhibitor (irreversible steroidal); partner drug for alpelisib in arms B and D of NCT01870505 HR+ MBC trial
-- drug: ku-55933 — observed in PMID:28068672 — note: selective ATM kinase inhibitor (tool compound); used to confirm ATM-mediated TRMT10A Ser28 phosphorylation in DDR experiments
-- drug: mg-132 — observed in PMID:28068672 — note: proteasome inhibitor (tool compound); used to rescue TRMT10A protein levels after USP10 knockdown or spautin-1 treatment
+- drug: ku-55933 — observed in PMID:41071892 — note: selective ATM kinase inhibitor (tool compound); used to confirm ATM-mediated TRMT10A Ser28 phosphorylation in DDR experiments
+- drug: mg-132 — observed in PMID:41071892 — note: proteasome inhibitor (tool compound); used to rescue TRMT10A protein levels after USP10 knockdown or spautin-1 treatment
 - method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
 - drug: cetuximab — observed in PMID:27698471 — note: anti-EGFR IgG1 mAb; used as ADC carrier in C-MMAE; preclinical radiosensitizer study in HNSCC/NSCLC xenografts
 - drug: mertansine — observed in PMID:27698471 — note: DM1; free maytansinoid cytotoxin; ADC warhead in T-DM1; indiscriminate radiosensitizer at ~10 nM IC50
-- drug: belzutifan — observed in PMID:23797736 — note: HIF2A (EPAS1) inhibitor; supports early use in VHL disease to prevent expansion of Vhl-null renal proximal tubular cancer precursors
+- drug: belzutifan — observed in PMID:41102155 — note: HIF2A (EPAS1) inhibitor; supports early use in VHL disease to prevent expansion of Vhl-null renal proximal tubular cancer precursors
 - drug: monomethyl-auristatin-e — observed in PMID:27698471 — note: MMAE/vedotin; free auristatin cytotoxin; ADC warhead in brentuximab-vedotin and experimental C-MMAE/T-MMAE; indiscriminate radiosensitizer at 2 nM
 - drug: paclitaxel — observed in PMID:27698471 — note: taxane microtubule stabilizer; comparator in HER2+ cell viability assays vs T-DM1
 - drug: lapatinib — observed in PMID:27698471 — note: dual EGFR/HER2 TKI; comparator in HER2+ cell viability assays vs T-DM1
@@ -232,10 +232,10 @@
 - method: fusionmap — observed in PMID:28007021 — note: FusionMap RNA fusion caller applied to unmapped reads from TopHat2/Bowtie2 in PIPseq tumor RNA-seq
 - method: tophat-cufflinks — observed in PMID:28007021 — note: Tuxedo Suite (TopHat2/Bowtie2/Cufflinks) for transcript mapping and quantification in PIPseq tumor RNA-seq
 - method: nextgene-aligner — observed in PMID:28007021 — note: NextGene v2.3.4 aligner (modified Burrows-Wheeler transform) used for read alignment in PIPseq WES/targeted sequencing
-- method: clonogenic-survival-assay — observed in PMID:28068672 — note: colony-formation clonogenic assay used to quantify PARPi sensitivity of TRMT10A/USP10 knockdown prostate cancer cell lines
-- method: synergyfinder-hsa — observed in PMID:28068672 — note: SynergyFinder highest-single-agent (HSA) scoring used to quantify olaparib + spautin-1 drug synergy in prostate cancer cell lines
-- method: hr-nhej-gfp-reporter-assay — observed in PMID:28068672 — note: DR-GFP (HR) / EJ5-GFP (NHEJ) / MMEJ-GFP reporter assays used to quantify DNA repair pathway activity in TRMT10A/USP10 knockdown cells
-- method: patient-derived-xenograft — observed in PMID:28068672 — note: mCRPC PDX lines (#546, #1092, #1102, #1267) in NOD-SCID mice used to test olaparib + spautin-1 combination; PDX#546 and PDX#1092 selected for high TRMT10A/USP10
+- method: clonogenic-survival-assay — observed in PMID:41071892 — note: colony-formation clonogenic assay used to quantify PARPi sensitivity of TRMT10A/USP10 knockdown prostate cancer cell lines
+- method: synergyfinder-hsa — observed in PMID:41071892 — note: SynergyFinder highest-single-agent (HSA) scoring used to quantify olaparib + spautin-1 drug synergy in prostate cancer cell lines
+- method: hr-nhej-gfp-reporter-assay — observed in PMID:41071892 — note: DR-GFP (HR) / EJ5-GFP (NHEJ) / MMEJ-GFP reporter assays used to quantify DNA repair pathway activity in TRMT10A/USP10 knockdown cells
+- method: patient-derived-xenograft — observed in PMID:41071892 — note: mCRPC PDX lines (#546, #1092, #1102, #1267) in NOD-SCID mice used to test olaparib + spautin-1 combination; PDX#546 and PDX#1092 selected for high TRMT10A/USP10
 - drug: nivolumab — observed in PMID:38780927 — note: anti-PD-1 mAb; concurrent + maintenance with IMRT reirradiation in NCT03521570 recurrent/second-primary HNSCC; 1-year PFS 61.7%
 - dataset: radcure — observed in PMID:38362943 — note: 3346-patient HNC RT planning CT dataset from Princess Margaret Cancer Centre, hosted on TCIA; not a cBioPortal genomic study
 - method: ct-imaging — observed in PMID:38362943 — note: RT simulation computed tomography acquisition
@@ -252,18 +252,18 @@
 - method: hla-binding-prediction — observed in PMID:31031003 — note: neoantigen prediction from proteomics-supported somatic mutations; 88 high-affinity HLA-I binders identified in 38% of CPTAC colon tumors
 - method: radiomics — observed in PMID:38362943 — note: quantitative imaging feature extraction; downstream use case for RADCURE
 - method: dicom-rt-struct — observed in PMID:38362943 — note: DICOM RT-STRUCT format for organ-at-risk and target contours
-- drug: fulvestrant — observed in PMID:26437033 — note: SERD; endocrine-sensitive Nf1Indel rat tumors regress completely; Nf1+Tp53 co-editing confers resistance
-- drug: letrozole — observed in PMID:26437033 — note: aromatase inhibitor; GSE5462 benchmark dataset for neoadjuvant endocrine-therapy transcriptomic concordance in rat ER+ breast cancer models
-- drug: obeticholic-acid — observed in PMID:25608663 — note: FXR agonist (OCA/INT-747); suppresses CCA proliferation via NR1H4-SHP-STAT3 axis; heterogeneous FXR expression limits single-agent activity
-- drug: vancomycin — observed in PMID:25608663 — note: oral glycopeptide antibiotic; immunomodulatory in PSC (improved GGT/ALP); multiple completed/active trials; antibiotic-immunotherapy caution noted
-- drug: neomycin — observed in PMID:25608663 — note: oral aminoglycoside; blocks CXCL1-PMN-MDSC axis in CCA preclinical models
-- drug: metronidazole — observed in PMID:25608663 — note: nitroimidazole antibiotic; cited among microbiota-modulation strategies for CCA adjuvant therapy
-- drug: amoxicillin — observed in PMID:25608663 — note: aminopenicillin antibiotic; cited among microbiota-modulation strategies for CCA adjuvant therapy
-- drug: gw4064 — observed in PMID:25608663 — note: synthetic non-steroidal FXR agonist (tool compound); suppresses CCA proliferation via NR1H4-SHP-STAT3/BCL2L1 axis
-- drug: cdca — observed in PMID:25608663 — note: chenodeoxycholic acid; endogenous FXR agonist and diagnostic biomarker (CDCA+TCDCA AUC 0.95 vs CA19-9 for CCA); IDH1/2-mutant iCCA suppresses CYP7A1/CDCA homeostasis
-- drug: jte-013 — observed in PMID:25608663 — note: S1PR2 antagonist; suppresses taurocholic-acid-activated ERK/AKT/NF-kB/COX-2 axis and tumor invasiveness in CCA preclinical models
-- drug: sbi-115 — observed in PMID:25608663 — note: TGR5/GPBAR1 antagonist; reduces pro-fibrotic and metastatic signaling in CCA; TGR5 hepatoprotective vs pro-tumorigenic duality complicates use
-- drug: int-777 — observed in PMID:25608663 — note: TGR5/GPBAR1 agonist (bile acid derivative); cited as pharmacological probe in CCA bile acid receptor axis; pro-tumorigenic in advanced CCA via Src/EGFR transactivation
+- drug: fulvestrant — observed in PMID:41000773 — note: SERD; endocrine-sensitive Nf1Indel rat tumors regress completely; Nf1+Tp53 co-editing confers resistance
+- drug: letrozole — observed in PMID:41000773 — note: aromatase inhibitor; GSE5462 benchmark dataset for neoadjuvant endocrine-therapy transcriptomic concordance in rat ER+ breast cancer models
+- drug: obeticholic-acid — observed in PMID:41018102 — note: FXR agonist (OCA/INT-747); suppresses CCA proliferation via NR1H4-SHP-STAT3 axis; heterogeneous FXR expression limits single-agent activity
+- drug: vancomycin — observed in PMID:41018102 — note: oral glycopeptide antibiotic; immunomodulatory in PSC (improved GGT/ALP); multiple completed/active trials; antibiotic-immunotherapy caution noted
+- drug: neomycin — observed in PMID:41018102 — note: oral aminoglycoside; blocks CXCL1-PMN-MDSC axis in CCA preclinical models
+- drug: metronidazole — observed in PMID:41018102 — note: nitroimidazole antibiotic; cited among microbiota-modulation strategies for CCA adjuvant therapy
+- drug: amoxicillin — observed in PMID:41018102 — note: aminopenicillin antibiotic; cited among microbiota-modulation strategies for CCA adjuvant therapy
+- drug: gw4064 — observed in PMID:41018102 — note: synthetic non-steroidal FXR agonist (tool compound); suppresses CCA proliferation via NR1H4-SHP-STAT3/BCL2L1 axis
+- drug: cdca — observed in PMID:41018102 — note: chenodeoxycholic acid; endogenous FXR agonist and diagnostic biomarker (CDCA+TCDCA AUC 0.95 vs CA19-9 for CCA); IDH1/2-mutant iCCA suppresses CYP7A1/CDCA homeostasis
+- drug: jte-013 — observed in PMID:41018102 — note: S1PR2 antagonist; suppresses taurocholic-acid-activated ERK/AKT/NF-kB/COX-2 axis and tumor invasiveness in CCA preclinical models
+- drug: sbi-115 — observed in PMID:41018102 — note: TGR5/GPBAR1 antagonist; reduces pro-fibrotic and metastatic signaling in CCA; TGR5 hepatoprotective vs pro-tumorigenic duality complicates use
+- drug: int-777 — observed in PMID:41018102 — note: TGR5/GPBAR1 agonist (bile acid derivative); cited as pharmacological probe in CCA bile acid receptor axis; pro-tumorigenic in advanced CCA via Src/EGFR transactivation
 - datasets: tcia-tcga-gbm — observed in PMID:28872634 — note: TCIA imaging collection paired with TCGA-GBM (cBioPortal gbm_tcga); not a cBioPortal studyId.
 - datasets: tcia-tcga-lgg — observed in PMID:28872634 — note: TCIA imaging collection paired with TCGA-LGG (cBioPortal lgg_tcga); not a cBioPortal studyId.
 - methods: glistrboost — observed in PMID:28872634 — note: hybrid generative-discriminative brain tumor MRI segmentation method, BraTS'15 winner.
@@ -294,14 +294,14 @@
 - method: body-composition-ct — observed in PMID:30179230 — note: L3-level CT skeletal muscle index (SMI) and adipose index (ADI) in 215 HNSCC RT patients; first public HNSCC RT dataset with body-composition data
 - drug: tofacitinib — observed in PMID:26551667 — note: JAK1/3 inhibitor; active against JAK3-mutant (p.Ala573Val) HUT78 CTCL cell line; proposed for genotype-stratified JAK inhibitor trials in Sézary syndrome
 - dataset: tcia-tcga-ov — observed in PMID:35764743 — note: TCIA CT imaging for TCGA-OV ovarian cases used in this multimodal HGSOC study (n=148 TCGA patients)
-- method: aav-crispr-somatic-editing — observed in PMID:26437033 — note: AAV-delivered CRISPR-Cas9 somatic genome editing platform for in vivo tumor modeling in rats; intraductal delivery in mammary gland
-- method: amplicon-sequencing — observed in PMID:26437033 — note: amplicon deep sequencing of AAV-CRISPR-edited loci to quantify Indel rates and HDR efficiency in rat mammary tumors
+- method: aav-crispr-somatic-editing — observed in PMID:41000773 — note: AAV-delivered CRISPR-Cas9 somatic genome editing platform for in vivo tumor modeling in rats; intraductal delivery in mammary gland
+- method: amplicon-sequencing — observed in PMID:41000773 — note: amplicon deep sequencing of AAV-CRISPR-edited loci to quantify Indel rates and HDR efficiency in rat mammary tumors
 - method: clanc — observed in PMID:26451490 — note: Comparative Latent Neoantigen Classification; centroid-based classifier used to assign TCGA breast tumors to ILC-like or IDC-like classes in mixed IDC/ILC analysis
-- method: gsea — observed in PMID:26437033 — note: Gene Set Enrichment Analysis; used to show concordance of fulvestrant-responsive rat tumor DEGs with human neoadjuvant endocrine therapy datasets (GSE5462, GSE71791)
+- method: gsea — observed in PMID:41000773 — note: Gene Set Enrichment Analysis; used to show concordance of fulvestrant-responsive rat tumor DEGs with human neoadjuvant endocrine therapy datasets (GSE5462, GSE71791)
 - method: expands — observed in PMID:26760213 — note: EXPANDS clonal-population-structure inference tool; used alongside PyClone for subclonal reconstruction in medulloblastoma WGS; branched evolution confirmed in 14/14 germline-matched pairs
 - method: sleeping-beauty-transposon-screen — observed in PMID:26760213 — note: SB11/T2Onc(2) transposon insertional mutagenesis in Ptch+/− mice; gCIS analysis of therapy-driven recurrence in Shh medulloblastoma mouse model
 - method: targeted-deep-amplicon-seq — observed in PMID:26760213 — note: ultra-deep amplicon sequencing of 192 patient-specific SNVs across 20 matched primary/recurrent medulloblastoma pairs; sensitivity to 2/10,000 reads
-- method: intraductal-aav-delivery — observed in PMID:26437033 — note: surgical technique for delivering AAV vectors directly into rat mammary ductal tree; enables luminal epithelial cell-specific genome editing
+- method: intraductal-aav-delivery — observed in PMID:41000773 — note: surgical technique for delivering AAV vectors directly into rat mammary ductal tree; enables luminal epithelial cell-specific genome editing
 - method: isopure — observed in PMID:26451490 — note: ISOpure computational tumor purity deconvolution; one of three orthogonal classifiers for assigning mixed IDC/ILC breast tumors to molecular classes
 - method: oncosign — observed in PMID:26451490 — note: OncoSign adapted classifier; one of three orthogonal methods (alongside ISOpure and ElasticNet) used to classify 88 mixed IDC/ILC breast tumors as ILC-like or IDC-like
 - method: paradigm — observed in PMID:26451490 — note: PAthway Recognition Algorithm using Data Integration on Genomic Models; used for pathway-level activity inference in TCGA breast ILC/IDC integrative analysis
@@ -324,8 +324,8 @@
 - method: shrna-rnai-screen — observed in PMID:20601955 — note: pooled shRNA loss-of-function screen of 385 genes (2,007 shRNAs) in three DDLS cell lines to identify copy-number dependencies
 - method: sequenom-genotyping — observed in PMID:20601955 — note: MALDI-TOF mass spectrometry-based genotyping for validation of somatic mutations across 160 additional sarcoma tumors
 - drug: sunitinib — observed in PMID:36593350 — note: multi-kinase TKI (KIT/PDGFR/VEGFR); referenced as second-line therapy option for GIST patients with SDH-deficient or NF1-related disease that respond poorly to imatinib
-- drug: prexasertib — observed in PMID:36334560 — note: selective CHEK1 inhibitor; synthetic lethal agent in FBXO7-deficient colonic epithelial cells (EC50 5.83 nM); synergizes with 5-FU
-- method: quantitative-imaging-microscopy — observed in PMID:36334560 — note: QuantIM automated nuclear counting and immunofluorescence signal quantification for cell number, gamma-H2AX foci, and cleaved caspase-3
+- drug: prexasertib — observed in PMID:40896366 — note: selective CHEK1 inhibitor; synthetic lethal agent in FBXO7-deficient colonic epithelial cells (EC50 5.83 nM); synergizes with 5-FU
+- method: quantitative-imaging-microscopy — observed in PMID:40896366 — note: QuantIM automated nuclear counting and immunofluorescence signal quantification for cell number, gamma-H2AX foci, and cleaved caspase-3
 - method: elastic-net — observed in PMID:36333289 — note: elastic net logistic regression model integrating clinical and immunogenomic features to predict ICI response in metastatic urothelial carcinoma
 - method: cibersortx — observed in PMID:36333289 — note: CIBERSORTx digital cytometry for immune cell fraction estimation from bulk RNA-seq in metastatic UC
 - drug: sotorasib — observed in PMID:36355783 — note: KRASG12C covalent inhibitor; combined with cetuximab/panitumumab in CRC; 7-10% monotherapy RR, 27% with anti-EGFR
@@ -337,8 +337,8 @@
 - method: single-cell-dna-seq — observed in PMID:36355783 — note: Mission Bio Tapestri single-cell DNA sequencing on C106 resistant CRC cells (317 amplicons, 54 genes)
 - drug: entrectinib — observed in PMID:36228155 — note: FDA-approved TRK/ROS1/ALK inhibitor; NTRK1 fusions (LMNA::NTRK1) in GBC are OncoKB level 1 biomarker; not found in local ontology
 - drug: atezolizumab — observed in PMID:36228155 — note: anti-PD-L1 checkpoint inhibitor; 1 GBC patient in MSK cohort (n=233) received atezolizumab; not found in local ontology
-- drug: jq1 — observed in PMID:22037554 — note: BET bromodomain inhibitor (tool compound); targets BRD4; enhances cytotoxicity in ARID1A-deficient SCLC cells; synergizes with BRD-K98645985
-- drug: brd-k98645985 — observed in PMID:22037554 — note: 12-membered macrolactam compound selectively targeting the ARID1A-containing BAF complex; potent single-agent and JQ1-synergistic antitumor activity in SCLC
+- drug: jq1 — observed in PMID:41049615 — note: BET bromodomain inhibitor (tool compound); targets BRD4; enhances cytotoxicity in ARID1A-deficient SCLC cells; synergizes with BRD-K98645985
+- drug: brd-k98645985 — observed in PMID:41049615 — note: 12-membered macrolactam compound selectively targeting the ARID1A-containing BAF complex; potent single-agent and JQ1-synergistic antitumor activity in SCLC
 - cancer_type: SCA — observed in PMID:22158988 — note: serous cystadenoma of the pancreas; benign neoplastic cyst; no OncoTree code found; VHL-driven
 - drug: rituximab — observed in PMID:22343534 — note: anti-CD20 antibody in R-CHOP standard of care for DLBCL
 - method: mutsig — observed in PMID:22343534 — note: MutSig algorithm for identifying significantly mutated genes above background mutation rate
@@ -385,74 +385,74 @@
 - method: rsem — observed in PMID:24326773 — note: RSEM transcript quantification from STAR-aligned RNA-seq in 28 metastatic NENs (pog570_bcgsc_2020)
 - method: edger — observed in PMID:24326773 — note: edgeR differential expression analysis across transcriptome clusters in 28 metastatic NENs (pog570_bcgsc_2020)
 - drug: plx4720 — observed in PMID:24434212 — note: tool-compound BRAF inhibitor used in vitro in BRAF-K601N U266 MM cell line vs BRAF-WT lines
-- drug: brontictuzumab — observed in PMID:24418857 — note: anti-NOTCH1 monoclonal antibody; cited as candidate therapy for NOTCH1-mutant adenoid cystic carcinoma (ACYC)
-- drug: adg106 — observed in PMID:24952746 — note: anti-4-1BB (TNFRSF9) agonist mAb; phase I in NPC; no significant activity reported
-- drug: anlotinib — observed in PMID:24798001, 24952746 — note: multi-target VEGFR2/FGFR1/PDGFRA/KIT TKI; investigated in HCC and NPC
-- drug: apatinib — observed in PMID:24798001, 24952746 — note: VEGFR2 TKI; + camrelizumab ORR 65.5% in R/M NPC (NCT04586088)
-- drug: bat6026 — observed in PMID:24952746 — note: anti-OX40 (TNFRSF4) agonist mAb; phase I in NPC; no significant NPC activity reported
-- drug: becotatug-vedotin — observed in PMID:24952746 — note: anti-EGFR ADC (MRG003); ORR 30.2% in R/M NPC post platinum + anti-PD-1 (randomized)
-- drug: bgb-a445 — observed in PMID:24952746 — note: investigational checkpoint inhibitor cited in NPC landscape review; target not specified in review
-- drug: bintrafusp-alfa — observed in PMID:24952746 — note: PD-L1 x TGF-β bispecific fusion protein (M7824); ORR 23.7% in R/M NPC; hyper-progression in platinum-refractory patients
-- drug: bl-b01d1 — observed in PMID:24952746 — note: bispecific EGFR x HER3 ADC; ORR 38% in NPC sub-cohort (n=42, NCT05194982); grade ≥3 TRAE 71%
-- drug: blu-554 — observed in PMID:24798001 — note: selective covalent FGFR4 inhibitor; 16% ORR in FGF19 IHC+ HCC vs 0% in FGFR4-negative
-- drug: brivanib — observed in PMID:24798001 — note: dual VEGFR2/FGFR1 TKI; failed frontline HCC vs sorafenib; failed TACE combination phase III
-- drug: cadonilimab — observed in PMID:24952746 — note: bispecific PD-1 x CTLA-4 mAb (AK104); ORR 68% in PD-1-refractory R/M NPC + chemo (n=25)
-- drug: camrelizumab — observed in PMID:24952746 — note: anti-PD-1 mAb (SHR-1210); combined with apatinib (ORR 65.5%) and dalpiciclib (ORR 32.4%) in R/M NPC
-- drug: caspofungin — observed in PMID:24816253 — note: echinocandin antifungal; used as CWI pathway probe in yeast RHOA mutant study; no differential sensitivity across mutants
-- drug: dalpiciclib — observed in PMID:24952746 — note: CDK4/6 inhibitor (SHR6390); + camrelizumab ORR 32.4% in anti-PD-1-refractory R/M NPC (n=34)
-- drug: dky709 — observed in PMID:24952746 — note: IKZF2 (Helios) degrader; under investigation to reprogram Tregs in R/M NPC
-- drug: donafenib — observed in PMID:24798001 — note: deuterated sorafenib analog; multi-kinase TKI investigated as frontline HCC agent
-- drug: envafolimab — observed in PMID:24952746 — note: subcutaneous anti-PD-L1 nanobody (KN035); + CCRT phase II ORR 94.4% in locally advanced NPC
-- drug: fgf401 — observed in PMID:24798001 — note: selective non-covalent FGFR4 inhibitor; requires FGF19 IHC expression for HCC enrichment
-- drug: fuzuloparib — observed in PMID:24952746 — note: PARP1/2 inhibitor (SHR-3162); being tested + ICI in NPC to exploit DNA repair deficiency
-- drug: galunisertib — observed in PMID:24798001 — note: TGF-β receptor I (ALK5) inhibitor (LY2157299); + sorafenib under evaluation in HCC immune-exhausted subclass
-- drug: gen1160 — observed in PMID:24952746 — note: anti-CD70 ADC; under clinical investigation for immunosuppressive TME in R/M NPC
-- drug: gen1286 — observed in PMID:24952746 — note: bispecific EGFR x MET ADC; targets MET-driven EGFR-resistance escape in R/M NPC
-- drug: h3b-6527 — observed in PMID:24798001 — note: selective FGFR4 inhibitor; requires FGF19 IHC expression for HCC patient enrichment
-- drug: hlx10 — observed in PMID:24952746 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
-- drug: ibi-310 — observed in PMID:24952746 — note: anti-CTLA-4 mAb; evaluated + sintilimab in R/M NPC
-- drug: ilb-2109 — observed in PMID:24952746 — note: selective A2AR antagonist; + toripalimab phase Ib/IIa in R/M NPC
-- drug: inc-b099280 — observed in PMID:24952746 — note: anti-BTLA mAb; targets BTLA-mediated T-cell exhaustion in R/M NPC
-- drug: lbl-007 — observed in PMID:24952746 — note: anti-LAG-3 mAb; + toripalimab ORR 33.3% ICI-naïve / 11.8% ICI-refractory NPC (n=30)
-- drug: linifanib — observed in PMID:24798001 — note: VEGFR/PDGFR TKI; failed frontline HCC vs sorafenib phase III (HR 1.12–1.15)
-- drug: mva-eb-na1-lmp2 — observed in PMID:24952746 — note: MVA viral-vector EBV therapeutic vaccine (EBNA1/LMP2); investigational NPC immunotherapy
-- drug: myriocin — observed in PMID:24816253 — note: serine palmitoyltransferase inhibitor / TORC2 probe; all viable RHOA hotspot mutants confer resistance in yeast model
-- drug: nanatinostat — observed in PMID:24952746 — note: HDAC inhibitor; investigational for EBV-driven epigenetic dysregulation in R/M NPC
-- drug: nimotuzumab — observed in PMID:24952746 — note: humanized anti-EGFR mAb; under evaluation in EGFR-overexpressing R/M NPC
-- drug: niraparib — observed in PMID:24952746 — note: PARP1/2 inhibitor; + ICI in R/M NPC to exploit DNA repair deficiencies
-- drug: penpulimab — observed in PMID:24952746 — note: anti-PD-1 mAb; NCCN first-line R/M NPC standard (+ platinum/gemcitabine)
-- drug: pimurutamab — observed in PMID:24952746 — note: anti-EGFR mAb; investigational in EGFR-overexpressing R/M NPC
-- drug: plx-4545 — observed in PMID:24952746 — note: IKZF2 (Helios) degrader; clinical-stage Treg reprogramming agent in NPC
-- drug: ql1706 — observed in PMID:24952746 — note: bispecific PD-1×CTLA-4 mAb; investigational for R/M NPC dual checkpoint blockade
-- drug: ramucirumab — observed in PMID:24798001 — note: anti-VEGFR2 mAb; REACH-2 phase III positive in AFP≥400 HCC (OS HR 0.71); first biomarker-enriched HCC approval
-- drug: relatlimab — observed in PMID:24952746 — note: anti-LAG-3 mAb; + nivolumab REMAIN trial in NPC
-- drug: retlirafusp-alfa — observed in PMID:24952746 — note: bintrafusp alfa; PD-L1×TGF-β bispecific; ORR 23.7% but hyper-progression risk in platinum-refractory NPC (n=38)
-- drug: ribociclib — observed in PMID:24798001 — note: CDK4/6 inhibitor; HCC rationale via RB1 LOF (4%) and CDKN2A deletion (5%)
-- drug: serplulimab — observed in PMID:24952746 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
-- drug: shr-1701 — observed in PMID:24952746 — note: bispecific PD-L1×TGF-β antibody fusion; investigational in R/M NPC
-- drug: si-b003 — observed in PMID:24952746 — note: bispecific PD-1×CTLA-4 mAb; investigational dual checkpoint blockade in R/M NPC
-- drug: sintilimab — observed in PMID:24952746 — note: anti-PD-1 mAb; phase III + CCRT locally advanced NPC EFS HR 0.59 (36-mo EFS 86% vs 76%, n=425)
-- drug: spartalizumab — observed in PMID:24798001 — note: anti-PD-1 mAb; investigational ICI in HCC immune therapy context
-- drug: surufatinib — observed in PMID:24952746 — note: VEGFR2/FGFR1/CSF1R TKI; anti-angiogenic agent evaluated in R/M NPC
-- drug: tabelecleucel — observed in PMID:24952746 — note: allogeneic EBV-CTL; SD 50%, 0 ORR in EBV+ NPC (n=12); development terminated
-- drug: tagitanlimab — observed in PMID:24952746 — note: anti-PD-L1 mAb; phase III + gem/cis R/M NPC PFS HR 0.47, ORR 81.7% (n=358)
-- drug: tak-500 — observed in PMID:24952746 — note: anti-4-1BB agonist; phase I T-cell co-stimulatory agent in NPC; no significant activity to date
-- drug: taladegib — observed in PMID:24952746 — note: SMO inhibitor (Hedgehog pathway); phase II in PTCH1-mutant solid tumors including NPC
-- drug: tifcemalimab — observed in PMID:24952746 — note: anti-BTLA mAb (JS004); targets BTLA T-cell exhaustion checkpoint in R/M NPC
-- drug: tislelizumab — observed in PMID:24952746 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
-- drug: tolinapant — observed in PMID:24952746 — note: IAP inhibitor (SMAC mimetic) targeting XIAP/cIAP1/2; + radiotherapy in NPC
-- drug: toripalimab — observed in PMID:24952746 — note: anti-PD-1 mAb; NCCN first-line R/M NPC standard (+ platinum/gemcitabine)
-- drug: tqb2618 — observed in PMID:24952746 — note: anti-TIM-3 mAb; ± penpulimab ORR 0%, PFS 1.6 mo in R/M NPC (n=17)
-- drug: tqb2858 — observed in PMID:24952746 — note: bispecific PD-1×B7-H3 mAb; exploits CD276 overexpression in NPC
-- drug: tremelimumab — observed in PMID:24798001 — note: anti-CTLA-4 mAb; phase II HCC ORR 17.6% (n=20); + durvalumab NCT03298451
-- drug: valganciclovir — observed in PMID:24952746 — note: antiviral (ganciclovir prodrug); EBV lytic reactivation strategy in R/M NPC
-- drug: vk-2019 — observed in PMID:24952746 — note: EBNA1 small-molecule inhibitor; ORR 4.5% EBV+ R/M NPC (n=22); limited single-agent activity
-- drug: vudalimab — observed in PMID:24952746 — note: bispecific PD-1×CTLA-4 mAb; investigational dual checkpoint blockade in R/M NPC
-- drug: wgc-043 — observed in PMID:24952746 — note: mRNA EBV therapeutic vaccine; ORR 16.7% EBV+ R/M NPC (n=12); no grade ≥3 TRAEs
-- drug: yl201 — observed in PMID:24952746 — note: anti-B7-H3 ADC; ORR 48.6% in NPC sub-cohort (n=70); grade ≥3 TRAE 54.5%
-- drug: verteporfin — observed in PMID:24997986 — note: YAP-TEAD inhibitor (benzoporphyrin photosensitizer); blocks stiffness-induced CAF activation and SEMA7A secretion in GBC stroma; no oncology approval
-- drug: ly294002 — observed in PMID:24997986 — note: pan-PI3K inhibitor (chromone research tool); blocks AKT-dependent p300 S1834 phosphorylation in SEMA7A/ITGB1 signalling in GBC
-- drug: c646 — observed in PMID:24997986 — note: p300/CBP HAT inhibitor (research tool); abrogates SEMA7A-induced EMT and H3K27ac at SNAI1/ZEB1 promoters in GBC
+- drug: brontictuzumab — observed in PMID:39760648 — note: anti-NOTCH1 monoclonal antibody; cited as candidate therapy for NOTCH1-mutant adenoid cystic carcinoma (ACYC)
+- drug: adg106 — observed in PMID:41002550 — note: anti-4-1BB (TNFRSF9) agonist mAb; phase I in NPC; no significant activity reported
+- drug: anlotinib — observed in PMID:30061739, 41002550 — note: multi-target VEGFR2/FGFR1/PDGFRA/KIT TKI; investigated in HCC and NPC
+- drug: apatinib — observed in PMID:30061739, 41002550 — note: VEGFR2 TKI; + camrelizumab ORR 65.5% in R/M NPC (NCT04586088)
+- drug: bat6026 — observed in PMID:41002550 — note: anti-OX40 (TNFRSF4) agonist mAb; phase I in NPC; no significant NPC activity reported
+- drug: becotatug-vedotin — observed in PMID:41002550 — note: anti-EGFR ADC (MRG003); ORR 30.2% in R/M NPC post platinum + anti-PD-1 (randomized)
+- drug: bgb-a445 — observed in PMID:41002550 — note: investigational checkpoint inhibitor cited in NPC landscape review; target not specified in review
+- drug: bintrafusp-alfa — observed in PMID:41002550 — note: PD-L1 x TGF-β bispecific fusion protein (M7824); ORR 23.7% in R/M NPC; hyper-progression in platinum-refractory patients
+- drug: bl-b01d1 — observed in PMID:41002550 — note: bispecific EGFR x HER3 ADC; ORR 38% in NPC sub-cohort (n=42, NCT05194982); grade ≥3 TRAE 71%
+- drug: blu-554 — observed in PMID:30061739 — note: selective covalent FGFR4 inhibitor; 16% ORR in FGF19 IHC+ HCC vs 0% in FGFR4-negative
+- drug: brivanib — observed in PMID:30061739 — note: dual VEGFR2/FGFR1 TKI; failed frontline HCC vs sorafenib; failed TACE combination phase III
+- drug: cadonilimab — observed in PMID:41002550 — note: bispecific PD-1 x CTLA-4 mAb (AK104); ORR 68% in PD-1-refractory R/M NPC + chemo (n=25)
+- drug: camrelizumab — observed in PMID:41002550 — note: anti-PD-1 mAb (SHR-1210); combined with apatinib (ORR 65.5%) and dalpiciclib (ORR 32.4%) in R/M NPC
+- drug: caspofungin — observed in PMID:41002403 — note: echinocandin antifungal; used as CWI pathway probe in yeast RHOA mutant study; no differential sensitivity across mutants
+- drug: dalpiciclib — observed in PMID:41002550 — note: CDK4/6 inhibitor (SHR6390); + camrelizumab ORR 32.4% in anti-PD-1-refractory R/M NPC (n=34)
+- drug: dky709 — observed in PMID:41002550 — note: IKZF2 (Helios) degrader; under investigation to reprogram Tregs in R/M NPC
+- drug: donafenib — observed in PMID:30061739 — note: deuterated sorafenib analog; multi-kinase TKI investigated as frontline HCC agent
+- drug: envafolimab — observed in PMID:41002550 — note: subcutaneous anti-PD-L1 nanobody (KN035); + CCRT phase II ORR 94.4% in locally advanced NPC
+- drug: fgf401 — observed in PMID:30061739 — note: selective non-covalent FGFR4 inhibitor; requires FGF19 IHC expression for HCC enrichment
+- drug: fuzuloparib — observed in PMID:41002550 — note: PARP1/2 inhibitor (SHR-3162); being tested + ICI in NPC to exploit DNA repair deficiency
+- drug: galunisertib — observed in PMID:30061739 — note: TGF-β receptor I (ALK5) inhibitor (LY2157299); + sorafenib under evaluation in HCC immune-exhausted subclass
+- drug: gen1160 — observed in PMID:41002550 — note: anti-CD70 ADC; under clinical investigation for immunosuppressive TME in R/M NPC
+- drug: gen1286 — observed in PMID:41002550 — note: bispecific EGFR x MET ADC; targets MET-driven EGFR-resistance escape in R/M NPC
+- drug: h3b-6527 — observed in PMID:30061739 — note: selective FGFR4 inhibitor; requires FGF19 IHC expression for HCC patient enrichment
+- drug: hlx10 — observed in PMID:41002550 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
+- drug: ibi-310 — observed in PMID:41002550 — note: anti-CTLA-4 mAb; evaluated + sintilimab in R/M NPC
+- drug: ilb-2109 — observed in PMID:41002550 — note: selective A2AR antagonist; + toripalimab phase Ib/IIa in R/M NPC
+- drug: inc-b099280 — observed in PMID:41002550 — note: anti-BTLA mAb; targets BTLA-mediated T-cell exhaustion in R/M NPC
+- drug: lbl-007 — observed in PMID:41002550 — note: anti-LAG-3 mAb; + toripalimab ORR 33.3% ICI-naïve / 11.8% ICI-refractory NPC (n=30)
+- drug: linifanib — observed in PMID:30061739 — note: VEGFR/PDGFR TKI; failed frontline HCC vs sorafenib phase III (HR 1.12–1.15)
+- drug: mva-eb-na1-lmp2 — observed in PMID:41002550 — note: MVA viral-vector EBV therapeutic vaccine (EBNA1/LMP2); investigational NPC immunotherapy
+- drug: myriocin — observed in PMID:41002403 — note: serine palmitoyltransferase inhibitor / TORC2 probe; all viable RHOA hotspot mutants confer resistance in yeast model
+- drug: nanatinostat — observed in PMID:41002550 — note: HDAC inhibitor; investigational for EBV-driven epigenetic dysregulation in R/M NPC
+- drug: nimotuzumab — observed in PMID:41002550 — note: humanized anti-EGFR mAb; under evaluation in EGFR-overexpressing R/M NPC
+- drug: niraparib — observed in PMID:41002550 — note: PARP1/2 inhibitor; + ICI in R/M NPC to exploit DNA repair deficiencies
+- drug: penpulimab — observed in PMID:41002550 — note: anti-PD-1 mAb; NCCN first-line R/M NPC standard (+ platinum/gemcitabine)
+- drug: pimurutamab — observed in PMID:41002550 — note: anti-EGFR mAb; investigational in EGFR-overexpressing R/M NPC
+- drug: plx-4545 — observed in PMID:41002550 — note: IKZF2 (Helios) degrader; clinical-stage Treg reprogramming agent in NPC
+- drug: ql1706 — observed in PMID:41002550 — note: bispecific PD-1×CTLA-4 mAb; investigational for R/M NPC dual checkpoint blockade
+- drug: ramucirumab — observed in PMID:30061739 — note: anti-VEGFR2 mAb; REACH-2 phase III positive in AFP≥400 HCC (OS HR 0.71); first biomarker-enriched HCC approval
+- drug: relatlimab — observed in PMID:41002550 — note: anti-LAG-3 mAb; + nivolumab REMAIN trial in NPC
+- drug: retlirafusp-alfa — observed in PMID:41002550 — note: bintrafusp alfa; PD-L1×TGF-β bispecific; ORR 23.7% but hyper-progression risk in platinum-refractory NPC (n=38)
+- drug: ribociclib — observed in PMID:30061739 — note: CDK4/6 inhibitor; HCC rationale via RB1 LOF (4%) and CDKN2A deletion (5%)
+- drug: serplulimab — observed in PMID:41002550 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
+- drug: shr-1701 — observed in PMID:41002550 — note: bispecific PD-L1×TGF-β antibody fusion; investigational in R/M NPC
+- drug: si-b003 — observed in PMID:41002550 — note: bispecific PD-1×CTLA-4 mAb; investigational dual checkpoint blockade in R/M NPC
+- drug: sintilimab — observed in PMID:41002550 — note: anti-PD-1 mAb; phase III + CCRT locally advanced NPC EFS HR 0.59 (36-mo EFS 86% vs 76%, n=425)
+- drug: spartalizumab — observed in PMID:30061739 — note: anti-PD-1 mAb; investigational ICI in HCC immune therapy context
+- drug: surufatinib — observed in PMID:41002550 — note: VEGFR2/FGFR1/CSF1R TKI; anti-angiogenic agent evaluated in R/M NPC
+- drug: tabelecleucel — observed in PMID:41002550 — note: allogeneic EBV-CTL; SD 50%, 0 ORR in EBV+ NPC (n=12); development terminated
+- drug: tagitanlimab — observed in PMID:41002550 — note: anti-PD-L1 mAb; phase III + gem/cis R/M NPC PFS HR 0.47, ORR 81.7% (n=358)
+- drug: tak-500 — observed in PMID:41002550 — note: anti-4-1BB agonist; phase I T-cell co-stimulatory agent in NPC; no significant activity to date
+- drug: taladegib — observed in PMID:41002550 — note: SMO inhibitor (Hedgehog pathway); phase II in PTCH1-mutant solid tumors including NPC
+- drug: tifcemalimab — observed in PMID:41002550 — note: anti-BTLA mAb (JS004); targets BTLA T-cell exhaustion checkpoint in R/M NPC
+- drug: tislelizumab — observed in PMID:41002550 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
+- drug: tolinapant — observed in PMID:41002550 — note: IAP inhibitor (SMAC mimetic) targeting XIAP/cIAP1/2; + radiotherapy in NPC
+- drug: toripalimab — observed in PMID:41002550 — note: anti-PD-1 mAb; NCCN first-line R/M NPC standard (+ platinum/gemcitabine)
+- drug: tqb2618 — observed in PMID:41002550 — note: anti-TIM-3 mAb; ± penpulimab ORR 0%, PFS 1.6 mo in R/M NPC (n=17)
+- drug: tqb2858 — observed in PMID:41002550 — note: bispecific PD-1×B7-H3 mAb; exploits CD276 overexpression in NPC
+- drug: tremelimumab — observed in PMID:30061739 — note: anti-CTLA-4 mAb; phase II HCC ORR 17.6% (n=20); + durvalumab NCT03298451
+- drug: valganciclovir — observed in PMID:41002550 — note: antiviral (ganciclovir prodrug); EBV lytic reactivation strategy in R/M NPC
+- drug: vk-2019 — observed in PMID:41002550 — note: EBNA1 small-molecule inhibitor; ORR 4.5% EBV+ R/M NPC (n=22); limited single-agent activity
+- drug: vudalimab — observed in PMID:41002550 — note: bispecific PD-1×CTLA-4 mAb; investigational dual checkpoint blockade in R/M NPC
+- drug: wgc-043 — observed in PMID:41002550 — note: mRNA EBV therapeutic vaccine; ORR 16.7% EBV+ R/M NPC (n=12); no grade ≥3 TRAEs
+- drug: yl201 — observed in PMID:41002550 — note: anti-B7-H3 ADC; ORR 48.6% in NPC sub-cohort (n=70); grade ≥3 TRAE 54.5%
+- drug: verteporfin — observed in PMID:40830485 — note: YAP-TEAD inhibitor (benzoporphyrin photosensitizer); blocks stiffness-induced CAF activation and SEMA7A secretion in GBC stroma; no oncology approval
+- drug: ly294002 — observed in PMID:40830485 — note: pan-PI3K inhibitor (chromone research tool); blocks AKT-dependent p300 S1834 phosphorylation in SEMA7A/ITGB1 signalling in GBC
+- drug: c646 — observed in PMID:40830485 — note: p300/CBP HAT inhibitor (research tool); abrogates SEMA7A-induced EMT and H3K27ac at SNAI1/ZEB1 promoters in GBC
 - drug: aspirin — observed in PMID:25164765 — note: COX-1/COX-2 inhibitor / chemopreventive agent; PIK3CA-mutant CRC may derive differential benefit (Domingo et al. JCO 2013 cited)
 - drug: enzalutamide — observed in PMID:25201530 — note: second-generation AR antagonist; AR-amplified CRPC organoid MSK-PCa2 exquisitely sensitive (IC50 ~50 nM); resistance in non-AR-amplified lines
 - drug: buparlisib — observed in PMID:25201530 — note: BKM-120; pan-class I PI3K inhibitor; sensitivity in PTEN-loss/PIK3R1-mutant CRPC organoid (MSK-PCa2)
@@ -460,10 +460,10 @@
 - method: gatk-somatic-indel-detector — observed in PMID:25583493 — note: GATK Somatic Indel Detector; somatic indel calling in paired tumor/normal WES pipeline for AA CRC
 - method: somatic-signatures — observed in PMID:25583493 — note: mutational signature analysis characterizing C>T transitions in MSS AA CRC discovery exomes
 - method: integrative-genomics-viewer — observed in PMID:25583493 — note: IGV used for manual variant review and validation in AA CRC WES study
-- method: its2-rdna-seq — observed in PMID:25608663 — note: ITS2 rDNA mycobiome amplicon sequencing; Candida albicans overgrowth correlating with CCA TNM stage
-- method: bile-acid-metabolomics — observed in PMID:25608663 — note: targeted HPLC/MS + UPLC-MS/MS quantification of 15-30 BA species; diagnostic panels outperform CA19-9 in CCA
-- method: mendelian-randomization — observed in PMID:25608663 — note: two-sample MR using MiBioGen + IEU GWAS to identify causal gut microbiota in biliary tract cancer
-- method: random-forest-classifier — observed in PMID:25608663 — note: eight-genus bacterial RF classifier AUC 0.92-0.99 for CCA vs HCC discrimination
+- method: its2-rdna-seq — observed in PMID:41018102 — note: ITS2 rDNA mycobiome amplicon sequencing; Candida albicans overgrowth correlating with CCA TNM stage
+- method: bile-acid-metabolomics — observed in PMID:41018102 — note: targeted HPLC/MS + UPLC-MS/MS quantification of 15-30 BA species; diagnostic panels outperform CA19-9 in CCA
+- method: mendelian-randomization — observed in PMID:41018102 — note: two-sample MR using MiBioGen + IEU GWAS to identify causal gut microbiota in biliary tract cancer
+- method: random-forest-classifier — observed in PMID:41018102 — note: eight-genus bacterial RF classifier AUC 0.92-0.99 for CCA vs HCC discrimination
 - drug: tanespimycin — observed in PMID:25822088 — note: HSP90 inhibitor (17-AAG); sensitivity inversely correlated with NQO1 expression in HCC cell lines; NQO1 P187S variant confers resistance
 - drug: alvespimycin — observed in PMID:25822088 — note: HSP90 inhibitor (17-DMAG); bioactive metabolite of tanespimycin; same NQO1/KEAP1 sensitivity pattern as 17-AAG
 - drug: mitomycin-c — observed in PMID:25855536 — note: DNA cross-linking agent; nominated for PDA with Fanconi-anaemia/DSB-repair deficiency (14% of cases)
@@ -471,11 +471,11 @@
 - drug: amg-232 — observed in PMID:26091043 — note: MDM2 antagonist; nominated for MDM2-amplified BCL2-high Triple-WT melanoma subtype
 - drug: crenolanib — observed in PMID:26091043 — note: PDGFRA/FLT3 inhibitor; nominated for Triple-WT melanoma with 4q12 PDGFRA/KDR co-amplification
 - drug: aldesleukin — observed in PMID:26091043 — note: recombinant IL-2 cytokine immunotherapy; prior melanoma response data contextualize TCGA Immune-subclass survival findings
-- drug: h3b-8800 — observed in PMID:26200345 — note: SF3b complex splicing modulator (SF3B1-targeting); synergistic with temsirolimus in SF3B1-mutant/del(13q) CLL; prior phase I (NCT02841540) showed dose-limiting toxicity as monotherapy
-- drug: methoxsalen — observed in PMID:26950094 — note: 8-methoxypsoralen (8-MOP); used with UVA (PUVA) in ancillary HaCaT cell-line experiment to validate PUVA mutational signature; not an intervention tested in patients
-- drug: acitretin — observed in PMID:26950094 — note: synthetic retinoid used as prior anti-psoriatic/immunosuppressive agent in some patients; not an intervention tested in this study
-- method: nanoseq — observed in PMID:26950094 — note: duplex single-molecule error-correction sequencing (Abascal et al. 2021); error rate <5/billion bp; applied to epidermal DNA to quantify NB-UVB-induced somatic mutation burden in psoriasis patients; ~1/3-genome coverage per library
-- method: polygenic-risk-score — observed in PMID:26950094 — note: PGS for UV tanning propensity (PGS001244 "mildly/occasionally tanned", PGS001246 "very tanned", PGS001247 "never tan") correlated with dose-normalised NB-UVB mutation burden in skin biopsies; not a cBioPortal gene panel
+- drug: h3b-8800 — observed in PMID:40694421 — note: SF3b complex splicing modulator (SF3B1-targeting); synergistic with temsirolimus in SF3B1-mutant/del(13q) CLL; prior phase I (NCT02841540) showed dose-limiting toxicity as monotherapy
+- drug: methoxsalen — observed in PMID:40317189 — note: 8-methoxypsoralen (8-MOP); used with UVA (PUVA) in ancillary HaCaT cell-line experiment to validate PUVA mutational signature; not an intervention tested in patients
+- drug: acitretin — observed in PMID:40317189 — note: synthetic retinoid used as prior anti-psoriatic/immunosuppressive agent in some patients; not an intervention tested in this study
+- method: nanoseq — observed in PMID:40317189 — note: duplex single-molecule error-correction sequencing (Abascal et al. 2021); error rate <5/billion bp; applied to epidermal DNA to quantify NB-UVB-induced somatic mutation burden in psoriasis patients; ~1/3-genome coverage per library
+- method: polygenic-risk-score — observed in PMID:40317189 — note: PGS for UV tanning propensity (PGS001244 "mildly/occasionally tanned", PGS001246 "very tanned", PGS001247 "never tan") correlated with dose-normalised NB-UVB mutation burden in skin biopsies; not a cBioPortal gene panel
 - method: targeted-dna-seq — observed in PMID:26901067 — note: 300-gene exon-capture panel applied to 19 plasmacytoid-variant bladder tumors as validation cohort; CDH1 truncating mutations in 14/19 cases
 - method: microarray-gene-expression — observed in PMID:26928463 — note: Agilent 44K expression array on 171 mCRPC tumors; GEO accession GSE74685; AR activity and CCP score concordant within patients
 - method: array-cgh-agilent-1m — observed in PMID:26878173,26928463 — note: Agilent SurePrint G3 1x1M and 2x400K array-CGH platforms for CNA profiling in thyroid and prostate cancer cohorts
@@ -484,11 +484,11 @@
 - drug: cytarabine — observed in PMID:27276561 — note: pyrimidine analog; ICE induction backbone in AMLSG AML trials (idarubicin+cytarabine+etoposide); canonical name ara-C; not in drugs ontology
 - drug: idarubicin — observed in PMID:27276561 — note: anthracycline; ICE induction backbone in AMLSG AML trials; not in drugs ontology
 - drug: tretinoin — observed in PMID:27276561 — note: all-trans retinoic acid (ATRA); RAR agonist; added to ICE induction in two AMLSG trial arms; standard APL therapy; not in drugs ontology
-- drug: lorlatinib — observed in PMID:27346245 — note: third-generation ALK/ROS1 TKI; CROWN trial; relevant to young-onset NSCLC with ALK rearrangements; not in drugs ontology
-- drug: tepotinib — observed in PMID:27346245 — note: selective MET TKI; VISION trial; MET exon 14 skipping age-skewed (rare in <50 yr); not in drugs ontology
+- drug: lorlatinib — observed in PMID:40958859 — note: third-generation ALK/ROS1 TKI; CROWN trial; relevant to young-onset NSCLC with ALK rearrangements; not in drugs ontology
+- drug: tepotinib — observed in PMID:40958859 — note: selective MET TKI; VISION trial; MET exon 14 skipping age-skewed (rare in <50 yr); not in drugs ontology
 - drug: bleomycin — observed in PMID:27646943 — note: glycopeptide antibiotic; BEP component in first-line GCT therapy (37.2% of N=180); not in drugs ontology
 - drug: ifosfamide — observed in PMID:27646943 — note: alkylating agent; TIP/VIP salvage regimens in GCT (20% of N=180); not in drugs ontology
-- drug: pemetrexed — observed in PMID:27346245 — note: multitargeted antifolate; teratogenic and contraindicated in pregnancy in young-onset NSCLC; not in drugs ontology
+- drug: pemetrexed — observed in PMID:40958859 — note: multitargeted antifolate; teratogenic and contraindicated in pregnancy in young-onset NSCLC; not in drugs ontology
 - method: oncoscan-snp-array — observed in PMID:27713405 — note: Affymetrix OncoScan FFPE SNP array for genome-wide CN/LOH; used on 15/16 NF2-loss uRCC cases; not in cBioPortal gene panels ontology
 - method: exact-1 — observed in PMID:27749842 — note: CLIA-grade whole-exome sequencing assay (Agilent HaloPlex, 21,522 genes, 85x mean coverage) developed at Weill Cornell Medicine; not in cBioPortal gene panels ontology
 - method: n250-targeted-panel — observed in PMID:27749842 — note: 250 cancer-gene targeted panel (NimbleGen SeqCap EZ Choice, 400x mean coverage) used as orthogonal WES validation; not in cBioPortal gene panels ontology
@@ -502,26 +502,26 @@
 - method: cone-beam-ct-igrt — observed in PMID:27826200 — note: CBCT-based daily image-guided radiotherapy for positional verification in pancreatic SBRT; not a molecular assay
 - method: aml-264-gene-panel — observed in PMID:27959731 — note: enhanced WES with supplemental probes for 264 AML genes (NimbleGen v3 + custom capture, Illumina HiSeq); not in cBioPortal gene panels ontology
 - method: aml-8-gene-ampliseq-panel — observed in PMID:27959731 — note: Ion AmpliSeq panel covering TP53, DNMT3A, IDH1, IDH2, ASXL1, SRSF2, U2AF1, SF3B1 for serial AML clonal monitoring; not in cBioPortal gene panels ontology
-- method: genome-wide-association-study — observed in PMID:27346245 — note: GWAS for gene-environment interactions in young-onset NSCLC; review notes sparse GWAS in non-Caucasian populations; corpus-grown slug
+- method: genome-wide-association-study — observed in PMID:40958859 — note: GWAS for gene-environment interactions in young-onset NSCLC; review notes sparse GWAS in non-Caucasian populations; corpus-grown slug
 - drug: decitabine — observed in PMID:27959731 — note: hypomethylating agent; 10-day dosing (20 mg/m²/day) in AML/MDS; TP53-mutant AML 100% response rate; approved for MDS; corpus-grown slug (not confirmed in OncoKB drugs list)
 - drug: azacitidine — observed in PMID:27959731 — note: hypomethylating agent (HMA); parallel to decitabine; approved for MDS and AML; corpus-grown slug (not confirmed in OncoKB drugs list)
 - drug: busulfan — observed in PMID:27959731 — note: alkylating agent; Bu/Cy or Bu/Flu myeloablative conditioning for allo-SCT in AML/MDS; corpus-grown slug
 - drug: melphalan — observed in PMID:27959731 — note: nitrogen mustard alkylating agent; RIC/myeloablative conditioning for allo-SCT in AML/MDS; corpus-grown slug
 - drug: cladribine — observed in PMID:27959731 — note: purine analog; CLAG/CLAG-M salvage induction in relapsed AML; corpus-grown slug
 - drug: daunorubicin — observed in PMID:27959731 — note: anthracycline; 7+3 induction backbone in AML (daunorubicin + cytarabine); TP53-mutant AML yields only 4–6-month OS on 7+3; corpus-grown slug
-- method: 3prime-rna-seq — observed in PMID:28445112 — note: Lexogen QuantSeq 3' mRNA-Seq FWD on NovaSeq 6000; 25 endometrial polyps + 6 normal endometrium; gene-level expression only
-- method: cnvkit — observed in PMID:28445112 — note: CNVkit copy-number calling against pooled blood normal of 18 matched controls in endometrial polyp WGS pipeline
-- method: sigprofiler — observed in PMID:28445112 — note: SigProfiler mutational signature extraction from endometrial polyp SNVs; SBS1/SBS5/SBS40 dominant
-- method: mutationalpatterns — observed in PMID:28445112 — note: MutationalPatterns 3.4.1 complementary signature analysis; additionally identified SBS8 and SBS89 in endometrial polyps
-- method: oncodriveclust — observed in PMID:28445112 — note: OncodriveCLUST driver detection by mutation clustering; nominated UBE2A codon-6 as candidate driver (score 0.83, q=1.51×10⁻⁵) in endometrial polyps
-- method: alphamissense — observed in PMID:28445112 — note: AlphaMissense deep-learning pathogenicity scorer; UBE2A p.(Arg6Trp) score 0.96 (likely pathogenic) in endometrial polyp driver analysis
-- method: cadd — observed in PMID:28445112 — note: CADD Phred-scaled deleteriousness scorer; UBE2A p.(Arg6Trp) CADD=24.4 in endometrial polyp variant annotation
-- method: revel — observed in PMID:28445112 — note: REVEL ensemble pathogenicity predictor; UBE2A p.(Arg6Trp) REVEL=0.56 in endometrial polyp variant annotation
-- method: splice-ai — observed in PMID:28445112 — note: SpliceAI deep-learning splice-site predictor; HMGA1 c.268C>G scored delta 0.25 (weak donor-site loss) in endometrial polyp study
-- method: dynamut — observed in PMID:28445112 — note: DynaMut protein-stability predictor (PDB 6CYO); UBE2A p.(Arg6Trp) ΔΔG=+1.650 kcal/mol (stabilizing) in endometrial polyp driver analysis
-- method: trusight-pan-cancer-rna-panel — observed in PMID:28199314 — note: Illumina TruSight Pan-Cancer RNA panel; detected EWSR1::BEND2 fusion in bladder small round cell sarcoma; retrospective research use
-- method: sarcoma-methylation-classifier — observed in PMID:28199314 — note: Koelsche et al. v13 sarcoma DNA-methylation classifier; no class match for EWSR1::BEND2 bladder sarcoma on EPIC array
-- method: brain-tumor-methylation-classifier — observed in PMID:28199314 — note: Capper et al. CNS tumor methylation classifier; low-confidence score 0.364 for MN1-rearranged astroblastoma in EWSR1::BEND2 bladder sarcoma
+- method: 3prime-rna-seq — observed in PMID:41137179 — note: Lexogen QuantSeq 3' mRNA-Seq FWD on NovaSeq 6000; 25 endometrial polyps + 6 normal endometrium; gene-level expression only
+- method: cnvkit — observed in PMID:41137179 — note: CNVkit copy-number calling against pooled blood normal of 18 matched controls in endometrial polyp WGS pipeline
+- method: sigprofiler — observed in PMID:41137179 — note: SigProfiler mutational signature extraction from endometrial polyp SNVs; SBS1/SBS5/SBS40 dominant
+- method: mutationalpatterns — observed in PMID:41137179 — note: MutationalPatterns 3.4.1 complementary signature analysis; additionally identified SBS8 and SBS89 in endometrial polyps
+- method: oncodriveclust — observed in PMID:41137179 — note: OncodriveCLUST driver detection by mutation clustering; nominated UBE2A codon-6 as candidate driver (score 0.83, q=1.51×10⁻⁵) in endometrial polyps
+- method: alphamissense — observed in PMID:41137179 — note: AlphaMissense deep-learning pathogenicity scorer; UBE2A p.(Arg6Trp) score 0.96 (likely pathogenic) in endometrial polyp driver analysis
+- method: cadd — observed in PMID:41137179 — note: CADD Phred-scaled deleteriousness scorer; UBE2A p.(Arg6Trp) CADD=24.4 in endometrial polyp variant annotation
+- method: revel — observed in PMID:41137179 — note: REVEL ensemble pathogenicity predictor; UBE2A p.(Arg6Trp) REVEL=0.56 in endometrial polyp variant annotation
+- method: splice-ai — observed in PMID:41137179 — note: SpliceAI deep-learning splice-site predictor; HMGA1 c.268C>G scored delta 0.25 (weak donor-site loss) in endometrial polyp study
+- method: dynamut — observed in PMID:41137179 — note: DynaMut protein-stability predictor (PDB 6CYO); UBE2A p.(Arg6Trp) ΔΔG=+1.650 kcal/mol (stabilizing) in endometrial polyp driver analysis
+- method: trusight-pan-cancer-rna-panel — observed in PMID:41102727 — note: Illumina TruSight Pan-Cancer RNA panel; detected EWSR1::BEND2 fusion in bladder small round cell sarcoma; retrospective research use
+- method: sarcoma-methylation-classifier — observed in PMID:41102727 — note: Koelsche et al. v13 sarcoma DNA-methylation classifier; no class match for EWSR1::BEND2 bladder sarcoma on EPIC array
+- method: brain-tumor-methylation-classifier — observed in PMID:41102727 — note: Capper et al. CNS tumor methylation classifier; low-confidence score 0.364 for MN1-rearranged astroblastoma in EWSR1::BEND2 bladder sarcoma
 - method: fish-1p19q — observed in PMID:28472509 — note: FISH-based 1p/19q codeletion assay; used in anaplastic oligodendroglioma trial (odg_msk_2017); NGS detected a false-positive FISH call; corpus-grown slug
 - method: oncokb-annotation — observed in PMID:28472509 — note: OncoKB database classification of actionable variants (accessed Jan 2017) in 19 oligodendroglioma tumors; corpus-grown slug distinct from the oncokb pipeline tool
 - drug: thiotepa — observed in PMID:28472509 — note: aziridine-based alkylating agent; 250 mg/m²/day × 3 as HDC conditioning in anaplastic oligodendroglioma ASCT trial; not confirmed in OncoKB drug list
@@ -532,15 +532,15 @@
 - drug: dutasteride — observed in PMID:28825054 — note: dual 5-alpha reductase inhibitor (SRD5A1/SRD5A2) for BPH; appears as background prior medication in one patient in the MSK-IMPACT prostate cancer cohort; not a cancer therapeutic
 - method: firefly — observed in PMID:28667006 — note: computational method integrating PBM TF-binding data with WGS somatic promoter mutations to identify gene sets with concordant TF-binding disruption and transcriptional dysregulation; developed in CCA ICGC cohort
 - method: protein-binding-microarray — observed in PMID:28667006 — note: high-throughput TF-DNA binding affinity array; 486 TF profiles used as reference database for FIREFLY in ICGC CCA study
-- method: snps-seq — observed in PMID:28927585 — note: high-throughput allele-specific protein-binding screen across GWAS loci (374 prostate cancer risk loci); identified rs4519489 as functional causal SNP at NOL10 2p25 locus
-- method: emsa — observed in PMID:28927585 — note: electrophoretic mobility shift assay confirming allele-specific USF1 binding to rs4519489 A allele in 293T and LNCaP cells; super-shift EMSA confirmed USF1 identity
-- method: crispri — observed in PMID:28927585 — note: dCas9+sgRNA silencing of rs4519489 enhancer in 22Rv1 and PC3 cells; confirmed causal link between enhancer and NOL10 expression
-- method: crispr-base-editing — observed in PMID:28927585 — note: CBE for T→A conversion at rs4519489 in PC3 cells; AYBE editor for A→T in DU145; reciprocal edits established allele-specific NOL10 regulation
-- method: luciferase-reporter-assay — observed in PMID:28667006 — note: allele-specific reporter confirming FGFR2 3'UTR represses expression in HEK293T and H69 cells; also observed in PMID:28927585 for rs4519489 A-allele-higher enhancer activity in five PRAD cell lines
-- method: prostate-organoid-pten-lkb1 — observed in PMID:28927585 — note: organoids from Pten^pc-/-^;Lkb1^pc-/-^ C57BL/6J mice; NOL10/USF1 knockdown reduced organoid number and size; corpus-grown slug reflecting specific genotype
-- method: germline-burden-test — observed in PMID:29489754 — note: gene-level logistic regression + Fisher's exact burden testing of LP/PVs in 25 HBOC genes in 372 pediatric cancer patients vs. gnomAD v3.1.1 non-cancer controls
-- method: gnomad-non-cancer-controls — observed in PMID:29489754 — note: gnomAD v3.1.1 non-cancer subset (n=74,023) used as statistical comparator for germline burden testing in pediatric cancer cohort
-- method: acmg-variant-classification — observed in PMID:29489754 — note: ACMG/AMP five-tier variant pathogenicity classification (P/LP/VUS/LB/B) applied to germline WES variants in 25 HBOC genes in 372 pediatric cancer patients
+- method: snps-seq — observed in PMID:41062477 — note: high-throughput allele-specific protein-binding screen across GWAS loci (374 prostate cancer risk loci); identified rs4519489 as functional causal SNP at NOL10 2p25 locus
+- method: emsa — observed in PMID:41062477 — note: electrophoretic mobility shift assay confirming allele-specific USF1 binding to rs4519489 A allele in 293T and LNCaP cells; super-shift EMSA confirmed USF1 identity
+- method: crispri — observed in PMID:41062477 — note: dCas9+sgRNA silencing of rs4519489 enhancer in 22Rv1 and PC3 cells; confirmed causal link between enhancer and NOL10 expression
+- method: crispr-base-editing — observed in PMID:41062477 — note: CBE for T→A conversion at rs4519489 in PC3 cells; AYBE editor for A→T in DU145; reciprocal edits established allele-specific NOL10 regulation
+- method: luciferase-reporter-assay — observed in PMID:28667006 — note: allele-specific reporter confirming FGFR2 3'UTR represses expression in HEK293T and H69 cells; also observed in PMID:41062477 for rs4519489 A-allele-higher enhancer activity in five PRAD cell lines
+- method: prostate-organoid-pten-lkb1 — observed in PMID:41062477 — note: organoids from Pten^pc-/-^;Lkb1^pc-/-^ C57BL/6J mice; NOL10/USF1 knockdown reduced organoid number and size; corpus-grown slug reflecting specific genotype
+- method: germline-burden-test — observed in PMID:40857049 — note: gene-level logistic regression + Fisher's exact burden testing of LP/PVs in 25 HBOC genes in 372 pediatric cancer patients vs. gnomAD v3.1.1 non-cancer controls
+- method: gnomad-non-cancer-controls — observed in PMID:40857049 — note: gnomAD v3.1.1 non-cancer subset (n=74,023) used as statistical comparator for germline burden testing in pediatric cancer cohort
+- method: acmg-variant-classification — observed in PMID:40857049 — note: ACMG/AMP five-tier variant pathogenicity classification (P/LP/VUS/LB/B) applied to germline WES variants in 25 HBOC genes in 372 pediatric cancer patients
 - method: muse — observed in PMID:29596782 — note: MuSE somatic SNV caller; one of seven callers in TCGA MC3; highest pair-wise agreement with MuTect; run on DNAnexus cloud
 - method: somatic-sniper — observed in PMID:29596782 — note: SomaticSniper somatic SNV caller; one of seven callers in TCGA MC3; fewest calls overall, lowest false-positive rate; run on DNAnexus cloud
 - method: contest — observed in PMID:29596782 — note: ContEst contamination estimator; samples with contamination >4% excluded from TCGA MC3; also used in prad_p1000 (PMID:29610475) with <5% threshold
@@ -640,9 +640,9 @@
 - method: metabolomics — observed in PMID:37119971 — note: mass-spectrometry-based small-molecule profiling reviewed as an omics modality in multi-omics integration for precision health; no gene-panel ID; corpus-grown slug
 - method: mutationtimer — observed in PMID:39185963 — note: MutationTimeR; probabilistic tool for timing somatic mutations relative to copy-number changes; used in aSCLC WGS to place chromothripsis-associated amplifications early in tumorigenesis; not in gene_panels.json
 - method: wearable-sensor-monitoring — observed in PMID:37119971 — note: continuous physiological monitoring via wearable devices reviewed in multi-omics precision health context; no gene-panel ID; corpus-grown slug
-- drug: celecoxib — observed in PMID:38355797 — note: selective COX-2 (PTGS2) inhibitor / NSAID; sensitizes HCC to sorafenib and IFN-α in preclinical models via PGE2 suppression; not in OncoKB as anti-cancer agent; unverified: true
-- drug: lovastatin — observed in PMID:38355797 — note: lipophilic HMG-CoA reductase (HMGCR) inhibitor / statin; epidemiologic HCC risk reduction; NCT06636734 trial with pembrolizumab in HNSCC; not in OncoKB as anti-cancer agent; unverified: true
-- drug: atorvastatin — observed in PMID:38355797 — note: lipophilic HMG-CoA reductase (HMGCR) inhibitor / statin; epidemiologic HCC risk reduction stronger than hydrophilic statins; not in OncoKB as anti-cancer agent; unverified: true
-- drug: pravastatin — observed in PMID:38355797 — note: hydrophilic HMG-CoA reductase (HMGCR) inhibitor / statin; phase 2/3 trials with sorafenib in HCC failed to improve survival; not in OncoKB as anti-cancer agent; unverified: true
-- drug: simvastatin — observed in PMID:38355797 — note: lipophilic HMG-CoA reductase (HMGCR) inhibitor / statin; epidemiologic HCC risk reduction stronger than hydrophilic statins; not in OncoKB as anti-cancer agent; unverified: true
-- drug: orlistat — observed in PMID:38355797 — note: FASN inhibitor (also pancreatic lipase inhibitor approved for obesity); preclinical HCC suppression; synergizes with sorafenib and anti-PD-L1; not in OncoKB as anti-cancer agent; unverified: true
+- drug: celecoxib — observed in PMID:41118283 — note: selective COX-2 (PTGS2) inhibitor / NSAID; sensitizes HCC to sorafenib and IFN-α in preclinical models via PGE2 suppression; not in OncoKB as anti-cancer agent; unverified: true
+- drug: lovastatin — observed in PMID:41118283 — note: lipophilic HMG-CoA reductase (HMGCR) inhibitor / statin; epidemiologic HCC risk reduction; NCT06636734 trial with pembrolizumab in HNSCC; not in OncoKB as anti-cancer agent; unverified: true
+- drug: atorvastatin — observed in PMID:41118283 — note: lipophilic HMG-CoA reductase (HMGCR) inhibitor / statin; epidemiologic HCC risk reduction stronger than hydrophilic statins; not in OncoKB as anti-cancer agent; unverified: true
+- drug: pravastatin — observed in PMID:41118283 — note: hydrophilic HMG-CoA reductase (HMGCR) inhibitor / statin; phase 2/3 trials with sorafenib in HCC failed to improve survival; not in OncoKB as anti-cancer agent; unverified: true
+- drug: simvastatin — observed in PMID:41118283 — note: lipophilic HMG-CoA reductase (HMGCR) inhibitor / statin; epidemiologic HCC risk reduction stronger than hydrophilic statins; not in OncoKB as anti-cancer agent; unverified: true
+- drug: orlistat — observed in PMID:41118283 — note: FASN inhibitor (also pancreatic lipase inhibitor approved for obesity); preclinical HCC suppression; synergizes with sorafenib and anti-PD-L1; not in OncoKB as anti-cancer agent; unverified: true

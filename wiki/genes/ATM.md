@@ -23,7 +23,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Germline ATM pathogenic alterations in 1.8% of all PDAC; enriched at 18% prevalence in MAPK-WT PDAC vs 1.4% in KRAS-mutant (P = 2 × 10⁻⁶); germline ATM and somatic [TP53](../genes/TP53.md) alterations were mutually exclusive (P = 4 × 10⁻¹¹); [GNAS](../genes/GNAS.md) co-occurrence elevated in gATM carriers in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
 - ATM alterations detected in 11 cases (5.5%) of a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); part of underpowered DDR pooled analysis [PMID:40256659](../papers/40256659.md).
 - 14 mutations in 13 [LUAD](../cancer_types/LUAD.md) tumours (1 nonsense, 1 splice-site, 2 frameshift); first demonstration of significant ATM mutation frequency in [LUAD](../cancer_types/LUAD.md); mutually exclusive with [TP53](../genes/TP53.md) mutations (P=9.5e-5), suggesting either suffices for loss of cell-cycle checkpoint control. [PMID:18948947](../papers/18948947.md)
-- ATM screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; not prioritized as primary SL target [PMID:36334560](../papers/36334560.md)
+- ATM screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; not prioritized as primary SL target [PMID:40896366](../papers/40896366.md)
 - ATM mutations associated with improved ICI survival in metastatic UC when combined with FANCC/RB1 alterations [PMID:36333289](../papers/36333289.md)
 - ATM oncogenic mutations in 5 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
 - Somatic mutations in 2 cases of TNBC; ranked 30th by driverNet network analysis in 65-tumor WGS breast cancer cohort [PMID:22495314](../papers/22495314.md)
@@ -39,25 +39,25 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; known familial pancreatic cancer susceptibility gene and candidate for PARP/DNA-PKcs inhibitor sensitivity [PMID:24293293](../papers/24293293.md)
 - Two expressed mutations (1 in PAX-fusion-positive, 1 in PAX-fusion-negative rhabdomyosarcoma) identified in a pediatric [RMS](../cancer_types/RMS.md) genomic landscape study [PMID:24436047](../papers/24436047.md)
 - Significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) identified by COSMIC restriction analysis; included in the 32 significantly mutated genes from TCGA bladder urothelial carcinoma cohort (n=131) [PMID:24476821](../papers/24476821.md)
-- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289) as part of the non-actionable driver set [PMID:24798001](../papers/24798001.md)
-- Included in the standard multigene panel for hereditary gastric cancer risk (HBOC genes ATM, [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [BRIP1](../genes/BRIP1.md), [PALB2](../genes/PALB2.md) must be ruled out before FNHGC labeling) [PMID:24816255](../papers/24816255.md)
-- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
+- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289) as part of the non-actionable driver set [PMID:30061739](../papers/30061739.md)
+- Included in the standard multigene panel for hereditary gastric cancer risk (HBOC genes ATM, [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [BRIP1](../genes/BRIP1.md), [PALB2](../genes/PALB2.md) must be ruled out before FNHGC labeling) [PMID:41097736](../papers/41097736.md)
+- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:41136396](../papers/41136396.md)
 - Candidate dark-matter driver in papillary thyroid carcinoma; among additional driver alterations helping reduce unexplained 'dark matter' cases to 3.5% in the TCGA PTC cohort of 402 tumors [PMID:25417114](../papers/25417114.md)
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Biallelic loss (somatic + germline) in mCRPC contributing to 19.3% DNA-repair pathway aggregate; patients with biallelic ATM showed clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
-- Referenced as the previously published SF3B1-Atm co-mutant CLL murine model; used as comparison context for the SF3B1/del(13q) double-mutant model demonstrating accelerated CLL development via mTOR pathway activation [PMID:26200345](../papers/26200345.md)
+- Referenced as the previously published SF3B1-Atm co-mutant CLL murine model; used as comparison context for the SF3B1/del(13q) double-mutant model demonstrating accelerated CLL development via mTOR pathway activation [PMID:40694421](../papers/40694421.md)
 - ATM shows high co-occurrence with del(11q) (OR 10.99) in 538 CLL WES cases; del(11q) typically precedes ATM sSNV/sINDEL second hits in biallelic inactivation; 9 instances of multiple distinct alleles per CLL indicate convergent evolution; ATM did not replicate as an independent PFS predictor in the CLL8 trial [PMID:26466571](../papers/26466571.md)
 - Nonsense mutation in 1 case and kinase-dead N2875 hotspot in 2 cases in primary prostate cancer; ATM loss-of-function contributes to the 19% DNA-repair-gene-defect prevalence that supports PARP-inhibitor candidacy [PMID:26544944](../papers/26544944.md)
 - ATM mutated in 7% PDTC and 9% ATC in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); ATM mutations associated with higher mutation burden in both PDTC (P = 0.04) and ATC (P = 7×10⁻³) [PMID:26878173](../papers/26878173.md)
 - Heterozygous inactivating ATM events (somatic or germline) included in the DNA-repair-defect classifier; men with mCRPC harboring such events had significantly longer time on [carboplatin](../drugs/carboplatin.md) treatment (Kaplan-Meier log-rank P = 0.02, n=20 carboplatin-treated men) [PMID:26928463](../papers/26928463.md)
-- ATM: recurrent germline pathogenic/likely pathogenic variant in Indian familial [NSCLC](../cancer_types/NSCLC.md) cohort enriched in young lung cancer [PMID:27346245](../papers/27346245.md)
+- ATM: recurrent germline pathogenic/likely pathogenic variant in Indian familial [NSCLC](../cancer_types/NSCLC.md) cohort enriched in young lung cancer [PMID:40958859](../papers/40958859.md)
 - ATM canonical driver mutations heterogeneously shared between primary and post-chemotherapy UC tumors; combined ATM/RB1/FANCC alteration signature present in 73.3% of pre-chemotherapy tumors vs 37.9% post-chemotherapy (p=0.05), suggesting selective elimination of these clones by cisplatin/gemcitabine [PMID:27749842](../papers/27749842.md)
 - ATM R189K + K2756* (missense + nonsense) germline variants in medulloblastoma ([MBL](../cancer_types/MBL.md)) — returned as cancer-predisposition finding associated with increased risk for other cancers [PMID:28007021](../papers/28007021.md)
-- ATM kinase phosphorylates [TRMT10A](../genes/TRMT10A.md) at Ser28 after ionizing radiation, enabling [BRCA1](../genes/BRCA1.md) recruitment to DSBs; ATM knockdown reduces phospho-TRMT10A and HR but does not sensitize PCa lines to PARPi alone — consistent with clinical heterogeneity of ATM-loss PARPi response [PMID:28068672](../papers/28068672.md)
+- ATM kinase phosphorylates [TRMT10A](../genes/TRMT10A.md) at Ser28 after ionizing radiation, enabling [BRCA1](../genes/BRCA1.md) recruitment to DSBs; ATM knockdown reduces phospho-TRMT10A and HR but does not sensitize PCa lines to PARPi alone — consistent with clinical heterogeneity of ATM-loss PARPi response [PMID:41071892](../papers/41071892.md)
 - Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction; elevated mutational burden in DDR-altered tumors supports checkpoint immunotherapy trials [PMID:28583311](../papers/28583311.md)
 - ATM is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; ATM also shows somatic enrichment specifically in mCRPC, identifying it as a clinically actionable target for PARP inhibitors [PMID:28825054](../papers/28825054.md)
 - Mutated in 14% (n=57) of MIBC tumors (TCGA, n=412); established as a recurrently mutated DNA-repair gene in muscle-invasive bladder cancer [PMID:28988769](../papers/28988769.md)
-- Four monoallelic pLoF [ATM](../genes/ATM.md) LP/PVs were identified in a pediatric cancer predisposition cohort (n=372); burden OR=3.2, p=0.040 in single-cohort analysis but not significant in joint analysis; carriers developed BCP-ALL, medulloblastoma, or hepatoblastoma without ataxia-telangiectasia features. [PMID:29489754](../papers/29489754.md)
+- Four monoallelic pLoF [ATM](../genes/ATM.md) LP/PVs were identified in a pediatric cancer predisposition cohort (n=372); burden OR=3.2, p=0.040 in single-cohort analysis but not significant in joint analysis; carriers developed BCP-ALL, medulloblastoma, or hepatoblastoma without ataxia-telangiectasia features. [PMID:40857049](../papers/40857049.md)
 - [ATM](../genes/ATM.md) is an SMG uniquely called by MutSig2CV (not MuSiC2) in [KIRC](../cancer_types/KIRC.md) using the TCGA MC3 open-access MAF. [PMID:29596782](../papers/29596782.md)
 - ATM is among the top DDR predisposition genes bearing germline variants in TCGA; belongs to the core DDR pathway (23 of 36 DDR-affecting predisposition genes are Core DDR) [PMID:29625049](../papers/29625049.md)
 - Common but not significantly prognostic in cholangiocarcinoma ([chol_msk_2018](../datasets/chol_msk_2018.md)); observed across intrahepatic and extrahepatic subtypes [PMID:29848569](../papers/29848569.md)
@@ -124,7 +124,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:18948947](../papers/18948947.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
@@ -172,13 +172,13 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
@@ -190,7 +190,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466571](../papers/26466571.md)
@@ -205,7 +205,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 - [PMID:27749842](../papers/27749842.md)
 
@@ -213,7 +213,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
@@ -224,7 +224,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)

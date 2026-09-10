@@ -33,7 +33,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used in [ACC](../cancer_types/ACC.md) exome study to determine MYB-NFIB fusion status alongside fusion-transcript sequencing, qRT-PCR, and 3' RACE; confirmed translocations in 19/24 cases [PMID:23778141](../papers/23778141.md)
 - Used to validate [DHFR](../genes/DHFR.md) amplification at 5q detected in 14/99 (14%) TCC bladder tumors by WGS-based CNA analysis [PMID:24121792](../papers/24121792.md)
 - Applied to FFPE sections of 7 pancreatic neoplasms with acinar differentiation using proximal/distal labeled probes targeting chromosomes 11 ([ATM](../genes/ATM.md) locus), 15, and 22; revealed polysomy and dramatic intratumoral heterogeneity in 3 of 7 tumors and absence of chromosomal gains/losses in the MSI-H case [PMID:24293293](../papers/24293293.md).
-- Break-apart and dual-fusion FISH probes for [MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [NFIB](../genes/NFIB.md), and [EWSR1](../genes/EWSR1.md) applied to 88 sinonasal adenoid cystic carcinoma cases; rescued 9 additional fusion-positive cases among TruSight Oncology 500-negative tumors, demonstrating complementarity with NGS panels for detection of MYB-family rearrangements [PMID:24418857](../papers/24418857.md)
+- Break-apart and dual-fusion FISH probes for [MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [NFIB](../genes/NFIB.md), and [EWSR1](../genes/EWSR1.md) applied to 88 sinonasal adenoid cystic carcinoma cases; rescued 9 additional fusion-positive cases among TruSight Oncology 500-negative tumors, demonstrating complementarity with NGS panels for detection of MYB-family rearrangements [PMID:39760648](../papers/39760648.md)
 - Routine clinical FISH testing for t(4;14) and t(11;14) applied to 50 of 203 multiple myeloma patients in the MMRC cohort, complementing whole-exome and whole-genome sequencing for cytogenetic characterization [PMID:24434212](../papers/24434212.md)
 - Validated [FGFR1](../genes/FGFR1.md) amplification in an additional 53 [ESCC](../cancer_types/ESCC.md) tumors; FISH confirmed amplification in 11/53 cases (20.8%) [PMID:24686850](../papers/24686850.md)
 - Used to confirm high-level focal [EGFR](../genes/EGFR.md) amplification in a metastasis sample (chr 7p) from a RAS/RAF wild-type CRC patient in whom the primary showed only 7p polysomy. [PMID:25164765](../papers/25164765.md)
@@ -42,7 +42,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Interphase FISH applied to assess IGH-BCL6, [PRKCD](../genes/PRKCD.md), and [TOX](../genes/TOX.md) rearrangements in 11 [PCNSL](../cancer_types/PCNSL.md) cases; IGH-BCL6 translocations detected in 2/11 cases. [PMID:25991819](../papers/25991819.md)
 - FISH used to validate copy-number alterations identified in adrenocortical carcinoma genomic profiling [PMID:26095796](../papers/26095796.md)
 - FISH used to assess gene amplification status in breast cancer samples [PMID:26168399](../papers/26168399.md)
-- FISH used for gene copy-number assessment in proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
+- FISH used for gene copy-number assessment in proteogenomic analysis of ovarian cancer [PMID:40694421](../papers/40694421.md)
 - Applied with BAC probes CTD-2191M2 and CTD-2511M20 flanking the TERT/CLPTM1L locus to detect [TERT](../genes/TERT.md) 5p15.33 rearrangements in the 161-sample neuroblastoma validation cohort; required alongside targeted sequencing to call a rearrangement [PMID:26466568](../papers/26466568.md)
 - Used with [MYBL1](../genes/MYBL1.md) (RP11-271O1) and [NFIB](../genes/NFIB.md) (RP11-54D21, RP11-79B9) BAC probes to detect t(8;9) translocations in 81 salivary adenoid cystic carcinoma validation samples; identified t(8;9) in 27.8% of t(6;9)-negative ACCs [PMID:26631609](../papers/26631609.md).
 - FISH used to validate [MYB](../genes/MYB.md) rearrangements and characterize the spectrum of structural variants in adenoid cystic carcinoma tumors and primagrafts [PMID:26829750](../papers/26829750.md)
@@ -51,8 +51,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used with custom three-probe NF2/22q11/Cen10 assay and [ALK](../genes/ALK.md) break-apart probes to confirm [NF2](../genes/NF2.md) 22q hemizygous loss and TPM3-ALK fusion in uRCC tumours. [PMID:27713405](../papers/27713405.md)
 - Used to confirm sub-clonal to clonal progression of [CDKN2A](../genes/CDKN2A.md) deletion (from heterozygous in the primary to homozygous in distant metastases) in the WCM117 rapid-autopsy urothelial carcinoma case. [PMID:27749842](../papers/27749842.md)
 - Used to validate IGH-DUX4 rearrangements and [ERG](../genes/ERG.md) deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; [DUX4](../genes/DUX4.md) rearrangement is not detectable by conventional FISH due to repetitive subtelomeric DUX4 locus. [PMID:27776115](../papers/27776115.md)
-- Used fluorescence in situ hybridization (FISH) to detect chromosomal copy number alterations and gene fusions [PMID:28199314](../papers/28199314.md)
-- Used FISH to detect copy number alterations and gene fusions in pediatric tumor specimens [PMID:28445112](../papers/28445112.md)
+- Used fluorescence in situ hybridization (FISH) to detect chromosomal copy number alterations and gene fusions [PMID:41102727](../papers/41102727.md)
+- Used FISH to detect copy number alterations and gene fusions in pediatric tumor specimens [PMID:41137179](../papers/41137179.md)
 - Used to independently validate [ERBB2](../genes/ERBB2.md) amplification calls from ASCAT/SNP-array analysis in ICGC CCA cohort; enrichment confirmed for Fluke-Pos CCAs (10.4% vs 2.7% in Fluke-Neg, p < 0.01) [PMID:28667006](../papers/28667006.md)
 - Applied to detect [MYC](../genes/MYC.md) and [BCL2](../genes/BCL2.md) translocations in the 1001-patient DLBCL cohort; MYC FISH translocations associated with MYC mutations and high MYC expression [PMID:28985567](../papers/28985567.md)
 - Used for HER2 (ERBB2) status assessment per CAP/ASCO criteria as part of standard clinical workup in the [BLCA](../cancer_types/BLCA.md) TCGA cohort [PMID:28988769](../papers/28988769.md)
@@ -106,7 +106,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
@@ -133,7 +133,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466568](../papers/26466568.md)
@@ -160,10 +160,10 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)

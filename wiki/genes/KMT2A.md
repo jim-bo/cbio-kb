@@ -22,7 +22,7 @@ processed_at: 2026-05-16
 - Recurrent missense mutation (Ile960Met) identified in [SCLC](../cancer_types/SCLC.md) (29 tumors, CLCGP WES/WGS); histone methyltransferase [PMID:22941188](../papers/22941188.md)
 - Chromatin-modifying gene recurrently altered in [AML](../cancer_types/AML.md); fusion partners observed include [MLLT3](../genes/MLLT3.md) (AF9) and [MLLT10](../genes/MLLT10.md) (AF10); MLL-fused [AML](../cancer_types/AML.md) samples carried the fewest cooperating mutations of any subgroup [PMID:23634996](../papers/23634996.md)
 - Somatic mutation as part of the histone lysine methyltransferase KMT2A/KMT2C/KMT2E group, collectively altered in 16% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors in a 99-sample WES cohort [PMID:24121792](../papers/24121792.md)
-- KMT2A is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
+- KMT2A is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:30061739](../papers/30061739.md)
 - KMT2A listed among additional candidate chromatin-remodeling drivers in PTC; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors including KMT2A [PMID:25417114](../papers/25417114.md)
 - Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - KMT2A, together with KMT2C, KMT2D, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02); HMT enrichment in ATC is cited as rationale for chromatin-targeted therapy [PMID:26878173](../papers/26878173.md)
@@ -73,7 +73,7 @@ processed_at: 2026-05-16
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)

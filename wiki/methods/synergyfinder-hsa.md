@@ -17,7 +17,7 @@ SynergyFinder is a web application and R package for quantifying drug combinatio
 
 ## Used by
 
-- SynergyFinder HSA scoring used to quantify synergy between [olaparib](../drugs/olaparib.md) and [spautin-1](../drugs/spautin-1.md) ([USP10](../genes/USP10.md) inhibitor) in 22Rv1 and C4-2 prostate cancer cell lines; combined treatment produced HSA synergy scores >10, with the strongest synergy at olaparib 0.4–0.8 µM combined with spautin-1 2–4 µM [PMID:28068672](../papers/28068672.md).
+- SynergyFinder HSA scoring used to quantify synergy between [olaparib](../drugs/olaparib.md) and [spautin-1](../drugs/spautin-1.md) ([USP10](../genes/USP10.md) inhibitor) in 22Rv1 and C4-2 prostate cancer cell lines; combined treatment produced HSA synergy scores >10, with the strongest synergy at olaparib 0.4–0.8 µM combined with spautin-1 2–4 µM [PMID:41071892](../papers/41071892.md).
 
 ## Notes
 

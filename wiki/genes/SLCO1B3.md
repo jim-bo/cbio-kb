@@ -15,15 +15,15 @@ SLCO1B3 (Solute Carrier Organic Anion Transporter Family Member 1B3) encodes a h
 
 ## Alterations observed in the corpus
 
-- Prognostic marker of the bile-acid-active cholangiocarcinoma (CCA) subtype (identified in reviewed literature within a comprehensive CCA review) [PMID:25608663](../papers/25608663.md)
+- Prognostic marker of the bile-acid-active cholangiocarcinoma (CCA) subtype (identified in reviewed literature within a comprehensive CCA review) [PMID:41018102](../papers/41018102.md)
 
 ## Cancer types (linked)
 
-- **Cholangiocarcinoma (CCA)**: Prognostic marker of the bile-acid-active CCA subtype [PMID:25608663](../papers/25608663.md)
+- **Cholangiocarcinoma (CCA)**: Prognostic marker of the bile-acid-active CCA subtype [PMID:41018102](../papers/41018102.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [CEACAM1](../genes/CEACAM1.md) as markers of the bile-acid-active CCA subtype [PMID:25608663](../papers/25608663.md)
+- Co-expressed with [CEACAM1](../genes/CEACAM1.md) as markers of the bile-acid-active CCA subtype [PMID:41018102](../papers/41018102.md)
 
 ## Therapeutic relevance
 
@@ -31,6 +31,6 @@ SLCO1B3 (Solute Carrier Organic Anion Transporter Family Member 1B3) encodes a h
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

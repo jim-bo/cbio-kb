@@ -17,7 +17,7 @@ Myriocin is a serine palmitoyltransferase inhibitor used as a pharmacological pr
 
 ## Evidence in the corpus
 
-- All four viable [RHOA](../genes/RHOA.md) hotspot mutants (R5Q, G17V, C16R, A161P) expressed in a humanized yeast model conferred increased myriocin resistance (250–1000 ng/mL) relative to controls, indicating TORC2 pathway activation as a shared downstream node across oncogenic RHOA variants regardless of GOF vs LOF classification [PMID:24816253](../papers/24816253.md).
+- All four viable [RHOA](../genes/RHOA.md) hotspot mutants (R5Q, G17V, C16R, A161P) expressed in a humanized yeast model conferred increased myriocin resistance (250–1000 ng/mL) relative to controls, indicating TORC2 pathway activation as a shared downstream node across oncogenic RHOA variants regardless of GOF vs LOF classification [PMID:41002403](../papers/41002403.md).
 
 ## Resistance mechanisms
 

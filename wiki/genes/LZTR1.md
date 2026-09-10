@@ -16,8 +16,8 @@ LZTR1 (Leucine-Zipper-Like Transcription Regulator 1) is a putative transcriptio
 ## Alterations observed in the corpus
 
 - Novel significantly mutated gene (SMG) identified by MutSig/InVEx in [GBM](../cancer_types/GBM.md) (n=291 WES); putative transcriptional regulator at 22q; hemizygous deletion in 5/6 samples with CNA data [PMID:24120142](../papers/24120142.md)
-- Single-case missense p.Gly404Arg mutation detected in the sequenced AdCC cohort; observed among the recurrently mutated minor genes in sinonasal adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
-- Recurrent germline pathogenic/likely-pathogenic variant in the Indian familial NSCLC cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCA, FANCI, FANCM, and XRCC3 [PMID:27346245](../papers/27346245.md)
+- Single-case missense p.Gly404Arg mutation detected in the sequenced AdCC cohort; observed among the recurrently mutated minor genes in sinonasal adenoid cystic carcinoma [PMID:39760648](../papers/39760648.md)
+- Recurrent germline pathogenic/likely-pathogenic variant in the Indian familial NSCLC cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCA, FANCI, FANCM, and XRCC3 [PMID:40958859](../papers/40958859.md)
 - LZTR1 — germline mutation defines a SWNTS-SWN subclass with ~9-fold higher CNV, recurrent non-22q arm-level deletions (Chr 4/16/19/21), enrichment for SH3PXD2A-HTRA1 fusion, NF2 co-loss, painful clinical course, and upregulated RAS/MAPK + ERBB2/VEGF programs [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
@@ -42,10 +42,10 @@ LZTR1 (Leucine-Zipper-Like Transcription Regulator 1) is a putative transcriptio
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:33025139](../papers/33025139.md)

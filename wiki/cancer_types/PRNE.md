@@ -17,7 +17,7 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 ## Cohorts in the corpus
 
 - 44 PDX models from 38 prostate cancer patients at MD Anderson Cancer Center, spanning adenocarcinoma and neuroendocrine prostate cancer morphologies; profiled by WGS, T200.1 targeted sequencing, and RNA-seq. Dataset: [prad_msk_mdanderson_2023](../datasets/prad_msk_mdanderson_2023.md). [PMID:38488813](../papers/38488813.md)
-- Included in secondary analysis of ATLAS lineage classifier; ATLAS differentiation score distinguished metastatic prostate adenocarcinoma from NEPC (AUC=0.834). [PMID:27634761](../papers/27634761.md)
+- Included in secondary analysis of ATLAS lineage classifier; ATLAS differentiation score distinguished metastatic prostate adenocarcinoma from NEPC (AUC=0.834). [PMID:38480799](../papers/38480799.md)
 
 ## Recurrent alterations
 
@@ -35,7 +35,7 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 ## Subtypes
 
 - Treatment-emergent NEPC (tNEPC) vs. de novo NEPC: all PDX morphologies represented; NEPC PDXs showed the MYCN-CDK5-RB1-E2F1 neuroendocrine differentiation axis. [PMID:38488813](../papers/38488813.md)
-- ATLAS lineage de-differentiation score distinguished metastatic [PRAD](../cancer_types/PRAD.md) from NEPC with AUC=0.834, supporting RNA-based identification of NEPC transformation. [PMID:27634761](../papers/27634761.md)
+- ATLAS lineage de-differentiation score distinguished metastatic [PRAD](../cancer_types/PRAD.md) from NEPC with AUC=0.834, supporting RNA-based identification of NEPC transformation. [PMID:38480799](../papers/38480799.md)
 
 ## Therapeutic landscape
 
@@ -45,7 +45,7 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 ## Sources
 
 - [PMID:38488813](../papers/38488813.md) — Integrative Molecular Analyses of the MD Anderson Prostate Cancer Patient-derived Xenograft Series (Clinical Cancer Research, 2024)
-- [PMID:27634761](../papers/27634761.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
+- [PMID:38480799](../papers/38480799.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
 
 - [PMID:23622249](../papers/23622249.md) — Baca et al. Punctuated evolution of prostate cancer genomes. *Cell* 2013.
 

@@ -28,7 +28,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Promoter hypermethylation drives MSI/CIMP (MC1) phenotype in the MSI hypermutated subgroup (~28%) of 373 endometrial carcinomas; MLH1 mRNA expression decreased in MSI tumors [PMID:23636398](../papers/23636398.md)
 - Promoter methylation detected in 1/23 pancreatic acinar cell carcinomas by qMSP (ACINAR06) and equivocal in ACINAR18; did not correlate with MSI status [PMID:24293293](../papers/24293293.md)
 - Homozygous loss-of-function in PanNET patient PN4 (together with [MSH6](../genes/MSH6.md)); 18% microsatellite instability but predicted MSI-low, illustrating that dMMR does not equal MSI-high in non-colorectal neuroendocrine neoplasms [PMID:40328872](../papers/40328872.md)
-- Germline loss-of-function confers Lynch syndrome gastric cancer risk; somatic MLH1 promoter hypermethylation underlies many MSI-high familial intestinal gastric tumors; included in standard multigene GC panel [PMID:24816255](../papers/24816255.md)
+- Germline loss-of-function confers Lynch syndrome gastric cancer risk; somatic MLH1 promoter hypermethylation underlies many MSI-high familial intestinal gastric tumors; included in standard multigene GC panel [PMID:41097736](../papers/41097736.md)
 - MLH1 promoter hypermethylation drives the MSI subtype (gastric-CIMP) in gastric cancer ([EGC](../cancer_types/EGC.md)) [PMID:25079317](../papers/25079317.md)
 - Frameshift mutation (MM20T) driving hypermutator phenotype in uterine/ovarian carcinosarcoma; MMR-deficient cases flagged as candidates for anti-PD-1 immunotherapy [PMID:25233892](../papers/25233892.md)
 - MLH1 not specifically highlighted but MLH1/MLH3 are part of MMR/mismatch-repair pathway alterations in PDA (109-case WES cohort) [PMID:25855536](../papers/25855536.md)
@@ -106,7 +106,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 
 - [PMID:40328872](../papers/40328872.md)
 
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 - [PMID:25079317](../papers/25079317.md)
 

@@ -34,7 +34,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Activating mutations (4%) at GTPase residues 11-13 in HNSCC; defines an M-class oral-cavity subset with [CASP8](../genes/CASP8.md) co-mutation and wild-type [TP53](../genes/TP53.md) [PMID:25631445](../papers/25631445.md)
 - Rare hot-spot mutations (G13D/G13S/Q61K×2) identified in cutaneous melanoma; mutually exclusive with [NRAS](../genes/NRAS.md) and [BRAF](../genes/BRAF.md) V600/K601 hot-spots; part of the RAS-mutant subtype of melanoma [PMID:26091043](../papers/26091043.md)
 - Activating mutations in 13.6% of high-grade [UTUC](../cancer_types/UTUC.md) vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with [FGFR3](../genes/FGFR3.md) and [TP53](../genes/TP53.md); supports FGFR3/HRAS-driven low-grade-tumor-progression model of [UTUC](../cancer_types/UTUC.md) carcinogenesis [PMID:26278805](../papers/26278805.md)
-- Cited as prior lenti-HrasQ61L mammary intraductal model: produces ER-/metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, providing historical evidence of species-specific lineage plasticity motivating CRISPR-based ER+ breast cancer modeling [PMID:26437033](../papers/26437033.md)
+- Cited as prior lenti-HrasQ61L mammary intraductal model: produces ER-/metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, providing historical evidence of species-specific lineage plasticity motivating CRISPR-based ER+ breast cancer modeling [PMID:41000773](../papers/41000773.md)
 - Q61R hotspot in 3/4 HRAS-mutant primary prostate cancers; paralogous to the canonical RAS Q61 oncogenic position; co-occurs with other non-canonical RAS-family activations ([RAC1](../genes/RAC1.md) Q61R, [RRAS2](../genes/RRAS2.md) Q72L) [PMID:26544944](../papers/26544944.md)
 - HRAS mutations occur collectively with [NRAS](../genes/NRAS.md) and [KRAS](../genes/KRAS.md) in 28% of PDTC and 24% of ATC; RAS mutations are mutually exclusive with [BRAF](../genes/BRAF.md) V600E and gene fusions; RAS-mutant PDTCs trend toward distant metastasis and are enriched for Turin histological criteria [PMID:26878173](../papers/26878173.md)
 - Significantly mutated in lung SqCC but not other cancer types (excluding [HNSC](../cancer_types/HNSC.md), [BLCA](../cancer_types/BLCA.md)) in the TCGA pan-lung cohort [PMID:27158780](../papers/27158780.md)
@@ -119,7 +119,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 - [PMID:26278805](../papers/26278805.md)
 
-- [PMID:26437033](../papers/26437033.md)
+- [PMID:41000773](../papers/41000773.md)
 
 - [PMID:26544944](../papers/26544944.md)
 

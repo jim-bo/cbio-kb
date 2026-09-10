@@ -17,10 +17,10 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 
 ## Used by
 
-- Four mCRPC PDX lines (#546, #1092, #1102, #1267) in NOD-SCID mice used to test [olaparib](../drugs/olaparib.md) + [spautin-1](../drugs/spautin-1.md) ([USP10](../genes/USP10.md) inhibitor) combination therapy; PDX#546 and PDX#1092 (high TRMT10A/USP10 expression) showed additive-to-synergistic tumor growth suppression versus [olaparib](../drugs/olaparib.md) alone (PDX#1092: 42.9% additional volume reduction), with elevated cleaved caspase-3, cleaved PARP, and γ-H2AX in tumor lysates [PMID:28068672](../papers/28068672.md).
+- Four mCRPC PDX lines (#546, #1092, #1102, #1267) in NOD-SCID mice used to test [olaparib](../drugs/olaparib.md) + [spautin-1](../drugs/spautin-1.md) ([USP10](../genes/USP10.md) inhibitor) combination therapy; PDX#546 and PDX#1092 (high TRMT10A/USP10 expression) showed additive-to-synergistic tumor growth suppression versus [olaparib](../drugs/olaparib.md) alone (PDX#1092: 42.9% additional volume reduction), with elevated cleaved caspase-3, cleaved PARP, and γ-H2AX in tumor lysates [PMID:41071892](../papers/41071892.md).
 - Used patient-derived xenograft (PDX) models to evaluate therapeutic response in vivo [PMID:28196596](../papers/28196596.md)
 - Orthotopic xenografts generated from bladder cancer organoids via ultrasound-guided implantation into NOG mouse bladder wall; 83% efficiency (15/18); in vivo drug validation confirmed [trametinib](../drugs/trametinib.md) and [gemcitabine](../drugs/gemcitabine.md) activity [PMID:29625057](../papers/29625057.md).
-- Review situates patient-derived xenografts (PDX) alongside tumorsphere and organ-on-a-chip models as the principal pre-clinical platforms for individualized drug screening, noting their superiority over monolayer cultures in recapitulating tumor-microenvironment biology [PMID:30643250](../papers/30643250.md)
+- Review situates patient-derived xenografts (PDX) alongside tumorsphere and organ-on-a-chip models as the principal pre-clinical platforms for individualized drug screening, noting their superiority over monolayer cultures in recapitulating tumor-microenvironment biology [PMID:41103502](../papers/41103502.md)
 - 261 PDX models from 37 unique pediatric cancer molecular subtypes generated (subcutaneous for solid tumors, intracranial for CNS, intravenous in NOD/SCID or NSG for leukemias); relapse-derived PDXs had significantly higher TMB (3.08 vs. 2.57 Mut/Mb, p=2.2e-5); 97% of osteosarcoma models showed chromothripsis-consistent HBD [PMID:31693904](../papers/31693904.md).
 - 170 PDX models treated with [buparlisib](../drugs/buparlisib.md) and 121 with [alpelisib](../drugs/alpelisib.md) (Gao et al. Nat Med 2015 panel) stratified by MAP3K1/PIK3CA status and PAM50 subtype; luminal A status predicted response to both drugs; MAP3K1-altered PDXs were more sensitive to [alpelisib](../drugs/alpelisib.md) (p=0.001) but not [buparlisib](../drugs/buparlisib.md) [PMID:31552290](../papers/31552290.md).
 - Endoluminal PDX model in NSG mouse rectum: 200,000 tumoroid cells per mouse, 8 tumoroid lines tested; 100% engraftment rate by hEpCAM IHC; tumors progressed to invasive adenocarcinoma by 22–30 weeks with patient-specific lung and liver metastases; in vivo 5-FU/FOLFOX responses recapitulated clinical outcomes [PMID:31591597](../papers/31591597.md).
@@ -44,7 +44,7 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 - [PMID:29625057](../papers/29625057.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:30643250](../papers/30643250.md)
+- [PMID:41103502](../papers/41103502.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)

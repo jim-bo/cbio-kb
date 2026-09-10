@@ -17,7 +17,7 @@ BGB-A445 is an investigational immune checkpoint inhibitor cited in the context 
 
 ## Evidence in the corpus
 
-- Cited as an investigational immune checkpoint agent among the approximately 60 agents cataloged for R/M NPC in this landscape review [PMID:24952746](../papers/24952746.md).
+- Cited as an investigational immune checkpoint agent among the approximately 60 agents cataloged for R/M NPC in this landscape review [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

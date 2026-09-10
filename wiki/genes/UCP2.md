@@ -15,15 +15,15 @@ UCP2 encodes Uncoupling Protein 2, a mitochondrial inner membrane protein that d
 
 ## Alterations observed in the corpus
 
-- High expression marks the stem-cell phenotype of heMSCs (human embryonic mesenchymal stem cells) and is retained in experimental EWS::FLI1-induced Ewing sarcoma tumors; proposed as a marker of the undifferentiated mesenchymal state associated with Ewing sarcoma initiation [PMID:25186949](../papers/25186949.md)
+- High expression marks the stem-cell phenotype of heMSCs (human embryonic mesenchymal stem cells) and is retained in experimental EWS::FLI1-induced Ewing sarcoma tumors; proposed as a marker of the undifferentiated mesenchymal state associated with Ewing sarcoma initiation [PMID:41136396](../papers/41136396.md)
 
 ## Cancer types (linked)
 
-- Ewing sarcoma: UCP2 high expression associated with the heMSC cell-of-origin phenotype retained in experimental tumors [PMID:25186949](../papers/25186949.md)
+- Ewing sarcoma: UCP2 high expression associated with the heMSC cell-of-origin phenotype retained in experimental tumors [PMID:41136396](../papers/41136396.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with RNF2/RING1B and other heMSC stem-cell markers in experimental Ewing tumors [PMID:25186949](../papers/25186949.md)
+- Co-expressed with RNF2/RING1B and other heMSC stem-cell markers in experimental Ewing tumors [PMID:41136396](../papers/41136396.md)
 
 ## Therapeutic relevance
 
@@ -35,6 +35,6 @@ UCP2 encodes Uncoupling Protein 2, a mitochondrial inner membrane protein that d
 
 ## Sources
 
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

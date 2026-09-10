@@ -24,7 +24,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D was among the most frequently mutated genes in DLBCL and [FL](../cancer_types/FL.md), establishing its role as a major epigenetic tumor suppressor in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - KMT2D is among the significantly mutated genes in DLBCL identified by whole-exome sequencing of 55 tumors (MutSig, Broad Institute) [PMID:22343534](../papers/22343534.md)
-- Second most frequent HBV integration target in [HCC](../cancer_types/HCC.md) (11.8%); intronic and exonic insertions cause epigenomic modification and downregulate the p53 pathway with >20-fold expression increase [PMID:22634756](../papers/22634756.md)
+- Second most frequent HBV integration target in [HCC](../cancer_types/HCC.md) (11.8%); intronic and exonic insertions cause epigenomic modification and downregulate the p53 pathway with >20-fold expression increase [PMID:41112515](../papers/41112515.md)
 - KMT2D (MLL2/MLL4) found as one of the most frequently mutated genes in medulloblastoma WGS cohort (PCGP, 37 tumors), establishing H3K4 methyltransferase loss as a key event in pediatric brain tumors [PMID:22722829](../papers/22722829.md)
 - KMT2D alterations identified in prostate cancer WES cohort (Michigan, 112 tumors); KMT2D loss co-occurs with ETS fusions and [EZH2](../genes/EZH2.md) alterations, suggesting convergent epigenetic dysregulation [PMID:22722839](../papers/22722839.md)
 - Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
@@ -121,7 +121,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 - [PMID:22343534](../papers/22343534.md)
 
-- [PMID:22634756](../papers/22634756.md)
+- [PMID:41112515](../papers/41112515.md)
 
 - [PMID:22722829](../papers/22722829.md)
 

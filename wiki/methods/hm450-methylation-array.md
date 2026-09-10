@@ -19,7 +19,7 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 
 - Applied to 76 [GBM](../cancer_types/GBM.md) samples (113 in re-analysis) as part of TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform methylation analysis; contributed to the six-class methylation model (M1–M6); identified G-CIMP classification using higher-density data to refine the HM27-derived findings [PMID:24120142](../papers/24120142.md)
 - Illumina HumanMethylation450 (HM450) array applied to 131 TCGA bladder carcinoma samples; identified a CIMP subgroup in 34% of tumors; smoking pack-years was the only significant predictor of CIMP phenotype on multivariate regression [PMID:24476821](../papers/24476821.md)
-- Used as one of five molecular platforms in the TCGA [HCC](../cancer_types/HCC.md) integrated characterisation (196 patients) for DNA methylation profiling alongside WES, RNA-seq, miRNA-seq, and RPPA [PMID:24798001](../papers/24798001.md)
+- Used as one of five molecular platforms in the TCGA [HCC](../cancer_types/HCC.md) integrated characterisation (196 patients) for DNA methylation profiling alongside WES, RNA-seq, miRNA-seq, and RPPA [PMID:30061739](../papers/30061739.md)
 - DNA methylation profiling of 295 gastric adenocarcinomas ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) by HM450 array identified EBV-specific extreme CIMP, [MLH1](../genes/MLH1.md) promoter hypermethylation driving MSI, and [CDKN2A](../genes/CDKN2A.md) silencing in EBV-positive tumors [PMID:25079317](../papers/25079317.md)
 - HM450 methylation profiling of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) defined CIMP-H and CIMP-L clusters; CIMP-H tumors showed hypermethylation of WNT pathway genes, [CDKN2A](../genes/CDKN2A.md), and HOXA9/HOXD13, and were associated with [MYC](../genes/MYC.md) overexpression [PMID:25079552](../papers/25079552.md)
 - Used to profile DNA methylation at ~450,000 loci in 66 ChRCC tumors; identified >64,000 differentially methylated loci vs ccRCC and [CDKN2A](../genes/CDKN2A.md) epigenetic silencing in 4 cases. [PMID:25155756](../papers/25155756.md)
@@ -48,7 +48,7 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)

@@ -20,19 +20,19 @@ TMEM14C (Transmembrane Protein 14C) encodes a mitochondrial inner membrane prote
 
 ## Alterations observed in the corpus
 
-- TMEM14C is among the alternatively spliced transcripts identified in SF3B1-mutant breast cancer (WES and RNA-seq of 103 breast tumors); aberrant splicing of TMEM14C may contribute to the convergent pathway alterations seen across SF3B1 hotspot mutations [PMID:22158541](../papers/22158541.md)
+- TMEM14C is among the alternatively spliced transcripts identified in SF3B1-mutant breast cancer (WES and RNA-seq of 103 breast tumors); aberrant splicing of TMEM14C may contribute to the convergent pathway alterations seen across SF3B1 hotspot mutations [PMID:41055979](../papers/41055979.md)
 
 ## Cancer types (linked)
 
-- **[BRCA](../cancer_types/BRCA.md)**: Alternatively spliced in SF3B1-mutant breast cancer, particularly in HR+ HER2- subtypes [PMID:22158541](../papers/22158541.md)
+- **[BRCA](../cancer_types/BRCA.md)**: Alternatively spliced in SF3B1-mutant breast cancer, particularly in HR+ HER2- subtypes [PMID:41055979](../papers/41055979.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Alternative splicing of TMEM14C is associated with SF3B1 hotspot mutations (K700E, R625C/G/H/L, K666E/N/Q) in breast cancer [PMID:22158541](../papers/22158541.md)
+- Alternative splicing of TMEM14C is associated with SF3B1 hotspot mutations (K700E, R625C/G/H/L, K666E/N/Q) in breast cancer [PMID:41055979](../papers/41055979.md)
 
 ## Therapeutic relevance
 
-- No direct therapeutic relevance established in the current corpus; alternatively spliced transcripts including TMEM14C may guide future therapeutic strategies in SF3B1-mutant cancers [PMID:22158541](../papers/22158541.md)
+- No direct therapeutic relevance established in the current corpus; alternatively spliced transcripts including TMEM14C may guide future therapeutic strategies in SF3B1-mutant cancers [PMID:41055979](../papers/41055979.md)
 
 ## Open questions
 
@@ -40,6 +40,6 @@ TMEM14C (Transmembrane Protein 14C) encodes a mitochondrial inner membrane prote
 
 ## Sources
 
-- [PMID:22158541](../papers/22158541.md)
+- [PMID:41055979](../papers/41055979.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*

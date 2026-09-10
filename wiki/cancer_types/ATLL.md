@@ -20,7 +20,7 @@ Adult T-cell leukemia/lymphoma (ATLL) is an aggressive mature T-cell malignancy 
 
 ## Recurrent alterations
 
-- RHOA C16R (gain-of-function; accelerates GTP/GDP cycling) and A161P (gain-of-function; uniquely activates Slt2/MAPK in yeast and shows the most CalMorph features altered) are the predominant RHOA hotspots in ATLL, contrasting with the dominant-negative G17V seen in AITL; functional yeast modelling separated GOF (C16R, A161P) from LOF (R5Q, G17V) into distinct morphological classes [PMID:24816253](../papers/24816253.md).
+- RHOA C16R (gain-of-function; accelerates GTP/GDP cycling) and A161P (gain-of-function; uniquely activates Slt2/MAPK in yeast and shows the most CalMorph features altered) are the predominant RHOA hotspots in ATLL, contrasting with the dominant-negative G17V seen in AITL; functional yeast modelling separated GOF (C16R, A161P) from LOF (R5Q, G17V) into distinct morphological classes [PMID:41002403](../papers/41002403.md).
 
 ## Subtypes
 
@@ -32,6 +32,6 @@ Adult T-cell leukemia/lymphoma (ATLL) is an aggressive mature T-cell malignancy 
 
 ## Sources
 
-- [PMID:24816253](../papers/24816253.md)
+- [PMID:41002403](../papers/41002403.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

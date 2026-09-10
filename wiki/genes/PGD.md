@@ -15,7 +15,7 @@ PGD (Phosphogluconate Dehydrogenase) encodes an enzyme in the pentose phosphate 
 
 ## Alterations observed in the corpus
 
-- PGD is a GWAS susceptibility locus/SNP associated with HBV- or HCV-related HCC risk [PMID:24735922](../papers/24735922.md)
+- PGD is a GWAS susceptibility locus/SNP associated with HBV- or HCV-related HCC risk [PMID:25369299](../papers/25369299.md)
 
 ## Cancer types (linked)
 
@@ -27,6 +27,6 @@ PGD (Phosphogluconate Dehydrogenase) encodes an enzyme in the pentose phosphate 
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

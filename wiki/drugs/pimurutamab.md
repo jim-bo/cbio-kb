@@ -17,7 +17,7 @@ Pimurutamab is an investigational anti-EGFR monoclonal antibody targeting [EGFR]
 
 ## Evidence in the corpus
 
-- Pimurutamab anti-EGFR monoclonal antibody listed alongside nimotuzumab as EGFR-targeting antibodies under evaluation in R/M NPC [PMID:24952746](../papers/24952746.md).
+- Pimurutamab anti-EGFR monoclonal antibody listed alongside nimotuzumab as EGFR-targeting antibodies under evaluation in R/M NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

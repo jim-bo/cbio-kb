@@ -22,7 +22,7 @@ CRISPRi uses a catalytically dead Cas9 (dCas9) fused to a transcriptional repres
 
 ## Used by
 
-- dCas9 + sgRNAs targeting the rs4519489 enhancer region used in 22Rv1 and PC3 prostate cancer cells; CRISPRi silencing of the rs4519489 locus significantly reduced [NOL10](../genes/NOL10.md) mRNA (P=9.79×10⁻⁵ and P=4.79×10⁻⁴ respectively), establishing a direct causal link between the enhancer and NOL10 expression [PMID:28927585](../papers/28927585.md)
+- dCas9 + sgRNAs targeting the rs4519489 enhancer region used in 22Rv1 and PC3 prostate cancer cells; CRISPRi silencing of the rs4519489 locus significantly reduced [NOL10](../genes/NOL10.md) mRNA (P=9.79×10⁻⁵ and P=4.79×10⁻⁴ respectively), establishing a direct causal link between the enhancer and NOL10 expression [PMID:41062477](../papers/41062477.md)
 
 ## Notes
 

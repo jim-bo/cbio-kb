@@ -16,7 +16,7 @@ PTK2 (Protein Tyrosine Kinase 2), also known as Focal Adhesion Kinase (FAK), enc
 ## Alterations observed in the corpus
 
 - Copy gain with high expression in 14% (5/35) of oral squamous cell carcinoma (OSCC) tumors; identified as a candidate therapeutic target in HNSCC [PMID:23619168](../papers/23619168.md)
-- Overexpressed in the immune-excluded HCC subclass; oncogenic PTK2 (FAK) pathway activity is associated with poor T-cell infiltration and immune exclusion in HCC [PMID:24798001](../papers/24798001.md)
+- Overexpressed in the immune-excluded HCC subclass; oncogenic PTK2 (FAK) pathway activity is associated with poor T-cell infiltration and immune exclusion in HCC [PMID:30061739](../papers/30061739.md)
 
 ## Cancer types (linked)
 
@@ -39,6 +39,6 @@ PTK2 (Protein Tyrosine Kinase 2), also known as Focal Adhesion Kinase (FAK), enc
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

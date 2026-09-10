@@ -15,11 +15,11 @@ GPBAR1 (G Protein-Coupled Bile Acid Receptor 1), also known as TGR5, is a membra
 
 ## Alterations observed in the corpus
 
-- Context-dependent role in cholangiocarcinoma: hepatoprotective in early cholestasis (M2 macrophage polarization, NF-kB suppression) but pro-tumorigenic in advanced CCA (apoptosis resistance via PKA/CD95); transactivates [EGFR](../genes/EGFR.md) via Src signaling to amplify ERK1/2 proliferative signaling in cholangiocytes; antagonist SBI-115 reduces pro-fibrotic and metastatic signaling [PMID:25608663](../papers/25608663.md)
+- Context-dependent role in cholangiocarcinoma: hepatoprotective in early cholestasis (M2 macrophage polarization, NF-kB suppression) but pro-tumorigenic in advanced CCA (apoptosis resistance via PKA/CD95); transactivates [EGFR](../genes/EGFR.md) via Src signaling to amplify ERK1/2 proliferative signaling in cholangiocytes; antagonist SBI-115 reduces pro-fibrotic and metastatic signaling [PMID:41018102](../papers/41018102.md)
 
 ## Cancer types (linked)
 
-- **CCA**: Pro-tumorigenic in advanced cholangiocarcinoma; antagonist SBI-115 reduces pro-fibrotic and metastatic signaling [PMID:25608663](../papers/25608663.md)
+- **CCA**: Pro-tumorigenic in advanced cholangiocarcinoma; antagonist SBI-115 reduces pro-fibrotic and metastatic signaling [PMID:41018102](../papers/41018102.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -27,7 +27,7 @@ GPBAR1 (G Protein-Coupled Bile Acid Receptor 1), also known as TGR5, is a membra
 
 ## Therapeutic relevance
 
-- Antagonist SBI-115 reduces pro-fibrotic and metastatic signaling in advanced CCA [PMID:25608663](../papers/25608663.md)
+- Antagonist SBI-115 reduces pro-fibrotic and metastatic signaling in advanced CCA [PMID:41018102](../papers/41018102.md)
 
 ## Open questions
 
@@ -35,6 +35,6 @@ GPBAR1 (G Protein-Coupled Bile Acid Receptor 1), also known as TGR5, is a membra
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

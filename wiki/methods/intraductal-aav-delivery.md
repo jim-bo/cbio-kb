@@ -17,7 +17,7 @@ Intraductal AAV delivery is a surgical technique in which adeno-associated virus
 
 ## Used by
 
-- Intraductal injection of AAV2/9 carrying CRISPR guide RNAs (and HDR donor for Pik3caH1047R) into Cas9-transgenic rats was used to model six breast cancer genotypes; AAV-NT (Nf1+Tp53 dual gRNA, 2×10^10 gc/gland) produced tumors in 100% of rats within one month; AAV-PNT (triple-edit Pik3ca/Nf1/Tp53) reached 8-day median latency. [PMID:26437033](../papers/26437033.md)
+- Intraductal injection of AAV2/9 carrying CRISPR guide RNAs (and HDR donor for Pik3caH1047R) into Cas9-transgenic rats was used to model six breast cancer genotypes; AAV-NT (Nf1+Tp53 dual gRNA, 2×10^10 gc/gland) produced tumors in 100% of rats within one month; AAV-PNT (triple-edit Pik3ca/Nf1/Tp53) reached 8-day median latency. [PMID:41000773](../papers/41000773.md)
 
 ## Notes
 
@@ -28,6 +28,6 @@ Intraductal AAV delivery is a surgical technique in which adeno-associated virus
 
 ## Sources
 
-- [PMID:26437033](../papers/26437033.md)
+- [PMID:41000773](../papers/41000773.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

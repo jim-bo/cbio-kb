@@ -15,26 +15,26 @@ ACTN4 (Alpha-Actinin-4) encodes an actin-binding cytoskeletal protein involved i
 
 ## Alterations observed in the corpus
 
-- Noncanonical MYB fusion partner in adenoid cystic carcinoma (AdCC): ACTN4ex18::MYBex2 in-frame fusion identified in 1 metatypical nasal cavity AdCC with biphasic basaloid and vacuolated cell populations; detected by RNA-seq (TruSight Oncology 500) [PMID:24418857](../papers/24418857.md)
+- Noncanonical MYB fusion partner in adenoid cystic carcinoma (AdCC): ACTN4ex18::MYBex2 in-frame fusion identified in 1 metatypical nasal cavity AdCC with biphasic basaloid and vacuolated cell populations; detected by RNA-seq (TruSight Oncology 500) [PMID:39760648](../papers/39760648.md)
 
 ## Cancer types (linked)
 
-- Adenoid cystic carcinoma of the sinonasal tract: noncanonical MYB fusion partner (1/88 cases, ~1%); associated with metatypical histology featuring biphasic basaloid and vacuolated cell populations [PMID:24418857](../papers/24418857.md)
+- Adenoid cystic carcinoma of the sinonasal tract: noncanonical MYB fusion partner (1/88 cases, ~1%); associated with metatypical histology featuring biphasic basaloid and vacuolated cell populations [PMID:39760648](../papers/39760648.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- ACTN4::MYB fusion occurs as a noncanonical alternative to the canonical MYB::[NFIB](../genes/NFIB.md) fusion; similar noncanonical partners include [ACTB](../genes/ACTB.md), [EWSR1](../genes/EWSR1.md), and [ESRRG](../genes/ESRRG.md) [PMID:24418857](../papers/24418857.md)
+- ACTN4::MYB fusion occurs as a noncanonical alternative to the canonical MYB::[NFIB](../genes/NFIB.md) fusion; similar noncanonical partners include [ACTB](../genes/ACTB.md), [EWSR1](../genes/EWSR1.md), and [ESRRG](../genes/ESRRG.md) [PMID:39760648](../papers/39760648.md)
 
 ## Therapeutic relevance
 
-- No targeted therapy data for ACTN4-rearranged AdCC. ACTN4::MYB fusions are expected to activate MYB transcriptional targets analogous to canonical MYB::NFIB fusions; NOTCH pathway inhibitors are being explored for the broader AdCC population [PMID:24418857](../papers/24418857.md)
+- No targeted therapy data for ACTN4-rearranged AdCC. ACTN4::MYB fusions are expected to activate MYB transcriptional targets analogous to canonical MYB::NFIB fusions; NOTCH pathway inhibitors are being explored for the broader AdCC population [PMID:39760648](../papers/39760648.md)
 
 ## Open questions
 
-- Functional equivalence of the ACTN4::MYB fusion to the canonical MYB::NFIB fusion has not been demonstrated experimentally; the single reported case limits frequency estimation [PMID:24418857](../papers/24418857.md)
+- Functional equivalence of the ACTN4::MYB fusion to the canonical MYB::NFIB fusion has not been demonstrated experimentally; the single reported case limits frequency estimation [PMID:39760648](../papers/39760648.md)
 
 ## Sources
 
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -18,7 +18,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - SMARCA4 R1192C missense mutation identified in a hepatic rhabdoid tumor ([MRTL](../cancer_types/MRTL.md)) in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an EZH2-inhibitor target. [PMID:28007021](../papers/28007021.md)
 - Significantly mutated in both [EAC](../cancer_types/EAC.md) ([ESCA](../cancer_types/ESCA.md)) and [ESCC](../cancer_types/ESCC.md) in the TCGA esophageal carcinoma cohort ([stes_tcga_pub](../datasets/stes_tcga_pub.md), n=164); more frequently altered in [EAC](../cancer_types/EAC.md) than in CIN gastric cancer. SMARCA4 mutation defines the ESCC3 molecular subtype. [PMID:28052061](../papers/28052061.md)
 - SMARCA4 mutation is enriched in [EAC](../cancer_types/EAC.md) versus CIN gastric adenocarcinoma. [PMID:28052061](../papers/28052061.md)
-- SMARCA4 (BRG1) protein expression retained by IHC in an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma of the urinary bladder, used to rule out SWI/SNF-deficient differential diagnoses [PMID:28199314](../papers/28199314.md).
+- SMARCA4 (BRG1) protein expression retained by IHC in an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma of the urinary bladder, used to rule out SWI/SNF-deficient differential diagnoses [PMID:41102727](../papers/41102727.md).
 - G1232S hotspot missense mutation in 1/19 sequenced oligodendroglioma tumors; classified as unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - SWI/SNF subunit mutated collectively with [ARID1A](../genes/ARID1A.md) and [ARID2](../genes/ARID2.md) in 33% of WNT medulloblastomas; provides rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
 - BRG1 (SMARCA4) knockout in A704 ccRCC cells phenocopies several BAF180-null (PBRM1-null) transcriptional changes, including immune and cytokine signaling enrichment, supporting a PBAF-complex-wide immune-priming mechanism. [PMID:29301960](../papers/29301960.md)
@@ -60,7 +60,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 - [PMID:28472509](../papers/28472509.md)
 

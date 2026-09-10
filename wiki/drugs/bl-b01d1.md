@@ -17,7 +17,7 @@ BL-B01D1 is a bispecific antibody-drug conjugate (ADC) co-targeting [EGFR](../ge
 
 ## Evidence in the corpus
 
-- In advanced solid tumors (NCT05194982), NPC sub-cohort (n=42): ORR 38%; median PFS 6.8 mo; grade ≥3 TRAE 71% [PMID:24952746](../papers/24952746.md).
+- In advanced solid tumors (NCT05194982), NPC sub-cohort (n=42): ORR 38%; median PFS 6.8 mo; grade ≥3 TRAE 71% [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

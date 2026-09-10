@@ -17,15 +17,15 @@ JPT1 (Jupiter Microtubule Associated Homolog 1; formerly HN1) encodes a microtub
 
 ## Alterations observed in the corpus
 
-- JPT1 (reported as HN1 in the original literature) is one of 5 genes (alongside TAF9, RAN, RAMP3, KRT19) constituting a tumor score predicting HCC recurrence and survival after resection [PMID:24735922](../papers/24735922.md)
+- JPT1 (reported as HN1 in the original literature) is one of 5 genes (alongside TAF9, RAN, RAMP3, KRT19) constituting a tumor score predicting HCC recurrence and survival after resection [PMID:25369299](../papers/25369299.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — component of a 5-gene prognostic expression signature for post-resection HCC recurrence [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md) — component of a 5-gene prognostic expression signature for post-resection HCC recurrence [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with TAF9, RAN, RAMP3, and KRT19 as part of the HCC 5-gene recurrence prediction signature [PMID:24735922](../papers/24735922.md)
+- Co-expressed with TAF9, RAN, RAMP3, and KRT19 as part of the HCC 5-gene recurrence prediction signature [PMID:25369299](../papers/25369299.md)
 
 ## Therapeutic relevance
 
@@ -35,6 +35,6 @@ JPT1 (Jupiter Microtubule Associated Homolog 1; formerly HN1) encodes a microtub
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

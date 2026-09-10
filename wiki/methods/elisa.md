@@ -17,7 +17,7 @@ Enzyme-linked immunosorbent assay (ELISA) is a plate-based immunoassay used to q
 
 ## Used by
 
-- ELISA used to quantify soluble SEMA7A protein levels in conditioned medium from gallbladder fibroblasts cultured on soft (0.5 kPa) vs stiff (16 kPa) hydrogels, confirming that matrix stiffness drives secretion of SEMA7A as a paracrine factor [PMID:24997986](../papers/24997986.md)
+- ELISA used to quantify soluble SEMA7A protein levels in conditioned medium from gallbladder fibroblasts cultured on soft (0.5 kPa) vs stiff (16 kPa) hydrogels, confirming that matrix stiffness drives secretion of SEMA7A as a paracrine factor [PMID:40830485](../papers/40830485.md)
 
 ## Notes
 

@@ -17,7 +17,7 @@ Cadonilimab (AK104) is a bispecific monoclonal antibody simultaneously targeting
 
 ## Evidence in the corpus
 
-- Cadonilimab + chemotherapy in PD-1-refractory R/M NPC (NCT05790200, n=25): ORR 68%; median PFS 10.6 mo; median DOR 9.1 mo; 1-yr OS 75.6%; grade ≥3 TRAE 48% [PMID:24952746](../papers/24952746.md).
+- Cadonilimab + chemotherapy in PD-1-refractory R/M NPC (NCT05790200, n=25): ORR 68%; median PFS 10.6 mo; median DOR 9.1 mo; 1-yr OS 75.6%; grade ≥3 TRAE 48% [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

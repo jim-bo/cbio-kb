@@ -17,11 +17,11 @@ Bintrafusp alfa (M7824) is a bifunctional fusion protein combining an anti-PD-L1
 
 ## Evidence in the corpus
 
-- Bintrafusp alfa monotherapy in R/M NPC (NCT04396886, n=38): ORR 23.7%; median OS 17.0 mo; median PFS 2.3 mo; concerning safety including bleeding, anemia, and hyper-progression in platinum-refractory patients; grade ≥3 TRAE 42.4% [PMID:24952746](../papers/24952746.md).
+- Bintrafusp alfa monotherapy in R/M NPC (NCT04396886, n=38): ORR 23.7%; median OS 17.0 mo; median PFS 2.3 mo; concerning safety including bleeding, anemia, and hyper-progression in platinum-refractory patients; grade ≥3 TRAE 42.4% [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 
-- Hyper-progression observed in platinum-refractory R/M NPC patients, raising questions about PD-L1×TGF-β bispecific use in this population [PMID:24952746](../papers/24952746.md).
+- Hyper-progression observed in platinum-refractory R/M NPC patients, raising questions about PD-L1×TGF-β bispecific use in this population [PMID:41002550](../papers/41002550.md).
 
 ## Cancer types (linked)
 

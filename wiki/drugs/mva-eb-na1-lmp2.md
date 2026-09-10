@@ -17,7 +17,7 @@ MVA-EB-NA1-LMP2 (also referred to as MVA-EL in literature) is an investigational
 
 ## Evidence in the corpus
 
-- MVA-EB-NA1-LMP2 (MVA-EL) viral-vector EBV therapeutic vaccine listed among investigational EBV-targeted immunotherapy approaches for recurrent/metastatic NPC; EBV antigenic stability makes LMP1/LMP2/EBNA1 attractive vaccine and TCR-T targets [PMID:24952746](../papers/24952746.md).
+- MVA-EB-NA1-LMP2 (MVA-EL) viral-vector EBV therapeutic vaccine listed among investigational EBV-targeted immunotherapy approaches for recurrent/metastatic NPC; EBV antigenic stability makes LMP1/LMP2/EBNA1 attractive vaccine and TCR-T targets [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

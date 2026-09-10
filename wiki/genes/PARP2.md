@@ -19,19 +19,19 @@ PARP2 (Poly(ADP-Ribose) Polymerase 2) is a member of the PARP family of DNA repa
 
 ## Alterations observed in the corpus
 
-- Direct target of olaparib/rucaparib/niraparib/talazoparib alongside PARP1; implicated in synthetic-lethal strategies for mCRPC tumors with BRCA1/2 pathway deficiency via the TRMT10A-USP10 HR-scaffold axis [PMID:28068672](../papers/28068672.md)
+- Direct target of olaparib/rucaparib/niraparib/talazoparib alongside PARP1; implicated in synthetic-lethal strategies for mCRPC tumors with BRCA1/2 pathway deficiency via the TRMT10A-USP10 HR-scaffold axis [PMID:41071892](../papers/41071892.md)
 
 ## Cancer types (linked)
 
-- **Prostate cancer ([PRAD](../cancer_types/PRAD.md))**: PARP2 inhibition is part of PARPi synthetic-lethal strategies studied in metastatic castration-resistant prostate cancer (mCRPC) [PMID:28068672](../papers/28068672.md)
+- **Prostate cancer ([PRAD](../cancer_types/PRAD.md))**: PARP2 inhibition is part of PARPi synthetic-lethal strategies studied in metastatic castration-resistant prostate cancer (mCRPC) [PMID:41071892](../papers/41071892.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Functions in parallel with PARP1 as a PARPi target; efficacy of PARP inhibition is modulated by TRMT10A/USP10 axis expression [PMID:28068672](../papers/28068672.md)
+- Functions in parallel with PARP1 as a PARPi target; efficacy of PARP inhibition is modulated by TRMT10A/USP10 axis expression [PMID:41071892](../papers/41071892.md)
 
 ## Therapeutic relevance
 
-- Target of olaparib, rucaparib, niraparib, and talazoparib; synergy with [USP10](../genes/USP10.md) inhibitor [spautin-1](../drugs/spautin-1.md) demonstrated in BRCA1/2-WT mCRPC cell line models [PMID:28068672](../papers/28068672.md)
+- Target of olaparib, rucaparib, niraparib, and talazoparib; synergy with [USP10](../genes/USP10.md) inhibitor [spautin-1](../drugs/spautin-1.md) demonstrated in BRCA1/2-WT mCRPC cell line models [PMID:41071892](../papers/41071892.md)
 
 ## Open questions
 
@@ -39,6 +39,6 @@ PARP2 (Poly(ADP-Ribose) Polymerase 2) is a member of the PARP family of DNA repa
 
 ## Sources
 
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

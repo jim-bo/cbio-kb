@@ -22,9 +22,9 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - ATR is recurrently mutated in anaplastic thyroid carcinoma (ATC) in a multi-omic landscape study (WES/WGS of 87 specimens from 64 ATC and 28 paired differentiated thyroid cancer (DTC)) [PMID:38412093](../papers/38412093.md).
 - Somatic mutations in 6.2% (4/65) of TNBC cases in a whole-genome sequencing study of 65 breast tumors (BCCRC cohort) [PMID:22495314](../papers/22495314.md)
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
-- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
+- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:41136396](../papers/41136396.md)
 - Cell-cycle/DNA-damage tumor suppressor with inactivating hits in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort) [PMID:25589618](../papers/25589618.md)
-- ATR provides compensatory [TRMT10A](../genes/TRMT10A.md) Ser28 phosphorylation when [ATM](../genes/ATM.md) is impaired; [TRMT10A](../genes/TRMT10A.md) loss confers ATR-inhibitor sensitivity in prostate cancer cell lines [PMID:28068672](../papers/28068672.md)
+- ATR provides compensatory [TRMT10A](../genes/TRMT10A.md) Ser28 phosphorylation when [ATM](../genes/ATM.md) is impaired; [TRMT10A](../genes/TRMT10A.md) loss confers ATR-inhibitor sensitivity in prostate cancer cell lines [PMID:41071892](../papers/41071892.md)
 - ATR was among the antigen-presentation/immunology genes profiled in the OncoPrint of a 240-patient [NSCLC](../cancer_types/NSCLC.md) cohort evaluating TMB as an ICI-response biomarker [PMID:29337640](../papers/29337640.md).
 - ATR listed among 'Other' DNA-repair germline pathogenic/likely-pathogenic alleles annotated in the 923-patient glioma cohort (MSK-IMPACT/FoundationOne); 13% of glioma patients harbored a germline P/LP variant enriched for DNA-repair genes [PMID:31263031](../papers/31263031.md)
 - Knockdown sensitivity tracks the ATR/ATRIP and RPA1-containing RPA complexes in CCLE proteomics of 375 cancer cell lines; proteome-level complex abundance is a better predictor of ATR knockdown sensitivity than single transcripts [PMID:31978347](../papers/31978347.md)
@@ -60,13 +60,13 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 - [PMID:33212010](../papers/33212010.md)
 

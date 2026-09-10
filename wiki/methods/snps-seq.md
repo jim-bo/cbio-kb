@@ -22,7 +22,7 @@ SNPs-seq (also referred to as SNP-seq or high-throughput allele-specific protein
 
 ## Used by
 
-- Applied to 374 prostate-cancer GWAS risk loci in the NOL10/USF1 prostate cancer study; identified rs4519489 ([NOL10](../genes/NOL10.md) intron, 2p25 locus) as exhibiting strong biased allelic binding with the risk A allele binding more protein than the T allele, leading to its nomination as the functional causal SNP [PMID:28927585](../papers/28927585.md)
+- Applied to 374 prostate-cancer GWAS risk loci in the NOL10/USF1 prostate cancer study; identified rs4519489 ([NOL10](../genes/NOL10.md) intron, 2p25 locus) as exhibiting strong biased allelic binding with the risk A allele binding more protein than the T allele, leading to its nomination as the functional causal SNP [PMID:41062477](../papers/41062477.md)
 
 ## Notes
 

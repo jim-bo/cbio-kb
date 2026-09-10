@@ -15,8 +15,8 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 ## Alterations observed in the corpus
 
-- High-level focal amplification in 5% of HCCs (range 1-8%; SNP-array, n=704 patients). [PMID:24798001](../papers/24798001.md)
-- Anti-VEGF antibody [bevacizumab](../drugs/bevacizumab.md) + [sintilimab](../drugs/sintilimab.md) achieved ORR 54.5% in platinum-refractory ICI-naive recurrent/metastatic [NPC](../cancer_types/NPC.md). [PMID:24952746](../papers/24952746.md)
+- High-level focal amplification in 5% of HCCs (range 1-8%; SNP-array, n=704 patients). [PMID:30061739](../papers/30061739.md)
+- Anti-VEGF antibody [bevacizumab](../drugs/bevacizumab.md) + [sintilimab](../drugs/sintilimab.md) achieved ORR 54.5% in platinum-refractory ICI-naive recurrent/metastatic [NPC](../cancer_types/NPC.md). [PMID:41002550](../papers/41002550.md)
 - Recurrent focal amplification in 7% of gastric cancers (TCGA, CIN subtype); rationale for VEGFR-pathway inhibition (e.g., [ramucirumab](../drugs/ramucirumab.md)). [PMID:25079317](../papers/25079317.md)
 - Cited in the context of mouse lymphatic-metastasis models of cutaneous squamous cell carcinoma (cSCC); not directly assayed in the 29-tumour targeted-sequencing cohort [PMID:25589618](../papers/25589618.md)
 - Focal amplification in 1% of [HCC](../cancer_types/HCC.md) cases; listed as FDA-targetable alteration in the druggable landscape of [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
@@ -29,8 +29,8 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)** — VEGFA amplification in 5%; angiogenic signaling prominent across all [HCC](../cancer_types/HCC.md) subclasses; mechanistic target of [sorafenib](../drugs/sorafenib.md), [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), [ramucirumab](../drugs/ramucirumab.md), and [bevacizumab](../drugs/bevacizumab.md). [PMID:24798001](../papers/24798001.md)
-- **[NPC](../cancer_types/NPC.md)** — VEGFA pathway targeted via [bevacizumab](../drugs/bevacizumab.md) (ORR 54.5% combined with [sintilimab](../drugs/sintilimab.md)) and VEGFR2 TKI [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%) in R/M disease. [PMID:24952746](../papers/24952746.md)
+- **[HCC](../cancer_types/HCC.md)** — VEGFA amplification in 5%; angiogenic signaling prominent across all [HCC](../cancer_types/HCC.md) subclasses; mechanistic target of [sorafenib](../drugs/sorafenib.md), [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), [ramucirumab](../drugs/ramucirumab.md), and [bevacizumab](../drugs/bevacizumab.md). [PMID:30061739](../papers/30061739.md)
+- **[NPC](../cancer_types/NPC.md)** — VEGFA pathway targeted via [bevacizumab](../drugs/bevacizumab.md) (ORR 54.5% combined with [sintilimab](../drugs/sintilimab.md)) and VEGFR2 TKI [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%) in R/M disease. [PMID:41002550](../papers/41002550.md)
 - **[SKCM](../cancer_types/SKCM.md)** — VEGFA up-regulation in non-responding pre-treatment tumors as part of IPRES; linked to innate anti-PD-1 resistance [PMID:26997480](../papers/26997480.md).
 - **[EGC](../cancer_types/EGC.md) / [ESCA](../cancer_types/ESCA.md)** — Recurrent focal amplification at ≥5% prevalence in [EAC](../cancer_types/EAC.md) (N=487 MSK-IMPACT); one of 10 amplification-driven recurrent drivers; no independent [OS](../cancer_types/OS.md) association in this cohort. [PMID:33795256](../papers/33795256.md)
 
@@ -40,8 +40,8 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 ## Therapeutic relevance
 
-- **[HCC](../cancer_types/HCC.md):** Sorafenib, [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md) (multi-kinase VEGFR inhibitors); [ramucirumab](../drugs/ramucirumab.md) (anti-VEGFR2); [bevacizumab](../drugs/bevacizumab.md) + [atezolizumab](../drugs/atezolizumab.md) (FDA breakthrough designation). [PMID:24798001](../papers/24798001.md)
-- **[NPC](../cancer_types/NPC.md):** Bevacizumab + [sintilimab](../drugs/sintilimab.md) (ORR 54.5%); [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%). [PMID:24952746](../papers/24952746.md)
+- **[HCC](../cancer_types/HCC.md):** Sorafenib, [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md) (multi-kinase VEGFR inhibitors); [ramucirumab](../drugs/ramucirumab.md) (anti-VEGFR2); [bevacizumab](../drugs/bevacizumab.md) + [atezolizumab](../drugs/atezolizumab.md) (FDA breakthrough designation). [PMID:30061739](../papers/30061739.md)
+- **[NPC](../cancer_types/NPC.md):** Bevacizumab + [sintilimab](../drugs/sintilimab.md) (ORR 54.5%); [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%). [PMID:41002550](../papers/41002550.md)
 
 ## Open questions
 
@@ -49,8 +49,8 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 ## Sources
 
-- [PMID:24798001](../papers/24798001.md)
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:30061739](../papers/30061739.md)
+- [PMID:41002550](../papers/41002550.md)
 - [PMID:25079317](../papers/25079317.md)
 - [PMID:25589618](../papers/25589618.md)
 - [PMID:25822088](../papers/25822088.md)

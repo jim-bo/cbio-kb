@@ -17,7 +17,7 @@ The Illumina TruSight Pan-Cancer RNA panel is a targeted RNA sequencing panel de
 
 ## Used by
 
-- Used in retrospective molecular profiling of a urinary bladder small round cell sarcoma; detected an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) in-frame fusion (EWSR1 exon 10 to BEND2 exon 2), subsequently confirmed by Sanger sequencing. This RNA panel approach resolved the fusion partner that EWSR1 break-apart FISH could not identify [PMID:28199314](../papers/28199314.md)
+- Used in retrospective molecular profiling of a urinary bladder small round cell sarcoma; detected an [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) in-frame fusion (EWSR1 exon 10 to BEND2 exon 2), subsequently confirmed by Sanger sequencing. This RNA panel approach resolved the fusion partner that EWSR1 break-apart FISH could not identify [PMID:41102727](../papers/41102727.md)
 
 ## Notes
 
@@ -27,6 +27,6 @@ The Illumina TruSight Pan-Cancer RNA panel is a targeted RNA sequencing panel de
 
 ## Sources
 
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

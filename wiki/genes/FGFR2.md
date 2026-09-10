@@ -27,9 +27,9 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2/3 combined alteration frequency 3.2% in [GBM](../cancer_types/GBM.md) (TCGA 2013 cohort, n=251 with WES+CNA), contributing to the RTK-alteration rate of 67.3% in that tumor type [PMID:24120142](../papers/24120142.md)
 - Mutated in 4/32 (13%) intrahepatic cholangiocarcinoma discovery-screen tumors at residues mutated in endometrial carcinoma; flagged as a potential therapeutic target via FGFR inhibitors then in clinical trials [PMID:24185509](../papers/24185509.md)
 - Altered in 9% of gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)) cases (TCGA); alteration type is RTK amplification enriched in the CIN subtype [PMID:25079317](../papers/25079317.md)
-- Fusions/rearrangements ([BICC1](../genes/BICC1.md), [TACC3](../genes/TACC3.md) partners) in 8–16% iCCA, 0–2% eCCA; targetable with [pemigatinib](../drugs/pemigatinib.md) (FIGHT-202 ORR 35.5%), [infigratinib](../drugs/infigratinib.md) (ORR 37.9%), [futibatinib](../drugs/futibatinib.md) (FOENIX-CCA2 ORR 42.0%); secondary kinase-domain mutations (N550, V565) emerge in ~60% on reversible inhibitors. [PMID:25526346](../papers/25526346.md)
+- Fusions/rearrangements ([BICC1](../genes/BICC1.md), [TACC3](../genes/TACC3.md) partners) in 8–16% iCCA, 0–2% eCCA; targetable with [pemigatinib](../drugs/pemigatinib.md) (FIGHT-202 ORR 35.5%), [infigratinib](../drugs/infigratinib.md) (ORR 37.9%), [futibatinib](../drugs/futibatinib.md) (FOENIX-CCA2 ORR 42.0%); secondary kinase-domain mutations (N550, V565) emerge in ~60% on reversible inhibitors. [PMID:41008893](../papers/41008893.md)
 - Non-recurrent fusions detected in 2/484 papillary thyroid carcinoma (PTC) cases in TCGA cohort; mutually exclusive with BRAF/RAS/EIF1AX mutations. [PMID:25417114](../papers/25417114.md)
-- Recurrent fusions/rearrangements in intrahepatic CCA; [futibatinib](../drugs/futibatinib.md) cited as an FGFR2 inhibitor synergizing with [cisplatin](../drugs/cisplatin.md) in CCA [PMID:25608663](../papers/25608663.md)
+- Recurrent fusions/rearrangements in intrahepatic CCA; [futibatinib](../drugs/futibatinib.md) cited as an FGFR2 inhibitor synergizing with [cisplatin](../drugs/cisplatin.md) in CCA [PMID:41018102](../papers/41018102.md)
 - Candidate RTK alteration in HNSCC across HPV groups (Fig. 3) [PMID:25631445](../papers/25631445.md)
 - Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); shared with salivary gland AdCCs; part of FGF-pathway enrichment [PMID:26095796](../papers/26095796.md)
 - MAPK-pathway alteration (with [FGFR1](../genes/FGFR1.md), [BRAF](../genes/BRAF.md), [NF1](../genes/NF1.md), NTRK1/2) enriched in PA-like [LGG](../cancer_types/LGG.md) (52%) and LGm6-GBM (32%) in a pan-glioma TCGA methylation/genomic study (n=1122); alterations associated with pilocytic-astrocytoma-like IDH-wildtype [LGG](../cancer_types/LGG.md) subtype [PMID:26824661](../papers/26824661.md)
@@ -92,11 +92,11 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 - [PMID:25079317](../papers/25079317.md)
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 - [PMID:25417114](../papers/25417114.md)
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 - [PMID:25631445](../papers/25631445.md)
 

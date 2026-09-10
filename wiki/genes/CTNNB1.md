@@ -27,7 +27,7 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 - Hotspot mutations in 3/4 CRPC-WNT models in a transcriptomic CRPC subtyping study defining four subtypes (CRPC-AR, CRPC-NE, CRPC-SCL, CRPC-WNT); CTNNB1 mutations are a defining genomic feature of the CRPC-WNT subtype [PMID:35617398](../papers/35617398.md)
 - Beta-catenin (CTNNB1) alterations part of the Wnt/APC pathway landscape in pan-Asian solid-tumor cohort; [APC](../genes/APC.md) altered in 72% of [COADREAD](../cancer_types/COADREAD.md) in this cohort [PMID:35871175](../papers/35871175.md)
 - Listed among hotspot-interrogated genes in EC cfDNA monitoring; CTNNB1 mutations are a known recurrent EC driver tracked in MSK-ACCESS-based liquid biopsy studies [PMID:36007103](../papers/36007103.md)
-- Beta-catenin activation defines a >25% subset of [HCC](../cancer_types/HCC.md) patients addicted to fatty acid oxidation via PPARalpha and CPT1A; etomoxir suppresses tumor development in this Wnt/beta-catenin-driven HCC context [PMID:38355797](../papers/38355797.md)
+- Beta-catenin activation defines a >25% subset of [HCC](../cancer_types/HCC.md) patients addicted to fatty acid oxidation via PPARalpha and CPT1A; etomoxir suppresses tumor development in this Wnt/beta-catenin-driven HCC context [PMID:41118283](../papers/41118283.md)
 - CTNNB1 mutation shared between adjacent intramucosal carcinoma and high-grade dysplasia in one AOM/DSS mouse model lesion; Wnt-pathway alterations infrequent in CAC (enriched only in subclonal-TP53 cases, P=0.017) [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
@@ -78,7 +78,7 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 - [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)

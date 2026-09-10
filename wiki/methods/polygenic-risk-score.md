@@ -17,7 +17,7 @@ A polygenic risk score (PRS) is a summary measure of an individual's genetic pre
 
 ## Used by
 
-- Three UV-tanning propensity PRS (from the PGS Catalog) were evaluated against dose-normalised NB-UVB mutation burden in 16 psoriasis patients: PGS001246 ("very tanned", 4,130 variants), PGS001244 ("mildly/occasionally tanned", 958 variants), and PGS001247 ("never tan, only burn", 3,159 variants). Asian patients had the lowest Δ-mutation burden/dose and the lowest PGS001246/PGS001244 scores; Δ-mutation burden/dose was negatively associated with minimal erythema dose (MED; P=0.007, Spearman). Authors propose PRS could be incorporated into future personalised NB-UVB surveillance models alongside MED and self-reported sun-exposure behaviour. [PMID:26950094](../papers/26950094.md)
+- Three UV-tanning propensity PRS (from the PGS Catalog) were evaluated against dose-normalised NB-UVB mutation burden in 16 psoriasis patients: PGS001246 ("very tanned", 4,130 variants), PGS001244 ("mildly/occasionally tanned", 958 variants), and PGS001247 ("never tan, only burn", 3,159 variants). Asian patients had the lowest Δ-mutation burden/dose and the lowest PGS001246/PGS001244 scores; Δ-mutation burden/dose was negatively associated with minimal erythema dose (MED; P=0.007, Spearman). Authors propose PRS could be incorporated into future personalised NB-UVB surveillance models alongside MED and self-reported sun-exposure behaviour. [PMID:40317189](../papers/40317189.md)
 
 ## Notes
 

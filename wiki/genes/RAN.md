@@ -15,11 +15,11 @@ RAN (RAs-related Nuclear protein) is a GTPase essential for nucleocytoplasmic tr
 
 ## Alterations observed in the corpus
 
-- RAN is part of a 5-gene tumor score (TAF9, RAN, RAMP3, KRT19, HN1) that predicts HCC recurrence and survival after resection [PMID:24735922](../papers/24735922.md)
+- RAN is part of a 5-gene tumor score (TAF9, RAN, RAMP3, KRT19, HN1) that predicts HCC recurrence and survival after resection [PMID:25369299](../papers/25369299.md)
 
 ## Cancer types (linked)
 
-- Hepatocellular carcinoma (HCC): component of a recurrence-prediction gene score [PMID:24735922](../papers/24735922.md)
+- Hepatocellular carcinoma (HCC): component of a recurrence-prediction gene score [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ RAN (RAs-related Nuclear protein) is a GTPase essential for nucleocytoplasmic tr
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

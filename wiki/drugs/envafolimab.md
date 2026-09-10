@@ -17,8 +17,8 @@ Envafolimab (KN035) is a subcutaneously administered single-domain antibody (nan
 
 ## Evidence in the corpus
 
-- Envafolimab + CCRT in locally advanced NPC: phase II ORR 94.4%; cited among ICIs being combined with concurrent chemoradiation [PMID:24952746](../papers/24952746.md).
-- Comparative efficacy of subcutaneous envafolimab vs intravenous ICIs in NPC is noted as unstudied [PMID:24952746](../papers/24952746.md).
+- Envafolimab + CCRT in locally advanced NPC: phase II ORR 94.4%; cited among ICIs being combined with concurrent chemoradiation [PMID:41002550](../papers/41002550.md).
+- Comparative efficacy of subcutaneous envafolimab vs intravenous ICIs in NPC is noted as unstudied [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

@@ -41,14 +41,14 @@ The TCGA Pan-Cancer Atlas colorectal adenocarcinoma cohort, accessed via cBioPor
 
 ## Papers using this cohort
 
-- [PMID:36334560](../papers/36334560.md) — Bioinformatic analysis of [FBXO7](../genes/FBXO7.md) copy number loss in CRC; 526 cases used for copy number, expression, and survival analyses.
+- [PMID:40896366](../papers/40896366.md) — Bioinformatic analysis of [FBXO7](../genes/FBXO7.md) copy number loss in CRC; 526 cases used for copy number, expression, and survival analyses.
 - [PMID:29625048](../papers/29625048.md) — TCGA PanCancer Atlas integrative molecular analysis (Hoadley et al., 2018)
 - [PMID:29625049](../papers/29625049.md) — TCGA PanCancer Atlas pan-cancer driver and germline analysis (Ding et al., 2018)
 - [PMID:29625050](../papers/29625050.md) — TCGA PanCancer Atlas oncogenic pathway analysis (Sanchez-Vega et al., 2018)
 
 ## Notable findings derived from this cohort
 
-- FBXO7 shallow deletions (heterozygous loss) occur in 32.5% (169/526) of CRC cases; deep deletions are rare (<0.2%); FBXO7 shallow deletions associate with increased genome instability (fraction altered, aneuploidy score, tumor break load; q < 0.0001) and worse overall, progression-free, and disease-specific survival (log rank, p < 0.05) [PMID:36334560](../papers/36334560.md).
+- FBXO7 shallow deletions (heterozygous loss) occur in 32.5% (169/526) of CRC cases; deep deletions are rare (<0.2%); FBXO7 shallow deletions associate with increased genome instability (fraction altered, aneuploidy score, tumor break load; q < 0.0001) and worse overall, progression-free, and disease-specific survival (log rank, p < 0.05) [PMID:40896366](../papers/40896366.md).
 - MC3 ensemble mutation calls (7 callers, 10,510 TCGA tumor/normal pairs, 33 cancer types) form the somatic-variant backbone of this PanCanAtlas cBioPortal study [PMID:29596782](../papers/29596782.md)
 - Pan-cancer aneuploidy analysis of 10,522 TCGA tumors used this cohort as part of the gastrointestinal cluster (COAD/READ) analysis of arm-level copy-number alterations [PMID:29622463](../papers/29622463.md)
 - COAD/READ samples contributed to pan-cancer iCluster analysis; C4:pan-GI (CRC, chromosomal instability) and C18:pan-GI (MSI, STAD+COAD) were two of the 28 identified integrative subtypes; C1:STAD (EBV-CIMP) also contains CRC tumors [PMID:29625048](../papers/29625048.md)

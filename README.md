@@ -18,7 +18,7 @@ Two things live in this repo:
 ```bash
 uv sync                 # runtime deps only
 uv sync --group dev     # + pytest
-uv sync --extra server  # + FAISS/sentence-transformers for the MCP server
+uv sync --extra chat --extra server  # + retrieval stack and fastmcp for the MCP server
 ```
 
 The `cbio-kb` entry point is installed into the venv:
@@ -57,20 +57,23 @@ All artifacts land under `data/`, which is gitignored. Only `data/seed/` is
 committed.
 
 ```bash
+# 0. Live cBioPortal studies → data/seed/cbioportal_study_pmids.csv
+uv run cbio-kb ingest seed
+
 # 1. PMIDs → PMCIDs
 uv run cbio-kb ingest resolve
 
-# 2. Download PDFs from PMC
-uv run cbio-kb ingest pdfs --email you@example.org
+# 2. Download PDFs from PMC (Europe PMC first)
+uv run cbio-kb ingest pdfs
 
-# 3. Extract text → data/raw/papers/{pmid}.md
+# 3. Extract text → data/raw/papers/{pmid}.md, then fill papers with no PDF from NCBI BioC
 uv run cbio-kb ingest extract
+uv run cbio-kb ingest bioc
 
-# 4. Build FAISS passage index
-uv run cbio-kb index build
-
-# 5. Search (sanity check)
-uv run cbio-kb index search -q "KRAS G12C in lung cancer" --rerank
+# 4. Build the passage index the chat app and MCP server search
+#    (Vertex gemini-embedding-001; needs GCP_PROJECT + ADC)
+uv run cbio-kb index build-papers
+uv run cbio-kb index build-bm25
 ```
 
 ## Wiki maintenance (agent-driven)
@@ -103,15 +106,24 @@ uv run cbio-kb wiki reprocess-extract --prompts        # agent-ready prompts
 
 ## MCP server
 
+The knowledge base is also an MCP server, built as a companion to the
+published cBioPortal servers (`cbioportal-mcp` for data, `cbioportal-navigator`
+for portal URLs): same study IDs, OncoTree codes and HUGO symbols, same
+transport conventions. See [docs/mcp.md](docs/mcp.md).
+
 ```bash
-uv run cbio-kb serve --host localhost --port 8123
+uv sync --extra chat --extra server
+uv run cbio-kb serve                                  # stdio
+uv run cbio-kb serve --transport http --port 8124     # http://127.0.0.1:8124/mcp
 # or
-docker build -t cbio-kb . && docker run -p 8123:8123 cbio-kb
+docker build -t cbio-kb . && docker run -p 8124:8124 \
+  -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb
 ```
 
 ## Layout
 
 ```
+ai_search/          FastAPI chat API + MCP server (mcp.py)
 src/cbio_kb/        Python package
   cli.py            single entry point
   ingest/           PDF → Markdown pipeline
@@ -119,7 +131,6 @@ src/cbio_kb/        Python package
   ontology/         cBioPortal + OncoTree validation
   wiki/             vault queries, crosslinker, linter, reprocess, fts
   logs/             session transcript stitcher
-  server/           MCP server
 wiki/               Obsidian vault (papers, genes, cancer_types, …)
 schema/             ontology + page templates (symlinked into wiki/_schema)
 .claude/agents/     Claude Code agent specs

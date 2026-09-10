@@ -90,6 +90,7 @@ def _cmd_index_build_papers(args: argparse.Namespace) -> int:
         "--chunk-chars", str(args.chunk_chars),
         "--overlap", str(args.overlap),
         "--batch-size", str(args.batch_size),
+        *(["--incremental"] if args.incremental else []),
     ])
 
 
@@ -143,9 +144,21 @@ def _cmd_logs_export(args: argparse.Namespace) -> int:
 
 
 def _cmd_serve(args: argparse.Namespace) -> int:
-    from cbio_kb.server import mcp
+    # The server lives in ai_search/ (repo root, not part of the wheel). In a
+    # checkout or the Docker image it sits next to src/; put it on sys.path.
+    import sys
 
-    return mcp.main(["--host", args.host, "--port", str(args.port)])
+    root = Path(__file__).resolve().parents[2]
+    if (root / "ai_search").is_dir() and str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    from ai_search import mcp
+
+    argv = []
+    for flag in ("transport", "host", "port", "path"):
+        value = getattr(args, flag)
+        if value is not None:
+            argv += [f"--{flag}", str(value)]
+    return mcp.main(argv)
 
 
 # ---- wiki vault queries ---------------------------------------------------
@@ -364,6 +377,8 @@ def build_parser() -> argparse.ArgumentParser:
     # parser construction free of the numpy/faiss import chain (CI runs `lint`
     # without the [server] extras installed).
     idx_bp.add_argument("--batch-size", type=int, default=25)
+    idx_bp.add_argument("--incremental", action="store_true",
+                        help="Embed only PMIDs missing from the existing index")
     idx_bp.set_defaults(func=_cmd_index_build_papers)
 
     idx_bm = idx_sub.add_parser(
@@ -415,9 +430,14 @@ def build_parser() -> argparse.ArgumentParser:
     logs_e.add_argument("--truncate", type=int, default=2000)
     logs_e.set_defaults(func=_cmd_logs_export)
 
-    srv = sub.add_parser("serve", help="Start MCP server")
-    srv.add_argument("--host", default="localhost")
-    srv.add_argument("--port", type=int, default=8123)
+    srv = sub.add_parser(
+        "serve", help="Start the cbio-kb MCP server (stdio by default; see ai_search/mcp.py)",
+    )
+    srv.add_argument("--transport", choices=["stdio", "http", "sse"], default=None,
+                     help="Default: $CBIO_KB_MCP_SERVER_TRANSPORT, else http if --host/--port, else stdio")
+    srv.add_argument("--host", default=None, help="Bind host for http/sse (default 127.0.0.1)")
+    srv.add_argument("--port", type=int, default=None, help="Bind port for http/sse (default 8124)")
+    srv.add_argument("--path", default=None, help="HTTP mount path (default /mcp)")
     srv.set_defaults(func=_cmd_serve)
 
     # ---- wiki vault queries -----------------------------------------------

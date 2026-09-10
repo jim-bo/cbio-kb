@@ -336,15 +336,36 @@ async def _run_legs(
     top_k_dense: int,
     top_k_bm25: int,
     top_k_graph: int,
+    *,
+    use_dense: bool = True,
+    allow_dense_failure: bool = False,
 ) -> dict[str, Any]:
     """Dispatch the three retrievers concurrently and return their results
-    plus per-leg latency for the SSE tool_use cards."""
+    plus per-leg latency for the SSE tool_use cards.
+
+    ``use_dense=False`` skips the dense leg outright (no FAISS load, no
+    embedding call); ``allow_dense_failure`` turns a dense-leg exception into
+    an empty leg. Either way the reason lands in ``legs["dense_error"]``. Both
+    exist for callers without Vertex credentials (the MCP server); defaults
+    keep the eval from silently scoring a two-leg run as hybrid.
+    """
     loop = asyncio.get_event_loop()
     t0 = time.perf_counter()
+    dense_error: str | None = None
 
     async def _leg_dense() -> tuple[list[dict], float, float]:
+        nonlocal dense_error
         s = time.perf_counter()
-        out = await loop.run_in_executor(None, _dense_search, query, top_k_dense)
+        if not use_dense:
+            dense_error = "disabled"
+            return [], s - t0, s - t0
+        try:
+            out = await loop.run_in_executor(None, _dense_search, query, top_k_dense)
+        except Exception as e:
+            if not allow_dense_failure:
+                raise
+            dense_error = f"{type(e).__name__}: {e}"
+            out = []
         return out, s - t0, time.perf_counter() - t0
 
     async def _leg_bm25() -> tuple[list[dict], float, float]:
@@ -368,12 +389,15 @@ async def _run_legs(
     dense_chunks, dense_ts, dense_te = dense_out
     bm25_chunks, bm25_ts, bm25_te = bm25_out
     graph_chunks, anchors_meta, graph_ts, graph_te = graph_out
-    return {
+    legs = {
         "dense": (dense_chunks, dense_ts, dense_te),
         "bm25": (bm25_chunks, bm25_ts, bm25_te),
         "graph": (graph_chunks, graph_ts, graph_te),
         "anchors": anchors_meta,
     }
+    if dense_error:
+        legs["dense_error"] = dense_error
+    return legs
 
 
 def retrieve_hybrid(
@@ -385,10 +409,15 @@ def retrieve_hybrid(
     top_k_fused: int = K_FUSED,
     top_k_final: int = K_FINAL,
     rerank: bool = _RERANK_ENABLED_DEFAULT,
+    use_dense: bool = True,
+    allow_dense_failure: bool = False,
 ) -> dict[str, Any]:
     """Synchronous helper for tests / scripts. Returns the same dict shape
     as :func:`_run_legs` plus ``fused`` and ``final`` lists."""
-    legs = asyncio.run(_run_legs(query, top_k_dense, top_k_bm25, top_k_graph))
+    legs = asyncio.run(_run_legs(
+        query, top_k_dense, top_k_bm25, top_k_graph,
+        use_dense=use_dense, allow_dense_failure=allow_dense_failure,
+    ))
     fused = rrf_fuse(
         [legs["dense"][0], legs["bm25"][0], legs["graph"][0]],
         k=RRF_K, top_k=top_k_fused,

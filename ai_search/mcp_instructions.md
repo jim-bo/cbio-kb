@@ -40,6 +40,8 @@ value; the paper describes the cohort at publication time.
 ## Rules
 
 - Cite every claim with its PMID (e.g. `PMID:39506116`, https://pubmed.ncbi.nlm.nih.gov/39506116/).
+- A paper marked `retracted: true` has been retracted by its journal; don't use it as
+  evidence, and say so if it comes up.
 - `study_ids` on a paper means *this paper is the publication for that cBioPortal
   study*. `datasets_used` means the paper analyzed that cohort; it may not be the
   cohort's own publication.

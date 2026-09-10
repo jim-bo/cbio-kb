@@ -121,3 +121,12 @@ def test_health_route():
     with TestClient(m.mcp.http_app()) as client:
         r = client.get("/health")
     assert r.status_code == 200 and r.json()["service"] == "cbio-kb"
+
+
+def test_retracted_paper_is_flagged():
+    # PMID 32214244 (Poore et al. 2020) was retracted in 2024 but is still attached
+    # to cBioPortal's TCGA PanCancer studies.
+    out = call("get_paper", pmid="32214244", sections=["TL;DR"])
+    assert out["retracted"] is True
+    study = call("get_study_papers", study_id="brca_tcga_pan_can_atlas_2018")
+    assert any(p.get("retracted") for p in study["papers"] if p["pmid"] == "32214244")

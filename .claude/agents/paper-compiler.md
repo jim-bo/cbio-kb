@@ -33,7 +33,12 @@ Before writing the paper page you need to know which entity pages already exist 
    plus the full extracted PDF text under `## Full Text`. (This file lives in `data/raw/`, so use `Read`, not the wiki CLI.)
    **Token budget note:** Read the full raw file once for the initial pass (frontmatter + entity extraction). For subsequent targeted lookups (e.g. confirming a finding for *Genes & alterations* or *Clinical implications*), prefer `uv run cbio-kb index search -q "<query>" --rerank` over re-reading the full raw markdown.
 2. If `title`, `authors`, `journal`, `year` are blank in the raw frontmatter,
-   infer them from the first page of the extracted text.
+   infer them from the first page of the extracted text. If the byline is not in
+   the text (common for BioC-sourced raw files), leave `authors: []` — never fill
+   authors from memory. The orchestrator runs `scripts/sync_pubmed_metadata.py`
+   afterwards, which sets authors (and blank doi/journal/year) from PubMed.
+   Also confirm the text is the paper this PMID names; if it isn't, write nothing
+   and report it in `warnings`.
 3. If a fact you want to assert is not clearly grounded in the extracted text,
    call `uv run cbio-kb index search -q "<query>" --rerank` via Bash to fetch exact
    passages from the FAISS index, then cite them.

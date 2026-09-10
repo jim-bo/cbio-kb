@@ -111,10 +111,18 @@ class Paper:
     methods: list[str]
     study_ids: list[str]
     tldr: str
+    tags: list[str] = field(default_factory=list)
     entity_links: set[str] = field(default_factory=set)  # "genes/EGFR", ...
 
+    @property
+    def retracted(self) -> bool:
+        return "retracted" in self.tags
+
     def brief(self) -> dict[str, Any]:
-        return {"pmid": self.pmid, "title": self.title, "year": self.year, "journal": self.journal}
+        out = {"pmid": self.pmid, "title": self.title, "year": self.year, "journal": self.journal}
+        if self.retracted:
+            out["retracted"] = True
+        return out
 
 
 @dataclass
@@ -200,6 +208,7 @@ def catalog() -> Catalog:
             methods=_as_list(fm.get("methods")),
             study_ids=pmid_studies.get(f.stem, []),
             tldr=_plain(tldr)[:600],
+            tags=_as_list(fm.get("tags")),
             entity_links=links,
         )
         papers[paper.pmid] = paper
@@ -257,6 +266,7 @@ def _paper_meta(p: Paper) -> dict[str, Any]:
         "cancer_types": p.cancer_types, "genes": p.genes[:40],
         "drugs": p.drugs, "methods": p.methods,
         "path": f"papers/{p.pmid}.md", "pubmed_url": _pubmed(p.pmid),
+        "retracted": p.retracted,
     }
 
 
@@ -283,6 +293,7 @@ def _passage_view(chunks: list[dict], top_k: int, max_per_paper: int = 0) -> lis
             "title": paper.title if paper else None,
             "year": paper.year if paper else None,
             "study_ids": paper.study_ids if paper else [],
+            **({"retracted": True} if paper and paper.retracted else {}),
             "chunk_id": c.get("chunk_id"),
             "score": round(float(score), 4) if score is not None else None,
             "path": f"papers/{pmid}.md",

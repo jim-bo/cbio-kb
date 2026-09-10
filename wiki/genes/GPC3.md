@@ -16,28 +16,28 @@ GPC3 (Glypican-3) is a cell-surface heparan sulfate proteoglycan that is overexp
 
 ## Alterations observed in the corpus
 
-- GPC3 is a stem-cell/progenitor-cell signature marker that is prognostic in subsets of HCC; co-expressed with EPCAM and KRT19 [PMID:24735922](../papers/24735922.md)
-- GPC3 protein expression is part of the EASL-endorsed diagnostic IHC triplet (alongside HSPA1A/HSP70 and GLUL/glutamine synthetase) for early HCC diagnosis [PMID:24735922](../papers/24735922.md)
+- GPC3 is a stem-cell/progenitor-cell signature marker that is prognostic in subsets of HCC; co-expressed with EPCAM and KRT19 [PMID:25369299](../papers/25369299.md)
+- GPC3 protein expression is part of the EASL-endorsed diagnostic IHC triplet (alongside HSPA1A/HSP70 and GLUL/glutamine synthetase) for early HCC diagnosis [PMID:25369299](../papers/25369299.md)
 - GPC3 is elevated in HCC-like transcriptomic clusters (P2/P4) of combined hepatocellular-intrahepatic cholangiocarcinoma (cHCC-ICC), consistent with its role as a hepatocyte marker [PMID:31130341](../papers/31130341.md).
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — prognostic stem-cell marker and diagnostic IHC panel component in HCC [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md) — prognostic stem-cell marker and diagnostic IHC panel component in HCC [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with EPCAM and KRT19 as a progenitor-cell signature in HCC [PMID:24735922](../papers/24735922.md)
-- Co-expressed with HSPA1A and GLUL in the EASL-endorsed IHC diagnostic triplet [PMID:24735922](../papers/24735922.md)
+- Co-expressed with EPCAM and KRT19 as a progenitor-cell signature in HCC [PMID:25369299](../papers/25369299.md)
+- Co-expressed with HSPA1A and GLUL in the EASL-endorsed IHC diagnostic triplet [PMID:25369299](../papers/25369299.md)
 
 ## Therapeutic relevance
 
-- GPC3 is a candidate target for immunotherapy (CAR-T cells, bispecific antibodies) given its HCC-selective expression; therapeutic development ongoing at the time of the 2014 review [PMID:24735922](../papers/24735922.md)
+- GPC3 is a candidate target for immunotherapy (CAR-T cells, bispecific antibodies) given its HCC-selective expression; therapeutic development ongoing at the time of the 2014 review [PMID:25369299](../papers/25369299.md)
 
 ## Open questions
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:31130341](../papers/31130341.md)

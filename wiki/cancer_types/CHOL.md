@@ -23,8 +23,8 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 
 ## Recurrent alterations
 
-- Narrative review of etiology-driven genomic landscape across CCA subtypes: iCCA enriched for [IDH1](../genes/IDH1.md) (13-29%), [FGFR2](../genes/FGFR2.md) fusions (8-16%), [ARID1A](../genes/ARID1A.md) (18-23%), [KRAS](../genes/KRAS.md) (24-27%), [TP53](../genes/TP53.md) (20-27%); eCCA enriched for [KRAS](../genes/KRAS.md) (37-46%), [TP53](../genes/TP53.md) (35-68%), [SMAD4](../genes/SMAD4.md) (~25%); HBV integration near [TERT](../genes/TERT.md) and [MET](../genes/MET.md); HCV association with [FGFR2](../genes/FGFR2.md) fusions (OR 9.50); PSC-CCA enriched for TP53/KRAS/SMAD4/ERBB2; CDKN2A/B (15-27% iCCA, 19% eCCA) mediates acquired FGFR-inhibitor resistance [PMID:25526346](../papers/25526346.md).
-- Narrative review of gut-liver axis dysregulation in cholangiocarcinoma identifies gut microbiota dysbiosis, bile acid metabolic reprogramming (conjugated primary BAs accumulate; a CDCA+TCDCA panel outperformed CA19-9, AUC=0.95), and LPS/TLR4-driven immunosuppression as CCA progression mechanisms; [ivosidenib](../drugs/ivosidenib.md) (IDH1-mutant iCCA) and [futibatinib](../drugs/futibatinib.md) (FGFR2-rearranged iCCA) are highlighted as precision therapeutics. [PMID:25608663](../papers/25608663.md)
+- Narrative review of etiology-driven genomic landscape across CCA subtypes: iCCA enriched for [IDH1](../genes/IDH1.md) (13-29%), [FGFR2](../genes/FGFR2.md) fusions (8-16%), [ARID1A](../genes/ARID1A.md) (18-23%), [KRAS](../genes/KRAS.md) (24-27%), [TP53](../genes/TP53.md) (20-27%); eCCA enriched for [KRAS](../genes/KRAS.md) (37-46%), [TP53](../genes/TP53.md) (35-68%), [SMAD4](../genes/SMAD4.md) (~25%); HBV integration near [TERT](../genes/TERT.md) and [MET](../genes/MET.md); HCV association with [FGFR2](../genes/FGFR2.md) fusions (OR 9.50); PSC-CCA enriched for TP53/KRAS/SMAD4/ERBB2; CDKN2A/B (15-27% iCCA, 19% eCCA) mediates acquired FGFR-inhibitor resistance [PMID:41008893](../papers/41008893.md).
+- Narrative review of gut-liver axis dysregulation in cholangiocarcinoma identifies gut microbiota dysbiosis, bile acid metabolic reprogramming (conjugated primary BAs accumulate; a CDCA+TCDCA panel outperformed CA19-9, AUC=0.95), and LPS/TLR4-driven immunosuppression as CCA progression mechanisms; [ivosidenib](../drugs/ivosidenib.md) (IDH1-mutant iCCA) and [futibatinib](../drugs/futibatinib.md) (FGFR2-rearranged iCCA) are highlighted as precision therapeutics. [PMID:41018102](../papers/41018102.md)
 - ICGC multi-omic profiling of 489 cholangiocarcinomas from 10 countries defined four etiology-driven molecular clusters, nominating ERBB2 amplification (10.4% Fluke-Pos), IDH1/IDH2 mutations, FGFR2 rearrangements, and four new drivers (RASA1, STK11, MAP2K4, SF3B1); integrative clusters predicted prognosis independently of anatomical location and fluke status. [PMID:28667006](../papers/28667006.md)
 - Biliary tract cancer (cholangiocarcinoma) showed responses to neratinib in the SUMMIT basket trial for HER2/HER3-mutant solid tumors, including HER2 kinase domain missense mutations (L755, V777), contributing to the lineage-plus-allele pattern of pan-HER TKI sensitivity [PMID:29420467](../papers/29420467.md)
 - Pan-cancer fusion study (9,624 TCGA samples) identified FGFR2–BICC1 as the most recurrent fusion in CHOL (5.6% of cholangiocarcinoma samples), with FGFR2 being a candidate druggable target [PMID:29617662](../papers/29617662.md)
@@ -42,17 +42,17 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 
 ## Therapeutic landscape
 
-- **[FGFR2](../genes/FGFR2.md) fusion/rearrangement (iCCA):** [pemigatinib](../drugs/pemigatinib.md) (FIGHT-202: ORR 35.5%, mPFS 6.9 mo, mOS 21.1 mo); [infigratinib](../drugs/infigratinib.md); [futibatinib](../drugs/futibatinib.md) (FOENIX-CCA2: ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; covalent) [PMID:25526346](../papers/25526346.md).
-- **[IDH1](../genes/IDH1.md) mutation (iCCA):** [ivosidenib](../drugs/ivosidenib.md) (ClarIDHy phase III: significant PFS/OS benefit vs. placebo) [PMID:25526346](../papers/25526346.md).
-- **[ERBB2](../genes/ERBB2.md) alteration:** [pertuzumab](../drugs/pertuzumab.md) + [trastuzumab](../drugs/trastuzumab.md) (MyPathway: ORR 23%); [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) (basket: ORR 22.0% in CCA) [PMID:25526346](../papers/25526346.md).
-- **[BRAF](../genes/BRAF.md) V600E (iCCA):** [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md) (ROAR: ORR ~47% in 43 CCA patients) [PMID:25526346](../papers/25526346.md).
-- **NTRK fusion:** [entrectinib](../drugs/entrectinib.md); [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md).
-- **First-line:** [gemcitabine](../drugs/gemcitabine.md) + [cisplatin](../drugs/cisplatin.md) ± [durvalumab](../drugs/durvalumab.md) [PMID:25526346](../papers/25526346.md).
+- **[FGFR2](../genes/FGFR2.md) fusion/rearrangement (iCCA):** [pemigatinib](../drugs/pemigatinib.md) (FIGHT-202: ORR 35.5%, mPFS 6.9 mo, mOS 21.1 mo); [infigratinib](../drugs/infigratinib.md); [futibatinib](../drugs/futibatinib.md) (FOENIX-CCA2: ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; covalent) [PMID:41008893](../papers/41008893.md).
+- **[IDH1](../genes/IDH1.md) mutation (iCCA):** [ivosidenib](../drugs/ivosidenib.md) (ClarIDHy phase III: significant PFS/OS benefit vs. placebo) [PMID:41008893](../papers/41008893.md).
+- **[ERBB2](../genes/ERBB2.md) alteration:** [pertuzumab](../drugs/pertuzumab.md) + [trastuzumab](../drugs/trastuzumab.md) (MyPathway: ORR 23%); [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) (basket: ORR 22.0% in CCA) [PMID:41008893](../papers/41008893.md).
+- **[BRAF](../genes/BRAF.md) V600E (iCCA):** [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md) (ROAR: ORR ~47% in 43 CCA patients) [PMID:41008893](../papers/41008893.md).
+- **NTRK fusion:** [entrectinib](../drugs/entrectinib.md); [larotrectinib](../drugs/larotrectinib.md) [PMID:41008893](../papers/41008893.md).
+- **First-line:** [gemcitabine](../drugs/gemcitabine.md) + [cisplatin](../drugs/cisplatin.md) ± [durvalumab](../drugs/durvalumab.md) [PMID:41008893](../papers/41008893.md).
 
 ## Sources
 
-- [PMID:25526346](../papers/25526346.md)
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41008893](../papers/41008893.md)
+- [PMID:41018102](../papers/41018102.md)
 - [PMID:28667006](../papers/28667006.md)
 - [PMID:34145282](../papers/34145282.md)
 

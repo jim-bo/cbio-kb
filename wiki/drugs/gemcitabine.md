@@ -25,13 +25,13 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - **Urothelial cancer (mUC)**: gemcitabine + [cisplatin](../drugs/cisplatin.md) (GC) is the standard cytotoxic backbone in metastatic urothelial carcinoma; the CALGB 90601 cohort profiled cfDNA dynamics under GC ± [bevacizumab](../drugs/bevacizumab.md). [PMID:40256659](../papers/40256659.md)
 - 143 metastatic gallbladder carcinoma patients received gemcitabine/platinum (mostly [cisplatin](../drugs/cisplatin.md)) as first-line chemotherapy among 233 [GBC](../cancer_types/GBC.md) cases profiled with MSK-IMPACT at MSK (2014--2021) [PMID:36228155](../papers/36228155.md)
 - Combined with [saridegib](../drugs/saridegib.md) (IPI-926, Smoothened inhibitor) in a co-clinical [PAAD](../cancer_types/PAAD.md) trial (NCT01130142); despite positive preclinical signal in GEM mice, the human phase II arm was halted for inferior survival, illustrating risks of preclinical-to-clinical translation without chronic-dosing validation [PMID:23999436](../papers/23999436.md).
-- Cisplatin + gemcitabine is the standard chemotherapy backbone for R/M [NPC](../cancer_types/NPC.md); multiple anti-PD-1 combination trials add ICIs to this doublet [PMID:24952746](../papers/24952746.md)
-- Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with [cisplatin](../drugs/cisplatin.md), with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; molecular profiling at diagnosis recommended per ESMO guidelines before targeted therapy sequencing [PMID:25526346](../papers/25526346.md)
-- Referenced as part of standard chemotherapy backbones for CCA treatment in the context of novel combination strategies with targeted agents such as [futibatinib](../drugs/futibatinib.md) [PMID:25608663](../papers/25608663.md)
-- Antimetabolite; contraindicated throughout pregnancy (teratogenic) in young-onset NSCLC patients despite being a standard component of first-line NSCLC regimens [PMID:27346245](../papers/27346245.md)
+- Cisplatin + gemcitabine is the standard chemotherapy backbone for R/M [NPC](../cancer_types/NPC.md); multiple anti-PD-1 combination trials add ICIs to this doublet [PMID:41002550](../papers/41002550.md)
+- Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with [cisplatin](../drugs/cisplatin.md), with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; molecular profiling at diagnosis recommended per ESMO guidelines before targeted therapy sequencing [PMID:41008893](../papers/41008893.md)
+- Referenced as part of standard chemotherapy backbones for CCA treatment in the context of novel combination strategies with targeted agents such as [futibatinib](../drugs/futibatinib.md) [PMID:41018102](../papers/41018102.md)
+- Antimetabolite; contraindicated throughout pregnancy (teratogenic) in young-onset NSCLC patients despite being a standard component of first-line NSCLC regimens [PMID:40958859](../papers/40958859.md)
 - [Cisplatin](../drugs/cisplatin.md) + gemcitabine (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); 72 tumors from 32 patients profiled by WES showed only 28.4% shared mutations between matched pre- and post-chemotherapy samples, with gemcitabine-cisplatin driving clonal selection for [L1CAM](../genes/L1CAM.md)/integrin-pathway and APOBEC3A-enriched clones [PMID:27749842](../papers/27749842.md)
 - In the multi-institutional Phase II (Herman et al, n=49), gemcitabine (up to 3 weekly doses) combined with 33 Gy/5 fx SBRT achieved 79% 1-year local control and 13.9-month median OS in unresectable locally advanced [PAAD](../cancer_types/PAAD.md), with only 2% acute and 6% late grade 3+ GI toxicity — the reference standard for SBRT-concurrent chemotherapy in pancreatic cancer [PMID:27826200](../papers/27826200.md)
-- Used in combination with docetaxel (16 cycles) in EWSR1::BEND2 bladder sarcoma after progression and nephrotoxicity on ISG/SSG IV protocol; disease approximately stable on docetaxel + gemcitabine; patient died at 26 months post-diagnosis [PMID:28199314](../papers/28199314.md).
+- Used in combination with docetaxel (16 cycles) in EWSR1::BEND2 bladder sarcoma after progression and nephrotoxicity on ISG/SSG IV protocol; disease approximately stable on docetaxel + gemcitabine; patient died at 26 months post-diagnosis [PMID:41102727](../papers/41102727.md).
 - In orthotopic bladder cancer xenografts (SCBO-3 and SCBO-5 arms, n=4–8 mice/arm), gemcitabine (100 mg/kg twice-weekly IP) produced significant tumor-size reductions on ultrasound with increased cleaved caspase-3 on histology [PMID:29625057](../papers/29625057.md)
 - Used as first-line chemotherapy (gemcitabine/platinum) in 80% of 158 advanced cholangiocarcinoma patients; median time to progression 8.8 months; gemcitabine/nab-paclitaxel was an alternative first-line regimen [PMID:29848569](../papers/29848569.md)
 - Gemcitabine/cisplatin (GC) was one of the two cisplatin-based neoadjuvant chemotherapy regimens (alongside MVAC) used in the 288 MSKCC MIBC patients; the differential pathologic response of primary vs secondary MIBC was observed across both NAC regimens [PMID:30290956](../papers/30290956.md).
@@ -57,13 +57,13 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:40256659](../papers/40256659.md) — CALGB 90601 mUC cfDNA dynamics; GC backbone.
 
 - [PMID:23999436](../papers/23999436.md)
-- [PMID:24952746](../papers/24952746.md)
-- [PMID:25526346](../papers/25526346.md)
-- [PMID:25608663](../papers/25608663.md)
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:41002550](../papers/41002550.md)
+- [PMID:41008893](../papers/41008893.md)
+- [PMID:41018102](../papers/41018102.md)
+- [PMID:40958859](../papers/40958859.md)
 - [PMID:27749842](../papers/27749842.md)
 - [PMID:27826200](../papers/27826200.md)
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 - [PMID:29625057](../papers/29625057.md)
 - [PMID:29848569](../papers/29848569.md)
 - [PMID:30290956](../papers/30290956.md)

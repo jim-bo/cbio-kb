@@ -22,19 +22,19 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 was not somatically mutated in 207 high-grade soft tissue sarcomas ([sarc_mskcc](../datasets/sarc_mskcc.md)); however, elevated phospho-AKT (Ser473/Thr308) served as a pathway readout in PIK3CA-mutant myxoid/round-cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) tumors, particularly in helical-domain (E545K) mutants [PMID:20601955](../papers/20601955.md).
 - Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); part of mTOR pathway altered in >30% of tumours; fell below formal significance threshold given cohort size. [PMID:18948947](../papers/18948947.md)
 - AKT1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
-- AKT1 mutation identified in ARID1A-mutant ovarian cancer functional genomics screen as a synthetic lethal vulnerability with BET bromodomain inhibition [PMID:22037554](../papers/22037554.md)
+- AKT1 mutation identified in ARID1A-mutant ovarian cancer functional genomics screen as a synthetic lethal vulnerability with BET bromodomain inhibition [PMID:41049615](../papers/41049615.md)
 - Somatic mutations identified in AKT1 in breast cancer WES of 100 tumors, contributing to PI3K/AKT pathway activation [PMID:22722201](../papers/22722201.md)
 - AKT1 alterations identified in breast cancer WES/WGS of 103 tumors (Broad Institute), implicating AKT pathway in breast tumorigenesis [PMID:22722202](../papers/22722202.md)
 - Mutated in breast cancer (TCGA, 510 tumors); AKT1 alterations identified as part of the PIK3CA/AKT signaling axis in luminal subtypes [PMID:23000897](../papers/23000897.md)
 - Copy number gain in OSCC; part of the PI3K/AKT mitogenic signaling pathway, altered in 63% of OSCC tumors overall in the [hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md) cohort [PMID:23619168](../papers/23619168.md)
 - Mutation in 2% of high-grade bladder cancers; AKT1-mutant tumors predicted to be sensitive to [MK-2206](../drugs/mk-2206.md) AKT inhibition (vs TSC1-loss which confers resistance at S6/4EBP1 level) [PMID:23897969](../papers/23897969.md)
 - Sporadic alteration identified in a biliary tract cancer prevalence-screen panel (intrahepatic cholangiocarcinoma/gallbladder carcinoma cohort); included as a candidate driver in the extended sequencing panel [PMID:24185509](../papers/24185509.md)
-- Phosphorylated at S473 in [GBC](../cancer_types/GBC.md) cells in response to paracrine rh-SEMA7A; PI3K inhibition by LY294002 blocked downstream p-EP300 S1834, placing AKT1 upstream of [EP300](../genes/EP300.md) in the SEMA7A/ITGB1 signaling cascade [PMID:24997986](../papers/24997986.md)
+- Phosphorylated at S473 in [GBC](../cancer_types/GBC.md) cells in response to paracrine rh-SEMA7A; PI3K inhibition by LY294002 blocked downstream p-EP300 S1834, placing AKT1 upstream of [EP300](../genes/EP300.md) in the SEMA7A/ITGB1 signaling cascade [PMID:40830485](../papers/40830485.md)
 - Recurrent mutation in 2% of muscle-invasive urothelial carcinoma (UCB) in the PI3K/AKT pathway; co-occurring with [PIK3CA](../genes/PIK3CA.md) and [TSC1](../genes/TSC1.md) alterations (6% each) [PMID:25092538](../papers/25092538.md)
 - PI3K/AKT pathway mutations ([PTEN](../genes/PTEN.md), AKT1/2, PAX8/PPARG) account for 4.5% (18/402) of papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
 - Activating p.E17K mutation in metastatic castration-resistant prostate cancer (mCRPC); part of PI3K/AKT pathway alterations in 71.3% of cases [PMID:26000489](../papers/26000489.md)
 - Recurrent E17K mutation nominated as a biomarker for combination MEK + PI3K/AKT/mTOR therapy in cutaneous melanoma [PMID:26091043](../papers/26091043.md)
-- Cross-disease context: SF3B1-driven alternative splicing targets AKT1 in other cancers (e.g. breast cancer); used as comparison context in a CLL study where SF3B1-K700E activates mTORC1/MYC via [NFATC1](../genes/NFATC1.md) mis-splicing rather than AKT1 [PMID:26200345](../papers/26200345.md)
+- Cross-disease context: SF3B1-driven alternative splicing targets AKT1 in other cancers (e.g. breast cancer); used as comparison context in a CLL study where SF3B1-K700E activates mTORC1/MYC via [NFATC1](../genes/NFATC1.md) mis-splicing rather than AKT1 [PMID:40694421](../papers/40694421.md)
 - Highest average pAKT-S473 and pAKT-T308 levels of any breast cancer subtype detected by RPPA in [ILC](../cancer_types/ILC.md) — comparable to HER2+ and Basal-like [IDC](../cancer_types/IDC.md) — nominating PI3K/AKT pathway inhibition as a particularly attractive therapeutic strategy for this Luminal A disease [PMID:26451490](../papers/26451490.md)
 - E17K hotspot activating mutation in 2 prostate cancer tumors; D323Y in 1 tumor (likely activating, structurally adjacent to E17K in 3D); part of ~25% PI3K/MAPK pathway actionable alterations in primary prostate cancer [PMID:26544944](../papers/26544944.md)
 - Recurrent p.E17K mutation identified in lung adenocarcinoma ([NSCLC](../cancer_types/NSCLC.md)) via pan-lung WES analysis; mutually exclusive with other RTK/Ras/Raf activating events [PMID:27158780](../papers/27158780.md)
@@ -63,7 +63,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PIK3R1](../genes/PIK3R1.md) knockdown activates AKT in prostate cancer cell lines; [ipatasertib](../drugs/ipatasertib.md) (an AKT inhibitor) showed activity against AKT1-mutant PDXs in this context [PMID:35670774](../papers/35670774.md)
 - AKT1 E17K enriched in myxoid liposarcoma (3.7%) alongside PIK3CA and [PTEN](../genes/PTEN.md) alterations in the FoundationOne Heme sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
 - AKT1 targetable in myxoid retroperitoneal liposarcoma ([MRLS](../cancer_types/MRLS.md)) with collective 31% PI3K-pathway hits including PIK3CA, AKT1, [MTOR](../genes/MTOR.md), and [TSC1](../genes/TSC1.md) at Level 3B; [MRLS](../cancer_types/MRLS.md) PI3K-pathway rate is 41% across the MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
-- PI3K/AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts activate EGFR-AKT axis driving TKI resistance [PMID:38355797](../papers/38355797.md)
+- PI3K/AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts activate EGFR-AKT axis driving TKI resistance [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -97,7 +97,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22037554](../papers/22037554.md)
+- [PMID:41049615](../papers/41049615.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
@@ -118,7 +118,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25092538](../papers/25092538.md)
@@ -133,7 +133,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
@@ -214,6 +214,6 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -24,22 +24,22 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - BAP1 deletions detected in 2/17 FN-RMS (fusion-negative rhabdomyosarcoma) patients exclusively at relapse, identified by ctDNA liquid biopsy in a multi-sample genomic analysis (n=35 tumor pairs) [PMID:37730754](../papers/37730754.md).
 - One BRCA1/2 wild-type, MAPK-WT [PAAD](../cancer_types/PAAD.md) tumor harboring a BAP1 loss-of-function fusion received durable PARPi benefit in the MSK PDAC genomic cohort (n=2,336 tumors); BAP1 loss may confer HRD-like sensitivity to PARP inhibitors [PMID:39753968](../papers/39753968.md).
 - BAP1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
-- BAP1 loss-of-function mutations identified as a molecular subtype-defining event in clear cell renal cell carcinoma (ccRCC) with implications for immunotherapy response prediction [PMID:22138691](../papers/22138691.md)
+- BAP1 loss-of-function mutations identified as a molecular subtype-defining event in clear cell renal cell carcinoma (ccRCC) with implications for immunotherapy response prediction [PMID:40834854](../papers/40834854.md)
 - BAP1 mutations identified in breast cancer WES of 100 tumors, implicating deubiquitinase-mediated chromatin regulation in breast cancer [PMID:22722201](../papers/22722201.md)
 - BAP1 is recurrently mutated in the Yale melanoma WES cohort of 147 tumors, suggesting a role for this ubiquitin carboxyl-terminal hydrolase and tumor suppressor in cutaneous melanoma [PMID:22842228](../papers/22842228.md)
 - Significantly mutated gene in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446); only SMG independently correlated with worse overall survival; enriched in mRNA subtype m4 (17% vs 7%, p=0.002) [PMID:23792563](../papers/23792563.md)
 - Inactivating mutations (nonsense, frameshift, splice-site) in 13/64 (20%) intrahepatic cholangiocarcinoma; first report in a gastrointestinal cancer; encodes a nuclear deubiquitinase implicated in chromatin remodeling [PMID:24185509](../papers/24185509.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; flagged as candidate for DNA cross-linking agents and PARP inhibition [PMID:24293293](../papers/24293293.md)
 - Subclonal/branch driver in ccRCC; RMH008 harbored three independent BAP1 hits (p.Gln277*, p.Asn411fs, p.Pro519fs); BAP1 mutation is a marker of poor prognosis and was heterogeneous in all cases detected across 10 ccRCC tumors [PMID:24487277](../papers/24487277.md)
-- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289) as a non-actionable driver [PMID:24798001](../papers/24798001.md)
+- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289) as a non-actionable driver [PMID:30061739](../papers/30061739.md)
 - Recurrent somatic mutations in thymic carcinomas (cohort-level observation) [PMID:24974848](../papers/24974848.md)
 - Referenced as a known germline kidney-cancer predisposition gene; somatic profiles of nccRCC are contrasted against its germline role [PMID:25401301](../papers/25401301.md)
-- Loss enriched in non-fluke-related cholangiocarcinoma and small-duct intrahepatic CCA; small-duct iCCA arising on chronic liver disease backgrounds enriched for BAP1 and IDH1/IDH2 hotspot mutations and [FGFR2](../genes/FGFR2.md) fusions [PMID:25526346](../papers/25526346.md)
+- Loss enriched in non-fluke-related cholangiocarcinoma and small-duct intrahepatic CCA; small-duct iCCA arising on chronic liver disease backgrounds enriched for BAP1 and IDH1/IDH2 hotspot mutations and [FGFR2](../genes/FGFR2.md) fusions [PMID:41008893](../papers/41008893.md)
 - Co-occurs with [SF3B1](../genes/SF3B1.md) R625H and GNAQ/GNA11 hot-spots in Triple-WT cutaneous melanoma (typically uveal-melanoma drivers); BAP1 and [SF3B1](../genes/SF3B1.md) mutations are mutually exclusive [PMID:26091043](../papers/26091043.md)
 - 11 truncating/splice/missense mutations in uveal melanoma (28/28 samples); all 6 BAP1-mutant WGS samples were chromosome-3 hemizygous, consistent with two-hit tumor-suppressor inactivation; one intronic 154 bp deletion identified via SV calling [PMID:26683228](../papers/26683228.md)
 - Essentially absent in extrahepatic cholangiocarcinoma (CAC) in this periampullary tumour cohort (single [IDH1](../genes/IDH1.md) hotspot only); contrasts with intrahepatic CAC where BAP1 alterations are common, confirming molecular distinctness of extra- vs intra-hepatic subtypes [PMID:26804919](../papers/26804919.md)
 - Inactivating mutation identified as a Mut-driver in breast cancer (METABRIC 2,433-sample cohort); flagged as a cross-cancer driver where therapies developed in other cancer types may be applicable [PMID:27161491](../papers/27161491.md)
-- BAP1: recurrent germline pathogenic/likely pathogenic variant in Indian familial [NSCLC](../cancer_types/NSCLC.md) cohort enriched in young lung cancer [PMID:27346245](../papers/27346245.md)
+- BAP1: recurrent germline pathogenic/likely pathogenic variant in Indian familial [NSCLC](../cancer_types/NSCLC.md) cohort enriched in young lung cancer [PMID:40958859](../papers/40958859.md)
 - BAP1 mutated in 13% of uRCC cases (62-patient MSK-IMPACT cohort); no significant outcome stratification on its own in this sample [PMID:27713405](../papers/27713405.md)
 - BAP1 enriched in IDH-WT Cluster 4 of cholangiocarcinoma (q < 0.001 for inactivating point mutations, q < 0.05 for regional deletions); BAP1-mutant CCAs show increased CpG hypermethylation; more frequent in intrahepatic CCAs (q < 0.1) [PMID:28667006](../papers/28667006.md)
 - [BAP1](../genes/BAP1.md) is an SMG identified by both MutSig2CV and MuSiC2 in [KIRC](../cancer_types/KIRC.md) using the TCGA MC3 open-access MAF. [PMID:29596782](../papers/29596782.md)
@@ -78,7 +78,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22138691](../papers/22138691.md)
+- [PMID:40834854](../papers/40834854.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
@@ -99,7 +99,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:24487277](../papers/24487277.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
@@ -108,7 +108,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:25401301](../papers/25401301.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
@@ -123,7 +123,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 - [PMID:27713405](../papers/27713405.md)
 

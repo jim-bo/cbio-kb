@@ -17,7 +17,7 @@ Tepotinib is a selective [MET](../genes/MET.md) tyrosine kinase inhibitor approv
 
 ## Evidence in the corpus
 
-- MET exon 14 skipping inhibitor; pivotal trial enrolled patients up to 74 years old; MET exon 14 skipping is rare in young-onset NSCLC (0.72% in patients ≤50 years vs 3.25% in patients >70 years), making tepotinib less relevant to the young-onset NSCLC population [PMID:27346245](../papers/27346245.md)
+- MET exon 14 skipping inhibitor; pivotal trial enrolled patients up to 74 years old; MET exon 14 skipping is rare in young-onset NSCLC (0.72% in patients ≤50 years vs 3.25% in patients >70 years), making tepotinib less relevant to the young-onset NSCLC population [PMID:40958859](../papers/40958859.md)
 
 ## Resistance mechanisms
 

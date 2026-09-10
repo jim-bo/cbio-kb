@@ -17,7 +17,7 @@ REVEL is an ensemble method for predicting the pathogenicity of missense variant
 
 ## Used by
 
-- Applied to score somatic variants in endometrial polyps; [UBE2A](../genes/UBE2A.md) p.(Arg6Trp) received a REVEL score of 0.56, contributing to its multi-tool functional characterization as a likely driver alteration [PMID:28445112](../papers/28445112.md)
+- Applied to score somatic variants in endometrial polyps; [UBE2A](../genes/UBE2A.md) p.(Arg6Trp) received a REVEL score of 0.56, contributing to its multi-tool functional characterization as a likely driver alteration [PMID:41137179](../papers/41137179.md)
 
 ## Notes
 
@@ -27,6 +27,6 @@ REVEL is an ensemble method for predicting the pathogenicity of missense variant
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

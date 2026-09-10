@@ -15,15 +15,15 @@ BMS1 is a ribosome biogenesis factor required for small-subunit (40S) assembly; 
 
 ## Alterations observed in the corpus
 
-- Partner in the novel recurrent PARG-BMS1 in-frame fusion detected in 5 NS-LUAD tumors in the Sherlock-Lung cohort; PARG encodes poly(ADP-ribose) glycohydrolase involved in DNA damage repair [PMID:32015526](../papers/32015526.md)
+- Partner in the novel recurrent PARG-BMS1 in-frame fusion detected in 5 NS-LUAD tumors in the Sherlock-Lung cohort; PARG encodes poly(ADP-ribose) glycohydrolase involved in DNA damage repair [PMID:40970133](../papers/40970133.md)
 
 ## Cancer types (linked)
 
-- [LUAD](../cancer_types/LUAD.md) — recurrent PARG-BMS1 fusion observed in non-smoking lung adenocarcinoma (n=5 of ~232 tumors in the Sherlock cohort) [PMID:32015526](../papers/32015526.md)
+- [LUAD](../cancer_types/LUAD.md) — recurrent PARG-BMS1 fusion observed in non-smoking lung adenocarcinoma (n=5 of ~232 tumors in the Sherlock cohort) [PMID:40970133](../papers/40970133.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- The PARG-BMS1 fusion partner PARG encodes a DNA-damage-repair protein; the biological consequence of fusing a DNA-repair enzyme to a ribosome biogenesis factor is not yet characterized [PMID:32015526](../papers/32015526.md)
+- The PARG-BMS1 fusion partner PARG encodes a DNA-damage-repair protein; the biological consequence of fusing a DNA-repair enzyme to a ribosome biogenesis factor is not yet characterized [PMID:40970133](../papers/40970133.md)
 
 ## Therapeutic relevance
 
@@ -36,6 +36,6 @@ BMS1 is a ribosome biogenesis factor required for small-subunit (40S) assembly; 
 
 ## Sources
 
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*

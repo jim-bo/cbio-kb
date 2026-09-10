@@ -19,8 +19,8 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 
 - In a patient with [MET](../genes/MET.md) exon 14 skipping mutation-positive lung cancer and CNS metastases, serial CSF ctDNA profiling detected emergence of the [MET](../genes/MET.md) p.Y1230N resistance mutation while on crizotinib, prompting a treatment switch to [capmatinib](../drugs/capmatinib.md) [PMID:39289779](../papers/39289779.md).
 - CSF ctDNA sequencing via MSK-IMPACT identified resistance mutations arising during crizotinib therapy, demonstrating the utility of CSF liquid biopsy for monitoring on-target resistance in the CNS compartment [PMID:39289779](../papers/39289779.md).
-- Referenced as an example of acquired resistance in targeted therapy (ALK-fusion lung cancer + crizotinib), used to motivate anticipatory combination regimens and second-generation inhibitor strategies for [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
-- ALK/ROS1/MET inhibitor used as targeted therapy for [ALK](../genes/ALK.md) rearrangements (>80% EML4-ALK) over-represented in young-onset [NSCLC](../cancer_types/NSCLC.md); CROWN trial subgroup analyses showed consistent outcomes by age [PMID:27346245](../papers/27346245.md)
+- Referenced as an example of acquired resistance in targeted therapy (ALK-fusion lung cancer + crizotinib), used to motivate anticipatory combination regimens and second-generation inhibitor strategies for [HCC](../cancer_types/HCC.md) [PMID:25369299](../papers/25369299.md)
+- ALK/ROS1/MET inhibitor used as targeted therapy for [ALK](../genes/ALK.md) rearrangements (>80% EML4-ALK) over-represented in young-onset [NSCLC](../cancer_types/NSCLC.md); CROWN trial subgroup analyses showed consistent outcomes by age [PMID:40958859](../papers/40958859.md)
 - Matched therapy for [ROS1](../genes/ROS1.md) fusions in 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort; two ROS1-fusion patients died before crizotinib FDA approval (March 2016) for [ROS1](../genes/ROS1.md) indication; [ALK](../genes/ALK.md) fusions also matched to crizotinib with 90.9% uptake and 93.3% clinical benefit [PMID:28336552](../papers/28336552.md).
 - Flagged as the approved [ALK](../genes/ALK.md) inhibitor for 20 [ALK](../genes/ALK.md)-fusion samples spanning 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in the TCGA pan-cancer fusion atlas (n=9,624); [EML4](../genes/EML4.md) was the dominant 5' partner (7/17 [ALK](../genes/ALK.md) fusions), and ALK overexpression was copy-number neutral — consistent with fusion-driven promoter capture rather than amplification [PMID:29617662](../papers/29617662.md)
 - In Beat [AML](../cancer_types/AML.md) ex vivo screen (409 specimens / 363 [AML](../cancer_types/AML.md) patients), [BCOR](../genes/BCOR.md) mutation alone (without [RUNX1](../genes/RUNX1.md) co-mutation) correlated with sensitivity to crizotinib (multi-kinase inhibitor), distinguishing BCOR-solo from BCOR/RUNX1 co-mutant [AML](../cancer_types/AML.md) which instead showed JAK-inhibitor sensitivity [PMID:30333627](../papers/30333627.md).
@@ -45,10 +45,10 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 - [PMID:39289779](../papers/39289779.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)

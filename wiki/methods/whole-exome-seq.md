@@ -45,7 +45,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 14 NHL cases (DLBCL and [FL](../cancer_types/FL.md)) with matched tumor/normal pairs in the BCGSC sequencing study; 113 additional cases sequenced via RNA-seq [PMID:21796119](../papers/21796119.md)
 - Used to sequence 74 HNSCC tumors (150x mean coverage, 87% loci >20x) in the Broad Institute HNSCC study; identified 39 significantly mutated genes including [NOTCH1](../genes/NOTCH1.md) and [TP53](../genes/TP53.md) [PMID:21798893](../papers/21798893.md)
 - Used to sequence 32 primary HNSCC tumors with matched normals at JHU (Illumina GAIIx/HiSeq 77x and SOLiD 44x); identified [NOTCH1](../genes/NOTCH1.md) as the second most frequently mutated gene (15%) with predominantly truncating mutations [PMID:21798897](../papers/21798897.md)
-- Applied to 102 breast cancer samples to discover recurrent [SF3B1](../genes/SF3B1.md) mutations and characterize the somatic mutational landscape [PMID:22158541](../papers/22158541.md)
+- Applied to 102 breast cancer samples to discover recurrent [SF3B1](../genes/SF3B1.md) mutations and characterize the somatic mutational landscape [PMID:41055979](../papers/41055979.md)
 - Applied to 19 pancreatic cystic neoplasms to identify somatic mutations in [VHL](../genes/VHL.md), [RNF43](../genes/RNF43.md), and [GNAS](../genes/GNAS.md) across [IPMN](../cancer_types/IPMN.md), [MCN](../cancer_types/MCN.md), and [SPN](../cancer_types/SPN.md) subtypes [PMID:22158988](../papers/22158988.md)
 - Applied to 55 DLBCL tumors at the Broad Institute to identify recurrently mutated genes via MutSig analysis [PMID:22343534](../papers/22343534.md)
 - WES complemented WGS in characterizing somatic coding mutations in 65 BCCRC breast tumors [PMID:22495314](../papers/22495314.md)
@@ -88,9 +88,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 130 muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) tumor/normal pairs (186,260 exons, 18,091 genes; mean 100× coverage, ≥82% target bases ≥30×); identified 32 significantly mutated genes including 9 novel cancer SMGs; mean 302 exonic mutations per sample [PMID:24476821](../papers/24476821.md)
 - Applied to 10 ccRCC primary tumors (79 samples, 8–12 regions each) via Agilent SureSelect Human All Exon V4 on Illumina HiSeq (median ≥70× depth) to characterize intratumor heterogeneity; 92.5% of candidate mutations validated by ultra-deep amplicon sequencing [PMID:24487277](../papers/24487277.md)
 - Used for Discovery Cohort of 20 paired [ESCC](../cancer_types/ESCC.md) germline/tumor samples (mean coverage 79×) to identify novel significantly mutated genes including [FAT1](../genes/FAT1.md), [FAT2](../genes/FAT2.md), [ZNF750](../genes/ZNF750.md), and [KMT2D](../genes/KMT2D.md) [PMID:24686850](../papers/24686850.md)
-- Referenced in [HCC](../cancer_types/HCC.md) genomics review (Llovet et al.) summarizing WES/WGS-based identification of recurrent drivers ([TERT](../genes/TERT.md) promoter, [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md)) across hepatocellular carcinoma cohorts [PMID:24735922](../papers/24735922.md)
-- Used for whole-exome sequencing of >1,200 [HCC](../cancer_types/HCC.md) patients to characterise the mutational landscape of hepatocellular carcinoma, including [TERT](../genes/TERT.md), [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) alterations [PMID:24798001](../papers/24798001.md)
-- Used for exome sequencing of 28 thymic epithelial tumors (tumor/normal pairs) to discover the recurrent [GTF2I](../genes/GTF2I.md) p.Leu404His hotspot mutation enriched in type A/AB thymomas [PMID:24816255](../papers/24816255.md)
+- Referenced in [HCC](../cancer_types/HCC.md) genomics review (Llovet et al.) summarizing WES/WGS-based identification of recurrent drivers ([TERT](../genes/TERT.md) promoter, [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md)) across hepatocellular carcinoma cohorts [PMID:25369299](../papers/25369299.md)
+- Used for whole-exome sequencing of >1,200 [HCC](../cancer_types/HCC.md) patients to characterise the mutational landscape of hepatocellular carcinoma, including [TERT](../genes/TERT.md), [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) alterations [PMID:30061739](../papers/30061739.md)
+- Used for exome sequencing of 28 thymic epithelial tumors (tumor/normal pairs) to discover the recurrent [GTF2I](../genes/GTF2I.md) p.Leu404His hotspot mutation enriched in type A/AB thymomas [PMID:41097736](../papers/41097736.md)
 - Applied to 28 [TET](../cancer_types/TET.md) tumor/normal pairs to identify recurrent [GTF2I](../genes/GTF2I.md) c.74146970T>A missense mutation; pipeline used Novoalign + GATK + VarScan2 + SnpEff + Annovar [PMID:24974848](../papers/24974848.md)
 - Whole-exome sequencing of 295 gastric adenocarcinomas ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) identified 25 significantly mutated genes in non-hypermutated tumors; exome-based mutation rates supported MSI classification and subtype-specific mutation enrichments [PMID:25079317](../papers/25079317.md)
 - WES of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) at mean 97.6x tumor / 95.8x germline coverage identified 18 significantly mutated genes including novel [RIT1](../genes/RIT1.md) activating mutations and [MGA](../genes/MGA.md) loss-of-function; mean somatic mutation rate 8.87 mutations/Mb [PMID:25079552](../papers/25079552.md)
@@ -129,7 +129,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 38 metastatic melanoma pretreatment biopsies on Illumina HiSeq2000 (2×100 bp; median 140× coverage) to call SNVs/INDELs for anti-PD-1 response analysis [PMID:26997480](../papers/26997480.md)
 - Applied to 619 CRC FFPE tumor/normal pairs (Illumina HiSeq 2000, SureSelect v.2 capture; mean 90× coverage, 87% of bases ≥20×) for driver discovery and neoantigen analysis [PMID:27149842](../papers/27149842.md)
 - Applied to 660 lung ADC and 484 lung SqCC tumor/normal pairs (Agilent SureSelect 50MB, Illumina paired-end) for comprehensive [NSCLC](../cancer_types/NSCLC.md) driver and neoepitope landscape analysis [PMID:27158780](../papers/27158780.md)
-- Whole-exome sequencing applied in germline susceptibility studies of young-onset [NSCLC](../cancer_types/NSCLC.md), including identification of pathogenic variants in [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), and Fanconi-anemia-pathway genes in YLC cohorts [PMID:27346245](../papers/27346245.md)
+- Whole-exome sequencing applied in germline susceptibility studies of young-onset [NSCLC](../cancer_types/NSCLC.md), including identification of pathogenic variants in [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), and Fanconi-anemia-pathway genes in YLC cohorts [PMID:40958859](../papers/40958859.md)
 - WES applied to a discovery cohort of 19 advanced germ cell tumors (10 cisplatin-resistant, 9 cisplatin-sensitive) at mean 116x coverage; identified [TP53](../genes/TP53.md) mutations exclusive to resistant tumors and novel [RAC1](../genes/RAC1.md) hotspot mutations validated in the prospective MSK-IMPACT cohort [PMID:27646943](../papers/27646943.md)
 - CLIA-grade EXaCT-1 whole-exome sequencing (Agilent HaloPlex, 21,522 genes, mean 85x coverage) applied to 72 urothelial carcinoma tumours from 32 patients to map clonal evolution pre- and post-chemotherapy. [PMID:27749842](../papers/27749842.md)
 - WES on N=44 B-ALL cases from the DUX4/ERG subtype study (1,913 total cases) to detect sequence mutations; mean 17.5 non-silent mutations per case with a paucity of structural alterations. [PMID:27776115](../papers/27776115.md)
@@ -140,7 +140,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 173 pheochromocytoma/paraganglioma tumors in the TCGA [PCPG](../cancer_types/PCPG.md) study (paired tumor + matched normal) yielding a somatic mutation rate of ~0.67 mutations/Mb and identifying five significant driver genes [PMID:28162975](../papers/28162975.md).
 - Applied whole-exome sequencing to characterize somatic mutations in tumor samples [PMID:28196596](../papers/28196596.md)
 - Performed whole-exome sequencing as part of clinical genomic profiling for cancer patients [PMID:28336552](../papers/28336552.md)
-- Applied whole-exome sequencing to identify somatic mutations in pediatric cancer cohort [PMID:28445112](../papers/28445112.md)
+- Applied whole-exome sequencing to identify somatic mutations in pediatric cancer cohort [PMID:41137179](../papers/41137179.md)
 - Whole-exome sequencing of 16 paired tumor-normal clear cell endometrial carcinoma samples (Illumina Truseq and Agilent SureSelect; mean depth 75x) in the [uccc_nih_2017](../datasets/uccc_nih_2017.md) discovery cohort [PMID:28485815](../papers/28485815.md)
 - WES of 327 spatially separated primary [NSCLC](../cancer_types/NSCLC.md) tumor regions and 4 metastatic biopsies through the TRACERx M-Seq pipeline, used to design bespoke ctDNA monitoring panels (median 18 SNVs/patient) [PMID:28445469](../papers/28445469.md)
 - 106 MSK-IMPACT tumors re-captured with Agilent Exome Kit v3 (mean 240x) for cross-platform TMB validation; WES vs MSK-IMPACT TMB correlation R2=0.76 [PMID:28481359](../papers/28481359.md)
@@ -154,7 +154,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 35 pre-treatment metastatic [CCRCC](../cancer_types/CCRCC.md) tumor/normal pairs (mean 128× tumor / 91× normal) to identify [PBRM1](../genes/PBRM1.md) LOF as an anti-PD-(L)1 response biomarker [PMID:29301960](../papers/29301960.md)
 - Paired WES (n=49) validated that MSK-IMPACT targeted-panel TMB correlates tightly with whole-exome TMB in [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy (Spearman r=0.86, P<0.001) [PMID:29337640](../papers/29337640.md)
 - Used to profile 15 Korean vulvar SCC tumor/normal pairs (Agilent SureSelect Human All Exome V4, BWA/GATK pipeline) for HPV-stratified mutational landscape analysis [PMID:29422544](../papers/29422544.md)
-- Used for trio whole-exome sequencing of 372 pediatric cancer patients to identify germline LP/PVs in 25 HBOC-associated genes (GRCh38/hg38); CNVs were not analyzed [PMID:29489754](../papers/29489754.md)
+- Used for trio whole-exome sequencing of 372 pediatric cancer patients to identify germline LP/PVs in 25 HBOC-associated genes (GRCh38/hg38); CNVs were not analyzed [PMID:40857049](../papers/40857049.md)
 - Formed the sequencing backbone of the TCGA MC3 project, processing ~10,510 tumor/normal pairs across 33 cancer types on Illumina platforms with multiple capture kits; intersection-of-capture-kit BED used as exonic mask [PMID:29596782](../papers/29596782.md)
 - Applied to 1,013 prostate tumor/normal pairs (680 primary, 333 metastatic castration-resistant) to define 97 significantly mutated genes; mean target coverage 104.7× (tumor) and 103.8× (normal) [PMID:29610475](../papers/29610475.md)
 - Source of somatic mutation calls (via MC3 MAF v2.8) for 9,125 TCGA PanCanAtlas tumors across 33 cancer types in the pan-cancer oncogenic signaling pathway analysis [PMID:29625050](../papers/29625050.md).
@@ -249,7 +249,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:21798897](../papers/21798897.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22158541](../papers/22158541.md)
+- [PMID:41055979](../papers/41055979.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22158988](../papers/22158988.md)
@@ -378,10 +378,10 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
@@ -498,7 +498,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
@@ -531,7 +531,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28485815](../papers/28485815.md)
@@ -573,7 +573,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)

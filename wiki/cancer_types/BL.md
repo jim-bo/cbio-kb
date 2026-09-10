@@ -20,7 +20,7 @@ Burkitt lymphoma (BL) is a highly aggressive mature B-cell malignancy typically 
 
 ## Recurrent alterations
 
-- RHOA R5Q (attenuated-output loss-of-function) is recurrent in Burkitt lymphoma (BL) and diffuse-type gastric carcinoma; in yeast modelling it complements RHO1 loss and clusters morphologically near wild-type, indicating a modest perturbation relative to stronger GOF/LOF RHOA alleles [PMID:24816253](../papers/24816253.md).
+- RHOA R5Q (attenuated-output loss-of-function) is recurrent in Burkitt lymphoma (BL) and diffuse-type gastric carcinoma; in yeast modelling it complements RHO1 loss and clusters morphologically near wild-type, indicating a modest perturbation relative to stronger GOF/LOF RHOA alleles [PMID:41002403](../papers/41002403.md).
 - A Burkitt lymphoma cell line (BJAB) was included in the six-cell-line genome-wide CRISPR screen (GeCKO v2, ~120k sgRNAs) alongside DLBCL lines to identify essential oncogenic dependencies across B-cell lymphoma types [PMID:28985567](../papers/28985567.md)
 
 ## Subtypes
@@ -33,7 +33,7 @@ Burkitt lymphoma (BL) is a highly aggressive mature B-cell malignancy typically 
 
 ## Sources
 
-- [PMID:24816253](../papers/24816253.md)
+- [PMID:41002403](../papers/41002403.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28985567](../papers/28985567.md)

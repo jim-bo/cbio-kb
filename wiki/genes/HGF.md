@@ -19,7 +19,7 @@ HGF (hepatocyte growth factor) is the ligand for the [MET](../genes/MET.md) rece
 ## Alterations observed in the corpus
 
 - HGF expression predicts sensitivity to PF-2341066 (crizotinib/MET-ALK inhibitor) across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
-- HGF overexpression is associated with poor prognosis and [sorafenib](../drugs/sorafenib.md) resistance in [HCC](../cancer_types/HCC.md); [tivantinib](../drugs/tivantinib.md) failed in MET-high [HCC](../cancer_types/HCC.md) (mechanism may be MET-independent); low plasma HGF showed a non-significant trend toward greater [sorafenib](../drugs/sorafenib.md) benefit in the SHARP biomarker substudy. [PMID:24798001](../papers/24798001.md)
+- HGF overexpression is associated with poor prognosis and [sorafenib](../drugs/sorafenib.md) resistance in [HCC](../cancer_types/HCC.md); [tivantinib](../drugs/tivantinib.md) failed in MET-high [HCC](../cancer_types/HCC.md) (mechanism may be MET-independent); low plasma HGF showed a non-significant trend toward greater [sorafenib](../drugs/sorafenib.md) benefit in the SHARP biomarker substudy. [PMID:30061739](../papers/30061739.md)
 - E199K activating mutation recurred between the cSCC NGS cohort and a prior 11-tumor cSCC study, suggesting a functional role [PMID:25589618](../papers/25589618.md)
 - HGF alteration in 3% of [HCC](../cancer_types/HCC.md) cases (243-case European WES cohort); enriched in alcohol-related [HCC](../cancer_types/HCC.md); listed as FDA-targetable; co-occurs with [MET](../genes/MET.md) amplification (1%) in the MET/HGF RTK pathway [PMID:25822088](../papers/25822088.md)
 - Missense mutation observed in 1/9 IMPACT341-sequenced hepatocellular adenomas (inflammatory I-HCA subtype); co-occurring with mutations in GNAS, FAT1, PIK3CA, and KMT2D in the same single tumor [PMID:30052636](../papers/30052636.md)
@@ -45,7 +45,7 @@ HGF (hepatocyte growth factor) is the ligand for the [MET](../genes/MET.md) rece
 - [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)

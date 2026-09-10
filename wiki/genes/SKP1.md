@@ -15,15 +15,15 @@ SKP1 (S-Phase Kinase-Associated Protein 1) is a core component of the SCF (SKP1-
 
 ## Alterations observed in the corpus
 
-- Invariable core member of the SCF E3 ubiquitin ligase complex; copy number loss of SCF genes (SKP1, [CUL1](../genes/CUL1.md), [RBX1](../genes/RBX1.md)) induces CIN in CRC [PMID:36334560](../papers/36334560.md)
+- Invariable core member of the SCF E3 ubiquitin ligase complex; copy number loss of SCF genes (SKP1, [CUL1](../genes/CUL1.md), [RBX1](../genes/RBX1.md)) induces CIN in CRC [PMID:40896366](../papers/40896366.md)
 
 ## Cancer types (linked)
 
-- CRC: SCF complex gene copy number loss associated with CIN [PMID:36334560](../papers/36334560.md)
+- CRC: SCF complex gene copy number loss associated with CIN [PMID:40896366](../papers/40896366.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Copy number loss co-occurs with CUL1 and RBX1 loss in CRC [PMID:36334560](../papers/36334560.md)
+- Copy number loss co-occurs with CUL1 and RBX1 loss in CRC [PMID:40896366](../papers/40896366.md)
 
 ## Therapeutic relevance
 
@@ -31,6 +31,6 @@ SKP1 (S-Phase Kinase-Associated Protein 1) is a core component of the SCF (SKP1-
 
 ## Sources
 
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*

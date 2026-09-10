@@ -29,7 +29,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Recurrent amplification detected in high-grade urothelial bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the MAPK-pathway alteration set (35% combined); arose in a predominantly mutually exclusive distribution with other RTK/RAS/RAF alterations [PMID:23897969](../papers/23897969.md)
 - FGFR1 alteration contributes to the RTK-alteration rate of 67.3% in [GBM](../cancer_types/GBM.md) (TCGA 2013 cohort, n=251 with WES+CNA); FGFR2/3 combined were explicitly listed at 3.2%, and FGFR1 was identified as part of the RTK pathway alteration landscape [PMID:24120142](../papers/24120142.md)
 - Focal amplification in 11/53 [ESCC](../cancer_types/ESCC.md) validated by FISH; protein over-expression in 17.3% of tumors; proposed druggable target in [ESCC](../cancer_types/ESCC.md) [PMID:24686850](../papers/24686850.md)
-- Alterations observed in the low-grade dysplasia stage of PSC-associated CCA progression, suggesting an early role in biliary tract tumorigenesis. [PMID:25526346](../papers/25526346.md)
+- Alterations observed in the low-grade dysplasia stage of PSC-associated CCA progression, suggesting an early role in biliary tract tumorigenesis. [PMID:41008893](../papers/41008893.md)
 - Focal amplification in 10% of HPV(-) vs 0% HPV(+) HNSCC [PMID:25631445](../papers/25631445.md)
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort) [PMID:26168399](../papers/26168399.md)
 - Co-amplified with [WHSC1L1](../genes/WHSC1L1.md) at 8p11.23 in 8% of primary prostate cancers [PMID:26544944](../papers/26544944.md)
@@ -102,7 +102,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 - [PMID:24686850](../papers/24686850.md)
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 - [PMID:25631445](../papers/25631445.md)
 

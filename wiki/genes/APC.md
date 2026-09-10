@@ -22,7 +22,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC alterations detected in 8% of advanced [HCC](../cancer_types/HCC.md) patients by cfDNA profiling (MSK-ACCESS panel, 51 patients); classified as a WNT pathway alteration [PMID:37769223](../papers/37769223.md).
 - 13 mutations in 11 [LUAD](../cancer_types/LUAD.md) tumours; first report of recurrent APC mutations in lung adenocarcinoma (previously known only in colorectal, squamous-cell, and small-cell lung cancer); part of Wnt pathway alteration. [PMID:18948947](../papers/18948947.md)
 - Subclonal APCQ879* detected in CRC C106-resistant cells; various APC alterations detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
-- APC truncated at aa 1309 in the A1309 CRC cell model; APC mutations implicated as potential biomarker of 5-FU resistance [PMID:36334560](../papers/36334560.md)
+- APC truncated at aa 1309 in the A1309 CRC cell model; APC mutations implicated as potential biomarker of 5-FU resistance [PMID:40896366](../papers/40896366.md)
 - APC mutations detected in pancreatic cystic neoplasms by whole-exome sequencing, implicating Wnt pathway dysregulation [PMID:22158988](../papers/22158988.md)
 - APC somatic mutations identified in breast cancer WES of 100 tumors as part of the driver gene landscape [PMID:22722201](../papers/22722201.md)
 - APC mutations observed in medulloblastoma WGS of 37 tumors (PCGP), implicating Wnt signaling disruption [PMID:22722829](../papers/22722829.md)
@@ -32,8 +32,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Beta-catenin-pathway mutation in [EAC](../cancer_types/EAC.md); APC + [CDH1](../genes/CDH1.md) or APC + [AXIN1](../genes/AXIN1.md) co-mutations observed in two individual tumors; Wnt/beta-catenin alterations present in only 9% of EACs ([esca_broad](../datasets/esca_broad.md)), contrasting with CRC [PMID:23525077](../papers/23525077.md)
 - Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation; consistent with prior reports of APC/beta-catenin pathway involvement in acinar cell carcinoma [PMID:24293293](../papers/24293293.md)
-- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289); part of the non-actionable trunk-driver set [PMID:24798001](../papers/24798001.md)
-- GAPPS syndrome driven by APC promoter 1B variants is included in the differential diagnosis of familial/hereditary gastric cancer; standard multigene GC panel includes APC [PMID:24816255](../papers/24816255.md)
+- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289); part of the non-actionable trunk-driver set [PMID:30061739](../papers/30061739.md)
+- GAPPS syndrome driven by APC promoter 1B variants is included in the differential diagnosis of familial/hereditary gastric cancer; standard multigene GC panel includes APC [PMID:41097736](../papers/41097736.md)
 - Beta-catenin pathway alteration in non-hypermutated gastric tumours; APC and [CTNNB1](../genes/CTNNB1.md) mutations co-occur in the Wnt pathway dysregulation landscape of gastric adenocarcinoma [PMID:25079317](../papers/25079317.md)
 - Higher prevalence than TCGA in metastatic CRC; private mutations in 7 patients (mostly secondary to a shared clonal hit); in one patient, primary-private nonsense was rendered phenotypically equivalent in the metastasis by chromosomal deletion of the APC locus [PMID:25164765](../papers/25164765.md)
 - Candidate dark-matter driver in papillary thyroid carcinoma; among chromatin-remodeling and additional driver alterations across 97/402 (24.1%) PTC tumors in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
@@ -78,7 +78,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Altered in 81% of pMMR/MSS rectal tumors (LARC cohort, n=652); frequency decreases toward the anal verge (UR 92% / MR 90% / LR 77%, p<0.001); median distance from anal verge 6.85 cm in APC-altered vs 4 cm in wild-type (p<0.001); C-terminal in rectum/DCA, N-terminal in PCA; replicated in MSK-OtherRectal (n=157) [PMID:35970919](../papers/35970919.md)
 - Structural deletion detected by LINX/PURPLE SV analysis in metastatic cSCC WGS cohort (n=25) [PMID:35982973](../papers/35982973.md)
 - Somatic APC mutation detected in cfDNA at baseline by MSK-ACCESS in EC patient CD36 (stage IIIA grade 1 endometrioid); one of 5 primary-tumor mutations, all detected in baseline ctDNA [PMID:36007103](../papers/36007103.md)
-- APC loss is the upstream alteration in some Wnt/beta-catenin-driven [HCC](../cancer_types/HCC.md) models; CTNNB1-mutant/APC-loss HCC (>25% of patients) is addicted to FAO via PPARalpha and CPT1A [PMID:38355797](../papers/38355797.md)
+- APC loss is the upstream alteration in some Wnt/beta-catenin-driven [HCC](../cancer_types/HCC.md) models; CTNNB1-mutant/APC-loss HCC (>25% of patients) is addicted to FAO via PPARalpha and CPT1A [PMID:41118283](../papers/41118283.md)
 - Somatic APC mutation in 20% of colitis-associated cancers (vs ~80% in sporadic CRC); APC-mutant CAC organoids remained Wnt-independent for growth; germline APC I1307K in 3 CAC patients (Ashkenazi Jewish low-penetrance allele) [PMID:36611031](../papers/36611031.md)
 
 ## Cancer types (linked)
@@ -108,7 +108,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:36355783](../papers/36355783.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22158988](../papers/22158988.md)
@@ -138,10 +138,10 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
@@ -276,7 +276,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)

@@ -32,8 +32,8 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - Somatically mutated in pancreatic cancer (ICGC WES, 142 tumors); ARID2 loss-of-function mutations identified among significantly mutated genes in the SWI/SNF chromatin-remodeling complex [PMID:23103869](../papers/23103869.md)
 - Chromatin-remodeling SWI/SNF complex member mutated in [EAC](../cancer_types/EAC.md) ([esca_broad](../datasets/esca_broad.md)); part of the 24% of EACs with SWI/SNF alterations (including [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) [PMID:23525077](../papers/23525077.md)
 - Mutated SWI/SNF complex member in [ESCC](../cancer_types/ESCC.md); identified as significantly mutated in 139 paired [ESCC](../cancer_types/ESCC.md) tumor/germline samples [PMID:24686850](../papers/24686850.md)
-- Chromatin remodeling driver identified by NGS in [HCC](../cancer_types/HCC.md); listed among the newly identified [HCC](../cancer_types/HCC.md) driver genes alongside [ARID1A](../genes/ARID1A.md) [PMID:24735922](../papers/24735922.md)
-- Loss-of-function mutation in 7% (range 3–10%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
+- Chromatin remodeling driver identified by NGS in [HCC](../cancer_types/HCC.md); listed among the newly identified [HCC](../cancer_types/HCC.md) driver genes alongside [ARID1A](../genes/ARID1A.md) [PMID:25369299](../papers/25369299.md)
+- Loss-of-function mutation in 7% (range 3–10%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:30061739](../papers/30061739.md)
 - Chromatin remodeler truncated or hit at COSMIC sites in cutaneous squamous cell carcinoma; part of SWI/SNF complex alterations observed in 48% of 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
 - Chromatin-remodeling gene recurrently mutated in [HCC](../cancer_types/HCC.md); SWI/SNF pathway altered in 28% of 243 [HCC](../cancer_types/HCC.md) tumors; [SMARCA2](../genes/SMARCA2.md) alteration enriched in alcohol-related [HCC](../cancer_types/HCC.md) [PMID:25822088](../papers/25822088.md)
 - SMG strongly enriched in melanoma CIMP cluster (OR=3.5, p=0.0003); frequently co-occurs with [NF1](../genes/NF1.md) — proposed synthetic-lethal vulnerability for chromatin-modifier targeting [PMID:26091043](../papers/26091043.md)
@@ -105,10 +105,10 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)

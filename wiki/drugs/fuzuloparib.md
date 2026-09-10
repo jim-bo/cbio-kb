@@ -17,7 +17,7 @@ Fuzuloparib (SHR-3162) is an oral PARP1/2 ([PARP1](../genes/PARP1.md)) inhibitor
 
 ## Evidence in the corpus
 
-- Cited as a PARP inhibitor (alongside niraparib and olaparib) being tested in combination with ICI in NPC to exploit DNA repair deficiencies [PMID:24952746](../papers/24952746.md).
+- Cited as a PARP inhibitor (alongside niraparib and olaparib) being tested in combination with ICI in NPC to exploit DNA repair deficiencies [PMID:41002550](../papers/41002550.md).
 - In the FUTURE umbrella trial, fuzuloparib (PARP inhibitor, SH3162) monotherapy in arm D (BLIS-subtype TNBC with germline BRCA1/2 mutation) showed no responses: 3/3 evaluable patients progressed, all platinum-refractory, consistent with platinum-PARPi cross-resistance [PMID:32719455](../papers/32719455.md).
 
 ## Resistance mechanisms

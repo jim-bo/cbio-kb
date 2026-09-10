@@ -20,20 +20,20 @@ _No primary cohort studies specific to PHCH have been processed yet._
 
 ## Recurrent alterations
 
-- FXR ([NR1H4](../genes/NR1H4.md)) expression is heterogeneous across pCCA/dCCA subtypes (H-score <120), suggesting DNMT-inhibitor combinations may be required to activate FXR-mediated tumor suppression. [PMID:25608663](../papers/25608663.md)
+- FXR ([NR1H4](../genes/NR1H4.md)) expression is heterogeneous across pCCA/dCCA subtypes (H-score <120), suggesting DNMT-inhibitor combinations may be required to activate FXR-mediated tumor suppression. [PMID:41018102](../papers/41018102.md)
 - ICGC CCA cohort (n=489) includes perihilar tumors among its anatomical breakdown (intrahepatic, perihilar, distal extrahepatic), with survival and alteration data on 459 samples; perihilar CCA spans multiple molecular clusters with anatomical class distinct from but overlapping intrahepatic molecular subtypes. [PMID:28667006](../papers/28667006.md)
 
 ## Subtypes
 
-- Perihilar CCA is anatomically classified as a distinct subtype of extrahepatic cholangiocarcinoma, alongside distal eCCA. The bile-acid-active vs bile-acid-inactive molecular subtyping (derived from single-cell RNA-seq) applies across CCA subtypes including pCCA. [PMID:25608663](../papers/25608663.md)
+- Perihilar CCA is anatomically classified as a distinct subtype of extrahepatic cholangiocarcinoma, alongside distal eCCA. The bile-acid-active vs bile-acid-inactive molecular subtyping (derived from single-cell RNA-seq) applies across CCA subtypes including pCCA. [PMID:41018102](../papers/41018102.md)
 
 ## Therapeutic landscape
 
-- Gut-liver axis modulation strategies applicable to pCCA include FXR agonists ([obeticholic-acid](../drugs/obeticholic-acid.md)), [S1PR2](../genes/S1PR2.md) antagonists ([JTE-013](../drugs/jte-013.md)), and TGR5 antagonists ([SBI-115](../drugs/sbi-115.md)), based on preclinical and early-phase data. [PMID:25608663](../papers/25608663.md)
+- Gut-liver axis modulation strategies applicable to pCCA include FXR agonists ([obeticholic-acid](../drugs/obeticholic-acid.md)), [S1PR2](../genes/S1PR2.md) antagonists ([JTE-013](../drugs/jte-013.md)), and TGR5 antagonists ([SBI-115](../drugs/sbi-115.md)), based on preclinical and early-phase data. [PMID:41018102](../papers/41018102.md)
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

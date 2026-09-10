@@ -51,7 +51,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [SMARCA4](../genes/SMARCA4.md) inactivating mutations occur in 5–8% of LUAD (TCGA data) and are associated with poor outcome; [SMARCA4](../genes/SMARCA4.md) loss creates a synthetic-lethal vulnerability to [SMARCA2](../genes/SMARCA2.md) inhibition [PMID:24658004](../papers/24658004.md)
 - TCGA multi-platform profiling of 230 resected LUADs (n=412 with prior published) identifies 18 significantly mutated genes including novel drivers [RIT1](../genes/RIT1.md) (2%) and [MGA](../genes/MGA.md) (8%, mutually exclusive with [MYC](../genes/MYC.md) amplification); [MET](../genes/MET.md) exon 14 skipping in 4%; with focal MET/ERBB2 amplifications in oncogene-negative cases, 76% of LUADs now harbor a defined RTK/RAS/RAF activating event [PMID:25079552](../papers/25079552.md)
 - Pan-NSCLC WES of 660 LUAD and 484 [LUSC](../cancer_types/LUSC.md) tumour/normal pairs ([nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md)); LUAD had median somatic mutation rate 8.7/Mb and 38 SMGs; novel LUAD drivers include [PPP3CA](../genes/PPP3CA.md), [DOT1L](../genes/DOT1L.md), and CMTR2/FTSJD1; 76% of LUADs harboured an RTK/Ras/Raf alteration after adding [SOS1](../genes/SOS1.md), [VAV1](../genes/VAV1.md), [RASA1](../genes/RASA1.md), and [ARHGAP35](../genes/ARHGAP35.md); 47% of LUADs had ≥5 predicted neoepitopes [PMID:27158780](../papers/27158780.md)
-- In young-onset lung adenocarcinoma review: 50–70% of YLC patients present with stage IV disease; median [OS](../cancer_types/OS.md) 26 months in Indian YLC cohort (Malik et al., n=133, TruSight Oncology 500); the subset <30 years had worse median [OS](../cancer_types/OS.md) of 15.67 months versus 26 months for 30–40-year-olds; [EGFR](../genes/EGFR.md) mutations found in 35.51%, [ALK](../genes/ALK.md) rearrangement 65.7%, and [ROS1](../genes/ROS1.md) rearrangement 7.25% [PMID:27346245](../papers/27346245.md).
+- In young-onset lung adenocarcinoma review: 50–70% of YLC patients present with stage IV disease; median [OS](../cancer_types/OS.md) 26 months in Indian YLC cohort (Malik et al., n=133, TruSight Oncology 500); the subset <30 years had worse median [OS](../cancer_types/OS.md) of 15.67 months versus 26 months for 30–40-year-olds; [EGFR](../genes/EGFR.md) mutations found in 35.51%, [ALK](../genes/ALK.md) rearrangement 65.7%, and [ROS1](../genes/ROS1.md) rearrangement 7.25% [PMID:40958859](../papers/40958859.md).
 - 860 recurrent/metastatic LUAD patients profiled by MSK-IMPACT (IMPACT341/410); actionable OncoKB level 1–4 alterations in 86.9%; [EGFR](../genes/EGFR.md) sensitizing mutations 24.9%, [KRAS](../genes/KRAS.md) 25.3%, [ALK](../genes/ALK.md)/[ROS1](../genes/ROS1.md) fusions; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors lacking actionable driver [PMID:28336552](../papers/28336552.md)
 - In the TRACERx cohort (n=58 LUAD), pre-operative ctDNA detection was only 19% (11/58) for LUAD vs 97% for [LUSC](../cancer_types/LUSC.md); driver mutations in [KRAS](../genes/KRAS.md), [EGFR](../genes/EGFR.md), and [TP53](../genes/TP53.md) were not associated with ctDNA detection within the LUAD subset; an expanded 28-SNV panel was required for improved sensitivity. [PMID:28445469](../papers/28445469.md)
 - In the MSK-IMPACT pan-cancer cohort, [ALK](../genes/ALK.md), [RET](../genes/RET.md), and [ROS1](../genes/ROS1.md) fusions were enriched in LUAD but also detected in 11 additional tumor types; EML4-ALK fusions were the 3rd most common rearrangement (n=38) predominantly in LUAD; [EGFR](../genes/EGFR.md) mutations localized to the kinase domain in lung cancer vs the extracellular N-terminal domain in glioma. [PMID:28481359](../papers/28481359.md)
@@ -66,7 +66,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) recommended without reservation for LUAD [PMID:29625055](../papers/29625055.md)
 - CheckMate-012 cohort: advanced [NSCLC](../cancer_types/NSCLC.md) was 79% non-squamous (predominantly LUAD); high TMB (>158 nonsynonymous mutations) associated with ORR 51% vs 13% (OR 6.97, p=0.0005) and PFS median 17.1 vs 3.7 months (HR 0.41, p=0.0024) with [nivolumab](../drugs/nivolumab.md) + [ipilimumab](../drugs/ipilimumab.md); TMB independent of PD-L1 expression [PMID:29657128](../papers/29657128.md)
 - Lung adenocarcinoma (n=6, 7.9%) was among TRK fusion-positive tumor types in the MSK prospective cohort (n=26,312); driver-negative lung cancers are recommended for reflex RNA fusion testing given large NTRK2/3 introns that cause ~26% of fusions to be missed by DNA-only assays [PMID:31871300](../papers/31871300.md)
-- In 684 never-smoker lung adenocarcinomas (NS-LUAD; Sherlock-Lung + TCGA), NMF identified three transcriptomic subtypes — *steady* (HR=0.43, p=1.3×10⁻⁵), *proliferative* ([TP53](../genes/TP53.md)-enriched), and *chaotic* (EMT/fibroblast-enriched, HR=1.5 at 5y, p=0.031); a 60-gene signature validated in GIS cohort (n=110, c-index=0.682) [PMID:32015526](../papers/32015526.md).
+- In 684 never-smoker lung adenocarcinomas (NS-LUAD; Sherlock-Lung + TCGA), NMF identified three transcriptomic subtypes — *steady* (HR=0.43, p=1.3×10⁻⁵), *proliferative* ([TP53](../genes/TP53.md)-enriched), and *chaotic* (EMT/fibroblast-enriched, HR=1.5 at 5y, p=0.031); a 60-gene signature validated in GIS cohort (n=110, c-index=0.682) [PMID:40970133](../papers/40970133.md).
 - CPTAC proteogenomic profiling of 110 treatment-naive LUAD tumors identified four multi-omics NMF subgroups; EGFR-mutant and ALK-fusion tumors showed outlier PTPN11/Shp2 phosphorylation nominating Shp2 inhibitors, and KRAS-mutant tumors showed outlier [SOS1](../genes/SOS1.md) S1161 phosphorylation; [STK11](../genes/STK11.md) mutation strongly associated with immune-cold phenotype and neutrophil-degranulation protein signature [PMID:32649874](../papers/32649874.md)
 - In 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients with complete resection profiled by MSK-IMPACT, MIP/SOL-predominant tumors had the highest TMB (7.9 vs 4.9 vs 3.9 mut/Mb) and WGD rate (18% vs 10% vs 4.5%); APOBEC mutational signatures SBS2 (SHR 2.07, p=0.021) and SBS13 (SHR 2.27, p=0.005) were independently associated with postresection recurrence risk [PMID:32791233](../papers/32791233.md).
 - MSK-ACCESS cfDNA panel (129 genes, n=617 patients) found LUAD among the most common tumor types profiled; [KRAS](../genes/KRAS.md) p.G12S in a lung adenocarcinoma case was reclassified from somatic to clonal hematopoiesis using matched WBC + cfDNA fragment-length evidence; [EGFR](../genes/EGFR.md) mutations were enriched in LUAD cfDNA relative to MSK-IMPACT tissue; [MET](../genes/MET.md), [ERBB2](../genes/ERBB2.md), [BRAF](../genes/BRAF.md) amplifications and [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) / [KIF5B](../genes/KIF5B.md)-[RET](../genes/RET.md) fusions detected de novo and by genotyping; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors lacking known mitogenic drivers [PMID:34145282](../papers/34145282.md).
@@ -86,7 +86,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 ## Therapeutic landscape
 
-- ATLAS RNA-expression classifier (trained on 8,249 samples including TCGA/CCLE) achieved 91.4% accuracy for cancer site classification; LUAD represented in the 22-class site classifier with de-differentiation score prognostic for survival (HR 0.24, P=0.001) [PMID:27634761](../papers/27634761.md).
+- ATLAS RNA-expression classifier (trained on 8,249 samples including TCGA/CCLE) achieved 91.4% accuracy for cancer site classification; LUAD represented in the 22-class site classifier with de-differentiation score prognostic for survival (HR 0.24, P=0.001) [PMID:38480799](../papers/38480799.md).
 - [BRAF](../genes/BRAF.md) fusions identified as acquired resistance mechanism to [EGFR](../genes/EGFR.md) TKIs in LUAD (10/15 acquired [BRAF](../genes/BRAF.md) fusion patients had EGFR-mutant LUAD); median time from [EGFR](../genes/EGFR.md) TKI start to acquired [BRAF](../genes/BRAF.md) fusion detection: 23 months (range 9–37) [PMID:38922339](../papers/38922339.md).
 - ctDNA detection is an independent poor prognostic marker in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 2.05; 95% CI 1.74–2.42, P<0.001) [PMID:36357680](../papers/36357680.md).
 - ctDNA-guided matching to targeted therapy improved [OS](../cancer_types/OS.md) among ctDNA-positive patients (HR 0.63; 95% CI 0.52–0.76, P<0.001) [PMID:36357680](../papers/36357680.md).
@@ -101,7 +101,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 ## Sources
 
-- [PMID:27634761](../papers/27634761.md)
+- [PMID:38480799](../papers/38480799.md)
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:37591896](../papers/37591896.md)
@@ -125,7 +125,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 - [PMID:27158780](../papers/27158780.md)
 
-- [PMID:27346245](../papers/27346245.md) — Tansir et al. 2025, narrative review of young-onset LUAD molecular landscape and therapy.
+- [PMID:40958859](../papers/40958859.md) — Tansir et al. 2025, narrative review of young-onset LUAD molecular landscape and therapy.
 
 - [PMID:28336552](../papers/28336552.md) — Jordan et al. 2017; MSK-IMPACT prospective profiling of 860 recurrent/metastatic LUAD; actionable alterations in 86.9%.
 
@@ -153,7 +153,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 - [PMID:31871300](../papers/31871300.md)
 
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 - [PMID:32649874](../papers/32649874.md)
 

@@ -19,7 +19,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
   links to the papers that report them.
 - Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); TGF-beta superfamily member. [PMID:18948947](../papers/18948947.md)
 - Identified as novel recurrently mutated gene in metastatic colorectal cancer in a 1,211-patient WES/WGS/transcriptome study [PMID:29316426](../papers/29316426.md)
-- INHBA (inhibin subunit beta A) was previously included in a 4-gene cell-cycle prognostic signature (MCM2, INHBA, CGREF1, KLF9) for early-onset colorectal cancer (Xiang et al. 2023); the current study validates CGREF1 as a standalone prognostic biomarker and does not further analyze INHBA independently. [PMID:32888432](../papers/32888432.md)
+- INHBA (inhibin subunit beta A) was previously included in a 4-gene cell-cycle prognostic signature (MCM2, INHBA, CGREF1, KLF9) for early-onset colorectal cancer (Xiang et al. 2023); the current study validates CGREF1 as a standalone prognostic biomarker and does not further analyze INHBA independently. [PMID:41125935](../papers/41125935.md)
 
 ## Cancer types (linked)
 
@@ -47,6 +47,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:32888432](../papers/32888432.md)
+- [PMID:41125935](../papers/41125935.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

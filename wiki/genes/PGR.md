@@ -16,7 +16,7 @@ PGR encodes the progesterone receptor, a nuclear hormone receptor that mediates 
 ## Alterations observed in the corpus
 
 - Protein expression increased in the copy-number-low endometrial cancer cluster by RPPA, consistent with hormonal-therapy responsiveness of this endometrioid subgroup [PMID:23636398](../papers/23636398.md)
-- PR expression correlates with ER expression across CRISPR rat mammary tumor models; PGR transcript appears in the 58-gene set responsive to [fulvestrant](../drugs/fulvestrant.md) in rat tumors and in human GSE5462/GSE71791 datasets [PMID:26437033](../papers/26437033.md)
+- PR expression correlates with ER expression across CRISPR rat mammary tumor models; PGR transcript appears in the 58-gene set responsive to [fulvestrant](../drugs/fulvestrant.md) in rat tumors and in human GSE5462/GSE71791 datasets [PMID:41000773](../papers/41000773.md)
 - PGR (progesterone receptor) discussed as a candidate alternative activator of AR-pathway output in mCRPC tumors with AR activity but absent AR protein expression, alongside NR3C1 (GR) and ESR1 (ER-alpha). [PMID:26928463](../papers/26928463.md)
 - Used (alongside ERBB2 and ESR1 expression) for naive molecular classifier (NMC) subtyping in 186 SMC Korean breast cancer tumors; hormone receptor expression relevant to subtype assignment [PMID:29713003](../papers/29713003.md)
 
@@ -41,7 +41,7 @@ PGR encodes the progesterone receptor, a nuclear hormone receptor that mediates 
 - [PMID:23636398](../papers/23636398.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26437033](../papers/26437033.md)
+- [PMID:41000773](../papers/41000773.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)

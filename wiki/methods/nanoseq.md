@@ -17,7 +17,7 @@ NanoSeq (Abascal et al. 2021) is a duplex single-molecule sequencing library pre
 
 ## Used by
 
-- Applied to epidermal DNA micro-dissected from 6-mm punch biopsies of buttock and dorsal forearm skin from 16 patients with psoriasis before and after a single course of narrowband UV-B (NB-UVB) phototherapy; quantified median mutation-burden increases of 0.55 substitutions/Mb (buttock) and 0.89 substitutions/Mb (forearm) attributable to UVR-associated COSMIC signatures SBS7a/SBS7b and DBS1. Sequencing data deposited in EGA (EGAD00001015249). [PMID:26950094](../papers/26950094.md)
+- Applied to epidermal DNA micro-dissected from 6-mm punch biopsies of buttock and dorsal forearm skin from 16 patients with psoriasis before and after a single course of narrowband UV-B (NB-UVB) phototherapy; quantified median mutation-burden increases of 0.55 substitutions/Mb (buttock) and 0.89 substitutions/Mb (forearm) attributable to UVR-associated COSMIC signatures SBS7a/SBS7b and DBS1. Sequencing data deposited in EGA (EGAD00001015249). [PMID:40317189](../papers/40317189.md)
 
 ## Notes
 

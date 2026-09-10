@@ -19,11 +19,11 @@ DDX1 (DEAD-box helicase 1) is an RNA helicase involved in RNA metabolism, includ
 
 ## Alterations observed in the corpus
 
-- Highly expressed in CCA with prognostic and immune-microenvironment implications; functional validation of its oncogenic role is pending. [PMID:25526346](../papers/25526346.md)
+- Highly expressed in CCA with prognostic and immune-microenvironment implications; functional validation of its oncogenic role is pending. [PMID:41008893](../papers/41008893.md)
 
 ## Cancer types (linked)
 
-- **CCA (Cholangiocarcinoma):** High expression reported with prognostic significance; immune microenvironment implications described in a comprehensive CCA genomic review. [PMID:25526346](../papers/25526346.md)
+- **CCA (Cholangiocarcinoma):** High expression reported with prognostic significance; immune microenvironment implications described in a comprehensive CCA genomic review. [PMID:41008893](../papers/41008893.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -35,10 +35,10 @@ DDX1 (DEAD-box helicase 1) is an RNA helicase involved in RNA metabolism, includ
 
 ## Open questions
 
-- Functional validation of DDX1's oncogenic role in CCA is explicitly noted as pending. [PMID:25526346](../papers/25526346.md)
+- Functional validation of DDX1's oncogenic role in CCA is explicitly noted as pending. [PMID:41008893](../papers/41008893.md)
 
 ## Sources
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

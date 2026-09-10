@@ -17,7 +17,7 @@ Lorlatinib is a third-generation macrocyclic ALK/ROS1 tyrosine kinase inhibitor 
 
 ## Evidence in the corpus
 
-- ALK/ROS1-targeted therapy for ALK rearrangements over-represented in young-onset NSCLC; CROWN trial subgroup analyses showed consistent outcomes across age subgroups; review notes ALK TKIs (including lorlatinib) are not covered by Indian public healthcare schemes [PMID:27346245](../papers/27346245.md)
+- ALK/ROS1-targeted therapy for ALK rearrangements over-represented in young-onset NSCLC; CROWN trial subgroup analyses showed consistent outcomes across age subgroups; review notes ALK TKIs (including lorlatinib) are not covered by Indian public healthcare schemes [PMID:40958859](../papers/40958859.md)
 
 ## Resistance mechanisms
 

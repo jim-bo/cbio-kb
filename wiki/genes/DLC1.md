@@ -15,11 +15,11 @@ DLC1 (deleted in liver cancer 1) encodes a RhoGAP-domain tumor suppressor that i
 
 ## Alterations observed in the corpus
 
-- GWAS susceptibility locus/SNP associated with HBV- or HCV-related HCC risk; identified as one of several germline susceptibility loci in a 2014 comprehensive HCC genomics review [PMID:24735922](../papers/24735922.md)
+- GWAS susceptibility locus/SNP associated with HBV- or HCV-related HCC risk; identified as one of several germline susceptibility loci in a 2014 comprehensive HCC genomics review [PMID:25369299](../papers/25369299.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md): germline susceptibility SNP associated with viral hepatitis-related HCC; historically characterized as a somatic deletion-based tumor suppressor in HCC [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md): germline susceptibility SNP associated with viral hepatitis-related HCC; historically characterized as a somatic deletion-based tumor suppressor in HCC [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -31,10 +31,10 @@ DLC1 (deleted in liver cancer 1) encodes a RhoGAP-domain tumor suppressor that i
 
 ## Open questions
 
-- SNP-association studies in HCC suffer from poor control selection, retrospective single-center designs, underpowering, and lack of cross-ancestry validation; the DLC1 association requires independent replication [PMID:24735922](../papers/24735922.md).
+- SNP-association studies in HCC suffer from poor control selection, retrospective single-center designs, underpowering, and lack of cross-ancestry validation; the DLC1 association requires independent replication [PMID:25369299](../papers/25369299.md).
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

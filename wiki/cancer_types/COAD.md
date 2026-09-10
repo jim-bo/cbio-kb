@@ -40,13 +40,13 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - [KRAS](../genes/KRAS.md) hotspot mutations present in 69% of colorectal genomically stable tumors; MSI-H and POLE-mutant subtypes carry highest mutation burden [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) recommended without reservation for COAD [PMID:29625055](../papers/29625055.md)
 - MSI-H detected in 19.7% of colon adenocarcinoma cases by MANTIS WES caller; one of the four classic Lynch syndrome-associated tumor types with highest MSI prevalence in the pan-cancer 39-type analysis [PMID:29850653](../papers/29850653.md)
-- COAD used as a size-reference benchmark: median tumor diameter ~4 cm across 300,386 patients, contrasted with HCT-116 spheroid diameters of 200–1,000 µm, illustrating the spheroid-size mismatch inherent in 3D models. [PMID:30643250](../papers/30643250.md)
+- COAD used as a size-reference benchmark: median tumor diameter ~4 cm across 300,386 patients, contrasted with HCT-116 spheroid diameters of 200–1,000 µm, illustrating the spheroid-size mismatch inherent in 3D models. [PMID:41103502](../papers/41103502.md)
 - TMB-high COAD showed the highest histology-specific TMB threshold (52.2 mut/Mb, reflecting MSI-high enrichment) in the ICI cohort; this histology-specific cutpoint diverges markedly from other cancer types. [PMID:30643254](../papers/30643254.md)
 - First proteogenomic study of a prospectively collected colon adenocarcinoma cohort (n=110; [coad_cptac_2019](../datasets/coad_cptac_2019.md)) identified [RB1](../genes/RB1.md) hyperphosphorylation (not loss) as a colon-cancer driver suggesting [CDK2](../genes/CDK2.md) inhibition, reclassified [SOX9](../genes/SOX9.md) as oncogenic despite truncating mutations, and showed glycolysis inversely correlated with CD8 infiltration in MSI-H tumors [PMID:31031003](../papers/31031003.md).
 - TRK fusion-positive colorectal cancer was enriched for MSI-H (6/7 cases, 86%) and co-occurred with hypermethylated [MLH1](../genes/MLH1.md) and wild-type BRAF/KRAS; TRK fusions occurred at 0.28% overall but were uniquely associated with MSI-H in CRC — the only context where checkpoint inhibitors showed benefit (1 CR lasting 3.5 years) [PMID:31871300](../papers/31871300.md)
 - In CCLE proteomics (n=375 cell lines, 22 lineages), colon adenocarcinoma lines contributed to the mixed-lineage cohort; MSI endometrial and colorectal lines showed proteome buffering with only ~50 differentially expressed proteins vs >1,000 dysregulated mRNAs [PMID:31978347](../papers/31978347.md).
 - In 430 MSS unresectable metastatic colorectal adenocarcinoma patients (including [COAD](../cancer_types/COAD.md) primaries) profiled by MSK-IMPACT, N-terminal [APC](../genes/APC.md) mutations (5' of aa 1400) were associated with longer [OS](../cancer_types/OS.md) (HR 0.56, p<0.001) and PFS (HR 0.68, p<0.001) than C-terminal [APC](../genes/APC.md) mutations, which co-occurred more frequently with [KRAS](../genes/KRAS.md) (72% vs 46%), [BRAF](../genes/BRAF.md) (13% vs 2%), [PIK3CA](../genes/PIK3CA.md) (28% vs 11%), and [PTEN](../genes/PTEN.md) (12% vs 3%) alterations [PMID:32730818](../papers/32730818.md).
-- TIMER 2.0 pan-cancer analysis confirmed [CGREF1](../genes/CGREF1.md) significantly upregulated in [COAD](../cancer_types/COAD.md); IHC on an 80-patient CRC tissue microarray showed [CGREF1](../genes/CGREF1.md) over-expression in 61.25% of CRC tissues, with high expression independently associated with shorter disease-free survival (HR 3.85, 95% CI 1.32–11.2, p=0.014) by multivariate Cox analysis [PMID:32888432](../papers/32888432.md).
+- TIMER 2.0 pan-cancer analysis confirmed [CGREF1](../genes/CGREF1.md) significantly upregulated in [COAD](../cancer_types/COAD.md); IHC on an 80-patient CRC tissue microarray showed [CGREF1](../genes/CGREF1.md) over-expression in 61.25% of CRC tissues, with high expression independently associated with shorter disease-free survival (HR 3.85, 95% CI 1.32–11.2, p=0.014) by multivariate Cox analysis [PMID:41125935](../papers/41125935.md).
 - MSK single-institution cohort (759 early-onset + 687 average-onset CRC) profiled by MSK-IMPACT found most common somatic alterations in microsatellite-stable COAD/READ were [APC](../genes/APC.md) (79%), [TP53](../genes/TP53.md) (82%), and KRAS (43%); left-sided tumors dominated in early-onset CRC (>80%); somatic and survival differences by age disappeared after sidedness adjustment [PMID:34405229](../papers/34405229.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; COAD is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - Nigerian CRC cohort (380 patients, 64 MSK-IMPACT): COAD tumors showed 28.1% MSI-H (vs. 8.5% MSKCC); MSS tumors had depleted [APC](../genes/APC.md) (36.9% vs. 76.0%), lower WNT-pathway alteration (47.8% vs. 81.9%), and enriched RAS-pathway alteration (76.1% vs. 59.6%) [PMID:34819518](../papers/34819518.md)
@@ -103,7 +103,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 
 - [PMID:29850653](../papers/29850653.md)
 
-- [PMID:30643250](../papers/30643250.md)
+- [PMID:41103502](../papers/41103502.md)
 
 - [PMID:30643254](../papers/30643254.md)
 
@@ -115,7 +115,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 
 - [PMID:32730818](../papers/32730818.md)
 
-- [PMID:32888432](../papers/32888432.md)
+- [PMID:41125935](../papers/41125935.md)
 
 - [PMID:34405229](../papers/34405229.md)
 

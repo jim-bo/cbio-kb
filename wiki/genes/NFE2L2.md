@@ -18,9 +18,9 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - Activating mutations at DLG/ETGE motifs identified as part of the 34% oxidative stress pathway alteration rate in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
 - Mutations are mutually exclusive with [KEAP1](../genes/KEAP1.md) loss-of-function mutations [PMID:22960745](../papers/22960745.md)
 - Deleterious missense mutations in the Neh2 domain in 11 tumors (8%) of muscle-invasive bladder carcinoma; mutually exclusive with [TXNIP](../genes/TXNIP.md) mutations; mutant tumors upregulated genotoxic-metabolism and ROS-response genes [PMID:24476821](../papers/24476821.md)
-- NFE2L2 is mutated in [ESCC](../cancer_types/ESCC.md) as part of the canonical genomic landscape cited in a review of oral microbiome associations with [ESCC](../cancer_types/ESCC.md) [PMID:24670651](../papers/24670651.md)
-- NFE2L2 is identified as a driver linked to oxidative-stress signaling in [HCC](../cancer_types/HCC.md) by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
-- Implicated in [HCC](../cancer_types/HCC.md) genomic landscape analysis as part of the broader trunk-mutation set; RAS pathway (KRAS/NRAS) mutations are rare (~1% each) in [HCC](../cancer_types/HCC.md), with NFE2L2 noted among recurrently altered cancer-related genes [PMID:24798001](../papers/24798001.md)
+- NFE2L2 is mutated in [ESCC](../cancer_types/ESCC.md) as part of the canonical genomic landscape cited in a review of oral microbiome associations with [ESCC](../cancer_types/ESCC.md) [PMID:41096729](../papers/41096729.md)
+- NFE2L2 is identified as a driver linked to oxidative-stress signaling in [HCC](../cancer_types/HCC.md) by integrated genomic analysis [PMID:25369299](../papers/25369299.md)
+- Implicated in [HCC](../cancer_types/HCC.md) genomic landscape analysis as part of the broader trunk-mutation set; RAS pathway (KRAS/NRAS) mutations are rare (~1% each) in [HCC](../cancer_types/HCC.md), with NFE2L2 noted among recurrently altered cancer-related genes [PMID:30061739](../papers/30061739.md)
 - Absent in 39-case aggressive cutaneous squamous cell carcinoma (cSCC) cohort — explicit negative finding suggesting NFE2L2 mutations are not a driver in aggressive cSCC [PMID:25303977](../papers/25303977.md)
 - NFE2L2 significantly mutated in 6% of [HNSC](../cancer_types/HNSC.md) (MutSigCV q<0.1, TCGA n=279); activating mutations; co-occurs with [KEAP1](../genes/KEAP1.md) and [CUL3](../genes/CUL3.md) in classical mRNA subtype (tobacco-associated, laryngeal sub-site), paralleling [LUSC](../cancer_types/LUSC.md). [PMID:25631445](../papers/25631445.md)
 - In [HCC](../cancer_types/HCC.md), NFE2L2 and [KEAP1](../genes/KEAP1.md) are both significantly mutated components of the oxidative-stress pathway (altered in 12% combined); NFE2L2-mutant [HCC](../cancer_types/HCC.md) shows elevated [NQO1](../genes/NQO1.md) expression and may be sensitive to HSP90 inhibitors (17-AAG/17-DMAG), modulated by [NQO1](../genes/NQO1.md) P187S (rs1800566) variant. [PMID:25822088](../papers/25822088.md)
@@ -54,11 +54,11 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 
 - [PMID:24476821](../papers/24476821.md)
 
-- [PMID:24670651](../papers/24670651.md)
+- [PMID:41096729](../papers/41096729.md)
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 - [PMID:25303977](../papers/25303977.md)
 

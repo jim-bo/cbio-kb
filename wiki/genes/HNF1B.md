@@ -15,8 +15,8 @@ HNF1B (Hepatocyte Nuclear Factor 1 Beta) is a transcription factor with establis
 
 ## Alterations observed in the corpus
 
-- Identified by LISA and ChEA3 (top 50 in both) as a transcription factor whose binding sites are enriched at HIF2A-specific VHL-dependent gene loci in a mouse VHL-knockout model of ccRCC initiation; proposed to mediate HIF2A's dedifferentiation-linked transcriptional output in proximal tubule cells [PMID:23797736](../papers/23797736.md)
-- Cross-referenced in the context of a prior 17q12/HNF1B GWAS study as background for the NOL10-USF1 rs4519489 eQTL axis in prostate cancer; not directly assayed in this study [PMID:28927585](../papers/28927585.md)
+- Identified by LISA and ChEA3 (top 50 in both) as a transcription factor whose binding sites are enriched at HIF2A-specific VHL-dependent gene loci in a mouse VHL-knockout model of ccRCC initiation; proposed to mediate HIF2A's dedifferentiation-linked transcriptional output in proximal tubule cells [PMID:41102155](../papers/41102155.md)
+- Cross-referenced in the context of a prior 17q12/HNF1B GWAS study as background for the NOL10-USF1 rs4519489 eQTL axis in prostate cancer; not directly assayed in this study [PMID:41062477](../papers/41062477.md)
 - Promoter hypomethylation of HNF1B correlates with lineage-restricted transcription-factor dependence in cancer cell lines; this epigenetic gating of dependency was validated across CCLE and TCGA datasets [PMID:31068700](../papers/31068700.md).
 
 ## Cancer types (linked)
@@ -25,7 +25,7 @@ HNF1B (Hepatocyte Nuclear Factor 1 Beta) is a transcription factor with establis
 
 ## Co-occurrence and mutual exclusivity
 
-- HNF1B co-enriched with [HNF4A](../genes/HNF4A.md) and [FOXA2](../genes/FOXA2.md) at HIF2A-specific VHL-dependent loci; all three have established roles in proximal tubule/renal development [PMID:23797736](../papers/23797736.md)
+- HNF1B co-enriched with [HNF4A](../genes/HNF4A.md) and [FOXA2](../genes/FOXA2.md) at HIF2A-specific VHL-dependent loci; all three have established roles in proximal tubule/renal development [PMID:41102155](../papers/41102155.md)
 
 ## Therapeutic relevance
 
@@ -33,14 +33,14 @@ HNF1B (Hepatocyte Nuclear Factor 1 Beta) is a transcription factor with establis
 
 ## Open questions
 
-- Whether HNF1B binding at HIF2A target loci is required for ccRCC initiation or is a passenger of HIF2A-driven dedifferentiation remains to be tested functionally [PMID:23797736](../papers/23797736.md)
+- Whether HNF1B binding at HIF2A target loci is required for ccRCC initiation or is a passenger of HIF2A-driven dedifferentiation remains to be tested functionally [PMID:41102155](../papers/41102155.md)
 
 ## Sources
 
-- [PMID:23797736](../papers/23797736.md)
+- [PMID:41102155](../papers/41102155.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31068700](../papers/31068700.md)

@@ -16,7 +16,7 @@ USP10 (Ubiquitin Specific Peptidase 10) is a deubiquitinase that regulates p53 s
 ## Alterations observed in the corpus
 
 - Identified as a MutSigCV-significant recurrently mutated gene in pancreatic ductal adenocarcinoma (109-case WES cohort); oncogenic vs. passenger status awaits orthogonal functional validation. [PMID:25855536](../papers/25855536.md)
-- Deubiquitinase that stabilizes TRMT10A; co-overexpressed with TRMT10A in mCRPC tissue; ~10% deep deletions in SU2C/PCF mCRPC cohorts; druggable with spautin-1, which combined with olaparib shows synthetic-lethal synergy (HSA synergy >10 in cell lines, CI=0.76 in 22Rv1 CDX) in BRCA1/2-WT mCRPC [PMID:28068672](../papers/28068672.md)
+- Deubiquitinase that stabilizes TRMT10A; co-overexpressed with TRMT10A in mCRPC tissue; ~10% deep deletions in SU2C/PCF mCRPC cohorts; druggable with spautin-1, which combined with olaparib shows synthetic-lethal synergy (HSA synergy >10 in cell lines, CI=0.76 in 22Rv1 CDX) in BRCA1/2-WT mCRPC [PMID:41071892](../papers/41071892.md)
 
 ## Cancer types (linked)
 
@@ -37,6 +37,6 @@ USP10 (Ubiquitin Specific Peptidase 10) is a deubiquitinase that regulates p53 s
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-- [PMID:28068672](../papers/28068672.md)
+- [PMID:41071892](../papers/41071892.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -19,7 +19,7 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 - Subclonal loss-of-function CIC mutation (~30% VAF) detected in oligodendroglioma tumor MGH53 by scRNA-seq; mutant cells show increased [ETV1](../genes/ETV1.md) and [ETV5](../genes/ETV5.md) expression consistent with derepression of CIC target genes; mutation found across all three developmental compartments (stem/progenitor, astro-like, oligo-like) [PMID:27806376](../papers/27806376.md).
 - CIC appeared in the MSK-CHORD volcano plots of metastasis and Gleason-association analyses across the 24,950-patient pan-cancer cohort; the alteration was not further characterized clinically in this dataset [PMID:39506116](../papers/39506116.md).
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
-- CIC — discussed as the defining alteration of CIC-rearranged undifferentiated small round cell sarcoma, a related entity in the differential diagnosis for EWSR1-non-ETS fusion sarcomas [PMID:28199314](../papers/28199314.md)
+- CIC — discussed as the defining alteration of CIC-rearranged undifferentiated small round cell sarcoma, a related entity in the differential diagnosis for EWSR1-non-ETS fusion sarcomas [PMID:41102727](../papers/41102727.md)
 - Mutated in 10/19 (53%) sequenced anaplastic oligodendroglioma tumors profiled by [MSK-IMPACT 410](../methods/IMPACT410.md); canonical oligodendroglioma driver on the 19q chromosome; not predictive of PFS or OS in this cohort ([odg_msk_2017](../datasets/odg_msk_2017.md)) [PMID:28472509](../papers/28472509.md)
 - CIC truncations are listed as a capture-kit-excluded event of biological interest in the TCGA MC3 MAF resource: the Broad BED capture kit mask (bitgt filter) discards CIC truncating variants because they fall outside the capture footprint, illustrating a systematic sensitivity tradeoff in the pan-cancer somatic calling pipeline [PMID:29596782](../papers/29596782.md).
 - CIC promoter mutations are canonical glioma subtype-defining lesions with frequencies stable across primary vs. recurrent specimens in a 931-tumor MSK-IMPACT longitudinal cohort [PMID:31263031](../papers/31263031.md)
@@ -52,7 +52,7 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28472509](../papers/28472509.md)

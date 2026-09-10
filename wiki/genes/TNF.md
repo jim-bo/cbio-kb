@@ -15,15 +15,15 @@ TNF encodes tumor necrosis factor alpha, a pro-inflammatory cytokine central to 
 
 ## Alterations observed in the corpus
 
-- Pro-inflammatory TNF polymorphisms (high-responder cytokine alleles) amplify H. pylori-driven atrophic gastritis and intestinal metaplasia, contributing to gastric cancer (STAD) risk in susceptible individuals including those with a family history. [PMID:24816255](../papers/24816255.md)
+- Pro-inflammatory TNF polymorphisms (high-responder cytokine alleles) amplify H. pylori-driven atrophic gastritis and intestinal metaplasia, contributing to gastric cancer (STAD) risk in susceptible individuals including those with a family history. [PMID:41097736](../papers/41097736.md)
 
 ## Cancer types (linked)
 
-- **STAD** — TNF high-responder polymorphisms increase gastric cancer risk as low-penetrance susceptibility alleles, particularly in the context of H. pylori infection and family history. [PMID:24816255](../papers/24816255.md)
+- **STAD** — TNF high-responder polymorphisms increase gastric cancer risk as low-penetrance susceptibility alleles, particularly in the context of H. pylori infection and family history. [PMID:41097736](../papers/41097736.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- TNF polymorphisms are co-listed with IL1B and IL10 pro-inflammatory polymorphisms as risk alleles for H. pylori-driven gastric carcinogenesis. [PMID:24816255](../papers/24816255.md)
+- TNF polymorphisms are co-listed with IL1B and IL10 pro-inflammatory polymorphisms as risk alleles for H. pylori-driven gastric carcinogenesis. [PMID:41097736](../papers/41097736.md)
 
 ## Therapeutic relevance
 
@@ -31,10 +31,10 @@ TNF encodes tumor necrosis factor alpha, a pro-inflammatory cytokine central to 
 
 ## Open questions
 
-- Polygenic risk scores integrating TNF and other pro-inflammatory alleles with H. pylori status and environmental factors are not yet clinically actionable for familial gastric cancer risk stratification. [PMID:24816255](../papers/24816255.md)
+- Polygenic risk scores integrating TNF and other pro-inflammatory alleles with H. pylori status and environmental factors are not yet clinically actionable for familial gastric cancer risk stratification. [PMID:41097736](../papers/41097736.md)
 
 ## Sources
 
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

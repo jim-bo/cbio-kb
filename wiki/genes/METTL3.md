@@ -15,26 +15,26 @@ METTL3 encodes methyltransferase-like 3, the catalytic subunit of the m6A (N6-me
 
 ## Alterations observed in the corpus
 
-- METTL3 is an LPS-inducible m6A methyltransferase that promotes cholangiocarcinoma cell migration and invasion via the PI3K/AKT pathway; LPS/TLR4-driven METTL3 activation links gut dysbiosis to CCA progression (Ke J 2024, cited in review). [PMID:25608663](../papers/25608663.md)
+- METTL3 is an LPS-inducible m6A methyltransferase that promotes cholangiocarcinoma cell migration and invasion via the PI3K/AKT pathway; LPS/TLR4-driven METTL3 activation links gut dysbiosis to CCA progression (Ke J 2024, cited in review). [PMID:41018102](../papers/41018102.md)
 
 ## Cancer types (linked)
 
-- **[CHOL](../cancer_types/CHOL.md) / [IHCH](../cancer_types/IHCH.md)**: METTL3 upregulated by LPS stimulation; drives CCA migration and invasion through PI3K/AKT signaling, providing a mechanistic link between gut microbiota dysbiosis (elevated portal LPS) and tumor invasiveness. [PMID:25608663](../papers/25608663.md)
+- **[CHOL](../cancer_types/CHOL.md) / [IHCH](../cancer_types/IHCH.md)**: METTL3 upregulated by LPS stimulation; drives CCA migration and invasion through PI3K/AKT signaling, providing a mechanistic link between gut microbiota dysbiosis (elevated portal LPS) and tumor invasiveness. [PMID:41018102](../papers/41018102.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Operates downstream of LPS/TLR4 signaling in the gut-liver axis context; pathway convergence with IL-6/STAT3 inflammatory cascade. [PMID:25608663](../papers/25608663.md)
+- Operates downstream of LPS/TLR4 signaling in the gut-liver axis context; pathway convergence with IL-6/STAT3 inflammatory cascade. [PMID:41018102](../papers/41018102.md)
 
 ## Therapeutic relevance
 
-- METTL3 inhibition represents a potential therapeutic angle for disrupting the LPS-driven oncogenic cascade in cholangiocarcinoma, though no clinical agents are reported in this corpus. [PMID:25608663](../papers/25608663.md)
+- METTL3 inhibition represents a potential therapeutic angle for disrupting the LPS-driven oncogenic cascade in cholangiocarcinoma, though no clinical agents are reported in this corpus. [PMID:41018102](../papers/41018102.md)
 
 ## Open questions
 
-- Whether METTL3 overexpression in CCA is driven primarily by LPS/TLR4 signaling versus other oncogenic inputs, and whether specific m6A targets mediate the pro-invasive phenotype, requires direct experimental validation. [PMID:25608663](../papers/25608663.md)
+- Whether METTL3 overexpression in CCA is driven primarily by LPS/TLR4 signaling versus other oncogenic inputs, and whether specific m6A targets mediate the pro-invasive phenotype, requires direct experimental validation. [PMID:41018102](../papers/41018102.md)
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

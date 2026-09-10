@@ -25,17 +25,17 @@ JQ1 is a potent, selective BET (bromodomain and extra-terminal) bromodomain inhi
 
 ## Evidence in the corpus
 
-- JQ1 IC50 values positively correlate with [ARID1A](../genes/ARID1A.md) expression levels in [SCLC](../cancer_types/SCLC.md) cell lines (r = 0.368, P = 0.032, GDSC1 dataset), indicating enhanced JQ1 sensitivity upon [ARID1A](../genes/ARID1A.md) loss [PMID:22037554](../papers/22037554.md).
-- JQ1 dose-dependently reduces [RAD51](../genes/RAD51.md) expression and suppresses p-CHK1 levels in [SCLC](../cancer_types/SCLC.md) cells [PMID:22037554](../papers/22037554.md).
-- Combination of JQ1 and [brd-k98645985](../drugs/brd-k98645985.md) (targeting the ARID1A-containing BAF complex) achieves superior tumor suppression vs. either agent alone in xenograft models (p < 0.0001) [PMID:22037554](../papers/22037554.md).
-- Bliss synergy between JQ1 and BRD-K98645985 demonstrated in vitro in [SCLC](../cancer_types/SCLC.md) cell lines [PMID:22037554](../papers/22037554.md).
+- JQ1 IC50 values positively correlate with [ARID1A](../genes/ARID1A.md) expression levels in [SCLC](../cancer_types/SCLC.md) cell lines (r = 0.368, P = 0.032, GDSC1 dataset), indicating enhanced JQ1 sensitivity upon [ARID1A](../genes/ARID1A.md) loss [PMID:41049615](../papers/41049615.md).
+- JQ1 dose-dependently reduces [RAD51](../genes/RAD51.md) expression and suppresses p-CHK1 levels in [SCLC](../cancer_types/SCLC.md) cells [PMID:41049615](../papers/41049615.md).
+- Combination of JQ1 and [brd-k98645985](../drugs/brd-k98645985.md) (targeting the ARID1A-containing BAF complex) achieves superior tumor suppression vs. either agent alone in xenograft models (p < 0.0001) [PMID:41049615](../papers/41049615.md).
+- Bliss synergy between JQ1 and BRD-K98645985 demonstrated in vitro in [SCLC](../cancer_types/SCLC.md) cell lines [PMID:41049615](../papers/41049615.md).
 - [MYC](../genes/MYC.md) amplification (~14% of pancreatic ductal adenocarcinoma cases, associated with poor overall survival and adenosquamous histology) nominates BET-bromodomain inhibitor JQ1 as a therapeutic candidate [PMID:25855536](../papers/25855536.md)
 - JQ1 (50 mg/kg daily orally) significantly slowed tumor growth in 2 grade-2 adenoid cystic carcinoma (ACC) primagrafts (X5M1, X9), with modest decreases in [MYB](../genes/MYB.md) and MYB-target gene expression; both grade-3 Notch-activated primagrafts failed to respond, implicating [BRD4](../genes/BRD4.md) occupancy at [MYB](../genes/MYB.md) super-enhancers as a grade-2-specific dependency [PMID:26829750](../papers/26829750.md)
 - BET inhibitor JQ1 shows preclinical benefit in KDM6A-loss bladder cancer (Ler et al. 2017, cited); KDM6A loss affects ~5% of MIBC by focal deletion plus inactivating mutations in a subset, and the BRD4-EZH2 axis is proposed as a combination-therapy target in MIBC [PMID:28988769](../papers/28988769.md)
 
 ## Resistance mechanisms
 
-- ARID1A-high [SCLC](../cancer_types/SCLC.md) tumors show reduced sensitivity to JQ1, as high [ARID1A](../genes/ARID1A.md) expression positively correlates with IC50 [PMID:22037554](../papers/22037554.md).
+- ARID1A-high [SCLC](../cancer_types/SCLC.md) tumors show reduced sensitivity to JQ1, as high [ARID1A](../genes/ARID1A.md) expression positively correlates with IC50 [PMID:41049615](../papers/41049615.md).
 - Grade-3 ACC primagrafts with activating [NOTCH1](../genes/NOTCH1.md) mutations or [SPEN](../genes/SPEN.md) loss-of-function are insensitive to JQ1 in vivo, indicating that Notch pathway activation confers intrinsic BET-inhibitor resistance in ACC [PMID:26829750](../papers/26829750.md)
 
 ## Cancer types (linked)
@@ -45,7 +45,7 @@ JQ1 is a potent, selective BET (bromodomain and extra-terminal) bromodomain inhi
 
 ## Sources
 
-- [PMID:22037554](../papers/22037554.md)
+- [PMID:41049615](../papers/41049615.md)
 - [PMID:25855536](../papers/25855536.md)
 - [PMID:26829750](../papers/26829750.md)
 

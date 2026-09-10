@@ -24,7 +24,7 @@ PMS2 ([PMS1](../genes/PMS1.md) Homolog 2, Mismatch Repair System Component) is o
 - **Hypermutator Phenotype**: In glioblastoma, compromised mismatch repair (including *PMS2*) is identified as a prerequisite for the development of a hypermutator phenotype upon tumor recurrence after treatment with [temozolomide](../drugs/temozolomide.md) [PMID:18772890](../papers/18772890.md).
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Somatic mutation identified in pancreatic acinar cell carcinomas but not correlated with elevated mutation burden; distinct from the MSH2-biallelic MSI-H case (ACINAR01) in this cohort [PMID:24293293](../papers/24293293.md)
-- Germline loss-of-function confers Lynch syndrome gastric cancer risk; included in standard multigene GC panel alongside [MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), and [EPCAM](../genes/EPCAM.md) [PMID:24816255](../papers/24816255.md)
+- Germline loss-of-function confers Lynch syndrome gastric cancer risk; included in standard multigene GC panel alongside [MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), and [EPCAM](../genes/EPCAM.md) [PMID:41097736](../papers/41097736.md)
 - In [PAAD](../cancer_types/PAAD.md), PMS2 was among mismatch-repair gene alterations in the top mutation-burden quartile; affected cases displayed T→C-at-CTG signatures consistent with MMR deficiency. [PMID:25855536](../papers/25855536.md)
 - Germline Lynch-syndrome gene mutated in half of MSI periampullary tumor patients — a marked enrichment vs. <5% population frequency [PMID:26804919](../papers/26804919.md)
 - Homozygous S459X germline variant diagnostic of constitutional mismatch-repair deficiency (CMMRD) syndrome in a pediatric patient with T-cell lymphoblastic lymphoma and consanguineous parentage [PMID:28007021](../papers/28007021.md)
@@ -73,7 +73,7 @@ PMS2 ([PMS1](../genes/PMS1.md) Homolog 2, Mismatch Repair System Component) is o
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:22810696](../papers/22810696.md)
 - [PMID:24293293](../papers/24293293.md)
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 - [PMID:25855536](../papers/25855536.md)
 - [PMID:26804919](../papers/26804919.md)
 - [PMID:28007021](../papers/28007021.md)

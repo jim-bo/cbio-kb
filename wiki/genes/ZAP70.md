@@ -15,15 +15,15 @@ ZAP70 (Zeta-chain-associated protein kinase 70) encodes a tyrosine kinase critic
 
 ## Alterations observed in the corpus
 
-- ZAP70 mRNA and protein upregulated in double-mutant (SF3B1-mut/del(13q)) CLL cells versus del(13q)-only CLL cells; used as a CLL-cell identity/activation marker alongside CD5 [PMID:26200345](../papers/26200345.md)
+- ZAP70 mRNA and protein upregulated in double-mutant (SF3B1-mut/del(13q)) CLL cells versus del(13q)-only CLL cells; used as a CLL-cell identity/activation marker alongside CD5 [PMID:40694421](../papers/40694421.md)
 
 ## Cancer types (linked)
 
-- [CLLSLL](../cancer_types/CLLSLL.md): ZAP70 upregulation in SF3B1-mutant/del(13q) CLL confirms the more aggressive phenotype of the double-mutant subtype compared to Mdr-only (del(13q)-only) cells [PMID:26200345](../papers/26200345.md)
+- [CLLSLL](../cancer_types/CLLSLL.md): ZAP70 upregulation in SF3B1-mutant/del(13q) CLL confirms the more aggressive phenotype of the double-mutant subtype compared to Mdr-only (del(13q)-only) cells [PMID:40694421](../papers/40694421.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Elevated ZAP70 expression co-occurs with SF3B1 mutation and del(13q) in CLL, consistent with the known association between ZAP70 positivity and poor-prognosis CLL features [PMID:26200345](../papers/26200345.md)
+- Elevated ZAP70 expression co-occurs with SF3B1 mutation and del(13q) in CLL, consistent with the known association between ZAP70 positivity and poor-prognosis CLL features [PMID:40694421](../papers/40694421.md)
 
 ## Therapeutic relevance
 
@@ -31,6 +31,6 @@ ZAP70 (Zeta-chain-associated protein kinase 70) encodes a tyrosine kinase critic
 
 ## Sources
 
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

@@ -17,7 +17,7 @@ ACSL4 (acyl-CoA synthetase long-chain family member 4) encodes a long-chain fatt
 ## Alterations observed in the corpus
 
 - In a proteogenomic analysis of 99 treatment-naive GBMs, ACSL4 protein was upregulated exclusively in the mesenchymal-like (nmf2) subtype, suggesting ferroptosis-pathway activation and accumulation of oxidized PUFA-containing phosphatidylethanolamines (PEs) in this [GBM](../cancer_types/GBM.md) subset. [PMID:33577785](../papers/33577785.md)
-- Ligates arachidonic acid to CoA; both a ferroptosis driver and an [HCC](../cancer_types/HCC.md) promoter via c-Myc/SREBP1; expression predicts [sorafenib](../drugs/sorafenib.md) sensitivity in hepatocellular carcinoma [PMID:38355797](../papers/38355797.md)
+- Ligates arachidonic acid to CoA; both a ferroptosis driver and an [HCC](../cancer_types/HCC.md) promoter via c-Myc/SREBP1; expression predicts [sorafenib](../drugs/sorafenib.md) sensitivity in hepatocellular carcinoma [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -40,6 +40,6 @@ ACSL4 (acyl-CoA synthetase long-chain family member 4) encodes a long-chain fatt
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

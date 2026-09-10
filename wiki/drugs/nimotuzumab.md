@@ -17,7 +17,7 @@ Nimotuzumab is a humanized anti-EGFR monoclonal antibody targeting [EGFR](../gen
 
 ## Evidence in the corpus
 
-- Nimotuzumab anti-EGFR monoclonal antibody evaluated in NPC where EGFR is overexpressed; listed alongside cetuximab and pimurutamab as EGFR-targeting antibodies, and alongside EGFR ADCs (becotatug vedotin) and bispecific ADCs, as part of the EGFR-targeting therapeutic landscape in R/M NPC [PMID:24952746](../papers/24952746.md).
+- Nimotuzumab anti-EGFR monoclonal antibody evaluated in NPC where EGFR is overexpressed; listed alongside cetuximab and pimurutamab as EGFR-targeting antibodies, and alongside EGFR ADCs (becotatug vedotin) and bispecific ADCs, as part of the EGFR-targeting therapeutic landscape in R/M NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

@@ -17,7 +17,7 @@ Atorvastatin is a lipophilic statin that inhibits [HMGCR](../genes/HMGCR.md) (HM
 
 ## Evidence in the corpus
 
-- Population data link lipophilic statins (atorvastatin, [simvastatin](../drugs/simvastatin.md), [lovastatin](../drugs/lovastatin.md)) to a more pronounced [HCC](../cancer_types/HCC.md)-risk reduction than hydrophilic statins ([pravastatin](../drugs/pravastatin.md), rosuvastatin); the lipophilicity difference is proposed to explain why multiple phase 2/3 trials of hydrophilic statins combined with [sorafenib](../drugs/sorafenib.md) in advanced HCC failed to improve survival [PMID:38355797](../papers/38355797.md).
+- Population data link lipophilic statins (atorvastatin, [simvastatin](../drugs/simvastatin.md), [lovastatin](../drugs/lovastatin.md)) to a more pronounced [HCC](../cancer_types/HCC.md)-risk reduction than hydrophilic statins ([pravastatin](../drugs/pravastatin.md), rosuvastatin); the lipophilicity difference is proposed to explain why multiple phase 2/3 trials of hydrophilic statins combined with [sorafenib](../drugs/sorafenib.md) in advanced HCC failed to improve survival [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
@@ -29,6 +29,6 @@ Atorvastatin is a lipophilic statin that inhibits [HMGCR](../genes/HMGCR.md) (HM
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

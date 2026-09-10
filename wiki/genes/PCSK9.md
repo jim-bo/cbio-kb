@@ -16,19 +16,19 @@ PCSK9 (proprotein convertase subtilisin/kexin type 9) encodes a serine protease 
 
 ## Alterations observed in the corpus
 
-- PCSK9 is flagged as part of the cholesterol-uptake axis in HCC, where it regulates LDLR degradation; PCSK9 dysregulation contributes to altered intracellular cholesterol homeostasis that promotes hepatocarcinogenesis [PMID:38355797](../papers/38355797.md)
+- PCSK9 is flagged as part of the cholesterol-uptake axis in HCC, where it regulates LDLR degradation; PCSK9 dysregulation contributes to altered intracellular cholesterol homeostasis that promotes hepatocarcinogenesis [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- **HCC**: PCSK9 contributes to the cholesterol-uptake axis alongside LDLR dysregulation; altered PCSK9 signaling shifts intracellular cholesterol synthesis via MEK/ERK and promotes HCC [PMID:38355797](../papers/38355797.md)
+- **HCC**: PCSK9 contributes to the cholesterol-uptake axis alongside LDLR dysregulation; altered PCSK9 signaling shifts intracellular cholesterol synthesis via MEK/ERK and promotes HCC [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- PCSK9 operates upstream of LDLR in the cholesterol-uptake axis; co-dysregulated with [HMGCR](../genes/HMGCR.md), [MVK](../genes/MVK.md), and [SQLE](../genes/SQLE.md) in the cholesterol biosynthesis pathway in HCC [PMID:38355797](../papers/38355797.md)
+- PCSK9 operates upstream of LDLR in the cholesterol-uptake axis; co-dysregulated with [HMGCR](../genes/HMGCR.md), [MVK](../genes/MVK.md), and [SQLE](../genes/SQLE.md) in the cholesterol biosynthesis pathway in HCC [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- PCSK9 inhibitors (e.g., evolocumab, alirocumab) are established cardiovascular agents; their potential role in HCC treatment as modulators of the cholesterol-uptake axis warrants investigation based on the lipid metabolism reprogramming described in HCC [PMID:38355797](../papers/38355797.md)
+- PCSK9 inhibitors (e.g., evolocumab, alirocumab) are established cardiovascular agents; their potential role in HCC treatment as modulators of the cholesterol-uptake axis warrants investigation based on the lipid metabolism reprogramming described in HCC [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
@@ -36,6 +36,6 @@ PCSK9 (proprotein convertase subtilisin/kexin type 9) encodes a serine protease 
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

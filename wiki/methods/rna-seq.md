@@ -20,7 +20,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:35927489](../papers/35927489.md) — RNA-seq on n=712 CLL samples (603 treatment-naive used for clustering); unsupervised clustering identified 8 robust expression clusters that are independent prognostic factors beyond IGHV/epitype [PMID:35927489](../papers/35927489.md).
 - [PMID:36862133](../papers/36862133.md) — [select](../methods/select.md) targeted RNA sequencing alongside MSK-IMPACT in the Make-an-IMPACT program; detected actionable fusions including a PRDX1-NTRK1 fusion in histiocytosis only via targeted RNA-seq, plus MS4A6A-BRAF, DOCK8-BRAF, HLA-A-BRAF, and TFG-ALK [PMID:36862133](../papers/36862133.md).
 - [PMID:37202560](../papers/37202560.md) — bulk RNA-seq on 348 AC-ICAM colon cancer tumor/normal pairs; underpins the ICR signature, ConsensusTME deconvolution, and CMS classification used for prognostic analysis [PMID:37202560](../papers/37202560.md).
-- [PMID:27634761](../papers/27634761.md) — RNA-seq (platform-independent, multiple normalization schemes including RSEM, FPKM, RPKM, TPM) used as the sole molecular feature (~500 features for site of origin, ~200 for lineage) in the ATLAS tumor classification model; trained on 8,249 TCGA/CCLE samples and validated on 10,376 samples [PMID:27634761](../papers/27634761.md).
+- [PMID:38480799](../papers/38480799.md) — RNA-seq (platform-independent, multiple normalization schemes including RSEM, FPKM, RPKM, TPM) used as the sole molecular feature (~500 features for site of origin, ~200 for lineage) in the ATLAS tumor classification model; trained on 8,249 TCGA/CCLE samples and validated on 10,376 samples [PMID:38480799](../papers/38480799.md).
 - [PMID:34433969](../papers/34433969.md) — mRNA-seq on 121 fresh-frozen meningiomas from the University Health Network Brain Tumor BioBank; integrated with WES, EPIC methylation array, and snRNA-seq to define four stable molecular groups [PMID:34433969](../papers/34433969.md).
 - [PMID:38117484](../papers/38117484.md) — RNA-seq on 54 glioma patients in the GLASS International consortium; paired with 450K/EPIC methylation arrays and WES/WGS; identified [HOXD13](../genes/HOXD13.md) as master regulator of IDH-mutant astrocytoma progression [PMID:38117484](../papers/38117484.md).
 - [PMID:38412093](../papers/38412093.md) — RNA-seq on 24 primary anaplastic thyroid carcinomas and 13 cell lines, integrated with TCGA PTC data [PMID:38412093](../papers/38412093.md).
@@ -34,11 +34,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Performed on one sample per MEC patient for fusion validation; confirmed [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) fusion (Patient 2) and novel [ASCC2](../genes/ASCC2.md)::[GGNBP2](../genes/GGNBP2.md) fusion (Patient 1) [PMID:36577525](../papers/36577525.md)
 - Total RNA-seq (Illumina TruSeq RiboZero Gold on HiSeq 4000) performed on 176 of 218 metastatic UC patients in UC-GENOME; enabled molecular subtyping and immune cell deconvolution (CIBERSORTx) [PMID:36333289](../papers/36333289.md)
 - Used to sequence transcriptomes of 113 additional NHL cases (DLBCL and [FL](../cancer_types/FL.md)) in the BCGSC study; provided mutation calls and expression data complementing WGS/WES in 14 matched pairs [PMID:21796119](../papers/21796119.md)
-- Bulk RNA-seq used across [SCLC](../cancer_types/SCLC.md) and [LUAD](../cancer_types/LUAD.md) cell lines (CCLE/DepMap) to characterize [ARID1A](../genes/ARID1A.md) expression levels and correlate with JQ1 sensitivity; [SCLC](../cancer_types/SCLC.md) lines showed markedly higher [ARID1A](../genes/ARID1A.md) expression than [LUAD](../cancer_types/LUAD.md) lines (p < 0.0001) [PMID:22037554](../papers/22037554.md)
-- Bulk RNA-seq used across 14 ccRCC cohorts (n=3,621) to define HiTME molecular subtypes and train ICI/TKI response prediction models; WU-RCC independent validation cohort included 157 samples with bulk RNA-seq [PMID:22138691](../papers/22138691.md)
-- Used alongside WES in breast cancer to detect splice-site consequences of [SF3B1](../genes/SF3B1.md) mutations and quantify allele-specific expression [PMID:22158541](../papers/22158541.md)
+- Bulk RNA-seq used across [SCLC](../cancer_types/SCLC.md) and [LUAD](../cancer_types/LUAD.md) cell lines (CCLE/DepMap) to characterize [ARID1A](../genes/ARID1A.md) expression levels and correlate with JQ1 sensitivity; [SCLC](../cancer_types/SCLC.md) lines showed markedly higher [ARID1A](../genes/ARID1A.md) expression than [LUAD](../cancer_types/LUAD.md) lines (p < 0.0001) [PMID:41049615](../papers/41049615.md)
+- Bulk RNA-seq used across 14 ccRCC cohorts (n=3,621) to define HiTME molecular subtypes and train ICI/TKI response prediction models; WU-RCC independent validation cohort included 157 samples with bulk RNA-seq [PMID:40834854](../papers/40834854.md)
+- Used alongside WES in breast cancer to detect splice-site consequences of [SF3B1](../genes/SF3B1.md) mutations and quantify allele-specific expression [PMID:41055979](../papers/41055979.md)
 - RNA-seq applied alongside WGS in BCCRC breast tumor cohort to characterize transcriptomic landscape [PMID:22495314](../papers/22495314.md)
-- RNA-seq used in [HCC](../cancer_types/HCC.md) studies to characterize hepatocellular carcinoma transcriptome alongside WGS [PMID:22634756](../papers/22634756.md)
+- RNA-seq used in [HCC](../cancer_types/HCC.md) studies to characterize hepatocellular carcinoma transcriptome alongside WGS [PMID:41112515](../papers/41112515.md)
 - Strand-specific high-coverage RNA sequencing performed on 28 pediatric medulloblastoma cases (ICGC); identified first medulloblastoma fusion transcripts (DNAJB6-SHH, LCLAT1-ERBB4); only 48% of non-synonymous DNA mutations detectable at RNA level [PMID:22832583](../papers/22832583.md)
 - Applied to Genentech colorectal cohort to detect RSPO2/RSPO3 fusion transcripts and characterise expression profiles [PMID:22895193](../papers/22895193.md)
 - Used in CLCGP [SCLC](../cancer_types/SCLC.md) study (29 tumors) to complement WES/WGS and characterise transcriptome of TP53/RB1-deficient tumors [PMID:22941188](../papers/22941188.md)
@@ -58,13 +58,13 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - PolyA RNA-seq on Illumina HiSeq2000 (100 bp PE) applied to 80 rhabdomyosarcoma tumors; mapped with TopHat2; fusions called via [tophat-fusion](../methods/tophat-fusion.md) and deFuse; showed 58% of DNA-level somatic mutations had RNA expression evidence; identified cryptic PAX rearrangements including PAX3-INO80D [PMID:24436047](../papers/24436047.md)
 - Applied to all 131 TCGA bladder carcinoma tumors (n=129 for mRNA clustering); miRNA-seq also performed; identified 4 mRNA expression clusters including papillary-like (cluster I, enriched for [FGFR3](../genes/FGFR3.md) mutations) and basal/squamous-like (cluster III, expressing KRT14/KRT5/EGFR); viral integration transcripts detected in 5/122 [PMID:24476821](../papers/24476821.md)
 - Performed on 4 of the 20 Discovery Cohort [ESCC](../cancer_types/ESCC.md) tumors to support transcriptomic analysis of mutated genes (e.g., [APOBEC3B](../genes/APOBEC3B.md) expression, [XPO1](../genes/XPO1.md) mRNA levels) [PMID:24686850](../papers/24686850.md)
-- Applied to 196 [HCC](../cancer_types/HCC.md) patients as part of the TCGA integrated molecular characterisation (DNA copy number, methylation, mRNA, miRNA, RPPA) [PMID:24798001](../papers/24798001.md)
+- Applied to 196 [HCC](../cancer_types/HCC.md) patients as part of the TCGA integrated molecular characterisation (DNA copy number, methylation, mRNA, miRNA, RPPA) [PMID:30061739](../papers/30061739.md)
 - Transcriptome RNA-seq performed on 25 thymic epithelial tumors (Illumina Genome Analyzer II / HiSeq2000) using TopHat + Cufflinks; identified [BCL2](../genes/BCL2.md) focal amplification correlated with increased [BCL2](../genes/BCL2.md) mRNA; both [GTF2I](../genes/GTF2I.md) alleles expressed (mean mutant allele fraction 47%) [PMID:24974848](../papers/24974848.md)
-- Used for bulk RNA-seq of primary human gallbladder fibroblasts (GFs) cultured on 0.5 vs 16 kPa silicon hydrogels (NCBI SRA PRJNA1182410), identifying [SEMA7A](../genes/SEMA7A.md) as the most strongly upregulated semaphorin under stiff matrix conditions in [GBC](../cancer_types/GBC.md) stroma [PMID:24997986](../papers/24997986.md)
+- Used for bulk RNA-seq of primary human gallbladder fibroblasts (GFs) cultured on 0.5 vs 16 kPa silicon hydrogels (NCBI SRA PRJNA1182410), identifying [SEMA7A](../genes/SEMA7A.md) as the most strongly upregulated semaphorin under stiff matrix conditions in [GBC](../cancer_types/GBC.md) stroma [PMID:40830485](../papers/40830485.md)
 - Six-platform TCGA profiling of 295 gastric adenocarcinomas ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) included mRNA-seq (RNA-seq) to define transcriptional subtypes and pathway activity across EBV, MSI, GS, and CIN molecular subgroups [PMID:25079317](../papers/25079317.md)
 - Multi-platform TCGA profiling of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) included mRNA sequencing to identify transcriptional subtypes (TRU, PI, PP) and [MET](../genes/MET.md) exon 14 skipping events [PMID:25079552](../papers/25079552.md)
 - Used in TCGA ChRCC project (66 tumors) to profile gene expression, identify distal-nephron cell-of-origin signatures, characterize mtDNA-mutant transcriptomes, and assess [TERT](../genes/TERT.md) expression levels. [PMID:25155756](../papers/25155756.md)
-- Used on Illumina HiSeq 2500 (GEO GSE272957) to profile transcriptomes of EWS::FLI1-transduced heMSCs vs controls, identifying 3,836 DEGs and Ewing sarcoma gene-expression signatures. [PMID:25186949](../papers/25186949.md)
+- Used on Illumina HiSeq 2500 (GEO GSE272957) to profile transcriptomes of EWS::FLI1-transduced heMSCs vs controls, identifying 3,836 DEGs and Ewing sarcoma gene-expression signatures. [PMID:41136396](../papers/41136396.md)
 - Used on Illumina HiSeq to profile seven prostate cancer organoid lines; identified TMPRSS2-ERG fusion status, [SPINK1](../genes/SPINK1.md) overexpression, and confirmed gene-expression concordance between organoids and parental tumor tissue. [PMID:25201530](../papers/25201530.md)
 - Used in [MPNST](../cancer_types/MPNST.md) discovery cohort (15 tumors, 51 bp PE, Illumina HiSeq-2500, hg19, [STAR](../genes/STAR.md) v2.3); RNA-seq was essential to detect [SUZ12](../genes/SUZ12.md) structural rearrangements missed by WES, and revealed 455/479 differentially expressed genes upregulated in PRC2-loss tumors [PMID:25240281](../papers/25240281.md)
 - Applied to 159 nccRCC tumors (TruSeq, HiSeq 2000, ~68M PE reads/sample); enabled a 5-gene classifier (ASB1, GLYAT, PDZK1IP1, PLCG2, SDCBP2) achieving 95.3% subtype accuracy and detection of novel ACTG1-MITF and CLTC-TFEB fusions [PMID:25401301](../papers/25401301.md)
@@ -73,9 +73,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Paired-end RNA-seq (Illumina HiSeq 2500, 2×100 nt, ~50M paired reads) performed on 150 mCRPC biopsies alongside WES, enabling fusion detection via Tophat-Fusion and FPKM quantification by Cufflinks. [PMID:26000489](../papers/26000489.md)
 - mRNA sequencing (Illumina TruSeq, HiSeq 2000) on 331 melanoma samples enabled identification of three transcriptomic subclasses (Immune, Keratin, MITF-low) and 224 candidate fusion drivers. [PMID:26091043](../papers/26091043.md)
 - RNA-seq used for transcriptome profiling in breast cancer genomic analysis [PMID:26168399](../papers/26168399.md)
-- RNA-seq used for transcriptome profiling as part of multi-omic characterization of ovarian cancer [PMID:26200345](../papers/26200345.md)
+- RNA-seq used for transcriptome profiling as part of multi-omic characterization of ovarian cancer [PMID:40694421](../papers/40694421.md)
 - Used in 40-42 of 110 metastatic melanoma pretreatment tumors ([skcm_dfci_2015](../datasets/skcm_dfci_2015.md)) to measure cytolytic activity ([GZMA](../genes/GZMA.md)+[PRF1](../genes/PRF1.md) geometric mean) and immune checkpoint expression ([CTLA4](../genes/CTLA4.md), [PDCD1LG2](../genes/PDCD1LG2.md)); each independently associated with [ipilimumab](../drugs/ipilimumab.md) clinical benefit [PMID:26359337](../papers/26359337.md)
-- Performed on 35 AAV-CRISPR-edited rat mammary tumors across six genotype groups; ANOVA (FDR<1%) identified 1,579 differentially expressed genes; intrinsic subtype assignment classified most tumors as Luminal A or B; GSEA of fulvestrant-responsive DEGs showed significant concordance with human patient neoadjuvant endocrine therapy datasets [PMID:26437033](../papers/26437033.md)
+- Performed on 35 AAV-CRISPR-edited rat mammary tumors across six genotype groups; ANOVA (FDR<1%) identified 1,579 differentially expressed genes; intrinsic subtype assignment classified most tumors as Luminal A or B; GSEA of fulvestrant-responsive DEGs showed significant concordance with human patient neoadjuvant endocrine therapy datasets [PMID:41000773](../papers/41000773.md)
 - Used in the TCGA breast ILC/IDC multi-platform study (n=817) for mRNA expression profiling; enabled definition of three [ILC](../cancer_types/ILC.md) transcriptional subtypes (reactive-like, immune-related, proliferative) and orthogonal validation of mutation calls (78.1% of CLL gene mutations detected at sites with >90% detection power) [PMID:26451490](../papers/26451490.md)
 - Performed on neuroblastoma tumors (Illumina HiSeq 2000) alongside custom 4x44K Agilent oligonucleotide microarrays; quantified [TERT](../genes/TERT.md) expression showing 92-fold higher levels in TERT-rearranged vs low-risk tumors and higher than MYCN-amplified tumors (P=0.028) [PMID:26466568](../papers/26466568.md)
 - Used in 156 of 538 CLL whole-exome samples for orthogonal validation; 78.1% of CLL gene mutations detected in matched RNA-seq at sites with >90% detection power; MGA-mutant CLLs showed downregulation of MYC-suppressed B-cell gene sets [PMID:26466571](../papers/26466571.md)
@@ -94,11 +94,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used for mRNA profiling of 164 oesophageal carcinomas and 359 gastric adenocarcinomas in the TCGA esophageal/stomach study; mRNA-seq confirmed no HPV transcripts in [ESCC](../cancer_types/ESCC.md) and provided expression data for iCluster integrative subtyping [PMID:28052061](../papers/28052061.md).
 - Applied to 173 [PCPG](../cancer_types/PCPG.md) tumors in the TCGA [PCPG](../cancer_types/PCPG.md) study; mRNA-seq revealed four molecular subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical [admixture](../methods/admixture.md)) and confirmed [CSDE1](../genes/CSDE1.md) splice-site mutation effects via intron retention and exon skipping [PMID:28162975](../papers/28162975.md).
 - Used RNA-seq to profile transcriptional changes in tumor models [PMID:28196596](../papers/28196596.md)
-- Employed RNA-seq for transcriptome profiling in sarcoma tumor samples [PMID:28199314](../papers/28199314.md)
+- Employed RNA-seq for transcriptome profiling in sarcoma tumor samples [PMID:41102727](../papers/41102727.md)
 - Used RNA-seq for transcriptome profiling and fusion detection in cancer specimens [PMID:28373299](../papers/28373299.md)
 - Poly(A)+ transcriptomes generated for 164 medulloblastoma cases; recurrent fusions targeting [GLI2](../genes/GLI2.md), [PTEN](../genes/PTEN.md), and [PVT1](../genes/PVT1.md) identified by integrating SV breakpoints with RNA-seq data [PMID:28726821](../papers/28726821.md)
 - Poly(A)+ and exome-capture transcriptomes generated for 868 libraries from 496 MET500 metastatic tumors (40–50M paired reads on Illumina HiSeq 2000/2500); enabled fusion calling (CODAC), immune deconvolution, and MImmScore derivation [PMID:28783718](../papers/28783718.md)
-- Applied to NOL10-knockdown LNCaP cells to identify 71 downregulated cell-cycle genes (DLGAP5, [MCM4](../genes/MCM4.md), KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6); also used for GSEA and eQTL/sQTL analyses across CPGEA and TCGA [PRAD](../cancer_types/PRAD.md) cohorts [PMID:28927585](../papers/28927585.md)
+- Applied to NOL10-knockdown LNCaP cells to identify 71 downregulated cell-cycle genes (DLGAP5, [MCM4](../genes/MCM4.md), KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6); also used for GSEA and eQTL/sQTL analyses across CPGEA and TCGA [PRAD](../cancer_types/PRAD.md) cohorts [PMID:41062477](../papers/41062477.md)
 - Performed on 775 DLBCL cases (625 used in core analysis) for cell-of-origin assignment (ABC vs GCB) and integrated prognostic modeling [PMID:28985567](../papers/28985567.md)
 - Performed on 408/412 [BLCA](../cancer_types/BLCA.md) tumors enabling five mRNA expression subtype classification (luminal-papillary, luminal-infiltrated, luminal, basal-squamous, neuronal) with subtype-associated survival p=4×10⁻⁴ [PMID:28988769](../papers/28988769.md)
 - Performed on 45 baseline and 26 paired pre/on-therapy melanoma biopsies (STAR-aligned, hg19); 189 pre-therapy DEGs distinguished CR/PR from PD and 475 on-therapy DEGs captured pharmacodynamic immune response to [nivolumab](../drugs/nivolumab.md) [PMID:29033130](../papers/29033130.md)
@@ -123,7 +123,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - TCGA [PRAD](../cancer_types/PRAD.md) bulk RNA-seq (limma voom differential expression on RSEM-normalized Firebrowse data) used to identify [SLC16A1](../genes/SLC16A1.md) and [LDHA](../genes/LDHA.md) as significantly upregulated in prostate tumor vs. matched normal, pinning MCT1 as the rate-limiting driver of the hyperpolarized lactate signal [PMID:31564440](../papers/31564440.md).
 - Strand-specific poly-A+ RNA-seq on 244 PPTC PDX models; combined with deFuse, FusionCatcher, STAR-Fusion, and SOAPfuse for fusion calling; GSEA applied on Hallmark and TissGDB/TiGER gene sets to characterize pathway enrichment by histology [PMID:31693904](../papers/31693904.md).
 - TCGA breast cancer RNA-seq ([brca_tcga_pub](../datasets/brca_tcga_pub.md), n=959) used for PIK3CA/MAP3K1 luminal-correlate analysis and PIK3CA-GS scoring; [PIK3CA](../genes/PIK3CA.md) + [MAP3K1](../genes/MAP3K1.md) co-mutated tumors showed significantly higher correlation to luminal A vs luminal B PAM50 centroid (p<0.0001) [PMID:31552290](../papers/31552290.md).
-- Primary assay in the Sherlock-Lung NS-LUAD study (n=684 tumors); Illumina NovaSeq6000 2×151bp paired-end; STAR v2.7.3 alignment to GRCh38; NMF clustering of transcriptomes identified three prognostic subtypes (steady, proliferative, chaotic) [PMID:32015526](../papers/32015526.md).
+- Primary assay in the Sherlock-Lung NS-LUAD study (n=684 tumors); Illumina NovaSeq6000 2×151bp paired-end; STAR v2.7.3 alignment to GRCh38; NMF clustering of transcriptomes identified three prognostic subtypes (steady, proliferative, chaotic) [PMID:40970133](../papers/40970133.md).
 - Total RNA-seq performed in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors, 49 normal tissues) on Illumina HiSeq4000; integrated with proteomics, methylation, and exome data to characterize four genomic subtypes ([POLE](../genes/POLE.md), MSI, CNV-low, CNV-high) [PMID:32059776](../papers/32059776.md).
 - RNA-seq performed on 80/119 [UTUC](../cancer_types/UTUC.md) tumors; BASE47 classifier assigned 87.5% luminal and 12.5% basal; consensus MIBC classifier assigned 82.5% luminal-papillary; basal/squamous subtype correlated with PDX engraftment (P=0.04) [PMID:32332851](../papers/32332851.md)
 - Total RNA-seq on Illumina HiSeq 4000 (≥120M reads/sample, hg38) performed on all 99 treatment-naive [GBM](../cancer_types/GBM.md) tumors as part of 10-platform CPTAC proteogenomic profiling study [PMID:33577785](../papers/33577785.md)
@@ -152,7 +152,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:37202560](../papers/37202560.md)
-- [PMID:27634761](../papers/27634761.md)
+- [PMID:38480799](../papers/38480799.md)
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:38117484](../papers/38117484.md)
 - [PMID:38412093](../papers/38412093.md)
@@ -176,19 +176,19 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:21796119](../papers/21796119.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22037554](../papers/22037554.md)
+- [PMID:41049615](../papers/41049615.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22138691](../papers/22138691.md)
+- [PMID:40834854](../papers/40834854.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22158541](../papers/22158541.md)
+- [PMID:41055979](../papers/41055979.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22495314](../papers/22495314.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22634756](../papers/22634756.md)
+- [PMID:41112515](../papers/41112515.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
@@ -248,13 +248,13 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
@@ -266,7 +266,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25201530](../papers/25201530.md)
@@ -293,13 +293,13 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26359337](../papers/26359337.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26437033](../papers/26437033.md)
+- [PMID:41000773](../papers/41000773.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
@@ -356,7 +356,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
@@ -368,7 +368,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:28783718](../papers/28783718.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
@@ -443,7 +443,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)

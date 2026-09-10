@@ -27,8 +27,8 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - CDH1 expression and pharmacogenomic associations analyzed in NCI-60 cell line panel via CellMiner [PMID:22802077](../papers/22802077.md)
 - Mutated in breast cancer (TCGA, 510 tumors); CDH1 truncating mutations highly enriched in lobular breast carcinoma (luminal A subtype), causing loss of E-cadherin expression and epithelial-mesenchymal transition [PMID:23000897](../papers/23000897.md)
 - Mutated in [EAC](../cancer_types/EAC.md); co-occurs with [APC](../genes/APC.md) mutations (two tumors with co-occurring [APC](../genes/APC.md) + CDH1) in the beta-catenin pathway, which is altered in only 9% of EACs [PMID:23525077](../papers/23525077.md)
-- Germline loss-of-function defines Hereditary Diffuse Gastric Cancer (HDGC); in mutation-negative HDGC-like families ~17% of tumors show somatic CDH1 promoter hypermethylation and ~9% LOH; standard multigene GC panel includes CDH1 [PMID:24816255](../papers/24816255.md)
-- Downregulated (E-cadherin loss) in [GBC](../cancer_types/GBC.md) cells as an EMT readout downstream of paracrine [SEMA7A](../genes/SEMA7A.md) signaling from stiff-matrix-activated CAFs; E-cadherin restored by [SEMA7A](../genes/SEMA7A.md) knockdown in GFs in co-injection xenografts [PMID:24997986](../papers/24997986.md)
+- Germline loss-of-function defines Hereditary Diffuse Gastric Cancer (HDGC); in mutation-negative HDGC-like families ~17% of tumors show somatic CDH1 promoter hypermethylation and ~9% LOH; standard multigene GC panel includes CDH1 [PMID:41097736](../papers/41097736.md)
+- Downregulated (E-cadherin loss) in [GBC](../cancer_types/GBC.md) cells as an EMT readout downstream of paracrine [SEMA7A](../genes/SEMA7A.md) signaling from stiff-matrix-activated CAFs; E-cadherin restored by [SEMA7A](../genes/SEMA7A.md) knockdown in GFs in co-injection xenografts [PMID:40830485](../papers/40830485.md)
 - Somatic mutations in 11% of gastric adenocarcinoma overall and 26-37% of GS tumours; no germline-pathogenic CDH1 variants identified in this sporadic cohort [PMID:25079317](../papers/25079317.md)
 - Somatic mutations in 21/294 (7.1%) gastric cancer cases; enriched in diffuse-type and cardia tumors; LoF events common; associated with shorter survival; cardia GCs are enriched for CDH1, connecting to the diffuse-type/poor-prognosis axis [PMID:25583476](../papers/25583476.md)
 - Subclonal mutation in breast adenoid cystic carcinoma (AdCC); identified as a non-passenger subclonal event suggesting it may contribute to clonal evolution and therapeutic escape [PMID:26095796](../papers/26095796.md)
@@ -87,10 +87,10 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - [PMID:23525077](../papers/23525077.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)

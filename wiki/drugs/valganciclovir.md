@@ -17,7 +17,7 @@ Valganciclovir is an antiviral prodrug (converted to ganciclovir) that inhibits 
 
 ## Evidence in the corpus
 
-- Valganciclovir listed as an EBV-targeting antiviral agent under investigation in the context of EBV-associated R/M NPC therapeutic strategies, exploiting EBV viral machinery for tumor-specific cytotoxicity [PMID:24952746](../papers/24952746.md).
+- Valganciclovir listed as an EBV-targeting antiviral agent under investigation in the context of EBV-associated R/M NPC therapeutic strategies, exploiting EBV viral machinery for tumor-specific cytotoxicity [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

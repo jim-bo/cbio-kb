@@ -35,7 +35,7 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - MSI-H detected in 5.7% of rectal adenocarcinoma cases by MANTIS WES caller; MSI prevalence lower than colon adenocarcinoma (19.7%), consistent with known biology [PMID:29850653](../papers/29850653.md)
 - 65 rectal adenocarcinoma (READ) tumoroids from 41 patients (77% derivation success rate) faithfully recapitulated mutation landscapes of [APC](../genes/APC.md), [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), [FBXW7](../genes/FBXW7.md); 92% of oncogenic mutations preserved; ex vivo 5-FU/FOLFOX sensitivity correlated with patient PFS (Spearman r=0.86, p=0.024) across 7 patients with mature follow-up [PMID:31591597](../papers/31591597.md).
 - In the [crc_apc_impact_2020](../datasets/crc_apc_impact_2020.md) MSS mCRC cohort (n=430, MSK-IMPACT), [READ](../cancer_types/READ.md) primaries were included alongside colon primaries; N-terminal [APC](../genes/APC.md) mutations (5' of aa 1400) were more common in left-sided colon/rectal primaries and carried better prognosis than C-terminal [APC](../genes/APC.md) mutations, which were enriched in right-sided tumors [PMID:32730818](../papers/32730818.md).
-- TIMER 2.0 pan-cancer analysis confirmed [CGREF1](../genes/CGREF1.md) significantly upregulated in [READ](../cancer_types/READ.md); high [CGREF1](../genes/CGREF1.md) IHC expression across an 80-patient CRC tissue microarray (including rectal primaries) was an independent predictor of shorter disease-free survival and promoted liver metastasis via F-actin cytoskeletal remodeling in orthotopic CRC models [PMID:32888432](../papers/32888432.md).
+- TIMER 2.0 pan-cancer analysis confirmed [CGREF1](../genes/CGREF1.md) significantly upregulated in [READ](../cancer_types/READ.md); high [CGREF1](../genes/CGREF1.md) IHC expression across an 80-patient CRC tissue microarray (including rectal primaries) was an independent predictor of shorter disease-free survival and promoted liver metastasis via F-actin cytoskeletal remodeling in orthotopic CRC models [PMID:41125935](../papers/41125935.md).
 - MSK early-onset CRC cohort (n=1,446 total) found rectal adenocarcinoma accounted for 33.7% of early-onset CRC (age <50) vs 22.6% in average-onset (age ≥50; P<0.001), with left-sided and rectal disease predominating; after sidedness adjustment, somatic profiles and metastatic survival were equivalent between age groups [PMID:34405229](../papers/34405229.md)
 - ARGO Nigerian CRC cohort: Nigerian patients more likely rectal-primary (50.8% vs. 33.7%); among 380 Nigerian CRC patients, stage IV was 53.8% with peritoneal metastases more common (30.3% vs. 18.1%) and lung/liver metastases less frequent [PMID:34819518](../papers/34819518.md)
 - COLON MAP / HTAN colorectal atlas: CRC progression landscape characterized across adenoma subtypes and MSS/MSI-H CRCs; cytotoxic CD8+ T-cell immune microenvironment forms in serrated lesions before hypermutation, and persists into MSI-H CRC [PMID:34910928](../papers/34910928.md)
@@ -84,7 +84,7 @@ No molecular subtyping data from the corpus specific to READ yet.
 
 - [PMID:32730818](../papers/32730818.md)
 
-- [PMID:32888432](../papers/32888432.md)
+- [PMID:41125935](../papers/41125935.md)
 
 - [PMID:34405229](../papers/34405229.md)
 

@@ -16,7 +16,7 @@ ZEB1 (Zinc finger E-box binding homeobox 1) is a transcriptional repressor that 
 ## Alterations observed in the corpus
 
 - ZEB1 identified as a transcriptional repressor of [CDH1](../genes/CDH1.md) (E-cadherin) in the NCI-60 CellMiner pharmacogenomics analysis; correlation coefficient r = -0.63 between ZEB1 and [CDH1](../genes/CDH1.md) expression across NCI-60 cell lines [PMID:22802077](../papers/22802077.md)
-- EMT transcription factor upregulated in [GBC](../cancer_types/GBC.md) cells downstream of SEMA7A/ITGB1/AKT1/EP300 signaling; p300 occupancy and H3K27ac at the ZEB1 promoter increased by recombinant [SEMA7A](../genes/SEMA7A.md), abrogated by p300 S1834A mutation. [PMID:24997986](../papers/24997986.md)
+- EMT transcription factor upregulated in [GBC](../cancer_types/GBC.md) cells downstream of SEMA7A/ITGB1/AKT1/EP300 signaling; p300 occupancy and H3K27ac at the ZEB1 promoter increased by recombinant [SEMA7A](../genes/SEMA7A.md), abrogated by p300 S1834A mutation. [PMID:40830485](../papers/40830485.md)
 - Part of a proposed EMT regulatory axis in endometrial carcinoma where [QKI](../genes/QKI.md) promotes 35 EMT-associated circRNAs and is positively correlated with ZEB1/ZEB2, opposed by [ESRP2](../genes/ESRP2.md) [PMID:32059776](../papers/32059776.md)
 - ZEB1 target gene set enriched among EpiC-defining differentially methylated regions (GSEA) in the IGBMC [UTUC](../cancer_types/UTUC.md) cohort (n=40); ZEB1 targets distinguish EpiC-high (hypermethylated, immune-infiltrated, muscle-invasive) from EpiC-low subtypes [PMID:33397444](../papers/33397444.md)
 - ZEB1 expression was low in SCLC-P (POU2F3-driven) PDX models alongside SNAI1/SNAI2, with variable [VIM](../genes/VIM.md) and absent [EPCAM](../genes/EPCAM.md), demonstrating that EMT is not a uniform feature of non-neuroendocrine [SCLC](../cancer_types/SCLC.md) subtypes [PMID:35440124](../papers/35440124.md)
@@ -43,7 +43,7 @@ ZEB1 (Zinc finger E-box binding homeobox 1) is a transcriptional repressor that 
 - [PMID:22802077](../papers/22802077.md) — NCI-60 CellMiner pharmacogenomics study
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)

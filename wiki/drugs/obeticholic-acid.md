@@ -21,11 +21,11 @@ Obeticholic acid (OCA; INT-747) is a semi-synthetic bile acid derivative and pot
 
 ## Evidence in the corpus
 
-- FXR agonism by obeticholic acid (OCA/INT-747) reactivates the SHP/LRH-1 pathway to suppress CCA proliferation and migration; heterogeneous FXR expression across CCA subtypes (pCCA/dCCA H-score <120) suggests DNMT-inhibitor combinations may be needed to restore FXR responsiveness before OCA can act [PMID:25608663](../papers/25608663.md)
+- FXR agonism by obeticholic acid (OCA/INT-747) reactivates the SHP/LRH-1 pathway to suppress CCA proliferation and migration; heterogeneous FXR expression across CCA subtypes (pCCA/dCCA H-score <120) suggests DNMT-inhibitor combinations may be needed to restore FXR responsiveness before OCA can act [PMID:41018102](../papers/41018102.md)
 
 ## Resistance mechanisms
 
-- FXR downregulation via promoter methylation (low H-score in pCCA/dCCA) limits OCA efficacy; combination with DNMT inhibitors proposed to restore FXR expression [PMID:25608663](../papers/25608663.md)
+- FXR downregulation via promoter methylation (low H-score in pCCA/dCCA) limits OCA efficacy; combination with DNMT inhibitors proposed to restore FXR expression [PMID:41018102](../papers/41018102.md)
 
 ## Cancer types (linked)
 
@@ -33,6 +33,6 @@ Obeticholic acid (OCA; INT-747) is a semi-synthetic bile acid derivative and pot
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

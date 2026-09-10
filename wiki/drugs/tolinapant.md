@@ -17,7 +17,7 @@ Tolinapant is an investigational inhibitor-of-apoptosis protein (IAP) inhibitor 
 
 ## Evidence in the corpus
 
-- Tolinapant IAP inhibitor (targeting XIAP and cIAP1/2) evaluated in combination with radiotherapy in NPC; XIAP and cIAP1/2 are listed as inhibitors of apoptosis targeted to overcome EBV-driven apoptosis resistance in NPC [PMID:24952746](../papers/24952746.md).
+- Tolinapant IAP inhibitor (targeting XIAP and cIAP1/2) evaluated in combination with radiotherapy in NPC; XIAP and cIAP1/2 are listed as inhibitors of apoptosis targeted to overcome EBV-driven apoptosis resistance in NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

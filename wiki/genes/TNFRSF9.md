@@ -15,12 +15,12 @@ TNFRSF9 (4-1BB, CD137) is a T-cell co-stimulatory receptor in the TNF receptor s
 
 ## Alterations observed in the corpus
 
-- TNFRSF9 (4-1BB) is a T-cell co-stimulatory receptor; agonist ADG106 tested in phase I trials with no significant NPC-specific activity reported to date. [PMID:24952746](../papers/24952746.md)
+- TNFRSF9 (4-1BB) is a T-cell co-stimulatory receptor; agonist ADG106 tested in phase I trials with no significant NPC-specific activity reported to date. [PMID:41002550](../papers/41002550.md)
 - 4-1BB; immune checkpoint/co-stimulatory gene upregulated on-therapy in all patients receiving nivolumab in melanoma; nominated as combination immunotherapy target [PMID:29033130](../papers/29033130.md)
 
 ## Cancer types (linked)
 
-- **NPC** — 4-1BB agonist ADG106 is in phase I investigation in R/M NPC; no significant activity reported yet. [PMID:24952746](../papers/24952746.md)
+- **NPC** — 4-1BB agonist ADG106 is in phase I investigation in R/M NPC; no significant activity reported yet. [PMID:41002550](../papers/41002550.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -28,7 +28,7 @@ TNFRSF9 (4-1BB, CD137) is a T-cell co-stimulatory receptor in the TNF receptor s
 
 ## Therapeutic relevance
 
-- 4-1BB agonist ADG106 in phase I testing in NPC; rationale is to augment T-cell co-stimulation in the immunosuppressive NPC tumor microenvironment. [PMID:24952746](../papers/24952746.md)
+- 4-1BB agonist ADG106 in phase I testing in NPC; rationale is to augment T-cell co-stimulation in the immunosuppressive NPC tumor microenvironment. [PMID:41002550](../papers/41002550.md)
 
 ## Open questions
 
@@ -36,7 +36,7 @@ TNFRSF9 (4-1BB, CD137) is a T-cell co-stimulatory receptor in the TNF receptor s
 
 ## Sources
 
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:29033130](../papers/29033130.md)

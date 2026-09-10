@@ -15,16 +15,16 @@ XRCC3 (X-Ray Repair Cross Complementing 3) encodes a member of the RecA/Rad51 fa
 
 ## Alterations observed in the corpus
 
-- Recurrent germline pathogenic/likely-pathogenic variant identified in an Indian familial non-small-cell lung cancer cohort enriched for young lung cancer; also observed alongside [ATM](../genes/ATM.md), [CHEK2](../genes/CHEK2.md), [BAP1](../genes/BAP1.md), [FANCA](../genes/FANCA.md), [FANCI](../genes/FANCI.md), [FANCM](../genes/FANCM.md), and [LZTR1](../genes/LZTR1.md) in 17% (13/78) of familial [NSCLC](../cancer_types/NSCLC.md) cases [PMID:27346245](../papers/27346245.md)
+- Recurrent germline pathogenic/likely-pathogenic variant identified in an Indian familial non-small-cell lung cancer cohort enriched for young lung cancer; also observed alongside [ATM](../genes/ATM.md), [CHEK2](../genes/CHEK2.md), [BAP1](../genes/BAP1.md), [FANCA](../genes/FANCA.md), [FANCI](../genes/FANCI.md), [FANCM](../genes/FANCM.md), and [LZTR1](../genes/LZTR1.md) in 17% (13/78) of familial [NSCLC](../cancer_types/NSCLC.md) cases [PMID:40958859](../papers/40958859.md)
 - Classical RAD51 paralog cited as biological context for RAD51B loss-of-function analysis in a cohort of 3,422 breast/ovarian cancer patients. [PMID:34635660](../papers/34635660.md)
 
 ## Cancer types (linked)
 
-- [NSCLC](../cancer_types/NSCLC.md) — germline P/LP variant observed in Indian familial NSCLC cohort enriched for young patients (<40 years) [PMID:27346245](../papers/27346245.md)
+- [NSCLC](../cancer_types/NSCLC.md) — germline P/LP variant observed in Indian familial NSCLC cohort enriched for young patients (<40 years) [PMID:40958859](../papers/40958859.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with other DNA-repair and Fanconi anemia pathway germline variants (ATM, CHEK2, BAP1, FANCA, FANCI, FANCM, LZTR1) in familial NSCLC cases [PMID:27346245](../papers/27346245.md)
+- Co-occurs with other DNA-repair and Fanconi anemia pathway germline variants (ATM, CHEK2, BAP1, FANCA, FANCI, FANCM, LZTR1) in familial NSCLC cases [PMID:40958859](../papers/40958859.md)
 
 ## Therapeutic relevance
 
@@ -36,7 +36,7 @@ XRCC3 (X-Ray Repair Cross Complementing 3) encodes a member of the RecA/Rad51 fa
 
 ## Sources
 
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 - [PMID:34635660](../papers/34635660.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

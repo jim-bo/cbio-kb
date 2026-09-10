@@ -18,8 +18,8 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 ## Evidence in the corpus
 
 - 1 metastatic gallbladder carcinoma patient received atezolizumab among 12 ICI-treated patients in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233); overall 42% (5/12) ICI-treated patients showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor [PMID:36228155](../papers/36228155.md)
-- Patients with ICI-high/TKI-low scores had significant PFS benefit from atezolizumab+[bevacizumab](../drugs/bevacizumab.md) vs. [sunitinib](../drugs/sunitinib.md) in IMmotion151 (p=0.0003); the HiTME model classified 56% of ccRCC patients as ICI/ICI-combo-preferred [PMID:22138691](../papers/22138691.md)
-- Reviewed as part of the [HCC](../cancer_types/HCC.md) therapeutic landscape; atezolizumab + [bevacizumab](../drugs/bevacizumab.md) achieved ORR 65% in 23 patients and received FDA breakthrough designation for [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
+- Patients with ICI-high/TKI-low scores had significant PFS benefit from atezolizumab+[bevacizumab](../drugs/bevacizumab.md) vs. [sunitinib](../drugs/sunitinib.md) in IMmotion151 (p=0.0003); the HiTME model classified 56% of ccRCC patients as ICI/ICI-combo-preferred [PMID:40834854](../papers/40834854.md)
+- Reviewed as part of the [HCC](../cancer_types/HCC.md) therapeutic landscape; atezolizumab + [bevacizumab](../drugs/bevacizumab.md) achieved ORR 65% in 23 patients and received FDA breakthrough designation for [HCC](../cancer_types/HCC.md) [PMID:30061739](../papers/30061739.md)
 - Cited as supporting context for checkpoint immunotherapy trials in nonmuscle invasive bladder cancer (NMIBC): high-grade NMIBC has mutational burden comparable to MIBC, and DDR-altered tumors carry markedly elevated burden (median 26 vs 8 mut/Mb, p<0.001); the established mutational-load → atezolizumab response link in metastatic urothelial carcinoma motivates ongoing PD-L1 inhibitor trials in NMIBC. [PMID:28583311](../papers/28583311.md)
 - Luminal-infiltrated MIBC (19% of TCGA cohort; high CD274/PD-L1, [CTLA4](../genes/CTLA4.md), EMT markers; corresponds to TCGA Cluster-II) was previously reported to respond to anti-PD-L1 atezolizumab (Rosenberg et al. 2016) and may be resistant to cisplatin-based chemotherapy; this subtype is proposed as a positive biomarker for checkpoint blockade [PMID:28988769](../papers/28988769.md)
 - Included among the anti-PD-(L)1 regimens in the validation cohort (n=63 ccRCC) studied for [PBRM1](../genes/PBRM1.md) LOF as a predictive biomarker; patients with biallelic [PBRM1](../genes/PBRM1.md) loss had prolonged [OS](../cancer_types/OS.md) and PFS on anti-PD-(L)1 therapy [PMID:29301960](../papers/29301960.md)
@@ -29,7 +29,7 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - The luminal-papillary, T-cell-depleted profile of [UTUC](../cancer_types/UTUC.md) is consistent with the lower response rates of luminal-papillary urothelial carcinoma to atezolizumab observed in IMvigor210 (cluster I had the lowest response), providing a mechanistic explanation for blunted ICI efficacy in FGFR3-high [UTUC](../cancer_types/UTUC.md). [PMID:31278255](../papers/31278255.md)
 - Atezolizumab (PD-L1 inhibitor) was listed as a reference immunotherapy option evaluated in the FUTURE umbrella trial context for refractory metastatic TNBC; the trial used [camrelizumab](../drugs/camrelizumab.md) (anti-PD-1) rather than atezolizumab in arm C [PMID:32719455](../papers/32719455.md).
 - Atezolizumab (with cisplatin/carboplatin + [etoposide](../drugs/etoposide.md)) is noted as a current first-line standard for extensive-stage [SCLC](../cancer_types/SCLC.md) in the [SCLC](../cancer_types/SCLC.md) PDX/CDX resource paper; the MSK773 SCLC-P patient received carboplatin/etoposide and [ipilimumab](../drugs/ipilimumab.md) + [nivolumab](../drugs/nivolumab.md) without response [PMID:35440124](../papers/35440124.md)
-- Atezolizumab plus [bevacizumab](../drugs/bevacizumab.md) achieves a real-world ORR of 26–28% in advanced [HCC](../cancer_types/HCC.md); second-line ORR after progression on this combination is ~7%; lipid-metabolism reprogramming — including [ACLY](../genes/ACLY.md)-driven suppression of cGAS–STING and PD-L1 — is a proposed resistance mechanism [PMID:38355797](../papers/38355797.md).
+- Atezolizumab plus [bevacizumab](../drugs/bevacizumab.md) achieves a real-world ORR of 26–28% in advanced [HCC](../cancer_types/HCC.md); second-line ORR after progression on this combination is ~7%; lipid-metabolism reprogramming — including [ACLY](../genes/ACLY.md)-driven suppression of cGAS–STING and PD-L1 — is a proposed resistance mechanism [PMID:41118283](../papers/41118283.md).
 - 3/5 aSCLC patients (RB1+/TP53+, never/light smokers) receiving immune checkpoint inhibitors including atezolizumab remained on therapy 2 to >5 years; aSCLC lacks dual RB1/TP53 inactivation and is characterized by chromothripsis-driven [CCND1](../genes/CCND1.md)/[CDK4](../genes/CDK4.md) amplification [PMID:39185963](../papers/39185963.md).
 
 ## Resistance mechanisms
@@ -45,10 +45,10 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - [PMID:28583311](../papers/28583311.md) — Pietzak et al. 2017, *Cancer*. MSK NMIBC MSK-IMPACT study; atezolizumab response association in metastatic urothelial carcinoma cited to motivate PD-L1 trials in DDR-high NMIBC.
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:22138691](../papers/22138691.md)
+- [PMID:40834854](../papers/40834854.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
@@ -75,7 +75,7 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)

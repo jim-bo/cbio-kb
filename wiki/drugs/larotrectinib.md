@@ -26,7 +26,7 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 - In a PDTO functional screen of 92 sarcoma specimens, SARC0127 (suspected infantile fibrosarcoma) PDTOs were resistant to larotrectinib. Because infantile fibrosarcoma ([IFS](../cancer_types/IFS.md)) carries an [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion in approximately 90% of cases, the negative PDTO response correctly predicted eventual reclassification of the tumor as high-grade spindle cell/sclerosing rhabdomyosarcoma ([SCSRMS](../cancer_types/SCSRMS.md)). PDTO prediction was delivered within one week versus 18 days for formal pathology [PMID:39305899](../papers/39305899.md).
 - [ETV6](../genes/ETV6.md) FISH was negative in SARC0127, corroborating the PDTO larotrectinib resistance signal and supporting the reclassification; this exemplifies functional precision medicine complementing molecular diagnostics when histology is ambiguous [PMID:39305899](../papers/39305899.md).
 - FDA-recognized level 1 biomarker: [NTRK1](../genes/NTRK1.md) fusions (e.g., [LMNA](../genes/LMNA.md)::[NTRK1](../genes/NTRK1.md)) predict response to larotrectinib across solid tumor types including gallbladder carcinoma; 1 patient in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233) harbored an actionable [NTRK1](../genes/NTRK1.md) fusion [PMID:36228155](../papers/36228155.md)
-- NTRK fusion-positive CCA: 75% ORR in 55 NTRK-fusion patients including 2 CCA; treatment-naïve TRK-fusion update ORR 77%, mPFS 59 mo across tumor types [PMID:25526346](../papers/25526346.md)
+- NTRK fusion-positive CCA: 75% ORR in 55 NTRK-fusion patients including 2 CCA; treatment-naïve TRK-fusion update ORR 77%, mPFS 59 mo across tumor types [PMID:41008893](../papers/41008893.md)
 - In MSK-IMPACT cohort of 26,312 cases (0.28% TRK fusion prevalence), a melanoma case with concurrent GON4L-NTRK1 fusion and [NRAS](../genes/NRAS.md) Q61R had progressive disease on larotrectinib; the derived cell line was insensitive to larotrectinib and LOXO-195 but responsive to [trametinib](../drugs/trametinib.md), with absent pan-TRK protein expression — illustrating that concurrent canonical MAPK drivers can abrogate TRK oncogenic dependence [PMID:31871300](../papers/31871300.md).
 - Produced a durable complete response in a [BRAF](../genes/BRAF.md) V600 wild-type melanoma patient with an [NTRK1](../genes/NTRK1.md) fusion after progression through checkpoint blockade [PMID:33509808](../papers/33509808.md)
 - Larotrectinib (pan-TRK inhibitor) was available as a matching therapy in MAPPYACTS for NTRK1/2/3 fusions (n=9, ready-for-routine-use) in pediatric recurrent malignancies; resistance mutations in NTRK1/2/3 were observed in 3 patients after prior TRK inhibitor exposure [PMID:35292802](../papers/35292802.md)
@@ -49,7 +49,7 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)

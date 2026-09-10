@@ -17,7 +17,7 @@ Polyacrylamide (PA) hydrogels with tunable elastic moduli (stiffness) are used t
 
 ## Used by
 
-- Polyacrylamide hydrogels (0.4–25.6 kPa range) used to culture primary human gallbladder fibroblasts (GFs) from patients with gallbladder stones; 16 kPa gels (stiff, modeling GBC desmoplastic stroma) caused GFs to adopt spread myofibroblast morphology with high α-SMA, while 0.5 kPa gels (soft) maintained quiescent morphology; stiffness-dependent SEMA7A upregulation was quantified across the stiffness range [PMID:24997986](../papers/24997986.md)
+- Polyacrylamide hydrogels (0.4–25.6 kPa range) used to culture primary human gallbladder fibroblasts (GFs) from patients with gallbladder stones; 16 kPa gels (stiff, modeling GBC desmoplastic stroma) caused GFs to adopt spread myofibroblast morphology with high α-SMA, while 0.5 kPa gels (soft) maintained quiescent morphology; stiffness-dependent SEMA7A upregulation was quantified across the stiffness range [PMID:40830485](../papers/40830485.md)
 
 ## Notes
 

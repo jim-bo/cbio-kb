@@ -17,7 +17,7 @@ SFyNCS (Splice-site-spanning Fusions in Non-Canonical Splicing) is an RNA-seq-ba
 
 ## Used by
 
-- Used in the Sherlock-Lung NS-LUAD study (n=684 never-smoker lung adenocarcinomas) alongside [STAR-Fusion](../methods/star-fusion.md); the combined pipeline detected 11,947 fusions across 638/684 tumors, of which 54.3% were supported by matched WGS structural variants; the most frequent in-frame fusions were EML4-ALK (33 tumors) and KIF5B-RET (8 tumors); a novel recurrent PARG-BMS1 fusion was identified in 5 tumors [PMID:32015526](../papers/32015526.md).
+- Used in the Sherlock-Lung NS-LUAD study (n=684 never-smoker lung adenocarcinomas) alongside [STAR-Fusion](../methods/star-fusion.md); the combined pipeline detected 11,947 fusions across 638/684 tumors, of which 54.3% were supported by matched WGS structural variants; the most frequent in-frame fusions were EML4-ALK (33 tumors) and KIF5B-RET (8 tumors); a novel recurrent PARG-BMS1 fusion was identified in 5 tumors [PMID:40970133](../papers/40970133.md).
 
 ## Notes
 
@@ -27,6 +27,6 @@ SFyNCS (Splice-site-spanning Fusions in Non-Canonical Splicing) is an RNA-seq-ba
 
 ## Sources
 
-- [PMID:32015526](../papers/32015526.md) — Sherlock-Lung NS-LUAD fusion detection
+- [PMID:40970133](../papers/40970133.md) — Sherlock-Lung NS-LUAD fusion detection
 
 *This page was processed by **crosslinker** on **2026-05-16**.*

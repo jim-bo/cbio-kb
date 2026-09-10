@@ -17,7 +17,7 @@ Serplulimab is an investigational anti-PD-1 monoclonal antibody targeting [PDCD1
 
 ## Evidence in the corpus
 
-- Serplulimab listed among anti-PD-1/PD-L1 immune checkpoint inhibitors under investigation for recurrent/metastatic NPC; PD-1/PD-L1 monotherapy ORR approximately 15–20% in NPC [PMID:24952746](../papers/24952746.md).
+- Serplulimab listed among anti-PD-1/PD-L1 immune checkpoint inhibitors under investigation for recurrent/metastatic NPC; PD-1/PD-L1 monotherapy ORR approximately 15–20% in NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

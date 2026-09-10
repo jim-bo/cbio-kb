@@ -18,15 +18,15 @@ DLST (dihydrolipoamide S-succinyltransferase) encodes a component of the alpha-k
 
 ## Alterations observed in the corpus
 
-- DLST is among the top alternatively spliced transcripts shared across all SF3B1 hotspot mutations (K700E, R625C, R625H) in HR+ HER2- breast cancer; alternative 3' splice site usage correlates with mutant VAF in a dose-dependent manner [PMID:22158541](../papers/22158541.md)
+- DLST is among the top alternatively spliced transcripts shared across all SF3B1 hotspot mutations (K700E, R625C, R625H) in HR+ HER2- breast cancer; alternative 3' splice site usage correlates with mutant VAF in a dose-dependent manner [PMID:41055979](../papers/41055979.md)
 
 ## Cancer types (linked)
 
-- **[BRCA](../cancer_types/BRCA.md)** (HR+ HER2-): Altered splicing of DLST is a convergent downstream consequence of SF3B1 driver mutations in breast cancer, identified by WES and RNA-seq across isogenic knock-in cell line models [PMID:22158541](../papers/22158541.md)
+- **[BRCA](../cancer_types/BRCA.md)** (HR+ HER2-): Altered splicing of DLST is a convergent downstream consequence of SF3B1 driver mutations in breast cancer, identified by WES and RNA-seq across isogenic knock-in cell line models [PMID:41055979](../papers/41055979.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- DLST splicing dysregulation co-occurs with SF3B1 mutations and is shared with [GCC2](../genes/GCC2.md), [TMEM14C](../genes/TMEM14C.md), and [ENOSF1](../genes/ENOSF1.md) as part of a convergent alternatively spliced transcript signature across SF3B1 hotspots [PMID:22158541](../papers/22158541.md)
+- DLST splicing dysregulation co-occurs with SF3B1 mutations and is shared with [GCC2](../genes/GCC2.md), [TMEM14C](../genes/TMEM14C.md), and [ENOSF1](../genes/ENOSF1.md) as part of a convergent alternatively spliced transcript signature across SF3B1 hotspots [PMID:41055979](../papers/41055979.md)
 
 ## Therapeutic relevance
 
@@ -34,10 +34,10 @@ DLST (dihydrolipoamide S-succinyltransferase) encodes a component of the alpha-k
 
 ## Open questions
 
-- Whether DLST splicing dysregulation contributes functionally to the growth defect or metabolic phenotype of SF3B1-mutant cells is unresolved [PMID:22158541](../papers/22158541.md)
+- Whether DLST splicing dysregulation contributes functionally to the growth defect or metabolic phenotype of SF3B1-mutant cells is unresolved [PMID:41055979](../papers/41055979.md)
 
 ## Sources
 
-- [PMID:22158541](../papers/22158541.md)
+- [PMID:41055979](../papers/41055979.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*

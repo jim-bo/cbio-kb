@@ -15,20 +15,20 @@ ERC1 (ELKS/RAB6-interacting/CAST family member 1) encodes a scaffold protein inv
 
 ## Alterations observed in the corpus
 
-- ERC1-RET fusion observed in an Indian familial young lung cancer (YLC) cohort (Malik et al.); RET rearrangements are enriched in YLC at 9.5% vs 1% in patients >45 years per cBioPortal analysis (Hou et al. 2020) [PMID:27346245](../papers/27346245.md)
+- ERC1-RET fusion observed in an Indian familial young lung cancer (YLC) cohort (Malik et al.); RET rearrangements are enriched in YLC at 9.5% vs 1% in patients >45 years per cBioPortal analysis (Hou et al. 2020) [PMID:40958859](../papers/40958859.md)
 - **ERC1-WNK1** fusion independently reported in a Chinese ESCC cohort; ERC1 is among 23 WNK-family fusions detected in the TCGA pan-cancer fusion analysis, mostly showing elevated WNK mRNA without copy-number amplification [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
-- Reported in young-onset non-small cell lung cancer ([LUAD](../cancer_types/LUAD.md), [LUSC](../cancer_types/LUSC.md)) as a RET fusion partner [PMID:27346245](../papers/27346245.md)
+- Reported in young-onset non-small cell lung cancer ([LUAD](../cancer_types/LUAD.md), [LUSC](../cancer_types/LUSC.md)) as a RET fusion partner [PMID:40958859](../papers/40958859.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- ERC1-RET fusions co-occur in the broader context of RET rearrangements enriched in young lung cancer patients [PMID:27346245](../papers/27346245.md)
+- ERC1-RET fusions co-occur in the broader context of RET rearrangements enriched in young lung cancer patients [PMID:40958859](../papers/40958859.md)
 
 ## Therapeutic relevance
 
-- RET rearrangements (including ERC1-RET) are targetable; relevant RET inhibitors include [selpercatinib](../drugs/selpercatinib.md) and pralsetinib [PMID:27346245](../papers/27346245.md)
+- RET rearrangements (including ERC1-RET) are targetable; relevant RET inhibitors include [selpercatinib](../drugs/selpercatinib.md) and pralsetinib [PMID:40958859](../papers/40958859.md)
 
 ## Open questions
 
@@ -36,7 +36,7 @@ ERC1 (ELKS/RAB6-interacting/CAST family member 1) encodes a scaffold protein inv
 
 ## Sources
 
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29617662](../papers/29617662.md)

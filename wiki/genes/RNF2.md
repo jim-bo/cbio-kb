@@ -15,15 +15,15 @@ RNF2 (also known as RING1B) encodes a RING-domain E3 ubiquitin ligase that is th
 
 ## Alterations observed in the corpus
 
-- Identified as a cell-of-origin trait of heMSCs (human embryonic mesenchymal stem cells) and retained in experimental EWS::FLI1-induced Ewing sarcoma tumors per spatial transcriptomics; previously linked to Ewing sarcoma biology by the same group [PMID:25186949](../papers/25186949.md)
+- Identified as a cell-of-origin trait of heMSCs (human embryonic mesenchymal stem cells) and retained in experimental EWS::FLI1-induced Ewing sarcoma tumors per spatial transcriptomics; previously linked to Ewing sarcoma biology by the same group [PMID:41136396](../papers/41136396.md)
 
 ## Cancer types (linked)
 
-- Ewing sarcoma: RNF2/RING1B expression marks the stem-cell phenotype associated with the proposed Ewing cell of origin [PMID:25186949](../papers/25186949.md)
+- Ewing sarcoma: RNF2/RING1B expression marks the stem-cell phenotype associated with the proposed Ewing cell of origin [PMID:41136396](../papers/41136396.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with UCP2 and other heMSC stem-cell markers in experimental Ewing tumors [PMID:25186949](../papers/25186949.md)
+- Co-expressed with UCP2 and other heMSC stem-cell markers in experimental Ewing tumors [PMID:41136396](../papers/41136396.md)
 
 ## Therapeutic relevance
 
@@ -35,6 +35,6 @@ RNF2 (also known as RING1B) encodes a RING-domain E3 ubiquitin ligase that is th
 
 ## Sources
 
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

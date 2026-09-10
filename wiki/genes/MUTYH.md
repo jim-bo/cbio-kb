@@ -16,7 +16,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 ## Alterations observed in the corpus
 
 - Assessed in metastatic urothelial carcinoma (UC-GENOME cohort) in the context of tumor mutational burden and DNA repair pathway analysis [PMID:36333289](../papers/36333289.md)
-- Biallelic germline MUTYH mutations define MUTYH-associated polyposis (MAP) with elevated gastric cancer risk; must be ruled out before familial non-hereditary gastric cancer (FNHGC) labeling; included in standard multigene GC panel [PMID:24816255](../papers/24816255.md)
+- Biallelic germline MUTYH mutations define MUTYH-associated polyposis (MAP) with elevated gastric cancer risk; must be ruled out before familial non-hereditary gastric cancer (FNHGC) labeling; included in standard multigene GC panel [PMID:41097736](../papers/41097736.md)
 - Most common DNA-repair PPGM gene in MET500 metastatic cancer cohort (n=10, 16% of all PPGMs across 500 patients); reclassified as a tumor suppressor in this study based on its aberration profile [PMID:28783718](../papers/28783718.md)
 - Monoallelic germline MUTYH pathogenic variants found in 4/88 (5%) of metastatic panNET patients tested; classified as low-penetrance germline carriers, supporting universal germline testing in panNET [PMID:30687805](../papers/30687805.md)
 - Germline pathogenic/likely-pathogenic MUTYH allele identified among DNA-repair germline findings in glioma patients (13% overall germline P/LP rate). [PMID:31263031](../papers/31263031.md)
@@ -38,7 +38,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 
 ## Sources
 
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 - [PMID:28783718](../papers/28783718.md)
 - [PMID:30687805](../papers/30687805.md)
 - [PMID:31263031](../papers/31263031.md)

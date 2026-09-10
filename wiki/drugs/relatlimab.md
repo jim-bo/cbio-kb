@@ -17,7 +17,7 @@ Relatlimab is an anti-LAG-3 monoclonal antibody targeting [LAG3](../genes/LAG3.m
 
 ## Evidence in the corpus
 
-- Relatlimab + [nivolumab](../drugs/nivolumab.md) evaluated in the randomized REMAIN trial for LAG-3 co-blockade in NPC; LAG3 is an inhibitory receptor on exhausted T cells that is compensatorily upregulated following PD-1/PD-L1 monotherapy [PMID:24952746](../papers/24952746.md).
+- Relatlimab + [nivolumab](../drugs/nivolumab.md) evaluated in the randomized REMAIN trial for LAG-3 co-blockade in NPC; LAG3 is an inhibitory receptor on exhausted T cells that is compensatorily upregulated following PD-1/PD-L1 monotherapy [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

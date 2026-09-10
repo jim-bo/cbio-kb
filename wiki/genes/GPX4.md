@@ -19,20 +19,20 @@ GPX4 (Glutathione Peroxidase 4) is the primary intracellular enzyme responsible 
 
 ## Alterations observed in the corpus
 
-- GPX4 is upregulated by 27-hydroxycholesterol in HCC, conferring resistance to sorafenib-induced lipid peroxidation and ferroptosis; part of the cholesterol biosynthesis–ferroptosis resistance axis. [PMID:38355797](../papers/38355797.md)
+- GPX4 is upregulated by 27-hydroxycholesterol in HCC, conferring resistance to sorafenib-induced lipid peroxidation and ferroptosis; part of the cholesterol biosynthesis–ferroptosis resistance axis. [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md): GPX4 upregulation (driven by 27-hydroxycholesterol and supported by [FASN](../genes/FASN.md)→HIF1α→[SLC7A11](../genes/SLC7A11.md) axis) protects HCC cells from sorafenib-induced ferroptosis; a key contributor to TKI resistance in HCC. [PMID:38355797](../papers/38355797.md)
+- [HCC](../cancer_types/HCC.md): GPX4 upregulation (driven by 27-hydroxycholesterol and supported by [FASN](../genes/FASN.md)→HIF1α→[SLC7A11](../genes/SLC7A11.md) axis) protects HCC cells from sorafenib-induced ferroptosis; a key contributor to TKI resistance in HCC. [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- GPX4 functions downstream of the cholesterol biosynthesis axis ([HMGCR](../genes/HMGCR.md), [SQLE](../genes/SQLE.md) → 27-hydroxycholesterol → GPX4) and the FASN/HIF1α/SLC7A11 pathway; both converge to block ferroptosis in TKI-resistant HCC cells. [PMID:38355797](../papers/38355797.md)
-- GPX4 works in concert with SLC7A11 (cystine/glutamate antiporter providing cysteine for glutathione synthesis) to suppress ferroptosis. [PMID:38355797](../papers/38355797.md)
+- GPX4 functions downstream of the cholesterol biosynthesis axis ([HMGCR](../genes/HMGCR.md), [SQLE](../genes/SQLE.md) → 27-hydroxycholesterol → GPX4) and the FASN/HIF1α/SLC7A11 pathway; both converge to block ferroptosis in TKI-resistant HCC cells. [PMID:41118283](../papers/41118283.md)
+- GPX4 works in concert with SLC7A11 (cystine/glutamate antiporter providing cysteine for glutathione synthesis) to suppress ferroptosis. [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- GPX4 inhibition is a recognized ferroptosis-induction strategy; in HCC, the cholesterol-driven GPX4 upregulation mechanism suggests that HMGCR inhibitors (statins) or SQLE inhibitors may sensitize sorafenib-resistant HCC to ferroptosis. [PMID:38355797](../papers/38355797.md)
+- GPX4 inhibition is a recognized ferroptosis-induction strategy; in HCC, the cholesterol-driven GPX4 upregulation mechanism suggests that HMGCR inhibitors (statins) or SQLE inhibitors may sensitize sorafenib-resistant HCC to ferroptosis. [PMID:41118283](../papers/41118283.md)
 - GPX4 inhibitors (RSL3, ML210) are preclinical ferroptosis inducers with potential application in sorafenib-resistant HCC; not yet in clinical trials for HCC.
 
 ## Open questions
@@ -42,6 +42,6 @@ GPX4 (Glutathione Peroxidase 4) is the primary intracellular enzyme responsible 
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

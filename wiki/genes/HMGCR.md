@@ -19,20 +19,20 @@ HMGCR (3-Hydroxy-3-Methylglutaryl-CoA Reductase) is the rate-limiting enzyme of 
 
 ## Alterations observed in the corpus
 
-- HMGCR (cholesterol biosynthesis rate-limiting enzyme) is upregulated in HCC alongside [SQLE](../genes/SQLE.md) and [MVK](../genes/MVK.md); statin inhibition of HMGCR is epidemiologically linked to reduced cancer-related mortality, with lipophilic statins ([simvastatin](../drugs/simvastatin.md), [lovastatin](../drugs/lovastatin.md), [atorvastatin](../drugs/atorvastatin.md)) showing stronger preclinical and epidemiologic signals than hydrophilic statins; however, [pravastatin](../drugs/pravastatin.md)+sorafenib phase 2/3 trials in advanced HCC failed to improve survival — attributed to use of hydrophilic statins in trials vs. lipophilic statins preclinically. [PMID:38355797](../papers/38355797.md)
+- HMGCR (cholesterol biosynthesis rate-limiting enzyme) is upregulated in HCC alongside [SQLE](../genes/SQLE.md) and [MVK](../genes/MVK.md); statin inhibition of HMGCR is epidemiologically linked to reduced cancer-related mortality, with lipophilic statins ([simvastatin](../drugs/simvastatin.md), [lovastatin](../drugs/lovastatin.md), [atorvastatin](../drugs/atorvastatin.md)) showing stronger preclinical and epidemiologic signals than hydrophilic statins; however, [pravastatin](../drugs/pravastatin.md)+sorafenib phase 2/3 trials in advanced HCC failed to improve survival — attributed to use of hydrophilic statins in trials vs. lipophilic statins preclinically. [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md): HMGCR upregulation drives cholesterol accumulation that enables lipid-raft remodeling (activating ABCB1 drug-efflux pump) and generates cholesterol metabolites 25-OHC (activating Sonic Hedgehog → lenvatinib resistance) and 27-OHC (upregulating GPX4 → sorafenib resistance); statin inhibition of HMGCR is a candidate therapeutic strategy but hydrophilic-statin trials have been negative. [PMID:38355797](../papers/38355797.md)
+- [HCC](../cancer_types/HCC.md): HMGCR upregulation drives cholesterol accumulation that enables lipid-raft remodeling (activating ABCB1 drug-efflux pump) and generates cholesterol metabolites 25-OHC (activating Sonic Hedgehog → lenvatinib resistance) and 27-OHC (upregulating GPX4 → sorafenib resistance); statin inhibition of HMGCR is a candidate therapeutic strategy but hydrophilic-statin trials have been negative. [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- HMGCR acts in concert with SQLE and MVK as part of the cholesterol biosynthesis axis in HCC; downstream effects include ABCB1 upregulation (TKI efflux) and GPX4 upregulation (ferroptosis resistance). [PMID:38355797](../papers/38355797.md)
+- HMGCR acts in concert with SQLE and MVK as part of the cholesterol biosynthesis axis in HCC; downstream effects include ABCB1 upregulation (TKI efflux) and GPX4 upregulation (ferroptosis resistance). [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- Statins (lipophilic: simvastatin, lovastatin, atorvastatin): epidemiologic association with reduced HCC-related mortality; lipophilic statins show stronger signal than hydrophilic in population data and preclinical models. [PMID:38355797](../papers/38355797.md)
-- Pravastatin + sorafenib (phase 2/3): failed to improve survival in advanced HCC; attributed in part to use of a hydrophilic statin. [PMID:38355797](../papers/38355797.md)
+- Statins (lipophilic: simvastatin, lovastatin, atorvastatin): epidemiologic association with reduced HCC-related mortality; lipophilic statins show stronger signal than hydrophilic in population data and preclinical models. [PMID:41118283](../papers/41118283.md)
+- Pravastatin + sorafenib (phase 2/3): failed to improve survival in advanced HCC; attributed in part to use of a hydrophilic statin. [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
@@ -41,6 +41,6 @@ HMGCR (3-Hydroxy-3-Methylglutaryl-CoA Reductase) is the rate-limiting enzyme of 
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

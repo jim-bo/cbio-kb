@@ -17,7 +17,7 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 
 - Point mutations plus chromosome 22q loss causing biallelic inactivation; near-universal in MG1 meningioma molecular group (88%); rare in MG2 (9%); some NF2-wildtype MG3/MG4 showed expression silencing without methylation changes in an integrative molecular study of 983 meningiomas [PMID:34433969](../papers/34433969.md).
 - Altered in 90% of genomic near-haploidization (GNH) diffuse pleural mesotheliomas (DPMs), but this association is confounded by biphasic histology enrichment in the GNH subset [PMID:38630790](../papers/38630790.md).
-- Recurrently mutated in clear cell renal cell carcinoma (ccRCC) identified by TCGA [KIRC](../cancer_types/KIRC.md) molecular subtyping study [PMID:22138691](../papers/22138691.md)
+- Recurrently mutated in clear cell renal cell carcinoma (ccRCC) identified by TCGA [KIRC](../cancer_types/KIRC.md) molecular subtyping study [PMID:40834854](../papers/40834854.md)
 - Newly nominated significantly mutated gene in papillary renal cell carcinoma (pRCC) [PMID:25401301](../papers/25401301.md)
 - NF2 within the 22q loss region characteristic of the SCNA-22q-del follicular-variant PTC subtype; also among tumor suppressors mutated in 15/402 (3.7%) PTC tumors [PMID:25417114](../papers/25417114.md)
 - NF2 inactivating events observed in metastatic cSCC (n=29) as a chromatin/tumor suppressor hit. [PMID:25589618](../papers/25589618.md)
@@ -49,7 +49,7 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - Whether NF2 alteration in GNH DPMs is a driver or a consequence of genome-wide LOH requires functional studies.
 
 ## Sources
-- [PMID:22138691](../papers/22138691.md)
+- [PMID:40834854](../papers/40834854.md)
 - [PMID:25401301](../papers/25401301.md)
 - [PMID:25417114](../papers/25417114.md)
 - [PMID:25589618](../papers/25589618.md)

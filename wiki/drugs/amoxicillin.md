@@ -20,7 +20,7 @@ Amoxicillin is a broad-spectrum aminopenicillin antibiotic. It is cited among an
 
 ## Evidence in the corpus
 
-- Cited among antibiotic-based microbiota-modulation strategies for cholangiocarcinoma adjuvant therapy targeting gut-liver axis dysbiosis; authors note that prolonged broad-spectrum antibiotic use correlates with reduced survival in [HCC](../cancer_types/HCC.md) patients on anti-PD-1 therapy, requiring careful clinical sequencing with probiotics/FMT [PMID:25608663](../papers/25608663.md)
+- Cited among antibiotic-based microbiota-modulation strategies for cholangiocarcinoma adjuvant therapy targeting gut-liver axis dysbiosis; authors note that prolonged broad-spectrum antibiotic use correlates with reduced survival in [HCC](../cancer_types/HCC.md) patients on anti-PD-1 therapy, requiring careful clinical sequencing with probiotics/FMT [PMID:41018102](../papers/41018102.md)
 
 ## Resistance mechanisms
 
@@ -30,6 +30,6 @@ Amoxicillin is a broad-spectrum aminopenicillin antibiotic. It is cited among an
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

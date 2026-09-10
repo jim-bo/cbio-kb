@@ -16,7 +16,7 @@ TFAP4 (Transcription Factor AP-4) is a basic helix-loop-helix leucine zipper tra
 ## Alterations observed in the corpus
 
 - Exclusive somatic mutations in the MYB-NFIB fusion-positive ACC subtype (t(6;9) tumors); functional significance requires validation in larger cohorts [PMID:26631609](../papers/26631609.md)
-- A-allele-preferring binder at rs4519489 identified by proteomics and EEL motif analysis; not enriched by ChIP-qPCR at the locus in prostate cancer eQTL study [PMID:28927585](../papers/28927585.md)
+- A-allele-preferring binder at rs4519489 identified by proteomics and EEL motif analysis; not enriched by ChIP-qPCR at the locus in prostate cancer eQTL study [PMID:41062477](../papers/41062477.md)
 
 ## Cancer types (linked)
 
@@ -37,6 +37,6 @@ TFAP4 (Transcription Factor AP-4) is a basic helix-loop-helix leucine zipper tra
 - [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

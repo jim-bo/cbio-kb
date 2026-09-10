@@ -18,7 +18,7 @@ Aspirin (acetylsalicylic acid) irreversibly inhibits cyclooxygenase enzymes (COX
 ## Evidence in the corpus
 
 - PIK3CA mutations may predict benefit from aspirin therapy in colorectal cancer (COADREAD); the claim is cited in the context of PI3K-pathway heterogeneity between primary and metastatic lesions, noting that targeted sequencing panels should capture PIK3CA status to guide chemopreventive strategies (Domingo et al. JCO 2013 referenced) [PMID:25164765](../papers/25164765.md)
-- NSAIDs aspirin and celecoxib (COX-2/[PTGS2](../genes/PTGS2.md) inhibitors) sensitize [HCC](../cancer_types/HCC.md) cells to [sorafenib](../drugs/sorafenib.md) and IFN-α in preclinical models via reduction of PGE2-mediated immunosuppression [PMID:38355797](../papers/38355797.md).
+- NSAIDs aspirin and celecoxib (COX-2/[PTGS2](../genes/PTGS2.md) inhibitors) sensitize [HCC](../cancer_types/HCC.md) cells to [sorafenib](../drugs/sorafenib.md) and IFN-α in preclinical models via reduction of PGE2-mediated immunosuppression [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
@@ -33,6 +33,6 @@ _None yet recorded._
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

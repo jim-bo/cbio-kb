@@ -26,7 +26,7 @@ Allosteric MEK1/2 inhibitor.
 - [MAP2K2](../genes/MAP2K2.md) mutations (C125S, N126D, V35M, L46F) identified in [BRAF](../genes/BRAF.md) V600 melanoma patients on RAF inhibitors conferred 3–20-fold trametinib resistance in A375 cells; [MITF](../genes/MITF.md) overexpression also produced pan-RAF/MEK/ERK cross-resistance [PMID:24265153](../papers/24265153.md)
 - Combined [dabrafenib](../drugs/dabrafenib.md) + trametinib ([BRAF](../genes/BRAF.md) + MEK inhibition) selectively killed BRAF-mutant (K601N) MM cells in vitro without benefit in BRAF-WT, KRAS-G12A or NRAS-G12D cells, supporting the combination for clonally BRAF-mutant MM [PMID:24434212](../papers/24434212.md)
 - Authors of a 147-sample [RMS](../cancer_types/RMS.md) landscape study cite trametinib (MEK1/2 inhibitor) as a rational effector-pathway strategy for the RAS-axis-altered subset (~45% of PAX-fusion-negative [RMS](../cancer_types/RMS.md)) given its established efficacy in NRAS-mutant melanoma and preclinical [RMS](../cancer_types/RMS.md) evidence [PMID:24436047](../papers/24436047.md)
-- [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [dabrafenib](../drugs/dabrafenib.md) [PMID:25526346](../papers/25526346.md)
+- [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [dabrafenib](../drugs/dabrafenib.md) [PMID:41008893](../papers/41008893.md)
 - One of three FDA-approved BRAF-targeted therapies for the BRAF-mutant melanoma subtype (52% of 318 TCGA cases); also nominated for NF1-mutant subtype (14% of cases) to extend MEK inhibition to BRAF-wildtype patients in TCGA melanoma analysis [PMID:26091043](../papers/26091043.md)
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including [vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md), or trametinib; MAPKi treatment induces transcriptional programs overlapping the IPRES innate anti-PD-1 resistance signature, implicating prior trametinib therapy as a potential driver of cross-resistance to subsequent anti-PD-1 in [BRAF](../genes/BRAF.md)- or [NF1](../genes/NF1.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 - MEK inhibitor; proposed as therapeutic candidate for KRAS/NRAS/GNAQ-altered cisplatin-resistant [GCT](../cancer_types/GCT.md) ([KRAS](../genes/KRAS.md) in 22/180, [NRAS](../genes/NRAS.md) in 4/180, [GNAQ](../genes/GNAQ.md) Q209P in 1/180) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
@@ -67,7 +67,7 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)

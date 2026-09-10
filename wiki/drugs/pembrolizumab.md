@@ -30,14 +30,14 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In metastatic urothelial carcinoma (mUC), despite supplantation of platinum chemotherapy by [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) + pembrolizumab as the first-line standard, gemcitabine/cisplatin remains relevant as second-line therapy after EV+pembrolizumab. Pretreatment cfDNA features ([PIK3CA](../genes/PIK3CA.md), [ERBB2](../genes/ERBB2.md), [TERT](../genes/TERT.md), ctDNA VAF) are positioned as prognostic biomarkers for patients receiving pembrolizumab-containing or chemotherapy regimens. [PMID:40256659](../papers/40256659.md)
 - In a paired primary-metastasis WES/cfDNA study of bladder cancer (n=60), [ARID1A](../genes/ARID1A.md) mutations were identified as late-arising, metastasis-enriched alterations (28% metastatic vs 14% low-grade non-invasive) that may serve as biomarkers for immune checkpoint inhibitor (including pembrolizumab) sensitivity and [EZH2](../genes/EZH2.md) inhibitor sensitivity; direct pembrolizumab outcomes were not reported [PMID:36543146](../papers/36543146.md)
 - 9 of 12 metastatic gallbladder carcinoma patients receiving immune checkpoint inhibitors received pembrolizumab; 42% (5/12) showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor [PMID:36228155](../papers/36228155.md)
-- Lenvatinib+pembrolizumab combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
-- KEYNOTE-224 in [HCC](../cancer_types/HCC.md): pembrolizumab ORR 16.3% in 104 patients, median [OS](../cancer_types/OS.md) 12.9 months (second-line, post-sorafenib); FDA approved (tumour-agnostic) for MSI-H/dMMR [HCC](../cancer_types/HCC.md) (~3% of HCCs); PD-L1 IHC does not predict response in [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
-- Investigational anti-PD-1 ICI for recurrent/metastatic [NPC](../cancer_types/NPC.md); listed among PD-1/PD-L1 antibodies under evaluation alongside [toripalimab](../drugs/toripalimab.md), [penpulimab](../drugs/penpulimab.md), [sintilimab](../drugs/sintilimab.md), and [nivolumab](../drugs/nivolumab.md); monotherapy ORR approximately 15–20% in [NPC](../cancer_types/NPC.md) [PMID:24952746](../papers/24952746.md)
-- Anti-PD-1 efficacy in biliary tract cancer (BTC) is noted to be modulated by gut microbiota composition; Bacteroidetes enrichment correlates with improved outcomes while Proteobacteria dominance reduces efficacy [PMID:25608663](../papers/25608663.md)
+- Lenvatinib+pembrolizumab combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:40834854](../papers/40834854.md)
+- KEYNOTE-224 in [HCC](../cancer_types/HCC.md): pembrolizumab ORR 16.3% in 104 patients, median [OS](../cancer_types/OS.md) 12.9 months (second-line, post-sorafenib); FDA approved (tumour-agnostic) for MSI-H/dMMR [HCC](../cancer_types/HCC.md) (~3% of HCCs); PD-L1 IHC does not predict response in [HCC](../cancer_types/HCC.md) [PMID:30061739](../papers/30061739.md)
+- Investigational anti-PD-1 ICI for recurrent/metastatic [NPC](../cancer_types/NPC.md); listed among PD-1/PD-L1 antibodies under evaluation alongside [toripalimab](../drugs/toripalimab.md), [penpulimab](../drugs/penpulimab.md), [sintilimab](../drugs/sintilimab.md), and [nivolumab](../drugs/nivolumab.md); monotherapy ORR approximately 15–20% in [NPC](../cancer_types/NPC.md) [PMID:41002550](../papers/41002550.md)
+- Anti-PD-1 efficacy in biliary tract cancer (BTC) is noted to be modulated by gut microbiota composition; Bacteroidetes enrichment correlates with improved outcomes while Proteobacteria dominance reduces efficacy [PMID:41018102](../papers/41018102.md)
 - Nonsynonymous tumor mutation burden (TMB) predicted durable clinical benefit (DCB) on pembrolizumab in [NSCLC](../cancer_types/NSCLC.md) (median 302 vs 148 mutations in DCB vs NDB, Mann-Whitney P=0.02); a candidate cutoff of ≥178 nonsynonymous mutations distinguished responders with 73% DCB vs 13% in the discovery cohort [PMID:25765070](../papers/25765070.md)
 - [CD274](../genes/CD274.md) (PD-L1) focal amplifications in BRAF-mutant melanoma subtype and high PD-1/PD-L1 expression in Immune transcriptomic subclass (51% of 329 TCGA melanoma cases) contextualize pembrolizumab biomarker hypotheses; Immune-subclass survival advantage and LCK/LScore bivariate model proposed as predictive framework [PMID:26091043](../papers/26091043.md)
 - Hugo et al. (n=38 metastatic [melanoma](../cancer_types/SKCM.md)): pembrolizumab (and [nivolumab](../drugs/nivolumab.md)) anti-PD-1 therapy; overall mutational load associated with survival but not response (P=0.30); [BRCA2](../genes/BRCA2.md) LOF mutations enriched 6× in responders (28% vs 6%, Fisher P=0.002, OR=6.2); IPRES transcriptional program (mesenchymal transition, angiogenesis, ECM remodeling) defined innate non-responders (9/13 NR vs 1/15 R); IPRES overlaps MAPKi-induced signatures, implicating [vemurafenib](../drugs/vemurafenib.md)/[dabrafenib](../drugs/dabrafenib.md)/[trametinib](../drugs/trametinib.md) sequencing as potential resistance driver [PMID:26997480](../papers/26997480.md)
-- PD-1 checkpoint inhibitor; KEYNOTE-042 and KEYNOTE-024 subgroup analyses showed comparable survival benefit across age cut-off of 65 in [NSCLC](../cancer_types/NSCLC.md); largest [absolute](../methods/absolute.md) 2-year survival gain post-2011 was in patients <55 years (37.7% to 50.3%) [PMID:27346245](../papers/27346245.md)
+- PD-1 checkpoint inhibitor; KEYNOTE-042 and KEYNOTE-024 subgroup analyses showed comparable survival benefit across age cut-off of 65 in [NSCLC](../cancer_types/NSCLC.md); largest [absolute](../methods/absolute.md) 2-year survival gain post-2011 was in patients <55 years (37.7% to 50.3%) [PMID:40958859](../papers/40958859.md)
 - Used as anti-PD-1 immune checkpoint blockade in acral lentiginous melanoma (ALM); 2 of 3 complete responders were anti-PD-1-treated but had low mutational burden (<75 coding mutations), suggesting response in ALM may occur via mechanisms distinct from mutational load [PMID:28373299](../papers/28373299.md).
 - In whole-exome sequencing of 63 [clear cell endometrial carcinomas (UCCC)](../cancer_types/UCCC.md), 11.3% were MSI-high; the authors cite two MSI-H EC patients with clinical responses to pembrolizumab in a phase 2 trial of mismatch-repair-deficient tumors as motivation for immunotherapy evaluation in CCEC. [PMID:28485815](../papers/28485815.md)
 - Authors cite the SARC028 trial showing 40% response to a PD-1 inhibitor in [UPS](../cancer_types/UPS.md) and propose that [MFS](../cancer_types/MFS.md) — molecularly indistinguishable from [UPS](../cancer_types/UPS.md) — should be added to checkpoint-inhibitor trials evaluating pembrolizumab; STLMS has the highest PD-L1 expression among sarcoma types (significantly higher than [ULMS](../cancer_types/ULMS.md), p=4e-5) [PMID:29100075](../papers/29100075.md)
@@ -61,7 +61,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Near-complete response to pembrolizumab was observed in an undifferentiated pleomorphic sarcoma (UPS) patient with TMB 20 mut/Mb; 3.9% of the 7,494-sarcoma cohort harbored TMB ≥10 mut/Mb (the FDA-relevant threshold for tissue-agnostic pembrolizumab under FoundationOne CDx) [PMID:35705558](../papers/35705558.md).
 - In 18 recurrent MSI-H endometrial carcinoma patients treated with on-label pembrolizumab, 4/16 (25%) MLH1-promoter-hypermethylated (MLH1ph) patients had disease progression vs 0/2 germline/somatic patients; overall response rate was 63% and clinical-benefit rate 75% in the MLH1ph group; authors note FDA approval of pembrolizumab for all MMR-D ECs regardless of mechanism may warrant refinement given this heterogeneity [PMID:35849120](../papers/35849120.md).
 - Anti-PD-1 antibody; indicated for TMB-H (Level 1) and MSI-H (Level 1) in Chinese pan-cancer cohort (n=10,194); 64% of patients have OncoKB Level 1–4 actionable variant; 30.3% IO-biomarker positive (MSI-H or TMB-H or PD-L1+) [PMID:35871175](../papers/35871175.md)
-- Pembrolizumab is cited in the context of an active clinical trial (NCT06636734) combining lovastatin with pembrolizumab in HNSCC; the review frames statin co-administration with ICI as a promising strategy given HMGCR inhibition's preclinical anti-tumor activity in [HCC](../cancer_types/HCC.md) [PMID:38355797](../papers/38355797.md).
+- Pembrolizumab is cited in the context of an active clinical trial (NCT06636734) combining lovastatin with pembrolizumab in HNSCC; the review frames statin co-administration with ICI as a promising strategy given HMGCR inhibition's preclinical anti-tumor activity in [HCC](../cancer_types/HCC.md) [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
@@ -83,14 +83,14 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 ## Sources
 
-- [PMID:22138691](../papers/22138691.md)
-- [PMID:24798001](../papers/24798001.md)
-- [PMID:24952746](../papers/24952746.md)
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:40834854](../papers/40834854.md)
+- [PMID:30061739](../papers/30061739.md)
+- [PMID:41002550](../papers/41002550.md)
+- [PMID:41018102](../papers/41018102.md)
 - [PMID:25765070](../papers/25765070.md)
 - [PMID:26091043](../papers/26091043.md)
 - [PMID:26997480](../papers/26997480.md)
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 - [PMID:28373299](../papers/28373299.md)
 - [PMID:28485815](../papers/28485815.md)
 - [PMID:29100075](../papers/29100075.md)
@@ -131,6 +131,6 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

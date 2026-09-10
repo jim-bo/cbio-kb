@@ -23,7 +23,7 @@ Anastrozole is a non-steroidal aromatase inhibitor that blocks CYP19A1 (aromatas
 
 - Cited as contextual background in a phase Ib trial of [buparlisib](buparlisib.md) + [letrozole](letrozole.md) in ER+/HER2- metastatic breast cancer refractory to ≥1 prior endocrine therapy line (including anastrozole); findings on [PIK3CA](../genes/PIK3CA.md)+[MAP3K1](../genes/MAP3K1.md) co-alteration and luminal A PAM50 subtype as predictive biomarkers for PI3K inhibitor + aromatase inhibitor combinations are broadly applicable to anastrozole-based regimens [PMID:31552290](../papers/31552290.md).
 - Used as part of aromatase-inhibitor combinations with CDK4/6 inhibitors in HR+/HER2- metastatic breast cancer; 55/58 patients in the Wander et al. cohort received an aromatase inhibitor (anastrozole, letrozole) or fulvestrant with a CDK4/6 inhibitor [PMID:32404308](../papers/32404308.md).
-- OncoMark hallmark-survival analysis (TCGA logistic regression) associated anastrozole with the Evading Replicative Immortality (ERI) hallmark for both disease-free and overall survival, nominating ERI-high tumors as candidate responders [PMID:35121966](../papers/35121966.md)
+- OncoMark hallmark-survival analysis (TCGA logistic regression) associated anastrozole with the Evading Replicative Immortality (ERI) hallmark for both disease-free and overall survival, nominating ERI-high tumors as candidate responders [PMID:41057477](../papers/41057477.md)
 
 ## Resistance mechanisms
 
@@ -39,6 +39,6 @@ Anastrozole is a non-steroidal aromatase inhibitor that blocks CYP19A1 (aromatas
 - [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:35121966](../papers/35121966.md)
+- [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

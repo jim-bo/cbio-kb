@@ -20,15 +20,15 @@ MATR3 (Matrin 3) encodes an RNA-binding protein involved in nuclear RNA processi
 
 ## Alterations observed in the corpus
 
-- Retrocopy insertion at three genomic positions in one endometrial polyp (WGS cohort of 23 polyps); somatic vs. germline status could not be determined as no matched normal was available for this sample [PMID:28445112](../papers/28445112.md)
+- Retrocopy insertion at three genomic positions in one endometrial polyp (WGS cohort of 23 polyps); somatic vs. germline status could not be determined as no matched normal was available for this sample [PMID:41137179](../papers/41137179.md)
 
 ## Cancer types (linked)
 
-- **[UCEC](../cancer_types/UCEC.md) / Endometrial Polyps:** Retrocopy insertion events detected in a single polyp; not recurrent across the cohort; clinical significance in endometrial polyp biology is unknown [PMID:28445112](../papers/28445112.md)
+- **[UCEC](../cancer_types/UCEC.md) / Endometrial Polyps:** Retrocopy insertion events detected in a single polyp; not recurrent across the cohort; clinical significance in endometrial polyp biology is unknown [PMID:41137179](../papers/41137179.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- No co-occurrence or exclusivity data reported; the MATR3 event was an isolated finding in one of 23 polyps [PMID:28445112](../papers/28445112.md)
+- No co-occurrence or exclusivity data reported; the MATR3 event was an isolated finding in one of 23 polyps [PMID:41137179](../papers/41137179.md)
 
 ## Therapeutic relevance
 
@@ -36,10 +36,10 @@ MATR3 (Matrin 3) encodes an RNA-binding protein involved in nuclear RNA processi
 
 ## Open questions
 
-- Whether the MATR3 retrocopy insertions are somatic or germline remains unresolved due to absence of matched normal tissue; functional consequences are unknown [PMID:28445112](../papers/28445112.md)
+- Whether the MATR3 retrocopy insertions are somatic or germline remains unresolved due to absence of matched normal tissue; functional consequences are unknown [PMID:41137179](../papers/41137179.md)
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -17,7 +17,7 @@ CalMorph is a high-content image-analysis pipeline for quantifying yeast cell mo
 
 ## Used by
 
-- CalMorph v1.3 (501 morphological parameters: cell wall, actin, nucleus) applied to ≥200 cells × 5 replicates per RHOA-mutant yeast strain; 164 parameters were significantly altered (FDR<0.05); LDA on top-17 PCs cleanly separated GOF from LOF mutants [PMID:24816253](../papers/24816253.md)
+- CalMorph v1.3 (501 morphological parameters: cell wall, actin, nucleus) applied to ≥200 cells × 5 replicates per RHOA-mutant yeast strain; 164 parameters were significantly altered (FDR<0.05); LDA on top-17 PCs cleanly separated GOF from LOF mutants [PMID:41002403](../papers/41002403.md)
 
 ## Notes
 

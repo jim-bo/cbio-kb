@@ -15,16 +15,16 @@ IL1B encodes Interleukin-1 Beta, a pro-inflammatory cytokine central to the inna
 
 ## Alterations observed in the corpus
 
-- H. pylori-induced IL-1β drives somatic CDH1 promoter methylation in gastric epithelial cells, phenocopying germline CDH1 loss-of-function and contributing to diffuse gastric cancer development. [PMID:24816255](../papers/24816255.md)
-- High-responder IL1B cytokine polymorphisms amplify H. pylori-driven atrophic gastritis and intestinal metaplasia, increasing gastric cancer risk in familial aggregation contexts. [PMID:24816255](../papers/24816255.md)
+- H. pylori-induced IL-1β drives somatic CDH1 promoter methylation in gastric epithelial cells, phenocopying germline CDH1 loss-of-function and contributing to diffuse gastric cancer development. [PMID:41097736](../papers/41097736.md)
+- High-responder IL1B cytokine polymorphisms amplify H. pylori-driven atrophic gastritis and intestinal metaplasia, increasing gastric cancer risk in familial aggregation contexts. [PMID:41097736](../papers/41097736.md)
 
 ## Cancer types (linked)
 
-- **STAD (gastric adenocarcinoma):** IL1B acts both as an epigenetic modifier (CDH1 methylation) and a low-penetrance susceptibility variant relevant to familial non-hereditary gastric cancer (FNHGC). [PMID:24816255](../papers/24816255.md)
+- **STAD (gastric adenocarcinoma):** IL1B acts both as an epigenetic modifier (CDH1 methylation) and a low-penetrance susceptibility variant relevant to familial non-hereditary gastric cancer (FNHGC). [PMID:41097736](../papers/41097736.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-listed with IL10 and TNF as pro-inflammatory cytokine polymorphism loci contributing to H. pylori-driven gastric carcinogenesis. [PMID:24816255](../papers/24816255.md)
+- Co-listed with IL10 and TNF as pro-inflammatory cytokine polymorphism loci contributing to H. pylori-driven gastric carcinogenesis. [PMID:41097736](../papers/41097736.md)
 
 ## Therapeutic relevance
 
@@ -36,6 +36,6 @@ IL1B encodes Interleukin-1 Beta, a pro-inflammatory cytokine central to the inna
 
 ## Sources
 
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

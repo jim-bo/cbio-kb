@@ -30,7 +30,7 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Used to display OS and time-to-CRPC in 1,465 prostate cancer patients stratified by [CDK12](../genes/CDK12.md) alteration status (CDK12-WT vs CDK12-altered vs CDK12-Bi) [PMID:32317181](../papers/32317181.md)
 - RECIST v1.1 imaging assessments and Kaplan-Meier survival analysis used in the FUTURE trial to evaluate PFS and DOR across 7 biomarker-matched arms in 69 refractory metastatic TNBC patients [PMID:32719455](../papers/32719455.md)
 - Used for PFS and OS estimation from first-line chemotherapy start in 430 MSS mCRC patients; revealed significantly longer OS/PFS for N-terminal vs C-terminal [APC](../genes/APC.md) truncating mutations [PMID:32730818](../papers/32730818.md)
-- Kaplan-Meier analysis in 80-patient CRC tissue microarray showed high [CGREF1](../genes/CGREF1.md) expression associated with significantly shorter overall survival (log-rank p<0.0001) [PMID:32888432](../papers/32888432.md)
+- Kaplan-Meier analysis in 80-patient CRC tissue microarray showed high [CGREF1](../genes/CGREF1.md) expression associated with significantly shorter overall survival (log-rank p<0.0001) [PMID:41125935](../papers/41125935.md)
 - Kaplan-Meier estimators (starting from enucleation date) used to model event-free survival in 83 retinoblastoma specimens; [BCOR](../genes/BCOR.md) mutations associated with worse metastasis-free survival (nominal p=0.03) [PMID:33466343](../papers/33466343.md)
 - Kaplan-Meier / log-rank analysis used to compare time-to-treatment failure across MAPK driver groups in 322 melanoma patients on PD-1 or nivo+ipi; driver-group effect p<0.0001 [PMID:33509808](../papers/33509808.md)
 - Kaplan-Meier OS estimates used throughout 412-patient iCCA cohort to assess prognostic impact of [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), and [CDKN2A](../genes/CDKN2A.md) alterations [PMID:33765338](../papers/33765338.md)
@@ -87,7 +87,7 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - [PMID:32730818](../papers/32730818.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:32888432](../papers/32888432.md)
+- [PMID:41125935](../papers/41125935.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)

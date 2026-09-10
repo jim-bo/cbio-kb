@@ -25,8 +25,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - Somatic variants in 3 [MPN](../cancer_types/MPN.md) patients combined (with [IDH1](../genes/IDH1.md)) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 - Codon 172 hotspot missense mutations in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); absent in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) in this study; IDH mutation associated with worse 3-year survival (HR 7.37, P=0.037 adjusted) [PMID:24185509](../papers/24185509.md)
 - Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell [RCC](../cancer_types/RCC.md) subtypes [PMID:25401301](../papers/25401301.md)
-- IDH2 hotspot mutations in 13–29% intrahepatic CCA alongside [IDH1](../genes/IDH1.md); rare in extrahepatic CCA; IDH inhibitor resistance can involve isoform switching from [IDH1](../genes/IDH1.md) to IDH2 [PMID:25526346](../papers/25526346.md)
-- IDH1/IDH2 mutations in iCCA drive 2-HG accumulation, epigenetically suppressing bile acid biosynthesis genes (e.g., [CYP7A1](../genes/CYP7A1.md)) via DNA hypermethylation; [ivosidenib](../drugs/ivosidenib.md) (IDH1-specific) is the approved therapy highlighted as first targeted option for IDH1-mutant CCA. [PMID:25608663](../papers/25608663.md)
+- IDH2 hotspot mutations in 13–29% intrahepatic CCA alongside [IDH1](../genes/IDH1.md); rare in extrahepatic CCA; IDH inhibitor resistance can involve isoform switching from [IDH1](../genes/IDH1.md) to IDH2 [PMID:41008893](../papers/41008893.md)
+- IDH1/IDH2 mutations in iCCA drive 2-HG accumulation, epigenetically suppressing bile acid biosynthesis genes (e.g., [CYP7A1](../genes/CYP7A1.md)) via DNA hypermethylation; [ivosidenib](../drugs/ivosidenib.md) (IDH1-specific) is the approved therapy highlighted as first targeted option for IDH1-mutant CCA. [PMID:41018102](../papers/41018102.md)
 - Defining hotspot mutation (alongside [IDH1](../genes/IDH1.md)) across LGm1–3 / LGr1–3 IDH-mutant glioma subtypes in pan-glioma TCGA analysis (n=1122); IDH1/2 status forms the primary axis of methylome and transcriptome separation across diffuse glioma subtypes [PMID:26824661](../papers/26824661.md)
 - IDH2 R140 co-occurs strongly with [NPM1](../genes/NPM1.md) (OR 3.6, P=5e-10) while IDH2 R172 is mutually exclusive with NPM1 (OR 0.06, P=4e-5) and forms a provisional [AML](../cancer_types/AML.md) subgroup (1%, n=18) in a cohort of 1540 adults; [DNMT3A](../genes/DNMT3A.md) × IDH2 R140 co-occurrence (n=19) was adverse (q=0.05) [PMID:27276561](../papers/27276561.md)
 - Covered by both the 264-gene and 8-gene amplicon panels in a 116-patient AML/MDS [decitabine](../drugs/decitabine.md) trial; previously hypothesized to predict hypomethylating-agent response but not validated as predictive of 10-day decitabine response. [PMID:27959731](../papers/27959731.md)
@@ -88,9 +88,9 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 - [PMID:25401301](../papers/25401301.md)
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 - [PMID:26824661](../papers/26824661.md)
 

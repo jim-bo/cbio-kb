@@ -23,7 +23,7 @@ This model uses prostate cancer organoids derived from *Pten*^pc-/-^;*Lkb1*^pc-/
 
 ## Used by
 
-- [NOL10](../genes/NOL10.md) and [USF1](../genes/USF1.md) shRNA/sgRNA knockdown performed in *Pten*^pc-/-^;*Lkb1*^pc-/-^ prostate cancer organoids; NOL10 and USF1 loss produced significantly fewer and smaller organoids, confirming the oncogenic role of the rs4519489–USF1–NOL10 axis in a genetically engineered murine prostate cancer model [PMID:28927585](../papers/28927585.md)
+- [NOL10](../genes/NOL10.md) and [USF1](../genes/USF1.md) shRNA/sgRNA knockdown performed in *Pten*^pc-/-^;*Lkb1*^pc-/-^ prostate cancer organoids; NOL10 and USF1 loss produced significantly fewer and smaller organoids, confirming the oncogenic role of the rs4519489–USF1–NOL10 axis in a genetically engineered murine prostate cancer model [PMID:41062477](../papers/41062477.md)
 
 ## Notes
 

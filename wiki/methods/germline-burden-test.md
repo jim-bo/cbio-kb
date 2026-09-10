@@ -17,7 +17,7 @@ A gene-level statistical approach comparing the frequency of qualifying germline
 
 ## Used by
 
-- Used in Daugs et al. to compare LP/PV frequencies in 25 HBOC-related genes across 372 pediatric cancer patients (cases) vs. gnomAD v3.1.1 non-cancer controls (n=74,023), using logistic regression and two-sided Fisher's exact tests (p < 0.05 threshold); identified [TP53](../genes/TP53.md), [CHEK2](../genes/CHEK2.md), [ATM](../genes/ATM.md), [NF1](../genes/NF1.md), and [NBN](../genes/NBN.md) as significantly enriched [PMID:29489754](../papers/29489754.md)
+- Used in Daugs et al. to compare LP/PV frequencies in 25 HBOC-related genes across 372 pediatric cancer patients (cases) vs. gnomAD v3.1.1 non-cancer controls (n=74,023), using logistic regression and two-sided Fisher's exact tests (p < 0.05 threshold); identified [TP53](../genes/TP53.md), [CHEK2](../genes/CHEK2.md), [ATM](../genes/ATM.md), [NF1](../genes/NF1.md), and [NBN](../genes/NBN.md) as significantly enriched [PMID:40857049](../papers/40857049.md)
 
 ## Notes
 

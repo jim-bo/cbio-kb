@@ -17,8 +17,8 @@ Donafenib (sorafenib-d4) is a deuterated analog of sorafenib with multi-kinase i
 
 ## Evidence in the corpus
 
-- Cited in the HCC systemic therapy landscape review among next-generation agents under investigation as alternatives or successors to sorafenib [PMID:24798001](../papers/24798001.md).
-- Donafenib (a deuterium-modified sorafenib analog approved in China) is cited among TKIs evaluated in advanced [HCC](../cancer_types/HCC.md) in the context of lipid-metabolism reprogramming as a resistance driver; real-world ORR for standard-of-care TKIs remains 16–28% with median PFS <12 months [PMID:38355797](../papers/38355797.md).
+- Cited in the HCC systemic therapy landscape review among next-generation agents under investigation as alternatives or successors to sorafenib [PMID:30061739](../papers/30061739.md).
+- Donafenib (a deuterium-modified sorafenib analog approved in China) is cited among TKIs evaluated in advanced [HCC](../cancer_types/HCC.md) in the context of lipid-metabolism reprogramming as a resistance driver; real-world ORR for standard-of-care TKIs remains 16–28% with median PFS <12 months [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
@@ -29,6 +29,6 @@ Donafenib (sorafenib-d4) is a deuterated analog of sorafenib with multi-kinase i
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -17,23 +17,23 @@ Futibatinib is a covalent, irreversible pan-FGFR inhibitor targeting [FGFR1](../
 
 ## Evidence in the corpus
 
-- [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive iCCA: FOENIX-CCA2 phase II ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; as a covalent irreversible FGFR inhibitor it retains activity against on-target secondary [FGFR2](../genes/FGFR2.md) kinase-domain resistance mutations (N550, V565) that emerge under reversible inhibitors [PMID:25526346](../papers/25526346.md)
-- Cited as an FGFR2-targeted agent that synergizes with [cisplatin](../drugs/cisplatin.md) in FGFR2-rearranged iCCA, proposed as a backbone for combination strategies in cholangiocarcinoma treatment [PMID:25608663](../papers/25608663.md)
+- [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive iCCA: FOENIX-CCA2 phase II ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; as a covalent irreversible FGFR inhibitor it retains activity against on-target secondary [FGFR2](../genes/FGFR2.md) kinase-domain resistance mutations (N550, V565) that emerge under reversible inhibitors [PMID:41008893](../papers/41008893.md)
+- Cited as an FGFR2-targeted agent that synergizes with [cisplatin](../drugs/cisplatin.md) in FGFR2-rearranged iCCA, proposed as a backbone for combination strategies in cholangiocarcinoma treatment [PMID:41018102](../papers/41018102.md)
 
 ## Resistance mechanisms
 
-- Secondary [FGFR2](../genes/FGFR2.md) kinase-domain mutations (N550, V565) that confer resistance to reversible inhibitors ([pemigatinib](../drugs/pemigatinib.md), [infigratinib](../drugs/infigratinib.md)) may remain sensitive to futibatinib due to its covalent mechanism [PMID:25526346](../papers/25526346.md)
+- Secondary [FGFR2](../genes/FGFR2.md) kinase-domain mutations (N550, V565) that confer resistance to reversible inhibitors ([pemigatinib](../drugs/pemigatinib.md), [infigratinib](../drugs/infigratinib.md)) may remain sensitive to futibatinib due to its covalent mechanism [PMID:41008893](../papers/41008893.md)
 
 ## Cancer types (linked)
 
-- [IHCH](../cancer_types/IHCH.md) — [FGFR2](../genes/FGFR2.md) fusions in 8–16% of iCCA; primary indication [PMID:25526346](../papers/25526346.md)
-- [CHOL](../cancer_types/CHOL.md) [PMID:25526346](../papers/25526346.md)
+- [IHCH](../cancer_types/IHCH.md) — [FGFR2](../genes/FGFR2.md) fusions in 8–16% of iCCA; primary indication [PMID:41008893](../papers/41008893.md)
+- [CHOL](../cancer_types/CHOL.md) [PMID:41008893](../papers/41008893.md)
 
 ## Sources
 
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

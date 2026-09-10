@@ -17,7 +17,7 @@ TIDE (Tumor Immune Dysfunction and Exclusion) is a computational method that use
 
 ## Used by
 
-- Applied in the Sherlock-Lung NS-LUAD study (n=684 never-smoker lung adenocarcinomas) to predict ICB response across the three NMF-defined transcriptomic subtypes; steady tumors had the lowest TIDE scores (p=6.21×10⁻¹⁴) and were enriched in the bottom-20% TIDE quintile (p=1.09×10⁻⁹), while chaotic tumors were depleted; adding transcriptomic subtype to [CD274](../genes/CD274.md) (PD-L1) and [PDCD1](../genes/PDCD1.md) (PD-1) expression improved the R² of TIDE-score prediction from 0.093 to 0.25 (p=1.17×10⁻²²) [PMID:32015526](../papers/32015526.md).
+- Applied in the Sherlock-Lung NS-LUAD study (n=684 never-smoker lung adenocarcinomas) to predict ICB response across the three NMF-defined transcriptomic subtypes; steady tumors had the lowest TIDE scores (p=6.21×10⁻¹⁴) and were enriched in the bottom-20% TIDE quintile (p=1.09×10⁻⁹), while chaotic tumors were depleted; adding transcriptomic subtype to [CD274](../genes/CD274.md) (PD-L1) and [PDCD1](../genes/PDCD1.md) (PD-1) expression improved the R² of TIDE-score prediction from 0.093 to 0.25 (p=1.17×10⁻²²) [PMID:40970133](../papers/40970133.md).
 
 ## Notes
 
@@ -28,6 +28,6 @@ TIDE (Tumor Immune Dysfunction and Exclusion) is a computational method that use
 
 ## Sources
 
-- [PMID:32015526](../papers/32015526.md) — Sherlock-Lung NS-LUAD ICB response prediction
+- [PMID:40970133](../papers/40970133.md) — Sherlock-Lung NS-LUAD ICB response prediction
 
 *This page was processed by **crosslinker** on **2026-05-16**.*

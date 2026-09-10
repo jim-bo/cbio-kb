@@ -32,7 +32,7 @@ The OncoSG [LUAD](../cancer_types/LUAD.md) cohort (cBioPortal `luad_oncosg_2020`
 - **110 never-smoker lung adenocarcinoma tumors** of Asian (predominantly East Asian) ancestry.
 - Cancer type: [LUAD](../cancer_types/LUAD.md).
 - All samples treatment-naive at time of collection.
-- Subtype composition when classified by the Sherlock-Lung 60-gene signature [PMID:32015526](../papers/32015526.md): 35 steady / 64 proliferative / 11 chaotic.
+- Subtype composition when classified by the Sherlock-Lung 60-gene signature [PMID:40970133](../papers/40970133.md): 35 steady / 64 proliferative / 11 chaotic.
 
 ## Assays / panels (linked)
 
@@ -40,17 +40,17 @@ The OncoSG [LUAD](../cancer_types/LUAD.md) cohort (cBioPortal `luad_oncosg_2020`
 
 ## Papers using this cohort
 
-- [PMID:32015526](../papers/32015526.md) — Zhao et al. 2025, *bioRxiv*: Used as external validation cohort for the Sherlock-Lung 60-gene NS-LUAD prognostic signature; steady subtype HR=0.32 (95% CI 0.12–0.87, p=0.026) for overall survival.
+- [PMID:40970133](../papers/40970133.md) — Zhao et al. 2025, *bioRxiv*: Used as external validation cohort for the Sherlock-Lung 60-gene NS-LUAD prognostic signature; steady subtype HR=0.32 (95% CI 0.12–0.87, p=0.026) for overall survival.
 
 ## Notable findings derived from this cohort
 
-- External validation of the Sherlock-Lung 60-gene transcriptomic signature: classified 35 steady / 64 proliferative / 11 chaotic NS-LUAD tumors; steady subtype HR=0.32 (95% CI 0.12–0.87, p=0.026) for overall survival, remaining significant within TP53-wild-type cases; mortality c-index=0.682; expression subtype + stage achieved c-index=0.68, outperforming stage, mutation, or grade alone [PMID:32015526](../papers/32015526.md).
-- The chaotic subtype arm (n=11) was underpowered for survival inference; authors flag this as a limitation requiring a larger Asian never-smoker cohort [PMID:32015526](../papers/32015526.md).
+- External validation of the Sherlock-Lung 60-gene transcriptomic signature: classified 35 steady / 64 proliferative / 11 chaotic NS-LUAD tumors; steady subtype HR=0.32 (95% CI 0.12–0.87, p=0.026) for overall survival, remaining significant within TP53-wild-type cases; mortality c-index=0.682; expression subtype + stage achieved c-index=0.68, outperforming stage, mutation, or grade alone [PMID:40970133](../papers/40970133.md).
+- The chaotic subtype arm (n=11) was underpowered for survival inference; authors flag this as a limitation requiring a larger Asian never-smoker cohort [PMID:40970133](../papers/40970133.md).
 
 ## Sources
 
 - cBioPortal study: `luad_oncosg_2020`
 - EGA accession: EGAD00001004421
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*

@@ -21,7 +21,7 @@ Luciferase reporter assays measure the transcriptional or enhancer activity of a
 
 ## Used by
 
-- Allele-specific luciferase reporters in LNCaP, DU145, 22Rv1, PC3, and VCaP cells (±DHT) gave significantly higher activity for the rs4519489 A allele than the T allele across all cell lines and conditions, confirming allele-specific enhancer activity at the 2p25 NOL10/USF1 prostate cancer risk locus [PMID:28927585](../papers/28927585.md)
+- Allele-specific luciferase reporters in LNCaP, DU145, 22Rv1, PC3, and VCaP cells (±DHT) gave significantly higher activity for the rs4519489 A allele than the T allele across all cell lines and conditions, confirming allele-specific enhancer activity at the 2p25 NOL10/USF1 prostate cancer risk locus [PMID:41062477](../papers/41062477.md)
 - Luciferase reporter assays in HEK293T and H69 (cholangiocyte) cells confirmed that the intact [FGFR2](../genes/FGFR2.md) 3'UTR represses FGFR2 expression; truncating rearrangements removing the 3'UTR in CCA Cluster 4 tumors explain elevated FGFR2 transcript levels [PMID:28667006](../papers/28667006.md)
 
 ## Notes

@@ -15,12 +15,12 @@ BTLA (B and T lymphocyte attenuator, also CD272) is an inhibitory co-receptor ex
 
 ## Alterations observed in the corpus
 
-- Implicated in T-cell exhaustion in NPC; tifcemalimab (JS004), an anti-BTLA antibody, is under clinical investigation [PMID:24952746](../papers/24952746.md)
+- Implicated in T-cell exhaustion in NPC; tifcemalimab (JS004), an anti-BTLA antibody, is under clinical investigation [PMID:41002550](../papers/41002550.md)
 - BTLA specifically upregulated in Cluster 3 of cholangiocarcinoma alongside PDCD1 (PD-1) and PDCD1LG2 (PD-L2), motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
-- **NPC**: BTLA contributes to immune exhaustion; tifcemalimab in clinical development [PMID:24952746](../papers/24952746.md)
+- **NPC**: BTLA contributes to immune exhaustion; tifcemalimab in clinical development [PMID:41002550](../papers/41002550.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -28,7 +28,7 @@ _No data in current corpus._
 
 ## Therapeutic relevance
 
-- Tifcemalimab (JS004) — anti-BTLA antibody; clinical investigation in NPC [PMID:24952746](../papers/24952746.md)
+- Tifcemalimab (JS004) — anti-BTLA antibody; clinical investigation in NPC [PMID:41002550](../papers/41002550.md)
 
 ## Open questions
 
@@ -36,7 +36,7 @@ _No conflicts in current corpus._
 
 ## Sources
 
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28667006](../papers/28667006.md)

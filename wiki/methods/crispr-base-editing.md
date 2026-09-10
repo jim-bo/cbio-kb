@@ -22,7 +22,7 @@ CRISPR base editing uses engineered fusions of a partially disabled Cas9 (nickas
 
 ## Used by
 
-- CBE (cytosine base editor) used to convert rs4519489 T→A in PC3 cells (T/T→A/T), increasing [NOL10](../genes/NOL10.md) expression (P=9.06×10⁻³); an AYBE editor used in DU145 cells to perform reverse A→T conversion (A/A→T/T), reducing NOL10 expression. Together these reciprocal edits established causal allele-specific regulation of NOL10 by the rs4519489 variant [PMID:28927585](../papers/28927585.md)
+- CBE (cytosine base editor) used to convert rs4519489 T→A in PC3 cells (T/T→A/T), increasing [NOL10](../genes/NOL10.md) expression (P=9.06×10⁻³); an AYBE editor used in DU145 cells to perform reverse A→T conversion (A/A→T/T), reducing NOL10 expression. Together these reciprocal edits established causal allele-specific regulation of NOL10 by the rs4519489 variant [PMID:41062477](../papers/41062477.md)
 
 ## Notes
 

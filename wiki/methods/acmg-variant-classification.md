@@ -17,7 +17,7 @@ A standardized framework for interpreting the pathogenicity of germline sequence
 
 ## Used by
 
-- Applied to classify germline variants in 25 HBOC-associated genes identified by whole-exome sequencing in 372 pediatric cancer patients; 28 LP/PVs were detected across 27 patients (7.3%), alongside 187 VUS among 593 total variants in 297 patients [PMID:29489754](../papers/29489754.md)
+- Applied to classify germline variants in 25 HBOC-associated genes identified by whole-exome sequencing in 372 pediatric cancer patients; 28 LP/PVs were detected across 27 patients (7.3%), alongside 187 VUS among 593 total variants in 297 patients [PMID:40857049](../papers/40857049.md)
 - Applied in the MSK early-onset colorectal cancer cohort (759 EO-CRC patients vs 687 AO-CRC) for somatic and germline profiling at Memorial Sloan Kettering Cancer Center [PMID:34405229](../papers/34405229.md)
 - Germline variants identified by MSK-IMPACT panel sequencing in LGSC patients (n=79/119 tested) were classified using ACMG standards; 7/79 had pathogenic germline mutations, no germline BRCA1/2 found [PMID:35443055](../papers/35443055.md)
 

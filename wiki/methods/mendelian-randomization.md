@@ -17,7 +17,7 @@ Mendelian randomization (MR) is an epidemiological method that uses genetic vari
 
 ## Used by
 
-- Synthesized in a narrative review of gut-liver axis dysregulation in cholangiocarcinoma: Mendelian randomization analyses leveraging MiBioGen gut-microbiota GWAS and IEU GWAS data (Zhang Y, Chen Z, cited) implicated elevated *Eubacterium hallii* group, *Candidatus Soleaferrea*, and *Flavonifractor* as causally increasing biliary tract cancer risk; *Dorea* and *Lachnospiraceae* ND3007 were identified as protective; *Veillonellaceae*, *Alistipes*, *Enterobacteriales*, and *Firmicutes* were causally implicated in iCCA specifically [PMID:25608663](../papers/25608663.md)
+- Synthesized in a narrative review of gut-liver axis dysregulation in cholangiocarcinoma: Mendelian randomization analyses leveraging MiBioGen gut-microbiota GWAS and IEU GWAS data (Zhang Y, Chen Z, cited) implicated elevated *Eubacterium hallii* group, *Candidatus Soleaferrea*, and *Flavonifractor* as causally increasing biliary tract cancer risk; *Dorea* and *Lachnospiraceae* ND3007 were identified as protective; *Veillonellaceae*, *Alistipes*, *Enterobacteriales*, and *Firmicutes* were causally implicated in iCCA specifically [PMID:41018102](../papers/41018102.md)
 
 ## Notes
 
@@ -28,6 +28,6 @@ Mendelian randomization (MR) is an epidemiological method that uses genetic vari
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md) — Gut-liver axis review in cholangiocarcinoma (narrative review synthesizing MR causal inference data)
+- [PMID:41018102](../papers/41018102.md) — Gut-liver axis review in cholangiocarcinoma (narrative review synthesizing MR causal inference data)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

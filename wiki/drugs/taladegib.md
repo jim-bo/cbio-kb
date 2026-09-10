@@ -17,7 +17,7 @@ Taladegib is an investigational SMO (Smoothened) inhibitor targeting the Hedgeho
 
 ## Evidence in the corpus
 
-- Taladegib SMO inhibitor (Hedgehog pathway) evaluated in phase II for solid tumors with PTCH1 mutations, including NPC; PTCH1 mutation is listed as a molecularly targeted opportunity in NPC [PMID:24952746](../papers/24952746.md).
+- Taladegib SMO inhibitor (Hedgehog pathway) evaluated in phase II for solid tumors with PTCH1 mutations, including NPC; PTCH1 mutation is listed as a molecularly targeted opportunity in NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

@@ -15,12 +15,12 @@ TEK (TIE2) encodes a receptor tyrosine kinase expressed predominantly on endothe
 
 ## Alterations observed in the corpus
 
-- TEK is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic [NPC](../cancer_types/NPC.md). [PMID:24952746](../papers/24952746.md)
+- TEK is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic [NPC](../cancer_types/NPC.md). [PMID:41002550](../papers/41002550.md)
 - Low-frequency but FDA-druggable alteration in the RTK pathway in hepatocellular carcinoma (1% FDA-targetable); part of the 28% druggable-alteration landscape in [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 
-- **[NPC](../cancer_types/NPC.md)** -- TEK is a component of the multi-kinase inhibitor target profile in R/M [NPC](../cancer_types/NPC.md) alongside VEGFR2 ([KDR](../genes/KDR.md)), [RET](../genes/RET.md), [FLT3](../genes/FLT3.md), and others. [PMID:24952746](../papers/24952746.md)
+- **[NPC](../cancer_types/NPC.md)** -- TEK is a component of the multi-kinase inhibitor target profile in R/M [NPC](../cancer_types/NPC.md) alongside VEGFR2 ([KDR](../genes/KDR.md)), [RET](../genes/RET.md), [FLT3](../genes/FLT3.md), and others. [PMID:41002550](../papers/41002550.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -28,7 +28,7 @@ TEK (TIE2) encodes a receptor tyrosine kinase expressed predominantly on endothe
 
 ## Therapeutic relevance
 
-- Multi-kinase TKIs inhibiting TEK (e.g., [cabozantinib](../drugs/cabozantinib.md)) are being investigated in [NPC](../cancer_types/NPC.md) primarily as anti-angiogenic agents; TEK-alteration-selected strategies are not reported. [PMID:24952746](../papers/24952746.md)
+- Multi-kinase TKIs inhibiting TEK (e.g., [cabozantinib](../drugs/cabozantinib.md)) are being investigated in [NPC](../cancer_types/NPC.md) primarily as anti-angiogenic agents; TEK-alteration-selected strategies are not reported. [PMID:41002550](../papers/41002550.md)
 
 ## Open questions
 
@@ -36,7 +36,7 @@ TEK (TIE2) encodes a receptor tyrosine kinase expressed predominantly on endothe
 
 ## Sources
 
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)

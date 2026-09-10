@@ -17,7 +17,7 @@ Vudalimab is an investigational bispecific antibody co-targeting [PDCD1](../gene
 
 ## Evidence in the corpus
 
-- Vudalimab bispecific PD-1×CTLA-4 antibody listed among investigational dual checkpoint blocking strategies targeting compensatory CTLA-4 upregulation in R/M NPC [PMID:24952746](../papers/24952746.md).
+- Vudalimab bispecific PD-1×CTLA-4 antibody listed among investigational dual checkpoint blocking strategies targeting compensatory CTLA-4 upregulation in R/M NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

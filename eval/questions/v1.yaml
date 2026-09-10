@@ -394,7 +394,7 @@ questions:
     question: >
       Which corpus papers evaluate PD-1 or PD-L1 immune checkpoint
       blockade in patients?
-    gold_pmids: [22138691, 25765070, 26997480, 29033130, 29122777, 29301960, 29337640, 29657128, 30150660, 30373752, 30643254, 30742119, 32437664, 34819508, 36862133, 37406106, 37643132, 38630790, 38653864, 38780927, 38949888]
+    gold_pmids: [40834854, 25765070, 26997480, 29033130, 29122777, 29301960, 29337640, 29657128, 30150660, 30373752, 30643254, 30742119, 32437664, 34819508, 36862133, 37406106, 37643132, 38630790, 38653864, 38780927, 38949888]
     gold_entities: [nivolumab, pembrolizumab, dostarlimab, atezolizumab, durvalumab, avelumab, zimberelimab, PDCD1, CD274]
     notes: >
       Regenerated vs 377-corpus, high-recall: includes landmark IO-genomics patient cohorts
@@ -444,7 +444,7 @@ questions:
     split: test
     question: >
       Which corpus papers study prostate cancer (PRAD or PRNE)?
-    gold_pmids: [20579941, 22610119, 22722839, 23622249, 25024180, 25201530, 26000489, 26544944, 26855148, 26928463, 27634761, 28045614, 28068672, 28825054, 28927585, 29610475, 30537516, 31061129, 31564440, 32220891, 32317181, 34667026, 35504881, 35617398, 35670774, 38488813, 38949888, 39147831, 39506116, 41941260]
+    gold_pmids: [20579941, 22610119, 22722839, 23622249, 25024180, 25201530, 26000489, 26544944, 26855148, 26928463, 38480799, 28045614, 41071892, 28825054, 41062477, 29610475, 30537516, 31061129, 31564440, 32220891, 32317181, 34667026, 35504881, 35617398, 35670774, 38488813, 38949888, 39147831, 39506116, 41941260]
     gold_entities: [PRAD, PRNE]
     notes: >
       Regenerated vs 377-corpus. +24 pre-2022 prostate genomics papers the old 56-corpus
@@ -632,12 +632,12 @@ questions:
       Across the prostate-cancer papers in the corpus, what do they agree on regarding
       the prevalence of DNA-damage-repair / homologous-recombination gene alterations and
       the rationale for PARP inhibition, and where do the reported rates and contexts differ?
-    gold_pmids: [28825054, 26000489, 31061129, 35504881, 28068672]
+    gold_pmids: [28825054, 26000489, 31061129, 35504881, 41071892]
     gold_entities: [BRCA2, BRCA1, ATM, CHEK2, PRAD]
     notes: >
       Agreement: DDR/HRR defects (BRCA2/BRCA1/ATM) recur in advanced PRAD and motivate PARPi.
       Differs in rate/context: 27% (28825054) vs 19.3% (26000489) vs PROfound-eligible 19.6% /
-      9.8% BRCA1/2 in brain mets (35504881); 28068672 extends BRCAness to BRCA-WT; 31061129 ties RB1 (not HRR) to ARSI outcome.
+      9.8% BRCA1/2 in brain mets (35504881); 41071892 extends BRCAness to BRCA-WT; 31061129 ties RB1 (not HRR) to ARSI outcome.
 
   - id: S18
     category: synthesis

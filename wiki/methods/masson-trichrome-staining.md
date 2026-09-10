@@ -17,7 +17,7 @@ Masson trichrome staining is a histological technique that uses three dyes to di
 
 ## Used by
 
-- Used to quantify collagen deposition and assess desmoplastic stroma in 86 GBC patient tissues; substantial collagen deposition was confirmed in GBC stroma alongside α-SMA+ (ACTA2) CAF infiltration [PMID:24997986](../papers/24997986.md)
+- Used to quantify collagen deposition and assess desmoplastic stroma in 86 GBC patient tissues; substantial collagen deposition was confirmed in GBC stroma alongside α-SMA+ (ACTA2) CAF infiltration [PMID:40830485](../papers/40830485.md)
 - Masson trichrome staining (and Picro Sirius red) applied to UTUC PDX models to characterize extracellular matrix; ECM-enriched tumors had lower PDX engraftment rates [PMID:32332851](../papers/32332851.md)
 
 ## Notes

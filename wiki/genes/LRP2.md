@@ -15,7 +15,7 @@ LRP2 (Low Density Lipoprotein Receptor-Related Protein 2, also known as Megalin)
 
 ## Alterations observed in the corpus
 
-- LRP2 is the 3' partner in the [ABCB11](../genes/ABCB11.md)–LRP2 gene fusion, reported as the first recurrent gene fusion in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
+- LRP2 is the 3' partner in the [ABCB11](../genes/ABCB11.md)–LRP2 gene fusion, reported as the first recurrent gene fusion in [HCC](../cancer_types/HCC.md) [PMID:25369299](../papers/25369299.md)
 - Newly nominated significantly mutated gene in papillary renal cell carcinoma (pRCC) in a multisubtype nccRCC WES study [PMID:25401301](../papers/25401301.md)
 - LRP2 identified as part of Hedgehog-pathway alterations (alongside [SMO](../genes/SMO.md), [GLI2](../genes/GLI2.md), [GLI3](../genes/GLI3.md), [PTCH1](../genes/PTCH1.md)) in a 109-case PDA WES cohort [PMID:25855536](../papers/25855536.md)
 
@@ -29,7 +29,7 @@ LRP2 (Low Density Lipoprotein Receptor-Related Protein 2, also known as Megalin)
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)

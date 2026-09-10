@@ -38,7 +38,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - KRAS and [TP53](../genes/TP53.md) significantly co-occur in PAAD (contrasting their mutual exclusivity in COAD/READ/LUAD); PAAD context demonstrates tissue-specific driver interactions [PMID:29625049](../papers/29625049.md)
 - RTK-RAS alteration rate 78% in PAAD; KRAS hotspot mutations in 72% of PAAD (highest pan-cancer); HER2+MEK inhibitor combination actionable in 7% of PAAD [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) recommended without reservation for PAAD [PMID:29625055](../papers/29625055.md)
-- PAAD (pancreatic adenocarcinoma) was highlighted as a cancer type where the tumor microenvironment drives drug response; patient-derived tumoroids on 3D bioprinted decellularized scaffolds were proposed as a drug-screening platform for personalized therapy in pancreatic ductal adenocarcinoma. [PMID:30643250](../papers/30643250.md)
+- PAAD (pancreatic adenocarcinoma) was highlighted as a cancer type where the tumor microenvironment drives drug response; patient-derived tumoroids on 3D bioprinted decellularized scaffolds were proposed as a drug-screening platform for personalized therapy in pancreatic ductal adenocarcinoma. [PMID:41103502](../papers/41103502.md)
 - Pancreatic adenocarcinoma (n=4, 5.3%) was among TRK fusion-positive tumor types in the MSK prospective cohort; pancreatic cancers were over-represented in the MSK real-world cohort relative to the pivotal [larotrectinib](../drugs/larotrectinib.md) trial cohort [PMID:31871300](../papers/31871300.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); pancreatic adenocarcinoma analyzed for somatic driver landscape including [KRAS](../genes/KRAS.md) (287 PCAWG driver events), [SMAD4](../genes/SMAD4.md), and [ARID1A](../genes/ARID1A.md) alterations [PMID:32025007](../papers/32025007.md).
 - MSK-ACCESS cfDNA panel prospectively profiled pancreatic cancer patients (part of 28% group including PAAD/BLCA/PRAD/biliary, n=617 patients total); [KRAS](../genes/KRAS.md) was noted as a gene where cfDNA detection was lower than tissue in pancreatic cancer; matched WBC sequencing removed >10,000 germline/CH confounders that would otherwise appear as false somatic calls in pancreatic cancer plasma [PMID:34145282](../papers/34145282.md).
@@ -96,7 +96,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 
 - [PMID:29625055](../papers/29625055.md)
 
-- [PMID:30643250](../papers/30643250.md)
+- [PMID:41103502](../papers/41103502.md)
 
 - [PMID:31871300](../papers/31871300.md)
 

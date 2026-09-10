@@ -43,7 +43,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - SNP 6.0 copy-number arrays applied to 153 of 203 multiple myeloma patients; GISTIC analysis identified 7 recurrent homozygous deletion regions covering 32 genes including [CDKN2C](../genes/CDKN2C.md), [TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md), and [PTPRD](../genes/PTPRD.md) [PMID:24434212](../papers/24434212.md)
 - Illumina Omni 2.5M and 5M SNP arrays (analogous workflow to Affymetrix SNP6) applied to all 147 rhabdomyosarcoma tumor/normal pairs for copy-number alteration profiling; identified 11p15.5 LOH (50% of tumors), [MYCN](../genes/MYCN.md) amplification (5%), CDK4/12q13-q14 amplification (9.7%), and [CDKN2A](../genes/CDKN2A.md) homozygous deletion (3%) [PMID:24436047](../papers/24436047.md)
 - Affymetrix SNP 6.0 arrays used for somatic copy-number alteration profiling of 131 TCGA bladder carcinoma samples; identified [CDKN2A](../genes/CDKN2A.md) focal deletion (47%), [PPARG](../genes/PPARG.md) amplification (17%), E2F3/SOX4 amplification (20%), and [NECTIN4](../genes/NECTIN4.md) amplification (19%) as the most prevalent focal events [PMID:24476821](../papers/24476821.md)
-- SNP-array copy-number calls from 704 [HCC](../cancer_types/HCC.md) patients used to characterise focal amplifications ([MYC](../genes/MYC.md) 12%, [CCND1](../genes/CCND1.md) 7%, [FGF19](../genes/FGF19.md) 6%, [VEGFA](../genes/VEGFA.md) 5%, [TERT](../genes/TERT.md) 5%) and homozygous deletions ([CDKN2A](../genes/CDKN2A.md) 5%, [RB1](../genes/RB1.md) 5%) [PMID:24798001](../papers/24798001.md)
+- SNP-array copy-number calls from 704 [HCC](../cancer_types/HCC.md) patients used to characterise focal amplifications ([MYC](../genes/MYC.md) 12%, [CCND1](../genes/CCND1.md) 7%, [FGF19](../genes/FGF19.md) 6%, [VEGFA](../genes/VEGFA.md) 5%, [TERT](../genes/TERT.md) 5%) and homozygous deletions ([CDKN2A](../genes/CDKN2A.md) 5%, [RB1](../genes/RB1.md) 5%) [PMID:30061739](../papers/30061739.md)
 - Used for array-based somatic copy-number profiling in the TCGA gastric adenocarcinoma study ([stad_tcga_pub](../datasets/stad_tcga_pub.md), N=295) to classify CIN vs GS subtypes and detect focal amplifications/deletions including RTK loci and 9p24.1 [PMID:25079317](../papers/25079317.md)
 - Used for copy-number profiling of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)); GISTIC identified significant focal amplifications ([NKX2-1](../genes/NKX2-1.md), [TERT](../genes/TERT.md), [MDM2](../genes/MDM2.md), [KRAS](../genes/KRAS.md), [EGFR](../genes/EGFR.md), [MET](../genes/MET.md), [CCNE1](../genes/CCNE1.md)) and the most significant deletion peak at [CDKN2A](../genes/CDKN2A.md) [PMID:25079552](../papers/25079552.md)
 - Used to profile somatic copy-number alterations in 66 ChRCC tumors in the TCGA ChRCC study; no focal events detected by GISTIC, only recurrent whole-chromosome losses. [PMID:25155756](../papers/25155756.md)
@@ -153,7 +153,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)

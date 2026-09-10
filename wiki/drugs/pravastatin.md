@@ -17,7 +17,7 @@ Pravastatin is a hydrophilic statin that inhibits [HMGCR](../genes/HMGCR.md) (HM
 
 ## Evidence in the corpus
 
-- Multiple phase 2/3 trials combining pravastatin with [sorafenib](../drugs/sorafenib.md) in advanced [HCC](../cancer_types/HCC.md) failed to improve survival; the review attributes this negative outcome in part to the use of hydrophilic statins (pravastatin, rosuvastatin) in trials while preclinical evidence supporting HCC risk reduction was driven predominantly by lipophilic statins ([simvastatin](../drugs/simvastatin.md), [lovastatin](../drugs/lovastatin.md), [atorvastatin](../drugs/atorvastatin.md)) [PMID:38355797](../papers/38355797.md).
+- Multiple phase 2/3 trials combining pravastatin with [sorafenib](../drugs/sorafenib.md) in advanced [HCC](../cancer_types/HCC.md) failed to improve survival; the review attributes this negative outcome in part to the use of hydrophilic statins (pravastatin, rosuvastatin) in trials while preclinical evidence supporting HCC risk reduction was driven predominantly by lipophilic statins ([simvastatin](../drugs/simvastatin.md), [lovastatin](../drugs/lovastatin.md), [atorvastatin](../drugs/atorvastatin.md)) [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
@@ -29,6 +29,6 @@ Pravastatin is a hydrophilic statin that inhibits [HMGCR](../genes/HMGCR.md) (HM
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

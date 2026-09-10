@@ -26,10 +26,10 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - EGFR/ErbB signaling was implicated by pathway analysis (PubChem + WikiPathways/KEGG) in chordoma PDTOs (SARC0046_2/3, SARC0053_a, SARC0049) and an osteosarcoma subgroup; chordomas showed preferential sensitivity to TAK-285 (an EGFR/ERBB2 dual kinase inhibitor), consistent with broader [EGFR](../genes/EGFR.md) pathway dependency in this histology [PMID:39305899](../papers/39305899.md).
 - NCI-60 CellMiner pharmacogenomics study identified EGFR-pathway genomic features associated with gefitinib sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 - TCGA lung squamous study (178 tumors) assessed [EGFR](../genes/EGFR.md) pathway context; gefitinib efficacy limited by rarity of EGFR-activating mutations in squamous histology [PMID:22960745](../papers/22960745.md)
-- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
+- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in [HCC](../cancer_types/HCC.md) [PMID:25369299](../papers/25369299.md)
 - Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via [EGFR](../genes/EGFR.md) inhibition; gefitinib trials in cSCC noted alongside [cetuximab](../drugs/cetuximab.md) in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
 - Cited as the sole phase II agent trialed in metastatic cutaneous SCC (cSCC), reporting an 18% CR rate; the authors argue [EGFR](../genes/EGFR.md) pathway biomarker refinement ([EGFR](../genes/EGFR.md) S720F, amplification) is needed before uniform [EGFR](../genes/EGFR.md) targeting in this disease [PMID:25589618](../papers/25589618.md)
-- First-generation EGFR TKI; low-cost and broadly accessible in India for young-onset NSCLC patients with EGFR mutations; review cites enrichment of EGFR exon 19 deletions (52.6% of EGFR-mutant cases) in young patients as rationale for first-line use [PMID:27346245](../papers/27346245.md)
+- First-generation EGFR TKI; low-cost and broadly accessible in India for young-onset NSCLC patients with EGFR mutations; review cites enrichment of EGFR exon 19 deletions (52.6% of EGFR-mutant cases) in young patients as rationale for first-line use [PMID:40958859](../papers/40958859.md)
 - Mentioned as first-generation EGFR TKI in 860-patient MSK-IMPACT LUAD cohort context; L861Q and exon 18 deletion alleles had significantly lower clinical-benefit rates with first-generation TKIs, supporting evaluation of second/third-generation agents over gefitinib for these alleles [PMID:28336552](../papers/28336552.md).
 - In MCF7 functional validation, gefitinib (EGFR inhibitor) reversed fulvestrant resistance conferred by [EGFR](../genes/EGFR.md) overexpression, parallel to erlotinib, supporting EGFR inhibitors as mechanistically justified combination partners for EGFR-amplified endocrine-resistant HR+ breast cancer [PMID:30205045](../papers/30205045.md).
 
@@ -54,7 +54,7 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
@@ -63,7 +63,7 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)

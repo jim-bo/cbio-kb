@@ -17,26 +17,26 @@ PLAG1 (pleomorphic adenoma gene 1) encodes a zinc-finger transcription factor th
 
 ## Alterations observed in the corpus
 
-- Transcriptional upregulation (downstream of HMGA1/2) in HMGA-rearranged endometrial polyps (WGS, 23 polyps): log2FC 3.22 in HMGA1-rearranged and 3.38 in HMGA2-rearranged polyps; no DNA-level alterations reported in PLAG1 itself in this cohort [PMID:28445112](../papers/28445112.md).
+- Transcriptional upregulation (downstream of HMGA1/2) in HMGA-rearranged endometrial polyps (WGS, 23 polyps): log2FC 3.22 in HMGA1-rearranged and 3.38 in HMGA2-rearranged polyps; no DNA-level alterations reported in PLAG1 itself in this cohort [PMID:41137179](../papers/41137179.md).
 
 ## Cancer types (linked)
 
-- [UCEC](../cancer_types/UCEC.md) / [ULM](../cancer_types/ULM.md): PLAG1 overexpression is a transcriptional consequence of HMGA1/HMGA2 enhancer hijacking in endometrial polyps; previously identified as a HMGA1/HMGA2/PLAG1-leiomyoma biomarker [PMID:28445112](../papers/28445112.md).
+- [UCEC](../cancer_types/UCEC.md) / [ULM](../cancer_types/ULM.md): PLAG1 overexpression is a transcriptional consequence of HMGA1/HMGA2 enhancer hijacking in endometrial polyps; previously identified as a HMGA1/HMGA2/PLAG1-leiomyoma biomarker [PMID:41137179](../papers/41137179.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- PLAG1 overexpression occurs downstream of HMGA1 (14/23 polyps) and HMGA2 (4/23 polyps) rearrangements; [C19ORF38](../genes/C19ORF38.md) is also upregulated in the same pathway context [PMID:28445112](../papers/28445112.md).
+- PLAG1 overexpression occurs downstream of HMGA1 (14/23 polyps) and HMGA2 (4/23 polyps) rearrangements; [C19ORF38](../genes/C19ORF38.md) is also upregulated in the same pathway context [PMID:41137179](../papers/41137179.md).
 
 ## Therapeutic relevance
 
-- PLAG1 upregulation is a shared feature of endometrial polyps and uterine leiomyomas, suggesting any HMGA-targeted therapy (e.g., HMGA2 gene silencing explored in ovarian carcinoma) could in principle be repurposed across both lesion types [PMID:28445112](../papers/28445112.md).
+- PLAG1 upregulation is a shared feature of endometrial polyps and uterine leiomyomas, suggesting any HMGA-targeted therapy (e.g., HMGA2 gene silencing explored in ovarian carcinoma) could in principle be repurposed across both lesion types [PMID:41137179](../papers/41137179.md).
 
 ## Open questions
 
-- Whether PLAG1 transcriptional activation plays a functional driver role in endometrial polyp formation vs. being a secondary consequence of HMGA1/2 hijacking is not yet established [PMID:28445112](../papers/28445112.md).
+- Whether PLAG1 transcriptional activation plays a functional driver role in endometrial polyp formation vs. being a secondary consequence of HMGA1/2 hijacking is not yet established [PMID:41137179](../papers/41137179.md).
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

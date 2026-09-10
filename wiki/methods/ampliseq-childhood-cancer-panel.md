@@ -17,7 +17,7 @@ Illumina AmpliSeq targeted DNA sequencing panel covering 130 cancer-relevant gen
 
 ## Used by
 
-- Applied to three independent heMSC lines in the Ewing sarcoma cell-of-origin study to confirm absence of pathogenic cooperating mutations; no variants detected, establishing that EWS::FLI1 expression alone is sufficient to drive the Ewing-like transcriptional program and in vivo tumorigenesis. [PMID:25186949](../papers/25186949.md)
+- Applied to three independent heMSC lines in the Ewing sarcoma cell-of-origin study to confirm absence of pathogenic cooperating mutations; no variants detected, establishing that EWS::FLI1 expression alone is sufficient to drive the Ewing-like transcriptional program and in vivo tumorigenesis. [PMID:41136396](../papers/41136396.md)
 
 ## Notes
 

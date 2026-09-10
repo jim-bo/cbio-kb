@@ -21,7 +21,7 @@ PPARG (peroxisome proliferator-activated receptor gamma) encodes a nuclear recep
 - PPARG found as the 3-prime fusion partner of [PAX8](../genes/PAX8.md) in 3 PDTCs in a targeted-sequencing study of advanced thyroid cancers; the PAX8-PPARG fusion recapitulates a rearrangement previously described in follicular thyroid carcinoma. [PMID:26878173](../papers/26878173.md)
 - PPARG has six recurrent fusions in MIBC (4x TSEN2-PPARG, 2x MKRN2-PPARG) with overexpression (p=6e-3); 4/6 retained both DNA- and ligand-binding domains; additional cell-line CASC15-PPARG and NR2C2-PPARG fusions identified; implicated as a luminal driver alongside [GATA3](../genes/GATA3.md) and [FOXA1](../genes/FOXA1.md) [PMID:28988769](../papers/28988769.md)
 - PPARG shows significantly higher mRNA expression in the T-cell-depleted [UTUC](../cancer_types/UTUC.md) cluster (P=1.1×10⁻⁵), consistent with a luminal/PPARG-driven phenotype associated with low immune infiltration [PMID:31278255](../papers/31278255.md)
-- PPARG drives de novo lipogenesis (DNL) in [HCC](../cancer_types/HCC.md); PPARgamma activity promotes lipid synthesis as part of the lipid metabolism reprogramming that sustains HCC tumor growth and resistance to systemic therapies [PMID:38355797](../papers/38355797.md)
+- PPARG drives de novo lipogenesis (DNL) in [HCC](../cancer_types/HCC.md); PPARgamma activity promotes lipid synthesis as part of the lipid metabolism reprogramming that sustains HCC tumor growth and resistance to systemic therapies [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -56,6 +56,6 @@ PPARG (peroxisome proliferator-activated receptor gamma) encodes a nuclear recep
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

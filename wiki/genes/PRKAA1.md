@@ -15,26 +15,26 @@ PRKAA1 encodes the alpha-1 catalytic subunit of AMP-activated protein kinase (AM
 
 ## Alterations observed in the corpus
 
-- Low-penetrance GWAS susceptibility locus for gastric cancer; individually small risk increment but clustering in a single family may partly explain familial aggregation of gastric cancer [PMID:24816255](../papers/24816255.md)
+- Low-penetrance GWAS susceptibility locus for gastric cancer; individually small risk increment but clustering in a single family may partly explain familial aggregation of gastric cancer [PMID:41097736](../papers/41097736.md)
 
 ## Cancer types (linked)
 
-- Gastric cancer ([STAD](../cancer_types/STAD.md)): PRKAA1 identified as a low-penetrance gastric cancer risk locus from GWAS; co-evaluated with MUC1, PSCA, and PLCE1 in familial non-hereditary gastric cancer (FNHGC) risk assessment [PMID:24816255](../papers/24816255.md)
+- Gastric cancer ([STAD](../cancer_types/STAD.md)): PRKAA1 identified as a low-penetrance gastric cancer risk locus from GWAS; co-evaluated with MUC1, PSCA, and PLCE1 in familial non-hereditary gastric cancer (FNHGC) risk assessment [PMID:41097736](../papers/41097736.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-evaluated with other low-penetrance gastric cancer susceptibility loci including MUC1, PSCA, and PLCE1 [PMID:24816255](../papers/24816255.md)
+- Co-evaluated with other low-penetrance gastric cancer susceptibility loci including MUC1, PSCA, and PLCE1 [PMID:41097736](../papers/41097736.md)
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting in the current corpus; PRKAA1 variant status may contribute to polygenic risk stratification for gastric cancer screening, though clinical actionability remains unestablished [PMID:24816255](../papers/24816255.md)
+- No direct therapeutic targeting in the current corpus; PRKAA1 variant status may contribute to polygenic risk stratification for gastric cancer screening, though clinical actionability remains unestablished [PMID:41097736](../papers/41097736.md)
 
 ## Open questions
 
-- Polygenic risk scores for gastric cancer incorporating PRKAA1 are not yet validated for clinical use; small per-variant effect sizes and limited ancestry portability remain barriers [PMID:24816255](../papers/24816255.md)
+- Polygenic risk scores for gastric cancer incorporating PRKAA1 are not yet validated for clinical use; small per-variant effect sizes and limited ancestry portability remain barriers [PMID:41097736](../papers/41097736.md)
 
 ## Sources
 
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

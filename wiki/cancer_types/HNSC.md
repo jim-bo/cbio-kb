@@ -38,8 +38,8 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - Whole-exome sequencing of 74 HNSCC tumors identified [NOTCH1](../genes/NOTCH1.md), [TP53](../genes/TP53.md), and [CDKN2A](../genes/CDKN2A.md) as top drivers, with [NOTCH1](../genes/NOTCH1.md) mutated in ~15% of cases [PMID:21798893](../papers/21798893.md)
 - Whole-exome sequencing of 32 primary HNSCC tumors (JHU) identified recurrent [NOTCH1](../genes/NOTCH1.md) inactivating mutations as a major driver event [PMID:21798897](../papers/21798897.md)
 - Multi-platform genomic analysis of 40 OSCC (an HNSC subtype) identified four major driver pathways (mitogenic signaling 63%, Notch 66%, cell cycle 94%, [TP53](../genes/TP53.md) 60%), novel [FAT1](../genes/FAT1.md) inactivation in 46% and [CASP8](../genes/CASP8.md) mutations in 10% defining a CN-quiet subtype; 80% of tumors harbored at least one targetable alteration [PMID:23619168](../papers/23619168.md)
-- [RHOA](../genes/RHOA.md) E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma [PMID:24816253](../papers/24816253.md)
-- Narrative review of R/M [NPC](../cancer_types/NPC.md) therapeutics notes [EGFR](../genes/EGFR.md) overexpression in a substantial fraction of [NPC](../cancer_types/NPC.md) (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context [PMID:24952746](../papers/24952746.md)
+- [RHOA](../genes/RHOA.md) E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma [PMID:41002403](../papers/41002403.md)
+- Narrative review of R/M [NPC](../cancer_types/NPC.md) therapeutics notes [EGFR](../genes/EGFR.md) overexpression in a substantial fraction of [NPC](../cancer_types/NPC.md) (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context [PMID:41002550](../papers/41002550.md)
 - TCGA multi-platform profiling of 279 HNSC defined two non-overlapping biologies: HPV(+) tumours with [TRAF3](../genes/TRAF3.md) loss (14%), [PIK3CA](../genes/PIK3CA.md) helical-domain mutations (56%), and [E2F1](../genes/E2F1.md) amplification; HPV(−) tumours with [TP53](../genes/TP53.md) mutation (86%), [CDKN2A](../genes/CDKN2A.md) loss, and 11q13/22 co-amplification. Eleven significantly mutated genes identified (MutSigCV q<0.1); candidate therapeutic alterations present in most tumours. [PMID:25631445](../papers/25631445.md)
 - Morris et al. (MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; TERT promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P<.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival [PMID:27442865](../papers/27442865.md).
 - TCGA comparison: ESCC1 and ESCC2 gene expression profiles closely resemble TCGA head and neck squamous cell carcinoma (HNSCC) classical and basal subtypes respectively; ESCC3 (SMARCA4-mutant, US/Canada only) has no analogue in the TCGA HNSCC dataset [PMID:28052061](../papers/28052061.md)
@@ -52,7 +52,7 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - EGFR alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for HNSC [PMID:29625055](../papers/29625055.md)
 - N=12 in pooled MSS ICB WES cohort; APOBEC signature dominance associated with high TMB and CR/PR to immune checkpoint blockade; PIK3CA hotspot mutations in responders were from melanoma, HNSCC, anal, or bladder [PMID:30150660](../papers/30150660.md)
-- HNSC was listed as an illustrative cancer type test bed for 3D tumor models in a survey covering scaffold-free spheroids, hydrogels, bioprinting, and microfluidic platforms. [PMID:30643250](../papers/30643250.md)
+- HNSC was listed as an illustrative cancer type test bed for 3D tumor models in a survey covering scaffold-free spheroids, hydrogels, bioprinting, and microfluidic platforms. [PMID:41103502](../papers/41103502.md)
 - HNSC (n=138) was among the histologies in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for head & neck cancer. [PMID:30643254](../papers/30643254.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); head and neck squamous cell carcinoma analyzed for somatic driver landscape and mutational processes [PMID:32025007](../papers/32025007.md).
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; HNSC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
@@ -88,9 +88,9 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:21798897](../papers/21798897.md)
 - [PMID:23619168](../papers/23619168.md) — Pickering et al. Integrative genomic characterization of oral squamous cell carcinoma identifies frequent somatic drivers. *Cancer Discov* 2013.
 
-- [PMID:24816253](../papers/24816253.md)
+- [PMID:41002403](../papers/41002403.md)
 
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 - [PMID:25631445](../papers/25631445.md)
 
@@ -116,7 +116,7 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 
 - [PMID:30150660](../papers/30150660.md)
 
-- [PMID:30643250](../papers/30643250.md)
+- [PMID:41103502](../papers/41103502.md)
 
 - [PMID:30643254](../papers/30643254.md)
 

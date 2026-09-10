@@ -28,12 +28,12 @@ No corpus-specific gene-level variant frequencies are reported; the focus is on 
 - High-risk tumors are characterized by undifferentiated nC3 cluster cells overexpressing [MYCN](../genes/MYCN.md), [ALK](../genes/ALK.md), [NTRK2](../genes/NTRK2.md) (TRKB), [BCL11A](../genes/BCL11A.md), [TP63](../genes/TP63.md), and mesenchymal markers [PRRX1](../genes/PRRX1.md)/[YAP1](../genes/YAP1.md)/[PDGFRA](../genes/PDGFRA.md); low-risk tumors are dominated by noradrenergic clusters expressing [NTRK1](../genes/NTRK1.md) (TRKA), [TH](../genes/TH.md), [DBH](../genes/DBH.md), [PHOX2A](../genes/PHOX2A.md)/[PHOX2B](../genes/PHOX2B.md). [PMID:34493726](../papers/34493726.md)
 - Chromosomal alterations in high-risk nC3 cells: recurrent 17q gain, 1p loss, 11q loss (confirmed by inferCNV and microarray in samples K87, K10, 23, K55, K3). [PMID:34493726](../papers/34493726.md)
 - nC3 undifferentiated signature correlates with age-at-diagnosis (FDR = 8.12×10⁻³¹) and poor survival in 498-sample SEQC cohort (Kaplan-Meier Bonferroni-corrected p <0.01); noradrenergic nC7/nC8 signatures associate with better outcome. [PMID:34493726](../papers/34493726.md)
-- LC-MS/MS proteomics of 15 neuroblastoma tumors stratified by [MYCN](../genes/MYCN.md) status revealed distinct proteomic signatures distinguishing MYCN-amplified from non-amplified tumors [PMID:22367537](../papers/22367537.md)
+- LC-MS/MS proteomics of 15 neuroblastoma tumors stratified by [MYCN](../genes/MYCN.md) status revealed distinct proteomic signatures distinguishing MYCN-amplified from non-amplified tumors [PMID:41063451](../papers/41063451.md)
 - CCLE pharmacogenomic profiling included neuroblastoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 - WES/WGS of 240 neuroblastoma tumors identified [ALK](../genes/ALK.md), [PTPN11](../genes/PTPN11.md), and [ATRX](../genes/ATRX.md) as key recurrently mutated genes; low overall somatic mutation rate with enrichment in RAS-MAPK pathway [PMID:23334666](../papers/23334666.md)
 - Comprehensive genomic analysis of neuroblastoma identified recurrent driver alterations including [MYCN](../genes/MYCN.md) amplification and [ALK](../genes/ALK.md) mutations with implications for targeted therapy [PMID:26466568](../papers/26466568.md)
 - PIPseq cohort included 4 neuroblastoma cases; [MYCN](../genes/MYCN.md) amplification + 1p/11q LOH + 17q gain used for risk-based therapy stratification; [ATRX](../genes/ATRX.md) T1747fs identified as poor-prognosis marker; CDK4/MDM2 co-overexpression enrolled one patient on the NEPENTHE trial (NCT02780128); [NRAS](../genes/NRAS.md) and [KRAS](../genes/KRAS.md) activating mutations also identified [PMID:28007021](../papers/28007021.md)
-- NBL (neuroblastoma) was modeled in an organ-on-a-chip system: a neuroblastoma-on-a-chip using collagen biomaterial at 36 dynes/cm² shear stress supported endothelial–NB co-culture capillary formation, while static cultures produced cell death, highlighting the role of flow in vascularized tumor modeling. [PMID:30643250](../papers/30643250.md)
+- NBL (neuroblastoma) was modeled in an organ-on-a-chip system: a neuroblastoma-on-a-chip using collagen biomaterial at 36 dynes/cm² shear stress supported endothelial–NB co-culture capillary formation, while static cultures produced cell death, highlighting the role of flow in vascularized tumor modeling. [PMID:41103502](../papers/41103502.md)
 - Neuroblastoma PDX models in PPTC cohort (n=261): [MYCN](../genes/MYCN.md) amplification in 66% (most frequent alteration in full cohort), largely mutually exclusive with 11q deletion; 1p deletion 77%, 17q gain 97%; [ALK](../genes/ALK.md) hotspot mutations 37%; [TP53](../genes/TP53.md) 11%, [PTPN11](../genes/PTPN11.md) 9%, [NF1](../genes/NF1.md) 9%; relapse PDXs had significantly higher TMB (p=0.016) [PMID:31693904](../papers/31693904.md).
 - Primary disease context: 52 high-risk NBL patients at MSKCC were monitored with serial BM sequencing; only 1.05% of 657 pediatric solid-tumor patients had clonal hematopoiesis in myeloid genes (CH-PD), supporting longitudinal over single-timepoint surveillance for pediatric survivors [PMID:35078859](../papers/35078859.md)
 - Neuroblastoma (NBL) enrolled in MAPPYACTS showed highest cfDNA quantity among cancer types (median ctDNA fraction 35% vs 16% in others, P=1.4×10⁻⁸); [ALK](../genes/ALK.md) activating mutations (n=15) were investigational, MYCN/MYC amplifications (n=43 total across NBL/MBL) matched to BET inhibitors [PMID:35292802](../papers/35292802.md)
@@ -60,7 +60,7 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:34493726](../papers/34493726.md)
 
-- [PMID:22367537](../papers/22367537.md)
+- [PMID:41063451](../papers/41063451.md)
 
 - [PMID:22460905](../papers/22460905.md)
 
@@ -70,7 +70,7 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 
 - [PMID:28007021](../papers/28007021.md)
 
-- [PMID:30643250](../papers/30643250.md)
+- [PMID:41103502](../papers/41103502.md)
 
 - [PMID:31693904](../papers/31693904.md)
 

@@ -17,7 +17,7 @@ Diffuse pleural mesothelioma (DPM/PLMESO) is a rare, aggressive malignancy of th
 ## Cohorts in the corpus
 
 - 290 diffuse pleural mesothelioma patients profiled by MSK-IMPACT at Memorial Sloan Kettering (1/2014--1/2021); 210 evaluable (72%) for LOH analysis (tumor purity >=20%); 10 GNH cases identified. Additional 105-patient validation cohort sequenced with [IMPACT505](../methods/IMPACT505.md). Dataset: [plmeso_msk_2024](../datasets/plmeso_msk_2024.md). [PMID:38630790](../papers/38630790.md)
-- Included as one of 22 cancer site-of-origin classes in the ATLAS RNA classifier; sarcoma lineage scores differentiated epithelioid from biphasic/sarcomatoid mesothelioma (AUC=0.81), prognostic for survival (median 15.0 vs. 23.9 months; log-rank P=0.049). [PMID:27634761](../papers/27634761.md)
+- Included as one of 22 cancer site-of-origin classes in the ATLAS RNA classifier; sarcoma lineage scores differentiated epithelioid from biphasic/sarcomatoid mesothelioma (AUC=0.81), prognostic for survival (median 15.0 vs. 23.9 months; log-rank P=0.049). [PMID:38480799](../papers/38480799.md)
 
 ## Recurrent alterations
 
@@ -32,17 +32,17 @@ Diffuse pleural mesothelioma (DPM/PLMESO) is a rare, aggressive malignancy of th
 
 - Genomic near-haploidization (GNH) subset (~4.8% of evaluable DPMs): younger age (58 vs. 71 years, P=0.008), less asbestos exposure (20% vs. 58%, P=0.02), 80% biphasic histology (vs. 15%, P<0.0001), high TILs (3+ score: 90% vs. 20%), tumor necrosis (90% vs. 24%). Overall survival shorter: 10.9 vs. 25.4 months (P=0.004). [PMID:38630790](../papers/38630790.md)
 - Half of GNH cases showed genome duplication resulting in >=2n copy states. Chromosomes 5p and 7p recurrently spared from LOH. [PMID:38630790](../papers/38630790.md)
-- Epithelioid vs. biphasic/sarcomatoid distinction captured by RNA expression-based ATLAS sarcoma lineage scores (AUC=0.81). [PMID:27634761](../papers/27634761.md)
+- Epithelioid vs. biphasic/sarcomatoid distinction captured by RNA expression-based ATLAS sarcoma lineage scores (AUC=0.81). [PMID:38480799](../papers/38480799.md)
 
 ## Therapeutic landscape
 
 - GNH DPMs showed preliminary immunotherapy responsiveness: 2/3 GNH patients treated with ipilimumab/nivolumab or [pembrolizumab](../drugs/pembrolizumab.md) achieved partial response (67%) vs. 1/44 (2%) in non-GNH. A clinical trial of [durvalumab](../drugs/durvalumab.md) + platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and [OS](../cancer_types/OS.md) >=12 months. [PMID:38630790](../papers/38630790.md)
 - [SETDB1](../genes/SETDB1.md) mutations as a molecular marker for GNH subset when detected on panels covering this gene (e.g., [IMPACT505](../methods/IMPACT505.md)). [PMID:38630790](../papers/38630790.md)
-- RNA-based mesothelioma subtype classification (epithelioid vs. biphasic/sarcomatoid) is prognostic and may guide treatment decisions. [PMID:27634761](../papers/27634761.md)
+- RNA-based mesothelioma subtype classification (epithelioid vs. biphasic/sarcomatoid) is prognostic and may guide treatment decisions. [PMID:38480799](../papers/38480799.md)
 
 ## Sources
 
 - [PMID:38630790](../papers/38630790.md) — Diffuse pleural mesotheliomas with genomic near-haploidization: a newly recognized subset (Clinical Cancer Research, 2024)
-- [PMID:27634761](../papers/27634761.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
+- [PMID:38480799](../papers/38480799.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*

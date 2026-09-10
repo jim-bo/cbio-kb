@@ -17,7 +17,7 @@ Methoxsalen (8-methoxypsoralen, 8-MOP) is a naturally occurring furocoumarin com
 
 ## Evidence in the corpus
 
-- In ancillary in-vitro experiments supporting PMID:26950094, HaCaT keratinocytes were treated with 8-methoxypsoralen (methoxsalen) plus UVA and re-sequenced with [NanoSeq](../methods/nanoseq.md); this reproduced a PUVA-associated mutational signature comprising SBS288A and SBS288B (the latter combining APOBEC SBS2/SBS13 features with T>A/T>C/T>G changes), validating the PUVA signature recovered in two psoriasis patients (patients 8 and 15) from the clinical NB-UVB cohort. Methoxsalen was used as a cell-line reagent, not as an intervention in patients. [PMID:26950094](../papers/26950094.md)
+- In ancillary in-vitro experiments supporting PMID:40317189, HaCaT keratinocytes were treated with 8-methoxypsoralen (methoxsalen) plus UVA and re-sequenced with [NanoSeq](../methods/nanoseq.md); this reproduced a PUVA-associated mutational signature comprising SBS288A and SBS288B (the latter combining APOBEC SBS2/SBS13 features with T>A/T>C/T>G changes), validating the PUVA signature recovered in two psoriasis patients (patients 8 and 15) from the clinical NB-UVB cohort. Methoxsalen was used as a cell-line reagent, not as an intervention in patients. [PMID:40317189](../papers/40317189.md)
 
 ## Resistance mechanisms
 
@@ -25,11 +25,11 @@ Methoxsalen (8-methoxypsoralen, 8-MOP) is a naturally occurring furocoumarin com
 
 ## Cancer types (linked)
 
-- [CSCC](../cancer_types/CSCC.md) — squamous cell carcinoma of the skin; PUVA therapy is an established risk factor for cSCC; PUVA mutational signature (SBS288A/SBS288B) characterised in PMID:26950094.
+- [CSCC](../cancer_types/CSCC.md) — squamous cell carcinoma of the skin; PUVA therapy is an established risk factor for cSCC; PUVA mutational signature (SBS288A/SBS288B) characterised in PMID:40317189.
 - [BCC](../cancer_types/BCC.md) — basal cell carcinoma; mentioned as a surveillance target in the NB-UVB phototherapy study.
 
 ## Sources
 
-- [PMID:26950094](../papers/26950094.md)
+- [PMID:40317189](../papers/40317189.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

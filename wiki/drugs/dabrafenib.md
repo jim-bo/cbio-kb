@@ -22,7 +22,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - [BRAF](../genes/BRAF.md) V600-mutant cutaneous melanomas (Yale, n=147); dabrafenib cited alongside [vemurafenib](../drugs/vemurafenib.md) as an established BRAF-targeted therapy with clinical benefit in BRAF-mutant melanoma [PMID:22842228](../papers/22842228.md)
 - WES of 45 [BRAF](../genes/BRAF.md) V600 melanoma patients treated with [vemurafenib](../drugs/vemurafenib.md) or dabrafenib identified [MAP2K2](../genes/MAP2K2.md) mutations (V35M, L46F, C125S, N126D) conferring >100-fold cross-resistance to dabrafenib and [trametinib](../drugs/trametinib.md); [MAP2K1](../genes/MAP2K1.md) mutants conferred 10–80-fold dabrafenib resistance in A375 cells [PMID:24265153](../papers/24265153.md)
 - In multiple myeloma, dabrafenib paradoxically activated MAPK and promoted growth in BRAF-WT, KRAS/NRAS-mutant cell lines; conversely, dabrafenib + [trametinib](../drugs/trametinib.md) combined selectively killed BRAF-mutant (K601N) U266 MM cells without benefit in BRAF-WT lines [PMID:24434212](../papers/24434212.md)
-- [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [trametinib](../drugs/trametinib.md) [PMID:25526346](../papers/25526346.md)
+- [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [trametinib](../drugs/trametinib.md) [PMID:41008893](../papers/41008893.md)
 - One of three FDA-approved BRAF-targeted therapies for the BRAF-mutant subtype of cutaneous melanoma (52% of 318 TCGA cases; V600E n=124, V600K n=18, V600R n=3, K601 n=5); nominated alongside [vemurafenib](../drugs/vemurafenib.md) and [trametinib](../drugs/trametinib.md) in TCGA melanoma integrative analysis [PMID:26091043](../papers/26091043.md)
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including [vemurafenib](../drugs/vemurafenib.md), dabrafenib, or [trametinib](../drugs/trametinib.md); MAPKi-induced transcriptional programs overlap with the IPRES innate anti-PD-1 resistance signature, suggesting prior dabrafenib may compromise anti-PD-1 efficacy in [BRAF](../genes/BRAF.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 - Matched therapy context for [BRAF](../genes/BRAF.md) V600E (level 2A) in 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort; 55.6% of [BRAF](../genes/BRAF.md) V600E patients received matched therapy (which included [BRAF](../genes/BRAF.md) ± MEK inhibitor combinations) with 75% clinical benefit [PMID:28336552](../papers/28336552.md).
@@ -54,7 +54,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)

@@ -17,7 +17,7 @@ The brain tumor DNA-methylation classifier (Capper et al., Nature 2018) is a ran
 
 ## Used by
 
-- Applied to a urinary bladder [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma using Infinium MethylationEPIC v2.0 data; returned a low-confidence prediction score of 0.364 for the MN1-rearranged astroblastoma class — suggesting weak epigenetic similarity to [MN1](../genes/MN1.md)::BEND2-rearranged CNS tumors but below the threshold for reliable classification [PMID:28199314](../papers/28199314.md)
+- Applied to a urinary bladder [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma using Infinium MethylationEPIC v2.0 data; returned a low-confidence prediction score of 0.364 for the MN1-rearranged astroblastoma class — suggesting weak epigenetic similarity to [MN1](../genes/MN1.md)::BEND2-rearranged CNS tumors but below the threshold for reliable classification [PMID:41102727](../papers/41102727.md)
 
 ## Notes
 
@@ -28,6 +28,6 @@ The brain tumor DNA-methylation classifier (Capper et al., Nature 2018) is a ran
 
 ## Sources
 
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

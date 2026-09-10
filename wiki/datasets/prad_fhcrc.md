@@ -66,7 +66,7 @@ Rapid-autopsy multi-region genomic study of 63 men with metastatic castration-re
 - Men with somatic DNA-repair pathway aberration (FA-gene homozygous loss or [ATM](../genes/ATM.md) inactivation) had significantly longer time on carboplatin (Kaplan-Meier log-rank P = 0.02, n=20 carboplatin-treated) [PMID:26928463](../papers/26928463.md).
 - Metastasis-private mutations compared against [prad_tcga](../datasets/prad_tcga.md) and [prad_su2c_2015](../datasets/prad_su2c_2015.md) — only 2/51 private mutations occurred at >5% frequency in those cohorts, arguing most are non-driver events [PMID:26928463](../papers/26928463.md).
 - Used as a comparison mCRPC cohort (63 cases) in the MSK-IMPACT prostate cancer profiling study; HR gene alteration frequencies were cross-validated against this cohort [PMID:28825054](../papers/28825054.md).
-- Used for cross-cohort correlation of the NOL10 cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score [PMID:28927585](../papers/28927585.md).
+- Used for cross-cohort correlation of the NOL10 cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score [PMID:41062477](../papers/41062477.md).
 
 ## Sources
 
@@ -78,6 +78,6 @@ Rapid-autopsy multi-region genomic study of 63 men with metastatic castration-re
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:28927585](../papers/28927585.md)
+- [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

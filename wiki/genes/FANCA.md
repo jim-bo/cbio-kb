@@ -26,7 +26,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
 - Broader DNA-repair pathway alteration contributing to 22.7% aggregate HRR deficiency in mCRPC [PMID:26000489](../papers/26000489.md)
 - FANCA is part of the 15-gene FA pathway signature upregulated in high-CCP mCRPC tumors; homozygous deleterious FANCA events classify patients into the DNA-repair-defect group with significantly longer [carboplatin](../drugs/carboplatin.md) response (log-rank P = 0.02; 20 treated men) [PMID:26928463](../papers/26928463.md)
-- FANCA identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside [ATM](../genes/ATM.md), [CHEK2](../genes/CHEK2.md), [BAP1](../genes/BAP1.md), [FANCI](../genes/FANCI.md), [FANCM](../genes/FANCM.md), [LZTR1](../genes/LZTR1.md), and [XRCC3](../genes/XRCC3.md) [PMID:27346245](../papers/27346245.md)
+- FANCA identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside [ATM](../genes/ATM.md), [CHEK2](../genes/CHEK2.md), [BAP1](../genes/BAP1.md), [FANCI](../genes/FANCI.md), [FANCM](../genes/FANCM.md), [LZTR1](../genes/LZTR1.md), and [XRCC3](../genes/XRCC3.md) [PMID:40958859](../papers/40958859.md)
 - FANCA germline heterozygous deletion combined with somatic stopgain mutation identified in one [HNSC](../cancer_types/HNSC.md) patient sequenced with MSK-IMPACT; proposed as a potential cisplatin-sensitivity biomarker [PMID:27442865](../papers/27442865.md)
 - Identified as a somatic HR pathway gene in prostate cancer; [CDK12](../genes/CDK12.md) and FANCA loss hypothesized to confer PARP inhibitor sensitivity, though clinical significance remains emerging per OncoKB at time of publication [PMID:28825054](../papers/28825054.md)
 - Among representative cancer-associated genes inside significant copy-number-loss peaks (GISTIC2.0) in driver-less cases across the PCAWG pan-cancer cohort (n=2,658 donors) [PMID:32025007](../papers/32025007.md)
@@ -66,7 +66,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 - [PMID:26928463](../papers/26928463.md)
 
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 - [PMID:27442865](../papers/27442865.md)
 

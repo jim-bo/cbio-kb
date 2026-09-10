@@ -17,7 +17,7 @@ A functional genetics approach in which human gene variants are expressed in *Sa
 
 ## Used by
 
-- Applied to five oncogenic RHOA hotspot mutants (R5Q, G17V, C16R, A161P, E40Q) substituting for essential yeast RHO1 on 5-FOA; E40Q failed complementation while the other four supported growth [PMID:24816253](../papers/24816253.md)
+- Applied to five oncogenic RHOA hotspot mutants (R5Q, G17V, C16R, A161P, E40Q) substituting for essential yeast RHO1 on 5-FOA; E40Q failed complementation while the other four supported growth [PMID:41002403](../papers/41002403.md)
 
 ## Notes
 

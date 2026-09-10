@@ -29,7 +29,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Mutated in 2/8 (25%) gallbladder cancer ([GBC](../cancer_types/GBC.md)) discovery-screen tumors in a biliary tract cancer WES study; absent in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) in this cohort [PMID:24185509](../papers/24185509.md)
 - Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation (reported as MLL3) in a WES study of rare pancreatic tumor subtypes [PMID:24293293](../papers/24293293.md)
 - KMT2C (histone methyltransferase) is recurrently mutated in [ESCC](../cancer_types/ESCC.md), contributing to epigenetic dysregulation [PMID:24686850](../papers/24686850.md)
-- KMT2C is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
+- KMT2C is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:30061739](../papers/30061739.md)
 - Novel somatic mutation in chromatin/methyltransferase regulators in Ewing sarcoma WGS cohort [PMID:25223734](../papers/25223734.md)
 - Mutated in 6/22 gynaecologic carcinosarcomas (27%, MLL3), mostly missense with truncations; part of the most prominently mutated chromatin-remodelling gene class [PMID:25233892](../papers/25233892.md)
 - Mutated in 38.5% of 39 aggressive cSCC tumors; strongest clinical association — bone invasion 53% vs 10% wild-type (p=0.008); HR 5.16 (95% CI 1.55-17.18) for recurrence or death (p=0.003) [PMID:25303977](../papers/25303977.md)
@@ -109,7 +109,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 
 - [PMID:24686850](../papers/24686850.md)
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 - [PMID:25223734](../papers/25223734.md)
 

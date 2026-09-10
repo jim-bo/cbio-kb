@@ -17,7 +17,7 @@ HLX10 is an investigational anti-PD-1 monoclonal antibody targeting [PDCD1](../g
 
 ## Evidence in the corpus
 
-- Listed among investigational anti-PD-1/PD-L1 immune checkpoint inhibitors evaluated in recurrent/metastatic NPC; PD-1/PD-L1 monotherapy ORR approximately 15–20% in NPC [PMID:24952746](../papers/24952746.md).
+- Listed among investigational anti-PD-1/PD-L1 immune checkpoint inhibitors evaluated in recurrent/metastatic NPC; PD-1/PD-L1 monotherapy ORR approximately 15–20% in NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

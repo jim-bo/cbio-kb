@@ -25,7 +25,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - Papaemmanuil et al. 2016 sequenced 111 cancer genes in 1540 adults with AML (AMLSG trials), identifying 5234 driver mutations across 76 genes and 11 mutually exclusive genomic subgroups; three new categories (chromatin–spliceosome 18%, [TP53](../genes/TP53.md)–aneuploidy 13%, provisional [IDH2](../genes/IDH2.md) R172 1%) were defined, with the full genomic model achieving ~71% concordance for overall survival versus ~64% with ELN variables alone [PMID:27276561](../papers/27276561.md).
 - Single-arm prospective trial (N=116, Washington University) of 10-day [decitabine](../drugs/decitabine.md) cycles: 100% blast clearance in TP53-mutant AML (21/21) vs 41% in [TP53](../genes/TP53.md) wild-type (P<0.001); unfavorable-risk karyotype predicted response (67% vs 34%, P<0.001); remissions were short-lived and mutation clearance never complete; median [OS](../cancer_types/OS.md) 12.7 months (TP53-mutant) vs 15.4 months ([TP53](../genes/TP53.md) wild-type, P=0.79) — substantially better than 4–6 months with conventional induction in TP53-mutant AML [PMID:27959731](../papers/27959731.md).
 - PIPseq program (101 high-risk pediatric patients, Columbia University Medical Center) sequenced AML cases including [KIT](../genes/KIT.md) Asn655Lys, [IDH1](../genes/IDH1.md) R132C, [JAK3](../genes/JAK3.md) A573V, KMT2A-AFF1, NUP98-NSD1, [PTPN11](../genes/PTPN11.md) G503V, [CEBPA](../genes/CEBPA.md) biallelic frameshift, CBFB-MYH11 fusion, and [KMT2C](../genes/KMT2C.md) E704X mutations/fusions; actionable alterations identified in 47% of hematologic cases [PMID:28007021](../papers/28007021.md)
-- Germline WES study of 372 pediatric cancer patients (Düsseldorf) included AML cases; hematologic neoplasms accounted for 57% of the cohort and LP/PVs in [TP53](../genes/TP53.md), [CHEK2](../genes/CHEK2.md), and [ATM](../genes/ATM.md) were among the most common drivers [PMID:29489754](../papers/29489754.md)
+- Germline WES study of 372 pediatric cancer patients (Düsseldorf) included AML cases; hematologic neoplasms accounted for 57% of the cohort and LP/PVs in [TP53](../genes/TP53.md), [CHEK2](../genes/CHEK2.md), and [ATM](../genes/ATM.md) were among the most common drivers [PMID:40857049](../papers/40857049.md)
 - MC3 multi-center mutation calling project called somatic variants across 10,510 TCGA tumor/normal pairs including AML ([LAML](../cancer_types/LAML.md)); AML recovered only 44% of legacy AWG calls because tumor-in-normal contamination in [LAML](../cancer_types/LAML.md) skin 'normals' causes MC3's conservative filtering to misclassify somatic calls as germline [PMID:29596782](../papers/29596782.md)
 - Pan-cancer aneuploidy analysis (10,522 TCGA tumors) found AML has one of the lowest aneuploidy scores (mean 1.6 arm-level alterations) across 33 cancer types, consistent with a predominantly mutation-driven rather than CNA-driven disease [PMID:29622463](../papers/29622463.md)
 - AML resequencing on the Bionimbus Protected Data Cloud cited as exemplar of cloud-enabled somatic-variant discovery in adverse-risk primary AML ([CUX1](../genes/CUX1.md) haploinsufficiency study, Blood 2013); not a primary AML analysis [PMID:29902176](../papers/29902176.md)
@@ -61,7 +61,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 
 - [PMID:28007021](../papers/28007021.md)
 
-- [PMID:29489754](../papers/29489754.md)
+- [PMID:40857049](../papers/40857049.md)
 
 - [PMID:29596782](../papers/29596782.md)
 

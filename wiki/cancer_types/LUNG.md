@@ -20,7 +20,7 @@ LUNG is the OncoTree top-level tissue node for all lung cancers. It encompasses 
 
 ## Recurrent alterations
 
-- LUNG was cited as an illustrative cancer type in a review of 3D tumor model platforms (scaffold-free spheroids, scaffold-based hydrogels, bioprinting, and microfluidic systems). [PMID:30643250](../papers/30643250.md)
+- LUNG was cited as an illustrative cancer type in a review of 3D tumor model platforms (scaffold-free spheroids, scaffold-based hydrogels, bioprinting, and microfluidic systems). [PMID:41103502](../papers/41103502.md)
 - Lung cancer anatomical site represented as a treatment-planning target in a systematic review of 111 deep learning image-synthesis studies; models applied for MR-to-CT synthesis, low-dose CT restoration, and CBCT-to-CT adaptive radiotherapy — no genomic data [PMID:33305538](../papers/33305538.md)
 
 ## Subtypes

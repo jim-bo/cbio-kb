@@ -17,12 +17,12 @@ Orlistat is a pancreatic lipase inhibitor approved by the FDA for obesity treatm
 
 ## Evidence in the corpus
 
-- Orlistat (FASN inhibitor) suppresses [HCC](../cancer_types/HCC.md) growth and synergizes with [sorafenib](../drugs/sorafenib.md) and anti-PD-L1 in preclinical models; it is cited alongside TVB-2640 and TVB-3664 as a drug-repurposing candidate for FASN-inhibition–based combination therapy in HCC [PMID:38355797](../papers/38355797.md).
-- FASN inhibition alone does not downregulate PD-L1 and instead synergizes with anti-PD-L1; however, FASN-loss tumors compensate by activating cholesterol biosynthesis and lipid uptake, indicating that single-enzyme targeting is insufficient and combination approaches (e.g., FASN + [SREBF2](../genes/SREBF2.md) loss) are needed to fully abolish HCC tumor development [PMID:38355797](../papers/38355797.md).
+- Orlistat (FASN inhibitor) suppresses [HCC](../cancer_types/HCC.md) growth and synergizes with [sorafenib](../drugs/sorafenib.md) and anti-PD-L1 in preclinical models; it is cited alongside TVB-2640 and TVB-3664 as a drug-repurposing candidate for FASN-inhibition–based combination therapy in HCC [PMID:41118283](../papers/41118283.md).
+- FASN inhibition alone does not downregulate PD-L1 and instead synergizes with anti-PD-L1; however, FASN-loss tumors compensate by activating cholesterol biosynthesis and lipid uptake, indicating that single-enzyme targeting is insufficient and combination approaches (e.g., FASN + [SREBF2](../genes/SREBF2.md) loss) are needed to fully abolish HCC tumor development [PMID:41118283](../papers/41118283.md).
 
 ## Resistance mechanisms
 
-- Compensatory activation of cholesterol biosynthesis and lipid uptake pathways after FASN inhibition limits single-agent efficacy; dual FASN + SREBP2 inhibition is required to abolish HCC tumor development in Pten/Met model systems [PMID:38355797](../papers/38355797.md).
+- Compensatory activation of cholesterol biosynthesis and lipid uptake pathways after FASN inhibition limits single-agent efficacy; dual FASN + SREBP2 inhibition is required to abolish HCC tumor development in Pten/Met model systems [PMID:41118283](../papers/41118283.md).
 
 ## Cancer types (linked)
 
@@ -30,6 +30,6 @@ Orlistat is a pancreatic lipase inhibitor approved by the FDA for obesity treatm
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

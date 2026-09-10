@@ -23,7 +23,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - The authors note that clinical trials adding cetuximab to cytotoxic chemoradiotherapy in [NSCLC](../cancer_types/NSCLC.md) or HNSCC failed to improve outcomes (referenced as negative trials), motivating the ADC-delivery [paradigm](../methods/paradigm.md) over signal inhibition alone [PMID:27698471](../papers/27698471.md).
 - Used in combination with [sotorasib](../drugs/sotorasib.md) (KRASG12C inhibitor) to treat KRASG12C-mutant colorectal cancer; KRASG12C amplification identified as a recurrent acquired resistance mechanism, with mTOR inhibition (AZD8055) proposed as a senolytic strategy after drug withdrawal [PMID:36355783](../papers/36355783.md)
 - [EGFR](../genes/EGFR.md) amplification (16% of OSCC) was identified as the basis for cetuximab targeting in HNSCC, but downstream PI3K pathway alterations ([HRAS](../genes/HRAS.md), [PIK3CA](../genes/PIK3CA.md), [BRAF](../genes/BRAF.md), [AKT1](../genes/AKT1.md)) may limit EGFR-inhibitor efficacy; no biomarker for cetuximab response was identified [PMID:23619168](../papers/23619168.md)
-- Cited as a monoclonal antibody targeting [EGFR](../genes/EGFR.md) in [NPC](../cancer_types/NPC.md) with limited benefit; used as reference for EGFR-targeted therapy including ADC comparisons [PMID:24952746](../papers/24952746.md)
+- Cited as a monoclonal antibody targeting [EGFR](../genes/EGFR.md) in [NPC](../cancer_types/NPC.md) with limited benefit; used as reference for EGFR-targeted therapy including ADC comparisons [PMID:41002550](../papers/41002550.md)
 - [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, confirming that sequencing either site is equally valid for determining cetuximab eligibility [PMID:25164765](../papers/25164765.md)
 - Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via anti-EGFR monoclonal antibody therapy; cetuximab trials in cSCC noted alongside [gefitinib](../drugs/gefitinib.md) in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
 - EGFR-targeting monoclonal antibody; noted as the last approved targeted therapy for [HNSC](../cancer_types/HNSC.md) (approved 2006); no new targeted therapies validated since, motivating routine NGS in recurrent/metastatic [HNSC](../cancer_types/HNSC.md) [PMID:27442865](../papers/27442865.md)
@@ -53,7 +53,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)

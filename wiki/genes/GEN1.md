@@ -18,15 +18,15 @@ GEN1 is a Holliday junction resolvase involved in homologous recombination DNA r
 
 ## Alterations observed in the corpus
 
-- GEN1 frameshift mutation observed in a single sinonasal adenoid cystic carcinoma case; suspected germline based on allele fraction (not validated against matched normal tissue) [PMID:24418857](../papers/24418857.md)
+- GEN1 frameshift mutation observed in a single sinonasal adenoid cystic carcinoma case; suspected germline based on allele fraction (not validated against matched normal tissue) [PMID:39760648](../papers/39760648.md)
 
 ## Cancer types (linked)
 
-- Sinonasal adenoid cystic carcinoma: single-case GEN1 frameshift with suspected germline origin [PMID:24418857](../papers/24418857.md)
+- Sinonasal adenoid cystic carcinoma: single-case GEN1 frameshift with suspected germline origin [PMID:39760648](../papers/39760648.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Listed among long-tail singleton mutations of uncertain biological significance in sinonasal adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
+- Listed among long-tail singleton mutations of uncertain biological significance in sinonasal adenoid cystic carcinoma [PMID:39760648](../papers/39760648.md)
 
 ## Therapeutic relevance
 
@@ -34,10 +34,10 @@ GEN1 is a Holliday junction resolvase involved in homologous recombination DNA r
 
 ## Open questions
 
-- Germline status of GEN1 frameshift was not confirmed against matched normal tissue; somatic vs germline origin remains unresolved [PMID:24418857](../papers/24418857.md)
+- Germline status of GEN1 frameshift was not confirmed against matched normal tissue; somatic vs germline origin remains unresolved [PMID:39760648](../papers/39760648.md)
 
 ## Sources
 
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*

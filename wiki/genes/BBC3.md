@@ -15,11 +15,11 @@ BBC3 (also known as PUMA, p53 upregulated modulator of apoptosis) encodes a pro-
 
 ## Alterations observed in the corpus
 
-- Pro-apoptotic PUMA protein is inhibited by EBV BART-cluster microRNAs in NPC, contributing to apoptosis resistance [PMID:24952746](../papers/24952746.md)
+- Pro-apoptotic PUMA protein is inhibited by EBV BART-cluster microRNAs in NPC, contributing to apoptosis resistance [PMID:41002550](../papers/41002550.md)
 
 ## Cancer types (linked)
 
-- **NPC**: BBC3/PUMA suppressed by EBV viral microRNAs; contributes to apoptosis evasion in EBV-positive NPC [PMID:24952746](../papers/24952746.md)
+- **NPC**: BBC3/PUMA suppressed by EBV viral microRNAs; contributes to apoptosis evasion in EBV-positive NPC [PMID:41002550](../papers/41002550.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -35,6 +35,6 @@ _No conflicts in current corpus._
 
 ## Sources
 
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

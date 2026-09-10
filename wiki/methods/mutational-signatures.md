@@ -23,7 +23,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - NMF-based mutational signature analysis (Wellcome Trust Sanger Institute framework, Alexandrov 2013) identified three signatures in Sézary syndrome: CpG deamination/aging (C>T at NpCpG), C>A at CpCpN, and C>T at CpCpN/TpCpN [PMID:26551667](../papers/26551667.md).
 - Mutational signature decomposition adapted from Alexandrov et al. (30 COSMIC signatures) applied to 28 uveal melanoma samples; identified BRCA/signature-3 in 79% of samples, with no UV signature (COSMIC 7) detected in any sample [PMID:26683228](../papers/26683228.md).
 - nsNMF-derived mutational signature analysis of periampullary tumors identified 5 prominent signatures (out of 21); signature #1 (AC/AT>AN) was independently associated with worse overall survival (multivariate Cox p=0.02) [PMID:26804919](../papers/26804919.md)
-- COSMIC mutational signatures SBS7a, SBS7b, SBS7c, SBS7d (UVR-associated) and DBS1 (CC>[TT](../cancer_types/TT.md)) were attributed in NanoSeq data from paired pre/post NB-UVB skin biopsies; post-treatment SBS7 increase in buttock skin was significant (P<0.001, Mann-Whitney U) and correlated tightly with DBS1 increase (Pearson r=0.897). [PMID:26950094](../papers/26950094.md)
+- COSMIC mutational signatures SBS7a, SBS7b, SBS7c, SBS7d (UVR-associated) and DBS1 (CC>[TT](../cancer_types/TT.md)) were attributed in NanoSeq data from paired pre/post NB-UVB skin biopsies; post-treatment SBS7 increase in buttock skin was significant (P<0.001, Mann-Whitney U) and correlated tightly with DBS1 increase (Pearson r=0.897). [PMID:40317189](../papers/40317189.md)
 - Six mutational signatures extracted by NMF from 1,144 [NSCLC](../cancer_types/NSCLC.md) exomes; smoking signature SI4 separated never- vs ever-smokers well in ADC (AUC=0.87) but poorly in SqCC (AUC=0.62) [PMID:27158780](../papers/27158780.md)
 - Mutational signature decomposition applied to 151 advanced head and neck tumors; identified APOBEC, tobacco, and UV-light signatures — UV signature present in 86% of [CSCC](../cancer_types/CSCC.md) cases and associated with markedly higher mutation counts (37.9 vs 4.3, P=.008) [PMID:27442865](../papers/27442865.md)
 - COSMIC mutational signature decomposition applied to urothelial carcinoma WES data identified four signatures (APOBEC sigs 2/13, age, smoking, ERCC2-associated); post-chemotherapy tumours were enriched for [APOBEC3A](../genes/APOBEC3A.md) YTCA-context mutations (P=1×10⁻⁵). [PMID:27749842](../papers/27749842.md)
@@ -81,7 +81,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:26804919](../papers/26804919.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:26950094](../papers/26950094.md)
+- [PMID:40317189](../papers/40317189.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)

@@ -36,7 +36,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (Akt-signaling pathway TSG); mutually exclusive with [PIK3CA](../genes/PIK3CA.md) mutations (OR=0.092), reflecting Akt-pathway redundancy. Part of the Akt-pathway driver cluster in which 45.2% of all tumors carried ≥1 functional mutation. [PMID:27161491](../papers/27161491.md)
 - PIK3R1 mutation identified in 1 [ACYC](../cancer_types/ACYC.md) patient enrolled on a PI3K-inhibitor trial based on MSK-IMPACT sequencing [PMID:27442865](../papers/27442865.md).
 - PI3K-pathway alteration enriched in ESCC2 subtype; part of a 24% PI3K-activating-alteration frequency in ESCCs (alongside [PIK3CA](../genes/PIK3CA.md) and [PTEN](../genes/PTEN.md)) in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
-- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurs with [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [PPP2R1A](../genes/PPP2R1A.md), and [FBXW7](../genes/FBXW7.md) mutations, phenocopying the canonical endometrial cancer driver landscape [PMID:28445112](../papers/28445112.md)
+- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurs with [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [PPP2R1A](../genes/PPP2R1A.md), and [FBXW7](../genes/FBXW7.md) mutations, phenocopying the canonical endometrial cancer driver landscape [PMID:41137179](../papers/41137179.md)
 - G376R hotspot mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN) [PMID:28485815](../papers/28485815.md)
 - [PIK3CA](../genes/PIK3CA.md) and PIK3R1 alterations are predominantly known activating hotspots in advanced prostate cancer; one patient acquired a [PIK3CA](../genes/PIK3CA.md) E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
@@ -94,7 +94,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:27161491](../papers/27161491.md)
 - [PMID:27442865](../papers/27442865.md)
 - [PMID:28052061](../papers/28052061.md)
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 - [PMID:28472509](../papers/28472509.md)
 - [PMID:28485815](../papers/28485815.md)
 - [PMID:28825054](../papers/28825054.md)

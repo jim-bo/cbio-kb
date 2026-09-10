@@ -24,7 +24,7 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 - Located within or near the 11q13 [CCND1](../genes/CCND1.md) amplicon in OSCC; copy-number gain with strong CN-expression correlation; co-amplified alongside [BIRC2](../genes/BIRC2.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), and [CCND1](../genes/CCND1.md) in the 22% of OSCC tumors with 11q13 focal amplification. [PMID:23619168](../papers/23619168.md)
 - Exon-9 inactivating and splice-site mutations in 11/173 (6.4%) mantle cell lymphoma ([MCL](../cancer_types/MCL.md)); tightly co-occurs with 11q22.2 deletion (10/11 vs 25/87, P=1.1×10⁻⁴); can be acquired post-treatment, consistent with chemotherapy-driven clonal selection at relapse [PMID:24145436](../papers/24145436.md)
 - Within a recurrent significant homozygous-deletion peak in multiple myeloma (MM); co-deleted with [BIRC2](../genes/BIRC2.md) as part of the NF-kB pathway regulatory locus; recurrent homozygous deletions at this locus identified by GISTIC across 153 MM patients [PMID:24434212](../papers/24434212.md)
-- Inhibitor-of-apoptosis protein cIAP2; targeted by [tolinapant](../drugs/tolinapant.md) + radiotherapy in [NPC](../cancer_types/NPC.md) [PMID:24952746](../papers/24952746.md)
+- Inhibitor-of-apoptosis protein cIAP2; targeted by [tolinapant](../drugs/tolinapant.md) + radiotherapy in [NPC](../cancer_types/NPC.md) [PMID:41002550](../papers/41002550.md)
 - BIRC3 enriched in prior-treatment CLL samples; co-occurs with tri(12); copy loss precedes sSNV/sINDEL in biallelic inactivation; did not replicate as a PFS predictor in the CLL8 trial (frontline fludarabine-based chemoimmunotherapy, n=278) [PMID:26466571](../papers/26466571.md)
 - In 83 enucleated retinoblastomas profiled by MSK-IMPACT, BIRC3 harbored a subclonal mutation (p.A385D, VUS) in a single RB1-wildtype specimen alongside a PBRM1 truncating mutation; this tumor had only a 6p gain detectable on panel sequencing. [PMID:33466343](../papers/33466343.md)
 
@@ -55,7 +55,7 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 - [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)

@@ -21,7 +21,7 @@ processed_at: 2026-05-21
 - Candidate oncogenic driver on 9p in OSCC; high-level amplification detected in 3/38 tumors despite background 9p loss in other tumors, suggesting positive selection for NFIB gain (40-tumor MD Anderson OSCC cohort) [PMID:23619168](../papers/23619168.md)
 - MYB-NFIB fusion (t(6;9)) identified as the dominant structural lesion in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); NFIB also bears independent truncating CTF/NFI mutations (Y249*, P390fs) and 4 homozygous deletions in 57 [ACC](../cancer_types/ACC.md) cases [PMID:23685749](../papers/23685749.md)
 - NFIB is the translocation partner of [MYB](../genes/MYB.md) in 19/24 [ACC](../cancer_types/ACC.md) cases (t(6;9)); SNP6 copy-number breakpoints at the NFIB locus confirmed in MYB-activated cases [PMID:23778141](../papers/23778141.md)
-- Recipient fusion partner in canonical [MYB](../genes/MYB.md)::NFIB (49/88, 57%) and [MYBL1](../genes/MYBL1.md)::NFIB (9/88, 10%) fusions in sinonasal adenoid cystic carcinoma; FISH detected an additional NFIB rearrangement in one fusion-negative case [PMID:24418857](../papers/24418857.md)
+- Recipient fusion partner in canonical [MYB](../genes/MYB.md)::NFIB (49/88, 57%) and [MYBL1](../genes/MYBL1.md)::NFIB (9/88, 10%) fusions in sinonasal adenoid cystic carcinoma; FISH detected an additional NFIB rearrangement in one fusion-negative case [PMID:39760648](../papers/39760648.md)
 - Identified as 3′ fusion partner in MYB-NFIB chimeric transcripts (NFIB exon 8c or 9 fused to [MYB](../genes/MYB.md) exon 14) in 83% (10/12) of breast adenoid cystic carcinomas (AdCC). [PMID:26095796](../papers/26095796.md)
 - 5' end (exons 1-2) fuses with diverse partners ([MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [XRCC4](../genes/XRCC4.md), [PTPRD](../genes/PTPRD.md), [NKAIN2](../genes/NKAIN2.md), [AIG1](../genes/AIG1.md)) in adenoid cystic carcinoma; breakpoints in MYBL1-NFIB cluster in intron 10; present as fusion partner in ~53% (MYB-NFIB) and ~14% (MYBL1-NFIB) of 102-tumor [ACC](../cancer_types/ACC.md) cohort [PMID:26631609](../papers/26631609.md)
 - Partner locus in NFIB–[MYB](../genes/MYB.md) rearrangements (12/20 ACC tumors: 6 with 3′UTR loss, 6 with retained 3′UTR); hosts super-enhancers that translocate to [MYB](../genes/MYB.md) driving overexpression [PMID:26829750](../papers/26829750.md)
@@ -65,7 +65,7 @@ processed_at: 2026-05-21
 - [PMID:23778141](../papers/23778141.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)

@@ -15,11 +15,11 @@ UBE4B (Ubiquitination Factor E4B) is an E3/E4 ubiquitin ligase involved in prote
 
 ## Alterations observed in the corpus
 
-- UBE4B is a GWAS susceptibility locus/SNP associated with HBV- or HCV-related HCC risk [PMID:24735922](../papers/24735922.md)
+- UBE4B is a GWAS susceptibility locus/SNP associated with HBV- or HCV-related HCC risk [PMID:25369299](../papers/25369299.md)
 
 ## Cancer types (linked)
 
-- Hepatocellular carcinoma (HCC): germline susceptibility locus in viral hepatitis-related HCC [PMID:24735922](../papers/24735922.md)
+- Hepatocellular carcinoma (HCC): germline susceptibility locus in viral hepatitis-related HCC [PMID:25369299](../papers/25369299.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ UBE4B (Ubiquitination Factor E4B) is an E3/E4 ubiquitin ligase involved in prote
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

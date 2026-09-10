@@ -19,15 +19,15 @@ ITGB4 (Integrin Beta 4) is a transmembrane receptor that typically forms heterod
 
 ## Alterations observed in the corpus
 
-- ITGB4 forms a PD-L1/EGFR/ITGB4 complex in HCC that drives SREBP1c-dependent lipid accumulation (Zhao et al.); this complex mechanistically links PD-L1 signaling to de novo lipogenesis in HCC. [PMID:38355797](../papers/38355797.md)
+- ITGB4 forms a PD-L1/EGFR/ITGB4 complex in HCC that drives SREBP1c-dependent lipid accumulation (Zhao et al.); this complex mechanistically links PD-L1 signaling to de novo lipogenesis in HCC. [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md): ITGB4 participates in PD-L1/EGFR/ITGB4 complex–mediated activation of SREBP1c and lipid accumulation — connecting immune checkpoint biology to metabolic reprogramming in the HCC tumor microenvironment. [PMID:38355797](../papers/38355797.md)
+- [HCC](../cancer_types/HCC.md): ITGB4 participates in PD-L1/EGFR/ITGB4 complex–mediated activation of SREBP1c and lipid accumulation — connecting immune checkpoint biology to metabolic reprogramming in the HCC tumor microenvironment. [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- ITGB4 function in HCC is linked to [EGFR](../genes/EGFR.md) (co-complex partner) and SREBF1/SREBP1c (downstream transcriptional effector), placing it at the intersection of lipid metabolism and immune checkpoint pathways. [PMID:38355797](../papers/38355797.md)
+- ITGB4 function in HCC is linked to [EGFR](../genes/EGFR.md) (co-complex partner) and SREBF1/SREBP1c (downstream transcriptional effector), placing it at the intersection of lipid metabolism and immune checkpoint pathways. [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
@@ -40,6 +40,6 @@ ITGB4 (Integrin Beta 4) is a transmembrane receptor that typically forms heterod
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

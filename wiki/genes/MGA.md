@@ -18,7 +18,7 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - Altered more often in [LUAD](../cancer_types/LUAD.md) metastases than in matched primaries [PMID:37084736](../papers/37084736.md).
 - High-risk small bowel [GIST](../cancer_types/GIST.md) class in the [elastic-net](../methods/elastic-net.md) Cox genomic risk model was defined by alterations in any of MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) [PMID:37477937](../papers/37477937.md).
 - Mutation observed in [ACC](../cancer_types/ACC.md); MGA is a MYB-pathway gene [PMID:23685749](../papers/23685749.md)
-- Single frameshift mutation identified in the sequenced sinonasal adenoid cystic carcinoma cohort; categorized among single-case minor gene hits [PMID:24418857](../papers/24418857.md)
+- Single frameshift mutation identified in the sequenced sinonasal adenoid cystic carcinoma cohort; categorized among single-case minor gene hits [PMID:39760648](../papers/39760648.md)
 - MGA loss-of-function (frameshift/nonsense) mutations in 8% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); mutually exclusive with focal [MYC](../genes/MYC.md) amplification (Fisher's exact P=0.04); encodes a Max-interacting protein; nominated as significantly mutated gene by MutSig2CV [PMID:25079552](../papers/25079552.md)
 - Recurrent truncating insertions and nonsense mutations in n=17 (3.2%) of 538 CLL cases; [MYC](../genes/MYC.md) suppressor; RNA-seq shows derepression of MYC-suppressed B-cell programs in MGA-mutant CLL [PMID:26466571](../papers/26466571.md)
 - Transcriptional-regulator gene with mutations enriched in the DUX4/ERG B-ALL subtype relative to 209 other B-ALL and 16 T-ALL comparator cases [PMID:27776115](../papers/27776115.md)
@@ -51,7 +51,7 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 
 - [PMID:23685749](../papers/23685749.md)
 
-- [PMID:24418857](../papers/24418857.md)
+- [PMID:39760648](../papers/39760648.md)
 
 - [PMID:25079552](../papers/25079552.md)
 

@@ -23,7 +23,7 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - Baseline [TP53](../genes/TP53.md) co-alteration associated with lower ORR (22%, 2/9) and enriched among primary progressors ([PMID:37682528](../papers/37682528.md)).
 - In a multi-site paired primary-metastasis WES study of bladder cancer (n=60 pairs), [FGFR3](../genes/FGFR3.md) mutations/fusions were discordant in 9% of primary-metastasis pairs, and cfDNA detected acquired [FGFR3](../genes/FGFR3.md) resistance mutations (N540S, K650E, V553M) during erdafitinib therapy; both tissue and cfDNA profiling recommended to assess erdafitinib eligibility [PMID:36543146](../papers/36543146.md)
 - Referenced as an FGFR inhibitor actionable in metastatic urothelial carcinoma with [FGFR3](../genes/FGFR3.md) mutations (e.g., S249C hotspot); 69.3% of UC-GENOME patients had NGS-identified treatment options including erdafitinib, but only 5.0% received targeted therapy [PMID:36333289](../papers/36333289.md)
-- Cited in HCC context as an FGFR inhibitor relevant to FGF19/FGFR4-amplified tumors; part of discussion of FGFR-targeted therapy landscape [PMID:24798001](../papers/24798001.md)
+- Cited in HCC context as an FGFR inhibitor relevant to FGF19/FGFR4-amplified tumors; part of discussion of FGFR-targeted therapy landscape [PMID:30061739](../papers/30061739.md)
 - Pan-FGFR tyrosine kinase inhibitors including erdafitinib are proposed as rational targeted therapy for luminal-papillary MIBC (35% of cohort), which is enriched for FGFR3 mutations (42/57, p<1e-9), FGFR3-TACC3 fusions (8/10), and FGFR3 amplification [PMID:28988769](../papers/28988769.md)
 - SCBO-6 bladder organoid (FGFR3-mutant, TSC1-null) showed additive response to erdafitinib (JNJ-42756493, pan-FGFR inhibitor) combined with mTOR inhibitors AZD8055 or sirolimus; no bladder organoid lines responded to FGFR inhibitors as single agents under conditions tested [PMID:29625057](../papers/29625057.md)
 - Erdafitinib (pan-FGFR inhibitor) at 1 nM and 5 nM significantly upregulated IFNG-response gene BST2 in FGFR3-fusion-positive UCB cell lines (RT-112, RT-4, SW780), mirroring shRNA knockdown of FGFR3 and supporting the hypothesis that erdafitinib can remodel the immune-cold tumor microenvironment of UTUC; FDA accelerated approval in metastatic urothelial carcinoma with actionable FGFR alterations (phase 2 response rate 32.2% in 87 patients) is cited as precedent. [PMID:31278255](../papers/31278255.md)
@@ -49,7 +49,7 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - [PMID:36543146](../papers/36543146.md) — Sfakianos et al. 2023; FGFR3 discordance between primary and metastatic bladder cancer; cfDNA resistance mutations during erdafitinib therapy.
 
 - [PMID:36333289](../papers/36333289.md)
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 - [PMID:28988769](../papers/28988769.md)
 - [PMID:29625057](../papers/29625057.md)
 - [PMID:31278255](../papers/31278255.md)

@@ -17,8 +17,8 @@ The tumorsphere formation assay measures the ability of cancer cells to grow as 
 
 ## Used by
 
-- Used in GBC cell lines (GBC-SD, NOZ) to assess stemness; conditioned medium from stiff-matrix-activated gallbladder fibroblasts increased tumorsphere formation, an effect abrogated by SEMA7A knockdown in fibroblasts and rescued by recombinant human SEMA7A; downstream p300 inhibition (C646 or shRNA) also blocked sphere formation [PMID:24997986](../papers/24997986.md)
-- Review of 3D cell culture models describes tumorsphere-formation assays as scaffold-free suspension cultures that recapitulate hypoxic cores, stemness phenotypes, and drug-resistance; IC50 values in spheroids are typically 3–5-fold higher than in monolayers [PMID:30643250](../papers/30643250.md)
+- Used in GBC cell lines (GBC-SD, NOZ) to assess stemness; conditioned medium from stiff-matrix-activated gallbladder fibroblasts increased tumorsphere formation, an effect abrogated by SEMA7A knockdown in fibroblasts and rescued by recombinant human SEMA7A; downstream p300 inhibition (C646 or shRNA) also blocked sphere formation [PMID:40830485](../papers/40830485.md)
+- Review of 3D cell culture models describes tumorsphere-formation assays as scaffold-free suspension cultures that recapitulate hypoxic cores, stemness phenotypes, and drug-resistance; IC50 values in spheroids are typically 3–5-fold higher than in monolayers [PMID:41103502](../papers/41103502.md)
 
 ## Notes
 
@@ -29,6 +29,6 @@ The tumorsphere formation assay measures the ability of cancer cells to grow as 
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
-- [PMID:30643250](../papers/30643250.md)
+- [PMID:41103502](../papers/41103502.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

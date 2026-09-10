@@ -27,7 +27,7 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:39506116](../papers/39506116.md) — OncoKB used to annotate oncogenicity and clinical actionability of somatic alterations across 24,950 MSK-CHORD patients; variants classified for downstream multimodal survival and metastasis-tropism analyses [PMID:39506116](../papers/39506116.md).
 - [PMID:39753968](../papers/39753968.md) — OncoKB v4.12 (Dec 2023) used to annotate all somatic alterations in 2,336 [PAAD](../cancer_types/PAAD.md) patients; ~10% of patients harbored OncoKB level 1 or 2 biomarkers; an additional 78% met level 3A based on [KRAS](../genes/KRAS.md) G12D/V/R/A/S reflecting the emerging RAS-inhibitor pipeline [PMID:39753968](../papers/39753968.md).
 - Used to annotate variants in 244 [GBC](../cancer_types/GBC.md) samples; identified actionable alterations in 35% of patients (OncoKB levels 1, 3A, or 3B), including [NTRK1](../genes/NTRK1.md) fusions (level 1) and [ERBB2](../genes/ERBB2.md) amplifications (level 3B) [PMID:36228155](../papers/36228155.md)
-- Used OncoKB to annotate clinical actionability of somatic variants in pediatric cancer [PMID:28445112](../papers/28445112.md)
+- Used OncoKB to annotate clinical actionability of somatic variants in pediatric cancer [PMID:41137179](../papers/41137179.md)
 - OncoKB actionability tiers applied to MSK-IMPACT results; 36.7% of 10,336 patients harbored at least one actionable alteration, with [GIST](../cancer_types/GIST.md) (76%), thyroid (60%), breast (57%), and melanoma (56%) having the highest rates [PMID:28481359](../papers/28481359.md)
 - Used to annotate oncogenicity and clinical actionability of alterations in 9,125 TCGA PanCanAtlas tumors; 57% of tumors had at least one OncoKB-annotated actionable alteration (Levels 1–3A) [PMID:29625050](../papers/29625050.md).
 - OncoKB (as of Aug 28, 2019) used to annotate oncogenic [CDK12](../genes/CDK12.md) alterations in 26,743 MSK-IMPACT pan-cancer tumors [PMID:32317181](../papers/32317181.md)
@@ -57,7 +57,7 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)

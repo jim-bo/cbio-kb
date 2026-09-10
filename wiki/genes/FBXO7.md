@@ -15,19 +15,19 @@ FBXO7 (F-box only protein 7) is a substrate recognition subunit of the SCF (SKP1
 
 ## Alterations observed in the corpus
 
-- Copy number loss (shallow deletion) in 32.5% of CRC; associated with reduced expression, CIN, and poor outcomes; identified as the target gene for synthetic lethality (SL) exploitation via CHEK1 inhibition [PMID:36334560](../papers/36334560.md)
+- Copy number loss (shallow deletion) in 32.5% of CRC; associated with reduced expression, CIN, and poor outcomes; identified as the target gene for synthetic lethality (SL) exploitation via CHEK1 inhibition [PMID:40896366](../papers/40896366.md)
 
 ## Cancer types (linked)
 
-- CRC: copy number loss in 32.5% of cases; associated with CIN and reduced overall survival [PMID:36334560](../papers/36334560.md)
+- CRC: copy number loss in 32.5% of cases; associated with CIN and reduced overall survival [PMID:40896366](../papers/40896366.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- FBXO7 loss co-occurs with SCF complex subunit gene loss ([SKP1](../genes/SKP1.md), [CUL1](../genes/CUL1.md), [RBX1](../genes/RBX1.md)), inducing CIN in CRC [PMID:36334560](../papers/36334560.md)
+- FBXO7 loss co-occurs with SCF complex subunit gene loss ([SKP1](../genes/SKP1.md), [CUL1](../genes/CUL1.md), [RBX1](../genes/RBX1.md)), inducing CIN in CRC [PMID:40896366](../papers/40896366.md)
 
 ## Therapeutic relevance
 
-- FBXO7-deficient CRC cells are synthetically lethal to CHEK1 inhibition (siRNA or [prexasertib](../drugs/prexasertib.md)); provides rationale for CHEK1 inhibitor use in FBXO7-deleted CRC [PMID:36334560](../papers/36334560.md)
+- FBXO7-deficient CRC cells are synthetically lethal to CHEK1 inhibition (siRNA or [prexasertib](../drugs/prexasertib.md)); provides rationale for CHEK1 inhibitor use in FBXO7-deleted CRC [PMID:40896366](../papers/40896366.md)
 
 ## Open questions
 
@@ -35,6 +35,6 @@ FBXO7 (F-box only protein 7) is a substrate recognition subunit of the SCF (SKP1
 
 ## Sources
 
-- [PMID:36334560](../papers/36334560.md)
+- [PMID:40896366](../papers/40896366.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*

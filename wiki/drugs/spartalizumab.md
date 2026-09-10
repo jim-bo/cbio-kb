@@ -17,7 +17,7 @@ Spartalizumab is an anti-PD-1 monoclonal antibody targeting [PDCD1](../genes/PDC
 
 ## Evidence in the corpus
 
-- Listed as an investigational anti-PD-1 immune checkpoint inhibitor in the context of HCC immunotherapy strategies discussed in a comprehensive HCC molecular landscape review [PMID:24798001](../papers/24798001.md).
+- Listed as an investigational anti-PD-1 immune checkpoint inhibitor in the context of HCC immunotherapy strategies discussed in a comprehensive HCC molecular landscape review [PMID:30061739](../papers/30061739.md).
 
 ## Resistance mechanisms
 

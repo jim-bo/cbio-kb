@@ -38,7 +38,7 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - Loss of EGFR amplification at recurrence (n=11) associates with increased non-neoplastic cell content and mesenchymal subtype switching in IDHwt glioma [PMID:35649412](../papers/35649412.md)
 - 13% pan-cohort frequency in pan-Asian solid tumor cohort; elevated in [LUAD](../cancer_types/LUAD.md) vs MSK and TCGA; L858R 20% and exon 19 deletion 19% within [NSCLC](../cancer_types/NSCLC.md); G719 mutations in 3% of [NSCLC](../cancer_types/NSCLC.md); atypical pairwise co-occurrence with [KRAS](../genes/KRAS.md) noted [PMID:35871175](../papers/35871175.md)
 - Amplified in a single metastatic [CSCC](../cancer_types/CSCC.md) sample (CSCC_0012); structural GAIN detected by LINX/PURPLE SV analysis in 25-sample WGS cohort [PMID:35982973](../papers/35982973.md)
-- EGFR participates in a PD-L1/EGFR/ITGB4 complex that drives SREBP1c-dependent lipid accumulation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts further activate EGFR signaling in TKI-resistant HCC. [PMID:38355797](../papers/38355797.md)
+- EGFR participates in a PD-L1/EGFR/ITGB4 complex that drives SREBP1c-dependent lipid accumulation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts further activate EGFR signaling in TKI-resistant HCC. [PMID:41118283](../papers/41118283.md)
 - EGFR canonical driver mutations found in 39% of never-smoker [RB1](../genes/RB1.md)−/TP53− [SCLC](../cancer_types/SCLC.md) (nsSCLC) — anchoring the adenocarcinoma-to-SCLC plasticity pathway; absent in atypical SCLC (aSCLC, RB1+/TP53+). [PMID:39185963](../papers/39185963.md)
 
 ## Cancer types (linked)
@@ -98,7 +98,7 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 
 - [PMID:35982973](../papers/35982973.md)
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 - [PMID:39185963](../papers/39185963.md)
 

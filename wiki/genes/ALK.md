@@ -23,13 +23,13 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK fusion in 6% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
 - ALK inhibitor sensitivity profiled across cancer cell lines in the Cancer Cell Line Encyclopedia (CCLE), linking ALK alterations to drug response [PMID:22460905](../papers/22460905.md)
 - Recurrently mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ALK point mutations and amplifications found as key oncogenic drivers in neuroblastoma [PMID:23334666](../papers/23334666.md)
-- ALK-fusion lung cancer treated with [crizotinib](../drugs/crizotinib.md) is cited as a resistance analogy in [HCC](../cancer_types/HCC.md) targeted therapy — acquired resistance is expected and motivates combination regimens [PMID:24735922](../papers/24735922.md)
+- ALK-fusion lung cancer treated with [crizotinib](../drugs/crizotinib.md) is cited as a resistance analogy in [HCC](../cancer_types/HCC.md) targeted therapy — acquired resistance is expected and motivates combination regimens [PMID:25369299](../papers/25369299.md)
 - Fusions detected in 3/230 (1.3%) [LUAD](../cancer_types/LUAD.md) cases; restricted to the transversion-low subgroup; represents a clinically actionable RTK/RAS/RAF pathway alteration in oncogene-defined [LUAD](../cancer_types/LUAD.md) [PMID:25079552](../papers/25079552.md)
 - Fusions in 0.8% (4/484) of papillary thyroid carcinomas, including EML4/ALK; fusion-positive tumors characterized by younger age and are a potential targetable alteration [PMID:25417114](../papers/25417114.md)
 - ALK somatic mutations detected in 7/56 (12.5%) WGS neuroblastoma cases, distributed across both high-risk and low-risk groups — not specific to the high-risk telomere-maintenance biology defined by [TERT](../genes/TERT.md) rearrangement, [MYCN](../genes/MYCN.md) amplification, or [ATRX](../genes/ATRX.md) mutation [PMID:26466568](../papers/26466568.md)
 - ALK fusions detected in 3 PDTC cases involving partners [STRN](../genes/STRN.md), [EML4](../genes/EML4.md), and a novel [CCDC149](../genes/CCDC149.md) partner; mutually exclusive with [BRAF](../genes/BRAF.md), RAS, [TSHR](../genes/TSHR.md), and [STK11](../genes/STK11.md) mutations; PDTCs with fusions were younger (median 49 vs 58 years, P = 0.04) [PMID:26878173](../papers/26878173.md)
 - ALK fusion inhibitors cited as subtype-specific targeted therapies applicable exclusively to lung ADC; ALK/ROS1 inhibitors expected to have no role in lung SqCC given histology-restricted driver landscape [PMID:27158780](../papers/27158780.md)
-- ALK rearrangements (most often EML4-ALK, >80% of cases) over-represented in young lung cancer (YLC); targetable with [crizotinib](../drugs/crizotinib.md) and [lorlatinib](../drugs/lorlatinib.md) [PMID:27346245](../papers/27346245.md)
+- ALK rearrangements (most often EML4-ALK, >80% of cases) over-represented in young lung cancer (YLC); targetable with [crizotinib](../drugs/crizotinib.md) and [lorlatinib](../drugs/lorlatinib.md) [PMID:40958859](../papers/40958859.md)
 - [TPM3](../genes/TPM3.md)–ALK fusion identified in a uRCC case (T12), marking an emerging [RCC](../cancer_types/RCC.md) entity and raising the possibility of ALK inhibitor therapy in molecularly selected cases [PMID:27713405](../papers/27713405.md)
 - ALK Q1146K activating mutation identified in adrenocortical carcinoma ([ACC](../cancer_types/ACC.md)) in a pediatric pan-cancer sequencing cohort; ALK-inhibitor therapy initiated [PMID:28007021](../papers/28007021.md)
 - ALK mutation enriched in HR+/HER2- metastatic breast cancer (mBC) at FDR<0.1 — potentially actionable but functional consequences require further characterization [PMID:28027327](../papers/28027327.md)
@@ -42,7 +42,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the same alteration class may yield unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
 - ALK fusions are fusion drivers in small subsets of [LUAD](../cancer_types/LUAD.md) (referenced from the Fusion AWG pan-cancer analysis across 33 TCGA tumor types) [PMID:29625049](../papers/29625049.md)
 - Hotspot mutations in 37% of neuroblastoma PDX models in the PPTC cohort; also dramatically overexpressed in neuroblastoma and additional pediatric histotypes, flagged as antibody-drug-conjugate and T-cell-engager target for basket-trial design [PMID:31693904](../papers/31693904.md)
-- EML4-ALK fusions negatively associated with the 'steady' NS-LUAD transcriptomic subtype (p=1.73×10⁻⁴, FDR=0.0168); 35 tumors carry ALK fusions; in-frame ALK fusions enriched in proliferative subtype (8.2%); ALK fusions co-occurring with [TP53](../genes/TP53.md) mutations concentrated in the proliferative subtype (7 tumors) [PMID:32015526](../papers/32015526.md)
+- EML4-ALK fusions negatively associated with the 'steady' NS-LUAD transcriptomic subtype (p=1.73×10⁻⁴, FDR=0.0168); 35 tumors carry ALK fusions; in-frame ALK fusions enriched in proliferative subtype (8.2%); ALK fusions co-occurring with [TP53](../genes/TP53.md) mutations concentrated in the proliferative subtype (7 tumors) [PMID:40970133](../papers/40970133.md)
 - Two ALK fusions identified in uterine sarcomas reclassified as [inflammatory myofibroblastic tumor (IMT)](../cancer_types/IMT.md): one LBH-ALK fusion (treated with [crizotinib](../drugs/crizotinib.md), 30+ months disease stabilization) and one post-data-freeze ALK fusion (brief [crizotinib](../drugs/crizotinib.md) response, then progression on [ceritinib](../drugs/ceritinib.md)); fusion detection prompted diagnostic reclassification from uLMS to [IMT](../cancer_types/IMT.md) in both cases [PMID:32299819](../papers/32299819.md)
 - Seven in-frame ALK fusions (EML4-ALK, HMBOX1-ALK, ANKRD36B-ALK) identified in treatment-naïve [LUAD](../cancer_types/LUAD.md); outlier ALK Y1507 phosphorylation specific to fusion-positive samples validated by IHC; hyperphosphorylated [WEE1](../genes/WEE1.md) and [PTPN11](../genes/PTPN11.md) observed [PMID:32649874](../papers/32649874.md)
 - In 696 melanomas profiled by MSK-IMPACT, oncogenic ALK fusions were identified as rare drivers within the RTK-RAS-MAPK pathway, targeted successfully with kinase inhibitors in the checkpoint-refractory setting. [PMID:33509808](../papers/33509808.md)
@@ -92,7 +92,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
@@ -109,7 +109,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
@@ -146,7 +146,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)

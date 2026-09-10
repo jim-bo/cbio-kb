@@ -25,8 +25,8 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - NCI-60 CellMiner analysis linked EGFR pathway activity and [ABCB1](../genes/ABCB1.md) expression to erlotinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
 - TCGA lung squamous study (178 tumors) examined EGFR pathway alterations relevant to erlotinib sensitivity; EGFR mutations rare in [LUSC](../cancer_types/LUSC.md) population [PMID:22960745](../papers/22960745.md)
 - Broad [LUAD](../cancer_types/LUAD.md) WES (183 tumors) confirmed EGFR-activating mutations as the primary predictor of erlotinib response; co-occurring [STK11](../genes/STK11.md) loss associated with resistance [PMID:22980975](../papers/22980975.md)
-- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in [HCC](../cancer_types/HCC.md); ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 [PMID:24735922](../papers/24735922.md)
-- Failed as a frontline HCC agent in comparison vs [sorafenib](../drugs/sorafenib.md): median [OS](../cancer_types/OS.md) 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15) [PMID:24798001](../papers/24798001.md)
+- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in [HCC](../cancer_types/HCC.md); ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 [PMID:25369299](../papers/25369299.md)
+- Failed as a frontline HCC agent in comparison vs [sorafenib](../drugs/sorafenib.md): median [OS](../cancer_types/OS.md) 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15) [PMID:30061739](../papers/30061739.md)
 - Matched therapy for sensitizing EGFR mutations (exon 19 del/L858R) in 860 LUAD patients via MSK-IMPACT; clinical benefit rate 84.8% in sensitizing EGFR-mutant patients; significantly lower benefit for L861Q (43%) and exon 18 deletions (40%); 1 EGFR exon 20 insertion patient treated with erlotinib had no response; 1 ERRFI1-A143D patient derived benefit despite no EGFR mutation [PMID:28336552](../papers/28336552.md).
 - In functional validation experiments using MCF7 breast cancer cells, erlotinib (EGFR inhibitor) reversed [fulvestrant](../drugs/fulvestrant.md) resistance conferred by stable [EGFR](../genes/EGFR.md) overexpression, supporting EGFR inhibitors as candidate combination agents for EGFR-amplified endocrine-resistant HR+ breast cancer [PMID:30205045](../papers/30205045.md).
 - 1st/2nd-generation EGFR TKI; indicated for EGFR L858R/exon-19 deletion in [NSCLC](../cancer_types/NSCLC.md) (20% and 19% of NSCLC respectively in Chinese pan-cancer cohort n=10,194) [PMID:35871175](../papers/35871175.md)
@@ -60,10 +60,10 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)

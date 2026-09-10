@@ -15,12 +15,12 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 ## Alterations observed in the corpus
 
-- Loss-of-function mutation in 4% of HCCs (WES, n=1,289 patients). [PMID:24798001](../papers/24798001.md)
-- Homozygous deletion in 5% of HCCs (SNP-array, n=704 patients). [PMID:24798001](../papers/24798001.md)
+- Loss-of-function mutation in 4% of HCCs (WES, n=1,289 patients). [PMID:30061739](../papers/30061739.md)
+- Homozygous deletion in 5% of HCCs (SNP-array, n=704 patients). [PMID:30061739](../papers/30061739.md)
 - Focal copy number loss on 13q identified as a recurrently altered CNA in prostate cancer prostatectomy cohorts ([prad_mskcc](../datasets/prad_mskcc.md), [prad_mskcc_2014](../datasets/prad_mskcc_2014.md)). [PMID:25024180](../papers/25024180.md)
 - Mutated in 4% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); frameshift indels enriched in transversion-low (TL) adenocarcinomas vs [SCLC](../cancer_types/SCLC.md) (P < 0.05). [PMID:25079552](../papers/25079552.md)
 - Significantly mutated across a 25-sample muscle-invasive urothelial carcinoma cohort (MutSigCV), consistent with a major tumor-suppressor role in bladder cancer [PMID:25096233](../papers/25096233.md)
-- p53-p21-RB1 pathway remains intact in EWS::FLI1-expressing human embryonic mesenchymal stem cells (heMSCs); RB1 induction limits long-term in vitro culture of transduced cells in the Ewing sarcoma cell-of-origin model [PMID:25186949](../papers/25186949.md)
+- p53-p21-RB1 pathway remains intact in EWS::FLI1-expressing human embryonic mesenchymal stem cells (heMSCs); RB1 induction limits long-term in vitro culture of transduced cells in the Ewing sarcoma cell-of-origin model [PMID:41136396](../papers/41136396.md)
 - Heterozygous loss with no detectable protein in 3/7 MSK prostate cancer cell lines; complete deletion in MSK-PCa5 detected only by RNA-seq; represents an RB-pathway tumor-suppressor hit in castration-resistant prostate cancer models [PMID:25201530](../papers/25201530.md)
 - RB1 tumor suppressor mutations identified in 15/402 (3.7%) PTCs alongside [TP53](../genes/TP53.md), [NF1](../genes/NF1.md), [NF2](../genes/NF2.md), and [MEN1](../genes/MEN1.md); part of the tumor suppressor gene alteration cluster in PTC. [PMID:25417114](../papers/25417114.md)
 - Tumor suppressor with mutations in a metastatic cSCC cohort (n=29); component of cell-cycle regulatory defects in cSCC [PMID:25589618](../papers/25589618.md)
@@ -103,7 +103,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)** — RB1 LOF in 4% and homozygous deletion in 5%; provides mechanistic rationale for CDK4/6 inhibitor trials (e.g., [palbociclib](../drugs/palbociclib.md) in RB1-positive disease). [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md)** — RB1 LOF in 4% and homozygous deletion in 5%; provides mechanistic rationale for CDK4/6 inhibitor trials (e.g., [palbociclib](../drugs/palbociclib.md) in RB1-positive disease). [PMID:30061739](../papers/30061739.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -111,7 +111,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 ## Therapeutic relevance
 
-- RB1 loss is the rationale for CDK4/6 inhibitor ([palbociclib](../drugs/palbociclib.md), [ribociclib](../drugs/ribociclib.md)) trials in [HCC](../cancer_types/HCC.md). [PMID:24798001](../papers/24798001.md)
+- RB1 loss is the rationale for CDK4/6 inhibitor ([palbociclib](../drugs/palbociclib.md), [ribociclib](../drugs/ribociclib.md)) trials in [HCC](../cancer_types/HCC.md). [PMID:30061739](../papers/30061739.md)
 
 ## Open questions
 
@@ -119,11 +119,11 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 ## Sources
 
-- [PMID:24798001](../papers/24798001.md)
+- [PMID:30061739](../papers/30061739.md)
 - [PMID:25024180](../papers/25024180.md)
 - [PMID:25079552](../papers/25079552.md)
 - [PMID:25096233](../papers/25096233.md)
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 - [PMID:25201530](../papers/25201530.md)
 - [PMID:25417114](../papers/25417114.md)
 - [PMID:25589618](../papers/25589618.md)

@@ -22,10 +22,10 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - NTRK2 listed as an actionable fusion target within NTRK1/NTRK2/NTRK3 panel evaluated in the 194-specimen UCLA sarcoma PDTO platform; FISH-negativity for [ETV6](../genes/ETV6.md) in SARC0127 led to reclassification away from [IFS](../cancer_types/IFS.md) (which canonically carries [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion). [PMID:39305899](../papers/39305899.md)
 - Part of NTRK family (NTRK1/2/3) with 20 total mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours, 7 in kinase domains; co-occurs with [FGFR4](../genes/FGFR4.md) and [PDGFRA](../genes/PDGFRA.md) mutations. [PMID:18948947](../papers/18948947.md)
 - Two novel kinase-domain-retaining fusions identified in pilocytic astrocytoma: [QKI](../genes/QKI.md):NTRK2 and [NACC2](../genes/NACC2.md):NTRK2 (3 non-cerebellar samples); 5' partners contribute dimerization domains predicted to confer ligand-independent activation; NTRK2 identified as a rational therapeutic target alongside [FGFR1](../genes/FGFR1.md) inhibition [PMID:23817572](../papers/23817572.md)
-- NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md)
+- NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:41008893](../papers/41008893.md)
 - MAPK-pathway alteration enriched in PA-like [LGG](../cancer_types/LGG.md) (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
 - NTRK2 fusions identified in pan-lung cancer TCGA analysis (n=1144): TRIM24-NTRK2 in adenocarcinoma and novel NTRK2-TP63 fusion in squamous cell carcinoma [PMID:27158780](../papers/27158780.md)
-- Mentioned as a rare fusion target in young lung cancer (YLC) with scarce age-stratified frequency data [PMID:27346245](../papers/27346245.md)
+- Mentioned as a rare fusion target in young lung cancer (YLC) with scarce age-stratified frequency data [PMID:40958859](../papers/40958859.md)
 - Recurrent in-frame kinase-domain-preserving fusions predominantly interchromosomal; DNA-only assays miss ~26% of true NTRK2 fusions due to large intron size; reflex RNA testing recommended [PMID:31871300](../papers/31871300.md)
 - NTRK2 fusions (e.g., NTRK2-TLE4, NTRK2-SPECC1L) among the n=9 NTRK fusions classified ready-for-routine-use; resistance mutations identified after prior TRK inhibitor in the MAPPYACTS pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
 - Kinase-fusion gene present in 2.6% of sarcomas; NTRK amplifications (distinct from fusions) are not actionable per cited negative trial data [PMID:35705558](../papers/35705558.md)
@@ -62,7 +62,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:25526346](../papers/25526346.md)
+- [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
@@ -71,7 +71,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)

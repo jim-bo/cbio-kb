@@ -19,15 +19,15 @@ FABP4 (Fatty Acid Binding Protein 4), also known as adipocyte FABP (A-FABP) or a
 
 ## Alterations observed in the corpus
 
-- FABP4 reported to have a tumor suppressor role in HCC — suppresses proliferation and invasion; low FABP4 expression is a poor-prognosis marker in HCC. [PMID:38355797](../papers/38355797.md)
+- FABP4 reported to have a tumor suppressor role in HCC — suppresses proliferation and invasion; low FABP4 expression is a poor-prognosis marker in HCC. [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md): FABP4 expression loss associated with more aggressive HCC behavior (increased proliferation and invasion); functions as a poor-prognosis biomarker in this context. [PMID:38355797](../papers/38355797.md)
+- [HCC](../cancer_types/HCC.md): FABP4 expression loss associated with more aggressive HCC behavior (increased proliferation and invasion); functions as a poor-prognosis biomarker in this context. [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- FABP4's tumor-suppressive role in HCC contrasts with the tumor-promoting activities of FABP1 and FABP5 within the same fatty acid binding protein family, highlighting context-dependent roles of FABP members. [PMID:38355797](../papers/38355797.md)
+- FABP4's tumor-suppressive role in HCC contrasts with the tumor-promoting activities of FABP1 and FABP5 within the same fatty acid binding protein family, highlighting context-dependent roles of FABP members. [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
@@ -40,6 +40,6 @@ FABP4 (Fatty Acid Binding Protein 4), also known as adipocyte FABP (A-FABP) or a
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

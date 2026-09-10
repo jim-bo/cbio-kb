@@ -20,15 +20,15 @@ CD5 is a cell surface glycoprotein expressed on T cells and a subset of B cells.
 
 ## Alterations observed in the corpus
 
-- CD5 mRNA and protein upregulated in SF3B1-mutant / del(13q) double-mutant (DM) CLL cells compared to single-mutant or wild-type controls; serves as a CLL marker gene confirming the disease phenotype of DM CLL cells in the murine model [PMID:26200345](../papers/26200345.md)
+- CD5 mRNA and protein upregulated in SF3B1-mutant / del(13q) double-mutant (DM) CLL cells compared to single-mutant or wild-type controls; serves as a CLL marker gene confirming the disease phenotype of DM CLL cells in the murine model [PMID:40694421](../papers/40694421.md)
 
 ## Cancer types (linked)
 
-- [CLLSLL](../cancer_types/CLLSLL.md): upregulated in DM CLL murine model (SF3B1-K700E + del(13q) Mdr); co-upregulated with [ZAP70](../genes/ZAP70.md) as CLL-defining surface markers [PMID:26200345](../papers/26200345.md)
+- [CLLSLL](../cancer_types/CLLSLL.md): upregulated in DM CLL murine model (SF3B1-K700E + del(13q) Mdr); co-upregulated with [ZAP70](../genes/ZAP70.md) as CLL-defining surface markers [PMID:40694421](../papers/40694421.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with [ZAP70](../genes/ZAP70.md) in SF3B1-K700E / del(13q) double-mutant CLL cells [PMID:26200345](../papers/26200345.md)
+- Co-upregulated with [ZAP70](../genes/ZAP70.md) in SF3B1-K700E / del(13q) double-mutant CLL cells [PMID:40694421](../papers/40694421.md)
 
 ## Therapeutic relevance
 
@@ -36,10 +36,10 @@ CD5 is a cell surface glycoprotein expressed on T cells and a subset of B cells.
 
 ## Open questions
 
-- Whether CD5 expression level correlates specifically with [SF3B1](../genes/SF3B1.md) mutation status in human CLL patients is not directly tested in this study [PMID:26200345](../papers/26200345.md)
+- Whether CD5 expression level correlates specifically with [SF3B1](../genes/SF3B1.md) mutation status in human CLL patients is not directly tested in this study [PMID:40694421](../papers/40694421.md)
 
 ## Sources
 
-- [PMID:26200345](../papers/26200345.md)
+- [PMID:40694421](../papers/40694421.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

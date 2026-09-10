@@ -17,7 +17,7 @@ Nanatinostat is an investigational HDAC inhibitor. It is evaluated in EBV-associ
 
 ## Evidence in the corpus
 
-- Nanatinostat HDAC inhibitor listed as an investigational agent targeting EBV-driven epigenetic mechanisms in recurrent/metastatic NPC; included in the catalog of molecularly targeted agents evaluated in NPC [PMID:24952746](../papers/24952746.md).
+- Nanatinostat HDAC inhibitor listed as an investigational agent targeting EBV-driven epigenetic mechanisms in recurrent/metastatic NPC; included in the catalog of molecularly targeted agents evaluated in NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

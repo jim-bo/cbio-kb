@@ -15,11 +15,11 @@ CEACAM1 (Carcinoembryonic Antigen Related Cell Adhesion Molecule 1) is a cell ad
 
 ## Alterations observed in the corpus
 
-- Identified as a prognostic marker of the bile-acid-active CCA subtype in a review of cholangiocarcinoma biology and microbiome interactions [PMID:25608663](../papers/25608663.md)
+- Identified as a prognostic marker of the bile-acid-active CCA subtype in a review of cholangiocarcinoma biology and microbiome interactions [PMID:41018102](../papers/41018102.md)
 
 ## Cancer types (linked)
 
-- Cholangiocarcinoma (CCA): prognostic marker of the BA-active subtype [PMID:25608663](../papers/25608663.md)
+- Cholangiocarcinoma (CCA): prognostic marker of the BA-active subtype [PMID:41018102](../papers/41018102.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ CEACAM1 (Carcinoembryonic Antigen Related Cell Adhesion Molecule 1) is a cell ad
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*

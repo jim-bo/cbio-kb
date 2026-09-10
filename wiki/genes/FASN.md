@@ -16,7 +16,7 @@ FASN encodes fatty acid synthase, a key enzyme in de novo lipogenesis. In cancer
 ## Alterations observed in the corpus
 
 - Highlighted as a downstream pathway and SCNA feature in focal-deletion analyses in clear-cell renal cell carcinoma (ccRCC), as part of a broader metabolic alteration pattern (Warburg-like shift) in aggressive tumors [PMID:23792563](../papers/23792563.md)
-- FASN is the rate-limiting DNL enzyme required for MYC- and AKT-driven hepatocarcinogenesis in [HCC](../cancer_types/HCC.md); inhibition ([orlistat](../drugs/orlistat.md), TVB-2640, TVB-3664) suppresses HCC and synergizes with [sorafenib](../drugs/sorafenib.md) and anti-PD-L1; FASN stabilizes HIF1α to upregulate [SLC7A11](../genes/SLC7A11.md) and resist radiotherapy/sorafenib; single-node FASN loss compensates via cholesterol biosynthesis — dual FASN+[SREBF2](../genes/SREBF2.md) loss required to abolish tumor development. [PMID:38355797](../papers/38355797.md)
+- FASN is the rate-limiting DNL enzyme required for MYC- and AKT-driven hepatocarcinogenesis in [HCC](../cancer_types/HCC.md); inhibition ([orlistat](../drugs/orlistat.md), TVB-2640, TVB-3664) suppresses HCC and synergizes with [sorafenib](../drugs/sorafenib.md) and anti-PD-L1; FASN stabilizes HIF1α to upregulate [SLC7A11](../genes/SLC7A11.md) and resist radiotherapy/sorafenib; single-node FASN loss compensates via cholesterol biosynthesis — dual FASN+[SREBF2](../genes/SREBF2.md) loss required to abolish tumor development. [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -38,6 +38,6 @@ FASN encodes fatty acid synthase, a key enzyme in de novo lipogenesis. In cancer
 
 - [PMID:23792563](../papers/23792563.md)
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

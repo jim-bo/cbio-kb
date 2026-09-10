@@ -17,7 +17,7 @@ The sarcoma DNA-methylation classifier (Koelsche et al.) is a machine-learning c
 
 ## Used by
 
-- Applied to a urinary bladder [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma using Infinium MethylationEPIC v2.0 data (Koelsche et al. v13 classifier); the tumor did not match any sarcoma classifier subclass, indicating a novel or uncharacterized epigenetic entity [PMID:28199314](../papers/28199314.md)
+- Applied to a urinary bladder [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) fusion sarcoma using Infinium MethylationEPIC v2.0 data (Koelsche et al. v13 classifier); the tumor did not match any sarcoma classifier subclass, indicating a novel or uncharacterized epigenetic entity [PMID:41102727](../papers/41102727.md)
 
 ## Notes
 
@@ -27,6 +27,6 @@ The sarcoma DNA-methylation classifier (Koelsche et al.) is a machine-learning c
 
 ## Sources
 
-- [PMID:28199314](../papers/28199314.md)
+- [PMID:41102727](../papers/41102727.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

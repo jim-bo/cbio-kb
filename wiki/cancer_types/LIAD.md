@@ -16,26 +16,26 @@ Hepatocellular Adenoma (HCA) is a benign liver tumor classified under Hepatobili
 
 ## Cohorts in the corpus
 
-- No primary HCA cohort in the corpus; data synthesized from a narrative review covering published HCC/HCA genomic, transcriptomic, and clinical-trial data through early 2014 — [PMID:24735922](../papers/24735922.md)
+- No primary HCA cohort in the corpus; data synthesized from a narrative review covering published HCC/HCA genomic, transcriptomic, and clinical-trial data through early 2014 — [PMID:25369299](../papers/25369299.md)
 
 ## Recurrent alterations
 
-- [CTNNB1](../genes/CTNNB1.md) (β-catenin) activating mutations — present in a high-risk HCA subtype; this molecular subtype has a high risk of malignant transformation to HCC and is an indication for surgical resection [PMID:24735922](../papers/24735922.md)
-- [TERT](../genes/TERT.md) promoter mutations — detected in 17% of borderline HCA/HCC lesions and 56% of HCA with overt HCC transformation; absent in classical HCA — established as a biomarker for the HCA→HCC transition [PMID:24735922](../papers/24735922.md)
+- [CTNNB1](../genes/CTNNB1.md) (β-catenin) activating mutations — present in a high-risk HCA subtype; this molecular subtype has a high risk of malignant transformation to HCC and is an indication for surgical resection [PMID:25369299](../papers/25369299.md)
+- [TERT](../genes/TERT.md) promoter mutations — detected in 17% of borderline HCA/HCC lesions and 56% of HCA with overt HCC transformation; absent in classical HCA — established as a biomarker for the HCA→HCC transition [PMID:25369299](../papers/25369299.md)
 - 11 hepatocellular adenoma cases (non-viral, non-cirrhotic; 6 inflammatory I-HCA, 4 steatotic H-HCA, 1 beta-catenin B-HCA) profiled by MSK-IMPACT 341-gene panel; most frequent mutation HNF1A 3/9 (all H-HCA); no TERT mutations detected in any HCA; HCA miRNA profiles cluster between normal liver and HCC [PMID:30052636](../papers/30052636.md)
 
 ## Subtypes
 
-- CTNNB1-mutant HCA — high malignant-transformation risk; surgical resection recommended [PMID:24735922](../papers/24735922.md)
-- Classical HCA (no TERT promoter mutation) — lower transformation risk [PMID:24735922](../papers/24735922.md)
+- CTNNB1-mutant HCA — high malignant-transformation risk; surgical resection recommended [PMID:25369299](../papers/25369299.md)
+- Classical HCA (no TERT promoter mutation) — lower transformation risk [PMID:25369299](../papers/25369299.md)
 
 ## Therapeutic landscape
 
-- Surgical resection is the intervention of choice for CTNNB1-mutant HCA to prevent HCC transformation; no targeted systemic therapies catalogued for HCA in the corpus [PMID:24735922](../papers/24735922.md)
+- Surgical resection is the intervention of choice for CTNNB1-mutant HCA to prevent HCC transformation; no targeted systemic therapies catalogued for HCA in the corpus [PMID:25369299](../papers/25369299.md)
 
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md) — Pinyol et al. (2014), narrative review of HCC/HCA molecular profiling and targeted therapy landscape.
+- [PMID:25369299](../papers/25369299.md) — Pinyol et al. (2014), narrative review of HCC/HCA molecular profiling and targeted therapy landscape.
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:30052636](../papers/30052636.md)

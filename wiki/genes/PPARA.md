@@ -18,19 +18,19 @@ PPARA (peroxisome proliferator-activated receptor alpha) encodes a nuclear recep
 
 ## Alterations observed in the corpus
 
-- PPARA drives fatty acid oxidation (FAO) in Wnt/beta-catenin HCC; PPARα-dependent FAO defines a >25% subset of HCC with FAO addiction, which is a candidate for CPT1 inhibitor-based therapy [PMID:38355797](../papers/38355797.md)
+- PPARA drives fatty acid oxidation (FAO) in Wnt/beta-catenin HCC; PPARα-dependent FAO defines a >25% subset of HCC with FAO addiction, which is a candidate for CPT1 inhibitor-based therapy [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
-- **HCC**: PPARα drives FAO in the Wnt/beta-catenin subtype (>25% of HCC); FAO addiction in this subset is potentially targetable by CPT1A inhibitors (etomoxir, perhexiline, teglicar) [PMID:38355797](../papers/38355797.md)
+- **HCC**: PPARα drives FAO in the Wnt/beta-catenin subtype (>25% of HCC); FAO addiction in this subset is potentially targetable by CPT1A inhibitors (etomoxir, perhexiline, teglicar) [PMID:41118283](../papers/41118283.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- PPARA-driven FAO is co-activated with [CTNNB1](../genes/CTNNB1.md) (beta-catenin) and CPT1A in the Wnt/beta-catenin HCC subtype; contrasts with PPARG-driven de novo lipogenesis in other HCC subsets [PMID:38355797](../papers/38355797.md)
+- PPARA-driven FAO is co-activated with [CTNNB1](../genes/CTNNB1.md) (beta-catenin) and CPT1A in the Wnt/beta-catenin HCC subtype; contrasts with PPARG-driven de novo lipogenesis in other HCC subsets [PMID:41118283](../papers/41118283.md)
 
 ## Therapeutic relevance
 
-- CPT1A inhibitors (etomoxir — failed due to hepatotoxicity, perhexiline, teglicar/ST1326) target PPARA-driven FAO in Wnt/beta-catenin HCC; FAO-gene-degradation signature may stratify response to anti-PD-1 [PMID:38355797](../papers/38355797.md)
+- CPT1A inhibitors (etomoxir — failed due to hepatotoxicity, perhexiline, teglicar/ST1326) target PPARA-driven FAO in Wnt/beta-catenin HCC; FAO-gene-degradation signature may stratify response to anti-PD-1 [PMID:41118283](../papers/41118283.md)
 
 ## Open questions
 
@@ -38,6 +38,6 @@ PPARA (peroxisome proliferator-activated receptor alpha) encodes a nuclear recep
 
 ## Sources
 
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

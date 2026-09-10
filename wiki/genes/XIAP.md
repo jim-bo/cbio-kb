@@ -15,12 +15,12 @@ XIAP (X-linked inhibitor of apoptosis protein, BIRC4) is a member of the IAP fam
 
 ## Alterations observed in the corpus
 
-- XIAP (along with BIRC2/BIRC3) is an inhibitor-of-apoptosis protein targeted by the IAP antagonist tolinapant in combination with radiotherapy in NPC. [PMID:24952746](../papers/24952746.md)
+- XIAP (along with BIRC2/BIRC3) is an inhibitor-of-apoptosis protein targeted by the IAP antagonist tolinapant in combination with radiotherapy in NPC. [PMID:41002550](../papers/41002550.md)
 - Heterozygous germline R443P missense mutation diagnostic of X-linked lymphoproliferative syndrome 2 (XLP2) in a 6-year-old girl with hemophagocytic lymphohistiocytosis (HLH) and recurrent EBV infections [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
-- **NPC** — XIAP is a therapeutic target; tolinapant (IAP antagonist) + radiotherapy is under clinical investigation. [PMID:24952746](../papers/24952746.md)
+- **NPC** — XIAP is a therapeutic target; tolinapant (IAP antagonist) + radiotherapy is under clinical investigation. [PMID:41002550](../papers/41002550.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -28,7 +28,7 @@ XIAP (X-linked inhibitor of apoptosis protein, BIRC4) is a member of the IAP fam
 
 ## Therapeutic relevance
 
-- Tolinapant (SMAC mimetic/IAP antagonist targeting XIAP and cIAP1/2) + radiotherapy in NPC. [PMID:24952746](../papers/24952746.md)
+- Tolinapant (SMAC mimetic/IAP antagonist targeting XIAP and cIAP1/2) + radiotherapy in NPC. [PMID:41002550](../papers/41002550.md)
 
 ## Open questions
 
@@ -36,7 +36,7 @@ XIAP (X-linked inhibitor of apoptosis protein, BIRC4) is a member of the IAP fam
 
 ## Sources
 
-- [PMID:24952746](../papers/24952746.md)
+- [PMID:41002550](../papers/41002550.md)
 
 - [PMID:28007021](../papers/28007021.md)
 

@@ -15,11 +15,11 @@ NR0B1 (Nuclear Receptor Subfamily 0 Group B Member 1; also DAX1) encodes an atyp
 
 ## Alterations observed in the corpus
 
-- Established EWS::FLI1 transcriptional target; induced upon EWS::FLI1 expression in heMSCs and validated by RT-qPCR as a Ewing sarcoma marker [PMID:25186949](../papers/25186949.md)
+- Established EWS::FLI1 transcriptional target; induced upon EWS::FLI1 expression in heMSCs and validated by RT-qPCR as a Ewing sarcoma marker [PMID:41136396](../papers/41136396.md)
 
 ## Cancer types (linked)
 
-- Ewing sarcoma: EWS::FLI1-driven transcriptional target [PMID:25186949](../papers/25186949.md)
+- Ewing sarcoma: EWS::FLI1-driven transcriptional target [PMID:41136396](../papers/41136396.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ NR0B1 (Nuclear Receptor Subfamily 0 Group B Member 1; also DAX1) encodes an atyp
 
 ## Sources
 
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

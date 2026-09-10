@@ -17,7 +17,7 @@ Linifanib is a multi-kinase inhibitor targeting VEGFR and PDGFR. It was evaluate
 
 ## Evidence in the corpus
 
-- Failed as frontline HCC therapy vs sorafenib (phase III): median OS 8.0–8.8 vs 9.9–10.0 months for sorafenib (HR 1.12–1.15); demonstrated inferior efficacy in first-line setting [PMID:24798001](../papers/24798001.md).
+- Failed as frontline HCC therapy vs sorafenib (phase III): median OS 8.0–8.8 vs 9.9–10.0 months for sorafenib (HR 1.12–1.15); demonstrated inferior efficacy in first-line setting [PMID:30061739](../papers/30061739.md).
 
 ## Resistance mechanisms
 

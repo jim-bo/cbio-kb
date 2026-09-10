@@ -20,7 +20,7 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 
 ## Alterations observed in the corpus
 
-- BRD4-binding sites increase at chromatin loci in ARID1A-knockout [SCLC](../cancer_types/SCLC.md) cells, establishing BRD4 occupancy as an adaptive response to SWI/SNF complex loss and the mechanistic basis for enhanced JQ1 sensitivity [PMID:22037554](../papers/22037554.md)
+- BRD4-binding sites increase at chromatin loci in ARID1A-knockout [SCLC](../cancer_types/SCLC.md) cells, establishing BRD4 occupancy as an adaptive response to SWI/SNF complex loss and the mechanistic basis for enhanced JQ1 sensitivity [PMID:41049615](../papers/41049615.md)
 - BRD4–[NUTM1](../genes/NUTM1.md) fusion present in the TY82 thymic carcinoma cell line [PMID:24974848](../papers/24974848.md)
 - BET bromodomain protein occupying super-enhancers at [MYB](../genes/MYB.md) locus and other [MYB](../genes/MYB.md) target genes in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); grade-2 [ACC](../cancer_types/ACC.md) shows functional dependency on BRD4/BET activity, and BET inhibitor JQ1 suppresses tumour growth in [ACC](../cancer_types/ACC.md) primagraft models [PMID:26829750](../papers/26829750.md)
 - BRD4 involved in a novel NUTM1-BRD4 in-frame fusion (NUT exons 1-2, BRD4 exons 14-20) in a single ATC case from a 34-year-old woman who was alive 10 years post-diagnosis — a clinical outlier in the PDTC/ATC cohort (n=117) [PMID:26878173](../papers/26878173.md)
@@ -31,16 +31,16 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 
 ## Cancer types (linked)
 
-- [SCLC](../cancer_types/SCLC.md): BRD4 is a therapeutic target in ARID1A-low/deficient [SCLC](../cancer_types/SCLC.md); JQ1 IC50 values correlate inversely with [ARID1A](../genes/ARID1A.md) expression (r = 0.368, P = 0.032) in [SCLC](../cancer_types/SCLC.md) cell lines (GDSC1 dataset) [PMID:22037554](../papers/22037554.md)
+- [SCLC](../cancer_types/SCLC.md): BRD4 is a therapeutic target in ARID1A-low/deficient [SCLC](../cancer_types/SCLC.md); JQ1 IC50 values correlate inversely with [ARID1A](../genes/ARID1A.md) expression (r = 0.368, P = 0.032) in [SCLC](../cancer_types/SCLC.md) cell lines (GDSC1 dataset) [PMID:41049615](../papers/41049615.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- BRD4 dependency is enhanced in tumors with loss of [ARID1A](../genes/ARID1A.md) (SWI/SNF complex); [ARID1A](../genes/ARID1A.md) depletion increases BRD4 chromatin binding and sensitizes cells to JQ1 [PMID:22037554](../papers/22037554.md)
-- BRD4 inhibition by JQ1 suppresses [MYC](../genes/MYC.md) transcription and downregulates [RAD51](../genes/RAD51.md) and phospho-[CHEK1](../genes/CHEK1.md), implicating the BRD4-MYC axis in DNA damage response [PMID:22037554](../papers/22037554.md)
+- BRD4 dependency is enhanced in tumors with loss of [ARID1A](../genes/ARID1A.md) (SWI/SNF complex); [ARID1A](../genes/ARID1A.md) depletion increases BRD4 chromatin binding and sensitizes cells to JQ1 [PMID:41049615](../papers/41049615.md)
+- BRD4 inhibition by JQ1 suppresses [MYC](../genes/MYC.md) transcription and downregulates [RAD51](../genes/RAD51.md) and phospho-[CHEK1](../genes/CHEK1.md), implicating the BRD4-MYC axis in DNA damage response [PMID:41049615](../papers/41049615.md)
 
 ## Therapeutic relevance
 
-- JQ1 (BET bromodomain inhibitor) shows selective antitumor activity in ARID1A-low [SCLC](../cancer_types/SCLC.md) cell lines and xenografts; combination with BRD-K98645985 (BAF complex inhibitor) achieves Bliss synergy and superior tumor suppression vs. either agent alone (P < 0.0001) [PMID:22037554](../papers/22037554.md)
+- JQ1 (BET bromodomain inhibitor) shows selective antitumor activity in ARID1A-low [SCLC](../cancer_types/SCLC.md) cell lines and xenografts; combination with BRD-K98645985 (BAF complex inhibitor) achieves Bliss synergy and superior tumor suppression vs. either agent alone (P < 0.0001) [PMID:41049615](../papers/41049615.md)
 
 ## Open questions
 
@@ -49,7 +49,7 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 
 ## Sources
 
-- [PMID:22037554](../papers/22037554.md) — [ARID1A](../genes/ARID1A.md) Governs Genomic Stability and Proliferation in SCLC via c-MYC/PARP1 Suppression Driving Vulnerability to BET Inhibitors
+- [PMID:41049615](../papers/41049615.md) — [ARID1A](../genes/ARID1A.md) Governs Genomic Stability and Proliferation in SCLC via c-MYC/PARP1 Suppression Driving Vulnerability to BET Inhibitors
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)

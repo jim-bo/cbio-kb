@@ -17,7 +17,7 @@ AlphaMissense is a deep-learning pathogenicity predictor for amino acid substitu
 
 ## Used by
 
-- Applied to score functional impact of somatic variants in endometrial polyps; [UBE2A](../genes/UBE2A.md) p.(Arg6Trp) received an AlphaMissense score of 0.96 (likely pathogenic), supporting its nomination as a driver alteration [PMID:28445112](../papers/28445112.md)
+- Applied to score functional impact of somatic variants in endometrial polyps; [UBE2A](../genes/UBE2A.md) p.(Arg6Trp) received an AlphaMissense score of 0.96 (likely pathogenic), supporting its nomination as a driver alteration [PMID:41137179](../papers/41137179.md)
 
 ## Notes
 
@@ -27,6 +27,6 @@ AlphaMissense is a deep-learning pathogenicity predictor for amino acid substitu
 
 ## Sources
 
-- [PMID:28445112](../papers/28445112.md)
+- [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

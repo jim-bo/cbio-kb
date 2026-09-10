@@ -15,11 +15,11 @@ DKK2 (Dickkopf WNT signaling pathway inhibitor 2) is a secreted WNT pathway anta
 
 ## Alterations observed in the corpus
 
-- Established EWS::FLI1 transcriptional target; induced upon oncogene expression in heMSCs and validated by RT-qPCR in Ewing sarcoma cell-of-origin model [PMID:25186949](../papers/25186949.md)
+- Established EWS::FLI1 transcriptional target; induced upon oncogene expression in heMSCs and validated by RT-qPCR in Ewing sarcoma cell-of-origin model [PMID:41136396](../papers/41136396.md)
 
 ## Cancer types (linked)
 
-- Ewing sarcoma: EWS::FLI1 transcriptional target [PMID:25186949](../papers/25186949.md)
+- Ewing sarcoma: EWS::FLI1 transcriptional target [PMID:41136396](../papers/41136396.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,6 +29,6 @@ DKK2 (Dickkopf WNT signaling pathway inhibitor 2) is a secreted WNT pathway anta
 
 ## Sources
 
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

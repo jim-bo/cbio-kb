@@ -21,7 +21,7 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 
 ## Alterations observed in the corpus
 
-- SRSF2 mutations are associated with megakaryocyte dysplasia in the [MDS](../cancer_types/MDS.md) discovery cohort (Tokyo), though the association is confounded by co-occurrence with [STAG2](../genes/STAG2.md) mutations in multivariable analysis [PMID:21909114](../papers/21909114.md)
+- SRSF2 mutations are associated with megakaryocyte dysplasia in the [MDS](../cancer_types/MDS.md) discovery cohort (Tokyo), though the association is confounded by co-occurrence with [STAG2](../genes/STAG2.md) mutations in multivariable analysis [PMID:40720765](../papers/40720765.md)
 - SRSF2 is a recurrent spliceosome-complex gene mutated in [AML](../cancer_types/AML.md) (14% combined prevalence with [U2AF1](../genes/U2AF1.md) and [SF3B1](../genes/SF3B1.md)) [PMID:23634996](../papers/23634996.md)
 - SRSF2 somatic splicing-factor mutation in 2 [MPN](../cancer_types/MPN.md) patients; co-mutated with [TET2](../genes/TET2.md), [IDH1](../genes/IDH1.md), and [ASXL1](../genes/ASXL1.md) — a co-mutation pattern echoing [MDS](../cancer_types/MDS.md) [PMID:24325359](../papers/24325359.md)
 - Splicing factor in [AML](../cancer_types/AML.md) chromatin-spliceosome subgroup; HR 1.4 (95% CI 1.1–1.7), P=0.003, q=0.03; additive adverse effect with [ASXL1](../genes/ASXL1.md); associated with ELN intermediate-risk reclassification to adverse risk [PMID:27276561](../papers/27276561.md)
@@ -34,11 +34,11 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 
 ## Cancer types (linked)
 
-- **[MDS](../cancer_types/MDS.md)**: SRSF2 mutations are recurrent and associate with megakaryocytic dysplasia features; confounded by [STAG2](../genes/STAG2.md) co-mutation in multivariate analysis [PMID:21909114](../papers/21909114.md)
+- **[MDS](../cancer_types/MDS.md)**: SRSF2 mutations are recurrent and associate with megakaryocytic dysplasia features; confounded by [STAG2](../genes/STAG2.md) co-mutation in multivariate analysis [PMID:40720765](../papers/40720765.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [STAG2](../genes/STAG2.md), [RUNX1](../genes/RUNX1.md), [SETBP1](../genes/SETBP1.md), [SF3B1](../genes/SF3B1.md), and [TP53](../genes/TP53.md) mutations in the MDS Tokyo cohort; SRSF2-STAG2 co-mutation confounds individual morphologic associations [PMID:21909114](../papers/21909114.md)
+- Co-occurs with [STAG2](../genes/STAG2.md), [RUNX1](../genes/RUNX1.md), [SETBP1](../genes/SETBP1.md), [SF3B1](../genes/SF3B1.md), and [TP53](../genes/TP53.md) mutations in the MDS Tokyo cohort; SRSF2-STAG2 co-mutation confounds individual morphologic associations [PMID:40720765](../papers/40720765.md)
 
 ## Therapeutic relevance
 
@@ -50,7 +50,7 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 
 ## Sources
 
-- [PMID:21909114](../papers/21909114.md)
+- [PMID:40720765](../papers/40720765.md)
 
 - [PMID:23634996](../papers/23634996.md)
 

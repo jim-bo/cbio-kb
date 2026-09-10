@@ -17,15 +17,15 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 - EML4::[ALK](../genes/ALK.md) fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients). [ALK](../genes/ALK.md) resistance mutations (p.G1202R, p.G1269A) were detected upon targeted therapy progression in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
 - EML4-ALK translocation status (FISH) was annotated for 196/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
-- Mentioned in the context of RTK-targeted therapy landscape in [HCC](../cancer_types/HCC.md) (2014 genomics review) [PMID:24735922](../papers/24735922.md)
+- Mentioned in the context of RTK-targeted therapy landscape in [HCC](../cancer_types/HCC.md) (2014 genomics review) [PMID:25369299](../papers/25369299.md)
 - EML4/ALK fusion detected in papillary thyroid carcinoma (PTC); part of 4/484 (0.8%) [ALK](../genes/ALK.md) fusions in the TCGA PTC cohort; represents a potentially targetable alteration. [PMID:25417114](../papers/25417114.md)
 - EML4 is a fusion partner for ALK in PDTC (poorly differentiated thyroid cancer); ALK-EML4 fusions are present in 14% of PDTCs overall (together with other ALK partners STRN and novel CCDC149), mutually exclusive with BRAF/RAS mutations, and enriched in younger patients (median 49 vs 58 years) [PMID:26878173](../papers/26878173.md)
-- EML4-ALK fusion is the predominant ALK rearrangement in young lung cancer (>80% of ALK+ cases per Tian et al.); ALK rearrangements are over-represented in YLC vs older NSCLC and are targetable with crizotinib and lorlatinib [PMID:27346245](../papers/27346245.md)
+- EML4-ALK fusion is the predominant ALK rearrangement in young lung cancer (>80% of ALK+ cases per Tian et al.); ALK rearrangements are over-represented in YLC vs older NSCLC and are targetable with crizotinib and lorlatinib [PMID:40958859](../papers/40958859.md)
 - EML4–NTRK3 fusion detected in congenital fibrosarcoma ([IFS](../cancer_types/IFS.md)) in the PIPseq pediatric cohort; RNA-seq was required to detect the fusion and supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; flagged as an ALK-inhibitor target [PMID:28007021](../papers/28007021.md).
 - EML4-ALK fusion detected in n=38 cases, predominantly LUAD, within the MSK-IMPACT pan-cancer cohort of 10,336 patients [PMID:28481359](../papers/28481359.md)
 - **EML4-ALK** is one of the ALK fusions detected across 20 samples spanning 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in the TCGA pan-cancer fusion landscape; EML4 is the most frequent 5' partner (7/17 ALK-fusion samples); fusion status corresponds to copy-number-neutral ALK overexpression, forming the rationale for [crizotinib](../drugs/crizotinib.md) and other approved ALK inhibitors [PMID:29617662](../papers/29617662.md).
 - EML4 is the second most common upstream NTRK fusion partner, exclusively paired with NTRK3, identified across multiple tumor types in the MSK TRK fusion-positive cohort (n=26,312 sequenced patients) [PMID:31871300](../papers/31871300.md)
-- Partner in the canonical EML4-ALK fusion (33 tumors, most frequent in-frame fusion event) in non-smoking lung adenocarcinoma (NS-LUAD); the EML4-ALK fusion was used in the 'Mutation model' Cox prognostic comparator [PMID:32015526](../papers/32015526.md)
+- Partner in the canonical EML4-ALK fusion (33 tumors, most frequent in-frame fusion event) in non-smoking lung adenocarcinoma (NS-LUAD); the EML4-ALK fusion was used in the 'Mutation model' Cox prognostic comparator [PMID:40970133](../papers/40970133.md)
 - EML4-ALK fusions (plus novel HMBOX1-ALK and ANKRD36B-ALK) identified in LUAD proteogenomic study; fusion-specific EML4-Y226 phosphorylation observed only in fusion-positive samples; WEE1 hyperphosphorylation in EML4-ALK tumors [PMID:32649874](../papers/32649874.md)
 - EML4-ALK fusions detected de novo and by genotyping in NSCLC samples using MSK-ACCESS liquid biopsy [PMID:34145282](../papers/34145282.md)
 
@@ -51,7 +51,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - [PMID:30325352](../papers/30325352.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
@@ -60,7 +60,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27346245](../papers/27346245.md)
+- [PMID:40958859](../papers/40958859.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
@@ -75,7 +75,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32015526](../papers/32015526.md)
+- [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)

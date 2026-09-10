@@ -17,7 +17,7 @@ ALOX5 (arachidonate 5-lipoxygenase) encodes a lipoxygenase enzyme that oxygenate
 ## Alterations observed in the corpus
 
 - In a proteogenomic analysis of 99 treatment-naive GBMs, ALOX5 protein was upregulated exclusively in the mesenchymal-like (nmf2) subtype, co-occurring with [ACSL4](../genes/ACSL4.md) upregulation, suggesting ferroptosis-pathway activation and accumulation of oxidized PUFA-containing phosphatidylethanolamines (PEs) in mesenchymal [GBM](../cancer_types/GBM.md). [PMID:33577785](../papers/33577785.md)
-- LTB4 synthesis via ALOX5/BLT1 axis suppresses [HCC](../cancer_types/HCC.md) by reducing TGF-β and promoting T-cell infiltration, sensitizing to anti-PD-1; contrasts with PGE2/COX-2-mediated HCC promotion [PMID:38355797](../papers/38355797.md)
+- LTB4 synthesis via ALOX5/BLT1 axis suppresses [HCC](../cancer_types/HCC.md) by reducing TGF-β and promoting T-cell infiltration, sensitizing to anti-PD-1; contrasts with PGE2/COX-2-mediated HCC promotion [PMID:41118283](../papers/41118283.md)
 
 ## Cancer types (linked)
 
@@ -40,6 +40,6 @@ ALOX5 (arachidonate 5-lipoxygenase) encodes a lipoxygenase enzyme that oxygenate
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:38355797](../papers/38355797.md)
+- [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

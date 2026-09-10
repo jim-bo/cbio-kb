@@ -15,7 +15,7 @@ ITGB1 (Integrin Subunit Beta 1) encodes the beta-1 integrin chain, which pairs w
 
 ## Alterations observed in the corpus
 
-- Functional SEMA7A receptor on GBC cells; binds SEMA7A via RGD motif (RGD→RGE mutant abolishes binding); neutralizing antibody blocks downstream AKT→EP300 signaling, invasion, EMT, and stemness induction [PMID:24997986](../papers/24997986.md)
+- Functional SEMA7A receptor on GBC cells; binds SEMA7A via RGD motif (RGD→RGE mutant abolishes binding); neutralizing antibody blocks downstream AKT→EP300 signaling, invasion, EMT, and stemness induction [PMID:40830485](../papers/40830485.md)
 - ITGB1-containing integrin complexes are associated with TEAD1 knockdown sensitivity in CCLE cancer cell lines, consistent with YAP1/Hippo mechanosensing pathway activity [PMID:31978347](../papers/31978347.md)
 
 ## Cancer types (linked)
@@ -28,7 +28,7 @@ ITGB1 (Integrin Subunit Beta 1) encodes the beta-1 integrin chain, which pairs w
 
 ## Sources
 
-- [PMID:24997986](../papers/24997986.md)
+- [PMID:40830485](../papers/40830485.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:31978347](../papers/31978347.md)

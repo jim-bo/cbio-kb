@@ -15,15 +15,15 @@ CASP1 (Caspase 1) encodes an inflammatory cysteine protease that is a key mediat
 
 ## Alterations observed in the corpus
 
-- Loss of copy number at the caspase locus (CASP1, CASP4, CASP5, CASP12) observed in 10% of liver cancer samples, inhibiting apoptosis [PMID:22634756](../papers/22634756.md)
+- Loss of copy number at the caspase locus (CASP1, CASP4, CASP5, CASP12) observed in 10% of liver cancer samples, inhibiting apoptosis [PMID:41112515](../papers/41112515.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md) (hepatocellular carcinoma):** Copy number loss at the caspase locus in ~10% of cases; the concurrent deletion of multiple caspase genes at this locus likely provides a combined anti-apoptotic effect [PMID:22634756](../papers/22634756.md)
+- **[HCC](../cancer_types/HCC.md) (hepatocellular carcinoma):** Copy number loss at the caspase locus in ~10% of cases; the concurrent deletion of multiple caspase genes at this locus likely provides a combined anti-apoptotic effect [PMID:41112515](../papers/41112515.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Copy number loss co-occurs with [CTNNB1](../genes/CTNNB1.md) pathway activation and HBV integration events in HCC; the locus deletion encompasses CASP4, CASP5, and CASP12 as a cluster [PMID:22634756](../papers/22634756.md)
+- Copy number loss co-occurs with [CTNNB1](../genes/CTNNB1.md) pathway activation and HBV integration events in HCC; the locus deletion encompasses CASP4, CASP5, and CASP12 as a cluster [PMID:41112515](../papers/41112515.md)
 
 ## Therapeutic relevance
 
@@ -35,6 +35,6 @@ CASP1 (Caspase 1) encodes an inflammatory cysteine protease that is a key mediat
 
 ## Sources
 
-- [PMID:22634756](../papers/22634756.md)
+- [PMID:41112515](../papers/41112515.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*

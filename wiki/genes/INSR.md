@@ -15,15 +15,15 @@ INSR encodes the Insulin Receptor, a receptor tyrosine kinase mediating metaboli
 
 ## Alterations observed in the corpus
 
-- INSR is identified as an additional rare germline candidate variant from a Finnish HDGC exome study (Donner et al. 2015) in CDH1-negative hereditary diffuse gastric cancer families; awaits external validation. [PMID:24816255](../papers/24816255.md)
+- INSR is identified as an additional rare germline candidate variant from a Finnish HDGC exome study (Donner et al. 2015) in CDH1-negative hereditary diffuse gastric cancer families; awaits external validation. [PMID:41097736](../papers/41097736.md)
 
 ## Cancer types (linked)
 
-- **STAD (gastric adenocarcinoma):** Rare germline candidate in familial non-hereditary gastric cancer (FNHGC) and HDGC-like families without identifiable CDH1 driver mutations. [PMID:24816255](../papers/24816255.md)
+- **STAD (gastric adenocarcinoma):** Rare germline candidate in familial non-hereditary gastric cancer (FNHGC) and HDGC-like families without identifiable CDH1 driver mutations. [PMID:41097736](../papers/41097736.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-candidate with FBXO24 as a germline variant in CDH1-negative HDGC; the two were identified together in the same Finnish exome cohort. [PMID:24816255](../papers/24816255.md)
+- Co-candidate with FBXO24 as a germline variant in CDH1-negative HDGC; the two were identified together in the same Finnish exome cohort. [PMID:41097736](../papers/41097736.md)
 
 ## Therapeutic relevance
 
@@ -35,6 +35,6 @@ INSR encodes the Insulin Receptor, a receptor tyrosine kinase mediating metaboli
 
 ## Sources
 
-- [PMID:24816255](../papers/24816255.md)
+- [PMID:41097736](../papers/41097736.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

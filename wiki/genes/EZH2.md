@@ -29,7 +29,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Somatic mutations detected in pediatric ALL (St. Jude WGS/WES, 44 tumors); loss-of-function mutations implicated in epigenetic dysregulation [PMID:23334668](../papers/23334668.md)
 - Member of the chromatin-modifying gene category (with [KDM6A](../genes/KDM6A.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md)) recurrently mutated in [AML](../cancer_types/AML.md); contributes to the epigenetic regulation landscape of the disease [PMID:23634996](../papers/23634996.md)
 - Somatic variants identified in 4 patients in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
-- Identified as an established EWS::[FLI1](../genes/FLI1.md) transcriptional target induced upon oncogene expression in heMSCs; validated by RT-qPCR as part of the Ewing sarcoma transcriptional program [PMID:25186949](../papers/25186949.md)
+- Identified as an established EWS::[FLI1](../genes/FLI1.md) transcriptional target induced upon oncogene expression in heMSCs; validated by RT-qPCR as part of the Ewing sarcoma transcriptional program [PMID:41136396](../papers/41136396.md)
 - Recurrent SET-domain missense mutations Y646F, Y646H, A682G (3/112 cases) in Ewing sarcoma; known gain-of-function alleles in B-cell lymphoma; one of three significantly mutated genes by MuSiC SMG test [PMID:25223734](../papers/25223734.md)
 - Not altered in any [MPNST](../cancer_types/MPNST.md) discovery or validation cohort; explicit negative finding — PRC2 loss in [MPNST](../cancer_types/MPNST.md) occurs exclusively via [EED](../genes/EED.md) or [SUZ12](../genes/SUZ12.md) inactivation, not EZH2 [PMID:25240281](../papers/25240281.md)
 - Y641S gain-of-function lymphoma allele found in cSCC (cutaneous squamous cell carcinoma) [PMID:25589618](../papers/25589618.md)
@@ -90,7 +90,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 - [PMID:24325359](../papers/24325359.md)
 
-- [PMID:25186949](../papers/25186949.md)
+- [PMID:41136396](../papers/41136396.md)
 
 - [PMID:25223734](../papers/25223734.md)
 

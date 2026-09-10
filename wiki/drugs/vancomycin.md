@@ -21,8 +21,8 @@ Vancomycin is a glycopeptide antibiotic active against Gram-positive bacteria, i
 
 ## Evidence in the corpus
 
-- Multiple completed and active clinical trials (NCT01322386, NCT01802073, NCT02137668, NCT03710122, NCT06197308) report improved liver function tests (GGT, ALP, ALT normalization rates of 39%/22%/55.9% within 6 months) in PSC patients on oral vancomycin, supporting microbiota modulation as adjuvant therapy in PSC and CCA prevention [PMID:25608663](../papers/25608663.md)
-- Caution noted: prolonged broad-spectrum antibiotic use correlates with reduced survival in [HCC](../cancer_types/HCC.md) patients on anti-PD-1 therapy; antibiotic-microbiota strategies require careful sequencing and adjunctive probiotics/FMT to avoid immunotherapy resistance [PMID:25608663](../papers/25608663.md)
+- Multiple completed and active clinical trials (NCT01322386, NCT01802073, NCT02137668, NCT03710122, NCT06197308) report improved liver function tests (GGT, ALP, ALT normalization rates of 39%/22%/55.9% within 6 months) in PSC patients on oral vancomycin, supporting microbiota modulation as adjuvant therapy in PSC and CCA prevention [PMID:41018102](../papers/41018102.md)
+- Caution noted: prolonged broad-spectrum antibiotic use correlates with reduced survival in [HCC](../cancer_types/HCC.md) patients on anti-PD-1 therapy; antibiotic-microbiota strategies require careful sequencing and adjunctive probiotics/FMT to avoid immunotherapy resistance [PMID:41018102](../papers/41018102.md)
 
 ## Resistance mechanisms
 
@@ -32,6 +32,6 @@ Vancomycin is a glycopeptide antibiotic active against Gram-positive bacteria, i
 
 ## Sources
 
-- [PMID:25608663](../papers/25608663.md)
+- [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

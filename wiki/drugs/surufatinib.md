@@ -17,7 +17,7 @@ Surufatinib is a multi-kinase inhibitor targeting VEGFR2 ([KDR](../genes/KDR.md)
 
 ## Evidence in the corpus
 
-- Surufatinib listed as an anti-angiogenic agent targeting VEGFR2 [KDR](../genes/KDR.md) in nasopharyngeal carcinoma, alongside apatinib, axitinib, and anlotinib as part of anti-angiogenic strategies in R/M NPC [PMID:24952746](../papers/24952746.md).
+- Surufatinib listed as an anti-angiogenic agent targeting VEGFR2 [KDR](../genes/KDR.md) in nasopharyngeal carcinoma, alongside apatinib, axitinib, and anlotinib as part of anti-angiogenic strategies in R/M NPC [PMID:41002550](../papers/41002550.md).
 
 ## Resistance mechanisms
 

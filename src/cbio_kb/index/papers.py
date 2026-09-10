@@ -154,6 +154,33 @@ def iter_chunks(
     return records
 
 
+def _load_existing(out_dir: Path, args: argparse.Namespace):
+    """Return (records, vectors) from a published index built with the same
+    model and chunking as *args*, or None (with a message) if it can't be reused."""
+    import faiss  # type: ignore
+
+    meta_path, index_path = out_dir / "meta.jsonl", out_dir / "faiss.index"
+    config = json.loads((out_dir / "index_config.json").read_text()) \
+        if (out_dir / "index_config.json").exists() else {}
+    if not (meta_path.exists() and index_path.exists()):
+        print(f"[!] --incremental: no index in {out_dir}; run a full build", file=sys.stderr)
+        return None
+    expected = {"embed_model": EMBED_MODEL, "chunk_chars": args.chunk_chars, "overlap": args.overlap}
+    mismatched = {k: config.get(k) for k, v in expected.items() if config.get(k) != v}
+    if mismatched:
+        print(f"[!] --incremental: existing index differs {mismatched} from {expected}; "
+              "run a full build", file=sys.stderr)
+        return None
+    with meta_path.open(encoding="utf-8") as fh:
+        records = [json.loads(line) for line in fh]
+    index = faiss.read_index(str(index_path))
+    if index.ntotal != len(records):
+        print(f"[!] --incremental: faiss.index has {index.ntotal} vectors but meta.jsonl "
+              f"{len(records)} rows; run a full build", file=sys.stderr)
+        return None
+    return records, index.reconstruct_n(0, index.ntotal)
+
+
 def cmd_build(args: argparse.Namespace) -> int:
     import shutil
     import tempfile
@@ -177,18 +204,36 @@ def cmd_build(args: argparse.Namespace) -> int:
         )
         return 2
 
+    kept_records: list[dict] = []
+    kept_vecs = None
+    todo = pmid_list
+    if args.incremental:
+        existing = _load_existing(out_dir, args)
+        if existing is None:
+            return 1
+        old_records, old_vecs = existing
+        wanted = set(pmid_list)
+        keep = [i for i, r in enumerate(old_records) if str(r["pmid"]) in wanted]
+        have = {str(old_records[i]["pmid"]) for i in keep}
+        todo = [p for p in pmid_list if p not in have]
+        kept_records = [old_records[i] for i in keep]
+        kept_vecs = old_vecs[keep]
+        print(f"[*] incremental: keeping {len(keep)} chunks from {len(have)} papers, "
+              f"dropping {len(old_records) - len(keep)}, embedding {len(todo)} new papers")
+
     print("[*] chunking papers…")
-    records = iter_chunks(
+    new_records = iter_chunks(
         papers_dir=papers_dir,
-        pmids=pmid_list,
+        pmids=todo,
         nlp=nlp,
         chunk_chars=args.chunk_chars,
         overlap=args.overlap,
     )
+    records = kept_records + new_records
     if not records:
         print("[!] no chunks produced — aborting", file=sys.stderr)
         return 1
-    print(f"[*] produced {len(records)} chunks across {len(pmid_list)} papers")
+    print(f"[*] {len(new_records)} new chunks; {len(records)} total across {len(pmid_list)} papers")
 
     # Stage all artifacts in a sibling temp dir and swap them in only
     # after the embedding + FAISS write succeed. Avoids leaving a fresh
@@ -202,9 +247,14 @@ def cmd_build(args: argparse.Namespace) -> int:
                 fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
         print(f"[*] wrote metadata to {meta_path}")
 
-        texts = [r["text"] for r in records]
+        texts = [r["text"] for r in new_records]
         print(f"[*] embedding {len(texts)} chunks via Vertex AI ({EMBED_MODEL})…")
-        embeddings = embed_texts(texts, task_type="RETRIEVAL_DOCUMENT", batch_size=args.batch_size)
+        embeddings = (
+            embed_texts(texts, task_type="RETRIEVAL_DOCUMENT", batch_size=args.batch_size)
+            if texts else np.zeros((0, kept_vecs.shape[1]), dtype="float32")
+        )
+        if kept_vecs is not None:
+            embeddings = np.vstack([kept_vecs, embeddings])
 
         index = faiss.IndexFlatIP(embeddings.shape[1])
         index.add(embeddings)
@@ -254,6 +304,9 @@ def main(argv: list[str] | None = None) -> int:
     pb.add_argument("--chunk-chars", type=int, default=900)
     pb.add_argument("--overlap", type=int, default=120)
     pb.add_argument("--batch-size", type=int, default=_VERTEX_BATCH_SIZE)
+    pb.add_argument("--incremental", action="store_true",
+                    help="Reuse vectors from the existing index; embed only PMIDs it lacks "
+                         "and drop PMIDs no longer in --pmid-list")
     pb.set_defaults(func=cmd_build)
 
     args = p.parse_args(argv)

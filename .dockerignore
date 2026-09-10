@@ -22,9 +22,11 @@ service-account*.json
 .idea/
 .DS_Store
 
-# Large / unused data
+# Large / unused data (the committed seed CSV is the one exception: the MCP image
+# joins papers to cBioPortal study IDs through it)
 batch_pdfs/
-data/
+data/*
+!data/seed/
 *.log
 
 # Docs & tests not needed at runtime

@@ -54,6 +54,16 @@ sbx ports <sandbox-name> --publish 4321:4321/tcp
 sbx ports <sandbox-name> --publish 8080:8080/tcp
 ```
 
+## MCP server
+
+`ai_search/mcp.py` serves the KB over MCP as a companion to cBioPortal's own servers (`cbioportal-mcp` for data, `cbioportal-navigator` for URLs): same study IDs, OncoTree codes, and HUGO symbols; stdio by default, streamable HTTP at `/mcp` with `/health`. Client setup, Docker, and env vars: `docs/mcp.md`. Tests: `tests/test_mcp.py`.
+
+```bash
+uv sync --extra chat --extra server
+uv run cbio-kb serve                                  # stdio
+uv run cbio-kb serve --transport http --port 8124     # http://127.0.0.1:8124/mcp
+```
+
 ## Git workflow
 
 Direct commits and pushes to `main` are the default. Open a PR only when the change is large or risky enough that a second pair of eyes adds value.
@@ -114,8 +124,8 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 
 ### Adding a batch of N papers
 
-1. Drop PDFs into `data/raw/pdfs/`; run `ingest extract` once.
-2. Dispatch **paper-compiler** in parallel waves of ~5 PMIDs. On 529 overloads, retry failed PMIDs sequentially — do not abandon the wave.
+1. Drop PDFs into `data/raw/pdfs/`; run `ingest extract` once. To pick up everything newly published on cBioPortal instead: `uv run cbio-kb ingest seed && uv run cbio-kb ingest resolve && uv run cbio-kb ingest pdfs && uv run cbio-kb ingest extract && uv run cbio-kb ingest bioc` (the last fills papers PMC won't serve as PDF).
+2. Dispatch **paper-compiler** in parallel waves of ~5 PMIDs. On 529 overloads, retry failed PMIDs sequentially — do not abandon the wave. If Opus's safeguards flag a (benign) biomedical paper, retry that PMID on `sonnet`.
 3. Collect all returned entity lists and invert to `{entity_kind: {entity: [pmids...]}}` with a Python one-liner.
 4. Fan out **entity-page-writer** once per kind. Shard `genes` into alphabetical buckets of ~20 to keep prompts tight.
 5. Single **crosslinker** pass over the new papers + all touched entity pages (pin to `haiku`).
@@ -125,6 +135,7 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 9. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` for the `/ask` Graph tab.
 10. `cbio-kb lint`; optionally `cbio-kb ontology sync` if new studies/panels appeared.
 11. Commit per wave, not per paper.
+12. Keep the passage index in step with the wiki (otherwise rag/hybrid and the MCP search tools can't see the new papers, and the agentic-vs-rag eval is confounded): add the PMIDs to `eval/corpus_pmids.txt`, then `GCP_PROJECT=… uv run cbio-kb index build-papers --incremental` (embeds only the new papers; needs Vertex ADC and `python -m spacy download en_core_web_sm`).
 
 ### Reprocessing after ontology or template changes
 

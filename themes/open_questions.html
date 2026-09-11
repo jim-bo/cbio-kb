@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>CT radiomic signature generalizability in head-and-neck cancer.</strong> <a href="../papers/24892406.html">PMID:24892406</a> (Aerts 2014) vs <a href="../papers/37397861.html">PMID:37397861</a> (Kazmierski 2023). Aerts reports a fixed 4-feature NSCLC-trained signature generalizes without retraining to two independent HNSCC cohorts (CI=0.69 in both) and retains performance in HPV-negative HNSCC. Kazmierski, benchmarking on RADCURE (n=2,552) with three external HNSCC cohorts (n=873), reports that no radiomics-only model beat any EMR-only model, the best deep-radiomics model added to EMR <em>dropped</em> AUROC vs EMR+volume, and external performance degraded on 2 of 3 sites with significant HPV/disease-site/outcome-prevalence distribution shift. Point of contention: whether HNSCC CT <a href="../methods/radiomics.html">radiomics</a> generalizes across institutions without retraining.</li>
 <li><strong>Added value of image features beyond tumor volume + EMR in HNSCC prognosis.</strong> <a href="../papers/24892406.html">PMID:24892406</a> (Aerts 2014) reports signature+volume beats volume alone in all NSCLC/HNSCC validation cohorts. <a href="../papers/37397861.html">PMID:37397861</a> (Kazmierski 2023) reports no radiomics-only model beat any EMR-only model on RADCURE, replacing tumor volume with deep CNN features <em>lowered</em> AUROC from 0.823 to 0.766, and the top model only modestly beat volume alone on MDACC external validation. Point of contention: whether volume-independent image information adds meaningful prognostic value on top of EMR+volume in definitive-RT HNSCC.</li>
-<li><strong>PD-L1 CPS as a predictor of benefit with RT + PD-1 blockade in HNSCC.</strong> <a href="../papers/38780927.html">PMID:38780927</a> (Saba 2024) reports PD-L1 CPS (22C3) &lt;20 vs ≥20 does <strong>not</strong> stratify PFS (P=0.86) or <a href="../cancer_types/OS.html">OS</a> (P=0.74) in IMRT reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a>, explicitly divergent from recurrent/ metastatic HNSCC with single-agent PD-1 blockade. Point of contention: whether PD-L1 CPS retains predictive value when PD-1 blockade is combined with radiation in a previously irradiated field.</li>
+<li><strong>PD-L1 CPS as a predictor of benefit with RT + PD-1 blockade in HNSCC.</strong> <a href="../papers/38780927.html">PMID:38780927</a> (Saba 2024) reports PD-L1 CPS (22C3) &lt;20 vs ≥20 does <strong>not</strong> stratify PFS (P=0.86) or OS (P=0.74) in IMRT reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a>, explicitly divergent from recurrent/ metastatic HNSCC with single-agent PD-1 blockade. Point of contention: whether PD-L1 CPS retains predictive value when PD-1 blockade is combined with radiation in a previously irradiated field.</li>
 <li><strong>Direction of the early peripheral PD-1+Ki-67+ <a href="../genes/CD4.html">CD4</a>+ T-cell surge under PD-1 blockade.</strong> <a href="../papers/38780927.html">PMID:38780927</a> (Saba 2024) reports a ≥1.5-fold surge at week 2–4 trends toward <strong>worse</strong> PFS (HR 2.09; median 16.0 vs 27.1 months) in HNSCC reirradiation + nivolumab, opposite in direction to prior reports in lung cancer and melanoma under PD-1 blockade alone (external literature cited by the paper, not present as a primary paper in this corpus). Point of contention: whether the peripheral PD-1+Ki-67+ CD4+ pharmacodynamic biomarker has opposite sign in RT-combined immunotherapy vs immunotherapy alone.</li>
 <li><strong>Ketogenic diet as a radiosensitizer vs radioresistance promoter.</strong> <a href="../papers/41941260.html">PMID:41941260</a> (ROBIN consortium, OligoMET Project 2) reports that ketogenic diets <em>unexpectedly</em> promoted radio-resistance in preclinical prostate-cancer models, while low-fat and calorie-restricted regimens enhanced radiation response. The paper explicitly flags this as contrary to prior expectation in the preclinical literature. Point of contention: the direction of the ketogenic-diet effect on RT response.</li>
 </ul>

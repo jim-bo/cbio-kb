@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,13 +173,14 @@ ul.task-list li input[type="checkbox"] {
 <h1>MLLT10</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>MLLT10 (MLLT10 Histone Lysine Methyltransferase DOT1L Cofactor), also known as AF10, is a transcriptional cofactor that acts as a fusion partner for <a href="../genes/KMT2A.html">KMT2A</a> (MLL) and <a href="../genes/PICALM.html">PICALM</a> in acute myeloid leukemia. MLLT10 fusions dysregulate gene expression programs critical for hematopoietic differentiation. In <a href="../cancer_types/AML.html">AML</a>, KMT2A-fusion samples carry the fewest cooperating mutations, suggesting that KMT2A–MLLT10 fusions may be sufficient to initiate disease.</p>
+<p>MLLT10 (MLLT10 Histone Lysine Methyltransferase <a href="../genes/DOT1L.html">DOT1L</a> Cofactor), also known as AF10, is a transcriptional cofactor that acts as a fusion partner for <a href="../genes/KMT2A.html">KMT2A</a> (MLL) and <a href="../genes/PICALM.html">PICALM</a> in acute myeloid leukemia. MLLT10 fusions dysregulate gene expression programs critical for hematopoietic differentiation. In <a href="../cancer_types/AML.html">AML</a>, KMT2A-fusion samples carry the fewest cooperating mutations, suggesting that <a href="../genes/KMT2A.html">KMT2A</a>–MLLT10 fusions may be sufficient to initiate disease.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>KMT2A (MLL)–MLLT10 fusion identified as one of the recurrent KMT2A fusion partners in 200 adult de novo AML cases; KMT2A-fused samples carried the fewest cooperating tier-1 mutations (mean 2.09 vs 5.24 overall; P=0.002), suggesting fusion sufficiency <a href="../papers/23634996.html">PMID:23634996</a></li>
-<li>PICALM–MLLT10 (PICALM–AF10) detected as a recurrent in-frame fusion by RNA-seq in the TCGA AML cohort (200 cases) <a href="../papers/23634996.html">PMID:23634996</a></li>
+<li>KMT2A (MLL)–MLLT10 fusion identified as one of the recurrent KMT2A fusion partners in 200 adult de novo <a href="../cancer_types/AML.html">AML</a> cases; KMT2A-fused samples carried the fewest cooperating tier-1 mutations (mean 2.09 vs 5.24 overall; P=0.002), suggesting fusion sufficiency <a href="../papers/23634996.html">PMID:23634996</a></li>
+<li><a href="../genes/PICALM.html">PICALM</a>–MLLT10 (PICALM–AF10) detected as a recurrent in-frame fusion by RNA-seq in the TCGA AML cohort (200 cases) <a href="../papers/23634996.html">PMID:23634996</a></li>
+<li>PICALM::MLLT10 fusion in 8 of 887 pediatric AML cases, associated with poor outcome and frequent complex karyotype <a href="../papers/38212634.html">PMID:38212634</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -208,8 +212,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/23634996.html">PMID:23634996</a></li>
+<li><a href="../papers/38212634.html">PMID:38212634</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

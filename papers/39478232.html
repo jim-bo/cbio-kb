@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Progressive plasticity during colorectal cancer metastasis – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39478232.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39478232.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Progressive plasticity during colorectal cancer metastasis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Andrew Moorman </p>
+             <p>Elizabeth K Benitez </p>
+             <p>Francesco Cambuli </p>
+             <p>Qingwen Jiang </p>
+             <p>Ahmed Mahmoud </p>
+             <p>Melissa Lumish </p>
+             <p>Saskia Hartner </p>
+             <p>Sasha Balkaran </p>
+             <p>Jonathan Bermeo </p>
+             <p>Simran Asawa </p>
+             <p>Canan Firat </p>
+             <p>Asha Saxena </p>
+             <p>Fan Wu </p>
+             <p>Anisha Luthra </p>
+             <p>Cassandra Burdziak </p>
+             <p>Yubin Xie </p>
+             <p>Valeria Sgambati </p>
+             <p>Kathleen Luckett </p>
+             <p>Yanyun Li </p>
+             <p>Zhifan Yi </p>
+             <p>Ignas Masilionis </p>
+             <p>Kevin Soares </p>
+             <p>Emmanouil Pappou </p>
+             <p>Rona Yaeger </p>
+             <p>T Peter Kingham </p>
+             <p>William Jarnagin </p>
+             <p>Philip B Paty </p>
+             <p>Martin R Weiser </p>
+             <p>Linas Mazutis </p>
+             <p>Michael D’Angelica </p>
+             <p>Jinru Shia </p>
+             <p>Julio Garcia-Aguilar </p>
+             <p>Tal Nawy </p>
+             <p>Travis J Hollmann </p>
+             <p>Ronan Chaligné </p>
+             <p>Francisco Sanchez-Vega </p>
+             <p>Roshan Sharma </p>
+             <p>Dana Pe’er </p>
+             <p>Karuna Ganesh </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41586-024-08150-0">10.1038/s41586-024-08150-0</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 39478232 · <strong>DOI:</strong> 10.1038/s41586-024-08150-0 · <strong>Journal:</strong> Nature (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Using scRNA-seq, multiplex immunofluorescence and matched organoids from prospectively collected trios of normal colon, primary tumour and metastasis from 31 patients with microsatellite-stable <a href="../cancer_types/COADREAD.html">colorectal cancer</a> (CRC), Moorman, Benitez, Cambulli and colleagues show that CRC progression follows an ordered, largely conserved sequence of cell-state transitions: normal intestinal cells first dedifferentiate into an <a href="../genes/LGR5.html">LGR5</a>+ intestinal-stem-cell (ISC)-like state that dominates primary tumours; invasive/metastatic cells then pass through a highly conserved human fetal progenitor state; and a subset finally undergoes non-canonical transdifferentiation into squamous-like and neuroendocrine-like lineages that are strongly enriched in metastases and are associated with worse disease-free and overall survival in two independent bulk cohorts. Matched primary- and metastasis-derived organoids show that metastatic cells retain greater cell-autonomous multilineage plasticity than their paired primary counterparts, and the transcription factor <a href="../genes/PROX1.html">PROX1</a> is identified as a context-dependent repressor of this non-canonical plasticity, with loss of PROX1-driven lineage restriction licensing non-canonical differentiation as tumours progress. Source: <a href="../papers/39478232.html">PMID:39478232</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Primary cohort:</strong> biospecimen trios (normal colon, primary tumour, metastasis) prospectively collected from 31 patients with microsatellite-stable, mismatch-repair-proficient (MSS/pMMR) <a href="../cancer_types/COADREAD.html">colorectal cancer</a> undergoing synchronous hemicolectomy and metastasectomy at Memorial Sloan Kettering (MSK). Metastatic sites: 29 liver, plus peritoneum, lung and chest wall. 9 patients were treatment-naive; 22 received pre-operative 5-fluorouracil-based chemotherapy (dataset study id <a href="../datasets/crc_hta8_htan_2024.html">crc_hta8_htan_2024</a>, part of the Human Tumor Atlas Network, HTAN).</li>
+<li><strong>Assays:</strong> <a href="../methods/scrna-seq.html">scRNA-seq</a> on 83 samples from all 31 patients (10x Genomics 3′ v3.1), yielding 47,437 high-quality epithelial cell profiles (26,145 tumour cells after InferCNV-based cancer-cell calling; 21,297 non-tumour epithelial cells); patient-derived epithelial organoids from 29 samples/15 patients (with additional metachronous-metastasis organoids for 6 patients); <a href="../methods/multiplexed-immunofluorescence.html">multiplexed immunofluorescence</a> (7-colour Vectra and 12-colour Lunaphore COMET panels) on 72 samples from 21 patients (74 tissue sections in total).</li>
+<li><strong>Genomics:</strong> clinical <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted exon sequencing on tumour/normal tissue from 27/31 patients, with somatic variants classified oncogenic/likely oncogenic/predicted oncogenic using <a href="../methods/oncokb-annotation.html">OncoKB</a>; copy-number estimates from targeted panel data via <a href="../methods/facets.html">FACETS</a>, cross-validated against single-cell InferCNV calls.</li>
+<li><strong>External validation/replication cohorts (bulk RNA-seq, ssGSEA of Hotspot gene modules and fetal signature):</strong> TCGA-COAD, 445 patients with stage I–IV colon adenocarcinoma; an MSK cohort of 108 patients with locally advanced (stage II–III) rectal cancer (LARC). An independent published scRNA-seq dataset of 5 chemotherapy-treated patients with matched primary/liver-metastasis samples (GEO accession GSM7058755) was used for replication of module enrichment and progression trajectories. A Human Cell Atlas fetal gut dataset (embryos 6.1–17 weeks after conception; 7,984 large-intestine epithelial cells after QC) was used to derive a human fetal intestinal progenitor signature.</li>
+<li><strong>In vivo models:</strong> orthotopic caecal and intrahepatic xenografts of primary- and metastasis-derived organoid lines (e.g., OKG146P/OKG146Li, OKG136P/OKG136Li) in NSG mice, including doxycycline-inducible shRNA knockdown of <a href="../genes/PROX1.html">PROX1</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>Hotspot analysis of tumour epithelial cells identified 2,003 significantly autocorrelated genes (FDR &lt; 0.01), manually curated into 10 gene modules: 4 canonical intestinal modules (ISC-like: <a href="../genes/LGR5.html">LGR5</a>/<a href="../genes/ASCL2.html">ASCL2</a>; absorptive; secretory; and a general “intestine” module) and 6 non-canonical modules — an injury-repair/regenerative module marked by <a href="../genes/L1CAM.html">L1CAM</a> and <a href="../genes/EMP1.html">EMP1</a> plus <a href="../genes/TACSTD2.html">TACSTD2</a> (TROP2), <a href="../genes/CD70.html">CD70</a> and <a href="../genes/OSMR.html">OSMR</a>; EMT; endoderm development; squamous-like (<a href="../genes/KRT5.html">KRT5</a>, ELF5); neuroendocrine-like (<a href="../genes/NEUROD1.html">NEUROD1</a>, <a href="../genes/CHGB.html">CHGB</a>); and osteoblast-like (MSX1, DLX5).</li>
+<li>Metastases are significantly enriched for cells expressing non-canonical modules relative to matched primary tumours (P = 0.001, one-sided rank-sum test), while primary tumours are enriched for canonical-module-expressing cells; this was replicated in an independent 5-patient primary/liver-metastasis cohort (P = 0.008), where ≥47% of cells expressed squamous or neuroendocrine modules in 3 of 5 patients.</li>
+<li>Untreated primary tumours are enriched for the <a href="../genes/LGR5.html">LGR5</a>+ ISC-like signature relative to differentiated intestinal cells, but human metastases — especially chemotherapy-treated ones — express the ISC program at lower levels than primary tumours, in contrast to ISC dependency reported in mouse CRC metastasis models.</li>
+<li>Multiplex immunofluorescence across matched trios confirms this axis at the protein level: <a href="../genes/CDX2.html">CDX2</a> is retained in dysplastic primary-tumour architecture, while the differentiated-intestine marker <a href="../genes/KRT20.html">KRT20</a> (CK20) and ISC marker <a href="../genes/OLFM4.html">OLFM4</a> are downregulated, and the injury-repair marker <a href="../genes/TACSTD2.html">TACSTD2</a> (TROP2) is upregulated, in metastases versus synchronously resected primary tumours; <a href="../genes/CHGA.html">CHGA</a> (neuroendocrine) and CK5 (squamous) protein are detected in multiple metastatic sections.</li>
+<li>Non-canonical module expression corresponds to the poor-outcome CRC consensus molecular subtype CMS4, whereas canonical modules correspond to CMS2/CMS3.</li>
+<li>Non-canonical module enrichment (by ssGSEA of bulk pretreatment primary tumours) is prognostic in two independent cohorts: associated with tumour relapse and overall survival &lt;10 years in both TCGA-COAD (n = 445) and MSK LARC (n = 108); multivariable regression correcting for clinical confounders confirms absorptive-intestinal module expression with increased disease-free/overall survival and endoderm-module expression with decreased survival in TCGA.</li>
+<li>Diffusion-component analysis in the four patients with the most non-canonical cells (KG146, KG182, KG150, KG183) reveals a stepwise, reproducible trajectory: differentiated intestine → ISC-like → fetal progenitor → differentiated non-canonical (squamous-like/neuroendocrine-like) states; the same block-diagonal progression is recovered by module co-occurrence analysis across the full 31-patient cohort and in the independent 5-patient dataset.</li>
+<li>A 113-gene human fetal intestinal progenitor signature (derived by comparing first- vs second-trimester fetal colon epithelium from a Human Cell Atlas dataset) marks a discrete intermediate state between canonical and non-canonical fates and diverges substantially from previously published mouse dedifferentiation signatures (low Jaccard overlap). A conserved 14-gene “core” subset (including WNT genes <a href="../genes/TCF7.html">TCF7</a>, <a href="../genes/PTK7.html">PTK7</a>) shared across all four patients is significantly enriched in metastases (P = 0.0004, rank-sum test).</li>
+<li>High expression of the fetal progenitor signature in pretreatment primary tumours is independently associated with decreased disease-free survival in both LARC (n = 42, log-rank P = 0.035) and TCGA-COAD (n = 134, log-rank P = 0.0016).</li>
+<li>Palantir trajectory inference places the fetal signature between squamous and neuroendocrine branches; WNT-signalling genes are upregulated along both branches, squamous differentiation correlates with YAP and IL-2 signalling, and neuroendocrine differentiation correlates with TGFβ signalling (TGFB1/TGFBR1 up, SMAD7 down).</li>
+<li>Matched organoids show cell-autonomous differences: in ISC-sustaining (HISC) medium, both primary- (OKG146P) and metastasis-derived (OKG146Li) organoids retain largely canonical states, but removing ISC growth factors (IGFF medium) causes only the metastasis-derived organoids to lose intestinal identity and gain non-canonical gene expression, while primary-derived organoids remain intestinal; the same asymmetry is seen in two further patient pairs (OKG182CW2, OKG183Li2).</li>
+<li>In orthotopic xenografts, primary- and metastasis-derived organoids grow with similar kinetics in the caecum (P = 0.22), but only metastasis-derived organoids robustly engraft after intrahepatic injection (OKG146: P = 0.014; a second patient pair, OKG136, shows a concordant trend by Fisher’s exact test across all weeks, P = 2.35 × 10⁻⁶), indicating greater cell-intrinsic adaptability of metastatic cells to a foreign (liver) microenvironment.</li>
+<li>7-day treatment of organoids with <a href="../drugs/irinotecan.html">irinotecan</a> (250 nM, the half-maximal inhibitory concentration for a first-line metastatic-CRC chemotherapeutic) increases expression of non-canonical modules and the fetal signature, showing that chemotherapy — like metastasis itself — promotes entry into the plastic fetal/non-canonical state.</li>
+<li>Of six candidate transcription factors whose expression peaks just before entry into non-canonical states along the canonical→non-canonical trajectory, <a href="../genes/PROX1.html">PROX1</a> is the most strongly induced by <a href="../drugs/irinotecan.html">irinotecan</a> and is most tightly correlated with non-canonical (and anti-correlated with canonical) module expression; multiplex immunofluorescence localizes <a href="../genes/PROX1.html">PROX1</a> to poorly differentiated, <a href="../genes/CDX2.html">CDX2</a>-low cancer cells at the primary-tumour invasion front.</li>
+<li>Doxycycline-inducible PROX1 knockdown (shPROX1) substantially induces non-canonical genes in more-canonical organoid lines (OKG136P, OKG136Li, OKG146P) — including squamous markers KRT23/ELF5 and neuroendocrine markers GNAI1/POMC — but has little effect in already highly non-canonical lines (OKG182CW2, OKG183Li2), indicating context-dependent PROX1 repression.</li>
+<li>PROX1 knockdown alone is not sufficient to drive liver-metastatic outgrowth of canonical primary-tumour-derived organoids (OKG146P, OKG136P) after intrahepatic transplantation and 12 weeks of follow-up, implying PROX1 loss cooperates with other phenotypic drivers to promote metastatic outgrowth.</li>
+<li>PROX1-dependent organoid-initiation (ISC) capacity is also context-specific: canonical lines (OKG136P, OKG136Li, OKG173Li, OKG146P) form fewer organoids from single cells after PROX1 knockdown, whereas the most non-canonical lines (OKG146Li, OKG182CW2, OKG183Li2) are largely PROX1-independent for organoid formation.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<p>This paper is a transcriptomic/cell-state study rather than a genomic driver-discovery study (MSK-IMPACT was used mainly to confirm that organoids retain their originating tumour’s mutations); the “alterations” below are gene-expression/lineage-marker findings, not somatic mutations.</p>
+<ul>
+<li><strong><a href="../genes/PROX1.html">PROX1</a></strong> — Central mechanistic finding. Identified (of ~6 candidates) as the transcription factor most tightly co-induced with the fetal progenitor state and most strongly induced by irinotecan; expressed in poorly differentiated <a href="../genes/CDX2.html">CDX2</a>-low cells at the primary-tumour invasion front. Functions as a context-dependent repressor of non-canonical (squamous/neuroendocrine) differentiation and supports ISC-like organoid-initiation capacity in more-canonical cell states; both functions are progressively lost as tumours become more non-canonical/metastatic, and PROX1 knockdown alone does not drive metastatic outgrowth of otherwise-canonical organoids.</li>
+<li><strong><a href="../genes/LGR5.html">LGR5</a></strong> — Canonical ISC marker; defines the dominant cell state of primary CRC tumours but is depleted in metastases (particularly after chemotherapy) and downregulated upon organoid transition to non-canonical states.</li>
+<li><strong><a href="../genes/L1CAM.html">L1CAM</a></strong> / <strong><a href="../genes/EMP1.html">EMP1</a></strong> — Co-expressed markers of a discrete LGR5low injury-repair/tumour-regenerative module at the invasion front, consistent with prior identification of <a href="../genes/L1CAM.html">L1CAM</a>+/EMP1+ metastasis-initiating cells; this module is intermediate between canonical ISC and the fetal/non-canonical states in the trajectory analyses.</li>
+<li><strong><a href="../genes/CDX2.html">CDX2</a></strong> — Intestinal lineage-defining transcription factor; retained in dysplastic primary-tumour epithelium by multiplex immunofluorescence but lost in PROX1-high, poorly differentiated invasion-front cells and in non-canonical metastatic states.</li>
+<li><strong><a href="../genes/KRT20.html">KRT20</a></strong> (CK20) / <strong><a href="../genes/OLFM4.html">OLFM4</a></strong> — Differentiated-intestine and ISC protein markers, respectively; both are downregulated by multiplex immunofluorescence in metastases relative to matched primary tumours.</li>
+<li><strong><a href="../genes/TACSTD2.html">TACSTD2</a></strong> (TROP2) — Injury-repair module gene, co-expressed with L1CAM/EMP1; upregulated at the protein level in metastases relative to primary tumours.</li>
+<li><strong><a href="../genes/KRT5.html">KRT5</a></strong> — Defining marker (with ELF5) of the squamous-like non-canonical Hotspot module; corresponding CK5 protein is detected in metastatic tumour sections and is induced by PROX1 knockdown in canonical organoid lines.</li>
+<li><strong><a href="../genes/NEUROD1.html">NEUROD1</a></strong> / <strong><a href="../genes/CHGB.html">CHGB</a></strong> / <strong><a href="../genes/CHGA.html">CHGA</a></strong> — Neuroendocrine-like module genes (<a href="../genes/NEUROD1.html">NEUROD1</a>, <a href="../genes/CHGB.html">CHGB</a>) and validated protein marker (<a href="../genes/CHGA.html">CHGA</a>) of the neuroendocrine-like non-canonical state enriched in metastases.</li>
+<li><strong><a href="../genes/ASCL2.html">ASCL2</a></strong> — Co-defines the ISC-like canonical Hotspot module with <a href="../genes/LGR5.html">LGR5</a>.</li>
+<li><strong><a href="../genes/TCF7.html">TCF7</a></strong> — WNT-signalling gene that is part of the 14-gene “core” fetal progenitor signature conserved across all four deeply profiled patients and upregulated along the canonical-to-non-canonical trajectory.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Non-canonical (squamous-like/neuroendocrine-like) and fetal-progenitor transcriptional signatures, measured in pretreatment primary tumours by ssGSEA, are proposed as prognostic biomarkers of disease relapse and reduced overall/disease-free survival, validated in two independent cohorts (TCGA-COAD, n = 445; MSK LARC, n = 108); the authors suggest such signatures could help identify patients most likely to benefit from neoadjuvant or adjuvant therapy aimed at preventing macrometastatic outgrowth.</li>
+<li>Non-canonical states track with CMS4, an already clinically disfavourable consensus molecular subtype, linking this cell-state axis to an established CRC classification system.</li>
+<li>Because <a href="../drugs/irinotecan.html">irinotecan</a> chemotherapy (and, clinically, 5-fluorouracil-based regimens) increases non-canonical/fetal module expression in organoids, the data raise the possibility that cytotoxic therapy itself promotes entry into the plastic, potentially therapy-evasive cell states associated with poor outcomes — an argument for studying and eventually targeting plasticity mechanisms alongside conventional chemotherapy.</li>
+<li><a href="../genes/PROX1.html">PROX1</a> is nominated as a candidate node controlling the transition to non-canonical, therapy-resistant-associated lineages, but its loss alone is not sufficient to drive metastatic outgrowth in vivo, so it is presented as a mechanistic target for further work rather than an immediately actionable biomarker or drug target.</li>
+<li>The authors argue that because most clinical cancer genomics profiling focuses on primary tumours, the metastasis-enriched cell states identified here are likely underrepresented in existing precision-oncology data, and they advocate profiling metastatic tissue and patient-derived ex vivo (organoid) models directly to understand and eventually target therapy response and plasticity.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The non-canonical cell states identified in human metastases are not captured in mouse models of CRC metastasis, which the authors attribute to the much longer time scales and greater numbers of cell divisions required to reach macrometastatic size in patients — limiting the translational value of existing mouse metastasis models for this biology.</li>
+<li>Robust per-patient trajectory analysis (diffusion components, Palantir) was only feasible in the 4 patients with the largest number of non-canonical cells (KG146, KG182, KG150, KG183); the rest of the 31-patient cohort was analysed with a coarser module co-occurrence (“pseudo-ordering”) approach rather than direct trajectory inference.</li>
+<li>Surgical resection of macrometastases is uncommon in general, so even this uniquely large trio cohort (31 patients) provides single time-point snapshots rather than longitudinal within-patient tracking of the primary-to-metastasis transition.</li>
+<li>PROX1 downregulation alone was insufficient to drive liver-metastatic outgrowth of canonical primary-tumour organoids in vivo over 12 weeks, so the additional cooperating driver(s) of metastatic colonization remain unidentified.</li>
+<li>The cohort was restricted to microsatellite-stable/mismatch-repair-proficient CRC (only one microsatellite-instability-indeterminate case), so these findings may not generalize to the smaller subset of dMMR/MSI-H metastatic CRC.</li>
+<li>Several in vivo and organoid comparisons rely on small group sizes (e.g., n = 4–10 mice per xenograft arm), and in vitro experiments were repeated a minimum of three times rather than with pre-registered power calculations (no formal sample-size determination was used, per the Methods).</li>
+<li>Open question flagged by the authors: the precise molecular trigger(s) for entry into the fetal progenitor state beyond epithelial injury and chemotherapy, and what specifically commits cells to the squamous versus neuroendocrine branch beyond the correlative YAP/IL-2 versus TGFβ signalling associations reported here.</li>
+<li>Two post-publication corrections to this article have been issued (10.1038/s41586-024-08560-0, dated 2025-01-09, and 10.1038/s41586-026-10963-0, dated 2026-08-05); the corrected content was not available in the extracted text used to compile this page, so downstream users should consult the published corrections before relying on specific figures or numeric values.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we show that, although primary tumours largely adopt <a href="../genes/LGR5.html">LGR5</a>+ intestinal stem-like states, metastases display progressive plasticity. Cancer cells lose intestinal cell identities and reprogram into a highly conserved fetal progenitor state before undergoing non-canonical differentiation into divergent squamous and neuroendocrine-like states, a process that is exacerbated in metastasis and by chemotherapy and is associated with poor patient survival.” (Abstract)</li>
+<li>“We identify PROX1 as a repressor of non-intestinal lineage in the fetal progenitor state, and show that downregulation of PROX1 licenses non-canonical reprogramming.” (Abstract)</li>
+<li>“Metastatic tumours are significantly enriched for cells expressing non-canonical modules, whereas primary tumours are enriched for cells expressing canonical modules (P = 0.001, one-sided rank-sum test; Methods).” (Results, Figure 1 legend)</li>
+<li>“Non-canonical module expression is associated with metastasis and previous chemotherapy and corresponds to CRC consensus molecular subtype 4 (CMS4), which is associated with poor outcomes, whereas canonical modules correspond to CMS2 or CMS3.” (Results, “Non-canonical states associate with poor outcomes”)</li>
+<li>“Expression of non-canonical modules is associated with poor outcomes in both cohorts, including tumour relapse after surgery and overall survival of less than 10 years.” (Results, “Non-canonical states associate with poor outcomes”)</li>
+<li>“A core set of 14 genes, including WNT genes (TCF7, PTK7), is shared by all four patients and is significantly enriched in metastases (P = 0.0004, rank-sum test).” (Results, “Stereotyped cell-state transitions in CRC”)</li>
+<li>“cancer cells in organoids derived from tumours with greater non-canonical gene expression in situ possess greater cell-autonomous plasticity and can upregulate genes for a variety of non-canonical lineages in response to environmental signals.” (Results, “Determinants of non-canonical states”)</li>
+<li>“PROX1 knockdown induces multiple non-canonical genes … in more canonical organoids (OKG136P, OKG136Li and OKG146P), but not in the most non-canonical organoid lines (OKG182CW2 and OKG183Li2), suggesting that PROX1 repression of non-canonical gene expression depends on how canonical the underlying tumour cell state is.” (Results, “PROX1 represses non-canonical fates in fetal state”)</li>
+<li>“metastasis and treatment selecting for progressively less-PROX1-dependent, increasingly lineage unrestricted states.” (Results, “PROX1 represses non-canonical fates in fetal state”)</li>
+<li>“The greater cell-autonomous plasticity that we identify in metastatic tumours suggests a mechanistic explanation for the close link between metastasis and the ability to adapt to and evade therapy.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39478232.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39478232.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

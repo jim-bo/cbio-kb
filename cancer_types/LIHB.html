@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,13 +178,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
 <li><a href="../datasets/mixed_pipseq_2017.html">mixed_pipseq_2017</a> — PIPseq pediatric pan-cancer cohort (Columbia University Medical Center), which includes hepatoblastoma cases among 101 high-risk pediatric patients <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li>A pediatric solid-tumor PDX resource included 13 hepatoblastoma models among 68 PDXs from 65 patients across 16 cancer types, with a mean time from implantation to harvest of about 13 weeks, the shortest of the surveyed histologies <a href="../papers/37990009.html">PMID:37990009</a>.</li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
 <li>PIPseq cohort: <a href="../genes/CCND1.html">CCND1</a> 11q13.2 amplification with overexpression identified in a hepatoblastoma patient as a good-prognosis indicator; <a href="../genes/APC.html">APC</a> R1114* germline mutation identified in a hepatoblastoma patient as diagnostic of familial adenomatous polyposis (<a href="../genes/FAP.html">FAP</a>) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
-<li>Germline WES of 372 pediatric cancer patients (Düsseldorf) included a hepatoblastoma patient (LPP_04) carrying a monoallelic <a href="../genes/ATM.html">ATM</a> pLoF LP/PV; <a href="../genes/ATM.html">ATM</a> burden OR=3.2 (p=.040) in the single-cohort analysis <a href="../papers/29489754.html">PMID:29489754</a></li>
+<li>Germline WES of 372 pediatric cancer patients (Düsseldorf) included a hepatoblastoma patient (LPP_04) carrying a monoallelic <a href="../genes/ATM.html">ATM</a> pLoF LP/PV; <a href="../genes/ATM.html">ATM</a> burden OR=3.2 (p=.040) in the single-cohort analysis <a href="../papers/40857049.html">PMID:40857049</a></li>
 <li>Hepatoblastoma (LIHB) was enrolled in the MAPPYACTS pediatric precision-medicine trial (other solid tumors 23% of 787 patients); WES + RNA-seq identified actionable alterations in 69% of patients across tumor types <a href="../papers/35292802.html">PMID:35292802</a></li>
 </ul>
 </section>
@@ -203,10 +207,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/28007021.html">PMID:28007021</a> — Oberg et al.&nbsp;PIPseq pediatric pan-cancer sequencing program (n=101).</li>
+<li><a href="../papers/40857049.html">PMID:40857049</a></li>
+<li><a href="../papers/35292802.html">PMID:35292802</a></li>
+<li><a href="../papers/37990009.html">PMID:37990009</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29489754.html">PMID:29489754</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-09-10</strong>.</em></p>
 
 
 </section>

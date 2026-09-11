@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -218,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>PMID:</strong> 38864854 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-24-0657 · <strong>Journal:</strong> Clinical Cancer Research (2024)</p>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p>Song et al.&nbsp;applied a supervised machine-learning “hidden-genome” classifier to 527 intrahepatic cholangiocarcinomas (IHC) sequenced by MSK-IMPACT, scoring each tumor’s genetic similarity to extrahepatic cholangiocarcinoma/gallbladder cancer (EHC/GBC) versus hepatocellular carcinoma (<a href="../cancer_types/HCC.html">HCC</a>). IHC genetics form a spectrum: “biliary-class” IHC (&gt;90% EHC/GBC homology, 23%) is KRAS/SMAD4/CDKN2A-driven and has markedly worse overall survival than “HCC-class” IHC (&gt;90% <a href="../cancer_types/HCC.html">HCC</a> homology, 5.7%, TERT-driven), and the classifier predicts <a href="../cancer_types/OS.html">OS</a> independently of <a href="../genes/FGFR2.html">FGFR2</a> and <a href="../genes/IDH1.html">IDH1</a> alterations and outperforms histologic subtyping <a href="../papers/38864854.html">PMID:38864854</a>.</p>
+<p>Song et al.&nbsp;applied a supervised machine-learning “hidden-genome” classifier to 527 intrahepatic cholangiocarcinomas (IHC) sequenced by MSK-IMPACT, scoring each tumor’s genetic similarity to extrahepatic cholangiocarcinoma/gallbladder cancer (EHC/GBC) versus hepatocellular carcinoma (<a href="../cancer_types/HCC.html">HCC</a>). IHC genetics form a spectrum: “biliary-class” IHC (&gt;90% EHC/GBC homology, 23%) is KRAS/SMAD4/CDKN2A-driven and has markedly worse overall survival than “HCC-class” IHC (&gt;90% <a href="../cancer_types/HCC.html">HCC</a> homology, 5.7%, TERT-driven), and the classifier predicts OS independently of <a href="../genes/FGFR2.html">FGFR2</a> and <a href="../genes/IDH1.html">IDH1</a> alterations and outperforms histologic subtyping <a href="../papers/38864854.html">PMID:38864854</a>.</p>
 </section>
 <section id="cohort-data" class="level2">
 <h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
@@ -234,8 +237,8 @@ ul.task-list li input[type="checkbox"] {
 <li>410 IHC (78%) had &gt;50% genetic homology with EHC/GBC; 122 (23%) exceeded &gt;90% homology and were labeled “biliary-class” <a href="../papers/38864854.html">PMID:38864854</a>.</li>
 <li>117 IHC (22%) had &gt;50% genetic homology with <a href="../cancer_types/HCC.html">HCC</a>; 30 (5.7%) exceeded &gt;90% homology and were labeled “HCC-class” <a href="../papers/38864854.html">PMID:38864854</a>.</li>
 <li>Biliary-class IHC was characterized by alterations in <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/SMAD4.html">SMAD4</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a> loss; HCC-class was characterized by <a href="../genes/TERT.html">TERT</a> alterations <a href="../papers/38864854.html">PMID:38864854</a>.</li>
-<li>Median <a href="../cancer_types/OS.html">OS</a>, unresectable disease: biliary- vs.&nbsp;non-biliary-class = 1.0 year (95% CI 0.77–1.5) vs.&nbsp;1.8 years (95% CI 1.6–2.0) <a href="../papers/38864854.html">PMID:38864854</a>.</li>
-<li>Median <a href="../cancer_types/OS.html">OS</a>, resectable disease: biliary- vs.&nbsp;non-biliary-class = 2.4 years (95% CI 2.1–NR) vs.&nbsp;5.1 years (95% CI 4.8–6.9) <a href="../papers/38864854.html">PMID:38864854</a>.</li>
+<li>Median OS, unresectable disease: biliary- vs.&nbsp;non-biliary-class = 1.0 year (95% CI 0.77–1.5) vs.&nbsp;1.8 years (95% CI 1.6–2.0) <a href="../papers/38864854.html">PMID:38864854</a>.</li>
+<li>Median OS, resectable disease: biliary- vs.&nbsp;non-biliary-class = 2.4 years (95% CI 2.1–NR) vs.&nbsp;5.1 years (95% CI 4.8–6.9) <a href="../papers/38864854.html">PMID:38864854</a>.</li>
 <li>Large-duct IHC (n=28) was almost exclusively biliary-class (n=27); HCC-class tumors were mostly small-duct IHC (64%, p=0.02) <a href="../papers/38864854.html">PMID:38864854</a>.</li>
 <li>The hidden-genome classifier predicted OS independently of <a href="../genes/FGFR2.html">FGFR2</a> and <a href="../genes/IDH1.html">IDH1</a> alterations; histologic subtype did not predict OS <a href="../papers/38864854.html">PMID:38864854</a>.</li>
 </ul>

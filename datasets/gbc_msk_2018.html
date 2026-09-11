@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -201,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Most commonly mutated genes:</strong> <a href="../genes/TP53.html">TP53</a> 58% (47/81), <a href="../genes/SMAD4.html">SMAD4</a> 31% (25/81), <a href="../genes/ARID1A.html">ARID1A</a> 25% (20/81), <a href="../genes/ATM.html">ATM</a> 19%, <a href="../genes/CDKN2A.html">CDKN2A</a> 15%, <a href="../genes/TERT.html">TERT</a> 12%, <a href="../genes/PIK3CA.html">PIK3CA</a> 12%, <a href="../genes/BRCA2.html">BRCA2</a> 10%. <a href="../papers/30427539.html">PMID:30427539</a></li>
 <li><strong>Regional mutation burden:</strong> Chile median 7 mutations/Mb, Japan 6, United States 4 (P-adj=0.006). <a href="../papers/30427539.html">PMID:30427539</a></li>
-<li><strong><a href="../genes/SMAD4.html">SMAD4</a> prognosis:</strong> mutated in ~31% across all three regions; independently associated with worse overall survival (HR 2.01, 95% CI 1.02–3.94; p=0.043) in multivariable Cox analysis adjusting for stage, gallstone status, and sex. Median <a href="../cancer_types/OS.html">OS</a> 10.4 vs.&nbsp;24.8 months (P-adj=0.039). <a href="../papers/30427539.html">PMID:30427539</a></li>
+<li><strong><a href="../genes/SMAD4.html">SMAD4</a> prognosis:</strong> mutated in ~31% across all three regions; independently associated with worse overall survival (HR 2.01, 95% CI 1.02–3.94; p=0.043) in multivariable Cox analysis adjusting for stage, gallstone status, and sex. Median OS 10.4 vs.&nbsp;24.8 months (P-adj=0.039). <a href="../papers/30427539.html">PMID:30427539</a></li>
 <li><strong>Regional absence patterns:</strong> <a href="../genes/ARID1A.html">ARID1A</a> and <a href="../genes/PIK3CA.html">PIK3CA</a> mutations were entirely absent in the Japanese cohort; <a href="../genes/ERBB3.html">ERBB3</a> and <a href="../genes/ARID2.html">ARID2</a> mutations were absent in Chilean patients. <a href="../papers/30427539.html">PMID:30427539</a></li>
 <li><strong>Actionable targets:</strong> 80% of patients carried at least one mutation in a potentially actionable gene target per OncoKB or prior literature; p53 pathway altered in 73% and RTK-RAS pathway in 44%. <a href="../papers/30427539.html">PMID:30427539</a></li>
 <li><strong>Post-resection survival (n=46):</strong> median OS 19.6 months (95% CI 14.5–28.8); 5-year survival 18% (95% CI 8–31%). <a href="../papers/30427539.html">PMID:30427539</a></li>

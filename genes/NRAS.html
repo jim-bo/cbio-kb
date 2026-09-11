@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>RAS mutations (KRAS/NRAS) in the absence of <a href="../genes/GNAS.html">GNAS</a> and <a href="../genes/TP53.html">TP53</a> alterations define the clinically indolent MAAP subtype (n=24) with the lowest mutational/chromosomal burden and best <a href="../cancer_types/OS.html">OS</a> <a href="../papers/36493333.html">PMID:36493333</a>.</li>
+<li>RAS mutations (KRAS/NRAS) in the absence of <a href="../genes/GNAS.html">GNAS</a> and <a href="../genes/TP53.html">TP53</a> alterations define the clinically indolent MAAP subtype (n=24) with the lowest mutational/chromosomal burden and best OS <a href="../papers/36493333.html">PMID:36493333</a>.</li>
 <li>NRAS A59_E76 mutation in one histiocytosis patient treated with a MEK inhibitor; mostly subclonal in female germ cell tumors <a href="../papers/36862133.html">PMID:36862133</a>.</li>
 <li>Recurrently mutated in anaplastic thyroid carcinoma (ATC); no frequency difference between PTC and ATC; mutually exclusive with <a href="../genes/BRAF.html">BRAF</a> V600E <a href="../papers/38412093.html">PMID:38412093</a>.</li>
 <li>RAS/PIK3CA pathway alterations (including NRAS) in 5/17 fusion-negative rhabdomyosarcoma (FN-RMS) patients <a href="../papers/37730754.html">PMID:37730754</a>.</li>
@@ -187,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 <li>NRASG12D acquired clonally in CRC C106-resistant cells; NRASQ61K/R detected in patient ctDNA at resistance to KRASG12C + <a href="../genes/EGFR.html">EGFR</a> inhibition <a href="../papers/36355783.html">PMID:36355783</a></li>
 <li>NRAS alterations assessed in gallbladder carcinoma (<a href="../cancer_types/GBC.html">GBC</a>) genomic landscape study <a href="../papers/36228155.html">PMID:36228155</a></li>
 <li>Mutated in high-grade serous ovarian carcinoma (<a href="../cancer_types/HGSOC.html">HGSOC</a>) in TCGA integrated genomic analysis <a href="../papers/21720365.html">PMID:21720365</a></li>
-<li>Recurrently mutated in myelodysplastic syndrome (<a href="../cancer_types/MDS.html">MDS</a>) identified in Tokyo cohort sequencing study alongside <a href="../genes/STAG2.html">STAG2</a> <a href="../papers/21909114.html">PMID:21909114</a></li>
+<li>Recurrently mutated in myelodysplastic syndrome (<a href="../cancer_types/MDS.html">MDS</a>) identified in Tokyo cohort sequencing study alongside <a href="../genes/STAG2.html">STAG2</a> <a href="../papers/40720765.html">PMID:40720765</a></li>
 <li>NRAS mutation status was characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, enabling drug sensitivity correlations <a href="../papers/22460905.html">PMID:22460905</a></li>
 <li>NRAS harbors somatic mutations in melanoma; identified in WGS of 25 tumors alongside recurrent <a href="../genes/PREX2.html">PREX2</a> mutations <a href="../papers/22622578.html">PMID:22622578</a></li>
 <li>Codon 61 mutations in 9% of non-hypermutated colorectal tumors; mutually exclusive with <a href="../genes/KRAS.html">KRAS</a> and <a href="../genes/BRAF.html">BRAF</a> in 276-tumor TCGA CRC cohort <a href="../papers/22810696.html">PMID:22810696</a></li>
@@ -201,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Acquired resistance mutations (Q61R/K/H, T58I, Q60H) in 17.8% of resistant <a href="../genes/BRAF.html">BRAF</a> V600-mutant melanoma tumors; acquisition restricted to patients with &gt;12-week response duration (P = 0.04), suggesting a late resistance mechanism <a href="../papers/24265153.html">PMID:24265153</a></li>
 <li>Recurrent MAPK-activating point mutations in multiple myeloma; frequently subclonal and occasionally co-mutated with <a href="../genes/BRAF.html">BRAF</a> (rarely simultaneously clonal) <a href="../papers/24434212.html">PMID:24434212</a></li>
 <li>Codon 12/13/61 oncogenic hotspot mutations in rhabdomyosarcoma; predominantly in fusion-negative (PFN) tumors (frequency 6.4%); no RAS mutations observed in the fusion-positive PAX-FOXO1 (PFP) subset <a href="../papers/24436047.html">PMID:24436047</a></li>
-<li>RAS mutations are rare in <a href="../cancer_types/HCC.html">HCC</a> (~1% each for <a href="../genes/KRAS.html">KRAS</a> and NRAS; only 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of <a href="../drugs/refametinib.html">refametinib</a> + <a href="../drugs/sorafenib.html">sorafenib</a> in 16 RAS-mutant patients reported median <a href="../cancer_types/OS.html">OS</a> 12.7 months <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>RAS mutations are rare in <a href="../cancer_types/HCC.html">HCC</a> (~1% each for <a href="../genes/KRAS.html">KRAS</a> and NRAS; only 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of <a href="../drugs/refametinib.html">refametinib</a> + <a href="../drugs/sorafenib.html">sorafenib</a> in 16 RAS-mutant patients reported median OS 12.7 months <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>NRAS mutation (n=1) observed as an additional RTK/RAS/RAF pathway alteration in <a href="../cancer_types/LUAD.html">LUAD</a> (TCGA, n=230) <a href="../papers/25079552.html">PMID:25079552</a></li>
 <li>One activating somatic mutation in 66 chromophobe <a href="../cancer_types/RCC.html">RCC</a> cases; contributes to mTOR-pathway alteration rate of 23% combined with PTEN/MTOR/TSC1/TSC2 <a href="../papers/25155756.html">PMID:25155756</a></li>
 <li>Driver mutations in KRAS/NRAS/BRAF are 100% concordant between primary and metastasis in CRC; trunk events established early in carcinogenesis; status guides <a href="../drugs/cetuximab.html">cetuximab</a> and <a href="../drugs/panitumumab.html">panitumumab</a> eligibility <a href="../papers/25164765.html">PMID:25164765</a></li>
@@ -215,12 +218,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Ras-pathway oncogene recurrently mutated (n=5) in diffuse glioma; previously known mainly from engineered mouse models <a href="../papers/26824661.html">PMID:26824661</a></li>
 <li>NRAS identified as a known CRC driver and source of recurrent neopeptides in 619-tumor whole-exome sequencing study (NHS/HPFS cohort) <a href="../papers/27149842.html">PMID:27149842</a></li>
 <li>Late driver in RTK-RAS pathway in <a href="../cancer_types/AML.html">AML</a>; G12/13 vs.&nbsp;Q61 hotspots have distinct co-mutation patterns; G12/13 in NPM1/DNMT3A context paradoxically favorable; G12/13 but not Q61 modifies DNMT3A-FLT3-ITD-NPM1 interaction <a href="../papers/27276561.html">PMID:27276561</a></li>
-<li>4 mutations in cisplatin-resistant germ cell tumors (<a href="../cancer_types/GCT.html">GCT</a>); 3 of 4 in cisplatin-resistant tumors; MEK inhibitors (<a href="../drugs/trametinib.html">trametinib</a>, <a href="../drugs/selumetinib.html">selumetinib</a>, <a href="../drugs/binimetinib.html">binimetinib</a>) listed as targeted therapy candidates <a href="../papers/27646943.html">PMID:27646943</a></li>
+<li>4 mutations in cisplatin-resistant <a href="../cancer_types/germ-cell-tumor.html">germ cell tumors</a>; 3 of 4 in cisplatin-resistant tumors; MEK inhibitors (<a href="../drugs/trametinib.html">trametinib</a>, <a href="../drugs/selumetinib.html">selumetinib</a>, <a href="../drugs/binimetinib.html">binimetinib</a>) listed as targeted therapy candidates <a href="../papers/27646943.html">PMID:27646943</a></li>
 <li>Ras-pathway activating mutations (including NRAS G12D) in 35.2% of DUX4/ERG B-ALL cases; NRAS G12D cooperated with dominant-negative ERGalt to sustain lymphoid colony replating in Arf−/− mouse cells <a href="../papers/27776115.html">PMID:27776115</a></li>
 <li>Activating NRAS mutations (Q61H, Q61R, Q61K, G13A, G13D) across multiple pediatric <a href="../cancer_types/AML.html">AML</a>, ALL, neuroblastoma (<a href="../cancer_types/NBL.html">NBL</a>), and rhabdomyosarcoma (<a href="../cancer_types/RMS.html">RMS</a>) cases; MEK-inhibitor targets identified in a pediatric precision-oncology cohort <a href="../papers/28007021.html">PMID:28007021</a></li>
 <li>10 mutations detected in a prospective <a href="../cancer_types/LUAD.html">LUAD</a> cohort (860 patients): 9 Q61 and 1 G13; no patient with NRAS as highest-level driver received matched therapy <a href="../papers/28336552.html">PMID:28336552</a></li>
 <li>4 mutations in 34 acral melanoma (ALM) patients: Q61K in 3 (9%) and A59G in 1; mutually exclusive of <a href="../genes/BRAF.html">BRAF</a> mutations in this cohort <a href="../papers/28373299.html">PMID:28373299</a></li>
-<li>OncoKB Level 1 resistance marker for anti-EGFR antibodies (cetuximab/panitumumab) in mCRC; HR=2.59 for <a href="../cancer_types/OS.html">OS</a> in multivariate analysis of MSS metastatic CRC (N=1,152) <a href="../papers/29316426.html">PMID:29316426</a></li>
+<li>OncoKB Level 1 resistance marker for anti-EGFR antibodies (cetuximab/panitumumab) in mCRC; HR=2.59 for OS in multivariate analysis of MSS metastatic CRC (N=1,152) <a href="../papers/29316426.html">PMID:29316426</a></li>
 <li>NRAS (with <a href="../genes/KRAS.html">KRAS</a> and <a href="../genes/HRAS.html">HRAS</a>) shows strong mutual exclusivity with <a href="../genes/BRAF.html">BRAF</a> V600 within Ras signaling across nearly all 33 TCGA tumor types; BRAF-mutant tumors in the C3 immune subtype have higher CD8 T-cell fractions than NRAS-mutant tumors <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li>NRAS hotspot mutations (n=4) classified as OncoKB level 3 actionable alterations in cholangiocarcinoma (n=195 MSK-IMPACT cohort) <a href="../papers/29848569.html">PMID:29848569</a></li>
 <li>NRAS mutations predicted MAPK-inhibitor sensitivity ex vivo in the Beat <a href="../cancer_types/AML.html">AML</a> cohort (<a href="../datasets/aml_ohsu_2018.html">aml_ohsu_2018</a>); NRAS association with MAPK-inhibitor sensitivity was stronger than that of <a href="../genes/KRAS.html">KRAS</a> <a href="../papers/30333627.html">PMID:30333627</a></li>
@@ -231,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Mutated in 30% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside <a href="../genes/BRAF.html">BRAF</a> and <a href="../genes/NF1.html">NF1</a> <a href="../papers/31792460.html">PMID:31792460</a></li>
 <li>NRAS Q61R co-occurring with <a href="../genes/GON4L.html">GON4L</a>–<a href="../genes/NTRK1.html">NTRK1</a> fusion in one melanoma; tumor progressed on <a href="../drugs/larotrectinib.html">larotrectinib</a> and cell line was insensitive to larotrectinib/LOXO-195 but sensitive to <a href="../drugs/trametinib.html">trametinib</a>, suggesting NRAS-driven oncogenic independence from TRK <a href="../papers/31871300.html">PMID:31871300</a></li>
 <li>Focal high-level amplification in one resistant HR+/HER2- <a href="../cancer_types/MBC.html">MBC</a> biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies <a href="../papers/32404308.html">PMID:32404308</a></li>
-<li>Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a <a href="../cancer_types/NSGCT.html">NSGCT</a> precursor clone; activating RAS-pathway mutations (<a href="../genes/KRAS.html">KRAS</a> or NRAS) together present in 63% of <a href="../cancer_types/GCT.html">GCT</a>+hematologic-malignancy cases vs.&nbsp;13% of de novo <a href="../cancer_types/AML.html">AML</a> <a href="../papers/32897884.html">PMID:32897884</a></li>
+<li>Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a <a href="../cancer_types/NSGCT.html">NSGCT</a> precursor clone; activating RAS-pathway mutations (<a href="../genes/KRAS.html">KRAS</a> or NRAS) together present in 63% of mediastinal germ cell tumors with a concomitant hematologic malignancy vs.&nbsp;13% of de novo <a href="../cancer_types/AML.html">AML</a> <a href="../papers/32897884.html">PMID:32897884</a></li>
 <li>p.Q61L detected in normal melanocytes from sun-damaged skin (Donor 13, back, peri-MEL site); classified as a weak MAPK activator present in histologically normal tissue, implying pre-malignant clonal expansion <a href="../papers/33029006.html">PMID:33029006</a></li>
 <li>Late-progression driver acquired between clonal hematopoiesis (CH) stage and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients; 0 RAS hotspot mutations observed at the CH stage, implicating NRAS as a progression rather than initiation event <a href="../papers/33106634.html">PMID:33106634</a></li>
 <li>Q61 alterations in 29% of 696 melanomas (<a href="../datasets/mel_mskimpact_2020.html">mel_mskimpact_2020</a>); usually a sole driver (only 29% co-altered); associated with shortest TTF on PD-1 monotherapy (4.2 months; p&lt;0.0001 vs.&nbsp;<a href="../genes/NF1.html">NF1</a> 22 months); NRAS Q61 co-altered in 29% vs.&nbsp;70% for other RAS (p=7.9e-07) <a href="../papers/33509808.html">PMID:33509808</a></li>
@@ -241,9 +244,17 @@ ul.task-list li input[type="checkbox"] {
 <li>NRAS mutations present in 28% of CRC with dual MAPK drivers (CRC-DD; n=47/4,561 MSK-IMPACT cases); hotspots include G12V, G13V, G13D, G12C, Q61K; allelic imbalance detected in 5/13 NRAS instances <a href="../papers/35235413.html">PMID:35235413</a></li>
 <li>NRAS mutations among the RAS-family events (42 total KRAS/NRAS/HRAS events) in the MAPPYACTS pediatric relapsed cohort (n=787); classified as investigational rather than ready-for-routine-use given limited MEK inhibitor activity in pediatric mutant tumors <a href="../papers/35292802.html">PMID:35292802</a></li>
 <li>NRAS acquired mutations (G13D, Q61R) identified at <a href="../drugs/selpercatinib.html">selpercatinib</a> progression in RET-fusion-positive lung cancers, representing off-target bypass resistance via RAS-MAPK reactivation <a href="../papers/35304457.html">PMID:35304457</a></li>
-<li>NRAS Q61R/Q61K hotspot mutations in 11% (13/119) of <a href="../cancer_types/LGSOC.html">LGSOC</a> patients on MSK-IMPACT; mutually exclusive with <a href="../genes/KRAS.html">KRAS</a> (p=0.004); not significantly associated with age or platinum sensitivity; part of the MAPK-altered group with improved <a href="../cancer_types/OS.html">OS</a> (multivariate HR 2.5 for absence, p=0.019) <a href="../papers/35443055.html">PMID:35443055</a></li>
+<li>NRAS Q61R/Q61K hotspot mutations in 11% (13/119) of <a href="../cancer_types/LGSOC.html">LGSOC</a> patients on MSK-IMPACT; mutually exclusive with <a href="../genes/KRAS.html">KRAS</a> (p=0.004); not significantly associated with age or platinum sensitivity; part of the MAPK-altered group with improved OS (multivariate HR 2.5 for absence, p=0.019) <a href="../papers/35443055.html">PMID:35443055</a></li>
 <li>Mutated in 4% of pMMR/MSS LARC tumors (Level 3B actionable in CRC) in a cohort of 692 rectal tumors sequenced by MSK-IMPACT <a href="../papers/35970919.html">PMID:35970919</a></li>
-<li>NRAS (with KRAS, collectively ‘RAS’) correlated with Monocyte-like cell state in <a href="../cancer_types/AML.html">AML</a>; RAS-mutant AML shows greater sensitivity to STE7/MEK inhibitors (expected) and to CDK-family inhibitors (unexpected) in ex vivo drug profiling <a href="../papers/35868306.html">PMID:35868306</a></li>
+<li>NRAS (with <a href="../genes/KRAS.html">KRAS</a>, collectively ‘RAS’) correlated with Monocyte-like cell state in <a href="../cancer_types/AML.html">AML</a>; RAS-mutant <a href="../cancer_types/AML.html">AML</a> shows greater sensitivity to STE7/MEK inhibitors (expected) and to CDK-family inhibitors (unexpected) in ex vivo drug profiling <a href="../papers/35868306.html">PMID:35868306</a></li>
+<li>In myelodysplastic syndrome clonal-evolution profiling, NRAS mutations correlated strongly with marrow blast percentage and were co-mutated with <a href="../genes/ASXL1.html">ASXL1</a> <a href="../papers/24030381.html">PMID:24030381</a>.</li>
+<li>In site-resolved colorectal cancer genomics, NRAS was mutated in 2% of the cohort and was a source of predicted neoantigens together with KRAS <a href="../papers/35487942.html">PMID:35487942</a>.</li>
+<li>In a pan-cancer MET-amplification cohort, NRAS mutations were an infrequent co-driver (2 cases) in non-lung MET-amplified tumors <a href="../papers/36044468.html">PMID:36044468</a>.</li>
+<li>In solitary fibrous tumor, an NRAS p.Q61K mutation was part of a 3-case (2.1%) RAS/MEK-pathway group proposed for MEK-inhibitor targeting <a href="../papers/37980418.html">PMID:37980418</a>.</li>
+<li>In a pediatric AML transcriptomic classification, NRAS mutations (188 cases) were the dominant RAS-pathway alteration alongside KRAS (78 cases), with distinct enrichment across HOXA/HOXB molecular groups <a href="../papers/38212634.html">PMID:38212634</a>.</li>
+<li>In metastatic pheochromocytoma/paraganglioma, an NRAS p.G12A mutation was acquired in a post-CVD-chemotherapy intracranial metastasis, with predicted MAPK activation <a href="../papers/40097403.html">PMID:40097403</a>.</li>
+<li>In a MYOD1-driven tumor cohort, NRAS was among genes upstream of PI3K/AKT/mTOR signaling recurrently altered (5-15%), alongside <a href="../genes/NF1.html">NF1</a>, <a href="../genes/NF2.html">NF2</a>, <a href="../genes/BCOR.html">BCOR</a>, <a href="../genes/FGFR4.html">FGFR4</a> <a href="../papers/41758938.html">PMID:41758938</a>.</li>
+<li>In a pan-cancer hotspot survey, NRAS was a rare but canonical driver in <a href="../cancer_types/PAAD.html">PAAD</a> (0.3%) and <a href="../cancer_types/LUAD.html">LUAD</a> (0.6%); its apparent late-onset association in melanoma disappeared once BRAF-mutant tumors were excluded <a href="../papers/41895280.html">PMID:41895280</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -280,77 +291,85 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/18948947.html">PMID:18948947</a></li>
-<li><a href="../papers/21720365.html">PMID:21720365</a></li>
-<li><a href="../papers/21909114.html">PMID:21909114</a></li>
-<li><a href="../papers/22460905.html">PMID:22460905</a></li>
-<li><a href="../papers/22622578.html">PMID:22622578</a></li>
-<li><a href="../papers/22810696.html">PMID:22810696</a></li>
-<li><a href="../papers/22817889.html">PMID:22817889</a></li>
-<li><a href="../papers/22842228.html">PMID:22842228</a></li>
-<li><a href="../papers/23334666.html">PMID:23334666</a></li>
-<li><a href="../papers/23334668.html">PMID:23334668</a></li>
-<li><a href="../papers/23415222.html">PMID:23415222</a></li>
-<li><a href="../papers/23634996.html">PMID:23634996</a></li>
-<li><a href="../papers/24185509.html">PMID:24185509</a></li>
-<li><a href="../papers/24265153.html">PMID:24265153</a></li>
-<li><a href="../papers/24434212.html">PMID:24434212</a></li>
-<li><a href="../papers/24436047.html">PMID:24436047</a></li>
-<li><a href="../papers/24798001.html">PMID:24798001</a></li>
-<li><a href="../papers/25079552.html">PMID:25079552</a></li>
-<li><a href="../papers/25155756.html">PMID:25155756</a></li>
-<li><a href="../papers/25164765.html">PMID:25164765</a></li>
-<li><a href="../papers/25303977.html">PMID:25303977</a></li>
-<li><a href="../papers/25409260.html">PMID:25409260</a></li>
-<li><a href="../papers/25417114.html">PMID:25417114</a></li>
-<li><a href="../papers/26091043.html">PMID:26091043</a></li>
-<li><a href="../papers/26343386.html">PMID:26343386</a></li>
-<li><a href="../papers/26359337.html">PMID:26359337</a></li>
-<li><a href="../papers/26466571.html">PMID:26466571</a></li>
-<li><a href="../papers/26824661.html">PMID:26824661</a></li>
-<li><a href="../papers/27149842.html">PMID:27149842</a></li>
-<li><a href="../papers/27276561.html">PMID:27276561</a></li>
-<li><a href="../papers/27646943.html">PMID:27646943</a></li>
-<li><a href="../papers/27776115.html">PMID:27776115</a></li>
-<li><a href="../papers/28007021.html">PMID:28007021</a></li>
-<li><a href="../papers/28336552.html">PMID:28336552</a></li>
-<li><a href="../papers/28373299.html">PMID:28373299</a></li>
-<li><a href="../papers/29316426.html">PMID:29316426</a></li>
-<li><a href="../papers/29625049.html">PMID:29625049</a></li>
-<li><a href="../papers/29848569.html">PMID:29848569</a></li>
-<li><a href="../papers/30333627.html">PMID:30333627</a></li>
-<li><a href="../papers/30373752.html">PMID:30373752</a></li>
-<li><a href="../papers/30687805.html">PMID:30687805</a></li>
-<li><a href="../papers/30867592.html">PMID:30867592</a></li>
-<li><a href="../papers/31693904.html">PMID:31693904</a></li>
-<li><a href="../papers/31792460.html">PMID:31792460</a></li>
-<li><a href="../papers/31871300.html">PMID:31871300</a></li>
-<li><a href="../papers/32404308.html">PMID:32404308</a></li>
-<li><a href="../papers/32897884.html">PMID:32897884</a></li>
-<li><a href="../papers/33029006.html">PMID:33029006</a></li>
-<li><a href="../papers/33106634.html">PMID:33106634</a></li>
-<li><a href="../papers/36228155.html">PMID:36228155</a></li>
-<li><a href="../papers/36355783.html">PMID:36355783</a></li>
-<li><a href="../papers/36493333.html">PMID:36493333</a></li>
-<li><a href="../papers/36862133.html">PMID:36862133</a></li>
-<li><a href="../papers/37643132.html">PMID:37643132</a></li>
-<li><a href="../papers/37730754.html">PMID:37730754</a></li>
-<li><a href="../papers/38412093.html">PMID:38412093</a></li>
-<li><a href="../papers/38488813.html">PMID:38488813</a></li>
-<li><a href="../papers/38922339.html">PMID:38922339</a></li>
-<li><a href="../papers/39753968.html">PMID:39753968</a></li>
+<li><p><a href="../papers/18948947.html">PMID:18948947</a></p></li>
+<li><p><a href="../papers/21720365.html">PMID:21720365</a></p></li>
+<li><p><a href="../papers/40720765.html">PMID:40720765</a></p></li>
+<li><p><a href="../papers/22460905.html">PMID:22460905</a></p></li>
+<li><p><a href="../papers/22622578.html">PMID:22622578</a></p></li>
+<li><p><a href="../papers/22810696.html">PMID:22810696</a></p></li>
+<li><p><a href="../papers/22817889.html">PMID:22817889</a></p></li>
+<li><p><a href="../papers/22842228.html">PMID:22842228</a></p></li>
+<li><p><a href="../papers/23334666.html">PMID:23334666</a></p></li>
+<li><p><a href="../papers/23334668.html">PMID:23334668</a></p></li>
+<li><p><a href="../papers/23415222.html">PMID:23415222</a></p></li>
+<li><p><a href="../papers/23634996.html">PMID:23634996</a></p></li>
+<li><p><a href="../papers/24185509.html">PMID:24185509</a></p></li>
+<li><p><a href="../papers/24265153.html">PMID:24265153</a></p></li>
+<li><p><a href="../papers/24434212.html">PMID:24434212</a></p></li>
+<li><p><a href="../papers/24436047.html">PMID:24436047</a></p></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
+<li><p><a href="../papers/25079552.html">PMID:25079552</a></p></li>
+<li><p><a href="../papers/25155756.html">PMID:25155756</a></p></li>
+<li><p><a href="../papers/25164765.html">PMID:25164765</a></p></li>
+<li><p><a href="../papers/25303977.html">PMID:25303977</a></p></li>
+<li><p><a href="../papers/25409260.html">PMID:25409260</a></p></li>
+<li><p><a href="../papers/25417114.html">PMID:25417114</a></p></li>
+<li><p><a href="../papers/26091043.html">PMID:26091043</a></p></li>
+<li><p><a href="../papers/26343386.html">PMID:26343386</a></p></li>
+<li><p><a href="../papers/26359337.html">PMID:26359337</a></p></li>
+<li><p><a href="../papers/26466571.html">PMID:26466571</a></p></li>
+<li><p><a href="../papers/26824661.html">PMID:26824661</a></p></li>
+<li><p><a href="../papers/27149842.html">PMID:27149842</a></p></li>
+<li><p><a href="../papers/27276561.html">PMID:27276561</a></p></li>
+<li><p><a href="../papers/27646943.html">PMID:27646943</a></p></li>
+<li><p><a href="../papers/27776115.html">PMID:27776115</a></p></li>
+<li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
+<li><p><a href="../papers/28336552.html">PMID:28336552</a></p></li>
+<li><p><a href="../papers/28373299.html">PMID:28373299</a></p></li>
+<li><p><a href="../papers/29316426.html">PMID:29316426</a></p></li>
+<li><p><a href="../papers/29625049.html">PMID:29625049</a></p></li>
+<li><p><a href="../papers/29848569.html">PMID:29848569</a></p></li>
+<li><p><a href="../papers/30333627.html">PMID:30333627</a></p></li>
+<li><p><a href="../papers/30373752.html">PMID:30373752</a></p></li>
+<li><p><a href="../papers/30687805.html">PMID:30687805</a></p></li>
+<li><p><a href="../papers/30867592.html">PMID:30867592</a></p></li>
+<li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
+<li><p><a href="../papers/31792460.html">PMID:31792460</a></p></li>
+<li><p><a href="../papers/31871300.html">PMID:31871300</a></p></li>
+<li><p><a href="../papers/32404308.html">PMID:32404308</a></p></li>
+<li><p><a href="../papers/32897884.html">PMID:32897884</a></p></li>
+<li><p><a href="../papers/33029006.html">PMID:33029006</a></p></li>
+<li><p><a href="../papers/33106634.html">PMID:33106634</a></p></li>
+<li><p><a href="../papers/36228155.html">PMID:36228155</a></p></li>
+<li><p><a href="../papers/36355783.html">PMID:36355783</a></p></li>
+<li><p><a href="../papers/36493333.html">PMID:36493333</a></p></li>
+<li><p><a href="../papers/36862133.html">PMID:36862133</a></p></li>
+<li><p><a href="../papers/37643132.html">PMID:37643132</a></p></li>
+<li><p><a href="../papers/37730754.html">PMID:37730754</a></p></li>
+<li><p><a href="../papers/38412093.html">PMID:38412093</a></p></li>
+<li><p><a href="../papers/38488813.html">PMID:38488813</a></p></li>
+<li><p><a href="../papers/38922339.html">PMID:38922339</a></p></li>
+<li><p><a href="../papers/39753968.html">PMID:39753968</a></p></li>
+<li><p><a href="../papers/33509808.html">PMID:33509808</a></p></li>
+<li><p><a href="../papers/33765338.html">PMID:33765338</a></p></li>
+<li><p><a href="../papers/33863915.html">PMID:33863915</a></p></li>
+<li><p><a href="../papers/35078859.html">PMID:35078859</a></p></li>
+<li><p><a href="../papers/35235413.html">PMID:35235413</a></p></li>
+<li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
+<li><p><a href="../papers/35304457.html">PMID:35304457</a></p></li>
+<li><p><a href="../papers/35443055.html">PMID:35443055</a></p></li>
+<li><p><a href="../papers/35970919.html">PMID:35970919</a></p></li>
+<li><p><a href="../papers/35868306.html">PMID:35868306</a></p></li>
+<li><p><a href="../papers/24030381.html">PMID:24030381</a></p></li>
+<li><p><a href="../papers/35487942.html">PMID:35487942</a></p></li>
+<li><p><a href="../papers/36044468.html">PMID:36044468</a></p></li>
+<li><p><a href="../papers/37980418.html">PMID:37980418</a></p></li>
+<li><p><a href="../papers/38212634.html">PMID:38212634</a></p></li>
+<li><p><a href="../papers/40097403.html">PMID:40097403</a></p></li>
+<li><p><a href="../papers/41758938.html">PMID:41758938</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33509808.html">PMID:33509808</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33765338.html">PMID:33765338</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33863915.html">PMID:33863915</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35078859.html">PMID:35078859</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35235413.html">PMID:35235413</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35304457.html">PMID:35304457</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35443055.html">PMID:35443055</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35970919.html">PMID:35970919</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35868306.html">PMID:35868306</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../datasets/prad_msk_mdanderson_2023.html">prad_msk_mdanderson_2023</a> — 44 PDX models from 38 prostate cancer patients at MD Anderson Cancer Center, spanning adenocarcinoma and NEPC, profiled by WGS, T200.1 targeted sequencing, and RNA-seq. <a href="../papers/38488813.html">PMID:38488813</a></li>
 <li><a href="../datasets/prostate_msk_2024.html">prostate_msk_2024</a> — 2,257 PRAD patients at MSK sequenced by MSK-IMPACT (3,244 tumors); subgroups: 63 MSI-H/dMMR (2.8%), 33 TMB-H/MSS (1.5%). <a href="../papers/38949888.html">PMID:38949888</a></li>
 <li><a href="../datasets/msk_ctdna_vte_2024.html">msk_ctdna_vte_2024</a> — PRAD comprised 5% of the 4,141-patient liquid biopsy VTE discovery cohort. <a href="../papers/39147831.html">PMID:39147831</a></li>
-<li>ATLAS classifier validation — PRAD included in the 22-class site-of-origin model; de-differentiation score distinguishes PRAD from <a href="../cancer_types/PRNE.html">PRNE</a> (AUC=0.834). <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>ATLAS classifier validation — PRAD included in the 22-class site-of-origin model; de-differentiation score distinguishes PRAD from <a href="../cancer_types/PRNE.html">PRNE</a> (AUC=0.834). <a href="../papers/38480799.html">PMID:38480799</a></li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
@@ -203,30 +206,34 @@ ul.task-list li input[type="checkbox"] {
 <li>Prostate adenocarcinoma (PRAD) multi-omic profiling identified subtypes defined by ETS fusions, SPOP/FOXA1/IDH1 mutations, and distinct epigenetic signatures <a href="../papers/26544944.html">PMID:26544944</a></li>
 <li>Beltran et al.&nbsp;profiled 114 metastatic biopsies from 81 castration-resistant prostate cancer patients (51 CRPC-Adeno, 30 CRPC-NE); concurrent <a href="../genes/RB1.html">RB1</a>+<a href="../genes/TP53.html">TP53</a> loss hallmarks neuroendocrine transdifferentiation (53.3% CRPC-NE vs 13.7% CRPC-Adeno); <a href="../genes/CYLD.html">CYLD</a> deleted in 51% CRPC-NE; 70-gene NEPC classifier (precision/recall &gt;0.99) detects CRPC-NE in up to 8% of metastatic cases across external cohorts <a href="../papers/26855148.html">PMID:26855148</a></li>
 <li>WES + array-CGH + expression microarray on 176 tumors from 63 men with mCRPC (rapid autopsy cohort) showed high intra-individual metastatic concordance for key drivers (<a href="../genes/AR.html">AR</a> amplification/mutation 63%, <a href="../genes/TMPRSS2.html">TMPRSS2</a>-<a href="../genes/ERG.html">ERG</a> 100% concordant); somatic FA-pathway or <a href="../genes/ATM.html">ATM</a> defects predicted longer <a href="../drugs/carboplatin.html">carboplatin</a> response (log-rank P=0.02) <a href="../papers/26928463.html">PMID:26928463</a></li>
-<li><a href="../genes/TRMT10A.html">TRMT10A</a> overexpressed in prostate cancer/mCRPC vs normal tissue (TCGA <a href="../datasets/prad_tcga.html">prad_tcga</a>; n=500 tumor, n=52 normal); high <a href="../genes/TRMT10A.html">TRMT10A</a> IHC associated with shorter <a href="../cancer_types/OS.html">OS</a> (P=0.014, log-rank) in 54 mCRPC patients; <a href="../genes/TRMT10A.html">TRMT10A</a> loss sensitizes BRCA1/2-WT mCRPC cells to PARPi (<a href="../drugs/olaparib.html">olaparib</a>) by impairing ATM-dependent <a href="../genes/BRCA1.html">BRCA1</a> recruitment; <a href="../genes/USP10.html">USP10</a> inhibitor <a href="../drugs/spautin-1.html">spautin-1</a> degrades <a href="../genes/TRMT10A.html">TRMT10A</a> and synergizes with <a href="../drugs/olaparib.html">olaparib</a> in 22Rv1 CDX and two mCRPC PDX models <a href="../papers/28068672.html">PMID:28068672</a></li>
+<li><a href="../genes/TRMT10A.html">TRMT10A</a> overexpressed in prostate cancer/mCRPC vs normal tissue (TCGA <a href="../datasets/prad_tcga.html">prad_tcga</a>; n=500 tumor, n=52 normal); high <a href="../genes/TRMT10A.html">TRMT10A</a> IHC associated with shorter OS (P=0.014, log-rank) in 54 mCRPC patients; <a href="../genes/TRMT10A.html">TRMT10A</a> loss sensitizes BRCA1/2-WT mCRPC cells to PARPi (<a href="../drugs/olaparib.html">olaparib</a>) by impairing ATM-dependent <a href="../genes/BRCA1.html">BRCA1</a> recruitment; <a href="../genes/USP10.html">USP10</a> inhibitor <a href="../drugs/spautin-1.html">spautin-1</a> degrades <a href="../genes/TRMT10A.html">TRMT10A</a> and synergizes with <a href="../drugs/olaparib.html">olaparib</a> in 22Rv1 CDX and two mCRPC PDX models <a href="../papers/41071892.html">PMID:41071892</a></li>
 <li>In the MSK-IMPACT pan-cancer cohort (n=10,945 tumors), <a href="../genes/AR.html">AR</a> was mutated in 18% of metastatic PRAD vs 1% in TCGA primary tumors; recurrent acquired-resistance hotspots L702H and H875Y were observed in 10 patients each; <a href="../genes/TP53.html">TP53</a> was significantly enriched vs TCGA in metastatic prostate cancer; TMPRSS2-ERG was the most common rearrangement (n=151) with 23 cryptic <a href="../genes/TMPRSS2.html">TMPRSS2</a> rearrangements consistent with chromoplexy; MSI-detected prostate cancer (n=1) responded to anti-PD-L1 therapy. <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>MET500 metastatic cohort: prostate adenocarcinoma was the largest lineage represented (93/500, 18.6%); <a href="../genes/AR.html">AR</a> alterations (12.6%) were lineage-restricted (predominantly PRAD); mutation burden was significantly elevated vs TCGA primaries with the largest increase in prostate cancer; germline pathogenic variants in <a href="../genes/HOXB13.html">HOXB13</a> (3 carriers, prostate-susceptibility allele) observed. <a href="../papers/28783718.html">PMID:28783718</a></li>
 <li>MSK-IMPACT targeted profiling of 504 tumors from 451 PRAD patients spanning locoregional to mCRPC: actionable alterations in 36%, 22% somatic HR-gene alterations, 19% germline pathogenic variants in 221 tested (<a href="../genes/BRCA2.html">BRCA2</a> 9%, <a href="../genes/CHEK2.html">CHEK2</a> 4%, <a href="../genes/ATM.html">ATM</a> 2%); <a href="../genes/AR.html">AR</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/ATM.html">ATM</a> frequencies escalate with castration resistance; <a href="../genes/TP53.html">TP53</a> and <a href="../genes/BRCA2.html">BRCA2</a> alterations are early clonal events. <a href="../papers/28825054.html">PMID:28825054</a></li>
-<li>SNPs-seq screen of 374 PRAD GWAS loci nominated rs4519489 (<a href="../genes/NOL10.html">NOL10</a> intron, 2p25) as functional: A allele drives higher <a href="../genes/NOL10.html">NOL10</a> expression via <a href="../genes/USF1.html">USF1</a> binding; elevated <a href="../genes/NOL10.html">NOL10</a> tracks with advanced stage, lymph-node metastasis, Gleason score, <a href="../genes/BCR.html">BCR</a>, and shorter <a href="../cancer_types/OS.html">OS</a> across CPGEA, TCGA PRAD, and multiple validation cohorts (meta-analysis <a href="../genes/BCR.html">BCR</a> HR=2.49, P=1.81e-9). <a href="../papers/28927585.html">PMID:28927585</a></li>
+<li>SNPs-seq screen of 374 PRAD GWAS loci nominated rs4519489 (<a href="../genes/NOL10.html">NOL10</a> intron, 2p25) as functional: A allele drives higher <a href="../genes/NOL10.html">NOL10</a> expression via <a href="../genes/USF1.html">USF1</a> binding; elevated <a href="../genes/NOL10.html">NOL10</a> tracks with advanced stage, lymph-node metastasis, Gleason score, <a href="../genes/BCR.html">BCR</a>, and shorter OS across CPGEA, TCGA PRAD, and multiple validation cohorts (meta-analysis <a href="../genes/BCR.html">BCR</a> HR=2.49, P=1.81e-9). <a href="../papers/41062477.html">PMID:41062477</a></li>
 <li>WES meta-analysis of 1,013 prostate tumor/normal pairs (680 primary, 333 metastatic castration-resistant) identified 97 SMGs; novel drivers include <a href="../genes/CUL3.html">CUL3</a> (1.3%, SPOP-like), <a href="../genes/SPEN.html">SPEN</a> (2.4%, metastasis-enriched AR-pathway), SF3B1/U2AF1 spliceosome pathway (4%), <a href="../genes/PIK3R2.html">PIK3R2</a> p.Asp557Tyr, <a href="../genes/CDK12.html">CDK12</a> biallelic inactivation, <a href="../genes/MRE11.html">MRE11</a>, and <a href="../genes/PALB2.html">PALB2</a>; <a href="../genes/TMPRSS2.html">TMPRSS2</a>–<a href="../genes/ERG.html">ERG</a> fusions define the dominant fusion subtype <a href="../papers/29610475.html">PMID:29610475</a></li>
 <li>Pan-cancer fusion study (9,624 TCGA samples) identified <a href="../genes/TMPRSS2.html">TMPRSS2</a>–<a href="../genes/ERG.html">ERG</a> as the most recurrent single-cancer fusion (38.2% of PRAD, 205 samples); 205 PRAD samples were annotated as druggable via <a href="../genes/TMPRSS2.html">TMPRSS2</a>, making it the largest druggable-fusion group in the pan-cancer cohort <a href="../papers/29617662.html">PMID:29617662</a></li>
 <li>Included in TCGA PanCancer Atlas; PRAD dominated iCluster C16; PRAD showed high cell-of-origin molecular homogeneity <a href="../papers/29625048.html">PMID:29625048</a></li>
 <li>Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types <a href="../papers/29625050.html">PMID:29625050</a></li>
 <li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); TCGA-CDR advises against using OS/DSS for PRAD due to short follow-up; PFI/DFI recommended instead <a href="../papers/29625055.html">PMID:29625055</a></li>
 <li>PRAD (prostate adenocarcinoma) was the cancer type studied in 292 whole-genome-profiled cases (203 EOPC, 89 LOPC) from the <a href="../datasets/prostate_dkfz_2018.html">prostate_dkfz_2018</a> dataset; recurrent SVs included TMPRSS2-ERG fusions (70% of EOPC), 8p <a href="../genes/NKX3-1.html">NKX3-1</a> loss (37%), 3p14 <a href="../genes/FOXP1.html">FOXP1</a> loss (30%), 13q22 <a href="../genes/KLF5.html">KLF5</a> loss (27%), and 8q22 <a href="../genes/ESRP1.html">ESRP1</a> duplications (17%); APOBEC3B-driven kataegis was the dominant mutational mechanism at SV breakpoints. <a href="../papers/30537516.html">PMID:30537516</a></li>
-<li>SU2C mCRPC cohort expanded to 429 patients (444 tumors) profiled by WES and RNA-seq; <a href="../genes/RB1.html">RB1</a> alteration is the dominant independent prognostic biomarker (multivariate RR 3.31 <a href="../cancer_types/OS.html">OS</a>, RR 6.56 time on ARSI); AR-V7 tumor-tissue detection is not prognostic; 10.5% of post-ARSI tumors show neuroendocrine histologic features <a href="../papers/31061129.html">PMID:31061129</a>.</li>
+<li>SU2C mCRPC cohort expanded to 429 patients (444 tumors) profiled by WES and RNA-seq; <a href="../genes/RB1.html">RB1</a> alteration is the dominant independent prognostic biomarker (multivariate RR 3.31 OS, RR 6.56 time on ARSI); AR-V7 tumor-tissue detection is not prognostic; 10.5% of post-ARSI tumors show neuroendocrine histologic features <a href="../papers/31061129.html">PMID:31061129</a>.</li>
 <li>HP [1-13C] pyruvate MRI in 12 PRAD patients: Lac_max significantly higher in tumor vs normal prostate (p=0.0001 Gleason 3, p&lt;0.0001 Gleason ≥4) and rose with grade; MCT1 (<a href="../genes/SLC16A1.html">SLC16A1</a>) identified as rate-limiting lactate transporter by IHC; homozygous <a href="../genes/PTEN.html">PTEN</a> loss trended with highest Lac_max (p=0.059); TMPRSS2-ERG fusion did not segregate lactate signal <a href="../papers/31564440.html">PMID:31564440</a>.</li>
 <li>Castration-resistant prostate cancer (CRPC, n=44–55 evaluable) was one of three tumor types in a prospective cfDNA+WBC co-sequencing study; cfDNA detected at least one tumor mutation in 82% of CRPC patients; <a href="../genes/AR.html">AR</a> mutations were recoverable as subclonal VUSo; one MSI-H CRPC patient identified solely from cfDNA had rapid sustained response to anti-PD-L1 therapy <a href="../papers/31768066.html">PMID:31768066</a></li>
 <li>In PCAWG, prostate adenocarcinoma showed chromoplexy as a prominent mutational process and <a href="../genes/TP53.html">TP53</a> association with chromothripsis (OR=2.6); chromothripsis was clonal and early in prostate cancer <a href="../papers/32025007.html">PMID:32025007</a>.</li>
 <li>Prospective MSK-IMPACT sequencing of 424 mCSPC patients showed <a href="../genes/CDK12.html">CDK12</a> alterations 6.7 pp more frequent in de-novo metastatic vs recurrent disease (FDR 0.037); <a href="../genes/AR.html">AR</a>, <a href="../genes/TP53.html">TP53</a>, cell-cycle, and <a href="../genes/MYC.html">MYC</a> pathway alterations associated with shorter time to castration resistance; 50% of mCSPC tumors harbored at least one OncoKB-actionable alteration <a href="../papers/32220891.html">PMID:32220891</a></li>
-<li><a href="../genes/CDK12.html">CDK12</a> alterations in 100/1,875 (5.3%) of prostate cancers sequenced by MSK-IMPACT (highest among 25 solid tumor types); CDK12-biallelic (CDK12-Bi) cases showed tandem duplicator phenotype, fewer TMPRSS2-ERG fusions and TP53 mutations, and shorter <a href="../cancer_types/OS.html">OS</a> from metastatic diagnosis (median 64.4 vs 74.9 mo; aHR 1.80, 95% CI 1.12-2.89; p=0.024) <a href="../papers/32317181.html">PMID:32317181</a></li>
+<li><a href="../genes/CDK12.html">CDK12</a> alterations in 100/1,875 (5.3%) of prostate cancers sequenced by MSK-IMPACT (highest among 25 solid tumor types); CDK12-biallelic (CDK12-Bi) cases showed tandem duplicator phenotype, fewer TMPRSS2-ERG fusions and <a href="../genes/TP53.html">TP53</a> mutations, and shorter OS from metastatic diagnosis (median 64.4 vs 74.9 mo; aHR 1.80, 95% CI 1.12-2.89; p=0.024) <a href="../papers/32317181.html">PMID:32317181</a></li>
 <li>cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in prostate cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; <a href="../genes/BRCA2.html">BRCA2</a> OncoKB level 1 alterations identified in plasma of PRAD patients supporting <a href="../drugs/olaparib.html">olaparib</a> eligibility; sub-clonal <a href="../genes/AR.html">AR</a> p.H875Y resistance allele detected by plasma cfDNA below the calling threshold of tumor MSK-IMPACT; an MSI-H mCRPC patient identified from cf-IMPACT received <a href="../drugs/pembrolizumab.html">pembrolizumab</a> with durable PSA response <a href="../papers/34059130.html">PMID:34059130</a>.</li>
 <li>MSK-ACCESS cfDNA panel prospectively profiled prostate cancer patients (part of the 28% NSCLC/PRAD/BLCA/PAAD/biliary group, n=617 patients total); <a href="../genes/AR.html">AR</a> mutations enriched in cfDNA vs MSK-IMPACT in prostate cancer; OncoKB level 1 actionable alterations detected in 48% of <a href="../cancer_types/BLCA.html">BLCA</a>, 37% of <a href="../cancer_types/BRCA.html">BRCA</a>, and 33% of <a href="../cancer_types/NSCLC.html">NSCLC</a> samples; PRAD was the second most common cancer type in the cohort; matched WBC sequencing removed &gt;10,000 germline/CH confounders <a href="../papers/34145282.html">PMID:34145282</a>.</li>
 <li>MSK-IMPACT cohort of 2,069 prostate adenocarcinoma patients (1,841 White, 165 Black, 63 Asian; <a href="../datasets/prad_msk_stopsack_2021.html">prad_msk_stopsack_2021</a>) revealed race-associated somatic differences: <a href="../genes/AR.html">AR</a> alterations enriched in Black men (adjusted +5 pp vs White); <a href="../genes/FOXA1.html">FOXA1</a> class-1 forkhead-domain mutations in 21% vs 8% of Asian vs White men; <a href="../genes/TP53.html">TP53</a> less frequent in Black men (19% vs 30%; adjusted −10 pp); chr8q gain (enriched for <a href="../genes/MYC.html">MYC</a>) in 49% Black vs 37% White (adjusted +11 pp), independently prognostic for death (HR 2.00 Black, 1.61 White); area-level income independently associated with chr8q gain, arguing against purely germline interpretation <a href="../papers/34667026.html">PMID:34667026</a></li>
-<li>MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs.&nbsp;metastatic genomic differences; PRAD is among tumor types analyzed for <a href="../genes/FGA.html">FGA</a>, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens <a href="../papers/35120664.html">PMID:35120664</a></li>
+<li>MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs.&nbsp;metastatic genomic differences; PRAD is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens <a href="../papers/35120664.html">PMID:35120664</a></li>
 <li>Prostate cancer brain metastases (PCBM) from 51 Swiss patients profiled by multi-region whole-exome sequencing (168 samples; <a href="../datasets/prostate_pcbm_swiss_2019.html">prostate_pcbm_swiss_2019</a>); PCBM showed elevated mutation burden vs matched primaries and non-brain mCRPC; 10/51 (19.6%) met PROfound HRR criteria, 5/51 (9.8%) had pathogenic BRCA1/2 alterations <a href="../papers/35504881.html">PMID:35504881</a></li>
 <li>ATAC-seq + RNA-seq of 40 metastatic CRPC models (organoids, PDXs, cell lines) defined four chromatin subtypes: CRPC-AR, CRPC-NE, CRPC-WNT, and novel CRPC-SCL (AP-1/YAP/TAZ-driven, ~28% of 366 patients in SU2C/WCM cohorts); CRPC-SCL associated with shorter time on enzalutamide/abiraterone <a href="../papers/35617398.html">PMID:35617398</a></li>
 <li>In 1,417 prostate cancers profiled by MSK-IMPACT, <a href="../genes/PIK3R1.html">PIK3R1</a> was the second most altered PI3K-pathway gene after <a href="../genes/PTEN.html">PTEN</a> in metastatic disease; driver alterations (3.6% overall) were enriched in mets vs primary (5.0% vs 2.7%, p=0.030), and copy-number loss in 36% vs 24% (p&lt;0.001) <a href="../papers/35670774.html">PMID:35670774</a>.</li>
+<li>In a pan-cancer TCGA analysis of the DNA-repair gene <a href="../genes/LIG1.html">LIG1</a>, heterozygous LIG1 loss was associated with worse progression-free survival in prostate adenocarcinoma (HR 2.07, P=0.02), one of five cancer types with a significant association. <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>As a chromoplexy method-control cohort, 50 <a href="../genes/TMPRSS2.html">TMPRSS2</a>::ERG-fused prostate adenocarcinomas showed non-canonical TMPRSS2 translocations/inversions in 17 (34%) of cases, reproducing a previously described chained-rearrangement pattern in prostate cancer. <a href="../papers/38335254.html">PMID:38335254</a></li>
+<li>Among 64 men who developed secondary rectal adenocarcinoma at least 5 years after radiotherapy for prostate cancer (external beam and/or brachytherapy, median latency 11.5 years), the resulting tumors had lower <a href="../genes/APC.html">APC</a> inactivation, higher <a href="../genes/SMAD4.html">SMAD4</a> inactivation, lower TMB, and excess frameshift deletions attributed to radiation-induced double-strand-break misrepair, compared with primary rectal cancer. <a href="../papers/40100215.html">PMID:40100215</a></li>
+<li>In the MSK-IMPACT pan-cancer driver analysis, <a href="../genes/CUL3.html">CUL3</a> alterations, though rare overall (~0.05% of the cohort), were a canonical driver specifically in prostate adenocarcinoma (0.6% altered). <a href="../papers/41895280.html">PMID:41895280</a></li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -234,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>MSI-H/dMMR (2.8%) vs.&nbsp;TMB-H/MSS (1.5%) vs.&nbsp;TMB-L/MSS (95.7%) distinct subgroups by immunogenicity; both MSI-H and TMB-H/MSS are more commonly Gleason grade group 5 (62% and 59% vs.&nbsp;40%, P&lt;0.001). <a href="../papers/38949888.html">PMID:38949888</a></li>
 <li>Oligometastatic PRAD (≤5 radiographically visible metastatic lesions) operationalized as a clinically defined intermediate state on the metastatic spectrum; working definition endorsed pending a biologic/genomic definition. <a href="../papers/28045614.html">PMID:28045614</a></li>
-<li>NEPC/PRNE: defined by <a href="../genes/AR.html">AR</a> expression loss, <a href="../genes/RB1.html">RB1</a> enrichment; DDR pathway transcriptomically upregulated. ATLAS RNA classifier distinguishes PRAD from <a href="../cancer_types/PRNE.html">PRNE</a> with AUC=0.834. <a href="../papers/38488813.html">PMID:38488813</a> <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>NEPC/PRNE: defined by <a href="../genes/AR.html">AR</a> expression loss, <a href="../genes/RB1.html">RB1</a> enrichment; DDR pathway transcriptomically upregulated. ATLAS RNA classifier distinguishes PRAD from <a href="../cancer_types/PRNE.html">PRNE</a> with AUC=0.834. <a href="../papers/38488813.html">PMID:38488813</a> <a href="../papers/38480799.html">PMID:38480799</a></li>
 </ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
@@ -245,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <li>TMB-H/MSS PRAD: 0% RECIST response with ICB despite FDA approval of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> for TMB-H tumors; TMB alone is an insufficient biomarker in PRAD. <a href="../papers/38949888.html">PMID:38949888</a></li>
 <li><a href="../genes/FGFR1.html">FGFR1</a> downstream signature (NRP2, LRP4, TGFBI) stratifies patients for FGFR-targeted therapy in bone-metastatic CRPC; PARP inhibition investigated in NEPC. <a href="../papers/38488813.html">PMID:38488813</a></li>
 <li>ctDNA detection associated with higher VTE rates in PRAD patients (5% of pan-cancer cohort); anticoagulation associated with lower VTE in ctDNA-positive patients (adjusted HR=0.50). <a href="../papers/39147831.html">PMID:39147831</a></li>
-<li>ATLAS lineage de-differentiation score prognostic for prostate cancer survival and neuroendocrine transformation detection. <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>ATLAS lineage de-differentiation score prognostic for prostate cancer survival and neuroendocrine transformation detection. <a href="../papers/38480799.html">PMID:38480799</a></li>
 <li>ROBIN OligoMET center (U54 CA273956; UMB, Weill Cornell Medicine, Thomas Jefferson University) conducts parallel co-clinical studies in oligometastatic PRAD: the TERPS Phase II RCT (NCT05223803) of metastasis-directed SABR had enrolled 47 patients (80+ screened) as of writing; digital-pathology multimodal AI, plasma proteomics, and T-cell receptor repertoire analyses yielded preliminary SABR-benefit signatures. Preclinical dietary interventions showed low-fat/calorie-restricted diets enhanced radiosensitivity while ketogenic diets promoted radio-resistance. These findings catalyzed the biomarker-designed KNIGHTS integral-biomarker RCT (NCT06212583). OligoMET also explicitly investigates molecular drivers of poorer outcomes in African-American patients. <a href="../papers/41941260.html">PMID:41941260</a></li>
 <li>Local metastasis-directed therapies (e.g., SABR) in oligometastatic hormone-sensitive PRAD may alter natural history by ablating macroscopic metastases acting as “communal sanctuaries” seeded by circulating tumor cells from multiple sites (self-seeding model); current standard of care remains systemic ADT and any local therapies should be implemented in a clinical trial. <a href="../papers/28045614.html">PMID:28045614</a></li>
 <li>14q32-encoded microRNA signatures and blood-based biomarkers proposed as candidate oligometastatic biomarkers in PRAD, analogous to <a href="../cancer_types/NSCLC.html">NSCLC</a>, but none are clinically validated. <a href="../papers/28045614.html">PMID:28045614</a></li>
@@ -254,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><p><a href="../papers/27634761.html">PMID:27634761</a></p></li>
+<li><p><a href="../papers/38480799.html">PMID:38480799</a></p></li>
 <li><p><a href="../papers/34059130.html">PMID:34059130</a></p></li>
 <li><p><a href="../papers/34145282.html">PMID:34145282</a></p></li>
 <li><p><a href="../papers/38488813.html">PMID:38488813</a></p></li>
@@ -274,11 +281,11 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/26544944.html">PMID:26544944</a></p></li>
 <li><p><a href="../papers/26855148.html">PMID:26855148</a></p></li>
 <li><p><a href="../papers/26928463.html">PMID:26928463</a></p></li>
-<li><p><a href="../papers/28068672.html">PMID:28068672</a></p></li>
+<li><p><a href="../papers/41071892.html">PMID:41071892</a></p></li>
 <li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
 <li><p><a href="../papers/28783718.html">PMID:28783718</a></p></li>
 <li><p><a href="../papers/28825054.html">PMID:28825054</a></p></li>
-<li><p><a href="../papers/28927585.html">PMID:28927585</a></p></li>
+<li><p><a href="../papers/41062477.html">PMID:41062477</a></p></li>
 <li><p><a href="../papers/29610475.html">PMID:29610475</a></p></li>
 <li><p><a href="../papers/29617662.html">PMID:29617662</a></p></li>
 <li><p><a href="../papers/29625048.html">PMID:29625048</a></p></li>
@@ -293,11 +300,15 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/32317181.html">PMID:32317181</a></p></li>
 <li><p><a href="../papers/34667026.html">PMID:34667026</a></p></li>
 <li><p><a href="../papers/35120664.html">PMID:35120664</a></p></li>
+<li><p><a href="../papers/35504881.html">PMID:35504881</a></p></li>
+<li><p><a href="../papers/35617398.html">PMID:35617398</a></p></li>
+<li><p><a href="../papers/35670774.html">PMID:35670774</a></p></li>
+<li><p><a href="../papers/36001024.html">PMID:36001024</a></p></li>
+<li><p><a href="../papers/38335254.html">PMID:38335254</a></p></li>
+<li><p><a href="../papers/40100215.html">PMID:40100215</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35617398.html">PMID:35617398</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

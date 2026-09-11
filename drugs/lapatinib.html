@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,8 +182,10 @@ ul.task-list li input[type="checkbox"] {
 <li>NCI-60 CellMiner pharmacogenomics analysis linked EGFR/ERBB2 pathway activity to lapatinib sensitivity across cancer cell lines including colon <a href="../papers/22802077.html">PMID:22802077</a></li>
 <li><a href="../genes/EGFR.html">EGFR</a> over-expression and phosphorylation in the PI3K/AKT/mTOR alteration module in clear cell renal cell carcinoma (<a href="../cancer_types/CCRCC.html">CCRCC</a>) was linked to prior lapatinib response data (Ravaud et al.&nbsp;2008 phase III trial) in this cancer type <a href="../papers/23792563.html">PMID:23792563</a>.</li>
 <li>Candidate therapy for ERBB4-mutated (6.8%) and NRG1-mutated (7.1%) gastric adenocarcinoma (<a href="../cancer_types/STAD.html">STAD</a>): dual TKI inhibits <a href="../genes/ERBB4.html">ERBB4</a> and PI3K-AKT signaling; NRG1/ERBB4 mutations occur in 11.6% of GC (34/294), defining a candidate biomarker-selected population; in phase III trial NCT01264081 in ERBB4-mutated melanoma at time of publication <a href="../papers/25583476.html">PMID:25583476</a></li>
-<li>NF1-null and ERBB2-mutant (L755S) HER2+ breast cancer cells are resistant to lapatinib (500 nM); <a href="../genes/NF1.html">NF1</a> re-expression restores lapatinib sensitivity. MAPK-pathway alterations (NF1 loss 8%, <a href="../genes/ERBB2.html">ERBB2</a> mutations 7%) correlate with shorter PFS (9.9 vs 21 months) on first-line anti-HER2 therapy in 145 patients. <a href="../papers/34795269.html">PMID:34795269</a></li>
-<li>HER2/EGFR TKI; ERBB2 amplification in 24% of <a href="../cancer_types/BRCA.html">BRCA</a> in Chinese pan-cancer cohort (n=10,194) actionable with lapatinib, <a href="../drugs/trastuzumab.html">trastuzumab</a>+<a href="../drugs/pertuzumab.html">pertuzumab</a>, <a href="../drugs/neratinib.html">neratinib</a>, and <a href="../drugs/tucatinib.html">tucatinib</a> <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>NF1-null and ERBB2-mutant (L755S) HER2+ breast cancer cells are resistant to lapatinib (500 nM); <a href="../genes/NF1.html">NF1</a> re-expression restores lapatinib sensitivity. MAPK-pathway alterations (<a href="../genes/NF1.html">NF1</a> loss 8%, <a href="../genes/ERBB2.html">ERBB2</a> mutations 7%) correlate with shorter PFS (9.9 vs 21 months) on first-line anti-HER2 therapy in 145 patients. <a href="../papers/34795269.html">PMID:34795269</a></li>
+<li>HER2/EGFR TKI; <a href="../genes/ERBB2.html">ERBB2</a> amplification in 24% of <a href="../cancer_types/BRCA.html">BRCA</a> in Chinese pan-cancer cohort (n=10,194) actionable with lapatinib, <a href="../drugs/trastuzumab.html">trastuzumab</a>+<a href="../drugs/pertuzumab.html">pertuzumab</a>, <a href="../drugs/neratinib.html">neratinib</a>, and <a href="../drugs/tucatinib.html">tucatinib</a> <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>ERBB2 V842I confers in vitro resistance to <a href="../drugs/trastuzumab.html">trastuzumab</a> and lapatinib (<a href="../drugs/neratinib.html">neratinib</a> data conflict), while R678Q is associated with sensitivity to trastuzumab, lapatinib and neratinib <a href="../papers/39031567.html">PMID:39031567</a>.</li>
+<li>BT-474 cells with endogenous APOBEC3 activity acquired lapatinib resistance faster than APOBEC3A-knockout cells (P=6.78x10^-10) <a href="../papers/40379787.html">PMID:40379787</a>.</li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -203,11 +208,13 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/22460905.html">PMID:22460905</a></li>
 <li><a href="../papers/22802077.html">PMID:22802077</a></li>
 <li><a href="../papers/23792563.html">PMID:23792563</a> — TCGA <a href="../cancer_types/CCRCC.html">CCRCC</a> comprehensive molecular characterization; <a href="../genes/EGFR.html">EGFR</a> over-expression in the PI3K/AKT/mTOR alteration module linked to prior lapatinib phase III trial data in this cancer type.</li>
+<li><a href="../papers/25583476.html">PMID:25583476</a></li>
+<li><a href="../papers/34795269.html">PMID:34795269</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
+<li><a href="../papers/40379787.html">PMID:40379787</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34795269.html">PMID:34795269</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -187,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 <li>In a 247-patient advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> cohort (15% squamous/LUSC), multimodal DyAM model integrating CT <a href="../methods/radiomics.html">radiomics</a>, PD-L1 IHC, and genomics achieved AUC=0.80 for ICI response prediction; the model handles missing modalities and provides modality-specific risk scores enabling clinical interpretability <a href="../papers/36038778.html">PMID:36038778</a></li>
 <li>TCGA WES of 178 lung squamous cell carcinomas defined the genomic landscape: near-universal <a href="../genes/CDKN2A.html">CDKN2A</a> loss, <a href="../genes/TP53.html">TP53</a> mutation, and frequent KEAP1/NFE2L2 alterations <a href="../papers/22960745.html">PMID:22960745</a></li>
 <li>Pan-NSCLC WES of 660 <a href="../cancer_types/LUAD.html">LUAD</a> and 484 LUSC tumour/normal pairs (<a href="../datasets/nsclc_tcga_broad_2016.html">nsclc_tcga_broad_2016</a>); LUSC had median somatic mutation rate 9.7/Mb and 20 SMGs; novel LUSC driver <a href="../genes/RASA1.html">RASA1</a>; <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, and <a href="../genes/PIK3CA.html">PIK3CA</a> were significantly more frequently mutated in LUSC than <a href="../cancer_types/LUAD.html">LUAD</a> (p&lt;0.01); LUSC genetic landscape more closely resembled <a href="../cancer_types/HNSC.html">HNSC</a> and <a href="../cancer_types/BLCA.html">BLCA</a> than <a href="../cancer_types/LUAD.html">LUAD</a>; 53% of LUSCs had ≥5 predicted neoepitopes <a href="../papers/27158780.html">PMID:27158780</a></li>
-<li>LUSC had a 97% pre-operative ctDNA detection rate (30/31 cases) in the TRACERx cohort, compared with 19% for LUAD; non-adenocarcinoma histology, lymphovascular invasion, and high Ki67 were independent predictors of ctDNA detection on multivariable logistic regression. <a href="../papers/28445469.html">PMID:28445469</a></li>
+<li>LUSC had a 97% pre-operative ctDNA detection rate (30/31 cases) in the TRACERx cohort, compared with 19% for <a href="../cancer_types/LUAD.html">LUAD</a>; non-adenocarcinoma histology, lymphovascular invasion, and high Ki67 were independent predictors of ctDNA detection on multivariable logistic regression. <a href="../papers/28445469.html">PMID:28445469</a></li>
 <li>Squamous cell lung cancer comprised 14% (34/240) of the anti-PD-(L)1 <a href="../cancer_types/NSCLC.html">NSCLC</a> MSK-IMPACT cohort used to validate targeted NGS-based TMB as an immunotherapy biomarker; LUSC mutational signatures were used as a comparison reference in the vulvar SCC WES landscape study <a href="../papers/29337640.html">PMID:29337640</a></li>
 <li>LUSC mutational signatures (TCGA) were used as a reference comparison cohort in the first whole-exome sequencing landscape of vulvar squamous cell carcinoma; signature profiles were compared across HPV(+) and HPV(-) etiologic subgroups <a href="../papers/29422544.html">PMID:29422544</a></li>
 <li>MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included LUSC; LUSC and LUAD had the largest median SNVs per sample, consistent with tobacco-mutagen exposure <a href="../papers/29596782.html">PMID:29596782</a></li>
@@ -196,10 +199,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Included in TCGA PanCancer Atlas; LUSC co-clusters in pan-squamous iClusters C10, C25, C27 sharing dNp63/TAp63 squamous signaling; JAK2/STAT upregulation shared with pan-SCC <a href="../papers/29625048.html">PMID:29625048</a></li>
 <li>LUSC shows 4% germline vs 89% somatic genome-integrity disruption; among the cancer types with highest somatic genome-integrity disruption rates <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li>NRF2/oxidative-stress pathway alteration rate 25% in LUSC, highest pan-cancer; PI3K pathway alteration rate 68% in LUSC; NRF2+PI3K co-alteration concentrated in squamous lung <a href="../papers/29625050.html">PMID:29625050</a></li>
-<li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (<a href="../cancer_types/OS.html">OS</a>, PFI, DFI, DSS) recommended without reservation for LUSC; LUSC never-disease-free cases had HR=6.68 (95% CI 4.25-10.51) for new tumor events <a href="../papers/29625055.html">PMID:29625055</a></li>
+<li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for LUSC; LUSC never-disease-free cases had HR=6.68 (95% CI 4.25-10.51) for new tumor events <a href="../papers/29625055.html">PMID:29625055</a></li>
 <li>In PCAWG, lung squamous cell carcinoma showed high chromothripsis frequency; <a href="../genes/SOX2.html">SOX2</a> amplification via chromothripsis was identified as a late event (many SNVs predated the amplification); chromothripsis was clonal and early in lung squamous <a href="../papers/32025007.html">PMID:32025007</a>.</li>
 <li>CPTAC proteogenomic study of 108 treatment-naive LUSC tumors identified five NMF subtypes (Basal-Inclusive, EMT-Enriched, Classical, Inflamed-Secretory, Proliferative-Primitive); <a href="../genes/NSD3.html">NSD3</a> proteomically nominated over <a href="../genes/FGFR1.html">FGFR1</a> as the 8p11.23 amplicon driver; CDK4/6-pathway loss (<a href="../genes/CDKN2A.html">CDKN2A</a> or <a href="../genes/RB1.html">RB1</a>) was universal; TP63-low tumors overexpressed survivin (<a href="../genes/BIRC5.html">BIRC5</a>); dataset <a href="../datasets/lusc_cptac_2021.html">lusc_cptac_2021</a> <a href="../papers/34358469.html">PMID:34358469</a></li>
 <li>Wu et al.&nbsp;pan-cancer Asian cohort (<a href="../datasets/pan_origimed_2020.html">pan_origimed_2020</a>, n=10,194): LUSC included within the <a href="../cancer_types/NSCLC.html">NSCLC</a> umbrella (20% of cohort); <a href="../genes/TP53.html">TP53</a> (58% pan-cohort) and <a href="../genes/PIK3CA.html">PIK3CA</a> (11%) dominant across lung squamous histology; 11q13.3 amplification relevant to squamous subtypes <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>In a pan-cancer <a href="../genes/MET.html">MET</a> copy-number survey of 66,285 MSK-IMPACT tumor samples, lung squamous cell carcinoma (LUSC) was one of the <a href="../cancer_types/NSCLC.html">NSCLC</a> histologic subtypes broken out for MET amplification frequency, alongside LUAD, <a href="../cancer_types/LUNE.html">LUNE</a> and pleomorphic/sarcomatoid NSCLC (8.5%) <a href="../papers/36044468.html">PMID:36044468</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -211,14 +215,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li>ctDNA detection is an independent poor prognostic marker in advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> (HR 2.05, P&lt;0.001), with ctDNA-guided matching to targeted therapy conferring <a href="../cancer_types/OS.html">OS</a> benefit (HR 0.63, P&lt;0.001) <a href="../papers/36357680.html">PMID:36357680</a>.</li>
-<li>ATLAS RNA-expression classifier (trained on 8,249 samples including TCGA/CCLE) achieved 91.4% accuracy for cancer site classification; LUSC distinguished within the 22-class site classifier with lineage de-differentiation score prognostic for survival (HR 0.24, P=0.001) <a href="../papers/27634761.html">PMID:27634761</a>.</li>
+<li>ctDNA detection is an independent poor prognostic marker in advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> (HR 2.05, P&lt;0.001), with ctDNA-guided matching to targeted therapy conferring OS benefit (HR 0.63, P&lt;0.001) <a href="../papers/36357680.html">PMID:36357680</a>.</li>
+<li>ATLAS RNA-expression classifier (trained on 8,249 samples including TCGA/CCLE) achieved 91.4% accuracy for cancer site classification; LUSC distinguished within the 22-class site classifier with lineage de-differentiation score prognostic for survival (HR 0.24, P=0.001) <a href="../papers/38480799.html">PMID:38480799</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><p><a href="../papers/27634761.html">PMID:27634761</a></p></li>
+<li><p><a href="../papers/38480799.html">PMID:38480799</a></p></li>
 <li><p><a href="../papers/36357680.html">PMID:36357680</a></p></li>
 <li><p><a href="../papers/37591896.html">PMID:37591896</a></p></li>
 <li><p><a href="../papers/30325352.html">PMID:30325352</a></p></li>
@@ -238,8 +242,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/32025007.html">PMID:32025007</a></p></li>
 <li><p><a href="../papers/34358469.html">PMID:34358469</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/36044468.html">PMID:36044468</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

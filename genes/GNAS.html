@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Defines the GNAS-mut predominant molecular subtype of mucinous appendiceal adenocarcinoma (MAAP) in the MSK cohort <a href="../papers/36493333.html">PMID:36493333</a>.</li>
 <li>GNAS-mut predominant tumors are chemotherapy-resistant: 6% first-line response rate vs 50% in RAS-mut predominant MAAP (P=.03) <a href="../papers/36493333.html">PMID:36493333</a>.</li>
-<li>GNAS-mut predominant patients had worse <a href="../cancer_types/OS.html">OS</a> than RAS-mut predominant patients (P=.05), intermediate between RAS-mut and TP53-mut subtypes <a href="../papers/36493333.html">PMID:36493333</a>.</li>
+<li>GNAS-mut predominant patients had worse OS than RAS-mut predominant patients (P=.05), intermediate between RAS-mut and TP53-mut subtypes <a href="../papers/36493333.html">PMID:36493333</a>.</li>
 <li>GNAS R201 hotspot mutation found in 1 of 23 treatment-refractory somatotroph pituitary neuroendocrine tumors (PitNETs); absent in benign somatotrophs in the same cohort <a href="../papers/38758238.html">PMID:38758238</a>.</li>
 <li>In the MSK <a href="../datasets/pdac_msk_2024.html">pdac_msk_2024</a> PDAC cohort (n = 2,336), GNAS was enriched in MAPK-WT tumors vs KRAS-mutant (16% vs 2%, P = 1.5 × 10⁻⁵) and in resectable IPMN-derived tumors (7.9%); co-occurred with germline <a href="../genes/ATM.html">ATM</a> mutations <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>GNAS is among the most frequently mutated genes in pancreatic cystic neoplasms detected by whole-exome sequencing, particularly intraductal papillary mucinous neoplasms (IPMNs) <a href="../papers/22158988.html">PMID:22158988</a></li>
@@ -185,11 +188,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Mutated in 6% of PDAC at hotspot codon 201 (R201C/R201H); all invasive cases derived from <a href="../cancer_types/IPMN.html">IPMN</a> precursors; frequent co-mutation with <a href="../genes/KRAS.html">KRAS</a> <a href="../papers/25855536.html">PMID:25855536</a></li>
 <li>Selectively mutated in mCRPC vs.&nbsp;primary prostate cancer (q&lt;0.1); mutation observed exclusively in mCRPC <a href="../papers/26000489.html">PMID:26000489</a></li>
 <li>Identified as a lineage-associated oncogene in the MET500 cohort of 500 metastatic solid tumors profiled by paired whole-exome and transcriptome sequencing; enrichment restricted to selected tumor types <a href="../papers/28783718.html">PMID:28783718</a></li>
-<li>Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC) <a href="../papers/30052636.html">PMID:30052636</a></li>
+<li>Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 <a href="../cancer_types/HCC.html">HCC</a>) <a href="../papers/30052636.html">PMID:30052636</a></li>
 <li>Case-specific private mutation defining an individual IDC-NST subclone in Case 2 multifocal BRCA1-mutant DCIS/IDC-NST by WES <a href="../papers/32220886.html">PMID:32220886</a></li>
-<li>Mutated in 1.2% of CSCC tumors at a hotspot position in an 83-tumor CSCC meta-analysis <a href="../papers/34272401.html">PMID:34272401</a></li>
-<li>Identified as a structural variant (SV) breakpoint hotspot in lung cancers from never smokers (LCINS), together with MDM2, TERT, CDKN2A, NKX2-1, and 6p21 <a href="../papers/34493867.html">PMID:34493867</a></li>
+<li>Mutated in 1.2% of <a href="../cancer_types/CSCC.html">CSCC</a> tumors at a hotspot position in an 83-tumor CSCC meta-analysis <a href="../papers/34272401.html">PMID:34272401</a></li>
+<li>Identified as a structural variant (SV) breakpoint hotspot in lung cancers from never smokers (LCINS), together with <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/TERT.html">TERT</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/NKX2-1.html">NKX2-1</a>, and 6p21 <a href="../papers/34493867.html">PMID:34493867</a></li>
 <li>Significantly mutated gene (SMG) altered in ≥5% of PDAC tumors in the CPTAC proteogenomic cohort (n=140) <a href="../papers/34534465.html">PMID:34534465</a></li>
+<li>Recurrently mutated (4%) as one of the remaining high-confidence significantly mutated genes (HC-SMGs) in a colorectal cancer cohort <a href="../papers/35487942.html">PMID:35487942</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -229,14 +233,15 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/24293293.html">PMID:24293293</a></p></li>
 <li><p><a href="../papers/25855536.html">PMID:25855536</a></p></li>
 <li><p><a href="../papers/26000489.html">PMID:26000489</a></p></li>
+<li><p><a href="../papers/28783718.html">PMID:28783718</a></p></li>
+<li><p><a href="../papers/30052636.html">PMID:30052636</a></p></li>
+<li><p><a href="../papers/32220886.html">PMID:32220886</a></p></li>
+<li><p><a href="../papers/34272401.html">PMID:34272401</a></p></li>
+<li><p><a href="../papers/34493867.html">PMID:34493867</a></p></li>
+<li><p><a href="../papers/34534465.html">PMID:34534465</a></p></li>
+<li><p><a href="../papers/35487942.html">PMID:35487942</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28783718.html">PMID:28783718</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/30052636.html">PMID:30052636</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32220886.html">PMID:32220886</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/34272401.html">PMID:34272401</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/34493867.html">PMID:34493867</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/34534465.html">PMID:34534465</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

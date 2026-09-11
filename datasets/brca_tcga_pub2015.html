@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -205,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <li>ILC-enriched mutations vs <a href="../cancer_types/IDC.html">IDC</a>: <a href="../genes/CDH1.html">CDH1</a> 63% vs 2% (q=3.94E-53); <a href="../genes/TBX3.html">TBX3</a> 9% vs 2%; <a href="../genes/PIK3CA.html">PIK3CA</a> 48% vs 33%; <a href="../genes/FOXA1.html">FOXA1</a> 7% vs 2%; <a href="../genes/TP53.html">TP53</a> depleted in ILC (8% vs 44%) <a href="../papers/26451490.html">PMID:26451490</a>.</li>
 <li><a href="../genes/CDH1.html">CDH1</a> alterations detected in 120/127 (95%) ILC cases; <a href="../genes/CDH1.html">CDH1</a> promoter DNA hypermethylation was not observed, contradicting older MSP-based reports <a href="../papers/26451490.html">PMID:26451490</a>.</li>
 <li>ILC has the highest pAKT activity of any breast cancer subtype — comparable to HER2+ and Basal-like — driven by upstream RTK alterations and <a href="../genes/PTEN.html">PTEN</a> loss rather than <a href="../genes/PIK3CA.html">PIK3CA</a> mutation per se <a href="../papers/26451490.html">PMID:26451490</a>.</li>
-<li>Three ILC transcriptional subtypes identified (reactive-like, immune-related, proliferative); validated in <a href="../datasets/brca_metabric.html">brca_metabric</a>; proliferative ILC had worse DSS and <a href="../cancer_types/OS.html">OS</a> <a href="../papers/26451490.html">PMID:26451490</a>.</li>
+<li>Three ILC transcriptional subtypes identified (reactive-like, immune-related, proliferative); validated in <a href="../datasets/brca_metabric.html">brca_metabric</a>; proliferative ILC had worse DSS and OS <a href="../papers/26451490.html">PMID:26451490</a>.</li>
 <li>Mixed IDC/ILC tumors resolve molecularly into ILC-like or IDC-like classes (not a third hybrid entity); <a href="../genes/CDH1.html">CDH1</a> status is the dominant classifier <a href="../papers/26451490.html">PMID:26451490</a>.</li>
 <li>Used as a benchmark cohort (n=1116, 66.8% White, 72.3% post-menopausal) for comparison with the Korean SMC cohort; provided the reference distribution of molecular subtypes, mutation rates, and mutational signatures in predominantly Caucasian breast cancer <a href="../papers/29713003.html">PMID:29713003</a></li>
 <li>Retrospective replication cohort (Mertins et al.&nbsp;2016 sample set) for pseudo-ERBB2+ cases; 1 of 16 ERBB2-amplified cases lacked detectable ERBB2 protein, consistent with findings in the prospective CPTAC cohort <a href="../papers/33212010.html">PMID:33212010</a></li>
@@ -216,9 +219,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Ciriello G et al.&nbsp;“Comprehensive molecular portraits of invasive lobular breast cancer.” Cell. 2015;163(2):506-519. <a href="../papers/26451490.html">PMID:26451490</a>. DOI: 10.1016/j.cell.2015.09.033.</li>
 <li>Kan Z et al.&nbsp;“Multi-omics profiling of younger Asian breast cancers reveals distinct molecular subtypes and age-associated differences.” Nature Communications. 2018;9(1):1725. <a href="../papers/29713003.html">PMID:29713003</a>. DOI: 10.1038/s41467-018-04129-4.</li>
+<li><a href="../papers/33212010.html">PMID:33212010</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/33212010.html">PMID:33212010</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
 
 

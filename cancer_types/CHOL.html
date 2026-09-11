@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -180,16 +183,17 @@ ul.task-list li input[type="checkbox"] {
 <section id="recurrent-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
-<li>Narrative review of etiology-driven genomic landscape across CCA subtypes: iCCA enriched for <a href="../genes/IDH1.html">IDH1</a> (13-29%), <a href="../genes/FGFR2.html">FGFR2</a> fusions (8-16%), <a href="../genes/ARID1A.html">ARID1A</a> (18-23%), <a href="../genes/KRAS.html">KRAS</a> (24-27%), <a href="../genes/TP53.html">TP53</a> (20-27%); eCCA enriched for <a href="../genes/KRAS.html">KRAS</a> (37-46%), <a href="../genes/TP53.html">TP53</a> (35-68%), <a href="../genes/SMAD4.html">SMAD4</a> (~25%); HBV integration near <a href="../genes/TERT.html">TERT</a> and <a href="../genes/MET.html">MET</a>; HCV association with <a href="../genes/FGFR2.html">FGFR2</a> fusions (OR 9.50); PSC-CCA enriched for TP53/KRAS/SMAD4/ERBB2; CDKN2A/B (15-27% iCCA, 19% eCCA) mediates acquired FGFR-inhibitor resistance <a href="../papers/25526346.html">PMID:25526346</a>.</li>
-<li>Narrative review of gut-liver axis dysregulation in cholangiocarcinoma identifies gut microbiota dysbiosis, bile acid metabolic reprogramming (conjugated primary BAs accumulate; a CDCA+TCDCA panel outperformed CA19-9, AUC=0.95), and LPS/TLR4-driven immunosuppression as CCA progression mechanisms; <a href="../drugs/ivosidenib.html">ivosidenib</a> (IDH1-mutant iCCA) and <a href="../drugs/futibatinib.html">futibatinib</a> (FGFR2-rearranged iCCA) are highlighted as precision therapeutics. <a href="../papers/25608663.html">PMID:25608663</a></li>
-<li>ICGC multi-omic profiling of 489 cholangiocarcinomas from 10 countries defined four etiology-driven molecular clusters, nominating ERBB2 amplification (10.4% Fluke-Pos), IDH1/IDH2 mutations, FGFR2 rearrangements, and four new drivers (RASA1, STK11, MAP2K4, SF3B1); integrative clusters predicted prognosis independently of anatomical location and fluke status. <a href="../papers/28667006.html">PMID:28667006</a></li>
-<li>Biliary tract cancer (cholangiocarcinoma) showed responses to neratinib in the SUMMIT basket trial for HER2/HER3-mutant solid tumors, including HER2 kinase domain missense mutations (L755, V777), contributing to the lineage-plus-allele pattern of pan-HER TKI sensitivity <a href="../papers/29420467.html">PMID:29420467</a></li>
-<li>Pan-cancer fusion study (9,624 TCGA samples) identified FGFR2–BICC1 as the most recurrent fusion in CHOL (5.6% of cholangiocarcinoma samples), with FGFR2 being a candidate druggable target <a href="../papers/29617662.html">PMID:29617662</a></li>
+<li>Narrative review of etiology-driven genomic landscape across CCA subtypes: iCCA enriched for <a href="../genes/IDH1.html">IDH1</a> (13-29%), <a href="../genes/FGFR2.html">FGFR2</a> fusions (8-16%), <a href="../genes/ARID1A.html">ARID1A</a> (18-23%), <a href="../genes/KRAS.html">KRAS</a> (24-27%), <a href="../genes/TP53.html">TP53</a> (20-27%); eCCA enriched for <a href="../genes/KRAS.html">KRAS</a> (37-46%), <a href="../genes/TP53.html">TP53</a> (35-68%), <a href="../genes/SMAD4.html">SMAD4</a> (~25%); HBV integration near <a href="../genes/TERT.html">TERT</a> and <a href="../genes/MET.html">MET</a>; HCV association with <a href="../genes/FGFR2.html">FGFR2</a> fusions (OR 9.50); PSC-CCA enriched for TP53/KRAS/SMAD4/ERBB2; CDKN2A/B (15-27% iCCA, 19% eCCA) mediates acquired FGFR-inhibitor resistance <a href="../papers/41008893.html">PMID:41008893</a>.</li>
+<li>Narrative review of gut-liver axis dysregulation in cholangiocarcinoma identifies gut microbiota dysbiosis, bile acid metabolic reprogramming (conjugated primary BAs accumulate; a CDCA+TCDCA panel outperformed CA19-9, AUC=0.95), and LPS/TLR4-driven immunosuppression as CCA progression mechanisms; <a href="../drugs/ivosidenib.html">ivosidenib</a> (IDH1-mutant iCCA) and <a href="../drugs/futibatinib.html">futibatinib</a> (FGFR2-rearranged iCCA) are highlighted as precision therapeutics. <a href="../papers/41018102.html">PMID:41018102</a></li>
+<li>ICGC multi-omic profiling of 489 cholangiocarcinomas from 10 countries defined four etiology-driven molecular clusters, nominating <a href="../genes/ERBB2.html">ERBB2</a> amplification (10.4% Fluke-Pos), IDH1/IDH2 mutations, <a href="../genes/FGFR2.html">FGFR2</a> rearrangements, and four new drivers (<a href="../genes/RASA1.html">RASA1</a>, <a href="../genes/STK11.html">STK11</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/SF3B1.html">SF3B1</a>); integrative clusters predicted prognosis independently of anatomical location and fluke status. <a href="../papers/28667006.html">PMID:28667006</a></li>
+<li>Biliary tract cancer (cholangiocarcinoma) showed responses to <a href="../drugs/neratinib.html">neratinib</a> in the SUMMIT basket trial for HER2/HER3-mutant solid tumors, including HER2 kinase domain missense mutations (L755, V777), contributing to the lineage-plus-allele pattern of pan-HER TKI sensitivity <a href="../papers/29420467.html">PMID:29420467</a></li>
+<li>Pan-cancer fusion study (9,624 TCGA samples) identified FGFR2–<a href="../genes/BICC1.html">BICC1</a> as the most recurrent fusion in CHOL (5.6% of cholangiocarcinoma samples), with FGFR2 being a candidate druggable target <a href="../papers/29617662.html">PMID:29617662</a></li>
 <li>Included in TCGA PanCancer Atlas integrative molecular analysis; CHOL showed &lt;50% of samples in any single iCluster, indicating substantial molecular heterogeneity <a href="../papers/29625048.html">PMID:29625048</a></li>
 <li>Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types <a href="../papers/29625050.html">PMID:29625050</a></li>
 <li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); CHOL standardized OS, PFI, DFI, and DSS endpoints derived <a href="../papers/29625055.html">PMID:29625055</a></li>
-<li>MSK-IMPACT prospective profiling of 195 cholangiocarcinoma patients (158 IHCH, 37 EHCH): most common alterations were IDH1 (25%), TP53 (24%), ARID1A (21%), BAP1 (15%), KRAS (13%); 47.6% had an OncoKB level 3B+ actionable alteration; CDKN2A/B and ERBB2 alterations associated with shorter OS (p=0.0015 for both) <a href="../papers/29848569.html">PMID:29848569</a></li>
-<li>MSK-ACCESS cfDNA panel (129 genes) was prospectively applied to 617 patients including biliary cancer patients (part of the combined 28% PRAD/BLCA/PAAD/biliary group); FGFR2 mutations and fusions (most commonly FGFR2-BICC1) identified in 8/24 intrahepatic cholangiocarcinomas with detectable ctDNA, including missense mutations conferring FGFR-inhibitor resistance; IDH1 and PIK3CA were also recurrently detected <a href="../papers/34145282.html">PMID:34145282</a>.</li>
+<li>MSK-IMPACT prospective profiling of 195 cholangiocarcinoma patients (158 <a href="../cancer_types/IHCH.html">IHCH</a>, 37 <a href="../cancer_types/EHCH.html">EHCH</a>): most common alterations were <a href="../genes/IDH1.html">IDH1</a> (25%), <a href="../genes/TP53.html">TP53</a> (24%), <a href="../genes/ARID1A.html">ARID1A</a> (21%), <a href="../genes/BAP1.html">BAP1</a> (15%), <a href="../genes/KRAS.html">KRAS</a> (13%); 47.6% had an OncoKB level 3B+ actionable alteration; CDKN2A/B and ERBB2 alterations associated with shorter OS (p=0.0015 for both) <a href="../papers/29848569.html">PMID:29848569</a></li>
+<li>MSK-ACCESS cfDNA panel (129 genes) was prospectively applied to 617 patients including biliary cancer patients (part of the combined 28% PRAD/BLCA/PAAD/biliary group); FGFR2 mutations and fusions (most commonly FGFR2-BICC1) identified in 8/24 intrahepatic cholangiocarcinomas with detectable ctDNA, including missense mutations conferring FGFR-inhibitor resistance; IDH1 and <a href="../genes/PIK3CA.html">PIK3CA</a> were also recurrently detected <a href="../papers/34145282.html">PMID:34145282</a>.</li>
+<li>Among MSK-IMPACT-profiled biliary tract cancers, intrahepatic cholangiocarcinoma was enriched for IDH1, FGFR2, BAP1 and <a href="../genes/PBRM1.html">PBRM1</a> alterations relative to extrahepatic cholangiocarcinoma and gallbladder cancer, while KRAS alterations were most frequent in extrahepatic cholangiocarcinoma <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -203,29 +207,30 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li><strong><a href="../genes/FGFR2.html">FGFR2</a> fusion/rearrangement (iCCA):</strong> <a href="../drugs/pemigatinib.html">pemigatinib</a> (FIGHT-202: ORR 35.5%, mPFS 6.9 mo, mOS 21.1 mo); <a href="../drugs/infigratinib.html">infigratinib</a>; <a href="../drugs/futibatinib.html">futibatinib</a> (FOENIX-CCA2: ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; covalent) <a href="../papers/25526346.html">PMID:25526346</a>.</li>
-<li><strong><a href="../genes/IDH1.html">IDH1</a> mutation (iCCA):</strong> <a href="../drugs/ivosidenib.html">ivosidenib</a> (ClarIDHy phase III: significant PFS/OS benefit vs.&nbsp;placebo) <a href="../papers/25526346.html">PMID:25526346</a>.</li>
-<li><strong><a href="../genes/ERBB2.html">ERBB2</a> alteration:</strong> <a href="../drugs/pertuzumab.html">pertuzumab</a> + <a href="../drugs/trastuzumab.html">trastuzumab</a> (MyPathway: ORR 23%); <a href="../drugs/trastuzumab-deruxtecan.html">trastuzumab-deruxtecan</a> (basket: ORR 22.0% in CCA) <a href="../papers/25526346.html">PMID:25526346</a>.</li>
-<li><strong><a href="../genes/BRAF.html">BRAF</a> V600E (iCCA):</strong> <a href="../drugs/dabrafenib.html">dabrafenib</a> + <a href="../drugs/trametinib.html">trametinib</a> (ROAR: ORR ~47% in 43 CCA patients) <a href="../papers/25526346.html">PMID:25526346</a>.</li>
-<li><strong>NTRK fusion:</strong> <a href="../drugs/entrectinib.html">entrectinib</a>; <a href="../drugs/larotrectinib.html">larotrectinib</a> <a href="../papers/25526346.html">PMID:25526346</a>.</li>
-<li><strong>First-line:</strong> <a href="../drugs/gemcitabine.html">gemcitabine</a> + <a href="../drugs/cisplatin.html">cisplatin</a> ± <a href="../drugs/durvalumab.html">durvalumab</a> <a href="../papers/25526346.html">PMID:25526346</a>.</li>
+<li><strong><a href="../genes/FGFR2.html">FGFR2</a> fusion/rearrangement (iCCA):</strong> <a href="../drugs/pemigatinib.html">pemigatinib</a> (FIGHT-202: ORR 35.5%, mPFS 6.9 mo, mOS 21.1 mo); <a href="../drugs/infigratinib.html">infigratinib</a>; <a href="../drugs/futibatinib.html">futibatinib</a> (FOENIX-CCA2: ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; covalent) <a href="../papers/41008893.html">PMID:41008893</a>.</li>
+<li><strong><a href="../genes/IDH1.html">IDH1</a> mutation (iCCA):</strong> <a href="../drugs/ivosidenib.html">ivosidenib</a> (ClarIDHy phase III: significant PFS/OS benefit vs.&nbsp;placebo) <a href="../papers/41008893.html">PMID:41008893</a>.</li>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a> alteration:</strong> <a href="../drugs/pertuzumab.html">pertuzumab</a> + <a href="../drugs/trastuzumab.html">trastuzumab</a> (MyPathway: ORR 23%); <a href="../drugs/trastuzumab-deruxtecan.html">trastuzumab-deruxtecan</a> (basket: ORR 22.0% in CCA) <a href="../papers/41008893.html">PMID:41008893</a>.</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a> V600E (iCCA):</strong> <a href="../drugs/dabrafenib.html">dabrafenib</a> + <a href="../drugs/trametinib.html">trametinib</a> (ROAR: ORR ~47% in 43 CCA patients) <a href="../papers/41008893.html">PMID:41008893</a>.</li>
+<li><strong>NTRK fusion:</strong> <a href="../drugs/entrectinib.html">entrectinib</a>; <a href="../drugs/larotrectinib.html">larotrectinib</a> <a href="../papers/41008893.html">PMID:41008893</a>.</li>
+<li><strong>First-line:</strong> <a href="../drugs/gemcitabine.html">gemcitabine</a> + <a href="../drugs/cisplatin.html">cisplatin</a> ± <a href="../drugs/durvalumab.html">durvalumab</a> <a href="../papers/41008893.html">PMID:41008893</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/25526346.html">PMID:25526346</a></li>
-<li><a href="../papers/25608663.html">PMID:25608663</a></li>
+<li><a href="../papers/41008893.html">PMID:41008893</a></li>
+<li><a href="../papers/41018102.html">PMID:41018102</a></li>
 <li><a href="../papers/28667006.html">PMID:28667006</a></li>
 <li><a href="../papers/34145282.html">PMID:34145282</a></li>
+<li><a href="../papers/29420467.html">PMID:29420467</a></li>
+<li><a href="../papers/29617662.html">PMID:29617662</a></li>
+<li><a href="../papers/29625048.html">PMID:29625048</a></li>
+<li><a href="../papers/29625050.html">PMID:29625050</a></li>
+<li><a href="../papers/29625055.html">PMID:29625055</a></li>
+<li><a href="../papers/29848569.html">PMID:29848569</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29420467.html">PMID:29420467</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29617662.html">PMID:29617662</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29625048.html">PMID:29625048</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/29625050.html">PMID:29625050</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/29625055.html">PMID:29625055</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/29848569.html">PMID:29848569</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Comprehensive profiling of 1015 patients’ exomes reveals genomic-clinical associations in colorectal cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35487942.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35487942.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comprehensive profiling of 1015 patients’ exomes reveals genomic-clinical associations in colorectal cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Qi Zhao </p>
+             <p>Feng Wang </p>
+             <p>Yan-Xing Chen </p>
+             <p>Shifu Chen </p>
+             <p>Yi-Chen Yao </p>
+             <p>Zhao-Lei Zeng </p>
+             <p>Teng-Jia Jiang </p>
+             <p>Ying-Nan Wang </p>
+             <p>Chen-Yi Wu </p>
+             <p>Ying Jing </p>
+             <p>You-Sheng Huang </p>
+             <p>Jing Zhang </p>
+             <p>Zi-Xian Wang </p>
+             <p>Ming-Ming He </p>
+             <p>Heng-Ying Pu </p>
+             <p>Zong-Jiong Mai </p>
+             <p>Qi-Nian Wu </p>
+             <p>Renwen Long </p>
+             <p>Xiaoni Zhang </p>
+             <p>Tanxiao Huang </p>
+             <p>Mingyan Xu </p>
+             <p>Miao-Zheng Qiu </p>
+             <p>Hui-Yan Luo </p>
+             <p>Yu-Hong Li </p>
+             <p>Dong-Shen Zhang </p>
+             <p>Wei-Hua Jia </p>
+             <p>Gong Chen </p>
+             <p>Pei-Rong Ding </p>
+             <p>Li-Ren Li </p>
+             <p>Zheng-Hai Lu </p>
+             <p>Zhi-Zhong Pan </p>
+             <p>Rui-Hua Xu </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41467-022-30062-8">10.1038/s41467-022-30062-8</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 35487942 · <strong>DOI:</strong> 10.1038/s41467-022-30062-8 · <strong>Journal:</strong> Nature Communications (2022)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>As part of the ChangKang (“Healthy Bowel”) Project at Sun Yat-sen University Cancer Center (SYSUCC), Zhao, Wang, Chen, Chen and colleagues ran ultradeep tumor–normal <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> (HapOnco WESplus; median tumor depth 219×) on <strong>1,015 Chinese patients with colorectal cancer</strong> (<a href="../cancer_types/COADREAD.html">COADREAD</a>: 729 <a href="../cancer_types/COAD.html">COAD</a>, 286 <a href="../cancer_types/READ.html">READ</a>). Median follow-up was 68.8 months. Only 7.09% of tumors were hypermutated (TMB ≥10 mut/Mb). A five-tool consensus called <strong>46 high-confidence significantly mutated genes (HC-SMGs)</strong>. Eight of them were absent from the reference driver catalogues: <a href="../genes/LYST.html">LYST</a>, <a href="../genes/DAPK1.html">DAPK1</a>, <a href="../genes/CR2.html">CR2</a>, <a href="../genes/KIF16B.html">KIF16B</a>, <a href="../genes/NPIPB15.html">NPIPB15</a>, <a href="../genes/SYTL2.html">SYTL2</a>, <a href="../genes/ZNF91.html">ZNF91</a> and <a href="../genes/KIAA0586.html">KIAA0586</a>, together mutated in 14.9% of patients. The authors propose four genomic “SYSUCC subtypes” with distinct overall survival (OS): hypermutated (HM), chromosomal instability high-risk (CIN-HR, marked by 10q11.21 amplification), CIN low-risk (CIN-LR) and genome stable (GS). Four features were each independently associated with worse OS: OncoKB-oncogenic alterations in the cell-cycle pathway, the same in the TGF-beta pathway, an immunogenicity-reduced state with low neoantigen burden, and high tumor mitochondrial DNA copy number (“mScore”). The mScore result was validated by qPCR in an independent cohort. The dataset backs the cBioPortal study <a href="../datasets/crc_sysucc_2022.html">crc_sysucc_2022</a> (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>1,015 patients with CRC</strong>. For each patient, tumor and matched nonneoplastic tissue (FFPE or frozen) were sequenced. All patients were enrolled in the ChangKang Project (launched 2017) and resected at SYSUCC, Guangzhou, China. Inclusion criteria: age 18–80; resection of the primary tumor at SYSUCC; enough tissue with ≥30% tumor cells (confirmed by two pathologists); no chemotherapy, radiotherapy, immunotherapy or other anti-tumor treatment before sampling; no history of another malignancy. Ethics approval: SYSUCC B2019-031-01 (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Cancer types.</strong> <a href="../cancer_types/COADREAD.html">COADREAD</a> comprising <a href="../cancer_types/COAD.html">COAD</a> 729 (71.8%) and <a href="../cancer_types/READ.html">READ</a> 286 (28.2%), per Table 1 and Fig. 1b. The main text instead states 72.41%/27.59% (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Demographics (Table 1).</strong>
+<ul>
+<li>Median age at diagnosis 59 (range 18–88); 404 female (39.8%) and 611 male.</li>
+<li>Family history of CRC in 73 (7.2%); smoking in 240/1,011 (23.7%).</li>
+<li>Right-sided (cecum to splenic flexure) 320 (31.5%); left-sided 695 (68.5%).</li>
+<li>AJCC stage I 91 (9.0%), II 384 (37.8%), III 287 (28.3%), IV 252 (24.8%), unknown 1. The main text gives 8.88/38.44/28/24.59%.</li>
+<li>Mucinous carcinoma 45 (4.4%) (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+</ul></li>
+<li><strong>Follow-up.</strong> Median 68.8 months (95% CI 67.7–70.4); median OS not reached (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Versus TCGA.</strong> This cohort had more metastatic disease, more <a href="../cancer_types/READ.html">READ</a>, more males and more left-sided primaries (all P&lt;0.001). It also had younger onset, fewer mucinous tumors, and clinical data missing for only one patient (<a href="../papers/35487942.html">PMID:35487942</a>). The prior CRC landscapes the authors cite that are also in this corpus are TCGA 2012 (<a href="../papers/22810696.html">PMID:22810696</a>) and the MSK metastatic CRC study (<a href="../papers/29316426.html">PMID:29316426</a>). The extracted text does not tie the “TCGA”, “MSKCC” and “DIFC” comparator cohorts to specific study IDs.</li>
+<li><strong>Dataset and data access.</strong> Dataset: <a href="../datasets/crc_sysucc_2022.html">crc_sysucc_2022</a>. Raw reads are in GSA-Human (China National Center for Bioinformation) under accession HRA000873 (project PRJCA004622), with restricted access through a Data Access Committee. Processed data and code are on the ChangKang Project portal (changkang.hapyun.com). Clinical data are in Supplementary Data 2 (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Assay.</strong> <a href="../methods/whole-exome-seq.html">Whole-exome sequencing</a> with HapOnco WESplus (HaploX), an extended exome capture. Beyond the exome it covers:
+<ul>
+<li>germline and somatic noncoding hotspots and frequent fusions</li>
+<li>three viral genomes (HBV, HPV, EBV)</li>
+<li>the whole mitochondrial genome</li>
+<li>immune checkpoint blockade (ICB) biomarkers (TMB, MSI, HLA, neoantigens)</li>
+</ul>
+Sequencing was 150-bp paired-end on Illumina NovaSeq 6000, aligned to hg19. Median depth was 219× (43–661×) in tumor and 223× (100–665×) in normal tissue, higher than TCGA whole-exome data (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Variant calling.</strong> A somatic SNV or indel had to be called by ≥2 of three callers (<a href="../methods/mutect.html">Mutect2</a>, <a href="../methods/tnscope.html">TNscope</a>, <a href="../methods/varscan.html">VarScan2</a>) and pass three filters: VAF ≥8%, depth ≥8 and ≥2 supporting reads. Variants were annotated with <a href="../methods/vep.html">VEP</a>.
+<ul>
+<li>TMB counted nonsynonymous coding and splice-site variants per Mb, excluding common variants (MAF &gt;0.05 in 1000 Genomes or ExAC).</li>
+<li>Hypermutation was defined as TMB ≥10 mut/Mb; MSI status came from <a href="../methods/msisensor.html">MSIsensor</a> (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+</ul></li>
+<li><strong>Copy number, signatures and subtyping.</strong>
+<ul>
+<li>Copy number: <a href="../methods/excavator-cnv.html">EXCAVATOR2</a>; purity and ploidy: <a href="../methods/absolute.html">ABSOLUTE</a>; recurrent SCNAs: <a href="../methods/gistic.html">GISTIC2.0</a>.</li>
+<li>Signatures: <a href="../methods/mutational-signatures.html">mutational signatures</a> fit to COSMIC v2 with a LASSO-based approach.</li>
+<li>Oncogenic versus VUS calls: <a href="../methods/oncokb-annotation.html">OncoKB Annotator</a>.</li>
+<li>Subtyping: consensus <a href="../methods/nmf-clustering.html">NMF</a> (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+</ul></li>
+<li><strong>Immune features.</strong> HLA class I typing with <a href="../methods/polysolver.html">POLYSOLVER</a> on normal WES. Neoantigens predicted with <a href="../methods/neopredpipe.html">NeoPredPipe</a>. HLA loss of heterozygosity from <a href="../methods/lohhla.html">LOHHLA</a>. Immunoediting score following Rooney et al.&nbsp;(<a href="../methods/immunoediting-quantification.html">immunoediting quantification</a>) (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Mitochondrial DNA.</strong> Somatic mtDNA variants were called after de novo assembly (SPAdes) of mitochondrial reads. mtDNA copy number came from <a href="../methods/exomedepth.html">ExomeDepth</a>, corrected for purity and ploidy. It was validated by D-loop/B2M <a href="../methods/quantitative-rt-pcr.html">qPCR</a>, which the paper calls qRT-PCR (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong>Mutation burden and hypermutation</strong> - 277,090 nonsynonymous somatic variants in total: median 117.5 per tumor (range 1–22,760). This is significantly lower than TCGA but with larger variance. Median TMB was 1.74 mut/Mb (range 0–339.7) (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>7.09% (72/1,015) hypermutated</strong> (TMB ≥10), lower than in the TCGA and MSKCC datasets. - 63.8% (46/72) were MSI-H. - 37.5% (25/72) carried nonsynonymous <a href="../genes/POLE.html">POLE</a> mutations. - 11 hypermutated tumors had neither MSI-H nor a <a href="../genes/POLE.html">POLE</a> mutation (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Genes linked to hypermutation.</strong> Besides POLE and MSI, <a href="../genes/POLD1.html">POLD1</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/BRAF.html">BRAF</a> and <a href="../genes/KRAS.html">KRAS</a> correlated with hypermutation. POLE, <a href="../genes/POLD1.html">POLD1</a> and <a href="../genes/PIK3CA.html">PIK3CA</a> mutations were enriched in hypermutated tumors; <a href="../genes/SMAD4.html">SMAD4</a> alterations were enriched in nonhypermutated tumors. Hypermutated tumors had lower CNV burden, mostly because of fewer amplifications (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Clinical profile, hypermutated vs nonhypermutated (Table 1).</strong> - Mean age 49.6 vs 58.2 (P&lt;0.001). - Male 72.2% vs 59.3% (P=0.04). - Right-sided 79.2% vs 27.9% (P&lt;0.001); <a href="../cancer_types/COAD.html">COAD</a> 98.6% vs 69.8% (P&lt;0.001). - Stage II 65.3% vs 35.7%, stage IV 8.3% vs 26.1% (P&lt;0.001). - CRC family history 20.8% vs 6.2% (P&lt;0.001) (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>High-confidence SMGs and hotspots</strong> - <strong>Method.</strong> Five driver-discovery tools were run on nonhypermutated tumors: <a href="../methods/mutsigcv.html">MutSig2CV</a>, <a href="../methods/oncodriveclust.html">OncodriveCLUST</a>, <a href="../methods/oncodrivefm.html">OncodriveFM</a>, <a href="../methods/e-driver.html">e-Driver</a> and <a href="../methods/dndscv.html">dNdScv</a>, with significance at q&lt;0.1. Genes called by more than one tool were kept, giving <strong>46 HC-SMGs</strong>. MutSig2CV alone nominated 402 more genes that no other tool supported (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Known drivers ranked first.</strong> HC-SMGs were annotated against CGC, IntOGen, OncoKB, TCGA and Vogelstein et al.&nbsp;Known CRC drivers (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/FBXW7.html">FBXW7</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>) ranked at the top (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Eight novel HC-SMGs</strong> were not reported in any of these sources: <a href="../genes/LYST.html">LYST</a>, <a href="../genes/DAPK1.html">DAPK1</a>, <a href="../genes/CR2.html">CR2</a>, <a href="../genes/KIF16B.html">KIF16B</a>, <a href="../genes/NPIPB15.html">NPIPB15</a>, <a href="../genes/SYTL2.html">SYTL2</a>, <a href="../genes/ZNF91.html">ZNF91</a> and <a href="../genes/KIAA0586.html">KIAA0586</a>. - Together they were mutated in <strong>14.9% (152/1,015)</strong> of this cohort and 19.55% of TCGA. - None is on current gene panels catalogued in cBioPortal (Supplementary Data 10) (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>HC-SMG burden.</strong> 83.6% (849/1,015) of patients had ≥1 HC-SMG mutation, with a mean of 4.49 HC-SMG mutations per patient. <a href="../genes/APC.html">APC</a> and <a href="../genes/TP53.html">TP53</a> had the highest frequency of mutation combined with LOH (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Comparison with Western cohorts.</strong> HC-SMG mutation frequencies were lower than in the mostly Western TCGA, MSKCC and “DIFC” cohorts, but the genes ranked in a similar order (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Hotspots.</strong> The <a href="../methods/cancer-hotspots.html">Chang et al.&nbsp;hotspot method</a> found <strong>52 substitution hotspots in 14 genes</strong>, many not identified in TCGA. APC had 13 hotspots, 8 of them absent from the existing hotspot database (for example p.R876), and most at higher frequency than the known ones (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>Primary tumor site (ascending / transverse / descending / rectum)</strong> - Sites differed in age, TMB, grade and MSI status (chi-square P&lt;0.05). OS did not differ clearly, apart from slight differences in stage III (<a href="../papers/35487942.html">PMID:35487942</a>). - 34 of 46 HC-SMGs had site-dependent mutation frequencies (P&lt;0.05), mostly higher in ascending and transverse tumors. <a href="../genes/APC.html">APC</a>, <a href="../genes/TP53.html">TP53</a> and <a href="../genes/PIK3CA.html">PIK3CA</a> differed between ascending/transverse and descending/rectal tumors (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/PTEN.html">PTEN</a> deletion became more frequent from ascending colon to rectum. <a href="../genes/SMAD4.html">SMAD4</a> deletion and <a href="../genes/ERBB4.html">ERBB4</a> amplification were enriched in descending and rectal tumors (P&lt;0.05). APC hotspots also varied by site: p.R1450 in ascending, p.T1556 in transverse, R876 in descending and p.R216 in rectal tumors (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>Copy number and mutational signatures</strong> - <strong>Recurrent SCNAs (GISTIC2.0).</strong> Gains at 1q, 7, 8q, 13q and 20q; losses at 1p, 4, 5q, 8p, 14q, 15q, 17p and 18p. Additional focal gain at 10q and focal loss at 20p (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Signatures.</strong> More than 13 COSMIC signatures were each present in &gt;1% of samples: - Signature 1 (clock-like) in &gt;84.2% - Signature 3 (homologous-recombination deficiency) 13.4% - Signature 6 (dMMR) 11.5% - Signature 10 (POLE) 5.9% - Signature 9 (AID activity) 5.7% - Signature 8 4.9% - Signature 16 2.6% (<a href="../papers/35487942.html">PMID:35487942</a>)</p>
+<p><strong>Oncogenic pathways (OncoKB oncogenic vs VUS)</strong> - Much of the alteration in the NOTCH, Hippo and cell-cycle pathways was VUS. Fig. 4a labels give oncogenic/VUS frequencies by pathway:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Pathway</th>
+<th>Oncogenic</th>
+<th>VUS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RTK-RAS</td>
+<td>58.1%</td>
+<td>16.4%</td>
+</tr>
+<tr class="even">
+<td>WNT</td>
+<td>53.4%</td>
+<td>22.2%</td>
+</tr>
+<tr class="odd">
+<td>TP53</td>
+<td>52.3%</td>
+<td>4.1%</td>
+</tr>
+<tr class="even">
+<td>PI3K</td>
+<td>30.3%</td>
+<td>22.1%</td>
+</tr>
+<tr class="odd">
+<td>NOTCH</td>
+<td>23.7%</td>
+<td>49.4%</td>
+</tr>
+<tr class="even">
+<td>TGF-beta</td>
+<td>21.3%</td>
+<td>9.8%</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/MYC.html">MYC</a></td>
+<td>16.5%</td>
+<td>13.9%</td>
+</tr>
+<tr class="even">
+<td>Cell cycle</td>
+<td>12.0%</td>
+<td>33.2%</td>
+</tr>
+<tr class="odd">
+<td>Hippo</td>
+<td>6.8%</td>
+<td>59.0%</td>
+</tr>
+<tr class="even">
+<td>NRF2</td>
+<td>0.6%</td>
+<td>0.5%</td>
+</tr>
+</tbody>
+</table>
+<p>(<a href="../papers/35487942.html">PMID:35487942</a>) - The PI3K, cell-cycle and RTK-RAS pathways were significantly mutated (all adjusted P&lt;0.05). Every clinical feature except nerve invasion and gender correlated with at least one altered pathway (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Oncogenic cell-cycle and TGF-beta alterations predict shorter OS</strong> (log-rank P&lt;0.001 and P=0.004). In a multivariable Cox model adjusted for TMB, stage and grade: - cell cycle: HR 2.26 (1.53–3.34), P&lt;0.001 - TGF-beta: HR 1.56 (1.15–2.11), P=0.004 - VUS-only carriers did not differ from wild type (cell cycle HR 0.95, P=0.736; TGF-beta HR 1.25, P=0.374) - higher TMB was protective (HR 0.96, 0.93–0.99) (<a href="../papers/35487942.html">PMID:35487942</a>) - <strong>Within the TGF-beta pathway</strong>, <a href="../genes/SMAD2.html">SMAD2</a> and <a href="../genes/SMAD4.html">SMAD4</a> were the most altered genes, with co-occurring deletion in 18.2% of patients. <strong>Within the cell-cycle pathway</strong>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/CCNE1.html">CCNE1</a> alterations were mutually exclusive. <a href="../genes/RB1.html">RB1</a>, <a href="../genes/E2F3.html">E2F3</a> and <a href="../genes/ACVR2A.html">ACVR2A</a> had high VUS fractions, and RB1 amplification was classified as VUS (<a href="../papers/35487942.html">PMID:35487942</a>). - Patients with mutations in both the MYC and PI3K pathways had significantly worse OS than those with mutations in one or neither. A mutation in only one of these pathways was not prognostic (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>SYSUCC genomic subtypes</strong> - <strong>Clustering.</strong> Hypermutated tumors were set aside first as HM (n=72). Four tumors lacked SCNV or signature data and were excluded. The remaining 939 were clustered by consensus NMF (K=3) on signature exposures plus SCNA lesions. Group sizes from the Fig. 5c numbers at risk: <strong>GS n=465, CIN-LR n=253, CIN-HR n=221, HM n=72</strong> (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Survival.</strong> OS versus CIN-HR (median OS 98.9 months): - CIN-LR: HR 0.64 (0.44–0.91), P=0.014 - GS: HR 0.60 (0.43–0.82), P=0.001 - HM: HR 0.18 (0.07–0.45), P&lt;0.001</p>
+<p>Disease-free survival showed the same pattern (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>10q11.21 amplification.</strong> CIN-HR had more 10q11.21 amplification than CIN-LR, and this lesion was used to separate the two groups. - The amplification was more frequent in metastatic CRC and increased from stage II to stage IV. - The region contains <a href="../genes/RET.html">RET</a> and <a href="../genes/NOTCH4.html">NOTCH4</a>. - In TCGA the amplification was rarer, but still tended toward shorter OS and progression-free survival (<a href="../papers/35487942.html">PMID:35487942</a>). - The fraction of stage IV tumors rose in the order HM &lt; CIN-LR &lt; GS &lt; CIN-HR (<a href="../papers/35487942.html">PMID:35487942</a>). - When the scheme was applied to TCGA-CRC, CIN-HR contained the largest fraction of <a href="../methods/cms-classifier.html">CMS</a>4 tumors. The authors link this to activated stroma (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>Immunogenicity</strong> - <strong>Viral sequences.</strong> EBV in 6% (61/1,015), HBV in 2% (23/1,015), HPV in one case (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Neoantigens.</strong> Tumor neoantigen burden (TNB) was mostly between 10 and 1,000. The most frequent immunogenic peptides came from ZNF-family variants, and <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/NRAS.html">NRAS</a> peptides were among the top 10 (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Immunogenicity-reduced (IR) status</strong> meant having any of three features: - LOHHLA, in <strong>17.4% of 415 assessable</strong> patients - a mutation in a neoantigen-presenting gene (NPG), in <strong>6.7% of 1,015</strong> - immunoediting (extremely low Z-scored immunoediting score, below about −1.64), in 7.4% (Fig. 6b label)</p>
+<p>HM had the largest IR fraction, followed by CIN-HR (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Survival.</strong> High TNB was associated with longer OS. After adjusting for stage and grade, <strong>low TNB with IR had the worst OS</strong>. Versus that reference group: - TNB-low and nIR: HR 0.61 (0.38–0.97), P=0.037 - TNB-high and IR: HR 0.33 (0.11–0.96), P=0.041 - TNB-high and nIR: HR 0.33 (0.04–2.44), P=0.278 (numbers at risk total 394) (<a href="../papers/35487942.html">PMID:35487942</a>)</p>
+<p><strong>Mitochondrial genome</strong> - <strong>Somatic mtDNA variants.</strong> 2,310 somatic mtDNA SSNVs were found; 66.6% (676/1,015) of patients carried at least one. The adjacent RNR1, RNR2 and D-loop regions were the most mutated noncoding regions, which the authors propose as a hotspot. ND5, CYB and ND4 were the most mutated protein-coding genes, each mutated in &gt;10% of samples (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>mScore</strong> (mtDNA copies normalized for purity) was lower in tumor than in adjacent normal tissue (P&lt;0.001). Tumor and paired-normal values were positively correlated (P&lt;0.001) (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>High mScore predicts worse OS.</strong> The top 10% by mScore (best-cutoff) had worse OS independent of stage and grade: <strong>HR 1.84 (1.23–2.75), P=0.003</strong>. Fig. 7b numbers at risk were 695 low and 78 high (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>qPCR validation.</strong> The qPCR mScore correlated with the WES mScore. In an independent cohort (Fig. 7c numbers at risk: 77 low, 14 high) it predicted OS after adjusting for stage and grade: <strong>multivariable HR 2.77 (1.34–5.71), P=0.006</strong> (<a href="../papers/35487942.html">PMID:35487942</a>). - <strong>Associations.</strong> mScore was not associated with stage, grade, nerve invasion or vessel invasion. - mScore-high tumors had more TGF-beta pathway alteration (P=0.024), more <a href="../genes/TP53.html">TP53</a> mutation and less <a href="../genes/DICER1.html">DICER1</a> mutation. - mScore correlated positively with Signature 1 burden and negatively with Signature 6 (dMMR) burden (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<p>Percentages in parentheses are the per-gene labels printed in Fig. 3c (the HC-SMG oncoplot). The extracted text does not state their denominator, so treat them as approximate cohort mutation frequencies (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>Known drivers and hypermutation genes</strong> - <a href="../genes/TP53.html">TP53</a> (45%): top-ranked known driver; one of the two genes with the highest frequency of mutation plus LOH; site-dependent mutation pattern; more often mutated in mScore-high tumors (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/APC.html">APC</a> (47%): correlated with hypermutation; the other top gene for mutation plus LOH. - 13 hotspots, 8 of them novel (for example p.R876). - Site-specific hotspots: p.R1450 ascending, p.T1556 transverse, R876 descending, p.R216 rectum (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/KRAS.html">KRAS</a> (24%): correlated with hypermutation. KRAS/NRAS variant peptides were among the 10 most frequent predicted neoantigens (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/NRAS.html">NRAS</a> (2%): HC-SMG; a neoantigen source together with <a href="../genes/KRAS.html">KRAS</a> (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/FBXW7.html">FBXW7</a> (12%) and <a href="../genes/CTNNB1.html">CTNNB1</a> (4%): among the top-ranked known drivers (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/POLE.html">POLE</a>: nonsynonymous mutations in 25/72 (37.5%) hypermutated tumors; enriched in the hypermutated group. Signature 10 (POLE) was present in 5.9% of patients (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/POLD1.html">POLD1</a>: mutations enriched in hypermutated tumors (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/PIK3CA.html">PIK3CA</a> (13%): enriched in hypermutated tumors; mutation frequency differs by tumor site (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/SMAD4.html">SMAD4</a> (20%): enriched in nonhypermutated tumors; deletion enriched in descending and rectal tumors; co-deleted with <a href="../genes/SMAD2.html">SMAD2</a> (3%) in 18.2% of patients (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/ERBB2.html">ERBB2</a> (7%) and <a href="../genes/BRAF.html">BRAF</a> (4%): correlated with hypermutation (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/PTEN.html">PTEN</a> (7%): deletion frequency rises from ascending colon to rectum (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/ERBB4.html">ERBB4</a>: amplification enriched in descending and rectal tumors (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>Pathway genes</strong> - <a href="../genes/RB1.html">RB1</a>, <a href="../genes/E2F3.html">E2F3</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/CCNE1.html">CCNE1</a> (cell cycle): RB1, <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/CCNE1.html">CCNE1</a> alterations are mutually exclusive. RB1 and <a href="../genes/E2F3.html">E2F3</a> carry high VUS fractions, and RB1 amplification is classified as VUS. Oncogenic cell-cycle alteration had a multivariable OS HR of 2.26 (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/ACVR2A.html">ACVR2A</a> (5%): HC-SMG in the TGF-beta pathway with a high VUS fraction. Oncogenic TGF-beta alteration had a multivariable OS HR of 1.56 (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/RET.html">RET</a> and <a href="../genes/NOTCH4.html">NOTCH4</a>: located in the 10q11.21 amplicon that marks CIN-HR (<a href="../papers/35487942.html">PMID:35487942</a>). - <a href="../genes/DICER1.html">DICER1</a> (4%): HC-SMG, mutated less often in mScore-high tumors (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>Novel HC-SMGs</strong> (together mutated in 14.9% of the cohort and 19.55% of TCGA) - <a href="../genes/LYST.html">LYST</a> (5%) - <a href="../genes/DAPK1.html">DAPK1</a> (5%): one of only two of the eight previously implicated in cancer; its earlier association was with pancreatic ductal adenocarcinoma only. - <a href="../genes/CR2.html">CR2</a> (4%) - <a href="../genes/KIF16B.html">KIF16B</a> (3%) - <a href="../genes/NPIPB15.html">NPIPB15</a> (3%) - <a href="../genes/SYTL2.html">SYTL2</a> (3%): the other previously implicated in cancer. - <a href="../genes/ZNF91.html">ZNF91</a> (3%) - <a href="../genes/KIAA0586.html">KIAA0586</a> (2%): encodes TALPID3 (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+<p><strong>Remaining HC-SMGs</strong> - <a href="../genes/TCF7L2.html">TCF7L2</a> 9%, <a href="../genes/SOX9.html">SOX9</a> 7%, <a href="../genes/ZFP36L2.html">ZFP36L2</a> 7%, <a href="../genes/ARID1A.html">ARID1A</a> 7%, <a href="../genes/BMPR2.html">BMPR2</a> 6%, <a href="../genes/RNF43.html">RNF43</a> 6% - <a href="../genes/BCL9L.html">BCL9L</a> 5%, <a href="../genes/AMER1.html">AMER1</a> 5%, <a href="../genes/AXIN2.html">AXIN2</a> 5%, <a href="../genes/GNAS.html">GNAS</a> 4%, <a href="../genes/BCL9.html">BCL9</a> 4%, <a href="../genes/CTNND1.html">CTNND1</a> 4%, <a href="../genes/PIK3R1.html">PIK3R1</a> 4%, <a href="../genes/ERBB3.html">ERBB3</a> 4% - <a href="../genes/PBRM1.html">PBRM1</a> 3%, <a href="../genes/USP9X.html">USP9X</a> 3%, <a href="../genes/ACVR1B.html">ACVR1B</a> 3%, <a href="../genes/B2M.html">B2M</a> 3%, <a href="../genes/MAP2K4.html">MAP2K4</a> 3% - <a href="../genes/PCBP1.html">PCBP1</a> 2%, <a href="../genes/CD58.html">CD58</a> 2%, <a href="../genes/TCF12.html">TCF12</a> 2%, <a href="../genes/ELF3.html">ELF3</a> 1%, <a href="../genes/PDE8A.html">PDE8A</a> 1% (<a href="../papers/35487942.html">PMID:35487942</a>)</p>
+<p><strong>Mitochondrial genes</strong> (reported as RNR1, RNR2, D-loop, ND5, CYB, ND4; HUGO MT-RNR1, MT-RNR2, MT-ND5, MT-CYB, MT-ND4, which are not in the cBioPortal gene list) - The RNR1/RNR2/D-loop region is the most frequently mutated noncoding stretch. - ND5, CYB and ND4 are each mutated in &gt;10% of tumors (<a href="../papers/35487942.html">PMID:35487942</a>).</p>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>WES-based TMB reference for Asian CRC.</strong> The study provides WES-based TMB baselines for about 1,000 Asian CRCs, to help define TMB-high versus TMB-low for immunotherapy. The authors note that the FDA approval of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> for TMB-high solid tumors rested on limited gene panels, and they call WES-derived TMB the gold standard (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Panel coverage.</strong> None of the eight novel HC-SMGs is on current clinical gene panels. The authors argue for WES, or for extending panels, in clinical genetic testing of CRC (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Genomic subtyping.</strong> The authors present genomic subtyping as simpler and more feasible than transcriptome-derived CMS. They propose 10q11.21 amplification as a biomarker that separates poor-prognosis CIN-HR from CIN-LR and predicts prognosis (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Pathway alterations as prognostic markers.</strong> Oncogenic cell-cycle and TGF-beta pathway alterations are independent adverse prognostic factors. VUS-only alterations in the same pathways are not prognostic, so OncoKB-style oncogenicity filtering matters for pathway-level biomarkers (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Immunogenicity.</strong> Reduced immunogenicity (LOHHLA, NPG mutation or immunoediting) combined with low TNB identifies the worst-prognosis group (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>mScore.</strong> The authors propose tumor mtDNA copy number as a prognostic biomarker and qPCR as a clinically feasible way to measure it. They cite Sun et al.: in an animal model, higher mtDNA copy number promotes microsatellite-stable CRC progression through oxidative phosphorylation (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Tool coverage.</strong> The authors note that SMG discovery used only five tools. Algorithms such as MutPanning and RF5 were not included, and they call for a larger integrative analysis (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Generalizability.</strong> This is a single-center Chinese cohort of treatment-naive, resected primary tumors from patients aged 18–80. The hypermutation rate (7.09%) and overall HC-SMG frequencies are lower than in Western cohorts. The median of 117.5 nonsynonymous variants per tumor is significantly lower than TCGA. The paper does not separate how much of this reflects population biology and how much reflects calling thresholds (≥2 of 3 callers, VAF ≥8%) (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Cross-paper frequency contrast.</strong> The Fig. 3c labels (APC 47%, TP53 45%, KRAS 24%) are well below the MSS metastatic CRC frequencies reported by MSK-IMPACT (APC 79%, TP53 78%, KRAS 44%; <a href="../papers/29316426.html">PMID:29316426</a>). The two studies differ in population, stage mix and assay, and the denominator of the Fig. 3c labels is unclear. This is recorded, not resolved.</li>
+<li><strong>Internal inconsistencies.</strong> The main text and Table 1 / Fig. 1b disagree on the COAD fraction (72.41% vs 71.8%) and on stage percentages (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Possible circularity in CIN-HR/CIN-LR.</strong> The two CIN clusters were distinguished, and named for TCGA, partly by 10q11.21 amplification status. That same lesion is then offered as a biomarker for the split (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>mScore robustness.</strong> The mScore cutoff (top 10%, “best-cutoff”) was chosen from the data. The qPCR validation cohort is small (91 patients at risk in Fig. 7c; 14 mScore-high), so the effect may be optimistic (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>LOHHLA coverage.</strong> LOHHLA could be assessed in only 415/1,015 patients because some HLA alleles were missing from the LOHHLA reference (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Signature tool unclear.</strong> The Results cite sigLASSO (Li et al.) as the LASSO-based method. The Methods name an R package “LassoSig” but cite deconstructSigs and use its “exome2genome” normalization (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>No functional data for novel genes.</strong> The extracted main text reports no functional validation of the eight novel HC-SMGs, and the Cox models shown do not adjust for treatment (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+<li><strong>Comparator cohorts unidentified.</strong> The TCGA, MSKCC and “DIFC” comparator cohorts are not identified by study or version in the main text (<a href="../papers/35487942.html">PMID:35487942</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we perform ultradeep whole-exome sequencing on 1015 patients with CRC as part of the ChangKang Project. We identify 46 high-confident significantly mutated genes, 8 of which mutate in 14.9% of patients: LYST, DAPK1, CR2, KIF16B, NPIPB15, SYTL2, ZNF91, and KIAA0586.” (Abstract, p.&nbsp;1)</li>
+<li>“By using a threshold of TMB≥10 muts/Mb to define hypermutated cases, we observed a relatively low (7.09%, 72/1015) hypermutated rate in our dataset compared with both the TCGA and MSKCC datasets.” (p.&nbsp;2)</li>
+<li>“A total of 83.6% (849/1015) of patients had at least one mutation within these HC-SMGs, with an average of 4.49 mutations in HC-SMGs per patient.” (p.&nbsp;3)</li>
+<li>“for the cell cycle pathway: HR=2.26 (1.53–3.34), P&lt;0.001; for the TGF-beta pathway: HR=1.56 (1.15–2.11), P=0.004” (p.&nbsp;7)</li>
+<li>“Patients with LOHHLA account for 17.4% in 415 assessable CRC patients and 6.7% of 1015 CRC patients carried mutations at NPG” (p.&nbsp;9)</li>
+<li>“top 10% of CRC patients with extremely high MT copies (mScore-high) had significantly worse overall survival than those with a low mScore (mScore-low) … (HR=1.84, 1.23–2.75, P=0.003” (p.&nbsp;9)</li>
+<li>“the eight HC-SMGs identified in this study have not been included in current known gene panels (known panel information from the cBioPortal database, summarized in Supplementary Data 10)” (p.&nbsp;11)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/35487942.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/35487942.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

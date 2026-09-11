@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,10 +177,11 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/34433969.html">PMID:34433969</a> — Illumina EPIC methylation array used to profile 121 fresh-frozen meningiomas from the University Health Network Brain Tumor BioBank; six DNA methylation clusters were derived and integrated via COCA with CNA and mRNA clusters to define four stable molecular groups (MG1–MG4) for meningioma classification <a href="../papers/34433969.html">PMID:34433969</a>.</li>
 <li>Illumina EPIC array applied to breast cancer specimens in AURORA cohort; identified <a href="../genes/HLA-A.html">HLA-A</a> promoter DNA hypermethylation in 23 tumors (12 individuals), more frequent in metastases than primaries (P=0.035), correlating with reduced immune signatures <a href="../papers/36585450.html">PMID:36585450</a></li>
-<li>Used Infinium MethylationEPIC v2.0 array for genome-wide DNA methylation profiling in a EWSR1::BEND2 fusion sarcoma; profile interpreted with the sarcoma and brain-tumor methylation classifiers <a href="../papers/28199314.html">PMID:28199314</a></li>
-<li>Illumina MethylationEPIC array performed at MD Anderson on 76 of 96 GBM <a href="../methods/patient-derived-xenograft.html">PDX</a> lines from the Mayo Clinic National Resource; identified three LGm1 (IDH-mutant), and LGm4 (46%), LGm5 (44%), LGm6 (10%) methylation classes among IDH-wildtype PDX; DNA methylation data integrated alongside WES and RNA-seq for molecular characterization <a href="../papers/31852831.html">PMID:31852831</a>.</li>
-<li>Used in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors) via Illumina Infinium MethylationEPIC BeadChip (&gt;850,000 CpG sites); revealed elevated genome-wide CpG island methylation in MSI tumors, including MLH1 silencing and HOX gene methylation <a href="../papers/32059776.html">PMID:32059776</a>.</li>
-<li>Illumina Infinium MethylationEPIC array (&gt;850k CpGs) applied to 99 treatment-naive GBM tumors; identified 6 DNA-methylation subtypes including two G-CIMP variants; MGMT promoter hypermethylation in 38/90 (42%) tumors <a href="../papers/33577785.html">PMID:33577785</a></li>
+<li>Used Infinium MethylationEPIC v2.0 array for genome-wide DNA methylation profiling in a <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> fusion sarcoma; profile interpreted with the sarcoma and brain-tumor methylation classifiers <a href="../papers/41102727.html">PMID:41102727</a></li>
+<li>Illumina MethylationEPIC array performed at MD Anderson on 76 of 96 <a href="../cancer_types/GBM.html">GBM</a> <a href="../methods/patient-derived-xenograft.html">PDX</a> lines from the Mayo Clinic National Resource; identified three LGm1 (IDH-mutant), and LGm4 (46%), LGm5 (44%), LGm6 (10%) methylation classes among IDH-wildtype PDX; DNA methylation data integrated alongside WES and RNA-seq for molecular characterization <a href="../papers/31852831.html">PMID:31852831</a>.</li>
+<li>Used in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors) via Illumina Infinium MethylationEPIC BeadChip (&gt;850,000 CpG sites); revealed elevated genome-wide CpG island methylation in MSI tumors, including <a href="../genes/MLH1.html">MLH1</a> silencing and HOX gene methylation <a href="../papers/32059776.html">PMID:32059776</a>.</li>
+<li>Illumina Infinium MethylationEPIC array (&gt;850k CpGs) applied to 99 treatment-naive GBM tumors; identified 6 DNA-methylation subtypes including two G-CIMP variants; <a href="../genes/MGMT.html">MGMT</a> promoter hypermethylation in 38/90 (42%) tumors <a href="../papers/33577785.html">PMID:33577785</a></li>
+<li>Profiled DNA methylation in 93 of 94 SDHB-mutant pheochromocytoma/paraganglioma tumors as part of a seven-method multi-omic characterization <a href="../papers/40097403.html">PMID:40097403</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -191,13 +195,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/34433969.html">PMID:34433969</a></li>
+<li><a href="../papers/36585450.html">PMID:36585450</a></li>
+<li><a href="../papers/41102727.html">PMID:41102727</a></li>
+<li><a href="../papers/31852831.html">PMID:31852831</a></li>
+<li><a href="../papers/32059776.html">PMID:32059776</a></li>
+<li><a href="../papers/33577785.html">PMID:33577785</a></li>
+<li><a href="../papers/40097403.html">PMID:40097403</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-05</strong>.</em> - <a href="../papers/36585450.html">PMID:36585450</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-05</strong>.</em> - <a href="../papers/28199314.html">PMID:28199314</a> - <a href="../papers/31852831.html">PMID:31852831</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/32059776.html">PMID:32059776</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/33577785.html">PMID:33577785</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

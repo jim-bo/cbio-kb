@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -198,8 +201,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>DDR-associated gene expression pattern concordant with morphologic classification confirmed in SU2C dataset; NEPC samples exhibited elevated <a href="../genes/MYCN.html">MYCN</a> and/or <a href="../genes/AURKA.html">AURKA</a> expression. <a href="../papers/38488813.html">PMID:38488813</a></li>
 <li>Three <a href="../genes/FGFR1.html">FGFR1</a> downstream genes (NRP2, LRP4, TGFBI) preferentially expressed in bone metastases in the SU2C dataset. <a href="../papers/38488813.html">PMID:38488813</a></li>
-<li>Referenced for <a href="../genes/USP10.html">USP10</a> deep deletion frequency (~10%) in metastatic castration-resistant prostate cancer, used to contextualize the therapeutic vulnerability of the <a href="../genes/USP10.html">USP10</a>–<a href="../genes/TRMT10A.html">TRMT10A</a> axis <a href="../papers/28068672.html">PMID:28068672</a></li>
-<li>Used (SU2C/PCF Dream Team 2019, n=266 polyA RNA-seq samples) for cross-cohort correlation of the <a href="../genes/NOL10.html">NOL10</a> cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score, and for combined <a href="../genes/NOL10.html">NOL10</a>+<a href="../genes/USF1.html">USF1</a> ROC survival analyses <a href="../papers/28927585.html">PMID:28927585</a>.</li>
+<li>Referenced for <a href="../genes/USP10.html">USP10</a> deep deletion frequency (~10%) in metastatic castration-resistant prostate cancer, used to contextualize the therapeutic vulnerability of the <a href="../genes/USP10.html">USP10</a>–<a href="../genes/TRMT10A.html">TRMT10A</a> axis <a href="../papers/41071892.html">PMID:41071892</a></li>
+<li>Used (SU2C/PCF Dream Team 2019, n=266 polyA RNA-seq samples) for cross-cohort correlation of the <a href="../genes/NOL10.html">NOL10</a> cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score, and for combined <a href="../genes/NOL10.html">NOL10</a>+<a href="../genes/USF1.html">USF1</a> ROC survival analyses <a href="../papers/41062477.html">PMID:41062477</a>.</li>
 <li>429-patient mCRPC cohort (444 biopsied tumors) sequenced by WES and RNA-seq; deposited as this dataset on cBioPortal and GitHub; <a href="../genes/RB1.html">RB1</a> alteration was independently associated with shorter overall survival (RR 3.31) and shorter time on first-line ARSI (RR 6.56) in a 128-patient first-line ARSI subset <a href="../papers/31061129.html">PMID:31061129</a></li>
 <li>Used as comparator mCRPC cohort (CRPC500, n=411 metastases) for elevated mutation burden and HRD-signature enrichment in prostate cancer brain metastases versus non-brain mCRPC (SNVs q=2.38×10⁻¹⁹) <a href="../papers/35504881.html">PMID:35504881</a></li>
 <li>Applied (n=266 polyA RNA-seq samples from SU2C) for cross-cohort classification of CRPC chromatin subtypes (CRPC-AR, CRPC-NE, CRPC-WNT, CRPC-SCL); CRPC-SCL was second-most-common (~28%) and associated with shorter time on next-generation ARSIs <a href="../papers/35617398.html">PMID:35617398</a></li>
@@ -209,12 +212,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li>cBioPortal study <code>prad_su2c_2019</code> <a href="../papers/38488813.html">PMID:38488813</a>.</li>
+<li><a href="../papers/41071892.html">PMID:41071892</a></li>
+<li><a href="../papers/41062477.html">PMID:41062477</a></li>
+<li><a href="../papers/31061129.html">PMID:31061129</a></li>
+<li><a href="../papers/35504881.html">PMID:35504881</a></li>
+<li><a href="../papers/35617398.html">PMID:35617398</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28068672.html">PMID:28068672</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31061129.html">PMID:31061129</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35617398.html">PMID:35617398</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

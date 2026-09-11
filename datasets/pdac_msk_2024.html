@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="composition" class="level2">
 <h2 class="anchored" data-anchor-id="composition">Composition</h2>
 <ul>
-<li>2,336 patients with <a href="../cancer_types/PAAD.html">PAAD</a>; stage distribution: 731 resectable (31%), 581 borderline-resectable/locally advanced (25%), 1,024 metastatic (44%); median <a href="../cancer_types/OS.html">OS</a> 31/19/11 months respectively <a href="../papers/39753968.html">PMID:39753968</a>.</li>
+<li>2,336 patients with <a href="../cancer_types/PAAD.html">PAAD</a>; stage distribution: 731 resectable (31%), 581 borderline-resectable/locally advanced (25%), 1,024 metastatic (44%); median OS 31/19/11 months respectively <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>Sample type: 1,424 (61%) primary tumor, 912 (39%) metastasis; median age 67 years (range 24–93) <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>1,480 patients (63%) with manually curated treatment history, time on treatment, and best-response data from medical records <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>Allele-specific copy number inferred with <a href="../methods/facets.html">FACETS</a> v0.5.14 in 1,555/2,322 tumors passing QC <a href="../papers/39753968.html">PMID:39753968</a>.</li>
@@ -190,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="papers-using-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="papers-using-this-cohort">Papers using this cohort</h2>
 <ul>
-<li><a href="../papers/39753968.html">PMID:39753968</a> — Varghese, Perry et al.&nbsp;2025: Defines three genomic subtypes of PDAC (KRAS-mutant 95%, other-MAPK-mutant 3%, MAPK-WT 2%); characterizes <a href="../genes/KRAS.html">KRAS</a> mutant-allele dosage gains as a prognostic biomarker independent of stage; shows G12R confers better <a href="../cancer_types/OS.html">OS</a> than G12D (HR_adj=0.78, P=0.003).</li>
+<li><a href="../papers/39753968.html">PMID:39753968</a> — Varghese, Perry et al.&nbsp;2025: Defines three genomic subtypes of PDAC (KRAS-mutant 95%, other-MAPK-mutant 3%, MAPK-WT 2%); characterizes <a href="../genes/KRAS.html">KRAS</a> mutant-allele dosage gains as a prognostic biomarker independent of stage; shows G12R confers better OS than G12D (HR_adj=0.78, P=0.003).</li>
 </ul>
 </section>
 <section id="notable-findings-derived-from-this-cohort" class="level2">

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36201743.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36201743.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nicole Thomas </p>
+             <p>Kostiantyn Dreval </p>
+             <p>Daniela S Gerhard </p>
+             <p>Laura K Hilton </p>
+             <p>Jeremy S Abramson </p>
+             <p>Richard F Ambinder </p>
+             <p>Stefan Barta </p>
+             <p>Nancy L Bartlett </p>
+             <p>Jeffrey Bethony </p>
+             <p>Kishor Bhatia </p>
+             <p>Jay Bowen </p>
+             <p>Anthony C Bryan </p>
+             <p>Ethel Cesarman </p>
+             <p>Corey Casper </p>
+             <p>Amy Chadburn </p>
+             <p>Manuela Cruz </p>
+             <p>Dirk P Dittmer </p>
+             <p>Maureen A Dyer </p>
+             <p>Pedro Farinha </p>
+             <p>Julie M Gastier-Foster </p>
+             <p>Alina S Gerrie </p>
+             <p>Bruno M Grande </p>
+             <p>Timothy Greiner </p>
+             <p>Nicholas B Griner </p>
+             <p>Thomas G Gross </p>
+             <p>Nancy L Harris </p>
+             <p>John D Irvin </p>
+             <p>Elaine S Jaffe </p>
+             <p>David Henry </p>
+             <p>Rebecca Huppi </p>
+             <p>Fabio E Leal </p>
+             <p>Michael S Lee </p>
+             <p>Jean Paul Martin </p>
+             <p>Marie-Reine Martin </p>
+             <p>Sam M Mbulaiteye </p>
+             <p>Ronald Mitsuyasu </p>
+             <p>Vivian Morris </p>
+             <p>Charles G Mullighan </p>
+             <p>Andrew J Mungall </p>
+             <p>Karen Mungall </p>
+             <p>Innocent Mutyaba </p>
+             <p>Mostafa Nokta </p>
+             <p>Constance Namirembe </p>
+             <p>Ariela Noy </p>
+             <p>Martin D Ogwang </p>
+             <p>Abraham Omoding </p>
+             <p>Jackson Orem </p>
+             <p>German Ott </p>
+             <p>Hilary Petrello </p>
+             <p>Stefania Pittaluga </p>
+             <p>James D Phelan </p>
+             <p>Juan Carlos Ramos </p>
+             <p>Lee Ratner </p>
+             <p>Steven J Reynolds </p>
+             <p>Paul G Rubinstein </p>
+             <p>Gerhard Sissolak </p>
+             <p>Graham Slack </p>
+             <p>Shaghayegh Soudi </p>
+             <p>Steven H Swerdlow </p>
+             <p>Alexandra Traverse-Glehen </p>
+             <p>Wyndham H Wilson </p>
+             <p>Jasper Wong </p>
+             <p>Robert Yarchoan </p>
+             <p>Jean C ZenKlusen </p>
+             <p>Marco A Marra </p>
+             <p>Louis M Staudt </p>
+             <p>David W Scott </p>
+             <p>Ryan D Morin </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1182/blood.2022016534">10.1182/blood.2022016534</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> <a href="../papers/36201743.html">36201743</a> · <strong>DOI:</strong> 10.1182/blood.2022016534 · <strong>Journal:</strong> Blood (2023)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Thomas et al.&nbsp;assembled whole-genome and/or transcriptome sequencing for 281 Burkitt lymphomas (<a href="../cancer_types/BL.html">BL</a>), 181 pediatric (pBL) and 100 newly sequenced adult (aBL) cases collected in Uganda, the United States, Brazil, France, Germany and Canada. Most analyses used the 230 BLs with WGS, which the authors compared against 295 diffuse large B-cell lymphomas (<a href="../cancer_types/DLBCLNOS.html">DLBCLNOS</a>). Tumor Epstein-Barr virus (EBV) status explained more of the molecular variation than patient age did. EBV status shaped the MYC/IGH breakpoint mechanism, <a href="../genes/AICDA.html">AICDA</a> expression, aberrant somatic hypermutation (aSHM), SBS9 exposure and driver frequencies, while only <a href="../genes/ARID1A.html">ARID1A</a> and <a href="../genes/TET2.html">TET2</a> differed by age. Consensus <a href="../methods/nmf-clustering.html">NMF clustering</a> of <a href="../cancer_types/BL.html">BL</a>, DLBCL and pathology-rejected “non-BL” genomes produced 6 genetic subgroups. Three of them were mostly BL: <strong>DGG-BL</strong> (<a href="../genes/DDX3X.html">DDX3X</a>, <a href="../genes/GNA13.html">GNA13</a>, <a href="../genes/GNAI2.html">GNAI2</a>), <strong>IC-BL</strong> (<a href="../genes/ID3.html">ID3</a>, <a href="../genes/CCND3.html">CCND3</a>) and <strong>Q53-BL</strong> (genetically “quiet”, <a href="../genes/TP53.html">TP53</a>-mutated). These subgroups differed in EBV status, sex, mutation burden, aSHM and gene expression, with <a href="../genes/IRF4.html">IRF4</a> and <a href="../genes/TNFRSF13B.html">TNFRSF13B</a> higher in IC-BL. Their links to outcome differed between aBL and pBL. An exome-compatible <a href="../methods/random-forest-classifier.html">random forest classifier</a> reached 93.3% accuracy for separating BL from DLBCL and was applied to 3 published cohorts. The data back the cBioPortal study <a href="../datasets/mbn_sfu_2023.html">mbn_sfu_2023</a>. <a href="../papers/36201743.html">PMID:36201743</a></p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>BL cohort (Table 1, n = 281):</strong> 100 aBL and 181 pBL tumors, all given pathology consensus review. <a href="../papers/36201743.html">PMID:36201743</a>
+<ul>
+<li>EBV status: 148 (53%) EBV-positive and 133 (47%) EBV-negative. EBV-positive rates were 33/100 (33%) in aBL and 115/181 (64%) in pBL.</li>
+<li>Clinical variant: 119 (42%) endemic, of which 118 were pediatric, and 162 (58%) sporadic.</li>
+<li>HIV-positive: 30 (11%), of which 24 were aBL and 6 were pBL.</li>
+<li>Sex: 193 (68%) male.</li>
+<li>Outcomes: PFS and OS data were available for 253/281 (90%).</li>
+<li>Missing data: BLIPI was unknown in 140 (50%) and the first-line regimen was unknown in 155 (55%).</li>
+</ul></li>
+<li><strong>Additional BL-side material:</strong> 22 BL cell lines, 8 tumors reclassified as “non-BL” at pathology review, and WGS of 17 pBLs from the ICGC MMML-Seq project. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>DLBCL comparator:</strong> The abstract gives 295 DLBCL tumors. Methods list 280 DLBCLs (including 25 HIV-positive and 16 HIV-negative newly sequenced tumors) plus 15 DLBCL cell lines. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Analytic subsets:</strong> The core genomic analysis covered 230 BLs with WGS (118 EBV-positive, 112 EBV-negative). SMG discovery used simple somatic mutations (SSMs) from 252 BL genomes together with 252 DLBCLs. IG-MYC breakpoint analysis covered 212 tumors (80 adult, 132 pediatric; 103 EBV-negative, 109 EBV-positive). <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Assays and reference genomes:</strong> <a href="../methods/whole-genome-seq.html">Whole-genome sequencing</a> and <a href="../methods/rna-seq.html">RNA-seq</a>. BL reads were aligned to GRCh38 and DLBCL reads to GRCh37. Tumor EBV status came from the fraction of EBV reads in WGS and/or reads aligned to EBER1/EBER2 in RNA-seq. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Variant calling:</strong>
+<ul>
+<li>SSMs: the SLMS-3 ensemble (Sage, LoFreq, <a href="../methods/mutect.html">Mutect2</a>, <a href="../methods/strelka.html">Strelka2</a>).</li>
+<li>SVs: <a href="../methods/manta.html">Manta</a> and <a href="../methods/gridss.html">GRIDSS</a>.</li>
+<li>CNVs: <a href="../methods/battenberg.html">Battenberg</a> and <a href="../methods/control-freec.html">Control-FREEC</a>.</li>
+</ul>
+<a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Downstream analysis:</strong>
+<ul>
+<li>SMGs: a gene counted as significantly mutated if at least 2 of <a href="../methods/dndscv.html">dNdScv</a>, MutSig2CV (<a href="../methods/mutsigcv.html">MutSigCV</a>), <a href="../methods/hotmaps.html">HOTMAPS</a> and <a href="../methods/oncodrivefml.html">OncodriveFML</a> called it.</li>
+<li>Recurrent CNAs: <a href="../methods/gistic.html">GISTIC2.0</a>.</li>
+<li>Expression and outcome: <a href="../methods/salmon.html">Salmon</a>, <a href="../methods/deseq2.html">DESeq2</a>, <a href="../methods/gsva.html">GSVA</a> and <a href="../methods/kaplan-meier.html">Kaplan-Meier</a> survival analysis.</li>
+<li>Subgroup validation: a <a href="../methods/random-forest-classifier.html">random forest</a> classifier.</li>
+</ul>
+<a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>First-line regimens (Table 1):</strong> Treatment is reported only as cohort context. The paper does not analyze outcome by regimen. <a href="../papers/36201743.html">PMID:36201743</a>
+<ul>
+<li>CODOX/IVAC±R: 37 (13%), 34 of them adults.</li>
+<li>COM: 39 (14%), all pediatric.</li>
+<li>COP: 16 (6%).</li>
+<li>DA-EPOCH±R: 15 (5%).</li>
+<li>Regimen components as the Table 1 legend defines them: <a href="../drugs/cyclophosphamide.html">cyclophosphamide</a>, <a href="../drugs/vincristine.html">vincristine</a>, <a href="../drugs/doxorubicin.html">doxorubicin</a>, <a href="../drugs/methotrexate.html">methotrexate</a>, <a href="../drugs/prednisone.html">prednisone</a>, <a href="../drugs/etoposide.html">etoposide</a>, <a href="../drugs/ifosfamide.html">ifosfamide</a>, <a href="../drugs/cytarabine.html">cytarabine</a> and <a href="../drugs/rituximab.html">rituximab</a>.</li>
+</ul></li>
+<li><strong>Data availability:</strong> Molecular and clinical data are on the NCI GDC publication page CGCI-BLGSP-2022-1. Code is in LCR-modules, LCR-scripts and the GAMBLR R package, which also contains the random forest classifier. In cBioPortal the data are <a href="../datasets/mbn_sfu_2023.html">mbn_sfu_2023</a> (Mature B-Cell Neoplasms, SFU, Blood 2023). According to the cBioPortal study record (not the paper), that study has 297 samples on hg38. <a href="../papers/36201743.html">PMID:36201743</a></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong><a href="../genes/MYC.html">MYC</a> structural variation and breakpoint mechanism</strong> - <strong>Translocation rates:</strong> <a href="../genes/MYC.html">MYC</a> translocations were detected by WGS in 214/230 (93%) BLs. <a href="../papers/36201743.html">PMID:36201743</a> - Partners: <a href="../genes/IGH.html">IGH</a> in 170 (79%), <a href="../genes/IGK.html">IGK</a> in 16 (7%), <a href="../genes/IGL.html">IGL</a> in 26 (12%), and <a href="../genes/BCL6.html">BCL6</a>-MYC in 2. - Partner frequencies did not differ by EBV status or age. - <strong>Cases without a WGS-detected MYC SV:</strong> 16 (7%). Of these, 11 were MYC-translocated by <a href="../methods/fish.html">FISH</a>, 1 had aSHM at MYC, and 2 had a gain at MYC or 2 Mb upstream of it. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Breakpoint location:</strong> IGH-MYC breakpoints fell upstream of MYC more often in EBV-positive BL and within MYC (most commonly intron 1) more often in EBV-negative BL (P &lt; .001, Fisher). <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Breakpoint mechanism:</strong> EBV-negative BLs had more class-switch recombination (CSR)-mediated <a href="../genes/IGH.html">IGH</a> breakpoints (P &lt; .01). EBV-positive BLs were dominated by SHM-mediated breakpoints (P &lt; .01). Many breakpoints fell inside IGHV genes, which fits AID-induced double-strand breaks better than RAG-mediated VDJ recombination. The inferred mechanism did not differ by age. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>AICDA expression:</strong> <a href="../genes/AICDA.html">AICDA</a> was significantly higher in EBV-positive tumors in both aBL and pBL (P &lt; .001, Wilcoxon). <a href="../papers/36201743.html">PMID:36201743</a></p>
+<p><strong>Copy number, SMGs and mutational signatures</strong> - <strong>Recurrent CNAs:</strong> GISTIC2.0 found 94 significant recurrent copy-number peaks across BL and DLBCL, mostly in previously described regions. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Significantly mutated genes:</strong> 57 SMGs were each mutated in ≥2% (N ≥ 4) of BLs. 18 of them (31%) are also recurrently mutated in DLBCL. <a href="../papers/36201743.html">PMID:36201743</a> - The results further support roles for <a href="../genes/SIN3A.html">SIN3A</a>, <a href="../genes/USP7.html">USP7</a>, HIST1H1E (<a href="../genes/H1-4.html">H1-4</a>), <a href="../genes/CHD8.html">CHD8</a> and <a href="../genes/RFX7.html">RFX7</a> in BL. - Most newly identified SMGs were mutated in &lt;5% of tumors. - <strong>Genes mutated at similar or higher rates in DLBCL:</strong> <a href="../genes/TET2.html">TET2</a>, <a href="../genes/HNRNPU.html">HNRNPU</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/SYNCRIP.html">SYNCRIP</a> and <a href="../genes/EZH2.html">EZH2</a>. Most shared SMGs are nonetheless mutated at “drastically different frequencies” in the 2 diseases. <a href="../papers/36201743.html">PMID:36201743</a> - <strong><a href="../genes/HNRNPU.html">HNRNPU</a>:</strong> Mutations are mostly truncating and enriched in EBV-positive BL. Mutated tumors had consistently lower HNRNPU mRNA, even though BL showed the highest HNRNPU expression of the B-cell lymphomas examined. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Mutational signatures:</strong> SBS1, SBS5 and SBS9 were the most common <a href="../methods/mutational-signatures.html">mutational signatures</a>. SBS9 exposure was higher in EBV-positive BL, consistent with higher AICDA activity. Compared with pBL, aBL was enriched for SBS1 and SBS5 and had lower SBS9. <a href="../papers/36201743.html">PMID:36201743</a></p>
+<p><strong>EBV status versus age</strong> - <strong>Genes differentially mutated by EBV status (13):</strong> - Higher in EBV-negative BL: <a href="../genes/MIR17HG.html">MIR17HG</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/GNAI2.html">GNAI2</a>, <a href="../genes/CCND3.html">CCND3</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/SYNCRIP.html">SYNCRIP</a>, <a href="../genes/FBXO11.html">FBXO11</a>, <a href="../genes/STAT6.html">STAT6</a> and <a href="../genes/PHF6.html">PHF6</a>. - Not higher in EBV-negative BL (the paper names these as the exceptions): <a href="../genes/FOXO1.html">FOXO1</a> and <a href="../genes/BCR.html">BCR</a>. - Apoptosis-pathway genes were more often mutated in EBV-negative BL.</p>
+<p><a href="../papers/36201743.html">PMID:36201743</a> - <strong>Mutation patterns that differ by EBV status:</strong> <a href="../genes/FOXO1.html">FOXO1</a>, <a href="../genes/PCBP1.html">PCBP1</a> and <a href="../genes/HNRNPU.html">HNRNPU</a>. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Genes differentially mutated by age (only 2):</strong> <a href="../genes/ARID1A.html">ARID1A</a> was more often mutated in pBL (46% vs 26%) and <a href="../genes/TET2.html">TET2</a> in aBL (10% vs 1.5%). The authors conclude that EBV status, rather than age, underlies most molecular differences within BL. <a href="../papers/36201743.html">PMID:36201743</a></p>
+<p><strong>Genetic subgroups (NMF consensus clustering)</strong> - <strong>BL-only clustering:</strong> This gave 4 clusters. Three were defined by <a href="../genes/TP53.html">TP53</a>, <a href="../genes/DDX3X.html">DDX3X</a> and <a href="../genes/ID3.html">ID3</a> mutations, and the fourth was enriched for DLBCL-typical features. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Joint clustering:</strong> Clustering all BLs, DLBCLs and non-BLs gave 6 robust subgroups. <a href="../papers/36201743.html">PMID:36201743</a> - DLBCL-predominant: DLBCL-A, DLBCL-B and DLBCL-C. DLBCL-A was enriched for LymphGen EZB cases (<a href="../genes/EZH2.html">EZH2</a> mutations, <a href="../genes/BCL2.html">BCL2</a> translocations). DLBCL-C was enriched for ST2 cases (<a href="../genes/SGK1.html">SGK1</a> and <a href="../genes/TET2.html">TET2</a> mutations). See <a href="../methods/lymphgen.html">LymphGen</a>. - BL-predominant: DGG-BL, IC-BL and Q53-BL. - <strong>DGG-BL:</strong> 100 tumors, 85 of them BL. <a href="../papers/36201743.html">PMID:36201743</a> - Enriched for <a href="../genes/FOXO1.html">FOXO1</a> hotspot mutations and had the highest HNRNPU mutation frequency (11%). - Like DLBCL-C, often showed aSHM near the <a href="../genes/BACH2.html">BACH2</a> transcription start site. - 71% EBV-positive, significantly more than Q53-BL and IC-BL (both P &lt; .001, Tukey HSD). - 76% male, an overrepresentation relative to IC-BL (P = .03). - <strong>IC-BL:</strong> 103/112 tumors were BL. It had the highest prevalence of ID3 and <a href="../genes/CCND3.html">CCND3</a> mutations and few DGG-BL-type mutations. Its mutation burden was lower than DGG-BL (P = .004) and DLBCL-C (P &lt; .001; Wilcoxon). <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Q53-BL:</strong> 20 of its 27 tumors were BL (74%). <a href="../papers/36201743.html">PMID:36201743</a> - Lacked driver mutations and CNVs apart from MYC translocations, and was enriched for TP53 mutations. - Unlike aneuploid TP53-deficient DLBCLs. - Had the lowest rate of nonsynonymous MYC mutations (11%) and the lowest aSHM rates. - <strong>Age distribution across subgroups:</strong> aBLs were more common in Q53-BL and pBLs in IC-BL and DGG-BL, but the difference was not statistically significant. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>DDX3X and sex:</strong> DDX3X mutations occurred in 53.8% of male BL patients versus 25% of female patients, which the authors cite to explain the male excess in DGG-BL. Mutations in females were almost exclusively missense, while males had mainly truncating mutations. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>DLBCLs in BL clusters:</strong> 25 DLBCLs (9%) fell into BL clusters: 13 in DGG-BL, 6 in Q53-BL and 6 in IC-BL. <a href="../papers/36201743.html">PMID:36201743</a> - They carried BL-associated features such as DDX3X mutations and <a href="../genes/BACH2.html">BACH2</a> aSHM. - 14 were double-hit signature (<a href="../methods/dhitsig.html">DHITsig</a>) positive. - 6 were HIV-positive DLBCLs. The other 19 HIV-positive DLBCLs fell into DLBCL-predominant subgroups. - <strong>Pathology-rejected cases:</strong> 6/8 (75%) non-BL cases clustered with BL (IC-BL 3, DGG-BL 2, Q53-BL 1). That is a significantly higher rate than for DLBCLs (P &lt; .001, Fisher). <a href="../papers/36201743.html">PMID:36201743</a></p>
+<p><strong>Classifier validation in external exome cohorts</strong> - <strong>Classifier performance:</strong> The <a href="../methods/random-forest-classifier.html">random forest</a> classifier used only exome-detectable features. Separating BL from DLBCL, it had 93.3% accuracy, 94.1% sensitivity and 92.7% specificity. Across the 4 classes (IC-BL, DGG-BL, Q53-BL, DLBCL) the overall error rate was 12.2%. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Zhou et al.&nbsp;BL cohort (n = 73):</strong> 43 (58.9%) were classified IC-BL, 22 (30.1%) DGG-BL, 1 (1.4%) Q53-BL and 7 (9.6%) DLBCL. The authors call this consistent with their own cohort, given that the Zhou cohort had no aBL and few EBV-positive cases (4/73 EBV-positive; 21/73 unknown). <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Panea et al.&nbsp;BL cohort:</strong> 38/101 (37.6%) BLs were classified as DLBCL. This was corroborated by high frequencies of <a href="../genes/BCL6.html">BCL6</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/CREBBP.html">CREBBP</a> and <a href="../genes/EZH2.html">EZH2</a> hotspot mutations, which are uncharacteristic of BL. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Schmitz et al.&nbsp;DLBCL cohort (n = 470):</strong> 434 (92.3%) were correctly classified as DLBCL. The 36 classified into a BL subgroup were enriched for ABC cell-of-origin, not enriched for DHITsig, and often LymphGen-unclassified (“other”). They had significantly shorter PFS than cases classified as DLBCL (P = .006, log-rank). <a href="../papers/36201743.html">PMID:36201743</a></p>
+<p><strong>Transcriptional and aSHM differences between subgroups</strong> - <strong>Differential expression, IC-BL vs DGG-BL:</strong> 71 genes were differentially expressed. <a href="../genes/IRF4.html">IRF4</a>, <a href="../genes/TNFRSF13B.html">TNFRSF13B</a> and <a href="../genes/SERPINA9.html">SERPINA9</a> showed the strongest differences. <a href="../genes/IRF4.html">IRF4</a> and <a href="../genes/TNFRSF13B.html">TNFRSF13B</a> were bimodal and higher in IC-BL (P &lt; .001, Wilcoxon), similar to the ABC-vs-GCB DLBCL difference. <a href="../genes/SERPINA9.html">SERPINA9</a>, a GCB-associated gene, was lower in IC-BL. All 3 are components of the DLBCL cell-of-origin and DHITsig classifiers and have probes on the DLBCL90 NanoString assay. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Pathway analysis:</strong> GSVA with signatureDB lymphoma signatures found 17 differentially expressed pathways (P &lt; .05), 2 of them involving IRF4 signaling. IC-BL showed higher activity of IRF4-induction-in-ABC-DLBCL, ABC DLBCL and memory B-cell programs. NF-kB pathway activity did not differ between DGG-BL and IC-BL. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>aSHM, BL vs DLBCL:</strong> BL has less aSHM overall, but 3 aSHM regions were mutated more often in BL than in DLBCL: <a href="../genes/MYC.html">MYC</a>, <a href="../genes/BACH2.html">BACH2</a> and <a href="../genes/TCL1A.html">TCL1A</a>. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>aSHM by subgroup:</strong> BLs falling in DLBCL-C had the most mutated aSHM regions. BLs in DLBCL-A were mutated only at <a href="../genes/EBF1.html">EBF1</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/LPP.html">LPP</a>, <a href="../genes/MEF2C.html">MEF2C</a> and <a href="../genes/PTPN1.html">PTPN1</a>. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>AICDA and EBV:</strong> AICDA expression was higher in DGG-BL than IC-BL. Differences in aSHM rate were more strongly associated with EBV status than with subgroup, although the supporting data are not shown. Every subgroup contains both EBV-positive and EBV-negative tumors. <a href="../papers/36201743.html">PMID:36201743</a> - <strong>Other coding mutations:</strong> <a href="../genes/HNRNPU.html">HNRNPU</a> and <a href="../genes/GNA13.html">GNA13</a> were mutated across all DLBCL subgroups. Many TP53-mutant BLs were assigned to subgroups other than Q53-BL. <a href="../papers/36201743.html">PMID:36201743</a></p>
+<p><strong>Outcomes</strong> - <strong>Survival analysis:</strong> Patients from Uganda and Brazil were excluded because of missing data and batch effects. <a href="../papers/36201743.html">PMID:36201743</a> - Overall survival did not differ significantly between BL subgroups overall. - In aBL, the most significant outcome differences came from using <a href="../genes/ID3.html">ID3</a> and <a href="../genes/TP53.html">TP53</a> mutations as single-gene stand-ins for IC-BL and Q53-BL. - In pBL, DGG-BL had the worst outcomes. - The abstract states that IC-BL, DGG-BL, ID3 and TP53 had significant outcome associations “that were different among aBL and pBL cohorts”.</p>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/MYC.html">MYC</a>: IG-MYC translocation in 93% of BLs. IGH-MYC breakpoints were upstream of MYC in EBV-positive BL and intragenic (intron 1) in EBV-negative BL. Nonsynonymous MYC mutations were least common in Q53-BL (11%), and MYC is one of 3 aSHM targets enriched in BL relative to DLBCL. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/IGH.html">IGH</a> / <a href="../genes/IGK.html">IGK</a> / <a href="../genes/IGL.html">IGL</a>: MYC partners in 79% / 7% / 12% of MYC-translocated BLs. IGH breakpoints were CSR-type in EBV-negative BL and SHM-type in EBV-positive BL. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/BCL6.html">BCL6</a>: BCL6-MYC translocation in 2 BLs. <a href="../genes/BCL6.html">BCL6</a> hotspot mutations helped drive DLBCL-like calls in the Panea et al.&nbsp;BL cohort. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/AICDA.html">AICDA</a>: Higher expression in EBV-positive BL (both aBL and pBL) and in DGG-BL vs IC-BL. Tracks SBS9 exposure and SHM-mediated IGH breakpoints. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/DDX3X.html">DDX3X</a>: Defining gene of DGG-BL. Mutated in 53.8% of male vs 25% of female BL patients, mainly truncating in males and almost exclusively missense in females. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/GNA13.html">GNA13</a>, <a href="../genes/GNAI2.html">GNAI2</a>: Defining genes of DGG-BL. <a href="../genes/GNAI2.html">GNAI2</a> is more often mutated in EBV-negative BL, and <a href="../genes/GNA13.html">GNA13</a> is mutated across all DLBCL subgroups. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/ID3.html">ID3</a>, <a href="../genes/CCND3.html">CCND3</a>: Most prevalent in IC-BL. CCND3 is more often mutated in EBV-negative BL. ID3 mutation served as a single-gene proxy for IC-BL in the aBL outcome analyses. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/TP53.html">TP53</a>: Enriched in the genetically quiet Q53-BL, but many TP53-mutant BLs sit in other subgroups. More often mutated in EBV-negative BL. Used as a single-gene proxy for Q53-BL in aBL outcome analyses. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/FOXO1.html">FOXO1</a>: Hotspot mutations enriched in DGG-BL. Differentially mutated by EBV status, with a mutation pattern distinct by EBV status, and one of the 2 exceptions to the EBV-negative excess. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/HNRNPU.html">HNRNPU</a>: Novel BL SMG. Mostly truncating and enriched in EBV-positive BL, with lower mRNA in mutant tumors. Mutated in 11% of DGG-BL, the highest of any subgroup, and also mutated in DLBCL. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/SIN3A.html">SIN3A</a>, <a href="../genes/USP7.html">USP7</a>, <a href="../genes/H1-4.html">H1-4</a> (HIST1H1E), <a href="../genes/CHD8.html">CHD8</a>, <a href="../genes/RFX7.html">RFX7</a>: BL SMGs whose role in BL this study further supports. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/TET2.html">TET2</a>: Mutated more in aBL than pBL (10% vs 1.5%) and at similar or higher rates in DLBCL. Features of the DLBCL-C (ST2-like) subgroup. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/ARID1A.html">ARID1A</a>: Mutated more in pBL than aBL (46% vs 26%). <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/SYNCRIP.html">SYNCRIP</a>, <a href="../genes/EZH2.html">EZH2</a>: SMGs mutated at similar or higher rates in DLBCL. <a href="../genes/SYNCRIP.html">SYNCRIP</a> is more often mutated in EBV-negative BL. <a href="../genes/EZH2.html">EZH2</a> mutations mark the EZB-enriched DLBCL-A subgroup, and EZH2 hotspots marked DLBCL-like cases in the Panea et al.&nbsp;cohort. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/MIR17HG.html">MIR17HG</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/FBXO11.html">FBXO11</a>, <a href="../genes/STAT6.html">STAT6</a>, <a href="../genes/PHF6.html">PHF6</a>: More often mutated in EBV-negative BL. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/BCR.html">BCR</a>: Differentially mutated by EBV status, and like FOXO1 an exception to the EBV-negative excess. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/PCBP1.html">PCBP1</a>: Mutation pattern differs by EBV status. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/BACH2.html">BACH2</a>: aSHM near the transcription start site is typical of DGG-BL and DLBCL-C, and BACH2 is an aSHM target enriched in BL vs DLBCL. BACH2 aSHM appeared in DLBCLs assigned to BL clusters. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/TCL1A.html">TCL1A</a>: aSHM target mutated more often in BL than in DLBCL. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/BCL2.html">BCL2</a>, <a href="../genes/SGK1.html">SGK1</a>: <a href="../genes/BCL2.html">BCL2</a> translocations mark DLBCL-A (EZB-enriched), and SGK1/TET2 mutations mark DLBCL-C (ST2-enriched). The Discussion attributes DLBCL-associated BCL2 mutations reported in aBL by another study to BCL2 translocations. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/CREBBP.html">CREBBP</a>: Hotspot mutations described as uncharacteristic of BL that drove DLBCL calls in the Panea et al.&nbsp;BL cohort. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/IRF4.html">IRF4</a>, <a href="../genes/TNFRSF13B.html">TNFRSF13B</a>: Bimodally overexpressed in IC-BL vs DGG-BL, echoing ABC cell of origin. In vitro, only 1 IC-BL cell line (Thomas) was IRF4-dependent. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/SERPINA9.html">SERPINA9</a>: GCB-associated gene downregulated in IC-BL vs DGG-BL. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><a href="../genes/EBF1.html">EBF1</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/LPP.html">LPP</a>, <a href="../genes/MEF2C.html">MEF2C</a>, <a href="../genes/PTPN1.html">PTPN1</a>: The only aSHM sites mutated in BLs that fell in the DLBCL-A subgroup. <a href="../papers/36201743.html">PMID:36201743</a></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Diagnosis:</strong> Genetics may help resolve cases on the BL/DLBCL diagnostic border. Supporting evidence: 6/8 pathology-rejected non-BL cases and 9% of DLBCLs clustered with BL, and the exome random forest classifier separated BL from DLBCL with 93.3% accuracy. The classifier is released in the GAMBLR package. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Central pathology review:</strong> The authors stress its importance. One earlier BL genomic cohort (Panea et al.) appeared enriched for DLBCL-like cases (37.6%), which matters when the differential diagnosis leads to different treatments. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Prognosis in DLBCL:</strong> DLBCLs that the classifier called BL-like in the Schmitz et al.&nbsp;cohort (36/470) had shorter PFS (P = .006). The authors say this warrants study of whether BL-type genetic features make DLBCL more aggressive. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Prognosis in BL:</strong> Subgroup–outcome associations depend on age group. DGG-BL had the worst outcomes in pBL, while ID3 and TP53 mutations were the most significant outcome discriminators in aBL. The direction of the ID3/TP53 effects is in the supplement and not in the extracted text. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Cancer registries:</strong> Because DLBCL is much more common than BL, misclassifying BL as DLBCL or another non-BL lymphoma “threatens the validity of BL patterns from population-based cancer registries”. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Therapeutic target:</strong> IRF4 dependency is nominated as worth exploring for IRF4-dependent (IC-BL-like) BL. The evidence is limited to 1 IRF4-dependent IC-BL cell line (Thomas) in vitro. <a href="../papers/36201743.html">PMID:36201743</a></li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Survival analysis:</strong> It excluded patients from Uganda and Brazil because of missing data and batch effects. BLIPI (50%) and first-line regimen (55%) were often unknown, and outcome was not modeled by regimen. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Small subgroups:</strong> Q53-BL contains only 27 tumors (20 BL), and the HIV-positive DLBCL comparisons are described as low in number. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Classifier scope:</strong> The external validation cohorts had only exome coverage, so the classifier drops noncoding and aSHM features. The Zhou et al.&nbsp;cohort lacked aBL and had few EBV-positive cases. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Reference genomes:</strong> BL was aligned to GRCh38 and DLBCL to GRCh37. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Unresolved biology:</strong> Whether DGG-BL and IC-BL have distinct cells of origin “requires further exploration”. The claim that EBV status matters more than subgroup for aSHM rate rests on “data not shown”. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Cross-study conflict (recorded, not resolved):</strong> This paper’s classifier assigns 37.6% of the Panea et al.&nbsp;BL cohort to DLBCL. The paper also attributes the DLBCL-type (BCL2) mutations that a separate aBL-vs-pBL study reported to BCL2-translocated cases. Neither comparison study is in this corpus. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Relation to DLBCL classifications:</strong> The DLBCL-predominant subgroups only partly resemble Wright et al.’s LymphGen classes (DLBCL-A ~ EZB, DLBCL-C ~ ST2). <a href="../methods/lymphgen.html">LymphGen</a> is not in the corpus as a paper. The reference list also cites Chapuy et al.’s DLBCL molecular subtypes <a href="../papers/29713087.html">PMID:29713087</a>. A reconciliation across DLBCL and BL genetic taxonomies remains open. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li><strong>Sex imbalance in DGG-BL:</strong> It is attributed to X-linked <a href="../genes/DDX3X.html">DDX3X</a> mutation patterns. Whether sex independently affects subgroup biology is not addressed. <a href="../papers/36201743.html">PMID:36201743</a></li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Adult and pediatric BL share a common pathobiology with Epstein-Barr virus, influencing the genetic and molecular profiles in both entities.” (Key Points) <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>“BL can be robustly divided into 3 genetic subgroups with distinct molecular underpinnings.” (Key Points) <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>“DGG-BL (DDX3X, GNA13, and GNAI2), IC-BL (ID3 and CCND3), and Q53-BL (quiet TP53).” (Abstract) <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>“We detected MYC translocations in 214 (93%) samples … with an immunoglobulin heavy chain (IGH)-MYC translocation in 170 (79%) of these and 16 (7%) involving immunoglobulin light chain kappa (<a href="../genes/IGK.html">IGK</a>) or 26 (12%) with <a href="../genes/IGL.html">IGL</a>.” (Results) <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>“<a href="../genes/ARID1A.html">ARID1A</a> was mutated more in pBL (46% vs 26%), and <a href="../genes/TET2.html">TET2</a> had more mutations in aBL (10% vs 1.5%) … This further implies that EBV, rather than patient age, underlies more molecular differences within BL.” (Results) <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>“The resulting classifier had 93.3% accuracy, 94.1% sensitivity, and 92.7% specificity overall in distinguishing BL from DLBCL.” (Results) <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>“Within the aBL cases, we found the most significant differences in patient outcomes to arise when ID3 and TP53 mutations were used as alternative single-gene approximation for IC-BL and Q53-BL … However, in pBL, we found DGG-BL had the most inferior outcomes.” (Results) <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>“IRF4 and TNFRSF13B, which inform on ABC COO in DLBCL, are significantly overexpressed in IC-BL compared with DGG-BL subgroup.” (Discussion) <a href="../papers/36201743.html">PMID:36201743</a></li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36201743.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36201743.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

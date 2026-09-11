@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -195,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>A fixed four-feature CT radiomic signature (Statistics Energy, Shape Compactness, Grey Level Nonuniformity, wavelet Grey Level Nonuniformity HLH) trained on 422 curative-intent NSCLC patients (Lung1/MAASTRO) generalized without retraining to independent NSCLC (Lung2, CI=0.65, P=2.91×10⁻⁹), HNSCC (H&amp;N1, CI=0.69; H&amp;N2, CI=0.69), and retained performance in HPV-negative HNSCC (CI=0.66) and within both radiation-only and concurrent chemoradiation subgroups <a href="../papers/24892406.html">PMID:24892406</a>.</li>
 <li>Two of the four Aerts signature features (intratumour-heterogeneity descriptors Grey Level Nonuniformity and wavelet Grey Level Nonuniformity HLH) were significantly correlated with cell-cycling/proliferation gene sets by GSEA on the 89-patient Lung3 NSCLC radiogenomics cohort, providing an initial biological anchor for CT-derived heterogeneity <a href="../papers/24892406.html">PMID:24892406</a>.</li>
-<li>In a crowdsourced benchmark on 2,552 Princess Margaret HNSCC patients (RADCURE training cohort) with external validation on 873 patients (HN1 MAASTRO, MDACC, GPCCHN Poznań), the best-performing 2-year <a href="../cancer_types/OS.html">OS</a> model was a multitask logistic regression over EMR features (age, T/N/overall stage, disease site, performance status, HPV status, dose, systemic therapy) plus primary tumor volume (AUROC=0.823, C-index=0.801); no radiomics-only model beat any EMR-only model, and replacing tumor volume with a deep-CNN image embedding lowered AUROC from 0.823 to 0.766 <a href="../papers/37397861.html">PMID:37397861</a>.</li>
+<li>In a crowdsourced benchmark on 2,552 Princess Margaret HNSCC patients (RADCURE training cohort) with external validation on 873 patients (HN1 MAASTRO, MDACC, GPCCHN Poznań), the best-performing 2-year OS model was a multitask logistic regression over EMR features (age, T/N/overall stage, disease site, performance status, HPV status, dose, systemic therapy) plus primary tumor volume (AUROC=0.823, C-index=0.801); no radiomics-only model beat any EMR-only model, and replacing tumor volume with a deep-CNN image embedding lowered AUROC from 0.823 to 0.766 <a href="../papers/37397861.html">PMID:37397861</a>.</li>
 <li>The RADCURE dataset (3,346 HNSCC planning CTs with manual target and 19 organ-at-risk contours, standardized RT-STRUCT nomenclature, median 5-year follow-up, 60% surviving) is now the largest public resource for head-and-neck RT modelling <a href="../papers/38362943.html">PMID:38362943</a>.</li>
 <li>The TCIA HNSCC collection from MD Anderson (215 patients, 433,384 DICOM files, full RTPLAN/RTSTRUCT/RTDOSE, paired pre- and post-RT PET-CT, L3 skeletal-muscle/adipose body-composition measures) is the first publicly shared HNSCC RT archive that supports body composition as either a risk factor or endpoint <a href="../papers/30179230.html">PMID:30179230</a>.</li>
 <li>The NSCLC Radiogenomics Stanford dataset pairs preoperative CT/FDG-PET in 211 surgical NSCLC patients with EGFR/KRAS/ALK clinical calls and RNA-seq (n=130) or Illumina HT-12 microarrays (n=26), explicitly designed to support CT-to-molecular biomarker discovery <a href="../papers/30325352.html">PMID:30325352</a>.</li>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -187,33 +190,36 @@ ul.task-list li input[type="checkbox"] {
 <li>Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) <a href="../papers/22820256.html">PMID:22820256</a></li>
 <li>Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) <a href="../papers/22832583.html">PMID:22832583</a></li>
 <li>Chromatin-modifying gene recurrently altered in <a href="../cancer_types/AML.html">AML</a>; part of the epigenetic modifier category alongside <a href="../genes/EZH2.html">EZH2</a>, <a href="../genes/KMT2A.html">KMT2A</a>, and <a href="../genes/KMT2C.html">KMT2C</a> in the TCGA <a href="../cancer_types/AML.html">AML</a> cohort <a href="../papers/23634996.html">PMID:23634996</a></li>
-<li>Missense mutation in 7% of ACC samples; loss of H3K27me3 demethylase activity confirmed in vitro; identified as a CHASM driver in ACC <a href="../papers/23685749.html">PMID:23685749</a></li>
+<li>Missense mutation in 7% of <a href="../cancer_types/ACC.html">ACC</a> samples; loss of H3K27me3 demethylase activity confirmed in vitro; identified as a CHASM driver in ACC <a href="../papers/23685749.html">PMID:23685749</a></li>
 <li>Mutated in adenoid cystic carcinoma (ACC); part of a cluster of chromatin-remodeling genes collectively mutated in 12/24 ACC cases <a href="../papers/23778141.html">PMID:23778141</a></li>
 <li>Histone demethylase KDM6A/UTY mutated in 30% of transitional cell carcinoma (<a href="../cancer_types/BLCA.html">BLCA</a>) bladder tumors, the highest-frequency chromatin-remodeler alteration in the 99-tumor Chinese TCC cohort <a href="../papers/24121792.html">PMID:24121792</a></li>
-<li>KDM6A mutated in 2/21 (9%) of sinonasal adenoid cystic carcinoma cases with frameshift and splice-site variants (c.2172_2173del + c.618-619+2del in one case; c.64del in a second case) <a href="../papers/24418857.html">PMID:24418857</a></li>
+<li>KDM6A mutated in 2/21 (9%) of sinonasal adenoid cystic carcinoma cases with frameshift and splice-site variants (c.2172_2173del + c.618-619+2del in one case; c.64del in a second case) <a href="../papers/39760648.html">PMID:39760648</a></li>
 <li>KDM6A (H3K27 demethylase) mutated in 24% of muscle-invasive bladder cancers; mutually exclusive with <a href="../genes/KMT2D.html">KMT2D</a>; part of the chromatin regulator mutation landscape affecting 76% of bladder tumors <a href="../papers/24476821.html">PMID:24476821</a></li>
 <li>KDM6A (histone demethylase) is recurrently mutated in <a href="../cancer_types/ESCC.html">ESCC</a>, contributing to epigenetic dysregulation as part of the chromatin-remodeling alteration pathway <a href="../papers/24686850.html">PMID:24686850</a></li>
 <li>Truncating mutations in 41% of muscle-invasive bladder cancer tumours (MSKCC cohort, n=109); not independently associated with recurrence-free or cancer-specific survival in this cohort <a href="../papers/25092538.html">PMID:25092538</a></li>
 <li>Significantly mutated across muscle-invasive urothelial carcinoma cohort by MutSigCV; not differentially enriched between <a href="../drugs/cisplatin.html">cisplatin</a> responders and non-responders <a href="../papers/25096233.html">PMID:25096233</a></li>
 <li>Chromatin-modifying gene mutated in upper tract urothelial carcinoma (<a href="../cancer_types/UTUC.html">UTUC</a>); mutations common in both low- and high-grade <a href="../cancer_types/UTUC.html">UTUC</a> and concordant across spatial tumor components, suggesting early/clonal events <a href="../papers/26278805.html">PMID:26278805</a></li>
 <li>Truncating chromatin-modifier mutations in primary prostate cancer; enriched in the 26% unclassified genomic subset with high SCNA burden <a href="../papers/26544944.html">PMID:26544944</a></li>
-<li>Added to the significantly-mutated gene list in periampullary tumors by an inactivation-bias statistical test (alongside PBRM1 and RECQL4); recurrently inactivated across ampullary, duodenal, and distal bile-duct adenocarcinoma cohort (n=160) <a href="../papers/26804919.html">PMID:26804919</a></li>
-<li>Recurrent chromatin-regulator mutation in adenoid cystic carcinoma (ACC; n=25 WGS); co-occurs with KMT2C, KMT2D, and SMARCA2/SMARCC1 mutations, consistent with a broader chromatin-remodeling axis in ACC pathogenesis <a href="../papers/26862087.html">PMID:26862087</a></li>
-<li>Significantly mutated in lung SqCC but not other cancer types (excluding HNSC, BLCA) in the TCGA pan-lung cohort <a href="../papers/27158780.html">PMID:27158780</a></li>
+<li>Added to the significantly-mutated gene list in periampullary tumors by an inactivation-bias statistical test (alongside <a href="../genes/PBRM1.html">PBRM1</a> and <a href="../genes/RECQL4.html">RECQL4</a>); recurrently inactivated across ampullary, duodenal, and distal bile-duct adenocarcinoma cohort (n=160) <a href="../papers/26804919.html">PMID:26804919</a></li>
+<li>Recurrent chromatin-regulator mutation in adenoid cystic carcinoma (ACC; n=25 WGS); co-occurs with <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/KMT2D.html">KMT2D</a>, and SMARCA2/SMARCC1 mutations, consistent with a broader chromatin-remodeling axis in ACC pathogenesis <a href="../papers/26862087.html">PMID:26862087</a></li>
+<li>Significantly mutated in lung SqCC but not other cancer types (excluding <a href="../cancer_types/HNSC.html">HNSC</a>, <a href="../cancer_types/BLCA.html">BLCA</a>) in the TCGA pan-lung cohort <a href="../papers/27158780.html">PMID:27158780</a></li>
 <li>Mut-driver in breast cancer; well-known driver in other cancer types suggesting cross-cancer drug repurposing potential <a href="../papers/27161491.html">PMID:27161491</a></li>
-<li>KDM6A M997fs frameshift identified in pediatric medulloblastoma (MBL) as a prognostic marker for risk-stratification into group 4 <a href="../papers/28007021.html">PMID:28007021</a>.</li>
-<li>KDM6A (UTX) histone-modifier alterations frequent in esophageal squamous cell carcinoma (ESCC), especially in the ESCC2 molecular subtype; co-altered with KMT2D and KMT2C <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li>KDM6A M997fs frameshift identified in pediatric medulloblastoma (<a href="../cancer_types/MBL.html">MBL</a>) as a prognostic marker for risk-stratification into group 4 <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li>KDM6A (UTX) histone-modifier alterations frequent in esophageal squamous cell carcinoma (<a href="../cancer_types/ESCC.html">ESCC</a>), especially in the ESCC2 molecular subtype; co-altered with KMT2D and KMT2C <a href="../papers/28052061.html">PMID:28052061</a>.</li>
 <li>Q1037 missense mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases <a href="../papers/28472509.html">PMID:28472509</a></li>
 <li>Most commonly altered chromatin-modifying gene in non-muscle-invasive bladder cancer (NMIBC), mutated in 38% of cases <a href="../papers/28583311.html">PMID:28583311</a></li>
-<li>Recurrent histone-methylation-modifier mutations in medulloblastoma; KDM6A especially enriched in methylation subtype VIII alongside ZMYM3 <a href="../papers/28726821.html">PMID:28726821</a></li>
-<li>Histone demethylase SMG in MIBC (n=412); recurrent inactivating mutations plus 4.9% focal deletions; loss implicates BRD4-EZH2 signaling dependence and sensitivity to JQ1 and EZH2 inhibition; also a MutCN cluster definer. <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li>KDM6A is among the epigenetic regulators (ARID1A, KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines in the Columbia/MSK biobank <a href="../papers/29625057.html">PMID:29625057</a></li>
-<li>KDM6A is recurrently mutated in upper tract urothelial carcinoma (UTUC) at a frequency not significantly different from TCGA muscle-invasive bladder cancer, confirming shared chromatin-modifier landscape <a href="../papers/31278255.html">PMID:31278255</a>.</li>
+<li>Recurrent histone-methylation-modifier mutations in medulloblastoma; KDM6A especially enriched in methylation subtype VIII alongside <a href="../genes/ZMYM3.html">ZMYM3</a> <a href="../papers/28726821.html">PMID:28726821</a></li>
+<li>Histone demethylase SMG in MIBC (n=412); recurrent inactivating mutations plus 4.9% focal deletions; loss implicates BRD4-EZH2 signaling dependence and sensitivity to JQ1 and <a href="../genes/EZH2.html">EZH2</a> inhibition; also a MutCN cluster definer. <a href="../papers/28988769.html">PMID:28988769</a></li>
+<li>KDM6A is among the epigenetic regulators (<a href="../genes/ARID1A.html">ARID1A</a>, KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines in the Columbia/MSK biobank <a href="../papers/29625057.html">PMID:29625057</a></li>
+<li>KDM6A is recurrently mutated in upper tract urothelial carcinoma (<a href="../cancer_types/UTUC.html">UTUC</a>) at a frequency not significantly different from TCGA muscle-invasive bladder cancer, confirming shared chromatin-modifier landscape <a href="../papers/31278255.html">PMID:31278255</a>.</li>
 <li>Most-enriched chromatin-remodeling gene in R/M adenoid cystic carcinoma (15.2% R/M vs.&nbsp;3.4% primary, OR 5.12); KDM6A-mutant cases had significantly worse OS (median 48.5 vs.&nbsp;169.3 months, P=1.32×10⁻³) <a href="../papers/31483290.html">PMID:31483290</a>.</li>
-<li>KDM6A mutated in 38% of 119 upper tract urothelial carcinoma (UTUC) patients by MSK-IMPACT, making it the second most common alteration after FGFR3 (47–48%); KDM6A mutations were enriched in chromatin-remodeling gene co-alterations including KMT2D, ARID1A, CREBBP, and STAG2 <a href="../papers/32332851.html">PMID:32332851</a></li>
-<li>Mutated in 27% of WES UTUC cases (FDR=1.03×10⁻³); co-occurs with ZFP36L1 (LOR=3.1, P=0.03) in upper tract urothelial carcinoma. <a href="../papers/33397444.html">PMID:33397444</a></li>
+<li>KDM6A mutated in 38% of 119 upper tract urothelial carcinoma (UTUC) patients by MSK-IMPACT, making it the second most common alteration after <a href="../genes/FGFR3.html">FGFR3</a> (47–48%); KDM6A mutations were enriched in chromatin-remodeling gene co-alterations including KMT2D, ARID1A, <a href="../genes/CREBBP.html">CREBBP</a>, and <a href="../genes/STAG2.html">STAG2</a> <a href="../papers/32332851.html">PMID:32332851</a></li>
+<li>Mutated in 27% of WES UTUC cases (FDR=1.03×10⁻³); co-occurs with <a href="../genes/ZFP36L1.html">ZFP36L1</a> (LOR=3.1, P=0.03) in upper tract urothelial carcinoma. <a href="../papers/33397444.html">PMID:33397444</a></li>
 <li>Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction) in a 60-case multi-institutional cohort <a href="../papers/33863915.html">PMID:33863915</a></li>
 <li>Structural deletion (DEL) detected by LINX/PURPLE SV analysis in the WGS cohort of 25 regional metastatic <a href="../cancer_types/CSCC.html">CSCC</a> samples <a href="../papers/35982973.html">PMID:35982973</a></li>
+<li>One of several epigenetic modifiers (with <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/BCOR.html">BCOR</a>, <a href="../genes/PHF6.html">PHF6</a>) differentially enriched between HOXA and HOXB expression groups in pediatric <a href="../cancer_types/AML.html">AML</a> <a href="../papers/38212634.html">PMID:38212634</a>.</li>
+<li>KDM6A was altered in at least 10% of bladder cancer specimens (S1314 cohort), among the genes most frequently mutated after <a href="../genes/TERT.html">TERT</a> promoter and <a href="../genes/TP53.html">TP53</a> <a href="../papers/39499893.html">PMID:39499893</a>.</li>
+<li>KDM6A was altered in 23.2% of upper tract urothelial carcinomas in the MSK100 cohort, the fourth most frequently altered gene after FGFR3, TERT and KMT2D <a href="../papers/39550333.html">PMID:39550333</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -261,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/23685749.html">PMID:23685749</a></p></li>
 <li><p><a href="../papers/23778141.html">PMID:23778141</a></p></li>
 <li><p><a href="../papers/24121792.html">PMID:24121792</a></p></li>
-<li><p><a href="../papers/24418857.html">PMID:24418857</a></p></li>
+<li><p><a href="../papers/39760648.html">PMID:39760648</a></p></li>
 <li><p><a href="../papers/24476821.html">PMID:24476821</a></p></li>
 <li><p><a href="../papers/24686850.html">PMID:24686850</a></p></li>
 <li><p><a href="../papers/25092538.html">PMID:25092538</a></p></li>
@@ -285,8 +291,11 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/33397444.html">PMID:33397444</a></p></li>
 <li><p><a href="../papers/33863915.html">PMID:33863915</a></p></li>
 <li><p><a href="../papers/35982973.html">PMID:35982973</a></p></li>
+<li><p><a href="../papers/38212634.html">PMID:38212634</a></p></li>
+<li><p><a href="../papers/39499893.html">PMID:39499893</a></p></li>
+<li><p><a href="../papers/39550333.html">PMID:39550333</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

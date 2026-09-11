@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -230,11 +233,11 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Biallelic inactivation.</strong> Putative CDK12-biallelic inactivation: 61/84 (73%) prostate, 26/28 (93%) ovarian. In prostate, the dominant biallelic mechanism was multiple concurrent CDK12 mutations (49/61; 75%); in ovarian, it was LOH (20/26; 77%).</li>
 <li><strong>Clonality.</strong> CDK12 mutations were more frequently clonal than other mutations in both prostate (105/116; 91% vs 140/196; 71%; p &lt; 0.001) and ovarian cancer (26/30; 87% vs 82/130; 63%; p = 0.016).</li>
 <li><strong>Temporal stability.</strong> Of 14 prostate patients with longitudinal tumor sequencing, 13 showed shared CDK12 alterations across matched tumors (one outlier had a CDK12 rearrangement prone to hybrid-capture false negatives), with one patient followed up to 7.8 yr. CDK12-Bi frequency did not differ between primary (34/48; 70%) and metastatic (27/36; 75%) tumors — suggesting CDK12 alteration is an early event.</li>
-<li><strong>Genomic architecture.</strong> TMB and overall <a href="../genes/FGA.html">FGA</a> were similar across CDK12-WT/Mono/Bi groups, but CDK12-Bi prostate cancer had a higher fraction of genome gain, a higher number of breakpoints, and smaller median copy-number-altered segments — consistent with a tandem duplicator phenotype. 13% of the evaluated genome was differentially altered between CDK12-WT and CDK12-Bi.</li>
+<li><strong>Genomic architecture.</strong> TMB and overall FGA were similar across CDK12-WT/Mono/Bi groups, but CDK12-Bi prostate cancer had a higher fraction of genome gain, a higher number of breakpoints, and smaller median copy-number-altered segments — consistent with a tandem duplicator phenotype. 13% of the evaluated genome was differentially altered between CDK12-WT and CDK12-Bi.</li>
 <li><strong>Differential oncogenic alterations (CDK12-Bi vs CDK12-WT; FDR &lt; 0.05).</strong> More frequent in CDK12-Bi: <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/MCL1.html">MCL1</a>, <a href="../genes/MYC.html">MYC</a> amplifications; <a href="../genes/FANCA.html">FANCA</a> loss; <a href="../genes/FOXA1.html">FOXA1</a> mutations. Less frequent in CDK12-Bi: <a href="../genes/TP53.html">TP53</a> mutations and <a href="../genes/TMPRSS2.html">TMPRSS2</a>–<a href="../genes/ERG.html">ERG</a> fusions. 11q13.3 amplification (which spans <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/FGF19.html">FGF19</a>, <a href="../genes/FGF4.html">FGF4</a>, <a href="../genes/FGF3.html">FGF3</a>) was enriched in CDK12-Bi tumors.</li>
 <li><strong>Pathway-level alterations.</strong> Cell-cycle pathway was more frequently altered in CDK12-Bi vs CDK12-WT; p53, PI-3-Kinase/Akt, and β-catenin/Wnt pathway alterations were less frequent in CDK12-Bi.</li>
 <li><strong>Clinical features.</strong> CDK12-altered prostate cancer patients had higher rates of de novo metastatic disease (40% vs 26%), higher median PSA at diagnosis (14.8 vs 9.0 ng/mL), and higher Gleason ≥8 (80% vs 57%). Patients with CDK12-Bi had the worst baseline characteristics.</li>
-<li><strong>Overall survival.</strong> From metastatic diagnosis, CDK12-altered patients had shorter median <a href="../cancer_types/OS.html">OS</a> (64.4 vs 74.9 mo); aHR 1.80 (95% CI 1.12–2.89; p = 0.024) after adjusting for age, Gleason ≥8, PSA, visceral metastasis, de novo metastatic status, and FGA.</li>
+<li><strong>Overall survival.</strong> From metastatic diagnosis, CDK12-altered patients had shorter median OS (64.4 vs 74.9 mo); aHR 1.80 (95% CI 1.12–2.89; p = 0.024) after adjusting for age, Gleason ≥8, PSA, visceral metastasis, de novo metastatic status, and FGA.</li>
 <li><strong>Time to castration resistance.</strong> CDK12-altered patients reached castration resistance faster (median 10.8 vs 13.1 mo; aHR 1.49, 95% CI 1.09–2.03; p = 0.017; 522 total events).</li>
 <li><strong>Time on first-line CRPC therapy.</strong> No significant difference between CDK12-altered and CDK12-WT patients on first-line <a href="../drugs/abiraterone.html">abiraterone</a> or <a href="../drugs/enzalutamide.html">enzalutamide</a>: median 9.7 vs 8.7 mo (aHR 1.08, 95% CI 0.57–1.51; p = 0.8).</li>
 </ul>

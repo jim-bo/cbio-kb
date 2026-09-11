@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -183,8 +186,8 @@ ul.task-list li input[type="checkbox"] {
 <li>CDH1 expression and pharmacogenomic associations analyzed in NCI-60 cell line panel via CellMiner <a href="../papers/22802077.html">PMID:22802077</a></li>
 <li>Mutated in breast cancer (TCGA, 510 tumors); CDH1 truncating mutations highly enriched in lobular breast carcinoma (luminal A subtype), causing loss of E-cadherin expression and epithelial-mesenchymal transition <a href="../papers/23000897.html">PMID:23000897</a></li>
 <li>Mutated in <a href="../cancer_types/EAC.html">EAC</a>; co-occurs with <a href="../genes/APC.html">APC</a> mutations (two tumors with co-occurring <a href="../genes/APC.html">APC</a> + CDH1) in the beta-catenin pathway, which is altered in only 9% of EACs <a href="../papers/23525077.html">PMID:23525077</a></li>
-<li>Germline loss-of-function defines Hereditary Diffuse Gastric Cancer (HDGC); in mutation-negative HDGC-like families ~17% of tumors show somatic CDH1 promoter hypermethylation and ~9% LOH; standard multigene GC panel includes CDH1 <a href="../papers/24816255.html">PMID:24816255</a></li>
-<li>Downregulated (E-cadherin loss) in <a href="../cancer_types/GBC.html">GBC</a> cells as an EMT readout downstream of paracrine <a href="../genes/SEMA7A.html">SEMA7A</a> signaling from stiff-matrix-activated CAFs; E-cadherin restored by <a href="../genes/SEMA7A.html">SEMA7A</a> knockdown in GFs in co-injection xenografts <a href="../papers/24997986.html">PMID:24997986</a></li>
+<li>Germline loss-of-function defines Hereditary Diffuse Gastric Cancer (HDGC); in mutation-negative HDGC-like families ~17% of tumors show somatic CDH1 promoter hypermethylation and ~9% LOH; standard multigene GC panel includes CDH1 <a href="../papers/41097736.html">PMID:41097736</a></li>
+<li>Downregulated (E-cadherin loss) in <a href="../cancer_types/GBC.html">GBC</a> cells as an EMT readout downstream of paracrine <a href="../genes/SEMA7A.html">SEMA7A</a> signaling from stiff-matrix-activated CAFs; E-cadherin restored by <a href="../genes/SEMA7A.html">SEMA7A</a> knockdown in GFs in co-injection xenografts <a href="../papers/40830485.html">PMID:40830485</a></li>
 <li>Somatic mutations in 11% of gastric adenocarcinoma overall and 26-37% of GS tumours; no germline-pathogenic CDH1 variants identified in this sporadic cohort <a href="../papers/25079317.html">PMID:25079317</a></li>
 <li>Somatic mutations in 21/294 (7.1%) gastric cancer cases; enriched in diffuse-type and cardia tumors; LoF events common; associated with shorter survival; cardia GCs are enriched for CDH1, connecting to the diffuse-type/poor-prognosis axis <a href="../papers/25583476.html">PMID:25583476</a></li>
 <li>Subclonal mutation in breast adenoid cystic carcinoma (AdCC); identified as a non-passenger subclonal event suggesting it may contribute to clonal evolution and therapeutic escape <a href="../papers/26095796.html">PMID:26095796</a></li>
@@ -202,6 +205,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Mutations negatively correlated with metastatic burden in lobular breast cancer in the MSK-MET pan-cancer cohort (25,775 patients) <a href="../papers/35120664.html">PMID:35120664</a></li>
 <li>Epithelial marker E-cadherin protein reduced in CTNNB1-mutant HCCs (n=51 proteome samples), consistent with loss of epithelial polarity driven by Wnt-mediated actin-cytoskeletal remodeling <a href="../papers/35508466.html">PMID:35508466</a></li>
 <li>CDH1 listed among recurrently altered genes in the OncoMark Chinese solid-tumor cohort (n=2,396 patients); altered in <a href="../cancer_types/BRCA.html">BRCA</a> and gastric cancer contexts <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>CDH1 is the hallmark invasive lobular carcinoma gene: in a 364-case screen, 86.3% had bi-allelic, 6.9% mono-allelic and 6.9% no genetic CDH1 inactivation; 10/16 genetically wild-type cases had promoter methylation, and CDH1 knockdown in MCF7 caused anoikis resistance and increased migration <a href="../papers/38347189.html">PMID:38347189</a>.</li>
+<li>CDH1 oncogenic mutations were enriched (alongside <a href="../genes/NF1.html">NF1</a> and <a href="../genes/KMT2C.html">KMT2C</a>) in metastatic/post-treatment HR+/HER2- APOBEC3-dominant breast tumors <a href="../papers/40379787.html">PMID:40379787</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -233,34 +238,35 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/37699004.html">PMID:37699004</a></li>
 <li><a href="../papers/20601955.html">PMID:20601955</a></li>
+<li><a href="../papers/21798893.html">PMID:21798893</a></li>
+<li><a href="../papers/22722201.html">PMID:22722201</a></li>
+<li><a href="../papers/22722829.html">PMID:22722829</a></li>
+<li><a href="../papers/22802077.html">PMID:22802077</a></li>
+<li><a href="../papers/23000897.html">PMID:23000897</a></li>
+<li><a href="../papers/23525077.html">PMID:23525077</a></li>
+<li><a href="../papers/41097736.html">PMID:41097736</a></li>
+<li><a href="../papers/40830485.html">PMID:40830485</a></li>
+<li><a href="../papers/25079317.html">PMID:25079317</a></li>
+<li><a href="../papers/25583476.html">PMID:25583476</a></li>
+<li><a href="../papers/26095796.html">PMID:26095796</a></li>
+<li><a href="../papers/26451490.html">PMID:26451490</a></li>
+<li><a href="../papers/26901067.html">PMID:26901067</a></li>
+<li><a href="../papers/26997480.html">PMID:26997480</a></li>
+<li><a href="../papers/27161491.html">PMID:27161491</a></li>
+<li><a href="../papers/28027327.html">PMID:28027327</a></li>
+<li><a href="../papers/28052061.html">PMID:28052061</a></li>
+<li><a href="../papers/28988769.html">PMID:28988769</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/29625049.html">PMID:29625049</a></li>
+<li><a href="../papers/29713003.html">PMID:29713003</a></li>
+<li><a href="../papers/30205045.html">PMID:30205045</a></li>
+<li><a href="../papers/35120664.html">PMID:35120664</a></li>
+<li><a href="../papers/35508466.html">PMID:35508466</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
+<li><a href="../papers/38347189.html">PMID:38347189</a></li>
+<li><a href="../papers/40379787.html">PMID:40379787</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/21798893.html">PMID:21798893</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22722201.html">PMID:22722201</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22722829.html">PMID:22722829</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22802077.html">PMID:22802077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23000897.html">PMID:23000897</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23525077.html">PMID:23525077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24816255.html">PMID:24816255</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24997986.html">PMID:24997986</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25079317.html">PMID:25079317</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26095796.html">PMID:26095796</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26451490.html">PMID:26451490</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26997480.html">PMID:26997480</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28052061.html">PMID:28052061</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713003.html">PMID:29713003</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35120664.html">PMID:35120664</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35508466.html">PMID:35508466</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

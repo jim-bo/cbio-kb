@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,8 +177,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/38780927.html">PMID:38780927</a> — serial multiparameter flow cytometry of PBMCs from 51 patients on NCT03521570 at baseline, before each <a href="../drugs/nivolumab.html">nivolumab</a> infusion during radiation, and at weeks 18, 30, 52, and 104; panel included <a href="../genes/CD4.html">CD4</a>+, CD8+, <a href="../genes/FOXP3.html">FOXP3</a>+, PD-1+ (<a href="../genes/PDCD1.html">PDCD1</a>), and Ki-67+ (<a href="../genes/MKI67.html">MKI67</a>) T-cell subsets. A ≥1.5-fold increase in PD-1+Ki-67+<a href="../genes/CD4.html">CD4</a>+ T cells at week 2 or 4 trended toward worse PFS (HR 2.09, 95% CI 0.77–5.66, P = .14), contrary to analogous findings in lung cancer and melanoma <a href="../papers/38780927.html">PMID:38780927</a>.</li>
 <li><a href="../papers/41941260.html">PMID:41941260</a> — plasma immune profiling by flow cytometry is listed among the biospecimen assays in the ROBIN consortium Molecular Characterization Trials (MCTs), specifically in the OligoMET and ImmunoRad centers, for longitudinal immune monitoring of patients undergoing radiation therapy; used alongside scRNA-seq of PBMCs and T-cell receptor repertoire sequencing to characterize systemic immune responses pre- and post-RT <a href="../papers/41941260.html">PMID:41941260</a>.</li>
-<li>Multiparameter flow cytometry used for immune cell phenotyping in proteogenomic study of ovarian cancer <a href="../papers/26200345.html">PMID:26200345</a></li>
-<li>Used to characterize immune cell populations in AAV-CRISPR-edited rat mammary tumors; quantified adaptive and innate immune infiltration across six genotype groups, complementing scRNA-seq UMAP analysis showing genotype-driven macrophage vs neutrophil dichotomy <a href="../papers/26437033.html">PMID:26437033</a></li>
+<li>Multiparameter flow cytometry used for immune cell phenotyping in proteogenomic study of ovarian cancer <a href="../papers/40694421.html">PMID:40694421</a></li>
+<li>Used to characterize immune cell populations in AAV-CRISPR-edited rat mammary tumors; quantified adaptive and innate immune infiltration across six genotype groups, complementing scRNA-seq UMAP analysis showing genotype-driven macrophage vs neutrophil dichotomy <a href="../papers/41000773.html">PMID:41000773</a></li>
+<li>Peripheral Tregs (CD45+/FoxP3+/CD4+/CD127-/lo) were quantified by flow cytometry at three time points around cyclophosphamide/pembrolizumab dosing <a href="../papers/35121644.html">PMID:35121644</a>.</li>
+<li>28-color flow cytometry (BD Symphony A5) profiled PBMCs alongside CyTOF in a pancreatic cancer trial of chemo plus/minus <a href="../drugs/nivolumab.html">nivolumab</a> and the CD40 agonist <a href="../drugs/sotigalimab.html">sotigalimab</a> <a href="../papers/35662283.html">PMID:35662283</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -191,10 +196,12 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/38780927.html">PMID:38780927</a></li>
 <li><a href="../papers/41941260.html">PMID:41941260</a></li>
+<li><a href="../papers/40694421.html">PMID:40694421</a></li>
+<li><a href="../papers/41000773.html">PMID:41000773</a></li>
+<li><a href="../papers/35121644.html">PMID:35121644</a></li>
+<li><a href="../papers/35662283.html">PMID:35662283</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26200345.html">PMID:26200345</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26437033.html">PMID:26437033</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

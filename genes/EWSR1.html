@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,13 +179,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>EWSR1(exon 8)::<a href="../genes/KLF15.html">KLF15</a>(exon 2) fusion in a myoepithelial carcinoma (MEC2); confirmed by RNA-seq and FISH <a href="../papers/36577525.html">PMID:36577525</a></li>
-<li>EWSR1 serves as a noncanonical <a href="../genes/MYB.html">MYB</a> fusion partner (EWSR1ex6::MYBex2 in-frame) in 1 metatypical sinonasal adenoid cystic carcinoma of the sphenoid sinus; FISH break-apart detected EWSR1 rearrangement in 1 additional fusion-negative case <a href="../papers/24418857.html">PMID:24418857</a></li>
-<li>EWSR1::<a href="../genes/FLI1.html">FLI1</a> fusion expressed at low levels in human embryonic mesenchymal stem cells (heMSCs) is the sole genetic event required to induce an Ewing sarcoma–like transcriptome, DDR defect, and metastatic tumor formation; binds intronic CA microsatellites in the cell-of-origin context <a href="../papers/25186949.html">PMID:25186949</a></li>
+<li>EWSR1 serves as a noncanonical <a href="../genes/MYB.html">MYB</a> fusion partner (EWSR1ex6::MYBex2 in-frame) in 1 metatypical sinonasal adenoid cystic carcinoma of the sphenoid sinus; FISH break-apart detected EWSR1 rearrangement in 1 additional fusion-negative case <a href="../papers/39760648.html">PMID:39760648</a></li>
+<li>EWSR1::<a href="../genes/FLI1.html">FLI1</a> fusion expressed at low levels in human embryonic mesenchymal stem cells (heMSCs) is the sole genetic event required to induce an Ewing sarcoma–like transcriptome, DDR defect, and metastatic tumor formation; binds intronic CA microsatellites in the cell-of-origin context <a href="../papers/41136396.html">PMID:41136396</a></li>
 <li>Obligate fusion partner in all Ewing sarcoma tumors: EWSR1-FLI1 in 101/112 cases, EWSR1-ERG in 9, EWSR1-ETV1 in 1; two additional somatic missense mutations observed <a href="../papers/25223734.html">PMID:25223734</a></li>
 <li>Identified as an RNA processing and export driver in CLL; grouped with <a href="../genes/XPO4.html">XPO4</a> and <a href="../genes/NXF1.html">NXF1</a> in a WES study of 538 CLL patients <a href="../papers/26466571.html">PMID:26466571</a></li>
 <li>EWSR1-FLI1 fusion identified in an odontogenic case, reclassifying it as Ewing sarcoma (<a href="../cancer_types/ES.html">ES</a>) with epithelial differentiation; EWSR1-ATF1 fusion identified in a clear cell odontogenic carcinoma (<a href="../cancer_types/CCOC.html">CCOC</a>), a novel finding in odontogenic tumors <a href="../papers/27442865.html">PMID:27442865</a></li>
 <li>EWSR1–<a href="../genes/FLI1.html">FLI1</a> fusion diagnostic of Ewing sarcoma (<a href="../cancer_types/ES.html">ES</a>) in two pediatric patients in the PIPseq cohort; one <a href="../cancer_types/ES.html">ES</a> patient additionally showed a poor-prognosis transcriptomic signature (low PAX8/FHIT/CASP10/CHD2, high CHD11/FUS/MTA1); EWSR1–<a href="../genes/WT1.html">WT1</a> fusion diagnostic of desmoplastic small round cell tumor (<a href="../cancer_types/DSRCT.html">DSRCT</a>) in a separate patient <a href="../papers/28007021.html">PMID:28007021</a>.</li>
-<li>EWSR1 fusions (including EWSR1-FLI1 and EWSR1-FUS rearrangements) were characterized as hallmark oncogenic drivers in Ewing sarcoma <a href="../papers/28199314.html">PMID:28199314</a></li>
+<li>EWSR1 fusions (including EWSR1-FLI1 and EWSR1-FUS rearrangements) were characterized as hallmark oncogenic drivers in Ewing sarcoma <a href="../papers/41102727.html">PMID:41102727</a></li>
 <li>EWSR1-FLI1 fusion detected in n=25 Ewing sarcoma (<a href="../cancer_types/ES.html">ES</a>) cases within the MSK-IMPACT pan-cancer cohort of 10,336 patients <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>EWSR1 is among the fusion genes catalogued in the TCGA pan-cancer fusion landscape analysis (9,624 samples, 33 cancer types); EWSR1 fusions, recurrently associated with <a href="../cancer_types/SARC.html">SARC</a> and other sarcomas, are part of the comprehensive fusion compendium generated by this study <a href="../papers/29617662.html">PMID:29617662</a>.</li>
 <li>EWSR1-FLI1 canonical fusion confirmed in all RNA-seq-profiled Ewing sarcoma PDX models in the PPTC pediatric cancer PDX dataset <a href="../papers/31693904.html">PMID:31693904</a></li>
@@ -190,6 +193,8 @@ ul.task-list li input[type="checkbox"] {
 <li>EWSR1 fusions define Ewing sarcoma and are covered in the MAPPYACTS pediatric precision oncology sarcoma oncomap; the trial sequenced 787 relapsed/refractory pediatric patients by WES + RNA-seq. <a href="../papers/35292802.html">PMID:35292802</a></li>
 <li>EWSR1 detected as a fusion-driver transcription factor in sarcoma (e.g., EWSR1-FLI1, EWSR1-WT1, EWSR1-NR4A3); reclassification of Ewing sarcoma and related tumors via SS18-SSX2 synovial sarcoma and EWSR1 fusions <a href="../papers/35705560.html">PMID:35705560</a></li>
 <li>Fusion-restricted to sarcomas in a pan-Asian solid-tumor cohort (450-gene panel, n=1,015 Chinese patients); part of pan-cancer fusion driver catalogue <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>An EWSR1-ATF1 fusion was identified in a clear cell sarcoma patient in a pediatric solid tumor PDX genomics cohort. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>EWSR1 is the driver fusion gene and hub of chromoplexy in Ewing sarcoma and <a href="../cancer_types/DSRCT.html">DSRCT</a>, involved in 76-93% of chromoplectic events, with breakpoints concentrated in exons 8-13 (NM_013986) for both canonical and non-canonical partners. <a href="../papers/38335254.html">PMID:38335254</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -220,22 +225,24 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><p><a href="../papers/36577525.html">PMID:36577525</a></p></li>
-<li><p><a href="../papers/24418857.html">PMID:24418857</a></p></li>
-<li><p><a href="../papers/25186949.html">PMID:25186949</a></p></li>
+<li><p><a href="../papers/39760648.html">PMID:39760648</a></p></li>
+<li><p><a href="../papers/41136396.html">PMID:41136396</a></p></li>
 <li><p><a href="../papers/25223734.html">PMID:25223734</a></p></li>
 <li><p><a href="../papers/26466571.html">PMID:26466571</a></p></li>
 <li><p><a href="../papers/27442865.html">PMID:27442865</a></p></li>
 <li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
-<li><p><a href="../papers/28199314.html">PMID:28199314</a></p></li>
+<li><p><a href="../papers/41102727.html">PMID:41102727</a></p></li>
 <li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
 <li><p><a href="../papers/29617662.html">PMID:29617662</a></p></li>
 <li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
 <li><p><a href="../papers/33025139.html">PMID:33025139</a></p></li>
 <li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
 <li><p><a href="../papers/35705560.html">PMID:35705560</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/37990009.html">PMID:37990009</a></p></li>
+<li><p><a href="../papers/38335254.html">PMID:38335254</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

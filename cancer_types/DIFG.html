@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -193,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 <li>TCGA pan-glioma study (n=1,122 grade II-IV diffuse gliomas) identified 75 significantly mutated genes including novel drivers <a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/ARID2.html">ARID2</a>, <a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>; six methylation subclusters (LGm1–6) provide an independent prognostic classification on top of age and grade <a href="../papers/26824661.html">PMID:26824661</a></li>
 <li>PIPseq cohort included diffuse intrinsic pontine glioma cases; <a href="../genes/H3-3A.html">H3-3A</a> (H3F3A) K27M mutation identified as HDAC-inhibitor target; paired with <a href="../genes/FGFR1.html">FGFR1</a> N577K in one patient <a href="../papers/28007021.html">PMID:28007021</a></li>
 <li>Included in pan-cancer pathway analysis of 9,125 TCGA tumors; IDH-mutant LGG/DIFG shows 82% RTK-RAS alteration rate in IDHwt subtype; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant <a href="../cancer_types/LGG.html">LGG</a> <a href="../papers/29625050.html">PMID:29625050</a></li>
-<li>DIFG (glioma) was the clearest exception to the pan-cancer TMB–<a href="../cancer_types/OS.html">OS</a> benefit: high TMB was not associated with improved overall survival in glioma patients treated with ICI, possibly due to temozolomide-induced subclonal mutations or CNS-specific immune biology. <a href="../papers/30643254.html">PMID:30643254</a></li>
+<li>DIFG (glioma) was the clearest exception to the pan-cancer TMB–OS benefit: high TMB was not associated with improved overall survival in glioma patients treated with ICI, possibly due to temozolomide-induced subclonal mutations or CNS-specific immune biology. <a href="../papers/30643254.html">PMID:30643254</a></li>
 <li>In 85 adult DIFG patients profiled by MSK-IMPACT CSF liquid biopsy, ctDNA was detected in 42/85 (49.4%) CSFs; positivity carried HR 4.16 (95% CI 2.15–8.05, p=2.43×10⁻⁵) for death and was concordant with truncal IDH1/TP53/ATRX/TERT/1p19q alterations in 100% of non-hypermutated cases. <a href="../papers/30675060.html">PMID:30675060</a></li>
 <li>MSK prospective glioma cohort (923 patients / 1,004 tumors); 13% germline pathogenic-variant rate (DNA-repair-enriched); CDKN2A/B cell-cycle alterations are IDH-independent drivers of malignant progression (HR=2.6 at recurrence); alkylator-induced hypermutation more common in IDH-mutant (29% vs 12%, P=0.004) and MGMT-methylated (30% vs 10%, P=0.006) tumors <a href="../papers/31263031.html">PMID:31263031</a>.</li>
 <li>DIFG/DMG PDX models in the PPTC cohort included histone H3-wild-type DIPG (n=2); both DIPG models expressed H3.3 at high levels (FPKM &gt;50) but lacked canonical H3.1/H3.3 mutations <a href="../papers/31693904.html">PMID:31693904</a>.</li>
@@ -219,24 +222,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/37910594.html">PMID:37910594</a></li>
-<li><a href="../papers/38117484.html">PMID:38117484</a></li>
-<li><a href="../papers/39289779.html">PMID:39289779</a></li>
-<li><a href="../papers/28872634.html">PMID:28872634</a></li>
-<li><a href="../papers/24336570.html">PMID:24336570</a></li>
-<li><a href="../papers/26824661.html">PMID:26824661</a></li>
+<li><p><a href="../papers/37910594.html">PMID:37910594</a></p></li>
+<li><p><a href="../papers/38117484.html">PMID:38117484</a></p></li>
+<li><p><a href="../papers/39289779.html">PMID:39289779</a></p></li>
+<li><p><a href="../papers/28872634.html">PMID:28872634</a></p></li>
+<li><p><a href="../papers/24336570.html">PMID:24336570</a></p></li>
+<li><p><a href="../papers/26824661.html">PMID:26824661</a></p></li>
+<li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
+<li><p><a href="../papers/29625050.html">PMID:29625050</a></p></li>
+<li><p><a href="../papers/30643254.html">PMID:30643254</a></p></li>
+<li><p><a href="../papers/30675060.html">PMID:30675060</a></p></li>
+<li><p><a href="../papers/31263031.html">PMID:31263031</a> — Jonsson et al.&nbsp;MSK glioma prospective cohort (Clinical Cancer Research 2019).</p></li>
+<li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
+<li><p><a href="../papers/31748746.html">PMID:31748746</a></p></li>
+<li><p><a href="../papers/35649412.html">PMID:35649412</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625050.html">PMID:29625050</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30643254.html">PMID:30643254</a></p>
-<ul>
-<li><a href="../papers/30675060.html">PMID:30675060</a></li>
-<li><a href="../papers/31263031.html">PMID:31263031</a> — Jonsson et al.&nbsp;MSK glioma prospective cohort (Clinical Cancer Research 2019).</li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31748746.html">PMID:31748746</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

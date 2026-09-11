@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -198,6 +201,10 @@ ul.task-list li input[type="checkbox"] {
 <li>OncoKB oncogenicity and actionability annotation applied to the 2,138-sarcoma MSK-IMPACT dataset to classify driver alterations and assign treatment-actionability levels <a href="../papers/35705560.html">PMID:35705560</a></li>
 <li>Applied to annotate oncogenic driver alterations in colitis-associated cancer (CAC); identified <a href="../genes/IDH1.html">IDH1</a> R132 mutations and <a href="../genes/FGFR2.html">FGFR2</a> amplification/fusion as actionable findings with FDA-approved therapies (<a href="../drugs/ivosidenib.html">ivosidenib</a>, FGFR inhibitors) applicable from other GI cancers <a href="../papers/36611031.html">PMID:36611031</a></li>
 <li>Used for driver annotation in aSCLC; identified <a href="../genes/ALDH1L2.html">ALDH1L2</a> as the sole in-frame fusion involving a likely-oncogenic gene across all RNA-seq cases; annotated <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/MYCL.html">MYCL</a> amplifications and MEN1/EIF1AX/ARID1A/ATM alterations as the dominant driver landscape <a href="../papers/39185963.html">PMID:39185963</a></li>
+<li>OncoKB Annotator classified oncogenic versus VUS calls in the driver-gene pipeline for a colorectal cancer genomic landscape study <a href="../papers/35487942.html">PMID:35487942</a>.</li>
+<li>OncoKB annotator supported driver analysis alongside MutSigCV in a gastric cancer PDX/patient-tumor comparison <a href="../papers/37990009.html">PMID:37990009</a>.</li>
+<li>Classified somatic variants from 27/31 colorectal cancer patients as oncogenic/likely oncogenic/predicted oncogenic <a href="../papers/39478232.html">PMID:39478232</a>.</li>
+<li>OncoKB Annotator classified oncogenicity/actionability for the biliary tract cancer cohort, comparing 2017 versus 2023 annotation releases <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -212,33 +219,37 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/28472509.html">PMID:28472509</a> — Thomas et al., MSK HDC-ASCT phase II trial in anaplastic oligodendroglioma; OncoKB-classified actionable variants in 19 tumor exomes.</li>
+<li><a href="../papers/28825054.html">PMID:28825054</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/29316426.html">PMID:29316426</a></li>
+<li><a href="../papers/29420467.html">PMID:29420467</a></li>
+<li><a href="../papers/29610475.html">PMID:29610475</a></li>
+<li><a href="../papers/29848569.html">PMID:29848569</a></li>
+<li><a href="../papers/30068706.html">PMID:30068706</a></li>
+<li><a href="../papers/30373752.html">PMID:30373752</a></li>
+<li><a href="../papers/30427539.html">PMID:30427539</a></li>
+<li><a href="../papers/30687805.html">PMID:30687805</a></li>
+<li><a href="../papers/31483290.html">PMID:31483290</a></li>
+<li><a href="../papers/32220891.html">PMID:32220891</a></li>
+<li><a href="../papers/32791233.html">PMID:32791233</a></li>
+<li><a href="../papers/33509808.html">PMID:33509808</a></li>
+<li><a href="../papers/33765338.html">PMID:33765338</a></li>
+<li><a href="../papers/33963001.html">PMID:33963001</a></li>
+<li><a href="../papers/34059130.html">PMID:34059130</a></li>
+<li><a href="../papers/34145282.html">PMID:34145282</a></li>
+<li><a href="../papers/34405229.html">PMID:34405229</a></li>
+<li><a href="../papers/35377946.html">PMID:35377946</a></li>
+<li><a href="../papers/35670774.html">PMID:35670774</a></li>
+<li><a href="../papers/35705558.html">PMID:35705558</a></li>
+<li><a href="../papers/35705560.html">PMID:35705560</a></li>
+<li><a href="../papers/36611031.html">PMID:36611031</a></li>
+<li><a href="../papers/39185963.html">PMID:39185963</a></li>
+<li><a href="../papers/35487942.html">PMID:35487942</a></li>
+<li><a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><a href="../papers/39478232.html">PMID:39478232</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29420467.html">PMID:29420467</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29610475.html">PMID:29610475</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29848569.html">PMID:29848569</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30373752.html">PMID:30373752</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30427539.html">PMID:30427539</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30687805.html">PMID:30687805</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31483290.html">PMID:31483290</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32220891.html">PMID:32220891</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32791233.html">PMID:32791233</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33509808.html">PMID:33509808</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33765338.html">PMID:33765338</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33963001.html">PMID:33963001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34059130.html">PMID:34059130</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34145282.html">PMID:34145282</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34405229.html">PMID:34405229</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35377946.html">PMID:35377946</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36611031.html">PMID:36611031</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/39185963.html">PMID:39185963</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-09-10</strong>.</em></p>
 
 
 </section>

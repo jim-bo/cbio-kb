@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,19 +181,22 @@ ul.task-list li input[type="checkbox"] {
 <li>Doxorubicin is listed among NCCN-recommended regimens for <a href="../cancer_types/OS.html">osteosarcoma</a>, <a href="../cancer_types/RMS.html">rhabdomyosarcoma</a>, and <a href="../cancer_types/ES.html">Ewing sarcoma</a> identified in the functional PDTO screen. <a href="../papers/39305899.html">PMID:39305899</a></li>
 <li>NCI-60 CellMiner pharmacogenomics study examined <a href="../genes/ABCB1.html">ABCB1</a> (MDR1) expression as a determinant of doxorubicin sensitivity in colon cancer cell lines <a href="../papers/22802077.html">PMID:22802077</a></li>
 <li>TCGA endometrial cancer analysis (2013) identifies ~25% of high-grade endometrioid tumors as copy-number-high serous-like and proposes chemotherapy (including doxorubicin) may be preferable to adjuvant radiotherapy for this molecular subgroup <a href="../papers/23636398.html">PMID:23636398</a></li>
-<li>Cited in <a href="../cancer_types/HCC.html">HCC</a> systemic therapy review as historical reference chemotherapy; not a frontline standard given sorafenib/lenvatinib era <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li>Used as neoadjuvant monotherapy followed by ISG/SSG IV protocol (<a href="../drugs/vincristine.html">vincristine</a>, doxorubicin, <a href="../drugs/ifosfamide.html">ifosfamide</a>, <a href="../drugs/etoposide.html">etoposide</a>) in a patient with <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma; intravesical tumor resolved but pelvic and lung metastases did not respond; patient switched to <a href="../drugs/docetaxel.html">docetaxel</a> + <a href="../drugs/gemcitabine.html">gemcitabine</a> after nephrotoxicity <a href="../papers/28199314.html">PMID:28199314</a>.</li>
+<li>Cited in <a href="../cancer_types/HCC.html">HCC</a> systemic therapy review as historical reference chemotherapy; not a frontline standard given sorafenib/lenvatinib era <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li>Used as neoadjuvant monotherapy followed by ISG/SSG IV protocol (<a href="../drugs/vincristine.html">vincristine</a>, doxorubicin, <a href="../drugs/ifosfamide.html">ifosfamide</a>, <a href="../drugs/etoposide.html">etoposide</a>) in a patient with <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma; intravesical tumor resolved but pelvic and lung metastases did not respond; patient switched to <a href="../drugs/docetaxel.html">docetaxel</a> + <a href="../drugs/gemcitabine.html">gemcitabine</a> after nephrotoxicity <a href="../papers/41102727.html">PMID:41102727</a>.</li>
 <li>Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy; <a href="../genes/MYC.html">MYC</a> SVs, 13q31.3 gain, and 1q42.12 loss were independently prognostic for inferior PFS/OS on R-CHOP <a href="../papers/29713087.html">PMID:29713087</a></li>
 <li>Doxorubicin was part of the cisplatin-based MVAC (methotrexate/vinblastine/doxorubicin/cisplatin) neoadjuvant chemotherapy regimen used in 288 MSKCC MIBC patients; secondary MIBC patients treated with this regimen had inferior pathologic response and survival outcomes compared to primary MIBC <a href="../papers/30290956.html">PMID:30290956</a>.</li>
-<li>In a 3D cell culture review, doxorubicin delivered via GelMA microneedles in a skin/skin-cancer-on-a-chip platform achieved uniform 600 µm penetration to melanoma cells beneath the epidermis, with significantly higher efficiency than diffusion through media, modeling transdermal melanoma therapy <a href="../papers/30643250.html">PMID:30643250</a>.</li>
+<li>In a 3D cell culture review, doxorubicin delivered via GelMA microneedles in a skin/skin-cancer-on-a-chip platform achieved uniform 600 µm penetration to melanoma cells beneath the epidermis, with significantly higher efficiency than diffusion through media, modeling transdermal melanoma therapy <a href="../papers/41103502.html">PMID:41103502</a>.</li>
 <li>Liposomal doxorubicin combined with mTOR inhibition (<a href="../drugs/temsirolimus.html">temsirolimus</a> or <a href="../drugs/everolimus.html">everolimus</a>) and <a href="../drugs/bevacizumab.html">bevacizumab</a> showed higher response rates in PI3K-pathway-altered advanced triple-negative <a href="../cancer_types/MBC.html">metaplastic breast cancer (MBC)</a>; cited as therapeutic rationale for <a href="../genes/PIK3CA.html">PIK3CA</a> enrichment observed in non-chondroid MBCs <a href="../papers/33863915.html">PMID:33863915</a>.</li>
 <li>Prior doxorubicin/cisplatin therapy preceded enrollment of an ATM-truncated osteosarcoma patient in a PARP + ATR-inhibitor combination trial (&gt;1-year stable disease); doxorubicin functions as standard backbone chemotherapy in the heavily pre-treated MSK sarcoma cohort (median 4 prior therapies) <a href="../papers/35705558.html">PMID:35705558</a>.</li>
+<li>Doxorubicin/cyclophosphamide (AC) followed paclitaxel/carboplatin ± <a href="../drugs/veliparib.html">veliparib</a> in the 359-patient BrighTNess validation cohort used to test the LIG1-loss/carboplatin-resistance association <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Listed as a component of first-line regimens (e.g.&nbsp;CODOX/IVAC±R, COM, DA-EPOCH±R) in a 297-sample mature B-cell neoplasm genomics cohort; treatment was reported as cohort context only, not analyzed for outcome <a href="../papers/36201743.html">PMID:36201743</a>.</li>
+<li>One neoadjuvant arm of SWOG S1314 (muscle-invasive bladder cancer, NCT02177695) was dose-dense MVAC (<a href="../drugs/methotrexate.html">methotrexate</a>, <a href="../drugs/vinblastine.html">vinblastine</a>, doxorubicin, <a href="../drugs/cisplatin.html">cisplatin</a>), compared against gemcitabine-cisplatin, in a trial testing DDR alterations as predictors of pathologic response <a href="../papers/39499893.html">PMID:39499893</a>.</li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
 <h2 class="anchored" data-anchor-id="resistance-mechanisms">Resistance mechanisms</h2>
 <ul>
-<li><a href="../genes/TP53.html">TP53</a> mutations and 17p deletions associate with inferior PFS on CHOP-based induction; <a href="../genes/CDKN2A.html">CDKN2A</a> deletion associates with inferior <a href="../cancer_types/OS.html">OS</a> <a href="../papers/37078708.html">PMID:37078708</a>.</li>
+<li><a href="../genes/TP53.html">TP53</a> mutations and 17p deletions associate with inferior PFS on CHOP-based induction; <a href="../genes/CDKN2A.html">CDKN2A</a> deletion associates with inferior OS <a href="../papers/37078708.html">PMID:37078708</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -204,20 +210,22 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/37078708.html">PMID:37078708</a></li>
-<li><a href="../papers/39305899.html">PMID:39305899</a> — Al Shihabi et al.&nbsp;(Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; MAP regimen correlation with necrosis; NCCN-listed sarcoma standard-of-care.</li>
+<li><p><a href="../papers/37078708.html">PMID:37078708</a></p></li>
+<li><p><a href="../papers/39305899.html">PMID:39305899</a> — Al Shihabi et al.&nbsp;(Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; MAP regimen correlation with necrosis; NCCN-listed sarcoma standard-of-care.</p></li>
+<li><p><a href="../papers/22802077.html">PMID:22802077</a></p></li>
+<li><p><a href="../papers/23636398.html">PMID:23636398</a></p></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
+<li><p><a href="../papers/41102727.html">PMID:41102727</a></p></li>
+<li><p><a href="../papers/29713087.html">PMID:29713087</a></p></li>
+<li><p><a href="../papers/30290956.html">PMID:30290956</a></p></li>
+<li><p><a href="../papers/41103502.html">PMID:41103502</a></p></li>
+<li><p><a href="../papers/33863915.html">PMID:33863915</a> — da Silva et al.&nbsp;2021, MSKCC metaplastic breast cancer (N=60); liposomal doxorubicin + mTOR inhibitor + <a href="../drugs/bevacizumab.html">bevacizumab</a> combination cited as having higher response rates in PI3K-pathway-altered triple-negative <a href="../cancer_types/MBC.html">MBC</a>.</p></li>
+<li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
+<li><p><a href="../papers/36001024.html">PMID:36001024</a></p></li>
+<li><p><a href="../papers/36201743.html">PMID:36201743</a></p></li>
+<li><p><a href="../papers/39499893.html">PMID:39499893</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22802077.html">PMID:22802077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23636398.html">PMID:23636398</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28199314.html">PMID:28199314</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713087.html">PMID:29713087</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30290956.html">PMID:30290956</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30643250.html">PMID:30643250</a> - <a href="../papers/33863915.html">PMID:33863915</a> — da Silva et al.&nbsp;2021, MSKCC metaplastic breast cancer (N=60); liposomal doxorubicin + mTOR inhibitor + <a href="../drugs/bevacizumab.html">bevacizumab</a> combination cited as having higher response rates in PI3K-pathway-altered triple-negative <a href="../cancer_types/MBC.html">MBC</a>.</p>
-<ul>
-<li><a href="../papers/35705558.html">PMID:35705558</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

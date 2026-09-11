@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -199,9 +202,9 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/FGFR1.html">FGFR1</a> promoter CpG methylation inversely correlated with <a href="../genes/FGFR1.html">FGFR1</a> expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of <a href="../genes/FGFR1.html">FGFR1</a> in prostate cancer. <a href="../papers/38488813.html">PMID:38488813</a></li>
 <li>Queried for the NEPC classifier validation (n=460 treatment-naïve adenocarcinomas); 0% scored NEPC-high, confirming the classifier’s specificity for castration-resistant neuroendocrine disease <a href="../papers/26855148.html">PMID:26855148</a></li>
 <li>Used alongside <a href="../datasets/prad_su2c_2015.html">prad_su2c_2015</a> to validate that metastasis-private mutations found at autopsy in the <a href="../datasets/prad_fhcrc.html">prad_fhcrc</a> cohort are unlikely to be drivers (only 2/51 occurred at &gt;5% frequency in these cohorts) <a href="../papers/26928463.html">PMID:26928463</a></li>
-<li>Used for <a href="../genes/TRMT10A.html">TRMT10A</a> expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and <a href="../genes/TRMT10A.html">TRMT10A</a> amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) <a href="../papers/28068672.html">PMID:28068672</a></li>
+<li>Used for <a href="../genes/TRMT10A.html">TRMT10A</a> expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and <a href="../genes/TRMT10A.html">TRMT10A</a> amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) <a href="../papers/41071892.html">PMID:41071892</a></li>
 <li>Cited as a comparison primary-prostate-cancer cohort in the MSK-IMPACT prostate study; MSK locoregional tumors showed higher <a href="../genes/TP53.html">TP53</a> and <a href="../genes/FOXA1.html">FOXA1</a> frequencies than TCGA primaries <a href="../papers/28825054.html">PMID:28825054</a>.</li>
-<li>Used to validate <a href="../genes/NOL10.html">NOL10</a> overexpression in tumor vs.&nbsp;normal prostate, allele-specific <a href="../genes/BCR.html">BCR</a> and survival outcomes (rs4519489 A/A genotype HR=13.05 for <a href="../cancer_types/OS.html">OS</a>, P=0.038), and correlation of elevated <a href="../genes/NOL10.html">NOL10</a> with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) <a href="../papers/28927585.html">PMID:28927585</a>.</li>
+<li>Used to validate <a href="../genes/NOL10.html">NOL10</a> overexpression in tumor vs.&nbsp;normal prostate, allele-specific <a href="../genes/BCR.html">BCR</a> and survival outcomes (rs4519489 A/A genotype HR=13.05 for OS, P=0.038), and correlation of elevated <a href="../genes/NOL10.html">NOL10</a> with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) <a href="../papers/41062477.html">PMID:41062477</a>.</li>
 <li>External RNA-seq reference: <a href="../genes/SLC16A1.html">SLC16A1</a> (MCT1) and <a href="../genes/LDHA.html">LDHA</a> were significantly upregulated in prostate tumor vs.&nbsp;matched normal in TCGA <a href="../cancer_types/PRAD.html">PRAD</a> bulk RNA-seq (limma voom on RSEM-normalized Firebrowse data), validating IHC findings in the MSK HP-MRI cohort <a href="../papers/31564440.html">PMID:31564440</a>.</li>
 <li>Used as comparator primary-PCa cohort (n=495) for elevated HRD signature (SBS3) in prostate cancer brain metastases versus TCGA primary tumors (q=0.0003; q=0.0034 vs high-grade TCGA subset) <a href="../papers/35504881.html">PMID:35504881</a></li>
 <li>Used as validation cohort to bridge <a href="../genes/PIK3R1.html">PIK3R1</a> DNA copy-number loss to mRNA attenuation (~20% of primary tumors) and to assess progression-free survival; <a href="../genes/PIK3R1.html">PIK3R1</a> loss associated with shorter PFS (HR 2.04, 95% CI 1.32-3.15, p=0.001) <a href="../papers/35670774.html">PMID:35670774</a></li>
@@ -212,13 +215,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>cBioPortal study <code>prad_tcga</code> <a href="../papers/38488813.html">PMID:38488813</a>.</li>
 <li><a href="../papers/26855148.html">PMID:26855148</a> — Beltran et al.&nbsp;2016, <em>Nature Medicine</em>: NEPC classifier validation using this cohort (n=460 treatment-naïve adenocarcinomas).</li>
+<li><a href="../papers/41071892.html">PMID:41071892</a></li>
+<li><a href="../papers/28825054.html">PMID:28825054</a></li>
+<li><a href="../papers/41062477.html">PMID:41062477</a></li>
+<li><a href="../papers/31564440.html">PMID:31564440</a></li>
+<li><a href="../papers/35504881.html">PMID:35504881</a></li>
+<li><a href="../papers/35670774.html">PMID:35670774</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28068672.html">PMID:28068672</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31564440.html">PMID:31564440</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

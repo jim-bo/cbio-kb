@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,8 +179,10 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/37730754.html">PMID:37730754</a> — Archer FusionPlex used for <a href="../genes/FOXO1.html">FOXO1</a> fusion evaluation in the MSK FP-RMS cohort of relapsed/metastatic rhabdomyosarcoma (n=20); confirmed <a href="../genes/PAX3.html">PAX3</a>::<a href="../genes/FOXO1.html">FOXO1</a> and <a href="../genes/PAX7.html">PAX7</a>::<a href="../genes/FOXO1.html">FOXO1</a> status in fusion-positive cases <a href="../papers/37730754.html">PMID:37730754</a>.</li>
 <li><a href="../papers/39753968.html">PMID:39753968</a> — MSK-Fusion (Archer FusionPlex) RNA-based fusion testing performed in 90 of 2,336 PDAC patients; identified activating MAPK-pathway fusions (e.g.&nbsp;GIT2-BRAF, ATP1B1-NRG1) nearly exclusive to KRAS-WT tumors (3.2% vs 0.04%, P=2×10⁻³⁵), directly informing classification of KRAS-WT and other-MAPK-mutant PDAC subtypes <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>Archer FusionPlex Anchored Multiplex PCR used in MSK-Solid Fusion panel to confirm rearrangements across 35 cancer-relevant genes in the 10,945-tumor MSK-IMPACT cohort <a href="../papers/28481359.html">PMID:28481359</a></li>
-<li>Used for targeted RNA fusion detection in histiocytic neoplasm patients (cobimetinib trial, n=18) as part of a multi-platform genomic profiling strategy to detect MAPK-pathway alterations <a href="../papers/30867592.html">PMID:30867592</a></li>
-<li>Used to profile serial bone marrow samples from 52 neuroblastoma patients with ArcherDX FusionPlex Pan-Heme RNA panel, detecting KMT2A rearrangements including two novel fusion partners (PRDM10, DDX6) <a href="../papers/35078859.html">PMID:35078859</a></li>
+<li>Used for targeted RNA fusion detection in histiocytic neoplasm patients (<a href="../drugs/cobimetinib.html">cobimetinib</a> trial, n=18) as part of a multi-platform genomic profiling strategy to detect MAPK-pathway alterations <a href="../papers/30867592.html">PMID:30867592</a></li>
+<li>Used to profile serial bone marrow samples from 52 neuroblastoma patients with ArcherDX FusionPlex Pan-Heme RNA panel, detecting <a href="../genes/KMT2A.html">KMT2A</a> rearrangements including two novel fusion partners (<a href="../genes/PRDM10.html">PRDM10</a>, <a href="../genes/DDX6.html">DDX6</a>) <a href="../papers/35078859.html">PMID:35078859</a></li>
+<li>Archer FusionPlex RNA-based fusion testing was used in MSK-IMPACT-negative tumors without an identified driver or resistance mechanism, as part of <a href="../genes/MET.html">MET</a> alteration workup. <a href="../papers/36044468.html">PMID:36044468</a></li>
+<li>MSK-Archer, a 123-gene anchored multiplex PCR RNA panel using the Archer FusionPlex protocol, confirmed <a href="../genes/EWSR1.html">EWSR1</a> fusions in Ewing sarcoma and desmoplastic small round cell tumors. <a href="../papers/38335254.html">PMID:38335254</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -192,11 +197,13 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/37315267.html">PMID:37315267</a></li>
 <li><a href="../papers/37730754.html">PMID:37730754</a></li>
 <li><a href="../papers/39753968.html">PMID:39753968</a></li>
+<li><a href="../papers/28481359.html">PMID:28481359</a></li>
+<li><a href="../papers/30867592.html">PMID:30867592</a></li>
+<li><a href="../papers/35078859.html">PMID:35078859</a></li>
+<li><a href="../papers/36044468.html">PMID:36044468</a></li>
+<li><a href="../papers/38335254.html">PMID:38335254</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-30</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/30867592.html">PMID:30867592</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/35078859.html">PMID:35078859</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

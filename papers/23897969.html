@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -234,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
 <ul>
 <li>61% (59/97) of high-grade bladder tumors carried at least one potentially actionable alteration (defined as a clinically validated drug target in another tumor type or a target with an inhibitor in clinical investigation).</li>
-<li>Unsupervised hierarchical clustering of aCGH data identified two distinct subsets — high-CNA-burden vs low-CNA-burden — whose CNA load differed but which were not clinically distinct (recurrence-free, <a href="../cancer_types/OS.html">OS</a>, cancer-specific survival P=.98, .75, .49). The high-burden bladder subset’s structural-aberration load was second only to serous ovarian among 14 reference tumor types (n=5,135).</li>
+<li>Unsupervised hierarchical clustering of aCGH data identified two distinct subsets — high-CNA-burden vs low-CNA-burden — whose CNA load differed but which were not clinically distinct (recurrence-free, OS, cancer-specific survival P=.98, .75, .49). The high-burden bladder subset’s structural-aberration load was second only to serous ovarian among 14 reference tumor types (n=5,135).</li>
 <li><a href="../genes/TP53.html">TP53</a> mutations (34% overall) and <a href="../genes/RB1.html">RB1</a> alterations (15% overall) were significantly enriched in high-CNA-burden tumors (P&lt;.001 and P&lt;.003).</li>
 <li>65% (63/97) of tumors harbored at least one somatic mutation among the panel-tested genes; most prevalent: <a href="../genes/TP53.html">TP53</a> 34%, <a href="../genes/PIK3CA.html">PIK3CA</a> 18%, <a href="../genes/FGFR3.html">FGFR3</a> 13%.</li>
 <li>MAPK pathway: altered in 35% of samples; the most commonly altered RTK/RAS/RAF genes were <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/FGFR3.html">FGFR3</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/MET.html">MET</a>, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, each in 2%–13% of cases, and arose in a predominantly mutually exclusive pattern. <a href="../genes/ERBB2.html">ERBB2</a> was focally amplified in 6 of 97 (6.2%) tumors with concordant mRNA up-regulation and 3+ HER2 IHC overexpression.</li>

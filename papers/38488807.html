@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -223,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>ULMS genomic landscape:</strong> <a href="../genes/TP53.html">TP53</a> mutations (55%), <a href="../genes/TP53.html">TP53</a> deletions (16%), <a href="../genes/RB1.html">RB1</a> mutations (13%), <a href="../genes/RB1.html">RB1</a> deletions (39%), <a href="../genes/ATRX.html">ATRX</a> mutations (32%), <a href="../genes/PTEN.html">PTEN</a> deletions (18%), <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (10%), <a href="../genes/MED12.html">MED12</a> mutations (15%) (<a href="../papers/38488807.html">PMID:38488807</a>).</li>
 <li><strong>STLMS 3-tier genomic risk for DSS (MSKCC, primary, n=151):</strong> high risk (co-occurrence of <a href="../genes/RB1.html">RB1</a> mutation + chr12q deletion or <a href="../genes/ATRX.html">ATRX</a> mutation, n=10, median DSS 75 months); intermediate risk (<a href="../genes/RB1.html">RB1</a> mutation, <a href="../genes/ATRX.html">ATRX</a> mutation, or del12q, n=60, median DSS 101 months); low risk (none, n=81, median DSS 158 months; global log-rank P=0.04) (<a href="../papers/38488807.html">PMID:38488807</a>).</li>
 <li><strong>STLMS entire cohort (n=195):</strong> genomic risk stratification remained significant for DSS (global log-rank P=0.00057); high risk: 5-year DSS 43%; intermediate: 64%; low: 79% (<a href="../papers/38488807.html">PMID:38488807</a>).</li>
-<li><strong>STLMS external validation (AACR GENIE, n=317):</strong> simplified model using <a href="../genes/RB1.html">RB1</a> alterations + <a href="../genes/ATRX.html">ATRX</a> mutation was significant for <a href="../cancer_types/OS.html">OS</a> (global log-rank P=0.00013); high risk (n=36, median <a href="../cancer_types/OS.html">OS</a> 23 months, 5-year OS 10%); intermediate (n=114, median OS 29 months, 5-year OS 21%); low (n=167, median OS 44 months, 5-year OS 43%) (<a href="../papers/38488807.html">PMID:38488807</a>).</li>
+<li><strong>STLMS external validation (AACR GENIE, n=317):</strong> simplified model using <a href="../genes/RB1.html">RB1</a> alterations + <a href="../genes/ATRX.html">ATRX</a> mutation was significant for OS (global log-rank P=0.00013); high risk (n=36, median OS 23 months, 5-year OS 10%); intermediate (n=114, median OS 29 months, 5-year OS 21%); low (n=167, median OS 44 months, 5-year OS 43%) (<a href="../papers/38488807.html">PMID:38488807</a>).</li>
 <li><strong>ULMS 3-tier genomic risk for DSS (primary, n=177):</strong> high risk (concurrent <a href="../genes/TP53.html">TP53</a> mutation + <a href="../genes/ATRX.html">ATRX</a> mutation or chr20q amplification, n=50, median DSS 52 months); intermediate (<a href="../genes/TP53.html">TP53</a> mutation, <a href="../genes/ATRX.html">ATRX</a> mutation, or amp20q, n=66, median DSS 92 months); low (none, n=61, median DSS 157 months; global log-rank P=0.00012) (<a href="../papers/38488807.html">PMID:38488807</a>).</li>
 <li><strong>ULMS entire cohort (n=238):</strong> genomic risk for DSS remained significant (global log-rank P=0.00011) (<a href="../papers/38488807.html">PMID:38488807</a>).</li>
 <li><strong>Traditional vs genomic risk in STLMS:</strong> FNCLCC grading weakly predicted DSS (P=0.047) but tumor size did not (P=0.47). On multivariate Cox regression, only genomic high-risk group remained significant for DSS (<a href="../papers/38488807.html">PMID:38488807</a>).</li>

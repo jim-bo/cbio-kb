@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -147,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#germ-cell-tumor-gct" id="toc-germ-cell-tumor-gct" class="nav-link active" data-scroll-target="#germ-cell-tumor-gct">Germ Cell Tumor (GCT)</a>
+  <li><a href="#granular-cell-tumor-gct" id="toc-granular-cell-tumor-gct" class="nav-link active" data-scroll-target="#granular-cell-tumor-gct">Granular Cell Tumor (GCT)</a>
   <ul class="collapse">
   <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#cohorts-in-the-corpus" id="toc-cohorts-in-the-corpus" class="nav-link" data-scroll-target="#cohorts-in-the-corpus">Cohorts in the corpus</a></li>
@@ -165,58 +168,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="germ-cell-tumor-gct" class="level1">
-<h1>Germ Cell Tumor (GCT)</h1>
+<section id="granular-cell-tumor-gct" class="level1">
+<h1>Granular Cell Tumor (GCT)</h1>
+<blockquote class="blockquote">
+<p><strong>Not germ cell tumor.</strong> Papers, and some cBioPortal studies, use “GCT” for germ cell tumor. In OncoTree, <code>GCT</code> means Granular Cell Tumor. Germ cell tumor content lives on the <a href="../cancer_types/germ-cell-tumor.html">Germ Cell Tumor</a> corpus umbrella and the site-specific pages (<a href="../cancer_types/NSGCT.html">NSGCT</a>, <a href="../cancer_types/SEM.html">SEM</a>, <a href="../cancer_types/OGCT.html">OGCT</a>).</p>
+</blockquote>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragonadal germ cell tumors. Note: in the OncoTree hierarchy, GCT canonically maps to “Granular Cell Tumor” in the Sellar Tumor branch; within the cBioPortal study <a href="../datasets/gct_msk_2016.html">gct_msk_2016</a> the code is used specifically for testicular and mediastinal germ cell tumors. The corpus usage refers to <a href="../cancer_types/NSGCT.html">NSGCT</a> (non-seminomatous GCT) and <a href="../cancer_types/SEM.html">SEM</a> (seminoma) as the principal histologic subtypes, with primary sites including testis (<a href="../cancer_types/TT.html">TT</a>), mediastinum, and retroperitoneum.</p>
+<p>OncoTree places Granular Cell Tumor (<code>GCT</code>) at level 3 under Sellar Tumor (<code>SELT</code>) in the CNS/Brain branch, i.e.&nbsp;the granular cell tumor of the sellar region. Granular cell tumors also arise outside the sella, most often in skin, subcutis, the tongue, and the digestive tract. OncoTree has no separate code for those sites, so cBioPortal studies file them under <code>GCT</code> too.</p>
 </section>
 <section id="cohorts-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
-<li><a href="../datasets/gct_msk_2016.html">gct_msk_2016</a> — N=180 men with advanced GCT receiving first-line cisplatin-based chemotherapy at Memorial Sloan Kettering Cancer Center; 19 tumors by whole-exome sequencing (discovery) + 161 by MSK-IMPACT targeted sequencing (validation); 76 cisplatin-sensitive vs 104 resistant <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li><a href="../datasets/sarcoma_msk_2022.html">sarcoma_msk_2022</a> — clinical genomic profiling of 7,494 soft tissue and bone sarcomas; the cBioPortal study codes 5 samples <code>GCT</code> (Granular Cell Tumor) <a href="../papers/35705558.html">PMID:35705558</a>.</li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
-<li><strong>12p gain</strong> — present in 74% of discovery tumors; the well-characterized GCT cytogenetic hallmark <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../genes/TP53.html">TP53</a></strong> — alterations exclusive to cisplatin-resistant tumors (17/104 [16.3%] resistant vs 0/76 sensitive, P&lt;.001); 72% of primary mediastinal nonseminomas harbored <a href="../genes/TP53.html">TP53</a> alterations; strongest single-gene biomarker of <a href="../drugs/cisplatin.html">cisplatin</a> resistance <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../genes/MDM2.html">MDM2</a></strong> — amplifications in 7.6% of resistant vs 2.6% sensitive tumors; mutually exclusive with <a href="../genes/TP53.html">TP53</a> alteration; combined TP53/MDM2 alterations in 24.0% of resistant vs 2.6% sensitive (P&lt;.001) <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../genes/MYCN.html">MYCN</a></strong> — amplifications in 5 patients, all <a href="../drugs/cisplatin.html">cisplatin</a> resistant; transcriptionally targets both <a href="../genes/TP53.html">TP53</a> and <a href="../genes/MDM2.html">MDM2</a> <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../genes/RAC1.html">RAC1</a></strong> — novel hotspot mutations at codons 12, 34, 61 (G12V/R, P34R, Q61R/K) in 9 patients (5% — highest reported across TCGA cancer types at time of publication); functionally validated to activate <a href="../genes/PAK1.html">PAK1</a> and MEK1/2 phosphorylation <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../genes/KIT.html">KIT</a></strong> — exon 17 hotspot mutations in 19 patients; enriched in <a href="../cancer_types/SEM.html">SEM</a> (29.6% vs 4% in nonseminoma, P&lt;.001) <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../genes/KRAS.html">KRAS</a></strong> — 22 patients (G12 dominant); enriched in seminomas overall (20% vs 8.7%, P=.045) <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong>PI3K pathway</strong> — alterations in 13.3% (<a href="../genes/PIK3CA.html">PIK3CA</a> E542K ×4, <a href="../genes/PTEN.html">PTEN</a> LOF ×5, <a href="../genes/AKT1.html">AKT1</a> amplification, <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/TSC2.html">TSC2</a>) <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong>Mean MSK-IMPACT mutation rate of 0.9/Mb</strong> — very low compared with other adult solid tumors <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li>Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, <a href="../datasets/mixed_kunga_msk_2022.html">mixed_kunga_msk_2022</a>); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients <a href="../papers/35585047.html">PMID:35585047</a></li>
+<li><strong><a href="../genes/HRAS.html">HRAS</a></strong> — amplified in 20% of granular cell tumors in the sarcoma profiling cohort <a href="../papers/35705558.html">PMID:35705558</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
 <ul>
-<li><strong><a href="../cancer_types/NSGCT.html">NSGCT</a></strong> — non-seminomatous GCT; 70% of the cohort (n=126); lower <a href="../genes/KIT.html">KIT</a> mutation rate (4%) than seminoma; <a href="../genes/KRAS.html">KRAS</a> mutations in nonseminomas enriched in cisplatin-resistant tumors <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../cancer_types/SEM.html">SEM</a></strong> — seminoma; 30% of cohort (n=54); high <a href="../genes/KIT.html">KIT</a> mutation rate (29.6%); enriched <a href="../genes/KRAS.html">KRAS</a> <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../cancer_types/MGCT.html">MGCT</a></strong> — mixed GCT (teratoma-containing); 49 resistant samples <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong>Primary mediastinal nonseminoma</strong> — uniquely poor prognosis; 72% <a href="../genes/TP53.html">TP53</a> alteration rate vs 2.5% in testicular primaries (P&lt;.001); provides molecular basis for IGCCCG poor-risk designation <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li>Not called out in the corpus.</li>
 </ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li><strong><a href="../drugs/cisplatin.html">Cisplatin</a>-based chemotherapy</strong> (<a href="../drugs/bleomycin.html">BEP</a>/<a href="../drugs/etoposide.html">EP</a>/TIP/VIP) — standard first-line; <a href="../drugs/cisplatin.html">cisplatin</a> resistance is the central clinical challenge; TP53/MDM2 alterations independently predict shorter PFS (HR 1.83, P=.016) after adjusting for IGCCCG risk <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../drugs/nutlin-3.html">Nutlin-3</a> (<a href="../genes/MDM2.html">MDM2</a> inhibitor)</strong> — showed antiproliferative and apoptotic synergy with <a href="../drugs/cisplatin.html">cisplatin</a> in <a href="../genes/TP53.html">TP53</a> wild-type cisplatin-resistant cell lines in vitro; 7 <a href="../genes/MDM2.html">MDM2</a> inhibitors in clinical trials at time of publication <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../drugs/imatinib.html">Imatinib</a>/<a href="../drugs/sunitinib.html">sunitinib</a></strong> — therapeutic candidates for KIT-mutant GCT (particularly seminoma) <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong>MEK inhibitors (<a href="../drugs/trametinib.html">trametinib</a>, <a href="../drugs/selumetinib.html">selumetinib</a>, <a href="../drugs/binimetinib.html">binimetinib</a>)</strong> — candidates for KRAS/NRAS/RAC1-altered GCT <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li>No granular cell tumor–specific therapy is reported in the corpus.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/27646943.html">PMID:27646943</a> — Bagrodia et al.&nbsp;2016 (JCO). Whole-exome + MSK-IMPACT sequencing of 180 advanced GCT; TP53/MDM2 alterations exclusive to cisplatin-resistant tumors; novel <a href="../genes/RAC1.html">RAC1</a> hotspot mutations.</li>
+<li><a href="../papers/35705558.html">PMID:35705558</a> — Gounder et al.&nbsp;2022 (Nat Commun). Clinical genomic profiling of soft tissue and bone sarcomas; HRAS amplification in granular cell tumors.</li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

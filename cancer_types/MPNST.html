@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -187,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/SUZ12.html">SUZ12</a> inactivating mutations/deletions (PRC2 complex component) in 33% of RT-MPNST vs 17% sporadic <a href="../papers/37350195.html">PMID:37350195</a>.</li>
 <li><a href="../genes/TP53.html">TP53</a> LOF mutations/deletions in 25% of RT-MPNST <a href="../papers/37350195.html">PMID:37350195</a>.</li>
 <li><a href="../genes/PTPRD.html">PTPRD</a> mutations/deletions in 25% of RT-MPNST vs 5% sporadic <a href="../papers/37350195.html">PMID:37350195</a>.</li>
-<li>RT-MPNST had the highest fraction of genome altered (<a href="../genes/FGA.html">FGA</a>, 51%) among all RT-sarcoma histotypes; significantly higher than sporadic MPNST (31%, P = 0.014) <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+<li>RT-MPNST had the highest fraction of genome altered (FGA, 51%) among all RT-sarcoma histotypes; significantly higher than sporadic MPNST (31%, P = 0.014) <a href="../papers/37350195.html">PMID:37350195</a>.</li>
 <li>RT-MPNST was enriched for genome-wide arm-level copy number changes <a href="../papers/37350195.html">PMID:37350195</a>.</li>
 <li>PRC2 core subunits <a href="../genes/EED.html">EED</a> or <a href="../genes/SUZ12.html">SUZ12</a> are inactivated in 92% of sporadic, 70% of NF1-associated, and 90% of radiotherapy-associated MPNSTs; <a href="../genes/NF1.html">NF1</a> (82%), <a href="../genes/CDKN2A.html">CDKN2A</a> (81%), and <a href="../genes/TP53.html">TP53</a> (42%) co-occur; H3K27me3 IHC tracks PRC2 loss and distinguishes MPNST from benign neurofibroma <a href="../papers/25240281.html">PMID:25240281</a></li>
 <li>MPNST (n=5) was underpowered for deep subtype analysis; APOBEC mutational signatures (COSMIC2/13) were modestly elevated in MPNST (alongside DDLPS) vs other sarcoma histologies (p&lt;10⁻⁶, Kruskal-Wallis), and the cohort was included in pan-sarcoma SMG analysis identifying <a href="../genes/TP53.html">TP53</a>, <a href="../genes/ATRX.html">ATRX</a>, and <a href="../genes/RB1.html">RB1</a> as recurrently mutated <a href="../papers/29100075.html">PMID:29100075</a></li>
@@ -202,8 +205,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
 <ul>
-<li><strong>Radiation-associated MPNST (RT-MPNST):</strong> Distinguished by near-universal CDKN2A/B deletions (92%), high <a href="../genes/NF1.html">NF1</a> inactivation (67%), and the highest <a href="../genes/FGA.html">FGA</a> among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years <a href="../papers/37350195.html">PMID:37350195</a>.</li>
-<li><strong>Sporadic MPNST:</strong> Lower rates of CDKN2A/B deletion (44%), <a href="../genes/NF1.html">NF1</a> inactivation (36%), and lower <a href="../genes/FGA.html">FGA</a> (31%) <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+<li><strong>Radiation-associated MPNST (RT-MPNST):</strong> Distinguished by near-universal CDKN2A/B deletions (92%), high <a href="../genes/NF1.html">NF1</a> inactivation (67%), and the highest FGA among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+<li><strong>Sporadic MPNST:</strong> Lower rates of CDKN2A/B deletion (44%), <a href="../genes/NF1.html">NF1</a> inactivation (36%), and lower FGA (31%) <a href="../papers/37350195.html">PMID:37350195</a>.</li>
 </ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
@@ -217,15 +220,15 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/37350195.html">PMID:37350195</a> — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 12 RT-MPNSTs.</li>
 <li><a href="../papers/20601955.html">PMID:20601955</a> — Barretina et al.&nbsp;<em>Nature</em> 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas (<a href="../genes/NF1.html">NF1</a> in MPNST cited as prior established biology).</li>
+<li><a href="../papers/25240281.html">PMID:25240281</a></li>
+<li><a href="../papers/29100075.html">PMID:29100075</a></li>
+<li><a href="../papers/32561749.html">PMID:32561749</a></li>
+<li><a href="../papers/33025139.html">PMID:33025139</a></li>
+<li><a href="../papers/35292802.html">PMID:35292802</a></li>
+<li><a href="../papers/35585047.html">PMID:35585047</a></li>
+<li><a href="../papers/35705558.html">PMID:35705558</a></li>
+<li><a href="../papers/35705560.html">PMID:35705560</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25240281.html">PMID:25240281</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29100075.html">PMID:29100075</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32561749.html">PMID:32561749</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33025139.html">PMID:33025139</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

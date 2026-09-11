@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,14 +180,16 @@ ul.task-list li input[type="checkbox"] {
 <li>Used in relapsed/high-risk regimens for extremity rhabdomyosarcoma in the MSKCC 2000–2021 cohort <a href="../papers/37315267.html">PMID:37315267</a>.</li>
 <li><a href="../genes/KRAS.html">KRAS</a><sup>G12R</sup>-mutant <a href="../cancer_types/PAAD.html">PAAD</a> patients were enriched among those receiving neoadjuvant FOLFIRINOX (<a href="../drugs/fluorouracil.html">fluorouracil</a> + irinotecan + <a href="../drugs/oxaliplatin.html">oxaliplatin</a> + <a href="../drugs/leucovorin.html">leucovorin</a>) followed by resection (32.7% vs 17.9% for <a href="../genes/KRAS.html">KRAS</a><sup>G12D</sup>, p=0.094), suggesting possible KRAS-allele-specific chemosensitivity to irinotecan-containing regimens <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Irinotecan + <a href="../drugs/temozolomide.html">temozolomide</a> was one of five PDTO-matched treatment regimens applied in sarcoma patients; normalized organoid viability correlated with time-to-next-treatment across the n=5 matched-treatment cohort (R²=0.921, p=0.009) <a href="../papers/39305899.html">PMID:39305899</a>.</li>
-<li>FOLFIRINOX (incorporating irinotecan) was administered to 38% of the curated 1,480-patient MSK PDAC cohort as first-line therapy; backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with <a href="../cancer_types/OS.html">OS</a> in 304 metastatic patients <a href="../papers/39753968.html">PMID:39753968</a>.</li>
+<li>FOLFIRINOX (incorporating irinotecan) was administered to 38% of the curated 1,480-patient MSK PDAC cohort as first-line therapy; backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with OS in 304 metastatic patients <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via <a href="../methods/elastic-net.html">elastic-net</a> regression <a href="../papers/22460905.html">PMID:22460905</a></li>
 <li>High <a href="../genes/TOP2A.html">TOP2A</a> expression and amplification in metastatic PanNET patient PN4 (MSH6/MLH1-deficient, TMB ~11 mut/Mb) supported irinotecan recommendation in the POG NEN WGTA cohort <a href="../papers/40328872.html">PMID:40328872</a></li>
-<li>In SCLC chemoresistant PDX models, EPZ011989 (EZH2 inhibitor) + irinotecan over 6 weekly cycles produced potent combinatorial activity; SLFN11-high chemonaive models achieved complete responses in 5/5 animals with EPZ + irinotecan; a single in vivo irinotecan dose induced EZH2 protein and H3K27me3 increases <a href="../papers/28196596.html">PMID:28196596</a>.</li>
-<li>Irinotecan-containing regimens (FOLFIRI) were used as chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months) and are candidates for early immunotherapy instead <a href="../papers/29122777.html">PMID:29122777</a></li>
-<li>In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and fluorouracil but more sensitive to the hypoxia-activated agent tirapazamine, coincident with HIF-1α upregulation, illustrating how 3D hypoxic cores alter drug sensitivity rankings relative to monolayers <a href="../papers/30643250.html">PMID:30643250</a>.</li>
+<li>In <a href="../cancer_types/SCLC.html">SCLC</a> chemoresistant PDX models, EPZ011989 (<a href="../genes/EZH2.html">EZH2</a> inhibitor) + irinotecan over 6 weekly cycles produced potent combinatorial activity; SLFN11-high chemonaive models achieved complete responses in 5/5 animals with EPZ + irinotecan; a single in vivo irinotecan dose induced EZH2 protein and H3K27me3 increases <a href="../papers/28196596.html">PMID:28196596</a>.</li>
+<li>Irinotecan-containing regimens (FOLFIRI) were used as chemotherapy in the 295-patient metastatic <a href="../cancer_types/EGC.html">EGC</a> cohort (MSK-IMPACT); MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months) and are candidates for early immunotherapy instead <a href="../papers/29122777.html">PMID:29122777</a></li>
+<li>In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and <a href="../drugs/fluorouracil.html">fluorouracil</a> but more sensitive to the hypoxia-activated agent <a href="../drugs/tirapazamine.html">tirapazamine</a>, coincident with HIF-1α upregulation, illustrating how 3D hypoxic cores alter drug sensitivity rankings relative to monolayers <a href="../papers/41103502.html">PMID:41103502</a>.</li>
 <li>Irinotecan-containing regimens (e.g., FOLFIRI) were used as systemic chemotherapy in the 140-patient systemic-chemotherapy-alone arm of a single-institution MSKCC retrospective study of 573 liver-limited <a href="../cancer_types/IHCH.html">IHCH</a> patients (2000–2018); systemic chemotherapy alone produced median OS 11.2 months in N1 patients vs 18–20 months with locoregional treatment <a href="../papers/33963001.html">PMID:33963001</a>.</li>
-<li>OncoMark hallmark-survival analysis (TCGA logistic regression) associated irinotecan with the Genome Instability and Mutation (GIM) and Inducing Angiogenesis (IA) hallmarks for overall survival <a href="../papers/35121966.html">PMID:35121966</a></li>
+<li>OncoMark hallmark-survival analysis (TCGA logistic regression) associated irinotecan with the Genome Instability and Mutation (GIM) and Inducing Angiogenesis (IA) hallmarks for overall survival <a href="../papers/41057477.html">PMID:41057477</a></li>
+<li>Irinotecan chemotherapy increased non-canonical/fetal transcriptional module expression in patient-derived colorectal cancer organoids, raising the possibility that cytotoxic therapy promotes entry into therapy-evasive plastic cell states <a href="../papers/39478232.html">PMID:39478232</a>.</li>
+<li>Combined with the dual PI3K/mTOR inhibitor <a href="../drugs/samotolisib.html">samotolisib</a> ± <a href="../drugs/temozolomide.html">temozolomide</a> in ex vivo and in vivo (PDX) testing against MYOD1L122R-mutant <a href="../cancer_types/SCSRMS.html">SCSRMS</a>; the triple combination produced objective tumor regression, outperforming irinotecan/temozolomide chemotherapy alone (P=0.005) <a href="../papers/41758938.html">PMID:41758938</a>.</li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -208,14 +213,17 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/39214094.html">PMID:39214094</a></li>
 <li><a href="../papers/39305899.html">PMID:39305899</a></li>
 <li><a href="../papers/39753968.html">PMID:39753968</a></li>
+<li><a href="../papers/22460905.html">PMID:22460905</a></li>
+<li><a href="../papers/40328872.html">PMID:40328872</a></li>
+<li><a href="../papers/28196596.html">PMID:28196596</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/41103502.html">PMID:41103502</a></li>
+<li><a href="../papers/33963001.html">PMID:33963001</a> — Jolissaint et al.&nbsp;2021, MSKCC <a href="../cancer_types/IHCH.html">IHCH</a> retrospective (N=573); irinotecan-containing regimens (FOLFIRI) used in systemic chemotherapy arm; systemic chemotherapy alone inferior to HAIC or resection in N1 IHC (median OS 11.2 vs 18–20 months).</li>
+<li><a href="../papers/41057477.html">PMID:41057477</a></li>
+<li><a href="../papers/39478232.html">PMID:39478232</a></li>
+<li><a href="../papers/41758938.html">PMID:41758938</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22460905.html">PMID:22460905</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/40328872.html">PMID:40328872</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/28196596.html">PMID:28196596</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/30643250.html">PMID:30643250</a> - <a href="../papers/33963001.html">PMID:33963001</a> — Jolissaint et al.&nbsp;2021, MSKCC IHCH retrospective (N=573); irinotecan-containing regimens (FOLFIRI) used in systemic chemotherapy arm; systemic chemotherapy alone inferior to HAIC or resection in N1 IHC (median OS 11.2 vs 18–20 months).</p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/35121966.html">PMID:35121966</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

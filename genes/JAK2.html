@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -180,21 +183,23 @@ ul.task-list li input[type="checkbox"] {
 <li>Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization <a href="../papers/23792563.html">PMID:23792563</a></li>
 <li>V617F present in 48/48 (100%) <a href="../cancer_types/PV.html">PV</a>, 35/62 (56%) <a href="../cancer_types/ET.html">ET</a>, and 27/39 (69%) <a href="../cancer_types/MF.html">MF</a> patients; strictly mutually exclusive with <a href="../genes/CALR.html">CALR</a> and <a href="../genes/MPL.html">MPL</a> mutations in whole-exome sequencing of myeloproliferative neoplasms <a href="../papers/24325359.html">PMID:24325359</a></li>
 <li>Co-amplified with <a href="../genes/CD274.html">CD274</a> (PD-L1) and <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> (PD-L2) at 9p24.1 in 15% of EBV-positive gastric adenocarcinoma (<a href="../cancer_types/STAD.html">STAD</a>) tumours (TCGA); elevated mRNA expression; supports rationale for JAK2 inhibitors and immune-checkpoint blockade in EBV-positive <a href="../cancer_types/STAD.html">STAD</a> <a href="../papers/25079317.html">PMID:25079317</a></li>
-<li>Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell RCC subtypes <a href="../papers/25401301.html">PMID:25401301</a></li>
+<li>Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell <a href="../cancer_types/RCC.html">RCC</a> subtypes <a href="../papers/25401301.html">PMID:25401301</a></li>
 <li>Identified as a marker of the immune-related <a href="../cancer_types/ILC.html">ILC</a> mRNA subtype in a comprehensive molecular analysis of invasive lobular carcinoma <a href="../papers/26451490.html">PMID:26451490</a></li>
 <li>Recurrent driver in DLBCL (1001-patient cohort) but CRISPR knockout did NOT impair growth, suggesting JAK2 may act in early pathogenesis or via non-targetable functions in established DLBCL; cautions against naive mutation-based targeting. <a href="../papers/28985567.html">PMID:28985567</a></li>
-<li>Mutations not associated with resistance to nivolumab in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. <a href="../papers/29033130.html">PMID:29033130</a></li>
-<li>Homozygous loss-of-function JAK2 splice mutation with LOH identified in one NSCLC patient with primary resistance to anti-PD-(L)1 therapy (PD), consistent with interferon-gamma signaling defects; few total events in the 240-patient cohort <a href="../papers/29337640.html">PMID:29337640</a></li>
-<li>JAK2 (with STAT1, STAT3, STAT6) is upregulated in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), C14 (LUAD), and C10 (pan-SCC) across 10,000 TCGA pan-cancer tumors, raising the hypothesis of repurposing JAK-STAT inhibitors in solid tumors <a href="../papers/29625048.html">PMID:29625048</a></li>
+<li>Mutations not associated with resistance to <a href="../drugs/nivolumab.html">nivolumab</a> in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li>Homozygous loss-of-function JAK2 splice mutation with LOH identified in one <a href="../cancer_types/NSCLC.html">NSCLC</a> patient with primary resistance to anti-PD-(L)1 therapy (PD), consistent with interferon-gamma signaling defects; few total events in the 240-patient cohort <a href="../papers/29337640.html">PMID:29337640</a></li>
+<li>JAK2 (with <a href="../genes/STAT1.html">STAT1</a>, <a href="../genes/STAT3.html">STAT3</a>, <a href="../genes/STAT6.html">STAT6</a>) is upregulated in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), C14 (<a href="../cancer_types/LUAD.html">LUAD</a>), and C10 (pan-SCC) across 10,000 TCGA pan-cancer tumors, raising the hypothesis of repurposing JAK-STAT inhibitors in solid tumors <a href="../papers/29625048.html">PMID:29625048</a></li>
 <li>JAK2 H538Y subclonal variant was present in early SCBO-5 bladder organoid passages and was lost during serial passaging, illustrating clonal dynamics in patient-derived bladder cancer organoids <a href="../papers/29625057.html">PMID:29625057</a></li>
 <li>JAK2 (9p24.1 locus) simultaneously perturbed by mutation, copy gain, and structural variants in DLBCL; co-locus with CD274/PDCD1LG2 as a candidate cancer gene in 304-patient WES cohort. <a href="../papers/29713087.html">PMID:29713087</a></li>
 <li>Loss-of-function alteration in JAK/STAT pathway; rare in pre-treatment tumors in this pooled ICB cohort (193 patients across melanoma, NSCLC, bladder, HNSCC, and other cancer types), consistent with intrinsic rather than acquired resistance mechanisms <a href="../papers/30150660.html">PMID:30150660</a></li>
 <li>JAK2 V617F variants are used as a clonal-hematopoiesis filter in glioma genomic profiling: JAK2 V617F calls are removed wherever observed to exclude CH-attributable variants from somatic and germline analyses <a href="../papers/31263031.html">PMID:31263031</a>.</li>
-<li>JAK2 or JAK3 alterations in 15% of BCP-ALL models; JAK1 or JAK2 lesions in 24% of ETP-ALL/T-ALL models; JAK2 rearrangements in 55% (12/22) of Ph-like ALL models in the PPTC pediatric cancer PDX panel (261 models, 37 pediatric cancer types) <a href="../papers/31693904.html">PMID:31693904</a>.</li>
+<li>JAK2 or <a href="../genes/JAK3.html">JAK3</a> alterations in 15% of BCP-ALL models; <a href="../genes/JAK1.html">JAK1</a> or JAK2 lesions in 24% of ETP-ALL/T-ALL models; JAK2 rearrangements in 55% (12/22) of Ph-like ALL models in the PPTC pediatric cancer PDX panel (261 models, 37 pediatric cancer types) <a href="../papers/31693904.html">PMID:31693904</a>.</li>
 <li>JAK2 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; JAK2 mutations can arise from myeloproliferative neoplasm-related CH and must be interpreted with matched WBC sequencing <a href="../papers/31768066.html">PMID:31768066</a></li>
 <li>JAK2 V617F driver mutation was missed in 35 MPNs in the PCAWG analysis because panels-of-normals derived from blood samples filtered the mutation, illustrating a systematic bioinformatic failure mode in WGS pipelines <a href="../papers/32025007.html">PMID:32025007</a></li>
 <li>JAK2 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) <a href="../papers/33106634.html">PMID:33106634</a></li>
 <li>Co-amplified with <a href="../genes/CD274.html">CD274</a> and <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> at 9p24.3–9p22.2 in 82% of CD274-amplified tumors (85/10,194 total, ~1%); this 9p24 amplicon correlates with 70% PD-L1 IHC positivity across 10,194 Asian solid-tumor patients <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>A single <a href="../cancer_types/AML.html">AML</a> case carried a high-allelic-burden JAK2 p.V617F mutation, proposed as a candidate driver pending confirmation in a larger cohort <a href="../papers/38212634.html">PMID:38212634</a>.</li>
+<li>JAK2 amplification (with <a href="../genes/CBL.html">CBL</a> deep deletion) was an acquired copy-number alteration at metastasis in a HER2+ breast cancer case with APOBEC3-driven treatment resistance <a href="../papers/40379787.html">PMID:40379787</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -243,8 +248,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/32025007.html">PMID:32025007</a></p></li>
 <li><p><a href="../papers/33106634.html">PMID:33106634</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/38212634.html">PMID:38212634</a></p></li>
+<li><p><a href="../papers/40379787.html">PMID:40379787</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

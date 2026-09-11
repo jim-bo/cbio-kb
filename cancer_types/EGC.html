@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -191,11 +194,12 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/PIK3CA.html">PIK3CA</a> — present in &gt;10% of patients; identified as a resistance mechanism. <a href="../papers/37406106.html">PMID:37406106</a></li>
 <li><a href="../genes/MET.html">MET</a> — co-amplification detected in ctDNA at progression; <a href="../genes/MET.html">MET</a> IHC expression confirmed in escape lesions. <a href="../papers/37406106.html">PMID:37406106</a></li>
 <li><a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TACC3.html">TACC3</a> — subclonal fusion identified at single-cell level by serial ctDNA; expanded on-treatment, implicating it as a resistance driver. <a href="../papers/37406106.html">PMID:37406106</a></li>
-<li>Esophagogastric carcinoma / esophageal gastric adenocarcinoma was included in the MSK-IMPACT pan-cancer cohort (msk_impact_2017) spanning 62 principal tumor types; MSI gastric/esophageal tumors were among those showing responses to immune checkpoint blockade in the pan-cancer MSI analysis. <a href="../papers/28481359.html">PMID:28481359</a></li>
-<li>Janjigian et al.&nbsp;prospectively profiled 295 stage-IV esophagogastric adenocarcinoma patients with MSK-IMPACT (341/410/468-gene panels); 53% had at least one actionable alteration; MSI-H tumors (3%) were chemotherapy-refractory but immunotherapy-sensitive; NGS-based ERBB2 amplification level predicted trastuzumab benefit better than IHC/FISH; HRD/LST did not predict platinum response <a href="../papers/29122777.html">PMID:29122777</a></li>
-<li>EGC was among the histologies represented in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for esophagogastric cancer alongside NSCLC, melanoma, head &amp; neck, and renal cell carcinoma. <a href="../papers/30643254.html">PMID:30643254</a></li>
-<li>Phase 2 trial (n=37) of pembrolizumab + trastuzumab + fluoropyrimidine/platinum in HER2-positive metastatic EGC achieved 70% 6-month PFS rate, 91% ORR, and 27.2-month median OS; VAF-adjusted ctDNA ERBB2 amplification predicted longer PFS (16.4 vs 6.2 months, p=0.013) <a href="../papers/32437664.html">PMID:32437664</a></li>
-<li>Broad-panel NGS (MSK-IMPACT) of 487 lower esophageal/EGJ adenocarcinomas identified 16 recurrent oncogenic drivers (≥5%), predominantly amplifications; TP53 was mutated in ~80%, median TMB was 4.5 mut/Mb, MSI-H prevalence was 3.1%; CDKN2A alteration, KRAS amplification, and SMAD4 alteration were independently prognostic for worse OS, while ERBB2 amplification associated with improved OS (HR 0.65, p=0.009) attributable to trastuzumab therapy <a href="../papers/33795256.html">PMID:33795256</a></li>
+<li>Esophagogastric carcinoma / esophageal gastric adenocarcinoma was included in the MSK-IMPACT pan-cancer cohort (<a href="../datasets/msk_impact_2017.html">msk_impact_2017</a>) spanning 62 principal tumor types; MSI gastric/esophageal tumors were among those showing responses to immune checkpoint blockade in the pan-cancer MSI analysis. <a href="../papers/28481359.html">PMID:28481359</a></li>
+<li>Janjigian et al.&nbsp;prospectively profiled 295 stage-IV esophagogastric adenocarcinoma patients with MSK-IMPACT (341/410/468-gene panels); 53% had at least one actionable alteration; MSI-H tumors (3%) were chemotherapy-refractory but immunotherapy-sensitive; NGS-based <a href="../genes/ERBB2.html">ERBB2</a> amplification level predicted <a href="../drugs/trastuzumab.html">trastuzumab</a> benefit better than IHC/FISH; HRD/LST did not predict platinum response <a href="../papers/29122777.html">PMID:29122777</a></li>
+<li>EGC was among the histologies represented in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for esophagogastric cancer alongside <a href="../cancer_types/NSCLC.html">NSCLC</a>, melanoma, head &amp; neck, and renal cell carcinoma. <a href="../papers/30643254.html">PMID:30643254</a></li>
+<li>Phase 2 trial (n=37) of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> + trastuzumab + fluoropyrimidine/platinum in HER2-positive metastatic EGC achieved 70% 6-month PFS rate, 91% ORR, and 27.2-month median OS; VAF-adjusted ctDNA ERBB2 amplification predicted longer PFS (16.4 vs 6.2 months, p=0.013) <a href="../papers/32437664.html">PMID:32437664</a></li>
+<li>Broad-panel NGS (MSK-IMPACT) of 487 lower esophageal/EGJ adenocarcinomas identified 16 recurrent oncogenic drivers (≥5%), predominantly amplifications; <a href="../genes/TP53.html">TP53</a> was mutated in ~80%, median TMB was 4.5 mut/Mb, MSI-H prevalence was 3.1%; <a href="../genes/CDKN2A.html">CDKN2A</a> alteration, <a href="../genes/KRAS.html">KRAS</a> amplification, and <a href="../genes/SMAD4.html">SMAD4</a> alteration were independently prognostic for worse OS, while ERBB2 amplification associated with improved OS (HR 0.65, p=0.009) attributable to trastuzumab therapy <a href="../papers/33795256.html">PMID:33795256</a></li>
+<li>In the MSK-50K pan-cancer cohort, esophagogastric cancer had the third-highest microsatellite instability rate among 448 detailed cancer subtypes (6%, 93 of 1,657 tumors) <a href="../papers/41895280.html">PMID:41895280</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -209,10 +213,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li>Phase II trial of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> + <a href="../drugs/trastuzumab.html">trastuzumab</a> + CAPOX: median PFS 13 months, median <a href="../cancer_types/OS.html">OS</a> 27 months, ORR 89% in 37 HER2-positive EGC patients. <a href="../papers/37406106.html">PMID:37406106</a></li>
+<li>Phase II trial of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> + <a href="../drugs/trastuzumab.html">trastuzumab</a> + CAPOX: median PFS 13 months, median OS 27 months, ORR 89% in 37 HER2-positive EGC patients. <a href="../papers/37406106.html">PMID:37406106</a></li>
 <li>Uniform HER2 IHC 3+ expression, plasma <a href="../genes/ERBB2.html">ERBB2</a> amplification, and intense 89Zr-trastuzumab PET avidity predict durable benefit from pembrolizumab + trastuzumab + chemotherapy. <a href="../papers/37406106.html">PMID:37406106</a></li>
 <li>Early ctDNA clearance (by 9 weeks) predicts longer PFS (HR 0.18; 95% CI 0.06–0.53; P=0.001). <a href="../papers/37406106.html">PMID:37406106</a></li>
-<li><a href="../genes/CCNE1.html">CCNE1</a> amplification in early-onset tumors is a potential target for CDK2 inhibitors. <a href="../papers/37699004.html">PMID:37699004</a></li>
+<li><a href="../genes/CCNE1.html">CCNE1</a> amplification in early-onset tumors is a potential target for <a href="../genes/CDK2.html">CDK2</a> inhibitors. <a href="../papers/37699004.html">PMID:37699004</a></li>
 <li>35% of early-onset patients were initially treated for an alternative diagnosis, highlighting the need for increased clinician awareness. <a href="../papers/37699004.html">PMID:37699004</a></li>
 </ul>
 </section>
@@ -222,12 +226,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/37406106.html">PMID:37406106</a> — Determinants of Survival with Combined HER2 and PD-1 Blockade in Metastatic Esophagogastric Cancer (Clinical Cancer Research, 2023)</p></li>
 <li><p><a href="../papers/37699004.html">PMID:37699004</a> — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)</p></li>
 <li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
+<li><p><a href="../papers/29122777.html">PMID:29122777</a></p></li>
+<li><p><a href="../papers/30643254.html">PMID:30643254</a></p></li>
+<li><p><a href="../papers/32437664.html">PMID:32437664</a></p></li>
+<li><p><a href="../papers/33795256.html">PMID:33795256</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/30643254.html">PMID:30643254</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32437664.html">PMID:32437664</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/33795256.html">PMID:33795256</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

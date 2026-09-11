@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,12 +180,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>PAK1 (11q14.1) is amplified as part of the 11q13/14 cis-acting cassette in IntClust 2 of the METABRIC breast cancer cohort (~2,000 tumors); co-amplified with <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/EMSY.html">EMSY</a>, and <a href="../genes/RSF1.html">RSF1</a> in ER-positive, high-risk tumors <a href="../papers/22522925.html">PMID:22522925</a></li>
 <li>Identified as a downstream effector of <a href="../genes/RAC1.html">RAC1</a> P29S and a potential therapeutic target in melanoma (147-tumor Yale WES cohort) <a href="../papers/22842228.html">PMID:22842228</a></li>
-<li>Recurrently amplified at 11q13 in esophageal adenocarcinoma (EAC) as a downstream effector of the RAC1 signaling axis (upstream regulators <a href="../genes/ELMO1.html">ELMO1</a>, <a href="../genes/DOCK2.html">DOCK2</a>, <a href="../genes/TRIO.html">TRIO</a>, <a href="../genes/TIAM1.html">TIAM1</a>, <a href="../genes/VAV2.html">VAV2</a>, <a href="../genes/ECT2.html">ECT2</a> are recurrently mutated) <a href="../papers/23525077.html">PMID:23525077</a></li>
+<li>Recurrently amplified at 11q13 in esophageal adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>) as a downstream effector of the <a href="../genes/RAC1.html">RAC1</a> signaling axis (upstream regulators <a href="../genes/ELMO1.html">ELMO1</a>, <a href="../genes/DOCK2.html">DOCK2</a>, <a href="../genes/TRIO.html">TRIO</a>, <a href="../genes/TIAM1.html">TIAM1</a>, <a href="../genes/VAV2.html">VAV2</a>, <a href="../genes/ECT2.html">ECT2</a> are recurrently mutated) <a href="../papers/23525077.html">PMID:23525077</a></li>
 <li>Co-amplification with <a href="../genes/CCND1.html">CCND1</a> at 11q13–14 defines the IntClust2 breast cancer subtype (METABRIC 2,433 primary tumors); this early clonal event is associated with paradoxically low MATH heterogeneity score and resistance to neo-adjuvant cytotoxic chemotherapy. <a href="../papers/27161491.html">PMID:27161491</a></li>
 <li>Focal copy gains in 5/34 ALM patients (15%); validated by qPCR in 4/5; all in BRAF/NRAS wild-type tumors (1 NF1-subtype, 4 triple-wild-type); proposed as alternate MAPK-pathway dysregulation route in acral melanoma <a href="../papers/28373299.html">PMID:28373299</a></li>
-<li>11q focal amplification (co-amplified with YAP1 and CCND1) enriched in PD patients in a pooled ICB cohort (193 patients); 11q amplification is a candidate genomic marker of immune checkpoint blockade resistance <a href="../papers/30150660.html">PMID:30150660</a></li>
-<li>PAK1 is co-amplified with CCND1, FGF3, EMSY, and RSF1 on chromosome 11q13; this co-amplification defines IntClust2 (4.5% of ER+ breast cancers), a late-relapsing subgroup in the METABRIC cohort (n=3,240) <a href="../papers/30867590.html">PMID:30867590</a></li>
-<li>Protein elevated in &gt;70% of <a href="../cancer_types/PAAD.html">PAAD</a> tumors; downstream effector of KRAS via RAC1; combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors proposed as a KRAS-driven signaling targeting strategy <a href="../papers/34534465.html">PMID:34534465</a>.</li>
+<li>11q focal amplification (co-amplified with <a href="../genes/YAP1.html">YAP1</a> and <a href="../genes/CCND1.html">CCND1</a>) enriched in PD patients in a pooled ICB cohort (193 patients); 11q amplification is a candidate genomic marker of immune checkpoint blockade resistance <a href="../papers/30150660.html">PMID:30150660</a></li>
+<li>PAK1 is co-amplified with CCND1, <a href="../genes/FGF3.html">FGF3</a>, <a href="../genes/EMSY.html">EMSY</a>, and <a href="../genes/RSF1.html">RSF1</a> on chromosome 11q13; this co-amplification defines IntClust2 (4.5% of ER+ breast cancers), a late-relapsing subgroup in the METABRIC cohort (n=3,240) <a href="../papers/30867590.html">PMID:30867590</a></li>
+<li>Protein elevated in &gt;70% of <a href="../cancer_types/PAAD.html">PAAD</a> tumors; downstream effector of <a href="../genes/KRAS.html">KRAS</a> via RAC1; combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors proposed as a KRAS-driven signaling targeting strategy <a href="../papers/34534465.html">PMID:34534465</a>.</li>
+<li>PAK1 was altered in 3 of 25 (12%) <a href="../genes/CDH1.html">CDH1</a> genetically wild-type invasive lobular breast carcinomas <a href="../papers/38347189.html">PMID:38347189</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -220,8 +224,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/30150660.html">PMID:30150660</a></p></li>
 <li><p><a href="../papers/30867590.html">PMID:30867590</a></p></li>
 <li><p><a href="../papers/34534465.html">PMID:34534465</a></p></li>
+<li><p><a href="../papers/38347189.html">PMID:38347189</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

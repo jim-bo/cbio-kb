@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,11 +179,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>Focal MYCN amplifications (along with <a href="../genes/CDK4.html">CDK4</a> and <a href="../genes/PDGFRA.html">PDGFRA</a>) were used to define “molecular grade-intermediate” in 1p19q intact IDH-mutant astrocytomas in a 128-patient MSKCC active-surveillance cohort <a href="../papers/37910594.html">PMID:37910594</a>.</li>
-<li>MYCN amplifications and missense mutations in 22% of fusion-positive rhabdomyosarcoma (FP-RMS); correlated with worse <a href="../cancer_types/OS.html">OS</a> (p=0.0012) and worse PFS; high MYCN mRNA expression confirmed by RNA-seq; present at diagnosis as a secondary event <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li>MYCN amplifications and missense mutations in 22% of fusion-positive rhabdomyosarcoma (FP-RMS); correlated with worse OS (p=0.0012) and worse PFS; high MYCN mRNA expression confirmed by RNA-seq; present at diagnosis as a secondary event <a href="../papers/37730754.html">PMID:37730754</a>.</li>
 <li>Elevated MYCN expression in neuroendocrine prostate cancer (NEPC) patient-derived xenografts without gene amplification; linked to DDR and neuroendocrine differentiation via MYCN-CDK5-RB1-E2F1 axis; <a href="../genes/AURKA.html">AURKA</a> co-elevated <a href="../papers/38488813.html">PMID:38488813</a>.</li>
 <li>MYCN amplification found in 5 of 11 neuroblastoma tumors studied by snRNA-seq; MYCN is highly expressed and significantly over-expressed in the undifferentiated high-risk nC3 cluster; MYCN amplification and/or 11q deletion define the high-risk cases in this cohort <a href="../papers/34493726.html">PMID:34493726</a>.</li>
 <li>RNAscope ISH in a MYCN-amplified high-risk tumor (K10) showed MYCN co-expressed with <a href="../genes/ALK.html">ALK</a> and <a href="../genes/NTRK2.html">NTRK2</a> in discrete intratumoral regions, illustrating spatial heterogeneity at the single-cell level <a href="../papers/34493726.html">PMID:34493726</a>.</li>
-<li>MYCN amplification was a central focus of neuroblastoma proteomics profiling by LC-MS/MS, revealing downstream protein-level consequences of MYCN-driven transcriptional programs <a href="../papers/22367537.html">PMID:22367537</a></li>
+<li>MYCN amplification was a central focus of neuroblastoma proteomics profiling by LC-MS/MS, revealing downstream protein-level consequences of MYCN-driven transcriptional programs <a href="../papers/41063451.html">PMID:41063451</a></li>
 <li>Amplification (including via chromothripsis) in subgroup-3/4 medulloblastoma (PCGP WGS, 37 tumors); co-occurs with <a href="../genes/OTX2.html">OTX2</a> amplification <a href="../papers/22722829.html">PMID:22722829</a></li>
 <li>Amplified in 5 SHH-subgroup medulloblastoma cases in WGS/WES of 125 tumors (ICGC cohort) <a href="../papers/22832583.html">PMID:22832583</a></li>
 <li>MYCN focal amplification in 6% of <a href="../cancer_types/SCLC.html">SCLC</a> tumors (CLCGP, 29 tumors); mutually exclusive with <a href="../genes/MYCL.html">MYCL</a> and <a href="../genes/MYC.html">MYC</a> amplification <a href="../papers/22941188.html">PMID:22941188</a></li>
@@ -190,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Recurrent focal amplification in <a href="../cancer_types/SCLC.html">SCLC</a>; member of the <a href="../genes/MYC.html">MYC</a> family amplified in <a href="../cancer_types/SCLC.html">SCLC</a> alongside <a href="../genes/MYC.html">MYC</a> and <a href="../genes/MYCL.html">MYCL</a> <a href="../papers/26168399.html">PMID:26168399</a></li>
 <li>Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with <a href="../genes/TERT.html">TERT</a> rearrangements and <a href="../genes/ATRX.html">ATRX</a> mutations; MYCN amplification transcriptionally activates <a href="../genes/TERT.html">TERT</a> (<a href="../genes/TERT.html">TERT</a> is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with <a href="../genes/TERT.html">TERT</a> rearrangement as a route to telomerase activation <a href="../papers/26466568.html">PMID:26466568</a></li>
 <li>Over-expressed in CRPC-NE (P &lt; 10⁻⁴); included in NEPC classifier; divergent allelic states across metastatic sites in patient WCMC7520; down-regulated by <a href="../genes/EZH2.html">EZH2</a> inhibitor GSK343 in NCI-H660 <a href="../papers/26855148.html">PMID:26855148</a></li>
-<li>Amplification in 5 patients (all <a href="../drugs/cisplatin.html">cisplatin</a> resistant); transcriptionally targets both <a href="../genes/TP53.html">TP53</a> and <a href="../genes/MDM2.html">MDM2</a>; predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type <a href="../cancer_types/GCT.html">GCT</a> <a href="../papers/27646943.html">PMID:27646943</a></li>
+<li>Amplification in 5 patients (all <a href="../drugs/cisplatin.html">cisplatin</a> resistant); transcriptionally targets both <a href="../genes/TP53.html">TP53</a> and <a href="../genes/MDM2.html">MDM2</a>; predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type <a href="../cancer_types/germ-cell-tumor.html">germ cell tumors</a> <a href="../papers/27646943.html">PMID:27646943</a></li>
 <li>MYCN amplification with 1p/11q LOH, 17q gain, and MYCN overexpression used in neuroblastoma (<a href="../cancer_types/NBL.html">NBL</a>) for risk-based therapy stratification across four patients in a pediatric precision-oncology cohort <a href="../papers/28007021.html">PMID:28007021</a></li>
 <li>Amplification found in Group 3 (5%) and Group 4 (6%) medulloblastoma at comparable frequencies in genome-wide analysis of 491 medulloblastomas <a href="../papers/28726821.html">PMID:28726821</a></li>
 <li>Focal MYCN amplification in 66% of neuroblastoma PDX models in the PPTC cohort (261 models, 37 pediatric cancer types); also amplified in MYCN-subtype HGG (IC-2664PNET) and in Fusion+ <a href="../cancer_types/ARMS.html">ARMS</a> models <a href="../papers/31693904.html">PMID:31693904</a>.</li>
@@ -198,13 +201,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Approximately 1% of retinoblastomas are driven by MYCN amplification without <a href="../genes/RB1.html">RB1</a> loss-of-function; the RB1-only cfDNA assay does not cover this subset; incorporation of copy-number analysis flagged as future extension <a href="../papers/32633890.html">PMID:32633890</a></li>
 <li>Amplified in 3/83 retinoblastoma specimens in <a href="../datasets/rbl_mskcc_2020.html">rbl_mskcc_2020</a>, all co-occurring with <a href="../genes/RB1.html">RB1</a> mutation; also recurrently mutated (somatic) at ~3.6%; no MYCN-only (RB1-wildtype + MYCN-amplified) tumors observed in this enucleation cohort, contrasting with ~2% frequency reported elsewhere <a href="../papers/33466343.html">PMID:33466343</a></li>
 <li>MYCN/MYC amplifications/fusions/activating mutations (n=43) recurrent in neuroblastoma (with 11q deletion and <a href="../genes/ALK.html">ALK</a> co-occurrence) and medulloblastoma; matched to BET inhibitors in the MAPPYACTS pediatric precision-oncology cohort <a href="../papers/35292802.html">PMID:35292802</a></li>
+<li>Hotspot p.Pro44Leu mutation found in a pheochromocytoma/paraganglioma tumor and as a truncal cfDNA variant in a temozolomide-treated patient <a href="../papers/40097403.html">PMID:40097403</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
 <li><a href="../cancer_types/ASTR.html">ASTR</a> / <a href="../cancer_types/DIFG.html">DIFG</a> — focal amplification marks intermediate molecular grade in IDH-mutant astrocytoma <a href="../papers/37910594.html">PMID:37910594</a>.</li>
-<li>Rhabdomyosarcoma (FP-RMS) — amplifications/missense mutations in 22%; correlated with worse <a href="../cancer_types/OS.html">OS</a> (p=0.0012) and PFS <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li>Rhabdomyosarcoma (FP-RMS) — amplifications/missense mutations in 22%; correlated with worse OS (p=0.0012) and PFS <a href="../papers/37730754.html">PMID:37730754</a>.</li>
 <li>Prostate cancer (NEPC) — overexpressed without amplification; MYCN-CDK5-RB1-E2F1 axis drives neuroendocrine differentiation <a href="../papers/38488813.html">PMID:38488813</a>.</li>
 <li><a href="../cancer_types/NBL.html">NBL</a> — amplified in 5/11 tumors; over-expressed in undifferentiated nC3 high-risk cluster; co-expressed with <a href="../genes/ALK.html">ALK</a>, <a href="../genes/NTRK2.html">NTRK2</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a> in nC3 cells; correlated with 11q deletion and 17q gain <a href="../papers/34493726.html">PMID:34493726</a>.</li>
 </ul>
@@ -234,30 +238,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/37910594.html">PMID:37910594</a></li>
-<li><a href="../papers/37730754.html">PMID:37730754</a></li>
-<li><a href="../papers/38488813.html">PMID:38488813</a></li>
-<li><a href="../papers/34493726.html">PMID:34493726</a></li>
+<li><p><a href="../papers/37910594.html">PMID:37910594</a></p></li>
+<li><p><a href="../papers/37730754.html">PMID:37730754</a></p></li>
+<li><p><a href="../papers/38488813.html">PMID:38488813</a></p></li>
+<li><p><a href="../papers/34493726.html">PMID:34493726</a></p></li>
+<li><p><a href="../papers/41063451.html">PMID:41063451</a></p></li>
+<li><p><a href="../papers/22722829.html">PMID:22722829</a></p></li>
+<li><p><a href="../papers/22832583.html">PMID:22832583</a></p></li>
+<li><p><a href="../papers/22941188.html">PMID:22941188</a></p></li>
+<li><p><a href="../papers/23334666.html">PMID:23334666</a></p></li>
+<li><p><a href="../papers/24120142.html">PMID:24120142</a></p></li>
+<li><p><a href="../papers/40328872.html">PMID:40328872</a></p></li>
+<li><p><a href="../papers/26168399.html">PMID:26168399</a></p></li>
+<li><p><a href="../papers/26466568.html">PMID:26466568</a></p></li>
+<li><p><a href="../papers/26855148.html">PMID:26855148</a></p></li>
+<li><p><a href="../papers/27646943.html">PMID:27646943</a></p></li>
+<li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
+<li><p><a href="../papers/28726821.html">PMID:28726821</a></p></li>
+<li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
+<li><p><a href="../papers/31852831.html">PMID:31852831</a></p></li>
+<li><p><a href="../papers/32633890.html">PMID:32633890</a></p></li>
+<li><p><a href="../papers/33466343.html">PMID:33466343</a></p></li>
+<li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
+<li><p><a href="../papers/40097403.html">PMID:40097403</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22367537.html">PMID:22367537</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22722829.html">PMID:22722829</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22832583.html">PMID:22832583</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22941188.html">PMID:22941188</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23334666.html">PMID:23334666</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24120142.html">PMID:24120142</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/40328872.html">PMID:40328872</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26168399.html">PMID:26168399</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26466568.html">PMID:26466568</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26855148.html">PMID:26855148</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27646943.html">PMID:27646943</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28726821.html">PMID:28726821</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31852831.html">PMID:31852831</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32633890.html">PMID:32633890</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33466343.html">PMID:33466343</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,10 +181,10 @@ ul.task-list li input[type="checkbox"] {
 <li>EGFR/ErbB signaling was implicated by pathway analysis (PubChem + WikiPathways/KEGG) in chordoma PDTOs (SARC0046_2/3, SARC0053_a, SARC0049) and an osteosarcoma subgroup; chordomas showed preferential sensitivity to TAK-285 (an EGFR/ERBB2 dual kinase inhibitor), consistent with broader <a href="../genes/EGFR.html">EGFR</a> pathway dependency in this histology <a href="../papers/39305899.html">PMID:39305899</a>.</li>
 <li>NCI-60 CellMiner pharmacogenomics study identified EGFR-pathway genomic features associated with gefitinib sensitivity in colon cancer cell lines <a href="../papers/22802077.html">PMID:22802077</a></li>
 <li>TCGA lung squamous study (178 tumors) assessed <a href="../genes/EGFR.html">EGFR</a> pathway context; gefitinib efficacy limited by rarity of EGFR-activating mutations in squamous histology <a href="../papers/22960745.html">PMID:22960745</a></li>
-<li>Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/24735922.html">PMID:24735922</a></li>
+<li>Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/25369299.html">PMID:25369299</a></li>
 <li>Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via <a href="../genes/EGFR.html">EGFR</a> inhibition; gefitinib trials in cSCC noted alongside <a href="../drugs/cetuximab.html">cetuximab</a> in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases <a href="../papers/25303977.html">PMID:25303977</a></li>
 <li>Cited as the sole phase II agent trialed in metastatic cutaneous SCC (cSCC), reporting an 18% CR rate; the authors argue <a href="../genes/EGFR.html">EGFR</a> pathway biomarker refinement (<a href="../genes/EGFR.html">EGFR</a> S720F, amplification) is needed before uniform <a href="../genes/EGFR.html">EGFR</a> targeting in this disease <a href="../papers/25589618.html">PMID:25589618</a></li>
-<li>First-generation EGFR TKI; low-cost and broadly accessible in India for young-onset NSCLC patients with EGFR mutations; review cites enrichment of EGFR exon 19 deletions (52.6% of EGFR-mutant cases) in young patients as rationale for first-line use <a href="../papers/27346245.html">PMID:27346245</a></li>
+<li>First-generation EGFR TKI; low-cost and broadly accessible in India for young-onset NSCLC patients with EGFR mutations; review cites enrichment of EGFR exon 19 deletions (52.6% of EGFR-mutant cases) in young patients as rationale for first-line use <a href="../papers/40958859.html">PMID:40958859</a></li>
 <li>Mentioned as first-generation EGFR TKI in 860-patient MSK-IMPACT LUAD cohort context; L861Q and exon 18 deletion alleles had significantly lower clinical-benefit rates with first-generation TKIs, supporting evaluation of second/third-generation agents over gefitinib for these alleles <a href="../papers/28336552.html">PMID:28336552</a>.</li>
 <li>In MCF7 functional validation, gefitinib (EGFR inhibitor) reversed fulvestrant resistance conferred by <a href="../genes/EGFR.html">EGFR</a> overexpression, parallel to erlotinib, supporting EGFR inhibitors as mechanistically justified combination partners for EGFR-amplified endocrine-resistant HR+ breast cancer <a href="../papers/30205045.html">PMID:30205045</a>.</li>
 </ul>
@@ -204,15 +207,15 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/18948947.html">PMID:18948947</a> — Ding et al.&nbsp;2008, <em>Nature</em>. Exome-scale somatic mutation landscape of 188 <a href="../cancer_types/LUAD.html">LUAD</a> tumours; mutual exclusivity of EGFR and <a href="../genes/KRAS.html">KRAS</a> mutations supports TKI stratification.</li>
 <li><a href="../papers/39305899.html">PMID:39305899</a> — Al Shihabi et al.&nbsp;2024, <em>Cell Stem Cell</em>. Sarcoma PDTO functional precision-medicine screen; gefitinib resistance associated with progressive disease at follow-up.</li>
+<li><a href="../papers/22802077.html">PMID:22802077</a></li>
+<li><a href="../papers/22960745.html">PMID:22960745</a></li>
+<li><a href="../papers/25369299.html">PMID:25369299</a></li>
+<li><a href="../papers/25303977.html">PMID:25303977</a></li>
+<li><a href="../papers/25589618.html">PMID:25589618</a></li>
+<li><a href="../papers/40958859.html">PMID:40958859</a></li>
+<li><a href="../papers/28336552.html">PMID:28336552</a></li>
+<li><a href="../papers/30205045.html">PMID:30205045</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/22802077.html">PMID:22802077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/22960745.html">PMID:22960745</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24735922.html">PMID:24735922</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25303977.html">PMID:25303977</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25589618.html">PMID:25589618</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27346245.html">PMID:27346245</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
 
 

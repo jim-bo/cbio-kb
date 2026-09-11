@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,12 +184,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
 <li>EHC/GBC class characterized by <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/SMAD4.html">SMAD4</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a> loss <a href="../papers/38864854.html">PMID:38864854</a>.</li>
-<li>Largest single-institution genomic characterization of gallbladder carcinoma (233 patients / 244 samples via MSK-IMPACT): most frequent oncogenic alterations are <a href="../genes/TP53.html">TP53</a> (63%), <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (21%), <a href="../genes/SMAD4.html">SMAD4</a> (19%), <a href="../genes/ARID1A.html">ARID1A</a> (18%), and <a href="../genes/ERBB2.html">ERBB2</a> (15%); <a href="../genes/SMAD4.html">SMAD4</a> and <a href="../genes/STK11.html">STK11</a> mutations independently associated with reduced <a href="../cancer_types/OS.html">OS</a> in metastatic disease; 35% of patients harbored actionable alterations (OncoKB levels 1/3A/3B) and 18% received biomarker-directed therapy <a href="../papers/36228155.html">PMID:36228155</a></li>
+<li>Largest single-institution genomic characterization of gallbladder carcinoma (233 patients / 244 samples via MSK-IMPACT): most frequent oncogenic alterations are <a href="../genes/TP53.html">TP53</a> (63%), <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (21%), <a href="../genes/SMAD4.html">SMAD4</a> (19%), <a href="../genes/ARID1A.html">ARID1A</a> (18%), and <a href="../genes/ERBB2.html">ERBB2</a> (15%); <a href="../genes/SMAD4.html">SMAD4</a> and <a href="../genes/STK11.html">STK11</a> mutations independently associated with reduced OS in metastatic disease; 35% of patients harbored actionable alterations (OncoKB levels 1/3A/3B) and 18% received biomarker-directed therapy <a href="../papers/36228155.html">PMID:36228155</a></li>
 <li>Whole-exome sequencing of 16 gallbladder carcinomas (8 discovery + 8 prevalence screen) showed <a href="../genes/TP53.html">TP53</a> as the dominant driver (44% combined), with <a href="../genes/PBRM1.html">PBRM1</a> in 25%. Absent IDH1/IDH2 and BAP1/ARID1A mutations contrast sharply with intrahepatic cholangiocarcinoma, supporting genetically distinct biology despite shared biliary origin. <a href="../papers/24185509.html">PMID:24185509</a></li>
-<li>Desmoplastic stroma drives GBC progression via CAF-secreted <a href="../genes/SEMA7A.html">SEMA7A</a> (upregulated on stiff 16 kPa matrix through YAP1/WWTR1/TEAD1), which signals through <a href="../genes/ITGB1.html">ITGB1</a> on tumor cells to activate AKT1/EP300, promoting EMT and stemness; high stromal <a href="../genes/SEMA7A.html">SEMA7A</a> associated with lymph node metastasis and shorter <a href="../cancer_types/OS.html">OS</a> in 86 patients <a href="../papers/24997986.html">PMID:24997986</a></li>
-<li>Review includes gallbladder cancer (GBC) in its scope of hepatobiliary malignancies affected by gut-liver axis dysregulation; bile acid metabolic reprogramming and gut microbiota changes described for the broader biliary tract cancer spectrum that encompasses GBC. <a href="../papers/25608663.html">PMID:25608663</a></li>
-<li>MSK-IMPACT sequencing of 81 primary GBC tumors from three international centers (US, Chile, Japan) found <a href="../genes/TP53.html">TP53</a> mutated in 58%, <a href="../genes/SMAD4.html">SMAD4</a> in 31% (independently associated with worse <a href="../cancer_types/OS.html">OS</a>; HR 2.01, p=0.043), <a href="../genes/ARID1A.html">ARID1A</a> in 25% (absent in Japanese patients), and <a href="../genes/PIK3CA.html">PIK3CA</a> in 12% (absent in Japanese patients); 80% of tumors harbored ≥1 actionable alteration; dataset <a href="../datasets/gbc_msk_2018.html">gbc_msk_2018</a> <a href="../papers/30427539.html">PMID:30427539</a></li>
+<li>Desmoplastic stroma drives GBC progression via CAF-secreted <a href="../genes/SEMA7A.html">SEMA7A</a> (upregulated on stiff 16 kPa matrix through YAP1/WWTR1/TEAD1), which signals through <a href="../genes/ITGB1.html">ITGB1</a> on tumor cells to activate AKT1/EP300, promoting EMT and stemness; high stromal <a href="../genes/SEMA7A.html">SEMA7A</a> associated with lymph node metastasis and shorter OS in 86 patients <a href="../papers/40830485.html">PMID:40830485</a></li>
+<li>Review includes gallbladder cancer (GBC) in its scope of hepatobiliary malignancies affected by gut-liver axis dysregulation; bile acid metabolic reprogramming and gut microbiota changes described for the broader biliary tract cancer spectrum that encompasses GBC. <a href="../papers/41018102.html">PMID:41018102</a></li>
+<li>MSK-IMPACT sequencing of 81 primary GBC tumors from three international centers (US, Chile, Japan) found <a href="../genes/TP53.html">TP53</a> mutated in 58%, <a href="../genes/SMAD4.html">SMAD4</a> in 31% (independently associated with worse OS; HR 2.01, p=0.043), <a href="../genes/ARID1A.html">ARID1A</a> in 25% (absent in Japanese patients), and <a href="../genes/PIK3CA.html">PIK3CA</a> in 12% (absent in Japanese patients); 80% of tumors harbored ≥1 actionable alteration; dataset <a href="../datasets/gbc_msk_2018.html">gbc_msk_2018</a> <a href="../papers/30427539.html">PMID:30427539</a></li>
 <li>Wu et al.&nbsp;pan-cancer Asian cohort (<a href="../datasets/pan_origimed_2020.html">pan_origimed_2020</a>, n=10,194): GBC included among 25 principal tumor types profiled with the OrigiMed CSYS 450-gene panel; biliary-tract cancers collectively showed <a href="../genes/ARID1A.html">ARID1A</a> truncating mutations and <a href="../genes/KRAS.html">KRAS</a> GoF actionable targets <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Among 1,254 MSK-IMPACT-sequenced biliary tract cancers, 277 (22.1%) were gallbladder cancer, with higher median TMB (4.1 vs 2.6 mut/Mb) and more whole-genome doubling (32% vs 20.7%) than intrahepatic cholangiocarcinoma, and enrichment of <a href="../genes/KRAS.html">KRAS</a> G13D and <a href="../genes/ERBB2.html">ERBB2</a> alterations relative to <a href="../cancer_types/IHCH.html">IHCH</a> <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -195,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li>Used as a reference class to define biliary-class <a href="../cancer_types/IHCH.html">IHCH</a>, which carries markedly worse <a href="../cancer_types/OS.html">OS</a> than HCC-class IHC <a href="../papers/38864854.html">PMID:38864854</a>.</li>
+<li>Used as a reference class to define biliary-class <a href="../cancer_types/IHCH.html">IHCH</a>, which carries markedly worse OS than HCC-class IHC <a href="../papers/38864854.html">PMID:38864854</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
@@ -204,12 +208,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/38864854.html">PMID:38864854</a></p></li>
 <li><p><a href="../papers/36228155.html">PMID:36228155</a></p></li>
 <li><p><a href="../papers/24185509.html">PMID:24185509</a></p></li>
-<li><p><a href="../papers/24997986.html">PMID:24997986</a></p></li>
-<li><p><a href="../papers/25608663.html">PMID:25608663</a></p></li>
+<li><p><a href="../papers/40830485.html">PMID:40830485</a></p></li>
+<li><p><a href="../papers/41018102.html">PMID:41018102</a></p></li>
 <li><p><a href="../papers/30427539.html">PMID:30427539</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/42360806.html">PMID:42360806</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

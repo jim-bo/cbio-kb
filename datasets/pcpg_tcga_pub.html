@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>TCGA Pheochromocytoma and Paraganglioma (PCPG, Cancer Cell 2017)</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The pcpg_tcga_pub dataset is the TCGA pheochromocytoma and paraganglioma (PCPG) publication cohort, comprising multi-platform molecular profiling of 173 PCC/PGL tumors. Published in Cancer Cell (2017) by the TCGA PCPG Analysis Working Group, it represents the largest integrated genomic characterization of these rare neuroendocrine tumors. The study defines four molecular subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical admixture), identifies <a href="../genes/CSDE1.html">CSDE1</a> as a novel somatically-mutated driver, and discovers recurrent fusion genes involving <a href="../genes/MAML3.html">MAML3</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NGFR.html">NGFR</a>, and <a href="../genes/NF1.html">NF1</a>. Head and neck paragangliomas were excluded due to insufficient post-embolization tumor tissue.</p>
+<p>The pcpg_tcga_pub dataset is the TCGA pheochromocytoma and paraganglioma (<a href="../cancer_types/PCPG.html">PCPG</a>) publication cohort, comprising multi-platform molecular profiling of 173 PCC/PGL tumors. Published in Cancer Cell (2017) by the TCGA PCPG Analysis Working Group, it represents the largest integrated genomic characterization of these rare neuroendocrine tumors. The study defines four molecular subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical <a href="../methods/admixture.html">admixture</a>), identifies <a href="../genes/CSDE1.html">CSDE1</a> as a novel somatically-mutated driver, and discovers recurrent fusion genes involving <a href="../genes/MAML3.html">MAML3</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NGFR.html">NGFR</a>, and <a href="../genes/NF1.html">NF1</a>. Head and neck paragangliomas were excluded due to insufficient post-embolization tumor tissue.</p>
 </section>
 <section id="composition" class="level2">
 <h2 class="anchored" data-anchor-id="composition">Composition</h2>
@@ -198,7 +201,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="papers-using-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="papers-using-this-cohort">Papers using this cohort</h2>
 <ul>
-<li><a href="../papers/28162975.html">PMID:28162975</a> — TCGA PCPG Analysis Working Group 2017. Multi-platform characterization of 173 PCC/PGLs; identified <a href="../genes/CSDE1.html">CSDE1</a> as a novel driver, discovered recurrent MAML3/BRAF/NGFR/NF1 fusions, defined four molecular subtypes, and established the Wnt-altered subtype (<a href="../genes/MAML3.html">MAML3</a> fusions + CSDE1 mutations) as a marker of aggressive/metastatic disease.</li>
+<li><a href="../papers/28162975.html">PMID:28162975</a> — TCGA PCPG Analysis Working Group 2017. Multi-platform characterization of 173 PCC/PGLs; identified <a href="../genes/CSDE1.html">CSDE1</a> as a novel driver, discovered recurrent MAML3/BRAF/NGFR/NF1 fusions, defined four molecular subtypes, and established the Wnt-altered subtype (<a href="../genes/MAML3.html">MAML3</a> fusions + <a href="../genes/CSDE1.html">CSDE1</a> mutations) as a marker of aggressive/metastatic disease.</li>
+<li><a href="../papers/40097403.html">PMID:40097403</a> — A5 consortium germline <a href="../genes/SDHB.html">SDHB</a> PCPG study (94 tumors, 79 patients): TCGA-PCPG RNA-seq, 450K methylation array, and small-RNA-seq data (via GDC) used as an external comparator cohort.</li>
 </ul>
 </section>
 <section id="notable-findings-derived-from-this-cohort" class="level2">
@@ -208,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Pathogenic germline mutations in eight known susceptibility genes detected in 46/173 (27%): <a href="../genes/SDHB.html">SDHB</a> (9%), <a href="../genes/RET.html">RET</a> (6%), <a href="../genes/VHL.html">VHL</a> (4%), <a href="../genes/NF1.html">NF1</a> (3%); rarer germline events in <a href="../genes/SDHD.html">SDHD</a>, <a href="../genes/MAX.html">MAX</a>, <a href="../genes/EGLN1.html">EGLN1</a>, <a href="../genes/TMEM127.html">TMEM127</a> <a href="../papers/28162975.html">PMID:28162975</a>.</li>
 <li>Low somatic mutation rate (mean 0.67 mutations/Mb), among the lowest across TCGA cancer types <a href="../papers/28162975.html">PMID:28162975</a>.</li>
 <li>Five MutSig2-significant somatic driver genes (q&lt;0.05): <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/EPAS1.html">EPAS1</a>, <a href="../genes/RET.html">RET</a>, and newly identified <a href="../genes/CSDE1.html">CSDE1</a> <a href="../papers/28162975.html">PMID:28162975</a>.</li>
-<li>Recurrent fusion genes: <a href="../genes/UBTF.html">UBTF</a>–<a href="../genes/MAML3.html">MAML3</a> (7 tumors), <a href="../genes/TCF4.html">TCF4</a>–<a href="../genes/MAML3.html">MAML3</a> (1 tumor), KIAA1737–<a href="../genes/NGFR.html">NGFR</a>, RUNDC1–<a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NF1.html">NF1</a>–RAB11FIP4; 10 tumors total were MAML3 fusion-positive <a href="../papers/28162975.html">PMID:28162975</a>.</li>
+<li>Recurrent fusion genes: <a href="../genes/UBTF.html">UBTF</a>–<a href="../genes/MAML3.html">MAML3</a> (7 tumors), <a href="../genes/TCF4.html">TCF4</a>–<a href="../genes/MAML3.html">MAML3</a> (1 tumor), KIAA1737–<a href="../genes/NGFR.html">NGFR</a>, RUNDC1–<a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NF1.html">NF1</a>–RAB11FIP4; 10 tumors total were <a href="../genes/MAML3.html">MAML3</a> fusion-positive <a href="../papers/28162975.html">PMID:28162975</a>.</li>
 <li>Four mRNA expression subtypes: kinase signaling (NF1/RET/HRAS/TMEM127-enriched), pseudohypoxia (SDH/VHL/EPAS1-enriched), Wnt-altered (MAML3 fusions + CSDE1 mutations, associated with aggressive disease and metastasis), cortical admixture (elevated adrenocortical markers, <a href="../genes/MAX.html">MAX</a> germline mutations) <a href="../papers/28162975.html">PMID:28162975</a>.</li>
 <li>Wnt-altered subtype MAML3 fusion-positive tumors overexpressed MAML3 2.7-fold (p&lt;5e-6), showed expansive hypomethylation (4,229 significant probes), and activated Wnt/Hedgehog signaling (<a href="../genes/WNT4.html">WNT4</a>, <a href="../genes/WNT5A.html">WNT5A</a>, <a href="../genes/GLI2.html">GLI2</a>) <a href="../papers/28162975.html">PMID:28162975</a>.</li>
 <li>Markers of poor aggressive-disease-free survival: MAML3 fusion, <a href="../genes/SDHB.html">SDHB</a> germline mutation, somatic <a href="../genes/SETD2.html">SETD2</a> or <a href="../genes/ATRX.html">ATRX</a> mutation, high somatic mutation total, Wnt-altered and pseudohypoxia mRNA subtypes, hypermethylated DNA methylation subtype <a href="../papers/28162975.html">PMID:28162975</a>.</li>
@@ -219,8 +223,9 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>cBioPortal study: pcpg_tcga_pub</li>
 <li>Published: TCGA PCPG Analysis Working Group, Cancer Cell 2017.</li>
+<li><a href="../papers/40097403.html">PMID:40097403</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

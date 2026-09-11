@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Clinical and biological implications of driver mutations in myelodysplastic syndromes – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24030381.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24030381.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Clinical and biological implications of driver mutations in myelodysplastic syndromes</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Elli Papaemmanuil </p>
+             <p>Moritz Gerstung </p>
+             <p>Luca Malcovati </p>
+             <p>Sudhir Tauro </p>
+             <p>Gunes Gundem </p>
+             <p>Peter Van Loo </p>
+             <p>Chris J Yoon </p>
+             <p>Peter Ellis </p>
+             <p>David C Wedge </p>
+             <p>Andrea Pellagatti </p>
+             <p>Adam Shlien </p>
+             <p>Michael John Groves </p>
+             <p>Simon A Forbes </p>
+             <p>Keiran Raine </p>
+             <p>Jon Hinton </p>
+             <p>Laura J Mudie </p>
+             <p>Stuart McLaren </p>
+             <p>Claire Hardy </p>
+             <p>Calli Latimer </p>
+             <p>Matteo G Della Porta </p>
+             <p>Sarah O’Meara </p>
+             <p>Ilaria Ambaglio </p>
+             <p>Anna Galli </p>
+             <p>Adam P Butler </p>
+             <p>Gunilla Walldin </p>
+             <p>Jon W Teague </p>
+             <p>Lynn Quek </p>
+             <p>Alex Sternberg </p>
+             <p>Carlo Gambacorti-Passerini </p>
+             <p>Nicholas C P Cross </p>
+             <p>Anthony R Green </p>
+             <p>Jacqueline Boultwood </p>
+             <p>Paresh Vyas </p>
+             <p>Eva Hellstrom-Lindberg </p>
+             <p>David Bowen </p>
+             <p>Mario Cazzola </p>
+             <p>Michael R Stratton </p>
+             <p>Peter J Campbell </p>
+             <p>Chronic Myeloid Disorders Working Group of the International Cancer Genome Consortium </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1182/blood-2013-08-518886">10.1182/blood-2013-08-518886</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24030381 · <strong>DOI:</strong> 10.1182/blood-2013-08-518886 · <strong>Journal:</strong> Blood (2013), 122(22):3616–3627</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Papaemmanuil, Campbell and colleagues, for the ICGC Chronic Myeloid Disorders Working Group, sequenced 111 cancer genes in 738 patients with myelodysplastic syndromes (<a href="../cancer_types/MDS.html">MDS</a>) or closely related neoplasms, including chronic myelomonocytic leukemia (<a href="../cancer_types/CMML.html">CMML</a>) and MDS/MPN. They used tumor-only, whole-genome-amplified DNA with no matched germline. Combining sequencing with cytogenetics, 78% of patients had at least one oncogenic lesion. Oncogenic mutations were found in 43 genes, led by <a href="../genes/SF3B1.html">SF3B1</a> (24%), <a href="../genes/TET2.html">TET2</a> (22%) and <a href="../genes/SRSF2.html">SRSF2</a> (14%). The authors found 46 significant pairwise gene–gene associations, with co-occurrence and mutual exclusivity centered on spliceosome genes and epigenetic modifiers. Using allele fractions, they inferred that splicing and DNA-methylation mutations occur early and chromatin and signaling mutations occur later. This led them to propose a hypothesis of genetic “predestination”, in which early driver mutations, typically in RNA-splicing genes, shape the later trajectory of clonal evolution. Clonal and subclonal driver mutations carried the same prognostic weight. Leukemia-free survival fell steadily as the number of driver lesions rose, from a median of 49 months with 1 lesion to 4 months with ≥6. This effect held after accounting for IPSS (<a href="../papers/24030381.html">PMID:24030381</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 738 patients</strong> sequenced; <strong>595 had outcome data</strong>; median follow-up 12 months (range 0–155). 415 (56%) were male, and mean age was 68 ± 13 years (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Disease classification</strong> (WHO 2008, except that RCMD-RS was kept as a separate WHO 2002 category). Counts are from Table 1:
+<ul>
+<li><strong>RA:</strong> 139 (19%)</li>
+<li><strong>RARS:</strong> 92 (12%)</li>
+<li><strong>RARS-T:</strong> 17 (2%) (<a href="../cancer_types/MDSMPNRST.html">MDSMPNRST</a>)</li>
+<li><strong>RCMD:</strong> 126 (17%)</li>
+<li><strong>RCMD-RS:</strong> 59 (8%)</li>
+<li><strong>RAEB:</strong> 167 (23%) (<a href="../cancer_types/MDSEB.html">MDSEB</a>)</li>
+<li><strong>5q-:</strong> 20 (3%) (<a href="../cancer_types/MDSID5Q.html">MDSID5Q</a>)</li>
+<li><strong><a href="../cancer_types/CMML.html">CMML</a>:</strong> 70 (9%)</li>
+<li><strong>MDS-MPN:</strong> 3 (0.4%)</li>
+<li><strong>MDS-U:</strong> 10 (1%)</li>
+<li><strong>MDS-AML (progressive disease, <a href="../cancer_types/AML.html">AML</a>):</strong> 35 (5%)</li>
+</ul>
+RARS and RCMD-RS together make up the ring-sideroblast <a href="../cancer_types/MDS.html">MDS</a> group (<a href="../cancer_types/MDSRS.html">MDSRS</a>). Overall, 603 patients had <a href="../cancer_types/MDS.html">MDS</a> proper (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Baseline features:</strong>
+<ul>
+<li>Hemoglobin 9.9 ± 2.0 g/dL, neutrophils 3.0 ± 3.4 ×10⁹/L, platelets 191 ± 181 ×10⁹/L.</li>
+<li>Ring sideroblasts &gt;15% in 173/529 (33%); marrow blasts &gt;5% in 202 (27%).</li>
+<li>Karyotype normal in 425, abnormal in 213, and failed or not done in 100.</li>
+<li>During follow-up, 66/595 (11%) transformed to leukemia and 234/595 (39%) died (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>DNA source:</strong> peripheral-blood granulocytes (n = 431) or bone-marrow mononuclear cells (n = 307). Germline DNA was generally not available (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Assay:</strong>
+<ul>
+<li>All DNA underwent <a href="../methods/whole-genome-amplification.html">whole-genome-amplification</a>.</li>
+<li>An RNA-bait capture panel of 111 genes was then sequenced (<a href="../methods/targeted-dna-seq.html">targeted-dna-seq</a>), using 96-well barcoded libraries on 2 lanes of an Illumina HiSeq. Genes were chosen for prior implication in myeloid disease, recurrence in common cancers, in-house candidate status, or location in common copy-number-altered regions.</li>
+<li>Calling used in-house algorithms against an unrelated reference sample, followed by a custom stringent variant-selection pipeline. This yielded 2260 high-confidence variants.</li>
+<li>Variants were then triaged into “driver mutations”, “possible oncogenic” or “unknown significance”, based on literature-defined expected mutation patterns (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Cytogenetics:</strong> conventional bone-marrow <a href="../methods/karyotyping.html">karyotyping</a>. Copy-number profiles were also derived from sequencing read counts (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Validation controls (6 datasets):</strong>
+<ul>
+<li>Matched tumor/constitutional <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> for 10 WGA samples.</li>
+<li>18 technical replicates.</li>
+<li>Prior <a href="../genes/SF3B1.html">SF3B1</a> and <a href="../genes/TET2.html">TET2</a> calls.</li>
+<li>WGA plus panel sequencing of 22 normal DNAs.</li>
+<li>The same pipeline applied to 56 normal blood exomes.</li>
+<li>Exome or whole-genome data from 317 constitutional DNA samples (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Statistics:</strong>
+<ul>
+<li>Pairwise associations: Fisher tests with multiple-testing correction.</li>
+<li>Univariate tests: log-rank on leukemia-free survival.</li>
+<li>Multivariate models: <a href="../methods/cox-proportional-hazards.html">cox-proportional-hazards</a> models with multiple imputation of missing data and stability selection. Variables were selected with <a href="../methods/lasso-regression.html">lasso-regression</a>, and accuracy was averaged over 5-fold cross-validation.</li>
+<li>Clonal relationships: Pearson goodness-of-fit tests on variant allele fractions, followed by <a href="../methods/phylogenetic-tree-reconstruction.html">phylogenetic-tree-reconstruction</a>. Global temporal ordering used a <a href="../methods/bradley-terry-model.html">bradley-terry-model</a> (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Data deposition:</strong> sequence data were deposited at the European Genome-Phenome Archive. No accession is given in the article text (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>cBioPortal dataset:</strong>
+<ul>
+<li>This paper is one of three publications cited by the cBioPortal study <a href="../datasets/mds_mskcc_2020.html">mds_mskcc_2020</a> (“Myelodysplastic (MSK, 2020)”; 4231 samples; hg19). The other two are <a href="../papers/27276561.html">PMID:27276561</a> (Papaemmanuil et al., NEJM 2016) and <a href="../papers/30333627.html">PMID:30333627</a> (Tyner et al., Nature 2018).</li>
+<li>The portal sample count therefore does not correspond to this paper’s 738-patient cohort.</li>
+</ul></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Validation of tumor-only calling:</strong>
+<ul>
+<li>In 10 patients with matched exomes, all 21 somatic variants in the 111 genes were detected and 20/21 passed filters (95.2% sensitivity). Every variant annotated as a driver was confirmed somatic.</li>
+<li>No oncogenic variants were called in 78 constitutional samples (22 WGA-screened normals plus 56 normal blood exomes).</li>
+<li>All 147 previously known <a href="../genes/SF3B1.html">SF3B1</a> mutations were recovered, plus 11 that had been missed earlier because of poor coverage. For <a href="../genes/TET2.html">TET2</a>, 20/21 known mutations (95%) were recovered in 184 patients, plus 3 additional ones.</li>
+<li>WGA did not significantly distort variant allele fractions (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Mutational landscape:</strong>
+<ul>
+<li>Oncogenic mutations were found in 43 genes, led by <a href="../genes/SF3B1.html">SF3B1</a> (24%), <a href="../genes/TET2.html">TET2</a> (22%) and <a href="../genes/SRSF2.html">SRSF2</a> (14%).</li>
+<li>Only 4 genes were mutated in &gt;10% of patients and 3 more in 5–10%. The remaining 36 genes were each mutated in &lt;5% of patients, but together they contributed 33.5% of all mutations (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Copy number from sequencing:</strong>
+<ul>
+<li>Credible copy-number profiles were obtained for 629/738 patients (85%), and abnormalities were detected in 101 (13%).</li>
+<li>Detected changes included deletions of 5q, 11q, 20q and 17p, monosomy 7, trisomies 8 and 21, and isochromosome X.</li>
+<li>Sequencing also found uniparental disomy that cytogenetics cannot see (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Driver yield:</strong>
+<ul>
+<li>549/738 patients (74%; 95% CI 71–77%) had ≥1 oncogenic point mutation or MDS-related copy-number change detectable by sequencing. Cytogenetics alone found abnormalities in 33%, and sequencing plus cytogenetics raised the yield to 78%.</li>
+<li>43% of patients had 2–3 oncogenic lesions, and 10% had 4–8 (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Gene–gene interactions:</strong> 46 gene pairs were significant at FDR &lt;10% (<a href="../papers/24030381.html">PMID:24030381</a>).
+<ul>
+<li>Spliceosome-gene mutations were mutually exclusive, and <a href="../genes/TET2.html">TET2</a> and <a href="../genes/IDH2.html">IDH2</a> were mutually exclusive.</li>
+<li>Some exclusive pairs cannot be explained by redundancy within one pathway. <a href="../genes/EZH2.html">EZH2</a> and <a href="../genes/SRSF2.html">SRSF2</a> mutations were never found together (q = 0.04), and <a href="../genes/IDH2.html">IDH2</a> was mutually exclusive with <a href="../genes/SF3B1.html">SF3B1</a>.</li>
+<li>By contrast, <a href="../genes/IDH2.html">IDH2</a> was strongly co-mutated with <a href="../genes/SRSF2.html">SRSF2</a> (OR 6.7, 95% CI 4.9–9.3; q = 0.0004).</li>
+<li><a href="../genes/SF3B1.html">SF3B1</a> and <a href="../genes/SRSF2.html">SRSF2</a> had strikingly different sets of co-mutated genes. <a href="../genes/SF3B1.html">SF3B1</a> was linked to ring-sideroblast MDS (<a href="../cancer_types/MDSRS.html">MDSRS</a>), while <a href="../genes/SRSF2.html">SRSF2</a> was enriched in <a href="../cancer_types/CMML.html">CMML</a>.</li>
+</ul></li>
+<li><strong>Clonal architecture:</strong> among 313 patients with ≥2 drivers (<a href="../papers/24030381.html">PMID:24030381</a>):
+<ul>
+<li>62% had only clonal drivers.</li>
+<li>In 4%, the subclonal fractions were too low to resolve phylogeny.</li>
+<li>34% had strong evidence of both clonal and subclonal drivers, which allowed pairwise precedences to be defined. 107 patients contributed informative precedences.</li>
+</ul></li>
+<li><strong>Temporal ordering:</strong>
+<ul>
+<li>A Bradley–Terry ranking, with <a href="../genes/ASXL1.html">ASXL1</a> as the reference point, showed that RNA-splicing and DNA-methylation mutations occur early. Chromatin-modification and signaling mutations tend to occur later.</li>
+<li>These were trends rather than <a href="../methods/absolute.html">absolute</a> rules. The authors proposed the genetic “predestination” hypothesis on this basis (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Single-gene prognosis:</strong>
+<ul>
+<li>Of 24 genes mutated in &gt;5 patients, 8 were associated with significantly worse leukemia-free survival (LFS). One gene, <a href="../genes/SF3B1.html">SF3B1</a>, was associated with better LFS (supplemental Figure 8; the 8 adverse genes are not listed in the main text).</li>
+<li>These results replicated prior studies (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Clonal = subclonal for prognosis:</strong> six genes with published survival effects had ≥5 patients carrying subclonal mutations: <a href="../genes/TET2.html">TET2</a>, <a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/SRSF2.html">SRSF2</a>, <a href="../genes/EZH2.html">EZH2</a>, <a href="../genes/CBL.html">CBL</a> and <a href="../genes/RUNX1.html">RUNX1</a>. For all six, LFS did not differ significantly between clonal and subclonal mutations (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Driver number predicts outcome:</strong>
+<ul>
+<li>LFS worsened with the combined number of oncogenic mutations and cytogenetic lesions (P &lt; 0.0001). The trend held with gene mutations only (P = 0.002) and remained significant independent of <a href="../genes/TP53.html">TP53</a> or <a href="../genes/SF3B1.html">SF3B1</a> status.</li>
+<li>Median LFS was 49, 42, 27, 18 and 4 months for 1, 2, 3, 4–5 and ≥6 lesions. The rate of transformation to acute leukemia rose monotonically with driver number (P &lt; 0.0001).</li>
+<li>Driver count added prognostic information after stratification by IPSS (P = 0.0004) (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Driver-negative patients:</strong>
+<ul>
+<li>22% of patients had no known oncogenic point mutation or cytogenetic aberration. Their LFS and transformation rates resembled those of patients with 1–2 drivers.</li>
+<li>DNA source (marrow vs.&nbsp;blood) did not systematically affect the driver distribution (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Prognostic modeling (<a href="../methods/ipss.html">ipss</a> vs.&nbsp;genomics):</strong>
+<ul>
+<li>The time-dependent AUC at 90 months was 0.76 for IPSS and 0.80 for all standard clinical variables. Adding point mutations gave 0.82, a marginal and nonsignificant gain.</li>
+<li>The standard and genomic curves broadly overlapped, which suggests the two carry partly redundant prognostic information.</li>
+<li>IPSS-R could not be calculated because of missing data (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Genotype–phenotype:</strong>
+<ul>
+<li><a href="../genes/TET2.html">TET2</a> mutations (positive correlation) and del(5q) (negative correlation) were the strongest genetic predictors of hemoglobin.</li>
+<li><a href="../genes/WT1.html">WT1</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/STAG2.html">STAG2</a> and <a href="../genes/NRAS.html">NRAS</a> mutations, and complex karyotype, correlated strongly with marrow blast percentage. <a href="../genes/SF3B1.html">SF3B1</a> predicted a low blast fraction (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Long tail of rare drivers:</strong> 20% of mutations in patients with a single driver fell in genes mutated in &lt;2% of cases. The same was true for 30–40% of additional (3rd, 4th, and later) mutations (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/SF3B1.html">SF3B1</a>:</strong>
+<ul>
+<li>Most frequently mutated gene (24%) and an early event.</li>
+<li>The only gene associated with better LFS.</li>
+<li>Mutually exclusive with <a href="../genes/SRSF2.html">SRSF2</a> and <a href="../genes/IDH2.html">IDH2</a>. Linked to ring sideroblasts (<a href="../cancer_types/MDSRS.html">MDSRS</a>) and predicts a low marrow blast fraction.</li>
+<li>Its co-mutation partners differ sharply from those of <a href="../genes/SRSF2.html">SRSF2</a> (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/TET2.html">TET2</a>:</strong>
+<ul>
+<li>Mutated in 22%; an early DNA-methylation-pathway driver.</li>
+<li>Mutually exclusive with <a href="../genes/IDH2.html">IDH2</a>, which the authors link to shared disordered DNA hydroxymethylation.</li>
+<li>The strongest positive genetic predictor of hemoglobin. Clonal and subclonal mutations carried equivalent LFS risk (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/SRSF2.html">SRSF2</a>:</strong>
+<ul>
+<li>Mutated in 14%; an early splicing driver, enriched in <a href="../cancer_types/CMML.html">CMML</a>.</li>
+<li>Strongly co-mutated with <a href="../genes/IDH2.html">IDH2</a> (OR 6.7). Never co-mutated with <a href="../genes/EZH2.html">EZH2</a> (q = 0.04) and mutually exclusive with <a href="../genes/SF3B1.html">SF3B1</a>.</li>
+<li>Clonal and subclonal mutations had equivalent LFS (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/ASXL1.html">ASXL1</a>:</strong>
+<ul>
+<li>Reference point for the temporal-ordering model. Clonal and subclonal mutations had equivalent LFS.</li>
+<li>10 variants at previously uncharacterized residues (classified VUS) marked significantly worse LFS than ASXL1-wild-type cases (P = 0.03, log-rank), tracking the curve for known oncogenic <a href="../genes/ASXL1.html">ASXL1</a> mutations.</li>
+<li>The authors cite an Asxl1-loss plus Nras mouse model that produced more aggressive disease, as support for the observed ASXL1–<a href="../genes/NRAS.html">NRAS</a> co-mutation (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/IDH2.html">IDH2</a>:</strong>
+<ul>
+<li>Co-mutated with <a href="../genes/SRSF2.html">SRSF2</a>, and mutually exclusive with <a href="../genes/TET2.html">TET2</a> and <a href="../genes/SF3B1.html">SF3B1</a>.</li>
+<li>Correlated with higher marrow blast percentage (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/EZH2.html">EZH2</a>:</strong> a chromatin-modifier driver that is never co-mutated with <a href="../genes/SRSF2.html">SRSF2</a>. Clonal and subclonal mutations had equivalent LFS (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong><a href="../genes/CBL.html">CBL</a> and <a href="../genes/RUNX1.html">RUNX1</a>:</strong> both had published survival effects, and for each, clonal and subclonal mutations carried equivalent LFS risk (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong><a href="../genes/WT1.html">WT1</a>, <a href="../genes/STAG2.html">STAG2</a>, <a href="../genes/NRAS.html">NRAS</a>:</strong> mutations correlated strongly with marrow blast percentage. <a href="../genes/NRAS.html">NRAS</a> is co-mutated with <a href="../genes/ASXL1.html">ASXL1</a> (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong><a href="../genes/TP53.html">TP53</a>:</strong> the prognostic effect of driver number remained significant independent of <a href="../genes/TP53.html">TP53</a> mutation status (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong><a href="../genes/IRF1.html">IRF1</a>, <a href="../genes/CUX1.html">CUX1</a>:</strong>
+<ul>
+<li>Oncogenic <a href="../genes/IRF1.html">IRF1</a> mutations were found; the group had previously seen IRF1 in 1 RARS patient.</li>
+<li><a href="../genes/CUX1.html">CUX1</a>, recently reported in <a href="../cancer_types/AML.html">AML</a>, was also mutated in this cohort (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/EP300.html">EP300</a>, <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/PTEN.html">PTEN</a>:</strong> well-known cancer genes not previously implicated in MDS. Mutations were rare (&lt;2%) but showed the nonsense, splice-site and frameshift pattern typical of other cancers (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong><a href="../genes/SETBP1.html">SETBP1</a>, <a href="../genes/SMC1A.html">SMC1A</a>, <a href="../genes/SMC3.html">SMC3</a>:</strong> not on the 111-gene bait set, because they were described after it was designed. The authors suggest these genes could explain part of the 22% of driver-negative patients (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Cytogenetic lesions:</strong>
+<ul>
+<li>del(5q) was the strongest negative genetic predictor of hemoglobin.</li>
+<li>Complex karyotype correlated with high blast percentage.</li>
+<li>Uniparental disomy was detectable from sequencing data alone (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognosis:</strong> the number of driver mutations plus cytogenetic lesions is one of the strongest predictors of LFS and of transformation to <a href="../cancer_types/AML.html">AML</a>. It adds independent information beyond IPSS (P = 0.0004) (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Subclonal detection matters:</strong> subclonal drivers carried the same LFS risk as clonal drivers in 6 prognostic genes. The authors therefore argue that detecting subclonal mutations could identify high-risk patients early. They also propose sequencing sequential blood samples, for example annually, to catch emerging subclones before higher-risk disease becomes clinically apparent (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Panel breadth:</strong> many drivers are rare. A sizeable share of mutations fall in genes mutated in &lt;2% of patients, so diagnostic screening should sequence a comprehensive set of well-characterized genes (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Tumor-only clinical sequencing is feasible:</strong> the authors present this as the first targeted resequencing of a clinical cohort without matched constitutional DNA. With a stringent pipeline, driver calls were accurate (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Genomic prognostic scores need scale:</strong> adding mutations to standard variables raised the AUC only marginally (0.80 to 0.82, not significant). The authors <a href="../methods/estimate.html">estimate</a> that an IPSS-R-scale cohort (IPSS-R used 7012 patients) may be needed for robust genomically informed prognostic schemes (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>No drug-response findings:</strong> patients were censored when they started disease-modifying therapy (allogeneic transplant, aggressive chemotherapy, or hypomethylating agents). No drug-response associations were analyzed (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>No matched germline DNA:</strong> germline polymorphisms could be misannotated as drivers. Validation controls (95.2% sensitivity; no oncogenic calls in 78 constitutional samples) mitigate but do not eliminate this risk (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Whole-genome amplification</strong> could represent mutations non-uniformly, introduce artifacts, or distort allele burden. Control data showed no significant VAF bias (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>“Predestination” is a hypothesis:</strong> it rests on cross-sectional inference, and the authors state that it needs longitudinal analysis of serial samples from large cohorts (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Conservative annotation:</strong> many variants were left as “unknown significance”. The ASXL1 VUS analysis is exploratory; confirming these variants would require showing they are somatic, recurrent and independently prognostic (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Panel gaps:</strong> the bait set predates <a href="../genes/SETBP1.html">SETBP1</a>, <a href="../genes/SMC1A.html">SMC1A</a> and <a href="../genes/SMC3.html">SMC3</a>. The 22% driver-negative fraction may therefore be overstated (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Clinical data gaps:</strong>
+<ul>
+<li>IPSS-R could not be calculated because of missing data.</li>
+<li>Missing covariates were multiply imputed.</li>
+<li>Ring-sideroblast data were missing for 209 patients.</li>
+<li>Median follow-up was only 12 months (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+</ul></li>
+<li><strong>Copy-number calling from panel reads is preliminary:</strong> the authors suggest adding germline SNP targets to increase sensitivity (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Internal count discrepancy:</strong> the Methods text says 13 patients were “of undefined MDS category or classified as MDS-MPN (including RARS-T)”. Table 1 lists RARS-T 17, MDS-MPN 3 and MDS-U 10, which sum to 30 and give the 738 total (<a href="../papers/24030381.html">PMID:24030381</a>).</li>
+<li><strong>Cross-paper synthesis:</strong>
+<ul>
+<li>The authors justify tumor-only driver calling by pointing to the well-established somatic landscape of large genomics studies, including TCGA AML (<a href="../papers/23634996.html">PMID:23634996</a>). Their in-house calling algorithms were previously described in the Sanger breast-cancer study (<a href="../papers/22722201.html">PMID:22722201</a>).</li>
+<li>The early-splicing and early-epigenetic ordering here can be compared with the clonal-ordering and chromatin–spliceosome findings in AML from the same group (<a href="../papers/27276561.html">PMID:27276561</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Seventy-eight percent of patients had 1 or more oncogenic mutations.” (Key Points/abstract, p.&nbsp;3616)</li>
+<li>“Driver mutations had equivalent prognostic significance, whether clonal or subclonal, and leukemia-free survival deteriorated steadily as numbers of driver mutations increased.” (abstract, p.&nbsp;3616)</li>
+<li>“The splicing factor <a href="../genes/SF3B1.html">SF3B1</a> was the most frequently mutated in the cohort (24%), followed by <a href="../genes/TET2.html">TET2</a> (22%) and <a href="../genes/SRSF2.html">SRSF2</a> (14%).” (p.&nbsp;3620)</li>
+<li>“In total, 549 of 738 (74%; 95% CI, 71% to 77%) patients had at least 1 oncogenic point mutation or MDS-related copy number change detectable by sequencing, whereas cytogenetic studies identified abnormalities in 33%.” (p.&nbsp;3621)</li>
+<li>“<a href="../genes/EZH2.html">EZH2</a> and SRSF2 mutations were never found together (q = 0.04), although they seemingly operate in different pathways.” (p.&nbsp;3623)</li>
+<li>“<a href="../genes/IDH2.html">IDH2</a> shows a clear proclivity for comutation with SRSF2 (odds ratio, 6.7; 95% CI, 4.9–9.3; q = 0.0004), whereas SRSF2 is mutually exclusive with SF3B1.” (p.&nbsp;3623)</li>
+<li>“Strikingly, mutations in genes involved in RNA splicing and DNA methylation occur early, whereas driver mutations in genes involved in chromatin modification and signaling often occur later.” (p.&nbsp;3623)</li>
+<li>“Strikingly, we found no significant difference in leukemia-free survival between clonal and subclonal mutations for the 6 genes with published survival effects in which we observed at least 5 patients with subclonal driver mutations.” (p.&nbsp;3624)</li>
+<li>“The estimated median leukemia-free survival for patients with 1 oncogenic mutation or cytogenetic lesion was 49 months, dropping to 42, 27, 18, and 4 months for patients with 2, 3, 4 to 5, and ≥6 mutations, respectively.” (p.&nbsp;3624)</li>
+<li>“When compared with the IPSS (area under the curve [AUC] = 0.76 at 90 months), standard variable sets show an increase in the prognostic potential (AUC = 0.80 at 90 months) … Incorporation of the point mutation data achieves a marginal nonsignificant increase (AUC = 0.82 at 90 months).” (p.&nbsp;3625)</li>
+<li>“The prognosis for the 10 patients with these mutations was significantly worse than for patients without ASXL1 variants (P = .03, log-rank test).” (p.&nbsp;3625)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24030381.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24030381.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

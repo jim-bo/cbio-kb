@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -192,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 <li>One of three MSK-IMPACT panel generations (IMPACT300/341/410) used for prospective genomic validation of 94 MIBC tumors; <a href="../genes/FANCC.html">FANCC</a> data missing for 6 patients on the 300-gene panel <a href="../papers/30290956.html">PMID:30290956</a></li>
 <li>Applied to 21 of 127 advanced <a href="../cancer_types/HCC.html">HCC</a> tumors in a prospective MSK cohort; TMB and MSI quantified per sample <a href="../papers/30373752.html">PMID:30373752</a></li>
 <li>One of the MSK-IMPACT panel versions used to sequence 81 GBCA tumors across USA, Chile, and Japan; mutation burden normalized to 1.2 Mb panel size <a href="../papers/30427539.html">PMID:30427539</a></li>
-<li>One of three MSK-IMPACT panel versions (341, 410, or 468 genes) used with matched germline normal sequencing to define somatic TMB in 1,662 ICI-treated advanced cancer patients; TMB-high on these panels was independently predictive of <a href="../cancer_types/OS.html">OS</a> (HR 0.61, p = 1.3 × 10⁻⁷) <a href="../papers/30643254.html">PMID:30643254</a></li>
+<li>One of three MSK-IMPACT panel versions (341, 410, or 468 genes) used with matched germline normal sequencing to define somatic TMB in 1,662 ICI-treated advanced cancer patients; TMB-high on these panels was independently predictive of OS (HR 0.61, p = 1.3 × 10⁻⁷) <a href="../papers/30643254.html">PMID:30643254</a></li>
 <li>Glioma tissue biopsies sequenced using IMPACT341, <a href="../methods/IMPACT410.html">IMPACT410</a>, or <a href="../methods/IMPACT468.html">IMPACT468</a> for a benchmark cohort of 553 MSKCC glioma biopsies from 512 patients; results used to compare CSF ctDNA TMB (4.90 mut/Mb) against matched tissue (4.46 mut/Mb) <a href="../papers/30675060.html">PMID:30675060</a></li>
 <li>Used for targeted tumor-normal sequencing of 96 panNET samples from 80 patients at MSK (17% of samples sequenced on <a href="../methods/IMPACT410.html">IMPACT410</a>, 59% on <a href="../methods/IMPACT468.html">IMPACT468</a>), achieving median depth 665.5× <a href="../papers/30687805.html">PMID:30687805</a></li>
 <li>341-gene MSK-IMPACT panel applied to pre-study biopsies from 33 ER+/HER2- metastatic breast cancer patients; <a href="../genes/PIK3CA.html">PIK3CA</a> + <a href="../genes/MAP3K1.html">MAP3K1</a> co-alteration identified in 5/7 (71%) clinical-benefit patients vs.&nbsp;11% in double-wild-type, the highest CBR observed <a href="../papers/31552290.html">PMID:31552290</a>.</li>
@@ -209,6 +212,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Applied in <a href="../datasets/lgsoc_mapk_msk_2022.html">lgsoc_mapk_msk_2022</a> study: IMPACT341 panel (n=8 patients) used as part of MSK-IMPACT targeted sequencing across 119 LGSC patients, identifying MAPK pathway alterations in 60% <a href="../papers/35443055.html">PMID:35443055</a></li>
 <li>Used to sequence 1,417 prostate cancer patients (340 genes) in a study of <a href="../genes/PIK3R1.html">PIK3R1</a> alterations and FDG-PET avidity; one of three IMPACT panel versions (341/410/468) applied across the MSK cohort <a href="../papers/35670774.html">PMID:35670774</a></li>
 <li>One of three MSK-IMPACT panel versions (n=209, 9.8% of 2,138 sarcomas) used in the MSK sarcoma genomic landscape study <a href="../papers/35705560.html">PMID:35705560</a></li>
+<li>One of the four MSK-IMPACT panel versions (341-505 genes) used to screen 66,285 tumor samples for <a href="../genes/MET.html">MET</a> copy-number gain. <a href="../papers/36044468.html">PMID:36044468</a></li>
+<li>One of the MSK-IMPACT panel versions used to sequence 2,638 endometrial carcinomas screened for pathogenic <a href="../genes/ERBB2.html">ERBB2</a> mutations. <a href="../papers/39031567.html">PMID:39031567</a></li>
+<li>One of the MSK-IMPACT panel versions (341-505 genes) used for targeted sequencing of secondary rectal cancers arising after prostate radiotherapy and primary rectal cancer controls. <a href="../papers/40100215.html">PMID:40100215</a></li>
+<li>IMPACT341 sequenced 2,661 of the 54,331 tumors in the 50k-sample MSK-IMPACT pan-cancer hotspot-discovery cohort. <a href="../papers/41895280.html">PMID:41895280</a></li>
+<li>IMPACT341 sequenced 55 of the 1,254 biliary tract cancer samples in this MSK cohort. <a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -225,41 +233,46 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/39214094.html">PMID:39214094</a></li>
 <li><a href="../papers/39753968.html">PMID:39753968</a></li>
 <li><code>schema/ontology/gene_panels.json</code> (<code>genePanelId: IMPACT341</code>)</li>
+<li><a href="../papers/26878173.html">PMID:26878173</a></li>
+<li><a href="../papers/26901067.html">PMID:26901067</a></li>
+<li><a href="../papers/28336552.html">PMID:28336552</a></li>
+<li><a href="../papers/28481359.html">PMID:28481359</a></li>
+<li><a href="../papers/28583311.html">PMID:28583311</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/29316426.html">PMID:29316426</a></li>
+<li><a href="../papers/29337640.html">PMID:29337640</a></li>
+<li><a href="../papers/29420467.html">PMID:29420467</a></li>
+<li><a href="../papers/29848569.html">PMID:29848569</a></li>
+<li><a href="../papers/30052636.html">PMID:30052636</a></li>
+<li><a href="../papers/30068706.html">PMID:30068706</a></li>
+<li><a href="../papers/30205045.html">PMID:30205045</a></li>
+<li><a href="../papers/30290956.html">PMID:30290956</a></li>
+<li><a href="../papers/30373752.html">PMID:30373752</a></li>
+<li><a href="../papers/30427539.html">PMID:30427539</a></li>
+<li><a href="../papers/30643254.html">PMID:30643254</a></li>
+<li><a href="../papers/30675060.html">PMID:30675060</a></li>
+<li><a href="../papers/30687805.html">PMID:30687805</a></li>
+<li><a href="../papers/31552290.html">PMID:31552290</a></li>
+<li><a href="../papers/32317181.html">PMID:32317181</a></li>
+<li><a href="../papers/32791233.html">PMID:32791233</a></li>
+<li><a href="../papers/33509808.html">PMID:33509808</a></li>
+<li><a href="../papers/33765338.html">PMID:33765338</a></li>
+<li><a href="../papers/33795256.html">PMID:33795256</a></li>
+<li><a href="../papers/33863915.html">PMID:33863915</a></li>
+<li><a href="../papers/33963001.html">PMID:33963001</a></li>
+<li><a href="../papers/34405229.html">PMID:34405229</a></li>
+<li><a href="../papers/35120664.html">PMID:35120664</a></li>
+<li><a href="../papers/35377946.html">PMID:35377946</a></li>
+<li><a href="../papers/35443055.html">PMID:35443055</a></li>
+<li><a href="../papers/35670774.html">PMID:35670774</a></li>
+<li><a href="../papers/35705560.html">PMID:35705560</a></li>
+<li><a href="../papers/36044468.html">PMID:36044468</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
+<li><a href="../papers/40100215.html">PMID:40100215</a></li>
+<li><a href="../papers/41895280.html">PMID:41895280</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26878173.html">PMID:26878173</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28583311.html">PMID:28583311</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29337640.html">PMID:29337640</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29420467.html">PMID:29420467</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29848569.html">PMID:29848569</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30052636.html">PMID:30052636</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30290956.html">PMID:30290956</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30373752.html">PMID:30373752</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30427539.html">PMID:30427539</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30643254.html">PMID:30643254</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30675060.html">PMID:30675060</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30687805.html">PMID:30687805</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31552290.html">PMID:31552290</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32317181.html">PMID:32317181</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32791233.html">PMID:32791233</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33509808.html">PMID:33509808</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33765338.html">PMID:33765338</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33795256.html">PMID:33795256</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33863915.html">PMID:33863915</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33963001.html">PMID:33963001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34405229.html">PMID:34405229</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35120664.html">PMID:35120664</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35377946.html">PMID:35377946</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35443055.html">PMID:35443055</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

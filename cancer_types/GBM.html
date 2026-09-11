@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -211,8 +214,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Included in TCGA PanCancer Atlas integrative molecular analysis; IDH1-wildtype <a href="../cancer_types/LGG.html">LGG</a> co-clusters with GBM in iCluster C23; GBM/LGG (IDH1wt) distinguished by EGFR-driven methylation cluster <a href="../papers/29625048.html">PMID:29625048</a></li>
 <li><a href="../genes/EGFR.html">EGFR</a> drives methylation cluster 16 in <a href="../cancer_types/LGG.html">LGG</a> and GBM; LGG/GBM split by methylation cluster not mRNA cluster — IDH1-mutant LGGs occupy methylation cluster 1 (330/351 IDH1-mutant) while EGFR-driven LGG/GBM occupy cluster 16 <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li><a href="../genes/EGFR.html">EGFR</a> altered in 50% of GBM tumors (mutation/amplification/fusion); <a href="../genes/EGFR.html">EGFR</a> amplification co-occurs with KIT/PDGFRA 4q12 amplification in glioma; <a href="../genes/CDK4.html">CDK4</a>+PI3K combination actionable in 7% of GBM <a href="../papers/29625050.html">PMID:29625050</a></li>
-<li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); GBM had shortest median follow-up (~12 months); TCGA-derived median <a href="../cancer_types/OS.html">OS</a>=12.6 months and PFI=6.1 months, consistent with Stupp 2005 standard-care arms <a href="../papers/29625055.html">PMID:29625055</a></li>
-<li>GBM (grade IV) comprised 46/85 (54%) of the adult diffuse glioma liquid-biopsy cohort; in IDH-WT GBM, CSF ctDNA positivity was associated with median <a href="../cancer_types/OS.html">OS</a> of 2.04 vs 9.89 months (ctDNA− log-rank p=6.24×10⁻⁵), and truncal alterations (<a href="../genes/EGFR.html">EGFR</a> amplification, CDKN2A/B deletions) were 100% concordant between CSF and tumor in non-hypermutated cases. <a href="../papers/30675060.html">PMID:30675060</a></li>
+<li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); GBM had shortest median follow-up (~12 months); TCGA-derived median OS=12.6 months and PFI=6.1 months, consistent with Stupp 2005 standard-care arms <a href="../papers/29625055.html">PMID:29625055</a></li>
+<li>GBM (grade IV) comprised 46/85 (54%) of the adult diffuse glioma liquid-biopsy cohort; in IDH-WT GBM, CSF ctDNA positivity was associated with median OS of 2.04 vs 9.89 months (ctDNA− log-rank p=6.24×10⁻⁵), and truncal alterations (<a href="../genes/EGFR.html">EGFR</a> amplification, CDKN2A/B deletions) were 100% concordant between CSF and tumor in non-hypermutated cases. <a href="../papers/30675060.html">PMID:30675060</a></li>
 <li>Longitudinal profiling of 66 recurrent GBM patients treated with PD-1 inhibitors (<a href="../drugs/nivolumab.html">nivolumab</a> or <a href="../drugs/pembrolizumab.html">pembrolizumab</a>; <a href="../datasets/gbm_columbia_2019.html">gbm_columbia_2019</a>) showed <a href="../genes/PTEN.html">PTEN</a> mutations enriched in non-responders (23/32 vs 3/13, OR=8.5, p=0.0063) and MAPK pathway alterations (<a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/PTPN11.html">PTPN11</a>) enriched in responders; TMB did not predict response <a href="../papers/30742119.html">PMID:30742119</a>.</li>
 <li>In a 923-patient glioma cohort, IDH-WT and IDH-mutant glioblastoma (GBM; n=649 IDH-WT) represented the majority; <a href="../genes/BRAF.html">BRAF</a> V600 mutations were clonal and nearly exclusive to epithelioid IDH-WT GBMs (17/17); 32% of patients harbored actionable lesions (OncoKB levels 1-3); 60% of targeted-therapy recipients were IDH-WT GBMs <a href="../papers/31263031.html">PMID:31263031</a>.</li>
 <li>A Mayo Clinic PDX panel of 96 glioblastoma lines (from 261 patients, 36% engraftment rate; 93 IDH-wildtype, 2 IDH-mutant GBM) recapitulated canonical GBM drivers at frequencies comparable to TCGA: <a href="../genes/TERT.html">TERT</a> promoter 86%, <a href="../genes/CDKN2A.html">CDKN2A</a> deletion 70%, <a href="../genes/PTEN.html">PTEN</a> alteration 48%, <a href="../genes/TP53.html">TP53</a> 36%, EGFR alteration 45%; <a href="../genes/PDGFRA.html">PDGFRA</a> amplification was absent from all 83 sequenced PDX despite ~15% expected frequency; <a href="../genes/MGMT.html">MGMT</a> methylation predicted <a href="../drugs/temozolomide.html">temozolomide</a> response <a href="../papers/31852831.html">PMID:31852831</a></li>
@@ -236,28 +239,25 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/18772890.html">PMID:18772890</a> — Cancer Genome Atlas Research Network. Comprehensive genomic characterization defines human glioblastoma genes and core pathways. <em>Nature</em>. 2008.</li>
-<li><a href="../papers/28872634.html">PMID:28872634</a> — Bakas S, et al.&nbsp;Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features. <em>Sci Data</em>. 2017.</li>
-<li><a href="../papers/24120142.html">PMID:24120142</a></li>
-<li><a href="../papers/24336570.html">PMID:24336570</a></li>
-<li><a href="../papers/26824661.html">PMID:26824661</a></li>
+<li><p><a href="../papers/18772890.html">PMID:18772890</a> — Cancer Genome Atlas Research Network. Comprehensive genomic characterization defines human glioblastoma genes and core pathways. <em>Nature</em>. 2008.</p></li>
+<li><p><a href="../papers/28872634.html">PMID:28872634</a> — Bakas S, et al.&nbsp;Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features. <em>Sci Data</em>. 2017.</p></li>
+<li><p><a href="../papers/24120142.html">PMID:24120142</a></p></li>
+<li><p><a href="../papers/24336570.html">PMID:24336570</a></p></li>
+<li><p><a href="../papers/26824661.html">PMID:26824661</a></p></li>
+<li><p><a href="../papers/29596782.html">PMID:29596782</a></p></li>
+<li><p><a href="../papers/29617662.html">PMID:29617662</a></p></li>
+<li><p><a href="../papers/29622463.html">PMID:29622463</a></p></li>
+<li><p><a href="../papers/29625048.html">PMID:29625048</a></p></li>
+<li><p><a href="../papers/29625049.html">PMID:29625049</a></p></li>
+<li><p><a href="../papers/29625050.html">PMID:29625050</a></p></li>
+<li><p><a href="../papers/29625055.html">PMID:29625055</a></p></li>
+<li><p><a href="../papers/30675060.html">PMID:30675060</a></p></li>
+<li><p><a href="../papers/30742119.html">PMID:30742119</a></p></li>
+<li><p><a href="../papers/31263031.html">PMID:31263031</a> — Jonsson et al.&nbsp;MSK glioma prospective cohort (Clinical Cancer Research 2019).</p></li>
+<li><p><a href="../papers/31852831.html">PMID:31852831</a></p></li>
+<li><p><a href="../papers/33577785.html">PMID:33577785</a></p></li>
+<li><p><a href="../papers/35649412.html">PMID:35649412</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29617662.html">PMID:29617662</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29622463.html">PMID:29622463</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625048.html">PMID:29625048</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625050.html">PMID:29625050</a></p>
-<ul>
-<li><a href="../papers/29625055.html">PMID:29625055</a></li>
-<li><a href="../papers/30675060.html">PMID:30675060</a></li>
-<li><a href="../papers/30742119.html">PMID:30742119</a></li>
-<li><a href="../papers/31263031.html">PMID:31263031</a> — Jonsson et al.&nbsp;MSK glioma prospective cohort (Clinical Cancer Research 2019).</li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31852831.html">PMID:31852831</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33577785.html">PMID:33577785</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

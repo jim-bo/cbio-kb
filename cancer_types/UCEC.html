@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -193,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/POLE.html">POLE</a> — exonuclease domain mutations rare in Black patients (1.2% vs.&nbsp;5.8%); favorable prognosis subtype. <a href="../papers/37651310.html">PMID:37651310</a></li>
 <li><a href="../genes/KMT2B.html">KMT2B</a> — mutations enriched in CN-H/TP53abn ECs (16% vs.&nbsp;8%) and carcinosarcomas (31% vs.&nbsp;10%) from Black patients. <a href="../papers/37651310.html">PMID:37651310</a></li>
 <li>TCGA integrated analysis of 373 endometrial carcinomas (307 endometrioid, 53 serous, 13 mixed) proposed four molecular subgroups: <a href="../genes/POLE.html">POLE</a> ultramutated (~7%, improved PFS), MSI hypermutated (~28%), copy-number low (CTNNB1-high), and copy-number high/serous-like (<a href="../genes/TP53.html">TP53</a> ~90%, worse PFS); 93% of endometrioid tumors had PI3K/AKT alterations <a href="../papers/23636398.html">PMID:23636398</a></li>
-<li>Endometrial polyps harbour low-VAF hotspot mutations in canonical UCEC driver genes (<a href="../genes/KRAS.html">KRAS</a> 26%, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/FBXW7.html">FBXW7</a>); KEGG pathway analysis flags ‘endometrial cancer’ as top enriched pathway (FDR p=2.8×10⁻⁵), supporting polyps as potential UCEC precursor lesions <a href="../papers/28445112.html">PMID:28445112</a></li>
+<li>Endometrial polyps harbour low-VAF hotspot mutations in canonical UCEC driver genes (<a href="../genes/KRAS.html">KRAS</a> 26%, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/FBXW7.html">FBXW7</a>); KEGG pathway analysis flags ‘endometrial cancer’ as top enriched pathway (FDR p=2.8×10⁻⁵), supporting polyps as potential UCEC precursor lesions <a href="../papers/41137179.html">PMID:41137179</a></li>
 <li>In the MSK-IMPACT pan-cancer cohort, <a href="../genes/ESR1.html">ESR1</a> hotspot mutations were found in UCEC almost exclusively in post-hormone-therapy metastatic tumors; MSI UCEC patients showed responses to immune checkpoint blockade; <a href="../genes/POLE.html">POLE</a> and MMR mutation signatures were enriched in endometrial lineages. <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>Whole-exome sequencing of 63 clear cell endometrial carcinomas (<a href="../cancer_types/UCCC.html">UCCC</a>) in the <a href="../datasets/uccc_nih_2017.html">uccc_nih_2017</a> cohort revealed molecular heterogeneity: 27% serous-like (TP53/PPP2R1A), 20.6% endometrioid-like, 19.1% mixed, and 33.3% with no detectable alteration across the 7-gene + MSI panel; MSI was present in 11.3%; the molecular four-subgroup TCGA UCEC framework (POLE-ultramutated, MSI-hypermutated, copy-number-low, copy-number-high) provides context for CCEC classification. <a href="../papers/28485815.html">PMID:28485815</a></li>
 <li>MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included UCEC; concordance with the legacy PanCan12 MAF exceeded 90% <a href="../papers/29596782.html">PMID:29596782</a></li>
@@ -202,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Included in TCGA PanCancer Atlas; UCEC dominated iCluster C8; POLE-mutation signature found in hypermutated C8:UCEC; pan-squamous C10/C25/C27 and pan-GI subtypes linked to UCEC molecular patterns <a href="../papers/29625048.html">PMID:29625048</a></li>
 <li>TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually exclusive driver networks partition UCEC; MSI-high UCEC over-expresses immune effectors <a href="../genes/GZMA.html">GZMA</a>, <a href="../genes/PRF1.html">PRF1</a>, <a href="../genes/GZMK.html">GZMK</a>, <a href="../genes/GZMH.html">GZMH</a>; POLE-mutant UCEC subtype context referenced <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li>Non-hypermutated UCEC CN-high shows 86% PI3K pathway alteration rate; CN-low UCEC shows 95%; MSI-H and POLE-mutant UCEC subtypes carry highest mutation burden and pathway alteration frequency; HER2+PI3K combination actionable in 7% of UCEC CN-high <a href="../papers/29625050.html">PMID:29625050</a></li>
-<li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (<a href="../cancer_types/OS.html">OS</a>, PFI, DFI, DSS) recommended without reservation for UCEC <a href="../papers/29625055.html">PMID:29625055</a></li>
+<li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for UCEC <a href="../papers/29625055.html">PMID:29625055</a></li>
 <li>MSI-H detected in 31.4% of endometrial carcinoma cases — highest prevalence among all 39 cancer types analyzed by MANTIS WES caller across 11,139 TCGA/TARGET tumors; one of four classic Lynch syndrome-associated cancer types <a href="../papers/29850653.html">PMID:29850653</a></li>
 <li>189 patients / 197 advanced endometrial tumors profiled by MSK-IMPACT (341 or 410 gene panel); 95% advanced disease; PI3K/AKT/mTOR pathway altered in 70%, RTK/RAS/beta-catenin in 65%; 67% had ≥1 actionable alteration; genomic MSI calling rescued one MMR-proficient-by-IHC case; novel CN Cluster C (heterozygous losses) had worse PFS1 (median 9.6 vs 17.0/17.4 months, p=0.006) <a href="../papers/30068706.html">PMID:30068706</a></li>
 <li>In PCAWG, ovarian and uterine adenocarcinoma showed SV dominance over point mutations (ovary: 5.8 ± 2.6 SVs vs 1.9 ± 1.0 point mutations, P &lt; 1×10⁻¹⁶) <a href="../papers/32025007.html">PMID:32025007</a>.</li>
@@ -213,12 +216,15 @@ ul.task-list li input[type="checkbox"] {
 <li>In 184 MSI-H endometrial carcinomas profiled by MSK-IMPACT, three distinct MMR-D mechanisms (germline Lynch n=25, somatic n=39, <a href="../genes/MLH1.html">MLH1</a> promoter hypermethylation n=120) were associated with divergent molecular profiles, TMB (MLH1ph median 32 vs germline 44 vs somatic 48 mt/Mb, p&lt;0.001), and 2-year stage-I/II PFS (70.3% vs 100% vs 100%) <a href="../papers/35849120.html">PMID:35849120</a>.</li>
 <li>MSK cfDNA pilot (N=44 newly diagnosed EC; <a href="../datasets/ucec_ccr_cfdna_msk_2022.html">ucec_ccr_cfdna_msk_2022</a>): baseline ctDNA detected in 22% (8/36) of evaluable patients, enriched in advanced/high-risk histologies (<a href="../cancer_types/USC.html">USC</a>, <a href="../cancer_types/UCS.html">UCS</a>); detectable baseline ctDNA associated with reduced PFS (HR 11.14, p&lt;0.001); post-surgical ctDNA associated with reduced PFS (HR 15.56, p=0.014); primary-tumor mutational landscape: <a href="../genes/TP53.html">TP53</a> 52%, <a href="../genes/PTEN.html">PTEN</a> 50%, <a href="../genes/PIK3CA.html">PIK3CA</a> 50%, <a href="../genes/ARID1A.html">ARID1A</a> 36%, <a href="../genes/FBXW7.html">FBXW7</a> 29% <a href="../papers/36007103.html">PMID:36007103</a></li>
 <li>Wu et al.&nbsp;pan-cancer Asian cohort (<a href="../datasets/pan_origimed_2020.html">pan_origimed_2020</a>, n=10,194): UCEC included among 25 principal tumor types; <a href="../genes/TP53.html">TP53</a> (58% pan-cohort), <a href="../genes/PIK3CA.html">PIK3CA</a> (11%), MSI-H/TMB-H/PD-L1+ IO biomarker positivity profiled across tumor types <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>In TCGA endometrial carcinoma (UCEC), hemizygous <a href="../genes/LIG1.html">LIG1</a> copy-number loss was associated with worse progression-free survival (HR 2.23, P=0.02) and higher fraction genome altered. <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>Among 2,638 endometrial carcinomas (UCEC) with MSK-IMPACT sequencing, 69 (2.6%) carried pathogenic <a href="../genes/ERBB2.html">ERBB2</a> mutations, enriched for MSI-H (59% vs 24%) and high TMB (median 43.2 vs 6.1 mut/Mb), distinct from the ERBB2-amplified/CN-H/TP53abn subgroup. <a href="../papers/39031567.html">PMID:39031567</a></li>
+<li>Across 50,000 MSK-IMPACT tumors, endometrial carcinoma (UCEC) had the highest microsatellite instability rate of any cancer type (15%, 349/2,348), and <a href="../genes/RRAS2.html">RRAS2</a> hotspot mutations (G23/G24) were enriched in endometrial and germ cell tumors. <a href="../papers/41895280.html">PMID:41895280</a></li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
 <ul>
-<li>CN-H/TP53abn: 69% of Black vs.&nbsp;35% of White ECs (P&lt;0.001); associated with serous/carcinosarcoma histology, higher chromosomal instability (<a href="../genes/FGA.html">FGA</a> 30% vs.&nbsp;10%), and lower actionable alteration frequency. <a href="../papers/37651310.html">PMID:37651310</a></li>
+<li>CN-H/TP53abn: 69% of Black vs.&nbsp;35% of White ECs (P&lt;0.001); associated with serous/carcinosarcoma histology, higher chromosomal instability (FGA 30% vs.&nbsp;10%), and lower actionable alteration frequency. <a href="../papers/37651310.html">PMID:37651310</a></li>
 <li>POLE-mutant: 1.2% Black vs.&nbsp;5.8% White; favorable prognosis. <a href="../papers/37651310.html">PMID:37651310</a></li>
 <li>MSI-H/dMMR: 14% Black vs.&nbsp;25% White; eligible for immune checkpoint therapy. <a href="../papers/37651310.html">PMID:37651310</a></li>
 <li>Serous carcinoma (<a href="../cancer_types/USC.html">USC</a>): 29% Black vs.&nbsp;13% White (P&lt;0.01). <a href="../papers/37651310.html">PMID:37651310</a></li>
@@ -241,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/37651310.html">PMID:37651310</a> — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)</p></li>
 <li><p><a href="../papers/38653864.html">PMID:38653864</a> — Nivolumab for mismatch-repair-deficient or hypermutated gynecologic cancers: a phase 2 trial with biomarker analyses (Nature Medicine, 2024)</p></li>
 <li><p><a href="../papers/23636398.html">PMID:23636398</a> — Cancer Genome Atlas Research Network. Integrated genomic characterization of endometrial carcinoma. <em>Nature</em> 2013.</p></li>
-<li><p><a href="../papers/28445112.html">PMID:28445112</a> — Reinikka et al.&nbsp;2025; endometrial polyp WGS/RNA-seq; low-VAF UCEC-driver hotspot mutations in 26% <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/FBXW7.html">FBXW7</a>.</p></li>
+<li><p><a href="../papers/41137179.html">PMID:41137179</a> — Reinikka et al.&nbsp;2025; endometrial polyp WGS/RNA-seq; low-VAF UCEC-driver hotspot mutations in 26% <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/FBXW7.html">FBXW7</a>.</p></li>
 <li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
 <li><p><a href="../papers/28485815.html">PMID:28485815</a></p></li>
 <li><p><a href="../papers/29596782.html">PMID:29596782</a></p></li>
@@ -261,8 +267,11 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/35849120.html">PMID:35849120</a></p></li>
 <li><p><a href="../papers/36007103.html">PMID:36007103</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/36001024.html">PMID:36001024</a></p></li>
+<li><p><a href="../papers/39031567.html">PMID:39031567</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

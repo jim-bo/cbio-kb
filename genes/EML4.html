@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,15 +180,15 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>EML4::<a href="../genes/ALK.html">ALK</a> fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the <a href="../datasets/csf_msk_2024.html">csf_msk_2024</a> cohort (1,007 CSF samples, 711 patients). <a href="../genes/ALK.html">ALK</a> resistance mutations (p.G1202R, p.G1269A) were detected upon targeted therapy progression in EML4::ALK-positive patients <a href="../papers/39289779.html">PMID:39289779</a>.</li>
 <li>EML4-ALK translocation status (FISH) was annotated for 196/211 resected early-stage <a href="../cancer_types/NSCLC.html">NSCLC</a> patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies <a href="../papers/30325352.html">PMID:30325352</a>.</li>
-<li>Mentioned in the context of RTK-targeted therapy landscape in <a href="../cancer_types/HCC.html">HCC</a> (2014 genomics review) <a href="../papers/24735922.html">PMID:24735922</a></li>
+<li>Mentioned in the context of RTK-targeted therapy landscape in <a href="../cancer_types/HCC.html">HCC</a> (2014 genomics review) <a href="../papers/25369299.html">PMID:25369299</a></li>
 <li>EML4/ALK fusion detected in papillary thyroid carcinoma (PTC); part of 4/484 (0.8%) <a href="../genes/ALK.html">ALK</a> fusions in the TCGA PTC cohort; represents a potentially targetable alteration. <a href="../papers/25417114.html">PMID:25417114</a></li>
 <li>EML4 is a fusion partner for ALK in PDTC (poorly differentiated thyroid cancer); ALK-EML4 fusions are present in 14% of PDTCs overall (together with other ALK partners STRN and novel CCDC149), mutually exclusive with BRAF/RAS mutations, and enriched in younger patients (median 49 vs 58 years) <a href="../papers/26878173.html">PMID:26878173</a></li>
-<li>EML4-ALK fusion is the predominant ALK rearrangement in young lung cancer (&gt;80% of ALK+ cases per Tian et al.); ALK rearrangements are over-represented in YLC vs older NSCLC and are targetable with crizotinib and lorlatinib <a href="../papers/27346245.html">PMID:27346245</a></li>
+<li>EML4-ALK fusion is the predominant ALK rearrangement in young lung cancer (&gt;80% of ALK+ cases per Tian et al.); ALK rearrangements are over-represented in YLC vs older NSCLC and are targetable with crizotinib and lorlatinib <a href="../papers/40958859.html">PMID:40958859</a></li>
 <li>EML4–NTRK3 fusion detected in congenital fibrosarcoma (<a href="../cancer_types/IFS.html">IFS</a>) in the PIPseq pediatric cohort; RNA-seq was required to detect the fusion and supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; flagged as an ALK-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
 <li>EML4-ALK fusion detected in n=38 cases, predominantly LUAD, within the MSK-IMPACT pan-cancer cohort of 10,336 patients <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li><strong>EML4-ALK</strong> is one of the ALK fusions detected across 20 samples spanning 8 cancer types (5 in <a href="../cancer_types/LUAD.html">LUAD</a>) in the TCGA pan-cancer fusion landscape; EML4 is the most frequent 5’ partner (7/17 ALK-fusion samples); fusion status corresponds to copy-number-neutral ALK overexpression, forming the rationale for <a href="../drugs/crizotinib.html">crizotinib</a> and other approved ALK inhibitors <a href="../papers/29617662.html">PMID:29617662</a>.</li>
 <li>EML4 is the second most common upstream NTRK fusion partner, exclusively paired with NTRK3, identified across multiple tumor types in the MSK TRK fusion-positive cohort (n=26,312 sequenced patients) <a href="../papers/31871300.html">PMID:31871300</a></li>
-<li>Partner in the canonical EML4-ALK fusion (33 tumors, most frequent in-frame fusion event) in non-smoking lung adenocarcinoma (NS-LUAD); the EML4-ALK fusion was used in the ‘Mutation model’ Cox prognostic comparator <a href="../papers/32015526.html">PMID:32015526</a></li>
+<li>Partner in the canonical EML4-ALK fusion (33 tumors, most frequent in-frame fusion event) in non-smoking lung adenocarcinoma (NS-LUAD); the EML4-ALK fusion was used in the ‘Mutation model’ Cox prognostic comparator <a href="../papers/40970133.html">PMID:40970133</a></li>
 <li>EML4-ALK fusions (plus novel HMBOX1-ALK and ANKRD36B-ALK) identified in LUAD proteogenomic study; fusion-specific EML4-Y226 phosphorylation observed only in fusion-positive samples; WEE1 hyperphosphorylation in EML4-ALK tumors <a href="../papers/32649874.html">PMID:32649874</a></li>
 <li>EML4-ALK fusions detected de novo and by genotyping in NSCLC samples using MSK-ACCESS liquid biopsy <a href="../papers/34145282.html">PMID:34145282</a></li>
 </ul>
@@ -219,18 +222,18 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/39289779.html">PMID:39289779</a></li>
 <li><a href="../papers/30325352.html">PMID:30325352</a></li>
+<li><a href="../papers/25369299.html">PMID:25369299</a></li>
+<li><a href="../papers/25417114.html">PMID:25417114</a></li>
+<li><a href="../papers/26878173.html">PMID:26878173</a></li>
+<li><a href="../papers/40958859.html">PMID:40958859</a></li>
+<li><a href="../papers/28007021.html">PMID:28007021</a></li>
+<li><a href="../papers/28481359.html">PMID:28481359</a></li>
+<li><a href="../papers/29617662.html">PMID:29617662</a></li>
+<li><a href="../papers/31871300.html">PMID:31871300</a></li>
+<li><a href="../papers/40970133.html">PMID:40970133</a></li>
+<li><a href="../papers/32649874.html">PMID:32649874</a></li>
+<li><a href="../papers/34145282.html">PMID:34145282</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24735922.html">PMID:24735922</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25417114.html">PMID:25417114</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26878173.html">PMID:26878173</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27346245.html">PMID:27346245</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29617662.html">PMID:29617662</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/31871300.html">PMID:31871300</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32015526.html">PMID:32015526</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32649874.html">PMID:32649874</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/34145282.html">PMID:34145282</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
 
 

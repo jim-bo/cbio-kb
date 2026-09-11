@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -248,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>FOXA1 mutation structural hotspot (MSH):</strong> 33 FOXA1 mutations in 30/817 tumors (3.7%); 11/127 (7%) ILC. All ILC FOXA1 mutations fell in the fork-head (FK) domain, clustered in the W2 wing loop with recurrent I176 (n=4) and D226 (n=3) residues that are spatially close (5–10 Å) to W2 in 3D space. 22/25 FK mutations land in this MSH; 8/127 ILC vs 4/490 IDC (p=6E-4). FOXA1 mutations were positively associated with FOXA1 mRNA expression (p=0.002) and with low methylation at FOXA1 binding sites, suggesting gain-of-function rather than loss (<a href="../papers/26451490.html">PMID:26451490</a>).</li>
 <li><strong>GATA3/FOXA1 differential ER modulation:</strong> <a href="../genes/GATA3.html">GATA3</a> mutations were mutually exclusive with FOXA1 events; LumA ILC had lower <a href="../genes/GATA3.html">GATA3</a> mRNA (p=0.007) and protein (p=2E-4) than LumA IDC. ER total protein (p=0.005) and phospho-ER (p=2E-5) were also lower in LumA ILC (<a href="../papers/26451490.html">PMID:26451490</a>).</li>
 <li><strong>AKT pathway is the most activated of any breast subtype in ILC:</strong> Lower PTEN protein (p=4E-4), increased pAKT-S473 (p=0.004) and pAKT-T308 (p=7E-5), higher total <a href="../genes/EGFR.html">EGFR</a> (p=1E-4) and pEGFR Y1068 (p=0.005)/Y1173 (p=0.007), pSTAT3 Y705 (p=7E-4), pp27-T157 (p=0.002), p70S6K-T389 (p=1E-4). Phospho-AKT levels in LumA ILC matched those in HER2+ and Basal-like IDC. Despite high <a href="../genes/PIK3CA.html">PIK3CA</a> mutation frequency, PIK3CA mutations were NOT associated with elevated pAKT in this dataset; instead, upstream events (including <a href="../genes/ERBB2.html">ERBB2</a> amplifications and mutations) converged on AKT/mTOR signaling in 45% of samples via MEMo analysis, with 40% of ILC showing upstream pathway alterations (<a href="../papers/26451490.html">PMID:26451490</a>).</li>
-<li><strong>Three ILC transcriptional subtypes (LumA ILC, n=106; validated in METABRIC):</strong> <em>Reactive-like</em> (high stromal/epithelial signaling — keratins, kallikreins, <a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/MET.html">MET</a>, <a href="../genes/PDGFRA.html">PDGFRA</a>, <a href="../genes/KIT.html">KIT</a>; low tumor purity); <em>immune-related</em> (ILs, chemokines, MHC, TNFs, <a href="../genes/IDO1.html">IDO1</a>, <a href="../genes/IFNG.html">IFNG</a>; macrophage-dominated by CD68/MacCSF/MacTH1/TCR signatures); <em>proliferative</em> (high cell-cycle and DNA-repair proteins — Cyclin E1, FoxM1, <a href="../genes/PCNA.html">PCNA</a>, pChk1-S345, Rad50, Rad51, <a href="../genes/XRCC1.html">XRCC1</a>, <a href="../genes/BRCA2.html">BRCA2</a>). 1,277 SAM-differentiating genes (q=0). Reactive-like ILC patients had better DSS (p=0.038, HR=0.47) and <a href="../cancer_types/OS.html">OS</a> (p=0.023, HR=0.50) than proliferative ILC in METABRIC; proliferative-score-high ILC had worse DSS (p=0.025, HR=2.0) (<a href="../papers/26451490.html">PMID:26451490</a>).</li>
+<li><strong>Three ILC transcriptional subtypes (LumA ILC, n=106; validated in METABRIC):</strong> <em>Reactive-like</em> (high stromal/epithelial signaling — keratins, kallikreins, <a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/MET.html">MET</a>, <a href="../genes/PDGFRA.html">PDGFRA</a>, <a href="../genes/KIT.html">KIT</a>; low tumor purity); <em>immune-related</em> (ILs, chemokines, MHC, TNFs, <a href="../genes/IDO1.html">IDO1</a>, <a href="../genes/IFNG.html">IFNG</a>; macrophage-dominated by CD68/MacCSF/MacTH1/TCR signatures); <em>proliferative</em> (high cell-cycle and DNA-repair proteins — Cyclin E1, FoxM1, <a href="../genes/PCNA.html">PCNA</a>, pChk1-S345, Rad50, Rad51, <a href="../genes/XRCC1.html">XRCC1</a>, <a href="../genes/BRCA2.html">BRCA2</a>). 1,277 SAM-differentiating genes (q=0). Reactive-like ILC patients had better DSS (p=0.038, HR=0.47) and OS (p=0.023, HR=0.50) than proliferative ILC in METABRIC; proliferative-score-high ILC had worse DSS (p=0.025, HR=2.0) (<a href="../papers/26451490.html">PMID:26451490</a>).</li>
 <li><strong>Mixed IDC/ILC tumors are NOT a third entity:</strong> Three orthogonal classifiers (ISOpure, OncoSign-adapted, ElasticNet) agreed that 24/88 mixed cases are ILC-like and 64 are IDC-like by majority vote. All CDH1-mutated mixed cases were classified ILC-like; CDH1 status was the dominant feature (<a href="../papers/26451490.html">PMID:26451490</a>).</li>
 </ul>
 </section>

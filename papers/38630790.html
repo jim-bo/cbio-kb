@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -254,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
 <ul>
 <li><strong>Prognostic biomarker:</strong> GNH identifies an aggressive DPM subset with poor overall survival (10.9 months) independent of histologic subtype, potentially improving risk stratification in younger DPM patients.</li>
-<li><strong>ICB response signal:</strong> Among 3 GNH patients treated with <a href="../drugs/ipilimumab.html">ipilimumab</a>/<a href="../drugs/nivolumab.html">nivolumab</a> or <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, 2 achieved partial response (67%), vs.&nbsp;only 1/44 (2%) in non-GNH patients. A separate clinical trial of <a href="../drugs/durvalumab.html">durvalumab</a> plus platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and <a href="../cancer_types/OS.html">OS</a> &gt;=12 months.</li>
+<li><strong>ICB response signal:</strong> Among 3 GNH patients treated with <a href="../drugs/ipilimumab.html">ipilimumab</a>/<a href="../drugs/nivolumab.html">nivolumab</a> or <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, 2 achieved partial response (67%), vs.&nbsp;only 1/44 (2%) in non-GNH patients. A separate clinical trial of <a href="../drugs/durvalumab.html">durvalumab</a> plus platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and OS &gt;=12 months.</li>
 <li><strong>Diagnostic screening:</strong> Biphasic morphology with high TILs, necrosis, and younger age without asbestos exposure should raise suspicion for GNH, warranting allele-specific copy number analysis (e.g., FACETS on NGS data).</li>
 <li><strong>SETDB1 as a biomarker:</strong> SETDB1 mutations are highly specific for GNH DPMs and may serve as a molecular marker for this subset when detected on panels covering this gene (e.g., <a href="../methods/IMPACT505.html">IMPACT505</a>).</li>
 </ul>

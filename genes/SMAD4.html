@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -184,14 +187,20 @@ ul.task-list li input[type="checkbox"] {
 <li>Confirmed deletion driver in the 18q focal-deletion region in colon cancer proteogenomics (<a href="../datasets/coad_cptac_2019.html">coad_cptac_2019</a>) <a href="../papers/31031003.html">PMID:31031003</a></li>
 <li>Pan-cancer PCAWG driver in 181 tumors <a href="../papers/32025007.html">PMID:32025007</a></li>
 <li>Known <a href="../cancer_types/LUAD.html">LUAD</a> subclonal gene with higher alteration frequency in MIP/SOL-predominant tumors; cited alongside <a href="../genes/NF1.html">NF1</a> and <a href="../genes/ATM.html">ATM</a> as subclonal drivers in aggressive <a href="../cancer_types/LUAD.html">LUAD</a> histologic subtypes. <a href="../papers/32791233.html">PMID:32791233</a></li>
-<li>Alterations associated with worse <a href="../cancer_types/OS.html">OS</a> in esophageal adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>) (KM p=0.028; multivariable HR 1.61, 95% CI 1.14-2.28, p=0.007; n=487 MSK cohort); consistent with prior reports linking SMAD4 loss to disease recurrence <a href="../papers/33795256.html">PMID:33795256</a></li>
+<li>Alterations associated with worse OS in esophageal adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>) (KM p=0.028; multivariable HR 1.61, 95% CI 1.14-2.28, p=0.007; n=487 MSK cohort); consistent with prior reports linking SMAD4 loss to disease recurrence <a href="../papers/33795256.html">PMID:33795256</a></li>
 <li>Alterations independently associated with pathologic LN metastasis in <a href="../cancer_types/LUAD.html">LUAD</a> (multivariable OR 5.01, p=0.02); 7% in pN+ vs 1.5% in pN- (p=0.011); reduced SMAD4 expression linked to increased DNA damage, reduced DNA repair, and topoisomerase inhibitor sensitivity <a href="../papers/34290393.html">PMID:34290393</a></li>
 <li>Altered in ~15-19% across MSS CRC age cohorts; SMAD4 alteration independently associated with worse survival (HR=1.46, 95% CI 1.08-1.94; P=0.01) <a href="../papers/34405229.html">PMID:34405229</a></li>
 <li>Altered in 29% of PDAC (more frequent in C1 classical subtype); downregulates <a href="../genes/SERPINE1.html">SERPINE1</a> mRNA/protein; deletions raise phospho-HDAC1 (S406/S410/S421), phospho-SMARCA4 S613, and phospho-CREBBP S274 <a href="../papers/34534465.html">PMID:34534465</a></li>
-<li>SMAD4 altered in 10% of MSI-stable esophageal adenocarcinoma (EAC) patients in the MSK neoadjuvant CRT cohort (n=237); not significantly associated with pathologic treatment response <a href="../papers/35377946.html">PMID:35377946</a>.</li>
+<li>SMAD4 altered in 10% of MSI-stable esophageal adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>) patients in the MSK neoadjuvant CRT cohort (n=237); not significantly associated with pathologic treatment response <a href="../papers/35377946.html">PMID:35377946</a>.</li>
 <li>Structural deletion (DEL) identified by LINX/PURPLE in metastatic cutaneous SCC; catalogued as a structural variant in the Asian pan-cancer cohort (aOM) <a href="../papers/35871175.html">PMID:35871175</a></li>
 <li>Structural deletion (DEL) detected by LINX/PURPLE SV analysis in metastatic cutaneous squamous cell carcinoma WGS (n=25); present in multiple samples <a href="../papers/35982973.html">PMID:35982973</a></li>
 <li>Altered in 13% of colitis-associated colorectal cancer (CAC); recurrent driver alongside <a href="../genes/TP53.html">TP53</a>, <a href="../genes/KRAS.html">KRAS</a>, and <a href="../genes/APC.html">APC</a> in a targeted-panel sequencing cohort of 145 CAC patients (MSK-IMPACT) <a href="../papers/36611031.html">PMID:36611031</a></li>
+<li>SMAD4 (20%) is enriched in nonhypermutated colorectal cancer, with deletion enriched in descending colon and rectal tumors, and co-deletion with <a href="../genes/SMAD2.html">SMAD2</a> (3%) in 18.2% of patients <a href="../papers/35487942.html">PMID:35487942</a></li>
+<li>SMAD4 somatic mutation frequency was balanced across treatment arms by WES in a rectal cancer immunotherapy trial, with no alteration-specific survival association reported <a href="../papers/35662283.html">PMID:35662283</a></li>
+<li>SMAD4 inactivation was enriched in secondary rectal cancer arising after prior pelvic radiotherapy (25.8% vs 10.0% in all primary rectal cancer, P=.01), consistent with a marker of more aggressive tumors <a href="../papers/40100215.html">PMID:40100215</a></li>
+<li>SMAD4 was detected in ctDNA from 10% of ctDNA-positive pancreatic cancer patients, with tissue-ctDNA concordance of 63.6% in untreated stage IV vs 12.5% in untreated stage I-III, the lowest of four genes tested <a href="../papers/40511613.html">PMID:40511613</a></li>
+<li>SMAD4 carries new TGF-beta-pathway hotspot mutations (with SMAD2/SMAD3/TCF7L2, 87% in GI cancers) and is enriched in <a href="../genes/BRAF.html">BRAF</a> Class I tumors along with <a href="../genes/TGFBR2.html">TGFBR2</a> <a href="../papers/41895280.html">PMID:41895280</a></li>
+<li>SMAD4 alterations were less frequent in intrahepatic cholangiocarcinoma than in extrahepatic cholangiocarcinoma or gallbladder cancer, and were associated with worse overall survival in ERBB2-amplified biliary tract tumors <a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -221,14 +230,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/28052061.html">PMID:28052061</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
-<ul>
-<li><a href="../papers/29316426.html">PMID:29316426</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29848569.html">PMID:29848569</a></p>
-<ul>
+<li><p><a href="../papers/28052061.html">PMID:28052061</a></p></li>
+<li><p><a href="../papers/28667006.html">PMID:28667006</a></p></li>
+<li><p><a href="../papers/29316426.html">PMID:29316426</a></p></li>
+<li><p><a href="../papers/29848569.html">PMID:29848569</a></p></li>
 <li><p><a href="../papers/30427539.html">PMID:30427539</a></p></li>
 <li><p><a href="../papers/31031003.html">PMID:31031003</a></p></li>
 <li><p><a href="../papers/32025007.html">PMID:32025007</a></p></li>
@@ -238,11 +243,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/34405229.html">PMID:34405229</a></p></li>
 <li><p><a href="../papers/34534465.html">PMID:34534465</a></p></li>
 <li><p><a href="../papers/35377946.html">PMID:35377946</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/35982973.html">PMID:35982973</a></p></li>
+<li><p><a href="../papers/36611031.html">PMID:36611031</a></p></li>
+<li><p><a href="../papers/35487942.html">PMID:35487942</a></p></li>
+<li><p><a href="../papers/35662283.html">PMID:35662283</a></p></li>
+<li><p><a href="../papers/40100215.html">PMID:40100215</a></p></li>
+<li><p><a href="../papers/40511613.html">PMID:40511613</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
+<li><p><a href="../papers/42360806.html">PMID:42360806</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35982973.html">PMID:35982973</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36611031.html">PMID:36611031</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

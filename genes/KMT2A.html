@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -182,19 +185,20 @@ ul.task-list li input[type="checkbox"] {
 <li>Recurrent missense mutation (Ile960Met) identified in <a href="../cancer_types/SCLC.html">SCLC</a> (29 tumors, CLCGP WES/WGS); histone methyltransferase <a href="../papers/22941188.html">PMID:22941188</a></li>
 <li>Chromatin-modifying gene recurrently altered in <a href="../cancer_types/AML.html">AML</a>; fusion partners observed include <a href="../genes/MLLT3.html">MLLT3</a> (AF9) and <a href="../genes/MLLT10.html">MLLT10</a> (AF10); MLL-fused <a href="../cancer_types/AML.html">AML</a> samples carried the fewest cooperating mutations of any subgroup <a href="../papers/23634996.html">PMID:23634996</a></li>
 <li>Somatic mutation as part of the histone lysine methyltransferase KMT2A/KMT2C/KMT2E group, collectively altered in 16% of transitional cell carcinoma (<a href="../cancer_types/BLCA.html">BLCA</a>) bladder tumors in a 99-sample WES cohort <a href="../papers/24121792.html">PMID:24121792</a></li>
-<li>KMT2A is listed among recurrently mutated genes in the <a href="../cancer_types/HCC.html">HCC</a> WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>KMT2A is listed among recurrently mutated genes in the <a href="../cancer_types/HCC.html">HCC</a> WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>KMT2A listed among additional candidate chromatin-remodeling drivers in PTC; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors including KMT2A <a href="../papers/25417114.html">PMID:25417114</a></li>
 <li>Chromatin-modifying gene mutated in <a href="../cancer_types/UTUC.html">UTUC</a>; mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events <a href="../papers/26278805.html">PMID:26278805</a></li>
-<li>KMT2A, together with KMT2C, KMT2D, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02); HMT enrichment in ATC is cited as rationale for chromatin-targeted therapy <a href="../papers/26878173.html">PMID:26878173</a></li>
-<li>KMT2A PTD is a chromatin regulator defining the chromatin-spliceosome AML subgroup (18%, n=275); KMT2A PTD × FLT3 TKD co-occurrence (n=10) was strongly adverse (q=0.008); KMT2A fusions present in 3% (n=44) of 1540 AML patients with multiple partners — MLLT3-KMT2A t(9;11) appears favorable relative to other KMT2A fusions <a href="../papers/27276561.html">PMID:27276561</a></li>
+<li>KMT2A, together with <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/KMT2D.html">KMT2D</a>, and <a href="../genes/SETD2.html">SETD2</a>, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02); HMT enrichment in ATC is cited as rationale for chromatin-targeted therapy <a href="../papers/26878173.html">PMID:26878173</a></li>
+<li>KMT2A PTD is a chromatin regulator defining the chromatin-spliceosome <a href="../cancer_types/AML.html">AML</a> subgroup (18%, n=275); KMT2A PTD × <a href="../genes/FLT3.html">FLT3</a> TKD co-occurrence (n=10) was strongly adverse (q=0.008); KMT2A fusions present in 3% (n=44) of 1540 AML patients with multiple partners — MLLT3-KMT2A t(9;11) appears favorable relative to other KMT2A fusions <a href="../papers/27276561.html">PMID:27276561</a></li>
 <li>Recurrently mutated in unclassified renal cell carcinoma (uRCC, n=62 MSKCC cohort); KMT2A/C/D combined account for 16% of cases in the chromatin-modulator group; KMT2A-mutated cases cluster in the chromatin/DNA-damage regulator subgroup associated with intermediate clinical outcome. <a href="../papers/27713405.html">PMID:27713405</a></li>
-<li>KMT2A–AFF1 (MLL-AFF1) fusion identified in pediatric AML as a DOT1L-inhibitor target in comprehensive clinical genomic sequencing <a href="../papers/28007021.html">PMID:28007021</a>.</li>
-<li>Newly recognized SMG in MIBC (n=412, TCGA BLCA 2017), mutated in 11%; part of the pervasive chromatin-modifier mutation cluster with predominantly inactivating mutations. <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li>Discussed as a known therapeutic-target gene in AML; KMT2A-rearranged disease is a candidate for DOT1L inhibitors; co-listed with TET2, BCL2, EZH2, KDM1A, and DOT1L as epigenetic targets in the Beat AML (aml_ohsu_2018) cohort <a href="../papers/30333627.html">PMID:30333627</a></li>
+<li>KMT2A–<a href="../genes/AFF1.html">AFF1</a> (MLL-AFF1) fusion identified in pediatric AML as a DOT1L-inhibitor target in comprehensive clinical genomic sequencing <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li>Newly recognized SMG in MIBC (n=412, TCGA <a href="../cancer_types/BLCA.html">BLCA</a> 2017), mutated in 11%; part of the pervasive chromatin-modifier mutation cluster with predominantly inactivating mutations. <a href="../papers/28988769.html">PMID:28988769</a></li>
+<li>Discussed as a known therapeutic-target gene in AML; KMT2A-rearranged disease is a candidate for <a href="../genes/DOT1L.html">DOT1L</a> inhibitors; co-listed with <a href="../genes/TET2.html">TET2</a>, <a href="../genes/BCL2.html">BCL2</a>, <a href="../genes/EZH2.html">EZH2</a>, <a href="../genes/KDM1A.html">KDM1A</a>, and DOT1L as epigenetic targets in the Beat AML (<a href="../datasets/aml_ohsu_2018.html">aml_ohsu_2018</a>) cohort <a href="../papers/30333627.html">PMID:30333627</a></li>
 <li>Detected as a somatic alteration in metastatic panNET (n=80 patients); KMT2A is among the chromatin-remodeling/histone methyltransferase genes recurrently altered in this cohort <a href="../papers/30687805.html">PMID:30687805</a></li>
 <li>An AFF1-KMT2A fusion confers dependence on AFF1 in cancer cell lines, identified via cross-referencing with RNAi loss-of-function data in the CCLE cancer cell line encyclopedia <a href="../papers/31068700.html">PMID:31068700</a>.</li>
 <li>Fusions detected in all MLL-ALL PDX models in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types) <a href="../papers/31693904.html">PMID:31693904</a>.</li>
-<li>Canonical breakpoint-region rearrangements in 6/17 pediatric neuroblastoma transformation patients; partners include ELL, AFF1, FRYL, GAS7, and novel PRDM10 and DDX6; associated with topoisomerase-II exposure and earlier transformation (median detection 15 months before clinical diagnosis) <a href="../papers/35078859.html">PMID:35078859</a></li>
+<li>Canonical breakpoint-region rearrangements in 6/17 pediatric neuroblastoma transformation patients; partners include <a href="../genes/ELL.html">ELL</a>, AFF1, <a href="../genes/FRYL.html">FRYL</a>, <a href="../genes/GAS7.html">GAS7</a>, and novel <a href="../genes/PRDM10.html">PRDM10</a> and <a href="../genes/DDX6.html">DDX6</a>; associated with topoisomerase-II exposure and earlier transformation (median detection 15 months before clinical diagnosis) <a href="../papers/35078859.html">PMID:35078859</a></li>
+<li>KMT2A rearrangements (KMT2Ar, 20.3% of 887 AML cases) and KMT2A partial tandem duplications formed the largest single class-defining molecular category, clustering in the HOXA superfamily with KAT6Ar <a href="../papers/38212634.html">PMID:38212634</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -225,27 +229,28 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/25730765.html">PMID:25730765</a></li>
+<li><p><a href="../papers/25730765.html">PMID:25730765</a></p></li>
+<li><p><a href="../papers/36333289.html">PMID:36333289</a></p></li>
+<li><p><a href="../papers/22722839.html">PMID:22722839</a></p></li>
+<li><p><a href="../papers/22941188.html">PMID:22941188</a></p></li>
+<li><p><a href="../papers/23634996.html">PMID:23634996</a></p></li>
+<li><p><a href="../papers/24121792.html">PMID:24121792</a></p></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
+<li><p><a href="../papers/25417114.html">PMID:25417114</a></p></li>
+<li><p><a href="../papers/26278805.html">PMID:26278805</a></p></li>
+<li><p><a href="../papers/26878173.html">PMID:26878173</a></p></li>
+<li><p><a href="../papers/27276561.html">PMID:27276561</a></p></li>
+<li><p><a href="../papers/27713405.html">PMID:27713405</a></p></li>
+<li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
+<li><p><a href="../papers/28988769.html">PMID:28988769</a></p></li>
+<li><p><a href="../papers/30333627.html">PMID:30333627</a></p></li>
+<li><p><a href="../papers/30687805.html">PMID:30687805</a></p></li>
+<li><p><a href="../papers/31068700.html">PMID:31068700</a></p></li>
+<li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
+<li><p><a href="../papers/35078859.html">PMID:35078859</a></p></li>
+<li><p><a href="../papers/38212634.html">PMID:38212634</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/36333289.html">PMID:36333289</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/22722839.html">PMID:22722839</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/22941188.html">PMID:22941188</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/23634996.html">PMID:23634996</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24121792.html">PMID:24121792</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25417114.html">PMID:25417114</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26278805.html">PMID:26278805</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26878173.html">PMID:26878173</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27276561.html">PMID:27276561</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/30333627.html">PMID:30333627</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/30687805.html">PMID:30687805</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31068700.html">PMID:31068700</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/35078859.html">PMID:35078859</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

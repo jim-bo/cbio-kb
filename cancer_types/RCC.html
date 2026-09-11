@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Renal Cell Carcinoma (RCC)</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Renal Cell Carcinoma (RCC) is the umbrella OncoTree node for primary carcinomas arising from the renal parenchyma. Its major OncoTree children include <a href="../cancer_types/CCRCC.html">Renal Clear Cell Carcinoma (CCRCC)</a>, <a href="../cancer_types/NCCRCC.html">Renal Non-Clear Cell Carcinoma (NCCRCC)</a>, and <a href="../cancer_types/URCC.html">Unclassified Renal Cell Carcinoma (URCC)</a>. <a href="../cancer_types/NCCRCC.html">NCCRCC</a> itself encompasses <a href="../cancer_types/PRCC.html">Papillary Renal Cell Carcinoma (PRCC)</a>, <a href="../cancer_types/CHRCC.html">Chromophobe Renal Cell Carcinoma (CHRCC)</a>, and <a href="../cancer_types/TRCC.html">Translocation-Associated Renal Cell Carcinoma (TRCC)</a> as well as <a href="../cancer_types/URCC.html">URCC</a>. URCC comprises approximately 4–5% of all RCC and lacks an established standard of care <a href="../papers/27713405.html">PMID:27713405</a>.</p>
+<p>Renal Cell Carcinoma (RCC) is the umbrella OncoTree node for primary carcinomas arising from the renal parenchyma. Its major OncoTree children include <a href="../cancer_types/CCRCC.html">Renal Clear Cell Carcinoma (CCRCC)</a>, <a href="../cancer_types/NCCRCC.html">Renal Non-Clear Cell Carcinoma (NCCRCC)</a>, and <a href="../cancer_types/URCC.html">Unclassified Renal Cell Carcinoma (URCC)</a>. <a href="../cancer_types/NCCRCC.html">NCCRCC</a> itself encompasses <a href="../cancer_types/PRCC.html">Papillary Renal Cell Carcinoma (PRCC)</a>, <a href="../cancer_types/CHRCC.html">Chromophobe Renal Cell Carcinoma (CHRCC)</a>, and <a href="../cancer_types/TRCC.html">Translocation-Associated Renal Cell Carcinoma (TRCC)</a> as well as <a href="../cancer_types/URCC.html">URCC</a>. <a href="../cancer_types/URCC.html">URCC</a> comprises approximately 4–5% of all RCC and lacks an established standard of care <a href="../papers/27713405.html">PMID:27713405</a>.</p>
 </section>
 <section id="cohorts-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
@@ -184,9 +187,9 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../genes/VHL.html">VHL</a> — driver in ~75% of <a href="../cancer_types/CCRCC.html">CCRCC</a> but only 1/62 (1.6%) of <a href="../cancer_types/URCC.html">URCC</a>, underscoring molecular divergence across RCC subtypes <a href="../papers/27713405.html">PMID:27713405</a>.</li>
 <li><a href="../genes/NF2.html">NF2</a>, <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/TSC2.html">TSC2</a>, <a href="../genes/FH.html">FH</a> — recurrently altered in URCC; mTOR-pathway mutations also frequent in <a href="../cancer_types/CHRCC.html">CHRCC</a> (23%) and relevant in <a href="../cancer_types/CCRCC.html">CCRCC</a> <a href="../papers/27713405.html">PMID:27713405</a>.</li>
-<li><a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/BAP1.html">BAP1</a> — shared chromatin-modifier drivers across CCRCC, <a href="../cancer_types/PRCC.html">PRCC</a>, and URCC <a href="../papers/27713405.html">PMID:27713405</a>.</li>
+<li><a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/BAP1.html">BAP1</a> — shared chromatin-modifier drivers across <a href="../cancer_types/CCRCC.html">CCRCC</a>, <a href="../cancer_types/PRCC.html">PRCC</a>, and URCC <a href="../papers/27713405.html">PMID:27713405</a>.</li>
 </ul>
-<p>See individual subtype pages for full alteration catalogs. - PIPseq cohort: VHL V166G mutation identified in a renal cell carcinoma patient as diagnostic of Von Hippel-Lindau syndrome <a href="../papers/28007021.html">PMID:28007021</a> - RCC (renal cell carcinoma, n=151) was among the ICI-treated histologies in the MSK-IMPACT cohort; TMB-high RCC patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for renal cell carcinoma. <a href="../papers/30643254.html">PMID:30643254</a></p>
+<p>See individual subtype pages for full alteration catalogs. - PIPseq cohort: <a href="../genes/VHL.html">VHL</a> V166G mutation identified in a renal cell carcinoma patient as diagnostic of Von Hippel-Lindau syndrome <a href="../papers/28007021.html">PMID:28007021</a> - RCC (renal cell carcinoma, n=151) was among the ICI-treated histologies in the MSK-IMPACT cohort; TMB-high RCC patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for renal cell carcinoma. <a href="../papers/30643254.html">PMID:30643254</a> - In the phase 2 IMmotion150 trial (n=305) in treatment-naive advanced/metastatic renal cell carcinoma, <a href="../drugs/atezolizumab.html">atezolizumab</a> plus <a href="../drugs/bevacizumab.html">bevacizumab</a> did not significantly improve PFS over <a href="../drugs/sunitinib.html">sunitinib</a> in the intent-to-treat population (11.7 vs.&nbsp;8.4 months, HR 1.00); VHL (62%) and <a href="../genes/PBRM1.html">PBRM1</a> (44%) were the most common drivers, and PBRM1-mutant tumors had better PFS on sunitinib (HR 0.38) but worse PFS on atezolizumab monotherapy (HR 2.49) than on sunitinib. <a href="../papers/29867230.html">PMID:29867230</a> - In the MSK-IMPACT pan-cancer <a href="../genes/MET.html">MET</a> landscape, renal cell carcinoma made up 7% of the MET FISH validation cohort and 3 of 45 patients treated with a MET inhibitor. <a href="../papers/36044468.html">PMID:36044468</a></p>
 </section>
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
@@ -205,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <p>See individual subtype pages. Notable pan-RCC observations from the corpus:</p>
 <ul>
-<li>mTOR-pathway alterations (<a href="../genes/MTOR.html">MTOR</a>, TSC1/2, <a href="../genes/PTEN.html">PTEN</a>) occur across CCRCC, CHRCC, and URCC, providing a shared rationale for mTOR-inhibitor evaluation in subsets of each subtype <a href="../papers/27713405.html">PMID:27713405</a>.</li>
+<li>mTOR-pathway alterations (<a href="../genes/MTOR.html">MTOR</a>, TSC1/2, <a href="../genes/PTEN.html">PTEN</a>) occur across CCRCC, <a href="../cancer_types/CHRCC.html">CHRCC</a>, and URCC, providing a shared rationale for mTOR-inhibitor evaluation in subsets of each subtype <a href="../papers/27713405.html">PMID:27713405</a>.</li>
 <li>Molecularly defined subsets of URCC (NF2-loss, mTORC1-hyperactive, FH-deficient, ALK-fusion) support subset-specific therapy approaches rather than a pan-URCC standard <a href="../papers/27713405.html">PMID:27713405</a>.</li>
 </ul>
 </section>
@@ -213,10 +216,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/27713405.html">PMID:27713405</a> — Chen et al., molecular characterization of 62 MSKCC high-grade uRCCs; defines molecular subtypes of URCC and contextualizes within broader RCC nosology.</li>
+<li><a href="../papers/28007021.html">PMID:28007021</a></li>
+<li><a href="../papers/30643254.html">PMID:30643254</a></li>
+<li><a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><a href="../papers/36044468.html">PMID:36044468</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/30643254.html">PMID:30643254</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

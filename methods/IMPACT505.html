@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -173,14 +176,21 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="used-by">Used by</h2>
 <ul>
 <li><a href="../papers/36862133.html">PMID:36862133</a> — MSK-IMPACT (up to 505 genes) with <a href="../methods/select.html">select</a> targeted RNA sequencing was used in the Make-an-IMPACT direct-to-patient program; 250/333 enrolled patients had tumor DNA of sufficient quality. In histiocytosis (n=84), most commonly mutated actionable genes were <a href="../genes/BRAF.html">BRAF</a> (33%), <a href="../genes/MAP2K1.html">MAP2K1</a> (13%), <a href="../genes/KRAS.html">KRAS</a> (7%), and <a href="../genes/CSF1R.html">CSF1R</a> (2.4%) <a href="../papers/36862133.html">PMID:36862133</a>.</li>
-<li><a href="../papers/37315267.html">PMID:37315267</a> — MSK-IMPACT 410–505 was used in 40% of 61 extremity rhabdomyosarcoma patients; identified mutually exclusive <a href="../genes/CDK4.html">CDK4</a> amplifications and <a href="../genes/CDKN2A.html">CDKN2A</a> deletions associated with poor <a href="../cancer_types/OS.html">OS</a> <a href="../papers/37315267.html">PMID:37315267</a>.</li>
+<li><a href="../papers/37315267.html">PMID:37315267</a> — MSK-IMPACT 410–505 was used in 40% of 61 extremity rhabdomyosarcoma patients; identified mutually exclusive <a href="../genes/CDK4.html">CDK4</a> amplifications and <a href="../genes/CDKN2A.html">CDKN2A</a> deletions associated with poor OS <a href="../papers/37315267.html">PMID:37315267</a>.</li>
 <li><a href="../papers/37591896.html">PMID:37591896</a> — one of the panel versions used in the 233-patient <a href="../cancer_types/NSCLC.html">NSCLC</a> brain metastasis cohort <a href="../papers/37591896.html">PMID:37591896</a>.</li>
 <li><a href="../papers/39289779.html">PMID:39289779</a> — IMPACT505 was used to profile 733 CSF samples (later cohort, Nov 2018 – Nov 2022) in a 1,007-sample CSF ctDNA study at MSK; ctDNA positivity was associated with a three-fold increased risk of death (HR 3.23, p &lt; 0.001) and 50.7% of ctDNA-positive samples carried a level 1 OncoKB actionable alteration <a href="../papers/39289779.html">PMID:39289779</a>.</li>
-<li><a href="../papers/39753968.html">PMID:39753968</a> — IMPACT505 was one of four panel generations (n=345 patients) used in the 2,336-patient MSK PDAC cohort; <a href="../genes/KRAS.html">KRAS</a> mutant-allele dosage gains detected with FACETS (v0.5.14) correlated with worse <a href="../cancer_types/OS.html">OS</a> across all clinical stages independent of whole-genome doubling <a href="../papers/39753968.html">PMID:39753968</a>.</li>
+<li><a href="../papers/39753968.html">PMID:39753968</a> — IMPACT505 was one of four panel generations (n=345 patients) used in the 2,336-patient MSK PDAC cohort; <a href="../genes/KRAS.html">KRAS</a> mutant-allele dosage gains detected with FACETS (v0.5.14) correlated with worse OS across all clinical stages independent of whole-genome doubling <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li><a href="../papers/37699004.html">PMID:37699004</a> — IMPACT505 (up to 505 genes) used to sequence 902/1,123 esophagogastric cancer patients at MSK; germline analysis used a 76–88-gene MSK-IMPACT panel on 466 patients <a href="../papers/37699004.html">PMID:37699004</a>.</li>
 <li><a href="../papers/37769223.html">PMID:37769223</a> — IMPACT505 used in 37 (72.5%) of 51 <a href="../cancer_types/HCC.html">HCC</a> patients for matched tumor tissue profiling, complementing MSK-ACCESS cfDNA profiling; 92.5% of tissue alterations were detected in matched cfDNA <a href="../papers/37769223.html">PMID:37769223</a>.</li>
 <li><a href="../papers/38630790.html">PMID:38630790</a> — IMPACT505 used in an additional 105-patient validation cohort for the GNH subset of diffuse pleural mesothelioma; 4 GNH cases identified <a href="../papers/38630790.html">PMID:38630790</a>.</li>
 <li>Applied in <a href="../datasets/lgsoc_mapk_msk_2022.html">lgsoc_mapk_msk_2022</a> study: IMPACT505 panel (n=5 patients) used as part of MSK-IMPACT targeted sequencing across 119 LGSC patients <a href="../papers/35443055.html">PMID:35443055</a></li>
+<li>One of the four MSK-IMPACT panel versions (341-505 genes) used to screen 66,285 tumor samples for <a href="../genes/MET.html">MET</a> copy-number gain. <a href="../papers/36044468.html">PMID:36044468</a></li>
+<li>One of the MSK-IMPACT panel versions used to sequence 2,638 endometrial carcinomas screened for pathogenic <a href="../genes/ERBB2.html">ERBB2</a> mutations. <a href="../papers/39031567.html">PMID:39031567</a></li>
+<li>IMPACT505 (505-gene MSK-IMPACT panel) was run on paired tumor/germline DNA from 184 muscle-invasive bladder cancers in the SWOG S1314 trial to test DDR-gene alterations against <a href="../drugs/cisplatin.html">cisplatin</a> response. <a href="../papers/39499893.html">PMID:39499893</a></li>
+<li>One of the MSK-IMPACT panel versions (341-505 genes) used for targeted sequencing of secondary rectal cancers arising after prostate radiotherapy and primary rectal cancer controls. <a href="../papers/40100215.html">PMID:40100215</a></li>
+<li>IMPACT505 (v7, 505 genes) was one of two MSK-IMPACT panel versions used for tissue sequencing of pancreatic ductal adenocarcinoma compared against ctDNA. <a href="../papers/40511613.html">PMID:40511613</a></li>
+<li>IMPACT505 sequenced 8,143 of the 54,331 tumors in the 50k-sample MSK-IMPACT pan-cancer hotspot-discovery cohort. <a href="../papers/41895280.html">PMID:41895280</a></li>
+<li>IMPACT505 sequenced 336 of the 1,254 biliary tract cancer samples in this MSK cohort. <a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -201,9 +211,16 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/37699004.html">PMID:37699004</a></li>
 <li><a href="../papers/37769223.html">PMID:37769223</a></li>
 <li><a href="../papers/38630790.html">PMID:38630790</a></li>
+<li><a href="../papers/35443055.html">PMID:35443055</a></li>
+<li><a href="../papers/36044468.html">PMID:36044468</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
+<li><a href="../papers/39499893.html">PMID:39499893</a></li>
+<li><a href="../papers/40100215.html">PMID:40100215</a></li>
+<li><a href="../papers/40511613.html">PMID:40511613</a></li>
+<li><a href="../papers/41895280.html">PMID:41895280</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35443055.html">PMID:35443055</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,14 +181,15 @@ ul.task-list li input[type="checkbox"] {
 <li>Somatic loss-of-function mutations in SETDB1 were identified in 8 of 10 GNH DPM cases; absent in non-GNH DPMs. SETDB1 inactivation in the context of genome-wide loss of heterozygosity may rescue expression of monoallelically expressed genes <a href="../papers/38630790.html">PMID:38630790</a>.</li>
 <li>SETDB1 mutations are highly specific for the GNH DPM subset and may serve as a molecular marker when detected on panels covering this gene (e.g., <a href="../methods/IMPACT505.html">IMPACT505</a>) <a href="../papers/38630790.html">PMID:38630790</a>.</li>
 <li>Chromatin-modifier mutation identified in MSK prostate cancer cell lines, consistent with Grasso 2012 CRPC findings of frequent epigenetic gene alterations in castration-resistant prostate cancer <a href="../papers/25201530.html">PMID:25201530</a></li>
-<li>1q21.1 SETDB1/MLLT11 co-amplification (P=0.0002) defines CN Cluster B in urothelial carcinoma, enriched for TP53 mutations (P=0.0001), in a cohort of 72 tumours from 32 patients undergoing WES pre/post platinum-based chemotherapy. <a href="../papers/27749842.html">PMID:27749842</a></li>
-<li>1q-encoded histone modifier in endometrial cancer; anticorrelated with p53-pathway target proteins (CDKN1A, TNFRSF10B); MDM4 mRNA increases with 1q copy number in MSI tumors <a href="../papers/32059776.html">PMID:32059776</a></li>
+<li>1q21.1 SETDB1/MLLT11 co-amplification (P=0.0002) defines CN Cluster B in urothelial carcinoma, enriched for <a href="../genes/TP53.html">TP53</a> mutations (P=0.0001), in a cohort of 72 tumours from 32 patients undergoing WES pre/post platinum-based chemotherapy. <a href="../papers/27749842.html">PMID:27749842</a></li>
+<li>1q-encoded histone modifier in endometrial cancer; anticorrelated with p53-pathway target proteins (<a href="../genes/CDKN1A.html">CDKN1A</a>, <a href="../genes/TNFRSF10B.html">TNFRSF10B</a>); <a href="../genes/MDM4.html">MDM4</a> mRNA increases with 1q copy number in MSI tumors <a href="../papers/32059776.html">PMID:32059776</a></li>
+<li>Located in a GISTIC2 amplification peak (with <a href="../genes/EZH2.html">EZH2</a>) in hepatoblastoma PDX/primary tumor pairs. <a href="../papers/37990009.html">PMID:37990009</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><a href="../cancer_types/PLMESO.html">PLMESO</a> — loss-of-function mutations define the GNH subset (n=10); associated with poor <a href="../cancer_types/OS.html">OS</a> (10.9 months) and possible ICB sensitivity <a href="../papers/38630790.html">PMID:38630790</a>.</li>
+<li><a href="../cancer_types/PLMESO.html">PLMESO</a> — loss-of-function mutations define the GNH subset (n=10); associated with poor OS (10.9 months) and possible ICB sensitivity <a href="../papers/38630790.html">PMID:38630790</a>.</li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
@@ -209,12 +213,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/38630790.html">PMID:38630790</a></li>
+<li><p><a href="../papers/38630790.html">PMID:38630790</a></p></li>
+<li><p><a href="../papers/25201530.html">PMID:25201530</a></p></li>
+<li><p><a href="../papers/27749842.html">PMID:27749842</a></p></li>
+<li><p><a href="../papers/32059776.html">PMID:32059776</a></p></li>
+<li><p><a href="../papers/37990009.html">PMID:37990009</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/25201530.html">PMID:25201530</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27749842.html">PMID:27749842</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/32059776.html">PMID:32059776</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

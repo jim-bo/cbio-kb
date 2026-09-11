@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -189,10 +192,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Used for targeted validation sequencing of 172 <a href="../cancer_types/MCL.html">MCL</a> patients in an independent cohort to confirm WES-identified mutations <a href="../papers/24145436.html">PMID:24145436</a></li>
 <li>Used to confirm 50 somatic mutations from the whole-exome discovery screen in intrahepatic cholangiocarcinoma/gallbladder carcinoma — all 50 mutations verified <a href="../papers/24185509.html">PMID:24185509</a>.</li>
 <li>Used to sequence <a href="../genes/CALR.html">CALR</a> exon 9 in an additional 1,345 hematologic cancers, 52 controls, and 5-patient clonal colony analyses (~300 colonies) for validation of the whole-exome discovery of <a href="../genes/CALR.html">CALR</a> frameshift indels in JAK2/MPL-negative <a href="../cancer_types/MPN.html">MPN</a> <a href="../papers/24325359.html">PMID:24325359</a>.</li>
-<li>PCR/Sanger HPV genotyping covering types 16/18/31/33/35/45 plus L1/E1 consensus primers used to exclude HPV-associated multiphenotypic sinonasal carcinoma from the sinonasal adenoid cystic carcinoma cohort (n=88); identified 11/100 HPV-positive cases for reclassification <a href="../papers/24418857.html">PMID:24418857</a></li>
+<li>PCR/Sanger HPV genotyping covering types 16/18/31/33/35/45 plus L1/E1 consensus primers used to exclude HPV-associated multiphenotypic sinonasal carcinoma from the sinonasal adenoid cystic carcinoma cohort (n=88); identified 11/100 HPV-positive cases for reclassification <a href="../papers/39760648.html">PMID:39760648</a></li>
 <li>Validated all identified <a href="../genes/SMARCA4.html">SMARCA4</a> mutations in 12 SCCOHT cases by Sanger sequencing of genomic DNA and cDNA (RT-PCR) <a href="../papers/24658004.html">PMID:24658004</a></li>
 <li>Validated somatic mutations in <a href="../cancer_types/ESCC.html">ESCC</a> cohort with a 96.2% true-positive rate across 1,847 non-silent somatic mutations <a href="../papers/24686850.html">PMID:24686850</a></li>
-<li>Sanger sequencing applied to <a href="../cancer_types/HCC.html">HCC</a> cohort molecular characterisation as part of the multi-platform TCGA integrated study <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>Sanger sequencing applied to <a href="../cancer_types/HCC.html">HCC</a> cohort molecular characterisation as part of the multi-platform TCGA integrated study <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>Sanger sequencing of <a href="../genes/GTF2I.html">GTF2I</a> performed on 199 TETs with &gt;50% cancer cells to confirm the recurrent chr7:74146970 T&gt;A hotspot mutation <a href="../papers/24974848.html">PMID:24974848</a></li>
 <li>Used for plasmid verification in functional studies of MSK-IMPACT-detected mutations (e.g., <a href="../genes/MAP2K1.html">MAP2K1</a> Q56P) in the CRC concordance study. <a href="../papers/25164765.html">PMID:25164765</a></li>
 <li>Used for orthogonal confirmation of <a href="../genes/CDKN2A.html">CDKN2A</a> deletions in Ewing sarcoma WGS discovery cohort <a href="../papers/25223734.html">PMID:25223734</a></li>
@@ -208,17 +211,20 @@ ul.task-list li input[type="checkbox"] {
 <li>Used to validate <a href="../genes/MYBL1.html">MYBL1</a> fusion breakpoints and to characterize <a href="../genes/MYBL1.html">MYBL1</a> truncations identified by whole-genome sequencing in salivary adenoid cystic carcinomas, including 3’-RACE for truncation characterization <a href="../papers/26631609.html">PMID:26631609</a>.</li>
 <li>Used to validate the recurrent <a href="../genes/PLCB4.html">PLCB4</a> p.D630Y hotspot mutation identified by WGS/WES in uveal melanoma samples; confirmed mutation in 2/28 discovery samples and 1/56 previously published <a href="../cancer_types/UM.html">UM</a> tumors <a href="../papers/26683228.html">PMID:26683228</a>.</li>
 <li>Used as readout for bisulfite sequencing of the <a href="../genes/CDH1.html">CDH1</a> promoter CpG island to detect hypermethylation in <a href="../genes/CDH1.html">CDH1</a> wild-type plasmacytoid bladder tumors. <a href="../papers/26901067.html">PMID:26901067</a></li>
-<li>Applied Sanger sequencing for targeted validation of somatic mutations <a href="../papers/28199314.html">PMID:28199314</a></li>
+<li>Applied Sanger sequencing for targeted validation of somatic mutations <a href="../papers/41102727.html">PMID:41102727</a></li>
 <li>Used Sanger sequencing for orthogonal validation of somatic variants <a href="../papers/28373299.html">PMID:28373299</a></li>
-<li>Applied Sanger sequencing to validate somatic variants and germline mutations <a href="../papers/28445112.html">PMID:28445112</a></li>
+<li>Applied Sanger sequencing to validate somatic variants and germline mutations <a href="../papers/41137179.html">PMID:41137179</a></li>
 <li>Sanger sequencing of 22 genes-of-interest used in the prevalence screen of 47 clear cell endometrial carcinoma (CCEC) cases from the <a href="../datasets/uccc_nih_2017.html">uccc_nih_2017</a> cohort <a href="../papers/28485815.html">PMID:28485815</a></li>
 <li>Used to PCR-validate structural variants detected by CREST in CCA WGS data (91% validation rate across ~93 somatic SVs/tumor) <a href="../papers/28667006.html">PMID:28667006</a></li>
-<li>Used for validation of CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489 in PC3 and DU145 cells) in the NOL10/USF1 functional study <a href="../papers/28927585.html">PMID:28927585</a></li>
+<li>Used for validation of CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489 in PC3 and DU145 cells) in the NOL10/USF1 functional study <a href="../papers/41062477.html">PMID:41062477</a></li>
 <li>Used for validation of somatic variant calls from WES (1130 events across 61 genes in DLBCL cohort, 90% concordance) <a href="../papers/28985567.html">PMID:28985567</a></li>
 <li>Used to confirm recombination of the artificial-telomere construct at the centromeric chr_3p break site in CRISPR-engineered AALE cell clones <a href="../papers/29622463.html">PMID:29622463</a></li>
 <li>Used to validate the <a href="../genes/FGFR3.html">FGFR3</a>–<a href="../genes/TACC3.html">TACC3</a> fusion (exon 17–exon 11 junction) detected in organoid line SCBO-10 and its matched parental bladder tumor <a href="../papers/29625057.html">PMID:29625057</a>.</li>
 <li>Applied to 16 metaplastic breast cancers (<a href="../cancer_types/MBC.html">MBC</a>) for targeted validation sequencing of <a href="../genes/TERT.html">TERT</a> promoter hotspot, <a href="../genes/TP53.html">TP53</a>, and selected exons of <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/HRAS.html">HRAS</a>, and <a href="../genes/BRAF.html">BRAF</a> where WES/IMPACT data were unavailable <a href="../papers/33863915.html">PMID:33863915</a></li>
 <li>Sanger sequencing used for technical and biological validation of single-cell genotyping (SCG) calls in dual-driver CRC study <a href="../papers/35235413.html">PMID:35235413</a>.</li>
+<li>Validated <a href="../genes/MTOR.html">MTOR</a> mutations across 277 solitary fibrous tumor specimens and confirmed <a href="../genes/IDH1.html">IDH1</a> p.R132S in 7 SYSUCC cases <a href="../papers/37980418.html">PMID:37980418</a>.</li>
+<li>Confirmed CRISPR-Cas9 <a href="../genes/AXIN2.html">AXIN2</a> knockout edits in MCF7 invasive lobular carcinoma functional models <a href="../papers/38347189.html">PMID:38347189</a>.</li>
+<li>Used alongside MSK-IMPACT profiling to confirm <a href="../genes/MYOD1.html">MYOD1</a> mutation status in the MYOD1 L122R-mutant <a href="../cancer_types/SCSRMS.html">SCSRMS</a> tumor and PDX cohort <a href="../papers/41758938.html">PMID:41758938</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -230,57 +236,58 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/18772890.html">PMID:18772890</a></li>
+<li><p><a href="../papers/18772890.html">PMID:18772890</a></p></li>
+<li><p><a href="../papers/21252315.html">PMID:21252315</a></p></li>
+<li><p><a href="../papers/21796119.html">PMID:21796119</a></p></li>
+<li><p><a href="../papers/21798897.html">PMID:21798897</a></p></li>
+<li><p><a href="../papers/22610119.html">PMID:22610119</a></p></li>
+<li><p><a href="../papers/22622578.html">PMID:22622578</a></p></li>
+<li><p><a href="../papers/22722829.html">PMID:22722829</a></p></li>
+<li><p><a href="../papers/22842228.html">PMID:22842228</a></p></li>
+<li><p><a href="../papers/23334668.html">PMID:23334668</a></p></li>
+<li><p><a href="../papers/23619168.html">PMID:23619168</a></p></li>
+<li><p><a href="../papers/23778141.html">PMID:23778141</a></p></li>
+<li><p><a href="../papers/23817572.html">PMID:23817572</a></p></li>
+<li><p><a href="../papers/23897969.html">PMID:23897969</a></p></li>
+<li><p><a href="../papers/24121792.html">PMID:24121792</a></p></li>
+<li><p><a href="../papers/24145436.html">PMID:24145436</a></p></li>
+<li><p><a href="../papers/24185509.html">PMID:24185509</a></p></li>
+<li><p><a href="../papers/24325359.html">PMID:24325359</a></p></li>
+<li><p><a href="../papers/39760648.html">PMID:39760648</a></p></li>
+<li><p><a href="../papers/24658004.html">PMID:24658004</a></p></li>
+<li><p><a href="../papers/24686850.html">PMID:24686850</a></p></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
+<li><p><a href="../papers/24974848.html">PMID:24974848</a></p></li>
+<li><p><a href="../papers/25164765.html">PMID:25164765</a></p></li>
+<li><p><a href="../papers/25223734.html">PMID:25223734</a></p></li>
+<li><p><a href="../papers/25401301.html">PMID:25401301</a></p></li>
+<li><p><a href="../papers/25583493.html">PMID:25583493</a></p></li>
+<li><p><a href="../papers/25822088.html">PMID:25822088</a></p></li>
+<li><p><a href="../papers/25855536.html">PMID:25855536</a></p></li>
+<li><p><a href="../papers/25991819.html">PMID:25991819</a></p></li>
+<li><p><a href="../papers/26091043.html">PMID:26091043</a></p></li>
+<li><p><a href="../papers/26168399.html">PMID:26168399</a></p></li>
+<li><p><a href="../papers/26278805.html">PMID:26278805</a></p></li>
+<li><p><a href="../papers/26343386.html">PMID:26343386</a></p></li>
+<li><p><a href="../papers/26631609.html">PMID:26631609</a></p></li>
+<li><p><a href="../papers/26683228.html">PMID:26683228</a></p></li>
+<li><p><a href="../papers/26901067.html">PMID:26901067</a></p></li>
+<li><p><a href="../papers/41102727.html">PMID:41102727</a></p></li>
+<li><p><a href="../papers/28373299.html">PMID:28373299</a></p></li>
+<li><p><a href="../papers/41137179.html">PMID:41137179</a></p></li>
+<li><p><a href="../papers/28485815.html">PMID:28485815</a></p></li>
+<li><p><a href="../papers/28667006.html">PMID:28667006</a></p></li>
+<li><p><a href="../papers/41062477.html">PMID:41062477</a></p></li>
+<li><p><a href="../papers/28985567.html">PMID:28985567</a></p></li>
+<li><p><a href="../papers/29622463.html">PMID:29622463</a></p></li>
+<li><p><a href="../papers/29625057.html">PMID:29625057</a></p></li>
+<li><p><a href="../papers/33863915.html">PMID:33863915</a></p></li>
+<li><p><a href="../papers/35235413.html">PMID:35235413</a></p></li>
+<li><p><a href="../papers/37980418.html">PMID:37980418</a></p></li>
+<li><p><a href="../papers/38347189.html">PMID:38347189</a></p></li>
+<li><p><a href="../papers/41758938.html">PMID:41758938</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/21252315.html">PMID:21252315</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/21796119.html">PMID:21796119</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/21798897.html">PMID:21798897</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22610119.html">PMID:22610119</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22622578.html">PMID:22622578</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22722829.html">PMID:22722829</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22842228.html">PMID:22842228</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23334668.html">PMID:23334668</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23619168.html">PMID:23619168</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23778141.html">PMID:23778141</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23817572.html">PMID:23817572</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23897969.html">PMID:23897969</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24121792.html">PMID:24121792</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24145436.html">PMID:24145436</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24185509.html">PMID:24185509</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24325359.html">PMID:24325359</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24418857.html">PMID:24418857</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24658004.html">PMID:24658004</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24686850.html">PMID:24686850</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24974848.html">PMID:24974848</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25164765.html">PMID:25164765</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25223734.html">PMID:25223734</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25401301.html">PMID:25401301</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25583493.html">PMID:25583493</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25822088.html">PMID:25822088</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25855536.html">PMID:25855536</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25991819.html">PMID:25991819</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26091043.html">PMID:26091043</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26168399.html">PMID:26168399</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26278805.html">PMID:26278805</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26343386.html">PMID:26343386</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26631609.html">PMID:26631609</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26683228.html">PMID:26683228</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28199314.html">PMID:28199314</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28373299.html">PMID:28373299</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28445112.html">PMID:28445112</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28485815.html">PMID:28485815</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28985567.html">PMID:28985567</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29622463.html">PMID:29622463</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625057.html">PMID:29625057</a></p>
-<ul>
-<li><a href="../papers/33863915.html">PMID:33863915</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35235413.html">PMID:35235413</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

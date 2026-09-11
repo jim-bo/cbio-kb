@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>CDKN2B alteration is a major contributor to Cell Cycle pathway enrichment in esophageal/GEJ adenocarcinoma (<a href="../datasets/egc_mskcc_2020.html">egc_mskcc_2020</a>, n=487); grouped with <a href="../genes/CCNE1.html">CCNE1</a> and <a href="../genes/CCND1.html">CCND1</a> <a href="../papers/33795256.html">PMID:33795256</a>.</li>
 <li>CDKN2A/CDKN2B show differential alteration patterns between IDH-WT and IDH-mutant <a href="../cancer_types/GBM.html">GBM</a> tumors (<a href="../datasets/gbm_cptac_2021.html">gbm_cptac_2021</a>, n=99) <a href="../papers/33577785.html">PMID:33577785</a>.</li>
-<li>Deletion (HR 6.0, 95% CI 2.5–14.6, P&lt;0.001) is the strongest independent predictor of worse <a href="../cancer_types/OS.html">OS</a> among individual alterations in node-positive (N1) intrahepatic cholangiocarcinoma; median <a href="../cancer_types/OS.html">OS</a> for CDKN2A/B-deleted N1 patients ~7 vs ~27 months for wild-type <a href="../papers/33963001.html">PMID:33963001</a></li>
+<li>Deletion (HR 6.0, 95% CI 2.5–14.6, P&lt;0.001) is the strongest independent predictor of worse OS among individual alterations in node-positive (N1) intrahepatic cholangiocarcinoma; median OS for CDKN2A/B-deleted N1 patients ~7 vs ~27 months for wild-type <a href="../papers/33963001.html">PMID:33963001</a></li>
 <li>CDKN2B (p15INK4B) is the dominant INK4 binder to <a href="../genes/CDK6.html">CDK6</a> in abemaciclib-resistant FAT1CR MCF7 cells (6 unique peptides in IP-MS); CRISPR knockout of CDKN2B + <a href="../genes/CDKN2C.html">CDKN2C</a> (double KO) almost entirely restores RB-phosphorylation suppression and re-sensitizes cells to 100 nmol/L <a href="../drugs/abemaciclib.html">abemaciclib</a> over 21 days (P&lt;0.0001) <a href="../papers/34544752.html">PMID:34544752</a></li>
 <li>CDKN2B — co-deleted with <a href="../genes/CDKN2A.html">CDKN2A</a> across sarcomas, CNS tumors, and leukemia in MAPPYACTS pediatric cohort (n=624); 157 combined CDKN2A/CDKN2B deletions/inactivating events used to guide CDK4/6 inhibitor recommendations <a href="../papers/35292802.html">PMID:35292802</a></li>
 <li>CDKN2B deleted in 12.8% of sarcomas (99.0% homozygous deletions); enriched in <a href="../cancer_types/MPNST.html">MPNST</a> and chordoma; co-occurs with <a href="../genes/CDKN2A.html">CDKN2A</a> loss, CDK4/CDK6 amplification in the cell-cycle pathway <a href="../papers/35705558.html">PMID:35705558</a></li>
@@ -186,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong>Esophageal/gastroesophageal junction adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>):</strong> CDKN2B is among the top Cell Cycle pathway contributors; no independent <a href="../cancer_types/OS.html">OS</a> association for CDKN2B alone reported <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+<li><strong>Esophageal/gastroesophageal junction adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>):</strong> CDKN2B is among the top Cell Cycle pathway contributors; no independent OS association for CDKN2B alone reported <a href="../papers/33795256.html">PMID:33795256</a>.</li>
 <li><strong>Glioblastoma (<a href="../cancer_types/GBM.html">GBM</a>):</strong> CDKN2B alteration pattern differs between IDH-WT and IDH-mutant subtypes <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 </ul>
 </section>

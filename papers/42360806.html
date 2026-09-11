@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Molecular and Clinical Determinants of Targeted Therapy Treatment in Biliary Tract Cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/42360806.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/42360806.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Molecular and Clinical Determinants of Targeted Therapy Treatment in Biliary Tract Cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Darren Cowzer </p>
+             <p>Henry Walch </p>
+             <p>Pranita Atri </p>
+             <p>Farheen Shah </p>
+             <p>Risha Huq </p>
+             <p>Rohit Thummalapalli </p>
+             <p>Fatema Nagib </p>
+             <p>Anna Varghese </p>
+             <p>Danny N Khalil </p>
+             <p>Wungki Park </p>
+             <p>Benoit Rousseau </p>
+             <p>Andrea Cercek </p>
+             <p>Joseph Erinjeri </p>
+             <p>Randy Yeh </p>
+             <p>Richard K Do </p>
+             <p>Olca Basturk </p>
+             <p>Jinru Shia </p>
+             <p>Debyani Chakravarty </p>
+             <p>Michael F Berger </p>
+             <p>Nikolaus Schultz </p>
+             <p>Mithat Gonen </p>
+             <p>Eileen M O’Reilly </p>
+             <p>William Jarnagin </p>
+             <p>Ghassan K Abou-Alfa </p>
+             <p>David B Solit </p>
+             <p>Walid K Chatila </p>
+             <p>James J Harding </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-26-0428">10.1158/1078-0432.CCR-26-0428</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 42360806 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-26-0428 · <strong>Journal:</strong> Clinical Cancer Research (2026)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Cowzer, Harding and colleagues analyzed 1,254 patients with biliary tract cancer (BTC) whose tumors were sequenced with <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> at Memorial Sloan Kettering (April 2014 to September 2022). The cohort comprised 767 intrahepatic cholangiocarcinomas (<a href="../cancer_types/IHCH.html">IHCH</a>), 210 extrahepatic cholangiocarcinomas (<a href="../cancer_types/EHCH.html">EHCH</a>) and 277 gallbladder cancers (<a href="../cancer_types/GBC.html">GBC</a>). They mapped the genomic landscape and <a href="../methods/oncokb.html">OncoKB</a> actionability of each anatomic subtype, compared outcomes with genomically matched targeted therapy against unmatched therapy, and used paired pre- and post-treatment samples to look for resistance mechanisms. 32.2% of patients had an OncoKB level 1/2 alteration (iCCA 40%, eCCA 15%, <a href="../cancer_types/GBC.html">GBC</a> 22%). Emerging targets included <a href="../genes/KRAS.html">KRAS</a> alterations (17%), <a href="../genes/MTAP.html">MTAP</a> deletions (12.8%), <a href="../genes/MDM2.html">MDM2</a> amplification (6.5%) and <a href="../genes/MET.html">MET</a> amplification (1.5%). In second line, matched targeted therapy was linked to longer progression-free survival than 5-FU-based chemotherapy (median 6.6 vs 3.3 months; P = .005). Overall survival was not significantly different (median 17.0 vs 11.0 months; HR 0.8; P = .16). In the paired samples, <a href="../genes/ERBB2.html">ERBB2</a>-driven tumors often lost the <a href="../genes/ERBB2.html">ERBB2</a> alteration. Tumors driven by <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/BRAF.html">BRAF</a> and NTRK kept their driver. Acquired resistance involved RAS, MEK, <a href="../genes/MET.html">MET</a>, <a href="../genes/MYC.html">MYC</a> and <a href="../genes/CDKN2A.html">CDKN2A</a> alterations. The data are released as the cBioPortal study <a href="../datasets/biliary_tract_msk_2026.html">biliary_tract_msk_2026</a> (<a href="../papers/42360806.html">PMID:42360806</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patients and samples:</strong> 1,254 patients (1,285 samples, including paired pre-treatment and progression samples plus plasma ctDNA) enrolled on MSK’s prospective clinical genomic profiling protocol (NCT01775072; MSK IRB 12-245) between April 2014 and September 2022. Samples with tumor purity below 10% or no somatic alterations were excluded (n = 111). For the landscape and outcome analyses, one sample per patient was used, preferring primary tumors and higher-quality samples (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Cancer types:</strong> <a href="../cancer_types/BILIARY_TRACT.html">biliary tract cancer</a>, split into <a href="../cancer_types/IHCH.html">intrahepatic cholangiocarcinoma (IHCH)</a> 767 (61.2%), <a href="../cancer_types/EHCH.html">extrahepatic cholangiocarcinoma (EHCH)</a> 210 (16.8%) and <a href="../cancer_types/GBC.html">gallbladder cancer (GBC)</a> 277 (22.1%). iCCA and eCCA both fall under <a href="../cancer_types/CHOL.html">cholangiocarcinoma</a> (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Demographics (Table 1):</strong> median age 65 (range 21–89). 651 female (52%) and 603 male (48%); GBC was 68.6% female. Self-reported race: Caucasian 931 (74.2%), Asian 129 (10.2%), African American 79 (6.2%). By <a href="../methods/admixture.html">ADMIXTURE</a> genetic ancestry, 60.1% were European. 879 primary (70%) vs 375 metastatic (30%) samples were sequenced (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/biliary_tract_msk_2026.html">biliary_tract_msk_2026</a> on cBioPortal (summary-level data). Deidentified patient-level data are available on request (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Assay:</strong> tumor and matched-normal <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> hybridization-capture NGS on four panel versions: <a href="../methods/IMPACT341.html">IMPACT341</a> (n = 55), <a href="../methods/IMPACT410.html">IMPACT410</a> (n = 200), <a href="../methods/IMPACT468.html">IMPACT468</a> (n = 663) and <a href="../methods/IMPACT505.html">IMPACT505</a> (n = 336). Analyses were adjusted for differences in gene content between panel versions. Selected cases also had cfDNA profiling with <a href="../methods/msk-access.html">MSK-ACCESS</a> (assay described in <a href="../papers/34145282.html">PMID:34145282</a>) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Annotation:</strong> oncogenicity and actionability came from <a href="../methods/oncokb.html">OncoKB</a> (<a href="../methods/oncokb-annotation.html">OncoKB annotation</a>). The March 2017 (v1.8) and July 2023 (v4.7) releases were compared to measure how actionability grew over time. The <strong>potentially actionable cohort (n = 514)</strong> included tumors with an OncoKB level 1, 2 or 3A alteration, or a selected level 3B alteration: <a href="../genes/BRAF.html">BRAF</a> non-V600E, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/FGFR3.html">FGFR3</a>, <a href="../genes/IDH2.html">IDH2</a> or <a href="../genes/MET.html">MET</a> (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Clinically eligible cohort (n = 413):</strong> the actionable cohort minus 46 patients with missing survival data and 55 with incomplete follow-up. 176 (43%) received matched targeted therapy based on NGS; 237 (57%) did not (the “unmatched” group). To reduce lead-time bias, OS was measured from the start of second-line therapy. The treated group was limited to patients who received matched therapy in second line (n = 100) and the untreated group to patients who received two or more lines of systemic therapy (n = 113) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Genomic methods:</strong>
+<ul>
+<li>TMB: nonsynonymous mutations per Mb.</li>
+<li>Copy number and clonality: <a href="../methods/facets.html">FACETS</a>/facets-suite for purity-corrected copy number and cancer cell fraction (CCF). A mutation was called subclonal when the upper 95% CI bound of its CCF was below 1 and P(CCF &lt; 0.5) was above 0.95.</li>
+<li>Pathways: TCGA curated pathway templates (see <a href="../papers/29625050.html">PMID:29625050</a>).</li>
+<li>MSI: <a href="../methods/msisensor.html">MSIsensor</a> score ≥10 classified 16 tumors as MSI. <a href="../methods/mimsi.html">MiMSI</a> (<a href="../papers/39746944.html">PMID:39746944</a>) was run on all TMB ≥10 tumors (n = 72) and reclassified 10 more as MSI. 2 tumors were hypermutant (TMB ≥30) but MSS by both methods (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+<li><strong>Statistics:</strong> Mann-Whitney U and Fisher’s exact tests; <a href="../methods/kaplan-meier.html">Kaplan-Meier</a> with log-rank tests; <a href="../methods/cox-proportional-hazards.html">Cox proportional hazards</a> for multivariable OS/PFS; Benjamini-Hochberg correction; R 4.3.2. PFS ran from treatment start to investigator-assessed progression or death (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong>Genomic landscape by anatomic subtype</strong></p>
+<ul>
+<li>1,226/1,254 tumors (97.8%) were MSS and 26/1,254 (2.1%) MSI-H. MSI-H rates were similar across subtypes: iCCA 12/767 (1.5%), GBC 6/277 (2.2%), eCCA 8/210 (3.8%) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>Median TMB was 3.3 mut/Mb overall (range 0–74.6) and 3.0 mut/Mb in MSS tumors (range 0–29). 48 MSS tumors were TMB-high (≥10 mut/Mb). Among MSS tumors, GBC had higher median TMB than iCCA (4.1 vs 2.6 mut/Mb; P = .002) and higher median fraction genome altered (0.495 vs 0.43; P = .014) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>Whole-genome doubling was more common in eCCA (34.2%; P = .002) and GBC (32%; P = .001) than in iCCA (20.7%) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>The most frequently altered genes in MSS tumors were <a href="../genes/TP53.html">TP53</a> (36%), <a href="../genes/CDKN2A.html">CDKN2A</a> (21%), <a href="../genes/ARID1A.html">ARID1A</a> (18%), <a href="../genes/KRAS.html">KRAS</a> (17%) and IDH1/2 (16%) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/BAP1.html">BAP1</a> and <a href="../genes/PBRM1.html">PBRM1</a> alterations were enriched in iCCA compared with both eCCA and GBC. <a href="../genes/TP53.html">TP53</a>, <a href="../genes/SMAD4.html">SMAD4</a> and <a href="../genes/MDM2.html">MDM2</a> alterations were less frequent in iCCA. <a href="../genes/KRAS.html">KRAS</a> was most frequent in eCCA, and <a href="../genes/ERBB2.html">ERBB2</a> was more frequent in GBC than in iCCA. Pathway-level trends matched the gene-level ones. The authors also noted age-related differences in FGFR2- and MDM2-altered tumors (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>KRAS alleles:</strong> G13D was enriched in GBC and showed the highest rate of mutant-allele selection. G12V occurred only in iCCA and eCCA. Most “other” KRAS variants (A146T/V, L19F, V14I) were subclonal (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Clonality:</strong> most OncoKB driver and passenger mutations were clonal, with passengers slightly more often subclonal. ERBB2 mutations in GBC were subclonal in 41.2% of tumors, while ERBB2 amplifications were mostly clonal in all subtypes. GBC samples with subclonal ERBB2 mutations were enriched for <a href="../genes/ERBB3.html">ERBB3</a> and <a href="../genes/NF1.html">NF1</a> alterations and for epigenetic, NRF2 and PI3K pathway alterations (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul>
+<p><strong>Actionability</strong></p>
+<ul>
+<li>59% of patients had at least one OncoKB alteration. 32.2% had a level 1/2 alteration: intrahepatic 40%, extrahepatic 15%, gallbladder 22%. In Table 1, the highest level was I in 348 (27.8%), II in 57 (4.5%), IIIA in 14 (1.1%) and IIIB in 219 (17.5%) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>The share of BTC with OncoKB level 1/2 alterations rose clearly between the 2017 and 2023 OncoKB releases. Most tumors with an actionable alteration had only one, usually a missense mutation (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Emerging targets:</strong> KRAS G12D (5.4%) and G12C (1.1%); <a href="../genes/MTAP.html">MTAP</a> deletion (12.8% of the n = 336 tumors profiled for it); <a href="../genes/MDM2.html">MDM2</a> amplification (6.5%); MET amplification (1.5%) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul>
+<p><strong>Uptake of matched targeted therapy (n = 413 eligible)</strong></p>
+<ul>
+<li><p>176/413 (42.6%) received matched targeted therapy. Uptake by alteration:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Alteration</th>
+<th style="text-align: left;">Matched / eligible</th>
+<th style="text-align: left;">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="../genes/IDH1.html">IDH1</a> mutation</td>
+<td style="text-align: left;">73/150 (48.7%)</td>
+<td style="text-align: left;">iCCA 72/147</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="../genes/FGFR2.html">FGFR2</a> fusion</td>
+<td style="text-align: left;">37/72 (51.4%)</td>
+<td style="text-align: left;">iCCA 37/71</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ERBB2 amplification</td>
+<td style="text-align: left;">22/54 (40.7%)</td>
+<td style="text-align: left;">27/67 for amplification and mutation combined</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MSI-H</td>
+<td style="text-align: left;">14/21 (66.7%)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Non-MSI TMB-H</td>
+<td style="text-align: left;">12/31 (38.7%)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="../genes/BRAF.html">BRAF</a> mutation</td>
+<td style="text-align: left;">8/25 (32.0%)</td>
+<td style="text-align: left;">class I n = 16, class II n = 5, class III n = 4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="../genes/NTRK1.html">NTRK1</a> fusion</td>
+<td style="text-align: left;">2/5 (40.0%)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="../genes/BRCA1.html">BRCA1</a> mutation (level 3B)</td>
+<td style="text-align: left;">2/4</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MET amplification (level 3B)</td>
+<td style="text-align: left;">1/14</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>(<a href="../papers/42360806.html">PMID:42360806</a>)</p></li>
+<li><p>Matched therapy was given mostly in second line (n = 100; reported as 62.5%). Uptake rose from 2014 to 2021, tracking new FDA approvals and guideline endorsements (<a href="../papers/42360806.html">PMID:42360806</a>).</p></li>
+<li><p>Main reasons for not receiving matched therapy (n = 237):</p>
+<ul>
+<li>No FDA-approved agent available within 6 months of death: 83 (35.0%).</li>
+<li>Died before becoming eligible: 38 (16.0%).</li>
+<li>Still responding to first-line therapy when the data were analyzed: 29 (12.2%).</li>
+<li>Age, sex, anatomic site and oncogenic alterations did not differ between matched and unmatched patients (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+</ul>
+<p><strong>Outcomes</strong></p>
+<ul>
+<li><p><strong>PFS:</strong> in second line, matched targeted therapy (n = 99) beat 5-FU-based chemotherapy (n = 25): median 6.6 months (95% CI 4.2–8.6) vs 3.3 months (95% CI 2.1–8.1); P = .005. Clinical characteristics were balanced between the groups (<a href="../papers/42360806.html">PMID:42360806</a>).</p></li>
+<li><p><strong>OS:</strong> matched vs unmatched showed no significant difference: median 17.0 months (95% CI 12.0–27.0) vs 11.0 months (8.5–14.0); HR 0.8; P = .16. Median follow-up was 13.8 vs 9.0 months (<a href="../papers/42360806.html">PMID:42360806</a>).</p>
+<ul>
+<li>Excluding immune checkpoint inhibitor–treated MSI/TMB-H patients: 16.0 vs 11.0 months; P = .28.</li>
+<li>Restricting to OncoKB level 1/2 alterations: 17.0 vs 13.0 months; P = .34.</li>
+<li>Age, sex, anatomic site, FGA and sample type were not associated with survival in univariate analysis (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+<li><p><strong>Subgroup outcomes (Table 2).</strong> PFS and OS are medians in months. OS compares treated vs untreated patients.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Subgroup (n PFS; n OS)</th>
+<th style="text-align: left;">PFS with matched therapy</th>
+<th style="text-align: left;">OS treated vs untreated</th>
+<th style="text-align: left;">Co-alteration linked to worse OS</th>
+<th style="text-align: left;">Multivariable OS HR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">IDH1 (72/165; 40/74)</td>
+<td style="text-align: left;">4.2 (2.9–6.8)</td>
+<td style="text-align: left;">13.0 vs 14.0; P = .082</td>
+<td style="text-align: left;">TP53 and RAS-RAF pathway</td>
+<td style="text-align: left;">1.5 (0.9–2.7); P = .149</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FGFR2 fusion (37/72; 21/42)</td>
+<td style="text-align: left;">7.4 (6.5–9.4)</td>
+<td style="text-align: left;">27.0 vs 13.0; P = .6</td>
+<td style="text-align: left;">TP53 pathway</td>
+<td style="text-align: left;">1.1 (0.5–2.4); P = .835</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ERBB2 (22/54; 13/29)</td>
+<td style="text-align: left;">8.2 (2.9–16.7)</td>
+<td style="text-align: left;">12.0 vs 6.2; P = .42</td>
+<td style="text-align: left;"><a href="../genes/SMAD4.html">SMAD4</a></td>
+<td style="text-align: left;">0.74 (0.31–1.8); P = .502</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BRAF (9/16; 4/8)</td>
+<td style="text-align: left;">16.6 (3.68–NR)</td>
+<td style="text-align: left;">37.0 vs 9.5; HR 0.17; P = .013</td>
+<td style="text-align: left;">none</td>
+<td style="text-align: left;">not reported</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MSI/TMB-H (26/52: 14 MSI, 12 TMB-H; 13/19)</td>
+<td style="text-align: left;">22.5 (1.97–NR)</td>
+<td style="text-align: left;">35.0 vs 19.0; P = .55</td>
+<td style="text-align: left;">none</td>
+<td style="text-align: left;">not reported</td>
+</tr>
+</tbody>
+</table>
+<p>(<a href="../papers/42360806.html">PMID:42360806</a>)</p></li>
+<li><p>BRAF was the only molecular subgroup in which targeted therapy was associated with longer OS. No clinical or genomic feature stratified PFS in any subgroup (Table S10) (<a href="../papers/42360806.html">PMID:42360806</a>).</p></li>
+</ul>
+<p><strong>De novo and acquired resistance (paired samples)</strong></p>
+<ul>
+<li>23 patients treated with matched therapy had sequential samples: 21 MSS (6 IDH1/IDH2, 8 ERBB2, 5 FGFR2 fusion, 2 NTRK fusion, 1 BRAF V600E) and 2 MSI (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>Mutations were most concordant between paired samples in BRAF inhibitor–treated patients. Every FGFR2-, IDH1- and NTRK-driven tumor still carried its oncogenic driver at resistance (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>ERBB2 group:</strong> at progression, 2 patients had lost their driver ERBB2 mutation (S310F, R678Q) and 3 had lost ERBB2 amplification; review of the post-treatment BAMs confirmed these losses. The Discussion puts ERBB2 alteration loss at 4 of 8 cases progressing on first-line HER2-targeted therapy. New alterations at progression included:
+<ul>
+<li>Tumors that lost ERBB2: MET and MYC amplification.</li>
+<li>Tumors that kept ERBB2 (n = 4): <a href="../genes/KRAS.html">KRAS</a> and <a href="../genes/MYC.html">MYC</a> amplifications (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+<li><strong>Case 1</strong> (GBC, age 69, de novo metastatic to liver and peritoneum):
+<ul>
+<li>Baseline: HER2 IHC 3+ with ERBB2 amplification (19.3-fold).</li>
+<li>Progressed on <a href="../drugs/folfox.html">FOLFOX</a> and then <a href="../drugs/gemcitabine.html">gemcitabine</a>/<a href="../drugs/cisplatin.html">cisplatin</a>.</li>
+<li>Partial response to the HER2 bispecific antibody <a href="../drugs/zanidatamab.html">zanidatamab</a>: 100% tumor shrinkage by RECIST 1.1, CA19-9 fell from 11,016 to 19, and treatment lasted 24 months.</li>
+<li>A single escape lesion in the liver showed no uptake on HER2 PET. On biopsy it was HER2 IHC 2+ with no ERBB2 amplification, and had new MYC (23.2-fold) and MET (8.2-fold) amplifications.</li>
+<li>Off-label <a href="../drugs/crizotinib.html">crizotinib</a> then shrank the tumor (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+<li><strong>Case 2</strong> (metastatic GBC, age 41):
+<ul>
+<li>Baseline: HER2 IHC 3+, ERBB2 amplification (17.3-fold) and ERBB2 R678Q.</li>
+<li>Partial response to <a href="../drugs/zanidatamab.html">zanidatamab</a> (84% RECIST reduction) lasting 14 months.</li>
+<li>At progression, HER2 PET was avid (SUV 14.5). Biopsy confirmed HER2 IHC 3+ and retained ERBB2 amplification (10-fold).</li>
+<li><a href="../drugs/trastuzumab-deruxtecan.html">Trastuzumab deruxtecan</a> then gave sustained tumor shrinkage, ongoing at 16+ months (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+<li><strong>Other drivers:</strong>
+<ul>
+<li>BRAF V600E: serial tumor and liquid biopsies showed oncogenic RAS and MEK SNVs emerging during treatment and at progression.</li>
+<li>FGFR2 fusions: a second-site FGFR2 N549K mutation arose after FGFR2 inhibitor therapy.</li>
+<li>NTRK rearrangement: MET amplification appeared at progression on a TRK inhibitor.</li>
+<li>IDH1-mutant iCCA: no IDH isoform switching was seen in other patients treated with <a href="../drugs/ivosidenib.html">ivosidenib</a>, although the group had previously reported one such case (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/IDH1.html">IDH1</a> / <a href="../genes/IDH2.html">IDH2</a>:</strong> IDH1 alterations were enriched in iCCA, and IDH1/2 were altered in 16% of MSS tumors. 73/150 IDH1-mutant patients got matched therapy, with median PFS 4.2 months. In IDH1-mutant tumors, co-occurring TP53 and RAS-RAF pathway alterations were associated with worse OS. The driver was always retained at resistance, and no isoform switching was seen with <a href="../drugs/ivosidenib.html">ivosidenib</a>. <a href="../genes/IDH2.html">IDH2</a> counted as level 3B actionable (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/FGFR2.html">FGFR2</a>:</strong> fusions were enriched in iCCA. 37/72 fusion-positive patients got matched therapy, with median PFS 7.4 months. TP53 pathway co-alterations were associated with worse OS. The fusion was retained at resistance, and a second-site N549K mutation arose after FGFR2 inhibition (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a>:</strong> alterations were more frequent in GBC. ERBB2 mutations in GBC were subclonal in 41.2% of tumors, while amplifications were mostly clonal. 22/54 amplified patients got matched therapy, with median PFS 8.2 months, and <a href="../genes/SMAD4.html">SMAD4</a> co-alterations were associated with worse OS. It was the only RTK driver that was lost at progression on HER2-targeted therapy, in 4 of 8 paired cases, including S310F and R678Q mutation losses (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a>:</strong> 25 BRAF-mutant patients: class I 16, class II 5, class III 4. It was the only subgroup where targeted therapy was associated with longer OS (37.0 vs 9.5 months; HR 0.17; P = .013). BRAF non-V600E counted as level 3B actionable. In one BRAF V600E patient, RAS and MEK SNVs emerged at progression (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/NTRK1.html">NTRK1</a>:</strong> 2/5 fusion-positive patients got matched therapy. NTRK-driven tumors kept the fusion at resistance, and one developed MET amplification on a TRK inhibitor (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>:</strong> altered in 17% of tumors and most frequent in eCCA. G12D was found in 5.4% and G12C in 1.1%, both named as emerging targets. G13D was enriched in GBC with the highest mutant-allele selection, G12V occurred only in cholangiocarcinomas, and minor alleles were mostly subclonal. KRAS amplification appeared at progression in ERBB2-retaining tumors (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/MTAP.html">MTAP</a>:</strong> deleted in 12.8% of the 336 tumors profiled for it. It was not assessable across the whole cohort because the panel changed over time (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/MDM2.html">MDM2</a>:</strong> amplified in 6.5% (an emerging target) and less frequent in iCCA than in eCCA or GBC (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/MET.html">MET</a>:</strong> amplified in 1.5% and a level 3B target (1/14 patients matched). MET amplification recurred at progression on HER2- and TRK-targeted therapy (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/MYC.html">MYC</a>:</strong> amplification appeared at progression on HER2-targeted therapy, both in tumors that lost ERBB2 and in tumors that kept it (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/TP53.html">TP53</a>:</strong> the most frequently altered gene in MSS tumors (36%) and less frequent in iCCA. TP53 or TP53-pathway co-alterations were linked to worse OS in IDH1-mutant and FGFR2-fusion subgroups (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/SMAD4.html">SMAD4</a>:</strong> less frequent in iCCA than in eCCA or GBC. In ERBB2-amplified tumors, SMAD4 alterations were associated with worse OS (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a>:</strong> altered in 21% of MSS tumors. The abstract lists CDKN2A among alterations associated with acquired resistance (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/ARID1A.html">ARID1A</a></strong> (18% of MSS tumors), <strong><a href="../genes/BAP1.html">BAP1</a></strong> and <strong><a href="../genes/PBRM1.html">PBRM1</a></strong> (both enriched in iCCA) (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/ERBB3.html">ERBB3</a> / <a href="../genes/NF1.html">NF1</a>:</strong> enriched in GBC samples carrying subclonal ERBB2 mutations (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong><a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/FGFR3.html">FGFR3</a>:</strong> counted as selected level 3B actionable genes. 2/4 BRCA1-mutant patients got matched therapy (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Actionable (level 1/2) alterations were found in 15–40% of cases depending on anatomic subtype. The authors say this supports molecular profiling as standard of care for <strong>all</strong> BTC subsets, not just iCCA (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>22% of patients with a guideline-actionable alteration never got targeted therapy because of poor clinical status or death. 8% of the whole cohort had too little tumor purity for NGS. The authors argue for sequencing earlier in the disease course, re-biopsy, and/or cfDNA profiling (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>Matched targeted therapy gave a modest second-line PFS advantage over fluoropyrimidine-based chemotherapy. The <a href="../methods/absolute.html">absolute</a> OS gain was about 5 months but not statistically significant, which the authors say matches other retrospective series. They conclude that targeted monotherapy has “a modest benefit that is largely restricted to a small subset of patients” and call for prospective randomized and combination studies (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>For HER2-driven BTC, retained ERBB2 amplification and HER2 overexpression after first-line HER2-targeted therapy may be rescued by a second HER2-targeted agent, as in the <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan case. The authors call this hypothesis-generating. Recurrent MET amplification at progression suggests a role for MET targeting and for combining MET and HER2 inhibition; basket trials such as NCT06084481 are ongoing (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>RAS alterations are common in BTC and emerged as an escape mechanism. The authors suggest testing RAS allele-specific and pan-RAS inhibitors in these settings (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>Co-alteration contexts (TP53/RAS-RAF with IDH1, TP53 pathway with FGFR2, SMAD4 with ERBB2) are proposed as markers of inferior outcome within actionable subgroups (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Limitations named by the authors:</strong> single-center design, missing data, lead-time and immortal-time bias in the outcome comparison (partly addressed by starting OS at second line), and genomic heterogeneity that targeted NGS cannot capture (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>The assay changed over time (341 → 505 genes), so MTAP deletion was assessed in only 336 tumors. Its prognostic and resistance role still needs study (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li>The subgroup and paired-sample analyses are small: n = 4–40 for OS in the subgroups, and 23 patients with serial samples. Several confidence intervals reach NR. The BRAF OS result rests on 4 treated patients in the OS analysis (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Internal inconsistencies to note before reuse:</strong>
+<ul>
+<li>Denominators for matched uptake differ between the Results text (e.g., IDH1 73/150) and Table 2 (IDH1 PFS n = 72/165).</li>
+<li>The reported 95% CI for IDH1-treated median OS in Table 2 (13.0 months; 18.0–21.2) does not contain the median.</li>
+<li>The “OS adjusted in MV model” HRs in Table 2 do not say which covariate the HR belongs to, and none is significant.</li>
+<li>ERBB2 loss is described both as 2 mutation losses plus 3 amplification losses and as 4 of 8 cases.</li>
+<li>The second-line share of matched therapy is given as 100 patients (62.5%), which does not equal 100/176 (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul></li>
+<li>The abstract’s “59% with at least one OncoKB alteration” does not match the Table 1 sum of levels I–IIIB (about 51%). The 59% may include level 4 or other annotations; the paper does not say (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+<li><strong>Cross-paper synthesis:</strong>
+<ul>
+<li>Earlier MSK-IMPACT biliary cohorts, <a href="../datasets/chol_msk_2018.html">chol_msk_2018</a> (<a href="../papers/29848569.html">PMID:29848569</a>) and <a href="../datasets/ihch_msk_2021.html">ihch_msk_2021</a> (<a href="../papers/33765338.html">PMID:33765338</a>), were drawn from the same institution and assay. The paper does not report how many patients overlap with them.</li>
+<li>The adverse effect of TP53/RAS-RAF co-alterations in IDH1-mutant iCCA here fits the finding in <a href="../papers/33765338.html">PMID:33765338</a> that TP53, KRAS and CDKN2A alterations are independent adverse prognostic markers in iCCA. The two cohorts used different endpoints and populations.</li>
+</ul></li>
+<li><strong>Open question:</strong> does ERBB2 loss at progression reflect selection of pre-existing subclonal ERBB2-negative populations? The 41.2% subclonal ERBB2 mutation rate in GBC points that way, but the paper does not test it directly (<a href="../papers/42360806.html">PMID:42360806</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Overall, 59% of patients harbored at least one OncoKB alteration, and 32.2% (intrahepatic 40%, extrahepatic 15%, gallbladder 22%) had a level 1/2 alteration.” (Abstract, p.&nbsp;2)</li>
+<li>“Emerging targets included KRAS alterations (17%), MTAP deletions (12.8%), MDM2 amplification (6.5%), and MET amplification (1.5%).” (Abstract, p.&nbsp;2)</li>
+<li>“Longitudinal profiling demonstrated ERBB2 loss in ERBB2-driven tumors, whereas IDH-, FGFR-, BRAF-, and NTRK-driven tumors retained the primary oncogenic driver. Acquired resistance was associated with alterations in RAS, MEK, MET, MYC, and CDKN2A.” (Abstract, p.&nbsp;2)</li>
+<li>“ERBB2 mutations in GBC were subclonal in 41.2% of tumors (Fig. S2D), whereas ERBB2 amplifications were predominantly clonal across all subtypes.” (Results, p.&nbsp;6)</li>
+<li>“We observed a significant PFS benefit in patients who received matched-targeted therapy as second-line treatment (n = 99) compared to those who received 5-FU-based chemotherapy (n = 25) in the same line (median, 6.6 months [95% CI, 4.2–8.6 months] vs.&nbsp;3.3 months [95% CI, 2.1–8.1 months], P =.005)” (Results, p.&nbsp;7)</li>
+<li>“We found that TP53 and RAS-RAF pathway alterations, TP53 pathway alterations, and SMAD4 alterations conferred a worse OS in those with IDH1 mutations, FGFR2 fusions, and ERBB2 amplifications, respectively.” (Results, p.&nbsp;8)</li>
+<li>“Importantly, 22% of patients with an actionable alteration by current guidelines did not receive a targeted therapy due to impaired clinical status or death, and 8% of the entire cohort had insufficient sample purity to complete NGS.” (Discussion, p.&nbsp;10)</li>
+<li>“the totality of the data suggests that targeted monotherapy has a modest benefit that is largely restricted to a small subset of patients.” (Discussion, p.&nbsp;10)</li>
+<li>“we observed ERBB2 alteration loss in 4 of 8 cases in the cohort at the time of disease progression on first-line HER2-targeted therapy—suggesting that preexisting genomic heterogeneity may impact treatment response and resistance.” (Discussion, p.&nbsp;10)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/42360806.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/42360806.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

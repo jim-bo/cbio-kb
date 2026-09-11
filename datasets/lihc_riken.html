@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -147,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#riken-hcc-genomics-lihc_riken" id="toc-riken-hcc-genomics-lihc_riken" class="nav-link active" data-scroll-target="#riken-hcc-genomics-lihc_riken">RIKEN HCC Genomics (lihc_riken)</a>
+  <li><a href="#liver-hepatocellular-carcinoma-riken-nat-genet-2012" id="toc-liver-hepatocellular-carcinoma-riken-nat-genet-2012" class="nav-link active" data-scroll-target="#liver-hepatocellular-carcinoma-riken-nat-genet-2012">Liver Hepatocellular Carcinoma (RIKEN, Nat Genet 2012)</a>
   <ul class="collapse">
   <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#composition" id="toc-composition" class="nav-link" data-scroll-target="#composition">Composition</a></li>
@@ -165,52 +168,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="riken-hcc-genomics-lihc_riken" class="level1">
-<h1>RIKEN HCC Genomics (lihc_riken)</h1>
+<section id="liver-hepatocellular-carcinoma-riken-nat-genet-2012" class="level1">
+<h1>Liver Hepatocellular Carcinoma (RIKEN, Nat Genet 2012)</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The lihc_riken entry represents genomic studies of hepatocellular carcinoma (<a href="../cancer_types/HCC.html">HCC</a>) associated with RIKEN, synthesizing findings from multiple HBV-related HCC genomic surveys including deep WGS of 494 HCCs (Chen et al., Nature 2024). The primary paper in this corpus (PMID:22634756) is a narrative review synthesizing HBV integration patterns, copy-number alterations, and transcriptomic data from cell line and animal models alongside large WGS cohorts.</p>
+<p>cBioPortal study of whole-genome sequencing of 27 hepatocellular carcinoma (<a href="../cancer_types/HCC.html">HCC</a>) tumor/normal pairs from RIKEN (Fujimoto et al., <em>Nat Genet</em> 2012, PMID 22634756). That source publication is not in this corpus; the page records how corpus papers use the cohort.</p>
 </section>
 <section id="composition" class="level2">
 <h2 class="anchored" data-anchor-id="composition">Composition</h2>
 <ul>
 <li>Cancer type: <a href="../cancer_types/HCC.html">HCC</a></li>
-<li>Primary focus: HBV-related HCC; WGS, RNA-seq, and spatial transcriptomics applied across referenced cohorts</li>
-<li>Up to 494 HCCs with deep WGS in referenced studies</li>
-<li>Key referenced methods: WGS, RNA-seq, spatial transcriptomics, droplet digital PCR (ddPCR)</li>
+<li>27 HCC tumor/normal pairs, whole-genome sequenced (per the cBioPortal study description).</li>
 </ul>
 </section>
 <section id="assays-panels-linked" class="level2">
 <h2 class="anchored" data-anchor-id="assays-panels-linked">Assays / panels (linked)</h2>
 <ul>
 <li><a href="../methods/whole-genome-seq.html">Whole-genome sequencing</a></li>
-<li><a href="../methods/rna-seq.html">RNA sequencing</a></li>
-<li><a href="../methods/spatial-transcriptomics.html">Spatial transcriptomics</a></li>
 </ul>
 </section>
 <section id="papers-using-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="papers-using-this-cohort">Papers using this cohort</h2>
 <ul>
-<li><a href="../papers/22634756.html">PMID:22634756</a></li>
+<li><a href="../papers/31130341.html">PMID:31130341</a> — pan-Asia combined HCC–ICC integrative genomic study; used RIKEN-LIHC as a reference HCC cohort.</li>
 </ul>
 </section>
 <section id="notable-findings-derived-from-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="notable-findings-derived-from-this-cohort">Notable findings derived from this cohort</h2>
 <ul>
-<li>HBV DNA integration occurs in ~90% of HBV-related HCCs; recurrent hotspots include <a href="../genes/TERT.html">TERT</a> promoter (23.7%), <a href="../genes/KMT2D.html">KMT2D</a> (11.8%), and <a href="../genes/CCNE1.html">CCNE1</a> (5%) <a href="../papers/22634756.html">PMID:22634756</a></li>
-<li>HBV-TERT integration can cyclize into extrachromosomal circular DNA (ecDNA) found in 27.3% of liver cancer samples, harboring 76 oncogenes including <a href="../genes/MYC.html">MYC</a> <a href="../papers/22634756.html">PMID:22634756</a></li>
-<li>TERT promoter mutations, <a href="../genes/CTNNB1.html">CTNNB1</a>, and <a href="../genes/TP53.html">TP53</a> are top recurrent somatic alterations in HCC with Wnt and mTOR as key therapeutic pathways <a href="../papers/22634756.html">PMID:22634756</a></li>
-<li>Nucleos(t)ide analogues reduced HBV DNA integration frequency from median 1.01x10^9 to 4.84x10^7 after 10 years (n=28) <a href="../papers/22634756.html">PMID:22634756</a></li>
 <li>Served as a reference HCC cohort (RIKEN-LIHC) in the pan-Asia cHCC-ICC integrative genomic study; contributed to the pan-liver-cancer transcriptomic clustering (n=367) identifying P1–P4 clusters and to comparative mutational-landscape benchmarks for TP53 and TERT promoter frequencies <a href="../papers/31130341.html">PMID:31130341</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/22634756.html">PMID:22634756</a></li>
+<li><a href="../papers/31130341.html">PMID:31130341</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-06</strong>.</em> - <a href="../papers/31130341.html">PMID:31130341</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>rekey-papers</strong> on <strong>2026-09-10</strong>.</em></p>
 
 
 </section>

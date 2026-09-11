@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -223,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Assay: MSK-IMPACT panel at four versions — <a href="../methods/IMPACT341.html">IMPACT341</a> (n=8), <a href="../methods/IMPACT410.html">IMPACT410</a> (n=23), <a href="../methods/IMPACT468.html">IMPACT468</a> (n=83), and <a href="../methods/IMPACT505.html">IMPACT505</a> (n=5); median sequencing depth 588x (range 94–1,231x).</li>
 <li>Tumor samples: primary (n=81) and recurrent (n=38); matched normal blood for all.</li>
 <li>Germline: 79/119 (66%) underwent germline genetic testing (custom panels of 76–90 genes at MSK plus outside labs); LOH inferred via <a href="../methods/facets.html">FACETS</a>.</li>
-<li>Clinical: 110 (92%) had advanced-stage (FIGO III/IV) disease; median age at diagnosis 48 years (range 20–79); median <a href="../cancer_types/OS.html">OS</a> follow-up 62.7 months.</li>
+<li>Clinical: 110 (92%) had advanced-stage (FIGO III/IV) disease; median age at diagnosis 48 years (range 20–79); median OS follow-up 62.7 months.</li>
 <li>16 patients (13%) self-identified as Ashkenazi Jewish.</li>
 </ul>
 </section>
@@ -238,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>No driver alterations</strong> in 18% (n=21) of LGSCs despite adequate tumor purity (median 30% vs 40% in altered cases; p=0.12).</li>
 <li><strong>Low TMB:</strong> median 1.8 mutations/Mb (range 0–17.8); median 1 non-synonymous somatic mutation (range 0–16). All 102 evaluable cases were microsatellite stable (median MSIsensor score 0.12). Median fraction of genome altered 0.16.</li>
 <li><strong>KRAS association with age and platinum sensitivity:</strong> KRAS-mutant tumors were enriched in patients diagnosed at &gt;50 years (p=0.03) and in platinum-sensitive disease (p=0.04). NRAS and BRAF showed no significant association with either variable.</li>
-<li><strong>Overall survival (univariate):</strong> MAPK pathway alteration (p=0.005) and platinum sensitivity (p=0.001) were associated with improved <a href="../cancer_types/OS.html">OS</a>; age (p&gt;0.99) and residual disease (p=0.29) were not.</li>
+<li><strong>Overall survival (univariate):</strong> MAPK pathway alteration (p=0.005) and platinum sensitivity (p=0.001) were associated with improved OS; age (p&gt;0.99) and residual disease (p=0.29) were not.</li>
 <li><strong>Overall survival (multivariate, n=90 landmark cohort):</strong> Both MAPK pathway alteration (HR 2.5 [1.2–5.2] for absence vs presence, p=0.019) and platinum sensitivity (HR 0.4 [0.2–0.7] for sensitive vs resistant, p=0.005) remained independently associated with OS.</li>
 <li><strong>Crude mortality:</strong> 14/53 (26%) MAPK-altered patients died versus 18/37 (49%) MAPK-wildtype; 12/24 (50%) platinum-resistant died versus 20/66 (30%) platinum-sensitive.</li>
 <li><strong>Median OS:</strong> 339 months (MAPK-altered) vs 125 months (MAPK-wildtype); 234 months (platinum-sensitive) vs 45 months (platinum-resistant).</li>

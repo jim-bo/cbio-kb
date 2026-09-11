@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -200,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Used as part of a pooled 950-patient external validation cohort (together with <a href="../datasets/paad_tcga.html">paad_tcga</a> and the Sausen resectable cohort) to validate <a href="../genes/KRAS.html">KRAS</a> allele-specific survival associations in PDAC; 855 patients with matched genomic and survival data were analyzed <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>In the pooled external cohort, KRAS<sup>G12D</sup> was associated with the worst median overall survival (15.6 months) compared to KRAS<sup>G12R</sup> (20.8 months), KRAS<sup>G12V</sup> (22.4 months), and KRAS<sup>WT</sup> (27 months; log-rank p=0.006) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Multivariate analysis in the pooled cohort confirmed KRAS<sup>G12R</sup> (HR 0.77, 95% CI 0.60–0.99, p=0.038) and KRAS<sup>G12V</sup> (HR 0.71, 95% CI 0.58–0.88, p=0.02) as independently predictive of better overall survival relative to KRAS<sup>G12D</sup> <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li>Absence of tumor suppressor co-mutations (<a href="../genes/TP53.html">TP53</a>/<a href="../genes/SMAD4.html">SMAD4</a>/<a href="../genes/CDKN2A.html">CDKN2A</a>) was independently associated with improved <a href="../cancer_types/OS.html">OS</a> in the external multi-cohort validation (HR 0.72, 95% CI 0.56–0.92, p=0.009) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>Absence of tumor suppressor co-mutations (<a href="../genes/TP53.html">TP53</a>/<a href="../genes/SMAD4.html">SMAD4</a>/<a href="../genes/CDKN2A.html">CDKN2A</a>) was independently associated with improved OS in the external multi-cohort validation (HR 0.72, 95% CI 0.56–0.92, p=0.009) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Used for WES of 142 pancreatic ductal adenocarcinoma tumors; identified KRAS, TP53, SMAD4, CDKN2A mutations and novel axon-guidance pathway genes <a href="../papers/23103869.html">PMID:23103869</a></li>
 </ul>
 </section>
@@ -209,8 +212,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>cBioPortal study page: https://www.cbioportal.org/study/summary?id=paad_icgc</li>
 <li>ICGC Data Portal: https://dcc.icgc.org/projects/PACA-AU and https://dcc.icgc.org/projects/PACA-CA</li>
+<li><a href="../papers/23103869.html">PMID:23103869</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-04</strong>.</em> - <a href="../papers/23103869.html">PMID:23103869</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-06</strong>.</em></p>
 
 

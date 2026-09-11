@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,13 +179,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>Included in the 20-gene Immunologic Constant of Rejection (ICR) signature as one of the immunoregulatory counter-activation genes, alongside <a href="../genes/CTLA4.html">CTLA4</a>, <a href="../genes/FOXP3.html">FOXP3</a>, <a href="../genes/IDO1.html">IDO1</a>, and <a href="../genes/PDCD1.html">PDCD1</a>, applied to the 348-patient AC-ICAM colon cancer cohort <a href="../papers/37202560.html">PMID:37202560</a>.</li>
-<li>Tumor PD-L1 protein expression (CD274) measured by IHC with the 22C3 pharmDx assay (CPS scoring) in 51 recurrent/second-primary HNSCC patients treated with IMRT reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a>; CPS &lt;20 vs ≥20 did not predict PFS (68.8% vs 59.2% 1-year PFS, P = .86) or <a href="../cancer_types/OS.html">OS</a> benefit, unlike the established predictive role of PD-L1 in R/M HNSCC with single-agent PD-1 blockade <a href="../papers/38780927.html">PMID:38780927</a>.</li>
-<li>CD274 (PDL1) protein expression used as a treatment-decision biomarker extracted by NLP pipelines for <a href="../cancer_types/NSCLC.html">NSCLC</a> patients in the MSK-CHORD real-world cohort (n=42,655 patients); PDL1+ vs PDL1− patients on immunotherapy showed a preserved <a href="../cancer_types/OS.html">OS</a> benefit (HR ≈ 0.6) at scale <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li>Tumor PD-L1 protein expression (CD274) measured by IHC with the 22C3 pharmDx assay (CPS scoring) in 51 recurrent/second-primary HNSCC patients treated with IMRT reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a>; CPS &lt;20 vs ≥20 did not predict PFS (68.8% vs 59.2% 1-year PFS, P = .86) or OS benefit, unlike the established predictive role of PD-L1 in R/M HNSCC with single-agent PD-1 blockade <a href="../papers/38780927.html">PMID:38780927</a>.</li>
+<li>CD274 (PDL1) protein expression used as a treatment-decision biomarker extracted by NLP pipelines for <a href="../cancer_types/NSCLC.html">NSCLC</a> patients in the MSK-CHORD real-world cohort (n=42,655 patients); PDL1+ vs PDL1− patients on immunotherapy showed a preserved OS benefit (HR ≈ 0.6) at scale <a href="../papers/39506116.html">PMID:39506116</a>.</li>
 <li>PD-L1; upregulated expression in HRD tumors (Cancer.cell.3 cluster) and adnexal HRD-Dup <a href="../cancer_types/HGSOC.html">HGSOC</a> tumors (P=2.8e-3) <a href="../papers/36517593.html">PMID:36517593</a></li>
-<li>CD274 (PD-L1) expression levels identified as an immunotherapy biomarker in ccRCC molecular subtyping, correlating with immune infiltration patterns in TCGA <a href="../cancer_types/KIRC.html">KIRC</a> cohort <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>CD274 (PD-L1) expression levels identified as an immunotherapy biomarker in ccRCC molecular subtyping, correlating with immune infiltration patterns in TCGA <a href="../cancer_types/KIRC.html">KIRC</a> cohort <a href="../papers/40834854.html">PMID:40834854</a></li>
 <li>High expression (PD-L1) flagged as immune-checkpoint-inhibitor rationale in neuroendocrine neoplasm patients PN5, PN18, PN19 in WGTA-guided therapy study <a href="../papers/40328872.html">PMID:40328872</a></li>
-<li>PD-L1 expression defines the immune-active class in <a href="../cancer_types/HCC.html">HCC</a> (~30% of tumors); IHC does not predict response to <a href="../drugs/nivolumab.html">nivolumab</a> or <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in <a href="../cancer_types/HCC.html">HCC</a> trials <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li>PD-L1 upregulated in non-keratinizing <a href="../cancer_types/NPC.html">NPC</a> due to chronic EBV antigen exposure; multiple anti-PD-1/PD-L1 mAbs approved or investigational <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>PD-L1 expression defines the immune-active class in <a href="../cancer_types/HCC.html">HCC</a> (~30% of tumors); IHC does not predict response to <a href="../drugs/nivolumab.html">nivolumab</a> or <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in <a href="../cancer_types/HCC.html">HCC</a> trials <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li>PD-L1 upregulated in non-keratinizing <a href="../cancer_types/NPC.html">NPC</a> due to chronic EBV antigen exposure; multiple anti-PD-1/PD-L1 mAbs approved or investigational <a href="../papers/41002550.html">PMID:41002550</a></li>
 <li>Co-amplified with <a href="../genes/JAK2.html">JAK2</a> and <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> at 9p24.1 in 15% of EBV-positive gastric tumours; elevated mRNA expression provides mechanistic rationale for PD-L1/L2 immune-checkpoint blockade in EBV-positive gastric cancer <a href="../papers/25079317.html">PMID:25079317</a></li>
 <li>No mutations or copy-number alterations in CD274 (PD-L1) or antigen-presentation pathway genes were associated with response or resistance to <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> (34-patient cohort) <a href="../papers/25765070.html">PMID:25765070</a></li>
 <li>Focal amplifications in BRAF-mutant melanoma subtype (PD-L1); relevant to pembrolizumab/nivolumab biomarker hypothesis <a href="../papers/26091043.html">PMID:26091043</a></li>
@@ -198,12 +201,21 @@ ul.task-list li input[type="checkbox"] {
 <li>CD274 (PD-L1) RNA expression not significantly different between anti-PD-1 responders and non-responders in recurrent <a href="../cancer_types/GBM.html">GBM</a> (t-test p=0.374); PD-L1 is not predictive in this cohort, contrasting with other indications <a href="../papers/30742119.html">PMID:30742119</a></li>
 <li>Immune checkpoint gene used to define immune microenvironment clusters in cHCC-ICC alongside <a href="../genes/PDCD1.html">PDCD1</a> and <a href="../genes/CTLA4.html">CTLA4</a>; High immune cluster (enriched in mixed-type/P2 cHCC-ICC) and Medium immune cluster (combined-type/P1) suggest differential ICI response potential by subtype <a href="../papers/31130341.html">PMID:31130341</a></li>
 <li>Intrinsic overexpression (PD-L1) in alveolar soft part sarcoma (<a href="../cancer_types/ASPS.html">ASPS</a>) xenografts in the PPTC cohort; flagged as a checkpoint-inhibitor target for basket-trial design <a href="../papers/31693904.html">PMID:31693904</a></li>
-<li>PD-L1 expression measured to anchor TIDE-based ICB-response analysis in NS-LUAD; only modestly predictive of TIDE score alone (R²=0.081), but adding tumor transcriptomic subtype nearly tripled R² to 0.25 <a href="../papers/32015526.html">PMID:32015526</a></li>
+<li>PD-L1 expression measured to anchor TIDE-based ICB-response analysis in NS-LUAD; only modestly predictive of TIDE score alone (R²=0.081), but adding tumor transcriptomic subtype nearly tripled R² to 0.25 <a href="../papers/40970133.html">PMID:40970133</a></li>
 <li>CD274 (PD-L1) mRNA correlates with <a href="../genes/APOBEC3G.html">APOBEC3G</a> protein and CIBERSORT immune infiltration score in both luminal and basal <a href="../cancer_types/BRCA.html">BRCA</a> (CPTAC proteogenomics, n=122); APOBEC mutagenesis in luminal <a href="../cancer_types/BRCA.html">BRCA</a> is associated with active immune microenvironment and high PD-L1, supporting ICI trials in endocrine-resistant ER+ tumors <a href="../papers/33212010.html">PMID:33212010</a></li>
 <li>CD274 (PD-L1) amplification detected in 1.0% (75/7,494) of sarcomas; highest in UPS/MFH (3.6%), myxofibrosarcoma (2.6%), and sarcoma NOS (2.2%); CD274-amplified tumors had median TMB 3.2 mut/Mb; prospective ICI biomarker validation is warranted <a href="../papers/35705558.html">PMID:35705558</a></li>
 <li>Co-amplified with <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> and <a href="../genes/JAK2.html">JAK2</a> at 9p24.3-9p22.2 in 1% of tumors in the OncoMark Chinese solid-tumor cohort; 70% PD-L1 IHC positive in amplified cases; proposed as an orthogonal IO biomarker when MSI/TMB/PD-L1 IHC are negative <a href="../papers/35871175.html">PMID:35871175</a></li>
 <li>PD-L1 (CD274) overexpressed in IG3 immune-hot pMMR/MSS LARC tumors; IG3 tumors nominate patients for ICI trials (~8% of pMMR/MSS LARC) <a href="../papers/35970919.html">PMID:35970919</a></li>
-<li>ACLY-driven de novo lipogenesis lowers PUFA:SFA ratio, suppresses cGAS-STING, and downregulates CD274 (PD-L1) expression in <a href="../cancer_types/HCC.html">HCC</a>, conferring anti-PD-L1 resistance <a href="../papers/38355797.html">PMID:38355797</a></li>
+<li>ACLY-driven de novo lipogenesis lowers PUFA:SFA ratio, suppresses cGAS-STING, and downregulates CD274 (PD-L1) expression in <a href="../cancer_types/HCC.html">HCC</a>, conferring anti-PD-L1 resistance <a href="../papers/41118283.html">PMID:41118283</a></li>
+<li>Tumor-cell-membrane PD-L1 by IHC was &gt;=5% in 32% of baseline biopsies (18/56) with no consistent on-treatment change under <a href="../drugs/nivolumab.html">nivolumab</a>, though CD274 transcripts increased, attributed to myeloid rather than tumor-cell infiltrates <a href="../papers/27169994.html">PMID:27169994</a>.</li>
+<li>PD-L1 IC status by SP142 IHC did not significantly enrich <a href="../drugs/atezolizumab.html">atezolizumab</a> response (IC2/3 28% vs IC0 21% ORR), and median OS was numerically shorter in IC2/3 (12.3 months) than IC0/1 (19.1 months) <a href="../papers/27939400.html">PMID:27939400</a>.</li>
+<li>PD-L1 (CD274) IC protein by SP142 defined the co-primary PD-L1+ population in this renal cell carcinoma trial, and CD274 is one of five genes in the Teff signature, which correlated strongly with PD-L1 IC IHC <a href="../papers/29867230.html">PMID:29867230</a>.</li>
+<li>Focal PD-L1 with high CD8 infiltrate appeared in 7 of neoadjuvant vs 3 of adjuvant-only glioblastoma tumors, interpreted as interferon-gamma-driven induction by infiltrating T cells <a href="../papers/30742122.html">PMID:30742122</a>.</li>
+<li>PD-L1 22C3 IHC positivity was numerically higher in responders to <a href="../drugs/pembrolizumab.html">pembrolizumab</a> plus low-dose <a href="../drugs/cyclophosphamide.html">cyclophosphamide</a> in TNBC but not statistically significant at the 1% or 10% cutoff, and was not associated with TMB <a href="../papers/35121644.html">PMID:35121644</a>.</li>
+<li>CD274 (PD-L1) RNA, protein and phosphoprotein were higher in pathologic-complete-response TNBC tumors, with protein and phosphoprotein correlating with PD-L1 IHC <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>CD274 (PD-L1) fell within a GISTIC2 deletion peak in this pediatric solid tumor PDX cohort <a href="../papers/37990009.html">PMID:37990009</a>.</li>
+<li>PD-L1 (CD274) expression was not significantly higher in ICB responders in this upper-tract urothelial carcinoma cohort <a href="../papers/39550333.html">PMID:39550333</a>.</li>
+<li>In IMvigor210 cohort 2, atezolizumab ORR rose with PD-L1 IC score (8.7% IC0, 14.0% IC1, 27.0% IC2/3); in cohort 1 the ORR gradient was shallower and none of the subgroup comparisons were formally tested <a href="../papers/39642637.html">PMID:39642637</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -240,33 +252,43 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/41941260.html">PMID:41941260</a></li>
 <li><a href="../papers/38780927.html">PMID:38780927</a></li>
 <li><a href="../papers/39506116.html">PMID:39506116</a></li>
+<li><a href="../papers/36517593.html">PMID:36517593</a></li>
+<li><a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../papers/40328872.html">PMID:40328872</a></li>
+<li><a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><a href="../papers/41002550.html">PMID:41002550</a></li>
+<li><a href="../papers/25079317.html">PMID:25079317</a></li>
+<li><a href="../papers/25765070.html">PMID:25765070</a></li>
+<li><a href="../papers/26091043.html">PMID:26091043</a></li>
+<li><a href="../papers/26997480.html">PMID:26997480</a></li>
+<li><a href="../papers/27158780.html">PMID:27158780</a></li>
+<li><a href="../papers/28988769.html">PMID:28988769</a></li>
+<li><a href="../papers/29033130.html">PMID:29033130</a></li>
+<li><a href="../papers/29100075.html">PMID:29100075</a></li>
+<li><a href="../papers/29337640.html">PMID:29337640</a></li>
+<li><a href="../papers/29625049.html">PMID:29625049</a></li>
+<li><a href="../papers/29713003.html">PMID:29713003</a></li>
+<li><a href="../papers/29713087.html">PMID:29713087</a></li>
+<li><a href="../papers/30742119.html">PMID:30742119</a></li>
+<li><a href="../papers/31130341.html">PMID:31130341</a></li>
+<li><a href="../papers/31693904.html">PMID:31693904</a></li>
+<li><a href="../papers/40970133.html">PMID:40970133</a></li>
+<li><a href="../papers/33212010.html">PMID:33212010</a></li>
+<li><a href="../papers/35705558.html">PMID:35705558</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
+<li><a href="../papers/35970919.html">PMID:35970919</a></li>
+<li><a href="../papers/41118283.html">PMID:41118283</a></li>
+<li><a href="../papers/27169994.html">PMID:27169994</a></li>
+<li><a href="../papers/27939400.html">PMID:27939400</a></li>
+<li><a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><a href="../papers/30742122.html">PMID:30742122</a></li>
+<li><a href="../papers/35121644.html">PMID:35121644</a></li>
+<li><a href="../papers/36001024.html">PMID:36001024</a></li>
+<li><a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><a href="../papers/39550333.html">PMID:39550333</a></li>
+<li><a href="../papers/39642637.html">PMID:39642637</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36517593.html">PMID:36517593</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22138691.html">PMID:22138691</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/40328872.html">PMID:40328872</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24952746.html">PMID:24952746</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25079317.html">PMID:25079317</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25765070.html">PMID:25765070</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26091043.html">PMID:26091043</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26997480.html">PMID:26997480</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29100075.html">PMID:29100075</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29337640.html">PMID:29337640</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713003.html">PMID:29713003</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713087.html">PMID:29713087</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30742119.html">PMID:30742119</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31130341.html">PMID:31130341</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32015526.html">PMID:32015526</a> - <a href="../papers/33212010.html">PMID:33212010</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35970919.html">PMID:35970919</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/38355797.html">PMID:38355797</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

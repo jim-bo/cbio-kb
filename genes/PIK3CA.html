@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Identified as one of eight significantly mutated genes in <a href="../cancer_types/GBM.html">GBM</a> (7% of cases); contributes to the RTK/RAS/PI3K pathway which is altered in 88% of samples <a href="../papers/18772890.html">PMID:18772890</a>.</li>
 <li>Enriched among ctDNA-only alterations (not detected by time-matched tissue) in advanced <a href="../cancer_types/NSCLC.html">NSCLC</a>; flagged as a subclonal resistance driver associated with short survival <a href="../papers/36357680.html">PMID:36357680</a>.</li>
 <li>Among ten genes differentially altered between ever- and never-metastatic <a href="../cancer_types/LUAD.html">LUAD</a> primary tumors in the 2,532-specimen MSK organotropism cohort; altered less in metastases than primaries <a href="../papers/37084736.html">PMID:37084736</a>.</li>
-<li>Mutated in one histiocytosis patient and two ovarian <a href="../cancer_types/GCT.html">GCT</a> patients in the Make-an-IMPACT rare-cancer program <a href="../papers/36862133.html">PMID:36862133</a>.</li>
+<li>Mutated in one histiocytosis patient and two <a href="../cancer_types/OGCT.html">ovarian germ cell tumor</a> patients in the Make-an-IMPACT rare-cancer program <a href="../papers/36862133.html">PMID:36862133</a>.</li>
 <li>PIK3CA was the most frequent PI3K-pathway co-alteration in FGFR2/3-altered urothelial carcinoma (28%, 115/414), but did not predict response to <a href="../drugs/erdafitinib.html">erdafitinib</a> in the MSK <a href="../datasets/bladder_msk_2023.html">bladder_msk_2023</a> cohort <a href="../papers/37682528.html">PMID:37682528</a>.</li>
 <li>PIK3CA mutations (with <a href="../genes/PIK3R1.html">PIK3R1</a> and <a href="../genes/TP53.html">TP53</a>, plus broad CNV load) were used to define “molecular grade-intermediate” in 1p19q codeleted IDH-mutant oligodendrogliomas <a href="../papers/37910594.html">PMID:37910594</a>.</li>
 <li>PIK3CA p.E545K was common in breast cancer CSF ctDNA samples; PIK3CA also appeared as an off-target resistance alteration in EGFR-mutant lung cancer CSF ctDNA in the <a href="../datasets/csf_msk_2024.html">csf_msk_2024</a> cohort (1,007 CSF samples, 711 patients) <a href="../papers/39289779.html">PMID:39289779</a>.</li>
@@ -191,9 +194,9 @@ ul.task-list li input[type="checkbox"] {
 <li>PIK3CA co-occurs with <a href="../genes/BRAF.html">BRAF</a> V600E in anaplastic thyroid carcinoma (FDR = 0.034); preferentially mutated in ATCs and co-differentiated thyroid cancers relative to PTC <a href="../papers/38412093.html">PMID:38412093</a>.</li>
 <li>PIK3CA mutated in 48% of dMMR/MSI-H gynecologic cancers treated with <a href="../drugs/nivolumab.html">nivolumab</a>; not associated with clinical benefit or resistance to PD-1 blockade <a href="../papers/38653864.html">PMID:38653864</a>.</li>
 <li>PIK3CA plasma detection associated with VTE risk (adjusted HR = 1.47, 95% CI: 1.01–2.13, N=254 patients) in pan-cancer ctDNA liquid biopsy cohort; in multivariate analysis, individual gene-level alterations including PIK3CA were not independently associated with VTE after controlling for ctDNA detection <a href="../papers/39147831.html">PMID:39147831</a>.</li>
-<li>PIK3CA hotspot mutation (H1047L — reported as “H1074L” in text) in SARC0117 (USS sarcoma) drove broad PI3K/mTOR pathway sensitivity (<a href="../drugs/alpelisib.html">alpelisib</a>, apitolisib, copanlisib, BGT226, <a href="../drugs/vistusertib.html">vistusertib</a>) in PDTO screen. SARC0134 (<a href="../cancer_types/MPNST.html">MPNST</a>) carried the mutation in the primary but lost it in metastasis, predicting non-response. A biomarker-negative osteosarcoma (SARC0069_2) was a top <a href="../drugs/alpelisib.html">alpelisib</a> responder. <a href="../papers/39305899.html">PMID:39305899</a></li>
+<li>PIK3CA hotspot mutation (H1047L — reported as “H1074L” in text) in SARC0117 (USS sarcoma) drove broad PI3K/mTOR pathway sensitivity (<a href="../drugs/alpelisib.html">alpelisib</a>, apitolisib, <a href="../drugs/copanlisib.html">copanlisib</a>, BGT226, <a href="../drugs/vistusertib.html">vistusertib</a>) in PDTO screen. SARC0134 (<a href="../cancer_types/MPNST.html">MPNST</a>) carried the mutation in the primary but lost it in metastasis, predicting non-response. A biomarker-negative osteosarcoma (SARC0069_2) was a top <a href="../drugs/alpelisib.html">alpelisib</a> responder. <a href="../papers/39305899.html">PMID:39305899</a></li>
 <li>PIK3CA enriched in MAPK-WT PDAC tumors (10% vs 2% in KRAS-mutant, P=0.002) in the MSK 2,336-patient cohort; one of the defining features distinguishing the MAPK-WT subtype. <a href="../papers/39753968.html">PMID:39753968</a></li>
-<li>PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter <a href="../cancer_types/OS.html">OS</a> on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. <a href="../papers/40256659.html">PMID:40256659</a></li>
+<li>PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter OS on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. <a href="../papers/40256659.html">PMID:40256659</a></li>
 <li>PIK3CA was mutated in 18% (13/71) of myxoid/round-cell liposarcomas (<a href="../cancer_types/MRLS.html">MRLS</a>) — first report of PIK3CA mutation in a mesenchymal cancer; mutations clustered in helical (E542K, E545K) and kinase (H1047L, H1047R) domains; mutated tumors had shorter disease-specific survival (log-rank p=0.036, n=65 with outcome data); only helical-domain mutants showed elevated phospho-AKT (Ser473/Thr308), suggesting domain-specific mechanism (<a href="../datasets/sarc_mskcc.html">sarc_mskcc</a>, n=207) <a href="../papers/20601955.html">PMID:20601955</a>.</li>
 <li>Identified as mutated in <a href="../cancer_types/LUAD.html">LUAD</a> (TSP, n=188); part of mTOR pathway altered in &gt;30% of tumours. <a href="../papers/18948947.html">PMID:18948947</a></li>
 <li>Mutated in 13% of a longitudinal African breast cancer cohort <a href="../papers/36585450.html">PMID:36585450</a></li>
@@ -206,8 +209,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Mutated in high-grade serous ovarian carcinoma (<a href="../cancer_types/HGSOC.html">HGSOC</a>) in TCGA integrated genomic analysis <a href="../papers/21720365.html">PMID:21720365</a></li>
 <li>PIK3CA is recurrently mutated in HNSCC (74 tumor-normal pairs, Broad), with hotspot mutations in the helical and kinase domains <a href="../papers/21798893.html">PMID:21798893</a></li>
 <li>PIK3CA mutations identified as recurrent driver events in HNSCC whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) <a href="../papers/21798897.html">PMID:21798897</a></li>
-<li>PIK3CA mutations co-occur with <a href="../genes/ARID1A.html">ARID1A</a> loss in ovarian cancer, and PIK3CA-mutant cells show sensitivity to PI3K pathway inhibition in the context of BET bromodomain inhibition <a href="../papers/22037554.html">PMID:22037554</a></li>
-<li>PIK3CA mutation status was assessed in breast cancer samples undergoing whole-exome sequencing that identified <a href="../genes/SF3B1.html">SF3B1</a> mutations and widespread splicing dysregulation <a href="../papers/22158541.html">PMID:22158541</a></li>
+<li>PIK3CA mutations co-occur with <a href="../genes/ARID1A.html">ARID1A</a> loss in ovarian cancer, and PIK3CA-mutant cells show sensitivity to PI3K pathway inhibition in the context of BET bromodomain inhibition <a href="../papers/41049615.html">PMID:41049615</a></li>
+<li>PIK3CA mutation status was assessed in breast cancer samples undergoing whole-exome sequencing that identified <a href="../genes/SF3B1.html">SF3B1</a> mutations and widespread splicing dysregulation <a href="../papers/41055979.html">PMID:41055979</a></li>
 <li>PIK3CA is one of the most frequently mutated genes in breast cancer; identified by WGS of 65 tumors (BCCRC cohort) <a href="../papers/22495314.html">PMID:22495314</a></li>
 <li>PIK3CA mutations occur in prostate cancer; identified by WES of 112 primary tumors (Broad Institute cohort) <a href="../papers/22610119.html">PMID:22610119</a></li>
 <li>Mutated in &gt;10% of cases in breast cancer WES (100 tumors, Sanger cohort); AKT pathway activation <a href="../papers/22722201.html">PMID:22722201</a></li>
@@ -237,10 +240,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Oncogenic Q546 (helical domain) and H1047 (kinase domain) hotspot mutations in rhabdomyosarcoma; frequency 7.4% in PFN tumors; two tumors had concurrent RAS + PIK3CA mutations indicating dual pathway activation <a href="../papers/24436047.html">PMID:24436047</a></li>
 <li>Mutations in 20% of muscle-invasive bladder carcinomas, predominantly in the helical domain near E545; one of the most frequently mutated oncogenes in bladder cancer <a href="../papers/24476821.html">PMID:24476821</a></li>
 <li>PIK3CA activating hotspot mutations (p.Glu545Lys, p.His1047Arg) found in spatially separated regions of ccRCC (EV005), demonstrating parallel evolution; PI3K-mTOR pathway mutation prevalence reaches 60% per case vs much lower per-biopsy estimates <a href="../papers/24487277.html">PMID:24487277</a></li>
-<li>PIK3CA is mutated in <a href="../cancer_types/ESCC.html">ESCC</a> as part of the canonical genomic landscape cited in a review of oral microbiome associations with <a href="../cancer_types/ESCC.html">ESCC</a> <a href="../papers/24670651.html">PMID:24670651</a></li>
+<li>PIK3CA is mutated in <a href="../cancer_types/ESCC.html">ESCC</a> as part of the canonical genomic landscape cited in a review of oral microbiome associations with <a href="../cancer_types/ESCC.html">ESCC</a> <a href="../papers/41096729.html">PMID:41096729</a></li>
 <li>PIK3CA harbors activating mutations and amplification in <a href="../cancer_types/ESCC.html">ESCC</a>, contributing to PI3K pathway activation <a href="../papers/24686850.html">PMID:24686850</a></li>
-<li>PIK3CA is a PI3K/AKT pathway driver in <a href="../cancer_types/HCC.html">HCC</a> identified by integrated genomic analysis <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>PI3K/AKT pathway activation implicated in <a href="../cancer_types/HCC.html">HCC</a>; PIK3CA mutations contribute to the oncogenic signaling landscape, and the pathway is reactivated downstream of <a href="../genes/MET.html">MET</a> in the context of EGFR/MET resistance mechanisms <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>PIK3CA is a PI3K/AKT pathway driver in <a href="../cancer_types/HCC.html">HCC</a> identified by integrated genomic analysis <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>PI3K/AKT pathway activation implicated in <a href="../cancer_types/HCC.html">HCC</a>; PIK3CA mutations contribute to the oncogenic signaling landscape, and the pathway is reactivated downstream of <a href="../genes/MET.html">MET</a> in the context of EGFR/MET resistance mechanisms <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>PIK3CA mutations in 80% of EBV-positive gastric tumors (mostly non-exon-20, dispersed) and 12% across the whole gastric cancer cohort; targetable via PI3-kinase inhibition <a href="../papers/25079317.html">PMID:25079317</a></li>
 <li>PIK3CA mutations in 7% of <a href="../cancer_types/LUAD.html">LUAD</a> (TCGA, n=230); enriched in transversion-low tumors; drives mTOR pathway activation via p-AKT in subset <a href="../papers/25079552.html">PMID:25079552</a></li>
 <li>PIK3CA recurrent activating helical-domain missense mutations in 21% of muscle-invasive bladder cancer (<a href="../cancer_types/BLCA.html">BLCA</a>, n=47 TURBT); associated with favorable recurrence-free and cancer-specific survival after radical cystectomy <a href="../papers/25092538.html">PMID:25092538</a></li>
@@ -248,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Hotspot activating mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; mutually exclusive with <a href="../genes/PIK3R1.html">PIK3R1</a>; co-occurs with <a href="../genes/PTEN.html">PTEN</a>; PI3K pathway hits in &gt;50% of cases support trials of PI3K/mTOR/AKT inhibitors <a href="../papers/25233892.html">PMID:25233892</a></li>
 <li>Mutated in 10% (4/39) of aggressive cSCC cases with 5 total mutations; no canonical E545/H1047 hotspot; 2 inactivating; not reaching significance as a driver in this cohort <a href="../papers/25303977.html">PMID:25303977</a></li>
 <li>PIK3CA mutations overlap with BRAFV600E in the HotNet2 MAPK subnetwork in papillary thyroid carcinoma (PTC); PI3K/PPARγ pathway alterations (including PIK3CA) found in ~4.5% of PTCs. <a href="../papers/25417114.html">PMID:25417114</a></li>
-<li>PIK3CA mutations in ~6% of intrahepatic cholangiocarcinoma (iCCA) and 3–7% of extrahepatic CCA (eCCA); approximately 6.8% in advanced cfDNA cohorts. <a href="../papers/25526346.html">PMID:25526346</a></li>
+<li>PIK3CA mutations in ~6% of intrahepatic cholangiocarcinoma (iCCA) and 3–7% of extrahepatic CCA (eCCA); approximately 6.8% in advanced cfDNA cohorts. <a href="../papers/41008893.html">PMID:41008893</a></li>
 <li>PIK3CA p.E542K mutation detected in a multi-clonal gastric cancer (GC) case alongside <a href="../genes/KRAS.html">KRAS</a> p.G13D and <a href="../genes/BRCA2.html">BRCA2</a> mutations in separate clones, illustrating intratumor heterogeneity of PI3K-ERBB pathway alterations. <a href="../papers/25583476.html">PMID:25583476</a></li>
 <li>Classic CRC driver included in comparison analysis in an African American vs.&nbsp;Caucasian CRC cohort; mutation frequency not highlighted as AA-specific <a href="../papers/25583493.html">PMID:25583493</a></li>
 <li>P471L activating mutation observed in cutaneous SCC (cSCC); recurrence between this cohort and a prior 11-tumor cSCC NGS cohort suggests a functional role; high-level amplification absent in cSCC (unlike lung SCC) <a href="../papers/25589618.html">PMID:25589618</a></li>
@@ -262,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Mutated in 10.2% of upper tract urothelial carcinoma (<a href="../cancer_types/UTUC.html">UTUC</a>) vs 21.6% of urothelial carcinoma of the bladder (UCB) (p=0.084 trend); E542K hotspot in 1 tumor. <a href="../papers/26278805.html">PMID:26278805</a></li>
 <li>E542K hotspot mutation in 1 desmoplastic melanoma tumor. <a href="../papers/26343386.html">PMID:26343386</a></li>
 <li>Mutated in 48% of <a href="../cancer_types/ILC.html">ILC</a> vs 33% of <a href="../cancer_types/IDC.html">IDC</a>; not associated with pAKT levels in this dataset despite driving PI3K pathway activation — <a href="../genes/CDH1.html">CDH1</a> loss and upstream RTK alterations (<a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/EGFR.html">EGFR</a>) proposed as context-permissive factors <a href="../papers/26451490.html">PMID:26451490</a></li>
-<li>HDR-based introduction of H1047R into rat Pik3ca yielded predominantly benign fibroadenomas (8/10); combined Pik3caH1047R + Tp53Indel produced moderately differentiated invasive ductal carcinoma at 42-day median latency in a CRISPR rat mammary tumor platform <a href="../papers/26437033.html">PMID:26437033</a></li>
+<li>HDR-based introduction of H1047R into rat Pik3ca yielded predominantly benign fibroadenomas (8/10); combined Pik3caH1047R + Tp53Indel produced moderately differentiated invasive ductal carcinoma at 42-day median latency in a CRISPR rat mammary tumor platform <a href="../papers/41000773.html">PMID:41000773</a></li>
 <li>Hotspot mutations (E545K, Q546K, N345I, C420R, E542A) in 6 prostate adenocarcinoma tumors; focal amplification with overexpression in ~1% in the TCGA cohort (n=333) <a href="../papers/26544944.html">PMID:26544944</a></li>
 <li>PIK3CA mutated as part of the PI3K/AKT/mTOR pathway (disrupted in 39% ATC vs 11% PDTC, P=1×10⁻³); PIK3CA helical-domain mutations restricted to ATC in a targeted-sequencing study of advanced thyroid cancers. <a href="../papers/26878173.html">PMID:26878173</a></li>
 <li>PIK3CA recurrently altered in plasmacytoid-variant bladder cancer; flagged by the authors as a clinically actionable target supporting early use of PI3K-pathway inhibitors. <a href="../papers/26901067.html">PMID:26901067</a></li>
@@ -274,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
 <li>N345K activating mutation in nephroblastomatosis (related to Wilms tumor, <a href="../cancer_types/WT.html">WT</a>); PI3K/AKT/mTOR-inhibitor target; variant also supported diagnostic clarification in a pediatric precision-oncology cohort <a href="../papers/28007021.html">PMID:28007021</a></li>
 <li>PI3K-pathway activating alterations (alongside <a href="../genes/PTEN.html">PTEN</a> and <a href="../genes/PIK3R1.html">PIK3R1</a>) in 24% of ESCCs; all 4 ESCC3 tumours had PI3K-activating alterations in a multi-platform GEA genomic study <a href="../papers/28052061.html">PMID:28052061</a></li>
 <li>17 <a href="../cancer_types/LUAD.html">LUAD</a> patients with PIK3CA as highest-level driver; 25 <a href="../genes/EGFR.html">EGFR</a>+PIK3CA co-mutations across the 860-patient MSK cohort; matched therapy uptake and benefit not specifically reported for PIK3CA-alone group <a href="../papers/28336552.html">PMID:28336552</a></li>
-<li>Recurrent low-VAF hotspot mutations in endometrial polyps (WGS, 23 polyps); part of a canonical <a href="../cancer_types/UCEC.html">UCEC</a> driver landscape that includes <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/PPP2R1A.html">PPP2R1A</a>, and <a href="../genes/FBXW7.html">FBXW7</a>; supports treating polyps as potential precursor lesions <a href="../papers/28445112.html">PMID:28445112</a></li>
+<li>Recurrent low-VAF hotspot mutations in endometrial polyps (WGS, 23 polyps); part of a canonical <a href="../cancer_types/UCEC.html">UCEC</a> driver landscape that includes <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/PPP2R1A.html">PPP2R1A</a>, and <a href="../genes/FBXW7.html">FBXW7</a>; supports treating polyps as potential precursor lesions <a href="../papers/41137179.html">PMID:41137179</a></li>
 <li>E365K and H1047R hotspot mutations in 2/19 (10.5%) of 1p/19q-codeleted anaplastic oligodendroglioma; OncoKB Level 3B; each hotspot observed in &gt;20 principal tumor types in the MSK-IMPACT pan-cancer cohort, reflecting cross-lineage selection <a href="../papers/28472509.html">PMID:28472509</a></li>
 <li>H1047 and E545 hotspots each observed in &gt;20 principal tumor types across 10,336 MSK-IMPACT cases, exemplifying cross-lineage oncogenic selection; part of the 36.7% of patients with an OncoKB-actionable alteration <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>Mutated in 23.8% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN), suggesting potential vulnerability to PI3K/AKT/mTOR-axis inhibitors <a href="../papers/28485815.html">PMID:28485815</a></li>
@@ -296,9 +299,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Single somatic mutation observed in 1/9 IMPACT341-sequenced hepatocellular adenomas (inflammatory I-HCA subtype), co-occurring with <a href="../genes/HGF.html">HGF</a>, <a href="../genes/GNAS.html">GNAS</a>, <a href="../genes/FAT1.html">FAT1</a>, and <a href="../genes/KMT2D.html">KMT2D</a> mutations in the same tumor <a href="../papers/30052636.html">PMID:30052636</a></li>
 <li>Most common actionable alteration in metastatic endometrial cancer (35%, 66/189 patients, MSK cohort); enriched in high-grade histology (p=0.035) and mixed histology; 12 patients with PIK3CA alterations were matched to PI3K-pathway clinical trials <a href="../papers/30068706.html">PMID:30068706</a></li>
 <li>Clonal hotspot mutations enriched in CR/PR responders in a pooled ICB cohort (193 patients); association was cancer-type dependent — responders with PIK3CA were predominantly melanoma, HNSCC, anal, or bladder; most PIK3CA-mutant PD patients were lung; APOBEC signatures may confound the association; FDR q=0.18 <a href="../papers/30150660.html">PMID:30150660</a></li>
-<li>PIK3CA mutated in 12% of gallbladder carcinoma tumors across a three-region cohort; entirely absent in Japanese patients; trend toward worse <a href="../cancer_types/OS.html">OS</a> (P-adj=0.09); detected by MSK-IMPACT sequencing <a href="../papers/30427539.html">PMID:30427539</a></li>
+<li>PIK3CA mutated in 12% of gallbladder carcinoma tumors across a three-region cohort; entirely absent in Japanese patients; trend toward worse OS (P-adj=0.09); detected by MSK-IMPACT sequencing <a href="../papers/30427539.html">PMID:30427539</a></li>
 <li>PIK3CA mutated in 36.4% of a 2,732-tumor combined HR+HER2- breast cancer cohort (699 tumors); 35 statistically significant hotspots identified, 12 newly significant; 5 novel hotspot variants induced elevated PI3K signaling in MCF10A functional assays <a href="../papers/30205045.html">PMID:30205045</a></li>
-<li>PIK3CA oncogenic missense in &lt;1% of advanced <a href="../cancer_types/HCC.html">HCC</a>; part of the PI3K-mTOR pathway actionability group (~15% of sorafenib-evaluable patients) associated with worse <a href="../drugs/sorafenib.html">sorafenib</a> outcomes (PFS HR 3.8, <a href="../cancer_types/OS.html">OS</a> HR 2.5) <a href="../papers/30373752.html">PMID:30373752</a></li>
+<li>PIK3CA oncogenic missense in &lt;1% of advanced <a href="../cancer_types/HCC.html">HCC</a>; part of the PI3K-mTOR pathway actionability group (~15% of sorafenib-evaluable patients) associated with worse <a href="../drugs/sorafenib.html">sorafenib</a> outcomes (PFS HR 3.8, OS HR 2.5) <a href="../papers/30373752.html">PMID:30373752</a></li>
 <li>PIK3CA E545K activating mutation was present in patient #28’s initial glioma tumour but was replaced by other PI3K-pathway alterations in later samples, demonstrating branched evolution under treatment selection captured by serial CSF ctDNA profiling <a href="../papers/30675060.html">PMID:30675060</a>.</li>
 <li>PIK3CA profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT <a href="../datasets/panet_msk_2018.html">panet_msk_2018</a>); mTOR-pathway alterations occurred in 34/80 (43%) patients; PI3K pathway gene alterations did not predict <a href="../drugs/everolimus.html">everolimus</a> response <a href="../papers/30687805.html">PMID:30687805</a></li>
 <li>PIK3CA is altered in 12% of mCRPC tumors; part of the broader PI3K-pathway alteration set (with <a href="../genes/PIK3CB.html">PIK3CB</a> 4%, <a href="../genes/PIK3R1.html">PIK3R1</a> 2.8%, <a href="../genes/AKT1.html">AKT1</a> 0.9%); PI3K-pathway alteration was not associated with survival or time on ARSI <a href="../papers/31061129.html">PMID:31061129</a></li>
@@ -328,10 +331,10 @@ ul.task-list li input[type="checkbox"] {
 <li>PIK3CA alterations present in 30% of 733 HER2-amplified breast tumors (metastatic + primary); co-occurs with MAPK alterations (OR 1.20, p=0.42 — no mutual exclusivity); MAPK resistance signal is independent of PIK3CA/AKT1/PTEN status (multivariate HR 2.25, p=0.0043). <a href="../papers/34795269.html">PMID:34795269</a></li>
 <li>PIK3CA mutations less frequent in primaries of HR+/HER2- ductal breast metastatic patients vs.&nbsp;non-metastatic (49% vs 38%, q=0.003); PI3K pathway alterations enriched in HR+/HER2- ductal breast bone metastases (44% vs 56%, q=0.003) in the MSK-MET pan-cancer cohort (25,775 patients) <a href="../papers/35120664.html">PMID:35120664</a></li>
 <li>PIK3CA surveyed in CRC with dual MAPK drivers (CRC-DD; n=47/4,561 MSK-IMPACT cases); no significant prevalence difference between CRC-DD and CRC single-driver (CRC-SD) groups <a href="../papers/35235413.html">PMID:35235413</a></li>
-<li>PIK3CA/PIK3R1 events (n=23 combined) in the MAPPYACTS pediatric relapsed cohort (n=787); matched to mTOR inhibitors (<a href="../drugs/vistusertib.html">vistusertib</a>, <a href="../drugs/everolimus.html">everolimus</a>) explored in AcSé-ESMART arms E/F alongside 25 PTEN losses <a href="../papers/35292802.html">PMID:35292802</a></li>
+<li>PIK3CA/PIK3R1 events (n=23 combined) in the MAPPYACTS pediatric relapsed cohort (n=787); matched to mTOR inhibitors (<a href="../drugs/vistusertib.html">vistusertib</a>, <a href="../drugs/everolimus.html">everolimus</a>) explored in AcSé-ESMART arms E/F alongside 25 <a href="../genes/PTEN.html">PTEN</a> losses <a href="../papers/35292802.html">PMID:35292802</a></li>
 <li>PIK3CA PI3K pathway lesions present at <a href="../drugs/selpercatinib.html">selpercatinib</a> baseline in RET-fusion-positive lung cancers did not preclude response; clinical benefit rate in PI3K-co-altered patients was 91%; PI3K activating mutations decreased on therapy alongside <a href="../genes/RET.html">RET</a>, inconsistent with primary driver of resistance <a href="../papers/35304457.html">PMID:35304457</a></li>
 <li>PIK3CA amplification observed in matched clinical <a href="../cancer_types/SCLC.html">SCLC</a> sample (MSK304B) but lost in the corresponding PDX (which instead gained <a href="../genes/MYCL.html">MYCL</a> amplification), illustrating PDX clonal bottleneck effects in the 42-model <a href="../cancer_types/SCLC.html">SCLC</a> PDX/CDX characterization study <a href="../papers/35440124.html">PMID:35440124</a></li>
-<li>PIK3CA altered in 4.6% of metastatic vs 3.0% of primary prostate cancer (p=0.152); mutually exclusive with PIK3R1 alterations in breast cancer (p&lt;0.001) <a href="../papers/35670774.html">PMID:35670774</a></li>
+<li>PIK3CA altered in 4.6% of metastatic vs 3.0% of primary prostate cancer (p=0.152); mutually exclusive with <a href="../genes/PIK3R1.html">PIK3R1</a> alterations in breast cancer (p&lt;0.001) <a href="../papers/35670774.html">PMID:35670774</a></li>
 <li>PIK3CA/PTEN/AKT1 enriched in myxoid liposarcoma (36.3%/17.8%/3.7% AKT E17K); PI3K-pathway hits collectively actionable in this sarcoma subtype <a href="../papers/35705558.html">PMID:35705558</a></li>
 <li>PIK3CA mutated in 25% of myxoid round cell liposarcoma (<a href="../cancer_types/MRLS.html">MRLS</a>) and 6% of angiosarcoma (<a href="../cancer_types/ANGS.html">ANGS</a>); part of 31% collectively targetable PI3K-pathway alterations in <a href="../cancer_types/MRLS.html">MRLS</a> <a href="../papers/35705560.html">PMID:35705560</a></li>
 <li>PIK3CA, PTEN, and <a href="../genes/ARID1A.html">ARID1A</a> frequencies are similar across MMR-D endometrial cancer subgroups (MLH1ph, germline, somatic), representing background EC alterations not distinguishing MMR mechanism <a href="../papers/35849120.html">PMID:35849120</a></li>
@@ -339,6 +342,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Mutated in 50% of primary endometrial cancers in ctDNA pilot (<a href="../datasets/ucec_ccr_cfdna_msk_2022.html">ucec_ccr_cfdna_msk_2022</a>, n=44); hotspot PIK3CA subclonal in CD20 primary became clonal in sentinel lymph nodes; serial MAF tracking demonstrated treatment response monitoring utility <a href="../papers/36007103.html">PMID:36007103</a></li>
 <li>Altered in 12% of pMMR/MSS rectal tumors (<a href="../datasets/rectal_msk_2022.html">rectal_msk_2022</a>, n=692); mutually exclusive with <a href="../genes/TP53.html">TP53</a>; subclonal in ~1/3 of co-occurrent cases with APC/TP53; co-mutation with <a href="../genes/KRAS.html">KRAS</a> associated with elevated <a href="../genes/CA9.html">CA9</a> expression (p&lt;0.001) <a href="../papers/35970919.html">PMID:35970919</a></li>
 <li>PIK3CA enriched in Crohn’s disease-associated colitis-associated cancer (CAC) vs ulcerative colitis-associated CAC (MSK cohort, MSK-IMPACT panel sequencing) <a href="../papers/36611031.html">PMID:36611031</a></li>
+<li>PIK3CA was among the uncommon mutations carried in this TNBC <a href="../drugs/pembrolizumab.html">pembrolizumab</a> trial cohort; it was not associated with response <a href="../papers/35121644.html">PMID:35121644</a>.</li>
+<li>PIK3CA was mutated in 13% of colorectal tumors in this cohort and enriched in hypermutated tumors, with frequency varying by tumor site <a href="../papers/35487942.html">PMID:35487942</a>.</li>
+<li>PIK3CA was one of the mTOR-pathway genes (with <a href="../genes/NF2.html">NF2</a>, <a href="../genes/NF1.html">NF1</a>) mutated in 3.1% of solitary fibrous tumors combined, proposed as an mTOR-inhibitor target <a href="../papers/37980418.html">PMID:37980418</a>.</li>
+<li>PIK3CA was the most frequently altered gene in <a href="../genes/CDH1.html">CDH1</a> genetically wild-type invasive lobular carcinoma (10/25, 40%), dominated by H1047R and E542K hotspots <a href="../papers/38347189.html">PMID:38347189</a>.</li>
+<li>PIK3CA was co-mutated in 54% of ERBB2-mutated endometrial carcinomas, among the most frequent co-mutations alongside <a href="../genes/ARID1A.html">ARID1A</a> and PTEN <a href="../papers/39031567.html">PMID:39031567</a>.</li>
+<li>APOBEC3-context PIK3CA helical-domain hotspots E545K/E542K, and double (cis) PIK3CA mutations, are enriched in APOBEC3-dominant post-treatment HR+/HER2- breast tumors, suggesting increased sensitivity to PI3K-alpha-selective inhibitors <a href="../papers/40379787.html">PMID:40379787</a>.</li>
+<li>PIK3CA was the most frequent co-occurring pathogenic alteration in <a href="../genes/MYOD1.html">MYOD1</a> L122R-mutant rhabdomyosarcoma (20% of 20 genomically profiled patients), mutually exclusive with other PI3K/AKT/mTOR pathway alterations <a href="../papers/41758938.html">PMID:41758938</a>.</li>
+<li>New PIK3CA hotspots usually appear as second hits alongside a common PIK3CA hotspot (51% vs 9%) and are more subclonal; mutations are clonal in canonical <a href="../cancer_types/BRCA.html">BRCA</a>, uterine and bladder cancer but subclonal in non-canonical <a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/ESCA.html">ESCA</a> and glioblastoma <a href="../papers/41895280.html">PMID:41895280</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -367,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>One PIK3CA-mutant histiocytosis patient had a durable response to <a href="../drugs/alpelisib.html">alpelisib</a>; two PIK3CA-mutant ovarian <a href="../cancer_types/GCT.html">GCT</a> patients had no durable response, suggesting lineage-specific conditioning of PI3K inhibitor response <a href="../papers/36862133.html">PMID:36862133</a>.</li>
+<li>One PIK3CA-mutant histiocytosis patient had a durable response to <a href="../drugs/alpelisib.html">alpelisib</a>; two PIK3CA-mutant <a href="../cancer_types/OGCT.html">ovarian germ cell tumor</a> patients had no durable response, suggesting lineage-specific conditioning of PI3K inhibitor response <a href="../papers/36862133.html">PMID:36862133</a>.</li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
@@ -380,172 +391,180 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/18772890.html">PMID:18772890</a></li>
-<li><a href="../papers/18948947.html">PMID:18948947</a></li>
-<li><a href="../papers/20579941.html">PMID:20579941</a></li>
-<li><a href="../papers/20601955.html">PMID:20601955</a></li>
-<li><a href="../papers/21252315.html">PMID:21252315</a></li>
-<li><a href="../papers/21720365.html">PMID:21720365</a></li>
-<li><a href="../papers/21798893.html">PMID:21798893</a></li>
-<li><a href="../papers/21798897.html">PMID:21798897</a></li>
-<li><a href="../papers/22037554.html">PMID:22037554</a></li>
-<li><a href="../papers/22158541.html">PMID:22158541</a></li>
-<li><a href="../papers/22495314.html">PMID:22495314</a></li>
-<li><a href="../papers/22610119.html">PMID:22610119</a></li>
-<li><a href="../papers/22722201.html">PMID:22722201</a></li>
-<li><a href="../papers/22722202.html">PMID:22722202</a></li>
-<li><a href="../papers/22722829.html">PMID:22722829</a></li>
-<li><a href="../papers/22810696.html">PMID:22810696</a></li>
-<li><a href="../papers/22817889.html">PMID:22817889</a></li>
-<li><a href="../papers/22895193.html">PMID:22895193</a></li>
-<li><a href="../papers/22941188.html">PMID:22941188</a></li>
-<li><a href="../papers/22941189.html">PMID:22941189</a></li>
-<li><a href="../papers/22960745.html">PMID:22960745</a></li>
-<li><a href="../papers/22980975.html">PMID:22980975</a></li>
-<li><a href="../papers/23000897.html">PMID:23000897</a></li>
-<li><a href="../papers/23103869.html">PMID:23103869</a></li>
-<li><a href="../papers/23334668.html">PMID:23334668</a></li>
-<li><a href="../papers/23525077.html">PMID:23525077</a></li>
-<li><a href="../papers/23619168.html">PMID:23619168</a></li>
-<li><a href="../papers/23636398.html">PMID:23636398</a></li>
-<li><a href="../papers/23685749.html">PMID:23685749</a></li>
-<li><a href="../papers/23778141.html">PMID:23778141</a></li>
-<li><a href="../papers/23897969.html">PMID:23897969</a></li>
-<li><a href="../papers/24120142.html">PMID:24120142</a></li>
-<li><a href="../papers/24121792.html">PMID:24121792</a></li>
-<li><a href="../papers/24185509.html">PMID:24185509</a></li>
-<li><a href="../papers/24265153.html">PMID:24265153</a></li>
-<li><a href="../papers/24336570.html">PMID:24336570</a></li>
-<li><a href="../papers/24436047.html">PMID:24436047</a></li>
-<li><a href="../papers/24476821.html">PMID:24476821</a></li>
-<li><a href="../papers/24487277.html">PMID:24487277</a></li>
-<li><a href="../papers/24670651.html">PMID:24670651</a></li>
-<li><a href="../papers/24686850.html">PMID:24686850</a></li>
-<li><a href="../papers/24735922.html">PMID:24735922</a></li>
-<li><a href="../papers/24798001.html">PMID:24798001</a></li>
-<li><a href="../papers/25079317.html">PMID:25079317</a></li>
-<li><a href="../papers/25079552.html">PMID:25079552</a></li>
-<li><a href="../papers/25092538.html">PMID:25092538</a></li>
-<li><a href="../papers/25164765.html">PMID:25164765</a></li>
-<li><a href="../papers/25233892.html">PMID:25233892</a></li>
-<li><a href="../papers/25303977.html">PMID:25303977</a></li>
-<li><a href="../papers/25417114.html">PMID:25417114</a></li>
-<li><a href="../papers/25526346.html">PMID:25526346</a></li>
-<li><a href="../papers/25583476.html">PMID:25583476</a></li>
-<li><a href="../papers/25583493.html">PMID:25583493</a></li>
-<li><a href="../papers/25589618.html">PMID:25589618</a></li>
-<li><a href="../papers/25631445.html">PMID:25631445</a></li>
-<li><a href="../papers/25822088.html">PMID:25822088</a></li>
-<li><a href="../papers/25855536.html">PMID:25855536</a></li>
-<li><a href="../papers/26000489.html">PMID:26000489</a></li>
-<li><a href="../papers/26091043.html">PMID:26091043</a></li>
-<li><a href="../papers/26095796.html">PMID:26095796</a></li>
-<li><a href="../papers/26168399.html">PMID:26168399</a></li>
-<li><a href="../papers/26278805.html">PMID:26278805</a></li>
-<li><a href="../papers/26343386.html">PMID:26343386</a></li>
-<li><a href="../papers/26437033.html">PMID:26437033</a></li>
-<li><a href="../papers/26451490.html">PMID:26451490</a></li>
-<li><a href="../papers/26544944.html">PMID:26544944</a></li>
-<li><a href="../papers/26878173.html">PMID:26878173</a></li>
-<li><a href="../papers/26901067.html">PMID:26901067</a></li>
-<li><a href="../papers/27158780.html">PMID:27158780</a></li>
-<li><a href="../papers/27161491.html">PMID:27161491</a></li>
-<li><a href="../papers/27442865.html">PMID:27442865</a></li>
-<li><a href="../papers/27646943.html">PMID:27646943</a></li>
-<li><a href="../papers/27749842.html">PMID:27749842</a></li>
-<li><a href="../papers/28007021.html">PMID:28007021</a></li>
-<li><a href="../papers/28052061.html">PMID:28052061</a></li>
-<li><a href="../papers/28336552.html">PMID:28336552</a></li>
-<li><a href="../papers/28445112.html">PMID:28445112</a></li>
-<li><a href="../papers/28472509.html">PMID:28472509</a></li>
-<li><a href="../papers/28481359.html">PMID:28481359</a></li>
-<li><a href="../papers/28485815.html">PMID:28485815</a></li>
-<li><a href="../papers/28583311.html">PMID:28583311</a></li>
-<li><a href="../papers/28783718.html">PMID:28783718</a></li>
-<li><a href="../papers/28825054.html">PMID:28825054</a></li>
-<li><a href="../papers/28988769.html">PMID:28988769</a></li>
-<li><a href="../papers/29122777.html">PMID:29122777</a></li>
-<li><a href="../papers/29316426.html">PMID:29316426</a></li>
-<li><a href="../papers/29420467.html">PMID:29420467</a></li>
-<li><a href="../papers/29422544.html">PMID:29422544</a></li>
-<li><a href="../papers/29596782.html">PMID:29596782</a></li>
-<li><a href="../papers/29622463.html">PMID:29622463</a></li>
-<li><a href="../papers/29625049.html">PMID:29625049</a></li>
-<li><a href="../papers/29625050.html">PMID:29625050</a></li>
-<li><a href="../papers/29713003.html">PMID:29713003</a></li>
-<li><a href="../papers/29713087.html">PMID:29713087</a></li>
-<li><a href="../papers/29848569.html">PMID:29848569</a></li>
-<li><a href="../papers/30052636.html">PMID:30052636</a></li>
-<li><a href="../papers/30068706.html">PMID:30068706</a></li>
-<li><a href="../papers/30150660.html">PMID:30150660</a></li>
-<li><a href="../papers/30205045.html">PMID:30205045</a></li>
-<li><a href="../papers/30373752.html">PMID:30373752</a></li>
-<li><a href="../papers/30427539.html">PMID:30427539</a></li>
-<li><a href="../papers/30675060.html">PMID:30675060</a></li>
-<li><a href="../papers/30687805.html">PMID:30687805</a></li>
-<li><a href="../papers/31061129.html">PMID:31061129</a></li>
-<li><a href="../papers/31278255.html">PMID:31278255</a></li>
-<li><a href="../papers/31483290.html">PMID:31483290</a></li>
-<li><a href="../papers/31552290.html">PMID:31552290</a></li>
-<li><a href="../papers/31748746.html">PMID:31748746</a></li>
-<li><a href="../papers/32025007.html">PMID:32025007</a></li>
-<li><a href="../papers/32059776.html">PMID:32059776</a></li>
-<li><a href="../papers/32220886.html">PMID:32220886</a></li>
-<li><a href="../papers/32332851.html">PMID:32332851</a></li>
-<li><a href="../papers/32404308.html">PMID:32404308</a></li>
-<li><a href="../papers/32719455.html">PMID:32719455</a></li>
-<li><a href="../papers/32730818.html">PMID:32730818</a></li>
-<li><a href="../papers/32864625.html">PMID:32864625</a></li>
-<li><a href="../papers/32913971.html">PMID:32913971</a></li>
-<li><a href="../papers/36228155.html">PMID:36228155</a></li>
-<li><a href="../papers/36333289.html">PMID:36333289</a></li>
-<li><a href="../papers/36355783.html">PMID:36355783</a></li>
-<li><a href="../papers/36357680.html">PMID:36357680</a></li>
-<li><a href="../papers/36543146.html">PMID:36543146</a></li>
-<li><a href="../papers/36585450.html">PMID:36585450</a></li>
-<li><a href="../papers/36862133.html">PMID:36862133</a></li>
-<li><a href="../papers/37084736.html">PMID:37084736</a></li>
-<li><a href="../papers/37406106.html">PMID:37406106</a></li>
-<li><a href="../papers/37643132.html">PMID:37643132</a></li>
-<li><a href="../papers/37651310.html">PMID:37651310</a></li>
-<li><a href="../papers/37682528.html">PMID:37682528</a></li>
-<li><a href="../papers/37699004.html">PMID:37699004</a></li>
-<li><a href="../papers/37730754.html">PMID:37730754</a></li>
-<li><a href="../papers/37769223.html">PMID:37769223</a></li>
-<li><a href="../papers/37910594.html">PMID:37910594</a></li>
-<li><a href="../papers/38412093.html">PMID:38412093</a></li>
-<li><a href="../papers/38653864.html">PMID:38653864</a></li>
-<li><a href="../papers/39147831.html">PMID:39147831</a></li>
-<li><a href="../papers/39289779.html">PMID:39289779</a></li>
-<li><a href="../papers/39305899.html">PMID:39305899</a></li>
-<li><a href="../papers/39753968.html">PMID:39753968</a></li>
-<li><a href="../papers/40256659.html">PMID:40256659</a></li>
+<li><p><a href="../papers/18772890.html">PMID:18772890</a></p></li>
+<li><p><a href="../papers/18948947.html">PMID:18948947</a></p></li>
+<li><p><a href="../papers/20579941.html">PMID:20579941</a></p></li>
+<li><p><a href="../papers/20601955.html">PMID:20601955</a></p></li>
+<li><p><a href="../papers/21252315.html">PMID:21252315</a></p></li>
+<li><p><a href="../papers/21720365.html">PMID:21720365</a></p></li>
+<li><p><a href="../papers/21798893.html">PMID:21798893</a></p></li>
+<li><p><a href="../papers/21798897.html">PMID:21798897</a></p></li>
+<li><p><a href="../papers/41049615.html">PMID:41049615</a></p></li>
+<li><p><a href="../papers/41055979.html">PMID:41055979</a></p></li>
+<li><p><a href="../papers/22495314.html">PMID:22495314</a></p></li>
+<li><p><a href="../papers/22610119.html">PMID:22610119</a></p></li>
+<li><p><a href="../papers/22722201.html">PMID:22722201</a></p></li>
+<li><p><a href="../papers/22722202.html">PMID:22722202</a></p></li>
+<li><p><a href="../papers/22722829.html">PMID:22722829</a></p></li>
+<li><p><a href="../papers/22810696.html">PMID:22810696</a></p></li>
+<li><p><a href="../papers/22817889.html">PMID:22817889</a></p></li>
+<li><p><a href="../papers/22895193.html">PMID:22895193</a></p></li>
+<li><p><a href="../papers/22941188.html">PMID:22941188</a></p></li>
+<li><p><a href="../papers/22941189.html">PMID:22941189</a></p></li>
+<li><p><a href="../papers/22960745.html">PMID:22960745</a></p></li>
+<li><p><a href="../papers/22980975.html">PMID:22980975</a></p></li>
+<li><p><a href="../papers/23000897.html">PMID:23000897</a></p></li>
+<li><p><a href="../papers/23103869.html">PMID:23103869</a></p></li>
+<li><p><a href="../papers/23334668.html">PMID:23334668</a></p></li>
+<li><p><a href="../papers/23525077.html">PMID:23525077</a></p></li>
+<li><p><a href="../papers/23619168.html">PMID:23619168</a></p></li>
+<li><p><a href="../papers/23636398.html">PMID:23636398</a></p></li>
+<li><p><a href="../papers/23685749.html">PMID:23685749</a></p></li>
+<li><p><a href="../papers/23778141.html">PMID:23778141</a></p></li>
+<li><p><a href="../papers/23897969.html">PMID:23897969</a></p></li>
+<li><p><a href="../papers/24120142.html">PMID:24120142</a></p></li>
+<li><p><a href="../papers/24121792.html">PMID:24121792</a></p></li>
+<li><p><a href="../papers/24185509.html">PMID:24185509</a></p></li>
+<li><p><a href="../papers/24265153.html">PMID:24265153</a></p></li>
+<li><p><a href="../papers/24336570.html">PMID:24336570</a></p></li>
+<li><p><a href="../papers/24436047.html">PMID:24436047</a></p></li>
+<li><p><a href="../papers/24476821.html">PMID:24476821</a></p></li>
+<li><p><a href="../papers/24487277.html">PMID:24487277</a></p></li>
+<li><p><a href="../papers/41096729.html">PMID:41096729</a></p></li>
+<li><p><a href="../papers/24686850.html">PMID:24686850</a></p></li>
+<li><p><a href="../papers/25369299.html">PMID:25369299</a></p></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
+<li><p><a href="../papers/25079317.html">PMID:25079317</a></p></li>
+<li><p><a href="../papers/25079552.html">PMID:25079552</a></p></li>
+<li><p><a href="../papers/25092538.html">PMID:25092538</a></p></li>
+<li><p><a href="../papers/25164765.html">PMID:25164765</a></p></li>
+<li><p><a href="../papers/25233892.html">PMID:25233892</a></p></li>
+<li><p><a href="../papers/25303977.html">PMID:25303977</a></p></li>
+<li><p><a href="../papers/25417114.html">PMID:25417114</a></p></li>
+<li><p><a href="../papers/41008893.html">PMID:41008893</a></p></li>
+<li><p><a href="../papers/25583476.html">PMID:25583476</a></p></li>
+<li><p><a href="../papers/25583493.html">PMID:25583493</a></p></li>
+<li><p><a href="../papers/25589618.html">PMID:25589618</a></p></li>
+<li><p><a href="../papers/25631445.html">PMID:25631445</a></p></li>
+<li><p><a href="../papers/25822088.html">PMID:25822088</a></p></li>
+<li><p><a href="../papers/25855536.html">PMID:25855536</a></p></li>
+<li><p><a href="../papers/26000489.html">PMID:26000489</a></p></li>
+<li><p><a href="../papers/26091043.html">PMID:26091043</a></p></li>
+<li><p><a href="../papers/26095796.html">PMID:26095796</a></p></li>
+<li><p><a href="../papers/26168399.html">PMID:26168399</a></p></li>
+<li><p><a href="../papers/26278805.html">PMID:26278805</a></p></li>
+<li><p><a href="../papers/26343386.html">PMID:26343386</a></p></li>
+<li><p><a href="../papers/41000773.html">PMID:41000773</a></p></li>
+<li><p><a href="../papers/26451490.html">PMID:26451490</a></p></li>
+<li><p><a href="../papers/26544944.html">PMID:26544944</a></p></li>
+<li><p><a href="../papers/26878173.html">PMID:26878173</a></p></li>
+<li><p><a href="../papers/26901067.html">PMID:26901067</a></p></li>
+<li><p><a href="../papers/27158780.html">PMID:27158780</a></p></li>
+<li><p><a href="../papers/27161491.html">PMID:27161491</a></p></li>
+<li><p><a href="../papers/27442865.html">PMID:27442865</a></p></li>
+<li><p><a href="../papers/27646943.html">PMID:27646943</a></p></li>
+<li><p><a href="../papers/27749842.html">PMID:27749842</a></p></li>
+<li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
+<li><p><a href="../papers/28052061.html">PMID:28052061</a></p></li>
+<li><p><a href="../papers/28336552.html">PMID:28336552</a></p></li>
+<li><p><a href="../papers/41137179.html">PMID:41137179</a></p></li>
+<li><p><a href="../papers/28472509.html">PMID:28472509</a></p></li>
+<li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
+<li><p><a href="../papers/28485815.html">PMID:28485815</a></p></li>
+<li><p><a href="../papers/28583311.html">PMID:28583311</a></p></li>
+<li><p><a href="../papers/28783718.html">PMID:28783718</a></p></li>
+<li><p><a href="../papers/28825054.html">PMID:28825054</a></p></li>
+<li><p><a href="../papers/28988769.html">PMID:28988769</a></p></li>
+<li><p><a href="../papers/29122777.html">PMID:29122777</a></p></li>
+<li><p><a href="../papers/29316426.html">PMID:29316426</a></p></li>
+<li><p><a href="../papers/29420467.html">PMID:29420467</a></p></li>
+<li><p><a href="../papers/29422544.html">PMID:29422544</a></p></li>
+<li><p><a href="../papers/29596782.html">PMID:29596782</a></p></li>
+<li><p><a href="../papers/29622463.html">PMID:29622463</a></p></li>
+<li><p><a href="../papers/29625049.html">PMID:29625049</a></p></li>
+<li><p><a href="../papers/29625050.html">PMID:29625050</a></p></li>
+<li><p><a href="../papers/29713003.html">PMID:29713003</a></p></li>
+<li><p><a href="../papers/29713087.html">PMID:29713087</a></p></li>
+<li><p><a href="../papers/29848569.html">PMID:29848569</a></p></li>
+<li><p><a href="../papers/30052636.html">PMID:30052636</a></p></li>
+<li><p><a href="../papers/30068706.html">PMID:30068706</a></p></li>
+<li><p><a href="../papers/30150660.html">PMID:30150660</a></p></li>
+<li><p><a href="../papers/30205045.html">PMID:30205045</a></p></li>
+<li><p><a href="../papers/30373752.html">PMID:30373752</a></p></li>
+<li><p><a href="../papers/30427539.html">PMID:30427539</a></p></li>
+<li><p><a href="../papers/30675060.html">PMID:30675060</a></p></li>
+<li><p><a href="../papers/30687805.html">PMID:30687805</a></p></li>
+<li><p><a href="../papers/31061129.html">PMID:31061129</a></p></li>
+<li><p><a href="../papers/31278255.html">PMID:31278255</a></p></li>
+<li><p><a href="../papers/31483290.html">PMID:31483290</a></p></li>
+<li><p><a href="../papers/31552290.html">PMID:31552290</a></p></li>
+<li><p><a href="../papers/31748746.html">PMID:31748746</a></p></li>
+<li><p><a href="../papers/32025007.html">PMID:32025007</a></p></li>
+<li><p><a href="../papers/32059776.html">PMID:32059776</a></p></li>
+<li><p><a href="../papers/32220886.html">PMID:32220886</a></p></li>
+<li><p><a href="../papers/32332851.html">PMID:32332851</a></p></li>
+<li><p><a href="../papers/32404308.html">PMID:32404308</a></p></li>
+<li><p><a href="../papers/32719455.html">PMID:32719455</a></p></li>
+<li><p><a href="../papers/32730818.html">PMID:32730818</a></p></li>
+<li><p><a href="../papers/32864625.html">PMID:32864625</a></p></li>
+<li><p><a href="../papers/32913971.html">PMID:32913971</a></p></li>
+<li><p><a href="../papers/36228155.html">PMID:36228155</a></p></li>
+<li><p><a href="../papers/36333289.html">PMID:36333289</a></p></li>
+<li><p><a href="../papers/36355783.html">PMID:36355783</a></p></li>
+<li><p><a href="../papers/36357680.html">PMID:36357680</a></p></li>
+<li><p><a href="../papers/36543146.html">PMID:36543146</a></p></li>
+<li><p><a href="../papers/36585450.html">PMID:36585450</a></p></li>
+<li><p><a href="../papers/36862133.html">PMID:36862133</a></p></li>
+<li><p><a href="../papers/37084736.html">PMID:37084736</a></p></li>
+<li><p><a href="../papers/37406106.html">PMID:37406106</a></p></li>
+<li><p><a href="../papers/37643132.html">PMID:37643132</a></p></li>
+<li><p><a href="../papers/37651310.html">PMID:37651310</a></p></li>
+<li><p><a href="../papers/37682528.html">PMID:37682528</a></p></li>
+<li><p><a href="../papers/37699004.html">PMID:37699004</a></p></li>
+<li><p><a href="../papers/37730754.html">PMID:37730754</a></p></li>
+<li><p><a href="../papers/37769223.html">PMID:37769223</a></p></li>
+<li><p><a href="../papers/37910594.html">PMID:37910594</a></p></li>
+<li><p><a href="../papers/38412093.html">PMID:38412093</a></p></li>
+<li><p><a href="../papers/38653864.html">PMID:38653864</a></p></li>
+<li><p><a href="../papers/39147831.html">PMID:39147831</a></p></li>
+<li><p><a href="../papers/39289779.html">PMID:39289779</a></p></li>
+<li><p><a href="../papers/39305899.html">PMID:39305899</a></p></li>
+<li><p><a href="../papers/39753968.html">PMID:39753968</a></p></li>
+<li><p><a href="../papers/40256659.html">PMID:40256659</a></p></li>
+<li><p><a href="../papers/33263939.html">PMID:33263939</a></p></li>
+<li><p><a href="../papers/33397444.html">PMID:33397444</a></p></li>
+<li><p><a href="../papers/33212010.html">PMID:33212010</a></p></li>
+<li><p><a href="../papers/33863915.html">PMID:33863915</a></p></li>
+<li><p><a href="../papers/34059130.html">PMID:34059130</a></p></li>
+<li><p><a href="../papers/34145282.html">PMID:34145282</a></p></li>
+<li><p><a href="../papers/34272401.html">PMID:34272401</a></p></li>
+<li><p><a href="../papers/34290393.html">PMID:34290393</a></p></li>
+<li><p><a href="../papers/34405229.html">PMID:34405229</a></p></li>
+<li><p><a href="../papers/34493867.html">PMID:34493867</a></p></li>
+<li><p><a href="../papers/34795269.html">PMID:34795269</a></p></li>
+<li><p><a href="../papers/35120664.html">PMID:35120664</a></p></li>
+<li><p><a href="../papers/35235413.html">PMID:35235413</a></p></li>
+<li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
+<li><p><a href="../papers/35304457.html">PMID:35304457</a></p></li>
+<li><p><a href="../papers/35440124.html">PMID:35440124</a></p></li>
+<li><p><a href="../papers/35670774.html">PMID:35670774</a></p></li>
+<li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
+<li><p><a href="../papers/35705560.html">PMID:35705560</a></p></li>
+<li><p><a href="../papers/35849120.html">PMID:35849120</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/36007103.html">PMID:36007103</a></p></li>
+<li><p><a href="../papers/35970919.html">PMID:35970919</a></p></li>
+<li><p><a href="../papers/36611031.html">PMID:36611031</a></p></li>
+<li><p><a href="../papers/35121644.html">PMID:35121644</a></p></li>
+<li><p><a href="../papers/35487942.html">PMID:35487942</a></p></li>
+<li><p><a href="../papers/37980418.html">PMID:37980418</a></p></li>
+<li><p><a href="../papers/38347189.html">PMID:38347189</a></p></li>
+<li><p><a href="../papers/39031567.html">PMID:39031567</a></p></li>
+<li><p><a href="../papers/40379787.html">PMID:40379787</a></p></li>
+<li><p><a href="../papers/41758938.html">PMID:41758938</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33263939.html">PMID:33263939</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33397444.html">PMID:33397444</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33212010.html">PMID:33212010</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33863915.html">PMID:33863915</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34059130.html">PMID:34059130</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34145282.html">PMID:34145282</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34272401.html">PMID:34272401</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34290393.html">PMID:34290393</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34405229.html">PMID:34405229</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34493867.html">PMID:34493867</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34795269.html">PMID:34795269</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35120664.html">PMID:35120664</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35235413.html">PMID:35235413</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35304457.html">PMID:35304457</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35440124.html">PMID:35440124</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35849120.html">PMID:35849120</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36007103.html">PMID:36007103</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35970919.html">PMID:35970919</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36611031.html">PMID:36611031</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

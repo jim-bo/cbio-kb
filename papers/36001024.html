@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36001024.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36001024.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Meenakshi Anurag </p>
+             <p>Eric J Jaehnig </p>
+             <p>Karsten Krug </p>
+             <p>Jonathan T Lei </p>
+             <p>Erik J Bergstrom </p>
+             <p>Beom-Jun Kim </p>
+             <p>Tanmayi D Vashist </p>
+             <p>Anh Minh Tran Huynh </p>
+             <p>Yongchao Dou </p>
+             <p>Xuxu Gou </p>
+             <p>Chen Huang </p>
+             <p>Zhiao Shi </p>
+             <p>Bo Wen </p>
+             <p>Viktoriya Korchina </p>
+             <p>Richard A Gibbs </p>
+             <p>Donna M Muzny </p>
+             <p>Harshavardhan Doddapaneni </p>
+             <p>Lacey E Dobrolecki </p>
+             <p>Henry Rodriguez </p>
+             <p>Ana I Robles </p>
+             <p>Tara Hiltke </p>
+             <p>Michael T Lewis </p>
+             <p>Julie R Nangia </p>
+             <p>Maryam Nemati Shafaee </p>
+             <p>Shunqiang Li </p>
+             <p>Ian S Hagemann </p>
+             <p>Jeremy Hoog </p>
+             <p>Bora Lim </p>
+             <p>C Kent Osborne </p>
+             <p>D R Mani </p>
+             <p>Michael A Gillette </p>
+             <p>Bing Zhang </p>
+             <p>Gloria V Echeverria </p>
+             <p>George Miles </p>
+             <p>Mothaffar F Rimawi </p>
+             <p>Steven A Carr </p>
+             <p>Foluso O Ademuyiwa </p>
+             <p>Shankha Satpathy </p>
+             <p>Matthew J Ellis </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/2159-8290.CD-22-0200">10.1158/2159-8290.CD-22-0200</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 36001024 · <strong>DOI:</strong> 10.1158/2159-8290.CD-22-0200 · <strong>Journal:</strong> Cancer Discovery (2022)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The authors applied microscaled proteogenomics (germline-matched whole-exome sequencing, RNA-seq, and TMT-based proteomics and phosphoproteomics) to pretreatment core-needle biopsies from 59 patients with stage II/III triple-negative breast cancer (<a href="../cancer_types/BRCA.html">BRCA</a>, TNBC) treated with six cycles of neoadjuvant <a href="../drugs/carboplatin.html">carboplatin</a> + <a href="../drugs/docetaxel.html">docetaxel</a> in two single-arm trials (NCT02547987, NCT02124902; cBioPortal <a href="../datasets/brca_dldccc_2022.html">brca_dldccc_2022</a>). Tumors without pathologic complete response (pCR) had higher protein-level oxidative phosphorylation, fatty acid metabolism and adipogenesis pathways. Tumors with pCR had higher DNA repair, E2F target, G2–M checkpoint, interferon and immune-checkpoint (<a href="../genes/CD274.html">CD274</a>/PD-L1) signals at both the RNA and protein level. Cytoband-level proteogenomic analysis identified a resistance-associated 19q13.31–33 deletion that contains the lagging-strand DNA synthesis genes <a href="../genes/LIG1.html">LIG1</a>, <a href="../genes/POLD1.html">POLD1</a> and <a href="../genes/XRCC1.html">XRCC1</a>. The authors checked <a href="../genes/LIG1.html">LIG1</a> loss or low expression in other trial cohorts, PDX models and TCGA. It was associated with non-pCR, higher chromosomal instability (CIN), carboplatin-selective (not <a href="../drugs/docetaxel.html">docetaxel</a>) resistance in preclinical models, and poor progression-free survival across several cancer types <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Discovery cohort:</strong> women with clinical stage II/III ER-negative, HER2-negative (IHC 0/1+ or FISH-negative) invasive breast cancer (<a href="../cancer_types/BRCA.html">BRCA</a>, TNBC) enrolled at Baylor College of Medicine and Washington University. Trials were NCT02547987 and NCT02124902. All were treated without randomization with IV <a href="../drugs/docetaxel.html">docetaxel</a> 75 mg/m² + <a href="../drugs/carboplatin.html">carboplatin</a> every 21 days for 6 cycles with G-CSF support <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Self-reported race was 70% Caucasian, 27% African American and 3% other <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><strong>Samples:</strong> pretreatment OCT-embedded, snap-frozen core biopsies from 59 patients had &gt;25% tumor content (TC) and were analyzed (22 pCR / 37 non-pCR per Fig. 1B). 16 patients also gave an on-treatment biopsy 48–72 h after starting chemotherapy (cycle 1, day 3). 14 of these pairs had high TC (13 with RNA) and were used for paired analysis. Samples with average TC &lt;45% lost mRNA–protein correlation, so 9 samples with proteomics data were excluded <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><strong>Endpoints:</strong> pCR and residual cancer burden (RCB 0 = pCR; RCB I–III = increasing residual disease) <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><strong>Assays</strong> (<a href="../methods/microscaled-proteogenomics.html">microscaled proteogenomics</a> / BioTEXT processing of alternating 50-μm cryosections):
+<ul>
+<li>Paired tumor/normal <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> at 100× for 59 baseline DNA samples.</li>
+<li>Strand-specific poly-A+ <a href="../methods/rna-seq.html">RNA-seq</a> for 60 samples, aligned to GRCh38.d1.vd1 with <a href="../methods/star.html">STAR</a> 2.7.1a and quantified with <a href="../methods/rsem.html">RSEM</a> 1.3.1.</li>
+<li><a href="../methods/tmt-proteomics.html">TMT11 proteomics</a> and Fe³⁺-IMAC <a href="../methods/tmt-phosphoproteomics.html">phosphoproteomics</a>: eight 11-plexes of nine biopsies each, with a pooled common reference <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul></li>
+<li><strong>Coverage:</strong> DNA, RNA and protein data for an average of ~10,500 genes per sample; ~27,000 phosphosites on ~5,000 phosphoproteins. Median per-gene mRNA–protein correlation was 0.37 <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><strong>Genomic pipeline:</strong>
+<ul>
+<li>Somatic calls from Strelka2 (<a href="../methods/strelka.html">Strelka</a>), Mutect2 (<a href="../methods/mutect.html">MuTect</a>), CARNAC and <a href="../methods/pindel.html">Pindel</a>.</li>
+<li>Copy number from <a href="../methods/copywriter.html">CopywriteR</a> with circular binary segmentation, and gene-level CNA calls from <a href="../methods/gistic.html">GISTIC2</a> (±0.3 log2 threshold). Copy number was mapped to genes with an hg19 refGene annotation.</li>
+<li>COSMIC <a href="../methods/mutational-signatures.html">signatures</a> from <a href="../methods/deconstructsigs.html">deconstructSigs</a> and MSI from <a href="../methods/msisensor.html">MSIsensor</a>.</li>
+<li>A genome-wide CIN index: length-weighted sum of <a href="../methods/absolute.html">absolute</a> segment log2 ratios over the 22 autosomes <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul></li>
+<li><strong>Pathway and immune scoring:</strong>
+<ul>
+<li><a href="../methods/gsea.html">GSEA</a> (WebGestaltR), <a href="../methods/ssgsea.html">ssGSEA</a> and <a href="../methods/ptm-sea.html">PTM-SEA</a>.</li>
+<li>RNA- and protein-based multigene proliferation scores (MGPS) and protein-based immune modulator scores.</li>
+<li><a href="../methods/estimate.html">ESTIMATE</a>, <a href="../methods/cibersort.html">CIBERSORT</a> (absolute mode) and <a href="../methods/xcell.html">xCell</a>.</li>
+<li><a href="../methods/pam50.html">PAM50</a> subtype, and CD3 and PD-L1 <a href="../methods/immunohistochemistry.html">IHC</a> <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul></li>
+<li><strong>Validation resources</strong> (none of them cBioPortal study IDs in the text):
+<ul>
+<li>BrighTNess trial RNA-seq: arms A+B, paclitaxel/carboplatin ± <a href="../drugs/veliparib.html">veliparib</a> followed by <a href="../drugs/doxorubicin.html">doxorubicin</a>/<a href="../drugs/cyclophosphamide.html">cyclophosphamide</a>, N = 359; arm C, <a href="../drugs/paclitaxel.html">paclitaxel</a> alone.</li>
+<li>The TNBC subset of the Hatzis neoadjuvant cohort (metastasis-free survival).</li>
+<li>A single-agent neoadjuvant <a href="../drugs/cisplatin.html">cisplatin</a> trial.</li>
+<li>Three longitudinal orthotopic <a href="../methods/patient-derived-xenograft.html">PDX</a> models (WHIM68/74/75), the NCI PDXNet TNBC PDX cohort, and the BCaPE PDX-derived drug-screen database.</li>
+<li>DepMap TNBC cell lines.</li>
+<li>TCGA pan-cancer copy-number/PFS data and CPTAC cohorts for CIN <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul></li>
+<li><strong>Data deposition:</strong> dbGaP phs002505.v1 (genomics/transcriptomics); Proteomics Data Commons PDC000408 (biopsy proteome), PDC000409 (biopsy phosphoproteome) and PDC000410 (PDX proteome); MassIVE MSV000089758 <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong>Chemotherapy-induced changes (14 paired on-treatment biopsies)</strong> - Immune-related pathways fell after treatment at both the RNA and protein level. Cell-cycle and metabolic pathways (except glycolysis) rose significantly only at the protein level. DNA replication/repair pathways were induced, consistent with genotoxic stress <a href="../papers/36001024.html">PMID:36001024</a>. - Treatment-induced phosphosites overlapped signatures of nocodazole and ionizing radiation. Phosphorylation of <a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/CDK2.html">CDK2</a> and <a href="../genes/ATM.html">ATM</a> kinase targets increased <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Clinical and genomic features vs.&nbsp;pCR</strong> - PAM50 intrinsic subtype, TNBC type, race and other clinical metadata were not associated with pCR. Germline <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a>/<a href="../genes/PALB2.html">PALB2</a> mutations and HRD-associated COSMIC signature 3 were also not associated with pCR; the authors attribute these negative results to limited sample size <a href="../papers/36001024.html">PMID:36001024</a>. - A higher COSMIC signature 6 (mismatch-repair defect) score was associated with high RCB (II/III; P = 0.03) <a href="../papers/36001024.html">PMID:36001024</a>. - Nonsynonymous mutation load did not differ by pCR (Wilcoxon P = 0.57; median 77 in pCR vs 78 in non-pCR). It did not correlate with immune scores either (Spearman rho = −0.17, P = 0.25) <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Pathway signatures</strong> - Non-pCR tumors had upregulated MSigDB Hallmark oxidative phosphorylation, fatty acid metabolism and adipogenesis in the proteome but not the transcriptome. Glycolysis was also higher by ssGSEA <a href="../papers/36001024.html">PMID:36001024</a>. - pCR tumors had higher interferon-α/γ response, G2–M checkpoint, E2F-target and MYC-target pathways in both the proteome and transcriptome <a href="../papers/36001024.html">PMID:36001024</a>. - PTM-SEA: - pCR tumors were enriched for phosphosignatures of DNA-damaging agents (<a href="../drugs/etoposide.html">etoposide</a>, hydroxyurea, ionizing radiation) and for <a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/CDK2.html">CDK2</a>, <a href="../genes/CDK7.html">CDK7</a> and <a href="../genes/CDC7.html">CDC7</a> target sites. - Non-pCR tumors were enriched for <a href="../genes/MARK2.html">MARK2</a> target sites <a href="../papers/36001024.html">PMID:36001024</a>. - A subset of non-pCR tumors had elevated <a href="../genes/CDK4.html">CDK4</a> activity and Rb phosphorylation. In DepMap TNBC cell lines, higher Rb (<a href="../genes/RB1.html">RB1</a>) protein was associated with weaker <a href="../drugs/carboplatin.html">carboplatin</a> response but stronger CDK4/6-inhibitor response <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Immune microenvironment</strong> - The protein-based immune stimulatory score was higher in pCR tumors (Wilcoxon P = 0.01). PD-L1 (<a href="../genes/CD274.html">CD274</a>) RNA, protein and phosphoprotein were also significantly higher in pCR <a href="../papers/36001024.html">PMID:36001024</a>. - The immune stimulatory score was anticorrelated with CIN (Spearman rho = −0.61, P = 6.2e−6). PD-L1 protein and phosphoprotein correlated with PD-L1 IHC <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Metabolic resistance signature</strong> - Resistance-associated metabolic proteins in non-pCR tumors: - TCA cycle: ACO2, <a href="../genes/FH.html">FH</a>, MDH2, SUCLG1, SUCLG2, PDP1, DLAT. - Electron transport chain: <a href="../genes/SDHC.html">SDHC</a>, UQCR10. - Fatty acid metabolism: CRAT, ACADS, ACAT1, <a href="../genes/DECR1.html">DECR1</a>, ECHS1, HADHB. - Amino-acid catabolism: ALDH6A1, HMGCL, DBT, BCKDHB <a href="../papers/36001024.html">PMID:36001024</a>. - 29 of 43 Hallmark metabolic genes had enough mRNA–protein correlation to test in BrighTNess (arms A+B, N = 359). There, the geometric-mean metabolic score was higher in non-pCR than pCR (Wilcoxon P = 0.003) and rose with RCB class (Kruskal–Wallis P = 0.0024) <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Copy-number-driven biomarkers: the 19q13.31–33 deletion</strong> - Cytoband GSEA of non-pCR vs pCR expression found elevated expression from 8q21.3 (amplified) and suppressed expression from 19q13.31–33 (deleted) in non-pCR tumors <a href="../papers/36001024.html">PMID:36001024</a>. - 8q21.3: <a href="../genes/RMDN1.html">RMDN1</a>, <a href="../genes/CPNE3.html">CPNE3</a>, <a href="../genes/DECR1.html">DECR1</a> and <a href="../genes/OTUD6B.html">OTUD6B</a> had higher mRNA and protein in non-pCR. <a href="../genes/RIPK2.html">RIPK2</a> was higher only at the protein level <a href="../papers/36001024.html">PMID:36001024</a>. - 19q13.31–33: <a href="../genes/LIG1.html">LIG1</a>, <a href="../genes/PPP5C.html">PPP5C</a>, <a href="../genes/BCL3.html">BCL3</a> and <a href="../genes/NOSIP.html">NOSIP</a> had lower mRNA and protein in non-pCR. Their expression was suppressed with single-copy LIG1 loss (GISTIC = −1) <a href="../papers/36001024.html">PMID:36001024</a>. - Hallmark DNA-repair genes were enriched among 19q13.31–33 genes, with leading edge <a href="../genes/LIG1.html">LIG1</a>, <a href="../genes/XRCC1.html">XRCC1</a>, <a href="../genes/POLD1.html">POLD1</a> and <a href="../genes/ERCC2.html">ERCC2</a>. LIG1 had the strongest protein-level association with response, followed by <a href="../genes/POLD1.html">POLD1</a> <a href="../papers/36001024.html">PMID:36001024</a>. - <strong>Orthogonal clinical validation:</strong> - In BrighTNess carboplatin/paclitaxel arms (A+B), LIG1 and POLD1 mRNA were significantly lower in tumors with residual disease. No such difference was seen in the paclitaxel-only arm C (P &gt; 0.05; smaller n). - Low LIG1 and <a href="../genes/XRCC1.html">XRCC1</a> mRNA were associated with poor metastasis-free survival in the Hatzis TNBC subset. - In the neoadjuvant <a href="../drugs/cisplatin.html">cisplatin</a> trial, LIG1 mRNA was lower in SD+PD than CR+PR. - LIG1 was the most consistent of the four DNA-repair genes across datasets <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Features of LIG1-loss TNBC (discovery set)</strong> - LIG1 loss (GISTIC = −1) occurred in 8 of 31 (~26%) non-pCR tumors. LIG1 copy-number log ratio correlated with LIG1 mRNA (Pearson R = 0.67, P = 2.8e−06) and protein (R = 0.55, P = 8.2e−05) <a href="../papers/36001024.html">PMID:36001024</a>. - Compared with LIG1-intact (WT/gain) tumors, LIG1-loss tumors had: - lower COSMIC HRD signature 3 (t test P = 0.01); - higher CIN (t test P = 0.0003); - higher protein-based proliferation score (p-MGPS; Wilcoxon P = 0.004); - higher CDK1/2 kinase activity by PTM-SEA; - downregulation of the IL33 phosphosignature <a href="../papers/36001024.html">PMID:36001024</a>. - LIG1-loss tumors had lower immune stimulatory scores than pCR tumors (P = 0.01), but not than all other tumors. Their <a href="../genes/EGFR.html">EGFR</a> (<a href="../drugs/gefitinib.html">gefitinib</a>) and PI3K (wortmannin) perturbation phosphosignatures were negatively enriched <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Preclinical models</strong> - Three orthotopic PDXs came from one discovery-trial patient: WHIM68 from the pretreatment primary, WHIM74 from surgery after 5 months of neoadjuvant carboplatin/docetaxel, and WHIM75 from a liver metastasis 1 year after treatment began. LIG1 was lost progressively at the copy-number, mRNA and protein levels. Western blot confirmed the protein loss and also showed reduced POLD1 and XRCC1 <a href="../papers/36001024.html">PMID:36001024</a>. - WHIM68, which had the highest LIG1, was carboplatin-sensitive; WHIM74 and WHIM75 were progressively and markedly less sensitive. The relationship was much weaker for docetaxel <a href="../papers/36001024.html">PMID:36001024</a>. - A somatic <a href="../genes/BRCA2.html">BRCA2</a> loss-of-function (frameshift) mutation in WHIM68 could not be detected in WHIM74/75. The authors read this as treatment-induced clonal selection: the BRCA2-mutant clone regressed while a LIG1-deleted clone expanded <a href="../papers/36001024.html">PMID:36001024</a>. - In the NCI PDXNet TNBC PDX cohort, LIG1 mRNA was significantly lower in PDXs that did not reach complete response to carboplatin. The association was not significant for docetaxel <a href="../papers/36001024.html">PMID:36001024</a>. - In the BCaPE PDX-derived explant screen, LIG1 copy-number loss was uniquely correlated with carboplatin resistance among more than 100 drugs tested <a href="../papers/36001024.html">PMID:36001024</a>.</p>
+<p><strong>Pan-cancer (TCGA)</strong> - LIG1 heterozygous loss (GISTIC ≤ −1) was associated with: - poor progression-free survival (log-rank P &lt; 0.0001); - higher fraction genome altered; - lower COSMIC signature 3, suggesting proficient homologous recombination <a href="../papers/36001024.html">PMID:36001024</a>. - Cancer types driving the PFS association <a href="../papers/36001024.html">PMID:36001024</a>:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Cancer type</th>
+<th>Hazard ratio</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Endometrial carcinoma (<a href="../cancer_types/UCEC.html">UCEC</a>)</td>
+<td>2.23</td>
+<td>0.02</td>
+</tr>
+<tr class="even">
+<td>Head and neck squamous cell carcinoma (<a href="../cancer_types/HNSC.html">HNSC</a>)</td>
+<td>1.46</td>
+<td>0.03</td>
+</tr>
+<tr class="odd">
+<td>Prostate adenocarcinoma (<a href="../cancer_types/PRAD.html">PRAD</a>)</td>
+<td>2.07</td>
+<td>0.02</td>
+</tr>
+<tr class="even">
+<td>Colon adenocarcinoma (<a href="../cancer_types/COAD.html">COAD</a>)</td>
+<td>1.75</td>
+<td>0.03</td>
+</tr>
+<tr class="odd">
+<td>Kidney renal papillary carcinoma (TCGA <a href="../cancer_types/KIRP.html">KIRP</a>; OncoTree <a href="../cancer_types/PRCC.html">PRCC</a>)</td>
+<td>4</td>
+<td>0.0001</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>These five cancers also had higher fraction genome altered with LIG1 loss. Higher CIN with LIG1 loss was also seen in CPTAC cohorts <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Testicular germ cell tumors (<a href="../cancer_types/TGCT.html">TGCT</a>) had only a marginal PFS association. The carboplatin-sensitive seminoma subtype (<a href="../cancer_types/SEM.html">SEM</a>) had no cases of LIG1 loss <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/LIG1.html">LIG1</a>: single-copy (hemizygous) deletion at 19q13.31–33 and/or low mRNA or protein.
+<ul>
+<li>Associated with non-pCR, higher CIN, lower HRD signature 3, higher proliferation, a less active immune microenvironment, and carboplatin-selective resistance in PDX models.</li>
+<li>Pan-cancer, associated with poor PFS.</li>
+<li>LIG1 is the main DNA ligase that seals Okazaki fragments during lagging-strand synthesis <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul></li>
+<li><a href="../genes/POLD1.html">POLD1</a>: co-located on 19q13.31–33. Lower protein in non-pCR (second to LIG1), lower mRNA in BrighTNess residual disease, and reduced protein in the carboplatin-resistant PDXs <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/XRCC1.html">XRCC1</a>: co-located on 19q13.31–33. Low mRNA was associated with poor metastasis-free survival in the Hatzis TNBC subset, and protein was reduced in the resistant PDXs. With <a href="../genes/LIG3.html">LIG3</a>, XRCC1 provides the backup pathway for LIG1-mediated ligation. The authors propose that LIG1/POLD1/XRCC1 codeletion creates a hemizygous compound deficiency in lagging-strand synthesis <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/ERCC2.html">ERCC2</a>: 19q13.31–33 DNA-repair leading-edge gene lower in non-pCR. It was less consistent than LIG1 in validation <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/PPP5C.html">PPP5C</a>, <a href="../genes/BCL3.html">BCL3</a>, <a href="../genes/NOSIP.html">NOSIP</a>: 19q13.31–33 genes with lower mRNA and protein in non-pCR <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/RMDN1.html">RMDN1</a>, <a href="../genes/CPNE3.html">CPNE3</a>, <a href="../genes/DECR1.html">DECR1</a>, <a href="../genes/OTUD6B.html">OTUD6B</a>: 8q21.3 (amplified) genes with higher mRNA and protein in non-pCR. <a href="../genes/RIPK2.html">RIPK2</a> (8q21.3) was higher in non-pCR at the protein level only <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/PALB2.html">PALB2</a>: pathogenic germline mutations were not associated with pCR in this cohort. A somatic <a href="../genes/BRCA2.html">BRCA2</a> frameshift in the pretreatment PDX (WHIM68) was lost in the post-treatment PDXs <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/CD274.html">CD274</a> (PD-L1): RNA, protein and phosphoprotein higher in pCR tumors. Protein and phosphoprotein correlated with PD-L1 IHC <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/RB1.html">RB1</a> / <a href="../genes/CDK4.html">CDK4</a>: some non-pCR tumors had high <a href="../genes/CDK4.html">CDK4</a> activity and Rb phosphorylation. In DepMap TNBC lines, high Rb protein went with lower carboplatin response and higher CDK4/6-inhibitor response <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/CDK1.html">CDK1</a>, <a href="../genes/CDK2.html">CDK2</a>, <a href="../genes/CDK7.html">CDK7</a>, <a href="../genes/CDC7.html">CDC7</a>: target phosphosites higher in pCR tumors. CDK1/2 activity was also higher in LIG1-loss tumors and after treatment <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/MARK2.html">MARK2</a>: target phosphosites enriched in non-pCR tumors <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/ATM.html">ATM</a>: target phosphorylation increased on treatment <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li><a href="../genes/EGFR.html">EGFR</a>: EGFR-inhibitor (gefitinib) perturbation phosphosignature negatively enriched in LIG1-loss tumors <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The authors propose LIG1 loss as a carboplatin-selective predictive biomarker. Because carboplatin adds toxicity to an already toxic anthracycline-based regimen, it “could potentially be avoided in LIG1-depleted tumors” <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Proteogenomic immune profiling (immune stimulatory scores, PD-L1 protein/phosphoprotein) gives richer information on the immune microenvironment than PD-L1 IHC alone. The authors suggest multiplexed targeted proteomic assays with heavy isotope–labeled peptides to complement IHC in <a href="../drugs/pembrolizumab.html">pembrolizumab</a>-era neoadjuvant TNBC <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Protein-level measurement of oxidative phosphorylation and fatty acid metabolism pathways could strengthen pCR prediction models. The authors cite an ongoing phase II trial of omeprazole (fatty acid synthase inhibition) with neoadjuvant chemotherapy (NCT02595372) <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>CDK4/6 or <a href="../genes/CDK2.html">CDK2</a> inhibitors are suggested as alternatives for RB-intact TNBC <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Given suppressed <a href="../genes/EGFR.html">EGFR</a> and PI3K phosphosignatures, LIG1-loss tumors may respond less to EGFR, PI3K or AKT inhibition. This is a hypothesis, not tested <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Small discovery cohort. The expected associations of pCR with germline BRCA1/2/PALB2 and signature 3 were not observed, which the authors attribute to limited sample size <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>The validation cohorts used different regimens: paclitaxel/carboplatin ± <a href="../drugs/veliparib.html">veliparib</a> then AC in BrighTNess, single-agent cisplatin, and a taxane–anthracycline regimen (Hatzis). Only the preclinical models separate carboplatin from docetaxel effects <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>The longitudinal PDX evidence for LIG1 loss during progression comes from a single patient. The observation of higher LIG1 loss frequency in metastatic disease is in Supplementary Fig. S6A, and its source cohort is not named in the main text <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Single-copy LIG1 loss may not cause enough functional deficiency to produce a phenotype. The compound-hemizygous LIG1/POLD1/XRCC1 hypothesis still needs mechanistic testing <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>It is unclear why LIG1 loss tracks so strongly with CIN across cancer types. The authors hypothesize that mitosis with unrepaired lagging strands drives chromosomal breakage, fusion and aneuploidy <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>LIG1 loss appears orthogonal to HRD (signature 3), which suggests HRD and LIG1 loss are alternative routes to TNBC pathogenesis. This could explain carboplatin insensitivity but has not been proven <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>The cellular origin of the metabolic resistance signal is unresolved. One possibility the authors raise is lipid-laden, immunosuppressive tumor-associated macrophages <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>For cross-paper synthesis:
+<ul>
+<li>The TCGA pan-cancer analysis does not name specific cBioPortal study IDs, so no TCGA study pages are linked here.</li>
+<li>Trial identifiers differ within the text: NCT02547987/NCT02124902 in Results/Methods vs “NCT02544987 (BCM) and NCT201404107 (WashU)” in the Fig. 1 legend.</li>
+<li>RNA-seq was aligned to GRCh38, while copy number was mapped to genes with an hg19 refGene annotation <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul></li>
+<li>Related corpus work: the paper’s reference list includes the CPTAC breast (<a href="../papers/33212010.html">PMID:33212010</a>; <a href="../datasets/brca_cptac_2020.html">brca_cptac_2020</a>) and colon (<a href="../papers/31031003.html">PMID:31031003</a>) proteogenomic studies. Its median mRNA–protein correlation (0.37) is described as “comparable with previous CPTAC proteogenomic analyses” <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Proteogenomic analyses of somatic copy-number aberrations identified a resistance-associated 19q13.31–33 deletion where LIG1, POLD1, and XRCC1 are located.” (Abstract) <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>“Proteomic analyses of pretreatment patient biopsies uniquely revealed metabolic pathways, including oxidative phosphorylation, adipogenesis, and fatty acid metabolism, that were associated with resistance.” (Abstract) <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>“Low LIG1 copy-number levels (GISTIC = −1) were observed in 8 of the 31 (∼26%) tumors without pCR.” (Results, Molecular Features of TNBCs Harboring LIG1 Deletion) <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>“immune scores were significantly anticorrelated with chromosomal instability index (CIN; Spearman Rho = −0.61, P = 6.2e−6)” (Results, Immune Pathways) <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>“Geometric mean metabolic scores were significantly higher for non-pCR cases as compared with pCR cases (Wilcoxon rank sum test, P = 0.003; N = 359)” (Results, Metabolic Pathway Analysis; BrighTNess) <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>“This dataset demonstrated that LIG1 copy-number loss was uniquely correlated with carboplatin resistance among over 100 drugs tested” (Results, LIG1 and Chemotherapy Response in Model Systems; BCaPE) <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>“In the TCGA pan-cancer dataset, LIG1 heterozygous loss was associated with poor progression-free survival (PFS; Fig. 7A; P &lt; 0.0001), significantly higher fraction genome altered (Fig. 7B), and lower signature 3 scores” (Results, pan-cancer) <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li>“The use of carboplatin adds toxicity to an already toxic anthracycline-based regimen and could potentially be avoided in LIG1-depleted tumors.” (Discussion) <a href="../papers/36001024.html">PMID:36001024</a></li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/36001024.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/36001024.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

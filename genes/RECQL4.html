@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,8 +181,10 @@ ul.task-list li input[type="checkbox"] {
 <li>RECQL4 germline variants detected in 5% of anaplastic thyroid carcinoma (ATC) patients in the Global Anaplastic Thyroid Cancer Initiative (GATCI) cohort (n=213 ATC regions from 292 patients); identified as the most frequently observed germline cancer predisposition gene variant in this cohort <a href="../papers/38412093.html">PMID:38412093</a>.</li>
 <li>Added to significant gene list by inactivation-bias test in a periampullary cancer WGS study (DUOAC/AMPAC/CAC) <a href="../papers/26804919.html">PMID:26804919</a></li>
 <li>RECQL4 observed as a low-frequency hit (&gt;=2 ATC or &gt;=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). <a href="../papers/26878173.html">PMID:26878173</a></li>
-<li>RECQL4 germline recessive pathogenic/likely-pathogenic allele identified in metastatic panNET (MSK-IMPACT panet_msk_2018); part of the 16% germline carrier rate; classified as a recessive allele (biallelic requirement for full penetrance) <a href="../papers/30687805.html">PMID:30687805</a></li>
-<li>Truncating F987* mutation in UTUC patient UCC19 and matched PDX; offered as candidate explanation for durable platinum/gemcitabine response (DNA-repair / homologous recombination role); single-case hypothesis consistent with DDR-alteration/platinum-sensitivity associations <a href="../papers/32332851.html">PMID:32332851</a></li>
+<li>RECQL4 germline recessive pathogenic/likely-pathogenic allele identified in metastatic panNET (MSK-IMPACT <a href="../datasets/panet_msk_2018.html">panet_msk_2018</a>); part of the 16% germline carrier rate; classified as a recessive allele (biallelic requirement for full penetrance) <a href="../papers/30687805.html">PMID:30687805</a></li>
+<li>Truncating F987* mutation in <a href="../cancer_types/UTUC.html">UTUC</a> patient UCC19 and matched PDX; offered as candidate explanation for durable platinum/gemcitabine response (DNA-repair / homologous recombination role); single-case hypothesis consistent with DDR-alteration/platinum-sensitivity associations <a href="../papers/32332851.html">PMID:32332851</a></li>
+<li>One of nine DNA-repair/PARP-pathway genes (with <a href="../genes/FANCF.html">FANCF</a>, <a href="../genes/RAD54L.html">RAD54L</a>, <a href="../genes/FANCA.html">FANCA</a>, <a href="../genes/FANCC.html">FANCC</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/NBN.html">NBN</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/WRN.html">WRN</a>) altered in a combined 6.9% (9/131) of solitary fibrous tumors, proposed as PARP-inhibitor targets. <a href="../papers/37980418.html">PMID:37980418</a></li>
+<li>One of a 9-gene DDR panel (with <a href="../genes/ERCC5.html">ERCC5</a>, <a href="../genes/ATR.html">ATR</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, FANCC, <a href="../genes/RAD51C.html">RAD51C</a>) assessed for truncating alterations as part of a deleterious-DDR category in bladder cancer. <a href="../papers/39499893.html">PMID:39499893</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -210,13 +215,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/38412093.html">PMID:38412093</a></li>
+<li><p><a href="../papers/38412093.html">PMID:38412093</a></p></li>
+<li><p><a href="../papers/26804919.html">PMID:26804919</a></p></li>
+<li><p><a href="../papers/26878173.html">PMID:26878173</a></p></li>
+<li><p><a href="../papers/30687805.html">PMID:30687805</a></p></li>
+<li><p><a href="../papers/32332851.html">PMID:32332851</a></p></li>
+<li><p><a href="../papers/37980418.html">PMID:37980418</a></p></li>
+<li><p><a href="../papers/39499893.html">PMID:39499893</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em> - <a href="../papers/26804919.html">PMID:26804919</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26878173.html">PMID:26878173</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/30687805.html">PMID:30687805</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32332851.html">PMID:32332851</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

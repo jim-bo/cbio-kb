@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -205,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Pre-therapy tumor mutation burden (TMB) and clonal mutation load predict overall survival</strong> in ipilimumab-naive (Ipi-N) but not ipilimumab-progressed (Ipi-P) melanoma patients. Median cohort mutation load 183 (range 1–7360). <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li><strong>Mutation and neoantigen load drop markedly on-therapy in responders</strong> (n=41 paired WES): mean 19% of pre-therapy variants retained in CR/PR vs 101% in PD (p=5.87e–5); consistent with active immunoediting. <a href="../papers/29033130.html">PMID:29033130</a></li>
-<li><strong>Net genomic contraction</strong> (variants undergoing mutational contraction minus persistence) predicts response and <a href="../cancer_types/OS.html">OS</a> better than raw TMB change. <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li><strong>Net genomic contraction</strong> (variants undergoing mutational contraction minus persistence) predicts response and OS better than raw TMB change. <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li><strong>Selective depletion of antigenic mutations on-therapy:</strong> neoantigen-to-non-antigenic mutation ratio dropped in CR/PR vs PD (p=0.03); number of expanded T-cell clones scales linearly with neoantigens becoming undetectable in responders (p=0.03). <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li><strong>Focal <a href="../genes/CDKN2A.html">CDKN2A</a> loss emerged on-therapy in 4 PD patients</strong>; 3/4 had co-occurring chromosome-9p deletions encompassing the IFN gene cluster, suggesting acquired immune evasion. <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li><strong>Immune checkpoint genes upregulated on-therapy</strong> in all patients regardless of response: <a href="../genes/PDCD1.html">PDCD1</a>, <a href="../genes/CD274.html">CD274</a>, <a href="../genes/CTLA4.html">CTLA4</a>, <a href="../genes/LAG3.html">LAG3</a>, <a href="../genes/TNFRSF9.html">TNFRSF9</a>, <a href="../genes/ICOS.html">ICOS</a>; additionally <a href="../genes/TNFRSF4.html">TNFRSF4</a>, <a href="../genes/TIGIT.html">TIGIT</a>, <a href="../genes/HAVCR2.html">HAVCR2</a>, <a href="../genes/VSIR.html">VSIR</a> selectively upregulated in responders. <a href="../papers/29033130.html">PMID:29033130</a></li>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -234,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>C5 (n=64):</strong> ABC-DLBCLs with near-uniform 18q gain (BCL2/MALT1), concurrent <a href="../genes/MYD88.html">MYD88</a><sup>L265P</sup> (50%, 30/60) and <a href="../genes/CD79B.html">CD79B</a> (48%, 29/60) mutations (co-occurrence P = 0.036), additional ETV6/PIM1/TBL1XR1/BTG1 mutations; highest cAID contribution; 96% (45/47) of cases with available COO designation were ABC (P &lt; 0.001); 8/9 testicular cases and 1/2 CNS cases fell in this cluster (P &lt; 0.001); unfavorable outcome.</li>
 </ul></li>
 <li><strong>Median 17 genetic drivers per tumor</strong> (range 0–48).</li>
-<li><strong>Prognostic individual alterations (PFS, R-CHOP cohort n=259):</strong> 1q42.12 loss, <a href="../genes/MYC.html">MYC</a> SVs, 18q21.33/BCL2 gain, 13q31.3/miR-17–92 gain, and 18p gain were independently predictive of inferior PFS and retained significance when added to IPI risk groups; MYC SVs, 13q31.3 gain and 1q41.12 loss were also associated with shorter <a href="../cancer_types/OS.html">OS</a>. The prognostic individual events were predominantly SCNAs or SVs rather than mutations (Fisher’s exact PFS P = 0.007; OS P = 0.02).</li>
+<li><strong>Prognostic individual alterations (PFS, R-CHOP cohort n=259):</strong> 1q42.12 loss, <a href="../genes/MYC.html">MYC</a> SVs, 18q21.33/BCL2 gain, 13q31.3/miR-17–92 gain, and 18p gain were independently predictive of inferior PFS and retained significance when added to IPI risk groups; MYC SVs, 13q31.3 gain and 1q41.12 loss were also associated with shorter OS. The prognostic individual events were predominantly SCNAs or SVs rather than mutations (Fisher’s exact PFS P = 0.007; OS P = 0.02).</li>
 <li><strong>Cluster outcomes:</strong> C0/C1/C4 patients had favorable PFS/OS; C3/C5 had unfavorable outcomes; C2 patients exhibited a distinct steady rate of progression over time. In multivariate models combining IPI and genetic signature with low-risk-IPI + favorable-signature as reference: C5 features alone HR = 2.01, high-risk IPI alone HR = 3.44, and the combination HR ≈ 6.91. Genetic signature contributed independently of IPI <a href="../papers/29713087.html">PMID:29713087</a>.</li>
 <li><strong>Clonality/timing:</strong> 74% of mutations, 49% of SCNAs and 57% of SVs were clonal (CCF ≥ 0.9). In C1, NOTCH2/SPEN/BCL10/CD70/B2M mutations were largely clonal whereas BCL6 SVs and PD-1 ligand SVs were often subclonal — supporting BCL6 rearrangement as a late, potentially transforming event. In C2, 17p loss was clonal and preceded TP53 mutation. In C5, CD79B/MYD88/TBL1XR1 mutations were clonal whereas 18q gain and PIM1/BTG1/ETV6 mutations were more often subclonal.</li>
 <li><strong>Immune escape:</strong> 74% of DLBCLs carried at least one genetic basis of immune escape — MHC class I loci, <a href="../genes/B2M.html">B2M</a>, <a href="../genes/CD70.html">CD70</a>, <a href="../genes/CD58.html">CD58</a>, CD274/PD-L1, PDCD1LG2/PD-L2 or CIITA alterations.</li>

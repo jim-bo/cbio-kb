@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -250,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Median tumor mutation burden (TMB) = 2.6 mut/Mb (IQR 1.8–3.9); only 2 patients had TMB &gt; 40 (MSI-consistent).</li>
 <li><strong>Mutual exclusivity</strong>: <em>IDH1/2</em> mutations were significantly mutually exclusive with <em>FGFR2</em> fusions (τ = −0.19, Q = 0.002), <em>CDKN2A</em> deletions (τ = −0.17, Q = 0.008), <em>TP53</em> mutations (τ = −0.15, Q = 0.02), and <em><a href="../genes/TERT.html">TERT</a></em> mutations (τ = −0.13, Q = 0.04). <em>IDH1/2</em> alterations were also mutually exclusive with RTK/RAS (τ = −0.24, Q &lt; 0.001), cell cycle, TP53, and TGF-β pathway alterations.</li>
 <li><strong>Co-occurrence</strong>: <em>TERT</em> and <em>TP53</em> (τ = 0.19, Q = 0.002); PI3K (τ = 0.21, Q = 0.001), TGF-β, cell cycle, and RTK/RAS pathways with <em>TP53</em> mutations.</li>
-<li><strong>Whole cohort survival</strong> (univariable): <em>TP53</em> mut (P &lt; 0.0001), <em>KRAS</em> mut (P = 0.0001), and <em>CDKN2A</em> deletion (P &lt; 0.0001) were each associated with shorter <a href="../cancer_types/OS.html">OS</a>. <em>TERT</em> mut was also significant on univariate analysis but was omitted from multivariate models due to strong correlation with <em>TP53</em> mut. Only deep (homozygous) <em>CDKN2A</em> deletions (n = 52) predicted shorter OS; monoallelic <em>CDKN2A</em> alterations (n = 9) had little impact.</li>
+<li><strong>Whole cohort survival</strong> (univariable): <em>TP53</em> mut (P &lt; 0.0001), <em>KRAS</em> mut (P = 0.0001), and <em>CDKN2A</em> deletion (P &lt; 0.0001) were each associated with shorter OS. <em>TERT</em> mut was also significant on univariate analysis but was omitted from multivariate models due to strong correlation with <em>TP53</em> mut. Only deep (homozygous) <em>CDKN2A</em> deletions (n = 52) predicted shorter OS; monoallelic <em>CDKN2A</em> alterations (n = 9) had little impact.</li>
 <li><em>IDH1/2</em> mutations and <em>FGFR2</em> fusions were <strong>not</strong> prognostic in this cohort. <em>IDH1/2</em> mutations showed only a trend toward better OS (P = 0.08).</li>
 <li><strong>Resected cohort (n = 209)</strong>: median RFS 18.4 months (95% CI 13.4–24.2), median OS 46.4 months (95% CI 41.2–61.3); 5-year RFS 22%, 5-year OS 42%. Median OS by genotype: <em>TP53</em>mut 25.8 vs <em>TP53</em>wt 59.9 months; <em>KRAS</em>mut 27.6 vs <em>KRAS</em>wt 52.3 months; <em>CDKN2A</em>del 14.8 vs <em>CDKN2A</em>wt 52.6 months.</li>
 <li><strong>Multivariate model in resected patients</strong> (adjusted for nodal disease, multifocal liver disease, lymphovascular invasion): <em>TP53</em>mut (HR 1.82, 95% CI 1.08–3.06, P = 0.03) and <em>CDKN2A</em>del (HR 3.40, 95% CI 1.95–5.94, P &lt; 0.001) independently predicted shorter OS; <em>KRAS</em>mut trended (HR 1.69, 95% CI 0.97–2.93, P = 0.06). <em>CDKN2A</em>del had the strongest effect overall (HR 2.5, 95% CI 1.7–3.8).</li>

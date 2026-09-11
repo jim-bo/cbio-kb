@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic profiling of subcutaneous patient-derived xenografts reveals immune constraints on tumor evolution in childhood solid cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/37990009.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/37990009.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic profiling of subcutaneous patient-derived xenografts reveals immune constraints on tumor evolution in childhood solid cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Funan He </p>
+             <p>Abhik M Bandyopadhyay </p>
+             <p>Laura J Klesse </p>
+             <p>Anna Rogojina </p>
+             <p>Sang H Chun </p>
+             <p>Erin Butler </p>
+             <p>Taylor Hartshorne </p>
+             <p>Trevor Holland </p>
+             <p>Dawn Garcia </p>
+             <p>Korri Weldon </p>
+             <p>Luz-Nereida Perez Prado </p>
+             <p>Anne-Marie Langevin </p>
+             <p>Allison C Grimes </p>
+             <p>Aaron Sugalski </p>
+             <p>Shafqat Shah </p>
+             <p>Chatchawin Assanasen </p>
+             <p>Zhao Lai </p>
+             <p>Yi Zou </p>
+             <p>Dias Kurmashev </p>
+             <p>Lin Xu </p>
+             <p>Yang Xie </p>
+             <p>Yidong Chen </p>
+             <p>Xiaojing Wang </p>
+             <p>Gail E Tomlinson </p>
+             <p>Stephen X Skapek </p>
+             <p>Peter J Houghton </p>
+             <p>Raushan T Kurmasheva </p>
+             <p>Siyuan Zheng </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41467-023-43373-1">10.1038/s41467-023-43373-1</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 37990009 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/s41467-023-43373-1">10.1038/s41467-023-43373-1</a> · <strong>Journal:</strong> Nature Communications (2023)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>He, Bandyopadhyay and colleagues (UT Health San Antonio and UT Southwestern) built a resource of 68 early-passage <strong>subcutaneous</strong> patient-derived xenografts (PDXs) from 65 pediatric solid-tumor patients across 16 cancer types. They profiled the PDXs, 27 matched patient tumors (PTs) and 40 germline samples with whole-exome sequencing, low-pass whole-genome sequencing and RNA-seq. About 30% of PT/PDX pairs had low mutational similarity. In those pairs, clonal analysis showed that a minor PT subclone seeded the dominant PDX clone. That subclone was more proliferative and carried more clonal neoantigens, and the matched PTs showed signs of innate immune activation (inflammasome, NK-cell and HLA expression). The authors read this as the patient’s immune system holding back an immunogenic subclone, which then grew freely in immunodeficient NSG mice. Copy-number, ploidy, expression and fusion profiles were well conserved between PTs and PDXs. The authors also report an <strong><a href="../genes/LRPAP1.html">LRPAP1</a>–<a href="../genes/PDGFRA.html">PDGFRA</a></strong> fusion in a glioblastoma and a germ cell tumor. The data back the cBioPortal study <a href="../datasets/pancan_pdx_uthsa_2023.html">pancan_pdx_uthsa_2023</a>. <a href="../papers/37990009.html">PMID:37990009</a></p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Model generation:</strong> 90 subcutaneous PDXs were generated from 194 fresh solid tumor samples implanted in NSG mice. A 2×2 mm fragment was dipped in VEGF-supplemented Matrigel, and tumors were harvested at P1 when they reached about 1×1 cm. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Analyzed cohort:</strong> 68 PDXs from 65 patients across 16 cancer types: 14 Wilms tumors (<a href="../cancer_types/WT.html">WT</a>), 13 hepatoblastomas (<a href="../cancer_types/LIHB.html">LIHB</a>), 12 osteosarcomas (<a href="../cancer_types/OS.html">OS</a>), 10 <a href="../cancer_types/germ-cell-tumor.html">germ cell tumors</a> and 19 others. The others include clear cell sarcoma (<a href="../cancer_types/CCS.html">CCS</a>), neuroblastoma (<a href="../cancer_types/NBL.html">NBL</a>), embryonal rhabdomyosarcoma (<a href="../cancer_types/ERMS.html">ERMS</a>), pleomorphic sarcoma (<a href="../cancer_types/MFH.html">MFH</a>), a <a href="../genes/BCOR.html">BCOR</a>–<a href="../genes/CCNB3.html">CCNB3</a> “Ewing-like sarcoma” and glioblastoma (<a href="../cancer_types/GB.html">GB</a>). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Patients:</strong> all younger than 18 years (median 6.5, mean 7.7); male:female ratio 1.3:1; 30 patients of Hispanic ancestry, confirmed with ancestry-informative markers. Treatment information was available for 62 patients, of whom 23 (37%) had prior treatment, mainly chemotherapy. 62 models came from primary tumors and 5 from metastatic tumors. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Engraftment:</strong> clear cell sarcoma 100%, Wilms tumor 85%, osteosarcoma 67% (vs.&nbsp;48% in a published orthotopic cohort), neuroblastoma 26%, brain tumors 23%. Mean time from implantation (P0) to harvest (P1) ranged from 30 weeks (neuroblastoma) to 13 weeks (hepatoblastoma). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Assays:</strong> all 68 PDXs had <a href="../methods/whole-genome-seq.html">low-pass WGS</a> (~4×), <a href="../methods/whole-exome-seq.html">WES</a> (IDT xGen Exome V1/V2, ~300×) and <a href="../methods/rna-seq.html">RNA-seq</a> (TruSeq stranded mRNA, HiSeq 3000, ~80M reads). 27 (40%) had a matched PT and 40 (59%) had germline DNA; sample identity was confirmed with NGSCheckMate. Pair 585 also had Twist custom-capture <a href="../methods/targeted-dna-seq.html">deep sequencing</a> at 5,000–7,000×. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Mouse-read handling:</strong> reads were aligned to GRCh38 (GENCODE v29) and GRCm38, and mouse reads were removed with <a href="../methods/disambiguate.html">Disambiguate</a>. PDXs with &gt;50% mouse contamination were excluded: one RNA-seq (1853), three WES (1796, 1853, 512) and two WGS (1796, 1853). Two low-coverage WES PDXs (560-SM, 707) were also excluded. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Mutation calling:</strong>
+<ul>
+<li>Callers: <a href="../methods/mutect.html">MuTect2</a>, <a href="../methods/varscan.html">VarScan</a>, <a href="../methods/strelka.html">Strelka</a> and <a href="../methods/pindel.html">Pindel</a>. Paired tumors needed calls from ≥2 callers; tumor-only tumors needed calls from all three non-Pindel callers, with the 40 in-house normals as panel of normals, and SGZ for somatic/germline classification.</li>
+<li>Annotation and driver analysis: <a href="../methods/oncokb-annotation.html">OncoKB annotator</a> and <a href="../methods/mutsigcv.html">MutSigCV</a>.</li>
+<li>Signatures: <a href="../methods/deconstructsigs.html">deconstructSigs</a> with COSMIC v3.2 <a href="../methods/mutational-signatures.html">signatures</a>.</li>
+<li>MSI: <a href="../methods/msisensor.html">MSIsensor</a> and MSIsensor2.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> deletions: <a href="../methods/manta.html">MANTA</a> for large in-frame CTNNB1 exon 3/4 deletions.</li>
+<li>Telomere length: <a href="../methods/telseq.html">TelSeq</a>.</li>
+</ul>
+<a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Copy number, clonality and neoantigens:</strong>
+<ul>
+<li>Copy number: <a href="../methods/cnvkit.html">CNVkit</a>, <a href="../methods/purecn.html">PureCN</a>, <a href="../methods/sequenza.html">Sequenza</a> and <a href="../methods/gistic.html">GISTIC2</a>.</li>
+<li>Clonality: a four-method consensus (McGranahan CCF, <a href="../methods/pyclone.html">PyClone-VI</a>, CliP and Ccube), where a call needed agreement from ≥2 methods.</li>
+<li>Neoantigens: <a href="../methods/optitype.html">OptiType</a> HLA typing, then <a href="../methods/pvactools.html">pVACseq</a> with <a href="../methods/netmhcpan.html">NetMHCpan</a>, PickPocket, SMM and SMMPMBEC, keeping peptides with best MT IC50 ≤500 nM.</li>
+</ul>
+<a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Expression and fusions:</strong> Kallisto TPM, <a href="../methods/estimate.html">ESTIMATE</a>, ssGSEA and <a href="../methods/gsea.html">GSEA</a> (GSEApy, MSigDB C2), and TIMER2.0. Fusions were called by both <a href="../methods/star-fusion.html">STAR-Fusion</a> and <a href="../methods/prada.html">PRADA</a>, and LRPAP1–PDGFRA was validated by <a href="../methods/quantitative-rt-pcr.html">RT-PCR</a>. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Data availability:</strong> raw data at EGA (EGAS00001006710); processed data at Synapse (syn35811916); PDX portal at https://pstPDX.streamlit.app; code at github.com/fnhe/PediatricSolidTumorPDX. The cBioPortal study is <a href="../datasets/pancan_pdx_uthsa_2023.html">pancan_pdx_uthsa_2023</a>. <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong>Purity and microenvironment</strong></p>
+<ul>
+<li>PDXs had higher tumor purity than PTs (p=2.1×10⁻³, two-sided t test) and lower immune and stromal signature scores. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Stromal scores in PDXs correlated with those in the matched PTs (rho=0.66, p=0.003, Spearman), suggesting early-passage PDXs keep some PT stromal cells. Immune scores did not correlate. <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+<p><strong>Somatic mutations and signatures</strong></p>
+<ul>
+<li>WES found 1,786 mutations and 161 indels. 92% of point mutations were validated in RNA-seq or low-pass WGS (356 of 388 sites with coverage ≥10). Unvalidated calls had lower VAFs (mean 0.13 vs.&nbsp;0.34). Deep sequencing of pair 585 validated 100% of the 60 mutations it captured. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Wilms tumor had the lowest mutation rate (median 0.18 mutations/Mb) and osteosarcoma the highest (median 0.56/Mb). Rates did not differ significantly between PTs and PDXs except in Wilms tumor. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>PTs with prior treatment, and the PDXs derived from them, had higher mutation rates than treatment-naïve samples (p=2.3×10⁻⁴, Wilcoxon). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Chemotherapy signatures:</strong> 14 samples had ≥20 mutations. Of the 10 from chemotherapy-treated patients, 8 (2 PTs, 6 PDXs) showed chemotherapy-related signatures: 7 had the platinum signatures SBS31/SBS35 and 1 had SBS86. The SBS31/SBS35 samples came from 6 patients, 5 of whom had received <a href="../drugs/cisplatin.html">cisplatin</a>. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>In pairs 585 and 1957, PT and PDX shared few mutations, yet the PDXs showed the same chemotherapy signatures, even when only PDX-specific mutations were used. The authors conclude these mutations were inherited from the seeding PT, since the mice were never treated. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>MSI:</strong> 1981_PDX showed the MSI signature SBS15 and a high MSI score (42.4% vs.&nbsp;an average of 1.6% for all other samples). <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+<p><strong>PT/PDX mutational similarity (25 pairs)</strong></p>
+<ul>
+<li>78% of mutations were shared overall, and the median pair similarity was 0.52. That is higher than recently published pediatric PDX cohorts but lower than adult tumors. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Restricting to cancer genes raised the median similarity to 0.95 (20 pairs). 28 of 30 (93%) OncoKB oncogenic or likely oncogenic mutations were shared. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Five pairs had similarity &lt;0.2; two of them (1959, 1979) shared no mutations. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Pair 585 deep sequencing:</strong> by WES, 585_PT had 6 mutations and 585_PDX had 58, of which 56 were PDX-only. Deep sequencing validated all captured private mutations and found none of them in the matched sample, so sequencing depth had limited impact on the observed similarity. <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+<p><strong>Clonal dynamics and three evolutionary patterns</strong></p>
+<ul>
+<li>82% of PT mutations and 84% of PDX mutations were clonal. 88% of PT clonal mutations appeared in the PDX, compared with only 22% of PT subclonal mutations. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>For the 4 PTs with extra PDXs, all 30 PT clonal mutations seen in the original PDX were also in the additional PDXs, but only 2 of 17 PT subclonal mutations were. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>33% of PDX clonal mutations were absent from the PT, suggesting clonal expansion during engraftment. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Of the 23 pairs classified, three patterns emerged:
+<ul>
+<li><strong>Clone retention:</strong> 16/23 (70%).</li>
+<li><strong>Clone sweeping:</strong> 4 (17%), where a PT subclone <a href="../methods/expands.html">expands</a> in the PDX.</li>
+<li><strong>Branch seeding:</strong> 3 (13%), where PT clonal mutations are lost and early mutations kept.</li>
+</ul>
+In hepatoblastoma 1957 (branch seeding), only 2 of 41 PT mutations were found in the PDX, one of them in <a href="../genes/CTNNB1.html">CTNNB1</a>. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Sweeping and branch seeding (together “group 2”) took longer to engraft than clone retention (“group 1”): median 22 vs.&nbsp;13 weeks (p=0.03, Wilcoxon). Engraftment time did not correlate with the number of PDX-specific mutations (p=0.18; p=0.13 after controlling for PT mutation rate). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Mean mutational similarity was 0.73 for clone retention, 0.42 for clone sweeping and 0.06 for branch seeding (group 1 vs.&nbsp;2, p=0.0012). Lower similarity was associated with PT genetic heterogeneity (p=0.034, Spearman) but not PDX heterogeneity (p=0.38). Evolutionary pattern was not associated with chemotherapy (p=1, chi-square). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Telomeres:</strong> germ cell tumors had the longest telomeres, and osteosarcoma the longest among the other cancers. PDXs had shorter telomeres than matched PTs (p=1.5×10⁻³), and the shortening was more pronounced in group 1 than group 2 (p=0.033). <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+<p><strong>Immune constraint on the seeding subclone (group 2)</strong></p>
+<ul>
+<li>In group 2, proliferation markers (<a href="../genes/MKI67.html">MKI67</a>, <a href="../genes/BUB1.html">BUB1</a>, <a href="../genes/TOP2A.html">TOP2A</a>, <a href="../genes/PCNA.html">PCNA</a>) and cell-cycle signatures were higher in PDXs than in matched PTs. Group 1 showed the opposite pattern. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Mutational load did not differ between PT and PDX in either group (group 1 p=0.2, group 2 p=0.3). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Clonal neoantigen load did not differ in group 1 (p=0.87). In group 2, PDXs carried more clonal neoantigens than their PTs (p=0.03, paired t test), and this held after controlling for the number of clonal mutations (p=0.03). Across PT-PDX pairs, 305 neoantigens were predicted, 239 of them clonal. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Group 2 PTs, compared with group 1 PTs, showed:
+<ul>
+<li>inflammasomes as the second-highest GSEA pathway by normalized enrichment score (p=0.03);</li>
+<li>higher NK-cell signatures;</li>
+<li>higher HLA gene expression (p=0.02, Wilcoxon);</li>
+<li>consistently lower cancer-associated fibroblast abundance across deconvolution tools.</li>
+</ul>
+<a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Patient 1957:</strong> none of the 39 PT-specific mutations was predicted to encode a clonal neoantigen, while 32 PDX-specific mutations yielded 10 clonal neoantigens. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Patient 1913:</strong> 7 PDX-specific clonal mutations were also found in two additional PDXs grown from separate tumor tissue. The authors argue this shows the mutations pre-existed in the patient tumor. <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+<p><strong>Copy-number conservation</strong></p>
+<ul>
+<li>GISTIC2 on low-pass WGS identified 15 amplification and 19 deletion peaks. See <em>Genes &amp; alterations</em> for the genes in them. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Tumor-type copy-number profiles matched prior reports:
+<ul>
+<li>Wilms tumor: 1q gain 57%, chr11 loss 30%.</li>
+<li>Hepatoblastoma: gains of 1q (46%), 2q (41%), chr20 (41%) and 8q (24%).</li>
+<li>Germ cell tumor: gains of 12p (85%), chr21 (62%) and 7p (54%); losses of chr4 (46%) and chr5 (38%).</li>
+</ul>
+<a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Whole-genome doubling (ploidy &gt;2.5) was found in 77% of germ cell tumors and 67% of osteosarcomas. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>PT/PDX ploidy was highly concordant (rho=0.98, p=3.2×10⁻¹⁵). The two exceptions (8%; 1959, 1979) had drastic ploidy changes and were the same two pairs with no shared mutations. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Genomic instability scores were highest in osteosarcoma and lowest in neuroblastoma, clear cell sarcoma and hepatoblastoma. They correlated between PT and PDX (rho=0.75, p=1.7×10⁻⁵). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Nine samples (seven of them sarcomas) had 292 focal events, and 86% were shared between PT and PDX. PT focal events were conserved in every pair. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Copy-number correlation did not differ between group 1 and group 2 (p=0.6), suggesting SCNAs are mainly clonal. <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+<p><strong>Transcriptome and fusions</strong></p>
+<ul>
+<li>Unsupervised clustering grouped samples by tissue of origin, except clear cell sarcoma: the kidney-derived cases (1754, 2324) separated from the bone-derived case (529). The authors note the same tissue-of-origin pattern in adult cancers (cited: <a href="../papers/29625048.html">PMID:29625048</a>). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Expression correlated strongly between PTs and PDXs (Spearman rho 0.92–1). For comparison, two PDXs from different metastases of patient 560 correlated at 0.94, and two blocks of patient 1939 at 0.97. The correlation was similar across the three evolutionary patterns (p=0.87). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>161 high-confidence fusions were found, including disease-defining <a href="../genes/EWSR1.html">EWSR1</a>–<a href="../genes/ATF1.html">ATF1</a> in a clear cell sarcoma (529) and <a href="../genes/BCOR.html">BCOR</a>–<a href="../genes/CCNB3.html">CCNB3</a> in an Ewing-like sarcoma (2197). 125 (78%) were in osteosarcoma and clear cell sarcoma. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>In the 18 pairs with RNA-seq, 6 had at least one fusion, and 29 of 30 (97%) PT fusions were also found in the PDX. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Among PDX fusions, 14 involved a kinase and 12 a clinically actionable gene, including <a href="../genes/TAOK1.html">TAOK1</a>–<a href="../genes/NTRK3.html">NTRK3</a>. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>LRPAP1–PDGFRA:</strong> <a href="../genes/LRPAP1.html">LRPAP1</a>–<a href="../genes/PDGFRA.html">PDGFRA</a> was found in a glioblastoma and a germ cell tumor. It preserves the PDGFRA protein kinase domain, comes with high PDGFRA expression, and was confirmed by RT-PCR in 516_PDX and 892257_PDX (233 bp product). <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a>:
+<ul>
+<li>mutated in 7 of 11 (64%) hepatoblastomas with exome data, the one exception to the cohort’s generally low recurrence;</li>
+<li>one of only two significantly mutated genes by MutSigCV (FDR&lt;0.1);</li>
+<li>retained as the early driver in branch-seeding hepatoblastoma 1957;</li>
+<li>4 large in-frame exon 3/4 deletions added to the calls using MANTA;</li>
+<li>two CTNNB1 indels were among the hotspot variants called by only one caller.</li>
+</ul>
+<a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><a href="../genes/TP53.html">TP53</a>: significantly mutated by MutSigCV (FDR&lt;0.1) and located in a GISTIC2 deletion peak. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><a href="../genes/LRP2.html">LRP2</a>: in clone-sweeping case 1913, a subclonal PT mutation (VAF 0.09) became clonal in the PDX. The same mutation was clonal in two additional 1913 PDXs (VAF 0.44 and 0.45). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><a href="../genes/BMP4.html">BMP4</a>: in clone-sweeping case 1932, the mutation had VAF 0.12 in the PT and 0.37/0.38 in two additional PDXs. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Amplification peaks (GISTIC2) included <a href="../genes/MYC.html">MYC</a>, cell-cycle genes <a href="../genes/CCND3.html">CCND3</a> and <a href="../genes/CCNE1.html">CCNE1</a>, chromatin regulators <a href="../genes/SETDB1.html">SETDB1</a> and <a href="../genes/EZH2.html">EZH2</a>, and DNA-repair gene <a href="../genes/XRCC2.html">XRCC2</a>. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Deletion peaks (GISTIC2) included:
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> and <a href="../genes/PTEN.html">PTEN</a>;</li>
+<li>DNA-repair genes <a href="../genes/RAD51.html">RAD51</a>, <a href="../genes/FANCA.html">FANCA</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/CHEK1.html">CHEK1</a> and <a href="../genes/POLD1.html">POLD1</a>;</li>
+<li>apoptosis regulators <a href="../genes/BAX.html">BAX</a> and <a href="../genes/BCL2.html">BCL2</a>;</li>
+<li>hypoxia regulator <a href="../genes/HIF1A.html">HIF1A</a>;</li>
+<li>PD-L1 (<a href="../genes/CD274.html">CD274</a>).</li>
+</ul>
+<a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Fusions:
+<ul>
+<li><a href="../genes/EWSR1.html">EWSR1</a>–<a href="../genes/ATF1.html">ATF1</a>: clear cell sarcoma, patient 529.</li>
+<li><a href="../genes/BCOR.html">BCOR</a>–<a href="../genes/CCNB3.html">CCNB3</a>: Ewing-like sarcoma, patient 2197.</li>
+<li><a href="../genes/TAOK1.html">TAOK1</a>–<a href="../genes/NTRK3.html">NTRK3</a>: clinically actionable kinase fusion.</li>
+<li><a href="../genes/LRPAP1.html">LRPAP1</a>–<a href="../genes/PDGFRA.html">PDGFRA</a>: glioblastoma and germ cell tumor; kinase domain retained; high PDGFRA expression; RT-PCR validated.</li>
+</ul>
+<a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Proliferation markers <a href="../genes/MKI67.html">MKI67</a>, <a href="../genes/BUB1.html">BUB1</a>, <a href="../genes/TOP2A.html">TOP2A</a> and <a href="../genes/PCNA.html">PCNA</a> were expressed more highly in group 2 PDXs than their PTs, and the reverse in group 1. HLA genes as a set (ssGSEA) were more highly expressed in group 2 PTs (p=0.02). <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Co-clinical trials:</strong> PDX co-clinical trials have been proposed to guide therapy at relapse. The authors caution that such trials “could misinform treatment when the tumor is highly heterogeneous”, because genetically heterogeneous PTs tend to produce genetically divergent subcutaneous PDXs. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Expression as a transfer tool:</strong> early-passage PDXs keep PT expression and SCNA profiles regardless of mutational similarity. The authors therefore suggest expression may be a more robust way to carry preclinical findings from PDXs to patients. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Immune suppression of aggressive subclones:</strong> the innate immune system may suppress more aggressive subclones in some patients. The authors suggest that using this antitumor immunity alongside surgical resection may benefit these patients (a hypothesis; not tested). <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Actionable fusions:</strong> 12 PDX fusions involved clinically actionable genes, including <a href="../genes/TAOK1.html">TAOK1</a>–<a href="../genes/NTRK3.html">NTRK3</a>. The authors note that NTRK-fusion inhibition has shown promising clinical benefit in patients; no drug was tested in this study. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Resource access:</strong> PDX materials can be requested through the pstPDX portal for preclinical testing. <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small pair numbers:</strong> only 25 PT/PDX pairs were available for mutational comparison, 23 were classified by pattern, and group 2 had 7 pairs, so power is limited. The authors call for larger cohorts, including adult cancers, to validate the immune-constraint model. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Sampling bias:</strong> a PDX seeded from a tumor block distinct from the sequenced PT could also explain the disparity. The authors argue sampling bias cannot explain the longer engraftment time and higher proliferation seen in nearly every disparate pair, but they do not exclude it. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Deep-sequencing caveat:</strong> failing to find a PDX-specific mutation in the PT does not prove it arose de novo in the mouse, because the sequenced PT fragment is not the tissue that seeded the PDX. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Indirect immune evidence:</strong> immune evidence comes only from bulk PT expression (NSG hosts lack a functional immune system). The analysis assumes bulk expression reflects the major clone, and neoantigens are predicted in silico rather than validated as immunogenic. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Model scope:</strong> only subcutaneous, P1 (early-passage) models were studied. SCNA stability across serial passaging, and whether orthotopic models behave differently, are open questions. Engraftment varied widely (neuroblastoma 26%, brain tumors 23%), which may enrich the cohort for types that engraft easily. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Tumor-only calling:</strong> only 40 of 68 PDXs had germline DNA; the rest relied on a 40-normal panel of normals plus SGZ somatic/germline inference. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Heterogeneous “clear cell sarcoma” label:</strong> two kidney-derived tumors and one bone-derived <a href="../genes/EWSR1.html">EWSR1</a>–<a href="../genes/ATF1.html">ATF1</a> tumor share this label and cluster separately by expression. <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><strong>Cross-paper context:</strong> the authors describe earlier pediatric PDX profiling efforts, such as the PPTC resource (<a href="../papers/31693904.html">PMID:31693904</a>), as often lacking matched PTs or germline. This study’s matched PT/germline design is what enables the clonal-evolution analysis. <a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>p.1 (Abstract): “Through genomic profiling of paired PDXs and patient tumors (PTs), we observe low mutational similarity in about 30% of the PT/PDX pairs. Clonal analysis in these pairs show an aggressive PT minor subclone seeds the major clone in the PDX.”</li>
+<li>p.3: “The exception was CTNNB1, which was mutated in 7 of 11 (64%) hepatoblastomas with exome sequencing data.”</li>
+<li>p.3: “Pan-cancer analysis with MutsigCV identified only CTNNB1 and <a href="../genes/TP53.html">TP53</a> as significant mutated genes across the PDXs (FDR&lt;0.1).”</li>
+<li>p.3: “Overall, 78% of mutations were shared between PTs and PDXs. The median mutational similarity was 0.52, higher than those observed in recently published pediatric cancer PDX cohorts but lower than that in adult tumors.”</li>
+<li>p.4: “We call this pattern ‘clone retention’ … This pattern constituted 70% (16/23) of the pairs classified.”</li>
+<li>p.7: “However, in group 2, PDXs showed significantly more clonal neoantigens than their matched PTs (p=0.03, paired t test; Fig. 4c).”</li>
+<li>p.7: “We found high tumor ploidy, likely driven by whole genome doubling (WGD), in 77% of germ cell tumors and 67% of osteosarcomas.”</li>
+<li>p.8: “Importantly, we observed a fusion, LRPAP1-PDGFRA, in a glioblastoma and a germ cell tumor. The fusion preserved the protein kinase domain of PDGFRA and was associated with high PDGFRA expression.”</li>
+<li>p.9: “We found significant mutation disparity in ~30% of the PDXs, and this disparity was associated with high genetic heterogeneity of the PT.”</li>
+<li>p.10: “Our data suggest such co-trials could misinform treatment when the tumor is highly heterogeneous.”</li>
+</ul>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/37990009.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/37990009.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

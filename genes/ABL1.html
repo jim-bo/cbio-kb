@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,19 +173,20 @@ ul.task-list li input[type="checkbox"] {
 <h1>ABL1</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the partner gene in the <a href="../genes/BCR.html">BCR</a>–ABL1 fusion arising from the Philadelphia chromosome t(9;22), a hallmark of chronic myeloid leukemia (CML). In acute myeloid leukemia (<a href="../cancer_types/AML.html">AML</a>), BCR–ABL1 fusions are a rare but recurrent event detected by RNA-seq and represent an activated-signaling driver.</p>
+<p>ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the partner gene in the <a href="../genes/BCR.html">BCR</a>–ABL1 fusion arising from the Philadelphia chromosome t(9;22), a hallmark of chronic myeloid leukemia (<a href="../cancer_types/CML.html">CML</a>). In acute myeloid leukemia (<a href="../cancer_types/AML.html">AML</a>), <a href="../genes/BCR.html">BCR</a>–ABL1 fusions are a rare but recurrent event detected by RNA-seq and represent an activated-signaling driver.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in the TCGA AML cohort (200 adult de novo AML cases); classified among additional recurrent fusions alongside <a href="../genes/NUP98.html">NUP98</a>–<a href="../genes/NSD1.html">NSD1</a> and <a href="../genes/PICALM.html">PICALM</a>–<a href="../genes/MLLT10.html">MLLT10</a>. <a href="../papers/23634996.html">PMID:23634996</a></li>
-<li>Mentioned in a 2014 HCC genomics review as a resistance analogy: ABL1-targeting tyrosine kinase inhibitor resistance patterns inform rational combination therapy design for HCC <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>BCR-ABL1 fusion diagnostic of CML; NUP214-ABL1 and FOXP1-ABL1 fusions identified in B-cell ALL (BLL) — ABL1 rearrangements are TKI targets (dasatinib used to achieve remission enabling curative bone-marrow transplant) <a href="../papers/28007021.html">PMID:28007021</a></li>
+<li>BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in the TCGA <a href="../cancer_types/AML.html">AML</a> cohort (200 adult de novo AML cases); classified among additional recurrent fusions alongside <a href="../genes/NUP98.html">NUP98</a>–<a href="../genes/NSD1.html">NSD1</a> and <a href="../genes/PICALM.html">PICALM</a>–<a href="../genes/MLLT10.html">MLLT10</a>. <a href="../papers/23634996.html">PMID:23634996</a></li>
+<li>Mentioned in a 2014 <a href="../cancer_types/HCC.html">HCC</a> genomics review as a resistance analogy: ABL1-targeting tyrosine kinase inhibitor resistance patterns inform rational combination therapy design for HCC <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>BCR-ABL1 fusion diagnostic of CML; NUP214-ABL1 and FOXP1-ABL1 fusions identified in B-cell ALL (<a href="../cancer_types/BLL.html">BLL</a>) — ABL1 rearrangements are TKI targets (<a href="../drugs/dasatinib.html">dasatinib</a> used to achieve remission enabling curative bone-marrow transplant) <a href="../papers/28007021.html">PMID:28007021</a></li>
 <li>The <a href="../genes/BCR.html">BCR</a>–<a href="../genes/ABL1.html">ABL1</a> fusion is a classic leukemic fusion recovered in <a href="../cancer_types/LAML.html">LAML</a> ‘fusion-only’ tumors in a pan-cancer RNA-seq fusion analysis across TCGA. <a href="../papers/29617662.html">PMID:29617662</a></li>
 <li>Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g.&nbsp;NCI-MATCH); the authors caution that the same alteration class yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters <a href="../papers/29625048.html">PMID:29625048</a></li>
-<li>BCR-ABL1 fusion detected in cancer cell lines; ponatinib sensitivity correlates with phospho-SHP2 (pY542) levels in AML/CML lines carrying BCR-ABL1 alterations <a href="../papers/31068700.html">PMID:31068700</a></li>
+<li>BCR-ABL1 fusion detected in cancer cell lines; <a href="../drugs/ponatinib.html">ponatinib</a> sensitivity correlates with phospho-SHP2 (pY542) levels in AML/CML lines carrying BCR-ABL1 alterations <a href="../papers/31068700.html">PMID:31068700</a></li>
 <li>BCR-ABL1 fusion detected in all three Ph+ ALL patient-derived xenograft models in the PPTC PDX cohort (261 models across 37 pediatric cancer subtypes) <a href="../papers/31693904.html">PMID:31693904</a></li>
-<li>In a proteogenomic analysis of 99 treatment-naive GBMs, ABL1 was identified as an inferred kinase-deacetylase interaction partner of HDAC2 (~5% phospho-outlier tumors); HDAC2 S422 phosphorylation tracks ABL1 activity, suggesting ABL1-mediated chromatin regulation in a GBM subset. <a href="../papers/33577785.html">PMID:33577785</a></li>
+<li>In a proteogenomic analysis of 99 treatment-naive GBMs, ABL1 was identified as an inferred kinase-deacetylase interaction partner of <a href="../genes/HDAC2.html">HDAC2</a> (~5% phospho-outlier tumors); HDAC2 S422 phosphorylation tracks ABL1 activity, suggesting ABL1-mediated chromatin regulation in a <a href="../cancer_types/GBM.html">GBM</a> subset. <a href="../papers/33577785.html">PMID:33577785</a></li>
+<li>BCR::ABL1 fusion identified in 1 case within a pediatric AML transcriptomic classification cohort <a href="../papers/38212634.html">PMID:38212634</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -213,15 +217,16 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/23634996.html">PMID:23634996</a></li>
+<li><a href="../papers/25369299.html">PMID:25369299</a></li>
+<li><a href="../papers/28007021.html">PMID:28007021</a></li>
+<li><a href="../papers/29617662.html">PMID:29617662</a></li>
+<li><a href="../papers/29625048.html">PMID:29625048</a></li>
+<li><a href="../papers/31068700.html">PMID:31068700</a></li>
+<li><a href="../papers/31693904.html">PMID:31693904</a></li>
+<li><a href="../papers/33577785.html">PMID:33577785</a></li>
+<li><a href="../papers/38212634.html">PMID:38212634</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24735922.html">PMID:24735922</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29617662.html">PMID:29617662</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29625048.html">PMID:29625048</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31068700.html">PMID:31068700</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/33577785.html">PMID:33577785</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

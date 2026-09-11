@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -233,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="key-findings" class="level2">
 <h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
 <ul>
-<li><strong>Genomic burden scales with subtype invasiveness:</strong> Median TMB increased monotonically with subtype invasiveness (LEP 3.9, ACI/PAP 4.9, MIP/SOL 7.9 mutations/Mb; p&lt;0.001). Median fraction of genome altered (<a href="../genes/FGA.html">FGA</a>) followed the same pattern (LEP 0.174, ACI/PAP 0.222, MIP/SOL 0.304; p=0.001). The correlation between TMB and FGA strengthened with invasiveness (LEP ρ=−0.03; ACI/PAP ρ=0.11; MIP/SOL ρ=0.28).</li>
+<li><strong>Genomic burden scales with subtype invasiveness:</strong> Median TMB increased monotonically with subtype invasiveness (LEP 3.9, ACI/PAP 4.9, MIP/SOL 7.9 mutations/Mb; p&lt;0.001). Median fraction of genome altered (FGA) followed the same pattern (LEP 0.174, ACI/PAP 0.222, MIP/SOL 0.304; p=0.001). The correlation between TMB and FGA strengthened with invasiveness (LEP ρ=−0.03; ACI/PAP ρ=0.11; MIP/SOL ρ=0.28).</li>
 <li><strong>Subtype-defining genes:</strong> Three genes were significantly enriched in LEP tumors vs ACI/PAP vs MIP/SOL: <a href="../genes/EGFR.html">EGFR</a> (42% vs 31% vs 19%; p=0.001), <a href="../genes/RBM10.html">RBM10</a> (26% vs 12% vs 10%; p=0.001), and <a href="../genes/TERT.html">TERT</a> (14% vs 5% vs 10%; p=0.012). Four genes were enriched in MIP/SOL vs ACI/PAP vs LEP: <a href="../genes/TP53.html">TP53</a> (62% vs 33% vs 16%; p&lt;0.001), <a href="../genes/SETD2.html">SETD2</a> (8% vs 3% vs 1.1%; p=0.048), <a href="../genes/MGA.html">MGA</a> (11% vs 2% vs 2.3%; p&lt;0.001), and <a href="../genes/SMARCA4.html">SMARCA4</a> (6% vs 1.5% vs 2.3%; p=0.035).</li>
 <li><strong>Chromosomal instability:</strong> MIP/SOL tumors had the highest number of copy-number amplifications (p=0.021) and the highest rate of whole-genome doubling (WGD): 18% vs 10% vs 4.5% (p=0.008). Copy-number deletions did not differ between subtypes (p=0.208). Statistically significant arm-level differences spanned 2p, 2q, 4q, 5p, 6p, 6q, 7p, 7q, 11p, 11q, 12p, 17p (p=0.008), and 17q (p&lt;0.001). Amplified oncogenes across the cohort included <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/TERT.html">TERT</a>, <a href="../genes/NKX2-1.html">NKX2-1</a>, <a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/MYC.html">MYC</a>, <a href="../genes/ERBB2.html">ERBB2</a>, and <a href="../genes/MET.html">MET</a>.</li>
 <li><strong>Mutational signatures and recurrence:</strong> Mutational signatures were computed for 268 tumors (44%) with ≥13.8 mut/Mb. SBS3 (defective DNA repair) was more frequent in LEP. SBS2 and SBS13 (attributable to <a href="../genes/APOBEC3A.html">APOBEC3A</a>/<a href="../genes/APOBEC3B.html">APOBEC3B</a> cytidine deaminase activity) increased with subtype invasiveness. Across all tumors, SBS2 (SHR 2.07; 95% CI 1.11–3.84; p=0.021) and SBS13 (SHR 2.27; 95% CI 1.29–4.02; p=0.005) were associated with increased recurrence risk; in ACI/PAP tumors, SBS2 (SHR 2.56; p=0.02) and SBS13 (SHR 2.85; p=0.007) remained significant.</li>

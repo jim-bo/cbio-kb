@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -189,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 <li>TMPRSS2-ERG fusion status was 100% concordant across metastases within individual mCRPC patients by FISH (53 tumors, 13 men) and 94% concordant (32/34 men) by array CGH in a rapid-autopsy cohort <a href="../papers/26928463.html">PMID:26928463</a></li>
 <li>Focal RAG-mediated 21q22.3 deletions in 55.6% of DUX4/ERG B-ALL cases (most commonly exons 3-7 or 3-9 of NM_182918.3); expression of a novel dominant-negative isoform ERGalt from non-canonical exon 6 alt (driven by <a href="../genes/DUX4.html">DUX4</a> binding); NRAS-G12D cooperated with ERGalt to sustain lymphoid colony replating in Arf-/- mouse cells <a href="../papers/27776115.html">PMID:27776115</a></li>
 <li>TMPRSS2-ERG fusion is the most common rearrangement in the MSK-IMPACT cohort (n=151) in <a href="../cancer_types/PRAD.html">PRAD</a>; cryptic <a href="../genes/TMPRSS2.html">TMPRSS2</a> rearrangements detected in 23 additional <a href="../cancer_types/PRAD.html">PRAD</a> cases consistent with chromoplexy <a href="../papers/28481359.html">PMID:28481359</a></li>
-<li>TMPRSS2-ERG fusion cited as a canonical somatic prostate-cancer fusion in background context; cross-referenced to prior work on 17q12/HNF1B but not directly assayed in the NOL10/rs4519489 eQTL study <a href="../papers/28927585.html">PMID:28927585</a>.</li>
+<li>TMPRSS2-ERG fusion cited as a canonical somatic prostate-cancer fusion in background context; cross-referenced to prior work on 17q12/HNF1B but not directly assayed in the NOL10/rs4519489 eQTL study <a href="../papers/41062477.html">PMID:41062477</a>.</li>
 <li>ERG is confirmed as an established driver in prostate cancer via TMPRSS2-ERG fusions; metastasis-vs-primary enrichment was quantified in the 1,013-patient WES cohort; ERG/TMPRSS2 fusions are confirmed among the set of established drivers including <a href="../genes/TP53.html">TP53</a>, <a href="../genes/AR.html">AR</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/FOXA1.html">FOXA1</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/BRCA2.html">BRCA2</a>, and <a href="../genes/SPOP.html">SPOP</a> <a href="../papers/29610475.html">PMID:29610475</a>.</li>
 <li><strong>TMPRSS2-ERG</strong> is the most-recurrent intra-cancer fusion overall in the TCGA pan-cancer fusion landscape (38.2% of <a href="../cancer_types/PRAD.html">PRAD</a> samples, 205 samples flagged druggable); the fusion yields modest neoantigen yield in only a small subset of carriers <a href="../papers/29617662.html">PMID:29617662</a>.</li>
 <li>TMPRSS2-ERG fusions occur in 70% of early-onset prostate cancer (EOPC) tumors; ERG has the highest exclusion score in the PRESCIENT model and is the most frequent initiating event, often arising from APOBEC-associated SV breakpoints (292-case WGS cohort) <a href="../papers/30537516.html">PMID:30537516</a></li>
@@ -200,6 +203,8 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/TMPRSS2.html">TMPRSS2</a>:ERG fusions intentionally excluded from racial alteration-prevalence comparisons in an MSK-IMPACT prostate cancer cohort (n=2,069) due to suboptimal panel sensitivity for fusions; known to be more common in European-ancestry men. <a href="../papers/34667026.html">PMID:34667026</a></li>
 <li>Fusions less frequent in <a href="../cancer_types/PRAD.html">PRAD</a> bone metastases (30% primary vs 15% bone met, q=0.002; secondary analysis 29% vs 24%, q=0.04), indicating negative selection for ERG fusions at the bone metastatic site in prostate cancer <a href="../papers/35120664.html">PMID:35120664</a></li>
 <li><a href="../genes/TMPRSS2.html">TMPRSS2</a>–ERG fusions detected by targeted RNA-seq in 13/51 (25%) prostate cancer brain metastases (PCBM), highly correlated with ERG IHC (r=0.70, P&lt;2.2×10⁻¹⁶) <a href="../papers/35504881.html">PMID:35504881</a></li>
+<li>ERG is the ETS-family fusion partner in a <a href="../genes/FUS.html">FUS</a>::ERG rearrangement, one of 16 FET-ETS fusions identified in a pediatric <a href="../cancer_types/AML.html">AML</a> molecular classification cohort. <a href="../papers/38212634.html">PMID:38212634</a></li>
+<li>ERG is the fusion partner in <a href="../genes/EWSR1.html">EWSR1</a>::ERG Ewing sarcoma (n=26, unbalanced fusion); chromoplexy occurred in 42% of these cases versus 24% for EWSR1::<a href="../genes/FLI1.html">FLI1</a> (P=0.03), and ERG accounted for 7% of chromoplectic events; ERG is also the partner in <a href="../genes/TMPRSS2.html">TMPRSS2</a>::ERG prostate cancer. <a href="../papers/38335254.html">PMID:38335254</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -239,24 +244,26 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/25201530.html">PMID:25201530</a></p></li>
 <li><p><a href="../papers/25223734.html">PMID:25223734</a></p></li>
 <li><p><a href="../papers/26000489.html">PMID:26000489</a></p></li>
+<li><p><a href="../papers/26544944.html">PMID:26544944</a></p></li>
+<li><p><a href="../papers/26855148.html">PMID:26855148</a></p></li>
+<li><p><a href="../papers/26928463.html">PMID:26928463</a></p></li>
+<li><p><a href="../papers/27776115.html">PMID:27776115</a></p></li>
+<li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
+<li><p><a href="../papers/41062477.html">PMID:41062477</a></p></li>
+<li><p><a href="../papers/29610475.html">PMID:29610475</a></p></li>
+<li><p><a href="../papers/29617662.html">PMID:29617662</a></p></li>
+<li><p><a href="../papers/30537516.html">PMID:30537516</a></p></li>
+<li><p><a href="../papers/31061129.html">PMID:31061129</a></p></li>
+<li><p><a href="../papers/31564440.html">PMID:31564440</a></p></li>
+<li><p><a href="../papers/32220886.html">PMID:32220886</a></p></li>
+<li><p><a href="../papers/32317181.html">PMID:32317181</a></p></li>
+<li><p><a href="../papers/34667026.html">PMID:34667026</a></p></li>
+<li><p><a href="../papers/35120664.html">PMID:35120664</a></p></li>
+<li><p><a href="../papers/35504881.html">PMID:35504881</a></p></li>
+<li><p><a href="../papers/38212634.html">PMID:38212634</a></p></li>
+<li><p><a href="../papers/38335254.html">PMID:38335254</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26544944.html">PMID:26544944</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26855148.html">PMID:26855148</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26928463.html">PMID:26928463</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27776115.html">PMID:27776115</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29610475.html">PMID:29610475</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29617662.html">PMID:29617662</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30537516.html">PMID:30537516</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31061129.html">PMID:31061129</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31564440.html">PMID:31564440</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32220886.html">PMID:32220886</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32317181.html">PMID:32317181</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34667026.html">PMID:34667026</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35120664.html">PMID:35120664</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

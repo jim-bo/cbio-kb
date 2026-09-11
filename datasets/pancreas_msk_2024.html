@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="composition" class="level2">
 <h2 class="anchored" data-anchor-id="composition">Composition</h2>
 <ul>
-<li>1,360 resected PDAC patients; 397 (29%) stage I, 963 (71%) stage II–III; <a href="../cancer_types/OS.html">OS</a> of the full cohort 30.7 months (95% CI 28.0–32.8) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>1,360 resected PDAC patients; 397 (29%) stage I, 963 (71%) stage II–III; OS of the full cohort 30.7 months (95% CI 28.0–32.8) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Tumor targeted sequencing on <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> in 397 patients (103 stage I, 294 stage II–III) with no sequencing selection criteria <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Bulk RNA-seq on 100 resected tumors and high-plex spatial profiling on 20 patients (14 tumors, 6 normal) using NanoString <a href="../methods/cosmx-smi.html">CosMx SMI</a> tissue microarrays <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>22% of the sequenced subset received neoadjuvant therapy (most commonly 5-FU–based regimens, frequently FOLFIRINOX); 82% received adjuvant therapy <a href="../papers/39214094.html">PMID:39214094</a>.</li>
@@ -197,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="notable-findings-derived-from-this-cohort">Notable findings derived from this cohort</h2>
 <ul>
 <li><a href="../genes/KRAS.html">KRAS</a> altered in 90%, <a href="../genes/TP53.html">TP53</a> 71%, <a href="../genes/CDKN2A.html">CDKN2A</a> 24%, <a href="../genes/SMAD4.html">SMAD4</a> 17%; <a href="../genes/KRAS.html">KRAS</a> allele distribution G12D 36.5% / G12V 32.5% / G12R 13.9% / other 8.1% / WT 9.1% <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li>KRAS<sup>G12R</sup> enriched in stage I disease (23% vs 11%), more often node-negative (47% vs 26% for G12D), and associated with improved <a href="../cancer_types/OS.html">OS</a> and reduced distant recurrence <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>KRAS<sup>G12R</sup> enriched in stage I disease (23% vs 11%), more often node-negative (47% vs 26% for G12D), and associated with improved OS and reduced distant recurrence <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>KRAS<sup>G12R</sup> tumors carry a higher frequency of <a href="../genes/CDKN2A.html">CDKN2A</a> mutations than KRAS<sup>G12D</sup> (40% vs 22.1%) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
 </section>

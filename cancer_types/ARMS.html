@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,10 +184,10 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
 <li><a href="../genes/FOXO1.html">FOXO1</a>: fusion partner in 85% of extremity ARMS <a href="../papers/37315267.html">PMID:37315267</a>.</li>
-<li><a href="../genes/PAX3.html">PAX3</a>::<a href="../genes/FOXO1.html">FOXO1</a>: present in 70% of ARMS; associated with worse <a href="../cancer_types/OS.html">OS</a> and older age than <a href="../genes/PAX7.html">PAX7</a>::<a href="../genes/FOXO1.html">FOXO1</a> (HR 3.45, P=.016) <a href="../papers/37315267.html">PMID:37315267</a>.</li>
+<li><a href="../genes/PAX3.html">PAX3</a>::<a href="../genes/FOXO1.html">FOXO1</a>: present in 70% of ARMS; associated with worse OS and older age than <a href="../genes/PAX7.html">PAX7</a>::<a href="../genes/FOXO1.html">FOXO1</a> (HR 3.45, P=.016) <a href="../papers/37315267.html">PMID:37315267</a>.</li>
 <li><a href="../genes/PAX7.html">PAX7</a>::<a href="../genes/FOXO1.html">FOXO1</a>: more favorable prognosis <a href="../papers/37315267.html">PMID:37315267</a>.</li>
-<li><a href="../genes/MED12.html">MED12</a>, <a href="../genes/CDK4.html">CDK4</a> amplifications, and <a href="../genes/CDKN2A.html">CDKN2A</a> deletions: each 8–17% in ARMS; CDK4/CDKN2A events mutually exclusive, enriched in acral/high-risk lesions, correlated with poor <a href="../cancer_types/OS.html">OS</a> (P=.02) <a href="../papers/37315267.html">PMID:37315267</a>.</li>
-<li>FP-RMS (predominantly ARMS): <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> deletions 28%, <a href="../genes/MYCN.html">MYCN</a> alterations 22%, <a href="../genes/CDK4.html">CDK4</a> amplifications 17%; <a href="../genes/MYCN.html">MYCN</a> alterations (p=0.0012) and <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (p=0.049) each independently predict worse <a href="../cancer_types/OS.html">OS</a>; combined alterations show worst <a href="../cancer_types/OS.html">OS</a> (p=0.0017) and PFS (p=0.002) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><a href="../genes/MED12.html">MED12</a>, <a href="../genes/CDK4.html">CDK4</a> amplifications, and <a href="../genes/CDKN2A.html">CDKN2A</a> deletions: each 8–17% in ARMS; CDK4/CDKN2A events mutually exclusive, enriched in acral/high-risk lesions, correlated with poor OS (P=.02) <a href="../papers/37315267.html">PMID:37315267</a>.</li>
+<li>FP-RMS (predominantly ARMS): <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> deletions 28%, <a href="../genes/MYCN.html">MYCN</a> alterations 22%, <a href="../genes/CDK4.html">CDK4</a> amplifications 17%; <a href="../genes/MYCN.html">MYCN</a> alterations (p=0.0012) and <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (p=0.049) each independently predict worse OS; combined alterations show worst OS (p=0.0017) and PFS (p=0.002) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
 <li><a href="../genes/PAX3.html">PAX3</a>::<a href="../genes/FOXO1.html">FOXO1</a> fusion detectable in ctDNA at diagnosis (100%) and relapse (86%), with fusion read counts correlating with disease burden <a href="../papers/37730754.html">PMID:37730754</a>.</li>
 <li>Genomic analysis of 147 <a href="../cancer_types/RMS.html">RMS</a> tumors reclassified ARMS by PAX-fusion status: PAX-fusion-positive (PFP) ARMS carry <a href="../genes/PAX3.html">PAX3</a>- or <a href="../genes/PAX7.html">PAX7</a>-<a href="../genes/FOXO1.html">FOXO1</a> fusions with low somatic mutation burden (mean 6.4 non-synonymous mutations/tumor) and rely on amplifications (<a href="../genes/MYCN.html">MYCN</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/MIR17HG.html">MIR17HG</a>); 7 fusion-negative ARMS clustered molecularly with <a href="../cancer_types/ERMS.html">ERMS</a> <a href="../papers/24436047.html">PMID:24436047</a>.</li>
 <li>PIPseq cohort: PAX7-FOXO1 fusion detected by RNA-seq in an alveolar <a href="../cancer_types/RMS.html">RMS</a> patient despite repeatedly negative <a href="../genes/FOXO1.html">FOXO1</a> break-apart FISH; the fusion was diagnostic and placed the patient in the high-risk prognostic group <a href="../papers/28007021.html">PMID:28007021</a></li>
@@ -213,13 +216,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/37315267.html">PMID:37315267</a></p></li>
 <li><p><a href="../papers/37730754.html">PMID:37730754</a></p></li>
 <li><p><a href="../papers/24436047.html">PMID:24436047</a></p></li>
+<li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
+<li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
+<li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
+<li><p><a href="../papers/35585047.html">PMID:35585047</a></p></li>
+<li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
+<li><p><a href="../papers/35705560.html">PMID:35705560</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

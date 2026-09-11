@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>RUNX1T1</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>RUNX1T1 (also known as ETO or MTG8) is a transcriptional repressor that forms the RUNX1-RUNX1T1 fusion protein (also called AML1-ETO) as a result of the t(8;21) chromosomal translocation. This fusion is one of the most common and clinically favorable recurrent genomic alterations in <a href="../cancer_types/AML.html">AML</a>, defining the t(8;21) AML subtype. RUNX1T1 disrupts normal myeloid differentiation by repressing RUNX1-target genes.</p>
+<p>RUNX1T1 (also known as ETO or MTG8) is a transcriptional repressor that forms the RUNX1-RUNX1T1 fusion protein (also called AML1-ETO) as a result of the t(8;21) chromosomal translocation. This fusion is one of the most common and clinically favorable recurrent genomic alterations in <a href="../cancer_types/AML.html">AML</a>, defining the t(8;21) <a href="../cancer_types/AML.html">AML</a> subtype. RUNX1T1 disrupts normal myeloid differentiation by repressing RUNX1-target genes.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
@@ -178,24 +181,25 @@ ul.task-list li input[type="checkbox"] {
 <li>RUNX1-RUNX1T1 fusion (from t(8;21)) is a favorable-risk transcription-factor fusion in AML, mutually exclusive with <a href="../genes/NPM1.html">NPM1</a> and <a href="../genes/DNMT3A.html">DNMT3A</a> mutations; RUNX1-RUNX1T1-fused samples carried the fewest cooperating mutations in the AML cohort <a href="../papers/23634996.html">PMID:23634996</a></li>
 <li>Referenced in the context of colorectal carcinoma genomic characterization; altered in the primary-metastasis matched cohort studied by whole-exome sequencing <a href="../papers/25164765.html">PMID:25164765</a></li>
 <li>RUNX1-RUNX1T1 t(8;21) fusion defines a favorable-risk AML subgroup (4%, n=60) in a 1540-patient genomic landscape study across AML treatment trials <a href="../papers/27276561.html">PMID:27276561</a>.</li>
+<li><a href="../genes/RUNX1.html">RUNX1</a>::RUNX1T1 fusion defines a favorable-outcome core-binding-factor AML category (110 cases, 12.4%) with high granulocyte-monocyte progenitor scores. <a href="../papers/38212634.html">PMID:38212634</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><a href="../cancer_types/AML.html">AML</a>: RUNX1-RUNX1T1 defines the t(8;21) AML subtype; mutually exclusive of NPM1, <a href="../genes/FLT3.html">FLT3</a>, and DNMT3A driver mutations; associated with favorable prognosis <a href="../papers/23634996.html">PMID:23634996</a></li>
+<li><a href="../cancer_types/AML.html">AML</a>: RUNX1-RUNX1T1 defines the t(8;21) AML subtype; mutually exclusive of <a href="../genes/NPM1.html">NPM1</a>, <a href="../genes/FLT3.html">FLT3</a>, and <a href="../genes/DNMT3A.html">DNMT3A</a> driver mutations; associated with favorable prognosis <a href="../papers/23634996.html">PMID:23634996</a></li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>RUNX1-RUNX1T1 is mutually exclusive with NPM1, DNMT3A, FLT3, and <a href="../genes/RUNX1.html">RUNX1</a> point mutations; forms a distinct mutual-exclusivity group with PML-RARA and MYH11-CBFB fusions <a href="../papers/23634996.html">PMID:23634996</a></li>
+<li>RUNX1-RUNX1T1 is mutually exclusive with NPM1, DNMT3A, <a href="../genes/FLT3.html">FLT3</a>, and <a href="../genes/RUNX1.html">RUNX1</a> point mutations; forms a distinct mutual-exclusivity group with PML-RARA and MYH11-CBFB fusions <a href="../papers/23634996.html">PMID:23634996</a></li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>t(8;21) AML with RUNX1-RUNX1T1 has favorable prognosis and is typically treated with high-dose cytarabine consolidation; the fusion protein is a potential target for novel therapies <a href="../papers/23634996.html">PMID:23634996</a></li>
+<li>t(8;21) AML with RUNX1-RUNX1T1 has favorable prognosis and is typically treated with high-dose <a href="../drugs/cytarabine.html">cytarabine</a> consolidation; the fusion protein is a potential target for novel therapies <a href="../papers/23634996.html">PMID:23634996</a></li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
@@ -207,11 +211,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/23634996.html">PMID:23634996</a></li>
+<li><p><a href="../papers/23634996.html">PMID:23634996</a></p></li>
+<li><p><a href="../papers/25164765.html">PMID:25164765</a></p></li>
+<li><p><a href="../papers/27276561.html">PMID:27276561</a></p></li>
+<li><p><a href="../papers/38212634.html">PMID:38212634</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/25164765.html">PMID:25164765</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/27276561.html">PMID:27276561</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Microbiome analyses of blood and tissues suggest cancer diagnostic approach – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32214244.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32214244.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Microbiome analyses of blood and tissues suggest cancer diagnostic approach</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gregory D Poore </p>
+             <p>Evguenia Kopylova </p>
+             <p>Qiyun Zhu </p>
+             <p>Carolina Carpenter </p>
+             <p>Serena Fraraccio </p>
+             <p>Stephen Wandro </p>
+             <p>Tomasz Kosciolek </p>
+             <p>Stefan Janssen </p>
+             <p>Jessica Metcalf </p>
+             <p>Se Jin Song </p>
+             <p>Jad Kanbar </p>
+             <p>Sandrine Miller-Montgomery </p>
+             <p>Robert Heaton </p>
+             <p>Rana Mckay </p>
+             <p>Sandip Pravin Patel </p>
+             <p>Austin D Swafford </p>
+             <p>Rob Knight </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41586-020-2095-1">10.1038/s41586-020-2095-1</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 32214244 · <strong>DOI:</strong> 10.1038/s41586-020-2095-1 · <strong>Journal:</strong> Nature (2020)</p>
+<blockquote class="blockquote">
+<p><strong>Retraction notice.</strong> PubMed lists PMID 32214244 as a <em>Retracted Publication</em>, with a “Retraction in” link to <em>Nature</em> 2024;631(8021):694 (doi: <a href="https://doi.org/10.1038/s41586-024-07656-x">10.1038/s41586-024-07656-x</a>; PubMed 38926587). The retraction notice is not part of the source text summarized here, so this page does not repeat its reasons. Everything below reports the paper’s claims as originally published. None of it should be treated as established, or reused in cross-paper synthesis, without this caveat.</p>
+</blockquote>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The authors searched treatment-naive TCGA sequencing data for non-human reads: 18,116 samples from 10,481 patients across 33 cancer types, split into whole-genome sequencing (WGS; n=4,831) and RNA-seq (n=13,285). They classified these reads with Kraken against 59,974 bacterial, archaeal and viral genomes, removed batch effects with Voom plus supervised normalization (Voom-SNM), and trained stochastic gradient-boosting classifiers. The paper reports that genus-level microbial profiles from tumor tissue could tell one cancer type from all others, and tumor from normal tissue, in most cancer types. Microbial DNA (“mbDNA”) in TCGA blood WGS also discriminated cancer types. This held for stage Ia–IIc patients, for patients with no alteration in the <a href="../methods/guardant360.html">Guardant360</a> or FoundationOne Liquid ctDNA gene lists, and after decontamination that discarded up to 92.3% of the sequence data. A plasma cell-free DNA shotgun metagenomic validation cohort had 69 HIV-negative healthy controls and 100 stage III–IV patients with prostate cancer, lung cancer or melanoma. In that cohort, microbial profiles separated controls from cancer patients and cancer types from each other. On this basis the authors proposed microbial-based cancer diagnostics <a href="../papers/32214244.html">PMID:32214244</a>. The article has since been retracted (see notice above).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>TCGA discovery set:</strong> 18,116 samples from 10,481 patients across 33 cancer types (WGS n=4,831; RNA-seq n=13,285). Samples missing race/ethnicity, ICD10, DNA/RNA analyte amount or FFPE-status metadata were dropped, leaving 17,625 samples for normalization, decontamination and ML. Primary-tumor comparisons used 13,883 samples across 32 cancer types <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li><strong>Cancer types (TCGA abbreviations):</strong> <a href="../cancer_types/ACC.html">ACC</a>, <a href="../cancer_types/BLCA.html">BLCA</a>, <a href="../cancer_types/BRCA.html">BRCA</a>, <a href="../cancer_types/CESC.html">CESC</a>, <a href="../cancer_types/CHOL.html">CHOL</a>, <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/DLBCLNOS.html">DLBC</a>, <a href="../cancer_types/ESCA.html">ESCA</a>, <a href="../cancer_types/GBM.html">GBM</a>, <a href="../cancer_types/HNSC.html">HNSC</a>, <a href="../cancer_types/KICH.html">KICH</a>, <a href="../cancer_types/KIRC.html">KIRC</a>, <a href="../cancer_types/KIRP.html">KIRP</a>, <a href="../cancer_types/LAML.html">LAML</a>, <a href="../cancer_types/LGG.html">LGG</a>, <a href="../cancer_types/LIHC.html">LIHC</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/LUSC.html">LUSC</a>, <a href="../cancer_types/MESO.html">MESO</a>, <a href="../cancer_types/OV.html">OV</a>, <a href="../cancer_types/PAAD.html">PAAD</a>, <a href="../cancer_types/PCPG.html">PCPG</a>, <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/SARC.html">SARC</a>, <a href="../cancer_types/SKCM.html">SKCM</a>, <a href="../cancer_types/STAD.html">STAD</a>, <a href="../cancer_types/TGCT.html">TGCT</a>, <a href="../cancer_types/THCA.html">THCA</a>, <a href="../cancer_types/THYM.html">THYM</a>, <a href="../cancer_types/UCEC.html">UCEC</a>, <a href="../cancer_types/UCS.html">UCS</a>, <a href="../cancer_types/UVM.html">UVM</a>.</li>
+<li><strong>Datasets (cBioPortal mirrors of the TCGA cohorts):</strong> <a href="../datasets/acc_tcga_pan_can_atlas_2018.html">acc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/blca_tcga_pan_can_atlas_2018.html">blca_tcga_pan_can_atlas_2018</a>, <a href="../datasets/brca_tcga_pan_can_atlas_2018.html">brca_tcga_pan_can_atlas_2018</a>, <a href="../datasets/cesc_tcga_pan_can_atlas_2018.html">cesc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/chol_tcga_pan_can_atlas_2018.html">chol_tcga_pan_can_atlas_2018</a>, <a href="../datasets/coadread_tcga_pan_can_atlas_2018.html">coadread_tcga_pan_can_atlas_2018</a>, <a href="../datasets/dlbc_tcga_pan_can_atlas_2018.html">dlbc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/esca_tcga_pan_can_atlas_2018.html">esca_tcga_pan_can_atlas_2018</a>, <a href="../datasets/gbm_tcga_pan_can_atlas_2018.html">gbm_tcga_pan_can_atlas_2018</a>, <a href="../datasets/hnsc_tcga_pan_can_atlas_2018.html">hnsc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/kich_tcga_pan_can_atlas_2018.html">kich_tcga_pan_can_atlas_2018</a>, <a href="../datasets/kirc_tcga_pan_can_atlas_2018.html">kirc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/kirp_tcga_pan_can_atlas_2018.html">kirp_tcga_pan_can_atlas_2018</a>, <a href="../datasets/laml_tcga_pan_can_atlas_2018.html">laml_tcga_pan_can_atlas_2018</a>, <a href="../datasets/lgg_tcga_pan_can_atlas_2018.html">lgg_tcga_pan_can_atlas_2018</a>, <a href="../datasets/lihc_tcga_pan_can_atlas_2018.html">lihc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/luad_tcga_pan_can_atlas_2018.html">luad_tcga_pan_can_atlas_2018</a>, <a href="../datasets/lusc_tcga_pan_can_atlas_2018.html">lusc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/meso_tcga_pan_can_atlas_2018.html">meso_tcga_pan_can_atlas_2018</a>, <a href="../datasets/ov_tcga_pan_can_atlas_2018.html">ov_tcga_pan_can_atlas_2018</a>, <a href="../datasets/paad_tcga_pan_can_atlas_2018.html">paad_tcga_pan_can_atlas_2018</a>, <a href="../datasets/pcpg_tcga_pan_can_atlas_2018.html">pcpg_tcga_pan_can_atlas_2018</a>, <a href="../datasets/prad_tcga_pan_can_atlas_2018.html">prad_tcga_pan_can_atlas_2018</a>, <a href="../datasets/sarc_tcga_pan_can_atlas_2018.html">sarc_tcga_pan_can_atlas_2018</a>, <a href="../datasets/skcm_tcga_pan_can_atlas_2018.html">skcm_tcga_pan_can_atlas_2018</a>, <a href="../datasets/stad_tcga_pan_can_atlas_2018.html">stad_tcga_pan_can_atlas_2018</a>, <a href="../datasets/tgct_tcga_pan_can_atlas_2018.html">tgct_tcga_pan_can_atlas_2018</a>, <a href="../datasets/thca_tcga_pan_can_atlas_2018.html">thca_tcga_pan_can_atlas_2018</a>, <a href="../datasets/thym_tcga_pan_can_atlas_2018.html">thym_tcga_pan_can_atlas_2018</a>, <a href="../datasets/ucec_tcga_pan_can_atlas_2018.html">ucec_tcga_pan_can_atlas_2018</a>, <a href="../datasets/ucs_tcga_pan_can_atlas_2018.html">ucs_tcga_pan_can_atlas_2018</a>, <a href="../datasets/uvm_tcga_pan_can_atlas_2018.html">uvm_tcga_pan_can_atlas_2018</a>.
+<ul>
+<li>How the data were obtained: raw TCGA BAMs came through the Seven Bridges Cancer Genomics Cloud. Genomic-alteration status for all TCGA patients was “queried and downloaded via the cBioPortal”, but the paper does not say which cBioPortal study version it used. The PanCancer Atlas IDs above are used here as the canonical slugs for the same TCGA projects <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+</ul></li>
+<li><strong>Microbial read detection:</strong> Reads that did not align to the human reference were classified with Kraken (default 31-mers) and summarized at genus level. The reference database had 59,974 genomes: 5,503 viral, plus 54,471 bacterial/archaeal genomes with quality score ≥0.8. These came from 71,782 genomes downloaded via RepoPhlAn on 14 June 2016 <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li><strong>Orthogonal classifiers:</strong>
+<ul>
+<li><a href="../methods/bwa.html">BWA</a> re-alignment of Kraken-positive reads for four cancer types (<a href="../cancer_types/CESC.html">CESC</a>, <a href="../cancer_types/STAD.html">STAD</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/OV.html">OV</a>).</li>
+<li>SHOGUN, which aligns reads with Bowtie2 to the bacteria/archaea-only “Web of Life” database (10,575 genomes). It was run on 13,517 samples (WGS 3,434; RNA-seq 10,083) covering 32 cancer types, 7 sample types, 6 platforms and 8 sequencing centers <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+</ul></li>
+<li><strong>Normalization (Voom-SNM):</strong> Voom converted counts to log-cpm. Most datasets used weighted TMM normalization from <a href="../methods/edger.html">edgeR</a>; stringently filtered, SHOGUN and plasma datasets used quantile normalization. Supervised normalization then treated sample type (n=7) as the biological variable and removed five technical covariates: sequencing center (8), platform (6), experimental strategy (2), tissue source site (191) and FFPE status (2). Disease type could not be the target variable because some cancer types were sequenced at only one center <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li><strong>ML setup:</strong> Stochastic gradient boosting (R gbm + caret) <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>70%/30% stratified train/test split, with 4-fold cross-validated grid search over interaction depth (1–3) and number of trees (50/100/150).</li>
+<li>Shrinkage fixed at 0.1 and at least 5 observations per node.</li>
+<li>Minority class up-sampled; a comparison was run only if the minority class had ≥20 samples.</li>
+</ul></li>
+<li><strong>Contamination handling:</strong> decontam frequency-mode filtering against DNA/RNA analyte concentrations (n=17,625 samples), run in batches by sequencing center or by sequencing plate and center. This was combined with a 94-genus reagent “blacklist”, five spiked pseudo-contaminants, and SourceTracker2 trained on 217 HMP2 shotgun samples from 8 body sites <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li><strong>Plasma validation cohort:</strong> 169 biobanked frozen plasma samples from UC San Diego <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>Participants: 69 non-cancer HIV-negative healthy controls and 100 high-grade (stage III–IV) cancer patients. The patients had prostate cancer (PC, n=59; <a href="../cancer_types/PRAD.html">PRAD</a>), lung cancer (LC, n=25; “mixed origin”) or melanoma (n=16; <a href="../cancer_types/SKCM.html">SKCM</a>).</li>
+<li>Wet lab: cfDNA was extracted from 250 μL plasma (QIAamp Circulating Nucleic Acid Kit), made into KAPA HyperPlus libraries, and sequenced by shotgun metagenomic sequencing in one NovaSeq 6000 2×150 bp run.</li>
+<li>Read yield: 21,600,141,264 reads in total. Of the 19,046,611,360 reads from human samples, 2.186% were non-human.</li>
+<li>Controls: DNA-extraction blanks, library-preparation blanks, empty wells, and <em>Aliivibrio fischeri</em> spike-in and dilution positive controls.</li>
+</ul></li>
+<li><strong>Sample-size simulations:</strong> Used TCGA blood WGS for <a href="../cancer_types/PRAD.html">PRAD</a>, LUAD/LUSC and <a href="../cancer_types/SKCM.html">SKCM</a> sequenced on Illumina HiSeq (Broad n=99; HMS n=288). At Broad, LUAD and <a href="../cancer_types/LUSC.html">LUSC</a> were pooled into an <a href="../cancer_types/NSCLC.html">NSCLC</a> group to mirror the lung cancer validation cohort <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li><strong>Data and code availability:</strong>
+<ul>
+<li>Genus-level counts: <code>ftp://ftp.microbio.me/pub/cancer_microbiome_analysis/</code>.</li>
+<li>Plasma raw data: ENA ERP119598 (HIV-negative controls), ERP119596 (PC) and ERP119597 (LC and SKCM); also Qiita studies 12667, 12691 and 12692.</li>
+<li>Code: <code>https://github.com/biocore/tcga</code> <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong>Read yield and validity</strong></p>
+<ul>
+<li>About 6.4×10¹² TCGA sequencing reads were screened. Of these, 7.2% were non-human. Of the non-human reads, 35.2% were assigned to bacteria, archaea or viruses and 12.6% were resolved to genus level (2.5% and 0.9% of total reads) <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>WGS yielded significantly more microbial reads than RNA-seq (two-sided Mann–Whitney) <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>primary tumors: p=2.08×10⁻⁹</li>
+<li>solid-tissue normals: p=1.26×10⁻⁷</li>
+<li>metastases: p=0.0396</li>
+<li>recurrent tumors: p=0.0336</li>
+</ul></li>
+<li>In the BWA check, 98.91% of Kraken genus-level reads also aligned to the microbial database, an estimated false-positive rate of 1.09% <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>Batch effects known from TCGA host data (sequencing center, platform, experimental strategy) also appeared in the microbial data. Principal variance components analysis showed that Voom-SNM reduced these effects and increased the variance explained by disease type <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+</ul>
+<p><strong>Discrimination within and between TCGA cancer types (tissue)</strong></p>
+<ul>
+<li>Performance was reported as strong for one-cancer-type-versus-all-others (33 types) and tumor-versus-normal (15 types). Per-model AUROC/AUPR values are given only in figures and the online browser, not in the text. Minority-class size was significantly associated with AUROC (p=0.0231) and AUPR (p=0.0089) <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>Stage I versus stage IV could be tested in 8 cancer types. It was discriminated only for <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/STAD.html">STAD</a> and <a href="../cancer_types/KIRC.html">KIRC</a>, not for the other five, and not for intermediate stages <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>The signatures held up in several robustness checks <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>Split-half cross-testing (8,814 vs 8,811 samples) gave similar performance.</li>
+<li>Signatures persisted in primary-tumor DNA only (n=2,142) and RNA only (n=11,741).</li>
+<li>They persisted in single-center subsets: HMS, which did WGS only (n=898), and UNC, which did RNA-seq only (n=9,726).</li>
+<li>BWA-filtered and SHOGUN-derived data showed no major loss of performance.</li>
+</ul></li>
+</ul>
+<p><strong>Ecological and clinical validation of microbial calls</strong></p>
+<ul>
+<li>SourceTracker2 attributed a mean 20.17% (SE 2.55%) of the community in <a href="../cancer_types/COAD.html">COAD</a> solid-tissue normals (n=70) to stool. Stool was not the main known source for <a href="../cancer_types/SKCM.html">SKCM</a> primary tumors (n=122; one-tailed Mann–Whitney p=0.0014) <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li><em>Fusobacterium</em> in GI cancers <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>It was overabundant in primary tumors compared with solid-tissue normals (all p≤8.5×10⁻³) and blood-derived normals (all p≤3.3×10⁻¹¹).</li>
+<li>Pan-cancer, GI cancers (n=8) had more <em>Fusobacterium</em> than non-GI cancers (n=24) in primary tumors (p&lt;2.2×10⁻¹⁶) and in adjacent normals (p=0.031).</li>
+<li><em>Helicobacter pylori</em> did not differ between STAD tumors and adjacent normals (p=0.72).</li>
+</ul></li>
+<li>Viral calls matched clinical annotations. Blood-derived and, where tested, solid-tissue normals served as negative controls and did not differ <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li><em>Alphapapillomavirus</em> separated HPV-positive from HPV-negative <a href="../cancer_types/CESC.html">CESC</a> and <a href="../cancer_types/HNSC.html">HNSC</a> tumors (all p≤3×10⁻⁹). CESC blood normals did not differ (p=0.99).</li>
+<li><em>Orthohepadnavirus</em> (HBV) was enriched in <a href="../cancer_types/LIHC.html">LIHC</a> patients with prior hepatitis B, compared with those with alcohol or hepatitis C history. This held in tumors (p≤2.8×10⁻⁷) and solid-tissue normals (p≤0.011), but not in blood (p≥0.44).</li>
+<li><em>Lymphocryptovirus</em> (EBV) was enriched in the EBV molecular subtype of <a href="../cancer_types/STAD.html">STAD</a> compared with the CIN, GS and MSI subtypes (p≤2.2×10⁻¹⁶). Blood and tissue normals did not differ (blood p≥0.52; tissue p≥0.096).</li>
+</ul></li>
+<li>Top model features were consistent with known biology <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li><em>Alphapapillomavirus</em> was the most important feature for CESC.</li>
+<li><em>Faecalibacterium</em> was the most important feature for <a href="../cancer_types/COAD.html">COAD</a>.</li>
+<li><em>Orthohepadnavirus</em> ranked second for <a href="../cancer_types/LIHC.html">LIHC</a>, after the hepatotoxic <em>Microcystis</em>.</li>
+</ul></li>
+</ul>
+<p><strong>Decontamination</strong></p>
+<ul>
+<li>The authors built four decontaminated datasets <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>decontam at P*=0.1, run by sequencing center, flagged 283 putative contaminant genera, including 18 (19.1%) of the 94-genus reagent blacklist.</li>
+<li>Combining the two lists gave 377 genera. After literature review, 89 of these were re-allowed as possible pathogens or commensals, producing the “likely contaminants removed” and “all putative contaminants removed” datasets.</li>
+<li>decontam at P*=0.5 flagged 1,818 genera and produced a “most stringent filtering” dataset that discarded about 92% of reads (92.3% per the abstract).</li>
+<li>Plate-center decontam over 351 batches removed 421 taxa, or 497 genera when combined with the blacklist.</li>
+</ul></li>
+<li>The only cross-contaminants removed explicitly were 4 <em>Ebolavirus</em> reads (one <a href="../cancer_types/LGG.html">LGG</a> and one <a href="../cancer_types/HNSC.html">HNSC</a> sample) and 4 <em>Marburgvirus</em> reads (two OV samples). The authors attributed these to concurrent 2014 West Africa outbreak sequencing at the same centers <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>Stringent decontamination generally lowered performance for between-tissue comparisons (e.g., COAD versus all). Within-tissue comparisons (tumor versus normal) were often equivalent or better. The tissue models for <a href="../cancer_types/DLBCLNOS.html">DLBC</a> and <a href="../cancer_types/MESO.html">MESO</a> relied on spiked pseudo-contaminants and “may be unreliable” <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+</ul>
+<p><strong>Blood microbial DNA (TCGA)</strong></p>
+<ul>
+<li>Blood WGS mbDNA discriminated numerous cancer types in the full dataset and in all four decontaminated datasets. This held with SHOGUN assignments and with BWA-filtered Kraken data. Blood models for <a href="../cancer_types/CESC.html">CESC</a>, <a href="../cancer_types/KIRP.html">KIRP</a> and <a href="../cancer_types/LIHC.html">LIHC</a> used spiked pseudo-contaminants and “may be less trustworthy” <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>The paper reports high cancer-type discrimination when restricted to stage Ia–IIc patients <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>About 70% of TCGA patients had ≥1 alteration (driver or passenger) in Guardant360 or FoundationOne Liquid genes. After excluding them, discrimination remained high for most remaining cancer types <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+</ul>
+<p><strong>Plasma cfDNA validation (UCSD)</strong></p>
+<ul>
+<li>Healthy controls versus grouped cancer patients: 500 bootstrapped iterations of 70%/30% splits showed “strong, generalizable discrimination”. The point estimates are shown in Fig. 4b, not in the text <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>Leave-one-out pairwise and multiclass models performed well, except for the smallest cohort, SKCM (n=16) <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>PC and LC subsampled to n=16 were still separable from subsampled healthy controls: mean AUROC 0.891 (95% CI 0.879–0.903), mean AUPR 0.827 (95% CI 0.815–0.839), 100 iterations. The authors read this as a deficit specific to SKCM. They note that SKCM was also the second-worst performer in TCGA blood models for four of the five datasets <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>Repeating the analysis with SHOGUN gave highly concordant results. Age and sex permutation tests were all significant (p≤1.5×10⁻¹³), so age and sex were added as technical covariates in Voom-SNM <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>decontam on the plasma data (P*=0.5) removed <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>Kraken: 21 taxa in prevalence mode and 1,261 in frequency mode, out of 1,753.</li>
+<li>SHOGUN: 57 taxa in prevalence mode and 244 in frequency mode, out of 1,181.</li>
+</ul></li>
+<li>TCGA simulations suggested that at least 15 samples per cancer class would be enough for multi-class discrimination <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li>The paper does not analyze any individual human gene or somatic alteration. All model features are microbial genera <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>Host alterations appear only as an exclusion filter. Patients with ≥1 alteration in the coding-gene panels of <a href="../methods/guardant360.html">Guardant360</a> or FoundationOne Liquid were removed, whether the alteration was a driver or a passenger. This was about 70% of TCGA patients. Alteration calls came from cBioPortal and the gene lists are in Extended Data Fig. 8e. The extracted text does not name the individual genes <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>Ground-truth labels came from clinical and molecular annotations <a href="../papers/32214244.html">PMID:32214244</a>:
+<ul>
+<li>HPV status in CESC and HNSC.</li>
+<li>Hepatitis B, hepatitis C and alcohol history in LIHC.</li>
+<li>TCGA STAD integrative subtypes (EBV, CIN, GS, MSI).</li>
+</ul></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The authors propose “a new class of microbial-based oncology diagnostics” using blood or plasma microbial nucleic acids. They position these as complementary to ctDNA assays, specifically where ctDNA assays tend to fail: early-stage (Ia–IIc) cancers and tumors without detectable genomic alterations <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>They argue plasma cfDNA suits retrospective and clinical testing because of its archival stability (freezability), availability in biorepositories, and non-living material <a href="../papers/32214244.html">PMID:32214244</a>.</li>
+<li>The paper makes no therapeutic or prognostic claims.</li>
+<li>Because the article is now retracted (per PubMed), none of these proposed diagnostics should be treated as validated.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<p><strong>Caveats raised by the authors</strong> <a href="../papers/32214244.html">PMID:32214244</a>:</p>
+<ul>
+<li>Contamination:
+<ul>
+<li>TCGA collected samples without microbiology controls such as negative blanks.</li>
+<li>The in silico decontamination methods “are not substitutes for implementing gold-standard microbiology practices on cancer samples” and are not designed to detect abundant contaminant spikes or cross-contaminants.</li>
+<li>Stringent filtering can discard real commensal signal, and a single universal decontamination approach may hide real biology.</li>
+</ul></li>
+<li>Blood samples:
+<ul>
+<li>TCGA blood was whole blood or buffy coat, not plasma.</li>
+<li>It cannot be determined whether blood mbDNA comes from live or dead microbes (no blood RNA), whether it is cell-free or inside leukocytes, or where it originates (e.g., gut translocation).</li>
+</ul></li>
+<li>Resolution: filtering was limited by no access to primary specimens, genus-level taxonomy, and not knowing which non-TCGA samples were processed alongside TCGA samples.</li>
+<li>Model reliability:
+<ul>
+<li>Part of the performance difference between cancer types reflects class size.</li>
+<li>Spatial heterogeneity of tumor microbes was not examined.</li>
+<li>Stage signal appeared in only 3 of 8 testable cancer types.</li>
+<li>Some models are flagged as unreliable because they relied on pseudo-contaminants: DLBC and <a href="../cancer_types/MESO.html">MESO</a> tissue models; CESC, <a href="../cancer_types/KIRP.html">KIRP</a> and LIHC blood models.</li>
+</ul></li>
+<li>Confounding: some cancer types were sequenced at only one center, so disease type is completely confounded with center for those types and could not be modeled in SNM.</li>
+<li>Validation cohort:
+<ul>
+<li>Small and from a single institution (UCSD).</li>
+<li>Stage III–IV only, so plasma performance in early-stage disease was not tested.</li>
+<li>Only three cancer types, with SKCM underpowered.</li>
+<li>Healthy controls were HIV-negative individuals only.</li>
+<li>TCGA has no healthy controls, so the control-group size could not be powered by simulation.</li>
+</ul></li>
+</ul>
+<p><strong>Other issues for cross-paper synthesis</strong></p>
+<ul>
+<li><strong>Retraction:</strong> PubMed flags this article as retracted (Nature 2024;631:694). Any wiki page that uses its microbial signatures, blood-mbDNA classifiers or pan-cancer microbial prevalence should carry that flag. On this page, the cBioPortal TCGA PanCancer Atlas datasets are linked only as the source cohorts for raw reads and alteration status.</li>
+<li><strong>Internal inconsistency:</strong> The Methods list the BWA-checked cancer types once as “COAD, CESC, OV, LUAD”. Elsewhere (the next sentence, the Results and Extended Data Fig. 4) they are CESC, STAD, LUAD, OV.</li>
+<li><strong>Cancer-type labels:</strong> The page uses TCGA abbreviations. Several of these (e.g., <a href="../cancer_types/KIRC.html">KIRC</a>, LIHC, <a href="../cancer_types/LAML.html">LAML</a>, <a href="../cancer_types/GBM.html">GBM</a>) are legacy or corpus pages, not current OncoTree codes.</li>
+<li><strong>Related corpus papers on tumor-associated microbes:</strong> <a href="../papers/37202560.html">PMID:37202560</a>, a colon cancer tumor/immune/microbiome atlas that used 16S rRNA sequencing, and <a href="../papers/41096729.html">PMID:41096729</a>, a meta-analysis of oral microbiome studies in esophageal cancer.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we re-examined treatment-naïve whole genome and whole transcriptome sequencing studies (n=18,116 samples) from 33 cancer types in The Cancer Genome Atlas (TCGA) for microbial reads, and found unique microbial signatures in tissue and blood within and between most major cancer types.” (Abstract) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“These TCGA blood signatures remain predictive when applied to stage Ia-IIc cancer patients and cancers lacking any genomic alterations currently measured on two commercial-grade ctDNA platforms, despite very stringent decontamination analyses that discard up to 92.3% of total sequence data.” (Abstract) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“We found that 98.91% of reads classified to genus level or lower by Kraken (on which our main findings are based) also aligned with BWA to the microbial database (bacteria, archaea, viruses; see Table S3), or a false positive rate of 1.09%” (Methods, Kraken TCGA microbial-detection pipeline) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“Stool was the primary known body-site contributor only to COAD profiles (average mean fractional contribution=20.17%; SE=2.55%; Fig. 2a), but not SKCM profiles (one-tailed Mann-Whitney: p-value=0.0014; Extended Data Fig. 5b)” (Results, Biological relevance of microbe profiles) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“We stress that these in silico decontamination methods are not substitutes for implementing gold-standard microbiology practices on cancer samples” (Results, Measuring and mitigating contamination) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“Most models did not rely on spiked pseudo-contaminants (Extended Data Fig. 8a), though DLBC and MESO models (with very few available samples; Table S4) appear to be exceptions and may be unreliable.” (Results) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“It is impossible to assess if mbDNA was coming from live or dead microbes, as RNA data was unavailable, nor whether mbDNA is cell-free or in host leukocytes, as TCGA SOPs allowed whole blood or buffy coat extraction (Methods).” (Results, Predictions using microbial DNA in blood) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“PC and LC cohorts were still separable at SKCM cohort size (Mean_AUROC=0.891, 95%CI:[0.879,0.903]; Mean_AUPR=0.827, 95%CI:[0.815,0.839]; 100-iterations), revealing universal deficits in SKCM performance.” (Results, Validating microbial signatures in blood) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“Genomic alteration statuses for all TCGA patients were queried and downloaded via the cBioPortal.” (Methods, TCGA data accession) <a href="../papers/32214244.html">PMID:32214244</a></li>
+<li>“The empirical performance estimates (mean AUROC, mean AUPR) suggest that having at least 15 samples per cancer class should be sufficient.” (Methods, TCGA simulations) <a href="../papers/32214244.html">PMID:32214244</a></li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/32214244.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/32214244.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

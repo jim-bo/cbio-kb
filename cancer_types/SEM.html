@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="cohorts-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
-<li><a href="../datasets/gct_msk_2016.html">gct_msk_2016</a> — 54 seminoma patients (30% of the 180-patient MSK <a href="../cancer_types/GCT.html">GCT</a> cohort); profiled by whole-exome sequencing and MSK-IMPACT targeted sequencing <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li><a href="../datasets/gct_msk_2016.html">gct_msk_2016</a> — 54 seminoma patients (30% of the 180-patient MSK <a href="../cancer_types/germ-cell-tumor.html">germ cell tumor</a> cohort); profiled by whole-exome sequencing and MSK-IMPACT targeted sequencing <a href="../papers/27646943.html">PMID:27646943</a>.</li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
@@ -182,9 +185,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong><a href="../genes/KIT.html">KIT</a></strong> — mutations in 29.6% of seminomas versus 4% in nonseminoma (P&lt;.001); predominantly exon 17 hotspots associated with imatinib-resistance patterns distinct from <a href="../cancer_types/GIST.html">GIST</a> <a href="../papers/27646943.html">PMID:27646943</a>.</li>
 <li><strong><a href="../genes/KRAS.html">KRAS</a></strong> — enriched in seminomas overall (20% vs 8.7% in nonseminoma, P=.045); G12 hotspot dominant <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../genes/TP53.html">TP53</a></strong> — exclusively absent in seminoma in this cohort; none of the 4 primary mediastinal seminomas harbored TP53 mutations <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong>12p gain</strong> — present in 74% of discovery GCT tumors overall; characteristic of both seminoma and nonseminoma <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — exclusively absent in seminoma in this cohort; none of the 4 primary mediastinal seminomas harbored <a href="../genes/TP53.html">TP53</a> mutations <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li><strong>12p gain</strong> — present in 74% of discovery germ cell tumors overall; characteristic of both seminoma and nonseminoma <a href="../papers/27646943.html">PMID:27646943</a>.</li>
 <li><strong>Very low somatic mutation rate</strong> — mean 0.9 mutations/Mb in the combined cohort <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li>In the pan-cancer <a href="../genes/LIG1.html">LIG1</a> analysis, testicular germ cell tumors had only a marginal PFS association with LIG1 loss, and the carboplatin-sensitive seminoma subtype had no cases of LIG1 loss at all. <a href="../papers/36001024.html">PMID:36001024</a></li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -196,16 +200,17 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li><strong>Cisplatin-based chemotherapy</strong> — seminoma is generally more sensitive to cisplatin than nonseminoma; the absence of TP53/MDM2 alterations in seminoma is consistent with its relatively favorable prognosis <a href="../papers/27646943.html">PMID:27646943</a>.</li>
-<li><strong><a href="../drugs/imatinib.html">Imatinib</a>/<a href="../drugs/sunitinib.html">sunitinib</a></strong> — potential candidates for KIT-mutant seminoma, though KIT mutations in testicular GCT have an imatinib-resistance hotspot pattern distinct from GIST exon 11/9 mutations <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li><strong>Cisplatin-based chemotherapy</strong> — seminoma is generally more sensitive to <a href="../drugs/cisplatin.html">cisplatin</a> than nonseminoma; the absence of TP53/MDM2 alterations in seminoma is consistent with its relatively favorable prognosis <a href="../papers/27646943.html">PMID:27646943</a>.</li>
+<li><strong><a href="../drugs/imatinib.html">Imatinib</a>/<a href="../drugs/sunitinib.html">sunitinib</a></strong> — potential candidates for KIT-mutant seminoma, though <a href="../genes/KIT.html">KIT</a> mutations in testicular GCT have an imatinib-resistance hotspot pattern distinct from <a href="../cancer_types/GIST.html">GIST</a> exon 11/9 mutations <a href="../papers/27646943.html">PMID:27646943</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/27646943.html">PMID:27646943</a> — Bagrodia et al.&nbsp;2016 (JCO). 54 seminomas in MSK GCT cohort; KIT mutations 29.6%, KRAS enriched; no TP53 alterations in seminoma consistent with cisplatin sensitivity.</li>
+<li><a href="../papers/27646943.html">PMID:27646943</a> — Bagrodia et al.&nbsp;2016 (JCO). 54 seminomas in MSK GCT cohort; KIT mutations 29.6%, <a href="../genes/KRAS.html">KRAS</a> enriched; no TP53 alterations in seminoma consistent with cisplatin sensitivity.</li>
+<li><a href="../papers/36001024.html">PMID:36001024</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

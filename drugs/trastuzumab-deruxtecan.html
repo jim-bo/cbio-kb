@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,10 +178,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>In 177 cervical cancers profiled by MSK-IMPACT, <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan is under investigation (NCT04482309) for HER2-mutant/amplified cervical cancer; <a href="../genes/ERBB2.html">ERBB2</a> is altered in 28% of unusual endocervical adenocarcinoma (UEA) and 12% overall, establishing <a href="../genes/ERBB2.html">ERBB2</a> as a likely important target <a href="../papers/37643132.html">PMID:37643132</a>.</li>
 <li>In endometrial carcinoma, <a href="../genes/ERBB2.html">ERBB2</a> amplification enriched in Black patients (12% vs 3% in White patients) represents a therapeutic opportunity with <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan; activity was noted even in low-HER2-expressing carcinosarcomas <a href="../papers/37651310.html">PMID:37651310</a>.</li>
-<li>In metastatic urothelial carcinoma (mUC), <a href="../genes/ERBB2.html">ERBB2</a> alterations (detected in 14% of cfDNA samples from the CALGB 90601 cohort) were independently associated with shorter <a href="../cancer_types/OS.html">OS</a> (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019). The authors highlight <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan as a candidate HER2-directed antibody-drug conjugate for ERBB2-altered mUC, citing response rates of 33–83% in this setting. <a href="../papers/40256659.html">PMID:40256659</a></li>
-<li>HER2-positive CCA: basket phase II across 7 cohorts ORR 37.1% overall, 22.0% in 41 CCA patients; mPFS 4.6 mo, mOS 7.0 mo in CCA; risk of interstitial pneumonitis noted <a href="../papers/25526346.html">PMID:25526346</a></li>
+<li>In metastatic urothelial carcinoma (mUC), <a href="../genes/ERBB2.html">ERBB2</a> alterations (detected in 14% of cfDNA samples from the CALGB 90601 cohort) were independently associated with shorter OS (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019). The authors highlight <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan as a candidate HER2-directed antibody-drug conjugate for ERBB2-altered mUC, citing response rates of 33–83% in this setting. <a href="../papers/40256659.html">PMID:40256659</a></li>
+<li>HER2-positive CCA: basket phase II across 7 cohorts ORR 37.1% overall, 22.0% in 41 CCA patients; mPFS 4.6 mo, mOS 7.0 mo in CCA; risk of interstitial pneumonitis noted <a href="../papers/41008893.html">PMID:41008893</a></li>
 <li>In a HER2 S310F <a href="../cancer_types/UTUC.html">UTUC</a> PDX model (UCC14), <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan (DS-8201a) strongly inhibited tumor growth (p&lt;0.0001) and significantly outperformed <a href="../drugs/neratinib.html">neratinib</a> (p&lt;0.0001); authors conclude that ADCs should be prioritized over HER kinase inhibitors in HER2-mutant urothelial cancer <a href="../papers/32332851.html">PMID:32332851</a></li>
-<li>Anti-HER2 ADC (T-DXd); <a href="../genes/ERBB2.html">ERBB2</a> GoF mutations in 3% of <a href="../cancer_types/NSCLC.html">NSCLC</a> in Chinese pan-cancer cohort (n=10,194) are actionable with trastuzumab deruxtecan per OncoKB <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Anti-HER2 ADC (T-DXd); <a href="../genes/ERBB2.html">ERBB2</a> GoF mutations in 3% of <a href="../cancer_types/NSCLC.html">NSCLC</a> in Chinese pan-cancer cohort (n=10,194) are actionable with <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan per OncoKB <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Trastuzumab deruxtecan (T-DXd) is proposed as promising for ERBB2-mutated endometrial cancer because it is active in HER2-low/negative tumors across extracellular- and kinase-domain mutations; a 55% objective response rate is cited for T-DXd in ERBB2-mutant <a href="../cancer_types/NSCLC.html">NSCLC</a>. <a href="../papers/39031567.html">PMID:39031567</a></li>
+<li>In BT-474 breast cancer cells, endogenous APOBEC3 activity conferred a selective growth advantage under trastuzumab deruxtecan exposure, similar to the advantage seen under <a href="../drugs/lapatinib.html">lapatinib</a>, <a href="../drugs/neratinib.html">neratinib</a> and the AKT inhibitor MK2206. <a href="../papers/40379787.html">PMID:40379787</a></li>
+<li>In a metastatic gallbladder cancer case with retained <a href="../genes/ERBB2.html">ERBB2</a> amplification (10-fold) and HER2 IHC 3+ after progression on <a href="../drugs/zanidatamab.html">zanidatamab</a>, trastuzumab deruxtecan gave sustained tumor shrinkage ongoing at 16+ months. <a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -201,11 +207,14 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/37643132.html">PMID:37643132</a></li>
 <li><a href="../papers/37651310.html">PMID:37651310</a></li>
 <li><a href="../papers/40256659.html">PMID:40256659</a> — Guercio et al.&nbsp;2025, CALGB 90601 cfDNA; <a href="../genes/ERBB2.html">ERBB2</a> prognostic burden in mUC, <a href="../drugs/trastuzumab.html">trastuzumab</a> deruxtecan highlighted as ADC candidate.</li>
+<li><a href="../papers/41008893.html">PMID:41008893</a></li>
+<li><a href="../papers/32332851.html">PMID:32332851</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
+<li><a href="../papers/40379787.html">PMID:40379787</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25526346.html">PMID:25526346</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32332851.html">PMID:32332851</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

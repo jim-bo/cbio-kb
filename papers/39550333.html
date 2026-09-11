@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Molecular Heterogeneity and Immune Infiltration Drive Clinical Outcomes in Upper Tract Urothelial Carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39550333.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39550333.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Molecular Heterogeneity and Immune Infiltration Drive Clinical Outcomes in Upper Tract Urothelial Carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kwanghee Kim </p>
+             <p>Syed M Alam </p>
+             <p>Fengshen Kuo </p>
+             <p>Ziyu Chen </p>
+             <p>Wesley Yip </p>
+             <p>Andrew B Katims </p>
+             <p>Carissa Chu </p>
+             <p>Andrew T Lenis </p>
+             <p>Wenhuo Hu </p>
+             <p>Gamze Gokturk Ozcan </p>
+             <p>Jie-Fu Chen </p>
+             <p>Sanaz Firouzi </p>
+             <p>Yuval Elhanati </p>
+             <p>Timothy N Clinton </p>
+             <p>Andreas Aulitzky </p>
+             <p>Nima Almassi </p>
+             <p>Yoich Fujii </p>
+             <p>Andrew T Tracey </p>
+             <p>Peter A Reisz </p>
+             <p>Sadna Budhu </p>
+             <p>Lynda Vuong </p>
+             <p>Jordan Eichholz </p>
+             <p>Hyung Jun Woo </p>
+             <p>Lucas Nogueira </p>
+             <p>Sizhi P Gao </p>
+             <p>Avigdor Scherz </p>
+             <p>David H Aggen </p>
+             <p>Jonathan E Rosenberg </p>
+             <p>Eugene J Pietzak </p>
+             <p>Venkatraman Seshan </p>
+             <p>Benjamin Greenbaum </p>
+             <p>Anton Becker </p>
+             <p>Oguz Akin </p>
+             <p>Gopa Iyer </p>
+             <p>Hikmat Al-Ahmadie </p>
+             <p>A Ari Hakimi </p>
+             <p>Taha Merghoub </p>
+             <p>David B Solit </p>
+             <p>Jonathan A Coleman </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.eururo.2024.10.024">10.1016/j.eururo.2024.10.024</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 39550333 · <strong>DOI:</strong> 10.1016/j.eururo.2024.10.024 · <strong>Journal:</strong> European Urology (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Kim, Alam and colleagues at MSKCC ran whole-transcriptome RNA-seq on 100 fresh-frozen nephroureterectomy tumors from patients with nonmetastatic <a href="../cancer_types/UTUC.html">upper tract urothelial carcinoma (UTUC)</a> (the “MSK100” cohort). They paired it with <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted DNA sequencing in 99 of the tumors. The MIBC consensus classifier called 89% of tumors luminal-papillary, which suggested little heterogeneity. Unsupervised consensus <a href="../methods/nmf-clustering.html">NMF</a> instead split <a href="../cancer_types/UTUC.html">UTUC</a> into five transcriptional clusters with different outcomes. C1 and C2 were luminal-like, immune-cold and low-risk. C3 was <a href="../genes/FGFR3.html">FGFR3</a>-altered, had the highest TMB and contained every MSI-high tumor. C4 and C5 were immune-inflamed and basal/squamous or mesenchymal, and had the highest rates of metastatic recurrence and the worst cancer-specific survival. The authors applied a <a href="../methods/random-forest-classifier.html">random-forest</a> predictor to an independent Japanese cohort (Fujii158), where the cluster-level immune patterns held up. In 31 patients who received immune checkpoint blockade (ICB) for metastatic disease, C1/C2 tumors produced no objective responses. Complete responses were seen only in C3 and C5, and antigen-processing-machinery expression was associated with response. The authors conclude that the UTUC patients most likely to recur after surgery may also be the ones most likely to benefit from perioperative ICB (<a href="../papers/39550333.html">PMID:39550333</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Discovery cohort (MSK100):</strong> 100 <a href="../cancer_types/UTUC.html">UTUC</a> tumors from 100 patients who underwent nephroureterectomy and had no metastatic disease on presurgical imaging. A board-certified GU pathologist centrally reviewed histology, grade and stage. 99 tumors had enough tissue for <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> tumor–normal sequencing (hybridization capture, up to 505 genes). Median follow-up after nephroureterectomy was 60 months (IQR 32.3–86.3). Tissue was collected under NCT01775072 and MSKCC IRB #89-076 and #06-107 (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>ICB cohort:</strong> 31 patients with UTUC treated with ICB for metastatic disease: 18 from MSK100 who received ICB after recurrence, plus a 13-patient MSKCC expansion cohort with RNA-seq. By cluster: C1 n=6, C2 n=1, C3 n=7, C4 n=6, C5 n=11. First response imaging was at a median of 9.7 weeks (IQR 7.4–11.6) (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Validation cohort (Fujii158):</strong> 158 transcriptionally profiled UTUC tumors from Japanese patients (Fujii et al., Cancer Cell 2021; not in this corpus). This cohort reported disease-specific survival (DSS) rather than CSS (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Comparator:</strong> TCGA muscle-invasive bladder cancer (<a href="../cancer_types/BLCA.html">BLCA</a>; <a href="../datasets/blca_tcga_pub_2017.html">blca_tcga_pub_2017</a>; source study <a href="../papers/28988769.html">PMID:28988769</a>), used as the reference for MIBC consensus-classifier calls. The authors also checked MSK100 mutation frequencies against MSKCC’s larger institutional clinical MSK-IMPACT UTUC database and found them comparable (Supplementary Fig. 2) (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Dataset of record:</strong> <a href="../datasets/bladder_msk_2024.html">bladder_msk_2024</a> on cBioPortal.</li>
+<li><strong>Assays / methods:</strong>
+<ul>
+<li>DNA: <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>. Variants were annotated as oncogenic or likely oncogenic with <a href="../methods/oncokb.html">OncoKB</a>. TMB was reported as nonsynonymous mutations per Mb of covered sequence for whichever MSK-IMPACT panel version was used. MSI status came from <a href="../methods/msisensor.html">MSIsensor</a>.</li>
+<li>Expression: whole-transcriptome <a href="../methods/rna-seq.html">RNA-seq</a> of frozen tissue, with MIBC consensus subtyping.</li>
+<li>Clustering and pathway analysis: consensus <a href="../methods/nmf-clustering.html">NMF</a> on the top 10% most variable genes (n=2,260, ranked by median <a href="../methods/absolute.html">absolute</a> deviation); <a href="../methods/gsea.html">GSEA</a> and ssGSEA immune signatures; immune deconvolution; <a href="../methods/wgcna.html">WGCNA</a>.</li>
+<li>Validation: ComBat batch correction and a cross-validated <a href="../methods/random-forest-classifier.html">random-forest classifier</a> to project the clusters onto Fujii158.</li>
+<li>Statistics: <a href="../methods/kaplan-meier.html">Kaplan–Meier</a> with log-rank tests, <a href="../methods/cox-proportional-hazards.html">Cox proportional hazards</a>, Kruskal–Wallis, and Wilcoxon/Mann–Whitney tests (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>The MIBC consensus classifier called most UTUC luminal but did not predict recurrence.</strong> It assigned a luminal-papillary (LumP) profile to 89% of UTUC tumors, versus 32.6% of TCGA MIBC. Basal/squamous, stroma-rich and neuroendocrine-like subtypes made up only 8% of the cohort. They were more common in patients who later developed metastatic recurrence: 6/42 (14.3%) of recurrent versus 2/48 (4.17%) of nonrecurrent patients, which was not significant (p=0.066, two-sided Fisher’s exact test) (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Consensus NMF gave five clusters with different outcomes.</strong> Cluster sizes were C1=24, C2=11, C3=30, C4=17 and C5=18.
+<ul>
+<li>Metastatic recurrence was most likely in C5, followed by C4.</li>
+<li>C4 and C5 were enriched for pT3/pT4 disease (58.8% and 72.2%). 83.3% of C1 tumors were &lt;pT2.</li>
+<li>CSS was shortest in C5, followed by C4 (p=0.005). OS followed the same pattern, and C1 had the highest 10-year OS.</li>
+<li>C5 was strongly associated with DFS on univariate analysis (p&lt;0.001). In multivariable Cox regression, however, pT stage was the only factor associated with DFS (Supplementary Table 2) (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+<li><strong>Tumor-intrinsic phenotypes by cluster.</strong> C1 and C2 had luminal phenotypes, C3 and C4 had basal/squamous phenotypes, and C5 was mesenchymal (high myofibroblast, claudin-low, EMT and p53-like signatures). Luminal signatures were associated with better DFS (p=0.004). Squamous differentiation (p=0.006), EMT (p=0.001), claudin-low (p&lt;0.001) and myofibroblast (p=0.001) signatures were associated with worse DFS (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>WGCNA gene modules.</strong> WGCNA found eight gene modules. Cell-cycle/proliferation genes were high in C2, immune-infiltration modules in C4 and C5, and angiogenesis genes in C5. Cell-cycle, immune-infiltration and angiogenesis/TGF-β modules correlated with worse DFS. Modules for processing organic hydroxyl and hydrogen-peroxide compounds correlated with better DFS (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>High-risk clusters were immune-inflamed; low-risk clusters were immune-deserts.</strong>
+<ul>
+<li>C1 and C2 were immunologically cold, with low IFN-γ and ImmuneCheckpoint signatures.</li>
+<li>C3 was intermediate, with low NK-cell, neutrophil and mast-cell signatures.</li>
+<li>C4 had neutrophil infiltration and a significantly higher MHC class I antigen-presentation (APM1) signature.</li>
+<li>C4 and C5 were both enriched for hallmark Inflammatory response, Allograft rejection and IL-6–JAK–<a href="../genes/STAT3.html">STAT3</a> signaling.</li>
+<li>NK-cell and angiogenesis signatures were specific to C5. CD8+ T-cell infiltration was higher in C3 and C5 (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+<li><strong>The pattern replicated in Fujii158.</strong> The random-forest predictor was trained on MSK100 and applied to Fujii158. PFS patterns and T-stage distributions were similar between cohorts (48% vs 47.5% MIBC). C4/C5 again had more immune infiltration than C1/C2, and CD8+ T-cell signal was again high in C3 and C5. Fujii’s mutation-based subtypes (hypermutated, TP53/MDM2, RAS, <a href="../genes/FGFR3.html">FGFR3</a>, triple-negative) correlated only moderately to weakly with the expression clusters (phi 0.2–0.52) (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>ICB response differed by cluster.</strong>
+<ul>
+<li>C1/C2 had no objective responses, and all but one C1/C2 patient had progressive disease as best response.</li>
+<li>Complete responses occurred only in C3 and C5. C3 had the highest TMB and the best objective response rate.</li>
+<li>Antigen-processing-machinery (APM) gene expression was significantly associated with objective response (p=0.04; CR/PR n=10 vs PD n=18).</li>
+<li>The APM1 signature was enriched in C4, where two patients had partial responses. APM2 was enriched in both C4 and C5.</li>
+<li>PD-L1 (<a href="../genes/CD274.html">CD274</a>) expression was higher in responders, but not significantly (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+<li><strong>Cytolytic activity (CYT) score.</strong> CYT is based on <a href="../genes/GZMA.html">GZMA</a> and <a href="../genes/PRF1.html">PRF1</a> mRNA; the ICB swimmer plot used the median of 2.265 as the CYT-high cutoff. CYT was highest in C4 (median 4.47, IQR 1.97–6.86) and C5 (median 5.24, IQR 2.01–11.49) and lowest in C1/C2. The authors say CYT warrants evaluation as a predictive biomarker of ICB response in UTUC (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Two exceptional ICB responders.</strong>
+<ul>
+<li>PT12: C5, TMB-high (10.8), microsatellite stable. Treated with <a href="../drugs/gemcitabine.html">gemcitabine</a>/<a href="../drugs/carboplatin.html">carboplatin</a>, then BGJ398 (<a href="../drugs/infigratinib.html">infigratinib</a>, stopped for renal toxicity), then <a href="../drugs/nivolumab.html">nivolumab</a>. Later received intravesical <a href="../drugs/bcg.html">BCG</a> for a high-grade T1 bladder lesion.</li>
+<li>PT23: C3, TMB-high (27.5), MSI-H, Lynch syndrome. Treated with <a href="../drugs/gemcitabine.html">gemcitabine</a>/<a href="../drugs/cisplatin.html">cisplatin</a> and radiotherapy for brain metastasis, then <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, which was resumed after a new right-ureter urothelial tumor (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong>Most frequently altered genes (MSK100, n=99 sequenced):</strong> <a href="../genes/FGFR3.html">FGFR3</a> 48.5%, <a href="../genes/TERT.html">TERT</a> 37.4%, <a href="../genes/KMT2D.html">KMT2D</a> 30.3%, <a href="../genes/KDM6A.html">KDM6A</a> 23.2% and <a href="../genes/TP53.html">TP53</a> 23.2%. Mean TMB was 16.9 mut/Mb (<a href="../papers/39550333.html">PMID:39550333</a>). This landscape matches earlier MSK UTUC genomic work (<a href="../papers/26278805.html">PMID:26278805</a>).</li>
+<li><strong><a href="../genes/FGFR3.html">FGFR3</a>:</strong>
+<ul>
+<li>Oncogenic alterations were found in 28/30 C3 tumors (93%); 7 of these 28 were the R248C hotspot, which has been reported as enriched in Lynch-syndrome-associated UTUC.</li>
+<li>FGFR3 alteration was associated with better CSS (p&lt;0.05) but not OS (p=0.29).</li>
+<li>FGFR3-mutant MSK100 tumors tended to have an immune-cold expression signature, consistent with <a href="../papers/31278255.html">PMID:31278255</a>.</li>
+<li>In the larger MSKCC urothelial cancer ICB cohort, FGFR3 mutation did not predict ICB response (Supplementary Fig. 8). The authors propose that co-occurring features such as MSI, rather than FGFR3 status, explain ICB sensitivity in FGFR3-mutant responders (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/TP53.html">TP53</a>:</strong> Mutations were enriched in C2 (54.5%) and C5 (44.4% in the text; 47% in the Fig. 2C legend) and rare in C1 (8.3%). <a href="../genes/TP53.html">TP53</a> alteration was associated with worse CSS (p&lt;0.01) and OS (p&lt;0.01). However, C2 had the highest TP53 mutation rate yet relatively favorable CSS, which the authors use to argue that DNA and RNA profiling are complementary (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Mismatch repair / MSI:</strong> All 5 MSI-H tumors fell in C3. Four came from patients with Lynch syndrome; the fifth carried a somatic <a href="../genes/MSH2.html">MSH2</a> mutation (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Immune effector and checkpoint genes:</strong>
+<ul>
+<li>The CYT score combines <a href="../genes/GZMA.html">GZMA</a> and <a href="../genes/PRF1.html">PRF1</a> expression.</li>
+<li>The ImmuneCheckpoint ssGSEA signature covers CTLA-4, LAG-3, PD-1, PD-L1, PD-L2, TIM3 and <a href="../genes/TIGIT.html">TIGIT</a>. It was low in C1/C2.</li>
+<li>PD-L1 (<a href="../genes/CD274.html">CD274</a>) expression was not significantly higher in ICB responders (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognosis:</strong> RNA-seq subtyping separates nephroureterectomy patients by risk of metastatic recurrence and CSS. C4 and C5 are high-risk and C1 is lowest-risk. The MIBC consensus classifier, which labels most UTUC luminal-papillary, does not. In multivariable analysis, however, pT stage remained the only independent predictor of DFS (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Perioperative ICB:</strong> The highest-risk clusters (C4/C5) also have the inflamed TME and high CYT/APM expression associated with ICB response. The authors argue this supports adjuvant or neoadjuvant immunotherapy trials that <a href="../methods/select.html">select</a> UTUC patients by transcriptomic profiling (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Patients unlikely to benefit from ICB:</strong> In this small series, luminal, immune-cold C1/C2 tumors did not respond objectively to ICB (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>FGFR3 mutation is not an ICB-exclusion biomarker:</strong> FGFR3-mutant tumors were more often immune-cold, but FGFR3 status did not predict ICB response in the broader MSKCC urothelial ICB cohort. MSI-H/Lynch tumors, which fall in the FGFR3-rich C3 cluster, can respond durably, as with <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in PT23 (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Analogy to <a href="../drugs/atezolizumab.html">atezolizumab</a> response in bladder cancer:</strong> C4 and C5 share features with the TCGA “luminal infiltrated” subtype (<a href="../papers/28988769.html">PMID:28988769</a>), which has previously been associated with response to the anti–PD-L1 antibody <a href="../drugs/atezolizumab.html">atezolizumab</a> (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Future directions:</strong> The authors call for UTUC biomarker work on antibody–drug conjugates targeting Nectin-4, Trop2 and HER2 (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Authors’ stated limitations:</strong>
+<ul>
+<li>The MSK100 cohort is clinically heterogeneous: it includes both low- and high-grade tumors and some tumors previously exposed to neoadjuvant chemotherapy.</li>
+<li>Few patients received ICB after recurrence (n=31 total, with C2 n=1).</li>
+<li>Response of metastatic disease is inferred from TME features of the primary tumor.</li>
+<li>Bulk RNA-seq cannot separate tumor, stroma and immune compartments. Single-cell and spatial profiling are suggested as next steps.</li>
+<li>Tumors evolve over time, so the best timing for molecular testing is still unknown (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+<li><strong>Clusters are not independent of stage:</strong> Cluster membership was not independently prognostic after adjustment; pT stage absorbed the DFS association in multivariable Cox regression (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Internal inconsistencies worth checking against the published version:</strong>
+<ul>
+<li>TP53 mutation frequency in C5 is 44.4% in the text but 47% in the Fig. 2C legend.</li>
+<li>The ICB cohort lists C4 n=6, but the APM1 paragraph describes “two of seven” C4 patients with partial responses.</li>
+<li>The Methods measure DFS/CSS/OS/PFS from “the date of systemic therapy”, while Fig. 1 describes post-nephroureterectomy follow-up and recurrence after surgery (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+</ul></li>
+<li><strong>Different subtyping frames:</strong> Expression clusters overlap only weakly to moderately (phi 0.2–0.52) with Fujii et al.’s mutation-based UTUC subtypes. They also contrast with the “largely homogenous luminal-papillary, T-cell depleted” picture of UTUC in <a href="../papers/31278255.html">PMID:31278255</a>. Syntheses should record both views rather than merge them (<a href="../papers/39550333.html">PMID:39550333</a>).</li>
+<li><strong>Data deposit:</strong> The cBioPortal study record for <a href="../datasets/bladder_msk_2024.html">bladder_msk_2024</a> lists 112 samples. The paper reports 100 MSK100 tumors (99 with MSK-IMPACT) plus 13 ICB-expansion tumors and does not say which samples or data types were deposited.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Five molecular clusters with distinct clinical outcomes were identified.” (Abstract, p.&nbsp;1)</li>
+<li>“with a LumP transcriptional profile identified in 89% of UTUC tumors versus 32.6% of MIBC cases analyzed by TCGA” (p.&nbsp;5)</li>
+<li>“pT stage was the only relevant factor associated with DFS in multiple Cox regression analysis.” (p.&nbsp;5)</li>
+<li>“The mean TMB was 16.9 mut/Mb and was highest in C3” (p.&nbsp;5)</li>
+<li>“FGFR3 (48.5%), <a href="../genes/TERT.html">TERT</a> (37.4%), <a href="../genes/KDM6A.html">KDM6A</a> (23.2%), <a href="../genes/KMT2D.html">KMT2D</a> (30.3%), and TP53 (23.2%) were the most commonly altered genes” (p.&nbsp;5)</li>
+<li>“All microsatellite instability high (MSIH, n = 5) UTUC tumors were found within the C3 cluster. Of these five tumors, four arose in patients with Lynch syndrome, with the other tumor harboring a somatic <a href="../genes/MSH2.html">MSH2</a> mutation.” (pp.&nbsp;5–6)</li>
+<li>“Oncogenic alterations in FGFR3 were identified in nearly all C3 tumors (28/30)” (p.&nbsp;6)</li>
+<li>“Alterations in TP53 were associated with worse CSS (p &lt; 0.01) and OS (p &lt; 0.01)” (p.&nbsp;6)</li>
+<li>“In patients with C1 and C2 tumors, no objective responses to ICB were observed, and all but one patient developed progressive disease as best response” (p.&nbsp;7)</li>
+<li>“Complete responses were observed only in patients with the C3 and C5 transcriptional subtypes.” (p.&nbsp;7)</li>
+<li>“expression of antigen processing machinery (APM) genes … was significantly associated with objective response in UTUC (p = 0.04; Fig. 5C)” (p.&nbsp;7)</li>
+<li>“FGFR3 mutation was not predictive of ICB response in the larger cohort of urothelial cancer patients at MSKCC treated with systemic immunotherapy” (p.&nbsp;8)</li>
+<li>“the relatively simple CYT score … was highest in C4 (median 4.47, interquartile range [IQR] 1.97–6.86) and C5 (median 5.24, IQR 2.01–11.49)” (p.&nbsp;9)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39550333.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39550333.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

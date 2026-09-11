@@ -2,8 +2,10 @@
 #
 # cbio-kb chat API — Cloud Run image
 # ----------------------------------
-# Separate from the MCP-server Dockerfile (Docker Hub, release-tagged).
+# Separate from the MCP-server image (docker/mcp.Dockerfile).
 # This one builds the FastAPI chat app (ai_search/) for Cloud Run.
+#
+#   docker build -f docker/chat.Dockerfile -t cbio-kb-chat .
 #
 # Multi-stage:
 #   1. `builder` installs the project + the `chat` and `cloud` extras into

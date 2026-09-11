@@ -116,8 +116,8 @@ uv sync --extra chat --extra server
 uv run cbio-kb serve                                  # stdio
 uv run cbio-kb serve --transport http --port 8124     # http://127.0.0.1:8124/mcp
 # or
-docker build -t cbio-kb . && docker run -p 8124:8124 \
-  -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb
+docker build -f docker/mcp.Dockerfile -t cbio-kb-mcp . && docker run -p 8124:8124 \
+  -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb-mcp
 ```
 
 ## Layout

@@ -12,9 +12,9 @@
 # enable search_hybrid / search_dense; without it the study, paper, entity
 # and list tools still work:
 #
-#   docker build -t cbio-kb .
+#   docker build -f docker/mcp.Dockerfile -t cbio-kb-mcp .
 #   docker run --rm -p 8124:8124 \
-#     -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb
+#     -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb-mcp
 
 # ---------- Builder ----------
 FROM python:3.13-slim-bookworm AS builder

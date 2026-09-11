@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Deploy the cbio-kb chat API to Cloud Run.
 #
-# Uses Cloud Build to build the image from Dockerfile.chat (so we don't
+# Uses Cloud Build to build the image from docker/chat.Dockerfile (so we don't
 # need a local Docker build on the caller's machine) and gcloud run deploy
 # to push a new revision.
 #

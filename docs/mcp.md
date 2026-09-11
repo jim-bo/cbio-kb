@@ -83,9 +83,9 @@ Claude Desktop (`claude_desktop_config.json`):
 ## Docker
 
 ```bash
-docker build -t cbio-kb .
+docker build -f docker/mcp.Dockerfile -t cbio-kb-mcp .
 docker run --rm -p 8124:8124 \
-  -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb
+  -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb-mcp
 ```
 
 For stdio clients run it with `-i -e CBIO_KB_MCP_SERVER_TRANSPORT=stdio`.
@@ -98,7 +98,7 @@ cbio-kb to its `agents/docker-compose.yml` the same way the navigator is wired:
 
 ```yaml
   cbio-kb:
-    image: cbio-kb:latest
+    image: cbio-kb-mcp:latest
     environment:
       - CBIO_KB_MCP_SERVER_TRANSPORT=http
       - CBIO_KB_MCP_BIND_HOST=0.0.0.0

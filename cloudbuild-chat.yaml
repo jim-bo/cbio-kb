@@ -5,7 +5,7 @@ steps:
   - name: gcr.io/cloud-builders/docker
     args:
       - build
-      - --file=Dockerfile.chat
+      - --file=docker/chat.Dockerfile
       - --tag=$_IMAGE_URI
       - .
 images:

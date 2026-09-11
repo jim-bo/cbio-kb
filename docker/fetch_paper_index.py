@@ -64,6 +64,8 @@ def main(argv: list[str]) -> int:
                   file=sys.stderr)
             return 1
         for item in src.iterdir():
+            if item.name.startswith("._"):  # macOS AppleDouble metadata
+                continue
             dst = target / item.name
             if dst.is_dir():
                 shutil.rmtree(dst)

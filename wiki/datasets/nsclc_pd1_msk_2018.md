@@ -62,7 +62,7 @@ Retrospective cohort of 240 patients with advanced non-small-cell lung cancer ([
 - TMB and PD-L1 are independent predictors (r=0.19, P=0.08); combining TMB-high + PD-L1 ≥1% gave 50% DCB rate vs. 18% when both low. [PMID:29337640](../papers/29337640.md)
 - [EGFR](../genes/EGFR.md)-mutant tumors were underrepresented in DCB (7% of EGFR-mutant patients achieved DCB; FDR-adjusted P=0.013). [PMID:29337640](../papers/29337640.md)
 - [STK11](../genes/STK11.md) mutations were enriched in NDB (FDR-adjusted P=0.007 vs. non-ICI cohort), consistent with LKB1-loss driving low tumor inflammation. [PMID:29337640](../papers/29337640.md)
-- High fraction of copy-number-altered genome ([FGA](../genes/FGA.md)) was enriched in NDB patients (median 0.16 vs. 0.11, P=0.007). [PMID:29337640](../papers/29337640.md)
+- High fraction of copy-number-altered genome (FGA) was enriched in NDB patients (median 0.16 vs. 0.11, P=0.007). [PMID:29337640](../papers/29337640.md)
 - MDM2/MDM4 amplification (n=8) did not show hyperprogression in this series (HR 1.4, P=0.44), in contrast to prior reports. [PMID:29337640](../papers/29337640.md)
 
 ## Sources

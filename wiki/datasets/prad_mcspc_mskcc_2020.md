@@ -50,7 +50,7 @@ Prospective tumor–blood sequencing cohort of 424 patients with metastatic cast
 
 ## Notable findings derived from this cohort
 
-- Median TMB 2.6 mut/Mb (IQR 1.8–4.4); median fraction genome altered 32% (IQR 24–48); high-volume disease had 4.6 pp higher mean [FGA](../genes/FGA.md) (95% CI 1.5–7.7). [PMID:32220891](../papers/32220891.md)
+- Median TMB 2.6 mut/Mb (IQR 1.8–4.4); median fraction genome altered 32% (IQR 24–48); high-volume disease had 4.6 pp higher mean FGA (95% CI 1.5–7.7). [PMID:32220891](../papers/32220891.md)
 - 50% (211/424) of tumors carried at least one potentially actionable alteration per OncoKB. [PMID:32220891](../papers/32220891.md)
 - [AR](../genes/AR.md) and [TP53](../genes/TP53.md) alterations and cell-cycle / MYC pathway alterations were associated with 1.6- to 5-fold higher castration-resistance rates; [SPOP](../genes/SPOP.md) and WNT pathway alterations associated with ~1.5-fold lower rates (multivariable models). [PMID:32220891](../papers/32220891.md)
 - [CDK12](../genes/CDK12.md) alterations were 6.7 pp more frequent in de-novo metastatic disease vs. metastatic recurrence (95% CI 3.0–10.4; FDR 0.037) — the only single gene with statistically significant phenotype discrimination. [PMID:32220891](../papers/32220891.md)

@@ -42,7 +42,7 @@ The luad_mskcc_2020 cohort comprises 604 patients with stage I–III lung adenoc
 ## Assays / panels (linked)
 
 - [MSK-IMPACT panel](../methods/msk-impact-panel.md) — targeted NGS; panel versions [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), and [IMPACT468](../methods/IMPACT468.md).
-- [FACETS](../methods/facets.md) — allele-specific copy-number analysis; fraction of genome altered ([FGA](../genes/FGA.md)) and WGD detection.
+- [FACETS](../methods/facets.md) — allele-specific copy-number analysis; fraction of genome altered (FGA) and WGD detection.
 
 ## Papers using this cohort
 

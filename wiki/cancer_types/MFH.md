@@ -29,7 +29,7 @@ Undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)), historical
 - [RB1](../genes/RB1.md) truncating mutations/deletions in 14% of RT-UPS vs 19% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - [NOTCH3](../genes/NOTCH3.md) missense mutations in 14% of RT-UPS vs 4% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - RT-UPS had the highest insertion:SNV and deletion:SNV ratios among RT-sarcomas (adjusted P < 0.05) [PMID:37350195](../papers/37350195.md).
-- [FGA](../genes/FGA.md) of 25% in RT-UPS [PMID:37350195](../papers/37350195.md).
+- FGA of 25% in RT-UPS [PMID:37350195](../papers/37350195.md).
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 - In a 7,494-sarcoma cohort, UPS/MFH showed 4q12 amplicon (KDR/PDGFRA/KIT) in 7.3%, 11q13 (CCND1/FGF amplicon) in 4.3% of UPS of bone, TMB ≥10 mut/Mb in 10.9%, and high gLOH (≥19.3%) in 26.6% with only 3.6% HRD-gene alterations; [CD274](../genes/CD274.md) (PD-L1) amplification in 3.6% [PMID:35705558](../papers/35705558.md).
 

@@ -59,7 +59,7 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 
 ## Subtypes
 
-- CN-H/TP53abn: 69% of Black vs. 35% of White ECs (P<0.001); associated with serous/carcinosarcoma histology, higher chromosomal instability ([FGA](../genes/FGA.md) 30% vs. 10%), and lower actionable alteration frequency. [PMID:37651310](../papers/37651310.md)
+- CN-H/TP53abn: 69% of Black vs. 35% of White ECs (P<0.001); associated with serous/carcinosarcoma histology, higher chromosomal instability (FGA 30% vs. 10%), and lower actionable alteration frequency. [PMID:37651310](../papers/37651310.md)
 - POLE-mutant: 1.2% Black vs. 5.8% White; favorable prognosis. [PMID:37651310](../papers/37651310.md)
 - MSI-H/dMMR: 14% Black vs. 25% White; eligible for immune checkpoint therapy. [PMID:37651310](../papers/37651310.md)
 - Serous carcinoma ([USC](../cancer_types/USC.md)): 29% Black vs. 13% White (P<0.01). [PMID:37651310](../papers/37651310.md)

@@ -26,7 +26,7 @@ Non-Small Cell Lung Cancer (parent [LUNG](../cancer_types/LUNG.md)); encompasses
 
 ## Recurrent alterations
 
-- TMB was higher in BM vs EM (median 8.8 vs 5.8; p=0.00766); [FGA](../genes/FGA.md) was higher in BM vs EM (p=2.77e-06) and vs PT (p=2.27e-07) [PMID:37591896](../papers/37591896.md).
+- TMB was higher in BM vs EM (median 8.8 vs 5.8; p=0.00766); FGA was higher in BM vs EM (p=2.77e-06) and vs PT (p=2.27e-07) [PMID:37591896](../papers/37591896.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) alterations more frequent in BM (34%) vs PT (13%, p=0.003, q=0.04); cell-cycle pathway alterations 56% BM vs 32% PT (p=0.004, q=0.041) [PMID:37591896](../papers/37591896.md).
 - Paired BM–BM samples showed high genomic concordance vs lower concordance in synchronous BM/PT pairs [PMID:37591896](../papers/37591896.md).
 - [NF1](../genes/NF1.md) alterations were more frequent in LMD patients (15%) [PMID:37591896](../papers/37591896.md).

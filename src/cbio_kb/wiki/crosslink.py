@@ -31,10 +31,11 @@ KINDS = ["genes", "cancer_types", "datasets", "drugs", "methods"]
 STOPWORDS = {"A", "I", "IT", "OR", "AS", "IS", "BE", "AN", "TO", "OF", "ON", "IN", "BY"}
 
 # Page names that papers almost always use as a different abbreviation:
-# OS is overall survival far more often than osteosarcoma, and FGA is
-# fraction of genome altered, not the fibrinogen gene. Pages that mean the
+# OS is overall survival far more often than osteosarcoma, FGA is
+# fraction of genome altered, not the fibrinogen gene, and GCT is germ cell
+# tumor, not OncoTree's GCT (granular cell tumor). Pages that mean the
 # entity link it explicitly.
-ABBREVIATIONS = {"OS", "FGA"}
+ABBREVIATIONS = {"OS", "FGA", "GCT"}
 
 
 def _load_entities(wiki: Path) -> dict[str, dict[str, Path]]:

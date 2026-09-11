@@ -21,7 +21,7 @@ Procarbazine is a hydrazine-derived alkylating agent that inhibits DNA, RNA, and
 
 ## Evidence in the corpus
 
-- Component of PCV (procarbazine/[lomustine](../drugs/lomustine.md)/[vincristine](../drugs/vincristine.md)) induction, which served as the historical comparator arm in a phase II trial (NCT00588523) for newly diagnosed 1p/19q-codeleted [anaplastic oligodendroglioma (ODG3)](../cancer_types/ODG3.md) and oligoastrocytoma (n=20 prior PCV cohort). In an exploratory cross-trial comparison using the same myeloablative HDC-ASCT backbone, single-agent [temozolomide](../drugs/temozolomide.md) induction was non-inferior to PCV induction for [OS](../cancer_types/OS.md) (HR 3.38 favoring TMZ, P=0.005, all patients; HR 5.68, P=0.018, 1p/19q-codeleted) — countering concerns that TMZ is inferior to PCV in this disease. [PMID:28472509](../papers/28472509.md)
+- Component of PCV (procarbazine/[lomustine](../drugs/lomustine.md)/[vincristine](../drugs/vincristine.md)) induction, which served as the historical comparator arm in a phase II trial (NCT00588523) for newly diagnosed 1p/19q-codeleted [anaplastic oligodendroglioma (ODG3)](../cancer_types/ODG3.md) and oligoastrocytoma (n=20 prior PCV cohort). In an exploratory cross-trial comparison using the same myeloablative HDC-ASCT backbone, single-agent [temozolomide](../drugs/temozolomide.md) induction was non-inferior to PCV induction for OS (HR 3.38 favoring TMZ, P=0.005, all patients; HR 5.68, P=0.018, 1p/19q-codeleted) — countering concerns that TMZ is inferior to PCV in this disease. [PMID:28472509](../papers/28472509.md)
 
 ## Resistance mechanisms
 

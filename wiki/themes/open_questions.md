@@ -38,7 +38,7 @@ resolved (see `schema/CLAUDE.md` §"Hard rules" #6).
   meaningful prognostic value on top of EMR+volume in definitive-RT HNSCC.
 - **PD-L1 CPS as a predictor of benefit with RT + PD-1 blockade in HNSCC.**
   [PMID:38780927](../papers/38780927.md) (Saba 2024) reports PD-L1 CPS
-  (22C3) <20 vs ≥20 does **not** stratify PFS (P=0.86) or [OS](../cancer_types/OS.md) (P=0.74) in
+  (22C3) <20 vs ≥20 does **not** stratify PFS (P=0.86) or OS (P=0.74) in
   IMRT reirradiation + [nivolumab](../drugs/nivolumab.md), explicitly divergent from recurrent/
   metastatic HNSCC with single-agent PD-1 blockade. Point of contention:
   whether PD-L1 CPS retains predictive value when PD-1 blockade is combined

@@ -32,7 +32,7 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 ## Cancer types (linked)
 
 - [UCEC](../cancer_types/UCEC.md) — AKT2 amplification enriched in Black patients; contributes to PI3K/AKT/mTOR pathway activation patterns distinct from PTEN/PIK3R1 mutation-driven activation seen in White patients [PMID:37651310](../papers/37651310.md).
-- [PAAD](../cancer_types/PAAD.md) — AKT2 amplification independently associated with shorter [OS](../cancer_types/OS.md) in metastatic chemotherapy-treated patients [PMID:39753968](../papers/39753968.md).
+- [PAAD](../cancer_types/PAAD.md) — AKT2 amplification independently associated with shorter OS in metastatic chemotherapy-treated patients [PMID:39753968](../papers/39753968.md).
 
 ## Co-occurrence and mutual exclusivity
 

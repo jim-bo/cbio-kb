@@ -21,7 +21,7 @@ ZFP36L2 ([ZFP36](../genes/ZFP36.md) Ring Finger Protein Like 2) is an RNA-bindin
 
 ## Cancer types (linked)
 
-- **[UTUC](../cancer_types/UTUC.md)**: E249X stop-gain in 1/40 UTUC cases; part of the ZFP36-family mutation cluster (26.7% of UTUC) associated with higher mutational load and better pooled-bladder-cohort [OS](../cancer_types/OS.md) (P=0.01, n=562) [PMID:33397444](../papers/33397444.md).
+- **[UTUC](../cancer_types/UTUC.md)**: E249X stop-gain in 1/40 UTUC cases; part of the ZFP36-family mutation cluster (26.7% of UTUC) associated with higher mutational load and better pooled-bladder-cohort OS (P=0.01, n=562) [PMID:33397444](../papers/33397444.md).
 - **[BLCA](../cancer_types/BLCA.md)**: E249X is a known TCGA-BLCA hotspot; ZFP36L2 mutation rate differs between bladder and upper-tract urothelial cancer [PMID:33397444](../papers/33397444.md).
 
 ## Co-occurrence and mutual exclusivity

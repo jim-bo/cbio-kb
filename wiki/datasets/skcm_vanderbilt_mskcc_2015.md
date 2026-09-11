@@ -48,7 +48,7 @@ processed_at: 2026-05-16
 
 ## Notable findings derived from this cohort
 
-- PTEN loss-of-function alterations enriched in poor BRAFi responders (P=.005); associated with shorter PFS (HR 3.46, 95% CI 1.79–6.71, P<.001) and [OS](../cancer_types/OS.md) (HR 3.10, 95% CI 1.59–6.05, P<.001) — [PMID:32913971](../papers/32913971.md)
+- PTEN loss-of-function alterations enriched in poor BRAFi responders (P=.005); associated with shorter PFS (HR 3.46, 95% CI 1.79–6.71, P<.001) and OS (HR 3.10, 95% CI 1.59–6.05, P<.001) — [PMID:32913971](../papers/32913971.md)
 - Elevated BRAF-mutant allele fraction significantly enriched in excellent responders (P<.001); [CDKN2A](../genes/CDKN2A.md) alterations (41% of patients) showed no association with response — [PMID:32913971](../papers/32913971.md)
 - [KDR](../genes/KDR.md) mutations (n=4; 1 hotspot R1032Q) appeared exclusively in poor responders with significantly shorter PFS and OS — [PMID:32913971](../papers/32913971.md)
 - [RB1](../genes/RB1.md) (P=.0036) and [MDM2](../genes/MDM2.md) (P=.045) alterations enriched relative to TCGA, reflecting a more aggressive clinical profile — [PMID:32913971](../papers/32913971.md)

@@ -29,7 +29,7 @@ LIHC is the TCGA cohort identifier for liver hepatocellular carcinoma. The corre
 - Included in TCGA PanCancer Atlas; LIHC dominated iCluster C26; estrogen-signaling (ESR1/AR/IGFBP2) gene program elevated in some LIHC samples [PMID:29625048](../papers/29625048.md)
 - Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types) [PMID:29625049](../papers/29625049.md)
 - Included in pan-cancer pathway analysis of 9,125 TCGA tumors across 33 cancer types [PMID:29625050](../papers/29625050.md)
-- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized [OS](../cancer_types/OS.md), PFI, DFI, and DSS endpoints derived for LIHC [PMID:29625055](../papers/29625055.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for LIHC [PMID:29625055](../papers/29625055.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): LIHC comprised 11% of cohort; [TP53](../genes/TP53.md) R249S enriched in LIHC (10%, aflatoxin signature); [ARID1A](../genes/ARID1A.md) truncating mutations in 7.9%; [TSC2](../genes/TSC2.md) LoF in 4.9% ([everolimus](../drugs/everolimus.md) Level 4); 15.8% TMB-H (Level 1 [pembrolizumab](../drugs/pembrolizumab.md) candidate); younger LIHC enriched for [TP53](../genes/TP53.md) mutations [PMID:35871175](../papers/35871175.md)
 
 ## Subtypes

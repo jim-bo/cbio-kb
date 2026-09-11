@@ -17,7 +17,7 @@ processed_at: 2026-05-04
 
 ## Overview
 
-Single-center retrospective cohort of 177 patients with cervical cancer ([CESC](../cancer_types/CESC.md)) sequenced at Memorial Sloan Kettering Cancer Center from February 2014 through May 2019. Profiled with [MSK-IMPACT](../methods/msk-impact-panel.md) to characterize the genomic landscape and identify actionable alterations, with a survival subset (n=97) for [OS](../cancer_types/OS.md) analysis. Compared against [cesc_tcga_pan_can_atlas_2018](../datasets/cesc_tcga_pan_can_atlas_2018.md). [PMID:37643132](../papers/37643132.md)
+Single-center retrospective cohort of 177 patients with cervical cancer ([CESC](../cancer_types/CESC.md)) sequenced at Memorial Sloan Kettering Cancer Center from February 2014 through May 2019. Profiled with [MSK-IMPACT](../methods/msk-impact-panel.md) to characterize the genomic landscape and identify actionable alterations, with a survival subset (n=97) for OS analysis. Compared against [cesc_tcga_pan_can_atlas_2018](../datasets/cesc_tcga_pan_can_atlas_2018.md). [PMID:37643132](../papers/37643132.md)
 
 ## Composition
 
@@ -40,7 +40,7 @@ Single-center retrospective cohort of 177 patients with cervical cancer ([CESC](
 - [KRAS](../genes/KRAS.md) mutations significantly enriched vs. TCGA (12% vs. 5%, P=0.019). [PMID:37643132](../papers/37643132.md)
 - 13% of patients had TMB-high (>10 mut/Mb) tumors; 37% had at least one actionable alteration at OncoKB level 3B. [PMID:37643132](../papers/37643132.md)
 - Oncogenic [TP53](../genes/TP53.md) mutations and HPV positivity were mutually exclusive: 3.5% of HPV-positive vs. 53.8% of non-gastric-type HPV-negative cases harbored oncogenic [TP53](../genes/TP53.md) alterations (P=0.00007). [PMID:37643132](../papers/37643132.md)
-- Median [OS](../cancer_types/OS.md) for survival cohort (n=97): 59.2 months (95% CI: 46.7–89.4). [PMID:37643132](../papers/37643132.md)
+- Median OS for survival cohort (n=97): 59.2 months (95% CI: 46.7–89.4). [PMID:37643132](../papers/37643132.md)
 
 ## Sources
 

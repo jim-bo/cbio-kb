@@ -27,7 +27,7 @@ Clinical Longformer is a transformer-based natural language processing (NLP) mod
 
 - Long-context variant of the Longformer architecture; handles clinical documents beyond the 512-token BERT limit.
 - Fine-tuned on MSK AACR Project GENIE BPC PRISSMM-schema annotated labels (3,202 patients, 38,719 radiology reports).
-- `radLongformer` (a task-specific variant) was prognostic for [OS](../cancer_types/OS.md) in all five cancer types studied in MSK-CHORD but did not additively improve upon engineered feature models when combined with them [PMID:39506116](../papers/39506116.md).
+- `radLongformer` (a task-specific variant) was prognostic for OS in all five cancer types studied in MSK-CHORD but did not additively improve upon engineered feature models when combined with them [PMID:39506116](../papers/39506116.md).
 - Used alongside [clinicalbert](../methods/clinicalbert.md) and other transformer models in the MSK-CHORD NLP pipeline [PMID:39506116](../papers/39506116.md).
 
 ## Sources

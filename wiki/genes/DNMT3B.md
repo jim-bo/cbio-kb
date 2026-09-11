@@ -19,7 +19,7 @@ DNMT3B encodes DNA methyltransferase 3 beta, a de novo DNA methyltransferase res
 
 ## Cancer types (linked)
 
-- [COADREAD](../cancer_types/COADREAD.md): univariate [OS](../cancer_types/OS.md) association in MSS metastatic CRC [PMID:29316426](../papers/29316426.md)
+- [COADREAD](../cancer_types/COADREAD.md): univariate OS association in MSS metastatic CRC [PMID:29316426](../papers/29316426.md)
 
 ## Co-occurrence and mutual exclusivity
 

@@ -20,7 +20,7 @@ ALK-negative Anaplastic Large-Cell Lymphoma, a subtype of [ALCL](./ALCL.md) with
 
 ## Recurrent alterations
 
-- Analyzed within the broader [PTCL](../cancer_types/PTCL.md) cohort where [TP53](../genes/TP53.md) mutations/17p deletions independently predicted inferior PFS and [CDKN2A](../genes/CDKN2A.md) deletions predicted inferior [OS](../cancer_types/OS.md) [PMID:37078708](../papers/37078708.md).
+- Analyzed within the broader [PTCL](../cancer_types/PTCL.md) cohort where [TP53](../genes/TP53.md) mutations/17p deletions independently predicted inferior PFS and [CDKN2A](../genes/CDKN2A.md) deletions predicted inferior OS [PMID:37078708](../papers/37078708.md).
 
 ## Subtypes
 

@@ -27,7 +27,7 @@ processed_at: 2026-05-16
 
 ## Overview
 
-The TCGA Brain Lower Grade Glioma PanCancer Atlas 2018 cohort is the [LGG](../cancer_types/LGG.md) arm of the TCGA PanCancer Atlas, available in cBioPortal as `lgg_tcga_pan_can_atlas_2018`. It covers approximately 516 lower-grade glioma samples with uniformly reprocessed mutation calls (MC3 pipeline), copy-number, and RNA-seq expression. [LGG](../cancer_types/LGG.md) is molecularly split by [IDH1](../genes/IDH1.md) mutation status: IDH1-mutant LGG forms the highly homogeneous iCluster C11 (high silhouette score), while IDH1-wildtype LGG co-clusters with [GBM](../cancer_types/GBM.md) in C23. LGG is one of the pivotal examples of TCGA survival-genomic integration: IDH-mutant LGG has substantially longer [OS](../cancer_types/OS.md) than IDH-wildtype, contributing to the WHO 2016 glioma diagnostic update.
+The TCGA Brain Lower Grade Glioma PanCancer Atlas 2018 cohort is the [LGG](../cancer_types/LGG.md) arm of the TCGA PanCancer Atlas, available in cBioPortal as `lgg_tcga_pan_can_atlas_2018`. It covers approximately 516 lower-grade glioma samples with uniformly reprocessed mutation calls (MC3 pipeline), copy-number, and RNA-seq expression. [LGG](../cancer_types/LGG.md) is molecularly split by [IDH1](../genes/IDH1.md) mutation status: IDH1-mutant LGG forms the highly homogeneous iCluster C11 (high silhouette score), while IDH1-wildtype LGG co-clusters with [GBM](../cancer_types/GBM.md) in C23. LGG is one of the pivotal examples of TCGA survival-genomic integration: IDH-mutant LGG has substantially longer OS than IDH-wildtype, contributing to the WHO 2016 glioma diagnostic update.
 
 ## Composition
 

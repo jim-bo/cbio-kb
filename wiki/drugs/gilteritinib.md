@@ -13,7 +13,7 @@ processed_at: 2026-05-21
 
 ## Overview
 
-Gilteritinib is a selective 2nd-generation [FLT3](../genes/FLT3.md) inhibitor also targeting [AXL](../genes/AXL.md), FDA-approved for relapsed/refractory [AML](../cancer_types/AML.md) with [FLT3](../genes/FLT3.md) mutations (ITD or TKD). It shows superior [OS](../cancer_types/OS.md) over salvage chemotherapy in the ADMIRAL trial. Unlike [midostaurin](../drugs/midostaurin.md), it is active against both FLT3-ITD and FLT3 TKD (D835, I836) mutations.
+Gilteritinib is a selective 2nd-generation [FLT3](../genes/FLT3.md) inhibitor also targeting [AXL](../genes/AXL.md), FDA-approved for relapsed/refractory [AML](../cancer_types/AML.md) with [FLT3](../genes/FLT3.md) mutations (ITD or TKD). It shows superior OS over salvage chemotherapy in the ADMIRAL trial. Unlike [midostaurin](../drugs/midostaurin.md), it is active against both FLT3-ITD and FLT3 TKD (D835, I836) mutations.
 
 ## Evidence in the corpus
 

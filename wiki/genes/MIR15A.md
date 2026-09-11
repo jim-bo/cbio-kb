@@ -23,7 +23,7 @@ MIR15A (MicroRNA 15a) is a tumor-suppressor microRNA located at chromosome 13q14
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [SF3B1](../genes/SF3B1.md) mutation (K700E) in the aggressive double-mutant (DM) CLL subtype; SF3B1-mut / del(13q) co-occurrence associated with shorter time to first therapy independent of del(13q) alone, and inferior [OS](../cancer_types/OS.md) [PMID:40694421](../papers/40694421.md)
+- Co-occurs with [SF3B1](../genes/SF3B1.md) mutation (K700E) in the aggressive double-mutant (DM) CLL subtype; SF3B1-mut / del(13q) co-occurrence associated with shorter time to first therapy independent of del(13q) alone, and inferior OS [PMID:40694421](../papers/40694421.md)
 
 ## Therapeutic relevance
 

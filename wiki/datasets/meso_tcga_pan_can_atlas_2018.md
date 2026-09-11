@@ -48,7 +48,7 @@ The TCGA Mesothelioma PanCancer Atlas 2018 cohort is the [MESO](../cancer_types/
 ## Notable findings derived from this cohort
 
 - MESO included in pan-cancer integrative molecular analysis (33 cancer types, 11,286 tumors); part of the heterogeneous iCluster C20: mixed (stromal/immune) which spans 25 of 33 tumor types. [PMID:29625048](../papers/29625048.md)
-- MESO is among cancer types with low actionable-alteration rates; stage-specific Cox HRs not significantly different by [OS](../cancer_types/OS.md), PFI, or DSS in TCGA-CDR (alongside [PAAD](../cancer_types/PAAD.md) and [UVM](../cancer_types/UVM.md)), indicating these endpoints may not reliably separate stage groups. [PMID:29625048](../papers/29625048.md)
+- MESO is among cancer types with low actionable-alteration rates; stage-specific Cox HRs not significantly different by OS, PFI, or DSS in TCGA-CDR (alongside [PAAD](../cancer_types/PAAD.md) and [UVM](../cancer_types/UVM.md)), indicating these endpoints may not reliably separate stage groups. [PMID:29625048](../papers/29625048.md)
 - Used as part of the TCGA PanCancer Atlas cohort in a pan-cancer analysis of oncogenic signaling pathways across 9,125 tumors from 33 cancer types [PMID:29850653](../papers/29850653.md)
 
 ## Sources

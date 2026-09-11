@@ -15,7 +15,7 @@ ZFAT (Zinc Finger And AT-Hook Domain Containing) encodes a transcriptional regul
 
 ## Alterations observed in the corpus
 
-- ZFAT mutations are associated with poorer overall survival ([OS](../cancer_types/OS.md)) across all DLBCL (n=1001, uniformly treated with rituximab-containing immunochemotherapy); identified in a multivariate combined DNA+RNA prognostic model as one of the driver genes contributing to an adverse 3-tier genomic risk classifier [PMID:28985567](../papers/28985567.md).
+- ZFAT mutations are associated with poorer overall survival (OS) across all DLBCL (n=1001, uniformly treated with rituximab-containing immunochemotherapy); identified in a multivariate combined DNA+RNA prognostic model as one of the driver genes contributing to an adverse 3-tier genomic risk classifier [PMID:28985567](../papers/28985567.md).
 
 ## Cancer types (linked)
 

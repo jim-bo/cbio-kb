@@ -27,7 +27,7 @@ Prospective institutional cohort of 2,336 patients with pancreatic ductal adenoc
 
 ## Composition
 
-- 2,336 patients with [PAAD](../cancer_types/PAAD.md); stage distribution: 731 resectable (31%), 581 borderline-resectable/locally advanced (25%), 1,024 metastatic (44%); median [OS](../cancer_types/OS.md) 31/19/11 months respectively [PMID:39753968](../papers/39753968.md).
+- 2,336 patients with [PAAD](../cancer_types/PAAD.md); stage distribution: 731 resectable (31%), 581 borderline-resectable/locally advanced (25%), 1,024 metastatic (44%); median OS 31/19/11 months respectively [PMID:39753968](../papers/39753968.md).
 - Sample type: 1,424 (61%) primary tumor, 912 (39%) metastasis; median age 67 years (range 24–93) [PMID:39753968](../papers/39753968.md).
 - 1,480 patients (63%) with manually curated treatment history, time on treatment, and best-response data from medical records [PMID:39753968](../papers/39753968.md).
 - Allele-specific copy number inferred with [FACETS](../methods/facets.md) v0.5.14 in 1,555/2,322 tumors passing QC [PMID:39753968](../papers/39753968.md).
@@ -39,7 +39,7 @@ Prospective institutional cohort of 2,336 patients with pancreatic ductal adenoc
 
 ## Papers using this cohort
 
-- [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. 2025: Defines three genomic subtypes of PDAC (KRAS-mutant 95%, other-MAPK-mutant 3%, MAPK-WT 2%); characterizes [KRAS](../genes/KRAS.md) mutant-allele dosage gains as a prognostic biomarker independent of stage; shows G12R confers better [OS](../cancer_types/OS.md) than G12D (HR_adj=0.78, P=0.003).
+- [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. 2025: Defines three genomic subtypes of PDAC (KRAS-mutant 95%, other-MAPK-mutant 3%, MAPK-WT 2%); characterizes [KRAS](../genes/KRAS.md) mutant-allele dosage gains as a prognostic biomarker independent of stage; shows G12R confers better OS than G12D (HR_adj=0.78, P=0.003).
 
 ## Notable findings derived from this cohort
 

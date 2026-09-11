@@ -31,7 +31,7 @@ IDO1 encodes indoleamine 2,3-dioxygenase 1, a tryptophan-catabolizing enzyme inv
 
 ## Therapeutic relevance
 
-- Contributes to the ICR module; ICR-high tumors had better [OS](../cancer_types/OS.md), and the paper notes potential predictive utility for immunotherapy response in other tumor types [PMID:37202560](../papers/37202560.md).
+- Contributes to the ICR module; ICR-high tumors had better OS, and the paper notes potential predictive utility for immunotherapy response in other tumor types [PMID:37202560](../papers/37202560.md).
 
 ## Open questions
 

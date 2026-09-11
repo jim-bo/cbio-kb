@@ -50,7 +50,7 @@ Targeted sequencing of 2,138 bone and soft tissue sarcoma samples from distinct 
 
 ## Notable findings derived from this cohort
 
-- Across 45 pathological entities: TMB highest in [ANGS](../cancer_types/ANGS.md) (3.0 mut/Mb), [UPS](../cancer_types/UPS.md), [ULMS](../cancer_types/ULMS.md); MSI-H in only 5/1,893 samples; WGD in ~50% of OS/UPS/ERMS/MPNST and associated with worse [OS](../cancer_types/OS.md) in metastatic disease (p=0.042); [TERT](../genes/TERT.md) amplifications in 44% of intimal sarcoma; SWI/SNF alterations in 43% of uterine adenosarcoma; 17 unsupervised genomic clusters crossing histology boundaries; [ATRX](../genes/ATRX.md) loss clusters across ULMS/PLLS/UPS/MFS/OS/ANGS/PECOMA/LMS [PMID:35705560](../papers/35705560.md)
+- Across 45 pathological entities: TMB highest in [ANGS](../cancer_types/ANGS.md) (3.0 mut/Mb), [UPS](../cancer_types/UPS.md), [ULMS](../cancer_types/ULMS.md); MSI-H in only 5/1,893 samples; WGD in ~50% of OS/UPS/ERMS/MPNST and associated with worse OS in metastatic disease (p=0.042); [TERT](../genes/TERT.md) amplifications in 44% of intimal sarcoma; SWI/SNF alterations in 43% of uterine adenosarcoma; 17 unsupervised genomic clusters crossing histology boundaries; [ATRX](../genes/ATRX.md) loss clusters across ULMS/PLLS/UPS/MFS/OS/ANGS/PECOMA/LMS [PMID:35705560](../papers/35705560.md)
 
 ## Sources
 

@@ -24,7 +24,7 @@ SETDB1 encodes a histone H3K9 methyltransferase involved in transcriptional repr
 
 ## Cancer types (linked)
 
-- [PLMESO](../cancer_types/PLMESO.md) — loss-of-function mutations define the GNH subset (n=10); associated with poor [OS](../cancer_types/OS.md) (10.9 months) and possible ICB sensitivity [PMID:38630790](../papers/38630790.md).
+- [PLMESO](../cancer_types/PLMESO.md) — loss-of-function mutations define the GNH subset (n=10); associated with poor OS (10.9 months) and possible ICB sensitivity [PMID:38630790](../papers/38630790.md).
 
 ## Co-occurrence and mutual exclusivity
 

@@ -27,7 +27,7 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 
 ## Cancer types (linked)
 
-- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CCNE1 amplification is among the top contributors to Cell Cycle pathway enrichment, which is independently prognostic of worse [OS](../cancer_types/OS.md) in this cohort; no independent [OS](../cancer_types/OS.md) association for CCNE1 alone reported [PMID:33795256](../papers/33795256.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CCNE1 amplification is among the top contributors to Cell Cycle pathway enrichment, which is independently prognostic of worse OS in this cohort; no independent OS association for CCNE1 alone reported [PMID:33795256](../papers/33795256.md).
 
 ## Co-occurrence and mutual exclusivity
 

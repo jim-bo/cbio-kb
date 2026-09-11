@@ -39,7 +39,7 @@ MSK-CHORD integrates NLP annotations of free-text clinician, radiology and patho
 
 - Integrated multimodal models with NLP-derived sites-of-disease features outperformed genomics-only or stage-only models for overall survival [PMID:39506116](../papers/39506116.md).
 - NLP per-site metastasis classification AUCs 0.85–0.99 across bone, liver, lung, lymph node, adrenal, pleura, CNS [PMID:39506116](../papers/39506116.md).
-- [SETD2](../genes/SETD2.md) driver mutations in 3% of [LUAD](../cancer_types/LUAD.md) (204/5,957) predict longer [OS](../cancer_types/OS.md), lower CNS metastasis, and longer immune checkpoint blockade response independent of TMB [PMID:39506116](../papers/39506116.md).
+- [SETD2](../genes/SETD2.md) driver mutations in 3% of [LUAD](../cancer_types/LUAD.md) (204/5,957) predict longer OS, lower CNS metastasis, and longer immune checkpoint blockade response independent of TMB [PMID:39506116](../papers/39506116.md).
 - [RB1](../genes/RB1.md) oncogenic alterations enriched in brain and liver metastases [PMID:39506116](../papers/39506116.md).
 
 ## Sources

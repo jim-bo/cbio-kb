@@ -17,7 +17,7 @@ Stereotactic body radiation therapy (SBRT) is an image-guided, conformal radiati
 
 ## Used by
 
-- Synthesized across nine prospective trials in locally advanced pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)); the multi-fraction reference regimen (33 Gy / 5 fx, Herman et al.) achieved 79% 1-year local control and 13.9-month median [OS](../cancer_types/OS.md) with 2% acute and 6% late grade 3+ GI toxicity when combined with [gemcitabine](../drugs/gemcitabine.md). Single-fraction regimens (15–25 Gy) achieved 100% local control but universal distant progression. [PMID:27826200](../papers/27826200.md)
+- Synthesized across nine prospective trials in locally advanced pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)); the multi-fraction reference regimen (33 Gy / 5 fx, Herman et al.) achieved 79% 1-year local control and 13.9-month median OS with 2% acute and 6% late grade 3+ GI toxicity when combined with [gemcitabine](../drugs/gemcitabine.md). Single-fraction regimens (15–25 Gy) achieved 100% local control but universal distant progression. [PMID:27826200](../papers/27826200.md)
 
 ## Notes
 

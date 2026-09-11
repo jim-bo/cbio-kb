@@ -20,7 +20,7 @@ TRMT10A (TRNA Methyltransferase Homolog 10A) encodes a tRNA m1G9 methyltransfera
 
 ## Cancer types (linked)
 
-- [PRAD](../cancer_types/PRAD.md): TRMT10A overexpression is a prognostic marker for shorter [OS](../cancer_types/OS.md) and higher-grade disease in mCRPC; it confers PARPi resistance by maintaining BRCA1 recruitment to DSBs independently of BRCA1/2 mutation status. [PMID:41071892](../papers/41071892.md)
+- [PRAD](../cancer_types/PRAD.md): TRMT10A overexpression is a prognostic marker for shorter OS and higher-grade disease in mCRPC; it confers PARPi resistance by maintaining BRCA1 recruitment to DSBs independently of BRCA1/2 mutation status. [PMID:41071892](../papers/41071892.md)
 
 ## Co-occurrence and mutual exclusivity
 

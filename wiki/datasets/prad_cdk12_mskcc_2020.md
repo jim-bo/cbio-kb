@@ -47,7 +47,7 @@ Retrospective single-institution pan-cancer cohort of 26,743 MSK-IMPACT-sequence
 
 ## Papers using this cohort
 
-- [PMID:32317181](../papers/32317181.md) — Nguyen et al., pan-cancer characterization of CDK12 alterations; CDK12-biallelic prostate cancer defined as a distinct subtype with tandem-duplicator phenotype, CCND1/MCL1/MYC enrichment, TP53/ERG depletion, shorter [OS](../cancer_types/OS.md), and faster progression to castration resistance.
+- [PMID:32317181](../papers/32317181.md) — Nguyen et al., pan-cancer characterization of CDK12 alterations; CDK12-biallelic prostate cancer defined as a distinct subtype with tandem-duplicator phenotype, CCND1/MCL1/MYC enrichment, TP53/ERG depletion, shorter OS, and faster progression to castration resistance.
 
 ## Notable findings derived from this cohort
 

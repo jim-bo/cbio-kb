@@ -17,7 +17,7 @@ Ramucirumab is a human monoclonal antibody targeting VEGFR2 ([KDR](../genes/KDR.
 
 ## Evidence in the corpus
 
-- REACH-2 trial (AFP ≥400 ng/mL HCC): ramucirumab median [OS](../cancer_types/OS.md) 8.5 vs 7.3 months (HR 0.71, 95% CI 0.53–0.95, P=0.0199); first positive biomarker-enriched phase III trial in HCC; approved second-line for AFP-high patients [PMID:30061739](../papers/30061739.md).
+- REACH-2 trial (AFP ≥400 ng/mL HCC): ramucirumab median OS 8.5 vs 7.3 months (HR 0.71, 95% CI 0.53–0.95, P=0.0199); first positive biomarker-enriched phase III trial in HCC; approved second-line for AFP-high patients [PMID:30061739](../papers/30061739.md).
 - Ramucirumab + [durvalumab](../drugs/durvalumab.md) combination under evaluation (NCT02572687) as part of anti-VEGF/VEGFR + anti-PD-(L)1 combination strategies [PMID:30061739](../papers/30061739.md).
 - TCGA gastric adenocarcinoma (n=295) identified recurrent focal amplification of [VEGFA](../genes/VEGFA.md) (7%) in the chromosomal instability (CIN) subtype, providing genomic rationale for VEGFR2-pathway inhibition with ramucirumab in CIN-enriched gastric cancer [PMID:25079317](../papers/25079317.md).
 - Ramucirumab + [docetaxel](../drugs/docetaxel.md) was administered as a later-line regimen in the WCM117 rapid-autopsy case of the WashU urothelial carcinoma WES cohort (n=32 patients), following [cisplatin](../drugs/cisplatin.md) + [gemcitabine](../drugs/gemcitabine.md) first-line; illustrates treatment sequencing in chemotherapy-refractory [BLCA](../cancer_types/BLCA.md) [PMID:27749842](../papers/27749842.md)

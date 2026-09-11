@@ -52,7 +52,7 @@ The TCGA Ovarian Serous Cystadenocarcinoma PanCancer Atlas 2018 cohort is the [O
 
 - C6:OV was one of eight pan-cancer iClusters dominated by a single tumor type; [ESR1](../genes/ESR1.md) (ER-α), [AR](../genes/AR.md), and [IGFBP2](../genes/IGFBP2.md) high-expression RPPA groups include OV samples with luminal gene programs. [PMID:29625048](../papers/29625048.md)
 - OV is the cancer type most skewed toward genome-integrity disruption in both germline and somatic compartments, driven by [BRCA1](../genes/BRCA1.md)/[BRCA2](../genes/BRCA2.md) germline variants (FDR 9.12e-6) and near-ubiquitous [TP53](../genes/TP53.md) mutation; germline [BRCA1](../genes/BRCA1.md)/[BRCA2](../genes/BRCA2.md) carriers showed ~8 years earlier onset (P=2.07e-10). [PMID:29625049](../papers/29625049.md)
-- TCGA-CDR recommends PFI as the primary endpoint for OV; all four endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) are recommended without reservation, making OV one of 13 cancer types with the highest endpoint reliability. [PMID:29625055](../papers/29625055.md)
+- TCGA-CDR recommends PFI as the primary endpoint for OV; all four endpoints (OS, PFI, DFI, DSS) are recommended without reservation, making OV one of 13 cancer types with the highest endpoint reliability. [PMID:29625055](../papers/29625055.md)
 
 ## Sources
 

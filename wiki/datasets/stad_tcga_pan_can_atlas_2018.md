@@ -53,7 +53,7 @@ The TCGA Stomach Adenocarcinoma PanCancer Atlas 2018 cohort is the [STAD](../can
 - STAD contributes to three distinct pan-cancer iClusters: C1:STAD (EBV-CIMP, hypermethylated EBV-associated tumors), C4:pan-GI (CIN, COAD/READ + non-squamous [ESCA](../cancer_types/ESCA.md)), and C18:pan-GI (MSI, mostly STAD+[COAD](../cancer_types/COAD.md)); STAD was among 8 cancer types with <50% of samples in any single iCluster. [PMID:29625048](../papers/29625048.md)
 - ERBB2-amplified STAD co-clusters in pan-cancer C2:[BRCA](../cancer_types/BRCA.md) (HER2 amp) alongside BRCA and [BLCA](../cancer_types/BLCA.md) — a cross-tissue ERBB2-amplified subtype supporting HER2-directed agents beyond breast cancer; [ERBB2](../genes/ERBB2.md) alterations in chromosomally-unstable esophagogastric CIN subtype (~26%). [PMID:29625048](../papers/29625048.md)
 - MSI-H STAD tumors over-express immune effectors GZMA/PRF1/GZMK/GZMH (Kolmogorov-Smirnov P<0.01); EBV+ esophagogastric shows PI3K pathway alteration in 80% of samples; PI3K+MEK co-targeting opportunity in 10% of EBV+ stomach. [PMID:29625049](../papers/29625049.md)
-- All four clinical endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) are recommended without reservation for STAD by TCGA-CDR. [PMID:29625048](../papers/29625048.md)
+- All four clinical endpoints (OS, PFI, DFI, DSS) are recommended without reservation for STAD by TCGA-CDR. [PMID:29625048](../papers/29625048.md)
 
 ## Sources
 

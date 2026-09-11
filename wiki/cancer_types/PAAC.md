@@ -35,7 +35,7 @@ Acinar cell carcinoma of the pancreas is a rare malignant pancreatic tumor accou
 
 ## Therapeutic landscape
 
-- Multimodal random survival forest (RSF) combining NLP-derived tumor sites and treatment features with genomic data outperformed stage-only models for predicting [OS](../cancer_types/OS.md) in pancreatic cancer (stage IV: P=0.003). [PMID:39506116](../papers/39506116.md)
+- Multimodal random survival forest (RSF) combining NLP-derived tumor sites and treatment features with genomic data outperformed stage-only models for predicting OS in pancreatic cancer (stage IV: P=0.003). [PMID:39506116](../papers/39506116.md)
 
 ## Sources
 

@@ -33,7 +33,7 @@ GPAM (Glycerol-3-Phosphate Acyltransferase, Mitochondrial) encodes a mitochondri
 
 ## Therapeutic relevance
 
-- Candidate tumor suppressor; loss of GPAM may represent a driver event in HCC but no direct therapeutic agent has been nominated; [OS](../cancer_types/OS.md) association suggests potential as a prognostic biomarker [PMID:35508466](../papers/35508466.md)
+- Candidate tumor suppressor; loss of GPAM may represent a driver event in HCC but no direct therapeutic agent has been nominated; OS association suggests potential as a prognostic biomarker [PMID:35508466](../papers/35508466.md)
 
 ## Open questions
 

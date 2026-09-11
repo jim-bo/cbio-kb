@@ -45,7 +45,7 @@ Integrated dataset from a Phase II clinical trial (NCT02954536) and a retrospect
 
 ## Notable findings derived from this cohort
 
-- Median PFS 13 months, median [OS](../cancer_types/OS.md) 27 months, ORR 89% in the Phase II trial (n=37). [PMID:37406106](../papers/37406106.md)
+- Median PFS 13 months, median OS 27 months, ORR 89% in the Phase II trial (n=37). [PMID:37406106](../papers/37406106.md)
 - Uniform HER2 IHC 3+ predicted longer median PFS (15 vs. 8.5 months, P=0.004). [PMID:37406106](../papers/37406106.md)
 - ctDNA clearance by 9 weeks associated with longer PFS (HR 0.18, P=0.001). [PMID:37406106](../papers/37406106.md)
 - Resistance mechanisms upon progression included [PIK3CA](../genes/PIK3CA.md), [KRAS](../genes/KRAS.md), [MET](../genes/MET.md), and [EGFR](../genes/EGFR.md) alterations; loss of HER2 expression in 48%. [PMID:37406106](../papers/37406106.md)

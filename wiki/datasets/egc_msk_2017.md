@@ -65,7 +65,7 @@ Janjigian et al. report the first 295 patients with stage IV [esophagogastric ad
 - **Loss of ERBB2 amplification is a common acquired-resistance mechanism:** 7/44 (16%) post-trastuzumab samples became ERBB2-negative by NGS with HER2 protein loss confirmed by IHC. [PMID:29122777](../papers/29122777.md)
 - **RTK-RAS-PI3K co-alterations shorten trastuzumab PFS** (median 8.4 months vs longer in pathway-wildtype); acquired [KRAS](../genes/KRAS.md) (2% pre vs 13% post) and [PIK3CA](../genes/PIK3CA.md) (2% pre vs 8.6% post) activating mutations enriched post-trastuzumab. [PMID:29122777](../papers/29122777.md)
 - **[B2M](../genes/B2M.md) loss is a recurrent immunotherapy-resistance mechanism:** 4/9 (44%) MSI-H tumors carry likely deleterious B2M alterations; acquired exon-1 loss-of-function confirmed by IHC in a patient with acquired resistance to anti-PD-1. [PMID:29122777](../papers/29122777.md)
-- **High TMB (>9.7 mut/Mb) supports immunotherapy:** top-quartile TMB associated with median [OS](../cancer_types/OS.md) 16.8 vs 6.62 months and 2-year OS 44% vs 14% (HR=0.40, P=0.058). [PMID:29122777](../papers/29122777.md)
+- **High TMB (>9.7 mut/Mb) supports immunotherapy:** top-quartile TMB associated with median OS 16.8 vs 6.62 months and 2-year OS 44% vs 14% (HR=0.40, P=0.058). [PMID:29122777](../papers/29122777.md)
 - **EBV+ exceptional response:** the single EBV+ patient achieved a complete and durable response (>30 months) to anti-PD-1 therapy. [PMID:29122777](../papers/29122777.md)
 - No primary-vs-metastatic differences in alteration frequencies detected. [PMID:29122777](../papers/29122777.md)
 

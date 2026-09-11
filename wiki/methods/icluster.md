@@ -23,7 +23,7 @@ iCluster is a probabilistic latent variable model for joint dimensionality reduc
 - iClusterPlus integrative clustering applied to 94 CCA samples with all four data types (sSNVs/indels, sCNAs, mRNA, methylation), validated by randomized subsampling and expanded to 121 samples with 90% cluster-prediction accuracy [PMID:28667006](../papers/28667006.md)
 - iCluster used for cross-platform integrative clustering (WES, RNA-seq, methylation, RPPA, SNP6) of 206 TCGA sarcomas; separated [LMS](../cancer_types/LMS.md) into [ULMS](../cancer_types/ULMS.md) vs STLMS clusters and defined STLMS C1 (worse RFS, p=0.0002) vs C2 molecular subtypes [PMID:29100075](../papers/29100075.md)
 - Applied across four platforms (copy number, DNA methylation, mRNA, miRNA) on 9,759 TCGA PanCancer Atlas tumors to identify 28 integrated molecular subtypes; copy-number alterations contributed 47%, transcriptome 42%, methylation 11% of the signal [PMID:29625048](../papers/29625048.md).
-- Integrative iCluster analysis of WES, RNA-seq, proteome, and phosphoproteome data from 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) defined three integrative subtypes; Cluster 3 (TP53-enriched, CDK1/2/6 activity) associated with poor [OS](../cancer_types/OS.md) (p=0.005); validated by SNF [PMID:35508466](../papers/35508466.md)
+- Integrative iCluster analysis of WES, RNA-seq, proteome, and phosphoproteome data from 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) defined three integrative subtypes; Cluster 3 (TP53-enriched, CDK1/2/6 activity) associated with poor OS (p=0.005); validated by SNF [PMID:35508466](../papers/35508466.md)
 
 ## Notes
 

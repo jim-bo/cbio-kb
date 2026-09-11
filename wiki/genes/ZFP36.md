@@ -19,7 +19,7 @@ ZFP36 (ZFP36 Ring Finger Protein, also known as Tristetraprolin/TTP) is an RNA-b
 
 ## Cancer types (linked)
 
-- **[UTUC](../cancer_types/UTUC.md)**: Deleterious mutation (COSMIC-curated p.P253A) in upper tract urothelial carcinoma; ZFP36-family mutations collectively affect 26.7% of UTUC cases and are associated with higher mutational load and better pooled-bladder-cohort [OS](../cancer_types/OS.md) (P=0.01, n=562) [PMID:33397444](../papers/33397444.md).
+- **[UTUC](../cancer_types/UTUC.md)**: Deleterious mutation (COSMIC-curated p.P253A) in upper tract urothelial carcinoma; ZFP36-family mutations collectively affect 26.7% of UTUC cases and are associated with higher mutational load and better pooled-bladder-cohort OS (P=0.01, n=562) [PMID:33397444](../papers/33397444.md).
 
 ## Co-occurrence and mutual exclusivity
 

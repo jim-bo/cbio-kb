@@ -47,7 +47,7 @@ institutions.
   [PMID:24892406](../papers/24892406.md).
 - In a crowdsourced benchmark on 2,552 Princess Margaret HNSCC patients (RADCURE
   training cohort) with external validation on 873 patients (HN1 MAASTRO, MDACC,
-  GPCCHN Poznań), the best-performing 2-year [OS](../cancer_types/OS.md) model was a multitask logistic
+  GPCCHN Poznań), the best-performing 2-year OS model was a multitask logistic
   regression over EMR features (age, T/N/overall stage, disease site, performance
   status, HPV status, dose, systemic therapy) plus primary tumor volume (AUROC=0.823,
   C-index=0.801); no radiomics-only model beat any EMR-only model, and replacing

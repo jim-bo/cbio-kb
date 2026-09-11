@@ -17,7 +17,7 @@ ASCETS is a computational tool that infers chromosome arm-level somatic copy-num
 
 ## Used by
 
-- Arm-level CNAs in 2,069 MSK-IMPACT-profiled prostate cancer patients (1,841 White, 165 Black, 63 Asian) were called with ASCETS; chr8q gain was enriched in Black men (49%) vs White men (37%, adjusted difference +11 pp, 95% CI 4–18) and was independently prognostic for [OS](../cancer_types/OS.md) (HR 2.00, 95% CI 1.00–4.01 in Black men) [PMID:34667026](../papers/34667026.md)
+- Arm-level CNAs in 2,069 MSK-IMPACT-profiled prostate cancer patients (1,841 White, 165 Black, 63 Asian) were called with ASCETS; chr8q gain was enriched in Black men (49%) vs White men (37%, adjusted difference +11 pp, 95% CI 4–18) and was independently prognostic for OS (HR 2.00, 95% CI 1.00–4.01 in Black men) [PMID:34667026](../papers/34667026.md)
 - ASCETS called arm-level copy-number gains and losses (events present in at least 15% of samples) in EWSR1-rearranged Ewing sarcoma and [DSRCT](../cancer_types/DSRCT.md). [PMID:38335254](../papers/38335254.md)
 
 ## Notes

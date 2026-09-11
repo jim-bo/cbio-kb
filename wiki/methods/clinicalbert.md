@@ -32,6 +32,6 @@ ClinicalBERT is a BERT-based transformer model pre-trained on clinical notes (or
 
 ## Sources
 
-- [PMID:39506116](../papers/39506116.md) — Kather et al. used ClinicalBERT for ten-binary multi-label tumor-site extraction from clinical and radiology notes in the MSK-CHORD dataset (24,950 patients); NLP-derived tumor sites were the most prognostic single modality for [OS](../cancer_types/OS.md) in stage-IV patients across all five cancer types in the random survival forest models [PMID:39506116](../papers/39506116.md).
+- [PMID:39506116](../papers/39506116.md) — Kather et al. used ClinicalBERT for ten-binary multi-label tumor-site extraction from clinical and radiology notes in the MSK-CHORD dataset (24,950 patients); NLP-derived tumor sites were the most prognostic single modality for OS in stage-IV patients across all five cancer types in the random survival forest models [PMID:39506116](../papers/39506116.md).
 
 *This page was processed by **crosslinker** on **2026-04-30**.*

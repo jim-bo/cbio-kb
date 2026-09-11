@@ -17,7 +17,7 @@ radLongformer is a Clinical-Longformer transformer variant fine-tuned directly o
 
 ## Used by
 
-- [PMID:39506116](../papers/39506116.md) — radLongformer was trained end-to-end on 705,241 CT-CAP radiology reports in the MSK-CHORD clinicogenomic dataset (24,950 patients) and was prognostic for [OS](../cancer_types/OS.md) in all five cancer types ([NSCLC](../cancer_types/NSCLC.md), [BRCA](../cancer_types/BRCA.md), [COADREAD](../cancer_types/COADREAD.md), [PRAD](../cancer_types/PRAD.md), [PAAD](../cancer_types/PAAD.md)). However, adding radLongformer scores to the [random survival forest](../methods/random-survival-forest.md) did not improve overall prognostic power beyond interpretable NLP-derived features — "black-box" radiology text did not add beyond engineered features; it was superior to tumor-site features alone only in stage-IV CRC [PMID:39506116](../papers/39506116.md).
+- [PMID:39506116](../papers/39506116.md) — radLongformer was trained end-to-end on 705,241 CT-CAP radiology reports in the MSK-CHORD clinicogenomic dataset (24,950 patients) and was prognostic for OS in all five cancer types ([NSCLC](../cancer_types/NSCLC.md), [BRCA](../cancer_types/BRCA.md), [COADREAD](../cancer_types/COADREAD.md), [PRAD](../cancer_types/PRAD.md), [PAAD](../cancer_types/PAAD.md)). However, adding radLongformer scores to the [random survival forest](../methods/random-survival-forest.md) did not improve overall prognostic power beyond interpretable NLP-derived features — "black-box" radiology text did not add beyond engineered features; it was superior to tumor-site features alone only in stage-IV CRC [PMID:39506116](../papers/39506116.md).
 
 ## Notes
 

@@ -38,7 +38,7 @@ Multi-platform genomic, transcriptomic, epigenomic, and proteomic dataset for 54
 - **Cancer type:** [GBM](../cancer_types/GBM.md) — primary glioblastoma multiforme.
 - **Samples:** 543 primary GBM patients accrued from 17 TCGA contributing sites, diagnosed 1989–2011.
 - **Demographics:** median age 59.6 years; M:F = 1.6 (333:209).
-- **Survival:** median [OS](../cancer_types/OS.md) 13.9 months; 2-year survival 22.5%; 5-year 5.3%.
+- **Survival:** median OS 13.9 months; 2-year survival 22.5%; 5-year 5.3%.
 - **Treatment:** 40% (217/543) received concurrent TMZ + radiation; 50.2% of those diagnosed ≥2002.
 - **[IDH1](../genes/IDH1.md) mutation frequency:** 6% (28/423 with adequate coverage). [PMID:24120142](../papers/24120142.md)
 

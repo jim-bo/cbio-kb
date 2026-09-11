@@ -21,7 +21,7 @@ Appendiceal Adenocarcinoma (AC) is an Appendiceal Cancer (parent BOWEL). Subtype
 ## Recurrent alterations
 
 - [GNAS](../genes/GNAS.md), [KRAS](../genes/KRAS.md)/[NRAS](../genes/NRAS.md), and [TP53](../genes/TP53.md) co-mutations define three molecular subtypes of MAAP [PMID:36493333](../papers/36493333.md).
-- TP53-mut predominant tumors are highly aneuploid; aneuploidy is an independent predictor of poor [OS](../cancer_types/OS.md) (P=.001) [PMID:36493333](../papers/36493333.md).
+- TP53-mut predominant tumors are highly aneuploid; aneuploidy is an independent predictor of poor OS (P=.001) [PMID:36493333](../papers/36493333.md).
 - TRK fusion-positive appendiceal adenocarcinoma was identified in the MSK prospective cohort (n=26,312); TRK fusions were absent from KRAS/BRAF-wild-type context in this type [PMID:31871300](../papers/31871300.md)
 
 ## Subtypes

@@ -37,9 +37,9 @@ Single-center retrospective MSK cohort of patients with extremity rhabdomyosarco
 
 ## Notable findings derived from this cohort
 
-- Metastatic disease, high-risk group, and age ≥10 years significantly affected [OS](../cancer_types/OS.md) (HR 2.68, P=.004; HR 2.78, P=.010; HR 2.26, P=.034) [PMID:37315267](../papers/37315267.md).
+- Metastatic disease, high-risk group, and age ≥10 years significantly affected OS (HR 2.68, P=.004; HR 2.78, P=.010; HR 2.26, P=.034) [PMID:37315267](../papers/37315267.md).
 - [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) [ARMS](../cancer_types/ARMS.md) had worse prognosis and afflicted older children than [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md) (HR 3.45, P=.016) [PMID:37315267](../papers/37315267.md).
-- Most common [ARMS](../cancer_types/ARMS.md) genomic events were [MED12](../genes/MED12.md) alterations, [CDK4](../genes/CDK4.md) amplifications, and [CDKN2A](../genes/CDKN2A.md) deletions (each 8%–17%); [CDK4](../genes/CDK4.md) amplifications and [CDKN2A](../genes/CDKN2A.md) deletions were mutually exclusive, enriched in acral and high-risk lesions, and correlated with poor [OS](../cancer_types/OS.md) (P=.02) [PMID:37315267](../papers/37315267.md).
+- Most common [ARMS](../cancer_types/ARMS.md) genomic events were [MED12](../genes/MED12.md) alterations, [CDK4](../genes/CDK4.md) amplifications, and [CDKN2A](../genes/CDKN2A.md) deletions (each 8%–17%); [CDK4](../genes/CDK4.md) amplifications and [CDKN2A](../genes/CDKN2A.md) deletions were mutually exclusive, enriched in acral and high-risk lesions, and correlated with poor OS (P=.02) [PMID:37315267](../papers/37315267.md).
 
 ## Sources
 

@@ -49,7 +49,7 @@ The TCGA Pheochromocytoma and Paraganglioma PanCancer Atlas 2018 cohort is the [
 ## Notable findings derived from this cohort
 
 - PCPG included in pan-cancer integrative molecular analysis (33 cancer types, 11,286 tumors); enriched for [GNAQ](../genes/GNAQ.md)/[GNA11](../genes/GNA11.md) mutual exclusivity (these dominate uveal melanoma) and for Ras-pathway exclusivity maintained across cancer types. [PMID:29625048](../papers/29625048.md)
-- TCGA-CDR endpoint assessment: **no endpoint** ([OS](../cancer_types/OS.md), PFI, DFI, or DSS) is recommended for PCPG — the only cancer type among 33 with this restriction, due to too few events and insufficient follow-up in this predominantly indolent disease. [PMID:29625048](../papers/29625048.md)
+- TCGA-CDR endpoint assessment: **no endpoint** (OS, PFI, DFI, or DSS) is recommended for PCPG — the only cancer type among 33 with this restriction, due to too few events and insufficient follow-up in this predominantly indolent disease. [PMID:29625048](../papers/29625048.md)
 
 ## Sources
 

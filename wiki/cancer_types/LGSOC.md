@@ -32,7 +32,7 @@ Low-Grade Serous Ovarian Cancer (LGSOC) is a distinct histologic subtype of sero
 
 ## Subtypes
 
-- MAPK-altered LGSOC (60%) vs. MAPK-wildtype LGSOC (40%) represent clinically distinct subgroups by [OS](../cancer_types/OS.md) (median 339 vs 125 months). [PMID:35443055](../papers/35443055.md)
+- MAPK-altered LGSOC (60%) vs. MAPK-wildtype LGSOC (40%) represent clinically distinct subgroups by OS (median 339 vs 125 months). [PMID:35443055](../papers/35443055.md)
 - No molecular subtypes beyond MAPK pathway alteration status are defined in the corpus.
 
 ## Therapeutic landscape

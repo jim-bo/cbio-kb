@@ -43,7 +43,7 @@ Anaplastic thyroid carcinoma (ATC/THAP) is the most aggressive thyroid malignanc
 
 - BRAF V600E-targeted therapy ([dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) FDA-approved for BRAF V600E-mutant ATC; present study mostly pre-approval, limiting survival analysis. [PMID:38412093](../papers/38412093.md)
 - Recurrent [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), and [ATM](../genes/ATM.md) alterations rationalize investigation of PARP inhibitors in ATC. [PMID:38412093](../papers/38412093.md)
-- Surgery (FDR=0.0089) and radiotherapy (FDR=1.7e-5) associated with improved [OS](../cancer_types/OS.md). [PMID:38412093](../papers/38412093.md)
+- Surgery (FDR=0.0089) and radiotherapy (FDR=1.7e-5) associated with improved OS. [PMID:38412093](../papers/38412093.md)
 - Germline variants in cancer predisposition genes: [RECQL4](../genes/RECQL4.md) (5%), [BRCA2](../genes/BRCA2.md) (n=3), [FANCF](../genes/FANCF.md) (n=3). [PMID:38412093](../papers/38412093.md)
 
 ## Sources

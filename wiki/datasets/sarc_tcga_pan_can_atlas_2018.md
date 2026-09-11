@@ -51,7 +51,7 @@ The TCGA Sarcoma PanCancer Atlas 2018 cohort is the [SARC](../cancer_types/SARC.
 - CDK4+MDM2 co-amplification co-targeting opportunity (CDK4 inhibitor + MDM2 inhibitor) identified in 78% of dedifferentiated liposarcomas in this cohort — one of the highest co-occurring actionable pair frequencies across all cancer types. [PMID:29625049](../papers/29625049.md)
 - SS18/SSX1 or SSX2 fusions are disease-defining in synovial sarcoma; SARC included in the pan-cancer splicing and fusion driver landscape analysis identifying spliceosome pathway mutations across 8,656 tumors. [PMID:29625049](../papers/29625049.md)
 - SARC included in pan-cancer integrative molecular analysis; part of C20: mixed (stromal/immune) iCluster with high stromal fraction. [PMID:29625048](../papers/29625048.md)
-- All four clinical endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) are recommended without reservation for SARC by TCGA-CDR, making this one of 13 cancer types with the highest endpoint reliability. [PMID:29625048](../papers/29625048.md)
+- All four clinical endpoints (OS, PFI, DFI, DSS) are recommended without reservation for SARC by TCGA-CDR, making this one of 13 cancer types with the highest endpoint reliability. [PMID:29625048](../papers/29625048.md)
 
 ## Sources
 

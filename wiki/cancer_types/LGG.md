@@ -33,7 +33,7 @@ LGG is the TCGA cohort identifier for lower-grade glioma (WHO grade II–III). T
 - RTK-RAS alteration rate 82% in IDHwt LGG; [EGFR](../genes/EGFR.md) altered in 52% of IDHwt LGG; IDH+PI3K inhibitor combination actionable in 14% of IDH-mutant LGG [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); IDH/1p19q status established as more robust survival predictor than histologic subtype, contributing evidence to WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
 - LGG (WHO grade II–III) comprised 39/85 patients in the MSK-IMPACT CSF liquid-biopsy cohort; truncal alterations (IDH1/IDH2, [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), [TERT](../genes/TERT.md), 1p/19q codeletion) were 100% concordant between CSF ctDNA and matched tumor tissue in all 10/10 non-hypermutated LGG pairs. [PMID:30675060](../papers/30675060.md)
-- In the GLASS longitudinal cohort, lower-grade glioma (IDHmut astrocytoma and oligodendroglioma) had 78% of IDHmut tumors remaining proneural at both timepoints; acquired [CDKN2A](../genes/CDKN2A.md) deletion at recurrence was associated with worse [OS](../cancer_types/OS.md) in IDHmut-noncodel tumors (p=0.02, log-rank) [PMID:35649412](../papers/35649412.md).
+- In the GLASS longitudinal cohort, lower-grade glioma (IDHmut astrocytoma and oligodendroglioma) had 78% of IDHmut tumors remaining proneural at both timepoints; acquired [CDKN2A](../genes/CDKN2A.md) deletion at recurrence was associated with worse OS in IDHmut-noncodel tumors (p=0.02, log-rank) [PMID:35649412](../papers/35649412.md).
 
 ## Subtypes
 

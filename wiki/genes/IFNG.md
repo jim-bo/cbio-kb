@@ -26,7 +26,7 @@ IFNG encodes interferon gamma, the defining Th1 cytokine that drives anti-tumor 
 
 ## Cancer types (linked)
 
-- [COAD](../cancer_types/COAD.md) — ICR Th1 component; ICR-high tumors had improved [OS](../cancer_types/OS.md) (HR 0.54, P=0.0095) [PMID:37202560](../papers/37202560.md).
+- [COAD](../cancer_types/COAD.md) — ICR Th1 component; ICR-high tumors had improved OS (HR 0.54, P=0.0095) [PMID:37202560](../papers/37202560.md).
 
 ## Co-occurrence and mutual exclusivity
 

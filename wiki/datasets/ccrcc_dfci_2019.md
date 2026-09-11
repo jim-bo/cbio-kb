@@ -49,7 +49,7 @@ Prospective discovery cohort of 35 patients with metastatic clear cell renal cel
 
 - [PBRM1](../genes/PBRM1.md) was the only recurrently mutated gene (by [MutSig2CV](../methods/mutsig.md)) in which truncating/LOF mutations were enriched in CB vs. NCB tumors: 9/11 vs. 3/13 (Fisher's exact p=0.012, q=0.086). [PMID:29301960](../papers/29301960.md)
 - All discovery-cohort truncating PBRM1 alterations co-occurred with deletion of the non-mutated allele on chromosome 3p, producing complete biallelic LOF; most mutations were predicted to be clonal by [ABSOLUTE](../methods/absolute.md). [PMID:29301960](../papers/29301960.md)
-- Patients with biallelic [PBRM1](../genes/PBRM1.md) loss had significantly prolonged [OS](../cancer_types/OS.md) (log-rank p=0.0074) and PFS (p=0.029) vs. PBRM1-intact patients on anti-PD-1. [PMID:29301960](../papers/29301960.md)
+- Patients with biallelic [PBRM1](../genes/PBRM1.md) loss had significantly prolonged OS (log-rank p=0.0074) and PFS (p=0.029) vs. PBRM1-intact patients on anti-PD-1. [PMID:29301960](../papers/29301960.md)
 - Median nonsynonymous tumor mutation burden was modest (82/exome) and did not differ between CB and NCB groups; PD-L1 IHC was also not predictive in this cohort. [PMID:29301960](../papers/29301960.md)
 - GSEA of PBRM1-LOF tumors (n=18 vs. n=14 intact) confirmed up-regulation of hypoxia and IL6/JAK-STAT3 hallmark gene sets. [PMID:29301960](../papers/29301960.md)
 - [VHL](../genes/VHL.md) LOF — the most commonly mutated ccRCC gene — did not correlate with immune-related gene expression, indicating the signal is PBRM1-specific. [PMID:29301960](../papers/29301960.md)

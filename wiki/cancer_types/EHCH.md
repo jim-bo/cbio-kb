@@ -25,7 +25,7 @@ Extrahepatic cholangiocarcinoma arising from the extrahepatic biliary tree.
 - Review encompasses extrahepatic cholangiocarcinoma (eCCA/dCCA) as part of the CCA spectrum where gut microbiota dysbiosis, bile acid disturbances ([NR1H4](../genes/NR1H4.md)/FXR downregulation, [S1PR2](../genes/S1PR2.md)/taurocholic-acid-driven ERK/AKT/NF-kB), and LPS/TLR4 signaling converge to drive tumor progression. [PMID:41018102](../papers/41018102.md)
 - One of three periampullary tumor cohorts (44 distal bile-duct/cholangiocarcinoma cases); [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), [SMAD4](../genes/SMAD4.md), and [CDKN2A](../genes/CDKN2A.md) were the four MutSig-CV-significant genes in this subset; IDH1/IDH2 and [BAP1](../genes/BAP1.md) were essentially absent, distinguishing extrahepatic from intrahepatic cholangiocarcinoma [PMID:26804919](../papers/26804919.md)
 - In the ICGC 489-CCA cohort, extrahepatic (distal) tumors are enriched in Clusters 1 and 2 (fluke-positive), characterized by [ERBB2](../genes/ERBB2.md) amplifications (10.4% fluke-pos), [TP53](../genes/TP53.md) mutations, and CpG-island hypermethylation; anatomical classification alone was insufficient to predict molecular subtype or prognosis. [PMID:28667006](../papers/28667006.md)
-- MSK-IMPACT profiling (n=37 extrahepatic cases): enriched for [KRAS](../genes/KRAS.md) (38% vs 7% [IHCH](../cancer_types/IHCH.md), q<0.001), [SMAD4](../genes/SMAD4.md) (q=0.001), [TP53](../genes/TP53.md) (q=0.007), and [STK11](../genes/STK11.md) (q=0.031) vs intrahepatic; [KRAS](../genes/KRAS.md) associated with shorter [OS](../cancer_types/OS.md) in advanced disease (p=0.026) [PMID:29848569](../papers/29848569.md)
+- MSK-IMPACT profiling (n=37 extrahepatic cases): enriched for [KRAS](../genes/KRAS.md) (38% vs 7% [IHCH](../cancer_types/IHCH.md), q<0.001), [SMAD4](../genes/SMAD4.md) (q=0.001), [TP53](../genes/TP53.md) (q=0.007), and [STK11](../genes/STK11.md) (q=0.031) vs intrahepatic; [KRAS](../genes/KRAS.md) associated with shorter OS in advanced disease (p=0.026) [PMID:29848569](../papers/29848569.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): EHCH comprised 3% of cohort; included among the biliary-tract subtypes with [ARID1A](../genes/ARID1A.md) truncating mutations (7.9–9.9%); [KRAS](../genes/KRAS.md) GoF actionable to MEKi at Level 3B/4 [PMID:35871175](../papers/35871175.md)
 - Extrahepatic cholangiocarcinoma (n=210, 17% of an MSK-IMPACT biliary tract cohort) had the highest whole-genome-doubling rate (34.2%) among biliary tract subtypes and the highest KRAS alteration frequency of the three subtypes, including enrichment for the G12V allele [PMID:42360806](../papers/42360806.md).
 
@@ -33,7 +33,7 @@ Extrahepatic cholangiocarcinoma arising from the extrahepatic biliary tree.
 
 ## Therapeutic landscape
 
-- Used as reference to demonstrate that biliary-class IHC has worse [OS](../cancer_types/OS.md) than non-biliary-class IHC independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
+- Used as reference to demonstrate that biliary-class IHC has worse OS than non-biliary-class IHC independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
 
 ## Sources
 

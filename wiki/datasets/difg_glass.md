@@ -40,7 +40,7 @@ Multi-institutional longitudinal glioma cohort from the GLASS International Cons
 ## Notable findings derived from this cohort
 
 - IDH-wildtype gliomas had a stable epigenome over time; IDH-mutant gliomas showed genome-wide loss of DNA methylation at recurrence (674 CpG probes with >15% difference). [PMID:38117484](../papers/38117484.md)
-- 71% (10/14) of IDH-mutant tumors that switched subtypes transitioned from GCIMP-high to GCIMP-low, associated with worse [OS](../cancer_types/OS.md). [PMID:38117484](../papers/38117484.md)
+- 71% (10/14) of IDH-mutant tumors that switched subtypes transitioned from GCIMP-high to GCIMP-low, associated with worse OS. [PMID:38117484](../papers/38117484.md)
 - Treatment ([temozolomide](../drugs/temozolomide.md) and/or radiotherapy) was associated with consistent loss of DNA methylation at recurrence vs. untreated patients. [PMID:38117484](../papers/38117484.md)
 - [HOXD13](../genes/HOXD13.md) identified as a master regulator of IDH-mutant astrocytoma progression. [PMID:38117484](../papers/38117484.md)
 - Previously treated IDH-mutant patients had worse survival from second surgery (log-rank P=0.0001) despite longer progression-free interval. [PMID:38117484](../papers/38117484.md)

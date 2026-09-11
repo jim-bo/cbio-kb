@@ -13,7 +13,7 @@ processed_at: 2026-05-16
 
 ## Overview
 
-The TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR) is a standardized, quality-assessed clinical annotation resource covering 11,160 TCGA patients across 33 cancer types. It derives four harmonized clinical outcome endpoints — overall survival ([OS](../cancer_types/OS.md)), progression-free interval (PFI), disease-free interval (DFI), and disease-specific survival (DSS) — using date of diagnosis as a uniform time-zero. The resource was built by processing 225 TCGA clinical data files from the GDC legacy archive and resolving over 1,000 QA issues. It provides per-cancer-type endpoint-usage recommendations (Table 3) and serves as the canonical survival annotation underlying all subsequent TCGA PanCanAtlas analyses and corresponding cBioPortal study annotations.
+The TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR) is a standardized, quality-assessed clinical annotation resource covering 11,160 TCGA patients across 33 cancer types. It derives four harmonized clinical outcome endpoints — overall survival (OS), progression-free interval (PFI), disease-free interval (DFI), and disease-specific survival (DSS) — using date of diagnosis as a uniform time-zero. The resource was built by processing 225 TCGA clinical data files from the GDC legacy archive and resolving over 1,000 QA issues. It provides per-cancer-type endpoint-usage recommendations (Table 3) and serves as the canonical survival annotation underlying all subsequent TCGA PanCanAtlas analyses and corresponding cBioPortal study annotations.
 
 ## Used by
 

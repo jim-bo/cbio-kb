@@ -28,7 +28,7 @@ processed_at: 2026-05-16
 
 ## Overview
 
-The tmb_mskcc_2018 cohort was assembled at Memorial Sloan Kettering Cancer Center to prospectively evaluate tumor mutational burden (TMB) as a pan-cancer predictive biomarker for overall survival ([OS](../cancer_types/OS.md)) after immune checkpoint inhibitor (ICI) therapy. The study enrolled 1,662 advanced cancer patients treated with ICI and 5,371 non-ICI-treated patients as a prognostic control, all profiled by MSK-IMPACT targeted next-generation sequencing using 341-, 410-, or 468-gene panels with matched germline normals. This is the primary dataset of the Samstein et al. 2019 *Nature Genetics* publication establishing TMB as a pan-cancer ICI survival predictor. Data are publicly available on cBioPortal.
+The tmb_mskcc_2018 cohort was assembled at Memorial Sloan Kettering Cancer Center to prospectively evaluate tumor mutational burden (TMB) as a pan-cancer predictive biomarker for overall survival (OS) after immune checkpoint inhibitor (ICI) therapy. The study enrolled 1,662 advanced cancer patients treated with ICI and 5,371 non-ICI-treated patients as a prognostic control, all profiled by MSK-IMPACT targeted next-generation sequencing using 341-, 410-, or 468-gene panels with matched germline normals. This is the primary dataset of the Samstein et al. 2019 *Nature Genetics* publication establishing TMB as a pan-cancer ICI survival predictor. Data are publicly available on cBioPortal.
 
 ## Composition
 

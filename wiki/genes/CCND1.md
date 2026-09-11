@@ -29,7 +29,7 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 
 ## Cancer types (linked)
 
-- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CCND1 amplification contributes to the Cell Cycle pathway signal enriched in advanced-stage PIT patients; no independent [OS](../cancer_types/OS.md) association reported for CCND1 alone in this cohort [PMID:33795256](../papers/33795256.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma ([EAC](../cancer_types/EAC.md)):** CCND1 amplification contributes to the Cell Cycle pathway signal enriched in advanced-stage PIT patients; no independent OS association reported for CCND1 alone in this cohort [PMID:33795256](../papers/33795256.md).
 
 ## Co-occurrence and mutual exclusivity
 

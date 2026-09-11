@@ -55,7 +55,7 @@ The TCGA Uterine Corpus Endometrial Carcinoma PanCancer Atlas 2018 cohort is the
 - [TP53](../genes/TP53.md) drives one of two mutually-exclusive UCEC driver networks (with [PPP2R1A](../genes/PPP2R1A.md)); [TP53](../genes/TP53.md) mutually exclusive with [PIK3CA](../genes/PIK3CA.md), [HRAS](../genes/HRAS.md), [CTNNB1](../genes/CTNNB1.md), [ARID1A](../genes/ARID1A.md), [FGFR3](../genes/FGFR3.md) pan-cancer; MSI-H UCEC tumors over-express immune effectors GZMA/PRF1/GZMK/GZMH (KS P<0.01). [PMID:29625049](../papers/29625049.md)
 - PI3K pathway dominant in UCEC: non-hypermutated CN-low 95% and CN-high 86% alteration frequencies — highest in the pan-cancer cohort; HER2+PI3K co-targeting opportunity in 7% of CN-high UCEC. [PMID:29625049](../papers/29625049.md)
 - [SOS1](../genes/SOS1.md) activating mutations present in ~1% of uterine carcinomas independent of subtype. [PMID:29625049](../papers/29625049.md)
-- All four clinical endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) are recommended without reservation for UCEC by TCGA-CDR. [PMID:29625055](../papers/29625055.md)
+- All four clinical endpoints (OS, PFI, DFI, DSS) are recommended without reservation for UCEC by TCGA-CDR. [PMID:29625055](../papers/29625055.md)
 
 ## Sources
 

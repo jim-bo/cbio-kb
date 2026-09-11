@@ -28,7 +28,7 @@ Daunorubicin (daunomycin) is an anthracycline that intercalates DNA and inhibits
 
 ## Resistance mechanisms
 
-- [TP53](../genes/TP53.md) mutations are associated with resistance to anthracycline-based AML induction; TP53-mutant patients have CR rates of 20–30% and median [OS](../cancer_types/OS.md) of 4–6 months on cytarabine + anthracycline induction [PMID:27959731](../papers/27959731.md)
+- [TP53](../genes/TP53.md) mutations are associated with resistance to anthracycline-based AML induction; TP53-mutant patients have CR rates of 20–30% and median OS of 4–6 months on cytarabine + anthracycline induction [PMID:27959731](../papers/27959731.md)
 
 ## Cancer types (linked)
 
@@ -37,7 +37,7 @@ Daunorubicin (daunomycin) is an anthracycline that intercalates DNA and inhibits
 
 ## Sources
 
-- [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU AML/MDS [decitabine](../drugs/decitabine.md) trial; daunorubicin + cytarabine 7+3 as comparator; TP53-mutant AML yields only 4–6-month median [OS](../cancer_types/OS.md) on conventional induction.
+- [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU AML/MDS [decitabine](../drugs/decitabine.md) trial; daunorubicin + cytarabine 7+3 as comparator; TP53-mutant AML yields only 4–6-month median OS on conventional induction.
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

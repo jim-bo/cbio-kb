@@ -21,7 +21,7 @@ Anaplastic Large Cell Lymphoma is a Mature T and NK Neoplasm (parent [MTNN](../c
 ## Recurrent alterations
 
 - [TP53](../genes/TP53.md) mutations and 17p deletions were the only somatic aberrancies independently correlated with inferior PFS on CHOP-based chemotherapy in the broader [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
-- [CDKN2A](../genes/CDKN2A.md) deletions correlated with markedly inferior [OS](../cancer_types/OS.md) in the [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
+- [CDKN2A](../genes/CDKN2A.md) deletions correlated with markedly inferior OS in the [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
 - PIPseq cohort included anaplastic large cell lymphoma (ALCL) cases; [DICER1](../genes/DICER1.md) D609Y variant of uncertain significance returned as a VOUS to the patient's family [PMID:28007021](../papers/28007021.md)
 - ALCL was included in the MAPPYACTS pediatric precision-medicine trial (n=787 recurrent/refractory malignancies), where [ALK](../genes/ALK.md) fusions (ALK-NPM1/TFG/TRAF1) were identified as ready-for-routine-use actionable alterations [PMID:35292802](../papers/35292802.md)
 

@@ -99,14 +99,19 @@ Without it, the MCP wiki tools still work and the search tools return an
 error naming the missing index. The chat API's Agentic mode also still
 works.
 
-**Embedding model.** `index_config.json` records the Hugging Face model the
-index was embedded with (`embed_model`). Both images download a model into
-their Hugging Face cache at build time: the `EMBED_MODEL` build arg, set by
-default in the Dockerfiles. They run with `HF_HUB_OFFLINE=1`, so the two
-must match. When you rebuild the index with a different model, change
-`EMBED_MODEL` in both Dockerfiles in the same commit. `CBIO_EMBED_MODEL`
-overrides the model at runtime, but only with a model that is already in
-the image's cache.
+**Embedding model.** Embedding runs locally, with no cloud account.
+`index_config.json` records the Hugging Face model the index was built with
+(`embed_model`), and queries are always embedded with that model. The
+default for new builds and for the router is
+`Snowflake/snowflake-arctic-embed-m-v1.5` (`DEFAULT_MODEL` in
+`src/cbio_kb/index/embed.py`; chosen by the bake-off in
+`eval/results/embed_bakeoff/`). It takes about 15 ms per query on CPU, so no
+GPU is needed. Both images download the `EMBED_MODEL` build arg (same
+default) into their Hugging Face cache and run with `HF_HUB_OFFLINE=1`, so it
+must match the index's `embed_model`. If you rebuild the index with another
+model, change `EMBED_MODEL` in both Dockerfiles and `DEFAULT_MODEL` in the
+same commit. `CBIO_EMBED_MODEL` changes the model for new builds and the
+router; in a container it must name a model already in the image's cache.
 
 **Build and package it** on any machine with the raw papers:
 
@@ -233,7 +238,8 @@ OAuth.
    pull secret for the cluster. Pin deployments to `:sha-<short>` or a
    release tag (`git tag v1.0.0 && git push --tags` produces `:1.0.0`).
 3. **Passage index.**
-   1. Build it with `cbio-kb index build-papers` and `build-bm25`.
+   1. Build it with `cbio-kb index build-papers` (it builds the BM25 sidecar
+      too; needs `uv run python -m spacy download en_core_web_sm`).
    2. Package it with `scripts/package_index.sh` and upload the tarball.
    3. To bake it into the images, set `PAPER_INDEX_URL` and
       `PAPER_INDEX_SHA256`, then re-run `mcp-server.yml` and `chat-api.yml`

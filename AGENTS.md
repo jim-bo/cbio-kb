@@ -45,7 +45,7 @@ uv run uvicorn ai_search.app:app --host 0.0.0.0 --port 8080 --reload
 quarto preview --host 0.0.0.0 --port 4321 --no-browser
 ```
 
-Then open `http://localhost:4321/ask.html`. The page auto-detects `localhost` and posts to `http://localhost:8080/api/chat`. Add `?cloud=1` to the URL to force the deployed Cloud Run backend instead.
+Then open `http://localhost:4321/ask.html`. The page auto-detects `localhost` and posts to `http://localhost:8080/api/chat`. Add `?cloud=1` to the URL to force the deployed backend instead (the one in `wiki/ask-config.js`).
 
 If you're running inside the sandbox, publish both ports to the host:
 
@@ -68,7 +68,7 @@ uv run cbio-kb serve --transport http --port 8124     # http://127.0.0.1:8124/mc
 
 Direct commits and pushes to `main` are the default. Open a PR only when the change is large or risky enough that a second pair of eyes adds value.
 
-- Push to `main` kicks off three workflows: `test`, `Publish Quarto site` (GitHub Pages), and `Deploy chat API to Cloud Run`.
+- Push to `main` runs `test` every time, plus the deployables' workflows when their paths change: `Website` (GitHub Pages; `wiki/`, `schema/`), `Chat API` (image to GHCR, then the optional Cloud Run deploy), and `MCP server` (image to GHCR). Wiki markdown changes rebuild all three, since both images bake in the wiki. See `docs/hosting.md`.
 - Scope each commit to one concern and leave unrelated modifications (e.g. ambient WIP in `pyproject.toml`, `uv.lock`) unstaged.
 - Run `uv run pytest` before pushing any change that touches `src/cbio_kb/` or `ai_search/`.
 

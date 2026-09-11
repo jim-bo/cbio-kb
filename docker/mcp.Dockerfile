@@ -52,7 +52,7 @@ RUN uv sync --frozen --no-dev --extra chat --extra server --no-install-project
 ENV HF_HOME=/app/hf-cache \
     CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
 RUN .venv/bin/python -c "import os; from sentence_transformers import CrossEncoder; CrossEncoder(os.environ['CBIO_RERANKER_MODEL'])"
-ARG EMBED_MODEL=BAAI/bge-base-en-v1.5
+ARG EMBED_MODEL=Snowflake/snowflake-arctic-embed-m-v1.5
 RUN if [ -n "$EMBED_MODEL" ]; then \
       .venv/bin/python -c "import sys; from sentence_transformers import SentenceTransformer; SentenceTransformer(sys.argv[1])" "$EMBED_MODEL"; \
     fi

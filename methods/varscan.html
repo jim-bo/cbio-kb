@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,12 +184,16 @@ ul.task-list li input[type="checkbox"] {
 <li>One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic variant detection in 820 TCGA diffuse glioma exomes <a href="../papers/26824661.html">PMID:26824661</a></li>
 <li>Used (as VarScan2) together with Sequenza to generate intersected copy-number profiles from anti-PD-1-treated melanoma WES data <a href="../papers/26997480.html">PMID:26997480</a></li>
 <li>VarScan2 v2.3.2 used for somatic SNV calling in MET500 whole-exome sequencing data (500 metastatic solid tumors, mean 180× tumor / 120× normal coverage, aligned to GRCh37/hg19 via Novoalign) <a href="../papers/28783718.html">PMID:28783718</a></li>
-<li>VarScan 2.3.7 applied as one of four somatic callers in intersection-based SNV detection for 68 paired melanoma WES biopsies in the CA209-038 nivolumab trial <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li>VarScan 2.3.7 applied as one of four somatic callers in intersection-based SNV detection for 68 paired melanoma WES biopsies in the CA209-038 <a href="../drugs/nivolumab.html">nivolumab</a> trial <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li>One of seven somatic callers in the TCGA MC3 ensemble pipeline run on the DNAnexus cloud across ~10,510 TCGA tumor/normal pairs <a href="../papers/29596782.html">PMID:29596782</a></li>
 <li>Used (v2.3.8) for both germline SNV calling and as one of seven somatic MC3 callers across 11,000 TCGA PanCancer Atlas tumors; germline calling performed on GRCh37-lite aligned data <a href="../papers/29625049.html">PMID:29625049</a>.</li>
 <li>Used for somatic variant calling in pediatric cancer WGS samples <a href="../papers/29670109.html">PMID:29670109</a></li>
-<li>VarScan 2 v2.4.1 used for somatic indel calling from whole-exome sequencing of 622 AML specimens in the Beat AML study (aml_ohsu_2018) <a href="../papers/30333627.html">PMID:30333627</a></li>
-<li>Part of the consensus SNV/indel calling pipeline in the high-grade UTUC WES study (37 tumor-normal pairs), used together with <a href="../methods/mutect.html">mutect</a> and <a href="../methods/strelka.html">strelka</a>; consensus calls annotated by <a href="../methods/oncotator.html">oncotator</a> <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>VarScan 2 v2.4.1 used for somatic indel calling from whole-exome sequencing of 622 <a href="../cancer_types/AML.html">AML</a> specimens in the Beat AML study (<a href="../datasets/aml_ohsu_2018.html">aml_ohsu_2018</a>) <a href="../papers/30333627.html">PMID:30333627</a></li>
+<li>Part of the consensus SNV/indel calling pipeline in the high-grade <a href="../cancer_types/UTUC.html">UTUC</a> WES study (37 tumor-normal pairs), used together with <a href="../methods/mutect.html">mutect</a> and <a href="../methods/strelka.html">strelka</a>; consensus calls annotated by <a href="../methods/oncotator.html">oncotator</a> <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>One of three somatic callers (with Mutect2 and TNscope) requiring agreement from at least 2 of 3 for SNV/indel calls in a paired tumor-normal WES cohort <a href="../papers/35487942.html">PMID:35487942</a></li>
+<li>Called somatic and germline variants (VarDict re-called indels/complex variants) in a GenPipes DNA-Seq high-coverage pipeline <a href="../papers/36815791.html">PMID:36815791</a></li>
+<li>One of four callers (with MuTect2, Strelka, Pindel) requiring calls from at least 2 callers (paired) or all three non-Pindel callers (tumor-only) in a pediatric solid-tumor PDX cohort <a href="../papers/37990009.html">PMID:37990009</a></li>
+<li>Used (with Strelka, Platypus and Scalpel) for indel calling in three whole-genome-sequenced breast cancer cases <a href="../papers/38347189.html">PMID:38347189</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -198,21 +205,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25583493.html">PMID:25583493</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25855536.html">PMID:25855536</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26095796.html">PMID:26095796</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26760213.html">PMID:26760213</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26824661.html">PMID:26824661</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26997480.html">PMID:26997480</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28783718.html">PMID:28783718</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/29670109.html">PMID:29670109</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/30333627.html">PMID:30333627</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<ul>
+<li><a href="../papers/25583476.html">PMID:25583476</a></li>
+<li><a href="../papers/25583493.html">PMID:25583493</a></li>
+<li><a href="../papers/25855536.html">PMID:25855536</a></li>
+<li><a href="../papers/26095796.html">PMID:26095796</a></li>
+<li><a href="../papers/26760213.html">PMID:26760213</a></li>
+<li><a href="../papers/26824661.html">PMID:26824661</a></li>
+<li><a href="../papers/26997480.html">PMID:26997480</a></li>
+<li><a href="../papers/28783718.html">PMID:28783718</a></li>
+<li><a href="../papers/29033130.html">PMID:29033130</a></li>
+<li><a href="../papers/29596782.html">PMID:29596782</a></li>
+<li><a href="../papers/29625049.html">PMID:29625049</a></li>
+<li><a href="../papers/29670109.html">PMID:29670109</a></li>
+<li><a href="../papers/30333627.html">PMID:30333627</a></li>
+<li><a href="../papers/31278255.html">PMID:31278255</a></li>
+<li><a href="../papers/35487942.html">PMID:35487942</a></li>
+<li><a href="../papers/36815791.html">PMID:36815791</a></li>
+<li><a href="../papers/37990009.html">PMID:37990009</a></li>
+<li><a href="../papers/38347189.html">PMID:38347189</a></li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

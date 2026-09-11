@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cancer type-specific variation in patterns of driver alterations across 50,000 tumors – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/41895280.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/41895280.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cancer type-specific variation in patterns of driver alterations across 50,000 tumors</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chaitanya Bandlamudi </p>
+             <p>Daniel Muldoon </p>
+             <p>Ino de Bruijn </p>
+             <p>Mingxuan Zhang </p>
+             <p>Michael V Gormally </p>
+             <p>Emily C Harrold </p>
+             <p>Subhiksha Nandakumar </p>
+             <p>Shaleigh A Smith </p>
+             <p>Mark Y Jeng </p>
+             <p>Sydney Woods </p>
+             <p>Kanika Arora </p>
+             <p>Walid K Chatila </p>
+             <p>Bastien Nguyen </p>
+             <p>Henry Walch </p>
+             <p>Jun Woo </p>
+             <p>Craig M Bielski </p>
+             <p>Christopher Fong </p>
+             <p>Thinh N Tran </p>
+             <p>Gaofei Zhao </p>
+             <p>Miika Mehine </p>
+             <p>Maria A Perry </p>
+             <p>Sam E Tischfield </p>
+             <p>Allison L Richards </p>
+             <p>Suraj Rajendran </p>
+             <p>Hongxin Zhang </p>
+             <p>Christoph K Kreitzer </p>
+             <p>Ronak Shah </p>
+             <p>Risha Huq </p>
+             <p>Jesse Galle </p>
+             <p>Tina Alano </p>
+             <p>Ramyasree Madupuri </p>
+             <p>Ritika Kundra </p>
+             <p>Justin Jee </p>
+             <p>Karl Pichotta </p>
+             <p>Michele Waters </p>
+             <p>Richard A Hickman </p>
+             <p>Josephine K Dermawan </p>
+             <p>Jie-Fu Chen </p>
+             <p>Anton Safonov </p>
+             <p>Konrad H Stopsack </p>
+             <p>Ritesh R Kotecha </p>
+             <p>Hira A Rizvi </p>
+             <p>Claire F Friedman </p>
+             <p>Pedram Razavi </p>
+             <p>Ezra Rosen </p>
+             <p>Yonina R Murciano-Goroff </p>
+             <p>Luc G T Morris </p>
+             <p>James A Fagin </p>
+             <p>Ingo K Mellinghoff </p>
+             <p>Ping Chi </p>
+             <p>Neerav N Shukla </p>
+             <p>Adam J Schoenfeld </p>
+             <p>Gregory J Riely </p>
+             <p>Charles M Rudin </p>
+             <p>Alexander Drilon </p>
+             <p>Jake June-Koo Lee </p>
+             <p>Hikmat A Al-Ahmadie </p>
+             <p>Gopa Iyer </p>
+             <p>Anna M Varghese </p>
+             <p>Eileen M O’Reilly </p>
+             <p>Zsofia K Stadler </p>
+             <p>Mark E Robson </p>
+             <p>Ed Reznik </p>
+             <p>JianJiong Gao </p>
+             <p>Diana Mandelker </p>
+             <p>Irina Ostrovnaya </p>
+             <p>Satshil Rana </p>
+             <p>Gowtham Jayakumaran </p>
+             <p>Anita Bowman </p>
+             <p>Abhinita Mohanty </p>
+             <p>Anoop Rema Balakrishnan </p>
+             <p>Aijazuddin Syed </p>
+             <p>Ryan N Ptashkin </p>
+             <p>Jacklyn Casanova-Murphy </p>
+             <p>Debyani Chakravarty </p>
+             <p>Ryma Benayed </p>
+             <p>Maria E Arcila </p>
+             <p>Sarat Chandarlapaty </p>
+             <p>Helena A Yu </p>
+             <p>Neal Rosen </p>
+             <p>Mark T A Donoghue </p>
+             <p>Christopher A Klebanoff </p>
+             <p>Rona Yaeger </p>
+             <p>A Rose Brannon </p>
+             <p>Ahmet Zehir </p>
+             <p>Marc Ladanyi </p>
+             <p>Nikolaus Schultz </p>
+             <p>David B Solit </p>
+             <p>Michael F Berger </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.ccell.2026.03.003">10.1016/j.ccell.2026.03.003</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 41895280 · <strong>DOI:</strong> 10.1016/j.ccell.2026.03.003 · <strong>Journal:</strong> Cancer Cell (2026)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Bandlamudi et al.&nbsp;analyze the MSK-50K cohort: 54,331 prospectively sequenced tumors with patient-matched normal blood from 48,179 patients at Memorial Sloan Kettering, spanning 448 detailed OncoTree histologies. The cohort is released on cBioPortal as <a href="../datasets/msk_impact_50k_2026.html">msk_impact_50k_2026</a>. The authors find 164 new single-codon hotspots, including RAS-paralog hotspots in <a href="../genes/RRAS2.html">RRAS2</a>. They then classify every driver by whether its gene is “canonical” to the cancer type it occurs in, which gives 1,215 canonical gene–cancer type pairs. About one-third (32%) of drivers occur in non-canonical contexts. There they are more subclonal, arise later, show less biallelic inactivation of tumor suppressors, and occur more often in patients with high-penetrance germline variants. The same framing explains cancer type-specific selection for <a href="../genes/BRAF.html">BRAF</a> functional classes and gene associations with early or late age of diagnosis; RTK fusions give the strongest early-onset signals. Last, the authors genotype HLA class I alleles and somatic HLA LOH. Eligibility for current <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/TP53.html">TP53</a> neoantigen-directed TCR therapies varies sharply by ancestry, and at least 15% of eligible patients have already lost the restricting HLA allele (<a href="../papers/41895280.html">PMID:41895280</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Accrual:</strong> 56,801 solid-tumor biopsies from 49,929 patients were sequenced as part of routine clinical care at MSKCC between January 2014 and September 2021. After QC, 54,331 tumors from 48,179 patients were kept; 5,070 of these patients had two or more sequenced specimens (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/msk_impact_50k_2026.html">msk_impact_50k_2026</a>, with somatic and clinical data on cBioPortal and also deposited on Zenodo (record 18445440). The new hotspots were added to cancerhotspots.org (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Assay:</strong> <a href="../methods/msk-impact-panel.html">msk-impact-panel</a>, tumor plus matched normal blood, sequenced in a CLIA-certified lab with an FDA-authorized assay. Four panel versions were used: <a href="../methods/IMPACT341.html">IMPACT341</a> (n=2,661 samples), <a href="../methods/IMPACT410.html">IMPACT410</a> (n=9,674), <a href="../methods/IMPACT468.html">IMPACT468</a> (n=36,323) and <a href="../methods/IMPACT505.html">IMPACT505</a> (n=8,143). Median coverage was 615x in tumors and 484x in normals. Alterations were called with the clinically validated MSK-IMPACT pipeline first described in <a href="../papers/28481359.html">PMID:28481359</a> (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Histology:</strong> Pathologists assigned OncoTree subtypes. After excluding cancers of unknown primary (n=1,546 patients) and tumors with only a high-level annotation (n=3,148), 43,485 patients fell into 448 detailed subtypes, 101 of which had 50 or more patients. 57% of tumors came from patients with metastatic disease, and median histopathologic purity was 45% (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Analytic sub-cohorts:</strong> MSI/POLE hypermutators and 3,061 tumors (5.6%) with very high mutational burden (n=2,607) or copy-number burden (n=454) were excluded from the association analyses. One tumor was then kept per patient, leaving 40,657 patients across 447 histologies. Of these, 37,080 patients fell into the 96 cancer types with 50 or more patients, which were used for canonical-gene discovery (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Clinical annotation:</strong> Age at diagnosis and disease status (primary vs.&nbsp;metastatic) came from NLP-based automated chart review, the approach of <a href="../papers/39506116.html">PMID:39506116</a>. NLP-derived age matched manual review in more than 90% of a checked subset, and disease status was assigned for 98% of the cohort. Genetic ancestry was inferred from the normal blood sequencing (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Driver definition:</strong> An alteration counted as a driver if <a href="../methods/oncokb.html">oncokb</a> (v3.9, December 30, 2021) called it “oncogenic” or “likely oncogenic”, or if it was at one of the newly identified hotspots (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Computational tools:</strong>
+<ul>
+<li><a href="../methods/facets.html">facets</a> v0.5.14 (two-pass, with a QC and refit procedure) for allele-specific copy number, purity, whole-genome doubling and fraction of genome altered. Purity was estimated from mutation VAFs for 13% of tumors (6,894/54,331). A mutation was called clonal if CCF &gt; 0.8, or if CCF &gt; 0.7 with an upper 95% CI above 0.9.</li>
+<li><a href="../methods/msisensor.html">msisensor</a> for MSI, with a score of 10 or more called MSI.</li>
+<li>COSMIC v2 <a href="../methods/mutational-signatures.html">mutational-signatures</a> decomposition in tumors with TMB ≥10.</li>
+<li><a href="../methods/polysolver.html">polysolver</a> for HLA class I genotyping, estimated at more than 95% accuracy.</li>
+<li><a href="../methods/lohhla.html">lohhla</a> for somatic HLA LOH, run on 29,802 tumors (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong>Cohort-wide features</strong></p>
+<ul>
+<li><strong>MSI:</strong> 2.7% of patients (n=1,278) had MSI. The highest rates were in endometrial cancer (<a href="../cancer_types/UCEC.html">UCEC</a>; 15%, 349/2,348), colorectal cancer (<a href="../cancer_types/COADREAD.html">COADREAD</a>; 10%, 508/4,950) and esophagogastric cancer (<a href="../cancer_types/EGC.html">EGC</a>; 6%, 93/1,657). At least one MSI tumor appeared in 97 of the 448 subtypes. No MSI was seen in cutaneous melanoma (<a href="../cancer_types/SKCM.html">SKCM</a>, n=881) or breast invasive lobular carcinoma (<a href="../cancer_types/ILC.html">ILC</a>, n=606). The authors argue for universal MSI screening (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>TMB:</strong> 14% of patients (n=6,701) were TMB-H (≥10 mut/Mb). TMB-H was common (≥20%) in bladder, melanoma, lung and vaginal cancers, and rare (≤3%) in sarcomas, gliomas, prostate adenocarcinoma and pancreatic adenocarcinoma. In 80% of evaluable TMB-H tumors, a dominant signature had a known etiology: MMR deficiency 25%, APOBEC 22%, smoking 17%, UV 12%, <a href="../genes/POLE.html">POLE</a> 2.7% (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+<p><strong>New hotspots</strong></p>
+<ul>
+<li><strong>Discovery:</strong> The <a href="../methods/cancer-hotspots.html">cancer-hotspots</a> algorithm was run on 45,492 tumors from 77 cancer types. It flagged 313 candidate codons (Q &lt; 0.01, at least 5 tumors). Technical, clonality and cancer-type-concordance filters reduced these to 164 new hotspots (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Validation:</strong> 52% of the new hotspots were already annotated as oncogenic in OncoKB, and 163/164 were also mutated in non-MSK GENIE or TCGA. Their clonality matched known hotspots and was higher than that of VUS (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>The long tail:</strong> 99% of new hotspots (162/164) were each mutated in 0.1% of patients or fewer, but together they occurred in 5% of the cohort. 70% (114/164) were in tumor suppressor genes (together in 3.4% of patients), and these tumors were enriched for LOH at the TSG locus (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Lineage-restricted hotspots:</strong>
+<ul>
+<li>New <a href="../genes/KEAP1.html">KEAP1</a> and <a href="../genes/STK11.html">STK11</a> hotspots were found mainly in lung cancer. New <a href="../genes/KEAP1.html">KEAP1</a> hotspots co-occurred with known <a href="../genes/STK11.html">STK11</a> drivers, and vice versa.</li>
+<li>12 new hotspots in <a href="../genes/SMAD2.html">SMAD2</a>/<a href="../genes/SMAD3.html">SMAD3</a>/<a href="../genes/SMAD4.html">SMAD4</a> and 6 in <a href="../genes/TCF7L2.html">TCF7L2</a> together occurred in 212 tumors, 87% of gastrointestinal origin (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/RRAS2.html">RRAS2</a>:</strong>
+<ul>
+<li>Besides the known Q72 hotspot (n=49, paralogous to K/H/NRAS Q61), two new hotspots were found: G23 (n=65) and G24 (n=33), paralogous to G12 and G13.</li>
+<li>70% of <a href="../genes/RRAS2.html">RRAS2</a> hotspot mutations (104/147) were in endometrial and <a href="../cancer_types/germ-cell-tumor.html">germ cell tumors</a>. In germ cell tumors, every oncogenic RRAS2 mutation was at G23 or G24 (n=22).</li>
+<li>RRAS2 hotspot mutations were mutually exclusive with <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/HRAS.html">HRAS</a>/<a href="../genes/NRAS.html">NRAS</a> drivers (p = 0.0016) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong>Second-hit hotspots in oncogenes:</strong>
+<ul>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>: 51% of tumors with a new hotspot (54/105) also had a second <a href="../genes/PIK3CA.html">PIK3CA</a> hotspot, compared with 9% of tumors with a common hotspot (p = 5e-22). The new hotspots were also more subclonal (p = 0.02).</li>
+<li><a href="../genes/KRAS.html">KRAS</a>: V14 usually co-occurred with a common <a href="../genes/KRAS.html">KRAS</a> hotspot, and every phaseable double mutant was in cis.</li>
+<li><a href="../genes/EGFR.html">EGFR</a>: all 43 <a href="../cancer_types/LUAD.html">LUAD</a> with a new hotspot also carried an initiating mutation (L858 or an exon 19/20 indel).</li>
+<li><a href="../genes/EGFR.html">EGFR</a> V834 emerged late, like the resistance mutations T790 and C797, but in one patient it appeared with no prior systemic therapy. Only 2 of the 8 other V834 patients (all L858-positive) had been treated (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+</ul>
+<p><strong>Canonical and non-canonical drivers</strong></p>
+<ul>
+<li><strong>How pairs were called:</strong> The analysis covered 96 cancer types and used oncogenic alterations only.
+<ul>
+<li>Each type’s alteration rate was compared with a pan-cancer rate from downsampling (up to 250 tumors per type, 1,000 iterations; one-sided Fisher’s test).</li>
+<li>Mutual exclusivity with the type’s other canonical drivers, or depletion of their burden, was tested by multivariable regression adjusted for age, sex, ancestry and disease status.</li>
+<li>These tests found 1,141 significant gene–cancer type pairs (adj. p &lt; 0.05) out of 38,400 tested. Another 74 were “rescued” for high-frequency genes: <a href="../genes/TP53.html">TP53</a> in 30 types, <a href="../genes/CDKN2A.html">CDKN2A</a> 15, <a href="../genes/TERT.html">TERT</a> 13, <a href="../genes/PIK3CA.html">PIK3CA</a> 8, <a href="../genes/KRAS.html">KRAS</a> 8.</li>
+<li>That gives 1,215 canonical pairs. A parallel alteration-level analysis gave 1,180 canonical driver alterations (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong>Drivers per tumor:</strong> the median tumor had 4 drivers, 2 of them in canonical genes (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Rare canonical associations:</strong> 153 associations involved alterations seen in less than 2% of the cancer type.
+<ul>
+<li><a href="../genes/ERBB2.html">ERBB2</a> is common in <a href="../cancer_types/BRCA.html">BRCA</a> (15%) and <a href="../cancer_types/STAD.html">STAD</a> (18%). In <a href="../cancer_types/SKCM.html">SKCM</a> (0.8%) and <a href="../cancer_types/PAAD.html">PAAD</a> (1.6%) it was rare but mutually exclusive with those cancers’ other canonical drivers.</li>
+<li><a href="../genes/NRAS.html">NRAS</a> in <a href="../cancer_types/PAAD.html">PAAD</a> (0.3%) and <a href="../cancer_types/LUAD.html">LUAD</a> (0.6%) was depleted for other canonical drivers.</li>
+<li><a href="../genes/RRAS.html">RRAS</a>, <a href="../genes/CUL3.html">CUL3</a> and <a href="../genes/ARAF.html">ARAF</a> are altered in about 0.05% of the cohort overall, yet were canonical in specific types: <a href="../genes/RRAS.html">RRAS</a> in LUAD (0.2%), <a href="../genes/CUL3.html">CUL3</a> in <a href="../cancer_types/PRAD.html">PRAD</a> (0.6%), and <a href="../genes/ARAF.html">ARAF</a> in <a href="../cancer_types/SKCM.html">SKCM</a> (0.5%) and <a href="../cancer_types/IHCH.html">IHCH</a> (0.8%) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong>Non-canonical drivers look like late events:</strong>
+<ul>
+<li>32% of all drivers were in genes not associated with the host cancer type. These drivers were much more subclonal, with clonality close to that of VUS.</li>
+<li>The canonical vs.&nbsp;non-canonical difference was significant in 67% of cancer types.</li>
+<li>In longitudinally sequenced patients, non-canonical drivers tended to arise later (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a> clonality:</strong> Mutations were mostly clonal in canonical breast, uterine and bladder cancers. In non-canonical LUAD (5% altered), esophageal adenocarcinoma (<a href="../cancer_types/ESCA.html">ESCA</a>, 8%) and glioblastoma (<a href="../cancer_types/GB.html">GB</a>, 11%) they were more subclonal and later-arising, and this was not explained by which hotspot was used. Colon (<a href="../cancer_types/COAD.html">COAD</a>, 21%) and rectal (<a href="../cancer_types/READ.html">READ</a>, 14%) cancers are canonical, but their PIK3CA mutations were also more subclonal. The authors attribute this to the known emergence of PIK3CA mutations on treatment (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Zygosity:</strong> In 68% of tumor suppressor genes (32/47), mutations in canonical contexts showed more biallelic loss than mutations in the same gene in non-canonical contexts (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Germline:</strong> Patients whose drivers were only in non-canonical contexts carried more high-penetrance pathogenic germline variants (8% vs.&nbsp;5%, p = 2e-31) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+<p><strong><a href="../genes/BRAF.html">BRAF</a> functional classes</strong></p>
+<ul>
+<li><strong>Frequency and class use:</strong> <a href="../genes/BRAF.html">BRAF</a> was mutated in 5% of MSS tumors. In canonical BRAF cancer types, more than two-thirds of alterations were Class I (V600E/K/R); in non-canonical types only 10% were Class I and 49% were Class II (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Clonality:</strong> Class I alterations were more clonal than other classes (p = 3e-4). Class III alterations were notably subclonal in non-canonical types (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Co-alterations:</strong> The analysis covered MSS tumors in 18 cancer types and 148 genes; 49 of 592 associations were significant.
+<ul>
+<li>Class I/II alterations were largely mutually exclusive with other RAS/RTK activation. Class III depended on co-occurring <a href="../genes/HRAS.html">HRAS</a> (adj. p = 4e-4) and <a href="../genes/NF1.html">NF1</a> (adj. p = 0.005) alterations, consistent with <a href="../papers/33509808.html">PMID:33509808</a>.</li>
+<li>Class I tumors were enriched for <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/TGFBR2.html">TGFBR2</a> and <a href="../genes/SETD2.html">SETD2</a> alterations (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong><a href="../genes/SETD2.html">SETD2</a> in LUAD:</strong> SETD2 (3%) and BRAF V600 (1%) are each rare in LUAD, yet 47% of BRAF V600 LUADs carried SETD2 alterations, which the authors call a likely clinically relevant subtype (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong><a href="../genes/RNF43.html">RNF43</a> in colorectal cancer:</strong> RNF43 was the gene most enriched in Class I tumors (adj. p = 1e-34), and 98% of co-altered tumors were colorectal. Other WNT genes (<a href="../genes/APC.html">APC</a>, <a href="../genes/AMER1.html">AMER1</a>, <a href="../genes/TCF7L2.html">TCF7L2</a>) were depleted in BRAF Class I CRC. Among 73 MSS CRC patients treated with anti-EGFR/anti-BRAF therapy, RNF43 status did not change outcomes (multivariable <a href="../methods/cox-proportional-hazards.html">cox-proportional-hazards</a> models of PFS and OS) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+<p><strong>Age of onset</strong></p>
+<ul>
+<li><strong>Subtypes:</strong> Age at diagnosis differed between histological subtypes in 14 of 22 major cancer types (adj. p &lt; 0.05) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Gene associations:</strong>
+<ul>
+<li>Setup: 25,498 patients in 42 cancer types with 100 or more patients. Germline pathogenic carriers and patients diagnosed at age 18 or younger were excluded, and the models adjusted for disease status, ancestry, sex and FGA.</li>
+<li>Initial scan: 36 of 1,079 associations were significant.</li>
+<li>Correction: late-onset associations were re-tested after excluding tumors with early-onset drivers. In SKCM, for example, <a href="../genes/NF1.html">NF1</a> and <a href="../genes/NRAS.html">NRAS</a> looked “late-onset” only because they are mutually exclusive with early-onset <a href="../genes/BRAF.html">BRAF</a>, and lost significance once BRAF-mutant tumors were removed.</li>
+<li>Result: 22 significant associations (16 early, 6 later; q &lt; 0.05), all in canonical contexts (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong>Brain tumors (glioblastoma, Fig. 5C):</strong> Median age at diagnosis was 32 years with <a href="../genes/H3-3A.html">H3-3A</a> (reported as H3F3A) alterations and 39 years with <a href="../genes/ATRX.html">ATRX</a> alterations. Tumors with both were diagnosed at a median of 28 years (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Papillary thyroid cancer (<a href="../cancer_types/THPA.html">THPA</a>):</strong>
+<ul>
+<li><a href="../genes/RET.html">RET</a> alterations were linked to early onset and <a href="../genes/TERT.html">TERT</a> alterations to later onset. <a href="../genes/RET.html">RET</a>+<a href="../genes/TERT.html">TERT</a> co-mutant tumors presented later; only RET-mutant, TERT-wild-type tumors presented early.</li>
+<li>BRAF was not associated with age overall, but BRAF-mutant, TERT-wild-type tumors presented earlier (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong>Fusions:</strong>
+<ul>
+<li>Pan-cancer, RTK-pathway fusions gave the strongest early-onset signals: <a href="../genes/ALK.html">ALK</a>, <a href="../genes/RET.html">RET</a> and <a href="../genes/ROS1.html">ROS1</a> in LUAD, and <a href="../genes/NTRK1.html">NTRK1</a>/<a href="../genes/NTRK2.html">NTRK2</a>/<a href="../genes/NTRK3.html">NTRK3</a> and <a href="../genes/FGFR2.html">FGFR2</a> mainly in non-lung cancers.</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> fusions, but not <a href="../genes/FGFR3.html">FGFR3</a> hotspot mutations, were associated with early onset in <a href="../cancer_types/BLCA.html">BLCA</a>.</li>
+<li>BRAF fusions in SKCM presented younger than other BRAF alterations. No BRAF alteration type was associated with age in <a href="../cancer_types/PRAD.html">PRAD</a>, a non-canonical context for BRAF (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+</ul>
+<p><strong>HLA and neoantigen-directed TCR therapy</strong></p>
+<ul>
+<li><strong>Neoantigens and eligibility:</strong> The analysis was limited to empirically validated neopeptides that have active TCR-therapy trials: <a href="../genes/KRAS.html">KRAS</a> G12D/V and <a href="../genes/TP53.html">TP53</a> R175H, R248W and Y220C, each with its restricting HLA allele(s). 14% of patients had one of these mutations, and 22% of those also carried a restricting allele (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Ancestry:</strong> All five restricting alleles varied in prevalence by ancestry.
+<ul>
+<li>East Asian patients had the highest frequencies of <a href="../genes/HLA-A.html">HLA-A</a> A*11:01 (44%) and <a href="../genes/HLA-C.html">HLA-C</a> C*01:02 (32%). Each was about 1% in patients of African ancestry.</li>
+<li>As a result, 0% of African-ancestry G12V patients and 6% of G12D patients would be eligible, against a median of 26% in other ancestries (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+<li><strong>Somatic HLA LOH:</strong>
+<ul>
+<li>HLA class I LOH was found in 25.4% of patients. At the restricting loci, LOH rates in mutant tumors were no different from wild-type tumors.</li>
+<li>Among A*02:01 tumors with <a href="../genes/HLA-A.html">HLA-A</a> LOH, loss of the restricting allele was preferentially seen with <a href="../genes/TP53.html">TP53</a> R175H, only in colorectal cancer (not lung or pancreatic).</li>
+<li>In KRAS, the same pattern held for G12V but not G12D. The authors attribute this to A*11:01’s weaker predicted binding of the G12D neopeptide (citing NetMHCpan-4.0).</li>
+<li>At least 15% of eligible patients (the Discussion says “nearly one in six”) have lost the restricting allele and are expected to be intrinsically resistant (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<p><strong>Hotspot discoveries</strong></p>
+<ul>
+<li><a href="../genes/RRAS2.html">RRAS2</a>: new hotspots G23 (n=65) and G24 (n=33), paralogs of RAS G12/G13, alongside the known Q72 (n=49). These mutations are concentrated in endometrial and germ cell tumors, and are the only oncogenic RRAS2 mutations seen in germ cell tumors. They are mutually exclusive with K/H/NRAS drivers (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/STK11.html">STK11</a>: new hotspots found mainly in lung cancer. New KEAP1 hotspots co-occur with STK11 drivers and vice versa (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/SMAD2.html">SMAD2</a>, <a href="../genes/SMAD3.html">SMAD3</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/TCF7L2.html">TCF7L2</a>: 12 new TGF-β-pathway hotspots and 6 new <a href="../genes/TCF7L2.html">TCF7L2</a> hotspots, in 212 tumors (87% GI). <a href="../genes/SMAD4.html">SMAD4</a> and <a href="../genes/TGFBR2.html">TGFBR2</a> are also enriched in BRAF Class I tumors (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>: new hotspots usually appear as second hits alongside a common PIK3CA hotspot (51% vs.&nbsp;9%) and are more subclonal. Mutations are clonal in canonical <a href="../cancer_types/BRCA.html">BRCA</a>, uterine and <a href="../cancer_types/BLCA.html">BLCA</a>, but subclonal and late in non-canonical LUAD, <a href="../cancer_types/ESCA.html">ESCA</a> and <a href="../cancer_types/GB.html">GB</a> (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/KRAS.html">KRAS</a>: new V14 hotspot, co-occurring in cis with common KRAS hotspots. Pan-cancer canonical “rescue” in 8 cancer types. G12D and G12V are targets of HLA-restricted TCR therapy (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/EGFR.html">EGFR</a>: new hotspots in LUAD always co-occur with initiating L858 or exon 19/20 indels. V834 can arise late and without prior treatment (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>: all 12 new hotspots in genes mutated independently of cancer type are in these two genes. Both are rescued as canonical (TP53 in 30 types, <a href="../genes/CDKN2A.html">CDKN2A</a> in 15). TP53 R175H, R248W and Y220C are TCR-therapy neoantigens (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+<p><strong>Rare canonical drivers</strong></p>
+<ul>
+<li><a href="../genes/ERBB2.html">ERBB2</a>: a rare but canonical driver in SKCM (0.8%) and PAAD (1.6%), where it is mutually exclusive with other canonical drivers (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/NRAS.html">NRAS</a>: canonical but rare in PAAD (0.3%) and LUAD (0.6%). Its apparent late-onset link in melanoma disappears once BRAF-mutant tumors are excluded (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/RRAS.html">RRAS</a> (LUAD 0.2%), <a href="../genes/CUL3.html">CUL3</a> (<a href="../cancer_types/PRAD.html">PRAD</a> 0.6%), <a href="../genes/ARAF.html">ARAF</a> (SKCM 0.5%, <a href="../cancer_types/IHCH.html">IHCH</a> 0.8%): extremely rare overall (about 0.05%) but canonical, with depletion of other drivers, in these types (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+<p><strong>BRAF classes and co-alterations</strong></p>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a>: Class I dominates canonical types and Class II dominates non-canonical types (49%). Class I alterations are the most clonal; Class III alterations are subclonal in non-canonical types. BRAF-mutant, TERT-wild-type <a href="../cancer_types/THPA.html">THPA</a> presents early, and BRAF fusions in SKCM present youngest (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/NF1.html">NF1</a>: cooperating alterations enriched in BRAF Class III tumors (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/RNF43.html">RNF43</a>: the gene most enriched in BRAF Class I tumors (adj. p = 1e-34; 98% in CRC). RNF43 status did not predict PFS or OS on anti-EGFR/anti-BRAF therapy (n=73) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/APC.html">APC</a>, <a href="../genes/AMER1.html">AMER1</a>: WNT genes depleted in BRAF Class I CRC (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/SETD2.html">SETD2</a>: co-altered in 47% of BRAF V600 LUAD. <a href="../genes/AKT1.html">AKT1</a> and <a href="../genes/MTOR.html">MTOR</a> are also enriched with BRAF Class I (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+<p><strong>Age of onset</strong></p>
+<ul>
+<li><a href="../genes/H3-3A.html">H3-3A</a> (H3F3A), <a href="../genes/ATRX.html">ATRX</a>: early onset in brain tumors (median 32 and 39 years), and earlier still when co-altered (28 years) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/TERT.html">TERT</a>, <a href="../genes/RET.html">RET</a>: in THPA, TERT alterations are linked to later onset and RET alterations to early onset only when TERT is wild-type. RET fusions are also linked to early onset in LUAD (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/ALK.html">ALK</a>, <a href="../genes/ROS1.html">ROS1</a>, <a href="../genes/NTRK1.html">NTRK1</a>, <a href="../genes/NTRK2.html">NTRK2</a>, <a href="../genes/NTRK3.html">NTRK3</a>, <a href="../genes/FGFR2.html">FGFR2</a>: fusions linked to strikingly early age at diagnosis (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a>: in BLCA, fusions (but not hotspot mutations) are linked to early onset (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+<p><strong>HLA genes</strong></p>
+<ul>
+<li><a href="../genes/HLA-A.html">HLA-A</a>, <a href="../genes/HLA-C.html">HLA-C</a>: A*11:01, C*01:02 and A*02:01 are among the neoantigen-restricting alleles, and their frequencies vary by ancestry. HLA class I LOH occurs in 25.4% of patients. Preferential loss of the restricting allele was seen for A*02:01 with TP53 R175H in CRC, and for KRAS G12V but not G12D (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Context matters for actionability:</strong> The authors argue for classifying drivers by cancer-type context. For example, PIK3CA hotspots in non-canonical GB, LUAD and esophageal adenocarcinoma are subclonal and late, which may mean less therapeutic sensitivity than in canonical PIK3CA cancers (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Universal MSI screening:</strong> MSI turned up in 97 of 448 subtypes. Because MSI is a tumor-agnostic biomarker for immune checkpoint blockade, the authors recommend testing all cancers (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>HLA-LOH screening before TCR therapy:</strong> At least 15% of patients who would otherwise qualify for KRAS G12D/V or TP53 R175H/R248W/Y220C TCR therapies have lost the restricting HLA allele. The authors recommend adding somatic HLA status to trial enrollment criteria. The trials cited are NCT05194735, NCT05438667, NCT05933668, NCT06043713 and NCT05877599 (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Equity in HLA-restricted therapies:</strong> Few patients of African ancestry qualify for current trials (0% for G12V, 6% for G12D, vs.&nbsp;a median of 26% in other ancestries). The authors say TCR discovery needs to cover a broader range of HLA alleles to avoid widening disparities in trial access (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Candidate subtype:</strong> BRAF V600 plus SETD2 in LUAD (47% co-alteration) is proposed as a likely clinically relevant molecular subtype (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>RNF43 as a predictive biomarker, not confirmed:</strong> In 73 BRAF V600E MSS CRC patients treated with anti-EGFR/anti-BRAF therapy, RNF43 mutation showed no PFS or OS difference. This contrasts with a prior report (Elez et al.&nbsp;2022, not in this corpus) that RNF43 loss sensitizes these tumors to combined BRAF+EGFR inhibition (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Early-onset disease:</strong> Somatic drivers rarely explained early onset. The exception was RTK fusions (<a href="../genes/ALK.html">ALK</a>, RET, <a href="../genes/ROS1.html">ROS1</a>, NTRK1-3, <a href="../genes/FGFR2.html">FGFR2</a>, and FGFR3 in bladder), which the authors suggest may drive tumorigenesis with few additional hits. They propose that non-genomic factors, including exposures, drive much of early onset, in line with <a href="../papers/34405229.html">PMID:34405229</a> (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Referral-center heterogeneity:</strong> Samples came from a major referral center at point of care, so timing within the disease course and prior local and systemic treatment varied. This affects clonality and late-emergence inferences, e.g., PIK3CA in CRC, which the authors link to on-treatment emergence (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Unequal cohort sizes:</strong> Sample sizes mirror disease incidence, so small histologies have little power. Canonical-gene calling needed at least 50 patients per type and 74 pairs had to be rescued by a frequency rule; the age-of-onset analysis needed at least 100 patients per type (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Hotspot calling is conservative by design:</strong> It used a single cohort, strict filters, and a cancer-type-concordance heuristic that excluded 56 of 122 candidates in genes with known hotspots. Multi-cohort or consensus approaches could find more (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Panel-only:</strong> Only somatic and germline alterations in targeted genes were assessed. Non-coding, expression and epigenetic drivers are out of scope, and whole-genome sequencing is expected to find more (cf.&nbsp;<a href="../papers/32025007.html">PMID:32025007</a>) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+<li><strong>Other points for cross-paper synthesis:</strong>
+<ul>
+<li>The canonical/non-canonical labels depend on the frozen OncoKB version (v3.9, December 2021) and on MSK’s metastatic-heavy case mix (57%). Labels could change in primary-tumor cohorts such as TCGA, whose tissue-specific pathway patterns are discussed in <a href="../papers/29625050.html">PMID:29625050</a> and <a href="../papers/29625048.html">PMID:29625048</a>.</li>
+<li>The BRAF clonality analyses (Fig. 4C–D) used an extended MSK-IMPACT cohort accrued through March 2025, not only the 54,331-tumor release.</li>
+<li>The TCR-eligibility analysis covers only five hotspot/HLA pairs with active trials. The broader restricting-allele repertoire, and whether preferential allele loss predicts clinical response, remain open.</li>
+<li>Age at diagnosis is NLP-derived (more than 90% concordant with manual review in a subset) (<a href="../papers/41895280.html">PMID:41895280</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we define cancer type-specific patterns of driver alterations, including 164 newly identified hotspots, in 54,331 tumors from 48,179 patients spanning 448 histological cancer subtypes. One-third of all drivers arose in non-canonical contexts and exhibited distinct features, including increased subclonality, later emergence, and divergent biological properties.” (Summary, p.&nbsp;1)</li>
+<li>“Microsatellite instability (MSI) was observed in 2.7% (n = 1,278) of all patients.” (Results, p.&nbsp;4)</li>
+<li>“Nearly all new hotspots (99%, 162 of 164) were mutated in 0.1% or fewer patients in the cohort … While individually rare, mutations at the newly identified hotspots are collectively observed in 5% of all patients in the MSK-50K cohort.” (Results, p.&nbsp;5)</li>
+<li>“Mutations at the three RRAS2 hotspots were strongly restricted by cancer type, with 70% (104 of 147) observed in endometrial and germ cell tumors.” (Results, p.&nbsp;5)</li>
+<li>“In all, we observed 1,141 significant gene and cancer type associations (adj. p-value &lt;0.05 …) … We hereafter refer to these 1,215 gene and cancer type pairs as ‘canonical’ gene associations.” (Results, p.&nbsp;6)</li>
+<li>“Nearly a third (32%) of all driver alterations arose in non-canonical cancer type contexts, where the altered gene was not significantly associated with the corresponding cancer type.” (Results, p.&nbsp;7)</li>
+<li>“In more than two-thirds of TSGs (32/47, 68%), the mutations that were observed in canonical contexts exhibited significantly higher rates of biallelic losses compared to the mutations in the same genes but arising in non-canonical cancer types.” (Results, p.&nbsp;7)</li>
+<li>“In canonical BRAF-associated cancer types, more than two-thirds of BRAF alterations were Class I (V600E/K/R), compared to only 10% in non-canonical cancers.” (Results, p.&nbsp;8)</li>
+<li>“nearly half (47%) of BRAFV600 mutant LUADs harbored SETD2 alterations and likely constitute a clinically relevant molecular subtype” (Results, p.&nbsp;8)</li>
+<li>“we identified 22 significant gene associations enriched for early (n = 16) and later (n = 6) ages of disease diagnosis (q &lt; 0.05 …), all of which occurred in canonical cancer type contexts.” (Results, p.&nbsp;9)</li>
+<li>“Consequently, 0% of G12V and only 6% of patients with G12D of African ancestry would be eligible for current neoantigen-directed therapies, in contrast to a median of 26% of the patients with these mutations in other ancestries” (Results, p.&nbsp;10)</li>
+<li>“at least 15% of eligible patients have a somatic loss of the restricting HLA allele and are anticipated to be intrinsically resistant to direct tumor-targeting by these therapies, underscoring the importance of HLA-LOH screening prior to therapy selection.” (Results, p.&nbsp;11)</li>
+</ul>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/41895280.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/41895280.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

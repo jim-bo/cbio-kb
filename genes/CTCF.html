@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,12 +179,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>Recurrently altered across endometrial carcinoma subtypes (referenced in mutation panels across multiple subgroups) <a href="../papers/23636398.html">PMID:23636398</a></li>
-<li>Mechanistically implicated in Ewing sarcoma: STAG2 interacts with CTCF to regulate chromatin insulation at loci including CDKN2A; CTCF itself carries somatic mutations in 3/112 cases <a href="../papers/25223734.html">PMID:25223734</a></li>
+<li>Mechanistically implicated in Ewing sarcoma: <a href="../genes/STAG2.html">STAG2</a> interacts with CTCF to regulate chromatin insulation at loci including <a href="../genes/CDKN2A.html">CDKN2A</a>; CTCF itself carries somatic mutations in 3/112 cases <a href="../papers/25223734.html">PMID:25223734</a></li>
 <li>CTCF was a recurrently mutated transcriptional regulator in colorectal cancer; CTCF/cohesin-binding sites are known hotspots for somatic mutations in MSS CRC (Katainen et al.&nbsp;2015), and CTCF was among the newly significant CRC drivers identified in this 619-tumor neoantigen study <a href="../papers/27149842.html">PMID:27149842</a>.</li>
 <li>CTCF was identified as a chromatin-function Mut-driver in breast cancer; 22.6% of all breast tumors harbored a coding mutation in one of seven chromatin-function Mut-drivers including CTCF <a href="../papers/27161491.html">PMID:27161491</a>.</li>
-<li>CTCF mutations partition UCEC into TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually-exclusive networks; CTCF-mutant tumors cluster with the ARID1A/PTEN/CTNNB1/PIK3CA-enriched, copy-number-low endometrial subtype <a href="../papers/29625049.html">PMID:29625049</a></li>
+<li>CTCF mutations partition <a href="../cancer_types/UCEC.html">UCEC</a> into TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually-exclusive networks; CTCF-mutant tumors cluster with the ARID1A/PTEN/CTNNB1/PIK3CA-enriched, copy-number-low endometrial subtype <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li>CTCF binding sites (CBSs) are the site of recurrent non-coding SNV hotspots in gastric adenocarcinoma; 11 of 34 significant hotspots overlap CBSs, CBS hotspot mutations are enriched in 25% of gastric and 19% of colorectal tumors, and 71% occur in CIN-subtype tumors (Fisher P=0.012) <a href="../papers/29670109.html">PMID:29670109</a></li>
 <li>CTCF H284 and Y226 hotspot mutations arise exclusively in invasive ductal carcinomas (histology-specific); enriched post-hormonal-therapy; associated with shorter PFS on aromatase inhibitors in HR+HER2- breast cancer <a href="../papers/30205045.html">PMID:30205045</a></li>
+<li>CTCF binding motifs were enriched in the open chromatin of ATRX- or TERT-altered pheochromocytoma/paraganglioma tumor cells. <a href="../papers/40097403.html">PMID:40097403</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -211,15 +215,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/23636398.html">PMID:23636398</a></li>
+<li><p><a href="../papers/23636398.html">PMID:23636398</a></p></li>
+<li><p><a href="../papers/25223734.html">PMID:25223734</a></p></li>
+<li><p><a href="../papers/27149842.html">PMID:27149842</a></p></li>
+<li><p><a href="../papers/27161491.html">PMID:27161491</a></p></li>
+<li><p><a href="../papers/29625049.html">PMID:29625049</a></p></li>
+<li><p><a href="../papers/29670109.html">PMID:29670109</a></p></li>
+<li><p><a href="../papers/30205045.html">PMID:30205045</a></p></li>
+<li><p><a href="../papers/40097403.html">PMID:40097403</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/25223734.html">PMID:25223734</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-12</strong>.</em> - <a href="../papers/27149842.html">PMID:27149842</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/29670109.html">PMID:29670109</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

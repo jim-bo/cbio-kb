@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,33 +177,35 @@ ul.task-list li input[type="checkbox"] {
 <section id="cohorts-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
-<li>TCGA-KIRC: n=491 ccRCC samples; included in the 14-cohort meta-analysis (total n=3,621). <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>IMmotion150: n=163 samples; IMmotion151: n=784 samples; JAVELIN Renal 101: n=701 samples — all included in the HiTME meta-cohort. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>WU-RCC (Washington University): independent validation cohort, n=193 with DNA-seq and RNA-seq (n=157 with bulk RNA-seq); spatial proteomics MxIF on n=34. <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>TCGA-KIRC: n=491 ccRCC samples; included in the 14-cohort meta-analysis (total n=3,621). <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>IMmotion150: n=163 samples; IMmotion151: n=784 samples; JAVELIN Renal 101: n=701 samples — all included in the HiTME meta-cohort. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>WU-RCC (Washington University): independent validation cohort, n=193 with DNA-seq and RNA-seq (n=157 with bulk RNA-seq); spatial proteomics MxIF on n=34. <a href="../papers/40834854.html">PMID:40834854</a></li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
-<li><a href="../genes/BAP1.html">BAP1</a> — mutations associated with TKI non-response; enriched in fibrotic IE/M and F HiTME subtypes. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li><a href="../genes/SETD2.html">SETD2</a> — mutations associated with TKI non-response in the WU-RCC validation cohort. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li><a href="../genes/PBRM1.html">PBRM1</a> — mutations enriched in TKI-high score group and in immune-enriched IE and IE/M HiTME subtypes. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li><a href="../genes/MTOR.html">MTOR</a> — activating mutations strongly associated with ICI and ICI+TKI non-response; 15 of 16 patients with MTOR-activating mutations were resistant to ICI regimens. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li><a href="../genes/KDM5C.html">KDM5C</a> — mutational frequency varied across ICI and TKI score groups. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li><a href="../genes/NF2.html">NF2</a> — mutations more prevalent in the fibrotic F HiTME subtype. <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li><a href="../genes/BAP1.html">BAP1</a> — mutations associated with TKI non-response; enriched in fibrotic IE/M and F HiTME subtypes. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../genes/SETD2.html">SETD2</a> — mutations associated with TKI non-response in the WU-RCC validation cohort. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../genes/PBRM1.html">PBRM1</a> — mutations enriched in TKI-high score group and in immune-enriched IE and IE/M HiTME subtypes. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../genes/MTOR.html">MTOR</a> — activating mutations strongly associated with ICI and ICI+TKI non-response; 15 of 16 patients with MTOR-activating mutations were resistant to ICI regimens. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../genes/KDM5C.html">KDM5C</a> — mutational frequency varied across ICI and TKI score groups. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../genes/NF2.html">NF2</a> — mutations more prevalent in the fibrotic F HiTME subtype. <a href="../papers/40834854.html">PMID:40834854</a></li>
 <li>TCGA multi-platform characterization of 446 CCRCC primary nephrectomy specimens identified 19 significantly mutated genes (<a href="../genes/VHL.html">VHL</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/KDM5C.html">KDM5C</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/TP53.html">TP53</a> most significant), chromosome 3p loss in 91%, PI3K/AKT/mTOR pathway alteration in ~28%, and a metabolic Warburg shift correlating with worse survival <a href="../papers/23792563.html">PMID:23792563</a></li>
-<li>Mouse scRNA-seq (147,045 cells) with conditional Vhl inactivation resolved isoform-specific roles of <a href="../genes/HIF1A.html">HIF1A</a> and HIF2A in CCRCC initiation: <a href="../genes/HIF1A.html">HIF1A</a> drives early glycolysis and papillary cell loss; HIF2A drives cortical proximal tubule dedifferentiation and proliferation, supporting early <a href="../drugs/belzutifan.html">belzutifan</a> use in <a href="../genes/VHL.html">VHL</a> disease <a href="../papers/23797736.html">PMID:23797736</a></li>
+<li>Mouse scRNA-seq (147,045 cells) with conditional Vhl inactivation resolved isoform-specific roles of <a href="../genes/HIF1A.html">HIF1A</a> and HIF2A in CCRCC initiation: <a href="../genes/HIF1A.html">HIF1A</a> drives early glycolysis and papillary cell loss; HIF2A drives cortical proximal tubule dedifferentiation and proliferation, supporting early <a href="../drugs/belzutifan.html">belzutifan</a> use in <a href="../genes/VHL.html">VHL</a> disease <a href="../papers/41102155.html">PMID:41102155</a></li>
 <li>Multiregion exome sequencing (M-seq) of 10 ccRCCs found 73–75% of driver alterations were subclonal; only chromosome 3p loss and <a href="../genes/VHL.html">VHL</a> inactivation were truncal across all tumors — single-biopsy approaches systematically underestimate driver-mutation prevalence <a href="../papers/24487277.html">PMID:24487277</a></li>
 <li>TCGA multi-platform characterization of 66 ChRCC tumors identified <a href="../cancer_types/CCRCC.html">CCRCC</a> as a comparative cohort (417 tumors); ChRCC has a 3-fold lower mutation rate than ccRCC (~0.4/Mb), a non-Warburg mitochondrial metabolism phenotype, and distinct distal-nephron cell-of-origin — underscoring biological separation between the two <a href="../cancer_types/RCC.html">RCC</a> subtypes. <a href="../papers/25155756.html">PMID:25155756</a></li>
 <li><a href="../cancer_types/URCC.html">URCC</a> cohort (n=62, MSKCC) shows only 1/62 <a href="../genes/VHL.html">VHL</a> mutations — stark contrast to ~75% in <a href="../cancer_types/CCRCC.html">CCRCC</a>; <a href="../cancer_types/URCC.html">URCC</a> NF2-loss and mTORC1-hyperactive subsets are mutually exclusive and both lack <a href="../genes/VHL.html">VHL</a> alteration <a href="../papers/27713405.html">PMID:27713405</a>.</li>
 <li><a href="../genes/PBRM1.html">PBRM1</a> loss-of-function was associated with clinical benefit from anti-PD-(L)1 therapy in metastatic CCRCC (9/11 CB vs 3/13 NCB, Fisher p=0.012; validated in 63-patient cohort, p=0.0071); PBRM1-LOF tumors showed upregulated JAK/STAT3 and hypoxia transcriptional programs <a href="../papers/29301960.html">PMID:29301960</a></li>
-<li>MC3 pan-cancer mutation-calling project used <a href="../cancer_types/KIRC.html">KIRC</a> (clear cell <a href="../cancer_types/RCC.html">RCC</a>) as a benchmark: running MutSig2CV and MuSiC2 on PASS variants yielded 10 SMGs each (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/PTEN.html">PTEN</a>, VHL, <a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/MTOR.html">MTOR</a>, and others); the unfiltered controlled MAF inflated these to 1,203 and 321 respectively, demonstrating the critical importance of the MC3 filtering strategy <a href="../papers/29596782.html">PMID:29596782</a></li>
+<li>MC3 pan-cancer mutation-calling project used <a href="../cancer_types/KIRC.html">KIRC</a> (clear cell <a href="../cancer_types/RCC.html">RCC</a>) as a benchmark: running MutSig2CV and MuSiC2 on PASS variants yielded 10 SMGs each (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/VHL.html">VHL</a>, <a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/MTOR.html">MTOR</a>, and others); the unfiltered controlled MAF inflated these to 1,203 and 321 respectively, demonstrating the critical importance of the MC3 filtering strategy <a href="../papers/29596782.html">PMID:29596782</a></li>
 <li>Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, <a href="../datasets/mixed_kunga_msk_2022.html">mixed_kunga_msk_2022</a>); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients <a href="../papers/35585047.html">PMID:35585047</a></li>
+<li>The IMmotion150 phase 2 trial in treatment-naive metastatic clear cell <a href="../cancer_types/RCC.html">RCC</a> (n=305) found VHL mutation (62%) and <a href="../genes/PBRM1.html">PBRM1</a> mutation (44%) tracked with a higher tumor angiogenesis expression signature; PBRM1-mutant tumors had better PFS on <a href="../drugs/sunitinib.html">sunitinib</a> (HR 0.38) but worse PFS on <a href="../drugs/atezolizumab.html">atezolizumab</a> monotherapy versus sunitinib (HR 2.49) <a href="../papers/29867230.html">PMID:29867230</a>.</li>
+<li>A 943-patient clear cell RCC targeted-panel study built a VHL co-mutation classifier (VHL plus 0 to 3+ of 11 other genes) that stratified 5-year disease-free survival from 90% (VHL alone) to 51-61% (VHL plus 3 or more genes), adding prognostic information beyond stage, grade, age, TMB and the Leibovich score to help <a href="../methods/select.html">select</a> patients for adjuvant immunotherapy <a href="../papers/36815791.html">PMID:36815791</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
-<p>Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by density-based clustering of functional gene expression signatures across 3,621 ccRCC samples from 14 cohorts: <a href="../papers/22138691.html">PMID:22138691</a></p>
+<p>Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by density-based clustering of functional gene expression signatures across 3,621 ccRCC samples from 14 cohorts: <a href="../papers/40834854.html">PMID:40834854</a></p>
 <ul>
 <li><strong>IE (immune-enriched, nonfibrotic):</strong> Highest ICI and TKI responder proportions; best prognosis.</li>
 <li><strong>IE/M (immune-enriched, myeloid immunosuppressive):</strong> Elevated ICI responder proportion but fibrotic features; worst overall survival in TCGA-KIRC.</li>
@@ -212,29 +217,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li>An integrated gradient-boosting decision-tree model classifies ccRCC patients as ICI/ICI-combo-preferred (56%), TKI-preferred (41%), or non-responsive (3%), validated across IMmotion151 and JAVELIN Renal 101 cohorts. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>ICI/ICI-combo-preferred patients had significantly longer PFS with <a href="../drugs/atezolizumab.html">atezolizumab</a>+<a href="../drugs/bevacizumab.html">bevacizumab</a> vs.&nbsp;<a href="../drugs/sunitinib.html">sunitinib</a> (IMmotion151, p=0.00005) and with <a href="../drugs/avelumab.html">avelumab</a>+<a href="../drugs/axitinib.html">axitinib</a> vs.&nbsp;<a href="../drugs/sunitinib.html">sunitinib</a> (JAVELIN, p=0.000007). <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>MTOR-activating mutations and antigen presentation gene mutations may serve as molecular exclusion criteria for ICI therapy. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>ICI response model achieved ROC-AUC=0.77 (training) and ROC-AUC=0.78 (JAVELIN validation), outperforming all published single-biomarker signatures. <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>TKI response model achieved ROC-AUC=0.74 on validation (n=822), outperforming JAVELIN Angio, IMmotion150 Angio, proliferation, and macrophage signatures. <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>An integrated gradient-boosting decision-tree model classifies ccRCC patients as ICI/ICI-combo-preferred (56%), TKI-preferred (41%), or non-responsive (3%), validated across IMmotion151 and JAVELIN Renal 101 cohorts. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>ICI/ICI-combo-preferred patients had significantly longer PFS with <a href="../drugs/atezolizumab.html">atezolizumab</a>+<a href="../drugs/bevacizumab.html">bevacizumab</a> vs.&nbsp;<a href="../drugs/sunitinib.html">sunitinib</a> (IMmotion151, p=0.00005) and with <a href="../drugs/avelumab.html">avelumab</a>+<a href="../drugs/axitinib.html">axitinib</a> vs.&nbsp;<a href="../drugs/sunitinib.html">sunitinib</a> (JAVELIN, p=0.000007). <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>MTOR-activating mutations and antigen presentation gene mutations may serve as molecular exclusion criteria for ICI therapy. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>ICI response model achieved ROC-AUC=0.77 (training) and ROC-AUC=0.78 (JAVELIN validation), outperforming all published single-biomarker signatures. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>TKI response model achieved ROC-AUC=0.74 on validation (n=822), outperforming JAVELIN Angio, IMmotion150 Angio, proliferation, and macrophage signatures. <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>A phase 1b trial of <a href="../drugs/nivolumab.html">nivolumab</a> in metastatic clear cell renal cell carcinoma (n=91) found on-treatment tumor biopsies had increased CD3+/CD8+ T-cell infiltration and upregulated IFN-gamma-regulated chemokines CXCL9/CXCL10 in both tumor and serum, independent of dose; ORR was 15% (14/91) with no clear dose-response relationship <a href="../papers/27169994.html">PMID:27169994</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/22138691.html">PMID:22138691</a> — Five HiTME ccRCC TME subtypes and multi-omic ICI/TKI response prediction models (meta-cohort n=3,621; validation WU-RCC n=193).</li>
-<li><a href="../papers/23792563.html">PMID:23792563</a></li>
-<li><a href="../papers/23797736.html">PMID:23797736</a></li>
+<li><p><a href="../papers/40834854.html">PMID:40834854</a> — Five HiTME ccRCC TME subtypes and multi-omic ICI/TKI response prediction models (meta-cohort n=3,621; validation WU-RCC n=193).</p></li>
+<li><p><a href="../papers/23792563.html">PMID:23792563</a></p></li>
+<li><p><a href="../papers/41102155.html">PMID:41102155</a></p></li>
+<li><p><a href="../papers/24487277.html">PMID:24487277</a></p></li>
+<li><p><a href="../papers/25155756.html">PMID:25155756</a></p></li>
+<li><p><a href="../papers/27713405.html">PMID:27713405</a></p></li>
+<li><p><a href="../papers/29301960.html">PMID:29301960</a></p></li>
+<li><p><a href="../papers/29596782.html">PMID:29596782</a></p></li>
+<li><p><a href="../papers/35585047.html">PMID:35585047</a></p></li>
+<li><p><a href="../papers/27169994.html">PMID:27169994</a></p></li>
+<li><p><a href="../papers/29867230.html">PMID:29867230</a></p></li>
+<li><p><a href="../papers/36815791.html">PMID:36815791</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24487277.html">PMID:24487277</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25155756.html">PMID:25155756</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
-<ul>
-<li><a href="../papers/29301960.html">PMID:29301960</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

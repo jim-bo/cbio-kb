@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,7 +177,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>The Beat <a href="../cancer_types/AML.html">AML</a> platform screened 409 of 672 primary <a href="../cancer_types/AML.html">AML</a> specimens (363 patients) within 24 hours of sample isolation against a panel of 122 small-molecule inhibitors; AUC was computed per drug. Integration with matched whole-exome sequencing and RNA-seq data identified single-gene and combinatorial mutation-specific sensitivities (e.g.&nbsp;FLT3-ITD + <a href="../genes/NPM1.html">NPM1</a> → ibrutinib/entospletinib; <a href="../genes/BCOR.html">BCOR</a> + <a href="../genes/RUNX1.html">RUNX1</a> → JAK inhibitors); 64/122 drugs were significantly more sensitive in de novo vs transformed <a href="../cancer_types/AML.html">AML</a> cases (FDR&lt;0.1) <a href="../papers/30333627.html">PMID:30333627</a>.</li>
 <li>Ex vivo chemosensitivity screening of 65 rectal cancer tumoroids against 5-FU, FOLFOX, and ionizing radiation; ex vivo AUC correlated with patient PFS (Spearman r=0.86, p=0.024); radiation resistance ex vivo tracked with clinical non-response; tumoroids derived from as little as 2.8 mm biopsy <a href="../papers/31591597.html">PMID:31591597</a>.</li>
-<li>Applied to 942 AML specimens (Beat AML Waves 1–4) with probit dose-response curve fitting; identified 65 additional mutation–drug associations in the expanded cohort vs Waves 1+2 alone (27% increase in power); drug-family analysis across 25 drug families showed cell-state-biased response patterns <a href="../papers/35868306.html">PMID:35868306</a></li>
+<li>Applied to 942 <a href="../cancer_types/AML.html">AML</a> specimens (Beat AML Waves 1–4) with probit dose-response curve fitting; identified 65 additional mutation–drug associations in the expanded cohort vs Waves 1+2 alone (27% increase in power); drug-family analysis across 25 drug families showed cell-state-biased response patterns <a href="../papers/35868306.html">PMID:35868306</a></li>
+<li>Used on PDX-derived disaggregated MYOD1-mutant rhabdomyosarcoma cells to screen PI3K/AKT/mTOR/IGF1R inhibitors and standard chemotherapy, identifying submicromolar sensitivity to <a href="../drugs/samotolisib.html">samotolisib</a>, AZD8055 and A-674563 and synergy of samotolisib with irinotecan/temozolomide <a href="../papers/41758938.html">PMID:41758938</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -189,11 +193,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/30333627.html">PMID:30333627</a> — Tyner et al.&nbsp;2018, Beat AML multi-omics drug-sensitivity profiling (<a href="../datasets/aml_ohsu_2018.html">aml_ohsu_2018</a>).</li>
+<li><p><a href="../papers/31591597.html">PMID:31591597</a></p></li>
+<li><p><a href="../papers/35868306.html">PMID:35868306</a></p></li>
+<li><p><a href="../papers/41758938.html">PMID:41758938</a></p></li>
+<li><p><a href="../papers/30333627.html">PMID:30333627</a> — Tyner et al.&nbsp;2018, Beat AML multi-omics drug-sensitivity profiling (<a href="../datasets/aml_ohsu_2018.html">aml_ohsu_2018</a>).</p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31591597.html">PMID:31591597</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35868306.html">PMID:35868306</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

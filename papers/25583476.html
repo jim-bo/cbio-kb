@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -270,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong><a href="../genes/BRCA2.html">BRCA2</a></strong> — mutated in 17/294 Tianjin cases (5.8%) and 28/289 <a href="../datasets/stad_tcga_pub.html">TCGA</a> cases; independent predictor of longer survival in pooled cohort (HR 0.37, P=0.05). Predominantly missense, unlike breast/ovarian.</li>
 <li><strong><a href="../genes/BRCA1.html">BRCA1</a></strong> — no mutations observed in the 78-case discovery cohort.</li>
 <li><strong><a href="../genes/CDH1.html">CDH1</a></strong> — 21/294 cases (7.1%) somatic mutations, enriched in diffuse-type and cardia tumors; LoF events common; associated with shorter survival.</li>
-<li><strong><a href="../genes/RHOA.html">RHOA</a></strong> — enriched in diffuse GC (consistent with <a href="../papers/24816253.html">PMID:24816253</a> and <a href="../papers/24816255.html">PMID:24816255</a> if present); not associated with shorter survival in this cohort, distinguishing it clinically from <a href="../genes/CDH1.html">CDH1</a>-driven diffuse GC.</li>
+<li><strong><a href="../genes/RHOA.html">RHOA</a></strong> — enriched in diffuse GC (consistent with <a href="../papers/41002403.html">PMID:41002403</a> and <a href="../papers/41097736.html">PMID:41097736</a> if present); not associated with shorter survival in this cohort, distinguishing it clinically from <a href="../genes/CDH1.html">CDH1</a>-driven diffuse GC.</li>
 <li><strong><a href="../genes/APC.html">APC</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/MYC.html">MYC</a>, <a href="../genes/KRAS.html">KRAS</a></strong> — recurrently mutated drivers consistent with prior GC studies; participate in Wnt, PI3K-ERBB, and TP53 pathways. Pt1 carried <a href="../genes/KRAS.html">KRAS</a> p.G13D, <a href="../genes/PIK3CA.html">PIK3CA</a> p.E542K, and <a href="../genes/BRCA2.html">BRCA2</a> p.E3002D/p.G602fs across separate clones.</li>
 <li><strong><a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, <a href="../genes/KDM5A.html">KDM5A</a>, <a href="../genes/KMT2D.html">KMT2D</a></strong> — mismatch-repair and chromatin-remodeling defects in the hypermutated Pt1.</li>
 <li><strong><a href="../genes/SETBP1.html">SETBP1</a> p.S944N, <a href="../genes/AKAP9.html">AKAP9</a>, <a href="../genes/CDK6.html">CDK6</a></strong> — mutation/amplifications in Pt2; <a href="../genes/SETBP1.html">SETBP1</a> mutation matches the recurrent myeloid-malignancy site.</li>

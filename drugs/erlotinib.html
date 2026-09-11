@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,8 +184,8 @@ ul.task-list li input[type="checkbox"] {
 <li>NCI-60 CellMiner analysis linked EGFR pathway activity and <a href="../genes/ABCB1.html">ABCB1</a> expression to erlotinib sensitivity across cancer cell lines including colon <a href="../papers/22802077.html">PMID:22802077</a></li>
 <li>TCGA lung squamous study (178 tumors) examined EGFR pathway alterations relevant to erlotinib sensitivity; EGFR mutations rare in <a href="../cancer_types/LUSC.html">LUSC</a> population <a href="../papers/22960745.html">PMID:22960745</a></li>
 <li>Broad <a href="../cancer_types/LUAD.html">LUAD</a> WES (183 tumors) confirmed EGFR-activating mutations as the primary predictor of erlotinib response; co-occurring <a href="../genes/STK11.html">STK11</a> loss associated with resistance <a href="../papers/22980975.html">PMID:22980975</a></li>
-<li>Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in <a href="../cancer_types/HCC.html">HCC</a>; ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>Failed as a frontline HCC agent in comparison vs <a href="../drugs/sorafenib.html">sorafenib</a>: median <a href="../cancer_types/OS.html">OS</a> 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15) <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in <a href="../cancer_types/HCC.html">HCC</a>; ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>Failed as a frontline HCC agent in comparison vs <a href="../drugs/sorafenib.html">sorafenib</a>: median OS 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15) <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>Matched therapy for sensitizing EGFR mutations (exon 19 del/L858R) in 860 LUAD patients via MSK-IMPACT; clinical benefit rate 84.8% in sensitizing EGFR-mutant patients; significantly lower benefit for L861Q (43%) and exon 18 deletions (40%); 1 EGFR exon 20 insertion patient treated with erlotinib had no response; 1 ERRFI1-A143D patient derived benefit despite no EGFR mutation <a href="../papers/28336552.html">PMID:28336552</a>.</li>
 <li>In functional validation experiments using MCF7 breast cancer cells, erlotinib (EGFR inhibitor) reversed <a href="../drugs/fulvestrant.html">fulvestrant</a> resistance conferred by stable <a href="../genes/EGFR.html">EGFR</a> overexpression, supporting EGFR inhibitors as candidate combination agents for EGFR-amplified endocrine-resistant HR+ breast cancer <a href="../papers/30205045.html">PMID:30205045</a>.</li>
 <li>1st/2nd-generation EGFR TKI; indicated for EGFR L858R/exon-19 deletion in <a href="../cancer_types/NSCLC.html">NSCLC</a> (20% and 19% of NSCLC respectively in Chinese pan-cancer cohort n=10,194) <a href="../papers/35871175.html">PMID:35871175</a></li>
@@ -208,17 +211,17 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/37591896.html">PMID:37591896</a></li>
 <li><a href="../papers/38922339.html">PMID:38922339</a></li>
 <li><a href="../papers/27698471.html">PMID:27698471</a></li>
+<li><a href="../papers/22460905.html">PMID:22460905</a></li>
+<li><a href="../papers/22802077.html">PMID:22802077</a></li>
+<li><a href="../papers/22960745.html">PMID:22960745</a></li>
+<li><a href="../papers/22980975.html">PMID:22980975</a></li>
+<li><a href="../papers/25369299.html">PMID:25369299</a></li>
+<li><a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><a href="../papers/28336552.html">PMID:28336552</a></li>
+<li><a href="../papers/30205045.html">PMID:30205045</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
+<li><a href="../papers/37119971.html">PMID:37119971</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22460905.html">PMID:22460905</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22802077.html">PMID:22802077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22960745.html">PMID:22960745</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22980975.html">PMID:22980975</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24735922.html">PMID:24735922</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/37119971.html">PMID:37119971</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

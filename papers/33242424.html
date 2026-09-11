@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -238,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>CDK5/GSK3B activity in ganglioglioma and a LGG Ganglio-rich subgroup.</strong> <a href="../genes/CDK5.html">CDK5</a> and <a href="../genes/GSK3B.html">GSK3B</a> were upregulated, with substrate phosphorylation patterns (ADD2 Ser604/Ser693, SYN1 Ser553, STMN1 Ser38) consistent with synaptogenesis and glioma–neuron synapse formation.</li>
 <li><strong>BRAFV600E LGG shows MAPK and AKT pathway activation at the protein level.</strong> <a href="../genes/AKT1.html">AKT1</a> and <a href="../genes/AKT2.html">AKT2</a> protein/RNA were upregulated in <a href="../genes/BRAF.html">BRAF</a>V600E LGG vs BRAFWT (validated by MRM for AKT isoforms), supporting combined MEK + mTOR inhibition strategies. A phosphosite co-expression module enriched for <a href="../genes/AKT2.html">AKT2</a> substrates (including HNRNPUL1/HNRNPUL2) was specifically upregulated in BRAFV600E.</li>
 <li><strong>BRAF-Fusion LGG shows PDGFRA-pathway phosphorylation.</strong> A separate phosphosite module enriched in BRAFFusion (but not BRAFV600E) samples nominated <a href="../genes/PDGFRA.html">PDGFRA</a> as the top druggable kinase, with <a href="../genes/PDGFRA.html">PDGFRA</a> protein/RNA upregulated in BRAFFusion samples at levels comparable to HGG.</li>
-<li><strong>Wild-type IDH protein abundance is prognostic in pediatric HGG.</strong> Among H3-wild-type HGG (i.e., without <a href="../genes/H3-3A.html">H3-3A</a> K27M), all <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a> and IDH3A proteins associated positively with overall survival. A multivariate Cox model combining <a href="../genes/IDH1.html">IDH1</a> and <a href="../genes/IDH2.html">IDH2</a> estimated a hazard ratio of 23.58 (95% CI 1.42–384.6) for a 50% reduction in combined IDH1/IDH2 abundance (n=19 in the discovery analysis); the association was reproduced in the 41-sample independent HGG cohort after adjusting for tumor location. The Oxidative-phosphorylation pathway (which harbors IDH1/2/3) was a leading pathway whose upregulation associated with improved <a href="../cancer_types/OS.html">OS</a> in H3-WT HGG. Among the smaller H3-mutant subgroup (n=7 discovery, n=12 validation), the IDH protein effect on OS appeared inverse, but the authors caution validation is warranted.</li>
+<li><strong>Wild-type IDH protein abundance is prognostic in pediatric HGG.</strong> Among H3-wild-type HGG (i.e., without <a href="../genes/H3-3A.html">H3-3A</a> K27M), all <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a> and IDH3A proteins associated positively with overall survival. A multivariate Cox model combining <a href="../genes/IDH1.html">IDH1</a> and <a href="../genes/IDH2.html">IDH2</a> estimated a hazard ratio of 23.58 (95% CI 1.42–384.6) for a 50% reduction in combined IDH1/IDH2 abundance (n=19 in the discovery analysis); the association was reproduced in the 41-sample independent HGG cohort after adjusting for tumor location. The Oxidative-phosphorylation pathway (which harbors IDH1/2/3) was a leading pathway whose upregulation associated with improved OS in H3-WT HGG. Among the smaller H3-mutant subgroup (n=7 discovery, n=12 validation), the IDH protein effect on OS appeared inverse, but the authors caution validation is warranted.</li>
 <li><strong>Drug connectivity nominates CDK and MEK inhibitors for HGG.</strong> Comparing HGG to LGG to define an “HGG-aggressiveness” RNA + phospho signature and querying <a href="../methods/lincs-l1000.html">LINCS L1000</a> and P100 perturbation databases, CDK inhibitors were predicted (RNA + phosphoproteomic evidence) to reverse the signature; MEK, proteasome and HDAC inhibitors were predicted from RNA data alone. Independent kinase-activity scores confirmed elevated CDK1/CDK2 and <a href="../genes/MAPK1.html">MAPK1</a> (downstream of MEK) activity in HGG vs LGG.</li>
 <li><strong>Tumor microenvironment clusters via <a href="../methods/xcell.html">xCell</a>.</strong> RNA-based cell-type deconvolution produced five microenvironment groups: Cold-medullo, Cold-mixed, Neuronal, Epithelial and Hot. The Hot cluster (mixed LGG/HGG/ganglioglioma) carried upregulated adenosine producers (ENTPD1, <a href="../genes/NT5E.html">NT5E</a>), suggesting adenosine-targeted therapies. The Epithelial cluster (entirely CP) upregulated EMT, <a href="../genes/CTLA4.html">CTLA4</a> and PD-1, supporting prior reports of potential immune-checkpoint benefit in CP. BRAFFusion preferentially promoted M2 microglia while BRAFV600E preferentially promoted M2 macrophages.</li>
 <li><strong>Recurrent tumors are proteomically distinct from their primary.</strong> Across 18 paired primary/recurrent samples, recurrent (RP) tumors retained only 0–52% (mean 18%) of the initial-tumor somatic mutations — lower retention than adult <a href="../cancer_types/GBM.html">GBM</a> or LGG. All three medulloblastoma recurrences acquired a new <a href="../genes/TP53.html">TP53</a> mutation absent in the matched primary. Chromosomal breakpoints increased on average from 32 to 53. Most pairs were assigned to different proteomic clusters, with corresponding reversals in pathway activity (e.g., one BRAFWT LGG case shifted between the LGG BRAFWT-rich and Cranio/LGG BRAFV600E clusters between IN and RP, with concordant changes in ERK1/2 kinase activity).</li>

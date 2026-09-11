@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -239,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Cforest variable importance (de novo AML, n=298):</strong> age, mutated <a href="../genes/TP53.html">TP53</a>, and WGCNA module 3 were the strongest predictors of overall survival; in young (&lt;45 y) patients and in TP53-wild-type middle-age (45–60 y) patients, <strong>module 3 expression was the strongest single determinant of outcome</strong>.</li>
 <li><strong>PEAR1 vs ELN risk (single-gene expression):</strong> Adverse vs Favorable ELN PEAR1 mean difference = 3.765 (p = 3.276e-25, N=172) in ≥60 y patients; 1.497 (p = 0.006, N=72) in middle-age; <strong>not significant</strong> in young (p = 0.170, N=79) despite PEAR1 being a strong outcome predictor in this group — i.e., PEAR1 carries prognostic signal <em>independent of ELN</em> in young AML.</li>
 <li><strong>PEAR1 vs LSC17:</strong> Single-gene PEAR1 expression discriminated outcome in young AML patients comparably to the 17-gene LSC17 leukemic stem-cell signature; hazard ratios were similar across age strata and across bone-marrow vs peripheral-blood specimen types.</li>
-<li><strong>Independent validation:</strong> elevated PEAR1 expression conferred significantly shortened <a href="../cancer_types/OS.html">OS</a> in both the Malani et al.&nbsp;2022 cohort and TCGA LAML (<a href="../datasets/laml_tcga_pub.html">laml_tcga_pub</a>; [Cancer Genome Atlas Research et al., 2013]).</li>
+<li><strong>Independent validation:</strong> elevated PEAR1 expression conferred significantly shortened OS in both the Malani et al.&nbsp;2022 cohort and TCGA LAML (<a href="../datasets/laml_tcga_pub.html">laml_tcga_pub</a>; [Cancer Genome Atlas Research et al., 2013]).</li>
 <li><strong>Surface expression confirmed:</strong> PEAR1 surface protein on AML patient samples (anti-PEAR1 brilliant violet 650 flow cytometry) correlates with PEAR1 transcript level, supporting feasibility of antibody-based targeting.</li>
 </ul>
 </section>

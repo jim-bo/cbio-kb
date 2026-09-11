@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,19 +177,23 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="evidence-in-the-corpus">Evidence in the corpus</h2>
 <ul>
 <li>1 metastatic gallbladder carcinoma patient received atezolizumab among 12 ICI-treated patients in the MSK <a href="../cancer_types/GBC.html">GBC</a> cohort (n=233); overall 42% (5/12) ICI-treated patients showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor <a href="../papers/36228155.html">PMID:36228155</a></li>
-<li>Patients with ICI-high/TKI-low scores had significant PFS benefit from atezolizumab+<a href="../drugs/bevacizumab.html">bevacizumab</a> vs.&nbsp;<a href="../drugs/sunitinib.html">sunitinib</a> in IMmotion151 (p=0.0003); the HiTME model classified 56% of ccRCC patients as ICI/ICI-combo-preferred <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>Reviewed as part of the <a href="../cancer_types/HCC.html">HCC</a> therapeutic landscape; atezolizumab + <a href="../drugs/bevacizumab.html">bevacizumab</a> achieved ORR 65% in 23 patients and received FDA breakthrough designation for <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>Patients with ICI-high/TKI-low scores had significant PFS benefit from atezolizumab+<a href="../drugs/bevacizumab.html">bevacizumab</a> vs.&nbsp;<a href="../drugs/sunitinib.html">sunitinib</a> in IMmotion151 (p=0.0003); the HiTME model classified 56% of ccRCC patients as ICI/ICI-combo-preferred <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>Reviewed as part of the <a href="../cancer_types/HCC.html">HCC</a> therapeutic landscape; atezolizumab + <a href="../drugs/bevacizumab.html">bevacizumab</a> achieved ORR 65% in 23 patients and received FDA breakthrough designation for <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>Cited as supporting context for checkpoint immunotherapy trials in nonmuscle invasive bladder cancer (NMIBC): high-grade NMIBC has mutational burden comparable to MIBC, and DDR-altered tumors carry markedly elevated burden (median 26 vs 8 mut/Mb, p&lt;0.001); the established mutational-load → atezolizumab response link in metastatic urothelial carcinoma motivates ongoing PD-L1 inhibitor trials in NMIBC. <a href="../papers/28583311.html">PMID:28583311</a></li>
 <li>Luminal-infiltrated MIBC (19% of TCGA cohort; high CD274/PD-L1, <a href="../genes/CTLA4.html">CTLA4</a>, EMT markers; corresponds to TCGA Cluster-II) was previously reported to respond to anti-PD-L1 atezolizumab (Rosenberg et al.&nbsp;2016) and may be resistant to cisplatin-based chemotherapy; this subtype is proposed as a positive biomarker for checkpoint blockade <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li>Included among the anti-PD-(L)1 regimens in the validation cohort (n=63 ccRCC) studied for <a href="../genes/PBRM1.html">PBRM1</a> LOF as a predictive biomarker; patients with biallelic <a href="../genes/PBRM1.html">PBRM1</a> loss had prolonged <a href="../cancer_types/OS.html">OS</a> and PFS on anti-PD-(L)1 therapy <a href="../papers/29301960.html">PMID:29301960</a></li>
+<li>Included among the anti-PD-(L)1 regimens in the validation cohort (n=63 ccRCC) studied for <a href="../genes/PBRM1.html">PBRM1</a> LOF as a predictive biomarker; patients with biallelic <a href="../genes/PBRM1.html">PBRM1</a> loss had prolonged OS and PFS on anti-PD-(L)1 therapy <a href="../papers/29301960.html">PMID:29301960</a></li>
 <li>One of the anti-PD-(L)1 agents evaluated in the 240-patient MSK <a href="../cancer_types/NSCLC.html">NSCLC</a> cohort; high TMB (above 50th percentile by MSK-IMPACT) associated with DCB across the cohort including atezolizumab-treated patients (DCB 38.6% vs 25.1%, p=0.009) <a href="../papers/29337640.html">PMID:29337640</a></li>
 <li>Included in a pooled WES cohort of 249 MSS tumors across 6 cancer types (N=20 anti-PD-L1 patients); anti-PD-L1 use concentrated in bladder and <a href="../cancer_types/NSCLC.html">NSCLC</a>; TMB + clonality + specific CNAs outperform TMB alone (AUC=0.66) for ICB response prediction <a href="../papers/30150660.html">PMID:30150660</a></li>
-<li>In a pan-cancer ICI cohort (n=1,662), atezolizumab was one of the anti-PD-L1 agents used; patients in the top-20% TMB stratum had HR 0.52 (p=1.6×10⁻⁶) for <a href="../cancer_types/OS.html">OS</a> versus the bottom 80%, supporting TMB as a predictive biomarker for anti-PD-1/PD-L1 therapy <a href="../papers/30643254.html">PMID:30643254</a>.</li>
+<li>In a pan-cancer ICI cohort (n=1,662), atezolizumab was one of the anti-PD-L1 agents used; patients in the top-20% TMB stratum had HR 0.52 (p=1.6×10⁻⁶) for OS versus the bottom 80%, supporting TMB as a predictive biomarker for anti-PD-1/PD-L1 therapy <a href="../papers/30643254.html">PMID:30643254</a>.</li>
 <li>The luminal-papillary, T-cell-depleted profile of <a href="../cancer_types/UTUC.html">UTUC</a> is consistent with the lower response rates of luminal-papillary urothelial carcinoma to atezolizumab observed in IMvigor210 (cluster I had the lowest response), providing a mechanistic explanation for blunted ICI efficacy in FGFR3-high <a href="../cancer_types/UTUC.html">UTUC</a>. <a href="../papers/31278255.html">PMID:31278255</a></li>
 <li>Atezolizumab (PD-L1 inhibitor) was listed as a reference immunotherapy option evaluated in the FUTURE umbrella trial context for refractory metastatic TNBC; the trial used <a href="../drugs/camrelizumab.html">camrelizumab</a> (anti-PD-1) rather than atezolizumab in arm C <a href="../papers/32719455.html">PMID:32719455</a>.</li>
 <li>Atezolizumab (with cisplatin/carboplatin + <a href="../drugs/etoposide.html">etoposide</a>) is noted as a current first-line standard for extensive-stage <a href="../cancer_types/SCLC.html">SCLC</a> in the <a href="../cancer_types/SCLC.html">SCLC</a> PDX/CDX resource paper; the MSK773 SCLC-P patient received carboplatin/etoposide and <a href="../drugs/ipilimumab.html">ipilimumab</a> + <a href="../drugs/nivolumab.html">nivolumab</a> without response <a href="../papers/35440124.html">PMID:35440124</a></li>
-<li>Atezolizumab plus <a href="../drugs/bevacizumab.html">bevacizumab</a> achieves a real-world ORR of 26–28% in advanced <a href="../cancer_types/HCC.html">HCC</a>; second-line ORR after progression on this combination is ~7%; lipid-metabolism reprogramming — including <a href="../genes/ACLY.html">ACLY</a>-driven suppression of cGAS–STING and PD-L1 — is a proposed resistance mechanism <a href="../papers/38355797.html">PMID:38355797</a>.</li>
-<li>3/5 aSCLC patients (RB1+/TP53+, never/light smokers) receiving immune checkpoint inhibitors including atezolizumab remained on therapy 2 to &gt;5 years; aSCLC lacks dual RB1/TP53 inactivation and is characterized by chromothripsis-driven <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/CDK4.html">CDK4</a> amplification <a href="../papers/39185963.html">PMID:39185963</a>.</li>
+<li>Atezolizumab plus <a href="../drugs/bevacizumab.html">bevacizumab</a> achieves a real-world ORR of 26–28% in advanced <a href="../cancer_types/HCC.html">HCC</a>; second-line ORR after progression on this combination is ~7%; lipid-metabolism reprogramming — including <a href="../genes/ACLY.html">ACLY</a>-driven suppression of cGAS–STING and PD-L1 — is a proposed resistance mechanism <a href="../papers/41118283.html">PMID:41118283</a>.</li>
+<li>3/5 aSCLC patients (<a href="../genes/RB1.html">RB1</a>+/TP53+, never/light smokers) receiving immune checkpoint inhibitors including atezolizumab remained on therapy 2 to &gt;5 years; aSCLC lacks dual RB1/TP53 inactivation and is characterized by chromothripsis-driven <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/CDK4.html">CDK4</a> amplification <a href="../papers/39185963.html">PMID:39185963</a>.</li>
+<li>As first-line monotherapy (1200 mg IV every 3 weeks) in 119 cisplatin-ineligible metastatic urothelial carcinoma patients (IMvigor210 cohort 1), atezolizumab gave a 23% objective response rate and median OS of 15.9 months, with response occurring across all PD-L1 immune-cell subgroups. <a href="../papers/27939400.html">PMID:27939400</a></li>
+<li>In the IMmotion150 phase 2 trial, atezolizumab plus <a href="../drugs/bevacizumab.html">bevacizumab</a> did not significantly improve PFS over <a href="../drugs/sunitinib.html">sunitinib</a> in treatment-naive metastatic <a href="../cancer_types/RCC.html">RCC</a> (ITT HR 1.00), but showed a favorable trend in PD-L1+ tumors (HR 0.64) and outperformed atezolizumab monotherapy in TeffHigh/myeloid-inflammation-high tumors. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>Response of the immune-hot <a href="../cancer_types/UTUC.html">UTUC</a> clusters C4/C5 to atezolizumab in bladder cancer was cited by analogy, since these clusters share features with the TCGA ‘luminal infiltrated’ subtype previously linked to anti-PD-L1 response. <a href="../papers/39550333.html">PMID:39550333</a></li>
+<li>Final analysis of IMvigor210 monotherapy in metastatic urothelial carcinoma (cohorts 1 and 2) reported a cohort 1 median duration of response of 59.1 months and 5-year OS of 21.6%, with higher landmark OS in PD-L1 IC2/3 tumors despite similar median OS across IC subgroups. <a href="../papers/39642637.html">PMID:39642637</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -204,20 +211,24 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/36228155.html">PMID:36228155</a></li>
 <li><a href="../papers/28583311.html">PMID:28583311</a> — Pietzak et al.&nbsp;2017, <em>Cancer</em>. MSK NMIBC MSK-IMPACT study; atezolizumab response association in metastatic urothelial carcinoma cited to motivate PD-L1 trials in DDR-high NMIBC.</li>
+<li><a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><a href="../papers/28988769.html">PMID:28988769</a></li>
+<li><a href="../papers/29301960.html">PMID:29301960</a></li>
+<li><a href="../papers/29337640.html">PMID:29337640</a></li>
+<li><a href="../papers/30150660.html">PMID:30150660</a></li>
+<li><a href="../papers/30643254.html">PMID:30643254</a></li>
+<li><a href="../papers/31278255.html">PMID:31278255</a></li>
+<li><a href="../papers/32719455.html">PMID:32719455</a></li>
+<li><a href="../papers/35440124.html">PMID:35440124</a></li>
+<li><a href="../papers/41118283.html">PMID:41118283</a></li>
+<li><a href="../papers/39185963.html">PMID:39185963</a></li>
+<li><a href="../papers/27939400.html">PMID:27939400</a></li>
+<li><a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><a href="../papers/39550333.html">PMID:39550333</a></li>
+<li><a href="../papers/39642637.html">PMID:39642637</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22138691.html">PMID:22138691</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29337640.html">PMID:29337640</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30150660.html">PMID:30150660</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30643254.html">PMID:30643254</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32719455.html">PMID:32719455</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35440124.html">PMID:35440124</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/38355797.html">PMID:38355797</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/39185963.html">PMID:39185963</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

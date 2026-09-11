@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -190,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a> mutations and 1p/19q co-deletion confirmed in all 6 tumors; subclonal <a href="../genes/CIC.html">CIC</a> mutation (~30% VAF) in MGH53 upregulates <a href="../genes/ETV1.html">ETV1</a>/<a href="../genes/ETV5.html">ETV5</a>. CNV subclones and point mutations span all three developmental compartments, arguing that ODG architecture is primarily driven by non-genetic, developmental programs. <a href="../papers/27806376.html">PMID:27806376</a></li>
 <li><a href="../genes/CCND2.html">CCND2</a> is preferentially expressed in the stem/progenitor compartment; differentiated cells express <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/CCND3.html">CCND3</a> — mirroring normal neural development. <a href="../papers/27806376.html">PMID:27806376</a></li>
 <li>TCGA pan-glioma study included 174 oligodendroglioma cases (17% of 1,122-patient cohort); oligodendroglioma corresponds to the Codel (1p/19q co-deleted, IDH-mutant) subgroup with methylation cluster LGm1–3 and best-prognosis outcome <a href="../papers/26824661.html">PMID:26824661</a></li>
-<li>1p/19q codeletion was a significant predictor of PFS (P=0.03) and <a href="../cancer_types/OS.html">OS</a> (P&lt;0.001) in the <a href="../datasets/odg_msk_2017.html">odg_msk_2017</a> phase II trial (n=33 codeleted patients: 5-year PFS 50.3%, 5-year <a href="../cancer_types/OS.html">OS</a> 93.4%); 1p/19q-intact tumors displayed glioblastoma-like NGS signatures (<a href="../genes/EGFR.html">EGFR</a> amplification, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/MDM2.html">MDM2</a>; IDH1/2 wild-type) and progressed early, arguing against chemotherapy-only strategies without codeletion. <a href="../papers/28472509.html">PMID:28472509</a></li>
+<li>1p/19q codeletion was a significant predictor of PFS (P=0.03) and OS (P&lt;0.001) in the <a href="../datasets/odg_msk_2017.html">odg_msk_2017</a> phase II trial (n=33 codeleted patients: 5-year PFS 50.3%, 5-year OS 93.4%); 1p/19q-intact tumors displayed glioblastoma-like NGS signatures (<a href="../genes/EGFR.html">EGFR</a> amplification, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/MDM2.html">MDM2</a>; IDH1/2 wild-type) and progressed early, arguing against chemotherapy-only strategies without codeletion. <a href="../papers/28472509.html">PMID:28472509</a></li>
 <li>In a 923-patient diffuse glioma cohort, 1p/19q-codeleted oligodendrogliomas did not show enrichment of cell-cycle alterations in enhancing tumors (3% vs 4%); alkylator-induced hypermutation was not associated with the 1p19q-codeleted subgroup; <a href="../genes/TERT.html">TERT</a> promoter and CIC/FUBP1/ATRX alterations were stable across primary vs recurrent specimens <a href="../papers/31263031.html">PMID:31263031</a>.</li>
 <li>IDH-mutant 1p/19q co-deleted oligodendroglioma (IDHmut-codel, n=25) showed alkylating-agent-induced hypermutation rate of 25% and stable driver retention at recurrence; <a href="../genes/IDH1.html">IDH1</a> R132H was universally retained and generated the most common clonal neoantigen <a href="../papers/31748746.html">PMID:31748746</a></li>
 <li>In the GLASS longitudinal cohort (n=9 IDHmut-codel oligodendroglioma with RNA-seq), IDHmut-codel tumors remained proneural at both timepoints in 78% of all IDHmut cases; HLA LOH was acquired more frequently at recurrence in IDHmut-noncodel vs codel tumors <a href="../papers/35649412.html">PMID:35649412</a>.</li>
@@ -220,11 +223,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/26824661.html">PMID:26824661</a></p></li>
 <li><p><a href="../papers/28472509.html">PMID:28472509</a></p></li>
 <li><p><a href="../papers/31263031.html">PMID:31263031</a> — Jonsson et al.&nbsp;MSK glioma prospective cohort (Clinical Cancer Research 2019).</p></li>
+<li><p><a href="../papers/31748746.html">PMID:31748746</a></p></li>
+<li><p><a href="../papers/35649412.html">PMID:35649412</a></p></li>
+<li><p><a href="../papers/37119971.html">PMID:37119971</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31748746.html">PMID:31748746</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/37119971.html">PMID:37119971</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

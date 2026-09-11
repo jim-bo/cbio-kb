@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Paraganglioma (PGNG)</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Paraganglioma (PGL) is a neuroendocrine tumor arising from extra-adrenal paraganglia of the autonomic nervous system — either sympathetic (abdominal/thoracic, typically catecholamine-secreting) or parasympathetic (head and neck, typically non-secreting). Together with pheochromocytoma (<a href="../cancer_types/PHC.html">PHC</a>), they form the PCPG family. PGLs share the same germline susceptibility gene spectrum as <a href="../cancer_types/PHC.html">PHC</a> (SDH subunits, <a href="../genes/VHL.html">VHL</a>, <a href="../genes/RET.html">RET</a>, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/MAX.html">MAX</a>, <a href="../genes/TMEM127.html">TMEM127</a>, <a href="../genes/EGLN1.html">EGLN1</a>). SDHB-germline PGLs carry the highest risk of malignant behavior. The TCGA PCPG study, which excluded head and neck PGLs, provides the most comprehensive molecular characterization to date.</p>
+<p>Paraganglioma (PGL) is a neuroendocrine tumor arising from extra-adrenal paraganglia of the autonomic nervous system — either sympathetic (abdominal/thoracic, typically catecholamine-secreting) or parasympathetic (head and neck, typically non-secreting). Together with pheochromocytoma (<a href="../cancer_types/PHC.html">PHC</a>), they form the <a href="../cancer_types/PCPG.html">PCPG</a> family. PGLs share the same germline susceptibility gene spectrum as <a href="../cancer_types/PHC.html">PHC</a> (SDH subunits, <a href="../genes/VHL.html">VHL</a>, <a href="../genes/RET.html">RET</a>, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/MAX.html">MAX</a>, <a href="../genes/TMEM127.html">TMEM127</a>, <a href="../genes/EGLN1.html">EGLN1</a>). SDHB-germline PGLs carry the highest risk of malignant behavior. The TCGA PCPG study, which excluded head and neck PGLs, provides the most comprehensive molecular characterization to date.</p>
 </section>
 <section id="cohorts-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
@@ -180,8 +183,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="recurrent-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
-<li>TCGA PCPG cohort (n=173 total; mixed PCC/PGL, 57% female, 43% male, mean age 47): 95% of tumors had a driver identified; <a href="../genes/SDHB.html">SDHB</a> germline mutations most common single driver (9%); <a href="../genes/EPAS1.html">EPAS1</a> somatic hotspot mutations specific to pseudohypoxia PGLs; <a href="../genes/MAML3.html">MAML3</a> fusions and <a href="../genes/CSDE1.html">CSDE1</a> mutations define the Wnt-altered subtype (predominantly adrenal PCCs, but methodology applies to PGLs); <a href="../genes/ATRX.html">ATRX</a> somatic mutations co-occurring with SDHB germline in 3 tumors linked to alternative lengthening of telomeres <a href="../papers/28162975.html">PMID:28162975</a>.</li>
+<li>TCGA PCPG cohort (n=173 total; mixed PCC/PGL, 57% female, 43% male, mean age 47): 95% of tumors had a driver identified; <a href="../genes/SDHB.html">SDHB</a> germline mutations most common single driver (9%); <a href="../genes/EPAS1.html">EPAS1</a> somatic hotspot mutations specific to pseudohypoxia PGLs; <a href="../genes/MAML3.html">MAML3</a> fusions and <a href="../genes/CSDE1.html">CSDE1</a> mutations define the Wnt-altered subtype (predominantly adrenal PCCs, but methodology applies to PGLs); <a href="../genes/ATRX.html">ATRX</a> somatic mutations co-occurring with <a href="../genes/SDHB.html">SDHB</a> germline in 3 tumors linked to alternative lengthening of telomeres <a href="../papers/28162975.html">PMID:28162975</a>.</li>
 <li>11/173 (6%) had distant metastases; 16/173 (9%) had aggressive disease (distant metastases, positive regional nodes, or local recurrence) at study enrollment <a href="../papers/28162975.html">PMID:28162975</a>.</li>
+<li>In a WGS/multi-omic study of 94 SDHB germline-mutant phaeochromocytoma/paraganglioma tumors (88 extra-adrenal paragangliomas, including bladder, carotid body and head-and-neck sites), tumor mutation burden was low (median 0.32 mut/Mb) and <a href="../genes/TERT.html">TERT</a> or <a href="../genes/ATRX.html">ATRX</a> alterations, which were mutually exclusive, were present in 61% of metastatic cases and linked to poorer outcome. <a href="../papers/40097403.html">PMID:40097403</a></li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -189,8 +193,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Kinase signaling: predominantly PCCs; NF1/RET/HRAS-driven.</li>
 <li>Pseudohypoxia: SDH-mutant, VHL-mutant, EPAS1-mutant; mixed PCC 57%/PGL 43%; highest metastatic risk.</li>
-<li>Wnt-altered: predominantly adrenal PCCs in this cohort; MAML3 fusions.</li>
-<li>Cortical admixture: MAX germline; adrenal cortex marker expression.</li>
+<li>Wnt-altered: predominantly adrenal PCCs in this cohort; <a href="../genes/MAML3.html">MAML3</a> fusions.</li>
+<li>Cortical <a href="../methods/admixture.html">admixture</a>: <a href="../genes/MAX.html">MAX</a> germline; adrenal cortex marker expression.</li>
 </ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
@@ -205,8 +209,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/28162975.html">PMID:28162975</a> — TCGA PCPG Analysis Working Group, multi-platform profiling of 173 PCC/PGL tumors.</li>
+<li><a href="../papers/40097403.html">PMID:40097403</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

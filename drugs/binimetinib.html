@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,9 +177,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="evidence-in-the-corpus">Evidence in the corpus</h2>
 <ul>
 <li>Binimetinib (MEK inhibitor) was among MAPK-pathway directed therapies evaluated across <a href="../genes/BRAF.html">BRAF</a> fusion-positive tumors (N=241, 52 histologies); MEK inhibitor monotherapy provided durable benefit particularly in pilocytic astrocytomas, while combination <a href="../genes/BRAF.html">BRAF</a>+MEK inhibition was less durable (median 1 month) <a href="../papers/38922339.html">PMID:38922339</a>.</li>
-<li>MEK inhibitor; proposed as therapeutic candidate for KRAS/NRAS/GNAQ-altered cisplatin-resistant <a href="../cancer_types/GCT.html">GCT</a> alongside <a href="../drugs/trametinib.html">trametinib</a> and <a href="../drugs/selumetinib.html">selumetinib</a> per Appendix Table A2 of the cisplatin-resistance biomarker study (N=180 advanced <a href="../cancer_types/GCT.html">GCT</a>) <a href="../papers/27646943.html">PMID:27646943</a></li>
+<li>MEK inhibitor; proposed as therapeutic candidate for KRAS/NRAS/GNAQ-altered cisplatin-resistant <a href="../cancer_types/germ-cell-tumor.html">germ cell tumor</a> alongside <a href="../drugs/trametinib.html">trametinib</a> and <a href="../drugs/selumetinib.html">selumetinib</a> per Appendix Table A2 of the cisplatin-resistance biomarker study (N=180 advanced germ cell tumors) <a href="../papers/27646943.html">PMID:27646943</a></li>
 <li>Binimetinib (with <a href="../drugs/encorafenib.html">encorafenib</a> +/- <a href="../drugs/cetuximab.html">cetuximab</a>) is used in <a href="../genes/BRAF.html">BRAF</a> V600E-mutant CRC; the MAPPYACTS dual-driver CRC paper highlights that MSS BRAF V600E CRC cases did not harbor a concurrent MAPK driver before therapy, informing BRAF inhibitor + MEK inhibitor selection <a href="../papers/35235413.html">PMID:35235413</a></li>
-<li>MAPK pathway alteration (60% prevalence in <a href="../cancer_types/LGSOC.html">LGSOC</a>, n=119) was independently associated with improved <a href="../cancer_types/OS.html">OS</a> on multivariate analysis (HR 2.5 for absence vs presence, p=0.019); result is biologically coherent with the MILO/ENGOT-ov11 trial showing PFS advantage for binimetinib in KRAS-mutated recurrent LGSOC <a href="../papers/35443055.html">PMID:35443055</a></li>
+<li>MAPK pathway alteration (60% prevalence in <a href="../cancer_types/LGSOC.html">LGSOC</a>, n=119) was independently associated with improved OS on multivariate analysis (HR 2.5 for absence vs presence, p=0.019); result is biologically coherent with the MILO/ENGOT-ov11 trial showing PFS advantage for binimetinib in KRAS-mutated recurrent LGSOC <a href="../papers/35443055.html">PMID:35443055</a></li>
 <li>MEK inhibitor; indicated for <a href="../genes/KRAS.html">KRAS</a> gain-of-function mutations — 18% pan-cohort in Chinese pan-cancer study (n=10,194); relevant for CRC (KRAS GoF) at OncoKB Level 3B/4 <a href="../papers/35871175.html">PMID:35871175</a></li>
 </ul>
 </section>
@@ -199,9 +202,9 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/35235413.html">PMID:35235413</a></li>
 <li><a href="../papers/35443055.html">PMID:35443055</a></li>
 <li><a href="../papers/38922339.html">PMID:38922339</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

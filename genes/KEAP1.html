@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,8 +184,8 @@ ul.task-list li input[type="checkbox"] {
 <li>KEAP1 mutations detected in plasma ctDNA are associated with the strongest gene-specific VTE risk (adjusted HR = 2.50, 95% CI: 1.62-3.85; n=76 patients with KEAP1 alteration) in a multi-cancer liquid biopsy analysis of 5,765 MSK patients <a href="../papers/39147831.html">PMID:39147831</a>.</li>
 <li>Loss-of-function mutation in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q &lt; 0.1); mutually exclusive with <a href="../genes/NFE2L2.html">NFE2L2</a> mutations; NFE2L2/KEAP1/CUL3 pathway altered in 34% of <a href="../cancer_types/LUSC.html">LUSC</a> tumors <a href="../papers/22960745.html">PMID:22960745</a></li>
 <li>Inactivating mutations in 12% of 183 <a href="../cancer_types/LUAD.html">LUAD</a> cases; anti-correlated with never/light smoking status <a href="../papers/22980975.html">PMID:22980975</a></li>
-<li>KEAP1 is identified as a driver linked to oxidative-stress signaling in <a href="../cancer_types/HCC.html">HCC</a> by integrated genomic analysis <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>KEAP1 loss-of-function mutations occur in ~3% of HCCs (co-listed with <a href="../genes/NFE2L2.html">NFE2L2</a> at 4%) as part of the oxidative stress/NRF2 pathway alterations in the <a href="../cancer_types/HCC.html">HCC</a> mutational landscape. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>KEAP1 is identified as a driver linked to oxidative-stress signaling in <a href="../cancer_types/HCC.html">HCC</a> by integrated genomic analysis <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>KEAP1 loss-of-function mutations occur in ~3% of HCCs (co-listed with <a href="../genes/NFE2L2.html">NFE2L2</a> at 4%) as part of the oxidative stress/NRF2 pathway alterations in the <a href="../cancer_types/HCC.html">HCC</a> mutational landscape. <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>Loss-of-function mutations in 17% of <a href="../cancer_types/LUAD.html">LUAD</a> (TCGA, n=230); enriched in oncogene-negative tumours (P &lt; 0.01); co-occurs with <a href="../genes/STK11.html">STK11</a> as a defining feature of the PP transcriptional subtype <a href="../papers/25079552.html">PMID:25079552</a></li>
 <li>KEAP1 alterations co-occur with <a href="../genes/NFE2L2.html">NFE2L2</a> and <a href="../genes/CUL3.html">CUL3</a> in the classical mRNA subtype of <a href="../cancer_types/HNSC.html">HNSC</a> (TCGA, n=279), associated with heavy smoking and laryngeal sub-site, paralleling the oxidative-stress axis in <a href="../cancer_types/LUSC.html">LUSC</a>. <a href="../papers/25631445.html">PMID:25631445</a></li>
 <li>KEAP1 harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients in a 34-patient <a href="../cancer_types/NSCLC.html">NSCLC</a> <a href="../drugs/pembrolizumab.html">pembrolizumab</a> cohort (association not corrected for mutation burden). <a href="../papers/25765070.html">PMID:25765070</a></li>
@@ -192,13 +195,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Significantly enriched in UMD (unmatched molecular driver) cohort vs level 1–4 patients (p&lt;0.05) in prospective <a href="../cancer_types/LUAD.html">LUAD</a> study (860 patients, MSK-IMPACT); missense variants cluster in the Kelch domain interacting with NFE2L2/Nrf2; authors propose Nrf2 inhibitors (luteolin, brusatol) as chemosensitizers in future trials <a href="../papers/28336552.html">PMID:28336552</a></li>
 <li>KEAP1 loss (with <a href="../genes/NFE2L2.html">NFE2L2</a> gain-of-function and <a href="../genes/CUL3.html">CUL3</a> loss) constitutes the NRF2 pathway driver set concentrated in squamous lung/esophagus, head and neck, and uterine cancers across the TCGA pan-cancer atlas; KEAP1 loss co-occurs with <a href="../genes/STK11.html">STK11</a> loss in lung cancer <a href="../papers/29625050.html">PMID:29625050</a></li>
 <li>KEAP1 is mutated in cHCC-ICC as part of the cellular energetics disruption group (KEAP1/IDH1/APOB/ALB, jointly 21.2%) <a href="../papers/31130341.html">PMID:31130341</a>.</li>
-<li>Mutated in 12 <a href="../cancer_types/LUAD.html">LUAD</a> tumors (CPTAC n=110); mutation generally reduced KEAP1 protein and increased <a href="../genes/NFE2L2.html">NFE2L2</a> S215/S433 phosphorylation; BTB-domain G511V preserved protein but produced high NFE2L2 phosphorylation, suggesting binding disruption; mutations reduced cognate protein and phosphosite abundance <a href="../papers/32649874.html">PMID:32649874</a></li>
+<li>Mutated in 12 <a href="../cancer_types/LUAD.html">LUAD</a> tumors (CPTAC n=110); mutation generally reduced KEAP1 protein and increased <a href="../genes/NFE2L2.html">NFE2L2</a> S215/S433 phosphorylation; BTB-domain G511V preserved protein but produced high <a href="../genes/NFE2L2.html">NFE2L2</a> phosphorylation, suggesting binding disruption; mutations reduced cognate protein and phosphosite abundance <a href="../papers/32649874.html">PMID:32649874</a></li>
 <li><a href="../genes/STK11.html">STK11</a> and KEAP1 mutations enriched in <a href="../cancer_types/NSCLC.html">NSCLC</a> samples lacking known mitogenic drivers, detected by MSK-ACCESS cfDNA assay <a href="../papers/34145282.html">PMID:34145282</a></li>
 <li>Assessed at ≥2% frequency in 426 treatment-naive clinical N2-negative <a href="../cancer_types/LUAD.html">LUAD</a> patients (MSK-IMPACT); no significant difference in alteration frequency by pN status (pN+ vs pN-). <a href="../papers/34290393.html">PMID:34290393</a></li>
-<li>NRF2 pathway gene mutated in 33/101 evaluable LSCC tumors; KEAP1 mutations did NOT reduce KEAP1 protein levels in LSCC (unlike LUAD), indicating that NRF2-pathway dysregulation differs mechanistically between <a href="../cancer_types/NSCLC.html">NSCLC</a> subtypes. <a href="../papers/34358469.html">PMID:34358469</a></li>
+<li>NRF2 pathway gene mutated in 33/101 evaluable LSCC tumors; KEAP1 mutations did NOT reduce KEAP1 protein levels in LSCC (unlike <a href="../cancer_types/LUAD.html">LUAD</a>), indicating that NRF2-pathway dysregulation differs mechanistically between <a href="../cancer_types/NSCLC.html">NSCLC</a> subtypes. <a href="../papers/34358469.html">PMID:34358469</a></li>
 <li>KEAP1 mutations were detected in a subset of <a href="../cancer_types/SCLC.html">SCLC</a> PDX models (MSK1053, MSK511c, MSK773D/E/G/I) along with <a href="../genes/SMARCA4.html">SMARCA4</a> and <a href="../genes/STK11.html">STK11</a>, representing NSCLC-typical co-occurring mutations in a minority of <a href="../cancer_types/SCLC.html">SCLC</a> xenograft models <a href="../papers/35440124.html">PMID:35440124</a>.</li>
 <li>Mutated in ≥3 HCCs in a European multi-etiology proteogenomic cohort (n=122 tumors); classified as a non-SMG cancer gene; associated with poor overall survival independent of BCLC staging in multivariate Cox analysis <a href="../papers/35508466.html">PMID:35508466</a>.</li>
 <li>Significantly lower mutation frequency in Asian <a href="../cancer_types/LUAD.html">LUAD</a> patients vs MSK and TCGA cohorts (aOM vs MSK: one of only 12 tumor-type:gene pairs with FDR&lt;0.05 difference); raises the open question of whether lower KEAP1 frequency in Chinese LUAD translates to differential sensitivity to checkpoint blockade <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>New KEAP1 hotspots, found mainly in lung cancer, co-occur with <a href="../genes/STK11.html">STK11</a> driver hotspots and vice versa <a href="../papers/41895280.html">PMID:41895280</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -236,8 +240,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/39147831.html">PMID:39147831</a></p></li>
 <li><p><a href="../papers/22960745.html">PMID:22960745</a></p></li>
 <li><p><a href="../papers/22980975.html">PMID:22980975</a></p></li>
-<li><p><a href="../papers/24735922.html">PMID:24735922</a></p></li>
-<li><p><a href="../papers/24798001.html">PMID:24798001</a></p></li>
+<li><p><a href="../papers/25369299.html">PMID:25369299</a></p></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
 <li><p><a href="../papers/25079552.html">PMID:25079552</a></p></li>
 <li><p><a href="../papers/25631445.html">PMID:25631445</a></p></li>
 <li><p><a href="../papers/25765070.html">PMID:25765070</a></p></li>
@@ -254,8 +258,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/35440124.html">PMID:35440124</a></p></li>
 <li><p><a href="../papers/35508466.html">PMID:35508466</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

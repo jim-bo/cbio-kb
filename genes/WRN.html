@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,6 +179,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>Synthetic lethal vulnerability in MSI cancer cell lines (CCLE); sensitivity predicted by mismatch-repair protein levels (<a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/PMS2.html">PMS2</a>, <a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>), SKI-complex components (<a href="../genes/SKIC2.html">SKIC2</a>, <a href="../genes/SKIC3.html">SKIC3</a>), and SUMO E1 heterodimer (SAE1/UBA2) abundance <a href="../papers/31978347.html">PMID:31978347</a></li>
+<li>WRN was one of nine DNA-repair/PARP-pathway genes (with <a href="../genes/FANCF.html">FANCF</a>, <a href="../genes/RAD54L.html">RAD54L</a>, <a href="../genes/FANCA.html">FANCA</a>, <a href="../genes/FANCC.html">FANCC</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/RECQL4.html">RECQL4</a>, <a href="../genes/NBN.html">NBN</a>, <a href="../genes/CHEK2.html">CHEK2</a>) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as candidate PARP-inhibitor targets <a href="../papers/37980418.html">PMID:37980418</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -206,8 +210,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/31978347.html">PMID:31978347</a></li>
+<li><a href="../papers/37980418.html">PMID:37980418</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

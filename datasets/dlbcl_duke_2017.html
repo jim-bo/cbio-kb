@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -210,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 <li>CRISPR screen identified <strong>1956 essential genes</strong> across at least one cell line; ABC-selective dependencies include <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/MYD88.html">MYD88</a>, <a href="../genes/IKBKB.html">IKBKB</a>, <a href="../genes/IRF4.html">IRF4</a>; GCB-selective include <a href="../genes/XPO1.html">XPO1</a>, <a href="../genes/ZBTB7A.html">ZBTB7A</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, <a href="../genes/PTPN6.html">PTPN6</a>. <a href="../papers/28985567.html">PMID:28985567</a></li>
 <li><strong>36% of DLBCL patients</strong> harbor genetic alterations in 9 CRISPR-validated essential driver genes that are direct drug targets. <a href="../papers/28985567.html">PMID:28985567</a></li>
 <li>A <strong>3-tier genomic risk classifier</strong> integrating 150 driver genes with cell-of-origin, <a href="../genes/MYC.html">MYC</a>, and <a href="../genes/BCL2.html">BCL2</a> expression outperforms IPI, cell-of-origin, and MYC/BCL2 dual-expressor models; validated on an independent 20% test set (p=8×10⁻⁵) and 5-fold cross-validation. <a href="../papers/28985567.html">PMID:28985567</a></li>
-<li>Mutations associated with poorer <a href="../cancer_types/OS.html">OS</a> across all DLBCL: <a href="../genes/MYC.html">MYC</a>, <a href="../genes/CD79B.html">CD79B</a>, <a href="../genes/ZFAT.html">ZFAT</a>. Favorable: <a href="../genes/NF1.html">NF1</a>, <a href="../genes/SGK1.html">SGK1</a>. <a href="../papers/28985567.html">PMID:28985567</a></li>
+<li>Mutations associated with poorer OS across all DLBCL: <a href="../genes/MYC.html">MYC</a>, <a href="../genes/CD79B.html">CD79B</a>, <a href="../genes/ZFAT.html">ZFAT</a>. Favorable: <a href="../genes/NF1.html">NF1</a>, <a href="../genes/SGK1.html">SGK1</a>. <a href="../papers/28985567.html">PMID:28985567</a></li>
 <li>Within GCB DLBCL: <a href="../genes/EZH2.html">EZH2</a> mutations associated with better survival; within ABC DLBCL: <a href="../genes/KLHL14.html">KLHL14</a>, <a href="../genes/BTG1.html">BTG1</a>, <a href="../genes/PAX5.html">PAX5</a>, <a href="../genes/CDKN2A.html">CDKN2A</a> alterations associated with poorer survival. <a href="../papers/28985567.html">PMID:28985567</a></li>
 </ul>
 </section>

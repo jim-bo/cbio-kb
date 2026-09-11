@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,16 +178,18 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>In a patient with <a href="../genes/MET.html">MET</a> exon 14 skipping mutation-positive lung cancer and CNS metastases, serial CSF ctDNA profiling detected emergence of the <a href="../genes/MET.html">MET</a> p.Y1230N resistance mutation while on crizotinib, prompting a treatment switch to <a href="../drugs/capmatinib.html">capmatinib</a> <a href="../papers/39289779.html">PMID:39289779</a>.</li>
 <li>CSF ctDNA sequencing via MSK-IMPACT identified resistance mutations arising during crizotinib therapy, demonstrating the utility of CSF liquid biopsy for monitoring on-target resistance in the CNS compartment <a href="../papers/39289779.html">PMID:39289779</a>.</li>
-<li>Referenced as an example of acquired resistance in targeted therapy (ALK-fusion lung cancer + crizotinib), used to motivate anticipatory combination regimens and second-generation inhibitor strategies for <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>ALK/ROS1/MET inhibitor used as targeted therapy for <a href="../genes/ALK.html">ALK</a> rearrangements (&gt;80% EML4-ALK) over-represented in young-onset <a href="../cancer_types/NSCLC.html">NSCLC</a>; CROWN trial subgroup analyses showed consistent outcomes by age <a href="../papers/27346245.html">PMID:27346245</a></li>
+<li>Referenced as an example of acquired resistance in targeted therapy (ALK-fusion lung cancer + crizotinib), used to motivate anticipatory combination regimens and second-generation inhibitor strategies for <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>ALK/ROS1/MET inhibitor used as targeted therapy for <a href="../genes/ALK.html">ALK</a> rearrangements (&gt;80% EML4-ALK) over-represented in young-onset <a href="../cancer_types/NSCLC.html">NSCLC</a>; CROWN trial subgroup analyses showed consistent outcomes by age <a href="../papers/40958859.html">PMID:40958859</a></li>
 <li>Matched therapy for <a href="../genes/ROS1.html">ROS1</a> fusions in 860-patient MSK-IMPACT <a href="../cancer_types/LUAD.html">LUAD</a> cohort; two ROS1-fusion patients died before crizotinib FDA approval (March 2016) for <a href="../genes/ROS1.html">ROS1</a> indication; <a href="../genes/ALK.html">ALK</a> fusions also matched to crizotinib with 90.9% uptake and 93.3% clinical benefit <a href="../papers/28336552.html">PMID:28336552</a>.</li>
-<li>Flagged as the approved <a href="../genes/ALK.html">ALK</a> inhibitor for 20 <a href="../genes/ALK.html">ALK</a>-fusion samples spanning 8 cancer types (5 in <a href="../cancer_types/LUAD.html">LUAD</a>) in the TCGA pan-cancer fusion atlas (n=9,624); <a href="../genes/EML4.html">EML4</a> was the dominant 5’ partner (7/17 <a href="../genes/ALK.html">ALK</a> fusions), and ALK overexpression was copy-number neutral — consistent with fusion-driven promoter capture rather than amplification <a href="../papers/29617662.html">PMID:29617662</a></li>
+<li>Flagged as the approved <a href="../genes/ALK.html">ALK</a> inhibitor for 20 <a href="../genes/ALK.html">ALK</a>-fusion samples spanning 8 cancer types (5 in <a href="../cancer_types/LUAD.html">LUAD</a>) in the TCGA pan-cancer fusion atlas (n=9,624); <a href="../genes/EML4.html">EML4</a> was the dominant 5’ partner (7/17 <a href="../genes/ALK.html">ALK</a> fusions), and <a href="../genes/ALK.html">ALK</a> overexpression was copy-number neutral — consistent with fusion-driven promoter capture rather than amplification <a href="../papers/29617662.html">PMID:29617662</a></li>
 <li>In Beat <a href="../cancer_types/AML.html">AML</a> ex vivo screen (409 specimens / 363 <a href="../cancer_types/AML.html">AML</a> patients), <a href="../genes/BCOR.html">BCOR</a> mutation alone (without <a href="../genes/RUNX1.html">RUNX1</a> co-mutation) correlated with sensitivity to crizotinib (multi-kinase inhibitor), distinguishing BCOR-solo from BCOR/RUNX1 co-mutant <a href="../cancer_types/AML.html">AML</a> which instead showed JAK-inhibitor sensitivity <a href="../papers/30333627.html">PMID:30333627</a>.</li>
 <li>In uterine sarcoma profiling, one ALK-fusion case (LBH-ALK, reclassified as <a href="../cancer_types/IMT.html">IMT</a>) achieved 30+ months radiographic stabilization on crizotinib; a second ALK-fusion patient had a brief crizotinib response before progressing, then progressing again on <a href="../drugs/ceritinib.html">ceritinib</a> <a href="../papers/32299819.html">PMID:32299819</a></li>
 <li>Produced a durable complete response in a <a href="../genes/BRAF.html">BRAF</a> V600 wild-type melanoma patient with a <a href="../genes/ROS1.html">ROS1</a> fusion after progression through checkpoint blockade <a href="../papers/33509808.html">PMID:33509808</a></li>
 <li>Crizotinib (ALK/MET/ROS1 inhibitor) was used in the MAPPYACTS trial context for ALK-fusion and ROS1-fusion positive pediatric tumors within the AcSé-ESMART platform; 10 ALK fusions were classified ready-for-routine-use <a href="../papers/35292802.html">PMID:35292802</a></li>
 <li>Crizotinib (MET/ALK inhibitor) was combined with <a href="../drugs/selpercatinib.html">selpercatinib</a> in a patient with MET-amplified bypass resistance to <a href="../drugs/selpercatinib.html">selpercatinib</a> monotherapy, achieving re-response; however, an emerging <a href="../genes/BRAF.html">BRAF</a> D594N clone was detected under combination therapy <a href="../papers/35304457.html">PMID:35304457</a></li>
 <li>1st-generation ALK/ROS1/MET TKI; ALK fusions in 6.7% of <a href="../cancer_types/NSCLC.html">NSCLC</a> in Chinese pan-cancer cohort (n=10,194) actionable with crizotinib/ceritinib/alectinib; <a href="../genes/ROS1.html">ROS1</a> fusions detected in 51 samples <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Crizotinib was the most commonly used <a href="../genes/MET.html">MET</a> inhibitor (22 of 45 treated patients) in a cohort with acquired or de novo MET amplification/exon 14 alteration; crizotinib and <a href="../drugs/capmatinib.html">capmatinib</a> were noted as active in high-level MET amplification though this is not an approved indication. <a href="../papers/36044468.html">PMID:36044468</a></li>
+<li>Case report: off-label crizotinib shrank a MET-amplified escape lesion in a gallbladder cancer patient who had lost HER2 expression after <a href="../drugs/zanidatamab.html">zanidatamab</a> treatment. <a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -204,20 +209,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/39289779.html">PMID:39289779</a></li>
+<li><p><a href="../papers/39289779.html">PMID:39289779</a></p></li>
+<li><p><a href="../papers/25369299.html">PMID:25369299</a></p></li>
+<li><p><a href="../papers/40958859.html">PMID:40958859</a></p></li>
+<li><p><a href="../papers/28336552.html">PMID:28336552</a></p></li>
+<li><p><a href="../papers/29617662.html">PMID:29617662</a> — Gao et al.&nbsp;2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); crizotinib flagged for 20 ALK-fusion samples across 8 cancer types; EML4-ALK dominant partner; ALK overexpression copy-number neutral.</p></li>
+<li><p><a href="../papers/30333627.html">PMID:30333627</a></p></li>
+<li><p><a href="../papers/32299819.html">PMID:32299819</a></p></li>
+<li><p><a href="../papers/33509808.html">PMID:33509808</a></p></li>
+<li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
+<li><p><a href="../papers/35304457.html">PMID:35304457</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/36044468.html">PMID:36044468</a></p></li>
+<li><p><a href="../papers/42360806.html">PMID:42360806</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24735922.html">PMID:24735922</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27346245.html">PMID:27346245</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a> - <a href="../papers/29617662.html">PMID:29617662</a> — Gao et al.&nbsp;2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); crizotinib flagged for 20 ALK-fusion samples across 8 cancer types; EML4-ALK dominant partner; ALK overexpression copy-number neutral.</p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30333627.html">PMID:30333627</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32299819.html">PMID:32299819</a></p>
-<ul>
-<li><a href="../papers/33509808.html">PMID:33509808</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35304457.html">PMID:35304457</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

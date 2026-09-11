@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -210,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>PMID:</strong> 40256659 · <strong>DOI:</strong> 10.1016/j.euros.2025.03.009 · <strong>Journal:</strong> European Urology Open Science (2025)</p>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p>Guercio et al.&nbsp;analyzed pretreatment plasma cell-free DNA (cfDNA) from 201 patients with metastatic urothelial carcinoma (mUC) nested within the phase 3 CALGB 90601 (Alliance) trial of first-line gemcitabine/cisplatin with or without <a href="../drugs/bevacizumab.html">bevacizumab</a>. Using the MSK-ACCESS 129-gene cfDNA panel, they tested whether DNA damage response (DDR) gene alterations, ctDNA variant allele frequency (VAF), and other genomic features predict outcomes after cisplatin-based chemotherapy. Oncogenic DDR alterations (including <a href="../genes/ERCC2.html">ERCC2</a>) were not significantly associated with response, <a href="../cancer_types/OS.html">OS</a>, or PFS — but the analysis was underpowered (only 13% of cases had oncogenic DDR alterations). Higher pretreatment ctDNA VAF and cfDNA alterations in the <a href="../genes/TERT.html">TERT</a> promoter, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/ERBB2.html">ERBB2</a> were each independently associated with shorter overall survival.</p>
+<p>Guercio et al.&nbsp;analyzed pretreatment plasma cell-free DNA (cfDNA) from 201 patients with metastatic urothelial carcinoma (mUC) nested within the phase 3 CALGB 90601 (Alliance) trial of first-line gemcitabine/cisplatin with or without <a href="../drugs/bevacizumab.html">bevacizumab</a>. Using the MSK-ACCESS 129-gene cfDNA panel, they tested whether DNA damage response (DDR) gene alterations, ctDNA variant allele frequency (VAF), and other genomic features predict outcomes after cisplatin-based chemotherapy. Oncogenic DDR alterations (including <a href="../genes/ERCC2.html">ERCC2</a>) were not significantly associated with response, OS, or PFS — but the analysis was underpowered (only 13% of cases had oncogenic DDR alterations). Higher pretreatment ctDNA VAF and cfDNA alterations in the <a href="../genes/TERT.html">TERT</a> promoter, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/ERBB2.html">ERBB2</a> were each independently associated with shorter overall survival.</p>
 </section>
 <section id="cohort-data" class="level2">
 <h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
@@ -223,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Pretreatment cfDNA + matched germline DNA via <a href="../methods/msk-access.html">MSK-ACCESS</a> — 129-gene tumor-uninformed panel with unique molecular indexes, depth &gt;15,000×, allele-frequency detection threshold 0.1%.</li>
 <li>Matched archival tumor (107 patients, 53%) via the <a href="../methods/msk-impact-panel.html">MSK-IMPACT panel</a>.</li>
 </ul></li>
-<li><strong>Endpoints:</strong> Primary endpoint of the parent trial was overall survival (<a href="../cancer_types/OS.html">OS</a>). Progression-free survival (PFS) and response were secondary endpoints. cfDNA cohort median OS 14 mo (95% CI 13–18) on chemo+bevacizumab vs 16 mo (95% CI 15–18) on chemo+placebo; PFS 7.8 vs 7.6 mo respectively. Treatment-arm comparable to overall trial cohort.</li>
+<li><strong>Endpoints:</strong> Primary endpoint of the parent trial was overall survival (OS). Progression-free survival (PFS) and response were secondary endpoints. cfDNA cohort median OS 14 mo (95% CI 13–18) on chemo+bevacizumab vs 16 mo (95% CI 15–18) on chemo+placebo; PFS 7.8 vs 7.6 mo respectively. Treatment-arm comparable to overall trial cohort.</li>
 <li><strong>Statistics:</strong> Cox proportional hazards; Benjamini-Hochberg FDR (q&lt;0.05); cube-root–transformed 75th-percentile VAF (³√VAF₇₅ₚc) used to stabilize VAF distributions. Multivariable adjustment for ECOG performance status (0 vs 1) and visceral metastases; PIK3CA/ERBB2 models additionally adjusted for ctDNA VAF.</li>
 </ul>
 </section>

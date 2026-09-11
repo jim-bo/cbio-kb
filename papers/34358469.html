@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -255,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/CDK5.html">CDK5</a> — protein and PTM-SEA-derived kinase activity significantly upregulated in the Classical subtype (FDR&lt;0.05); proposed CDK5-mediated phosphorylation of NFE2L2 S433 as a non-mutational driver of NRF2 activation (<a href="../papers/34358469.html">PMID:34358469</a>).</li>
 <li><a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/CUL3.html">CUL3</a> — NRF2 pathway mutations in 33/101 evaluable tumors; concordant differential mRNA/protein/phosphoprotein of NRF2 pathway genes; dosage effect at <a href="../genes/SQSTM1.html">SQSTM1</a>, <a href="../genes/NR0B1.html">NR0B1</a>, AKR1B10, <a href="../genes/CARD11.html">CARD11</a>, FFAR2 in two-hit cases. <a href="../genes/KEAP1.html">KEAP1</a> mutations did NOT reduce KEAP1 protein in LSCC (unlike LUAD), suggesting NRF2-pathway dysregulation differs between <a href="../cancer_types/NSCLC.html">NSCLC</a> subtypes (<a href="../papers/34358469.html">PMID:34358469</a>, contrasted with <a href="../papers/32649874.html">PMID:32649874</a>).</li>
 <li><a href="../genes/NOTCH1.html">NOTCH1</a> — mutations associated with elevated <a href="../genes/GSK3B.html">GSK3B</a> protein and T433 phosphorylation, decreased inhibitory GSK3A S21, and upregulated NLK; both NLK and GSK3B inhibit <a href="../genes/NOTCH1.html">NOTCH1</a>, consistent with its tumor-suppressor role in LSCC (<a href="../papers/34358469.html">PMID:34358469</a>).</li>
-<li><a href="../genes/ARID1A.html">ARID1A</a> — mutations associated with higher TMB and downregulated <a href="../genes/ARID1A.html">ARID1A</a> protein; ARID1A loss linked to worse <a href="../cancer_types/OS.html">OS</a> in NSCLC (<a href="../papers/34358469.html">PMID:34358469</a>).</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — mutations associated with higher TMB and downregulated <a href="../genes/ARID1A.html">ARID1A</a> protein; ARID1A loss linked to worse OS in NSCLC (<a href="../papers/34358469.html">PMID:34358469</a>).</li>
 <li><a href="../genes/PDGFRB.html">PDGFRB</a>, <a href="../genes/ROR2.html">ROR2</a> — high CBPE scores in EMT-E subtype; targetable RTKs implicated in non-canonical Wnt signaling and EMT progression (<a href="../papers/34358469.html">PMID:34358469</a>).</li>
 <li><a href="../genes/EGFR.html">EGFR</a> — significantly upregulated in squamous lung and HNSCC tumors but not LUAD; EGFR amplification did NOT correlate with PROGENy EGFR pathway activity, which instead tracked ligand mRNA abundance (<a href="../papers/34358469.html">PMID:34358469</a>).</li>
 <li><a href="../genes/CSF1R.html">CSF1R</a> — highest CBPE score among nine RTKs profiled; phospho-activity positively associated with the immune-Hot cluster and macrophage signatures (<a href="../papers/34358469.html">PMID:34358469</a>).</li>

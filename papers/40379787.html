@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>APOBEC3 mutagenesis drives therapy resistance in breast cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/40379787.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/40379787.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">APOBEC3 mutagenesis drives therapy resistance in breast cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Avantika Gupta </p>
+             <p>Andrea Gazzo </p>
+             <p>Pier Selenica </p>
+             <p>Anton Safonov </p>
+             <p>Fresia Pareja </p>
+             <p>Edaise M da Silva </p>
+             <p>David N Brown </p>
+             <p>Hong Shao </p>
+             <p>Yingjie Zhu </p>
+             <p>Juber Patel </p>
+             <p>Juan Blanco-Heredia </p>
+             <p>Bojana Stefanovska </p>
+             <p>Michael A Carpenter </p>
+             <p>Yanjun Chen </p>
+             <p>Isabella Vegas </p>
+             <p>Xin Pei </p>
+             <p>Denise Frosina </p>
+             <p>Achim A Jungbluth </p>
+             <p>Marc Ladanyi </p>
+             <p>Giuseppe Curigliano </p>
+             <p>Britta Weigelt </p>
+             <p>Nadeem Riaz </p>
+             <p>Simon N Powell </p>
+             <p>Pedram Razavi </p>
+             <p>Reuben S Harris </p>
+             <p>Jorge S Reis-Filho </p>
+             <p>Antonio Marra </p>
+             <p>Sarat Chandarlapaty </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41588-025-02187-1">10.1038/s41588-025-02187-1</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 40379787 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/s41588-025-02187-1">10.1038/s41588-025-02187-1</a> · <strong>Journal:</strong> Nature Genetics (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Gupta, Gazzo et al.&nbsp;mine a clinicogenomic cohort of 3,880 tumor-normal-sequenced breast cancer samples (3,117 patients) from Memorial Sloan Kettering to show that APOBEC3 mutagenesis — driven by the deaminases <a href="../genes/APOBEC3A.html">APOBEC3A</a> (A3A) and <a href="../genes/APOBEC3B.html">APOBEC3B</a> (A3B) — is the single most prevalent dominant mutational process in breast cancer, is enriched in metastatic/post-treatment tumors, and is causally linked to acquired resistance against endocrine therapy, CDK4/6 inhibitors and HER2-targeted agents. Using doxycycline-inducible A3A/A3B overexpression models, APOBEC3-knockout HER2+ cell lines, and whole-genome sequencing of paired primary-metastatic patient samples, they show that active APOBEC3 mutagenesis drives characteristic APOBEC3-context alterations — including <a href="../genes/RB1.html">RB1</a> loss-of-function, <a href="../genes/ESR1.html">ESR1</a> E380Q, and <a href="../genes/PIK3CA.html">PIK3CA</a> helical-domain hotspots — that accelerate resistance and shorten progression-free survival. Critically, APOBEC3 activity is often detectable before treatment exposure (60% of later APOBEC3-dominant paired samples were already APOBEC3-dominant earlier; 95% showed A3A/A3B protein by IHC), positioning APOBEC3 signatures as a pretreatment biomarker of evolvability rather than a purely acquired, treatment-induced process.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Primary clinicogenomic cohort:</strong> 3,880 high-quality breast cancer samples from 3,117 patients profiled by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> tumor-normal targeted sequencing (341–505 gene panel versions, 2014–2021; data freeze June 2022), after excluding samples with sequencing-estimated tumor purity &lt;20% from an initial 5,831 retrieved. Receptor-subtype composition: 2,133 (68.4%) HR+/HER2−, 276 (8.9%) HR+/HER2+, 149 (4.8%) HR−/HER2+, 559 (17.9%) TNBC (triple-negative, no distinct OncoTree code). Backing dataset: <a href="../datasets/breast_msk_2025.html">breast_msk_2025</a>.</li>
+<li><strong>Mutational signature calling:</strong> The single multivariate analysis (SigMA) tool deconvoluted dominant mutational signature per sample (APOBEC3 = SBS2+SBS13, HRD = SBS3+SBS8, Clock = SBS1+SBS5, Other). SigMA was benchmarked against downsampled whole-exome sequencing from TCGA primary <a href="../cancer_types/BRCA.html">BRCA</a> (n=1,019) and Bertucci et al.&nbsp;metastatic breast cancer WES (n=617), and whole-genome sequencing from Nik-Zainal et al.&nbsp;primary breast cancer (n=560), simulated to the <a href="../methods/IMPACT468.html">IMPACT468</a> panel footprint.</li>
+<li><strong>Deep WGS validation:</strong> 5 paired primary/metastatic patient tumor samples (MSK-BR-WGS series, median 102x tumor / 44x normal coverage) plus WGS of 29 breast cancer cell lines.</li>
+<li><strong>Functional models:</strong> doxycycline-inducible HA-tagged wild-type or catalytically dead (A3A-E72Q, A3B-E255Q) A3A/A3B overexpression in T47D and MCF7 (HR+, endogenously APOBEC3-low) cells; endogenous APOBEC3-driven BT-474 (<a href="../cancer_types/WT.html">WT</a> vs A3A-KO) and MDA-MB-453 (WT vs A3A-KO) HER2+ models.</li>
+<li><strong>Immunohistochemistry:</strong> A3A- and A3A/B/G-specific antibody staining on 130 tissue samples.</li>
+<li><strong>Longitudinal paired-sample analysis:</strong> 449 HR+/HER2− patients with 2 sequential MSK-IMPACT samples and 43 with ≥3, genotyped with Waltz to identify acquired versus shared mutations.</li>
+<li><strong>Treatment outcome analysis:</strong> progression-free survival (PFS) on first-line endocrine monotherapy (n=111), first-line endocrine therapy + CDK4/6 inhibitor (n=549), anti-PD-1 immunotherapy in TMB-high tumors (n=39), and PI3Kα-selective inhibitor (n=21).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>APOBEC3 was the most prevalent dominant mutational signature across the 3,880-sample cohort and was enriched from primary to metastatic disease: 15.7%→28.7% of HR+/HER2−, 18.5%→33.1% of HR+/HER2+, 30.2%→20.6% of HR−/HER2+, and 8.4%→16.9% of TNBC samples (primary vs.&nbsp;metastatic).</li>
+<li>SigMA reliably detected APOBEC3-dominant samples from targeted-panel data, with high sensitivity/specificity/accuracy against WES/WGS ground truth and exposure correlations of 0.75–0.79.</li>
+<li>APOBEC3-dominant HR+/HER2− metastatic tumors had significantly higher fraction of genome altered (FGA) than unmatched primaries, but significantly lower median FGA and whole-genome-doubling rate than non-APOBEC3-dominant tumors of the same sample type. APOBEC3-dominant HR+ and TNBC tumors had significantly higher median TMB than other dominant-signature groups, and APOBEC3 was the dominant process in most TMB-high (≥10 mutations/Mb) HR+/HER2− and HR+/HER2+ tumors — the current tumor-agnostic threshold for anti-PD-1 immunotherapy.</li>
+<li>Invasive lobular carcinoma (<a href="../cancer_types/ILC.html">ILC</a>, n=489) was associated more frequently with the APOBEC3 signature than invasive ductal carcinoma, regardless of sample type.</li>
+<li>Doxycycline-induced wild-type A3A or A3B overexpression in APOBEC3-null T47D/MCF7 cells directly produced an APOBEC3 mutational signature (41.3–92.5% of acquired SNVs in A3A clones; 6.7–12.5% in A3B clones), whereas catalytically dead mutants did not; WT-overexpressing cells also acquired kataegis, omikli, indels, CNAs and structural variants.</li>
+<li>In first-line endocrine monotherapy for HR+/HER2− metastatic breast cancer (<a href="../cancer_types/MBC.html">MBC</a>) (n=111), APOBEC3-dominant tumors had numerically shorter median PFS than tumors with other dominant signatures (8.6 vs.&nbsp;15.6 months; HR 1.4, 95% CI 0.9–2.2, P=0.12). In first-line endocrine therapy + CDK4/6 inhibitor (n=549), both APOBEC3-dominant (HR 1.5, 95% CI 1.2–1.8, P=2.4×10⁻⁴) and HRD-dominant (HR 1.8, 95% CI 1.4–2.2, P=6.4×10⁻⁷) tumors were independently associated with shorter median PFS versus tumors with other dominant signatures.</li>
+<li>Causal resistance experiments: <a href="../drugs/fulvestrant.html">fulvestrant</a>-treated A3A-WT T47D cells acquired resistance significantly faster than catalytically dead A3A-E72Q controls (P=1.44×10⁻⁹); 2/3 A3B-WT MCF7 replicates acquired <a href="../drugs/fulvestrant.html">fulvestrant</a> resistance versus 0/3 A3B-E255Q (P=9.13×10⁻¹⁰); A3A-WT T47D cells gained a growth advantage under <a href="../drugs/abemaciclib.html">abemaciclib</a> (P=1.19×10⁻¹²) and <a href="../drugs/palbociclib.html">palbociclib</a>; BT-474 cells with endogenous APOBEC3 activity acquired <a href="../drugs/lapatinib.html">lapatinib</a> resistance faster than A3A-knockout cells (P=6.78×10⁻¹⁰), with similar selective advantages under <a href="../drugs/neratinib.html">neratinib</a>, the AKT inhibitor <a href="../drugs/mk-2206.html">MK2206</a>, and the antibody–drug conjugate <a href="../drugs/trastuzumab-deruxtecan.html">trastuzumab deruxtecan</a> (T-DXd).</li>
+<li>Permutation-based gene enrichment in metastatic/post-treatment HR+/HER2− APOBEC3-dominant tumors identified oncogenic mutations in <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/CDH1.html">CDH1</a>, and <a href="../genes/KMT2C.html">KMT2C</a> (P_permutation&lt;0.1, mutated in &gt;5% of samples), plus lower-frequency enrichment of <a href="../genes/NF1.html">NF1</a> (2.8%) and <a href="../genes/ZFHX3.html">ZFHX3</a> (1.1%).</li>
+<li>In longitudinally sampled HR+/HER2− patients, APOBEC3-context acquired alterations were enriched in <a href="../genes/ARID1A.html">ARID1A</a> and <a href="../genes/ZFHX3.html">ZFHX3</a> (q=0.08 each) in treatment-resistant, APOBEC3-dominant paired samples; the proportion of APOBEC3-context mutations exclusive to later-stage samples (51.9%) exceeded those shared with earlier samples (32.3%), consistent with an active, ongoing mutagenic process.</li>
+<li>Site-specific enrichment analysis found the APOBEC3-context <a href="../genes/ESR1.html">ESR1</a> E380Q mutation strongly enriched in APOBEC3-dominant, HR+/HER2− post-treatment samples (q=7.8×10⁻¹²), whereas classic activating <a href="../genes/ESR1.html">ESR1</a> ligand-binding-domain hotspots (L536X, Y537X, D538X — none APOBEC3-context) were comparatively rare (8%) in APOBEC3-dominant tumors. APOBEC3-context <a href="../genes/PIK3CA.html">PIK3CA</a> helical-domain hotspots E545K (P=2×10⁻¹⁰) and E542K (P=4.5×10⁻⁶) were similarly enriched in APOBEC3-dominant post-treatment samples.</li>
+<li><a href="../genes/RB1.html">RB1</a> Q217* was the most frequent <a href="../genes/RB1.html">RB1</a> SNV in the clinical cohort and was enriched in APOBEC3-dominant cases; engineered T47D A3A-WT cells selected under <a href="../drugs/abemaciclib.html">abemaciclib</a> acquired an RB1 X703_splice truncating mutation with complete RB1 protein loss and a ~31-fold shift in abemaciclib IC50 (84.5 nM sensitive vs.&nbsp;2,624 nM resistant).</li>
+<li>MDA-MB-453 wild-type cells (endogenous A3A activity) developed abemaciclib resistance through a chromothripsis event at the <a href="../genes/YAP1.html">YAP1</a> locus (chromosome 11), elevating <a href="../genes/YAP1.html">YAP1</a> and its downstream target <a href="../genes/CDK6.html">CDK6</a> expression — a previously described CDK4/6 inhibitor resistance mechanism.</li>
+<li>Deep case study of patient MSK-BR-WGS-05 (endocrine therapy including <a href="../drugs/tamoxifen.html">tamoxifen</a> and <a href="../drugs/letrozole.html">letrozole</a>): 95% of acquired mutations were assigned to the APOBEC3 signature; the metastasis acquired pathogenic <a href="../genes/PIK3CA.html">PIK3CA</a> E545K and <a href="../genes/RAD51C.html">RAD51C</a> P21S mutations and an <a href="../genes/AURKA.html">AURKA</a> amplification while retaining the primary tumor’s <a href="../genes/FGFR1.html">FGFR1</a> amplification and <a href="../genes/PIK3R1.html">PIK3R1</a> deep deletion; a chromosome-19 kataegis region co-localized with a <a href="../genes/CIC.html">CIC</a> deep deletion present in both the primary and metastatic samples.</li>
+<li>Among 39 TMB-high HR+/HER2− MBC patients treated with anti-PD-1 immunotherapy, all 14 treated in earlier (first/second) lines with APOBEC3-dominant tumors showed disease control. Double (cis) <a href="../genes/PIK3CA.html">PIK3CA</a> mutations were more frequent in APOBEC3-dominant tumors regardless of TMB category, and in a small cohort (n=21, &lt;4 prior lines) treated with a PI3Kα-selective inhibitor, median PFS was numerically longer for APOBEC3-dominant (9.1 months) versus non-APOBEC3-dominant (4.1 months) tumors (P=0.4).</li>
+<li>In the paired early/late HR+/HER2− cohort (n=439), &gt;60% of samples that were APOBEC3-dominant at the later timepoint were already APOBEC3-dominant at the earlier timepoint (median exposure 64%, IQR 39–85%), and 95% of tumors showed A3A or A3B protein expression by IHC — evidence that APOBEC3 activity largely predates treatment rather than being solely treatment-induced.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/APOBEC3A.html">APOBEC3A</a> / <a href="../genes/APOBEC3B.html">APOBEC3B</a> — the two deaminases whose catalytically active (but not catalytically dead) overexpression reproduces the APOBEC3 mutational signature, kataegis, and structural instability in ER+ and HER2+ breast cancer cell lines, and causally accelerates resistance to fulvestrant, CDK4/6 inhibitors, and HER2-targeted therapies.</li>
+<li><a href="../genes/ESR1.html">ESR1</a> — the APOBEC3-context E380Q mutation is strongly enriched in APOBEC3-dominant, post-treatment HR+/HER2− tumors (q=7.8×10⁻¹²); classic non-APOBEC3-context activating ligand-binding-domain hotspots (L536X/Y537X/D538X) are comparatively rare in APOBEC3-dominant tumors.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — APOBEC3-context helical-domain hotspots E545K and E542K are enriched in APOBEC3-dominant post-treatment tumors; double (cis) PIK3CA mutations are more common in APOBEC3-dominant tumors, suggesting increased sensitivity to PI3Kα-selective inhibitors.</li>
+<li><a href="../genes/RB1.html">RB1</a> — Q217* is the most frequent RB1 SNV and is enriched in APOBEC3-dominant tumors; an engineered APOBEC3-context RB1 truncating mutation acquired under abemaciclib selection caused complete RB1 protein loss and ~31-fold reduced abemaciclib sensitivity.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/ZFHX3.html">ZFHX3</a> — transcription factors previously linked to endocrine-therapy resistance; APOBEC3-context acquired alterations in both genes are enriched in treatment-resistant, APOBEC3-dominant paired longitudinal samples (q=0.08 each).</li>
+<li><a href="../genes/NF1.html">NF1</a>, <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/CDH1.html">CDH1</a> — oncogenic mutations enriched by permutation testing in metastatic/post-treatment HR+/HER2− APOBEC3-dominant tumors.</li>
+<li><a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/RAD51C.html">RAD51C</a>, <a href="../genes/AURKA.html">AURKA</a>, <a href="../genes/CIC.html">CIC</a> — alterations tracked through the MSK-BR-WGS-05 primary-to-metastasis case: <a href="../genes/FGFR1.html">FGFR1</a> amplification and <a href="../genes/PIK3R1.html">PIK3R1</a> deep deletion were maintained from primary to metastasis; <a href="../genes/RAD51C.html">RAD51C</a> P21S and an <a href="../genes/AURKA.html">AURKA</a> amplification were newly acquired at metastasis; <a href="../genes/CIC.html">CIC</a> underwent deep deletion co-located with a chromosome-19 kataegis region present at both timepoints.</li>
+<li><a href="../genes/YAP1.html">YAP1</a> / <a href="../genes/CDK6.html">CDK6</a> — a chromothripsis event at the YAP1 locus drove elevated YAP1 and downstream <a href="../genes/CDK6.html">CDK6</a> expression in abemaciclib-resistant MDA-MB-453 cells, a known CDK4/6-inhibitor resistance mechanism.</li>
+<li><a href="../genes/TP53.html">TP53</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/MAP3K1.html">MAP3K1</a>, <a href="../genes/JAK2.html">JAK2</a>, <a href="../genes/CBL.html">CBL</a> — additional genes from the cohort oncoprint and enrichment analyses: <a href="../genes/TP53.html">TP53</a> was altered in 45% of the overall cohort; <a href="../genes/ERBB2.html">ERBB2</a> (HER2) amplification defines the HER2+ receptor subtypes studied in the resistance models; <a href="../genes/PTEN.html">PTEN</a> and <a href="../genes/MAP3K1.html">MAP3K1</a> alterations were numerically (though not significantly) higher in APOBEC3-dominant resistant samples; <a href="../genes/JAK2.html">JAK2</a> amplification and <a href="../genes/CBL.html">CBL</a> deep deletion were among the acquired CNAs in the MSK-BR-WGS-05 metastatic sample.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>APOBEC3-dominant status, callable from routine <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted sequencing via the <a href="../methods/sigma-mutational-signatures.html">SigMA</a> tool, is associated with shorter PFS on both first-line endocrine monotherapy and endocrine therapy + CDK4/6 inhibitor combinations in HR+/HER2− metastatic breast cancer, nominating it as a candidate prognostic/predictive biomarker for early treatment escalation.</li>
+<li>The co-occurrence of APOBEC3 dominance with high TMB identifies a subset of MBC potentially suited to anti-PD-1 immunotherapy, with the authors noting that earlier-line use (rather than later-line, treatment-refractory use) may yield better disease control.</li>
+<li>Enrichment of PIK3CA helical-domain hotspots and double (cis) PIK3CA mutations in APOBEC3-dominant tumors suggests these patients may be preferentially sensitive to PI3Kα-selective inhibitors, and could be identified before overt resistance develops.</li>
+<li>Because APOBEC3 activity and its downstream alterations (RB1 loss, ESR1 E380Q, PIK3CA hotspots) are frequently detectable in pretreatment or early samples, the authors propose APOBEC3 signatures as a pretreatment biomarker of tumor evolvability that could inform earlier use of combination therapy or closer monitoring, rather than being purely a marker acquired during treatment.</li>
+<li>No APOBEC3-targeting therapeutic currently exists; the clinical strategies discussed (PI3Kα inhibitors, anti-PD-1 blockade) are indirect, biomarker-guided approaches that exploit downstream consequences of APOBEC3 mutagenesis rather than the enzymes themselves.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The clinicogenomic cohort was profiled with targeted panel sequencing (MSK-IMPACT) rather than WGS/WES, providing less complete mutational information; the authors note WGS will likely be needed to fully characterize the clinical scope of APOBEC3 mutagenesis.</li>
+<li>The cohort is skewed toward HR+ tumors, limiting the ability to assess how APOBEC3 mutagenesis affects disease progression in HR−/HER2+ and triple-negative breast cancer.</li>
+<li>The large proportion of metastatic cases limits analysis of APOBEC3’s role in relapse from early-stage disease; the authors call for larger primary cohorts with long-term follow-up (including non-relapsing cases) to assess APOBEC3’s contribution to metastatic relapse and adjuvant-therapy resistance.</li>
+<li>The timing of APOBEC3 mutagenesis (persistent versus staggered/episodic activity) remains debated in the broader field; this study’s paired-sample data (60% early/late concordance, 95% A3A/A3B IHC positivity) support early, pre-existing activity but do not fully resolve episodic dynamics.</li>
+<li>The PI3Kα-inhibitor (n=21) and anti-PD-1 (n=39) clinical subgroup analyses were small and not statistically significant (P=0.4; no significant PFS difference by APOBEC3 status), so the authors describe these as hypothesis-generating rather than definitive evidence of a treatment-selection biomarker.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“To identify the underlying mutational processes, we utilized a clinically annotated cohort of 3,880 patient samples with tumor-normal sequencing. Mutational signatures associated with apolipoprotein B mRNA-editing enzyme catalytic polypeptide-like 3 (APOBEC3) enzymes were prevalent and enriched in post-treatment hormone receptor-positive cancers.” (Abstract)</li>
+<li>“APOBEC3-dominant signature was found in 15.7% and 28.7% of primary and metastatic hormone receptor (HR) positive (HR+)/HER2−, 18.5% and 33.1% of primary and metastatic HR+/HER2+, 30.2% and 20.6% of primary and metastatic HR−/HER2+ and 8.4% and 16.9% of primary and metastatic triple-negative breast cancers (TNBC).” (Results, “APOBEC3 mutagenesis in metastatic and treatment-resistant breast cancers”)</li>
+<li>“For first-line therapy with CDK4/6i plus <a href="../cancer_types/ET.html">ET</a> (n = 549), APOBEC3- and HRD-dominant MBC were associated independently with lower median PFS compared with other cancers regardless of ET partner and line of therapy.” (Results, “APOBEC3 activity promotes therapy resistance”)</li>
+<li>“ESR1 E380Q mutations—an APOBEC3-context substitution—were enriched specifically in APOBEC3-dominant, HR+/HER2− post-treatment samples (q = 7.8 × 10−12).” (Results, “Mechanisms of APOBEC3-mediated resistance”)</li>
+<li>“Q217* was the SNV observed most frequently in RB1 in our clinical cohort, enriched in APOBEC3-dominant cases… These loss-of-function mutations in RB1 led to a complete loss of RB1 protein expression and insensitivity to abemaciclib.” (Results, “Mechanisms of APOBEC3-mediated resistance”)</li>
+<li>“We identified that 60% of APOBEC3-dominant tumors had APOBEC3 signatures at earlier stages, and 95% showed A3A or A3B protein expression, supporting the idea that APOBEC3 activity exists early on.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/40379787.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/40379787.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

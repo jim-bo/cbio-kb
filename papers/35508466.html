@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -237,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Phosphoproteome reveals activated <a href="../genes/AURKA.html">AURKA</a>, CDKs, ERK1/2, <a href="../genes/PLK1.html">PLK1</a>.</strong> Differential phosphorylation analysis identified 692/648 hyper-/hypo-phosphorylated sites (adjusted p≤0.05, |log2FC|&gt;1) and 302/355 protein-normalized hyper-/hypo sites. KSEA showed increased activity of <a href="../genes/AURKA.html">AURKA</a>, <a href="../genes/CDK1.html">CDK1</a>/<a href="../genes/CDK2.html">CDK2</a>/<a href="../genes/CDK5.html">CDK5</a>/<a href="../genes/CDK7.html">CDK7</a>, ERK1/2 (<a href="../genes/MAPK1.html">MAPK1</a>/<a href="../genes/MAPK3.html">MAPK3</a>), and <a href="../genes/PLK1.html">PLK1</a>, and decreased activity of PKACA/G (<a href="../genes/PRKACA.html">PRKACA</a>/<a href="../genes/PRKACG.html">PRKACG</a>), PKCA/Z (<a href="../genes/PRKCA.html">PRKCA</a>/<a href="../genes/PRKCZ.html">PRKCZ</a>), and <a href="../genes/SGK1.html">SGK1</a> (<a href="../papers/35508466.html">PMID:35508466</a>).</li>
 <li><strong>CTNNB1-mutant HCCs have altered actin-organization phosphorylation.</strong> Of 23 differentially expressed proteins, 13 also differed at mRNA, including <a href="../genes/GLUL.html">GLUL</a>, <a href="../genes/AMACR.html">AMACR</a>, and <a href="../genes/ACSS3.html">ACSS3</a>; 189 phosphosites differing from CTNNB1-WT (without protein-level difference) were enriched for actin-filament organization. Hyperphosphorylated sites included Par3-α (<a href="../genes/PARD3.html">PARD3</a>) S1046 and <a href="../genes/PDLIM2.html">PDLIM2</a> S197; hypophosphorylation at <a href="../genes/MAP1B.html">MAP1B</a> S541/S937/S1396 and ACF7 (<a href="../genes/MACF1.html">MACF1</a>) S1752 — consistent with GSK3 inactivation in Wnt signaling. Epithelial markers <a href="../genes/CDH1.html">CDH1</a> (E-cadherin) and <a href="../genes/KRT19.html">KRT19</a> were reduced, and KSEA showed increased AMPKα2 and decreased CK II / <a href="../genes/CDK5.html">CDK5</a> activity (<a href="../papers/35508466.html">PMID:35508466</a>).</li>
 <li><strong>TP53-mutant HCCs show altered lipid-metabolism phosphorylation and CDK1/2/5 activity.</strong> 399 differentially-expressed proteins (238 also at mRNA); <a href="../genes/STMN2.html">STMN2</a> and <a href="../genes/NCOR1.html">NCOR1</a> overexpressed at protein but underexpressed at mRNA; 12 proteins (including <a href="../genes/CENPF.html">CENPF</a>, <a href="../genes/TACC3.html">TACC3</a>, <a href="../genes/KNTC1.html">KNTC1</a>) underexpressed at protein but overexpressed at mRNA. PKR/<a href="../genes/EIF2AK2.html">EIF2AK2</a> S83 autophosphorylation was elevated, and KSEA showed increased <a href="../genes/CDK1.html">CDK1</a>/<a href="../genes/CDK2.html">CDK2</a>/<a href="../genes/CDK5.html">CDK5</a>, <a href="../genes/AURKA.html">AURKA</a>, <a href="../genes/TTK.html">TTK</a>, <a href="../genes/NEK2.html">NEK2</a>, PKR (<a href="../genes/EIF2AK2.html">EIF2AK2</a>), <a href="../genes/PRKD2.html">PRKD2</a>, p38 delta (<a href="../genes/MAPK13.html">MAPK13</a>) (<a href="../papers/35508466.html">PMID:35508466</a>).</li>
-<li><strong>Three integrative iCluster subtypes recapitulated by SNF.</strong> Cluster 1: ECM organization, angiogenesis, amino-acid metabolism. Cluster 2: fatty-acid/amino-acid/small-molecule metabolism (low grade, <a href="../genes/CTNNB1.html">CTNNB1</a> enriched, improved <a href="../cancer_types/OS.html">OS</a>, p=0.015). Cluster 3: cell proliferation, chromatin assembly, RNA processing, CDK1/2/6 activity (high grade, TP53 enriched, macrovascular invasion p=0.01, poor <a href="../cancer_types/OS.html">OS</a> p=0.005). Integrative clusters were associated with mutation, transcriptome and proteome single-omics clusterings (all p≤0.001) but not with CNA or phosphoproteome clusters (<a href="../papers/35508466.html">PMID:35508466</a>).</li>
+<li><strong>Three integrative iCluster subtypes recapitulated by SNF.</strong> Cluster 1: ECM organization, angiogenesis, amino-acid metabolism. Cluster 2: fatty-acid/amino-acid/small-molecule metabolism (low grade, <a href="../genes/CTNNB1.html">CTNNB1</a> enriched, improved OS, p=0.015). Cluster 3: cell proliferation, chromatin assembly, RNA processing, CDK1/2/6 activity (high grade, TP53 enriched, macrovascular invasion p=0.01, poor OS p=0.005). Integrative clusters were associated with mutation, transcriptome and proteome single-omics clusterings (all p≤0.001) but not with CNA or phosphoproteome clusters (<a href="../papers/35508466.html">PMID:35508466</a>).</li>
 <li><strong>Two proteome and two phosphoproteome subclasses.</strong> Proteome subclass 1 (ribonucleoprotein organization, mRNA splicing/processing) was associated with high grade/high stage and poor OS (p=0.022); proteome subclass 2 (metabolism, oxidative phosphorylation) with improved OS. Phosphoproteome subclasses (subclass 1: ribonucleoprotein/mRNA-splicing/chromatin/CK II alpha; subclass 2: telomere maintenance/DNA repair/actin cytoskeleton/PKA C-alpha) did NOT associate with single-omics or integrative clusters, attributed to the dynamic, noisier nature of phosphoproteomic snapshots (<a href="../papers/35508466.html">PMID:35508466</a>).</li>
 </ul>
 </section>

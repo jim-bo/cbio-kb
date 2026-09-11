@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Aerts 2014 foundational CT <a href="../methods/radiomics.html">radiomics</a> study included two HN cohorts: HN1 (n=136, MAASTRO Clinic, oropharyngeal/oral cavity) and HN2 (n=95, VUmc Amsterdam, HNSCC), with the 4-feature radiomic signature validated for overall survival prediction in these cohorts <a href="../papers/24892406.html">PMID:24892406</a>.</li>
 <li>Grossberg 2018 published the MD Anderson Head and Neck Quantitative Imaging Working Group archive (n=697 HNSCC patients) pairing pre-treatment CT/PET imaging with clinical outcomes, enabling <a href="../methods/radiomics.html">radiomics</a> and dose-response analyses <a href="../papers/30179230.html">PMID:30179230</a>.</li>
 <li>Welch 2024 published RADCURE, a large multi-institutional HNSCC imaging dataset (n=3,346 patients from Princess Margaret Cancer Centre) with CT scans and clinical outcome data for <a href="../methods/radiomics.html">radiomics</a> model development and benchmarking <a href="../papers/38362943.html">PMID:38362943</a>.</li>
-<li><a href="../datasets/radcure.html">RADCURE</a> internal-challenge cohort (Princess Margaret Cancer Centre, 2005–2017): 2,552 HNSC patients treated with definitive radiotherapy/chemoradiotherapy; training set n=1,802, held-out test n=750. Three external validation cohorts totaling 873 patients: HN1 (n=137, MAASTRO), MDACC / <a href="../datasets/tcia-hnscc.html">tcia-hnscc</a> (n=627, MD Anderson), GPCCHN / <a href="../datasets/gpcchn-poznan.html">gpcchn-poznan</a> (n=298, Greater Poland Cancer Centre). Primary task: 2-year <a href="../cancer_types/OS.html">OS</a> from pretreatment CT + EMR. <a href="../papers/37397861.html">PMID:37397861</a></li>
+<li><a href="../datasets/radcure.html">RADCURE</a> internal-challenge cohort (Princess Margaret Cancer Centre, 2005–2017): 2,552 HNSC patients treated with definitive radiotherapy/chemoradiotherapy; training set n=1,802, held-out test n=750. Three external validation cohorts totaling 873 patients: HN1 (n=137, MAASTRO), MDACC / <a href="../datasets/tcia-hnscc.html">tcia-hnscc</a> (n=627, MD Anderson), GPCCHN / <a href="../datasets/gpcchn-poznan.html">gpcchn-poznan</a> (n=298, Greater Poland Cancer Centre). Primary task: 2-year OS from pretreatment CT + EMR. <a href="../papers/37397861.html">PMID:37397861</a></li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
@@ -190,31 +193,32 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Intratumoral bacteria identified as a major source of therapy resistance in HNSC patients receiving chemoradiation-immunotherapy combinations (Javelin HN100 expansion cohort). <a href="../papers/41941260.html">PMID:41941260</a></li>
 <li>PD1+Ki67+<a href="../genes/CD4.html">CD4</a>+ T-cell expansion of ≥1.5-fold from baseline to week 2–4 of treatment was associated with shorter progression-free survival under intensity-modulated re-irradiation + PD-1 blockade. <a href="../papers/41941260.html">PMID:41941260</a></li>
-<li><a href="../genes/CD274.html">CD274</a> (PD-L1) CPS &lt;20 vs.&nbsp;≥20 (22C3 pharmDx IHC) did not predict PFS or <a href="../cancer_types/OS.html">OS</a> benefit in the reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a> context (68.8% vs.&nbsp;59.2% 1-year PFS, P=.86), unlike in recurrent/metastatic HNSCC with single-agent PD-1 blockade. <a href="../papers/38780927.html">PMID:38780927</a></li>
+<li><a href="../genes/CD274.html">CD274</a> (PD-L1) CPS &lt;20 vs.&nbsp;≥20 (22C3 pharmDx IHC) did not predict PFS or OS benefit in the reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a> context (68.8% vs.&nbsp;59.2% 1-year PFS, P=.86), unlike in recurrent/metastatic HNSCC with single-agent PD-1 blockade. <a href="../papers/38780927.html">PMID:38780927</a></li>
 <li><a href="../genes/EGFR.html">EGFR</a> surface expression (not mutation status) gates C-MMAE binding and radiosensitization in HNSC cell lines (CAL-27, SCC-61, SCC-35, SQ-9G). <a href="../papers/27698471.html">PMID:27698471</a></li>
-<li>Prognostic modeling study (RADCURE challenge): no gene-level alteration frequencies reported; HPV status used as a categorical EMR feature (positive / negative / not tested) rather than a molecular endpoint. EMR features including HPV status outperformed all CT-radiomics models for 2-year <a href="../cancer_types/OS.html">OS</a> prediction (winning MTLR model AUROC = 0.823 on internal test). <a href="../papers/37397861.html">PMID:37397861</a></li>
+<li>Prognostic modeling study (RADCURE challenge): no gene-level alteration frequencies reported; HPV status used as a categorical EMR feature (positive / negative / not tested) rather than a molecular endpoint. EMR features including HPV status outperformed all CT-radiomics models for 2-year OS prediction (winning MTLR model AUROC = 0.823 on internal test). <a href="../papers/37397861.html">PMID:37397861</a></li>
 <li>HNSC genomic data made available through the cBioPortal for Cancer Genomics platform, enabling interactive exploration of somatic alterations <a href="../papers/19176454.html">PMID:19176454</a></li>
 <li>Whole-exome sequencing of 74 HNSCC tumors identified <a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a> as top drivers, with <a href="../genes/NOTCH1.html">NOTCH1</a> mutated in ~15% of cases <a href="../papers/21798893.html">PMID:21798893</a></li>
 <li>Whole-exome sequencing of 32 primary HNSCC tumors (JHU) identified recurrent <a href="../genes/NOTCH1.html">NOTCH1</a> inactivating mutations as a major driver event <a href="../papers/21798897.html">PMID:21798897</a></li>
 <li>Multi-platform genomic analysis of 40 OSCC (an HNSC subtype) identified four major driver pathways (mitogenic signaling 63%, Notch 66%, cell cycle 94%, <a href="../genes/TP53.html">TP53</a> 60%), novel <a href="../genes/FAT1.html">FAT1</a> inactivation in 46% and <a href="../genes/CASP8.html">CASP8</a> mutations in 10% defining a CN-quiet subtype; 80% of tumors harbored at least one targetable alteration <a href="../papers/23619168.html">PMID:23619168</a></li>
-<li><a href="../genes/RHOA.html">RHOA</a> E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma <a href="../papers/24816253.html">PMID:24816253</a></li>
-<li>Narrative review of R/M <a href="../cancer_types/NPC.html">NPC</a> therapeutics notes <a href="../genes/EGFR.html">EGFR</a> overexpression in a substantial fraction of <a href="../cancer_types/NPC.html">NPC</a> (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li><a href="../genes/RHOA.html">RHOA</a> E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma <a href="../papers/41002403.html">PMID:41002403</a></li>
+<li>Narrative review of R/M <a href="../cancer_types/NPC.html">NPC</a> therapeutics notes <a href="../genes/EGFR.html">EGFR</a> overexpression in a substantial fraction of <a href="../cancer_types/NPC.html">NPC</a> (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context <a href="../papers/41002550.html">PMID:41002550</a></li>
 <li>TCGA multi-platform profiling of 279 HNSC defined two non-overlapping biologies: HPV(+) tumours with <a href="../genes/TRAF3.html">TRAF3</a> loss (14%), <a href="../genes/PIK3CA.html">PIK3CA</a> helical-domain mutations (56%), and <a href="../genes/E2F1.html">E2F1</a> amplification; HPV(−) tumours with <a href="../genes/TP53.html">TP53</a> mutation (86%), <a href="../genes/CDKN2A.html">CDKN2A</a> loss, and 11q13/22 co-amplification. Eleven significantly mutated genes identified (MutSigCV q&lt;0.1); candidate therapeutic alterations present in most tumours. <a href="../papers/25631445.html">PMID:25631445</a></li>
-<li>Morris et al.&nbsp;(MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; TERT promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P&lt;.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival <a href="../papers/27442865.html">PMID:27442865</a>.</li>
+<li>Morris et al.&nbsp;(MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; <a href="../genes/TERT.html">TERT</a> promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P&lt;.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival <a href="../papers/27442865.html">PMID:27442865</a>.</li>
 <li>TCGA comparison: ESCC1 and ESCC2 gene expression profiles closely resemble TCGA head and neck squamous cell carcinoma (HNSCC) classical and basal subtypes respectively; ESCC3 (SMARCA4-mutant, US/Canada only) has no analogue in the TCGA HNSCC dataset <a href="../papers/28052061.html">PMID:28052061</a></li>
-<li>TCGA HNSC mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma; open question remains whether the 40% PIK3CA and FAT1 prevalences in vulvar SCC align with rates in HNSC and other head-and-neck SCCs <a href="../papers/29422544.html">PMID:29422544</a></li>
+<li>TCGA HNSC mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma; open question remains whether the 40% <a href="../genes/PIK3CA.html">PIK3CA</a> and <a href="../genes/FAT1.html">FAT1</a> prevalences in vulvar SCC align with rates in HNSC and other head-and-neck SCCs <a href="../papers/29422544.html">PMID:29422544</a></li>
 <li>MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included HNSC; HNSC concordance with the legacy PanCan12 MAF exceeded 90% <a href="../papers/29596782.html">PMID:29596782</a></li>
-<li>Pan-cancer fusion study (9,624 TCGA samples) identified a TRABD–DDR2 promoter-swap fusion driving DDR2 overexpression in one HNSC sample (candidate for dasatinib); DDR2 fusions seen in nine additional samples across five cancer types; FGFR3–TACC3 was present in 1.2% of LUSC (squamous) tumors <a href="../papers/29617662.html">PMID:29617662</a></li>
-<li>Pan-cancer aneuploidy study placed HPV+ and HPV− HNSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); the squamous signature was strongest in LUSC, ESCC, and HPV-negative HNSC; leukocyte fraction was negatively correlated with aneuploidy in HNSC (Spearman ρ = −0.312) <a href="../papers/29622463.html">PMID:29622463</a></li>
+<li>Pan-cancer fusion study (9,624 TCGA samples) identified a <a href="../genes/TRABD.html">TRABD</a>–<a href="../genes/DDR2.html">DDR2</a> promoter-swap fusion driving DDR2 overexpression in one HNSC sample (candidate for <a href="../drugs/dasatinib.html">dasatinib</a>); DDR2 fusions seen in nine additional samples across five cancer types; <a href="../genes/FGFR3.html">FGFR3</a>–<a href="../genes/TACC3.html">TACC3</a> was present in 1.2% of <a href="../cancer_types/LUSC.html">LUSC</a> (squamous) tumors <a href="../papers/29617662.html">PMID:29617662</a></li>
+<li>Pan-cancer aneuploidy study placed HPV+ and HPV− HNSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); the squamous signature was strongest in LUSC, <a href="../cancer_types/ESCC.html">ESCC</a>, and HPV-negative HNSC; leukocyte fraction was negatively correlated with aneuploidy in HNSC (Spearman ρ = −0.312) <a href="../papers/29622463.html">PMID:29622463</a></li>
 <li>Included in TCGA PanCancer Atlas; HPV+ HNSC co-clusters in pan-squamous iCluster C27; HNSC showed &lt;50% of samples in any single iCluster <a href="../papers/29625048.html">PMID:29625048</a></li>
 <li>Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types) <a href="../papers/29625049.html">PMID:29625049</a></li>
-<li>EGFR alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes <a href="../papers/29625050.html">PMID:29625050</a></li>
+<li><a href="../genes/EGFR.html">EGFR</a> alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes <a href="../papers/29625050.html">PMID:29625050</a></li>
 <li>Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for HNSC <a href="../papers/29625055.html">PMID:29625055</a></li>
 <li>N=12 in pooled MSS ICB WES cohort; APOBEC signature dominance associated with high TMB and CR/PR to immune checkpoint blockade; PIK3CA hotspot mutations in responders were from melanoma, HNSCC, anal, or bladder <a href="../papers/30150660.html">PMID:30150660</a></li>
-<li>HNSC was listed as an illustrative cancer type test bed for 3D tumor models in a survey covering scaffold-free spheroids, hydrogels, bioprinting, and microfluidic platforms. <a href="../papers/30643250.html">PMID:30643250</a></li>
+<li>HNSC was listed as an illustrative cancer type test bed for 3D tumor models in a survey covering scaffold-free spheroids, hydrogels, bioprinting, and microfluidic platforms. <a href="../papers/41103502.html">PMID:41103502</a></li>
 <li>HNSC (n=138) was among the histologies in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for head &amp; neck cancer. <a href="../papers/30643254.html">PMID:30643254</a></li>
 <li>Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); head and neck squamous cell carcinoma analyzed for somatic driver landscape and mutational processes <a href="../papers/32025007.html">PMID:32025007</a>.</li>
 <li>MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs.&nbsp;metastatic genomic differences; HNSC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens <a href="../papers/35120664.html">PMID:35120664</a></li>
+<li>In a TCGA pan-cancer validation of a triple-negative breast cancer proteogenomic cohort, <a href="../genes/LIG1.html">LIG1</a> heterozygous loss was associated with worse progression-free survival in head and neck squamous cell carcinoma (HR 1.46, P=0.03) <a href="../papers/36001024.html">PMID:36001024</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -231,9 +235,9 @@ ul.task-list li input[type="checkbox"] {
 <li>ROBIN GenRad center (U54 CA274513; Cleveland Clinic and Emory University) tested intensity-modulated re-irradiation + PD-1 inhibition in recurrent or second-primary HNSC (NCT03521570): the combination was tolerable and effective in a subset of patients; shorter PFS was associated with a ≥1.5-fold increase in PD1+Ki67+<a href="../genes/CD4.html">CD4</a>+ T cells at week 2–4, identifying a candidate resistance biomarker. <a href="../papers/41941260.html">PMID:41941260</a></li>
 <li>Javelin HN100 expansion cohort analysis (chemoradiation ± <a href="../drugs/avelumab.html">avelumab</a>) identified intratumoral bacteria as a major resistance mechanism to chemoradiation-immunotherapy in HNSC — flagged as a potentially druggable axis. <a href="../papers/41941260.html">PMID:41941260</a></li>
 <li>GenRad is leveraging longitudinal genomics and proteomic data from HNSCC MCT patients to characterize transcriptional dynamics and temporal reprogramming during RT + <a href="../drugs/cisplatin.html">cisplatin</a> vs.&nbsp;RT + ICI treatment to identify biomarkers of sensitivity and resistance. <a href="../papers/41941260.html">PMID:41941260</a></li>
-<li>IMRT-based reirradiation + concurrent/maintenance <a href="../drugs/nivolumab.html">nivolumab</a> in recurrent/second-primary HNSC (NCT03521570): 1-year PFS 61.7% (95% CI 49.2%–77.4%, 1-arm log-rank P=.002 vs.&nbsp;historical null of 43.8%), median PFS 20.7 months, median <a href="../cancer_types/OS.html">OS</a> 21 months (2-year <a href="../cancer_types/OS.html">OS</a> 48.4%). Grade ≥3 treatment-related adverse events in 11.8%; no grade 5 events. FACT-G/FACT-H&amp;N quality-of-life scores stable through 104 weeks. <a href="../papers/38780927.html">PMID:38780927</a></li>
+<li>IMRT-based reirradiation + concurrent/maintenance <a href="../drugs/nivolumab.html">nivolumab</a> in recurrent/second-primary HNSC (NCT03521570): 1-year PFS 61.7% (95% CI 49.2%–77.4%, 1-arm log-rank P=.002 vs.&nbsp;historical null of 43.8%), median PFS 20.7 months, median OS 21 months (2-year OS 48.4%). Grade ≥3 treatment-related adverse events in 11.8%; no grade 5 events. FACT-G/FACT-H&amp;N quality-of-life scores stable through 104 weeks. <a href="../papers/38780927.html">PMID:38780927</a></li>
 <li>In HNSC xenograft (CAL-27, <a href="../genes/EGFR.html">EGFR</a>+), C-MMAE (<a href="../drugs/cetuximab.html">cetuximab</a>–MMAE ADC) + IR produced significantly greater tumor-growth delay than free MMAE or <a href="../drugs/cetuximab.html">cetuximab</a> alone (P&lt;0.0001 by day 35), establishing EGFR-directed ADC radiosensitization as a selective strategy. <a href="../papers/27698471.html">PMID:27698471</a></li>
-<li>RADCURE crowdsourced ML challenge (Princess Margaret): multitask logistic regression (<a href="../methods/mtlr.html">MTLR</a>) on EMR features + primary tumor volume was the top prognostic model for 2-year <a href="../cancer_types/OS.html">OS</a> (AUROC 0.823, C-index 0.801, HR 8.64 for high- vs.&nbsp;low-risk groups). Deep-learning CT <a href="../methods/radiomics.html">radiomics</a> did not improve over EMR-only models when combined; standalone CT <a href="../methods/radiomics.html">radiomics</a> did not outperform any EMR model. External generalizability was limited (performance drop in 2 of 3 external cohorts), with distribution shift in HPV status and disease site as primary drivers. <a href="../papers/37397861.html">PMID:37397861</a></li>
+<li>RADCURE crowdsourced ML challenge (Princess Margaret): multitask logistic regression (<a href="../methods/mtlr.html">MTLR</a>) on EMR features + primary tumor volume was the top prognostic model for 2-year OS (AUROC 0.823, C-index 0.801, HR 8.64 for high- vs.&nbsp;low-risk groups). Deep-learning CT <a href="../methods/radiomics.html">radiomics</a> did not improve over EMR-only models when combined; standalone CT <a href="../methods/radiomics.html">radiomics</a> did not outperform any EMR model. External generalizability was limited (performance drop in 2 of 3 external cohorts), with distribution shift in HPV status and disease site as primary drivers. <a href="../papers/37397861.html">PMID:37397861</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
@@ -250,8 +254,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/21798893.html">PMID:21798893</a></p></li>
 <li><p><a href="../papers/21798897.html">PMID:21798897</a></p></li>
 <li><p><a href="../papers/23619168.html">PMID:23619168</a> — Pickering et al.&nbsp;Integrative genomic characterization of oral squamous cell carcinoma identifies frequent somatic drivers. <em>Cancer Discov</em> 2013.</p></li>
-<li><p><a href="../papers/24816253.html">PMID:24816253</a></p></li>
-<li><p><a href="../papers/24952746.html">PMID:24952746</a></p></li>
+<li><p><a href="../papers/41002403.html">PMID:41002403</a></p></li>
+<li><p><a href="../papers/41002550.html">PMID:41002550</a></p></li>
 <li><p><a href="../papers/25631445.html">PMID:25631445</a></p></li>
 <li><p><a href="../papers/27442865.html">PMID:27442865</a> — Morris et al.&nbsp;2017 (JAMA Oncol). MSK-IMPACT of 151 advanced head and neck tumors; NGS guided therapy in 25% of HNSC patients.</p></li>
 <li><p><a href="../papers/28052061.html">PMID:28052061</a></p></li>
@@ -264,12 +268,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/29625050.html">PMID:29625050</a></p></li>
 <li><p><a href="../papers/29625055.html">PMID:29625055</a></p></li>
 <li><p><a href="../papers/30150660.html">PMID:30150660</a></p></li>
-<li><p><a href="../papers/30643250.html">PMID:30643250</a></p></li>
+<li><p><a href="../papers/41103502.html">PMID:41103502</a></p></li>
 <li><p><a href="../papers/30643254.html">PMID:30643254</a></p></li>
 <li><p><a href="../papers/32025007.html">PMID:32025007</a></p></li>
 <li><p><a href="../papers/35120664.html">PMID:35120664</a></p></li>
+<li><p><a href="../papers/36001024.html">PMID:36001024</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

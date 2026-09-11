@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -183,12 +186,12 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/ATM.html">ATM</a>, BRCA1, <a href="../genes/BRCA2.html">BRCA2</a>, and <a href="../genes/CHEK2.html">CHEK2</a> — DDR pathway genes with driver genomic alterations predominantly in adenocarcinoma prostate cancer PDXs; NEPC showed transcriptomic DDR upregulation instead <a href="../papers/38488813.html">PMID:38488813</a>.</li>
 <li>BRCA1 mutations elevated in MSI-H/dMMR prostate cancer (higher mutation rate in MSI-H/dMMR vs TMB-L/MSS; likely passenger events rather than actionable alterations) <a href="../papers/38949888.html">PMID:38949888</a>.</li>
 <li>BRCA1 significantly over-expressed (FDR &lt; 0.01, Welch’s t-test) in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors in a single-nuclei transcriptomic study of 11 tumors; nC3 is enriched for MYCN-amplified and/or 11q-deleted genotypes <a href="../papers/34493726.html">PMID:34493726</a>.</li>
-<li>Pathogenic germline/somatic BRCA1 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient <a href="../cancer_types/HGSOC.html">HGSOC</a> multimodal risk-stratification study; HRD status alone yielded only modest <a href="../cancer_types/OS.html">OS</a> discrimination (concordance index 0.52) <a href="../papers/35764743.html">PMID:35764743</a>.</li>
+<li>Pathogenic germline/somatic BRCA1 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient <a href="../cancer_types/HGSOC.html">HGSOC</a> multimodal risk-stratification study; HRD status alone yielded only modest OS discrimination (concordance index 0.52) <a href="../papers/35764743.html">PMID:35764743</a>.</li>
 <li>Germline pathogenic BRCA1 alterations in 1.8% of <a href="../cancer_types/PAAD.html">PAAD</a> overall; strong selection for biallelic LOH in carriers; co-occurrence with somatic <a href="../genes/TP53.html">TP53</a> mutations (P = 4 × 10⁻⁷) in a 2,336-tumor PDAC genomic cohort <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>BRCA1 alterations detected in 6 cases (3%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); pooled into underpowered DDR analysis <a href="../papers/40256659.html">PMID:40256659</a>.</li>
 <li>Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs in paired tumor-normal sequencing <a href="../papers/36593350.html">PMID:36593350</a></li>
 <li>Germline/somatic mutations define HRD-Dup subtype with tandem duplications in <a href="../cancer_types/HGSOC.html">HGSOC</a>; 36/116 patients with LOH in any HLA class I gene in validation cohort <a href="../papers/36517593.html">PMID:36517593</a></li>
-<li>BRCA1 screened as DDR candidate in <a href="../genes/FBXO7.html">FBXO7</a> synthetic lethality study; referenced for PARP inhibitor SL <a href="../methods/paradigm.html">paradigm</a> <a href="../papers/36334560.html">PMID:36334560</a></li>
+<li>BRCA1 screened as DDR candidate in <a href="../genes/FBXO7.html">FBXO7</a> synthetic lethality study; referenced for PARP inhibitor SL <a href="../methods/paradigm.html">paradigm</a> <a href="../papers/40896366.html">PMID:40896366</a></li>
 <li>BRCA1 oncogenic mutations in 3 <a href="../cancer_types/GBC.html">GBC</a> patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility <a href="../papers/36228155.html">PMID:36228155</a></li>
 <li>Found mutated or epigenetically silenced in ~20% of <a href="../cancer_types/HGSOC.html">HGSOC</a> tumors in TCGA integrated genomic analysis of ovarian carcinoma <a href="../papers/21720365.html">PMID:21720365</a></li>
 <li>BRCA1 somatic mutations identified in breast cancer WES of 100 tumors as part of the driver gene landscape <a href="../papers/22722201.html">PMID:22722201</a></li>
@@ -196,19 +199,19 @@ ul.task-list li input[type="checkbox"] {
 <li>Two missense mutations observed in <a href="../cancer_types/ACC.html">ACC</a> WES cohort (n=60); classified in the DNA-damage response pathway <a href="../papers/23685749.html">PMID:23685749</a></li>
 <li>Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder <a href="../papers/24121792.html">PMID:24121792</a></li>
 <li>Zero of 23 pancreatic acinar carcinomas showed BRCA1 locus methylation by qMSP; no somatic mutations identified <a href="../papers/24293293.html">PMID:24293293</a></li>
-<li>HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification <a href="../papers/24816255.html">PMID:24816255</a></li>
+<li>HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification <a href="../papers/41097736.html">PMID:41097736</a></li>
 <li>Truncating somatic mutation in one ERCC2-WT <a href="../drugs/cisplatin.html">cisplatin</a> responder in muscle-invasive urothelial carcinoma; absent in non-responders <a href="../papers/25096233.html">PMID:25096233</a></li>
-<li>Direct EWS::<a href="../genes/FLI1.html">FLI1</a> transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity <a href="../papers/25186949.html">PMID:25186949</a></li>
-<li>Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents <a href="../papers/25526346.html">PMID:25526346</a></li>
+<li>Direct EWS::<a href="../genes/FLI1.html">FLI1</a> transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity <a href="../papers/41136396.html">PMID:41136396</a></li>
+<li>Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents <a href="../papers/41008893.html">PMID:41008893</a></li>
 <li>No mutations observed in the 78-case discovery cohort of gastric cancer; contrast with <a href="../genes/BRCA2.html">BRCA2</a> which was mutated in 5.8% of cases <a href="../papers/25583476.html">PMID:25583476</a></li>
 <li>DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates <a href="../drugs/olaparib.html">olaparib</a> (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates <a href="../papers/25855536.html">PMID:25855536</a></li>
 <li>Biallelic loss (somatic + germline) in mCRPC contributing to 19.3% DNA-repair pathway aggregate; part of 22.7% broader DNA-repair alteration rate <a href="../papers/26000489.html">PMID:26000489</a></li>
 <li>1 germline frameshift (V923, ClinVar RCV000083190.3) in primary prostate cancer; BRCA1 loss contributes to the 19% DNA-repair-gene-defect prevalence supporting PARP-inhibitor candidacy <a href="../papers/26544944.html">PMID:26544944</a></li>
 <li>BRCA1 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to <a href="../genes/RB1.html">RB1</a> loss/E2F1 activation); homozygous deleterious BRCA1 events were used as part of the DNA-repair-defect classifier predicting longer <a href="../drugs/carboplatin.html">carboplatin</a> response (P = 0.02) <a href="../papers/26928463.html">PMID:26928463</a></li>
 <li>Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort; flagged as cross-cancer driver <a href="../papers/27161491.html">PMID:27161491</a></li>
-<li>BRCA1 pathogenic germline variants enriched in young lung cancer (OR=4.1); specific variant p.Cys47Arg reported by Donner et al.&nbsp;<a href="../papers/27346245.html">PMID:27346245</a></li>
+<li>BRCA1 pathogenic germline variants enriched in young lung cancer (OR=4.1); specific variant p.Cys47Arg reported by Donner et al.&nbsp;<a href="../papers/40958859.html">PMID:40958859</a></li>
 <li>Germline BRCA1 frameshift variants found in two pediatric patients (nested stromal epithelial liver tumor and ependymoma); returned as ACMG secondary findings with breast-cancer health-maintenance flag <a href="../papers/28007021.html">PMID:28007021</a></li>
-<li>BRCA1 is recruited to DSBs via <a href="../genes/TRMT10A.html">TRMT10A</a> pSer28; BRCA1 recruitment (but not protein abundance) is impaired by <a href="../genes/TRMT10A.html">TRMT10A</a> or <a href="../genes/USP10.html">USP10</a> loss, and BRCA1 knockdown phenocopies <a href="../genes/TRMT10A.html">TRMT10A</a> loss for PARPi sensitivity in prostate cancer <a href="../papers/28068672.html">PMID:28068672</a></li>
+<li>BRCA1 is recruited to DSBs via <a href="../genes/TRMT10A.html">TRMT10A</a> pSer28; BRCA1 recruitment (but not protein abundance) is impaired by <a href="../genes/TRMT10A.html">TRMT10A</a> or <a href="../genes/USP10.html">USP10</a> loss, and BRCA1 knockdown phenocopies <a href="../genes/TRMT10A.html">TRMT10A</a> loss for PARPi sensitivity in prostate cancer <a href="../papers/41071892.html">PMID:41071892</a></li>
 <li>3 likely-inactivating truncating mutations (0.3%) in <a href="../cancer_types/LUAD.html">LUAD</a> (MSK-IMPACT, n=860); level 2B actionability based on <a href="../drugs/olaparib.html">olaparib</a> approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy <a href="../papers/28336552.html">PMID:28336552</a></li>
 <li>Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy <a href="../papers/28583311.html">PMID:28583311</a></li>
 <li>BRCA1 enriched in Cluster 1 of cholangiocarcinoma (p &lt; 0.05) <a href="../papers/28667006.html">PMID:28667006</a></li>
@@ -216,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 <li>BRCA1 is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale <a href="../papers/28825054.html">PMID:28825054</a></li>
 <li>placeholder</li>
 <li>Alterations in BRCA1 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort <a href="../papers/29316426.html">PMID:29316426</a>.</li>
-<li>One missense <a href="../genes/BRCA1.html">BRCA1</a> LP/PV was identified in a pediatric cancer predisposition cohort (n=372); burden test was non-significant (OR=1.9, p=0.406). <a href="../papers/29489754.html">PMID:29489754</a></li>
+<li>One missense <a href="../genes/BRCA1.html">BRCA1</a> LP/PV was identified in a pediatric cancer predisposition cohort (n=372); burden test was non-significant (OR=1.9, p=0.406). <a href="../papers/40857049.html">PMID:40857049</a></li>
 <li>BRCA1 somatic mutations total 854 events (571 samples) plus 153 germline mutations (152 samples) across 33 TCGA tumor types; germline BRCA1/2 carriers present ~8 years earlier than somatic-only carriers; somatic BRCA1/2 mutants down-regulate antigen-processing and leukocyte-cytotoxicity programs, while germline carriers down-regulate mitochondrial respiratory-chain and metabolic programs <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li>BRCA1 is included in the 57% pan-cancer actionability figure (versus 52% when restricted to the 10 canonical pathways), contributing to the rationale for germline/somatic testing in therapeutic planning <a href="../papers/29625050.html">PMID:29625050</a></li>
 <li>Germline pathogenic mutations affect 10.8% of Korean breast cancer patients (<a href="../datasets/brca_smc_2018.html">brca_smc_2018</a>) vs.&nbsp;4.7% of TCGA (LR p=0.0027); strongly associated with HRD mutational signature S3 (MLR p=2.0e-08) and TNBC (MLR p=5.1e-39) <a href="../papers/29713003.html">PMID:29713003</a></li>
@@ -242,6 +245,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Explicitly no pathogenic germline BRCA1 mutations identified in 119 LGSC cases, contrasting with the 3.5–5.7% reported in prior LGSC literature and 20% in HGSC (<a href="../datasets/lgsoc_mapk_msk_2022.html">lgsoc_mapk_msk_2022</a>) <a href="../papers/35443055.html">PMID:35443055</a></li>
 <li>Pathogenic alterations meeting PROfound criteria in 5/51 (9.8%) prostate cancer bone metastases; BRCA1/2 together are part of the 15 PROfound HRR genes evaluated for <a href="../drugs/olaparib.html">olaparib</a> eligibility (<a href="../datasets/prostate_pcbm_swiss_2019.html">prostate_pcbm_swiss_2019</a>) <a href="../papers/35504881.html">PMID:35504881</a></li>
 <li>BRCA1 is among the HR-pathway genes with pathogenic alterations in 2.5% (184/7,494) of sarcomas; biallelic losses most frequent in uterine <a href="../cancer_types/LMS.html">LMS</a> (4.8%) and chordoma (5.3%); gLOH &gt;=19.3% occurred in 15% of sarcomas largely independent of canonical HRD genes <a href="../papers/35705558.html">PMID:35705558</a></li>
+<li>Pathogenic germline BRCA1 mutations were not associated with pathologic complete response in this TNBC neoadjuvant cohort <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>BRCA1 was one of nine DDR panel genes profiled; only truncating alterations counted as deleterious, with results reported for the pooled DDR category rather than per gene <a href="../papers/39499893.html">PMID:39499893</a>.</li>
+<li>BRCA1 was counted among selected level 3B actionable genes in this pan-biliary-tract cancer cohort; 2 of 4 BRCA1-mutant patients received matched therapy <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -291,65 +297,67 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/35764743.html">PMID:35764743</a></li>
 <li><a href="../papers/39753968.html">PMID:39753968</a></li>
 <li><a href="../papers/40256659.html">PMID:40256659</a></li>
+<li><a href="../papers/36593350.html">PMID:36593350</a></li>
+<li><a href="../papers/36517593.html">PMID:36517593</a></li>
+<li><a href="../papers/40896366.html">PMID:40896366</a></li>
+<li><a href="../papers/36228155.html">PMID:36228155</a></li>
+<li><a href="../papers/21720365.html">PMID:21720365</a></li>
+<li><a href="../papers/22722201.html">PMID:22722201</a></li>
+<li><a href="../papers/23000897.html">PMID:23000897</a></li>
+<li><a href="../papers/23685749.html">PMID:23685749</a></li>
+<li><a href="../papers/24121792.html">PMID:24121792</a></li>
+<li><a href="../papers/24293293.html">PMID:24293293</a></li>
+<li><a href="../papers/41097736.html">PMID:41097736</a></li>
+<li><a href="../papers/25096233.html">PMID:25096233</a></li>
+<li><a href="../papers/41136396.html">PMID:41136396</a></li>
+<li><a href="../papers/41008893.html">PMID:41008893</a></li>
+<li><a href="../papers/25583476.html">PMID:25583476</a></li>
+<li><a href="../papers/25855536.html">PMID:25855536</a></li>
+<li><a href="../papers/26000489.html">PMID:26000489</a></li>
+<li><a href="../papers/26544944.html">PMID:26544944</a></li>
+<li><a href="../papers/26928463.html">PMID:26928463</a></li>
+<li><a href="../papers/27161491.html">PMID:27161491</a></li>
+<li><a href="../papers/40958859.html">PMID:40958859</a></li>
+<li><a href="../papers/28007021.html">PMID:28007021</a></li>
+<li><a href="../papers/41071892.html">PMID:41071892</a></li>
+<li><a href="../papers/28336552.html">PMID:28336552</a></li>
+<li><a href="../papers/28583311.html">PMID:28583311</a></li>
+<li><a href="../papers/28667006.html">PMID:28667006</a></li>
+<li><a href="../papers/28783718.html">PMID:28783718</a></li>
+<li><a href="../papers/28825054.html">PMID:28825054</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/29316426.html">PMID:29316426</a></li>
+<li><a href="../papers/40857049.html">PMID:40857049</a></li>
+<li><a href="../papers/29625049.html">PMID:29625049</a></li>
+<li><a href="../papers/29625050.html">PMID:29625050</a></li>
+<li><a href="../papers/29713003.html">PMID:29713003</a></li>
+<li><a href="../papers/29848569.html">PMID:29848569</a></li>
+<li><a href="../papers/30068706.html">PMID:30068706</a></li>
+<li><a href="../papers/30537516.html">PMID:30537516</a></li>
+<li><a href="../papers/31061129.html">PMID:31061129</a></li>
+<li><a href="../papers/31483290.html">PMID:31483290</a></li>
+<li><a href="../papers/32025007.html">PMID:32025007</a></li>
+<li><a href="../papers/32220886.html">PMID:32220886</a></li>
+<li><a href="../papers/32299819.html">PMID:32299819</a></li>
+<li><a href="../papers/32719455.html">PMID:32719455</a></li>
+<li><a href="../papers/32730818.html">PMID:32730818</a></li>
+<li><a href="../papers/33025139.html">PMID:33025139</a></li>
+<li><a href="../papers/34405229.html">PMID:34405229</a></li>
+<li><a href="../papers/34493867.html">PMID:34493867</a></li>
+<li><a href="../papers/34534465.html">PMID:34534465</a></li>
+<li><a href="../papers/34635660.html">PMID:34635660</a></li>
+<li><a href="../papers/34667026.html">PMID:34667026</a></li>
+<li><a href="../papers/34819508.html">PMID:34819508</a></li>
+<li><a href="../papers/34819518.html">PMID:34819518</a></li>
+<li><a href="../papers/35292802.html">PMID:35292802</a></li>
+<li><a href="../papers/35443055.html">PMID:35443055</a></li>
+<li><a href="../papers/35504881.html">PMID:35504881</a></li>
+<li><a href="../papers/35705558.html">PMID:35705558</a></li>
+<li><a href="../papers/36001024.html">PMID:36001024</a></li>
+<li><a href="../papers/39499893.html">PMID:39499893</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36593350.html">PMID:36593350</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36517593.html">PMID:36517593</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36334560.html">PMID:36334560</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36228155.html">PMID:36228155</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/21720365.html">PMID:21720365</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22722201.html">PMID:22722201</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23000897.html">PMID:23000897</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/23685749.html">PMID:23685749</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24121792.html">PMID:24121792</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24293293.html">PMID:24293293</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24816255.html">PMID:24816255</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25096233.html">PMID:25096233</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25186949.html">PMID:25186949</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25526346.html">PMID:25526346</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25855536.html">PMID:25855536</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26000489.html">PMID:26000489</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26544944.html">PMID:26544944</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26928463.html">PMID:26928463</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27346245.html">PMID:27346245</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28068672.html">PMID:28068672</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28583311.html">PMID:28583311</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28783718.html">PMID:28783718</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29489754.html">PMID:29489754</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625050.html">PMID:29625050</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713003.html">PMID:29713003</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29848569.html">PMID:29848569</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30537516.html">PMID:30537516</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31061129.html">PMID:31061129</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31483290.html">PMID:31483290</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32025007.html">PMID:32025007</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32220886.html">PMID:32220886</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32299819.html">PMID:32299819</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32719455.html">PMID:32719455</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32730818.html">PMID:32730818</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33025139.html">PMID:33025139</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34405229.html">PMID:34405229</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34493867.html">PMID:34493867</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34534465.html">PMID:34534465</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34635660.html">PMID:34635660</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34667026.html">PMID:34667026</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34819508.html">PMID:34819508</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34819518.html">PMID:34819518</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35443055.html">PMID:35443055</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-09-10</strong>.</em></p>
 
 
 </section>

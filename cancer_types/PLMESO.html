@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
 <li>290 diffuse pleural mesothelioma patients profiled by MSK-IMPACT at Memorial Sloan Kettering (1/2014–1/2021); 210 evaluable (72%) for LOH analysis (tumor purity &gt;=20%); 10 GNH cases identified. Additional 105-patient validation cohort sequenced with <a href="../methods/IMPACT505.html">IMPACT505</a>. Dataset: <a href="../datasets/plmeso_msk_2024.html">plmeso_msk_2024</a>. <a href="../papers/38630790.html">PMID:38630790</a></li>
-<li>Included as one of 22 cancer site-of-origin classes in the ATLAS RNA classifier; sarcoma lineage scores differentiated epithelioid from biphasic/sarcomatoid mesothelioma (AUC=0.81), prognostic for survival (median 15.0 vs.&nbsp;23.9 months; log-rank P=0.049). <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>Included as one of 22 cancer site-of-origin classes in the ATLAS RNA classifier; sarcoma lineage scores differentiated epithelioid from biphasic/sarcomatoid mesothelioma (AUC=0.81), prognostic for survival (median 15.0 vs.&nbsp;23.9 months; log-rank P=0.049). <a href="../papers/38480799.html">PMID:38480799</a></li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
@@ -194,22 +197,22 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Genomic near-haploidization (GNH) subset (~4.8% of evaluable DPMs): younger age (58 vs.&nbsp;71 years, P=0.008), less asbestos exposure (20% vs.&nbsp;58%, P=0.02), 80% biphasic histology (vs.&nbsp;15%, P&lt;0.0001), high TILs (3+ score: 90% vs.&nbsp;20%), tumor necrosis (90% vs.&nbsp;24%). Overall survival shorter: 10.9 vs.&nbsp;25.4 months (P=0.004). <a href="../papers/38630790.html">PMID:38630790</a></li>
 <li>Half of GNH cases showed genome duplication resulting in &gt;=2n copy states. Chromosomes 5p and 7p recurrently spared from LOH. <a href="../papers/38630790.html">PMID:38630790</a></li>
-<li>Epithelioid vs.&nbsp;biphasic/sarcomatoid distinction captured by RNA expression-based ATLAS sarcoma lineage scores (AUC=0.81). <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>Epithelioid vs.&nbsp;biphasic/sarcomatoid distinction captured by RNA expression-based ATLAS sarcoma lineage scores (AUC=0.81). <a href="../papers/38480799.html">PMID:38480799</a></li>
 </ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li>GNH DPMs showed preliminary immunotherapy responsiveness: 2/3 GNH patients treated with ipilimumab/nivolumab or <a href="../drugs/pembrolizumab.html">pembrolizumab</a> achieved partial response (67%) vs.&nbsp;1/44 (2%) in non-GNH. A clinical trial of <a href="../drugs/durvalumab.html">durvalumab</a> + platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and <a href="../cancer_types/OS.html">OS</a> &gt;=12 months. <a href="../papers/38630790.html">PMID:38630790</a></li>
+<li>GNH DPMs showed preliminary immunotherapy responsiveness: 2/3 GNH patients treated with ipilimumab/nivolumab or <a href="../drugs/pembrolizumab.html">pembrolizumab</a> achieved partial response (67%) vs.&nbsp;1/44 (2%) in non-GNH. A clinical trial of <a href="../drugs/durvalumab.html">durvalumab</a> + platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and OS &gt;=12 months. <a href="../papers/38630790.html">PMID:38630790</a></li>
 <li><a href="../genes/SETDB1.html">SETDB1</a> mutations as a molecular marker for GNH subset when detected on panels covering this gene (e.g., <a href="../methods/IMPACT505.html">IMPACT505</a>). <a href="../papers/38630790.html">PMID:38630790</a></li>
-<li>RNA-based mesothelioma subtype classification (epithelioid vs.&nbsp;biphasic/sarcomatoid) is prognostic and may guide treatment decisions. <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>RNA-based mesothelioma subtype classification (epithelioid vs.&nbsp;biphasic/sarcomatoid) is prognostic and may guide treatment decisions. <a href="../papers/38480799.html">PMID:38480799</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/38630790.html">PMID:38630790</a> — Diffuse pleural mesotheliomas with genomic near-haploidization: a newly recognized subset (Clinical Cancer Research, 2024)</li>
-<li><a href="../papers/27634761.html">PMID:27634761</a> — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)</li>
+<li><a href="../papers/38480799.html">PMID:38480799</a> — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)</li>
 </ul>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-04</strong>.</em></p>
 

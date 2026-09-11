@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="evidence-in-the-corpus">Evidence in the corpus</h2>
 <ul>
 <li>One female germ cell tumor with <a href="../genes/ERBB2.html">ERBB2</a> amplification was treated with trastuzumab through the Make-an-IMPACT rare-cancer program; no durable response was observed <a href="../papers/36862133.html">PMID:36862133</a>.</li>
-<li>Pembrolizumab + trastuzumab + <a href="../drugs/capecitabine.html">capecitabine</a> + <a href="../drugs/oxaliplatin.html">oxaliplatin</a> (PTC) in HER2-positive metastatic esophagogastric cancer (phase II, n=37): median PFS 13 months, median <a href="../cancer_types/OS.html">OS</a> 27 months, ORR 89%; uniform HER2 IHC 3+ predicts longer PFS vs heterogeneous/2+ (15 vs 8.5 months, P=0.004) <a href="../papers/37406106.html">PMID:37406106</a>.</li>
+<li>Pembrolizumab + trastuzumab + <a href="../drugs/capecitabine.html">capecitabine</a> + <a href="../drugs/oxaliplatin.html">oxaliplatin</a> (PTC) in HER2-positive metastatic esophagogastric cancer (phase II, n=37): median PFS 13 months, median OS 27 months, ORR 89%; uniform HER2 IHC 3+ predicts longer PFS vs heterogeneous/2+ (15 vs 8.5 months, P=0.004) <a href="../papers/37406106.html">PMID:37406106</a>.</li>
 <li>In endometrial carcinoma, <a href="../genes/ERBB2.html">ERBB2</a> amplification enriched in Black patients (12% vs 3%) represents a therapeutic target for trastuzumab and trastuzumab deruxtecan <a href="../papers/37651310.html">PMID:37651310</a>.</li>
 <li>In preclinical HER2+ xenograft models (OE19 esophageal, NCI-N87 gastric), trastuzumab alone had no significant radiosensitizing effect; it was used as antibody-only control showing that <a href="../genes/ERBB2.html">ERBB2</a> binding without cytotoxic payload does not alter radiation response <a href="../papers/27698471.html">PMID:27698471</a>.</li>
 <li>T-DM1 was more potent than trastuzumab, <a href="../drugs/paclitaxel.html">paclitaxel</a>, <a href="../drugs/cisplatin.html">cisplatin</a>, <a href="../drugs/lapatinib.html">lapatinib</a>, or <a href="../drugs/erlotinib.html">erlotinib</a> in HER2+ OE19 cells at sub-nanomolar IC50 (&lt;1 nM vs &gt;100 nM in HER2− lines) <a href="../papers/27698471.html">PMID:27698471</a>.</li>
@@ -185,21 +188,22 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/ERBB2.html">ERBB2</a> amplification in HER2-enriched breast cancer subtype identified as therapeutic target for trastuzumab in TCGA comprehensive analysis <a href="../papers/23000897.html">PMID:23000897</a></li>
 <li>Trastuzumab is the only approved targeted agent for EAC/GEJ adenocarcinoma at time of Dulak 2013 study; <a href="../genes/ERBB2.html">ERBB2</a> kinase-domain mutations (p.D769Y, p.G776V; 5/145 tumors) and co-occurring <a href="../genes/ERBB2.html">ERBB2</a> amplification+mutation in 3% of <a href="../cancer_types/EAC.html">EAC</a> samples justify exploring <a href="../genes/ERBB2.html">ERBB2</a> mutation as an additional biomarker for HER2-directed therapy <a href="../papers/23525077.html">PMID:23525077</a></li>
 <li><a href="../genes/ERBB2.html">ERBB2</a> focal amplification with protein overexpression in 25% of uterine serous/serous-like endometrial tumors supports prospective trials of HER2-targeted therapy; a prior small trastuzumab trial accrued few FISH-amplified serous cases and was underpowered <a href="../papers/23636398.html">PMID:23636398</a></li>
-<li>Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in <a href="../cancer_types/HCC.html">HCC</a>; ERBB family members represent candidate therapeutic targets identified in the <a href="../cancer_types/HCC.html">HCC</a> genomic landscape <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>ERBB2-altered CCA: MyPathway phase IIa basket ORR 23% in combination with <a href="../drugs/pertuzumab.html">pertuzumab</a>; <a href="../genes/ERBB2.html">ERBB2</a> amplification/overexpression in 4–6% iCCA and 3–20% eCCA <a href="../papers/25526346.html">PMID:25526346</a></li>
+<li>Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in <a href="../cancer_types/HCC.html">HCC</a>; ERBB family members represent candidate therapeutic targets identified in the <a href="../cancer_types/HCC.html">HCC</a> genomic landscape <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>ERBB2-altered CCA: MyPathway phase IIa basket ORR 23% in combination with <a href="../drugs/pertuzumab.html">pertuzumab</a>; <a href="../genes/ERBB2.html">ERBB2</a> amplification/overexpression in 4–6% iCCA and 3–20% eCCA <a href="../papers/41008893.html">PMID:41008893</a></li>
 <li>Standard targeted therapy for ERBB2-amplified/mutated gastric adenocarcinoma (<a href="../cancer_types/STAD.html">STAD</a>); defines a candidate biomarker-selected population; <a href="../genes/NRG1.html">NRG1</a> and <a href="../genes/ERBB4.html">ERBB4</a> mutations (11.6% of GC) define a potentially targetable subset beyond the &lt;15% ERBB2-positive GC patients eligible for trastuzumab <a href="../papers/25583476.html">PMID:25583476</a></li>
 <li>Comprehensive TCGA molecular profiling of 164 oesophageal carcinomas shows <a href="../genes/ERBB2.html">ERBB2</a> alteration in 32% of oesophageal adenocarcinomas (<a href="../cancer_types/EAC.html">EAC</a>); the authors note ERBB2-positive EACs are routinely treated off-label with trastuzumab and that ERBB2-mutant (non-amplified) <a href="../cancer_types/EAC.html">EAC</a> patients may also benefit; functional consequence of the EAC-specific ERBB2-JUP fusion transcript (lacking transmembrane/kinase domains) on trastuzumab response remains unresolved <a href="../papers/28052061.html">PMID:28052061</a></li>
 <li>RPPA HER2-high clusters 1 and 2 (elevated <a href="../genes/ERBB2.html">ERBB2</a> protein) in MIBC are candidates for trastuzumab or <a href="../drugs/ado-trastuzumab-emtansine.html">ado-trastuzumab-emtansine</a>; <a href="../genes/ERBB2.html">ERBB2</a> is mutated in 12% and recurrently amplified in the TCGA 412-tumor MIBC cohort <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li>In a 295-patient metastatic <a href="../cancer_types/EGC.html">EGC</a> cohort (MSK-IMPACT), <a href="../genes/ERBB2.html">ERBB2</a> amplification level by NGS predicted trastuzumab PFS (top-quartile patients: median PFS 24.3 months); 16% of post-trastuzumab samples showed ERBB2 amplification loss; RTK-RAS-PI3K co-alterations independently shortened trastuzumab PFS in multivariate analysis <a href="../papers/29122777.html">PMID:29122777</a></li>
+<li>In a 295-patient metastatic <a href="../cancer_types/EGC.html">EGC</a> cohort (MSK-IMPACT), <a href="../genes/ERBB2.html">ERBB2</a> amplification level by NGS predicted trastuzumab PFS (top-quartile patients: median PFS 24.3 months); 16% of post-trastuzumab samples showed <a href="../genes/ERBB2.html">ERBB2</a> amplification loss; RTK-RAS-PI3K co-alterations independently shortened trastuzumab PFS in multivariate analysis <a href="../papers/29122777.html">PMID:29122777</a></li>
 <li>Cited as context for HER2-targeted therapy in SUMMIT; ERBB2-amplified breast cancer (trastuzumab-indicated) differs from ERBB2-mutant (non-amplified) disease targeted by <a href="../drugs/neratinib.html">neratinib</a> — 95% of HER2 mutations in SUMMIT were clonal and 17% co-occurred with amplification, but amplification did not correlate with additional clinical benefit from <a href="../drugs/neratinib.html">neratinib</a> <a href="../papers/29420467.html">PMID:29420467</a></li>
 <li>In the TCGA pan-cancer fusion atlas (n=9,624), four <a href="../genes/ERBB2.html">ERBB2</a> fusions were identified (partners <a href="../genes/PPP1R1B.html">PPP1R1B</a> and <a href="../genes/IKZF3.html">IKZF3</a>, genomic neighbors at 17q; 3 of 4 had HPV integration within 1 Mb of ERBB2), representing a fusion-driven mechanism of HER2 dysregulation distinct from — but potentially complementary to — the trastuzumab-targetable amplification in <a href="../cancer_types/BRCA.html">BRCA</a> <a href="../papers/29617662.html">PMID:29617662</a></li>
-<li>HER2-targeted monoclonal antibody combined with <a href="../drugs/pembrolizumab.html">pembrolizumab</a> + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); combination achieved 91% ORR and 27.2-month median <a href="../cancer_types/OS.html">OS</a> versus ~47% ORR and ~16-month <a href="../cancer_types/OS.html">OS</a> historically for trastuzumab + chemotherapy alone; RTK-RAS co-alterations predicted shorter PFS (5.9 vs.&nbsp;14.6 months, p=0.011) <a href="../papers/32437664.html">PMID:32437664</a>.</li>
+<li>HER2-targeted monoclonal antibody combined with <a href="../drugs/pembrolizumab.html">pembrolizumab</a> + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); combination achieved 91% ORR and 27.2-month median OS versus ~47% ORR and ~16-month OS historically for trastuzumab + chemotherapy alone; RTK-RAS co-alterations predicted shorter PFS (5.9 vs.&nbsp;14.6 months, p=0.011) <a href="../papers/32437664.html">PMID:32437664</a>.</li>
 <li>In the CPTAC breast cancer proteogenomics cohort (n=122), 2/17 ERBB2-amplified cases were pseudo-ERBB2+ (amplified but protein within the ERBB2-negative distribution); authors propose integrated DNA + protein quantification as a more reliable diagnostic and suggest pseudo-ERBB2+ status may explain trastuzumab-refractory amplified tumors. <a href="../papers/33212010.html">PMID:33212010</a></li>
-<li>86/108 ERBB2-amplified <a href="../cancer_types/EAC.html">EAC</a> patients received trastuzumab (64 first-line, 22 second-line); ERBB2 amplification was independently associated with improved <a href="../cancer_types/OS.html">OS</a> (adjusted HR 0.65, p=0.009), largely attributable to trastuzumab access; 79/86 trastuzumab-treated patients had stage IV disease <a href="../papers/33795256.html">PMID:33795256</a></li>
+<li>86/108 ERBB2-amplified <a href="../cancer_types/EAC.html">EAC</a> patients received trastuzumab (64 first-line, 22 second-line); ERBB2 amplification was independently associated with improved OS (adjusted HR 0.65, p=0.009), largely attributable to trastuzumab access; 79/86 trastuzumab-treated patients had stage IV disease <a href="../papers/33795256.html">PMID:33795256</a></li>
 <li>In a HER2+/NF1-null patient-derived xenograft, trastuzumab monotherapy had no significant effect on tumor growth while <a href="../drugs/trametinib.html">trametinib</a> (MEK inhibitor) produced 70% growth inhibition (p&lt;0.001); in 145 patients on first-line THP, MAPK-altered tumors had median PFS 9.9 vs 21 months (HR 2.03, p=0.011 multivariate). <a href="../papers/34795269.html">PMID:34795269</a></li>
-<li>OncoMark hallmark-survival analysis (TCGA logistic regression) associated trastuzumab with the Resisting Cell Death (RCD) hallmark for both disease-free and overall survival <a href="../papers/35121966.html">PMID:35121966</a></li>
+<li>OncoMark hallmark-survival analysis (TCGA logistic regression) associated trastuzumab with the Resisting Cell Death (RCD) hallmark for both disease-free and overall survival <a href="../papers/41057477.html">PMID:41057477</a></li>
 <li>Trastuzumab was administered neoadjuvantly to 10 HER2+ esophageal/GEJ adenocarcinoma patients (of 237 total); ERBB2 amplification was present in 16% of the cohort but was not significantly associated with pathologic response in this analysis <a href="../papers/35377946.html">PMID:35377946</a></li>
-<li>Anti-HER2 antibody; trastuzumab+<a href="../drugs/pertuzumab.html">pertuzumab</a> dual HER2 blockade for ERBB2-amplified <a href="../cancer_types/BRCA.html">BRCA</a> (24% of BRCA in Chinese pan-cancer cohort n=10,194) <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Anti-HER2 antibody; trastuzumab+<a href="../drugs/pertuzumab.html">pertuzumab</a> dual HER2 blockade for ERBB2-amplified <a href="../cancer_types/BRCA.html">BRCA</a> (24% of <a href="../cancer_types/BRCA.html">BRCA</a> in Chinese pan-cancer cohort n=10,194) <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Current NCCN guidance restricts trastuzumab to advanced/recurrent serous endometrial cancer with HER2 overexpression/ERBB2 amplification; the ERBB2 V842I mutation conferred in vitro trastuzumab resistance, while R678Q and S310Y were associated with trastuzumab sensitivity. <a href="../papers/39031567.html">PMID:39031567</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -231,10 +235,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/23000897.html">PMID:23000897</a></p></li>
 <li><p><a href="../papers/23525077.html">PMID:23525077</a></p></li>
 <li><p><a href="../papers/23636398.html">PMID:23636398</a></p></li>
-<li><p><a href="../papers/24735922.html">PMID:24735922</a></p></li>
-<li><p><a href="../papers/25526346.html">PMID:25526346</a></p></li>
+<li><p><a href="../papers/25369299.html">PMID:25369299</a></p></li>
+<li><p><a href="../papers/41008893.html">PMID:41008893</a></p></li>
 <li><p><a href="../papers/25583476.html">PMID:25583476</a></p></li>
-<li><p><a href="../papers/28052061.html">PMID:28052061</a> — TCGA oesophageal carcinoma comprehensive molecular characterization; ERBB2 altered in 32% of EAC; trastuzumab used off-label in ERBB2+ EAC; ERBB2-JUP fusion in 6 amplified EACs with unknown functional significance for trastuzumab response.</p></li>
+<li><p><a href="../papers/28052061.html">PMID:28052061</a> — TCGA oesophageal carcinoma comprehensive molecular characterization; ERBB2 altered in 32% of <a href="../cancer_types/EAC.html">EAC</a>; trastuzumab used off-label in ERBB2+ EAC; ERBB2-JUP fusion in 6 amplified EACs with unknown functional significance for trastuzumab response.</p></li>
 <li><p><a href="../papers/28988769.html">PMID:28988769</a></p></li>
 <li><p><a href="../papers/29122777.html">PMID:29122777</a></p></li>
 <li><p><a href="../papers/29420467.html">PMID:29420467</a></p></li>
@@ -242,12 +246,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/32437664.html">PMID:32437664</a></p></li>
 <li><p><a href="../papers/33212010.html">PMID:33212010</a> — Krug et al.&nbsp;2020, <em>Cell</em> (CPTAC <a href="../cancer_types/BRCA.html">BRCA</a> proteogenomics). Pseudo-ERBB2+ phenotype (amplified but protein-low in 2/17 amplified cases) proposed as explanation for trastuzumab-refractory tumors; integrated proteogenomic ERBB2 quantification recommended.</p></li>
 <li><p><a href="../papers/33795256.html">PMID:33795256</a></p></li>
+<li><p><a href="../papers/34795269.html">PMID:34795269</a></p></li>
+<li><p><a href="../papers/41057477.html">PMID:41057477</a></p></li>
+<li><p><a href="../papers/35377946.html">PMID:35377946</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/39031567.html">PMID:39031567</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34795269.html">PMID:34795269</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35121966.html">PMID:35121966</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35377946.html">PMID:35377946</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

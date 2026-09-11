@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -184,11 +187,11 @@ ul.task-list li input[type="checkbox"] {
 <li>cfDNA profiling via <a href="../methods/ACCESS129.html">MSK-ACCESS</a> (129-gene panel) detects alterations in 92.2% of advanced HCC patients (N=51); most frequently mutated genes: <a href="../genes/TERT.html">TERT</a> promoter 57%, <a href="../genes/TP53.html">TP53</a> 47%, <a href="../genes/CTNNB1.html">CTNNB1</a> 37%, <a href="../genes/ARID1A.html">ARID1A</a> 18%, <a href="../genes/TSC2.html">TSC2</a> 14% <a href="../papers/37769223.html">PMID:37769223</a>.</li>
 <li>Plasma-tissue concordance 92.5% in matched samples; 27% of paired samples harbored cfDNA-exclusive alterations, of which 40% were OncoKB actionable <a href="../papers/37769223.html">PMID:37769223</a>.</li>
 <li>WNT-beta-catenin pathway altered in 45% and PI3K-AKT-mTOR pathway in 25% of HCC cfDNA cases; actionable <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> alterations in 18% <a href="../papers/37769223.html">PMID:37769223</a>.</li>
-<li>Genomic review identified <a href="../genes/TERT.html">TERT</a> promoter mutations, <a href="../genes/CTNNB1.html">CTNNB1</a>, and <a href="../genes/TP53.html">TP53</a> as top recurrent alterations in HCC with Wnt and mTOR as key therapeutic pathways <a href="../papers/22634756.html">PMID:22634756</a></li>
-<li>Narrative review cataloguing HCC driver genes (<a href="../genes/TERT.html">TERT</a> promoter ~59%, <a href="../genes/TP53.html">TP53</a> ~30%, <a href="../genes/CTNNB1.html">CTNNB1</a> ~30%); <a href="../genes/TERT.html">TERT</a> promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials (<a href="../drugs/sorafenib.html">sorafenib</a>, <a href="../drugs/tivantinib.html">tivantinib</a>, <a href="../drugs/everolimus.html">everolimus</a>, <a href="../drugs/refametinib.html">refametinib</a>) <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>Comprehensive review (n=1,289 WES patients) identified <a href="../genes/TERT.html">TERT</a> promoter mutation (54%), <a href="../genes/CTNNB1.html">CTNNB1</a> (29%), and <a href="../genes/TP53.html">TP53</a> (28%) as the most frequent somatic drivers; ~25% of HCCs harbour potentially targetable alterations; <a href="../drugs/sorafenib.html">sorafenib</a> and <a href="../drugs/lenvatinib.html">lenvatinib</a> are first-line standards with <a href="../drugs/regorafenib.html">regorafenib</a>, <a href="../drugs/cabozantinib.html">cabozantinib</a>, and <a href="../drugs/ramucirumab.html">ramucirumab</a> (AFP≥400 ng/ml) as approved second-line options <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li>Narrative review notes overlap of HCC with cholangiocarcinoma (combined hepatocellular-cholangiocarcinoma); HBV DNA integration near <a href="../genes/TERT.html">TERT</a>, <a href="../genes/MET.html">MET</a>, <a href="../genes/ALKBH5.html">ALKBH5</a>, and <a href="../genes/FAT2.html">FAT2</a> is a shared oncogenic mechanism across HBV-associated HCC and iCCA <a href="../papers/25526346.html">PMID:25526346</a>.</li>
-<li>Review references HCC in the context of differentiating CCA from HCC: oral microbiota three-bacterial-biomarker classifier (AUC=0.981) distinguishes iCCA from HCC; BA-panel diagnostics also outperform CA19-9 for CCA vs HCC; prolonged broad-spectrum antibiotic use correlates with reduced survival in HCC patients on anti-PD-1 therapy. <a href="../papers/25608663.html">PMID:25608663</a></li>
+<li>Genomic review identified <a href="../genes/TERT.html">TERT</a> promoter mutations, <a href="../genes/CTNNB1.html">CTNNB1</a>, and <a href="../genes/TP53.html">TP53</a> as top recurrent alterations in HCC with Wnt and mTOR as key therapeutic pathways <a href="../papers/41112515.html">PMID:41112515</a></li>
+<li>Narrative review cataloguing HCC driver genes (<a href="../genes/TERT.html">TERT</a> promoter ~59%, <a href="../genes/TP53.html">TP53</a> ~30%, <a href="../genes/CTNNB1.html">CTNNB1</a> ~30%); <a href="../genes/TERT.html">TERT</a> promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials (<a href="../drugs/sorafenib.html">sorafenib</a>, <a href="../drugs/tivantinib.html">tivantinib</a>, <a href="../drugs/everolimus.html">everolimus</a>, <a href="../drugs/refametinib.html">refametinib</a>) <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>Comprehensive review (n=1,289 WES patients) identified <a href="../genes/TERT.html">TERT</a> promoter mutation (54%), <a href="../genes/CTNNB1.html">CTNNB1</a> (29%), and <a href="../genes/TP53.html">TP53</a> (28%) as the most frequent somatic drivers; ~25% of HCCs harbour potentially targetable alterations; <a href="../drugs/sorafenib.html">sorafenib</a> and <a href="../drugs/lenvatinib.html">lenvatinib</a> are first-line standards with <a href="../drugs/regorafenib.html">regorafenib</a>, <a href="../drugs/cabozantinib.html">cabozantinib</a>, and <a href="../drugs/ramucirumab.html">ramucirumab</a> (AFP≥400 ng/ml) as approved second-line options <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li>Narrative review notes overlap of HCC with cholangiocarcinoma (combined hepatocellular-cholangiocarcinoma); HBV DNA integration near <a href="../genes/TERT.html">TERT</a>, <a href="../genes/MET.html">MET</a>, <a href="../genes/ALKBH5.html">ALKBH5</a>, and <a href="../genes/FAT2.html">FAT2</a> is a shared oncogenic mechanism across HBV-associated HCC and iCCA <a href="../papers/41008893.html">PMID:41008893</a>.</li>
+<li>Review references HCC in the context of differentiating CCA from HCC: oral microbiota three-bacterial-biomarker classifier (AUC=0.981) distinguishes iCCA from HCC; BA-panel diagnostics also outperform CA19-9 for CCA vs HCC; prolonged broad-spectrum antibiotic use correlates with reduced survival in HCC patients on anti-PD-1 therapy. <a href="../papers/41018102.html">PMID:41018102</a></li>
 <li>Whole-exome sequencing of 243 European HCC identified 161 putative driver genes in 11 pathways; <a href="../genes/TERT.html">TERT</a> activation (60%), WNT/β-catenin (54%), PI3K/AKT/mTOR (51%), and TP53/cell-cycle (49%) are most frequent; 28% of HCC harbor FDA-targetable alterations; <a href="../genes/CDKN2A.html">CDKN2A</a> inactivation and FGF3/4/19/CCND1 amplification independently predict poor overall survival; two novel mutational signatures 23 and 24 discovered (signature 24 linked to aflatoxin B1/HBV) <a href="../papers/25822088.html">PMID:25822088</a></li>
 <li>PIPseq cohort included hepatocellular carcinoma cases; <a href="../genes/UGT1A1.html">UGT1A1</a> homozygous *28 (TA)7TAA allele identified as pharmacogenomic flag for irinotecan/SN-38 toxicity <a href="../papers/28007021.html">PMID:28007021</a></li>
 <li>Pan-cancer aneuploidy study placed HCC in the epithelial arm-level cluster (alongside <a href="../cancer_types/LUAD.html">LUAD</a> and <a href="../cancer_types/BRCA.html">BRCA</a>) defined by 1q gain; HCC arm-level alteration patterns were used in the per-tumor-type aneuploidy analysis <a href="../papers/29622463.html">PMID:29622463</a></li>
@@ -196,9 +199,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Prospective MSK-IMPACT sequencing of 127 advanced HCC patients confirmed <a href="../genes/TERT.html">TERT</a> (56%), <a href="../genes/CTNNB1.html">CTNNB1</a> (36%), and <a href="../genes/TP53.html">TP53</a> (33%) as the top altered genes (WNT and <a href="../genes/TP53.html">TP53</a> alterations mutually exclusive, p=0.003); PI3K-mTOR pathway alterations predicted worse <a href="../drugs/sorafenib.html">sorafenib</a> outcomes (PFS HR 3.8, p&lt;0.0001), and WNT/β-catenin activation predicted innate ICI resistance (0% vs 53% disease control, p=0.009); dataset <a href="../datasets/hcc_mskimpact_2018.html">hcc_mskimpact_2018</a> <a href="../papers/30373752.html">PMID:30373752</a></li>
 <li>cHCC-ICC pan-Asia genomic study (N=133) used TCGA-HCC as a reference cohort; <a href="../genes/TP53.html">TP53</a> mutation rate 31% in TCGA-HCC vs 49.2% in cHCC-ICC; <a href="../genes/TERT.html">TERT</a> promoter mutation 46% in TCGA-HCC vs 22.9% in cHCC-ICC; <a href="../genes/CTNNB1.html">CTNNB1</a> mutation rate substantially higher in HCC than in cHCC-ICC (6%) <a href="../papers/31130341.html">PMID:31130341</a>.</li>
 <li>Included in PCAWG (n=2,658 WGS); hepatocellular carcinoma showed <a href="../genes/TP53.html">TP53</a> association with chromothripsis (HCC OR=3.9) <a href="../papers/32025007.html">PMID:32025007</a>.</li>
-<li>Integrated (phospho)proteogenomic characterization of 122 HCC biopsies from 114 systemically-untreated patients (Basel, 2008–2018; <a href="../datasets/hcc_meric_2021.html">hcc_meric_2021</a>); 7 SMGs identified including novel <a href="../genes/GPAM.html">GPAM</a> candidate tumor suppressor; 3 integrative iCluster subtypes defined with <a href="../cancer_types/OS.html">OS</a> associations <a href="../papers/35508466.html">PMID:35508466</a></li>
+<li>Integrated (phospho)proteogenomic characterization of 122 HCC biopsies from 114 systemically-untreated patients (Basel, 2008–2018; <a href="../datasets/hcc_meric_2021.html">hcc_meric_2021</a>); 7 SMGs identified including novel <a href="../genes/GPAM.html">GPAM</a> candidate tumor suppressor; 3 integrative iCluster subtypes defined with OS associations <a href="../papers/35508466.html">PMID:35508466</a></li>
 <li>A multi-omics review (Babu &amp; Snyder 2023) cites integration of CNV, DNA methylation, and gene expression across 256 HCC samples (Liu et al.&nbsp;2016) as a landmark example, identifying five molecular subgroups with distinct survival outcomes <a href="../papers/37119971.html">PMID:37119971</a></li>
-<li>A narrative review of lipid metabolism reprogramming in HCC (Wong, Kong, Ma) finds that ~75% of HCC patients fail current SoC (<a href="../drugs/atezolizumab.html">atezolizumab</a>+<a href="../drugs/bevacizumab.html">bevacizumab</a> ORR 26–28%; <a href="../drugs/lenvatinib.html">lenvatinib</a> ORR 16–23%); six lipid metabolic axes (uptake, DNL, FAO, ferroptosis suppression, bioactive lipid signaling, cholesterol synthesis) drive TKI/ICI/radiotherapy resistance, and key dominant HCC drivers include <a href="../genes/TERT.html">TERT</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/CTNNB1.html">CTNNB1</a> (&gt;25% of patients), with CTNNB1-active HCC addicted to CPT1A-mediated FAO <a href="../papers/38355797.html">PMID:38355797</a></li>
+<li>A narrative review of lipid metabolism reprogramming in HCC (Wong, Kong, Ma) finds that ~75% of HCC patients fail current SoC (<a href="../drugs/atezolizumab.html">atezolizumab</a>+<a href="../drugs/bevacizumab.html">bevacizumab</a> ORR 26–28%; <a href="../drugs/lenvatinib.html">lenvatinib</a> ORR 16–23%); six lipid metabolic axes (uptake, DNL, FAO, ferroptosis suppression, bioactive lipid signaling, cholesterol synthesis) drive TKI/ICI/radiotherapy resistance, and key dominant HCC drivers include <a href="../genes/TERT.html">TERT</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/CTNNB1.html">CTNNB1</a> (&gt;25% of patients), with CTNNB1-active HCC addicted to CPT1A-mediated FAO <a href="../papers/41118283.html">PMID:41118283</a></li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -207,17 +210,17 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
-<li>HCC-class IHC has markedly better <a href="../cancer_types/OS.html">OS</a> than biliary-class IHC, independent of FGFR2/IDH1 alterations <a href="../papers/38864854.html">PMID:38864854</a>.</li>
+<li>HCC-class IHC has markedly better OS than biliary-class IHC, independent of FGFR2/IDH1 alterations <a href="../papers/38864854.html">PMID:38864854</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/22634756.html">PMID:22634756</a></li>
-<li><a href="../papers/24735922.html">PMID:24735922</a></li>
-<li><a href="../papers/24798001.html">PMID:24798001</a></li>
-<li><a href="../papers/25526346.html">PMID:25526346</a></li>
-<li><a href="../papers/25608663.html">PMID:25608663</a></li>
+<li><a href="../papers/41112515.html">PMID:41112515</a></li>
+<li><a href="../papers/25369299.html">PMID:25369299</a></li>
+<li><a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><a href="../papers/41008893.html">PMID:41008893</a></li>
+<li><a href="../papers/41018102.html">PMID:41018102</a></li>
 <li><a href="../papers/25822088.html">PMID:25822088</a></li>
 <li><a href="../papers/28007021.html">PMID:28007021</a></li>
 <li><a href="../papers/29622463.html">PMID:29622463</a></li>
@@ -228,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/35508466.html">PMID:35508466</a></li>
 <li><a href="../papers/37119971.html">PMID:37119971</a></li>
 <li><a href="../papers/37769223.html">PMID:37769223</a></li>
-<li><a href="../papers/38355797.html">PMID:38355797</a></li>
+<li><a href="../papers/41118283.html">PMID:41118283</a></li>
 <li><a href="../papers/38864854.html">PMID:38864854</a></li>
 </ul>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>

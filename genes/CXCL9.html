@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,22 +173,23 @@ ul.task-list li input[type="checkbox"] {
 <h1>CXCL9</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>CXCL9 is an IFN-gamma-induced CXCR3 ligand that directs CD8 T cell and NK cell recruitment into inflamed and tumor tissues.</p>
+<p>CXCL9 is an IFN-gamma-induced <a href="../genes/CXCR3.html">CXCR3</a> ligand that directs CD8 T cell and NK cell recruitment into inflamed and tumor tissues.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>Included in the 20-gene Immunologic Constant of Rejection (ICR) signature as a CXCR3/CCR5 chemokine ligand, alongside <a href="../genes/CCL5.html">CCL5</a> and <a href="../genes/CXCL10.html">CXCL10</a>, applied to the 348-patient AC-ICAM colon cancer cohort <a href="../papers/37202560.html">PMID:37202560</a>.</li>
 <li>CXCL9 was identified as an <a href="../genes/APC.html">APC</a> chemoattraction marker in spatial transcriptomic profiling (GeoMx WTA) of fallopian tube <a href="../cancer_types/HGSOC.html">HGSOC</a> precursor lesions; CXCL9 expression used to define infiltrating immune-cell populations and their spatial relationship to <a href="../genes/HLA-E.html">HLA-E</a>+ epithelium across the p53-signature → STIC.I → STIC.C → invasive cancer axis <a href="../papers/39386723.html">PMID:39386723</a>.</li>
-<li>CXCL9 is concordantly downregulated in the T-cell-depleted UTUC cluster, linking FGFR3-driven suppression of IFNG response genes to immune exclusion in 37 upper-tract urothelial carcinoma cases <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>CXCL9 is concordantly downregulated in the T-cell-depleted <a href="../cancer_types/UTUC.html">UTUC</a> cluster, linking FGFR3-driven suppression of <a href="../genes/IFNG.html">IFNG</a> response genes to immune exclusion in 37 upper-tract urothelial carcinoma cases <a href="../papers/31278255.html">PMID:31278255</a></li>
 <li>Higher CXCL9 expression in ipilimumab-treated melanoma responders to subsequent anti-PD1 ICB (MWW P=0.05); part of the CXCL9/CXCL10/CXCR3 chemokine axis elevated in responders in the ipilimumab-treated subgroup but not ipilimumab-naive tumors <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>CXCL9 increased 2.4-fold in tumor and a median +101% in serum on <a href="../drugs/nivolumab.html">nivolumab</a> treatment, proposed to be induced by myeloid cells to recruit T cells. <a href="../papers/27169994.html">PMID:27169994</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
 <li>Colon adenocarcinoma — CXCL9 contributes to ICR-based prognostic clustering independent of CMS and MSI <a href="../papers/37202560.html">PMID:37202560</a>.</li>
-<li><a href="../cancer_types/OV.html">OV</a> (<a href="../cancer_types/HGSOC.html">HGSOC</a>) / fallopian tube precursors — CXCL9 expression used as <a href="../genes/APC.html">APC</a> chemoattraction marker to characterize immune compartments across HGSOC progression stages <a href="../papers/39386723.html">PMID:39386723</a>.</li>
+<li><a href="../cancer_types/OV.html">OV</a> (<a href="../cancer_types/HGSOC.html">HGSOC</a>) / fallopian tube precursors — CXCL9 expression used as <a href="../genes/APC.html">APC</a> chemoattraction marker to characterize immune compartments across <a href="../cancer_types/HGSOC.html">HGSOC</a> progression stages <a href="../papers/39386723.html">PMID:39386723</a>.</li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
@@ -209,12 +213,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/37202560.html">PMID:37202560</a></li>
-<li><a href="../papers/39386723.html">PMID:39386723</a></li>
+<li><p><a href="../papers/37202560.html">PMID:37202560</a></p></li>
+<li><p><a href="../papers/39386723.html">PMID:39386723</a></p></li>
+<li><p><a href="../papers/31278255.html">PMID:31278255</a></p></li>
+<li><p><a href="../papers/31792460.html">PMID:31792460</a></p></li>
+<li><p><a href="../papers/27169994.html">PMID:27169994</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-04</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31792460.html">PMID:31792460</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

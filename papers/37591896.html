@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -231,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> alterations were more frequent in BM (34%) than PT (13%) (p=0.003, q=0.04); cell-cycle pathway alterations 56% BM vs 32% PT (p=0.004, q=0.041), driven by <a href="../genes/CDKN2A.html">CDKN2A</a>/B.</li>
 <li>In the <a href="../cancer_types/LUAD.html">LUAD</a> sub-cohort, CDKN2A/B enrichment persisted (31% BM vs 18% PT; p=0.004) as did cell-cycle pathway enrichment (52% vs 27%; p=0.007).</li>
 <li>Comparing <a href="../cancer_types/LUAD.html">LUAD</a> PT BM+ vs BM−/EM−, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/MYC.html">MYC</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, and <a href="../genes/FOXA1.html">FOXA1</a> alterations were enriched in PTs from patients who later developed BM; <a href="../genes/NKX2-1.html">NKX2-1</a> alterations were enriched in both BM and EM cohorts.</li>
-<li>Among 179 <a href="../cancer_types/LUAD.html">LUAD</a> BM patients, 101 (56%) had intracranial progression after craniotomy + RT: regional (30%), local (14%), LMD (11%). Median <a href="../cancer_types/OS.html">OS</a> 2.7 years (95% CI 2.3–4.0); median iPFS 1.2 years (95% CI 1.0–1.5).</li>
+<li>Among 179 <a href="../cancer_types/LUAD.html">LUAD</a> BM patients, 101 (56%) had intracranial progression after craniotomy + RT: regional (30%), local (14%), LMD (11%). Median OS 2.7 years (95% CI 2.3–4.0); median iPFS 1.2 years (95% CI 1.0–1.5).</li>
 <li>LMD patients had more <a href="../genes/EGFR.html">EGFR</a> alterations than non-progressors (45% vs 21%; p=0.044). Local progressors had more <a href="../genes/RB1.html">RB1</a> loss (24% vs 6%; p=0.022) and <a href="../genes/NKX3-1.html">NKX3-1</a> alterations (16% vs 3%; p=0.044). Multifocal regional progressors had <a href="../genes/MYC.html">MYC</a> amplifications in 22% vs 0% in local progressors (p=0.023). <a href="../genes/MYC.html">MYC</a> pathway alterations were enriched in LMD (p=0.013, q=0.14) and regional progression groups.</li>
 <li><a href="../genes/NF1.html">NF1</a> alterations were more frequent in LMD patients (15%) than other groups.</li>
 <li>Paired BM–BM samples from multi-lesion patients showed high genomic concordance, contrasting with lower concordance seen in synchronous BM/PT pairs.</li>
@@ -275,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
 <li>“<a href="../genes/CDKN2A.html">CDKN2A</a>/B alterations were more common in the BM samples (34%) compared to PT (13% p=0.003, q=0.04).”</li>
 <li>“<a href="../genes/MYC.html">MYC</a> amplifications were more common in patients who later suffered multifocal regional progression, compared to those with local progression, where no <a href="../genes/MYC.html">MYC</a> amplifications were detected (22% vs 0%, p=0.023).”</li>
 <li>“Patients who suffered from LMD frequently exhibited less common <a href="../genes/EGFR.html">EGFR</a> mutations (45%), such as L861Q, G719A/S, A755G, or N771_H773dup.”</li>
-<li>“The median <a href="../cancer_types/OS.html">OS</a> and iPFS from BM diagnosis was 2.7 years (95% CI 2.3–4.0) and 1.2 years (95% CI 1.0–1.5).”</li>
+<li>“The median OS and iPFS from BM diagnosis was 2.7 years (95% CI 2.3–4.0) and 1.2 years (95% CI 1.0–1.5).”</li>
 </ul>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em></p>
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -207,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>58 significantly mutated genes</strong> by MutSig 2CV (q &lt; 0.1); 34 novel vs the 131-tumor cohort; 7 new SMGs mutated in &gt;10% of samples: <a href="../genes/KMT2C.html">KMT2C</a> (18%), <a href="../genes/ATM.html">ATM</a> (14%), <a href="../genes/FAT1.html">FAT1</a> (12%), <a href="../genes/CREBBP.html">CREBBP</a> (12%), <a href="../genes/ERBB2.html">ERBB2</a> (12%), <a href="../genes/SPTAN1.html">SPTAN1</a> (12%), <a href="../genes/KMT2A.html">KMT2A</a> (11%). <a href="../papers/28988769.html">PMID:28988769</a></li>
 <li><strong>APOBEC mutagenesis dominates</strong> — APOBEC-a and APOBEC-b signatures account for 67% of all SNVs; 64% of APOBEC mutations are clonal, implying early activity in bladder cancer development. <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li><strong>APOBEC-high (MSig1) tumors have the best survival</strong> (75% 5-year <a href="../cancer_types/OS.html">OS</a>); low-mutation-burden MSig2 tumors have worst (22% 5-year OS). <a href="../papers/28988769.html">PMID:28988769</a></li>
+<li><strong>APOBEC-high (MSig1) tumors have the best survival</strong> (75% 5-year OS); low-mutation-burden MSig2 tumors have worst (22% 5-year OS). <a href="../papers/28988769.html">PMID:28988769</a></li>
 <li><strong>Five mRNA expression subtypes</strong> (NMF consensus clustering, n=408): luminal-papillary (35%), luminal-infiltrated (19%), luminal (6%), basal-squamous (35%), neuronal (5%); survival association p = 4×10⁻⁴. <a href="../papers/28988769.html">PMID:28988769</a></li>
 <li><strong>Neuronal subtype</strong> (n=20) is newly recognized, includes tumors without neuroendocrine histology (17/20), enriched for <a href="../genes/TP53.html">TP53</a>+<a href="../genes/RB1.html">RB1</a> co-mutation or <a href="../genes/E2F3.html">E2F3</a> amplification (85%), and has the poorest survival of all five subtypes. <a href="../papers/28988769.html">PMID:28988769</a></li>
 <li><strong>Luminal-papillary subtype</strong> enriched for <a href="../genes/FGFR3.html">FGFR3</a> mutations (42/57; p &lt; 10⁻⁹), amplification, and <a href="../genes/FGFR3.html">FGFR3</a>–<a href="../genes/TACC3.html">TACC3</a> fusions (8/10); best candidate for pan-FGFR inhibitors. <a href="../papers/28988769.html">PMID:28988769</a></li>
@@ -217,8 +220,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Neoantigen load predicts survival independently of age, AJCC stage, and squamous differentiation (p = 8×10⁻⁴). <a href="../papers/28988769.html">PMID:28988769</a></li>
 <li><a href="../genes/PPARG.html">PPARG</a> recurrently fused (6 fusions; 4 <em>TSEN2-PPARG</em>, 2 <em>MKRN2-PPARG</em>), implicated as a luminal driver alongside <a href="../genes/GATA3.html">GATA3</a> and <a href="../genes/FOXA1.html">FOXA1</a>. <a href="../papers/28988769.html">PMID:28988769</a></li>
 <li>RPPA proteomic clusters 1 and 2 (HER2-high) are candidates for <a href="../drugs/trastuzumab.html">trastuzumab</a> or <a href="../drugs/ado-trastuzumab-emtansine.html">ado-trastuzumab-emtansine</a>; cluster 3 (EGFR-high proliferative) for <a href="../genes/EGFR.html">EGFR</a> inhibitors. <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li>Served as the TCGA muscle-invasive bladder cancer comparator cohort (n=124 WES / n=128 RNA-seq) in the UTUC genomic study; UTUC showed significantly higher FGFR3 mutation frequency (29.7% vs 13.7%, P=0.04), lower TMB (2.91 vs 5.46 mutations/Mb, P=1.9×10⁻⁵), and predominant luminal-papillary (T-cell-depleted) immune subtype relative to this TCGA UCB reference <a href="../papers/31278255.html">PMID:31278255</a></li>
+<li>Served as the TCGA muscle-invasive bladder cancer comparator cohort (n=124 WES / n=128 RNA-seq) in the <a href="../cancer_types/UTUC.html">UTUC</a> genomic study; UTUC showed significantly higher <a href="../genes/FGFR3.html">FGFR3</a> mutation frequency (29.7% vs 13.7%, P=0.04), lower TMB (2.91 vs 5.46 mutations/Mb, P=1.9×10⁻⁵), and predominant luminal-papillary (T-cell-depleted) immune subtype relative to this TCGA UCB reference <a href="../papers/31278255.html">PMID:31278255</a></li>
 <li>Cross-validation cohort for UTUC EpiC methylation signature: projected EpiC clusters onto 412 MI-BLCA samples, recovering BLCA-C1 (hypermethylated, immune-inflamed, poor OS) vs BLCA-C2 (FGFR3-enriched, neutrophil-enriched, better OS; HR=1.38, 95% CI 1.03–1.85, P=0.035); also confirmed ZFP36-family mutations at ~9–10% of bladder cohort <a href="../papers/33397444.html">PMID:33397444</a></li>
+<li>Used as the external TCGA comparator cohort (412 MIBC specimens) for genomic-alteration frequencies in the SWOG S1314 trial cohort <a href="../papers/39499893.html">PMID:39499893</a>.</li>
+<li>Used as the TCGA MIBC reference cohort for MIBC consensus molecular subtype classifier calls in a comparative UTUC/bladder-cancer study <a href="../papers/39550333.html">PMID:39550333</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
@@ -227,10 +232,12 @@ ul.task-list li input[type="checkbox"] {
 <li>cBioPortal study ID: blca_tcga_pub_2017</li>
 <li>Supersedes <a href="../datasets/blca_tcga_pub.html">blca_tcga_pub</a> (131-tumor 2014 TCGA <a href="../cancer_types/BLCA.html">BLCA</a> cohort)</li>
 <li>TCGA data portal / GDC</li>
+<li><a href="../papers/31278255.html">PMID:31278255</a></li>
+<li><a href="../papers/33397444.html">PMID:33397444</a></li>
+<li><a href="../papers/39499893.html">PMID:39499893</a></li>
+<li><a href="../papers/39550333.html">PMID:39550333</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/33397444.html">PMID:33397444</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

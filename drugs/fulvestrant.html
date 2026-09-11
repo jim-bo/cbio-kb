@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -168,27 +171,28 @@ ul.task-list li input[type="checkbox"] {
 <h1>fulvestrant</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Fulvestrant is a selective estrogen receptor degrader (SERD) that binds <a href="../genes/ESR1.html">ESR1</a> and promotes its degradation, used in the treatment of hormone receptor-positive breast cancer. It lacks the partial agonist activity of tamoxifen and is employed in both first-line and endocrine-refractory settings.</p>
+<p>Fulvestrant is a selective estrogen receptor degrader (SERD) that binds <a href="../genes/ESR1.html">ESR1</a> and promotes its degradation, used in the treatment of hormone receptor-positive breast cancer. It lacks the partial agonist activity of <a href="../drugs/tamoxifen.html">tamoxifen</a> and is employed in both first-line and endocrine-refractory settings.</p>
 </section>
 <section id="evidence-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-in-the-corpus">Evidence in the corpus</h2>
 <ul>
-<li>In a rat AAV-CRISPR somatic editing model of ER+ breast cancer, Nf1Indel tumors (<a href="../cancer_types/DCIS.html">DCIS</a> histology, 12/13 cases) regressed completely with 5-week fulvestrant treatment (4/4 rats), and 3/4 treated animals remained in remission for 8 months after cessation, demonstrating strong endocrine sensitivity driven by <a href="../genes/NF1.html">NF1</a> loss alone <a href="../papers/26437033.html">PMID:26437033</a>.</li>
-<li>Combined Nf1Indel/Tp53Indel rat tumors showed only modest, transient shrinkage by week 3 (p&lt;0.05) and resumed growth by weeks 4–5 under fulvestrant, modeling endocrine-refractory disease driven by <a href="../genes/TP53.html">TP53</a> co-loss <a href="../papers/26437033.html">PMID:26437033</a>.</li>
-<li>GSEA of 486 fulvestrant-responsive rat differentially expressed genes showed significant enrichment of genes induced by neoadjuvant fulvestrant in human patients (GSE71791); 58 overlapping genes included <a href="../genes/PGR.html">PGR</a>, AREG, SGK3, STC2, and WNT5A <a href="../papers/26437033.html">PMID:26437033</a>.</li>
-<li>In 216 metastatic breast cancer patients (SAFIR01/02, SHIVA, MOSCATO trials), ESR1 mutations (found in 20/143 HR+/HER2- mBCs, 14%) were exclusively in patients who had received prior endocrine therapy including fulvestrant, and all ESR1 mutations occurred in the hormone-receptor domain mediating acquired endocrine resistance <a href="../papers/28027327.html">PMID:28027327</a></li>
-<li>One endometrial patient with a de novo ESR1 ligand-binding-domain mutation achieved an 18-month ongoing response on bevacizumab + fulvestrant after progressing on letrozole; 3/5 ESR1-mutant cases arose in apparent absence of prior endocrine therapy <a href="../papers/30068706.html">PMID:30068706</a></li>
+<li>In a rat AAV-CRISPR somatic editing model of ER+ breast cancer, Nf1Indel tumors (<a href="../cancer_types/DCIS.html">DCIS</a> histology, 12/13 cases) regressed completely with 5-week fulvestrant treatment (4/4 rats), and 3/4 treated animals remained in remission for 8 months after cessation, demonstrating strong endocrine sensitivity driven by <a href="../genes/NF1.html">NF1</a> loss alone <a href="../papers/41000773.html">PMID:41000773</a>.</li>
+<li>Combined Nf1Indel/Tp53Indel rat tumors showed only modest, transient shrinkage by week 3 (p&lt;0.05) and resumed growth by weeks 4–5 under fulvestrant, modeling endocrine-refractory disease driven by <a href="../genes/TP53.html">TP53</a> co-loss <a href="../papers/41000773.html">PMID:41000773</a>.</li>
+<li>GSEA of 486 fulvestrant-responsive rat differentially expressed genes showed significant enrichment of genes induced by neoadjuvant fulvestrant in human patients (GSE71791); 58 overlapping genes included <a href="../genes/PGR.html">PGR</a>, AREG, SGK3, STC2, and <a href="../genes/WNT5A.html">WNT5A</a> <a href="../papers/41000773.html">PMID:41000773</a>.</li>
+<li>In 216 metastatic breast cancer patients (SAFIR01/02, SHIVA, MOSCATO trials), <a href="../genes/ESR1.html">ESR1</a> mutations (found in 20/143 HR+/HER2- mBCs, 14%) were exclusively in patients who had received prior endocrine therapy including fulvestrant, and all ESR1 mutations occurred in the hormone-receptor domain mediating acquired endocrine resistance <a href="../papers/28027327.html">PMID:28027327</a></li>
+<li>One endometrial patient with a de novo ESR1 ligand-binding-domain mutation achieved an 18-month ongoing response on <a href="../drugs/bevacizumab.html">bevacizumab</a> + fulvestrant after progressing on <a href="../drugs/letrozole.html">letrozole</a>; 3/5 ESR1-mutant cases arose in apparent absence of prior endocrine therapy <a href="../papers/30068706.html">PMID:30068706</a></li>
 <li>In prospective MSK-IMPACT sequencing of 1,918 breast tumors (1,756 patients), MAPK-pathway-altered tumors had shorter PFS on fulvestrant (SERD) than on aromatase inhibitors (median 3.7 vs 4.8 mo, p=0.029); ESR1-mutant and transcription-factor-altered tumors had similar PFS to pan-wild-type on SERD, indicating fulvestrant is preferred over aromatase inhibitors for ESR1- and TF-class resistance but insufficient for MAPK-class resistance <a href="../papers/30205045.html">PMID:30205045</a>.</li>
-<li>Referenced via the FERGI trial of pictilisib + fulvestrant (Krop et al.&nbsp;Lancet Oncol 2016) in which the PR+ (luminal A) breast cancer subset benefited preferentially, supporting luminal A subtype as a predictive biomarker for PI3K inhibitor + endocrine therapy combinations <a href="../papers/31552290.html">PMID:31552290</a></li>
+<li>Referenced via the FERGI trial of <a href="../drugs/pictilisib.html">pictilisib</a> + fulvestrant (Krop et al.&nbsp;Lancet Oncol 2016) in which the PR+ (luminal A) breast cancer subset benefited preferentially, supporting luminal A subtype as a predictive biomarker for PI3K inhibitor + endocrine therapy combinations <a href="../papers/31552290.html">PMID:31552290</a></li>
 <li>In an ESR1 Y537S-mutant LG-ESS patient on long-term aromatase inhibitor therapy, switching to fulvestrant produced tumor regression, demonstrating that acquired ESR1 ligand-binding domain mutations should prompt SERD therapy in endometrial stromal sarcoma <a href="../papers/32299819.html">PMID:32299819</a></li>
 <li>Used in 55/58 (94.8%) HR+/HER2- metastatic breast cancer patients combined with a CDK4/6 inhibitor; ESR1 mutations (enriched in resistant tumors, 34.1% vs 16.7%) occurred exclusively in fulvestrant-treated patients in the sensitive subgroup <a href="../papers/32404308.html">PMID:32404308</a>.</li>
-<li>Fulvestrant (SERD) is mentioned in the context of the SOLAR-1 phase III trial, where alpelisib + fulvestrant showed pervasive resistance despite PIK3CA selection; the NCT01870505 alpelisib + AI resistance data (PTEN loss, ESR1 mutations) provides genomic context for SOLAR-1 failures <a href="../papers/32864625.html">PMID:32864625</a>.</li>
+<li>Fulvestrant (SERD) is mentioned in the context of the SOLAR-1 phase III trial, where <a href="../drugs/alpelisib.html">alpelisib</a> + fulvestrant showed pervasive resistance despite <a href="../genes/PIK3CA.html">PIK3CA</a> selection; the NCT01870505 alpelisib + AI resistance data (<a href="../genes/PTEN.html">PTEN</a> loss, ESR1 mutations) provides genomic context for SOLAR-1 failures <a href="../papers/32864625.html">PMID:32864625</a>.</li>
+<li>Fulvestrant-treated APOBEC3A-wild-type T47D cells acquired resistance significantly faster than catalytically-dead A3A-E72Q controls (P=1.44x10^-9), and APOBEC3B-wild-type MCF7 cells acquired fulvestrant resistance more often than A3B-E255Q controls (2/3 vs 0/3, P=9.13x10^-10) <a href="../papers/40379787.html">PMID:40379787</a>.</li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
 <h2 class="anchored" data-anchor-id="resistance-mechanisms">Resistance mechanisms</h2>
 <ul>
-<li>Co-disruption of <a href="../genes/TP53.html">TP53</a> with <a href="../genes/NF1.html">NF1</a> converts fulvestrant-sensitive to fulvestrant-refractory ER+ breast cancer in rat models; consistent with clinical reports that <a href="../genes/TP53.html">TP53</a> mutation associates with endocrine resistance <a href="../papers/26437033.html">PMID:26437033</a>.</li>
+<li>Co-disruption of <a href="../genes/TP53.html">TP53</a> with <a href="../genes/NF1.html">NF1</a> converts fulvestrant-sensitive to fulvestrant-refractory ER+ breast cancer in rat models; consistent with clinical reports that <a href="../genes/TP53.html">TP53</a> mutation associates with endocrine resistance <a href="../papers/41000773.html">PMID:41000773</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -200,16 +204,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/26437033.html">PMID:26437033</a> — Bu et al.&nbsp;(bioRxiv 2025). Rat somatic genome editing models of ER+ breast cancer; fulvestrant sensitivity/resistance dichotomy driven by <a href="../genes/NF1.html">NF1</a> and <a href="../genes/TP53.html">TP53</a> status.</li>
+<li><a href="../papers/41000773.html">PMID:41000773</a> — Bu et al.&nbsp;(bioRxiv 2025). Rat somatic genome editing models of ER+ breast cancer; fulvestrant sensitivity/resistance dichotomy driven by <a href="../genes/NF1.html">NF1</a> and <a href="../genes/TP53.html">TP53</a> status.</li>
+<li><a href="../papers/28027327.html">PMID:28027327</a> — Lefebvre et al.&nbsp;2016, metastatic breast cancer WES; ESR1 mutations (14% of HR+/HER2- mBC) exclusively in prior-endocrine-therapy patients, mediating acquired endocrine resistance.</li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a> — Lefebvre et al.&nbsp;2016, metastatic breast cancer WES; ESR1 mutations (14% of HR+/HER2- mBC) exclusively in prior-endocrine-therapy patients, mediating acquired endocrine resistance.</p>
-<p>*This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>. - <a href="../papers/30068706.html">PMID:30068706</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31552290.html">PMID:31552290</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32299819.html">PMID:32299819</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32404308.html">PMID:32404308</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32864625.html">PMID:32864625</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a> - <a href="../papers/30205045.html">PMID:30205045</a> - <a href="../papers/31552290.html">PMID:31552290</a> - <a href="../papers/32299819.html">PMID:32299819</a> - <a href="../papers/32404308.html">PMID:32404308</a> - <a href="../papers/32864625.html">PMID:32864625</a> - <a href="../papers/40379787.html">PMID:40379787</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,9 +181,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Effector cytotoxic component of the 20-gene ICR signature used to classify 348 primary colon cancers in the AC-ICAM cohort; no PRF1-specific mutation finding reported <a href="../papers/37202560.html">PMID:37202560</a>.</li>
 <li>PRF1 encodes perforin, a component of the cytolytic-activity signature (geometric mean of <a href="../genes/GZMA.html">GZMA</a> + PRF1); elevated expression in clinical-benefit tumors receiving <a href="../drugs/ipilimumab.html">ipilimumab</a> in metastatic melanoma (P = 0.042, Mann-Whitney) <a href="../papers/26359337.html">PMID:26359337</a></li>
 <li>Expression of PRF1 (perforin-1) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset); the checkpoint/effector gene panel including PRF1 was not differentially expressed in whole-tumor bulk transcriptome analysis, potentially due to dilution of immune-cell signal. <a href="../papers/26997480.html">PMID:26997480</a></li>
-<li>PRF1 (perforin) geometric mean with GZMA defines the cytolytic activity score; on-therapy increases in PRF1 associated with benefit in both Ipi-N (p=0.005) and Ipi-P (p=0.043) patients treated with nivolumab for melanoma <a href="../papers/29033130.html">PMID:29033130</a></li>
-<li>PRF1 (perforin-1) is among the immune effector genes (alongside GZMA, GZMK, GZMH) over-expressed in MSI-high tumors across COADREAD, STAD, and UCEC (Kolmogorov–Smirnov P &lt; 0.01), consistent with heightened immune surveillance in mismatch-repair-deficient tumors <a href="../papers/29625049.html">PMID:29625049</a></li>
+<li>PRF1 (perforin) geometric mean with <a href="../genes/GZMA.html">GZMA</a> defines the cytolytic activity score; on-therapy increases in PRF1 associated with benefit in both Ipi-N (p=0.005) and Ipi-P (p=0.043) patients treated with <a href="../drugs/nivolumab.html">nivolumab</a> for melanoma <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li>PRF1 (perforin-1) is among the immune effector genes (alongside GZMA, <a href="../genes/GZMK.html">GZMK</a>, <a href="../genes/GZMH.html">GZMH</a>) over-expressed in MSI-high tumors across <a href="../cancer_types/COADREAD.html">COADREAD</a>, <a href="../cancer_types/STAD.html">STAD</a>, and <a href="../cancer_types/UCEC.html">UCEC</a> (Kolmogorov–Smirnov P &lt; 0.01), consistent with heightened immune surveillance in mismatch-repair-deficient tumors <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li>Used (with GZMA) to define the CYT cytolytic score that correlates with the TIL NMF factor F9 (Spearman R=0.86); elevated in SMC vs.&nbsp;TCGA consistent with higher cytotoxic-T-cell infiltrate in younger Asian breast cancers <a href="../papers/29713003.html">PMID:29713003</a></li>
+<li>PRF1 (perforin) was among the Th1/cytotoxic hallmark genes upregulated in tumor under nivolumab (PD-1 blockade) <a href="../papers/27169994.html">PMID:27169994</a></li>
+<li>PRF1 is part of the CD8A/GZMA/GZMB/PRF1/IFNG/TBX21 T-effector gene signature; it did not differ significantly between upper- and lower-tract urothelial primaries treated with <a href="../drugs/atezolizumab.html">atezolizumab</a> <a href="../papers/27939400.html">PMID:27939400</a></li>
+<li>PRF1 is part of the Teff signature (<a href="../genes/CD8A.html">CD8A</a>, <a href="../genes/EOMES.html">EOMES</a>, PRF1, <a href="../genes/IFNG.html">IFNG</a>, <a href="../genes/CD274.html">CD274</a>); TeffHigh renal cell carcinoma predicted benefit from atezolizumab plus <a href="../drugs/bevacizumab.html">bevacizumab</a> <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>The CYT cytolytic score in upper tract urothelial carcinoma combines GZMA and PRF1 expression <a href="../papers/39550333.html">PMID:39550333</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -210,14 +217,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/37202560.html">PMID:37202560</a></li>
+<li><p><a href="../papers/37202560.html">PMID:37202560</a></p></li>
+<li><p><a href="../papers/26359337.html">PMID:26359337</a></p></li>
+<li><p><a href="../papers/26997480.html">PMID:26997480</a></p></li>
+<li><p><a href="../papers/29033130.html">PMID:29033130</a></p></li>
+<li><p><a href="../papers/29625049.html">PMID:29625049</a></p></li>
+<li><p><a href="../papers/29713003.html">PMID:29713003</a></p></li>
+<li><p><a href="../papers/27169994.html">PMID:27169994</a></p></li>
+<li><p><a href="../papers/27939400.html">PMID:27939400</a></p></li>
+<li><p><a href="../papers/29867230.html">PMID:29867230</a></p></li>
+<li><p><a href="../papers/39550333.html">PMID:39550333</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26359337.html">PMID:26359337</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26997480.html">PMID:26997480</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29625049.html">PMID:29625049</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/29713003.html">PMID:29713003</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

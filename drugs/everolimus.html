@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,20 +184,24 @@ ul.task-list li input[type="checkbox"] {
 <li>PI3K/AKT/mTOR pathway altered in ~28% of clear cell renal cell carcinoma (<a href="../cancer_types/CCRCC.html">CCRCC</a>) tumors in the TCGA cohort; the authors nominate this pathway as a therapeutic target citing prior trials of everolimus in advanced <a href="../cancer_types/RCC.html">RCC</a> <a href="../papers/23792563.html">PMID:23792563</a>.</li>
 <li><a href="../genes/MEN1.html">MEN1</a> loss-of-function and/or high <a href="../genes/RICTOR.html">RICTOR</a> expression guided everolimus selection in metastatic PanNEN/PulNEN patients (PN6, PN17, PN21, PN23, PN26) in the POG NEN WGTA cohort <a href="../papers/40328872.html">PMID:40328872</a></li>
 <li>Six of 10 ccRCC tumors in the TRACERx multi-region sequencing study received short-course preoperative everolimus (or <a href="../drugs/sunitinib.html">sunitinib</a>); authors argue these cytostatic exposures did not collapse subclonal diversity, though a treatment-naive baseline is absent <a href="../papers/24487277.html">PMID:24487277</a></li>
-<li>mTOR signaling is disrupted in 40–50% of HCCs; everolimus failed in unselected second-line <a href="../cancer_types/HCC.html">HCC</a> trials but the review proposes mTOR-pathway dysregulation as a biomarker to enrich future trials <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>Phase III second-line trial in <a href="../cancer_types/HCC.html">HCC</a> (post-sorafenib) failed to demonstrate <a href="../cancer_types/OS.html">OS</a> benefit; cited as a negative result for mTOR inhibition in <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>mTOR signaling is disrupted in 40–50% of HCCs; everolimus failed in unselected second-line <a href="../cancer_types/HCC.html">HCC</a> trials but the review proposes mTOR-pathway dysregulation as a biomarker to enrich future trials <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>Phase III second-line trial in <a href="../cancer_types/HCC.html">HCC</a> (post-sorafenib) failed to demonstrate OS benefit; cited as a negative result for mTOR inhibition in <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/30061739.html">PMID:30061739</a></li>
 <li>AR-amplified MSK-PCa2 CRPC organoid (<a href="../genes/PTEN.html">PTEN</a> loss + <a href="../genes/PIK3R1.html">PIK3R1</a> mutation) was sensitive to everolimus in vitro and in CB17 SCID xenografts (tumor growth slowed without shrinkage); combination everolimus + <a href="../drugs/enzalutamide.html">enzalutamide</a> significantly enhanced response over <a href="../drugs/enzalutamide.html">enzalutamide</a> alone in MSK-PCa2 xenografts <a href="../papers/25201530.html">PMID:25201530</a></li>
 <li>TSC1/TSC2 mutations occur in 6.3% of HR+/HER2- metastatic breast cancer vs 0.7% of primary breast cancer (p=0.0004), enriched in endocrine-therapy-pre-treated patients; authors hypothesize TSC1/2-mutant tumors may be outlier responders to everolimus, which is approved for HR+/HER2- mBC <a href="../papers/28027327.html">PMID:28027327</a></li>
 <li>1 MTOR-L2383F UMD patient received 1-month no-benefit course of everolimus in 860-patient MSK-IMPACT <a href="../cancer_types/LUAD.html">LUAD</a> cohort; TSC1/TSC2 truncating mutations (level 2B) identified in 6 patients, none received matched mTOR-inhibitor therapy due to off-label barriers <a href="../papers/28336552.html">PMID:28336552</a>.</li>
-<li>Proposed as potentially actionable agent for <a href="../genes/PTEN.html">PTEN</a> loss (10q deletion) identified in <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient <a href="../papers/28199314.html">PMID:28199314</a>.</li>
+<li>Proposed as potentially actionable agent for <a href="../genes/PTEN.html">PTEN</a> loss (10q deletion) identified in <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient <a href="../papers/41102727.html">PMID:41102727</a>.</li>
 <li>Authors note prior efficacy of everolimus in leiomyosarcoma but flag the limitation of compensatory AKT activation; recommend evaluating dual PI3K/MTOR inhibitors given pervasive PTEN/AKT3/MTOR/IGF1R/RICTOR pathway alterations in 84% of <a href="../cancer_types/ULMS.html">ULMS</a>+STLMS C1 <a href="../papers/29100075.html">PMID:29100075</a></li>
 <li>Cited as prior VEGF-targeted therapy in the ccRCC cohorts; PBRM1-LOF benefit from anti-PD-(L)1 was more pronounced in previously VEGF-inhibitor-treated patients, suggesting a treatment-sequencing interaction relevant to mTOR-pathway agents <a href="../papers/29301960.html">PMID:29301960</a></li>
-<li>In MSKCC prospective NGS of 127 advanced <a href="../cancer_types/HCC.html">HCC</a> patients, 4/10 patients with <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> inactivating alterations received everolimus off-label or on-trial after progressing on <a href="../drugs/sorafenib.html">sorafenib</a>; all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset <a href="../papers/30373752.html">PMID:30373752</a>.</li>
+<li>In MSKCC prospective NGS of 127 advanced <a href="../cancer_types/HCC.html">HCC</a> patients, 4/10 patients with <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> inactivating alterations received everolimus off-label or on-trial after progressing on <a href="../drugs/sorafenib.html">sorafenib</a>; all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected <a href="../cancer_types/HCC.html">HCC</a> subset <a href="../papers/30373752.html">PMID:30373752</a>.</li>
 <li>In 80 metastatic panNET patients, mTOR-pathway mutation status (43% of patients with <a href="../genes/TSC2.html">TSC2</a>, <a href="../genes/PTEN.html">PTEN</a>, or <a href="../genes/RHEB.html">RHEB</a> alterations) did not predict everolimus benefit — response rates were 17% vs 29% in mTOR-altered vs wild-type patients; serial biopsies identified acquired resistance mutations including <a href="../genes/PTEN.html">PTEN</a> Q298*, <a href="../genes/RHEB.html">RHEB</a> Y35S, <a href="../genes/TSC2.html">TSC2</a> splice, and <a href="../genes/AKT2.html">AKT2</a> G16D <a href="../papers/30687805.html">PMID:30687805</a></li>
 <li>In the FUTURE umbrella trial, everolimus combined with <a href="../drugs/nab-paclitaxel.html">nab-paclitaxel</a> in arm G (MES-subtype TNBC with PI3K-AKT pathway mutation) achieved ORR 50% (1/2 evaluable); very small arm, results preliminary <a href="../papers/32719455.html">PMID:32719455</a>.</li>
 <li><a href="../genes/PIK3CA.html">PIK3CA</a> hotspot mutation enrichment in non-chondroid <a href="../cancer_types/MBC.html">metaplastic breast cancers (MBC)</a> supports prior phase 1 data showing higher response rates to mTOR inhibition (everolimus or <a href="../drugs/temsirolimus.html">temsirolimus</a>) combined with liposomal <a href="../drugs/doxorubicin.html">doxorubicin</a> and <a href="../drugs/bevacizumab.html">bevacizumab</a> in PI3K-pathway-altered advanced triple-negative <a href="../cancer_types/MBC.html">MBC</a> <a href="../papers/33863915.html">PMID:33863915</a>.</li>
 <li>Everolimus (mTOR inhibitor) was used in AcSé-ESMART platform arms E/F in MAPPYACTS to target PIK3CA/PIK3R1 alterations (n=23) and <a href="../genes/PTEN.html">PTEN</a> losses (n=25) in pediatric recurrent malignancies; mTOR inhibitors received 123 recommendations across the cohort <a href="../papers/35292802.html">PMID:35292802</a></li>
 <li>mTOR inhibitor; <a href="../genes/TSC2.html">TSC2</a> loss-of-function in 4.9% of <a href="../cancer_types/LIHC.html">LIHC</a> in Chinese pan-cancer cohort (n=10,194) provides Level 4 rationale for everolimus <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>OS with <a href="../drugs/nivolumab.html">nivolumab</a> (16.4-25.2 months) in previously treated <a href="../cancer_types/RCC.html">RCC</a> patients is compared to the phase III nivolumab-vs-everolimus trial result (25.0 vs 19.6 months, HR 0.73, P=0.002) <a href="../papers/27169994.html">PMID:27169994</a>.</li>
+<li>Nominated (with sirolimus/temsirolimus) as a matched mTOR inhibitor for the 3.1% (4/131) of solitary fibrous tumors carrying mTOR-pathway alterations (<a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/NF2.html">NF2</a>, <a href="../genes/NF1.html">NF1</a>) <a href="../papers/37980418.html">PMID:37980418</a>.</li>
+<li>One endometrial cancer patient and one cervical cancer patient with <a href="../genes/ERBB2.html">ERBB2</a> S310Y had partial responses to <a href="../drugs/paclitaxel.html">paclitaxel</a> + <a href="../drugs/trastuzumab.html">trastuzumab</a> + everolimus <a href="../papers/39031567.html">PMID:39031567</a>.</li>
+<li>In ex vivo drug-sensitivity screening of MYOD1L122R-mutant <a href="../cancer_types/SCSRMS.html">SCSRMS</a> PDX-derived cells, everolimus (mTOR inhibitor) showed IC50 4.4-9.6 uM across two PDX lines, weaker than AZD8055 or the dual PI3K/mTOR inhibitor <a href="../drugs/samotolisib.html">samotolisib</a> <a href="../papers/41758938.html">PMID:41758938</a>.</li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -219,22 +226,28 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/36585450.html">PMID:36585450</a> — Fougner et al.&nbsp;2023, AURORA US; <a href="../genes/PIK3CA.html">PIK3CA</a> mutations across primary/metastatic paired breast cancer specimens relevant to mTOR pathway targeting.</li>
 <li><a href="../papers/21252315.html">PMID:21252315</a></li>
 <li><a href="../papers/23792563.html">PMID:23792563</a> — TCGA <a href="../cancer_types/CCRCC.html">CCRCC</a> comprehensive molecular characterization; PI3K/AKT/mTOR pathway altered in ~28% of tumors, nominating everolimus as a therapeutic strategy in advanced <a href="../cancer_types/RCC.html">RCC</a>.</li>
+<li><a href="../papers/40328872.html">PMID:40328872</a></li>
+<li><a href="../papers/24487277.html">PMID:24487277</a></li>
+<li><a href="../papers/25369299.html">PMID:25369299</a></li>
+<li><a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><a href="../papers/25201530.html">PMID:25201530</a></li>
+<li><a href="../papers/28027327.html">PMID:28027327</a> — Lefebvre et al.&nbsp;2016, metastatic breast cancer WES; TSC1/2 mutations in 6.3% of HR+/HER2- mBC hypothesized as biomarker for everolimus outlier response.</li>
+<li><a href="../papers/28336552.html">PMID:28336552</a></li>
+<li><a href="../papers/41102727.html">PMID:41102727</a></li>
+<li><a href="../papers/29100075.html">PMID:29100075</a></li>
+<li><a href="../papers/29301960.html">PMID:29301960</a></li>
+<li><a href="../papers/30373752.html">PMID:30373752</a></li>
+<li><a href="../papers/30687805.html">PMID:30687805</a> — Raj et al.&nbsp;2018, MSK panNET cohort (n=80); mTOR-pathway mutation status did not predict everolimus benefit; serial biopsies identified acquired resistance mutations (<a href="../genes/PTEN.html">PTEN</a> Q298*, <a href="../genes/RHEB.html">RHEB</a> Y35S, <a href="../genes/TSC2.html">TSC2</a> splice, <a href="../genes/AKT2.html">AKT2</a> G16D).</li>
+<li><a href="../papers/32719455.html">PMID:32719455</a></li>
+<li><a href="../papers/33863915.html">PMID:33863915</a> — da Silva et al.&nbsp;2021, MSKCC metaplastic breast cancer (N=60); <a href="../genes/PIK3CA.html">PIK3CA</a> enrichment in non-chondroid <a href="../cancer_types/MBC.html">MBC</a> supports mTOR inhibition (everolimus or <a href="../drugs/temsirolimus.html">temsirolimus</a>) + liposomal <a href="../drugs/doxorubicin.html">doxorubicin</a> + <a href="../drugs/bevacizumab.html">bevacizumab</a> in PI3K-pathway-altered triple-negative <a href="../cancer_types/MBC.html">MBC</a>.</li>
+<li><a href="../papers/35292802.html">PMID:35292802</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
+<li><a href="../papers/27169994.html">PMID:27169994</a></li>
+<li><a href="../papers/37980418.html">PMID:37980418</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
+<li><a href="../papers/41758938.html">PMID:41758938</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/40328872.html">PMID:40328872</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24487277.html">PMID:24487277</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24735922.html">PMID:24735922</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25201530.html">PMID:25201530</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a> — Lefebvre et al.&nbsp;2016, metastatic breast cancer WES; TSC1/2 mutations in 6.3% of HR+/HER2- mBC hypothesized as biomarker for everolimus outlier response.</p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28199314.html">PMID:28199314</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29100075.html">PMID:29100075</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30373752.html">PMID:30373752</a> - <a href="../papers/30687805.html">PMID:30687805</a> — Raj et al.&nbsp;2018, MSK panNET cohort (n=80); mTOR-pathway mutation status did not predict everolimus benefit; serial biopsies identified acquired resistance mutations (<a href="../genes/PTEN.html">PTEN</a> Q298*, <a href="../genes/RHEB.html">RHEB</a> Y35S, <a href="../genes/TSC2.html">TSC2</a> splice, <a href="../genes/AKT2.html">AKT2</a> G16D).</p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32719455.html">PMID:32719455</a> - <a href="../papers/33863915.html">PMID:33863915</a> — da Silva et al.&nbsp;2021, MSKCC metaplastic breast cancer (N=60); <a href="../genes/PIK3CA.html">PIK3CA</a> enrichment in non-chondroid <a href="../cancer_types/MBC.html">MBC</a> supports mTOR inhibition (everolimus or <a href="../drugs/temsirolimus.html">temsirolimus</a>) + liposomal <a href="../drugs/doxorubicin.html">doxorubicin</a> + <a href="../drugs/bevacizumab.html">bevacizumab</a> in PI3K-pathway-altered triple-negative <a href="../cancer_types/MBC.html">MBC</a>.</p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

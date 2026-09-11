@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -167,30 +170,30 @@ ul.task-list li input[type="checkbox"] {
 <h1>XGBoost</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>XGBoost (eXtreme Gradient Boosting) is a gradient-boosted decision tree machine learning framework known for high performance on structured data. It is widely used for classification and regression tasks in cancer genomics <a href="../papers/27634761.html">PMID:27634761</a>.</p>
+<p>XGBoost (eXtreme Gradient Boosting) is a gradient-boosted decision tree machine learning framework known for high performance on structured data. It is widely used for classification and regression tasks in cancer genomics <a href="../papers/38480799.html">PMID:38480799</a>.</p>
 </section>
 <section id="used-by" class="level2">
 <h2 class="anchored" data-anchor-id="used-by">Used by</h2>
 <ul>
-<li><a href="../papers/27634761.html">PMID:27634761</a> — XGBoost was used as the core machine learning framework for the ATLAS (AI Tumor Lineage and Site) classifier; trained on 8,249 RNA-seq samples from TCGA and CCLE to classify 22 cancer sites of origin and 8 cancer lineages; achieved 91.4% site-of-origin accuracy and 97.1% lineage accuracy on a validation set of 10,376 samples; high-confidence predictions (score &gt;= 0.99) achieved 98–99% accuracy <a href="../papers/27634761.html">PMID:27634761</a>.</li>
-<li>Gradient boosting (XGBoost-class) model trained to predict ICI response (ROC-AUC=0.77 training, 0.78 JAVELIN validation) and TKI response (ROC-AUC=0.74 validation, n=822) in ccRCC, outperforming all published single-biomarker signatures <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>Evaluated as a baseline comparator in the OncoMark cancer hallmark-activity study; like other standard classifiers (logistic regression, SVC, random forest, MLP), XGBoost collapsed to near-zero hallmark probabilities on bulk cancer samples — failing the discrimination task that OncoMark’s multi-task neural network solved <a href="../papers/35121966.html">PMID:35121966</a></li>
+<li><a href="../papers/38480799.html">PMID:38480799</a> — XGBoost was used as the core machine learning framework for the ATLAS (AI Tumor Lineage and Site) classifier; trained on 8,249 RNA-seq samples from TCGA and CCLE to classify 22 cancer sites of origin and 8 cancer lineages; achieved 91.4% site-of-origin accuracy and 97.1% lineage accuracy on a validation set of 10,376 samples; high-confidence predictions (score &gt;= 0.99) achieved 98–99% accuracy <a href="../papers/38480799.html">PMID:38480799</a>.</li>
+<li>Gradient boosting (XGBoost-class) model trained to predict ICI response (ROC-AUC=0.77 training, 0.78 JAVELIN validation) and TKI response (ROC-AUC=0.74 validation, n=822) in ccRCC, outperforming all published single-biomarker signatures <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>Evaluated as a baseline comparator in the OncoMark cancer hallmark-activity study; like other standard classifiers (logistic regression, SVC, random forest, MLP), XGBoost collapsed to near-zero hallmark probabilities on bulk cancer samples — failing the discrimination task that OncoMark’s multi-task neural network solved <a href="../papers/41057477.html">PMID:41057477</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
 <ul>
-<li>XGBoost outperformed random forests and SVMs in the ATLAS cancer classifier benchmark; RNA expression alone sufficed without requiring DNA mutation or copy number features <a href="../papers/27634761.html">PMID:27634761</a>.</li>
+<li>XGBoost outperformed random forests and SVMs in the ATLAS cancer classifier benchmark; RNA expression alone sufficed without requiring DNA mutation or copy number features <a href="../papers/38480799.html">PMID:38480799</a>.</li>
 <li>Corpus-grown slug; not present in canonical ontology.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/27634761.html">PMID:27634761</a></li>
+<li><a href="../papers/38480799.html">PMID:38480799</a></li>
+<li><a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../papers/41057477.html">PMID:41057477</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-04-11</strong>.</em> - <a href="../papers/22138691.html">PMID:22138691</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-06</strong>.</em> - <a href="../papers/35121966.html">PMID:35121966</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
 
 

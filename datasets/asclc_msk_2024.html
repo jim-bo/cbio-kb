@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Cancer types:</strong> <a href="../cancer_types/SCLC.html">SCLC</a> (primary); comparators include <a href="../cancer_types/LNET.html">LNET</a> (n=157 pulmonary carcinoids) and <a href="../cancer_types/LUAD.html">LUAD</a>-to-SCLC transformation.</li>
 <li><strong>Sample count:</strong> 20 patients; 49 pathologic specimens (1–7 per patient).</li>
 <li><strong>Sequencing breakdown:</strong> 31 specimens by <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted NGS (341/468/505-gene versions); 12 by WGS (11 patients, ~100× tumor / ~80× normal on NovaSeq 6000); 7 by RNA-seq.</li>
-<li><strong>Key clinical fields:</strong> never/light smoker status (≤10 pack-years), Ki67 proliferation index, histotype (<a href="../cancer_types/SCLC.html">SCLC</a> vs carcinoid), clinical outcomes (<a href="../cancer_types/OS.html">OS</a>, treatment response).</li>
+<li><strong>Key clinical fields:</strong> never/light smoker status (≤10 pack-years), Ki67 proliferation index, histotype (<a href="../cancer_types/SCLC.html">SCLC</a> vs carcinoid), clinical outcomes (OS, treatment response).</li>
 <li><strong>Copy-number analysis:</strong> <a href="../methods/facets.html">FACETS</a>; chromothripsis detection by <a href="../methods/shatterseek.html">ShatterSeek</a> and manual tNGS oscillating-CNA review; MSI by <a href="../methods/msisensor.html">MSIsensor</a> and <a href="../methods/mimsi.html">MiMSI</a>; clonal timing by MutationTimeR.</li>
 </ul>
 </section>
@@ -200,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="notable-findings-derived-from-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="notable-findings-derived-from-this-cohort">Notable findings derived from this cohort</h2>
 <ul>
-<li>aSCLC constitutes 3% (20/600) of de novo SCLC at MSKCC, occurring exclusively in never/light smokers (mean age 53 years vs 67 for conventional SCLC, P &lt; 0.0001); median <a href="../cancer_types/OS.html">OS</a> 58 months — intermediate between smoking-associated SCLC (16 months) and atypical carcinoids (184 months). <a href="../papers/39185963.html">PMID:39185963</a></li>
+<li>aSCLC constitutes 3% (20/600) of de novo SCLC at MSKCC, occurring exclusively in never/light smokers (mean age 53 years vs 67 for conventional SCLC, P &lt; 0.0001); median OS 58 months — intermediate between smoking-associated SCLC (16 months) and atypical carcinoids (184 months). <a href="../papers/39185963.html">PMID:39185963</a></li>
 <li>84% (16/19) of non-MSI aSCLC harbor extensive chromothripsis on chromosomes 11, 12, and 1, producing ecDNA amplifications of <a href="../genes/CCND1.html">CCND1</a> (30%), <a href="../genes/CCND2.html">CCND2</a>/<a href="../genes/CDK4.html">CDK4</a>/<a href="../genes/MDM2.html">MDM2</a> (15%), and <a href="../genes/MYCL.html">MYCL</a> (10%); average 565 structural variants per case (range up to &gt;1,900). <a href="../papers/39185963.html">PMID:39185963</a></li>
 <li>tNGS-based chromothripsis detection from FACETS oscillating CNA patterns achieves 100% specificity and 77% sensitivity vs WGS gold standard (minimum 5 consecutive oscillating segments, CCF ≥50%). <a href="../papers/39185963.html">PMID:39185963</a></li>
 <li>Carcinoid-like mutation spectrum: <a href="../genes/ATM.html">ATM</a> 30%, <a href="../genes/ARID1A.html">ARID1A</a> 25%, <a href="../genes/MEN1.html">MEN1</a> 15%, <a href="../genes/EIF1AX.html">EIF1AX</a> 10%; <a href="../genes/ATM.html">ATM</a> rate enriched vs carcinoids (8%, P = 0.008) and conventional SCLC (3%, P = 0.0003). <a href="../papers/39185963.html">PMID:39185963</a></li>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -216,13 +219,17 @@ ul.task-list li input[type="checkbox"] {
 <li>FGFR3 activating missense mutations in 11/37 (29.7%) <a href="../cancer_types/UTUC.html">UTUC</a> tumors, significantly higher than 13.7% in TCGA UCB (P=0.04); outlier-overexpressed in 14/32 <a href="../cancer_types/UTUC.html">UTUC</a> tumors; proposed as a cell-intrinsic driver of T-cell-depleted phenotype via suppression of <a href="../genes/IFNG.html">IFNG</a> response genes; recurrent FGFR3–<a href="../genes/TACC3.html">TACC3</a> and FGFR3–<a href="../genes/BAIAP2L1.html">BAIAP2L1</a> fusions present <a href="../papers/31278255.html">PMID:31278255</a></li>
 <li>FGFR3 amplification in 1 <a href="../cancer_types/GBM.html">GBM</a> PDX; canonical FGFR3-TACC3 fusion in three PDX lines (GBM14, GBM148, GBM232); two novel fusions FGFR3-TRIM54 and FGFR3-CALCOCO1 also identified — all flagged as potentially targetable with FGFR inhibitors <a href="../papers/31852831.html">PMID:31852831</a></li>
 <li>FGFR3 is among the genes frequently copy-number altered in endometrial cancer, consistent with TCGA findings <a href="../papers/32059776.html">PMID:32059776</a></li>
-<li>Activating hotspots (incl.&nbsp;R248C, S249C) in 47–48% of <a href="../cancer_types/UTUC.html">UTUC</a>, restricted to luminal-subtype tumors; favorable prognostic marker; R248C enriched in Lynch-syndrome UTUC and in 3/4 MSI-H PDX pairs <a href="../papers/32332851.html">PMID:32332851</a></li>
+<li>Activating hotspots (incl.&nbsp;R248C, S249C) in 47–48% of <a href="../cancer_types/UTUC.html">UTUC</a>, restricted to luminal-subtype tumors; favorable prognostic marker; R248C enriched in Lynch-syndrome <a href="../cancer_types/UTUC.html">UTUC</a> and in 3/4 MSI-H PDX pairs <a href="../papers/32332851.html">PMID:32332851</a></li>
 <li>FGFR3 mutations in 50% (15/30) of UTUC WES cases; defining driver of EpiC-low (hypomethylated, immune-cold) subtype; mutually exclusive with 8q22.3 gain; FGFR3-mutant UTUC has globally hypomethylated genome (97.8% of differential probes hypomethylated); one FGFR3-TACC3 fusion detected; associates with better OS/PFS <a href="../papers/33397444.html">PMID:33397444</a></li>
 <li>Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed predominantly as a co-alteration with primary MAPK pathway drivers <a href="../papers/33509808.html">PMID:33509808</a></li>
 <li>FGFR3 point mutations conferring resistance to FGFR inhibitors detected in bladder cancers with FGFR3-TACC3 fusions; FGFR3 also recurrently altered in bladder cancer in the MSK-ACCESS liquid biopsy study <a href="../papers/34145282.html">PMID:34145282</a></li>
 <li>Mutations more frequent in bladder urothelial lung metastases (11% primary vs 39% lung met, q=0.005), identifying FGFR3-mutant urothelial tumors as having enhanced lung-tropic dissemination potential <a href="../papers/35120664.html">PMID:35120664</a></li>
 <li>FGFR3 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). <a href="../papers/35292802.html">PMID:35292802</a></li>
-<li>Pan-cancer fusion driver across 10,194 Asian solid-tumor patients; FGFR3 fusions grouped with FGFR2 (~50 total events); multiple novel partner genes catalogued by the OrigiMed panel <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Pan-cancer fusion driver across 10,194 Asian solid-tumor patients; FGFR3 fusions grouped with <a href="../genes/FGFR2.html">FGFR2</a> (~50 total events); multiple novel partner genes catalogued by the OrigiMed panel <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>An FGFR3 mutation was found as a rare co-driver in a non-lung MET-amplified tumor in a pan-cancer <a href="../genes/MET.html">MET</a> amplification cohort. <a href="../papers/36044468.html">PMID:36044468</a></li>
+<li>FGFR3 was the most frequently altered gene in an upper tract urothelial carcinoma cohort (48.5% MSK100), with oncogenic alterations in 93% of the C3 RNA cluster and association with better cancer-specific survival (p&lt;0.05) but not OS. <a href="../papers/39550333.html">PMID:39550333</a></li>
+<li>In bladder cancer, FGFR3 fusions (but not hotspot mutations) are linked to early age of onset. <a href="../papers/41895280.html">PMID:41895280</a></li>
+<li>FGFR3 is counted among selected level 3B actionable genes in a biliary tract cancer genomic cohort. <a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -245,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>Primary actionable biomarker for <a href="../drugs/erdafitinib.html">erdafitinib</a>; real-world ORR 40% (12/30) but median PFS 2.8 mo and <a href="../cancer_types/OS.html">OS</a> 6.6 mo in 32 metastatic UC patients <a href="../papers/37682528.html">PMID:37682528</a>.</li>
+<li>Primary actionable biomarker for <a href="../drugs/erdafitinib.html">erdafitinib</a>; real-world ORR 40% (12/30) but median PFS 2.8 mo and OS 6.6 mo in 32 metastatic UC patients <a href="../papers/37682528.html">PMID:37682528</a>.</li>
 <li>Acquired second-site FGFR3 V553M/N540S kinase-domain mutations are putative resistance drivers detectable in cfDNA <a href="../papers/37682528.html">PMID:37682528</a>.</li>
 <li>Archival primary-tumor FGFR3 status misclassifies metastatic disease in ~26% of patients, arguing for metastatic-site or cfDNA profiling before <a href="../drugs/erdafitinib.html">erdafitinib</a> selection <a href="../papers/37682528.html">PMID:37682528</a>.</li>
 <li>FGFR3 status did not alter PFS/OS on immune checkpoint blockade (p=0.47/0.52) <a href="../papers/37682528.html">PMID:37682528</a>.</li>
@@ -305,8 +312,12 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/35120664.html">PMID:35120664</a></p></li>
 <li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/36044468.html">PMID:36044468</a></p></li>
+<li><p><a href="../papers/39550333.html">PMID:39550333</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
+<li><p><a href="../papers/42360806.html">PMID:42360806</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

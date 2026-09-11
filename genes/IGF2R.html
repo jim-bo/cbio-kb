@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,31 +173,32 @@ ul.task-list li input[type="checkbox"] {
 <h1>IGF2R</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>IGF2R (Insulin-like Growth Factor 2 Receptor; also mannose-6-phosphate receptor, M6PR) functions as a decoy receptor that sequesters IGF2 and targets it for lysosomal degradation, acting as a negative regulator of IGF signaling. In hepatocellular carcinoma (HCC), allelic loss of IGF2R is observed in ~25% of cases, contributing to elevated IGF2 bioavailability and IGF axis activation.</p>
+<p>IGF2R (Insulin-like Growth Factor 2 Receptor; also mannose-6-phosphate receptor, M6PR) functions as a decoy receptor that sequesters <a href="../genes/IGF2.html">IGF2</a> and targets it for lysosomal degradation, acting as a negative regulator of IGF signaling. In hepatocellular carcinoma (<a href="../cancer_types/HCC.html">HCC</a>), allelic loss of IGF2R is observed in ~25% of cases, contributing to elevated IGF2 bioavailability and IGF axis activation.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>~25% allelic loss of IGF2R in HCC; part of the IGF axis (with ~10% IGF2 overexpression and ~21% IGF1R activation) implicated as a therapeutic target in HCC <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>IGF2R is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), as part of the broader mutational characterization of the IGF signaling axis. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>~25% allelic loss of IGF2R in HCC; part of the IGF axis (with ~10% IGF2 overexpression and ~21% <a href="../genes/IGF1R.html">IGF1R</a> activation) implicated as a therapeutic target in HCC <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>IGF2R is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), as part of the broader mutational characterization of the IGF signaling axis. <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li>Nonsignaling decoy receptor most abundant in transition/differentiated rhabdomyosarcoma cells, proposed to buffer IGF2 availability and modulate paracrine signal strength. <a href="../papers/41758938.html">PMID:41758938</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><a href="../cancer_types/HCC.html">HCC</a> — allelic loss in ~25% of HCC, contributing to IGF axis hyperactivation <a href="../papers/24735922.html">PMID:24735922</a></li>
+<li><a href="../cancer_types/HCC.html">HCC</a> — allelic loss in ~25% of HCC, contributing to IGF axis hyperactivation <a href="../papers/25369299.html">PMID:25369299</a></li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>Co-occurs with IGF2 overexpression (~10%) and IGF1R activation (~21%) as components of a deregulated IGF axis in HCC <a href="../papers/24735922.html">PMID:24735922</a></li>
+<li>Co-occurs with IGF2 overexpression (~10%) and IGF1R activation (~21%) as components of a deregulated IGF axis in HCC <a href="../papers/25369299.html">PMID:25369299</a></li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>IGF axis targeting (via IGF1R inhibitors) is a therapeutic strategy in HCC; IGF2R allelic loss contributes to the mechanistic rationale <a href="../papers/24735922.html">PMID:24735922</a></li>
+<li>IGF axis targeting (via IGF1R inhibitors) is a therapeutic strategy in HCC; IGF2R allelic loss contributes to the mechanistic rationale <a href="../papers/25369299.html">PMID:25369299</a></li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
@@ -203,10 +207,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/24735922.html">PMID:24735922</a></li>
+<li><p><a href="../papers/25369299.html">PMID:25369299</a></p></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
+<li><p><a href="../papers/41758938.html">PMID:41758938</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-11</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

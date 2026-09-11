@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -246,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>MSI:</strong> A single tumor (0.5%) was MSI-H (<a href="../methods/msisensor.html">MSIsensor</a> score 35.1) with 48 somatic mutations and loss of <a href="../genes/MLH1.html">MLH1</a> and <a href="../genes/MSH6.html">MSH6</a> protein on <a href="../methods/immunohistochemistry.html">IHC</a>. Patient had a history of choledochal cyst; no Lynch-suggestive family history; did not receive immunotherapy.</li>
 <li><strong>Primary vs metastatic:</strong> No genetic alterations significantly differed in frequency between 141 primary and 54 metastatic samples.</li>
 <li><strong>Chemo PFS associations (158 first-line chemo patients):</strong> Shorter time to progression for <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> alterations (n=15, p=0.002), <a href="../genes/ERBB2.html">ERBB2</a> (n=8, p=0.028), and <a href="../genes/MDM2.html">MDM2</a> (n=7, p=0.026). No significant PFS difference for <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/ARID1A.html">ARID1A</a>, or <a href="../genes/TP53.html">TP53</a>.</li>
-<li><strong>Overall survival (178 stage IV patients):</strong> Shorter <a href="../cancer_types/OS.html">OS</a> for <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> (n=18, p=0.0015), <a href="../genes/ERBB2.html">ERBB2</a> (n=9, p=0.0015), and <a href="../genes/KRAS.html">KRAS</a> (n=21, p=0.026).</li>
+<li><strong>Overall survival (178 stage IV patients):</strong> Shorter OS for <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> (n=18, p=0.0015), <a href="../genes/ERBB2.html">ERBB2</a> (n=9, p=0.0015), and <a href="../genes/KRAS.html">KRAS</a> (n=21, p=0.026).</li>
 <li><strong>Actionability:</strong> 93/195 patients (47.6%) had at least one alteration classified as <a href="../methods/oncokb-annotation.html">OncoKB</a> level 3B or higher. No patients had a level 1 or 2A alteration (no standard-of-care targeted agents exist for cholangiocarcinoma). Sixteen patients (8%) had a level 2B alteration (<a href="../genes/ERBB2.html">ERBB2</a> amplification ×6; <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> likely pathogenic ×3; <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a> ×2; <a href="../genes/BRAF.html">BRAF</a> V600E ×1; <a href="../genes/MET.html">MET</a> amplification ×1). 77 patients (39%) had a level 3 alteration as their highest, predominantly <a href="../genes/IDH1.html">IDH1</a> mutations (43 patients) and <a href="../genes/FGFR2.html">FGFR2</a> fusions (17 patients), with additional <a href="../genes/PIK3CA.html">PIK3CA</a> (n=6), <a href="../genes/NRAS.html">NRAS</a> (n=4), and <a href="../genes/ERBB2.html">ERBB2</a> hotspot mutations (n=2).</li>
 </ul>
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -233,8 +236,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>N=180 men</strong> with advanced germ cell tumor receiving first-line cisplatin-based chemotherapy at Memorial Sloan Kettering Cancer Center.</li>
 <li><strong>Discovery cohort:</strong> 19 tumors profiled by whole-exome sequencing (10 <a href="../drugs/cisplatin.html">cisplatin</a> resistant, 9 cisplatin sensitive); mean coverage 116× (range 93–134×); 90% of target bases covered at &gt;30×.</li>
 <li><strong>Validation cohort:</strong> 161 prospective patients profiled by <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> and the <a href="../methods/msk-impact-panel.html">msk-impact-panel</a> (<a href="../methods/IMPACT410.html">IMPACT410</a>)-based targeted exon-capture assay (&gt;300 cancer-related genes; 500–1,000× depth).</li>
-<li><strong>Cancer types:</strong> <a href="../cancer_types/GCT.html">GCT</a> — 70% <a href="../cancer_types/NSGCT.html">NSGCT</a> (n=126), 30% <a href="../cancer_types/SEM.html">SEM</a> (n=54). Primary site: 87.2% testis (<a href="../cancer_types/TT.html">TT</a>), 12.2% mediastinum, 0.6% retroperitoneum. 49 resistant samples were <a href="../cancer_types/MGCT.html">MGCT</a> containing teratoma.</li>
-<li><strong>Cisplatin sensitivity:</strong> 76 sensitive vs 104 resistant. Resistance defined by incomplete response to first-line therapy, nonteratomatous progression, or viable nonteratomatous <a href="../cancer_types/GCT.html">GCT</a> at postchemotherapy surgery.</li>
+<li><strong>Cancer types:</strong> <a href="../cancer_types/germ-cell-tumor.html">germ cell tumor</a> — 70% <a href="../cancer_types/NSGCT.html">NSGCT</a> (n=126), 30% <a href="../cancer_types/SEM.html">SEM</a> (n=54). Primary site: 87.2% testis, 12.2% mediastinum, 0.6% retroperitoneum. 49 resistant samples were <a href="../cancer_types/MGCT.html">MGCT</a> containing <a href="../cancer_types/TT.html">teratoma</a>.</li>
+<li><strong>Cisplatin sensitivity:</strong> 76 sensitive vs 104 resistant. Resistance defined by incomplete response to first-line therapy, nonteratomatous progression, or viable nonteratomatous germ cell tumor at postchemotherapy surgery.</li>
 <li><strong>IGCCCG risk distribution (combined cohort):</strong> good 51.1%, intermediate 15.6%, poor 32.8%. Poor-risk patients were heavily enriched among resistant cases (49% vs 10.5%).</li>
 <li><strong>Dataset:</strong> <a href="../datasets/gct_msk_2016.html">gct_msk_2016</a> — all mutational and clinical data publicly available on cBioPortal.</li>
 <li><strong>First-line regimens:</strong> BEP (<a href="../drugs/bleomycin.html">bleomycin</a>+<a href="../drugs/etoposide.html">etoposide</a>+<a href="../drugs/cisplatin.html">cisplatin</a>) 37.2%, EP 42.2%, TIP/VIP 20%, PVB 0.6%.</li>
@@ -309,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
 <li>“5% incidence of RAC1 mutations in this cohort makes GCT the cancer type with the highest prevalence of RAC1 mutations reported to date.” (Discussion)</li>
 <li>“All mutational and clinical data are available on the cBio Cancer Genomics Portal.” (Results — corresponds to study <code>gct_msk_2016</code>)</li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

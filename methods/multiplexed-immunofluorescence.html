@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,10 +178,14 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/38653864.html">PMID:38653864</a> — Vectra 7-color multiplexed immunofluorescence microscopy was applied to 25 of 35 patients with dMMR/MSI-H/hypermutated gynecologic cancers on a <a href="../drugs/nivolumab.html">nivolumab</a> phase 2 trial; 7-marker panel (CD8, PD-1, <a href="../genes/TOX.html">TOX</a>, PD-L1, <a href="../genes/PAX8.html">PAX8</a>, FoxP3, DAPI) used to characterize the tumor immune microenvironment and identify predictors of response <a href="../papers/38653864.html">PMID:38653864</a>.</li>
 <li><a href="../papers/39386723.html">PMID:39386723</a> — CyCIF (cyclic immunofluorescence) with a 31-antibody panel applied to 44 fallopian tube FFPE specimens spanning the <a href="../cancer_types/HGSOC.html">HGSOC</a> progression axis (p53 signatures through invasive cancer); 3D CyCIF on a Zeiss LSM980 confocal used for one STIC.C case to validate micronuclear rupture and cGAS recruitment; quantification by MCMICRO Nextflow + UNMICST2 segmentation pipeline; identified stepwise increase in <a href="../genes/HLA-E.html">HLA-E</a>+ and p-STAT1+ epithelial cells and NK–cDC1 axis collapse from STIC.I to STIC.C <a href="../papers/39386723.html">PMID:39386723</a>.</li>
 <li>Applied to 100 <a href="../cancer_types/HGSOC.html">HGSOC</a> multi-site biopsy samples; showed CD8+PD-1+ T cells within 30 um of PD-L1+ cancer cells common in HRD-Dup but rare/absent in FBI tumours; confirmed spatial immune-exclusion pattern in FBI <a href="../papers/36517593.html">PMID:36517593</a></li>
-<li>Multiplexed immunofluorescence (MxIF) performed on 34 WU-RCC patients with a 19-marker ccRCC antibody panel for spatial proteomics validation of HiTME subtypes <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>Multiplexed immunofluorescence (MxIF) performed on 34 WU-RCC patients with a 19-marker ccRCC antibody panel for spatial proteomics validation of HiTME subtypes <a href="../papers/40834854.html">PMID:40834854</a></li>
 <li>Used in <a href="../cancer_types/GBM.html">GBM</a> anti-PD-1 immunotherapy study (n=17 paired pre/post samples) via Opal/Vectra platform staining for CD3, CD8, <a href="../genes/CD68.html">CD68</a>, HLA-DR, PD-L1, and <a href="../genes/SOX2.html">SOX2</a> on FFPE specimens; revealed PTEN-mutant tumors had significantly more <a href="../genes/CD68.html">CD68</a>+HLA-DR- macrophages (p=0.011) <a href="../papers/30742119.html">PMID:30742119</a></li>
 <li>Used as Cell DIVE multiplexed immunofluorescence (MxIF) in the COLON MAP polyp atlas to map <a href="../genes/MUC5AC.html">MUC5AC</a>, <a href="../genes/OLFM4.html">OLFM4</a>, <a href="../genes/SOX9.html">SOX9</a>, <a href="../genes/CDX2.html">CDX2</a>, and immune markers spatially; showed <a href="../genes/MUC5AC.html">MUC5AC</a>+ in 13/14 MSI-H CRCs vs.&nbsp;0/17 MSS CRCs <a href="../papers/34910928.html">PMID:34910928</a></li>
 <li>Whole-slide multiplex immunofluorescence with H&amp;E histo-cytometry used to validate cell-state changes (<a href="../genes/SOX2.html">SOX2</a>+/Ki67+ proliferating stem-like cells, <a href="../genes/OSM.html">OSM</a>+/CD14+ myeloid co-localization with <a href="../genes/CD44.html">CD44</a>+/SOX2+ mesenchymal neoplastic cells) in GLASS longitudinal glioma samples <a href="../papers/35649412.html">PMID:35649412</a></li>
+<li>Opal multiplex fluorescent IHC stained CD8, PD-1, CD45, <a href="../genes/GFAP.html">GFAP</a> and PD-L1 in a recurrent glioblastoma neoadjuvant PD-1 blockade trial <a href="../papers/30742122.html">PMID:30742122</a>.</li>
+<li>Seven-color multiplexed immunofluorescence of tumor tissue was one arm of a multi-omic biospecimen panel in a pancreatic cancer immunotherapy trial <a href="../papers/35662283.html">PMID:35662283</a>.</li>
+<li>Used on 3 representative solitary fibrous tumor cases to co-localize PD-L1 with macrophage/T-cell markers alongside HALO-quantified multiplex IHC <a href="../papers/37980418.html">PMID:37980418</a>.</li>
+<li>7-colour Vectra and 12-colour Lunaphore COMET panels profiled 72 colorectal cancer samples from 21 patients across primary tumor, normal colon and metastasis <a href="../papers/39478232.html">PMID:39478232</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -193,13 +200,17 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/38653864.html">PMID:38653864</a></li>
 <li><a href="../papers/39386723.html">PMID:39386723</a></li>
+<li><a href="../papers/36517593.html">PMID:36517593</a></li>
+<li><a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../papers/30742119.html">PMID:30742119</a></li>
+<li><a href="../papers/34910928.html">PMID:34910928</a></li>
+<li><a href="../papers/35649412.html">PMID:35649412</a></li>
+<li><a href="../papers/30742122.html">PMID:30742122</a></li>
+<li><a href="../papers/35662283.html">PMID:35662283</a></li>
+<li><a href="../papers/37980418.html">PMID:37980418</a></li>
+<li><a href="../papers/39478232.html">PMID:39478232</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36517593.html">PMID:36517593</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22138691.html">PMID:22138691</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30742119.html">PMID:30742119</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34910928.html">PMID:34910928</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

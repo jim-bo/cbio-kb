@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -231,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>n = 2,336 patients with PDAC</strong> prospectively sequenced at MSK between January 2014 and September 2021 (<a href="../papers/39753968.html">PMID:39753968</a>). Cohort released as cBioPortal study <a href="../datasets/pdac_msk_2024.html"><code>pdac_msk_2024</code></a>.</li>
 <li><strong>Cancer type:</strong> <a href="../cancer_types/PAAD.html">PAAD</a> (pancreatic adenocarcinoma).</li>
-<li><strong>Stage distribution:</strong> 731 resectable (31%), 581 borderline-resectable / locally advanced (25%), 1,024 metastatic (44%); median <a href="../cancer_types/OS.html">OS</a> 31 / 19 / 11 months respectively.</li>
+<li><strong>Stage distribution:</strong> 731 resectable (31%), 581 borderline-resectable / locally advanced (25%), 1,024 metastatic (44%); median OS 31 / 19 / 11 months respectively.</li>
 <li><strong>Sample type:</strong> 1,424 (61%) primary, 912 (39%) metastasis. Median age at diagnosis 67 years (range 24–93).</li>
 <li><strong>Detailed clinical curation:</strong> 1,480 (63%) patients with manually curated treatment, time on treatment, and best-response data, drawn from medical records collected through March 2021.</li>
 <li><strong>Assay:</strong> FDA-authorized <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted DNA panel, sequenced to median 606× depth (25th–75th percentile 469×–749×) across four panel generations: <a href="../methods/IMPACT341.html">IMPACT341</a> (n = 17), <a href="../methods/IMPACT410.html">IMPACT410</a> (n = 438), <a href="../methods/IMPACT468.html">IMPACT468</a> (n = 1,536), and <a href="../methods/IMPACT505.html">IMPACT505</a> (n = 345).</li>
@@ -246,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Three genomic subtypes of PDAC:</strong> KRAS-mutant (n = 2,209, 95%), other-MAPK-mutant (n = 76, 3%), and MAPK wild-type (n = 51, 2%). 1% (n = 22) of KRAS-mutant tumors were called below the clinical reporting threshold but were retained after IGV review.</li>
 <li><strong>Other-MAPK-mutant tumors:</strong> 60% of KRAS-WT tumors carry oncogenic alterations in MAPK-pathway genes (vs 7% of KRAS-mutant; P = 1.6 × 10⁻⁴⁷). Activating fusions involving MAPK genes were nearly exclusive to KRAS-WT tumors (3.2% vs 0.04%, P = 2 × 10⁻³⁵).</li>
 <li><strong>MAPK-WT tumors:</strong> had <a href="../genes/GNAS.html">GNAS</a> (16% vs 2%, P = 1.5 × 10⁻⁵), <a href="../genes/SMARCB1.html">SMARCB1</a> (8% vs &lt;1%, P = 2.4 × 10⁻⁶), and <a href="../genes/PIK3CA.html">PIK3CA</a> (10% vs 2%, P = 0.002) enrichments compared to KRAS-mutant tumors. Eleven MAPK-WT tumors with available material were RNA-sequenced; 2/11 (18%) carried activating <a href="../genes/BRAF.html">BRAF</a> or <a href="../genes/NRG1.html">NRG1</a> fusions.</li>
-<li><strong><a href="../cancer_types/OS.html">OS</a> by subtype:</strong> patients with other-MAPK-mutant (HR_adj = 0.69, CI 0.51–0.93, P = 0.014) and MAPK-WT (HR_adj = 0.69, CI 0.48–0.98, P = 0.041) tumors had significantly longer OS than KRAS-mutant patients in a stage-stratified multivariable Cox model (n = 2,270). After excluding the 83 patients who received targeted therapy, the MAPK-WT advantage persisted (HR_adj = 0.68, CI 0.47–0.97, P = 0.035), but the other-MAPK-mutant benefit was driven by access to targeted therapy.</li>
+<li><strong>OS by subtype:</strong> patients with other-MAPK-mutant (HR_adj = 0.69, CI 0.51–0.93, P = 0.014) and MAPK-WT (HR_adj = 0.69, CI 0.48–0.98, P = 0.041) tumors had significantly longer OS than KRAS-mutant patients in a stage-stratified multivariable Cox model (n = 2,270). After excluding the 83 patients who received targeted therapy, the MAPK-WT advantage persisted (HR_adj = 0.68, CI 0.47–0.97, P = 0.035), but the other-MAPK-mutant benefit was driven by access to targeted therapy.</li>
 <li><strong>Germline alterations:</strong> 10% of all patients carried pathogenic germline variants in high/moderate-penetrance genes — <a href="../genes/BRCA2.html">BRCA2</a> 3.7%, <a href="../genes/BRCA1.html">BRCA1</a> 1.8%, <a href="../genes/ATM.html">ATM</a> 1.8%, <a href="../genes/PALB2.html">PALB2</a> 0.5%; Lynch syndrome (MLH1/MSH2/MSH6/PMS2) in 0.7%, of which 6/17 (35%) were MSI-H.</li>
 <li><strong>gATM enrichment in MAPK-WT:</strong> gATM frequency was 18% in MAPK-WT tumors versus 1.4% in KRAS-mutant (P = 2 × 10⁻⁶); gATM and somatic <a href="../genes/TP53.html">TP53</a> mutations were mutually exclusive (P = 4 × 10⁻¹¹).</li>
 <li><strong>Allelic imbalance at KRAS:</strong> 42% of n = 1,157 KRAS-mutant tumors with high-quality copy-number fits showed allelic imbalance (focal/arm amplifications 4%, gains 16%, CNLOH 5%, LOH 11%, loss after WGD 5%). 93% of imbalance events preferentially gained or retained the mutant allele.</li>

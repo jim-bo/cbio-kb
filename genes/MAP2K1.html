@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -200,13 +203,14 @@ ul.task-list li input[type="checkbox"] {
 <li>MAP2K1/MAP2K2 combined at 7% in 696 melanomas (<a href="../datasets/mel_mskimpact_2020.html">mel_mskimpact_2020</a>); MAP2K1 indels (residues 98–113) act as sole drivers; MAP2K1 missense E203K behaves as a RAF-dependent amplifier requiring co-altered <a href="../genes/BRAF.html">BRAF</a> Class 2 — combination with <a href="../genes/BRAF.html">BRAF</a> K601E produced a durable complete response to <a href="../drugs/trametinib.html">trametinib</a> <a href="../papers/33509808.html">PMID:33509808</a></li>
 <li>MAP2K1 activating mutations found in 0.3% of metastatic HER2-amplified breast cancers (0% in primary; n=733 tumors); included in the MAPK-pathway alteration group associated with ~2-fold worse PFS on first-line anti-HER2 therapy (HR 2.03, p=0.023). <a href="../papers/34795269.html">PMID:34795269</a></li>
 <li>MAP2K1 C121S was observed as an acquired MAPK-activating alteration in patients with RET-fusion <a href="../cancer_types/NSCLC.html">NSCLC</a> at <a href="../drugs/selpercatinib.html">selpercatinib</a> progression, representing a bypass resistance mechanism <a href="../papers/35304457.html">PMID:35304457</a>.</li>
+<li>Truncal cfDNA variant p.Q56P (VAF &gt; 10%) detected in a temozolomide-treated SDHB-mutant pheochromocytoma/paraganglioma patient, alongside <a href="../genes/NUTM1.html">NUTM1</a> p.P88L <a href="../papers/40097403.html">PMID:40097403</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
 <li><a href="../cancer_types/LCH.html">LCH</a> / <a href="../cancer_types/ECD.html">ECD</a> — second most common actionable gene in the histiocytosis sub-cohort (n=84) after <a href="../genes/BRAF.html">BRAF</a> <a href="../papers/36862133.html">PMID:36862133</a>.</li>
-<li><a href="../cancer_types/PAAD.html">PAAD</a> — MAP2K1 and other MAPK-pathway genes (not <a href="../genes/KRAS.html">KRAS</a>) drive the other-MAPK-mutant subtype in KRAS-WT PDAC; these tumors had longer <a href="../cancer_types/OS.html">OS</a> vs KRAS-mutant when not receiving targeted therapy (HR_adj = 0.68, P = 0.035). <a href="../papers/39753968.html">PMID:39753968</a></li>
+<li><a href="../cancer_types/PAAD.html">PAAD</a> — MAP2K1 and other MAPK-pathway genes (not <a href="../genes/KRAS.html">KRAS</a>) drive the other-MAPK-mutant subtype in KRAS-WT PDAC; these tumors had longer OS vs KRAS-mutant when not receiving targeted therapy (HR_adj = 0.68, P = 0.035). <a href="../papers/39753968.html">PMID:39753968</a></li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
@@ -219,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
 <li>MAP2K1-mutant histiocytosis patients were treated with MEK inhibitors <a href="../drugs/trametinib.html">trametinib</a> and <a href="../drugs/cobimetinib.html">cobimetinib</a>; one patient received an ERK inhibitor on trial, contributing to the 17/18 (94%) clinical-benefit rate from matched targeted therapy <a href="../papers/36862133.html">PMID:36862133</a>.</li>
-<li>In KRAS-WT PDAC, MAP2K1 and other MAPK-pathway activation suggest eligibility for targeted MAPK-pathway therapies; the other-MAPK-mutant subtype’s improved <a href="../cancer_types/OS.html">OS</a> was partly driven by access to matched targeted therapy. <a href="../papers/39753968.html">PMID:39753968</a></li>
+<li>In KRAS-WT PDAC, MAP2K1 and other MAPK-pathway activation suggest eligibility for targeted MAPK-pathway therapies; the other-MAPK-mutant subtype’s improved OS was partly driven by access to matched targeted therapy. <a href="../papers/39753968.html">PMID:39753968</a></li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
@@ -231,33 +235,34 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/36862133.html">PMID:36862133</a></li>
-<li><a href="../papers/39753968.html">PMID:39753968</a></li>
+<li><p><a href="../papers/36862133.html">PMID:36862133</a></p></li>
+<li><p><a href="../papers/39753968.html">PMID:39753968</a></p></li>
+<li><p><a href="../papers/36355783.html">PMID:36355783</a></p></li>
+<li><p><a href="../papers/36228155.html">PMID:36228155</a></p></li>
+<li><p><a href="../papers/22817889.html">PMID:22817889</a></p></li>
+<li><p><a href="../papers/24265153.html">PMID:24265153</a></p></li>
+<li><p><a href="../papers/25079552.html">PMID:25079552</a></p></li>
+<li><p><a href="../papers/25164765.html">PMID:25164765</a></p></li>
+<li><p><a href="../papers/26091043.html">PMID:26091043</a></p></li>
+<li><p><a href="../papers/26343386.html">PMID:26343386</a></p></li>
+<li><p><a href="../papers/26466571.html">PMID:26466571</a></p></li>
+<li><p><a href="../papers/27149842.html">PMID:27149842</a></p></li>
+<li><p><a href="../papers/27158780.html">PMID:27158780</a></p></li>
+<li><p><a href="../papers/28336552.html">PMID:28336552</a></p></li>
+<li><p><a href="../papers/28825054.html">PMID:28825054</a></p></li>
+<li><p><a href="../papers/29713087.html">PMID:29713087</a></p></li>
+<li><p><a href="../papers/30068706.html">PMID:30068706</a></p></li>
+<li><p><a href="../papers/30205045.html">PMID:30205045</a></p></li>
+<li><p><a href="../papers/30867592.html">PMID:30867592</a></p></li>
+<li><p><a href="../papers/32864625.html">PMID:32864625</a></p></li>
+<li><p><a href="../papers/32913971.html">PMID:32913971</a></p></li>
+<li><p><a href="../papers/33029006.html">PMID:33029006</a></p></li>
+<li><p><a href="../papers/33509808.html">PMID:33509808</a></p></li>
+<li><p><a href="../papers/34795269.html">PMID:34795269</a></p></li>
+<li><p><a href="../papers/35304457.html">PMID:35304457</a></p></li>
+<li><p><a href="../papers/40097403.html">PMID:40097403</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36355783.html">PMID:36355783</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36228155.html">PMID:36228155</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22817889.html">PMID:22817889</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24265153.html">PMID:24265153</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25079552.html">PMID:25079552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25164765.html">PMID:25164765</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26091043.html">PMID:26091043</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26343386.html">PMID:26343386</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26466571.html">PMID:26466571</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27149842.html">PMID:27149842</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29713087.html">PMID:29713087</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30867592.html">PMID:30867592</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32864625.html">PMID:32864625</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32913971.html">PMID:32913971</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33029006.html">PMID:33029006</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33509808.html">PMID:33509808</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34795269.html">PMID:34795269</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35304457.html">PMID:35304457</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

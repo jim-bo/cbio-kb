@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>EGFR structural variants in 45/99 (45%) <a href="../cancer_types/GBM.html">GBM</a> tumors (<a href="../datasets/gbm_cptac_2021.html">gbm_cptac_2021</a>), all with concordant copy-number amplification (high SV-CNV concordance); EGFR mutation, SV, and amplification co-occurred (p &lt; 0.01). Elevated RNA, protein, and Y1172 autophosphorylation in EGFR-altered tumors. EGFR phosphorylates <a href="../genes/CTNNB1.html">CTNNB1</a> S33 (proteasomal-degradation site) and has trans effects on <a href="../genes/PTPN11.html">PTPN11</a> Y62, <a href="../genes/PLCG1.html">PLCG1</a> Y783, <a href="../genes/GAB1.html">GAB1</a> Y657/Y689, <a href="../genes/MAP3K1.html">MAP3K1</a> S1408, and <a href="../genes/RB1.html">RB1</a> S795/Y805; strong cis effect at EGFR S1166 <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 <li>EGFR amplification in 6 cases (rare, ~1.5%) of intrahepatic cholangiocarcinoma (<a href="../datasets/ihch_msk_2021.html">ihch_msk_2021</a>, n=412) <a href="../papers/33765338.html">PMID:33765338</a>.</li>
-<li>EGFR amplification is a recurrent driver at ≥5% in esophageal/GEJ adenocarcinoma (<a href="../datasets/egc_mskcc_2020.html">egc_mskcc_2020</a>, n=487); no independent <a href="../cancer_types/OS.html">OS</a> association demonstrated in this cohort <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+<li>EGFR amplification is a recurrent driver at ≥5% in esophageal/GEJ adenocarcinoma (<a href="../datasets/egc_mskcc_2020.html">egc_mskcc_2020</a>, n=487); no independent OS association demonstrated in this cohort <a href="../papers/33795256.html">PMID:33795256</a>.</li>
 <li>EGFR P551L flagged as a single hotspot call requiring additional evidence in an 83-tumor <a href="../cancer_types/CSCC.html">CSCC</a> meta-analysis; classified as ‘possible false positive’ <a href="../papers/34272401.html">PMID:34272401</a></li>
 <li>Recurrent oncogenic driver mutations and amplifications in <a href="../cancer_types/NSCLC.html">NSCLC</a>; EGFR mutations were enriched in cfDNA relative to tissue MSK-IMPACT in lung cancer in the MSK-ACCESS multi-cancer liquid biopsy study <a href="../papers/34145282.html">PMID:34145282</a></li>
 <li>Most frequently altered gene in <a href="../cancer_types/LUAD.html">LUAD</a> (33% pN-negative / 31% pN-positive); no significant difference in alteration frequency by pathologic lymph node (pN) status in a 426-patient cohort <a href="../papers/34290393.html">PMID:34290393</a></li>
@@ -193,8 +196,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Loss of EGFR amplification at recurrence (n=11) associates with increased non-neoplastic cell content and mesenchymal subtype switching in IDHwt glioma <a href="../papers/35649412.html">PMID:35649412</a></li>
 <li>13% pan-cohort frequency in pan-Asian solid tumor cohort; elevated in <a href="../cancer_types/LUAD.html">LUAD</a> vs MSK and TCGA; L858R 20% and exon 19 deletion 19% within <a href="../cancer_types/NSCLC.html">NSCLC</a>; G719 mutations in 3% of <a href="../cancer_types/NSCLC.html">NSCLC</a>; atypical pairwise co-occurrence with <a href="../genes/KRAS.html">KRAS</a> noted <a href="../papers/35871175.html">PMID:35871175</a></li>
 <li>Amplified in a single metastatic <a href="../cancer_types/CSCC.html">CSCC</a> sample (CSCC_0012); structural GAIN detected by LINX/PURPLE SV analysis in 25-sample WGS cohort <a href="../papers/35982973.html">PMID:35982973</a></li>
-<li>EGFR participates in a PD-L1/EGFR/ITGB4 complex that drives SREBP1c-dependent lipid accumulation in <a href="../cancer_types/HCC.html">HCC</a>; cholesterol-remodeled lipid rafts further activate EGFR signaling in TKI-resistant HCC. <a href="../papers/38355797.html">PMID:38355797</a></li>
-<li>EGFR canonical driver mutations found in 39% of never-smoker <a href="../genes/RB1.html">RB1</a>−/TP53− <a href="../cancer_types/SCLC.html">SCLC</a> (nsSCLC) — anchoring the adenocarcinoma-to-SCLC plasticity pathway; absent in atypical SCLC (aSCLC, RB1+/TP53+). <a href="../papers/39185963.html">PMID:39185963</a></li>
+<li>EGFR participates in a PD-L1/EGFR/ITGB4 complex that drives SREBP1c-dependent lipid accumulation in <a href="../cancer_types/HCC.html">HCC</a>; cholesterol-remodeled lipid rafts further activate EGFR signaling in TKI-resistant <a href="../cancer_types/HCC.html">HCC</a>. <a href="../papers/41118283.html">PMID:41118283</a></li>
+<li>EGFR canonical driver mutations found in 39% of never-smoker <a href="../genes/RB1.html">RB1</a>−/TP53− <a href="../cancer_types/SCLC.html">SCLC</a> (nsSCLC) — anchoring the adenocarcinoma-to-SCLC plasticity pathway; absent in atypical <a href="../cancer_types/SCLC.html">SCLC</a> (aSCLC, <a href="../genes/RB1.html">RB1</a>+/TP53+). <a href="../papers/39185963.html">PMID:39185963</a></li>
+<li>An EGFR-inhibitor (<a href="../drugs/gefitinib.html">gefitinib</a>) perturbation phosphosignature was negatively enriched in LIG1-loss triple-negative breast tumors <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>EGFR is the dominant driver behind acquired <a href="../genes/MET.html">MET</a> amplification in <a href="../cancer_types/NSCLC.html">NSCLC</a> (50/56 cases, 89%), and was also a de novo co-driver with MET amplification in 7 NSCLC and 1 non-lung case <a href="../papers/36044468.html">PMID:36044468</a>.</li>
+<li>New pan-cancer EGFR hotspots in <a href="../cancer_types/LUAD.html">LUAD</a> always co-occur with an initiating L858R or exon 19/20 indel; the V834 hotspot can arise late and without prior treatment <a href="../papers/41895280.html">PMID:41895280</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -202,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Glioblastoma (<a href="../cancer_types/GBM.html">GBM</a>):</strong> EGFR structural variants + amplification in 45% of tumors; classical subtype enriched; upregulates PHLDA1/PHLDA3, <a href="../genes/SOX9.html">SOX9</a>, <a href="../genes/CTNND2.html">CTNND2</a>, <a href="../genes/CDK6.html">CDK6</a>, and <a href="../genes/CDKN2C.html">CDKN2C</a>; converges on PTPN11/PLCG1 signaling hub; drug-connectivity analysis nominates broader kinase inhibitors beyond canonical EGFR inhibitors <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 <li><strong>Intrahepatic cholangiocarcinoma (<a href="../cancer_types/IHCH.html">IHCH</a>):</strong> rare amplification (n=6); not prognostically significant in this cohort <a href="../papers/33765338.html">PMID:33765338</a>.</li>
-<li><strong>Esophageal/gastroesophageal junction adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>):</strong> amplification at ≥5% frequency; co-occurs with <a href="../genes/MYC.html">MYC</a>, <a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/CDK6.html">CDK6</a>, and <a href="../genes/CCND3.html">CCND3</a> amplifications; no independent <a href="../cancer_types/OS.html">OS</a> association <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+<li><strong>Esophageal/gastroesophageal junction adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>):</strong> amplification at ≥5% frequency; co-occurs with <a href="../genes/MYC.html">MYC</a>, <a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/CDK6.html">CDK6</a>, and <a href="../genes/CCND3.html">CCND3</a> amplifications; no independent OS association <a href="../papers/33795256.html">PMID:33795256</a>.</li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
@@ -223,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="open-questions">Open questions</h2>
 <ul>
 <li>Kinase-substrate relationships inferred from phospho-outlier analysis (e.g., EGFR → <a href="../genes/CTNNB1.html">CTNNB1</a> S33) are not directly validated; functional confirmation required <a href="../papers/33577785.html">PMID:33577785</a>.</li>
-<li>Drug-connectivity predictions in GBM are signature-based with no preclinical or clinical confirmation reported in the corpus <a href="../papers/33577785.html">PMID:33577785</a>.</li>
+<li>Drug-connectivity predictions in <a href="../cancer_types/GBM.html">GBM</a> are signature-based with no preclinical or clinical confirmation reported in the corpus <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
@@ -247,10 +253,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/35649412.html">PMID:35649412</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
 <li><p><a href="../papers/35982973.html">PMID:35982973</a></p></li>
-<li><p><a href="../papers/38355797.html">PMID:38355797</a></p></li>
+<li><p><a href="../papers/41118283.html">PMID:41118283</a></p></li>
 <li><p><a href="../papers/39185963.html">PMID:39185963</a></p></li>
+<li><p><a href="../papers/36001024.html">PMID:36001024</a></p></li>
+<li><p><a href="../papers/36044468.html">PMID:36044468</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

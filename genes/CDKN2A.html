@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,11 +178,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>CDKN2A alterations associated with worse <a href="../cancer_types/OS.html">OS</a> in esophageal/GEJ adenocarcinoma: KM p&lt;0.001; adjusted HR 1.65; multivariable HR 1.50 (95% CI 1.14–1.97, p=0.004) in the <a href="../datasets/egc_mskcc_2020.html">egc_mskcc_2020</a> cohort (n=487). CDKN2A deletions alone were not prognostic on univariable analysis <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+<li>CDKN2A alterations associated with worse OS in esophageal/GEJ adenocarcinoma: KM p&lt;0.001; adjusted HR 1.65; multivariable HR 1.50 (95% CI 1.14–1.97, p=0.004) in the <a href="../datasets/egc_mskcc_2020.html">egc_mskcc_2020</a> cohort (n=487). CDKN2A deletions alone were not prognostic on univariable analysis <a href="../papers/33795256.html">PMID:33795256</a>.</li>
 <li>CDKN2A focal alterations in 15% of intrahepatic cholangiocarcinoma (iCCA); homozygous deletions in 13%; strongest independent prognostic factor (HR 3.40 in resected cohort multivariate; HR 2.5 in whole cohort). Only deep (homozygous) deletions are prognostic; monoallelic alterations are not. Mutually exclusive with IDH1/2 mutations and <a href="../genes/FGFR2.html">FGFR2</a> fusions <a href="../papers/33765338.html">PMID:33765338</a>.</li>
 <li>CDKN2A/CDKN2B show differential alteration patterns between IDH-WT and IDH-mutant <a href="../cancer_types/GBM.html">GBM</a> tumors in the CPTAC proteogenomic cohort (<a href="../datasets/gbm_cptac_2021.html">gbm_cptac_2021</a>, n=99) <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 <li>Detected at varying frequencies across TERT-altered and TERT-WT metaplastic breast cancer groups in a 60-case MSKCC cohort <a href="../papers/33863915.html">PMID:33863915</a></li>
-<li>Deletion (HR 3.3, 95% CI 1.1–9.5, P=0.030) independently predicts worse <a href="../cancer_types/OS.html">OS</a> in node-positive (N1) intrahepatic cholangiocarcinoma; combined CDKN2A/B deletion (HR 5.0) part of the poor-prognosis composite (<a href="../genes/TP53.html">TP53</a> mut / <a href="../genes/KRAS.html">KRAS</a> mut / CDKN2A/B del): median <a href="../cancer_types/OS.html">OS</a> 12.1 vs 30.9 months (P=0.002) <a href="../papers/33963001.html">PMID:33963001</a></li>
+<li>Deletion (HR 3.3, 95% CI 1.1–9.5, P=0.030) independently predicts worse OS in node-positive (N1) intrahepatic cholangiocarcinoma; combined CDKN2A/B deletion (HR 5.0) part of the poor-prognosis composite (<a href="../genes/TP53.html">TP53</a> mut / <a href="../genes/KRAS.html">KRAS</a> mut / CDKN2A/B del): median OS 12.1 vs 30.9 months (P=0.002) <a href="../papers/33963001.html">PMID:33963001</a></li>
 <li>Mutated/deleted in 34.9% of <a href="../cancer_types/CSCC.html">CSCC</a> tumors including focal homozygous deletions; drives cell-cycle-checkpoint (Rb pathway) loss present in 38.6% of tumors <a href="../papers/34272401.html">PMID:34272401</a></li>
 <li>Copy number alterations enriched in pN-positive <a href="../cancer_types/LUAD.html">LUAD</a> tumors (9% vs 4%, p=0.039) in a 426-patient MSK-IMPACT cohort; CDKN2A was among gene-level CNAs assessed at ≥1% frequency <a href="../papers/34290393.html">PMID:34290393</a></li>
 <li>Homozygous deletion universally present in LSCC (along with <a href="../genes/RB1.html">RB1</a> loss); 28 CDKN2A-WT tumors had p16-promoter hypermethylation; mutations paradoxically yielded increased CDKN2A RNA; loss of CDKN2A or <a href="../genes/RB1.html">RB1</a> was found in every one of 108 LSCC samples <a href="../papers/34358469.html">PMID:34358469</a></li>
@@ -191,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 <li>CDKN2A altered in 22% of MSI-stable locally advanced esophageal/GEJ adenocarcinoma (n=237); high prevalence but not significantly associated with pathologic response to neoadjuvant chemoradiotherapy <a href="../papers/35377946.html">PMID:35377946</a></li>
 <li>CDKN2A among the genes listed in the genomic landscape of <a href="../cancer_types/SCLC.html">SCLC</a> PDX/CDX cohort (n=46 models from 33 MSK patients); canonical <a href="../cancer_types/SCLC.html">SCLC</a> genomic landscape dominated by <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> loss <a href="../papers/35440124.html">PMID:35440124</a></li>
 <li>Homozygous deletion in 8% (9/119) of low-grade serous ovarian carcinomas (LGSC) sequenced by MSK-IMPACT; acquired CDKN2A/B deletion observed at recurrence in 1/5 patients initially without detectable driver alteration <a href="../papers/35443055.html">PMID:35443055</a></li>
-<li>Non-SMG cancer gene mutated in ≥3 HCCs in a European multi-omic cohort (n=122); associated with poor <a href="../cancer_types/OS.html">OS</a> independent of BCLC staging in multivariate Cox analysis <a href="../papers/35508466.html">PMID:35508466</a></li>
+<li>Non-SMG cancer gene mutated in ≥3 HCCs in a European multi-omic cohort (n=122); associated with poor OS independent of BCLC staging in multivariate Cox analysis <a href="../papers/35508466.html">PMID:35508466</a></li>
 <li>CDKN2A deleted in 16.7% of sarcomas (84.5% homozygous deletions); enriched in <a href="../cancer_types/MPNST.html">MPNST</a> (47.3%) and chordoma (36.8%); co-occurs with CDK4/CDK6 amplification and CCND1/2/3 in unusual within-pathway co-occurrence <a href="../papers/35705558.html">PMID:35705558</a></li>
 <li>Acquired focal CDKN2A deletion at recurrence drives expansion of proliferating stem-like neoplastic cells in IDHmut glioma (P=3e-3, n=6); already prevalent at initial diagnosis in IDHwt tumors and not enriched at recurrence there <a href="../papers/35649412.html">PMID:35649412</a></li>
 <li>CDKN2A deletions in up to 48% of <a href="../cancer_types/MPNST.html">MPNST</a>; broadly distributed actionable hits across sarcoma subtypes; included in Level 3B highlights with up to 48% deletion frequency in <a href="../cancer_types/MPNST.html">MPNST</a> <a href="../papers/35705560.html">PMID:35705560</a></li>
@@ -199,12 +202,18 @@ ul.task-list li input[type="checkbox"] {
 <li>Recurrently mutated (LOF impacting p16INK4a and ARF) and structurally deleted (DEL) in 25 metastatic <a href="../cancer_types/CSCC.html">CSCC</a> WGS samples; driver confirmed by all three tools; deep deletion in 1/25 samples; proposed rationale for CDK4/6 inhibition with <a href="../drugs/palbociclib.html">palbociclib</a> in metastatic <a href="../cancer_types/CSCC.html">CSCC</a> <a href="../papers/35982973.html">PMID:35982973</a></li>
 <li>E61Pfs*54 frameshift clonal in one endometrial carcinoma primary (<a href="../genes/CD28.html">CD28</a>); not detected in baseline cfDNA but detected at 6-month follow-up by MSK-ACCESS panel <a href="../papers/36007103.html">PMID:36007103</a></li>
 <li>Paradoxically p16-high (overexpression by IHC and RNA-seq) in all chromosome 12 chromothripsis atypical <a href="../cancer_types/SCLC.html">SCLC</a> cases (A07, A08, A09) despite wild-type pRb, reflecting posttranslational pRb inhibition by ecDNA-amplified <a href="../genes/CDK4.html">CDK4</a> creating a pRb-null-like state <a href="../papers/39185963.html">PMID:39185963</a></li>
+<li>CDKN2A was more often mutated in EBV-negative Burkitt lymphoma, along with <a href="../genes/MIR17HG.html">MIR17HG</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/FBXO11.html">FBXO11</a>, <a href="../genes/STAT6.html">STAT6</a> and <a href="../genes/PHF6.html">PHF6</a> <a href="../papers/36201743.html">PMID:36201743</a>.</li>
+<li>CDKN2A alterations showed no association with chromoplexy or metastatic presentation in Ewing sarcoma <a href="../papers/38335254.html">PMID:38335254</a>.</li>
+<li>CDKN2A was detected in ctDNA in 12% of ctDNA-positive pancreatic cancer patients, with tissue-ctDNA concordance of 89.5% in untreated stage IV vs 33.3% in untreated stage I-III <a href="../papers/40511613.html">PMID:40511613</a>.</li>
+<li>CDKN2A recurrent (5-15%) inactivating mutations or copy-number deletions were found in MYOD1-mutant rhabdomyosarcoma, alongside <a href="../genes/MGA.html">MGA</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/SMARCB1.html">SMARCB1</a>, <a href="../genes/ARID1A.html">ARID1A</a> and <a href="../genes/NOTCH4.html">NOTCH4</a> <a href="../papers/41758938.html">PMID:41758938</a>.</li>
+<li>CDKN2A carried all 12 new pan-cancer-independent hotspots alongside <a href="../genes/TP53.html">TP53</a> and was rescued as a canonical driver in 15 cancer types <a href="../papers/41895280.html">PMID:41895280</a>.</li>
+<li>CDKN2A was altered in 21% of microsatellite-stable biliary tract cancers and was among alterations associated with acquired resistance to targeted therapy <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong>Esophageal/gastroesophageal junction adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>):</strong> CDKN2A alterations independently prognostic of worse <a href="../cancer_types/OS.html">OS</a> (multivariable HR 1.50, p=0.004); deletions alone not significant on univariable; Cell Cycle pathway enrichment <a href="../papers/33795256.html">PMID:33795256</a>.</li>
+<li><strong>Esophageal/gastroesophageal junction adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>):</strong> CDKN2A alterations independently prognostic of worse OS (multivariable HR 1.50, p=0.004); deletions alone not significant on univariable; Cell Cycle pathway enrichment <a href="../papers/33795256.html">PMID:33795256</a>.</li>
 <li><strong>Intrahepatic cholangiocarcinoma (<a href="../cancer_types/IHCH.html">IHCH</a>):</strong> homozygous deletion in 13%; strongest independent prognostic factor (HR 3.40 resected, HR 2.5 whole cohort); defines a subgroup with no benefit from resection in clinical high-risk patients; mutually exclusive with IDH1/2 and <a href="../genes/FGFR2.html">FGFR2</a> <a href="../papers/33765338.html">PMID:33765338</a>.</li>
 <li><strong>Glioblastoma (<a href="../cancer_types/GBM.html">GBM</a>):</strong> differential CDKN2A/CDKN2B alteration patterns between IDH-WT and IDH-mutant tumors <a href="../papers/33577785.html">PMID:33577785</a>.</li>
 </ul>
@@ -253,12 +262,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
 <li><p><a href="../papers/35649412.html">PMID:35649412</a></p></li>
 <li><p><a href="../papers/35705560.html">PMID:35705560</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/35982973.html">PMID:35982973</a></p></li>
+<li><p><a href="../papers/36007103.html">PMID:36007103</a></p></li>
+<li><p><a href="../papers/39185963.html">PMID:39185963</a></p></li>
+<li><p><a href="../papers/36201743.html">PMID:36201743</a></p></li>
+<li><p><a href="../papers/38335254.html">PMID:38335254</a></p></li>
+<li><p><a href="../papers/40511613.html">PMID:40511613</a></p></li>
+<li><p><a href="../papers/41758938.html">PMID:41758938</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
+<li><p><a href="../papers/42360806.html">PMID:42360806</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35982973.html">PMID:35982973</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36007103.html">PMID:36007103</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/39185963.html">PMID:39185963</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

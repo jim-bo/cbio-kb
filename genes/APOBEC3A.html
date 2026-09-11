@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,12 +180,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>APOBEC3A YTCA mutagenesis significantly enriched in post-chemotherapy urothelial carcinoma tumors (P=1×10⁻⁵, Fisher’s exact test); APOBEC3A identified as the dominant cytidine deaminase shaping the post-chemotherapy UC mutational landscape, with clonal APOBEC-induced mutations rising after treatment <a href="../papers/27749842.html">PMID:27749842</a>.</li>
 <li>APOBEC-induced mutations enriched in ABC-transporter (OR=2.7, P=0.038) and homologous-recombination DNA-repair (OR=3.8, P=0.033) pathways in post-chemotherapy tumors <a href="../papers/27749842.html">PMID:27749842</a>.</li>
-<li>APOBEC3A mutational signature modestly enriched at the NOL10 locus in CPGEA and TCGA PRAD vs.&nbsp;genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer <a href="../papers/28927585.html">PMID:28927585</a></li>
+<li>APOBEC3A mutational signature modestly enriched at the <a href="../genes/NOL10.html">NOL10</a> locus in CPGEA and TCGA <a href="../cancer_types/PRAD.html">PRAD</a> vs.&nbsp;genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer <a href="../papers/41062477.html">PMID:41062477</a></li>
 <li>Expression correlates with APOBEC-signature mutation load in MIBC; APOBEC3A/3B together account for 67% of all SNVs in the TCGA MIBC cohort (n=412), with their expression as the dominant mutagenic source <a href="../papers/28988769.html">PMID:28988769</a></li>
-<li>Germline <em>APOBEC3B</em> deletion (complete loss of coding sequence) shifts prostate cancer mutagenesis toward APOBEC3A-like patterns, with a reduction in signature 2/13 mutations and lower APOBEC3B expression in 292-case WGS cohort (EOPC/LOPC) <a href="../papers/30537516.html">PMID:30537516</a></li>
+<li>Germline <em><a href="../genes/APOBEC3B.html">APOBEC3B</a></em> deletion (complete loss of coding sequence) shifts prostate cancer mutagenesis toward APOBEC3A-like patterns, with a reduction in signature 2/13 mutations and lower APOBEC3B expression in 292-case WGS cohort (EOPC/LOPC) <a href="../papers/30537516.html">PMID:30537516</a></li>
 <li>Germline ~30-kb APOBEC3A–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors <a href="../papers/32025007.html">PMID:32025007</a></li>
 <li>APOBEC3A is implicated as an enzymatic source of SBS2 and SBS13 mutational signatures in resected lung adenocarcinoma; these signatures were independently associated with postresection recurrence (~2-fold elevated risk), particularly in acinar/papillary tumors. <a href="../papers/32791233.html">PMID:32791233</a></li>
-<li>Kataegis events in LCINS WGS cohort show APOBEC3A-like mutational signatures; enriched in tumors co-occurring with MDM2 amplification (kataegis hotspot P=1.3e-15). <a href="../papers/34493867.html">PMID:34493867</a></li>
+<li>Kataegis events in LCINS WGS cohort show APOBEC3A-like mutational signatures; enriched in tumors co-occurring with <a href="../genes/MDM2.html">MDM2</a> amplification (kataegis hotspot P=1.3e-15). <a href="../papers/34493867.html">PMID:34493867</a></li>
+<li>Catalytically active (not catalytically dead) overexpression, together with APOBEC3B, reproduces the APOBEC3 mutational signature, kataegis and structural instability in ER+/HER2+ breast cancer cell lines and accelerates resistance to <a href="../drugs/fulvestrant.html">fulvestrant</a>, CDK4/6 inhibitors and HER2-targeted therapy <a href="../papers/40379787.html">PMID:40379787</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -194,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>Co-occurs with <a href="../genes/APOBEC3B.html">APOBEC3B</a> activity in post-chemotherapy UC; both YTCA (APOBEC3A) and RTCA (<a href="../genes/APOBEC3B.html">APOBEC3B</a>) context mutagenesis enriched after platinum treatment, while APOBEC3G CCC-motif mutagenesis decreased <a href="../papers/27749842.html">PMID:27749842</a>.</li>
+<li>Co-occurs with <a href="../genes/APOBEC3B.html">APOBEC3B</a> activity in post-chemotherapy UC; both YTCA (APOBEC3A) and RTCA (<a href="../genes/APOBEC3B.html">APOBEC3B</a>) context mutagenesis enriched after platinum treatment, while <a href="../genes/APOBEC3G.html">APOBEC3G</a> CCC-motif mutagenesis decreased <a href="../papers/27749842.html">PMID:27749842</a>.</li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
@@ -215,14 +219,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><p><a href="../papers/27749842.html">PMID:27749842</a></p></li>
-<li><p><a href="../papers/28927585.html">PMID:28927585</a></p></li>
+<li><p><a href="../papers/41062477.html">PMID:41062477</a></p></li>
 <li><p><a href="../papers/28988769.html">PMID:28988769</a></p></li>
+<li><p><a href="../papers/30537516.html">PMID:30537516</a></p></li>
+<li><p><a href="../papers/32025007.html">PMID:32025007</a></p></li>
+<li><p><a href="../papers/32791233.html">PMID:32791233</a></p></li>
+<li><p><a href="../papers/34493867.html">PMID:34493867</a></p></li>
+<li><p><a href="../papers/40379787.html">PMID:40379787</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/30537516.html">PMID:30537516</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32025007.html">PMID:32025007</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32791233.html">PMID:32791233</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/34493867.html">PMID:34493867</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

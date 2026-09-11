@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -245,12 +248,12 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>DNA-mRNA bridge (TCGA, <a href="../datasets/prad_tcga.html">prad_tcga</a>)</strong>: ~20% of TCGA primary prostate tumors had PIK3R1 copy-number loss, significantly associated with reduced mRNA (p=7.43×10⁻¹⁰).</li>
 <li><strong>Outcomes (primary disease)</strong>: PIK3R1 loss was associated with shorter disease/progression-free survival in TCGA (HR 2.04, 95% CI 1.32–3.15, p=0.001) and the Taylor cohort (HR 4.13, 95% CI 2.01–8.50, p&lt;0.001). Low PIK3R1 mRNA was also associated with recurrence after adjustment for Gleason grade (TCGA HR 1.83, p=0.048).</li>
 <li><strong>Outcomes (metastasis-free survival in MSK-IMPACT primaries, n=264)</strong>: inconclusive due to event sparsity (driver HR 1.40 [0.18–10.46], p=0.74; loss HR 1.53 [0.69–3.38], p=0.28).</li>
-<li><strong>Outcomes (mCSPC and mCRPC)</strong>: results inconclusive for <a href="../cancer_types/OS.html">OS</a> in metastatic disease — driver alteration HR 1.67 (0.62–4.42, p=0.30) in mCSPC and HR 0.77 (0.38–1.41, p=0.36) in mCRPC.</li>
+<li><strong>Outcomes (mCSPC and mCRPC)</strong>: results inconclusive for OS in metastatic disease — driver alteration HR 1.67 (0.62–4.42, p=0.30) in mCSPC and HR 0.77 (0.38–1.41, p=0.36) in mCRPC.</li>
 <li><strong>mRNA expression</strong>: PIK3R1 was uniquely strongly attenuated in metastatic prostate cancer (Grasso dataset: 9-fold decrease, p=2×10⁻¹¹); the only class 1 PI3K subunit (catalytic or regulatory) with such loss.</li>
 <li><strong>Functional consequences of PIK3R1 knockdown</strong> (LAPC4, 22RV1): increased AKT S473 phosphorylation, including insulin-stimulated AKT activation; reduced PTEN protein; reduced <a href="../genes/AR.html">AR</a> target gene expression (PSA, PLZF, <a href="../genes/TMPRSS2.html">TMPRSS2</a>, NKX3.1) without affecting <a href="../genes/AR.html">AR</a> mRNA; increased 2D proliferation and 3D prostatosphere formation; relative resistance to <a href="../drugs/enzalutamide.html">enzalutamide</a> compared to scrambled controls.</li>
 <li><strong>AKT-inhibitor sensitivity</strong>: PIK3R1-knockdown LAPC4 and 22RV1 cells were more sensitive to <a href="../drugs/mk-2206.html">MK-2206</a> (active at 100 nM) than controls. The PIK3R1-mutant organoid MSK-PCa3 (Asn564Asp) showed strong growth reduction with MK-2206 and <a href="../drugs/ipatasertib.html">ipatasertib</a> at 10 nM, whereas PIK3R1–wild-type MSK-PCa1 (also PTEN-deleted) was only modestly affected. MDA-MB-231 (TNBC) cells with PIK3R1 knockdown also showed enhanced sensitivity to both AKT inhibitors.</li>
 <li><strong>FDG-PET imaging (n=313 MSK-IMPACT prostate patients)</strong>: among all major oncogenic signaling pathways and recurrent driver mutations in mCRPC, <strong>only PIK3R1 driver alterations were significantly associated with elevated FDG uptake</strong> (n=10, p=0.002, FDR=0.039). Across primary+mCSPC+mCRPC samples, PIK3R1-altered tumors had significantly higher SUVpeak (p&lt;0.001). Notably, PTEN loss was <em>not</em> associated with FDG uptake.</li>
-<li><strong>Pan-cancer (MSK-IMPACT, 15 solid tumors)</strong>: PIK3R1 driver alterations most frequent in endometrial cancer (~25%). Low PIK3R1 mRNA was associated with worse <a href="../cancer_types/OS.html">OS</a> in gastric, liver, and non-small cell lung cancer (KM-plotter datasets).</li>
+<li><strong>Pan-cancer (MSK-IMPACT, 15 solid tumors)</strong>: PIK3R1 driver alterations most frequent in endometrial cancer (~25%). Low PIK3R1 mRNA was associated with worse OS in gastric, liver, and non-small cell lung cancer (KM-plotter datasets).</li>
 <li><strong>Breast cancer</strong>: 29/1,261 (2.3%) metastatic breast tumors carried PIK3R1 alterations; PIK3R1 and PIK3CA mutations were mutually exclusive (p&lt;0.001). PIK3R1-altered metastatic breast cancer had shorter OS than PIK3CA-altered (HR 2.82, 95% CI 1.56–5.12, p&lt;0.001), attenuated but still trending after adjustment (HR 1.84, p=0.05). In HR+/HER2- metastatic breast cancer, PIK3R1 alteration vs PIK3CA-altered: HR 5.65 (1.66–19.16, p=0.005). PIK3R1 alteration was enriched in TNBC (16/176, 9.1%), and PIK3R1 mRNA was attenuated in basal/TNBC vs other subtypes in METABRIC.</li>
 </ul>
 </section>

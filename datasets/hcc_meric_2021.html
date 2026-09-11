@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -204,11 +207,11 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Seven significantly mutated genes identified by MutSigCV and OncodriveFML: <a href="../genes/ALB.html">ALB</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/AXIN1.html">AXIN1</a>, <a href="../genes/CDKN1A.html">CDKN1A</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/GPAM.html">GPAM</a> (7.4% vs 1.8% in prior meta-analysis, Fisher p=0.001; 7/9 frameshift; knockdown increased proliferation in HepG2/Huh7 — candidate tumor suppressor). <a href="../papers/35508466.html">PMID:35508466</a></li>
 <li><a href="../genes/CTNNB1.html">CTNNB1</a> and <a href="../genes/TP53.html">TP53</a> mutations are mutually exclusive (Fisher p=0.012); <a href="../genes/CTNNB1.html">CTNNB1</a> mutants are lower-grade and immune-desert; <a href="../genes/TP53.html">TP53</a> mutants are higher-grade and HBV-associated. <a href="../papers/35508466.html">PMID:35508466</a></li>
-<li>Three integrative iCluster subtypes with clinical significance: Cluster 1 (ECM/angiogenesis/amino-acid metabolism), Cluster 2 (metabolic/fatty-acid, CTNNB1-enriched, improved <a href="../cancer_types/OS.html">OS</a> p=0.015), Cluster 3 (proliferative/chromatin, TP53-enriched, poor <a href="../cancer_types/OS.html">OS</a> p=0.005, macrovascular invasion p=0.01). <a href="../papers/35508466.html">PMID:35508466</a></li>
+<li>Three integrative iCluster subtypes with clinical significance: Cluster 1 (ECM/angiogenesis/amino-acid metabolism), Cluster 2 (metabolic/fatty-acid, CTNNB1-enriched, improved OS p=0.015), Cluster 3 (proliferative/chromatin, TP53-enriched, poor OS p=0.005, macrovascular invasion p=0.01). <a href="../papers/35508466.html">PMID:35508466</a></li>
 <li>Kinase Substrate Enrichment Analysis (KSEA) in <a href="../cancer_types/HCC.html">HCC</a> vs normal liver revealed increased <a href="../genes/AURKA.html">AURKA</a>, <a href="../genes/CDK1.html">CDK1</a>/<a href="../genes/CDK2.html">CDK2</a>/<a href="../genes/CDK5.html">CDK5</a>/<a href="../genes/CDK7.html">CDK7</a>, <a href="../genes/MAPK1.html">MAPK1</a>/<a href="../genes/MAPK3.html">MAPK3</a>, and <a href="../genes/PLK1.html">PLK1</a> activity — nominated as candidate HCC therapeutic targets. <a href="../papers/35508466.html">PMID:35508466</a></li>
 <li>Five recurrent GISTIC2 peaks (1p36.23 del, 1q21.3 amp, 6p21.2 amp, 8q22.2 amp, 8q24.13 amp) harbor 19 cis-regulated dysregulated genes including <a href="../genes/CHD1L.html">CHD1L</a>, <a href="../genes/NUDCD1.html">NUDCD1</a>, <a href="../genes/UBQLN4.html">UBQLN4</a>, <a href="../genes/BYSL.html">BYSL</a>, <a href="../genes/ATP6V1C1.html">ATP6V1C1</a>, <a href="../genes/RRM2B.html">RRM2B</a>, and <a href="../genes/YWHAZ.html">YWHAZ</a>. <a href="../papers/35508466.html">PMID:35508466</a></li>
 <li>mRNA–protein fold-change correlation across HCC vs normal liver: Spearman ρ=0.33 (p&lt;0.0001); 37.7% concordantly up, 24.8% concordantly down, 37.5% discordant — substantial post-transcriptional regulation. <a href="../papers/35508466.html">PMID:35508466</a></li>
-<li>Multivariate Cox analysis (independent of BCLC) identified <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/GPAM.html">GPAM</a>, <a href="../genes/KEAP1.html">KEAP1</a>, and <a href="../genes/TSC2.html">TSC2</a> mutations as associated with poor <a href="../cancer_types/OS.html">OS</a>; CTNNB1-enriched cluster 2 with improved <a href="../cancer_types/OS.html">OS</a>. <a href="../papers/35508466.html">PMID:35508466</a></li>
+<li>Multivariate Cox analysis (independent of BCLC) identified <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/GPAM.html">GPAM</a>, <a href="../genes/KEAP1.html">KEAP1</a>, and <a href="../genes/TSC2.html">TSC2</a> mutations as associated with poor OS; CTNNB1-enriched cluster 2 with improved OS. <a href="../papers/35508466.html">PMID:35508466</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">

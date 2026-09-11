@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -286,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>“PBRM1 was the only gene in which truncating, or loss-of-function (LOF) … mutations were enriched in tumors from patients in the CB vs.&nbsp;NCB group (9/11 vs.&nbsp;3/13; Fisher’s exact p=0.012, q=0.086, odds ratio for CB=12.93, 95% C.I. 1.54–190.8)” (Results, discovery cohort).</li>
 <li>“Tumors from CB patients were more likely to harbor truncating alterations in PBRM1 (17/27 vs.&nbsp;4/19, Fisher’s exact p=0.0071, odds ratio for CB=6.10, 95% C.I. 1.42–32.64)” (Results, validation cohort).</li>
-<li>“Patients whose tumors showed biallelic PBRM1 loss had significantly prolonged <a href="../cancer_types/OS.html">OS</a> and PFS compared to patients without PBRM1 LOF (log-rank p=0.0074 and p=0.029, respectively)” (Results).</li>
+<li>“Patients whose tumors showed biallelic PBRM1 loss had significantly prolonged OS and PFS compared to patients without PBRM1 LOF (log-rank p=0.0074 and p=0.029, respectively)” (Results).</li>
 <li>“GSEA … revealed five gene sets whose expression was significantly enriched in cell lines that were PBAF-deficient. These included genes linked to IL6/JAK-STAT3 signaling, TNF-α signaling via NF-κB, and IL2/STAT5 signaling” (Results, Fig. 4A).</li>
 <li>“<a href="../genes/VHL.html">VHL</a> mutation status did not correlate with immune-related gene expression … suggesting that observed differences in immune gene expression in the context of PBRM1 LOF may be specific to the PBRM1 gene” (Results).</li>
 <li>“the progression-free survival benefit conferred by PBRM1 LOF was more prominent in tumors from previously-treated patients compared to those from patients receiving anti-PD-1 therapy as their first cancer therapy (p=0.009)” (Results).</li>

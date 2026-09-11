@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -182,18 +185,19 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>ES is characterized by recurrent EWSR1-rearrangements (canonical <code>EWSR1::FLI1</code> t(11;22)); secondary alterations involve <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, and <a href="../genes/STAG2.html">STAG2</a>.</li>
 <li>CCLE pharmacogenomic profiling included Ewing sarcoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses <a href="../papers/22460905.html">PMID:22460905</a></li>
-<li>EWS::<a href="../genes/FLI1.html">FLI1</a> expression in human embryonic mesenchymal stem cells (heMSCs) alone is sufficient to impose an ES-like transcriptome, directly upregulate <a href="../genes/BRCA1.html">BRCA1</a> while impairing ATM/ATR-mediated DNA damage response, and generate metastatic Ewing-like tumors in NOD/SCID mice (40% penetrance), supporting heMSCs as the cell of origin. <a href="../papers/25186949.html">PMID:25186949</a></li>
+<li>EWS::<a href="../genes/FLI1.html">FLI1</a> expression in human embryonic mesenchymal stem cells (heMSCs) alone is sufficient to impose an ES-like transcriptome, directly upregulate <a href="../genes/BRCA1.html">BRCA1</a> while impairing ATM/ATR-mediated DNA damage response, and generate metastatic Ewing-like tumors in NOD/SCID mice (40% penetrance), supporting heMSCs as the cell of origin. <a href="../papers/41136396.html">PMID:41136396</a></li>
 <li>WGS of 112 Ewing sarcoma tumors (extended to 299 patients) identified <a href="../genes/STAG2.html">STAG2</a> (17%), <a href="../genes/CDKN2A.html">CDKN2A</a> deletion (12%), <a href="../genes/TP53.html">TP53</a> (7%), and epigenetic regulators EZH2/BCOR/ZMYM3 (2.7% each) as recurrently mutated; <a href="../genes/STAG2.html">STAG2</a>+<a href="../genes/TP53.html">TP53</a> co-mutation defined a high-risk subtype with markedly inferior survival <a href="../papers/25223734.html">PMID:25223734</a></li>
 <li>One odontogenic tumor harboring an EWSR1-FLI1 fusion in the MSK-IMPACT cohort (Morris et al.) was reclassified from ‘ameloblastic carcinoma’ to Ewing sarcoma with epithelial differentiation, illustrating that EWSR1-FLI1 fusions can occur in unusual anatomic sites and require histologic re-evaluation <a href="../papers/27442865.html">PMID:27442865</a>.</li>
 <li>PIPseq cohort identified EWSR1-FLI1 fusion as diagnostic in two Ewing sarcoma patients; one patient additionally showed low PAX8/FHIT/CASP10/CHD2 expression and high CHD11/FUS/MTA1 expression as a poor-prognosis transcriptomic signature; <a href="../genes/APC.html">APC</a> V1822D VOUS also returned in one ES patient <a href="../papers/28007021.html">PMID:28007021</a></li>
-<li><a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> in-frame fusion sarcoma of the bladder initially diagnosed as extraskeletal Ewing sarcoma based on <a href="../genes/CD99.html">CD99</a> positivity and <a href="../genes/EWSR1.html">EWSR1</a> FISH; RNA-seq identified <a href="../genes/BEND2.html">BEND2</a> (not an ETS family gene) as partner — reclassifying to EWSR1-non-ETS undifferentiated sarcoma per WHO 2020 <a href="../papers/28199314.html">PMID:28199314</a></li>
+<li><a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> in-frame fusion sarcoma of the bladder initially diagnosed as extraskeletal Ewing sarcoma based on <a href="../genes/CD99.html">CD99</a> positivity and <a href="../genes/EWSR1.html">EWSR1</a> FISH; RNA-seq identified <a href="../genes/BEND2.html">BEND2</a> (not an ETS family gene) as partner — reclassifying to EWSR1-non-ETS undifferentiated sarcoma per WHO 2020 <a href="../papers/41102727.html">PMID:41102727</a></li>
 <li>In the MSK-IMPACT pan-cancer cohort, EWSR1-FLI1 was detected in 25 Ewing sarcoma (ES) cases — the 4th most common rearrangement overall (after TMPRSS2-ERG n=151, EGFRvIII n=65, EML4-ALK n=38); ES was included among 62 principal tumor types in <a href="../datasets/msk_impact_2017.html">msk_impact_2017</a>. <a href="../papers/28481359.html">PMID:28481359</a></li>
-<li>ES (Ewing sarcoma) was used as a 3D model test bed; A673 spheroids in anchored-droplet microfluidic chips yielded IC50 measurements for <a href="../drugs/cisplatin.html">cisplatin</a> + <a href="../drugs/etoposide.html">etoposide</a> combinations consistent with 96-well plates, and synergy was greater when <a href="../drugs/etoposide.html">etoposide</a> preceded <a href="../drugs/cisplatin.html">cisplatin</a>. <a href="../papers/30643250.html">PMID:30643250</a></li>
+<li>ES (Ewing sarcoma) was used as a 3D model test bed; A673 spheroids in anchored-droplet microfluidic chips yielded IC50 measurements for <a href="../drugs/cisplatin.html">cisplatin</a> + <a href="../drugs/etoposide.html">etoposide</a> combinations consistent with 96-well plates, and synergy was greater when <a href="../drugs/etoposide.html">etoposide</a> preceded <a href="../drugs/cisplatin.html">cisplatin</a>. <a href="../papers/41103502.html">PMID:41103502</a></li>
 <li>Ewing sarcoma PDX models in PPTC cohort: EWSR1-FLI1 fusion in all RNA-seq-profiled models; <a href="../genes/TP53.html">TP53</a> mutations in 7/10 (70%); homozygous CDKN2A/B loss in 60% (mutually exclusive with <a href="../genes/STAG2.html">STAG2</a> mutations 20%); CHLA-258 additionally harbored FLI1-RP11-9L18.2 <a href="../papers/31693904.html">PMID:31693904</a>.</li>
 <li>Ewing sarcoma (ES) was enrolled in the MAPPYACTS trial (sarcomas 37% of 787 patients); <a href="../genes/EWSR1.html">EWSR1</a> fusions were covered in the sarcoma oncomap; 17% ORR with matched therapy (38% for ready-for-routine-use alterations) <a href="../papers/35292802.html">PMID:35292802</a></li>
 <li>Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, <a href="../datasets/mixed_kunga_msk_2022.html">mixed_kunga_msk_2022</a>); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients <a href="../papers/35585047.html">PMID:35585047</a></li>
 <li>In a 7,494-sarcoma cohort, Ewing sarcoma was among the translocation-associated histologies; EWSR1-FLI1 fusions were characteristic; <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, and <a href="../genes/STAG2.html">STAG2</a> alterations carry prognostic weight <a href="../papers/35705558.html">PMID:35705558</a>.</li>
 <li>In the 2,138-sarcoma MSK-IMPACT cohort (n=99 ES), 10% harbored <a href="../genes/STAG2.html">STAG2</a> mutations co-occurring with <a href="../genes/TP53.html">TP53</a> alterations; <a href="../cancer_types/DSRCT.html">DSRCT</a> and ES had the lowest intra-subtype genomic entropy <a href="../papers/35705560.html">PMID:35705560</a>.</li>
+<li>In 173 EWSR1-rearranged Ewing sarcomas (147 <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/FLI1.html">FLI1</a>, 26 EWSR1::<a href="../genes/ERG.html">ERG</a>) profiled by MSK-IMPACT, chromoplexy occurred in 31% of cases (42% for EWSR1::ERG vs 24% for EWSR1::FLI1, P=0.03), was significantly enriched among tumors metastatic at presentation (31% vs 10%, P=0.004), and chromosome 8 gain independently predicted worse OS in localized disease (P=0.034) <a href="../papers/38335254.html">PMID:38335254</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -214,23 +218,20 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/39305899.html">PMID:39305899</a> — UCLA sarcoma PDTO biobank with pharmacotyping across sarcoma subtypes including ES.</li>
 </ul>
 <hr>
-<p><em>Page last touched by entity-page-writer on 2026-05-01.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22460905.html">PMID:22460905</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25186949.html">PMID:25186949</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25223734.html">PMID:25223734</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27442865.html">PMID:27442865</a> — Morris et al.&nbsp;2017 (JAMA Oncol). EWSR1-FLI1 fusion reclassified an odontogenic ‘ameloblastic carcinoma’ as Ewing sarcoma with epithelial differentiation.</p>
+<p><em>Page last touched by entity-page-writer on 2026-05-01.</em> - <a href="../papers/22460905.html">PMID:22460905</a> - <a href="../papers/41136396.html">PMID:41136396</a> - <a href="../papers/25223734.html">PMID:25223734</a> - <a href="../papers/27442865.html">PMID:27442865</a> — Morris et al.&nbsp;2017 (JAMA Oncol). EWSR1-FLI1 fusion reclassified an odontogenic ‘ameloblastic carcinoma’ as Ewing sarcoma with epithelial differentiation.</p>
 <ul>
 <li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
-<li><p><a href="../papers/28199314.html">PMID:28199314</a> — Halava et al.&nbsp;2025; <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma initially classified as extraskeletal ES; EWSR1-non-ETS reclassification by RNA-seq.</p></li>
+<li><p><a href="../papers/41102727.html">PMID:41102727</a> — Halava et al.&nbsp;2025; <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma initially classified as extraskeletal ES; EWSR1-non-ETS reclassification by RNA-seq.</p></li>
 <li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
+<li><p><a href="../papers/41103502.html">PMID:41103502</a></p></li>
+<li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
+<li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
+<li><p><a href="../papers/35585047.html">PMID:35585047</a></p></li>
+<li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
+<li><p><a href="../papers/35705560.html">PMID:35705560</a></p></li>
+<li><p><a href="../papers/38335254.html">PMID:38335254</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30643250.html">PMID:30643250</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35292802.html">PMID:35292802</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

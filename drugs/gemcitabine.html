@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,21 +181,27 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Urothelial cancer (mUC)</strong>: gemcitabine + <a href="../drugs/cisplatin.html">cisplatin</a> (GC) is the standard cytotoxic backbone in metastatic urothelial carcinoma; the CALGB 90601 cohort profiled cfDNA dynamics under GC ± <a href="../drugs/bevacizumab.html">bevacizumab</a>. <a href="../papers/40256659.html">PMID:40256659</a></li>
 <li>143 metastatic gallbladder carcinoma patients received gemcitabine/platinum (mostly <a href="../drugs/cisplatin.html">cisplatin</a>) as first-line chemotherapy among 233 <a href="../cancer_types/GBC.html">GBC</a> cases profiled with MSK-IMPACT at MSK (2014–2021) <a href="../papers/36228155.html">PMID:36228155</a></li>
 <li>Combined with <a href="../drugs/saridegib.html">saridegib</a> (IPI-926, Smoothened inhibitor) in a co-clinical <a href="../cancer_types/PAAD.html">PAAD</a> trial (NCT01130142); despite positive preclinical signal in GEM mice, the human phase II arm was halted for inferior survival, illustrating risks of preclinical-to-clinical translation without chronic-dosing validation <a href="../papers/23999436.html">PMID:23999436</a>.</li>
-<li>Cisplatin + gemcitabine is the standard chemotherapy backbone for R/M <a href="../cancer_types/NPC.html">NPC</a>; multiple anti-PD-1 combination trials add ICIs to this doublet <a href="../papers/24952746.html">PMID:24952746</a></li>
-<li>Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with <a href="../drugs/cisplatin.html">cisplatin</a>, with <a href="../drugs/durvalumab.html">durvalumab</a> addition showing incremental benefit; molecular profiling at diagnosis recommended per ESMO guidelines before targeted therapy sequencing <a href="../papers/25526346.html">PMID:25526346</a></li>
-<li>Referenced as part of standard chemotherapy backbones for CCA treatment in the context of novel combination strategies with targeted agents such as <a href="../drugs/futibatinib.html">futibatinib</a> <a href="../papers/25608663.html">PMID:25608663</a></li>
-<li>Antimetabolite; contraindicated throughout pregnancy (teratogenic) in young-onset NSCLC patients despite being a standard component of first-line NSCLC regimens <a href="../papers/27346245.html">PMID:27346245</a></li>
+<li>Cisplatin + gemcitabine is the standard chemotherapy backbone for R/M <a href="../cancer_types/NPC.html">NPC</a>; multiple anti-PD-1 combination trials add ICIs to this doublet <a href="../papers/41002550.html">PMID:41002550</a></li>
+<li>Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with <a href="../drugs/cisplatin.html">cisplatin</a>, with <a href="../drugs/durvalumab.html">durvalumab</a> addition showing incremental benefit; molecular profiling at diagnosis recommended per ESMO guidelines before targeted therapy sequencing <a href="../papers/41008893.html">PMID:41008893</a></li>
+<li>Referenced as part of standard chemotherapy backbones for CCA treatment in the context of novel combination strategies with targeted agents such as <a href="../drugs/futibatinib.html">futibatinib</a> <a href="../papers/41018102.html">PMID:41018102</a></li>
+<li>Antimetabolite; contraindicated throughout pregnancy (teratogenic) in young-onset <a href="../cancer_types/NSCLC.html">NSCLC</a> patients despite being a standard component of first-line NSCLC regimens <a href="../papers/40958859.html">PMID:40958859</a></li>
 <li><a href="../drugs/cisplatin.html">Cisplatin</a> + gemcitabine (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); 72 tumors from 32 patients profiled by WES showed only 28.4% shared mutations between matched pre- and post-chemotherapy samples, with gemcitabine-cisplatin driving clonal selection for <a href="../genes/L1CAM.html">L1CAM</a>/integrin-pathway and APOBEC3A-enriched clones <a href="../papers/27749842.html">PMID:27749842</a></li>
 <li>In the multi-institutional Phase II (Herman et al, n=49), gemcitabine (up to 3 weekly doses) combined with 33 Gy/5 fx SBRT achieved 79% 1-year local control and 13.9-month median OS in unresectable locally advanced <a href="../cancer_types/PAAD.html">PAAD</a>, with only 2% acute and 6% late grade 3+ GI toxicity — the reference standard for SBRT-concurrent chemotherapy in pancreatic cancer <a href="../papers/27826200.html">PMID:27826200</a></li>
-<li>Used in combination with docetaxel (16 cycles) in EWSR1::BEND2 bladder sarcoma after progression and nephrotoxicity on ISG/SSG IV protocol; disease approximately stable on docetaxel + gemcitabine; patient died at 26 months post-diagnosis <a href="../papers/28199314.html">PMID:28199314</a>.</li>
+<li>Used in combination with <a href="../drugs/docetaxel.html">docetaxel</a> (16 cycles) in <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma after progression and nephrotoxicity on ISG/SSG IV protocol; disease approximately stable on docetaxel + gemcitabine; patient died at 26 months post-diagnosis <a href="../papers/41102727.html">PMID:41102727</a>.</li>
 <li>In orthotopic bladder cancer xenografts (SCBO-3 and SCBO-5 arms, n=4–8 mice/arm), gemcitabine (100 mg/kg twice-weekly IP) produced significant tumor-size reductions on ultrasound with increased cleaved caspase-3 on histology <a href="../papers/29625057.html">PMID:29625057</a></li>
 <li>Used as first-line chemotherapy (gemcitabine/platinum) in 80% of 158 advanced cholangiocarcinoma patients; median time to progression 8.8 months; gemcitabine/nab-paclitaxel was an alternative first-line regimen <a href="../papers/29848569.html">PMID:29848569</a></li>
 <li>Gemcitabine/cisplatin (GC) was one of the two cisplatin-based neoadjuvant chemotherapy regimens (alongside MVAC) used in the 288 MSKCC MIBC patients; the differential pathologic response of primary vs secondary MIBC was observed across both NAC regimens <a href="../papers/30290956.html">PMID:30290956</a>.</li>
-<li>In a UTUC PDX model (UCC03), gemcitabine alone significantly inhibited tumor growth (p=0.0065); UCC19 PDX (source patient had durable response, off therapy 15 months) was highly sensitive to Gem/Carbo (p&lt;0.0001) and carried truncating RECQL4 F987* mutation as a candidate DDR biomarker of platinum/gemcitabine sensitivity <a href="../papers/32332851.html">PMID:32332851</a></li>
-<li>Background chemotherapy in iCCA; HAIC with floxuridine (HR 0.45, P=0.003) improved OS independently of genomic profile in locally advanced, unresectable iCCA patients on systemic therapy <a href="../papers/33765338.html">PMID:33765338</a></li>
+<li>In a <a href="../cancer_types/UTUC.html">UTUC</a> PDX model (UCC03), gemcitabine alone significantly inhibited tumor growth (p=0.0065); UCC19 PDX (source patient had durable response, off therapy 15 months) was highly sensitive to Gem/Carbo (p&lt;0.0001) and carried truncating <a href="../genes/RECQL4.html">RECQL4</a> F987* mutation as a candidate DDR biomarker of platinum/gemcitabine sensitivity <a href="../papers/32332851.html">PMID:32332851</a></li>
+<li>Background chemotherapy in iCCA; HAIC with <a href="../drugs/floxuridine.html">floxuridine</a> (HR 0.45, P=0.003) improved OS independently of genomic profile in locally advanced, unresectable iCCA patients on systemic therapy <a href="../papers/33765338.html">PMID:33765338</a></li>
 <li>In a single-institution MSKCC retrospective study of 573 liver-limited <a href="../cancer_types/IHCH.html">IHCH</a> patients (2000–2018), systemic chemotherapy alone (N=140) produced median OS of 11.2 months in node-positive disease vs 18–20 months for locoregional approaches; the authors note a high proportion of SYS patients did not receive gemcitabine-plus-platinum first-line (the current standard), which may further depress the SYS arm’s survival <a href="../papers/33963001.html">PMID:33963001</a>.</li>
-<li>In PDAC, CEACAM6 overexpression (enriched in KRAS G12D/G12V/Q61H tumors) has been linked to gemcitabine resistance and reduced cytolytic T-cell activity; this CPTAC proteogenomic study (n=140, paad_cptac_2021) corroborates CEACAM6 upregulation in specific KRAS hotspot contexts <a href="../papers/34534465.html">PMID:34534465</a></li>
-<li>RRM2B (p53R2, ribonucleotide reductase subunit) is nominated as a candidate gemcitabine target in the HCC phosphoproteogenomic dataset; authors cite reports that RRM2B may be preferentially targeted by gemcitabine in hypoxic tumor conditions <a href="../papers/35508466.html">PMID:35508466</a></li>
+<li>In PDAC, <a href="../genes/CEACAM6.html">CEACAM6</a> overexpression (enriched in <a href="../genes/KRAS.html">KRAS</a> G12D/G12V/Q61H tumors) has been linked to gemcitabine resistance and reduced cytolytic T-cell activity; this CPTAC proteogenomic study (n=140, <a href="../datasets/paad_cptac_2021.html">paad_cptac_2021</a>) corroborates CEACAM6 upregulation in specific KRAS hotspot contexts <a href="../papers/34534465.html">PMID:34534465</a></li>
+<li><a href="../genes/RRM2B.html">RRM2B</a> (p53R2, ribonucleotide reductase subunit) is nominated as a candidate gemcitabine target in the <a href="../cancer_types/HCC.html">HCC</a> phosphoproteogenomic dataset; authors cite reports that RRM2B may be preferentially targeted by gemcitabine in hypoxic tumor conditions <a href="../papers/35508466.html">PMID:35508466</a></li>
+<li>Post-protocol, gemcitabine-carboplatin was the most common subsequent therapy (14/25 patients) after progression on <a href="../drugs/atezolizumab.html">atezolizumab</a>; historical first-line gemcitabine-carboplatin OS (9.3 months) is contrasted with 15.9 months for atezolizumab in this cisplatin-ineligible mUC cohort <a href="../papers/27939400.html">PMID:27939400</a>.</li>
+<li>Backbone chemotherapy (1,000 mg/m² IV days 1/8/15) with <a href="../drugs/nab-paclitaxel.html">nab-paclitaxel</a> in the PRINCE trial (NCT03214250), combined with <a href="../drugs/nivolumab.html">nivolumab</a>, <a href="../drugs/sotigalimab.html">sotigalimab</a>, or both in first-line metastatic pancreatic ductal adenocarcinoma; the nivolumab/chemo arm met the primary 1-year OS endpoint (57.7%, P=0.006) <a href="../papers/35662283.html">PMID:35662283</a>.</li>
+<li>Gemcitabine-cisplatin (GC) was the comparator neoadjuvant arm to dose-dense MVAC in SWOG S1314 (muscle-invasive bladder cancer), in a trial testing DDR alterations as predictors of pathologic response <a href="../papers/39499893.html">PMID:39499893</a>.</li>
+<li>Used in two exceptional immune-checkpoint-blockade responders in a UTUC cohort: one (TMB-high, MSS) received gemcitabine/carboplatin then <a href="../drugs/infigratinib.html">infigratinib</a> (BGJ398) then nivolumab; another (TMB-high, MSI-H, Lynch syndrome) received gemcitabine/cisplatin then <a href="../drugs/pembrolizumab.html">pembrolizumab</a> <a href="../papers/39550333.html">PMID:39550333</a>.</li>
+<li>Backbone of the NIAGARA trial regimen (cisplatin/gemcitabine ± <a href="../drugs/durvalumab.html">durvalumab</a>) and of nivolumab plus cisplatin/gemcitabine (CheckMate 901), cited as context for the evolving first-line urothelial carcinoma landscape <a href="../papers/39642637.html">PMID:39642637</a>.</li>
+<li>A HER2-amplified gallbladder cancer patient progressed on FOLFOX then gemcitabine/cisplatin before responding to the HER2 bispecific antibody <a href="../drugs/zanidatamab.html">zanidatamab</a> <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -215,13 +224,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/39753968.html">PMID:39753968</a> — MSK PDAC prospective sequencing cohort; gemcitabine±<a href="../drugs/nab-paclitaxel.html">nab-paclitaxel</a> as standard-of-care reference.</p></li>
 <li><p><a href="../papers/40256659.html">PMID:40256659</a> — CALGB 90601 mUC cfDNA dynamics; GC backbone.</p></li>
 <li><p><a href="../papers/23999436.html">PMID:23999436</a></p></li>
-<li><p><a href="../papers/24952746.html">PMID:24952746</a></p></li>
-<li><p><a href="../papers/25526346.html">PMID:25526346</a></p></li>
-<li><p><a href="../papers/25608663.html">PMID:25608663</a></p></li>
-<li><p><a href="../papers/27346245.html">PMID:27346245</a></p></li>
+<li><p><a href="../papers/41002550.html">PMID:41002550</a></p></li>
+<li><p><a href="../papers/41008893.html">PMID:41008893</a></p></li>
+<li><p><a href="../papers/41018102.html">PMID:41018102</a></p></li>
+<li><p><a href="../papers/40958859.html">PMID:40958859</a></p></li>
 <li><p><a href="../papers/27749842.html">PMID:27749842</a></p></li>
 <li><p><a href="../papers/27826200.html">PMID:27826200</a></p></li>
-<li><p><a href="../papers/28199314.html">PMID:28199314</a></p></li>
+<li><p><a href="../papers/41102727.html">PMID:41102727</a></p></li>
 <li><p><a href="../papers/29625057.html">PMID:29625057</a></p></li>
 <li><p><a href="../papers/29848569.html">PMID:29848569</a></p></li>
 <li><p><a href="../papers/30290956.html">PMID:30290956</a></p></li>
@@ -231,8 +240,14 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/34534465.html">PMID:34534465</a></p></li>
 <li><p><a href="../papers/35508466.html">PMID:35508466</a></p></li>
 <li><p><a href="../papers/36228155.html">PMID:36228155</a></p></li>
+<li><p><a href="../papers/27939400.html">PMID:27939400</a></p></li>
+<li><p><a href="../papers/35662283.html">PMID:35662283</a></p></li>
+<li><p><a href="../papers/39499893.html">PMID:39499893</a></p></li>
+<li><p><a href="../papers/39550333.html">PMID:39550333</a></p></li>
+<li><p><a href="../papers/39642637.html">PMID:39642637</a></p></li>
+<li><p><a href="../papers/42360806.html">PMID:42360806</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

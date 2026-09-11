@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,15 +180,16 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/27806376.html">PMID:27806376</a> — plate-based Smart-Seq2 scRNA-seq on 4,347 FACS-sorted live single cells from 6 untreated IDH-mutant, 1p/19q co-deleted oligodendrogliomas (MGH36/53/54/60/93/97); identified three transcriptional states (oligodendrocytic, astrocytic, stem/progenitor) constituting a developmental hierarchy conserved across genetic subclones <a href="../papers/27806376.html">PMID:27806376</a>.</li>
 <li><a href="../papers/34493726.html">PMID:34493726</a> — Smart-Seq2 scRNA-seq and snRNA-seq (nuc-Seq) on 11 neuroblastoma tumors (4,224 nuclei) and 3 postnatal human adrenal glands (1,536 nuclei); identified an undifferentiated nC3 cluster in high-risk tumors transcriptionally resembling a novel postnatal human cholinergic progenitor (hC1), distinguishing high- from low-risk disease <a href="../papers/34493726.html">PMID:34493726</a>.</li>
 <li>Applied to 156 multi-site <a href="../cancer_types/HGSOC.html">HGSOC</a> biopsy samples (~930k cells total) from 42 treatment-naive patients; resolved site-specific T cell phenotypic states: adnexal sites enriched for dysfunctional CD8+ T cells, non-adnexal/metastatic sites enriched for naive/memory T cells <a href="../papers/36517593.html">PMID:36517593</a></li>
-<li>Single-cell RNA-seq performed on 259,441 cells from three public ccRCC cohorts to validate FGES signatures; a subset of 22,456 cells used for spatial validation in the HiTME ccRCC subtyping study <a href="../papers/22138691.html">PMID:22138691</a></li>
-<li>Applied to 147,045 FAC-sorted tdTomato+ cells from Vhl/HIF conditional knockout mice (4 genotypes, 12 mice) to resolve HIFα-isoform–specific transcriptional programs in proximal tubular cells; revealed <a href="../genes/HIF1A.html">HIF1A</a> drives glycolysis while HIF2A drives dedifferentiation <a href="../papers/23797736.html">PMID:23797736</a></li>
-<li>Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 <a href="../cancer_types/GBC.html">GBC</a> patients) to identify 16 cell types including <a href="../genes/ACTA2.html">ACTA2</a>+ and <a href="../genes/MFAP5.html">MFAP5</a>+ CAF subpopulations with co-expression of <a href="../genes/YAP1.html">YAP1</a> and <a href="../genes/SEMA7A.html">SEMA7A</a> <a href="../papers/24997986.html">PMID:24997986</a></li>
-<li>Single-cell RNA sequencing with consensus hierarchical clustering (Deng M, cited) classified CCA into BA-active vs BA-inactive metabolic subtypes; BA-active subtype showed shorter <a href="../cancer_types/OS.html">OS</a> and immunotherapy resistance with <a href="../genes/SLCO1B3.html">SLCO1B3</a> and <a href="../genes/CEACAM1.html">CEACAM1</a> as prognostic markers <a href="../papers/25608663.html">PMID:25608663</a></li>
-<li>10x Chromium Single Cell Gene Expression 3’v3.1 applied across multiple AAV-CRISPR rat breast tumor genotypes; UMAP showed genotype-driven immune microenvironment differences: adaptive immune enrichment in single-edit tumors, myeloid-dominated immunosuppression (macrophage vs neutrophil dichotomy) in multi-edit tumors <a href="../papers/26437033.html">PMID:26437033</a></li>
+<li>Single-cell RNA-seq performed on 259,441 cells from three public ccRCC cohorts to validate FGES signatures; a subset of 22,456 cells used for spatial validation in the HiTME ccRCC subtyping study <a href="../papers/40834854.html">PMID:40834854</a></li>
+<li>Applied to 147,045 FAC-sorted tdTomato+ cells from Vhl/HIF conditional knockout mice (4 genotypes, 12 mice) to resolve HIFα-isoform–specific transcriptional programs in proximal tubular cells; revealed <a href="../genes/HIF1A.html">HIF1A</a> drives glycolysis while HIF2A drives dedifferentiation <a href="../papers/41102155.html">PMID:41102155</a></li>
+<li>Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 <a href="../cancer_types/GBC.html">GBC</a> patients) to identify 16 cell types including <a href="../genes/ACTA2.html">ACTA2</a>+ and <a href="../genes/MFAP5.html">MFAP5</a>+ CAF subpopulations with co-expression of <a href="../genes/YAP1.html">YAP1</a> and <a href="../genes/SEMA7A.html">SEMA7A</a> <a href="../papers/40830485.html">PMID:40830485</a></li>
+<li>Single-cell RNA sequencing with consensus hierarchical clustering (Deng M, cited) classified CCA into BA-active vs BA-inactive metabolic subtypes; BA-active subtype showed shorter OS and immunotherapy resistance with <a href="../genes/SLCO1B3.html">SLCO1B3</a> and <a href="../genes/CEACAM1.html">CEACAM1</a> as prognostic markers <a href="../papers/41018102.html">PMID:41018102</a></li>
+<li>10x Chromium Single Cell Gene Expression 3’v3.1 applied across multiple AAV-CRISPR rat breast tumor genotypes; UMAP showed genotype-driven immune microenvironment differences: adaptive immune enrichment in single-edit tumors, myeloid-dominated immunosuppression (macrophage vs neutrophil dichotomy) in multi-edit tumors <a href="../papers/41000773.html">PMID:41000773</a></li>
 <li>inDrop/TruDrop scRNA-seq (dropkick QC) on 62 colorectal polyp/tumor specimens (128 datasets, 142,065 cells) in the COLON MAP HTAN atlas; identified adenoma-specific (ASC) and serrated-specific (SSC) neoplastic cell populations <a href="../papers/34910928.html">PMID:34910928</a></li>
-<li>Training data for OncoMark derived from 3.1 million single-cell transcriptomes (941 patients, 14 tumor sites, Weizmann 3CA repository); pseudo-bulk profiles generated from scRNA-seq to train the hallmark-activity MTL classifier <a href="../papers/35121966.html">PMID:35121966</a></li>
+<li>Training data for OncoMark derived from 3.1 million single-cell transcriptomes (941 patients, 14 tumor sites, Weizmann 3CA repository); pseudo-bulk profiles generated from scRNA-seq to train the hallmark-activity MTL classifier <a href="../papers/41057477.html">PMID:41057477</a></li>
 <li>Single-cell RNA-seq (including SMART-seq2 reference from 11 patients) used alongside bulk deconvolution to map neoplastic and non-neoplastic cell states in longitudinal diffuse glioma, defining stem-like, proliferating stem-like, and mesenchymal-like populations <a href="../papers/35649412.html">PMID:35649412</a></li>
 <li>Cited as a single-cell transcriptomics modality advancing precision health through cell-type-resolved expression profiling; positioned within the multi-omics integration framework alongside bulk RNA-seq, ATAC-seq, and proteomics <a href="../papers/37119971.html">PMID:37119971</a></li>
+<li>Profiled 83 primary tumor/metastasis/normal-colon samples from 31 MSS/pMMR colorectal cancer patients (10x Genomics 3’ v3.1), yielding 47,437 epithelial cell profiles <a href="../papers/39478232.html">PMID:39478232</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -202,19 +206,19 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/41941260.html">PMID:41941260</a></li>
 <li><a href="../papers/27806376.html">PMID:27806376</a></li>
 <li><a href="../papers/34493726.html">PMID:34493726</a></li>
+<li><a href="../papers/36517593.html">PMID:36517593</a></li>
+<li><a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../papers/41102155.html">PMID:41102155</a></li>
+<li><a href="../papers/40830485.html">PMID:40830485</a></li>
+<li><a href="../papers/41018102.html">PMID:41018102</a></li>
+<li><a href="../papers/41000773.html">PMID:41000773</a></li>
+<li><a href="../papers/34910928.html">PMID:34910928</a></li>
+<li><a href="../papers/41057477.html">PMID:41057477</a></li>
+<li><a href="../papers/35649412.html">PMID:35649412</a></li>
+<li><a href="../papers/37119971.html">PMID:37119971</a></li>
+<li><a href="../papers/39478232.html">PMID:39478232</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/36517593.html">PMID:36517593</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/22138691.html">PMID:22138691</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/23797736.html">PMID:23797736</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24997986.html">PMID:24997986</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25608663.html">PMID:25608663</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26437033.html">PMID:26437033</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/34910928.html">PMID:34910928</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/35121966.html">PMID:35121966</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/35649412.html">PMID:35649412</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/37119971.html">PMID:37119971</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-09-10</strong>.</em></p>
 
 
 </section>

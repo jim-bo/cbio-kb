@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Uterine Corpus Endometrial Carcinoma (TCGA, PanCancer Atlas 2018)</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The TCGA Uterine Corpus Endometrial Carcinoma PanCancer Atlas 2018 cohort is the <a href="../cancer_types/UCEC.html">UCEC</a> arm of the TCGA PanCancer Atlas, available in cBioPortal as <code>ucec_tcga_pan_can_atlas_2018</code>. It covers approximately 529 uterine corpus endometrial carcinoma samples with uniformly reprocessed mutation calls (MC3 pipeline), copy-number, and RNA-seq expression. C8:<a href="../cancer_types/UCEC.html">UCEC</a> was one of eight pan-cancer iClusters dominated by a single tumor type, with POLE-mutation-driven hypermutation enriched in this iCluster. UCEC is notable for the highest PI3K-pathway alteration rates among CN-low (95%) and CN-high (86%) non-hypermutated subtypes, and for HER2+PI3K co-targeting opportunity in 7% of CN-high UCEC. All four clinical endpoints are recommended without reservation for UCEC by TCGA-CDR.</p>
+<p>The TCGA Uterine Corpus Endometrial Carcinoma PanCancer Atlas 2018 cohort is the <a href="../cancer_types/UCEC.html">UCEC</a> arm of the TCGA PanCancer Atlas, available in cBioPortal as <code>ucec_tcga_pan_can_atlas_2018</code>. It covers approximately 529 uterine corpus endometrial carcinoma samples with uniformly reprocessed mutation calls (MC3 pipeline), copy-number, and RNA-seq expression. C8:<a href="../cancer_types/UCEC.html">UCEC</a> was one of eight pan-cancer iClusters dominated by a single tumor type, with POLE-mutation-driven hypermutation enriched in this iCluster. <a href="../cancer_types/UCEC.html">UCEC</a> is notable for the highest PI3K-pathway alteration rates among CN-low (95%) and CN-high (86%) non-hypermutated subtypes, and for HER2+PI3K co-targeting opportunity in 7% of CN-high UCEC. All four clinical endpoints are recommended without reservation for UCEC by TCGA-CDR.</p>
 </section>
 <section id="composition" class="level2">
 <h2 class="anchored" data-anchor-id="composition">Composition</h2>
@@ -195,6 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/29625048.html">PMID:29625048</a> — TCGA PanCancer Atlas integrative molecular analysis (Hoadley et al., 2018)</li>
 <li><a href="../papers/29625049.html">PMID:29625049</a> — TCGA PanCancer Atlas pan-cancer driver and germline analysis (Ding et al., 2018)</li>
 <li><a href="../papers/29625055.html">PMID:29625055</a> — TCGA Pan-Cancer Clinical Data Resource (Liu et al., 2018)</li>
+<li><a href="../papers/39031567.html">PMID:39031567</a> — used 529 whole-exome-sequenced TCGA ECs as an external validation cohort, finding <a href="../genes/ERBB2.html">ERBB2</a> mutation prevalence of 15/529 (2.8%) (Brodeur et al., Mol Oncol 2024)</li>
 </ul>
 </section>
 <section id="notable-findings-derived-from-this-cohort" class="level2">
@@ -204,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/TP53.html">TP53</a> drives one of two mutually-exclusive UCEC driver networks (with <a href="../genes/PPP2R1A.html">PPP2R1A</a>); <a href="../genes/TP53.html">TP53</a> mutually exclusive with <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/FGFR3.html">FGFR3</a> pan-cancer; MSI-H UCEC tumors over-express immune effectors GZMA/PRF1/GZMK/GZMH (KS P&lt;0.01). <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li>PI3K pathway dominant in UCEC: non-hypermutated CN-low 95% and CN-high 86% alteration frequencies — highest in the pan-cancer cohort; HER2+PI3K co-targeting opportunity in 7% of CN-high UCEC. <a href="../papers/29625049.html">PMID:29625049</a></li>
 <li><a href="../genes/SOS1.html">SOS1</a> activating mutations present in ~1% of uterine carcinomas independent of subtype. <a href="../papers/29625049.html">PMID:29625049</a></li>
-<li>All four clinical endpoints (<a href="../cancer_types/OS.html">OS</a>, PFI, DFI, DSS) are recommended without reservation for UCEC by TCGA-CDR. <a href="../papers/29625055.html">PMID:29625055</a></li>
+<li>All four clinical endpoints (OS, PFI, DFI, DSS) are recommended without reservation for UCEC by TCGA-CDR. <a href="../papers/29625055.html">PMID:29625055</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
@@ -214,8 +218,9 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/29625048.html">PMID:29625048</a></li>
 <li><a href="../papers/29625049.html">PMID:29625049</a></li>
 <li><a href="../papers/29625055.html">PMID:29625055</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

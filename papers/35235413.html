@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -251,10 +254,10 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Allelic imbalance (AI):</strong> AI favoring the oncogenic allele occurred in 26/80 CRC-DD mutations vs 119/232 CRC-SD mutations (32.5% v 51.3%, P=.0026). AI was enriched in KRAS in CRC-DD (P=.038). <strong>No BRAF V600E mutation in CRC-DD showed AI.</strong> Both CRC-DD with clonal KRAS + clonal BRAF V600E were MSI-H without mutant AI.</li>
 <li><strong>MSI-H enrichment:</strong> 27% of CRC-DD were MSI-H v 8.7% across CRC-SD (P=.0004). All BRAF V600E mutants in CRC-DD were MSI-H. No CRC-DD harbored <a href="../genes/POLE.html">POLE</a> exonuclease domain hotspot mutations.</li>
 <li><strong>C→T / G→A transitions enriched in MAPK drivers of MSI-H CRC-DD</strong> (P=.043, one-tailed) — consistent with MSI-H/MMR-deficiency signature preceding the MAPK mutation chronologically.</li>
-<li><strong>Lower genomic instability in CRC-DD:</strong> mean fraction of genome altered (<a href="../genes/FGA.html">FGA</a>) 0.325±0.224 v 0.511±0.244 in CRC-SD (P=7.99×10⁻⁹); difference persisted in MSS-only subset (P=2.67×10⁻⁷).</li>
+<li><strong>Lower genomic instability in CRC-DD:</strong> mean fraction of genome altered (FGA) 0.325±0.224 v 0.511±0.244 in CRC-SD (P=7.99×10⁻⁹); difference persisted in MSS-only subset (P=2.67×10⁻⁷).</li>
 <li><strong>Multiregional sequencing (7 CRC-DD):</strong> 5/7 retained both driver mutations across all sampled sites. The 2 discordant cases were both MSI-H — P-0001237 (BRAF V600E + KRAS G13D in primary; only BRAF V600E in abdominal wall and liver mets) and P-0039163 (KRAS G12D + K117N in primary; only KRAS G12D in liver met; primary was MSI-H, liver met was MSS).</li>
 <li><strong>Tumor evolution (P-0021518 infSCITE):</strong> <a href="../genes/APC.html">APC</a> S1505Afs, <a href="../genes/PTEN.html">PTEN</a> I135V, and <a href="../genes/TP53.html">TP53</a> C275Y were the earliest events, followed by NRAS G13D, a second <a href="../genes/APC.html">APC</a> mutation (I1008Yfs), and finally KRAS G12C.</li>
-<li><strong>Survival:</strong> No significant difference in overall survival between CRC-DD and CRC-SD (P=.07) or wild-type RAS/RAF CRC (P=.80). Median <a href="../cancer_types/OS.html">OS</a>: CRC-DD 63.5 months (95% CI 56.1–NR) v CRC-SD 42.9 months (95% CI 38.9–53.1). Multivariate Cox: single-mutant status HR=1.74 (95% CI 1.34–2.30, P&lt;.001) vs RAS/RAF wild-type reference.</li>
+<li><strong>Survival:</strong> No significant difference in overall survival between CRC-DD and CRC-SD (P=.07) or wild-type RAS/RAF CRC (P=.80). Median OS: CRC-DD 63.5 months (95% CI 56.1–NR) v CRC-SD 42.9 months (95% CI 38.9–53.1). Multivariate Cox: single-mutant status HR=1.74 (95% CI 1.34–2.30, P&lt;.001) vs RAS/RAF wild-type reference.</li>
 <li><strong>Atypical KRAS pairing:</strong> 4 cases (9%) showed atypical KRAS V14I in combination with a canonical KRAS mutation.</li>
 <li><strong>No significant difference between CRC-DD and CRC-SD in:</strong> <a href="../genes/PIK3CA.html">PIK3CA</a>, APC, or <a href="../genes/TP53.html">TP53</a> mutation prevalence (P&gt;.05); median age at diagnosis (56 v 54 years, P=.23); proximal tumor location prevalence (53% v 47%, P=.43).</li>
 </ul>

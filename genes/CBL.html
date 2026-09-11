@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,24 +173,26 @@ ul.task-list li input[type="checkbox"] {
 <h1>CBL</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates receptor tyrosine kinase (RTK) signaling through ubiquitin-mediated receptor degradation. Loss-of-function alterations in CBL impair RTK downregulation, contributing to prolonged MAPK/ERK and PI3K pathway activation. In cancer genomics, CBL appears primarily as a co-alteration with other MAPK pathway lesions, particularly in tumors with NF1 loss or BRAF Class 3 mutations.</p>
+<p>CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates receptor tyrosine kinase (RTK) signaling through ubiquitin-mediated receptor degradation. Loss-of-function alterations in CBL impair RTK downregulation, contributing to prolonged MAPK/ERK and PI3K pathway activation. In cancer genomics, CBL appears primarily as a co-alteration with other MAPK pathway lesions, particularly in tumors with <a href="../genes/NF1.html">NF1</a> loss or <a href="../genes/BRAF.html">BRAF</a> Class 3 mutations.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>CBL is identified as a secondary “backseat” RTK-RAS regulator in melanoma; CBL alterations co-occur with NF1 loss-of-function and BRAF Class 3 mutations, contributing to co-alteration patterns in MSK-IMPACT–profiled melanoma (mel_mskimpact_2020) <a href="../papers/33509808.html">PMID:33509808</a>.</li>
+<li>CBL is identified as a secondary “backseat” RTK-RAS regulator in melanoma; CBL alterations co-occur with NF1 loss-of-function and BRAF Class 3 mutations, contributing to co-alteration patterns in MSK-IMPACT–profiled melanoma (<a href="../datasets/mel_mskimpact_2020.html">mel_mskimpact_2020</a>) <a href="../papers/33509808.html">PMID:33509808</a>.</li>
+<li>CBL mutations had a previously published survival effect in <a href="../cancer_types/MDS.html">MDS</a>; clonal and subclonal CBL mutations carried equivalent leukemia-free-survival risk <a href="../papers/24030381.html">PMID:24030381</a>.</li>
+<li>CBL deep deletion was among the acquired copy-number alterations seen at metastasis in the MSK-BR-WGS-05 paired primary-to-metastasis breast cancer case <a href="../papers/40379787.html">PMID:40379787</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong>Melanoma (MEL):</strong> CBL alterations observed as co-alterations in tumors with NF1 mutations or BRAF Class 3 mutations, part of a 28-gene RTK-RAS driver landscape characterized in 1,145 MSK-IMPACT–profiled melanomas <a href="../papers/33509808.html">PMID:33509808</a>.</li>
+<li><strong>Melanoma (<a href="../cancer_types/MEL.html">MEL</a>):</strong> CBL alterations observed as co-alterations in tumors with NF1 mutations or BRAF Class 3 mutations, part of a 28-gene RTK-RAS driver landscape characterized in 1,145 MSK-IMPACT–profiled melanomas <a href="../papers/33509808.html">PMID:33509808</a>.</li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>Co-occurs with NF1 loss-of-function, BRAF Class 3 mutations, and other RTK-RAS pathway genes (PTPN11, RASA1, RAC1, SOS1, SPRED1, ARAF, RAF1) in melanoma <a href="../papers/33509808.html">PMID:33509808</a>.</li>
+<li>Co-occurs with NF1 loss-of-function, BRAF Class 3 mutations, and other RTK-RAS pathway genes (<a href="../genes/PTPN11.html">PTPN11</a>, <a href="../genes/RASA1.html">RASA1</a>, <a href="../genes/RAC1.html">RAC1</a>, <a href="../genes/SOS1.html">SOS1</a>, <a href="../genes/SPRED1.html">SPRED1</a>, <a href="../genes/ARAF.html">ARAF</a>, <a href="../genes/RAF1.html">RAF1</a>) in melanoma <a href="../papers/33509808.html">PMID:33509808</a>.</li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
@@ -206,8 +211,10 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/33509808.html">PMID:33509808</a></li>
+<li><a href="../papers/24030381.html">PMID:24030381</a></li>
+<li><a href="../papers/40379787.html">PMID:40379787</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

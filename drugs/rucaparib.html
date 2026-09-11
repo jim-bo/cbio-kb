@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,9 +178,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>The MSK PDAC 2024 cohort (n=2,336) analyzed outcomes in n=29 stage-IV patients who received a PARPi (class includes rucaparib, <a href="../drugs/olaparib.html">olaparib</a>, <a href="../drugs/niraparib.html">niraparib</a>, <a href="../drugs/veliparib.html">veliparib</a>). 38% (11/29) had ≥6 months on therapy; 10/11 long-responders had biallelic <a href="../genes/BRCA2.html">BRCA2</a> mutations. However, 6/16 BRCA2-mutant tumors with biallelic loss did not benefit, indicating biallelic <a href="../genes/BRCA2.html">BRCA2</a> loss is necessary but not sufficient for durable PARPi response. <a href="../papers/39753968.html">PMID:39753968</a></li>
 <li>One <a href="../genes/BAP1.html">BAP1</a> loss-of-function fusion tumor (BRCA1/2 wild-type, MAPK-WT) also received durable PARPi benefit, pointing to broader HRD beyond BRCA1/2 as a predictive context. <a href="../papers/39753968.html">PMID:39753968</a></li>
-<li>Rucaparib directly targets PARP1/PARP2; in BRCA1/2-wild-type mCRPC, resistance to PARP inhibitors (including rucaparib) may be driven by high <a href="../genes/TRMT10A.html">TRMT10A</a> expression, which supports <a href="../genes/BRCA1.html">BRCA1</a> recruitment to DNA double-strand breaks via ATM-mediated Ser28 phosphorylation <a href="../papers/28068672.html">PMID:28068672</a></li>
+<li>Rucaparib directly targets PARP1/PARP2; in BRCA1/2-wild-type mCRPC, resistance to PARP inhibitors (including rucaparib) may be driven by high <a href="../genes/TRMT10A.html">TRMT10A</a> expression, which supports <a href="../genes/BRCA1.html">BRCA1</a> recruitment to DNA double-strand breaks via ATM-mediated Ser28 phosphorylation <a href="../papers/41071892.html">PMID:41071892</a></li>
 <li>Among uLMS patients with somatic <a href="../genes/BRCA2.html">BRCA2</a> alterations, PARP-inhibitor-containing therapy (including rucaparib) produced sustained partial responses; no significant CDK12/DDR co-occurrence was detected in the CDK12-altered mCRPC cohort, consistent with limited PARP inhibitor efficacy in CDK12-altered disease reported by TRITON2 and TOPARP-B <a href="../papers/32299819.html">PMID:32299819</a></li>
 <li>Authors invoke the ARIEL3 precedent (rucaparib benefit in BRCA-wildtype, high-gLOH ovarian cancer) to motivate genome-wide LOH (gLOH ≥19.3%) as a candidate biomarker for PARP-inhibitor benefit in sarcoma; 15% of 4,619 evaluable sarcomas had high gLOH, largely unexplained by canonical HRD-gene alterations <a href="../papers/35705558.html">PMID:35705558</a>.</li>
+<li>Matched to PARP-pathway gene alterations (6.9% of solitary fibrous tumors) as a candidate PARP inhibitor therapy alongside <a href="../drugs/niraparib.html">niraparib</a> and <a href="../drugs/olaparib.html">olaparib</a>. <a href="../papers/37980418.html">PMID:37980418</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -195,14 +199,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/39753968.html">PMID:39753968</a> — Zhu et al.&nbsp;2024, MSK PDAC cohort (<a href="../datasets/pdac_msk_2024.html">pdac_msk_2024</a>); PARPi outcomes in BRCA2-mutant PDAC.</li>
+<li><p><a href="../papers/39753968.html">PMID:39753968</a> — Zhu et al.&nbsp;2024, MSK PDAC cohort (<a href="../datasets/pdac_msk_2024.html">pdac_msk_2024</a>); PARPi outcomes in BRCA2-mutant PDAC.</p></li>
+<li><p><a href="../papers/41071892.html">PMID:41071892</a> — Yang et al., TRMT10A/USP10 axis in mCRPC; rucaparib named as PARPi class member; high <a href="../genes/TRMT10A.html">TRMT10A</a> expression tracks with PARPi resistance across the class.</p></li>
+<li><p><a href="../papers/32299819.html">PMID:32299819</a></p></li>
+<li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
+<li><p><a href="../papers/37980418.html">PMID:37980418</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28068672.html">PMID:28068672</a> — Yang et al., TRMT10A/USP10 axis in mCRPC; rucaparib named as PARPi class member; high <a href="../genes/TRMT10A.html">TRMT10A</a> expression tracks with PARPi resistance across the class.</p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32299819.html">PMID:32299819</a></p>
-<ul>
-<li><a href="../papers/35705558.html">PMID:35705558</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -173,32 +176,32 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="used-by">Used by</h2>
 <ul>
 <li>Anti-SMARCA4 (BRG1) IHC performed on 9 of 12 SCCOHT cases; confirmed loss of <a href="../genes/SMARCA4.html">SMARCA4</a> nuclear staining in all evaluable cases with nonsense/splice-site mutations; the paper proposes <a href="../genes/SMARCA4.html">SMARCA4</a> IHC loss as a diagnostic adjunct for SCCOHT <a href="../papers/24658004.html">PMID:24658004</a>.</li>
-<li>IHC triplet (<a href="../genes/GPC3.html">GPC3</a> + HSP70 + glutamine synthetase) endorsed by EASL guidelines for discriminating early <a href="../cancer_types/HCC.html">HCC</a> from high-grade dysplastic nodules: 46–72% sensitivity, 100% specificity; <a href="../genes/FGFR1.html">FGFR1</a> IHC showed protein up-regulation in 17.3% of 50 primary ESCCs; <a href="../genes/FBXW7.html">FBXW7</a> protein loss detected in 33% of 40 <a href="../cancer_types/ESCC.html">ESCC</a> tumors <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>IHC triplet (<a href="../genes/GPC3.html">GPC3</a> + HSP70 + glutamine synthetase) endorsed by EASL guidelines for discriminating early <a href="../cancer_types/HCC.html">HCC</a> from high-grade dysplastic nodules: 46–72% sensitivity, 100% specificity; <a href="../genes/FGFR1.html">FGFR1</a> IHC showed protein up-regulation in 17.3% of 50 primary ESCCs; <a href="../genes/FBXW7.html">FBXW7</a> protein loss detected in 33% of 40 <a href="../cancer_types/ESCC.html">ESCC</a> tumors <a href="../papers/25369299.html">PMID:25369299</a>.</li>
 <li>Validation IHC performed on tumor microarrays (TMAs) containing 50 primary ESCCs for <a href="../genes/FGFR1.html">FGFR1</a> and additional 40-case cohort for <a href="../genes/FBXW7.html">FBXW7</a> <a href="../papers/24686850.html">PMID:24686850</a>.</li>
-<li><a href="../genes/FGF19.html">FGF19</a> IHC used to stratify <a href="../genes/FGFR4.html">FGFR4</a> inhibitor (BLU-554) eligibility in <a href="../cancer_types/HCC.html">HCC</a>; PD-L1 IHC shown not to predict response to <a href="../drugs/nivolumab.html">nivolumab</a> or <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li>MSI / EBV status recommended to be confirmed by MMR IHC (alongside MSI-PCR or NGS-based MSI, EBV ISH) before clinical decisions in familial non-hereditary gastric cancer <a href="../papers/24816255.html">PMID:24816255</a></li>
-<li>PD-L1 expression assessed by IHC as a candidate predictive biomarker for ICI response in <a href="../cancer_types/NPC.html">NPC</a>, though not yet validated for treatment selection <a href="../papers/24952746.html">PMID:24952746</a></li>
-<li>IHC staining of 86 <a href="../cancer_types/GBC.html">GBC</a> patient tissues used to quantify stromal <a href="../genes/SEMA7A.html">SEMA7A</a> expression; high stromal <a href="../genes/SEMA7A.html">SEMA7A</a> associated with larger tumor size (P=0.006), lymph node metastasis (P=0.001), and shorter overall survival <a href="../papers/24997986.html">PMID:24997986</a></li>
-<li>Used to characterize experimental Ewing sarcoma tumors grown in NOD/SCID mice: staining for human HLA, Ku80, Flag (EWS::<a href="../genes/FLI1.html">FLI1</a>), <a href="../genes/PRKCB.html">PRKCB</a>, <a href="../genes/BRCA1.html">BRCA1</a>, Ki67, cyclin A, <a href="../genes/BCL11B.html">BCL11B</a>, and <a href="../genes/ITM2A.html">ITM2A</a>. <a href="../papers/25186949.html">PMID:25186949</a></li>
+<li><a href="../genes/FGF19.html">FGF19</a> IHC used to stratify <a href="../genes/FGFR4.html">FGFR4</a> inhibitor (BLU-554) eligibility in <a href="../cancer_types/HCC.html">HCC</a>; PD-L1 IHC shown not to predict response to <a href="../drugs/nivolumab.html">nivolumab</a> or <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li>MSI / EBV status recommended to be confirmed by MMR IHC (alongside MSI-PCR or NGS-based MSI, EBV ISH) before clinical decisions in familial non-hereditary gastric cancer <a href="../papers/41097736.html">PMID:41097736</a></li>
+<li>PD-L1 expression assessed by IHC as a candidate predictive biomarker for ICI response in <a href="../cancer_types/NPC.html">NPC</a>, though not yet validated for treatment selection <a href="../papers/41002550.html">PMID:41002550</a></li>
+<li>IHC staining of 86 <a href="../cancer_types/GBC.html">GBC</a> patient tissues used to quantify stromal <a href="../genes/SEMA7A.html">SEMA7A</a> expression; high stromal <a href="../genes/SEMA7A.html">SEMA7A</a> associated with larger tumor size (P=0.006), lymph node metastasis (P=0.001), and shorter overall survival <a href="../papers/40830485.html">PMID:40830485</a></li>
+<li>Used to characterize experimental Ewing sarcoma tumors grown in NOD/SCID mice: staining for human HLA, Ku80, Flag (EWS::<a href="../genes/FLI1.html">FLI1</a>), <a href="../genes/PRKCB.html">PRKCB</a>, <a href="../genes/BRCA1.html">BRCA1</a>, Ki67, cyclin A, <a href="../genes/BCL11B.html">BCL11B</a>, and <a href="../genes/ITM2A.html">ITM2A</a>. <a href="../papers/41136396.html">PMID:41136396</a></li>
 <li>Used to characterize seven prostate cancer organoid lines and CB17 SCID xenografts; assessed <a href="../genes/AR.html">AR</a>, <a href="../genes/SYP.html">SYP</a>, <a href="../genes/CHGA.html">CHGA</a>, CD56, cytokeratin, and other markers to define adenocarcinoma vs neuroendocrine phenotypes. <a href="../papers/25201530.html">PMID:25201530</a></li>
 <li>Used to assess <a href="../genes/STAG2.html">STAG2</a> protein expression in Ewing sarcoma primary and relapse tissue; IHC revealed clonal expansion of STAG2-null cells at relapse in 3/21 paired samples <a href="../papers/25223734.html">PMID:25223734</a></li>
 <li>IHC used for <a href="../genes/ARID1A.html">ARID1A</a> (sc-32761), p53, pERK (Cell Signaling 4370), and p63 (Biolegend 619002) scoring in PDA; <a href="../genes/ARID1A.html">ARID1A</a> IHC validated in an independent 296-case cohort, with protein loss associated with poor overall survival (P=0.0202). <a href="../papers/25855536.html">PMID:25855536</a></li>
 <li>IHC used to assess protein expression in breast cancer samples <a href="../papers/26168399.html">PMID:26168399</a></li>
-<li>IHC used to assess protein expression levels as part of proteogenomic analysis of ovarian cancer <a href="../papers/26200345.html">PMID:26200345</a></li>
-<li>Used for ER, PR, and Ki67 staining in AAV-CRISPR-edited rat mammary tumors; demonstrated robust ER+/PR+ ductal histology in all six rat genotype groups, in contrast to ER-/PR- metaplastic phenotype produced by identical edits in mice <a href="../papers/26437033.html">PMID:26437033</a></li>
+<li>IHC used to assess protein expression levels as part of proteogenomic analysis of ovarian cancer <a href="../papers/40694421.html">PMID:40694421</a></li>
+<li>Used for ER, PR, and Ki67 staining in AAV-CRISPR-edited rat mammary tumors; demonstrated robust ER+/PR+ ductal histology in all six rat genotype groups, in contrast to ER-/PR- metaplastic phenotype produced by identical edits in mice <a href="../papers/41000773.html">PMID:41000773</a></li>
 <li>Anti-MYBL1 IHC (HPA008791 antibody) and Western blotting performed on salivary adenoid cystic carcinomas to confirm <a href="../genes/MYBL1.html">MYBL1</a> protein overexpression in MYBL1-rearranged tumors; antibody recognizes only C-terminally intact <a href="../genes/MYBL1.html">MYBL1</a> (exon 10) <a href="../papers/26631609.html">PMID:26631609</a>.</li>
 <li>IHC for <a href="../genes/MYB.html">MYB</a>, <a href="../genes/TP63.html">TP63</a>, ICN1 (active <a href="../genes/NOTCH1.html">NOTCH1</a>), <a href="../genes/KIT.html">KIT</a>, and Ki-67 performed across 19 grade-2 and 8 grade-3 ACCs; <a href="../genes/TP63.html">TP63</a> and ICN1 staining were mutually exclusive, segregating tumor grades <a href="../papers/26829750.html">PMID:26829750</a></li>
 <li>IHC for <a href="../genes/AR.html">AR</a>, synaptophysin, chromogranin A, CD56, <a href="../genes/EZH2.html">EZH2</a>, and MMR proteins used to classify 114 metastatic CRPC biopsies as adenocarcinoma or neuroendocrine histology <a href="../papers/26855148.html">PMID:26855148</a></li>
 <li>IHC used to assess <a href="../genes/AR.html">AR</a>, GR (<a href="../genes/NR3C1.html">NR3C1</a>), ER alpha/beta (<a href="../genes/ESR1.html">ESR1</a>), chromogranin A, and Ki-67 across 176 mCRPC tumors; CCP score correlated with Ki-67 by IHC (r=0.48, P&lt;0.005). IHC staining for E-cadherin (<a href="../genes/CDH1.html">CDH1</a>) showed loss in all 31 plasmacytoid bladder tumors and retention in adjacent in situ components. <a href="../papers/26928463.html">PMID:26928463</a></li>
 <li>Used on TMAs to quantify CD3+, CD8+, CD45RO+, and <a href="../genes/FOXP3.html">FOXP3</a>+ T cell densities in 299 CRC samples; CD45RO+ memory T cell density most strongly correlated with neoantigen load <a href="../papers/27149842.html">PMID:27149842</a></li>
 <li>Panel of <a href="../genes/NF2.html">NF2</a>, YAP/TAZ, p-YAP, p-S6, p-4EBP1, <a href="../genes/FH.html">FH</a>, 2SC (succination), H3K36me3, and INI1 IHC used to validate molecular subset assignments in 62 uRCC tumours. <a href="../papers/27713405.html">PMID:27713405</a></li>
-<li>IHC used to quantify <a href="../genes/TRMT10A.html">TRMT10A</a> and <a href="../genes/USP10.html">USP10</a> protein expression in 54 metastatic <a href="../cancer_types/PRAD.html">PRAD</a> tissues and 30 paired adjacent non-cancerous samples; high <a href="../genes/TRMT10A.html">TRMT10A</a> by IHC correlated with shorter <a href="../cancer_types/OS.html">OS</a> (P = 0.014, log-rank) <a href="../papers/28068672.html">PMID:28068672</a>.</li>
+<li>IHC used to quantify <a href="../genes/TRMT10A.html">TRMT10A</a> and <a href="../genes/USP10.html">USP10</a> protein expression in 54 metastatic <a href="../cancer_types/PRAD.html">PRAD</a> tissues and 30 paired adjacent non-cancerous samples; high <a href="../genes/TRMT10A.html">TRMT10A</a> by IHC correlated with shorter OS (P = 0.014, log-rank) <a href="../papers/41071892.html">PMID:41071892</a>.</li>
 <li>IHC used to assess Ki-67 in 62 <a href="../cancer_types/PCPG.html">PCPG</a> tumors; Ki-67 expression positively correlated with metastatic disease; the highest-Ki-67 tumor was <a href="../genes/MAML3.html">MAML3</a> fusion-positive <a href="../papers/28162975.html">PMID:28162975</a>.</li>
 <li>Applied immunohistochemistry to validate protein expression in tumor tissue sections <a href="../papers/28196596.html">PMID:28196596</a></li>
-<li>Used immunohistochemistry for protein marker detection in sarcoma tissue samples <a href="../papers/28199314.html">PMID:28199314</a></li>
-<li>Performed immunohistochemistry to confirm protein-level alterations in tissue samples <a href="../papers/28445112.html">PMID:28445112</a></li>
+<li>Used immunohistochemistry for protein marker detection in sarcoma tissue samples <a href="../papers/41102727.html">PMID:41102727</a></li>
+<li>Performed immunohistochemistry to confirm protein-level alterations in tissue samples <a href="../papers/41137179.html">PMID:41137179</a></li>
 <li>Ki67 immunohistochemistry performed on TMA cores in TRACERx; high Ki67 proliferation index was an independent predictor of pre-operative ctDNA detection in early-stage <a href="../cancer_types/NSCLC.html">NSCLC</a> <a href="../papers/28445469.html">PMID:28445469</a></li>
-<li>IHC for Ki67, E-cadherin, and Vimentin performed on subcutaneous DU145 and PC3 xenograft sections after <a href="../genes/NOL10.html">NOL10</a> knockdown; confirmed reduced proliferation and reduced EMT markers (lower Vimentin, higher E-cadherin) <a href="../papers/28927585.html">PMID:28927585</a></li>
+<li>IHC for Ki67, E-cadherin, and Vimentin performed on subcutaneous DU145 and PC3 xenograft sections after <a href="../genes/NOL10.html">NOL10</a> knockdown; confirmed reduced proliferation and reduced EMT markers (lower Vimentin, higher E-cadherin) <a href="../papers/41062477.html">PMID:41062477</a></li>
 <li>Used for <a href="../genes/IRF4.html">IRF4</a>, <a href="../genes/BCL6.html">BCL6</a>, and CD10 protein expression as part of the Hans IHC algorithm for cell-of-origin classification in 654 DLBCL cases (cross-validated against RNA-seq, p&lt;10⁻⁶) <a href="../papers/28985567.html">PMID:28985567</a></li>
 <li>IHC performed for PD-L1 (28-8/Dako), CD3, <a href="../genes/CD4.html">CD4</a>, CD8, and <a href="../genes/FOXP3.html">FOXP3</a> with duplex chromogenic readout in 68 melanoma biopsies; PD-L1 IHC positivity selected for <a href="../drugs/nivolumab.html">nivolumab</a> response in ipilimumab-progressed patients <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li>IHC used for HER2 status assessment (3+ positive per CAP/ASCO criteria) and <a href="../genes/B2M.html">B2M</a> protein expression validation in 295 metastatic <a href="../cancer_types/EGC.html">EGC</a> patients; HER2 IHC concordance with NGS-based <a href="../genes/ERBB2.html">ERBB2</a> amplification was 93.7% <a href="../papers/29122777.html">PMID:29122777</a></li>
@@ -217,74 +220,96 @@ ul.task-list li input[type="checkbox"] {
 <li>IHC used to confirm MMR protein loss (<a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/PMS2.html">PMS2</a>) and <a href="../genes/PDCD1.html">PDCD1</a> protein loss in homozygous-deletion cases among 107 uterine sarcoma patients <a href="../papers/32299819.html">PMID:32299819</a></li>
 <li>IHC performed for MMR proteins to identify MSI-H Lynch-associated <a href="../cancer_types/UTUC.html">UTUC</a> tumors in 119-patient cohort; Masson trichrome and Picro Sirius red also used for ECM characterization <a href="../papers/32332851.html">PMID:32332851</a></li>
 <li>IHC staining for <a href="../genes/AR.html">AR</a>, CD8, and <a href="../genes/FOXC1.html">FOXC1</a> used as subtype surrogates to classify 69 refractory metastatic TNBC patients into LAR/IM/BLIS/MES subtypes in the FUTURE umbrella trial; MMR status also assessed by IHC <a href="../papers/32719455.html">PMID:32719455</a></li>
-<li>IHC with immunoreactivity score (IRS = intensity × proportion, 0–12) applied to 80-patient CRC tissue microarray; <a href="../genes/CGREF1.html">CGREF1</a> overexpressed (IRS ≥4) in 61.25% of CRC vs 0% of normal tissues (p=0.00001); MMR assessed by IHC <a href="../papers/32888432.html">PMID:32888432</a></li>
+<li>IHC with immunoreactivity score (IRS = intensity × proportion, 0–12) applied to 80-patient CRC tissue microarray; <a href="../genes/CGREF1.html">CGREF1</a> overexpressed (IRS ≥4) in 61.25% of CRC vs 0% of normal tissues (p=0.00001); MMR assessed by IHC <a href="../papers/41125935.html">PMID:41125935</a></li>
 <li>IHC used to validate <a href="../genes/ATRX.html">ATRX</a> protein loss in 9 ATRX-mutant GBMs, immune subtypes (CD3, <a href="../genes/CD68.html">CD68</a>, CD163, PD-1, PD-L1), and EGFR-related proteins (<a href="../genes/SOX9.html">SOX9</a>, <a href="../genes/GAB1.html">GAB1</a>); xCell-based immune subtypes confirmed by IHC on 99-tumor CPTAC <a href="../cancer_types/GBM.html">GBM</a> cohort <a href="../papers/33577785.html">PMID:33577785</a></li>
-<li>Used for MMR protein testing (MLH1, <a href="../genes/MSH2.html">MSH2</a>, MSH6, <a href="../genes/PMS2.html">PMS2</a>) in 94 Nigerian CRC tumors; protein deficiency reached 21.3% (20/94), concordant with MSIsensor-based MSI-H rate of 28.1% <a href="../papers/34819518.html">PMID:34819518</a></li>
+<li>Used for MMR protein testing (<a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/PMS2.html">PMS2</a>) in 94 Nigerian CRC tumors; protein deficiency reached 21.3% (20/94), concordant with MSIsensor-based MSI-H rate of 28.1% <a href="../papers/34819518.html">PMID:34819518</a></li>
 <li>Iterative-chromogen multiplexed IHC (MxIHC) used in the COLON MAP colorectal polyp atlas; proposed <a href="../genes/MUC5AC.html">MUC5AC</a>+/CDX2-low staining as a diagnostic biomarker for sessile serrated lesions <a href="../papers/34910928.html">PMID:34910928</a></li>
 <li>IHC for <a href="../genes/ASCL1.html">ASCL1</a>, <a href="../genes/NEUROD1.html">NEUROD1</a>, <a href="../genes/POU2F3.html">POU2F3</a>, and <a href="../genes/YAP1.html">YAP1</a> subtype markers performed on 37 <a href="../cancer_types/SCLC.html">SCLC</a> PDX and 19 clinical samples; <a href="../genes/YAP1.html">YAP1</a> protein was consistently absent or very low across all models <a href="../papers/35440124.html">PMID:35440124</a>.</li>
 <li>Used in <a href="../datasets/prostate_pcbm_swiss_2019.html">prostate_pcbm_swiss_2019</a> for <a href="../genes/ERG.html">ERG</a>, p53, <a href="../genes/PTEN.html">PTEN</a>, Chromogranin-A, Synaptophysin, PSA, CK5/6, and p63 protein assessment in 168 prostate cancer brain metastasis samples; <a href="../genes/ERG.html">ERG</a> IHC correlated with TMPRSS2-ERG fusions (Pearson r=0.70, P&lt;2.2×10⁻¹⁶) <a href="../papers/35504881.html">PMID:35504881</a></li>
 <li>Multiplex IHC applied across 49 aSCLC specimens for pRb, p53, <a href="../genes/ASCL1.html">ASCL1</a>, <a href="../genes/NEUROD1.html">NEUROD1</a>, <a href="../genes/POU2F3.html">POU2F3</a>, <a href="../genes/YAP1.html">YAP1</a>, <a href="../genes/DLL3.html">DLL3</a>, <a href="../genes/SEZ6.html">SEZ6</a>, <a href="../genes/OTP.html">OTP</a>, p16 (<a href="../genes/CDKN2A.html">CDKN2A</a>), and MLH1/PMS2; cell-cycle pathway deregulation confirmed at protein level in 75% of samples; paradoxical p16 overexpression identified in chr 12 chromothripsis cases <a href="../papers/39185963.html">PMID:39185963</a></li>
+<li>Used (multiplex CD3/CD8 and CD3/CD4/FOXP3 stains) to quantify on-treatment immune infiltrate changes in paired nivolumab-treated metastatic <a href="../cancer_types/RCC.html">RCC</a> biopsies <a href="../papers/27169994.html">PMID:27169994</a>.</li>
+<li>Used (VENTANA SP142 assay) to score PD-L1 on tumor-infiltrating immune cells in an <a href="../drugs/atezolizumab.html">atezolizumab</a> cisplatin-ineligible urothelial carcinoma trial (IMvigor210 cohort 1) <a href="../papers/27939400.html">PMID:27939400</a>.</li>
+<li>Used (beyond PD-L1 SP142) to assess CD31 vascular density and CD8 T-cell infiltration in IMmotion150 renal cell carcinoma tumors <a href="../papers/29867230.html">PMID:29867230</a>.</li>
+<li>Used for CD3 and PD-L1 IHC scoring alongside proteogenomic and PAM50 subtyping in a neoadjuvant chemotherapy TNBC cohort <a href="../papers/36001024.html">PMID:36001024</a>.</li>
+<li>Used for <a href="../genes/STAT6.html">STAT6</a> IHC as a diagnostic surrogate for NAB2-STAT6 fusion, plus multiplex immune-marker staining, across four solitary fibrous tumor cohorts <a href="../papers/37980418.html">PMID:37980418</a>.</li>
+<li>Used (E-cadherin and p120 staining) to confirm loss of E-cadherin protein expression in CDH1-wild-type invasive lobular carcinomas <a href="../papers/38347189.html">PMID:38347189</a>.</li>
+<li>Used (HER2 clone 4B5) to score HER2 protein expression in ERBB2-mutant endometrial carcinomas on the same tissue block used for sequencing <a href="../papers/39031567.html">PMID:39031567</a>.</li>
+<li>Used (VENTANA SP142 assay) to score PD-L1 on tumor-infiltrating immune cells in the long-term IMvigor210 follow-up analysis of atezolizumab-treated urothelial carcinoma <a href="../papers/39642637.html">PMID:39642637</a>.</li>
+<li>Used (<a href="../genes/SDHB.html">SDHB</a> staining) to confirm SDH-deficiency status in SDHB-related paraganglioma/pheochromocytoma tumors <a href="../papers/40097403.html">PMID:40097403</a>.</li>
+<li>Used (HER2 IHC) to track <a href="../genes/ERBB2.html">ERBB2</a> amplification status in matched pre-/post-treatment biliary tract cancer biopsies, including a case showing HER2 IHC 2+/no-amplification escape after response to <a href="../drugs/zanidatamab.html">zanidatamab</a> <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
 <ul>
 <li>IHC alone can miss functionally inactivating alterations (e.g., in-frame <a href="../genes/SMARCA4.html">SMARCA4</a> exonic deletions that retain protein expression); sequencing required for complete ascertainment <a href="../papers/24658004.html">PMID:24658004</a>.</li>
-<li>The <a href="../genes/GPC3.html">GPC3</a> + HSP70 + GS triplet is an EASL-endorsed clinical standard for early <a href="../cancer_types/HCC.html">HCC</a> diagnosis from biopsy <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>The <a href="../genes/GPC3.html">GPC3</a> + HSP70 + GS triplet is an EASL-endorsed clinical standard for early <a href="../cancer_types/HCC.html">HCC</a> diagnosis from biopsy <a href="../papers/25369299.html">PMID:25369299</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24816255.html">PMID:24816255</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24952746.html">PMID:24952746</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24997986.html">PMID:24997986</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25186949.html">PMID:25186949</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25201530.html">PMID:25201530</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25223734.html">PMID:25223734</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/25855536.html">PMID:25855536</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26168399.html">PMID:26168399</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26200345.html">PMID:26200345</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26437033.html">PMID:26437033</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26631609.html">PMID:26631609</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26829750.html">PMID:26829750</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26855148.html">PMID:26855148</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26928463.html">PMID:26928463</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27149842.html">PMID:27149842</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28068672.html">PMID:28068672</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28162975.html">PMID:28162975</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28196596.html">PMID:28196596</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28199314.html">PMID:28199314</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28445112.html">PMID:28445112</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28445469.html">PMID:28445469</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28927585.html">PMID:28927585</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28985567.html">PMID:28985567</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29625057.html">PMID:29625057</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29848569.html">PMID:29848569</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30052636.html">PMID:30052636</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30537516.html">PMID:30537516</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31061129.html">PMID:31061129</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31130341.html">PMID:31130341</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31278255.html">PMID:31278255</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31564440.html">PMID:31564440</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31591597.html">PMID:31591597</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32299819.html">PMID:32299819</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32332851.html">PMID:32332851</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32719455.html">PMID:32719455</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32888432.html">PMID:32888432</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33577785.html">PMID:33577785</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34819518.html">PMID:34819518</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34910928.html">PMID:34910928</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35440124.html">PMID:35440124</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/39185963.html">PMID:39185963</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<ul>
+<li><a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><a href="../papers/41097736.html">PMID:41097736</a></li>
+<li><a href="../papers/41002550.html">PMID:41002550</a></li>
+<li><a href="../papers/40830485.html">PMID:40830485</a></li>
+<li><a href="../papers/41136396.html">PMID:41136396</a></li>
+<li><a href="../papers/25201530.html">PMID:25201530</a></li>
+<li><a href="../papers/25223734.html">PMID:25223734</a></li>
+<li><a href="../papers/25855536.html">PMID:25855536</a></li>
+<li><a href="../papers/26168399.html">PMID:26168399</a></li>
+<li><a href="../papers/40694421.html">PMID:40694421</a></li>
+<li><a href="../papers/41000773.html">PMID:41000773</a></li>
+<li><a href="../papers/26631609.html">PMID:26631609</a></li>
+<li><a href="../papers/26829750.html">PMID:26829750</a></li>
+<li><a href="../papers/26855148.html">PMID:26855148</a></li>
+<li><a href="../papers/26928463.html">PMID:26928463</a></li>
+<li><a href="../papers/27149842.html">PMID:27149842</a></li>
+<li><a href="../papers/27713405.html">PMID:27713405</a></li>
+<li><a href="../papers/41071892.html">PMID:41071892</a></li>
+<li><a href="../papers/28162975.html">PMID:28162975</a></li>
+<li><a href="../papers/28196596.html">PMID:28196596</a></li>
+<li><a href="../papers/41102727.html">PMID:41102727</a></li>
+<li><a href="../papers/41137179.html">PMID:41137179</a></li>
+<li><a href="../papers/28445469.html">PMID:28445469</a></li>
+<li><a href="../papers/41062477.html">PMID:41062477</a></li>
+<li><a href="../papers/28985567.html">PMID:28985567</a></li>
+<li><a href="../papers/29033130.html">PMID:29033130</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/29301960.html">PMID:29301960</a></li>
+<li><a href="../papers/29316426.html">PMID:29316426</a></li>
+<li><a href="../papers/29625057.html">PMID:29625057</a></li>
+<li><a href="../papers/29848569.html">PMID:29848569</a></li>
+<li><a href="../papers/30052636.html">PMID:30052636</a></li>
+<li><a href="../papers/30068706.html">PMID:30068706</a></li>
+<li><a href="../papers/30537516.html">PMID:30537516</a></li>
+<li><a href="../papers/31061129.html">PMID:31061129</a></li>
+<li><a href="../papers/31130341.html">PMID:31130341</a></li>
+<li><a href="../papers/31278255.html">PMID:31278255</a></li>
+<li><a href="../papers/31564440.html">PMID:31564440</a></li>
+<li><a href="../papers/31591597.html">PMID:31591597</a></li>
+<li><a href="../papers/32299819.html">PMID:32299819</a></li>
+<li><a href="../papers/32332851.html">PMID:32332851</a></li>
+<li><a href="../papers/32719455.html">PMID:32719455</a></li>
+<li><a href="../papers/41125935.html">PMID:41125935</a></li>
+<li><a href="../papers/33577785.html">PMID:33577785</a></li>
+<li><a href="../papers/34819518.html">PMID:34819518</a></li>
+<li><a href="../papers/34910928.html">PMID:34910928</a></li>
+<li><a href="../papers/35440124.html">PMID:35440124</a></li>
+<li><a href="../papers/35504881.html">PMID:35504881</a></li>
+<li><a href="../papers/39185963.html">PMID:39185963</a></li>
+<li><a href="../papers/27169994.html">PMID:27169994</a></li>
+<li><a href="../papers/27939400.html">PMID:27939400</a></li>
+<li><a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><a href="../papers/36001024.html">PMID:36001024</a></li>
+<li><a href="../papers/37980418.html">PMID:37980418</a></li>
+<li><a href="../papers/38347189.html">PMID:38347189</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
+<li><a href="../papers/39642637.html">PMID:39642637</a></li>
+<li><a href="../papers/40097403.html">PMID:40097403</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

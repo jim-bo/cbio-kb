@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,10 +178,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Component of CHOP/CHOEP/EPOCH/BV-CH(E)P regimens in 132 MSK nodal <a href="../cancer_types/PTCL.html">PTCL</a> patients; <a href="../genes/TP53.html">TP53</a> mutation identified patients with inferior PFS (HR 3.1, P=.005) on vincristine-containing induction <a href="../papers/37078708.html">PMID:37078708</a>.</li>
 <li>Included as part of NCCN-recommended recurrent top-five regimens for <a href="../cancer_types/RMS.html">RMS</a> (alongside <a href="../drugs/cyclophosphamide.html">cyclophosphamide</a> and <a href="../drugs/doxorubicin.html">doxorubicin</a>) in the UCLA PDTO sarcoma functional screen actionability mapping. <a href="../papers/39305899.html">PMID:39305899</a></li>
-<li>Component of ISG/SSG IV protocol (vincristine, doxorubicin, ifosfamide, etoposide) for EWSR1::BEND2 urinary-bladder sarcoma; intravesical disease cleared but pelvic and lung metastases did not respond; regimen reflects ESMO-recommended Ewing-like chemotherapy approach for EWSR1-non-ETS fusion sarcomas <a href="../papers/28199314.html">PMID:28199314</a>.</li>
+<li>Component of ISG/SSG IV protocol (vincristine, <a href="../drugs/doxorubicin.html">doxorubicin</a>, <a href="../drugs/ifosfamide.html">ifosfamide</a>, <a href="../drugs/etoposide.html">etoposide</a>) for <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> urinary-bladder sarcoma; intravesical disease cleared but pelvic and lung metastases did not respond; regimen reflects ESMO-recommended Ewing-like chemotherapy approach for EWSR1-non-ETS fusion sarcomas <a href="../papers/41102727.html">PMID:41102727</a>.</li>
 <li>Component of PCV (procarbazine/lomustine/vincristine) induction regimen used as the historical comparator arm in a phase II trial (NCT00588523) for 1p/19q-codeleted <a href="../cancer_types/ODG3.html">anaplastic oligodendroglioma (ODG3)</a>; in an exploratory cross-trial comparison, single-agent TMZ induction was non-inferior to PCV induction with the same HDC-ASCT backbone (HR 3.38 favoring TMZ for OS, P=0.005). <a href="../papers/28472509.html">PMID:28472509</a></li>
 <li>Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy; C0/C1/C4 clusters had favorable PFS/OS while C2/C3/C5 had unfavorable outcomes on R-CHOP <a href="../papers/29713087.html">PMID:29713087</a></li>
-<li>One patient (P19) in the Kothari et al.&nbsp;retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA RB1 signal despite 1596× coverage <a href="../papers/32633890.html">PMID:32633890</a>.</li>
+<li>One patient (P19) in the Kothari et al.&nbsp;retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA <a href="../genes/RB1.html">RB1</a> signal despite 1596× coverage <a href="../papers/32633890.html">PMID:32633890</a>.</li>
+<li>Vincristine is listed among the chemotherapy regimen components (with <a href="../drugs/cyclophosphamide.html">cyclophosphamide</a>, doxorubicin, <a href="../drugs/methotrexate.html">methotrexate</a>, <a href="../drugs/prednisone.html">prednisone</a>, etoposide, ifosfamide, <a href="../drugs/cytarabine.html">cytarabine</a> and <a href="../drugs/rituximab.html">rituximab</a>) used across the Burkitt lymphoma/DLBCL genomic cohort. <a href="../papers/36201743.html">PMID:36201743</a></li>
+<li>In a paraganglioma patient with lung and bone metastases, CVD chemotherapy (cyclophosphamide, vincristine, <a href="../drugs/dacarbazine.html">dacarbazine</a>) preceded a post-treatment spinal metastasis with twice as many SNVs, including new <a href="../genes/TP53.html">TP53</a>, <a href="../genes/RPL5.html">RPL5</a> and <a href="../genes/POLE.html">POLE</a> mutations. <a href="../papers/40097403.html">PMID:40097403</a></li>
+<li>Patients with MYOD1-mutant spindle cell/sclerosing rhabdomyosarcoma most commonly received neoadjuvant vincristine, <a href="../drugs/dactinomycin.html">dactinomycin</a> and cyclophosphamide (VAC) before delayed resection. <a href="../papers/41758938.html">PMID:41758938</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -199,12 +205,15 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p><a href="../papers/37078708.html">PMID:37078708</a></p></li>
 <li><p><a href="../papers/39305899.html">PMID:39305899</a> — Duminuco et al.&nbsp;2024, UCLA PDTO sarcoma screen; NCCN-recommended <a href="../cancer_types/RMS.html">RMS</a> regimen.</p></li>
-<li><p><a href="../papers/28199314.html">PMID:28199314</a></p></li>
+<li><p><a href="../papers/41102727.html">PMID:41102727</a></p></li>
 <li><p><a href="../papers/28472509.html">PMID:28472509</a> — Thomas et al.&nbsp;2017, <em>J Clin Oncol</em>. Phase II NCT00588523; vincristine as V in PCV induction comparator arm for 1p/19q-codeleted anaplastic oligodendroglioma; TMZ found non-inferior.</p></li>
+<li><p><a href="../papers/29713087.html">PMID:29713087</a></p></li>
+<li><p><a href="../papers/32633890.html">PMID:32633890</a></p></li>
+<li><p><a href="../papers/36201743.html">PMID:36201743</a></p></li>
+<li><p><a href="../papers/40097403.html">PMID:40097403</a></p></li>
+<li><p><a href="../papers/41758938.html">PMID:41758938</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29713087.html">PMID:29713087</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32633890.html">PMID:32633890</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

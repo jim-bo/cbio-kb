@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/38630790.html">PMID:38630790</a> — FACETS used to assess tumor purity and detect genomic near-haploidization (LOH &gt;80%) in 210 evaluable diffuse pleural mesothelioma patients from MSK-IMPACT sequencing <a href="../papers/38630790.html">PMID:38630790</a>.</li>
 <li><a href="../papers/38758238.html">PMID:38758238</a> — FACETS v0.5.6 used for allele-specific copy-number and LOH inference in pituitary neuroendocrine tumors; identified rcLOH pattern in 11/14 treatment-refractory corticotroph PitNETs <a href="../papers/38758238.html">PMID:38758238</a>.</li>
 <li><a href="../papers/38949888.html">PMID:38949888</a> — FACETS v0.5.6 used for copy-number analysis in 3,244 prostate cancer tumors from 2,257 patients sequenced by MSK-IMPACT <a href="../papers/38949888.html">PMID:38949888</a>.</li>
-<li><a href="../papers/39753968.html">PMID:39753968</a> — FACETS v0.5.14 used in a two-step pipeline for allele-specific copy-number inference in 2,336 PDAC patients sequenced with MSK-IMPACT; 1,555 of 2,322 tumors passed copy-number QC; FACETS output enabled classification of <a href="../genes/KRAS.html">KRAS</a> allelic imbalance events (focal/arm amplifications, gains, CNLOH, LOH, post-WGD loss) and showed that <a href="../genes/KRAS.html">KRAS</a> mutant-allele dosage gains independently predict shorter <a href="../cancer_types/OS.html">OS</a> across all clinical stages <a href="../papers/39753968.html">PMID:39753968</a>.</li>
+<li><a href="../papers/39753968.html">PMID:39753968</a> — FACETS v0.5.14 used in a two-step pipeline for allele-specific copy-number inference in 2,336 PDAC patients sequenced with MSK-IMPACT; 1,555 of 2,322 tumors passed copy-number QC; FACETS output enabled classification of <a href="../genes/KRAS.html">KRAS</a> allelic imbalance events (focal/arm amplifications, gains, CNLOH, LOH, post-WGD loss) and showed that <a href="../genes/KRAS.html">KRAS</a> mutant-allele dosage gains independently predict shorter OS across all clinical stages <a href="../papers/39753968.html">PMID:39753968</a>.</li>
 <li>Used to assess tumor purity (&gt;=25% threshold) in 22 primary-metastasis WES pairs for bladder cancer clonal evolution analysis <a href="../papers/36543146.html">PMID:36543146</a></li>
 <li>FACETS used for allele-specific copy-number estimation and clonality assessment in 151 advanced head and neck tumors sequenced with MSK-IMPACT; identified whole-genome duplication in 25% of <a href="../cancer_types/HNSC.html">HNSC</a> cases and quantified 3p deletions enriched in recurrent HPV-positive disease <a href="../papers/27442865.html">PMID:27442865</a></li>
 <li>Applied FACETS algorithm to infer somatic copy number alterations and tumor purity/ploidy from sequencing data <a href="../papers/28336552.html">PMID:28336552</a></li>
@@ -199,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 <li>v0.5.6 applied for allele-specific copy number, purity, and ploidy estimation in 107 uterine sarcoma MSK-IMPACT samples <a href="../papers/32299819.html">PMID:32299819</a></li>
 <li>Used for allele-specific copy-number and clonality inference in 26,743 MSK-IMPACT pan-cancer cohort; CDK12-Bi prostate cancer showed higher fraction of genome gain and more breakpoints consistent with tandem duplicator phenotype <a href="../papers/32317181.html">PMID:32317181</a></li>
 <li>Applied for allele-specific copy number and LOH analysis in 430 MSS mCRC patients; large state transitions (LST) computed as ≥10 Mb breaks per chromosome arm to assess HRD <a href="../papers/32730818.html">PMID:32730818</a></li>
-<li>Used for copy-number and fraction-genome-altered (<a href="../genes/FGA.html">FGA</a>) calculations across 604 <a href="../cancer_types/LUAD.html">LUAD</a> patients; <a href="../genes/FGA.html">FGA</a> correlated with histologic-subtype invasiveness (LEP 0.174, ACI/PAP 0.222, MIP/SOL 0.304) <a href="../papers/32791233.html">PMID:32791233</a></li>
+<li>Used for copy-number and fraction-genome-altered (FGA) calculations across 604 <a href="../cancer_types/LUAD.html">LUAD</a> patients; FGA correlated with histologic-subtype invasiveness (LEP 0.174, ACI/PAP 0.222, MIP/SOL 0.304) <a href="../papers/32791233.html">PMID:32791233</a></li>
 <li>Applied for allele-specific copy number and cancer cell fraction (CCF) analysis in the <a href="../datasets/breast_alpelisib_2020.html">breast_alpelisib_2020</a> cohort; identified <a href="../genes/PTEN.html">PTEN</a> homozygous deletion in ctDNA of resistant HR+ <a href="../cancer_types/MBC.html">MBC</a> patients <a href="../papers/32864625.html">PMID:32864625</a></li>
 <li>FACETS v0.5.14 applied to 74 matched retinoblastoma specimens for copy-number and clonality calling; 69 yielded evaluable arm-level CNA profiles <a href="../papers/33466343.html">PMID:33466343</a></li>
 <li>FACETS allele-specific copy-number tool applied to 428 melanoma samples (of 696 total) with adequate quality; 92% had only clonal driver alterations <a href="../papers/33509808.html">PMID:33509808</a></li>
@@ -208,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Used for tumor clonality estimation (CCF) in plasma cf-IMPACT samples from 118 metastatic solid tumor patients; tumor purity from FACETS did not differ between concordant and discordant plasma-tissue sample pairs (p=0.812) <a href="../papers/34059130.html">PMID:34059130</a></li>
 <li>Applied for tumor purity estimation in the MSK-ACCESS clinical deployment pipeline; tumor purity did not significantly differ between concordant and tissue/plasma-discordant sample groups <a href="../papers/34145282.html">PMID:34145282</a></li>
 <li>Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the <a href="../datasets/lung_nci_2022.html">lung_nci_2022</a> cohort <a href="../papers/34493867.html">PMID:34493867</a></li>
-<li>Applied to a subset of 17,224 MSK-MET samples for allele-specific copy-number analysis, deriving purity/ploidy-adjusted <a href="../genes/FGA.html">FGA</a>, whole-genome doubling (WGD) status, and clonality estimates <a href="../papers/35120664.html">PMID:35120664</a></li>
+<li>Applied to a subset of 17,224 MSK-MET samples for allele-specific copy-number analysis, deriving purity/ploidy-adjusted FGA, whole-genome doubling (WGD) status, and clonality estimates <a href="../papers/35120664.html">PMID:35120664</a></li>
 <li>FACETS used to assess copy number, tumor purity, ploidy, and bi-allelic status in 237 esophageal/GEJ adenocarcinoma patients sequenced with MSK-IMPACT <a href="../papers/35377946.html">PMID:35377946</a>.</li>
 <li>FACETS used for clonality and allelic imbalance analysis in 43 dual-driver CRC cases; identified that 21% had both drivers clonal, 40% one clonal/one subclonal <a href="../papers/35235413.html">PMID:35235413</a>.</li>
 <li>FACETS used for copy-number analysis of 42 <a href="../cancer_types/SCLC.html">SCLC</a> PDX/CDX and 26 clinical samples in the MSK PDX resource; higher CNA density in PDXs attributed to greater tumor purity from murine stromal replacement <a href="../papers/35440124.html">PMID:35440124</a>.</li>
@@ -218,8 +221,16 @@ ul.task-list li input[type="checkbox"] {
 <li>FACETS used for allelic copy-number estimation and clonality calls in 2,735 MSK-IMPACT prostate cancer samples; 1,417 passed QC (samples with low purity were excluded as ‘copy-number quiet’) <a href="../papers/35670774.html">PMID:35670774</a></li>
 <li>FACETS used for allele-specific copy number and whole-genome-doubling calls across 2,138 MSK-IMPACT sarcomas; WGD frequency ranged from ~50% in osteosarcoma/UPS to lower rates in translocation-driven subtypes <a href="../papers/35705560.html">PMID:35705560</a></li>
 <li>FACETS used for copy-number and loss-of-heterozygosity analysis in 184 MSI-H/MMR-D endometrial cancers sequenced by MSK-IMPACT <a href="../papers/35849120.html">PMID:35849120</a></li>
-<li>Used for copy-number analysis of 166 CAC tumors; demonstrated clonal <a href="../genes/TP53.html">TP53</a> alterations in majority of CAC, subclonal TP53 in 14%, and identified WGD accumulation in carcinoma vs paired dysplasia; FACETS CN profiles allowed detection of oscillating copy-number patterns consistent with chromothripsis <a href="../papers/36611031.html">PMID:36611031</a></li>
+<li>Used for copy-number analysis of 166 CAC tumors; demonstrated clonal <a href="../genes/TP53.html">TP53</a> alterations in majority of CAC, subclonal <a href="../genes/TP53.html">TP53</a> in 14%, and identified WGD accumulation in carcinoma vs paired dysplasia; FACETS CN profiles allowed detection of oscillating copy-number patterns consistent with chromothripsis <a href="../papers/36611031.html">PMID:36611031</a></li>
 <li>Used for copy-number calling in aSCLC WGS (100× tumor / 80× normal); FACETS hisens plots enabled manual detection of oscillating CNA patterns diagnostic of chromothripsis, achieving 100% specificity and 77% sensitivity vs WGS gold standard <a href="../papers/39185963.html">PMID:39185963</a></li>
+<li>Re-analyzed 408 MSK-IMPACT cases with elevated <a href="../genes/MET.html">MET</a> copy-number-gain calls, using allele-specific integer copy number (gain 3-5, amplification &gt;=6) and 7q segment length to judge focality, validated against MET FISH <a href="../papers/36044468.html">PMID:36044468</a>.</li>
+<li>Used for allele-specific copy number and LOH calling in whole-genome sequencing of 3 CDH1-wild-type invasive lobular breast carcinomas <a href="../papers/38347189.html">PMID:38347189</a>.</li>
+<li>Used for copy-number/LOH calling and cancer-cell-fraction clonality analysis from MSK-IMPACT sequencing of ERBB2-mutant and wild-type endometrial carcinomas <a href="../papers/39031567.html">PMID:39031567</a>.</li>
+<li>Used for allele-specific copy-number estimation from MSK-IMPACT targeted sequencing of a colorectal cancer primary-metastasis trio cohort, cross-validated against single-cell InferCNV calls <a href="../papers/39478232.html">PMID:39478232</a>.</li>
+<li>Used for allele-specific copy-number calling from MSK-IMPACT data to compute fraction of genome altered in radiation-associated secondary rectal cancers versus primary rectal cancer controls <a href="../papers/40100215.html">PMID:40100215</a>.</li>
+<li>Used for copy-number calling from MSK-IMPACT targeted sequencing in a 3,880-sample breast cancer APOBEC3 mutational-signature study <a href="../papers/40379787.html">PMID:40379787</a>.</li>
+<li>Used (v0.5.14, two-pass with QC/refit) for allele-specific copy number, purity, whole-genome doubling and fraction of genome altered across 54,331 MSK-IMPACT tumors, with clonality called from cancer cell fraction <a href="../papers/41895280.html">PMID:41895280</a>.</li>
+<li>Used (facets-suite) for purity-corrected copy number and cancer cell fraction to call subclonal mutations in a 1,254-patient biliary tract cancer cohort <a href="../papers/42360806.html">PMID:42360806</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -238,49 +249,57 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/38758238.html">PMID:38758238</a></li>
 <li><a href="../papers/38949888.html">PMID:38949888</a></li>
 <li><a href="../papers/39753968.html">PMID:39753968</a></li>
+<li><a href="../papers/36543146.html">PMID:36543146</a></li>
+<li><a href="../papers/27442865.html">PMID:27442865</a></li>
+<li><a href="../papers/28336552.html">PMID:28336552</a></li>
+<li><a href="../papers/28825054.html">PMID:28825054</a></li>
+<li><a href="../papers/29033130.html">PMID:29033130</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/29420467.html">PMID:29420467</a></li>
+<li><a href="../papers/29610475.html">PMID:29610475</a></li>
+<li><a href="../papers/30068706.html">PMID:30068706</a></li>
+<li><a href="../papers/30205045.html">PMID:30205045</a></li>
+<li><a href="../papers/30675060.html">PMID:30675060</a></li>
+<li><a href="../papers/30687805.html">PMID:30687805</a></li>
+<li><a href="../papers/31263031.html">PMID:31263031</a></li>
+<li><a href="../papers/31483290.html">PMID:31483290</a></li>
+<li><a href="../papers/31564440.html">PMID:31564440</a></li>
+<li><a href="../papers/32220886.html">PMID:32220886</a></li>
+<li><a href="../papers/32220891.html">PMID:32220891</a></li>
+<li><a href="../papers/32299819.html">PMID:32299819</a></li>
+<li><a href="../papers/32317181.html">PMID:32317181</a></li>
+<li><a href="../papers/32730818.html">PMID:32730818</a></li>
+<li><a href="../papers/32791233.html">PMID:32791233</a></li>
+<li><a href="../papers/32864625.html">PMID:32864625</a></li>
+<li><a href="../papers/33466343.html">PMID:33466343</a></li>
+<li><a href="../papers/33509808.html">PMID:33509808</a></li>
+<li><a href="../papers/33795256.html">PMID:33795256</a></li>
+<li><a href="../papers/33863915.html">PMID:33863915</a></li>
+<li><a href="../papers/34059130.html">PMID:34059130</a></li>
+<li><a href="../papers/34145282.html">PMID:34145282</a></li>
+<li><a href="../papers/34493867.html">PMID:34493867</a></li>
+<li><a href="../papers/35120664.html">PMID:35120664</a></li>
+<li><a href="../papers/35377946.html">PMID:35377946</a></li>
+<li><a href="../papers/35235413.html">PMID:35235413</a></li>
+<li><a href="../papers/35440124.html">PMID:35440124</a></li>
+<li><a href="../papers/35443055.html">PMID:35443055</a></li>
+<li><a href="../papers/35504881.html">PMID:35504881</a></li>
+<li><a href="../papers/35508466.html">PMID:35508466</a></li>
+<li><a href="../papers/35670774.html">PMID:35670774</a></li>
+<li><a href="../papers/35705560.html">PMID:35705560</a></li>
+<li><a href="../papers/35849120.html">PMID:35849120</a></li>
+<li><a href="../papers/36611031.html">PMID:36611031</a></li>
+<li><a href="../papers/39185963.html">PMID:39185963</a></li>
+<li><a href="../papers/36044468.html">PMID:36044468</a></li>
+<li><a href="../papers/38347189.html">PMID:38347189</a></li>
+<li><a href="../papers/39031567.html">PMID:39031567</a></li>
+<li><a href="../papers/39478232.html">PMID:39478232</a></li>
+<li><a href="../papers/40100215.html">PMID:40100215</a></li>
+<li><a href="../papers/40379787.html">PMID:40379787</a></li>
+<li><a href="../papers/41895280.html">PMID:41895280</a></li>
+<li><a href="../papers/42360806.html">PMID:42360806</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36543146.html">PMID:36543146</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/27442865.html">PMID:27442865</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29420467.html">PMID:29420467</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29610475.html">PMID:29610475</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30068706.html">PMID:30068706</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30205045.html">PMID:30205045</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30675060.html">PMID:30675060</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30687805.html">PMID:30687805</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31263031.html">PMID:31263031</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31483290.html">PMID:31483290</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31564440.html">PMID:31564440</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32220886.html">PMID:32220886</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32220891.html">PMID:32220891</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32299819.html">PMID:32299819</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32317181.html">PMID:32317181</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32730818.html">PMID:32730818</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32791233.html">PMID:32791233</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32864625.html">PMID:32864625</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33466343.html">PMID:33466343</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33509808.html">PMID:33509808</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33795256.html">PMID:33795256</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33863915.html">PMID:33863915</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34059130.html">PMID:34059130</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34145282.html">PMID:34145282</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34493867.html">PMID:34493867</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35120664.html">PMID:35120664</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35377946.html">PMID:35377946</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35235413.html">PMID:35235413</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35440124.html">PMID:35440124</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35443055.html">PMID:35443055</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35508466.html">PMID:35508466</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705560.html">PMID:35705560</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35849120.html">PMID:35849120</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36611031.html">PMID:36611031</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/39185963.html">PMID:39185963</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

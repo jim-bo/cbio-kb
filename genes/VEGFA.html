@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,26 +178,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>High-level focal amplification in 5% of HCCs (range 1-8%; SNP-array, n=704 patients). <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li>Anti-VEGF antibody <a href="../drugs/bevacizumab.html">bevacizumab</a> + <a href="../drugs/sintilimab.html">sintilimab</a> achieved ORR 54.5% in platinum-refractory ICI-naive recurrent/metastatic <a href="../cancer_types/NPC.html">NPC</a>. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>High-level focal amplification in 5% of HCCs (range 1-8%; SNP-array, n=704 patients). <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li>Anti-VEGF antibody <a href="../drugs/bevacizumab.html">bevacizumab</a> + <a href="../drugs/sintilimab.html">sintilimab</a> achieved ORR 54.5% in platinum-refractory ICI-naive recurrent/metastatic <a href="../cancer_types/NPC.html">NPC</a>. <a href="../papers/41002550.html">PMID:41002550</a></li>
 <li>Recurrent focal amplification in 7% of gastric cancers (TCGA, CIN subtype); rationale for VEGFR-pathway inhibition (e.g., <a href="../drugs/ramucirumab.html">ramucirumab</a>). <a href="../papers/25079317.html">PMID:25079317</a></li>
 <li>Cited in the context of mouse lymphatic-metastasis models of cutaneous squamous cell carcinoma (cSCC); not directly assayed in the 29-tumour targeted-sequencing cohort <a href="../papers/25589618.html">PMID:25589618</a></li>
 <li>Focal amplification in 1% of <a href="../cancer_types/HCC.html">HCC</a> cases; listed as FDA-targetable alteration in the druggable landscape of <a href="../cancer_types/HCC.html">HCC</a>. <a href="../papers/25822088.html">PMID:25822088</a></li>
 <li>Transcriptionally up-regulated (immunosuppressive/angiogenic cytokine) in pre-treatment non-responding melanoma (<a href="../cancer_types/SKCM.html">SKCM</a>) tumors; co-enriched within the IPRES innate anti-PD-1 resistance transcriptional signature; linked to a published mouse model of innate anti-PD-1 resistance (Peng et al.&nbsp;2015) <a href="../papers/26997480.html">PMID:26997480</a>.</li>
 <li>Amplified in esophageal adenocarcinoma (<a href="../cancer_types/EAC.html">EAC</a>); VEGFA amplification more common in <a href="../cancer_types/EAC.html">EAC</a> than CIN gastric adenocarcinoma in the TCGA integrated esophageal/GEA analysis; co-amplified alongside <a href="../genes/MYC.html">MYC</a> in <a href="../cancer_types/EAC.html">EAC</a> <a href="../papers/28052061.html">PMID:28052061</a></li>
 <li>Amplification in &lt;1% of overall advanced <a href="../cancer_types/HCC.html">HCC</a> cohort (3.9% of sorafenib-evaluable patients); proposed as a biomarker for extreme <a href="../drugs/sorafenib.html">sorafenib</a> response but not confirmed; one patient with concurrent 2.1x <a href="../genes/MET.html">MET</a> and 3.7x VEGFA amplification received anti-VEGFR2 + anti-MET combination therapy <a href="../papers/30373752.html">PMID:30373752</a></li>
-<li>Recurrent amplification driver (≥5% prevalence) in esophageal/esophagogastric junction adenocarcinomas (<a href="../cancer_types/EGC.html">EGC</a>/<a href="../cancer_types/ESCA.html">ESCA</a>) by MSK-IMPACT (N=487); one of 10 amplification-driven recurrent drivers; no independent <a href="../cancer_types/OS.html">OS</a> association demonstrated in this cohort. <a href="../papers/33795256.html">PMID:33795256</a></li>
+<li>Recurrent amplification driver (≥5% prevalence) in esophageal/esophagogastric junction adenocarcinomas (<a href="../cancer_types/EGC.html">EGC</a>/<a href="../cancer_types/ESCA.html">ESCA</a>) by MSK-IMPACT (N=487); one of 10 amplification-driven recurrent drivers; no independent OS association demonstrated in this cohort. <a href="../papers/33795256.html">PMID:33795256</a></li>
 <li>VEGFA amplifications were observed co-occurring with chromothripsis-mediated <a href="../genes/TP53.html">TP53</a> loss in 10/29 osteosarcoma patients profiled by comprehensive whole-genome + transcriptome sequencing (cWGTS) <a href="../papers/35585047.html">PMID:35585047</a></li>
 <li>Enriched in younger bone sarcoma (<a href="../cancer_types/STS.html">STS</a>) patients vs older counterparts in the Asian pan-cancer (aOM) cohort (n=10,194; FDR&lt;0.05 clinical-feature association); amplification detected by the CSYS 450-gene panel <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>VEGFA anchors a 6-gene angiogenesis (Angio) signature (with <a href="../genes/KDR.html">KDR</a>, <a href="../genes/ESM1.html">ESM1</a>, <a href="../genes/PECAM1.html">PECAM1</a>, <a href="../genes/ANGPTL4.html">ANGPTL4</a>, <a href="../genes/CD34.html">CD34</a>) in metastatic <a href="../cancer_types/RCC.html">RCC</a>; AngioHigh tumors predicted greater <a href="../drugs/sunitinib.html">sunitinib</a> benefit and tracked CD31 IHC vascular density <a href="../papers/29867230.html">PMID:29867230</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong><a href="../cancer_types/HCC.html">HCC</a></strong> — VEGFA amplification in 5%; angiogenic signaling prominent across all <a href="../cancer_types/HCC.html">HCC</a> subclasses; mechanistic target of <a href="../drugs/sorafenib.html">sorafenib</a>, <a href="../drugs/lenvatinib.html">lenvatinib</a>, <a href="../drugs/regorafenib.html">regorafenib</a>, <a href="../drugs/cabozantinib.html">cabozantinib</a>, <a href="../drugs/ramucirumab.html">ramucirumab</a>, and <a href="../drugs/bevacizumab.html">bevacizumab</a>. <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li><strong><a href="../cancer_types/NPC.html">NPC</a></strong> — VEGFA pathway targeted via <a href="../drugs/bevacizumab.html">bevacizumab</a> (ORR 54.5% combined with <a href="../drugs/sintilimab.html">sintilimab</a>) and VEGFR2 TKI <a href="../drugs/apatinib.html">apatinib</a> + <a href="../drugs/camrelizumab.html">camrelizumab</a> (ORR 65.5%) in R/M disease. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li><strong><a href="../cancer_types/HCC.html">HCC</a></strong> — VEGFA amplification in 5%; angiogenic signaling prominent across all <a href="../cancer_types/HCC.html">HCC</a> subclasses; mechanistic target of <a href="../drugs/sorafenib.html">sorafenib</a>, <a href="../drugs/lenvatinib.html">lenvatinib</a>, <a href="../drugs/regorafenib.html">regorafenib</a>, <a href="../drugs/cabozantinib.html">cabozantinib</a>, <a href="../drugs/ramucirumab.html">ramucirumab</a>, and <a href="../drugs/bevacizumab.html">bevacizumab</a>. <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><strong><a href="../cancer_types/NPC.html">NPC</a></strong> — VEGFA pathway targeted via <a href="../drugs/bevacizumab.html">bevacizumab</a> (ORR 54.5% combined with <a href="../drugs/sintilimab.html">sintilimab</a>) and VEGFR2 TKI <a href="../drugs/apatinib.html">apatinib</a> + <a href="../drugs/camrelizumab.html">camrelizumab</a> (ORR 65.5%) in R/M disease. <a href="../papers/41002550.html">PMID:41002550</a></li>
 <li><strong><a href="../cancer_types/SKCM.html">SKCM</a></strong> — VEGFA up-regulation in non-responding pre-treatment tumors as part of IPRES; linked to innate anti-PD-1 resistance <a href="../papers/26997480.html">PMID:26997480</a>.</li>
-<li><strong><a href="../cancer_types/EGC.html">EGC</a> / <a href="../cancer_types/ESCA.html">ESCA</a></strong> — Recurrent focal amplification at ≥5% prevalence in <a href="../cancer_types/EAC.html">EAC</a> (N=487 MSK-IMPACT); one of 10 amplification-driven recurrent drivers; no independent <a href="../cancer_types/OS.html">OS</a> association in this cohort. <a href="../papers/33795256.html">PMID:33795256</a></li>
+<li><strong><a href="../cancer_types/EGC.html">EGC</a> / <a href="../cancer_types/ESCA.html">ESCA</a></strong> — Recurrent focal amplification at ≥5% prevalence in <a href="../cancer_types/EAC.html">EAC</a> (N=487 MSK-IMPACT); one of 10 amplification-driven recurrent drivers; no independent OS association in this cohort. <a href="../papers/33795256.html">PMID:33795256</a></li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
@@ -206,8 +210,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li><strong><a href="../cancer_types/HCC.html">HCC</a>:</strong> Sorafenib, <a href="../drugs/lenvatinib.html">lenvatinib</a>, <a href="../drugs/regorafenib.html">regorafenib</a>, <a href="../drugs/cabozantinib.html">cabozantinib</a> (multi-kinase VEGFR inhibitors); <a href="../drugs/ramucirumab.html">ramucirumab</a> (anti-VEGFR2); <a href="../drugs/bevacizumab.html">bevacizumab</a> + <a href="../drugs/atezolizumab.html">atezolizumab</a> (FDA breakthrough designation). <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li><strong><a href="../cancer_types/NPC.html">NPC</a>:</strong> Bevacizumab + <a href="../drugs/sintilimab.html">sintilimab</a> (ORR 54.5%); <a href="../drugs/apatinib.html">apatinib</a> + <a href="../drugs/camrelizumab.html">camrelizumab</a> (ORR 65.5%). <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li><strong><a href="../cancer_types/HCC.html">HCC</a>:</strong> Sorafenib, <a href="../drugs/lenvatinib.html">lenvatinib</a>, <a href="../drugs/regorafenib.html">regorafenib</a>, <a href="../drugs/cabozantinib.html">cabozantinib</a> (multi-kinase VEGFR inhibitors); <a href="../drugs/ramucirumab.html">ramucirumab</a> (anti-VEGFR2); <a href="../drugs/bevacizumab.html">bevacizumab</a> + <a href="../drugs/atezolizumab.html">atezolizumab</a> (FDA breakthrough designation). <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><strong><a href="../cancer_types/NPC.html">NPC</a>:</strong> Bevacizumab + <a href="../drugs/sintilimab.html">sintilimab</a> (ORR 54.5%); <a href="../drugs/apatinib.html">apatinib</a> + <a href="../drugs/camrelizumab.html">camrelizumab</a> (ORR 65.5%). <a href="../papers/41002550.html">PMID:41002550</a></li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
@@ -219,19 +223,20 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/24798001.html">PMID:24798001</a></li>
-<li><a href="../papers/24952746.html">PMID:24952746</a></li>
-<li><a href="../papers/25079317.html">PMID:25079317</a></li>
-<li><a href="../papers/25589618.html">PMID:25589618</a></li>
-<li><a href="../papers/25822088.html">PMID:25822088</a></li>
-<li><a href="../papers/26997480.html">PMID:26997480</a></li>
-<li><a href="../papers/28052061.html">PMID:28052061</a></li>
-<li><a href="../papers/30373752.html">PMID:30373752</a></li>
-<li><a href="../papers/33795256.html">PMID:33795256</a></li>
+<li><p><a href="../papers/30061739.html">PMID:30061739</a></p></li>
+<li><p><a href="../papers/41002550.html">PMID:41002550</a></p></li>
+<li><p><a href="../papers/25079317.html">PMID:25079317</a></p></li>
+<li><p><a href="../papers/25589618.html">PMID:25589618</a></p></li>
+<li><p><a href="../papers/25822088.html">PMID:25822088</a></p></li>
+<li><p><a href="../papers/26997480.html">PMID:26997480</a></p></li>
+<li><p><a href="../papers/28052061.html">PMID:28052061</a></p></li>
+<li><p><a href="../papers/30373752.html">PMID:30373752</a></p></li>
+<li><p><a href="../papers/33795256.html">PMID:33795256</a></p></li>
+<li><p><a href="../papers/35585047.html">PMID:35585047</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/29867230.html">PMID:29867230</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35585047.html">PMID:35585047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

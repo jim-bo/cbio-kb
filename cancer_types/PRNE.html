@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
 <li>44 PDX models from 38 prostate cancer patients at MD Anderson Cancer Center, spanning adenocarcinoma and neuroendocrine prostate cancer morphologies; profiled by WGS, T200.1 targeted sequencing, and RNA-seq. Dataset: <a href="../datasets/prad_msk_mdanderson_2023.html">prad_msk_mdanderson_2023</a>. <a href="../papers/38488813.html">PMID:38488813</a></li>
-<li>Included in secondary analysis of ATLAS lineage classifier; ATLAS differentiation score distinguished metastatic prostate adenocarcinoma from NEPC (AUC=0.834). <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>Included in secondary analysis of ATLAS lineage classifier; ATLAS differentiation score distinguished metastatic prostate adenocarcinoma from NEPC (AUC=0.834). <a href="../papers/38480799.html">PMID:38480799</a></li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
@@ -197,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
 <ul>
 <li>Treatment-emergent NEPC (tNEPC) vs.&nbsp;de novo NEPC: all PDX morphologies represented; NEPC PDXs showed the MYCN-CDK5-RB1-E2F1 neuroendocrine differentiation axis. <a href="../papers/38488813.html">PMID:38488813</a></li>
-<li>ATLAS lineage de-differentiation score distinguished metastatic <a href="../cancer_types/PRAD.html">PRAD</a> from NEPC with AUC=0.834, supporting RNA-based identification of NEPC transformation. <a href="../papers/27634761.html">PMID:27634761</a></li>
+<li>ATLAS lineage de-differentiation score distinguished metastatic <a href="../cancer_types/PRAD.html">PRAD</a> from NEPC with AUC=0.834, supporting RNA-based identification of NEPC transformation. <a href="../papers/38480799.html">PMID:38480799</a></li>
 </ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
@@ -211,11 +214,10 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><p><a href="../papers/38488813.html">PMID:38488813</a> — Integrative Molecular Analyses of the MD Anderson Prostate Cancer Patient-derived Xenograft Series (Clinical Cancer Research, 2024)</p></li>
-<li><p><a href="../papers/27634761.html">PMID:27634761</a> — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)</p></li>
+<li><p><a href="../papers/38480799.html">PMID:38480799</a> — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)</p></li>
 <li><p><a href="../papers/23622249.html">PMID:23622249</a> — Baca et al.&nbsp;Punctuated evolution of prostate cancer genomes. <em>Cell</em> 2013.</p></li>
 <li><p><a href="../papers/31061129.html">PMID:31061129</a> — Abida et al.&nbsp;SU2C mCRPC cohort N=429 (PNAS 2019).</p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
 
 

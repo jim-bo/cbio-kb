@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 <li>In a single-arm prospective trial at Washington University in St.&nbsp;Louis (NCT01687400, N=116 total; discovery cohort n=84, extension cohort n=32), 10-day decitabine (20 mg/m²/day) achieved bone-marrow blast clearance in 53/116 (46%) of <a href="../cancer_types/AML.html">AML</a> and <a href="../cancer_types/MDS.html">MDS</a> patients overall: 15 (13%) CR, 24 (21%) CRi, 14 (12%) mCR; cBioPortal study <a href="../datasets/mnm_washu_2016.html">mnm_washu_2016</a> <a href="../papers/27959731.html">PMID:27959731</a></li>
 <li><strong><a href="../genes/TP53.html">TP53</a> mutations are a positive predictor of decitabine response</strong>: 21/21 (100%) <a href="../genes/TP53.html">TP53</a>-mutant patients achieved blast clearance vs 32/78 (41%) wild-type-TP53 patients (P&lt;0.001); in the discovery cohort alone, 7/7 vs 15/32 (47%), P=0.02 <a href="../papers/27959731.html">PMID:27959731</a></li>
 <li><strong>Unfavorable-risk cytogenetics also predicted response</strong>: 29/43 (67%) with unfavorable karyotypes had blast clearance vs 24/71 (34%) intermediate/favorable-risk (P&lt;0.001); 20/21 TP53-mutant patients had unfavorable karyotype <a href="../papers/27959731.html">PMID:27959731</a></li>
-<li><strong>Survival is not worsened by <a href="../genes/TP53.html">TP53</a> or unfavorable cytogenetics on this regimen</strong>: median <a href="../cancer_types/OS.html">OS</a> 12.7 months (TP53-mutant) vs 15.4 months (wild-type-TP53), P=0.79; compared to only 4–6 months on conventional <a href="../drugs/cytarabine.html">cytarabine</a>-based induction in TP53-mutant <a href="../cancer_types/AML.html">AML</a> <a href="../papers/27959731.html">PMID:27959731</a></li>
+<li><strong>Survival is not worsened by <a href="../genes/TP53.html">TP53</a> or unfavorable cytogenetics on this regimen</strong>: median OS 12.7 months (TP53-mutant) vs 15.4 months (wild-type-TP53), P=0.79; compared to only 4–6 months on conventional <a href="../drugs/cytarabine.html">cytarabine</a>-based induction in TP53-mutant <a href="../cancer_types/AML.html">AML</a> <a href="../papers/27959731.html">PMID:27959731</a></li>
 <li><strong>Mutation clearance is universal but incomplete</strong>: only <a href="../genes/TP53.html">TP53</a> and <a href="../genes/SF3B1.html">SF3B1</a> mutations consistently dropped to VAF &lt;5%; founding-clone VAF at maximum clearance ranged from 0.06% to 18.43% across the 20 best responders; all evaluable relapses arose from preexisting resistant subclones <a href="../papers/27959731.html">PMID:27959731</a></li>
 <li><strong>Pharmacology and methylation are not predictive</strong>: steady-state plasma decitabine on day 4 of cycle 1 did not correlate with response; reduction in CpG methylcytosine from day 0 to day 10 was similar between responders and non-responders (P=0.19 by ANOVA) <a href="../papers/27959731.html">PMID:27959731</a></li>
 <li><strong>Allogeneic SCT had the largest survival effect</strong>: Cox stepwise regression — SCT vs no SCT, P&lt;0.001; benefit not adversely affected by <a href="../genes/TP53.html">TP53</a> status; decitabine proposed as bridge to transplant in TP53-mutant ultra-high-risk AML/MDS <a href="../papers/27959731.html">PMID:27959731</a></li>
@@ -204,8 +207,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../papers/27959731.html">PMID:27959731</a> — Welch et al.&nbsp;2016, <em>NEJM</em>. WashU single-arm prospective trial of 10-day decitabine in AML/MDS (N=116); TP53 mutation as positive predictor of response; incomplete mutation clearance; SCT as dominant survival predictor.</li>
 <li><a href="../papers/32059776.html">PMID:32059776</a> — Dou et al.&nbsp;2020, <em>Cell</em>. CPTAC proteogenomic characterization of 95 EC tumors; DNMT1 hyperphosphorylation in DDR-high tumors; decitabine proposed as therapeutic candidate.</li>
+<li><a href="../papers/35868306.html">PMID:35868306</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35868306.html">PMID:35868306</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

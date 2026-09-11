@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/38488813.html">PMID:38488813</a> — T200.1 targeted sequencing panel (263 genes, 400X) used alongside WGS (30X) and RNA-seq for integrative molecular characterization of 44 prostate cancer PDX models <a href="../papers/38488813.html">PMID:38488813</a>.</li>
 <li><a href="../papers/18948947.html">PMID:18948947</a> — Sequenced all coding exons and splice sites of 623 candidate cancer genes (247 Mb) in 188 primary <a href="../cancer_types/LUAD.html">LUAD</a> tumours with matched normals, identifying 1,013 non-synonymous somatic mutations and 26 significantly mutated genes <a href="../papers/18948947.html">PMID:18948947</a>.</li>
 <li>Applied in UC-GENOME study: Agilent SureSelect XT targeting 591 genes on Illumina NextSeq sequenced 191 of 218 metastatic urothelial carcinoma patients; treatment options identified in 69.3% but only 5.0% received targeted therapy <a href="../papers/36333289.html">PMID:36333289</a></li>
-<li>Used in a two-panel design (50-gene and 95-gene clinical panels) to profile 235 <a href="../cancer_types/MDS.html">MDS</a> bone marrow samples, linking somatic mutations (<a href="../genes/STAG2.html">STAG2</a>, <a href="../genes/ASXL1.html">ASXL1</a>) to morphologic dysplasia features <a href="../papers/21909114.html">PMID:21909114</a></li>
+<li>Used in a two-panel design (50-gene and 95-gene clinical panels) to profile 235 <a href="../cancer_types/MDS.html">MDS</a> bone marrow samples, linking somatic mutations (<a href="../genes/STAG2.html">STAG2</a>, <a href="../genes/ASXL1.html">ASXL1</a>) to morphologic dysplasia features <a href="../papers/40720765.html">PMID:40720765</a></li>
 <li>Applied to 172 <a href="../cancer_types/MCL.html">MCL</a> patients in an independent validation cohort to confirm WES-identified mutations including NOTCH1/2, <a href="../genes/NSD2.html">NSD2</a>, <a href="../genes/BIRC3.html">BIRC3</a>, and <a href="../genes/ATM.html">ATM</a> <a href="../papers/24145436.html">PMID:24145436</a></li>
 <li>Custom Ion AmpliSeq panel targeting 17 driver genes (<a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, IDH1/2, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/PBRM1.html">PBRM1</a>, PIK3C2A/G, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, <a href="../genes/TP53.html">TP53</a>) run on Ion Torrent PGM (318 chip) at mean 1,276× depth for a prevalence screen of 40 additional IHCH/GBC tumors <a href="../papers/24185509.html">PMID:24185509</a>.</li>
 <li>Frequency Cohort of 119 additional matched <a href="../cancer_types/ESCC.html">ESCC</a> germline/tumor pairs plus 10 <a href="../cancer_types/ESCC.html">ESCC</a> cell lines sequenced by targeted deep sequencing (mean coverage 111×) covering all coding exons of discovery-cohort mutated genes plus 277 cancer-relevant genes <a href="../papers/24686850.html">PMID:24686850</a></li>
@@ -194,16 +197,19 @@ ul.task-list li input[type="checkbox"] {
 <li>Targeted DNA sequencing via MSK-IMPACT panel applied to pancreatic ductal adenocarcinoma <a href="../papers/26278805.html">PMID:26278805</a></li>
 <li>Targeted DNA sequencing used alongside WES and WGS in colorectal cancer genomic profiling <a href="../papers/26343386.html">PMID:26343386</a></li>
 <li>Hybrid-capture targeted sequencing across the TERT/CLPTM1L locus used alongside FISH to validate <a href="../genes/TERT.html">TERT</a> 5p15.33 rearrangements in 161-sample neuroblastoma cohort; orthogonal confirmation by both methods required to call a rearrangement <a href="../papers/26466568.html">PMID:26466568</a></li>
-<li>A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying CDH1 truncating mutations in 14/19 (74%) cases. <a href="../papers/26901067.html">PMID:26901067</a></li>
-<li>Targeted 111-gene DNA sequencing panel applied to 1540 AML patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups <a href="../papers/27276561.html">PMID:27276561</a></li>
-<li>Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers <a href="../papers/27346245.html">PMID:27346245</a></li>
+<li>A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying <a href="../genes/CDH1.html">CDH1</a> truncating mutations in 14/19 (74%) cases. <a href="../papers/26901067.html">PMID:26901067</a></li>
+<li>Targeted 111-gene DNA sequencing panel applied to 1540 <a href="../cancer_types/AML.html">AML</a> patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups <a href="../papers/27276561.html">PMID:27276561</a></li>
+<li>Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers <a href="../papers/40958859.html">PMID:40958859</a></li>
 <li>The Columbia Comprehensive Cancer Panel (CCCP) targeted-sequencing backup (467 cancer-associated genes on a 5.59 Mb Custom Agilent SureSelectXT library, optimized for FFPE material) was applied to 13 of 120 pediatric oncology samples in the PIPseq program achieving &gt;500-fold average coverage <a href="../papers/28007021.html">PMID:28007021</a>.</li>
 <li>Targeted exon-capture sequencing using MSK-IMPACT 341- or 410-gene panels on 105 NMIBC pretreatment index tumors with matched germline DNA; the largest NGS effort focused on NMIBC at time of publication <a href="../papers/28583311.html">PMID:28583311</a></li>
 <li>SureSelect XT2 capture panel targeting 404 cancer-related genes applied to 188 CCA cases (HiSeq 4000, 99.6% coding coverage) as one of three DNA-sequencing tiers in the ICGC cholangiocarcinoma study <a href="../papers/28667006.html">PMID:28667006</a></li>
-<li>MSK-IMPACT targeted NGS (341/410/468-gene panels) applied prospectively to 295 metastatic EGC patients; demonstrated that targeted capture at 744X mean depth enables reliable detection of mutations, CNAs, MSI status, and ERBB2 amplification levels relevant to treatment selection <a href="../papers/29122777.html">PMID:29122777</a></li>
+<li>MSK-IMPACT targeted NGS (341/410/468-gene panels) applied prospectively to 295 metastatic <a href="../cancer_types/EGC.html">EGC</a> patients; demonstrated that targeted capture at 744X mean depth enables reliable detection of mutations, CNAs, MSI status, and <a href="../genes/ERBB2.html">ERBB2</a> amplification levels relevant to treatment selection <a href="../papers/29122777.html">PMID:29122777</a></li>
 <li>Used for retrospective discovery genomic analysis of 569 MSKCC MIBC tumors via WES or targeted exon capture, enabling comparison of primary vs secondary MIBC mutation profiles <a href="../papers/30290956.html">PMID:30290956</a></li>
 <li>FUSCC 484-gene targeted NGS panel applied to tumor biopsies of 69 refractory metastatic TNBC patients for somatic and germline calling in the FUTURE umbrella trial <a href="../papers/32719455.html">PMID:32719455</a></li>
-<li>Custom literature-derived targeted DNA sequencing panel at 500x coverage applied to 281 colorectal polyps in the Tennessee Colorectal Polyp Study; confirmed APC, KRAS, and BRAF mutation frequencies across adenoma and serrated polyp subtypes <a href="../papers/34910928.html">PMID:34910928</a></li>
+<li>Custom literature-derived targeted DNA sequencing panel at 500x coverage applied to 281 colorectal polyps in the Tennessee Colorectal Polyp Study; confirmed <a href="../genes/APC.html">APC</a>, <a href="../genes/KRAS.html">KRAS</a>, and <a href="../genes/BRAF.html">BRAF</a> mutation frequencies across adenoma and serrated polyp subtypes <a href="../papers/34910928.html">PMID:34910928</a></li>
+<li>Used with an RNA-bait capture panel of 111 myeloid genes to profile 738 MDS/MDS-MPN patients, yielding 2,260 high-confidence variants <a href="../papers/24030381.html">PMID:24030381</a>.</li>
+<li>Used for a 42-gene panel (C2, n=352) and a 12-gene RCC-focused panel (C3, n=474) in a 943-patient clear cell renal cell carcinoma cohort <a href="../papers/36815791.html">PMID:36815791</a>.</li>
+<li>Used for Twist custom-capture deep sequencing (5,000-7,000x) to validate a pediatric solid tumor PDX pair <a href="../papers/37990009.html">PMID:37990009</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -220,36 +226,39 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/37730754.html">PMID:37730754</a></li>
 <li><a href="../papers/38488813.html">PMID:38488813</a></li>
 <li><a href="../papers/18948947.html">PMID:18948947</a></li>
+<li><a href="../papers/36333289.html">PMID:36333289</a></li>
+<li><a href="../papers/40720765.html">PMID:40720765</a></li>
+<li><a href="../papers/24145436.html">PMID:24145436</a></li>
+<li><a href="../papers/24185509.html">PMID:24185509</a></li>
+<li><a href="../papers/24686850.html">PMID:24686850</a></li>
+<li><a href="../papers/25092538.html">PMID:25092538</a></li>
+<li><a href="../papers/25164765.html">PMID:25164765</a></li>
+<li><a href="../papers/25223734.html">PMID:25223734</a></li>
+<li><a href="../papers/25240281.html">PMID:25240281</a></li>
+<li><a href="../papers/25401301.html">PMID:25401301</a></li>
+<li><a href="../papers/25470049.html">PMID:25470049</a></li>
+<li><a href="../papers/25583476.html">PMID:25583476</a></li>
+<li><a href="../papers/25583493.html">PMID:25583493</a></li>
+<li><a href="../papers/25991819.html">PMID:25991819</a></li>
+<li><a href="../papers/26168399.html">PMID:26168399</a></li>
+<li><a href="../papers/26278805.html">PMID:26278805</a></li>
+<li><a href="../papers/26343386.html">PMID:26343386</a></li>
+<li><a href="../papers/26466568.html">PMID:26466568</a></li>
+<li><a href="../papers/26901067.html">PMID:26901067</a></li>
+<li><a href="../papers/27276561.html">PMID:27276561</a></li>
+<li><a href="../papers/40958859.html">PMID:40958859</a></li>
+<li><a href="../papers/28007021.html">PMID:28007021</a></li>
+<li><a href="../papers/28583311.html">PMID:28583311</a></li>
+<li><a href="../papers/28667006.html">PMID:28667006</a></li>
+<li><a href="../papers/29122777.html">PMID:29122777</a></li>
+<li><a href="../papers/30290956.html">PMID:30290956</a></li>
+<li><a href="../papers/32719455.html">PMID:32719455</a></li>
+<li><a href="../papers/34910928.html">PMID:34910928</a></li>
+<li><a href="../papers/24030381.html">PMID:24030381</a></li>
+<li><a href="../papers/36815791.html">PMID:36815791</a></li>
+<li><a href="../papers/37990009.html">PMID:37990009</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/36333289.html">PMID:36333289</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/21909114.html">PMID:21909114</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24145436.html">PMID:24145436</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24185509.html">PMID:24185509</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/24686850.html">PMID:24686850</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25092538.html">PMID:25092538</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25164765.html">PMID:25164765</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25223734.html">PMID:25223734</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25240281.html">PMID:25240281</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25401301.html">PMID:25401301</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25470049.html">PMID:25470049</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25583476.html">PMID:25583476</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25583493.html">PMID:25583493</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25991819.html">PMID:25991819</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26168399.html">PMID:26168399</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26278805.html">PMID:26278805</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26343386.html">PMID:26343386</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26466568.html">PMID:26466568</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27276561.html">PMID:27276561</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27346245.html">PMID:27346245</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28583311.html">PMID:28583311</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/30290956.html">PMID:30290956</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/32719455.html">PMID:32719455</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/34910928.html">PMID:34910928</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

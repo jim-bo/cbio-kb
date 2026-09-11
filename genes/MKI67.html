@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,11 +179,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>MKI67 (Ki-67) IHC in grade II oligodendroglioma confirmed that proliferating cells are rare (1.5–8% of total cells) and are enriched in the stem/progenitor (SOX2/SOX4/SOX11-high) compartment rather than in differentiated oligo-like or astrocyte-like cells, validating the scRNA-seq developmental hierarchy <a href="../papers/27806376.html">PMID:27806376</a>.</li>
-<li>MKI67 is expressed in the proliferating hC1 progenitor cluster of postnatal human adrenal gland (alongside ASPM, <a href="../genes/BUB1.html">BUB1</a>), consistent with an active cell-cycling state in this novel progenitor population <a href="../papers/34493726.html">PMID:34493726</a>.</li>
+<li>MKI67 is expressed in the proliferating hC1 progenitor cluster of postnatal human adrenal gland (alongside <a href="../genes/ASPM.html">ASPM</a>, <a href="../genes/BUB1.html">BUB1</a>), consistent with an active cell-cycling state in this novel progenitor population <a href="../papers/34493726.html">PMID:34493726</a>.</li>
 <li>In HNSCC reirradiation plus <a href="../drugs/nivolumab.html">nivolumab</a>, MKI67 (Ki-67) co-expression with PD-1 on peripheral blood <a href="../genes/CD4.html">CD4</a>+ T cells defined an early proliferative response marker; a surge in PD-1+Ki-67+<a href="../genes/CD4.html">CD4</a>+ T cells (≥1.5-fold from baseline after cycle 1) trended with <strong>worse</strong> PFS — inverting expectations from lung cancer and melanoma where such surges correlate with benefit <a href="../papers/38780927.html">PMID:38780927</a>.</li>
-<li>MKI67 (Ki-67) expression was measured in breast cancer samples undergoing whole-exome and RNA-seq profiling in a study that identified <a href="../genes/SF3B1.html">SF3B1</a> somatic mutations and splicing dysregulation <a href="../papers/22158541.html">PMID:22158541</a></li>
-<li>Used as a cell-cycle (Ki67) marker by dual IHC in a mouse VHL-knockout model; VKO cells show increased Ki67 positivity vs ConKO (p=0.049), an effect absent when both HIFa isoforms are co-deleted <a href="../papers/23797736.html">PMID:23797736</a></li>
-<li>MKI67 (Ki-67) expression is low in the steady NS-LUAD subtype and high in the proliferative subtype, anchoring the proliferation axis of the three-subtype NMF classification across 684 never-smoker lung adenocarcinomas <a href="../papers/32015526.html">PMID:32015526</a></li>
+<li>MKI67 (Ki-67) expression was measured in breast cancer samples undergoing whole-exome and RNA-seq profiling in a study that identified <a href="../genes/SF3B1.html">SF3B1</a> somatic mutations and splicing dysregulation <a href="../papers/41055979.html">PMID:41055979</a></li>
+<li>Used as a cell-cycle (Ki67) marker by dual IHC in a mouse VHL-knockout model; VKO cells show increased Ki67 positivity vs ConKO (p=0.049), an effect absent when both HIFa isoforms are co-deleted <a href="../papers/41102155.html">PMID:41102155</a></li>
+<li>MKI67 (Ki-67) expression is low in the steady NS-LUAD subtype and high in the proliferative subtype, anchoring the proliferation axis of the three-subtype NMF classification across 684 never-smoker lung adenocarcinomas <a href="../papers/40970133.html">PMID:40970133</a></li>
+<li>Expressed more highly in group 2 hepatoblastoma PDXs than in matched primary tumors (proliferation marker), with the reverse pattern in group 1 <a href="../papers/37990009.html">PMID:37990009</a>.</li>
+<li>Overexpressed in metastatic pheochromocytoma/paraganglioma as part of a proliferation gene programme <a href="../papers/40097403.html">PMID:40097403</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -188,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../cancer_types/ODG.html">ODG</a> — Ki-67+ cells are rare (1.5–8%) and concentrated in the stem/progenitor compartment; used as IHC validation of the proliferative hierarchy <a href="../papers/27806376.html">PMID:27806376</a>.</li>
 <li><a href="../cancer_types/NBL.html">NBL</a> — MKI67 expressed in proliferating hC1 postnatal adrenal progenitors, linking progenitor activity to the cholinergic cell-of-origin hypothesis for high-risk neuroblastoma <a href="../papers/34493726.html">PMID:34493726</a>.</li>
-<li><a href="../cancer_types/HNSC.html">HNSC</a> — PD-1+Ki-67+CD4+ T-cell surge used as peripheral blood pharmacodynamic biomarker in IMRT reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a> trial; paradoxically associated with worse PFS <a href="../papers/38780927.html">PMID:38780927</a>.</li>
+<li><a href="../cancer_types/HNSC.html">HNSC</a> — PD-1+Ki-67+<a href="../genes/CD4.html">CD4</a>+ T-cell surge used as peripheral blood pharmacodynamic biomarker in IMRT reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a> trial; paradoxically associated with worse PFS <a href="../papers/38780927.html">PMID:38780927</a>.</li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
@@ -208,20 +213,22 @@ ul.task-list li input[type="checkbox"] {
 <section id="open-questions" class="level2">
 <h2 class="anchored" data-anchor-id="open-questions">Open questions</h2>
 <ul>
-<li>Mechanism underlying the paradoxical association of Ki-67+PD-1+CD4+ T-cell surge with worse PFS in HNSCC reirradiation + nivolumab (regulatory T-cell skew? exhaustion? lymphatic drainage effects from prior irradiation?) is unresolved <a href="../papers/38780927.html">PMID:38780927</a>.</li>
+<li>Mechanism underlying the paradoxical association of Ki-67+PD-1+CD4+ T-cell surge with worse PFS in HNSCC reirradiation + <a href="../drugs/nivolumab.html">nivolumab</a> (regulatory T-cell skew? exhaustion? lymphatic drainage effects from prior irradiation?) is unresolved <a href="../papers/38780927.html">PMID:38780927</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/27806376.html">PMID:27806376</a></li>
-<li><a href="../papers/34493726.html">PMID:34493726</a></li>
-<li><a href="../papers/38780927.html">PMID:38780927</a></li>
+<li><p><a href="../papers/27806376.html">PMID:27806376</a></p></li>
+<li><p><a href="../papers/34493726.html">PMID:34493726</a></p></li>
+<li><p><a href="../papers/38780927.html">PMID:38780927</a></p></li>
+<li><p><a href="../papers/41055979.html">PMID:41055979</a></p></li>
+<li><p><a href="../papers/41102155.html">PMID:41102155</a></p></li>
+<li><p><a href="../papers/40970133.html">PMID:40970133</a></p></li>
+<li><p><a href="../papers/37990009.html">PMID:37990009</a></p></li>
+<li><p><a href="../papers/40097403.html">PMID:40097403</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22158541.html">PMID:22158541</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23797736.html">PMID:23797736</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/32015526.html">PMID:32015526</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

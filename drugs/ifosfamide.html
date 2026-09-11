@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -168,14 +171,15 @@ ul.task-list li input[type="checkbox"] {
 <h1>ifosfamide</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Ifosfamide is an alkylating agent that cross-links DNA after activation by hepatic cytochrome P450 enzymes. It is used in salvage regimens for germ cell tumors (<a href="../cancer_types/GCT.html">GCT</a>) including TIP (<a href="../drugs/paclitaxel.html">paclitaxel</a> + ifosfamide + <a href="../drugs/cisplatin.html">cisplatin</a>) and VIP (vinblastine/etoposide + ifosfamide + cisplatin), typically after failure of first-line BEP chemotherapy. Hemorrhagic cystitis is a key toxicity, prevented by mesna co-administration.</p>
+<p>Ifosfamide is an alkylating agent that cross-links DNA after activation by hepatic cytochrome P450 enzymes. It is used in salvage regimens for <a href="../cancer_types/germ-cell-tumor.html">germ cell tumors</a> including TIP (<a href="../drugs/paclitaxel.html">paclitaxel</a> + ifosfamide + <a href="../drugs/cisplatin.html">cisplatin</a>) and VIP (vinblastine/etoposide + ifosfamide + <a href="../drugs/cisplatin.html">cisplatin</a>), typically after failure of first-line BEP chemotherapy. Hemorrhagic cystitis is a key toxicity, prevented by mesna co-administration.</p>
 </section>
 <section id="evidence-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-in-the-corpus">Evidence in the corpus</h2>
 <ul>
-<li>Component of TIP/VIP salvage regimens received by 20% of 180 advanced GCT patients in cisplatin-resistance biomarker study; <a href="../genes/TP53.html">TP53</a> and <a href="../genes/MDM2.html">MDM2</a> alterations predicted shorter progression-free survival (HR 1.83; 95% CI 1.12-2.98; P=.016) independent of IGCCCG risk model <a href="../papers/27646943.html">PMID:27646943</a></li>
-<li>Component of ISG/SSG IV protocol (vincristine, doxorubicin, ifosfamide, etoposide) in EWSR1::BEND2 bladder sarcoma; nephrotoxicity with ifosfamide-containing regimen led to switch to docetaxel + gemcitabine <a href="../papers/28199314.html">PMID:28199314</a>.</li>
-<li>Part of both the VIP (cisplatin + etoposide + ifosfamide) and TICE (high-dose carboplatin + etoposide + ifosfamide + paclitaxel + autologous SCT) regimens used in 15 patients with primary mediastinal NSGCT (<a href="../cancer_types/NSGCT.html">NSGCT</a>) and concomitant hematologic malignancy (median OS 6.3 months); poor response was attributed in part to shared <a href="../genes/TP53.html">TP53</a> loss in the ancestral GCT/hematologic-malignancy clone <a href="../papers/32897884.html">PMID:32897884</a>.</li>
+<li>Component of TIP/VIP salvage regimens received by 20% of 180 advanced germ cell tumor patients in cisplatin-resistance biomarker study; <a href="../genes/TP53.html">TP53</a> and <a href="../genes/MDM2.html">MDM2</a> alterations predicted shorter progression-free survival (HR 1.83; 95% CI 1.12-2.98; P=.016) independent of IGCCCG risk model <a href="../papers/27646943.html">PMID:27646943</a></li>
+<li>Component of ISG/SSG IV protocol (<a href="../drugs/vincristine.html">vincristine</a>, <a href="../drugs/doxorubicin.html">doxorubicin</a>, ifosfamide, <a href="../drugs/etoposide.html">etoposide</a>) in <a href="../genes/EWSR1.html">EWSR1</a>::<a href="../genes/BEND2.html">BEND2</a> bladder sarcoma; nephrotoxicity with ifosfamide-containing regimen led to switch to <a href="../drugs/docetaxel.html">docetaxel</a> + <a href="../drugs/gemcitabine.html">gemcitabine</a> <a href="../papers/41102727.html">PMID:41102727</a>.</li>
+<li>Part of both the VIP (cisplatin + etoposide + ifosfamide) and TICE (high-dose <a href="../drugs/carboplatin.html">carboplatin</a> + etoposide + ifosfamide + <a href="../drugs/paclitaxel.html">paclitaxel</a> + autologous SCT) regimens used in 15 patients with primary mediastinal <a href="../cancer_types/NSGCT.html">NSGCT</a> (<a href="../cancer_types/NSGCT.html">NSGCT</a>) and concomitant hematologic malignancy (median OS 6.3 months); poor response was attributed in part to shared <a href="../genes/TP53.html">TP53</a> loss in the ancestral GCT/hematologic-malignancy clone <a href="../papers/32897884.html">PMID:32897884</a>.</li>
+<li>Listed as a component of the CODOX/IVAC±R first-line regimen in a 297-sample mature B-cell neoplasm genomics cohort; treatment was reported as cohort context only, not analyzed for outcome <a href="../papers/36201743.html">PMID:36201743</a>.</li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -184,14 +188,17 @@ ul.task-list li input[type="checkbox"] {
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><a href="../cancer_types/GCT.html">GCT</a></li>
+<li><a href="../cancer_types/germ-cell-tumor.html">germ-cell-tumor</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28199314.html">PMID:28199314</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/32897884.html">PMID:32897884</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<ul>
+<li><a href="../papers/41102727.html">PMID:41102727</a></li>
+<li><a href="../papers/32897884.html">PMID:32897884</a></li>
+<li><a href="../papers/36201743.html">PMID:36201743</a></li>
+</ul>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

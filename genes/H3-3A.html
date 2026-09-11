@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,12 +180,14 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>H3-3A p.K28M (H3 K27M) was detected in CSF ctDNA, supporting the diagnosis of diffuse midline glioma in the <a href="../datasets/csf_msk_2024.html">csf_msk_2024</a> cohort (1,007 CSF samples, 711 patients) profiled by MSK-IMPACT <a href="../papers/39289779.html">PMID:39289779</a>.</li>
 <li>K27M mutation co-occurs with <a href="../genes/FGFR1.html">FGFR1</a> activation and <a href="../genes/NF1.html">NF1</a> alteration in pilocytic astrocytoma/glioblastoma; same K27M found in 3/48 pediatric <a href="../cancer_types/GB.html">GB</a> samples in a screening cohort, often with <a href="../genes/FGFR1.html">FGFR1</a> mutation and <a href="../genes/NF1.html">NF1</a> loss <a href="../papers/23817572.html">PMID:23817572</a></li>
-<li>H3-3A (histone H3.3) mutations were absent in the TCGA 2013 primary <a href="../cancer_types/GBM.html">GBM</a> cohort (n=291 WES), consistent with their previously reported occurrence in pediatric rather than adult GBM <a href="../papers/24120142.html">PMID:24120142</a></li>
+<li>H3-3A (histone H3.3) mutations were absent in the TCGA 2013 primary <a href="../cancer_types/GBM.html">GBM</a> cohort (n=291 WES), consistent with their previously reported occurrence in pediatric rather than adult <a href="../cancer_types/GBM.html">GBM</a> <a href="../papers/24120142.html">PMID:24120142</a></li>
 <li>Only 2 samples mutated in a WGS pan-glioma dataset (n=1122), despite frequent involvement in pediatric gliomas; H3-3A (H3F3A) mutant status largely absent in adult diffuse glioma, supporting a distinct ALT mechanism (DAXX/H3.3-independent) in this population <a href="../papers/26824661.html">PMID:26824661</a></li>
 <li>H3-3A (H3F3A) K28M (K27M) mutation identified in glioma and glioblastoma multiforme as an HDAC-inhibitor target; also co-occurred with <a href="../genes/FGFR1.html">FGFR1</a> N577K in one pediatric glioma patient <a href="../papers/28007021.html">PMID:28007021</a>.</li>
 <li>Both DIPG PDX models (IBs-P1215DIPG, IBs-W0128DIPG) in the PPTC dataset express histone H3.3 (H3-3A) at high levels (FPKM &gt; 50) but lack canonical H3.1/H3.3 K27M/G34 mutations <a href="../papers/31693904.html">PMID:31693904</a></li>
-<li>H3-3A (H3F3A) p.K27M mutation found in GBM36, a cerebellar diffuse midline glioma PDX, co-occurring with ATRX and TP53 mutations — recapitulates the canonical H3 K27M-mutant diffuse midline glioma driver combination <a href="../papers/31852831.html">PMID:31852831</a></li>
+<li>H3-3A (H3F3A) p.K27M mutation found in GBM36, a cerebellar diffuse midline glioma PDX, co-occurring with <a href="../genes/ATRX.html">ATRX</a> and <a href="../genes/TP53.html">TP53</a> mutations — recapitulates the canonical H3 K27M-mutant diffuse midline glioma driver combination <a href="../papers/31852831.html">PMID:31852831</a></li>
 <li>H3-3A (H3F3A) K27M point mutation used as key prognostic stratifier for IDH analysis in pediatric HGG; included as confounder in OS Cox models; H3-mutant vs H3-WT HGG show divergent IDH protein-OS effects <a href="../papers/33242424.html">PMID:33242424</a></li>
+<li>H3-3A (H3F3A) p.K28M found as a rare, single-case candidate driver in an Unclassified <a href="../cancer_types/AML.html">AML</a> case, resembling the recurrent H3-3A hotspot seen in high-grade glioma, pending confirmation in a larger cohort <a href="../papers/38212634.html">PMID:38212634</a>.</li>
+<li>H3-3A (H3F3A) alterations associated with early age of onset in brain tumors (median 32 years), earlier still when co-altered with ATRX (28 years) <a href="../papers/41895280.html">PMID:41895280</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -212,16 +217,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/39289779.html">PMID:39289779</a></li>
+<li><p><a href="../papers/39289779.html">PMID:39289779</a></p></li>
+<li><p><a href="../papers/23817572.html">PMID:23817572</a></p></li>
+<li><p><a href="../papers/24120142.html">PMID:24120142</a></p></li>
+<li><p><a href="../papers/26824661.html">PMID:26824661</a></p></li>
+<li><p><a href="../papers/28007021.html">PMID:28007021</a></p></li>
+<li><p><a href="../papers/31693904.html">PMID:31693904</a></p></li>
+<li><p><a href="../papers/31852831.html">PMID:31852831</a></p></li>
+<li><p><a href="../papers/33242424.html">PMID:33242424</a></p></li>
+<li><p><a href="../papers/38212634.html">PMID:38212634</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23817572.html">PMID:23817572</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24120142.html">PMID:24120142</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/26824661.html">PMID:26824661</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28007021.html">PMID:28007021</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31852831.html">PMID:31852831</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/33242424.html">PMID:33242424</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,18 +178,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>RET is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic <a href="../cancer_types/NPC.html">NPC</a>. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>RET is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic <a href="../cancer_types/NPC.html">NPC</a>. <a href="../papers/41002550.html">PMID:41002550</a></li>
 <li>Fusions in 2/230 (0.9%) <a href="../cancer_types/LUAD.html">LUAD</a> cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴ for fusion enrichment in TL). <a href="../papers/25079552.html">PMID:25079552</a></li>
 <li>RET fusions in 6.8% (33/484) of PTCs; most fusions weakly BVL (BRAFV600E-like expression score); 4 novel kinase-domain-preserving RET fusion partners discovered; mutually exclusive with BRAF/RAS/EIF1AX point mutations (Fisher’s exact p=4.9×10⁻⁴³). <a href="../papers/25417114.html">PMID:25417114</a></li>
 <li>RET found fused with <a href="../genes/CCDC6.html">CCDC6</a> or <a href="../genes/NCOA4.html">NCOA4</a> in 5 PDTCs in a targeted-sequencing study of advanced thyroid cancers; RET fusions were restricted to PDTC (not ATC) in this cohort. <a href="../papers/26878173.html">PMID:26878173</a></li>
-<li>RET rearrangements occur in ~9.5% of young lung cancer patients (YLC, age ≤45) versus ~1% in patients &gt;45 years per cBioPortal analysis; ERC1-RET fusion observed in Indian cohort <a href="../papers/27346245.html">PMID:27346245</a>.</li>
+<li>RET rearrangements occur in ~9.5% of young lung cancer patients (YLC, age ≤45) versus ~1% in patients &gt;45 years per cBioPortal analysis; ERC1-RET fusion observed in Indian cohort <a href="../papers/40958859.html">PMID:40958859</a>.</li>
 <li>Germline C634 (extracellular) vs somatic M918 (intracellular tyrosine kinase) mutations differentiate hereditary from sporadic PCC/PGL (p &lt; 0.001); RET-mutant tumors overexpress RET (p &lt; 0.003) in a comprehensive multi-omic PCC/PGL study <a href="../papers/28162975.html">PMID:28162975</a></li>
 <li>Fusions in 1.7–3.8% of <a href="../cancer_types/LUAD.html">LUAD</a> patients; level 2A actionability; 53.3% received matched therapy with 72.7% clinical benefit rate; <a href="../drugs/cabozantinib.html">cabozantinib</a> cited as matched agent <a href="../papers/28336552.html">PMID:28336552</a></li>
 <li>Kinase fusions enriched in <a href="../cancer_types/LUAD.html">LUAD</a> but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>One NCOA4-RET fusion observed in MSS mCRC in a 1,640-tumor targeted sequencing cohort <a href="../papers/29316426.html">PMID:29316426</a></li>
 <li>Reported at 1% frequency as an actionable driver in <a href="../cancer_types/NSCLC.html">NSCLC</a> with too few events for response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) <a href="../papers/29337640.html">PMID:29337640</a></li>
 <li><a href="../genes/CCDC6.html">CCDC6</a>–RET and other RET fusions are recurrent in <a href="../cancer_types/THCA.html">THCA</a> (4.2%; 33 samples flagged as druggable) and also seen in <a href="../cancer_types/LUAD.html">LUAD</a>; RET is among the top 3’-kinase recurrent partners in the TCGA 9,624-sample pan-cancer fusion catalog, with intact kinase domains and elevated 3’ expression consistent with promoter-swap-driven oncogene activation <a href="../papers/29617662.html">PMID:29617662</a>.</li>
-<li>Second-most-frequent in-frame fusion partner in non-small-cell lung adenocarcinoma (12 tumors); KIF5B-RET seen in 8 tumors <a href="../papers/32015526.html">PMID:32015526</a></li>
+<li>Second-most-frequent in-frame fusion partner in non-small-cell lung adenocarcinoma (12 tumors); KIF5B-RET seen in 8 tumors <a href="../papers/40970133.html">PMID:40970133</a></li>
 <li>Chromoplexy-mediated fusions and enhancer-hijacking events involving RET observed in thyroid adenocarcinoma (PCAWG pan-cancer SV analysis) <a href="../papers/32025007.html">PMID:32025007</a></li>
 <li>In-frame kinase fusions recurrent in <a href="../cancer_types/LUAD.html">LUAD</a> proteogenomic cohort (CPTAC, n=110); RET rearrangements among most frequent oncogenic kinase fusions observed <a href="../papers/32649874.html">PMID:32649874</a></li>
 <li>KIF5B-RET fusions detected in <a href="../cancer_types/NSCLC.html">NSCLC</a> via MSK-ACCESS cfDNA profiling <a href="../papers/34145282.html">PMID:34145282</a></li>
@@ -195,12 +198,15 @@ ul.task-list li input[type="checkbox"] {
 <li>RET activating fusions (KIF5B-RET, CCDC6-RET, NCOA4-RET, TAF3-RET, ERC1-RET, RBPMS-RET, CLIP1-RET, EML4-RET, KIF13A-RET, KIAA1468-RET, RUFY3-RET) and kinase-domain mutations (including germline/somatic M918T) define trial-qualifying drivers for <a href="../drugs/selpercatinib.html">selpercatinib</a>; acquired on-target resistance mutations include solvent-front G810C/G810S, gatekeeper V804M, Y806C, and compound cis mutants <a href="../papers/35304457.html">PMID:35304457</a>.</li>
 <li>RET kinase fusions detected in 2.6% of sarcomas as part of a kinase-fusion gene panel (<a href="../genes/ALK.html">ALK</a>, <a href="../genes/ROS1.html">ROS1</a>, RET, <a href="../genes/FGFR1.html">FGFR1</a>, NTRK1/2/3, <a href="../genes/BRAF.html">BRAF</a>); novel TNS1-ALK fusion also identified in <a href="../cancer_types/LMS.html">LMS</a> (16 cases) <a href="../papers/35705558.html">PMID:35705558</a></li>
 <li>Pan-cancer fusion driver with multiple novel partner genes catalogued in Chinese solid-tumor cohort (<a href="../datasets/pan_origimed_2020.html">pan_origimed_2020</a>, n=1015) <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>Located in the 10q11.21 amplicon (with <a href="../genes/NOTCH4.html">NOTCH4</a>) that marks the chromosomal-instability-high/hypermutation-recurrent (CIN-HR) subgroup of colorectal cancer. <a href="../papers/35487942.html">PMID:35487942</a></li>
+<li>RET fusions co-occurred as drivers with acquired <a href="../genes/MET.html">MET</a> amplification in 2/56 <a href="../cancer_types/NSCLC.html">NSCLC</a> cases and with de novo MET amplification in 1 NSCLC and 1 non-lung case. <a href="../papers/36044468.html">PMID:36044468</a></li>
+<li>In thyroid papillary carcinoma (<a href="../cancer_types/THPA.html">THPA</a>), RET alterations were linked to earlier age of onset only when <a href="../genes/TERT.html">TERT</a> was wild-type; RET fusions were also linked to earlier onset in <a href="../cancer_types/LUAD.html">LUAD</a>. <a href="../papers/41895280.html">PMID:41895280</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong><a href="../cancer_types/NPC.html">NPC</a></strong> — RET is a component of the multi-kinase inhibitor target profile (alongside VEGFR2/KDR, <a href="../genes/FLT3.html">FLT3</a>, <a href="../genes/TEK.html">TEK</a>, and others) in R/M <a href="../cancer_types/NPC.html">NPC</a>. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li><strong><a href="../cancer_types/NPC.html">NPC</a></strong> — RET is a component of the multi-kinase inhibitor target profile (alongside VEGFR2/KDR, <a href="../genes/FLT3.html">FLT3</a>, <a href="../genes/TEK.html">TEK</a>, and others) in R/M <a href="../cancer_types/NPC.html">NPC</a>. <a href="../papers/41002550.html">PMID:41002550</a></li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
@@ -212,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>Multi-kinase TKIs active against RET are being investigated in <a href="../cancer_types/NPC.html">NPC</a> primarily as anti-angiogenic/anti-proliferative agents rather than RET-alteration-selected strategies. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>Multi-kinase TKIs active against RET are being investigated in <a href="../cancer_types/NPC.html">NPC</a> primarily as anti-angiogenic/anti-proliferative agents rather than RET-alteration-selected strategies. <a href="../papers/41002550.html">PMID:41002550</a></li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
@@ -224,34 +230,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><p><a href="../papers/24952746.html">PMID:24952746</a></p></li>
+<li><p><a href="../papers/41002550.html">PMID:41002550</a></p></li>
 <li><p><a href="../papers/25079552.html">PMID:25079552</a></p></li>
 <li><p><a href="../papers/25417114.html">PMID:25417114</a></p></li>
 <li><p><a href="../papers/26878173.html">PMID:26878173</a></p></li>
-<li><p><a href="../papers/27346245.html">PMID:27346245</a></p></li>
+<li><p><a href="../papers/40958859.html">PMID:40958859</a></p></li>
 <li><p><a href="../papers/28162975.html">PMID:28162975</a></p></li>
 <li><p><a href="../papers/28336552.html">PMID:28336552</a></p></li>
 <li><p><a href="../papers/28481359.html">PMID:28481359</a></p></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
-<ul>
-<li><a href="../papers/29337640.html">PMID:29337640</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29617662.html">PMID:29617662</a></p>
-<ul>
-<li><a href="../papers/32015526.html">PMID:32015526</a></li>
-</ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32025007.html">PMID:32025007</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32649874.html">PMID:32649874</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34145282.html">PMID:34145282</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/34493867.html">PMID:34493867</a></p>
-<ul>
+<li><p><a href="../papers/29316426.html">PMID:29316426</a></p></li>
+<li><p><a href="../papers/29337640.html">PMID:29337640</a></p></li>
+<li><p><a href="../papers/29617662.html">PMID:29617662</a></p></li>
+<li><p><a href="../papers/40970133.html">PMID:40970133</a></p></li>
+<li><p><a href="../papers/32025007.html">PMID:32025007</a></p></li>
+<li><p><a href="../papers/32649874.html">PMID:32649874</a></p></li>
+<li><p><a href="../papers/34145282.html">PMID:34145282</a></p></li>
+<li><p><a href="../papers/34493867.html">PMID:34493867</a></p></li>
 <li><p><a href="../papers/35292802.html">PMID:35292802</a></p></li>
 <li><p><a href="../papers/35304457.html">PMID:35304457</a></p></li>
+<li><p><a href="../papers/35705558.html">PMID:35705558</a></p></li>
+<li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/35487942.html">PMID:35487942</a></p></li>
+<li><p><a href="../papers/36044468.html">PMID:36044468</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35705558.html">PMID:35705558</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

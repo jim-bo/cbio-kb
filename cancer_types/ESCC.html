@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
 <li>139 paired ESCC tumor/germline samples (20 WES + 119 targeted deep sequencing); SCNV analysis of 184 ESCC cases — Chinese CAMS/Linxian cohort — <a href="../papers/24686850.html">PMID:24686850</a></li>
-<li>18 case–control oral microbiome studies (1,191 cases / 1,403 controls) — systematic review; no primary ESCC genomic cohort in this paper <a href="../papers/24670651.html">PMID:24670651</a></li>
+<li>18 case–control oral microbiome studies (1,191 cases / 1,403 controls) — systematic review; no primary ESCC genomic cohort in this paper <a href="../papers/41096729.html">PMID:41096729</a></li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
@@ -185,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <li>APOBEC3B implicated as the dominant mutational mechanism in ESCC via trinucleotide signature analysis <a href="../papers/24686850.html">PMID:24686850</a></li>
 <li>Recurrent focal amplifications: CCND1 (11q13.2, most frequent), FGFR1 (amplified in 11/53 ESCC by FISH; overexpressed by IHC in 17.3%), EGFR, MYC, KRAS; recurrent focal deletion: CDKN2A <a href="../papers/24686850.html">PMID:24686850</a></li>
 <li>Significantly altered pathways: MAPK (P = 0.0005), PI3K (P = 0.0004), JAK-STAT3 (P = 0.0006), G1-S cell cycle (P = 1.63E-05), and epigenetic modification (P = 0.0013) <a href="../papers/24686850.html">PMID:24686850</a></li>
-<li>Oral microbial signatures (Prevotella, Porphyromonas gingivalis, Fusobacterium nucleatum enrichment; Neisseria, Lautropia, Corynebacterium depletion) associate with ESCC risk; pooled OR 9.50 (95% CI 5.89–15.29) from two-study meta-analysis <a href="../papers/24670651.html">PMID:24670651</a></li>
+<li>Oral microbial signatures (Prevotella, Porphyromonas gingivalis, Fusobacterium nucleatum enrichment; Neisseria, Lautropia, Corynebacterium depletion) associate with ESCC risk; pooled OR 9.50 (95% CI 5.89–15.29) from two-study meta-analysis <a href="../papers/41096729.html">PMID:41096729</a></li>
 <li>TCGA profiling of 90 esophageal squamous cell carcinomas defined three molecular subtypes: ESCC1 (NRF2-pathway/classical squamous, NFE2L2/KEAP1/CUL3 alterations, SOX2/TP63 amplification, VGLL4 deletion), ESCC2 (NOTCH/PI3K/immune-infiltrated, NOTCH1/ZNF750 mutations, KMT2D/KDM6A alterations, CDK6 amplification), ESCC3 (PI3K-activated, SMARCA4/KMT2D mutant, US/Canada only); ESCC resembles head/neck and lung squamous tumors; no HPV aetiologic role; Vietnamese ESCC enriched for NFE2L2 mutations (24% vs 6%) <a href="../papers/28052061.html">PMID:28052061</a></li>
 <li>Pan-cancer aneuploidy study placed ESCC in the squamous arm-level cluster (chr_3p loss + chr_3q gain) alongside HPV+ and HPV− HNSC, CESC, and LUSC; the squamous chr_3 signature was most prominent in LUSC, ESCC, and HPV-negative HNSC <a href="../papers/29622463.html">PMID:29622463</a></li>
 <li>NRF2/oxidative-stress pathway alteration rate 23% in esophagogastric squamous (ESCC), second highest pan-cancer after LUSC (25%); EGFR alterations present in esophagogastric squamous tumors at ~14% <a href="../papers/29625050.html">PMID:29625050</a></li>
@@ -194,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
 <ul>
-<li>Squamous cell carcinoma is distinguished from esophageal adenocarcinoma (ESCA) by distinct genomic drivers (APOBEC3B mutagenesis, ZNF750 loss) and different oral microbial enrichment patterns <a href="../papers/24670651.html">PMID:24670651</a>, <a href="../papers/24686850.html">PMID:24686850</a></li>
+<li>Squamous cell carcinoma is distinguished from esophageal adenocarcinoma (ESCA) by distinct genomic drivers (APOBEC3B mutagenesis, ZNF750 loss) and different oral microbial enrichment patterns <a href="../papers/41096729.html">PMID:41096729</a>, <a href="../papers/24686850.html">PMID:24686850</a></li>
 </ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
@@ -209,11 +212,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/24686850.html">PMID:24686850</a> — Lin et al.&nbsp;(2014), WES/targeted sequencing of 139 ESCC cases identifying novel drivers and XPO1 as a therapeutic target.</li>
-<li><a href="../papers/24670651.html">PMID:24670651</a> — Chen et al.&nbsp;(2024), systematic review of oral microbiome in esophageal cancer (ESCC focus).</li>
+<li><a href="../papers/41096729.html">PMID:41096729</a> — Chen et al.&nbsp;(2024), systematic review of oral microbiome in esophageal cancer (ESCC focus).</li>
+<li><a href="../papers/28052061.html">PMID:28052061</a></li>
+<li><a href="../papers/29622463.html">PMID:29622463</a></li>
+<li><a href="../papers/29625050.html">PMID:29625050</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/28052061.html">PMID:28052061</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/29622463.html">PMID:29622463</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29625050.html">PMID:29625050</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
 
 

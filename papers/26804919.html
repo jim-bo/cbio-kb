@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -231,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Five mutational signatures</strong> were prominent (out of 21 nsNMF-derived signatures), led by C&gt;T at CpG (#6). Signature #1 (AC, AT&gt;AN, non-transcribed enrichment) appeared at &gt;20% in 9.6% of tumors and was independently associated with worse outcome (multivariate Cox p = 0.02).</li>
 <li><strong>Significantly mutated genes (excluding MSI cases):</strong> 19 genes by MutSig-CV plus 3 added by inactivation-bias test (<a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/RECQL4.html">RECQL4</a>, <a href="../genes/KDM6A.html">KDM6A</a>) (Tables S3a–b). In CAC alone, only <a href="../genes/TP53.html">TP53</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/SMAD4.html">SMAD4</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a> reached significance — TP53 highest. IDH1/IDH2 and <a href="../genes/BAP1.html">BAP1</a>, common in <em>intra</em>hepatic CAC, were essentially absent (single <a href="../genes/IDH1.html">IDH1</a> hotspot only).</li>
 <li><strong>TGFBR2 mutated more often in DUOAC</strong>, partially driven by an A8 homopolymer that is an MSI target (5 of 12 TGFBR2 mutations were at this site).</li>
-<li><strong>Survival associations (multivariate Cox, adjusted for stage, gender, subtype, MSI status):</strong> TGF-β pathway mutations → better <a href="../cancer_types/OS.html">OS</a> (p = 0.0059, HR = 0.42); PI3K pathway mutations → better OS (p = 0.036, HR = 0.43); TP53/KRAS/WNT/chromatin-remodeling mutations were not significant.</li>
+<li><strong>Survival associations (multivariate Cox, adjusted for stage, gender, subtype, MSI status):</strong> TGF-β pathway mutations → better OS (p = 0.0059, HR = 0.42); PI3K pathway mutations → better OS (p = 0.036, HR = 0.43); TP53/KRAS/WNT/chromatin-remodeling mutations were not significant.</li>
 <li><strong>WNT-mutated tumors had significantly higher RNA expression of WNT antagonists, agonists, and target genes</strong> (p &lt; 0.001) — consistent with feedback dysregulation seen in CRC. Some WNT-non-mutated tumors also showed elevated WNT signatures, suggesting alternate activating mechanisms.</li>
 <li><strong>Two non-recurrent fusions:</strong> SLC45A3-ELK4 (a marker first noted in prostate cancer) and a LINE-MET fusion in a patient with no KRAS or TP53 driver and high <a href="../genes/MET.html">MET</a> expression.</li>
 <li><strong>Copy number landscape</strong> was dominated by arm-level events; combined GISTIC identified focal 9p23.1 deletion (CDKN2A) and a chromosome 9 deletion removing the promoter and 5′ end of <a href="../genes/KDM4C.html">KDM4C</a> (statistically significant in AMPAC), which also reduced expression of upstream <a href="../genes/UHRF2.html">UHRF2</a>.</li>

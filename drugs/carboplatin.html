@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,20 +179,24 @@ ul.task-list li input[type="checkbox"] {
 <li>Carboplatin is listed in the UCLA sarcoma PDTO drug library (<a href="../datasets/sarcoma_ucla_2024.html">sarcoma_ucla_2024</a>, n=194 specimens from 126 patients across 24 subtypes). The paper reports that 59% of specimens (57/97) and 58% of patients (43/74) had at least one FDA-approved or NCCN-recommended top-five regimen identified by the screen; carboplatin was among the compounds contributing to this actionability landscape across sarcoma subtypes. <a href="../papers/39305899.html">PMID:39305899</a></li>
 <li>Used as part of platinum-based chemotherapy for metastatic urothelial carcinoma in the UC-GENOME study (n=218); <a href="../genes/ERCC2.html">ERCC2</a> mutations associated with significantly higher chemotherapy response rate (p=0.0134) <a href="../papers/36333289.html">PMID:36333289</a></li>
 <li>Prior platinum (carboplatin) exposure in ovarian MiNEN patient PN19 (11 months prior) generated platinum-therapy mutational signatures detected by WGTA in the POG NEN cohort <a href="../papers/40328872.html">PMID:40328872</a></li>
-<li>Used as part of platinum-based chemoimmunotherapy backbone in R/M <a href="../cancer_types/NPC.html">NPC</a> trials cited in this review <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>Used as part of platinum-based chemoimmunotherapy backbone in R/M <a href="../cancer_types/NPC.html">NPC</a> trials cited in this review <a href="../papers/41002550.html">PMID:41002550</a></li>
 <li>In muscle-invasive bladder cancer patients ineligible for <a href="../drugs/cisplatin.html">cisplatin</a>, carboplatin-based regimens are proposed as candidates for study in ERCC2-mutant tumors, given the mechanistic link between <a href="../genes/ERCC2.html">ERCC2</a> loss-of-function and platinum sensitivity <a href="../papers/25096233.html">PMID:25096233</a></li>
 <li>In 20 mCRPC men treated with carboplatin (from the <a href="../datasets/prad_fhcrc.html">prad_fhcrc</a> rapid-autopsy cohort), those with a somatic DNA-repair pathway aberration (homozygous loss in any FA-pathway gene or hetero-/homozygous inactivating event in <a href="../genes/ATM.html">ATM</a>) had significantly longer time on carboplatin (log-rank P = 0.02), supporting platinum-based therapy in DNA-repair-deficient mCRPC. <a href="../papers/26928463.html">PMID:26928463</a></li>
-<li>Platinum chemotherapy; usable from second trimester in pregnant young-onset <a href="../cancer_types/NSCLC.html">NSCLC</a> patients when combined with taxanes or vinca alkaloids; recommended as pregnancy-compatible alternative to <a href="../drugs/cisplatin.html">cisplatin</a> in this review <a href="../papers/27346245.html">PMID:27346245</a></li>
+<li>Platinum chemotherapy; usable from second trimester in pregnant young-onset <a href="../cancer_types/NSCLC.html">NSCLC</a> patients when combined with taxanes or vinca alkaloids; recommended as pregnancy-compatible alternative to <a href="../drugs/cisplatin.html">cisplatin</a> in this review <a href="../papers/40958859.html">PMID:40958859</a></li>
 <li>Adjuvant <a href="../drugs/cisplatin.html">cisplatin</a>/carboplatin plus <a href="../drugs/vinorelbine.html">vinorelbine</a> was the standard adjuvant backbone in the TRACERx <a href="../cancer_types/NSCLC.html">NSCLC</a> ctDNA study (NCT01888601, n=24 longitudinal patients); ctDNA clearance after adjuvant therapy correlated with sustained remission while rising ctDNA burden identified platinum-resistance in real time. <a href="../papers/28445469.html">PMID:28445469</a></li>
-<li>In a 3D cell culture review, carboplatin was among the conventional chemotherapy agents whose IC50 values typically rise 3–5-fold in cancer spheroids vs.&nbsp;monolayers, illustrating that 3D models better recapitulate clinical chemotherapy resistance <a href="../papers/30643250.html">PMID:30643250</a>.</li>
+<li>In a 3D cell culture review, carboplatin was among the conventional chemotherapy agents whose IC50 values typically rise 3–5-fold in cancer spheroids vs.&nbsp;monolayers, illustrating that 3D models better recapitulate clinical chemotherapy resistance <a href="../papers/41103502.html">PMID:41103502</a>.</li>
 <li>In a <a href="../cancer_types/UTUC.html">UTUC</a> PDX model (UCC03), gemcitabine/carboplatin combination showed significant tumor growth inhibition (p=0.0177) and <a href="../drugs/gemcitabine.html">gemcitabine</a> alone was significant (p=0.0065), but carboplatin alone was not (p=0.138); response mirrored the source patient’s partial response to Gem/Carbo <a href="../papers/32332851.html">PMID:32332851</a></li>
 <li>One patient (P19) in the Kothari et al.&nbsp;retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA <a href="../genes/RB1.html">RB1</a> signal despite 1596× coverage <a href="../papers/32633890.html">PMID:32633890</a>.</li>
-<li>Used in the TICE salvage regimen (high-dose carboplatin + <a href="../drugs/etoposide.html">etoposide</a> + <a href="../drugs/ifosfamide.html">ifosfamide</a> followed by autologous SCT) for 15 patients with primary mediastinal <a href="../cancer_types/NSGCT.html">NSGCT</a> (<a href="../cancer_types/NSGCT.html">NSGCT</a>) and concomitant hematologic malignancy; <a href="../genes/TP53.html">TP53</a> alteration burden in the <a href="../cancer_types/GCT.html">GCT</a> precursor was proposed to mechanistically underlie cisplatin/carboplatin resistance in this cohort <a href="../papers/32897884.html">PMID:32897884</a>.</li>
+<li>Used in the TICE salvage regimen (high-dose carboplatin + <a href="../drugs/etoposide.html">etoposide</a> + <a href="../drugs/ifosfamide.html">ifosfamide</a> followed by autologous SCT) for 15 patients with primary mediastinal <a href="../cancer_types/NSGCT.html">NSGCT</a> and concomitant hematologic malignancy; <a href="../genes/TP53.html">TP53</a> alteration burden in the germ cell tumor precursor was proposed to mechanistically underlie cisplatin/carboplatin resistance in this cohort <a href="../papers/32897884.html">PMID:32897884</a>.</li>
 <li>Carboplatin exposure was the strongest platinum class driver of clonal haematopoiesis (CH) in 24,146 solid-tumor patients (OR=1.4, p=0.001; dose-response p-trend=3×10⁻⁵), while <a href="../drugs/cisplatin.html">cisplatin</a> (p=0.10) and <a href="../drugs/oxaliplatin.html">oxaliplatin</a> (p=0.88) were not significant; <a href="../genes/PPM1D.html">PPM1D</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/CHEK2.html">CHEK2</a> clones were preferentially expanded by carboplatin, raising concern for therapy-related myeloid neoplasm in patients with pre-existing DDR CH <a href="../papers/33106634.html">PMID:33106634</a>.</li>
 <li>Carboplatin + <a href="../drugs/paclitaxel.html">paclitaxel</a> (Carbo-Taxol) was administered as neoadjuvant therapy in 49% of 237 locally advanced esophageal/GEJ adenocarcinoma patients at MSK; FOLFOX was associated with better pathologic response than Carbo-Taxol (OR 2.38, p=0.013) <a href="../papers/35377946.html">PMID:35377946</a></li>
 <li>Carboplatin (with cisplatin/etoposide) is noted as part of first-line platinum-based chemoimmunotherapy for extensive-stage <a href="../cancer_types/SCLC.html">SCLC</a>; the MSK773 SCLC-P patient received carboplatin + <a href="../drugs/etoposide.html">etoposide</a>, progressing within 6 months <a href="../papers/35440124.html">PMID:35440124</a></li>
 <li>Platinum chemotherapy; serial ctDNA (MSK-ACCESS) tracked response to salvage paclitaxel/carboplatin in metastatic endometrial cancer patients in MSK cfDNA pilot study (n=44) <a href="../papers/36007103.html">PMID:36007103</a></li>
-<li>Carboplatin plus <a href="../drugs/etoposide.html">etoposide</a> yielded only 13% CR and 20% PR (33% total) in 15 evaluable atypical SCLC (aSCLC) patients — well below the ~70% benchmark for conventional SCLC; aSCLC is characterized by RB1+/TP53+ status and chromothripsis-driven <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/CDK4.html">CDK4</a> amplification <a href="../papers/39185963.html">PMID:39185963</a>.</li>
+<li>Carboplatin plus <a href="../drugs/etoposide.html">etoposide</a> yielded only 13% CR and 20% PR (33% total) in 15 evaluable atypical <a href="../cancer_types/SCLC.html">SCLC</a> (aSCLC) patients — well below the ~70% benchmark for conventional SCLC; aSCLC is characterized by <a href="../genes/RB1.html">RB1</a>+/TP53+ status and chromothripsis-driven <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/CDK4.html">CDK4</a> amplification <a href="../papers/39185963.html">PMID:39185963</a>.</li>
+<li>Historical comparator: first-line gemcitabine-carboplatin gave a 9.3-month median OS with a 21% treatment-discontinuation rate in metastatic urothelial carcinoma, versus 15.9 months for <a href="../drugs/atezolizumab.html">atezolizumab</a> in this cisplatin-ineligible cohort. <a href="../papers/27939400.html">PMID:27939400</a></li>
+<li>In neoadjuvant carboplatin plus docetaxel-treated triple-negative breast cancer, a 19q13.31-33 deletion spanning LIG1/POLD1/XRCC1 was associated with resistance to pathologic complete response; PDX and PDX-derived explant screens showed <a href="../genes/LIG1.html">LIG1</a> loss was selectively associated with carboplatin (not <a href="../drugs/docetaxel.html">docetaxel</a>) resistance. <a href="../papers/36001024.html">PMID:36001024</a></li>
+<li><a href="../cancer_types/UTUC.html">UTUC</a> patient PT12 (TMB-high, microsatellite-stable, cluster C5) was treated with gemcitabine/carboplatin before an FGFR inhibitor, <a href="../drugs/nivolumab.html">nivolumab</a>, and later intravesical BCG. <a href="../papers/39550333.html">PMID:39550333</a></li>
+<li>IMvigor210 cohort 2 (n=310) enrolled metastatic urothelial carcinoma patients who had progressed during or after platinum-based chemotherapy (<a href="../drugs/cisplatin.html">cisplatin</a> or carboplatin) before receiving atezolizumab monotherapy in this final analysis. <a href="../papers/39642637.html">PMID:39642637</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -211,23 +218,26 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/39305899.html">PMID:39305899</a></p></li>
 <li><p><a href="../papers/36333289.html">PMID:36333289</a></p></li>
 <li><p><a href="../papers/40328872.html">PMID:40328872</a></p></li>
-<li><p><a href="../papers/24952746.html">PMID:24952746</a></p></li>
+<li><p><a href="../papers/41002550.html">PMID:41002550</a></p></li>
 <li><p><a href="../papers/25096233.html">PMID:25096233</a></p></li>
 <li><p><a href="../papers/26928463.html">PMID:26928463</a></p></li>
-<li><p><a href="../papers/27346245.html">PMID:27346245</a></p></li>
+<li><p><a href="../papers/40958859.html">PMID:40958859</a></p></li>
 <li><p><a href="../papers/28445469.html">PMID:28445469</a> — Abbosh et al.&nbsp;2017, <em>Nature</em>. TRACERx <a href="../cancer_types/NSCLC.html">NSCLC</a> ctDNA study; carboplatin/cisplatin + <a href="../drugs/vinorelbine.html">vinorelbine</a> adjuvant backbone; ctDNA monitors platinum resistance in real time.</p></li>
+<li><p><a href="../papers/41103502.html">PMID:41103502</a></p></li>
+<li><p><a href="../papers/32332851.html">PMID:32332851</a></p></li>
+<li><p><a href="../papers/32633890.html">PMID:32633890</a></p></li>
+<li><p><a href="../papers/32897884.html">PMID:32897884</a></p></li>
+<li><p><a href="../papers/33106634.html">PMID:33106634</a></p></li>
+<li><p><a href="../papers/35377946.html">PMID:35377946</a></p></li>
+<li><p><a href="../papers/35440124.html">PMID:35440124</a></p></li>
+<li><p><a href="../papers/36007103.html">PMID:36007103</a></p></li>
+<li><p><a href="../papers/39185963.html">PMID:39185963</a></p></li>
+<li><p><a href="../papers/27939400.html">PMID:27939400</a></p></li>
+<li><p><a href="../papers/36001024.html">PMID:36001024</a></p></li>
+<li><p><a href="../papers/39550333.html">PMID:39550333</a></p></li>
+<li><p><a href="../papers/39642637.html">PMID:39642637</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30643250.html">PMID:30643250</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32332851.html">PMID:32332851</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32633890.html">PMID:32633890</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32897884.html">PMID:32897884</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/33106634.html">PMID:33106634</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35377946.html">PMID:35377946</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35440124.html">PMID:35440124</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/36007103.html">PMID:36007103</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/39185963.html">PMID:39185963</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>orchestrator</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

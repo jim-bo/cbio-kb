@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,30 +178,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>Recurrently mutated in clear cell renal cell carcinoma (ccRCC); mutational frequency varied across ICI and TKI score groups in a TCGA KIRC molecular subtyping study <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>Recurrently mutated in clear cell renal cell carcinoma (ccRCC); mutational frequency varied across ICI and TKI score groups in a TCGA <a href="../cancer_types/KIRC.html">KIRC</a> molecular subtyping study <a href="../papers/40834854.html">PMID:40834854</a></li>
 <li>Among the top eight most significantly mutated genes (q&lt;0.00001) in ccRCC; identified by TCGA comprehensive molecular characterization <a href="../papers/23792563.html">PMID:23792563</a></li>
 <li>Parallel evolution of KDM5C inactivation previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity of this X-linked histone demethylase <a href="../papers/24487277.html">PMID:24487277</a></li>
-<li>Frameshift in 1 UMD (unmatched molecular driver) patient in a prospective LUAD cohort (860 patients, MSK-IMPACT); patient achieved 6-month stable disease on off-label azacitidine <a href="../papers/28336552.html">PMID:28336552</a></li>
+<li>Frameshift in 1 UMD (unmatched molecular driver) patient in a prospective <a href="../cancer_types/LUAD.html">LUAD</a> cohort (860 patients, MSK-IMPACT); patient achieved 6-month stable disease on off-label <a href="../drugs/azacitidine.html">azacitidine</a> <a href="../papers/28336552.html">PMID:28336552</a></li>
 <li>KDM5C identified as a significantly mutated gene (SMG) in KIRC (kidney renal clear cell carcinoma) by MuSiC2 after long-gene filtering, but not by MutSig2CV, in the MC3 pan-cancer open-access MAF analysis (10,295 tumor samples). <a href="../papers/29596782.html">PMID:29596782</a></li>
-<li>KDM5C E185Q mutation observed in a DCIS subclone (2DCISA) that became clonally dominant in a subsequent multifocal DCIS lesion (2DCISB) in a BRCA1-mutant patient, illustrating intra-DCIS clonal selection and epigenetic regulator involvement in pre-invasive breast cancer evolution <a href="../papers/32220886.html">PMID:32220886</a></li>
+<li>KDM5C E185Q mutation observed in a <a href="../cancer_types/DCIS.html">DCIS</a> subclone (2DCISA) that became clonally dominant in a subsequent multifocal DCIS lesion (2DCISB) in a BRCA1-mutant patient, illustrating intra-DCIS clonal selection and epigenetic regulator involvement in pre-invasive breast cancer evolution <a href="../papers/32220886.html">PMID:32220886</a></li>
+<li>KDM5C was mutated in 8% of clear cell <a href="../cancer_types/RCC.html">RCC</a> tumors and included in a prognostic classifier gene set for its known role in ccRCC <a href="../papers/36815791.html">PMID:36815791</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><strong>KIRC</strong>: Identified as a recurrently mutated gene; frequency distribution across immunotherapy (ICI) and TKI response score groups suggests potential relevance to treatment stratification <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li><strong>KIRC</strong>: Identified as a recurrently mutated gene; frequency distribution across immunotherapy (ICI) and TKI response score groups suggests potential relevance to treatment stratification <a href="../papers/40834854.html">PMID:40834854</a></li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>Co-occurs with <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/NF2.html">NF2</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/SETD2.html">SETD2</a>, and <a href="../genes/PBRM1.html">PBRM1</a> as recurrently mutated genes in ccRCC <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>Co-occurs with <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/NF2.html">NF2</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/SETD2.html">SETD2</a>, and <a href="../genes/PBRM1.html">PBRM1</a> as recurrently mutated genes in ccRCC <a href="../papers/40834854.html">PMID:40834854</a></li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>Mutational frequency across ICI-high and TKI-high score groups suggests KDM5C status may contribute to immunotherapy vs.&nbsp;TKI response classification in ccRCC; specific drug targeting not reported in the corpus <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>Mutational frequency across ICI-high and TKI-high score groups suggests KDM5C status may contribute to immunotherapy vs.&nbsp;TKI response classification in ccRCC; specific drug targeting not reported in the corpus <a href="../papers/40834854.html">PMID:40834854</a></li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
@@ -211,14 +215,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/22138691.html">PMID:22138691</a></li>
+<li><p><a href="../papers/40834854.html">PMID:40834854</a></p></li>
+<li><p><a href="../papers/23792563.html">PMID:23792563</a></p></li>
+<li><p><a href="../papers/24487277.html">PMID:24487277</a></p></li>
+<li><p><a href="../papers/28336552.html">PMID:28336552</a></p></li>
+<li><p><a href="../papers/29596782.html">PMID:29596782</a></p></li>
+<li><p><a href="../papers/32220886.html">PMID:32220886</a></p></li>
+<li><p><a href="../papers/36815791.html">PMID:36815791</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-06</strong>.</em> - <a href="../papers/23792563.html">PMID:23792563</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24487277.html">PMID:24487277</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/32220886.html">PMID:32220886</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -203,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 <li>11% (527/5,009) of patients with ≥12-month follow-up were enrolled on a genomically matched targeted-therapy trial; 72% of matches occurred after MSK-IMPACT reporting itself. <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>The original Make-an-IMPACT report demonstrates that the MSK-IMPACT clinical platform underpinning msk_impact_2017 can be extended via direct-to-patient outreach to enroll international rare-cancer cohorts with 86.8% sequencing success <a href="../papers/36862133.html">PMID:36862133</a>.</li>
 <li>Across 45,112 MSK-IMPACT samples from the same clinical sequencing pipeline, MiMSI reduced MSI-indeterminate calls from 3.8% (n=1,724 by MSISensor) to 0.47% (n=210), with 96% concordance for definitive MSS/MSI-H calls <a href="../papers/39746944.html">PMID:39746944</a>.</li>
-<li>The MSK-CHORD real-world dataset integrates MSK-IMPACT tumor genomics with NLP-derived EHR annotations for 24,950 patients; multimodal models combining genomic and NLP features outperformed stage-alone <a href="../cancer_types/OS.html">OS</a> prediction in <a href="../cancer_types/NSCLC.html">NSCLC</a>, breast, colorectal, prostate, and pancreatic cancers <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li>The MSK-CHORD real-world dataset integrates MSK-IMPACT tumor genomics with NLP-derived EHR annotations for 24,950 patients; multimodal models combining genomic and NLP features outperformed stage-alone OS prediction in <a href="../cancer_types/NSCLC.html">NSCLC</a>, breast, colorectal, prostate, and pancreatic cancers <a href="../papers/39506116.html">PMID:39506116</a>.</li>
 <li>706 advanced prostate cancers from MSK-IMPACT in this cohort were used as validation for 97 significantly mutated genes discovered in the <a href="../datasets/prad_p1000.html">prad_p1000</a> pan-1000 prostate meta-cohort, confirming novel drivers including <a href="../genes/CUL3.html">CUL3</a> (9 cases), <a href="../genes/SPEN.html">SPEN</a>, <a href="../genes/SF3B1.html">SF3B1</a>, and <a href="../genes/PIK3R2.html">PIK3R2</a> <a href="../papers/29610475.html">PMID:29610475</a></li>
 <li>da Silva et al.&nbsp;used three previously published <a href="../cancer_types/MBC.html">MBC</a> cases from msk_impact_2017 as part of a 60-sample study of <a href="../genes/TERT.html">TERT</a> promoter mutations and gene amplification in metaplastic breast cancer; <a href="../genes/TERT.html">TERT</a> alterations were found in 17% (10/60) of MBCs and were mutually exclusive with <a href="../genes/TP53.html">TP53</a> mutations (p&lt;0.001) <a href="../papers/33863915.html">PMID:33863915</a></li>
 <li>4,561 CRC patients were sequenced with MSK-IMPACT at MSK; 47 (1.03%) had dual RAS hotspot/BRAF V600E driver mutations, defining the <a href="../datasets/crc_dd_2022.html">crc_dd_2022</a> sub-cohort; the backbone sequencing data lives in msk_impact_2017 <a href="../papers/35235413.html">PMID:35235413</a></li>
@@ -218,10 +221,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Zehir A, et al.&nbsp;<em>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients.</em> Nat Med. 2017. <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li><a href="../papers/29610475.html">PMID:29610475</a></li>
 <li><a href="../papers/33863915.html">PMID:33863915</a></li>
+<li><a href="../papers/35235413.html">PMID:35235413</a></li>
+<li><a href="../papers/35670774.html">PMID:35670774</a></li>
+<li><a href="../papers/35871175.html">PMID:35871175</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35235413.html">PMID:35235413</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35670774.html">PMID:35670774</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35871175.html">PMID:35871175</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
 
 

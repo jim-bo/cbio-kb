@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -191,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Comprehensive genomic analysis of cutaneous melanoma revealed mutational landscape dominated by UV-signature mutations with recurrent alterations in <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NRAS.html">NRAS</a>, and <a href="../genes/NF1.html">NF1</a> <a href="../papers/26359337.html">PMID:26359337</a></li>
 <li>38 pretreatment metastatic SKCM biopsies profiled by WES and RNA-seq to identify genomic and transcriptomic correlates of anti-PD-1 response; the IPRES mesenchymal/angiogenic transcriptional program defined innate resistance in 9/13 non-responders vs 1/15 responders, and <a href="../genes/BRCA2.html">BRCA2</a> LOF mutations were enriched in responders (28% vs 6%, Fisher P=0.002, OR=6.2) <a href="../papers/26997480.html">PMID:26997480</a></li>
 <li>Cutaneous melanoma (SKCM) used as comparator to acral melanoma (<a href="../cancer_types/ACRM.html">ACRM</a>): SKCM harbours canonical UV-signature BRAF/NRAS/NF1 drivers and higher mutation burden, contrasting with <a href="../cancer_types/ACRM.html">ACRM</a>’s structural-variant dominance and UV-signature absence <a href="../papers/28373299.html">PMID:28373299</a></li>
-<li>Riaz et al.&nbsp;profiled paired pre- and on-therapy biopsies from 68 advanced melanoma patients on anti-PD-1 (<a href="../drugs/nivolumab.html">nivolumab</a>, CA209-038 trial), demonstrating that pre-therapy TMB predicts <a href="../cancer_types/OS.html">OS</a> in ipilimumab-naive but not ipilimumab-progressed patients, and that genomic contraction (selective depletion of neoantigenic clones on-therapy) in responders provides evidence of immunoediting under PD-1 blockade <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li>Riaz et al.&nbsp;profiled paired pre- and on-therapy biopsies from 68 advanced melanoma patients on anti-PD-1 (<a href="../drugs/nivolumab.html">nivolumab</a>, CA209-038 trial), demonstrating that pre-therapy TMB predicts OS in ipilimumab-naive but not ipilimumab-progressed patients, and that genomic contraction (selective depletion of neoantigenic clones on-therapy) in responders provides evidence of immunoediting under PD-1 blockade <a href="../papers/29033130.html">PMID:29033130</a></li>
 <li>MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included SKCM; concordance with the legacy PanCan12 MAF exceeded 90%; SKCM had the largest median SNVs per sample along with <a href="../cancer_types/LUSC.html">LUSC</a> and <a href="../cancer_types/LUAD.html">LUAD</a>, consistent with UV-mutagen exposure <a href="../papers/29596782.html">PMID:29596782</a></li>
 <li>Pan-cancer fusion study (9,624 TCGA samples) included SKCM; SKCM (melanoma) clustered in the neural-lineage arm-level group with <a href="../cancer_types/GBM.html">GBM</a> and <a href="../cancer_types/LGG.html">LGG</a> in the aneuploidy analysis; druggable fusions annotated across 29 cancer types including SKCM <a href="../papers/29617662.html">PMID:29617662</a></li>
 <li>Included in TCGA PanCancer Atlas; SKCM/UVM showed highest mutation rates (UVB signature) in iCluster C15; 361/9,125 TCGA PanCanAtlas samples are metastatic (all from SKCM) <a href="../papers/29625048.html">PMID:29625048</a></li>
@@ -201,14 +204,15 @@ ul.task-list li input[type="checkbox"] {
 <li>Largest cancer type (N=151) in pooled WES ICB cohort of 249 MSS tumors; dominant UV mutational signature (S7) is a stronger correlate of response to immune checkpoint blockade than TMB alone; TMB ceases to predict response after adjusting for dominant signature <a href="../papers/30150660.html">PMID:30150660</a></li>
 <li>SKCM (cutaneous melanoma, combined with <a href="../cancer_types/MEL.html">MEL</a> n=321) was the second-largest histology in the ICI-treated MSK-IMPACT cohort; TMB-high SKCM patients had improved overall survival with ICI and PFS/clinical-benefit associations with TMB were specifically reported. <a href="../papers/30643254.html">PMID:30643254</a></li>
 <li>CCLE multi-omic profiling demonstrated that <a href="../genes/SOX10.html">SOX10</a> promoter hypomethylation and expression are restricted to melanoma (SKCM) cell lines and selectively predict <a href="../genes/SOX10.html">SOX10</a> knockdown sensitivity, establishing a lineage-specific synthetic lethality mechanism <a href="../papers/31068700.html">PMID:31068700</a>.</li>
-<li>Cutaneous melanoma (SKCM, n=105, 72.9% of cohort) was the dominant subtype in a 144-patient anti-PD1 ICB study; TMB was higher in cutaneous/occult (median 297.5 nonsynonymous mutations) versus acral/mucosal (58; P=1.1e-6); MHC-II HLA expression, <a href="../genes/TAP2.html">TAP2</a> and MHC-I HLA amplification identified as response predictors; BRAF 39%, <a href="../genes/NRAS.html">NRAS</a> 30%, <a href="../genes/NF1.html">NF1</a> 17% mutation frequencies <a href="../papers/31792460.html">PMID:31792460</a></li>
+<li>Cutaneous melanoma (SKCM, n=105, 72.9% of cohort) was the dominant subtype in a 144-patient anti-PD1 ICB study; TMB was higher in cutaneous/occult (median 297.5 nonsynonymous mutations) versus acral/mucosal (58; P=1.1e-6); MHC-II HLA expression, <a href="../genes/TAP2.html">TAP2</a> and MHC-I HLA amplification identified as response predictors; <a href="../genes/BRAF.html">BRAF</a> 39%, <a href="../genes/NRAS.html">NRAS</a> 30%, <a href="../genes/NF1.html">NF1</a> 17% mutation frequencies <a href="../papers/31792460.html">PMID:31792460</a></li>
 <li>Cutaneous/skin melanoma was among TRK fusion-positive tumor types in the MSK prospective cohort (n=5, 6.6%); one melanoma with GON4L-NTRK1 + <a href="../genes/NRAS.html">NRAS</a> Q61R co-mutation was the only TRK fusion-positive case with a co-occurring canonical MAPK driver and showed progressive disease on <a href="../drugs/larotrectinib.html">larotrectinib</a> <a href="../papers/31871300.html">PMID:31871300</a></li>
 <li>In PCAWG, cutaneous melanoma had high chromothripsis frequency; APOBEC C&gt;N mutagenesis dominated kataegis (81.7% of foci), correlating with <a href="../genes/APOBEC3B.html">APOBEC3B</a> expression; chromothripsis in melanoma frequent across all histotypes <a href="../papers/32025007.html">PMID:32025007</a>.</li>
 <li>Single-melanocyte sequencing of 133 clonally expanded cells from 6 elderly donors showed mean somatic burden 7.9 mut/Mb (range 0.82–32.3); melanocytes adjacent to BCC/MEL lesions had the highest burdens; BRAF V600E was absent, supporting a distinct UV-driven high-CSD melanoma origin. <a href="../papers/33029006.html">PMID:33029006</a></li>
-<li>66 pretreatment BRAF V600E/K-mutant metastatic SKCM tumors; <a href="../genes/PTEN.html">PTEN</a> loss-of-function alterations (11/19 poor-responder patients) associated with shorter PFS (HR 3.46, P&lt;.001) and <a href="../cancer_types/OS.html">OS</a> (HR 3.10, P&lt;.001) on BRAFi monotherapy; elevated BRAF mutant-allele fraction tracked with excellent response. <a href="../papers/32913971.html">PMID:32913971</a></li>
-<li>MSK-IMPACT profiling of 696 cutaneous melanoma tumors identified MAPK-pathway oncogenic drivers in 96%, with BRAF V600E/K/R (31%), NRAS (29%), <a href="../genes/NF1.html">NF1</a> loss-of-function (23%), and MAP2K1/2 (7%) as the leading classes; NF1-altered tumors had the highest median TMB (43 mut/Mb) and longest TTF on PD-1 monotherapy (22 mo), while TMB was an independent predictor of TTF and OS across both PD-1 monotherapy and <a href="../drugs/nivolumab.html">nivolumab</a>+<a href="../drugs/ipilimumab.html">ipilimumab</a> cohorts <a href="../papers/33509808.html">PMID:33509808</a></li>
-<li>MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs.&nbsp;metastatic genomic differences; SKCM is among tumor types analyzed for <a href="../genes/FGA.html">FGA</a>, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens <a href="../papers/35120664.html">PMID:35120664</a></li>
+<li>66 pretreatment BRAF V600E/K-mutant metastatic SKCM tumors; <a href="../genes/PTEN.html">PTEN</a> loss-of-function alterations (11/19 poor-responder patients) associated with shorter PFS (HR 3.46, P&lt;.001) and OS (HR 3.10, P&lt;.001) on BRAFi monotherapy; elevated BRAF mutant-allele fraction tracked with excellent response. <a href="../papers/32913971.html">PMID:32913971</a></li>
+<li>MSK-IMPACT profiling of 696 cutaneous melanoma tumors identified MAPK-pathway oncogenic drivers in 96%, with BRAF V600E/K/R (31%), <a href="../genes/NRAS.html">NRAS</a> (29%), <a href="../genes/NF1.html">NF1</a> loss-of-function (23%), and MAP2K1/2 (7%) as the leading classes; NF1-altered tumors had the highest median TMB (43 mut/Mb) and longest TTF on PD-1 monotherapy (22 mo), while TMB was an independent predictor of TTF and OS across both PD-1 monotherapy and <a href="../drugs/nivolumab.html">nivolumab</a>+<a href="../drugs/ipilimumab.html">ipilimumab</a> cohorts <a href="../papers/33509808.html">PMID:33509808</a></li>
+<li>MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs.&nbsp;metastatic genomic differences; SKCM is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens <a href="../papers/35120664.html">PMID:35120664</a></li>
 <li>A multi-omics review (Babu &amp; Snyder 2023) cites integrated analysis of TCGA cutaneous melanoma data (Jiang et al.&nbsp;2016) combining CNVs, DNA methylation, gene expression, and clinical variables to yield prognostic models with mean C-statistic 0.724, as an example of multi-omics improving cancer prognostication <a href="../papers/37119971.html">PMID:37119971</a></li>
+<li>In the MSK-IMPACT pan-cancer cohort (n=881 cutaneous melanomas), no MSI-high tumors were observed despite melanoma having one of the highest TMB-H rates (≥20%); BRAF fusions in melanoma presented at a younger age than other BRAF alteration types, and <a href="../genes/ARAF.html">ARAF</a> was a rare (0.5%) but canonical driver specific to melanoma. <a href="../papers/41895280.html">PMID:41895280</a></li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
@@ -241,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/26091043.html">PMID:26091043</a></p></li>
 <li><p><a href="../papers/26359337.html">PMID:26359337</a></p></li>
 <li><p><a href="../papers/26997480.html">PMID:26997480</a></p></li>
-<li><p><a href="../papers/28373299.html">PMID:28373299</a> — Liang et al.&nbsp;2017; ACRM integrated genomics; SKCM used as comparator for UV-mutation-burden and BRAF/NRAS/NF1 driver landscape.</p></li>
+<li><p><a href="../papers/28373299.html">PMID:28373299</a> — Liang et al.&nbsp;2017; <a href="../cancer_types/ACRM.html">ACRM</a> integrated genomics; SKCM used as comparator for UV-mutation-burden and BRAF/NRAS/NF1 driver landscape.</p></li>
 <li><p><a href="../papers/29033130.html">PMID:29033130</a></p></li>
 <li><p><a href="../papers/29596782.html">PMID:29596782</a></p></li>
 <li><p><a href="../papers/29617662.html">PMID:29617662</a></p></li>
@@ -259,9 +263,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/32913971.html">PMID:32913971</a></p></li>
 <li><p><a href="../papers/33509808.html">PMID:33509808</a></p></li>
 <li><p><a href="../papers/35120664.html">PMID:35120664</a></p></li>
+<li><p><a href="../papers/37119971.html">PMID:37119971</a></p></li>
+<li><p><a href="../papers/41895280.html">PMID:41895280</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/37119971.html">PMID:37119971</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

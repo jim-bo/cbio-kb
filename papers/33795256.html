@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -216,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>PMID:</strong> 33795256 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-20-4707 · <strong>Journal:</strong> Clinical Cancer Research (2021)</p>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p>Sihag et al.&nbsp;performed prospective broad-panel next-generation sequencing on 487 lower esophageal and esophagogastric junction adenocarcinomas (EAC) from Memorial Sloan Kettering, using MSK-IMPACT, and linked the resulting genomic profiles to overall survival in patients triaged into curative-intent (N=230) and palliative-intent (N=257) treatment cohorts. They identified 16 recurrent oncogenic drivers (≥5% prevalence), 10 of which were amplifications, and showed that <a href="../genes/CDKN2A.html">CDKN2A</a> alterations, <a href="../genes/SMAD4.html">SMAD4</a> alterations, and <a href="../genes/KRAS.html">KRAS</a> amplifications are independently associated with worse <a href="../cancer_types/OS.html">OS</a>, while <a href="../genes/ERBB2.html">ERBB2</a> amplification is associated with improved OS (largely attributable to <a href="../drugs/trastuzumab.html">trastuzumab</a> therapy). Genome-instability metrics (fraction of genome altered, whole-genome doubling, number of oncogenic drivers, Cell Cycle pathway enrichment) were higher in palliative-intent / advanced-stage patients.</p>
+<p>Sihag et al.&nbsp;performed prospective broad-panel next-generation sequencing on 487 lower esophageal and esophagogastric junction adenocarcinomas (EAC) from Memorial Sloan Kettering, using MSK-IMPACT, and linked the resulting genomic profiles to overall survival in patients triaged into curative-intent (N=230) and palliative-intent (N=257) treatment cohorts. They identified 16 recurrent oncogenic drivers (≥5% prevalence), 10 of which were amplifications, and showed that <a href="../genes/CDKN2A.html">CDKN2A</a> alterations, <a href="../genes/SMAD4.html">SMAD4</a> alterations, and <a href="../genes/KRAS.html">KRAS</a> amplifications are independently associated with worse OS, while <a href="../genes/ERBB2.html">ERBB2</a> amplification is associated with improved OS (largely attributable to <a href="../drugs/trastuzumab.html">trastuzumab</a> therapy). Genome-instability metrics (fraction of genome altered, whole-genome doubling, number of oncogenic drivers, Cell Cycle pathway enrichment) were higher in palliative-intent / advanced-stage patients.</p>
 </section>
 <section id="cohort-data" class="level2">
 <h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>

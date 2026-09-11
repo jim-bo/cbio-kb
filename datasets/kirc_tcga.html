@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Cancer type: clear cell renal cell carcinoma (<a href="../cancer_types/CCRCC.html">CCRCC</a>), n = 491.</li>
 <li>Assays: bulk <a href="../methods/rna-seq.html">rna-seq</a>, DNA-seq (NGS).</li>
-<li>Used as one of 14 public cohorts (n = 3,621 ccRCC samples total) in the HiTME meta-analysis <a href="../papers/22138691.html">PMID:22138691</a>.</li>
+<li>Used as one of 14 public cohorts (n = 3,621 ccRCC samples total) in the HiTME meta-analysis <a href="../papers/40834854.html">PMID:40834854</a>.</li>
 </ul>
 </section>
 <section id="assays-panels-linked" class="level2">
@@ -188,29 +191,29 @@ ul.task-list li input[type="checkbox"] {
 <section id="papers-using-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="papers-using-this-cohort">Papers using this cohort</h2>
 <ul>
-<li><a href="../papers/22138691.html">PMID:22138691</a> — HiTME ccRCC molecular subtyping and IO biomarker study (meta-cohort including TCGA-KIRC as anchor).</li>
+<li><a href="../papers/40834854.html">PMID:40834854</a> — HiTME ccRCC molecular subtyping and IO biomarker study (meta-cohort including TCGA-KIRC as anchor).</li>
 <li><a href="../papers/23792563.html">PMID:23792563</a> — TCGA Research Network 2013, “Comprehensive molecular characterization of clear cell renal cell carcinoma,” <em>Nature</em>.</li>
-<li><a href="../papers/23797736.html">PMID:23797736</a> — Lima et al.&nbsp;2025, mouse scRNA-seq HIF1A/HIF2A isoform study (TCGA-KIRC used as human validation dataset).</li>
+<li><a href="../papers/41102155.html">PMID:41102155</a> — Lima et al.&nbsp;2025, mouse scRNA-seq HIF1A/HIF2A isoform study (TCGA-KIRC used as human validation dataset).</li>
 </ul>
 </section>
 <section id="notable-findings-derived-from-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="notable-findings-derived-from-this-cohort">Notable findings derived from this cohort</h2>
 <ul>
-<li>Five HiTME immune tumor microenvironment subtypes (IE, IE/M, F, V, D) were defined using harmonized transcriptomic data from 14 cohorts including TCGA-KIRC; fibrotic subtypes IE/M and F had worst overall survival in the TCGA-KIRC cohort <a href="../papers/22138691.html">PMID:22138691</a>.</li>
-<li><a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/SETD2.html">SETD2</a>, and <a href="../genes/PBRM1.html">PBRM1</a> mutations were associated with distinct HiTME subtypes and differential ICI/TKI response profiles <a href="../papers/22138691.html">PMID:22138691</a>.</li>
-<li><a href="../genes/MTOR.html">MTOR</a>-activating mutations associated with ICI non-response (15/16 patients resistant) in the meta-cohort anchored on TCGA-KIRC <a href="../papers/22138691.html">PMID:22138691</a>.</li>
+<li>Five HiTME immune tumor microenvironment subtypes (IE, IE/M, F, V, D) were defined using harmonized transcriptomic data from 14 cohorts including TCGA-KIRC; fibrotic subtypes IE/M and F had worst overall survival in the TCGA-KIRC cohort <a href="../papers/40834854.html">PMID:40834854</a>.</li>
+<li><a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/SETD2.html">SETD2</a>, and <a href="../genes/PBRM1.html">PBRM1</a> mutations were associated with distinct HiTME subtypes and differential ICI/TKI response profiles <a href="../papers/40834854.html">PMID:40834854</a>.</li>
+<li><a href="../genes/MTOR.html">MTOR</a>-activating mutations associated with ICI non-response (15/16 patients resistant) in the meta-cohort anchored on TCGA-KIRC <a href="../papers/40834854.html">PMID:40834854</a>.</li>
 <li>TCGA multi-platform molecular characterization of 446 primary ccRCC tumors identified 19 significantly mutated genes (<a href="../genes/VHL.html">VHL</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/KDM5C.html">KDM5C</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/TP53.html">TP53</a>) and chromosome 3p loss in 91% of samples; PI3K/AKT/mTOR pathway altered in ~28%; metabolic Warburg shift correlated with worse survival <a href="../papers/23792563.html">PMID:23792563</a></li>
-<li>Human ccRCC TCGA expression data used as secondary validation for HIF1A/HIF2A isoform-specific transcriptional gene programs identified in a conditional mouse Vhl-knockout scRNA-seq study; both early and adaptive HIF2A-driven programs were significantly active in human ccRCC vs.&nbsp;normal kidney <a href="../papers/23797736.html">PMID:23797736</a></li>
+<li>Human ccRCC TCGA expression data used as secondary validation for HIF1A/HIF2A isoform-specific transcriptional gene programs identified in a conditional mouse Vhl-knockout scRNA-seq study; both early and adaptive HIF2A-driven programs were significantly active in human ccRCC vs.&nbsp;normal kidney <a href="../papers/41102155.html">PMID:41102155</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/22138691.html">PMID:22138691</a></li>
+<li><a href="../papers/40834854.html">PMID:40834854</a></li>
 <li><a href="../papers/23792563.html">PMID:23792563</a></li>
-<li><a href="../papers/23797736.html">PMID:23797736</a></li>
+<li><a href="../papers/41102155.html">PMID:41102155</a></li>
+<li><a href="../papers/41102155.html">PMID:41102155</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23797736.html">PMID:23797736</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,15 +179,16 @@ ul.task-list li input[type="checkbox"] {
 <li>In the UCLA sarcoma PDTO biobank (<a href="../datasets/sarcoma_ucla_2024.html">sarcoma_ucla_2024</a>, n=194 specimens), <a href="../cancer_types/OS.html">osteosarcoma</a> PDTOs were significantly more sensitive than the pan-sarcoma average to cabozantinib (p=0.024). <a href="../papers/39305899.html">PMID:39305899</a></li>
 <li>Cabozantinib was among NCCN-listed top-five regimens recurrently identified for <a href="../cancer_types/OS.html">osteosarcoma</a> in the PDTO functional screen, alongside <a href="../drugs/etoposide.html">etoposide</a>, <a href="../drugs/cisplatin.html">cisplatin</a>, <a href="../drugs/sorafenib.html">sorafenib</a>, <a href="../drugs/regorafenib.html">regorafenib</a>, <a href="../drugs/doxorubicin.html">doxorubicin</a>, <a href="../drugs/gemcitabine.html">gemcitabine</a>, <a href="../drugs/docetaxel.html">docetaxel</a>, and <a href="../drugs/everolimus.html">everolimus</a>. <a href="../papers/39305899.html">PMID:39305899</a></li>
 <li>Sarcoma specimens with prior systemic therapy were more sensitive to cabozantinib than treatment-naïve specimens (p=0.036), alongside <a href="../drugs/lenvatinib.html">lenvatinib</a>, <a href="../drugs/cediranib.html">cediranib</a>, and <a href="../drugs/everolimus.html">everolimus</a> — suggesting post-treatment selection for drug-sensitive clones or upregulation of target pathways. <a href="../papers/39305899.html">PMID:39305899</a></li>
-<li>Nivolumab+cabozantinib data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model <a href="../papers/22138691.html">PMID:22138691</a></li>
+<li>Nivolumab+cabozantinib data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model <a href="../papers/40834854.html">PMID:40834854</a></li>
 <li>Activating <a href="../genes/RET.html">RET</a> mutation in metastatic MTC patient PN8 guided cabozantinib selection; PN8 achieved a partial response lasting 164 days in the POG NEN WGTA cohort <a href="../papers/40328872.html">PMID:40328872</a></li>
-<li>Listed among candidate targeted therapies for advanced <a href="../cancer_types/HCC.html">HCC</a> in a 2014 review of <a href="../cancer_types/HCC.html">HCC</a> genomics that maps driver alterations (<a href="../genes/MET.html">MET</a>, FGF axis, <a href="../genes/VEGFA.html">VEGFA</a>, mTOR) to ongoing clinical trials <a href="../papers/24735922.html">PMID:24735922</a></li>
-<li>Phase III CELESTIAL trial: cabozantinib vs placebo in <a href="../cancer_types/HCC.html">HCC</a>, median <a href="../cancer_types/OS.html">OS</a> 10.2 vs 8.0 months (HR 0.76, 95% CI 0.63–0.92, P=0.0049); approved as second-line for <a href="../cancer_types/HCC.html">HCC</a> regardless of prior-line count (≤2) <a href="../papers/24798001.html">PMID:24798001</a></li>
-<li>Cited as a multi-kinase TKI (VEGFR2, <a href="../genes/MET.html">MET</a>, <a href="../genes/AXL.html">AXL</a>) under investigation in R/M <a href="../cancer_types/NPC.html">NPC</a> for anti-angiogenic and anti-metastatic activity <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>Listed among candidate targeted therapies for advanced <a href="../cancer_types/HCC.html">HCC</a> in a 2014 review of <a href="../cancer_types/HCC.html">HCC</a> genomics that maps driver alterations (<a href="../genes/MET.html">MET</a>, FGF axis, <a href="../genes/VEGFA.html">VEGFA</a>, mTOR) to ongoing clinical trials <a href="../papers/25369299.html">PMID:25369299</a></li>
+<li>Phase III CELESTIAL trial: cabozantinib vs placebo in <a href="../cancer_types/HCC.html">HCC</a>, median OS 10.2 vs 8.0 months (HR 0.76, 95% CI 0.63–0.92, P=0.0049); approved as second-line for <a href="../cancer_types/HCC.html">HCC</a> regardless of prior-line count (≤2) <a href="../papers/30061739.html">PMID:30061739</a></li>
+<li>Cited as a multi-kinase TKI (VEGFR2, <a href="../genes/MET.html">MET</a>, <a href="../genes/AXL.html">AXL</a>) under investigation in R/M <a href="../cancer_types/NPC.html">NPC</a> for anti-angiogenic and anti-metastatic activity <a href="../papers/41002550.html">PMID:41002550</a></li>
 <li>Cited as matched agent for <a href="../genes/RET.html">RET</a> fusions (level 2A) in 860-patient MSK-IMPACT <a href="../cancer_types/LUAD.html">LUAD</a> cohort; 53.3% of RET-fusion patients received matched therapy with 72.7% clinical benefit <a href="../papers/28336552.html">PMID:28336552</a>.</li>
-<li>In genomic profiling of 127 advanced <a href="../cancer_types/HCC.html">HCC</a> patients at MSKCC, cabozantinib was listed as a genome-matched targeted therapy option for <a href="../genes/MET.html">MET</a>-amplified HCC, alongside anti-VEGFR2 + anti-MET mAb combinations; 24% of patients harbored potentially actionable alterations <a href="../papers/30373752.html">PMID:30373752</a>.</li>
+<li>In genomic profiling of 127 advanced <a href="../cancer_types/HCC.html">HCC</a> patients at MSKCC, cabozantinib was listed as a genome-matched targeted therapy option for <a href="../genes/MET.html">MET</a>-amplified <a href="../cancer_types/HCC.html">HCC</a>, alongside anti-VEGFR2 + anti-MET mAb combinations; 24% of patients harbored potentially actionable alterations <a href="../papers/30373752.html">PMID:30373752</a>.</li>
 <li>Cabozantinib is a multikinase inhibitor (MKI) targeting <a href="../genes/RET.html">RET</a>, among others; 29/53 previously treated LIBRETTO-001 patients had received prior MKI therapy (<a href="../drugs/vandetanib.html">vandetanib</a>, cabozantinib, or RXDX-105) before <a href="../drugs/selpercatinib.html">selpercatinib</a> — prior MKI exposure did not alter <a href="../drugs/selpercatinib.html">selpercatinib</a> outcomes (HR=1.2, P=0.6) <a href="../papers/35304457.html">PMID:35304457</a></li>
-<li><a href="../genes/FASN.html">FASN</a> inhibition (orlistat, TVB-2640, TVB-3664) synergizes with cabozantinib in preclinical <a href="../cancer_types/HCC.html">HCC</a> models; the combination is proposed as a strategy to overcome lipid-metabolism-driven TKI resistance <a href="../papers/38355797.html">PMID:38355797</a>.</li>
+<li><a href="../genes/FASN.html">FASN</a> inhibition (<a href="../drugs/orlistat.html">orlistat</a>, TVB-2640, TVB-3664) synergizes with cabozantinib in preclinical <a href="../cancer_types/HCC.html">HCC</a> models; the combination is proposed as a strategy to overcome lipid-metabolism-driven TKI resistance <a href="../papers/41118283.html">PMID:41118283</a>.</li>
+<li>Used in 8 of 45 patients treated for <a href="../genes/MET.html">MET</a> amplification/exon 14 alteration; response was most enriched when MET amplification co-occurred with a MET exon 14 alteration (ORR 67%). <a href="../papers/36044468.html">PMID:36044468</a></li>
 </ul>
 </section>
 <section id="resistance-mechanisms" class="level2">
@@ -203,17 +207,18 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/39305899.html">PMID:39305899</a> — Al Shihabi et al.&nbsp;(Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; osteosarcoma differential sensitivity to cabozantinib; prior-therapy enrichment of sensitivity.</li>
+<li><a href="../papers/40834854.html">PMID:40834854</a></li>
+<li><a href="../papers/40328872.html">PMID:40328872</a></li>
+<li><a href="../papers/25369299.html">PMID:25369299</a></li>
+<li><a href="../papers/30061739.html">PMID:30061739</a></li>
+<li><a href="../papers/41002550.html">PMID:41002550</a></li>
+<li><a href="../papers/28336552.html">PMID:28336552</a></li>
+<li><a href="../papers/30373752.html">PMID:30373752</a></li>
+<li><a href="../papers/35304457.html">PMID:35304457</a></li>
+<li><a href="../papers/41118283.html">PMID:41118283</a></li>
+<li><a href="../papers/36044468.html">PMID:36044468</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/22138691.html">PMID:22138691</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/40328872.html">PMID:40328872</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24735922.html">PMID:24735922</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24798001.html">PMID:24798001</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/24952746.html">PMID:24952746</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/30373752.html">PMID:30373752</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35304457.html">PMID:35304457</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/38355797.html">PMID:38355797</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

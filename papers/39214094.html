@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -208,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="cohort-data" class="level2">
 <h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
 <ul>
-<li><strong>Primary cohort:</strong> 1,360 consecutive <a href="../cancer_types/PAAD.html">PAAD</a> (PDAC) patients undergoing surgical resection at Memorial Sloan Kettering Cancer Center (MSKCC) between April 2004 and April 2019; 397 (29%) stage I, 963 (71%) stage II–III (AJCC 8th edition) <a href="../papers/39214094.html">PMID:39214094</a>. Median follow-up of survivors: 84.9 months (95% CI 76.5–94.7 months); median <a href="../cancer_types/OS.html">OS</a> 30.7 months (95% CI 28.0–32.8).</li>
+<li><strong>Primary cohort:</strong> 1,360 consecutive <a href="../cancer_types/PAAD.html">PAAD</a> (PDAC) patients undergoing surgical resection at Memorial Sloan Kettering Cancer Center (MSKCC) between April 2004 and April 2019; 397 (29%) stage I, 963 (71%) stage II–III (AJCC 8th edition) <a href="../papers/39214094.html">PMID:39214094</a>. Median follow-up of survivors: 84.9 months (95% CI 76.5–94.7 months); median OS 30.7 months (95% CI 28.0–32.8).</li>
 <li><strong>Sequenced subset:</strong> 397 patients with targeted tumor sequencing on MSK-IMPACT 351-/410-/468-gene panels (<a href="../methods/IMPACT341.html">IMPACT341</a>, <a href="../methods/IMPACT410.html">IMPACT410</a>, <a href="../methods/IMPACT468.html">IMPACT468</a>); 103 stage I, 294 stage II–III; tumor DNA from FFPE resection specimens matched to germline blood controls <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><strong>Transcriptomic sub-cohort:</strong> Bulk <a href="../methods/rna-seq.html">RNA-seq</a> on 100 upfront resected tumors (63 KRAS<sup>G12D</sup>, 37 KRAS<sup>G12R</sup>) from the Canadian COMPASS trial (NCT02750657) plus resected patients from the same consortium <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><strong>Spatial profiling:</strong> High-plex in situ RNA + protein profiling via <a href="../methods/cosmx-smi.html">CosMx SMI</a> on tissue microarrays of 20 patients (7 KRAS<sup>G12R</sup> PDAC, 7 KRAS<sup>G12D</sup> PDAC, 6 normal pancreas); ~400 0.5×0.5 mm fields-of-view interrogated <a href="../papers/39214094.html">PMID:39214094</a>.</li>
@@ -227,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 <li>KRAS<sup>G12R</sup> patients more likely to have a family history of pancreatic cancer (16.4% vs 4.2% for KRAS<sup>G12D</sup>, p=0.003) and tended to be non-smokers (58.2% vs 43.1%, not significant) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>KRAS<sup>G12R</sup> tumors carried more <a href="../genes/CDKN2A.html">CDKN2A</a> mutations than KRAS<sup>G12D</sup> (40% vs 22.1%, p=0.046); two-or-more tumor-suppressor co-mutations across <a href="../genes/TP53.html">TP53</a>/<a href="../genes/SMAD4.html">SMAD4</a>/<a href="../genes/CDKN2A.html">CDKN2A</a> more common in KRAS<sup>G12R</sup> (51% vs 30%, p=0.029); <a href="../genes/TP53.html">TP53</a> and <a href="../genes/SMAD4.html">SMAD4</a> individual frequencies not allele-dependent <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Time-to-recurrence: distant recurrence less frequent in KRAS<sup>G12R</sup> (2-year CIF 24.2% vs 43.2% for KRAS<sup>G12D</sup>; p=0.017); local recurrence elevated in KRAS<sup>G12R</sup> (2-year CIF 20.6% vs 10.6%; p=0.045) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li>Overall survival (Kaplan-Meier): other KRAS 47 months, KRAS<sup>WT</sup> 46, KRAS<sup>G12R</sup> 39, KRAS<sup>G12V</sup> 39, KRAS<sup>G12D</sup> 30 (p=0.026); <a href="../genes/TP53.html">TP53</a> mutation associated with worse <a href="../cancer_types/OS.html">OS</a> (33.7 vs 43.6 months, p=0.014); <a href="../genes/SMAD4.html">SMAD4</a> and <a href="../genes/CDKN2A.html">CDKN2A</a> status alone not associated with OS <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>Overall survival (Kaplan-Meier): other KRAS 47 months, KRAS<sup>WT</sup> 46, KRAS<sup>G12R</sup> 39, KRAS<sup>G12V</sup> 39, KRAS<sup>G12D</sup> 30 (p=0.026); <a href="../genes/TP53.html">TP53</a> mutation associated with worse OS (33.7 vs 43.6 months, p=0.014); <a href="../genes/SMAD4.html">SMAD4</a> and <a href="../genes/CDKN2A.html">CDKN2A</a> status alone not associated with OS <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>External validation (n=855 pooled): KRAS<sup>G12D</sup> median OS 15.6 months vs KRAS<sup>G12R</sup> 20.8, KRAS<sup>G12V</sup> 22.4, KRAS<sup>WT</sup> 27 months (p=0.006); multivariate stratified by data source: KRAS<sup>G12R</sup> HR 0.77 (0.60–0.99), p=0.038 and KRAS<sup>G12V</sup> HR 0.71 (0.58–0.88), p=0.02 independently predictive of better OS; absence of tumor-suppressor co-mutation HR 0.74 (0.57–0.95), p=0.02 <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><a href="../methods/cosmx-smi.html">CosMx SMI</a> spatial profiling and bulk <a href="../methods/rna-seq.html">RNA-seq</a>: KRAS<sup>G12D</sup> enriched for EMT (vimentin, fibronectin), mTORC1, E2F/G2M Hallmarks; KRAS<sup>G12R</sup> enriched for cytokeratin, NF-κB (p65), CD31, and TNFα/NF-κB signaling. KRAS<sup>G12R</sup> tumors negatively enriched for canonical mutant-KRAS PDAC signatures <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Mouse organoid orthotopic transplantation: KrasG12R;p53KO median OS 90 days vs KrasG12D;p53KO 44 days (p&lt;0.001); KrasG12R organoids show reduced migration without growth/proliferation differences and depleted <a href="../genes/MYC.html">MYC</a> activation <a href="../papers/39214094.html">PMID:39214094</a>.</li>

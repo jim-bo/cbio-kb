@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
 <li>Epigenetic regulator enriched in M-CLL via SNV, showing pathway convergence with <a href="../genes/KMT2C.html">KMT2C</a> loss <a href="../papers/35927489.html">PMID:35927489</a>.</li>
-<li>Truncating and missense KMT2D mutations in 11% of RT-<a href="../cancer_types/ANGS.html">ANGS</a> (vs 1% sporadic AS) and 21% of RT-<a href="../cancer_types/MFH.html">MFH</a> (<a href="../cancer_types/UPS.html">UPS</a>; vs 4% sporadic UPS), making it significantly enriched in both RT-sarcoma histotypes in the MSK 82-patient RT-sarcoma cohort <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+<li>Truncating and missense KMT2D mutations in 11% of RT-<a href="../cancer_types/ANGS.html">ANGS</a> (vs 1% sporadic AS) and 21% of RT-<a href="../cancer_types/MFH.html">MFH</a> (<a href="../cancer_types/UPS.html">UPS</a>; vs 4% sporadic <a href="../cancer_types/UPS.html">UPS</a>), making it significantly enriched in both RT-sarcoma histotypes in the MSK 82-patient RT-sarcoma cohort <a href="../papers/37350195.html">PMID:37350195</a>.</li>
 <li>KMT2D altered in 9% of cervical cancers (n=177 MSK patients); enriched in squamous (14%) vs gastric-type adenocarcinoma (0%) <a href="../papers/37643132.html">PMID:37643132</a>.</li>
 <li>KMT2D mutation detected in one prostate cancer PDX model (PDX 316-1) in the MDA PCa PDX series (44 PDXs from 38 patients) <a href="../papers/38488813.html">PMID:38488813</a>.</li>
 <li>KMT2D is a frequent co-mutation in <a href="../genes/BRAF.html">BRAF</a> fusion-positive colorectal cancers alongside <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/INPPL1.html">INPPL1</a>, <a href="../genes/MSH3.html">MSH3</a>, and <a href="../genes/ARID1A.html">ARID1A</a> in a tumor-agnostic analysis of 212 patients with <a href="../genes/BRAF.html">BRAF</a> fusions <a href="../papers/38922339.html">PMID:38922339</a>.</li>
@@ -184,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <li>KMT2D was among the most frequently mutated genes in DLBCL and <a href="../cancer_types/FL.html">FL</a>, establishing its role as a major epigenetic tumor suppressor in B-cell lymphomas <a href="../papers/21796119.html">PMID:21796119</a></li>
 <li>Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) <a href="../papers/21798893.html">PMID:21798893</a></li>
 <li>KMT2D is among the significantly mutated genes in DLBCL identified by whole-exome sequencing of 55 tumors (MutSig, Broad Institute) <a href="../papers/22343534.html">PMID:22343534</a></li>
-<li>Second most frequent HBV integration target in <a href="../cancer_types/HCC.html">HCC</a> (11.8%); intronic and exonic insertions cause epigenomic modification and downregulate the p53 pathway with &gt;20-fold expression increase <a href="../papers/22634756.html">PMID:22634756</a></li>
+<li>Second most frequent HBV integration target in <a href="../cancer_types/HCC.html">HCC</a> (11.8%); intronic and exonic insertions cause epigenomic modification and downregulate the p53 pathway with &gt;20-fold expression increase <a href="../papers/41112515.html">PMID:41112515</a></li>
 <li>KMT2D (MLL2/MLL4) found as one of the most frequently mutated genes in medulloblastoma WGS cohort (PCGP, 37 tumors), establishing H3K4 methyltransferase loss as a key event in pediatric brain tumors <a href="../papers/22722829.html">PMID:22722829</a></li>
 <li>KMT2D alterations identified in prostate cancer WES cohort (Michigan, 112 tumors); KMT2D loss co-occurs with ETS fusions and <a href="../genes/EZH2.html">EZH2</a> alterations, suggesting convergent epigenetic dysregulation <a href="../papers/22722839.html">PMID:22722839</a></li>
 <li>Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) <a href="../papers/22820256.html">PMID:22820256</a></li>
@@ -212,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Among canonical urothelial carcinoma (UC) drivers (alongside <a href="../genes/PIK3CA.html">PIK3CA</a> and <a href="../genes/ATM.html">ATM</a>) shown to be heterogeneously shared between matched pre/post-chemotherapy samples in a 32-patient cohort — mean ~28% mutation sharing — highlighting tumor evolutionary instability under platinum-based chemotherapy. <a href="../papers/27749842.html">PMID:27749842</a></li>
 <li>Among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations in 56.3% of cases overall, with KMT2D, <a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/ARID2.html">ARID2</a> and <a href="../genes/NCOR1.html">NCOR1</a> as top hits) in a 1,913-patient B-ALL cohort. <a href="../papers/27776115.html">PMID:27776115</a></li>
 <li>KMT2D (MLL2) homozygous frameshift M3881Cfs*9 established Kabuki syndrome in a 2-month-old hospitalized for fulminant hemophagocytic syndrome; familial HLH was ruled out and stem-cell transplant was averted <a href="../papers/28007021.html">PMID:28007021</a>.</li>
-<li>KMT2D (MLL2) histone-modifier alterations frequent in <a href="../cancer_types/ESCC.html">ESCC</a>, especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with KMT2C and <a href="../genes/KDM6A.html">KDM6A</a> <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li>KMT2D (MLL2) histone-modifier alterations frequent in <a href="../cancer_types/ESCC.html">ESCC</a>, especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with <a href="../genes/KMT2C.html">KMT2C</a> and <a href="../genes/KDM6A.html">KDM6A</a> <a href="../papers/28052061.html">PMID:28052061</a>.</li>
 <li>Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective <a href="../cancer_types/LUAD.html">LUAD</a> cohort (860 patients, MSK-IMPACT) <a href="../papers/28336552.html">PMID:28336552</a></li>
 <li>Recurrent histone-methylation-modifier mutations across medulloblastoma subgroups <a href="../papers/28726821.html">PMID:28726821</a></li>
 <li>Identified as an epigenetic regulator with truncal/subclonal events in matched-tumor phylogenetic analysis of prostate cancer <a href="../papers/28825054.html">PMID:28825054</a></li>
@@ -232,16 +235,20 @@ ul.task-list li input[type="checkbox"] {
 <li>KMT2D is an H3K4 methyltransferase downregulated in MSI cancer cell lines (CCLE); H3K4me1 and H3K4me2 marks are correspondingly reduced <a href="../papers/31978347.html">PMID:31978347</a></li>
 <li>KMT2D is among genes downstream of TP53/CTNNB1/ARID1A mutations in trans in endometrial cancer proteogenomics <a href="../papers/32059776.html">PMID:32059776</a></li>
 <li>KMT2D mutation observed as an IDC-NST-private alteration restricted to the invasive component of synchronous breast tumors, consistent with KMT2D loss being an invasive-stage-acquired event rather than a pre-invasive driver in this cohort <a href="../papers/32220886.html">PMID:32220886</a></li>
-<li>KMT2D mutated in 26% of 119 <a href="../cancer_types/UTUC.html">UTUC</a> patients by MSK-IMPACT; co-occurs with KDM6A, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/CREBBP.html">CREBBP</a>, and <a href="../genes/STAG2.html">STAG2</a> chromatin-remodeling alterations in the <a href="../cancer_types/UTUC.html">UTUC</a> genomic landscape <a href="../papers/32332851.html">PMID:32332851</a></li>
+<li>KMT2D mutated in 26% of 119 <a href="../cancer_types/UTUC.html">UTUC</a> patients by MSK-IMPACT; co-occurs with <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/CREBBP.html">CREBBP</a>, and <a href="../genes/STAG2.html">STAG2</a> chromatin-remodeling alterations in the <a href="../cancer_types/UTUC.html">UTUC</a> genomic landscape <a href="../papers/32332851.html">PMID:32332851</a></li>
 <li>Mutated in 9% of refractory metastatic triple-negative breast cancer (TNBC) patients in the FUSCC cohort (n=69); profiled by 484-gene targeted NGS panel. <a href="../papers/32719455.html">PMID:32719455</a></li>
 <li>KMT2D — classified as a CH-myeloid putative driver gene; truncating variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) <a href="../papers/33106634.html">PMID:33106634</a></li>
-<li>Recurrently mutated (P=0.037) in UTUC; associated with higher mutational load (P=0.04); enriched in iCluster-low (FGFR3-rich) subtype (P=0.028); iClusterBayes posterior probability 0.63. <a href="../papers/33397444.html">PMID:33397444</a></li>
+<li>Recurrently mutated (P=0.037) in <a href="../cancer_types/UTUC.html">UTUC</a>; associated with higher mutational load (P=0.04); enriched in iCluster-low (FGFR3-rich) subtype (P=0.028); iClusterBayes posterior probability 0.63. <a href="../papers/33397444.html">PMID:33397444</a></li>
 <li>Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort <a href="../papers/33863915.html">PMID:33863915</a></li>
 <li>Nominated as a candidate <a href="../cancer_types/CSCC.html">CSCC</a> driver in prior studies but not supported by this meta-analysis (88 QC-passed tumors); authors flag it as a gene that may yet prove to be under selection but present data did not support nomination <a href="../papers/34272401.html">PMID:34272401</a></li>
 <li>Significantly mutated gene (SMG) altered in ≥5% of treatment-naive PDACs in the CPTAC proteogenomic cohort (n=140). <a href="../papers/34534465.html">PMID:34534465</a></li>
 <li>KMT2D alterations were identified in the MSK <a href="../cancer_types/SCLC.html">SCLC</a> PDX/CDX multi-omic profiling study as part of the broader genomic landscape characterization of <a href="../cancer_types/SCLC.html">SCLC</a> xenograft models <a href="../papers/35440124.html">PMID:35440124</a>.</li>
 <li>KMT2D (MLL4) is altered in 16% of myxofibrosarcoma (<a href="../cancer_types/MFS.html">MFS</a>) versus 6% of undifferentiated pleomorphic sarcoma (UPS), suggesting a histotype-specific role despite their close molecular relationship in the MSK sarcoma clinical sequencing cohort (<a href="../datasets/sarcoma_mskcc_2022.html">sarcoma_mskcc_2022</a>, n=1,148) <a href="../papers/35705560.html">PMID:35705560</a></li>
 <li>Listed among recurrently altered genes in a pan-cancer cohort of 10,194 Asian solid-tumor patients; associated with breast cancer (<a href="../cancer_types/BRCA.html">BRCA</a>) in the pan-OrigiMed frequency landscape (OrigiMed CSYS 450-gene panel) <a href="../papers/35871175.html">PMID:35871175</a></li>
+<li>KMT2D hotspot mutations, uncharacteristic of Burkitt lymphoma, drove DLBCL-like calls in a comparator Burkitt lymphoma cohort <a href="../papers/36201743.html">PMID:36201743</a>.</li>
+<li>KMT2D was altered in 16% of solitary fibrous tumors profiled with a 1021-gene panel (SYSUCC discovery cohort) <a href="../papers/37980418.html">PMID:37980418</a>.</li>
+<li>KMT2D was altered in at least 10% of bladder cancer specimens (S1314 cohort), among the most frequently altered genes after <a href="../genes/TERT.html">TERT</a> promoter and <a href="../genes/TP53.html">TP53</a> <a href="../papers/39499893.html">PMID:39499893</a>.</li>
+<li>KMT2D was the third most frequently altered gene (30.3%) in upper tract urothelial carcinoma (MSK100 cohort), after <a href="../genes/FGFR3.html">FGFR3</a> and TERT <a href="../papers/39550333.html">PMID:39550333</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -286,7 +293,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/21796119.html">PMID:21796119</a></p></li>
 <li><p><a href="../papers/21798893.html">PMID:21798893</a></p></li>
 <li><p><a href="../papers/22343534.html">PMID:22343534</a></p></li>
-<li><p><a href="../papers/22634756.html">PMID:22634756</a></p></li>
+<li><p><a href="../papers/41112515.html">PMID:41112515</a></p></li>
 <li><p><a href="../papers/22722829.html">PMID:22722829</a></p></li>
 <li><p><a href="../papers/22722839.html">PMID:22722839</a></p></li>
 <li><p><a href="../papers/22820256.html">PMID:22820256</a></p></li>
@@ -344,8 +351,12 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="../papers/35440124.html">PMID:35440124</a></p></li>
 <li><p><a href="../papers/35705560.html">PMID:35705560</a></p></li>
 <li><p><a href="../papers/35871175.html">PMID:35871175</a></p></li>
+<li><p><a href="../papers/36201743.html">PMID:36201743</a></p></li>
+<li><p><a href="../papers/37980418.html">PMID:37980418</a></p></li>
+<li><p><a href="../papers/39499893.html">PMID:39499893</a></p></li>
+<li><p><a href="../papers/39550333.html">PMID:39550333</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-21</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

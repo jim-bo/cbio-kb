@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,12 +182,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Subclonal loss-of-function CIC mutation (~30% VAF) detected in oligodendroglioma tumor MGH53 by scRNA-seq; mutant cells show increased <a href="../genes/ETV1.html">ETV1</a> and <a href="../genes/ETV5.html">ETV5</a> expression consistent with derepression of CIC target genes; mutation found across all three developmental compartments (stem/progenitor, astro-like, oligo-like) <a href="../papers/27806376.html">PMID:27806376</a>.</li>
 <li>CIC appeared in the MSK-CHORD volcano plots of metastasis and Gleason-association analyses across the 24,950-patient pan-cancer cohort; the alteration was not further characterized clinically in this dataset <a href="../papers/39506116.html">PMID:39506116</a>.</li>
 <li>Mentioned in study <a href="../papers/26824661.html">PMID:26824661</a></li>
-<li>CIC — discussed as the defining alteration of CIC-rearranged undifferentiated small round cell sarcoma, a related entity in the differential diagnosis for EWSR1-non-ETS fusion sarcomas <a href="../papers/28199314.html">PMID:28199314</a></li>
+<li>CIC — discussed as the defining alteration of CIC-rearranged undifferentiated small round cell sarcoma, a related entity in the differential diagnosis for EWSR1-non-ETS fusion sarcomas <a href="../papers/41102727.html">PMID:41102727</a></li>
 <li>Mutated in 10/19 (53%) sequenced anaplastic oligodendroglioma tumors profiled by <a href="../methods/IMPACT410.html">MSK-IMPACT 410</a>; canonical oligodendroglioma driver on the 19q chromosome; not predictive of PFS or OS in this cohort (<a href="../datasets/odg_msk_2017.html">odg_msk_2017</a>) <a href="../papers/28472509.html">PMID:28472509</a></li>
 <li>CIC truncations are listed as a capture-kit-excluded event of biological interest in the TCGA MC3 MAF resource: the Broad BED capture kit mask (bitgt filter) discards CIC truncating variants because they fall outside the capture footprint, illustrating a systematic sensitivity tradeoff in the pan-cancer somatic calling pipeline <a href="../papers/29596782.html">PMID:29596782</a>.</li>
 <li>CIC promoter mutations are canonical glioma subtype-defining lesions with frequencies stable across primary vs.&nbsp;recurrent specimens in a 931-tumor MSK-IMPACT longitudinal cohort <a href="../papers/31263031.html">PMID:31263031</a></li>
 <li>CIC-DUX4 fusion detected in a CNS Ewing-like PDX model (ICb-9850PNET) in the PPTC cohort; an additional CIC C102Y missense variant was found as an RNA-derived variant in the DIPG model IBs-W0128DIPG <a href="../papers/31693904.html">PMID:31693904</a></li>
-<li>Present in the original oligodendroglioma that gave rise to recurrent GBM154; CIC was lost during high-grade recurrence (only CHEK2, TERT promoter mutation, and 1p/19q co-deletion retained in the recurrent PDX) <a href="../papers/31852831.html">PMID:31852831</a></li>
+<li>Present in the original oligodendroglioma that gave rise to recurrent GBM154; CIC was lost during high-grade recurrence (only <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/TERT.html">TERT</a> promoter mutation, and 1p/19q co-deletion retained in the recurrent PDX) <a href="../papers/31852831.html">PMID:31852831</a></li>
+<li>CIC underwent deep deletion co-located with a chromosome-19 kataegis region present at both primary and metastatic timepoints in an APOBEC3-dominant HR+/HER2- breast cancer case <a href="../papers/40379787.html">PMID:40379787</a>.</li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
@@ -217,15 +221,16 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../papers/37910594.html">PMID:37910594</a></li>
 <li><a href="../papers/27806376.html">PMID:27806376</a></li>
 <li><a href="../papers/39506116.html">PMID:39506116</a></li>
+<li><a href="../papers/26824661.html">PMID:26824661</a></li>
+<li><a href="../papers/41102727.html">PMID:41102727</a></li>
+<li><a href="../papers/28472509.html">PMID:28472509</a></li>
+<li><a href="../papers/29596782.html">PMID:29596782</a></li>
+<li><a href="../papers/31263031.html">PMID:31263031</a></li>
+<li><a href="../papers/31693904.html">PMID:31693904</a></li>
+<li><a href="../papers/31852831.html">PMID:31852831</a></li>
+<li><a href="../papers/40379787.html">PMID:40379787</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-01</strong>.</em> - <a href="../papers/26824661.html">PMID:26824661</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28199314.html">PMID:28199314</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28472509.html">PMID:28472509</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/31263031.html">PMID:31263031</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31693904.html">PMID:31693904</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/31852831.html">PMID:31852831</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
 
 
 </section>

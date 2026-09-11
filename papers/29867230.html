@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Clinical activity and molecular correlates of response to atezolizumab alone or in combination with bevacizumab versus sunitinib in renal cell carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29867230.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29867230.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Clinical activity and molecular correlates of response to atezolizumab alone or in combination with bevacizumab versus sunitinib in renal cell carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>David F McDermott </p>
+             <p>Mahrukh A Huseni </p>
+             <p>Michael B Atkins </p>
+             <p>Robert J Motzer </p>
+             <p>Brian I Rini </p>
+             <p>Bernard Escudier </p>
+             <p>Lawrence Fong </p>
+             <p>Richard W Joseph </p>
+             <p>Sumanta K Pal </p>
+             <p>James A Reeves </p>
+             <p>Mario Sznol </p>
+             <p>John Hainsworth </p>
+             <p>W Kimryn Rathmell </p>
+             <p>Walter M Stadler </p>
+             <p>Thomas Hutson </p>
+             <p>Martin E Gore </p>
+             <p>Alain Ravaud </p>
+             <p>Sergio Bracarda </p>
+             <p>Cristina Suárez </p>
+             <p>Riccardo Danielli </p>
+             <p>Viktor Gruenwald </p>
+             <p>Toni K Choueiri </p>
+             <p>Dorothee Nickles </p>
+             <p>Suchit Jhunjhunwala </p>
+             <p>Elisabeth Piault-Louis </p>
+             <p>Alpa Thobhani </p>
+             <p>Jiaheng Qiu </p>
+             <p>Daniel S Chen </p>
+             <p>Priti S Hegde </p>
+             <p>Christina Schiff </p>
+             <p>Gregg D Fine </p>
+             <p>Thomas Powles </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41591-018-0053-3">10.1038/s41591-018-0053-3</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29867230 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/s41591-018-0053-3">10.1038/s41591-018-0053-3</a> · <strong>Journal:</strong> Nature Medicine (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>IMmotion150 was a randomized, open-label phase 2 trial in 305 patients with treatment-naive metastatic renal cell carcinoma (mRCC; clear cell and/or sarcomatoid histology). Patients were randomized 1:1:1 to <a href="../drugs/atezolizumab.html">atezolizumab</a> (anti-PD-L1) plus <a href="../drugs/bevacizumab.html">bevacizumab</a> (anti-VEGF), <a href="../drugs/atezolizumab.html">atezolizumab</a> alone, or <a href="../drugs/sunitinib.html">sunitinib</a>. The trial was designed to <a href="../methods/estimate.html">estimate</a> effect sizes, not to test for significance. In the intent-to-treat population, neither atezolizumab arm improved progression-free survival (PFS) over <a href="../drugs/sunitinib.html">sunitinib</a> (HR 1.00 and 1.19). In patients with PD-L1 on ≥1% of tumor-infiltrating immune cells (IC), atezolizumab + <a href="../drugs/bevacizumab.html">bevacizumab</a> showed a favorable trend (median PFS 14.7 vs.&nbsp;7.8 months; HR 0.64, 95% CI 0.38–1.08). The exploratory biomarker analyses used <a href="../methods/rna-seq.html">RNA-seq</a> of 263 tumors and <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> of 201 tumors. Tumor mutation burden (TMB) and neoantigen burden did not predict outcome. Three <a href="../methods/immotion150-gene-signatures.html">gene-expression signatures</a> separated the arms instead: Angio (angiogenesis), Teff (T-effector/IFN-γ) and myeloid inflammation. Sunitinib worked best in AngioHigh and <a href="../genes/PBRM1.html">PBRM1</a>-mutant tumors, and atezolizumab + bevacizumab beat sunitinib in TeffHigh tumors. In TeffHighMyeloidHigh tumors, atezolizumab + bevacizumab outperformed atezolizumab alone, suggesting that adding bevacizumab may overcome myeloid-inflammation-associated resistance. <a href="../papers/29867230.html">PMID:29867230</a></p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Trial:</strong> IMmotion150, a prospectively designed, multicenter (96 institutions), randomized, open-label phase 2 trial. Enrollment ran from 8 January 2014 to 16 March 2015. Clinical cutoff was 17 October 2016, with a median survival follow-up of 20.7 months. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Population:</strong> Adults (≥18 years, Karnofsky performance score ≥70) with unresectable advanced or metastatic <a href="../cancer_types/RCC.html">renal cell carcinoma</a> with a clear cell and/or sarcomatoid component and no prior systemic therapy. Predominant clear cell histology (<a href="../cancer_types/CCRCC.html">CCRCC</a>) was present in 92–96% of patients per arm, and a sarcomatoid component in 14–15%. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Arms (ITT N = 305):</strong> Atezolizumab 1,200 mg IV + bevacizumab 15 mg/kg every 3 weeks (n = 101); atezolizumab 1,200 mg IV every 3 weeks (n = 103); sunitinib 50 mg/day orally, 4 weeks on / 2 weeks off (n = 101). The safety population was 304 because one sunitinib patient withdrew before dosing. Patients progressing on atezolizumab or sunitinib could cross over to the combination in some regions (not in Europe). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Stratification:</strong> Memorial Sloan Kettering Cancer Center (MSKCC) risk, prior nephrectomy, and PD-L1 IC status (≥5% vs.&nbsp;&lt;5%) by the <a href="../methods/pd-l1-ihc-sp142.html">SP142 IHC assay</a> (Ventana), scored centrally. PD-L1 positivity was later redefined as ≥1% IC, and PFS in PD-L1+ patients became a co-primary endpoint. PD-L1+ rates were 59% (sunitinib), 52% (atezolizumab) and 50% (atezolizumab + bevacizumab). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Baseline:</strong> Median age 61–62 years; 73–78% male; prior nephrectomy 86–87%. MSKCC risk was favorable in 21–30%, intermediate in 61–69% and poor in 8–10% of patients per arm. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Transcriptomics:</strong> Whole-transcriptome <a href="../methods/rna-seq.html">RNA-seq</a> (Illumina TruSeq RNA Access) was run on 263 pretreatment tumors. Reads were aligned to NCBI Build 38 with GSNAP, and gene counts were <a href="../methods/edger.html">edgeR</a>-normalized and voom-transformed. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Exomes:</strong> Tumor/PBMC <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> (Agilent SureSelect v5, 51 Mb; HiSeq 2500) was generated for 208 patients, and 201 tumors were evaluable for mutation analyses. Somatic calls were the union of <a href="../methods/lofreq.html">LoFreq</a> and <a href="../methods/strelka.html">Strelka</a> (indel classification used Strelka calls only), with <a href="../methods/gatk.html">GATK</a> indel realignment and <a href="../methods/vep.html">VEP</a> annotation. Single-gene mutant status required a VAF of ≥5%. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Neoantigens:</strong> Expressed mutations were confirmed in RNA-seq. HLA typing used <a href="../methods/polysolver.html">Polysolver</a> on PBMC exomes, and 8–11-mer neoepitope binding was predicted with <a href="../methods/netmhccons.html">NetMHCcons</a>. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>IHC:</strong> Beyond PD-L1 (SP142), <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> was used for CD31 (vascular density) and CD8 T-cell infiltration. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Statistics:</strong> PFS was estimated by <a href="../methods/kaplan-meier.html">Kaplan–Meier</a> and compared with a stratified <a href="../methods/cox-proportional-hazards.html">Cox proportional hazards</a> model. Biomarker associations used Cox regression, and P values were descriptive and not adjusted for multiplicity. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Data availability:</strong> Anonymized genetic data from the 163 consenting patients are deposited at EGA (EGAS00001002928). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>cBioPortal:</strong> <a href="../datasets/rcc_iatlas_immotion150_2018.html">rcc_iatlas_immotion150_2018</a> is an iAtlas-harmonized reprocessing of the IMmotion150 sequencing data. cBioPortal study metadata lists 263 samples on reference genome hg38.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p><strong>Primary efficacy (independent review facility-assessed)</strong></p>
+<ul>
+<li><strong>ITT PFS:</strong> Median PFS was 11.7 months (95% CI 8.4–17.3) with atezolizumab + bevacizumab and 8.4 months (7.0–14.0) with <a href="../drugs/sunitinib.html">sunitinib</a>, HR 1.00 (0.69–1.45). With atezolizumab monotherapy it was 6.1 months (5.4–13.6), HR 1.19 (0.82–1.71) vs.&nbsp;sunitinib. PFS events were 67/101, 61/103 and 59/101. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>PD-L1+ (≥1% IC) PFS:</strong> Median PFS was 14.7 months (8.2–25.1) with atezolizumab + bevacizumab vs.&nbsp;7.8 months (3.8–10.8) with sunitinib, HR 0.64 (0.38–1.08). With atezolizumab monotherapy it was 5.5 months (3.0–13.9), HR 1.03 (0.63–1.67). Arm sizes were n = 50, 54 and 60. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>ORR, ITT:</strong>
+<ul>
+<li>Atezolizumab + bevacizumab: 32% (7% CR, 25% PR).</li>
+<li>Atezolizumab: 25% (11% CR, 14% PR).</li>
+<li>Sunitinib: 29% (5% CR, 24% PR).</li>
+</ul>
+<a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>ORR, PD-L1+:</strong>
+<ul>
+<li>Atezolizumab + bevacizumab: 46% (12% CR, 34% PR).</li>
+<li>Atezolizumab: 28% (15% CR, 13% PR).</li>
+<li>Sunitinib: 27% (7% CR, 20% PR).</li>
+</ul>
+<a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>PFS benefit trended upward with higher PD-L1 IC expression in both atezolizumab arms vs.&nbsp;sunitinib at the ≥5% cutoff (unstratified). Investigator- and independent-review-assessed PFS agreed in 77% of patients. <a href="../papers/29867230.html">PMID:29867230</a></li>
+</ul>
+<p><strong>Safety</strong></p>
+<ul>
+<li><strong>Treatment-related grade 3/4 AEs:</strong>
+<ul>
+<li>Sunitinib: 57%.</li>
+<li>Atezolizumab + bevacizumab: 40%.</li>
+<li>Atezolizumab: 17%.</li>
+</ul>
+<a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Treatment-related AEs leading to discontinuation:</strong> 9% with atezolizumab + bevacizumab (most often proteinuria, 5%), 3% with atezolizumab, and 9% with sunitinib (most often increased creatinine and palmar-plantar erythrodysesthesia, 2% each). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Treatment-related deaths:</strong> 2 with sunitinib, 1 with atezolizumab + bevacizumab and 0 with atezolizumab. <a href="../papers/29867230.html">PMID:29867230</a></li>
+</ul>
+<p><strong>Gene-expression signatures (263 tumors; high/low split at the median)</strong></p>
+<ul>
+<li>A heatmap of angiogenesis, immune and myeloid-inflammation genes showed distinct biological subgroups. AngioHigh tumors had higher CD31 IHC vascular density (P = 4.19×10⁻²¹). The Teff score was associated with PD-L1 IC IHC (P = 3.26×10⁻²⁰) and CD8 IHC (P = 1.26×10⁻²⁸). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Angio within the sunitinib arm:</strong> AngioHigh tumors had better ORR (46% vs.&nbsp;9%) and PFS (HR 0.31, 0.18–0.55) than AngioLow tumors. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Angio across arms:</strong> In AngioLow tumors, atezolizumab + bevacizumab improved PFS vs.&nbsp;sunitinib (HR 0.59, 0.35–0.98). In AngioHigh tumors, no arm differed from sunitinib. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Teff within the atezolizumab + bevacizumab arm:</strong> TeffHigh tumors had better ORR (49% vs.&nbsp;16%) and PFS (HR 0.50, 0.30–0.86). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Teff across arms:</strong> In TeffHigh tumors, atezolizumab + bevacizumab improved PFS vs.&nbsp;sunitinib (HR 0.55, 0.32–0.95). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Myeloid inflammation within arms:</strong> MyeloidHigh tumors had shorter PFS with atezolizumab (HR 2.98, 1.68–5.29) and, less strongly, with atezolizumab + bevacizumab (HR 1.71, 1.01–2.88), but not with sunitinib. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Myeloid inflammation across arms:</strong> In MyeloidHigh tumors, atezolizumab did worse than sunitinib (HR 2.03, 1.21–3.40). Atezolizumab + bevacizumab did not differ from sunitinib in this subgroup. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>TeffHigh tumors split by myeloid inflammation:</strong>
+<ul>
+<li>With atezolizumab monotherapy, TeffHighMyeloidHigh tumors did worse than TeffHighMyeloidLow tumors (HR 3.82, 1.70–8.60).</li>
+<li>In TeffHighMyeloidHigh tumors, atezolizumab + bevacizumab improved PFS vs.&nbsp;atezolizumab alone (HR 0.25, 0.10–0.60).</li>
+<li>In TeffHighMyeloidLow tumors, the two atezolizumab arms did not differ.</li>
+</ul>
+<a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>Taken alone, none of the three dichotomized signatures separated atezolizumab + bevacizumab from atezolizumab monotherapy. <a href="../papers/29867230.html">PMID:29867230</a></li>
+</ul>
+<p><strong>Mutational load (201 WES tumors)</strong></p>
+<ul>
+<li><strong>Medians:</strong> Expressed TMB 30 (range 1–309), tumor neoantigen burden 8 (0–79), indel load 3 (0–113), frameshift mutation burden 2 (0–55). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>None of these measures was associated with the Teff signature or with clinical benefit in any arm. TMB by response group gave t-test P = 0.06 (sunitinib), 0.14 (atezolizumab + bevacizumab) and 0.93 (atezolizumab). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>The authors report that this larger randomized <a href="../cancer_types/RCC.html">RCC</a> cohort did not confirm the proposed link between indel/frameshift-derived neoantigens and immunogenicity. <a href="../papers/29867230.html">PMID:29867230</a></li>
+</ul>
+<p><strong>Driver mutations</strong></p>
+<ul>
+<li><a href="../genes/VHL.html">VHL</a> was mutated in 62% of tumors and <a href="../genes/PBRM1.html">PBRM1</a> in 44%. Both mutant groups had higher mean Angio signature scores. <a href="../genes/VHL.html">VHL</a> status was not associated with PFS in any arm. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><a href="../genes/PBRM1.html">PBRM1</a> mutation was associated with better PFS on sunitinib (HR 0.38, 0.20–0.73). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>Within PBRM1-mutant tumors, atezolizumab did worse than sunitinib (HR 2.49, 1.26–4.91), and atezolizumab + bevacizumab did better than atezolizumab (HR 0.42, 0.22–0.82). <a href="../papers/29867230.html">PMID:29867230</a></li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/VHL.html">VHL</a>: somatic mutation in 62% of 201 tumors. Mutants had higher mean Angio signature expression, and mutation status was not associated with PFS in any arm. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><a href="../genes/PBRM1.html">PBRM1</a>: mutated in 44% of tumors. Mutants had higher mean Angio signature expression and better PFS on sunitinib (HR 0.38). In the mutant subgroup, atezolizumab monotherapy did worse than sunitinib (HR 2.49), and the authors state their data do not support PBRM1 mutation as a predictor of checkpoint-inhibitor response. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><a href="../genes/CD274.html">CD274</a> (PD-L1): IC protein expression by the SP142 assay defined the co-primary PD-L1+ (≥1% IC) population. <a href="../genes/CD274.html">CD274</a> is also one of the five Teff signature genes, and the Teff score correlated strongly with PD-L1 IC IHC. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Angio signature:</strong> <a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/KDR.html">KDR</a>, <a href="../genes/ESM1.html">ESM1</a>, <a href="../genes/PECAM1.html">PECAM1</a>, <a href="../genes/ANGPTL4.html">ANGPTL4</a> and <a href="../genes/CD34.html">CD34</a>. AngioHigh predicted sunitinib benefit and tracked CD31 IHC vascular density (CD31 is encoded by <a href="../genes/PECAM1.html">PECAM1</a>). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Teff signature:</strong> <a href="../genes/CD8A.html">CD8A</a>, <a href="../genes/EOMES.html">EOMES</a>, <a href="../genes/PRF1.html">PRF1</a>, <a href="../genes/IFNG.html">IFNG</a> and <a href="../genes/CD274.html">CD274</a>. TeffHigh predicted benefit from atezolizumab + bevacizumab within that arm and vs.&nbsp;sunitinib, and tracked CD8 IHC. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Myeloid inflammation signature:</strong> <a href="../genes/IL6.html">IL6</a>, <a href="../genes/CXCL1.html">CXCL1</a>, <a href="../genes/CXCL2.html">CXCL2</a>, <a href="../genes/CXCL3.html">CXCL3</a>, <a href="../genes/CXCL8.html">CXCL8</a> and <a href="../genes/PTGS2.html">PTGS2</a>. MyeloidHigh was associated with worse PFS on atezolizumab monotherapy, and this was proposed as innate resistance that bevacizumab may overcome. <a href="../papers/29867230.html">PMID:29867230</a></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>In PD-L1+ (≥1% IC, 54% of enrolled patients) treatment-naive mRCC, atezolizumab + bevacizumab showed encouraging PFS vs.&nbsp;sunitinib. The authors note this was supported by the phase 3 IMmotion151 trial. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>The authors propose a diagnostic or enrichment strategy based on PD-L1 IC IHC and/or an immune (Teff) gene-expression signature for first-line mRCC. They note that PD-L1 on tumor cells (24% of patients) also enriched for benefit in a phase 3 trial of <a href="../drugs/ipilimumab.html">ipilimumab</a> + <a href="../drugs/nivolumab.html">nivolumab</a> vs.&nbsp;sunitinib. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Biology that may match patients to treatment:</strong>
+<ul>
+<li>Highly angiogenic (AngioHigh) and PBRM1-mutant tumors may benefit most from sunitinib.</li>
+<li>Tumors with pre-existing immunity (TeffHigh / PD-L1 IC+) favor atezolizumab + bevacizumab.</li>
+<li>Immune-inflamed tumors with low myeloid inflammation (TeffHighMyeloidLow) respond to atezolizumab alone.</li>
+</ul>
+<a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>Myeloid inflammation (IL-6, CXCL8-family chemokines, prostaglandins/PTGS2) is proposed as a mechanism of innate resistance to PD-L1 blockade that VEGF blockade may reverse. The authors point to preclinical and human data showing that VEGF/VEGFR blockade reduces myeloid-derived suppressor cells. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>TMB and neoantigen burden should not be assumed to predict checkpoint-inhibitor benefit in RCC, unlike in <a href="../cancer_types/NSCLC.html">NSCLC</a> and metastatic urothelial carcinoma. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>The single-agent activity and complete responses with atezolizumab motivated the adjuvant IMmotion010 trial. Atezolizumab + bevacizumab showed activity across MSKCC risk groups, including favorable risk. An ad hoc IMDC analysis (78% concordance with MSKCC) corroborated PFS activity across risk groups. <a href="../papers/29867230.html">PMID:29867230</a></li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The study was a hypothesis-generating phase 2 trial built to estimate effect sizes, not to establish statistical significance. Endpoints were changed mid-trial: the PD-L1 cutoff was revised from ≥5% to ≥1% IC and a co-primary endpoint was added, which likely caused the imbalance in PD-L1+ patients across arms. The authors therefore describe the analysis as exploratory. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>The trial was open-label. Overall survival and crossover data were immature and not reported. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>Biomarker analyses covered subsets (RNA-seq 263/305; WES 201). Signatures were split at the cohort median with no prespecified threshold, and P values were not adjusted for multiple testing. The authors say the findings require validation in larger randomized trials (IMmotion151). <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>An analysis of a stromal-high subpopulation that appeared resistant to immunotherapy was ad hoc. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li>The biological basis of immunogenicity in RCC is unresolved. The authors suggest clonal indels and endogenous retrovirus expression as future directions. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Cross-paper conflict on PBRM1:</strong> This trial found PBRM1 mutation associated with sunitinib benefit, not checkpoint-inhibitor benefit. The authors state this does not support a retrospective report from a heterogeneous population linking PBRM1 mutation to checkpoint-inhibitor response. Their reference list includes Miao et al., <a href="../papers/29301960.html">PMID:29301960</a>, whose anti-PD-(L)1 ccRCC cohorts showed PBRM1 loss-of-function enriched in patients with clinical benefit. The authors attribute the discrepancy to “differences in the patient population and study design”; IMmotion150 was a first-line randomized trial. <a href="../papers/29867230.html">PMID:29867230</a></li>
+<li><strong>Later reuse:</strong> IMmotion150 (n = 163) was later included in a 14-cohort ccRCC meta-analysis, where the IMmotion150 Angio signature served as a comparator for TKI-response prediction. <a href="../papers/40834854.html">PMID:40834854</a></li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Intent-to-treat PFS hazard ratios for atezolizumab + bevacizumab or atezolizumab monotherapy versus sunitinib were 1.0 (95% confidence interval (CI), 0.69-1.45) and 1.19 (95% CI, 0.82-1.71), respectively; PD-L1+ PFS hazard ratios were 0.64 (95% CI, 0.38-1.08) and 1.03 (95% CI, 0.63-1.67), respectively.” (Abstract)</li>
+<li>“High expression of the Angio gene signature, based on median signature score, was associated with improved ORR (46% in AngioHigh versus 9% in AngioLow; Fig. 2e) and PFS (HR 0.31; 95% CI, 0.18–0.55; Fig. 2f) within the sunitinib treatment arm.” (Results)</li>
+<li>“When compared across treatment arms, high Teff gene signature expression was associated with improved PFS with atezolizumab + bevacizumab versus sunitinib (HR 0.55; 95% CI, 0.32–0.95; Fig. 2l).” (Results)</li>
+<li>“Atezolizumab monotherapy had worse activity in the TeffHighMyeloidHigh tumors compared with the TeffHighMyeloidLow tumors (HR 3.82; 95% CI, 1.70–8.60 … atezolizumab + bevacizumab showed improved PFS compared with atezolizumab monotherapy (HR 0.25; 95% CI, 0.10–0.60; Fig. 2n).” (Results)</li>
+<li>“Notably, no apparent association was found between TMB, TNB, indels, or FMB and intratumoral Teff gene signature … or clinical benefit in any of the three treatment arms.” (Results)</li>
+<li>“two of the most frequently mutated genes in this patient population were VHL (62%) and PBRM1 (44%) … PBRM1 mutations were associated with improved PFS in the sunitinib group (HR 0.38; 95% CI, 0.20–0.73).” (Results)</li>
+<li>“Gene signatures were defined as follows: Angio: <a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/KDR.html">KDR</a>, <a href="../genes/ESM1.html">ESM1</a>, PECAM1, <a href="../genes/ANGPTL4.html">ANGPTL4</a>, and <a href="../genes/CD34.html">CD34</a>; Teff: <a href="../genes/CD8A.html">CD8A</a>, <a href="../genes/EOMES.html">EOMES</a>, <a href="../genes/PRF1.html">PRF1</a>, <a href="../genes/IFNG.html">IFNG</a>, and CD274; myeloid inflammation: IL-6, <a href="../genes/CXCL1.html">CXCL1</a>, <a href="../genes/CXCL2.html">CXCL2</a>, <a href="../genes/CXCL3.html">CXCL3</a>, <a href="../genes/CXCL8.html">CXCL8</a>, and <a href="../genes/PTGS2.html">PTGS2</a>.” (Methods, Gene expression analyses)</li>
+<li>“Retrospective data from a heterogeneous population recently linked PBRM1 mutations with response to immune checkpoint inhibitors in renal cancer. Our data does not support this finding.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-09-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29867230.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29867230.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

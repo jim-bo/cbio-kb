@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -191,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="papers-using-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="papers-using-this-cohort">Papers using this cohort</h2>
 <ul>
-<li><a href="../papers/36334560.html">PMID:36334560</a> — Bioinformatic analysis of <a href="../genes/FBXO7.html">FBXO7</a> copy number loss in CRC; 526 cases used for copy number, expression, and survival analyses.</li>
+<li><a href="../papers/40896366.html">PMID:40896366</a> — Bioinformatic analysis of <a href="../genes/FBXO7.html">FBXO7</a> copy number loss in CRC; 526 cases used for copy number, expression, and survival analyses.</li>
 <li><a href="../papers/29625048.html">PMID:29625048</a> — TCGA PanCancer Atlas integrative molecular analysis (Hoadley et al., 2018)</li>
 <li><a href="../papers/29625049.html">PMID:29625049</a> — TCGA PanCancer Atlas pan-cancer driver and germline analysis (Ding et al., 2018)</li>
 <li><a href="../papers/29625050.html">PMID:29625050</a> — TCGA PanCancer Atlas oncogenic pathway analysis (Sanchez-Vega et al., 2018)</li>
@@ -200,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="notable-findings-derived-from-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="notable-findings-derived-from-this-cohort">Notable findings derived from this cohort</h2>
 <ul>
-<li>FBXO7 shallow deletions (heterozygous loss) occur in 32.5% (169/526) of CRC cases; deep deletions are rare (&lt;0.2%); FBXO7 shallow deletions associate with increased genome instability (fraction altered, aneuploidy score, tumor break load; q &lt; 0.0001) and worse overall, progression-free, and disease-specific survival (log rank, p &lt; 0.05) <a href="../papers/36334560.html">PMID:36334560</a>.</li>
+<li>FBXO7 shallow deletions (heterozygous loss) occur in 32.5% (169/526) of CRC cases; deep deletions are rare (&lt;0.2%); FBXO7 shallow deletions associate with increased genome instability (fraction altered, aneuploidy score, tumor break load; q &lt; 0.0001) and worse overall, progression-free, and disease-specific survival (log rank, p &lt; 0.05) <a href="../papers/40896366.html">PMID:40896366</a>.</li>
 <li>MC3 ensemble mutation calls (7 callers, 10,510 TCGA tumor/normal pairs, 33 cancer types) form the somatic-variant backbone of this PanCanAtlas cBioPortal study <a href="../papers/29596782.html">PMID:29596782</a></li>
 <li>Pan-cancer aneuploidy analysis of 10,522 TCGA tumors used this cohort as part of the gastrointestinal cluster (COAD/READ) analysis of arm-level copy-number alterations <a href="../papers/29622463.html">PMID:29622463</a></li>
 <li>COAD/READ samples contributed to pan-cancer iCluster analysis; C4:pan-GI (CRC, chromosomal instability) and C18:pan-GI (MSI, STAD+COAD) were two of the 28 identified integrative subtypes; C1:STAD (EBV-CIMP) also contains CRC tumors <a href="../papers/29625048.html">PMID:29625048</a></li>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -203,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Four molecular subtypes (Luminal A, Luminal B, HER2-Enriched, Basal-like) confirmed with distinct mutational spectra and copy number landscapes <a href="../papers/23000897.html">PMID:23000897</a>.</li>
 <li>Basal-like breast cancers share striking molecular features with <a href="../cancer_types/HGSOC.html">HGSOC</a> including <a href="../genes/TP53.html">TP53</a> mutations, RB1/BRCA1 loss, and <a href="../genes/MYC.html">MYC</a> amplification <a href="../papers/23000897.html">PMID:23000897</a>.</li>
 <li>~20% of Basal-like tumors carry germline and/or somatic BRCA1/BRCA2 variants, identifying a population potentially amenable to <a href="../drugs/olaparib.html">olaparib</a> and platinum therapy <a href="../papers/23000897.html">PMID:23000897</a>.</li>
-<li>Cross-species transcriptome concordance: 297 of 1,469 genes up-regulated in rat Pik3caH1047R/Tp53Indel tumors also enriched in TCGA <a href="../genes/PIK3CA.html">PIK3CA</a>+<a href="../genes/TP53.html">TP53</a> vs PIK3CA-only/WT-TP53 breast cancers (Fisher’s p&lt;1×10^-14) <a href="../papers/26437033.html">PMID:26437033</a></li>
+<li>Cross-species transcriptome concordance: 297 of 1,469 genes up-regulated in rat Pik3caH1047R/Tp53Indel tumors also enriched in TCGA <a href="../genes/PIK3CA.html">PIK3CA</a>+<a href="../genes/TP53.html">TP53</a> vs PIK3CA-only/WT-TP53 breast cancers (Fisher’s p&lt;1×10^-14) <a href="../papers/41000773.html">PMID:41000773</a></li>
 <li>Used as the 772-sample primary breast cancer reference cohort (419 HR+/HER2−, 100 HR−/HER2−, 145 HER2+) for comparison against 216 metastatic breast cancers; APOBEC signatures (2+13) contributed 31.9% of mutations in HR+/HER2− primary samples vs 58.8% in HR+/HER2− metastatic tumors (p&lt;2e-16) <a href="../papers/28027327.html">PMID:28027327</a></li>
 <li>Used as a public reference cohort (n=959 RNA-seq) to show that PIK3CA + MAP3K1 co-altered tumors are significantly enriched for luminal A PAM50 subtype (p&lt;0.0001), supporting the hypothesis that MAP3K1 loss is a surrogate for luminal A biology rather than a direct PI3K-sensitivity driver <a href="../papers/31552290.html">PMID:31552290</a>.</li>
 <li>Used as a 1:3 matched comparator cohort of age-/receptor-matched IDC-NSTs (n=81 total matches) to show that synchronous DCIS has a comparable number of non-synonymous mutations and overlapping cancer-gene mutation frequencies to invasive breast cancers; mutational frequencies of TP53, PIK3CA, and GATA3 in DCIS were indistinguishable from matched TCGA IDC-NSTs. <a href="../papers/32220886.html">PMID:32220886</a></li>
@@ -213,11 +216,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/23000897.html">PMID:23000897</a></li>
-<li><a href="../papers/26437033.html">PMID:26437033</a></li>
+<li><a href="../papers/41000773.html">PMID:41000773</a></li>
 <li><a href="../papers/32220886.html">PMID:32220886</a></li>
+<li><a href="../papers/28027327.html">PMID:28027327</a></li>
+<li><a href="../papers/31552290.html">PMID:31552290</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-16</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/31552290.html">PMID:31552290</a></p>
 <p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-16</strong>.</em></p>
 
 

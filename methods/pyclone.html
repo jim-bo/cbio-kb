@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-89af0c2d685ccb09a4d7d65decb66752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -180,6 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <li>NMF on PyClone cancer-cell fractions defined 3 mutation clusters in a multiregion salivary <a href="../cancer_types/ACC.html">ACC</a> case; the most divergent metastatic cluster carried subclonal <a href="../genes/SF3B1.html">SF3B1</a>, <a href="../genes/XDH.html">XDH</a>, <a href="../genes/LTF.html">LTF</a>, and <a href="../genes/TMEM2.html">TMEM2</a> mutations implicated in metastasis <a href="../papers/31483290.html">PMID:31483290</a>.</li>
 <li>PyClone clonal decomposition revealed 7/25 (28%) synchronous <a href="../cancer_types/DCIS.html">DCIS</a> had minor subclones that became dominant in matched IDC-NST; clonal-selection cases had significantly higher Shannon and Gini-Simpson diversity indices (both P&lt;0.05) <a href="../papers/32220886.html">PMID:32220886</a></li>
 <li>Used in <a href="../datasets/prostate_pcbm_swiss_2019.html">prostate_pcbm_swiss_2019</a> for clonal architecture inference from multi-region WES data of prostate cancer brain metastases; cancer cell fraction estimates helped identify subclonal primary clones that expanded to clonal dominance in brain metastases <a href="../papers/35504881.html">PMID:35504881</a></li>
+<li>Used PyClone-VI as one of four clonality-consensus methods (with McGranahan CCF, CliP and Ccube) to call clonal populations in a pediatric solid-tumor PDX cohort <a href="../papers/37990009.html">PMID:37990009</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -192,14 +196,17 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/26760213.html">PMID:26760213</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/28445469.html">PMID:28445469</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31130341.html">PMID:31130341</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/31483290.html">PMID:31483290</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/32220886.html">PMID:32220886</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em> - <a href="../papers/35504881.html">PMID:35504881</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-21</strong>.</em></p>
+<ul>
+<li><a href="../papers/26760213.html">PMID:26760213</a></li>
+<li><a href="../papers/28445469.html">PMID:28445469</a></li>
+<li><a href="../papers/29033130.html">PMID:29033130</a></li>
+<li><a href="../papers/31130341.html">PMID:31130341</a></li>
+<li><a href="../papers/31483290.html">PMID:31483290</a></li>
+<li><a href="../papers/32220886.html">PMID:32220886</a></li>
+<li><a href="../papers/35504881.html">PMID:35504881</a></li>
+<li><a href="../papers/37990009.html">PMID:37990009</a></li>
+</ul>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-09-10</strong>.</em></p>
 
 
 </section>

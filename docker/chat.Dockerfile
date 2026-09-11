@@ -18,13 +18,15 @@
 #
 # Multi-stage:
 #   1. `builder` installs the project + the `chat` and `cloud` extras into
-#      a uv-managed .venv.
-#   2. `runtime` is a slim Python image that copies just the venv and the
-#      application source (ai_search + src/cbio_kb + wiki) and runs uvicorn.
+#      a uv-managed .venv and bakes the model weights.
+#   2. `paper-index` optionally downloads a packaged passage index.
+#   3. `runtime` is a slim Python image that copies just the venv, weights,
+#      index and application source (ai_search + src/cbio_kb + wiki) and
+#      runs uvicorn.
 #
 # The wiki markdown files are COPY'd in because the agent reads them at
 # runtime via src/cbio_kb/wiki/vault.py. Rendered HTML (wiki/_site) is
-# NOT shipped — that lives on GitHub Pages.
+# NOT shipped — that is the separately hosted website.
 #
 # The RAG and Hybrid modes also need the passage index (data/paper_index,
 # not in git). Mount it at /app/data/paper_index, or bake a tarball from

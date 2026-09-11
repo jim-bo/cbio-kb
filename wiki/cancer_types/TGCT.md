@@ -2,7 +2,7 @@
 name: Testicular Germ Cell Tumor (TCGA)
 oncotree_code: TGCT
 main_type: Germ Cell Tumor
-parent: MGCT
+parent: TESTIS
 tags:
   - testicular
   - germ-cell
@@ -10,7 +10,7 @@ tags:
   - high-aneuploidy
 unverified: true
 canonical_source: corpus
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -18,7 +18,7 @@ processed_at: 2026-09-11
 
 ## Overview
 
-TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in OncoTree, TGCT refers to "Tenosynovial Giant Cell Tumor, Diffuse Type" — the TCGA TGCT cohort represents testicular GCTs, which in OncoTree are better mapped under [MGCT](MGCT.md) (Mixed Germ Cell Tumor) or subtypes such as seminoma ([SEM](../cancer_types/SEM.md)) and non-seminomatous [GCT](../cancer_types/GCT.md) ([NSGCT](../cancer_types/NSGCT.md)). This page covers findings from the TCGA TGCT (testicular) cohort.
+TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in OncoTree, TGCT refers to "Tenosynovial Giant Cell Tumor, Diffuse Type" — the TCGA TGCT cohort represents testicular germ cell tumors, which OncoTree splits under TESTIS into seminoma ([SEM](../cancer_types/SEM.md)) and non-seminomatous germ cell tumor ([NSGCT](../cancer_types/NSGCT.md)); cBioPortal files its TCGA TGCT studies under `testis` or `nsgct`. See the [germ cell tumor](../cancer_types/germ-cell-tumor.md) umbrella for germ cell tumors reported without a subtype. This page covers findings from the TCGA TGCT (testicular) cohort.
 
 ## Cohorts in the corpus
 
@@ -37,7 +37,7 @@ TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in Onco
 ## Subtypes
 
 - **Seminoma:** characterized by isochromosome 12p (i12p) and low mutation burden.
-- **Non-seminomatous [GCT](../cancer_types/GCT.md) ([NSGCT](../cancer_types/NSGCT.md)):** embryonal carcinoma, yolk sac tumor, teratoma, choriocarcinoma.
+- **Non-seminomatous germ cell tumor ([NSGCT](../cancer_types/NSGCT.md)):** embryonal carcinoma, yolk sac tumor, teratoma, choriocarcinoma.
 
 ## Therapeutic landscape
 
@@ -53,4 +53,4 @@ TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in Onco
 - [PMID:29625055](../papers/29625055.md)
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

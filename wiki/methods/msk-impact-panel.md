@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -56,7 +56,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Used as the 341-gene [IMPACT341](../methods/IMPACT341.md) targeted-capture NGS panel (mean depth 584x tumor / 236x normal; 739x for ATCs) to sequence 117 advanced thyroid tumors (84 PDTC, 33 ATC) at MSKCC; detected [TP53](../genes/TP53.md), [TERT](../genes/TERT.md), SWI/SNF, and HMT mutations at 2-3x higher frequency than WES due to deep coverage. [PMID:26878173](../papers/26878173.md)
 - Used as the CLIA-certified MSK-IMPACT 341-gene panel to profile 6 plasmacytoid-variant bladder tumors in a prospective clinical cohort at MSKCC; identified [CDH1](../genes/CDH1.md) truncating mutations in all 6 plasmacytoid cases and 0/56 urothelial NOS cases. [PMID:26901067](../papers/26901067.md)
 - MSK-IMPACT 410-gene panel ([IMPACT410](../methods/IMPACT410.md)) applied to 151 advanced head and neck tumors at MSK; CLIA-approved, median coverage 600x; guided therapy in 21/151 (14%) patients and 13/53 (25%) [HNSC](../cancer_types/HNSC.md) cases [PMID:27442865](../papers/27442865.md)
-- MSK-IMPACT 410-gene targeted exon-capture assay (>300 cancer genes, 500–1000x depth) used to validate in 161 prospective [GCT](../cancer_types/GCT.md) patients the TP53/MDM2 alteration findings discovered by WES in the 19-patient discovery cohort [PMID:27646943](../papers/27646943.md)
+- MSK-IMPACT 410-gene targeted exon-capture assay (>300 cancer genes, 500–1000x depth) used to validate in 161 prospective [germ cell tumor](../cancer_types/germ-cell-tumor.md) patients the TP53/MDM2 alteration findings discovered by WES in the 19-patient discovery cohort [PMID:27646943](../papers/27646943.md)
 - Used for targeted DNA sequencing (230-gene panel, avg 348x tumour / 280x normal coverage) to characterize 62 high-grade unclassified renal cell carcinoma (uRCC) tumours at MSKCC; variant calling via MuTect and GATK Somatic Indel Detector on hg19-aligned reads. [PMID:27713405](../papers/27713405.md)
 - MSK-IMPACT panel sequencing (341 and 410-gene versions) applied to 10,945 tumors across 62 cancer types for clinical actionability [PMID:28336552](../papers/28336552.md)
 - MSK-IMPACT hybridization-capture Illumina HiSeq 2500 platform with full exon coverage of 410 cancer-related genes used to characterize 19 anaplastic oligodendroglioma tumors in the [odg_msk_2017](../datasets/odg_msk_2017.md) cohort [PMID:28472509](../papers/28472509.md)
@@ -242,4 +242,4 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

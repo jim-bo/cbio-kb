@@ -5,8 +5,8 @@ drug_class: PI3Kalpha inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, pi3k-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # alpelisib
@@ -17,7 +17,7 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 
 ## Evidence in the corpus
 
-- One histiocytosis patient with a [PIK3CA](../genes/PIK3CA.md) mutation had a durable response to alpelisib, while two ovarian [GCT](../cancer_types/GCT.md) PIK3CA-mutant patients had no durable response — suggesting lineage-specific conditioning of PI3Kα inhibitor efficacy [PMID:36862133](../papers/36862133.md).
+- One histiocytosis patient with a [PIK3CA](../genes/PIK3CA.md) mutation had a durable response to alpelisib, while two [ovarian germ cell tumor](../cancer_types/OGCT.md) PIK3CA-mutant patients had no durable response — suggesting lineage-specific conditioning of PI3Kα inhibitor efficacy [PMID:36862133](../papers/36862133.md).
 - In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md)), a metastatic undifferentiated spindle cell sarcoma (SARC0117) carrying a [PIK3CA](../genes/PIK3CA.md) hotspot mutation (reported as H1074L, corresponding to canonical H1047L) was a top responder to alpelisib and showed broad sensitivity across the PI3K/mTOR class (apitolisib, copanlisib, BGT226, [vistusertib](../drugs/vistusertib.md)). A second specimen (SARC0134, [MPNST](../cancer_types/MPNST.md)) carried the same [PIK3CA](../genes/PIK3CA.md) mutation in the primary tumor but did not respond to alpelisib; follow-up sequencing confirmed loss of the [PIK3CA](../genes/PIK3CA.md) mutation in the metastatic lesion. A third specimen (SARC0069_2, [osteosarcoma](../cancer_types/OS.md), no [PIK3CA](../genes/PIK3CA.md) mutation) was the top alpelisib responder overall — illustrating biomarker-negative responders. [PMID:39305899](../papers/39305899.md)
 - In serial biopsies from a panNET patient on [everolimus](../drugs/everolimus.md) + alpelisib (BYL719), an oncogenic [PTEN](../genes/PTEN.md) Q298* was acquired at progression, with the resistant clone detectable at low VAF in the pretreatment specimen; tumor grade progressed G1→G3 [PMID:30687805](../papers/30687805.md)
 - In a PIK3CA-mutant [ACC](../cancer_types/ACC.md) basket trial (NCT01928459), 6 patients received alpelisib: 1/6 achieved partial response and 5/6 had stable disease at 2 months; 5/6 had any tumor-volume reduction (mean 18.8%), and 4/6 had PR or SD lasting >6 months [PMID:31483290](../papers/31483290.md)
@@ -29,7 +29,7 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 
 ## Resistance mechanisms
 
-- Lineage context (ovarian [GCT](../cancer_types/GCT.md) vs histiocytosis) appears to modulate response to PIK3CA-directed therapy [PMID:36862133](../papers/36862133.md).
+- Lineage context (ovarian germ cell tumor vs histiocytosis) appears to modulate response to PIK3CA-directed therapy [PMID:36862133](../papers/36862133.md).
 - Loss of the [PIK3CA](../genes/PIK3CA.md) mutation between primary and metastatic tumor (SARC0134, [MPNST](../cancer_types/MPNST.md)) abolishes ex vivo alpelisib sensitivity, demonstrating that inter-lesion genomic heterogeneity can undermine biomarker-directed PI3K inhibitor use. [PMID:39305899](../papers/39305899.md)
 
 ## Cancer types (linked)
@@ -50,4 +50,4 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 - [PMID:35292802](../papers/35292802.md)
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

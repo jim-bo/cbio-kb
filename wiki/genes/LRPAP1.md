@@ -1,9 +1,9 @@
 ---
 symbol: LRPAP1
 aliases: []
-cancer_types: [GB, GCT]
+cancer_types: [GB, germ-cell-tumor]
 tags: [fusion, actionable]
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -22,7 +22,7 @@ patient-derived xenografts.
 ## Cancer types (linked)
 
 - [GB](../cancer_types/GB.md) — LRPAP1–PDGFRA fusion identified as clinically actionable [PMID:37990009](../papers/37990009.md).
-- [GCT](../cancer_types/GCT.md) — LRPAP1–PDGFRA fusion identified as clinically actionable [PMID:37990009](../papers/37990009.md).
+- [germ-cell-tumor](../cancer_types/germ-cell-tumor.md) — LRPAP1–PDGFRA fusion identified as clinically actionable [PMID:37990009](../papers/37990009.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ patient-derived xenografts.
 
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

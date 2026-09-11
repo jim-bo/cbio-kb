@@ -5,7 +5,7 @@ drug_class: platinum-based chemotherapy (second-generation)
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, platinum, sarcoma]
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -28,7 +28,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - In a 3D cell culture review, carboplatin was among the conventional chemotherapy agents whose IC50 values typically rise 3–5-fold in cancer spheroids vs. monolayers, illustrating that 3D models better recapitulate clinical chemotherapy resistance [PMID:41103502](../papers/41103502.md).
 - In a [UTUC](../cancer_types/UTUC.md) PDX model (UCC03), gemcitabine/carboplatin combination showed significant tumor growth inhibition (p=0.0177) and [gemcitabine](../drugs/gemcitabine.md) alone was significant (p=0.0065), but carboplatin alone was not (p=0.138); response mirrored the source patient's partial response to Gem/Carbo [PMID:32332851](../papers/32332851.md)
 - One patient (P19) in the Kothari et al. retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA [RB1](../genes/RB1.md) signal despite 1596× coverage [PMID:32633890](../papers/32633890.md).
-- Used in the TICE salvage regimen (high-dose carboplatin + [etoposide](../drugs/etoposide.md) + [ifosfamide](../drugs/ifosfamide.md) followed by autologous SCT) for 15 patients with primary mediastinal [NSGCT](../cancer_types/NSGCT.md) ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy; [TP53](../genes/TP53.md) alteration burden in the [GCT](../cancer_types/GCT.md) precursor was proposed to mechanistically underlie cisplatin/carboplatin resistance in this cohort [PMID:32897884](../papers/32897884.md).
+- Used in the TICE salvage regimen (high-dose carboplatin + [etoposide](../drugs/etoposide.md) + [ifosfamide](../drugs/ifosfamide.md) followed by autologous SCT) for 15 patients with primary mediastinal [NSGCT](../cancer_types/NSGCT.md) and concomitant hematologic malignancy; [TP53](../genes/TP53.md) alteration burden in the germ cell tumor precursor was proposed to mechanistically underlie cisplatin/carboplatin resistance in this cohort [PMID:32897884](../papers/32897884.md).
 - Carboplatin exposure was the strongest platinum class driver of clonal haematopoiesis (CH) in 24,146 solid-tumor patients (OR=1.4, p=0.001; dose-response p-trend=3×10⁻⁵), while [cisplatin](../drugs/cisplatin.md) (p=0.10) and [oxaliplatin](../drugs/oxaliplatin.md) (p=0.88) were not significant; [PPM1D](../genes/PPM1D.md), [TP53](../genes/TP53.md), and [CHEK2](../genes/CHEK2.md) clones were preferentially expanded by carboplatin, raising concern for therapy-related myeloid neoplasm in patients with pre-existing DDR CH [PMID:33106634](../papers/33106634.md).
 - Carboplatin + [paclitaxel](../drugs/paclitaxel.md) (Carbo-Taxol) was administered as neoadjuvant therapy in 49% of 237 locally advanced esophageal/GEJ adenocarcinoma patients at MSK; FOLFOX was associated with better pathologic response than Carbo-Taxol (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
 - Carboplatin (with cisplatin/etoposide) is noted as part of first-line platinum-based chemoimmunotherapy for extensive-stage [SCLC](../cancer_types/SCLC.md); the MSK773 SCLC-P patient received carboplatin + [etoposide](../drugs/etoposide.md), progressing within 6 months [PMID:35440124](../papers/35440124.md)
@@ -73,4 +73,4 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - [PMID:39550333](../papers/39550333.md)
 - [PMID:39642637](../papers/39642637.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

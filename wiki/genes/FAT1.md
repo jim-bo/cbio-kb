@@ -3,8 +3,8 @@ symbol: FAT1
 aliases: []
 cancer_types: [PTCL, THAP, CSCC]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # FAT1
@@ -24,7 +24,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - Mutated in 43.6% of 39 aggressive cSCC tumors; identified as a differentiation-related tumor suppressor by inactivation-bias methods [PMID:25303977](../papers/25303977.md)
 - Mutated in 23% of HNSCC; novel significantly mutated gene; aberrant Wnt/beta-catenin activation; convergent with [AJUBA](../genes/AJUBA.md) and NOTCH inactivation [PMID:25631445](../papers/25631445.md)
 - FAT1 is among the low-frequency recurrently mutated genes (>=2 ATC or >=3 PDTC) identified by MSK-IMPACT 341-gene sequencing of 117 advanced thyroid tumors [PMID:26878173](../papers/26878173.md)
-- FAT1 identified as a Wnt-pathway alteration in a genomic profiling study of cisplatin-resistant germ cell tumors ([GCT](../cancer_types/GCT.md)), alongside [APC](../genes/APC.md) and [AXIN1](../genes/AXIN1.md) [PMID:27646943](../papers/27646943.md)
+- FAT1 identified as a Wnt-pathway alteration in a genomic profiling study of cisplatin-resistant [germ cell tumors](../cancer_types/germ-cell-tumor.md), alongside [APC](../genes/APC.md) and [AXIN1](../genes/AXIN1.md) [PMID:27646943](../papers/27646943.md)
 - R937 missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
 - 12% mutated newly recognized SMG in MIBC; also subject to epigenetic silencing in a mutually exclusive subset of tumors, suggesting both genetic and epigenetic inactivation mechanisms [PMID:28988769](../papers/28988769.md)
 - Altered in 40% (6/15) of vulvar squamous cell carcinomas irrespective of HPV status — the highest-frequency alteration alongside [PIK3CA](../genes/PIK3CA.md) in this first genome-wide WES characterization of vulvar SCC [PMID:29422544](../papers/29422544.md)
@@ -96,4 +96,4 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - [PMID:35871175](../papers/35871175.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

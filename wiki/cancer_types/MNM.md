@@ -7,8 +7,8 @@ tags:
   - myeloid
   - germ-cell
   - rare-cancers
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # Myeloid Neoplasm (MNM)
@@ -24,7 +24,7 @@ Myeloid Neoplasm (MNM) is a broad OncoTree category (level 2, parent: MYELOID) e
 ## Recurrent alterations
 
 - Hematologic malignancies (MNM) arising in PM NSGCT patients included AML (53%, nearly half AMKL M7), MDS, CMML, and histiocytic sarcoma (HS); one-third of patients developed multiple distinct hematologic subtypes. [PMID:32897884](../papers/32897884.md)
-- All MNM in PM NSGCT patients shared [TP53](../genes/TP53.md) and/or RAS-pathway ([KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [RRAS2](../genes/RRAS2.md)) truncal mutations plus i(12p) with the paired [GCT](../cancer_types/GCT.md), defining a germ-cell-lineage origin. Canonical myeloid drivers ([FLT3](../genes/FLT3.md), [DNMT3A](../genes/DNMT3A.md), [TET2](../genes/TET2.md), [NPM1](../genes/NPM1.md)) were absent in all cases. [PMID:32897884](../papers/32897884.md)
+- All MNM in PM NSGCT patients shared [TP53](../genes/TP53.md) and/or RAS-pathway ([KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [RRAS2](../genes/RRAS2.md)) truncal mutations plus i(12p) with the paired [NSGCT](../cancer_types/NSGCT.md), defining a germ-cell-lineage origin. Canonical myeloid drivers ([FLT3](../genes/FLT3.md), [DNMT3A](../genes/DNMT3A.md), [TET2](../genes/TET2.md), [NPM1](../genes/NPM1.md)) were absent in all cases. [PMID:32897884](../papers/32897884.md)
 - Median survival of PM NSGCT patients with concomitant MNM was 6.3 months (95% CI 4.6–25.2); only 1 of 15 patients was alive at analysis. [PMID:32897884](../papers/32897884.md)
 
 ## Subtypes
@@ -39,4 +39,4 @@ Myeloid Neoplasm (MNM) is a broad OncoTree category (level 2, parent: MYELOID) e
 
 - [PMID:32897884](../papers/32897884.md) — Taylor et al., clonal relatedness of PM NSGCT and associated hematologic malignancies.
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

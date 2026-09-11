@@ -10,7 +10,7 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -46,7 +46,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Referenced as a chemotherapy backbone for iCCA; [futibatinib](../drugs/futibatinib.md) is cited as synergizing with cisplatin in FGFR2-rearranged iCCA [PMID:41018102](../papers/41018102.md)
 - Platinum chemotherapy; usable from second trimester in pregnant young-onset [NSCLC](../cancer_types/NSCLC.md) patients; review notes TKIs and immunotherapy are contraindicated in pregnancy whereas platinum-based regimens are acceptable from T2 [PMID:40958859](../papers/40958859.md)
 - In head and neck cancer, germline [FANCA](../genes/FANCA.md) deletion plus somatic [FANCA](../genes/FANCA.md) stopgain in one [HNSC](../cancer_types/HNSC.md) patient identified as potential cisplatin-sensitivity biomarker by MSK-IMPACT profiling (N=151 advanced tumors) [PMID:27442865](../papers/27442865.md)
-- First-line platinum backbone in BEP ([bleomycin](../drugs/bleomycin.md)+[etoposide](../drugs/etoposide.md)+cisplatin, 37.2%), EP (42.2%), and TIP/VIP (20%) regimens in 180 advanced [GCT](../cancer_types/GCT.md) patients; [TP53](../genes/TP53.md) alterations exclusive to cisplatin-resistant tumors (16.3% vs 0%; P<.001); [nutlin-3](../drugs/nutlin-3.md) showed antiproliferative synergy with cisplatin in [TP53](../genes/TP53.md) wild-type cisplatin-resistant [GCT](../cancer_types/GCT.md) cell lines [PMID:27646943](../papers/27646943.md)
+- First-line platinum backbone in BEP ([bleomycin](../drugs/bleomycin.md)+[etoposide](../drugs/etoposide.md)+cisplatin, 37.2%), EP (42.2%), and TIP/VIP (20%) regimens in 180 advanced [germ cell tumor](../cancer_types/germ-cell-tumor.md) patients; [TP53](../genes/TP53.md) alterations exclusive to cisplatin-resistant tumors (16.3% vs 0%; P<.001); [nutlin-3](../drugs/nutlin-3.md) showed antiproliferative synergy with cisplatin in [TP53](../genes/TP53.md) wild-type cisplatin-resistant germ cell tumor cell lines [PMID:27646943](../papers/27646943.md)
 - Cisplatin + [gemcitabine](../drugs/gemcitabine.md) (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); post-chemotherapy tumors showed clonal enrichment of [L1CAM](../genes/L1CAM.md) and integrin-signaling missense mutations, an APOBEC3A-dominant mutational signature, and selective elimination of [ATM](../genes/ATM.md)/[RB1](../genes/RB1.md)/[FANCC](../genes/FANCC.md)-altered clones (73.3% pre- vs 37.9% post-chemotherapy, p=0.05); cisplatin specifically drove a C>A mutational signature consistent with its known adduct-forming mechanism [PMID:27749842](../papers/27749842.md)
 - Used in combination with [etoposide](../drugs/etoposide.md) (cisplatin/etoposide) as first-line chemotherapy in [SCLC](../cancer_types/SCLC.md) PDX models; 10/10 PDXs were sensitive to 6–8 cycles with 65–95% tumor growth inhibition; concurrent [EZH2](../genes/EZH2.md) inhibitor (EPZ011989) enhanced disease control and prevented [SLFN11](../genes/SLFN11.md) suppression in SLFN11-high models [PMID:28196596](../papers/28196596.md).
 - Adjuvant cisplatin/[carboplatin](../drugs/carboplatin.md) plus [vinorelbine](../drugs/vinorelbine.md) was the standard adjuvant chemotherapy backbone in the TRACERx [NSCLC](../cancer_types/NSCLC.md) ctDNA study (NCT01888601, n=24 longitudinal patients). ctDNA clearance after adjuvant therapy correlated with sustained remission (CRUK0013, 688 days relapse-free), while rising ctDNA SNV burden during adjuvant therapy identified resistance in real time in patients who all recurred within 1 year. [PMID:28445469](../papers/28445469.md)
@@ -139,4 +139,4 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:39642637](../papers/39642637.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

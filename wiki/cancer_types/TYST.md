@@ -7,8 +7,8 @@ tags:
   - germ-cell
   - testicular
   - TP53
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # Yolk Sac Tumor (TYST)
@@ -23,7 +23,7 @@ Yolk Sac Tumor (TYST) is a malignant germ cell tumor characterized by yolk-sac d
 
 ## Recurrent alterations
 
-- Yolk sac tumor (TYST) components were present in 53% of 15 PM NSGCT patients with concomitant hematologic malignancy; all [GCT](../cancer_types/GCT.md) components (including TYST) shared TP53/RAS-pathway truncal mutations and i(12p) with the paired myeloid malignancy, establishing clonal relatedness to a germ-cell-lineage precursor. [PMID:32897884](../papers/32897884.md)
+- Yolk sac tumor (TYST) components were present in 53% of 15 PM NSGCT patients with concomitant hematologic malignancy; all [NSGCT](../cancer_types/NSGCT.md) components (including TYST) shared TP53/RAS-pathway truncal mutations and i(12p) with the paired myeloid malignancy, establishing clonal relatedness to a germ-cell-lineage precursor. [PMID:32897884](../papers/32897884.md)
 - [TP53](../genes/TP53.md) shared between GCT (including TYST) and hematologic malignancy in 91% (10/11) of paired patients; KRAS/NRAS activating mutations present in 63% of GCT+hematologic-malignancy cases. [PMID:32897884](../papers/32897884.md)
 - Isochromosome 12p [i(12p)] is a characteristic early event in both the GCT (TYST/TT) and associated hematologic malignancies, absent from de novo [AML](../cancer_types/AML.md). [PMID:32897884](../papers/32897884.md)
 
@@ -39,4 +39,4 @@ Yolk Sac Tumor (TYST) is a malignant germ cell tumor characterized by yolk-sac d
 
 - [PMID:32897884](../papers/32897884.md) — Taylor et al., clonal relatedness of PM NSGCT and associated hematologic malignancies.
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

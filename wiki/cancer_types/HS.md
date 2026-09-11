@@ -7,8 +7,8 @@ tags:
   - histiocytosis
   - myeloid
   - rare-cancers
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # Histiocytic Sarcoma (HS)
@@ -23,7 +23,7 @@ Histiocytic sarcoma (HS) is a rare, aggressive malignancy of mature histiocytic 
 
 ## Recurrent alterations
 
-- HS arising in PM NSGCT patients shared truncal [TP53](../genes/TP53.md) mutations (including Q144Rfs*26 with CNLOH), KRAS/NRAS activating mutations, i(12p), and [BCOR](../genes/BCOR.md) G943D with the paired [GCT](../cancer_types/GCT.md) and other concomitant myeloid neoplasms, establishing clonal relatedness to a germ-cell-lineage precursor rather than de-novo histiocytic origin. [PMID:32897884](../papers/32897884.md)
+- HS arising in PM NSGCT patients shared truncal [TP53](../genes/TP53.md) mutations (including Q144Rfs*26 with CNLOH), KRAS/NRAS activating mutations, i(12p), and [BCOR](../genes/BCOR.md) G943D with the paired [NSGCT](../cancer_types/NSGCT.md) and other concomitant myeloid neoplasms, establishing clonal relatedness to a germ-cell-lineage precursor rather than de-novo histiocytic origin. [PMID:32897884](../papers/32897884.md)
 - One 19-year-old patient progressed GCT → HS → [CMML](../cancer_types/CMML.md) → [AML](../cancer_types/AML.md) within 18 months; all four malignancies derived from a shared TP53/PIK3CD precursor; the HS branch independently acquired [NRAS](../genes/NRAS.md) Q61H. [PMID:32897884](../papers/32897884.md)
 - Absence of canonical de-novo AML/MDS drivers ([FLT3](../genes/FLT3.md), [DNMT3A](../genes/DNMT3A.md), [TET2](../genes/TET2.md), [NPM1](../genes/NPM1.md)) in HS associated with PM NSGCT distinguishes this syndrome from ordinary histiocytic transformation. [PMID:32897884](../papers/32897884.md)
 
@@ -39,4 +39,4 @@ Histiocytic sarcoma (HS) is a rare, aggressive malignancy of mature histiocytic 
 
 - [PMID:32897884](../papers/32897884.md) — Taylor et al., clonal relatedness of PM NSGCT and associated hematologic malignancies.
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

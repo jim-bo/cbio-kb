@@ -5,7 +5,7 @@ drug_class: multi-kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [TKI, GIST, second-line]
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -23,7 +23,7 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 - High PDGFRA/PDGFRB expression in metastatic PanNEN patients (PN2, PN10) guided sunitinib recommendation in the POG NEN WGTA cohort (n=28) [PMID:40328872](../papers/40328872.md)
 - One of 10 ccRCC tumors received 14–16 weeks of preoperative sunitinib; authors argue this cytostatic exposure did not collapse intratumor heterogeneity, though a treatment-naive baseline at this scale is unavailable [PMID:24487277](../papers/24487277.md)
 - Failed as frontline [HCC](../cancer_types/HCC.md) therapy vs [sorafenib](../drugs/sorafenib.md) (phase III): median OS 8.0–8.8 vs 9.9–10.0 months for sorafenib (HR 1.12–1.15); demonstrated inferior efficacy in first-line setting [PMID:30061739](../papers/30061739.md)
-- Multi-kinase inhibitor (KIT/PDGFRA/VEGFR); proposed as therapeutic candidate for KIT-mutant [GCT](../cancer_types/GCT.md) alongside imatinib in Appendix Table A2 of the cisplatin-resistance biomarker study [PMID:27646943](../papers/27646943.md)
+- Multi-kinase inhibitor (KIT/PDGFRA/VEGFR); proposed as therapeutic candidate for KIT-mutant [germ cell tumor](../cancer_types/germ-cell-tumor.md) alongside imatinib in Appendix Table A2 of the cisplatin-resistance biomarker study [PMID:27646943](../papers/27646943.md)
 - Sunitinib was noted among the targeted therapy options available for secondary MIBC given the 42% RTK/MAPK pathway alteration rate and [FGFR3](../genes/FGFR3.md) (18%) / [ERBB2](../genes/ERBB2.md) (15%) actionable alterations in this subgroup, which was considered chemo-refractory and candidate for targeted-therapy trials [PMID:30290956](../papers/30290956.md).
 - Sunitinib was among the systemic therapies used in the 80-patient metastatic panNET cohort profiled by [MSK-IMPACT](../methods/msk-impact-panel.md); genomic characterization of the cohort focused on [MEN1](../genes/MEN1.md), [DAXX](../genes/DAXX.md), [ATRX](../genes/ATRX.md), and mTOR-pathway alterations rather than drug-specific response rates [PMID:30687805](../papers/30687805.md)
 - In PDAC proteogenomic subtyping (n=140, [paad_cptac_2021](../datasets/paad_cptac_2021.md)), DSigDB GSEA associated sunitinib (PDGFR/VEGFR inhibitor) drug signatures with the C2 (basal-like) subtype alongside PP-242/mTOR inhibitors, nominating sunitinib as a subtype-directed strategy for C2 PDAC [PMID:34534465](../papers/34534465.md)
@@ -53,4 +53,4 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 - [PMID:29867230](../papers/29867230.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

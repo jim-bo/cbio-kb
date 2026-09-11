@@ -4,8 +4,8 @@ oncotree_code: NSGCT
 main_type: Germ Cell Tumor
 parent: TESTIS
 tags: [germ-cell, cisplatin, testicular]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # Non-Seminomatous Germ Cell Tumor (NSGCT)
@@ -16,7 +16,7 @@ Non-Seminomatous Germ Cell Tumor encompasses testicular germ cell tumors with no
 
 ## Cohorts in the corpus
 
-- [gct_msk_2016](../datasets/gct_msk_2016.md) — 126 NSGCT patients (70% of the 180-patient MSK [GCT](../cancer_types/GCT.md) cohort); profiled by whole-exome sequencing (discovery, n=19) and MSK-IMPACT targeted sequencing (validation, n=161) [PMID:27646943](../papers/27646943.md).
+- [gct_msk_2016](../datasets/gct_msk_2016.md) — 126 NSGCT patients (70% of the 180-patient MSK [germ cell tumor](../cancer_types/germ-cell-tumor.md) cohort); profiled by whole-exome sequencing (discovery, n=19) and MSK-IMPACT targeted sequencing (validation, n=161) [PMID:27646943](../papers/27646943.md).
 
 ## Recurrent alterations
 
@@ -44,4 +44,4 @@ Non-Seminomatous Germ Cell Tumor encompasses testicular germ cell tumors with no
 - [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 126 NSGCT in MSK cohort of 180 advanced GCT; TP53 exclusive to [cisplatin](../drugs/cisplatin.md) resistance; 72% TP53 in primary mediastinal nonseminoma.
 - [PMID:32897884](../papers/32897884.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

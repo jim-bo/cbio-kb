@@ -16,6 +16,11 @@
 # The wiki markdown files are COPY'd in because the agent reads them at
 # runtime via src/cbio_kb/wiki/vault.py. Rendered HTML (wiki/_site) is
 # NOT shipped — that lives on GitHub Pages.
+#
+# The RAG and Hybrid modes also need the passage index (data/paper_index,
+# not in git). Mount it at /app/data/paper_index, or bake a tarball from
+# scripts/package_index.sh in with --build-arg PAPER_INDEX_URL=... (and
+# PAPER_INDEX_SHA256=...). Without it only the Agentic mode works.
 
 # ---------- Builder ----------
 FROM python:3.13-slim-bookworm AS builder
@@ -57,6 +62,14 @@ RUN if [ -n "$EMBED_MODEL" ]; then \
 COPY src/ src/
 RUN uv sync --frozen --no-dev --extra chat --extra cloud --no-editable
 
+# ---------- Passage index (optional) ----------
+# Empty unless PAPER_INDEX_URL is set (see docker/fetch_paper_index.py).
+FROM python:3.13-slim-bookworm AS paper-index
+COPY docker/fetch_paper_index.py /usr/local/bin/fetch_paper_index.py
+ARG PAPER_INDEX_URL=""
+ARG PAPER_INDEX_SHA256=""
+RUN python /usr/local/bin/fetch_paper_index.py /out "$PAPER_INDEX_URL" "$PAPER_INDEX_SHA256"
+
 # ---------- Runtime ----------
 FROM python:3.13-slim-bookworm AS runtime
 
@@ -69,8 +82,10 @@ WORKDIR /app
 # Copy the installed venv and the package tree from the builder.
 COPY --from=builder --chown=app:app /app/.venv /app/.venv
 COPY --from=builder --chown=app:app /app/src /app/src
-# Pre-baked HuggingFace cache (cross-encoder reranker weights).
+# Pre-baked HuggingFace cache (reranker + query-embedding weights).
 COPY --from=builder --chown=app:app /app/hf-cache /app/hf-cache
+# Passage index: empty unless baked in above; a volume mount replaces it.
+COPY --from=paper-index --chown=app:app /out/paper_index /app/data/paper_index
 
 # Application code + raw wiki markdown (agent reads these at runtime).
 COPY --chown=app:app ai_search/ /app/ai_search/

@@ -41,7 +41,7 @@ The crc_apc_impact_2020 cohort comprises 430 patients with microsatellite-stable
 
 ## Papers using this cohort
 
-- [PMID:32730818](../papers/32730818.md) — Mondaca et al. (2020): [APC](../genes/APC.md) mutation site (N-terminal vs. C-terminal at aa 1400) is prognostic in MSS metastatic CRC; N-terminal APC mutations associate with longer [OS](../cancer_types/OS.md) and PFS; DDR alterations are not prognostic.
+- [PMID:32730818](../papers/32730818.md) — Mondaca et al. (2020): [APC](../genes/APC.md) mutation site (N-terminal vs. C-terminal at aa 1400) is prognostic in MSS metastatic CRC; N-terminal APC mutations associate with longer OS and PFS; DDR alterations are not prognostic.
 
 ## Notable findings derived from this cohort
 

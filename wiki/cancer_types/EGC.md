@@ -46,7 +46,7 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 
 ## Therapeutic landscape
 
-- Phase II trial of [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + CAPOX: median PFS 13 months, median [OS](../cancer_types/OS.md) 27 months, ORR 89% in 37 HER2-positive EGC patients. [PMID:37406106](../papers/37406106.md)
+- Phase II trial of [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + CAPOX: median PFS 13 months, median OS 27 months, ORR 89% in 37 HER2-positive EGC patients. [PMID:37406106](../papers/37406106.md)
 - Uniform HER2 IHC 3+ expression, plasma [ERBB2](../genes/ERBB2.md) amplification, and intense 89Zr-trastuzumab PET avidity predict durable benefit from pembrolizumab + trastuzumab + chemotherapy. [PMID:37406106](../papers/37406106.md)
 - Early ctDNA clearance (by 9 weeks) predicts longer PFS (HR 0.18; 95% CI 0.06--0.53; P=0.001). [PMID:37406106](../papers/37406106.md)
 - [CCNE1](../genes/CCNE1.md) amplification in early-onset tumors is a potential target for [CDK2](../genes/CDK2.md) inhibitors. [PMID:37699004](../papers/37699004.md)

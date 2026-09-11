@@ -50,7 +50,7 @@ The egc_trap_msk_2020 cohort is the genomic and clinical dataset from NCT0295453
 
 ## Notable findings derived from this cohort
 
-- 70% (26/37) 6-month progression-free survival rate (95% CI 54–83%), meeting the primary endpoint; ORR 91%, median [OS](../cancer_types/OS.md) 27.2 months — numerically far exceeding historical ToGA benchmark (47% ORR, ~13.8-month OS for trastuzumab + chemotherapy alone). [PMID:32437664](../papers/32437664.md)
+- 70% (26/37) 6-month progression-free survival rate (95% CI 54–83%), meeting the primary endpoint; ORR 91%, median OS 27.2 months — numerically far exceeding historical ToGA benchmark (47% ORR, ~13.8-month OS for trastuzumab + chemotherapy alone). [PMID:32437664](../papers/32437664.md)
 - [ERBB2](../genes/ERBB2.md) amplification detected in 21/32 (66%) tumors by NGS and 18/33 (54%) plasma ctDNA samples; tissue vs. plasma concordance 93% (27/29). [PMID:32437664](../papers/32437664.md)
 - Plasma ctDNA VAF-adjusted [ERBB2](../genes/ERBB2.md) amplification was significantly associated with longer PFS (median 16.4 vs. 6.2 months; p=0.013); tissue NGS ERBB2 trended but did not reach significance (p=0.12). [PMID:32437664](../papers/32437664.md)
 - [KRAS](../genes/KRAS.md)/RTK-RAS pathway co-alterations were associated with significantly shorter PFS (median 5.9 vs. 14.6 months; p=0.011). [PMID:32437664](../papers/32437664.md)

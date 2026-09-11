@@ -36,7 +36,7 @@ Diffuse pleural mesothelioma (DPM/PLMESO) is a rare, aggressive malignancy of th
 
 ## Therapeutic landscape
 
-- GNH DPMs showed preliminary immunotherapy responsiveness: 2/3 GNH patients treated with ipilimumab/nivolumab or [pembrolizumab](../drugs/pembrolizumab.md) achieved partial response (67%) vs. 1/44 (2%) in non-GNH. A clinical trial of [durvalumab](../drugs/durvalumab.md) + platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and [OS](../cancer_types/OS.md) >=12 months. [PMID:38630790](../papers/38630790.md)
+- GNH DPMs showed preliminary immunotherapy responsiveness: 2/3 GNH patients treated with ipilimumab/nivolumab or [pembrolizumab](../drugs/pembrolizumab.md) achieved partial response (67%) vs. 1/44 (2%) in non-GNH. A clinical trial of [durvalumab](../drugs/durvalumab.md) + platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and OS >=12 months. [PMID:38630790](../papers/38630790.md)
 - [SETDB1](../genes/SETDB1.md) mutations as a molecular marker for GNH subset when detected on panels covering this gene (e.g., [IMPACT505](../methods/IMPACT505.md)). [PMID:38630790](../papers/38630790.md)
 - RNA-based mesothelioma subtype classification (epithelioid vs. biphasic/sarcomatoid) is prognostic and may guide treatment decisions. [PMID:38480799](../papers/38480799.md)
 

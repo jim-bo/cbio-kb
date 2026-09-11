@@ -17,7 +17,7 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 
 - Defines the GNAS-mut predominant molecular subtype of mucinous appendiceal adenocarcinoma (MAAP) in the MSK cohort [PMID:36493333](../papers/36493333.md).
 - GNAS-mut predominant tumors are chemotherapy-resistant: 6% first-line response rate vs 50% in RAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
-- GNAS-mut predominant patients had worse [OS](../cancer_types/OS.md) than RAS-mut predominant patients (P=.05), intermediate between RAS-mut and TP53-mut subtypes [PMID:36493333](../papers/36493333.md).
+- GNAS-mut predominant patients had worse OS than RAS-mut predominant patients (P=.05), intermediate between RAS-mut and TP53-mut subtypes [PMID:36493333](../papers/36493333.md).
 - GNAS R201 hotspot mutation found in 1 of 23 treatment-refractory somatotroph pituitary neuroendocrine tumors (PitNETs); absent in benign somatotrophs in the same cohort [PMID:38758238](../papers/38758238.md).
 - In the MSK [pdac_msk_2024](../datasets/pdac_msk_2024.md) PDAC cohort (n = 2,336), GNAS was enriched in MAPK-WT tumors vs KRAS-mutant (16% vs 2%, P = 1.5 × 10⁻⁵) and in resectable IPMN-derived tumors (7.9%); co-occurred with germline [ATM](../genes/ATM.md) mutations [PMID:39753968](../papers/39753968.md).
 - GNAS is among the most frequently mutated genes in pancreatic cystic neoplasms detected by whole-exome sequencing, particularly intraductal papillary mucinous neoplasms (IPMNs) [PMID:22158988](../papers/22158988.md)

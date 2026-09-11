@@ -15,7 +15,7 @@ NOL10 (Nucleolar Protein 10) is a nucleolar protein whose expression is regulate
 
 ## Alterations observed in the corpus
 
-- eQTL target of rs4519489 at 2p25: the intronic risk A allele drives higher NOL10 mRNA via enhanced USF1 binding; overexpressed in PRAD tumors vs. normals across multiple cohorts; high expression correlates with stage, lymph-node metastasis, Gleason score, biochemical recurrence ([BCR](../genes/BCR.md)), and shorter [OS](../cancer_types/OS.md). Knockdown abrogates proliferation, colony formation, migration, invasion, EMT, and xenograft growth; overexpression promotes them. Acts via cell-cycle regulators (E2F targets, G2M checkpoint: DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) [PMID:41062477](../papers/41062477.md).
+- eQTL target of rs4519489 at 2p25: the intronic risk A allele drives higher NOL10 mRNA via enhanced USF1 binding; overexpressed in PRAD tumors vs. normals across multiple cohorts; high expression correlates with stage, lymph-node metastasis, Gleason score, biochemical recurrence ([BCR](../genes/BCR.md)), and shorter OS. Knockdown abrogates proliferation, colony formation, migration, invasion, EMT, and xenograft growth; overexpression promotes them. Acts via cell-cycle regulators (E2F targets, G2M checkpoint: DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) [PMID:41062477](../papers/41062477.md).
 
 ## Cancer types (linked)
 

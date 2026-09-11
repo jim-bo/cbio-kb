@@ -26,7 +26,7 @@ processed_at: 2026-05-16
 
 ## Overview
 
-The TCGA Kidney Renal Papillary Cell Carcinoma PanCancer Atlas 2018 cohort is the [KIRP](../cancer_types/KIRP.md) arm of the TCGA PanCancer Atlas, available in cBioPortal as `kirp_tcga_pan_can_atlas_2018`. It covers approximately 291 kidney renal papillary cell carcinoma samples with uniformly reprocessed mutation calls (MC3 pipeline), copy-number, and RNA-seq expression. [KIRP](../cancer_types/KIRP.md) co-clusters with [KIRC](../cancer_types/KIRC.md) in pan-kidney iCluster C28, enriched for hypoxia, PPAR-RXR, and immune checkpoint pathways. All four clinical endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) are recommended without reservation for KIRP by TCGA-CDR.
+The TCGA Kidney Renal Papillary Cell Carcinoma PanCancer Atlas 2018 cohort is the [KIRP](../cancer_types/KIRP.md) arm of the TCGA PanCancer Atlas, available in cBioPortal as `kirp_tcga_pan_can_atlas_2018`. It covers approximately 291 kidney renal papillary cell carcinoma samples with uniformly reprocessed mutation calls (MC3 pipeline), copy-number, and RNA-seq expression. [KIRP](../cancer_types/KIRP.md) co-clusters with [KIRC](../cancer_types/KIRC.md) in pan-kidney iCluster C28, enriched for hypoxia, PPAR-RXR, and immune checkpoint pathways. All four clinical endpoints (OS, PFI, DFI, DSS) are recommended without reservation for KIRP by TCGA-CDR.
 
 ## Composition
 

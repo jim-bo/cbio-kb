@@ -48,7 +48,7 @@ The odg_msk_2017 dataset comprises clinical and genomic data from a multicenter,
 
 ## Papers using this cohort
 
-- [PMID:28472509](../papers/28472509.md) — Thomas et al., *JCO* 2017: Phase II trial reporting 5-year PFS of 60% and 5-year [OS](../cancer_types/OS.md) of 100% in transplanted patients; NGS confirmed canonical oligodendroglioma genomic signatures ([TERT](../genes/TERT.md) 95%, [IDH1](../genes/IDH1.md) 68%, [CIC](../genes/CIC.md) 53%) and exposed a false-positive 1p/19q FISH call with a glioblastoma-like NGS profile; no transplanted patient had died at time of analysis. [PMID:28472509](../papers/28472509.md)
+- [PMID:28472509](../papers/28472509.md) — Thomas et al., *JCO* 2017: Phase II trial reporting 5-year PFS of 60% and 5-year OS of 100% in transplanted patients; NGS confirmed canonical oligodendroglioma genomic signatures ([TERT](../genes/TERT.md) 95%, [IDH1](../genes/IDH1.md) 68%, [CIC](../genes/CIC.md) 53%) and exposed a false-positive 1p/19q FISH call with a glioblastoma-like NGS profile; no transplanted patient had died at time of analysis. [PMID:28472509](../papers/28472509.md)
 
 ## Notable findings derived from this cohort
 

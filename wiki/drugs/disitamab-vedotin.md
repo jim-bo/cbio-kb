@@ -29,6 +29,6 @@ Disitamab vedotin (RC48) is a HER2-directed antibody-drug conjugate (ADC) carryi
 
 ## Sources
 
-- [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA biomarker study; [ERBB2](../genes/ERBB2.md) cfDNA alterations in mUC associated with shorter [OS](../cancer_types/OS.md); disitamab vedotin cited as a HER2-directed ADC option for ERBB2-altered disease.
+- [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA biomarker study; [ERBB2](../genes/ERBB2.md) cfDNA alterations in mUC associated with shorter OS; disitamab vedotin cited as a HER2-directed ADC option for ERBB2-altered disease.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*

@@ -23,7 +23,7 @@ DLEU1 (Deleted in Lymphocytic Leukemia 1) is a long non-coding RNA gene residing
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-deletion with [DLEU2](../genes/DLEU2.md) and [MIR15A](../genes/MIR15A.md) at 13q14; double-mutant (SF3B1-K700E + del(13q)) CLL shows inferior [OS](../cancer_types/OS.md) vs single-lesion CLL [PMID:40694421](../papers/40694421.md)
+- Co-deletion with [DLEU2](../genes/DLEU2.md) and [MIR15A](../genes/MIR15A.md) at 13q14; double-mutant (SF3B1-K700E + del(13q)) CLL shows inferior OS vs single-lesion CLL [PMID:40694421](../papers/40694421.md)
 
 ## Therapeutic relevance
 

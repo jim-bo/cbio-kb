@@ -83,7 +83,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 ## Therapeutic relevance
 
-- Primary actionable biomarker for [erdafitinib](../drugs/erdafitinib.md); real-world ORR 40% (12/30) but median PFS 2.8 mo and [OS](../cancer_types/OS.md) 6.6 mo in 32 metastatic UC patients [PMID:37682528](../papers/37682528.md).
+- Primary actionable biomarker for [erdafitinib](../drugs/erdafitinib.md); real-world ORR 40% (12/30) but median PFS 2.8 mo and OS 6.6 mo in 32 metastatic UC patients [PMID:37682528](../papers/37682528.md).
 - Acquired second-site FGFR3 V553M/N540S kinase-domain mutations are putative resistance drivers detectable in cfDNA [PMID:37682528](../papers/37682528.md).
 - Archival primary-tumor FGFR3 status misclassifies metastatic disease in ~26% of patients, arguing for metastatic-site or cfDNA profiling before [erdafitinib](../drugs/erdafitinib.md) selection [PMID:37682528](../papers/37682528.md).
 - FGFR3 status did not alter PFS/OS on immune checkpoint blockade (p=0.47/0.52) [PMID:37682528](../papers/37682528.md).

@@ -36,7 +36,7 @@ Primary liver cancer of hepatocellular origin.
 - Prospective MSK-IMPACT sequencing of 127 advanced HCC patients confirmed [TERT](../genes/TERT.md) (56%), [CTNNB1](../genes/CTNNB1.md) (36%), and [TP53](../genes/TP53.md) (33%) as the top altered genes (WNT and [TP53](../genes/TP53.md) alterations mutually exclusive, p=0.003); PI3K-mTOR pathway alterations predicted worse [sorafenib](../drugs/sorafenib.md) outcomes (PFS HR 3.8, p<0.0001), and WNT/β-catenin activation predicted innate ICI resistance (0% vs 53% disease control, p=0.009); dataset [hcc_mskimpact_2018](../datasets/hcc_mskimpact_2018.md) [PMID:30373752](../papers/30373752.md)
 - cHCC-ICC pan-Asia genomic study (N=133) used TCGA-HCC as a reference cohort; [TP53](../genes/TP53.md) mutation rate 31% in TCGA-HCC vs 49.2% in cHCC-ICC; [TERT](../genes/TERT.md) promoter mutation 46% in TCGA-HCC vs 22.9% in cHCC-ICC; [CTNNB1](../genes/CTNNB1.md) mutation rate substantially higher in HCC than in cHCC-ICC (6%) [PMID:31130341](../papers/31130341.md).
 - Included in PCAWG (n=2,658 WGS); hepatocellular carcinoma showed [TP53](../genes/TP53.md) association with chromothripsis (HCC OR=3.9) [PMID:32025007](../papers/32025007.md).
-- Integrated (phospho)proteogenomic characterization of 122 HCC biopsies from 114 systemically-untreated patients (Basel, 2008–2018; [hcc_meric_2021](../datasets/hcc_meric_2021.md)); 7 SMGs identified including novel [GPAM](../genes/GPAM.md) candidate tumor suppressor; 3 integrative iCluster subtypes defined with [OS](../cancer_types/OS.md) associations [PMID:35508466](../papers/35508466.md)
+- Integrated (phospho)proteogenomic characterization of 122 HCC biopsies from 114 systemically-untreated patients (Basel, 2008–2018; [hcc_meric_2021](../datasets/hcc_meric_2021.md)); 7 SMGs identified including novel [GPAM](../genes/GPAM.md) candidate tumor suppressor; 3 integrative iCluster subtypes defined with OS associations [PMID:35508466](../papers/35508466.md)
 - A multi-omics review (Babu & Snyder 2023) cites integration of CNV, DNA methylation, and gene expression across 256 HCC samples (Liu et al. 2016) as a landmark example, identifying five molecular subgroups with distinct survival outcomes [PMID:37119971](../papers/37119971.md)
 - A narrative review of lipid metabolism reprogramming in HCC (Wong, Kong, Ma) finds that ~75% of HCC patients fail current SoC ([atezolizumab](../drugs/atezolizumab.md)+[bevacizumab](../drugs/bevacizumab.md) ORR 26–28%; [lenvatinib](../drugs/lenvatinib.md) ORR 16–23%); six lipid metabolic axes (uptake, DNL, FAO, ferroptosis suppression, bioactive lipid signaling, cholesterol synthesis) drive TKI/ICI/radiotherapy resistance, and key dominant HCC drivers include [TERT](../genes/TERT.md), [TP53](../genes/TP53.md), and [CTNNB1](../genes/CTNNB1.md) (>25% of patients), with CTNNB1-active HCC addicted to CPT1A-mediated FAO [PMID:41118283](../papers/41118283.md)
 
@@ -44,7 +44,7 @@ Primary liver cancer of hepatocellular origin.
 
 ## Therapeutic landscape
 
-- HCC-class IHC has markedly better [OS](../cancer_types/OS.md) than biliary-class IHC, independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
+- HCC-class IHC has markedly better OS than biliary-class IHC, independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
 
 ## Sources
 

@@ -31,7 +31,7 @@ Bi-institutional retrospective cohort of 412 patients with histologically confir
 
 - **Cancer type:** [Intrahepatic Cholangiocarcinoma (IHCH)](../cancer_types/IHCH.md)
 - **N = 412** patients: 390 MSKCC + 22 Erasmus MC
-- **Resected cohort:** n=209 (median RFS 18.4 months, median [OS](../cancer_types/OS.md) 46.4 months)
+- **Resected cohort:** n=209 (median RFS 18.4 months, median OS 46.4 months)
 - **Unresectable cohort:** n=203 (locally advanced 24.1 months OS; distant metastases 13.1 months OS)
 - **Assay versions:** 40 samples on [IMPACT341](../methods/IMPACT341.md), 147 on [IMPACT410](../methods/IMPACT410.md), 225 on [IMPACT468](../methods/IMPACT468.md); all against matched normal liver or blood, tumor content >60%
 - **Key clinical fields:** resection status, lymph node status, multifocal liver disease, large bile duct type, periductal infiltration, lymphovascular invasion, etiology (cirrhosis, PSC)

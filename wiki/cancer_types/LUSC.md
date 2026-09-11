@@ -36,7 +36,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - Included in TCGA PanCancer Atlas; LUSC co-clusters in pan-squamous iClusters C10, C25, C27 sharing dNp63/TAp63 squamous signaling; JAK2/STAT upregulation shared with pan-SCC [PMID:29625048](../papers/29625048.md)
 - LUSC shows 4% germline vs 89% somatic genome-integrity disruption; among the cancer types with highest somatic genome-integrity disruption rates [PMID:29625049](../papers/29625049.md)
 - NRF2/oxidative-stress pathway alteration rate 25% in LUSC, highest pan-cancer; PI3K pathway alteration rate 68% in LUSC; NRF2+PI3K co-alteration concentrated in squamous lung [PMID:29625050](../papers/29625050.md)
-- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) recommended without reservation for LUSC; LUSC never-disease-free cases had HR=6.68 (95% CI 4.25-10.51) for new tumor events [PMID:29625055](../papers/29625055.md)
+- Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for LUSC; LUSC never-disease-free cases had HR=6.68 (95% CI 4.25-10.51) for new tumor events [PMID:29625055](../papers/29625055.md)
 - In PCAWG, lung squamous cell carcinoma showed high chromothripsis frequency; [SOX2](../genes/SOX2.md) amplification via chromothripsis was identified as a late event (many SNVs predated the amplification); chromothripsis was clonal and early in lung squamous [PMID:32025007](../papers/32025007.md).
 - CPTAC proteogenomic study of 108 treatment-naive LUSC tumors identified five NMF subtypes (Basal-Inclusive, EMT-Enriched, Classical, Inflamed-Secretory, Proliferative-Primitive); [NSD3](../genes/NSD3.md) proteomically nominated over [FGFR1](../genes/FGFR1.md) as the 8p11.23 amplicon driver; CDK4/6-pathway loss ([CDKN2A](../genes/CDKN2A.md) or [RB1](../genes/RB1.md)) was universal; TP63-low tumors overexpressed survivin ([BIRC5](../genes/BIRC5.md)); dataset [lusc_cptac_2021](../datasets/lusc_cptac_2021.md) [PMID:34358469](../papers/34358469.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): LUSC included within the [NSCLC](../cancer_types/NSCLC.md) umbrella (20% of cohort); [TP53](../genes/TP53.md) (58% pan-cohort) and [PIK3CA](../genes/PIK3CA.md) (11%) dominant across lung squamous histology; 11q13.3 amplification relevant to squamous subtypes [PMID:35871175](../papers/35871175.md)
@@ -48,7 +48,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 
 ## Therapeutic landscape
 
-- ctDNA detection is an independent poor prognostic marker in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 2.05, P<0.001), with ctDNA-guided matching to targeted therapy conferring [OS](../cancer_types/OS.md) benefit (HR 0.63, P<0.001) [PMID:36357680](../papers/36357680.md).
+- ctDNA detection is an independent poor prognostic marker in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 2.05, P<0.001), with ctDNA-guided matching to targeted therapy conferring OS benefit (HR 0.63, P<0.001) [PMID:36357680](../papers/36357680.md).
 - ATLAS RNA-expression classifier (trained on 8,249 samples including TCGA/CCLE) achieved 91.4% accuracy for cancer site classification; LUSC distinguished within the 22-class site classifier with lineage de-differentiation score prognostic for survival (HR 0.24, P=0.001) [PMID:38480799](../papers/38480799.md).
 
 ## Sources

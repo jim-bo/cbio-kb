@@ -49,7 +49,7 @@ The chol_jhu_2013 cohort was assembled by Jiao, Pawlik, Wood and colleagues at J
 
 - [BAP1](../genes/BAP1.md) inactivating mutations in 13/64 (20%) IHCH; first report of BAP1 alteration in a gastrointestinal cancer [PMID:24185509](../papers/24185509.md)
 - [ARID1A](../genes/ARID1A.md) mutated in 9/64 (14%) IHCH; [PBRM1](../genes/PBRM1.md) in 8/64 (13%) IHCH and 4/16 (25%) GBC; at least one SWI/SNF chromatin-remodeling gene altered in 41% of combined IHCH cohort [PMID:24185509](../papers/24185509.md)
-- [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md) hotspot mutations in 20% of IHCH; associated with significantly worse survival (3-year [OS](../cancer_types/OS.md) 33% vs 81%, log-rank P=0.0034; Cox HR 7.37 after stage/age/sex adjustment) [PMID:24185509](../papers/24185509.md)
+- [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md) hotspot mutations in 20% of IHCH; associated with significantly worse survival (3-year OS 33% vs 81%, log-rank P=0.0034; Cox HR 7.37 after stage/age/sex adjustment) [PMID:24185509](../papers/24185509.md)
 - [FGFR2](../genes/FGFR2.md) point mutations in 4/32 (13%) discovery-screen IHCH, complementing known [FGFR2](../genes/FGFR2.md) gene fusions in cholangiocarcinoma [PMID:24185509](../papers/24185509.md)
 - [TP53](../genes/TP53.md) was the dominant GBC alteration (5/8, 63% discovery screen; 44% combined GBC cohort), supporting genomically distinct biology between IHCH and GBC [PMID:24185509](../papers/24185509.md)
 - Used as a comparison dataset in the ICGC multi-omic CCA study; the TCGA 'IDH' and 'METH3' groups from this lineage of CCA studies map approximately to Cluster 4 of the four etiology-driven molecular subtypes [PMID:28667006](../papers/28667006.md).

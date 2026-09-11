@@ -23,7 +23,7 @@ GJC1 (gap junction protein gamma 1, also known as connexin 45) encodes a member 
 ## Alterations observed in the corpus
 
 - GJC1 identified as a potential pan-neuroblastoma EV surface marker by LC-MS/MS proteomics; its gene locus maps to chromosome 17q21.31, a region gained in approximately 50% of neuroblastomas [PMID:41063451](../papers/41063451.md)
-- High GJC1 expression correlates with poor overall survival ([OS](../cancer_types/OS.md)) and event-free survival (EFS) in neuroblastoma [PMID:41063451](../papers/41063451.md)
+- High GJC1 expression correlates with poor overall survival (OS) and event-free survival (EFS) in neuroblastoma [PMID:41063451](../papers/41063451.md)
 - GJC1 is selectively essential for neuroblastoma cell survival in CRISPR screens [PMID:41063451](../papers/41063451.md)
 - GJC1 expression in EVs is independent of [MYCN](../genes/MYCN.md) amplification status; overexpressed during tumour formation in the TH-MYCN mouse model [PMID:41063451](../papers/41063451.md)
 

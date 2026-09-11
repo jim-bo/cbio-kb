@@ -17,7 +17,7 @@ OncoCast is an elastic-net Cox regression model combined with a random-forest re
 
 ## Used by
 
-- [PMID:39506116](../papers/39506116.md) — OncoCast (elastic-net Cox plus random-forest residual correction, 500 trees, 5 terminal nodes, 50 runs) applied within the MSK-CHORD clinicogenomic dataset (24,950 patients) alongside [random survival forest](../methods/random-survival-forest.md) models for left-truncated [OS](../cancer_types/OS.md) prediction across five cancer types ([NSCLC](../cancer_types/NSCLC.md), [BRCA](../cancer_types/BRCA.md), [COADREAD](../cancer_types/COADREAD.md), [PRAD](../cancer_types/PRAD.md), [PAAD](../cancer_types/PAAD.md)); combined-modality models outperformed single-modality in every cancer type [PMID:39506116](../papers/39506116.md).
+- [PMID:39506116](../papers/39506116.md) — OncoCast (elastic-net Cox plus random-forest residual correction, 500 trees, 5 terminal nodes, 50 runs) applied within the MSK-CHORD clinicogenomic dataset (24,950 patients) alongside [random survival forest](../methods/random-survival-forest.md) models for left-truncated OS prediction across five cancer types ([NSCLC](../cancer_types/NSCLC.md), [BRCA](../cancer_types/BRCA.md), [COADREAD](../cancer_types/COADREAD.md), [PRAD](../cancer_types/PRAD.md), [PAAD](../cancer_types/PAAD.md)); combined-modality models outperformed single-modality in every cancer type [PMID:39506116](../papers/39506116.md).
 
 ## Notes
 

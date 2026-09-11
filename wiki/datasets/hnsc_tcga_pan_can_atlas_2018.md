@@ -53,7 +53,7 @@ The TCGA Head and Neck Squamous Cell Carcinoma PanCancer Atlas 2018 cohort is th
 - HPV+ HNSC co-clusters with pan-squamous iCluster C27 (alongside HPV+ [CESC](../cancer_types/CESC.md) and some [BLCA](../cancer_types/BLCA.md)); HPV- HNSC co-clusters with other squamous iClusters (C10, C25) sharing chr11 amplification; HNSC was among 8 cancer types with <50% of samples in any single iCluster. [PMID:29625048](../papers/29625048.md)
 - Pan-squamous iClusters (C10, C25, C27) including HPV- HNSC share dNp63/TAp63 squamous signaling, proliferation, hypoxia, and basal signaling programs; C3 and C20 (immune-enriched clusters) also contain HNSC samples contributing to JAK2/STAT1/3/6 pathway enrichment. [PMID:29625048](../papers/29625048.md)
 - [EGFR](../genes/EGFR.md) alterations in 13% of HPV- HNSC (RTK-RAS pathway); PI3K pathway broadly altered in squamous cancers including HNSC; [FGFR3](../genes/FGFR3.md) mutual exclusivity with PI3K-pathway alterations is a notable cross-pathway interaction in HNSC. [PMID:29625049](../papers/29625049.md)
-- All four clinical endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) are recommended without reservation for HNSC by TCGA-CDR, making this one of 13 cancer types with the highest endpoint reliability. [PMID:29625048](../papers/29625048.md)
+- All four clinical endpoints (OS, PFI, DFI, DSS) are recommended without reservation for HNSC by TCGA-CDR, making this one of 13 cancer types with the highest endpoint reliability. [PMID:29625048](../papers/29625048.md)
 
 ## Sources
 

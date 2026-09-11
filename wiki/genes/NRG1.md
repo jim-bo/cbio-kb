@@ -27,7 +27,7 @@ NRG1 (Neuregulin 1) encodes a growth factor ligand that activates ERBB3/ERBB4 re
 
 ## Cancer types (linked)
 
-- **[PAAD](../cancer_types/PAAD.md):** NRG1 fusions occur almost exclusively in KRAS-WT PDAC (MAPK-WT subtype). In the MSK 2,336-patient cohort, 2/11 (18%) RNA-sequenced MAPK-WT tumors carried activating [BRAF](../genes/BRAF.md) or NRG1 fusions; MAPK-WT patients had significantly better [OS](../cancer_types/OS.md) than KRAS-mutant patients (HR_adj = 0.69, P = 0.041), a survival advantage that persisted after excluding targeted-therapy recipients. [PMID:39753968](../papers/39753968.md)
+- **[PAAD](../cancer_types/PAAD.md):** NRG1 fusions occur almost exclusively in KRAS-WT PDAC (MAPK-WT subtype). In the MSK 2,336-patient cohort, 2/11 (18%) RNA-sequenced MAPK-WT tumors carried activating [BRAF](../genes/BRAF.md) or NRG1 fusions; MAPK-WT patients had significantly better OS than KRAS-mutant patients (HR_adj = 0.69, P = 0.041), a survival advantage that persisted after excluding targeted-therapy recipients. [PMID:39753968](../papers/39753968.md)
 
 ## Co-occurrence and mutual exclusivity
 

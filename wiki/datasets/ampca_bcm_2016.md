@@ -55,7 +55,7 @@ Multi-institutional cohort of 160 periampullary tumors collected by the Australi
 - WNT pathway mutated in 46% of all periampullary tumors; rates differ significantly by site: DUOAC 72%, AMPAC 49%, CAC 30% (ChiSq p<0.05); intestinal IHC subtype 67% WNT-altered vs 30% pancreatobiliary. [PMID:26804919](../papers/26804919.md)
 - MSI present in 12/160 patients (8% overall); all 6 MSI-AMPCA patients alive 2–8 years post-diagnosis (p=0.04); MSI associated with dramatically elevated mutation rates (median 68–127 mutations/Mb vs 3.8–4.7/Mb MSS). [PMID:26804919](../papers/26804919.md)
 - [PMS2](../genes/PMS2.md) mutated in half of MSI patients — markedly higher than the <5% frequency in the general Lynch-syndrome population. [PMID:26804919](../papers/26804919.md)
-- TGF-β pathway mutations independently predicted better [OS](../cancer_types/OS.md) (HR=0.42, p=0.0059); PI3K pathway mutations similarly predicted better OS (HR=0.43, p=0.036). [PMID:26804919](../papers/26804919.md)
+- TGF-β pathway mutations independently predicted better OS (HR=0.42, p=0.0059); PI3K pathway mutations similarly predicted better OS (HR=0.43, p=0.036). [PMID:26804919](../papers/26804919.md)
 - Five mutational signatures prominent; signature #1 (C>T at CpG) independently associated with worse outcome (multivariate Cox p=0.02). [PMID:26804919](../papers/26804919.md)
 
 ## Sources

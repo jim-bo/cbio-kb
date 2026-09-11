@@ -30,7 +30,7 @@ FOLFIRINOX is a four-drug chemotherapy regimen comprising [oxaliplatin](../drugs
 
 ## Resistance mechanisms
 
-- No specific FOLFIRINOX resistance mechanisms reported in the corpus at this time. KRAS mutant-allele dosage gains were prognostic for shorter [OS](../cancer_types/OS.md) independent of first-line chemotherapy backbone [PMID:39753968](../papers/39753968.md).
+- No specific FOLFIRINOX resistance mechanisms reported in the corpus at this time. KRAS mutant-allele dosage gains were prognostic for shorter OS independent of first-line chemotherapy backbone [PMID:39753968](../papers/39753968.md).
 
 ## Cancer types (linked)
 

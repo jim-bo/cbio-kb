@@ -39,7 +39,7 @@ Prospective international cohort study of advanced [NSCLC](../cancer_types/NSCLC
 ## Notable findings derived from this cohort
 
 - ctDNA detection rate was 722/1,127 (64%), and ctDNA detection was an independent poor prognostic marker (HR 2.05; 95% CI 1.74–2.42; P<0.001) even after correction for clinicopathologic factors and PET-based metabolic tumor volume [PMID:36357680](../papers/36357680.md).
-- Among ctDNA-positive patients, 255 (23%) matched to targeted therapy by ctDNA sequencing had longer [OS](../cancer_types/OS.md) than ctDNA-positive patients not receiving targeted therapy (HR 0.63; 95% CI 0.52–0.76; P<0.001) [PMID:36357680](../papers/36357680.md).
+- Among ctDNA-positive patients, 255 (23%) matched to targeted therapy by ctDNA sequencing had longer OS than ctDNA-positive patients not receiving targeted therapy (HR 0.63; 95% CI 0.52–0.76; P<0.001) [PMID:36357680](../papers/36357680.md).
 - 25% of patients had alterations detected only in ctDNA (not in time-matched tissue), disproportionately subclonal resistance drivers such as [RICTOR](../genes/RICTOR.md) and [PIK3CA](../genes/PIK3CA.md), and associated with short survival [PMID:36357680](../papers/36357680.md).
 - Operational metrics: only 2% of ctDx Lung / MSK-ACCESS samples failed vs 13% tissue sequencing failures; turnaround 11 days vs 33 days for MSK-IMPACT [PMID:36357680](../papers/36357680.md).
 - Used as an international generalizability cohort (n = 463 advanced [NSCLC](../cancer_types/NSCLC.md)) for a ctDNA-based VTE prediction model; the LB+ random survival forest achieved a c-index of 0.67 in this cohort, outperforming Khorana score (0.54). [PMID:39147831](../papers/39147831.md)

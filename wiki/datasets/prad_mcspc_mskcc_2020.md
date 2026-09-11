@@ -55,7 +55,7 @@ Prospective tumor–blood sequencing cohort of 424 patients with metastatic cast
 - [AR](../genes/AR.md) and [TP53](../genes/TP53.md) alterations and cell-cycle / MYC pathway alterations were associated with 1.6- to 5-fold higher castration-resistance rates; [SPOP](../genes/SPOP.md) and WNT pathway alterations associated with ~1.5-fold lower rates (multivariable models). [PMID:32220891](../papers/32220891.md)
 - [CDK12](../genes/CDK12.md) alterations were 6.7 pp more frequent in de-novo metastatic disease vs. metastatic recurrence (95% CI 3.0–10.4; FDR 0.037) — the only single gene with statistically significant phenotype discrimination. [PMID:32220891](../papers/32220891.md)
 - High-volume disease had significantly higher castration-resistance incidence (139/213 vs. 101/211; adjusted HR 1.84, 95% CI 1.40–2.41) and more deaths (77 vs. 25; adjusted HR 3.71, 95% CI 2.28–6.02). [PMID:32220891](../papers/32220891.md)
-- PI3K/RAS/RAF/MAPK/DNA-repair pathway alterations were not prognostic for castration resistance or [OS](../cancer_types/OS.md) after multivariable adjustment; [PTEN](../genes/PTEN.md) only prognostic in unadjusted analyses. [PMID:32220891](../papers/32220891.md)
+- PI3K/RAS/RAF/MAPK/DNA-repair pathway alterations were not prognostic for castration resistance or OS after multivariable adjustment; [PTEN](../genes/PTEN.md) only prognostic in unadjusted analyses. [PMID:32220891](../papers/32220891.md)
 
 ## Sources
 

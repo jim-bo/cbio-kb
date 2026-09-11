@@ -35,7 +35,7 @@ Prospective genomic cohort of 487 patients with lower esophageal and esophagogas
 - **Curative-intent therapy (CIT):** N=230, predominantly stage I–III
 - **Palliative-intent therapy (PIT):** N=257, predominantly clinical stage IV
 - **Assay versions:** 45 patients on [IMPACT341](../methods/IMPACT341.md), 104 on [IMPACT410](../methods/IMPACT410.md), 338 on [IMPACT468](../methods/IMPACT468.md); all 16 recurrent drivers covered on every version
-- **Key clinical fields:** treatment intent, tumor grade, clinical stage, MSI status, prior therapy exposure, [OS](../cancer_types/OS.md)
+- **Key clinical fields:** treatment intent, tumor grade, clinical stage, MSI status, prior therapy exposure, OS
 
 ## Assays / panels (linked)
 

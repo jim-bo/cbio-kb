@@ -47,7 +47,7 @@ prad_msk_stopsack_2021 is a single-institution Memorial Sloan Kettering cohort o
 ## Notable findings derived from this cohort
 
 - [AR](../genes/AR.md) alterations were enriched in Black men (18%) vs White men (12%) after clinical-feature adjustment (+5 pp, 95% CI 1–8); [FOXA1](../genes/FOXA1.md) class-1 forkhead-domain mutations enriched in Asian men (21% vs 8% White); [TP53](../genes/TP53.md) alterations less common in Black men (19% vs 30%), driven by fewer missense mutations [PMID:34667026](../papers/34667026.md)
-- Chr8q gain present in 49% of Black, 47% of Asian, and 37% of White tumors; Black–White difference (11 pp) persisted after adjustment and was prognostic for [OS](../cancer_types/OS.md) (HR 2.00, 95% CI 1.00–4.01 in Black men); area-level household income was an independent predictor of chr8q gain [PMID:34667026](../papers/34667026.md)
+- Chr8q gain present in 49% of Black, 47% of Asian, and 37% of White tumors; Black–White difference (11 pp) persisted after adjustment and was prognostic for OS (HR 2.00, 95% CI 1.00–4.01 in Black men); area-level household income was an independent predictor of chr8q gain [PMID:34667026](../papers/34667026.md)
 - No difference in DNA-repair gene alteration frequency by race ([BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [ATM](../genes/ATM.md), [ATR](../genes/ATR.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [POLE](../genes/POLE.md), etc.); germline contribution was minimal (≤1 germline mutation per race-associated gene across 1,781 consented patients) [PMID:34667026](../papers/34667026.md)
 
 ## Sources

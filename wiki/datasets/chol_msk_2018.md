@@ -56,7 +56,7 @@ Prospective targeted sequencing cohort of 195 patients with cholangiocarcinoma a
 - [BAP1](../genes/BAP1.md) mutations and [FGFR2](../genes/FGFR2.md) fusions were observed exclusively in IHC; 38 structural alterations in 35 patients (18%), predominantly in-frame [FGFR2](../genes/FGFR2.md) fusions [PMID:29848569](../papers/29848569.md).
 - 47.6% (93/195) of patients had at least one OncoKB level 3B or higher actionable alteration; 16% of advanced-disease patients received biomarker-matched therapy, with 64% showing evidence of response or clinical benefit [PMID:29848569](../papers/29848569.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions (8%) and [ERBB2](../genes/ERBB2.md) amplifications (4%) were associated with significantly shorter overall survival (p=0.0015 for both) and shorter time to progression on first-line chemotherapy [PMID:29848569](../papers/29848569.md).
-- [KRAS](../genes/KRAS.md) mutations (enriched in EHC, 38% vs 7% in IHC) were associated with shorter [OS](../cancer_types/OS.md) in advanced disease (p=0.026) [PMID:29848569](../papers/29848569.md).
+- [KRAS](../genes/KRAS.md) mutations (enriched in EHC, 38% vs 7% in IHC) were associated with shorter OS in advanced disease (p=0.026) [PMID:29848569](../papers/29848569.md).
 - MSI-H in 0.5% of cohort (single tumor), with [MLH1](../genes/MLH1.md) and [MSH6](../genes/MSH6.md) protein loss on IHC [PMID:29848569](../papers/29848569.md).
 
 ## Sources

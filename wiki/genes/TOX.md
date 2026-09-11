@@ -19,7 +19,7 @@ TOX (Thymocyte Selection-Associated High Mobility Group Box) is a transcription 
 
 ## Cancer types (linked)
 
-- **[PCNSL](../cancer_types/PCNSL.md)**: Homozygous deletion at 8q12 in 11% (2/18), monoallelic deletion in 17% (3/18); tentatively associated with shorter [OS](../cancer_types/OS.md) in univariate analysis (requires validation given small N). [PMID:25991819](../papers/25991819.md)
+- **[PCNSL](../cancer_types/PCNSL.md)**: Homozygous deletion at 8q12 in 11% (2/18), monoallelic deletion in 17% (3/18); tentatively associated with shorter OS in univariate analysis (requires validation given small N). [PMID:25991819](../papers/25991819.md)
 
 ## Co-occurrence and mutual exclusivity
 

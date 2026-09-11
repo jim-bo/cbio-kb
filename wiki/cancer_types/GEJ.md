@@ -38,7 +38,7 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 
 ## Therapeutic landscape
 
-- Pembrolizumab + [trastuzumab](../drugs/trastuzumab.md) + CAPOX achieved median PFS 13 months, [OS](../cancer_types/OS.md) 27 months, ORR 89% in HER2-positive metastatic GEJ/esophageal/gastric cancer (n=37). [PMID:37406106](../papers/37406106.md)
+- Pembrolizumab + [trastuzumab](../drugs/trastuzumab.md) + CAPOX achieved median PFS 13 months, OS 27 months, ORR 89% in HER2-positive metastatic GEJ/esophageal/gastric cancer (n=37). [PMID:37406106](../papers/37406106.md)
 - Uniform HER2 IHC 3+ expression predicts longer PFS (15 vs. 8.5 months, P=0.004). [PMID:37406106](../papers/37406106.md)
 
 ## Sources

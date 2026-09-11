@@ -21,7 +21,7 @@ PEAR1 (Platelet Endothelial Aggregation Receptor 1, also known as JEDI and MEGF1
 
 ## Cancer types (linked)
 
-- **AML (acute myeloid leukemia):** PEAR1 expression predicts shortened [OS](../cancer_types/OS.md) across age groups; independent of ELN risk in young (<45 y) patients; hazard ratio equivalent to LSC17 signature [PMID:35868306](../papers/35868306.md)
+- **AML (acute myeloid leukemia):** PEAR1 expression predicts shortened OS across age groups; independent of ELN risk in young (<45 y) patients; hazard ratio equivalent to LSC17 signature [PMID:35868306](../papers/35868306.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,7 +29,7 @@ PEAR1 (Platelet Endothelial Aggregation Receptor 1, also known as JEDI and MEGF1
 
 ## Therapeutic relevance
 
-- Proposed as single-gene prognostic biomarker for [OS](../cancer_types/OS.md) in AML, performing equivalently to LSC17 and carrying prognostic value independent of ELN risk in young (<45 y) patients [PMID:35868306](../papers/35868306.md)
+- Proposed as single-gene prognostic biomarker for OS in AML, performing equivalently to LSC17 and carrying prognostic value independent of ELN risk in young (<45 y) patients [PMID:35868306](../papers/35868306.md)
 - PEAR1 is surface-expressed on AML blasts, raising the possibility of small-molecule and antibody-based targeting; PEAR1-null mice retain platelet function, suggesting a potential therapeutic window [PMID:35868306](../papers/35868306.md)
 
 ## Open questions

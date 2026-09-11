@@ -50,7 +50,7 @@ hgsoc_msk_2021 is a Memorial Sloan Kettering cohort of 45 patients with recurren
 
 ## Notable findings derived from this cohort
 
-- Total Ollivier–Ricci network curvature (κG) stratified [OS](../cancer_types/OS.md) after ICI at the 25th-percentile cut-off: low-curvature (n=12) median OS 7.4 mo vs high-curvature (n=33) 20.3 mo (log-rank p = 0.00047); curvature outperformed TMB (p = 0.032), LST (p = 0.43), and [FGA](../genes/FGA.md) (p = 0.20) in the same cohort [PMID:34819508](../papers/34819508.md)
+- Total Ollivier–Ricci network curvature (κG) stratified OS after ICI at the 25th-percentile cut-off: low-curvature (n=12) median OS 7.4 mo vs high-curvature (n=33) 20.3 mo (log-rank p = 0.00047); curvature outperformed TMB (p = 0.032), LST (p = 0.43), and [FGA](../genes/FGA.md) (p = 0.20) in the same cohort [PMID:34819508](../papers/34819508.md)
 - Curvature was not prognostic in HGSOC patients who did not receive ICI, supporting a predictive (ICI-specific) rather than general prognostic interpretation; [TP53](../genes/TP53.md) had the largest positive Δκ risk (0.209) across all sub-analyses [PMID:34819508](../papers/34819508.md)
 
 ## Sources

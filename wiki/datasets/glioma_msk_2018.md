@@ -30,7 +30,7 @@ processed_at: 2026-05-16
 
 ## Overview
 
-The glioma_msk_2018 cohort was assembled at Memorial Sloan Kettering Cancer Center (MSKCC) to evaluate cerebrospinal fluid (CSF) cell-free DNA (cfDNA) as a liquid-biopsy reservoir for adult diffuse glioma. The study enrolled 85 patients (113 CSF samples total) treated at MSKCC from January 2015 to April 2017, and profiled CSF DNA by MSK-IMPACT targeted NGS alongside matched tumor tissue and, in a subset, plasma cfDNA. The cohort establishes CSF ctDNA positivity as an independent prognostic factor for shorter [OS](../cancer_types/OS.md) (HR 4.16) and documents convergent/branched evolution in growth-factor-receptor pathways over time. Patient data are deposited on cBioPortal as glioma_msk_2018. A benchmark comparison cohort of 553 MSKCC glioma biopsies from 512 patients was sequenced separately with MSK-IMPACT.
+The glioma_msk_2018 cohort was assembled at Memorial Sloan Kettering Cancer Center (MSKCC) to evaluate cerebrospinal fluid (CSF) cell-free DNA (cfDNA) as a liquid-biopsy reservoir for adult diffuse glioma. The study enrolled 85 patients (113 CSF samples total) treated at MSKCC from January 2015 to April 2017, and profiled CSF DNA by MSK-IMPACT targeted NGS alongside matched tumor tissue and, in a subset, plasma cfDNA. The cohort establishes CSF ctDNA positivity as an independent prognostic factor for shorter OS (HR 4.16) and documents convergent/branched evolution in growth-factor-receptor pathways over time. Patient data are deposited on cBioPortal as glioma_msk_2018. A benchmark comparison cohort of 553 MSKCC glioma biopsies from 512 patients was sequenced separately with MSK-IMPACT.
 
 ## Composition
 

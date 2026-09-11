@@ -25,8 +25,8 @@ Peripheral T-Cell lymphoma, NOS is a Mature T and NK Neoplasm (parent MTNN).
 - Most common CNAs: [TP53](../genes/TP53.md) deletions 7% and [CDKN2A](../genes/CDKN2A.md) deletions 7% [PMID:37078708](../papers/37078708.md).
 - [TP53](../genes/TP53.md) mutations (HR 3.1, 95% CI 1.4–6.8, P=.005) and TP53/17p deletions (HR 4.1, 95% CI 1.1–15.0, P=.03) independently predicted inferior PFS on multivariate analysis [PMID:37078708](../papers/37078708.md).
 - Median PFS: 4.5 months for TP53-mutated PTCL (n=21) vs 10.5 months for TP53-wildtype (n=111) [PMID:37078708](../papers/37078708.md).
-- [CDKN2A](../genes/CDKN2A.md) deletion correlated with inferior [OS](../cancer_types/OS.md) (HR 12.1; 95% CI 2.8–52.0; P<.001); median [OS](../cancer_types/OS.md) 17.6 vs 56.7 months [PMID:37078708](../papers/37078708.md).
-- No [TP53](../genes/TP53.md) aberrancy correlated with inferior [OS](../cancer_types/OS.md) [PMID:37078708](../papers/37078708.md).
+- [CDKN2A](../genes/CDKN2A.md) deletion correlated with inferior OS (HR 12.1; 95% CI 2.8–52.0; P<.001); median OS 17.6 vs 56.7 months [PMID:37078708](../papers/37078708.md).
+- No [TP53](../genes/TP53.md) aberrancy correlated with inferior OS [PMID:37078708](../papers/37078708.md).
 - RHOA G17V (dominant-negative, loss-of-function) is recurrent across peripheral T-cell lymphomas including AITL (~67% of AITL cases) and other PTCL subtypes; functional yeast modelling separates RHOA GOF and LOF mutants into distinct morphological classes [PMID:41002403](../papers/41002403.md)
 
 ## Subtypes

@@ -17,7 +17,7 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 
 ## Evidence in the corpus
 
-- IDH1-mutant iCCA: ClarIDHy phase III ORR 2%, mPFS 6.9 vs. 2.7 months (placebo), mOS 10.3 vs. 7.5 months (adjusted-crossover [OS](../cancer_types/OS.md) benefit 5.1 months); [IDH1](../genes/IDH1.md) mutations occur in 13–29% of iCCA and are rare in eCCA; retrospective data show 14.5% prevalence in advanced iCCA with longer PFS for IDH1-mutant tumors under standard chemotherapy [PMID:41008893](../papers/41008893.md)
+- IDH1-mutant iCCA: ClarIDHy phase III ORR 2%, mPFS 6.9 vs. 2.7 months (placebo), mOS 10.3 vs. 7.5 months (adjusted-crossover OS benefit 5.1 months); [IDH1](../genes/IDH1.md) mutations occur in 13–29% of iCCA and are rare in eCCA; retrospective data show 14.5% prevalence in advanced iCCA with longer PFS for IDH1-mutant tumors under standard chemotherapy [PMID:41008893](../papers/41008893.md)
 - Endorsed as a precision option for IDH1-mutant iCCA based on the ClarIDHy phase III trial (PFS benefit); highlighted as the first targeted therapy approved for IDH1-mutant cholangiocarcinoma, with [IDH1](../genes/IDH1.md) mutations also epigenetically suppressing bile acid synthesis genes via 2-hydroxyglutarate accumulation [PMID:41018102](../papers/41018102.md)
 - IDH1/IDH2 mutations enriched in Fluke-Negative CCA Cluster 4 (31.6% vs 1.0%); ivosidenib (NCT02073994) nominated as therapeutic candidate for this subtype [PMID:28667006](../papers/28667006.md)
 - [IDH1](../genes/IDH1.md) inhibitor (AG-120) used as matched targeted therapy in 13 of 25 cholangiocarcinoma patients with [IDH1](../genes/IDH1.md) mutations; 64% of 25 biomarker-directed patients had evidence of response or clinical benefit; rationale cited for phase III ClarIDHy trial enrollment [PMID:29848569](../papers/29848569.md)
@@ -49,7 +49,7 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 - [PMID:30333627](../papers/30333627.md)
 - [PMID:30373752](../papers/30373752.md)
 - [PMID:31263031](../papers/31263031.md)
-- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC [IHCH](../cancer_types/IHCH.md) retrospective (N=573); 20.4% of IDH1/2-mutant patients received ivosidenib or vorasidenib on trial; IDH1/2 mutation had no [OS](../cancer_types/OS.md) impact in node-positive IHC.
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC [IHCH](../cancer_types/IHCH.md) retrospective (N=573); 20.4% of IDH1/2-mutant patients received ivosidenib or vorasidenib on trial; IDH1/2 mutation had no OS impact in node-positive IHC.
 - [PMID:35292802](../papers/35292802.md)
 - [PMID:35868306](../papers/35868306.md)
 - [PMID:36611031](../papers/36611031.md)

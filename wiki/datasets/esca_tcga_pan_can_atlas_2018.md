@@ -49,7 +49,7 @@ The TCGA Esophageal Carcinoma PanCancer Atlas 2018 cohort is the [ESCA](../cance
 
 - ESCA was among 8 cancer types with <50% of samples in any single iCluster, reflecting the two molecular subtypes (squamous ESCC and adenocarcinoma EAC) coexisting in this dataset; squamous ESCA co-clusters with pan-squamous iClusters (C10, C27) while EAC co-clusters with pan-GI EBV+/CIN subtypes. [PMID:29625048](../papers/29625048.md)
 - NRF2/oxidative-stress pathway peak alteration rate in esophagogastric squamous ([ESCC](../cancer_types/ESCC.md)) is 23%; EBV+ esophagogastric shows PI3K pathway alteration in 80% of samples; [ERBB2](../genes/ERBB2.md) alterations concentrate in chromosomally-unstable esophagogastric (CIN subtype). [PMID:29625048](../papers/29625048.md)
-- All four clinical endpoints ([OS](../cancer_types/OS.md), PFI, DFI, DSS) are recommended without reservation for ESCA by the TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR), making this one of 13 cancer types with the highest endpoint reliability. [PMID:29625048](../papers/29625048.md)
+- All four clinical endpoints (OS, PFI, DFI, DSS) are recommended without reservation for ESCA by the TCGA Pan-Cancer Clinical Data Resource (TCGA-CDR), making this one of 13 cancer types with the highest endpoint reliability. [PMID:29625048](../papers/29625048.md)
 
 ## Sources
 

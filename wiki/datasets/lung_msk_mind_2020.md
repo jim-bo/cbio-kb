@@ -33,7 +33,7 @@ The MSK-MIND (Multimodal Integration of Imaging, pathology aND genomics) dataset
 - 247 patients with advanced [NSCLC](../cancer_types/NSCLC.md) treated with PD-(L)1 blockade at MSK, 2014–2019.
 - Histology: 79% adenocarcinoma ([LUAD](../cancer_types/LUAD.md)), 15% squamous ([LUSC](../cancer_types/LUSC.md)), 3% large cell, 3% NSCLC NOS.
 - Response binarized as responders (CR/PR, 25%) vs. nonresponders (SD/PD, 75%) per RECIST v1.1.
-- Median PFS 2.7 months (95% CI 2.5–3.0); median [OS](../cancer_types/OS.md) 11.4 months (95% CI 10.3–12.8).
+- Median PFS 2.7 months (95% CI 2.5–3.0); median OS 11.4 months (95% CI 10.3–12.8).
 - Additional hold-out cohorts: radiology validation (n = 50), pathology validation (n = 52).
 
 ## Assays / panels (linked)

@@ -91,6 +91,7 @@ def _cmd_index_build_papers(args: argparse.Namespace) -> int:
         "--overlap", str(args.overlap),
         "--batch-size", str(args.batch_size),
         *(["--incremental"] if args.incremental else []),
+        *(["--embed-model", args.embed_model] if args.embed_model else []),
     ])
 
 
@@ -377,6 +378,9 @@ def build_parser() -> argparse.ArgumentParser:
     # parser construction free of the numpy/faiss import chain (CI runs `lint`
     # without the [server] extras installed).
     idx_bp.add_argument("--batch-size", type=int, default=25)
+    idx_bp.add_argument("--embed-model", default=None,
+                        help="Hugging Face model id (runs locally) or gemini-embedding-001 "
+                             "(Vertex AI); default: CBIO_EMBED_MODEL or the built-in local model")
     idx_bp.add_argument("--incremental", action="store_true",
                         help="Embed only PMIDs missing from the existing index")
     idx_bp.set_defaults(func=_cmd_index_build_papers)

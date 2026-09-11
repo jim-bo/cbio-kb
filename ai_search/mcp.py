@@ -23,9 +23,11 @@ Corpus / identifier bridge (deterministic; need only ``wiki/``):
 
 Retrieval (need the ``data/paper_index`` FAISS + BM25 index):
 
-- ``search_hybrid``  dense + BM25 + wiki-graph, RRF-fused and reranked. Runs as
-  BM25 + graph when Vertex credentials are absent.
-- ``search_dense``   dense only (needs ``GCP_PROJECT`` + Vertex ADC).
+- ``search_hybrid``  dense + BM25 + wiki-graph, RRF-fused and reranked. Queries
+  are embedded locally with the model that built the index; only an index built
+  with ``gemini-embedding-001`` needs Vertex (``GCP_PROJECT``), and without it
+  runs as BM25 + graph.
+- ``search_dense``   dense only.
 - ``route_query`` / ``search_auto``  the eval-driven router.
 - ``search_agentic`` graph-walking agent run server-side; registered only when
   ``ANTHROPIC_API_KEY`` is set (or ``CBIO_KB_MCP_ENABLE_AGENTIC=1``), since it
@@ -380,8 +382,17 @@ def _safe_wiki_path(path: str) -> Path | None:
     return candidate if candidate.is_file() else None
 
 
+_VERTEX_HINT = ("the passage index was built with gemini-embedding-001, which runs on Vertex "
+                "AI: set GCP_PROJECT (with Application Default Credentials) on the server, or "
+                "rebuild the index with a local model (`cbio-kb index build-papers`)")
+
+
 def _dense_available() -> bool:
-    return bool(os.environ.get("GCP_PROJECT"))
+    """Dense search works if the index's model runs locally, or it's a Vertex
+    model and the server has GCP_PROJECT (Vertex bills the operator)."""
+    from cbio_kb.index.embed import index_model, is_vertex
+
+    return not is_vertex(index_model(INDEX_DIR)) or bool(os.environ.get("GCP_PROJECT"))
 
 
 def _index_available() -> bool:
@@ -705,8 +716,8 @@ def _hybrid_sync(query: str, top_k: int, max_per_paper: int) -> dict[str, Any]:
         "passages": _passage_view(legs["final"], top_k, max_per_paper),
     }
     if legs.get("dense_error"):
-        out["degraded"] = {"dense": "skipped: Vertex embeddings unavailable "
-                                    "(set GCP_PROJECT with Application Default Credentials)"}
+        reason = _VERTEX_HINT if legs["dense_error"] == "disabled" else legs["dense_error"]
+        out["degraded"] = {"dense": f"skipped: {reason}"}
     return out
 
 
@@ -731,8 +742,7 @@ async def _do_dense(query: str, top_k: int) -> dict[str, Any]:
     if not _index_available():
         return _err(f"Passage index not found at {INDEX_DIR}.")
     if not _dense_available():
-        return _err("search_dense needs Vertex embeddings: set GCP_PROJECT (with Application "
-                    "Default Credentials) on the server. search_hybrid works without them.")
+        return _err(f"search_dense unavailable: {_VERTEX_HINT}. search_hybrid works without it.")
     try:
         return await asyncio.to_thread(_dense_sync, query, top_k)
     except Exception as e:

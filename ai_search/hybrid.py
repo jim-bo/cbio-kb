@@ -3,8 +3,9 @@
 Runs three retrievers concurrently against the same chunk corpus that
 :mod:`ai_search.rag` indexes:
 
-1. **Dense** — Vertex ``gemini-embedding-001`` + FAISS ``IndexFlatIP``
-   (reuses :class:`ai_search.rag.RAGIndex`).
+1. **Dense** — the index's embedding model (local by default; see
+   ``cbio_kb.index.embed``) + FAISS ``IndexFlatIP`` (reuses
+   :class:`ai_search.rag.RAGIndex`).
 2. **BM25** — pickled ``rank_bm25.BM25Okapi`` built by
    ``cbio_kb.index.bm25`` from the same ``meta.jsonl``.
 3. **Graph 1-hop** — :func:`ai_search.anchors.extract_anchors` finds
@@ -30,6 +31,8 @@ from typing import Any, Iterable
 
 import anthropic
 import numpy as np
+
+from cbio_kb.index.embed import index_model
 
 from . import anchors as _anchors
 from .rag import (
@@ -479,7 +482,7 @@ async def hybrid_event_generator(
         yield _tool_event(
             name="dense_search",
             args={"query": user_message, "top_k": top_k_dense},
-            summary=f"{len(dense_chunks)} chunks via gemini-embedding-001",
+            summary=f"{len(dense_chunks)} chunks via {index_model(_INDEX_DIR)}",
             results=dense_chunks,
             t_start=dense_ts, t_end=dense_te,
         )

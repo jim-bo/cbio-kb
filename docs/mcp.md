@@ -32,16 +32,19 @@ with either server's.
 | `get_entity(kind, id, section)` | Gene / cancer_type / dataset / drug / method / theme page and the papers citing it. Accepts gene aliases and OncoTree names. | wiki |
 | `read_wiki_page(path, heading)` | Any page or section; relative links from page content are accepted as-is. | wiki |
 | `corpus_info()` | Coverage (how many cBioPortal publications are in the corpus), snapshot date, which retrieval tools are live. | wiki |
-| `search_hybrid(query, top_k, max_per_paper)` | Dense + BM25 + wiki-graph passages, RRF-fused and reranked. Runs as BM25 + graph (flagged `degraded`) without Vertex credentials. | passage index |
-| `search_dense(query, top_k)` | Dense-only passages. | passage index + `GCP_PROJECT` |
+| `search_hybrid(query, top_k, max_per_paper)` | Dense + BM25 + wiki-graph passages, RRF-fused and reranked. | passage index |
+| `search_dense(query, top_k)` | Dense-only passages. | passage index |
 | `route_query(query)` / `search_auto(query)` | The eval-trained router: lookup/definition → hybrid, list/synthesis → agentic (or hybrid plus a walk hint when agentic is off). | passage index |
 | `search_agentic(query)` | Server-side graph-walking agent that returns a cited answer. Only registered when `ANTHROPIC_API_KEY` is set (or `CBIO_KB_MCP_ENABLE_AGENTIC=1`), because it spends tokens on the server's account. | `ANTHROPIC_API_KEY` |
 
 Resources: `cbio-kb://guide`, `cbio-kb://paper/{pmid}`, `cbio-kb://study/{study_id}`.
 
-The server doesn't load `.env`. Dense retrieval (Vertex embeddings) and the
-agentic tool both bill the server operator, so they're only on when you export
-`GCP_PROJECT` / `ANTHROPIC_API_KEY` yourself.
+Queries are embedded locally with the model that built the passage index
+(recorded in `data/paper_index/index_config.json`), so search needs no cloud
+account. The server doesn't load `.env`: the agentic tool bills the server
+operator, so it's only on when you export `ANTHROPIC_API_KEY` yourself. (An
+index built with `gemini-embedding-001` also needs `GCP_PROJECT`; without it,
+`search_hybrid` runs as BM25 + graph and says so under `degraded`.)
 
 ## Run it
 
@@ -133,7 +136,8 @@ questions.
 | `CBIO_KB_MCP_FORWARDED_ALLOW_IPS` | unset | Trust `X-Forwarded-*` from these IPs (TLS-terminating proxy). |
 | `CBIO_KB_MCP_WARM` | `1` | Pre-load BM25, the wiki graph, and the reranker at startup (~30 s otherwise paid by the first search). |
 | `CBIO_KB_MCP_ENABLE_AGENTIC` | auto | Force `search_agentic` on/off; default follows `ANTHROPIC_API_KEY`. |
-| `GCP_PROJECT` | unset | Enables the dense leg (Vertex `gemini-embedding-001`, needs ADC). |
+| `CBIO_EMBED_MODEL` | built-in local model | Embedding model for new index builds and the router (a Hugging Face id, run locally). Queries always use the model recorded in the index. |
+| `GCP_PROJECT` | unset | Only for an index built with `gemini-embedding-001` (Vertex AI, needs ADC). |
 | `CBIO_WIKI_DIR`, `CBIO_KB_SEED_CSV`, `CBIO_KB_ONTOLOGY_DIR`, `RAG_INDEX_DIR` | repo paths | Data locations. |
 | `CBIOPORTAL_BASE_URL` | `https://www.cbioportal.org` | Base for returned study URLs (same variable as the navigator). |
 

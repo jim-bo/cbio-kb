@@ -67,7 +67,22 @@ def test_incremental_refuses_mismatched_chunking(tmp_path, capsys):
         {"embed_model": papers.EMBED_MODEL, "chunk_chars": 500, "overlap": 120}))
 
     class Args:
-        chunk_chars, overlap = 900, 120
+        chunk_chars, overlap, embed_model = 900, 120, papers.EMBED_MODEL
 
     assert papers._load_existing(tmp_path, Args) is None
     assert "run a full build" in capsys.readouterr().err
+
+
+def test_incremental_refuses_other_embed_model(tmp_path, capsys):
+    # Vectors from a different model live in a different space; reusing them
+    # alongside new ones would silently break retrieval.
+    (tmp_path / "meta.jsonl").write_text("")
+    faiss.write_index(faiss.IndexFlatIP(DIM), str(tmp_path / "faiss.index"))
+    (tmp_path / "index_config.json").write_text(json.dumps(
+        {"embed_model": "gemini-embedding-001", "chunk_chars": 900, "overlap": 120}))
+
+    class Args:
+        chunk_chars, overlap, embed_model = 900, 120, "BAAI/bge-base-en-v1.5"
+
+    assert papers._load_existing(tmp_path, Args) is None
+    assert "embed_model" in capsys.readouterr().err

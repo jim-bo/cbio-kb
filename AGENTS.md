@@ -135,7 +135,7 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 9. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` for the `/ask` Graph tab.
 10. `cbio-kb lint`; optionally `cbio-kb ontology sync` if new studies/panels appeared.
 11. Commit per wave, not per paper.
-12. Keep the passage index in step with the wiki (otherwise rag/hybrid and the MCP search tools can't see the new papers, and the agentic-vs-rag eval is confounded): add the PMIDs to `eval/corpus_pmids.txt`, then `GCP_PROJECT=… uv run cbio-kb index build-papers --incremental` (embeds only the new papers; needs Vertex ADC and `python -m spacy download en_core_web_sm`).
+12. Keep the passage index in step with the wiki (otherwise rag/hybrid and the MCP search tools can't see the new papers, and the agentic-vs-rag eval is confounded): add the PMIDs to `eval/corpus_pmids.txt`, then `uv run cbio-kb index build-papers --incremental` (embeds only the new papers, locally, with the index's own model; needs `uv run python -m spacy download en_core_web_sm`). Changing the embedding model means a full rebuild; `eval/embed_bakeoff.py` compares models on the eval's gold papers without any LLM or cloud calls.
 
 ### Reprocessing after ontology or template changes
 

@@ -1,9 +1,11 @@
 """Markdown-paper indexer for the RAG-vs-agentic comparison.
 
 Walks ``data/raw/papers/{pmid}.md`` for a restricted PMID set, strips YAML
-frontmatter, chunks by sentence windows, embeds via Google Vertex AI
-(``gemini-embedding-001``), and writes ``faiss.index`` + ``meta.jsonl``
-so the RAG runner can query over the same corpus the agentic runner walks.
+frontmatter, chunks by sentence windows, embeds the chunks (a local
+sentence-transformers model by default, see ``cbio_kb.index.embed``), and
+writes ``faiss.index`` + ``meta.jsonl`` + ``index_config.json`` so the RAG
+runner can query over the same corpus the agentic runner walks. The config
+records the model, and queries are always embedded with that model.
 
 Usage (direct)::
 
@@ -23,33 +25,20 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import re
 import sys
-import time
 from pathlib import Path
 from typing import Iterable
 
 import numpy as np
 
+from cbio_kb.index import embed as _embed
+
 _FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 
-EMBED_MODEL = "gemini-embedding-001"
-# GCP_PROJECT is required — embedding runs are billed, so we refuse to
-# silently fall back to whatever project happened to be cached locally.
-# Resolved at call time inside embed_texts so the import path stays cheap.
-GCP_LOCATION = os.environ.get("GCP_LOCATION", "us-central1")
-_VERTEX_BATCH_SIZE = 25  # keep well under per-minute token quota
-
-
-def _require_gcp_project() -> str:
-    project = os.environ.get("GCP_PROJECT")
-    if not project:
-        raise RuntimeError(
-            "GCP_PROJECT is not set. Embedding via Vertex AI is a paid "
-            "operation; export GCP_PROJECT explicitly before running."
-        )
-    return project
+# Model for new builds (override with --embed-model or CBIO_EMBED_MODEL).
+EMBED_MODEL = _embed.DEFAULT_MODEL
+_BATCH_SIZE = 25  # also stays under Vertex's per-minute quota for Gemini builds
 
 
 def _strip_frontmatter(text: str) -> str:
@@ -88,45 +77,16 @@ def embed_texts(
     texts: list[str],
     *,
     task_type: str = "RETRIEVAL_DOCUMENT",
-    batch_size: int = _VERTEX_BATCH_SIZE,
+    batch_size: int = _BATCH_SIZE,
+    model: str | None = None,
 ) -> np.ndarray:
-    """Embed a list of texts via Vertex AI gemini-embedding-001.
+    """Embed texts as documents (``RETRIEVAL_DOCUMENT``) or queries
+    (``RETRIEVAL_QUERY``) with ``model`` (default ``EMBED_MODEL``).
 
-    Returns an (N, dim) float32 array, L2-normalized for cosine/IP search.
+    Returns an (N, dim) float32 array; see ``cbio_kb.index.embed.embed``.
     """
-    from google import genai
-    from google.genai import types
-
-    client = genai.Client(vertexai=True, project=_require_gcp_project(), location=GCP_LOCATION)
-    all_vecs: list[list[float]] = []
-    for i in range(0, len(texts), batch_size):
-        batch = texts[i : i + batch_size]
-        for attempt in range(5):
-            try:
-                resp = client.models.embed_content(
-                    model=EMBED_MODEL,
-                    contents=batch,
-                    config=types.EmbedContentConfig(task_type=task_type),
-                )
-                break
-            except Exception as e:
-                if "429" in str(e) and attempt < 4:
-                    wait = 30 * (attempt + 1)
-                    print(f"  rate limited, waiting {wait}s…", file=sys.stderr)
-                    time.sleep(wait)
-                else:
-                    raise
-        for emb in resp.embeddings:
-            all_vecs.append(emb.values)
-        done = min(i + batch_size, len(texts))
-        print(f"  embedded {done}/{len(texts)}", file=sys.stderr)
-        if done < len(texts):
-            time.sleep(2)
-
-    arr = np.array(all_vecs, dtype="float32")
-    norms = np.linalg.norm(arr, axis=1, keepdims=True)
-    norms[norms == 0] = 1.0
-    return arr / norms
+    kind = "query" if task_type == "RETRIEVAL_QUERY" else "document"
+    return _embed.embed(texts, kind=kind, model=model or EMBED_MODEL, batch_size=batch_size)
 
 
 def iter_chunks(
@@ -165,7 +125,7 @@ def _load_existing(out_dir: Path, args: argparse.Namespace):
     if not (meta_path.exists() and index_path.exists()):
         print(f"[!] --incremental: no index in {out_dir}; run a full build", file=sys.stderr)
         return None
-    expected = {"embed_model": EMBED_MODEL, "chunk_chars": args.chunk_chars, "overlap": args.overlap}
+    expected = {"embed_model": args.embed_model, "chunk_chars": args.chunk_chars, "overlap": args.overlap}
     mismatched = {k: config.get(k) for k, v in expected.items() if config.get(k) != v}
     if mismatched:
         print(f"[!] --incremental: existing index differs {mismatched} from {expected}; "
@@ -248,9 +208,10 @@ def cmd_build(args: argparse.Namespace) -> int:
         print(f"[*] wrote metadata to {meta_path}")
 
         texts = [r["text"] for r in new_records]
-        print(f"[*] embedding {len(texts)} chunks via Vertex AI ({EMBED_MODEL})…")
+        print(f"[*] embedding {len(texts)} chunks with {args.embed_model}…")
         embeddings = (
-            embed_texts(texts, task_type="RETRIEVAL_DOCUMENT", batch_size=args.batch_size)
+            embed_texts(texts, task_type="RETRIEVAL_DOCUMENT", batch_size=args.batch_size,
+                        model=args.embed_model)
             if texts else np.zeros((0, kept_vecs.shape[1]), dtype="float32")
         )
         if kept_vecs is not None:
@@ -264,7 +225,7 @@ def cmd_build(args: argparse.Namespace) -> int:
 
         config_path = staging / "index_config.json"
         config_path.write_text(json.dumps({
-            "embed_model": EMBED_MODEL,
+            "embed_model": args.embed_model,
             "embed_dim": int(embeddings.shape[1]),
             "chunk_chars": args.chunk_chars,
             "overlap": args.overlap,
@@ -303,7 +264,9 @@ def main(argv: list[str] | None = None) -> int:
     pb.add_argument("--index-dir", default="data/paper_index")
     pb.add_argument("--chunk-chars", type=int, default=900)
     pb.add_argument("--overlap", type=int, default=120)
-    pb.add_argument("--batch-size", type=int, default=_VERTEX_BATCH_SIZE)
+    pb.add_argument("--batch-size", type=int, default=_BATCH_SIZE)
+    pb.add_argument("--embed-model", default=EMBED_MODEL,
+                    help="Hugging Face model id (runs locally) or gemini-embedding-001 (Vertex AI)")
     pb.add_argument("--incremental", action="store_true",
                     help="Reuse vectors from the existing index; embed only PMIDs it lacks "
                          "and drop PMIDs no longer in --pmid-list")

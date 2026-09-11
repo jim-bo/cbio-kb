@@ -71,9 +71,8 @@ uv run cbio-kb ingest extract
 uv run cbio-kb ingest bioc
 
 # 4. Build the passage index the chat app and MCP server search
-#    (Vertex gemini-embedding-001; needs GCP_PROJECT + ADC)
+#    (embeds locally; needs `uv run python -m spacy download en_core_web_sm`)
 uv run cbio-kb index build-papers
-uv run cbio-kb index build-bm25
 ```
 
 ## Wiki maintenance (agent-driven)

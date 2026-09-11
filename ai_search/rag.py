@@ -3,7 +3,8 @@
 Loads a pre-built FAISS index of paper-markdown chunks (from
 ``cbio-kb index build-papers``) and answers a user query by:
 
-1. Embedding the query via Vertex AI (gemini-embedding-001).
+1. Embedding the query with the model that built the index (recorded in
+   its ``index_config.json``; see ``cbio_kb.index.embed``).
 2. Retrieving top-k passages by cosine similarity.
 3. Packing them into a single prompt alongside a system instruction.
 4. Making one LLM call (same model as the agentic agent) and streaming
@@ -51,10 +52,10 @@ passages.
 """
 
 
-def _embed_query(text: str) -> np.ndarray:
-    """Embed a single query string via Vertex AI, returns (1, dim) float32."""
-    from cbio_kb.index.papers import embed_texts
-    return embed_texts([text], task_type="RETRIEVAL_QUERY", batch_size=1)
+def _embed_query(text: str, model: str) -> np.ndarray:
+    """Embed one query with ``model`` (the index's own); returns (1, dim) float32."""
+    from cbio_kb.index.embed import embed
+    return embed([text], kind="query", model=model, batch_size=1)
 
 
 class RAGIndex:
@@ -72,7 +73,10 @@ class RAGIndex:
                 f"RAG index not found at {index_dir}. "
                 "Run: uv run cbio-kb index build-papers"
             )
+        from cbio_kb.index.embed import index_model
+
         self.index = faiss.read_index(str(idx_path))
+        self.model = index_model(index_dir)
         self.meta: list[dict] = []
         with meta_path.open() as fh:
             for line in fh:
@@ -85,7 +89,7 @@ class RAGIndex:
         return cls._instance
 
     def search(self, query: str, top_k: int = _DEFAULT_TOP_K) -> list[dict]:
-        qvec = _embed_query(query)
+        qvec = _embed_query(query, self.model)
         D, I = self.index.search(qvec, top_k)
         results = []
         for j, idx in enumerate(I[0]):

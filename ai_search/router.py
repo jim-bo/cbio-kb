@@ -17,13 +17,14 @@ mode rather than a default destination.
 
 Two classifiers produce the *category* that the policy maps to a mode:
 
-1. **kNN** (primary) — embed the query with the same Vertex
-   ``gemini-embedding-001`` model the dense index uses, then majority-vote the
+1. **kNN** (primary) — embed the query with the default embedding model
+   (``cbio_kb.index.embed.DEFAULT_MODEL``, local), then majority-vote the
    *k* nearest labeled questions in ``eval/questions/v1.yaml``. This grounds
    routing in the same labeled data the eval scored, and the bank embeddings
-   are cached to disk so the cost is paid once.
+   are cached to disk (keyed by question set and model) so the cost is paid
+   once.
 2. **heuristic** (fallback) — a lexical cue scorer used when embeddings are
-   unavailable (no ``GCP_PROJECT``, offline, or the bank fails to load).
+   unavailable (model can't load, or the bank fails to load).
 
 Set ``CBIO_ROUTER_STRATEGY=heuristic`` to skip embeddings entirely.
 """
@@ -191,8 +192,8 @@ class QuestionBank:
     """Lazy singleton holding labeled-question embeddings for kNN routing.
 
     Embeddings are cached to ``data/router_qbank.npz`` keyed by a fingerprint
-    of the question set, so the Vertex call happens only when the eval set
-    changes.
+    of the question set and the model name, so they're recomputed only when
+    either changes.
     """
 
     _instance: "QuestionBank | None" = None
@@ -204,26 +205,32 @@ class QuestionBank:
         self.fingerprint = _fingerprint(self.questions)
         self.categories = np.array([q["category"] for q in self.questions])
         self.ids = [q["id"] for q in self.questions]
+        from cbio_kb.index.papers import EMBED_MODEL
+
+        self.model = EMBED_MODEL
         self.embeddings = self._load_or_build_embeddings()
 
     def _load_or_build_embeddings(self) -> np.ndarray:
         if _CACHE_PATH.exists():
             try:
                 cached = np.load(_CACHE_PATH, allow_pickle=False)
-                if str(cached["fingerprint"]) == self.fingerprint:
+                # Banks cached before the model was recorded are Gemini.
+                model = str(cached["model"]) if "model" in cached.files else "gemini-embedding-001"
+                if str(cached["fingerprint"]) == self.fingerprint and model == self.model:
                     return cached["embeddings"].astype("float32")
             except Exception:
                 pass  # corrupt / stale cache — rebuild
         from cbio_kb.index.papers import embed_texts
 
         texts = [q["question"] for q in self.questions]
-        embeddings = embed_texts(texts, task_type="RETRIEVAL_QUERY").astype("float32")
+        embeddings = embed_texts(texts, task_type="RETRIEVAL_QUERY", model=self.model).astype("float32")
         try:
             _CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
             np.savez(
                 _CACHE_PATH,
                 embeddings=embeddings,
                 fingerprint=np.array(self.fingerprint),
+                model=np.array(self.model),
             )
         except Exception:
             pass  # caching is best-effort
@@ -245,7 +252,7 @@ class QuestionBank:
         """
         from cbio_kb.index.papers import embed_texts
 
-        qvec = embed_texts([query], task_type="RETRIEVAL_QUERY").astype("float32")[0]
+        qvec = embed_texts([query], task_type="RETRIEVAL_QUERY", model=self.model).astype("float32")[0]
         # Embeddings are L2-normalized, so dot product == cosine similarity.
         sims = self.embeddings @ qvec
         k = min(k, len(sims))

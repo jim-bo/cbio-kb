@@ -17,7 +17,7 @@
     {
       "id": "cancer_types",
       "label": "Cancer types",
-      "count": 282
+      "count": 283
     },
     {
       "id": "datasets",
@@ -13665,7 +13665,7 @@
       "id": "cancer_types/GCT.md",
       "section": "cancer_types",
       "label": "GCT",
-      "title": "Germ Cell Tumor"
+      "title": "Granular Cell Tumor"
     },
     {
       "id": "cancer_types/GCTB.md",
@@ -14818,6 +14818,12 @@
       "section": "cancer_types",
       "label": "WT",
       "title": "Wilms' Tumor"
+    },
+    {
+      "id": "cancer_types/germ-cell-tumor.md",
+      "section": "cancer_types",
+      "label": "germ-cell-tumor",
+      "title": "Germ Cell Tumor (corpus umbrella)"
     },
     {
       "id": "datasets/acbc_mskcc_2015.md",
@@ -31490,6 +31496,10 @@
       "to": "cancer_types/WT.md"
     },
     {
+      "from": "cancer_types",
+      "to": "cancer_types/germ-cell-tumor.md"
+    },
+    {
       "from": "index",
       "to": "datasets"
     },
@@ -36865,10 +36875,6 @@
     },
     {
       "from": "cancer_types/AML.md",
-      "to": "cancer_types/GCT.md"
-    },
-    {
-      "from": "cancer_types/AML.md",
       "to": "genes/TET2.md"
     },
     {
@@ -39518,10 +39524,6 @@
     {
       "from": "cancer_types/CMML.md",
       "to": "cancer_types/NSGCT.md"
-    },
-    {
-      "from": "cancer_types/CMML.md",
-      "to": "cancer_types/GCT.md"
     },
     {
       "from": "cancer_types/CMML.md",
@@ -42689,7 +42691,7 @@
     },
     {
       "from": "cancer_types/GCT.md",
-      "to": "datasets/gct_msk_2016.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "cancer_types/GCT.md",
@@ -42701,115 +42703,19 @@
     },
     {
       "from": "cancer_types/GCT.md",
-      "to": "cancer_types/TT.md"
+      "to": "cancer_types/OGCT.md"
     },
     {
       "from": "cancer_types/GCT.md",
-      "to": "papers/27646943.md"
+      "to": "datasets/sarcoma_msk_2022.md"
     },
     {
       "from": "cancer_types/GCT.md",
-      "to": "genes/TP53.md"
+      "to": "papers/35705558.md"
     },
     {
       "from": "cancer_types/GCT.md",
-      "to": "drugs/cisplatin.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/MDM2.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/MYCN.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/RAC1.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/PAK1.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/KIT.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/KRAS.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/PIK3CA.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/PTEN.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/AKT1.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/MTOR.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/TSC1.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "genes/TSC2.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "datasets/mixed_kunga_msk_2022.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "papers/35585047.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "papers/37990009.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "cancer_types/MGCT.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/bleomycin.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/etoposide.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/nutlin-3.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/imatinib.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/sunitinib.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/trametinib.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/selumetinib.md"
-    },
-    {
-      "from": "cancer_types/GCT.md",
-      "to": "drugs/binimetinib.md"
+      "to": "genes/HRAS.md"
     },
     {
       "from": "cancer_types/GCTB.md",
@@ -43954,10 +43860,6 @@
     {
       "from": "cancer_types/HS.md",
       "to": "genes/BCOR.md"
-    },
-    {
-      "from": "cancer_types/HS.md",
-      "to": "cancer_types/GCT.md"
     },
     {
       "from": "cancer_types/HS.md",
@@ -47121,11 +47023,11 @@
     },
     {
       "from": "cancer_types/MGCT.md",
-      "to": "datasets/makeanimpact_ccr_2023.md"
+      "to": "datasets/gct_msk_2016.md"
     },
     {
       "from": "cancer_types/MGCT.md",
-      "to": "papers/36862133.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "cancer_types/MGCT.md",
@@ -47133,7 +47035,15 @@
     },
     {
       "from": "cancer_types/MGCT.md",
+      "to": "datasets/gct_msk_2020.md"
+    },
+    {
+      "from": "cancer_types/MGCT.md",
       "to": "papers/32897884.md"
+    },
+    {
+      "from": "cancer_types/MGCT.md",
+      "to": "papers/36862133.md"
     },
     {
       "from": "cancer_types/MIXED.md",
@@ -47406,10 +47316,6 @@
     {
       "from": "cancer_types/MNM.md",
       "to": "genes/RRAS2.md"
-    },
-    {
-      "from": "cancer_types/MNM.md",
-      "to": "cancer_types/GCT.md"
     },
     {
       "from": "cancer_types/MNM.md",
@@ -48541,7 +48447,7 @@
     },
     {
       "from": "cancer_types/NSGCT.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "cancer_types/NSGCT.md",
@@ -52681,7 +52587,7 @@
     },
     {
       "from": "cancer_types/SEM.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "cancer_types/SEM.md",
@@ -53749,19 +53655,15 @@
     },
     {
       "from": "cancer_types/TGCT.md",
-      "to": "cancer_types/MGCT.md"
-    },
-    {
-      "from": "cancer_types/TGCT.md",
       "to": "cancer_types/SEM.md"
     },
     {
       "from": "cancer_types/TGCT.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/NSGCT.md"
     },
     {
       "from": "cancer_types/TGCT.md",
-      "to": "cancer_types/NSGCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "cancer_types/TGCT.md",
@@ -54329,15 +54231,15 @@
     },
     {
       "from": "cancer_types/TT.md",
-      "to": "cancer_types/GCT.md"
-    },
-    {
-      "from": "cancer_types/TT.md",
       "to": "cancer_types/MGCT.md"
     },
     {
       "from": "cancer_types/TT.md",
       "to": "datasets/gct_msk_2016.md"
+    },
+    {
+      "from": "cancer_types/TT.md",
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "cancer_types/TT.md",
@@ -54382,10 +54284,6 @@
     {
       "from": "cancer_types/TYST.md",
       "to": "papers/32897884.md"
-    },
-    {
-      "from": "cancer_types/TYST.md",
-      "to": "cancer_types/GCT.md"
     },
     {
       "from": "cancer_types/TYST.md",
@@ -55822,6 +55720,190 @@
     {
       "from": "cancer_types/WT.md",
       "to": "drugs/doxorubicin.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/GCT.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/NSGCT.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/SEM.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/TT.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/TYST.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/MGCT.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/OGCT.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "cancer_types/TGCT.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "datasets/pancan_pdx_uthsa_2023.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "datasets/gct_msk_2016.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "datasets/gct_msk_2020.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "papers/27646943.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "papers/32897884.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "datasets/makeanimpact_ccr_2023.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "papers/36862133.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "datasets/mixed_kunga_msk_2022.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "papers/35585047.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "papers/37990009.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "datasets/msk_impact_50k_2026.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "papers/41895280.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/cisplatin.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/MDM2.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/MYCN.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/RAC1.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/PAK1.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/KIT.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/KRAS.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/AKT1.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/MTOR.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/TSC1.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/TSC2.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/RRAS2.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/PMS2.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/LRPAP1.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/bleomycin.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/etoposide.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/nutlin-3.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/imatinib.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/sunitinib.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/trametinib.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/selumetinib.md"
+    },
+    {
+      "from": "cancer_types/germ-cell-tumor.md",
+      "to": "drugs/binimetinib.md"
     },
     {
       "from": "datasets/acbc_mskcc_2015.md",
@@ -65089,7 +65171,7 @@
     },
     {
       "from": "datasets/gct_msk_2016.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "datasets/gct_msk_2016.md",
@@ -65098,10 +65180,6 @@
     {
       "from": "datasets/gct_msk_2020.md",
       "to": "cancer_types/NSGCT.md"
-    },
-    {
-      "from": "datasets/gct_msk_2020.md",
-      "to": "cancer_types/GCT.md"
     },
     {
       "from": "datasets/gct_msk_2020.md",
@@ -73801,7 +73879,7 @@
     },
     {
       "from": "datasets/pancan_pdx_uthsa_2023.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "datasets/pancan_pdx_uthsa_2023.md",
@@ -81625,7 +81703,7 @@
     },
     {
       "from": "drugs/alpelisib.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/OGCT.md"
     },
     {
       "from": "drugs/alpelisib.md",
@@ -81726,10 +81804,6 @@
     {
       "from": "drugs/alpelisib.md",
       "to": "cancer_types/ECD.md"
-    },
-    {
-      "from": "drugs/alpelisib.md",
-      "to": "cancer_types/OGCT.md"
     },
     {
       "from": "drugs/alpelisib.md",
@@ -82629,7 +82703,7 @@
     },
     {
       "from": "drugs/binimetinib.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/binimetinib.md",
@@ -82713,7 +82787,7 @@
     },
     {
       "from": "drugs/bleomycin.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/bleomycin.md",
@@ -83361,10 +83435,6 @@
     },
     {
       "from": "drugs/carboplatin.md",
-      "to": "cancer_types/GCT.md"
-    },
-    {
-      "from": "drugs/carboplatin.md",
       "to": "papers/32897884.md"
     },
     {
@@ -83989,7 +84059,7 @@
     },
     {
       "from": "drugs/cisplatin.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/cisplatin.md",
@@ -86113,7 +86183,7 @@
     },
     {
       "from": "drugs/etoposide.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/etoposide.md",
@@ -87709,7 +87779,7 @@
     },
     {
       "from": "drugs/ifosfamide.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/ifosfamide.md",
@@ -87805,7 +87875,7 @@
     },
     {
       "from": "drugs/imatinib.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/imatinib.md",
@@ -90753,7 +90823,7 @@
     },
     {
       "from": "drugs/paclitaxel.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/paclitaxel.md",
@@ -92645,7 +92715,7 @@
     },
     {
       "from": "drugs/selumetinib.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/selumetinib.md",
@@ -92937,7 +93007,7 @@
     },
     {
       "from": "drugs/sorafenib.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/sorafenib.md",
@@ -93205,7 +93275,7 @@
     },
     {
       "from": "drugs/sunitinib.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/sunitinib.md",
@@ -94177,7 +94247,7 @@
     },
     {
       "from": "drugs/trametinib.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "drugs/trametinib.md",
@@ -118561,7 +118631,7 @@
     },
     {
       "from": "genes/FAT1.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/FAT1.md",
@@ -125137,6 +125207,10 @@
     },
     {
       "from": "genes/HRAS.md",
+      "to": "cancer_types/GCT.md"
+    },
+    {
+      "from": "genes/HRAS.md",
       "to": "papers/35705558.md"
     },
     {
@@ -130060,10 +130134,6 @@
       "to": "cancer_types/OGCT.md"
     },
     {
-      "from": "genes/KIT.md",
-      "to": "cancer_types/GCT.md"
-    },
-    {
       "from": "genes/KLF15.md",
       "to": "genes/EWSR1.md"
     },
@@ -133785,7 +133855,7 @@
     },
     {
       "from": "genes/LRPAP1.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/LRRC47.md",
@@ -135305,7 +135375,7 @@
     },
     {
       "from": "genes/MAX.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/MAX.md",
@@ -135405,7 +135475,7 @@
     },
     {
       "from": "genes/MCL1.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/MCL1.md",
@@ -135737,7 +135807,7 @@
     },
     {
       "from": "genes/MDM2.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/MDM2.md",
@@ -138881,7 +138951,7 @@
     },
     {
       "from": "genes/MTOR.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/MTOR.md",
@@ -140325,7 +140395,7 @@
     },
     {
       "from": "genes/MYCN.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/MYCN.md",
@@ -144077,7 +144147,7 @@
     },
     {
       "from": "genes/NRAS.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "genes/NRAS.md",
@@ -148309,7 +148379,7 @@
     },
     {
       "from": "genes/PIK3CA.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/OGCT.md"
     },
     {
       "from": "genes/PIK3CA.md",
@@ -149358,10 +149428,6 @@
     {
       "from": "genes/PIK3CA.md",
       "to": "cancer_types/ECD.md"
-    },
-    {
-      "from": "genes/PIK3CA.md",
-      "to": "cancer_types/OGCT.md"
     },
     {
       "from": "genes/PIK3CA.md",
@@ -171813,7 +171879,7 @@
     },
     {
       "from": "methods/IMPACT410.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "methods/IMPACT410.md",
@@ -181449,7 +181515,7 @@
     },
     {
       "from": "methods/msk-impact-panel.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "methods/msk-impact-panel.md",
@@ -190033,7 +190099,7 @@
     },
     {
       "from": "methods/whole-exome-seq.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/OGCT.md"
     },
     {
       "from": "methods/whole-exome-seq.md",
@@ -209305,7 +209371,7 @@
     },
     {
       "from": "papers/27646943.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "papers/27646943.md",
@@ -209317,11 +209383,11 @@
     },
     {
       "from": "papers/27646943.md",
-      "to": "cancer_types/TT.md"
+      "to": "cancer_types/MGCT.md"
     },
     {
       "from": "papers/27646943.md",
-      "to": "cancer_types/MGCT.md"
+      "to": "cancer_types/TT.md"
     },
     {
       "from": "papers/27646943.md",
@@ -226985,10 +227051,6 @@
     },
     {
       "from": "papers/32897884.md",
-      "to": "cancer_types/GCT.md"
-    },
-    {
-      "from": "papers/32897884.md",
       "to": "genes/TP53.md"
     },
     {
@@ -234685,7 +234747,7 @@
     },
     {
       "from": "papers/35585047.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "papers/35585047.md",
@@ -235750,6 +235812,10 @@
     {
       "from": "papers/35705558.md",
       "to": "genes/HRAS.md"
+    },
+    {
+      "from": "papers/35705558.md",
+      "to": "cancer_types/GCT.md"
     },
     {
       "from": "papers/35705558.md",
@@ -239533,7 +239599,7 @@
     },
     {
       "from": "papers/36862133.md",
-      "to": "cancer_types/MGCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "papers/36862133.md",
@@ -241393,7 +241459,7 @@
     },
     {
       "from": "papers/37990009.md",
-      "to": "cancer_types/GCT.md"
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "papers/37990009.md",
@@ -250298,6 +250364,10 @@
     {
       "from": "papers/41895280.md",
       "to": "genes/TCF7L2.md"
+    },
+    {
+      "from": "papers/41895280.md",
+      "to": "cancer_types/germ-cell-tumor.md"
     },
     {
       "from": "papers/41895280.md",

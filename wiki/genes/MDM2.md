@@ -3,7 +3,7 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -42,7 +42,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Focal amplification in 1-3 desmoplastic melanoma tumors; IHC-confirmed protein-level overexpression [PMID:26343386](../papers/26343386.md)
 - MDM2 amplification observed in pan-lung cancer TCGA analysis (n=1144) as a copy-number alteration in lung adenocarcinoma and squamous cell carcinoma [PMID:27158780](../papers/27158780.md)
 - Amplification in 1 adenoid cystic carcinoma ([ACYC](../cancer_types/ACYC.md)) patient directed treatment with an MDM2 inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
-- Focal amplifications in cisplatin-resistant [GCT](../cancer_types/GCT.md), mutually exclusive with [TP53](../genes/TP53.md) alteration; 71% of MDM2-amplified tumors are [cisplatin](../drugs/cisplatin.md) resistant; therapeutic target via [nutlin-3](../drugs/nutlin-3.md) and other MDM2 inhibitors; [MYCN](../genes/MYCN.md) amplification predicts MDM2-inhibitor sensitivity in TP53-wild-type tumors [PMID:27646943](../papers/27646943.md)
+- Focal amplifications in cisplatin-resistant [germ cell tumors](../cancer_types/germ-cell-tumor.md), mutually exclusive with [TP53](../genes/TP53.md) alteration; 71% of MDM2-amplified tumors are [cisplatin](../drugs/cisplatin.md) resistant; therapeutic target via [nutlin-3](../drugs/nutlin-3.md) and other MDM2 inhibitors; [MYCN](../genes/MYCN.md) amplification predicts MDM2-inhibitor sensitivity in TP53-wild-type tumors [PMID:27646943](../papers/27646943.md)
 - MDM2 co-overexpression with [CDK4](../genes/CDK4.md) in neuroblastoma ([NBL](../cancer_types/NBL.md)) in a pediatric precision-oncology cohort; enrolled on the NEPENTHE trial (NCT02780128) [PMID:28007021](../papers/28007021.md)
 - MDM2 recurrent focal amplification in esophageal squamous cell carcinoma ([ESCC](../cancer_types/ESCC.md)) [PMID:28052061](../papers/28052061.md)
 - Copy gain in metastases-only; MDM2:GNS and MDM2:CCT2 RNA fusions detected in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
@@ -227,4 +227,4 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:41758938](../papers/41758938.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

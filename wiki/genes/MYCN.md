@@ -3,8 +3,8 @@ symbol: MYCN
 aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # MYCN
@@ -30,7 +30,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); member of the [MYC](../genes/MYC.md) family amplified in [SCLC](../cancer_types/SCLC.md) alongside [MYC](../genes/MYC.md) and [MYCL](../genes/MYCL.md) [PMID:26168399](../papers/26168399.md)
 - Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with [TERT](../genes/TERT.md) rearrangements and [ATRX](../genes/ATRX.md) mutations; MYCN amplification transcriptionally activates [TERT](../genes/TERT.md) ([TERT](../genes/TERT.md) is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with [TERT](../genes/TERT.md) rearrangement as a route to telomerase activation [PMID:26466568](../papers/26466568.md)
 - Over-expressed in CRPC-NE (P < 10⁻⁴); included in NEPC classifier; divergent allelic states across metastatic sites in patient WCMC7520; down-regulated by [EZH2](../genes/EZH2.md) inhibitor GSK343 in NCI-H660 [PMID:26855148](../papers/26855148.md)
-- Amplification in 5 patients (all [cisplatin](../drugs/cisplatin.md) resistant); transcriptionally targets both [TP53](../genes/TP53.md) and [MDM2](../genes/MDM2.md); predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type [GCT](../cancer_types/GCT.md) [PMID:27646943](../papers/27646943.md)
+- Amplification in 5 patients (all [cisplatin](../drugs/cisplatin.md) resistant); transcriptionally targets both [TP53](../genes/TP53.md) and [MDM2](../genes/MDM2.md); predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type [germ cell tumors](../cancer_types/germ-cell-tumor.md) [PMID:27646943](../papers/27646943.md)
 - MYCN amplification with 1p/11q LOH, 17q gain, and MYCN overexpression used in neuroblastoma ([NBL](../cancer_types/NBL.md)) for risk-based therapy stratification across four patients in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Amplification found in Group 3 (5%) and Group 4 (6%) medulloblastoma at comparable frequencies in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 - Focal MYCN amplification in 66% of neuroblastoma PDX models in the PPTC cohort (261 models, 37 pediatric cancer types); also amplified in MYCN-subtype HGG (IC-2664PNET) and in Fusion+ [ARMS](../cancer_types/ARMS.md) models [PMID:31693904](../papers/31693904.md).
@@ -107,4 +107,4 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:35292802](../papers/35292802.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

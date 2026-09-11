@@ -4,7 +4,7 @@ oncotree_code: AML
 main_type: Leukemia
 parent: MNM
 tags: []
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -31,7 +31,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - AML resequencing on the Bionimbus Protected Data Cloud cited as exemplar of cloud-enabled somatic-variant discovery in adverse-risk primary AML ([CUX1](../genes/CUX1.md) haploinsufficiency study, Blood 2013); not a primary AML analysis [PMID:29902176](../papers/29902176.md)
 - Beat AML profiled 672 primary tumor specimens from 562 AML patients using whole-exome sequencing, RNA-seq, and ex vivo drug-sensitivity assays against 122 compounds; integrating these layers identified novel mutational events and mapped drug-response patterns to single and combinatorial mutational events (e.g., FLT3-ITD/NPM1 co-mutation sensitizes to [ibrutinib](../drugs/ibrutinib.md) and [entospletinib](../drugs/entospletinib.md); BCOR/RUNX1 co-mutation sensitizes to JAK inhibitors); dataset deposited as [aml_ohsu_2018](../datasets/aml_ohsu_2018.md) [PMID:30333627](../papers/30333627.md)
 - Pan-cancer CCLE profiling (1,072 cell lines) identified phospho-SHP2 (pY542) as a biomarker of [ponatinib](../drugs/ponatinib.md) sensitivity in AML lines; 4/5 previously untested AML lines with high pSHP2 were ponatinib-sensitive, including lines carrying [FLT3](../genes/FLT3.md), [KIT](../genes/KIT.md), and [FGFR1](../genes/FGFR1.md) alterations [PMID:31068700](../papers/31068700.md).
-- AML (53% of hematologic malignancies in PM [NSGCT](../cancer_types/NSGCT.md) cohort, n=15), nearly half of which were [AMKL](../cancer_types/AMKL.md) M7, arose from a shared germ-cell precursor with the paired [GCT](../cancer_types/GCT.md); canonical AML drivers ([FLT3](../genes/FLT3.md), [DNMT3A](../genes/DNMT3A.md), [TET2](../genes/TET2.md), [NPM1](../genes/NPM1.md)) were absent; median survival was 6.3 months (95% CI 4.6–25.2). [PMID:32897884](../papers/32897884.md)
+- AML (53% of hematologic malignancies in PM [NSGCT](../cancer_types/NSGCT.md) cohort, n=15), nearly half of which were [AMKL](../cancer_types/AMKL.md) M7, arose from a shared germ-cell precursor with the paired germ cell tumor; canonical AML drivers ([FLT3](../genes/FLT3.md), [DNMT3A](../genes/DNMT3A.md), [TET2](../genes/TET2.md), [NPM1](../genes/NPM1.md)) were absent; median survival was 6.3 months (95% CI 4.6–25.2). [PMID:32897884](../papers/32897884.md)
 - In the MSK-IMPACT CH cohort (n=24,146), CH → therapy-related myeloid neoplasm (tMN/AML) progression was tracked in 35 paired pre-tMN/tMN samples; 19/32 (59%) already harbored leukemia-defining mutations at the CH stage; TP53-mutant tMNs co-occurred with complex karyotype in 12/13 evaluable cases. [PMID:33106634](../papers/33106634.md)
 - Serial bone-marrow sequencing of 52 high-risk [NBL](../cancer_types/NBL.md) patients (HemePACT + FusionPlex Pan-Heme): AML was an endpoint for therapy-related myeloid neoplasm development after neuroblastoma therapy; 17 transformation cases included AML/MDS outcomes [PMID:35078859](../papers/35078859.md)
 - AML was included in the MAPPYACTS pediatric precision-medicine trial (n=787); [IDH1](../genes/IDH1.md) R132L mutation (n=1) was identified as ready-for-routine-use in AML, targetable by [ivosidenib](../drugs/ivosidenib.md) [PMID:35292802](../papers/35292802.md)
@@ -90,4 +90,4 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - [PMID:24030381](../papers/24030381.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

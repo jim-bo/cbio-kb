@@ -16,8 +16,8 @@ tags:
   - hematologic-malignancy
   - mediastinal
   - clonal-evolution
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # Germ Cell Tumors and Associated Hematologic Malignancies (MSK, JCI 2020)
@@ -29,7 +29,7 @@ This cohort comprises 15 male patients (ages 18–33, median 25) with concurrent
 ## Composition
 
 - 15 patients with PM NSGCT + concurrent hematologic malignancy; all male, ages 18–33 (median 25).
-- [GCT](../cancer_types/GCT.md) histology: teratoma component 73% (predominant 60%); yolk sac tumor 53%.
+- [NSGCT](../cancer_types/NSGCT.md) histology: teratoma component 73% (predominant 60%); yolk sac tumor 53%.
 - Hematologic malignancies: [AML](../cancer_types/AML.md) 53% (nearly half M7/AMKL), [MDS](../cancer_types/MDS.md), [CMML](../cancer_types/CMML.md), histiocytic sarcoma; one-third developed multiple temporally distinct subtypes.
 - 2/15 patients had clinically diagnosed Klinefelter syndrome.
 - Sequencing: MSK-IMPACT on 11 patients; WES on 5-patient subset.
@@ -62,4 +62,4 @@ This cohort comprises 15 male patients (ages 18–33, median 25) with concurrent
 - cBioPortal study: `gct_msk_2020`
 - dbGaP: `phs2231.V1`
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

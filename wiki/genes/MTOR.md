@@ -9,7 +9,7 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -35,7 +35,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - mTORC1 pathway (p-mTOR, p-4E-BP1 T37/46, p-S6 S235/236) activated in SF3B1-mutant/del(13q) CLL cells; targetable with [temsirolimus](../drugs/temsirolimus.md); mTORC1 activation driven by SF3B1-K700E-induced [NFATC1](../genes/NFATC1.md) isoform 5 [PMID:40694421](../papers/40694421.md)
 - Rare activating mutations contributing to PI3K-pathway aberration in prostate adenocarcinoma in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - MTOR is part of the PI3K/AKT/mTOR pathway disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³); pathway disruption includes [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [AKT3](../genes/AKT3.md), [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md), and MTOR alterations; supports use of mTOR inhibitors in ATC [PMID:26878173](../papers/26878173.md)
-- PI3K/mTOR pathway event in cisplatin-resistant [GCT](../cancer_types/GCT.md); mTOR inhibitors listed as targeted therapy candidates for PI3K-pathway alterations in cisplatin-resistant patients [PMID:27646943](../papers/27646943.md)
+- PI3K/mTOR pathway event in cisplatin-resistant [germ cell tumors](../cancer_types/germ-cell-tumor.md); mTOR inhibitors listed as targeted therapy candidates for PI3K-pathway alterations in cisplatin-resistant patients [PMID:27646943](../papers/27646943.md)
 - Missense mutations in 8% of unclassified [RCC](../cancer_types/RCC.md) (uRCC); recurrent L2427R (×3) is functionally activating; co-occurs with TSC1/TSC2/PTEN alterations defining a mutually exclusive mTORC1-hyperactive uRCC subset responsive to mTOR inhibitors [PMID:27713405](../papers/27713405.md)
 - 1 patient with S2215Y as highest driver; 1 UMD patient with novel L2383F missense had 1-month no-benefit course on [everolimus](../drugs/everolimus.md) in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - MTOR was identified as a functional oncogene in DLBCL by CRISPR screen (its knockout depleted cell growth across lines) and was a driver gene in 1001 DLBCL patients; MTOR mutations are prevalent in DLBCL but associate with generally good outcomes in the GCB subtype, suggesting patients with MTOR alterations may be underrepresented in clinical trials of MTOR inhibitors [PMID:28985567](../papers/28985567.md)
@@ -110,4 +110,4 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:37980418](../papers/37980418.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

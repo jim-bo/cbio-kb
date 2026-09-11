@@ -3,7 +3,7 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD, LGSOC]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: crosslinker
+processed_by: orchestrator
 processed_at: 2026-09-11
 ---
 
@@ -55,7 +55,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Ras-pathway oncogene recurrently mutated (n=5) in diffuse glioma; previously known mainly from engineered mouse models [PMID:26824661](../papers/26824661.md)
 - NRAS identified as a known CRC driver and source of recurrent neopeptides in 619-tumor whole-exome sequencing study (NHS/HPFS cohort) [PMID:27149842](../papers/27149842.md)
 - Late driver in RTK-RAS pathway in [AML](../cancer_types/AML.md); G12/13 vs. Q61 hotspots have distinct co-mutation patterns; G12/13 in NPM1/DNMT3A context paradoxically favorable; G12/13 but not Q61 modifies DNMT3A-FLT3-ITD-NPM1 interaction [PMID:27276561](../papers/27276561.md)
-- 4 mutations in cisplatin-resistant germ cell tumors ([GCT](../cancer_types/GCT.md)); 3 of 4 in cisplatin-resistant tumors; MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md), [binimetinib](../drugs/binimetinib.md)) listed as targeted therapy candidates [PMID:27646943](../papers/27646943.md)
+- 4 mutations in cisplatin-resistant [germ cell tumors](../cancer_types/germ-cell-tumor.md); 3 of 4 in cisplatin-resistant tumors; MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md), [binimetinib](../drugs/binimetinib.md)) listed as targeted therapy candidates [PMID:27646943](../papers/27646943.md)
 - Ras-pathway activating mutations (including NRAS G12D) in 35.2% of DUX4/ERG B-ALL cases; NRAS G12D cooperated with dominant-negative ERGalt to sustain lymphoid colony replating in Arf−/− mouse cells [PMID:27776115](../papers/27776115.md)
 - Activating NRAS mutations (Q61H, Q61R, Q61K, G13A, G13D) across multiple pediatric [AML](../cancer_types/AML.md), ALL, neuroblastoma ([NBL](../cancer_types/NBL.md)), and rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; MEK-inhibitor targets identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - 10 mutations detected in a prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients): 9 Q61 and 1 G13; no patient with NRAS as highest-level driver received matched therapy [PMID:28336552](../papers/28336552.md)
@@ -71,7 +71,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Mutated in 30% of metastatic melanoma cohort (n=120); not differentially associated with anti-PD1 response; constitutes one of three canonical melanoma driver groups alongside [BRAF](../genes/BRAF.md) and [NF1](../genes/NF1.md) [PMID:31792460](../papers/31792460.md)
 - NRAS Q61R co-occurring with [GON4L](../genes/GON4L.md)–[NTRK1](../genes/NTRK1.md) fusion in one melanoma; tumor progressed on [larotrectinib](../drugs/larotrectinib.md) and cell line was insensitive to larotrectinib/LOXO-195 but sensitive to [trametinib](../drugs/trametinib.md), suggesting NRAS-driven oncogenic independence from TRK [PMID:31871300](../papers/31871300.md)
 - Focal high-level amplification in one resistant HR+/HER2- [MBC](../cancer_types/MBC.md) biopsy; RAS-pathway activation present in 4/41 (9.8%) resistant vs 0/18 sensitive biopsies [PMID:32404308](../papers/32404308.md)
-- Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a [NSGCT](../cancer_types/NSGCT.md) precursor clone; activating RAS-pathway mutations ([KRAS](../genes/KRAS.md) or NRAS) together present in 63% of [GCT](../cancer_types/GCT.md)+hematologic-malignancy cases vs. 13% of de novo [AML](../cancer_types/AML.md) [PMID:32897884](../papers/32897884.md)
+- Q61H observed as a late, lineage-specific event in a histiocytic sarcoma arising from a [NSGCT](../cancer_types/NSGCT.md) precursor clone; activating RAS-pathway mutations ([KRAS](../genes/KRAS.md) or NRAS) together present in 63% of mediastinal germ cell tumors with a concomitant hematologic malignancy vs. 13% of de novo [AML](../cancer_types/AML.md) [PMID:32897884](../papers/32897884.md)
 - p.Q61L detected in normal melanocytes from sun-damaged skin (Donor 13, back, peri-MEL site); classified as a weak MAPK activator present in histologically normal tissue, implying pre-malignant clonal expansion [PMID:33029006](../papers/33029006.md)
 - Late-progression driver acquired between clonal hematopoiesis (CH) stage and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients; 0 RAS hotspot mutations observed at the CH stage, implicating NRAS as a progression rather than initiation event [PMID:33106634](../papers/33106634.md)
 - Q61 alterations in 29% of 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); usually a sole driver (only 29% co-altered); associated with shortest TTF on PD-1 monotherapy (4.2 months; p<0.0001 vs. [NF1](../genes/NF1.md) 22 months); NRAS Q61 co-altered in 29% vs. 70% for other RAS (p=7.9e-07) [PMID:33509808](../papers/33509808.md)
@@ -205,4 +205,4 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:41758938](../papers/41758938.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-09-11**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

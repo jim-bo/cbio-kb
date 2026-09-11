@@ -3,8 +3,8 @@ symbol: KIT
 aliases: []
 cancer_types: [OGCT, GIST, ANGS, CSCC]
 tags: [germ-cell-tumor, gist, oncogene]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # KIT
@@ -56,7 +56,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 ## Cancer types (linked)
 
-- [OGCT](../cancer_types/OGCT.md) — oncogenic KIT mutations in a subset of female [GCT](../cancer_types/GCT.md) cases in the Make-an-IMPACT rare-cancer cohort [PMID:36862133](../papers/36862133.md).
+- [OGCT](../cancer_types/OGCT.md) — oncogenic KIT mutations in a subset of female germ cell tumor cases in the Make-an-IMPACT rare-cancer cohort [PMID:36862133](../papers/36862133.md).
 - [ANGS](../cancer_types/ANGS.md) — KIT amplification exclusive to sporadic AS, absent in RT-AS [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -65,7 +65,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 ## Therapeutic relevance
 
-- Not directly targeted in the reported female [GCT](../cancer_types/GCT.md) cases [PMID:36862133](../papers/36862133.md).
+- Not directly targeted in the reported female germ cell tumor cases [PMID:36862133](../papers/36862133.md).
 
 ## Open questions
 
@@ -112,4 +112,4 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:35705558](../papers/35705558.md)
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

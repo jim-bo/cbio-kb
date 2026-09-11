@@ -5,8 +5,8 @@ drug_class: MEK1/2 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: orchestrator
+processed_at: 2026-09-11
 ---
 
 # trametinib
@@ -29,7 +29,7 @@ Allosteric MEK1/2 inhibitor.
 - [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [dabrafenib](../drugs/dabrafenib.md) [PMID:41008893](../papers/41008893.md)
 - One of three FDA-approved BRAF-targeted therapies for the BRAF-mutant melanoma subtype (52% of 318 TCGA cases); also nominated for NF1-mutant subtype (14% of cases) to extend MEK inhibition to BRAF-wildtype patients in TCGA melanoma analysis [PMID:26091043](../papers/26091043.md)
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including [vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md), or trametinib; MAPKi treatment induces transcriptional programs overlapping the IPRES innate anti-PD-1 resistance signature, implicating prior trametinib therapy as a potential driver of cross-resistance to subsequent anti-PD-1 in [BRAF](../genes/BRAF.md)- or [NF1](../genes/NF1.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
-- MEK inhibitor; proposed as therapeutic candidate for KRAS/NRAS/GNAQ-altered cisplatin-resistant [GCT](../cancer_types/GCT.md) ([KRAS](../genes/KRAS.md) in 22/180, [NRAS](../genes/NRAS.md) in 4/180, [GNAQ](../genes/GNAQ.md) Q209P in 1/180) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
+- MEK inhibitor; proposed as therapeutic candidate for KRAS/NRAS/GNAQ-altered cisplatin-resistant [germ cell tumor](../cancer_types/germ-cell-tumor.md) ([KRAS](../genes/KRAS.md) in 22/180, [NRAS](../genes/NRAS.md) in 4/180, [GNAQ](../genes/GNAQ.md) Q209P in 1/180) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
 - SCBO-1 and SCBO-5 (both FGFR3-mutant bladder organoids) responded to trametinib (MEK1/2 inhibitor, 0.5 mg/kg 5-on/2-off oral gavage); SCBO-2 and SCBO-6 (also FGFR3-mutant) did not respond, showing [FGFR3](../genes/FGFR3.md) mutation alone is insufficient to predict MEK-inhibitor sensitivity; in vivo orthotopic xenograft studies confirmed significant tumor-size reduction and decreased Ki67 with trametinib [PMID:29625057](../papers/29625057.md)
 - Clinical responses to MEK inhibitors including trametinib (used in [BRAF](../genes/BRAF.md)+MEK combinations) in [BRAF](../genes/BRAF.md) V600 glioma are conditioned by BRAF allele class and clonality; 4 of 7 BRAF V600E-treated glioma patients achieved partial/near-complete responses (ongoing at 9–41 months), while subclonal V600E and [CDKN2A](../genes/CDKN2A.md) deletion in treatment-escaping lesions predict resistance. [PMID:31263031](../papers/31263031.md)
 - A melanoma cell line harboring GON4L-NTRK1 fusion + [NRAS](../genes/NRAS.md) Q61R was insensitive to [larotrectinib](../drugs/larotrectinib.md) and LOXO-195 (with absent pan-TRK expression) but responsive to trametinib, demonstrating that co-occurring MAPK pathway activation can redirect oncogenic dependence away from TRK toward RAS-MEK signaling [PMID:31871300](../papers/31871300.md).
@@ -72,4 +72,4 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:35705558](../papers/35705558.md)
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **orchestrator** on **2026-09-11**.*

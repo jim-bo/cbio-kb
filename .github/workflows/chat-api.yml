@@ -1,0 +1,235 @@
+name: Chat API
+
+# The FastAPI chat service behind the website's /ask page,
+# docker/chat.Dockerfile (one of three deployables; see docs/hosting.md).
+# Two independent jobs:
+#
+#   image      Builds the image and pushes ghcr.io/<owner>/cbio-kb-chat
+#              (:main, :sha-<short>, and :<version> on v* tags). On pull
+#              requests it only builds. Uses GITHUB_TOKEN; no cloud account.
+#
+#   cloud-run  Optional: deploys to Google Cloud Run on main pushes and
+#              manual runs. Cloud Build builds the same Dockerfile
+#              (deploy/cloudrun/cloudbuild-chat.yaml), then `gcloud run
+#              deploy` rolls it out. The job is skipped, not failed, unless
+#              the GCP_PROJECT_ID variable is set. On jim-bo/cbio-kb it falls
+#              back to the original project so the existing deploy keeps
+#              working. If you don't use Cloud Run, delete this job and
+#              deploy/cloudrun/.
+#
+# Cloud Run configuration. Repository variables, defaults in parentheses:
+#   GCP_PROJECT_ID        GCP project (required outside jim-bo/cbio-kb)
+#   GCP_REGION            (us-central1)
+#   CLOUD_RUN_SERVICE     (cbio-kb-api)
+#   GCP_ARTIFACT_REPO     Artifact Registry repository (cbio-kb)
+#   GCP_ANTHROPIC_SECRET  Secret Manager secret holding the Anthropic API key
+#                         (anthropic-api-key)
+#   CHAT_CORS_ORIGINS     comma-separated origins allowed to call the API
+#                         (https://<owner>.github.io plus localhost:8080).
+#                         A CHAT_CORS_ORIGINS secret is still honoured.
+# Secret: GCP_SA_KEY, a service-account JSON key.
+#
+# Both jobs: optional PAPER_INDEX_URL / PAPER_INDEX_SHA256 variables bake a
+# packaged passage index into the image (the RAG and Hybrid modes need it).
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths:
+      - "ai_search/**"
+      - "src/**"
+      - "wiki/**.md"       # the agent reads the raw markdown at runtime
+      - "wiki/graph.json"  # hybrid mode's graph leg
+      - "pyproject.toml"
+      - "uv.lock"
+      - "docker/chat.Dockerfile"
+      - "docker/fetch_paper_index.py"
+      - ".dockerignore"
+      - "deploy/cloudrun/**"
+      - ".github/workflows/chat-api.yml"
+  pull_request:
+    paths:
+      - "ai_search/**"
+      - "src/**"
+      - "wiki/**.md"
+      - "wiki/graph.json"
+      - "pyproject.toml"
+      - "uv.lock"
+      - "docker/chat.Dockerfile"
+      - "docker/fetch_paper_index.py"
+      - ".dockerignore"
+      - "deploy/cloudrun/**"
+      - ".github/workflows/chat-api.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: chat-api-${{ github.ref }}
+  # Supersede stale PR builds, but never cancel a deploy mid-rollout.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  image:
+    name: Image (GHCR)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write      # push to GHCR with GITHUB_TOKEN
+      attestations: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve image name
+        id: names
+        run: |
+          # Registry paths must be lowercase; the owner name may not be.
+          echo "image=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/cbio-kb-chat" >> "$GITHUB_OUTPUT"
+          if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
+            echo "push=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "push=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Free runner disk space
+        # On amd64 torch pulls in the CUDA wheels, so the image is several GB.
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /opt/hostedtoolcache/CodeQL
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        if: steps.names.outputs.push == 'true'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Tags and labels
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ steps.names.outputs.image }}
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=sha
+
+      - name: Build and push
+        id: build
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: docker/chat.Dockerfile
+          push: ${{ steps.names.outputs.push == 'true' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            PAPER_INDEX_URL=${{ vars.PAPER_INDEX_URL }}
+            PAPER_INDEX_SHA256=${{ vars.PAPER_INDEX_SHA256 }}
+
+      # Needs a public repository (or GitHub Enterprise Cloud); non-fatal.
+      - name: Attest
+        if: steps.names.outputs.push == 'true'
+        continue-on-error: true
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-name: ${{ steps.names.outputs.image }}
+          subject-digest: ${{ steps.build.outputs.digest }}
+          push-to-registry: true
+
+  cloud-run:
+    name: Deploy to Cloud Run (optional)
+    if: >-
+      (github.event_name == 'workflow_dispatch' ||
+       (github.event_name == 'push' && github.ref == 'refs/heads/main')) &&
+      (vars.GCP_PROJECT_ID != '' || github.repository == 'jim-bo/cbio-kb')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      PROJECT_ID: ${{ vars.GCP_PROJECT_ID || 'cbioportal-python' }}
+      REGION: ${{ vars.GCP_REGION || 'us-central1' }}
+      SERVICE: ${{ vars.CLOUD_RUN_SERVICE || 'cbio-kb-api' }}
+      REPO: ${{ vars.GCP_ARTIFACT_REPO || 'cbio-kb' }}
+      ANTHROPIC_SECRET: ${{ vars.GCP_ANTHROPIC_SECRET || 'anthropic-api-key' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up gcloud
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+
+      - name: Derive image tag from commit SHA
+        id: tag
+        run: echo "IMAGE_URI=${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO}/${SERVICE}:${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+      - name: Build image via Cloud Build
+        env:
+          IMAGE_URI: ${{ steps.tag.outputs.IMAGE_URI }}
+          PAPER_INDEX_URL: ${{ vars.PAPER_INDEX_URL }}
+          PAPER_INDEX_SHA256: ${{ vars.PAPER_INDEX_SHA256 }}
+        run: |
+          set -euo pipefail
+          subs="_IMAGE_URI=${IMAGE_URI}"
+          if [[ -n "${PAPER_INDEX_URL}" ]]; then
+            subs+="|_PAPER_INDEX_URL=${PAPER_INDEX_URL}|_PAPER_INDEX_SHA256=${PAPER_INDEX_SHA256}"
+          fi
+          gcloud builds submit \
+            --project="${PROJECT_ID}" \
+            --config=deploy/cloudrun/cloudbuild-chat.yaml \
+            --substitutions="^|^${subs}"
+
+      - name: Deploy to Cloud Run
+        env:
+          IMAGE_URI: ${{ steps.tag.outputs.IMAGE_URI }}
+          CORS_VAR: ${{ vars.CHAT_CORS_ORIGINS }}
+          CORS_SECRET: ${{ secrets.CHAT_CORS_ORIGINS }}
+        run: |
+          set -euo pipefail
+          default_cors="https://${GITHUB_REPOSITORY_OWNER,,}.github.io,http://localhost:8080,http://127.0.0.1:8080"
+          CORS_ORIGINS="${CORS_VAR:-${CORS_SECRET:-${default_cors}}}"
+          gcloud run deploy "${SERVICE}" \
+            --project="${PROJECT_ID}" \
+            --region="${REGION}" \
+            --image="${IMAGE_URI}" \
+            --platform=managed \
+            --allow-unauthenticated \
+            --min-instances=0 \
+            --max-instances=3 \
+            --memory=2Gi \
+            --cpu=2 \
+            --cpu-boost \
+            --timeout=300 \
+            --concurrency=20 \
+            --port=8080 \
+            --set-env-vars="^|^SESSION_STORE=firestore|GOOGLE_CLOUD_PROJECT=${PROJECT_ID}|CHAT_CORS_ORIGINS=${CORS_ORIGINS}" \
+            --update-secrets="ANTHROPIC_API_KEY=${ANTHROPIC_SECRET}:latest"
+
+      - name: Print service URL
+        env:
+          IMAGE_URI: ${{ steps.tag.outputs.IMAGE_URI }}
+        run: |
+          URL="$(gcloud run services describe "${SERVICE}" \
+            --project="${PROJECT_ID}" \
+            --region="${REGION}" \
+            --format='value(status.url)')"
+          echo "Deployed: ${URL}"
+          echo "API:      ${URL}/api/chat"
+          {
+            echo "### Deployed"
+            echo "- Service: \`${SERVICE}\`"
+            echo "- URL: ${URL}"
+            echo "- Image: \`${IMAGE_URI}\`"
+            echo "- Website: the /ask page must post to \`${URL}/api/chat\`"
+            echo "  (repository variable \`CHAT_API_URL\`, or wiki/ask-config.js)."
+          } >> "$GITHUB_STEP_SUMMARY"

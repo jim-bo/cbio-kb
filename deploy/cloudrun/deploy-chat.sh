@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Deploy the cbio-kb chat API to Cloud Run.
+# Deploy the cbio-kb chat API to Cloud Run by hand (the same steps as the
+# cloud-run job in .github/workflows/chat-api.yml). Only useful if you host
+# the chat API on Google Cloud; docs/hosting.md covers other hosts.
 #
 # Uses Cloud Build to build the image from docker/chat.Dockerfile (so we don't
 # need a local Docker build on the caller's machine) and gcloud run deploy
@@ -16,9 +18,12 @@
 #       roles/secretmanager.secretAccessor  (to pull the secret at boot)
 #   - Firestore Native-mode database exists in the same region.
 #
-# Usage:
-#   scripts/deploy-chat.sh              # deploy to default project/region
-#   PROJECT_ID=... REGION=... scripts/deploy-chat.sh
+# Usage (run from the repository root):
+#   PROJECT_ID=my-project deploy/cloudrun/deploy-chat.sh
+#   PROJECT_ID=... REGION=... SERVICE_NAME=... CHAT_CORS_ORIGINS=... deploy/cloudrun/deploy-chat.sh
+#
+# PROJECT_ID defaults to the original maintainer's project (cbioportal-python);
+# set it to yours.
 
 set -euo pipefail
 
@@ -26,10 +31,11 @@ PROJECT_ID="${PROJECT_ID:-cbioportal-python}"
 REGION="${REGION:-us-central1}"
 SERVICE_NAME="${SERVICE_NAME:-cbio-kb-api}"
 REPO_NAME="${REPO_NAME:-cbio-kb}"
+ANTHROPIC_SECRET="${ANTHROPIC_SECRET:-anthropic-api-key}"
 IMAGE_TAG="${IMAGE_TAG:-$(git rev-parse --short HEAD 2>/dev/null || date +%s)}"
 IMAGE_URI="${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO_NAME}/${SERVICE_NAME}:${IMAGE_TAG}"
 
-# CORS origins for the chat page — override if your github.io URL differs.
+# CORS origins for the chat page: the site's origin plus local dev.
 CORS_ORIGINS="${CHAT_CORS_ORIGINS:-https://jim-bo.github.io,http://localhost:8080,http://127.0.0.1:8080}"
 
 echo "=== cbio-kb chat API deploy ==="
@@ -44,10 +50,11 @@ echo
 echo ">>> Submitting build to Cloud Build..."
 gcloud builds submit \
     --project="${PROJECT_ID}" \
-    --config=cloudbuild-chat.yaml \
+    --config=deploy/cloudrun/cloudbuild-chat.yaml \
     --substitutions="_IMAGE_URI=${IMAGE_URI}"
 
-# 2. Deploy the new revision to Cloud Run.
+# 2. Deploy the new revision to Cloud Run. Sizing matches the CI deploy; the
+#    image loads the reranker and query-embedding models, so 512Mi is too small.
 echo ">>> Deploying to Cloud Run..."
 gcloud run deploy "${SERVICE_NAME}" \
     --project="${PROJECT_ID}" \
@@ -57,15 +64,16 @@ gcloud run deploy "${SERVICE_NAME}" \
     --allow-unauthenticated \
     --min-instances=0 \
     --max-instances=3 \
-    --memory=512Mi \
-    --cpu=1 \
+    --memory=2Gi \
+    --cpu=2 \
+    --cpu-boost \
     --timeout=300 \
     --concurrency=20 \
     --port=8080 \
     --set-env-vars="^|^SESSION_STORE=firestore|GOOGLE_CLOUD_PROJECT=${PROJECT_ID}|CHAT_CORS_ORIGINS=${CORS_ORIGINS}" \
-    --update-secrets="ANTHROPIC_API_KEY=anthropic-api-key:latest"
+    --update-secrets="ANTHROPIC_API_KEY=${ANTHROPIC_SECRET}:latest"
 
-# 3. Print the service URL for copy-paste into wiki/ask-chat.js.
+# 3. Print the service URL for the website's chat config.
 SERVICE_URL="$(gcloud run services describe "${SERVICE_NAME}" \
     --project="${PROJECT_ID}" \
     --region="${REGION}" \
@@ -76,6 +84,6 @@ echo "=== Deployed ==="
 echo "Service URL: ${SERVICE_URL}"
 echo "API endpoint: ${SERVICE_URL}/api/chat"
 echo
-echo "Next step: update wiki/ask-chat.js API_URL constant to:"
-echo "  ${SERVICE_URL}/api/chat"
-echo "Then re-render Quarto and publish to gh-pages."
+echo "Next step: point the website's /ask page at it, either with the"
+echo "repository variable CHAT_API_URL=${SERVICE_URL}/api/chat (Website"
+echo "workflow) or by editing wiki/ask-config.js."

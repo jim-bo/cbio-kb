@@ -43,8 +43,6 @@ TAF1 encodes the largest subunit of the TFIID general transcription factor compl
 ## Sources
 
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:28485815](../papers/28485815.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

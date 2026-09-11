@@ -31,8 +31,6 @@ FLT1 (FMS-like tyrosine kinase 1), also known as VEGFR1, is a receptor tyrosine 
 ## Sources
 
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

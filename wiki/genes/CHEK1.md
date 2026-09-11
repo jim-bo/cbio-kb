@@ -41,20 +41,10 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 ## Sources
 
 - [PMID:40896366](../papers/40896366.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41049615](../papers/41049615.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

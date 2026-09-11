@@ -54,20 +54,10 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 
 - [PMID:41062477](../papers/41062477.md)
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30537516](../papers/30537516.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

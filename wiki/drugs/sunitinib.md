@@ -41,36 +41,16 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 ## Sources
 
 - [PMID:36593350](../papers/36593350.md) — Mandelker et al. 2023, npj Precision Oncology; germline testing in GIST; sunitinib referenced for imatinib-resistant subtypes.
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40834854](../papers/40834854.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22802077](../papers/22802077.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24487277](../papers/24487277.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30290956](../papers/30290956.md)
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80 metastatic); sunitinib among systemic therapies; study documented MEN1/DAXX/ATRX and mTOR-pathway genomic landscape.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

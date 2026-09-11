@@ -104,26 +104,12 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:41941260](../papers/41941260.md)
 
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:27169994](../papers/27169994.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35662283](../papers/35662283.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37980418](../papers/37980418.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

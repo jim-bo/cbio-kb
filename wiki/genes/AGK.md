@@ -40,8 +40,6 @@ AGK (Acylglycerol Kinase) encodes a lipid kinase involved in mitochondrial funct
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

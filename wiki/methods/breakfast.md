@@ -26,8 +26,6 @@ BREAKFAST is a gene fusion detection tool for RNA-seq data that identifies chime
 - Multi-tool consensus (support from ≥2 callers) increases confidence in reported fusions.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

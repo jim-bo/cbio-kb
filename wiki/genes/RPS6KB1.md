@@ -37,8 +37,6 @@ RPS6KB1 encodes ribosomal protein S6 kinase B1 (S6K1/p70S6K), a serine/threonine
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:30867590](../papers/30867590.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

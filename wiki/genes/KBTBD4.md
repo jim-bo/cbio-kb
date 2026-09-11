@@ -39,8 +39,6 @@ KBTBD4 (Kelch Repeat And BTB Domain Containing 4) encodes a BTB-Kelch domain pro
 ## Sources
 
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

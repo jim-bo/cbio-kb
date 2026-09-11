@@ -48,36 +48,18 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - [PMID:37406106](../papers/37406106.md)
 - [PMID:39214094](../papers/39214094.md) — Wood et al. 2024, MSK resected PDAC cohort; FOLFIRINOX context and [KRAS](../genes/KRAS.md)^G12R^ chemosensitivity.
 - [PMID:39753968](../papers/39753968.md) — Zhu et al. 2024, MSK PDAC 2024 ([pdac_msk_2024](../datasets/pdac_msk_2024.md)); FOLFIRINOX as dominant first-line backbone in 2,336-patient cohort.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80 metastatic); oxaliplatin-based regimens used as cytotoxic chemotherapy; alkylator exposure associated with hypermutation and grade progression.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31591597](../papers/31591597.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32437664](../papers/32437664.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
 - [PMID:33765338](../papers/33765338.md)
 - [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC [IHCH](../cancer_types/IHCH.md) retrospective (N=573); gemcitabine/oxaliplatin (GEMOX) used as alternative systemic chemotherapy in IHC; systemic chemotherapy alone produced median OS 11.2 months in N1 disease vs 18–20 months for locoregional approaches.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

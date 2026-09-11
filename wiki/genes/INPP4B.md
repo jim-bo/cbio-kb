@@ -41,8 +41,6 @@ INPP4B encodes inositol polyphosphate 4-phosphatase type II, a lipid phosphatase
 ## Sources
 
 - [PMID:20579941](../papers/20579941.md) — Integrative genomic profiling of prostate cancer (MSKCC cohort)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

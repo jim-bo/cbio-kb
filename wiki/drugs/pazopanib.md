@@ -42,14 +42,8 @@ Pazopanib is an FDA-approved multi-target tyrosine kinase inhibitor targeting VE
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; [RMS](../cancer_types/RMS.md) subtype sensitivity and pre-treatment history associations.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

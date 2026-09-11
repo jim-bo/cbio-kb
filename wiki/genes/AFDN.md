@@ -41,8 +41,6 @@ AFDN (Afadin, also known as MLLT4) encodes an actin filament-binding protein tha
 ## Sources
 
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29670109](../papers/29670109.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -52,14 +52,8 @@ SPEN (SHARP/MINT) is a hormone-inducible transcription repressor. In the corpus 
 - [PMID:38488813](../papers/38488813.md)
 
 - [PMID:23778141](../papers/23778141.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
 
 - [PMID:28985567](../papers/28985567.md)

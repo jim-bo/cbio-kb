@@ -34,8 +34,6 @@ Cediranib is a pan-VEGFR (VEGFR1/2/3) small-molecule inhibitor also active again
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; cediranib prior-therapy enrichment and age-stratified sensitivity patterns.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -49,11 +49,7 @@ Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragona
 ## Sources
 
 - [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). Whole-exome + MSK-IMPACT sequencing of 180 advanced GCT; TP53/MDM2 alterations exclusive to cisplatin-resistant tumors; novel [RAC1](../genes/RAC1.md) hotspot mutations.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

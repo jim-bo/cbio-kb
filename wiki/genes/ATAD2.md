@@ -41,8 +41,6 @@ ATAD2 (ATPase Family AAA Domain Containing 2) is a chromatin-remodeling protein 
 ## Sources
 
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

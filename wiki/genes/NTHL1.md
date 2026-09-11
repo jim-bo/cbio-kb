@@ -37,8 +37,6 @@ NTHL1 (Nth-like DNA glycosylase 1) encodes a base excision repair (BER) enzyme t
 ## Sources
 
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

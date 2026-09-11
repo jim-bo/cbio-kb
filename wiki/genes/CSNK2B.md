@@ -37,8 +37,6 @@ CSNK2B encodes the regulatory beta subunit of Casein Kinase 2 (CK2), a constitut
 ## Sources
 
 - [PMID:22820256](../papers/22820256.md) — Medulloblastoma WES (Broad, 92 tumors)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

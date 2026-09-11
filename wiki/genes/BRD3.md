@@ -38,11 +38,7 @@ BRD3 (Bromodomain-Containing Protein 3) is a member of the BET (Bromodomain and 
 ## Sources
 
 - [PMID:22980975](../papers/22980975.md) — Lung adenocarcinoma WES (Broad Institute, 183 tumors)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

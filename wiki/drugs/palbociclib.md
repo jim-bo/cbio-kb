@@ -57,30 +57,14 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - [PMID:28988769](../papers/28988769.md)
 - [PMID:32404308](../papers/32404308.md)
 - [PMID:33212010](../papers/33212010.md) — Krug et al. 2020, *Cell* (CPTAC [BRCA](../cancer_types/BRCA.md) proteogenomics). Rb protein/phosphosite levels refine CDK4/6 inhibitor sensitivity prediction beyond RB1 genotype; GDSC evidence ρ = −0.61 for Rb protein ~ palbociclib response in RB1-WT lines.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34544752](../papers/34544752.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
 
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40379787](../papers/40379787.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

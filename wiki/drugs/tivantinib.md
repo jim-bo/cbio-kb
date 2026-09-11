@@ -29,11 +29,7 @@ Tivantinib (ARQ 197) is an oral [MET](../genes/MET.md) inhibitor investigated in
 - [HCC](../cancer_types/HCC.md) — MET overexpression biomarker-selected phase II/III trials
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -28,11 +28,7 @@ xCell is an RNA-based cell-type deconvolution method that estimates the relative
 - Complements protein/phosphoproteomic data when RNA is the only profiling modality.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

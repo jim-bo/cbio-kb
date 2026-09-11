@@ -37,32 +37,14 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:38117484](../papers/38117484.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

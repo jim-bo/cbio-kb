@@ -31,11 +31,7 @@ Whole-genome bisulfite sequencing (WGBS) is the gold-standard method for measuri
 ## Sources
 
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26901067](../papers/26901067.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

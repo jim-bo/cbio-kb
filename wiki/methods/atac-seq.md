@@ -27,8 +27,6 @@ Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) profiles 
 - Consensus peak calling across replicates is standard; tools such as MACS2 are used for peak calling.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37119971](../papers/37119971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

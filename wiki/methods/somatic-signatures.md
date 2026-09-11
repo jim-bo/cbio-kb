@@ -29,8 +29,6 @@ Somatic Signatures refers to the analysis framework for identifying and quantify
 ## Sources
 
 - [PMID:25583493](../papers/25583493.md) — Guda et al. 2015, WES of African American MSS CRC
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

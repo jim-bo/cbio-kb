@@ -40,14 +40,8 @@ SOCS1 is a negative regulator of JAK/STAT signaling and the most commonly mutate
 ## Sources
 
 - [PMID:36723991](../papers/36723991.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:22343534](../papers/22343534.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

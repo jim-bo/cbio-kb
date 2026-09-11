@@ -37,8 +37,6 @@ NQO1 (NAD(P)H:quinone oxidoreductase 1) is a cytosolic flavoprotein that catalyz
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

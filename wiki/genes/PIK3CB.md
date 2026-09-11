@@ -43,26 +43,12 @@ PIK3CB encodes the p110β catalytic subunit of phosphoinositide 3-kinase (PI3K).
 ## Sources
 
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33263939](../papers/33263939.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

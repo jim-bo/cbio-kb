@@ -45,38 +45,18 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 ## Sources
 
 - [PMID:39289779](../papers/39289779.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 - [PMID:29617662](../papers/29617662.md) — Gao et al. 2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); crizotinib flagged for 20 ALK-fusion samples across 8 cancer types; EML4-ALK dominant partner; ALK overexpression copy-number neutral.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36044468](../papers/36044468.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -42,20 +42,10 @@ GNAQ encodes a G-protein alpha subunit (Gq) that transduces signals from G-prote
 ## Sources
 
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26683228](../papers/26683228.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

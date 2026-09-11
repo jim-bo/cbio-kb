@@ -50,24 +50,12 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
 - [PMID:33242424](../papers/33242424.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

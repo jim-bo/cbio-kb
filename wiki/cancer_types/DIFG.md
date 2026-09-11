@@ -59,28 +59,14 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - [PMID:28872634](../papers/28872634.md)
 - [PMID:24336570](../papers/24336570.md)
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30643254](../papers/30643254.md)
 
 - [PMID:30675060](../papers/30675060.md)
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31748746](../papers/31748746.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

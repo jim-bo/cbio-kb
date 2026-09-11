@@ -30,11 +30,7 @@ Vinblastine is a vinca alkaloid that inhibits tubulin polymerization, disrupting
 ## Sources
 
 - [PMID:30290956](../papers/30290956.md) — Pietzak et al.: comparative genomics of primary vs secondary MIBC treated with cisplatin-based NAC including MVAC (methotrexate/vinblastine/doxorubicin/cisplatin).
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:39499893](../papers/39499893.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

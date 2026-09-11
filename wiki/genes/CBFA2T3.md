@@ -37,8 +37,6 @@ CBFA2T3 (Core-Binding Factor Subunit Alpha-2 Translocated To 3, also known as ET
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:38212634](../papers/38212634.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

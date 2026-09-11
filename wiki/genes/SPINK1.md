@@ -39,11 +39,7 @@ SPINK1 (Serine Peptidase Inhibitor, Kazal Type 1) encodes a serine protease inhi
 ## Sources
 
 - [PMID:22722839](../papers/22722839.md) — Prostate cancer WES, 112 tumors, Michigan cohort
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

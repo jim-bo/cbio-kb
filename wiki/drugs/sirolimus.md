@@ -34,11 +34,7 @@ Macrolide mTORC1 inhibitor (rapamycin).
 
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; sirolimus resistance in progressive-disease sarcomas.
-
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
 - [PMID:29625057](../papers/29625057.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

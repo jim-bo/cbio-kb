@@ -29,14 +29,8 @@ Interferon-alpha (IFN-α) is an immunomodulatory cytokine with antiviral and ant
 - [HCC](../cancer_types/HCC.md) — adjuvant IFN-α in HBV-related resected [HCC](../cancer_types/HCC.md); mir26 as candidate predictive biomarker
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -44,14 +44,8 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 
 - [PMID:24686850](../papers/24686850.md) — Lin et al. (2014), WES/targeted sequencing of 139 ESCC cases identifying novel drivers and XPO1 as a therapeutic target.
 - [PMID:41096729](../papers/41096729.md) — Chen et al. (2024), systematic review of oral microbiome in esophageal cancer (ESCC focus).
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -31,20 +31,10 @@ Bayesian non-negative matrix factorization for de novo decomposition of mutation
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

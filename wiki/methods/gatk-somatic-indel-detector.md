@@ -36,29 +36,13 @@ GATK Somatic Indel Detector is a variant-calling tool from the Genome Analysis T
 ## Sources
 
 - [PMID:25583493](../papers/25583493.md) — Guda et al. 2015, WES of African American MSS CRC
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29422544](../papers/29422544.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

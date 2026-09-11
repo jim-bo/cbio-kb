@@ -37,8 +37,6 @@ CLDN18 (claudin-18) is a tight-junction protein expressed in the stomach. The CL
 ## Sources
 
 - [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

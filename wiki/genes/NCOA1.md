@@ -38,8 +38,6 @@ NCOA1 (nuclear receptor coactivator 1, also known as SRC-1) is a transcriptional
 ## Sources
 
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

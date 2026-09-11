@@ -41,14 +41,8 @@ B-Lymphoblastic Leukemia/Lymphoma (BLL) is an aggressive hematologic malignancy 
 ## Sources
 
 - [PMID:23334668](../papers/23334668.md) — Roberts et al., 2013, *Nature Genetics*: Genomic characterization of hypodiploid ALL.
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

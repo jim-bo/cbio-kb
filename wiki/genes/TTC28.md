@@ -33,8 +33,6 @@ TTC28 (Tetratricopeptide repeat domain 28) is located on chromosome 22 and has n
 ## Sources
 
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

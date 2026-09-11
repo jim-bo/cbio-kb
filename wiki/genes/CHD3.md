@@ -41,8 +41,6 @@ CHD3 (chromodomain helicase DNA binding protein 3) is a component of the NuRD ch
 ## Sources
 
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

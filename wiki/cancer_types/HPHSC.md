@@ -38,8 +38,6 @@ Hypopharynx squamous cell carcinoma (HPHSC) is a subtype of head and neck squamo
 ## Sources
 
 - [PMID:19176454](../papers/19176454.md) — Lefebvre et al. (2009), randomized trial of sequential vs alternating chemoradiotherapy for organ preservation in advanced [LXSC](../cancer_types/LXSC.md) and HPHSC.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

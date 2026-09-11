@@ -34,17 +34,9 @@ Afatinib is an irreversible, pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22802077](../papers/22802077.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

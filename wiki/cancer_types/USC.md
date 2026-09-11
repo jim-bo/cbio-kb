@@ -57,8 +57,6 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 
 
 - [PMID:36007103](../papers/36007103.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39031567](../papers/39031567.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

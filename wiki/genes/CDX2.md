@@ -37,8 +37,6 @@ CDX2 (Caudal Type Homeobox 2) is a hindgut-specific homeobox transcription facto
 ## Sources
 
 - [PMID:34910928](../papers/34910928.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:39478232](../papers/39478232.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

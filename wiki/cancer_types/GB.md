@@ -66,32 +66,14 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - [PMID:23817572](../papers/23817572.md)
 
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41103502](../papers/41103502.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31748746](../papers/31748746.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742122](../papers/30742122.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36044468](../papers/36044468.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

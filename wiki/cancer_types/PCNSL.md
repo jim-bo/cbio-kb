@@ -40,11 +40,7 @@ Primary central nervous system lymphoma, an aggressive extranodal non-Hodgkin ly
 ## Sources
 
 - [PMID:38995739](../papers/38995739.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

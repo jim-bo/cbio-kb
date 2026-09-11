@@ -35,14 +35,8 @@ SvABA (Structural Variation and Breakpoint Assembly) is a genome-wide structural
 - Commonly used alongside Lumpy (coverage-based), dRanger (paired-end), and split-read methods in consensus SV pipelines to improve sensitivity and specificity.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:38347189](../papers/38347189.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

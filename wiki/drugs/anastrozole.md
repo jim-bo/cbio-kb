@@ -34,11 +34,7 @@ Anastrozole is a non-steroidal aromatase inhibitor that blocks CYP19A1 (aromatas
 - ER+/HER2- breast cancer.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -50,8 +50,6 @@ Abiraterone acetate is a selective, irreversible inhibitor of CYP17A1 (17α-hydr
 - [PMID:32317181](../papers/32317181.md)
 - [PMID:35504881](../papers/35504881.md)
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

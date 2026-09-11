@@ -54,8 +54,6 @@ TCGA PanCancer Atlas 2018 dataset for cervical squamous cell carcinoma and endoc
 - [PMID:29625048](../papers/29625048.md)
 - [PMID:29625049](../papers/29625049.md)
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

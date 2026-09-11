@@ -39,14 +39,8 @@ ROBO1 encodes roundabout guidance receptor 1, a transmembrane receptor for SLIT 
 ## Sources
 
 - [PMID:23103869](../papers/23103869.md) — Pancreatic cancer WES, 142 ICGC tumors
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

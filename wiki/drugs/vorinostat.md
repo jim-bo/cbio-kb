@@ -32,8 +32,6 @@ Vorinostat (SAHA) is a pan-HDAC inhibitor with FDA approval for cutaneous T cell
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:25369299](../papers/25369299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

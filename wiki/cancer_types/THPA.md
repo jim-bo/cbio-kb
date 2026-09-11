@@ -59,14 +59,8 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [PMID:32025007](../papers/32025007.md)
 
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -43,8 +43,6 @@ SLFN11 (Schlafen Family Member 11) encodes a member of the Schlafen protein fami
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

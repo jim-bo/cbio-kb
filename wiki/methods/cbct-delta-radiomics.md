@@ -31,5 +31,3 @@ CBCT (Cone-Beam CT) delta [radiomics](../methods/radiomics.md) is an imaging-bas
 - [PMID:41941260](../papers/41941260.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
-
-*This page was processed by **crosslinker** on **2026-05-04**.*

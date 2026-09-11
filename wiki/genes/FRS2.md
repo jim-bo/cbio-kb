@@ -40,8 +40,6 @@ FRS2 (Fibroblast Growth Factor Receptor Substrate 2) is an adaptor protein that 
 ## Sources
 
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

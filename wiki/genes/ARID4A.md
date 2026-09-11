@@ -39,8 +39,6 @@ ARID4A (AT-rich interaction domain 4A) encodes a subunit of the NuRD chromatin-r
 ## Sources
 
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

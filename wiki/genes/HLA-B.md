@@ -42,23 +42,11 @@ HLA-B encodes an MHC class I heavy chain that presents peptides to CD8 T cells; 
 ## Sources
 
 - [PMID:37591896](../papers/37591896.md)
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36517593](../papers/36517593.md)
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31792460](../papers/31792460.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

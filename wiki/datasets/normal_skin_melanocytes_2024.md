@@ -57,8 +57,6 @@ Single-cell resolution clonal genomic study of normal skin cells (keratinocytes,
 
 - cBioPortal study `normal_skin_melanocytes_2024` [PMID:39091884](../papers/39091884.md).
 - Tandukar et al. single-melanocyte atlas, with data at dbGaP `phs001979.v1.p1` / `phs003683.v2.p1` (single-cell DNA/RNA) and GEO `GSE286964` (Xenium spatial) [PMID:39975212](../papers/39975212.md).
-
-*This page was processed by **crosslinker** on **2026-04-30**.*
 - [PMID:33029006](../papers/33029006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

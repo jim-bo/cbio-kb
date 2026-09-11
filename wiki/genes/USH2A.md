@@ -41,8 +41,6 @@ USH2A (Usherin) encodes a large extracellular matrix protein involved in cell ad
 
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:22495314](../papers/22495314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

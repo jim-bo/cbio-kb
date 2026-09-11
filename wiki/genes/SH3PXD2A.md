@@ -37,8 +37,6 @@ SH3PXD2A (SH3 and PX domains 2A), also known as TKS5, encodes a scaffold protein
 ## Sources
 
 - [PMID:33025139](../papers/33025139.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

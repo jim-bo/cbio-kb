@@ -47,20 +47,10 @@ CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutation
 
 - [PMID:38995739](../papers/38995739.md)
 - [PMID:38497151](../papers/38497151.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21796119](../papers/21796119.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

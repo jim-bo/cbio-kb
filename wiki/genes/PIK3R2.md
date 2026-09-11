@@ -40,11 +40,7 @@ PIK3R2 encodes the p85-beta regulatory subunit of class IA phosphatidylinositol 
 ## Sources
 
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

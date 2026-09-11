@@ -46,16 +46,10 @@ Mesenchymal GI neoplasm typically driven by [KIT](../genes/KIT.md) or [PDGFRA](.
 
 - [PMID:37477937](../papers/37477937.md)
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36593350](../papers/36593350.md)
 
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

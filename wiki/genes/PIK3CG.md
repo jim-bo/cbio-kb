@@ -33,14 +33,8 @@ PIK3CG (Phosphatidylinositol-4,5-Bisphosphate 3-Kinase Catalytic Subunit Gamma) 
 ## Sources
 
 - [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

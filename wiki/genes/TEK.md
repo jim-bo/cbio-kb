@@ -37,8 +37,6 @@ TEK (TIE2) encodes a receptor tyrosine kinase expressed predominantly on endothe
 ## Sources
 
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

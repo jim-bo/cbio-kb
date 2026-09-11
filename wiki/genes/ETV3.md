@@ -42,8 +42,6 @@ ETV3 is an ETS family transcription factor that functions as a transcriptional r
 ## Sources
 
 - [PMID:22722839](../papers/22722839.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

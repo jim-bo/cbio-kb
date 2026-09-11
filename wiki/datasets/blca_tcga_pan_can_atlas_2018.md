@@ -66,8 +66,6 @@ The TCGA Bladder Urothelial Carcinoma PanCancer Atlas 2018 cohort is the [BLCA](
 - [PMID:29625048](../papers/29625048.md)
 - [PMID:29625049](../papers/29625049.md)
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

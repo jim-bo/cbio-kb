@@ -27,11 +27,7 @@ A whole-exome sequencing design in which multiple spatially distinct regions are
 - Saturation of ITH detection requires many regions; 7/10 ccRCC tumors showed no saturation with up to 12 regions sampled [PMID:24487277](../papers/24487277.md).
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445469](../papers/28445469.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -53,8 +53,6 @@ A correlative molecular dataset from a phase Ib trial combining the pan-PI3K inh
 
 - cBioPortal study: `brca_mskcc_2019`
 - Primary publication: [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

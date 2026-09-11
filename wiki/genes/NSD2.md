@@ -40,8 +40,6 @@ NSD2 (Nuclear Receptor Binding SET Domain Protein 2; also WHSC1/MMSET) encodes a
 ## Sources
 
 - [PMID:24145436](../papers/24145436.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

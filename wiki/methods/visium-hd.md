@@ -29,6 +29,4 @@ processed_at: 2026-04-15
 
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
-
 *This page was processed by **crosslinker** on **2026-04-15**.*

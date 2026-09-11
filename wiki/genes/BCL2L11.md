@@ -42,8 +42,6 @@ BCL2L11 (BCL2-like 11, also known as BIM) encodes a pro-apoptotic BH3-only prote
 ## Sources
 
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

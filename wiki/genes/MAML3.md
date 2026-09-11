@@ -37,8 +37,6 @@ MAML3 (Mastermind Like Transcriptional Coactivator 3) is a transcriptional co-ac
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

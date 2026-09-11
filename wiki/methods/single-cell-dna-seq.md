@@ -30,11 +30,7 @@ Single-cell DNA sequencing (scDNA-seq) resolves somatic mutation co-occurrence a
 ## Sources
 
 - [PMID:36355783](../papers/36355783.md) — KRASG12C-mutant CRC resistance study; Tapestri scDNA-seq on C106 resistant cells to characterize clonal architecture of acquired resistance.
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:25470049](../papers/25470049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

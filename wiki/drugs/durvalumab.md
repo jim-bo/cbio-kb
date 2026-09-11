@@ -39,32 +39,14 @@ Durvalumab is an anti-PD-L1 monoclonal antibody immune checkpoint inhibitor with
 ## Sources
 
 - [PMID:38630790](../papers/38630790.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30643254](../papers/30643254.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

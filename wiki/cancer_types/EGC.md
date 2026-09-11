@@ -58,20 +58,10 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30643254](../papers/30643254.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

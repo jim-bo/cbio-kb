@@ -82,14 +82,8 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 - [PMID:31263031](../papers/31263031.md)
 
 - [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

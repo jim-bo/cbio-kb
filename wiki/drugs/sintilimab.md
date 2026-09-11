@@ -28,8 +28,6 @@ Sintilimab is an anti-PD-1 monoclonal antibody targeting [PDCD1](../genes/PDCD1.
 - [NPC](../cancer_types/NPC.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

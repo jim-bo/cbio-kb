@@ -39,8 +39,6 @@ PIK3C2A encodes phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
 ## Sources
 
 - [PMID:24185509](../papers/24185509.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:33263939](../papers/33263939.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

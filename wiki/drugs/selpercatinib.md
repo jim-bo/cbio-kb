@@ -35,14 +35,8 @@ Selpercatinib (LOXO-292) is a highly selective [RET](../genes/RET.md) kinase inh
 - [MTNN](../cancer_types/MTNN.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

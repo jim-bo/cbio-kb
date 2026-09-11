@@ -38,8 +38,6 @@ CRKL encodes an adaptor protein in the stress-activated MAPK cascade. In radiati
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-10**.*
 - [PMID:23622249](../papers/23622249.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*

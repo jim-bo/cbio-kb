@@ -67,11 +67,7 @@ METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) is a lar
 - [PMID:26451490](../papers/26451490.md)
 - [PMID:27161491](../papers/27161491.md)
 - [PMID:30867590](../papers/30867590.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

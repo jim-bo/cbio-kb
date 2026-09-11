@@ -37,8 +37,6 @@ HNF1A (Hepatocyte Nuclear Factor 1 Alpha) is a transcription factor critical for
 ## Sources
 
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30052636](../papers/30052636.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

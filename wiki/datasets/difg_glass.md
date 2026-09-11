@@ -49,8 +49,6 @@ Multi-institutional longitudinal glioma cohort from the GLASS International Cons
 ## Sources
 
 - cBioPortal study `difg_glass` [PMID:38117484](../papers/38117484.md).
-
-*This page was processed by **crosslinker** on **2026-04-11**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

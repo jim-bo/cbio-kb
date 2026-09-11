@@ -37,8 +37,6 @@ CD3D encodes the CD3 delta chain, a component of the CD3 complex that associates
 ## Sources
 
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:27169994](../papers/27169994.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

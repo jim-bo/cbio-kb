@@ -38,11 +38,7 @@ RPS6KA3 (RSK2) encodes ribosomal protein S6 kinase A3, a serine/threonine kinase
 ## Sources
 
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

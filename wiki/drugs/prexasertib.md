@@ -30,8 +30,6 @@ Prexasertib (LY2606368) is a potent, selective inhibitor of [CHEK1](../genes/CHE
 ## Sources
 
 - [PMID:40896366](../papers/40896366.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

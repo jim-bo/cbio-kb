@@ -37,8 +37,6 @@ NT5C2 encodes a cytosolic 5'-nucleotidase implicated in thiopurine resistance in
 ## Sources
 
 - [PMID:25730765](../papers/25730765.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

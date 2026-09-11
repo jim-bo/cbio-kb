@@ -45,26 +45,12 @@ TBX3 encodes a T-box transcription factor that regulates stem cell pluripotency 
 ## Sources
 
 - [PMID:22722201](../papers/22722201.md) — Breast cancer WES, 100 tumors, Sanger Institute
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

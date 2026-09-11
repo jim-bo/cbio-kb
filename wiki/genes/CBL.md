@@ -39,11 +39,7 @@ CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates rece
 ## Sources
 
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:24030381](../papers/24030381.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

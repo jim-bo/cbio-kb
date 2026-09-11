@@ -32,11 +32,7 @@ CRLF2 (Cytokine Receptor Like Factor 2) encodes a type I cytokine receptor that 
 ## Sources
 
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

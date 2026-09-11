@@ -42,11 +42,7 @@ Infantile fibrosarcoma is a pediatric soft-tissue sarcoma occurring predominantl
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

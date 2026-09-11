@@ -36,8 +36,6 @@ Pleomorphic xanthoastrocytoma (PXA) is a rare glial tumor most commonly arising 
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

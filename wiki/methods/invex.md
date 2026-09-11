@@ -27,8 +27,6 @@ InVEx (Integrated Variant Explorer) is a statistical framework for identifying s
 - InVEx was developed at the Broad Institute as part of the TCGA [GBM](../cancer_types/GBM.md) analysis pipeline.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -36,35 +36,15 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - Related methods include NMF-based consensus clustering and k-means consensus clustering.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41018102](../papers/41018102.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26977886](../papers/26977886.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

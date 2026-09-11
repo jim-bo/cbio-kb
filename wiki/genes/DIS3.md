@@ -40,14 +40,8 @@ DIS3 encodes a catalytic exoribonuclease subunit of the RNA exosome. It is a kno
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

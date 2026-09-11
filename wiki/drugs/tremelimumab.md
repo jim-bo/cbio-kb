@@ -33,23 +33,11 @@ Tremelimumab is a human anti-CTLA-4 monoclonal antibody targeting [CTLA4](../gen
 - [HCC](../cancer_types/HCC.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25409260](../papers/25409260.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30150660](../papers/30150660.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41118283](../papers/41118283.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -27,8 +27,6 @@ An assay platform used for high-throughput analysis of DNA methylation or SNP ge
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

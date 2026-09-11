@@ -41,8 +41,6 @@ RHOB encodes a member of the Rho family of small GTPases involved in cytoskeleta
 ## Sources
 
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

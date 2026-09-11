@@ -39,8 +39,6 @@ GPS2 (G Protein Pathway Suppressor 2) encodes a component of the N-CoR (nuclear 
 ## Sources
 
 - [PMID:22820256](../papers/22820256.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

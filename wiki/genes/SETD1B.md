@@ -37,8 +37,6 @@ SETD1B encodes a histone lysine methyltransferase. In the corpus, SETD1B mutatio
 ## Sources
 
 - [PMID:38653864](../papers/38653864.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

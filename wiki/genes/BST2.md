@@ -37,8 +37,6 @@ BST2 (Bone Marrow Stromal Cell Antigen 2, also known as CD317 or tetherin) is a 
 ## Sources
 
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

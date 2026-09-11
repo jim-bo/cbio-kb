@@ -29,17 +29,9 @@ The Affymetrix GeneChip Human Genome U133 Plus 2.0 Array is a microarray platfor
 - Superseded in most research settings by RNA-seq but remains a reference platform for historical datasets and cross-study comparisons.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

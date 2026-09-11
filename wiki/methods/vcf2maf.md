@@ -28,11 +28,7 @@ vcf2maf is a Perl/Python tool that converts VCF (Variant Call Format) files to t
 - Produces standardized MAF columns compatible with cBioPortal import and downstream tools such as MutSig2CV.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

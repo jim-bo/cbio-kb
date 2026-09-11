@@ -39,14 +39,8 @@ PMS1 (PMS1 Homolog 1, Mismatch Repair System Component) is a DNA mismatch repair
 ## Sources
 
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

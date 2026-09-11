@@ -44,14 +44,8 @@ No resistance mechanisms reported in the corpus at this time.
 
 - [PMID:41941260](../papers/41941260.md) — Gregucci et al. 2026, *Clin Cancer Res*. ROBIN white paper; FOLFOX as cytotoxic backbone in ImmunoRad MCT2 radioimmunotherapy regimen for rectal cancer.
 - [PMID:39753968](../papers/39753968.md) — Varghese et al. 2025, *Nature Medicine*. MSK PDAC clinicogenomic landscape; FOLFIRINOX as standard first-line PDAC backbone.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

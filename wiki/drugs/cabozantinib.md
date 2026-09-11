@@ -42,35 +42,15 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; osteosarcoma differential sensitivity to cabozantinib; prior-therapy enrichment of sensitivity.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40834854](../papers/40834854.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

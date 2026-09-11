@@ -36,8 +36,6 @@ Translocation-Associated Renal Cell Carcinoma (TRCC) is defined by chromosomal t
 ## Sources
 
 - [PMID:25401301](../papers/25401301.md) — Durinck et al., integrated genomic profiling of 167 non-clear cell RCCs including 6 tRCCs.
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

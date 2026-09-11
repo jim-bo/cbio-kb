@@ -37,8 +37,6 @@ EPHA2 (Ephrin Type-A Receptor 2) is a receptor tyrosine kinase of the EPH family
 ## Sources
 
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

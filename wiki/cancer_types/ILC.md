@@ -72,14 +72,8 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - [PMID:33212010](../papers/33212010.md) — Krug et al. CPTAC proteogenomic analysis of 122 primary invasive breast tumors.
 
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:38347189](../papers/38347189.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40379787](../papers/40379787.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

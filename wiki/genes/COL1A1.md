@@ -38,11 +38,7 @@ COL1A1 encodes the alpha-1 chain of type I collagen, the most abundant fibrillar
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

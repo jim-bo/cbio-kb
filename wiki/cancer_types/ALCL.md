@@ -37,11 +37,7 @@ Anaplastic Large Cell Lymphoma is a Mature T and NK Neoplasm (parent [MTNN](../c
 ## Sources
 
 - [PMID:37078708](../papers/37078708.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

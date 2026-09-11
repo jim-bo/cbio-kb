@@ -34,11 +34,7 @@ WGCNA is an unsupervised computational method for constructing gene co-expressio
 ## Sources
 
 - [PMID:30333627](../papers/30333627.md) — Tyner et al. 2018, Beat AML multi-omics drug-sensitivity profiling.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39550333](../papers/39550333.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -42,11 +42,7 @@ ASPSCR1 (ALVEOLAR SOFT PART SARCOMA CHROMOSOME REGION, CANDIDATE 1) is best know
 ## Sources
 
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

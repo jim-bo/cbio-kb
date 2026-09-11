@@ -57,14 +57,8 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - [PMID:28472509](../papers/28472509.md)
 
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

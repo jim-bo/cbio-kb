@@ -56,6 +56,4 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - [PMID:32332851](../papers/32332851.md)
 - [PMID:33397444](../papers/33397444.md) — Sfakianos et al. 2021, *Eur Urol*. UTUC multi-omics (n=40); FGFR3 mutations in 50%; erdafitinib FDA approval cited; FGFR3-mutant immune-cold subtype proposed as candidate for erdafitinib + PD-1/PD-L1 combination.
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -31,8 +31,6 @@ CopywriteR is an R package for DNA copy-number inference from off-target reads i
 - Not in cBioPortal gene-panels ontology; corpus-grown slug.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

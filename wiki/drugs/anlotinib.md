@@ -30,11 +30,7 @@ Anlotinib is an oral multi-target tyrosine kinase inhibitor (TKI) targeting VEGF
 - [NPC](../cancer_types/NPC.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41018102](../papers/41018102.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

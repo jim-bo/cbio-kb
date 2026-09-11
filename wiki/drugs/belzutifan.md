@@ -36,8 +36,6 @@ Belzutifan (PT2977/MK-6482) is a small-molecule inhibitor of hypoxia-inducible f
 ## Sources
 
 - [PMID:41102155](../papers/41102155.md) — Lima et al.; mouse scRNA-seq isoform dissection of [HIF1A](../genes/HIF1A.md) vs HIF2A in *Vhl*-null renal tubular epithelium; provides mechanistic rationale for early belzutifan use in VHL disease.
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

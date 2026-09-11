@@ -29,14 +29,8 @@ Transcriptome-based classifier assigning colorectal tumors to one of four Consen
 ## Sources
 
 - [PMID:37202560](../papers/37202560.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34910928](../papers/34910928.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

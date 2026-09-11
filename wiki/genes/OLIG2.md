@@ -37,8 +37,6 @@ OLIG2 (oligodendrocyte transcription factor 2) is a bHLH transcription factor es
 ## Sources
 
 - [PMID:27806376](../papers/27806376.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

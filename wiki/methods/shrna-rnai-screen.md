@@ -35,26 +35,12 @@ Short hairpin RNA (shRNA) RNAi screening is a pooled or arrayed loss-of-function
 ## Sources
 
 - [PMID:20601955](../papers/20601955.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:40896366](../papers/40896366.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

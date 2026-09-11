@@ -38,8 +38,6 @@ EXO1 (Exonuclease 1) is a DNA repair exonuclease involved in mismatch repair (MM
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

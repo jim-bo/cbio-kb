@@ -26,11 +26,7 @@ The VENTANA SP142 immunohistochemistry assay scores PD-L1 staining on tumor-infi
 - Not a cBioPortal gene panel or registered molecular-profile type; corpus-grown slug. Distinct from the 22C3 (pembrolizumab) and 28-8 (nivolumab) PD-L1 companion-diagnostic assays.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

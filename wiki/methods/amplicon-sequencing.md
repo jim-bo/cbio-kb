@@ -30,11 +30,7 @@ Amplicon (deep) sequencing is a targeted PCR-amplicon-based next-generation sequ
 ## Sources
 
 - [PMID:41000773](../papers/41000773.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27959731](../papers/27959731.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28445469](../papers/28445469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

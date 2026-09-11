@@ -39,14 +39,8 @@ Antifolate chemotherapy; high-dose methotrexate is the backbone of first-line th
 - [PMID:38995739](../papers/38995739.md)
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:40317189](../papers/40317189.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30290956](../papers/30290956.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39499893](../papers/39499893.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

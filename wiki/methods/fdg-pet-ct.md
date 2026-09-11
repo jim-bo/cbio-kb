@@ -31,17 +31,9 @@ Whole-body 18F-fluorodeoxyglucose (FDG) positron emission tomography combined wi
 ## Sources
 
 - [PMID:30325352](../papers/30325352.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27826200](../papers/27826200.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29420467](../papers/29420467.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30867592](../papers/30867592.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

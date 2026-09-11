@@ -42,11 +42,7 @@ Axitinib is a selective inhibitor of vascular endothelial growth factor receptor
 ## Sources
 
 - [PMID:40834854](../papers/40834854.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

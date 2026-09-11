@@ -40,17 +40,9 @@ MAP2K2 (MEK2) is a MAPK kinase paralog of [MAP2K1](../genes/MAP2K1.md). In CLL i
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30867592](../papers/30867592.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

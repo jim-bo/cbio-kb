@@ -35,11 +35,7 @@ Spatial transcriptomics technologies enable gene expression profiling while pres
 - [PMID:39386723](../papers/39386723.md)
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-04-30**.*
 - [PMID:41112515](../papers/41112515.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

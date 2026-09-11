@@ -38,11 +38,7 @@ ZBTB16 (Zinc Finger and BTB Domain Containing 16), also known as PLZF (promyeloc
 ## Sources
 
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

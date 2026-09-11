@@ -34,8 +34,6 @@ Biliary Tract (OncoTree: BILIARY_TRACT) is a level-1 OncoTree grouping encompass
 ## Sources
 
 - [PMID:31871300](../papers/31871300.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

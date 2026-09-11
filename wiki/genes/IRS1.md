@@ -43,8 +43,6 @@ IRS1 (Insulin Receptor Substrate 1) is an intracellular adaptor protein that tra
 ## Sources
 
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

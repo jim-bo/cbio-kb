@@ -37,8 +37,6 @@ STRN (striatin) encodes a calmodulin-binding protein that serves as a scaffold o
 ## Sources
 
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

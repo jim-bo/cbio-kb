@@ -37,8 +37,6 @@ PRKCI (Protein Kinase C Iota) encodes an atypical protein kinase C family member
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

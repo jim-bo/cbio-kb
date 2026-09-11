@@ -37,11 +37,7 @@ DDR2 (Discoidin Domain Receptor Tyrosine Kinase 2) is a receptor tyrosine kinase
 ## Sources
 
 - [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

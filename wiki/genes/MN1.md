@@ -44,8 +44,6 @@ MN1 (MN1 Proto-Oncogene, Transcriptional Regulator) encodes a transcriptional re
 ## Sources
 
 - [PMID:41102727](../papers/41102727.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

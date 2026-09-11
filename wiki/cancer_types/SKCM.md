@@ -124,11 +124,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - [PMID:33509808](../papers/33509808.md)
 
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37119971](../papers/37119971.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

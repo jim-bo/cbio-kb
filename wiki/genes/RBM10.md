@@ -43,38 +43,16 @@ RBM10 (RNA Binding Motif Protein 10) is an RNA-binding protein that regulates al
 ## Sources
 
 - [PMID:22980975](../papers/22980975.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32649874](../papers/32649874.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34290393](../papers/34290393.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

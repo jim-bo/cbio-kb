@@ -66,8 +66,6 @@ The blca_nmibc_2017 dataset is the largest NGS-focused cohort of non-muscle-inva
 
 - cBioPortal study `blca_nmibc_2017`.
 - Pietzak EJ, et al. *Next-Generation Sequencing of Nonmuscle Invasive Bladder Cancer Reveals Potential Biomarkers and Rational Therapeutic Targets.* JCO. 2017. [PMID:28583311](../papers/28583311.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

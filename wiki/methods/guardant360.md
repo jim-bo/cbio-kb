@@ -31,10 +31,6 @@ Guardant360 CDx is a commercially available cell-free DNA (cfDNA) liquid biopsy 
 
 - [PMID:36355783](../papers/36355783.md) — Acquired resistance to KRAS/EGFR co-inhibition in KRASG12C-mutant CRC; Guardant360 CDx used for serial ctDNA profiling.
 - [PMID:32437664](../papers/32437664.md) — Phase 2 pembrolizumab + trastuzumab + chemotherapy trial in HER2-positive metastatic esophagogastric cancer; Guardant360 used for plasma ctDNA ERBB2 amplification profiling and ctDNA dynamics.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

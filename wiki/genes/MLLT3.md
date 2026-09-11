@@ -38,8 +38,6 @@ MLLT3 (MLLT3 Super Elongation Complex Subunit), also known as AF9, is a transcri
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

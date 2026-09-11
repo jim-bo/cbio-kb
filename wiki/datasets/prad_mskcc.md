@@ -59,14 +59,8 @@ Integrative genomic profiling of 218 prostate cancers (181 primary tumors and 37
 - [PMID:20579941](../papers/20579941.md) — Taylor et al., "Integrative genomic profiling of human prostate cancer," *Cancer Cell* 2010
 - GEO: GSE21032
 - cBioPortal: https://www.cbioportal.org/study/summary?id=prad_mskcc
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:25024180](../papers/25024180.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

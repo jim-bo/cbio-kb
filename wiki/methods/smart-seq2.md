@@ -34,11 +34,7 @@ Smart-Seq2 is a plate-based, full-length single-cell (or single-nucleus) RNA seq
 - [PMID:27806376](../papers/27806376.md)
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33029006](../papers/33029006.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

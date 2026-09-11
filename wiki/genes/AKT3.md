@@ -46,32 +46,16 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 ## Sources
 
 - [PMID:22722202](../papers/22722202.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
 - [PMID:28825054](../papers/28825054.md)
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

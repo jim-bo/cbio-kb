@@ -41,17 +41,9 @@ FHIT (Fragile Histidine Triad, 3p14.2) encodes a diadenosine triphosphate hydrol
 ## Sources
 
 - [PMID:22622578](../papers/22622578.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41097736](../papers/41097736.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

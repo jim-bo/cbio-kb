@@ -37,8 +37,6 @@ HDAC2 (Histone Deacetylase 2) is a class I histone deacetylase that regulates ch
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

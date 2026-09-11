@@ -27,8 +27,6 @@ TelSeq is a computational tool for estimating telomere length from whole-genome 
 - Telomere elongation in piano tumours was not fully explained by [TERT](../genes/TERT.md) amplification (11.6%) or promoter mutations (0.9%).
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

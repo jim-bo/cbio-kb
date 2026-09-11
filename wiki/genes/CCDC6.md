@@ -43,11 +43,7 @@ CCDC6 (Coiled-Coil Domain Containing 6) encodes a ubiquitously expressed protein
 ## Sources
 
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

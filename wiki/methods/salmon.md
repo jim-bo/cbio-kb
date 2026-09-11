@@ -24,6 +24,6 @@ Salmon is a lightweight, alignment-free tool for transcript-level quantification
 - Coverage, gene list, limitations.
 
 ## Sources
+- [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **entity-page-writer** on **2026-09-10**.*
-- [PMID:36201743](../papers/36201743.md)

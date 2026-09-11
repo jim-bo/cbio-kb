@@ -35,23 +35,11 @@ ESTIMATE (Estimation of STromal and Immune cells in MAlignant Tumor tissues usin
 ## Sources
 
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30742119](../papers/30742119.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40970133](../papers/40970133.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

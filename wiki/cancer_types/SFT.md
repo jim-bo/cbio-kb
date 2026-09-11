@@ -39,8 +39,6 @@ Solitary Fibrous Tumor (formerly also called Hemangiopericytoma) is a fibroblast
 ## Sources
 
 - [PMID:35705560](../papers/35705560.md) — Nacev et al. 2022, 2,138-sarcoma MSK-IMPACT cohort.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

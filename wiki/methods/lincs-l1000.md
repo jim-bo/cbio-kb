@@ -28,8 +28,6 @@ LINCS L1000 is a high-throughput gene expression profiling platform and perturba
 - The P100 phosphoproteomic platform (96 phosphopeptides) is a related LINCS perturbation assay.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

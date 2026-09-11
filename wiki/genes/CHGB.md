@@ -38,8 +38,6 @@ CHGB (chromogranin B, also known as secretogranin I) is a neuroendocrine secreto
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:39478232](../papers/39478232.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

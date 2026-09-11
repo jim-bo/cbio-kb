@@ -54,8 +54,6 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - [PMID:32719455](../papers/32719455.md)
 - [PMID:32913971](../papers/32913971.md)
 - [PMID:37350195](../papers/37350195.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

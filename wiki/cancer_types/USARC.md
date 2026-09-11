@@ -42,14 +42,8 @@ USARC is the OncoTree code for Uterine Sarcoma/Mesenchymal tumors, a heterogeneo
 ## Sources
 
 - [PMID:29100075](../papers/29100075.md) — TCGA Sarcoma comprehensive molecular characterization (Cancer Cell 2017).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

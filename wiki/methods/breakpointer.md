@@ -30,8 +30,6 @@ BreakPointer is a computational tool for fine-mapping structural variant breakpo
 - Outputs base-pair-resolution breakpoints, enabling downstream in-frame/out-of-frame fusion classification.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -38,32 +38,14 @@ Multiplexed immunofluorescence (mIF) enables simultaneous detection of multiple 
 
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39386723](../papers/39386723.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36517593](../papers/36517593.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40834854](../papers/40834854.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30742119](../papers/30742119.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30742122](../papers/30742122.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35662283](../papers/35662283.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37980418](../papers/37980418.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39478232](../papers/39478232.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

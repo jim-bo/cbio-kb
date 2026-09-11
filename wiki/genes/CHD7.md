@@ -39,11 +39,7 @@ CHD7 (chromodomain helicase DNA-binding protein 7) is an ATP-dependent chromatin
 ## Sources
 
 - [PMID:27806376](../papers/27806376.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22722829](../papers/22722829.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

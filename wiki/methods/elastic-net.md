@@ -32,14 +32,8 @@ Elastic net is a penalized regression method that combines L1 (LASSO) and L2 (Ri
 ## Sources
 
 - [PMID:36333289](../papers/36333289.md) — UC-GENOME metastatic urothelial carcinoma study; elastic net model predicting ICI response from multivariate clinical and immunogenomic features.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30742122](../papers/30742122.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

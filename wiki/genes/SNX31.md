@@ -41,8 +41,6 @@ SNX31 (Sorting Nexin 31) encodes a member of the sorting nexin family characteri
 ## Sources
 
 - [PMID:22817889](../papers/22817889.md) — Melanoma WES, Broad Institute, 121 tumors
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -32,11 +32,7 @@ Encorafenib is a selective [BRAF](../genes/BRAF.md) V600E/K inhibitor approved i
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

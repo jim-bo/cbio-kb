@@ -43,20 +43,10 @@ ZMYM3 (Zinc Finger MYM-Type Containing 3) is an X-linked chromatin regulator inv
 ## Sources
 
 - [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

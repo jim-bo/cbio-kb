@@ -37,8 +37,6 @@ CLPTM1L (Cleft Lip and Palate Transmembrane Protein 1-Like) is a transmembrane p
 ## Sources
 
 - [PMID:26466568](../papers/26466568.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -37,8 +37,6 @@ IKBKB (inhibitor of nuclear factor kappa B kinase subunit beta, also known as IK
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

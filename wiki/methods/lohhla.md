@@ -29,14 +29,8 @@ LOHHLA (Loss Of Heterozygosity in Human Leukocyte Antigen) is a computational to
 - Piano tumours with low TMB and rare HLA LOH are predicted to be poor responders to immune checkpoint inhibitors.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:35649412](../papers/35649412.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

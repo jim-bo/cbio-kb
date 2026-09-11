@@ -37,11 +37,7 @@ IGF2BP3 (Insulin Like Growth Factor 2 mRNA Binding Protein 3) is an RNA-binding 
 ## Sources
 
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

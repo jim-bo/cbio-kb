@@ -47,25 +47,13 @@ ARID5B (AT-rich interaction domain 5B) is a member of the ARID family of chromat
 ## Sources
 
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23778141](../papers/23778141.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
 
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

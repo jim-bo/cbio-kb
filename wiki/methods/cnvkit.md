@@ -32,18 +32,10 @@ CNVkit is an open-source toolkit for copy-number variant (CNV) detection from ta
 ## Sources
 
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30742119](../papers/30742119.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
 - [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

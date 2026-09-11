@@ -37,8 +37,6 @@ SMARCC1 (SWI/SNF Related Matrix Associated Actin Dependent Regulator of Chromati
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

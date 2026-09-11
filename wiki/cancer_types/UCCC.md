@@ -49,11 +49,7 @@ UCCC (Uterine Clear Cell Carcinoma) is a rare, high-grade endometrial carcinoma 
 ## Sources
 
 - [PMID:28485815](../papers/28485815.md) — Le Gallo et al., whole-exome sequencing of 63 uterine clear cell carcinomas (uccc_nih_2017).
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:39031567](../papers/39031567.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

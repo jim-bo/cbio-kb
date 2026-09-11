@@ -28,11 +28,7 @@ Co-immunoprecipitation (Co-IP) is a biochemical technique used to identify prote
 - Widely used to map signaling complexes and validate protein-receptor pairings.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:34544752](../papers/34544752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

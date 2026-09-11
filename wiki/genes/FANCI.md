@@ -42,11 +42,7 @@ FANCI (Fanconi Anemia Complementation Group I) forms a heterodimer with [FANCD2]
 ## Sources
 
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -28,11 +28,7 @@ Tretinoin (all-trans retinoic acid, ATRA) is a retinoic acid receptor (RAR) agon
 - [AML](../cancer_types/AML.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

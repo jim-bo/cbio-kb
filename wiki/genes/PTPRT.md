@@ -39,8 +39,6 @@ PTPRT (protein tyrosine phosphatase receptor type T) encodes a receptor-type pho
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
 
 - [PMID:34290393](../papers/34290393.md)

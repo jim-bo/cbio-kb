@@ -37,8 +37,6 @@ DCLK1 (Doublecortin-like kinase 1) encodes a serine/threonine kinase with roles 
 ## Sources
 
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

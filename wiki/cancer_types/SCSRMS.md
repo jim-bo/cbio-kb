@@ -42,8 +42,6 @@ Spindle cell/sclerosing rhabdomyosarcoma is a rare subtype of rhabdomyosarcoma (
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

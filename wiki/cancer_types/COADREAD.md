@@ -99,16 +99,8 @@ this stub exists so child pages can resolve their `parent:` link.
 - [PMID:35871175](../papers/35871175.md)
 
 - [PMID:36611031](../papers/36611031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39478232](../papers/39478232.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -30,20 +30,10 @@ deFuse is a computational tool for fusion gene discovery from RNA-seq data. It u
 - Typically used in tandem with TopHat-Fusion for complementary fusion-calling sensitivity.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24974848](../papers/24974848.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26804919](../papers/26804919.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

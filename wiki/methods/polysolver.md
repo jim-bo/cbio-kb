@@ -38,29 +38,13 @@ POLYSOLVER (POLYmorphic loci SOLVER) is a computational tool for HLA class I typ
 
 - Shukla SA et al. (2015) Comprehensive analysis of cancer-associated somatic mutations in class I HLA genes. *Nature Biotechnology* 33:1152–1158.
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29657128](../papers/29657128.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742119](../papers/30742119.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

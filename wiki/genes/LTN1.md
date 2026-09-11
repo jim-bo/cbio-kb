@@ -45,8 +45,6 @@ LTN1 (Listerin E3 Ubiquitin Protein Ligase 1) is an E3 ubiquitin ligase involved
 ## Sources
 
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

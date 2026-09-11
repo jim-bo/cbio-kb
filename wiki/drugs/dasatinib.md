@@ -33,11 +33,7 @@ Dasatinib is a second-generation BCR-ABL1/Src-family tyrosine kinase inhibitor t
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; dasatinib ex vivo resistance associated with progressive disease at clinical follow-up.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. 2017, PIPseq; dasatinib added to third-line induction in NUP214-ABL1 BCR-ABL1-like B-cell ALL, producing deep remission enabling curative BMT.
 - [PMID:29617662](../papers/29617662.md) — Gao et al. 2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); dasatinib proposed for DDR2-overexpressed tumors with TRABD–DDR2 promoter-swap fusion in HNSC.
 

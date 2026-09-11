@@ -77,8 +77,6 @@ Comprehensive multi-platform genomic characterization of 333 cutaneous melanomas
 - cBioPortal study: `skcm_tcga_pub_2015`
 - GDAC Firehose: `stddata__2013_11_14`
 - TCGA [SKCM](../cancer_types/SKCM.md) Data Portal
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

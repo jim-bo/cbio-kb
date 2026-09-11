@@ -53,49 +53,23 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma screen; [RMS](../cancer_types/RMS.md) MEK-inhibitor sensitivity (p=0.013).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24265153](../papers/24265153.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
 
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
 
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

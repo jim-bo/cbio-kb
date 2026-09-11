@@ -43,17 +43,9 @@ KLF5 (Kruppel Like Factor 5) is a zinc-finger transcription factor involved in c
 ## Sources
 
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30537516](../papers/30537516.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

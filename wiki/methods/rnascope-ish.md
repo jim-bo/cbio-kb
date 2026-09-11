@@ -28,8 +28,6 @@ RNAscope is a commercially developed branched-DNA in situ hybridization assay (A
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:41102155](../papers/41102155.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*

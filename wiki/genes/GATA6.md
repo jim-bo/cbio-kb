@@ -30,11 +30,7 @@ GATA6 is a zinc-finger transcription factor of the GATA family involved in gastr
 ## Sources
 
 - [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

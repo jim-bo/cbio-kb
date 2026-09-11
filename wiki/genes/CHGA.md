@@ -42,22 +42,10 @@ CHGA (chromogranin A) is a neuroendocrine secretory protein widely used as a mar
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39478232](../papers/39478232.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -42,14 +42,8 @@ Metaplastic Breast Cancer (MBC) is a rare and aggressive subtype of invasive bre
 ## Sources
 
 - [PMID:41000773](../papers/41000773.md) — Bu et al., *Rat somatic genome editing enables ER+ breast cancer modeling*, bioRxiv 2025.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29713003](../papers/29713003.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
 - [PMID:33863915](../papers/33863915.md) — da Silva et al., TERT alterations in 60 primary metaplastic breast cancers (MSKCC), mbc_msk_2021.
 

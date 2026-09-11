@@ -37,8 +37,6 @@ KDM1A (also known as LSD1) is a lysine-specific histone demethylase that removes
 ## Sources
 
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

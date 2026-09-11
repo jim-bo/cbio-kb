@@ -43,11 +43,7 @@ NCOA4 (Nuclear Receptor Coactivator 4) is a nuclear receptor coactivator that fa
 ## Sources
 
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -35,8 +35,6 @@ Sotorasib (AMG 510) is a covalent, irreversible small-molecule inhibitor targeti
 
 - [PMID:36355783](../papers/36355783.md)
 - [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

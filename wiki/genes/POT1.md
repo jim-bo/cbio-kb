@@ -37,8 +37,6 @@ POT1 (protection of telomeres protein 1) encodes a single-stranded telomeric DNA
 ## Sources
 
 - [PMID:23415222](../papers/23415222.md) — CLL WES, 160 tumors, Broad Institute
-
-*This page was processed by **entity-page-writer** on **2026-05-07**.*
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

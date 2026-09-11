@@ -46,35 +46,15 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334668](../papers/23334668.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23622249](../papers/23622249.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26551667](../papers/26551667.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33025139](../papers/33025139.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33242424](../papers/33242424.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -42,8 +42,6 @@ RXRA encodes retinoid X receptor alpha, a nuclear receptor that forms obligate h
 ## Sources
 
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

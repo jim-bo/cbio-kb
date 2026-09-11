@@ -28,8 +28,6 @@ A Panel of Normals (PoN) filter removes recurrent technical artifacts and germli
 - The Broad PoN v2 was specifically used in TCGA MC3; other versions may differ substantially in content.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

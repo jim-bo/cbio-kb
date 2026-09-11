@@ -34,11 +34,7 @@ Cytarabine (cytosine arabinoside, ara-C) is a pyrimidine nucleoside analog that 
 - [PMID:27276561](../papers/27276561.md)
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU 10-day [decitabine](../drugs/decitabine.md) AML/MDS trial (N=116); cytarabine + anthracycline induction as comparator; TP53-mutant AML has CR rate 20–30% and median OS 4–6 months on cytarabine-based induction.
 - [PMID:40857049](../papers/40857049.md) — Briese et al. 2018. Germline LP/PVs in 25 HBOC genes across 372 pediatric cancer patients; dose-reduced cytarabine used in personalized regimen for LFS patient ([TP53](../genes/TP53.md) LP/PV) with BCP-ALL → AML.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -33,8 +33,6 @@ PRKCB (Protein Kinase C Beta) encodes a serine/threonine kinase involved in sign
 ## Sources
 
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -50,8 +50,6 @@ Decitabine (5-aza-2'-deoxycytidine) is a cytosine nucleoside analog that is inco
 
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU single-arm prospective trial of 10-day decitabine in AML/MDS (N=116); TP53 mutation as positive predictor of response; incomplete mutation clearance; SCT as dominant survival predictor.
 - [PMID:32059776](../papers/32059776.md) — Dou et al. 2020, *Cell*. CPTAC proteogenomic characterization of 95 EC tumors; DNMT1 hyperphosphorylation in DDR-high tumors; decitabine proposed as therapeutic candidate.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

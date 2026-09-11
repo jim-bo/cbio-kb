@@ -32,17 +32,9 @@ SigProfiler is a suite of computational tools for mutational signature analysis.
 ## Sources
 
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:38347189](../papers/38347189.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

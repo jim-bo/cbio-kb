@@ -36,17 +36,9 @@ NetMHCpan is a pan-allele MHC class I binding affinity prediction algorithm that
 - Nielsen M, Andreatta M (2016) NetMHCpan-3.0; improved induction of MHC binding motifs. *Nucleic Acids Research* 44:W551–W556.
 - [PMID:26997480](../papers/26997480.md)
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29657128](../papers/29657128.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

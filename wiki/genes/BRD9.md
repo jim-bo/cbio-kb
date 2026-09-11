@@ -42,8 +42,6 @@ BRD9 encodes a bromodomain-containing subunit of the non-canonical BAF (ncBAF) c
 ## Sources
 
 - [PMID:40694421](../papers/40694421.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

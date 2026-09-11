@@ -27,8 +27,6 @@ Tepotinib is a selective [MET](../genes/MET.md) tyrosine kinase inhibitor approv
 - [NSCLC](../cancer_types/NSCLC.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

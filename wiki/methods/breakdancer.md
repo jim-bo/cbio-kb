@@ -27,8 +27,6 @@ BreakDancer is a computational tool for detecting genome-wide structural variati
 - Often run in ensemble with other callers (BamBam, DELLY, CREST) to increase specificity.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

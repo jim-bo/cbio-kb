@@ -39,8 +39,6 @@ STAT5B (Signal Transducer and Activator of Transcription 5B) is a transcription 
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

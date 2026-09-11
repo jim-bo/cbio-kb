@@ -39,8 +39,6 @@ Erdheim-Chester Disease is a Histiocytosis (parent HDCN).
 
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:30867592](../papers/30867592.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

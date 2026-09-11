@@ -41,20 +41,10 @@ Trastuzumab emtansine (T-DM1; ado-trastuzumab emtansine; brand name Kadcyla) is 
 ## Sources
 
 - [PMID:27698471](../papers/27698471.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39031567](../papers/39031567.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

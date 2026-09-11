@@ -111,14 +111,8 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 
 
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35662283](../papers/35662283.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40511613](../papers/40511613.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

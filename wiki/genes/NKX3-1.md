@@ -43,20 +43,10 @@ NKX3-1 is a homeobox transcription factor. In the corpus it appears as a gene wh
 
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

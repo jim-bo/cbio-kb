@@ -29,14 +29,8 @@ Ifosfamide is an alkylating agent that cross-links DNA after activation by hepat
 - [GCT](../cancer_types/GCT.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41102727](../papers/41102727.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32897884](../papers/32897884.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

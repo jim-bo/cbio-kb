@@ -31,17 +31,9 @@ PD-L1 IHC 22C3 pharmDx (Agilent/Dako) is an FDA-approved companion diagnostic [i
 ## Sources
 
 - [PMID:38780927](../papers/38780927.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36038778](../papers/36038778.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:35121644](../papers/35121644.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

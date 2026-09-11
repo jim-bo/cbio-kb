@@ -41,12 +41,8 @@ ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator disrupted in U-CLL 
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24476821](../papers/24476821.md)
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

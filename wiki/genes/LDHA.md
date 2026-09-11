@@ -37,8 +37,6 @@ LDHA (Lactate Dehydrogenase A) encodes the A subunit of the lactate dehydrogenas
 ## Sources
 
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31564440](../papers/31564440.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

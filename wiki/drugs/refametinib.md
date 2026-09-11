@@ -27,8 +27,6 @@ Refametinib is an oral, selective MEK1/2 inhibitor ([MAP2K1](../genes/MAP2K1.md)
 - [HCC](../cancer_types/HCC.md) — RAS-pathway activation rationale; ongoing trial NCT01915602
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:30061739](../papers/30061739.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

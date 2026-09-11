@@ -40,11 +40,7 @@ CDK5 (Cyclin-Dependent Kinase 5) is an atypical CDK that does not require cyclin
 ## Sources
 
 - [PMID:33242424](../papers/33242424.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

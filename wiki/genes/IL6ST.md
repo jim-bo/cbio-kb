@@ -37,8 +37,6 @@ IL6ST encodes gp130 (glycoprotein 130), the shared signal transducer subunit of 
 ## Sources
 
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

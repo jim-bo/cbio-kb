@@ -58,8 +58,6 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 - [PMID:32317181](../papers/32317181.md)
 
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

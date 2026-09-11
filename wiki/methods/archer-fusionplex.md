@@ -35,20 +35,10 @@ Targeted RNA-based anchored multiplex PCR sequencing assay used to detect gene f
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **crosslinker** on **2026-04-30**.*
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30867592](../papers/30867592.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35078859](../papers/35078859.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36044468](../papers/36044468.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38335254](../papers/38335254.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -30,20 +30,10 @@ TopHat-Fusion is an extension of the TopHat RNA-seq aligner that detects gene fu
 - Predecessor approach to STAR-Fusion and Arriba; used in TCGA-era fusion detection pipelines.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

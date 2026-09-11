@@ -45,11 +45,7 @@ CDH2 (cadherin 2, also known as N-cadherin) encodes a calcium-dependent cell adh
 ## Sources
 
 - [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

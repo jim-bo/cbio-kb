@@ -30,11 +30,7 @@ Sequenza is an R/Bioconductor tool for allele-specific copy-number analysis and 
 ## Sources
 
 - [PMID:29422544](../papers/29422544.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

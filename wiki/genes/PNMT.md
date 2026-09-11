@@ -41,8 +41,6 @@ PNMT (Phenylethanolamine N-Methyltransferase) encodes the enzyme that converts n
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -36,11 +36,7 @@ Nutlin-3a is a small-molecule cis-imidazoline compound that blocks the [MDM2](..
 ## Sources
 
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. 2010, Nature Genetics; MDM2 + [YEATS4](../genes/YEATS4.md) co-amplification on 12q in DDLS; nutlin-3a proposed as MDM2-antagonist therapeutic rationale.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

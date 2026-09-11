@@ -37,8 +37,6 @@ TFE3 (Transcription Factor Binding to IGHM Enhancer 3) encodes a basic helix-loo
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

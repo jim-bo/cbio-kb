@@ -42,8 +42,6 @@ PTPN6 (Protein Tyrosine Phosphatase Non-Receptor Type 6, also known as SHP-1) is
 
 - [PMID:28985567](../papers/28985567.md)
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

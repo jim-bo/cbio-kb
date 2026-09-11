@@ -31,8 +31,6 @@ SYP (Synaptophysin) encodes an integral membrane glycoprotein of small presynapt
 ## Sources
 
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

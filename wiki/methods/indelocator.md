@@ -39,29 +39,13 @@ Indelocator is a somatic indel (insertion/deletion) caller developed at the Broa
 - Outputs feed into significance callers (e.g., MutSig) and manual validation workflows.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24265153](../papers/24265153.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25096233](../papers/25096233.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

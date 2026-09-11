@@ -27,8 +27,6 @@ Donafenib (sorafenib-d4) is a deuterated analog of sorafenib with multi-kinase i
 - [HCC](../cancer_types/HCC.md)
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -40,29 +40,15 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 ## Sources
 
 - [PMID:41000773](../papers/41000773.md) — Bu et al. (bioRxiv 2025). Rat somatic genome editing models of ER+ breast cancer; fulvestrant sensitivity/resistance dichotomy driven by [NF1](../genes/NF1.md) and [TP53](../genes/TP53.md) status.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; ESR1 mutations (14% of HR+/HER2- mBC) exclusively in prior-endocrine-therapy patients, mediating acquired endocrine resistance.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

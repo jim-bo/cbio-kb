@@ -35,23 +35,11 @@ Non-negative matrix factorization (NMF) clustering is an unsupervised machine-le
 ## Sources
 
 - [PMID:40970133](../papers/40970133.md) — Sherlock-Lung NS-LUAD transcriptomic subtyping
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

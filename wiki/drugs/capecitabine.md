@@ -47,11 +47,7 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - [PMID:29122777](../papers/29122777.md)
 - [PMID:29848569](../papers/29848569.md)
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80 metastatic); capecitabine-based regimens among cytotoxic chemotherapy options; alkylator exposure linked to hypermutation and grade progression.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
 
 - [PMID:33765338](../papers/33765338.md)

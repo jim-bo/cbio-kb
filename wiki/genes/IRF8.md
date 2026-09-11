@@ -38,8 +38,6 @@ IRF8 (Interferon Regulatory Factor 8) is a transcription factor critical for B-c
 ## Sources
 
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

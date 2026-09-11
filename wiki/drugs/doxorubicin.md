@@ -47,38 +47,18 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 
 - [PMID:37078708](../papers/37078708.md)
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; MAP regimen correlation with necrosis; NCCN-listed sarcoma standard-of-care.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22802077](../papers/22802077.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41102727](../papers/41102727.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30290956](../papers/30290956.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41103502](../papers/41103502.md)
 - [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); liposomal doxorubicin + mTOR inhibitor + [bevacizumab](../drugs/bevacizumab.md) combination cited as having higher response rates in PI3K-pathway-altered triple-negative [MBC](../cancer_types/MBC.md).
 
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39499893](../papers/39499893.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

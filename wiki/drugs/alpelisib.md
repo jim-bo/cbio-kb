@@ -43,21 +43,11 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; PIK3CA-dependent and PIK3CA-independent alpelisib sensitivity; inter-lesion heterogeneity as resistance mechanism.
 
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort; acquired [PTEN](../genes/PTEN.md) Q298* at [everolimus](../drugs/everolimus.md) + alpelisib progression.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31552290](../papers/31552290.md)
 - [PMID:34059130](../papers/34059130.md) — Tsui et al. 2021, MSKCC tumor-fraction-guided cfDNA study (N=118); [PIK3CA](../genes/PIK3CA.md) OncoKB level 1 alterations in breast cancer plasma supporting alpelisib eligibility.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

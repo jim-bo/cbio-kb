@@ -45,8 +45,6 @@ Schwannoma (SCHW) is a benign peripheral nerve sheath tumor of Schwann-cell orig
 ## Sources
 
 - [PMID:33025139](../papers/33025139.md) — Mansouri et al., multi-platform molecular profiling of 165 schwannomatosis-associated schwannomas.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

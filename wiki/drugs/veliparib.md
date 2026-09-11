@@ -39,14 +39,10 @@ Veliparib is an oral PARP1/2 inhibitor investigated in clinical trials for BRCA-
 ## Sources
 
 - [PMID:39753968](../papers/39753968.md) — Zhu et al. 2024, MSK PDAC cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md)); PARPi class outcomes in BRCA2-mutant and PALB2-mutant PDAC.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:41071892](../papers/41071892.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; veliparib named as PARPi class member; high TRMT10A expression tracks with PARPi resistance across the class.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.
 - [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

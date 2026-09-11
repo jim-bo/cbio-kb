@@ -42,8 +42,6 @@ OTX2 (Orthodenticle Homeobox 2) is a homeodomain transcription factor with roles
 ## Sources
 
 - [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort.
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

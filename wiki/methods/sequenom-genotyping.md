@@ -35,32 +35,14 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 ## Sources
 
 - [PMID:20601955](../papers/20601955.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22817889](../papers/22817889.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23897969](../papers/23897969.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

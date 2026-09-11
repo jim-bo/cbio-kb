@@ -32,11 +32,7 @@ ASCAT (Allele-Specific Copy number Analysis of Tumors) is a computational method
 
 - Van Loo P et al. (2010) Allele-specific copy number analysis of tumors. *Proceedings of the National Academy of Sciences* 107:16910–16915.
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28445469](../papers/28445469.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

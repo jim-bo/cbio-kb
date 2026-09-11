@@ -66,8 +66,6 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - [PMID:34795269](../papers/34795269.md)
 
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

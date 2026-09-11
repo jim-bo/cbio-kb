@@ -43,8 +43,6 @@ TOP1 (DNA Topoisomerase I) encodes the enzyme that relaxes supercoiled DNA by tr
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

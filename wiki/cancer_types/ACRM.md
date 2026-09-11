@@ -53,8 +53,6 @@ Acral melanoma (acral lentiginous melanoma, ALM) is a rare melanoma subtype aris
 ## Sources
 
 - [PMID:28373299](../papers/28373299.md) — Liang et al. 2017; integrated WES/LIWGS/RNA-seq of 38 ALM tumors; first comprehensive genomic landscape of ACRM.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

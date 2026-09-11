@@ -48,26 +48,12 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 ## Sources
 
 - [PMID:21798893](../papers/21798893.md) — The Mutational Landscape of Head and Neck Squamous Cell Carcinoma (Stransky et al., Science 2011)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

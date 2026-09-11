@@ -27,11 +27,7 @@ Meerkat is a computational tool for detecting somatic structural rearrangements 
 - Used alongside kataegis identification in ChRCC; rearrangement breakpoints co-localized with APOBEC-pattern mutation clusters in a subset of cases.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

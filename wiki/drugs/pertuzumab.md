@@ -38,14 +38,8 @@ Pertuzumab is a recombinant humanized monoclonal antibody that binds to the HER2
 ## Sources
 
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -45,28 +45,16 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md) — Guercio et al., Clinical Cancer Research 2023.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29625057](../papers/29625057.md)
 
 - [PMID:31278255](../papers/31278255.md) — Robinson, Vlachostergios et al. UTUC WES+RNA-seq (Nature Communications 2019).
 
 - [PMID:32332851](../papers/32332851.md)
 - [PMID:33397444](../papers/33397444.md) — Su et al. integrative genomic/methylation profiling of 40 UTUC cases.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:27939400](../papers/27939400.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

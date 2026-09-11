@@ -27,8 +27,6 @@ The HR/NHEJ GFP reporter assay system uses stably integrated fluorescent reporte
 - Used alongside immunofluorescence foci assays (γ-H2AX, [BRCA1](../genes/BRCA1.md), [RAD51](../genes/RAD51.md)) for orthogonal validation.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34635660](../papers/34635660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

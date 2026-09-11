@@ -73,8 +73,6 @@ The pog570_bcgsc_2020 dataset represents the BC Cancer Personalized OncoGenomics
 ## Sources
 
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

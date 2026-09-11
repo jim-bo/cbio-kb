@@ -37,8 +37,6 @@ PLXNA1 encodes plexin-A1, a receptor for class-3 semaphorins (including [SEMA3A]
 ## Sources
 
 - [PMID:23103869](../papers/23103869.md) — Pancreatic cancer WES, 142 ICGC tumors
-
-*This page was processed by **entity-page-writer** on **2026-05-07**.*
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

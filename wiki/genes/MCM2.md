@@ -41,20 +41,10 @@ MCM2 is a component of the MCM2-7 DNA helicase complex required for eukaryotic D
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **crosslinker** on **2026-04-11**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:41125935](../papers/41125935.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

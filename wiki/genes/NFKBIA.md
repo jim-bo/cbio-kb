@@ -39,14 +39,8 @@ NFKBIA (IkBα) encodes the primary inhibitor of the NF-kB transcription factor f
 ## Sources
 
 - [PMID:22343534](../papers/22343534.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

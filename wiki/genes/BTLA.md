@@ -37,8 +37,6 @@ _No conflicts in current corpus._
 ## Sources
 
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

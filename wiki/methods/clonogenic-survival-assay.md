@@ -26,8 +26,6 @@ The clonogenic survival assay (colony-formation assay) measures the reproductive
 - Colony count readout allows quantification of drug IC50 and survival fraction across dose ranges.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

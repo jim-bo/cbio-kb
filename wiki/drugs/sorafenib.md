@@ -66,14 +66,8 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - [PMID:35508466](../papers/35508466.md)
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:38212634](../papers/38212634.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

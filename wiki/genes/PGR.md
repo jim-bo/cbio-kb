@@ -39,14 +39,8 @@ PGR encodes the progesterone receptor, a nuclear hormone receptor that mediates 
 ## Sources
 
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41000773](../papers/41000773.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

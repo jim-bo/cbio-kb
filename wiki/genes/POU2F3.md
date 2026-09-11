@@ -39,8 +39,6 @@ POU2F3 (POU Class 2 Homeobox 3) is a transcription factor that defines a distinc
 ## Sources
 
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -45,8 +45,6 @@ MRE11 (MRE11 Homolog, Double Strand Break Repair Nuclease) encodes a component o
 
 - [PMID:28336552](../papers/28336552.md)
 - [PMID:29610475](../papers/29610475.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:34667026](../papers/34667026.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -33,8 +33,6 @@ SLIT2 (Slit Guidance Ligand 2) encodes a secreted extracellular matrix glycoprot
 ## Sources
 
 - [PMID:22941188](../papers/22941188.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:23103869](../papers/23103869.md)
 
 *This page was processed by **wiki-cli** on **2026-05-07**.*

@@ -44,5 +44,3 @@ Small bowel cancer encompasses malignancies of the small intestine including ade
 - [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*

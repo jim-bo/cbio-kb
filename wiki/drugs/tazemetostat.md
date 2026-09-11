@@ -39,8 +39,6 @@ Tazemetostat is an oral [EZH2](../genes/EZH2.md) inhibitor (histone methyltransf
 
 - [PMID:35705558](../papers/35705558.md)
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

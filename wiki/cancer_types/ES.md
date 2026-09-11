@@ -54,43 +54,21 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 ---
 
 *Page last touched by entity-page-writer on 2026-05-01.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). EWSR1-FLI1 fusion reclassified an odontogenic 'ameloblastic carcinoma' as Ewing sarcoma with epithelial differentiation.
 
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:41102727](../papers/41102727.md) — Halava et al. 2025; [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma initially classified as extraskeletal ES; EWSR1-non-ETS reclassification by RNA-seq.
 
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41103502](../papers/41103502.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:38335254](../papers/38335254.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

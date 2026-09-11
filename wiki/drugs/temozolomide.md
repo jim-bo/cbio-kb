@@ -83,14 +83,8 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:40328872](../papers/40328872.md)
 
 - [PMID:35649412](../papers/35649412.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:40097403](../papers/40097403.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

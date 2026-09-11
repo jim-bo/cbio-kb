@@ -41,8 +41,6 @@ IGF1 (insulin-like growth factor 1) encodes a growth factor that signals through
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -38,8 +38,6 @@ Mature B-Cell Neoplasms is a broad OncoTree category encompassing post-germinal-
 ## Sources
 
 - [PMID:32025007](../papers/32025007.md) — PCAWG Consortium, Nature 578 (2020). Pan-cancer WGS analysis including mature B-cell lymphomas.
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

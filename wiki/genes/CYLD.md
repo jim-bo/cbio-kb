@@ -33,14 +33,8 @@ CYLD (CYLD Lysine 63 Deubiquitinase) is a tumor suppressor gene encoding a deubi
 ## Sources
 
 - [PMID:23778141](../papers/23778141.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:24974848](../papers/24974848.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

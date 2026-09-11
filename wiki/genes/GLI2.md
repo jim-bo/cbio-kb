@@ -39,11 +39,7 @@ GLI2 is a transcription factor and effector of Hedgehog (Hh) signaling. In PDAC,
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

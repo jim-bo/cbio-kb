@@ -44,22 +44,10 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](.
 ## Sources
 
 - [PMID:41941260](../papers/41941260.md) — Gregucci et al. 2026, *Clin Cancer Res*. ROBIN white paper; GenRad analysis of Javelin HN100 CRT ± avelumab expansion cohort; intratumoral bacteria identified as resistance mechanism.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:40834854](../papers/40834854.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:30643254](../papers/30643254.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34819508](../papers/34819508.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

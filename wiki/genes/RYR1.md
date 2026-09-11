@@ -33,8 +33,6 @@ RYR1 (Ryanodine Receptor 1) encodes a calcium release channel found in the sarco
 ## Sources
 
 - [PMID:25765070](../papers/25765070.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

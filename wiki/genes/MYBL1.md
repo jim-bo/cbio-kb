@@ -40,14 +40,8 @@ MYBL1 ([MYB](../genes/MYB.md) proto-oncogene like 1, also known as A-MYB) is a t
 ## Sources
 
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

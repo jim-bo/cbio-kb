@@ -37,8 +37,6 @@ DNMT1 encodes DNA methyltransferase 1, the principal maintenance methyltransfera
 ## Sources
 
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

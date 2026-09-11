@@ -39,14 +39,8 @@ PRDM1 (PR Domain Zinc Finger Protein 1), also known as BLIMP1, is a transcriptio
 ## Sources
 
 - [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

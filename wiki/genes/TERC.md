@@ -42,11 +42,7 @@ TERC encodes the RNA component of telomerase, the enzyme that maintains telomere
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25079552](../papers/25079552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

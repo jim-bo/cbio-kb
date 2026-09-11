@@ -38,11 +38,7 @@ WWTR1 (also known as TAZ) encodes a transcriptional coactivator that, together w
 ## Sources
 
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

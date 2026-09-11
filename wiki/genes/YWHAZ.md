@@ -38,11 +38,7 @@ YWHAZ encodes 14-3-3 zeta/delta, a member of the 14-3-3 family of regulatory pro
 ## Sources
 
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -31,8 +31,6 @@ CCN2 (cellular communication network factor 2, formerly CTGF) is a matricellular
 ## Sources
 
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

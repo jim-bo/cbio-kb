@@ -38,8 +38,6 @@ ACSL4 (acyl-CoA synthetase long-chain family member 4) encodes a long-chain fatt
 ## Sources
 
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

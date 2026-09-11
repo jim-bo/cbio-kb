@@ -29,14 +29,8 @@ Restriction-enzyme-based bisulfite sequencing approach that enriches CpG-dense r
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

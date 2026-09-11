@@ -28,11 +28,7 @@ VIPER infers the activity of transcription factors and other signaling proteins 
 - Commonly combined with clustering or enrichment analyses to identify co-activated transcriptional programs.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

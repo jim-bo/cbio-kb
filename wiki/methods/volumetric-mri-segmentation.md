@@ -31,8 +31,6 @@ Manual 3D volumetric segmentation of tumor on MRI (typically T2/FLAIR abnormalit
 
 - [PMID:37910594](../papers/37910594.md)
 - [PMID:28872634](../papers/28872634.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:30742122](../papers/30742122.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -39,8 +39,6 @@ NECTIN4 (nectin cell adhesion molecule 4, formerly PVRL4) encodes a cell-adhesio
 ## Sources
 
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

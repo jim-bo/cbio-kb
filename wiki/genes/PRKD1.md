@@ -33,11 +33,7 @@ PRKD1 (protein kinase D1) encodes a serine/threonine kinase involved in signal t
 ## Sources
 
 - [PMID:26095796](../papers/26095796.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28783718](../papers/28783718.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

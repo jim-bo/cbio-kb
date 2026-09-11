@@ -38,24 +38,12 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 ## Sources
 
 - Used for COSMIC signature decomposition (aging signatures 1/5, HRD signature 3, APOBEC signatures 2/13) in [DCIS](../cancer_types/DCIS.md) and IDC-NST samples with ≥40 SNVs [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)
 
 - [PMID:33863915](../papers/33863915.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

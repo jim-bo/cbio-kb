@@ -28,8 +28,6 @@ A quantitative per-sample metric that counts the number of chromosome arms showi
 - Tetraploid samples (18 cases) are assigned score 0 as a conservative choice.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:34667026](../papers/34667026.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -44,29 +44,13 @@ STAT3 is a JAK/STAT pathway transcription factor recurrently altered in peripher
 ## Sources
 
 - [PMID:37078708](../papers/37078708.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41018102](../papers/41018102.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26977886](../papers/26977886.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742119](../papers/30742119.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

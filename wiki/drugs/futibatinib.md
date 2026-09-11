@@ -32,8 +32,6 @@ Futibatinib is a covalent, irreversible pan-FGFR inhibitor targeting [FGFR1](../
 ## Sources
 
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

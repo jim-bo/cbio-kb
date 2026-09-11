@@ -31,11 +31,7 @@ MSK-HemePACT is a Memorial Sloan Kettering targeted hybrid-capture DNA sequencin
 
 - [PMID:38995739](../papers/38995739.md)
 - [PMID:38497151](../papers/38497151.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:30867592](../papers/30867592.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

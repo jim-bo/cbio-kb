@@ -37,8 +37,6 @@ KRT14 (Keratin 14) is an intermediate filament protein expressed in the basal la
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

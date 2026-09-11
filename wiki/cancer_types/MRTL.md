@@ -40,8 +40,6 @@ Malignant rhabdoid tumor of the liver (MRTL) is a rare pediatric malignancy, the
 ## Sources
 
 - [PMID:26977886](../papers/26977886.md) — Chun et al., integrative multi-omic reference of 40 extra-cranial MRTs; 2 of 67 cases were liver-site (MRTL)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

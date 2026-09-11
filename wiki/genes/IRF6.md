@@ -41,8 +41,6 @@ IRF6 (Interferon Regulatory Factor 6) is a transcription factor involved in squa
 ## Sources
 
 - [PMID:21798893](../papers/21798893.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

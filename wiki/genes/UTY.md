@@ -42,8 +42,6 @@ UTY (Ubiquitously Transcribed Tetratricopeptide Repeat Containing, Y-Linked) is 
 ## Sources
 
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

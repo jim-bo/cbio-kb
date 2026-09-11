@@ -43,11 +43,7 @@ Panobinostat is a pan-deacetylase (HDAC) inhibitor approved for relapsed/refract
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; [bortezomib](../drugs/bortezomib.md) + panobinostat matched-therapy case series.
 - [PMID:22460905](../papers/22460905.md)
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU 10-day decitabine AML/MDS trial; panobinostat combined with 5-day decitabine in 3 extension-cohort patients.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

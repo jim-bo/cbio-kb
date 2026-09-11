@@ -48,8 +48,6 @@ Extrahepatic cholangiocarcinoma arising from the extrahepatic biliary tree.
 
 
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

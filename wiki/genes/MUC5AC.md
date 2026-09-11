@@ -37,8 +37,6 @@ MUC5AC is a secreted gel-forming mucin glycoprotein. In pancreatic cancer, it is
 ## Sources
 
 - [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -38,14 +38,8 @@ Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell 
 ## Sources
 
 - [PMID:25401301](../papers/25401301.md) — Durinck et al., integrated genomic profiling of 167 non-clear cell RCCs including 67 pRCCs.
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

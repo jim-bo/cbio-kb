@@ -41,11 +41,7 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:39386723](../papers/39386723.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:27169994](../papers/27169994.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:30742122](../papers/30742122.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

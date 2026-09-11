@@ -44,11 +44,7 @@ Targeted (129 genes) sequencing of cfDNA via MSK-ACCESS on Illumina HiSeq sequen
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
 - `schema/ontology/gene_panels.json` (`genePanelId: ACCESS129`)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:36007103](../papers/36007103.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:40511613](../papers/40511613.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

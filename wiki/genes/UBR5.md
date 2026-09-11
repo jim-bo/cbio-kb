@@ -38,11 +38,7 @@ UBR5 (Ubiquitin Protein Ligase E3 Component N-Recognin 5), also known as EDD1, e
 ## Sources
 
 - [PMID:22495314](../papers/22495314.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

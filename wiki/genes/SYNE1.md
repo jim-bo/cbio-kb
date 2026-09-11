@@ -45,14 +45,8 @@ SYNE1 (Spectrin Repeat Containing Nuclear Envelope Protein 1) encodes a giant sc
 ## Sources
 
 - [PMID:21798893](../papers/21798893.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:22495314](../papers/22495314.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

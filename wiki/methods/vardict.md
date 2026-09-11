@@ -37,20 +37,10 @@ VarDict is an open-source somatic variant caller designed for targeted sequencin
 ## Sources
 
 - [PMID:32633890](../papers/32633890.md) — Plasma cfDNA somatic [RB1](../genes/RB1.md) variant detection in pediatric retinoblastoma; VarDict used for tumor-blind de novo calling.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36815791](../papers/36815791.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38335254](../papers/38335254.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

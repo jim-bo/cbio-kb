@@ -51,8 +51,6 @@ Regorafenib is an oral multi-kinase inhibitor with FDA approvals in metastatic c
 - [PMID:30373752](../papers/30373752.md)
 - [PMID:35508466](../papers/35508466.md)
 - [PMID:39305899](../papers/39305899.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

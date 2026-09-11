@@ -41,8 +41,6 @@ ALDH1L2 (Aldehyde Dehydrogenase 1 Family Member L2) encodes a mitochondrial alde
 ## Sources
 
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

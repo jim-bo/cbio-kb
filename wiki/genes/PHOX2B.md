@@ -41,8 +41,6 @@ PHOX2B (Paired-Like Homeobox 2B) is a homeodomain transcription factor critical 
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

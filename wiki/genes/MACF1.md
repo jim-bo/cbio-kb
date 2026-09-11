@@ -37,8 +37,6 @@ MACF1 (Microtubule Actin Crosslinking Factor 1) is a spectraplakin that links th
 ## Sources
 
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

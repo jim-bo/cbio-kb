@@ -28,11 +28,7 @@ Karyotyping is a cytogenetic technique that visualizes the chromosomal complemen
 - Complementary to molecular methods (WGS, qPCR, FISH) for confirming engineered chromosomal rearrangements.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:32897884](../papers/32897884.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:24030381](../papers/24030381.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -72,8 +72,6 @@ The TCGA [GBM](../cancer_types/GBM.md) PanCancer Atlas 2018 cohort is the gliobl
 - [PMID:29625049](../papers/29625049.md)
 - [PMID:29625050](../papers/29625050.md)
 - [PMID:29625055](../papers/29625055.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

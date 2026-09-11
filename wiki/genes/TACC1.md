@@ -42,8 +42,6 @@ TACC1 (Transforming Acidic Coiled-Coil Containing Protein 1) encodes a centrosom
 ## Sources
 
 - [PMID:22817889](../papers/22817889.md) — Melanoma WES, Broad Institute, 121 tumors
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

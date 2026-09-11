@@ -39,14 +39,8 @@ TGFB1 (Transforming Growth Factor Beta 1) is a pleiotropic cytokine with dual ro
 ## Sources
 
 - [PMID:41018102](../papers/41018102.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27826200](../papers/27826200.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713003](../papers/29713003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -29,8 +29,6 @@ LymphGen is a probabilistic classification algorithm that assigns diffuse large 
 ## Sources
 
 - [PMID:38497151](../papers/38497151.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

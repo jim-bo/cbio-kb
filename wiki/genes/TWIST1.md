@@ -39,8 +39,6 @@ TWIST1 is a basic helix-loop-helix transcription factor with established roles i
 ## Sources
 
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

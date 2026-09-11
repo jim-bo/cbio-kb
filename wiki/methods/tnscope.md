@@ -27,8 +27,6 @@ TNscope is a somatic variant caller developed by Sentieon that detects SNVs, ind
 - Sentieon TNscope is commercially available and is commonly used in clinical WGS pipelines due to its speed and sensitivity.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

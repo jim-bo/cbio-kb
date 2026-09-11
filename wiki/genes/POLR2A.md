@@ -39,8 +39,6 @@ POLR2A encodes the largest subunit of RNA polymerase II, the enzyme responsible 
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

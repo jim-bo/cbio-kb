@@ -37,11 +37,7 @@ Apalutamide (ARN-509) is a second-generation nonsteroidal androgen receptor ([AR
 ## Sources
 
 - [PMID:28825054](../papers/28825054.md) — Abida et al. 2017, MSK-IMPACT pan-prostate cancer genomic profiling (504 tumors, 451 patients); describes AR F877L resistance to apalutamide.
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:31061129](../papers/31061129.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220891](../papers/32220891.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

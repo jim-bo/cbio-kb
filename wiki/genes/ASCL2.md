@@ -37,8 +37,6 @@ ASCL2 (Achaete-Scute Family BHLH Transcription Factor 2) is a WNT target gene an
 ## Sources
 
 - [PMID:34910928](../papers/34910928.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:39478232](../papers/39478232.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

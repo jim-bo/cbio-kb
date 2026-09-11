@@ -72,5 +72,3 @@ The TCGA multiplatform genomic characterization of 496 papillary thyroid carcino
 - Citation: TCGA, Cell 2014 [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*

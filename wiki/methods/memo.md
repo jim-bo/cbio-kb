@@ -28,11 +28,7 @@ MEMo (Mutual Exclusivity Modules in Cancer) is a computational method for identi
 - Identification of mutual exclusivity supports pathway-level models of oncogenesis and helps delineate functional redundancy between genomic lesions.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

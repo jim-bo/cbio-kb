@@ -47,8 +47,6 @@ Azacitidine (5-azacytidine, Vidaza) is a pyrimidine nucleoside analog hypomethyl
 - [PMID:28196596](../papers/28196596.md)
 - [PMID:28336552](../papers/28336552.md)
 - [PMID:32059776](../papers/32059776.md) — Dou et al. 2020, *Cell*. CPTAC proteogenomic characterization of 95 EC tumors; DNMT1 hyperphosphorylation in DDR-high tumors; azacitidine proposed as therapeutic candidate.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

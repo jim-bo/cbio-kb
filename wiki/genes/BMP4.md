@@ -42,8 +42,6 @@ BMP4 (Bone Morphogenetic Protein 4) is a secreted ligand of the TGF-beta superfa
 ## Sources
 
 - [PMID:26977886](../papers/26977886.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -39,14 +39,8 @@ HNF4A (Hepatocyte Nuclear Factor 4 Alpha) is a nuclear receptor transcription fa
 ## Sources
 
 - [PMID:41102155](../papers/41102155.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41018102](../papers/41018102.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

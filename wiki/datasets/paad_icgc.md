@@ -48,8 +48,6 @@ The ICGC Pancreatic Adenocarcinoma dataset (cBioPortal study ID: `paad_icgc`) is
 
 - cBioPortal study page: https://www.cbioportal.org/study/summary?id=paad_icgc
 - ICGC Data Portal: https://dcc.icgc.org/projects/PACA-AU and https://dcc.icgc.org/projects/PACA-CA
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:23103869](../papers/23103869.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

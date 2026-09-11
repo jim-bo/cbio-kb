@@ -45,8 +45,6 @@ PARD3 (Partitioning defective 3 homolog) is a cell polarity scaffold protein and
 ## Sources
 
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

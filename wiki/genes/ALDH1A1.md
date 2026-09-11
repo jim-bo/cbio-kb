@@ -31,8 +31,6 @@ ALDH1A1 (aldehyde dehydrogenase 1 family member A1) is a widely used marker of c
 ## Sources
 
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41008893](../papers/41008893.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

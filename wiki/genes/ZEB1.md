@@ -41,17 +41,9 @@ ZEB1 (Zinc finger E-box binding homeobox 1) is a transcriptional repressor that 
 ## Sources
 
 - [PMID:22802077](../papers/22802077.md) — NCI-60 CellMiner pharmacogenomics study
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

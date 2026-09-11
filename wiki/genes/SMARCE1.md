@@ -37,8 +37,6 @@ SMARCE1 is a subunit of the SWI/SNF chromatin remodeling complex that contains a
 ## Sources
 
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

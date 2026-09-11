@@ -38,11 +38,7 @@ TET1 is a dioxygenase that oxidizes 5-methylcytosine to drive DNA demethylation.
 ## Sources
 
 - [PMID:38412093](../papers/38412093.md)
-
-*This page was processed by **crosslinker** on **2026-04-11**.*
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

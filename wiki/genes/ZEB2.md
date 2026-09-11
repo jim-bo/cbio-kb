@@ -39,11 +39,7 @@ ZEB2 (Zinc Finger E-Box Binding Homeobox 2, also known as SIP1/ZFHX1B) encodes a
 ## Sources
 
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

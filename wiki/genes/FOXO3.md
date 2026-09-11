@@ -40,14 +40,8 @@ FOXO3 is a FOXO-family transcription factor located at 6q21 that functions as a 
 ## Sources
 
 - [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

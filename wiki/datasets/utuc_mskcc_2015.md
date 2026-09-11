@@ -55,8 +55,6 @@ Eighty-three upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) 
 ## Sources
 
 - cBioPortal study: `utuc_mskcc_2015`
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

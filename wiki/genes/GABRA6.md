@@ -40,8 +40,6 @@ GABRA6 encodes the alpha-6 subunit of the GABA type A receptor, a ligand-gated c
 ## Sources
 
 - [PMID:21720365](../papers/21720365.md) — TCGA integrated genomic analysis of ovarian carcinoma (HGSOC)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

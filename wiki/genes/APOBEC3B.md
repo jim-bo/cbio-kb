@@ -48,11 +48,7 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 ## Sources
 
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24686850](../papers/24686850.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25155756](../papers/25155756.md)
 
 - [PMID:27749842](../papers/27749842.md)
@@ -60,21 +56,11 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - [PMID:28027327](../papers/28027327.md)
 - [PMID:41062477](../papers/41062477.md)
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30537516](../papers/30537516.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 - [PMID:33212010](../papers/33212010.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

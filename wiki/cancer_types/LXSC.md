@@ -38,8 +38,6 @@ Larynx squamous cell carcinoma (LXSC) is a subtype of head and neck squamous cel
 ## Sources
 
 - [PMID:19176454](../papers/19176454.md) — Lefebvre et al. (2009), randomized trial of sequential vs alternating chemoradiotherapy for organ preservation in advanced LXSC and [HPHSC](../cancer_types/HPHSC.md).
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

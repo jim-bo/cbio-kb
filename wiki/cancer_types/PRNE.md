@@ -51,6 +51,4 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 
 - [PMID:31061129](../papers/31061129.md) — Abida et al. SU2C mCRPC cohort N=429 (PNAS 2019).
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
 *This page was processed by **wiki-cli** on **2026-05-16**.*

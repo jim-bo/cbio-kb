@@ -34,8 +34,6 @@ Large Cell Neuroendocrine Carcinoma (LUNE) is a high-grade, poorly differentiate
 ## Sources
 
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

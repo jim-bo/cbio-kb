@@ -28,8 +28,6 @@ TumorMap is a web-based 2D visualization tool for exploring relationships betwee
 - Distinct from t-SNE or UMAP in that it uses an explicit hexagonal grid for stable, reproducible layout.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

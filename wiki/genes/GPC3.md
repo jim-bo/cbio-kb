@@ -38,8 +38,6 @@ GPC3 (Glypican-3) is a cell-surface heparan sulfate proteoglycan that is overexp
 ## Sources
 
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

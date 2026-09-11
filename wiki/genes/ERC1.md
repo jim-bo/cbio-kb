@@ -37,8 +37,6 @@ ERC1 (ELKS/RAB6-interacting/CAST family member 1) encodes a scaffold protein inv
 ## Sources
 
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

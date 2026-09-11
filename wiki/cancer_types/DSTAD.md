@@ -34,8 +34,6 @@ Diffuse-type stomach adenocarcinoma (DSTAD) is a histologically distinct subtype
 ## Sources
 
 - [PMID:41002403](../papers/41002403.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

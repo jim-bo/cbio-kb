@@ -33,11 +33,7 @@ TruSight Oncology 500 (TSO500) is an Illumina hybrid-capture targeted sequencing
 - Unverified corpus-grown slug; TSO500 is not a cBioPortal gene panel identifier.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

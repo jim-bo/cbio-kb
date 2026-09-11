@@ -37,8 +37,6 @@ SPTA1 encodes alpha-spectrin 1, a cytoskeletal protein critical for red blood ce
 ## Sources
 
 - [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

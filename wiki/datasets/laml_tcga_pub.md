@@ -63,11 +63,7 @@ The Cancer Genome Atlas comprehensive genomic and epigenomic characterization of
 
 - DOI: 10.1056/NEJMoa1301689
 - Washington University tissue-banking protocol (Nov 2001–Mar 2010)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32897884](../papers/32897884.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -36,11 +36,7 @@ RAD51D is a member of the [RAD51](../genes/RAD51.md) paralog family involved in 
 - [PMID:36228155](../papers/36228155.md)
 - [PMID:34493867](../papers/34493867.md)
 - [PMID:34635660](../papers/34635660.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

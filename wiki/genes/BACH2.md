@@ -41,11 +41,7 @@ BACH2 (BTB and CNC Homology 2, Basic Leucine Zipper Transcription Factor 2) enco
 ## Sources
 
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -43,11 +43,7 @@ QKI (Quaking) encodes an RNA-binding protein in the STAR (Signal Transduction Ac
 
 - [PMID:23817572](../papers/23817572.md)
 - [PMID:23792563](../papers/23792563.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

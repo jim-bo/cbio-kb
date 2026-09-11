@@ -38,11 +38,7 @@ IGFBP2 (Insulin-like Growth Factor Binding Protein 2) is a secreted modulator of
 ## Sources
 
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29625048](../papers/29625048.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

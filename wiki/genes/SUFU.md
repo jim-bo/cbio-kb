@@ -37,8 +37,6 @@ SUFU (Suppressor of Fused Homolog) encodes a negative regulator of the Hedgehog 
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -37,8 +37,6 @@ Mocetinostat (MGCD0103) is an orally available selective class I/IV histone deac
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; mocetinostat + vinorelbine as PDTO-matched treatment with R²=0.921 correlation with time-to-next-treatment.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

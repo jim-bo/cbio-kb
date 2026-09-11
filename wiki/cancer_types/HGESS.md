@@ -35,8 +35,6 @@ High-grade endometrial stromal sarcoma (HGESS) is an aggressive uterine mesenchy
 ## Sources
 
 - [PMID:32299819](../papers/32299819.md) — Hensley et al., prospective MSK-IMPACT sequencing of 107 uterine sarcomas; HGESS characterized as part of the high-grade non-LMS subgroup.
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

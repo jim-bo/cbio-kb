@@ -44,17 +44,9 @@ GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G
 - [PMID:22817889](../papers/22817889.md)
 
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26683228](../papers/26683228.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

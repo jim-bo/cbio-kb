@@ -37,8 +37,6 @@ TRIM24 (TIF1A) is a transcriptional co-regulator with bromodomain and PHD finger
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

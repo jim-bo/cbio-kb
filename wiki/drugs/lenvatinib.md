@@ -40,23 +40,11 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:39305899](../papers/39305899.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40834854](../papers/40834854.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

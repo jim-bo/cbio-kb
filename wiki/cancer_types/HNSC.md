@@ -124,8 +124,6 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:32025007](../papers/32025007.md)
 
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

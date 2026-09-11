@@ -43,23 +43,11 @@ DAXX encodes a multifunctional protein involved in transcriptional regulation, a
 ## Sources
 
 - [PMID:38758238](../papers/38758238.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21252315](../papers/21252315.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

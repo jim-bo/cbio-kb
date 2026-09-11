@@ -51,8 +51,6 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

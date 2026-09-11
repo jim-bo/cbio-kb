@@ -48,8 +48,6 @@ JQ1 is a potent, selective BET (bromodomain and extra-terminal) bromodomain inhi
 - [PMID:41049615](../papers/41049615.md)
 - [PMID:25855536](../papers/25855536.md)
 - [PMID:26829750](../papers/26829750.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -42,23 +42,11 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625055](../papers/29625055.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29850653](../papers/29850653.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

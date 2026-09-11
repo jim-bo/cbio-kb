@@ -53,29 +53,13 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 12 RT-MPNSTs.
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas ([NF1](../genes/NF1.md) in MPNST cited as prior established biology).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25240281](../papers/25240281.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32561749](../papers/32561749.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33025139](../papers/33025139.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -39,8 +39,6 @@ CTDNEP1 (CTD Nuclear Envelope Phosphatase 1) encodes a serine/threonine phosphat
 
 - [PMID:22820256](../papers/22820256.md) — Medulloblastoma WES (Broad, 92 tumors)
 - [PMID:22832583](../papers/22832583.md) — Medulloblastoma WGS/WES (ICGC, 76 tumors)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

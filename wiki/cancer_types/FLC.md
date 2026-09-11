@@ -34,8 +34,6 @@ FLC (Fibrolamellar Carcinoma) is a rare primary liver cancer arising predominant
 ## Sources
 
 - [PMID:28481359](../papers/28481359.md) — Zehir et al., MSK-IMPACT prospective pan-cancer sequencing ([msk_impact_2017](../datasets/msk_impact_2017.md)); DNAJB1-PRKACA identified as pathognomonic FLC rearrangement.
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

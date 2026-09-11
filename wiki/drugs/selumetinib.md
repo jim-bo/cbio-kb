@@ -37,26 +37,12 @@ Selumetinib is a selective MEK1/2 inhibitor with FDA approval for neurofibromato
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22802077](../papers/22802077.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23999436](../papers/23999436.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24265153](../papers/24265153.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33025139](../papers/33025139.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

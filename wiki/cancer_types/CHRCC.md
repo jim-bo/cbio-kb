@@ -49,16 +49,10 @@ Chromophobe renal cell carcinoma is a distinct subtype of renal cell carcinoma a
 ## Sources
 
 - [PMID:25155756](../papers/25155756.md) — TCGA comprehensive molecular characterization of chromophobe renal cell carcinoma (Cancer Cell 2015).
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:27713405](../papers/27713405.md)
 
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

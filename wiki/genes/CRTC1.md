@@ -37,8 +37,6 @@ CRTC1 (CREB-regulated transcriptional coactivator 1) is a coactivator of the CRE
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
 - [PMID:25401301](../papers/25401301.md)
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*

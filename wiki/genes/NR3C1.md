@@ -37,8 +37,6 @@ NR3C1 (Nuclear Receptor Subfamily 3 Group C Member 1), also known as the glucoco
 ## Sources
 
 - [PMID:22495314](../papers/22495314.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

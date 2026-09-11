@@ -52,8 +52,6 @@ The MSK-SPECTRUM project (canonical cBioPortal studyId `msk_spectrum_tme_2022`) 
 
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=msk_spectrum_tme_2022
 - [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*.
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*

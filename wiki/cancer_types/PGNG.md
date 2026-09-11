@@ -40,8 +40,6 @@ Paraganglioma (PGL) is a neuroendocrine tumor arising from extra-adrenal paragan
 ## Sources
 
 - [PMID:28162975](../papers/28162975.md) — TCGA PCPG Analysis Working Group, multi-platform profiling of 173 PCC/PGL tumors.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

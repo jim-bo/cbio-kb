@@ -39,8 +39,6 @@ ITM2A (Integral Membrane Protein 2A) is expressed in neural-crest-derived and st
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-04-30**.*
 - [PMID:41136396](../papers/41136396.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

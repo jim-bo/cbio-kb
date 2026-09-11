@@ -59,17 +59,9 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - [PMID:28988769](../papers/28988769.md)
 - [PMID:32220886](../papers/32220886.md)
 - [PMID:34635660](../papers/34635660.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

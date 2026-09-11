@@ -54,11 +54,7 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 - [PMID:32220886](../papers/32220886.md)
 - [PMID:33106634](../papers/33106634.md)
 - [PMID:39506116](../papers/39506116.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

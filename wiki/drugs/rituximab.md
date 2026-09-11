@@ -36,20 +36,10 @@ Rituximab is a chimeric anti-CD20 (MS4A1) monoclonal antibody that depletes CD20
 
 - [PMID:22343534](../papers/22343534.md) — DLBCL WES identifying genomic landscape in the R-CHOP treatment context.
 - [PMID:26466571](../papers/26466571.md) — Landau et al. (Nature 2015). CLL8 trial genomics; FCR arm prognostic landscape in 538 CLL patients.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

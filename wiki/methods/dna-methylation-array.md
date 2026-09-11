@@ -27,11 +27,7 @@ DNA methylation arrays measure genome-wide CpG methylation levels using hybridiz
 - CIMP methylation cluster was associated with higher [NRAS](../genes/NRAS.md) hot-spot frequency and lower [BRAF](../genes/BRAF.md) hot-spot frequency in melanoma.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

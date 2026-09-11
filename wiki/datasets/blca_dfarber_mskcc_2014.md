@@ -47,8 +47,6 @@ processed_at: 2026-05-16
 - DFCI/MSKCC cohort used for ZFP36-family mutation frequency cross-validation in bladder cancer; ZFP36-family mutations reach ~9–10% across blca_dfarber_mskcc_2014 and two other bladder cohorts [PMID:33397444](../papers/33397444.md)
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

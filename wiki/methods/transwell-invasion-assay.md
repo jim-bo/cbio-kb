@@ -27,8 +27,6 @@ The transwell invasion assay (Boyden chamber assay) measures the ability of canc
 - Often paired with tumorsphere assays to jointly assess EMT and stemness.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:41125935](../papers/41125935.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

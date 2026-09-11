@@ -42,23 +42,11 @@ TNFAIP3 (A20) is a negative regulator of NF-κB signaling and a recurrent driver
 ## Sources
 
 - [PMID:36723991](../papers/36723991.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21796119](../papers/21796119.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

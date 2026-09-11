@@ -30,8 +30,6 @@ AAV-CRISPR somatic editing is a platform for in vivo somatic genome engineering 
 ## Sources
 
 - [PMID:41000773](../papers/41000773.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26901067](../papers/26901067.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

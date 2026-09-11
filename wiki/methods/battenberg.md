@@ -28,11 +28,7 @@ Battenberg is an allele-specific copy-number analysis tool designed for whole-ge
 - Outputs are commonly used to infer whole-genome doubling and loss of heterozygosity events.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

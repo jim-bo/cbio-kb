@@ -38,11 +38,7 @@ NKD1 (Naked Cuticle Homolog 1) encodes a WNT signaling antagonist that inhibits 
 ## Sources
 
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

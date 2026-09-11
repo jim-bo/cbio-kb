@@ -30,10 +30,6 @@ Serial ctDNA monitoring tracks changes in circulating tumor DNA variant allele f
 
 - [PMID:37406106](../papers/37406106.md)
 - [PMID:41941260](../papers/41941260.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:28445469](../papers/28445469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

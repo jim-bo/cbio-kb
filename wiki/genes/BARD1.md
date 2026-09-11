@@ -38,11 +38,7 @@ BARD1 (BRCA1-associated RING domain protein 1) is a tumor suppressor that forms 
 ## Sources
 
 - [PMID:23334666](../papers/23334666.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

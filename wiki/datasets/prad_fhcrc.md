@@ -73,11 +73,7 @@ Rapid-autopsy multi-region genomic study of 63 men with metastatic castration-re
 - cBioPortal study: `prad_fhcrc`
 - Molecular profiling data: GEO accession GSE74685
 - [PMID:26928463](../papers/26928463.md) — Kumar A et al., "Substantial interindividual and limited intraindividual genomic diversity among tumors from men with metastatic prostate cancer." *Nat Genet* 2016.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

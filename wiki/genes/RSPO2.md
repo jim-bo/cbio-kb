@@ -36,11 +36,7 @@ RSPO2 (R-Spondin 2) is a secreted Wnt pathway activator. Recurrent EIF3E-RSPO2 g
 ## Sources
 
 - [PMID:22895193](../papers/22895193.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

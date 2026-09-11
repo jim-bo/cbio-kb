@@ -56,8 +56,6 @@ The TCGA KIRC dataset comprises 491 clear cell renal cell carcinoma (ccRCC) samp
 - [PMID:40834854](../papers/40834854.md)
 - [PMID:23792563](../papers/23792563.md)
 - [PMID:41102155](../papers/41102155.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:41102155](../papers/41102155.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

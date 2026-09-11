@@ -39,17 +39,9 @@ Three-dimensional (3D) cell culture models are an umbrella category of in vitro 
 - **Immune co-culture.** T cell + tumor spheroid co-cultures in droplets demonstrate cooperative cytotoxic T-lymphocyte accumulation at the spheroid surface, enabling immune-tumor interaction studies not possible in monolayers.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31591597](../papers/31591597.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:38347189](../papers/38347189.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

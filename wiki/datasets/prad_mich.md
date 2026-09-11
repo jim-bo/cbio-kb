@@ -61,8 +61,6 @@ A cohort assembled by the University of Michigan comprising 50 lethal metastatic
 
 - [PMID:22722839](../papers/22722839.md)
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort.
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -30,20 +30,32 @@ COPY --from=ghcr.io/astral-sh/uv:0.5.14 /uv /usr/local/bin/uv
 WORKDIR /app
 
 # Install deps first for better layer caching. pyproject.toml + uv.lock
-# don't change often; application code changes far more.
+# don't change often; application code changes far more. The project itself
+# is installed after the model downloads below, so a source edit doesn't
+# re-download model weights.
 COPY pyproject.toml uv.lock README.md ./
-COPY src/ src/
+RUN uv sync --frozen --no-dev --extra chat --extra cloud --no-install-project
 
-RUN uv sync --frozen --no-dev --extra chat --extra cloud --no-editable
-
-# Pre-bake the cross-encoder reranker weights into the image so the hybrid
-# retrieval mode never reaches out to HuggingFace at request time — that
-# download would otherwise hit on the first hybrid query after a cold start
-# (added latency + a network-failure mode in prod). HF_HOME points the cache
-# at a copyable path; the runtime stage sets HF_HUB_OFFLINE so it's used as-is.
+# Pre-bake model weights into the image so retrieval never reaches out to
+# HuggingFace at request time — that download would otherwise hit on the
+# first query after a cold start (added latency + a network-failure mode in
+# prod). HF_HOME points the cache at a copyable path; the runtime stage sets
+# HF_HUB_OFFLINE so it's used as-is.
+#   - the cross-encoder reranker (hybrid mode);
+#   - the sentence-transformers model that embeds queries (rag/hybrid dense
+#     leg). It must match `embed_model` in the passage index's
+#     index_config.json (override with --build-arg EMBED_MODEL=...; pass an
+#     empty value to skip it).
 ENV HF_HOME=/app/hf-cache \
     CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
 RUN .venv/bin/python -c "import os; from sentence_transformers import CrossEncoder; CrossEncoder(os.environ['CBIO_RERANKER_MODEL'])"
+ARG EMBED_MODEL=BAAI/bge-base-en-v1.5
+RUN if [ -n "$EMBED_MODEL" ]; then \
+      .venv/bin/python -c "import sys; from sentence_transformers import SentenceTransformer; SentenceTransformer(sys.argv[1])" "$EMBED_MODEL"; \
+    fi
+
+COPY src/ src/
+RUN uv sync --frozen --no-dev --extra chat --extra cloud --no-editable
 
 # ---------- Runtime ----------
 FROM python:3.13-slim-bookworm AS runtime

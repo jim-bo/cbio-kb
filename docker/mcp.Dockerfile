@@ -26,15 +26,28 @@ ENV UV_COMPILE_BYTECODE=1 \
 COPY --from=ghcr.io/astral-sh/uv:0.5.14 /uv /usr/local/bin/uv
 
 WORKDIR /app
+# Dependencies first, then model weights, then the project itself, so a
+# source edit reuses the cached dependency and model layers.
 COPY pyproject.toml uv.lock README.md ./
-COPY src/ src/
-RUN uv sync --frozen --no-dev --extra chat --extra server --no-editable
+RUN uv sync --frozen --no-dev --extra chat --extra server --no-install-project
 
-# Bake the cross-encoder reranker weights in so search_hybrid never reaches
-# HuggingFace at request time.
+# Bake model weights into HF_HOME so the server never reaches Hugging Face at
+# request time (the runtime stage sets HF_HUB_OFFLINE=1):
+#   - the cross-encoder reranker used by search_hybrid;
+#   - the sentence-transformers model that embeds queries for the dense leg.
+#     It must match `embed_model` in the passage index's index_config.json
+#     (override per deployment with --build-arg EMBED_MODEL=...; pass an
+#     empty value to skip it).
 ENV HF_HOME=/app/hf-cache \
     CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
 RUN .venv/bin/python -c "import os; from sentence_transformers import CrossEncoder; CrossEncoder(os.environ['CBIO_RERANKER_MODEL'])"
+ARG EMBED_MODEL=BAAI/bge-base-en-v1.5
+RUN if [ -n "$EMBED_MODEL" ]; then \
+      .venv/bin/python -c "import sys; from sentence_transformers import SentenceTransformer; SentenceTransformer(sys.argv[1])" "$EMBED_MODEL"; \
+    fi
+
+COPY src/ src/
+RUN uv sync --frozen --no-dev --extra chat --extra server --no-editable
 
 # ---------- Runtime ----------
 FROM python:3.13-slim-bookworm AS runtime

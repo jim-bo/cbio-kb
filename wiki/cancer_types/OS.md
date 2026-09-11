@@ -27,7 +27,7 @@ Osteosarcoma is a primary malignant bone tumor classified under [BONE](../cancer
 - [PTEN](../genes/PTEN.md) truncating mutations/deletions in 17% of RT-OS vs 14% sporadic OS [PMID:37350195](../papers/37350195.md).
 - [FGFR1](../genes/FGFR1.md) amplification in 17% of RT-OS vs 7% sporadic OS [PMID:37350195](../papers/37350195.md).
 - [PTPRT](../genes/PTPRT.md) missense mutations in 17% of RT-OS vs 7% sporadic OS [PMID:37350195](../papers/37350195.md).
-- [FGA](../genes/FGA.md) of 32% in RT-OS [PMID:37350195](../papers/37350195.md).
+- FGA of 32% in RT-OS [PMID:37350195](../papers/37350195.md).
 - Translocations were more frequent in RT-OS (and RT-MPNST) compared to other RT-sarcoma histotypes [PMID:37350195](../papers/37350195.md).
 - PIPseq cohort identified [TSC1](../genes/TSC1.md) splice-site c.2503-1G>C (mTOR-inhibitor target), [RAD51C](../genes/RAD51C.md) F8L (PARP-inhibitor target), PDGFRA/KDR overexpression (MTKI treated), MYC/MCL1/CCNE1 overexpression (BET- and CDK4/6 targets), [CUL4A](../genes/CUL4A.md) overexpression (NAE-inhibitor target), [RB1](../genes/RB1.md) splice-site c.1216-3A>G (germline, increased second-cancer risk), and [TNNT2](../genes/TNNT2.md) R141Q (ACMG secondary, dilated cardiomyopathy) in osteosarcoma patients [PMID:28007021](../papers/28007021.md)
 - Germline WES of 372 pediatric cancer patients (Düsseldorf) included osteosarcoma cases; [TP53](../genes/TP53.md) LP/PV carriers (Li-Fraumeni syndrome) presented with osteosarcoma; three of six [TP53](../genes/TP53.md) carriers (50%) developed SMNs including one osteosarcoma patient [PMID:40857049](../papers/40857049.md)

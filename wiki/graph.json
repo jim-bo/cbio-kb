@@ -37027,10 +37027,6 @@
     },
     {
       "from": "cancer_types/ANGS.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/ANGS.md",
       "to": "papers/41113956.md"
     },
     {
@@ -37788,10 +37784,6 @@
     {
       "from": "cancer_types/BLCA.md",
       "to": "papers/34145282.md"
-    },
-    {
-      "from": "cancer_types/BLCA.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "cancer_types/BLCA.md",
@@ -39799,10 +39791,6 @@
     },
     {
       "from": "cancer_types/COAD.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/COAD.md",
       "to": "papers/35120664.md"
     },
     {
@@ -40036,10 +40024,6 @@
     {
       "from": "cancer_types/COADREAD.md",
       "to": "papers/41125935.md"
-    },
-    {
-      "from": "cancer_types/COADREAD.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "cancer_types/COADREAD.md",
@@ -43367,10 +43351,6 @@
     },
     {
       "from": "cancer_types/HGSOC.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/HGSOC.md",
       "to": "papers/35120664.md"
     },
     {
@@ -45683,10 +45663,6 @@
     },
     {
       "from": "cancer_types/LUAD.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/LUAD.md",
       "to": "papers/35120664.md"
     },
     {
@@ -46775,10 +46751,6 @@
     },
     {
       "from": "cancer_types/MFH.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/MFH.md",
       "to": "datasets/mixed_kunga_msk_2022.md"
     },
     {
@@ -47288,10 +47260,6 @@
     {
       "from": "cancer_types/MPNST.md",
       "to": "genes/PTPRD.md"
-    },
-    {
-      "from": "cancer_types/MPNST.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "cancer_types/MPNST.md",
@@ -48043,10 +48011,6 @@
     },
     {
       "from": "cancer_types/NSCLC.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/NSCLC.md",
       "to": "genes/CDKN2A.md"
     },
     {
@@ -48795,10 +48759,6 @@
     },
     {
       "from": "cancer_types/OS.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/OS.md",
       "to": "genes/TSC1.md"
     },
     {
@@ -49268,10 +49228,6 @@
     {
       "from": "cancer_types/PAAD.md",
       "to": "papers/34534465.md"
-    },
-    {
-      "from": "cancer_types/PAAD.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "cancer_types/PAAD.md",
@@ -50660,10 +50616,6 @@
     {
       "from": "cancer_types/PRAD.md",
       "to": "papers/34667026.md"
-    },
-    {
-      "from": "cancer_types/PRAD.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "cancer_types/PRAD.md",
@@ -52207,10 +52159,6 @@
     },
     {
       "from": "cancer_types/SCLC.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/SCLC.md",
       "to": "papers/35120664.md"
     },
     {
@@ -52724,10 +52672,6 @@
     {
       "from": "cancer_types/SKCM.md",
       "to": "papers/33509808.md"
-    },
-    {
-      "from": "cancer_types/SKCM.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "cancer_types/SKCM.md",
@@ -53763,10 +53707,6 @@
     },
     {
       "from": "cancer_types/THPA.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/THPA.md",
       "to": "papers/35120664.md"
     },
     {
@@ -54463,10 +54403,6 @@
     },
     {
       "from": "cancer_types/UCEC.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "cancer_types/UCEC.md",
       "to": "genes/TOX.md"
     },
     {
@@ -54648,10 +54584,6 @@
     {
       "from": "cancer_types/UEC.md",
       "to": "papers/32059776.md"
-    },
-    {
-      "from": "cancer_types/UEC.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "cancer_types/UEC.md",
@@ -65823,10 +65755,6 @@
     },
     {
       "from": "datasets/hgsoc_msk_2021.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "datasets/hgsoc_msk_2021.md",
       "to": "genes/TP53.md"
     },
     {
@@ -67718,10 +67646,6 @@
       "to": "genes/STK11.md"
     },
     {
-      "from": "datasets/luad_msk_npjpo_2021.md",
-      "to": "genes/FGA.md"
-    },
-    {
       "from": "datasets/luad_mskcc_2020.md",
       "to": "cancer_types/LUAD.md"
     },
@@ -67748,10 +67672,6 @@
     {
       "from": "datasets/luad_mskcc_2020.md",
       "to": "methods/facets.md"
-    },
-    {
-      "from": "datasets/luad_mskcc_2020.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "datasets/luad_mskcc_2020.md",
@@ -71095,10 +71015,6 @@
     },
     {
       "from": "datasets/msk_met_2021.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "datasets/msk_met_2021.md",
       "to": "cancer_types/LUAD.md"
     },
     {
@@ -71828,10 +71744,6 @@
     {
       "from": "datasets/nsclc_pd1_msk_2018.md",
       "to": "genes/STK11.md"
-    },
-    {
-      "from": "datasets/nsclc_pd1_msk_2018.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "datasets/nsclc_tcga_broad_2016.md",
@@ -74792,10 +74704,6 @@
     {
       "from": "datasets/prad_mcspc_mskcc_2020.md",
       "to": "genes/SPOP.md"
-    },
-    {
-      "from": "datasets/prad_mcspc_mskcc_2020.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "datasets/prad_mcspc_mskcc_2020.md",
@@ -87728,10 +87636,6 @@
     {
       "from": "drugs/ipilimumab.md",
       "to": "cancer_types/HGSOC.md"
-    },
-    {
-      "from": "drugs/ipilimumab.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "drugs/ipilimumab.md",
@@ -166339,10 +166243,6 @@
     },
     {
       "from": "genes/TP53.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "genes/TP53.md",
       "to": "papers/35970919.md"
     },
     {
@@ -174031,10 +173931,6 @@
     },
     {
       "from": "methods/cox-proportional-hazards.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "methods/cox-proportional-hazards.md",
       "to": "papers/32317181.md"
     },
     {
@@ -175420,10 +175316,6 @@
     {
       "from": "methods/facets.md",
       "to": "papers/32730818.md"
-    },
-    {
-      "from": "methods/facets.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "methods/facets.md",
@@ -182996,10 +182888,6 @@
     {
       "from": "methods/ollivier-ricci-curvature.md",
       "to": "cancer_types/HGSOC.md"
-    },
-    {
-      "from": "methods/ollivier-ricci-curvature.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "methods/ollivier-ricci-curvature.md",
@@ -214347,10 +214235,6 @@
     },
     {
       "from": "papers/29316426.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "papers/29316426.md",
       "to": "genes/PTEN.md"
     },
     {
@@ -214480,10 +214364,6 @@
     {
       "from": "papers/29337640.md",
       "to": "genes/STK11.md"
-    },
-    {
-      "from": "papers/29337640.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "papers/29337640.md",
@@ -224615,10 +224495,6 @@
     },
     {
       "from": "papers/32317181.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "papers/32317181.md",
       "to": "genes/CCND1.md"
     },
     {
@@ -225692,10 +225568,6 @@
     {
       "from": "papers/32791233.md",
       "to": "methods/IMPACT468.md"
-    },
-    {
-      "from": "papers/32791233.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "papers/32791233.md",
@@ -228963,10 +228835,6 @@
     },
     {
       "from": "papers/34290393.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "papers/34290393.md",
       "to": "datasets/luad_msk_npjpo_2021.md"
     },
     {
@@ -230663,10 +230531,6 @@
     },
     {
       "from": "papers/34819508.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "papers/34819508.md",
       "to": "genes/TP53.md"
     },
     {
@@ -231203,10 +231067,6 @@
     },
     {
       "from": "papers/35120664.md",
-      "to": "genes/FGA.md"
-    },
-    {
-      "from": "papers/35120664.md",
       "to": "cancer_types/PRAD.md"
     },
     {
@@ -231584,10 +231444,6 @@
     {
       "from": "papers/35235413.md",
       "to": "genes/POLE.md"
-    },
-    {
-      "from": "papers/35235413.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "papers/35235413.md",
@@ -235002,10 +234858,6 @@
       "to": "genes/ATR.md"
     },
     {
-      "from": "papers/35705560.md",
-      "to": "genes/FGA.md"
-    },
-    {
       "from": "papers/35764743.md",
       "to": "cancer_types/HGSOC.md"
     },
@@ -235868,10 +235720,6 @@
     {
       "from": "papers/35970919.md",
       "to": "genes/AMER1.md"
-    },
-    {
-      "from": "papers/35970919.md",
-      "to": "genes/FGA.md"
     },
     {
       "from": "papers/35970919.md",

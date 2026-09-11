@@ -51,7 +51,7 @@ Single-institution retrospective cohort of 426 treatment-naive patients with cli
 - False-negative rate for preoperative clinical LN staging was high: 15% of cN0 patients (54/362) had occult pathologic LN metastasis at surgery; 48% (31/64) of cN1 patients confirmed pN+. [PMID:34290393](../papers/34290393.md)
 - [SMARCA4](../genes/SMARCA4.md) alteration (8% vs 1.8%, p=0.006) and [SMAD4](../genes/SMAD4.md) alteration (7% vs 1.5%, p=0.011) were significantly more frequent in pN-positive tumors and both retained independence in the final multivariable model ([SMARCA4](../genes/SMARCA4.md) OR 3.67, p=0.046; [SMAD4](../genes/SMAD4.md) OR 5.01, p=0.02). [PMID:34290393](../papers/34290393.md)
 - [STK11](../genes/STK11.md) was enriched in pN-positive tumors (22% vs 12%, p=0.024) but did not retain significance in the final multivariable model. [PMID:34290393](../papers/34290393.md)
-- Fraction of genome altered ([FGA](../genes/FGA.md)) was higher in pN-positive tumors (median 0.343 vs 0.269, p=0.037); whole-genome doubling was more frequent in pN+ (22% vs 13%, p=0.028). [PMID:34290393](../papers/34290393.md)
+- Fraction of genome altered (FGA) was higher in pN-positive tumors (median 0.343 vs 0.269, p=0.037); whole-genome doubling was more frequent in pN+ (22% vs 13%, p=0.028). [PMID:34290393](../papers/34290393.md)
 - APOBEC signatures (SBS2 and SBS13) were enriched in pN-positive tumors (SBS2: 27.3% vs 12.8%, p=0.03; SBS13: 31.8% vs 14.9%, p=0.02). [PMID:34290393](../papers/34290393.md)
 - TMB did not differ between pN groups (median 4.9 vs 6.1 Mut/Mb, p=0.058). [PMID:34290393](../papers/34290393.md)
 

@@ -17,7 +17,7 @@ Ollivier-Ricci (OR) curvature is a discrete geometric measure borrowed from opti
 
 ## Used by
 
-- Applied to CNA profiles of 45 [HGSOC](../cancer_types/HGSOC.md) patients treated with immune checkpoint inhibitors (ICIs) at MSK; total curvature κ_G stratified OS with log-rank p = 0.00047 (median OS 7.4 mo low-curvature vs 20.3 mo high-curvature), outperforming TMB (p = 0.032), LST (p = 0.43), and [FGA](../genes/FGA.md) (p = 0.20) as ICI-response predictors; curvature was not prognostic in HGSOC patients not receiving ICI, suggesting ICI-specificity [PMID:34819508](../papers/34819508.md)
+- Applied to CNA profiles of 45 [HGSOC](../cancer_types/HGSOC.md) patients treated with immune checkpoint inhibitors (ICIs) at MSK; total curvature κ_G stratified OS with log-rank p = 0.00047 (median OS 7.4 mo low-curvature vs 20.3 mo high-curvature), outperforming TMB (p = 0.032), LST (p = 0.43), and FGA (p = 0.20) as ICI-response predictors; curvature was not prognostic in HGSOC patients not receiving ICI, suggesting ICI-specificity [PMID:34819508](../papers/34819508.md)
 
 ## Notes
 

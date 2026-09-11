@@ -36,7 +36,7 @@ MSK-MET is a prospective pan-cancer cohort of 25,775 patients across 50 tumor ty
 - Most common metastatic biopsy sites: lymph nodes (n=2,305, 23%), liver (n=2,289, 23%), lung (n=982, 10%), bone (n=726, 7%). [PMID:35120664](../papers/35120664.md)
 - Median sequencing coverage 653× (IQR 525–790); median tumor purity 40% (IQR 20–50%); median sample-to-sequencing interval 62 days. [PMID:35120664](../papers/35120664.md)
 - Median age at sequencing 64 years; median follow-up 30 months; five-year survival 40% (range: 90% testicular seminoma to 10% pancreatic adenocarcinoma). [PMID:35120664](../papers/35120664.md)
-- Allele-specific copy-number analysis on n=17,224 samples by [FACETS](../methods/facets.md) for purity/ploidy-adjusted [FGA](../genes/FGA.md), whole-genome doubling (WGD), and clonality estimates. [PMID:35120664](../papers/35120664.md)
+- Allele-specific copy-number analysis on n=17,224 samples by [FACETS](../methods/facets.md) for purity/ploidy-adjusted FGA, whole-genome doubling (WGD), and clonality estimates. [PMID:35120664](../papers/35120664.md)
 - 99,419 metastatic events from EHR mapped to 21 reference anatomic locations. [PMID:35120664](../papers/35120664.md)
 - Cancer types represented include [LUAD](../cancer_types/LUAD.md), [PRAD](../cancer_types/PRAD.md), [IDC](../cancer_types/IDC.md), [ILC](../cancer_types/ILC.md), [COAD](../cancer_types/COAD.md), [PAAD](../cancer_types/PAAD.md), [BLCA](../cancer_types/BLCA.md), [SKCM](../cancer_types/SKCM.md), [HGSOC](../cancer_types/HGSOC.md), [THPA](../cancer_types/THPA.md), [HNSC](../cancer_types/HNSC.md), [UEC](../cancer_types/UEC.md), [PANET](../cancer_types/PANET.md), [SCLC](../cancer_types/SCLC.md), and 36 others. [PMID:35120664](../papers/35120664.md)
 

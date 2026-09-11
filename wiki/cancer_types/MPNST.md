@@ -29,7 +29,7 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 - [SUZ12](../genes/SUZ12.md) inactivating mutations/deletions (PRC2 complex component) in 33% of RT-MPNST vs 17% sporadic [PMID:37350195](../papers/37350195.md).
 - [TP53](../genes/TP53.md) LOF mutations/deletions in 25% of RT-MPNST [PMID:37350195](../papers/37350195.md).
 - [PTPRD](../genes/PTPRD.md) mutations/deletions in 25% of RT-MPNST vs 5% sporadic [PMID:37350195](../papers/37350195.md).
-- RT-MPNST had the highest fraction of genome altered ([FGA](../genes/FGA.md), 51%) among all RT-sarcoma histotypes; significantly higher than sporadic MPNST (31%, P = 0.014) [PMID:37350195](../papers/37350195.md).
+- RT-MPNST had the highest fraction of genome altered (FGA, 51%) among all RT-sarcoma histotypes; significantly higher than sporadic MPNST (31%, P = 0.014) [PMID:37350195](../papers/37350195.md).
 - RT-MPNST was enriched for genome-wide arm-level copy number changes [PMID:37350195](../papers/37350195.md).
 - PRC2 core subunits [EED](../genes/EED.md) or [SUZ12](../genes/SUZ12.md) are inactivated in 92% of sporadic, 70% of NF1-associated, and 90% of radiotherapy-associated MPNSTs; [NF1](../genes/NF1.md) (82%), [CDKN2A](../genes/CDKN2A.md) (81%), and [TP53](../genes/TP53.md) (42%) co-occur; H3K27me3 IHC tracks PRC2 loss and distinguishes MPNST from benign neurofibroma [PMID:25240281](../papers/25240281.md)
 - MPNST (n=5) was underpowered for deep subtype analysis; APOBEC mutational signatures (COSMIC2/13) were modestly elevated in MPNST (alongside DDLPS) vs other sarcoma histologies (p<10⁻⁶, Kruskal-Wallis), and the cohort was included in pan-sarcoma SMG analysis identifying [TP53](../genes/TP53.md), [ATRX](../genes/ATRX.md), and [RB1](../genes/RB1.md) as recurrently mutated [PMID:29100075](../papers/29100075.md)
@@ -42,8 +42,8 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 
 ## Subtypes
 
-- **Radiation-associated MPNST (RT-MPNST):** Distinguished by near-universal CDKN2A/B deletions (92%), high [NF1](../genes/NF1.md) inactivation (67%), and the highest [FGA](../genes/FGA.md) among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years [PMID:37350195](../papers/37350195.md).
-- **Sporadic MPNST:** Lower rates of CDKN2A/B deletion (44%), [NF1](../genes/NF1.md) inactivation (36%), and lower [FGA](../genes/FGA.md) (31%) [PMID:37350195](../papers/37350195.md).
+- **Radiation-associated MPNST (RT-MPNST):** Distinguished by near-universal CDKN2A/B deletions (92%), high [NF1](../genes/NF1.md) inactivation (67%), and the highest FGA among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years [PMID:37350195](../papers/37350195.md).
+- **Sporadic MPNST:** Lower rates of CDKN2A/B deletion (44%), [NF1](../genes/NF1.md) inactivation (36%), and lower FGA (31%) [PMID:37350195](../papers/37350195.md).
 
 ## Therapeutic landscape
 

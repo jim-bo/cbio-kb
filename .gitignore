@@ -2,6 +2,8 @@
 data/
 !data/seed/
 !data/README.md
+# Packaged passage-index tarballs (scripts/package_index.sh)
+dist/
 
 # Legacy paths (pre-restructure)
 /raw/

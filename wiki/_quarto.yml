@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - "_schema/**"
+    - "ask-config.js"
     - "ask-chat.js"
     - "ask-chat.css"
     - "ask-graph.js"

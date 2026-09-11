@@ -48,8 +48,18 @@ brew install quarto
 quarto preview wiki
 ```
 
-A GitHub Actions workflow (`.github/workflows/publish-site.yml`) renders and
-deploys to the `gh-pages` branch on every push to `main`.
+The `Website` workflow (`.github/workflows/website.yml`) renders it and
+deploys to the `gh-pages` branch whenever `main` changes something under
+`wiki/` or `schema/`.
+
+## Hosting
+
+The site, the chat API behind its `/ask` page, and the MCP server are three
+separately hosted pieces, each with its own workflow and (for the two
+services) its own container image on GHCR. None of them needs Google Cloud.
+[docs/hosting.md](docs/hosting.md) covers what each needs, how it's built and
+deployed, the repository variables, the passage index, Compose and
+Kubernetes examples (`deploy/`), and a handover checklist.
 
 ## Pipeline (rebuild from scratch)
 
@@ -108,21 +118,32 @@ uv run cbio-kb wiki reprocess-extract --prompts        # agent-ready prompts
 The knowledge base is also an MCP server, built as a companion to the
 published cBioPortal servers (`cbioportal-mcp` for data, `cbioportal-navigator`
 for portal URLs): same study IDs, OncoTree codes and HUGO symbols, same
-transport conventions. See [docs/mcp.md](docs/mcp.md).
+transport conventions. Tools, client setup and configuration are in
+[docs/mcp.md](docs/mcp.md); deployment (GHCR image, Compose, Kubernetes
+behind a path prefix such as `/lit/mcp`) is in
+[docs/hosting.md](docs/hosting.md).
 
 ```bash
 uv sync --extra chat --extra server
 uv run cbio-kb serve                                  # stdio
 uv run cbio-kb serve --transport http --port 8124     # http://127.0.0.1:8124/mcp
-# or
-docker build -t cbio-kb . && docker run -p 8124:8124 \
-  -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb
+
+# or the container (published from main by the "MCP server image" workflow)
+docker run --rm -p 8124:8124 \
+  -v "$PWD/data/paper_index:/app/data/paper_index:ro" ghcr.io/jim-bo/cbio-kb-mcp:main
+# or build it yourself
+docker build -f docker/mcp.Dockerfile -t cbio-kb-mcp .
 ```
+
+`data/paper_index/` (the passage index) only powers the search tools; without
+it the wiki tools still work.
 
 ## Layout
 
 ```
-ai_search/          FastAPI chat API + MCP server (mcp.py)
+ai_search/          FastAPI chat API (app.py) + MCP server (mcp.py)
+docker/             container images: mcp.Dockerfile, chat.Dockerfile
+deploy/             compose.yml, k8s/ examples, cloudrun/ (optional GCP deploy)
 src/cbio_kb/        Python package
   cli.py            single entry point
   ingest/           PDF → Markdown pipeline

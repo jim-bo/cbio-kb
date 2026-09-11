@@ -1,9 +1,15 @@
 name: test
 
+# Unit tests plus the wiki's structural lint and a crosslink dry run, on every
+# push to main and every pull request. Deploys nothing; the deployables have
+# their own workflows (website.yml, chat-api.yml, mcp-server.yml; see
+# docs/hosting.md).
+
 on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test:

@@ -1,0 +1,26 @@
+# Cloud Build config for the chat API image deployed to Cloud Run.
+# Used by the cloud-run job in .github/workflows/chat-api.yml and by
+# deploy/cloudrun/deploy-chat.sh. Run from the repository root:
+#
+#   gcloud builds submit --config=deploy/cloudrun/cloudbuild-chat.yaml \
+#     --substitutions=_IMAGE_URI=REGION-docker.pkg.dev/PROJECT/REPO/SERVICE:TAG
+#
+# _PAPER_INDEX_URL / _PAPER_INDEX_SHA256 optionally bake a packaged passage
+# index into the image (see scripts/package_index.sh); empty means none.
+# Only Cloud Run needs this file. Other hosts use the GHCR image.
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --file=docker/chat.Dockerfile
+      - --build-arg=PAPER_INDEX_URL=$_PAPER_INDEX_URL
+      - --build-arg=PAPER_INDEX_SHA256=$_PAPER_INDEX_SHA256
+      - --tag=$_IMAGE_URI
+      - .
+images:
+  - $_IMAGE_URI
+substitutions:
+  _PAPER_INDEX_URL: ""
+  _PAPER_INDEX_SHA256: ""
+options:
+  logging: CLOUD_LOGGING_ONLY

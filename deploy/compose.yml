@@ -1,0 +1,59 @@
+# Run the cbio-kb containers on one machine (a laptop or an on-prem VM),
+# with the passage index mounted from the host. docs/hosting.md has context.
+#
+#   # MCP server only -> http://localhost:8124/mcp (health: /health)
+#   docker compose -f deploy/compose.yml up --build mcp
+#
+#   # plus the chat API behind the website's /ask page -> http://localhost:8080/api/chat
+#   ANTHROPIC_API_KEY=sk-ant-... docker compose -f deploy/compose.yml --profile chat up --build
+#
+# Knobs (environment or a .env file next to this one):
+#   PAPER_INDEX_DIR        host path of the unpacked index (default ../data/paper_index,
+#                          i.e. the repo's; unpack a scripts/package_index.sh tarball
+#                          anywhere and point this at its paper_index/ dir). Without
+#                          an index the MCP search tools report it missing and the
+#                          chat's RAG/Hybrid modes fail; everything else works.
+#   CBIO_KB_MCP_IMAGE      use a published image instead of building, e.g.
+#   CBIO_KB_CHAT_IMAGE     ghcr.io/<owner>/cbio-kb-mcp:main (then drop --build)
+#   CBIO_KB_MCP_PORT, CBIO_KB_CHAT_PORT   host ports (default 8124, 8080)
+#   CBIO_KB_MCP_HTTP_PATH  MCP mount path (default /mcp; e.g. /lit/mcp behind a proxy)
+#   ANTHROPIC_API_KEY      required by the chat API
+#   CBIO_KB_MCP_ANTHROPIC_API_KEY
+#                          optional, MCP server only: turns on search_agentic, which
+#                          spends tokens on your account (kept separate so the chat's
+#                          key doesn't switch it on by accident)
+#   CHAT_CORS_ORIGINS      origins allowed to call the chat API (the site's origin;
+#                          default: local Quarto preview and localhost:8080)
+
+name: cbio-kb
+
+services:
+  mcp:
+    image: ${CBIO_KB_MCP_IMAGE:-cbio-kb-mcp:local}
+    build:
+      context: ..
+      dockerfile: docker/mcp.Dockerfile
+    ports:
+      - "${CBIO_KB_MCP_PORT:-8124}:8124"
+    environment:
+      CBIO_KB_MCP_HTTP_PATH: ${CBIO_KB_MCP_HTTP_PATH:-/mcp}
+      ANTHROPIC_API_KEY: ${CBIO_KB_MCP_ANTHROPIC_API_KEY:-}
+    volumes:
+      - ${PAPER_INDEX_DIR:-../data/paper_index}:/app/data/paper_index:ro
+    restart: unless-stopped
+
+  chat:
+    profiles: [chat]
+    image: ${CBIO_KB_CHAT_IMAGE:-cbio-kb-chat:local}
+    build:
+      context: ..
+      dockerfile: docker/chat.Dockerfile
+    ports:
+      - "${CBIO_KB_CHAT_PORT:-8080}:8080"
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      SESSION_STORE: memory  # per-process history: keep to one replica
+      CHAT_CORS_ORIGINS: ${CHAT_CORS_ORIGINS:-http://localhost:4321,http://127.0.0.1:4321,http://localhost:8080,http://127.0.0.1:8080}
+    volumes:
+      - ${PAPER_INDEX_DIR:-../data/paper_index}:/app/data/paper_index:ro
+    restart: unless-stopped

@@ -27,6 +27,7 @@ service-account*.json
 batch_pdfs/
 data/*
 !data/seed/
+dist/
 *.log
 
 # Docs & tests not needed at runtime

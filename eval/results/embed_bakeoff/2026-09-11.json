@@ -1,0 +1,2864 @@
+{
+ "chunks": 37733,
+ "questions": 80,
+ "results": {
+  "gemini-embedding-001": {
+   "per_q": {
+    "L01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L19": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L20": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L21": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L22": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L24": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L25": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L26": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L27": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "LS01": {
+     "dense_r8": 0.03333333333333333,
+     "dense_r40": 0.2,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.13333333333333333
+    },
+    "LS02": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.6,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.3
+    },
+    "LS03": {
+     "dense_r8": 0.25,
+     "dense_r40": 0.75,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "LS04": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.8333333333333334,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "LS05": {
+     "dense_r8": 0.08695652173913043,
+     "dense_r40": 0.2608695652173913,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.043478260869565216
+    },
+    "LS06": {
+     "dense_r8": 0.23809523809523808,
+     "dense_r40": 0.47619047619047616,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.2857142857142857
+    },
+    "LS07": {
+     "dense_r8": 0.04,
+     "dense_r40": 0.2,
+     "dense_mrr": 0.14285714285714285,
+     "hybrid_r8": 0.04
+    },
+    "LS08": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.5,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "LS09": {
+     "dense_r8": 0.09090909090909091,
+     "dense_r40": 0.5454545454545454,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.36363636363636365
+    },
+    "LS10": {
+     "dense_r8": 0.13333333333333333,
+     "dense_r40": 0.4666666666666667,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.2
+    },
+    "S01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S02": {
+     "dense_r8": 0.5,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.0
+    },
+    "S03": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.4,
+     "dense_mrr": 0.07692307692307693,
+     "hybrid_r8": 0.2
+    },
+    "S04": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.25,
+     "dense_mrr": 0.0625,
+     "hybrid_r8": 0.0
+    },
+    "S05": {
+     "dense_r8": 0.25,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.5
+    },
+    "S06": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.6,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.6
+    },
+    "S07": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S08": {
+     "dense_r8": 0.5,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "S09": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.0
+    },
+    "S10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "S11": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.05,
+     "hybrid_r8": 0.0
+    },
+    "S12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.0
+    },
+    "S13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S14": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.14285714285714285,
+     "hybrid_r8": 0.0
+    },
+    "S15": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.022222222222222223,
+     "hybrid_r8": 0.0
+    },
+    "S16": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S17": {
+     "dense_r8": 0.6,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.6
+    },
+    "S18": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.75,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "S19": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.75,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "S20": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.8,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.2
+    },
+    "S21": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S22": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.2,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.4
+    },
+    "S23": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S24": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "S25": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.2,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.4
+    },
+    "D01": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.021739130434782608,
+     "hybrid_r8": 0.0
+    },
+    "D02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.25,
+     "hybrid_r8": 1.0
+    },
+    "D12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    }
+   },
+   "dim": 3072,
+   "router_acc": 0.55,
+   "dense_r8": 0.714,
+   "by_category": {
+    "definition": {
+     "dense_r8": 0.944,
+     "dense_r40": 0.944,
+     "dense_mrr": 0.876,
+     "hybrid_r8": 0.944
+    },
+    "list": {
+     "dense_r8": 0.214,
+     "dense_r40": 0.483,
+     "dense_mrr": 0.764,
+     "hybrid_r8": 0.27
+    },
+    "lookup": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.981,
+     "hybrid_r8": 1.0
+    },
+    "synthesis": {
+     "dense_r8": 0.441,
+     "dense_r40": 0.685,
+     "dense_mrr": 0.601,
+     "hybrid_r8": 0.449
+    }
+   },
+   "dense_r40": 0.824,
+   "dense_mrr": 0.812,
+   "hybrid_r8": 0.724
+  },
+  "BAAI/bge-base-en-v1.5": {
+   "per_q": {
+    "L01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L19": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L20": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L21": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L22": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 1.0
+    },
+    "L23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L24": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L25": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L26": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L27": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "LS01": {
+     "dense_r8": 0.1,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.06666666666666667
+    },
+    "LS02": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.8,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.3
+    },
+    "LS03": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.5833333333333334,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.25
+    },
+    "LS04": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.8333333333333334
+    },
+    "LS05": {
+     "dense_r8": 0.13043478260869565,
+     "dense_r40": 0.34782608695652173,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.13043478260869565
+    },
+    "LS06": {
+     "dense_r8": 0.047619047619047616,
+     "dense_r40": 0.5714285714285714,
+     "dense_mrr": 0.25,
+     "hybrid_r8": 0.14285714285714285
+    },
+    "LS07": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.08,
+     "dense_mrr": 0.125,
+     "hybrid_r8": 0.04
+    },
+    "LS08": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.7,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "LS09": {
+     "dense_r8": 0.2727272727272727,
+     "dense_r40": 0.36363636363636365,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.36363636363636365
+    },
+    "LS10": {
+     "dense_r8": 0.13333333333333333,
+     "dense_r40": 0.6,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.16666666666666666
+    },
+    "S01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S02": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.0
+    },
+    "S03": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.2,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 0.2
+    },
+    "S04": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.25,
+     "dense_mrr": 0.09090909090909091,
+     "hybrid_r8": 0.0
+    },
+    "S05": {
+     "dense_r8": 0.75,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.75
+    },
+    "S06": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.4,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6
+    },
+    "S07": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S09": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.0
+    },
+    "S10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "S11": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.0,
+     "hybrid_r8": 0.0
+    },
+    "S12": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.0625,
+     "hybrid_r8": 0.0
+    },
+    "S13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S14": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.03571428571428571,
+     "hybrid_r8": 0.0
+    },
+    "S15": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.0
+    },
+    "S16": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S17": {
+     "dense_r8": 0.6,
+     "dense_r40": 0.8,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6
+    },
+    "S18": {
+     "dense_r8": 0.25,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "S19": {
+     "dense_r8": 0.25,
+     "dense_r40": 0.75,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "S20": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.8,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 0.2
+    },
+    "S21": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "S22": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.6,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6
+    },
+    "S23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S24": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "S25": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.8,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.4
+    },
+    "D01": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.05263157894736842,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "D02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.0
+    },
+    "D07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.0
+    },
+    "D12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.14285714285714285,
+     "hybrid_r8": 1.0
+    },
+    "D18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    }
+   },
+   "query_ms": 34.8,
+   "dim": 768,
+   "router_acc": 0.675,
+   "dense_r8": 0.73,
+   "by_category": {
+    "definition": {
+     "dense_r8": 0.944,
+     "dense_r40": 0.963,
+     "dense_mrr": 0.77,
+     "hybrid_r8": 0.852
+    },
+    "list": {
+     "dense_r8": 0.248,
+     "dense_r40": 0.538,
+     "dense_mrr": 0.738,
+     "hybrid_r8": 0.279
+    },
+    "lookup": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.878,
+     "hybrid_r8": 1.0
+    },
+    "synthesis": {
+     "dense_r8": 0.477,
+     "dense_r40": 0.691,
+     "dense_mrr": 0.65,
+     "hybrid_r8": 0.454
+    }
+   },
+   "dense_r40": 0.837,
+   "dense_mrr": 0.765,
+   "hybrid_r8": 0.706
+  },
+  "Snowflake/snowflake-arctic-embed-m-v1.5": {
+   "per_q": {
+    "L01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 1.0
+    },
+    "L02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.25,
+     "hybrid_r8": 1.0
+    },
+    "L14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L19": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L20": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L21": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L22": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "L23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L24": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L25": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L26": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L27": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "LS01": {
+     "dense_r8": 0.1,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.1
+    },
+    "LS02": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.6,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.4
+    },
+    "LS03": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "LS04": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "LS05": {
+     "dense_r8": 0.13043478260869565,
+     "dense_r40": 0.17391304347826086,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.043478260869565216
+    },
+    "LS06": {
+     "dense_r8": 0.2857142857142857,
+     "dense_r40": 0.47619047619047616,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.23809523809523808
+    },
+    "LS07": {
+     "dense_r8": 0.04,
+     "dense_r40": 0.2,
+     "dense_mrr": 0.14285714285714285,
+     "hybrid_r8": 0.0
+    },
+    "LS08": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.8,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "LS09": {
+     "dense_r8": 0.18181818181818182,
+     "dense_r40": 0.36363636363636365,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.36363636363636365
+    },
+    "LS10": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.5666666666666667,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.2
+    },
+    "S01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S02": {
+     "dense_r8": 0.5,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.5
+    },
+    "S03": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.2,
+     "dense_mrr": 0.14285714285714285,
+     "hybrid_r8": 0.2
+    },
+    "S04": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.25,
+     "dense_mrr": 0.14285714285714285,
+     "hybrid_r8": 0.0
+    },
+    "S05": {
+     "dense_r8": 0.75,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.75
+    },
+    "S06": {
+     "dense_r8": 0.4,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.8
+    },
+    "S07": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S08": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "S09": {
+     "dense_r8": 0.25,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.0
+    },
+    "S10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "S11": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.0,
+     "hybrid_r8": 0.0
+    },
+    "S12": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.041666666666666664,
+     "hybrid_r8": 0.0
+    },
+    "S13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S14": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.03125,
+     "hybrid_r8": 0.0
+    },
+    "S15": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.1111111111111111,
+     "hybrid_r8": 0.0
+    },
+    "S16": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S17": {
+     "dense_r8": 0.6,
+     "dense_r40": 0.8,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6
+    },
+    "S18": {
+     "dense_r8": 0.5,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "S19": {
+     "dense_r8": 0.5,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.25
+    },
+    "S20": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.6,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.2
+    },
+    "S21": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S22": {
+     "dense_r8": 0.4,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.4
+    },
+    "S23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S24": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "S25": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.6,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.4
+    },
+    "D01": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "D02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.0
+    },
+    "D07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "D08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.0
+    },
+    "D12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    }
+   },
+   "query_ms": 26.5,
+   "dim": 768,
+   "router_acc": 0.762,
+   "dense_r8": 0.735,
+   "by_category": {
+    "definition": {
+     "dense_r8": 0.963,
+     "dense_r40": 0.963,
+     "dense_mrr": 0.854,
+     "hybrid_r8": 0.852
+    },
+    "list": {
+     "dense_r8": 0.274,
+     "dense_r40": 0.468,
+     "dense_mrr": 0.914,
+     "hybrid_r8": 0.268
+    },
+    "lookup": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.825,
+     "hybrid_r8": 1.0
+    },
+    "synthesis": {
+     "dense_r8": 0.469,
+     "dense_r40": 0.685,
+     "dense_mrr": 0.612,
+     "hybrid_r8": 0.477
+    }
+   },
+   "dense_r40": 0.827,
+   "dense_mrr": 0.776,
+   "hybrid_r8": 0.712
+  },
+  "intfloat/e5-base-v2": {
+   "per_q": {
+    "L01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L06": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.041666666666666664,
+     "hybrid_r8": 1.0
+    },
+    "L07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L12": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.16666666666666666,
+     "hybrid_r8": 1.0
+    },
+    "L13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.16666666666666666,
+     "hybrid_r8": 1.0
+    },
+    "L14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L19": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L20": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L21": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L22": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.25,
+     "hybrid_r8": 1.0
+    },
+    "L23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.14285714285714285,
+     "hybrid_r8": 1.0
+    },
+    "L24": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L25": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L26": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L27": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "LS01": {
+     "dense_r8": 0.03333333333333333,
+     "dense_r40": 0.23333333333333334,
+     "dense_mrr": 0.25,
+     "hybrid_r8": 0.13333333333333333
+    },
+    "LS02": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.4
+    },
+    "LS03": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.25
+    },
+    "LS04": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.5,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "LS05": {
+     "dense_r8": 0.13043478260869565,
+     "dense_r40": 0.17391304347826086,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.13043478260869565
+    },
+    "LS06": {
+     "dense_r8": 0.23809523809523808,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.19047619047619047
+    },
+    "LS07": {
+     "dense_r8": 0.04,
+     "dense_r40": 0.12,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 0.0
+    },
+    "LS08": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.7,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "LS09": {
+     "dense_r8": 0.2727272727272727,
+     "dense_r40": 0.45454545454545453,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.36363636363636365
+    },
+    "LS10": {
+     "dense_r8": 0.16666666666666666,
+     "dense_r40": 0.5,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.16666666666666666
+    },
+    "S01": {
+     "dense_r8": 0.5,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S02": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 0.0
+    },
+    "S03": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.2,
+     "dense_mrr": 0.25,
+     "hybrid_r8": 0.2
+    },
+    "S04": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.25,
+     "dense_mrr": 0.041666666666666664,
+     "hybrid_r8": 0.0
+    },
+    "S05": {
+     "dense_r8": 0.25,
+     "dense_r40": 0.5,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.5
+    },
+    "S06": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.4,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.8
+    },
+    "S07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "S09": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.25,
+     "dense_mrr": 0.125,
+     "hybrid_r8": 0.0
+    },
+    "S10": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "S11": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.0,
+     "hybrid_r8": 0.0
+    },
+    "S12": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.045454545454545456,
+     "hybrid_r8": 0.0
+    },
+    "S13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.16666666666666666,
+     "hybrid_r8": 1.0
+    },
+    "S14": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.02564102564102564,
+     "hybrid_r8": 0.0
+    },
+    "S15": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.3333333333333333,
+     "dense_mrr": 0.058823529411764705,
+     "hybrid_r8": 0.0
+    },
+    "S16": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S17": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.8,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.4
+    },
+    "S18": {
+     "dense_r8": 0.5,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.75
+    },
+    "S19": {
+     "dense_r8": 0.25,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.25
+    },
+    "S20": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.6,
+     "dense_mrr": 0.1111111111111111,
+     "hybrid_r8": 0.2
+    },
+    "S21": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S22": {
+     "dense_r8": 0.8,
+     "dense_r40": 0.8,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.6
+    },
+    "S23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S24": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "S25": {
+     "dense_r8": 0.2,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.0
+    },
+    "D01": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.025,
+     "hybrid_r8": 0.0
+    },
+    "D02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 1.0
+    },
+    "D05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.0
+    },
+    "D07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.0
+    },
+    "D12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "D13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.125,
+     "hybrid_r8": 1.0
+    },
+    "D18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    }
+   },
+   "query_ms": 28.6,
+   "dim": 768,
+   "router_acc": 0.863,
+   "dense_r8": 0.678,
+   "by_category": {
+    "definition": {
+     "dense_r8": 0.944,
+     "dense_r40": 0.944,
+     "dense_mrr": 0.76,
+     "hybrid_r8": 0.833
+    },
+    "list": {
+     "dense_r8": 0.245,
+     "dense_r40": 0.418,
+     "dense_mrr": 0.795,
+     "hybrid_r8": 0.263
+    },
+    "lookup": {
+     "dense_r8": 0.926,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.769,
+     "hybrid_r8": 1.0
+    },
+    "synthesis": {
+     "dense_r8": 0.392,
+     "dense_r40": 0.625,
+     "dense_mrr": 0.508,
+     "hybrid_r8": 0.441
+    }
+   },
+   "dense_r40": 0.798,
+   "dense_mrr": 0.689,
+   "hybrid_r8": 0.696
+  },
+  "ncbi/MedCPT": {
+   "per_q": {
+    "L01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L11": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.16666666666666666,
+     "hybrid_r8": 1.0
+    },
+    "L12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.25,
+     "hybrid_r8": 1.0
+    },
+    "L14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "L15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 1.0
+    },
+    "L17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L18": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L19": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L20": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "L21": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "L22": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L24": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L25": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.04,
+     "hybrid_r8": 1.0
+    },
+    "L26": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "L27": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "LS01": {
+     "dense_r8": 0.03333333333333333,
+     "dense_r40": 0.3,
+     "dense_mrr": 0.16666666666666666,
+     "hybrid_r8": 0.1
+    },
+    "LS02": {
+     "dense_r8": 0.3,
+     "dense_r40": 0.8,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.2
+    },
+    "LS03": {
+     "dense_r8": 0.25,
+     "dense_r40": 0.5833333333333334,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.3333333333333333
+    },
+    "LS04": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.8333333333333334,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "LS05": {
+     "dense_r8": 0.043478260869565216,
+     "dense_r40": 0.21739130434782608,
+     "dense_mrr": 0.16666666666666666,
+     "hybrid_r8": 0.08695652173913043
+    },
+    "LS06": {
+     "dense_r8": 0.2857142857142857,
+     "dense_r40": 0.5238095238095238,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.23809523809523808
+    },
+    "LS07": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.12,
+     "dense_mrr": 0.06666666666666667,
+     "hybrid_r8": 0.04
+    },
+    "LS08": {
+     "dense_r8": 0.2,
+     "dense_r40": 0.7,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.6
+    },
+    "LS09": {
+     "dense_r8": 0.09090909090909091,
+     "dense_r40": 0.2727272727272727,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.36363636363636365
+    },
+    "LS10": {
+     "dense_r8": 0.16666666666666666,
+     "dense_r40": 0.5666666666666667,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.16666666666666666
+    },
+    "S01": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "S02": {
+     "dense_r8": 0.5,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.5
+    },
+    "S03": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.2,
+     "dense_mrr": 0.125,
+     "hybrid_r8": 0.2
+    },
+    "S04": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.023809523809523808,
+     "hybrid_r8": 0.0
+    },
+    "S05": {
+     "dense_r8": 0.75,
+     "dense_r40": 0.75,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.75
+    },
+    "S06": {
+     "dense_r8": 0.4,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.6
+    },
+    "S07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S08": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 1.0
+    },
+    "S09": {
+     "dense_r8": 0.25,
+     "dense_r40": 0.5,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.0
+    },
+    "S10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "S11": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.0,
+     "hybrid_r8": 0.0
+    },
+    "S12": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.0,
+     "hybrid_r8": 0.0
+    },
+    "S13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "S14": {
+     "dense_r8": 0.16666666666666666,
+     "dense_r40": 0.16666666666666666,
+     "dense_mrr": 0.2,
+     "hybrid_r8": 0.0
+    },
+    "S15": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.030303030303030304,
+     "hybrid_r8": 0.0
+    },
+    "S16": {
+     "dense_r8": 0.6666666666666666,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S17": {
+     "dense_r8": 0.6,
+     "dense_r40": 0.6,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.4
+    },
+    "S18": {
+     "dense_r8": 0.25,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.5
+    },
+    "S19": {
+     "dense_r8": 0.25,
+     "dense_r40": 0.5,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.25
+    },
+    "S20": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.6,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.2
+    },
+    "S21": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S22": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.8,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 0.6
+    },
+    "S23": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "S24": {
+     "dense_r8": 0.3333333333333333,
+     "dense_r40": 0.6666666666666666,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S25": {
+     "dense_r8": 0.4,
+     "dense_r40": 0.6,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 0.6
+    },
+    "D01": {
+     "dense_r8": 0.0,
+     "dense_r40": 0.0,
+     "dense_mrr": 0.025,
+     "hybrid_r8": 0.0
+    },
+    "D02": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D03": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D04": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D05": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D06": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.3333333333333333,
+     "hybrid_r8": 1.0
+    },
+    "D07": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D08": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D09": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D10": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D11": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.07142857142857142,
+     "hybrid_r8": 0.0
+    },
+    "D12": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D13": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D14": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D15": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D16": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 1.0,
+     "hybrid_r8": 1.0
+    },
+    "D17": {
+     "dense_r8": 1.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.5,
+     "hybrid_r8": 1.0
+    },
+    "D18": {
+     "dense_r8": 0.0,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.125,
+     "hybrid_r8": 1.0
+    }
+   },
+   "query_ms": 23.2,
+   "dim": 768,
+   "router_acc": 0.412,
+   "dense_r8": 0.678,
+   "by_category": {
+    "definition": {
+     "dense_r8": 0.833,
+     "dense_r40": 0.944,
+     "dense_mrr": 0.697,
+     "hybrid_r8": 0.889
+    },
+    "list": {
+     "dense_r8": 0.187,
+     "dense_r40": 0.492,
+     "dense_mrr": 0.59,
+     "hybrid_r8": 0.28
+    },
+    "lookup": {
+     "dense_r8": 0.963,
+     "dense_r40": 1.0,
+     "dense_mrr": 0.747,
+     "hybrid_r8": 1.0
+    },
+    "synthesis": {
+     "dense_r8": 0.455,
+     "dense_r40": 0.622,
+     "dense_mrr": 0.496,
+     "hybrid_r8": 0.491
+    }
+   },
+   "dense_r40": 0.806,
+   "dense_mrr": 0.638,
+   "hybrid_r8": 0.726
+  },
+  "no-dense (BM25 + graph)": {
+   "per_q": {
+    "L01": {
+     "hybrid_r8": 1.0
+    },
+    "L02": {
+     "hybrid_r8": 1.0
+    },
+    "L03": {
+     "hybrid_r8": 1.0
+    },
+    "L04": {
+     "hybrid_r8": 1.0
+    },
+    "L05": {
+     "hybrid_r8": 1.0
+    },
+    "L06": {
+     "hybrid_r8": 1.0
+    },
+    "L07": {
+     "hybrid_r8": 1.0
+    },
+    "L08": {
+     "hybrid_r8": 1.0
+    },
+    "L09": {
+     "hybrid_r8": 1.0
+    },
+    "L10": {
+     "hybrid_r8": 1.0
+    },
+    "L11": {
+     "hybrid_r8": 1.0
+    },
+    "L12": {
+     "hybrid_r8": 1.0
+    },
+    "L13": {
+     "hybrid_r8": 1.0
+    },
+    "L14": {
+     "hybrid_r8": 1.0
+    },
+    "L15": {
+     "hybrid_r8": 1.0
+    },
+    "L16": {
+     "hybrid_r8": 1.0
+    },
+    "L17": {
+     "hybrid_r8": 1.0
+    },
+    "L18": {
+     "hybrid_r8": 1.0
+    },
+    "L19": {
+     "hybrid_r8": 1.0
+    },
+    "L20": {
+     "hybrid_r8": 1.0
+    },
+    "L21": {
+     "hybrid_r8": 1.0
+    },
+    "L22": {
+     "hybrid_r8": 1.0
+    },
+    "L23": {
+     "hybrid_r8": 1.0
+    },
+    "L24": {
+     "hybrid_r8": 1.0
+    },
+    "L25": {
+     "hybrid_r8": 1.0
+    },
+    "L26": {
+     "hybrid_r8": 1.0
+    },
+    "L27": {
+     "hybrid_r8": 1.0
+    },
+    "LS01": {
+     "hybrid_r8": 0.1
+    },
+    "LS02": {
+     "hybrid_r8": 0.2
+    },
+    "LS03": {
+     "hybrid_r8": 0.25
+    },
+    "LS04": {
+     "hybrid_r8": 0.6666666666666666
+    },
+    "LS05": {
+     "hybrid_r8": 0.08695652173913043
+    },
+    "LS06": {
+     "hybrid_r8": 0.2857142857142857
+    },
+    "LS07": {
+     "hybrid_r8": 0.08
+    },
+    "LS08": {
+     "hybrid_r8": 0.6
+    },
+    "LS09": {
+     "hybrid_r8": 0.36363636363636365
+    },
+    "LS10": {
+     "hybrid_r8": 0.2
+    },
+    "S01": {
+     "hybrid_r8": 1.0
+    },
+    "S02": {
+     "hybrid_r8": 0.0
+    },
+    "S03": {
+     "hybrid_r8": 0.2
+    },
+    "S04": {
+     "hybrid_r8": 0.0
+    },
+    "S05": {
+     "hybrid_r8": 0.5
+    },
+    "S06": {
+     "hybrid_r8": 0.6
+    },
+    "S07": {
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S08": {
+     "hybrid_r8": 0.5
+    },
+    "S09": {
+     "hybrid_r8": 0.0
+    },
+    "S10": {
+     "hybrid_r8": 1.0
+    },
+    "S11": {
+     "hybrid_r8": 0.0
+    },
+    "S12": {
+     "hybrid_r8": 0.0
+    },
+    "S13": {
+     "hybrid_r8": 1.0
+    },
+    "S14": {
+     "hybrid_r8": 0.0
+    },
+    "S15": {
+     "hybrid_r8": 0.0
+    },
+    "S16": {
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S17": {
+     "hybrid_r8": 0.4
+    },
+    "S18": {
+     "hybrid_r8": 0.25
+    },
+    "S19": {
+     "hybrid_r8": 0.25
+    },
+    "S20": {
+     "hybrid_r8": 0.4
+    },
+    "S21": {
+     "hybrid_r8": 0.6666666666666666
+    },
+    "S22": {
+     "hybrid_r8": 0.6
+    },
+    "S23": {
+     "hybrid_r8": 1.0
+    },
+    "S24": {
+     "hybrid_r8": 0.3333333333333333
+    },
+    "S25": {
+     "hybrid_r8": 0.2
+    },
+    "D01": {
+     "hybrid_r8": 0.3333333333333333
+    },
+    "D02": {
+     "hybrid_r8": 1.0
+    },
+    "D03": {
+     "hybrid_r8": 1.0
+    },
+    "D04": {
+     "hybrid_r8": 1.0
+    },
+    "D05": {
+     "hybrid_r8": 1.0
+    },
+    "D06": {
+     "hybrid_r8": 1.0
+    },
+    "D07": {
+     "hybrid_r8": 1.0
+    },
+    "D08": {
+     "hybrid_r8": 1.0
+    },
+    "D09": {
+     "hybrid_r8": 1.0
+    },
+    "D10": {
+     "hybrid_r8": 1.0
+    },
+    "D11": {
+     "hybrid_r8": 1.0
+    },
+    "D12": {
+     "hybrid_r8": 1.0
+    },
+    "D13": {
+     "hybrid_r8": 1.0
+    },
+    "D14": {
+     "hybrid_r8": 1.0
+    },
+    "D15": {
+     "hybrid_r8": 1.0
+    },
+    "D16": {
+     "hybrid_r8": 1.0
+    },
+    "D17": {
+     "hybrid_r8": 1.0
+    },
+    "D18": {
+     "hybrid_r8": 1.0
+    }
+   },
+   "dense_r8": null,
+   "by_category": {
+    "definition": {
+     "dense_r8": null,
+     "dense_r40": null,
+     "dense_mrr": null,
+     "hybrid_r8": 0.963
+    },
+    "list": {
+     "dense_r8": null,
+     "dense_r40": null,
+     "dense_mrr": null,
+     "hybrid_r8": 0.283
+    },
+    "lookup": {
+     "dense_r8": null,
+     "dense_r40": null,
+     "dense_mrr": null,
+     "hybrid_r8": 1.0
+    },
+    "synthesis": {
+     "dense_r8": null,
+     "dense_r40": null,
+     "dense_mrr": null,
+     "hybrid_r8": 0.409
+    }
+   },
+   "dense_r40": null,
+   "dense_mrr": null,
+   "hybrid_r8": 0.717
+  }
+ }
+}

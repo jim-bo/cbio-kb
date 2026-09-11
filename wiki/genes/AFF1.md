@@ -37,8 +37,6 @@ AFF1 (AF4/FMR2 Family Member 1) encodes a scaffold component of the super elonga
 ## Sources
 
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

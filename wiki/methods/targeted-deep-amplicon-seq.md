@@ -34,17 +34,9 @@ Targeted deep amplicon sequencing applies PCR amplification followed by massivel
 - Patient-specific SNV panels (as in [PMID:26760213](../papers/26760213.md)) provide individualized coverage of subclonal architecture.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28445469](../papers/28445469.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

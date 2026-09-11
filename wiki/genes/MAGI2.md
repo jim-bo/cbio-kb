@@ -37,8 +37,6 @@ MAGI2 (Membrane-Associated Guanylate Kinase Inverted 2) encodes a scaffolding pr
 ## Sources
 
 - [PMID:22622578](../papers/22622578.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -32,8 +32,6 @@ Nutlin-3 is a cis-imidazoline [MDM2](../genes/MDM2.md) antagonist that stabilize
 - [MEL](../cancer_types/MEL.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

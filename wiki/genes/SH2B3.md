@@ -37,8 +37,6 @@ SH2B3 (also known as LNK) encodes an adapter protein that negatively regulates [
 ## Sources
 
 - [PMID:24325359](../papers/24325359.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -40,8 +40,6 @@ TAGLN (transgelin, also known as SM22-alpha) is a smooth-muscle actin-binding pr
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

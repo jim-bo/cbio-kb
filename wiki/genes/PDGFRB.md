@@ -44,17 +44,9 @@ PDGFRB (Platelet Derived Growth Factor Receptor Beta) encodes a receptor tyrosin
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

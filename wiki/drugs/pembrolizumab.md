@@ -133,32 +133,14 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 - [PMID:35705558](../papers/35705558.md)
 - [PMID:35849120](../papers/35849120.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:30742122](../papers/30742122.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35121644](../papers/35121644.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36815791](../papers/36815791.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

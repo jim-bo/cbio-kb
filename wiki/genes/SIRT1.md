@@ -41,8 +41,6 @@ SIRT1 is a NAD+-dependent deacetylase (sirtuin family) that regulates a broad ar
 ## Sources
 
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

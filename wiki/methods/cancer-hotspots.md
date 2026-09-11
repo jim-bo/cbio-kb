@@ -32,19 +32,11 @@ Cancer Hotspots is a statistical method for identifying recurrently mutated posi
 - Available as a public web resource; commonly used with OncoKB for oncogenicity classification.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33795256](../papers/33795256.md)
 
 - [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

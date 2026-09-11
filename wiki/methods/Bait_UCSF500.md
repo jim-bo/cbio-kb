@@ -34,8 +34,6 @@ The UCSF500 cancer gene panel is a targeted DNA sequencing bait set developed at
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md) — Tandukar et al. used the UCSF500 panel alongside whole-exome sequencing for joint DNA/RNA profiling of 297 clonally expanded single melanocytes from 58 skin biopsies of 31 donors; panel sequencing allowed confirmation of somatic variants (UV-signature SBS7 in HighMut and clock-like SBS1/SBS5 in LowMut subpopulations) [PMID:39975212](../papers/39975212.md).
-
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
 - [PMID:33029006](../papers/33029006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

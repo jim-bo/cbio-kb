@@ -45,8 +45,6 @@ DLG2 (Discs Large Homolog 2) encodes a membrane-associated guanylate kinase scaf
 ## Sources
 
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

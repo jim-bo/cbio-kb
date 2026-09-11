@@ -38,8 +38,6 @@ Oropharynx squamous cell carcinoma arises from the squamous epithelium of the or
 ## Sources
 
 - TCGA multi-platform profiling of 279 HNSCCs; oropharynx site (n=33, 12% of cohort) was the most HPV-enriched subsite (64% HPV+); HPV+ biology defined by [TRAF3](../genes/TRAF3.md) loss, [PIK3CA](../genes/PIK3CA.md) helical-domain mutations, and [E2F1](../genes/E2F1.md) amplification, with favorable survival outcomes. [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). MSK-IMPACT of 151 advanced head and neck tumors; HPV-positive oropharyngeal tumors predominate and 43% acquire HPV-negative-like genotype.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

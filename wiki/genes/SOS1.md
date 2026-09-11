@@ -41,17 +41,9 @@ SOS1 (Son of Sevenless Homolog 1) encodes a RAS guanine nucleotide exchange fact
 ## Sources
 
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

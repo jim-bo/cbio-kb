@@ -33,14 +33,8 @@ Ceritinib is a second-generation, irreversible [ALK](../genes/ALK.md) tyrosine k
 ## Sources
 
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

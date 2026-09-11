@@ -39,14 +39,8 @@ PLCG1 (phospholipase C gamma 1) encodes a signaling enzyme involved in receptor 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-10**.*
 - [PMID:26551667](../papers/26551667.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

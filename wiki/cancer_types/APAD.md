@@ -39,8 +39,6 @@ Appendiceal Adenocarcinoma (AC) is an Appendiceal Cancer (parent BOWEL). Subtype
 ## Sources
 
 - [PMID:36493333](../papers/36493333.md)
-
-*This page was processed by **crosslinker** on **2026-04-10**.*
 - [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

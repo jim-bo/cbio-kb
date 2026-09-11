@@ -27,8 +27,6 @@ The Tuxedo Suite is a bioinformatics pipeline for RNA-seq analysis consisting of
 - Used alongside FusionMap (applied to unmapped reads) in the PIPseq clinical RNA-seq pipeline.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -38,11 +38,7 @@ B-lymphoblastic leukemia/lymphoma, NOS (BLLNOS) is a subtype of B-cell precursor
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40857049](../papers/40857049.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

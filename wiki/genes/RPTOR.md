@@ -42,8 +42,6 @@ RPTOR (regulatory-associated protein of mTOR) encodes a scaffolding component of
 ## Sources
 
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

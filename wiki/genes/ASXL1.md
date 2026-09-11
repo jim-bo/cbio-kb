@@ -55,48 +55,22 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:38147626](../papers/38147626.md)
 - [PMID:38949888](../papers/38949888.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40720765](../papers/40720765.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722839](../papers/22722839.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23634996](../papers/23634996.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24325359](../papers/24325359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466571](../papers/26466571.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
 - [PMID:27959731](../papers/27959731.md)
 
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31768066](../papers/31768066.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24030381](../papers/24030381.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38212634](../papers/38212634.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

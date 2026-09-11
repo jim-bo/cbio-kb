@@ -42,26 +42,12 @@ Thymoma encompasses WHO types A, AB, B1, B2, and B3 thymic epithelial tumors; in
 ## Sources
 
 - [PMID:24974848](../papers/24974848.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

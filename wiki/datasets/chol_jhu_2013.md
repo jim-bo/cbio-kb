@@ -57,8 +57,6 @@ The chol_jhu_2013 cohort was assembled by Jiao, Pawlik, Wood and colleagues at J
 ## Sources
 
 - [PMID:24185509](../papers/24185509.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -24,6 +24,6 @@ ssGSEA computes a per-sample enrichment score for a given gene set from ranked g
 - Coverage, gene list, limitations.
 
 ## Sources
+- [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **entity-page-writer** on **2026-09-10**.*
-- [PMID:36001024](../papers/36001024.md)

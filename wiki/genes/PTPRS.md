@@ -40,8 +40,6 @@ PTPRS (Protein Tyrosine Phosphatase Receptor Type S) encodes a receptor-type pro
 ## Sources
 
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

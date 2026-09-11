@@ -47,11 +47,7 @@ Salivary Carcinoma is the OncoTree umbrella for all malignant salivary gland tum
 ## Sources
 
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). MSK-IMPACT of 56 salivary carcinomas (36 ACYC + 20 other); multiple actionable alteration classes; basket-trial enrollment enabling precision therapy.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29420467](../papers/29420467.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

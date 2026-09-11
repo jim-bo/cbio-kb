@@ -40,14 +40,8 @@ CSMD1 (CUB and Sushi Multiple Domains 1) encodes a large transmembrane protein i
 ## Sources
 
 - [PMID:22622578](../papers/22622578.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:25409260](../papers/25409260.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

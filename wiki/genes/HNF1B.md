@@ -38,11 +38,7 @@ HNF1B (Hepatocyte Nuclear Factor 1 Beta) is a transcription factor with establis
 ## Sources
 
 - [PMID:41102155](../papers/41102155.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

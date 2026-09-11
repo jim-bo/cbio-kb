@@ -34,8 +34,6 @@ Prostate Small Cell Carcinoma (PRSCC) is a rare, aggressive histologic subtype o
 ## Sources
 
 - [PMID:31061129](../papers/31061129.md) — Abida et al., PNAS 2019; SU2C mCRPC WES + RNA-seq cohort (N=429).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

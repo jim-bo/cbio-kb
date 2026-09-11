@@ -31,8 +31,6 @@ BCL11B (B-cell CLL/lymphoma 11B) is a transcription factor with roles in T-cell 
 ## Sources
 
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:38212634](../papers/38212634.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

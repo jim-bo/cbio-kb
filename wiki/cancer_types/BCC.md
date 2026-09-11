@@ -39,11 +39,7 @@ Basal cell carcinoma (BCC) is the most common type of non-melanoma skin cancer, 
 ## Sources
 
 - [PMID:40317189](../papers/40317189.md) — Fowler et al., NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin; BCC mean burden used in surveillance modelling
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). TERT promoter mutations in 75% of 4 advanced BCC; PTCH1 mutations in all hedgehog-inhibitor-responsive cases.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33029006](../papers/33029006.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

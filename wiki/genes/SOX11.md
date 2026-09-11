@@ -42,8 +42,6 @@ SOX11 (SRY-Box Transcription Factor 11) is a neurodevelopmental transcription fa
 ## Sources
 
 - [PMID:27806376](../papers/27806376.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*

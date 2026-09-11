@@ -38,14 +38,8 @@ Teratoma is a germ cell tumor composed of tissues from multiple embryonic germ l
 ## Sources
 
 - [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 49 [MGCT](../cancer_types/MGCT.md) with teratoma elements in MSK [GCT](../cancer_types/GCT.md) cohort; pure teratoma excluded from primary analyses.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32897884](../papers/32897884.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

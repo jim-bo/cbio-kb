@@ -33,8 +33,6 @@ DLK1 (Delta Like Non-Canonical Notch Ligand 1) is a neuroendocrine expression ma
 ## Sources
 
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

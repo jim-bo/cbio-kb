@@ -51,23 +51,11 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 
 - cBioPortal study `prad_tcga` [PMID:38488813](../papers/38488813.md).
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort (n=460 treatment-naïve adenocarcinomas).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31564440](../papers/31564440.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -32,11 +32,7 @@ NGFR (Nerve Growth Factor Receptor; also p75NTR) encodes a low-affinity neurotro
 ## Sources
 
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

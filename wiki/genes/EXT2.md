@@ -40,8 +40,6 @@ EXT2 (exostosin glycosyltransferase 2) encodes a glycosyltransferase required fo
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

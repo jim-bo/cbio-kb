@@ -43,20 +43,10 @@ Vinca alkaloid microtubule inhibitor; the "O" (Oncovin) in CHOP.
 
 - [PMID:41102727](../papers/41102727.md)
 - [PMID:28472509](../papers/28472509.md) — Thomas et al. 2017, *J Clin Oncol*. Phase II NCT00588523; vincristine as V in PCV induction comparator arm for 1p/19q-codeleted anaplastic oligodendroglioma; TMZ found non-inferior.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32633890](../papers/32633890.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40097403](../papers/40097403.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

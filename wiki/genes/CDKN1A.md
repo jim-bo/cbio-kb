@@ -49,44 +49,18 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36543146](../papers/36543146.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41097736](../papers/41097736.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26901067](../papers/26901067.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

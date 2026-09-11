@@ -144,20 +144,10 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 
 
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27939400](../papers/27939400.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39642637](../papers/39642637.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39499893](../papers/39499893.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

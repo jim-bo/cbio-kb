@@ -37,8 +37,6 @@ FOS encodes the c-Fos transcription factor, a component of the AP-1 complex (FOS
 ## Sources
 
 - [PMID:24974848](../papers/24974848.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

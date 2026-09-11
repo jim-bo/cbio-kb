@@ -37,8 +37,6 @@ ELOC (Elongin C; previously TCEB1) is a subunit of the Cullin-RING E3 ubiquitin 
 ## Sources
 
 - [PMID:24487277](../papers/24487277.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

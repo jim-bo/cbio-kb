@@ -36,8 +36,6 @@ Myeloproliferative Neoplasms (MPN) is a group of clonal hematopoietic stem cell 
 ## Sources
 
 - [PMID:24325359](../papers/24325359.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -44,11 +44,7 @@ Sézary syndrome (SS) is an aggressive leukemic form of cutaneous T-cell lymphom
 ## Sources
 
 - [PMID:26551667](../papers/26551667.md) — da Silva Almeida et al., whole-exome sequencing of 42 CTCL patients (25 Sézary syndrome, 8 mycosis fungoides).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -47,31 +47,13 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33025139](../papers/33025139.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38212634](../papers/38212634.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

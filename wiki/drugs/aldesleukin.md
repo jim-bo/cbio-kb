@@ -29,8 +29,6 @@ Aldesleukin (recombinant interleukin-2, IL-2) is a cytokine immunotherapy used i
 ## Cancer types (linked)
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

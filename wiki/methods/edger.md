@@ -28,11 +28,7 @@ edgeR is an R/Bioconductor package for differential gene expression analysis of 
 - For small sample sizes (n < 5 per group), the quasi-likelihood F-test (glmQLFTest) is preferred for more robust dispersion estimation.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29867230](../papers/29867230.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -46,8 +46,6 @@ TCF7L1 (Transcription Factor 7 Like 1, also known as [TCF3](../genes/TCF3.md)) e
 ## Sources
 
 - [PMID:22810696](../papers/22810696.md) — TCGA colorectal cancer, 276 tumors
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

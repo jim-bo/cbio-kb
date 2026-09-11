@@ -48,8 +48,6 @@ XPO1 encodes nuclear export receptor CRM1 and is recurrently mutated in classic 
 - [PMID:24686850](../papers/24686850.md)
 - [PMID:26466571](../papers/26466571.md)
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

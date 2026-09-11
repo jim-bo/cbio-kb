@@ -40,17 +40,9 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 ## Sources
 
 - [PMID:37477937](../papers/37477937.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

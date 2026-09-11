@@ -39,11 +39,7 @@ TCF4 (Transcription Factor 4), also known as E2-2 or ITF2, encodes a basic helix
 ## Sources
 
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:33242424](../papers/33242424.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

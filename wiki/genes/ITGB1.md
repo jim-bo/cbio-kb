@@ -29,8 +29,6 @@ ITGB1 (Integrin Subunit Beta 1) encodes the beta-1 integrin chain, which pairs w
 ## Sources
 
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -39,44 +39,18 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 - Tolerability in C57BL/6 mice confirmed no additional hematologic toxicity beyond [olaparib](../drugs/olaparib.md) monotherapy.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41103502](../papers/41103502.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31591597](../papers/31591597.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

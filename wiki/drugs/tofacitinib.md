@@ -32,8 +32,6 @@ Tofacitinib is a small-molecule inhibitor of [JAK1](../genes/JAK1.md) and [JAK3]
 - [SS](../cancer_types/SS.md) — Sézary syndrome; activity observed in JAK3-mutant cell line model
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

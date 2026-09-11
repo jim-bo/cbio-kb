@@ -61,14 +61,8 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 - [PMID:35504881](../papers/35504881.md)
 
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37980418](../papers/37980418.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38335254](../papers/38335254.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

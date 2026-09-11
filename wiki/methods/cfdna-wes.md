@@ -30,8 +30,6 @@ Cell-free DNA whole-exome sequencing (cfDNA-WES) is a liquid-biopsy approach tha
 - Corpus-grown slug; not in cBioPortal gene-panel ontology.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

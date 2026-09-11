@@ -46,29 +46,13 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 
 - [PMID:18948947](../papers/18948947.md) — Ding et al. 2008, *Nature*. Exome-scale somatic mutation landscape of 188 [LUAD](../cancer_types/LUAD.md) tumours; mutual exclusivity of EGFR and [KRAS](../genes/KRAS.md) mutations supports TKI stratification.
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; gefitinib resistance associated with progressive disease at follow-up.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22802077](../papers/22802077.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

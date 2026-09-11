@@ -36,23 +36,11 @@ Letrozole is a third-generation non-steroidal aromatase inhibitor that blocks CY
 ## Sources
 
 - [PMID:41000773](../papers/41000773.md) — Bu et al. (bioRxiv 2025). Rat somatic genome editing models of ER+ breast cancer; letrozole (GSE5462) used as benchmark neoadjuvant endocrine-therapy transcriptomic reference dataset.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

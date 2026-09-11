@@ -38,8 +38,6 @@ Dedifferentiated chondrosarcoma is a high-grade variant of [chondrosarcoma](../c
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

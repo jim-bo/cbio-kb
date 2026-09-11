@@ -29,8 +29,6 @@ CADD (Combined Annotation Dependent Depletion) is a framework for scoring the de
 ## Sources
 
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -44,26 +44,12 @@ MCL1 is an anti-apoptotic BCL-2 family protein that promotes cell survival by se
 ## Sources
 
 - [PMID:39386723](../papers/39386723.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

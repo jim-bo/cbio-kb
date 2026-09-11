@@ -43,26 +43,12 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 ## Sources
 
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30867592](../papers/30867592.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

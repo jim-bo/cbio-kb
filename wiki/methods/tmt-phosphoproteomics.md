@@ -36,17 +36,9 @@ TMT phosphoproteomics combines isobaric tandem mass tag (TMT) labeling with phos
 - Not in cBioPortal gene-panels or molecular-profiles ontologies; corpus-grown slug.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

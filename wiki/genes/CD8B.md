@@ -38,11 +38,7 @@ CD8B encodes the beta chain of the CD8 co-receptor, paired with [CD8A](../genes/
 ## Sources
 
 - [PMID:37202560](../papers/37202560.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27169994](../papers/27169994.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

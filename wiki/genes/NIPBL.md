@@ -38,11 +38,7 @@ NIPBL (NIPBL, Cohesin Loading Factor) encodes a cohesin-loading factor essential
 ## Sources
 
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

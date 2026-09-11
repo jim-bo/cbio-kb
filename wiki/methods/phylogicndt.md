@@ -27,8 +27,6 @@ Phylogenetic and clonal-dynamics inference toolkit for reconstructing tumor evol
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

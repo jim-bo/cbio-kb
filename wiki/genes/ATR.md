@@ -54,46 +54,20 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 ## Sources
 
 - [PMID:38412093](../papers/38412093.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22495314](../papers/22495314.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41071892](../papers/41071892.md)
 
 - [PMID:33212010](../papers/33212010.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:38335254](../papers/38335254.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39499893](../papers/39499893.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

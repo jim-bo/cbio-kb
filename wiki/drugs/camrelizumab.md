@@ -29,11 +29,7 @@ Camrelizumab (SHR-1210) is a humanized anti-PD-1 ([PDCD1](../genes/PDCD1.md)) mo
 - [NPC](../cancer_types/NPC.md)
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

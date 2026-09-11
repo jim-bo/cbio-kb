@@ -60,8 +60,6 @@ The TCGA Liver Hepatocellular Carcinoma PanCancer Atlas 2018 cohort is the [LIHC
 - cBioPortal study: `lihc_tcga_pan_can_atlas_2018`
 - [PMID:29625048](../papers/29625048.md)
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

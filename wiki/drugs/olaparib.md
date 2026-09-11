@@ -84,8 +84,6 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:34819508](../papers/34819508.md)
 - [PMID:35292802](../papers/35292802.md)
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -44,19 +44,11 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; larotrectinib resistance enabled diagnostic reclassification from [IFS](../cancer_types/IFS.md) to [SCSRMS](../cancer_types/SCSRMS.md).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
 
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 - [PMID:35705558](../papers/35705558.md)

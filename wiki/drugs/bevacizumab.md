@@ -60,14 +60,8 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:40256659](../papers/40256659.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:30742122](../papers/30742122.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

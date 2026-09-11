@@ -47,20 +47,10 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 
 - [PMID:23525077](../papers/23525077.md) — Dulak et al. Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity. *Nat Genet* 2013.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32437664](../papers/32437664.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

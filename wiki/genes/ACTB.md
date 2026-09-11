@@ -38,11 +38,7 @@ ACTB encodes beta-actin, a ubiquitous cytoskeletal protein involved in cell moti
 ## Sources
 
 - [PMID:22343534](../papers/22343534.md) — Whole-exome sequencing identifies recurrent mutations in DLBCL (Broad Institute, 55 tumors)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

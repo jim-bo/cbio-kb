@@ -35,11 +35,7 @@ Chronic Myelomonocytic Leukemia (CMML) is a clonal hematopoietic neoplasm with f
 ## Sources
 
 - [PMID:24325359](../papers/24325359.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32897884](../papers/32897884.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:24030381](../papers/24030381.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

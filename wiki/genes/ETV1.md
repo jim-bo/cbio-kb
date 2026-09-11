@@ -61,14 +61,8 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - [PMID:25223734](../papers/25223734.md)
 
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28472509](../papers/28472509.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31061129](../papers/31061129.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

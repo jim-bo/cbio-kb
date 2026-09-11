@@ -56,17 +56,9 @@ See individual subtype pages. Notable pan-RCC observations from the corpus:
 ## Sources
 
 - [PMID:27713405](../papers/27713405.md) — Chen et al., molecular characterization of 62 MSKCC high-grade uRCCs; defines molecular subtypes of URCC and contextualizes within broader RCC nosology.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30643254](../papers/30643254.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -26,8 +26,6 @@ ShatterSeek is a computational algorithm that detects chromothripsis — a catas
 - In TCGA [SKCM](../cancer_types/SKCM.md), 119 additional low-pass WGS samples were used for copy-number segmentation but not for ShatterSeek analysis.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

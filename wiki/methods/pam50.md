@@ -33,14 +33,8 @@ PAM50 is a 50-gene RT-PCR-based expression assay that classifies breast tumors i
 - Gene panel ID not found in cBioPortal gene-panels ontology; corpus-grown slug.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35121644](../papers/35121644.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

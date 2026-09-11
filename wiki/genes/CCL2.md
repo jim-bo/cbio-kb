@@ -37,8 +37,6 @@ CCL2 (C-C Motif Chemokine Ligand 2; also known as MCP-1) is a monocyte and macro
 ## Sources
 
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

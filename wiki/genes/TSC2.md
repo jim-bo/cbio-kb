@@ -57,20 +57,10 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 - [PMID:32719455](../papers/32719455.md)
 - [PMID:32913971](../papers/32913971.md)
 - [PMID:33466343](../papers/33466343.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

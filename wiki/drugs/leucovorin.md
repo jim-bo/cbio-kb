@@ -37,17 +37,9 @@ Folinic acid; potentiates [fluorouracil](fluorouracil.md) thymidylate synthase i
 
 - [PMID:36493333](../papers/36493333.md)
 - [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31591597](../papers/31591597.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

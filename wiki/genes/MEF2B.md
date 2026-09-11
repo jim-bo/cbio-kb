@@ -45,14 +45,8 @@ MEF2B encodes Myocyte Enhancer Factor 2B, a MADS-box transcription factor that c
 ## Sources
 
 - [PMID:21796119](../papers/21796119.md) — Whole-genome/exome sequencing of non-Hodgkin lymphomas (DLBCL/FL)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22343534](../papers/22343534.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

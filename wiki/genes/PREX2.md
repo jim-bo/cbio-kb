@@ -43,11 +43,7 @@ PREX2 (Phosphatidylinositol-3,4,5-Trisphosphate Dependent Rac Exchange Factor 2)
 ## Sources
 
 - [PMID:22622578](../papers/22622578.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

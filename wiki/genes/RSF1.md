@@ -37,8 +37,6 @@ RSF1 (Remodeling and Spacing Factor 1) encodes a chromatin remodeling protein th
 ## Sources
 
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:30867590](../papers/30867590.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

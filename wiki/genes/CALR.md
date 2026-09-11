@@ -41,14 +41,8 @@ CALR (calreticulin) encodes an endoplasmic reticulum chaperone protein. Somatic 
 ## Sources
 
 - [PMID:24325359](../papers/24325359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

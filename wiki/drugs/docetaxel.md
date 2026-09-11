@@ -45,26 +45,12 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - [PMID:23999436](../papers/23999436.md)
 - [PMID:26928463](../papers/26928463.md)
 - [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WashU UC WES cohort; docetaxel + [ramucirumab](../drugs/ramucirumab.md) as later-line regimen in WCM117 post-cisplatin/gemcitabine.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41102727](../papers/41102727.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220891](../papers/32220891.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

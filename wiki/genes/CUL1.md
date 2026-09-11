@@ -33,8 +33,6 @@ CUL1 (Cullin 1) is the scaffold protein of the SCF (SKP1-CUL1-F-box) E3 ubiquiti
 ## Sources
 
 - [PMID:40896366](../papers/40896366.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

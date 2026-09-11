@@ -29,8 +29,6 @@ Arsenic trioxide (ATO) is a small inorganic compound that induces differentiatio
 ## Sources
 
 - [PMID:30333627](../papers/30333627.md) — Beat AML program: ex vivo drug sensitivity and genomic profiling of 562 AML patients.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

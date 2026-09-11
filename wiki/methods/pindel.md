@@ -39,46 +39,20 @@ Pindel is a pattern growth algorithm for detecting break points of large deletio
 - Specialized in detecting events that confound standard alignment-based variant callers, including medium-to-large indels.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24336570](../papers/24336570.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26804919](../papers/26804919.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26901067](../papers/26901067.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28783718](../papers/28783718.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
 
 - [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

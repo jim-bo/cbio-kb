@@ -37,17 +37,9 @@ Tamoxifen is a selective estrogen receptor modulator (SERM) used as adjuvant and
 ## Sources
 
 - [PMID:41137179](../papers/41137179.md) — Endometrial polyp WGS study (n=23); tamoxifen cited as known risk factor for KRAS-mutated endometrial polyps; not represented in this cohort.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29713003](../papers/29713003.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

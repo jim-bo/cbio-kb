@@ -39,14 +39,8 @@ SRC encodes a non-receptor tyrosine kinase and is the prototypical member of the
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:34534465](../papers/34534465.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -50,41 +50,17 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 ## Sources
 
 - [PMID:38895302](../papers/38895302.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

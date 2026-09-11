@@ -30,11 +30,7 @@ KRT19 (Keratin 19) encodes a type I intermediate filament protein expressed in e
 ## Sources
 
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

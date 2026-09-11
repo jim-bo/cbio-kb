@@ -44,29 +44,13 @@ SOX2 (SRY-Box Transcription Factor 2) is a transcription factor essential for ma
 ## Sources
 
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30742119](../papers/30742119.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

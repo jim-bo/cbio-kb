@@ -39,8 +39,6 @@ SLC45A3 (also known as PROSTEIN) encodes a prostate-specific androgen-regulated 
 ## Sources
 
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

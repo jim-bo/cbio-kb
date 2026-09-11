@@ -71,11 +71,7 @@ The companion cell-line resource providing mutation, copy-number, and expression
 - cBioPortal study: `ccle_broad_2019`
 - Ghandi et al. *Nature* 2019. [PMID:31068700](../papers/31068700.md)
 - Nusinow et al. *Cell* 2020. [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

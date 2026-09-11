@@ -40,14 +40,8 @@ CHD2 (Chromodomain Helicase DNA Binding Protein 2) encodes an ATP-dependent chro
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

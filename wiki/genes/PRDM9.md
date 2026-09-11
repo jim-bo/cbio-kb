@@ -43,8 +43,6 @@ PRDM9 encodes a histone H3 lysine 4 trimethyltransferase that specifies meiotic 
 ## Sources
 
 - [PMID:21798893](../papers/21798893.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:25223734](../papers/25223734.md)
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*

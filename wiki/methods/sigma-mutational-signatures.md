@@ -38,19 +38,11 @@ SigMA is a computational tool for detecting mutational signatures — in particu
 - [PMID:35764743](../papers/35764743.md)
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33263939](../papers/33263939.md)
 
 - [PMID:33863915](../papers/33863915.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:38347189](../papers/38347189.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

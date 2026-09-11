@@ -30,20 +30,10 @@ Hybridization-based platform for simultaneous measurement of mRNA abundance acro
 - Largely superseded by RNA-seq for new studies but extensive legacy HCC datasets remain on microarray platforms.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:27169994](../papers/27169994.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

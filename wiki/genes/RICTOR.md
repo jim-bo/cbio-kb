@@ -39,14 +39,8 @@ RICTOR is a core component of the mTORC2 complex. In the corpus it is highlighte
 ## Sources
 
 - [PMID:36357680](../papers/36357680.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

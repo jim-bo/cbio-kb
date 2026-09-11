@@ -43,14 +43,8 @@ PAX3 is a paired-box transcription factor. PAX3::[FOXO1](../genes/FOXO1.md) fusi
 
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37730754](../papers/37730754.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -43,20 +43,10 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 - [PMID:22460905](../papers/22460905.md)
 - [PMID:22802077](../papers/22802077.md)
 - [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; [EGFR](../genes/EGFR.md) over-expression in the PI3K/AKT/mTOR alteration module linked to prior lapatinib phase III trial data in this cancer type.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39031567](../papers/39031567.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

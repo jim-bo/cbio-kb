@@ -76,8 +76,6 @@ Integrated multi-platform molecular characterization of 333 primary prostate ade
 - [PMID:30537516](../papers/30537516.md)
 - TCGA data portal (prad_tcga_pub)
 - [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

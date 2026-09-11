@@ -36,11 +36,7 @@ Ruxolitinib is an oral JAK1/2 inhibitor FDA-approved for myelofibrosis, polycyth
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; association with rapidly progressive disease phenotype.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

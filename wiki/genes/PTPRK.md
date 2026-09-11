@@ -42,8 +42,6 @@ PTPRK (Protein Tyrosine Phosphatase Receptor Type K) encodes a receptor-type pro
 ## Sources
 
 - [PMID:22842228](../papers/22842228.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:23685749](../papers/23685749.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*

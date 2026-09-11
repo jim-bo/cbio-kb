@@ -40,17 +40,9 @@ TRAF3 is a negative regulator of NF-κB signaling disrupted in U-CLL via a recur
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

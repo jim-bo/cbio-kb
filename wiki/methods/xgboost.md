@@ -29,11 +29,7 @@ XGBoost (eXtreme Gradient Boosting) is a gradient-boosted decision tree machine 
 ## Sources
 
 - [PMID:38480799](../papers/38480799.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:40834854](../papers/40834854.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

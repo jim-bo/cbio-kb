@@ -31,13 +31,7 @@ Amplicon sequencing of the bacterial 16S rRNA gene used to characterize microbia
 
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:41941260](../papers/41941260.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
-
-*This page was processed by **crosslinker** on **2026-04-15**.*
 - [PMID:41096729](../papers/41096729.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

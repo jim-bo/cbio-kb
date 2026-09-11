@@ -63,8 +63,6 @@ The Beat [AML](../cancer_types/AML.md) program is a prospective multi-institutio
 - GDC data release
 - Vizome interactive browser: www.vizome.org
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

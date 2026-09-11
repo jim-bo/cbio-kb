@@ -28,11 +28,7 @@ CREST (Clipping REveals STructure) is a structural variant detection algorithm t
 - Commonly used with DELLY and Pindel in complementary SV calling pipelines.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25223734](../papers/25223734.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

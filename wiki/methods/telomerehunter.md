@@ -27,8 +27,6 @@ TelomereHunter is a tool for estimating telomere content and length from whole-g
 - Passive-smoker tumours had shorter telomeres than non-passive-smoker tumours (P=0.005) despite no detectable SBS4 (tobacco) signature, suggesting telomere shortening as a non-mutational biological correlate of smoke exposure.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

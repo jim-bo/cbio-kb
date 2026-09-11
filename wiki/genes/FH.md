@@ -38,11 +38,7 @@ FH (Fumarate Hydratase) encodes a mitochondrial and cytosolic enzyme catalyzing 
 ## Sources
 
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

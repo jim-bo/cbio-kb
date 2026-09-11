@@ -31,11 +31,7 @@ Random survival forest (RSF) is an ensemble machine-learning method that extends
 
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39506116](../papers/39506116.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

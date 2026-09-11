@@ -35,14 +35,8 @@ Capmatinib is a selective, potent [MET](../genes/MET.md) inhibitor FDA-approved 
 ## Sources
 
 - [PMID:39289779](../papers/39289779.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

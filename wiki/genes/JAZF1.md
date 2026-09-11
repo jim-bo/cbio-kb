@@ -43,8 +43,6 @@ JAZF1 (JAZF Zinc Finger 1) encodes a transcriptional repressor involved in gluco
 ## Sources
 
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32299819](../papers/32299819.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

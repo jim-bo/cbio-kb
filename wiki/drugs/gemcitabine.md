@@ -79,23 +79,11 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:34534465](../papers/34534465.md)
 - [PMID:35508466](../papers/35508466.md)
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
 - [PMID:27939400](../papers/27939400.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35662283](../papers/35662283.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39499893](../papers/39499893.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39642637](../papers/39642637.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

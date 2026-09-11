@@ -38,8 +38,6 @@ SIRT3 is a mitochondrially-localized NAD+-dependent deacetylase (sirtuin family)
 ## Sources
 
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

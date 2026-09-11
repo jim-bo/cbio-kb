@@ -42,8 +42,6 @@ BCL9L encodes a WNT signaling co-factor that promotes beta-catenin-mediated tran
 ## Sources
 
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

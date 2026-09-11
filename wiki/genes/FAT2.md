@@ -37,11 +37,7 @@ FAT2 is a member of the FAT cadherin family of tumor suppressor genes. In esopha
 ## Sources
 
 - [PMID:24686850](../papers/24686850.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

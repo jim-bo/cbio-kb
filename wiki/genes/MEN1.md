@@ -47,26 +47,12 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 ## Sources
 
 - [PMID:21252315](../papers/21252315.md) — Exome sequencing of pancreatic neuroendocrine tumors (PanNETs)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

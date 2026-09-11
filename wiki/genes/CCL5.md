@@ -37,8 +37,6 @@ CCL5 (RANTES) is a CCR5 ligand chemokine that recruits effector T cells and is a
 ## Sources
 
 - [PMID:37202560](../papers/37202560.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

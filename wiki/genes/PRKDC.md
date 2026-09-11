@@ -43,26 +43,12 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 
 ## Sources
 
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

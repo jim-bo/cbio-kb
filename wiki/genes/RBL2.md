@@ -36,11 +36,7 @@ RBL2 (RB transcriptional corepressor like 2), also known as p130, is a member of
 ## Sources
 
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

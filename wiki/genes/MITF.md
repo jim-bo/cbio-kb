@@ -46,35 +46,15 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28783718](../papers/28783718.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32913971](../papers/32913971.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

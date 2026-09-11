@@ -38,12 +38,8 @@ Rapamycin-ester mTOR inhibitor; used in pediatric sarcoma trial regimens (e.g., 
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; PI3K/AKT/mTOR pathway altered in ~28% of tumors, with temsirolimus trials in advanced RCC cited as therapeutic context.
 - [PMID:40694421](../papers/40694421.md) — SF3B1-mutant/del(13q) CLL mouse model; temsirolimus + H3B-8800 combination synergistic in DM CLL cells in vitro and in vivo.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29100075](../papers/29100075.md)
 - [PMID:33863915](../papers/33863915.md) — da Silva et al. 2021, MSKCC metaplastic breast cancer (N=60); PIK3CA enrichment in non-chondroid MBC supports mTOR inhibition + liposomal doxorubicin + bevacizumab in PI3K-pathway-altered triple-negative MBC.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

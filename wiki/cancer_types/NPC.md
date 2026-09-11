@@ -43,11 +43,7 @@ Nasopharyngeal carcinoma (NPC) is an EBV-driven epithelial malignancy arising fr
 ## Sources
 
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). 8 NPC cases in MSK-IMPACT cohort of 151 advanced head and neck tumors; PIK3CA mutation prompted PI3K-inhibitor trial enrollment.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41103502](../papers/41103502.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

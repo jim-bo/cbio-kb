@@ -49,11 +49,7 @@ PRKACA encodes the catalytic alpha subunit of cAMP-dependent protein kinase A (P
 - [PMID:28162975](../papers/28162975.md)
 
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

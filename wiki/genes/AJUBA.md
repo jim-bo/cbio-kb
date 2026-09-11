@@ -42,14 +42,8 @@ AJUBA encodes a LIM domain protein involved in cell adhesion and signaling. It h
 ## Sources
 
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

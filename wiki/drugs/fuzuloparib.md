@@ -27,8 +27,6 @@ Fuzuloparib (SHR-3162) is an oral PARP1/2 ([PARP1](../genes/PARP1.md)) inhibitor
 - [NPC](../cancer_types/NPC.md)
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

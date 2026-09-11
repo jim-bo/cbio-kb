@@ -29,8 +29,6 @@ LINX is an open-source structural variant (SV) annotation and interpretation too
 ## Sources
 
 - [PMID:35982973](../papers/35982973.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

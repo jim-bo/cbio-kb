@@ -38,14 +38,8 @@ Allosteric MEK1/2 inhibitor used to target MAPK-pathway-activated tumors.
 - [PMID:38922339](../papers/38922339.md)
 
 - [PMID:30867592](../papers/30867592.md) — Diamond et al. 2019, phase 2 single-arm trial (n=18) in histiocytic neoplasms; 89% PET ORR across all MAPK genotypes; no acquired resistance at 1-year follow-up.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

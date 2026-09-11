@@ -37,8 +37,6 @@ CDH13 (Cadherin 13; also T-cadherin) encodes an atypical cadherin lacking a cyto
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

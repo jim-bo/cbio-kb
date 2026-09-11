@@ -45,11 +45,7 @@ PAX5 (Paired Box 5) encodes a transcription factor essential for B-cell identity
 ## Sources
 
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

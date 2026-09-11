@@ -37,8 +37,6 @@ Tucatinib (brand name Tukysa) is an orally bioavailable, HER2-selective small-mo
 ## Sources
 
 - [PMID:34795269](../papers/34795269.md) — Smith et al., MAPK pathway alterations and anti-HER2 resistance in HER2+ breast cancer (MSK-IMPACT cohort of 733 tumors).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

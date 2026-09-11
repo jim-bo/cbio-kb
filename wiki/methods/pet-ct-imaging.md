@@ -28,8 +28,6 @@ Hybrid positron emission tomography combined with computed tomography (PET-CT), 
 ## Sources
 
 - [PMID:30179230](../papers/30179230.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:28445469](../papers/28445469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

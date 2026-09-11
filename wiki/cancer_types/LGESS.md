@@ -36,8 +36,6 @@ Low-grade endometrial stromal sarcoma (LGESS) is an indolent uterine mesenchymal
 ## Sources
 
 - [PMID:32299819](../papers/32299819.md) — Hensley et al., prospective MSK-IMPACT sequencing of 107 uterine sarcomas including n=4 LGESS; ESR1-mutant case and JAZF1-SUZ12 fusion detection described.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

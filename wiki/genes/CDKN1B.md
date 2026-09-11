@@ -57,23 +57,11 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 - [PMID:24434212](../papers/24434212.md)
 
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26551667](../papers/26551667.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

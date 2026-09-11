@@ -112,35 +112,15 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - [PMID:35649412](../papers/35649412.md)
 
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38335254](../papers/38335254.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40511613](../papers/40511613.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41758938](../papers/41758938.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

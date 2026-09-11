@@ -29,8 +29,6 @@ ASCETS is a computational tool that infers chromosome arm-level somatic copy-num
 ## Sources
 
 - [PMID:34667026](../papers/34667026.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:38335254](../papers/38335254.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

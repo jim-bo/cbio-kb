@@ -31,8 +31,6 @@ CEACAM5 (Carcinoembryonic Antigen Related Cell Adhesion Molecule 5), commonly kn
 ## Sources
 
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

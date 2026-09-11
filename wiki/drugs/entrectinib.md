@@ -32,17 +32,9 @@ Entrectinib (RXDX-101) is an orally available, CNS-penetrant inhibitor of TRKA/B
 ## Sources
 
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

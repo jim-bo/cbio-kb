@@ -46,20 +46,10 @@ BCL6 is a transcriptional repressor and proto-oncogene that plays a central role
 ## Sources
 
 - [PMID:38497151](../papers/38497151.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -42,8 +42,6 @@ Low-grade glioma NOS (LGGNOS) is a CNS/Brain tumor in the Glioma main type, posi
 ## Sources
 
 - [PMID:33242424](../papers/33242424.md) — Petralia et al. proteogenomic analysis of 218 pediatric brain tumors (CPTAC).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

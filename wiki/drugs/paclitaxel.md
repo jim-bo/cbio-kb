@@ -45,44 +45,18 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 ## Sources
 
 - [PMID:27698471](../papers/27698471.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21720365](../papers/21720365.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41071892](../papers/41071892.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; [TRMT10A](../genes/TRMT10A.md) loss confers paclitaxel sensitivity in 22Rv1 and C4-2 cells consistent with impaired HR shifting DSB repair toward NHEJ/MMEJ.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41103502](../papers/41103502.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32897884](../papers/32897884.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39031567](../papers/39031567.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

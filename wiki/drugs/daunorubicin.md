@@ -38,8 +38,6 @@ Daunorubicin (daunomycin) is an anthracycline that intercalates DNA and inhibits
 ## Sources
 
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU AML/MDS [decitabine](../drugs/decitabine.md) trial; daunorubicin + cytarabine 7+3 as comparator; TP53-mutant AML yields only 4–6-month median [OS](../cancer_types/OS.md) on conventional induction.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

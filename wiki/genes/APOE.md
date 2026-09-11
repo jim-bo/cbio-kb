@@ -38,8 +38,6 @@ APOE (apolipoprotein E) is a lipid transport protein highly expressed in astrocy
 ## Sources
 
 - [PMID:27806376](../papers/27806376.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

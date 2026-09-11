@@ -37,8 +37,6 @@ LUM (Lumican) is an extracellular matrix proteoglycan belonging to the small leu
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

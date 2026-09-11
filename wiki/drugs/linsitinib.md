@@ -35,8 +35,6 @@ Linsitinib (OSI-906) is an orally available, selective dual inhibitor of the ins
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; linsitinib included in drug library.
-
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
 - [PMID:41758938](../papers/41758938.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

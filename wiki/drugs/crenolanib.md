@@ -33,8 +33,6 @@ Crenolanib is a selective inhibitor of [PDGFRA](../genes/PDGFRA.md), [PDGFRB](..
 - [MEL](../cancer_types/MEL.md)
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -33,23 +33,11 @@ The Illumina Infinium MethylationEPIC BeadChip (EPIC/850K array) measures DNA me
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36585450](../papers/36585450.md)
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:41102727](../papers/41102727.md)
 - [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

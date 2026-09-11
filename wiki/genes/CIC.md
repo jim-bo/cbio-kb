@@ -48,29 +48,13 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 - [PMID:37910594](../papers/37910594.md)
 - [PMID:27806376](../papers/27806376.md)
 - [PMID:39506116](../papers/39506116.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41102727](../papers/41102727.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28472509](../papers/28472509.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

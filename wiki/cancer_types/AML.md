@@ -87,11 +87,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 
 
 - [PMID:35868306](../papers/35868306.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24030381](../papers/24030381.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38212634](../papers/38212634.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -38,11 +38,7 @@ SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as 
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

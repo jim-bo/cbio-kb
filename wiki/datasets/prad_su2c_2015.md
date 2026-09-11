@@ -64,8 +64,6 @@ Prospective integrative clinical sequencing cohort of 150 men with metastatic ca
 
 - cBioPortal study: `prad_su2c_2015`
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

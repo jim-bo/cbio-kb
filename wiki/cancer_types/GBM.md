@@ -70,39 +70,19 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - [PMID:24120142](../papers/24120142.md)
 - [PMID:24336570](../papers/24336570.md)
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
 - [PMID:29625055](../papers/29625055.md)
 - [PMID:30675060](../papers/30675060.md)
 - [PMID:30742119](../papers/30742119.md)
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. MSK glioma prospective cohort (Clinical Cancer Research 2019).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

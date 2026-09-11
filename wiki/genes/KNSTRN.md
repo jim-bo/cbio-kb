@@ -37,8 +37,6 @@ KNSTRN (kinetochore-localized astrin/SPAG5 binding protein) encodes a kinetochor
 ## Sources
 
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

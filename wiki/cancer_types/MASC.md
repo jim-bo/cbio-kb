@@ -34,8 +34,6 @@ Mammary Analogue Secretory Carcinoma is a rare salivary gland carcinoma defined 
 ## Sources
 
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). ETV6-NTRK3 fusion identified by MSK-IMPACT in 2 salivary tumors initially diagnosed as acinic cell carcinoma, reclassifying them as MASC with dramatic TRK inhibitor responses.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

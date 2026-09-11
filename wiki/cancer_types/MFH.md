@@ -45,14 +45,8 @@ Undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)), historical
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 14 RT-UPS.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

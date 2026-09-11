@@ -34,8 +34,6 @@ Pancreatoblastoma is a rare malignant pancreatic neoplasm that sits under Pancre
 ## Sources
 
 - [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

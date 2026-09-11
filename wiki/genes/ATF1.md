@@ -37,8 +37,6 @@ ATF1 (Activating Transcription Factor 1) is a member of the CREB/ATF family of b
 ## Sources
 
 - [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

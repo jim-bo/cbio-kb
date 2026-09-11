@@ -37,8 +37,6 @@ Lung Neuroendocrine Tumor (LNET) is a well-differentiated neuroendocrine neoplas
 - [PMID:40328872](../papers/40328872.md)
 
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -32,14 +32,8 @@ PARADIGM (PAthway Recognition Algorithm using Data Integration on Genomic Models
 ## Sources
 
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

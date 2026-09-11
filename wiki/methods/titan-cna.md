@@ -29,13 +29,9 @@ TITAN is a probabilistic model for inferring subclonal copy number alterations (
 - Frequently used alongside PyClone (SNV clustering) for multi-modal clonal analysis.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
 
 - [PMID:31748746](../papers/31748746.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

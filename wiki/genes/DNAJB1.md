@@ -41,8 +41,6 @@ DNAJB1 encodes a co-chaperone protein (DnaJ Heat Shock Protein Family Member B1)
 ## Sources
 
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

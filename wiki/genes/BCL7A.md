@@ -40,11 +40,7 @@ BCL7A is a SWI/SNF-associated gene recurrently mutated in B-cell lymphomas, wher
 ## Sources
 
 - [PMID:36723991](../papers/36723991.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -38,11 +38,7 @@ SSX2 (SSX Family Member 2) is a cancer-testis antigen gene located on chromosome
 ## Sources
 
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

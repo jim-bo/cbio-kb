@@ -42,11 +42,7 @@ No molecular subtypes distinguished in the corpus beyond the H3 K27-altered defi
 
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:23817572](../papers/23817572.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

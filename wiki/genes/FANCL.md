@@ -42,8 +42,6 @@ FANCL (Fanconi Anemia Complementation Group L) is the catalytic E3 ubiquitin lig
 ## Sources
 
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

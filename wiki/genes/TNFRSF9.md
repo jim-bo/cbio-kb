@@ -37,8 +37,6 @@ TNFRSF9 (4-1BB, CD137) is a T-cell co-stimulatory receptor in the TNF receptor s
 ## Sources
 
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

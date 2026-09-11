@@ -37,8 +37,6 @@ TGFBR1 encodes TGF-β receptor type I (ALK5), a serine/threonine kinase receptor
 ## Sources
 
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

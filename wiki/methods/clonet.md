@@ -32,11 +32,7 @@ CLONET (CLOnality and Ploidy Estimation from Tumor) is a computational method fo
 - Two samples showed discordant CLONET/ABSOLUTE purity estimates and were flagged in the original publication.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

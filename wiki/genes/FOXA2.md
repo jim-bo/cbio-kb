@@ -38,11 +38,7 @@ FOXA2 (forkhead box A2, also known as HNF3B) is a pioneer transcription factor w
 ## Sources
 
 - [PMID:41102155](../papers/41102155.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

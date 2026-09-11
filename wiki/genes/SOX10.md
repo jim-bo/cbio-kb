@@ -43,11 +43,7 @@ SOX10 (SRY-Box Transcription Factor 10) is a high-mobility-group transcription f
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

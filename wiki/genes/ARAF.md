@@ -46,17 +46,9 @@ ARAF (A-Raf proto-oncogene, serine/threonine kinase) is a member of the RAF kina
 ## Sources
 
 - [PMID:26095796](../papers/26095796.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30867592](../papers/30867592.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

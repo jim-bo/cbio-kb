@@ -34,8 +34,6 @@ Computed tomography (CT) imaging: X-ray-based cross-sectional imaging producing 
 - [PMID:38362943](../papers/38362943.md)
 - [PMID:30179230](../papers/30179230.md)
 - [PMID:37397861](../papers/37397861.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:28445469](../papers/28445469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -84,20 +84,10 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:33212010](../papers/33212010.md) — Krug et al. 2020, *Cell* (CPTAC [BRCA](../cancer_types/BRCA.md) proteogenomics). Pseudo-ERBB2+ phenotype (amplified but protein-low in 2/17 amplified cases) proposed as explanation for trastuzumab-refractory tumors; integrated proteogenomic ERBB2 quantification recommended.
 
 - [PMID:33795256](../papers/33795256.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41057477](../papers/41057477.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39031567](../papers/39031567.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

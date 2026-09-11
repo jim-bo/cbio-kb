@@ -30,11 +30,7 @@ ADMIXTURE is a software tool for maximum-likelihood estimation of individual anc
 ## Sources
 
 - [PMID:34667026](../papers/34667026.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:34819518](../papers/34819518.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

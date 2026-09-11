@@ -37,8 +37,6 @@ IRF9 (Interferon Regulatory Factor 9) is a transcription factor that forms the I
 ## Sources
 
 - [PMID:39386723](../papers/39386723.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

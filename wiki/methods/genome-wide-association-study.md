@@ -26,11 +26,7 @@ Population-level study design interrogating common germline variants (SNPs) acro
 - HCC GWAS findings require replication in well-controlled, cross-ancestry cohorts; most published loci are derived from HBV- or HCV-predominant Asian populations [PMID:25369299](../papers/25369299.md).
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

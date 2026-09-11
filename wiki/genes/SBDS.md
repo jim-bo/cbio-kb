@@ -37,8 +37,6 @@ SBDS (Shwachman-Bodian-Diamond Syndrome) encodes a ribosome biogenesis factor re
 ## Sources
 
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

@@ -71,8 +71,6 @@ The pcpg_tcga_pub dataset is the TCGA pheochromocytoma and paraganglioma (PCPG) 
 
 - cBioPortal study: pcpg_tcga_pub
 - Published: TCGA PCPG Analysis Working Group, Cancer Cell 2017.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

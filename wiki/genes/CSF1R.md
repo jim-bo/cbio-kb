@@ -37,8 +37,6 @@ CSF1R is a receptor tyrosine kinase that governs macrophage lineage survival and
 ## Sources
 
 - [PMID:36862133](../papers/36862133.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

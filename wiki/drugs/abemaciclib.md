@@ -45,20 +45,10 @@ Abemaciclib (Verzenio) is a selective CDK4/6 inhibitor that blocks [CDK4](../gen
 ## Sources
 
 - [PMID:32404308](../papers/32404308.md) — Wander et al., whole-exome sequencing of 59 metastatic HR+/HER2- breast cancer biopsies identifying eight categories of CDK4/6 inhibitor resistance mechanisms.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34544752](../papers/34544752.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

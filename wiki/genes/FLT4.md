@@ -41,17 +41,9 @@ FLT4 (also known as VEGFR3) encodes vascular endothelial growth factor receptor 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

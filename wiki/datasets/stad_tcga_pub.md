@@ -66,11 +66,7 @@ Multi-platform molecular characterization of 295 primary, treatment-naive gastri
 
 - cBioPortal studyId: stad_tcga_pub
 - TCGA Data Portal
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

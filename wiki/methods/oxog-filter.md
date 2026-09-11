@@ -27,8 +27,6 @@ The OxoG filter removes oxidative DNA damage artifacts from somatic variant call
 - Part of the standard Broad Institute variant-calling quality-control suite.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

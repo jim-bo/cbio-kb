@@ -29,8 +29,6 @@ Apatinib is an oral small-molecule inhibitor selectively targeting VEGFR2 ([KDR]
 - [NPC](../cancer_types/NPC.md)
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

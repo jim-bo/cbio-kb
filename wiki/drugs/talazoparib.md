@@ -37,8 +37,6 @@ Talazoparib is a potent PARP1/PARP2 inhibitor with among the highest PARP-trappi
 ## Sources
 
 - [PMID:41071892](../papers/41071892.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; talazoparib named as PARPi class member.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

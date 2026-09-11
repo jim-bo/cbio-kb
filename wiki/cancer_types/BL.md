@@ -35,11 +35,7 @@ Burkitt lymphoma (BL) is a highly aggressive mature B-cell malignancy typically 
 ## Sources
 
 - [PMID:41002403](../papers/41002403.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

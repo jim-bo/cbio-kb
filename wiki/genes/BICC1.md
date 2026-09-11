@@ -39,14 +39,8 @@ BICC1 (BicC Family RNA Binding Protein 1) encodes an RNA-binding protein involve
 ## Sources
 
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

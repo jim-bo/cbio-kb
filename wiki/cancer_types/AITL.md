@@ -36,8 +36,6 @@ Angioimmunoblastic T-Cell Lymphoma is a Mature T and NK Neoplasm (parent MTNN) a
 ## Sources
 
 - [PMID:37078708](../papers/37078708.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:41002403](../papers/41002403.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

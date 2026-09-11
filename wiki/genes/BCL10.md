@@ -38,11 +38,7 @@ BCL10 (B-cell CLL/lymphoma 10) is a signaling adapter protein that positively re
 ## Sources
 
 - [PMID:21796119](../papers/21796119.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -42,14 +42,8 @@ FANCM (FA Complementation Group M) encodes a DNA translocase component of the Fa
 - [PMID:25233892](../papers/25233892.md)
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:40857049](../papers/40857049.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

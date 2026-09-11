@@ -42,14 +42,8 @@ MiMSI (Multiple Instance learning for MicroSatellite Instability) is a deep lear
 ## Sources
 
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. developed and validated MiMSI on 1,058 training/test samples enriched for difficult MSI-calling cases plus a 5,037-sample prospective cohort with orthogonal MMR IHC; MiMSI sensitivity 0.895 vs MSISensor 0.67 on the held-out test set, with the advantage concentrated in low-purity tumors (<30%); global comparison across 45,112 MSK-IMPACT tumors showed 96% concordance with MSIsensor and a 3.33-fold reduction in indeterminate calls [PMID:39746944](../papers/39746944.md).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

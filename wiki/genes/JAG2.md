@@ -38,11 +38,7 @@ JAG2 (Jagged canonical Notch ligand 2) encodes a Notch pathway ligand. In oral s
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26829750](../papers/26829750.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

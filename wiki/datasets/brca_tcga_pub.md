@@ -64,11 +64,7 @@ Landmark multi-platform molecular characterization of 825 primary breast cancers
 - [PMID:23000897](../papers/23000897.md)
 - [PMID:41000773](../papers/41000773.md)
 - [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:28027327](../papers/28027327.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31552290](../papers/31552290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

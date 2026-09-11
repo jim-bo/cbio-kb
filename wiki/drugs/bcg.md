@@ -31,11 +31,7 @@ Bacille Calmette-Guerin (BCG) is a live attenuated strain of Mycobacterium bovis
 ## Sources
 
 - [PMID:30290956](../papers/30290956.md) — Pietzak et al.: genomic comparison of primary vs secondary MIBC; BCG-mediated selective pressure on ERCC2-mutant subclones as a hypothesis for differential [cisplatin](../drugs/cisplatin.md) sensitivity.
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:39550333](../papers/39550333.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

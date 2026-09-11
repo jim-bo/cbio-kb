@@ -37,8 +37,6 @@ NEGR1 (Neuronal Growth Regulator 1) encodes an immunoglobulin superfamily cell-a
 ## Sources
 
 - [PMID:23792563](../papers/23792563.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

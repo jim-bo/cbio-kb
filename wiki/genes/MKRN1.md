@@ -37,8 +37,6 @@ MKRN1 (Makorin Ring Finger Protein 1) is an E3 ubiquitin ligase with roles in RN
 ## Sources
 
 - [PMID:23817572](../papers/23817572.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -35,14 +35,8 @@ Topotecan is a topoisomerase I inhibitor used in relapsed ovarian cancer, small-
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; osteosarcoma sensitivity (p=0.028) and leiomyosarcoma resistance (p=0.031).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

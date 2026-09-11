@@ -37,8 +37,6 @@ P2RY8 encodes a G protein-coupled purinergic receptor expressed on lymphocytes. 
 ## Sources
 
 - [PMID:22343534](../papers/22343534.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

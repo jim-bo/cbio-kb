@@ -31,20 +31,10 @@ PCR-based microsatellite instability (MSI) testing using the Promega MSI Analysi
 - MSI-H status in this corpus has been associated with hypermutator phenotypes and biallelic MMR gene loss (e.g. [MSH2](../genes/MSH2.md) in pancreatic acinar cell carcinoma).
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41097736](../papers/41097736.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28485815](../papers/28485815.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

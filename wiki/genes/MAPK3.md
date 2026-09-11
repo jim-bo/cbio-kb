@@ -39,14 +39,8 @@ MAPK3 (Mitogen-Activated Protein Kinase 3), also known as ERK1, is a serine/thre
 ## Sources
 
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

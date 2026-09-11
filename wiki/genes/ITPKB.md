@@ -38,8 +38,6 @@ ITPKB encodes inositol-trisphosphate 3-kinase B. It is a recurrent driver in cla
 ## Sources
 
 - [PMID:36723991](../papers/36723991.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

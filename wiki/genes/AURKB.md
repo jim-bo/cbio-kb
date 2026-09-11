@@ -38,11 +38,7 @@ AURKB (Aurora Kinase B) encodes a serine/threonine kinase that is a key regulato
 ## Sources
 
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

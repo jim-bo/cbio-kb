@@ -34,29 +34,13 @@ Array comparative genomic hybridization (aCGH) using the Agilent 1M human oligon
 - Superseded in large-scale studies by SNP 6.0 arrays and WGS-based CNA inference, but remains in use for clinical and research validation.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

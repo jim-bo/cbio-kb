@@ -29,14 +29,8 @@ The Illumina Infinium HumanMethylation27 BeadChip (HM27) is a genome-wide DNA me
 - Being superseded by HM450 and EPIC arrays in newer studies.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29625048](../papers/29625048.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

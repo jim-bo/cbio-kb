@@ -40,14 +40,8 @@ CCND3 (Cyclin D3) is a D-type cyclin that promotes cell cycle progression by act
 ## Sources
 
 - [PMID:33795256](../papers/33795256.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

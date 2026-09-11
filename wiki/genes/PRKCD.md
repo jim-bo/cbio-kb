@@ -37,8 +37,6 @@ PRKCD (Protein Kinase C Delta) encodes a serine/threonine kinase involved in apo
 ## Sources
 
 - [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

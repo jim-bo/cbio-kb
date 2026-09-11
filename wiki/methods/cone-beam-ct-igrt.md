@@ -28,8 +28,6 @@ Cone-beam CT image-guided radiotherapy (CBCT-IGRT) acquires a volumetric CT imag
 - On-board imaging dose contribution (1–3 cGy per CBCT) is negligible relative to SBRT prescription doses (33 Gy / 5 fx).
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30471129](../papers/30471129.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

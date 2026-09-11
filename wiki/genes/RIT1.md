@@ -43,17 +43,9 @@ RIT1 encodes a member of the Ras superfamily of small GTPases. It is recurrently
 ## Sources
 
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:25079552](../papers/25079552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32299819](../papers/32299819.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

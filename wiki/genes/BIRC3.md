@@ -47,20 +47,10 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24145436](../papers/24145436.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

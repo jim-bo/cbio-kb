@@ -41,8 +41,6 @@ ASXL2 (Additional Sex Combs Like 2) is a chromatin-binding protein in the Polyco
 ## Sources
 
 - [PMID:28988769](../papers/28988769.md) — TCGA comprehensive molecular characterization of 412 MIBC tumors (Robertson et al., 2017).
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

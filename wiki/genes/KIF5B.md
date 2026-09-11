@@ -31,14 +31,8 @@ KIF5B (Kinesin Family Member 5B) encodes a kinesin motor protein involved in int
 ## Sources
 
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40970133](../papers/40970133.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -34,17 +34,9 @@ FLCN (folliculin) is a tumor suppressor gene whose germline mutations cause Birt
 ## Sources
 
 - [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583493](../papers/25583493.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -70,8 +70,6 @@ The GLASS (Glioma Longitudinal Analysis) Consortium dataset comprises temporally
 - cBioPortal study: `difg_glass_2019`
 - GLASS Consortium: https://www.glass-consortium.org/
 - Primary publication: [PMID:31748746](../papers/31748746.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*

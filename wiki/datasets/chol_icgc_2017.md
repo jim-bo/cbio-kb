@@ -72,8 +72,6 @@ The ICGC CCA cohort is the largest integrated multi-omic survey of cholangiocarc
 ## Sources
 
 - Jusakul A, Cutcutache I, Yong CH, et al. Whole-genome and epigenomic landscapes of etiologically distinct subtypes of cholangiocarcinoma. *Cancer Cell.* 2017;32(4):516-527.e8. [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

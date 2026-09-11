@@ -37,8 +37,6 @@ HSPG2 (Perlecan) encodes a heparan sulfate proteoglycan component of the extrace
 ## Sources
 
 - [PMID:38412093](../papers/38412093.md)
-
-*This page was processed by **crosslinker** on **2026-04-11**.*
 - [PMID:23685749](../papers/23685749.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*

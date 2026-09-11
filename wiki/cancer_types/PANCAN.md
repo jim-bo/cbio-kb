@@ -42,11 +42,7 @@ PANCAN is not an OncoTree cancer-type code but is used in this wiki as a corpus 
 ## Sources
 
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

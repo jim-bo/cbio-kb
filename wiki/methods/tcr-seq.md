@@ -30,17 +30,9 @@ Targeted sequencing of T-cell receptor (typically TCRβ) CDR3 regions to charact
 ## Sources
 
 - [PMID:37202560](../papers/37202560.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:28783718](../papers/28783718.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30742122](../papers/30742122.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35121644](../papers/35121644.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

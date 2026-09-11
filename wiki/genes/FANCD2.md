@@ -39,11 +39,7 @@ FANCD2 is a central effector of the Fanconi anemia (FA) DNA repair pathway, acti
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

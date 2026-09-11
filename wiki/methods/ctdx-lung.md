@@ -31,8 +31,6 @@ Resolution Bioscience ctDx Lung targeted next-generation sequencing panel for pl
 
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:39147831](../papers/39147831.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

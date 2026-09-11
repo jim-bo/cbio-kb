@@ -40,8 +40,6 @@ ETV4 (ETS Variant Transcription Factor 4) is an ETS-family transcription factor 
 - [PMID:38488813](../papers/38488813.md)
 
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -41,8 +41,6 @@ ARHGAP35 (Rho GTPase Activating Protein 35, also known as p190-A) encodes a GTPa
 ## Sources
 
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

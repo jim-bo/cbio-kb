@@ -37,8 +37,6 @@ NEAT1 (Nuclear Enriched Abundant Transcript 1) is an abundant nuclear lncRNA tha
 ## Sources
 
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

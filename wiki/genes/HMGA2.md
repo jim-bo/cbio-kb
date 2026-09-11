@@ -40,17 +40,9 @@ HMGA2 (High Mobility Group AT-Hook 2) is a chromatin-associated non-histone prot
 ## Sources
 
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

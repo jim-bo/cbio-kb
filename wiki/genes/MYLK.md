@@ -42,8 +42,6 @@ MYLK (Myosin Light Chain Kinase) encodes a kinase that phosphorylates the regula
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

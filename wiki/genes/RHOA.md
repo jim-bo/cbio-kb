@@ -58,26 +58,12 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 
 - [PMID:41002403](../papers/41002403.md)
 - [PMID:41097736](../papers/41097736.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

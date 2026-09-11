@@ -44,8 +44,6 @@ Oral Cavity Squamous Cell Carcinoma (OCSC) is a subtype of Head and Neck Squamou
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md) — Pickering et al. Integrative genomic characterization of oral squamous cell carcinoma identifies frequent somatic drivers. *Cancer Discov* 2013.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

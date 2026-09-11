@@ -36,8 +36,6 @@ WEE1 is a nuclear kinase that phosphorylates and inactivates [CDK1](../genes/CDK
 ## Sources
 
 - [PMID:32649874](../papers/32649874.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

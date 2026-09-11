@@ -31,20 +31,10 @@ Chromatin immunoprecipitation followed by quantitative PCR (ChIP-qPCR) measures 
 - Results are typically expressed as percent input or enrichment over IgG control.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25240281](../papers/25240281.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

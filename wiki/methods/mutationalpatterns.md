@@ -31,14 +31,8 @@ MutationalPatterns is an R/Bioconductor package for comprehensive analysis of so
 ## Sources
 
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

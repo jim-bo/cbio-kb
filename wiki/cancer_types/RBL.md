@@ -43,8 +43,6 @@ Retinoblastoma (OncoTree: RBL) is a pediatric intraocular malignancy arising fro
 
 - [PMID:32633890](../papers/32633890.md) — Kothari et al. plasma cfDNA RB1 detection in retinoblastoma.
 - [PMID:34145282](../papers/34145282.md) — Brannon et al. MSK-ACCESS cfDNA assay; RB1 germline deletions in two RBL patients identified via matched WBC.
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

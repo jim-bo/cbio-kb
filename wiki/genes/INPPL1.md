@@ -37,8 +37,6 @@ INPPL1 (SHIP2) is a phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase that 
 ## Sources
 
 - [PMID:38922339](../papers/38922339.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

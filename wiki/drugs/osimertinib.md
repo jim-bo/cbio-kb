@@ -41,14 +41,8 @@ Third-generation [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor active again
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; [EGFR](../genes/EGFR.md) post-treatment enrichment and [SETD2](../genes/SETD2.md) immunotherapy-vs-targeted-therapy biomarker contrast in [LUAD](../cancer_types/LUAD.md).
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:36044468](../papers/36044468.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

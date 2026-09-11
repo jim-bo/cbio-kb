@@ -40,8 +40,6 @@ Semisynthetic vinca alkaloid; used in maintenance and relapsed pediatric rhabdom
 
 - [PMID:40958859](../papers/40958859.md)
 - [PMID:28445469](../papers/28445469.md) — Abbosh et al. 2017, *Nature*. TRACERx NSCLC ctDNA study; vinorelbine component of adjuvant cisplatin/carboplatin backbone; ctDNA clearance vs. resistance monitoring.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

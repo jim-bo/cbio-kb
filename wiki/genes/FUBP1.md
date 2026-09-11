@@ -43,20 +43,10 @@ FUBP1 (far upstream element binding protein 1) regulates [MYC](../genes/MYC.md) 
 
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:37910594](../papers/37910594.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28472509](../papers/28472509.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -102,16 +102,8 @@ No molecular subtyping data from the corpus specific to READ yet.
 - [PMID:35970919](../papers/35970919.md)
 
 - [PMID:36611031](../papers/36611031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40100215](../papers/40100215.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

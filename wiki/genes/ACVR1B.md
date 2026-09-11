@@ -38,11 +38,7 @@ ACVR1B (Activin A Receptor Type 1B, also known as ALK4) encodes a type I serine/
 ## Sources
 
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -41,8 +41,6 @@ LTK (Leukocyte Receptor Tyrosine Kinase) is a receptor tyrosine kinase in the AL
 ## Sources
 
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

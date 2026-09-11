@@ -39,32 +39,14 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 - Not in cBioPortal gene-panels ontology; corpus-grown slug.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

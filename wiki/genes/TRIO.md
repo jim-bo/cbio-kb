@@ -43,14 +43,8 @@ TRIO is a guanine nucleotide exchange factor (GEF) with dual RhoGEF domains that
 ## Sources
 
 - [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28373299](../papers/28373299.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

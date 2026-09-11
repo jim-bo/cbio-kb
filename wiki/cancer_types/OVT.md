@@ -37,8 +37,6 @@ Ovarian epithelial tumor (OVT) is the broad OncoTree category for epithelial ova
 ## Sources
 
 - [PMID:38653864](../papers/38653864.md) — Nivolumab for mismatch-repair-deficient or hypermutated gynecologic cancers: a phase 2 trial with biomarker analyses (Nature Medicine, 2024)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:41103502](../papers/41103502.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

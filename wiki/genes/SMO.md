@@ -43,17 +43,9 @@ SMO (Smoothened) is a transmembrane protein in the Hedgehog signaling pathway. I
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23999436](../papers/23999436.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26760213](../papers/26760213.md)
 
 - [PMID:28726821](../papers/28726821.md)

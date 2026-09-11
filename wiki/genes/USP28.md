@@ -33,8 +33,6 @@ USP28 (ubiquitin-specific peptidase 28) is a deubiquitinase that regulates prote
 ## Sources
 
 - [PMID:29610475](../papers/29610475.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

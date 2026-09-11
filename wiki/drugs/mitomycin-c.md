@@ -36,11 +36,7 @@ Mitomycin C is a DNA cross-linking agent that exploits homologous recombination 
 
 - [PMID:25855536](../papers/25855536.md) — Waddell et al. 2015, *Nature*. Pancreatic ductal adenocarcinoma genomics; mitomycin C nominated for FA-pathway-deficient PDAC.
 - [PMID:28583311](../papers/28583311.md) — Pietzak et al. 2017, *Cancer*. MSK NMIBC MSK-IMPACT study; intravesical mitomycin C in 39% of LGTa patients; excluded from index sequencing.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34635660](../papers/34635660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

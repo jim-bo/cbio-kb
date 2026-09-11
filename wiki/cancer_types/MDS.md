@@ -63,8 +63,6 @@ No direct therapeutic implications were demonstrated in the corpus studies for M
 - [PMID:33106634](../papers/33106634.md)
 
 - [PMID:35078859](../papers/35078859.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:24030381](../papers/24030381.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

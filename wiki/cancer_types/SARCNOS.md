@@ -45,17 +45,9 @@ Sarcoma, NOS (not otherwise specified) is a diagnostic category for sarcomas tha
 
 - [PMID:28783718](../papers/28783718.md)
 - [PMID:39305899](../papers/39305899.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30150660](../papers/30150660.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

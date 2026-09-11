@@ -38,8 +38,6 @@ BRD7 (Bromodomain-containing protein 7) is a component of the PBAF (Polybromo-as
 ## Sources
 
 - [PMID:29301960](../papers/29301960.md)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

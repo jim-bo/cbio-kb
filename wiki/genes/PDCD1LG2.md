@@ -51,26 +51,12 @@ PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an 
 ## Sources
 
 - [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26359337](../papers/26359337.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28373299](../papers/28373299.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

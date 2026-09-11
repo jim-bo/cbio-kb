@@ -44,8 +44,6 @@ TXNIP (Thioredoxin Interacting Protein, also known as VDUP1 or TBP-2) encodes an
 ## Sources
 
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -109,3 +109,15 @@ def test_sources_entry_added(wiki_dir):
     )
     text = (wiki_dir / "genes" / "TP53.md").read_text()
     assert "- [PMID:55555555](../papers/55555555.md)" in text
+
+
+def test_repeated_appends_keep_one_trailing_footer(wiki_dir):
+    # Sources is the last section, so its range used to include the footer:
+    # each append inserted after it and stranded another footer mid-list.
+    for pmid in ("22222222", "33333333"):
+        run(wiki_dir, "gene", "TP53", pmid, f"Finding [PMID:{pmid}](../papers/{pmid}.md)")
+    text = (wiki_dir / "genes" / "TP53.md").read_text()
+    assert text.count("*This page was processed by") == 1
+    assert text.rstrip().splitlines()[-1].startswith("*This page was processed by **wiki-cli**")
+    sources = text.split("## Sources", 1)[1]
+    assert sources.index("11111111") < sources.index("22222222") < sources.index("33333333")

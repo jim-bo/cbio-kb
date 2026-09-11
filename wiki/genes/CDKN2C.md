@@ -41,11 +41,7 @@ CDKN2C (p18/INK4C) is a cyclin-dependent kinase inhibitor that specifically inhi
 ## Sources
 
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34544752](../papers/34544752.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

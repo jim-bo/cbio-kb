@@ -37,8 +37,6 @@ CYP21A2 (Cytochrome P450 Family 21 Subfamily A Member 2, also known as 21-hydrox
 ## Sources
 
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

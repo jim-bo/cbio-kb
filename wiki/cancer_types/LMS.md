@@ -50,17 +50,9 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 
 - [PMID:38488807](../papers/38488807.md) — Developing Novel Genomic Risk Stratification Models in Soft Tissue and Uterine Leiomyosarcoma (Clinical Cancer Research, 2024)
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

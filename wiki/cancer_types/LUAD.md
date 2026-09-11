@@ -174,14 +174,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36044468](../papers/36044468.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

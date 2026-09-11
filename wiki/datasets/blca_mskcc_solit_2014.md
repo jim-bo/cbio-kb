@@ -55,8 +55,6 @@ Capture-based massively parallel sequencing (MSK-IMPACT panel) of 109 high-grade
 ## Sources
 
 - cBioPortal studyId: blca_mskcc_solit_2014
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

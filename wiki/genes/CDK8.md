@@ -38,11 +38,7 @@ CDK8 (cyclin-dependent kinase 8) is a transcriptional regulator and component of
 ## Sources
 
 - [PMID:40328872](../papers/40328872.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583493](../papers/25583493.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -40,17 +40,9 @@ JAK3 (Janus Kinase 3) is a tyrosine kinase that mediates cytokine signalling thr
 ## Sources
 
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29337640](../papers/29337640.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

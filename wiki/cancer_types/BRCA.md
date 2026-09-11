@@ -205,17 +205,9 @@ OncoTree code for invasive breast carcinoma.
 
 
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35121644](../papers/35121644.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40379787](../papers/40379787.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

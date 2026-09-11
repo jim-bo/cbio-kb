@@ -44,14 +44,8 @@ NRG1 (Neuregulin 1) encodes a growth factor ligand that activates ERBB3/ERBB4 re
 ## Sources
 
 - [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

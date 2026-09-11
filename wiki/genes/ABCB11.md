@@ -37,8 +37,6 @@ ABCB11 (ATP-binding cassette sub-family B member 11, also known as BSEP) encodes
 ## Sources
 
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41018102](../papers/41018102.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

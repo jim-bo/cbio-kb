@@ -35,8 +35,6 @@ Acute megakaryoblastic leukemia (AMKL) is a subtype of acute myeloid leukemia de
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32897884](../papers/32897884.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

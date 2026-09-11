@@ -30,14 +30,8 @@ siRNA (small interfering RNA) knockdown is an RNA interference (RNAi) technique 
 - Off-target effects are a limitation; rescue experiments or multiple siRNA sequences are used for validation.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:38347189](../papers/38347189.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

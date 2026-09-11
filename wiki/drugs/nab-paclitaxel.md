@@ -42,14 +42,8 @@ Nab-paclitaxel (Abraxane; nanoparticle albumin-bound [paclitaxel](../drugs/pacli
 - [PMID:39214094](../papers/39214094.md) — McIntyre et al. 2024, *Cancer Cell*. KRAS allele-specific PDAC outcomes; gemcitabine/nab-paclitaxel enrichment in KRAS^G12R^ neoadjuvant patients.
 - [PMID:39753968](../papers/39753968.md) — Varghese et al. 2025, *Nature Medicine*. MSK PDAC clinicogenomic landscape; gemcitabine/nab-paclitaxel as standard first-line regimen.
 - [PMID:27826200](../papers/27826200.md) — Tchelebi et al. 2016, *Semin Radiat Oncol*. SBRT in pancreatic cancer review; gemcitabine + nab-paclitaxel + SBRT cited as investigational combination (NCT02318095).
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35662283](../papers/35662283.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

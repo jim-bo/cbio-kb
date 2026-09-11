@@ -41,8 +41,6 @@ Peripheral T-Cell lymphoma, NOS is a Mature T and NK Neoplasm (parent MTNN).
 ## Sources
 
 - [PMID:37078708](../papers/37078708.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:41002403](../papers/41002403.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

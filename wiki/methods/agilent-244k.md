@@ -29,14 +29,8 @@ A microarray platform (Agilent 244,000-feature) used for high-resolution analysi
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:25024180](../papers/25024180.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -37,14 +37,8 @@ Selective FGFR1/2/3 tyrosine kinase inhibitor referenced as a comparator FGFR-ta
 
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:39305899](../papers/39305899.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:39550333](../papers/39550333.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

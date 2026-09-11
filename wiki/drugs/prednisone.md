@@ -33,14 +33,8 @@ Synthetic glucocorticoid; the "P" in CHOP/CHOEP/EPOCH/BV-CH(E)P regimens.
 ## Sources
 
 - [PMID:37078708](../papers/37078708.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

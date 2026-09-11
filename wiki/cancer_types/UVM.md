@@ -50,17 +50,9 @@ UVM is the TCGA cohort identifier for uveal melanoma. The corresponding OncoTree
 - [PMID:29596782](../papers/29596782.md) — MC3 multi-center mutation calling (Ellrott et al., 2018)
 - [PMID:29617662](../papers/29617662.md) — Pan-cancer fusion landscape (Gao et al., 2018)
 - [PMID:29622463](../papers/29622463.md) — Pan-cancer aneuploidy landscape (Taylor et al., 2018)
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

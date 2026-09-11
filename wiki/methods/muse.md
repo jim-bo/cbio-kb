@@ -27,8 +27,6 @@ MuSE (Mutation calling using a Markov Substitution model for Evolution) is a som
 - Non-default parameters were required for optimal performance in the MC3 context.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

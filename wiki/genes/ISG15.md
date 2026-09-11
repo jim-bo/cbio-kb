@@ -38,11 +38,7 @@ ISG15 encodes a ubiquitin-like protein that is robustly induced by type I interf
 ## Sources
 
 - [PMID:39386723](../papers/39386723.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

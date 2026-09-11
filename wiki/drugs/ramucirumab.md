@@ -35,11 +35,7 @@ Ramucirumab is a human monoclonal antibody targeting VEGFR2 ([KDR](../genes/KDR.
 ## Sources
 
 - [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WashU UC WES cohort; ramucirumab + docetaxel later-line context in chemotherapy-refractory urothelial carcinoma.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

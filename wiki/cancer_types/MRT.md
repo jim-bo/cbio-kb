@@ -53,17 +53,9 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 ## Sources
 
 - [PMID:26977886](../papers/26977886.md) — Chun et al., integrative multi-omic reference of 40 extra-cranial MRTs (WGS + WGBS + RNA-Seq + miRNA-Seq + ChIP-Seq)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

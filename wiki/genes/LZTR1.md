@@ -40,14 +40,8 @@ LZTR1 (Leucine-Zipper-Like Transcription Regulator 1) is a putative transcriptio
 ## Sources
 
 - [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:40958859](../papers/40958859.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

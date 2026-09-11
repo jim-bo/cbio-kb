@@ -40,17 +40,9 @@ RPL22 encodes ribosomal protein L22, a component of the 60S ribosomal subunit. I
 ## Sources
 
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

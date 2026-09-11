@@ -41,20 +41,10 @@ AXIN2 (Axis Inhibition Protein 2; also Conductin) is a scaffold protein in the b
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38347189](../papers/38347189.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

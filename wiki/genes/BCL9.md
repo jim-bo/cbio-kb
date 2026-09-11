@@ -41,8 +41,6 @@ BCL9 (B-cell CLL/lymphoma 9) is a co-activator of beta-catenin-mediated transcri
 ## Sources
 
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

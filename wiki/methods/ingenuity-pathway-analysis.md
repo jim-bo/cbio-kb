@@ -31,8 +31,6 @@ Ingenuity Pathway Analysis (IPA) is a commercial bioinformatics platform (Qiagen
 ## Sources
 
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

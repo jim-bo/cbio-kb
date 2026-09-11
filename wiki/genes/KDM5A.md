@@ -40,17 +40,9 @@ KDM5A (Lysine Demethylase 5A, also known as JARID1A or RBP2) is a histone H3K4 d
 ## Sources
 
 - [PMID:23778141](../papers/23778141.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

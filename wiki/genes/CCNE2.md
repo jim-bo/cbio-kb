@@ -39,14 +39,8 @@ CCNE2 encodes cyclin E2, a regulatory subunit of cyclin-dependent kinase 2 ([CDK
 ## Sources
 
 - [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34795269](../papers/34795269.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

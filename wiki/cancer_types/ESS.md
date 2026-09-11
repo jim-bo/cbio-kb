@@ -36,8 +36,6 @@ Endometrial stromal sarcoma (ESS) is a rare uterine mesenchymal malignancy arisi
 ## Sources
 
 - [PMID:32299819](../papers/32299819.md) — Hensley et al., prospective MSK-IMPACT sequencing of 107 uterine sarcomas including ESS subtypes.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

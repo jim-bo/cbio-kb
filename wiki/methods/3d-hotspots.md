@@ -31,6 +31,4 @@ processed_at: 2026-05-16
 - [PMID:29625050](../papers/29625050.md)
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
 *This page was processed by **wiki-cli** on **2026-05-16**.*

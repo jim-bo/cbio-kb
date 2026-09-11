@@ -33,17 +33,9 @@ CIBERSORTx is a computational deconvolution algorithm that estimates the relativ
 ## Sources
 
 - [PMID:36333289](../papers/36333289.md) — UC-GENOME metastatic UC study; CIBERSORTx immune deconvolution of bulk RNA-seq to characterize TME composition by molecular subtype.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35121644](../papers/35121644.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

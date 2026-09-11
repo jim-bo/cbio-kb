@@ -28,11 +28,7 @@ The MC3 (Multi-Center Mutation Calling in Multiple Cancers) dataset refers to th
 - See [mc3-pipeline](../methods/mc3-pipeline.md) for the workflow that produced this resource.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

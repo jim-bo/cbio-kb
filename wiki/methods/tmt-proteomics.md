@@ -35,17 +35,9 @@ Tandem mass tag (TMT) global proteomics is an isobaric chemical labeling approac
 - Not in cBioPortal gene-panels or molecular-profiles ontologies; corpus-grown slug.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

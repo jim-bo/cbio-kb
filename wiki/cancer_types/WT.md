@@ -39,17 +39,9 @@ Wilms' tumor (nephroblastoma) is the most common renal tumor of childhood, typic
 ## Sources
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

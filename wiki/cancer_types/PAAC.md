@@ -40,11 +40,7 @@ Acinar cell carcinoma of the pancreas is a rare malignant pancreatic tumor accou
 ## Sources
 
 - [PMID:39506116](../papers/39506116.md) — Gao et al. *Nature Medicine* 2024. MSK-CHORD clinicogenomic real-world dataset.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

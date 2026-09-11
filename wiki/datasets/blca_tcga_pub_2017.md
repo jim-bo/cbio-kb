@@ -82,17 +82,9 @@ Robertson et al. (TCGA bladder analysis working group) report the comprehensive 
 - cBioPortal study ID: blca_tcga_pub_2017
 - Supersedes [blca_tcga_pub](../datasets/blca_tcga_pub.md) (131-tumor 2014 TCGA [BLCA](../cancer_types/BLCA.md) cohort)
 - TCGA data portal / GDC
-
-*This page was processed by **crosslinker** on **2026-05-15**.*
 - [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:39499893](../papers/39499893.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

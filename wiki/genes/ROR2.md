@@ -37,8 +37,6 @@ ROR2 (Receptor Tyrosine Kinase-Like Orphan Receptor 2) is a transmembrane recept
 ## Sources
 
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

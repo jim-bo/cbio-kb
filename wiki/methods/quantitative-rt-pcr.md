@@ -39,47 +39,19 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - The 3-gene [HCC](../cancer_types/HCC.md) panel ([GPC3](../genes/GPC3.md), LYVE1, survivin) provides a practical complement to IHC for small-nodule diagnosis [PMID:25369299](../papers/25369299.md).
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40694421](../papers/40694421.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26829750](../papers/26829750.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31552290](../papers/31552290.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41125935](../papers/41125935.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:37990009](../papers/37990009.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38347189](../papers/38347189.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

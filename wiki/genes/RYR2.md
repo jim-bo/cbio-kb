@@ -37,8 +37,6 @@ RYR2 encodes Ryanodine Receptor 2, a major intracellular calcium release channel
 ## Sources
 
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -33,11 +33,7 @@ Selective small-molecule [BCL2](../genes/BCL2.md) inhibitor.
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -33,29 +33,13 @@ Genome MuSiC (Mutation Significance in Cancer) is a computational suite for iden
 - Predecessor to tools such as MutSig2CV; developed at the Genome Institute (Washington University).
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583493](../papers/25583493.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

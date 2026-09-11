@@ -37,8 +37,6 @@ ATXN1 (Ataxin-1) encodes a polyglutamine-containing protein involved in transcri
 ## Sources
 
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

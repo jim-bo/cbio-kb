@@ -39,8 +39,6 @@ EED (Embryonic Ectoderm Development) encodes a core structural component of the 
 ## Sources
 
 - [PMID:25240281](../papers/25240281.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:32561749](../papers/32561749.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -30,11 +30,7 @@ Dacarbazine (DTIC) is a DNA alkylating agent and prodrug that is converted in th
 ## Sources
 
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET genomic profiling cohort (n=80 metastatic panNET); serial biopsies after alkylator exposure
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31792460](../papers/31792460.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

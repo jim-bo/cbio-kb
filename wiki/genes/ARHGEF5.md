@@ -40,8 +40,6 @@ ARHGEF5 (Rho Guanine Nucleotide Exchange Factor 5) encodes a Dbl-family GEF that
 ## Sources
 
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32649874](../papers/32649874.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

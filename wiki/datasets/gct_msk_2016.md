@@ -65,8 +65,6 @@ Bagrodia et al. performed whole-exome sequencing on a discovery cohort of 19 adv
 - cBioPortal study ID: `gct_msk_2016`
 - DOI: 10.1200/JCO.2016.68.7798
 - Reference genome: hg19
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:32897884](../papers/32897884.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

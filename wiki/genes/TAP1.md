@@ -47,8 +47,6 @@ TAP1 (Transporter Associated with Antigen Processing 1) is a component of the MH
 - [PMID:27149842](../papers/27149842.md)
 
 - [PMID:31792460](../papers/31792460.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

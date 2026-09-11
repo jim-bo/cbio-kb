@@ -38,11 +38,7 @@ DUX4 (Double Homeobox 4) encodes a transcription factor expressed during early e
 ## Sources
 
 - [PMID:26862087](../papers/26862087.md) — Rettig et al. (2016), whole-genome sequencing of 25 ACC tumors with matched normals (acyc_jhu_2016), somatic copy-number landscape of salivary-gland ACC.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31693904](../papers/31693904.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

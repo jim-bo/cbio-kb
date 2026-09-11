@@ -35,35 +35,15 @@ ANNOVAR (ANNOtate VARiation) is a bioinformatics tool for functionally annotatin
 - Typically used downstream of alignment and variant calling (e.g., MuTect, Pindel), before biological interpretation.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26683228](../papers/26683228.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28783718](../papers/28783718.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29422544](../papers/29422544.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29850653](../papers/29850653.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

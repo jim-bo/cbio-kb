@@ -41,11 +41,7 @@ NFKBIE encodes IkB-epsilon, an inhibitor of NF-kB signaling. In the corpus it ap
 
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:36723991](../papers/36723991.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

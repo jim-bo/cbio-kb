@@ -29,14 +29,8 @@ A workflow management approach that combines Common Workflow Language (CWL) for 
 - The MC3 CWL release was intended as a reference implementation to enable other groups to replicate or extend the pipeline.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29902176](../papers/29902176.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34059130](../papers/34059130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

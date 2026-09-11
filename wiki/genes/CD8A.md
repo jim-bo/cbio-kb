@@ -49,29 +49,13 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:39386723](../papers/39386723.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29713003](../papers/29713003.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:27169994](../papers/27169994.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:27939400](../papers/27939400.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:30742122](../papers/30742122.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

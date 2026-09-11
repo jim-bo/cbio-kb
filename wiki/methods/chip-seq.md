@@ -34,32 +34,14 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 - Direct comparison with published A673 Ewing-cell ChIP-seq revealed virtually no peak overlap at the binding-site level, yet 37% of bound genes were shared — reflecting a transition from intronic/intergenic binding in the cell-of-origin context to promoter binding in established tumor cells.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466568](../papers/26466568.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26977886](../papers/26977886.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37119971](../papers/37119971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

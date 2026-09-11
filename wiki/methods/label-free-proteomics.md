@@ -33,11 +33,7 @@ Label-free quantitative proteomics uses liquid chromatography tandem mass spectr
 - Not in cBioPortal gene-panels or molecular-profiles ontologies; corpus-grown slug.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37119971](../papers/37119971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

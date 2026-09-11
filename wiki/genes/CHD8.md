@@ -37,8 +37,6 @@ CHD8 (Chromodomain Helicase DNA Binding Protein 8) is an ATP-dependent chromatin
 ## Sources
 
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36201743](../papers/36201743.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

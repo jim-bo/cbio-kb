@@ -46,37 +46,15 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 ## Sources
 
 - [PMID:22722202](../papers/22722202.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27276561](../papers/27276561.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28027327](../papers/28027327.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713003](../papers/29713003.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:38212634](../papers/38212634.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -32,26 +32,12 @@ Computational method applied to multiregion tumor sequencing data to infer the e
 - Parallel (convergent) driver hits across independent branches can be misinterpreted as single truncal events without multiregion data [PMID:24487277](../papers/24487277.md).
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25470049](../papers/25470049.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28445469](../papers/28445469.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625057](../papers/29625057.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:24030381](../papers/24030381.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

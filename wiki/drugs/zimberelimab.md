@@ -39,5 +39,3 @@ No resistance mechanisms reported in the corpus at this time.
 - [PMID:41941260](../papers/41941260.md) — Gregucci et al. 2026, *Clin Cancer Res*. ROBIN white paper; ImmunoRad MCT2 (NCT05024097) preliminary CR data with SCRT + etrumadenant + zimberelimab + FOLFOX in rectal cancer.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
-
-*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -57,8 +57,6 @@ The TCGA Lower-Grade Glioma ([LGG](../cancer_types/LGG.md)) cohort is a large, m
 - cBioPortal study: `lgg_tcga` — https://www.cbioportal.org/study/summary?id=lgg_tcga
 - TCGA LGG marker paper: Brat et al. 2015, *NEJM* (PMID 26061751).
 - [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*, DOI 10.1016/j.cell.2015.12.028.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

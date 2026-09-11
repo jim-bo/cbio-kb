@@ -29,17 +29,9 @@ VEP (Variant Effect Predictor), developed by Ensembl, annotates genetic variants
 - Annotation accuracy depends on the transcript build and version of VEP used; MC3 used [vcf2maf](../methods/vcf2maf.md) v1.6.11.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30333627](../papers/30333627.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

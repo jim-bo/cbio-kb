@@ -24,6 +24,6 @@ snATAC-seq profiles chromatin accessibility at single-nucleus resolution, using 
 - Coverage, gene list, limitations.
 
 ## Sources
+- [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **entity-page-writer** on **2026-09-10**.*
-- [PMID:40097403](../papers/40097403.md)

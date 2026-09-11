@@ -38,11 +38,7 @@ RPL22L1 (Ribosomal Protein L22 Like 1) is a paralogue of [RPL22](../genes/RPL22.
 ## Sources
 
 - [PMID:31068700](../papers/31068700.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

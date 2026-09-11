@@ -37,8 +37,6 @@ SNAI1 encodes Snail, a zinc-finger transcription factor that represses E-cadheri
 ## Sources
 
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

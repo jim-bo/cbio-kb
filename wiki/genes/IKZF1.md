@@ -41,14 +41,8 @@ IKZF1 (IKAROS Family Zinc Finger 1, also known as Ikaros) encodes a zinc-finger 
 ## Sources
 
 - [PMID:23334668](../papers/23334668.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27776115](../papers/27776115.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

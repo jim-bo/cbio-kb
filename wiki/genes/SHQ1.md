@@ -39,14 +39,8 @@ SHQ1 encodes an H/ACA ribonucleoprotein assembly factor involved in pseudouridyl
 ## Sources
 
 - [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

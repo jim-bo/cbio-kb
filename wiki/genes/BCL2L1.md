@@ -39,14 +39,8 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 ## Sources
 
 - [PMID:22960745](../papers/22960745.md) — TCGA comprehensive genomic characterization of lung squamous cell carcinoma (178 tumors)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41018102](../papers/41018102.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

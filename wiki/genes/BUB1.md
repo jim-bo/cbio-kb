@@ -38,11 +38,7 @@ BUB1 (BUB1 Mitotic Checkpoint Serine/Threonine Kinase) encodes a kinase essentia
 ## Sources
 
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

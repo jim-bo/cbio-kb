@@ -70,8 +70,6 @@ The ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) cohort is the canonic
 - PCAWG Consortium. *Nature* 578, 82–93 (2020). [PMID:32025007](../papers/32025007.md)
 - ICGC Data Portal: https://dcc.icgc.org/pcawg
 - AWS open data: s3://pcawg.icgc.org
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

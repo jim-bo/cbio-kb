@@ -42,8 +42,6 @@ Non-Seminomatous Germ Cell Tumor encompasses testicular germ cell tumors with no
 ## Sources
 
 - [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 126 NSGCT in MSK cohort of 180 advanced GCT; TP53 exclusive to [cisplatin](../drugs/cisplatin.md) resistance; 72% TP53 in primary mediastinal nonseminoma.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32897884](../papers/32897884.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

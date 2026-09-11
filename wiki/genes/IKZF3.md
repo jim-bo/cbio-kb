@@ -40,11 +40,7 @@ IKZF3 (IKAROS Family Zinc Finger 3, also known as Aiolos) is a zinc-finger trans
 ## Sources
 
 - [PMID:23334668](../papers/23334668.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:26466571](../papers/26466571.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

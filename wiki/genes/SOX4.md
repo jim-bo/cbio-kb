@@ -42,8 +42,6 @@ SOX4 (SRY-Box Transcription Factor 4) is a transcription factor involved in neur
 ## Sources
 
 - [PMID:27806376](../papers/27806376.md)
-
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

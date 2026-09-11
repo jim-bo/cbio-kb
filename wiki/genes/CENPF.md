@@ -41,8 +41,6 @@ CENPF encodes centromere protein F (also known as mitosin), a large nuclear matr
 ## Sources
 
 - [PMID:38117484](../papers/38117484.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

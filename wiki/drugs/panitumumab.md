@@ -33,14 +33,8 @@ Panitumumab is a fully human IgG2 monoclonal antibody that binds the extracellul
 ## Sources
 
 - [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -37,8 +37,6 @@ MAML1 (Mastermind Like Transcriptional Coactivator 1) is a transcriptional coact
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

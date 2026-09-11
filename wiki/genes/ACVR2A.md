@@ -39,14 +39,8 @@ ACVR2A encodes Activin A receptor type 2A, a serine/threonine kinase receptor in
 ## Sources
 
 - [PMID:22810696](../papers/22810696.md) — TCGA CRC comprehensive molecular characterization (276 tumors)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

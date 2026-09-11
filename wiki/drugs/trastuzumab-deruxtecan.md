@@ -42,23 +42,11 @@ Trastuzumab deruxtecan (T-DXd) is an anti-HER2 antibody-drug conjugate (ADC) com
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. 2025, CALGB 90601 cfDNA; [ERBB2](../genes/ERBB2.md) prognostic burden in mUC, [trastuzumab](../drugs/trastuzumab.md) deruxtecan highlighted as ADC candidate.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41008893](../papers/41008893.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39031567](../papers/39031567.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40379787](../papers/40379787.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

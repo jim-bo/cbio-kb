@@ -34,26 +34,12 @@ Liquid chromatography tandem mass spectrometry (LC-MS/MS) whole-cell proteomics 
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41063451](../papers/41063451.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40694421](../papers/40694421.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

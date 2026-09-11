@@ -37,8 +37,6 @@ FOXP2 encodes a forkhead box transcription factor best known for its role in spe
 ## Sources
 
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

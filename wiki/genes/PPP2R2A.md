@@ -37,8 +37,6 @@ PPP2R2A encodes the B55-alpha regulatory subunit of PP2A (Protein Phosphatase 2A
 ## Sources
 
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

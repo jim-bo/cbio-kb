@@ -37,8 +37,6 @@ TEAD1 encodes a TEA domain transcription factor that is the primary nuclear effe
 ## Sources
 
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:31978347](../papers/31978347.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

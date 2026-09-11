@@ -29,14 +29,8 @@ PRADA (Pipeline for RNA-seq Data Analysis) is a computational framework develope
 - Particularly effective for detecting intragenic structural variants in driver oncogenes like EGFR and PDGFRA.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

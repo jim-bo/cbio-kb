@@ -27,8 +27,6 @@ Masson trichrome staining is a histological technique that uses three dyes to di
 - Often paired with immunohistochemistry for markers such as α-SMA (ACTA2) to characterize myofibroblast content.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

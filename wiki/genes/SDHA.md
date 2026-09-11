@@ -38,11 +38,7 @@ SDHA encodes the catalytic flavoprotein subunit of the succinate dehydrogenase c
 ## Sources
 
 - [PMID:37477937](../papers/37477937.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36593350](../papers/36593350.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

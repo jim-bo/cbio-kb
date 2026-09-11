@@ -37,8 +37,6 @@ ABCB1 (also known as MDR1 or P-glycoprotein) encodes an ATP-binding cassette tra
 ## Sources
 
 - [PMID:22802077](../papers/22802077.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

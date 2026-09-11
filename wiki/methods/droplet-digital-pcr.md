@@ -35,20 +35,10 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 - Unverified corpus-grown slug; not a cBioPortal gene panel identifier.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35078859](../papers/35078859.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:38347189](../papers/38347189.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

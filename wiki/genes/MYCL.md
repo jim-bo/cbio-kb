@@ -45,23 +45,11 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 
 - [PMID:22941188](../papers/22941188.md) — SCLC WES/WGS, CLCGP, 29 tumors
 - [PMID:22941189](../papers/22941189.md) — SCLC WES/WGS, JHU, 36 tumors
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

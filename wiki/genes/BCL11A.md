@@ -38,8 +38,6 @@ BCL11A is a zinc-finger transcription factor with roles in lymphocyte developmen
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

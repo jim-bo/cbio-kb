@@ -37,8 +37,6 @@ BTG2 (BTG Anti-Proliferation Factor 2) encodes an anti-proliferative protein tha
 ## Sources
 
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

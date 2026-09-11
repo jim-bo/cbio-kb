@@ -41,20 +41,10 @@ dNdScv (dN/dS in cancer using a Poisson framework with covariate correction) is 
 - [PMID:33106634](../papers/33106634.md) — Bolton et al., clonal hematopoiesis in 24,146 cancer patients; dNdScv used to map positive selection in CH across cancer types and treatment exposures.
 
 - [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35487942](../papers/35487942.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40097403](../papers/40097403.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

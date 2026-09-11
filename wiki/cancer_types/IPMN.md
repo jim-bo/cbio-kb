@@ -35,8 +35,6 @@ Intraductal papillary mucinous neoplasm (IPMN) is a cystic precursor lesion of t
 ## Sources
 
 - [PMID:22158988](../papers/22158988.md) — WES of 8 IPMN cases defining somatic mutation landscape.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

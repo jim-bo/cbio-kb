@@ -28,11 +28,7 @@ A standardized framework for interpreting the pathogenicity of germline sequence
 - VUS interpretation remains a major challenge, particularly for missense variants in genes with limited functional data.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:34405229](../papers/34405229.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35443055](../papers/35443055.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

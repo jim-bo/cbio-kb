@@ -37,8 +37,6 @@ Quantitative extraction of a large panel of mathematical features (intensity sta
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:37397861](../papers/37397861.md)
 - [PMID:35764743](../papers/35764743.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36038778](../papers/36038778.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*

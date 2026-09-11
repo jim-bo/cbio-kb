@@ -35,26 +35,12 @@ Random forest is an ensemble machine learning algorithm that constructs multiple
 ## Sources
 
 - [PMID:41018102](../papers/41018102.md) — Gut-liver axis review in cholangiocarcinoma (narrative review reporting random forest classifier performance for CCA microbiome diagnostics)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29670109](../papers/29670109.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30471129](../papers/30471129.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:41057477](../papers/41057477.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36201743](../papers/36201743.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:39550333](../papers/39550333.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

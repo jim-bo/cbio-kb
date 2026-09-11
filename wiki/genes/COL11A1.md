@@ -37,8 +37,6 @@ COL11A1 encodes the alpha-1 chain of type XI collagen, an extracellular matrix s
 ## Sources
 
 - [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:36815791](../papers/36815791.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

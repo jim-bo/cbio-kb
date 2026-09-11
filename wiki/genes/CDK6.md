@@ -55,8 +55,6 @@ CDK6 (Cyclin-Dependent Kinase 6) partners with Cyclin D proteins to phosphorylat
 - [PMID:35292802](../papers/35292802.md)
 
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40379787](../papers/40379787.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

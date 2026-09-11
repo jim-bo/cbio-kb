@@ -68,10 +68,6 @@ The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive mul
 
 - Ciriello G et al. "Comprehensive molecular portraits of invasive lobular breast cancer." Cell. 2015;163(2):506-519. [PMID:26451490](../papers/26451490.md). DOI: 10.1016/j.cell.2015.09.033.
 - Kan Z et al. "Multi-omics profiling of younger Asian breast cancers reveals distinct molecular subtypes and age-associated differences." Nature Communications. 2018;9(1):1725. [PMID:29713003](../papers/29713003.md). DOI: 10.1038/s41467-018-04129-4.
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33212010](../papers/33212010.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

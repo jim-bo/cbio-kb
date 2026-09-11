@@ -69,31 +69,15 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 - [PMID:40834854](../papers/40834854.md) — Five HiTME ccRCC TME subtypes and multi-omic ICI/TKI response prediction models (meta-cohort n=3,621; validation WU-RCC n=193).
 - [PMID:23792563](../papers/23792563.md)
 - [PMID:41102155](../papers/41102155.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24487277](../papers/24487277.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
 
 - [PMID:29301960](../papers/29301960.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27169994](../papers/27169994.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:29867230](../papers/29867230.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36815791](../papers/36815791.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

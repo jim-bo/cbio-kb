@@ -59,32 +59,14 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 
 - [PMID:37643132](../papers/37643132.md) — Assessing the Genomic Landscape of Cervical Cancers: Clinical Opportunities and Therapeutic Targets (Clinical Cancer Research, 2023)
 - [PMID:41941260](../papers/41941260.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). TP53 mutation rate 25% in recurrent/metastatic CESC vs 3% in TCGA primary cervix (OR 8.3, P=.008).
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
 - [PMID:29422544](../papers/29422544.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

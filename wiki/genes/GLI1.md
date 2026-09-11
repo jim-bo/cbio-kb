@@ -38,11 +38,7 @@ GLI1 (GLI Family Zinc Finger 1) is a transcriptional effector of the Hedgehog si
 ## Sources
 
 - [PMID:37730754](../papers/37730754.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28472509](../papers/28472509.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

@@ -43,8 +43,6 @@ TSHR (Thyroid Stimulating Hormone Receptor) is a G protein-coupled receptor that
 ## Sources
 
 - [PMID:25417114](../papers/25417114.md) — TCGA integrated genomic characterization of 496 papillary thyroid carcinomas.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

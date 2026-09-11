@@ -39,8 +39,6 @@ Purine nucleoside analog; historical backbone of CLL chemoimmunotherapy. [RRM1](
 - [PMID:26466571](../papers/26466571.md) — Landau et al. (Nature 2015). CLL8 trial genomics; FC/FCR regimen prognostic landscape in 538 CLL patients.
 - [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU AML/MDS decitabine trial; fludarabine referenced as SCT conditioning context; allogeneic SCT was the dominant survival predictor.
 - [PMID:40857049](../papers/40857049.md) — Briese et al. 2018. Germline LP/PVs in 25 HBOC genes across 372 pediatric cancer patients (Düsseldorf); fludarabine HSCT conditioning associated with fatal neurotoxicity in TP53 LP/PV carrier.
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

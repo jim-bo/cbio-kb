@@ -36,32 +36,14 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - Orthotopic models (injecting into the organ of origin) better recapitulate the native tumor microenvironment but are technically more demanding.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25470049](../papers/25470049.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:40694421](../papers/40694421.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26829750](../papers/26829750.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:34544752](../papers/34544752.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34795269](../papers/34795269.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

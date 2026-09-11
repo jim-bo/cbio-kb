@@ -56,26 +56,12 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - [PMID:41018102](../papers/41018102.md)
 - [PMID:28667006](../papers/28667006.md)
 - [PMID:34145282](../papers/34145282.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

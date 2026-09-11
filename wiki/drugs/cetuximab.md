@@ -45,38 +45,16 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 ## Sources
 
 - [PMID:27698471](../papers/27698471.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31591597](../papers/31591597.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34358469](../papers/34358469.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

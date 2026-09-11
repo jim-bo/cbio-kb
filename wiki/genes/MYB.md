@@ -45,32 +45,14 @@ MYB (v-myb avian myeloblastosis viral oncogene homolog) is a transcription facto
 ## Sources
 
 - [PMID:38117484](../papers/38117484.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23778141](../papers/23778141.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39760648](../papers/39760648.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

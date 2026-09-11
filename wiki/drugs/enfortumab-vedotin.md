@@ -34,8 +34,6 @@ Nectin-4-directed antibody-drug conjugate delivering the microtubule disruptor M
 
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA study; EV+pembrolizumab cited as supplanting cisplatin-based first-line therapy in mUC, contextualizing the clinical relevance of the biomarker findings.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:39642637](../papers/39642637.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

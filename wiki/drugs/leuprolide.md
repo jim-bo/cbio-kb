@@ -35,8 +35,6 @@ Leuprolide (Lupron) is a synthetic GnRH (gonadotropin-releasing hormone) agonist
 ## Sources
 
 - [PMID:39506116](../papers/39506116.md) — Jee et al. 2024, *Nature*. MSK-CHORD real-world data integration; leuprolide as NLP-extracted prior treatment in the prostate cancer cohort.
-
-*This page was processed by **crosslinker** on **2026-04-30**.*
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -37,8 +37,6 @@ SPART (formerly SPG20, also known as Spartin) encodes a multifunctional protein 
 ## Sources
 
 - [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:29670109](../papers/29670109.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

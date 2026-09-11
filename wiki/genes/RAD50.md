@@ -38,11 +38,7 @@ RAD50 encodes a component of the MRN (MRE11-RAD50-NBN) complex, essential for DN
 ## Sources
 
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

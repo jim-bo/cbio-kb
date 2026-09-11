@@ -39,11 +39,7 @@ MSK-ACCESS is a targeted next-generation sequencing panel for cell-free DNA from
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:40256659](../papers/40256659.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:42360806](../papers/42360806.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

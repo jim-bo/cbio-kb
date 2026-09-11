@@ -39,14 +39,8 @@ PAX8 (Paired Box 8) encodes a transcription factor critical for renal and thyroi
 ## Sources
 
 - [PMID:41102155](../papers/41102155.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -38,11 +38,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 ## Sources
 
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

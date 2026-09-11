@@ -77,8 +77,6 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 
 - TCGA data portal / GDC
 - cBioPortal study ID: blca_tcga_pub
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

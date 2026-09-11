@@ -29,8 +29,6 @@ OncodriveCLUST is a bioinformatics method for detecting cancer driver genes base
 ## Sources
 
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:35487942](../papers/35487942.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

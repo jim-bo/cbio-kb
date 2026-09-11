@@ -42,8 +42,6 @@ MAP3K13 (also known as LZK) is a serine/threonine kinase that functions in the J
 ## Sources
 
 - [PMID:22722201](../papers/22722201.md) — Breast cancer WES, 100 tumors, Sanger cohort; driver landscape study.
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

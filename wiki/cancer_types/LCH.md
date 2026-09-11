@@ -37,11 +37,7 @@ Langerhans Cell Histiocytosis is a Histiocytosis (parent HDCN).
 ## Sources
 
 - [PMID:36862133](../papers/36862133.md)
-
-*This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:40857049](../papers/40857049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30867592](../papers/30867592.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

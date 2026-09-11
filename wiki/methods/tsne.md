@@ -28,11 +28,7 @@ t-SNE is a nonlinear dimensionality-reduction algorithm that maps high-dimension
 - Reference implementation: Rtsne (R) or scikit-learn/MulticoreTSNE (Python).
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

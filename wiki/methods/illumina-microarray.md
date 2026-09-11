@@ -30,14 +30,8 @@ Hybridization-based gene-expression profiling using Illumina BeadChip arrays (e.
 ## Sources
 
 - [PMID:30325352](../papers/30325352.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23897969](../papers/23897969.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -32,23 +32,11 @@ RSEM uses an expectation-maximization algorithm to estimate transcript- and gene
 - RSEM requires pre-built reference indices (rsem-prepare-reference) that include transcript and genome FASTA plus annotation GTF.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:41000773](../papers/41000773.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

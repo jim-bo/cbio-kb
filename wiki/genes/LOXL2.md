@@ -37,8 +37,6 @@ LOXL2 (Lysyl Oxidase Like 2) is a member of the lysyl oxidase family of amine ox
 ## Sources
 
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

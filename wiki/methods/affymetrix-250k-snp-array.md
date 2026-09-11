@@ -30,8 +30,6 @@ The Affymetrix 250K SNP Array is a high-density oligonucleotide microarray platf
 
 - [PMID:20601955](../papers/20601955.md)
 - [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

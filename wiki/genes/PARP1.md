@@ -38,17 +38,9 @@ PARP1 (Poly ADP-Ribose Polymerase 1) is a key enzyme in the base excision repair
 ## Sources
 
 - [PMID:40896366](../papers/40896366.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:41049615](../papers/41049615.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

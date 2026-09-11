@@ -40,16 +40,10 @@ Rucaparib is an oral PARP1/2 inhibitor with FDA approval for germline BRCA1/2-mu
 ## Sources
 
 - [PMID:39753968](../papers/39753968.md) — Zhu et al. 2024, MSK PDAC cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md)); PARPi outcomes in BRCA2-mutant PDAC.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41071892](../papers/41071892.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; rucaparib named as PARPi class member; high [TRMT10A](../genes/TRMT10A.md) expression tracks with PARPi resistance across the class.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37980418](../papers/37980418.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

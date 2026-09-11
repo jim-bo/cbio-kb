@@ -63,8 +63,6 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 - [PMID:30333627](../papers/30333627.md)
 
 - [PMID:31768066](../papers/31768066.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

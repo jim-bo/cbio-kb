@@ -43,8 +43,6 @@ SYNE2 (Spectrin Repeat Containing Nuclear Envelope Protein 2) encodes a large nu
 ## Sources
 
 - [PMID:21798893](../papers/21798893.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:22495314](../papers/22495314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

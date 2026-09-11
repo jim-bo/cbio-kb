@@ -32,11 +32,7 @@ PLK1 (Polo-Like Kinase 1) is a serine/threonine kinase that plays a central role
 ## Sources
 
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32059776](../papers/32059776.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

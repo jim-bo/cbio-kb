@@ -33,8 +33,6 @@ Bortezomib is a first-in-class boronic-acid proteasome inhibitor that reversibly
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO functional precision-medicine platform; bortezomib subtype sensitivity patterns; chordoma relative resistance.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

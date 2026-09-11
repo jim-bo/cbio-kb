@@ -37,8 +37,6 @@ KLF4 (Kruppel-Like Factor 4) is a transcription factor involved in cell differen
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -41,11 +41,7 @@ FAT3 encodes a member of the FAT cadherin family, large transmembrane proteins i
 ## Sources
 
 - [PMID:21720365](../papers/21720365.md) — TCGA integrated genomic analysis of ovarian carcinoma (HGSOC)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

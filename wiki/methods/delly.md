@@ -31,23 +31,11 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 - Commonly used in ensemble SV-calling pipelines with CREST and Pindel.
 
 ## Sources
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:38335254](../papers/38335254.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

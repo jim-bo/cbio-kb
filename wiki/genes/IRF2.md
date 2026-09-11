@@ -36,8 +36,6 @@ IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates i
 ## Sources
 
 - [PMID:25369299](../papers/25369299.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

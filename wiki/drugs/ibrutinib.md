@@ -31,8 +31,6 @@ Covalent BTK inhibitor; standard-of-care in CLL and other B-cell malignancies.
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
-
-*This page was processed by **crosslinker** on **2026-04-09**.*
 - [PMID:30333627](../papers/30333627.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

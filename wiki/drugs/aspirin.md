@@ -31,8 +31,6 @@ _None yet recorded._
 ## Sources
 
 - [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*

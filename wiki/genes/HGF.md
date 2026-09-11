@@ -43,17 +43,9 @@ HGF (hepatocyte growth factor) is the ligand for the [MET](../genes/MET.md) rece
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30052636](../papers/30052636.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -42,8 +42,6 @@ NTNG1 (Netrin-G1) encodes a GPI-anchored netrin family protein involved in axon 
 ## Sources
 
 - [PMID:39975212](../papers/39975212.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

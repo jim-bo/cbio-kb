@@ -76,14 +76,8 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 - [PMID:31693904](../papers/31693904.md)
 
 - [PMID:35078859](../papers/35078859.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:37990009](../papers/37990009.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

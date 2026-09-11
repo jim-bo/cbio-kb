@@ -39,8 +39,6 @@ IKZF2 (IKAROS Family Zinc Finger 2, also known as Helios) is a zinc-finger trans
 ## Sources
 
 - [PMID:23334668](../papers/23334668.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:41002550](../papers/41002550.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

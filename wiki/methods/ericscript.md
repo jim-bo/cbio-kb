@@ -26,8 +26,6 @@ EricScript is a computational tool for discovering gene fusions in paired-end RN
 - Applied with minimum inter-gene distance cutoffs (5 kb and 100 kb) to reduce readthrough/artifact calls.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

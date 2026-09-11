@@ -85,6 +85,11 @@ def _update_frontmatter(text: str, pmid: str, today: str) -> str:
     return text[: m.start(1)] + new_fm + text[m.end(1) :]
 
 
+_FOOTER_LINE_RE = re.compile(
+    r"^\*This page was processed by \*\*[^*]+\*\* on \*\*[^*]+\*\*\.\*\s*$"
+)
+
+
 def _update_footer(text: str, today: str) -> str:
     """Rewrite the trailing provenance footer."""
     footer_re = re.compile(
@@ -125,7 +130,13 @@ def run(
         }
 
     text = page_path.read_text()
-    lines = text.splitlines()
+    # Drop provenance footers before editing: when Sources is the last section
+    # its range runs to EOF and would include the footer, so the new entry
+    # landed after it and every call stranded another footer mid-list.
+    # _update_footer writes back exactly one at the end.
+    lines = [ln for ln in text.splitlines() if not _FOOTER_LINE_RE.match(ln)]
+    while lines and not lines[-1].strip():
+        lines.pop()
 
     # Idempotency: check if PMID already present
     pmid_pattern = f"PMID:{pmid}"

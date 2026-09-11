@@ -40,17 +40,9 @@ SUZ12 encodes a core component of the Polycomb Repressive Complex 2 (PRC2), whic
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25240281](../papers/25240281.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32561749](../papers/32561749.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

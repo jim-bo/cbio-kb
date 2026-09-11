@@ -60,14 +60,8 @@ The foundational MSK-IMPACT clinical sequencing cohort (Zehir et al. 2017) compr
 - Zehir A, et al. *Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients.* Nat Med. 2017. [PMID:28481359](../papers/28481359.md)
 - [PMID:29610475](../papers/29610475.md)
 - [PMID:33863915](../papers/33863915.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

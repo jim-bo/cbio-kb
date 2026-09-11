@@ -42,14 +42,8 @@ STAT1 is a Th1 signaling transcription factor included in the 20-gene Immunologi
 
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:39386723](../papers/39386723.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

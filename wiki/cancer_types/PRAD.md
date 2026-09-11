@@ -134,26 +134,12 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:34667026](../papers/34667026.md)
 
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36001024](../papers/36001024.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:38335254](../papers/38335254.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:40100215](../papers/40100215.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:41895280](../papers/41895280.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -35,8 +35,6 @@ TFAP4 (Transcription Factor AP-4) is a basic helix-loop-helix leucine zipper tra
 ## Sources
 
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:41062477](../papers/41062477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

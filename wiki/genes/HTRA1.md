@@ -37,8 +37,6 @@ HTRA1 (High-Temperature Requirement Serine Peptidase A1) is a secreted serine pr
 ## Sources
 
 - [PMID:33025139](../papers/33025139.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

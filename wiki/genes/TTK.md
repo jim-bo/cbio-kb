@@ -37,8 +37,6 @@ TTK (TTK Protein Kinase), also known as MPS1, encodes a dual-specificity kinase 
 ## Sources
 
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

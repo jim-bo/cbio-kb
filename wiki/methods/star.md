@@ -34,29 +34,13 @@ STAR is a splice-aware RNA-seq alignment tool that maps short reads to a referen
 - Commonly paired with RSEM (transcript-level) or featureCounts/HTSeq (gene-level) for expression quantification.
 
 ## Sources
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25240281](../papers/25240281.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28373299](../papers/28373299.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28783718](../papers/28783718.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:40970133](../papers/40970133.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35121644](../papers/35121644.md)
-
-*This page was processed by **wiki-cli** on **2026-09-10**.*
 - [PMID:36001024](../papers/36001024.md)
 
 *This page was processed by **wiki-cli** on **2026-09-10**.*

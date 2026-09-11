@@ -36,8 +36,6 @@ Hepatocellular Adenoma (HCA) is a benign liver tumor classified under Hepatobili
 ## Sources
 
 - [PMID:25369299](../papers/25369299.md) — Pinyol et al. (2014), narrative review of HCC/HCA molecular profiling and targeted therapy landscape.
-
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:30052636](../papers/30052636.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

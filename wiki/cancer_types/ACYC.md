@@ -48,14 +48,8 @@ Adenoid Cystic Carcinoma is a rare salivary gland cancer (OncoTree mainType: Sal
 - [PMID:26631609](../papers/26631609.md)
 - [PMID:26829750](../papers/26829750.md)
 - [PMID:26862087](../papers/26862087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). [NOTCH1](../genes/NOTCH1.md) enrichment and first [TERT](../genes/TERT.md) promoter mutations in salivary cancer; 36 recurrent/metastatic ACYC.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*

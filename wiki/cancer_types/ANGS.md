@@ -48,14 +48,8 @@ Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarco
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 44 RT-angiosarcomas.
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41113956](../papers/41113956.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
